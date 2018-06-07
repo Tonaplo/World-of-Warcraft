@@ -400,7 +400,7 @@ local function createGeneralFrame(parent)
 	addObject(elm,other)
 	
 	local otherFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-otherFrame", child, "ThinBorderTemplate");
-	otherFrame:SetSize(child:GetWidth(),90)
+	otherFrame:SetSize(child:GetWidth(),110)
 	otherFrame:SetPoint("TOPLEFT",other,0,-frameSpacer);
 	addObject(elm,otherFrame)
 	
@@ -441,15 +441,15 @@ local function createGeneralFrame(parent)
 			GameTooltip:Show();
 		end);
 	autoMinilist:SetPoint("TOPLEFT",minimapButton,0,-frameSpacer)
-	addObject(elm,autoMinilist)	
+	addObject(elm,autoMinilist)
 	
 	-- show profession mini list auto
 	local autoProfessionMinilist = createCheckBox("Show the Profession Mini List Automatically", child, function(self)
 			app.SetDataMember("AutoProfessionMiniList", self:GetChecked());
 			if self:GetChecked() then
-				app.OpenMiniListForCurrentProfession(true, true);
+				app:OpenMiniListForCurrentProfession(true, true);
 			else
-				app.GetWindow("Tradeskills"):SetVisible(false);
+				app:GetWindow("Tradeskills"):SetVisible(false);
 			end
 		end, 
 		function(self) 
@@ -464,6 +464,24 @@ local function createGeneralFrame(parent)
 	autoProfessionMinilist.Label:SetWidth(autoProfessionMinilist.Label:GetWidth() * 1.5);
 	addObject(elm,autoProfessionMinilist)
 	
+	-- show raid assistant auto
+	local autoRaidAssistant = createCheckBox("Show the Raid Assistant Automatically", child, function(self)
+			app.SetDataMember("AutoRaidAssistant", self:GetChecked());
+			if self:GetChecked() then
+				app:GetWindow("RaidAssistant"):Show();
+			end
+		end, 
+		function(self) 
+			self:SetChecked(app.GetDataMember("AutoRaidAssistant", false));
+		end,
+		function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see an alternative group/party/raid settings manager called the 'Raid Assistant'. The list will automatically update whenever group settings change.\n\nDrag the window and rescale it where you want it to appear.\n\nYou can also bind this setting to a Key.\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Raid Assistant", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+	autoRaidAssistant:SetPoint("TOPLEFT",autoProfessionMinilist,0,-frameSpacer)
+	addObject(elm,autoRaidAssistant)
+	
 	-- auto minimize when not applicable 
 	local autoMin = createCheckBox("Automatically Minimize Inactive Difficulties in Mini Lists", child, function(self)
 			app.SetDataMember("AutoMinimize", self:GetChecked());
@@ -476,7 +494,7 @@ local function createGeneralFrame(parent)
 			GameTooltip:SetText ("Enable this option if you want to automatically minimize difficulty headers in the mini list that are not active when you enter a dungeon or raid.\n\nExample: Minimize the Heroic header when in a Normal difficulty dungeon", nil, nil, nil, nil, true);
 			GameTooltip:Show();
 		end);
-	autoMin:SetPoint("TOPLEFT",autoProfessionMinilist,0,-frameSpacer)
+	autoMin:SetPoint("TOPLEFT",autoRaidAssistant,0,-frameSpacer)
 	autoMin.Label:SetWidth(autoMin.Label:GetWidth() * 1.5);
 	addObject(elm,autoMin)
 end
@@ -747,7 +765,7 @@ local function createAccountFrame(parent)
 	addObject(elm,unobtainable)
 	
 	local unobtainableFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-unobtainableFrame", child, "ThinBorderTemplate");
-	unobtainableFrame:SetSize(child:GetWidth(),480)
+	unobtainableFrame:SetSize(child:GetWidth(),500)
 	unobtainableFrame:SetPoint("TOPLEFT",unobtainable,0,-frameSpacer);
 	addObject(elm,unobtainableFrame)
 	
@@ -1063,7 +1081,7 @@ local function createAccountFrame(parent)
 	addObject(elm,legacy)
 	
 	local legacyFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-legacyFrame", child, "ThinBorderTemplate");
-	legacyFrame:SetSize(unobtainableFrame:GetWidth()-20,60)
+	legacyFrame:SetSize(unobtainableFrame:GetWidth()-20,80)
 	legacyFrame:SetPoint("TOPLEFT",legacy,0,-frameSpacer);
 	addObject(elm,legacyFrame)
 	
@@ -1383,7 +1401,7 @@ local function createMiniListFrame(parent)
 	addObject(elm,item)
 	
 	local itemFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-itemFrame", child, "ThinBorderTemplate");
-	itemFrame:SetSize(child:GetWidth()/2.5,220)
+	itemFrame:SetSize(child:GetWidth()/2.5,280)
 	itemFrame:SetPoint("TOPLEFT",item,0,-frameSpacer);
 	addObject(elm,itemFrame)
 	
@@ -1391,7 +1409,7 @@ local function createMiniListFrame(parent)
 	local itemFilters = app.GetPersonalDataMember("ItemFilters");
 	local last = item;
 	local x = 5
-	for i,filter in ipairs({ 55, 100, 101, 102, 103, 104, 108, 110, 113, 200 }) do
+	for i,filter in ipairs({ 50, 55, 56, 57, 100, 101, 102, 103, 104, 108, 110, 113, 200 }) do
 		local filter = createCheckBox(itemFilterNames[filter] .. " (" .. filter .. ")", child, function(self)
 			itemFilters[filter] = self:GetChecked();
 			app:RefreshData();
@@ -1408,7 +1426,7 @@ local function createMiniListFrame(parent)
 		end
 	end
 	
-	local window =  app:GetWindow("settings", child, true)
+	local window =  app:GetWindow("settings", child)
 	--local allData = window.data;
 	--local groups = {};
 	--allData.groups = groups;
@@ -1767,6 +1785,7 @@ local function createDebugFrame(parent)
 		["ShowArtifactID"] = "Show Artifact ID",
 		["ShowBonusID"] = "Show Bonus ID",
 		["ShowCreatureID"] = "Show Creature ID",
+		["ShowCurrencyID"] = "Show Currency ID",
 		["ShowDifficultyID"] = "Show Difficulty ID",
 		["ShowEncounterID"] = "Show Encounter ID",
 		["ShowFactionID"] = "Show Faction ID",
@@ -1787,7 +1806,7 @@ local function createDebugFrame(parent)
 		["ShowVisualID"] = "Show Visual ID",
 		}
 	local last;
-	for _,id in pairs ({"ShowAchievementID","ShowArtifactID","ShowBonusID","ShowCreatureID","ShowDifficultyID","ShowEncounterID","ShowFactionID","ShowFilterID","ShowIllusionID","ShowInstanceID","ShowItemID","ShowItemString","ShowMapID","ShowModID","ShowObjectID","ShowQuestID","ShowSourceID","ShowSpeciesID","ShowSpellID","ShowTierID","ShowTitleID","ShowVisualID"}) do
+	for _,id in pairs ({"ShowAchievementID","ShowArtifactID","ShowBonusID","ShowCreatureID","ShowCurrencyID","ShowDifficultyID","ShowEncounterID","ShowFactionID","ShowFilterID","ShowIllusionID","ShowInstanceID","ShowItemID","ShowItemString","ShowMapID","ShowModID","ShowObjectID","ShowQuestID","ShowSourceID","ShowSpeciesID","ShowSpellID","ShowTierID","ShowTitleID","ShowVisualID"}) do
 		local filter = createCheckBox(ids[id], child, function(self)
 			app.SetDataMember(id, self:GetChecked());
 			wipe(app.searchCache);

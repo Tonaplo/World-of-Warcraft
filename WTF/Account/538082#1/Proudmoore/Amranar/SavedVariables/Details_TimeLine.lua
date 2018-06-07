@@ -1,16 +1,41 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["combat_data"] = {
+		{
+			["date_end"] = "00:07:18",
+			["date_start"] = "00:05:36",
+			["name"] = "Xavius",
+			["total_time"] = 102.493999999999,
+		}, -- [1]
+		{
+			["date_end"] = "00:02:51",
+			["date_start"] = "00:01:58",
+			["name"] = "Cenarius",
+			["total_time"] = 53.6710000000021,
+		}, -- [2]
+		{
+			["date_end"] = "23:57:27",
+			["date_start"] = "23:56:26",
+			["name"] = "Ursoc",
+			["total_time"] = 61.1369999999952,
+		}, -- [3]
+		{
+			["date_end"] = "23:53:27",
+			["date_start"] = "23:52:30",
+			["name"] = "Dragons of Nightmare",
+			["total_time"] = 57.3629999999976,
+		}, -- [4]
 	},
 	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
+			["Lyniix-Thrall"] = {
+				{
+					27.1469999999972, -- [1]
+					"Lyniix-Thrall", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
 			["Amranar"] = {
 				{
 					92.2519999999931, -- [1]
@@ -28,18 +53,11 @@ DetailsTimeLineDB = {
 					22842, -- [3]
 				}, -- [3]
 			},
-			["Hammed-Dath'Remar"] = {
+			["Dopehs-Thrall"] = {
 				{
-					91.4579999999987, -- [1]
-					"Hammed-Dath'Remar", -- [2]
-					48707, -- [3]
-				}, -- [1]
-			},
-			["Lyniix-Thrall"] = {
-				{
-					27.1469999999972, -- [1]
-					"Lyniix-Thrall", -- [2]
-					122470, -- [3]
+					87.8419999999969, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
 				}, -- [1]
 			},
 			["Wolfenstéin-WyrmrestAccord"] = {
@@ -61,11 +79,11 @@ DetailsTimeLineDB = {
 					47788, -- [3]
 				}, -- [2]
 			},
-			["Dopehs-Thrall"] = {
+			["Hammed-Dath'Remar"] = {
 				{
-					87.8419999999969, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
+					91.4579999999987, -- [1]
+					"Hammed-Dath'Remar", -- [2]
+					48707, -- [3]
 				}, -- [1]
 			},
 			["Nimbus-Tichondrius"] = {
@@ -77,11 +95,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [1]
 		{
-			["Amranar"] = {
+			["Dopehs-Thrall"] = {
 				{
-					50.1270000000004, -- [1]
-					"Amranar", -- [2]
-					22842, -- [3]
+					40.9700000000012, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
 				}, -- [1]
 			},
 			["Lyniix-Thrall"] = {
@@ -91,17 +109,12 @@ DetailsTimeLineDB = {
 					122470, -- [3]
 				}, -- [1]
 			},
-			["Tandraelara-Gilneas"] = {
+			["Amranar"] = {
 				{
-					1.19799999999668, -- [1]
-					"Tandraelara-Gilneas", -- [2]
-					47788, -- [3]
-				}, -- [1]
-				{
-					1.19799999999668, -- [1]
+					50.1270000000004, -- [1]
 					"Amranar", -- [2]
-					47788, -- [3]
-				}, -- [2]
+					22842, -- [3]
+				}, -- [1]
 			},
 			["Hammed-Dath'Remar"] = {
 				{
@@ -115,12 +128,17 @@ DetailsTimeLineDB = {
 					48792, -- [3]
 				}, -- [2]
 			},
-			["Dopehs-Thrall"] = {
+			["Tandraelara-Gilneas"] = {
 				{
-					40.9700000000012, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
+					1.19799999999668, -- [1]
+					"Tandraelara-Gilneas", -- [2]
+					47788, -- [3]
 				}, -- [1]
+				{
+					1.19799999999668, -- [1]
+					"Amranar", -- [2]
+					47788, -- [3]
+				}, -- [2]
 			},
 			["Nimbus-Tichondrius"] = {
 				{
@@ -210,6 +228,13 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Dreadwolf-Fenris"] = {
@@ -488,20 +513,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Hammed-Dath'Remar"] = {
-				[212681] = {
-					41.0310000000027, -- [1]
-					42.2940000000017, -- [2]
-					["source"] = "[*] Cleansed Ground",
-					["active"] = false,
-				},
-				[210279] = {
-					43.2730000000011, -- [1]
-					53.6710000000021, -- [2]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-			},
 			["Dopehs-Thrall"] = {
 				[210315] = {
 					36.5409999999974, -- [1]
@@ -517,6 +528,26 @@ DetailsTimeLineDB = {
 				},
 				[210279] = {
 					51.3110000000015, -- [1]
+					53.6710000000021, -- [2]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+			},
+			["Amranar"] = {
+				[210279] = {
+					21.2160000000004, -- [1]
+					53.6710000000021, -- [2]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+				[212681] = {
+					18.8289999999979, -- [1]
+					20.4069999999992, -- [2]
+					["source"] = "[*] Cleansed Ground",
+					["active"] = false,
+				},
+				[214529] = {
+					52.5970000000016, -- [1]
 					53.6710000000021, -- [2]
 					["source"] = "Cenarius",
 					["active"] = false,
@@ -544,6 +575,34 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Wolfenstéin-WyrmrestAccord"] = {
+				[210279] = {
+					29.2459999999992, -- [1]
+					53.6710000000021, -- [2]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+				[210315] = {
+					42.6419999999998, -- [1]
+					53.6710000000021, -- [2]
+					["source"] = "[*] Nightmare Brambles",
+					["active"] = false,
+				},
+			},
+			["Hammed-Dath'Remar"] = {
+				[212681] = {
+					41.0310000000027, -- [1]
+					42.2940000000017, -- [2]
+					["source"] = "[*] Cleansed Ground",
+					["active"] = false,
+				},
+				[210279] = {
+					43.2730000000011, -- [1]
+					53.6710000000021, -- [2]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+			},
 			["Anthaulais-Stormrage"] = {
 				[212681] = {
 					21.4859999999972, -- [1]
@@ -559,40 +618,6 @@ DetailsTimeLineDB = {
 					37.2719999999972, -- [3]
 					53.6710000000021, -- [4]
 					["source"] = "Cenarius",
-					["active"] = false,
-				},
-			},
-			["Amranar"] = {
-				[210279] = {
-					21.2160000000004, -- [1]
-					53.6710000000021, -- [2]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-				[212681] = {
-					18.8289999999979, -- [1]
-					20.4069999999992, -- [2]
-					["source"] = "[*] Cleansed Ground",
-					["active"] = false,
-				},
-				[214529] = {
-					52.5970000000016, -- [1]
-					53.6710000000021, -- [2]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-			},
-			["Wolfenstéin-WyrmrestAccord"] = {
-				[210279] = {
-					29.2459999999992, -- [1]
-					53.6710000000021, -- [2]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-				[210315] = {
-					42.6419999999998, -- [1]
-					53.6710000000021, -- [2]
-					["source"] = "[*] Nightmare Brambles",
 					["active"] = false,
 				},
 			},
@@ -620,13 +645,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Tandraelara-Gilneas"] = {
-				[225042] = {
-					61.1369999999952, -- [1]
-					["source"] = "Corrupted Feeler",
-					["active"] = true,
-				},
-			},
 			["Dopehs-Thrall"] = {
 				[205611] = {
 					43.9019999999946, -- [1]
@@ -639,6 +657,13 @@ DetailsTimeLineDB = {
 					61.1369999999952, -- [2]
 					["source"] = "Ursoc",
 					["active"] = false,
+				},
+			},
+			["Tandraelara-Gilneas"] = {
+				[225042] = {
+					61.1369999999952, -- [1]
+					["source"] = "Corrupted Feeler",
+					["active"] = true,
 				},
 			},
 			["Lyniix-Thrall"] = {
@@ -902,6 +927,18 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Anthaulais-Stormrage"] = {
+				[203102] = {
+					8.02900000000227, -- [1]
+					57.3629999999976, -- [2]
+					["source"] = "Ysondre",
+					["active"] = false,
+				},
+				[203124] = {
+					25.6240000000034, -- [1]
+					34.9820000000036, -- [2]
+					["source"] = "Lethon",
+					["active"] = false,
+				},
 				[204731] = {
 					57.2609999999986, -- [1]
 					57.3629999999976, -- [2]
@@ -914,18 +951,6 @@ DetailsTimeLineDB = {
 					44.0849999999991, -- [3]
 					57.3629999999976, -- [4]
 					["source"] = "Taerar",
-					["active"] = false,
-				},
-				[203102] = {
-					8.02900000000227, -- [1]
-					57.3629999999976, -- [2]
-					["source"] = "Ysondre",
-					["active"] = false,
-				},
-				[203124] = {
-					25.6240000000034, -- [1]
-					34.9820000000036, -- [2]
-					["source"] = "Lethon",
 					["active"] = false,
 				},
 			},
@@ -1003,32 +1028,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "00:07:18",
-			["date_start"] = "00:05:36",
-			["name"] = "Xavius",
-			["total_time"] = 102.493999999999,
-		}, -- [1]
-		{
-			["date_end"] = "00:02:51",
-			["date_start"] = "00:01:58",
-			["name"] = "Cenarius",
-			["total_time"] = 53.6710000000021,
-		}, -- [2]
-		{
-			["date_end"] = "23:57:27",
-			["date_start"] = "23:56:26",
-			["name"] = "Ursoc",
-			["total_time"] = 61.1369999999952,
-		}, -- [3]
-		{
-			["date_end"] = "23:53:27",
-			["date_start"] = "23:52:30",
-			["name"] = "Dragons of Nightmare",
-			["total_time"] = 57.3629999999976,
-		}, -- [4]
-	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -1082,4 +1081,5 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 }

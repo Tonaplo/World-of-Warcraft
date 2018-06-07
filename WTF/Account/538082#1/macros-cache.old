@@ -85,6 +85,10 @@ END
 VER 3 000000000000001E "Tich" "SPELL_HOLY_NULLIFYDISEASE"
 /g I press this macro every time I get ganked to remind everyone how much World PvP sucks, and how much I'm looking forward to PvP toggle coming to the game.
 END
+VER 3 000000000000003B "trinkets" "INV_MISC_QUESTIONMARK"
+/use 13
+/use 14
+END
 VER 3 000000000000002B "Use 13" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover] 13

@@ -39,6 +39,10 @@ L["ENABLE_SIMPLE_SCORE_COLORS"] = "Usar colores de puntuación simples"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Muestra las puntuaciones usando solo los colores estándar de calidad de objeto. Facilita la distinción de puntuaciones para personas con defectos de visión cromática."
 L["HEALER"] = "Sanador"
 L["HEALER_SCORE"] = "Puntuación de sanador"
+--[[Translation missing --]]
+--[[ L["INVERSE_PROFILE_MODIFIER"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["INVERSE_PROFILE_MODIFIER_DESC"] = ""--]] 
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (completadas)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (completadas)"
 L["MAINS_SCORE"] = "Puntuación de personaje principal"
@@ -47,12 +51,20 @@ L["MODULE_AMERICAS"] = "América"
 L["MODULE_EUROPE"] = "Europa"
 L["MODULE_KOREA"] = "Corea"
 L["MODULE_TAIWAN"] = "Taiwan"
+--[[Translation missing --]]
+--[[ L["MY_PROFILE_TITLE"] = ""--]] 
 L["MYTHIC_PLUS_DB_MODULES"] = "Módulos de la base de datos"
 L["MYTHIC_PLUS_SCORES"] = "Puntuaciones de M+"
 L["OPEN_CONFIG"] = "Abrir configuración"
 L["OUTDATED_DATABASE"] = "Estas puntuaciones son de hace %d día(s)"
+--[[Translation missing --]]
+--[[ L["OUTDATED_DATABASE_HOURS"] = ""--]] 
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r está usando datos de hace |cffFF6666%d|r día(s). Por favor, actualiza el addon para disponer de las puntuaciones de M+ más recientes."
+--[[Translation missing --]]
+--[[ L["PLAYER_PROFILE_TITLE"] = ""--]] 
 L["PREV_SEASON_SUFFIX"] = "(*)"
+--[[Translation missing --]]
+--[[ L["PROFILE_BEST_RUNS"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = ""--]] 
 L["RAIDERIO_MP_BASE_SCORE"] = "Puntuación de M+ base"
@@ -75,12 +87,20 @@ L["SHOW_IN_WHO_UI"] = "Mostrar en la interfaz de ¿Quién?"
 L["SHOW_IN_WHO_UI_DESC"] = "Muestra la puntuación de M+ cuando pasas el ratón por encima de los resultados de la ventana ¿Quién?"
 L["SHOW_KEYSTONE_INFO"] = "Mostrar información de piedras angulares"
 L["SHOW_KEYSTONE_INFO_DESC"] = "Muestra la puntuación base de cada piedra angular en su descripción emergente. También muestra la mejor M+ de esa mazmorra de cada jugador en tu grupo."
+--[[Translation missing --]]
+--[[ L["SHOW_LEADER_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_LEADER_PROFILE_DESC"] = ""--]] 
 L["SHOW_MAINS_SCORE"] = "Mostrar puntuación de personaje principal"
 L["SHOW_MAINS_SCORE_DESC"] = "Muestra la puntuación en la temporada actual del personaje principal del jugador inspeccionado. El jugador en cuestión debe estar registrado en Raider.IO y haber seleccionado su personaje principal."
 L["SHOW_ON_GUILD_ROSTER"] = "Mostrar en lista de hermandad"
 L["SHOW_ON_GUILD_ROSTER_DESC"] = "Muestra la puntuación de M+ de los miembros de tu hermandad cuando pasas el ratón por encima de ellos en la lista de hermandad."
 L["SHOW_ON_PLAYER_UNITS"] = "Mostrar en marcos de jugador"
 L["SHOW_ON_PLAYER_UNITS_DESC"] = "Muestra la puntuación de M+ de los jugadores en su ventana emergente cuando pasas el ratón sobre ellos."
+--[[Translation missing --]]
+--[[ L["SHOW_RAIDERIO_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_RAIDERIO_PROFILE_DESC"] = ""--]] 
 L["SHOW_SCORE_IN_COMBAT"] = "Mostrar puntuación en combate"
 L["SHOW_SCORE_IN_COMBAT_DESC"] = "Desactiva esta opción para mejorar el rendimiento al pasar el ratón por encima de jugadores cuando estás en combate."
 L["TANK"] = "Tanque"
@@ -88,6 +108,8 @@ L["TANK_SCORE"] = "Puntuación de tanque"
 L["TIMED_10_RUNS"] = "+10-14 en tiempo"
 L["TIMED_15_RUNS"] = "+15 en tiempo"
 L["TOOLTIP_CUSTOMIZATION"] = "Personalización de ventanas emergentes"
+--[[Translation missing --]]
+--[[ L["TOOLTIP_PROFILE"] = ""--]] 
 L["UNKNOWN_SCORE"] = "Desconocida"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r ha encontrado un nuevo servidor. Por favor, apunta esta información |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r y envíasela a los desarrolladores. ¡Gracias!"
 

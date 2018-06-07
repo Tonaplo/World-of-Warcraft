@@ -2928,8 +2928,12 @@ EncounterDetailsDB = {
 		},
 		[208929] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Unknown",
 		},
@@ -3290,6 +3294,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Warlord Parjesh",
+		},
+		[208685] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dominator Tentacle",
 		},
 		[211756] = {
 			["school"] = 4,
@@ -5241,6 +5254,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anub'esset",
 		},
+		[203121] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Taerar",
+		},
 		[209518] = {
 			["school"] = 32,
 			["token"] = {
@@ -6162,12 +6184,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blood-Princess Thal'ena",
 		},
-		[217987] = {
-			["school"] = 32,
+		[244598] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lurking Terror",
+			["source"] = "Vulcanar",
 		},
 		[234107] = {
 			["school"] = 4,
@@ -6177,12 +6199,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Domatrax",
 		},
-		[244598] = {
-			["school"] = 4,
+		[217987] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vulcanar",
+			["source"] = "Lurking Terror",
 		},
 		[255433] = {
 			["school"] = 1,
@@ -6608,13 +6630,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xavius",
 		},
-		[244093] = {
+		[203153] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Varimathras",
+			["source"] = "Ysondre",
 		},
 		[106854] = {
 			["school"] = 4,
@@ -6649,15 +6670,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kil'jaeden",
 		},
-		[194966] = {
+		[244094] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Amalgam of Souls",
 		},
 		[245629] = {
 			["school"] = 4,
@@ -6677,13 +6696,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shrapnel Blast",
 		},
-		[244094] = {
+		[194966] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Amalgam of Souls",
 		},
 		[120778] = {
 			["school"] = 1,
@@ -7373,17 +7394,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[247687] = {
+		[196512] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Imonar the Soulhunter",
+			["source"] = "Fenryr",
 		},
 		[207690] = {
 			["school"] = 1,
@@ -7440,22 +7457,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[131521] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Corrupted Taran Zhu",
-		},
-		[192675] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mystic Tornado",
-		},
 		[256388] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -7464,6 +7465,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Reorigination Module",
+		},
+		[192675] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mystic Tornado",
+		},
+		[131521] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Corrupted Taran Zhu",
 		},
 		[232722] = {
 			["school"] = 16,
@@ -7518,13 +7535,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Millificent Manastorm",
 		},
-		[131522] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Corrupted Taran Zhu",
-		},
 		[207261] = {
 			["school"] = 64,
 			["token"] = {
@@ -7532,6 +7542,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Patrol Captain Gerdo",
+		},
+		[131522] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Corrupted Taran Zhu",
 		},
 		[107047] = {
 			["school"] = 1,
@@ -7766,14 +7783,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hatecoil Warrior",
 		},
-		[201380] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[209568] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shivermaw",
+			["source"] = "Expedient Elemental",
 		},
 		[198565] = {
 			["school"] = 1,
@@ -7801,16 +7820,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Reorigination Module",
 		},
-		[209568] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[201380] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Expedient Elemental",
+			["source"] = "Shivermaw",
 		},
 		[197484] = {
 			["school"] = 1,
@@ -7832,6 +7849,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Inquisitor Vethriz",
 		},
+		[245391] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Aggramar",
+		},
 		[194216] = {
 			["school"] = 64,
 			["token"] = {
@@ -7839,13 +7863,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Harbaron",
-		},
-		[245391] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Aggramar",
 		},
 		[193018] = {
 			["school"] = 16,
@@ -7962,19 +7979,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Ri'mok",
 		},
-		[200359] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shade of Xavius",
-		},
 		[194218] = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Harbaron",
+		},
+		[200359] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shade of Xavius",
 		},
 		[198058] = {
 			["school"] = 2,
@@ -8428,13 +8445,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glintrok Oracle",
 		},
-		[196512] = {
+		[247687] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Fenryr",
+			["source"] = "Imonar the Soulhunter",
 		},
 		[227233] = {
 			["school"] = 32,
@@ -8986,12 +9007,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[203153] = {
+		[244093] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ysondre",
+			["source"] = "Varimathras",
 		},
 		[201355] = {
 			["school"] = 1,
@@ -9490,13 +9512,175 @@ EncounterDetailsDB = {
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Advisor Melandrus",
+			{
+				3.91899999999441, -- [1]
+				"Embrace the Dreaming, champions! It can save you!", -- [2]
+				"Dream of Ysera", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				11.8759999999966, -- [1]
+				"NO! I will not permit it!", -- [2]
+				"Xavius", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				23.9309999999969, -- [1]
+				"I will sever you from the waking world!", -- [2]
+				"Xavius", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				30.3459999999977, -- [1]
+				"Embrace the Dreaming, champions! It can save you!", -- [2]
+				"Dream of Ysera", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				38.5649999999951, -- [1]
+				"NO! I will not permit it!", -- [2]
+				"Xavius", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				47.538999999997, -- [1]
+				"I'll level you one by one!", -- [2]
+				"Xavius", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				83.9929999999949, -- [1]
+				"I'll level you one by one!", -- [2]
+				"Xavius", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				97.7939999999944, -- [1]
+				"I will sever you from the waking world!", -- [2]
+				"Xavius", -- [3]
+				7, -- [4]
+			}, -- [8]
+			["boss"] = "Xavius",
 		}, -- [1]
 		{
-			["boss"] = "Talixae Flamewreath",
+			{
+				7.87099999999919, -- [1]
+				"|TInterface\\Icons\\sha_spell_shadow_shadesofdarkness_nightmare:20|t%s begins to cast |cFFFF0000|Hspell:212726|h[Forces of Nightmare]|h|r!", -- [2]
+				"Cenarius", -- [3]
+				1, -- [4]
+			}, -- [1]
+			{
+				7.87099999999919, -- [1]
+				"Come forth and fight for the Dream!", -- [2]
+				"Cenarius", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				13.8249999999971, -- [1]
+				"Is that you, Thero'shan?", -- [2]
+				"Cenarius", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				18.7439999999988, -- [1]
+				"Yes, Cenarius! We are here to save you!", -- [2]
+				"Malfurion Stormrage", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				19.012999999999, -- [1]
+				"Villains! You poison the children of the Dream!", -- [2]
+				"Cenarius", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				24.9830000000002, -- [1]
+				"Sacred vines, entangle the corrupted!", -- [2]
+				"Cenarius", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				25.1160000000018, -- [1]
+				"Master, we fight to save them! To save you!", -- [2]
+				"Malfurion Stormrage", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				29.6889999999985, -- [1]
+				"You fight with noble hearts! Could it be true? Could the darkness be inside of... me?", -- [2]
+				"Cenarius", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				39.5360000000001, -- [1]
+				"Hold your weapons! He begins to see the truth!", -- [2]
+				"Malfurion Stormrage", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				40.788999999997, -- [1]
+				"Sacred vines, entangle the corrupted!", -- [2]
+				"Cenarius", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				47.2949999999983, -- [1]
+				"Father? Father, is that you?", -- [2]
+				"Cenarius", -- [3]
+				7, -- [4]
+			}, -- [11]
+			["boss"] = "Cenarius",
 		}, -- [2]
 		{
-			["boss"] = "Patrol Captain Gerdo",
+			{
+				0.195999999996275, -- [1]
+				"You should have fled! Now I'll feed your bones to the storm crows!", -- [2]
+				"Ursoc", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				19.7249999999985, -- [1]
+				"|TInterface\\Icons\\spell_druid_bearhug:20|t%s targets |cFFFF0000Hammed|r with an intense |cFFFF0000|Hspell:198006|h[Focused Gaze]|h|r!", -- [2]
+				"Ursoc", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				19.7249999999985, -- [1]
+				"I WILL FLATTEN YOU LIKE SAPLINGS!", -- [2]
+				"Ursoc", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				37.9939999999988, -- [1]
+				"THE NIGHTMARE GROWS! THE NIGHTMARE DEVOURS!", -- [2]
+				"Ursoc", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				41.6239999999962, -- [1]
+				"|TInterface\\Icons\\ability_deathwing_assualtaspects:20|t%s goes into a crazed |cFFFF0000|Hspell:198388|h[Blood Frenzy]|h|r!", -- [2]
+				"Ursoc", -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				57.7189999999973, -- [1]
+				"By the will of the Nightmare Lord!", -- [2]
+				"Ursoc", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				59.7829999999958, -- [1]
+				"|TInterface\\Icons\\spell_druid_bearhug:20|t%s targets |cFFFF0000Dopehs|r with an intense |cFFFF0000|Hspell:198006|h[Focused Gaze]|h|r!", -- [2]
+				"Ursoc", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				59.7829999999958, -- [1]
+				"STAMP AND TRAMPLE! CRUSH AND CRUMPLE!", -- [2]
+				"Ursoc", -- [3]
+				7, -- [4]
+			}, -- [8]
+			["boss"] = "Ursoc",
 		}, -- [3]
 	},
 }

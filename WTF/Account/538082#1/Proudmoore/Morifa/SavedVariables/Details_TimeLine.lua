@@ -1,14 +1,32 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["combat_data"] = {
+		{
+			["date_end"] = "23:30:50",
+			["date_start"] = "23:19:03",
+			["name"] = "Argus the Unmaker",
+			["total_time"] = 707.292,
+		}, -- [1]
+		{
+			["date_end"] = "23:16:12",
+			["date_start"] = "23:09:43",
+			["name"] = "Aggramar",
+			["total_time"] = 388.464,
+		}, -- [2]
+		{
+			["date_end"] = "22:51:59",
+			["date_start"] = "22:51:48",
+			["name"] = "Viz'aduum the Watcher",
+			["total_time"] = 11.0039999999999,
+		}, -- [3]
+		{
+			["date_end"] = "22:49:24",
+			["date_start"] = "22:48:56",
+			["name"] = "Mana Devourer",
+			["total_time"] = 28.0020000000004,
+		}, -- [4]
 	},
 	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Fránký-Ragnaros"] = {
@@ -560,6 +578,13 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Fránký-Ragnaros"] = {
@@ -729,34 +754,16 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Soladorn-Cenarius"] = {
-				[250669] = {
-					679.875, -- [1]
-					681.338, -- [2]
-					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
 				[253903] = {
 					56.6520000000001, -- [1]
 					212.322999999999, -- [2]
 					["source"] = "[*] Strength of the Sky",
 					["active"] = false,
 				},
-				[248499] = {
-					282.902, -- [1]
-					297.915999999999, -- [2]
-					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
-				[257299] = {
-					680.446999999999, -- [1]
+				[250669] = {
+					679.875, -- [1]
 					681.338, -- [2]
 					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
-				[252729] = {
-					355.097, -- [1]
-					361.103999999999, -- [2]
-					["source"] = "Constellar Designate",
 					["active"] = false,
 				},
 				[256899] = {
@@ -773,12 +780,30 @@ DetailsTimeLineDB = {
 					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
+				[257299] = {
+					680.446999999999, -- [1]
+					681.338, -- [2]
+					["source"] = "Argus the Unmaker",
+					["active"] = false,
+				},
+				[252729] = {
+					355.097, -- [1]
+					361.103999999999, -- [2]
+					["source"] = "Constellar Designate",
+					["active"] = false,
+				},
+				[248499] = {
+					282.902, -- [1]
+					297.915999999999, -- [2]
+					["source"] = "Argus the Unmaker",
+					["active"] = false,
+				},
 			},
 			["Juniorz-Quel'Thalas"] = {
-				[251570] = {
-					518.909, -- [1]
-					533.917, -- [2]
-					["source"] = "Argus the Unmaker",
+				[253901] = {
+					150.933999999999, -- [1]
+					210.955, -- [2]
+					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
 				[248167] = {
@@ -787,10 +812,10 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Death Fog",
 					["active"] = false,
 				},
-				[253901] = {
-					150.933999999999, -- [1]
-					210.955, -- [2]
-					["source"] = "[*] Strength of the Sea",
+				[251570] = {
+					518.909, -- [1]
+					533.917, -- [2]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 				[256899] = {
@@ -799,11 +824,9 @@ DetailsTimeLineDB = {
 					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
-				[248499] = {
-					117.453, -- [1]
-					132.446, -- [2]
-					132.887, -- [3]
-					147.919999999999, -- [4]
+				[250669] = {
+					194.179999999999, -- [1]
+					209.178999999999, -- [2]
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
@@ -825,9 +848,11 @@ DetailsTimeLineDB = {
 					["source"] = "Constellar Designate",
 					["active"] = false,
 				},
-				[250669] = {
-					194.179999999999, -- [1]
-					209.178999999999, -- [2]
+				[248499] = {
+					117.453, -- [1]
+					132.446, -- [2]
+					132.887, -- [3]
+					147.919999999999, -- [4]
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
@@ -933,10 +958,10 @@ DetailsTimeLineDB = {
 					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
-				[258647] = {
-					78.3029999999999, -- [1]
-					83.3139999999994, -- [2]
-					["source"] = "[*] Gift of the Sea",
+				[253901] = {
+					56.5529999999999, -- [1]
+					180.612999999999, -- [2]
+					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
 				[248499] = {
@@ -971,10 +996,10 @@ DetailsTimeLineDB = {
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
-				[253901] = {
-					56.5529999999999, -- [1]
-					180.612999999999, -- [2]
-					["source"] = "[*] Strength of the Sea",
+				[258647] = {
+					78.3029999999999, -- [1]
+					83.3139999999994, -- [2]
+					["source"] = "[*] Gift of the Sea",
 					["active"] = false,
 				},
 			},
@@ -1127,24 +1152,26 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Cameilia-Dalaran"] = {
-				[253903] = {
-					120.589999999999, -- [1]
-					150.933999999999, -- [2]
-					["source"] = "[*] Strength of the Sky",
-					["active"] = false,
-				},
-				[258647] = {
-					108.683, -- [1]
-					113.703, -- [2]
-					["source"] = "[*] Gift of the Sea",
-					["active"] = false,
-				},
 				[248499] = {
 					261.022999999999, -- [1]
 					276.025, -- [2]
 					567.299, -- [3]
 					582.308999999999, -- [4]
 					["source"] = "Argus the Unmaker",
+					["active"] = false,
+				},
+				[253901] = {
+					87.2109999999993, -- [1]
+					120.589999999999, -- [2]
+					150.933999999999, -- [3]
+					210.955, -- [4]
+					["source"] = "[*] Strength of the Sea",
+					["active"] = false,
+				},
+				[253903] = {
+					120.589999999999, -- [1]
+					150.933999999999, -- [2]
+					["source"] = "[*] Strength of the Sky",
 					["active"] = false,
 				},
 				[250669] = {
@@ -1167,12 +1194,10 @@ DetailsTimeLineDB = {
 					["source"] = "Constellar Designate",
 					["active"] = false,
 				},
-				[253901] = {
-					87.2109999999993, -- [1]
-					120.589999999999, -- [2]
-					150.933999999999, -- [3]
-					210.955, -- [4]
-					["source"] = "[*] Strength of the Sea",
+				[258647] = {
+					108.683, -- [1]
+					113.703, -- [2]
+					["source"] = "[*] Gift of the Sea",
 					["active"] = false,
 				},
 			},
@@ -1275,10 +1300,10 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Beorm-Azuremyst"] = {
-				[251570] = {
-					679.875, -- [1]
-					680.841, -- [2]
-					["source"] = "Argus the Unmaker",
+				[253901] = {
+					153.453, -- [1]
+					213.455, -- [2]
+					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
 				[248167] = {
@@ -1289,10 +1314,10 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Death Fog",
 					["active"] = false,
 				},
-				[253901] = {
-					153.453, -- [1]
-					213.455, -- [2]
-					["source"] = "[*] Strength of the Sea",
+				[251570] = {
+					679.875, -- [1]
+					680.841, -- [2]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 				[256899] = {
@@ -1301,10 +1326,12 @@ DetailsTimeLineDB = {
 					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
-				[253903] = {
-					86.5239999999994, -- [1]
-					146.535, -- [2]
-					["source"] = "[*] Strength of the Sky",
+				[250669] = {
+					237.396, -- [1]
+					252.393, -- [2]
+					279.614, -- [3]
+					294.625999999999, -- [4]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 				[257299] = {
@@ -1325,12 +1352,10 @@ DetailsTimeLineDB = {
 					["source"] = "Constellar Designate",
 					["active"] = false,
 				},
-				[250669] = {
-					237.396, -- [1]
-					252.393, -- [2]
-					279.614, -- [3]
-					294.625999999999, -- [4]
-					["source"] = "Argus the Unmaker",
+				[253903] = {
+					86.5239999999994, -- [1]
+					146.535, -- [2]
+					["source"] = "[*] Strength of the Sky",
 					["active"] = false,
 				},
 			},
@@ -1407,12 +1432,10 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Phaeryl-Hellscream"] = {
-				[256899] = {
-					492.049, -- [1]
-					495.624, -- [2]
-					701.562, -- [3]
-					707.292, -- [4]
-					["source"] = "Hungering Soul",
+				[250669] = {
+					260.114, -- [1]
+					275.114, -- [2]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 				[248167] = {
@@ -1429,10 +1452,18 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Death Fog",
 					["active"] = false,
 				},
-				[253901] = {
-					25.8019999999997, -- [1]
-					119.892, -- [2]
-					["source"] = "[*] Strength of the Sea",
+				[258647] = {
+					47.9649999999992, -- [1]
+					52.9609999999993, -- [2]
+					["source"] = "[*] Gift of the Sea",
+					["active"] = false,
+				},
+				[256899] = {
+					492.049, -- [1]
+					495.624, -- [2]
+					701.562, -- [3]
+					707.292, -- [4]
+					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
 				[248499] = {
@@ -1443,40 +1474,30 @@ DetailsTimeLineDB = {
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
-				[253903] = {
-					119.892, -- [1]
-					210.955, -- [2]
-					["source"] = "[*] Strength of the Sky",
-					["active"] = false,
-				},
 				[257299] = {
 					655.696, -- [1]
 					675.701999999999, -- [2]
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
-				[250669] = {
-					260.114, -- [1]
-					275.114, -- [2]
-					["source"] = "Argus the Unmaker",
+				[253903] = {
+					119.892, -- [1]
+					210.955, -- [2]
+					["source"] = "[*] Strength of the Sky",
 					["active"] = false,
 				},
-				[258647] = {
-					47.9649999999992, -- [1]
-					52.9609999999993, -- [2]
-					["source"] = "[*] Gift of the Sea",
+				[253901] = {
+					25.8019999999997, -- [1]
+					119.892, -- [2]
+					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
 			},
 			["Bananas-Darrowmere"] = {
-				[256899] = {
-					496.460999999999, -- [1]
-					504.463, -- [2]
-					629.611999999999, -- [3]
-					637.624, -- [4]
-					671.821, -- [5]
-					679.815, -- [6]
-					["source"] = "Hungering Soul",
+				[248499] = {
+					282.902, -- [1]
+					297.915999999999, -- [2]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 				[248167] = {
@@ -1495,18 +1516,20 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
-				[248499] = {
-					282.902, -- [1]
-					297.915999999999, -- [2]
-					["source"] = "Argus the Unmaker",
+				[256899] = {
+					496.460999999999, -- [1]
+					504.463, -- [2]
+					629.611999999999, -- [3]
+					637.624, -- [4]
+					671.821, -- [5]
+					679.815, -- [6]
+					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
-				[253903] = {
-					26.2779999999993, -- [1]
-					86.5429999999997, -- [2]
-					87.8979999999992, -- [3]
-					147.919999999999, -- [4]
-					["source"] = "[*] Strength of the Sky",
+				[250669] = {
+					237.396, -- [1]
+					252.393, -- [2]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 				[257299] = {
@@ -1525,10 +1548,12 @@ DetailsTimeLineDB = {
 					["source"] = "Constellar Designate",
 					["active"] = false,
 				},
-				[250669] = {
-					237.396, -- [1]
-					252.393, -- [2]
-					["source"] = "Argus the Unmaker",
+				[253903] = {
+					26.2779999999993, -- [1]
+					86.5429999999997, -- [2]
+					87.8979999999992, -- [3]
+					147.919999999999, -- [4]
+					["source"] = "[*] Strength of the Sky",
 					["active"] = false,
 				},
 			},
@@ -1545,6 +1570,12 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
+				[256899] = {
+					493.215999999999, -- [1]
+					501.219999999999, -- [2]
+					["source"] = "Hungering Soul",
+					["active"] = false,
+				},
 				[248499] = {
 					161.368, -- [1]
 					176.353999999999, -- [2]
@@ -1559,12 +1590,6 @@ DetailsTimeLineDB = {
 					648.78, -- [11]
 					663.785, -- [12]
 					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
-				[256899] = {
-					493.215999999999, -- [1]
-					501.219999999999, -- [2]
-					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
 				[257299] = {
@@ -1651,16 +1676,16 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Gift of the Sea",
 					["active"] = false,
 				},
-				[248499] = {
-					117.453, -- [1]
-					132.446, -- [2]
-					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
 				[256899] = {
 					686.859, -- [1]
 					694.852, -- [2]
 					["source"] = "Hungering Soul",
+					["active"] = false,
+				},
+				[248499] = {
+					117.453, -- [1]
+					132.446, -- [2]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 				[257299] = {
@@ -2208,32 +2233,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
-		}, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "23:30:50",
-			["date_start"] = "23:19:03",
-			["name"] = "Argus the Unmaker",
-			["total_time"] = 707.292,
-		}, -- [1]
-		{
-			["date_end"] = "23:16:12",
-			["date_start"] = "23:09:43",
-			["name"] = "Aggramar",
-			["total_time"] = 388.464,
-		}, -- [2]
-		{
-			["date_end"] = "22:51:59",
-			["date_start"] = "22:51:48",
-			["name"] = "Viz'aduum the Watcher",
-			["total_time"] = 11.0039999999999,
-		}, -- [3]
-		{
-			["date_end"] = "22:49:24",
-			["date_start"] = "22:48:56",
-			["name"] = "Mana Devourer",
-			["total_time"] = 28.0020000000004,
 		}, -- [4]
 	},
 	["deaths_data"] = {
@@ -3716,6 +3715,25 @@ DetailsTimeLineDB = {
 			},
 		}, -- [1]
 		{
+			["Zpt-Sargeras"] = {
+				{
+					["time"] = 344.346,
+					["events"] = {
+						{
+							true, -- [1]
+							244033, -- [2]
+							3377999, -- [3]
+							1526537725.159, -- [4]
+							54396, -- [5]
+							"Aggramar", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+					},
+				}, -- [1]
+			},
 			["Ankania-Kilrogg"] = {
 				{
 					["time"] = 132.977,
@@ -3759,35 +3777,16 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
-			["Zpt-Sargeras"] = {
+			["Eldar-Stonemaul"] = {
 				{
-					["time"] = 344.346,
+					["time"] = 57.1629999999996,
 					["events"] = {
 						{
 							true, -- [1]
 							244033, -- [2]
-							3377999, -- [3]
-							1526537725.159, -- [4]
-							54396, -- [5]
-							"Aggramar", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-			["Bananas-Darrowmere"] = {
-				{
-					["time"] = 120.745999999999,
-					["events"] = {
-						{
-							true, -- [1]
-							244033, -- [2]
-							2458587, -- [3]
-							1526537498.867, -- [4]
-							55420, -- [5]
+							1920352, -- [3]
+							1526537433.194, -- [4]
+							3320680, -- [5]
 							"Aggramar", -- [6]
 							nil, -- [7]
 							4, -- [8]
@@ -3797,46 +3796,17 @@ DetailsTimeLineDB = {
 						{
 							true, -- [1]
 							244033, -- [2]
-							2253705, -- [3]
-							1526537504.001, -- [4]
-							1, -- [5]
+							1560286, -- [3]
+							1526537438.303, -- [4]
+							4296815, -- [5]
 							"Aggramar", -- [6]
-							nil, -- [7]
+							550610, -- [7]
 							4, -- [8]
 							false, -- [9]
-							907552, -- [10]
+							-1, -- [10]
 						}, -- [2]
 					},
 				}, -- [1]
-				{
-					["time"] = 336.830999999999,
-					["events"] = {
-						{
-							true, -- [1]
-							244033, -- [2]
-							3380557, -- [3]
-							1526537714.95, -- [4]
-							997536, -- [5]
-							"Aggramar", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							244033, -- [2]
-							3380557, -- [3]
-							1526537720.086, -- [4]
-							1, -- [5]
-							"Aggramar", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							447374, -- [10]
-						}, -- [2]
-					},
-				}, -- [2]
 			},
 			["Cameilia-Dalaran"] = {
 				{
@@ -3919,16 +3889,16 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
-			["Eldar-Stonemaul"] = {
+			["Bananas-Darrowmere"] = {
 				{
-					["time"] = 57.1629999999996,
+					["time"] = 120.745999999999,
 					["events"] = {
 						{
 							true, -- [1]
 							244033, -- [2]
-							1920352, -- [3]
-							1526537433.194, -- [4]
-							3320680, -- [5]
+							2458587, -- [3]
+							1526537498.867, -- [4]
+							55420, -- [5]
 							"Aggramar", -- [6]
 							nil, -- [7]
 							4, -- [8]
@@ -3938,17 +3908,46 @@ DetailsTimeLineDB = {
 						{
 							true, -- [1]
 							244033, -- [2]
-							1560286, -- [3]
-							1526537438.303, -- [4]
-							4296815, -- [5]
+							2253705, -- [3]
+							1526537504.001, -- [4]
+							1, -- [5]
 							"Aggramar", -- [6]
-							550610, -- [7]
+							nil, -- [7]
 							4, -- [8]
 							false, -- [9]
-							-1, -- [10]
+							907552, -- [10]
 						}, -- [2]
 					},
 				}, -- [1]
+				{
+					["time"] = 336.830999999999,
+					["events"] = {
+						{
+							true, -- [1]
+							244033, -- [2]
+							3380557, -- [3]
+							1526537714.95, -- [4]
+							997536, -- [5]
+							"Aggramar", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							244033, -- [2]
+							3380557, -- [3]
+							1526537720.086, -- [4]
+							1, -- [5]
+							"Aggramar", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							447374, -- [10]
+						}, -- [2]
+					},
+				}, -- [2]
 			},
 		}, -- [2]
 		{
@@ -3956,4 +3955,5 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 }

@@ -28,7 +28,9 @@ local addonConfig = {
 	showScoreInCombat = true,
 	disableScoreColors = false,
 	alwaysExtendTooltip = false,
-	showAverageScore = true,
+	showRaiderIOProfile = true,
+	enableProfileModifier = true,
+	inverseProfileModifier = false
 }
 
 -- session
@@ -46,11 +48,14 @@ local tooltipHooks = {
 	end
 }
 
+local detailedTooltip = CreateFrame("GameTooltip","detailedTooltip",UIParent,"GameTooltipTemplate")
+
 -- player
 local PLAYER_FACTION
 local PLAYER_REGION
 local IS_DB_OUTDATED
 local OUTDATED_DAYS
+local OUTDATED_HOURS;
 
 -- constants
 local CONST_REALM_SLUGS = ns.realmSlugs
@@ -267,6 +272,7 @@ local EGG = {
 local addon = CreateFrame("Frame")
 
 -- utility functions
+local CompareDungeon
 local GetTimezoneOffset
 local GetRegion
 local GetKeystoneLevel
@@ -278,6 +284,31 @@ local GetFaction
 local GetWeeklyAffix
 local GetAverageScore
 do
+	-- Compare two dungeon first by the keyLevel, then by their short name
+	function CompareDungeon(a, b)
+		if not a then
+			return false
+		end
+
+		if not b then
+			return true
+		end
+
+		if a.keyLevel > b.keyLevel then
+			return true
+		elseif a.keyLevel < b.keyLevel then
+			return false
+		end
+
+		if a.shortName > b.shortName then
+			return false
+		elseif a.shortName < b.shortName then
+			return true
+		end
+
+		return false
+	end
+
 	-- get timezone offset between local and UTC+0 time
 	function GetTimezoneOffset(ts)
 		local u = date("!*t", ts)
@@ -505,12 +536,12 @@ do
 			OnAccept = ReloadUI,
 			OnCancel = nil
 		}
-	
+
 		configFrame = CreateFrame("Frame", addonName .. "ConfigFrame", UIParent)
 		configFrame:Hide()
-	
+
 		local config
-	
+
 		local function WidgetHelp_OnEnter(self)
 			if self.tooltip then
 				GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT", 0, 0)
@@ -518,21 +549,21 @@ do
 				GameTooltip:Show()
 			end
 		end
-	
+
 		local function WidgetButton_OnEnter(self)
 			self:SetBackdropColor(0.3, 0.3, 0.3, 1)
 			self:SetBackdropBorderColor(1, 1, 1, 1)
 		end
-	
+
 		local function WidgetButton_OnLeave(self)
 			self:SetBackdropColor(0, 0, 0, 1)
 			self:SetBackdropBorderColor(1, 1, 1, 0.3)
 		end
-	
+
 		local function Close_OnClick()
 			configFrame:SetShown(not configFrame:IsShown())
 		end
-	
+
 		local function Save_OnClick()
 			Close_OnClick()
 			local reload
@@ -564,19 +595,19 @@ do
 			for i = 1, #config.options do
 				local f = config.options[i]
 				local checked = f.checkButton:GetChecked()
-				--[=[ -- TODO: OBSCOLETE?
 				local enabled = addonConfig[f.cvar]
-				if f.cvar == "showDropDownCopyURL" and ((not enabled and checked) or (enabled and not checked)) then
+
+				if f.needReload and ((not enabled and checked) or (enabled and not checked)) then
 					reload = 1
 				end
-				--]=]
+
 				addonConfig[f.cvar] = not not checked
 			end
 			if reload then
 				StaticPopup_Show("RAIDERIO_RELOADUI_CONFIRM")
 			end
 		end
-	
+
 		config = {
 			modules = {},
 			options = {},
@@ -683,18 +714,19 @@ do
 			return frame
 		end
 
-		function config.CreateOptionToggle(self, label, description, cvar)
+		function config.CreateOptionToggle(self, label, description, cvar, needReload)
 			local frame = self:CreateWidget("Frame")
 			frame.text:SetText(label)
 			frame.tooltip = description
 			frame.cvar = cvar
+			frame.needReload = needReload
 			frame.help.tooltip = description
 			frame.help:Show()
 			frame.checkButton:Show()
 			self.options[#self.options + 1] = frame
 			return frame
 		end
-	
+
 		-- customize the look and feel
 		do
 			local function ConfigFrame_OnShow(self)
@@ -733,17 +765,17 @@ do
 			configFrame:SetPoint("CENTER")
 			configFrame:SetFrameStrata("DIALOG")
 			configFrame:SetFrameLevel(255)
-	
+
 			configFrame:EnableMouse(true)
 			configFrame:SetClampedToScreen(true)
 			configFrame:SetDontSavePosition(true)
 			configFrame:SetMovable(true)
 			configFrame:RegisterForDrag("LeftButton")
-	
+
 			configFrame:SetBackdrop(config.backdrop)
 			configFrame:SetBackdropColor(0, 0, 0, 0.8)
 			configFrame:SetBackdropBorderColor(0.5, 0.5, 0.5, 0.8)
-	
+
 			configFrame:SetScript("OnShow", ConfigFrame_OnShow)
 			configFrame:SetScript("OnDragStart", ConfigFrame_OnDragStart)
 			configFrame:SetScript("OnDragStop", ConfigFrame_OnDragStop)
@@ -755,7 +787,7 @@ do
 			-- add widgets
 			local header = config:CreateHeadline(L.RAIDERIO_MYTHIC_OPTIONS .. "\nVersion: " .. tostring(GetAddOnMetadata(addonName, "Version")))
 			header.text:SetFont(header.text:GetFont(), 16, "OUTLINE")
-	
+
 			config:CreatePadding()
 			config:CreateHeadline(L.MYTHIC_PLUS_SCORES)
 			config:CreateOptionToggle(L.SHOW_ON_PLAYER_UNITS, L.SHOW_ON_PLAYER_UNITS_DESC, "enableUnitTooltips")
@@ -764,7 +796,7 @@ do
 			config:CreateOptionToggle(L.SHOW_ON_GUILD_ROSTER, L.SHOW_ON_GUILD_ROSTER_DESC, "enableGuildTooltips")
 			config:CreateOptionToggle(L.SHOW_IN_WHO_UI, L.SHOW_IN_WHO_UI_DESC, "enableWhoTooltips")
 			config:CreateOptionToggle(L.SHOW_IN_SLASH_WHO_RESULTS, L.SHOW_IN_SLASH_WHO_RESULTS_DESC, "enableWhoMessages")
-	
+
 			config:CreatePadding()
 			config:CreateHeadline(L.TOOLTIP_CUSTOMIZATION)
 			config:CreateOptionToggle(L.SHOW_MAINS_SCORE, L.SHOW_MAINS_SCORE_DESC, "showMainsScore")
@@ -776,17 +808,23 @@ do
 			config:CreateOptionToggle(L.SHOW_AVERAGE_PLAYER_SCORE_INFO, L.SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC, "showAverageScore")
 
 			config:CreatePadding()
+			config:CreateHeadline(L.TOOLTIP_PROFILE)
+			config:CreateOptionToggle(L.SHOW_RAIDERIO_PROFILE, L.SHOW_RAIDERIO_PROFILE_DESC, "showRaiderIOProfile", true)
+			config:CreateOptionToggle(L.SHOW_LEADER_PROFILE, L.SHOW_LEADER_PROFILE_DESC, "enableProfileModifier")
+			config:CreateOptionToggle(L.INVERSE_PROFILE_MODIFIER, L.INVERSE_PROFILE_MODIFIER_DESC, "inverseProfileModifier")
+
+			config:CreatePadding()
 			config:CreateHeadline(L.COPY_RAIDERIO_PROFILE_URL)
 			config:CreateOptionToggle(L.ALLOW_ON_PLAYER_UNITS, L.ALLOW_ON_PLAYER_UNITS_DESC, "showDropDownCopyURL")
 			config:CreateOptionToggle(L.ALLOW_IN_LFD, L.ALLOW_IN_LFD_DESC, "enableLFGDropdown")
-	
+
 			config:CreatePadding()
 			config:CreateHeadline(L.MYTHIC_PLUS_DB_MODULES)
 			local module1 = config:CreateModuleToggle(L.MODULE_AMERICAS, "RaiderIO_DB_US_A", "RaiderIO_DB_US_H")
 			config:CreateModuleToggle(L.MODULE_EUROPE, "RaiderIO_DB_EU_A", "RaiderIO_DB_EU_H")
 			config:CreateModuleToggle(L.MODULE_KOREA, "RaiderIO_DB_KR_A", "RaiderIO_DB_KR_H")
 			config:CreateModuleToggle(L.MODULE_TAIWAN, "RaiderIO_DB_TW_A", "RaiderIO_DB_TW_H")
-	
+
 			-- add save button and cancel buttons
 			local buttons = config:CreateWidget("Frame", 4)
 			buttons:Hide()
@@ -804,15 +842,15 @@ do
 			cancel.text:SetText(CANCEL)
 			cancel.text:SetJustifyH("CENTER")
 			cancel:SetScript("OnClick", Close_OnClick)
-	
+
 			-- adjust frame height dynamically
 			local children = {configFrame:GetChildren()}
-			local height = 32 + 4
+			local height = 40 + 4
 			for i = 1, #children do
 				height = height + children[i]:GetHeight() + 2
 			end
 			configFrame:SetHeight(height)
-	
+
 			-- adjust frame width dynamically (add padding based on the largest option label string)
 			local maxWidth = 0
 			for i = 1, #config.options do
@@ -822,7 +860,7 @@ do
 				end
 			end
 			configFrame:SetWidth(160 + maxWidth)
-	
+
 			-- add faction headers over the first module
 			local af = config:CreateHeadline("|TInterface\\Icons\\inv_bannerpvp_02:0:0:0:0:16:16:4:12:4:12|t")
 			af:ClearAllPoints()
@@ -833,7 +871,7 @@ do
 			hf:SetPoint("BOTTOM", module1.checkButton, "TOP", 2, -5)
 			hf:SetSize(32, 32)
 		end
-	
+
 		-- add the category and a shortcut button in the interface panel options
 		do
 			local function Button_OnClick()
@@ -845,21 +883,21 @@ do
 			local panel = CreateFrame("Frame", configFrame:GetName() .. "Panel", InterfaceOptionsFramePanelContainer)
 			panel.name = addonName
 			panel:Hide()
-	
+
 			local button = CreateFrame("Button", nil, panel, "UIPanelButtonTemplate")
 			button:SetText(L.OPEN_CONFIG)
 			button:SetWidth(button:GetTextWidth() + 18)
 			button:SetPoint("TOPLEFT", 16, -16)
 			button:SetScript("OnClick", Button_OnClick)
-	
+
 			InterfaceOptions_AddCategory(panel, true)
 		end
-	
+
 		-- create slash command to toggle the config frame
 		do
 			_G["SLASH_" .. addonName .. "1"] = "/raiderio"
 			_G["SLASH_" .. addonName .. "2"] = "/rio"
-	
+
 			local function handler(text)
 
 				-- if the keyword "debug" is present in the command we show the query dialog
@@ -937,11 +975,11 @@ do
 	-- assumed that lo contains 32 bits and hi contains 20 bits
 	local function ReadBits(lo, hi, offset, bits)
 		if offset < 32 and (offset + bits) > 32 then
-		-- reading across boundary
-		local mask = lshift(1, (offset + bits) - 32) - 1
-		local p1 = rshift(lo, offset)
-		local p2 = lshift(band(hi, mask), 32 - offset)
-		return p1 + p2
+			-- reading across boundary
+			local mask = lshift(1, (offset + bits) - 32) - 1
+			local p1 = rshift(lo, offset)
+			local p2 = lshift(band(hi, mask), 32 - offset)
+			return p1 + p2
 		else
 			local mask = lshift(1, bits) - 1
 			if offset < 32 then
@@ -1065,6 +1103,7 @@ do
 			dungeons = payload.dungeons,
 			maxDungeonLevel = payload.maxDungeonLevel,
 			maxDungeonName = CONST_DUNGEONS[payload.maxDungeonIndex] and CONST_DUNGEONS[payload.maxDungeonIndex].shortName or '',
+			maxDungeonNameLocale = CONST_DUNGEONS[payload.maxDungeonIndex] and CONST_DUNGEONS[payload.maxDungeonIndex].shortNameLocale or '',
 			keystoneTenPlus = payload.keystoneTenPlus,
 			keystoneFifteenPlus = payload.keystoneFifteenPlus,
 		}
@@ -1171,6 +1210,8 @@ local GetFormattedRunCount
 local AppendGameTooltip
 local UpdateAppendedGameTooltip
 local AppendAveragePlayerScore
+local CreateDetailedTooltip
+local SetProfileTooltipNearFrame
 do
 	local function sortRoleScores(a, b)
 		return a[2] > b[2]
@@ -1199,7 +1240,6 @@ do
 
 		-- sanity check that the profile exists
 		if profile then
-
 			-- HOTFIX: ALT-TAB stickyness
 			addon:MODIFIER_STATE_CHANGED(true)
 
@@ -1211,7 +1251,7 @@ do
 			end
 
 			-- assign the current function args for later use
-			tooltipArgs[1], tooltipArgs[2], tooltipArgs[3], tooltipArgs[4], tooltipArgs[5], tooltipArgs[6] = tooltip, arg1, forceNoPadding, forceAddName, forceFaction, focusOnDungeonIndex
+			tooltipArgs[1], tooltipArgs[2], tooltipArgs[3], tooltipArgs[4], tooltipArgs[5], tooltipArgs[6], tooltipArgs[7] = tooltip, arg1, forceNoPadding, forceAddName, forceFaction, focusOnDungeonIndex, focusOnKeystoneLevel
 
 			-- should we show the extended version of the data?
 			local showExtendedTooltip = addon.modKey or addonConfig.alwaysExtendTooltip
@@ -1247,7 +1287,7 @@ do
 			end
 
 			if not highlightStr and profile.maxDungeonLevel > 0 then
-				highlightStr = "+" .. profile.maxDungeonLevel .. " " .. profile.maxDungeonName
+				highlightStr = "+" .. profile.maxDungeonLevel .. " " .. profile.maxDungeonNameLocale
 			end
 
 			-- queued/focus highlight variables
@@ -1259,7 +1299,7 @@ do
 				local l = profile.dungeons[focusOnDungeonIndex]
 				if l > 0 then
 					qHighlightStrSameAsBest = profile.maxDungeonName == d.shortName
-					qHighlightStr1 = d.shortName
+					qHighlightStr1 = d.shortNameLocale
 					qHighlightStr2 = "+" .. l
 				end
 			end
@@ -1284,14 +1324,14 @@ do
 						-- we are hosting, so this is the only keystone we are interested in showing
 						if profile.dungeons[queued.index] > 0 then
 							qHighlightStrSameAsBest = profile.maxDungeonName == queued.dungeon.shortName
-							qHighlightStr1 = queued.dungeon.shortName
+							qHighlightStr1 = queued.dungeon.shortNameLocale
 							qHighlightStr2 = "+" .. profile.dungeons[queued.index]
 							searchLevel = queued.level
 						end
 					else
 						-- at the moment we pick the first queued dungeon and hope the player only queues for one dungeon at a time, not multiple different keys
 						if profile.dungeons[queued[1].index] > 0 then
-							qHighlightStr1 = queued[1].dungeon.shortName
+							qHighlightStr1 = queued[1].dungeon.shortNameLocale
 							qHighlightStr2 = "+" .. profile.dungeons[queued[1].index]
 						end
 						-- try and see if the player is queued to something we got score for on this character
@@ -1301,7 +1341,7 @@ do
 							if profile.maxDungeonName == q.dungeon.shortName then
 								if l > 0 then
 									qHighlightStrSameAsBest = true
-									qHighlightStr1 = q.dungeon.shortName
+									qHighlightStr1 = q.dungeon.shortNameLocale
 									qHighlightStr2 = "+" .. l
 									searchLevel = q.level
 								end
@@ -1400,7 +1440,8 @@ do
 		-- sanity check that the args exist
 		if not tooltipArgs[1] or not tooltipArgs[1]:GetOwner() then return end
 		-- unpack the args
-		local tooltip, arg1, forceNoPadding, forceAddName, forceFaction, focusOnDungeonIndex = tooltipArgs[1], tooltipArgs[2], tooltipArgs[3], tooltipArgs[4], tooltipArgs[5], tooltipArgs[6]
+		local tooltip, arg1, forceNoPadding, forceAddName, forceFaction, focusOnDungeonIndex, focusOnKeystoneLevel = tooltipArgs[1], tooltipArgs[2], tooltipArgs[3], tooltipArgs[4], tooltipArgs[5], tooltipArgs[6], tooltipArgs[7]
+
 		-- units only need to SetUnit to re-draw the tooltip properly
 		local _, unit = tooltip:GetUnit()
 		if unit then
@@ -1439,7 +1480,7 @@ do
 			tooltip:SetAnchorType(a1, a2, a3)
 		end
 		-- finalize by appending our tooltip on the bottom
-		AppendGameTooltip(tooltip, arg1, forceNoPadding, forceAddName, forceFaction, focusOnDungeonIndex)
+		AppendGameTooltip(tooltip, arg1, forceNoPadding, forceAddName, forceFaction, focusOnDungeonIndex, focusOnKeystoneLevel)
 	end
 
 	function AppendAveragePlayerScore(tooltip, keystoneLevel, addBlankLine)
@@ -1451,6 +1492,82 @@ do
 				end
 				tooltip:AddDoubleLine(format(L.RAIDERIO_AVERAGE_PLAYER_SCORE, keystoneLevel), averageScore, 1, 1, 1, GetScoreColor(averageScore))
 			end
+		end
+	end
+
+	function CreateDetailedTooltip(tooltip, arg1, forceFaction, focusOnDungeonIndex, focusOnKeystoneLevel)
+		local profile = GetScore(arg1, nil, forceFaction)
+
+		-- sanity check that the profile exists
+		if not profile then
+			return 0
+		end
+
+		if arg1 == "player" then
+			tooltip:AddLine(L.MY_PROFILE_TITLE, 1, 0.85, 0, false)
+		else
+			tooltip:AddLine(L.PLAYER_PROFILE_TITLE, 1, 0.85, 0, false)
+		end
+
+		tooltip:AddDoubleLine(profile.name, GetFormattedScore(profile.allScore, profile.isPrevAllScore), 1, 1, 1, GetScoreColor(profile.allScore))
+
+		if profile.mainScore > profile.allScore then
+			tooltip:AddDoubleLine(L.MAINS_SCORE, profile.mainScore, 1, 1, 1, GetScoreColor(profile.mainScore))
+		end
+
+		tooltip:AddLine(" ")
+		tooltip:AddLine(L.PROFILE_BEST_RUNS, 1, 0.85, 0, false)
+
+		local dungeons = {}
+		for dungeonIndex, keyLevel in ipairs(profile.dungeons) do
+			table.insert(dungeons, {index = dungeonIndex, shortName = CONST_DUNGEONS[dungeonIndex].shortNameLocale, keyLevel = keyLevel})
+		end
+
+		table.sort(dungeons, CompareDungeon)
+
+		for i, dungeon in ipairs(dungeons) do
+			local colorDungeonName = { r = 1, g = 1, b = 1 }
+			local colorDungeonLevel = { r = 1, g = 1, b = 1 }
+
+			local keyLevel = dungeon.keyLevel
+			if keyLevel ~= 0 then
+				keyLevel = "+" .. keyLevel
+			else
+				keyLevel = "-"
+				colorDungeonLevel = { r = 0.62, g = 0.62, b = 0.62 }
+			end
+
+			if focusOnDungeonIndex and focusOnDungeonIndex == dungeon.index then
+--				TODO: Add color depending if it's an upgrade or a downgrade
+--				if focusOnKeystoneLevel then
+--					if dungeon.keyLevel < focusOnKeystoneLevel  then
+--						-- green
+--						colorDungeonName = { r = 0.12, g = 1, b = 0 }
+--						colorDungeonLevel = { r = 0.12, g = 1, b = 0 }
+--					elseif dungeon.keyLevel > focusOnKeystoneLevel then
+--						-- purple
+--						colorDungeonName = { r = 0.78, g = 0, b = 1 }
+--						colorDungeonLevel = { r = 0.78, g = 0, b = 1 }
+--					else
+--						-- blue
+--						colorDungeonName = { r = 0, g = 0.51, b = 1 }
+--						colorDungeonLevel = { r = 0, g = 0.51, b = 1 }
+--					end
+--				else
+					colorDungeonName = { r = 0, g = 1, b = 0 }
+					colorDungeonLevel = { r = 0, g = 1, b = 0 }
+--				end
+			end
+
+			tooltip:AddDoubleLine(dungeon.shortName, keyLevel, colorDungeonName.r, colorDungeonName.g, colorDungeonName.b, colorDungeonLevel.r, colorDungeonLevel.g, colorDungeonLevel.b)
+		end
+
+		if OUTDATED_DAYS > 1 then
+			tooltip:AddLine(" ")
+			tooltip:AddLine(format(L.OUTDATED_DATABASE, OUTDATED_DAYS), 0.8, 0.8, 0.8, false)
+		elseif OUTDATED_HOURS > 12 then
+			tooltip:AddLine(" ")
+			tooltip:AddLine(format(L.OUTDATED_DATABASE_HOURS, OUTDATED_HOURS), 0.8, 0.8, 0.8, false)
 		end
 	end
 end
@@ -1530,6 +1647,7 @@ do
 			local diff = time() - ts - offset
 			-- figure out of the DB is outdated or not by comparing to our threshold
 			IS_DB_OUTDATED = diff >= OUTDATED_SECONDS
+			OUTDATED_HOURS = floor(diff/ 3600 + 0.5);
 			OUTDATED_DAYS = floor(diff / 86400 + 0.5)
 			if IS_DB_OUTDATED then
 				DEFAULT_CHAT_FRAME:AddMessage(format(L.OUTDATED_DATABASE_S, addonName, OUTDATED_DAYS), 1, 1, 0)
@@ -1548,7 +1666,7 @@ do
 	-- modifier key is toggled, update the tooltip if needed
 	function addon:MODIFIER_STATE_CHANGED(skipUpdatingTooltip)
 		-- if we always draw the full tooltip then this part of the code shouldn't be running at all
-		if addonConfig.alwaysExtendTooltip then
+		if addonConfig.alwaysExtendTooltip and not addonConfig.enableProfileModifier then
 			return
 		end
 		-- check if the mod state has changed, and only then run the update function
@@ -1563,6 +1681,32 @@ end
 
 -- ui hooks
 do
+	function SetProfileTooltipNearFrame(frame, player, focusOnDungeonIndex, focusOnKeystoneLevel, forceFrameStrata, forcePlayer)
+		if not addonConfig.showRaiderIOProfile then
+			return
+		end
+
+		detailedTooltip:SetOwner(frame, "ANCHOR_NONE")
+		detailedTooltip:ClearAllPoints()
+		detailedTooltip:SetPoint("TOPLEFT", frame, "TOPRIGHT")
+
+		detailedTooltip:SetFrameStrata(forceFrameStrata or frame:GetFrameStrata())
+
+		if not forcePlayer then
+			if not addonConfig.enableProfileModifier then
+				player = "player"
+			else
+				if (not addonConfig.inverseProfileModifier and not addon.modKey) or (addonConfig.inverseProfileModifier and addon.modKey) then
+					player = "player"
+				end
+			end
+		end
+
+		CreateDetailedTooltip(detailedTooltip, player, nil, focusOnDungeonIndex, focusOnKeystoneLevel)
+
+		detailedTooltip:Show() --Show the tooltip
+	end
+
 	-- extract character name and realm from BNet friend
 	local function GetNameAndRealmForBNetFriend(bnetIDAccount)
 		local index = BNGetFriendIndex(bnetIDAccount)
@@ -1643,7 +1787,7 @@ do
 	uiHooks[#uiHooks + 1] = function()
 		if _G.LFGListApplicationViewerScrollFrameButton1 then
 			local hooked = {}
-			local OnEnter, OnLeave
+			local OnEnter, OnLeave, OnHideDetailledTooltip
 			-- application queue
 			function OnEnter(self)
 				if not addonConfig.enableLFGTooltips then
@@ -1669,12 +1813,26 @@ do
 						local _, activityID, _, title, description = C_LFGList.GetActiveEntryInfo();
 						local keystoneLevel = GetKeystoneLevel(title) or GetKeystoneLevel(description) or 0
 						AppendGameTooltip(GameTooltip, fullName, not hasOwner, true, PLAYER_FACTION, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
+
+						SetProfileTooltipNearFrame(GameTooltip, fullName, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel, nil, true)
+
+						if not hooked["applicant"] then
+							hooked["applicant"] = 1
+							GameTooltip:HookScript("OnHide", OnHideDetailledTooltip)
+						end
 					end
 				end
 			end
 			function OnLeave(self)
 				if self.applicantID or self.memberIdx then
 					GameTooltip:Hide()
+				end
+			end
+			function OnHideDetailledTooltip(self)
+				if PVEFrame:IsShown() then
+					SetProfileTooltipNearFrame(PVEFrame, "player", nil, nil, "BACKGROUND")
+				else
+					detailedTooltip:Hide()
 				end
 			end
 			-- search results
@@ -1686,6 +1844,24 @@ do
 				end
 			end
 			hooksecurefunc("LFGListUtil_SetSearchEntryTooltip", SetSearchEntryTooltip)
+
+			local function DisplayProfileTooltip(tooltip, resultID)
+				local _, activityID, title, description, _, _, _, _, _, _, _, _, leaderName = C_LFGList.GetSearchResultInfo(resultID)
+				if leaderName then
+					local keystoneLevel = GetKeystoneLevel(title) or GetKeystoneLevel(description) or 0
+					SetProfileTooltipNearFrame(tooltip, leaderName, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
+
+					if not hooked["applicant"] then
+						hooked["applicant"] = 1
+						GameTooltip:HookScript("OnHide", OnHideDetailledTooltip)
+					end
+				end
+			end
+
+			if addonConfig.showRaiderIOProfile then
+				hooksecurefunc("LFGListUtil_SetSearchEntryTooltip", DisplayProfileTooltip)
+			end
+
 			-- execute delayed hooks
 			for i = 1, 14 do
 				local b = _G["LFGListApplicationViewerScrollFrameButton" .. i]
@@ -2047,7 +2223,7 @@ do
 					b:SetScript("OnLeave", CustomButtonOnLeave)
 					b:SetScript("OnEnable", nil)
 					b:SetScript("OnDisable", nil)
-					b:SetPoint("TOPLEFT", custom, "TOPLEFT", 16 * i, -16)
+					b:SetPoint("TOPLEFT", custom, "TOPLEFT", 16, -16 * i)
 					local t = _G[b:GetName() .. "NormalText"]
 					t:ClearAllPoints()
 					t:SetPoint("TOPLEFT", b, "TOPLEFT", 0, 0)
@@ -2153,7 +2329,7 @@ do
 								local level = profile.dungeons[index]
 								if level > 0 then
 									-- TODO: sort these by dungeon level, descending
-									local dungeonName = CONST_DUNGEONS[index] and " " .. CONST_DUNGEONS[index].shortName or ""
+									local dungeonName = CONST_DUNGEONS[index] and " " .. CONST_DUNGEONS[index].shortNameLocale or ""
 									tooltip:AddDoubleLine(UnitName(unit), "+" .. level .. dungeonName, 1, 1, 1, 1, 1, 1)
 								end
 							end
@@ -2165,6 +2341,27 @@ do
 		end
 		GameTooltip:HookScript("OnTooltipSetItem", OnSetItem)
 		ItemRefTooltip:HookScript("OnTooltipSetItem", OnSetItem)
+		return 1
+	end
+
+	-- My Profile
+	uiHooks[#uiHooks + 1] = function()
+		if not addonConfig.showRaiderIOProfile then
+			return 1
+		end
+
+		local function ShowTooltipRaiderIO()
+			if not detailedTooltip:IsShown() then
+				SetProfileTooltipNearFrame(PVEFrame, "player", nil, nil, "BACKGROUND")
+			end
+		end
+
+		local function HideTooltip()
+			detailedTooltip:Hide()
+		end
+
+		hooksecurefunc(PVEFrame, "Show", ShowTooltipRaiderIO)
+		hooksecurefunc(PVEFrame, "Hide", HideTooltip)
 		return 1
 	end
 end

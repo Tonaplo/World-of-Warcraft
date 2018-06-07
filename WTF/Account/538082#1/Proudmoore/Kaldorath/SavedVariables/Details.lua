@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 1702,
+	["combat_counter"] = 1710,
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -96,7 +96,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1520133809,
 	["active_profile"] = "Base",
-	["last_day"] = "20",
+	["last_day"] = "03",
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
@@ -177,15 +177,10 @@ _detalhes_database = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -193,12 +188,14 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
-			["y"] = -20.15869140625,
-			["x"] = 0,
-			["font_face"] = "Prototype",
+			["font_size"] = 14,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -210,7 +207,10 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
-			["font_size"] = 14,
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["y"] = -20.15869140625,
+			["use_spark"] = false,
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
@@ -229,6 +229,11 @@ _detalhes_database = {
 			},
 			["showamount"] = false,
 		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
 			["food_tier1"] = true,
@@ -239,10 +244,6 @@ _detalhes_database = {
 			["pre_pot_healers"] = false,
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
-		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -321,12 +322,12 @@ _detalhes_database = {
 			},
 			["realm_lastamt"] = 0,
 		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
+		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
 		},
 	},
+	["last_encounter"] = "Argus the Unmaker",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Cathedral of Eternal Night",
 		["started"] = false,
@@ -342,7 +343,6 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["last_encounter"] = "Argus the Unmaker",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -486,7 +486,7 @@ _detalhes_database = {
 	},
 	["force_font_outline"] = "",
 	["character_data"] = {
-		["logons"] = 166,
+		["logons"] = 170,
 	},
 	["last_realversion"] = 130,
 	["announce_cooldowns"] = {

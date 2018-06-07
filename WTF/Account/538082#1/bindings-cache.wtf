@@ -7,7 +7,6 @@ bind E CLICK LUIBarBottom2Button8:LeftButton
 bind X CLICK LUIBarBottom2Button11:LeftButton
 bind Z CLICK LUIBarBottom2Button10:LeftButton
 bind NUMLOCK NONE
-bind BUTTON4 NONE
 bind R CLICK LUIBarBottom2Button5:LeftButton
 bind SHIFT-R CLICK LUIBarBottom1Button5:LeftButton
 bind 1 CLICK LUIBarBottom2Button1:LeftButton

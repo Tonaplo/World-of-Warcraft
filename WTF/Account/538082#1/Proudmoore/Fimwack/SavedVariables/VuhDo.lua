@@ -3854,12 +3854,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Parasitic Growth"] = {
+			["219049"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Web of Pain"] = {
 				["isStacks"] = false,
@@ -3868,7 +3868,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Locked On"] = {
+			["Parasitic Growth"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -4148,12 +4148,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["219049"] = {
+			["Locked On"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Aim"] = {
 				["isStacks"] = false,
@@ -4792,8 +4792,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 93.3654556274414,
-			["x"] = 919.819946289063,
+			["y"] = 123.804100036621,
+			["x"] = 972.009704589844,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
@@ -4810,7 +4810,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -4819,6 +4818,7 @@ VUHDO_PANEL_SETUP = {
 				5, -- [5]
 			},
 			["sort"] = 0,
+			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -7533,9 +7533,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7543,9 +7543,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7598,9 +7598,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7630,9 +7630,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7640,9 +7640,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7695,9 +7695,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7732,12 +7732,12 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Dreadscar Rift",
+		["zone"] = "Dalaran",
 		["baseRange"] = true,
 		["class"] = "WARLOCK",
 		["role"] = 62,
-		["sortMaxHp"] = 5004960,
-		["map"] = "WarlockClassShrine",
+		["sortMaxHp"] = 5019660,
+		["map"] = "Dalaran70",
 		["threat"] = 0,
 		["powermax"] = 1155000,
 		["threatPerc"] = 0,
@@ -7749,21 +7749,54 @@ VUHDO_RAID = {
 		["classId"] = 25,
 		["range"] = true,
 		["unit"] = "player",
-		["debuff"] = 0,
-		["healthmax"] = 5004960,
+		["powertype"] = 0,
+		["healthmax"] = 5019660,
 		["dead"] = false,
-		["connected"] = true,
+		["charmed"] = false,
 		["fullName"] = "Fimwack",
 		["power"] = 1155000,
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 5004960,
+		["health"] = 5019660,
 		["className"] = "Warlock",
 		["afk"] = false,
-		["powertype"] = 0,
-		["charmed"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
 		["petUnit"] = "pet",
+	},
+	["pet"] = {
+		["visible"] = true,
+		["number"] = 1,
+		["zone"] = "Dalaran",
+		["baseRange"] = true,
+		["class"] = "WARLOCK",
+		["range"] = true,
+		["unit"] = "pet",
+		["targetUnit"] = "pettarget",
+		["powertype"] = 3,
+		["healthmax"] = 1505898,
+		["isVehicle"] = false,
+		["group"] = 0,
+		["sortMaxHp"] = 1505898,
+		["classId"] = 40,
+		["dead"] = false,
+		["map"] = "Dalaran70",
+		["connected"] = true,
+		["powermax"] = 200,
+		["power"] = 200,
+		["aggro"] = false,
+		["debuff"] = 0,
+		["threatPerc"] = 0,
+		["afk"] = false,
+		["isPet"] = true,
+		["threat"] = 0,
+		["health"] = 935424,
+		["className"] = "Lazgup",
+		["fullName"] = "Lazgup",
+		["ownerUnit"] = "player",
+		["charmed"] = false,
+		["name"] = "Lazgup",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7773,7 +7806,7 @@ VUHDO_INDICATOR_CONFIG = {
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
 		["INCOMING_BAR"] = "",
-		["SWIFTMEND_INDICATOR"] = "Role Icon",
+		["DAMAGE_FLASH_BAR"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -7786,14 +7819,14 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["CLUSTER_BORDER"] = "",
+		["SIDE_LEFT"] = "",
 		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: Mana only",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
+		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["SIDE_LEFT"] = "",
-		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
+		["SWIFTMEND_INDICATOR"] = "Role Icon",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

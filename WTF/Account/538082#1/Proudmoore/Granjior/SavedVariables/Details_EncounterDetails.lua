@@ -4622,16 +4622,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Runeseer Faljar",
 		},
-		[197797] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[253039] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Risen Arcanist",
+			["source"] = "Felblade Shocktrooper",
 		},
 		[194216] = {
 			["school"] = 64,
@@ -4666,12 +4662,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Domatrax",
 		},
-		[217234] = {
-			["school"] = 1,
+		[197797] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ularogg Cragshaper",
+			["source"] = "Risen Arcanist",
 		},
 		[233155] = {
 			["school"] = 32,
@@ -5213,12 +5213,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Advisor Vandros",
 		},
-		[253039] = {
+		[217234] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Felblade Shocktrooper",
+			["source"] = "Ularogg Cragshaper",
 		},
 		[253038] = {
 			["school"] = 1,
