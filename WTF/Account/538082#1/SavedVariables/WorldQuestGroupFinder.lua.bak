@@ -1,3 +1,4 @@
 
 WorldQuestGroupFinderConfig = {
+	["frameUnlocked"] = true,
 }

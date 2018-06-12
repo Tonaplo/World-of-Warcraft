@@ -5,153 +5,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
-		["diff"] = 16,
-		["player_db"] = {
-			["Librarien"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Librarien",
-				["class"] = "DRUID",
-			},
-			["Mirialyn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Mirialyn",
-				["class"] = "HUNTER",
-			},
-			["Nemain"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nemain",
-				["class"] = "WARRIOR",
-			},
-			["Faerand"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Faerand",
-				["class"] = "HUNTER",
-			},
-			["Chaosblades"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Chaosblades",
-				["class"] = "DEMONHUNTER",
-			},
-			["Bmany"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bmany",
-				["class"] = "HUNTER",
-			},
-			["Náutywáshrag"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Náutywáshrag",
-				["class"] = "WARLOCK",
-			},
-			["Caelus"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Caelus",
-				["class"] = "DRUID",
-			},
-			["Garroo"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Garroo",
-				["class"] = "DRUID",
-			},
-			["Aredor"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Aredor",
-				["class"] = "SHAMAN",
-			},
-			["Vivie"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Vivie",
-				["class"] = "PALADIN",
-			},
-			["Ddeath"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ddeath",
-				["class"] = "HUNTER",
-			},
-			["Snowvulpix"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Snowvulpix",
-				["class"] = "DRUID",
-			},
-			["Surenia"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Surenia",
-				["class"] = "MONK",
-			},
-			["Dazandis"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Dazandis",
-				["class"] = "DEMONHUNTER",
-			},
-			["Zcc"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zcc",
-				["class"] = "PALADIN",
-			},
-			["Glimmerstar"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Glimmerstar",
-				["class"] = "WARRIOR",
-			},
-			["Denyal"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Denyal",
-				["class"] = "MAGE",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Mythic",
 			["index"] = 1,
@@ -160,10 +13,157 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1712,
 			["try_number"] = 1,
 			["name"] = "Garothi Worldbreaker",
-			["encounter"] = "Garothi Worldbreaker",
-			["ej_instance_id"] = 946,
 			["diff"] = 16,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Garothi Worldbreaker",
 		},
+		["player_db"] = {
+			["Librarien"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Librarien",
+			},
+			["Mirialyn"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mirialyn",
+			},
+			["Nemain"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nemain",
+			},
+			["Faerand"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Faerand",
+			},
+			["Chaosblades"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Chaosblades",
+			},
+			["Bmany"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bmany",
+			},
+			["Náutywáshrag"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Náutywáshrag",
+			},
+			["Caelus"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Caelus",
+			},
+			["Garroo"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Garroo",
+			},
+			["Aredor"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Aredor",
+			},
+			["Vivie"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vivie",
+			},
+			["Ddeath"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ddeath",
+			},
+			["Denyal"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Denyal",
+			},
+			["Glimmerstar"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Glimmerstar",
+			},
+			["Dazandis"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Dazandis",
+			},
+			["Zcc"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zcc",
+			},
+			["Surenia"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Surenia",
+			},
+			["Snowvulpix"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Snowvulpix",
+			},
+		},
+		["diff"] = 16,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -172,32 +172,44 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
-		["diff"] = 16,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 1,
+			["zone"] = "Antorus, the Burning Throne",
+			["id"] = 2076,
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Garothi Worldbreaker",
+			["diff"] = 16,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Garothi Worldbreaker",
+		},
 		["player_db"] = {
 			["Librarien"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Mirialyn"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Nemain"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Faerand"] = {
 				["encounters"] = 5,
 				["points"] = 480,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -210,11 +222,11 @@ DeathGraphsDBEndurance = {
 						"Eradication |cFFFF33333,216,393|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "HUNTER",
 			},
 			["Chaosblades"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						5, -- [1]
@@ -222,18 +234,18 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF333310,515,026|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Bmany"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Náutywáshrag"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -241,18 +253,18 @@ DeathGraphsDBEndurance = {
 						"Surging Fel |cFFFF33339,016,772|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "WARLOCK",
 			},
 			["Exxacto"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Caelus"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -260,11 +272,11 @@ DeathGraphsDBEndurance = {
 						"Surging Fel |cFFFF33338,452,564|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
 			},
 			["Garroo"] = {
 				["encounters"] = 5,
 				["points"] = 480,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -277,11 +289,11 @@ DeathGraphsDBEndurance = {
 						"Surging Fel |cFFFF33338,968,546|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "DRUID",
 			},
 			["Aredor"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -289,18 +301,18 @@ DeathGraphsDBEndurance = {
 						"Surging Fel |cFFFF33338,958,828|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Vivie"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Ddeath"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						5, -- [1]
@@ -308,25 +320,30 @@ DeathGraphsDBEndurance = {
 						"Annihilation |cFFFF33334,471,710|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
-			["Snowvulpix"] = {
+			["Glimmerstar"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						5, -- [1]
+						252.415999999968, -- [2]
+						"Surging Fel |cFFFF33339,862,579|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Surenia"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
-			},
-			["Denyal"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
 			},
 			["Dazandis"] = {
 				["encounters"] = 5,
 				["points"] = 470,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -344,47 +361,30 @@ DeathGraphsDBEndurance = {
 						"Fel Bombardment |cFFFF33337,042,875|r", -- [3]
 					}, -- [3]
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Zcc"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
-			["Surenia"] = {
+			["Denyal"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
-			["Glimmerstar"] = {
+			["Snowvulpix"] = {
 				["encounters"] = 5,
-				["points"] = 490,
+				["points"] = 500,
+				["class"] = "DRUID",
 				["deaths"] = {
-					{
-						5, -- [1]
-						252.415999999968, -- [2]
-						"Surging Fel |cFFFF33339,862,579|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "WARRIOR",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 1,
-			["zone"] = "Antorus, the Burning Throne",
-			["id"] = 2076,
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "Garothi Worldbreaker",
-			["encounter"] = "Garothi Worldbreaker",
-			["ej_instance_id"] = 946,
-			["diff"] = 16,
-		},
+		["diff"] = 16,
 	},
 }
 DeathGraphsDBCurrent = {
@@ -394,9 +394,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 6172380,
 				["timeofdeath"] = 236.293999999994,
 				["name"] = "Garroo",
-				["time"] = 1517640741.889,
-				["class"] = "DRUID",
-				["timestring"] = "3m 56s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -797,6 +794,9 @@ DeathGraphsDBCurrent = {
 						"Garroo", -- [6]
 					}, -- [34]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "3m 56s",
+				["time"] = 1517640741.889,
 			}, -- [1]
 		},
 		["bossname"] = "Garothi Worldbreaker",
@@ -816,9 +816,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 5977800,
 				["timeofdeath"] = 131.951000000117,
 				["name"] = "Chaosblades",
-				["time"] = 1517640202.557,
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "2m 11s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -1207,14 +1204,14 @@ DeathGraphsDBCurrent = {
 						"Chaosblades", -- [6]
 					}, -- [34]
 				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "2m 11s",
+				["time"] = 1517640202.557,
 			}, -- [1]
 			{
 				["maxhealth"] = 5985600,
 				["timeofdeath"] = 162.374000000069,
 				["name"] = "Ddeath",
-				["time"] = 1517640232.98,
-				["class"] = "HUNTER",
-				["timestring"] = "2m 42s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -1605,14 +1602,14 @@ DeathGraphsDBCurrent = {
 						"Ddeath", -- [6]
 					}, -- [33]
 				},
+				["class"] = "HUNTER",
+				["timestring"] = "2m 42s",
+				["time"] = 1517640232.98,
 			}, -- [2]
 			{
 				["maxhealth"] = 5939460,
 				["timeofdeath"] = 252.415999999968,
 				["name"] = "Glimmerstar",
-				["time"] = 1517640323.022,
-				["class"] = "WARRIOR",
-				["timestring"] = "4m 12s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2007,14 +2004,14 @@ DeathGraphsDBCurrent = {
 						"Glimmerstar", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "4m 12s",
+				["time"] = 1517640323.022,
 			}, -- [3]
 			{
 				["maxhealth"] = 4821960,
 				["timeofdeath"] = 325.516999999993,
 				["name"] = "Faerand",
-				["time"] = 1517640396.123,
-				["class"] = "HUNTER",
-				["timestring"] = "5m 25s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2409,14 +2406,14 @@ DeathGraphsDBCurrent = {
 						"Faerand", -- [6]
 					}, -- [33]
 				},
+				["class"] = "HUNTER",
+				["timestring"] = "5m 25s",
+				["time"] = 1517640396.123,
 			}, -- [4]
 			{
 				["maxhealth"] = 6770556,
 				["timeofdeath"] = 329.12900000019,
 				["name"] = "Zcc",
-				["time"] = 1517640399.735,
-				["class"] = "PALADIN",
-				["timestring"] = "5m 29s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -2819,14 +2816,14 @@ DeathGraphsDBCurrent = {
 						"Zcc", -- [6]
 					}, -- [34]
 				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 29s",
+				["time"] = 1517640399.735,
 			}, -- [5]
 			{
 				["maxhealth"] = 5927340,
 				["timeofdeath"] = 329.12900000019,
 				["name"] = "Aredor",
-				["time"] = 1517640399.735,
-				["class"] = "SHAMAN",
-				["timestring"] = "5m 29s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -3221,14 +3218,14 @@ DeathGraphsDBCurrent = {
 						"Aredor", -- [6]
 					}, -- [33]
 				},
+				["class"] = "SHAMAN",
+				["timestring"] = "5m 29s",
+				["time"] = 1517640399.735,
 			}, -- [6]
 			{
 				["maxhealth"] = 5992440,
 				["timeofdeath"] = 329.12900000019,
 				["name"] = "Librarien",
-				["time"] = 1517640399.735,
-				["class"] = "DRUID",
-				["timestring"] = "5m 29s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3623,14 +3620,14 @@ DeathGraphsDBCurrent = {
 						"Librarien", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "5m 29s",
+				["time"] = 1517640399.735,
 			}, -- [7]
 			{
 				["maxhealth"] = 5441640,
 				["timeofdeath"] = 329.200000000186,
 				["name"] = "Dazandis",
-				["time"] = 1517640399.806,
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "5m 29s",
 				["events"] = {
 					{
 						4, -- [1]
@@ -4025,14 +4022,14 @@ DeathGraphsDBCurrent = {
 						"Dazandis", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "5m 29s",
+				["time"] = 1517640399.806,
 			}, -- [8]
 			{
 				["maxhealth"] = 6423840,
 				["timeofdeath"] = 329.589000000153,
 				["name"] = "Caelus",
-				["time"] = 1517640400.195,
-				["class"] = "DRUID",
-				["timestring"] = "5m 29s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4425,14 +4422,14 @@ DeathGraphsDBCurrent = {
 						"Caelus", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "5m 29s",
+				["time"] = 1517640400.195,
 			}, -- [9]
 			{
 				["maxhealth"] = 6245580,
 				["timeofdeath"] = 329.589000000153,
 				["name"] = "Denyal",
-				["time"] = 1517640400.195,
-				["class"] = "MAGE",
-				["timestring"] = "5m 29s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4827,6 +4824,9 @@ DeathGraphsDBCurrent = {
 						"Denyal", -- [6]
 					}, -- [33]
 				},
+				["class"] = "MAGE",
+				["timestring"] = "5m 29s",
+				["time"] = 1517640400.195,
 			}, -- [10]
 		},
 		["bossname"] = "Garothi Worldbreaker",
@@ -4877,14 +4877,14 @@ DeathGraphsDBGraph = {
 				1517639871, -- [2]
 				1517639871, -- [3]
 			},
-			[360] = {
-				1517638947, -- [1]
+			[162] = {
+				1517640423, -- [1]
 			},
 			[53] = {
 				1517638947, -- [1]
 			},
-			[329] = {
-				1517640423, -- [1]
+			[347] = {
+				1517639477, -- [1]
 			},
 			[261] = {
 				1517639477, -- [1]
@@ -4893,11 +4893,11 @@ DeathGraphsDBGraph = {
 			[362] = {
 				1517638947, -- [1]
 			},
-			[347] = {
-				1517639477, -- [1]
-			},
-			[162] = {
+			[329] = {
 				1517640423, -- [1]
+			},
+			[360] = {
+				1517638947, -- [1]
 			},
 		},
 		["spells"] = {
@@ -5059,6 +5059,66 @@ DeathGraphsDBGraph = {
 					1517640857, -- [2]
 				}, -- [10]
 			},
+			["Carnage"] = {
+				{
+					387, -- [1]
+					1517638947, -- [2]
+				}, -- [1]
+				{
+					398, -- [1]
+					1517638947, -- [2]
+				}, -- [2]
+				{
+					396, -- [1]
+					1517639477, -- [2]
+				}, -- [3]
+				{
+					348, -- [1]
+					1517640423, -- [2]
+				}, -- [4]
+			},
+			["Haywire"] = {
+				{
+					130, -- [1]
+					1517638947, -- [2]
+				}, -- [1]
+				{
+					264, -- [1]
+					1517638947, -- [2]
+				}, -- [2]
+				{
+					121, -- [1]
+					1517639477, -- [2]
+				}, -- [3]
+				{
+					252, -- [1]
+					1517639477, -- [2]
+				}, -- [4]
+				{
+					127, -- [1]
+					1517639871, -- [2]
+				}, -- [5]
+				{
+					256, -- [1]
+					1517639871, -- [2]
+				}, -- [6]
+				{
+					119, -- [1]
+					1517640423, -- [2]
+				}, -- [7]
+				{
+					250, -- [1]
+					1517640423, -- [2]
+				}, -- [8]
+				{
+					119, -- [1]
+					1517640857, -- [2]
+				}, -- [9]
+				{
+					236, -- [1]
+					1517640857, -- [2]
+				}, -- [10]
+			},
 			["Haywire Decimation"] = {
 				{
 					167, -- [1]
@@ -5172,66 +5232,6 @@ DeathGraphsDBGraph = {
 					321, -- [1]
 					1517640857, -- [2]
 				}, -- [28]
-			},
-			["Haywire"] = {
-				{
-					130, -- [1]
-					1517638947, -- [2]
-				}, -- [1]
-				{
-					264, -- [1]
-					1517638947, -- [2]
-				}, -- [2]
-				{
-					121, -- [1]
-					1517639477, -- [2]
-				}, -- [3]
-				{
-					252, -- [1]
-					1517639477, -- [2]
-				}, -- [4]
-				{
-					127, -- [1]
-					1517639871, -- [2]
-				}, -- [5]
-				{
-					256, -- [1]
-					1517639871, -- [2]
-				}, -- [6]
-				{
-					119, -- [1]
-					1517640423, -- [2]
-				}, -- [7]
-				{
-					250, -- [1]
-					1517640423, -- [2]
-				}, -- [8]
-				{
-					119, -- [1]
-					1517640857, -- [2]
-				}, -- [9]
-				{
-					236, -- [1]
-					1517640857, -- [2]
-				}, -- [10]
-			},
-			["Carnage"] = {
-				{
-					387, -- [1]
-					1517638947, -- [2]
-				}, -- [1]
-				{
-					398, -- [1]
-					1517638947, -- [2]
-				}, -- [2]
-				{
-					396, -- [1]
-					1517639477, -- [2]
-				}, -- [3]
-				{
-					348, -- [1]
-					1517640423, -- [2]
-				}, -- [4]
 			},
 			["Shrapnel"] = {
 				{
@@ -5496,9 +5496,9 @@ DeathGraphsDBGraph = {
 			["Eradication"] = 244969,
 			["Decimation"] = 244399,
 			["Empowered"] = 245237,
-			["Haywire Decimation"] = 246919,
-			["Haywire"] = 246965,
 			["Carnage"] = 244106,
+			["Haywire"] = 246965,
+			["Haywire Decimation"] = 246919,
 			["Shrapnel"] = 247044,
 			["Annihilation"] = 244294,
 			["Luring Destruction"] = 246848,

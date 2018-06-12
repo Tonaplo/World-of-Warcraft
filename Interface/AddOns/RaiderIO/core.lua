@@ -36,6 +36,11 @@ local addonConfig = {
 -- session
 local uiHooks = {}
 local profileCache = {}
+local configParentFrame
+local configButtonFrame
+local configHeaderFrame
+local configScrollFrame
+local configSliderFrame
 local configFrame
 local dataProviderQueue = {}
 local dataProvider
@@ -537,8 +542,53 @@ do
 			OnCancel = nil
 		}
 
-		configFrame = CreateFrame("Frame", addonName .. "ConfigFrame", UIParent)
-		configFrame:Hide()
+		configParentFrame = CreateFrame("Frame", addonName .. "ConfigParentFrame", UIParent)
+		configParentFrame:SetSize(400, 600)
+		configParentFrame:SetPoint("CENTER")
+
+		configHeaderFrame = CreateFrame("Frame", nil, configParentFrame)
+		configHeaderFrame:SetPoint("TOPLEFT", 00, -30)
+		configHeaderFrame:SetPoint("TOPRIGHT", 00, 30)
+		configHeaderFrame:SetHeight(40)
+
+		configScrollFrame = CreateFrame("ScrollFrame", nil, configParentFrame)
+		configScrollFrame:SetPoint("TOPLEFT", configHeaderFrame, "BOTTOMLEFT")
+		configScrollFrame:SetPoint("TOPRIGHT", configHeaderFrame, "BOTTOMRIGHT")
+		configScrollFrame:SetHeight(475)
+		configScrollFrame:EnableMouseWheel(true)
+		configScrollFrame:HookScript("OnMouseWheel", function(self, delta)
+			local currentValue = configSliderFrame:GetValue()
+			local changes = -delta * 20
+			configSliderFrame:SetValue(currentValue + changes)
+		end)
+
+		configButtonFrame = CreateFrame("Frame", nil, configParentFrame)
+		configButtonFrame:SetPoint("TOPLEFT", configScrollFrame, "BOTTOMLEFT", 0, -10)
+		configButtonFrame:SetPoint("TOPRIGHT", configScrollFrame, "BOTTOMRIGHT")
+		configButtonFrame:SetHeight(50)
+
+		configParentFrame.scrollframe = configScrollFrame
+
+		configSliderFrame = CreateFrame("Slider", nil, configScrollFrame, "UIPanelScrollBarTemplate")
+		configSliderFrame:SetPoint("TOPLEFT", configScrollFrame, "TOPRIGHT", -35, -18)
+		configSliderFrame:SetPoint("BOTTOMLEFT", configScrollFrame, "BOTTOMRIGHT", -35, 18)
+		configSliderFrame:SetMinMaxValues(1, 1)
+		configSliderFrame:SetValueStep(1)
+		configSliderFrame.scrollStep = 1
+		configSliderFrame:SetValue(0)
+		configSliderFrame:SetWidth(16)
+		configSliderFrame:SetScript("OnValueChanged",
+			function (self, value)
+				self:GetParent():SetVerticalScroll(value)
+			end)
+
+		configParentFrame.scrollbar = configSliderFrame
+
+		configFrame = CreateFrame("Frame", addonName .. "ConfigFrame", configScrollFrame)
+		configFrame:SetSize(400, 600) -- resized to proper value below
+		configScrollFrame.content = configFrame
+		configScrollFrame:SetScrollChild(configFrame)
+		configParentFrame:Hide()
 
 		local config
 
@@ -561,7 +611,7 @@ do
 		end
 
 		local function Close_OnClick()
-			configFrame:SetShown(not configFrame:IsShown())
+			configParentFrame:SetShown(not configParentFrame:IsShown())
 		end
 
 		local function Save_OnClick()
@@ -630,15 +680,15 @@ do
 			end
 		end
 
-		function config.CreateWidget(self, widgetType, height)
-			local widget = CreateFrame(widgetType, nil, configFrame)
+		function config.CreateWidget(self, widgetType, height, parentFrame)
+			local widget = CreateFrame(widgetType, nil, parentFrame or configFrame)
 
 			if self.lastWidget then
 				widget:SetPoint("TOPLEFT", self.lastWidget, "BOTTOMLEFT", 0, -24)
 				widget:SetPoint("BOTTOMRIGHT", self.lastWidget, "BOTTOMRIGHT", 0, -4)
 			else
-				widget:SetPoint("TOPLEFT", configFrame, "TOPLEFT", 16, -38)
-				widget:SetPoint("BOTTOMRIGHT", configFrame, "TOPRIGHT", -16, -16)
+				widget:SetPoint("TOPLEFT", parentFrame or configFrame, "TOPLEFT", 16, 0)
+				widget:SetPoint("BOTTOMRIGHT", parentFrame or configFrame, "TOPRIGHT", -40, -16)
 			end
 
 			widget.bg = widget:CreateTexture()
@@ -682,7 +732,9 @@ do
 				widget:SetScript("OnLeave", WidgetButton_OnLeave)
 			end
 
-			self.lastWidget = widget
+			if not parentFrame then
+				self.lastWidget = widget
+			end
 			return widget
 		end
 
@@ -696,8 +748,8 @@ do
 			return frame
 		end
 
-		function config.CreateHeadline(self, text)
-			local frame = self:CreateWidget("Frame")
+		function config.CreateHeadline(self, text, parentFrame)
+			local frame = self:CreateWidget("Frame", nil, parentFrame)
 			frame.bg:Hide()
 			frame.text:SetText(text)
 			return frame
@@ -761,34 +813,31 @@ do
 				end
 			end
 
-			configFrame:SetSize(1024, 1024) -- narrowed later in the code
-			configFrame:SetPoint("CENTER")
-			configFrame:SetFrameStrata("DIALOG")
-			configFrame:SetFrameLevel(255)
+			configParentFrame:SetFrameStrata("DIALOG")
+			configParentFrame:SetFrameLevel(255)
 
-			configFrame:EnableMouse(true)
-			configFrame:SetClampedToScreen(true)
-			configFrame:SetDontSavePosition(true)
-			configFrame:SetMovable(true)
-			configFrame:RegisterForDrag("LeftButton")
+			configParentFrame:EnableMouse(true)
+			configParentFrame:SetClampedToScreen(true)
+			configParentFrame:SetDontSavePosition(true)
+			configParentFrame:SetMovable(true)
+			configParentFrame:RegisterForDrag("LeftButton")
 
-			configFrame:SetBackdrop(config.backdrop)
-			configFrame:SetBackdropColor(0, 0, 0, 0.8)
-			configFrame:SetBackdropBorderColor(0.5, 0.5, 0.5, 0.8)
+			configParentFrame:SetBackdrop(config.backdrop)
+			configParentFrame:SetBackdropColor(0, 0, 0, 0.8)
+			configParentFrame:SetBackdropBorderColor(0.5, 0.5, 0.5, 0.8)
 
-			configFrame:SetScript("OnShow", ConfigFrame_OnShow)
-			configFrame:SetScript("OnDragStart", ConfigFrame_OnDragStart)
-			configFrame:SetScript("OnDragStop", ConfigFrame_OnDragStop)
-			configFrame:SetScript("OnEvent", ConfigFrame_OnEvent)
+			configParentFrame:SetScript("OnShow", ConfigFrame_OnShow)
+			configParentFrame:SetScript("OnDragStart", ConfigFrame_OnDragStart)
+			configParentFrame:SetScript("OnDragStop", ConfigFrame_OnDragStop)
+			configParentFrame:SetScript("OnEvent", ConfigFrame_OnEvent)
 
-			configFrame:RegisterEvent("PLAYER_REGEN_ENABLED")
-			configFrame:RegisterEvent("PLAYER_REGEN_DISABLED")
+			configParentFrame:RegisterEvent("PLAYER_REGEN_ENABLED")
+			configParentFrame:RegisterEvent("PLAYER_REGEN_DISABLED")
 
 			-- add widgets
-			local header = config:CreateHeadline(L.RAIDERIO_MYTHIC_OPTIONS .. "\nVersion: " .. tostring(GetAddOnMetadata(addonName, "Version")))
+			local header = config:CreateHeadline(L.RAIDERIO_MYTHIC_OPTIONS .. "\nVersion: " .. tostring(GetAddOnMetadata(addonName, "Version")), configHeaderFrame)
 			header.text:SetFont(header.text:GetFont(), 16, "OUTLINE")
 
-			config:CreatePadding()
 			config:CreateHeadline(L.MYTHIC_PLUS_SCORES)
 			config:CreateOptionToggle(L.SHOW_ON_PLAYER_UNITS, L.SHOW_ON_PLAYER_UNITS_DESC, "enableUnitTooltips")
 			config:CreateOptionToggle(L.SHOW_IN_LFD, L.SHOW_IN_LFD_DESC, "enableLFGTooltips")
@@ -826,10 +875,13 @@ do
 			config:CreateModuleToggle(L.MODULE_TAIWAN, "RaiderIO_DB_TW_A", "RaiderIO_DB_TW_H")
 
 			-- add save button and cancel buttons
-			local buttons = config:CreateWidget("Frame", 4)
+			local buttons = config:CreateWidget("Frame", 4, configButtonFrame)
+			buttons:ClearAllPoints()
+			buttons:SetPoint("TOPLEFT", configButtonFrame, "TOPLEFT", 16, 0)
+			buttons:SetPoint("BOTTOMRIGHT", configButtonFrame, "TOPRIGHT", -16, -10)
 			buttons:Hide()
-			local save = config:CreateWidget("Button", 4)
-			local cancel = config:CreateWidget("Button", 4)
+			local save = config:CreateWidget("Button", 4, configButtonFrame)
+			local cancel = config:CreateWidget("Button", 4, configButtonFrame)
 			save:ClearAllPoints()
 			save:SetPoint("LEFT", buttons, "LEFT", 0, -12)
 			save:SetSize(96, 28)
@@ -845,10 +897,12 @@ do
 
 			-- adjust frame height dynamically
 			local children = {configFrame:GetChildren()}
-			local height = 40 + 4
+			local height = 30
 			for i = 1, #children do
 				height = height + children[i]:GetHeight() + 2
 			end
+
+			configSliderFrame:SetMinMaxValues(1, height - 440)
 			configFrame:SetHeight(height)
 
 			-- adjust frame width dynamically (add padding based on the largest option label string)
@@ -860,6 +914,7 @@ do
 				end
 			end
 			configFrame:SetWidth(160 + maxWidth)
+			configParentFrame:SetWidth(160 + maxWidth)
 
 			-- add faction headers over the first module
 			local af = config:CreateHeadline("|TInterface\\Icons\\inv_bannerpvp_02:0:0:0:0:16:16:4:12:4:12|t")
@@ -876,7 +931,7 @@ do
 		do
 			local function Button_OnClick()
 				if not InCombatLockdown() then
-					configFrame:SetShown(not configFrame:IsShown())
+					configParentFrame:SetShown(not configParentFrame:IsShown())
 				end
 			end
 
@@ -919,7 +974,7 @@ do
 
 				-- resume regular routine
 				if not InCombatLockdown() then
-					configFrame:SetShown(not configFrame:IsShown())
+					configParentFrame:SetShown(not configParentFrame:IsShown())
 				end
 			end
 
@@ -938,7 +993,7 @@ do
 		-- 4294967296 == (1 << 32). Meaning, shift to get the hi-word.
 		-- WoW lua bit operators seem to only work on the lo-word (?)
 		local hiword = data / 4294967296
-		return 
+		return
 			band(data, PAYLOAD_MASK),
 			band(rshift(data, PAYLOAD_BITS), PAYLOAD_MASK),
 			band(hiword, PAYLOAD_MASK),

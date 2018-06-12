@@ -10,7 +10,7 @@ DataStore_AgendaDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -35,7 +35,12 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1528050665,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1528268649,
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Mythic|346474443"] = "31949|1528783649|0|1",
+					["Antorus, the Burning Throne Heroic|350512048"] = "31949|1528783649|0|1",
+					["Antorus, the Burning Throne Normal|350519392"] = "31949|1528783649|0|1",
+				},
+				["lastUpdate"] = 1528784961,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -50,7 +55,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1528050706,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1528001434,
+				["lastUpdate"] = 1528786551,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607904,
@@ -59,13 +64,16 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1516607162,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1528001555,
+				["lastUpdate"] = 1528786330,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1528050813,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1528050773,
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1528357372,
+				["DungeonIDs"] = {
+					["Ulduar Normal|350591145"] = "29938|1528785660|0|1",
+				},
+				["lastUpdate"] = 1528785684,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1528050737,
@@ -86,7 +94,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1528050876,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1528003750,
+				["lastUpdate"] = 1528786968,
 			},
 			["Default.Tichondrius.Korugen"] = {
 				["lastUpdate"] = 1524384196,
@@ -94,8 +102,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1528004495,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1528050773,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1528050813,
 			},
 		},
 	},

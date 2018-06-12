@@ -39,8 +39,8 @@ VER 3 0100000000000007 "Survival CDS" "612363"
 /cast Aspect of the Eagle
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R1EM1PT1NT1RM1EM2PM2OM2PH2WM[x]3HR3LR3MR3DH4MR4IH4PM4MR5DT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2HR[x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NZaeKalTetCaiBigAceAttPanDie[x]RudRepKahEllKalCelBlaKalAsh[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Fae[x][x][x][x][x][x][x][x][x][x]Fen[x][x][x][x][x][x]Wat[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Fae[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bea
 END
