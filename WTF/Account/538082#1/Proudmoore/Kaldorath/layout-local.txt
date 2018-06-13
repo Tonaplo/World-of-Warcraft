@@ -41,6 +41,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: AllTheThings-Window-RaidAssistant
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 300
+H: 300
 Frame: DetailsReportWindow
 FrameLevel: 1
 Anchor: CENTER
