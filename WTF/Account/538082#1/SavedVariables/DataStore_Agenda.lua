@@ -10,7 +10,7 @@ DataStore_AgendaDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -35,7 +35,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1528861459,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1528784961,
+				["lastUpdate"] = 1528963732,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -59,13 +59,13 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1516607162,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1528861117,
+				["lastUpdate"] = 1528958609,
+			},
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1528864044,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1528863103,
-			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1528785684,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1528862875,
@@ -83,7 +83,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1519800329,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1528941127,
+				["lastUpdate"] = 1528955146,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1528861270,
@@ -94,8 +94,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1528863410,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1528864044,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1528785684,
 			},
 		},
 	},

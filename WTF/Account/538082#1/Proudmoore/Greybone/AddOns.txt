@@ -27,3 +27,9 @@ RaiderIO_DB_KR_A: disabled
 RaiderIO_DB_EU_H: disabled
 RaiderIO_DB_EU_A: disabled
 OrderHallCommander: disabled
+Details_Streamer: disabled
+Grid2: disabled
+Grid2Options: disabled
+Grid2RaidDebuffs: disabled
+Grid2RaidDebuffsOptions: disabled
+Grid2LDB: disabled

@@ -1,5 +1,13 @@
 
 DetailsTimeLineDB = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["max_segments"] = 4,
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 			["Bruccampbell-Tichondrius"] = {
@@ -459,34 +467,87 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["combat_data"] = {
+	["debuff_timeline"] = {
 		{
-			["date_end"] = "13:13:40",
-			["date_start"] = "13:11:26",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 133.348,
 		}, -- [1]
 		{
-			["date_end"] = "13:08:42",
-			["date_start"] = "13:07:12",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 89.6899999999987,
 		}, -- [2]
 		{
-			["date_end"] = "13:06:18",
-			["date_start"] = "13:05:21",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 56.9259999999995,
+			["Acekícker-Tichondrius"] = {
+				[208165] = {
+					43.6170000000002, -- [1]
+					49.9099999999999, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
+			["Fudgedup-Tichondrius"] = {
+				[208165] = {
+					43.6170000000002, -- [1]
+					47.6239999999998, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
 		}, -- [3]
 		{
-			["date_end"] = "12:54:45",
-			["date_start"] = "12:53:12",
-			["name"] = "Patrol Captain Gerdo",
-			["total_time"] = 93.3000000000011,
+			["Fudgedup-Tichondrius"] = {
+				[207278] = {
+					17.6360000000004, -- [1]
+					21.4439999999995, -- [2]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Bruccampbell-Tichondrius"] = {
+				[207278] = {
+					17.6360000000004, -- [1]
+					20.7430000000004, -- [2]
+					46.7440000000006, -- [3]
+					46.8809999999994, -- [4]
+					74.6599999999999, -- [5]
+					74.7569999999996, -- [6]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				[207278] = {
+					17.6360000000004, -- [1]
+					29.6730000000007, -- [2]
+					46.7440000000006, -- [3]
+					49.9079999999995, -- [4]
+					74.6599999999999, -- [5]
+					77.1810000000005, -- [6]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Acekícker-Tichondrius"] = {
+				[207278] = {
+					46.7440000000006, -- [1]
+					49.2759999999998, -- [2]
+					74.6599999999999, -- [3]
+					76.9570000000003, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Praerend"] = {
+				[207278] = {
+					17.6360000000004, -- [1]
+					20.1010000000006, -- [2]
+					46.7440000000006, -- [3]
+					50.6570000000011, -- [4]
+					74.6599999999999, -- [5]
+					76.7469999999994, -- [6]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Fudgedup-Tichondrius"] = {
@@ -576,23 +637,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [1]
 		{
-			["Kalithumos-Tichondrius"] = {
+			["Praerend"] = {
 				{
-					62.7240000000002, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					31850, -- [3]
-				}, -- [1]
-				{
-					83.4239999999991, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					86659, -- [3]
-				}, -- [2]
-			},
-			["Acekícker-Tichondrius"] = {
-				{
-					84.8169999999991, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					1966, -- [3]
+					37.4839999999986, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
 				}, -- [1]
 			},
 			["Bruccampbell-Tichondrius"] = {
@@ -612,12 +661,24 @@ DetailsTimeLineDB = {
 					118038, -- [3]
 				}, -- [3]
 			},
-			["Praerend"] = {
+			["Acekícker-Tichondrius"] = {
 				{
-					37.4839999999986, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
+					84.8169999999991, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					1966, -- [3]
 				}, -- [1]
+			},
+			["Kalithumos-Tichondrius"] = {
+				{
+					62.7240000000002, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					31850, -- [3]
+				}, -- [1]
+				{
+					83.4239999999991, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					86659, -- [3]
+				}, -- [2]
 			},
 		}, -- [2]
 		{
@@ -663,91 +724,30 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["debuff_timeline"] = {
+	["combat_data"] = {
 		{
+			["date_start"] = "13:11:26",
+			["date_end"] = "13:13:40",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 133.348,
 		}, -- [1]
 		{
+			["date_start"] = "13:07:12",
+			["date_end"] = "13:08:42",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 89.6899999999987,
 		}, -- [2]
 		{
-			["Acekícker-Tichondrius"] = {
-				[208165] = {
-					43.6170000000002, -- [1]
-					49.9099999999999, -- [2]
-					["source"] = "Talixae Flamewreath",
-					["active"] = false,
-				},
-			},
-			["Fudgedup-Tichondrius"] = {
-				[208165] = {
-					43.6170000000002, -- [1]
-					47.6239999999998, -- [2]
-					["source"] = "Talixae Flamewreath",
-					["active"] = false,
-				},
-			},
+			["date_start"] = "13:05:21",
+			["date_end"] = "13:06:18",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 56.9259999999995,
 		}, -- [3]
 		{
-			["Fudgedup-Tichondrius"] = {
-				[207278] = {
-					17.6360000000004, -- [1]
-					21.4439999999995, -- [2]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-			["Bruccampbell-Tichondrius"] = {
-				[207278] = {
-					17.6360000000004, -- [1]
-					20.7430000000004, -- [2]
-					46.7440000000006, -- [3]
-					46.8809999999994, -- [4]
-					74.6599999999999, -- [5]
-					74.7569999999996, -- [6]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				[207278] = {
-					17.6360000000004, -- [1]
-					29.6730000000007, -- [2]
-					46.7440000000006, -- [3]
-					49.9079999999995, -- [4]
-					74.6599999999999, -- [5]
-					77.1810000000005, -- [6]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-			["Acekícker-Tichondrius"] = {
-				[207278] = {
-					46.7440000000006, -- [1]
-					49.2759999999998, -- [2]
-					74.6599999999999, -- [3]
-					76.9570000000003, -- [4]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-			["Praerend"] = {
-				[207278] = {
-					17.6360000000004, -- [1]
-					20.1010000000006, -- [2]
-					46.7440000000006, -- [3]
-					50.6570000000011, -- [4]
-					74.6599999999999, -- [5]
-					76.7469999999994, -- [6]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
+			["date_start"] = "12:53:12",
+			["date_end"] = "12:54:45",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 93.3000000000011,
 		}, -- [4]
-	},
-	["window_scale"] = 1,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
 	},
 }

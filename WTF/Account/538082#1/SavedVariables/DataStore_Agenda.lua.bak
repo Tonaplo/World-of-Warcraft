@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -35,7 +35,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1528861459,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1528784961,
+				["lastUpdate"] = 1528962433,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -59,13 +59,13 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1516607162,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1528861117,
-			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1528785684,
+				["lastUpdate"] = 1528958609,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1528863103,
+			},
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1528785684,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1528862875,
@@ -83,7 +83,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1519800329,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1528864524,
+				["lastUpdate"] = 1528955146,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1528861270,

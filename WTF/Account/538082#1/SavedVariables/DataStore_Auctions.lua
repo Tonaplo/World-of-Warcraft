@@ -10,7 +10,7 @@ DataStore_AuctionsDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
@@ -22,7 +22,7 @@ DataStore_AuctionsDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -34,6 +34,10 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1524938615,
 				["lastVisitDate"] = "2018/04/28 11:03",
 			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1514014572,
+				["lastVisitDate"] = "2017/12/22 23:36",
+			},
 			["Default.Tichondrius.Alura"] = {
 				["lastUpdate"] = 1517900144,
 				["lastVisitDate"] = "2018/02/05 22:55",
@@ -42,13 +46,13 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1517724421,
 				["lastVisitDate"] = "2018/02/03 22:07",
 			},
-			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1519003609,
-				["lastVisitDate"] = "2018/02/18 17:26",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1518250661,
+				["lastVisitDate"] = "2018/02/10 00:17",
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1518239629,
-				["lastVisitDate"] = "2018/02/09 21:13",
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1519063707,
+				["lastVisitDate"] = "2018/02/19 10:08",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1517470622,
@@ -58,25 +62,21 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1520108082,
 				["lastVisitDate"] = "2018/03/03 12:14",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1518250661,
-				["lastVisitDate"] = "2018/02/10 00:17",
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1520109858,
+				["lastVisitDate"] = "2018/03/03 12:44",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1517641742,
 				["lastVisitDate"] = "2018/02/02 23:09",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1514014572,
-				["lastVisitDate"] = "2017/12/22 23:36",
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1518239629,
+				["lastVisitDate"] = "2018/02/09 21:13",
 			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1519063707,
-				["lastVisitDate"] = "2018/02/19 10:08",
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1520109858,
-				["lastVisitDate"] = "2018/03/03 12:44",
+			["Default.Proudmoore.Amranar"] = {
+				["lastUpdate"] = 1519003609,
+				["lastVisitDate"] = "2018/02/18 17:26",
 			},
 		},
 	},

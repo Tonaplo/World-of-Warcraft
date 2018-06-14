@@ -3,12 +3,12 @@ ArtifactPowerUserDB = {
 	["ignoredItems"] = {
 		[147717] = true,
 	},
-	["size"] = 64,
-	["position"] = {
-		["y"] = -24.2830772399902,
-		["x"] = 3.81634378433228,
-		["point"] = "TOPLEFT",
-		["relativePoint"] = "TOPLEFT",
-	},
 	["lock"] = true,
+	["position"] = {
+		["y"] = -21.2127990722656,
+		["x"] = -373.512878417969,
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+	},
+	["size"] = 64,
 }

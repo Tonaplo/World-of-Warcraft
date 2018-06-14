@@ -1,7 +1,7 @@
 SorhaQuestLog: disabled
 AngryWorldQuests: enabled
-VuhDo: enabled
-VuhDoOptions: enabled
+VuhDo: disabled
+VuhDoOptions: disabled
 autoturnin: disabled
 MythicPlusTimer: disabled
 XLoot_Options: enabled

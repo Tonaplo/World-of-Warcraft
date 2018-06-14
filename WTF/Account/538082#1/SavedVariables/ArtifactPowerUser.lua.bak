@@ -5,10 +5,10 @@ ArtifactPowerUserDB = {
 	},
 	["size"] = 64,
 	["position"] = {
-		["y"] = -24.2830772399902,
-		["x"] = 3.81634378433228,
-		["point"] = "TOPLEFT",
-		["relativePoint"] = "TOPLEFT",
+		["y"] = -21.2127990722656,
+		["x"] = -373.512878417969,
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
 	},
 	["lock"] = true,
 }

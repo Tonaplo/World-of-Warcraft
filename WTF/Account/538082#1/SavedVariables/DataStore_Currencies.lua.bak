@@ -11,14 +11,14 @@ DataStore_CurrenciesDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -95,9 +95,9 @@ DataStore_CurrenciesDB = {
 				["Veiled Argunite"] = 37,
 				["Wrath of the Lich King"] = 34,
 				["Seal of Inevitable Fate"] = 30,
-				["Miscellaneous"] = 20,
-				["Timeworn Artifact"] = 27,
 				["Warlords of Draenor"] = 10,
+				["Timeworn Artifact"] = 27,
+				["Miscellaneous"] = 20,
 				["Wakening Essence"] = 39,
 				["Legion"] = 1,
 				["Apexis Crystal"] = 17,
@@ -171,12 +171,12 @@ DataStore_CurrenciesDB = {
 					3592, -- [6]
 					5172, -- [7]
 					2111754, -- [8]
-					51229836, -- [9]
+					51133836, -- [9]
 					398, -- [10]
 					626982, -- [11]
 					28726, -- [12]
 					89162, -- [13]
-					127438, -- [14]
+					14798, -- [14]
 					17, -- [15]
 					351378, -- [16]
 					3232, -- [17]
@@ -221,10 +221,10 @@ DataStore_CurrenciesDB = {
 					1, -- [17]
 					2, -- [18]
 				},
-				["lastUpdate"] = 1528783647,
+				["lastUpdate"] = 1528958643,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "400233-0-0-0",
+					[1220] = "399483-0-0-0",
 					[824] = "10000-0-0-10000",
 					[1273] = "3-0-0-6",
 					[1191] = "25-0-0-5000",
@@ -491,7 +491,7 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1528861117,
+				["lastUpdate"] = 1528956675,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[1220] = "2247-0-0-0",
@@ -502,40 +502,6 @@ DataStore_CurrenciesDB = {
 					[1226] = "14074-0-0-0",
 					[994] = "2-0-0-20",
 					[1342] = "34-0-0-1000",
-				},
-			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1528785659,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-				},
-				["CurrencyInfo"] = {
-					[395] = "0-0-0-0",
-					[1220] = "0-0-0-0",
-					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "0-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "0-0-0-0",
 				},
 			},
 			["Default.Proudmoore.Kaldorath"] = {
@@ -583,6 +549,40 @@ DataStore_CurrenciesDB = {
 					[1226] = "14951-0-0-0",
 					[994] = "0-0-0-0",
 					[1342] = "165-0-0-1000",
+				},
+			},
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1528785659,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+				},
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "0-0-0-0",
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {
@@ -768,10 +768,10 @@ DataStore_CurrenciesDB = {
 					1158, -- [3]
 					264, -- [4]
 					3041930, -- [5]
-					1545356, -- [6]
+					1777036, -- [6]
 					142, -- [7]
-					70858, -- [8]
-					93134, -- [9]
+					89674, -- [8]
+					98382, -- [9]
 					17, -- [10]
 					68498, -- [11]
 					172832, -- [12]
@@ -805,10 +805,10 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1528864063,
+				["lastUpdate"] = 1528954257,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "12073-0-0-0",
+					[1220] = "13883-0-0-0",
 					[824] = "2922-0-0-10000",
 					[1273] = "1-0-0-6",
 					[1191] = "1350-0-0-5000",
