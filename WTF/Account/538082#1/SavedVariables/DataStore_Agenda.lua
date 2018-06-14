@@ -10,19 +10,19 @@ DataStore_AgendaDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -61,8 +61,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1528861117,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1528864044,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1528863103,
 			},
 			["Default.Tichondrius.Zethan"] = {
 				["lastUpdate"] = 1528785684,
@@ -83,7 +83,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1519800329,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1528866528,
+				["lastUpdate"] = 1528941127,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1528861270,
@@ -94,8 +94,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1528863410,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1528863103,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1528864044,
 			},
 		},
 	},

@@ -10,19 +10,19 @@ DataStore_MailsDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -66,9 +66,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1528004345,
 				["lastVisitDate"] = "2018/06/02 22:39",
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607753,
-				["lastVisitDate"] = "2017/11/02 00:29",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1528001420,
+				["lastVisitDate"] = "2018/06/02 21:50",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
@@ -98,8 +98,8 @@ DataStore_MailsDB = {
 						["itemID"] = 12990,
 						["link"] = "|cff0070dd|Hitem:12990::::::::41:256::::::|h[Razor's Edge]|h|r",
 						["count"] = 1,
-						["icon"] = 135578,
 						["lastCheck"] = 1526879489,
+						["icon"] = 135578,
 						["daysLeft"] = 30,
 					}, -- [1]
 					{
@@ -107,8 +107,8 @@ DataStore_MailsDB = {
 						["itemID"] = 6599,
 						["link"] = "|cff1eff00|Hitem:6599::::::-10:1967194118:41:256:512:30:1:3862:33:::|h[Battleforge Shield of the Gorilla]|h|r",
 						["count"] = 1,
-						["icon"] = 134951,
 						["lastCheck"] = 1526879489,
+						["icon"] = 134951,
 						["daysLeft"] = 30,
 					}, -- [2]
 					{
@@ -116,8 +116,8 @@ DataStore_MailsDB = {
 						["itemID"] = 4818,
 						["link"] = "|cff1eff00|Hitem:4818::::::::41:256::14::::|h[Executioner's Sword]|h|r",
 						["count"] = 1,
-						["icon"] = 135329,
 						["lastCheck"] = 1526879489,
+						["icon"] = 135329,
 						["daysLeft"] = 30,
 					}, -- [3]
 				},
@@ -127,9 +127,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1528004493,
 				["lastVisitDate"] = "2018/06/02 22:41",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1528001420,
-				["lastVisitDate"] = "2018/06/02 21:50",
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607753,
+				["lastVisitDate"] = "2017/11/02 00:29",
 			},
 		},
 	},

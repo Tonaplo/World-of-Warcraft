@@ -10,18 +10,18 @@ HandyNotes_BrokenShoreDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["profiles"] = {
 		["Korugen - Tichondrius"] = {
@@ -42,24 +42,24 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Evisca - Bleeding Hollow"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
-		["Rentror - Bleeding Hollow"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["show_netherPortals"] = false,
 			["show_infernalCores"] = false,
 			["show_shrine"] = false,
 		},
-		["Morifa - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Miriyal - Proudmoore"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
 		["Praerend - Proudmoore"] = {
 		},
@@ -67,7 +67,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Alura - Tichondrius"] = {
 		},
-		["Evisca - Bleeding Hollow"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 	},
 }
