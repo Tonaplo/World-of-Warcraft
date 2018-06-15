@@ -1,8 +1,6 @@
 
 Grid2DB = {
 	["namespaces"] = {
-		["Grid2Utils"] = {
-		},
 		["Grid2Frame"] = {
 			["profiles"] = {
 				["Healer"] = {
@@ -26,17 +24,19 @@ Grid2DB = {
 				},
 			},
 		},
+		["Grid2Utils"] = {
+		},
 		["Grid2Layout"] = {
 			["profiles"] = {
 				["Healer"] = {
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["arena"] = "By Group",
 						["raid"] = "By Group & Role",
-						["solo"] = "Solo",
 						["party"] = "Party",
+						["solo"] = "Solo",
+						["arena"] = "By Group",
 					},
-					["BackgroundB"] = 1,
+					["BackgroundR"] = 1,
 					["BorderR"] = 0.501960784313726,
 					["BorderTexture"] = "Stripped_medium",
 					["anchor"] = "TOP",
@@ -44,23 +44,14 @@ Grid2DB = {
 					["PosY"] = -572.733048604532,
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.501960784313726,
-					["PosX"] = -1.44058196104083,
-					["horizontal"] = false,
-					["BackgroundR"] = 1,
 					["Spacing"] = 3,
+					["horizontal"] = false,
+					["PosX"] = -1.44058196104083,
+					["BackgroundB"] = 1,
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
-			["char"] = {
-				["Amranar - Proudmoore"] = {
-					"Amranar - Proudmoore", -- [1]
-					"Amranar - Proudmoore", -- [2]
-					"Amranar - Proudmoore", -- [3]
-					"Healer", -- [4]
-					["enabled"] = true,
-				},
-			},
+		["Grid2AoeHeals"] = {
 		},
 		["Grid2Options"] = {
 		},
@@ -76,7 +67,16 @@ Grid2DB = {
 				},
 			},
 		},
-		["Grid2AoeHeals"] = {
+		["LibDualSpec-1.0"] = {
+			["char"] = {
+				["Amranar - Proudmoore"] = {
+					"Amranar - Proudmoore", -- [1]
+					"Amranar - Proudmoore", -- [2]
+					"Amranar - Proudmoore", -- [3]
+					"Healer", -- [4]
+					["enabled"] = true,
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
@@ -120,8 +120,8 @@ Grid2DB = {
 				["corner-bottom-right"] = {
 					["size"] = 20,
 					["fontSize"] = 12,
-					["fontJustifyH"] = "RIGHT",
 					["level"] = 9,
+					["fontJustifyH"] = "RIGHT",
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMRIGHT",
@@ -215,6 +215,54 @@ Grid2DB = {
 						["b"] = 0,
 					},
 				},
+				["heals"] = {
+					["type"] = "bar",
+					["texture"] = "Blizzard Raid Bar",
+					["anchorTo"] = "health",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "CENTER",
+						["point"] = "CENTER",
+						["x"] = 0,
+					},
+					["level"] = 1,
+					["opacity"] = 1,
+					["color1"] = {
+						["a"] = 0,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+				},
+				["health"] = {
+					["type"] = "bar",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "CENTER",
+						["point"] = "CENTER",
+						["x"] = 0,
+					},
+					["level"] = 2,
+					["texture"] = "Gradient",
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
+				},
 				["corner-bottom-left"] = {
 					["fontSize"] = 12,
 					["reverseCooldown"] = true,
@@ -235,54 +283,6 @@ Grid2DB = {
 					["level"] = 5,
 					["fontJustifyH"] = "LEFT",
 					["size"] = 20,
-				},
-				["health"] = {
-					["type"] = "bar",
-					["location"] = {
-						["y"] = 0,
-						["relPoint"] = "CENTER",
-						["point"] = "CENTER",
-						["x"] = 0,
-					},
-					["level"] = 2,
-					["texture"] = "Gradient",
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0,
-						["g"] = 0,
-						["b"] = 0,
-					},
-				},
-				["heals"] = {
-					["type"] = "bar",
-					["texture"] = "Blizzard Raid Bar",
-					["anchorTo"] = "health",
-					["location"] = {
-						["y"] = 0,
-						["relPoint"] = "CENTER",
-						["point"] = "CENTER",
-						["x"] = 0,
-					},
-					["level"] = 1,
-					["opacity"] = 1,
-					["color1"] = {
-						["a"] = 0,
-						["r"] = 0,
-						["g"] = 0,
-						["b"] = 0,
-					},
-				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
 				},
 				["text-up-color"] = {
 					["type"] = "text-color",
@@ -1069,8 +1069,8 @@ Grid2DB = {
 						["b"] = 1,
 					},
 				},
-				["buff-Dispersion"] = {
-					["spellName"] = 47585,
+				["buff-DarkRegeneration"] = {
+					["spellName"] = 108359,
 					["type"] = "buff",
 					["mine"] = false,
 					["color1"] = {
@@ -1135,8 +1135,8 @@ Grid2DB = {
 						["b"] = 1,
 					},
 				},
-				["buff-CloakofShadows"] = {
-					["spellName"] = 31224,
+				["buff-LifeCocoon"] = {
+					["spellName"] = 116849,
 					["type"] = "buff",
 					["mine"] = false,
 					["color1"] = {
@@ -1289,8 +1289,19 @@ Grid2DB = {
 						["b"] = 1,
 					},
 				},
-				["buff-LifeCocoon"] = {
-					["spellName"] = 116849,
+				["buff-Dispersion"] = {
+					["spellName"] = 47585,
+					["type"] = "buff",
+					["mine"] = false,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+				["buff-CloakofShadows"] = {
+					["spellName"] = 31224,
 					["type"] = "buff",
 					["mine"] = false,
 					["color1"] = {
@@ -1303,6 +1314,17 @@ Grid2DB = {
 				["heals-incoming"] = {
 					["includePlayerHeals"] = true,
 					["multiplier"] = 1.6,
+				},
+				["buff-DivineHymn"] = {
+					["spellName"] = "Divine Hymn",
+					["type"] = "buff",
+					["mine"] = false,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
 				},
 				["buff-Lifebloom-mine"] = {
 					["color2"] = {
@@ -1328,39 +1350,6 @@ Grid2DB = {
 						["b"] = 0.2,
 					},
 				},
-				["buff-DivineHymn"] = {
-					["spellName"] = "Divine Hymn",
-					["type"] = "buff",
-					["mine"] = false,
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-				},
-				["buff-DarkRegeneration"] = {
-					["spellName"] = 108359,
-					["type"] = "buff",
-					["mine"] = false,
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-				},
-				["buff-PowerWord:Barrier"] = {
-					["spellName"] = 81782,
-					["type"] = "buff",
-					["mine"] = false,
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-				},
 				["buff-Anti-MagicShell"] = {
 					["spellName"] = 48707,
 					["type"] = "buff",
@@ -1383,6 +1372,17 @@ Grid2DB = {
 						["b"] = 1,
 					},
 				},
+				["buff-IceBlock"] = {
+					["spellName"] = 45438,
+					["type"] = "buff",
+					["mine"] = false,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
 				["buff-SpiritMend"] = {
 					["spellName"] = "Spirit Mend",
 					["type"] = "buff",
@@ -1394,8 +1394,8 @@ Grid2DB = {
 						["b"] = 1,
 					},
 				},
-				["buff-IceBlock"] = {
-					["spellName"] = 45438,
+				["buff-PowerWord:Barrier"] = {
+					["spellName"] = 81782,
 					["type"] = "buff",
 					["mine"] = false,
 					["color1"] = {
@@ -1470,30 +1470,30 @@ Grid2DB = {
 					["buff-DivineShield"] = 121,
 					["buff-VampiricBlood"] = 150,
 					["buff-CommandingShout"] = 111,
-					["buff-DivineHymn"] = 119,
+					["buff-Feint"] = 123,
 					["buff-FortifyingBrew"] = 124,
 					["buff-SurvivalInstincts"] = 147,
 					["buff-CloakofShadows"] = 110,
-					["buff-Feint"] = 123,
 					["buff-Ironbark"] = 133,
+					["buff-GreaterInvisibility"] = 125,
 					["buff-DampenHarm"] = 112,
 					["buff-Barkskin"] = 105,
-					["buff-DarkRegeneration"] = 114,
+					["buff-PowerWord:Barrier"] = 139,
 					["buff-HealingTideTotem"] = 129,
-					["buff-GreaterInvisibility"] = 125,
+					["buff-LastStand"] = 134,
 					["buff-CauterizeMaster"] = 109,
 					["buff-Tranquility"] = 148,
-					["buff-LastStand"] = 134,
 					["buff-MassSpellReflection"] = 137,
+					["buff-DivineHymn"] = 119,
 					["buff-IceboundFortitude"] = 132,
 					["buff-Dispersion"] = 118,
-					["buff-Vigilance"] = 151,
+					["buff-PainSuppression"] = 138,
 					["buff-LifeCocoon"] = 135,
 					["buff-ShieldWall"] = 141,
-					["buff-PainSuppression"] = 138,
+					["buff-Vigilance"] = 151,
 					["buff-Cauterize"] = 108,
 					["buff-GuardianofAncientKings"] = 128,
-					["buff-PowerWord:Barrier"] = 139,
+					["buff-DarkRegeneration"] = 114,
 					["buff-BlessingofProtection"] = 106,
 					["buff-ArdentDefender"] = 102,
 					["buff-ShroudofPurgatory"] = 143,

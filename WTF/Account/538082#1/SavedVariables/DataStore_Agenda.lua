@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -35,7 +35,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1528861459,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1528963732,
+				["lastUpdate"] = 1529091132,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -64,8 +64,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1528864044,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1528863103,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1528785684,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1528862875,
@@ -94,8 +94,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1528863410,
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1528785684,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1528863103,
 			},
 		},
 	},

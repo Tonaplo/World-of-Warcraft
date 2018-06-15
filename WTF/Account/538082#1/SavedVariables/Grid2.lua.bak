@@ -1,22 +1,13 @@
 
 Grid2DB = {
 	["namespaces"] = {
-		["LibDualSpec-1.0"] = {
-			["char"] = {
-				["Amranar - Proudmoore"] = {
-					"Amranar - Proudmoore", -- [1]
-					"Amranar - Proudmoore", -- [2]
-					"Amranar - Proudmoore", -- [3]
-					"Healer", -- [4]
-					["enabled"] = true,
-				},
-			},
+		["Grid2AoeHeals"] = {
 		},
 		["Grid2RaidDebuffs"] = {
 			["profiles"] = {
 				["Healer"] = {
-					["lastSelectedModule"] = "Legion",
 					["defaultEJ_difficulty"] = 16,
+					["lastSelectedModule"] = "Legion",
 					["enabledModules"] = {
 						["Legion"] = true,
 					},
@@ -29,29 +20,40 @@ Grid2DB = {
 				["Healer"] = {
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["raid"] = "By Group & Role",
 						["party"] = "Party",
-						["solo"] = "Solo",
 						["arena"] = "By Group",
+						["solo"] = "Solo",
+						["raid"] = "By Group & Role",
 					},
-					["BackgroundR"] = 1,
-					["BorderR"] = 0.501960784313726,
-					["Spacing"] = 3,
-					["BackgroundG"] = 1,
-					["BorderTexture"] = "Stripped_medium",
-					["BackgroundA"] = 0,
 					["BackgroundB"] = 1,
-					["BorderG"] = 0.501960784313726,
+					["BorderR"] = 0.501960784313726,
+					["BorderTexture"] = "Stripped_medium",
 					["anchor"] = "TOP",
+					["BackgroundG"] = 1,
+					["PosY"] = -572.733048604532,
+					["BackgroundA"] = 0,
+					["BorderG"] = 0.501960784313726,
+					["BackgroundR"] = 1,
 					["horizontal"] = false,
-					["PosY"] = -579.794422481269,
-					["PosX"] = -1.44062437436946,
+					["Spacing"] = 3,
+					["PosX"] = -1.44058196104083,
 				},
 			},
 		},
-		["Grid2AoeHeals"] = {
+		["LibDualSpec-1.0"] = {
+			["char"] = {
+				["Amranar - Proudmoore"] = {
+					"Amranar - Proudmoore", -- [1]
+					"Amranar - Proudmoore", -- [2]
+					"Amranar - Proudmoore", -- [3]
+					"Healer", -- [4]
+					["enabled"] = true,
+				},
+			},
 		},
 		["Grid2Options"] = {
+		},
+		["Grid2Utils"] = {
 		},
 		["Grid2Frame"] = {
 			["profiles"] = {
@@ -66,17 +68,15 @@ Grid2DB = {
 					["showTooltip"] = "Always",
 					["frameBorderDistance"] = 0,
 					["frameBorderTexture"] = "glow",
+					["font"] = "Prototype",
+					["frameHeight"] = 55,
 					["frameContentColor"] = {
 						["r"] = 0.549019607843137,
 					},
-					["font"] = "Prototype",
-					["frameHeight"] = 52,
-					["orientation"] = "HORIZONTAL",
 					["frameWidth"] = 119,
+					["orientation"] = "HORIZONTAL",
 				},
 			},
-		},
-		["Grid2Utils"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -118,18 +118,18 @@ Grid2DB = {
 					["fontSize"] = 8,
 				},
 				["corner-bottom-right"] = {
-					["fontSize"] = 12,
-					["reverseCooldown"] = true,
 					["fontJustifyV"] = "BOTTOM",
+					["fontSize"] = 12,
 					["type"] = "icon",
+					["reverseCooldown"] = true,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMRIGHT",
 						["point"] = "BOTTOMRIGHT",
 						["x"] = 0,
 					},
-					["level"] = 9,
 					["fontJustifyH"] = "RIGHT",
+					["level"] = 9,
 					["size"] = 20,
 				},
 				["text-down"] = {
@@ -251,40 +251,6 @@ Grid2DB = {
 					["textlength"] = 12,
 					["size"] = 20,
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
-				["text-up-color"] = {
-					["type"] = "text-color",
-				},
-				["heals"] = {
-					["color1"] = {
-						["a"] = 0,
-						["b"] = 0,
-						["g"] = 0,
-						["r"] = 0,
-					},
-					["type"] = "bar",
-					["anchorTo"] = "health",
-					["location"] = {
-						["y"] = 0,
-						["relPoint"] = "CENTER",
-						["point"] = "CENTER",
-						["x"] = 0,
-					},
-					["level"] = 1,
-					["opacity"] = 1,
-					["texture"] = "Blizzard Raid Bar",
-				},
 				["corner-bottom-left"] = {
 					["fontSize"] = 12,
 					["reverseCooldown"] = true,
@@ -306,6 +272,40 @@ Grid2DB = {
 					["type"] = "icon",
 					["size"] = 20,
 				},
+				["text-up-color"] = {
+					["type"] = "text-color",
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
+				},
+				["heals"] = {
+					["type"] = "bar",
+					["color1"] = {
+						["a"] = 0,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["anchorTo"] = "health",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "CENTER",
+						["point"] = "CENTER",
+						["x"] = 0,
+					},
+					["level"] = 1,
+					["opacity"] = 1,
+					["texture"] = "Blizzard Raid Bar",
+				},
 			},
 			["statuses"] = {
 				["heal-absorbs"] = {
@@ -315,12 +315,12 @@ Grid2DB = {
 					},
 					["thresholdLow"] = 0,
 					["color2"] = {
-						["r"] = 0.0588235294117647,
 						["g"] = 1,
+						["r"] = 0.0588235294117647,
 					},
 					["color1"] = {
-						["r"] = 0.0705882352941177,
 						["g"] = 1,
+						["r"] = 0.0705882352941177,
 					},
 				},
 				["buff-MassRegeneration"] = {
@@ -333,6 +333,17 @@ Grid2DB = {
 					["type"] = "buff",
 					["mine"] = false,
 					["spellName"] = "Mass Regeneration",
+				},
+				["buff-ShroudofPurgatory"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = "Shroud of Purgatory",
 				},
 				["buff-MassSpellReflection"] = {
 					["color1"] = {
@@ -355,6 +366,17 @@ Grid2DB = {
 					["type"] = "buff",
 					["mine"] = false,
 					["spellName"] = "Last Stand",
+				},
+				["buff-HealthFunnel"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = "Health Funnel",
 				},
 				["raid-debuffs"] = {
 					["debuffs"] = {
@@ -797,8 +819,6 @@ Grid2DB = {
 					["spellName"] = 102342,
 				},
 				["debuffs-ImportantDebuffs"] = {
-					["useWhiteList"] = true,
-					["type"] = "debuffs",
 					["auras"] = {
 						"Fulminating Pulse", -- [1]
 						"Chilled Blood", -- [2]
@@ -808,6 +828,8 @@ Grid2DB = {
 						"Soulbomb", -- [6]
 						"Soulburst", -- [7]
 					},
+					["useWhiteList"] = true,
+					["type"] = "debuffs",
 					["color1"] = {
 						["a"] = 1,
 						["b"] = 0,
@@ -901,8 +923,41 @@ Grid2DB = {
 					},
 					["type"] = "color",
 				},
+				["buff-DampenHarm"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = "Dampen Harm",
+				},
+				["buff-Atonement-mine"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = 1,
+					["spellName"] = 81749,
+				},
 				["health-current"] = {
 					["frequentHealth"] = true,
+				},
+				["buff-PainSuppression"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = 33206,
 				},
 				["buff-ShieldWall"] = {
 					["color1"] = {
@@ -1003,39 +1058,6 @@ Grid2DB = {
 					["mine"] = false,
 					["spellName"] = 81256,
 				},
-				["buff-DampenHarm"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = "Dampen Harm",
-				},
-				["buff-SpiritMend"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = "Spirit Mend",
-				},
-				["buff-LifeCocoon"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = 116849,
-				},
 				["buff-SmokeBomb"] = {
 					["color1"] = {
 						["a"] = 1,
@@ -1046,6 +1068,17 @@ Grid2DB = {
 					["type"] = "buff",
 					["mine"] = false,
 					["spellName"] = 76577,
+				},
+				["buff-PowerWord:Barrier"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = 81782,
 				},
 				["buff-Regrowth-mine"] = {
 					["color1"] = {
@@ -1058,7 +1091,7 @@ Grid2DB = {
 					["mine"] = true,
 					["spellName"] = 8936,
 				},
-				["buff-IceBlock"] = {
+				["buff-AuraMastery"] = {
 					["color1"] = {
 						["a"] = 1,
 						["b"] = 1,
@@ -1067,7 +1100,7 @@ Grid2DB = {
 					},
 					["type"] = "buff",
 					["mine"] = false,
-					["spellName"] = 45438,
+					["spellName"] = 31821,
 				},
 				["buff-Deterrence"] = {
 					["color1"] = {
@@ -1091,17 +1124,6 @@ Grid2DB = {
 					["mine"] = 1,
 					["spellName"] = 139,
 				},
-				["buff-PainSuppression"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = 33206,
-				},
 				["buff-BlessingofSacrifice"] = {
 					["color1"] = {
 						["a"] = 1,
@@ -1113,7 +1135,7 @@ Grid2DB = {
 					["mine"] = false,
 					["spellName"] = "Blessing of Sacrifice",
 				},
-				["buff-AstralShift"] = {
+				["buff-IceBlock"] = {
 					["color1"] = {
 						["a"] = 1,
 						["b"] = 1,
@@ -1122,18 +1144,7 @@ Grid2DB = {
 					},
 					["type"] = "buff",
 					["mine"] = false,
-					["spellName"] = 108271,
-				},
-				["buff-Anti-MagicShell"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = 48707,
+					["spellName"] = 45438,
 				},
 				["buff-SpiritLinkTotem"] = {
 					["color1"] = {
@@ -1157,17 +1168,6 @@ Grid2DB = {
 					["mine"] = false,
 					["spellName"] = 47788,
 				},
-				["buff-PowerWord:Barrier"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = 81782,
-				},
 				["buff-DivineProtection"] = {
 					["color1"] = {
 						["a"] = 1,
@@ -1190,39 +1190,6 @@ Grid2DB = {
 					["mine"] = false,
 					["spellName"] = 5277,
 				},
-				["buff-Anti-MagicZone"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = "Anti-Magic Zone",
-				},
-				["buff-Dispersion"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = 47585,
-				},
-				["buff-CommandingShout"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = 97463,
-				},
 				["buff-GrimoireofSacrifice"] = {
 					["color1"] = {
 						["a"] = 1,
@@ -1234,7 +1201,7 @@ Grid2DB = {
 					["mine"] = false,
 					["spellName"] = "Grimoire of Sacrifice",
 				},
-				["buff-DarkRegeneration"] = {
+				["buff-Anti-MagicZone"] = {
 					["color1"] = {
 						["a"] = 1,
 						["b"] = 1,
@@ -1243,9 +1210,9 @@ Grid2DB = {
 					},
 					["type"] = "buff",
 					["mine"] = false,
-					["spellName"] = 108359,
+					["spellName"] = "Anti-Magic Zone",
 				},
-				["buff-HealthFunnel"] = {
+				["buff-DivineShield"] = {
 					["color1"] = {
 						["a"] = 1,
 						["b"] = 1,
@@ -1254,9 +1221,9 @@ Grid2DB = {
 					},
 					["type"] = "buff",
 					["mine"] = false,
-					["spellName"] = "Health Funnel",
+					["spellName"] = 642,
 				},
-				["buff-CauterizeMaster"] = {
+				["buff-CommandingShout"] = {
 					["color1"] = {
 						["a"] = 1,
 						["b"] = 1,
@@ -1265,18 +1232,7 @@ Grid2DB = {
 					},
 					["type"] = "buff",
 					["mine"] = false,
-					["spellName"] = "Cauterize Master",
-				},
-				["buff-ShroudofPurgatory"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = "Shroud of Purgatory",
+					["spellName"] = 97463,
 				},
 				["buff-Barkskin"] = {
 					["color1"] = {
@@ -1300,7 +1256,7 @@ Grid2DB = {
 					["mine"] = false,
 					["spellName"] = 108280,
 				},
-				["buff-Vigilance"] = {
+				["buff-CauterizeMaster"] = {
 					["color1"] = {
 						["a"] = 1,
 						["b"] = 1,
@@ -1309,7 +1265,7 @@ Grid2DB = {
 					},
 					["type"] = "buff",
 					["mine"] = false,
-					["spellName"] = "Vigilance",
+					["spellName"] = "Cauterize Master",
 				},
 				["buff-Tranquility"] = {
 					["color1"] = {
@@ -1321,6 +1277,83 @@ Grid2DB = {
 					["type"] = "buff",
 					["mine"] = false,
 					["spellName"] = 740,
+				},
+				["buff-Vigilance"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = "Vigilance",
+				},
+				["buff-Dispersion"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = 47585,
+				},
+				["buff-SpiritMend"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = "Spirit Mend",
+				},
+				["buff-AstralShift"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = 108271,
+				},
+				["buff-DivineHymn"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = "Divine Hymn",
+				},
+				["buff-Anti-MagicShell"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = 48707,
+				},
+				["buff-DarkRegeneration"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = 108359,
 				},
 				["buff-Lifebloom-mine"] = {
 					["color2"] = {
@@ -1346,53 +1379,9 @@ Grid2DB = {
 					["mine"] = true,
 					["spellName"] = 33763,
 				},
-				["buff-AuraMastery"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = 31821,
-				},
-				["buff-DivineHymn"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = "Divine Hymn",
-				},
 				["heals-incoming"] = {
 					["multiplier"] = 1.6,
 					["includePlayerHeals"] = true,
-				},
-				["buff-Atonement-mine"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = 1,
-					["spellName"] = 81749,
-				},
-				["buff-DivineShield"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["type"] = "buff",
-					["mine"] = false,
-					["spellName"] = 642,
 				},
 				["buff-CloakofShadows"] = {
 					["color1"] = {
@@ -1404,6 +1393,17 @@ Grid2DB = {
 					["type"] = "buff",
 					["mine"] = false,
 					["spellName"] = 31224,
+				},
+				["buff-LifeCocoon"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = false,
+					["spellName"] = 116849,
 				},
 			},
 			["versions"] = {
@@ -1468,37 +1468,37 @@ Grid2DB = {
 					["buff-Anti-MagicShell"] = 100,
 					["buff-Anti-MagicZone"] = 101,
 					["buff-DivineShield"] = 121,
-					["buff-Vigilance"] = 151,
-					["buff-CommandingShout"] = 111,
 					["buff-VampiricBlood"] = 150,
+					["buff-CommandingShout"] = 111,
+					["buff-UnendingResolve"] = 149,
 					["buff-FortifyingBrew"] = 124,
 					["buff-SurvivalInstincts"] = 147,
-					["buff-UnendingResolve"] = 149,
-					["buff-Tranquility"] = 148,
 					["buff-SpiritMend"] = 146,
+					["buff-ShroudofPurgatory"] = 143,
+					["buff-GreaterInvisibility"] = 125,
 					["buff-DampenHarm"] = 112,
 					["buff-Barkskin"] = 105,
-					["buff-ShroudofPurgatory"] = 143,
+					["buff-Tranquility"] = 148,
 					["buff-HealingTideTotem"] = 129,
-					["buff-Ironbark"] = 133,
+					["buff-PowerWord:Barrier"] = 139,
 					["buff-CauterizeMaster"] = 109,
 					["buff-DarkRegeneration"] = 114,
-					["buff-PowerWord:Barrier"] = 139,
-					["buff-LastStand"] = 134,
 					["buff-MassSpellReflection"] = 137,
-					["buff-LifeCocoon"] = 135,
+					["buff-Cauterize"] = 108,
 					["buff-PainSuppression"] = 138,
+					["buff-LifeCocoon"] = 135,
+					["buff-Vigilance"] = 151,
 					["buff-Dispersion"] = 118,
 					["buff-ShieldWall"] = 141,
 					["buff-IceboundFortitude"] = 132,
-					["buff-Cauterize"] = 108,
+					["buff-DivineHymn"] = 119,
 					["buff-GuardianofAncientKings"] = 128,
-					["buff-GreaterInvisibility"] = 125,
+					["buff-LastStand"] = 134,
 					["buff-BlessingofProtection"] = 106,
 					["buff-ArdentDefender"] = 102,
-					["buff-Feint"] = 123,
+					["buff-Ironbark"] = 133,
 					["buff-CloakofShadows"] = 110,
-					["buff-DivineHymn"] = 119,
+					["buff-Feint"] = 123,
 					["buff-DiffuseMagic"] = 117,
 				},
 				["heals-color"] = {
@@ -1517,9 +1517,9 @@ Grid2DB = {
 				["text-up"] = {
 					["charmed"] = 65,
 					["feign-death"] = 96,
+					["death"] = 95,
 					["offline"] = 93,
 					["vehicle"] = 70,
-					["death"] = 95,
 				},
 				["text-up-color"] = {
 					["charmed"] = 65,
@@ -1530,8 +1530,8 @@ Grid2DB = {
 					["death"] = 95,
 				},
 				["heals"] = {
-					["shields"] = 100,
 					["color-IncommingHealsColor"] = 101,
+					["shields"] = 100,
 					["heals-incoming"] = 99,
 				},
 				["corner-bottom-left"] = {
