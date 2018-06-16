@@ -2,6 +2,90 @@
 DetailsTimeLineDB = {
 	["window_scale"] = 1,
 	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Kalithumos-Tichondrius"] = {
+				{
+					4.31899999999951, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					86659, -- [3]
+				}, -- [1]
+				{
+					116.692999999999, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					6940, -- [3]
+				}, -- [2]
+				{
+					116.692999999999, -- [1]
+					"Kahoots-Tichondrius", -- [2]
+					6940, -- [3]
+				}, -- [3]
+				{
+					165.552, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					31850, -- [3]
+				}, -- [4]
+			},
+			["Kahoots-Tichondrius"] = {
+				{
+					176.816999999999, -- [1]
+					"Kahoots-Tichondrius", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Granjior"] = {
+				{
+					57.362000000001, -- [1]
+					"Granjior", -- [2]
+					1022, -- [3]
+				}, -- [1]
+			},
+			["Unshocked"] = {
+				{
+					42.1090000000004, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+				{
+					42.1090000000004, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108281, -- [3]
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			["Kalithumos-Tichondrius"] = {
+				{
+					51.3009999999995, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+			["Kahoots-Tichondrius"] = {
+				{
+					70.3839999999982, -- [1]
+					"Kahoots-Tichondrius", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Granjior"] = {
+				{
+					359.255999999999, -- [1]
+					"Granjior", -- [2]
+					633, -- [3]
+				}, -- [1]
+				{
+					434.280999999999, -- [1]
+					"Granjior", -- [2]
+					1022, -- [3]
+				}, -- [2]
+			},
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 			["Granjior"] = {
@@ -81,32 +165,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "12:33:11",
-			["date_start"] = "12:29:25",
-			["name"] = "Helya",
-			["total_time"] = 226.089,
-		}, -- [1]
-		{
-			["date_end"] = "12:26:25",
-			["date_start"] = "12:24:27",
-			["name"] = "Harbaron",
-			["total_time"] = 117.625,
-		}, -- [2]
-		{
-			["date_end"] = "12:21:01",
-			["date_start"] = "12:19:32",
-			["name"] = "Ymiron, the Fallen King",
-			["total_time"] = 88.9139999999989,
-		}, -- [3]
-		{
-			["date_end"] = "00:11:55",
-			["date_start"] = "00:03:50",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 485.000999999998,
-		}, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Kahoots-Tichondrius"] = {
@@ -365,95 +424,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
-		{
-			["Kahoots-Tichondrius"] = {
-				{
-					176.816999999999, -- [1]
-					"Kahoots-Tichondrius", -- [2]
-					45438, -- [3]
-				}, -- [1]
-			},
-			["Kalithumos-Tichondrius"] = {
-				{
-					4.31899999999951, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					86659, -- [3]
-				}, -- [1]
-				{
-					116.692999999999, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					6940, -- [3]
-				}, -- [2]
-				{
-					116.692999999999, -- [1]
-					"Kahoots-Tichondrius", -- [2]
-					6940, -- [3]
-				}, -- [3]
-				{
-					165.552, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					31850, -- [3]
-				}, -- [4]
-			},
-		}, -- [1]
-		{
-			["Granjior"] = {
-				{
-					57.362000000001, -- [1]
-					"Granjior", -- [2]
-					1022, -- [3]
-				}, -- [1]
-			},
-			["Unshocked"] = {
-				{
-					42.1090000000004, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [1]
-				{
-					42.1090000000004, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108281, -- [3]
-				}, -- [2]
-			},
-		}, -- [2]
-		{
-			["Kahoots-Tichondrius"] = {
-				{
-					70.3839999999982, -- [1]
-					"Kahoots-Tichondrius", -- [2]
-					45438, -- [3]
-				}, -- [1]
-			},
-			["Kalithumos-Tichondrius"] = {
-				{
-					51.3009999999995, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					31850, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-			["Granjior"] = {
-				{
-					359.255999999999, -- [1]
-					"Granjior", -- [2]
-					633, -- [3]
-				}, -- [1]
-				{
-					434.280999999999, -- [1]
-					"Granjior", -- [2]
-					1022, -- [3]
-				}, -- [2]
-			},
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "12:29:25",
+			["date_end"] = "12:33:11",
+			["name"] = "Helya",
+			["total_time"] = 226.089,
+		}, -- [1]
+		{
+			["date_start"] = "12:24:27",
+			["date_end"] = "12:26:25",
+			["name"] = "Harbaron",
+			["total_time"] = 117.625,
+		}, -- [2]
+		{
+			["date_start"] = "12:19:32",
+			["date_end"] = "12:21:01",
+			["name"] = "Ymiron, the Fallen King",
+			["total_time"] = 88.9139999999989,
+		}, -- [3]
+		{
+			["date_start"] = "00:03:50",
+			["date_end"] = "00:11:55",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 485.000999999998,
+		}, -- [4]
 	},
 }

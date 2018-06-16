@@ -47,6 +47,9 @@ VER 3 000000000000003A "Challenge Macro" "988197"
 /use Drums of Fury
 /use Potion of Prolonged Power
 END
+VER 3 000000000000003C "Clique" "132950"
+/clique
+END
 VER 3 000000000000002A "CooldownRotation" "1386546"
 /cdr
 END

@@ -556,6 +556,8 @@ do
 		configScrollFrame:SetPoint("TOPRIGHT", configHeaderFrame, "BOTTOMRIGHT")
 		configScrollFrame:SetHeight(475)
 		configScrollFrame:EnableMouseWheel(true)
+		configScrollFrame:SetClampedToScreen(true);
+		configScrollFrame:SetClipsChildren(true);
 		configScrollFrame:HookScript("OnMouseWheel", function(self, delta)
 			local currentValue = configSliderFrame:GetValue()
 			local changes = -delta * 20

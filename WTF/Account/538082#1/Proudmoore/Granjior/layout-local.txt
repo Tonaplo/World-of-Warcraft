@@ -62,10 +62,3 @@ X: 0
 Y: 0
 W: 925
 H: 600
-Frame: VuhDoNewOptionsTabbedFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: -126
-Y: 120
-W: 648
-H: 455

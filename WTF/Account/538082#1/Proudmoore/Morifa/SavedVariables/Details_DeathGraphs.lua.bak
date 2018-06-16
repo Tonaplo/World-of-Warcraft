@@ -820,11 +820,12 @@ DeathGraphsDBDeaths = {
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Meowfurryoff-Tichondrius"] = {
-				["name"] = "Meowfurryoff-Tichondrius",
+			["Zoephos-Tichondrius"] = {
+				["name"] = "Zoephos-Tichondrius",
 				["class"] = "PRIEST",
 				["overall"] = {
-					[213520] = 612383,
+					[212648] = 183599,
+					[213624] = 1453672,
 				},
 				["deaths"] = {
 				},
@@ -859,12 +860,11 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Kalethia-Tichondrius"] = {
-				["name"] = "Kalethia-Tichondrius",
-				["class"] = "MAGE",
+			["Meowfurryoff-Tichondrius"] = {
+				["name"] = "Meowfurryoff-Tichondrius",
+				["class"] = "PRIEST",
 				["overall"] = {
-					[212494] = 1484502,
-					[212648] = 169432,
+					[213520] = 612383,
 				},
 				["deaths"] = {
 				},
@@ -879,12 +879,12 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Zoephos-Tichondrius"] = {
-				["name"] = "Zoephos-Tichondrius",
-				["class"] = "PRIEST",
+			["Kalethia-Tichondrius"] = {
+				["name"] = "Kalethia-Tichondrius",
+				["class"] = "MAGE",
 				["overall"] = {
-					[212648] = 183599,
-					[213624] = 1453672,
+					[212494] = 1484502,
+					[212648] = 169432,
 				},
 				["deaths"] = {
 				},
@@ -953,6 +953,14 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Engurru-Quel'Thalas",
 			},
+			["Amauta-Quel'Thalas"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Amauta-Quel'Thalas",
+			},
 			["Opalauana-Whisperwind"] = {
 				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
@@ -969,14 +977,6 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 				["name"] = "Darkchef-Quel'Thalas",
-			},
-			["Amauta-Quel'Thalas"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Amauta-Quel'Thalas",
 			},
 		},
 		["diff"] = 14,
@@ -2475,10 +2475,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ishtag-Gundrak"] = {
+			["Fionaluvs-Suramar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -2531,10 +2531,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Opalauana-Whisperwind"] = {
+			["Ishtag-Gundrak"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -2573,16 +2573,11 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Lólla-Kel'Thuzad"] = {
+			["Hatuu-Sargeras"] = {
 				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEMONHUNTER",
+				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
-					{
-						1, -- [1]
-						20.0280000000003, -- [2]
-						"Unchecked Rage |cFFFF33335,747,937|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Trugan"] = {
@@ -2669,25 +2664,30 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Hatuu-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Fionaluvs-Suramar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
 			["Bizen-Elune"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "WARRIOR",
 				["deaths"] = {
+				},
+			},
+			["Opalauana-Whisperwind"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Lólla-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						20.0280000000003, -- [2]
+						"Unchecked Rage |cFFFF33335,747,937|r", -- [3]
+					}, -- [1]
 				},
 			},
 		},
@@ -3071,10 +3071,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Inkedscarlet-Eitrigg"] = {
+			["Morifa"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -3092,10 +3092,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Schizo-Undermine"] = {
+			["Inkedscarlet-Eitrigg"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
@@ -3106,10 +3106,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Morifa"] = {
+			["Schizo-Undermine"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -3961,10 +3961,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Inkedscarlet-Eitrigg"] = {
+			["Morifa"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -3982,10 +3982,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Schizo-Undermine"] = {
+			["Inkedscarlet-Eitrigg"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
@@ -3996,10 +3996,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Morifa"] = {
+			["Schizo-Undermine"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -4524,16 +4524,11 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Opalauana-Whisperwind"] = {
+			["Fionaluvs-Suramar"] = {
 				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEATHKNIGHT",
+				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
-					{
-						1, -- [1]
-						68.1499999999996, -- [2]
-						"Slicing Tornado (DoT) |cFFFF3333290,766|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Rareiris-Stormrage"] = {
@@ -4592,11 +4587,16 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ishtag-Gundrak"] = {
+			["Opalauana-Whisperwind"] = {
 				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
+				["points"] = 90,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
+					{
+						1, -- [1]
+						68.1499999999996, -- [2]
+						"Slicing Tornado (DoT) |cFFFF3333290,766|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Morifa"] = {
@@ -4754,10 +4754,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Fionaluvs-Suramar"] = {
+			["Ishtag-Gundrak"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -4854,17 +4854,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Aele-Dalaran"] = {
+			["Wences-Quel'Thalas"] = {
 				["encounters"] = 2,
-				["points"] = 190,
+				["points"] = 200,
 				["deaths"] = {
-					{
-						2, -- [1]
-						31.7600000000002, -- [2]
-						"Diabolic Bomb |cFFFF33332,452,664|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "SHAMAN",
+				["class"] = "WARLOCK",
 			},
 			["Donno-Moonrunner"] = {
 				["encounters"] = 2,
@@ -4880,12 +4875,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Ëuph-Shu'halo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
+			["Aele-Dalaran"] = {
+				["encounters"] = 2,
+				["points"] = 190,
 				["deaths"] = {
+					{
+						2, -- [1]
+						31.7600000000002, -- [2]
+						"Diabolic Bomb |cFFFF33332,452,664|r", -- [3]
+					}, -- [1]
 				},
+				["class"] = "SHAMAN",
 			},
 			["Alexandor"] = {
 				["encounters"] = 1,
@@ -4908,12 +4908,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Riönna-Uldaman"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
+			["Lockz-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
 			["Schizo-Undermine"] = {
 				["encounters"] = 1,
@@ -4922,12 +4922,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Lockz-Kel'Thuzad"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Neviden-Drakkari"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Sëphirôth-Frostwolf"] = {
 				["encounters"] = 2,
@@ -4981,10 +4981,10 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Neviden-Drakkari"] = {
+			["Riönna-Uldaman"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -5009,12 +5009,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Wences-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Ëuph-Shu'halo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Aerandír-Thrall"] = {
 				["encounters"] = 2,
@@ -11950,6 +11950,144 @@ DeathGraphsDBGraph = {
 					1526242114, -- [2]
 				}, -- [27]
 			},
+			["Reverberating Strike"] = {
+				{
+					15, -- [1]
+					1522310181, -- [2]
+				}, -- [1]
+				{
+					85, -- [1]
+					1522310181, -- [2]
+				}, -- [2]
+				{
+					115, -- [1]
+					1522310181, -- [2]
+				}, -- [3]
+				{
+					145, -- [1]
+					1522310181, -- [2]
+				}, -- [4]
+				{
+					219, -- [1]
+					1522310181, -- [2]
+				}, -- [5]
+				{
+					250, -- [1]
+					1522310181, -- [2]
+				}, -- [6]
+				{
+					15, -- [1]
+					1522310679, -- [2]
+				}, -- [7]
+				{
+					85, -- [1]
+					1522310679, -- [2]
+				}, -- [8]
+				{
+					113, -- [1]
+					1522310679, -- [2]
+				}, -- [9]
+				{
+					143, -- [1]
+					1522310679, -- [2]
+				}, -- [10]
+				{
+					213, -- [1]
+					1522310679, -- [2]
+				}, -- [11]
+				{
+					15, -- [1]
+					1526242114, -- [2]
+				}, -- [12]
+				{
+					81, -- [1]
+					1526242114, -- [2]
+				}, -- [13]
+				{
+					113, -- [1]
+					1526242114, -- [2]
+				}, -- [14]
+				{
+					142, -- [1]
+					1526242114, -- [2]
+				}, -- [15]
+				{
+					213, -- [1]
+					1526242114, -- [2]
+				}, -- [16]
+				{
+					244, -- [1]
+					1526242114, -- [2]
+				}, -- [17]
+				{
+					274, -- [1]
+					1526242114, -- [2]
+				}, -- [18]
+				{
+					345, -- [1]
+					1526242114, -- [2]
+				}, -- [19]
+			},
+			["Demolish"] = {
+				{
+					206, -- [1]
+					1522310181, -- [2]
+				}, -- [1]
+				{
+					208, -- [1]
+					1522310679, -- [2]
+				}, -- [2]
+				{
+					223, -- [1]
+					1522310679, -- [2]
+				}, -- [3]
+				{
+					239, -- [1]
+					1522310679, -- [2]
+				}, -- [4]
+				{
+					255, -- [1]
+					1522310679, -- [2]
+				}, -- [5]
+				{
+					271, -- [1]
+					1522310679, -- [2]
+				}, -- [6]
+			},
+			["Apocalypse Protocol"] = {
+				{
+					38, -- [1]
+					1522310181, -- [2]
+				}, -- [1]
+				{
+					157, -- [1]
+					1522310181, -- [2]
+				}, -- [2]
+				{
+					280, -- [1]
+					1522310181, -- [2]
+				}, -- [3]
+				{
+					38, -- [1]
+					1522310679, -- [2]
+				}, -- [4]
+				{
+					158, -- [1]
+					1522310679, -- [2]
+				}, -- [5]
+				{
+					38, -- [1]
+					1526242114, -- [2]
+				}, -- [6]
+				{
+					157, -- [1]
+					1526242114, -- [2]
+				}, -- [7]
+				{
+					277, -- [1]
+					1526242114, -- [2]
+				}, -- [8]
+			},
 			["Forging Strike"] = {
 				{
 					7, -- [1]
@@ -12104,144 +12242,6 @@ DeathGraphsDBGraph = {
 					1526242114, -- [2]
 				}, -- [38]
 			},
-			["Reverberating Strike"] = {
-				{
-					15, -- [1]
-					1522310181, -- [2]
-				}, -- [1]
-				{
-					85, -- [1]
-					1522310181, -- [2]
-				}, -- [2]
-				{
-					115, -- [1]
-					1522310181, -- [2]
-				}, -- [3]
-				{
-					145, -- [1]
-					1522310181, -- [2]
-				}, -- [4]
-				{
-					219, -- [1]
-					1522310181, -- [2]
-				}, -- [5]
-				{
-					250, -- [1]
-					1522310181, -- [2]
-				}, -- [6]
-				{
-					15, -- [1]
-					1522310679, -- [2]
-				}, -- [7]
-				{
-					85, -- [1]
-					1522310679, -- [2]
-				}, -- [8]
-				{
-					113, -- [1]
-					1522310679, -- [2]
-				}, -- [9]
-				{
-					143, -- [1]
-					1522310679, -- [2]
-				}, -- [10]
-				{
-					213, -- [1]
-					1522310679, -- [2]
-				}, -- [11]
-				{
-					15, -- [1]
-					1526242114, -- [2]
-				}, -- [12]
-				{
-					81, -- [1]
-					1526242114, -- [2]
-				}, -- [13]
-				{
-					113, -- [1]
-					1526242114, -- [2]
-				}, -- [14]
-				{
-					142, -- [1]
-					1526242114, -- [2]
-				}, -- [15]
-				{
-					213, -- [1]
-					1526242114, -- [2]
-				}, -- [16]
-				{
-					244, -- [1]
-					1526242114, -- [2]
-				}, -- [17]
-				{
-					274, -- [1]
-					1526242114, -- [2]
-				}, -- [18]
-				{
-					345, -- [1]
-					1526242114, -- [2]
-				}, -- [19]
-			},
-			["Apocalypse Protocol"] = {
-				{
-					38, -- [1]
-					1522310181, -- [2]
-				}, -- [1]
-				{
-					157, -- [1]
-					1522310181, -- [2]
-				}, -- [2]
-				{
-					280, -- [1]
-					1522310181, -- [2]
-				}, -- [3]
-				{
-					38, -- [1]
-					1522310679, -- [2]
-				}, -- [4]
-				{
-					158, -- [1]
-					1522310679, -- [2]
-				}, -- [5]
-				{
-					38, -- [1]
-					1526242114, -- [2]
-				}, -- [6]
-				{
-					157, -- [1]
-					1526242114, -- [2]
-				}, -- [7]
-				{
-					277, -- [1]
-					1526242114, -- [2]
-				}, -- [8]
-			},
-			["Demolish"] = {
-				{
-					206, -- [1]
-					1522310181, -- [2]
-				}, -- [1]
-				{
-					208, -- [1]
-					1522310679, -- [2]
-				}, -- [2]
-				{
-					223, -- [1]
-					1522310679, -- [2]
-				}, -- [3]
-				{
-					239, -- [1]
-					1522310679, -- [2]
-				}, -- [4]
-				{
-					255, -- [1]
-					1522310679, -- [2]
-				}, -- [5]
-				{
-					271, -- [1]
-					1522310679, -- [2]
-				}, -- [6]
-			},
 			["Initializing"] = {
 				{
 					38, -- [1]
@@ -12358,10 +12358,10 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 			["Flame Reverberation"] = 244328,
 			["Diabolic Bomb"] = 248214,
-			["Forging Strike"] = 254919,
 			["Reverberating Strike"] = 254926,
-			["Apocalypse Protocol"] = 246516,
 			["Demolish"] = 246692,
+			["Apocalypse Protocol"] = 246516,
+			["Forging Strike"] = 254919,
 			["Initializing"] = 246504,
 			["Ruiner"] = 246833,
 		},
@@ -13814,8 +13814,9 @@ DeathGraphsDBGraph = {
 	},
 	["171315"] = {
 		["deaths"] = {
-			[70] = {
+			[39] = {
 				1496623376, -- [1]
+				1496623816, -- [2]
 			},
 			[69] = {
 				1496623376, -- [1]
@@ -13823,7 +13824,7 @@ DeathGraphsDBGraph = {
 			[93] = {
 				1496623816, -- [1]
 			},
-			[10] = {
+			[70] = {
 				1496623376, -- [1]
 			},
 			[107] = {
@@ -13836,9 +13837,8 @@ DeathGraphsDBGraph = {
 			[63] = {
 				1496623816, -- [1]
 			},
-			[39] = {
+			[10] = {
 				1496623376, -- [1]
-				1496623816, -- [2]
 			},
 		},
 		["spells"] = {
@@ -15155,13 +15155,13 @@ DeathGraphsDBGraph = {
 	},
 	["186714"] = {
 		["deaths"] = {
+			[148] = {
+				1510035342, -- [1]
+			},
 			[142] = {
 				1510035342, -- [1]
 			},
 			[105] = {
-				1510035342, -- [1]
-			},
-			[148] = {
 				1510035342, -- [1]
 			},
 		},

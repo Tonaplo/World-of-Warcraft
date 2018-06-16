@@ -2,19 +2,397 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
+		["Kaldorath - Proudmoore"] = {
+			["spec1_profileKey"] = "Kaldorath - Proudmoore",
+			["spec2_profileKey"] = "Kaldorath - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+		},
+		["Amranar - Proudmoore"] = {
+			["spec1_profileKey"] = "Druid - Balance",
+			["spec3_profileKey"] = "Druid - Guardian",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec4_profileKey"] = "Druid - Resto",
+			["spec2_profileKey"] = "Druid - Feral",
+			["specswap"] = true,
+		},
+		["Farahn - Proudmoore"] = {
+			["spec1_profileKey"] = "Shaman - Resto",
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Shaman - Resto",
+			["downclick"] = false,
+			["spec3_profileKey"] = "Shaman - Resto",
+			["specswap"] = true,
+		},
 		["Mallusof - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
-			["fastooc"] = false,
+			["blizzframes"] = {
+				["PlayerFrame"] = false,
+			},
 			["downclick"] = false,
+			["fastooc"] = false,
 			["spec3_profileKey"] = "Priest - Shadow",
 			["spec2_profileKey"] = "Priest - Holy",
 			["specswap"] = true,
 		},
+		["Praerend - Proudmoore"] = {
+			["spec1_profileKey"] = "Praerend - Proudmoore",
+			["spec3_profileKey"] = "Praerend - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Praerend - Proudmoore",
+			["specswap"] = false,
+		},
+		["Granjior - Proudmoore"] = {
+			["spec1_profileKey"] = "Paladin - Holy",
+			["spec3_profileKey"] = "Non-Healer",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Non-Healer",
+			["specswap"] = true,
+		},
+		["Miriyal - Proudmoore"] = {
+			["spec1_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Monk - Mistweaver",
+			["specswap"] = true,
+		},
+		["Morifa - Proudmoore"] = {
+			["spec1_profileKey"] = "Morifa - Proudmoore",
+			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Morifa - Proudmoore",
+			["spec3_profileKey"] = "Morifa - Proudmoore",
+		},
+		["Greybone - Proudmoore"] = {
+			["spec1_profileKey"] = "Greybone - Proudmoore",
+			["spec3_profileKey"] = "Greybone - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Greybone - Proudmoore",
+		},
+		["Rahran - Proudmoore"] = {
+			["spec1_profileKey"] = "Rahran - Proudmoore",
+			["spec3_profileKey"] = "Rahran - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Rahran - Proudmoore",
+		},
+		["Faerand - Proudmoore"] = {
+			["spec1_profileKey"] = "Faerand - Proudmoore",
+			["spec3_profileKey"] = "Faerand - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Faerand - Proudmoore",
+		},
+		["Fimwack - Proudmoore"] = {
+			["spec1_profileKey"] = "Fimwack - Proudmoore",
+			["spec3_profileKey"] = "Fimwack - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Fimwack - Proudmoore",
+			["specswap"] = false,
+		},
 	},
 	["profileKeys"] = {
+		["Kaldorath - Proudmoore"] = "Non-Healer",
+		["Amranar - Proudmoore"] = "Druid - Resto",
+		["Farahn - Proudmoore"] = "Shaman - Resto",
 		["Mallusof - Tichondrius"] = "Priest - Holy",
+		["Praerend - Proudmoore"] = "Non-Healer",
+		["Granjior - Proudmoore"] = "Non-Healer",
+		["Miriyal - Proudmoore"] = "Monk - Mistweaver",
+		["Morifa - Proudmoore"] = "Non-Healer",
+		["Greybone - Proudmoore"] = "Non-Healer",
+		["Rahran - Proudmoore"] = "Non-Healer",
+		["Faerand - Proudmoore"] = "Non-Healer",
+		["Fimwack - Proudmoore"] = "Non-Healer",
 	},
 	["profiles"] = {
+		["Non-Healer"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Monk - Mistweaver"] = {
+			["bindings"] = {
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+						["ooc"] = true,
+					},
+				}, -- [1]
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [2]
+				{
+					["spell"] = "Enveloping Mist",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 775461,
+					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Life Cocoon",
+					["key"] = "SHIFT-T",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 627485,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Vivify",
+					["key"] = "SHIFT-F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 1360980,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Detox",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 460692,
+					["type"] = "spell",
+				}, -- [6]
+				{
+					["spell"] = "Renewing Mist",
+					["key"] = "SHIFT-2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 627487,
+					["type"] = "spell",
+				}, -- [7]
+				{
+					["spell"] = "Effuse",
+					["key"] = "3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 1360977,
+					["type"] = "spell",
+				}, -- [8]
+				{
+					["spell"] = "Sheilun's Gift",
+					["key"] = "SHIFT-1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 1242282,
+					["type"] = "spell",
+				}, -- [9]
+			},
+		},
+		["Shaman - Resto"] = {
+			["bindings"] = {
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+						["ooc"] = true,
+					},
+				}, -- [1]
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [2]
+				{
+					["spell"] = "Chain Heal",
+					["key"] = "Q",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136042,
+					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Riptide",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 252995,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Healing Wave",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136043,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Purge",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["enemy"] = true,
+					},
+					["icon"] = 136075,
+					["type"] = "spell",
+				}, -- [6]
+				{
+					["spell"] = "Purify Spirit",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 236288,
+					["type"] = "spell",
+				}, -- [7]
+				{
+					["spell"] = "Healing Surge",
+					["key"] = "3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136044,
+					["type"] = "spell",
+				}, -- [8]
+			},
+		},
+		["Druid - Resto"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+				{
+					["spell"] = "Swiftmend",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 134914,
+					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Healing Touch",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136041,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Ironbark",
+					["key"] = "SHIFT-T",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 572025,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Rebirth",
+					["key"] = "SHIFT-Z",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136080,
+					["type"] = "spell",
+				}, -- [6]
+				{
+					["spell"] = "Wild Growth",
+					["key"] = "Q",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 236153,
+					["type"] = "spell",
+				}, -- [7]
+				{
+					["spell"] = "Innervate",
+					["key"] = "X",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136048,
+					["type"] = "spell",
+				}, -- [8]
+				{
+					["spell"] = "Regrowth",
+					["key"] = "3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136085,
+					["type"] = "spell",
+				}, -- [9]
+				{
+					["spell"] = "Rejuvenation",
+					["key"] = "SHIFT-1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136081,
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Lifebloom",
+					["key"] = "1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 134206,
+					["type"] = "spell",
+				}, -- [11]
+			},
+		},
 		["Priest - Disc"] = {
 			["bindings"] = {
 				{
@@ -56,63 +434,63 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "menu",
-					["key"] = "BUTTON2",
+					["key"] = "CTRL-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
 				}, -- [3]
 				{
-					["spell"] = "Mass Dispel",
-					["key"] = "SHIFT-BUTTON2",
+					["spell"] = "Purify",
+					["key"] = "BUTTON2",
 					["sets"] = {
-						["global"] = true,
+						["friend"] = true,
 					},
-					["icon"] = 135739,
+					["icon"] = 135894,
 					["type"] = "spell",
 				}, -- [4]
 				{
-					["spell"] = "Holy Word: Chastise",
-					["key"] = "X",
+					["spell"] = "Dispel Magic",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["enemy"] = true,
 					},
-					["icon"] = 135886,
+					["icon"] = 136066,
 					["type"] = "spell",
 				}, -- [5]
 				{
-					["spell"] = "Holy Fire",
-					["key"] = "R",
+					["spell"] = "Prayer of Mending",
+					["key"] = "SHIFT-2",
 					["sets"] = {
-						["enemy"] = true,
+						["friend"] = true,
 					},
-					["icon"] = 135972,
+					["icon"] = 135944,
 					["type"] = "spell",
 				}, -- [6]
 				{
-					["spell"] = "Guardian Spirit",
-					["key"] = "SHIFT-T",
+					["spell"] = "Heal",
+					["key"] = "SHIFT-3",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 237542,
+					["icon"] = 135913,
 					["type"] = "spell",
 				}, -- [7]
 				{
-					["spell"] = "Light of T'uure",
-					["key"] = "2",
+					["spell"] = "Mass Dispel",
+					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 1295540,
+					["icon"] = 135739,
 					["type"] = "spell",
 				}, -- [8]
 				{
-					["spell"] = "Leap of Faith",
-					["key"] = "T",
+					["spell"] = "Binding Heal",
+					["key"] = "1",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 463835,
+					["icon"] = 135883,
 					["type"] = "spell",
 				}, -- [9]
 				{
@@ -125,23 +503,14 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [10]
 				{
-					["spell"] = "Renew",
-					["key"] = "SHIFT-1",
+					["spell"] = "Leap of Faith",
+					["key"] = "T",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 135953,
+					["icon"] = 463835,
 					["type"] = "spell",
 				}, -- [11]
-				{
-					["spell"] = "Heal",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135913,
-					["type"] = "spell",
-				}, -- [12]
 				{
 					["spell"] = "Holy Word: Serenity",
 					["key"] = "F",
@@ -150,34 +519,25 @@ CliqueDB3 = {
 					},
 					["icon"] = 135937,
 					["type"] = "spell",
-				}, -- [13]
+				}, -- [12]
 				{
-					["spell"] = "Smite",
-					["key"] = "E",
-					["sets"] = {
-						["enemy"] = true,
-					},
-					["icon"] = 135924,
-					["type"] = "spell",
-				}, -- [14]
-				{
-					["spell"] = "Prayer of Mending",
-					["key"] = "SHIFT-2",
+					["spell"] = "Guardian Spirit",
+					["key"] = "SHIFT-T",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 135944,
+					["icon"] = 237542,
 					["type"] = "spell",
-				}, -- [15]
+				}, -- [13]
 				{
-					["spell"] = "Dispel Magic",
-					["key"] = "BUTTON2",
+					["spell"] = "Light of T'uure",
+					["key"] = "2",
 					["sets"] = {
-						["enemy"] = true,
+						["friend"] = true,
 					},
-					["icon"] = 136066,
+					["icon"] = 1295540,
 					["type"] = "spell",
-				}, -- [16]
+				}, -- [14]
 				{
 					["spell"] = "Flash Heal",
 					["key"] = "3",
@@ -186,29 +546,28 @@ CliqueDB3 = {
 					},
 					["icon"] = 135907,
 					["type"] = "spell",
-				}, -- [17]
+				}, -- [15]
 				{
-					["spell"] = "Purify",
-					["key"] = "BUTTON2",
+					["spell"] = "Renew",
+					["key"] = "SHIFT-1",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 135894,
+					["icon"] = 135953,
 					["type"] = "spell",
-				}, -- [18]
-				{
-					["spell"] = "Binding Heal",
-					["key"] = "1",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135883,
-					["type"] = "spell",
-				}, -- [19]
+				}, -- [16]
 			},
 		},
-		["Priest - Shadow"] = {
+		["Paladin - Holy"] = {
 			["bindings"] = {
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+						["ooc"] = true,
+					},
+				}, -- [1]
 				{
 					["sets"] = {
 						["default"] = true,
@@ -216,14 +575,115 @@ CliqueDB3 = {
 					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
-				}, -- [1]
+				}, -- [2]
 				{
-					["type"] = "menu",
+					["spell"] = "Lay on Hands",
+					["key"] = "T",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135928,
+					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Light of the Martyr",
+					["key"] = "2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 1360762,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Blessing of Sacrifice",
+					["key"] = "SHIFT-2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135966,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Tyr's Deliverance",
+					["key"] = "SHIFT-F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 1122562,
+					["type"] = "spell",
+				}, -- [6]
+				{
+					["spell"] = "Holy Light",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135981,
+					["type"] = "spell",
+				}, -- [7]
+				{
+					["spell"] = "Holy Shock",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135972,
+					["type"] = "spell",
+				}, -- [8]
+				{
+					["spell"] = "Blessing of Freedom",
+					["key"] = "4",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135968,
+					["type"] = "spell",
+				}, -- [9]
+				{
+					["spell"] = "Cleanse",
 					["key"] = "BUTTON2",
 					["sets"] = {
-						["default"] = true,
+						["friend"] = true,
 					},
-				}, -- [2]
+					["icon"] = 135949,
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Flash of Light",
+					["key"] = "3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135907,
+					["type"] = "spell",
+				}, -- [11]
+				{
+					["spell"] = "Blessing of Protection",
+					["key"] = "C",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135964,
+					["type"] = "spell",
+				}, -- [12]
+				{
+					["spell"] = "Beacon of Light",
+					["key"] = "SHIFT-1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 236247,
+					["type"] = "spell",
+				}, -- [13]
+				{
+					["spell"] = "Beacon of Faith",
+					["key"] = "1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 1030095,
+					["type"] = "spell",
+				}, -- [14]
 			},
 		},
 	},

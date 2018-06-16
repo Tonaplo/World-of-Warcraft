@@ -1,13 +1,5 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 			["Randolfr-Stormrage"] = {
@@ -1728,6 +1720,39 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["max_segments"] = 4,
+	["combat_data"] = {
+		{
+			["date_start"] = "23:19:03",
+			["date_end"] = "23:30:50",
+			["name"] = "Argus the Unmaker",
+			["total_time"] = 707.292,
+		}, -- [1]
+		{
+			["date_start"] = "23:09:43",
+			["date_end"] = "23:16:12",
+			["name"] = "Aggramar",
+			["total_time"] = 388.464,
+		}, -- [2]
+		{
+			["date_start"] = "22:51:48",
+			["date_end"] = "22:51:59",
+			["name"] = "Viz'aduum the Watcher",
+			["total_time"] = 11.0039999999999,
+		}, -- [3]
+		{
+			["date_start"] = "22:48:56",
+			["date_end"] = "22:49:24",
+			["name"] = "Mana Devourer",
+			["total_time"] = 28.0020000000004,
+		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Fránký-Ragnaros"] = {
@@ -1753,16 +1778,16 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
+				[253903] = {
+					154.349999999999, -- [1]
+					214.361, -- [2]
+					["source"] = "[*] Strength of the Sky",
+					["active"] = false,
+				},
 				[248499] = {
 					161.368, -- [1]
 					176.375999999999, -- [2]
 					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
-				[256899] = {
-					492.049, -- [1]
-					500.047, -- [2]
-					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
 				[257299] = {
@@ -1781,10 +1806,10 @@ DetailsTimeLineDB = {
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
-				[253903] = {
-					154.349999999999, -- [1]
-					214.361, -- [2]
-					["source"] = "[*] Strength of the Sky",
+				[256899] = {
+					492.049, -- [1]
+					500.047, -- [2]
+					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
 			},
@@ -2017,18 +2042,22 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
+				[248499] = {
+					161.368, -- [1]
+					176.353999999999, -- [2]
+					261.022999999999, -- [3]
+					276.025, -- [4]
+					526.652999999999, -- [5]
+					541.652999999999, -- [6]
+					["source"] = "Argus the Unmaker",
+					["active"] = false,
+				},
 				[253903] = {
 					29.7729999999992, -- [1]
 					86.5429999999997, -- [2]
 					120.683, -- [3]
 					150.933999999999, -- [4]
 					["source"] = "[*] Strength of the Sky",
-					["active"] = false,
-				},
-				[250669] = {
-					599.396, -- [1]
-					614.420999999999, -- [2]
-					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 				[257299] = {
@@ -2053,13 +2082,9 @@ DetailsTimeLineDB = {
 					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
-				[248499] = {
-					161.368, -- [1]
-					176.353999999999, -- [2]
-					261.022999999999, -- [3]
-					276.025, -- [4]
-					526.652999999999, -- [5]
-					541.652999999999, -- [6]
+				[250669] = {
+					599.396, -- [1]
+					614.420999999999, -- [2]
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
@@ -2113,9 +2138,11 @@ DetailsTimeLineDB = {
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
-				[250669] = {
-					639.651, -- [1]
-					654.655, -- [2]
+				[248499] = {
+					161.368, -- [1]
+					176.353999999999, -- [2]
+					188.083, -- [3]
+					209.137, -- [4]
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
@@ -2131,18 +2158,16 @@ DetailsTimeLineDB = {
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
-				[248499] = {
-					161.368, -- [1]
-					176.353999999999, -- [2]
-					188.083, -- [3]
-					209.137, -- [4]
-					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
 				[256899] = {
 					493.215999999999, -- [1]
 					501.219999999999, -- [2]
 					["source"] = "Hungering Soul",
+					["active"] = false,
+				},
+				[250669] = {
+					639.651, -- [1]
+					654.655, -- [2]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 			},
@@ -2341,17 +2366,17 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Death Fog",
 					["active"] = false,
 				},
+				[256899] = {
+					493.215999999999, -- [1]
+					501.219999999999, -- [2]
+					["source"] = "Hungering Soul",
+					["active"] = false,
+				},
 				[248499] = {
 					49.3579999999993, -- [1]
 					64.3689999999997, -- [2]
 					161.368, -- [3]
 					176.375999999999, -- [4]
-					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
-				[250669] = {
-					518.909, -- [1]
-					533.917, -- [2]
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
@@ -2367,10 +2392,10 @@ DetailsTimeLineDB = {
 					["source"] = "Constellar Designate",
 					["active"] = false,
 				},
-				[256899] = {
-					493.215999999999, -- [1]
-					501.219999999999, -- [2]
-					["source"] = "Hungering Soul",
+				[250669] = {
+					518.909, -- [1]
+					533.917, -- [2]
+					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
 			},
@@ -2615,23 +2640,9 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Strength of the Sea",
 					["active"] = false,
 				},
-				[248499] = {
-					117.453, -- [1]
-					132.446, -- [2]
-					161.368, -- [3]
-					176.353999999999, -- [4]
-					["source"] = "Argus the Unmaker",
-					["active"] = false,
-				},
-				[253903] = {
-					119.892, -- [1]
-					210.955, -- [2]
-					["source"] = "[*] Strength of the Sky",
-					["active"] = false,
-				},
-				[257299] = {
-					655.696, -- [1]
-					675.701999999999, -- [2]
+				[250669] = {
+					260.114, -- [1]
+					275.114, -- [2]
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
@@ -2643,9 +2654,23 @@ DetailsTimeLineDB = {
 					["source"] = "Hungering Soul",
 					["active"] = false,
 				},
-				[250669] = {
-					260.114, -- [1]
-					275.114, -- [2]
+				[257299] = {
+					655.696, -- [1]
+					675.701999999999, -- [2]
+					["source"] = "Argus the Unmaker",
+					["active"] = false,
+				},
+				[253903] = {
+					119.892, -- [1]
+					210.955, -- [2]
+					["source"] = "[*] Strength of the Sky",
+					["active"] = false,
+				},
+				[248499] = {
+					117.453, -- [1]
+					132.446, -- [2]
+					161.368, -- [3]
+					176.353999999999, -- [4]
 					["source"] = "Argus the Unmaker",
 					["active"] = false,
 				},
@@ -3470,11 +3495,11 @@ DetailsTimeLineDB = {
 					642, -- [3]
 				}, -- [2]
 			},
-			["Cameilia-Dalaran"] = {
+			["Frøstitute-Stormrage"] = {
 				{
-					681.379, -- [1]
-					"Cameilia-Dalaran", -- [2]
-					642, -- [3]
+					530.254, -- [1]
+					"Frøstitute-Stormrage", -- [2]
+					45438, -- [3]
 				}, -- [1]
 			},
 			["Beorm-Azuremyst"] = {
@@ -3494,10 +3519,10 @@ DetailsTimeLineDB = {
 					740, -- [3]
 				}, -- [3]
 			},
-			["Frøstitute-Stormrage"] = {
+			["Morifa"] = {
 				{
-					530.254, -- [1]
-					"Frøstitute-Stormrage", -- [2]
+					690.24, -- [1]
+					"Morifa", -- [2]
 					45438, -- [3]
 				}, -- [1]
 			},
@@ -3518,11 +3543,11 @@ DetailsTimeLineDB = {
 					47788, -- [3]
 				}, -- [3]
 			},
-			["Morifa"] = {
+			["Cameilia-Dalaran"] = {
 				{
-					690.24, -- [1]
-					"Morifa", -- [2]
-					45438, -- [3]
+					681.379, -- [1]
+					"Cameilia-Dalaran", -- [2]
+					642, -- [3]
 				}, -- [1]
 			},
 			["Omaros-Gilneas"] = {
@@ -3930,30 +3955,5 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "23:19:03",
-			["date_end"] = "23:30:50",
-			["name"] = "Argus the Unmaker",
-			["total_time"] = 707.292,
-		}, -- [1]
-		{
-			["date_start"] = "23:09:43",
-			["date_end"] = "23:16:12",
-			["name"] = "Aggramar",
-			["total_time"] = 388.464,
-		}, -- [2]
-		{
-			["date_start"] = "22:51:48",
-			["date_end"] = "22:51:59",
-			["name"] = "Viz'aduum the Watcher",
-			["total_time"] = 11.0039999999999,
-		}, -- [3]
-		{
-			["date_start"] = "22:48:56",
-			["date_end"] = "22:49:24",
-			["name"] = "Mana Devourer",
-			["total_time"] = 28.0020000000004,
-		}, -- [4]
-	},
+	["window_scale"] = 1,
 }

@@ -120,18 +120,18 @@ LUIDB = {
 							["Morifa"] = 567894582,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 312698224,
-							["Farahn"] = 58814852,
-							["Greybone"] = 758289584,
-							["Amranar"] = 458051218,
-							["Granjior"] = 979740067,
-							["Kaldorath"] = 1008830314,
-							["Faerand"] = 256885751,
+							["Miriyal"] = 337493510,
+							["Farahn"] = 83282806,
+							["Greybone"] = 760289584,
+							["Amranar"] = 468754818,
+							["Granjior"] = 981740067,
+							["Kaldorath"] = 1010830314,
+							["Faerand"] = 258963696,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 441468254,
-							["Morifa"] = 1171182152,
-							["Fimwack"] = 1278804972,
-							["Praerend"] = 1214673055,
+							["Rahran"] = 441707726,
+							["Morifa"] = 1173182152,
+							["Fimwack"] = 1280804972,
+							["Praerend"] = 1216673055,
 						},
 					},
 				},
@@ -144,7 +144,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 27951927,
 							["Korugen"] = 1698883,
-							["Mallusof"] = 1353937724,
+							["Mallusof"] = 1369835040,
 						},
 					},
 				},
@@ -630,11 +630,6 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
-								["Y"] = 90,
-								["X"] = 375,
-								["Lock"] = false,
-								["Width"] = 200,
-								["Texture"] = "oUF LUI",
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -889,38 +884,38 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/opie", -- [1]
-							"/reloadui", -- [2]
-							"/opie", -- [3]
-							"/macro", -- [4]
-							"/reloadui", -- [5]
-							"/opie", -- [6]
-							"/reloadui", -- [7]
-							"/opie", -- [8]
+							"/macro", -- [1]
+							"/p Hello :)", -- [2]
+							"/grid2", -- [3]
+							"/p we need more interruots", -- [4]
+							"/macro", -- [5]
+							"/grid2", -- [6]
+							"/macro", -- [7]
+							"/p Hello :)", -- [8]
 							"/macro", -- [9]
-							"/opie", -- [10]
-							"/macro", -- [11]
-							"/afk", -- [12]
-							"/reloadui", -- [13]
-							"/opie", -- [14]
-							"/reloadui", -- [15]
-							"/opie", -- [16]
-							"/macro", -- [17]
-							"/reloadui", -- [18]
-							"/opie", -- [19]
-							"/reloadui", -- [20]
-							"/opie", -- [21]
-							"/macro", -- [22]
-							"/opie", -- [23]
-							"/macro", -- [24]
-							"/afk", -- [25]
-							"/opie", -- [26]
+							"/p Hello :)", -- [10]
+							"/grid2", -- [11]
+							"/p Hello :)", -- [12]
+							"/p we need more interruots", -- [13]
+							"/p Hello :)", -- [14]
+							"/macro", -- [15]
+							"/p Hello :)", -- [16]
+							"/grid2", -- [17]
+							"/p we need more interruots", -- [18]
+							"/macro", -- [19]
+							"/grid2", -- [20]
+							"/macro", -- [21]
+							"/p Hello :)", -- [22]
+							"/grid2", -- [23]
+							"/p we need more interruots", -- [24]
+							"/macro", -- [25]
+							"/grid2", -- [26]
 							"/macro", -- [27]
-							"/opie", -- [28]
-							"/macro", -- [29]
-							"/afk", -- [30]
-							"/macro", -- [31]
-							"/afk", -- [32]
+							"/p Hello :)", -- [28]
+							"/p we need more interruots", -- [29]
+							"/grid2", -- [30]
+							"/p Hello :)", -- [31]
+							"/grid2", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/macro", -- [1]
@@ -957,38 +952,38 @@ LUIDB = {
 							" hahaha", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g thanks", -- [1]
-							"/g Hey Meow", -- [2]
-							"/i 2 red", -- [3]
-							"/bow", -- [4]
-							"/i Red dragons deal more damage :P", -- [5]
-							"/grid2", -- [6]
-							"/bow", -- [7]
-							"/grid2", -- [8]
-							"/g Is anyone else seeing totally wtf queue times?", -- [9]
-							"/g thanks", -- [10]
-							"/dance", -- [11]
-							"/i 2 red", -- [12]
-							"/bow", -- [13]
-							"/g thanks", -- [14]
-							"/i 2 red", -- [15]
-							"/g thanks", -- [16]
-							"/g Hey Meow", -- [17]
-							"/bow", -- [18]
-							"/grid2", -- [19]
-							"/g Is anyone else seeing totally wtf queue times?", -- [20]
-							"/dance", -- [21]
-							"/bow", -- [22]
-							"/i 2 red", -- [23]
-							"/g Hey Meow", -- [24]
-							"/grid2", -- [25]
-							"/dance", -- [26]
-							"/i 2 red", -- [27]
-							"/grid2", -- [28]
-							"/i 2 red", -- [29]
-							"/clique", -- [30]
-							"/clique options", -- [31]
-							"/clique", -- [32]
+							"/p that is", -- [1]
+							"/p the best M+", -- [2]
+							"/p I've have ever had the pleasure of running", -- [3]
+							"/p GG peeps", -- [4]
+							"/p thanks for an awesome run", -- [5]
+							"/raid And Qni, if you could tank that would be greatly appreciated", -- [6]
+							"/p same", -- [7]
+							"/CLIQUE", -- [8]
+							"/raid And Qni, if you could tank that would be greatly appreciated", -- [9]
+							"/raid DONT RELEASE", -- [10]
+							"/CLIQUE", -- [11]
+							"/raid And Qni, if you could tank that would be greatly appreciated", -- [12]
+							"/p same", -- [13]
+							"/raid And Qni, if you could tank that would be greatly appreciated", -- [14]
+							"/CLIQUE", -- [15]
+							"/p same", -- [16]
+							"/CLIQUE", -- [17]
+							"/p that is", -- [18]
+							"/p I've have ever had the pleasure of running", -- [19]
+							"/p thanks for an awesome run", -- [20]
+							"/p same", -- [21]
+							"/raid And Qni, if you could tank that would be greatly appreciated", -- [22]
+							"/CLIQUE", -- [23]
+							"/p same", -- [24]
+							"/CLIQUE", -- [25]
+							"/p that is", -- [26]
+							"/p thanks for an awesome run", -- [27]
+							"/raid And Qni, if you could tank that would be greatly appreciated", -- [28]
+							"/p same", -- [29]
+							"/p that is", -- [30]
+							"/raid And Qni, if you could tank that would be greatly appreciated", -- [31]
+							"/p that is", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							" Also Prot Warrior deals a good amount of damage on AoE", -- [1]
@@ -3136,8 +3131,6 @@ LUIDB = {
 				["Health"] = {
 					["Texture"] = "LUI_Gradient",
 				},
-				["Hidecombat"] = true,
-				["Hideuf"] = true,
 			},
 			["Minimap"] = {
 				["Font"] = {

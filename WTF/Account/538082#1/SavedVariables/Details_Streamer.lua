@@ -14,13 +14,13 @@ Details_StreamerDB = {
 		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Greybone - Proudmoore",
 		["Farahn - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyal - Proudmoore"] = "Greybone - Proudmoore",
+		["Morifa - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Proudmoore",
 		["Gottagetlia - Aggramar"] = "Mallusof - Proudmoore",
 		["Granjior - Proudmoore"] = "Greybone - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Mallusof - Proudmoore",
-		["Morifa - Proudmoore"] = "Greybone - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Greybone - Proudmoore",
+		["Miriyal - Proudmoore"] = "Greybone - Proudmoore",
 		["Zethan - Tichondrius"] = "Greybone - Proudmoore",
 		["Alura - Tichondrius"] = "Greybone - Proudmoore",
 		["Praerend - Proudmoore"] = "Greybone - Proudmoore",
@@ -64,12 +64,7 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = -20.15869140625,
 			["font_size"] = 14,
@@ -86,8 +81,13 @@ Details_StreamerDB = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["main_frame_strata"] = "LOW",
-			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
@@ -129,12 +129,7 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = true,
@@ -151,8 +146,13 @@ Details_StreamerDB = {
 			["x"] = 0,
 			["font_face"] = "Prototype",
 			["y"] = -22.6146240234375,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_strata"] = "LOW",
-			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
@@ -204,20 +204,20 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
-			["y"] = -22.6146240234375,
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["font_size"] = 14,
-			["author"] = "Details! Team",
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = false,
+			["y"] = -22.6146240234375,
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["font_size"] = 14,
+			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},

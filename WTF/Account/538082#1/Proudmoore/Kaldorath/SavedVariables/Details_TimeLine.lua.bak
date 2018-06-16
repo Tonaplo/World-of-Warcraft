@@ -1,7 +1,5 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -160,6 +158,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["combat_data"] = {
 		{
 			["date_start"] = "19:42:38",
@@ -185,6 +184,12 @@ DetailsTimeLineDB = {
 			["name"] = "Agronox",
 			["total_time"] = 63.4619999999995,
 		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -495,21 +500,22 @@ DetailsTimeLineDB = {
 					["source"] = "Fulminating Lasher",
 					["active"] = false,
 				},
-				[240065] = {
-					27.4729999999981, -- [1]
-					27.5440000000017, -- [2]
-					["source"] = "Succulent Lasher",
-					["active"] = false,
-				},
 				[238598] = {
 					25.1260000000038, -- [1]
 					27.3859999999986, -- [2]
 					["source"] = "[*] Choking Vines",
 					["active"] = false,
 				},
+				[240065] = {
+					27.4729999999981, -- [1]
+					27.5440000000017, -- [2]
+					["source"] = "Succulent Lasher",
+					["active"] = false,
+				},
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Caillis-Tichondrius"] = {
@@ -577,11 +583,5 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["window_scale"] = 1,
 }

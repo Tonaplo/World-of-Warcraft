@@ -1,10 +1,82 @@
 
 VExRT = {
-	["BattleRes"] = {
-		["enabled"] = true,
-		["Top"] = 356.691162109375,
-		["Left"] = 0,
-		["fix"] = true,
+	["Note"] = {
+		["BlackNames"] = {
+			"Elisande Cooldowns", -- [1]
+			"Guldan", -- [2]
+			"Goroth", -- [3]
+			"Kiljaeden", -- [4]
+			"Maiden", -- [5]
+			"Fallen Avatar", -- [6]
+			"Harjatan", -- [7]
+			"*", -- [8]
+			"Garothi Worldbreaker*", -- [9]
+			"Felhounds of Sargeras*", -- [10]
+			"Antoran High Command*", -- [11]
+			"Portal Keeper*", -- [12]
+			"Eonar the Life-Binder*", -- [13]
+			"Imonar the Soulhunter*", -- [14]
+			"Kin'garoth*", -- [15]
+			"Portal Keeper Hasabel*", -- [16]
+			"Guldan*", -- [17]
+			"Mage Tower**", -- [18]
+			"Mythic Argus", -- [19]
+		},
+		["FontSize"] = 12,
+		["AutoLoad"] = {
+			[0] = 2082,
+			[13] = 2075,
+			[14] = 2082,
+			[2] = 1866,
+			[15] = 2088,
+			[8] = 2051,
+			[16] = 2064,
+			[9] = 2076,
+			[10] = 2074,
+			[19] = 2092,
+			[11] = 2070,
+			[17] = 1866,
+			[12] = 2064,
+			[3] = 2032,
+		},
+		["Left"] = 1660.38269042969,
+		["SelfText"] = "",
+		["ScaleBack"] = 68,
+		["Text1"] = " ",
+		["DefName"] = "Imonar the Soulhunter",
+		["SaveAllNew"] = true,
+		["LastUpdateName"] = "Blakeyboy-Tichondrius",
+		["OnlyPromoted"] = true,
+		["FontName"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+		["Width"] = 292.866363525391,
+		["Top"] = 716.442565917969,
+		["Scale"] = 100,
+		["Black"] = {
+			"Phase 1: \n Second Fast Add: {Priest} ||cffffffffMeowfurryoff||r  Hymn\n\nPhase 2: \n First Delphuric Beams:  {Druid} ||cffff7d0aEllestria||r  Tranq\n First Orbs: {Priest} ||cffffffffTafè||r  VE \n Second Delphuric Beams: {Druid} ||cffff7d0aSombrador||r \n Second Orbs: {Priest} ||cffffffffMallusof||r  Hymn +  {Warrior} ||cffc79c6eBúî||r Shout\n\nPhase 3:\n First Delphuric Beams:  {Priest} ||cffffffffMeowfurryoff||r  Hymn\n Conflexive Burst: {Druid} ||cffff7d0aEllestria||r Tranq\n\n\n", -- [1]
+			"||cffff0000Phase 1:||r\n ||cffffff001st Hellfire + Eyes: ||r{Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq||cffffff00\n ||cffffff001st Bonds:||r||r {Priest} ||cffffffffMallusof||r  ({Priest} ||cffffffffMeowfurryoff||r as backup)\n ||cffffff002nd Hellfire:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n ||cffffff002nd Bonds:||r {Druid} ||cffff7d0aEllestria||r ( {Druid} ||cffff7d0aSombrador||r as backup)\n ||cffffff003rd (E Hellfire) + Eyes:||r  {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n ||cffffff003rd Bonds:||r {Priest} ||cffffffffMeowfurryoff||r ({Priest} (||cffffffffMallusof||r as backup)\n||cff00ff00 We should push it before the 3rd Bonds and the 2nd adds spawns.||r\n\n||cffff0000Phase 2:||r\n||cff00ff00 Skull side (Group 3):||r  {Druid} ||cffff7d0aEllestria||r + {Priest} ||cffffffffMallusof||r = ||cfffff569Tetsunochi||r \n||cff00ff00 Star side (Group 4):||r  ||cffff7d0aSombrador||r + {Priest} ||cffffffffMeowfurryoff||r = ||cfffff569Slicedlol||r \n\n ||cffffff002nd Harvest:||r Personals\n||cffffff00 2nd Eyes:||r {Priest} ||cffffffffTafe||r {spell:15286}VE\n ||cffffff003rd Harvest:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n ||cffffff003rd Eyes:||r {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n||cffffff00 4th Eyes: ||r{Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n ||cffffff004th Harvest:||r {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout\n ||cff00ff00Guldan will die before 5th eye, else Eye will die with him.||r\n\n||cffff0000 Phase 3:||r  \n   ||cffffff001st Nightorb charge:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n  ||cffffff00 5th Flame Crash:||r {Priest} ||cffffffffTafe||r {spell:15286}VE + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout \n   ||cffffff00Triple Charge:||r {Druid} ||cffff7d0aEllestria||r + {Druid} ||cffff7d0aSombrador||r  {spell:740}Tranq\n\n||cff00ff00Should be GG then||r", -- [2]
+			"||cffffff001st Star:||r ||cffffffffMallusof||r {spell:64843}\n||cffffff002nd Star::||r ||cffff7d0aEllestria||r {spell:740}\n||cffffff003rd Star:||r ||cffff7d0aSombrador||r {spell:740}\n||cffffff004th Star::||r ||cfff58cbaHangookie||r\n||cffffff005th Star:||r ||cffffffffMallusof||r {spell:64843}\n||cffffff006th Star:||r ||cffff7d0aEllestria||r{spell:740} \n||cffffff007th Star:||r ||cffff7d0aSombrador||r {spell:740}\n||cffffff008th Star::||r ||cfff58cbaHangookie||r", -- [3]
+			"||cffffff00Focused Dreadflame to||r {star}\n||cffffff00Bring adds to||r {diamond}\n\n||cffffff00Kali dies to Felclaws:||r\n2nd: ||cffff7d0aSombrador||r {spell:102342}\n\n\n||cffffff00Shadow Reflections:||r\n1st: ||cffffffffMallusof||r {spell:64843}\n2nd: ||cfff58cbaHangookie||r {spell:31842}\n3rd: ||cffffffffMallusof||r {spell:64843}\n\n||cffffff00Armageddon soaking:||r\n\n1st: ||cfff58cbaKalithumos||r \n2nd: ||cfff58cbaKalithumos||r \n3rd: ||cfff58cbaKalithumos||r \n4th: ||cff3fc7ebKaligon||r \n5th: ||cffabd473Daoxu||r \n\n||cffffff00Soaking:||r\nGroup 1: {cross}\nGroup 2: {circle}\nGroup 3: {square}\nGroup 4: {triangle}", -- [4]
+			"||cffffff00Light Side: ||r {star} + {circle}\n||cff55ee55Fel Side:||r {triangle} + {diamond}", -- [5]
+			"||cffffff001st Unbound Chaos: ||r ||cffff7d0aEllestria||r {spell:740}\n||cffffff002nd Unbound Chaos: ||r ||cffffffffMallusof||r {spell:64843}\n||cffffff002nd Unbound Chaos: ||r ||cffff7d0aSombrador||r {spell:740}\n||cffffff003rd Unbound Chaos: ||r ||cfff58cbaHangookie||r {spell:204150}\n||cffffff004th Unbound Chaos: ||r Personals and Externals {spell:15286}\n||cffffff005th Unbound Chaos: ||r ||cffffffffMallusof||r {spell:64843}\n||cffffff006th Unbound Chaos: ||r ||cffff7d0aEllestria||r {spell:740}\n||cffffff007th Unbound Chaos: ||r ||cffff7d0aSombrador||r {spell:740}\n||cffffff008th Unbound Chaos: ||r ||cfff58cbaHangookie||r {spell:204150}", -- [6]
+			"||cffffff00Frosty Discharge Cooldown:||r\n\n1. ||cffff7d0aEllestria||r {spell:740} \n2. ||cffffffffMallusof||r  {spell:64843}\n3. ||cffff7d0aSombrador||r {spell:740}\n4. ||cfff58cbaHangookie||r  {spell:31842}{spell:204150}\n5. If not back: ||cffc79c6eBúî||r  + ||cffffffffTafè||r \n||cffffff00Rinse and Repeat||r", -- [7]
+			"First Soak: Zero\nSecond Soak: Zero\nThird Soak: Broxigore\nFourth Soak: Nikki\n\nFlex: Vorthex", -- [8]
+			"Garothi Worldbreaker\nTanks\nSwap and run Fel Bombardment out\nP1 \nRun Decimation out and drop\nSoak 2-3 ppl Annihilation\nKill Annihilator, move max range\nHEALING CD\nP2\nStack, dodge left/right\nP3\nLust", -- [9]
+			"Felhounds of Sargeras\nTank dogs 40yd\nFire\n33    Desolate Gaze, aim fire beam\n66    Molten Touch, lift/stuns players\n100    Enflame Corruption, spread 8yd\nShadow\n33    Consuming Sphere, dodge pull ball\n66    Weight of Darkness, 2player help target soak negate fear\n100    Siphon Corruption, stack, HEALING CD", -- [10]
+			"Antoran High Command\nBoss swap every 90s\n2dps pod rotation every 45s, G1/3, G1/4\nTank swap after Exploit Weakness\nDispell Chaos Pulse\nP1\nInterrupt Pyroblast add, G2/1-5 interrupt order\nMax range bait Shocktroopers\nPod 1 on boss 2 on adds\nDodge mines\nP2\nsame adds from P1\nPod 1 on boss 2 Felshield Emitter 3x on raid, rest by P3 pod\nClick Felshieled Emitter during Fusillade\nP3\nDodge mines\nUse Felshield Emitter during Fusillade\nPod 1 on boss 2 clear mines\n", -- [11]
+			"Portal Keeper Hasabel\nTank swap 3 stack of Reality Tear\nTanks move from edge to edge after Collapsing World\nFelstorm Barrage, dodge green beams\nTransport Portal interrupt and kill adds\nP1 \nFire Portal\n3-5 AoE dps stay with 1 Tank and all but 1 healer\nVulcanar, interrupt Flame of Xoroth/Unstable portal\nP2 \nFel Portal\nLady Dacidion, dps cocooned player, 10% hp dot\nP3\nLord Eligar, stay near fire orb, 2% mana regen debuff,\nsmall HEALING CD\nP4\nHEALING CDS\n", -- [12]
+			"Eonar the Life-Binder\n4 waves, 20/miniboss, 7/normal mob\nMove Spear of Doom beam to edges\nKill Priority\nFel-Infused Destructor, needs tanked, interrupt Artillery Strike\nFel-Powered Purifier, needs tanked, adds nearby are immune to CC\nFel-Charged Obfuscator, kill when alone", -- [13]
+			" ", -- [14]
+			"Kin'garoth\nP1\nTank swap each Forging Strike\nReverberating Strike, move 5yd away, ground\nRuiner, dodge beam\nDiabolic Bombs, Off tank soak orb, HEALING CD\nP2, lasts 40s\nFlames of the Forge, ticking 40s HEALING CD\nSplit 2 groups G2,G4/1-2 and G3,G4/3-4\nGreen, Annihilation, solo soak circles\nRed, Decimation, spread, run cicles out\nPurple, Demolish, 2players help targeted player soak", -- [15]
+			"Portal Keeper Hasabel\nTank swap 3 stack of Reality Tear\nTanks move from edge to edge after Collapsing World\nFelstorm Barrage, dodge green beams\nTransport Portal interrupt and kill adds\nP1 \nFire Portal\n3-5 AoE dps stay with 1 Tank and all but 1 healer\nVulcanar, interrupt Flame of Xoroth/Unstable portal\nP2 \nFel Portal\nLady Dacidion, dps cocooned player, 10% hp dot\nP3\nLord Eligar, stay near fire orb, 2% mana regen debuff,\nsmall HEALING CD\nP4\nHEALING CDS", -- [16]
+			"||cffff0000Phase 1:||r\n ||cffffff001st Hellfire + Eyes: ||r{Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq||cffffff00\n ||cffffff001st Bonds:||r||r {Priest} ||cffffffffMallusof||r  ({Priest} ||cffffffffMeowfurryoff||r as backup)\n ||cffffff002nd Hellfire:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n ||cffffff002nd Bonds:||r {Druid} ||cffff7d0aEllestria||r ( {Druid} ||cffff7d0aSombrador||r as backup)\n ||cffffff003rd (E Hellfire) + Eyes:||r  {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n ||cffffff003rd Bonds:||r {Priest} ||cffffffffMeowfurryoff||r ({Priest} (||cffffffffMallusof||r as backup)\n||cff00ff00 We should push it before the 3rd Bonds and the 2nd adds spawns.||r\n\n||cffff0000Phase 2:||r\n||cff00ff00 Skull side (Group 3):||r  {Druid} ||cffff7d0aEllestria||r + {Priest} ||cffffffffMallusof||r = ||cfffff569Tetsunochi||r \n||cff00ff00 Star side (Group 4):||r  ||cffff7d0aSombrador||r + {Priest} ||cffffffffMeowfurryoff||r = ||cfffff569Slicedlol||r \n\n ||cffffff002nd Harvest:||r Personals\n||cffffff00 2nd Eyes:||r {Priest} ||cffffffffTafe||r {spell:15286}VE\n ||cffffff003rd Harvest:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n ||cffffff003rd Eyes:||r {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n||cffffff00 4th Eyes: ||r{Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n ||cffffff004th Harvest:||r {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout\n ||cff00ff00Guldan will die before 5th eye, else Eye will die with him.||r\n\n||cffff0000 Phase 3:||r  \n   ||cffffff001st Nightorb charge:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n  ||cffffff00 5th Flame Crash:||r {Priest} ||cffffffffTafe||r {spell:15286}VE + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout \n   ||cffffff00Triple Charge:||r {Druid} ||cffff7d0aEllestria||r + {Druid} ||cffff7d0aSombrador||r  {spell:740}Tranq\n\n||cff00ff00Should be GG then||r", -- [17]
+			"{star}Mage Tower Progress 36/36{star}\n\n{Warrior}: ||cff00ff00Fury||r / ||cff00ff00Arms||r / ||cff00ff00Protection||r\n{Paladin}: ||cff00ff00Holy||r / ||cff00ff00Protection||r / ||cff00ff00Retribution||r\n{Hunter}: ||cff00ff00Survival||r / ||cff00ff00Marksman||r / ||cff00ff00Beastmastery||r\n{Rogue}: ||cff00ff00Subtlety||r/ ||cff00ff00Assassination||r / ||cff00ff00Outlaw||r\n{Priest}: ||cff00ff00Holy||r / ||cff00ff00Discipline||r / ||cff00ff00Shadow||r\n{Death Knight}: ||cff00ff00Blood||r / ||cff00ff00Frost||r / ||cff00ff00Unholy||r\n{Shaman}: ||cff00ff00Enhancement||r / ||cff00ff00Resto||r / ||cff00ff00Elemental||r\n{Mage}: ||cff00ff00Arcane||r / ||cff00ff00Frost||r / ||cff00ff00Fire||r\n{Warlock}: ||cff00ff00Affliction||r / ||cff00ff00Demonology||r / ||cff00ff00Destruction||r\n{Monk}: ||cff00ff00Mistweaver||r / ||cff00ff00Brewmaster||r / ||cff00ff00Windwalker||r\n{Druid}: ||cff00ff00Guardian||r / ||cff00ff00Balance||r / ||cff00ff00Resto||r / ||cff00ff00Feral||r\n{Demon Hunter}: ||cff00ff00Vengeance||r / ||cff00ff00Havoc||r\n\n", -- [18]
+			"Tortured Rage:\n\n3: ||cffff7d0aEllestria||r \n6: ||cffffffffMallusof||r ", -- [19]
+		},
+		["Alpha"] = 100,
+		["Height"] = 233.288497924805,
+		["Outline"] = true,
+		["LastUpdateTime"] = 1526260605,
+		["Strata"] = "LOW",
 	},
 	["ProfileKeys"] = {
 		["Miriyal-Proudmoore"] = "default",
@@ -694,6 +766,9 @@ VExRT = {
 				"^1869^8^1520111121^57^0^5^952.50^Bruccampbell-Tichondrius", -- [80]
 				"^1869^8^1520111232^90^1^5^946.53^Acekícker-Tichondrius", -- [81]
 				"^1870^8^1520111486^134^1^5^950.19^Bruccampbell-Tichondrius", -- [82]
+				"^1868^8^1529137430^130^1^5^892.27^Snster-Perenolde", -- [83]
+				"^1869^8^1529138142^46^1^5^898.45^", -- [84]
+				"^1870^8^1529138407^109^1^5^913.78^Snster-Perenolde", -- [85]
 			},
 			["Miriyal"] = {
 				"^1987^2^1493451691^35^1^5^830.35^", -- [1]
@@ -3973,12 +4048,36 @@ VExRT = {
 				"^2053^2^1528780929^18^1^5^924.39^", -- [2446]
 				"^2039^2^1528780979^16^1^5^924.39^", -- [2447]
 				"^2069^14^1528781262^232^1^23^725.60^Lithdrenna-Stormrage", -- [2448]
+				"^2076^15^1529122882^271^1^24^954.62^", -- [2449]
+				"^2063^15^1529123787^137^0^21^953.92^Funer-Stormrage", -- [2450]
+				"^2063^15^1529124247^286^0^22^954.92^Funer-Stormrage", -- [2451]
+				"^2063^15^1529124922^445^0^21^953.80^Funer-Stormrage", -- [2452]
+				"^2063^15^1529130968^168^0^24^884.91^Realitybuzz-Frostmourne", -- [2453]
+				"^2063^15^1529132189^103^0^24^879.68^Rahancore-EchoIsles", -- [2454]
+				"^2069^15^1529132364^0^0^18^954.55^", -- [2455]
+				"^2073^14^1529132699^375^1^16^910.02^Vinkywink-Quel'Thalas", -- [2456]
+				"^2063^14^1529133500^306^1^20^947.83^", -- [2457]
+				"^2092^14^1529134133^509^1^22^944.80^Vinkywink-Quel'Thalas", -- [2458]
+				"^1790^8^1529174836^65^1^5^966.63^", -- [2459]
+				"^1791^8^1529175230^103^1^5^962.19^", -- [2460]
+				"^1792^8^1529175507^77^1^5^962.00^", -- [2461]
+				"^1793^8^1529175729^82^1^5^962.06^", -- [2462]
 			},
 		},
 	},
-	["Marks"] = {
-		["list"] = {
-		},
+	["InviteTool"] = {
+		["AutoInvAccept"] = true,
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 3,
+		["LootThreshold"] = 4,
+		["AutoRaidDiff"] = true,
+		["MasterLooters"] = "Arkator, Kammander",
+		["LootMethod"] = "master",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
 	},
 	["Coins"] = {
 		["list"] = {
@@ -8037,11 +8136,54 @@ VExRT = {
 			"A250580Kungfusanct-Stormrage1528781500", -- [4053]
 			"!A151964Kungfusanct-Stormrage1528781500:4:3610:1808:1472:3528", -- [4054]
 			"6250580Brancodead-Goldrinn1528781510", -- [4055]
+			"6250541Sanguinos-Aggramar1529123161", -- [4056]
+			"!6152036Sanguinos-Aggramar1529123162:3:3611:1487:3528", -- [4057]
+			"3250541Funer-Stormrage1529123164", -- [4058]
+			"!3152002Funer-Stormrage1529123164:3:3611:1502:3337", -- [4059]
+			"9250541Varaxxis-AeriePeak1529123167", -- [4060]
+			"8250541Asahina-Lightbringer1529123172", -- [4061]
+			"7250581Runyrd-Stormrage1529133078", -- [4062]
+			"!7152284Runyrd-Stormrage1529133078:4:3610:42:1487:3337", -- [4063]
+			"4250581Gahela-Ragnaros1529133079", -- [4064]
+			"!4152414Gahela-Ragnaros1529133079:3:3610:1472:3528", -- [4065]
+			"1250581Viduor-EmeraldDream1529133081", -- [4066]
+			"!1152183Viduor-EmeraldDream1529133081:4:3610:1808:1477:3336", -- [4067]
+			"5250581Crying-CenarionCircle1529133089", -- [4068]
+			"5250581Darksister-Caelestrasz1529133090", -- [4069]
+			"7250582Runyrd-Stormrage1529133808", -- [4070]
+			"1250582Kimbreè-Stormrage1529133809", -- [4071]
+			"6250582Zevrash-Stormrage1529133810", -- [4072]
+			"B250582Whiskaz-Stormrage1529133810", -- [4073]
+			"!B152127Whiskaz-Stormrage1529133810:3:3610:1492:3337", -- [4074]
+			"1250582Squeekz-Stormrage1529133812", -- [4075]
+			"!1152022Squeekz-Stormrage1529133812:3:3610:1472:3528", -- [4076]
+			"5250582Crying-CenarionCircle1529133815", -- [4077]
+			"!5152156Crying-CenarionCircle1529133815:3:3610:1477:3336", -- [4078]
+			"5250582Ziuel-Quel'Thalas1529133962", -- [4079]
+			"!5151940Ziuel-Quel'Thalas1529133962:3:3610:1472:3528", -- [4080]
+			"7250583Runyrd-Stormrage1529134644", -- [4081]
+			"!7151972Runyrd-Stormrage1529134644:3:3610:1472:3528", -- [4082]
+			"5250583Konstántine-Stormrage1529134648", -- [4083]
+			"5250583Darksister-Caelestrasz1529134650", -- [4084]
+			"!5155847Darksister-Caelestrasz1529134650:3:3610:1482:3528", -- [4085]
+			"5250583Mallusof1529134652", -- [4086]
+			"6250583Zevrash-Stormrage1529134653", -- [4087]
+			"8250583Minimummage-Sargeras1529134654", -- [4088]
+			"!8155846Minimummage-Sargeras1529134654:3:3610:1487:3336", -- [4089]
+			"1250583Squeekz-Stormrage1529134655", -- [4090]
+			"B250583Whiskaz-Stormrage1529134656", -- [4091]
+			"!B155847Whiskaz-Stormrage1529134656:3:3610:1487:3336", -- [4092]
+			"2250583Bwy-Frostmourne1529134657", -- [4093]
+			"!2155849Bwy-Frostmourne1529134658:3:3610:1482:3528", -- [4094]
 		},
 	},
 	["ExCD2"] = {
 		["SortByAvailabilityActiveToTop"] = true,
 		["Save"] = {
+			["Morifa80353"] = {
+				17735.764, -- [1]
+				300, -- [2]
+			},
 		},
 		["Left"] = 1116.43627929688,
 		["default_userCD"] = {
@@ -8078,7 +8220,9 @@ VExRT = {
 		["gnGUIDs"] = {
 			["Skeptical-Dragonblight"] = 251,
 			["Airiusten-Uther"] = 66,
+			["Vinkywink-Quel'Thalas"] = 62,
 			["Deathconsume-BoreanTundra"] = 250,
+			["Mufasah-Stormrage"] = 102,
 			["Steelseer-Stormrage"] = 105,
 			["Cloverleaf-Frostmourne"] = 70,
 			["Zatánná-Sargeras"] = 256,
@@ -8086,13 +8230,18 @@ VExRT = {
 			["Skwirli-Stormrage"] = 64,
 			["Calarîel-Ragnaros"] = 66,
 			["Madlexx-Dalaran"] = 72,
+			["Kimbreè-Stormrage"] = 71,
 			["Ebowla-Madoran"] = 251,
+			["Predátor-EchoIsles"] = 265,
+			["Pellai-Thrall"] = 259,
 			["Beefhooked-Saurfang"] = 258,
 			["Gnofu-Elune"] = 268,
 			["Mukurow-Gallywix"] = 103,
 			["Beargodx"] = 103,
+			["Birchslap-Frostmourne"] = 105,
 			["Darienthree-Tichondrius"] = 66,
 			["Mbdtf-Dalaran"] = 251,
+			["Ziuel-Quel'Thalas"] = 257,
 			["Tetsuen"] = 581,
 			["Xyria-Ragnaros"] = 256,
 			["Rumobtw-Sargeras"] = 269,
@@ -8105,32 +8254,39 @@ VExRT = {
 			["Kidbart-Nemesis"] = 253,
 			["Dnkyleo-Dalaran"] = 269,
 			["Tiddymonster-Ysera"] = 64,
+			["Bannanaramma-Stormrage"] = 266,
 			["Remi-Baelgun"] = 64,
 			["Flufybritchz-Nesingwary"] = 269,
 			["Tizzikz-Stormrage"] = 258,
 			["Kírito-Vashj"] = 71,
 			["Farahn"] = 264,
 			["Mìka-Caelestrasz"] = 64,
+			["Allizaê-Stormrage"] = 258,
 			["Grew-KulTiras"] = 70,
 			["Skwirlin"] = 261,
+			["Gummby-BurningLegion"] = 264,
 			["Likez"] = 254,
 			["Hairyfurskin-Kel'Thuzad"] = 102,
 			["Dranrya-Kargath"] = 73,
 			["Joannakaren-Gallywix"] = 64,
 			["Barbgreatest-Dalaran"] = 70,
 			["Malterius-Eredar"] = 65,
+			["Jamdu-Sargeras"] = 262,
+			["Tree-DarkIron"] = 105,
 			["Rohulu-Ravencrest"] = 64,
 			["Autumn-Ravenholdt"] = 63,
 			["Carthm-Gallywix"] = 70,
+			["Thilandes-Aggramar"] = 105,
 			["Potix-Proudmoore"] = 265,
 			["Chafing-Stormrage"] = 65,
 			["Mediocreman"] = 64,
+			["Vaiyx-Stormrage"] = 259,
 			["Serventos-Drakkari"] = 70,
 			["Kwickdeath-Frostmourne"] = 251,
 			["Xindu-Stormrage"] = 72,
 			["Toxicblack-Bronzebeard"] = 265,
 			["Jomi-Stormrage"] = 70,
-			["Fimwack"] = 265,
+			["Fimwack"] = 267,
 			["Nomojo-Stormrage"] = 265,
 			["Piperhaliwel-Tanaris"] = 258,
 			["Irnina-Arthas"] = 63,
@@ -8141,13 +8297,15 @@ VExRT = {
 			["Kahalui-Fizzcrank"] = 269,
 			["Arreya-Frostmourne"] = 253,
 			["Celaniia"] = 256,
-			["Rahran"] = 261,
+			["Rahran"] = 260,
 			["Finbito-Ragnaros"] = 267,
+			["Wiggyshua-Stormrage"] = 64,
 			["Shadowarloc-Tichondrius"] = 266,
 			["Kanó-Frostmourne"] = 71,
-			["Granjior"] = 65,
+			["Granjior"] = 70,
 			["Velius-Proudmoore"] = 258,
 			["Maxwellor-Uldum"] = 266,
+			["Zaftigg-Dalaran"] = 63,
 			["Saltyshadow-Sargeras"] = 265,
 			["Donidh-Gallywix"] = 577,
 			["Kneewalker-Tichondrius"] = 70,
@@ -8155,221 +8313,298 @@ VExRT = {
 			["Jirayaboy-Nazjatar"] = 104,
 			["Stromol-Quel'Thalas"] = 251,
 			["Bironnu-Ragnaros"] = 105,
+			["Thorhammer-Kil'jaeden"] = 70,
+			["Asahina-Lightbringer"] = 63,
+			["Mournblade-Blackhand"] = 70,
+			["Thundrozoth-Kel'Thuzad"] = 256,
+			["Minimummage-Sargeras"] = 62,
 			["Saltyaz-Frostmourne"] = 64,
+			["Hedonistx-Dalaran"] = 257,
 			["Mallusof"] = 257,
 			["Monkypoo"] = 268,
 			["Orianestus-Proudmoore"] = 256,
 			["Kungfulou-Stormrage"] = 269,
+			["Konstántine-Stormrage"] = 257,
 			["Burnitdown-Sargeras"] = 262,
 			["Fleran-Aman'Thul"] = 268,
 			["Megadethlock"] = 265,
 			["Delani-Stormrage"] = 258,
+			["Daykare-Tichondrius"] = 261,
+			["Chëër-Goldrinn"] = 269,
+			["Sonecaks-Gallywix"] = 70,
+			["Imgarbo-Thrall"] = 265,
 			["Haise-Uldum"] = 263,
+			["Twobeerlimit-Sargeras"] = 259,
+			["Bukkaky-Sargeras"] = 63,
 			["Roguè-Shadowmoon"] = 260,
 			["Greybone"] = 252,
+			["Blackhawk-Frostwolf"] = 577,
+			["Gahela-Ragnaros"] = 260,
 			["Reportmepls"] = 267,
+			["Arcanjomau-Nemesis"] = 65,
 			["Notdeafyx-Sargeras"] = 102,
 			["Slipknotinho-Nemesis"] = 63,
 			["Lockatron-Frostmourne"] = 265,
 			["Herin-Gallywix"] = 270,
+			["Sarkastik-Stormrage"] = 251,
+			["Grimjade-Zul'jin"] = 270,
 			["Eleanà-Velen"] = 269,
 			["Doomdale-Cenarius"] = 70,
 			["Bellaxx-Quel'Thalas"] = 254,
+			["Vellrot-Stormrage"] = 267,
+			["Odonts-Silvermoon"] = 252,
 			["Fedalorian-Arathor"] = 259,
+			["Canin-Garona"] = 105,
+			["Achmedes-Goldrinn"] = 257,
+			["Toeland-Stormrage"] = 250,
+			["Lubris-Galakrond"] = 64,
+			["Melaeri-Stormrage"] = 265,
+			["Zsa-Velen"] = 262,
 			["Thesoundfour"] = 62,
 			["Avanelle-Sargeras"] = 256,
+			["Shavenman-Sargeras"] = 251,
 			["Antidoses-EmeraldDream"] = 105,
+			["Rahancore-EchoIsles"] = 251,
 			["Nagebingdk-Sargeras"] = 251,
 			["Samuraj-Ragnaros"] = 577,
 			["Blitznik-Zul'jin"] = 105,
 			["Varamaks-Area52"] = 251,
+			["Dingu-Kel'Thuzad"] = 105,
 			["Dyond-Sargeras"] = 71,
+			["Acetylene-ArgentDawn"] = 256,
+			["Blakeyboy"] = 70,
+			["Arcaedius-Proudmoore"] = 66,
 			["Kegstandin-Sargeras"] = 270,
 			["Waniz-Caelestrasz"] = 270,
 			["Calandra-Blackrock"] = 265,
+			["Fourmonk-Jubei'Thos"] = 269,
 			["Willilam-WyrmrestAccord"] = 251,
-			["Galavantt"] = 70,
 			["Ompoet-Kargath"] = 72,
+			["Galavantt"] = 70,
+			["Arthshot-ScarletCrusade"] = 254,
 			["Ecta-Frostmourne"] = 103,
+			["Magniv-Frostmourne"] = 577,
 			["Sassbogs"] = 102,
 			["Joustness"] = 269,
+			["Leeroybob-Nemesis"] = 104,
 			["Mianhualu-KhazModan"] = 105,
 			["Cryoluck-Sargeras"] = 63,
 			["Gotdatazboi-Proudmoore"] = 252,
 			["Yiz-BurningBlade"] = 270,
 			["Lifeng-Misha"] = 263,
+			["Deanwinchstr-Shu'halo"] = 577,
+			["Keepitfrosty-Sargeras"] = 251,
 			["Panly"] = 65,
 			["Lalle-Madoran"] = 251,
 			["Jayp-Hellscream"] = 63,
 			["Zarotha-Lightbringer"] = 264,
 			["Furrypawz-MoonGuard"] = 257,
+			["Karmasux-Stormrage"] = 270,
+			["Metalasylum-Proudmoore"] = 64,
 			["Jakeius-Frostmourne"] = 103,
+			["Zemasu-Sargeras"] = 263,
+			["Arshlock-AeriePeak"] = 66,
+			["Ziekle-Stonemaul"] = 70,
+			["Whiskaz-Stormrage"] = 103,
+			["Drexella"] = 102,
 			["Baneslayèr"] = 253,
 			["Martìnus-Dalaran"] = 66,
+			["Acekicker"] = 70,
 			["Airjoy-Shu'halo"] = 254,
 			["Trövão-Gallywix"] = 250,
+			["Brancodead-Goldrinn"] = 252,
 			["Viiper-Frostmourne"] = 250,
 			["Cinexa"] = 258,
+			["Priestwork-Sargeras"] = 258,
+			["Adhira-Vashj"] = 259,
+			["Stardark-Dalaran"] = 251,
+			["Darksister-Caelestrasz"] = 258,
 			["Amranar"] = 105,
+			["Spookysmm"] = 265,
+			["Gilgámesh-Nemesis"] = 70,
+			["Anguisher-Lightbringer"] = 577,
 			["Gitnekkid-Darkspear"] = 73,
 			["Arashadow-Sargeras"] = 259,
+			["Bazius-MoonGuard"] = 62,
+			["Ctrlaltwalsh-Frostmourne"] = 265,
 			["Zoruoak-Stormrage"] = 581,
 			["Srpaco-Drakkari"] = 66,
+			["Craxrock-Ravencrest"] = 102,
+			["Sylvanwish-Stormrage"] = 102,
 			["Chomchom-Nagrand"] = 251,
+			["Vatikan-Nazgrel"] = 258,
 			["Hotbeverage"] = 250,
 			["Jilok-Stormrage"] = 250,
+			["Budspencer-Proudmoore"] = 250,
+			["Arasai-Stormrage"] = 250,
+			["Audô-Proudmoore"] = 268,
+			["Masheo-Frostmourne"] = 261,
+			["Galactuzz-Proudmoore"] = 63,
+			["Apulanta-Gallywix"] = 263,
 			["Aitadin-CenarionCircle"] = 71,
 			["Delathere-Kel'Thuzad"] = 105,
 			["Høldmyßeer-Sargeras"] = 70,
 			["Sassparagus"] = 264,
+			["Rinshi-Alexstrasza"] = 269,
 			["Yozora-Sargeras"] = 259,
 			["Nikisister-Ysera"] = 64,
 			["Selendis"] = 104,
 			["Kakarochi-EmeraldDream"] = 265,
+			["Brawin-WyrmrestAccord"] = 269,
+			["Doomvoid-Terenas"] = 265,
 			["Alsanna-Stormscale"] = 265,
+			["Adragosh-Gallywix"] = 581,
+			["Trackitt-SistersofElune"] = 254,
+			["Elbomba-Sargeras"] = 269,
+			["Ghammon-Stormrage"] = 263,
+			["Juls-Moonrunner"] = 267,
 			["Kathhound-Bronzebeard"] = 254,
 			["Taavi-Tanaris"] = 581,
+			["Crying-CenarionCircle"] = 256,
+			["Funer-Stormrage"] = 254,
 			["Anubîs-Darkspear"] = 265,
-			["Sonecaks-Gallywix"] = 70,
+			["Onikitsune-Whisperwind"] = 581,
+			["Denimwar-Daggerspine"] = 73,
+			["Lumilir-Aman'Thul"] = 254,
+			["Magikpanda-AeriePeak"] = 64,
+			["Varaxxis-AeriePeak"] = 265,
+			["Zëthus-Sargeras"] = 72,
+			["Masonmoore-Lightbringer"] = 262,
 			["Hiroyang-Proudmoore"] = 269,
-			["Twobeerlimit-Sargeras"] = 259,
-			["Gerissar-CenarionCircle"] = 265,
-			["Ellestria"] = 105,
-			["Acetylene-ArgentDawn"] = 256,
-			["Praerend"] = 73,
-			["Magniv-Frostmourne"] = 577,
-			["Kaligon"] = 64,
 			["Drunkenlay-Zuluhed"] = 253,
+			["Wrathix-Hellscream"] = 252,
+			["Kaligon"] = 64,
+			["Slashandash-Proudmoore"] = 261,
 			["Kungfusanct-Stormrage"] = 270,
 			["Rokuris-Sargeras"] = 262,
-			["Miriyal"] = 270,
+			["Lancemg-Windrunner"] = 250,
 			["Aelothur-MoonGuard"] = 257,
 			["Arêus-Stormrage"] = 269,
-			["Sinannju-Quel'Thalas"] = 66,
-			["Metalasylum-Proudmoore"] = 64,
-			["Lubris-Galakrond"] = 64,
-			["Reckt-AeriePeak"] = 251,
-			["Craxrock-Ravencrest"] = 102,
-			["Acekicker"] = 70,
-			["Leratha-Barthilas"] = 64,
-			["Elbomba-Sargeras"] = 269,
+			["Duddins-Whisperwind"] = 72,
+			["Kungfucia-Shu'halo"] = 269,
+			["Oàk-Greymane"] = 70,
+			["Lunade-Ragnaros"] = 105,
+			["Anne-Greymane"] = 102,
+			["Dewbedewbedo-Feathermoon"] = 103,
+			["Holyglitch-Sargeras"] = 70,
+			["Overcharged-Lightbringer"] = 62,
 			["Shunai-Stormrage"] = 104,
 			["Kabob"] = 70,
-			["Slashandash-Proudmoore"] = 261,
+			["Amarace-Runetotem"] = 256,
 			["Clamarene-Aman'Thul"] = 63,
-			["Arasai-Stormrage"] = 250,
+			["Shuly-Kil'jaeden"] = 72,
 			["Shockpaddles-Sargeras"] = 66,
 			["Badboypally-Auchindoun"] = 70,
-			["Kalethia"] = 62,
+			["Dathka-Stormrage"] = 265,
 			["Sauceystuff-Sargeras"] = 66,
 			["Sindrick-ArgentDawn"] = 103,
-			["Anguisher-Lightbringer"] = 577,
-			["Blakeyboy"] = 70,
+			["Amorana-Quel'Thalas"] = 258,
+			["Putakded-Frostmourne"] = 254,
 			["Darathyon-Quel'Thalas"] = 104,
-			["Kaldorath"] = 577,
+			["Snster-Perenolde"] = 577,
 			["Molniya-Garona"] = 263,
 			["Rudolph"] = 253,
 			["Phiti-ShadowCouncil"] = 260,
-			["Yugonnadie-Darkspear"] = 263,
-			["Vatikan-Nazgrel"] = 258,
-			["Budspencer-Proudmoore"] = 250,
-			["Thiccnaros-Stormrage"] = 64,
-			["Vue"] = 65,
+			["Kruana-WyrmrestAccord"] = 577,
+			["Gravol-Zul'jin"] = 253,
+			["Bamag-Dethecus"] = 72,
+			["Destabber-Stormrage"] = 259,
+			["Shaurine-Draenor"] = 103,
 			["Zenayah-Silvermoon"] = 253,
 			["Pillowcase-Whisperwind"] = 253,
-			["Kruana-WyrmrestAccord"] = 577,
-			["Overcharged-Lightbringer"] = 62,
-			["Docmad-Frostmourne"] = 258,
-			["Caillis"] = 259,
-			["Multipieles-Quel'Thalas"] = 104,
-			["Zemasu-Sargeras"] = 263,
-			["Canin-Garona"] = 105,
-			["Magikpanda-AeriePeak"] = 64,
+			["Eggmasta"] = 103,
+			["Edlaw-Frostmourne"] = 254,
+			["Physipac-Alexstrasza"] = 257,
+			["Kalethia"] = 62,
+			["Geewhiz"] = 62,
+			["Awper-BurningBlade"] = 253,
+			["Deadpoôl-Baelgun"] = 259,
+			["Zectus-Frostmourne"] = 250,
 			["Chimixongas-Gallywix"] = 72,
-			["Amarace-Runetotem"] = 256,
 			["Perlyvia-Proudmoore"] = 265,
-			["Brancodead-Goldrinn"] = 252,
+			["Därios-Nemesis"] = 70,
+			["Whatshaman-Bloodhoof"] = 264,
 			["Mini-Baelgun"] = 258,
 			["Ularím-Elune"] = 105,
-			["Därios-Nemesis"] = 70,
-			["Odonts-Silvermoon"] = 252,
+			["Shusue-Nemesis"] = 261,
+			["Thiccnaros-Stormrage"] = 64,
 			["Ascindaz-Illidan"] = 72,
 			["Lithdrenna-Stormrage"] = 257,
-			["Edlaw-Frostmourne"] = 254,
-			["Bukkaky-Sargeras"] = 63,
-			["Lunade-Ragnaros"] = 105,
-			["Zethan"] = 267,
+			["Zephÿ-Quel'Thalas"] = 251,
 			["Demonsnake-Archimonde"] = 577,
+			["Yugonnadie-Darkspear"] = 263,
+			["Raxtordone-Stormrage"] = 259,
+			["Kaldorath"] = 577,
 			["Yunmei-Hellscream"] = 254,
-			["Shaurine-Draenor"] = 103,
-			["Duddins-Whisperwind"] = 72,
-			["Wrathix-Hellscream"] = 252,
-			["Anne-Greymane"] = 102,
+			["Vue"] = 65,
+			["Zevrash-Stormrage"] = 251,
 			["Kimyshka-Nagrand"] = 269,
-			["Oàk-Greymane"] = 70,
-			["Dewbedewbedo-Feathermoon"] = 103,
+			["Halsblud-Trollbane"] = 250,
+			["Faerand"] = 253,
+			["Goonspin-Frostmourne"] = 577,
+			["Paladinroi-Barthilas"] = 66,
 			["Ashamane-Greymane"] = 104,
 			["Trickslol-Stonemaul"] = 577,
-			["Putakded-Frostmourne"] = 254,
-			["Rinshi-Alexstrasza"] = 269,
-			["Shusue-Nemesis"] = 261,
-			["Physipac-Alexstrasza"] = 257,
+			["Imsogood-Kel'Thuzad"] = 70,
+			["Sanguinos-Aggramar"] = 252,
+			["Ellestria"] = 105,
+			["Multipieles-Quel'Thalas"] = 104,
 			["Maffer-Bonechewer"] = 263,
-			["Adragosh-Gallywix"] = 581,
-			["Zephÿ-Quel'Thalas"] = 251,
+			["Hannahbakèr"] = 254,
+			["Squeekz-Stormrage"] = 73,
 			["Felyle-WyrmrestAccord"] = 104,
-			["Morifa"] = 64,
-			["Skipity-AeriePeak"] = 70,
+			["Morifa"] = 63,
+			["Zeuq-Elune"] = 257,
 			["Felfurian-Frostmourne"] = 577,
 			["Enovoria-Nordrassil"] = 262,
 			["Draeko-Sargeras"] = 254,
 			["Márlett-Quel'Thalas"] = 263,
 			["Troggz-MoonGuard"] = 251,
-			["Lumilir-Aman'Thul"] = 254,
-			["Zsa-Velen"] = 262,
-			["Halsblud-Trollbane"] = 250,
-			["Gravol-Zul'jin"] = 253,
-			["Amorana-Quel'Thalas"] = 258,
-			["Ctrlaltwalsh-Frostmourne"] = 265,
-			["Denimwar-Daggerspine"] = 73,
-			["Trackitt-SistersofElune"] = 254,
-			["Brawin-WyrmrestAccord"] = 269,
+			["Virruishinu-Korgath"] = 262,
+			["Glynixger-Antonidas"] = 70,
+			["Skipity-AeriePeak"] = 70,
+			["Illumitice-Jubei'Thos"] = 66,
+			["Reckt-AeriePeak"] = 251,
+			["Runyrd-Stormrage"] = 263,
+			["Wushudan-Sargeras"] = 269,
+			["Sinannju-Quel'Thalas"] = 66,
+			["Powbang-AeriePeak"] = 254,
 			["Mllm-Gorgonnash"] = 261,
-			["Faerand"] = 255,
+			["Leratha-Barthilas"] = 64,
 			["Toximk-Sargeras"] = 258,
 			["Ravez-Hyjal"] = 251,
-			["Apulanta-Gallywix"] = 263,
-			["Awper-BurningBlade"] = 253,
-			["Zëthus-Sargeras"] = 72,
+			["Gerissar-CenarionCircle"] = 265,
+			["Docmad-Frostmourne"] = 258,
+			["Bwy-Frostmourne"] = 70,
 			["Dontez-Stormscale"] = 260,
 			["Penelly-Rivendare"] = 62,
-			["Paladinroi-Barthilas"] = 66,
+			["Praerend"] = 73,
 			["Bartianson-Stormrage"] = 73,
-			["Glynixger-Antonidas"] = 70,
-			["Shavenman-Sargeras"] = 251,
-			["Priestwork-Sargeras"] = 258,
-			["Bamag-Dethecus"] = 72,
+			["Abaaddon-Shadowsong"] = 251,
+			["Demonkriel-Mannoroth"] = 270,
+			["Zethan"] = 267,
+			["Throneghost-Frostmourne"] = 71,
 			["Richhealz-Stormrage"] = 65,
 			["Ravendor-Caelestrasz"] = 253,
 			["Emïlïa-EmeraldDream"] = 65,
-			["Wushudan-Sargeras"] = 269,
+			["Scapee-Detheroc"] = 262,
 			["Elladren-Frostmourne"] = 250,
 			["Papyne-Gallywix"] = 253,
-			["Spookysmm"] = 265,
-			["Drexella"] = 102,
-			["Gilgámesh-Nemesis"] = 70,
+			["Caillis"] = 259,
+			["Sneeka-Khaz'goroth"] = 260,
+			["Realitybuzz-Frostmourne"] = 269,
 			["Weffon-Stormrage"] = 72,
-			["Keepitfrosty-Sargeras"] = 251,
+			["Vlwflw-Nemesis"] = 270,
 			["Rebioso-Quel'Thalas"] = 253,
-			["Leeroybob-Nemesis"] = 104,
-			["Karmasux-Stormrage"] = 270,
+			["Viduor-EmeraldDream"] = 71,
+			["Jadrade-Khadgar"] = 253,
 			["Izarog-Elune"] = 264,
-			["Abaaddon-Shadowsong"] = 251,
+			["Hellraiser-Perenolde"] = 577,
 			["Zaelsynth"] = 252,
-			["Illumitice-Jubei'Thos"] = 66,
+			["Shirubap-Sargeras"] = 65,
 			["Bossyb-Proudmoore"] = 263,
 			["Chisfries-Sargeras"] = 269,
-			["Fourmonk-Jubei'Thos"] = 269,
+			["Miriyal"] = 270,
 			["Shoguntanks"] = 250,
 		},
 		["userDB"] = {
@@ -62962,6 +63197,297 @@ VExRT = {
 				["g"] = 23,
 				["eN"] = "Varimathras",
 			}, -- [1938]
+			{
+				"EMallusof", -- [1]
+				"HAsahina-Lightbringer", -- [2]
+				"EZeuq-Elune", -- [3]
+				"DAdhira-Vashj", -- [4]
+				"CJadrade-Khadgar", -- [5]
+				"IVaraxxis-AeriePeak", -- [6]
+				"IDoomvoid-Terenas", -- [7]
+				"BZiekle-Stonemaul", -- [8]
+				"KEggmasta", -- [9]
+				"BThorhammer-Kil'jaeden", -- [10]
+				"FStardark-Dalaran", -- [11]
+				"EThundrozoth-Kel'Thuzad", -- [12]
+				"GJamdu-Sargeras", -- [13]
+				"CHannahbakèr", -- [14]
+				"FSarkastik-Stormrage", -- [15]
+				"FSanguinos-Aggramar", -- [16]
+				"CFuner-Stormrage", -- [17]
+				"DDestabber-Stormrage", -- [18]
+				"JAudô-Proudmoore", -- [19]
+				"DRaxtordone-Stormrage", -- [20]
+				"KTree-DarkIron", -- [21]
+				"HZaftigg-Dalaran", -- [22]
+				"KThilandes-Aggramar", -- [23]
+				"LOnikitsune-Whisperwind", -- [24]
+				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1529122882,
+				["eN"] = "Garothi Worldbreaker",
+				["d"] = 15,
+				["g"] = 24,
+				["eI"] = 2076,
+			}, -- [1939]
+			{
+				"EMallusof", -- [1]
+				"HAsahina-Lightbringer", -- [2]
+				"EZeuq-Elune", -- [3]
+				"DAdhira-Vashj", -- [4]
+				"CJadrade-Khadgar", -- [5]
+				"KTree-DarkIron", -- [6]
+				"IDoomvoid-Terenas", -- [7]
+				"BZiekle-Stonemaul", -- [8]
+				"LOnikitsune-Whisperwind", -- [9]
+				"BThorhammer-Kil'jaeden", -- [10]
+				"FStardark-Dalaran", -- [11]
+				"EThundrozoth-Kel'Thuzad", -- [12]
+				"GJamdu-Sargeras", -- [13]
+				"CHannahbakèr", -- [14]
+				"FSarkastik-Stormrage", -- [15]
+				"FSanguinos-Aggramar", -- [16]
+				"CFuner-Stormrage", -- [17]
+				"DDestabber-Stormrage", -- [18]
+				"JAudô-Proudmoore", -- [19]
+				"DRaxtordone-Stormrage", -- [20]
+				"HZaftigg-Dalaran", -- [21]
+				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1529123787,
+				["eN"] = "Aggramar",
+				["d"] = 15,
+				["g"] = 21,
+				["eI"] = 2063,
+			}, -- [1940]
+			{
+				"EMallusof", -- [1]
+				"HAsahina-Lightbringer", -- [2]
+				"EZeuq-Elune", -- [3]
+				"DAdhira-Vashj", -- [4]
+				"CJadrade-Khadgar", -- [5]
+				"KTree-DarkIron", -- [6]
+				"IDoomvoid-Terenas", -- [7]
+				"BZiekle-Stonemaul", -- [8]
+				"LOnikitsune-Whisperwind", -- [9]
+				"BThorhammer-Kil'jaeden", -- [10]
+				"FStardark-Dalaran", -- [11]
+				"EThundrozoth-Kel'Thuzad", -- [12]
+				"GJamdu-Sargeras", -- [13]
+				"CHannahbakèr", -- [14]
+				"FSarkastik-Stormrage", -- [15]
+				"FSanguinos-Aggramar", -- [16]
+				"CFuner-Stormrage", -- [17]
+				"DDestabber-Stormrage", -- [18]
+				"JAudô-Proudmoore", -- [19]
+				"DRaxtordone-Stormrage", -- [20]
+				"BMournblade-Blackhand", -- [21]
+				"HZaftigg-Dalaran", -- [22]
+				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1529124247,
+				["eN"] = "Aggramar",
+				["d"] = 15,
+				["g"] = 22,
+				["eI"] = 2063,
+			}, -- [1941]
+			{
+				"EMallusof", -- [1]
+				"HAsahina-Lightbringer", -- [2]
+				"EZeuq-Elune", -- [3]
+				"HZaftigg-Dalaran", -- [4]
+				"CJadrade-Khadgar", -- [5]
+				"KTree-DarkIron", -- [6]
+				"IDoomvoid-Terenas", -- [7]
+				"BZiekle-Stonemaul", -- [8]
+				"LOnikitsune-Whisperwind", -- [9]
+				"BThorhammer-Kil'jaeden", -- [10]
+				"EAchmedes-Goldrinn", -- [11]
+				"BMournblade-Blackhand", -- [12]
+				"GJamdu-Sargeras", -- [13]
+				"CHannahbakèr", -- [14]
+				"FSarkastik-Stormrage", -- [15]
+				"FSanguinos-Aggramar", -- [16]
+				"CFuner-Stormrage", -- [17]
+				"DDestabber-Stormrage", -- [18]
+				"JAudô-Proudmoore", -- [19]
+				"DRaxtordone-Stormrage", -- [20]
+				"BShirubap-Sargeras", -- [21]
+				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1529124922,
+				["eN"] = "Aggramar",
+				["d"] = 15,
+				["g"] = 21,
+				["eI"] = 2063,
+			}, -- [1942]
+			{
+				"KDingu-Kel'Thuzad", -- [1]
+				"FZectus-Frostmourne", -- [2]
+				"JRealitybuzz-Frostmourne", -- [3]
+				"JGrimjade-Zul'jin", -- [4]
+				nil, -- [5]
+				"DDeadpoôl-Baelgun", -- [6]
+				"GScapee-Detheroc", -- [7]
+				"BHolyglitch-Sargeras", -- [8]
+				"FRahancore-EchoIsles", -- [9]
+				"CArthshot-ScarletCrusade", -- [10]
+				"KSylvanwish-Stormrage", -- [11]
+				"KBirchslap-Frostmourne", -- [12]
+				"EMallusof", -- [13]
+				"HAsahina-Lightbringer", -- [14]
+				nil, -- [15]
+				"EHedonistx-Dalaran", -- [16]
+				"HGalactuzz-Proudmoore", -- [17]
+				"BArcaedius-Proudmoore", -- [18]
+				"BImsogood-Kel'Thuzad", -- [19]
+				"HBazius-MoonGuard", -- [20]
+				"DMasheo-Frostmourne", -- [21]
+				"JDemonkriel-Mannoroth", -- [22]
+				"GMasonmoore-Lightbringer", -- [23]
+				"AShuly-Kil'jaeden", -- [24]
+				"IImgarbo-Thrall", -- [25]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1529130968,
+				["g"] = 24,
+				["d"] = 15,
+			}, -- [1943]
+			{
+				"KDingu-Kel'Thuzad", -- [1]
+				"CPowbang-AeriePeak", -- [2]
+				"FZectus-Frostmourne", -- [3]
+				"JRealitybuzz-Frostmourne", -- [4]
+				"JGrimjade-Zul'jin", -- [5]
+				"DDeadpoôl-Baelgun", -- [6]
+				"GScapee-Detheroc", -- [7]
+				"BHolyglitch-Sargeras", -- [8]
+				"FRahancore-EchoIsles", -- [9]
+				"CArthshot-ScarletCrusade", -- [10]
+				"DVaiyx-Stormrage", -- [11]
+				"IJuls-Moonrunner", -- [12]
+				"KBirchslap-Frostmourne", -- [13]
+				"EMallusof", -- [14]
+				"HAsahina-Lightbringer", -- [15]
+				"AThroneghost-Frostmourne", -- [16]
+				"BArcaedius-Proudmoore", -- [17]
+				"BImsogood-Kel'Thuzad", -- [18]
+				"HBazius-MoonGuard", -- [19]
+				nil, -- [20]
+				"DMasheo-Frostmourne", -- [21]
+				"JDemonkriel-Mannoroth", -- [22]
+				"GMasonmoore-Lightbringer", -- [23]
+				"AShuly-Kil'jaeden", -- [24]
+				"IImgarbo-Thrall", -- [25]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1529132189,
+				["g"] = 24,
+				["d"] = 15,
+			}, -- [1944]
+			{
+				"KDingu-Kel'Thuzad", -- [1]
+				"CPowbang-AeriePeak", -- [2]
+				"JGrimjade-Zul'jin", -- [3]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "Varimathras",
+				["d"] = 15,
+				["g"] = 18,
+				["eI"] = 2069,
+				[21] = "DMasheo-Frostmourne",
+				[11] = "IJuls-Moonrunner",
+				[22] = "JDemonkriel-Mannoroth",
+				[6] = "GScapee-Detheroc",
+				[12] = "KBirchslap-Frostmourne",
+				[24] = "AShuly-Kil'jaeden",
+				["t"] = 1529132364,
+				[25] = "IImgarbo-Thrall",
+				[13] = "EMallusof",
+				[7] = "CArthshot-ScarletCrusade",
+				[14] = "HAsahina-Lightbringer",
+				[23] = "GMasonmoore-Lightbringer",
+				[16] = "AThroneghost-Frostmourne",
+			}, -- [1945]
+			{
+				"FToeland-Stormrage", -- [1]
+				"ASqueekz-Stormrage", -- [2]
+				"DPellai-Thrall", -- [3]
+				"AViduor-EmeraldDream", -- [4]
+				"IDathka-Stormrage", -- [5]
+				"EDarksister-Caelestrasz", -- [6]
+				"JVlwflw-Nemesis", -- [7]
+				"DGahela-Ragnaros", -- [8]
+				"KWhiskaz-Stormrage", -- [9]
+				"HMinimummage-Sargeras", -- [10]
+				"ECrying-CenarionCircle", -- [11]
+				"HVinkywink-Quel'Thalas", -- [12]
+				"GRunyrd-Stormrage", -- [13]
+				"HWiggyshua-Stormrage", -- [14]
+				"EMallusof", -- [15]
+				"IPredátor-EchoIsles", -- [16]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1529132699,
+				["g"] = 16,
+				["d"] = 14,
+			}, -- [1946]
+			{
+				"FToeland-Stormrage", -- [1]
+				"ASqueekz-Stormrage", -- [2]
+				"DPellai-Thrall", -- [3]
+				"AViduor-EmeraldDream", -- [4]
+				"EAllizaê-Stormrage", -- [5]
+				"EDarksister-Caelestrasz", -- [6]
+				"EZiuel-Quel'Thalas", -- [7]
+				"DGahela-Ragnaros", -- [8]
+				"KWhiskaz-Stormrage", -- [9]
+				"HMinimummage-Sargeras", -- [10]
+				"ECrying-CenarionCircle", -- [11]
+				"HVinkywink-Quel'Thalas", -- [12]
+				"GRunyrd-Stormrage", -- [13]
+				"HWiggyshua-Stormrage", -- [14]
+				"EMallusof", -- [15]
+				"IPredátor-EchoIsles", -- [16]
+				"AKimbreè-Stormrage", -- [17]
+				"GGhammon-Stormrage", -- [18]
+				"BBwy-Frostmourne", -- [19]
+				"FZevrash-Stormrage", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1529133500,
+				["g"] = 20,
+				["d"] = 14,
+			}, -- [1947]
+			{
+				"FToeland-Stormrage", -- [1]
+				"ASqueekz-Stormrage", -- [2]
+				"DPellai-Thrall", -- [3]
+				"AViduor-EmeraldDream", -- [4]
+				"EAllizaê-Stormrage", -- [5]
+				"EDarksister-Caelestrasz", -- [6]
+				"EZiuel-Quel'Thalas", -- [7]
+				"DGahela-Ragnaros", -- [8]
+				"KWhiskaz-Stormrage", -- [9]
+				"HMinimummage-Sargeras", -- [10]
+				"ECrying-CenarionCircle", -- [11]
+				"HVinkywink-Quel'Thalas", -- [12]
+				"GRunyrd-Stormrage", -- [13]
+				"HWiggyshua-Stormrage", -- [14]
+				"EMallusof", -- [15]
+				"IPredátor-EchoIsles", -- [16]
+				"EKonstántine-Stormrage", -- [17]
+				"GGhammon-Stormrage", -- [18]
+				"BBwy-Frostmourne", -- [19]
+				"FZevrash-Stormrage", -- [20]
+				"IMelaeri-Stormrage", -- [21]
+				"IVellrot-Stormrage", -- [22]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1529134133,
+				["g"] = 22,
+				["d"] = 14,
+			}, -- [1948]
 		},
 		["alts"] = {
 			{
@@ -62978,110 +63504,12 @@ VExRT = {
 		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["WhoPulled"] = {
-	},
-	["Note"] = {
-		["BlackNames"] = {
-			"Elisande Cooldowns", -- [1]
-			"Guldan", -- [2]
-			"Goroth", -- [3]
-			"Kiljaeden", -- [4]
-			"Maiden", -- [5]
-			"Fallen Avatar", -- [6]
-			"Harjatan", -- [7]
-			"*", -- [8]
-			"Garothi Worldbreaker*", -- [9]
-			"Felhounds of Sargeras*", -- [10]
-			"Antoran High Command*", -- [11]
-			"Portal Keeper*", -- [12]
-			"Eonar the Life-Binder*", -- [13]
-			"Imonar the Soulhunter*", -- [14]
-			"Kin'garoth*", -- [15]
-			"Portal Keeper Hasabel*", -- [16]
-			"Guldan*", -- [17]
-			"Mage Tower**", -- [18]
-			"Mythic Argus", -- [19]
-		},
-		["FontSize"] = 12,
-		["AutoLoad"] = {
-			[0] = 2082,
-			[13] = 2075,
-			[14] = 2082,
-			[2] = 1866,
-			[15] = 2088,
-			[8] = 2051,
-			[16] = 2064,
-			[9] = 2076,
-			[10] = 2074,
-			[19] = 2092,
-			[11] = 2070,
-			[17] = 1866,
-			[12] = 2064,
-			[3] = 2032,
-		},
-		["Left"] = 1660.38269042969,
-		["SelfText"] = "",
-		["ScaleBack"] = 68,
-		["Text1"] = " ",
-		["DefName"] = "Imonar the Soulhunter",
-		["SaveAllNew"] = true,
-		["LastUpdateName"] = "Blakeyboy-Tichondrius",
-		["OnlyPromoted"] = true,
-		["FontName"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
-		["Width"] = 292.866363525391,
-		["Top"] = 716.442565917969,
-		["Scale"] = 100,
-		["Black"] = {
-			"Phase 1: \n Second Fast Add: {Priest} ||cffffffffMeowfurryoff||r  Hymn\n\nPhase 2: \n First Delphuric Beams:  {Druid} ||cffff7d0aEllestria||r  Tranq\n First Orbs: {Priest} ||cffffffffTafè||r  VE \n Second Delphuric Beams: {Druid} ||cffff7d0aSombrador||r \n Second Orbs: {Priest} ||cffffffffMallusof||r  Hymn +  {Warrior} ||cffc79c6eBúî||r Shout\n\nPhase 3:\n First Delphuric Beams:  {Priest} ||cffffffffMeowfurryoff||r  Hymn\n Conflexive Burst: {Druid} ||cffff7d0aEllestria||r Tranq\n\n\n", -- [1]
-			"||cffff0000Phase 1:||r\n ||cffffff001st Hellfire + Eyes: ||r{Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq||cffffff00\n ||cffffff001st Bonds:||r||r {Priest} ||cffffffffMallusof||r  ({Priest} ||cffffffffMeowfurryoff||r as backup)\n ||cffffff002nd Hellfire:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n ||cffffff002nd Bonds:||r {Druid} ||cffff7d0aEllestria||r ( {Druid} ||cffff7d0aSombrador||r as backup)\n ||cffffff003rd (E Hellfire) + Eyes:||r  {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n ||cffffff003rd Bonds:||r {Priest} ||cffffffffMeowfurryoff||r ({Priest} (||cffffffffMallusof||r as backup)\n||cff00ff00 We should push it before the 3rd Bonds and the 2nd adds spawns.||r\n\n||cffff0000Phase 2:||r\n||cff00ff00 Skull side (Group 3):||r  {Druid} ||cffff7d0aEllestria||r + {Priest} ||cffffffffMallusof||r = ||cfffff569Tetsunochi||r \n||cff00ff00 Star side (Group 4):||r  ||cffff7d0aSombrador||r + {Priest} ||cffffffffMeowfurryoff||r = ||cfffff569Slicedlol||r \n\n ||cffffff002nd Harvest:||r Personals\n||cffffff00 2nd Eyes:||r {Priest} ||cffffffffTafe||r {spell:15286}VE\n ||cffffff003rd Harvest:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n ||cffffff003rd Eyes:||r {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n||cffffff00 4th Eyes: ||r{Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n ||cffffff004th Harvest:||r {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout\n ||cff00ff00Guldan will die before 5th eye, else Eye will die with him.||r\n\n||cffff0000 Phase 3:||r  \n   ||cffffff001st Nightorb charge:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n  ||cffffff00 5th Flame Crash:||r {Priest} ||cffffffffTafe||r {spell:15286}VE + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout \n   ||cffffff00Triple Charge:||r {Druid} ||cffff7d0aEllestria||r + {Druid} ||cffff7d0aSombrador||r  {spell:740}Tranq\n\n||cff00ff00Should be GG then||r", -- [2]
-			"||cffffff001st Star:||r ||cffffffffMallusof||r {spell:64843}\n||cffffff002nd Star::||r ||cffff7d0aEllestria||r {spell:740}\n||cffffff003rd Star:||r ||cffff7d0aSombrador||r {spell:740}\n||cffffff004th Star::||r ||cfff58cbaHangookie||r\n||cffffff005th Star:||r ||cffffffffMallusof||r {spell:64843}\n||cffffff006th Star:||r ||cffff7d0aEllestria||r{spell:740} \n||cffffff007th Star:||r ||cffff7d0aSombrador||r {spell:740}\n||cffffff008th Star::||r ||cfff58cbaHangookie||r", -- [3]
-			"||cffffff00Focused Dreadflame to||r {star}\n||cffffff00Bring adds to||r {diamond}\n\n||cffffff00Kali dies to Felclaws:||r\n2nd: ||cffff7d0aSombrador||r {spell:102342}\n\n\n||cffffff00Shadow Reflections:||r\n1st: ||cffffffffMallusof||r {spell:64843}\n2nd: ||cfff58cbaHangookie||r {spell:31842}\n3rd: ||cffffffffMallusof||r {spell:64843}\n\n||cffffff00Armageddon soaking:||r\n\n1st: ||cfff58cbaKalithumos||r \n2nd: ||cfff58cbaKalithumos||r \n3rd: ||cfff58cbaKalithumos||r \n4th: ||cff3fc7ebKaligon||r \n5th: ||cffabd473Daoxu||r \n\n||cffffff00Soaking:||r\nGroup 1: {cross}\nGroup 2: {circle}\nGroup 3: {square}\nGroup 4: {triangle}", -- [4]
-			"||cffffff00Light Side: ||r {star} + {circle}\n||cff55ee55Fel Side:||r {triangle} + {diamond}", -- [5]
-			"||cffffff001st Unbound Chaos: ||r ||cffff7d0aEllestria||r {spell:740}\n||cffffff002nd Unbound Chaos: ||r ||cffffffffMallusof||r {spell:64843}\n||cffffff002nd Unbound Chaos: ||r ||cffff7d0aSombrador||r {spell:740}\n||cffffff003rd Unbound Chaos: ||r ||cfff58cbaHangookie||r {spell:204150}\n||cffffff004th Unbound Chaos: ||r Personals and Externals {spell:15286}\n||cffffff005th Unbound Chaos: ||r ||cffffffffMallusof||r {spell:64843}\n||cffffff006th Unbound Chaos: ||r ||cffff7d0aEllestria||r {spell:740}\n||cffffff007th Unbound Chaos: ||r ||cffff7d0aSombrador||r {spell:740}\n||cffffff008th Unbound Chaos: ||r ||cfff58cbaHangookie||r {spell:204150}", -- [6]
-			"||cffffff00Frosty Discharge Cooldown:||r\n\n1. ||cffff7d0aEllestria||r {spell:740} \n2. ||cffffffffMallusof||r  {spell:64843}\n3. ||cffff7d0aSombrador||r {spell:740}\n4. ||cfff58cbaHangookie||r  {spell:31842}{spell:204150}\n5. If not back: ||cffc79c6eBúî||r  + ||cffffffffTafè||r \n||cffffff00Rinse and Repeat||r", -- [7]
-			"First Soak: Zero\nSecond Soak: Zero\nThird Soak: Broxigore\nFourth Soak: Nikki\n\nFlex: Vorthex", -- [8]
-			"Garothi Worldbreaker\nTanks\nSwap and run Fel Bombardment out\nP1 \nRun Decimation out and drop\nSoak 2-3 ppl Annihilation\nKill Annihilator, move max range\nHEALING CD\nP2\nStack, dodge left/right\nP3\nLust", -- [9]
-			"Felhounds of Sargeras\nTank dogs 40yd\nFire\n33    Desolate Gaze, aim fire beam\n66    Molten Touch, lift/stuns players\n100    Enflame Corruption, spread 8yd\nShadow\n33    Consuming Sphere, dodge pull ball\n66    Weight of Darkness, 2player help target soak negate fear\n100    Siphon Corruption, stack, HEALING CD", -- [10]
-			"Antoran High Command\nBoss swap every 90s\n2dps pod rotation every 45s, G1/3, G1/4\nTank swap after Exploit Weakness\nDispell Chaos Pulse\nP1\nInterrupt Pyroblast add, G2/1-5 interrupt order\nMax range bait Shocktroopers\nPod 1 on boss 2 on adds\nDodge mines\nP2\nsame adds from P1\nPod 1 on boss 2 Felshield Emitter 3x on raid, rest by P3 pod\nClick Felshieled Emitter during Fusillade\nP3\nDodge mines\nUse Felshield Emitter during Fusillade\nPod 1 on boss 2 clear mines\n", -- [11]
-			"Portal Keeper Hasabel\nTank swap 3 stack of Reality Tear\nTanks move from edge to edge after Collapsing World\nFelstorm Barrage, dodge green beams\nTransport Portal interrupt and kill adds\nP1 \nFire Portal\n3-5 AoE dps stay with 1 Tank and all but 1 healer\nVulcanar, interrupt Flame of Xoroth/Unstable portal\nP2 \nFel Portal\nLady Dacidion, dps cocooned player, 10% hp dot\nP3\nLord Eligar, stay near fire orb, 2% mana regen debuff,\nsmall HEALING CD\nP4\nHEALING CDS\n", -- [12]
-			"Eonar the Life-Binder\n4 waves, 20/miniboss, 7/normal mob\nMove Spear of Doom beam to edges\nKill Priority\nFel-Infused Destructor, needs tanked, interrupt Artillery Strike\nFel-Powered Purifier, needs tanked, adds nearby are immune to CC\nFel-Charged Obfuscator, kill when alone", -- [13]
-			" ", -- [14]
-			"Kin'garoth\nP1\nTank swap each Forging Strike\nReverberating Strike, move 5yd away, ground\nRuiner, dodge beam\nDiabolic Bombs, Off tank soak orb, HEALING CD\nP2, lasts 40s\nFlames of the Forge, ticking 40s HEALING CD\nSplit 2 groups G2,G4/1-2 and G3,G4/3-4\nGreen, Annihilation, solo soak circles\nRed, Decimation, spread, run cicles out\nPurple, Demolish, 2players help targeted player soak", -- [15]
-			"Portal Keeper Hasabel\nTank swap 3 stack of Reality Tear\nTanks move from edge to edge after Collapsing World\nFelstorm Barrage, dodge green beams\nTransport Portal interrupt and kill adds\nP1 \nFire Portal\n3-5 AoE dps stay with 1 Tank and all but 1 healer\nVulcanar, interrupt Flame of Xoroth/Unstable portal\nP2 \nFel Portal\nLady Dacidion, dps cocooned player, 10% hp dot\nP3\nLord Eligar, stay near fire orb, 2% mana regen debuff,\nsmall HEALING CD\nP4\nHEALING CDS", -- [16]
-			"||cffff0000Phase 1:||r\n ||cffffff001st Hellfire + Eyes: ||r{Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq||cffffff00\n ||cffffff001st Bonds:||r||r {Priest} ||cffffffffMallusof||r  ({Priest} ||cffffffffMeowfurryoff||r as backup)\n ||cffffff002nd Hellfire:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n ||cffffff002nd Bonds:||r {Druid} ||cffff7d0aEllestria||r ( {Druid} ||cffff7d0aSombrador||r as backup)\n ||cffffff003rd (E Hellfire) + Eyes:||r  {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n ||cffffff003rd Bonds:||r {Priest} ||cffffffffMeowfurryoff||r ({Priest} (||cffffffffMallusof||r as backup)\n||cff00ff00 We should push it before the 3rd Bonds and the 2nd adds spawns.||r\n\n||cffff0000Phase 2:||r\n||cff00ff00 Skull side (Group 3):||r  {Druid} ||cffff7d0aEllestria||r + {Priest} ||cffffffffMallusof||r = ||cfffff569Tetsunochi||r \n||cff00ff00 Star side (Group 4):||r  ||cffff7d0aSombrador||r + {Priest} ||cffffffffMeowfurryoff||r = ||cfffff569Slicedlol||r \n\n ||cffffff002nd Harvest:||r Personals\n||cffffff00 2nd Eyes:||r {Priest} ||cffffffffTafe||r {spell:15286}VE\n ||cffffff003rd Harvest:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n ||cffffff003rd Eyes:||r {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n||cffffff00 4th Eyes: ||r{Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n ||cffffff004th Harvest:||r {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout\n ||cff00ff00Guldan will die before 5th eye, else Eye will die with him.||r\n\n||cffff0000 Phase 3:||r  \n   ||cffffff001st Nightorb charge:||r {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n  ||cffffff00 5th Flame Crash:||r {Priest} ||cffffffffTafe||r {spell:15286}VE + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout \n   ||cffffff00Triple Charge:||r {Druid} ||cffff7d0aEllestria||r + {Druid} ||cffff7d0aSombrador||r  {spell:740}Tranq\n\n||cff00ff00Should be GG then||r", -- [17]
-			"{star}Mage Tower Progress 36/36{star}\n\n{Warrior}: ||cff00ff00Fury||r / ||cff00ff00Arms||r / ||cff00ff00Protection||r\n{Paladin}: ||cff00ff00Holy||r / ||cff00ff00Protection||r / ||cff00ff00Retribution||r\n{Hunter}: ||cff00ff00Survival||r / ||cff00ff00Marksman||r / ||cff00ff00Beastmastery||r\n{Rogue}: ||cff00ff00Subtlety||r/ ||cff00ff00Assassination||r / ||cff00ff00Outlaw||r\n{Priest}: ||cff00ff00Holy||r / ||cff00ff00Discipline||r / ||cff00ff00Shadow||r\n{Death Knight}: ||cff00ff00Blood||r / ||cff00ff00Frost||r / ||cff00ff00Unholy||r\n{Shaman}: ||cff00ff00Enhancement||r / ||cff00ff00Resto||r / ||cff00ff00Elemental||r\n{Mage}: ||cff00ff00Arcane||r / ||cff00ff00Frost||r / ||cff00ff00Fire||r\n{Warlock}: ||cff00ff00Affliction||r / ||cff00ff00Demonology||r / ||cff00ff00Destruction||r\n{Monk}: ||cff00ff00Mistweaver||r / ||cff00ff00Brewmaster||r / ||cff00ff00Windwalker||r\n{Druid}: ||cff00ff00Guardian||r / ||cff00ff00Balance||r / ||cff00ff00Resto||r / ||cff00ff00Feral||r\n{Demon Hunter}: ||cff00ff00Vengeance||r / ||cff00ff00Havoc||r\n\n", -- [18]
-			"Tortured Rage:\n\n3: ||cffff7d0aEllestria||r \n6: ||cffffffffMallusof||r ", -- [19]
-		},
-		["Alpha"] = 100,
-		["Height"] = 233.288497924805,
-		["Outline"] = true,
-		["LastUpdateTime"] = 1526260605,
-		["Strata"] = "LOW",
-	},
-	["Addon"] = {
-		["Version"] = 3910,
-		["Scale"] = 1,
-		["IconMiniMapTop"] = -80,
-		["Timer"] = 0.1,
-		["IconMiniMapLeft"] = -52.2955800950633,
-		["PreVersion"] = 3910,
-	},
-	["InspectArtifact"] = {
-		["players"] = {
-		},
-	},
-	["Profiles"] = {
-	},
-	["BossWatcher"] = {
-		["optionsDamageGraph"] = true,
-		["fightsNum"] = 2,
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
-		["trackingDamageSpells"] = {
-		},
-	},
-	["Profile"] = "default",
-	["LootLink"] = {
+	["RaidCheck"] = {
+		["FlaskExp"] = 2,
+		["ReadyCheckLeft"] = 479.347473144531,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckTop"] = 1033.10656738281,
+		["ReadyCheckFrameScale"] = 100,
 	},
 	["Bossmods"] = {
 		["ArchimondeRadius"] = 40,
@@ -63095,14 +63523,14 @@ VExRT = {
 		["Kromog"] = {
 		},
 	},
-	["RaidCheck"] = {
-		["FlaskExp"] = 2,
-		["ReadyCheckLeft"] = 479.347473144531,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["ReadyCheckTop"] = 1033.10656738281,
-		["ReadyCheckFrameScale"] = 100,
-	},
-	["Logging"] = {
+	["Addon"] = {
+		["Scale"] = 1.01,
+		["Version"] = 3910,
+		["Timer"] = 0.1,
+		["IconMiniMapHide"] = true,
+		["IconMiniMapLeft"] = 69.1221361814599,
+		["PreVersion"] = 3910,
+		["IconMiniMapTop"] = 76.5466432308775,
 	},
 	["MarksBar"] = {
 		["enabled"] = true,
@@ -63120,19 +63548,24 @@ VExRT = {
 		},
 		["wmKind"] = true,
 	},
-	["InviteTool"] = {
-		["AutoInvAccept"] = true,
-		["Words"] = "инв inv byd штм 123",
-		["InvByChat"] = true,
-		["RaidDiff"] = 16,
-		["PromoteRank"] = 3,
-		["LootThreshold"] = 4,
-		["AutoRaidDiff"] = true,
-		["MasterLooters"] = "Arkator, Kammander",
-		["LootMethod"] = "master",
-		["PromoteNames"] = "",
-		["OnlyGuild"] = true,
-		["Rank"] = 1,
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
+	},
+	["Profiles"] = {
+		["default"] = {
+		},
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["Marks"] = {
+		["list"] = {
+		},
 	},
 	["Timers"] = {
 		["specTimes"] = {
@@ -63182,5 +63615,19 @@ VExRT = {
 		["timeToKill"] = true,
 		["enabled"] = true,
 		["OnlyInCombat"] = true,
+	},
+	["Logging"] = {
+	},
+	["InspectArtifact"] = {
+		["players"] = {
+		},
+	},
+	["WhoPulled"] = {
+	},
+	["BattleRes"] = {
+		["enabled"] = true,
+		["Top"] = 356.691162109375,
+		["Left"] = 0,
+		["fix"] = true,
 	},
 }

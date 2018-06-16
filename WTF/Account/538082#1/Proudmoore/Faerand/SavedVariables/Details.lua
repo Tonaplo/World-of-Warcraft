@@ -7,9 +7,9 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 1774,
+	["combat_counter"] = 1778,
 	["character_data"] = {
-		["logons"] = 137,
+		["logons"] = 139,
 	},
 	["tabela_instancias"] = {
 	},
@@ -34,8 +34,8 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 432.1279296875,
-					["x"] = -836.594253540039,
+					["y"] = 429.825744628906,
+					["x"] = -839.664337158203,
 					["w"] = 285.462463378906,
 					["h"] = 162.392700195313,
 				},
@@ -67,8 +67,8 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 432.127502441406,
-					["x"] = -551.643524169922,
+					["y"] = 429.825744628906,
+					["x"] = -554.713470458984,
 					["w"] = 284.439300537109,
 					["h"] = 162.392639160156,
 				},
@@ -99,7 +99,7 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Base",
-	["last_day"] = "11",
+	["last_day"] = "16",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -111,8 +111,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["dps"] = 0,
 			["author"] = "Details! Team",
+			["dps"] = 0,
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -186,7 +186,7 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["font_size"] = 14,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -194,17 +194,9 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 14,
 			["y"] = -20.15869140625,
-			["x"] = 0,
-			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -216,15 +208,23 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["use_spark"] = false,
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["author"] = "Details! Team",
-			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -235,14 +235,20 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
-		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -309,19 +315,12 @@ _detalhes_database = {
 			},
 			["author"] = "Details! Team",
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
+			["SpellBarsShowType"] = 1,
 		},
 	},
-	["last_encounter"] = "Argus the Unmaker",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Cathedral of Eternal Night",
 		["started"] = false,
@@ -334,6 +333,7 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 1520140406,
 	},
 	["ignore_nicktag"] = false,
+	["last_encounter"] = "Argus the Unmaker",
 	["last_realversion"] = 130,
 	["last_version"] = "v7.3.5.5572",
 	["combat_id"] = 1296,
@@ -342,13 +342,13 @@ _detalhes_database = {
 	["last_instance_time"] = 1524453276,
 	["cached_talents"] = {
 		["Player-5-0A2F34B4"] = {
-			22918, -- [1]
-			22296, -- [2]
-			22277, -- [3]
-			22301, -- [4]
-			22300, -- [5]
-			22266, -- [6]
-			22298, -- [7]
+			22282, -- [1]
+			19357, -- [2]
+			21997, -- [3]
+			21986, -- [4]
+			22293, -- [5]
+			19347, -- [6]
+			22347, -- [7]
 		},
 	},
 	["announce_deaths"] = {
@@ -498,8 +498,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-5-0A2F34B4"] = 255,
-		["Player-5-0AD0FA1D"] = 256,
-		["Player-5-0AFFCF3D"] = 259,
+		["Player-5-0A2F34B4"] = 253,
 	},
 }

@@ -1,6 +1,6 @@
 TidyPlates: disabled
-VuhDo: enabled
-VuhDoOptions: enabled
+VuhDo: disabled
+VuhDoOptions: disabled
 Hermes-UI: disabled
 Hermes: disabled
 FollowerLocationInfo_Data: enabled
@@ -24,8 +24,8 @@ Bartender4: disabled
 OrderHallCommander: disabled
 XLoot_Options: enabled
 Details_Streamer: disabled
-Grid2: disabled
-Grid2Options: disabled
-Grid2RaidDebuffs: disabled
-Grid2RaidDebuffsOptions: disabled
-Grid2LDB: disabled
+Grid2: enabled
+Grid2Options: enabled
+Grid2RaidDebuffs: enabled
+Grid2RaidDebuffsOptions: enabled
+Grid2LDB: enabled

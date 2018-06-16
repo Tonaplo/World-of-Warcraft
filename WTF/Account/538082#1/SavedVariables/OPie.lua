@@ -151,8 +151,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTe",
 				}, -- [5]
 				{
-					["sliceToken"] = "OPCCTa",
 					["id"] = "/cast {{spell:2259/51304}}",
+					["sliceToken"] = "OPCCTa",
 				}, -- [6]
 				{
 					["sliceToken"] = "OPCCTc",
@@ -167,20 +167,20 @@ OneRing_Config = {
 					["id"] = "/cast {{spell:3273/45542}}",
 				}, -- [9]
 				{
-					["id"] = "/cast {{spell:4036/51306}}",
 					["sliceToken"] = "OPCCTg",
+					["id"] = "/cast {{spell:4036/51306}}",
 				}, -- [10]
 				{
-					["sliceToken"] = "OPCCTr",
 					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
+					["sliceToken"] = "OPCCTr",
 				}, -- [11]
 				{
 					["id"] = 53428,
 					["sliceToken"] = "OPCCTu",
 				}, -- [12]
 				{
-					["id"] = 2656,
 					["sliceToken"] = "OPCCTm",
+					["id"] = 2656,
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -224,9 +224,9 @@ OneRing_Config = {
 					["id"] = 72286,
 				}, -- [3]
 				{
+					["show"] = "[spec:255/254/253] hide;",
 					["sliceToken"] = "ABuepElZQEe",
 					["id"] = 229377,
-					["show"] = "[spec:255/254/253] hide;",
 				}, -- [4]
 				{
 					["id"] = 229376,
@@ -241,8 +241,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueajwKJge",
 				}, -- [7]
 				{
-					["id"] = 231442,
 					["sliceToken"] = "ABueaz9T4ae",
+					["id"] = 231442,
 				}, -- [8]
 				{
 					["id"] = 229417,
@@ -414,6 +414,11 @@ OneRing_Config = {
 					["id"] = "/rt",
 					["icon"] = 136106,
 				}, -- [7]
+				{
+					"macro", -- [1]
+					"Clique", -- [2]
+					["sliceToken"] = "ABue3cIAn1e",
+				}, -- [8]
 				["name"] = "Macros",
 				["save"] = true,
 			},
@@ -471,32 +476,32 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
-					["id"] = "/click ORLOpen SpecMenu",
 					["caption"] = "Travel",
+					["id"] = "/click ORLOpen SpecMenu",
 					["icon"] = 134414,
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
-					["id"] = "/click ORLOpen CommonTrades",
 					["caption"] = "Trade Skills",
+					["id"] = "/click ORLOpen CommonTrades",
 					["icon"] = 134707,
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
-					["id"] = "/click ORLOpen Macros",
 					["caption"] = "Macros",
+					["id"] = "/click ORLOpen Macros",
 					["icon"] = 1505928,
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
-					["id"] = "/click ORLOpen onsumables",
 					["caption"] = "Consumables",
+					["id"] = "/click ORLOpen onsumables",
 					["icon"] = 134055,
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
-					["id"] = "/click ORLOpen tAbilities",
 					["caption"] = "Class Abilities",
+					["id"] = "/click ORLOpen tAbilities",
 					["icon"] = 132147,
 				}, -- [5]
 				{
@@ -510,12 +515,12 @@ OneRing_Config = {
 			},
 			["tAbilities"] = {
 				{
-					["sliceToken"] = "ABuep4BpwxR",
 					["id"] = 1706,
+					["sliceToken"] = "ABuep4BpwxR",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuep4Bpwx7",
 					["id"] = 2006,
+					["sliceToken"] = "ABuep4Bpwx7",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4BpwxE",
@@ -537,8 +542,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuep5Et2mr",
 				}, -- [6]
 				{
-					["id"] = 546,
 					["sliceToken"] = "ABuepcdn0Le",
+					["id"] = 546,
 				}, -- [7]
 				{
 					["id"] = 883,
@@ -612,6 +617,10 @@ OneRing_Config = {
 					["id"] = 224871,
 					["sliceToken"] = "ABuesG8z4qe",
 				}, -- [25]
+				{
+					["id"] = 212036,
+					["sliceToken"] = "ABue3cjatfe",
+				}, -- [26]
 				["name"] = "Abilities",
 				["save"] = true,
 			},

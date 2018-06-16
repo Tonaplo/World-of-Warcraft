@@ -63,6 +63,6 @@ Arh_Config = {
 	},
 	["Minimap"] = {
 		["minimapPos"] = 337.349992712309,
-		["hide"] = false,
+		["hide"] = true,
 	},
 }
