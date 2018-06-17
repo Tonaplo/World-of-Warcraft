@@ -14,11 +14,11 @@ RCDatabase = {
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["realm"] = {
 		["Proudmoore"] = {
@@ -175,7 +175,7 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 750,
+				["secondProfLevel"] = 763,
 				["itemLevelEquipped"] = 966.625,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
@@ -209,12 +209,12 @@ RCDatabase = {
 			}, -- [3]
 			{
 				["secondProfLevel"] = 7,
-				["itemLevelEquipped"] = 37.3125,
+				["itemLevelEquipped"] = 43.25,
 				["class"] = "PALADIN",
 				["secondProf"] = "Mining",
 				["name"] = "Korugen",
-				["itemLevelOverall"] = 37.3125,
-				["level"] = 33,
+				["itemLevelOverall"] = 43.25,
+				["level"] = 39,
 				["firstProfLevel"] = 11,
 				["firstProf"] = "Blacksmithing",
 			}, -- [4]

@@ -175,6 +175,11 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 64,
 		["name"] = "Frost Single Target",
 	}, -- [35]
+	{
+		["value"] = "[02+m0__Shift E_15487_0_0]\n[00w+402+g0__Shift F_228260_0_0]\n[00w+40202+a02032__2_32379_0_8092]\n[+903+a01032__2_32379_0_8092]\n[+7012000k+b0_Voidform_X_200174_0_0]\n[01+502+603+90_Shadow Word: Pain_F_589_0_0]\n[01+502+603+90_Vampiric Touch_C_34914_0_0]\n[+702+g0__3_8092_0_0]\n[+702+g0__E_15407_0_0]",
+		["spec"] = 258,
+		["name"] = "Shadow Leveling",
+	}, -- [36]
 	[0] = {
 		["value"] = "",
 		["spec"] = 0,
