@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -16,6 +10,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "22:49:23",
+			["date_start"] = "22:48:28",
+			["name"] = "Cenarius",
+			["total_time"] = 55.0229999999997,
+		}, -- [1]
+		{
+			["date_end"] = "22:46:35",
+			["date_start"] = "22:45:53",
+			["name"] = "Dragons of Nightmare",
+			["total_time"] = 41.6260000000002,
+		}, -- [2]
+		{
+			["date_end"] = "22:42:52",
+			["date_start"] = "22:41:58",
+			["name"] = "Ursoc",
+			["total_time"] = 53.6189999999997,
+		}, -- [3]
+		{
+			["date_end"] = "12:03:31",
+			["date_start"] = "12:02:09",
+			["name"] = "Dargrul the Underking",
+			["total_time"] = 82.1760000000004,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -265,23 +285,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Imugl-Stormreaver"] = {
-				[25771] = {
-					55.0229999999997, -- [1]
-					["source"] = "Pãntss",
-					["active"] = true,
-				},
-			},
-			["Chiela-Aman'Thul"] = {
-				[210279] = {
-					0.1, -- [1]
-					19.181, -- [2]
-					20.123, -- [3]
-					55.0229999999997, -- [4]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-			},
 			["Tonysham"] = {
 				[233375] = {
 					55.0229999999997, -- [1]
@@ -289,61 +292,7 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Dinker-WyrmrestAccord"] = {
-				[210279] = {
-					0.1, -- [1]
-					19.181, -- [2]
-					20.123, -- [3]
-					55.0229999999997, -- [4]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-			},
-			["Genjigodx"] = {
-				[57724] = {
-					55.0229999999997, -- [1]
-					55.0229999999997, -- [2]
-					["source"] = "Genjigodx",
-					["active"] = false,
-				},
-			},
-			["Cheval"] = {
-				[223203] = {
-					55.0229999999997, -- [1]
-					55.0229999999997, -- [2]
-					["source"] = "Cheval",
-					["active"] = false,
-				},
-				[223202] = {
-					55.0229999999997, -- [1]
-					["source"] = "Cheval",
-					["active"] = true,
-				},
-			},
-			["Onyxstrasza"] = {
-				[167615] = {
-					55.0229999999997, -- [1]
-					55.0229999999997, -- [2]
-					["source"] = "Rukhmar",
-					["active"] = false,
-				},
-			},
-			["Adelody-Daggerspine"] = {
-				[172184] = {
-					55.0229999999997, -- [1]
-					["source"] = "Archmage Nakada",
-					["active"] = true,
-				},
-			},
-			["Nightrecluse-Ravenholdt"] = {
-				[34914] = {
-					55.0229999999997, -- [1]
-					55.0229999999997, -- [2]
-					["source"] = "Annoint",
-					["active"] = false,
-				},
-			},
-			["Sillyolebear-Gnomeregan"] = {
+			["Chiela-Aman'Thul"] = {
 				[210279] = {
 					0.1, -- [1]
 					19.181, -- [2]
@@ -367,10 +316,78 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Dinker-WyrmrestAccord"] = {
+				[210279] = {
+					0.1, -- [1]
+					19.181, -- [2]
+					20.123, -- [3]
+					55.0229999999997, -- [4]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+			},
+			["Genjigodx"] = {
+				[57724] = {
+					55.0229999999997, -- [1]
+					55.0229999999997, -- [2]
+					["source"] = "Genjigodx",
+					["active"] = false,
+				},
+			},
+			["Nightrecluse-Ravenholdt"] = {
+				[34914] = {
+					55.0229999999997, -- [1]
+					55.0229999999997, -- [2]
+					["source"] = "Annoint",
+					["active"] = false,
+				},
+			},
+			["Onyxstrasza"] = {
+				[167615] = {
+					55.0229999999997, -- [1]
+					55.0229999999997, -- [2]
+					["source"] = "Rukhmar",
+					["active"] = false,
+				},
+			},
+			["Sillyolebear-Gnomeregan"] = {
+				[210279] = {
+					0.1, -- [1]
+					19.181, -- [2]
+					20.123, -- [3]
+					55.0229999999997, -- [4]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+			},
+			["Adelody-Daggerspine"] = {
+				[172184] = {
+					55.0229999999997, -- [1]
+					["source"] = "Archmage Nakada",
+					["active"] = true,
+				},
+			},
 			["Cybertrax"] = {
 				[57724] = {
 					55.0229999999997, -- [1]
 					["source"] = "Cybertrax",
+					["active"] = true,
+				},
+			},
+			["Deathtrash-Lightbringer"] = {
+				[210279] = {
+					0.1, -- [1]
+					19.181, -- [2]
+					20.123, -- [3]
+					55.0229999999997, -- [4]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+			},
+			["Imugl-Stormreaver"] = {
+				[25771] = {
+					55.0229999999997, -- [1]
+					["source"] = "Pãntss",
 					["active"] = true,
 				},
 			},
@@ -382,14 +399,17 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Deathtrash-Lightbringer"] = {
-				[210279] = {
-					0.1, -- [1]
-					19.181, -- [2]
-					20.123, -- [3]
-					55.0229999999997, -- [4]
-					["source"] = "Cenarius",
+			["Cheval"] = {
+				[223203] = {
+					55.0229999999997, -- [1]
+					55.0229999999997, -- [2]
+					["source"] = "Cheval",
 					["active"] = false,
+				},
+				[223202] = {
+					55.0229999999997, -- [1]
+					["source"] = "Cheval",
+					["active"] = true,
 				},
 			},
 			["Vardis"] = {
@@ -721,6 +741,70 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Auroramage-Darkspear"] = {
+				[203125] = {
+					21.3520000000003, -- [1]
+					23.5750000000003, -- [2]
+					["source"] = "Emeriss",
+					["active"] = false,
+				},
+				[203121] = {
+					1.82000000000016, -- [1]
+					7.7170000000001, -- [2]
+					36.027, -- [3]
+					41.6260000000002, -- [4]
+					["source"] = "Taerar",
+					["active"] = false,
+				},
+				[203102] = {
+					1.80000000000018, -- [1]
+					41.6260000000002, -- [2]
+					["source"] = "Ysondre",
+					["active"] = false,
+				},
+			},
+			["Mavehawk-Bronzebeard"] = {
+				[203125] = {
+					21.3520000000003, -- [1]
+					23.5750000000003, -- [2]
+					["source"] = "Emeriss",
+					["active"] = false,
+				},
+				[203121] = {
+					1.82000000000016, -- [1]
+					7.7170000000001, -- [2]
+					36.027, -- [3]
+					41.6260000000002, -- [4]
+					["source"] = "Taerar",
+					["active"] = false,
+				},
+				[203102] = {
+					1.80000000000018, -- [1]
+					41.6260000000002, -- [2]
+					["source"] = "Ysondre",
+					["active"] = false,
+				},
+			},
+			["Shyvandre-EmeraldDream"] = {
+				[203125] = {
+					21.3520000000003, -- [1]
+					23.5750000000003, -- [2]
+					["source"] = "Emeriss",
+					["active"] = false,
+				},
+				[203121] = {
+					1.82000000000016, -- [1]
+					7.7170000000001, -- [2]
+					["source"] = "Taerar",
+					["active"] = false,
+				},
+				[203102] = {
+					1.80000000000018, -- [1]
+					41.6260000000002, -- [2]
+					["source"] = "Ysondre",
+					["active"] = false,
+				},
+			},
 			["Éboro-Goldrinn"] = {
 				[203125] = {
 					21.3520000000003, -- [1]
@@ -774,70 +858,6 @@ DetailsTimeLineDB = {
 					22.9370000000004, -- [1]
 					28.1930000000002, -- [2]
 					["source"] = "Defiled Druid Spirit",
-					["active"] = false,
-				},
-			},
-			["Shyvandre-EmeraldDream"] = {
-				[203125] = {
-					21.3520000000003, -- [1]
-					23.5750000000003, -- [2]
-					["source"] = "Emeriss",
-					["active"] = false,
-				},
-				[203121] = {
-					1.82000000000016, -- [1]
-					7.7170000000001, -- [2]
-					["source"] = "Taerar",
-					["active"] = false,
-				},
-				[203102] = {
-					1.80000000000018, -- [1]
-					41.6260000000002, -- [2]
-					["source"] = "Ysondre",
-					["active"] = false,
-				},
-			},
-			["Auroramage-Darkspear"] = {
-				[203125] = {
-					21.3520000000003, -- [1]
-					23.5750000000003, -- [2]
-					["source"] = "Emeriss",
-					["active"] = false,
-				},
-				[203121] = {
-					1.82000000000016, -- [1]
-					7.7170000000001, -- [2]
-					36.027, -- [3]
-					41.6260000000002, -- [4]
-					["source"] = "Taerar",
-					["active"] = false,
-				},
-				[203102] = {
-					1.80000000000018, -- [1]
-					41.6260000000002, -- [2]
-					["source"] = "Ysondre",
-					["active"] = false,
-				},
-			},
-			["Mavehawk-Bronzebeard"] = {
-				[203125] = {
-					21.3520000000003, -- [1]
-					23.5750000000003, -- [2]
-					["source"] = "Emeriss",
-					["active"] = false,
-				},
-				[203121] = {
-					1.82000000000016, -- [1]
-					7.7170000000001, -- [2]
-					36.027, -- [3]
-					41.6260000000002, -- [4]
-					["source"] = "Taerar",
-					["active"] = false,
-				},
-				[203102] = {
-					1.80000000000018, -- [1]
-					41.6260000000002, -- [2]
-					["source"] = "Ysondre",
 					["active"] = false,
 				},
 			},
@@ -961,9 +981,9 @@ DetailsTimeLineDB = {
 			},
 		}, -- [2]
 		{
-			["Dinker-WyrmrestAccord"] = {
+			["Elshari-Boulderfist"] = {
 				[198108] = {
-					25.8339999999998, -- [1]
+					25.3219999999997, -- [1]
 					53.6189999999997, -- [2]
 					["source"] = "Ursoc",
 					["active"] = false,
@@ -1005,9 +1025,9 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Mavehawk-Bronzebeard"] = {
+			["Zerotome-Velen"] = {
 				[198108] = {
-					25.3219999999997, -- [1]
+					25.239, -- [1]
 					53.6189999999997, -- [2]
 					["source"] = "Ursoc",
 					["active"] = false,
@@ -1029,7 +1049,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Elshari-Boulderfist"] = {
+			["Mavehawk-Bronzebeard"] = {
 				[198108] = {
 					25.3219999999997, -- [1]
 					53.6189999999997, -- [2]
@@ -1037,17 +1057,17 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Éboro-Goldrinn"] = {
+			["Chiela-Aman'Thul"] = {
 				[198108] = {
-					24.6799999999998, -- [1]
+					25.2129999999997, -- [1]
 					53.6189999999997, -- [2]
 					["source"] = "Ursoc",
 					["active"] = false,
 				},
 			},
-			["Zerotome-Velen"] = {
+			["Dinker-WyrmrestAccord"] = {
 				[198108] = {
-					25.239, -- [1]
+					25.8339999999998, -- [1]
 					53.6189999999997, -- [2]
 					["source"] = "Ursoc",
 					["active"] = false,
@@ -1077,9 +1097,9 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Chiela-Aman'Thul"] = {
+			["Éboro-Goldrinn"] = {
 				[198108] = {
-					25.2129999999997, -- [1]
+					24.6799999999998, -- [1]
 					53.6189999999997, -- [2]
 					["source"] = "Ursoc",
 					["active"] = false,
@@ -1162,7 +1182,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Shyvandre-EmeraldDream"] = {
@@ -1263,30 +1282,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "22:49:23",
-			["date_start"] = "22:48:28",
-			["name"] = "Cenarius",
-			["total_time"] = 55.0229999999997,
-		}, -- [1]
-		{
-			["date_end"] = "22:46:35",
-			["date_start"] = "22:45:53",
-			["name"] = "Dragons of Nightmare",
-			["total_time"] = 41.6260000000002,
-		}, -- [2]
-		{
-			["date_end"] = "22:42:52",
-			["date_start"] = "22:41:58",
-			["name"] = "Ursoc",
-			["total_time"] = 53.6189999999997,
-		}, -- [3]
-		{
-			["date_end"] = "12:03:31",
-			["date_start"] = "12:02:09",
-			["name"] = "Dargrul the Underking",
-			["total_time"] = 82.1760000000004,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }
