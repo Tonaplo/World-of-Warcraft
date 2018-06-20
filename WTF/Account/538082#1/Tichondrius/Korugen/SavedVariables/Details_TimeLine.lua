@@ -3,34 +3,34 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_start"] = "12:48:47",
-			["date_end"] = "12:50:27",
-			["name"] = "Princess Theradras",
-			["total_time"] = 100.018,
+			["date_end"] = "12:55:10",
+			["date_start"] = "12:54:11",
+			["name"] = "Chalgra Razorflank",
+			["total_time"] = 59,
 		}, -- [1]
 		{
-			["date_start"] = "12:43:26",
-			["date_end"] = "12:44:46",
-			["name"] = "Landslide",
-			["total_time"] = 80.0719999999999,
+			["date_end"] = "12:53:03",
+			["date_start"] = "12:51:58",
+			["name"] = "Groyat, the Blind Hunter",
+			["total_time"] = 65,
 		}, -- [2]
 		{
-			["date_end"] = "23:32:59",
-			["date_start"] = "23:31:35",
-			["name"] = "High Inquisitor Whitemane",
-			["total_time"] = 84.0039999999999,
+			["date_end"] = "12:49:27",
+			["date_start"] = "12:48:47",
+			["name"] = "Warlord Ramtusk",
+			["total_time"] = 40.0010000000038,
 		}, -- [3]
 		{
-			["date_end"] = "23:30:16",
-			["date_start"] = "23:29:31",
-			["name"] = "Brother Korloff",
-			["total_time"] = 45.0010000000002,
+			["date_end"] = "12:47:54",
+			["date_start"] = "12:46:55",
+			["name"] = "Hunter Bonetusk",
+			["total_time"] = 59.0040000000008,
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{
@@ -42,143 +42,122 @@ DetailsTimeLineDB = {
 	},
 	["debuff_timeline"] = {
 		{
-			["Dreamdruid-Ysera"] = {
-				[22592] = {
-					12.7640000000001, -- [1]
-					14.7730000000001, -- [2]
-					22.4589999999998, -- [3]
-					24.4490000000001, -- [4]
-					37.0210000000002, -- [5]
-					39.0169999999998, -- [6]
-					45.5160000000001, -- [7]
-					47.538, -- [8]
-					["source"] = "Princess Theradras",
+			["Parasiite"] = {
+				[89798] = {
+					59, -- [1]
+					["source"] = "Lord Victor Nefarius",
+					["active"] = true,
+				},
+			},
+			["Maldito-Antonidas"] = {
+				[151583] = {
+					11.2749999999942, -- [1]
+					14.525999999998, -- [2]
+					27.0460000000021, -- [3]
+					32.4119999999966, -- [4]
+					["source"] = "Charlga Razorflank",
 					["active"] = false,
 				},
 			},
 			["Korugen"] = {
-				[21869] = {
-					16.8110000000002, -- [1]
-					22.8160000000003, -- [2]
-					58.5909999999999, -- [3]
-					64.605, -- [4]
-					["source"] = "Princess Theradras",
-					["active"] = false,
-				},
-				[22592] = {
-					84.3400000000002, -- [1]
-					86.339, -- [2]
-					["source"] = "Princess Theradras",
-					["active"] = false,
-				},
-			},
-			["Spacelizard-AeriePeak"] = {
-				[22592] = {
-					62.538, -- [1]
-					64.538, -- [2]
-					["source"] = "Princess Theradras",
+				[151583] = {
+					42.8300000000017, -- [1]
+					43.8680000000022, -- [2]
+					["source"] = "Charlga Razorflank",
 					["active"] = false,
 				},
 			},
 		}, -- [1]
 		{
-			["Vannaina-Alexstrasza"] = {
-				[21808] = {
-					14.328, -- [1]
-					16.749, -- [2]
-					51.8789999999999, -- [3]
-					59.877, -- [4]
-					["source"] = "Landslide",
+			["Freshtea-Illidan"] = {
+				[152748] = {
+					13.3929999999964, -- [1]
+					21.55799999999, -- [2]
+					35.2359999999899, -- [3]
+					37.2919999999867, -- [4]
+					["source"] = "Groyat, the Blind Hunter",
 					["active"] = false,
 				},
 			},
-			["Vacio-Ghostlands"] = {
-				[21808] = {
-					14.328, -- [1]
-					22.2940000000001, -- [2]
-					51.8789999999999, -- [3]
-					59.877, -- [4]
-					["source"] = "Landslide",
+			["Laibialicker-AlteracMountains"] = {
+				[152748] = {
+					13.4029999999912, -- [1]
+					17.7699999999895, -- [2]
+					35.2359999999899, -- [3]
+					36.101999999999, -- [4]
+					57.0489999999991, -- [5]
+					58.2799999999988, -- [6]
+					["source"] = "Groyat, the Blind Hunter",
+					["active"] = false,
+				},
+				[153214] = {
+					23.4389999999985, -- [1]
+					24.0639999999985, -- [2]
+					["source"] = "Groyat, the Blind Hunter",
 					["active"] = false,
 				},
 			},
-			["Dreamdruid-Ysera"] = {
-				[21808] = {
-					14.328, -- [1]
-					22.2940000000001, -- [2]
-					51.8789999999999, -- [3]
-					59.877, -- [4]
-					["source"] = "Landslide",
+			["Maldito-Antonidas"] = {
+				[152748] = {
+					13.3799999999901, -- [1]
+					13.4339999999938, -- [2]
+					35.2359999999899, -- [3]
+					38.3909999999887, -- [4]
+					38.9779999999882, -- [5]
+					45.2239999999874, -- [6]
+					["source"] = "Groyat, the Blind Hunter",
 					["active"] = false,
 				},
-			},
-			["Spacelizard-AeriePeak"] = {
-				[21808] = {
-					14.328, -- [1]
-					22.2940000000001, -- [2]
-					51.8789999999999, -- [3]
-					59.877, -- [4]
-					["source"] = "Landslide",
+				[153214] = {
+					25.4439999999886, -- [1]
+					26.1589999999997, -- [2]
+					47.2639999999956, -- [3]
+					47.3199999999924, -- [4]
+					48.6169999999984, -- [5]
+					48.6989999999933, -- [6]
+					["source"] = "Groyat, the Blind Hunter",
 					["active"] = false,
 				},
 			},
 			["Korugen"] = {
-				[21808] = {
-					14.328, -- [1]
-					22.2940000000001, -- [2]
-					51.8789999999999, -- [3]
-					59.877, -- [4]
-					["source"] = "Landslide",
+				[151475] = {
+					5.00199999999313, -- [1]
+					8.97299999999814, -- [2]
+					15.9129999999859, -- [3]
+					18.2599999999948, -- [4]
+					26.8389999999927, -- [5]
+					28.9689999999973, -- [6]
+					37.7339999999967, -- [7]
+					41.778999999995, -- [8]
+					51.0869999999995, -- [9]
+					52.5899999999965, -- [10]
+					62.0049999999901, -- [11]
+					64.6609999999928, -- [12]
+					["source"] = "Groyat, the Blind Hunter",
+					["active"] = false,
+				},
+				[152748] = {
+					57.0489999999991, -- [1]
+					58.7379999999976, -- [2]
+					["source"] = "Groyat, the Blind Hunter",
+					["active"] = false,
+				},
+			},
+			["Lú-WyrmrestAccord"] = {
+				[153214] = {
+					44.8229999999894, -- [1]
+					45.4419999999955, -- [2]
+					["source"] = "Groyat, the Blind Hunter",
 					["active"] = false,
 				},
 			},
 		}, -- [2]
 		{
-			["Zånza-Ragnaros"] = {
-				[9256] = {
-					40.0099999999993, -- [1]
-					50.0249999999996, -- [2]
-					["source"] = "High Inquisitor Whitemane",
-					["active"] = false,
-				},
-			},
-			["Notadoctor-MoonGuard"] = {
-				[9256] = {
-					40.0099999999993, -- [1]
-					50.0249999999996, -- [2]
-					["source"] = "High Inquisitor Whitemane",
-					["active"] = false,
-				},
-			},
-			["Voidgøddess-Wildhammer"] = {
-				[9256] = {
-					40.0099999999993, -- [1]
-					50.0249999999996, -- [2]
-					["source"] = "High Inquisitor Whitemane",
-					["active"] = false,
-				},
-			},
-			["Korugen"] = {
-				[9256] = {
-					40.0099999999993, -- [1]
-					50.0249999999996, -- [2]
-					["source"] = "High Inquisitor Whitemane",
-					["active"] = false,
-				},
-				[111107] = {
-					46.0839999999998, -- [1]
-					47.5949999999993, -- [2]
-					66.6899999999996, -- [3]
-					68.2039999999997, -- [4]
-					["source"] = "Scarlet Judicator",
-					["active"] = false,
-				},
-			},
-			["Ninar-Malygos"] = {
-				[9256] = {
-					40.0099999999993, -- [1]
-					50.0249999999996, -- [2]
-					["source"] = "High Inquisitor Whitemane",
+			["Laibialicker-AlteracMountains"] = {
+				[151218] = {
+					25.0099999999948, -- [1]
+					34.0179999999964, -- [2]
+					["source"] = "Death Speaker Jargba",
 					["active"] = false,
 				},
 			},
@@ -192,7 +171,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{

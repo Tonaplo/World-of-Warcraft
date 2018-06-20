@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "12:50:27",
 			["date_start"] = "12:48:47",
+			["date_end"] = "12:50:27",
 			["name"] = "Princess Theradras",
 			["total_time"] = 100.018,
 		}, -- [1]
 		{
-			["date_end"] = "12:44:46",
 			["date_start"] = "12:43:26",
+			["date_end"] = "12:44:46",
 			["name"] = "Landslide",
 			["total_time"] = 80.0719999999999,
 		}, -- [2]
 		{
-			["date_start"] = "23:31:35",
 			["date_end"] = "23:32:59",
+			["date_start"] = "23:31:35",
 			["name"] = "High Inquisitor Whitemane",
 			["total_time"] = 84.0039999999999,
 		}, -- [3]
 		{
-			["date_start"] = "23:29:31",
 			["date_end"] = "23:30:16",
+			["date_start"] = "23:29:31",
 			["name"] = "Brother Korloff",
 			["total_time"] = 45.0010000000002,
 		}, -- [4]
@@ -30,7 +30,7 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
@@ -92,7 +92,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Spacelizard-AeriePeak"] = {
+			["Vacio-Ghostlands"] = {
 				[21808] = {
 					14.328, -- [1]
 					22.2940000000001, -- [2]
@@ -112,7 +112,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Korugen"] = {
+			["Spacelizard-AeriePeak"] = {
 				[21808] = {
 					14.328, -- [1]
 					22.2940000000001, -- [2]
@@ -122,7 +122,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Vacio-Ghostlands"] = {
+			["Korugen"] = {
 				[21808] = {
 					14.328, -- [1]
 					22.2940000000001, -- [2]
@@ -192,7 +192,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{

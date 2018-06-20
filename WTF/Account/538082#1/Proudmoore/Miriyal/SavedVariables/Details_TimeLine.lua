@@ -1,331 +1,7 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "20:17:28",
-			["date_start"] = "20:15:27",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 120.276000000005,
-		}, -- [1]
-		{
-			["date_end"] = "20:12:40",
-			["date_start"] = "20:11:17",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 83.0250000000015,
-		}, -- [2]
-		{
-			["date_end"] = "20:10:41",
-			["date_start"] = "20:10:23",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 18.0270000000019,
-		}, -- [3]
-		{
-			["date_end"] = "20:00:54",
-			["date_start"] = "19:59:46",
-			["name"] = "Patrol Captain Gerdo",
-			["total_time"] = 67.5760000000009,
-		}, -- [4]
-	},
+	["window_scale"] = 1,
 	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-			["Miriyal"] = {
-				{
-					48.5120000000024, -- [1]
-					"Miriyal", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Reportmepls-Tichondrius"] = {
-				{
-					72.5840000000026, -- [1]
-					"Reportmepls-Tichondrius", -- [2]
-					108416, -- [3]
-				}, -- [1]
-				{
-					96.9290000000037, -- [1]
-					"Reportmepls-Tichondrius", -- [2]
-					104773, -- [3]
-				}, -- [2]
-			},
-			["Kalithumos-Tichondrius"] = {
-				{
-					72.7839999999997, -- [1]
-					"Miriyal", -- [2]
-					1022, -- [3]
-				}, -- [1]
-			},
-			["Kaligon-Tichondrius"] = {
-				{
-					97.060000000005, -- [1]
-					"Kaligon-Tichondrius", -- [2]
-					45438, -- [3]
-				}, -- [1]
-			},
-			["Caillis-Tichondrius"] = {
-				{
-					27.5650000000023, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [1]
-				{
-					52.3669999999984, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [2]
-				{
-					74.3510000000024, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					31224, -- [3]
-				}, -- [3]
-				{
-					94.1490000000049, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [4]
-				{
-					97.2940000000017, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [5]
-			},
-		}, -- [1]
-		{
-			["Miriyal"] = {
-				{
-					1.72800000000279, -- [1]
-					"Miriyal", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Reportmepls-Tichondrius"] = {
-				{
-					74.6909999999989, -- [1]
-					"Reportmepls-Tichondrius", -- [2]
-					108416, -- [3]
-				}, -- [1]
-				{
-					74.7079999999987, -- [1]
-					"Reportmepls-Tichondrius", -- [2]
-					104773, -- [3]
-				}, -- [2]
-			},
-			["Caillis-Tichondrius"] = {
-				{
-					39.75, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					31224, -- [3]
-				}, -- [1]
-				{
-					73.2079999999987, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [2]
-			},
-			["Kalithumos-Tichondrius"] = {
-				{
-					33.6480000000011, -- [1]
-					"Reportmepls-Tichondrius", -- [2]
-					633, -- [3]
-				}, -- [1]
-				{
-					37.0319999999992, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					31850, -- [3]
-				}, -- [2]
-				{
-					51.1719999999987, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					86659, -- [3]
-				}, -- [3]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Miriyal"] = {
-				{
-					1.10700000000361, -- [1]
-					"Miriyal", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Kalithumos-Tichondrius"] = {
-				{
-					26.9340000000011, -- [1]
-					"Miriyal", -- [2]
-					633, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["debuff_timeline"] = {
-		{
-			["Miriyal"] = {
-				[224333] = {
-					118.668000000005, -- [1]
-					120.276000000005, -- [2]
-					["source"] = "[*] Enveloping Winds",
-					["active"] = false,
-				},
-			},
-			["Caillis-Tichondrius"] = {
-				[224333] = {
-					106.580000000002, -- [1]
-					107.552000000003, -- [2]
-					110.753000000004, -- [3]
-					114.745999999999, -- [4]
-					["source"] = "[*] Enveloping Winds",
-					["active"] = false,
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				[224333] = {
-					28.8020000000033, -- [1]
-					30.6359999999986, -- [2]
-					116.606, -- [3]
-					120.276000000005, -- [4]
-					["source"] = "[*] Enveloping Winds",
-					["active"] = false,
-				},
-			},
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			["Miriyal"] = {
-				[208165] = {
-					14.948000000004, -- [1]
-					17.9639999999999, -- [2]
-					["source"] = "Talixae Flamewreath",
-					["active"] = false,
-				},
-				[211391] = {
-					4.7760000000053, -- [1]
-					4.95300000000134, -- [2]
-					5.58200000000215, -- [3]
-					5.84900000000198, -- [4]
-					6.64199999999983, -- [5]
-					6.75900000000547, -- [6]
-					15.9550000000017, -- [7]
-					17.9639999999999, -- [8]
-					["source"] = "Legion Hound",
-					["active"] = false,
-				},
-				[209413] = {
-					17.596000000005, -- [1]
-					17.9639999999999, -- [2]
-					["source"] = "Guardian Construct",
-					["active"] = false,
-				},
-			},
-			["Reportmepls-Tichondrius"] = {
-				[211391] = {
-					13.8510000000024, -- [1]
-					16.6030000000028, -- [2]
-					["source"] = "Legion Hound",
-					["active"] = false,
-				},
-				[208165] = {
-					14.948000000004, -- [1]
-					16.6030000000028, -- [2]
-					["source"] = "Talixae Flamewreath",
-					["active"] = false,
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				[211391] = {
-					3.76100000000588, -- [1]
-					4.10300000000279, -- [2]
-					["source"] = "Legion Hound",
-					["active"] = false,
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				[211391] = {
-					13.8670000000056, -- [1]
-					16.3320000000022, -- [2]
-					["source"] = "Legion Hound",
-					["active"] = false,
-				},
-				[208165] = {
-					14.948000000004, -- [1]
-					16.4520000000048, -- [2]
-					["source"] = "Talixae Flamewreath",
-					["active"] = false,
-				},
-			},
-			["Caillis-Tichondrius"] = {
-				[211391] = {
-					13.8510000000024, -- [1]
-					17.9190000000017, -- [2]
-					["source"] = "Legion Hound",
-					["active"] = false,
-				},
-				[208165] = {
-					14.948000000004, -- [1]
-					17.9190000000017, -- [2]
-					["source"] = "Talixae Flamewreath",
-					["active"] = false,
-				},
-			},
-		}, -- [3]
-		{
-			["Miriyal"] = {
-				[207278] = {
-					18.6070000000036, -- [1]
-					24.3700000000026, -- [2]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-			["Reportmepls-Tichondrius"] = {
-				[207278] = {
-					18.6070000000036, -- [1]
-					21.7040000000052, -- [2]
-					46.5260000000053, -- [3]
-					54.4020000000019, -- [4]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				[207278] = {
-					18.6070000000036, -- [1]
-					21.2360000000044, -- [2]
-					46.5260000000053, -- [3]
-					49.8660000000018, -- [4]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				[207278] = {
-					46.5260000000053, -- [1]
-					46.7410000000018, -- [2]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-			["Caillis-Tichondrius"] = {
-				[207278] = {
-					18.6070000000036, -- [1]
-					24.0790000000052, -- [2]
-					46.5260000000053, -- [3]
-					50.9279999999999, -- [4]
-					["source"] = "Patrol Captain Gerdo",
-					["active"] = false,
-				},
-			},
-		}, -- [4]
-	},
 	["deaths_data"] = {
 		{
 			["Caillis-Tichondrius"] = {
@@ -699,5 +375,329 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
+	["combat_data"] = {
+		{
+			["date_start"] = "20:15:27",
+			["date_end"] = "20:17:28",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 120.276000000005,
+		}, -- [1]
+		{
+			["date_start"] = "20:11:17",
+			["date_end"] = "20:12:40",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 83.0250000000015,
+		}, -- [2]
+		{
+			["date_start"] = "20:10:23",
+			["date_end"] = "20:10:41",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 18.0270000000019,
+		}, -- [3]
+		{
+			["date_start"] = "19:59:46",
+			["date_end"] = "20:00:54",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 67.5760000000009,
+		}, -- [4]
+	},
+	["debuff_timeline"] = {
+		{
+			["Miriyal"] = {
+				[224333] = {
+					118.668000000005, -- [1]
+					120.276000000005, -- [2]
+					["source"] = "[*] Enveloping Winds",
+					["active"] = false,
+				},
+			},
+			["Caillis-Tichondrius"] = {
+				[224333] = {
+					106.580000000002, -- [1]
+					107.552000000003, -- [2]
+					110.753000000004, -- [3]
+					114.745999999999, -- [4]
+					["source"] = "[*] Enveloping Winds",
+					["active"] = false,
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				[224333] = {
+					28.8020000000033, -- [1]
+					30.6359999999986, -- [2]
+					116.606, -- [3]
+					120.276000000005, -- [4]
+					["source"] = "[*] Enveloping Winds",
+					["active"] = false,
+				},
+			},
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			["Miriyal"] = {
+				[208165] = {
+					14.948000000004, -- [1]
+					17.9639999999999, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+				[211391] = {
+					4.7760000000053, -- [1]
+					4.95300000000134, -- [2]
+					5.58200000000215, -- [3]
+					5.84900000000198, -- [4]
+					6.64199999999983, -- [5]
+					6.75900000000547, -- [6]
+					15.9550000000017, -- [7]
+					17.9639999999999, -- [8]
+					["source"] = "Legion Hound",
+					["active"] = false,
+				},
+				[209413] = {
+					17.596000000005, -- [1]
+					17.9639999999999, -- [2]
+					["source"] = "Guardian Construct",
+					["active"] = false,
+				},
+			},
+			["Reportmepls-Tichondrius"] = {
+				[211391] = {
+					13.8510000000024, -- [1]
+					16.6030000000028, -- [2]
+					["source"] = "Legion Hound",
+					["active"] = false,
+				},
+				[208165] = {
+					14.948000000004, -- [1]
+					16.6030000000028, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				[211391] = {
+					3.76100000000588, -- [1]
+					4.10300000000279, -- [2]
+					["source"] = "Legion Hound",
+					["active"] = false,
+				},
+			},
+			["Kaligon-Tichondrius"] = {
+				[211391] = {
+					13.8670000000056, -- [1]
+					16.3320000000022, -- [2]
+					["source"] = "Legion Hound",
+					["active"] = false,
+				},
+				[208165] = {
+					14.948000000004, -- [1]
+					16.4520000000048, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
+			["Caillis-Tichondrius"] = {
+				[211391] = {
+					13.8510000000024, -- [1]
+					17.9190000000017, -- [2]
+					["source"] = "Legion Hound",
+					["active"] = false,
+				},
+				[208165] = {
+					14.948000000004, -- [1]
+					17.9190000000017, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
+		}, -- [3]
+		{
+			["Miriyal"] = {
+				[207278] = {
+					18.6070000000036, -- [1]
+					24.3700000000026, -- [2]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Reportmepls-Tichondrius"] = {
+				[207278] = {
+					18.6070000000036, -- [1]
+					21.7040000000052, -- [2]
+					46.5260000000053, -- [3]
+					54.4020000000019, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				[207278] = {
+					18.6070000000036, -- [1]
+					21.2360000000044, -- [2]
+					46.5260000000053, -- [3]
+					49.8660000000018, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Kaligon-Tichondrius"] = {
+				[207278] = {
+					46.5260000000053, -- [1]
+					46.7410000000018, -- [2]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Caillis-Tichondrius"] = {
+				[207278] = {
+					18.6070000000036, -- [1]
+					24.0790000000052, -- [2]
+					46.5260000000053, -- [3]
+					50.9279999999999, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+			["Miriyal"] = {
+				{
+					48.5120000000024, -- [1]
+					"Miriyal", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Reportmepls-Tichondrius"] = {
+				{
+					72.5840000000026, -- [1]
+					"Reportmepls-Tichondrius", -- [2]
+					108416, -- [3]
+				}, -- [1]
+				{
+					96.9290000000037, -- [1]
+					"Reportmepls-Tichondrius", -- [2]
+					104773, -- [3]
+				}, -- [2]
+			},
+			["Kalithumos-Tichondrius"] = {
+				{
+					72.7839999999997, -- [1]
+					"Miriyal", -- [2]
+					1022, -- [3]
+				}, -- [1]
+			},
+			["Kaligon-Tichondrius"] = {
+				{
+					97.060000000005, -- [1]
+					"Kaligon-Tichondrius", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+			["Caillis-Tichondrius"] = {
+				{
+					27.5650000000023, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [1]
+				{
+					52.3669999999984, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [2]
+				{
+					74.3510000000024, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					31224, -- [3]
+				}, -- [3]
+				{
+					94.1490000000049, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [4]
+				{
+					97.2940000000017, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [5]
+			},
+		}, -- [1]
+		{
+			["Miriyal"] = {
+				{
+					1.72800000000279, -- [1]
+					"Miriyal", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Reportmepls-Tichondrius"] = {
+				{
+					74.6909999999989, -- [1]
+					"Reportmepls-Tichondrius", -- [2]
+					108416, -- [3]
+				}, -- [1]
+				{
+					74.7079999999987, -- [1]
+					"Reportmepls-Tichondrius", -- [2]
+					104773, -- [3]
+				}, -- [2]
+			},
+			["Caillis-Tichondrius"] = {
+				{
+					39.75, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					31224, -- [3]
+				}, -- [1]
+				{
+					73.2079999999987, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [2]
+			},
+			["Kalithumos-Tichondrius"] = {
+				{
+					33.6480000000011, -- [1]
+					"Reportmepls-Tichondrius", -- [2]
+					633, -- [3]
+				}, -- [1]
+				{
+					37.0319999999992, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					31850, -- [3]
+				}, -- [2]
+				{
+					51.1719999999987, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					86659, -- [3]
+				}, -- [3]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+			["Miriyal"] = {
+				{
+					1.10700000000361, -- [1]
+					"Miriyal", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Kalithumos-Tichondrius"] = {
+				{
+					26.9340000000011, -- [1]
+					"Miriyal", -- [2]
+					633, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 }

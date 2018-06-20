@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Princess Theradras",
+		}, -- [1]
+		{
+			["boss"] = "Landslide",
+		}, -- [2]
+		{
+			["boss"] = "High Inquisitor Whitemane",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[21062] = {
 			["school"] = 8,
@@ -9,12 +20,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Putridus Shadowstalker",
 		},
-		[21868] = {
+		[8147] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Princess Theradras",
+			["source"] = "Lord Pythas",
 		},
 		[93527] = {
 			["school"] = 16,
@@ -64,14 +78,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrosive Lurker",
 		},
-		[21869] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[12167] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Princess Theradras",
+			["source"] = "Lord Serpentis",
 		},
 		[9080] = {
 			["school"] = 1,
@@ -92,22 +106,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deviate Crocolisk",
 		},
-		[21909] = {
-			["school"] = 8,
+		[114460] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Princess Theradras",
 		},
-		[22592] = {
+		[109085] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Princess Theradras",
+			["source"] = "Unknown",
 		},
 		[1604] = {
 			["school"] = 1,
@@ -117,20 +129,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corruptor",
 		},
-		[3391] = {
+		[86736] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Princess Theradras",
+			["source"] = "Hogger",
 		},
-		[13584] = {
+		[114807] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Theradrim Shardling",
+			["source"] = "Brother Korloff",
 		},
 		[114848] = {
 			["school"] = 2,
@@ -160,16 +175,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mekgineer Thermaplugg",
 		},
-		[21067] = {
-			["school"] = 8,
+		[115157] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Poison Sprite",
+			["source"] = "Unknown",
 		},
 		[11504] = {
 			["school"] = 4,
@@ -178,38 +191,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Walking Bomb",
 		},
-		[10348] = {
+		[114410] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Leprous Technician",
+			["source"] = "Brother Korloff",
 		},
-		[93687] = {
+		[21868] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Princess Theradras",
+		},
+		[15976] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Razorlash",
+		},
+		[93952] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Commander Springvale",
-		},
-		[109085] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Unknown",
-		},
-		[110762] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Landslide",
+			["source"] = "Odo the Blindwatcher",
 		},
 		[86726] = {
 			["school"] = 1,
@@ -229,14 +241,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Evicted Soul",
 		},
-		[21337] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[10966] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Deeprot Tangler",
+			["source"] = "Noxxion",
 		},
 		[7947] = {
 			["school"] = 8,
@@ -248,21 +259,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deviate Viper",
 		},
-		[21968] = {
-			["school"] = 8,
+		[93931] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Celebras the Cursed",
+			["source"] = "Odo the Blindwatcher",
 		},
-		[21807] = {
+		[93697] = {
 			["school"] = 8,
 			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Celebras the Cursed",
+			["source"] = "Lord Walden",
 		},
 		[93505] = {
 			["school"] = 16,
@@ -282,14 +296,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bloodfang Berserker",
 		},
-		[21390] = {
-			["school"] = 64,
+		[6254] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Vyletongue",
+			["source"] = "Skum",
 		},
 		[9232] = {
 			["school"] = 1,
@@ -300,14 +314,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "High Inquisitor Whitemane",
 		},
-		[80362] = {
+		[93675] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kresh",
+			["source"] = "Lord Godfrey",
 		},
 		[7951] = {
 			["school"] = 8,
@@ -318,24 +333,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deviate Venomwing",
 		},
-		[744] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[21390] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Deviate Adder",
+			["source"] = "Lord Vyletongue",
 		},
-		[7964] = {
+		[74720] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lord Vyletongue",
+			["source"] = "Mekgineer Thermaplugg",
 		},
 		[110968] = {
 			["school"] = 4,
@@ -359,16 +374,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Randolph Moloch",
 		},
-		[21687] = {
-			["school"] = 8,
+		[86633] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Viscous Fallout",
+			["source"] = "Lord Overheat",
 		},
 		[21910] = {
 			["school"] = 4,
@@ -386,32 +402,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tinkerer Gizlock",
 		},
-		[127399] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[110762] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "High Inquisitor Whitemane",
+			["source"] = "Landslide",
 		},
-		[20295] = {
+		[20805] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lady Anacondra",
+			["source"] = "Lord Pythas",
 		},
-		[15976] = {
+		[3391] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Razorlash",
+			["source"] = "Princess Theradras",
 		},
 		[115739] = {
 			["school"] = 1,
@@ -429,12 +442,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Anacondra",
 		},
-		[12747] = {
-			["school"] = 8,
+		[86636] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Celebras the Cursed",
+			["source"] = "Lord Overheat",
 		},
 		[29419] = {
 			["school"] = 1,
@@ -445,13 +462,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tinkerer Gizlock",
 		},
-		[7485] = {
-			["school"] = 32,
+		[115629] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Razorclaw the Butcher",
+			["source"] = "Commander Durand",
 		},
 		[8150] = {
 			["school"] = 8,
@@ -463,41 +479,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mutanus the Devourer",
 		},
-		[93468] = {
-			["school"] = 2,
+		[8142] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Baron Ashbury",
+			["source"] = "Verdan the Everliving",
 		},
-		[93697] = {
+		[21807] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Walden",
+			["source"] = "Celebras the Cursed",
 		},
-		[93685] = {
-			["school"] = 1,
+		[11082] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Commander Springvale",
+			["source"] = "Electrocutioner 6000",
 		},
-		[93423] = {
+		[7967] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Baron Ashbury",
+			["source"] = "Mutanus the Devourer",
 		},
 		[9256] = {
 			["school"] = 32,
@@ -508,51 +527,50 @@ EncounterDetailsDB = {
 			},
 			["source"] = "High Inquisitor Whitemane",
 		},
-		[91677] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Pustulant Monstrosity",
-		},
-		[7399] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Mutanus the Devourer",
-		},
-		[86633] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Lord Overheat",
-		},
-		[20805] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lord Pythas",
-		},
-		[56646] = {
+		[111107] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Scarlet Judicator",
+		},
+		[9143] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tinkerer Gizlock",
+		},
+		[20295] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lady Anacondra",
+		},
+		[7964] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lord Vyletongue",
+		},
+		[21833] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Enraged Fire Elemental",
+			["source"] = "Tinkerer Gizlock",
 		},
 		[7965] = {
 			["school"] = 1,
@@ -573,15 +591,8 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baron Silverlaine",
 		},
-		[115629] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Commander Durand",
-		},
-		[8142] = {
-			["school"] = 1,
+		[21067] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
@@ -589,17 +600,23 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Verdan the Everliving",
+			["source"] = "Poison Sprite",
 		},
-		[7967] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[110956] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mutanus the Devourer",
+			["source"] = "Scarlet Fanatic",
+		},
+		[13584] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Theradrim Shardling",
 		},
 		[15744] = {
 			["school"] = 4,
@@ -611,13 +628,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Searing Destroyer",
 		},
-		[93691] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[56646] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Enraged Fire Elemental",
 		},
 		[113764] = {
 			["school"] = 1,
@@ -628,14 +646,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Brother Korloff",
 		},
-		[9143] = {
-			["school"] = 4,
+		[21968] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tinkerer Gizlock",
+			["source"] = "Celebras the Cursed",
 		},
 		[86729] = {
 			["school"] = 1,
@@ -645,14 +661,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Randolph Moloch",
 		},
-		[11431] = {
+		[21337] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Lord Pythas",
+			["source"] = "Deeprot Tangler",
+		},
+		[7399] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mutanus the Devourer",
+		},
+		[93564] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lord Godfrey",
 		},
 		[93857] = {
 			["school"] = 32,
@@ -662,33 +694,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baron Silverlaine",
 		},
-		[8040] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lady Anacondra",
-		},
-		[11085] = {
+		[9532] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Electrocutioner 6000",
-		},
-		[93707] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lord Godfrey",
+			["source"] = "Druid of the Fang",
 		},
 		[13341] = {
 			["school"] = 4,
@@ -715,47 +728,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Durand",
 		},
-		[55964] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Randolph Moloch",
-		},
-		[21655] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lord Vyletongue",
-		},
-		[115392] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Voidgøddess-Wildhammer",
-		},
-		[15087] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Putridus Shadowstalker",
-		},
-		[110963] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Scarlet Purifier",
-		},
 		[115289] = {
 			["school"] = 32,
 			["token"] = {
@@ -763,6 +735,21 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Thalnos the Soulrender",
+		},
+		[111670] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Scarlet Zealot",
+		},
+		[115392] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Voidgøddess-Wildhammer",
 		},
 		[115297] = {
 			["school"] = 32,
@@ -773,6 +760,34 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Thalnos the Soulrender",
+		},
+		[21869] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Princess Theradras",
+		},
+		[8040] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lady Anacondra",
+		},
+		[93707] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lord Godfrey",
 		},
 		[8041] = {
 			["school"] = 8,
@@ -799,15 +814,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Frantic Geist",
 		},
-		[93581] = {
+		[93691] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Baron Ashbury",
 		},
 		[12466] = {
 			["school"] = 4,
@@ -826,13 +839,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corpse Eater",
 		},
-		[111670] = {
-			["school"] = 2,
+		[55964] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Scarlet Zealot",
+			["source"] = "Randolph Moloch",
 		},
 		[5568] = {
 			["school"] = 1,
@@ -842,30 +856,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Landslide",
 		},
-		[9532] = {
-			["school"] = 8,
+		[110963] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Druid of the Fang",
+			["source"] = "Scarlet Purifier",
 		},
-		[115147] = {
+		[15087] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Thalnos the Soulrender",
+			["source"] = "Putridus Shadowstalker",
 		},
-		[93564] = {
-			["school"] = 32,
+		[21655] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lord Godfrey",
+			["source"] = "Lord Vyletongue",
 		},
 		[115139] = {
 			["school"] = 1,
@@ -876,22 +890,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thalnos the Soulrender",
 		},
-		[110956] = {
+		[115147] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Scarlet Fanatic",
-		},
-		[21833] = {
-			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tinkerer Gizlock",
+			["source"] = "Thalnos the Soulrender",
+		},
+		[11431] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Lord Pythas",
 		},
 		[115290] = {
 			["school"] = 32,
@@ -900,14 +915,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thalnos the Soulrender",
 		},
-		[111107] = {
-			["school"] = 1,
+		[93581] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Scarlet Judicator",
+			["source"] = "Baron Ashbury",
 		},
 		[86604] = {
 			["school"] = 1,
@@ -920,14 +936,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hogger",
 		},
-		[11082] = {
+		[21909] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Electrocutioner 6000",
+			["source"] = "Princess Theradras",
 		},
 		[86620] = {
 			["school"] = 1,
@@ -948,16 +964,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Electrocutioner 6000",
 		},
-		[86636] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[11085] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Overheat",
+			["source"] = "Electrocutioner 6000",
 		},
 		[93629] = {
 			["school"] = 32,
@@ -977,34 +991,29 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[74720] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mekgineer Thermaplugg",
-		},
-		[93675] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lord Godfrey",
-		},
-		[6254] = {
+		[91677] = {
 			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Pustulant Monstrosity",
+		},
+		[93468] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Baron Ashbury",
+		},
+		[7485] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Skum",
+			["source"] = "Razorclaw the Butcher",
 		},
 		[38391] = {
 			["school"] = 4,
@@ -1015,29 +1024,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Searing Destroyer",
 		},
-		[93931] = {
+		[93423] = {
 			["school"] = 32,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Odo the Blindwatcher",
+			["source"] = "Baron Ashbury",
 		},
-		[10966] = {
+		[93685] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Noxxion",
+			["source"] = "Commander Springvale",
 		},
-		[93952] = {
-			["school"] = 32,
+		[127399] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Odo the Blindwatcher",
+			["source"] = "High Inquisitor Whitemane",
 		},
 		[21808] = {
 			["school"] = 1,
@@ -1048,41 +1059,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Landslide",
 		},
-		[114410] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[12747] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Brother Korloff",
+			["source"] = "Celebras the Cursed",
 		},
-		[115157] = {
-			["school"] = 1,
+		[744] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Deviate Adder",
 		},
-		[114807] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[21687] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Brother Korloff",
+			["source"] = "Viscous Fallout",
 		},
-		[86736] = {
+		[80362] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Hogger",
+			["source"] = "Kresh",
 		},
 		[52778] = {
 			["school"] = 8,
@@ -1094,42 +1106,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mekgineer Thermaplugg",
 		},
-		[114460] = {
-			["school"] = 4,
+		[93687] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Commander Springvale",
+		},
+		[10348] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[12167] = {
-			["school"] = 8,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Serpentis",
+			["source"] = "Leprous Technician",
 		},
-		[8147] = {
-			["school"] = 8,
+		[22592] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lord Pythas",
+			["source"] = "Princess Theradras",
 		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Princess Theradras",
-		}, -- [1]
-		{
-			["boss"] = "Landslide",
-		}, -- [2]
-		{
-			["boss"] = "High Inquisitor Whitemane",
-		}, -- [3]
 	},
 }
