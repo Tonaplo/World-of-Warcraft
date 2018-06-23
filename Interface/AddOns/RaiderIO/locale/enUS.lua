@@ -8,6 +8,7 @@ L.UNKNOWN_SERVER_FOUND = "|cffFFFFFF%s|r has encountered a new server. Please wr
 L.OUTDATED_DATABASE_S = "|cffFFFFFF%s|r is using data that is |cffFF6666%d|r days old. Please update the addon for more accurate Mythic Plus Scores."
 L.OUTDATED_DATABASE = "Scores are %d Days Old"
 L.OUTDATED_DATABASE_HOURS = "Scores are %d Hours Old"
+L.OUT_OF_SYNC_DATABASE_S = "|cffFFFFFF%s|r has Horde/Alliance faction data that is not in sync. Please update your RaiderIO client settings to sync both factions."
 L.CHANGES_REQUIRES_UI_RELOAD = "Your changes have been saved, but you must reload your interface for them to take effect.\r\n\r\nDo you wish to do that now?"
 L.RELOAD_NOW = "Reload Now"
 L.RELOAD_LATER = "I'll Reload Later"

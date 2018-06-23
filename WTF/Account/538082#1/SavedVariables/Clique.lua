@@ -39,27 +39,27 @@ CliqueDB3 = {
 		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
-			["spec3_profileKey"] = "Morifa - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec3_profileKey"] = "Morifa - Proudmoore",
 			["spec2_profileKey"] = "Morifa - Proudmoore",
-			["specswap"] = false,
 		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
-			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Non-Healer",
 			["specswap"] = true,
+			["spec2_profileKey"] = "Non-Healer",
 		},
 		["Fimwack - Proudmoore"] = {
 			["spec1_profileKey"] = "Fimwack - Proudmoore",
-			["specswap"] = false,
+			["spec3_profileKey"] = "Fimwack - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 			["spec2_profileKey"] = "Fimwack - Proudmoore",
-			["spec3_profileKey"] = "Fimwack - Proudmoore",
 		},
 		["Miriyal - Proudmoore"] = {
 			["spec1_profileKey"] = "Non-Healer",
@@ -71,11 +71,11 @@ CliqueDB3 = {
 		},
 		["Greybone - Proudmoore"] = {
 			["spec1_profileKey"] = "Greybone - Proudmoore",
-			["spec2_profileKey"] = "Greybone - Proudmoore",
+			["spec3_profileKey"] = "Greybone - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Greybone - Proudmoore",
 			["specswap"] = false,
-			["spec3_profileKey"] = "Greybone - Proudmoore",
 		},
 		["Rahran - Proudmoore"] = {
 			["spec1_profileKey"] = "Rahran - Proudmoore",
@@ -95,11 +95,11 @@ CliqueDB3 = {
 		},
 		["Praerend - Proudmoore"] = {
 			["spec1_profileKey"] = "Praerend - Proudmoore",
-			["spec2_profileKey"] = "Praerend - Proudmoore",
+			["spec3_profileKey"] = "Praerend - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Praerend - Proudmoore",
 			["specswap"] = false,
+			["spec2_profileKey"] = "Praerend - Proudmoore",
 		},
 	},
 	["profileKeys"] = {
@@ -627,6 +627,15 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [3]
 				{
+					["spell"] = "Heal",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135913,
+					["type"] = "spell",
+				}, -- [4]
+				{
 					["spell"] = "Purify",
 					["key"] = "BUTTON2",
 					["sets"] = {
@@ -634,7 +643,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 135894,
 					["type"] = "spell",
-				}, -- [4]
+				}, -- [5]
+				{
+					["spell"] = "Flash Heal",
+					["key"] = "3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135907,
+					["type"] = "spell",
+				}, -- [6]
 				{
 					["spell"] = "Dispel Magic",
 					["key"] = "BUTTON2",
@@ -642,24 +660,6 @@ CliqueDB3 = {
 						["enemy"] = true,
 					},
 					["icon"] = 136066,
-					["type"] = "spell",
-				}, -- [5]
-				{
-					["spell"] = "Prayer of Mending",
-					["key"] = "SHIFT-2",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135944,
-					["type"] = "spell",
-				}, -- [6]
-				{
-					["spell"] = "Heal",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135913,
 					["type"] = "spell",
 				}, -- [7]
 				{
@@ -690,6 +690,15 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [10]
 				{
+					["spell"] = "Light of T'uure",
+					["key"] = "2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 1295540,
+					["type"] = "spell",
+				}, -- [11]
+				{
 					["spell"] = "Leap of Faith",
 					["key"] = "T",
 					["sets"] = {
@@ -697,7 +706,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 463835,
 					["type"] = "spell",
-				}, -- [11]
+				}, -- [12]
+				{
+					["spell"] = "Prayer of Mending",
+					["key"] = "SHIFT-2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135944,
+					["type"] = "spell",
+				}, -- [13]
 				{
 					["spell"] = "Holy Word: Serenity",
 					["key"] = "F",
@@ -706,7 +724,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135937,
 					["type"] = "spell",
-				}, -- [12]
+				}, -- [14]
 				{
 					["spell"] = "Guardian Spirit",
 					["key"] = "SHIFT-T",
@@ -714,24 +732,6 @@ CliqueDB3 = {
 						["friend"] = true,
 					},
 					["icon"] = 237542,
-					["type"] = "spell",
-				}, -- [13]
-				{
-					["spell"] = "Light of T'uure",
-					["key"] = "2",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 1295540,
-					["type"] = "spell",
-				}, -- [14]
-				{
-					["spell"] = "Flash Heal",
-					["key"] = "3",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135907,
 					["type"] = "spell",
 				}, -- [15]
 				{

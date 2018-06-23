@@ -53,6 +53,8 @@ L["MY_PROFILE_TITLE"] = "내 프로필"
 L["MYTHIC_PLUS_DB_MODULES"] = "Mythic Plus 데이터베이스 모듈"
 L["MYTHIC_PLUS_SCORES"] = "쐐기 점수"
 L["OPEN_CONFIG"] = "설정 열기"
+--[[Translation missing --]]
+--[[ L["OUT_OF_SYNC_DATABASE_S"] = ""--]] 
 L["OUTDATED_DATABASE"] = "%d일 전 기록"
 L["OUTDATED_DATABASE_HOURS"] = "%d시간 전 기록"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r의 자료는 |cffFF6666%d|r일 전 기록입니다. 더 정확한 쐐기 점수를 위해 업데이트를 해주시기 바랍니다."

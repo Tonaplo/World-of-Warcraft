@@ -56,6 +56,8 @@ L["MODULE_TAIWAN"] = "Тайвань"
 L["MYTHIC_PLUS_DB_MODULES"] = "Региональные модули базы данных очков"
 L["MYTHIC_PLUS_SCORES"] = "Очки эпохальных+ подземелий"
 L["OPEN_CONFIG"] = "Открыть настройки"
+--[[Translation missing --]]
+--[[ L["OUT_OF_SYNC_DATABASE_S"] = ""--]] 
 L["OUTDATED_DATABASE"] = "Данные устарели на %d дня."
 --[[Translation missing --]]
 --[[ L["OUTDATED_DATABASE_HOURS"] = ""--]] 

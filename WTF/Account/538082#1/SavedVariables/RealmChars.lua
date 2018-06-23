@@ -64,10 +64,10 @@ RCDatabase = {
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
-				["itemLevelOverall"] = 939.5,
+				["firstProf"] = "Blacksmithing",
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 939.5,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
@@ -86,10 +86,10 @@ RCDatabase = {
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 940,
 				["level"] = 110,
 				["firstProfLevel"] = 191,
-				["itemLevelOverall"] = 940,
+				["firstProf"] = "Herbalism",
 			}, -- [5]
 			{
 				["secondProfLevel"] = 68,
@@ -97,10 +97,10 @@ RCDatabase = {
 				["class"] = "WARLOCK",
 				["secondProf"] = "Mining",
 				["name"] = "Fimwack",
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 932.625,
 				["level"] = 110,
 				["firstProfLevel"] = 94,
-				["itemLevelOverall"] = 932.625,
+				["firstProf"] = "Herbalism",
 			}, -- [6]
 			{
 				["secondProfLevel"] = 0,
@@ -108,10 +108,10 @@ RCDatabase = {
 				["class"] = "DEMONHUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Kaldorath",
-				["itemLevelOverall"] = 935.875,
+				["firstProf"] = "No 1st Prof",
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 935.875,
 			}, -- [7]
 			{
 				["secondProfLevel"] = 700,
@@ -119,10 +119,10 @@ RCDatabase = {
 				["class"] = "PALADIN",
 				["secondProf"] = "Engineering",
 				["name"] = "Granjior",
-				["itemLevelOverall"] = 933.875,
+				["firstProf"] = "Mining",
 				["level"] = 110,
 				["firstProfLevel"] = 706,
-				["firstProf"] = "Mining",
+				["itemLevelOverall"] = 933.875,
 			}, -- [8]
 			{
 				["secondProfLevel"] = 800,
@@ -141,10 +141,10 @@ RCDatabase = {
 				["class"] = "DEATHKNIGHT",
 				["secondProf"] = "Mining",
 				["name"] = "Greybone",
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 933.5,
 				["level"] = 110,
 				["firstProfLevel"] = 715,
-				["itemLevelOverall"] = 933.5,
+				["firstProf"] = "Blacksmithing",
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,
@@ -175,12 +175,12 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 763,
+				["secondProfLevel"] = 775,
 				["itemLevelEquipped"] = 966.625,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 970.6875,
+				["itemLevelOverall"] = 969.75,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
 				["firstProf"] = "Alchemy",

@@ -98,6 +98,8 @@ if ns:IsSameLocale("itIT") then
 --[[Translation missing --]]
 --[[ L["OPEN_CONFIG"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["OUT_OF_SYNC_DATABASE_S"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["OUTDATED_DATABASE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["OUTDATED_DATABASE_HOURS"] = ""--]] 

@@ -10,16 +10,16 @@ Grid2DB = {
 						["g"] = 0.690196078431373,
 						["b"] = 0.690196078431373,
 					},
-					["debug"] = true,
+					["frameHeight"] = 40,
 					["frameBorder"] = 1,
 					["frameBorderTexture"] = "glow",
 					["font"] = "Prototype",
-					["orientation"] = "HORIZONTAL",
-					["showTooltip"] = "Always",
 					["frameContentColor"] = {
 						["r"] = 0.549019607843137,
 					},
-					["frameHeight"] = 40,
+					["showTooltip"] = "Always",
+					["orientation"] = "HORIZONTAL",
+					["debug"] = true,
 					["frameWidth"] = 70,
 					["frameBorderDistance"] = 0,
 				},
@@ -53,46 +53,46 @@ Grid2DB = {
 					["groupAnchor"] = "TOPRIGHT",
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["arena"] = "By Group",
 						["raid"] = "By Group & Role",
-						["solo"] = "Solo",
 						["party"] = "Party",
+						["solo"] = "Solo",
+						["arena"] = "By Group",
 					},
-					["PosY"] = -601.174928426363,
+					["Spacing"] = 3,
+					["BackgroundB"] = 1,
 					["BackgroundR"] = 1,
-					["BorderG"] = 0.501960784313726,
-					["PosX"] = -13.8051143353732,
+					["BorderTexture"] = "Stripped_medium",
 					["BackgroundA"] = 0,
 					["BorderR"] = 0.501960784313726,
-					["Spacing"] = 3,
+					["PosX"] = -14.5161313765057,
 					["anchor"] = "TOPRIGHT",
 					["horizontal"] = false,
-					["BackgroundB"] = 1,
-					["BorderTexture"] = "Stripped_medium",
+					["BorderG"] = 0.501960784313726,
+					["PosY"] = -601.176985472802,
 				},
 				["Healer"] = {
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["party"] = "Party",
 						["arena"] = "By Group",
-						["solo"] = "Solo",
 						["raid"] = "By Group & Role",
+						["solo"] = "Solo",
+						["party"] = "Party",
 					},
-					["BackgroundB"] = 1,
+					["BackgroundR"] = 1,
 					["BorderR"] = 0.501960784313726,
-					["PosX"] = -1.43960645448237,
+					["Spacing"] = 3,
 					["anchor"] = "TOP",
 					["BackgroundG"] = 1,
 					["minimapIcon"] = {
 						["hide"] = true,
 					},
-					["PosY"] = -572.732624471246,
+					["PosY"] = -572.021416570135,
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.501960784313726,
-					["Spacing"] = 3,
-					["horizontal"] = false,
-					["BackgroundR"] = 1,
 					["BorderTexture"] = "Stripped_medium",
+					["horizontal"] = false,
+					["BackgroundB"] = 1,
+					["PosX"] = -1.4394871669956,
 				},
 			},
 		},
@@ -185,6 +185,12 @@ Grid2DB = {
 					"Healer", -- [3]
 					["enabled"] = true,
 				},
+				["Mallusof - Tichondrius"] = {
+					"Healer", -- [1]
+					"Healer", -- [2]
+					"Non-Healer", -- [3]
+					["enabled"] = true,
+				},
 			},
 		},
 	},
@@ -260,28 +266,42 @@ Grid2DB = {
 				["leader"] = {
 					["hideInCombat"] = true,
 				},
-				["debuffs-ImportantDebuffs"] = {
-					["auras"] = {
-						"Fulminating Pulse", -- [1]
-						"Chilled Blood", -- [2]
-						"Ravenous Blaze", -- [3]
-						"Withering Roots", -- [4]
-						"Soulblight", -- [5]
-						"Soulbomb", -- [6]
-						"Soulburst", -- [7]
-					},
-					["useWhiteList"] = true,
-					["type"] = "debuffs",
+				["buffs-DefensiveCooldowns"] = {
+					["type"] = "buffs",
 					["color1"] = {
 						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0,
-						["r"] = 0,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["auras"] = {
+						"Anti-Magic Shell", -- [1]
+						"Ardent Defender", -- [2]
+						"Barkskin", -- [3]
+						"Blessing of Sacrifice", -- [4]
+						"Blessing of Protection", -- [5]
+						"Bristling Fur", -- [6]
+						"Dancing Rune Weapon", -- [7]
+						"Deterrence", -- [8]
+						"Divine Protection", -- [9]
+						"Evanesce", -- [10]
+						"Frenzied Regeneration", -- [11]
+						"Guardian of Ancient Kings", -- [12]
+						"Guardian Spirit", -- [13]
+						"Ironbark", -- [14]
+						"Icebound Fortitude", -- [15]
+						"Ice Block", -- [16]
+						"Last Stand", -- [17]
+						"Life Cocoon", -- [18]
+						"Pain Suppression", -- [19]
+						"Roar of Sacrifice", -- [20]
+						"Survival Instincts", -- [21]
+						"Shield Wall", -- [22]
+						"Vampiric Blood", -- [23]
 					},
 				},
-				["heals-incoming"] = {
-					["includePlayerHeals"] = true,
-					["multiplier"] = 1.6,
+				["health-current"] = {
+					["frequentHealth"] = true,
 				},
 				["role"] = {
 					["hideInCombat"] = true,
@@ -701,41 +721,27 @@ Grid2DB = {
 						},
 					},
 				},
-				["health-current"] = {
-					["frequentHealth"] = true,
+				["heals-incoming"] = {
+					["multiplier"] = 1.6,
+					["includePlayerHeals"] = true,
 				},
-				["buffs-DefensiveCooldowns"] = {
-					["type"] = "buffs",
+				["debuffs-ImportantDebuffs"] = {
+					["auras"] = {
+						"Fulminating Pulse", -- [1]
+						"Chilled Blood", -- [2]
+						"Ravenous Blaze", -- [3]
+						"Withering Roots", -- [4]
+						"Soulblight", -- [5]
+						"Soulbomb", -- [6]
+						"Soulburst", -- [7]
+					},
+					["useWhiteList"] = true,
+					["type"] = "debuffs",
 					["color1"] = {
 						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-					["auras"] = {
-						"Anti-Magic Shell", -- [1]
-						"Ardent Defender", -- [2]
-						"Barkskin", -- [3]
-						"Blessing of Sacrifice", -- [4]
-						"Blessing of Protection", -- [5]
-						"Bristling Fur", -- [6]
-						"Dancing Rune Weapon", -- [7]
-						"Deterrence", -- [8]
-						"Divine Protection", -- [9]
-						"Evanesce", -- [10]
-						"Frenzied Regeneration", -- [11]
-						"Guardian of Ancient Kings", -- [12]
-						"Guardian Spirit", -- [13]
-						"Ironbark", -- [14]
-						"Icebound Fortitude", -- [15]
-						"Ice Block", -- [16]
-						"Last Stand", -- [17]
-						"Life Cocoon", -- [18]
-						"Pain Suppression", -- [19]
-						"Roar of Sacrifice", -- [20]
-						"Survival Instincts", -- [21]
-						"Shield Wall", -- [22]
-						"Vampiric Blood", -- [23]
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
 					},
 				},
 			},
@@ -934,16 +940,16 @@ Grid2DB = {
 						["r"] = 0,
 					},
 					["maxIcons"] = 3,
-					["orientation"] = "HORIZONTAL",
 					["iconSize"] = 20,
-					["level"] = 8,
-					["maxIconsPerRow"] = 3,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["level"] = 8,
+					["maxIconsPerRow"] = 3,
+					["orientation"] = "HORIZONTAL",
 				},
 				["heals"] = {
 					["type"] = "bar",
@@ -1230,16 +1236,16 @@ Grid2DB = {
 						["b"] = 0,
 					},
 					["maxIcons"] = 3,
-					["iconSize"] = 20,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["orientation"] = "HORIZONTAL",
 					["level"] = 8,
 					["maxIconsPerRow"] = 3,
-					["orientation"] = "HORIZONTAL",
+					["iconSize"] = 20,
 				},
 				["text-up-color"] = {
 					["type"] = "text-color",
@@ -1260,6 +1266,83 @@ Grid2DB = {
 					},
 					["reverseCooldown"] = true,
 				},
+			},
+			["statusMap"] = {
+				["corner-top-left"] = {
+					["debuffs-AllDebuffs"] = 50,
+				},
+				["side-top"] = {
+				},
+				["corner-bottom-right"] = {
+					["buffs-Bottom-Right-Buffs-mine"] = 50,
+				},
+				["text-down"] = {
+					["name"] = 99,
+				},
+				["absorbs-color"] = {
+				},
+				["icon-left"] = {
+					["dungeon-role"] = 157,
+				},
+				["border"] = {
+				},
+				["text-down-color"] = {
+					["classcolor"] = 50,
+				},
+				["side-top-color"] = {
+				},
+				["icon-center"] = {
+					["ready-check"] = 150,
+					["leader"] = 156,
+					["death"] = 155,
+				},
+				["health-color"] = {
+					["heal-absorbs"] = 52,
+					["debuffs-ImportantDebuffs"] = 53,
+					["health-current"] = 50,
+					["debuffs-AllDebuffs"] = 54,
+				},
+				["corner-top-right"] = {
+					["buffs-DefensiveCooldowns"] = 50,
+				},
+				["heals-color"] = {
+					["heal-absorbs"] = 52,
+					["color-IncommingHealsColor"] = 53,
+				},
+				["alpha"] = {
+					["offline"] = 97,
+					["range"] = 99,
+					["death"] = 98,
+				},
+				["health"] = {
+					["health-current"] = 50,
+					["heal-absorbs"] = 51,
+				},
+				["corner-bottom-left"] = {
+					["buffs-Bottom-Left-Buffs-mine"] = 50,
+				},
+				["text-up-color"] = {
+					["charmed"] = 65,
+					["feign-death"] = 96,
+					["health-deficit"] = 50,
+					["offline"] = 93,
+					["death"] = 95,
+					["vehicle"] = 70,
+				},
+				["text-up"] = {
+					["charmed"] = 65,
+					["feign-death"] = 96,
+					["death"] = 95,
+					["offline"] = 93,
+					["vehicle"] = 70,
+				},
+				["heals"] = {
+					["shields"] = 100,
+				},
+			},
+			["versions"] = {
+				["Grid2"] = 5,
+				["Grid2RaidDebuffs"] = 1,
 			},
 			["statuses"] = {
 				["heal-absorbs"] = {
@@ -1742,6 +1825,7 @@ Grid2DB = {
 						"Gift of the Sea", -- [6]
 						"Fel Heart Bond Frayed", -- [7]
 						"Transporter Malfunction", -- [8]
+						"Forbearance", -- [9]
 					},
 					["type"] = "debuffs",
 					["debuffTypeColorize"] = true,
@@ -1794,83 +1878,6 @@ Grid2DB = {
 						["g"] = 1,
 						["r"] = 1,
 					},
-				},
-			},
-			["versions"] = {
-				["Grid2"] = 5,
-				["Grid2RaidDebuffs"] = 1,
-			},
-			["statusMap"] = {
-				["corner-top-left"] = {
-					["debuffs-AllDebuffs"] = 50,
-				},
-				["side-top"] = {
-				},
-				["corner-bottom-right"] = {
-					["buffs-Bottom-Right-Buffs-mine"] = 50,
-				},
-				["text-down"] = {
-					["name"] = 99,
-				},
-				["absorbs-color"] = {
-				},
-				["icon-left"] = {
-					["dungeon-role"] = 157,
-				},
-				["border"] = {
-				},
-				["text-down-color"] = {
-					["classcolor"] = 50,
-				},
-				["side-top-color"] = {
-				},
-				["icon-center"] = {
-					["ready-check"] = 150,
-					["leader"] = 156,
-					["death"] = 155,
-				},
-				["health-color"] = {
-					["heal-absorbs"] = 52,
-					["debuffs-ImportantDebuffs"] = 53,
-					["health-current"] = 50,
-					["debuffs-AllDebuffs"] = 54,
-				},
-				["corner-top-right"] = {
-					["buffs-DefensiveCooldowns"] = 50,
-				},
-				["heals-color"] = {
-					["heal-absorbs"] = 52,
-					["color-IncommingHealsColor"] = 53,
-				},
-				["alpha"] = {
-					["offline"] = 97,
-					["range"] = 99,
-					["death"] = 98,
-				},
-				["health"] = {
-					["health-current"] = 50,
-					["heal-absorbs"] = 51,
-				},
-				["corner-bottom-left"] = {
-					["buffs-Bottom-Left-Buffs-mine"] = 50,
-				},
-				["text-up-color"] = {
-					["charmed"] = 65,
-					["feign-death"] = 96,
-					["health-deficit"] = 50,
-					["offline"] = 93,
-					["death"] = 95,
-					["vehicle"] = 70,
-				},
-				["text-up"] = {
-					["charmed"] = 65,
-					["feign-death"] = 96,
-					["death"] = 95,
-					["offline"] = 93,
-					["vehicle"] = 70,
-				},
-				["heals"] = {
-					["shields"] = 100,
 				},
 			},
 		},

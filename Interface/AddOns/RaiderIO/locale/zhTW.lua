@@ -53,6 +53,8 @@ L["MY_PROFILE_TITLE"] = "我的M+紀錄"
 L["MYTHIC_PLUS_DB_MODULES"] = "傳奇+數據庫模組"
 L["MYTHIC_PLUS_SCORES"] = "傳奇+分數"
 L["OPEN_CONFIG"] = "開啟選項"
+--[[Translation missing --]]
+--[[ L["OUT_OF_SYNC_DATABASE_S"] = ""--]] 
 L["OUTDATED_DATABASE"] = "分數已有%d天之久"
 L["OUTDATED_DATABASE_HOURS"] = "分數已有%d小時之久"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r使用的數據已經有|cffFF6666%d|r天之久了。請更新此插件已呈現更精確的傳奇+分數。"

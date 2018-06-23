@@ -3,126 +3,696 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.208999999999833, -- [1]
-				"The impurity must be cleansed!", -- [2]
-				"Cenarius", -- [3]
+				0.753999999999905, -- [1]
+				"Too late! I am unstoppable!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				8.35399999999982, -- [1]
-				"|TInterface\\Icons\\sha_spell_shadow_shadesofdarkness_nightmare:20|t%s begins to cast |cFFFF0000|Hspell:212726|h[Forces of Nightmare]|h|r!", -- [2]
-				"Cenarius", -- [3]
-				1, -- [4]
+				5.92600000000039, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [2]
 			{
-				8.35399999999982, -- [1]
-				"Allies! To my side!", -- [2]
-				"Cenarius", -- [3]
+				15.9539999999997, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				19.7529999999997, -- [1]
-				"Villains! You poison the children of the Dream!", -- [2]
-				"Cenarius", -- [3]
-				7, -- [4]
+				19.8900000000003, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [4]
 			{
-				21.79, -- [1]
-				"Is that you, Thero'shan?", -- [2]
-				"Cenarius", -- [3]
+				19.8900000000003, -- [1]
+				"You'll never escape my grasp!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				25.308, -- [1]
-				"Sacred vines, entangle the corrupted!", -- [2]
-				"Cenarius", -- [3]
+				25.951, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				25.8289999999997, -- [1]
-				"Master, we fight to save them! To save you!", -- [2]
-				"Malfurion Stormrage", -- [3]
-				7, -- [4]
+				35.9520000000002, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [7]
 			{
-				26.4339999999997, -- [1]
-				"Yes, Cenarius! We are here to save you!", -- [2]
-				"Malfurion Stormrage", -- [3]
+				35.9520000000002, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				37.6369999999997, -- [1]
-				"You fight with noble hearts! Could it be true? Could the darkness be inside of... me?", -- [2]
-				"Cenarius", -- [3]
+				45.7600000000002, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [9]
 			{
-				47.2640000000001, -- [1]
-				"Hold your weapons! He begins to see the truth!", -- [2]
-				"Malfurion Stormrage", -- [3]
-				7, -- [4]
+				68.906, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [10]
 			{
-				48.5569999999998, -- [1]
-				"Sacred vines, entangle the corrupted!", -- [2]
-				"Cenarius", -- [3]
+				68.906, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				52.9449999999997, -- [1]
-				"Erk!", -- [2]
-				"Snowfeather Hatchling", -- [3]
-				4, -- [4]
+				73.8280000000004, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [12]
-			["boss"] = "Cenarius",
+			{
+				76.9589999999998, -- [1]
+				"No more distractions! I have work to do...", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				78.4629999999998, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [14]
+			{
+				92.7690000000002, -- [1]
+				"Surrender! I may yet show mercy!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				108.122, -- [1]
+				"Fight for Azeroth! For all you hold dear!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				110.667, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				113.348, -- [1]
+				"This is our world, not the Legion's!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				113.787, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				132.716, -- [1]
+				"We can stop him! I know it!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				134.864, -- [1]
+				"Why won't you die? Why do you keep resisting?", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				146.441, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				148.692, -- [1]
+				"Keep pressing, champions! Gul'dan wavers! He WILL fall!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				151.733, -- [1]
+				"Let the storm rain death upon you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				161.826, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				166.43, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				169.384, -- [1]
+				"Time to return the demon hunter's soul to his body... and deny the Legion's master a host!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				184.817, -- [1]
+				"You topple a pawn and presume to challenge its master? Such arrogance!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				194.946, -- [1]
+				"I am Gul'dan! I am darkness incarnate! It cannot end... like this.", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				196.931, -- [1]
+				"Behold the shadow of what is to come, the endless darkness that shall consume your world.", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				207.607, -- [1]
+				"You are not prepared!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				216.987, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				234.97, -- [1]
+				"Behold the Flames of Azzinoth!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				252.97, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				275.973, -- [1]
+				"Behold the Flames of Azzinoth!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				288.999, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [36]
+			["boss"] = "Gul'dan",
 		}, -- [1]
 		{
 			{
-				7.73900000000003, -- [1]
-				"Hope is a disease of the soul! This land shall wither and die!", -- [2]
-				"Emeriss", -- [3]
+				0.975999999999658, -- [1]
+				"Too late! I am unstoppable!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				23.1270000000004, -- [1]
-				"Come forth, dreamers... and claim your vengeance!", -- [2]
-				"Ysondre", -- [3]
+				5.99200000000019, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				33.7960000000003, -- [1]
-				"Taste the Nightmare's corruption!", -- [2]
-				"Emeriss", -- [3]
+				16.0209999999997, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [3]
-			["boss"] = "Dragons of Nightmare",
+			{
+				20.0469999999996, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				20.0469999999996, -- [1]
+				"You'll never escape my grasp!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				25.9920000000002, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				35.9899999999998, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				35.9899999999998, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				46.0020000000004, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				50.5659999999998, -- [1]
+				"One by one you fall!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				68.9790000000003, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [11]
+			{
+				68.9790000000003, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				74.0280000000003, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				86.0209999999997, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				88.1319999999996, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t You are afflicted with |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r!", -- [2]
+				"Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [15]
+			{
+				95.558, -- [1]
+				"No more distractions! I have work to do...", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				110.148, -- [1]
+				"Surrender! I may yet show mercy!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				125.574, -- [1]
+				"Fight for Azeroth! For all you hold dear!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				128.077, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				131.206, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				133.286, -- [1]
+				"This is our world, not the Legion's!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				136.731, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Empowered Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [22]
+			{
+				151.552, -- [1]
+				"We can stop him! I know it!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				152.237, -- [1]
+				"Why won't you die? Why do you keep resisting?", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				163.851, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				168.455, -- [1]
+				"Keep pressing, champions! Gul'dan wavers! He WILL fall!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				169.105, -- [1]
+				"Let the storm rain death upon you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				183.819, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				189.019, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Empowered Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [29]
+			{
+				197.021, -- [1]
+				"Time to return the demon hunter's soul to his body... and deny the Legion's master a host!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				213.608, -- [1]
+				"You topple a pawn and presume to challenge its master? Such arrogance!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				218.504, -- [1]
+				"I am Gul'dan! I am darkness incarnate! It cannot end... like this.", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				225.767, -- [1]
+				"Behold the shadow of what is to come, the endless darkness that shall consume your world.", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				236.024, -- [1]
+				"You are not prepared!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				244.581, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				262.557, -- [1]
+				"Behold the Flames of Azzinoth!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				280.564, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				303.56, -- [1]
+				"Behold the Flames of Azzinoth!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				316.559, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				332.577, -- [1]
+				"Gaze upon the inevitable end of all you know... all you fought for!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [40]
+			["boss"] = "Gul'dan",
 		}, -- [2]
 		{
 			{
-				18.346, -- [1]
-				"|TInterface\\Icons\\spell_druid_bearhug:20|t%s targets |cFFFF0000Kalestrie|r with an intense |cFFFF0000|Hspell:198006|h[Focused Gaze]|h|r!", -- [2]
-				"Ursoc", -- [3]
-				1, -- [4]
+				1.1850000000004, -- [1]
+				"Too late! I am unstoppable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [1]
 			{
-				18.346, -- [1]
-				"STAMP AND TRAMPLE! CRUSH AND CRUMPLE!", -- [2]
-				"Ursoc", -- [3]
-				4, -- [4]
+				6.32100000000082, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [2]
 			{
-				36.8999999999996, -- [1]
-				"THE WILDS TREMBLE BEFORE MY FURY!", -- [2]
-				"Ursoc", -- [3]
-				7, -- [4]
+				8.57600000000002, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_green:20|t You are afflicted with |cFFFF0000|Hspell:206222|h[Bonds of Fel]|h|r!", -- [2]
+				"Gul'dan", -- [3]
+				2, -- [4]
 			}, -- [3]
 			{
-				40.0149999999999, -- [1]
-				"|TInterface\\Icons\\ability_deathwing_assualtaspects:20|t%s goes into a crazed |cFFFF0000|Hspell:198388|h[Blood Frenzy]|h|r!", -- [2]
-				"Ursoc", -- [3]
-				1, -- [4]
+				16.3070000000007, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [4]
-			["boss"] = "Ursoc",
+			{
+				20.3340000000007, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				20.3340000000007, -- [1]
+				"You'll never escape my grasp!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				26.3140000000003, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				36.3010000000004, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				36.3010000000004, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				46.3340000000007, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				69.3470000000007, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [11]
+			{
+				69.3470000000007, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				74.3160000000007, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				78.8640000000005, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [14]
+			{
+				86.2960000000003, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				87.4700000000003, -- [1]
+				"No more distractions! I have work to do...", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				102.033, -- [1]
+				"Surrender! I may yet show mercy!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				117.42, -- [1]
+				"Fight for Azeroth! For all you hold dear!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				119.958000000001, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				123.111000000001, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				125.139, -- [1]
+				"This is our world, not the Legion's!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				144.150000000001, -- [1]
+				"Why won't you die? Why do you keep resisting?", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				151.909000000001, -- [1]
+				"We can stop him! I know it!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				155.777, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				160.999000000001, -- [1]
+				"Let the storm rain death upon you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				171.066000000001, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				175.727000000001, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				189.772, -- [1]
+				"Time to return the demon hunter's soul to his body... and deny the Legion's master a host!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				204.929, -- [1]
+				"You topple a pawn and presume to challenge its master? Such arrogance!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				206.764, -- [1]
+				"I am Gul'dan! I am darkness incarnate! It cannot end... like this.", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				217.239000000001, -- [1]
+				"Behold the shadow of what is to come, the endless darkness that shall consume your world.", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				227.885, -- [1]
+				"You are not prepared!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				237.293000000001, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				255.297000000001, -- [1]
+				"Behold the Flames of Azzinoth!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				273.295, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				296.326, -- [1]
+				"Behold the Flames of Azzinoth!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				309.291, -- [1]
+				"Feel the power... of the demon within!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				325.327, -- [1]
+				"Gaze upon the inevitable end of all you know... all you fought for!", -- [2]
+				"The Demon Within", -- [3]
+				7, -- [4]
+			}, -- [38]
+			["boss"] = "Gul'dan",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -4669,6 +5239,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Trilliax",
+		},
+		[232346] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Night Watch Mariner",
 		},
 		[193439] = {
 			["school"] = 32,
@@ -22649,6 +23227,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sael'orn",
 		},
+		[167910] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Unknown",
+		},
 		[214601] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -22666,6 +23252,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Unknown",
+		},
+		[245396] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "L'ura",
 		},
 		[201291] = {
 			["school"] = 4,
@@ -23541,13 +24134,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian Construct",
 		},
-		[202328] = {
-			["school"] = 32,
+		[2139] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Fel Lord Betrug",
+			["source"] = "Xandrios",
 		},
 		[211543] = {
 			["school"] = 1,
@@ -24169,13 +24761,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrupted Taran Zhu",
 		},
-		[3355] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[206433] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Karhcore",
+			["source"] = "Star Augur Etraeus",
 		},
 		[252641] = {
 			["school"] = 1,
@@ -26638,15 +27229,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Helya",
 		},
-		[89421] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[65192] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sinestra",
+			["source"] = "VX-001",
 		},
 		[61920] = {
 			["school"] = 8,
@@ -27167,22 +27755,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nightmare Horror",
 		},
-		[123725] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Monkjing",
-		},
-		[197264] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Helya",
-		},
 		[214670] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -27191,6 +27763,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Trilliax's Imprint",
+		},
+		[197264] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Helya",
+		},
+		[123725] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Monkjing",
 		},
 		[232135] = {
 			["school"] = 1,
@@ -27250,12 +27838,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blistering Beetle",
 		},
-		[206480] = {
-			["school"] = 32,
+		[78675] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Foxu",
 		},
 		[120142] = {
 			["school"] = 1,
@@ -27486,15 +28076,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rinzler-Alexstrasza",
 		},
-		[227985] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[59052] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Coggleston",
+			["source"] = "Venan",
 		},
 		[245391] = {
 			["school"] = 4,
@@ -27576,6 +28164,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Watchful Inquisitor",
 		},
+		[240273] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Deep Stalker",
+		},
 		[62124] = {
 			["school"] = 2,
 			["type"] = "DEBUFF",
@@ -27584,13 +28179,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Gethrean",
-		},
-		[240273] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Deep Stalker",
 		},
 		[52042] = {
 			["school"] = 8,
@@ -27747,13 +28335,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tirathon Saltheril",
 		},
-		[218774] = {
-			["school"] = 4,
+		[210583] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Solarist Tel'arn",
+			["source"] = "Lunorah",
 		},
 		[228251] = {
 			["school"] = 32,
@@ -27825,19 +28413,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian Construct",
 		},
+		[227990] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Bilewater Slime",
+		},
 		[81751] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Xenophanes-Proudmoore",
-		},
-		[245396] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "L'ura",
 		},
 		[249535] = {
 			["school"] = 1,
@@ -27848,13 +28436,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kin'garoth",
 		},
-		[240277] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Garothi Worldbreaker",
-		},
 		[207513] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -27864,6 +28445,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Trilliax",
+		},
+		[75096] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Twilight Thundercaller",
 		},
 		[245746] = {
 			["school"] = 1,
@@ -28231,18 +28820,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amalgam of Corruption",
 		},
+		[255641] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[198304] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Huej",
-		},
-		[255641] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
 		},
 		[239785] = {
 			["school"] = 4,
@@ -28319,13 +28908,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nomansnowman",
 		},
-		[195234] = {
+		[227998] = {
 			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Hatecoil Wavebinder",
+			["source"] = "Helya",
 		},
 		[209568] = {
 			["school"] = 64,
@@ -28346,14 +28936,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Decimator",
 		},
-		[227998] = {
+		[195234] = {
 			["school"] = 16,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Helya",
+			["source"] = "Hatecoil Wavebinder",
 		},
 		[206221] = {
 			["school"] = 4,
@@ -28499,14 +29088,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Angerhoof Bull",
 		},
-		[222881] = {
-			["school"] = 8,
+		[123735] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ashtongue Warrior",
+			["source"] = "Grand Empress Shek'zeer",
 		},
 		[107865] = {
 			["school"] = 64,
@@ -28517,13 +29105,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrupted Arcanist",
 		},
-		[225953] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
 		[201380] = {
 			["school"] = 16,
 			["type"] = "DEBUFF",
@@ -28532,6 +29113,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Shivermaw",
+		},
+		[225953] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
 		},
 		[251550] = {
 			["school"] = 2,
@@ -28748,21 +29336,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sugarbawls",
 		},
-		[107867] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Corrupted Arcanist",
-		},
-		[115546] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Monkjing",
-		},
 		[207527] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -28770,6 +29343,21 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Lightsz",
+		},
+		[239267] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Flaming Orb",
+		},
+		[107867] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Corrupted Arcanist",
 		},
 		[143023] = {
 			["school"] = 32,
@@ -28993,14 +29581,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Inquisitor Tormentorum",
 		},
-		[5176] = {
-			["school"] = 8,
+		[107357] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Diviciados-Zul'jin",
+			["source"] = "Corrupted Taran Zhu",
 		},
 		[204459] = {
 			["school"] = 1,
@@ -29011,20 +29598,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skorpyron",
 		},
-		[221865] = {
-			["school"] = 32,
+		[20572] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Daoxu",
+			["source"] = "Karhcore",
 		},
-		[107357] = {
-			["school"] = 32,
+		[5176] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Corrupted Taran Zhu",
+			["source"] = "Diviciados-Zul'jin",
 		},
 		[221515] = {
 			["school"] = 1,
@@ -29137,12 +29727,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bodgyal",
 		},
-		[31707] = {
-			["school"] = 16,
+		[212653] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Water Elemental",
+			["source"] = "Racialist",
 		},
 		[222891] = {
 			["school"] = 8,
@@ -29154,12 +29746,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ashtongue Warrior",
 		},
-		[86369] = {
-			["school"] = 32,
+		[205486] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Theralion",
+			["source"] = "Star Augur Etraeus",
 		},
 		[62386] = {
 			["school"] = 1,
@@ -29179,12 +29773,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Risen Companion",
 		},
-		[218796] = {
-			["school"] = 64,
+		[202414] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Druid of the Claw",
+			["source"] = "Sael'orn",
 		},
 		[228011] = {
 			["school"] = 16,
@@ -29195,23 +29792,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mrs. Cauldrons",
 		},
-		[212653] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[31707] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Racialist",
-		},
-		[205486] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Star Augur Etraeus",
+			["source"] = "Water Elemental",
+		},
+		[86369] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Theralion",
 		},
 		[86881] = {
 			["school"] = 1,
@@ -29320,13 +29913,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Imperial Vizier Zor'lok",
 		},
-		[228013] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[244395] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mrs. Cauldrons",
+			["source"] = "Garothi Worldbreaker",
 		},
 		[51124] = {
 			["school"] = 1,
@@ -29384,15 +29978,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bloodworm",
 		},
-		[211632] = {
-			["school"] = 32,
+		[219823] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Eredar Chaosbringer",
+			["source"] = "Chronomatic Anomaly",
 		},
 		[244106] = {
 			["school"] = 4,
@@ -29435,6 +30028,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felsworn Chaos-Mage",
 		},
+		[230066] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shadow Spitter",
+		},
 		[221875] = {
 			["school"] = 64,
 			["token"] = {
@@ -29442,16 +30042,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Star Augur Etraeus",
-		},
-		[15407] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "PlayerYJKYLC",
 		},
 		[75683] = {
 			["school"] = 16,
@@ -29673,12 +30263,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gu Cloudstrike",
 		},
-		[230066] = {
+		[15407] = {
 			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shadow Spitter",
+			["source"] = "PlayerYJKYLC",
 		},
 		[206517] = {
 			["school"] = 4,
@@ -29705,14 +30298,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Void Tear",
 		},
-		[219823] = {
-			["school"] = 64,
+		[211632] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Chronomatic Anomaly",
+			["source"] = "Eredar Chaosbringer",
 		},
 		[194231] = {
 			["school"] = 32,
@@ -29744,14 +30338,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadow Spitter",
 		},
-		[244395] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[228013] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Garothi Worldbreaker",
+			["source"] = "Mrs. Cauldrons",
 		},
 		[79206] = {
 			["school"] = 8,
@@ -29800,15 +30393,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skorpyron",
 		},
-		[202414] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[218796] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sael'orn",
+			["source"] = "Druid of the Claw",
 		},
 		[223202] = {
 			["school"] = 1,
@@ -29918,14 +30508,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Arcanist Tel'arn",
 		},
-		[20572] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[221865] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Karhcore",
+			["source"] = "Daoxu",
 		},
 		[188091] = {
 			["school"] = 64,
@@ -30058,12 +30646,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pidin",
 		},
-		[239267] = {
-			["school"] = 4,
+		[115546] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Flaming Orb",
+			["source"] = "Monkjing",
 		},
 		[106853] = {
 			["school"] = 1,
@@ -30217,13 +30805,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sha of Violence",
 		},
-		[123735] = {
-			["school"] = 1,
+		[222881] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Grand Empress Shek'zeer",
+			["source"] = "Ashtongue Warrior",
 		},
 		[209597] = {
 			["school"] = 64,
@@ -30655,13 +31244,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ebon Gargoyle",
 		},
-		[75096] = {
-			["school"] = 8,
+		[240277] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Twilight Thundercaller",
+			["source"] = "Garothi Worldbreaker",
 		},
 		[200389] = {
 			["school"] = 8,
@@ -30738,13 +31326,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zolkantos",
 		},
-		[210583] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[218774] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lunorah",
+			["source"] = "Solarist Tel'arn",
 		},
 		[122] = {
 			["school"] = 16,
@@ -30898,13 +31486,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blightshard Shaper",
 		},
-		[59052] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[227985] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Venan",
+			["source"] = "Coggleston",
 		},
 		[196813] = {
 			["school"] = 2,
@@ -31014,14 +31604,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Turtlerogue",
 		},
-		[78675] = {
-			["school"] = 8,
+		[206480] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Foxu",
 		},
 		[202662] = {
 			["school"] = 4,
@@ -31449,12 +32037,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nistexi",
 		},
-		[65192] = {
-			["school"] = 1,
+		[89421] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "VX-001",
+			["source"] = "Sinestra",
 		},
 		[240332] = {
 			["school"] = 1,
@@ -32949,12 +33540,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Apãthy",
 		},
-		[206433] = {
-			["school"] = 1,
+		[3355] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Star Augur Etraeus",
+			["source"] = "Karhcore",
 		},
 		[198376] = {
 			["school"] = 1,
@@ -33375,12 +33967,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreadguard",
 		},
-		[2139] = {
-			["school"] = 64,
+		[202328] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Xandrios",
+			["source"] = "Fel Lord Betrug",
 		},
 		[171011] = {
 			["school"] = 1,

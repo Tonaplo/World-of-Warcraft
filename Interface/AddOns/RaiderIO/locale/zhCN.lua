@@ -60,6 +60,8 @@ L["MAINS_SCORE_COLON"] = "当前的分数："
 L["MYTHIC_PLUS_DB_MODULES"] = "大秘境数据库模组"
 L["MYTHIC_PLUS_SCORES"] = "大秘境评分"
 L["OPEN_CONFIG"] = "开启选项"
+--[[Translation missing --]]
+--[[ L["OUT_OF_SYNC_DATABASE_S"] = ""--]] 
 L["OUTDATED_DATABASE"] = "%天前的评分"
 --[[Translation missing --]]
 --[[ L["OUTDATED_DATABASE_HOURS"] = ""--]] 
