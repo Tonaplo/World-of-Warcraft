@@ -62,3 +62,17 @@ X: 0
 Y: 0
 W: 925
 H: 600
+Frame: WeakAurasDisplayButton278
+FrameLevel: 8
+Anchor: TOP
+X: -61
+Y: -202
+W: 921
+H: 32
+Frame: WeakAurasDisplayButton279
+FrameLevel: 8
+Anchor: CENTER
+X: -61
+Y: 174
+W: 921
+H: 32
