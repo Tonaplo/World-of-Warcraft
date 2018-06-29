@@ -151,7 +151,7 @@ RCDatabase = {
 			}, -- [1]
 			{
 				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 937.8125,
+				["itemLevelEquipped"] = 936.5625,
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
@@ -162,14 +162,14 @@ RCDatabase = {
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 939.1875,
+				["itemLevelEquipped"] = 939.8125,
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
 				["firstProf"] = "Blacksmithing",
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["itemLevelOverall"] = 939.5,
+				["itemLevelOverall"] = 940.125,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
@@ -188,10 +188,10 @@ RCDatabase = {
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
-				["itemLevelOverall"] = 943.4375,
+				["firstProf"] = "Herbalism",
 				["level"] = 110,
 				["firstProfLevel"] = 191,
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 943.4375,
 			}, -- [5]
 			{
 				["secondProfLevel"] = 68,

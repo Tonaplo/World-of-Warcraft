@@ -11,11 +11,11 @@ CliqueDB3 = {
 		},
 		["Amranar - Proudmoore"] = {
 			["spec1_profileKey"] = "Druid - Balance",
-			["spec2_profileKey"] = "Druid - Feral",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = true,
 			["spec3_profileKey"] = "Druid - Guardian",
+			["spec2_profileKey"] = "Druid - Feral",
 			["spec4_profileKey"] = "Druid - Resto",
 		},
 		["Farahn - Proudmoore"] = {
@@ -40,26 +40,26 @@ CliqueDB3 = {
 		["Rahran - Proudmoore"] = {
 			["spec1_profileKey"] = "Rahran - Proudmoore",
 			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
-			["spec2_profileKey"] = "Rahran - Proudmoore",
 			["spec3_profileKey"] = "Rahran - Proudmoore",
+			["downclick"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Rahran - Proudmoore",
 		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
-			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Non-Healer",
 			["specswap"] = true,
-			["spec3_profileKey"] = "Non-Healer",
 		},
 		["Fimwack - Proudmoore"] = {
 			["spec1_profileKey"] = "Fimwack - Proudmoore",
-			["specswap"] = false,
+			["spec3_profileKey"] = "Fimwack - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Fimwack - Proudmoore",
 			["spec2_profileKey"] = "Fimwack - Proudmoore",
+			["specswap"] = false,
 		},
 		["Miriyal - Proudmoore"] = {
 			["spec1_profileKey"] = "Non-Healer",
@@ -71,27 +71,27 @@ CliqueDB3 = {
 		},
 		["Greybone - Proudmoore"] = {
 			["spec1_profileKey"] = "Greybone - Proudmoore",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Greybone - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Greybone - Proudmoore",
 			["spec3_profileKey"] = "Greybone - Proudmoore",
+			["specswap"] = false,
 		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
-			["spec2_profileKey"] = "Morifa - Proudmoore",
+			["spec3_profileKey"] = "Morifa - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Morifa - Proudmoore",
 			["specswap"] = false,
+			["spec2_profileKey"] = "Morifa - Proudmoore",
 		},
 		["Faerand - Proudmoore"] = {
 			["spec1_profileKey"] = "Faerand - Proudmoore",
-			["spec2_profileKey"] = "Faerand - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Faerand - Proudmoore",
 			["spec3_profileKey"] = "Faerand - Proudmoore",
-			["specswap"] = false,
 		},
 		["Praerend - Proudmoore"] = {
 			["spec1_profileKey"] = "Praerend - Proudmoore",
@@ -106,14 +106,14 @@ CliqueDB3 = {
 		["Korugen - Tichondrius"] = "Korugen - Tichondrius",
 		["Kaldorath - Proudmoore"] = "Non-Healer",
 		["Praerend - Proudmoore"] = "Non-Healer",
-		["Amranar - Proudmoore"] = "Druid - Guardian",
+		["Amranar - Proudmoore"] = "Druid - Feral",
 		["Farahn - Proudmoore"] = "Shaman - Resto",
 		["Rahran - Proudmoore"] = "Non-Healer",
 		["Mallusof - Tichondrius"] = "Priest - Holy",
-		["Miriyal - Proudmoore"] = "Non-Healer",
-		["Granjior - Proudmoore"] = "Non-Healer",
 		["Morifa - Proudmoore"] = "Non-Healer",
+		["Granjior - Proudmoore"] = "Non-Healer",
 		["Fimwack - Proudmoore"] = "Non-Healer",
+		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Greybone - Proudmoore"] = "Non-Healer",
 		["Deminath - Hyjal"] = "Deminath - Hyjal",
 		["Faerand - Proudmoore"] = "Non-Healer",
@@ -222,6 +222,25 @@ CliqueDB3 = {
 				}, -- [9]
 			},
 		},
+		["Druid - Feral"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Druid - Resto"] = {
 			["bindings"] = {
 				{
@@ -240,6 +259,15 @@ CliqueDB3 = {
 					},
 				}, -- [2]
 				{
+					["spell"] = "Healing Touch",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136041,
+					["type"] = "spell",
+				}, -- [3]
+				{
 					["spell"] = "Ironbark",
 					["key"] = "SHIFT-T",
 					["sets"] = {
@@ -247,7 +275,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 572025,
 					["type"] = "spell",
-				}, -- [3]
+				}, -- [4]
 				{
 					["spell"] = "Rebirth",
 					["key"] = "SHIFT-Z",
@@ -256,7 +284,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136080,
 					["type"] = "spell",
-				}, -- [4]
+				}, -- [5]
 				{
 					["spell"] = "Swiftmend",
 					["key"] = "F",
@@ -265,34 +293,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 134914,
 					["type"] = "spell",
-				}, -- [5]
-				{
-					["spell"] = "Healing Touch",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 136041,
-					["type"] = "spell",
 				}, -- [6]
-				{
-					["spell"] = "Innervate",
-					["key"] = "X",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 136048,
-					["type"] = "spell",
-				}, -- [7]
-				{
-					["spell"] = "Wild Growth",
-					["key"] = "Q",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 236153,
-					["type"] = "spell",
-				}, -- [8]
 				{
 					["spell"] = "Rejuvenation",
 					["key"] = "SHIFT-1",
@@ -301,7 +302,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136081,
 					["type"] = "spell",
-				}, -- [9]
+				}, -- [7]
 				{
 					["spell"] = "Regrowth",
 					["key"] = "3",
@@ -309,6 +310,24 @@ CliqueDB3 = {
 						["friend"] = true,
 					},
 					["icon"] = 136085,
+					["type"] = "spell",
+				}, -- [8]
+				{
+					["spell"] = "Wild Growth",
+					["key"] = "Q",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 236153,
+					["type"] = "spell",
+				}, -- [9]
+				{
+					["spell"] = "Innervate",
+					["key"] = "X",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 136048,
 					["type"] = "spell",
 				}, -- [10]
 				{

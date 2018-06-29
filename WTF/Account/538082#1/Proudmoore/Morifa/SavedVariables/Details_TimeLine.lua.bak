@@ -1,59 +1,39 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["combat_data"] = {
+		{
+			["date_start"] = "00:27:22",
+			["date_end"] = "00:28:02",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 40.1589999999997,
+		}, -- [1]
+		{
+			["date_start"] = "00:24:03",
+			["date_end"] = "00:25:09",
+			["name"] = "Dresaron",
+			["total_time"] = 65.7360000000008,
+		}, -- [2]
+		{
+			["date_start"] = "00:19:20",
+			["date_end"] = "00:20:30",
+			["name"] = "Oakheart",
+			["total_time"] = 69.9339999999975,
+		}, -- [3]
+		{
+			["date_start"] = "00:15:30",
+			["date_end"] = "00:16:09",
+			["name"] = "Archdruid Glaidalis",
+			["total_time"] = 38.6340000000018,
+		}, -- [4]
+	},
 	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-			["Katacola-Dentarg"] = {
-				{
-					15.038999999997, -- [1]
-					"Katacola-Dentarg", -- [2]
-					22812, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Katacola-Dentarg"] = {
-				{
-					48.4490000000005, -- [1]
-					"Katacola-Dentarg", -- [2]
-					22812, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Katacola-Dentarg"] = {
-				{
-					31.9989999999998, -- [1]
-					"Katacola-Dentarg", -- [2]
-					22812, -- [3]
-				}, -- [1]
-				{
-					33.3889999999992, -- [1]
-					"Katacola-Dentarg", -- [2]
-					22842, -- [3]
-				}, -- [2]
-				{
-					66.2249999999986, -- [1]
-					"Katacola-Dentarg", -- [2]
-					22842, -- [3]
-				}, -- [3]
-			},
-		}, -- [3]
-		{
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Katno-Akama"] = {
@@ -194,14 +174,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [2]
 		{
-			["Morifa"] = {
-				[199063] = {
-					44.9599999999991, -- [1]
-					48.9359999999979, -- [2]
-					["source"] = "Strangling Roots",
-					["active"] = false,
-				},
-			},
 			["Katacola-Dentarg"] = {
 				[204667] = {
 					22.2829999999995, -- [1]
@@ -228,22 +200,16 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-		}, -- [3]
-		{
 			["Morifa"] = {
-				[198408] = {
-					27.5720000000001, -- [1]
-					29.0509999999995, -- [2]
-					["source"] = "Archdruid Glaidalis",
-					["active"] = false,
-				},
-				[198477] = {
-					30.1080000000002, -- [1]
-					38.6340000000018, -- [2]
-					["source"] = "Nightmare Abomination",
+				[199063] = {
+					44.9599999999991, -- [1]
+					48.9359999999979, -- [2]
+					["source"] = "Strangling Roots",
 					["active"] = false,
 				},
 			},
+		}, -- [3]
+		{
 			["Zapdoodle-Stormrage"] = {
 				[196376] = {
 					6.59800000000178, -- [1]
@@ -264,38 +230,72 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Morifa"] = {
+				[198408] = {
+					27.5720000000001, -- [1]
+					29.0509999999995, -- [2]
+					["source"] = "Archdruid Glaidalis",
+					["active"] = false,
+				},
+				[198477] = {
+					30.1080000000002, -- [1]
+					38.6340000000018, -- [2]
+					["source"] = "Nightmare Abomination",
+					["active"] = false,
+				},
+			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["combat_data"] = {
+	["cooldowns_timeline"] = {
 		{
-			["date_end"] = "00:28:02",
-			["date_start"] = "00:27:22",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 40.1589999999997,
+			["Katacola-Dentarg"] = {
+				{
+					15.038999999997, -- [1]
+					"Katacola-Dentarg", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
 		}, -- [1]
 		{
-			["date_end"] = "00:25:09",
-			["date_start"] = "00:24:03",
-			["name"] = "Dresaron",
-			["total_time"] = 65.7360000000008,
+			["Katacola-Dentarg"] = {
+				{
+					48.4490000000005, -- [1]
+					"Katacola-Dentarg", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
-			["date_end"] = "00:20:30",
-			["date_start"] = "00:19:20",
-			["name"] = "Oakheart",
-			["total_time"] = 69.9339999999975,
+			["Katacola-Dentarg"] = {
+				{
+					31.9989999999998, -- [1]
+					"Katacola-Dentarg", -- [2]
+					22812, -- [3]
+				}, -- [1]
+				{
+					33.3889999999992, -- [1]
+					"Katacola-Dentarg", -- [2]
+					22842, -- [3]
+				}, -- [2]
+				{
+					66.2249999999986, -- [1]
+					"Katacola-Dentarg", -- [2]
+					22842, -- [3]
+				}, -- [3]
+			},
 		}, -- [3]
 		{
-			["date_end"] = "00:16:09",
-			["date_start"] = "00:15:30",
-			["name"] = "Archdruid Glaidalis",
-			["total_time"] = 38.6340000000018,
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
 		}, -- [4]
 	},
 }

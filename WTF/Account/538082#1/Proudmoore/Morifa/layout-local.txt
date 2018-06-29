@@ -1,11 +1,4 @@
 Version: 1
-Frame: ImmersionToast
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -329
-Y: -258
-W: 235
-H: 25
 Frame: ColorPickerFrame
 FrameLevel: 21
 Anchor: CENTER
@@ -48,6 +41,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: ImmersionToast
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -329
+Y: -258
+W: 235
+H: 25
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT

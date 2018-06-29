@@ -1,5 +1,74 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Caillis-Tichondrius"] = {
+				{
+					61.4729999999981, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Kalithumos-Tichondrius"] = {
+				{
+					72.8960000000006, -- [1]
+					"Kaldorath", -- [2]
+					633, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Reportmepls-Tichondrius"] = {
+				{
+					76.5190000000002, -- [1]
+					"Reportmepls-Tichondrius", -- [2]
+					108416, -- [3]
+				}, -- [1]
+			},
+			["Kaligon-Tichondrius"] = {
+				{
+					70.8799999999974, -- [1]
+					"Kaligon-Tichondrius", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+			["Caillis-Tichondrius"] = {
+				{
+					35.2940000000017, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					31224, -- [3]
+				}, -- [1]
+				{
+					76.8309999999983, -- [1]
+					"Caillis-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [2]
+			},
+			["Kalithumos-Tichondrius"] = {
+				{
+					60.2220000000016, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					31850, -- [3]
+				}, -- [1]
+				{
+					106.311000000002, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					6940, -- [3]
+				}, -- [2]
+				{
+					106.311000000002, -- [1]
+					"Reportmepls-Tichondrius", -- [2]
+					6940, -- [3]
+				}, -- [3]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -47,37 +116,6 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
-			["Kaldorath"] = {
-				{
-					["time"] = 71.5699999999997,
-					["events"] = {
-						{
-							true, -- [1]
-							238315, -- [2]
-							185597, -- [3]
-							1520134861.35, -- [4]
-							4657423, -- [5]
-							"Hellblaze Mistress", -- [6]
-							nil, -- [7]
-							32, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							236551, -- [2]
-							14409977, -- [3]
-							1520134863.046, -- [4]
-							1, -- [5]
-							"Domatrax", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							9711347, -- [10]
-						}, -- [2]
-					},
-				}, -- [1]
-			},
 			["Kalithumos-Tichondrius"] = {
 				{
 					["time"] = 71.5699999999997,
@@ -121,6 +159,37 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
+			["Kaldorath"] = {
+				{
+					["time"] = 71.5699999999997,
+					["events"] = {
+						{
+							true, -- [1]
+							238315, -- [2]
+							185597, -- [3]
+							1520134861.35, -- [4]
+							4657423, -- [5]
+							"Hellblaze Mistress", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							236551, -- [2]
+							14409977, -- [3]
+							1520134863.046, -- [4]
+							1, -- [5]
+							"Domatrax", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							9711347, -- [10]
+						}, -- [2]
+					},
+				}, -- [1]
+			},
 		}, -- [2]
 		{
 			["Kaldorath"] = {
@@ -158,39 +227,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_start"] = "19:42:38",
-			["date_end"] = "19:44:18",
-			["name"] = "Mephistroth",
-			["total_time"] = 100.190000000002,
-		}, -- [1]
-		{
-			["date_start"] = "19:39:52",
-			["date_end"] = "19:41:42",
-			["name"] = "Domatrax",
-			["total_time"] = 110.000999999997,
-		}, -- [2]
-		{
-			["date_start"] = "19:35:47",
-			["date_end"] = "19:36:43",
-			["name"] = "Thrashbite the Scornful",
-			["total_time"] = 55.5650000000023,
-		}, -- [3]
-		{
-			["date_start"] = "19:32:02",
-			["date_end"] = "19:33:06",
-			["name"] = "Agronox",
-			["total_time"] = 63.4619999999995,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Reportmepls-Tichondrius"] = {
@@ -492,12 +529,10 @@ DetailsTimeLineDB = {
 					["source"] = "Agronox",
 					["active"] = false,
 				},
-				[243613] = {
-					10.4850000000006, -- [1]
-					22.6880000000019, -- [2]
-					50.5780000000013, -- [3]
-					63.4619999999995, -- [4]
-					["source"] = "Fulminating Lasher",
+				[240065] = {
+					27.4729999999981, -- [1]
+					27.5440000000017, -- [2]
+					["source"] = "Succulent Lasher",
 					["active"] = false,
 				},
 				[238598] = {
@@ -506,82 +541,47 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Choking Vines",
 					["active"] = false,
 				},
-				[240065] = {
-					27.4729999999981, -- [1]
-					27.5440000000017, -- [2]
-					["source"] = "Succulent Lasher",
+				[243613] = {
+					10.4850000000006, -- [1]
+					22.6880000000019, -- [2]
+					50.5780000000013, -- [3]
+					63.4619999999995, -- [4]
+					["source"] = "Fulminating Lasher",
 					["active"] = false,
 				},
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
 		{
-			["Caillis-Tichondrius"] = {
-				{
-					61.4729999999981, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-			["Kalithumos-Tichondrius"] = {
-				{
-					72.8960000000006, -- [1]
-					"Kaldorath", -- [2]
-					633, -- [3]
-				}, -- [1]
-			},
+			["date_end"] = "19:44:18",
+			["date_start"] = "19:42:38",
+			["name"] = "Mephistroth",
+			["total_time"] = 100.190000000002,
 		}, -- [1]
 		{
-			["Kaligon-Tichondrius"] = {
-				{
-					70.8799999999974, -- [1]
-					"Kaligon-Tichondrius", -- [2]
-					45438, -- [3]
-				}, -- [1]
-			},
-			["Reportmepls-Tichondrius"] = {
-				{
-					76.5190000000002, -- [1]
-					"Reportmepls-Tichondrius", -- [2]
-					108416, -- [3]
-				}, -- [1]
-			},
-			["Caillis-Tichondrius"] = {
-				{
-					35.2940000000017, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					31224, -- [3]
-				}, -- [1]
-				{
-					76.8309999999983, -- [1]
-					"Caillis-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [2]
-			},
-			["Kalithumos-Tichondrius"] = {
-				{
-					60.2220000000016, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					31850, -- [3]
-				}, -- [1]
-				{
-					106.311000000002, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					6940, -- [3]
-				}, -- [2]
-				{
-					106.311000000002, -- [1]
-					"Reportmepls-Tichondrius", -- [2]
-					6940, -- [3]
-				}, -- [3]
-			},
+			["date_end"] = "19:41:42",
+			["date_start"] = "19:39:52",
+			["name"] = "Domatrax",
+			["total_time"] = 110.000999999997,
 		}, -- [2]
 		{
+			["date_end"] = "19:36:43",
+			["date_start"] = "19:35:47",
+			["name"] = "Thrashbite the Scornful",
+			["total_time"] = 55.5650000000023,
 		}, -- [3]
 		{
+			["date_end"] = "19:33:06",
+			["date_start"] = "19:32:02",
+			["name"] = "Agronox",
+			["total_time"] = 63.4619999999995,
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }
