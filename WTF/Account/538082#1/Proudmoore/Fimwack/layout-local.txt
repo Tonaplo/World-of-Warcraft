@@ -34,6 +34,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: ImmersionToast
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -339
+Y: -253
+W: 235
+H: 25
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT

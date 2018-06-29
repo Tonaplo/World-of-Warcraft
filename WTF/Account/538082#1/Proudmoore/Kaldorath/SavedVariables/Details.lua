@@ -5,9 +5,3870 @@ _detalhes_database = {
 	["mythic_dungeon_id"] = 4,
 	["tabela_historico"] = {
 		["tabelas"] = {
+			{
+				{
+					["combatId"] = 1253,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003981,
+							["damage_from"] = {
+								["Twilight Ritualist"] = true,
+							},
+							["targets"] = {
+								["Twilight Ritualist"] = 9849849,
+							},
+							["total"] = 9849849.003981,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DEMONHUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9849849.003981,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1530216773,
+							["friendlyfire_total"] = 0,
+							["spec"] = 577,
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 136612,
+										["g_amt"] = 0,
+										["n_max"] = 52264,
+										["targets"] = {
+											["Twilight Ritualist"] = 255050,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 118438,
+										["n_min"] = 22376,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 255050,
+										["c_max"] = 86076,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 50536,
+									}, -- [1]
+									[213243] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 457060,
+										["targets"] = {
+											["Twilight Ritualist"] = 457060,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 457060,
+										["n_min"] = 457060,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 457060,
+										["c_max"] = 0,
+										["id"] = 213243,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[201428] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1060550,
+										["g_amt"] = 0,
+										["n_max"] = 465154,
+										["targets"] = {
+											["Twilight Ritualist"] = 2317086,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1256536,
+										["n_min"] = 363314,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2317086,
+										["c_max"] = 1060550,
+										["id"] = 201428,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 1060550,
+									},
+									[202446] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 817905,
+										["g_amt"] = 0,
+										["n_max"] = 408952,
+										["targets"] = {
+											["Twilight Ritualist"] = 1226857,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 408952,
+										["n_min"] = 408952,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1226857,
+										["c_max"] = 817905,
+										["id"] = 202446,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 817905,
+									},
+									[210153] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 329561,
+										["g_amt"] = 0,
+										["n_max"] = 217475,
+										["targets"] = {
+											["Twilight Ritualist"] = 1032735,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 703174,
+										["n_min"] = 66584,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1032735,
+										["c_max"] = 171701,
+										["id"] = 210153,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 157860,
+									},
+									[192611] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 469548,
+										["g_amt"] = 0,
+										["n_max"] = 234773,
+										["targets"] = {
+											["Twilight Ritualist"] = 704321,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 234773,
+										["n_min"] = 234773,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 704321,
+										["c_max"] = 469548,
+										["id"] = 192611,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 469548,
+									},
+									[198030] = {
+										["c_amt"] = 20,
+										["b_amt"] = 0,
+										["c_dmg"] = 3237923,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Twilight Ritualist"] = 3237923,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 3237923,
+										["c_max"] = 174935,
+										["id"] = 198030,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 134370,
+									},
+									[236237] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 30733,
+										["targets"] = {
+											["Twilight Ritualist"] = 137757,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 137757,
+										["n_min"] = 24004,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 137757,
+										["c_max"] = 0,
+										["id"] = 236237,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[253098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 240530,
+										["targets"] = {
+											["Twilight Ritualist"] = 481060,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 481060,
+										["n_min"] = 240530,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 481060,
+										["c_max"] = 0,
+										["id"] = 253098,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A6AF472",
+							["last_dps"] = 935585.961624313,
+							["custom"] = 0,
+							["last_event"] = 1530216770,
+							["damage_taken"] = 468891.003981,
+							["start_time"] = 1530216762,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1253,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Kaldorath"] = 8715014,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEMONHUNTER",
+							["totalover"] = 8715014.006178,
+							["total_without_pet"] = 468891.006178,
+							["total"] = 468891.006178,
+							["targets_absorbs"] = {
+								["Kaldorath"] = 215552,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A6AF472",
+							["totalabsorb"] = 215552.006178,
+							["last_hps"] = 44537.5195837756,
+							["targets"] = {
+								["Kaldorath"] = 4509911,
+							},
+							["totalover_without_pet"] = 0.006178,
+							["healing_taken"] = 468891.006178,
+							["fight_component"] = true,
+							["end_time"] = 1530216773,
+							["healing_from"] = {
+								["Kaldorath"] = true,
+							},
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[228532] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 1010484,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Kaldorath"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 1010484,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 228532,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[178963] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 1205621,
+										},
+										["n_max"] = 57484,
+										["targets"] = {
+											["Kaldorath"] = 57484,
+										},
+										["n_min"] = 57484,
+										["counter"] = 1,
+										["overheal"] = 1205621,
+										["total"] = 57484,
+										["c_max"] = 0,
+										["id"] = 178963,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 57484,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[230090] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 215552,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 107776,
+										["targets"] = {
+											["Kaldorath"] = 215552,
+										},
+										["n_min"] = 107776,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 215552,
+										["c_max"] = 0,
+										["id"] = 230090,
+										["targets_absorbs"] = {
+											["Kaldorath"] = 215552,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 215552,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 6498909,
+										},
+										["n_max"] = 93599,
+										["targets"] = {
+											["Kaldorath"] = 195855,
+										},
+										["n_min"] = 0,
+										["counter"] = 8,
+										["overheal"] = 6498909,
+										["total"] = 195855,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 195855,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1530216762,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 577,
+							["totaldenied"] = 0.006178,
+							["delay"] = 0,
+							["last_event"] = 1530216771,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1253,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 175.00119,
+							["resource"] = 0.00119,
+							["targets"] = {
+								["Kaldorath"] = 175,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEMONHUNTER",
+							["fight_component"] = true,
+							["total"] = 175.00119,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1530216771,
+							["alternatepower"] = 0.00119,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193840] = {
+										["id"] = 193840,
+										["total"] = 20,
+										["targets"] = {
+											["Kaldorath"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[210041] = {
+										["id"] = 210041,
+										["total"] = 105,
+										["targets"] = {
+											["Kaldorath"] = 105,
+										},
+										["counter"] = 3,
+									},
+									[218903] = {
+										["id"] = 218903,
+										["total"] = 50,
+										["targets"] = {
+											["Kaldorath"] = 50,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1253,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[230088] = {
+										["activedamt"] = 0,
+										["id"] = 230088,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202443] = {
+										["activedamt"] = 0,
+										["id"] = 202443,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 2,
+										["refreshamt"] = 18,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 60,
+							["classe"] = "DEMONHUNTER",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[183752] = {
+										["id"] = 183752,
+										["interrompeu_oque"] = {
+											[91997] = 1,
+										},
+										["targets"] = {
+											["Twilight Ritualist"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[210152] = {
+										["activedamt"] = 1,
+										["id"] = 210152,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198013] = {
+										["activedamt"] = 1,
+										["id"] = 198013,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[162264] = {
+										["activedamt"] = 1,
+										["id"] = 162264,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186401] = {
+										["activedamt"] = 1,
+										["id"] = 186401,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208628] = {
+										["activedamt"] = 1,
+										["id"] = 208628,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[203533] = {
+										["activedamt"] = 1,
+										["id"] = 203533,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["interrompeu_oque"] = {
+								[91997] = 1,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 10,
+							["interrupt_targets"] = {
+								["Twilight Ritualist"] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 577,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[183752] = 1,
+								[232893] = 1,
+								[198013] = 1,
+								[210152] = 1,
+								[201427] = 3,
+							},
+							["interrupt"] = 1.001197,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1530216773,
+							["nome"] = "Kaldorath",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1253,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kaldorath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Twilight Ritualist",
+				["combat_counter"] = 1764,
+				["playing_solo"] = true,
+				["totals"] = {
+					9849848.90644199, -- [1]
+					468890.979952, -- [2]
+					{
+						0, -- [1]
+						[0] = 174.980916,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = -0.002775,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kaldorath"] = 468891.006178,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kaldorath"] = 9849849.003981,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 8545.302,
+				["combat_id"] = 1253,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Twilight Ritualist"] = 2,
+					["Ogmot the Mad"] = 1,
+				},
+				["data_fim"] = "13:12:53",
+				["data_inicio"] = "13:12:43",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					9849849, -- [1]
+					468891, -- [2]
+					{
+						0, -- [1]
+						[0] = 175,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 8534.774,
+				["contra"] = "Twilight Ritualist",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						944851.003981, -- [1]
+						559860, -- [2]
+						0, -- [3]
+						2919939, -- [4]
+						980011, -- [5]
+						677412, -- [6]
+						2250875, -- [7]
+						456351, -- [8]
+						1060550, -- [9]
+						0, -- [10]
+						["max_value"] = 2919939,
+					},
+					["Raid Damage Done"] = {
+						944851, -- [1]
+						559860, -- [2]
+						0, -- [3]
+						2919939, -- [4]
+						980011, -- [5]
+						677412, -- [6]
+						2250875, -- [7]
+						456351, -- [8]
+						1060550, -- [9]
+						0, -- [10]
+						["max_value"] = 2919939,
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 1252,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007051,
+							["total"] = 12173256.007051,
+							["damage_from"] = {
+								["Twilight Earthbreaker"] = true,
+								["Twilight Survivor"] = true,
+							},
+							["targets"] = {
+								["Twilight Earthbreaker"] = 3676534,
+								["Twilight Ritualist"] = 3558819,
+								["Twilight Survivor"] = 4937903,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "DEMONHUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12173256.007051,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1530216743,
+							["on_hold"] = false,
+							["spec"] = 577,
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 213430,
+										["g_amt"] = 0,
+										["n_max"] = 44083,
+										["targets"] = {
+											["Twilight Ritualist"] = 234124,
+											["Twilight Survivor"] = 151427,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 172121,
+										["n_min"] = 21160,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 385551,
+										["c_max"] = 87075,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 44109,
+									}, -- [1]
+									[199552] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 213226,
+										["g_amt"] = 0,
+										["n_max"] = 132061,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 332611,
+											["Twilight Survivor"] = 328398,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 447783,
+										["n_min"] = 44783,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 661009,
+										["c_max"] = 107443,
+										["id"] = 199552,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 105783,
+									},
+									[198030] = {
+										["c_amt"] = 16,
+										["b_amt"] = 0,
+										["c_dmg"] = 2221163,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 1385138,
+											["Twilight Ritualist"] = 562563,
+											["Twilight Survivor"] = 273462,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 2221163,
+										["c_max"] = 145754,
+										["id"] = 198030,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 132900,
+									},
+									[236237] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 53310,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 30435,
+											["Twilight Ritualist"] = 30435,
+											["Twilight Survivor"] = 129534,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 190404,
+										["n_min"] = 29750,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 190404,
+										["c_max"] = 0,
+										["id"] = 236237,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[202446] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 817904,
+										["g_amt"] = 0,
+										["n_max"] = 163580,
+										["targets"] = {
+											["Twilight Ritualist"] = 163580,
+											["Twilight Earthbreaker"] = 817904,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 163580,
+										["n_min"] = 163580,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 981484,
+										["c_max"] = 817904,
+										["id"] = 202446,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 817904,
+									},
+									[185123] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 449371,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 449371,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 449371,
+										["c_max"] = 449371,
+										["id"] = 185123,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 449371,
+									},
+									[210153] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 687520,
+										["g_amt"] = 0,
+										["n_max"] = 201549,
+										["targets"] = {
+											["Twilight Ritualist"] = 585532,
+											["Twilight Survivor"] = 727301,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 625313,
+										["n_min"] = 64902,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 1312833,
+										["c_max"] = 510225,
+										["id"] = 210153,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 177295,
+									},
+									[200166] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 204364,
+										["targets"] = {
+											["Twilight Ritualist"] = 408724,
+											["Twilight Survivor"] = 204364,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 613088,
+										["n_min"] = 204362,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 613088,
+										["c_max"] = 0,
+										["id"] = 200166,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[201428] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 460633,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 460633,
+											["Twilight Ritualist"] = 450261,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 910894,
+										["n_min"] = 450261,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 910894,
+										["c_max"] = 0,
+										["id"] = 201428,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[213243] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 769240,
+										["g_amt"] = 0,
+										["n_max"] = 383455,
+										["targets"] = {
+											["Twilight Survivor"] = 1152695,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 383455,
+										["n_min"] = 383455,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1152695,
+										["c_max"] = 769240,
+										["id"] = 213243,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 769240,
+									},
+									[253098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 200442,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 200442,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 200442,
+										["n_min"] = 200442,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 200442,
+										["c_max"] = 0,
+										["id"] = 253098,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[162243] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 1361291,
+										["g_amt"] = 0,
+										["n_max"] = 222796,
+										["targets"] = {
+											["Twilight Ritualist"] = 1123600,
+											["Twilight Survivor"] = 460487,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 222796,
+										["n_min"] = 222796,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1584087,
+										["c_max"] = 465058,
+										["id"] = 162243,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 435746,
+									},
+									[199547] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1510235,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Twilight Survivor"] = 1510235,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1510235,
+										["c_max"] = 806853,
+										["id"] = 199547,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 703382,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A6AF472",
+							["last_dps"] = 649378.854531715,
+							["custom"] = 0,
+							["last_event"] = 1530216742,
+							["damage_taken"] = 178373.007051,
+							["start_time"] = 1530216725,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1252,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Kaldorath"] = 5508042,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEMONHUNTER",
+							["totalover"] = 5508042.004711,
+							["total_without_pet"] = 178373.004711,
+							["total"] = 178373.004711,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A6AF472",
+							["totalabsorb"] = 0.004711,
+							["last_hps"] = 9515.25683937948,
+							["targets"] = {
+								["Kaldorath"] = 1382813,
+							},
+							["totalover_without_pet"] = 0.004711,
+							["healing_taken"] = 178373.004711,
+							["fight_component"] = true,
+							["end_time"] = 1530216743,
+							["healing_from"] = {
+								["Kaldorath"] = true,
+							},
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 5508042,
+										},
+										["n_max"] = 112643,
+										["targets"] = {
+											["Kaldorath"] = 178373,
+										},
+										["n_min"] = 0,
+										["counter"] = 15,
+										["overheal"] = 5508042,
+										["total"] = 178373,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 178373,
+										["n_amt"] = 15,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1530216725,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 577,
+							["totaldenied"] = 0.004711,
+							["delay"] = 0,
+							["last_event"] = 1530216743,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1252,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 328.003056,
+							["resource"] = 0.003056,
+							["targets"] = {
+								["Kaldorath"] = 328,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEMONHUNTER",
+							["fight_component"] = true,
+							["total"] = 328.003056,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1530216756,
+							["alternatepower"] = 0.003056,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[202120] = {
+										["id"] = 202120,
+										["total"] = 40,
+										["targets"] = {
+											["Kaldorath"] = 40,
+										},
+										["counter"] = 2,
+									},
+									[193840] = {
+										["id"] = 193840,
+										["total"] = 20,
+										["targets"] = {
+											["Kaldorath"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[162243] = {
+										["id"] = 162243,
+										["total"] = 103,
+										["targets"] = {
+											["Kaldorath"] = 103,
+										},
+										["counter"] = 4,
+									},
+									[210041] = {
+										["id"] = 210041,
+										["total"] = 105,
+										["targets"] = {
+											["Kaldorath"] = 105,
+										},
+										["counter"] = 3,
+									},
+									[213243] = {
+										["id"] = 213243,
+										["total"] = 60,
+										["targets"] = {
+											["Kaldorath"] = 60,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1252,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[202443] = {
+										["activedamt"] = 0,
+										["id"] = 202443,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 3,
+										["refreshamt"] = 12,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[200166] = {
+										["activedamt"] = 0,
+										["id"] = 200166,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 87,
+							["classe"] = "DEMONHUNTER",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[210152] = {
+										["activedamt"] = 1,
+										["id"] = 210152,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188499] = {
+										["activedamt"] = 1,
+										["id"] = 188499,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[162264] = {
+										["activedamt"] = 2,
+										["id"] = 162264,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186401] = {
+										["activedamt"] = 1,
+										["id"] = 186401,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198013] = {
+										["activedamt"] = 2,
+										["id"] = 198013,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[203533] = {
+										["activedamt"] = 1,
+										["id"] = 203533,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 6,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 577,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[162794] = 1,
+								[232893] = 2,
+								[162243] = 4,
+								[210152] = 1,
+								[198013] = 1,
+								[201427] = 2,
+								[200166] = 1,
+								[188499] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1530216743,
+							["nome"] = "Kaldorath",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1252,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kaldorath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Twilight Earthbreaker",
+				["combat_counter"] = 1762,
+				["playing_solo"] = true,
+				["totals"] = {
+					12173255.938446, -- [1]
+					178372.993605, -- [2]
+					{
+						0, -- [1]
+						[0] = 335.986648,
+						["alternatepower"] = 0,
+						[3] = -8.00263,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kaldorath"] = 178373.008501,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kaldorath"] = 17472641.01373,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 8516.115,
+				["combat_id"] = 1252,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Twilight Earthbreaker"] = 1,
+					["Twilight Ritualist"] = 3,
+					["Twilight Survivor"] = 2,
+				},
+				["data_fim"] = "13:12:24",
+				["data_inicio"] = "13:12:05",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					12173256, -- [1]
+					178373, -- [2]
+					{
+						0, -- [1]
+						[0] = 328,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 8497.369,
+				["contra"] = "Twilight Earthbreaker",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1154383.007051, -- [1]
+						829297, -- [2]
+						843957, -- [3]
+						427564, -- [4]
+						304550, -- [5]
+						356459, -- [6]
+						1372365, -- [7]
+						892441, -- [8]
+						243956, -- [9]
+						1502987, -- [10]
+						0, -- [11]
+						836127, -- [12]
+						1176869, -- [13]
+						547304, -- [14]
+						769240, -- [15]
+						0, -- [16]
+						435746, -- [17]
+						480011, -- [18]
+						["max_value"] = 1502987,
+					},
+					["Raid Damage Done"] = {
+						1154383, -- [1]
+						829297, -- [2]
+						843957, -- [3]
+						427564, -- [4]
+						304550, -- [5]
+						356459, -- [6]
+						1372365, -- [7]
+						892441, -- [8]
+						243956, -- [9]
+						1502987, -- [10]
+						0, -- [11]
+						836127, -- [12]
+						1176869, -- [13]
+						547304, -- [14]
+						769240, -- [15]
+						0, -- [16]
+						435746, -- [17]
+						480011, -- [18]
+						["max_value"] = 1502987,
+					},
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 1251,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004146,
+							["total"] = 2560130.004146,
+							["damage_from"] = {
+								["Twilight Earthbreaker"] = true,
+								["Twilight Ritualist"] = true,
+							},
+							["targets"] = {
+								["Twilight Earthbreaker"] = 1209944,
+								["Twilight Ritualist"] = 1350186,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "DEMONHUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2560130.004146,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1530216719,
+							["on_hold"] = false,
+							["spec"] = 577,
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 204004,
+										["g_amt"] = 0,
+										["n_max"] = 37956,
+										["targets"] = {
+											["Twilight Ritualist"] = 186885,
+											["Twilight Earthbreaker"] = 128549,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 111430,
+										["n_min"] = 17147,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 315434,
+										["c_max"] = 90237,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 39912,
+									}, -- [1]
+									[162243] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 180980,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 180980,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 180980,
+										["n_min"] = 180980,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 180980,
+										["c_max"] = 0,
+										["id"] = 162243,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[199547] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 268180,
+										["targets"] = {
+											["Twilight Ritualist"] = 520903,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 520903,
+										["n_min"] = 252723,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 520903,
+										["c_max"] = 0,
+										["id"] = 199547,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 252723,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[192611] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 600827,
+										["g_amt"] = 0,
+										["n_max"] = 300414,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 582143,
+											["Twilight Ritualist"] = 600827,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 582143,
+										["n_min"] = 281729,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1182970,
+										["c_max"] = 600827,
+										["id"] = 192611,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 600827,
+									},
+									[198813] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 36173,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 36173,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 36173,
+										["n_min"] = 36173,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 36173,
+										["c_max"] = 0,
+										["id"] = 198813,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[236237] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 23853,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 41571,
+											["Twilight Ritualist"] = 41571,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 83142,
+										["n_min"] = 17718,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 83142,
+										["c_max"] = 0,
+										["id"] = 236237,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[253098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 240528,
+										["targets"] = {
+											["Twilight Earthbreaker"] = 240528,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 240528,
+										["n_min"] = 240528,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 240528,
+										["c_max"] = 0,
+										["id"] = 253098,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A6AF472",
+							["last_dps"] = 161440.913365258,
+							["custom"] = 0,
+							["last_event"] = 1530216719,
+							["damage_taken"] = 392135.004146,
+							["start_time"] = 1530216703,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1251,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Kaldorath"] = 21648,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEMONHUNTER",
+							["totalover"] = 21648.007594,
+							["total_without_pet"] = 21552.007594,
+							["total"] = 21552.007594,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A6AF472",
+							["totalabsorb"] = 0.007594,
+							["last_hps"] = 1359.06215121719,
+							["targets"] = {
+								["Kaldorath"] = 21552,
+							},
+							["totalover_without_pet"] = 0.007594,
+							["healing_taken"] = 21552.007594,
+							["fight_component"] = true,
+							["end_time"] = 1530216719,
+							["healing_from"] = {
+								["Kaldorath"] = true,
+							},
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 21648,
+										},
+										["n_max"] = 12210,
+										["targets"] = {
+											["Kaldorath"] = 21552,
+										},
+										["n_min"] = 325,
+										["counter"] = 9,
+										["overheal"] = 21648,
+										["total"] = 21552,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 21552,
+										["n_amt"] = 9,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1530216703,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 577,
+							["totaldenied"] = 0.007594,
+							["delay"] = 0,
+							["last_event"] = 1530216719,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1251,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 59.004129,
+							["resource"] = 0.004129,
+							["targets"] = {
+								["Kaldorath"] = 59,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEMONHUNTER",
+							["fight_component"] = true,
+							["total"] = 59.004129,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1530216724,
+							["alternatepower"] = 0.004129,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[162243] = {
+										["id"] = 162243,
+										["total"] = 24,
+										["targets"] = {
+											["Kaldorath"] = 24,
+										},
+										["counter"] = 1,
+									},
+									[210041] = {
+										["id"] = 210041,
+										["total"] = 35,
+										["targets"] = {
+											["Kaldorath"] = 35,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1251,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[198813] = {
+										["activedamt"] = 0,
+										["id"] = 198813,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 54,
+							["classe"] = "DEMONHUNTER",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186401] = {
+										["activedamt"] = 1,
+										["id"] = 186401,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208628] = {
+										["activedamt"] = 2,
+										["id"] = 208628,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[203533] = {
+										["activedamt"] = 1,
+										["id"] = 203533,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 1,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 577,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[198793] = 1,
+								[162243] = 1,
+								[162794] = 1,
+								[195072] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1530216719,
+							["nome"] = "Kaldorath",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1251,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kaldorath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Twilight Earthbreaker",
+				["combat_counter"] = 1761,
+				["playing_solo"] = true,
+				["totals"] = {
+					2560129.961989, -- [1]
+					21551.994531, -- [2]
+					{
+						0, -- [1]
+						[0] = 58.996495,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kaldorath"] = 21552.007594,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kaldorath"] = 2560130.004146,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 8491.756,
+				["combat_id"] = 1251,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Twilight Earthbreaker"] = 2,
+					["Twilight Ritualist"] = 1,
+				},
+				["data_fim"] = "13:12:00",
+				["data_inicio"] = "13:11:44",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2560130, -- [1]
+					21552, -- [2]
+					{
+						0, -- [1]
+						[0] = 59,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 8475.898,
+				["contra"] = "Twilight Earthbreaker",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1141769.004146, -- [1]
+						0, -- [2]
+						643957, -- [3]
+						0, -- [4]
+						91002, -- [5]
+						0, -- [6]
+						55971, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						18393, -- [13]
+						180980, -- [14]
+						146329, -- [15]
+						["max_value"] = 1141769.004146,
+					},
+					["Raid Damage Done"] = {
+						1141769, -- [1]
+						0, -- [2]
+						643957, -- [3]
+						0, -- [4]
+						91002, -- [5]
+						0, -- [6]
+						55971, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						18393, -- [13]
+						180980, -- [14]
+						146329, -- [15]
+						["max_value"] = 1141769,
+					},
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 1250,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002792,
+							["total"] = 10386309.002792,
+							["damage_from"] = {
+								["Twilight Ritualist"] = true,
+								["Twilight Survivor"] = true,
+							},
+							["targets"] = {
+								["Twilight Ritualist"] = 4924108,
+								["Twilight Survivor"] = 5462201,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "DEMONHUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 10386309.002792,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1530216699,
+							["on_hold"] = false,
+							["spec"] = 577,
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 45583,
+										["g_amt"] = 0,
+										["n_max"] = 44735,
+										["targets"] = {
+											["Twilight Ritualist"] = 157694,
+											["Twilight Survivor"] = 110784,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 222895,
+										["n_min"] = 16762,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 268478,
+										["c_max"] = 45583,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 45583,
+									}, -- [1]
+									[199552] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 229311,
+										["g_amt"] = 0,
+										["n_max"] = 142808,
+										["targets"] = {
+											["Twilight Ritualist"] = 330749,
+											["Twilight Survivor"] = 339692,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 441130,
+										["n_min"] = 36288,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 670441,
+										["c_max"] = 115990,
+										["id"] = 199552,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 113321,
+									},
+									[192611] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 234773,
+										["targets"] = {
+											["Twilight Survivor"] = 234773,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 234773,
+										["n_min"] = 234773,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 234773,
+										["c_max"] = 0,
+										["id"] = 192611,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[201628] = {
+										["c_amt"] = 13,
+										["b_amt"] = 0,
+										["c_dmg"] = 1938054,
+										["g_amt"] = 0,
+										["n_max"] = 94627,
+										["targets"] = {
+											["Twilight Ritualist"] = 1470739,
+											["Twilight Survivor"] = 1442933,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 975618,
+										["n_min"] = 44258,
+										["g_dmg"] = 0,
+										["counter"] = 28,
+										["total"] = 2913672,
+										["c_max"] = 193703,
+										["id"] = 201628,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 90208,
+									},
+									[199547] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2423651,
+										["g_amt"] = 0,
+										["n_max"] = 339706,
+										["targets"] = {
+											["Twilight Ritualist"] = 616378,
+											["Twilight Survivor"] = 2423651,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 616378,
+										["n_min"] = 276672,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 3040029,
+										["c_max"] = 895604,
+										["id"] = 199547,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 639703,
+									},
+									[185123] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 235286,
+										["targets"] = {
+											["Twilight Ritualist"] = 235286,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 235286,
+										["n_min"] = 235286,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 235286,
+										["c_max"] = 0,
+										["id"] = 185123,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[202388] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 664180,
+										["targets"] = {
+											["Twilight Ritualist"] = 664180,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 664180,
+										["n_min"] = 664180,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 664180,
+										["c_max"] = 0,
+										["id"] = 202388,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[236237] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 59174,
+										["targets"] = {
+											["Twilight Ritualist"] = 182579,
+											["Twilight Survivor"] = 100962,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 283541,
+										["n_min"] = 22445,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 283541,
+										["c_max"] = 0,
+										["id"] = 236237,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[213243] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 288079,
+										["targets"] = {
+											["Twilight Ritualist"] = 288079,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 288079,
+										["n_min"] = 288079,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 288079,
+										["c_max"] = 0,
+										["id"] = 213243,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[253098] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 400883,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Twilight Ritualist"] = 400883,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 400883,
+										["c_max"] = 400883,
+										["id"] = 253098,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 400883,
+									},
+									[217070] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 577541,
+										["targets"] = {
+											["Twilight Ritualist"] = 577541,
+											["Twilight Survivor"] = 577539,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1155080,
+										["n_min"] = 577539,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1155080,
+										["c_max"] = 0,
+										["id"] = 217070,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[162243] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 231867,
+										["targets"] = {
+											["Twilight Survivor"] = 231867,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 231867,
+										["n_min"] = 231867,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 231867,
+										["c_max"] = 0,
+										["id"] = 162243,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A6AF472",
+							["last_dps"] = 782573.011060335,
+							["custom"] = 0,
+							["last_event"] = 1530216698,
+							["damage_taken"] = 278258.002792,
+							["start_time"] = 1530216686,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1250,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Kaldorath"] = 442949,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEMONHUNTER",
+							["totalover"] = 442949.005504,
+							["total_without_pet"] = 169060.005504,
+							["total"] = 169060.005504,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A6AF472",
+							["totalabsorb"] = 0.005504,
+							["last_hps"] = 12738.0956528038,
+							["targets"] = {
+								["Kaldorath"] = 169060,
+							},
+							["totalover_without_pet"] = 0.005504,
+							["healing_taken"] = 169060.005504,
+							["fight_component"] = true,
+							["end_time"] = 1530216699,
+							["healing_from"] = {
+								["Kaldorath"] = true,
+							},
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 442949,
+										},
+										["n_max"] = 45538,
+										["targets"] = {
+											["Kaldorath"] = 169060,
+										},
+										["n_min"] = 7667,
+										["counter"] = 10,
+										["overheal"] = 442949,
+										["total"] = 169060,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 169060,
+										["n_amt"] = 10,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1530216686,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 577,
+							["totaldenied"] = 0.005504,
+							["delay"] = 0,
+							["last_event"] = 1530216698,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1250,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 117.006002,
+							["resource"] = 0.006002,
+							["targets"] = {
+								["Kaldorath"] = 117,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEMONHUNTER",
+							["fight_component"] = true,
+							["total"] = 117.006002,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1530216702,
+							["alternatepower"] = 0.006002,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[202120] = {
+										["id"] = 202120,
+										["total"] = 20,
+										["targets"] = {
+											["Kaldorath"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[162243] = {
+										["id"] = 162243,
+										["total"] = 22,
+										["targets"] = {
+											["Kaldorath"] = 22,
+										},
+										["counter"] = 1,
+									},
+									[210041] = {
+										["id"] = 210041,
+										["total"] = 35,
+										["targets"] = {
+											["Kaldorath"] = 35,
+										},
+										["counter"] = 1,
+									},
+									[193840] = {
+										["id"] = 193840,
+										["total"] = 40,
+										["targets"] = {
+											["Kaldorath"] = 40,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1250,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["flag_original"] = 1047,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 49,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[183752] = 1,
+								[195072] = 1,
+								[162243] = 1,
+								[162794] = 3,
+								[201467] = 1,
+								[188499] = 1,
+								[232893] = 1,
+							},
+							["classe"] = "DEMONHUNTER",
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[188499] = {
+										["activedamt"] = 1,
+										["id"] = 188499,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[162264] = {
+										["activedamt"] = 1,
+										["id"] = 162264,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186401] = {
+										["activedamt"] = 1,
+										["id"] = 186401,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208628] = {
+										["activedamt"] = 1,
+										["id"] = 208628,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[203533] = {
+										["activedamt"] = 1,
+										["id"] = 203533,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["last_event"] = 1530216699,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1250,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kaldorath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Twilight Ritualist",
+				["combat_counter"] = 1760,
+				["playing_solo"] = true,
+				["totals"] = {
+					10386308.958714, -- [1]
+					169059.982237, -- [2]
+					{
+						0, -- [1]
+						[0] = 116.972986,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kaldorath"] = 169060.005504,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kaldorath"] = 10386309.002792,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 8471.901,
+				["combat_id"] = 1250,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Michiel Voidstrider"] = 1,
+					["Twilight Ritualist"] = 1,
+					["Twilight Survivor"] = 1,
+				},
+				["data_fim"] = "13:11:40",
+				["data_inicio"] = "13:11:27",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					10386309, -- [1]
+					169060, -- [2]
+					{
+						0, -- [1]
+						[0] = 117,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 8458.629,
+				["contra"] = "Twilight Ritualist",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						636169.002792, -- [1]
+						234773, -- [2]
+						0, -- [3]
+						277450, -- [4]
+						44610, -- [5]
+						714557, -- [6]
+						1345313, -- [7]
+						1195984, -- [8]
+						1842283, -- [9]
+						1690172, -- [10]
+						1000602, -- [11]
+						765573, -- [12]
+						638823, -- [13]
+						["max_value"] = 1842283,
+					},
+					["Raid Damage Done"] = {
+						636169, -- [1]
+						234773, -- [2]
+						0, -- [3]
+						277450, -- [4]
+						44610, -- [5]
+						714557, -- [6]
+						1345313, -- [7]
+						1195984, -- [8]
+						1842283, -- [9]
+						1690172, -- [10]
+						1000602, -- [11]
+						765573, -- [12]
+						638823, -- [13]
+						["max_value"] = 1842283,
+					},
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 1249,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008667,
+							["total"] = 4752238.008667,
+							["damage_from"] = {
+								["Twilight Survivor"] = true,
+							},
+							["targets"] = {
+								["Twilight Survivor"] = 4752238,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "DEMONHUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4752238.008667,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1530216678,
+							["on_hold"] = false,
+							["spec"] = 577,
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 152196,
+										["g_amt"] = 0,
+										["n_max"] = 42100,
+										["targets"] = {
+											["Twilight Survivor"] = 274405,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 122209,
+										["n_min"] = 18555,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 274405,
+										["c_max"] = 82536,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 69660,
+									}, -- [1]
+									[213243] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 354769,
+										["targets"] = {
+											["Twilight Survivor"] = 354769,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 354769,
+										["n_min"] = 354769,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 354769,
+										["c_max"] = 0,
+										["id"] = 213243,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[199552] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 276425,
+										["g_amt"] = 0,
+										["n_max"] = 39930,
+										["targets"] = {
+											["Twilight Survivor"] = 388404,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 111979,
+										["n_min"] = 35608,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 388404,
+										["c_max"] = 276425,
+										["id"] = 199552,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 276425,
+									},
+									[162243] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 227220,
+										["targets"] = {
+											["Twilight Survivor"] = 227220,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 227220,
+										["n_min"] = 227220,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 227220,
+										["c_max"] = 0,
+										["id"] = 162243,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[199547] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1384860,
+										["g_amt"] = 0,
+										["n_max"] = 345713,
+										["targets"] = {
+											["Twilight Survivor"] = 2012786,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 627926,
+										["n_min"] = 282213,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2012786,
+										["c_max"] = 745741,
+										["id"] = 199547,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 639119,
+									},
+									[192611] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 234774,
+										["targets"] = {
+											["Twilight Survivor"] = 234774,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 234774,
+										["n_min"] = 234774,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 234774,
+										["c_max"] = 0,
+										["id"] = 192611,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[198030] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 1126895,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Twilight Survivor"] = 1126895,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1126895,
+										["c_max"] = 145919,
+										["id"] = 198030,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 135131,
+									},
+									[236237] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 49273,
+										["targets"] = {
+											["Twilight Survivor"] = 132985,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 132985,
+										["n_min"] = 18645,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 132985,
+										["c_max"] = 0,
+										["id"] = 236237,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A6AF472",
+							["last_dps"] = 551367.677070156,
+							["custom"] = 0,
+							["last_event"] = 1530216678,
+							["damage_taken"] = 282418.008667,
+							["start_time"] = 1530216669,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1249,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Kaldorath"] = 1057497,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEMONHUNTER",
+							["totalover"] = 1057497.0024,
+							["total_without_pet"] = 282418.0024,
+							["total"] = 282418.0024,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A6AF472",
+							["totalabsorb"] = 0.0024,
+							["last_hps"] = 32766.9105928809,
+							["targets"] = {
+								["Kaldorath"] = 1321973,
+							},
+							["totalover_without_pet"] = 0.0024,
+							["healing_taken"] = 282418.0024,
+							["fight_component"] = true,
+							["end_time"] = 1530216678,
+							["healing_from"] = {
+								["Kaldorath"] = true,
+							},
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 632909,
+										},
+										["n_max"] = 150966,
+										["targets"] = {
+											["Kaldorath"] = 201764,
+										},
+										["n_min"] = 1997,
+										["counter"] = 8,
+										["overheal"] = 632909,
+										["total"] = 201764,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 201764,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[228532] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 424588,
+										},
+										["n_max"] = 80654,
+										["targets"] = {
+											["Kaldorath"] = 80654,
+										},
+										["n_min"] = 80654,
+										["counter"] = 1,
+										["overheal"] = 424588,
+										["total"] = 80654,
+										["c_max"] = 0,
+										["id"] = 228532,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 80654,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1530216669,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 577,
+							["totaldenied"] = 0.0024,
+							["delay"] = 0,
+							["last_event"] = 1530216678,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1249,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 85.001395,
+							["resource"] = 0.001395,
+							["targets"] = {
+								["Kaldorath"] = 85,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEMONHUNTER",
+							["fight_component"] = true,
+							["total"] = 85.001395,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1530216681,
+							["alternatepower"] = 0.001395,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193840] = {
+										["id"] = 193840,
+										["total"] = 20,
+										["targets"] = {
+											["Kaldorath"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[213243] = {
+										["id"] = 213243,
+										["total"] = 30,
+										["targets"] = {
+											["Kaldorath"] = 30,
+										},
+										["counter"] = 1,
+									},
+									[210041] = {
+										["id"] = 210041,
+										["total"] = 35,
+										["targets"] = {
+											["Kaldorath"] = 35,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1249,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[202443] = {
+										["activedamt"] = 0,
+										["id"] = 202443,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 6,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 35,
+							["classe"] = "DEMONHUNTER",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[198013] = {
+										["activedamt"] = 2,
+										["id"] = 198013,
+										["targets"] = {
+										},
+										["actived_at"] = 1530216677,
+										["uptime"] = 0,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[188499] = {
+										["activedamt"] = 1,
+										["id"] = 188499,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[162264] = {
+										["activedamt"] = 1,
+										["id"] = 162264,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186401] = {
+										["activedamt"] = 1,
+										["id"] = 186401,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208628] = {
+										["activedamt"] = 1,
+										["id"] = 208628,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[203533] = {
+										["activedamt"] = 1,
+										["id"] = 203533,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 1,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 577,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[162794] = 2,
+								[232893] = 1,
+								[162243] = 1,
+								[198013] = 1,
+								[188499] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1530216678,
+							["nome"] = "Kaldorath",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1249,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kaldorath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Twilight Survivor",
+				["combat_counter"] = 1759,
+				["playing_solo"] = true,
+				["totals"] = {
+					4752237.979765, -- [1]
+					282418, -- [2]
+					{
+						0, -- [1]
+						[0] = 84.993305,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kaldorath"] = 282418.0024,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kaldorath"] = 4752238.008667,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 8450.72,
+				["combat_id"] = 1249,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Twilight Survivor"] = 2,
+				},
+				["data_fim"] = "13:11:19",
+				["data_inicio"] = "13:11:10",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					4752238, -- [1]
+					282418, -- [2]
+					{
+						0, -- [1]
+						[0] = 85,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 8442.101,
+				["contra"] = "Twilight Survivor",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						645427.008667, -- [1]
+						342377, -- [2]
+						354769, -- [3]
+						247255, -- [4]
+						141709, -- [5]
+						334910, -- [6]
+						1558896, -- [7]
+						428293, -- [8]
+						["max_value"] = 1558896,
+					},
+					["Raid Damage Done"] = {
+						645427, -- [1]
+						342377, -- [2]
+						354769, -- [3]
+						247255, -- [4]
+						141709, -- [5]
+						334910, -- [6]
+						1558896, -- [7]
+						428293, -- [8]
+						["max_value"] = 1558896,
+					},
+				},
+			}, -- [5]
 		},
 	},
-	["combat_counter"] = 1724,
+	["combat_counter"] = 1764,
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -35,10 +3896,10 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 429.825744628906,
-					["x"] = -839.664337158203,
-					["w"] = 285.462463378906,
-					["h"] = 162.392700195313,
+					["y"] = 428.41796875,
+					["x"] = -835.841339111328,
+					["w"] = 284.439300537109,
+					["h"] = 161.625213623047,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -68,10 +3929,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 429.825744628906,
-					["x"] = -554.713470458984,
-					["w"] = 284.439300537109,
-					["h"] = 162.392639160156,
+					["y"] = 428.41796875,
+					["x"] = -550.506530761719,
+					["w"] = 286.230316162109,
+					["h"] = 161.625213623047,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -83,7 +3944,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1530158898,
+		["nextreset"] = 1531504859,
 		["last_version"] = 10,
 	},
 	["last_instance_id"] = 1677,
@@ -96,7 +3957,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1520133809,
 	["active_profile"] = "Base",
-	["last_day"] = "24",
+	["last_day"] = "28",
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
@@ -180,6 +4041,22 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
+			["y"] = -20.15869140625,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 14,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -191,27 +4068,11 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
-			["y"] = -20.15869140625,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["font_size"] = 14,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["use_spark"] = false,
 			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
@@ -229,14 +4090,20 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -315,23 +4182,12 @@ _detalhes_database = {
 				["window_scale"] = 1,
 			},
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
+			["SpellBarsShowType"] = 1,
 		},
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["last_encounter"] = "Argus the Unmaker",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Cathedral of Eternal Night",
 		["started"] = false,
@@ -343,16 +4199,21 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 1677,
 		["previous_boss_killed_at"] = 1520135058,
 	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["last_encounter"] = "Argus the Unmaker",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
 	["last_realversion"] = 130,
-	["combat_id"] = 1229,
+	["combat_id"] = 1253,
 	["savedStyles"] = {
 	},
 	["character_data"] = {
-		["logons"] = 177,
+		["logons"] = 181,
 	},
 	["force_font_outline"] = "",
 	["announce_deaths"] = {
@@ -365,21 +4226,1210 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.062321,
+					["damage_from"] = {
+						["Qroshekx"] = true,
+						["Unsettling Despair"] = true,
+						["Haunting Phantasm"] = true,
+						["Twilight Earthbreaker"] = true,
+						["Void Tentacle"] = true,
+						["Distressing Vision"] = true,
+						["Bilgewater Laborer"] = true,
+						["Twilight Survivor"] = true,
+						["Bilgewater Prospector"] = true,
+						["Silithid Drone"] = true,
+						["Twilight Ritualist"] = true,
+						["Silithid Sentinel"] = true,
+						["Silithid Spitfire"] = true,
+					},
+					["targets"] = {
+						["Qroshekx"] = 15258726,
+						["Unsettling Despair"] = 8624355,
+						["Haunting Phantasm"] = 6498480,
+						["Twilight Earthbreaker"] = 4886478,
+						["Twilight Survivor"] = 10400104,
+						["Distressing Vision"] = 10203015,
+						["Bilgewater Laborer"] = 23601071,
+						["Twilight Ritualist"] = 19682962,
+						["Silithid Broodling"] = 1822233,
+						["Silithid Drone"] = 19639291,
+						["Silithid Sentinel"] = 4808609,
+						["Bilgewater Prospector"] = 28679408,
+						["Silithid Spitfire"] = 12377031,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["last_event"] = 0,
+					["classe"] = "DEMONHUNTER",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 166481763.062321,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1530215689,
+					["friendlyfire"] = {
+					},
+					["total"] = 166481763.062321,
+					["nome"] = "Kaldorath",
+					["spec"] = 577,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 50,
+								["b_amt"] = 1,
+								["c_dmg"] = 3141000,
+								["g_amt"] = 0,
+								["n_max"] = 52936,
+								["targets"] = {
+									["Qroshekx"] = 686060,
+									["Unsettling Despair"] = 334807,
+									["Haunting Phantasm"] = 167684,
+									["Twilight Earthbreaker"] = 128549,
+									["Distressing Vision"] = 542648,
+									["Bilgewater Laborer"] = 774507,
+									["Twilight Survivor"] = 262211,
+									["Bilgewater Prospector"] = 972650,
+									["Silithid Drone"] = 411676,
+									["Twilight Ritualist"] = 833753,
+									["Silithid Sentinel"] = 165302,
+									["Silithid Spitfire"] = 182245,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2321092,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 146,
+								["total"] = 5462092,
+								["c_max"] = 106770,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 22,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 28202,
+								["n_amt"] = 74,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[198030] = {
+								["c_amt"] = 208,
+								["b_amt"] = 0,
+								["c_dmg"] = 26151829,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Qroshekx"] = 1109658,
+									["Unsettling Despair"] = 1102045,
+									["Haunting Phantasm"] = 1080983,
+									["Twilight Survivor"] = 273462,
+									["Distressing Vision"] = 3159677,
+									["Bilgewater Laborer"] = 2198438,
+									["Twilight Ritualist"] = 3800486,
+									["Bilgewater Prospector"] = 4276141,
+									["Silithid Drone"] = 3189463,
+									["Twilight Earthbreaker"] = 1385138,
+									["Silithid Sentinel"] = 1390865,
+									["Silithid Spitfire"] = 3185473,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 208,
+								["total"] = 26151829,
+								["c_max"] = 174935,
+								["id"] = 198030,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[198813] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 200649,
+								["g_amt"] = 0,
+								["n_max"] = 53461,
+								["targets"] = {
+									["Twilight Earthbreaker"] = 36173,
+									["Bilgewater Prospector"] = 94151,
+									["Silithid Drone"] = 194884,
+									["Silithid Sentinel"] = 43717,
+									["Silithid Spitfire"] = 53461,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 221737,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 422386,
+								["c_max"] = 106498,
+								["id"] = 198813,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[253098] = {
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 3768298,
+								["g_amt"] = 0,
+								["n_max"] = 240530,
+								["targets"] = {
+									["Qroshekx"] = 1122470,
+									["Unsettling Despair"] = 601324,
+									["Haunting Phantasm"] = 240530,
+									["Distressing Vision"] = 481060,
+									["Bilgewater Laborer"] = 801766,
+									["Bilgewater Prospector"] = 1443178,
+									["Silithid Drone"] = 440968,
+									["Twilight Earthbreaker"] = 440970,
+									["Twilight Ritualist"] = 881943,
+									["Silithid Spitfire"] = 1282823,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3968734,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 27,
+								["total"] = 7737032,
+								["c_max"] = 481059,
+								["id"] = 253098,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 18,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[185123] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 1952299,
+								["g_amt"] = 0,
+								["n_max"] = 325973,
+								["targets"] = {
+									["Twilight Earthbreaker"] = 449371,
+									["Twilight Ritualist"] = 235286,
+									["Silithid Broodling"] = 1822233,
+									["Silithid Drone"] = 213563,
+									["Silithid Spitfire"] = 865141,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1633295,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 3585594,
+								["c_max"] = 869018,
+								["id"] = 185123,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 6,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[200166] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 1226179,
+								["g_amt"] = 0,
+								["n_max"] = 245235,
+								["targets"] = {
+									["Distressing Vision"] = 408726,
+									["Bilgewater Laborer"] = 613089,
+									["Twilight Ritualist"] = 408724,
+									["Unsettling Despair"] = 408726,
+									["Twilight Survivor"] = 204364,
+									["Bilgewater Prospector"] = 204362,
+									["Silithid Spitfire"] = 490470,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1512282,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 2738461,
+								["c_max"] = 408727,
+								["id"] = 200166,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 7,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[199547] = {
+								["c_amt"] = 11,
+								["b_amt"] = 1,
+								["c_dmg"] = 7736388,
+								["g_amt"] = 0,
+								["n_max"] = 339706,
+								["targets"] = {
+									["Twilight Survivor"] = 3933886,
+									["Twilight Ritualist"] = 1137281,
+									["Qroshekx"] = 3530520,
+									["Bilgewater Prospector"] = 1840571,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2705870,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 21,
+								["total"] = 10442258,
+								["c_max"] = 895604,
+								["id"] = 199547,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 252723,
+								["n_amt"] = 10,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[210153] = {
+								["c_amt"] = 34,
+								["b_amt"] = 3,
+								["c_dmg"] = 7523243,
+								["g_amt"] = 0,
+								["n_max"] = 231253,
+								["targets"] = {
+									["Twilight Ritualist"] = 1618267,
+									["Unsettling Despair"] = 513195,
+									["Haunting Phantasm"] = 509899,
+									["Distressing Vision"] = 1009286,
+									["Bilgewater Laborer"] = 2439210,
+									["Bilgewater Prospector"] = 3295741,
+									["Silithid Drone"] = 2020060,
+									["Twilight Survivor"] = 727301,
+									["Qroshekx"] = 1069377,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5679093,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 91,
+								["total"] = 13202336,
+								["c_max"] = 538687,
+								["id"] = 210153,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 120339,
+								["n_amt"] = 57,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[217070] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 766844,
+								["targets"] = {
+									["Bilgewater Laborer"] = 672358,
+									["Qroshekx"] = 332355,
+									["Bilgewater Prospector"] = 672359,
+									["Silithid Drone"] = 1533687,
+									["Twilight Survivor"] = 577539,
+									["Twilight Ritualist"] = 577541,
+									["Silithid Spitfire"] = 1099198,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5465037,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 5465037,
+								["c_max"] = 0,
+								["id"] = 217070,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 9,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[202446] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 3732298,
+								["g_amt"] = 0,
+								["n_max"] = 408952,
+								["targets"] = {
+									["Qroshekx"] = 639293,
+									["Unsettling Despair"] = 319646,
+									["Haunting Phantasm"] = 319646,
+									["Distressing Vision"] = 319646,
+									["Bilgewater Laborer"] = 958939,
+									["Twilight Earthbreaker"] = 817904,
+									["Bilgewater Prospector"] = 958938,
+									["Silithid Drone"] = 913798,
+									["Twilight Ritualist"] = 1390437,
+									["Silithid Sentinel"] = 817904,
+									["Silithid Spitfire"] = 479468,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4203321,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 19,
+								["total"] = 7935619,
+								["c_max"] = 817905,
+								["id"] = 202446,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 14,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[162243] = {
+								["c_amt"] = 12,
+								["b_amt"] = 0,
+								["c_dmg"] = 5074687,
+								["g_amt"] = 0,
+								["n_max"] = 238593,
+								["targets"] = {
+									["Qroshekx"] = 988129,
+									["Unsettling Despair"] = 408141,
+									["Haunting Phantasm"] = 487397,
+									["Twilight Ritualist"] = 1123600,
+									["Distressing Vision"] = 701787,
+									["Bilgewater Laborer"] = 1793275,
+									["Twilight Earthbreaker"] = 180980,
+									["Bilgewater Prospector"] = 2226231,
+									["Silithid Drone"] = 359849,
+									["Twilight Survivor"] = 692354,
+									["Silithid Sentinel"] = 235868,
+									["Silithid Spitfire"] = 609346,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4732270,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 34,
+								["total"] = 9806957,
+								["c_max"] = 487397,
+								["id"] = 162243,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 22,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[179057] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 199642,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Qroshekx"] = 199642,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 199642,
+								["c_max"] = 199642,
+								["id"] = 179057,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[199552] = {
+								["c_amt"] = 18,
+								["b_amt"] = 0,
+								["c_dmg"] = 2350090,
+								["g_amt"] = 0,
+								["n_max"] = 175114,
+								["targets"] = {
+									["Qroshekx"] = 465096,
+									["Unsettling Despair"] = 442556,
+									["Haunting Phantasm"] = 95848,
+									["Twilight Earthbreaker"] = 332611,
+									["Distressing Vision"] = 99328,
+									["Bilgewater Laborer"] = 615518,
+									["Twilight Survivor"] = 668090,
+									["Bilgewater Prospector"] = 286832,
+									["Silithid Drone"] = 623238,
+									["Twilight Ritualist"] = 330749,
+									["Silithid Sentinel"] = 433270,
+									["Silithid Spitfire"] = 236763,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2279809,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 50,
+								["total"] = 4629899,
+								["c_max"] = 385171,
+								["id"] = 199552,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 32,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[192611] = {
+								["c_amt"] = 10,
+								["b_amt"] = 0,
+								["c_dmg"] = 5491210,
+								["g_amt"] = 0,
+								["n_max"] = 360497,
+								["targets"] = {
+									["Qroshekx"] = 835601,
+									["Unsettling Despair"] = 469548,
+									["Twilight Ritualist"] = 1305148,
+									["Distressing Vision"] = 234774,
+									["Bilgewater Laborer"] = 1866592,
+									["Twilight Earthbreaker"] = 582143,
+									["Bilgewater Prospector"] = 1064819,
+									["Silithid Drone"] = 1662100,
+									["Twilight Survivor"] = 234773,
+									["Silithid Sentinel"] = 751277,
+									["Silithid Spitfire"] = 300413,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3815978,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 24,
+								["total"] = 9307188,
+								["c_max"] = 720993,
+								["id"] = 192611,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 14,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[201628] = {
+								["c_amt"] = 56,
+								["b_amt"] = 1,
+								["c_dmg"] = 8122843,
+								["g_amt"] = 0,
+								["n_max"] = 137372,
+								["targets"] = {
+									["Twilight Survivor"] = 1442933,
+									["Bilgewater Laborer"] = 1624615,
+									["Qroshekx"] = 1227754,
+									["Unsettling Despair"] = 1715398,
+									["Silithid Drone"] = 2659791,
+									["Twilight Ritualist"] = 1470739,
+									["Bilgewater Prospector"] = 1767423,
+									["Silithid Spitfire"] = 3592230,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7378040,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 149,
+								["total"] = 15500883,
+								["c_max"] = 273911,
+								["id"] = 201628,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 61081,
+								["n_amt"] = 93,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[236237] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 113044,
+								["targets"] = {
+									["Qroshekx"] = 248939,
+									["Unsettling Despair"] = 205482,
+									["Haunting Phantasm"] = 299202,
+									["Distressing Vision"] = 202012,
+									["Bilgewater Laborer"] = 850074,
+									["Twilight Earthbreaker"] = 72006,
+									["Bilgewater Prospector"] = 776003,
+									["Silithid Drone"] = 225931,
+									["Twilight Survivor"] = 230496,
+									["Twilight Ritualist"] = 392342,
+									["Silithid Sentinel"] = 52079,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3554566,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 89,
+								["total"] = 3554566,
+								["c_max"] = 0,
+								["id"] = 236237,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 89,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[201428] = {
+								["c_amt"] = 14,
+								["b_amt"] = 0,
+								["c_dmg"] = 13100273,
+								["g_amt"] = 0,
+								["n_max"] = 505697,
+								["targets"] = {
+									["Qroshekx"] = 781384,
+									["Unsettling Despair"] = 1380240,
+									["Haunting Phantasm"] = 2992023,
+									["Twilight Earthbreaker"] = 460633,
+									["Bilgewater Laborer"] = 5485558,
+									["Bilgewater Prospector"] = 5068075,
+									["Silithid Drone"] = 2407816,
+									["Twilight Ritualist"] = 2767347,
+									["Distressing Vision"] = 1364804,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 9607607,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 39,
+								["total"] = 22707880,
+								["c_max"] = 1167239,
+								["id"] = 201428,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 25,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[213243] = {
+								["c_amt"] = 11,
+								["b_amt"] = 2,
+								["c_dmg"] = 7739492,
+								["g_amt"] = 0,
+								["n_max"] = 457060,
+								["targets"] = {
+									["Qroshekx"] = 1399578,
+									["Unsettling Despair"] = 723247,
+									["Haunting Phantasm"] = 305268,
+									["Distressing Vision"] = 1679267,
+									["Bilgewater Laborer"] = 2242952,
+									["Bilgewater Prospector"] = 1510580,
+									["Silithid Drone"] = 1225295,
+									["Twilight Survivor"] = 1152695,
+									["Twilight Ritualist"] = 745139,
+									["Silithid Sentinel"] = 918327,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4162856,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 24,
+								["total"] = 11902348,
+								["c_max"] = 918327,
+								["id"] = 213243,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 457886,
+								["n_amt"] = 13,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[202388] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 2076232,
+								["g_amt"] = 0,
+								["n_max"] = 664180,
+								["targets"] = {
+									["Bilgewater Laborer"] = 664180,
+									["Qroshekx"] = 622870,
+									["Bilgewater Prospector"] = 2221354,
+									["Silithid Drone"] = 1557172,
+									["Twilight Ritualist"] = 664180,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3653524,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 5729756,
+								["c_max"] = 1038117,
+								["id"] = 202388,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 6,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-5-0A6AF472",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 8383207.062321,
+					["start_time"] = 1530215460,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["Kaldorath"] = 89514336,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 89514336.077261,
+					["total_without_pet"] = 7777497.077261,
+					["total"] = 7777497.077261,
+					["targets_absorbs"] = {
+						["Kaldorath"] = 1028876,
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-5-0A6AF472",
+					["totalabsorb"] = 1028876.077261,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Kaldorath"] = 58922395,
+					},
+					["totalover_without_pet"] = 0.077261,
+					["healing_taken"] = 7777497.077261,
+					["fight_component"] = true,
+					["end_time"] = 1530215689,
+					["healing_from"] = {
+						["Kaldorath"] = true,
+					},
+					["nome"] = "Kaldorath",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[178963] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaldorath"] = 13590846,
+								},
+								["n_max"] = 201655,
+								["targets"] = {
+									["Kaldorath"] = 303309,
+								},
+								["n_min"] = 0,
+								["counter"] = 11,
+								["overheal"] = 13590846,
+								["total"] = 303309,
+								["c_max"] = 0,
+								["id"] = 178963,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 303309,
+								["n_amt"] = 11,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[228532] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaldorath"] = 3031452,
+								},
+								["n_max"] = 505242,
+								["targets"] = {
+									["Kaldorath"] = 505242,
+								},
+								["n_min"] = 0,
+								["counter"] = 7,
+								["overheal"] = 3031452,
+								["total"] = 505242,
+								["c_max"] = 0,
+								["id"] = 228532,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 505242,
+								["n_amt"] = 7,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[230090] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 1028876,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 107776,
+								["targets"] = {
+									["Kaldorath"] = 1028876,
+								},
+								["n_min"] = 0,
+								["counter"] = 20,
+								["overheal"] = 0,
+								["total"] = 1028876,
+								["c_max"] = 0,
+								["id"] = 230090,
+								["targets_absorbs"] = {
+									["Kaldorath"] = 1028876,
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 1028876,
+								["n_amt"] = 20,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[143924] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaldorath"] = 72892038,
+								},
+								["n_max"] = 647296,
+								["targets"] = {
+									["Kaldorath"] = 5940070,
+								},
+								["n_min"] = 0,
+								["counter"] = 172,
+								["overheal"] = 72892038,
+								["total"] = 5940070,
+								["c_max"] = 0,
+								["id"] = 143924,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 5940070,
+								["n_amt"] = 172,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1530215463,
+					["classe"] = "DEMONHUNTER",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 577,
+					["totaldenied"] = 0.077261,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
+				{
+					["received"] = 2340.076955,
+					["resource"] = 38.076955,
+					["targets"] = {
+						["Kaldorath"] = 2340,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "DEMONHUNTER",
+					["fight_component"] = true,
+					["total"] = 2340.076955,
+					["nome"] = "Kaldorath",
+					["spec"] = 577,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[213243] = {
+								["id"] = 213243,
+								["total"] = 509,
+								["targets"] = {
+									["Kaldorath"] = 509,
+								},
+								["counter"] = 17,
+							},
+							[193840] = {
+								["id"] = 193840,
+								["total"] = 300,
+								["targets"] = {
+									["Kaldorath"] = 300,
+								},
+								["counter"] = 15,
+							},
+							[162243] = {
+								["id"] = 162243,
+								["total"] = 566,
+								["targets"] = {
+									["Kaldorath"] = 566,
+								},
+								["counter"] = 23,
+							},
+							[210041] = {
+								["id"] = 210041,
+								["total"] = 455,
+								["targets"] = {
+									["Kaldorath"] = 455,
+								},
+								["counter"] = 13,
+							},
+							[218903] = {
+								["id"] = 218903,
+								["total"] = 50,
+								["targets"] = {
+									["Kaldorath"] = 50,
+								},
+								["counter"] = 1,
+							},
+							[202120] = {
+								["id"] = 202120,
+								["total"] = 460,
+								["targets"] = {
+									["Kaldorath"] = 460,
+								},
+								["counter"] = 23,
+							},
+						},
+					},
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["last_event"] = 0,
+					["alternatepower"] = 0.076955,
+					["serial"] = "Player-5-0A6AF472",
+				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[198813] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 7,
+								["id"] = 198813,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[202443] = {
+								["refreshamt"] = 180,
+								["activedamt"] = 0,
+								["appliedamt"] = 24,
+								["id"] = 202443,
+								["uptime"] = 25,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[230088] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 10,
+								["id"] = 230088,
+								["uptime"] = 64,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[200166] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 10,
+								["id"] = 200166,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 1066,
+					["interrupt"] = 1.001197,
+					["interrupt_targets"] = {
+						["Twilight Ritualist"] = 1,
+					},
+					["classe"] = "DEMONHUNTER",
+					["interrupt_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[183752] = {
+								["id"] = 183752,
+								["interrompeu_oque"] = {
+									[91997] = 1,
+								},
+								["targets"] = {
+									["Twilight Ritualist"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
+					},
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[229417] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 2,
+								["activedamt"] = 2,
+								["uptime"] = 0,
+								["id"] = 229417,
+								["actived_at"] = 3060432883,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[162264] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
+								["id"] = 162264,
+								["uptime"] = 122,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186401] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
+								["id"] = 186401,
+								["uptime"] = 247,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[203533] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
+								["id"] = 203533,
+								["uptime"] = 247,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[210152] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 210152,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[242584] = {
+								["refreshamt"] = 2,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 242584,
+								["uptime"] = 102,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[208628] = {
+								["refreshamt"] = 7,
+								["activedamt"] = 18,
+								["appliedamt"] = 18,
+								["id"] = 208628,
+								["uptime"] = 71,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[241469] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 241469,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188499] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 188499,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[227723] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
+								["id"] = 227723,
+								["uptime"] = 247,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[198013] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
+								["id"] = 198013,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["interrompeu_oque"] = {
+						[91997] = 1,
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 111,
+					["nome"] = "Kaldorath",
+					["spec"] = 577,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[201427] = 23,
+						[188499] = 6,
+						[198013] = 9,
+						[201467] = 5,
+						[179057] = 1,
+						[200166] = 4,
+						[185123] = 3,
+						[183752] = 3,
+						[195072] = 12,
+						[162794] = 11,
+						[198793] = 6,
+						[162243] = 32,
+						[232893] = 23,
+						[210152] = 13,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["serial"] = "Player-5-0A6AF472",
+					["last_event"] = 0,
+				}, -- [1]
 			},
 		}, -- [4]
 		{
@@ -393,94 +5443,181 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 1688,
+		["combat_counter"] = 1733,
 		["totals"] = {
-			0, -- [1]
-			0, -- [2]
+			184195609.119961, -- [1]
+			7777496.972562, -- [2]
 			{
-				0, -- [1]
-				[0] = 0,
+				173.001691, -- [1]
+				[0] = 18329.047061,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 415.985565,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
 				["cooldowns_defensive"] = 0,
+				["interrupt"] = 1.001197,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
-			["voidzone_damage"] = 0,
 			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
 		},
 		["player_last_events"] = {
 		},
 		["frags_need_refresh"] = false,
 		["__call"] = {
 		},
-		["data_inicio"] = 0,
-		["end_time"] = 12368.138,
-		["hasSaved"] = true,
-		["frags"] = {
-		},
-		["data_fim"] = 0,
-		["overall_refreshed"] = true,
-		["CombatSkillCache"] = {
-		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage"] = {
-			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
 			["damage_section"] = {
 			},
+			["damage"] = {
+			},
 		},
-		["start_time"] = 12368.138,
+		["end_time"] = 8545.302,
+		["data_inicio"] = "12:54:35",
+		["frags"] = {
+		},
+		["data_fim"] = "13:12:53",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 10.5280000000002,
+				["type"] = 0,
+				["name"] = "Twilight Ritualist",
+				["clock"] = "13:12:43",
+			}, -- [1]
+			{
+				["elapsed"] = 18.7459999999992,
+				["type"] = 0,
+				["name"] = "Twilight Earthbreaker",
+				["clock"] = "13:12:05",
+			}, -- [2]
+			{
+				["elapsed"] = 15.8579999999984,
+				["type"] = 0,
+				["name"] = "Twilight Earthbreaker",
+				["clock"] = "13:11:44",
+			}, -- [3]
+			{
+				["elapsed"] = 13.271999999999,
+				["type"] = 0,
+				["name"] = "Twilight Ritualist",
+				["clock"] = "13:11:27",
+			}, -- [4]
+			{
+				["elapsed"] = 30.2999999999993,
+				["type"] = 0,
+				["name"] = "Qroshekx",
+				["clock"] = "13:08:19",
+			}, -- [5]
+			{
+				["elapsed"] = 33.3099999999995,
+				["type"] = 0,
+				["name"] = "Silithid Spitfire",
+				["clock"] = "13:07:41",
+			}, -- [6]
+			{
+				["elapsed"] = 18.2199999999993,
+				["type"] = 0,
+				["name"] = "Silithid Drone",
+				["clock"] = "13:07:03",
+			}, -- [7]
+			{
+				["elapsed"] = 19.857,
+				["type"] = 0,
+				["name"] = "Bilgewater Prospector",
+				["clock"] = "13:05:32",
+			}, -- [8]
+			{
+				["elapsed"] = 12.1009999999997,
+				["type"] = 0,
+				["name"] = "Bilgewater Prospector",
+				["clock"] = "13:04:32",
+			}, -- [9]
+			{
+				["elapsed"] = 16.2719999999999,
+				["type"] = 0,
+				["name"] = "Bilgewater Prospector",
+				["clock"] = "13:03:16",
+			}, -- [10]
+			{
+				["elapsed"] = 16.9620000000004,
+				["type"] = 0,
+				["name"] = "Bilgewater Prospector",
+				["clock"] = "13:02:34",
+			}, -- [11]
+			{
+				["elapsed"] = 10.0069999999996,
+				["type"] = 0,
+				["name"] = "Distressing Vision",
+				["clock"] = "12:55:12",
+			}, -- [12]
+			{
+				["elapsed"] = 17.0030000000006,
+				["type"] = 0,
+				["name"] = "Distressing Vision",
+				["clock"] = "12:54:51",
+			}, -- [13]
+			{
+				["elapsed"] = 14.0039999999999,
+				["type"] = 0,
+				["name"] = "Distressing Vision",
+				["clock"] = "12:54:35",
+			}, -- [14]
+		},
+		["start_time"] = 8298.86200000001,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
+			["Raid Damage Done"] = {
+			},
 		},
 		["totals_grupo"] = {
-			0, -- [1]
-			0, -- [2]
+			166481763.060318, -- [1]
+			7777497.070621, -- [2]
 			{
-				0, -- [1]
-				[0] = 0,
+				173.001691, -- [1]
+				[0] = 1656.05525,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 511.014884,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
 				["cooldowns_defensive"] = 0,
+				["interrupt"] = 1.001197,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
 		},
 	},
 	["cached_talents"] = {
 		["Player-5-0A6AF472"] = {
-			22799, -- [1]
-			22493, -- [2]
-			22547, -- [3]
-			21865, -- [4]
-			22909, -- [5]
-			21870, -- [6]
-			21866, -- [7]
+			22540, -- [1]
+			22766, -- [2]
+			22543, -- [3]
+			22502, -- [4]
+			22768, -- [5]
+			22511, -- [6]
+			22509, -- [7]
 		},
 	},
 	["announce_prepots"] = {
@@ -505,8 +5642,9 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-5-0B1E3B69"] = 577,
-		["Player-5-0A6AF472"] = 577,
-		["Player-3677-07C73FFA"] = 581,
+		["Player-5-0AFBA480"] = 72,
+		["Player-5-0A6AF472"] = 581,
+		["Player-5-0AC2E151"] = 267,
+		["Player-5-09F9EC86"] = 256,
 	},
 }
