@@ -33,6 +33,14 @@ L["DUNGEON_SHORT_NAME_NL"] = "奈萨里奥的巢穴"
 L["DUNGEON_SHORT_NAME_SEAT"] = "执政团之座"
 L["DUNGEON_SHORT_NAME_UPPR"] = "卡拉赞上层"
 L["DUNGEON_SHORT_NAME_VOTW"] = "守望者地窟"
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = ""--]] 
 L["ENABLE_NO_SCORE_COLORS"] = "关闭评分颜色"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "关闭评分颜色。所有评分会显示为白色。"
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "使用简单评分颜色"
@@ -45,6 +53,8 @@ L["HEALER_SCORE"] = "治疗者评分"
 --[[ L["INVERSE_PROFILE_MODIFIER_DESC"] = ""--]] 
 L["KEYSTONE_COMPLETED_10"] = "+10-14 完成的钥石"
 L["KEYSTONE_COMPLETED_15"] = "+15 完成的钥石"
+--[[Translation missing --]]
+--[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
 L["MAINS_SCORE"] = "当前分数"
 L["MAINS_SCORE_COLON"] = "当前的分数："
 --[[Translation missing --]]
@@ -121,6 +131,10 @@ L["TOOLTIP_CUSTOMIZATION"] = "提示自定义"
 --[[ L["TOOLTIP_PROFILE"] = ""--]] 
 L["UNKNOWN_SCORE"] = "未知"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r已经转到新服务器。情急下这条信息|cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r並且发送给开发者，非常感谢！"
+--[[Translation missing --]]
+--[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_LOCK_POSITION_FRAME_AUTO"] = ""--]] 
 
 
 	ns.L = L

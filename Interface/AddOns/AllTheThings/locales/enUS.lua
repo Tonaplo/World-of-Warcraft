@@ -59,6 +59,8 @@ AllTheThings.Locales.enUS = {
 	["ACHIEVEMENT_ID"] = "Achievement ID";
 	["ARTIFACT"] = "Artifact";
 	["ARTIFACT_ID"] = "Artifact ID";
+	["CREATURE"] = "Creature";
+	["CREATURES"] = "Creatures";
 	["CREATURE_ID"] = "Creature ID";
 	["CURRENCY_ID"] = "Currency ID";
 	["DIFFICULTY"] = "Difficulty";
@@ -94,6 +96,7 @@ AllTheThings.Locales.enUS = {
 	["QUEST"] = "Quest";
 	["QUEST_ID"] = "Quest ID";
 	["QUEST_GIVER"] = "Quest Giver";
+	["QUEST_GIVERS"] = "Quest Givers";
 	["SET_ID"] = "Gear Set ID";
 	["SPECIES_ID"] = "Species ID";
 	["SPELL_ID"] = "Spell ID";
@@ -151,17 +154,23 @@ AllTheThings.Locales.enUS = {
 		["ALL THE THINGS"] = "ATT",
 		["Dungeons & Raids"] = "D&R",
 		["Classic -> "] = "",
-		["The Burning Crusade"] = "TBC",
+		["Burning Crusade"] = "BC",
 		["Wrath of the Lich King"] = "WotLK",
 		["Cataclysm"] = "CATA",
 		["Mists of Pandaria"] = "MoP",
 		["Warlords of Draenor"] = "WoD",
+		["Player vs Player"] = "PvP",
 		["Raid Finder"] = "LFR",
 		["Looking For Raid"] = "LFR",
 		["Normal"] = "N",
 		["Heroic"] = "H",
 		["Mythic"] = "M",
-		[" Player"] = "M",
+		-- [" Player"] = "M",   [Lucetia Note: Commenting this out for PvP fix as it lists it as M vs M]
+		["10 Player"] = "10M",
+		["10 Player (Heroic)"] = "10M (H)",
+		["25 Player"] = "25",
+		["25 Player (Heroic)"] = "25M (H)",
+		["Player vs. Player"] = STAT_CATEGORY_PVP,
 		["Outdoor Zones"] = LFG_TYPE_ZONE,
 		["Zone Drop"] = LFG_TYPE_ZONE,
 		["Zone Wide"] = LFG_TYPE_ZONE,
@@ -175,16 +184,22 @@ AllTheThings.Locales.enUS = {
 	};
 
 	-- Music / Sound Management (You can add your own sounds for this if you want.)
+	["AUDIO_COMPLETE_TABLE"] = {
+		"Interface\\AddOns\\AllTheThings\\assets\\complete1.ogg",
+	};
 	["AUDIO_FANFARE_TABLE"] = {
 		"Interface\\AddOns\\AllTheThings\\assets\\fanfare1.ogg",
 		"Interface\\AddOns\\AllTheThings\\assets\\fanfare2.ogg",
 		"Interface\\AddOns\\AllTheThings\\assets\\fanfare3.ogg",
 		"Interface\\AddOns\\AllTheThings\\assets\\fanfare4.ogg",
 		"Interface\\AddOns\\AllTheThings\\assets\\fanfare5.ogg",
-		"Interface\\AddOns\\AllTheThings\\assets\\fanfare6.ogg"
+		"Interface\\AddOns\\AllTheThings\\assets\\fanfare6.ogg",
+	};
+	["AUDIO_RAREFIND_TABLE"] = {
+		"Interface\\AddOns\\AllTheThings\\assets\\rarefind1.ogg",
 	};
 	["AUDIO_REMOVE_TABLE"] = {
-		"Interface\\AddOns\\AllTheThings\\assets\\remove1.ogg"
+		"Interface\\AddOns\\AllTheThings\\assets\\remove1.ogg",
 	};
 
 	["FILTER_ID_TYPES"] = {
@@ -296,8 +311,8 @@ AllTheThings.Locales.enUS = {
 		[-50] = "Interface\\Icons\\achievement_worldevent_valentine",			-- Love is in the Air
 		[-51] = "Interface\\Icons\\inv_egg_09",									-- Noblegarden
 		[-52] = "Interface\\Icons\\inv_misc_toy_04",							-- Children's Week
-		[-53] = "Interface\\Icons\\inv_summerfest_symbol_high",					-- Midsummer Fire Festival [Alliance]
-		[-54] = "Interface\\Icons\\inv_summerfest_symbol_low",					-- Midsummer Fire Festival [Horde]
+		[-53] = "Interface\\Icons\\inv_summerfest_symbol_high",					-- Midsummer Fire Festival
+		[-54] = "Interface\\Icons\\inv_summerfest_symbol_low",					-- Unused (Previously: Midsummer Fire Festival [Horde])
 		[-55] = "Interface\\Icons\\inv_helmet_66",								-- Pirate's Day",
 		[-56] = "Interface\\Icons\\achievement_worldevent_brewmaster",			-- Brewfest
 		[-57] = "Interface\\Icons\\INV_Holiday_Thanksgiving_Cornucopia", 		-- Harvest Festival
@@ -315,6 +330,7 @@ AllTheThings.Locales.enUS = {
 		[-71] = "Interface\\Icons\\INV_Jewelcrafting_ArgusGemUncut_Purple_MiscIcons",  -- Purple
 		[-75] = "Interface\\Icons\\Achievement_Zone_Blackrock_01", 				-- Detention Block
 		[-76] = "Interface\\Icons\\Achievement_Zone_Blackrock_01", 				-- Shadowforge City
+		[-90] = "Interface\\Icons\\INV_Misc_Bone_Skull_01",						-- Elite
 		[-91] = "Interface\\Icons\\INV_Misc_Dust_02",							-- Deprecated
 		[-92] = "Interface\\Icons\\inv_misc_head_gnoll_01",						-- Meatball Instructions
 		[-93] = "Interface\\Icons\\Achievement_zone_silithus_01",				-- Silithus (The Wound)
@@ -324,6 +340,7 @@ AllTheThings.Locales.enUS = {
 		[-98] = "Interface\\Icons\\inv_garrison_resource",						-- Garrisons
 		[-99] = "Interface\\Icons\\garrison_building_stables", 					-- Stables
 		[-100] = "Interface\\Icons\\Inv_misc_book_17", 							-- Legacy
+		[-101] = "Interface\\Icons\\Achievement_GarrisonFollower_LevelUp",		-- Followers
 		[-102] = "Interface\\Icons\\trade_alchemy", 							-- Alchemy Lab
 		[-103] = "Interface\\Icons\\garrison_building_barn", 					-- Barn
 		[-104] = "Interface\\Icons\\garrison_building_barracks", 				-- Barracks
@@ -372,13 +389,6 @@ AllTheThings.Locales.enUS = {
 		[-149] = "Interface\\Icons\\ClassIcon_Paladin", 						-- Paladin
 		[-150] = "Interface\\Icons\\ClassIcon_Hunter", 							-- Hunter
 		[-152] = "Interface\\Icons\\achievement_zone_draenor_01", 				-- Garrison Campaign
-		[-153] = "Interface\\Icons\\expansionicon_classic",						-- Classic
-		[-154] = "Interface\\Icons\\expansionicon_burningcrusade",				-- The Burning Crusade
-		[-155] = "Interface\\Icons\\expansionicon_wrathofthelichking",			-- Wrath of the Lich King
-		[-156] = "Interface\\Icons\\expansionicon_cataclysm",					-- Cataclysm
-		[-157] = "Interface\\Icons\\expansionicon_mistsofpandaria",				-- Mists of Pandaria
-		[-158] = "Interface\\Icons\\achievement_boss_hellfire_archimonde",		-- Warlords of Draenor
-		[-159] = "Interface\\Icons\\achievements_zone_brokenshore",				-- Legion
 		[-160] = "Interface\\Icons\\ability_mount_fireravengodmountgreen",		-- Mounts
 		[-161] = "Interface\\Icons\\garrison_bronzechest",						-- Toy
 		[-162] = "Interface\\Icons\\inv_box_petcarrier_01",	 					-- Pets
@@ -605,10 +615,12 @@ AllTheThings.Locales.enUS = {
 		[-3307] = "Interface\\Icons\\inv_helm_plate_legionendgame_c_01",		-- Nightsfall Set
 		[-3308] = "Interface\\Icons\\inv_helm_plate_legionendgame_c_01",		-- Rockbound Set
 		[-3309] = "Interface\\Icons\\inv_helm_plate_legionendgame_c_01",		-- Wardbreaker Set
-		[-3261] = "Interface\\Icon\\inv_helm_cloth_draenorlfr_c_01",			-- Ley-Touched Set
-		[-3273] = "Interface\\Icon\\inv_helm_mail_draenorlfr_c_01",				-- Fel-Treated Set
-		[-3285] = "Interface\\Icon\\inv_helm_leather_draenorlfr_c_01",			-- Galvanized Stormscale Set
-		[-3314] = "Interface\\Icon\\inv_plate_draenorlfr_c_01helm",				-- Storm-Tempered Set
+		[-3261] = "Interface\\Icons\\inv_helm_cloth_draenorlfr_c_01",			-- Ley-Touched Set
+		[-3273] = "Interface\\Icons\\inv_helm_mail_draenorlfr_c_01",				-- Fel-Treated Set
+		[-3285] = "Interface\\Icons\\inv_helm_leather_draenorlfr_c_01",			-- Galvanized Stormscale Set
+		[-3310] = "Interface\\Icons\\Achievement_Garrison_blueprint_large",		-- Garrison Architect
+		[-3311] = "Interface\\Icons\\achievement_bg_killflagcarriers_grabflag_capit", -- Call To Arms [LFD Queue]
+		[-3314] = "Interface\\Icons\\inv_plate_draenorlfr_c_01helm",				-- Storm-Tempered Set
 		[-4189] = "Interface\\Icons\\achievement_legionpvptier4",				-- Instance Item Sets, PvP
 		[-5349] = "Interface\\Icons\\achievement_challengemode_scarletmonastery_gold",	-- Miscellaneous Item Sets
 		[-5350] = "Interface\\Icons\\ability_bossmagistrix_timewarp1",			-- Class Trial Item Sets
@@ -818,8 +830,8 @@ AllTheThings.Locales.enUS = {
 		[-50] = GetSpellInfo(27741),											-- Love is in the Air
 		[-51] = select(1,GetCategoryInfo(159)),									-- Noblegarden
 		[-52] = select(1,GetCategoryInfo(163)),									-- Children's Week
-		[-53] = select(1,GetCategoryInfo(161)).." ["..GetSpellInfo(193863).."]",	-- Midsummer Fire Festival [Alliance]
-		[-54] = select(1,GetCategoryInfo(161)).." ["..GetSpellInfo(193864).."]",	-- Midsummer Fire Festival [Horde]
+		[-53] = "Midsummer Fire Festival",										-- Midsummer Fire Festival
+		[-54] = "Unused",														-- Unused (Previously: Midsummer Fire Festival [Horde])
 		[-55] = "Pirate's Day",
 		[-56] = select(1,GetCategoryInfo(162)),									-- Brewfest
 		[-57] = "Harvest Festival",
@@ -855,6 +867,7 @@ AllTheThings.Locales.enUS = {
 		[-87] = "Armory",
 		[-88] = "Cathedral",
 		[-89] = "Scorn",
+		[-90] = ELITE,															-- Elite
 		[-91] = "Deprecated",
 		[-92] = "How to obtain Meatball",										-- Meatball Instructions
 		[-93] = "Silithus (The Wound)",
@@ -866,6 +879,7 @@ AllTheThings.Locales.enUS = {
 -- Garrison Note: These will be changed into a new class soon(TM)
 		[-99] = select(2,C_Garrison.GetBuildingInfo(65) ), 						-- Stables
 		[-100] = LFG_LIST_LEGACY, 												-- Legacy (Unassociated with shortcut)
+		[-101] = GARRISON_FOLLOWERS,											-- Followers
 		[-102] = select(2,C_Garrison.GetBuildingInfo(76)),						-- Alchemy Lab
 		[-103] = select(2,C_Garrison.GetBuildingInfo(24)),						-- Barn
 		[-104] = select(2,C_Garrison.GetBuildingInfo(26)),						-- Barracks
@@ -922,14 +936,8 @@ AllTheThings.Locales.enUS = {
 		[-150] = "Trailseeker",
 		[-151] = "Soulare of Andorhal",
 		[-152] = "Garrison Campaign",
+		[-153] = CAPACITANCE_WORK_ORDERS,										-- Work Orders
 -- Expansions
-		[-153] = EXPANSION_NAME0,												-- Classic
-		[-154] = EXPANSION_NAME1,												-- The Burning Crusade
-		[-155] = EXPANSION_NAME2,												-- Wrath of the Lich King
-		[-156] = EXPANSION_NAME3,												-- Cataclysm
-		[-157] = EXPANSION_NAME4,												-- Mists of Pandaria
-		[-158] = EXPANSION_NAME5,												-- Warlords of Draenor
-		[-159] = EXPANSION_NAME6,												-- Legion
 		[-160] = TUTORIAL_TITLE53,												-- Mounts
 -- Other
 		[-161] = TOY,															-- Toy
@@ -952,17 +960,17 @@ AllTheThings.Locales.enUS = {
 -- Professions
 		[-178] = GetSpellInfo(20221), 											-- Goblin Engineering"Goblin Engineering",
 		[-179] = GetSpellInfo(20220), 											-- Gnomish Engineering
-		[-180] = select(4,GetGuildTradeSkillInfo(1)), 							-- Alchemy
-		[-181] = select(4,GetGuildTradeSkillInfo(2)), 							-- Blacksmithing
-		[-182] = select(4,GetGuildTradeSkillInfo(3)), 							-- Enchanting
-		[-183] = select(4,GetGuildTradeSkillInfo(4)), 							-- Engineering
-		[-184] = select(4,GetGuildTradeSkillInfo(5)), 							-- Herbalism
-		[-185] = select(4,GetGuildTradeSkillInfo(6)), 							-- Inscription
-		[-186] = select(4,GetGuildTradeSkillInfo(7)), 							-- Jewelcrafting
-		[-187] = select(4,GetGuildTradeSkillInfo(8)), 							-- Leatherworking
-		[-188] = select(4,GetGuildTradeSkillInfo(9)), 							-- Mining
-		[-189] = select(4,GetGuildTradeSkillInfo(10)), 							-- Skinning
-		[-190] = select(4,GetGuildTradeSkillInfo(11)), 							-- Tailoring
+		[-180] = GetSpellInfo(87071),				 							-- Alchemy
+		[-181] = GetSpellInfo(88422),				 							-- Blacksmithing
+		[-182] = GetSpellInfo(175640),				 							-- Enchanting
+		[-183] = GetSpellInfo(59193),				 							-- Engineering
+		[-184] = GetSpellInfo(170691),				 							-- Herbalism
+		[-185] = GetSpellInfo(90441),				 							-- Inscription
+		[-186] = GetSpellInfo(169145),				 							-- Jewelcrafting
+		[-187] = GetSpellInfo(86666),				 							-- Leatherworking
+		[-188] = GetSpellInfo(32606),				 							-- Mining
+		[-189] = GetSpellInfo(87077),				 							-- Skinning
+		[-190] = GetSpellInfo(86818),				 							-- Tailoring
 		[-191] = PROFESSIONS_ARCHAEOLOGY, 										-- Archaeology
 		[-192] = PROFESSIONS_COOKING, 											-- Cooking
 		[-193] = PROFESSIONS_FIRST_AID, 										-- First Aid
@@ -1083,14 +1091,11 @@ AllTheThings.Locales.enUS = {
 		[-496] = DUNGEON_FLOOR_DEEPRUNTRAM2,									-- Bizmo's Brawlpub
 		[-497] = GetSpellInfo(213410).." "..GetSpellInfo(76724),				-- Demonic Offering
 		[-498] = GetSpellInfo(23700),											-- Twisting Nether
-		[-499] = STRING_SCHOOL_ELEMENTAL.." "..RAID_BOSSES.." ("..CINEMATIC_NAME_4..")", 	-- Cataclysm Pre-Launch
 		[-500] = "WoW Anniversary",
-
 		[-520] = "Expansion Pre-Launch Events",
 		[-521] = "Burning Crusade: Dark Portal Opens",
 		[-522] = "Wrath of the Lich King: Zombie Infestation",
 		[-523] = "Cataclysm: Elemental Unrest",
-		[-524] = "Mists of Pandaria",
 		[-525] = "Warlords of Draenor: Iron Horde Incursion",
 		[-526] = "Legion: Legion Invasion",
 
@@ -1306,8 +1311,8 @@ AllTheThings.Locales.enUS = {
 		[-3309] = "Wardbreaker Set",
 		[-3314] = "Storm-Tempered Set",
 -- Garrison Mission Table Sets
-		[-3310] = "Tormented Set",
-		[-3311] = "Munificent Set",
+		[-3310] = GARRISON_ARCHITECT,		-- Garrison Architect
+		[-3311] = BATTLEGROUND_HOLIDAY,		-- Call To Arms [LFD Queue]
 		[-3312] = "Turbulent Set",
 		[-3313] = "Grandiose Set",
 -- PvP Sets
@@ -1549,6 +1554,7 @@ AllTheThings.Locales.enUS = {
 		[176392] = "Interface\\Icons\\INV_Alchemy_70_Cauldron",
 		[179485] = "Interface\\Icons\\Ability_Hunter_TrapLauncher",
 		[179501] = "Interface\\Icons\\INV_Crate_01",
+		[179832] = "Interface\\Icons\\inv_misc_armorkit_06",
 		[180448] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[180503] = "Interface\\Icons\\INV_Misc_Book_09",
 		[180794] = "Interface\\Icons\\INV_Misc_Book_06",
@@ -1582,6 +1588,9 @@ AllTheThings.Locales.enUS = {
 		[187273] = "Interface\\Icons\\INV_Misc_Moosehoof_Black",
 		[187559] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		[187564] = "Interface\\Icons\\Spell_Holy_InnerFire",
+		[187565] = "Interface\\Icons\\trade_archaeology_dwarf_runestone",
+		[187851] = "Interface\\Icons\\inv_misc_candle_02",
+		[187905] = "Interface\\Icons\\inv_cloudserpent_egg_red",
 		[187916] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		[187917] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		[187921] = "Interface\\Icons\\Spell_Holy_InnerFire",
@@ -1593,6 +1602,7 @@ AllTheThings.Locales.enUS = {
 		[187957] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		[187958] = "Interface\\Icons\\Spell_Holy_InnerFire",
 		[187959] = "Interface\\Icons\\Spell_Holy_InnerFire",
+		[188085] = "Interface\\Icons\\inv_misc_food_wheat_01",
 		[188128] = "Interface\\Icons\\INV_SummerFest_FireSpirit",
 		[188129] = "Interface\\Icons\\INV_SummerFest_FireSpirit",
 		[189989] = "Interface\\Icons\\INV_Misc_WartornScrap_Plate",
@@ -1830,6 +1840,7 @@ AllTheThings.Locales.enUS = {
 		[176392] = "Scourge Cauldron",
 		[179485] = "A Broken Trap",
 		[179501] = "Knot Thimblejack's Cache",
+		[179832] = "Pillaclencher's Ornate Pillow",
 		[179564] = "Gordok Tribute Chest",
 		[179697] = "Arena Treasure Chest",
 		[180448] = "Wanted Poster: Deathclasp",
@@ -1867,6 +1878,9 @@ AllTheThings.Locales.enUS = {
 		[187273] = "Suspicious Hoofprint",
 		[187559] = "Horde Bonfire",
 		[187564] = "Alliance Bonfire",
+		[187565] = "Elder Atkanok",
+		[187851] = "Cultist Shrine",
+		[187905] = "Massive Glowing Egg",
 		[187916] = "Alliance Bonfire",
 		[187917] = "Alliance Bonfire",
 		[187921] = "Alliance Bonfire",
@@ -1878,10 +1892,15 @@ AllTheThings.Locales.enUS = {
 		[187957] = "Horde Bonfire",
 		[187958] = "Horde Bonfire",
 		[187959] = "Horde Bonfire",
+		[188085] = "Plagued Grain",
 		[188128] = "Flame of the Exodar",
 		[188129] = "Flame of Silvermoon",
+		[188364] = "Wrecked Crab Trap",
+		[188419] = "Elder Mana'loa",
+		[189311] = "Flesh-bound Tome",
 		[189989] = "Dark Iron Mole Machine Wreckage",
 		[189990] = "Dark Iron Mole Machine Wreckage",
+		[190020] = "Wanted!",
 		[190035] = "Candy Bucket",
 		[190037] = "Candy Bucket",
 		[190038] = "Candy Bucket",
@@ -1991,7 +2010,9 @@ AllTheThings.Locales.enUS = {
 		[208159] = "Candy Bucket",
 		[208365] = "Recently Disturbed Dirt Mound",
 		[208535] = "Dried Acorn",
+		[209072] = "Stolen Crate",
 		[209076] = "Anson's Crate",
+		[209094] = "Stolen Crate",
 		[209095] = "Edgar's Crate",
 		[209270] = "Step 2: Page 78",
 		[209620] = "Darkmoon Treasure Chest",
@@ -2139,6 +2160,7 @@ AllTheThings.Locales.enUS = {
 		[245479] = "Battered Chest",
 		[245793] = "Battered Journal",
 		[246438] = "Blingtron Circuit Design",
+		[248398] = "Ethereal Communication Device",
 		[251168] = "Ephemeral Crystal",
 		[251564] = "Step 4: Page 655",
 		[251666] = "Treasure Chest",
@@ -2308,46 +2330,47 @@ AllTheThings.Locales.enUS = {
 	};
 	["UNOBTAINABLE_ITEM_REASONS"] = {
 		-- {header, description, name}, header: header id, 1-3 as above, 4 is legacy.
-		{1, "|CFFFF0000The source of this item has been removed or was never available to players.|r", "Never Available"}, -- No Hope -- 1
-		{1, "|CFFFF0000The source of this item has been removed and the item is Bind on Pickup or Bind on Account.|r", "BoP / BoA Item"}, -- No Hope -- 2
-		{1, "|CFFFF0000This was obtainable only during a special promotion or one time event by Blizzard.|r", "Blizzard Promotion"}, -- No Hope -- 3
-		{1, "|CFFFF0000This item is purchaseable from a vendor provided you meet certain qualifications.|r", "Legacy Achievement"},	-- Little Hope -- 4
-		{2, "|CFFFF0000The recipe to learn to craft this item has been removed, the item is bind on pickup and only available to a crafter with the recipe.|r", "Recipe: BoP Craftable Removed"}, -- Little Hope -- 5
-		{2, "|CFFFF0000Item is included in Collector's Edition's, you can still find these for sale online in very low quantities.|r", "Collector's Edition"}, -- Little Hope -- 6
-		{3, "|CFFFF0000The source of this item has been removed, but the item is Bind on Equip or a cageable pet.|r", "BoE Item"}, -- There is Hope -- 7
-		{3, "|CFFFF0000The recipe to learn to craft this item has been removed and the item is Bind on Equip. This can be crafted or posted on the Auction House.|r", "Recipe: BoE Craftable Removed"}, -- There is Hope -- 8
-		{3, "|CFFFF0000The source of this item has been removed and is only available with the Black Market Auction House.|r", "Black Market AH (BMAH)"}, -- There is Hope -- 9
-		{3, "|CFFFF0000Item from TCG card is no longer in print, but still purchaseable online, sometimes BMAH, and possibly AH.|r", "Trading Card  Game (TCG)"}, -- There is Hope -- 10
-		{3, "|CFFFF0000This item is Bind on Pickup but can be obtained if you have access to the items to summon the boss.|r", "Requires Summoning Items"}, -- There is Hope -- 11
-		{4, "|CFFFF0000This is legacy content and the original version has been removed.|r", "Legacy Content"}; -- 12
-		{1, "|CFFFF0000Your followers are too high and the mission for the cache will no longer spawn.|r", "Legacy Cache"}; -- 13
-		{2, "|CFFFF0000These items can't be purchased unless you have the required PvP Rating or were in the Top % of that season.|r", "PvP Elite/Gladiator"}, -- 14
-		{1, "|CFFFF0000This item has a Source ID, but apparently cannot be used for transmog and will likely be unlearnable.|r", "Untransmoggable"}, -- 15
-		{2, "|CFFFF0000These items require either attending Blizzcon or purchasing a virtual ticket.  You may also find codes on various sites for high prices.|r", "Blizzcon"},--16
-		{6, "|CFF00FFDEIn order to obtain this item it may require Lunar Festival to be active.|r", "Lunar Festival"};--17
-		{7, "|CFF00FFDEIn order to obtain this item it may require Love is In the Air to be active.|r", "Love is In the Air"};--18
-		{8, "|CFF00FFDEIn order to obtain this item it may require Noblegarden to be active.|r", "Noblegarden"};--19
-		{9, "|CFF00FFDEIn order to obtain this item it may require Children's Week to be active.|r", "Children's Week"};--20
-		{10, "|CFF00FFDEIn order to obtain this item it may require Midsummer Fire Festival to be active.|r", "Midsummer Fire Festival"};--21
-		{11, "|CFF00FFDEIn order to obtain this item it may require Trial of Style to be active.|r", "Trial of Style"};--22
-		{12, "|CFF00FFDEIn order to obtain this item it may require Pirate's Day to be active.|r", "Pirate's Day"};--23
-		{13, "|CFF00FFDEIn order to obtain this item it may require Brewfest to be active.|r", "Brewfest"};--24
-		{14, "|CFF00FFDEIn order to obtain this item it may require Harvest Festival to be active.|r", "Harvest Festival"};--25
-		{15, "|CFF00FFDEIn order to obtain this item it may require Hallow's End to be active.|r", "Hallow's End"};--26
-		{16, "|CFF00FFDEIn order to obtain this item it may require Day of the Dead to be active.|r", "Day of the Dead"};--27
-		{17, "|CFF00FFDEIn order to obtain this item it may require Pilgrim's Bounty to be active.|r", "Pilgrim's Bounty"};--28
-		{18, "|CFF00FFDEIn order to obtain this item it may require Feast of Winter Veil to be active.|r", "Feast of Winter Veil"};--29
-		{19, "|CFF00FFDEIn order to obtain this item it may require Stranglethorn Fishing Extravaganza to be active.|r", "Stranglethorn Fishing Extravaganza"};--30
-		{20, "|CFF00FFDEThis is obtainable only during the WoW Anniversary it was active. It's a possibility future anniversaries may include this item.|r\n", "WoW Anniversary"};--31
-		{4, "|CFFFF0000This is an original vanilla reward for this quest. The quest was later reworked with new rewards. If you did complete this quest it is likely this item will not be added to your transmog as Blizzard will add the rewards from the revamped quest.|r", "Classic Rewards"};--32
-		{4, "|CFFFF0000This vendor is no longer available in this spot or in game.|r", "Legacy Vendors"}; -- 33
-		{4, "|CFFFF0000This item was a quest award from a Legacy Quest that is no longer obtainable.|r", "Legacy Quest Reward"}; --34
-		{3, "|CFFFF0000This item is purchased from the In-Game Store.|r", "In-Game Store"}; --35
-		{21, "|CFFFF0000This was obtainable only during the WoW Anniversary when it was active and is no longer available.|r\n", "WoW Anniversary [Removed]"}; -- 36
-		{1, "|CFFFF0000This title is no longer obtainable in game.|r", "Titles"}; --37
-		{4, "|CFFFF0000These items are only available for players that completed the Legendary Cloak quest chain during Mists of Pandaria|r", "Ordos - Legendary Cloak"}; --38
+		{1, "|CFFFF0000The source of this item has been removed or was never available to players.|r", "Never Available (1)"}, -- No Hope -- 1
+		{1, "|CFFFF0000The source of this item has been removed and the item is Bind on Pickup or Bind on Account.|r", "BoP / BoA Item (2)"}, -- No Hope -- 2
+		{1, "|CFFFF0000This was obtainable only during a special promotion or one time event by Blizzard.|r", "Blizzard Promotion (3)"}, -- No Hope -- 3
+		{1, "|CFFFF0000This item is purchaseable from a vendor provided you meet certain qualifications.|r", "Legacy Achievement (4)"},	-- Little Hope -- 4
+		{2, "|CFFFF0000The recipe to learn to craft this item has been removed, the item is bind on pickup and only available to a crafter with the recipe.|r", "Recipe: BoP Craftable Removed (5)"}, -- Little Hope -- 5
+		{2, "|CFFFF0000Item is included in Collector's Edition's, you can still find these for sale online in very low quantities.|r", "Collector's Edition (6)"}, -- Little Hope -- 6
+		{3, "|CFFFF0000The source of this item has been removed, but the item is Bind on Equip or a cageable pet.|r", "BoE Item (7)"}, -- There is Hope -- 7
+		{3, "|CFFFF0000The recipe to learn to craft this item has been removed and the item is Bind on Equip. This can be crafted or posted on the Auction House.|r", "Recipe: BoE Craftable Removed (8)"}, -- There is Hope -- 8
+		{3, "|CFFFF0000The source of this item has been removed and is only available with the Black Market Auction House.|r", "Black Market AH [BMAH] (9)"}, -- There is Hope -- 9
+		{3, "|CFFFF0000Item from TCG card is no longer in print, but still purchaseable online, sometimes BMAH, and possibly AH.|r", "Trading Card  Game [TCG] (10)"}, -- There is Hope -- 10
+		{3, "|CFFFF0000This item is Bind on Pickup but can be obtained if you have access to the items to summon the boss.|r", "Requires Summoning Items (11)"}, -- There is Hope -- 11
+		{4, "|CFFFF0000This is legacy achievement that is no longer available.|r", "Legacy Achievement (12)"}; -- 12
+		{1, "|CFFFF0000Your followers are too high and the mission for the cache will no longer spawn.|r", "Legacy Cache (13)"}; -- 13
+		{2, "|CFFFF0000These items can't be purchased unless you have the required PvP Rating or were in the Top % of that season.|r", "PvP Elite/Gladiator (14)"}, -- 14
+		{1, "|CFFFF0000This item has a Source ID (Tempest Keep Legendaries), but can't be learned (training recipes). |r", "Training Recipes (15)"}, -- 15
+		{2, "|CFFFF0000These items require either attending Blizzcon or purchasing a virtual ticket.  You may also find codes on various sites for high prices.|r", "Blizzcon (16)"},--16
+		{6, "|CFF00FFDEIn order to obtain this item it may require Lunar Festival to be active.|r", "Lunar Festival (17)"};--17
+		{7, "|CFF00FFDEIn order to obtain this item it may require Love is In the Air to be active.|r", "Love is In the Air (18)"};--18
+		{8, "|CFF00FFDEIn order to obtain this item it may require Noblegarden to be active.|r", "Noblegarden (19)"};--19
+		{9, "|CFF00FFDEIn order to obtain this item it may require Children's Week to be active.|r", "Children's Week (20)"};--20
+		{10, "|CFF00FFDEIn order to obtain this item it may require Midsummer Fire Festival to be active.|r", "Midsummer Fire Festival (21)"};--21
+		{11, "|CFF00FFDEIn order to obtain this item it may require Trial of Style to be active.|r", "Trial of Style (22)"};--22
+		{12, "|CFF00FFDEIn order to obtain this item it may require Pirate's Day to be active.|r", "Pirate's Day (23)"};--23
+		{13, "|CFF00FFDEIn order to obtain this item it may require Brewfest to be active.|r", "Brewfest (24)"};--24
+		{14, "|CFF00FFDEIn order to obtain this item it may require Harvest Festival to be active.|r", "Harvest Festival (25)"};--25
+		{15, "|CFF00FFDEIn order to obtain this item it may require Hallow's End to be active.|r", "Hallow's End (26)"};--26
+		{16, "|CFF00FFDEIn order to obtain this item it may require Day of the Dead to be active.|r", "Day of the Dead (27)"};--27
+		{17, "|CFF00FFDEIn order to obtain this item it may require Pilgrim's Bounty to be active.|r", "Pilgrim's Bounty (28)"};--28
+		{18, "|CFF00FFDEIn order to obtain this item it may require Feast of Winter Veil to be active.|r", "Feast of Winter Veil (29)"};--29
+		{19, "|CFF00FFDEIn order to obtain this item it may require Stranglethorn Fishing Extravaganza to be active.|r", "Stranglethorn Fishing Extravaganza (30) "};--30
+		{20, "|CFF00FFDEThis is obtainable only during the WoW Anniversary it was active. It's a possibility future anniversaries may include this item.|r\n", "WoW Anniversary (31)"};--31
+		{4, "|CFFFF0000This is an original vanilla reward for this quest. The quest was later reworked with new rewards. If you did complete this quest it is likely this item will not be added to your transmog as Blizzard will add the rewards from the revamped quest.|r", "Classic Rewards (32)"};--32
+		{4, "|CFFFF0000This vendor is no longer available in this spot or in game.|r", "Legacy Vendors (33)"}; -- 33
+		{4, "|CFFFF0000This item was a quest award from a Legacy Quest that is no longer obtainable.|r", "Legacy Quest Reward (34)"}; --34
+		{3, "|CFFFF0000This item is purchased from the In-Game Store.|r", "In-Game Store (35)"}; --35
+		{21, "|CFFFF0000This was obtainable only during the WoW Anniversary when it was active and is no longer available.|r\n", "WoW Anniversary [Removed] (36)"}; -- 36
+		{1, "|CFFFF0000This title is no longer obtainable in game.|r", "Titles (37)"}; --37
+		{4, "|CFFFF0000These items are only available for players that completed the Legendary Cloak quest chain during Mists of Pandaria|r", "Ordos - Legendary Cloak (38)"}; --38
+		{4, "|CFFFF0000This title is no longer available.|r", "Legacy Titles (39)"}; --39
 	};
-	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you, please post in Discord where you got it!|r";
+	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you, please post in Discord where you got it to drop!|r";
 	["RECENTLY_MADE_OBTAINABLE_PT2"] = "|CFFFF0000The more information, the better.  Thanks!|r";
 	["I_ONLY_CARE_ABOUT_MY_MAIN"] = "|cff3399ffI only care about my main.|r";
 };

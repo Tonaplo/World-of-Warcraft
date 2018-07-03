@@ -33,6 +33,14 @@ L["DUNGEON_SHORT_NAME_NL"] = "Логово"
 L["DUNGEON_SHORT_NAME_SEAT"] = "Престол"
 L["DUNGEON_SHORT_NAME_UPPR"] = "Кара верх"
 L["DUNGEON_SHORT_NAME_VOTW"] = "Казематы"
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = ""--]] 
 L["ENABLE_NO_SCORE_COLORS"] = "Отключить цвета для очков"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "Отключает раскраску очков. Все очки будут отображены белым цветом."
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Использовать упрощенную окраску очков"
@@ -45,6 +53,8 @@ L["HEALER_SCORE"] = "Очки лекаря"
 --[[ L["INVERSE_PROFILE_MODIFIER_DESC"] = ""--]] 
 L["KEYSTONE_COMPLETED_10"] = "+10 (К-з)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (Вк)"
+--[[Translation missing --]]
+--[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
 L["MAINS_SCORE"] = "Очки мейна"
 L["MAINS_SCORE_COLON"] = "Очки мейна"
 L["MODULE_AMERICAS"] = "Америка"
@@ -114,6 +124,10 @@ L["TOOLTIP_CUSTOMIZATION"] = "Настройки подсказок"
 --[[ L["TOOLTIP_PROFILE"] = ""--]] 
 L["UNKNOWN_SCORE"] = "Неизв."
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r обнаружил неизвестный ранее сервер. Пожалуйста, запишите эту информацию |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r и сообщите об этом разработчикам. Спасибо!"
+--[[Translation missing --]]
+--[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_LOCK_POSITION_FRAME_AUTO"] = ""--]] 
 
 
 	ns.L = L

@@ -492,7 +492,17 @@ end
 
 -- audio lib
 local lastPlayedFanfare;
-local function PlayFanfare()
+function app:PlayCompleteSound()
+	if GetDataMember("PlayCompleteSound", true) then
+		-- Play a random complete sound from the locale table
+		local t = L("AUDIO_COMPLETE_TABLE");
+		if t and type(t) == "table" then
+			local id = math.random(1, #t);
+			if t[id] then PlaySoundFile(t[id], "master"); end
+		end
+	end
+end
+function app:PlayFanfare()
 	if GetDataMember("PlayFanfare", true) then
 		-- Don't spam the users. It's nice sometimes, but let's put a delay of at least 1 second on there.
 		local now = time();
@@ -507,7 +517,17 @@ local function PlayFanfare()
 		end
 	end
 end
-local function PlayRemoveSound()
+function app:PlayRareFindSound()
+	if GetDataMember("PlayRareFindSound", true) then
+		-- Play a random rarefind sound from the locale table
+		local t = L("AUDIO_RAREFIND_TABLE");
+		if t and type(t) == "table" then
+			local id = math.random(1, #t);
+			if t[id] then PlaySoundFile(t[id], "master"); end
+		end
+	end
+end
+function app:PlayRemoveSound()
 	if GetDataMember("PlayRemoveSound", true) then
 		-- Play a random fanfare from the locale table
 		local t = L("AUDIO_REMOVE_TABLE");
@@ -562,8 +582,11 @@ local function GetProgressColor(p)
 	return progress_colors[p];
 end
 local function GetProgressColorText(progress, total)
-	local percent = progress / total;
-	return "|c" .. GetProgressColor(percent) .. tostring(progress) .. " / " .. tostring(total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r";
+	if total and total > 0 then
+		local percent = progress / total;
+		return "|c" .. GetProgressColor(percent) .. tostring(progress) .. " / " .. tostring(total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r";
+	end
+	return "---";
 end
 CS:Hide();
 
@@ -844,7 +867,7 @@ local function GetCachedSearchResults(search, method, ...)
 							else
 								tinsert(temp, text);
 								count = count + 1;
-								if count > 9 then -- Shows 15 sources (Take # you want minus 1 and input)
+								if count > 4 then -- Shows 15 sources (Take # you want minus 1 and input)
 									count = #group - count;
 									if count > 1 then
 										tinsert(temp, "And " .. count .. " other sources...");
@@ -869,7 +892,7 @@ local function GetCachedSearchResults(search, method, ...)
 						end
 					end
 				end
-				if #group > 0 and group[1].u then
+				if #group > 0 and group[1].itemID and group[1].u then
 					tinsert(listing, 1, L("UNOBTAINABLE_ITEM_REASONS")[group[1].u][2]);
 				end
 			else
@@ -916,6 +939,7 @@ local function CacheArrayFieldIDs(group, field, arrayField)
 				fieldCache[field][fieldID] = fieldCache_f;
 			end
 			tinsert(fieldCache_f, group);
+			--tinsert(fieldCache_f, {["g"] = { group }, ["parent"] = group, [field] = fieldID });
 		end
 	end
 end
@@ -940,13 +964,14 @@ local function CacheSubFieldID(group, field, subfield)
 			fieldCache_f = {};
 			fieldCache[field][firldCache_g] = fieldCache_f;
 		end
-		--tinsert(fieldCache_f, group);
-		tinsert(fieldCache_f, {["g"] = { group }, ["parent"] = group, [subfield] = firldCache_g });
+		tinsert(fieldCache_f, group);
+		-- tinsert(fieldCache_f, {["g"] = { group }, ["parent"] = group, [subfield] = firldCache_g });
 	end
 end
 local function CacheFields(group)
 	CacheFieldID(group, "creatureID");
 	CacheFieldID(group, "currencyID");
+	CacheArrayFieldIDs(group, "creatureID", "crs");
 	CacheArrayFieldIDs(group, "creatureID", "qgs");
 	CacheFieldID(group, "encounterID");
 	CacheFieldID(group, "objectID");
@@ -1176,7 +1201,7 @@ local function GetGearSetCache()
 end
 local function GetProgressText(data)
 	if data.total and data.total > 0 then
-		return GetProgressColorText(data.progress, data.total);
+		return GetProgressColorText(data.progress or 0, data.total);
 	elseif data.trackable then
 		return GetCompletionIcon(data.saved);
 	elseif data.collectible then
@@ -1220,6 +1245,16 @@ local function GetRelativeDifficulty(group, difficultyID)
 		if group.parent then return GetRelativeDifficulty(group.parent, difficultyID); end
 	end
 end
+local function GetRelativeField(group, field, value)
+	if group then
+		if group[field] then
+			if group[field] == value then
+				return true;
+			end
+		end
+		if group.parent then return GetRelativeField(group.parent, field, value); end
+	end
+end
 local function GetRelativeInstanceID(group)
 	if group then
 		if group.instanceID then return group.instanceID, group; end
@@ -1227,10 +1262,6 @@ local function GetRelativeInstanceID(group)
 	end
 end
 local function SearchForFieldRecursively(group, field, value)
-	if group[field] == value then
-		-- OH BOY, WE FOUND IT!
-		return { group };
-	end
 	if group.g then
 		-- Go through the sub groups and determine if any of them have a response.
 		local first = nil;
@@ -1239,14 +1270,27 @@ local function SearchForFieldRecursively(group, field, value)
 			if g then
 				if first then
 					-- Merge!
-					tinsert(first, g[1]);
+					for j,data in ipairs(g) do
+						tinsert(first, data);
+					end
 				else
 					-- Cool! (This should be the most common occurance)
 					first = g;
 				end
 			end
 		end
+		if group[field] == value then
+			-- OH BOY, WE FOUND IT!
+			if first then
+				return tinsert(first, group);
+			else
+				return { group };
+			end
+		end
 		return first;
+	elseif group[field] == value then
+		-- OH BOY, WE FOUND IT!
+		return { group };
 	end
 end
 local function SearchForFieldContainer(field)
@@ -1269,13 +1313,13 @@ local function SearchForFieldAndSummarizeForCurrentDifficulty(field, value)
 	local group = SearchForField(field, value);
 	if group then
 		local _, _, difficultyID = GetInstanceInfo();
+		local subgroup = {};
 		for i,j in ipairs(group) do
 			if GetRelativeDifficulty(j, difficultyID) then
-				group = {j};
-				break;
+				tinsert(subgroup, j);
 			end
 		end
-		return {}, group;
+		return {}, #subgroup > 0 and subgroup or group;
 	end
 end
 local function SearchForItemIDRecursively(group, itemID)
@@ -1642,12 +1686,74 @@ local function OpenMiniList(field, id, label)
 			results = setmetatable({ back = 1 }, { __index = results[1] });
 		else
 			-- A couple of objects matched, let's make a header.
-			local header = { g = {}, baseIndent = -1, back = 1, expanded = true, visible = true, text = app.DisplayName, description = "Auto Mini List for " .. (label or field) .. " #" .. id, back = 1, total = 0, progress = 0 };
+			local header = { g = {}, baseIndent = -1, back = 1, expanded = true, visible = true, text = app.DisplayName, description = "Auto Mini List for " .. (label or field) .. " #" .. id, total = 0, progress = 0 };
+			table.wipe(app.HolidayHeader.g);
+			app.HolidayHeader.progress = 0;
+			app.HolidayHeader.total = 0;
 			for i, group in ipairs(results) do
 				header.progress = header.progress + (group.progress or 0);
 				header.total = header.total + (group.total or 0);
 				header.parent = group.parent;
-				tinsert(header.g, group);
+				
+				-- If this is relative to a holiday, let's do something special
+				if GetRelativeField(group, "npcID", -3) then
+					local clone = {};
+					for key,value in pairs(group) do
+						clone[key] = value;
+					end
+					clone["maps"] = nil;
+					setmetatable(clone, getmetatable(group));
+					group = clone;
+					if group.achievementID then
+						if group.criteriaID then
+							if group.parent.achievementID then
+								group = app.CreateAchievement(group.parent.achievementID, 
+									{ g = { group }, total = group.total, progress = group.progress, 
+										u = group.parent.u, races = group.parent.races, classes = group.parent.classes, nmc = group.parent.nmc, nmr = group.parent.nmr });
+							else
+								group = app.CreateAchievement(group.achievementID,
+									{ g = { group }, total = group.total, progress = group.progress,
+										u = group.u, races = group.races, classes = group.classes, nmc = group.nmc, nmr = group.nmr });
+							end
+						end
+					elseif group.criteriaID and group.parent.achievementID then
+						group = app.CreateAchievement(group.parent.achievementID, { g = { group }, total = group.total, progress = group.progress, 
+							u = group.parent.u, races = group.parent.races, classes = group.parent.classes, nmc = group.parent.nmc, nmr = group.parent.nmr });
+					end
+					
+					app.HolidayHeader.progress = app.HolidayHeader.progress + (group.progress or 0);
+					app.HolidayHeader.total = app.HolidayHeader.total + (group.total or 0);
+					tinsert(app.HolidayHeader.g, group);
+				elseif group.achievementID then
+					if group.criteriaID then
+						if group.parent.achievementID then
+							group = app.CreateAchievement(group.parent.achievementID, 
+								{ g = { group }, total = group.total, progress = group.progress, u = group.parent.u });
+						else
+							group = app.CreateAchievement(group.achievementID,
+								{ g = { group }, total = group.total, progress = group.progress, u = group.u });
+						end
+						tinsert(header.g, 1, group);
+					else
+						tinsert(header.g, group);
+					end
+				elseif group.criteriaID and group.parent.achievementID then
+					group = app.CreateAchievement(group.parent.achievementID, { g = { group }, total = group.total, progress = group.progress, u = group.parent.u });
+					tinsert(header.g, 1, group);
+				else
+					tinsert(header.g, group);
+				end
+			end
+			
+			if #app.HolidayHeader.g > 0 then
+				app.HolidayHeader.expanded = true;
+				app.HolidayHeader.visible = true;
+				app.HolidayHeader.parent = header;
+				tinsert(header.g, 1, app.HolidayHeader);
+				app.UpdateGroups(app.HolidayHeader, app.HolidayHeader.g, 1);
+				app.HolidayHeader.visible = app.GroupVisibilityFilter(app.HolidayHeader);
+			else
+				app.HolidayHeader.visible = false;
 			end
 			
 			-- Swap out the map data for the header.
@@ -1793,7 +1899,7 @@ local function OpenMiniListForCurrentProfession(manual, refresh)
 			
 				-- If something new was "learned", then refresh the data.
 				if learned > 0 then
-					app:RefreshData(false, true);
+					app:RefreshData(false, true, true);
 					app.print("Cached " .. learned .. " known recipes!");
 				end
 			end
@@ -1992,7 +2098,7 @@ local function RefreshSavesCoroutine()
 	end
 	
 	-- Mark that we're done now.
-	app:UpdateWindows();
+	app:UpdateWindows(nil, true);
 end
 local function RefreshSaves()
 	StartCoroutine("RefreshSaves", RefreshSavesCoroutine);
@@ -2090,7 +2196,7 @@ local function RefreshMountCollection()
 		coroutine.yield();
 		
 		-- Refresh the Collection Windows!
-		app:RefreshData(false, true);
+		app:RefreshData(false, true, true);
 		
 		-- Wait 2 frames before refreshing states.
 		coroutine.yield();
@@ -2099,9 +2205,9 @@ local function RefreshMountCollection()
 		-- Compare progress
 		local progress = app:GetDataCache().progress or 0;
 		if progress < previousProgress then
-			PlayRemoveSound();
+			app:PlayRemoveSound();
 		elseif progress > previousProgress then
-			PlayFanfare();
+			app:PlayFanfare();
 		end
 		wipe(searchCache);
 		collectgarbage();
@@ -2270,7 +2376,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 									
 									local right = nil;
 									if j.total and j.total > 0 then
-										progress = progress + j.progress;
+										progress = progress + (j.progress or 0);
 										total = total + j.total;
 										if (j.progress / j.total) < 1 or GetDataMember("ShowCompletedGroups") then
 											right = GetProgressColorText(j.progress, j.total);
@@ -2293,6 +2399,8 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 										elseif app.ShowIncompleteQuests(j) then
 											right = L("NOT_COLLECTED_ICON");
 										end
+									elseif j.visible then
+										right = "---";
 									end
 									
 									-- If there's progress to display, then let's summarize a bit better.
@@ -2311,13 +2419,6 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 										end
 										
 										-- Insert into the display.
-										-- "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA)
-										-- "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA)
-										-- "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA)
-										-- "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA)
-										-- "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA)
-										-- "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA)
-										-- "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA)
 										tinsert(items, { "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), right });
 									end
 								end
@@ -2327,15 +2428,15 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 								rightSide:SetText(GetProgressColorText(progress, total));
 								if #items > 0 then
 									self:AddLine("Contains:");
-									if #items < 36 then
+									if #items < 5 then
 										for i,pair in ipairs(items) do
 											self:AddDoubleLine(pair[1], pair[2]);
 										end
 									elseif #parents < 2 then
-										for i=1,math.min(36, #items) do
+										for i=1,math.min(5, #items) do
 											self:AddDoubleLine(items[i][1], items[i][2]);
 										end
-										self:AddLine("And " .. (#items - 36) .. " more...");
+										self:AddLine("And " .. (#items - 5) .. " more...");
 									else
 										for i,j in ipairs(parents) do
 											local title = "  ";
@@ -2370,7 +2471,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 							for i,j in ipairs(group.g) do
 								if not j.hideText and app.GroupRequirementsFilter(j) and app.GroupFilter(j) then
 									if j.total and j.total > 1 then
-										progress = progress + j.progress;
+										progress = progress + (j.progress or 0);
 										total = total + j.total;
 									else
 										total = total + 1;
@@ -2686,7 +2787,7 @@ app.BaseAchievement = {
 		--elseif key == "saved" then
 		--	return select(4, GetAchievementInfo(t.achievementID));
 		elseif key == "collectible" then
-			return true;
+			return GetDataMember("TreatAchievementsAsCollectible");
 		elseif key == "collected" then
 			return select(4, GetAchievementInfo(t.achievementID));
 		else
@@ -2730,7 +2831,7 @@ app.BaseAchievementCriteria = {
 		elseif key == "trackable" then
 			return true;
 		elseif key == "collectible" then
-			return true;
+			return GetDataMember("TreatAchievementsAsCollectible");
 		elseif key == "saved" or key == "collected" then
 			return select(4, GetAchievementInfo(t.achievementID)) or select(3, GetAchievementCriteriaInfo(t.achievementID, math.min(t.criteriaID, GetAchievementNumCriteria(t.achievementID))));
 		else
@@ -2775,7 +2876,11 @@ app.BaseArtifact = {
 		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
-			return select(5, C_ArtifactUI_GetAppearanceInfoByID(t.artifactID));
+			if GetDataSubMember("CollectedArtifacts", t.artifactID) then return true; end
+			if not GetRelativeField(t, "nmc", true) and select(5, C_ArtifactUI_GetAppearanceInfoByID(t.artifactID)) then
+				SetDataSubMember("CollectedArtifacts", t.artifactID, 1);
+				return true;
+			end
 		elseif key == "text" then
 			return Colorize("Variant " .. t.info[4], RGBToHex(t.info[9] * 255, t.info[10] * 255, t.info[11] * 255));
 		elseif key == "title" then
@@ -3099,6 +3204,8 @@ app.BaseFollower = {
 		elseif key == "text" then
 			local info = t.info;
 			return info and info.name;
+		elseif key == "description" then
+			return "Followers must be collected on a per-character basis. You can filter this out by unchecking Settings -> Mini List -> Followers.\n\nYou must manually refresh the addon by Shift+Left clicking the header for this to be detected.";
 		elseif key == "info" then
 			-- https://wow.gamepedia.com/API_C_Garrison.GetFollowerInfo
 			return C_Garrison.GetFollowerInfo(t.followerID);
@@ -3126,12 +3233,35 @@ app.BaseGarrisonBuilding = {
 	__index = function(t, key)
 		if key == "key" then
 			return "buildingID";
+		elseif key == "f" then
+			if t.itemID then return 200; end
 		elseif key == "text" then
-			return select(2, C_Garrison.GetBuildingInfo(t.buildingID));
+			return t.link or select(2, C_Garrison.GetBuildingInfo(t.buildingID));
 		elseif key == "icon" then
+			if t.itemID then
+				local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(t.itemID);
+				if link then
+					t.link = link;
+					t.icon = icon;
+					return link;
+				end
+			end
 			return select(4, C_Garrison.GetBuildingInfo(t.buildingID));
+		elseif key == "link" then
+			if t.itemID then
+				local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(t.itemID);
+				if link then
+					t.link = link;
+					t.icon = icon;
+					return link;
+				end
+			end
 		elseif key == "description" then
 			return select(5, C_Garrison.GetBuildingInfo(t.buildingID));
+		elseif key == "collectible" then
+			return t.itemID;
+		elseif key == "collected" then
+			return not select(11, C_Garrison.GetBuildingInfo(t.buildingID));
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -3406,12 +3536,12 @@ app.BaseItem = {
 		if key == "key" then
 			return "itemID";
 		elseif key == "collectible" then
-			return t.s or (t.questID and GetDataMember("TreatIncompleteQuestsAsCollectible"));
+			return t.s or (t.questID and not t.repeatable and GetDataMember("TreatQuestsAsCollectible"));
 		elseif key == "collected" then
 			if t.s and t.s ~= 0 and GetDataSubMember("CollectedSources", t.s) then
 				return 1;
 			end
-			return t.questID and GetDataMember("TreatIncompleteQuestsAsCollectible") and t.saved;
+			return t.saved;
 		elseif key == "text" then
 			return t.link;
 		elseif key == "link" then
@@ -3450,8 +3580,10 @@ app.BaseItem = {
 			end
 		elseif key == "trackable" then
 			return t.questID;
+		elseif key == "repeatable" then
+			return t.isDaily or t.isWeekly;
 		elseif key == "saved" then
-			return IsQuestFlaggedCompleted(t.questID);
+			return t.questID and IsQuestFlaggedCompleted(t.questID);
 		elseif key == "modID" then
 			return 1;
 		elseif key == "name" then
@@ -3660,7 +3792,7 @@ app.BaseMusicRoll = {
 				return link;
 			end
 		elseif key == "description" then
-			return "These are unlocked per-character and are not currently shared across your account. If someone at Blizzard is reading this, it would be really swell if you made these account wide.";
+			return "These are unlocked per-character and are not currently shared across your account. If someone at Blizzard is reading this, it would be really swell if you made these account wide.\n\nYou must manually refresh the addon by Shift+Left clicking the header for this to be detected.";
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -3716,6 +3848,7 @@ app.BaseNPC = {
 app.CreateNPC = function(id, t)
 	return createInstance(constructor(id, t, "npcID"), app.BaseNPC);
 end
+app.HolidayHeader = app.CreateNPC(-3, { g = {}, expanded = true, visible = false, back = 1, total = 0, progress = 0 });
 
 -- Object Lib (as in "World Object")
 app.BaseObject = {
@@ -3729,10 +3862,14 @@ app.BaseObject = {
 			return name;
 		elseif key == "icon" then
 			return L("OBJECT_ID_ICONS")[t.objectID] or "Interface\\Icons\\INV_Misc_Bag_10";
+		elseif key == "collectible" then
+			return t.questID and not t.repeatable and GetDataMember("TreatQuestsAsCollectible");
+		elseif key == "collected" then
+			return t.saved;
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			return IsQuestFlaggedCompleted(t.questID);
+			return t.questID and IsQuestFlaggedCompleted(t.questID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -3830,8 +3967,6 @@ app.BaseQuest = {
 	__index = function(t, key)
 		if key == "key" then
 			return "questID";
-		elseif key == "f" then
-			return 104;
 		elseif key == "text" then
 			local questName = QuestTitleFromID[t.questID];
 			if questName then
@@ -3855,9 +3990,11 @@ app.BaseQuest = {
 		elseif key == "trackable" then
 			return true;
 		elseif key == "collectible" then
-			return not t.isDaily and GetDataMember("TreatIncompleteQuestsAsCollectible");
+			return not t.repeatable and GetDataMember("TreatQuestsAsCollectible");
 		elseif key == "collected" then
-			return t.collectible and t.saved;
+			return t.saved;
+		elseif key == "repeatable" then
+			return t.isDaily or t.isWeekly;
 		elseif key == "saved" then
 			return IsQuestFlaggedCompleted(t.questID);
 		else
@@ -4224,6 +4361,29 @@ app.BaseVignette = {
 					end
 					return t.name;
 				end
+			elseif t.crs then
+				local all = true;
+				for i,cr in ipairs(t.crs) do
+					if not NPCNameFromID[cr] then
+						all = false;
+					end
+				end
+				if all then
+					t.name = nil;
+					local count = #t.crs;
+					for i=1,count,1 do
+						local cr = t.crs[i];
+						if t.name then
+							t.name = t.name .. (i < count and ", " or " & ") .. NPCNameFromID[cr];
+						else
+							t.name = NPCNameFromID[cr];
+						end
+						if not t.title then
+							t.title = NPCTitlesFromID[cr];
+						end
+					end
+					return t.name;
+				end
 			elseif t.qg then
 				if NPCNameFromID[t.qg] then
 					t.name = NPCNameFromID[t.qg];
@@ -4274,9 +4434,11 @@ app.BaseVignette = {
 		elseif key == "icon" then
 			return "Interface\\Icons\\INV_Misc_Head_Dragon_Black";
 		elseif key == "collectible" then
-			return not t.isDaily and GetDataMember("TreatIncompleteQuestsAsCollectible");
+			return not t.repeatable and GetDataMember("TreatQuestsAsCollectible");
 		elseif key == "collected" then
 			return t.collectible and t.saved;
+		elseif key == "repeatable" then
+			return t.isDaily or t.isWeekly;
 		elseif key == "saved" then
 			return IsQuestFlaggedCompleted(t.questID);
 		else
@@ -4308,21 +4470,22 @@ function app.FilterItemBind(item)
 	return item.b == 2; -- BoE
 end
 function app.FilterItemClass(item)
-	return app.ItemBindFilter(item)
-		or (app.FilterItemClass_RequireItemFilter(item.f)--
+	-- If the item is Bind on Equip, return Visible.
+	if app.ItemBindFilter(item) then return true; end
+	return app.FilterItemClass_RequireItemFilter(item.f)
 			and app.RequireBindingFilter(item)
 			and app.ClassRequirementFilter(item)
 			and app.RaceRequirementFilter(item)
 			and app.UnobtainableItemFilter(item.u)
 		        and app.SeasonalFilter(item.u)
 			and app.PersonalLootFilter(item)
-			and app.RequiredSkillFilter(item.requireSkill));
+			and app.RequiredSkillFilter(item.requireSkill);
 end
 function app.FilterItemClass_RequireClasses(item)
 	return not item.nmc;
 end
 function app.FilterItemClass_RequireItemFilter(f)
-	if f and not GetPersonalDataSubMember("ItemFilters", f, true) then return false; end
+	if f and not GetPersonalDataSubMember("ItemFilters", f, true) and not (f == 58 or f == 56) then return false; end
 	return true;
 end
 function app.FilterItemClass_RequirePersonalLoot(item)
@@ -4633,10 +4796,12 @@ UpdateGroup = function(parent, group)
 				parent.progress = (parent.progress or 0) + group.progress;
 				
 				-- If this group is trackable, then we should show it.
-				if app.ShowIncompleteQuests(group) then
-					group.visible = not group.saved or app.GroupVisibilityFilter(group) or GetDataMember("ShowCompletedGroups");
+				if app.GroupVisibilityFilter(group) or GetDataMember("ShowCompletedGroups") then
+					group.visible = true;
+				elseif app.ShowIncompleteQuests(group) then
+					group.visible = not group.saved;
 				else
-					group.visible = app.GroupVisibilityFilter(group);
+					group.visible = false;
 				end
 			else
 				-- Hide this group. We aren't filtering for it.
@@ -4668,6 +4833,17 @@ UpdateGroup = function(parent, group)
 				else
 					-- Show this group.
 					group.visible = true;
+					
+					-- We only want to filter out Consumables, Reagents, and Miscellaneous items if they can't be used to collect something
+					if group.f then
+						if group.f == 56 or group.f == 50 then
+							if not GetPersonalDataSubMember("ItemFilters", group.f, true) then
+								group.visible = false;
+							end
+						elseif group.f == 58 then
+							group.visible = app.CollectedItemVisibilityFilter(group);
+						end
+					end
 				end
 			else
 				-- Hide this group. We aren't filtering for it.
@@ -4752,7 +4928,7 @@ function app.CompletionistItemCollectionHelper(sourceID, oldState)
 		end
 		
 		-- If the data is fresh, don't force a refresh.
-		app:RefreshData(fresh, true);
+		app:RefreshData(fresh, true, true);
 	else
 		-- Show the collection message.
 		if GetDataMember("ShowNotifications", true) then
@@ -4864,7 +5040,7 @@ function app.UniqueModeItemCollectionHelperBase(sourceID, oldState, filter)
 		end
 		
 		-- If the data is fresh, don't force a refresh.
-		app:RefreshData(fresh, true);
+		app:RefreshData(fresh, true, true);
 	end
 end
 function app.UniqueModeItemCollectionHelper(sourceID, oldState)
@@ -4909,7 +5085,7 @@ function app.CompletionistItemRemovalHelper(sourceID, oldState)
 		end
 		
 		-- If the data is fresh, don't force a refresh.
-		app:RefreshData(fresh, true);
+		app:RefreshData(fresh, true, true);
 	else
 		-- Show the collection message.
 		if GetDataMember("ShowNotifications", true) then
@@ -4927,7 +5103,7 @@ function app.CompletionistItemRemovalHelper(sourceID, oldState)
 		end
 		
 		-- If the item isn't in the list, then don't bother refreshing the data.
-		-- app:RefreshData(true, true);
+		-- app:RefreshData(true, true, true);
 	end
 end
 function app.UniqueModeItemRemovalHelperBase(sourceID, oldState, filter)
@@ -5024,7 +5200,7 @@ function app.UniqueModeItemRemovalHelperBase(sourceID, oldState, filter)
 		end
 		
 		-- If the data is fresh, don't force a refresh.
-		app:RefreshData(fresh, true);
+		app:RefreshData(fresh, true, true);
 	end
 end
 function app.UniqueModeItemRemovalHelper(sourceID, oldState)
@@ -5040,7 +5216,7 @@ function app.QuestCompletionHelper(questID)
 	local searchResults = SearchForQuestID(questID);
 	if searchResults and #searchResults > 0 then
 		-- Only increase progress for Quests as Collectible users.
-		if GetDataMember("TreatIncompleteQuestsAsCollectible") then
+		if GetDataMember("TreatQuestsAsCollectible") then
 			-- Attempt to cleanly refresh the data.
 			for i,result in ipairs(searchResults) do
 				if result.visible and result.parent and result.parent.total then
@@ -5072,7 +5248,7 @@ function app.QuestCompletionHelper(questID)
 		end
 		
 		-- Don't force a full refresh.
-		app:RefreshData(true, true);
+		app:RefreshData(true, true, true);
 	end
 end
 
@@ -5230,7 +5406,7 @@ local function CreateMiniListForGroup(group)
 						-- Only care about the first search result.
 						if app.GroupFilter(sourceQuest[1]) then
 							sourceQuest = setmetatable({ ['collectible'] = true, ['visible'] = true, ['hideText'] = true }, { __index = sourceQuest[1] });
-							if sourceQuest.sourceQuests and #sourceQuest.sourceQuests > 0 then
+							if sourceQuest.sourceQuests and #sourceQuest.sourceQuests > 0 and (not sourceQuest.saved or app.CollectedItemVisibilityFilter(sourceQuest)) then
 								-- Mark the sub source quest IDs as marked (as the same sub quest might point to 1 source quest ID)
 								for j, subsourceQuests in ipairs(sourceQuest.sourceQuests) do
 									subSourceQuests[subsourceQuests] = true;
@@ -5869,22 +6045,44 @@ local function RowOnEnter(self)
 		if reference.questID then
 			if GetDataMember("ShowQuestID") then GameTooltip:AddDoubleLine(L("QUEST_ID"), tostring(reference.questID)); end
 		end
-		if reference.qgs then
+		if reference.qgs and GetDataMember("ShowQuestGivers") then
 			if #reference.qgs > 1 then
 				if GetDataMember("ShowCreatureID") then 
 					for i,qg in ipairs(reference.qgs) do
-						GameTooltip:AddDoubleLine(L("QUEST_GIVER"), tostring(qg > 0 and NPCNameFromID[qg] or ("NPC #" .. qg)));
-						GameTooltip:AddDoubleLine(L("CREATURE_ID"), tostring(qg));
+						GameTooltip:AddDoubleLine(i == 1 and L("QUEST_GIVERS") or " ", tostring(qg > 0 and NPCNameFromID[qg] or "NPC") .. " (" .. qg .. ")");
 					end
 				else
 					for i,qg in ipairs(reference.qgs) do
-						GameTooltip:AddDoubleLine(L("QUEST_GIVER"), tostring(qg > 0 and NPCNameFromID[qg] or ("NPC #" .. qg)));
+						GameTooltip:AddDoubleLine(i == 1 and L("QUEST_GIVERS") or " ", tostring(qg > 0 and NPCNameFromID[qg] or ("NPC (" .. qg .. ")")));
 					end
 				end
 			else
 				local qg = reference.qgs[1];
-				GameTooltip:AddDoubleLine(L("QUEST_GIVER"), tostring(qg > 0 and NPCNameFromID[qg] or ("NPC #" .. qg)));
-				if GetDataMember("ShowCreatureID") then GameTooltip:AddDoubleLine(L("CREATURE_ID"), tostring(qg)); end
+				if GetDataMember("ShowCreatureID") then 
+					GameTooltip:AddDoubleLine(L("QUEST_GIVER"), tostring(qg > 0 and NPCNameFromID[qg] or "NPC") .. " (" .. qg .. ")");
+				else
+					GameTooltip:AddDoubleLine(L("QUEST_GIVER"), tostring(qg > 0 and NPCNameFromID[qg] or ("NPC (" .. qg .. ")")));
+				end
+			end
+		end
+		if reference.crs and GetDataMember("ShowCreatures") then
+			if #reference.crs > 1 then
+				if GetDataMember("ShowCreatureID") then 
+					for i,cr in ipairs(reference.crs) do
+						GameTooltip:AddDoubleLine(i == 1 and L("CREATURES") or " ", tostring(cr > 0 and NPCNameFromID[cr] or "NPC") .. " (" .. cr .. ")");
+					end
+				else
+					for i,cr in ipairs(reference.crs) do
+						GameTooltip:AddDoubleLine(i == 1 and L("CREATURES") or " ", tostring(cr > 0 and NPCNameFromID[cr] or ("NPC (" .. cr .. ")")));
+					end
+				end
+			else
+				local cr = reference.crs[1];
+				if GetDataMember("ShowCreatureID") then 
+					GameTooltip:AddDoubleLine(L("CREATURE_ID"), tostring(cr > 0 and NPCNameFromID[cr] or "NPC") .. " (" .. cr .. ")");
+				else
+					GameTooltip:AddDoubleLine(L("CREATURE_ID"), tostring(cr > 0 and NPCNameFromID[cr] or ("NPC (" .. cr .. ")")));
+				end
 			end
 		end
 		if reference.isDaily then GameTooltip:AddLine("This can be completed daily."); end
@@ -6083,7 +6281,7 @@ function app:ToggleWindow(suffix)
 	local window = app.Windows[suffix];
 	if window then ToggleWindow(window); end
 end
-local function UpdateWindow(self, force)
+local function UpdateWindow(self, force, got)
 	-- If this window doesn't have data, do nothing.
 	if not self.data then return; end
 	if not self.rowData then
@@ -6121,21 +6319,31 @@ local function UpdateWindow(self, force)
 		end
 		
 		-- Does this user have everything?
-		if self.data.total and self.data.total == self.data.progress then
-			if #self.rowData < 1 then
-				self.data.back = 1;
-				tinsert(self.rowData, self.data);
+		if self.data.total then
+			if self.data.total <= self.data.progress then
+				if #self.rowData < 1 then
+					self.data.back = 1;
+					tinsert(self.rowData, self.data);
+				end
+				if self.missingData then
+					if got then app:PlayCompleteSound(); end
+					self.missingData = nil;
+				end
+				tinsert(self.rowData, {
+					["text"] = "No entries matching your filters were found.",
+					["description"] = GetDataMember("ShowCompletedGroups") and 
+						"If you believe this was in error, try activating 'Debug Mode'. One of your filters may be restricting the visibility of the group."
+						or "Toggle 'Show Completed Groups' in the options menu to review your accomplishments.\n\nIf you believe this was in error, try activating 'Debug Mode'. One of your filters may be restricting the visibility of the group.",
+					["indent"] = 1,
+					["collectible"] = 1,
+					["collected"] = 1,
+					["back"] = 0.7
+				});
+			else
+				self.missingData = true;
 			end
-			tinsert(self.rowData, {
-				["text"] = "No entries matching your filters were found.",
-				["description"] = GetDataMember("ShowCompletedGroups") and 
-					"If you believe this was in error, try activating 'Debug Mode'. One of your filters may be restricting the visibility of the group."
-					or "Toggle 'Show Completed Groups' in the options menu to review your accomplishments.\n\nIf you believe this was in error, try activating 'Debug Mode'. One of your filters may be restricting the visibility of the group.",
-				["indent"] = 1,
-				["collectible"] = 1,
-				["collected"] = 1,
-				["back"] = 0.7
-			});
+		else
+			self.missingData = nil;
 		end
 		
 		UpdateVisibleRowData(self);
@@ -6148,10 +6356,10 @@ local function UpdateWindowColor(self, suffix)
 	self:SetBackdropBorderColor(1, 1, 1, 1);
 	self:SetBackdropColor(0, 0, 0, 1);
 end
-function app:UpdateWindows(force)
+function app:UpdateWindows(force, got)
 	local anyUpdated = false;
 	for name, window in pairs(app.Windows) do
-		if window:Update(force) then
+		if window:Update(force, got) then
 			--print(name .. ": Updated");
 			anyUpdated = true;
 		end
@@ -6251,6 +6459,17 @@ function app:GetDataCache()
 			db.f = 0;
 			db.expanded = false;
 			db.text = EVENTS_LABEL; -- L("EVENTS");
+			table.insert(g, db);
+		end
+		
+		-- Pet Battles
+		if app.Categories.PetBattles then
+			db = app.CreateAchievement(6622, app.Categories.PetBattles); -- Big City Pet Brawler
+			db.f = 0;
+			db.lvl = 5; -- Must be 5 to train
+			db.expanded = false;
+			db.text = SHOW_PET_BATTLES_ON_MAP_TEXT; -- Pet Battles
+			db.g = app.Categories.PetBattles;
 			table.insert(g, db);
 		end
 		
@@ -6366,7 +6585,6 @@ function app:GetDataCache()
 			db.text = "Unsorted";
 			table.insert(g, db);
 		end
-		
 		-- Titles (Dynamic)
 		db = app.CreateAchievement(2188, GetTitleCache());
 		db.expanded = false;
@@ -6542,11 +6760,11 @@ function app:GetDataCache()
 			end
 			UpdateVisibleRowData(self);
 		end
-		]]--
+		--]]
 	end
 	return allData;
 end
-function app:RefreshData(lazy, safely)
+function app:RefreshData(lazy, safely, got)
 	--print("RefreshData(" .. tostring(lazy or false) .. ", " .. tostring(safely or false) .. ")");
 	app.refreshDataForce = app.refreshDataForce or not lazy;
 	StartCoroutine("RefreshData", function()
@@ -6563,12 +6781,15 @@ function app:RefreshData(lazy, safely)
 			allData.progress = 0;
 			allData.total = 0;
 			UpdateGroups(allData, allData.g, 1);
-			--print(tostring(allData.progress or 0) .. " / " .. tostring(allData.total or 0));
+			app.HolidayHeader.progress = 0;
+			app.HolidayHeader.total = 0;
+			UpdateGroups(app.HolidayHeader, app.HolidayHeader.g, 1);
+			app.HolidayHeader.visible = app.GroupVisibilityFilter(app.HolidayHeader);
 			
 			-- Forcibly update the windows.
-			app:UpdateWindows(true);
+			app:UpdateWindows(true, got);
 		else
-			app:UpdateWindows();
+			app:UpdateWindows(nil, got);
 		end
 	end);
 end
@@ -6790,6 +7011,12 @@ app:GetWindow("RaidAssistant", UIParent, function(self)
 					['OnUpdate'] = function(data)
 						if app.DungeonDifficulty then
 							data.difficultyID = app.DungeonDifficulty;
+							local name, instanceType, instanceDifficulty, difficultyName = GetInstanceInfo();
+							if instanceDifficulty and data.difficultyID ~= instanceDifficulty and instanceType == 'party' then
+								data.name = GetDifficultyInfo(data.difficultyID) .. " (" .. difficultyName .. ")";
+							else
+								data.name = GetDifficultyInfo(data.difficultyID);
+							end
 						end
 					end,
 					['back'] = 0.5,
@@ -6808,6 +7035,12 @@ app:GetWindow("RaidAssistant", UIParent, function(self)
 					['OnUpdate'] = function(data)
 						if app.RaidDifficulty then
 							data.difficultyID = app.RaidDifficulty;
+							local name, instanceType, instanceDifficulty, difficultyName = GetInstanceInfo();
+							if instanceDifficulty and data.difficultyID ~= instanceDifficulty and instanceType == 'raid' then
+								data.name = GetDifficultyInfo(data.difficultyID) .. " (" .. difficultyName .. ")";
+							else
+								data.name = GetDifficultyInfo(data.difficultyID);
+							end
 						end
 					end,
 					['back'] = 0.5,
@@ -7078,6 +7311,8 @@ app:GetWindow("RaidAssistant", UIParent, function(self)
 		self:RegisterEvent("PLAYER_LOOT_SPEC_UPDATED");
 		self:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED");
 		self:RegisterEvent("CHAT_MSG_SYSTEM");
+		self:RegisterEvent("SCENARIO_UPDATE");
+		self:RegisterEvent("ZONE_CHANGED_NEW_AREA");
 	end
 	
 	-- Update the window and all of its row data
@@ -8413,7 +8648,8 @@ app.events.VARIABLES_LOADED = function()
 	GetDataMember("OnlyShowRelevantDatabaseLocations", true);
 	GetDataMember("OnlyShowRelevantSharedAppearances", false);
 	GetDataMember("ShowLootSpecializationRequirements", true);
-	GetDataMember("TreatIncompleteQuestsAsCollectible", false);
+	GetDataMember("TreatAchievementsAsCollectible", true);
+	GetDataMember("TreatQuestsAsCollectible", false);
 	GetDataMember("ShowCompleteSourceLocations", true);
 	GetDataMember("EnableTooltipInformation", true);
 	GetDataMember("DisplayTooltipsInCombat", true);
@@ -8587,8 +8823,8 @@ end
 app.events.TOYS_UPDATED = function(itemID, new)
 	if itemID and not GetDataSubMember("CollectedToys", itemID) then
 		SetDataSubMember("CollectedToys", itemID, true);
-		app:RefreshData(false, true);
-		PlayFanfare();
+		app:RefreshData(false, true, true);
+		app:PlayFanfare();
 		wipe(searchCache);
 		
 		if GetDataMember("ShowNotifications", true) then
@@ -8616,7 +8852,7 @@ app.events.TRANSMOG_COLLECTION_SOURCE_ADDED = function(sourceID)
 		if oldState ~= 1 then
 			SetDataSubMember("CollectedSources", sourceID, 1);
 			app.ActiveItemCollectionHelper(sourceID, oldState);
-			PlayFanfare();
+			app:PlayFanfare();
 			wipe(searchCache);
 		end
 	end
@@ -8658,8 +8894,8 @@ app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
 		end
 		
 		-- Refresh the Data and Cry!
-		app:RefreshData(false, true);
-		PlayRemoveSound();
+		app:RefreshData(false, true, true);
+		app:PlayRemoveSound();
 		wipe(searchCache);
 	end
 end

@@ -33,6 +33,14 @@ L["DUNGEON_SHORT_NAME_NL"] = "Guarida"
 L["DUNGEON_SHORT_NAME_SEAT"] = "Trono"
 L["DUNGEON_SHORT_NAME_UPPR"] = "Kara-S"
 L["DUNGEON_SHORT_NAME_VOTW"] = "Celadoras"
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = ""--]] 
 L["ENABLE_NO_SCORE_COLORS"] = "Desactivar colores de puntuación"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "Desactiva los colores de las puntuaciones. Todas las puntuaciones se mostrarán de color blanco."
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Usar colores de puntuación simples"
@@ -43,6 +51,8 @@ L["INVERSE_PROFILE_MODIFIER"] = "Invertir modificador de marco de perfil"
 L["INVERSE_PROFILE_MODIFIER_DESC"] = "Invierte el comportamiento del modificador del marco de perfil (mayús/ctrl/alt) para que muestre por defecto el perfil del líder del grupo."
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (completadas)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (completadas)"
+--[[Translation missing --]]
+--[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
 L["MAINS_SCORE"] = "Puntuación de personaje principal"
 L["MAINS_SCORE_COLON"] = "Puntuación de personaje principal:"
 L["MODULE_AMERICAS"] = "América"
@@ -100,6 +110,10 @@ L["TOOLTIP_CUSTOMIZATION"] = "Personalización de ventanas emergentes"
 L["TOOLTIP_PROFILE"] = "Personalización del marco de perfil"
 L["UNKNOWN_SCORE"] = "Desconocida"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r ha encontrado un nuevo servidor. Por favor, apunta esta información |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r y envíasela a los desarrolladores. ¡Gracias!"
+--[[Translation missing --]]
+--[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_LOCK_POSITION_FRAME_AUTO"] = ""--]] 
 
 
 	ns.L = L

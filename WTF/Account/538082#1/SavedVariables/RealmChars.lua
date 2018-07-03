@@ -53,7 +53,7 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 779,
+				["secondProfLevel"] = 783,
 				["itemLevelEquipped"] = 966.625,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
@@ -98,11 +98,11 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 190.0625,
+				["itemLevelEquipped"] = 206.6875,
 				["class"] = "WARLOCK",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Zethan",
-				["itemLevelOverall"] = 190.0625,
+				["itemLevelOverall"] = 206.6875,
 				["level"] = 80,
 				["firstProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
@@ -112,12 +112,12 @@ RCDatabase = {
 		["Hyjal"] = {
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 0.3125,
+				["itemLevelEquipped"] = 9.5625,
 				["class"] = "MAGE",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Deminath",
-				["itemLevelOverall"] = 0.3125,
-				["level"] = 1,
+				["itemLevelOverall"] = 9.5625,
+				["level"] = 7,
 				["firstProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
 			}, -- [1]
@@ -232,10 +232,10 @@ RCDatabase = {
 				["class"] = "MONK",
 				["secondProf"] = "Skinning",
 				["name"] = "Miriyal",
-				["firstProf"] = "Leatherworking",
+				["itemLevelOverall"] = 943.125,
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["itemLevelOverall"] = 943.125,
+				["firstProf"] = "Leatherworking",
 			}, -- [9]
 			{
 				["secondProfLevel"] = 736,

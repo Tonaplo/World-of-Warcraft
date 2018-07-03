@@ -33,6 +33,14 @@ L["DUNGEON_SHORT_NAME_NL"] = "NL"
 L["DUNGEON_SHORT_NAME_SEAT"] = "SEAT"
 L["DUNGEON_SHORT_NAME_UPPR"] = "UPPR"
 L["DUNGEON_SHORT_NAME_VOTW"] = "VOTW"
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = ""--]] 
 L["ENABLE_NO_SCORE_COLORS"] = "Désactiver les couleurs de score"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "Tous les scores seront affichés en blanc."
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Utiliser les couleurs de rareté pour le score"
@@ -43,6 +51,8 @@ L["INVERSE_PROFILE_MODIFIER"] = "Inverser le modificateur de l'info bulle"
 L["INVERSE_PROFILE_MODIFIER_DESC"] = "Activer cette option va inverser le comportement de l'info-bulle lorsque l'on utilise les touches (shift/ctrl/alt)."
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (CM)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (MM)"
+--[[Translation missing --]]
+--[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
 L["MAINS_SCORE"] = "Score du personnage principal"
 L["MAINS_SCORE_COLON"] = "Score du personnage principal :"
 L["MODULE_AMERICAS"] = "Amérique"
@@ -99,6 +109,10 @@ L["TOOLTIP_CUSTOMIZATION"] = "Modification de l'info-bulle"
 L["TOOLTIP_PROFILE"] = "Modification du Profil"
 L["UNKNOWN_SCORE"] = "Inconnu"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r a rencontré une erreur. S'il vous plait, écrivez ces informations |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r et reporter le aux développers. Merci !"
+--[[Translation missing --]]
+--[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_LOCK_POSITION_FRAME_AUTO"] = ""--]] 
 
 
 	ns.L = L

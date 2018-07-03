@@ -1,6 +1,0 @@
-
-ArtifactPowerUserCharacterDB = {
-	["disable"] = {
-	},
-	["hide"] = false,
-}

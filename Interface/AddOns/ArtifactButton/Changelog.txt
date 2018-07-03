@@ -1,9 +1,0 @@
-5.0 - Button is resized and moved over is Pawn is also loaded
-
-4.0 - TOC 7.2
-
-3.0 - Code optimization, TOC 7.1
-
-2.0 - Artifact button hides for level 97 and below
-
-1.0 - Initial Release

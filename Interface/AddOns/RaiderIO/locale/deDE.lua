@@ -46,6 +46,14 @@ L["DPS_SCORE"] = "DPS Wertung"
 --[[ L["DUNGEON_SHORT_NAME_UPPR"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_VOTW"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = ""--]] 
 L["ENABLE_NO_SCORE_COLORS"] = "Deaktiviere Wertungsfarben"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "Deaktiviere Farben der Wertungen. Alle Wertungen werden weiß angezeigt."
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Verwende einfache Farben"
@@ -57,6 +65,8 @@ L["INVERSE_PROFILE_MODIFIER_DESC"] = [=[
 Wenn du dies aktivierst, wird das Verhalten des Profil-Tooltip-Modifikators (Shift / Strg / Alt) umgekehrt: Halten, um die Ansicht zwischen persönlichen und Gruppenleiter-Profil oder Gruppenleiter und persönlichen Profil umzuschalten.]=]
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (SSE)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (SSM)"
+--[[Translation missing --]]
+--[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
 L["MAINS_SCORE"] = "Hauptcharakter Wertung"
 L["MAINS_SCORE_COLON"] = "Hauptcharakter Wertung:"
 L["MODULE_AMERICAS"] = "Americas"
@@ -114,6 +124,10 @@ L["TOOLTIP_CUSTOMIZATION"] = "Wertung Tooltip Anpassungen"
 L["TOOLTIP_PROFILE"] = "Profil Tooltip Anpassungen"
 L["UNKNOWN_SCORE"] = "Unbekannt"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r hat einen neuen Server gefunden. Bitte schreibe folgende information auf: |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r . Danach schicke diese den Entwicklern. Danke!"
+--[[Translation missing --]]
+--[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_LOCK_POSITION_FRAME_AUTO"] = ""--]] 
 
 
 	ns.L = L
