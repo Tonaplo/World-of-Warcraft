@@ -151,28 +151,28 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTe",
 				}, -- [5]
 				{
-					["id"] = "/cast {{spell:2259/51304}}",
 					["sliceToken"] = "OPCCTa",
+					["id"] = "/cast {{spell:2259/51304}}",
 				}, -- [6]
 				{
-					["id"] = "/cast [mod] {{spell:818}}; {{spell:2550/51296}}",
 					["sliceToken"] = "OPCCTc",
+					["id"] = "/cast [mod] {{spell:818}}; {{spell:2550/51296}}",
 				}, -- [7]
 				{
 					["id"] = "/cast [mod] {{spell:51005}}; {{spell:45357/45363}}",
 					["sliceToken"] = "OPCCTi",
 				}, -- [8]
 				{
-					["id"] = "/cast {{spell:3273/45542}}",
 					["sliceToken"] = "OPCCTf",
+					["id"] = "/cast {{spell:3273/45542}}",
 				}, -- [9]
 				{
 					["id"] = "/cast {{spell:4036/51306}}",
 					["sliceToken"] = "OPCCTg",
 				}, -- [10]
 				{
-					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
 					["sliceToken"] = "OPCCTr",
+					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
 				}, -- [11]
 				{
 					["id"] = 53428,
@@ -224,9 +224,9 @@ OneRing_Config = {
 					["id"] = 72286,
 				}, -- [3]
 				{
-					["show"] = "[spec:255/254/253] hide;",
 					["sliceToken"] = "ABuepElZQEe",
 					["id"] = 229377,
+					["show"] = "[spec:255/254/253] hide;",
 				}, -- [4]
 				{
 					["id"] = 229376,
@@ -257,8 +257,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea5PhMXe",
 				}, -- [11]
 				{
-					["sliceToken"] = "ABueax2PbEe",
 					["id"] = 232412,
+					["sliceToken"] = "ABueax2PbEe",
 				}, -- [12]
 				{
 					["id"] = 231434,
@@ -378,12 +378,12 @@ OneRing_Config = {
 			},
 			["tAbilities"] = {
 				{
-					["id"] = 1706,
 					["sliceToken"] = "ABuep4BpwxR",
+					["id"] = 1706,
 				}, -- [1]
 				{
-					["id"] = 2006,
 					["sliceToken"] = "ABuep4Bpwx7",
+					["id"] = 2006,
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4BpwxE",
@@ -393,8 +393,8 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [3]
 				{
-					["id"] = 232698,
 					["sliceToken"] = "ABuepjqUmtwp",
+					["id"] = 232698,
 				}, -- [4]
 				{
 					["id"] = 31687,
@@ -425,48 +425,48 @@ OneRing_Config = {
 					["sliceToken"] = "ABuepPCKkae",
 				}, -- [11]
 				{
-					["sliceToken"] = "ABuepDog/Wl",
 					["id"] = 29893,
+					["sliceToken"] = "ABuepDog/Wl",
 				}, -- [12]
 				{
-					["sliceToken"] = "ABuepDog/Wk",
 					["id"] = 111771,
+					["sliceToken"] = "ABuepDog/Wk",
 				}, -- [13]
 				{
-					["sliceToken"] = "ABuepDog/Wj",
 					["id"] = 698,
+					["sliceToken"] = "ABuepDog/Wj",
 				}, -- [14]
 				{
-					["sliceToken"] = "ABuepDog/W4",
 					["id"] = 20707,
+					["sliceToken"] = "ABuepDog/W4",
 				}, -- [15]
 				{
-					["sliceToken"] = "ABuepDog/Wh",
 					["id"] = 18540,
+					["sliceToken"] = "ABuepDog/Wh",
 				}, -- [16]
 				{
-					["sliceToken"] = "ABuepDog/Wg",
 					["id"] = 5697,
+					["sliceToken"] = "ABuepDog/Wg",
 				}, -- [17]
 				{
-					["sliceToken"] = "ABueazSzU/e",
 					["id"] = 688,
+					["sliceToken"] = "ABueazSzU/e",
 				}, -- [18]
 				{
 					["id"] = 46584,
 					["sliceToken"] = "ABueaWHtzHe",
 				}, -- [19]
 				{
-					["sliceToken"] = "ABueskR0Um1",
 					["id"] = 6201,
+					["sliceToken"] = "ABueskR0Um1",
 				}, -- [20]
 				{
-					["sliceToken"] = "ABueskR0Umr",
 					["id"] = 697,
+					["sliceToken"] = "ABueskR0Umr",
 				}, -- [21]
 				{
-					["sliceToken"] = "ABuesnWstVe",
 					["id"] = 691,
+					["sliceToken"] = "ABuesnWstVe",
 				}, -- [22]
 				{
 					["id"] = 3714,

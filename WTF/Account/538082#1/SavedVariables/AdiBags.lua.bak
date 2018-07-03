@@ -24,10 +24,10 @@ AdiBagsDB = {
 				["Default"] = {
 					["splitBySubclass"] = {
 						["Recipe"] = true,
-						["Tradeskill"] = false,
-						["Gem"] = false,
+						["Tradeskill"] = true,
+						["Gem"] = true,
 						["Consumable"] = true,
-						["Glyph"] = false,
+						["Glyph"] = true,
 						["Miscellaneous"] = true,
 					},
 				},
@@ -40,6 +40,22 @@ AdiBagsDB = {
 		["Legion"] = {
 		},
 		["MoneyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["small"] = true,
+				},
+			},
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
+				},
+			},
 		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
@@ -73,17 +89,6 @@ AdiBagsDB = {
 		},
 		["DataSource"] = {
 		},
-		["ItemSets"] = {
-			["char"] = {
-				["Mallusof - Tichondrius"] = {
-					["mergedSets"] = {
-						["Disc"] = true,
-						["Holy"] = true,
-						["Shadow"] = true,
-					},
-				},
-			},
-		},
 		["Junk"] = {
 		},
 		["Equipment"] = {
@@ -110,17 +115,22 @@ AdiBagsDB = {
 		["Farahn - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
 		["Mallusof - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["virtualStacks"] = {
+				["others"] = true,
+				["stackable"] = true,
+				["incomplete"] = true,
+			},
 			["bagFont"] = {
 				["name"] = "Prototype",
 			},
@@ -130,17 +140,18 @@ AdiBagsDB = {
 					["yOffset"] = 13.7538537979126,
 				},
 				["Backpack"] = {
-					["xOffset"] = -123.077633689143,
-					["point"] = "TOPRIGHT",
-					["yOffset"] = -280.290734778282,
+					["xOffset"] = -121.031344596151,
+					["yOffset"] = 122.915175171423,
 				},
 			},
 			["filters"] = {
 				["ItemSets"] = false,
 			},
-			["rightClickConfig"] = false,
+			["compactLayout"] = true,
+			["autoDeposit"] = true,
 			["sectionFont"] = {
 				["name"] = "Prototype",
+				["size"] = 16,
 			},
 			["positionMode"] = "manual",
 		},

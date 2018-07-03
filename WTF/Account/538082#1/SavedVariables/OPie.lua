@@ -139,8 +139,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTl",
 				}, -- [2]
 				{
-					["id"] = "/cast {{spell:2018/51300}}",
 					["sliceToken"] = "OPCCTb",
+					["id"] = "/cast {{spell:2018/51300}}",
 				}, -- [3]
 				{
 					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
@@ -179,8 +179,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTu",
 				}, -- [12]
 				{
-					["id"] = 2656,
 					["sliceToken"] = "OPCCTm",
+					["id"] = 2656,
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -193,9 +193,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
-					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
+					["caption"] = "Fishing",
 				}, -- [16]
 				{
 					["sliceToken"] = "ABuesXHE2Xe",
@@ -257,16 +257,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea5PhMXe",
 				}, -- [11]
 				{
-					["sliceToken"] = "ABueax2PbEe",
 					["id"] = 232412,
+					["sliceToken"] = "ABueax2PbEe",
 				}, -- [12]
 				{
 					["id"] = 231434,
 					["sliceToken"] = "ABueaxptLhe",
 				}, -- [13]
 				{
-					["id"] = 231435,
 					["sliceToken"] = "ABueacciiTe",
+					["id"] = 231435,
 				}, -- [14]
 				{
 					["id"] = 783,
@@ -404,15 +404,15 @@ OneRing_Config = {
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
-					["id"] = "/click ORLOpen Base",
 					["caption"] = "Back",
 					["icon"] = 1339449,
+					["id"] = "/click ORLOpen Base",
 				}, -- [6]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
-					["id"] = "/rt",
 					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
+					["id"] = "/rt",
 				}, -- [7]
 				{
 					"macro", -- [1]
@@ -567,48 +567,48 @@ OneRing_Config = {
 					["sliceToken"] = "ABuepPCKkae",
 				}, -- [11]
 				{
-					["sliceToken"] = "ABuepDog/Wl",
 					["id"] = 29893,
+					["sliceToken"] = "ABuepDog/Wl",
 				}, -- [12]
 				{
-					["sliceToken"] = "ABuepDog/Wk",
 					["id"] = 111771,
+					["sliceToken"] = "ABuepDog/Wk",
 				}, -- [13]
 				{
-					["sliceToken"] = "ABuepDog/Wj",
 					["id"] = 698,
+					["sliceToken"] = "ABuepDog/Wj",
 				}, -- [14]
 				{
-					["sliceToken"] = "ABuepDog/W4",
 					["id"] = 20707,
+					["sliceToken"] = "ABuepDog/W4",
 				}, -- [15]
 				{
-					["sliceToken"] = "ABuepDog/Wh",
 					["id"] = 18540,
+					["sliceToken"] = "ABuepDog/Wh",
 				}, -- [16]
 				{
-					["sliceToken"] = "ABuepDog/Wg",
 					["id"] = 5697,
+					["sliceToken"] = "ABuepDog/Wg",
 				}, -- [17]
 				{
-					["sliceToken"] = "ABueazSzU/e",
 					["id"] = 688,
+					["sliceToken"] = "ABueazSzU/e",
 				}, -- [18]
 				{
 					["id"] = 46584,
 					["sliceToken"] = "ABueaWHtzHe",
 				}, -- [19]
 				{
-					["sliceToken"] = "ABueskR0Um1",
 					["id"] = 6201,
+					["sliceToken"] = "ABueskR0Um1",
 				}, -- [20]
 				{
-					["sliceToken"] = "ABueskR0Umr",
 					["id"] = 697,
+					["sliceToken"] = "ABueskR0Umr",
 				}, -- [21]
 				{
-					["sliceToken"] = "ABuesnWstVe",
 					["id"] = 691,
+					["sliceToken"] = "ABuesnWstVe",
 				}, -- [22]
 				{
 					["id"] = 3714,
