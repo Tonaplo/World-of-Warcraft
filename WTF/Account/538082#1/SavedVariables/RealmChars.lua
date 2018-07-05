@@ -53,15 +53,15 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 783,
+				["secondProfLevel"] = 785,
 				["itemLevelEquipped"] = 966.625,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
 				["name"] = "Mallusof",
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 969.75,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
-				["itemLevelOverall"] = 969.75,
+				["firstProf"] = "Alchemy",
 			}, -- [1]
 			{
 				["secondProfLevel"] = 0,
@@ -76,14 +76,14 @@ RCDatabase = {
 			}, -- [2]
 			{
 				["secondProfLevel"] = 168,
-				["itemLevelEquipped"] = 44.5,
+				["itemLevelEquipped"] = 45.875,
 				["class"] = "PRIEST",
 				["secondProf"] = "Inscription",
 				["name"] = "Alura",
+				["itemLevelOverall"] = 45.875,
+				["level"] = 43,
+				["firstProfLevel"] = 114,
 				["firstProf"] = "Herbalism",
-				["level"] = 41,
-				["firstProfLevel"] = 112,
-				["itemLevelOverall"] = 44.5,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 7,

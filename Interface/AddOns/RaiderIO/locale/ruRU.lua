@@ -43,6 +43,10 @@ L["DUNGEON_SHORT_NAME_VOTW"] = "Казематы"
 --[[ L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = ""--]] 
 L["ENABLE_NO_SCORE_COLORS"] = "Отключить цвета для очков"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "Отключает раскраску очков. Все очки будут отображены белым цветом."
+--[[Translation missing --]]
+--[[ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = ""--]] 
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Использовать упрощенную окраску очков"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Показывает очки только цветами качества предметов. Это упрощает визуальную оценку очков при беглом осмотре кандидатов."
 L["HEALER"] = "Лекарь"
@@ -79,6 +83,8 @@ L["PREV_SEASON_SUFFIX"] = "(*)"
 --[[ L["PROFILE_BEST_RUNS"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAIDERIO_CLIENT_CUSTOMIZATION"] = ""--]] 
 L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO M+ Базовые Очки"
 L["RAIDERIO_MP_SCORE"] = "Очки по версии Raider.IO"
 L["RAIDERIO_MP_SCORE_COLON"] = "Очки по версии Raider.IO: "

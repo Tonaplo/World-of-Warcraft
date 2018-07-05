@@ -56,6 +56,10 @@ L["DPS_SCORE"] = "DPS Wertung"
 --[[ L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = ""--]] 
 L["ENABLE_NO_SCORE_COLORS"] = "Deaktiviere Wertungsfarben"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "Deaktiviere Farben der Wertungen. Alle Wertungen werden weiß angezeigt."
+--[[Translation missing --]]
+--[[ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = ""--]] 
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Verwende einfache Farben"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Zeigt nur Wertungen mit Standardfarben für Itemqualität an. Dies kann es für Personen mit Farbsehschwächen leichter machen, die Bewertungsstufen zu unterscheiden."
 L["HEALER"] = "Heiler"
@@ -86,6 +90,8 @@ L["PLAYER_PROFILE_TITLE"] = "Spieler M+ Profil"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "Beste Instanzdurchläufe"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Durchschn. Wertungen für Timed +%s"
+--[[Translation missing --]]
+--[[ L["RAIDERIO_CLIENT_CUSTOMIZATION"] = ""--]] 
 L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO M+ Basiswertung"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO M+ Wertung"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO M+ Wertung:"
