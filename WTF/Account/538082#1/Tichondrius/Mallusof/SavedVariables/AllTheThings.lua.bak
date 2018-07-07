@@ -1,8 +1,6 @@
 
 AllTheThingsPCD = {
 	["MapID"] = 1188,
-	["Saves"] = {
-	},
 	["ItemFilters"] = {
 		true, -- [1]
 		true, -- [2]
@@ -41,7 +39,7 @@ AllTheThingsPCD = {
 		true, -- [35]
 		true, -- [36]
 		[0] = true,
-		[102] = true,
+		[58] = true,
 		[101] = true,
 		[103] = true,
 		[105] = true,
@@ -49,21 +47,23 @@ AllTheThingsPCD = {
 		[109] = true,
 		[111] = true,
 		[113] = true,
-		[112] = true,
-		[110] = true,
-		[108] = true,
-		[54] = true,
-		[104] = true,
-		[200] = true,
-		[100] = true,
-		[50] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[106] = true,
-		[55] = true,
-		[56] = true,
 		[57] = true,
-		[58] = true,
+		[56] = true,
+		[55] = true,
+		[106] = true,
+		[53] = true,
+		[52] = true,
+		[51] = true,
+		[50] = true,
+		[100] = true,
+		[200] = true,
+		[104] = true,
+		[54] = true,
+		[108] = true,
+		[110] = true,
+		[112] = true,
+		[102] = true,
+	},
+	["Saves"] = {
 	},
 }

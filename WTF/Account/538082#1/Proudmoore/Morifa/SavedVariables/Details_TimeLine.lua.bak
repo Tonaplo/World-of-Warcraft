@@ -1,39 +1,23 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_start"] = "00:27:22",
-			["date_end"] = "00:28:02",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 40.1589999999997,
-		}, -- [1]
-		{
-			["date_start"] = "00:24:03",
-			["date_end"] = "00:25:09",
-			["name"] = "Dresaron",
-			["total_time"] = 65.7360000000008,
-		}, -- [2]
-		{
-			["date_start"] = "00:19:20",
-			["date_end"] = "00:20:30",
-			["name"] = "Oakheart",
-			["total_time"] = 69.9339999999975,
-		}, -- [3]
-		{
-			["date_start"] = "00:15:30",
-			["date_end"] = "00:16:09",
-			["name"] = "Archdruid Glaidalis",
-			["total_time"] = 38.6340000000018,
-		}, -- [4]
-	},
-	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Katno-Akama"] = {
@@ -246,6 +230,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Katacola-Dentarg"] = {
@@ -287,15 +272,30 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
+	["combat_data"] = {
 		{
+			["date_start"] = "00:27:22",
+			["date_end"] = "00:28:02",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 40.1589999999997,
 		}, -- [1]
 		{
+			["date_start"] = "00:24:03",
+			["date_end"] = "00:25:09",
+			["name"] = "Dresaron",
+			["total_time"] = 65.7360000000008,
 		}, -- [2]
 		{
+			["date_start"] = "00:19:20",
+			["date_end"] = "00:20:30",
+			["name"] = "Oakheart",
+			["total_time"] = 69.9339999999975,
 		}, -- [3]
 		{
+			["date_start"] = "00:15:30",
+			["date_end"] = "00:16:09",
+			["name"] = "Archdruid Glaidalis",
+			["total_time"] = 38.6340000000018,
 		}, -- [4]
 	},
 }

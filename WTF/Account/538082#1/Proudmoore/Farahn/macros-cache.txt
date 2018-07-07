@@ -8,7 +8,6 @@ VER 3 0100000000000005 "Enhance CDs!" "INV_MISC_QUESTIONMARK"
 #showtooltip Ascendance
 /cast Ascendance
 /cast Doom Winds
-/cast Heroism
 /cast Feral Spirit
 END
 VER 3 0100000000000004 "Feral BOOM" "INV_MISC_QUESTIONMARK"

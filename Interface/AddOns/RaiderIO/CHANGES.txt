@@ -1,16 +1,10 @@
-lightweight tag a5f38553906eef1fc69dd149f1bee4acb998b336 v201807040600
+lightweight tag cf06cf5f5ab9b6c386945de029191b1a3fb25146 v201807060600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Wed Jul 4 07:25:01 2018 +0000
+Date:	Fri Jul 6 07:21:43 2018 +0000
 
-commit a5f38553906eef1fc69dd149f1bee4acb998b336
+commit cf06cf5f5ab9b6c386945de029191b1a3fb25146
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Jul 4 07:25:01 2018 +0000
+Date:   Fri Jul 6 07:21:43 2018 +0000
 
     [Raider.IO] Database Refresh
-
-commit 95d11ff7e31c3071ab785b9e2c23b84772e2999e
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Jul 3 09:48:29 2018 -0500
-
-    colorize the "stars" for keystones
 
