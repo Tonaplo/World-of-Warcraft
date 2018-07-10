@@ -56,8 +56,8 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["show_netherPortals"] = false,
-			["show_infernalCores"] = false,
 			["show_shrine"] = false,
+			["show_infernalCores"] = false,
 		},
 		["Miriyal - Proudmoore"] = {
 		},
