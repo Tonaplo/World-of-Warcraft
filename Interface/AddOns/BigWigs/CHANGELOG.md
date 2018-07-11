@@ -1,11 +1,13 @@
 # BigWigs
 
-## [v98](https://github.com/BigWigsMods/BigWigs/tree/v98) (2018-05-24)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v97.5...v98)
+## [v98.1](https://github.com/BigWigsMods/BigWigs/tree/v98.1) (2018-07-10)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v98...v98.1)
 
-- bump version  
-- TrialOfValor/Odyn: Use spell id for UnitBuff.  
-- Antorus/Argus: Add an initial counter to Sargeras' Gaze on pull and stage changes  
-- Antorus/Aggramar: Block enabling when not at the boss (can happen on the path to Coven/Varimathras.  
-- TombOfSargeras/Sasszine: Use spell id for UnitDebuff.  
-- Loader: remove temporary new feature print  
+- Update some UnitDebuff calls to use ids.  
+- TrialOfValor/Locales/itIT: Update Helya emotes.  
+- Tweaks  
+- Uldir/Mythrax: Minor changes, fix for Essence Shear sound spam for non-tanks  
+- Uldir/Ghuun: Updates and fixes for Beta testing  
+- Antorus/Kingaroth: Fix "Forging Strike" warnings/timers not working in LFR  
+- Nighthold/Skorpyron: Fix self call in local function  
+- Antorus/Aggramar: Move 2nd Intermission soon warning for Mythic to 37%  
