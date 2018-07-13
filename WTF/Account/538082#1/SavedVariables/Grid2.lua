@@ -1,58 +1,7 @@
 
 Grid2DB = {
 	["namespaces"] = {
-		["LibDualSpec-1.0"] = {
-			["char"] = {
-				["Lorvol - Tichondrius"] = {
-					"Non-Healer", -- [1]
-					"Non-Healer", -- [2]
-					"Healer", -- [3]
-					["enabled"] = true,
-				},
-				["Granjior - Proudmoore"] = {
-					"Healer", -- [1]
-					"Non-Healer", -- [2]
-					"Non-Healer", -- [3]
-					["enabled"] = true,
-				},
-				["Mallusof - Tichondrius"] = {
-					"Healer", -- [1]
-					"Healer", -- [2]
-					"Non-Healer", -- [3]
-					["enabled"] = true,
-				},
-				["Miriyal - Proudmoore"] = {
-					"Non-Healer", -- [1]
-					"Healer", -- [2]
-					"Non-Healer", -- [3]
-					["enabled"] = true,
-				},
-				["Amranar - Proudmoore"] = {
-					"Non-Healer", -- [1]
-					"Non-Healer", -- [2]
-					"Non-Healer", -- [3]
-					"Healer", -- [4]
-					["enabled"] = true,
-				},
-				["Farahn - Proudmoore"] = {
-					"Non-Healer", -- [1]
-					"Non-Healer", -- [2]
-					"Healer", -- [3]
-					["enabled"] = true,
-				},
-				["Alura - Tichondrius"] = {
-					"Healer", -- [1]
-					"Healer", -- [2]
-					"Non-Healer", -- [3]
-					["enabled"] = true,
-				},
-				["Mallusof - Icecrown"] = {
-					"Healer", -- [1]
-					"Healer", -- [2]
-					"Non-Healer", -- [3]
-					["enabled"] = true,
-				},
-			},
+		["Grid2AoeHeals"] = {
 		},
 		["Grid2RaidDebuffs"] = {
 			["profiles"] = {
@@ -100,10 +49,10 @@ Grid2DB = {
 				["Non-Healer"] = {
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["arena"] = "By Group",
 						["raid"] = "By Group & Role",
-						["solo"] = "Solo",
 						["party"] = "Party",
+						["solo"] = "Solo",
+						["arena"] = "By Group",
 					},
 					["BackgroundR"] = 1,
 					["BorderR"] = 0.501960784313726,
@@ -111,7 +60,7 @@ Grid2DB = {
 					["anchor"] = "TOPRIGHT",
 					["BackgroundG"] = 1,
 					["groupAnchor"] = "TOPRIGHT",
-					["PosY"] = -601.1755010063,
+					["PosY"] = -601.17525712966,
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.501960784313726,
 					["PosX"] = -15.2273180709526,
@@ -126,26 +75,77 @@ Grid2DB = {
 					},
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["party"] = "Party",
 						["arena"] = "By Group",
-						["solo"] = "Solo",
 						["raid"] = "By Group & Role",
+						["solo"] = "Solo",
+						["party"] = "Party",
 					},
-					["PosY"] = -572.021416570135,
-					["BackgroundR"] = 1,
-					["BorderG"] = 0.501960784313726,
-					["BorderTexture"] = "Stripped_medium",
-					["BackgroundA"] = 0,
-					["BorderR"] = 0.501960784313726,
 					["Spacing"] = 3,
-					["anchor"] = "TOP",
-					["horizontal"] = false,
+					["BackgroundR"] = 1,
 					["PosX"] = -1.43858853459528,
 					["BackgroundB"] = 1,
+					["BackgroundA"] = 0,
+					["BorderR"] = 0.501960784313726,
+					["BorderTexture"] = "Stripped_medium",
+					["anchor"] = "TOP",
+					["horizontal"] = false,
+					["BorderG"] = 0.501960784313726,
+					["PosY"] = -572.021416570135,
 				},
 			},
 		},
-		["Grid2AoeHeals"] = {
+		["LibDualSpec-1.0"] = {
+			["char"] = {
+				["Amranar - Proudmoore"] = {
+					"Non-Healer", -- [1]
+					"Non-Healer", -- [2]
+					"Non-Healer", -- [3]
+					"Healer", -- [4]
+					["enabled"] = true,
+				},
+				["Farahn - Proudmoore"] = {
+					"Non-Healer", -- [1]
+					"Non-Healer", -- [2]
+					"Healer", -- [3]
+					["enabled"] = true,
+				},
+				["Lorvol - Tichondrius"] = {
+					"Non-Healer", -- [1]
+					"Non-Healer", -- [2]
+					"Healer", -- [3]
+					["enabled"] = true,
+				},
+				["Mallusof - Tichondrius"] = {
+					"Healer", -- [1]
+					"Healer", -- [2]
+					"Non-Healer", -- [3]
+					["enabled"] = true,
+				},
+				["Granjior - Proudmoore"] = {
+					"Healer", -- [1]
+					"Non-Healer", -- [2]
+					"Non-Healer", -- [3]
+					["enabled"] = true,
+				},
+				["Miriyal - Proudmoore"] = {
+					"Non-Healer", -- [1]
+					"Healer", -- [2]
+					"Non-Healer", -- [3]
+					["enabled"] = true,
+				},
+				["Alura - Tichondrius"] = {
+					"Healer", -- [1]
+					"Healer", -- [2]
+					"Non-Healer", -- [3]
+					["enabled"] = true,
+				},
+				["Mallusof - Icecrown"] = {
+					"Healer", -- [1]
+					"Healer", -- [2]
+					"Non-Healer", -- [3]
+					["enabled"] = true,
+				},
+			},
 		},
 		["Grid2Options"] = {
 			["profiles"] = {
@@ -166,6 +166,8 @@ Grid2DB = {
 					},
 				},
 			},
+		},
+		["Grid2Utils"] = {
 		},
 		["Grid2Frame"] = {
 			["profiles"] = {
@@ -200,16 +202,14 @@ Grid2DB = {
 					["frameBorderTexture"] = "glow",
 					["font"] = "Prototype",
 					["showTooltip"] = "Always",
+					["orientation"] = "HORIZONTAL",
 					["frameContentColor"] = {
 						["r"] = 0.549019607843137,
 					},
-					["orientation"] = "HORIZONTAL",
 					["frameWidth"] = 119,
 					["frameBorderDistance"] = 0,
 				},
 			},
-		},
-		["Grid2Utils"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -223,7 +223,7 @@ Grid2DB = {
 		["Faerand - Proudmoore"] = "Non-Healer",
 		["Rahran - Proudmoore"] = "Non-Healer",
 		["Farahn - Proudmoore"] = "Non-Healer",
-		["Mallusof - Tichondrius"] = "Healer",
+		["Mallusof - Tichondrius"] = "Non-Healer",
 		["Granjior - Proudmoore"] = "Non-Healer",
 		["Morifa - Proudmoore"] = "Non-Healer",
 		["Miriyal - Proudmoore"] = "Non-Healer",
@@ -401,6 +401,18 @@ Grid2DB = {
 						["b"] = 0,
 					},
 				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
+				},
 				["corner-bottom-left"] = {
 					["disableStack"] = true,
 					["type"] = "icons",
@@ -414,28 +426,16 @@ Grid2DB = {
 						["b"] = 0,
 					},
 					["maxIcons"] = 3,
-					["orientation"] = "HORIZONTAL",
 					["iconSize"] = 20,
-					["level"] = 8,
-					["maxIconsPerRow"] = 3,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
-				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
+					["level"] = 8,
+					["maxIconsPerRow"] = 3,
+					["orientation"] = "HORIZONTAL",
 				},
 				["text-up-color"] = {
 					["type"] = "text-color",
@@ -1074,13 +1074,13 @@ Grid2DB = {
 					["fontJustifyV"] = "TOP",
 					["maxIcons"] = 3,
 					["font"] = "Prototype",
-					["iconSize"] = 20,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "TOPLEFT",
 						["point"] = "TOPLEFT",
 						["x"] = 0,
 					},
+					["iconSize"] = 20,
 					["level"] = 8,
 					["reverseCooldown"] = true,
 					["fontSize"] = 12,
@@ -1234,21 +1234,6 @@ Grid2DB = {
 				["importantDebuffsBorder-color"] = {
 					["type"] = "multibar-color",
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
-				["text-up-color"] = {
-					["type"] = "text-color",
-				},
 				["corner-bottom-left"] = {
 					["disableStack"] = true,
 					["type"] = "icons",
@@ -1262,16 +1247,31 @@ Grid2DB = {
 						["r"] = 0,
 					},
 					["maxIcons"] = 3,
-					["iconSize"] = 20,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["orientation"] = "HORIZONTAL",
 					["level"] = 8,
 					["maxIconsPerRow"] = 3,
-					["orientation"] = "HORIZONTAL",
+					["iconSize"] = 20,
+				},
+				["text-up-color"] = {
+					["type"] = "text-color",
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
 				},
 				["heals"] = {
 					["type"] = "bar",
@@ -1376,24 +1376,8 @@ Grid2DB = {
 				["leader"] = {
 					["hideInCombat"] = true,
 				},
-				["debuffs-ImportantDebuffs"] = {
-					["auras"] = {
-						"Fulminating Pulse", -- [1]
-						"Chilled Blood", -- [2]
-						"Ravenous Blaze", -- [3]
-						"Withering Roots", -- [4]
-						"Soulblight", -- [5]
-						"Soulbomb", -- [6]
-						"Soulburst", -- [7]
-					},
-					["useWhiteList"] = true,
-					["type"] = "debuffs",
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0,
-						["r"] = 0,
-					},
+				["health-current"] = {
+					["frequentHealth"] = true,
 				},
 				["role"] = {
 					["hideInCombat"] = true,
@@ -1826,12 +1810,28 @@ Grid2DB = {
 						},
 					},
 				},
-				["health-current"] = {
-					["frequentHealth"] = true,
-				},
 				["heals-incoming"] = {
-					["multiplier"] = 1.6,
 					["includePlayerHeals"] = true,
+					["multiplier"] = 1.6,
+				},
+				["debuffs-ImportantDebuffs"] = {
+					["auras"] = {
+						"Fulminating Pulse", -- [1]
+						"Chilled Blood", -- [2]
+						"Ravenous Blaze", -- [3]
+						"Withering Roots", -- [4]
+						"Soulblight", -- [5]
+						"Soulbomb", -- [6]
+						"Soulburst", -- [7]
+					},
+					["useWhiteList"] = true,
+					["type"] = "debuffs",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
 				},
 			},
 			["versions"] = {

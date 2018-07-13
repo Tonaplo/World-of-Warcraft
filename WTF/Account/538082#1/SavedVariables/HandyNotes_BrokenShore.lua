@@ -16,11 +16,11 @@ HandyNotes_BrokenShoreDB = {
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
@@ -59,15 +59,15 @@ HandyNotes_BrokenShoreDB = {
 			["show_infernalCores"] = false,
 			["show_shrine"] = false,
 		},
-		["Rentror - Bleeding Hollow"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Miriyal - Proudmoore"] = {
-		},
 		["Morifa - Proudmoore"] = {
+		},
+		["Rentror - Bleeding Hollow"] = {
 		},
 		["Zethan - Tichondrius"] = {
 		},
