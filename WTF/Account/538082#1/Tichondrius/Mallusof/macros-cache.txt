@@ -1,35 +1,15 @@
-VER 3 010000000000000B "Carafe" "INV_MISC_QUESTIONMARK"
-/tar Aggramar
-/use 13
+VER 3 010000000000000E "Guild Standard" "INV_MISC_QUESTIONMARK"
+/use Battle Standard of Coordination
+/use Banner of Cooperation
 END
-VER 3 0100000000000005 "KROSUS LEFT" "INV_SWORD_04"
-/RAID left
-END
-VER 3 0100000000000006 "krosus right" "132273"
-/raid right
-END
-VER 3 0100000000000007 "Lifegrip" "INV_MISC_QUESTIONMARK"
-#showtooltip Leap of Faith
-/cast [@mouseover,exists,nodead[]] Leap of Faith
-END
-VER 3 010000000000000A "Me" "INV_MISC_QUESTIONMARK"
-#showtooltip Shining Force
-/target Mallusof
-/cast Shining Force
-END
-VER 3 0100000000000009 "Vari" "INV_MISC_QUESTIONMARK"
-#showtooltip Holy Word: Chastise
-/target Shadow
-/cast Holy Word: Chastise
+VER 3 010000000000000D "Leveling CDs" "INV_MISC_QUESTIONMARK"
+/use 14
+/use Potion of Prolonged Power
+/use Drums of Fury
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-VER 3 0100000000000008 "Zael" "INV_MISC_QUESTIONMARK"
-#showtooltip Shining Force
-/target Zael
-/cast Shining Force
 END
