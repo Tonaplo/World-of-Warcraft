@@ -9,14 +9,13 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 		},
-		["Amranar - Proudmoore"] = {
-			["spec1_profileKey"] = "Druid - Balance",
-			["spec3_profileKey"] = "Druid - Guardian",
+		["Praerend - Proudmoore"] = {
+			["spec1_profileKey"] = "Praerend - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec4_profileKey"] = "Druid - Resto",
-			["spec2_profileKey"] = "Druid - Feral",
-			["specswap"] = true,
+			["spec3_profileKey"] = "Praerend - Proudmoore",
+			["spec2_profileKey"] = "Praerend - Proudmoore",
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
@@ -52,26 +51,26 @@ CliqueDB3 = {
 		},
 		["Alura - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
-			["specswap"] = true,
+			["spec2_profileKey"] = "Priest - Holy",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["specswap"] = true,
 			["spec3_profileKey"] = "Priest - Shadow",
 			["alerthidden"] = true,
-			["spec2_profileKey"] = "Priest - Holy",
 		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
-			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Non-Healer",
 			["specswap"] = true,
-			["spec3_profileKey"] = "Non-Healer",
 		},
 		["Fimwack - Proudmoore"] = {
 			["spec1_profileKey"] = "Fimwack - Proudmoore",
-			["fastooc"] = false,
 			["specswap"] = false,
 			["downclick"] = false,
+			["fastooc"] = false,
 			["spec3_profileKey"] = "Fimwack - Proudmoore",
 			["spec2_profileKey"] = "Fimwack - Proudmoore",
 		},
@@ -85,19 +84,19 @@ CliqueDB3 = {
 		},
 		["Greybone - Proudmoore"] = {
 			["spec1_profileKey"] = "Greybone - Proudmoore",
-			["spec3_profileKey"] = "Greybone - Proudmoore",
+			["spec2_profileKey"] = "Greybone - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec3_profileKey"] = "Greybone - Proudmoore",
 			["specswap"] = false,
-			["spec2_profileKey"] = "Greybone - Proudmoore",
 		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
-			["spec2_profileKey"] = "Morifa - Proudmoore",
-			["downclick"] = false,
 			["fastooc"] = false,
 			["spec3_profileKey"] = "Morifa - Proudmoore",
+			["downclick"] = false,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Morifa - Proudmoore",
 		},
 		["Faerand - Proudmoore"] = {
 			["spec1_profileKey"] = "Faerand - Proudmoore",
@@ -107,13 +106,14 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Faerand - Proudmoore",
 			["spec3_profileKey"] = "Faerand - Proudmoore",
 		},
-		["Praerend - Proudmoore"] = {
-			["spec1_profileKey"] = "Praerend - Proudmoore",
-			["spec2_profileKey"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = {
+			["spec1_profileKey"] = "Druid - Balance",
+			["spec3_profileKey"] = "Druid - Guardian",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec3_profileKey"] = "Praerend - Proudmoore",
+			["spec4_profileKey"] = "Druid - Resto",
+			["spec2_profileKey"] = "Druid - Feral",
+			["specswap"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -795,6 +795,14 @@ CliqueDB3 = {
 					},
 				}, -- [1]
 				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [2]
+				{
 					["spell"] = "Power Word: Shield",
 					["key"] = "4",
 					["sets"] = {
@@ -802,24 +810,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135940,
 					["type"] = "spell",
-				}, -- [2]
-				{
-					["sets"] = {
-						["default"] = true,
-					},
-					["type"] = "target",
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
 				}, -- [3]
-				{
-					["spell"] = "Shadow Mend",
-					["key"] = "3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136202,
-					["type"] = "spell",
-				}, -- [4]
 				{
 					["spell"] = "Plea",
 					["key"] = "F",
@@ -827,6 +818,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 1538777,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Shadow Mend",
+					["key"] = "3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136202,
 					["type"] = "spell",
 				}, -- [5]
 				{

@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "00:03:03",
 			["date_start"] = "00:02:02",
+			["date_end"] = "00:03:03",
 			["name"] = "Immol'thar",
 			["total_time"] = 61.0070000000014,
 		}, -- [1]
 		{
-			["date_end"] = "23:55:35",
 			["date_start"] = "23:54:21",
+			["date_end"] = "23:55:35",
 			["name"] = "Prince Tortheldrin",
 			["total_time"] = 74.0070000000014,
 		}, -- [2]
 		{
-			["date_end"] = "23:51:39",
 			["date_start"] = "23:50:13",
+			["date_end"] = "23:51:39",
 			["name"] = "Illyanna Ravenoak",
 			["total_time"] = 86.0020000000004,
 		}, -- [3]
 		{
-			["date_end"] = "23:46:53",
 			["date_start"] = "23:45:31",
+			["date_end"] = "23:46:53",
 			["name"] = "Magister Kalendris",
 			["total_time"] = 82.0070000000014,
 		}, -- [4]
@@ -30,61 +30,14 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
-			["Mooseknucklë-Thrall"] = {
-				{
-					16.7900000000009, -- [1]
-					"Mooseknucklë-Thrall", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Thalthedra-Thrall"] = {
-				{
-					24.7930000000015, -- [1]
-					"Thalthedra-Thrall", -- [2]
-					498, -- [3]
-				}, -- [1]
-			},
 		}, -- [1]
 		{
-			["Thalthedra-Thrall"] = {
-				{
-					28.3970000000008, -- [1]
-					"Thalthedra-Thrall", -- [2]
-					642, -- [3]
-				}, -- [1]
-				{
-					33.7639999999992, -- [1]
-					"Thalthedra-Thrall", -- [2]
-					498, -- [3]
-				}, -- [2]
-			},
 		}, -- [2]
 		{
-			["Mooseknucklë-Thrall"] = {
-				{
-					27.4420000000027, -- [1]
-					"Mooseknucklë-Thrall", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Thalthedra-Thrall"] = {
-				{
-					80.4340000000011, -- [1]
-					"Thalthedra-Thrall", -- [2]
-					498, -- [3]
-				}, -- [1]
-			},
 		}, -- [3]
 		{
-			["Mooseknucklë-Thrall"] = {
-				{
-					72.8140000000021, -- [1]
-					"Mooseknucklë-Thrall", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -240,27 +193,25 @@ DetailsTimeLineDB = {
 					["source"] = "Illyanna Ravenoak",
 					["active"] = false,
 				},
-				[30933] = {
-					59.9680000000008, -- [1]
-					65.974000000002, -- [2]
-					["source"] = "Illyanna Ravenoak",
-					["active"] = false,
-				},
 				[22911] = {
 					7.20300000000134, -- [1]
 					9.20100000000093, -- [2]
 					["source"] = "Ferra",
 					["active"] = false,
 				},
+				[30933] = {
+					59.9680000000008, -- [1]
+					65.974000000002, -- [2]
+					["source"] = "Illyanna Ravenoak",
+					["active"] = false,
+				},
 			},
 			["Thalthedra-Thrall"] = {
-				[78578] = {
-					33.2430000000022, -- [1]
-					48.25, -- [2]
-					51.4570000000022, -- [3]
-					59.4540000000016, -- [4]
-					76.9370000000017, -- [5]
-					83.2350000000006, -- [6]
+				[30933] = {
+					19.8820000000014, -- [1]
+					25.8770000000004, -- [2]
+					59.9680000000008, -- [3]
+					65.974000000002, -- [4]
 					["source"] = "Illyanna Ravenoak",
 					["active"] = false,
 				},
@@ -274,6 +225,16 @@ DetailsTimeLineDB = {
 					["source"] = "Illyanna Ravenoak",
 					["active"] = false,
 				},
+				[78578] = {
+					33.2430000000022, -- [1]
+					48.25, -- [2]
+					51.4570000000022, -- [3]
+					59.4540000000016, -- [4]
+					76.9370000000017, -- [5]
+					83.2350000000006, -- [6]
+					["source"] = "Illyanna Ravenoak",
+					["active"] = false,
+				},
 				[22915] = {
 					17.4760000000024, -- [1]
 					20.4720000000016, -- [2]
@@ -284,17 +245,35 @@ DetailsTimeLineDB = {
 					["source"] = "Illyanna Ravenoak",
 					["active"] = false,
 				},
-				[30933] = {
-					19.8820000000014, -- [1]
-					25.8770000000004, -- [2]
-					59.9680000000008, -- [3]
-					65.974000000002, -- [4]
-					["source"] = "Illyanna Ravenoak",
-					["active"] = false,
-				},
 			},
 		}, -- [3]
 		{
+			["Mooseknucklë-Thrall"] = {
+				[7645] = {
+					14.0900000000001, -- [1]
+					82.0070000000014, -- [2]
+					["source"] = "Magister Kalendris",
+					["active"] = false,
+				},
+				[2094] = {
+					49.3329999999987, -- [1]
+					57.3400000000002, -- [2]
+					["source"] = "Nitorya-Goldrinn",
+					["active"] = false,
+				},
+				[1776] = {
+					52.1739999999991, -- [1]
+					56.1779999999999, -- [2]
+					["source"] = "Nitorya-Goldrinn",
+					["active"] = false,
+				},
+				[22919] = {
+					63.0709999999999, -- [1]
+					66.0790000000016, -- [2]
+					["source"] = "Magister Kalendris",
+					["active"] = false,
+				},
+			},
 			["Nitorya-Goldrinn"] = {
 				[22919] = {
 					63.0709999999999, -- [1]
@@ -353,32 +332,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Mooseknucklë-Thrall"] = {
-				[7645] = {
-					14.0900000000001, -- [1]
-					82.0070000000014, -- [2]
-					["source"] = "Magister Kalendris",
-					["active"] = false,
-				},
-				[2094] = {
-					49.3329999999987, -- [1]
-					57.3400000000002, -- [2]
-					["source"] = "Nitorya-Goldrinn",
-					["active"] = false,
-				},
-				[22919] = {
-					63.0709999999999, -- [1]
-					66.0790000000016, -- [2]
-					["source"] = "Magister Kalendris",
-					["active"] = false,
-				},
-				[1776] = {
-					52.1739999999991, -- [1]
-					56.1779999999999, -- [2]
-					["source"] = "Nitorya-Goldrinn",
-					["active"] = false,
-				},
-			},
 		}, -- [4]
 	},
 	["backdrop_color"] = {
@@ -387,14 +340,61 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
+			["Mooseknucklë-Thrall"] = {
+				{
+					16.7900000000009, -- [1]
+					"Mooseknucklë-Thrall", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Thalthedra-Thrall"] = {
+				{
+					24.7930000000015, -- [1]
+					"Thalthedra-Thrall", -- [2]
+					498, -- [3]
+				}, -- [1]
+			},
 		}, -- [1]
 		{
+			["Thalthedra-Thrall"] = {
+				{
+					28.3970000000008, -- [1]
+					"Thalthedra-Thrall", -- [2]
+					642, -- [3]
+				}, -- [1]
+				{
+					33.7639999999992, -- [1]
+					"Thalthedra-Thrall", -- [2]
+					498, -- [3]
+				}, -- [2]
+			},
 		}, -- [2]
 		{
+			["Mooseknucklë-Thrall"] = {
+				{
+					27.4420000000027, -- [1]
+					"Mooseknucklë-Thrall", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Thalthedra-Thrall"] = {
+				{
+					80.4340000000011, -- [1]
+					"Thalthedra-Thrall", -- [2]
+					498, -- [3]
+				}, -- [1]
+			},
 		}, -- [3]
 		{
+			["Mooseknucklë-Thrall"] = {
+				{
+					72.8140000000021, -- [1]
+					"Mooseknucklë-Thrall", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
 		}, -- [4]
 	},
 }

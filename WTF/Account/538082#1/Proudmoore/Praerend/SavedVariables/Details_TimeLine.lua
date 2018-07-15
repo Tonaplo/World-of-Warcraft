@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 			["Hellraiser-Perenolde"] = {
@@ -446,6 +440,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_start"] = "01:40:08",
+			["date_end"] = "01:41:56",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 107.918000000001,
+		}, -- [1]
+		{
+			["date_start"] = "01:35:42",
+			["date_end"] = "01:36:28",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 45.6970000000001,
+		}, -- [2]
+		{
+			["date_start"] = "01:23:50",
+			["date_end"] = "01:26:00",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 130.943000000003,
+		}, -- [3]
+		{
+			["date_start"] = "13:11:26",
+			["date_end"] = "13:13:40",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 133.348,
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Whatshaman-Bloodhoof"] = {
@@ -642,7 +662,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Praerend"] = {
@@ -967,30 +986,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "01:40:08",
-			["date_end"] = "01:41:56",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 107.918000000001,
-		}, -- [1]
-		{
-			["date_start"] = "01:35:42",
-			["date_end"] = "01:36:28",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 45.6970000000001,
-		}, -- [2]
-		{
-			["date_start"] = "01:23:50",
-			["date_end"] = "01:26:00",
-			["name"] = "Patrol Captain Gerdo",
-			["total_time"] = 130.943000000003,
-		}, -- [3]
-		{
-			["date_start"] = "13:11:26",
-			["date_end"] = "13:13:40",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 133.348,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

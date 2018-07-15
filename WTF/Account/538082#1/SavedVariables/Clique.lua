@@ -9,14 +9,13 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 		},
-		["Amranar - Proudmoore"] = {
-			["spec1_profileKey"] = "Druid - Balance",
-			["spec3_profileKey"] = "Druid - Guardian",
-			["downclick"] = false,
+		["Praerend - Proudmoore"] = {
+			["spec1_profileKey"] = "Praerend - Proudmoore",
 			["fastooc"] = false,
-			["specswap"] = true,
-			["spec2_profileKey"] = "Druid - Feral",
-			["spec4_profileKey"] = "Druid - Resto",
+			["spec3_profileKey"] = "Praerend - Proudmoore",
+			["downclick"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Praerend - Proudmoore",
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
@@ -26,29 +25,30 @@ CliqueDB3 = {
 			["specswap"] = true,
 			["spec3_profileKey"] = "Shaman - Resto",
 		},
-		["Praerend - Proudmoore"] = {
-			["spec1_profileKey"] = "Praerend - Proudmoore",
-			["spec2_profileKey"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = {
+			["spec1_profileKey"] = "Druid - Balance",
+			["spec3_profileKey"] = "Druid - Guardian",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Praerend - Proudmoore",
-			["specswap"] = false,
+			["specswap"] = true,
+			["spec2_profileKey"] = "Druid - Feral",
+			["spec4_profileKey"] = "Druid - Resto",
 		},
 		["Mallusof - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
 			["blizzframes"] = {
-				["TargetFrame"] = false,
 				["PlayerFrame"] = false,
+				["TargetFrame"] = false,
 			},
+			["downclick"] = false,
+			["specswap"] = true,
 			["fastooc"] = true,
+			["spec2_profileKey"] = "Priest - Holy",
+			["spec3_profileKey"] = "Priest - Shadow",
 			["blacklist"] = {
 				["oUF_LUI_player"] = true,
 				["oUF_LUI_target"] = true,
 			},
-			["spec3_profileKey"] = "Priest - Shadow",
-			["downclick"] = false,
-			["specswap"] = true,
-			["spec2_profileKey"] = "Priest - Holy",
 		},
 		["Faerand - Proudmoore"] = {
 			["spec1_profileKey"] = "Faerand - Proudmoore",
@@ -60,19 +60,19 @@ CliqueDB3 = {
 		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
-			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Non-Healer",
 			["specswap"] = true,
+			["spec2_profileKey"] = "Non-Healer",
 		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
-			["spec2_profileKey"] = "Morifa - Proudmoore",
+			["spec3_profileKey"] = "Morifa - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Morifa - Proudmoore",
 			["specswap"] = false,
-			["spec3_profileKey"] = "Morifa - Proudmoore",
 		},
 		["Fimwack - Proudmoore"] = {
 			["spec1_profileKey"] = "Fimwack - Proudmoore",
@@ -84,11 +84,11 @@ CliqueDB3 = {
 		},
 		["Greybone - Proudmoore"] = {
 			["spec1_profileKey"] = "Greybone - Proudmoore",
-			["spec3_profileKey"] = "Greybone - Proudmoore",
+			["spec2_profileKey"] = "Greybone - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Greybone - Proudmoore",
 			["specswap"] = false,
+			["spec3_profileKey"] = "Greybone - Proudmoore",
 		},
 		["Miriyal - Proudmoore"] = {
 			["spec1_profileKey"] = "Non-Healer",
@@ -100,12 +100,12 @@ CliqueDB3 = {
 		},
 		["Alura - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
-			["specswap"] = true,
+			["spec2_profileKey"] = "Priest - Holy",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Priest - Holy",
 			["alerthidden"] = true,
 			["spec3_profileKey"] = "Priest - Shadow",
+			["specswap"] = true,
 		},
 		["Rahran - Proudmoore"] = {
 			["spec1_profileKey"] = "Rahran - Proudmoore",
@@ -250,6 +250,14 @@ CliqueDB3 = {
 					},
 				}, -- [1]
 				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [2]
+				{
 					["spell"] = "Power Word: Shield",
 					["key"] = "4",
 					["sets"] = {
@@ -257,24 +265,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135940,
 					["type"] = "spell",
-				}, -- [2]
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
 				}, -- [3]
-				{
-					["spell"] = "Shadow Mend",
-					["key"] = "3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136202,
-					["type"] = "spell",
-				}, -- [4]
 				{
 					["spell"] = "Plea",
 					["key"] = "F",
@@ -282,6 +273,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 1538777,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Shadow Mend",
+					["key"] = "3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136202,
 					["type"] = "spell",
 				}, -- [5]
 				{

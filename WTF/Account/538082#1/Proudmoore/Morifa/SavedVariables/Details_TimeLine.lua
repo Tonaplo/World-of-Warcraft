@@ -1,16 +1,5 @@
 
 DetailsTimeLineDB = {
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["max_segments"] = 4,
 	["combat_data"] = {
 		{
 			["date_end"] = "23:15:41",
@@ -37,12 +26,14 @@ DetailsTimeLineDB = {
 			["total_time"] = 31.1150000000052,
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Vorrakdos-Stormrage"] = {
@@ -251,7 +242,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -269,5 +259,15 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
+	["hide_on_combat"] = false,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 }

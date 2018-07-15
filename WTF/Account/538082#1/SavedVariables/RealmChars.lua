@@ -53,26 +53,26 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 792,
+				["secondProfLevel"] = 800,
 				["itemLevelEquipped"] = 965.8125,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 971,
+				["firstProf"] = "Alchemy",
 				["level"] = 110,
 				["firstProfLevel"] = 800,
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 971,
 			}, -- [1]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 28.0625,
+				["itemLevelEquipped"] = 31.625,
 				["class"] = "SHAMAN",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Lorvol",
-				["firstProf"] = "No 1st Prof",
-				["level"] = 24,
+				["itemLevelOverall"] = 31.625,
+				["level"] = 27,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 28.0625,
+				["firstProf"] = "No 1st Prof",
 			}, -- [2]
 			{
 				["secondProfLevel"] = 168,
@@ -80,10 +80,10 @@ RCDatabase = {
 				["class"] = "PRIEST",
 				["secondProf"] = "Inscription",
 				["name"] = "Alura",
-				["itemLevelOverall"] = 50.6875,
+				["firstProf"] = "Herbalism",
 				["level"] = 46,
 				["firstProfLevel"] = 117,
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 50.6875,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 7,
@@ -188,10 +188,10 @@ RCDatabase = {
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
-				["itemLevelOverall"] = 943.4375,
+				["firstProf"] = "Herbalism",
 				["level"] = 110,
 				["firstProfLevel"] = 191,
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 943.4375,
 			}, -- [5]
 			{
 				["secondProfLevel"] = 68,
@@ -210,21 +210,21 @@ RCDatabase = {
 				["class"] = "DEMONHUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Kaldorath",
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 937.75,
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 937.75,
+				["firstProf"] = "No 1st Prof",
 			}, -- [7]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 934.75,
+				["itemLevelEquipped"] = 935.75,
 				["class"] = "PALADIN",
 				["secondProf"] = "Engineering",
 				["name"] = "Granjior",
-				["firstProf"] = "Mining",
+				["itemLevelOverall"] = 936.0625,
 				["level"] = 110,
 				["firstProfLevel"] = 706,
-				["itemLevelOverall"] = 936.0625,
+				["firstProf"] = "Mining",
 			}, -- [8]
 			{
 				["secondProfLevel"] = 800,
@@ -243,10 +243,10 @@ RCDatabase = {
 				["class"] = "DEATHKNIGHT",
 				["secondProf"] = "Mining",
 				["name"] = "Greybone",
-				["itemLevelOverall"] = 933.5,
+				["firstProf"] = "Blacksmithing",
 				["level"] = 110,
 				["firstProfLevel"] = 715,
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 933.5,
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,

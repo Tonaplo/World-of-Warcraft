@@ -1,14 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["cooldowns_timeline"] = {
 		{
 			["Datdktho-Tichondrius"] = {
@@ -115,6 +108,17 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Gayline-Shadowsong"] = {
@@ -317,6 +321,18 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Fimwack"] = {
+				[215898] = {
+					3.94399999999587, -- [1]
+					8.50999999999476, -- [2]
+					25.5380000000005, -- [3]
+					29.0009999999966, -- [4]
+					49.7749999999942, -- [5]
+					52.4559999999983, -- [6]
+					["source"] = "[*] Crystalline Ground",
+					["active"] = false,
+				},
+			},
 			["Datdktho-Tichondrius"] = {
 				[215898] = {
 					3.94399999999587, -- [1]
@@ -338,18 +354,6 @@ DetailsTimeLineDB = {
 					41.9199999999983, -- [7]
 					42.2089999999953, -- [8]
 					["source"] = "[*] Choking Dust",
-					["active"] = false,
-				},
-			},
-			["Fimwack"] = {
-				[215898] = {
-					3.94399999999587, -- [1]
-					8.50999999999476, -- [2]
-					25.5380000000005, -- [3]
-					29.0009999999966, -- [4]
-					49.7749999999942, -- [5]
-					52.4559999999983, -- [6]
-					["source"] = "[*] Crystalline Ground",
 					["active"] = false,
 				},
 			},
@@ -383,6 +387,12 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 	["combat_data"] = {
 		{
 			["date_end"] = "23:55:55",
@@ -407,16 +417,6 @@ DetailsTimeLineDB = {
 			["date_start"] = "23:41:16",
 			["name"] = "Rokmora",
 			["total_time"] = 55.801999999996,
-		}, -- [4]
-	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
 		}, -- [4]
 	},
 }

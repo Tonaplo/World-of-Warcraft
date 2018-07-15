@@ -34,13 +34,6 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: WQGFManualActionsFrame
-FrameLevel: 0
-Anchor: LEFT
-X: 113
-Y: -70
-W: 370
-H: 110
 Frame: ImmersionToast
 FrameLevel: 1
 Anchor: RIGHT
@@ -48,3 +41,10 @@ X: -87
 Y: 40
 W: 235
 H: 25
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 113
+Y: -70
+W: 370
+H: 110

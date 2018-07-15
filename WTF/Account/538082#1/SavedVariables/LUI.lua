@@ -89,24 +89,24 @@ LUIDB = {
 						["Alliance"] = {
 							["Miriyal"] = 339526383,
 							["Farahn"] = 104442206,
-							["Greybone"] = 826849422,
+							["Greybone"] = 904497424,
 							["Amranar"] = 470689892,
-							["Granjior"] = 1074124100,
-							["Kaldorath"] = 1148489009,
+							["Granjior"] = 1131522208,
+							["Kaldorath"] = 1253325392,
 							["Faerand"] = 268924289,
 							["Mallusof"] = 1162234125,
-							["Fimwack"] = 1596548610,
-							["Morifa"] = 1364959655,
+							["Fimwack"] = 1601623010,
+							["Morifa"] = 1379935155,
 							["Rahran"] = 590139032,
-							["Praerend"] = 1285210807,
+							["Praerend"] = 1397091584,
 						},
 					},
 				},
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Alura"] = 3636915,
-							["Lorvol"] = 440308,
+							["Alura"] = 3645047,
+							["Lorvol"] = 987820,
 						},
 						["Alliance"] = {
 							["Mallusof"] = 2058441186,
@@ -724,10 +724,6 @@ LUIDB = {
 								["Width"] = 200,
 							},
 							["ClassIcons"] = {
-								["Y"] = 100,
-								["X"] = 350,
-								["Padding"] = 1,
-								["Lock"] = false,
 							},
 							["AltPower"] = {
 								["Enable"] = true,
@@ -972,12 +968,6 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 370,
@@ -985,11 +975,17 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Animation"] = "None",
 					},
-					["Chat"] = {
-						["AlwaysShow"] = true,
+					["MicroMenu"] = {
 						["IsShown"] = true,
 					},
+					["Tps"] = {
+						["Width"] = 600,
+					},
 					["Minimap"] = {
+						["IsShown"] = true,
+					},
+					["Chat"] = {
+						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
 				},
@@ -1154,13 +1150,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1172,13 +1162,19 @@ LUIDB = {
 						0.73, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1317,13 +1313,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1335,13 +1325,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1480,13 +1476,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1498,13 +1488,19 @@ LUIDB = {
 						0.73, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1643,17 +1639,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
 					},
 					["raidborder"] = {
 						0.901960784313726, -- [1]
@@ -1661,13 +1651,19 @@ LUIDB = {
 						0.901960784313726, -- [3]
 						0.300000011920929, -- [4]
 					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1806,13 +1802,7 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1824,13 +1814,19 @@ LUIDB = {
 						0.89, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1969,13 +1965,7 @@ LUIDB = {
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.57, -- [1]
-						0.22, -- [2]
-						1, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
@@ -1987,13 +1977,19 @@ LUIDB = {
 						1, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.57, -- [1]
+						0.22, -- [2]
+						1, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
@@ -2132,13 +2128,7 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -2150,13 +2140,19 @@ LUIDB = {
 						0.98, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -2296,7 +2292,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -2308,23 +2310,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -2387,38 +2383,38 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/p oh", -- [1]
-							"/p have fun :)", -- [2]
-							"/3 Congratz on Concordance 75 :P", -- [3]
-							"/g alright", -- [4]
-							"/3 Congratz on Concordance 75 :P", -- [5]
-							"/p I put one down", -- [6]
-							"/p nice job :)", -- [7]
-							"/p nps", -- [8]
-							"/p have fun :)", -- [9]
-							"/g alright", -- [10]
-							"/p I put one down", -- [11]
-							"/p nps", -- [12]
-							"/g alright", -- [13]
-							"/p nps", -- [14]
-							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [15]
-							"/cw Kagneylynn-Malygos Dude", -- [16]
-							"/cw Kagneylynn-Malygos You're awesome and so are the people in your group", -- [17]
-							"/cw Kagneylynn-Malygos Thank you for being a great influence on the wow community. I salute you! :) <3", -- [18]
-							"/p Hey guys!", -- [19]
-							"/p r", -- [20]
-							"/p jumpo down the hole", -- [21]
-							"/p nope", -- [22]
-							"/p alt f4", -- [23]
-							"/p and llg back in", -- [24]
-							"/p stone at bottom", -- [25]
-							"/p no ?", -- [26]
-							"/p :(", -- [27]
-							"/p yup", -- [28]
-							"/p alright, run to us :)", -- [29]
-							"/p Sorry, I always do that for %", -- [30]
-							"/p my bad", -- [31]
-							"/p cheers! :)", -- [32]
+							"/p Sorry, I always do that for %", -- [1]
+							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [2]
+							"/g gz!", -- [3]
+							"/p alt f4", -- [4]
+							"/p Sorry, I always do that for %", -- [5]
+							"/g gz!", -- [6]
+							"/p Sorry, I always do that for %", -- [7]
+							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [8]
+							"/p Sorry, I always do that for %", -- [9]
+							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [10]
+							"/g gz!", -- [11]
+							"/p Sorry, I always do that for %", -- [12]
+							"/p alt f4", -- [13]
+							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [14]
+							"/p Sorry, I always do that for %", -- [15]
+							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [16]
+							"/g gz!", -- [17]
+							"/p alt f4", -- [18]
+							"/p Sorry, I always do that for %", -- [19]
+							"/g gz!", -- [20]
+							"/p Sorry, I always do that for %", -- [21]
+							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [22]
+							"/g gz!", -- [23]
+							"/p alt f4", -- [24]
+							"/p Sorry, I always do that for %", -- [25]
+							"/g gz!", -- [26]
+							"/p Sorry, I always do that for %", -- [27]
+							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [28]
+							"/p alt f4", -- [29]
+							"/g gz!", -- [30]
+							"/cw Kagneylynn-Malygos Hey are you doing these to give people the +15 achievement?", -- [31]
+							"/g gz!", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/macro", -- [1]
@@ -2455,38 +2451,38 @@ LUIDB = {
 							" hahaha", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							" and the achievements for each raid", -- [1]
-							"/i excellent ty :)", -- [2]
-							" My biggest problem with it is the set 20 people", -- [3]
+							" yup", -- [1]
+							" Also", -- [2]
+							" 9 months :P", -- [3]
 							" You wouldnt :(", -- [4]
-							" we'll talk later :)", -- [5]
+							" I just wanted to know if you had people to help you", -- [5]
 							" and then 1 day a week", -- [6]
-							" yup", -- [7]
-							" But that's a big factor too", -- [8]
-							"/s you can pull more", -- [9]
-							"/i Do you have that yet?", -- [10]
-							" Also", -- [11]
-							" I just wanted to know if you had people to help you", -- [12]
-							" But I've figured out what I want", -- [13]
-							"/i thanks :)", -- [14]
-							" 9 months :P", -- [15]
-							" I wont feel like we finished well, unless we kill last boss", -- [16]
-							" I'm becoming a dad in like", -- [17]
-							"/i excellent ty :)", -- [18]
-							" You wouldnt :(", -- [19]
-							" and then 1 day a week", -- [20]
-							" But that's a big factor too", -- [21]
-							"/i Do you have that yet?", -- [22]
-							" I just wanted to know if you had people to help you", -- [23]
-							"/i thanks :)", -- [24]
-							" I wont feel like we finished well, unless we kill last boss", -- [25]
-							"/i excellent ty :)", -- [26]
-							" and then 1 day a week", -- [27]
+							"/i Do you have that yet?", -- [7]
+							" we'll talk later :)", -- [8]
+							" But I've figured out what I want", -- [9]
+							" But that's a big factor too", -- [10]
+							"/i thanks :)", -- [11]
+							"/s you can pull more", -- [12]
+							" I wont feel like we finished well, unless we kill last boss", -- [13]
+							" I'm becoming a dad in like", -- [14]
+							"/i excellent ty :)", -- [15]
+							" yup", -- [16]
+							" 9 months :P", -- [17]
+							" I just wanted to know if you had people to help you", -- [18]
+							"/i Do you have that yet?", -- [19]
+							" But I've figured out what I want", -- [20]
+							"/i thanks :)", -- [21]
+							" I wont feel like we finished well, unless we kill last boss", -- [22]
+							"/i excellent ty :)", -- [23]
+							" 9 months :P", -- [24]
+							"/i Do you have that yet?", -- [25]
+							"/i thanks :)", -- [26]
+							"/i excellent ty :)", -- [27]
 							"/i Do you have that yet?", -- [28]
-							"/i thanks :)", -- [29]
-							"/i excellent ty :)", -- [30]
-							"/i Do you have that yet?", -- [31]
-							"/i excellent ty :)", -- [32]
+							"/i excellent ty :)", -- [29]
+							"/i still missing a boss", -- [30]
+							"/i ty indeed :)", -- [31]
+							"/i hi!", -- [32]
 						},
 						["Alliance - Icecrown"] = {
 							" Send that guild invite; )", -- [1]
@@ -2496,37 +2492,37 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g thanks bud", -- [1]
-							" that's how it goes", -- [2]
-							"/g cheers!", -- [3]
-							"/g no thanks :)", -- [4]
+							"/raid Heals or DPS?", -- [1]
+							"/raid yeah, have fun with this :P", -- [2]
+							"/g thanks bud", -- [3]
+							"/g cheers!", -- [4]
 							" that's how it goes", -- [5]
-							"/g no thanks :)", -- [6]
-							"/g hahahahah", -- [7]
-							" I really hated doing that one", -- [8]
-							" yeah]", -- [9]
-							" for me at least", -- [10]
-							" Which one!", -- [11]
-							" Arcane!", -- [12]
+							"/g hahahahah", -- [6]
+							" yeah]", -- [7]
+							" Which one!", -- [8]
+							" Yeah, dbm bug", -- [9]
+							"/g thanks bud", -- [10]
+							" that's how it goes", -- [11]
+							" yeah]", -- [12]
 							" Yeah, dbm bug", -- [13]
-							"/g cheers!", -- [14]
-							"/g thanks bud", -- [15]
-							"/g cheers!", -- [16]
-							" that's how it goes", -- [17]
-							"/g hahahahah", -- [18]
-							" yeah]", -- [19]
-							" Which one!", -- [20]
-							" Yeah, dbm bug", -- [21]
+							" that's how it goes", -- [14]
+							" Yeah, dbm bug", -- [15]
+							"/2 Tuesday", -- [16]
+							"/raid Hey whast do you need me as?", -- [17]
+							"/raid yeah, have fun with this :P", -- [18]
+							"/g cheers!", -- [19]
+							"/g hahahahah", -- [20]
+							" Which one!", -- [21]
 							"/g thanks bud", -- [22]
-							" that's how it goes", -- [23]
-							" yeah]", -- [24]
-							" Yeah, dbm bug", -- [25]
-							" that's how it goes", -- [26]
-							" Yeah, dbm bug", -- [27]
-							"/2 Tuesday", -- [28]
-							"/macro", -- [29]
-							"/raid Hey whast do you need me as?", -- [30]
-							"/raid Heals or DPS?", -- [31]
+							" yeah]", -- [23]
+							" that's how it goes", -- [24]
+							"/2 Tuesday", -- [25]
+							"/raid yeah, have fun with this :P", -- [26]
+							"/g hahahahah", -- [27]
+							"/g thanks bud", -- [28]
+							" that's how it goes", -- [29]
+							"/raid yeah, have fun with this :P", -- [30]
+							"/g thanks bud", -- [31]
 							"/raid yeah, have fun with this :P", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
@@ -3182,9 +3178,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -3285,11 +3281,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Evisca - Bleeding Hollow"] = {
@@ -3336,6 +3332,43 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
+					["Micromenu"] = 1.5,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["mirrorbar"] = 1,
+				},
+			},
+			["Morifa - Proudmoore"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["interrupt"] = 2,
+					["panels"] = 1.2,
+					["bartender"] = 3300,
+					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Auras"] = 2,
+				},
+			},
+			["Farahn - Proudmoore"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["vengeance"] = 2,
+					["interrupt"] = 2,
+					["panels"] = 1.2,
+					["bartender"] = 3300,
+					["Auras"] = 2,
+					["lui"] = 3403,
 					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
@@ -3358,43 +3391,6 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Farahn - Proudmoore"] = {
-				["IsConfigured"] = true,
-				["Versions"] = {
-					["raidmenu"] = 2.4,
-					["swing"] = 2,
-					["RaidMenu"] = true,
-					["vengeance"] = 2,
-					["interrupt"] = 2,
-					["panels"] = 1.2,
-					["bartender"] = 3300,
-					["Auras"] = 2,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
-					["mirrorbar"] = 1,
-				},
-			},
-			["Morifa - Proudmoore"] = {
-				["IsConfigured"] = true,
-				["Versions"] = {
-					["raidmenu"] = 2.4,
-					["swing"] = 2,
-					["RaidMenu"] = true,
-					["interrupt"] = 2,
-					["panels"] = 1.2,
-					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
-					["Auras"] = 2,
-				},
-			},
 			["Mallusof - Tichondrius"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -3407,11 +3403,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Gottagetlia - Aggramar"] = {
