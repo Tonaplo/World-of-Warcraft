@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["y"] = 1084.51818847656,
-						["x"] = 1312.16442871094,
 						["visible"] = false,
 						["direction"] = "down",
+						["y"] = 1084.51818847656,
+						["x"] = 1312.16442871094,
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -43,13 +43,6 @@ XLootADB = {
 				},
 			},
 		},
-		["Master"] = {
-			["profiles"] = {
-				["Default"] = {
-					["award_qualitythreshold"] = 4,
-				},
-			},
-		},
 		["Monitor"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -61,13 +54,20 @@ XLootADB = {
 					["threshold_own"] = 0,
 					["name_width"] = 100,
 					["anchor"] = {
-						["y"] = 855.502685546875,
-						["direction"] = "down",
 						["visible"] = false,
 						["x"] = 2.0466570854187,
+						["y"] = 855.502685546875,
+						["direction"] = "down",
 					},
 					["threshold_other"] = 4,
 					["fade_own"] = 30,
+				},
+			},
+		},
+		["Master"] = {
+			["profiles"] = {
+				["Default"] = {
+					["award_qualitythreshold"] = 4,
 				},
 			},
 		},
