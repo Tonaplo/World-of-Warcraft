@@ -147,7 +147,7 @@ function toolbar:Update()
 	--[[ Safari Hat ]]
 	toolbar:DimButton(toolbar.SafariHat,not PlayerHasToy(92738))
 	local safariBuff = GetItemSpell(92738)
-	if safariBuff and UnitBuff("player",safariBuff) then -- safari hat is active
+	if safariBuff and rematch:UnitBuff(safariBuff) then -- safari hat is active
 		toolbar.SafariHat.Cancel:Show()
 		toolbar.SafariHat:SetAttribute("type","macro")
 		toolbar.SafariHat:SetAttribute("macrotext",format("/cancelaura %s",safariBuff))
@@ -273,7 +273,7 @@ function toolbar:ButtonPreClick()
 	-- for pet treats, check if buff is currently active and prevent use if so
 	elseif self==toolbar.LesserPetTreat or self==toolbar.PetTreat then
 		local buff = GetItemSpell(self:GetAttribute("item"))
-		if buff and UnitBuff("player",buff) then -- buff is already up
+		if buff and rematch:UnitBuff(buff) then -- buff is already up
 			-- while treats CAN be recast, it doesn't refresh duration of buff, so we should prevent their use
 			self.backupAttribute = self:GetAttribute("type")
 			self:SetAttribute("type",nil)
@@ -330,7 +330,7 @@ function toolbar:UpdateItemButton(button,itemID,showTimeLeft)
 	if showTimeLeft then
 		local spell = GetItemSpell(itemID)
 		if spell then
-			local _,_,_,_,_,duration,expiration = UnitBuff("player",spell)
+			local _,_,_,_,duration,expiration = rematch:UnitBuff(spell)
 			if duration then
 				local start = expiration - duration
 				if blizzBugFixLoginTime and start<blizzBugFixLoginTime then

@@ -654,3 +654,31 @@ function rematch:ToBase32(number)
 		return table.concat(digitsOut,"")
 	end
 end
+
+
+-- in BfA, UnitBuff no longer accepts a spell name as an argument grr
+local timeBuffsChecked = nil
+local activeBuffs = {} -- indexed by name of buff, the index of the buff
+function rematch:UnitBuff(buffName)
+
+   -- if this isn't the same execution thread when buffs last checked, gather buffs
+   local now = GetTime()
+   if now~=timeBuffsChecked then
+      timeBuffsChecked = now
+      wipe(activeBuffs)
+      local i = 1
+      local buff
+      repeat
+         buff = UnitBuff("player",i)
+         if buff then
+            activeBuffs[buff] = i
+         end
+         i = i + 1
+      until not buff
+   end
+
+   -- return UnitBuff of the named buff
+   if activeBuffs[buffName] then
+      return UnitBuff("player",activeBuffs[buffName])
+   end
+end

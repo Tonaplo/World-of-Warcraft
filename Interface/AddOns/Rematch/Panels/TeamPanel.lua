@@ -478,6 +478,7 @@ function rematch:ShowTeam(key)
 		if index then
 			rematch:ListScrollToIndex(panel.List.ScrollFrame,index)
 			rematch:ListBling(panel.List.ScrollFrame,"key",key)
+			rematch.TeamTabs:ScrollToTeamTab(key)
 		elseif not panel.retryShowTeam then
 			-- if index not found then we didn't scroll to team yet, try again once things settle
 			panel.retryShowTeam = true

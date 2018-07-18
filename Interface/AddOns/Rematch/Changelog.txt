@@ -1,3 +1,10 @@
+07/17/2018 version 4.8.0
+- Fixes for Battle for Azeroth client
+- The number of possible team tabs has increased from 16 to 32
+- When exceeding 14 tabs, up/down buttons will appear above/below the tabs to scroll through them
+- Mousewheel over the team tabs will also scroll through tabs while they're scrollable
+- Added option 'Allow Random Pets From Teams' under Team Options. While this is enabled, random slots will choose from a pool of pets that includes pets saved in other teams. (The default behavior is to avoid slotting random pets from other teams so they're not pulled into service before you need them.)
+
 01/31/2018 version 4.7.11
 - Added option 'Use Level In Strong Vs Filter' under Pet Filter Options. This will limit the filter results to pets who are high enough level to use the abilities that are strong vs the chosen type.
 

@@ -110,6 +110,9 @@ function rematch:PickRandomPet(petID,notPetID1,notPetID2,notPetID3,evenInTeams)
       local petType = tonumber(petID:match("random:(%d+)"))
       local randomPetIDs = {}
       local bestWeight = 0
+      if settings.AllowRandomPetsFromTeams then
+         evenInTeams = true
+      end
       for petID in rematch.Roster:AllOwnedPets() do
          if petID~=notPetID1 and petID~=notPetID2 and petID~=notPetID3 then
             local petInfo = rematch.altInfo:Fetch(petID,true)

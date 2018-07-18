@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_start"] = "21:11:40",
-			["date_end"] = "21:13:26",
-			["name"] = "Mephistroth",
-			["total_time"] = 106.198000000004,
-		}, -- [1]
-		{
-			["date_start"] = "21:07:53",
-			["date_end"] = "21:10:48",
-			["name"] = "Domatrax",
-			["total_time"] = 175.839999999997,
-		}, -- [2]
-		{
-			["date_start"] = "21:04:37",
-			["date_end"] = "21:05:37",
-			["name"] = "Thrashbite the Scornful",
-			["total_time"] = 59.9240000000064,
-		}, -- [3]
-		{
-			["date_start"] = "21:01:14",
-			["date_end"] = "21:02:23",
-			["name"] = "Agronox",
-			["total_time"] = 68.6129999999976,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -70,13 +52,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Reportmepls-Tichondrius"] = {
@@ -383,6 +358,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_start"] = "21:11:40",
+			["date_end"] = "21:13:26",
+			["name"] = "Mephistroth",
+			["total_time"] = 106.198000000004,
+		}, -- [1]
+		{
+			["date_start"] = "21:07:53",
+			["date_end"] = "21:10:48",
+			["name"] = "Domatrax",
+			["total_time"] = 175.839999999997,
+		}, -- [2]
+		{
+			["date_start"] = "21:04:37",
+			["date_end"] = "21:05:37",
+			["name"] = "Thrashbite the Scornful",
+			["total_time"] = 59.9240000000064,
+		}, -- [3]
+		{
+			["date_start"] = "21:01:14",
+			["date_end"] = "21:02:23",
+			["name"] = "Agronox",
+			["total_time"] = 68.6129999999976,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -505,5 +506,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

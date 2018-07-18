@@ -255,7 +255,7 @@ function rematch:LoadingDone(unsuccessful)
 	-- SafariHatShine to summon window if a team loads with a low level pet and the safari hat is not equipped
 	if settings.SafariHatShine and not rematch.Frame:IsVisible() and not rematch.Journal:IsVisible() then
 		local safariBuff = GetItemSpell(92738)
-		if safariBuff and not UnitBuff("player",safariBuff) and rematch:IsLowLevelPetLoaded() then
+		if safariBuff and not rematch:UnitBuff(safariBuff) and rematch:IsLowLevelPetLoaded() then
 			rematch:AutoShow()
 		end
 	end

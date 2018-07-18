@@ -62,6 +62,7 @@ L.defaults = {
 	scale = 1,
 	strata = 'MEDIUM',
 	hideui = false,
+--	theme = 'DEFAULT',
 
 	titlescale = 1,
 	titleoffset = 500,
@@ -96,16 +97,23 @@ local stratas = {
 }
 
 local modifiers = {
-	SHIFT = SHIFT_KEY_TEXT,
-	CTRL = CTRL_KEY_TEXT,
-	ALT = ALT_KEY_TEXT,
-	NOMOD = NONE,
+	SHIFT 	= SHIFT_KEY_TEXT,
+	CTRL 	= CTRL_KEY_TEXT,
+	ALT 	= ALT_KEY_TEXT,
+	NOMOD 	= NONE,
 }
+--[[
+local themes = {
+	DEFAULT 	= DEFAULT;
+	ALLIANCE 	= ALLIANCE_CHEER;
+	HORDE 		= HORDE_CHEER;
+	NEUTRAL		= BUG_CATEGORY8;
+}]]
 
 local titleanis = {
-	[0] = OFF,
-	[1] = SPELL_CAST_TIME_INSTANT,
-	[5] = FAST,
+	[0]  = OFF,
+	[1]  = SPELL_CAST_TIME_INSTANT,
+	[5]  = FAST,
 	[10] = SLOW,
 }
 
@@ -267,18 +275,10 @@ L.options = {
 							get = L.GetFromSV,
 							set = function(_, val) L.cfg.onthefly = val end,
 						},
-						ontheflyalways = {
-							type = 'toggle',
-							name = ALWAYS,
-							order = 1,
-							get = L.GetFromSV,
-							set = function(_, val) L.cfg.ontheflyalways = val end,
-							disabled = function() return not L('onthefly') end,
-						},
 						ontheflydesc = {
 							type = 'description',
 							fontSize = 'medium',
-							order = 2,
+							order = 1,
 							name = L["The quest/gossip text doesn't vanish when you stop interacting with the NPC or when accepting a new quest. Instead, it vanishes at the end of the text sequence. This allows you to maintain your immersive experience when speed leveling."],
 						},
 					},

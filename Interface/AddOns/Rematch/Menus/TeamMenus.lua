@@ -74,7 +74,7 @@ rematch:InitModule(function()
 	-- "TeamMove" and "TabPick" for moving or changing team tabs
 	local teamMove = {} -- menu for moving a team to another tba
 	local tabPick = {} -- menu for changing to another tab
-	for i=1,16 do
+	for i=1,RematchTeamTabs.MAX_TABS do
 		tinsert(teamMove,{tab=i,hidden=rmf.HideTab,text=rmf.TabName,icon=rmf.TabIcon,disabled=rmf.DisableTab,func=rmf.MoveTeam})
 		tinsert(tabPick,{tab=i,hidden=rmf.HideTab,text=rmf.TabName,icon=rmf.TabIcon,func=rmf.TabPick})
 	end

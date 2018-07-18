@@ -1736,6 +1736,7 @@ AllTheThings.Locales.enUS = {
 		[214439] = "Interface\\Icons\\INV_Drink_01",
 		[221376] = "Interface\\Icons\\INV_Misc_StoneTablet_05",
 		[221413] = "Interface\\Icons\\TRADE_ARCHAEOLOGY_HIGHBORNE_SCROLL",
+		[226956] = "Interface\\Icons\\INV_Misc_Basket_03",
 		[240616] = "Interface\\Icons\\INV_Misc_Bag_14",
 		[240617] = "Interface\\ICONS\\INV_Misc_Bag_10_Green.blp",
 		[240625] = "Interface\\Icons\\INV_QirajIdol_Rebirth_Holy",
@@ -1878,6 +1879,7 @@ AllTheThings.Locales.enUS = {
 		[186648] = "Hazlek's Trunk",
 		[186667] = "Norkani's Package",
 		[186672] = "Kasha's Bag",
+		[186881] = "Dark Iron Sabotage Plans",
 		[186887] = "Large Jack-o'-Lantern",
 		[187021] = "Bakkalzu's Satchel",
 		[187273] = "Suspicious Hoofprint",
@@ -1900,8 +1902,11 @@ AllTheThings.Locales.enUS = {
 		[188085] = "Plagued Grain",
 		[188128] = "Flame of the Exodar",
 		[188129] = "Flame of Silvermoon",
+		[188261] = "Battered Journal",
 		[188364] = "Wrecked Crab Trap",
+		[188365] = "Heart of the Ancients",
 		[188419] = "Elder Mana'loa",
+		[188667] = "Amberseed",
 		[189311] = "Flesh-bound Tome",
 		[189989] = "Dark Iron Mole Machine Wreckage",
 		[189990] = "Dark Iron Mole Machine Wreckage",
@@ -2059,6 +2064,7 @@ AllTheThings.Locales.enUS = {
 		[226861] = "Ronokk's Belongings",
 		[226862] = "Giant Moonwillow Cone",
 		[226955] = "Arena Master's War Horn",
+		[226956] = "Mysterious Fruit Pile",
 		[226967] = "Lagoon Pool",
 		[226976] = "Deceptia's Smoldering Boots",
 		[226983] = "Crag-Leaper's Cache",
@@ -2349,7 +2355,7 @@ AllTheThings.Locales.enUS = {
 		{4, "|CFFFF0000This is legacy achievement that is no longer available.|r", "Legacy Achievement (12)"}; -- 12
 		{1, "|CFFFF0000Your followers are too high and the mission for the cache will no longer spawn.|r", "Legacy Cache (13)"}; -- 13
 		{2, "|CFFFF0000These items can't be purchased unless you have the required PvP Rating or were in the Top % of that season.|r", "PvP Elite/Gladiator (14)"}, -- 14
-		{1, "|CFFFF0000This item has a Source ID (Tempest Keep Legendaries), but can't be learned (training recipes). |r", "Training Recipes (15)"}, -- 15
+		{1, "|CFFFF0000This item has a Source ID (Tempest Keep Legendaries), but can't be learned (training recipes). |r", "Training Recipes / Unlearnable (15)"}, -- 15
 		{2, "|CFFFF0000These items require either attending Blizzcon or purchasing a virtual ticket.  You may also find codes on various sites for high prices.|r", "Blizzcon (16)"},--16
 		{6, "|CFF00FFDEIn order to obtain this item it may require Lunar Festival to be active.|r", "Lunar Festival (17)"};--17
 		{7, "|CFF00FFDEIn order to obtain this item it may require Love is In the Air to be active.|r", "Love is In the Air (18)"};--18
@@ -2374,6 +2380,7 @@ AllTheThings.Locales.enUS = {
 		{1, "|CFFFF0000This title is no longer obtainable in game.|r", "Titles (37)"}; --37
 		{4, "|CFFFF0000These items are only available for players that completed the Legendary Cloak quest chain during Mists of Pandaria|r", "Ordos - Legendary Cloak (38)"}; --38
 		{4, "|CFFFF0000This title is no longer available.|r", "Legacy Titles (39)"}; --39
+		{4, "|CFFFF0000This is a Legacy quest or quest item, and is no longer available.|r", "Legacy Quests (40)"}, -- 40
 	};
 	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you, please post in Discord where you got it to drop!|r";
 	["RECENTLY_MADE_OBTAINABLE_PT2"] = "|CFFFF0000The more information, the better.  Thanks!|r";

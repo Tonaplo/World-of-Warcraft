@@ -141,12 +141,14 @@ local ControllerInput = {
 		end
 	end;
 	[KEY.SQUARE] = function(self)
-		local text = self.TalkBox.TextFrame.Text
-		if text:IsSequence() then
-			if text:GetNumRemaining() <= 1 then
-				text:RepeatTexts()
-			else
-				text:ForceNext()
+		if not self.isInspecting then
+			local text = self.TalkBox.TextFrame.Text
+			if text:IsSequence() then
+				if text:GetNumRemaining() <= 1 then
+					text:RepeatTexts()
+				else
+					text:ForceNext()
+				end
 			end
 		end
 	end;
@@ -229,7 +231,7 @@ end
 local Selector = {}
 
 function Selector:SetFocus(index)
-	if self:IsVisible() and index then
+	if index then --self:IsVisible() and index then
 		local focus = self:GetFocus()
 		if focus then
 			focus:UnlockHighlight()
@@ -298,12 +300,16 @@ end
 
 function Selector:GetMaxIndex()
 	local maxIndex = 0
-	for i, button in pairs(self.Active) do
-		if i > maxIndex then
-			maxIndex = i
+	if self:IsShown() then
+		for i, button in pairs(self.Active) do
+			maxIndex = i > maxIndex and i or maxIndex
 		end
 	end
 	return maxIndex
+end
+
+function Selector:OnHide()
+	
 end
 
 

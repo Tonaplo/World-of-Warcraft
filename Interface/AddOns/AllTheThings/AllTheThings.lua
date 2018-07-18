@@ -1721,9 +1721,30 @@ local function OpenMiniList(field, id, label)
 							u = group.parent.u, races = group.parent.races, classes = group.parent.classes, nmc = group.parent.nmc, nmr = group.parent.nmr });
 					end
 					
-					app.HolidayHeader.progress = app.HolidayHeader.progress + (group.progress or 0);
-					app.HolidayHeader.total = app.HolidayHeader.total + (group.total or 0);
-					tinsert(app.HolidayHeader.g, group);
+					-- Check to see if this group already exists in the header
+					local found = false;
+					if group.g and #group.g > 0 then
+						for i,g in ipairs(app.HolidayHeader.g) do
+							if g.g and g.achievementID == group.achievementID 
+								and g.u == group.u 
+								and g.races == group.races 
+								and g.classes == group.classes then
+								group = group.g[1];
+								app.HolidayHeader.progress = app.HolidayHeader.progress + (group.progress or 0);
+								app.HolidayHeader.total = app.HolidayHeader.total + (group.total or 0);
+								tinsert(g.g, group);
+								found = true;
+								break;
+							end
+						end
+					end
+					
+					-- Update progress (but only if not found)
+					if not found then
+						app.HolidayHeader.progress = app.HolidayHeader.progress + (group.progress or 0);
+						app.HolidayHeader.total = app.HolidayHeader.total + (group.total or 0);
+						tinsert(app.HolidayHeader.g, group);
+					end
 				elseif group.achievementID then
 					if group.criteriaID then
 						if group.parent.achievementID then
@@ -6447,7 +6468,7 @@ function app:GetDataCache()
 			db = {};
 			db.lvl = 98;
 			db.expanded = false;
-			db.text = GetCategoryInfo(15275);
+			db.text = GetCategoryInfo(15304);
 			db.icon = "Interface\\Icons\\achievement_level_110";
 			db.g = app.Categories.ClassHalls;
 			table.insert(g, db);

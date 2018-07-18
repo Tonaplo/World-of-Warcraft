@@ -16,7 +16,7 @@ rematch:InitModule(function()
 	radios.MakeUnique.text:SetFontObject("GameFontHighlight")
 	radios.Overwrite.text:SetFontObject("GameFontHighlight")
 	-- stuff for sending/receiving teams
-	RegisterAddonMessagePrefix("Rematch")
+	C_ChatInfo.RegisterAddonMessagePrefix("Rematch")
 	rematch:RegisterEvent("CHAT_MSG_ADDON")
 	rematch:RegisterEvent("BN_CHAT_MSG_ADDON")
 end)
@@ -433,7 +433,7 @@ function share:SendMessage(message,sendTo)
 	if type(sendTo)=="number" then -- this is a bnet id
 		BNSendGameData(sendTo,"Rematch",message)
 	elseif type(sendTo)=="string" then -- this is a string name
-		SendAddonMessage("Rematch",message,"WHISPER",sendTo)
+		C_ChatInfo.SendAddonMessage("Rematch",message,"WHISPER",sendTo)
 	end
 end
 

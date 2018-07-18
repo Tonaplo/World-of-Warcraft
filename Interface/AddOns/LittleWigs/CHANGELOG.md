@@ -1,8 +1,6 @@
 # LittleWigs
 
-## [v7.3.31](https://github.com/BigWigsMods/LittleWigs/tree/v7.3.31) (2018-07-10)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.3.30...v7.3.31)
+## [v8.0.1](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.1) (2018-07-17)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.0...v8.0.1)
 
-- Update option files  
-- ArtifactScenarios: Add Sigryn (The God-Queen's Fury)  
-- ArtifactScenarios/Agatha: Drop a UnitBuff call  
+- bump toc  

@@ -34,17 +34,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: InterfaceOptionsFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 256
-Y: 4
-W: 858
-H: 660
-Frame: ImmersionToast
-FrameLevel: 1
-Anchor: RIGHT
-X: -87
-Y: 40
-W: 235
-H: 25

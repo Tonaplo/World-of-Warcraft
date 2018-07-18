@@ -1,10 +1,5 @@
 <Ui>
 
-	<!-- TeamTabs panel where TeamTab buttons are created and anchored to -->
-	<Frame name="RematchTeamTabs" hidden="true">
-		<Size x="40" y="500"/>
-	</Frame>
-
 	<!-- template for the tab buttons; these buttons are created on demand -->
 	<Button name="RematchTeamTabTemplate" virtual="true">
 		<Size x="44" y="44"/>
@@ -68,6 +63,43 @@
 			</OnClick>
 		</Scripts>
 	</Button>
+
+	<!-- TeamTabs panel where TeamTab buttons are created and anchored to -->
+	<ScrollFrame name="RematchTeamTabs" flattenRenderLayers="true" hidden="true">
+		<Size x="44" y="500"/>
+		<Frames>
+			<Button parentKey="UpButton" inherits="RematchTeamTabTemplate">
+				<Anchors>
+					<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT"/>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						self:GetParent():ScrollTabs(1)
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button parentKey="DownButton" inherits="RematchTeamTabTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT"/>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						self:GetParent():ScrollTabs(-1)
+					</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<ScrollChild>
+			<Frame parentKey="Layout">
+				<Size x="44" y="500"/>
+			</Frame>
+		</ScrollChild>
+		<Scripts>
+			<OnMouseWheel>
+				self:ScrollTabs(delta)
+			</OnMouseWheel>
+		</Scripts>
+	</ScrollFrame>
 
 	<!-- the following is for the new-tab icon picker dialog with the grid of icons to choose from -->
 

@@ -31,8 +31,10 @@ rematch:InitModule(function()
 		{ title=true, maxWidth=200, text=L["A New Pet!"] },
 		{ text=UNWRAP, func=card.UnwrapFromMenu },
 		{ text=CANCEL },
-	})
-	
+   })
+   
+   -- UnwrapPet will only attempt to unwrap wrapped pets
+   card.Front.Middle.ModelScene:HookScript("OnMouseUp",card.UnwrapPet)
 end)
 
 -- TODO: rewrite this; break it apart into components (it's too long)

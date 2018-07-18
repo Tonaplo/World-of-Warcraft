@@ -1,18 +1,110 @@
-tag 154e76502ed4433e6fe39b40b165892ae0f803a6 4.7.10
+tag 275104320b0740fc43b4b330282a88cb0449abe0 4.8.0
 Author:	Hendrik Leppkes <h.leppkes@gmail.com>
-Date:	Wed Aug 30 08:55:06 2017 +0200
+Date:	Tue Jul 17 20:14:44 2018 +0200
 
-Tag as 4.7.10
+Tag as 4.8.0
 
-commit fe21ea01ebcb9dc7b843d04ac42cd1b5260c36eb
+commit 1070e8ef5a2f98341a7783fb477e606fdb259cfe
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Tue Aug 29 16:36:00 2017 +0200
+Date:   Tue Jul 17 19:15:35 2018 +0200
 
-    Update TOC for 7.3
+    Update TOC for 8.0
 
-commit 3ee94996819ed8819188558e7d7b82dd6d9e3e81
+commit 4659d9c5f4ea5ae4a383fac734c86990535005a6
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Tue Aug 29 16:35:39 2017 +0200
+Date:   Tue Jul 17 19:15:15 2018 +0200
 
-    Update PlaySound usage for 7.3
+    Fix pkgmeta ignore
+
+commit ac5691834ee23ddf3c44d161c1f687ac437900e1
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sun Jul 1 10:06:53 2018 +0200
+
+    Replace locale script with a fixed auto-import version
+
+commit 0dede902f410102e54a48f36a3ad4e2db03e1bf6
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sun Jun 24 02:06:23 2018 +0200
+
+    Replace broken localcheck script with a locale-export script
+
+commit a4b5a6d357de0a9b651cb8df908a1b2423386524
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sun Jun 24 02:05:47 2018 +0200
+
+    Use LibDualSpec git master
+
+commit a8000696a8541548122993cd7636710e8092f820
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Fri Jun 22 14:19:57 2018 +0200
+
+    Properly refresh self/focus casting when changing settings
+
+commit 02253eeb5c858034714b638fbca6feec128ecd70
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Fri May 25 12:30:57 2018 +0200
+
+    Create a custom StatusTrackingBarManager
+    
+    Taking over the FrameXML version causes taint issues
+
+commit d52b1f85304b4c9ab6e7de0b81578f170d58d40d
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Tue May 22 18:43:35 2018 +0200
+
+    Remove some commented out code
+
+commit 5429f1284794ad8c385386c82604c9423e0e9964
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sat Apr 21 21:09:19 2018 +0200
+
+    Draft of a Status Trackign bar
+
+commit ba06c97f676f86418ecf2fb7368bb53c51e3f340
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Sat Apr 21 16:52:11 2018 +0200
+
+    Fix Lua errors on startup when Blizzard Vehicle was turned off
+
+commit 7ac186279da1cab7e51d5de5ff1ba0bd41e7b34c
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Fri Apr 20 21:48:46 2018 +0200
+
+    Fix visibility options in 8.0
+
+commit 3dc5e000fbbee252aa8878ca840f8a777eeb73c7
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Fri Apr 20 19:31:44 2018 +0200
+
+    Fix the PetBar after 8.0 API changes
+
+commit 2817606328446fe874215c72a720d5b86c225487
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Fri Apr 20 19:27:38 2018 +0200
+
+    Fix another glitch with the MainMenuBar
+
+commit d1ab1c0bba0ece025188fe070cc51e63eee9c0bf
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Fri Apr 20 19:24:00 2018 +0200
+
+    Update StanceBar for 8.0 API changes
+
+commit c70f44d54b586002778fafa21703727c59b7ac19
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Fri Apr 20 19:14:51 2018 +0200
+
+    Fix micro menu button layout on 8.0
+
+commit 20c8f3c51d6f34c11d3d1e06c7fa9d6885945495
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Fri Apr 20 19:10:02 2018 +0200
+
+    Fix errors in 8.0
+
+commit 5c05e085d7556bdafed7ae9670b43489923b65f8
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Wed Nov 8 14:37:26 2017 +0100
+
+    Remove pre-7.3 compat
 

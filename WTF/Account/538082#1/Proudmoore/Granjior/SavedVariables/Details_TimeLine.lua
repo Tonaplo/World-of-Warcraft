@@ -1,17 +1,5 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -22,36 +10,8 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["hide_on_combat"] = false,
-	["debuff_timeline"] = {
-		{
-			["Kinkyvonbear"] = {
-				[223203] = {
-					57.8940000000002, -- [1]
-					57.8940000000002, -- [2]
-					["source"] = "Kinkyvonbear",
-					["active"] = false,
-				},
-				[223202] = {
-					57.8940000000002, -- [1]
-					["source"] = "Kinkyvonbear",
-					["active"] = true,
-				},
-			},
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
 	["combat_data"] = {
 		{
 			["date_start"] = "13:42:01",
@@ -77,5 +37,45 @@ DetailsTimeLineDB = {
 			["name"] = "Ebonroc",
 			["total_time"] = 0.1,
 		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["debuff_timeline"] = {
+		{
+			["Kinkyvonbear"] = {
+				[223203] = {
+					57.8940000000002, -- [1]
+					57.8940000000002, -- [2]
+					["source"] = "Kinkyvonbear",
+					["active"] = false,
+				},
+				[223202] = {
+					57.8940000000002, -- [1]
+					["source"] = "Kinkyvonbear",
+					["active"] = true,
+				},
+			},
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

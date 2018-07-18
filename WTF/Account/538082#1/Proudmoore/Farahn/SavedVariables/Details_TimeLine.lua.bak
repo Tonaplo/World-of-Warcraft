@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "00:40:16",
-			["date_start"] = "00:39:51",
-			["name"] = "Viz'aduum the Watcher",
-			["total_time"] = 25.0050000000001,
-		}, -- [1]
-		{
-			["date_end"] = "00:38:04",
-			["date_start"] = "00:37:12",
-			["name"] = "Mana Devourer",
-			["total_time"] = 52.0050000000001,
-		}, -- [2]
-		{
-			["date_end"] = "00:35:58",
-			["date_start"] = "00:35:42",
-			["name"] = "Shade of Medivh",
-			["total_time"] = 15.9990000000007,
-		}, -- [3]
-		{
-			["date_end"] = "00:34:51",
-			["date_start"] = "00:34:23",
-			["name"] = "The Curator",
-			["total_time"] = 28.0050000000001,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -44,13 +26,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Zugzwangz"] = {
@@ -164,6 +139,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_end"] = "00:40:16",
+			["date_start"] = "00:39:51",
+			["name"] = "Viz'aduum the Watcher",
+			["total_time"] = 25.0050000000001,
+		}, -- [1]
+		{
+			["date_end"] = "00:38:04",
+			["date_start"] = "00:37:12",
+			["name"] = "Mana Devourer",
+			["total_time"] = 52.0050000000001,
+		}, -- [2]
+		{
+			["date_end"] = "00:35:58",
+			["date_start"] = "00:35:42",
+			["name"] = "Shade of Medivh",
+			["total_time"] = 15.9990000000007,
+		}, -- [3]
+		{
+			["date_end"] = "00:34:51",
+			["date_start"] = "00:34:23",
+			["name"] = "The Curator",
+			["total_time"] = 28.0050000000001,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -174,5 +175,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

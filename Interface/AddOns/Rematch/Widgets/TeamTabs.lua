@@ -15,7 +15,10 @@ local dialog, iconPicker, settings, saved
 
 ]]
 
-local MAX_TABS = 16
+local MAX_DISPLAYED_TABS = 14 -- number of team tabs that can be dispayed at once
+
+panel.MAX_TABS = 32 -- number of team tabs possible
+panel.isScrolling = nil -- true while there are more tabs than can be displayed and the tabs are scrollable
 
 -- this table describes the {yoffset,scale} to nudge the tabs to make room for more.
 -- the index is the number of tabs to display (not including the + New Tabs button)
@@ -77,6 +80,10 @@ rematch:InitModule(function()
 		{ text=OKAY },
 	})
 
+
+	-- the offset (in increments of 44px) of the scrollframe
+	panel.scrollOffset = 0
+
 end)
 
 -- returns the selected team tab (and assigns it to first tab if anything weird happened)
@@ -92,33 +99,48 @@ end
 
 function panel:Update()
 	panel:GetSelectedTab() -- changes settings.SelectedTab to 1 if selected tab doesn't eixt
-	for index=1,MAX_TABS do
+	for index=1,panel.MAX_TABS do
 		panel:TabButtonUpdate(index)
 	end
-	panel:SetHeight(min(MAX_TABS,#settings.TeamGroups+1)*44)
+
+	local maxHeight = MAX_DISPLAYED_TABS * 44
+	local height = min(maxHeight,min(panel.MAX_TABS,#settings.TeamGroups+1)*44)
+	panel:SetHeight(height)
 
 	-- anchor/rescale the parent TeamTabs frame depending on number of tabs to show
 	local numTabs = #settings.TeamGroups
 	local yoffset, scale = -92, 1 -- default to -92 from top of parent, 1.0 scale
 	local parent = panel:GetParent()
-	if tabNudges[numTabs] then
-		yoffset, scale = tabNudges[numTabs][1], tabNudges[numTabs][2]
+	-- local tabNudges = {[11]={-64,1},[12]={-28,1},[13]={nil,0.95},[14]={nil,0.9},[15]={nil,0.85},[16]={nil,0.85}}
+	if numTabs<11 then
+		yoffset, scale = -92, 1
+	elseif numTabs==11 then
+		yoffset, scale = -64, 1
+	elseif numTabs==12 then
+		yoffset, scale = -28, 1
+	elseif numTabs==13 then
+		yoffset, scale = nil, 0.95
+	else -- for 14 or more tabs
+		yoffset, scale = nil, 0.85
 	end
+
 	panel:ClearAllPoints()
 	if yoffset then
 		if settings.TeamTabsToLeft and settings.AlwaysTeamTabs and parent==rematch.Frame then
-			panel:SetPoint("TOPRIGHT",parent,"TOPLEFT",-5,yoffset) -- tabs anchored to topleft
+			panel:SetPoint("TOPRIGHT",parent,"TOPLEFT",-1,yoffset) -- tabs anchored to topleft
 		else
 			panel:SetPoint("TOPLEFT",parent,"TOPRIGHT",-1,yoffset) -- tabs anchored to topright
 		end
 	else
 		if settings.TeamTabsToLeft and settings.AlwaysTeamTabs and parent==rematch.Frame then
-			panel:SetPoint("RIGHT",parent,"LEFT",-5,0) -- tabs anchored to left center
+			panel:SetPoint("RIGHT",parent,"LEFT",-1,0) -- tabs anchored to left center
 		else
 			panel:SetPoint("LEFT",parent,"RIGHT",-1,0) -- tabs anchored to right center
 		end
 	end
 	panel:SetScale(scale)
+
+	panel:UpdateScroll() -- updates state of scroll buttons and the scrollframe
 end
 
 function panel:SelectTeamTab(index)
@@ -130,6 +152,7 @@ function panel:SelectTeamTab(index)
 	else
 		rematch.TeamPanel:Update()
 	end
+	panel:ScrollToTab(settings.SelectedTab)
 	rematch:ListScrollToTop(rematch.TeamPanel.List.ScrollFrame)
 	rematch.Dialog:UpdateTabPicker()
 end
@@ -157,7 +180,9 @@ end
 
 function panel:TabButtonOnEnter()
 	local index = self:GetID()
-	if index>#settings.TeamGroups then
+	if index==0 then
+		rematch.ShowTooltip(self,self==panel.UpButton and L["Previous Tabs"] or L["Next Tabs"])
+	elseif index>#settings.TeamGroups then
 		rematch.ShowTooltip(self,L["Create New Tab"])
 	else
 		local numTeams = 0
@@ -228,10 +253,14 @@ end
 function panel:IconPickerSave()
 	local groups = settings.TeamGroups
 	local index = dialog:GetContext("tab")
+	local scrollDown = not groups[index] -- whether to scroll down after adding the tab (if group doesn't exist, it's a new tab)
 	groups[index] = groups[index] or {}
 	groups[index][1] = dialog.EditBox:GetText() or ""
 	groups[index][2] = dialog:GetContext("icon")
 	panel:SelectTeamTab(index)
+	if scrollDown then
+		panel:ScrollTabs(-1)
+	end
 end
 
 -- update of icon list in iconpicker
@@ -406,7 +435,7 @@ end
 -- locks highlights on a specific tab (or unlocks highlight of all tabs if tab is nil)
 function rematch:HighlightTeamTab(tab)
 	local searching = rematch.TeamPanel:GetTeamSearchInfo()
-	for i=1,MAX_TABS do
+	for i=1,panel.MAX_TABS do
 		if panel.Tabs[i] then
 			if i==tab and searching then
 				panel.Tabs[i]:LockHighlight()
@@ -418,8 +447,10 @@ function rematch:HighlightTeamTab(tab)
 end
 
 function panel:TabButtonOnMouseDown()
-	self.Icon:SetSize(28,28)
-	self.Icon:SetVertexColor(0.75,0.75,0.75)
+	if self:IsEnabled() then
+		self.Icon:SetSize(28,28)
+		self.Icon:SetVertexColor(0.75,0.75,0.75)
+	end
 end
 
 function panel:TabButtonOnMouseUp()
@@ -430,7 +461,7 @@ end
 -- returns a tab button by its index (and creates if it hasn't been made yet)
 function panel:GetTabButton(index)
 	if not panel.Tabs[index] then
-		panel.Tabs[index] = CreateFrame("Button",nil,panel,"RematchTeamTabTemplate")
+		panel.Tabs[index] = CreateFrame("Button",nil,panel.Layout,"RematchTeamTabTemplate")
 		panel.Tabs[index]:RegisterForClicks("AnyUp")
 		panel.Tabs[index]:SetID(index)
 		panel.Tabs[index]:SetPoint("TOPLEFT",0,(index-1)*-44)
@@ -472,7 +503,7 @@ function panel:TabButtonUpdate(index)
 		button.Custom:SetShown(group[3] and true)
 		button.Preferences:SetShown(group[4] and true)
 		button:Show()
-	elseif index==(numGroups+1) and index<=MAX_TABS then
+	elseif index==(numGroups+1) and index<=panel.MAX_TABS then
 		local button = panel:GetTabButton(index)
 		button.Background:SetTexCoord(left,right,0.5,0.84375)
 		button.Icon:SetPoint("CENTER",centerUnselected,2)
@@ -482,5 +513,107 @@ function panel:TabButtonUpdate(index)
 		button:Show()
 	elseif panel.Tabs[index] then
 		panel.Tabs[index]:Hide()
+	end
+end
+
+function panel:UpdateScroll()
+
+	if #settings.TeamGroups < MAX_DISPLAYED_TABS then
+		panel:SetVerticalScroll(0)
+		panel.UpButton:Hide()
+		panel.DownButton:Hide()
+		panel.isScrolling = nil
+		return
+	end
+
+	local left,right,center = 0,0.6875,-5
+	if settings.TeamTabsToLeft and settings.AlwaysTeamTabs and panel:GetParent()==rematch.Frame then
+		left,right,center = 0.6875,0,5
+	end
+
+	panel.UpButton.Background:SetTexCoord(left,right,0.5,0.84375)
+	panel.UpButton.Icon:SetPoint("CENTER",center,2)
+	panel.DownButton.Background:SetTexCoord(left,right,0.5,0.84375)
+	panel.DownButton.Icon:SetPoint("CENTER",center,2)
+
+	panel.UpButton.Icon:SetTexture("Interface\\Icons\\misc_arrowlup.blp")
+	panel.DownButton.Icon:SetTexture("Interface\\Icons\\misc_arrowdown.blp")
+
+	panel.UpButton:Show()
+	panel.DownButton:Show()
+	panel.isScrolling = true
+
+	panel:ScrollTabs()
+end
+
+-- this will scroll tabs up (direction>0), down (direction<0) or just update (direction==0)
+-- and also call UpdateUpDownButtons afterwards
+function panel:ScrollTabs(direction)
+	local delta
+	if not direction then -- if no direction given, just update scroll
+		delta = 0
+	elseif direction<0 then -- scrolling down
+		delta = 44 * (MAX_DISPLAYED_TABS-1)
+	else -- scrolling up
+		delta = -44 * (MAX_DISPLAYED_TABS-1)
+	end
+	
+	local offset = panel.scrollOffset + delta
+
+	offset = max(0,offset)
+
+	local numTabs = #settings.TeamGroups
+
+	-- if we're not even supposed to be scrolling, offset is 0
+	local maxOffset
+	if numTabs < MAX_DISPLAYED_TABS then
+		offset = 0
+	else
+		-- if we've not reached the maximum possible team tabs, then add one more
+		-- tab for the "New Tab" tab
+		if numTabs < panel.MAX_TABS then
+			numTabs = numTabs + 1
+		end
+
+		maxOffset = (numTabs)*44 - (MAX_DISPLAYED_TABS)*44
+		-- constrain offset to scrolldown as far as the last tab
+		offset = min(offset,maxOffset)
+	end
+
+	-- and finally scroll there
+	panel.scrollOffset = offset
+	panel:SetVerticalScroll(offset)
+
+	-- enable/disable up/down buttons if at top/bottom of scroll
+	local atTop = offset==0
+	panel.UpButton.Icon:SetDesaturated(atTop)
+	panel.UpButton.Icon:SetAlpha(atTop and 0.65 or 1)
+	panel.UpButton:SetEnabled(not atTop)
+	local atBottom = offset==maxOffset
+	panel.DownButton.Icon:SetDesaturated(atBottom)
+	panel.DownButton.Icon:SetAlpha(atBottom and 0.65 or 1)
+	panel.DownButton:SetEnabled(not atBottom)
+end
+
+-- this will move the tab index as close as possible to the middle of the scrollframe
+function panel:ScrollToTab(index)
+
+	if not panel.isScrolling then -- if not scrolling, always at the top
+		panel.scrollOffset = 0
+	else -- otherwise try to position index to middle of displayed tabs
+		-- if position is beyond range, it's okay; ScrollTabs will constrain it
+		-- (rounding to whole number since division involved)
+		panel.scrollOffset = floor((index*44-(MAX_DISPLAYED_TABS*44)/2)+0.5)
+	end
+
+	-- and do an update
+	panel:ScrollTabs()
+end
+
+-- this will scroll to the tab of the loaded team
+function panel:ScrollToTeamTab(key)
+	key = key or settings.loadedTeam -- if no key given, scroll to loaded team's tab
+	if key and saved[key] then
+		panel:ScrollToTab(saved[key].tab or 1)
 	end
 end
