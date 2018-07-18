@@ -1,10 +1,16 @@
-lightweight tag 37f2b38ed5b750bec1988f6e67cc593fd9ee5191 v201807170600
+lightweight tag 41ff062df8a06416e035a7418a2f040e79e6e7a6 v201807180600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Tue Jul 17 07:20:36 2018 +0000
+Date:	Wed Jul 18 07:18:11 2018 +0000
 
-commit 37f2b38ed5b750bec1988f6e67cc593fd9ee5191
+commit 41ff062df8a06416e035a7418a2f040e79e6e7a6
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Jul 17 07:20:36 2018 +0000
+Date:   Wed Jul 18 07:18:11 2018 +0000
 
     [Raider.IO] Database Refresh
+
+commit d53285530dd53fd6f5a5c6c819e307f48d9f5b6e
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Tue Jul 17 08:56:46 2018 -0500
+
+    package version updates
 

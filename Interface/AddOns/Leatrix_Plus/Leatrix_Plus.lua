@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 8.0.00 (16th July 2018, www.leatrix.com)
+-- 	Leatrix Plus 8.0.01 (18th July 2018, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:Player		72:Profile		
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "8.0.00"
+	LeaPlusLC["AddonVer"] = "8.0.01"
 
 ----------------------------------------------------------------------
 --	L00: Leatrix Plus
@@ -862,6 +862,17 @@
 				DressUpModel:UndressSlot(19)
 			end)
 
+			-- Only show dressup buttons if its a player (reset button will show too)
+			hooksecurefunc(DressUpFrameResetButton, "Show", function()
+				LeaPlusCB["DressUpNudeBtn"]:Show()
+				LeaPlusCB["DressUpTabBtn"]:Show()
+			end)
+
+			hooksecurefunc(DressUpFrameResetButton, "Hide", function()
+				LeaPlusCB["DressUpNudeBtn"]:Hide()
+				LeaPlusCB["DressUpTabBtn"]:Hide()
+			end)
+
 			local BtnStrata, BtnLevel = SideDressUpModelResetButton:GetFrameStrata(), SideDressUpModelResetButton:GetFrameLevel()
 
 			-- Add buttons to auction house dressup frame
@@ -880,6 +891,17 @@
 				for i = 1, 19 do
 					SideDressUpModel:UndressSlot(i) -- Done this way to prevent issues with Undress
 				end
+			end)
+
+			-- Only show side dressup buttons if its a player (reset button will show too)
+			hooksecurefunc(SideDressUpModelResetButton, "Show", function()
+				LeaPlusCB["DressUpSideBtn"]:Show()
+				LeaPlusCB["DressUpSideNudeBtn"]:Show()
+			end)
+
+			hooksecurefunc(SideDressUpModelResetButton, "Hide", function()
+				LeaPlusCB["DressUpSideBtn"]:Hide()
+				LeaPlusCB["DressUpSideNudeBtn"]:Hide()
 			end)
 
 			----------------------------------------------------------------------
@@ -2005,6 +2027,39 @@
 			-- Move the minimap up to the top
 			MinimapCluster:ClearAllPoints()
 			MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 20)
+
+			-- Function to move the minimap down when order hall bar is shown
+			local function ManageCommandBar()
+				OrderHallCommandBar:HookScript("OnShow", function()
+					C_Timer.After(0.1, function()
+						if OrderHallCommandBar:IsShown() then
+							MinimapCluster:ClearAllPoints()
+							MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 0)
+						end
+					end)
+				end)
+				OrderHallCommandBar:HookScript("OnHide", function()
+					local void, void, void, void, y = MinimapCluster:GetPoint()
+					if y == 0 then
+						MinimapCluster:ClearAllPoints()
+						MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 20)
+					end
+				end)
+			end
+
+			-- Run function when Blizzard addon has loaded
+			if IsAddOnLoaded("Blizzard_OrderHallUI") then
+				ManageCommandBar()
+			else
+				local waitFrame = CreateFrame("FRAME")
+				waitFrame:RegisterEvent("ADDON_LOADED")
+				waitFrame:SetScript("OnEvent", function(self, event, arg1)
+					if arg1 == "Blizzard_OrderHallUI" then
+						ManageCommandBar()
+						waitFrame:UnregisterAllEvents()
+					end
+				end)
+			end
 
 			-- Show the zone text tooltip when the pointer is over the tracking button
 			MiniMapTrackingButton:SetScript("OnEnter", function()
@@ -6529,7 +6584,7 @@
 
 		if event == "UPDATE_CHAT_WINDOWS" then
 			ChatFrame2Tab:EnableMouse(false)
-			ChatFrame2Tab:SetText("")
+			ChatFrame2Tab:SetText(" ") -- Needs to be something for chat settings to function
 			ChatFrame2Tab:SetScale(0.01)
 			ChatFrame2Tab:SetWidth(0.01)
 			ChatFrame2Tab:SetHeight(0.01)
