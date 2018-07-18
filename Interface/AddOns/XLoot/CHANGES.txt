@@ -1,12 +1,12 @@
-tag 02de6b7312781f6343da12ccca5e51ba2f8317ff 7.3-3
+tag 1f380c779ff3b06c21335e8d32e7623c52165284 8.0-2
 Author:	Xuerian <xuerian@gmail.com>
-Date:	Sun Dec 31 19:12:07 2017 -0500
+Date:	Tue Jul 17 13:02:52 2018 -0400
 
-Monitor: Right-alignment of frames
+Tag as release for BFA pre-patch
 
-commit 8e6fd10075581cd8e7bfa3fd374ff027cad4aba3
+commit 5bfea3fdc0c8baea39d55f1edf9edaddd9bff03b
 Author: Xuerian <xuerian@gmail.com>
-Date:   Sun Dec 31 19:10:52 2017 -0500
+Date:   Thu Jul 5 20:34:34 2018 -0400
 
-    Monitor: Allow right-alignment of frames. Probably the most requested feature for years. Possibly fix some lingering anchoring bugs
+    Frame applyOptions: Set Fake.opt before updating appearance to avoid error
 

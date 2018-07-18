@@ -11,49 +11,37 @@ DetailsTimeLineDB = {
 		}, -- [4]
 	},
 	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["combat_data"] = {
 		{
-			["date_start"] = "23:15:03",
 			["date_end"] = "23:15:41",
+			["date_start"] = "23:15:03",
 			["name"] = "Shade of Xavius",
 			["total_time"] = 38.275999999998,
 		}, -- [1]
 		{
-			["date_start"] = "23:11:53",
 			["date_end"] = "23:12:47",
+			["date_start"] = "23:11:53",
 			["name"] = "Dresaron",
 			["total_time"] = 54.6489999999976,
 		}, -- [2]
 		{
-			["date_start"] = "23:08:17",
 			["date_end"] = "23:08:59",
+			["date_start"] = "23:08:17",
 			["name"] = "Oakheart",
 			["total_time"] = 42.7620000000024,
 		}, -- [3]
 		{
-			["date_start"] = "23:03:14",
 			["date_end"] = "23:03:45",
+			["date_start"] = "23:03:14",
 			["name"] = "Archdruid Glaidalis",
 			["total_time"] = 31.1150000000052,
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-			["Luxie-Stormrage"] = {
-				{
-					12.7579999999944, -- [1]
-					"Luxie-Stormrage", -- [2]
-					31850, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -263,11 +251,23 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["hide_on_combat"] = false,
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+			["Luxie-Stormrage"] = {
+				{
+					12.7579999999944, -- [1]
+					"Luxie-Stormrage", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
 	},
+	["window_scale"] = 1,
 }

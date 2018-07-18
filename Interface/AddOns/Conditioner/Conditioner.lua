@@ -1,6 +1,6 @@
 --==============================================CONDITIONER 2.0==============================================--
 --By Tony Allain
---version 2.2.1
+--version 2.3.4
 --===========================================================================================================--
 local ConditionerAddOn = CreateFrame("Frame")
 ConditionerAddOn.EventHandler = {}
@@ -24,8 +24,6 @@ ConditionerAddOn.DefaultLoadouts = {
         [73] = [=[[02+m0___23920_0_0]
                 [02+m0___6552_0_0]
                 [040o5001+7016+70_victorious__34428_0_0]
-                [00022001+80Y+70_dragon scales__190456_0_0]
-                [04w21+a01g+70___190456_0_0]
                 [+o0___1160_0_0]
                 [+o0___1719_0_0]
                 [+o0___23922_0_0]
@@ -482,6 +480,26 @@ function ConditionerAddOn:IsTalentsDirty()
     return false
 end
 
+function ConditionerAddOn.DebuffExists(unitToken, auraString, filter)
+    for i=1,64 do
+        local auraName, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod = UnitDebuff(unitToken, i, nil, filter)
+        if (auraName) and (auraName:lower() == auraString:lower()) then
+            return auraName, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod
+        end
+    end
+    return false
+end
+
+function ConditionerAddOn.BuffExists(unitToken, auraString, filter)
+    for i=1,64 do
+        local auraName, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod = UnitBuff(unitToken, i, nil, filter)
+        if (auraName) and (auraName:lower() == auraString:lower()) then
+            return auraName, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod
+        end
+    end
+    return false
+end
+
 function ConditionerAddOn:AddTalentSelectionHighlight()
     local currentSpecID = GetSpecialization()
     if (currentSpecID) then
@@ -551,7 +569,8 @@ function ConditionerAddOn:SetUpTalentTextures()
             ConditionerAddOn.TalentSaveButton:SetText("Save")
             ConditionerAddOn.TalentSaveButton:SetFrameStrata("HIGH")
             ConditionerAddOn.TalentSaveButton:SetSize(80, 32)
-            ConditionerAddOn.TalentSaveButton:SetPoint("BOTTOMRIGHT", TalentFrame, "TOPRIGHT")
+            ConditionerAddOn.TalentSaveButton:SetPoint("LEFT", PlayerTalentFramePortrait, "RIGHT")
+            ConditionerAddOn.TalentSaveButton:SetPoint("BOTTOM", PlayerTalentFrameTalentsPvpTalentButton, "BOTTOM")
             ConditionerAddOn.TalentSaveButton:SetScript("OnEnter", function(self)
                 GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0)
                 GameTooltip:SetText("Conditioner", 0, 0.75, 1)
@@ -618,7 +637,7 @@ function ConditionerAddOn:RollTheBones()
     }
     local results = {}
     for k,v in ipairs(RollTheBonesBuffs) do
-        local auraName, _, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod = UnitBuff("player", v)
+        local auraName, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod = ConditionerAddOn.BuffExists("player", v)
         if (auraName) then
             num_active = (num_active or 0) + 1
             results[1] = num_active
@@ -653,6 +672,7 @@ end
 
 function ConditionerAddOn:CreateSwingFrame(text, parent, r, g, b)
     local o = CreateFrame("Frame", nil, parent)
+    o:SetFrameStrata("MEDIUM")
     o.Texture = o:CreateTexture()
     o.Texture:SetAllPoints(o)
     o.Texture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-BarFill")
@@ -683,10 +703,10 @@ function ConditionerAddOn:UpdateCastBar(elapsed)
     if (ConditionerAddOn_SavedVariables.Options.ShowTargetCastBar or ConditionerAddOn.ShowCastBar) and (not UnitHasVehicleUI("player")) then
         if (ConditionerAddOn.TrackedFrameDragAnchor.CastingBar) and (ConditionerAddOn.TrackingFrames) and (ConditionerAddOn.TrackingFrames[1]) and (ConditionerAddOn.TrackingFrames[1]:IsShown()) then
             local mainTrackedFrame = ConditionerAddOn.TrackingFrames[1]
-            ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:SetHeight(mainTrackedFrame:GetHeight()/5*UIParent:GetScale())
-            ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Text:SetFont("Fonts\\FRIZQT__.TTF", math.ceil(0.5*mainTrackedFrame:GetHeight()/5*UIParent:GetScale()), "OUTLINE, NORMAL")
-            local castSpellName, _, _, castSpellTexture, castStart, castEnd, _, _, uninterruptable = UnitCastingInfo("target")
-            local channelSpellName, _, _, channelSpellTexture, channelStart, channelEnd, _, notInterruptible = UnitChannelInfo("target")
+            ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:SetHeight(mainTrackedFrame:GetHeight()/5)
+            ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Text:SetFont("Fonts\\FRIZQT__.TTF", math.ceil(0.5*mainTrackedFrame:GetHeight()/5), "OUTLINE, NORMAL")
+            local castSpellName, _, castSpellTexture, castStart, castEnd, _, _, uninterruptable, castSpellID = UnitCastingInfo("target")
+            local channelSpellName, _, channelSpellTexture, channelStart, channelEnd, _, notInterruptible, channelSpellID = UnitChannelInfo("target")
             local texture = castSpellTexture or channelSpellTexture
             local castName = castSpellName or channelSpellName
             local timeLeft = castEnd or channelEnd
@@ -705,14 +725,15 @@ function ConditionerAddOn:UpdateCastBar(elapsed)
                 if (castSpellName) then
                     mult = 1-mult
                 end
-                ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:SetWidth(mult*mainTrackedFrame:GetWidth()*UIParent:GetScale())
-                ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Background:SetWidth(mainTrackedFrame:GetWidth()*UIParent:GetScale() - ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:GetWidth())
+                ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:SetWidth(mult*mainTrackedFrame:GetWidth())
+                ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Background:SetWidth(mainTrackedFrame:GetWidth() - ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:GetWidth())
 
                 if (ConditionerAddOn.ShowCastBar) then
+                    local convertedTime = ConditionerAddOn:ConvertTime(timeLeft/1000 - GetTime())
                     ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer:ClearAllPoints()
                     ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer:SetPoint("CENTER", mainTrackedFrame, "CENTER")
-                    ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer:SetText(string.format("%.1f", timeLeft/1000 - GetTime()))
-                    ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer:SetFont("Fonts\\FRIZQT__.TTF", math.ceil(mainTrackedFrame:GetHeight()/3*UIParent:GetScale()), "OUTLINE, NORMAL")
+                    ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer:SetText(convertedTime)
+                    ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer:SetFont("Fonts\\FRIZQT__.TTF", math.ceil(mainTrackedFrame:GetHeight()/3), "OUTLINE, NORMAL")
                     ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer:SetTextColor(mult, 1-mult, 0)
                     ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer:Show()
                 else
@@ -723,8 +744,8 @@ function ConditionerAddOn:UpdateCastBar(elapsed)
                 ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:Show()
             else
                 ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:Hide()
-                ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Background:SetWidth(mainTrackedFrame:GetWidth()*UIParent:GetScale() - ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:GetWidth())
-                ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:SetWidth(mainTrackedFrame:GetWidth()*UIParent:GetScale())
+                ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Background:SetWidth(mainTrackedFrame:GetWidth() - ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:GetWidth())
+                ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:SetWidth(mainTrackedFrame:GetWidth())
             end
         else
             ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:Hide()
@@ -817,6 +838,11 @@ function ConditionerAddOn:OnUpdate(elapsed)
                 local hasBookSlot = FindSpellBookSlotBySpellID(prioSlotButton.Data.spellID)
                 if (hasBookSlot) then
                     prioTexture = GetSpellBookItemTexture(hasBookSlot, "spell")
+                else
+                    local tryPetSlot = FindSpellBookSlotBySpellID(prioSlotButton.Data.spellID, "pet")
+                    if (tryPetSlot) then
+                        prioTexture = GetSpellBookItemTexture(tryPetSlot, "pet")
+                    end
                 end
             end
             newTrackerFrame.Icon:SetTexture(prioTexture)
@@ -837,7 +863,7 @@ end
 
 function ConditionerAddOn:UpdateSwingTimers(elapsed)
     local parent = ConditionerAddOn.TrackingFrames[1]
-    if (UnitHasVehicleUI("player")) or (not parent) or (not parent:IsShown()) or ((ConditionerAddOn_SavedVariables.Options.OnlyDisplayInCombat) and (not SpellBookFrame:IsShown()) and (not UnitAffectingCombat("player"))) then
+    if (UnitHasVehicleUI("player")) or (InCinematic()) or (not parent) or (not parent:IsShown()) or ((ConditionerAddOn_SavedVariables.Options.OnlyDisplayInCombat) and (not SpellBookFrame:IsShown()) and (not UnitAffectingCombat("player"))) then
         ConditionerAddOn.TrackedFrameDragAnchor.MainHand:Hide()
         ConditionerAddOn.TrackedFrameDragAnchor.OffHand:Hide()
         return
@@ -845,7 +871,7 @@ function ConditionerAddOn:UpdateSwingTimers(elapsed)
     if (ConditionerAddOn_SavedVariables.Options.ShowSwingTimers) then
         if (ConditionerAddOn.TrackedFrameDragAnchor.MainHand) then
             local MH, OH = UnitAttackSpeed("player")
-            local w, h = parent:GetWidth()*UIParent:GetScale(), parent:GetHeight()*UIParent:GetScale()/6
+            local w, h = parent:GetWidth(), parent:GetHeight()/6
             ConditionerAddOn.TrackedFrameDragAnchor.MainHand.Text:SetFont("Fonts\\FRIZQT__.TTF", math.ceil(0.6*h), "OUTLINE, NORMAL")
             ConditionerAddOn.TrackedFrameDragAnchor.OffHand.Text:SetFont("Fonts\\FRIZQT__.TTF", math.ceil(0.6*h), "OUTLINE, NORMAL")
             if (MH) then
@@ -1024,7 +1050,24 @@ function ConditionerAddOn:Delete(destFrame, pickup)
                         --print("Probably tried to pick up an override spell that isn't active anymore")
                     end
                 end
-                PickupSpell(tempSpellID)
+                local numPetSpells, _ = HasPetSpells()
+                local isPetSpell = false
+
+                if (numPetSpells) then
+                    for i=1,numPetSpells do
+                        local petSpellName, petSpellType, petSpellID = GetSpellBookItemName(i, "pet")
+                        if (petSpellID) and (petSpellID == tempSpellID) then
+                            isPetSpell = i
+                            break
+                        end
+                    end
+                end
+
+                if (isPetSpell) then
+                    PickupSpellBookItem(isPetSpell, "pet")
+                else
+                    PickupSpell(tempSpellID)
+                end
             end
         else
             ConditionerAddOn.TempConditions = nil
@@ -1212,6 +1255,11 @@ function ConditionerAddOn:SetConditions(destFrame, conditionString, newSpellID, 
         end
         --print(string.format("DECODED %s\n%s", conditionString, subDecodedString)) ConditionerAddOn.ConditionPattern
         local b,bShort,c,d,e,f,g,h,i,j,k,l,m,n,o,watched_Amount,cdR,p,q,spell_id,item_id,watched_ID = subDecodedString:match(ConditionerAddOn.ConditionPattern)
+        --check if work is needed
+        if (not C_Spell.DoesSpellExist(tonumber(spell_id))) then
+            ConditionerAddOn:SetConditions(destFrame)
+            return
+        end
         local decoded_boolStrings = ConditionerAddOn:ConvertFromMask(b, true)
         local decoded_boolStringShort = ConditionerAddOn:ConvertFromMask(bShort, true)
         destFrame.Conditions.secondsRemainingBool = decoded_boolStrings[1]
@@ -1304,11 +1352,14 @@ function ConditionerAddOn:SetConditions(destFrame, conditionString, newSpellID, 
 end
 
 function ConditionerAddOn:GetCursorInfo()
-    local cursorType, newItemID, _, newSpellID, _ = GetCursorInfo()
+    local cursorType, newItemID, isPetSpell, newSpellID = GetCursorInfo()
     if (cursorType == "spell") then
         newItemID = 0
+    elseif (cursorType == "petaction") and (isPetSpell) then
+        newSpellID = newItemID
+        newItemID = 0
     elseif (cursorType == "item") then
-        _, _, newSpellID = GetItemSpell(newItemID)
+        _, newSpellID = GetItemSpell(newItemID)
         if (not newSpellID) then
             ClearCursor()
             return false, false, true
@@ -1528,25 +1579,6 @@ function ConditionerAddOn:ClearTrackers()
     end
 end
 
-function ConditionerAddOn:CacheGCDMachine(...)
-    local eventArgs = {...}
-    if (CombatLogGetCurrentEventInfo) then
-        eventArgs = {CombatLogGetCurrentEventInfo()}
-    end
-    if (eventArgs[4] == UnitGUID("player")) then
-        ConditionerAddOn.GetGCD = ConditionerAddOn.GetGCD or {}
-        local spellID = eventArgs[12]
-        if (not ConditionerAddOn.GetGCD[spellID]) then
-            local actualGCDSpellID = 61304
-            local mycooldownNumbers = {GetSpellCooldown(spellID)}
-            local realGCD = {GetSpellCooldown(actualGCDSpellID)}
-            if (realGCD[2]) and (mycooldownNumbers[2]) and (realGCD[2] > 0) and (realGCD[2] == mycooldownNumbers[2]) then
-                ConditionerAddOn.GetGCD[spellID] = tonumber(string.format("%.1f",realGCD[2]*(1+(GetHaste()/100))))
-            end
-        end
-    end
-end
-
 function ConditionerAddOn:ResizeTrackers()
     ConditionerAddOn.TrackingFrames = ConditionerAddOn.TrackingFrames or {}
     ConditionerAddOn_SavedVariables.Options.TrackedFrameSize = ConditionerAddOn_SavedVariables.Options.TrackedFrameSize or 100
@@ -1577,6 +1609,7 @@ function ConditionerAddOn:ResizeTrackers()
 end
 
 function ConditionerAddOn:CompareValues(leftValue, operatorEnum, rightValue)
+    leftValue = leftValue or 0
     if (operatorEnum == 1) then
         return (leftValue > rightValue)
     elseif (operatorEnum == 2) then
@@ -1601,18 +1634,16 @@ function ConditionerAddOn:GetCooldownList()
         local id = v.Data.spellID
         if (spellTimeRemaining) and (not found[id]) then
             found[id] = true
-            local entry = {priority = k, time = spellTimeRemaining, gcd = spellGCD, startTime = s, duration = d, texture = v.CurrentTexture, range = inRange, auraIcon = auraTexture, auraTime = auraDuration, auraTS = auraTimestamp}
-            table.insert(validSpells, entry)
+            table.insert(validSpells, {priority = k, time = spellTimeRemaining, gcd = spellGCD, startTime = s, duration = d, texture = v.CurrentTexture, range = inRange, auraIcon = auraTexture, auraTime = auraDuration, auraTS = auraTimestamp})
         end
     end
 
-    local myHasteMult = 1/(1+(GetHaste()/100))
-    ConditionerAddOn:MergeSort(validSpells, myHasteMult)
+    ConditionerAddOn:MergeSort(validSpells)
 
     return validSpells
 end
 
-function ConditionerAddOn:MergeSort(list, hasteMult)
+function ConditionerAddOn:MergeSort(list)
     if (#list > 1) then
         local middle = math.ceil(#list/2)
         local leftHalf, rightHalf = {}, {}
@@ -1622,14 +1653,15 @@ function ConditionerAddOn:MergeSort(list, hasteMult)
         for i=middle+1,#list do
             table.insert(rightHalf, list[i])
         end
-        ConditionerAddOn:MergeSort(leftHalf, hasteMult)
-        ConditionerAddOn:MergeSort(rightHalf, hasteMult)
-        ConditionerAddOn:Merge(list, leftHalf, rightHalf, hasteMult)
+        ConditionerAddOn:MergeSort(leftHalf)
+        ConditionerAddOn:MergeSort(rightHalf)
+        ConditionerAddOn:Merge(list, leftHalf, rightHalf)
     end
 end
 
-function ConditionerAddOn:Merge(list, left, right, hasteMult)
+function ConditionerAddOn:Merge(list, left, right)
     local i, j, k = 1, 1, 1
+    local hasteMult = 1/(1+(GetHaste()/100))
     while ((i <= #left) and (j <= #right)) do
         local a, b = left[i], right[j]
         if (a.priority < b.priority) then
@@ -1665,6 +1697,7 @@ end
 
 function ConditionerAddOn:CheckCondition(priorityButton)
     local spellID, itemID, Conditions = priorityButton.Data.spellID, priorityButton.Data.itemID, priorityButton.Conditions
+    
     --the button has no data
     if (spellID + itemID == 0) then
         --print("FAILED - NO DATA")
@@ -1678,6 +1711,9 @@ function ConditionerAddOn:CheckCondition(priorityButton)
         hasSlot = (not IsPassiveSpell(hasSlot, "spell"))
     end
     hasSlot = (itemID > 0) and GetItemCount(itemID) or hasSlot
+    if (not hasSlot) then
+        hasSlot = FindSpellBookSlotBySpellID(spellID, "pet")
+    end
     if (not hasSlot) or (hasSlot == 0) then
         --print("FAILED - KNOWN")
         return false
@@ -1708,9 +1744,13 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     if (Conditions.onlyWhenReadyBool) then
         local testFunc = (itemID > 0) and GetItemCooldown or GetSpellCooldown
         local testID = (itemID > 0) and itemID or spellID
-        local _, GCDTime = GetSpellCooldown(61304)
+        local _, itemSpell = GetItemSpell(itemID)
+        local _, GCDTime = GetSpellBaseCooldown(spellID)
+        if (itemID > 0) then
+            _, GCDTime = GetSpellBaseCooldown(itemSpell)
+        end
         local _, isReady = testFunc(testID)
-        if (isReady > GCDTime) then
+        if (isReady > GCDTime/1000) then
             --print("FAILED - READY")
             return false
         end
@@ -1755,7 +1795,7 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     --shapeShiftEnum
     if (Conditions.shapeShiftEnum > 0) then
         local shapeShiftChoice = ConditionerAddOn.Enums.shapeShiftChoicesEnum[Conditions.shapeShiftEnum]
-        if (not UnitBuff("player", shapeShiftChoice)) then
+        if (not ConditionerAddOn.BuffExists("player", shapeShiftChoice)) then
             --print("FAILED - SHAPESHIFT")
             return false
         end
@@ -1763,8 +1803,8 @@ function ConditionerAddOn:CheckCondition(priorityButton)
 
     --inStealth
     if (Conditions.inStealth) then
-        local inStealth = IsStealthed() or UnitBuff("player", "Subterfuge")
-        inStealth = inStealth or UnitBuff("player", "Shadow Dance")
+        local inStealth = IsStealthed() or ConditionerAddOn.BuffExists("player", "Subterfuge")
+        inStealth = inStealth or ConditionerAddOn.BuffExists("player", "Shadow Dance")
         if (not inStealth) then
             --print("FAILED - STEALTH")
             return false
@@ -1777,7 +1817,12 @@ function ConditionerAddOn:CheckCondition(priorityButton)
         inRange = (inRange) and 1 or 0
     else
         local spellBookSlot = FindSpellBookSlotBySpellID(spellID)
-        inRange = IsSpellInRange(spellBookSlot, "spell", targetUnitToken)
+        local petBookSlot = FindSpellBookSlotBySpellID(spellID, "pet")
+        if (petBookSlot) then
+            inRange = IsSpellInRange(petBookSlot, "pet", targetUnitToken)
+        else
+            inRange = IsSpellInRange(spellBookSlot, "spell", targetUnitToken)
+        end
     end
 
     --onlyInRange
@@ -1819,8 +1864,8 @@ function ConditionerAddOn:CheckCondition(priorityButton)
             ["Poison"] = false,
         }
         for i=1,64 do
-            local _, _, _, _, dispelBuffType = UnitBuff(targetUnitToken, i)
-            local _, _, _, _, dispelDebuffType = UnitDebuff(targetUnitToken, i)
+            local _, _, _, dispelBuffType = UnitBuff(targetUnitToken, i)
+            local _, _, _, dispelDebuffType = UnitDebuff(targetUnitToken, i)
             buffDispelTypes[dispelBuffType or 0] = (dispelBuffType) and true or false
             debuffDispelTypes[dispelDebuffType or 0] = (dispelDebuffType) and true or false
         end
@@ -1835,9 +1880,9 @@ function ConditionerAddOn:CheckCondition(priorityButton)
         finalDebuffMask = finalDebuffMask + ((debuffDispelTypes["Poison"]) and 4 or 0)
         finalDebuffMask = finalDebuffMask + ((debuffDispelTypes["Disease"]) and 8 or 0)
         local result = 0
-        if (buffBool and not debuffBool) then
+        if (Conditions.buffBool and not Conditions.debuffBool) then
             result = bit.band(targetMaskSum, finalBuffMask)
-        elseif (debuffBool and not buffBool) then
+        elseif (Conditions.debuffBool and not Conditions.buffBool) then
             result = bit.band(targetMaskSum, finalDebuffMask)
         else
             result = math.max(bit.band(targetMaskSum, finalBuffMask), bit.band(targetMaskSum, finalDebuffMask))
@@ -1850,8 +1895,8 @@ function ConditionerAddOn:CheckCondition(priorityButton)
 
     --is interrupt
     if (Conditions.isInterruptBool) then
-        local castSpellName, _, _, castSpellTexture, castStart, castEnd, _, _, uninterruptable = UnitCastingInfo("target")
-        local channelSpellName, _, _, channelSpellTexture, channelStart, channelEnd, _, notInterruptible = UnitChannelInfo("target")
+        local castSpellName, _, castSpellTexture, castStart, castEnd, _, _, uninterruptable, castSpellID = UnitCastingInfo("target")
+        local channelSpellName, _, channelSpellTexture, channelStart, channelEnd, _, notInterruptible, channelSpellID = UnitChannelInfo("target")
         if (castSpellName) or (channelSpellName) then
             if (uninterruptable or notInterruptible) then
                 --print("FAILED - UNINTERRUPTABLE")
@@ -1874,9 +1919,9 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     end
 
     local activeAuraName = Conditions.activeAuraString
-    local auraName, _, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod = UnitDebuff(targetUnitToken, activeAuraName, nil, "PLAYER")
+    local auraName, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod = ConditionerAddOn.DebuffExists(targetUnitToken, activeAuraName, nil, "PLAYER")
     if (not auraName) then
-        auraName, _, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod = UnitBuff(targetUnitToken, activeAuraName, nil, "PLAYER")
+        auraName, auraIcon, auraStacks, _, auraDuration, auraExpireTimestamp, _, auraIsStealable, _, auraSpellID, _, _, _, _, auraTimeMod = ConditionerAddOn.BuffExists(targetUnitToken, activeAuraName, nil, "PLAYER")
     end
     --special rogue Handling
     if (UnitClass("player") == "Rogue") and (activeAuraName:lower() == "roll the bones") then
@@ -2006,8 +2051,13 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     local finalID = math.max(itemID, spellID)
     local finalStartTime, finalDurationTime = finalFunc(finalID)
     local finalTimeLeft = math.max((finalStartTime + finalDurationTime) - GetTime(), 0)
-    ConditionerAddOn.GetGCD = ConditionerAddOn.GetGCD or {}
-    local myGCD = ConditionerAddOn.GetGCD[spellID] or 1.5
+    local _, itemSpell = GetItemSpell(itemID)
+    local _, myGCD = GetSpellBaseCooldown(spellID)
+    if (itemID > 0) then
+        _, myGCD = GetSpellBaseCooldown(itemSpell)
+    end
+    myGCD = (myGCD > 0) and (myGCD/1000) or 1.5
+    --print(myGCD, spellID, itemSpell)
     --did we make it?
     --print("WE MADE IT", spellID, finalTimeLeft, myGCD)
     return finalTimeLeft, myGCD, finalStartTime, finalDurationTime, inRange, auraIcon, auraDuration, auraExpireTimestamp
@@ -2658,13 +2708,13 @@ function ConditionerAddOn:Init()
         ConditionerAddOn:ResizeTrackers()
     end)
 
-    ConditionerAddOn.TrackedFrameDragAnchor.MainHand = ConditionerAddOn:CreateSwingFrame("Main Hand", ConditionerAddOn, 0, 0.75, 1)
+    ConditionerAddOn.TrackedFrameDragAnchor.MainHand = ConditionerAddOn:CreateSwingFrame("Main Hand", UIParent, 0, 0.75, 1)
     ConditionerAddOn.TrackedFrameDragAnchor.OffHand = ConditionerAddOn:CreateSwingFrame("Off Hand", ConditionerAddOn.TrackedFrameDragAnchor.MainHand, 1, 0, 1)
     ConditionerAddOn.TrackedFrameDragAnchor.MainHand:SetSize(10, 10)
     ConditionerAddOn.TrackedFrameDragAnchor.OffHand:SetSize(10, 10)
 
     --can piggyback to make casting bar
-    ConditionerAddOn.TrackedFrameDragAnchor.CastingBar = ConditionerAddOn:CreateSwingFrame("CASTBAR", ConditionerAddOn, 1, 1, 0.25)
+    ConditionerAddOn.TrackedFrameDragAnchor.CastingBar = ConditionerAddOn:CreateSwingFrame("CASTBAR", UIParent, 1, 1, 0.25)
     ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:SetSize(10, 10)
     ConditionerAddOn.TrackedFrameDragAnchor.CastingBar.Timer = ConditionerAddOn.TrackedFrameDragAnchor.CastingBar:CreateFontString(nil, "OVERLAY", "SystemFont_Huge1_Outline")
 
@@ -3616,7 +3666,6 @@ function ConditionerAddOn:Init()
 
     function ConditionerAddOn.LoadoutFrame.DropDown:DeleteLoadout()
         if (ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice > 0) then
-            --table.remove(ConditionerAddOn.LoadoutFrame.DropDown.Choices, ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice)
             ConditionerAddOn.LoadoutFrame.DropDown.Choices[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice] = false
             ConditionerAddOn_SavedVariables.TalentsPerLoadout[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice] = nil
             CONDITIONERDROPDOWNMENU_SetText(ConditionerAddOn.LoadoutFrame.DropDown, string.format("|cffd742f4%s|r", ConditionerAddOn.LoadoutFrame.DropDown.Choices[0].name))
@@ -4002,21 +4051,27 @@ function ConditionerAddOn.EventHandler:ADDON_LOADED(...)
             ShowSwingTimers = false,
             OnlyDisplayInCombat = false,
         }
-        --print((ConditionerAddOn_SavedVariables) and "CONDITIONER LOADED" or "CONDITIONER FIRST TIME USE")
         ConditionerAddOn:Init()
     end
 end
 
 function ConditionerAddOn.EventHandler:COMBAT_LOG_EVENT_UNFILTERED(...)
     ConditionerAddOn:SpellCacheWatcher(...)
-    ConditionerAddOn:CacheGCDMachine(...)
     ConditionerAddOn:HandleSwingTimerMelee(...)
 end
 
 function ConditionerAddOn.EventHandler:UNIT_SPELLCAST_SUCCEEDED(...)
     ConditionerAddOn:HandleSwingTimerRanged(...)
 end
+--[[
+function ConditionerAddOn.EventHandler:ADDON_ACTION_FORBIDDEN(...)
+    
+end
 
+function ConditionerAddOn.EventHandler:ADDON_ACTION_BLOCKED(...)
+    
+end
+]]
 ConditionerAddOn:SetScript("OnEvent", function(self, event, ...)
     ConditionerAddOn.EventHandler[event](self, ...);
 end)

@@ -9,6 +9,31 @@ AdiBagsDB = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Korugen - Tichondrius"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Gorog - Bleeding Hollow"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Lorvol - Tichondrius"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Deminath - Hyjal"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Zaliga - Bleeding Hollow"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Zethan - Tichondrius"] = "Default",
+		["Alura - Tichondrius"] = "Default",
+		["Mallusof - Icecrown"] = "Default",
+	},
 	["namespaces"] = {
 		["ItemLevel"] = {
 		},
@@ -45,6 +70,8 @@ AdiBagsDB = {
 					["dispatchRule"] = "slot",
 				},
 			},
+		},
+		["DataSource"] = {
 		},
 		["ItemSets"] = {
 			["char"] = {
@@ -87,8 +114,6 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["DataSource"] = {
-		},
 		["Junk"] = {
 		},
 		["MoneyFrame"] = {
@@ -98,31 +123,6 @@ AdiBagsDB = {
 				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Korugen - Tichondrius"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Gorog - Bleeding Hollow"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
-		["Lorvol - Tichondrius"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
-		["Deminath - Hyjal"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Rahran - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Zaliga - Bleeding Hollow"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
-		["Zethan - Tichondrius"] = "Default",
-		["Alura - Tichondrius"] = "Default",
-		["Mallusof - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

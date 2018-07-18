@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "13:16:02",
 			["date_start"] = "13:15:15",
+			["date_end"] = "13:16:02",
 			["name"] = "Aku'mai",
 			["total_time"] = 47.0030000000006,
 		}, -- [1]
 		{
-			["date_end"] = "13:13:06",
 			["date_start"] = "13:11:38",
+			["date_end"] = "13:13:06",
 			["name"] = "Twilight Lord Bathiel",
 			["total_time"] = 88.0010000000002,
 		}, -- [2]
 		{
-			["date_end"] = "13:08:54",
 			["date_start"] = "13:08:00",
+			["date_end"] = "13:08:54",
 			["name"] = "Guardian of the Deep",
 			["total_time"] = 54.0020000000004,
 		}, -- [3]
 		{
-			["date_end"] = "13:07:16",
 			["date_start"] = "13:06:19",
+			["date_end"] = "13:07:16",
 			["name"] = "Executioner Gore",
 			["total_time"] = 57.0069999999996,
 		}, -- [4]
@@ -30,7 +30,7 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{
@@ -56,10 +56,10 @@ DetailsTimeLineDB = {
 			},
 		}, -- [3]
 		{
-			["Rrorschachh-Ragnaros"] = {
+			["Askelar-Ragnaros"] = {
 				[152592] = {
-					45.6629999999996, -- [1]
-					46.5230000000001, -- [2]
+					45.0820000000003, -- [1]
+					47.0330000000004, -- [2]
 					["source"] = "[*] Executioner's Strike",
 					["active"] = false,
 				},
@@ -78,10 +78,10 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Askelar-Ragnaros"] = {
+			["Rrorschachh-Ragnaros"] = {
 				[152592] = {
-					45.0820000000003, -- [1]
-					47.0330000000004, -- [2]
+					45.6629999999996, -- [1]
+					46.5230000000001, -- [2]
 					["source"] = "[*] Executioner's Strike",
 					["active"] = false,
 				},
@@ -94,7 +94,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{

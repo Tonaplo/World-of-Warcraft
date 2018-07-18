@@ -4085,7 +4085,7 @@
 			end
 
 			-- Update map
-			hooksecurefunc("WorldMapFrame_Update", function()
+			--hooksecurefunc("WorldMapFrame_Update", function()
 				if WorldMapFrame:IsShown() and LeaPlusLC["RevealWorldMap"] == "On" then
 					RefMap();
 				end

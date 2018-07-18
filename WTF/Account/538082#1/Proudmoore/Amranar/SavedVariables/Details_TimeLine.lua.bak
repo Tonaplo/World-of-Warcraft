@@ -1,13 +1,5 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -60,6 +52,39 @@ DetailsTimeLineDB = {
 		}, -- [3]
 		{
 		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["combat_data"] = {
+		{
+			["date_start"] = "00:05:36",
+			["date_end"] = "00:07:18",
+			["name"] = "Xavius",
+			["total_time"] = 102.493999999999,
+		}, -- [1]
+		{
+			["date_start"] = "00:01:58",
+			["date_end"] = "00:02:51",
+			["name"] = "Cenarius",
+			["total_time"] = 53.6710000000021,
+		}, -- [2]
+		{
+			["date_start"] = "23:56:26",
+			["date_end"] = "23:57:27",
+			["name"] = "Ursoc",
+			["total_time"] = 61.1369999999952,
+		}, -- [3]
+		{
+			["date_start"] = "23:52:30",
+			["date_end"] = "23:53:27",
+			["name"] = "Dragons of Nightmare",
+			["total_time"] = 57.3629999999976,
+		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -487,6 +512,48 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Hammed-Dath'Remar"] = {
+				[198006] = {
+					19.5689999999959, -- [1]
+					25.5939999999973, -- [2]
+					["source"] = "Ursoc",
+					["active"] = false,
+				},
+				[205611] = {
+					43.9019999999946, -- [1]
+					46.3199999999997, -- [2]
+					53.8249999999971, -- [3]
+					56.5409999999974, -- [4]
+					60.0930000000008, -- [5]
+					61.1369999999952, -- [6]
+					["source"] = "Nightmare Image",
+					["active"] = false,
+				},
+			},
+			["Dopehs-Thrall"] = {
+				[205611] = {
+					43.9019999999946, -- [1]
+					46.2359999999971, -- [2]
+					["source"] = "Nightmare Image",
+					["active"] = false,
+				},
+				[198006] = {
+					59.5709999999963, -- [1]
+					61.1369999999952, -- [2]
+					["source"] = "Ursoc",
+					["active"] = false,
+				},
+			},
+			["Anthaulais-Stormrage"] = {
+				[205611] = {
+					43.9019999999946, -- [1]
+					44.8580000000002, -- [2]
+					53.8249999999971, -- [3]
+					55.7609999999986, -- [4]
+					["source"] = "Nightmare Image",
+					["active"] = false,
+				},
+			},
 			["Amranar"] = {
 				[204859] = {
 					15.5229999999938, -- [1]
@@ -519,53 +586,11 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Dopehs-Thrall"] = {
-				[205611] = {
-					43.9019999999946, -- [1]
-					46.2359999999971, -- [2]
-					["source"] = "Nightmare Image",
-					["active"] = false,
-				},
-				[198006] = {
-					59.5709999999963, -- [1]
-					61.1369999999952, -- [2]
-					["source"] = "Ursoc",
-					["active"] = false,
-				},
-			},
-			["Anthaulais-Stormrage"] = {
-				[205611] = {
-					43.9019999999946, -- [1]
-					44.8580000000002, -- [2]
-					53.8249999999971, -- [3]
-					55.7609999999986, -- [4]
-					["source"] = "Nightmare Image",
-					["active"] = false,
-				},
-			},
 			["Tandraelara-Gilneas"] = {
 				[225042] = {
 					61.1369999999952, -- [1]
 					["source"] = "Corrupted Feeler",
 					["active"] = true,
-				},
-			},
-			["Hammed-Dath'Remar"] = {
-				[198006] = {
-					19.5689999999959, -- [1]
-					25.5939999999973, -- [2]
-					["source"] = "Ursoc",
-					["active"] = false,
-				},
-				[205611] = {
-					43.9019999999946, -- [1]
-					46.3199999999997, -- [2]
-					53.8249999999971, -- [3]
-					56.5409999999974, -- [4]
-					60.0930000000008, -- [5]
-					61.1369999999952, -- [6]
-					["source"] = "Nightmare Image",
-					["active"] = false,
 				},
 			},
 			["Nimbus-Tichondrius"] = {
@@ -864,12 +889,17 @@ DetailsTimeLineDB = {
 					108280, -- [3]
 				}, -- [1]
 			},
-			["Hammed-Dath'Remar"] = {
+			["Tandraelara-Gilneas"] = {
 				{
-					91.4579999999987, -- [1]
-					"Hammed-Dath'Remar", -- [2]
-					48707, -- [3]
+					5.21499999999651, -- [1]
+					"Tandraelara-Gilneas", -- [2]
+					47788, -- [3]
 				}, -- [1]
+				{
+					5.22899999999936, -- [1]
+					"Amranar", -- [2]
+					47788, -- [3]
+				}, -- [2]
 			},
 			["Lyniix-Thrall"] = {
 				{
@@ -883,6 +913,13 @@ DetailsTimeLineDB = {
 					35.2209999999977, -- [1]
 					"Wolfenstéin-WyrmrestAccord", -- [2]
 					15286, -- [3]
+				}, -- [1]
+			},
+			["Hammed-Dath'Remar"] = {
+				{
+					91.4579999999987, -- [1]
+					"Hammed-Dath'Remar", -- [2]
+					48707, -- [3]
 				}, -- [1]
 			},
 			["Amranar"] = {
@@ -901,18 +938,6 @@ DetailsTimeLineDB = {
 					"Amranar", -- [2]
 					22842, -- [3]
 				}, -- [3]
-			},
-			["Tandraelara-Gilneas"] = {
-				{
-					5.21499999999651, -- [1]
-					"Tandraelara-Gilneas", -- [2]
-					47788, -- [3]
-				}, -- [1]
-				{
-					5.22899999999936, -- [1]
-					"Amranar", -- [2]
-					47788, -- [3]
-				}, -- [2]
 			},
 			["Nimbus-Tichondrius"] = {
 				{
@@ -937,6 +962,18 @@ DetailsTimeLineDB = {
 					108280, -- [3]
 				}, -- [1]
 			},
+			["Hammed-Dath'Remar"] = {
+				{
+					35.7010000000009, -- [1]
+					"Hammed-Dath'Remar", -- [2]
+					48707, -- [3]
+				}, -- [1]
+				{
+					46.3430000000008, -- [1]
+					"Hammed-Dath'Remar", -- [2]
+					48792, -- [3]
+				}, -- [2]
+			},
 			["Tandraelara-Gilneas"] = {
 				{
 					1.19799999999668, -- [1]
@@ -955,18 +992,6 @@ DetailsTimeLineDB = {
 					"Amranar", -- [2]
 					22842, -- [3]
 				}, -- [1]
-			},
-			["Hammed-Dath'Remar"] = {
-				{
-					35.7010000000009, -- [1]
-					"Hammed-Dath'Remar", -- [2]
-					48707, -- [3]
-				}, -- [1]
-				{
-					46.3430000000008, -- [1]
-					"Hammed-Dath'Remar", -- [2]
-					48792, -- [3]
-				}, -- [2]
 			},
 			["Nimbus-Tichondrius"] = {
 				{
@@ -1056,30 +1081,5 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "00:05:36",
-			["date_end"] = "00:07:18",
-			["name"] = "Xavius",
-			["total_time"] = 102.493999999999,
-		}, -- [1]
-		{
-			["date_start"] = "00:01:58",
-			["date_end"] = "00:02:51",
-			["name"] = "Cenarius",
-			["total_time"] = 53.6710000000021,
-		}, -- [2]
-		{
-			["date_start"] = "23:56:26",
-			["date_end"] = "23:57:27",
-			["name"] = "Ursoc",
-			["total_time"] = 61.1369999999952,
-		}, -- [3]
-		{
-			["date_start"] = "23:52:30",
-			["date_end"] = "23:53:27",
-			["name"] = "Dragons of Nightmare",
-			["total_time"] = 57.3629999999976,
-		}, -- [4]
-	},
+	["window_scale"] = 1,
 }

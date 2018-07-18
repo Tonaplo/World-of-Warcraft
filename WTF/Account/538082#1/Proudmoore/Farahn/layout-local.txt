@@ -55,10 +55,3 @@ X: -271
 Y: -77
 W: 235
 H: 25
-Frame: WQGFManualActionsFrame
-FrameLevel: 0
-Anchor: LEFT
-X: 180
-Y: 88
-W: 370
-H: 110

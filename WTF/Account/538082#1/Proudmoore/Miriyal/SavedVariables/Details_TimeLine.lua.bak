@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "00:44:27",
-			["date_start"] = "00:42:26",
-			["name"] = "Odyn",
-			["total_time"] = 120.546999999999,
-		}, -- [1]
-		{
-			["date_end"] = "00:41:39",
-			["date_start"] = "00:38:42",
-			["name"] = "God-King Skovald",
-			["total_time"] = 176.279999999999,
-		}, -- [2]
-		{
-			["date_end"] = "00:26:42",
-			["date_start"] = "00:24:26",
-			["name"] = "Hyrja",
-			["total_time"] = 135.972999999998,
-		}, -- [3]
-		{
-			["date_end"] = "00:23:13",
-			["date_start"] = "00:22:15",
-			["name"] = "Hyrja",
-			["total_time"] = 58.0079999999944,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Miriyal"] = {
@@ -82,13 +64,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Miriyal"] = {
@@ -704,6 +679,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_end"] = "00:44:27",
+			["date_start"] = "00:42:26",
+			["name"] = "Odyn",
+			["total_time"] = 120.546999999999,
+		}, -- [1]
+		{
+			["date_end"] = "00:41:39",
+			["date_start"] = "00:38:42",
+			["name"] = "God-King Skovald",
+			["total_time"] = 176.279999999999,
+		}, -- [2]
+		{
+			["date_end"] = "00:26:42",
+			["date_start"] = "00:24:26",
+			["name"] = "Hyrja",
+			["total_time"] = 135.972999999998,
+		}, -- [3]
+		{
+			["date_end"] = "00:23:13",
+			["date_start"] = "00:22:15",
+			["name"] = "Hyrja",
+			["total_time"] = 58.0079999999944,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -819,5 +820,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

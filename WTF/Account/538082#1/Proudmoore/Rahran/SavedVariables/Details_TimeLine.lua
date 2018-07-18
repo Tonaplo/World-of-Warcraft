@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "22:04:22",
-			["date_start"] = "21:57:48",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 394.008,
-		}, -- [1]
-		{
-			["date_end"] = "21:56:23",
-			["date_start"] = "21:52:56",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 207.008000000001,
-		}, -- [2]
-		{
-			["date_end"] = "21:50:48",
-			["date_start"] = "21:49:30",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 78.0030000000006,
-		}, -- [3]
-		{
-			["date_end"] = "21:47:31",
-			["date_start"] = "21:44:29",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 182.005,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Rahran"] = {
@@ -56,13 +38,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Oslo-Shadowsong"] = {
@@ -193,6 +168,32 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "22:04:22",
+			["date_start"] = "21:57:48",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 394.008,
+		}, -- [1]
+		{
+			["date_end"] = "21:56:23",
+			["date_start"] = "21:52:56",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 207.008000000001,
+		}, -- [2]
+		{
+			["date_end"] = "21:50:48",
+			["date_start"] = "21:49:30",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 78.0030000000006,
+		}, -- [3]
+		{
+			["date_end"] = "21:47:31",
+			["date_start"] = "21:44:29",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 182.005,
 		}, -- [4]
 	},
 	["deaths_data"] = {
@@ -334,5 +335,4 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

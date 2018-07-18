@@ -1,17 +1,18 @@
 local Quester = LibStub("AceAddon-3.0"):NewAddon("Quester", "AceHook-3.0", "AceConsole-3.0", "LibSink-2.0")
 local L = LibStub("AceLocale-3.0"):GetLocale("Quester")
 
-local db, taintWarned
+local db
 local defaults = {
 	profile = {
 		-- options
-		questLevels = true,
+		questLevels = false,
 		removeComplete = true,
 		highlightReward = true,
 		trackerMovable = false,
 		showObjectivePercentages = true,
 		hide01 = true,
 		shortenNumbers = false,
+		showTagIcons = false,
 
 		-- coloring
 		gossipColor = true,
@@ -49,14 +50,18 @@ do
 
 	local function GetMatcher(pattern)
 		local permuteFn = loadstring(GetPermute3(pattern))()
+		local pattern_opt = OPTIONAL_QUEST_OBJECTIVE_DESCRIPTION:format(pattern)
 		local match_pattern = "^" .. pattern:gsub("%(","%%("):gsub("%)", "%%)"):gsub("(%%%d?$?d)", "(.-)"):gsub("(%%%d?$?[^()])", "(.+)") .. "$"
-		return function(text) return permuteFn(text:match(match_pattern)) end
+		local match_pattern_opt = "^" .. pattern_opt:gsub("%(","%%("):gsub("%)", "%%)"):gsub("(%%%d?$?d)", "(.-)"):gsub("(%%%d?$?[^()])", "(.+)") .. "$"
+		return function(text) local a,b,c = permuteFn(text:match(match_pattern_opt)) if not a then a,b,c = permuteFn(text:match(match_pattern)) end return a,b,c end
 	end
 
 	local function GetMatcherNonGreedy(pattern, greedyComponent)
 		local permuteFn = loadstring(GetPermute3(pattern))()
+		local pattern_opt = OPTIONAL_QUEST_OBJECTIVE_DESCRIPTION:format(pattern)
 		local match_pattern = "^" .. pattern:gsub("%(","%%("):gsub("%)", "%%)"):gsub("(%%%d?$?d)", "(.-)"):gsub(("(%%%%%d$[^()])"):format(greedyComponent), "(.+)"):gsub("(%%%d?$?[^()])", "(.-)") .. "$"
-		return function(text) return permuteFn(text:match(match_pattern)) end
+		local match_pattern_opt = "^" .. pattern_opt:gsub("%(","%%("):gsub("%)", "%%)"):gsub("(%%%d?$?d)", "(.-)"):gsub(("(%%%%%d$[^()])"):format(greedyComponent), "(.+)"):gsub("(%%%d?$?[^()])", "(.-)") .. "$"
+		return function(text) local a,b,c = permuteFn(text:match(match_pattern_opt)) if not a then a,b,c = permuteFn(text:match(match_pattern)) end return a,b,c end
 	end
 
 	MatchObject = GetMatcher(QUEST_OBJECTS_FOUND)
@@ -127,27 +132,61 @@ end
 
 local function GetTaggedTitle(i, color, tag)
 	if not i or i == 0 then return nil end
-	local title, level, groupSize, isHeader, isCollapsed, isComplete, frequency, questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isBounty, isStory = GetQuestLogTitle(i)
+	local title, level, groupSize, isHeader, isCollapsed, isComplete, frequency, questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling = GetQuestLogTitle(i)
 	if not isHeader and title then
 		local tagString = tag and GetQuestTag(groupSize, frequency, GetQuestTagInfo(questID)) or ""
 		if color then
 			if db.questLevels then
-				title = format("|cff%s[%s%s] %s|r", rgb2hex(GetQuestDifficultyColor(level)), level, tagString, title)
+				title = format("|cff%s[%s%s] %s|r", rgb2hex(GetQuestDifficultyColor(level, isScaling)), level, tagString, title)
 			else
-				title = format("|cff%s%s|r", rgb2hex(GetQuestDifficultyColor(level)), title)
+				title = format("|cff%s%s|r", rgb2hex(GetQuestDifficultyColor(level, isScaling)), title)
 			end
 		elseif db.questLevels then
 			title = format("[%s%s] %s", level, tagString, title)
 		end
 	end
-	return title, level, groupSize, isHeader, isCollapsed, isComplete, frequency, questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isBounty, isStory
+	return title, level, groupSize, isHeader, isCollapsed, isComplete, frequency, questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling
 end
 
 local function GetChatTaggedTitle(i)
 	if not i or i == 0 then return nil end
-	local title, level, groupSize, isHeader, isCollapsed, isComplete, frequency, questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isBounty, isStory = GetQuestLogTitle(i)
+	local title, level, groupSize, isHeader, isCollapsed, isComplete, frequency, questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling = GetQuestLogTitle(i)
 	if isHeader or not title then return end
 	return format("(%s%s) %s", level, GetQuestTag(groupSize, frequency), title)
+end
+
+local function GetQuestTagTexCoords(i)
+	if not i or i == 0 then return nil end
+	local title, level, groupSize, isHeader, isCollapsed, isComplete, frequency, questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling = GetQuestLogTitle(i)
+
+	local tagID
+	local questTagID, tagName = GetQuestTagInfo(questID)
+	if questTagID and questTagID == QUEST_TAG_ACCOUNT then
+		local factionGroup = GetQuestFactionGroup(questID)
+		if factionGroup then
+			tagID = "ALLIANCE"
+			if factionGroup == LE_QUEST_FACTION_HORDE then
+				tagID = "HORDE"
+			end
+		else
+			tagID = QUEST_TAG_ACCOUNT
+		end
+	elseif frequency == LE_QUEST_FREQUENCY_DAILY and (not isComplete or isComplete == 0) then
+		tagID = "DAILY"
+	elseif frequency == LE_QUEST_FREQUENCY_WEEKLY and (not isComplete or isComplete == 0)then
+		tagID = "WEEKLY"
+	elseif questTagID then
+		tagID = questTagID
+	elseif C_CampaignInfo.IsCampaignQuest(questID) then
+		local faction = UnitFactionGroup("player")
+		tagID = faction == "Horde" and "HORDE" or "ALLIANCE"
+	end
+
+	if tagID and QUEST_TAG_TCOORDS[tagID] then
+		return QUEST_TAG_TCOORDS[tagID]
+	end
+
+	return nil
 end
 
 -- faction data for reputation quests
@@ -239,6 +278,14 @@ local function getOptionsTable()
 				type = "toggle",
 				arg = "shortenNumbers",
 				order = 4.6,
+				width = "full",
+			},
+			showTagIcons = {
+				name = L["Show Quest Tag Icons in the Objective Tracker"],
+				desc = L["Allows easy identification of daily/weekly quests, as well as raid and dungeon quests."],
+				type = "toggle",
+				arg = "showTagIcons",
+				order = 4.7,
 				width = "full",
 			},
 			colorheader = {
@@ -833,8 +880,7 @@ function Quester:OnTooltipSetItem(tooltip, ...)
 end
 
 function Quester:QuestLogQuests_Update()
-	for i = 1, #QuestMapFrame.QuestsFrame.Contents.Titles do
-		local button = QuestMapFrame.QuestsFrame.Contents.Titles[i]
+	for button in QuestScrollFrame.titleFramePool:EnumerateActive() do
 		if button and button:IsShown() then
 			local text = GetTaggedTitle(button.questLogIndex, false, false)
 
@@ -866,6 +912,7 @@ function Quester:QuestLogQuests_Update()
 			button:SetHeight(totalHeight)
 		end
 	end
+	QuestScrollFrame.Contents:Layout()
 end
 
 function Quester:UpdateObjectiveTracker(tracker)
@@ -880,11 +927,30 @@ end
 
 function Quester:QuestTrackerHeaderSetText(HeaderText, text)
 	local block = HeaderText:GetParent()
+	if HeaderText.__QuesterTagIcon then
+		HeaderText.__QuesterTagIcon:Hide()
+	end
 	if block.__QuesterQuestTracker and block.id then
 		local questLogIndex = GetQuestLogIndexByID(block.id)
 		if questLogIndex then
 			text = GetTaggedTitle(questLogIndex, db.questTrackerColor, true)
 			HeaderText:__QuesterSetText(text)
+
+			if db.showTagIcons then
+				local tag = GetQuestTagTexCoords(questLogIndex)
+				if tag then
+					if not HeaderText.__QuesterTagIcon then
+						HeaderText.__QuesterTagIcon = block:CreateTexture(nil, "ARTWORK")
+						HeaderText.__QuesterTagIcon:SetSize(18, 18)
+						HeaderText.__QuesterTagIcon:SetTexture("Interface\\QuestFrame\\QuestTypeIcons")
+						HeaderText.__QuesterTagIcon:SetPoint("TOP", HeaderText, "TOP", 0, 3)
+						HeaderText.__QuesterTagIcon:SetPoint("LEFT", HeaderText, "RIGHT", -2, 0)
+					end
+					HeaderText.__QuesterTagIcon:SetTexCoord(unpack(tag))
+					HeaderText.__QuesterTagIcon:Show()
+					HeaderText:SetWidth((block.lineWidth or OBJECTIVE_TRACKER_TEXT_WIDTH) - 6)
+				end
+			end
 		end
 	end
 end
@@ -898,15 +964,6 @@ function Quester:QuestTrackerGetBlock(mod, questID)
 			block.__QuesterHooked = true
 		end
 		block.__QuesterQuestTracker = true
-
-		-- taint check
-		local isSecure, addon = issecurevariable(block, "id")
-		if not isSecure and not taintWarned then
-			if not IsAddOnLoaded("!QuestItemButtonFix") then
-				self:Print("Quest Tracker tainted by " .. tostring(addon))
-			end
-			taintWarned = true
-		end
 	end
 end
 
@@ -914,8 +971,27 @@ function Quester:QuestTrackerOnFreeBlock(mod, block)
 	block.__QuesterQuestTracker = nil
 end
 
+local function shorten_numbers(cur, total)
+	if db.hide01 and total == "1" then
+		return ""
+	end
+	if db.shortenNumbers then
+		return tostring(total-cur).." "
+	end
+end
+
+local function shorten_numbers_opt(opt, cur, total)
+	local s = shorten_numbers(cur, total)
+	if s then
+		return ("%s %s"):format(opt, s)
+	end
+end
+
+local objective_count = "^(%d+)/(%d+) "
+local objective_count_opt = "^" .. OPTIONAL_QUEST_OBJECTIVE_DESCRIPTION:format("QuesterPattern"):gsub("%(", "%(%%("):gsub("%)", "%%)%)"):gsub("QuesterPattern", "(%%d+)/(%%d+) ")
+
 function Quester:ObjectiveTracker_AddObjective(obj, block, objectiveKey, text, lineType, useFullHeight, hideDash, colorStyle)
-	if obj.ShowWorldQuests and colorStyle == OBJECTIVE_TRACKER_COLOR["Header"] then
+	if colorStyle == OBJECTIVE_TRACKER_COLOR["Header"] then
 		if db.questTrackerColor then
 			text = select(4, GetTaskInfo(block.id))
 			if text then
@@ -927,14 +1003,7 @@ function Quester:ObjectiveTracker_AddObjective(obj, block, objectiveKey, text, l
 		if progress[text] then
 			local newText
 			if db.shortenNumbers or db.hide01 then
-				newText = text:gsub("^(%d+)/(%d+) ", function(cur, total)
-					if db.hide01 and total == "1" then
-						return ""
-					end
-					if db.shortenNumbers then
-						return tostring(total-cur).." "
-					end
-				end)
+				newText = text:gsub(objective_count, shorten_numbers):gsub(objective_count_opt, shorten_numbers_opt)
 			end
 			local line = obj:GetLine(block, objectiveKey, lineType)
 			line.Text:SetText(format("|cff%s%s|r", rgb2hex(ColorGradient(progress[text].perc, 1,0,0, 1,1,0, 0,1,0)), newText or text))

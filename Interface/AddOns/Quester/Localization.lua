@@ -8,6 +8,7 @@ debug = true
 --@end-debug@]===]
 
 local L = LibStub("AceLocale-3.0"):NewLocale("Quester", "enUS", true, debug)
+L["Allows easy identification of daily/weekly quests, as well as raid and dungeon quests."] = true
 L["Always show objective percentage values on progress bars"] = true
 L["Behavior Configuration"] = true
 L["Configure the sounds you want to hear with the toggles below."] = true
@@ -33,6 +34,7 @@ L["Reset Position"] = true
 L["Reset the position of the Objective Tracker to the default."] = true
 L["Select the set of sounds to use."] = true
 L["Show Quest Level"] = true
+L["Show Quest Tag Icons in the Objective Tracker"] = true
 L["Sound Configuration"] = true
 L["Sound Set"] = true
 L["Toggle if completing a quest should automatically remove it from the tracker."] = true
@@ -81,6 +83,7 @@ end
 
 L = LibStub("AceLocale-3.0"):NewLocale("Quester", "frFR")
 if L then
+L["Allows easy identification of daily/weekly quests, as well as raid and dungeon quests."] = "Autoriser l'identification facile des quêtes journalières et hebdomadaires, ainsi que les quêtes de raid et de donjons."
 L["Always show objective percentage values on progress bars"] = "Toujours afficher le pourcentage sur les barres de progression"
 L["Behavior Configuration"] = "Configuration du comportement"
 L["Configure the sounds you want to hear with the toggles below."] = "Configurez les sons que vous souhaitez entendre avec les options ci-dessous."
@@ -91,14 +94,17 @@ L["Enable the coloring of quests according to their difficulty on NPC Gossip fra
 L["Gossip frames"] = "Fenêtres de conversation"
 L["Highlight most valuable reward"] = "Mettre en évidence la récompense la plus profitable"
 L["Highlight the reward with the highest vendor value when completing a quest."] = "Met en évidence la récompense ayant la plus haute valeur de revente aux marchands."
+L["Instead of 2/8, show 6"] = "Au lieu de 2/8, afficher 6"
 L["Job's Done!"] = "Travail terminé !"
 L["Lock the Objective Tracker in place"] = "Verrouiller le suivi des objectifs à sa place actuelle"
 L["More Work?!"] = "Encore du travail ?!"
 L["Note: Changing this option may require your UI to be reloaded to take full effect."] = "Note : modifier cette option peut nécessiter de recharger votre IU afin qu'elle prenne effet."
+L["Only show number of objective items remaining"] = "Afficher uniquement le nombre d'objets de quête manquants"
 L["Peasant"] = "Paysan"
 L["Peon"] = "Péon"
 L["Progress Output"] = "Sortie de la progression"
 L["Quest Tracker"] = "Suivi de quêtes"
+L["Remove numbers from single task objectives"] = "Retirer les nombres des objectifs à tâche unique"
 L["Reset Position"] = "RàZ de la position"
 L["Reset the position of the Objective Tracker to the default."] = "Réinitialise la position du suivi des objectifs."
 L["Select the set of sounds to use."] = "Sélectionner l'ensemble de sons à utiliser."
