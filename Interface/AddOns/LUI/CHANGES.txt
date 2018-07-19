@@ -1,5 +1,104 @@
 ------------------------------------------------------------------------
-r830 | Chaoslux | 2017-10-02 04:02:15 -0500 (Mon, 02 Oct 2017) | 3 lines
+r836 | kitkeh | 2018-07-19 08:36:09 +0000 (Thu, 19 Jul 2018) | 1 line
+Changed paths:
+   A /trunk/media/templates/v3/panelborderv.tga
+   M /trunk/modules/minimap.lua
+
+I'm a derp. I broke the minimap. This forwards back to the one from the Discord zip file but restores lots of "self"s which should fix the hide/show button.
+------------------------------------------------------------------------
+r835 | kitkeh | 2018-07-19 07:08:15 +0000 (Thu, 19 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/LUI.lua
+   M /trunk/LUI.toc
+   M /trunk/LUI.xml
+   M /trunk/addons/bartender.lua
+   M /trunk/addons/details.lua
+   M /trunk/addons/forte.lua
+   M /trunk/debug.lua
+   M /trunk/devapi.lua
+   M /trunk/docs/License.txt
+   M /trunk/init.lua
+   M /trunk/locale/enUS.lua
+   M /trunk/locale/locale-deDE.lua
+   M /trunk/locale/locale-esES.lua
+   M /trunk/locale/locale-esMX.lua
+   M /trunk/locale/locale-frFR.lua
+   M /trunk/locale/locale-itIT.lua
+   M /trunk/locale/locale-koKR.lua
+   M /trunk/locale/locale-ptBR.lua
+   M /trunk/locale/locale-ruRu.lua
+   M /trunk/locale/locale-zhCN.lua
+   M /trunk/locale/locale-zhTW.lua
+   M /trunk/locale/locale.xml
+   M /trunk/modules/auras/auras.lua
+   M /trunk/modules/bags.lua
+   M /trunk/modules/buffs.lua
+   M /trunk/modules/chat.lua
+   M /trunk/modules/cooldown.lua
+   M /trunk/modules/datatext.lua
+   M /trunk/modules/fader.lua
+   M /trunk/modules/faq.lua
+   M /trunk/modules/frames.lua
+   M /trunk/modules/interruptannouncer.lua
+   M /trunk/modules/micromenu.lua
+   M /trunk/modules/minimap.lua
+   M /trunk/modules/mirrorbar.lua
+   M /trunk/modules/nameplates.lua
+   M /trunk/modules/orb.lua
+   M /trunk/modules/panels.lua
+   M /trunk/modules/raidmenu.lua
+   M /trunk/modules/removethatbuff.lua
+   M /trunk/modules/swing.lua
+   M /trunk/modules/themes.lua
+   M /trunk/modules/threatbar.lua
+   M /trunk/modules/tooltip.lua
+   M /trunk/modules/vengeance.lua
+   M /trunk/scripts/partyfix.lua
+   M /trunk/unitframes/core/elements/altpowerbar.lua
+   M /trunk/unitframes/core/elements/aura.lua
+   M /trunk/unitframes/core/elements/castbar.lua
+   M /trunk/unitframes/core/elements/classicons.lua
+   M /trunk/unitframes/core/elements/eclipsebar.lua
+   M /trunk/unitframes/core/elements/power.lua
+   M /trunk/unitframes/core/elements/powerprediction.lua
+   M /trunk/unitframes/core/elements/pvp.lua
+   M /trunk/unitframes/core/elements/tags.lua
+   M /trunk/unitframes/layout/layout.lua
+   M /trunk/unitframes/layout/tags.lua
+   M /trunk/unitframes/plugins/arcanecharges.lua
+   M /trunk/unitframes/plugins/chi.lua
+   M /trunk/unitframes/plugins/holypower.lua
+   M /trunk/unitframes/plugins/shadoworbs.lua
+   M /trunk/unitframes/plugins/warlockbar.lua
+
+First major push for Battle for Azeroth. Many changes, updates, fixes, bugs introduced, bugs fixed, bugs reintroduced, working as intended.
+------------------------------------------------------------------------
+r834 | kitkeh | 2017-12-05 07:49:17 +0000 (Tue, 05 Dec 2017) | 1 line
+Changed paths:
+   M /trunk/modules/datatext.lua
+
+Update Friends module, tidy code, remove hard coded icon paths, use API calls, add Destiny2 to list.
+------------------------------------------------------------------------
+r833 | Chaoslux | 2017-11-26 23:46:16 +0000 (Sun, 26 Nov 2017) | 1 line
+Changed paths:
+   M /trunk/modules/artwork.lua
+   M /trunk/modules/frames.lua
+
+- Finally added a fully functional option to disable the orb. 
+------------------------------------------------------------------------
+r832 | Chaoslux | 2017-11-26 22:11:53 +0000 (Sun, 26 Nov 2017) | 1 line
+Changed paths:
+   M /trunk/LUI.lua
+
+- Bumped Live Build number to reflect the 7.3.2 patch
+------------------------------------------------------------------------
+r831 | Chaoslux | 2017-11-26 19:30:49 +0000 (Sun, 26 Nov 2017) | 1 line
+Changed paths:
+   M /trunk/unitframes/options/colors.lua
+
+- Added Demon Hunter colors. How were they missing for so long.
+------------------------------------------------------------------------
+r830 | Chaoslux | 2017-10-02 09:02:15 +0000 (Mon, 02 Oct 2017) | 3 lines
 Changed paths:
    M /trunk/LUI.lua
    M /trunk/LUI.toc
@@ -25,20 +124,20 @@ Changed paths:
 - Bunch of file endings again.
 - Removed a dead file.
 ------------------------------------------------------------------------
-r829 | Chaoslux | 2017-08-30 04:37:35 -0500 (Wed, 30 Aug 2017) | 1 line
+r829 | Chaoslux | 2017-08-30 09:37:35 +0000 (Wed, 30 Aug 2017) | 1 line
 Changed paths:
    M /trunk/LUI.lua
    M /trunk/LUI.toc
 
 - TOC/Version bump for 7.3
 ------------------------------------------------------------------------
-r828 | Chaoslux | 2017-08-24 12:16:17 -0500 (Thu, 24 Aug 2017) | 1 line
+r828 | Chaoslux | 2017-08-24 17:16:17 +0000 (Thu, 24 Aug 2017) | 1 line
 Changed paths:
    M /trunk/LUI.lua
 
 - Updated Build
 ------------------------------------------------------------------------
-r827 | Chaoslux | 2017-08-24 12:00:48 -0500 (Thu, 24 Aug 2017) | 1 line
+r827 | Chaoslux | 2017-08-24 17:00:48 +0000 (Thu, 24 Aug 2017) | 1 line
 Changed paths:
    M /trunk/modules/auras/auras.lua
    M /trunk/modules/auras/auras.xml
@@ -83,39 +182,39 @@ Changed paths:
 
 - I apparently never committed these changes before, so here we go. 
 ------------------------------------------------------------------------
-r826 | Chaoslux | 2017-08-24 03:25:08 -0500 (Thu, 24 Aug 2017) | 1 line
+r826 | Chaoslux | 2017-08-24 08:25:08 +0000 (Thu, 24 Aug 2017) | 1 line
 Changed paths:
    M /trunk/LUI.lua
    M /trunk/modules/bags.lua
 
 - Fix for 7.3 PlaySound
 ------------------------------------------------------------------------
-r825 | Chaoslux | 2017-06-18 00:51:28 -0500 (Sun, 18 Jun 2017) | 1 line
+r825 | Chaoslux | 2017-06-18 05:51:28 +0000 (Sun, 18 Jun 2017) | 1 line
 Changed paths:
    M /trunk/LUI.xml
    D /trunk/bugcatcher.lua
 
 - Removed BugCatcher hook, as they updated the entire system to be incompatible with LUI's hook. 
 ------------------------------------------------------------------------
-r824 | kitkeh | 2017-06-07 02:02:58 -0500 (Wed, 07 Jun 2017) | 1 line
+r824 | kitkeh | 2017-06-07 07:02:58 +0000 (Wed, 07 Jun 2017) | 1 line
 Changed paths:
    M /trunk/modules/datatext.lua
 
 - Info Text: Add Loot Specialization option (as requested by Kedik)
 ------------------------------------------------------------------------
-r823 | kitkeh | 2017-06-05 06:26:01 -0500 (Mon, 05 Jun 2017) | 1 line
+r823 | kitkeh | 2017-06-05 11:26:01 +0000 (Mon, 05 Jun 2017) | 1 line
 Changed paths:
    M /trunk/modules/minimap.lua
 
 - Minor bug fix to minimap frames. The Enable checkbox for the AlwaysUpFrame should not be disabled when you disable the module. Thanks Rose. :)
 ------------------------------------------------------------------------
-r822 | kitkeh | 2017-06-05 06:22:26 -0500 (Mon, 05 Jun 2017) | 1 line
+r822 | kitkeh | 2017-06-05 11:22:26 +0000 (Mon, 05 Jun 2017) | 1 line
 Changed paths:
    M /trunk/modules/datatext.lua
 
 - Minor bugfix to Equipped Sets Info Text display. Added option to configure the text prefix.
 ------------------------------------------------------------------------
-r821 | Chaoslux | 2017-06-03 21:33:35 -0500 (Sat, 03 Jun 2017) | 7 lines
+r821 | Chaoslux | 2017-06-04 02:33:35 +0000 (Sun, 04 Jun 2017) | 7 lines
 Changed paths:
    M /trunk/unitframes/layout/layout.lua
    M /trunk/unitframes/options/colors.lua
@@ -129,7 +228,7 @@ Changed paths:
 - Unitframes: Color Power color is correctly named, instead of "Part 1"
 - Unitframes: Changing the color for the Class power will now correctly change the color for the background without requiring a reload.
 ------------------------------------------------------------------------
-r820 | Chaoslux | 2017-06-03 15:20:21 -0500 (Sat, 03 Jun 2017) | 2 lines
+r820 | Chaoslux | 2017-06-03 20:20:21 +0000 (Sat, 03 Jun 2017) | 2 lines
 Changed paths:
    M /trunk/unitframes/defaults/raid.lua
    M /trunk/unitframes/layout/layout.lua
@@ -141,31 +240,31 @@ Changed paths:
 - Unitframes: Fixed bug where disabling Soul Shards, Arcane Charges, Chi or Holy Power would not hide the bar.
 - Unitframes: Removed a bunch of dormant WoD code.
 ------------------------------------------------------------------------
-r819 | kitkeh | 2017-06-02 01:25:44 -0500 (Fri, 02 Jun 2017) | 1 line
+r819 | kitkeh | 2017-06-02 06:25:44 +0000 (Fri, 02 Jun 2017) | 1 line
 Changed paths:
    M /trunk/modules/datatext.lua
 
 - Add a basic Equipment Sets Info Text module (as requested by Kedik) to show which set you have equipped. Only works with the in-built equipment manager.
 ------------------------------------------------------------------------
-r818 | kitkeh | 2017-05-20 03:19:36 -0500 (Sat, 20 May 2017) | 1 line
+r818 | kitkeh | 2017-05-20 08:19:36 +0000 (Sat, 20 May 2017) | 1 line
 Changed paths:
    M /trunk/modules/threatbar.lua
 
 - Minor update to Paragon reputation, bar now shows progress to next cache after you've received your first.
 ------------------------------------------------------------------------
-r817 | kitkeh | 2017-04-24 03:50:53 -0500 (Mon, 24 Apr 2017) | 1 line
+r817 | kitkeh | 2017-04-24 08:50:53 +0000 (Mon, 24 Apr 2017) | 1 line
 Changed paths:
    M /trunk/modules/threatbar.lua
 
 Remove redundant inner local definition which overwrites the outer definition with a zero value.
 ------------------------------------------------------------------------
-r816 | Chaoslux | 2017-04-16 15:20:08 -0500 (Sun, 16 Apr 2017) | 1 line
+r816 | Chaoslux | 2017-04-16 20:20:08 +0000 (Sun, 16 Apr 2017) | 1 line
 Changed paths:
    M /trunk/modules/panels.lua
 
 - Panels: Automatically update Details' Additional Frames. 
 ------------------------------------------------------------------------
-r815 | Chaoslux | 2017-04-16 14:58:57 -0500 (Sun, 16 Apr 2017) | 3 lines
+r815 | Chaoslux | 2017-04-16 19:58:57 +0000 (Sun, 16 Apr 2017) | 3 lines
 Changed paths:
    M /trunk/addons/details.lua
    M /trunk/modules/panels.lua
@@ -174,13 +273,13 @@ Changed paths:
 - Panels: Added template for 2nd Details Windows.
 - Panels: Choosing Details template will now automatically add the additional frame in there. 
 ------------------------------------------------------------------------
-r814 | Chaoslux | 2017-04-16 13:56:11 -0500 (Sun, 16 Apr 2017) | 1 line
+r814 | Chaoslux | 2017-04-16 18:56:11 +0000 (Sun, 16 Apr 2017) | 1 line
 Changed paths:
    M /trunk/LUI.toc
 
 - Changing to version 3.9.14
 ------------------------------------------------------------------------
-r813 | Chaoslux | 2017-04-16 13:55:11 -0500 (Sun, 16 Apr 2017) | 2 lines
+r813 | Chaoslux | 2017-04-16 18:55:11 +0000 (Sun, 16 Apr 2017) | 2 lines
 Changed paths:
    M /trunk/LUI.lua
    M /trunk/addons/details.lua
@@ -189,7 +288,7 @@ Changed paths:
 - Details Support: Fixed Y OFfset not being adjusted properly
 - Core: Fixed issue preventing installation if Details is found. 
 ------------------------------------------------------------------------
-r812 | Chaoslux | 2017-04-16 01:06:39 -0500 (Sun, 16 Apr 2017) | 3 lines
+r812 | Chaoslux | 2017-04-16 06:06:39 +0000 (Sun, 16 Apr 2017) | 3 lines
 Changed paths:
    M /trunk/LUI.lua
    M /trunk/LUI.toc
@@ -199,105 +298,105 @@ Changed paths:
 - Updated Patrons in Thanks section
 - Moved the Revision code to a file that isnt going to see much updates, to reduce the chances of accidentally overwriting it.
 ------------------------------------------------------------------------
-r811 | Chaoslux | 2017-04-15 22:15:22 -0500 (Sat, 15 Apr 2017) | 1 line
+r811 | Chaoslux | 2017-04-16 03:15:22 +0000 (Sun, 16 Apr 2017) | 1 line
 Changed paths:
    M /trunk/LUI.lua
 
 - Core: Due to changes in Curse packaging, change the way we display version revision.
 ------------------------------------------------------------------------
-r810 | Chaoslux | 2017-04-15 04:05:24 -0500 (Sat, 15 Apr 2017) | 1 line
+r810 | Chaoslux | 2017-04-15 09:05:24 +0000 (Sat, 15 Apr 2017) | 1 line
 Changed paths:
    M /trunk/LUI.lua
 
 - Options: Under General>Addons, do not show retore buttons for addons that aren't loaded.
 ------------------------------------------------------------------------
-r809 | Chaoslux | 2017-04-15 03:22:09 -0500 (Sat, 15 Apr 2017) | 1 line
+r809 | Chaoslux | 2017-04-15 08:22:09 +0000 (Sat, 15 Apr 2017) | 1 line
 Changed paths:
    M /trunk/addons/details.lua
 
 - Details Support: Make sure to reset the DPS Panel' anchor to be Details when pressing "Restore Details"
 ------------------------------------------------------------------------
-r808 | Chaoslux | 2017-04-15 02:50:42 -0500 (Sat, 15 Apr 2017) | 1 line
+r808 | Chaoslux | 2017-04-15 07:50:42 +0000 (Sat, 15 Apr 2017) | 1 line
 Changed paths:
    M /trunk/addons/details.lua
 
 - Added Details skin that actually works with LUI. To see the results, you need to do "Reset Details" in General> Addons
 ------------------------------------------------------------------------
-r807 | Chaoslux | 2017-04-15 00:24:00 -0500 (Sat, 15 Apr 2017) | 2 lines
+r807 | Chaoslux | 2017-04-15 05:24:00 +0000 (Sat, 15 Apr 2017) | 2 lines
 Changed paths:
    M /trunk/modules/datatext.lua
 
 - Infotext:Dualspec no longer sets a backdrop for the icon. Now uses :SetNormalTexture. Fixes green square issues.
 - Infotext:Dualspec now trigger the Specialization frame when you click on it.
 ------------------------------------------------------------------------
-r806 | Chaoslux | 2017-03-29 01:03:03 -0500 (Wed, 29 Mar 2017) | 1 line
+r806 | Chaoslux | 2017-03-29 06:03:03 +0000 (Wed, 29 Mar 2017) | 1 line
 Changed paths:
    M /trunk/modules/tooltip.lua
 
 - Tooltip: Added special handling for Broken Shore Contribution table tooltips. 
 ------------------------------------------------------------------------
-r805 | Chaoslux | 2017-03-28 18:35:02 -0500 (Tue, 28 Mar 2017) | 1 line
+r805 | Chaoslux | 2017-03-28 23:35:02 +0000 (Tue, 28 Mar 2017) | 1 line
 Changed paths:
    M /trunk/modules/threatbar.lua
 
 - Reputation: Added support for Paragon Reputation. After reaching Exalted, the bar will show Paragon Rep and the text will display "Pa" for any faction that supports the system.
 ------------------------------------------------------------------------
-r804 | Chaoslux | 2017-03-28 17:57:27 -0500 (Tue, 28 Mar 2017) | 1 line
+r804 | Chaoslux | 2017-03-28 22:57:27 +0000 (Tue, 28 Mar 2017) | 1 line
 Changed paths:
    M /trunk/modules/tooltip.lua
 
 - Tooltip: Make sure to skin the Paragon Reputation Tooltip. 
 ------------------------------------------------------------------------
-r803 | Chaoslux | 2017-03-28 17:39:20 -0500 (Tue, 28 Mar 2017) | 1 line
+r803 | Chaoslux | 2017-03-28 22:39:20 +0000 (Tue, 28 Mar 2017) | 1 line
 Changed paths:
    M /trunk/modules/threatbar.lua
    M /trunk/unitframes/layout/layout.lua
 
 - Reputation: Blizzard changed the way Exalted Reputation works, this fixes the issues with display any tracked reputation that is currently at exalted.
 ------------------------------------------------------------------------
-r802 | Chaoslux | 2017-03-28 16:47:31 -0500 (Tue, 28 Mar 2017) | 1 line
+r802 | Chaoslux | 2017-03-28 21:47:31 +0000 (Tue, 28 Mar 2017) | 1 line
 Changed paths:
    M /trunk/modules/threatbar.lua
 
 - Artifact Bar: Now grab information on the artifact's tier, fixes issues with the bar not showing.
 ------------------------------------------------------------------------
-r801 | Chaoslux | 2017-01-23 13:32:22 -0600 (Mon, 23 Jan 2017) | 1 line
+r801 | Chaoslux | 2017-01-23 19:32:22 +0000 (Mon, 23 Jan 2017) | 1 line
 Changed paths:
    M /trunk/unitframes/layout/layout.lua
 
 - Unitframes: Rogues with Anticipation have 10 combo points (up from 8) as of 7.1.5
 ------------------------------------------------------------------------
-r800 | Chaoslux | 2017-01-11 00:54:39 -0600 (Wed, 11 Jan 2017) | 1 line
+r800 | Chaoslux | 2017-01-11 06:54:39 +0000 (Wed, 11 Jan 2017) | 1 line
 Changed paths:
    M /trunk/LUI.toc
 
 - Bump TOC to 3.9.12
 ------------------------------------------------------------------------
-r799 | Chaoslux | 2017-01-10 05:28:26 -0600 (Tue, 10 Jan 2017) | 1 line
+r799 | Chaoslux | 2017-01-10 11:28:26 +0000 (Tue, 10 Jan 2017) | 1 line
 Changed paths:
    M /trunk/modules/cooldown/cooldown.lua
 
 - Cooldown: You can now specify text alignment, thanks to Tonkah
 ------------------------------------------------------------------------
-r798 | Chaoslux | 2017-01-10 05:21:22 -0600 (Tue, 10 Jan 2017) | 1 line
+r798 | Chaoslux | 2017-01-10 11:21:22 +0000 (Tue, 10 Jan 2017) | 1 line
 Changed paths:
    M /trunk/unitframes/layout/layout.lua
 
 - Unitframes: Updated Mind Sear and Drain Life Spell IDs for 7.1.5
 ------------------------------------------------------------------------
-r797 | Chaoslux | 2016-11-24 19:24:21 -0600 (Thu, 24 Nov 2016) | 1 line
+r797 | Chaoslux | 2016-11-25 01:24:21 +0000 (Fri, 25 Nov 2016) | 1 line
 Changed paths:
    M /trunk/.pkgmeta
 
 - Removed the BT4 packaging due to issues with repos. BT4 still highly recommended.
 ------------------------------------------------------------------------
-r796 | Chaoslux | 2016-11-24 03:54:43 -0600 (Thu, 24 Nov 2016) | 1 line
+r796 | Chaoslux | 2016-11-24 09:54:43 +0000 (Thu, 24 Nov 2016) | 1 line
 Changed paths:
    M /trunk/unitframes/layout/layout.lua
 
 - Unitframes: Potential fix for the integer overflow error on Helya.
 ------------------------------------------------------------------------
-r795 | chaoslux | 2016-10-31 23:52:09 -0500 (Mon, 31 Oct 2016) | 3 lines
+r795 | chaoslux | 2016-11-01 04:52:09 +0000 (Tue, 01 Nov 2016) | 3 lines
 Changed paths:
    M /trunk/unitframes/layout/layout.lua
 
@@ -305,7 +404,7 @@ Changed paths:
 
 This change was submitted by Fruitmix.
 ------------------------------------------------------------------------
-r794 | chaoslux | 2016-10-28 18:41:21 -0500 (Fri, 28 Oct 2016) | 3 lines
+r794 | chaoslux | 2016-10-28 23:41:21 +0000 (Fri, 28 Oct 2016) | 3 lines
 Changed paths:
    M /trunk/unitframes/defaults/target.lua
    M /trunk/unitframes/layout/layout.lua

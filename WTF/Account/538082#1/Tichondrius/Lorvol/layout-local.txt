@@ -41,10 +41,3 @@ X: 32
 Y: 96
 W: 925
 H: 600
-Frame: ImmersionToast
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -351
-Y: -259
-W: 235
-H: 25

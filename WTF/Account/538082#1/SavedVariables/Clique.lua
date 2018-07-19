@@ -9,30 +9,38 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 		},
-		["Amranar - Proudmoore"] = {
-			["spec1_profileKey"] = "Druid - Balance",
-			["spec2_profileKey"] = "Druid - Feral",
+		["Rahran - Proudmoore"] = {
+			["spec1_profileKey"] = "Rahran - Proudmoore",
+			["spec3_profileKey"] = "Rahran - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec4_profileKey"] = "Druid - Resto",
-			["specswap"] = true,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Rahran - Proudmoore",
+		},
+		["Amranar - Proudmoore"] = {
+			["spec1_profileKey"] = "Druid - Balance",
 			["spec3_profileKey"] = "Druid - Guardian",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Druid - Feral",
+			["specswap"] = true,
+			["spec4_profileKey"] = "Druid - Resto",
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
-			["spec3_profileKey"] = "Shaman - Resto",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["specswap"] = true,
 			["spec2_profileKey"] = "Shaman - Resto",
-		},
-		["Rahran - Proudmoore"] = {
-			["spec1_profileKey"] = "Rahran - Proudmoore",
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Rahran - Proudmoore",
 			["downclick"] = false,
-			["spec3_profileKey"] = "Rahran - Proudmoore",
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Shaman - Resto",
+			["specswap"] = true,
+		},
+		["Lorvol - Tichondrius"] = {
+			["spec1_profileKey"] = "Lorvol - Tichondrius",
+			["spec2_profileKey"] = "Lorvol - Tichondrius",
+			["downclick"] = false,
+			["fastooc"] = false,
 			["specswap"] = false,
+			["spec3_profileKey"] = "Lorvol - Tichondrius",
 		},
 		["Mallusof - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
@@ -62,43 +70,43 @@ CliqueDB3 = {
 		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
+			["spec3_profileKey"] = "Non-Healer",
+			["downclick"] = false,
+			["fastooc"] = false,
 			["spec2_profileKey"] = "Non-Healer",
-			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = true,
-			["spec3_profileKey"] = "Non-Healer",
-		},
-		["Fimwack - Proudmoore"] = {
-			["spec1_profileKey"] = "Fimwack - Proudmoore",
-			["spec2_profileKey"] = "Fimwack - Proudmoore",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["specswap"] = false,
-			["spec3_profileKey"] = "Fimwack - Proudmoore",
-		},
-		["Miriyal - Proudmoore"] = {
-			["spec1_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Monk - Mistweaver",
-			["specswap"] = true,
-		},
-		["Greybone - Proudmoore"] = {
-			["spec1_profileKey"] = "Greybone - Proudmoore",
-			["spec3_profileKey"] = "Greybone - Proudmoore",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Greybone - Proudmoore",
 		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
-			["spec3_profileKey"] = "Morifa - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
 			["spec2_profileKey"] = "Morifa - Proudmoore",
+			["spec3_profileKey"] = "Morifa - Proudmoore",
+		},
+		["Fimwack - Proudmoore"] = {
+			["spec1_profileKey"] = "Fimwack - Proudmoore",
+			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Fimwack - Proudmoore",
+			["spec2_profileKey"] = "Fimwack - Proudmoore",
+		},
+		["Greybone - Proudmoore"] = {
+			["spec1_profileKey"] = "Greybone - Proudmoore",
+			["spec2_profileKey"] = "Greybone - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Greybone - Proudmoore",
+			["specswap"] = false,
+		},
+		["Miriyal - Proudmoore"] = {
+			["spec1_profileKey"] = "Non-Healer",
+			["specswap"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Monk - Mistweaver",
 		},
 		["Faerand - Proudmoore"] = {
 			["spec1_profileKey"] = "Faerand - Proudmoore",
@@ -128,7 +136,7 @@ CliqueDB3 = {
 		["Faerand - Proudmoore"] = "Non-Healer",
 		["Rahran - Proudmoore"] = "Non-Healer",
 		["Farahn - Proudmoore"] = "Shaman - Resto",
-		["Mallusof - Tichondrius"] = "Priest - Holy",
+		["Mallusof - Tichondrius"] = "Priest - Shadow",
 		["Granjior - Proudmoore"] = "Non-Healer",
 		["Morifa - Proudmoore"] = "Non-Healer",
 		["Miriyal - Proudmoore"] = "Non-Healer",
@@ -240,7 +248,7 @@ CliqueDB3 = {
 				}, -- [9]
 			},
 		},
-		["Deminath - Hyjal"] = {
+		["Zethan - Tichondrius"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -270,15 +278,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["spell"] = "Purify",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135894,
-					["type"] = "spell",
-				}, -- [2]
-				{
 					["spell"] = "Dispel Magic",
 					["key"] = "BUTTON2",
 					["sets"] = {
@@ -286,7 +285,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136066,
 					["type"] = "spell",
-				}, -- [3]
+				}, -- [2]
 				{
 					["spell"] = "Binding Heal",
 					["key"] = "1",
@@ -295,7 +294,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135883,
 					["type"] = "spell",
-				}, -- [4]
+				}, -- [3]
 				{
 					["spell"] = "Heal",
 					["key"] = "SHIFT-3",
@@ -303,6 +302,15 @@ CliqueDB3 = {
 						["friend"] = true,
 					},
 					["icon"] = 135913,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Mass Dispel",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135739,
 					["type"] = "spell",
 				}, -- [5]
 				{
@@ -315,14 +323,23 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [6]
 				{
-					["spell"] = "Mass Dispel",
-					["key"] = "SHIFT-BUTTON2",
+					["spell"] = "Purify",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 135739,
+					["icon"] = 135894,
 					["type"] = "spell",
 				}, -- [7]
+				{
+					["spell"] = "Holy Word: Serenity",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135937,
+					["type"] = "spell",
+				}, -- [8]
 				{
 					["spell"] = "Prayer of Mending",
 					["key"] = "SHIFT-2",
@@ -331,23 +348,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 135944,
 					["type"] = "spell",
-				}, -- [8]
-				{
-					["spell"] = "Leap of Faith",
-					["key"] = "T",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 463835,
-					["type"] = "spell",
 				}, -- [9]
 				{
-					["spell"] = "Holy Word: Serenity",
-					["key"] = "F",
+					["spell"] = "Light of T'uure",
+					["key"] = "2",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 135937,
+					["icon"] = 1295540,
 					["type"] = "spell",
 				}, -- [10]
 				{
@@ -360,21 +368,21 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [11]
 				{
-					["spell"] = "Light of T'uure",
-					["key"] = "2",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 1295540,
-					["type"] = "spell",
-				}, -- [12]
-				{
 					["spell"] = "Prayer of Healing",
 					["key"] = "Q",
 					["sets"] = {
 						["friend"] = true,
 					},
 					["icon"] = 135943,
+					["type"] = "spell",
+				}, -- [12]
+				{
+					["spell"] = "Leap of Faith",
+					["key"] = "T",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 463835,
 					["type"] = "spell",
 				}, -- [13]
 				{
@@ -785,6 +793,25 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
+		["Deminath - Hyjal"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Priest - Disc"] = {
 			["bindings"] = {
 				{
@@ -796,6 +823,14 @@ CliqueDB3 = {
 					},
 				}, -- [1]
 				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [2]
+				{
 					["spell"] = "Power Word: Shield",
 					["key"] = "4",
 					["sets"] = {
@@ -803,24 +838,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135940,
 					["type"] = "spell",
-				}, -- [2]
-				{
-					["sets"] = {
-						["default"] = true,
-					},
-					["type"] = "target",
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
 				}, -- [3]
-				{
-					["spell"] = "Shadow Mend",
-					["key"] = "3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136202,
-					["type"] = "spell",
-				}, -- [4]
 				{
 					["spell"] = "Plea",
 					["key"] = "F",
@@ -828,6 +846,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 1538777,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Shadow Mend",
+					["key"] = "3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136202,
 					["type"] = "spell",
 				}, -- [5]
 				{
@@ -839,25 +866,6 @@ CliqueDB3 = {
 					["icon"] = 135894,
 					["type"] = "spell",
 				}, -- [6]
-			},
-		},
-		["Zethan - Tichondrius"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
 			},
 		},
 		["Alura - Tichondrius"] = {

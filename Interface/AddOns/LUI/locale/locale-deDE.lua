@@ -23,7 +23,7 @@ L["[RW]"] = true
 L["[Trade]"] = "[Handel]"
 L["[W:From]"] = "[W:von]"
 L["[W:To]"] = "[W:Zu]"
---Translation missing 
+--Translation missing
 L["[WorldDefense]"] = "[WorldDefense]"
 L["Adjust the bottom inset of the background"] = "Justiere die untere Einfügung des Hintergrundes"
 L["Adjust the height of the EditBox"] = "Justiere die Höhe der EditBox"
@@ -43,7 +43,7 @@ L["Battleground Leader"] = "Schlachtfeld Leiter"
 L["Battlegrounds"] = "Schlachtfelder"
 L["BC Instances"] = "BC Instanzen"
 L["BC Raids"] = "BC Schlachtzüge"
---Translation missing 
+--Translation missing
 L["Blizzard does not support right-click focus"] = "Blizzard currently does not provide a proper way to right-click focus with custom unit frames."
 L["Border"] = "Rand"
 L["Bottom"] = "Unten"
@@ -138,7 +138,7 @@ L["Scale of the scroll to bottom button"] = "Skalierung der nach unten scrollen 
 L["Scroll to bottom button"] = "Nach unten scrollen Schaltfläche"
 L["Select where the EditBox anchors to the ChatFrame"] = "Wähle aus wo die EditBox Schaltfläche am Chat ankert"
 L["Sets the EditBox color to the color of your currently active channel"] = "Farbe der Editbox in der Farbe des aktiven Channels "
---Translation missing 
+--Translation missing
 L["Shift mouse scrolling"] = "Shift mouse scrolling"
 L["Short channel names"] = "Kurze Channelnamen"
 L["Should the background texture be tiled over the area"] = "Soll die Hintergundtextur über die Fläche verteilt werden ?"

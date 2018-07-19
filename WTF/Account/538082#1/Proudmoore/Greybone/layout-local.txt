@@ -1,4 +1,11 @@
 Version: 1
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 7
+Y: 80
+W: 384
+H: 260
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: TOP
@@ -41,10 +48,3 @@ X: 249
 Y: 15
 W: 790
 H: 454
-Frame: ScriptErrorsFrame
-FrameLevel: 0
-Anchor: TOPLEFT
-X: 110
-Y: 0
-W: 384
-H: 260

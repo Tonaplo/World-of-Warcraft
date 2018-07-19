@@ -21,6 +21,7 @@ local widgetLists = AceGUIWidgetLSMlists
 local db, dbd
 
 local CLASS_BUTTONS = CLASS_ICON_TCOORDS
+local BNET_CLIENT_WOW = BNET_CLIENT_WOW
 
 ------------------------------------------------------
 -- / LOCAL VARIABLES / --
@@ -303,7 +304,8 @@ function module:SetClock()
 		local invitesPending = false
 
 		-- Event functions
-		stat.Events = {"CALENDAR_UPDATE_PENDING_INVITES", "PLAYER_ENTERING_WORLD", "UPDATE_24HOUR", "UPDATE_LOCALTIME"}
+		stat.Events = {"CALENDAR_UPDATE_PENDING_INVITES", "PLAYER_ENTERING_WORLD"}
+		-- , "UPDATE_24HOUR", "UPDATE_LOCALTIME"
 
 		stat.CALENDAR_UPDATE_PENDING_INVITES = function(self) -- A change to number of pending invites for calendar events occurred
 			invitesPending = GameTimeFrame and (GameTimeFrame.pendingCalendarInvites > 0) or false
@@ -325,7 +327,7 @@ function module:SetClock()
 				if (instanceType == "raid" or instanceType == "party") then
 					if instanceDifficulty == 14 then
 						instanceInfo = instanceGroupSize.." |cffffcc00N" -- Flexible renamed Normal in 6.0
-					elseif instanceDifficulty == 7 or instanceDifficulty == 17 then	
+					elseif instanceDifficulty == 7 or instanceDifficulty == 17 then
 						instanceInfo = maxPlayers.." |cff00ccffL"        -- Looking for Raid
 					elseif instanceDifficulty == 1 or instanceDifficulty == 3 or instanceDifficulty == 4 or instanceDifficulty == 12 then
 						instanceInfo = maxPlayers.." |cff00ff00N"        -- Legacy Normal
@@ -377,8 +379,8 @@ function module:SetClock()
 				self:UnregisterEvent("INSTANCE_GROUP_SIZE_CHANGED")
 				instanceInfo, guildParty = nil, ""
 			end
-			
-			if not module:IsHooked(GameTimeFrame, "OnClick") then 
+
+			if not module:IsHooked(GameTimeFrame, "OnClick") then
 				module:SecureHookScript(GameTimeFrame, "OnClick", stat.CALENDAR_UPDATE_PENDING_INVITES) -- hook the OnClick function of the GameTimeFrame to update the pending invites
 			end
 			if not module:IsHooked(TimeManagerMilitaryTimeCheck, "OnClick") then
@@ -542,7 +544,7 @@ function module:SetClock()
 						GameTooltip:AddDoubleLine(format("%s |cffaaaaaa(%s%s)", name, maxPlayers, diff), formatTime(reset), 1, 1, 1, tr, tg, tb)
 					end
 				end
-				
+
 				-- World Bosses
 				for i = 1, GetNumSavedWorldBosses() do
 					if not oneraid then
@@ -550,7 +552,7 @@ function module:SetClock()
 						GameTooltip:AddLine("Saved Raid(s) :")
 						oneraid = true
 					end
-				
+
 					local name, _, reset = GetSavedWorldBossInfo(i)
 					GameTooltip:AddDoubleLine(format("%s |cffaaaaaa(%s)", name, RAID_INFO_WORLD_BOSS), formatTime(reset), 1,1,1, 1,1,1)
 				end
@@ -1013,7 +1015,7 @@ function module:SetDualSpec()
 				ShowUIPanel(PlayerTalentFrame)
 			end
 		end
-	
+
 		stat.OnEnter = function(self)
 			if CombatTips() then
 				GameTooltip:SetOwner(self, getOwnerAnchor(self))
@@ -1476,7 +1478,6 @@ function module:SetGF()
 		local tables, broadcasts, toasts, buttons
 		local slider, highlight, texOrder1, sep, sep2
 
-		local WOW, SC2, D3, WTCG, APP, CLNT, HOTS, OVERWATCH = 1, 2, 3, 4, 5, 6, 7, 8
 		local horde = myPlayerFaction == "Horde"
 
 		local hordeZones = "Orgrimmar,Undercity,Thunder Bluff,Silvermoon City,Durotar,Tirisfal Glades,Mulgore,Eversong Woods,Northern Barrens,Silverpine Forest,Ghostlands,Azshara,"
@@ -1488,15 +1489,6 @@ function module:SetGF()
 			[1] = CHAT_FLAG_AFK,
 			[2] = CHAT_FLAG_DND,
 		}
-		local clientIcons = {
-			[SC2] = [[Interface\FriendsFrame\Battlenet-Sc2icon]],
-			[D3] = [[Interface\FriendsFrame\Battlenet-D3icon]],
-			[WTCG] = [[Interface\FriendsFrame\Battlenet-WTCGicon]],
-			[APP] = [[Interface\FriendsFrame\Battlenet-Battleneticon]],
-			[HOTS] = [[Interface\FriendsFrame\Battlenet-HotSicon]],
-			[OVERWATCH] = [[Interface\FriendsFrame\Battlenet-Overwatchicon]],
-		}
-
 		local colpairs = {
 			["class"] = 1,
 			["name"] = 2,
@@ -1539,7 +1531,7 @@ function module:SetGF()
 			if color then fs:SetTextColor(unpack(color)) end
 			return fs
 		end
-		
+
 		local function formatedStatusText(status, append, isMobile)
 			if (isMobile) then
 				if status == 2 then return MOBILE_BUSY_ICON..(append or "");
@@ -1661,10 +1653,9 @@ function module:SetGF()
 
 			SetStatusLayout(toast.status, toast.name)
 
-			client = client == BNET_CLIENT_WOW and WOW or client == BNET_CLIENT_SC2 and SC2 or client == BNET_CLIENT_D3 and D3 or client == BNET_CLIENT_WTCG and WTCG or client == BNET_CLIENT_HEROES and HOTS or client == BNET_CLIENT_OVERWATCH and OVERWATCH or APP
 			toast.client = client
 
-			if client == WOW then
+			if client == BNET_CLIENT_WOW then
 				toast.faction:SetTexture([[Interface\Glues\CharacterCreate\UI-CharacterCreate-Factions]])
 				toast.faction:SetTexCoord(faction == 1 and 0.03 or 0.53, faction == 1 and 0.47 or 0.97, 0.03, 0.97)
 				zone = (zone == nil or zone == "") and UNKNOWN or zone
@@ -1684,8 +1675,8 @@ function module:SetGF()
 				else
 					toast.class:SetTexture("")
 				end
-			elseif client == SC2 or client == D3 or client == WTCG or  client == HOTS or client == OVERWATCH or client == APP then
-				toast.class:SetTexture(clientIcons[client])
+			else
+				toast.class:SetTexture(BNet_GetClientTexture(client))
 				toast.class:SetTexCoord(0.2, 0.8, 0.2, 0.8)
 				toast.name:SetTextColor(0.8, 0.8, 0.8)
 				toast.faction:SetTexture("")
@@ -1709,7 +1700,7 @@ function module:SetGF()
 
 			return toast, client,
 			toast.name:GetStringWidth(),
-			client == (SC2 or D3 or WTCG or APP or HOTS or OVERWATCH) and -gap or toast.level:GetStringWidth(),
+			client ~= BNET_CLIENT_WOW and -gap or toast.level:GetStringWidth(),
 			toast.zone:GetStringWidth(),
 			toast.note:GetStringWidth()
 		end
@@ -1905,10 +1896,10 @@ function module:SetGF()
 
 					if tnW > tnC then tnC = tnW end
 
-					if client == WOW then
+					if client == BNET_CLIENT_WOW then
 						if lW > lC then lC = lW end
 						if zW > zC then zC = zW end
-					elseif client == SC2 or client == D3 or client == WTCG or client == APP or client == HOTS or client == OVERWATCH then
+					else
 						if zW > spanZoneC then spanZoneC = zW end
 					end
 
@@ -2035,10 +2026,10 @@ function module:SetGF()
 				button = toasts[i]
 				button:SetWidth( maxWidth )
 				button.name:SetWidth(tnC)
-				if button.client == WOW then
+				if button.client == BNET_CLIENT_WOW then
 					button.level:SetWidth(lC)
 					button.zone:SetWidth(zC)
-				elseif button.client == SC2 or button.client == D3 or button.client == WTCG or button.client == APP or button.client == HOTS or button.client == OVERWATCH then
+				else
 					button.zone:SetWidth(spanZoneC)
 				end
 				button.note:SetWidth(nC)
@@ -2179,7 +2170,7 @@ function module:SetGF()
 				end
 			elseif IsAltKeyDown() then -- invite unit
 				if b.presenceID then
-					if b.client ~= WOW then return end
+					if b.client ~= BNET_CLIENT_WOW then return end
 					FriendsFrame_BattlenetInvite(nil, b.presenceID)
 				else
 					InviteUnit(b.unit)
@@ -2200,8 +2191,8 @@ function module:SetGF()
 				if b.presenceID then
 					local name = b.realID..":"..b.presenceID
 					SetItemRef("BNplayer:"..name, ("|HBNplayer:%1$s|h[%1$s]|h"):format(name), button )
-				else 
-					
+				else
+
 					SetItemRef("player:"..b.unit, ("|Hplayer:%1$s|h[%1$s]|h"):format(b.unit), button )
 				end
 			end
@@ -2217,7 +2208,7 @@ function module:SetGF()
 				end
 				GameTooltip:AddLine"Hints:"
 				GameTooltip:AddLine("|cffff8020Click|r to whisper.", .2,1,.2)
-				if not btn.presenceID or btn.client == WOW then
+				if not btn.presenceID or btn.client == BNET_CLIENT_WOW then
 				    GameTooltip:AddLine("|cffff8020Alt+Click|r to invite.", .2,1,.2)
 				end
 				if not btn.presenceID then
@@ -2237,7 +2228,7 @@ function module:SetGF()
 			end
 		end
 
-		-- Main Stat functions (Guild Stat and Friends Stat)	
+		-- Main Stat functions (Guild Stat and Friends Stat)
 		stat.OnStatLeave = function(self)
 			self.onBlock = nil
 			GameTooltip:Hide()
@@ -2774,9 +2765,9 @@ function module:SetWeaponInfo()
 	local stat = NewStat("WeaponInfo")
 
 	if db.WeaponInfo.Enable and not stat.Created then
-	
+
 		stat.Events = {"UNIT_INVENTORY_CHANGED", "UNIT_AURA"}
-		
+
 		stat.UNIT_INVENTORY_CHANGED = function(self, unit)
 			--print(string.format("Called, unit == %s", tostring(unit)))
 			--if unit ~= "player" then return end
@@ -2788,13 +2779,13 @@ function module:SetWeaponInfo()
 			self.text:SetFormattedText(text)
 			UpdateTooltip(self)
 		end
-		
+
 		stat.UNIT_AURA = stat.UNIT_INVENTORY_CHANGED
-		
+
 		stat.OnEnable = function(self)
 			self:UNIT_INVENTORY_CHANGED(self, "player")
 		end
-		
+
 		-- Local variables
 		local total
 		local weaponinfo = {}
@@ -2835,12 +2826,12 @@ function module:SetEquipmentSets()
 	local stat = NewStat("EquipmentSets")
 
 	if db.EquipmentSets.Enable and not stat.Created then
-	
+
 		stat.Events = {"UNIT_INVENTORY_CHANGED", "PLAYER_EQUIPMENT_CHANGED"}
-		
+
 		stat.UNIT_INVENTORY_CHANGED = function(self, unit)
 			local text = "No set equipped."
-			for set = 1,GetNumEquipmentSets() do
+			for set = 1,C_EquipmentSet.GetNumEquipmentSets() do
 				local name, _, setID, isEquipped, _, _, _, numMissing, _ = GetEquipmentSetInfo(set)
 				if isEquipped then
 					text = string.format("%s%s", db.EquipmentSets.Text, name)
@@ -2849,9 +2840,9 @@ function module:SetEquipmentSets()
 			self.text:SetFormattedText(text)
 			UpdateTooltip(self)
 		end
-		
+
 		stat.PLAYER_EQUIPMENT_CHANGED = stat.UNIT_INVENTORY_CHANGED
-		
+
 		stat.OnEnable = function(self)
 			self:UNIT_INVENTORY_CHANGED(self, "player")
 		end
@@ -2891,9 +2882,9 @@ function module:SetLootSpec()
 	local stat = NewStat("LootSpec")
 
 	if db.LootSpec.Enable and not stat.Created then
-	
+
 		stat.Events = {"PLAYER_LOOT_SPEC_UPDATED"}
-		
+
 		stat.PLAYER_LOOT_SPEC_UPDATED = function(self, unit)
 			local name = ""
 			local lootspec = GetLootSpecialization()
@@ -2907,7 +2898,7 @@ function module:SetLootSpec()
 			self.text:SetFormattedText(text)
 			UpdateTooltip(self)
 		end
-		
+
 		stat.OnEnable = function(self)
 			self:PLAYER_LOOT_SPEC_UPDATED(self, "player")
 		end

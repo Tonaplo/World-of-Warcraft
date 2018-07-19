@@ -2,581 +2,581 @@ local addonname, LUI = ...
 local L = LibStub("AceLocale-3.0"):NewLocale(addonname, "koKR")
 if not L then return end
 
---Translation missing 
+--Translation missing
 L["%s Options"] = "%s Options"
---Translation missing 
+--Translation missing
 L["(|HBNplayer.-|h) whispers:"] = "(|HBNplayer.-|h) whispers:"
---Translation missing 
+--Translation missing
 L["(|Hplayer.-|h) whispers:"] = "(|Hplayer.-|h) whispers:"
---Translation missing 
+--Translation missing
 L["[BG]"] = "[BG]"
---Translation missing 
+--Translation missing
 L["[BL]"] = "[BL]"
---Translation missing 
+--Translation missing
 L["[BN:From]"] = "[BN:From]"
---Translation missing 
+--Translation missing
 L["[BN:To]"] = "[BN:To]"
---Translation missing 
+--Translation missing
 L["[DG]"] = "[DG]"
---Translation missing 
+--Translation missing
 L["[G]"] = "[G]"
---Translation missing 
+--Translation missing
 L["[General]"] = "[General]"
---Translation missing 
+--Translation missing
 L["[LFG]"] = "[LFG]"
---Translation missing 
+--Translation missing
 L["[LocalDefense]"] = "[LocalDefense]"
---Translation missing 
+--Translation missing
 L["[O]"] = "[O]"
---Translation missing 
+--Translation missing
 L["[P]"] = "[P]"
---Translation missing 
+--Translation missing
 L["[PL]"] = "[PL]"
---Translation missing 
+--Translation missing
 L["[R]"] = "[R]"
---Translation missing 
+--Translation missing
 L["[RL]"] = "[RL]"
---Translation missing 
+--Translation missing
 L["[RW]"] = "[RW]"
---Translation missing 
+--Translation missing
 L["[Trade]"] = "[Trade]"
---Translation missing 
+--Translation missing
 L["[W:From]"] = "[W:From]"
---Translation missing 
+--Translation missing
 L["[W:To]"] = "[W:To]"
---Translation missing 
+--Translation missing
 L["[WorldDefense]"] = "[WorldDefense]"
---Translation missing 
+--Translation missing
 L["Adjust the bottom inset of the background"] = "Adjust the bottom inset of the background"
---Translation missing 
+--Translation missing
 L["Adjust the height of the EditBox"] = "Adjust the height of the EditBox"
---Translation missing 
+--Translation missing
 L["Adjust the horizontal position"] = "Adjust the horizontal position"
---Translation missing 
+--Translation missing
 L["Adjust the left inset of the background"] = "Adjust the left inset of the background"
---Translation missing 
+--Translation missing
 L["Adjust the right inset of the background"] = "Adjust the right inset of the background"
---Translation missing 
+--Translation missing
 L["Adjust the size of each tile of the background texture"] = "Adjust the size of each tile of the background texture"
---Translation missing 
+--Translation missing
 L["Adjust the thickness of the border"] = "Adjust the thickness of the border"
---Translation missing 
+--Translation missing
 L["Adjust the top inset of the background"] = "Adjust the top inset of the background"
---Translation missing 
+--Translation missing
 L["Adjust the vertical position"] = "Adjust the vertical position"
---Translation missing 
+--Translation missing
 L["Anchor"] = "Anchor"
---Translation missing 
+--Translation missing
 L["Anchor Point"] = "Anchor Point"
---Translation missing 
+--Translation missing
 L["Are you sure?"] = "Are you sure?"
---Translation missing 
+--Translation missing
 L["Background"] = "Background"
---Translation missing 
+--Translation missing
 L["Battleground"] = "Battleground"
---Translation missing 
+--Translation missing
 L["Battleground Leader"] = "Battleground Leader"
---Translation missing 
+--Translation missing
 L["Battlegrounds"] = "Battlegrounds"
---Translation missing 
+--Translation missing
 L["BC Instances"] = "BC Instances"
---Translation missing 
+--Translation missing
 L["BC Raids"] = "BC Raids"
---Translation missing 
+--Translation missing
 L["Blizzard does not support right-click focus"] = "Blizzard currently does not provide a proper way to right-click focus with custom unit frames."
---Translation missing 
+--Translation missing
 L["Border"] = "Border"
---Translation missing 
+--Translation missing
 L["Bottom"] = "Bottom"
---Translation missing 
+--Translation missing
 L["Bottom Left"] = "Bottom Left"
---Translation missing 
+--Translation missing
 L["Bottom Right"] = "Bottom Right"
---Translation missing 
+--Translation missing
 L["Buffs"] = "Buffs"
---Translation missing 
+--Translation missing
 L["Buttons"] = "Buttons"
---Translation missing 
+--Translation missing
 L["Cataclysm Instances"] = "Cataclysm Instances"
---Translation missing 
+--Translation missing
 L["Cataclysm Raids"] = "Cataclysm Raids"
---Translation missing 
+--Translation missing
 L["Center"] = "Center"
---Translation missing 
+--Translation missing
 L["Chat Background"] = "Chat Background"
---Translation missing 
+--Translation missing
 L["Choose a font"] = "Choose a font"
---Translation missing 
+--Translation missing
 L["Choose a font flag"] = "Choose a font flag"
---Translation missing 
+--Translation missing
 L["Choose a fontsize"] = "Choose a fontsize"
---Translation missing 
+--Translation missing
 L["Choose a texture"] = "Choose a texture"
---Translation missing 
+--Translation missing
 L["Choose the amount of space between each of your %s"] = "Choose the amount of space between each of your %s"
---Translation missing 
+--Translation missing
 L["Choose the amount of space between each row of your %s"] = "Choose the amount of space between each row of your %s"
---Translation missing 
+--Translation missing
 L["Choose the corner to anchor your %s to"] = "Choose the corner to anchor your %s to"
---Translation missing 
+--Translation missing
 L["Choose the maximum number of %s for each row"] = "Choose the maximum number of %s for each row"
---Translation missing 
+--Translation missing
 L["Choose the maximum number of rows for your %s"] = "Choose the maximum number of rows for your %s"
---Translation missing 
+--Translation missing
 L["Choose the Size for your %s"] = "Choose the Size for your %s"
---Translation missing 
+--Translation missing
 L["Choose the sorting order for your %s"] = "Choose the sorting order for your %s"
---Translation missing 
+--Translation missing
 L["Choose whether you want to consolidate your %s or not"] = "Choose whether you want to consolidate your %s or not"
---Translation missing 
+--Translation missing
 L["Choose whether you want to reverse the sorting order or not"] = "Choose whether you want to reverse the sorting order or not"
---Translation missing 
+--Translation missing
 L["Classic Instances"] = "Classic Instances"
---Translation missing 
+--Translation missing
 L["Classic Raids"] = "Classic Raids"
---Translation missing 
+--Translation missing
 L["Color by channel"] = "Color by channel"
---Translation missing 
+--Translation missing
 L["Consolidate %s"] = "Consolidate %s"
---Translation missing 
+--Translation missing
 L["Copy chat button"] = "Copy chat button"
---Translation missing 
+--Translation missing
 L["Count"] = "Count"
---Translation missing 
+--Translation missing
 L["Cursor"] = "Cursor"
---Translation missing 
+--Translation missing
 L["Debuffs"] = "Debuffs"
---Translation missing 
+--Translation missing
 L["Disable fading"] = "Disable fading"
---Translation missing 
+--Translation missing
 L["Dungeon Guide"] = "Dungeon Guide"
---Translation missing 
+--Translation missing
 L["Duration"] = "Duration"
---Translation missing 
+--Translation missing
 L["EditBox"] = "EditBox"
---Translation missing 
+--Translation missing
 L["Enable"] = "Enable"
---Translation missing 
+--Translation missing
 L["Flag"] = "Flag"
---Translation missing 
+--Translation missing
 L["Font"] = "Font"
---Translation missing 
+--Translation missing
 L["Free-floating"] = "Free-floating"
---Translation missing 
+--Translation missing
 L["Free-floating (Locked)"] = "Free-floating (Locked)"
---Translation missing 
+--Translation missing
 L["General"] = "General"
---Translation missing 
+--Translation missing
 L["General Settings"] = "General Settings"
---Translation missing 
+--Translation missing
 L["Guild"] = "Guild"
---Translation missing 
+--Translation missing
 L["Height"] = "Height"
---Translation missing 
+--Translation missing
 L["Hide Buttons"] = "Hide Buttons"
---Translation missing 
+--Translation missing
 L["Hide Completely"] = "Hide Completely"
---Translation missing 
+--Translation missing
 L["Holding shift while mouse scrolling will jump to top or bottom"] = "Holding shift while mouse scrolling will jump to top or bottom"
---Translation missing 
+--Translation missing
 L["Horizontal Position"] = "Horizontal Position"
---Translation missing 
+--Translation missing
 L["Index"] = "Index"
---Translation missing 
+--Translation missing
 L["Initiate a ready check"] = "Initiate a ready check, asking your group members if they are ready to continue."
---Translation missing 
+--Translation missing
 L["Initiate a role check"] = "Initiate a role check, asking your group members to specify their roles."
---Translation missing 
+--Translation missing
 L["Insets"] = "Insets"
---Translation missing 
+--Translation missing
 L["Left"] = "Left"
---Translation missing 
+--Translation missing
 L["Link hover tooltip"] = "Link hover tooltip"
---Translation missing 
+--Translation missing
 L["LocalDefense"] = "LocalDefense"
---Translation missing 
+--Translation missing
 L["LookingForGroup"] = "LookingForGroup"
---Translation missing 
+--Translation missing
 L["Minimalist tabs"] = "Minimalist tabs"
---Translation missing 
+--Translation missing
 L["Monochrome"] = "Monochrome"
---Translation missing 
+--Translation missing
 L["Name"] = "Name"
---Translation missing 
+--Translation missing
 L["None"] = "None"
---Translation missing 
+--Translation missing
 L["Number of rows"] = "Number of rows"
---Translation missing 
+--Translation missing
 L["Number per row"] = "Number per row"
---Translation missing 
+--Translation missing
 L["Officer"] = "Officer"
---Translation missing 
+--Translation missing
 L["Only Show Markers"] = "Only Show Markers"
---Translation missing 
+--Translation missing
 L["Outline"] = "Outline"
---Translation missing 
+--Translation missing
 L["Pandaria Instances"] = "Pandaria Instances"
---Translation missing 
+--Translation missing
 L["Pandaria Raids"] = "Pandaria Raids"
---Translation missing 
+--Translation missing
 L["Party"] = "Party"
---Translation missing 
+--Translation missing
 L["Player"] = "Player"
---Translation missing 
+--Translation missing
 L["Please read the FAQ"] = [=[Please read the FAQ if you have Questions!
 For more information please visit
 |cff8080ffhttp://www.wowlui.com|r
 
 Enjoy!]=]
---Translation missing 
+--Translation missing
 L["Quest Objectives"] = "Quest Objectives"
---Translation missing 
+--Translation missing
 L["Raid"] = "Raid"
---Translation missing 
+--Translation missing
 L["Raid Leader"] = "Raid Leader"
---Translation missing 
+--Translation missing
 L["Raid Warning"] = "Raid Warning"
---Translation missing 
+--Translation missing
 L["Remember history"] = "Remember history"
---Translation missing 
+--Translation missing
 L["Remembers the history of the EditBox across sessions"] = "Remembers the history of the EditBox across sessions"
---Translation missing 
+--Translation missing
 L["Requires the Alt key to be held down to move the cursor"] = "Requires the Alt key to be held down to move the cursor"
---Translation missing 
+--Translation missing
 L["Reset position"] = "Reset position"
---Translation missing 
+--Translation missing
 L["Reset the main chat dock's position"] = "Reset the main chat dock's position"
---Translation missing 
+--Translation missing
 L["Reverse Sorting"] = "Reverse Sorting"
---Translation missing 
+--Translation missing
 L["Revision: "] = "Revision: "
---Translation missing 
+--Translation missing
 L["Right"] = "Right"
---Translation missing 
+--Translation missing
 L["Row Spacing"] = "Row Spacing"
---Translation missing 
+--Translation missing
 L["Scale"] = "Scale"
---Translation missing 
+--Translation missing
 L["Scale of the copy chat button"] = "Scale of the copy chat button"
---Translation missing 
+--Translation missing
 L["Scale of the scroll to bottom button"] = "Scale of the scroll to bottom button"
---Translation missing 
+--Translation missing
 L["Scroll to bottom button"] = "Scroll to bottom button"
---Translation missing 
+--Translation missing
 L["Select where the EditBox anchors to the ChatFrame"] = "Select where the EditBox anchors to the ChatFrame"
---Translation missing 
+--Translation missing
 L["Sets the EditBox color to the color of your currently active channel"] = "Sets the EditBox color to the color of your currently active channel"
---Translation missing 
+--Translation missing
 L["Shift mouse scrolling"] = "Shift mouse scrolling"
---Translation missing 
+--Translation missing
 L["Short channel names"] = "Short channel names"
---Translation missing 
+--Translation missing
 L["Should the background texture be tiled over the area"] = "Should the background texture be tiled over the area"
---Translation missing 
+--Translation missing
 L["Show copy chat button"] = "Show copy chat button"
---Translation missing 
+--Translation missing
 L["Show Markers & Panels"] = "Show Markers & Panels"
---Translation missing 
+--Translation missing
 L["Show scroll to bottom button when scrolled up"] = "Show scroll to bottom button when scrolled up"
---Translation missing 
+--Translation missing
 L["Show tooltip when mousing over links in chat"] = [=[Show tooltip when mousing over links in chat.
 
 Links: items, spells, enchants, talents, glyphs, quests, achievements, and instancelocks]=]
---Translation missing 
+--Translation missing
 L["Size"] = "Size"
---Translation missing 
+--Translation missing
 L["Sorting Order"] = "Sorting Order"
---Translation missing 
+--Translation missing
 L["Spacing"] = "Spacing"
---Translation missing 
+--Translation missing
 L["Stop the chat from fading out over time"] = "Stop the chat from fading out over time"
---Translation missing 
+--Translation missing
 L["Texture"] = "Texture"
---Translation missing 
+--Translation missing
 L["The UI needs to be reloaded!"] = "The UI needs to be reloaded!"
---Translation missing 
+--Translation missing
 L["Thick Outline"] = "Thick Outline"
---Translation missing 
+--Translation missing
 L["Thickness"] = "Thickness"
---Translation missing 
+--Translation missing
 L["Tile"] = "Tile"
---Translation missing 
+--Translation missing
 L["Tile Size"] = "Tile Size"
---Translation missing 
+--Translation missing
 L["Time"] = "Time"
---Translation missing 
+--Translation missing
 L["To (|HBNplayer.-|h):"] = "To (|HBNplayer.-|h):"
---Translation missing 
+--Translation missing
 L["To (|Hplayer.-|h):"] = "To (|Hplayer.-|h):"
---Translation missing 
+--Translation missing
 L["Top"] = "Top"
---Translation missing 
+--Translation missing
 L["Top Left"] = "Top Left"
---Translation missing 
+--Translation missing
 L["Top Right"] = "Top Right"
---Translation missing 
+--Translation missing
 L["Trade"] = "Trade"
---Translation missing 
+--Translation missing
 L["Type %s to Clear Focus"] = "Type %s to Clear Focus"
---Translation missing 
+--Translation missing
 L["Type %s to Set Focus"] = "Type %s to Set Focus"
---Translation missing 
+--Translation missing
 L["Use abreviated channel names"] = "Use abreviated channel names"
---Translation missing 
+--Translation missing
 L["Use Alt key"] = "Use Alt key"
---Translation missing 
+--Translation missing
 L["Use minimalist style tabs"] = "Use minimalist style tabs"
---Translation missing 
+--Translation missing
 L["Version %s available for download."] = "Version %s available for download."
---Translation missing 
+--Translation missing
 L["Version: "] = "Version: "
---Translation missing 
+--Translation missing
 L["Vertical Position"] = "Vertical Position"
---Translation missing 
-L["Welcome to LUI v3"] = [=[Welcome to |c0090ffffLUI v3|r, a complete 
+--Translation missing
+L["Welcome to LUI v3"] = [=[Welcome to |c0090ffffLUI v3|r, a complete
 World of Warcraft User Interface overhaul.]=]
---Translation missing 
+--Translation missing
 L["Width"] = "Width"
---Translation missing 
+--Translation missing
 L["WorldDefense"] = "WorldDefense"
---Translation missing 
+--Translation missing
 L["Wrath Instances"] = "Wrath Instances"
---Translation missing 
+--Translation missing
 L["Wrath Raids"] = "Wrath Raids"
 
 -- Auras
---Translation missing 
+--Translation missing
 L["Buffs"] = "Buffs"
---Translation missing 
+--Translation missing
 L["Choose the amount of space between each of your %s"] = "Choose the amount of space between each of your %s"
---Translation missing 
+--Translation missing
 L["Choose the amount of space between each row of your %s"] = "Choose the amount of space between each row of your %s"
---Translation missing 
+--Translation missing
 L["Choose the corner to anchor your %s to"] = "Choose the corner to anchor your %s to"
---Translation missing 
+--Translation missing
 L["Choose the maximum number of %s for each row"] = "Choose the maximum number of %s for each row"
---Translation missing 
+--Translation missing
 L["Choose the maximum number of rows for your %s"] = "Choose the maximum number of rows for your %s"
---Translation missing 
+--Translation missing
 L["Choose the sorting order for your %s"] = "Choose the sorting order for your %s"
---Translation missing 
+--Translation missing
 L["Choose whether you want to consolidate your %s or not"] = "Choose whether you want to consolidate your %s or not"
---Translation missing 
+--Translation missing
 L["Choose whether you want to reverse the sorting order or not"] = "Choose whether you want to reverse the sorting order or not"
---Translation missing 
+--Translation missing
 L["Consolidate %s"] = "Consolidate %s"
---Translation missing 
+--Translation missing
 L["Count"] = "Count"
---Translation missing 
+--Translation missing
 L["Debuffs"] = "Debuffs"
---Translation missing 
+--Translation missing
 L["Duration"] = "Duration"
---Translation missing 
+--Translation missing
 L["Number of rows"] = "Number of rows"
---Translation missing 
+--Translation missing
 L["Number per row"] = "Number per row"
---Translation missing 
+--Translation missing
 L["Reverse Sorting"] = "Reverse Sorting"
---Translation missing 
+--Translation missing
 L["Sorting Order"] = "Sorting Order"
 
 -- Chat
---Translation missing 
+--Translation missing
 L["(|HBNplayer.-|h) whispers:"] = "(|HBNplayer.-|h) whispers:"
---Translation missing 
+--Translation missing
 L["(|Hplayer.-|h) whispers:"] = "(|Hplayer.-|h) whispers:"
---Translation missing 
+--Translation missing
 L["[BG]"] = "[BG]"
---Translation missing 
+--Translation missing
 L["[BL]"] = "[BL]"
---Translation missing 
+--Translation missing
 L["[BN:From]"] = "[BN:From]"
---Translation missing 
+--Translation missing
 L["[BN:To]"] = "[BN:To]"
---Translation missing 
+--Translation missing
 L["[DG]"] = "[DG]"
---Translation missing 
+--Translation missing
 L["[G]"] = "[G]"
---Translation missing 
+--Translation missing
 L["[General]"] = "[General]"
---Translation missing 
+--Translation missing
 L["[LFG]"] = "[LFG]"
---Translation missing 
+--Translation missing
 L["[LocalDefense]"] = "[LocalDefense]"
---Translation missing 
+--Translation missing
 L["[O]"] = "[O]"
---Translation missing 
+--Translation missing
 L["[P]"] = "[P]"
---Translation missing 
+--Translation missing
 L["[PL]"] = "[PL]"
---Translation missing 
+--Translation missing
 L["[R]"] = "[R]"
---Translation missing 
+--Translation missing
 L["[RL]"] = "[RL]"
---Translation missing 
+--Translation missing
 L["[RW]"] = "[RW]"
---Translation missing 
+--Translation missing
 L["[Trade]"] = "[Trade]"
---Translation missing 
+--Translation missing
 L["[W:From]"] = "[W:From]"
---Translation missing 
+--Translation missing
 L["[W:To]"] = "[W:To]"
---Translation missing 
+--Translation missing
 L["[WorldDefense]"] = "[WorldDefense]"
---Translation missing 
+--Translation missing
 L["Adjust the height of the EditBox"] = "Adjust the height of the EditBox"
---Translation missing 
+--Translation missing
 L["Battleground"] = "Battleground"
---Translation missing 
+--Translation missing
 L["Battleground Leader"] = "Battleground Leader"
---Translation missing 
+--Translation missing
 L["Buttons"] = "Buttons"
---Translation missing 
+--Translation missing
 L["Chat Background"] = "Chat Background"
---Translation missing 
+--Translation missing
 L["Color by channel"] = "Color by channel"
---Translation missing 
+--Translation missing
 L["Copy chat button"] = "Copy chat button"
---Translation missing 
+--Translation missing
 L["Disable fading"] = "Disable fading"
---Translation missing 
+--Translation missing
 L["Dungeon Guide"] = "Dungeon Guide"
---Translation missing 
+--Translation missing
 L["EditBox"] = "EditBox"
---Translation missing 
+--Translation missing
 L["Free-floating"] = "Free-floating"
---Translation missing 
+--Translation missing
 L["Free-floating (Locked)"] = "Free-floating (Locked)"
---Translation missing 
+--Translation missing
 L["General"] = "General"
---Translation missing 
+--Translation missing
 L["Guild"] = "Guild"
---Translation missing 
+--Translation missing
 L["Hide Buttons"] = "Hide Buttons"
---Translation missing 
+--Translation missing
 L["Holding shift while mouse scrolling will jump to top or bottom"] = "Holding shift while mouse scrolling will jump to top or bottom"
---Translation missing 
+--Translation missing
 L["Link hover tooltip"] = "Link hover tooltip"
---Translation missing 
+--Translation missing
 L["LocalDefense"] = "LocalDefense"
---Translation missing 
+--Translation missing
 L["LookingForGroup"] = "LookingForGroup"
---Translation missing 
+--Translation missing
 L["Minimalist tabs"] = "Minimalist tabs"
---Translation missing 
+--Translation missing
 L["Officer"] = "Officer"
---Translation missing 
+--Translation missing
 L["Party"] = "Party"
---Translation missing 
+--Translation missing
 L["Raid"] = "Raid"
---Translation missing 
+--Translation missing
 L["Raid Leader"] = "Raid Leader"
---Translation missing 
+--Translation missing
 L["Raid Warning"] = "Raid Warning"
---Translation missing 
+--Translation missing
 L["Remember history"] = "Remember history"
---Translation missing 
+--Translation missing
 L["Remembers the history of the EditBox across sessions"] = "Remembers the history of the EditBox across sessions"
---Translation missing 
+--Translation missing
 L["Requires the Alt key to be held down to move the cursor"] = "Requires the Alt key to be held down to move the cursor"
---Translation missing 
+--Translation missing
 L["Reset position"] = "Reset position"
---Translation missing 
+--Translation missing
 L["Reset the main chat dock's position"] = "Reset the main chat dock's position"
---Translation missing 
+--Translation missing
 L["Scale of the copy chat button"] = "Scale of the copy chat button"
---Translation missing 
+--Translation missing
 L["Scale of the scroll to bottom button"] = "Scale of the scroll to bottom button"
---Translation missing 
+--Translation missing
 L["Scroll to bottom button"] = "Scroll to bottom button"
---Translation missing 
+--Translation missing
 L["Select where the EditBox anchors to the ChatFrame"] = "Select where the EditBox anchors to the ChatFrame"
---Translation missing 
+--Translation missing
 L["Sets the EditBox color to the color of your currently active channel"] = "Sets the EditBox color to the color of your currently active channel"
---Translation missing 
+--Translation missing
 L["Shift mouse scrolling"] = "Shift mouse scrolling"
---Translation missing 
+--Translation missing
 L["Short channel names"] = "Short channel names"
---Translation missing 
+--Translation missing
 L["Show copy chat button"] = "Show copy chat button"
---Translation missing 
+--Translation missing
 L["Show scroll to bottom button when scrolled up"] = "Show scroll to bottom button when scrolled up"
---Translation missing 
+--Translation missing
 L["Show tooltip when mousing over links in chat"] = [=[Show tooltip when mousing over links in chat.
 
 Links: items, spells, enchants, talents, glyphs, quests, achievements, and instancelocks]=]
---Translation missing 
+--Translation missing
 L["Stop the chat from fading out over time"] = "Stop the chat from fading out over time"
---Translation missing 
+--Translation missing
 L["To (|HBNplayer.-|h):"] = "To (|HBNplayer.-|h):"
---Translation missing 
+--Translation missing
 L["To (|Hplayer.-|h):"] = "To (|Hplayer.-|h):"
---Translation missing 
+--Translation missing
 L["Trade"] = "Trade"
---Translation missing 
+--Translation missing
 L["Use abreviated channel names"] = "Use abreviated channel names"
---Translation missing 
+--Translation missing
 L["Use Alt key"] = "Use Alt key"
---Translation missing 
+--Translation missing
 L["Use minimalist style tabs"] = "Use minimalist style tabs"
---Translation missing 
+--Translation missing
 L["WorldDefense"] = "WorldDefense"
 
 -- dbFix
---Translation missing 
+--Translation missing
 L["Backup of current profile complete."] = "Backup of current profile complete.\\nYou can now restore the database to this profile with '/lui restore' or repair the database with '/lui repair'\\nNote: The backup created is only available to this character."
---Translation missing 
+--Translation missing
 L["Database fix complete."] = "Database fix complete. Encountered %d mismatches which have now been corrected."
---Translation missing 
+--Translation missing
 L["Database fix failed"] = "Database fix failed: There is no backup available.  You can create one with '/lui backup'."
---Translation missing 
+--Translation missing
 L["No issues found with database."] = "No issues found with database."
---Translation missing 
+--Translation missing
 L["Restore failed"] = "Restore failed: There is no backup available.  You can create one with '/lui backup'"
---Translation missing 
+--Translation missing
 L["Restore of database complete."] = "Restore of database complete."
 
 -- Unitframes
---Translation missing 
+--Translation missing
 L["Blizzard does not support right-click focus"] = "Blizzard currently does not provide a proper way to right-click focus with custom unit frames."
---Translation missing 
+--Translation missing
 L["Initiate a ready check"] = "Initiate a ready check, asking your group members if they are ready to continue."
---Translation missing 
+--Translation missing
 L["Initiate a role check"] = "Initiate a role check, asking your group members to specify their roles."
---Translation missing 
+--Translation missing
 L["Type %s to Clear Focus"] = "Type %s to Clear Focus"
---Translation missing 
+--Translation missing
 L["Type %s to Set Focus"] = "Type %s to Set Focus"
 
 -- WorldMap
---Translation missing 
+--Translation missing
 L["Battlegrounds"] = "Battlegrounds"
---Translation missing 
+--Translation missing
 L["BC Instances"] = "BC Instances"
---Translation missing 
+--Translation missing
 L["BC Raids"] = "BC Raids"
---Translation missing 
+--Translation missing
 L["Cataclysm Instances"] = "Cataclysm Instances"
---Translation missing 
+--Translation missing
 L["Cataclysm Raids"] = "Cataclysm Raids"
---Translation missing 
+--Translation missing
 L["Classic Instances"] = "Classic Instances"
---Translation missing 
+--Translation missing
 L["Classic Raids"] = "Classic Raids"
---Translation missing 
+--Translation missing
 L["Cursor"] = "Cursor"
---Translation missing 
+--Translation missing
 L["Hide Completely"] = "Hide Completely"
---Translation missing 
+--Translation missing
 L["Only Show Markers"] = "Only Show Markers"
---Translation missing 
+--Translation missing
 L["Player"] = "Player"
---Translation missing 
+--Translation missing
 L["Quest Objectives"] = "Quest Objectives"
---Translation missing 
+--Translation missing
 L["Show Markers & Panels"] = "Show Markers & Panels"
---Translation missing 
+--Translation missing
 L["Wrath Instances"] = "Wrath Instances"
---Translation missing 
+--Translation missing
 L["Wrath Raids"] = "Wrath Raids"
 

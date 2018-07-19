@@ -1,12 +1,12 @@
-tag 1f380c779ff3b06c21335e8d32e7623c52165284 8.0-2
+tag 88989b5e2bf199165b3073718c516b1c3bf38538 8.0-3
 Author:	Xuerian <xuerian@gmail.com>
-Date:	Tue Jul 17 13:02:52 2018 -0400
+Date:	Wed Jul 18 21:48:22 2018 -0400
 
-Tag as release for BFA pre-patch
+Frame: Probably fix Locked incorrectly being displayed
 
-commit 5bfea3fdc0c8baea39d55f1edf9edaddd9bff03b
+commit 981a7ae69d6b233707cc3136005f969876ce1153
 Author: Xuerian <xuerian@gmail.com>
-Date:   Thu Jul 5 20:34:34 2018 -0400
+Date:   Wed Jul 18 21:47:59 2018 -0400
 
-    Frame applyOptions: Set Fake.opt before updating appearance to avoid error
+    Frame: Probably fix Locked incorrectly being displayed
 

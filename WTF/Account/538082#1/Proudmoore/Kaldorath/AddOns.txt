@@ -5,7 +5,7 @@ SellOMatic2_Item: enabled
 SellOMatic2_List: enabled
 autoturnin: disabled
 SorhaQuestLog: disabled
-AdiBags: enabled
+AdiBags: disabled
 Bartender4: disabled
 OrderHallCommander: disabled
 Details_Streamer: disabled
@@ -16,3 +16,4 @@ Grid2RaidDebuffsOptions: enabled
 Grid2LDB: enabled
 VuhDo: disabled
 VuhDoOptions: disabled
+CDR: disabled

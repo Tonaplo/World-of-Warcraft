@@ -258,14 +258,6 @@ do
   local function questhook(self)
     if self.questID then addLine(GameTooltip, self.questID, types.quest) end
   end
-  local titlebuttonshooked = {}
-  hooksecurefunc("QuestLogQuests_GetTitleButton", function(index)
-    local titles = QuestMapFrame.QuestsFrame.Contents.Titles;
-    if titles[index] and not titlebuttonshooked[index] then
-      titles[index]:HookScript("OnEnter", questhook)
-      titlebuttonshooked[index] = true
-    end
-  end)
 end
 
 hooksecurefunc("TaskPOI_OnEnter", function(self)
