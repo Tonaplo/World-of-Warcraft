@@ -1823,15 +1823,18 @@ function _G._detalhes:Start()
 		C_Timer.After (2, function()
 			_detalhes:RefreshPlaterIntegration()
 		end)
-
 	
-	--BFA BETA
-	C_Timer.After (1, function()
-		if (ScriptErrorsFrame and ScriptErrorsFrame:IsShown()) then
-			--ScriptErrorsFrame:Hide()
+	--> suppress warnings for the first few seconds
+	CLOSE_SCRIPTERRORWINDOW = function()
+		if (ScriptErrorsFrame) then
+			ScriptErrorsFrame:Hide()
 		end
-	end)
-
+	end
+	if (ScriptErrorsFrame) then
+		ScriptErrorsFrame:HookScript ("OnShow", CLOSE_SCRIPTERRORWINDOW)
+		ScriptErrorsFrame:Hide()
+	end
+	C_Timer.After (5, function() _G ["CLOSE_SCRIPTERRORWINDOW"] = nil end)
 end
 
 _detalhes.AddOnLoadFilesTime = GetTime()

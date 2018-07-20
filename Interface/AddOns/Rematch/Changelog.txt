@@ -1,3 +1,6 @@
+07/19/2018 version 4.8.1
+- Fixes for Rematch to better work alongside other addons not yet updated for to the 8.0 pre-patch
+
 07/17/2018 version 4.8.0
 - Fixes for Battle for Azeroth client
 - The number of possible team tabs has increased from 16 to 32

@@ -453,9 +453,11 @@ local queryAPIs = {
 function rematch:GetBreedSource()
    if breedSource==nil then
       for _,addon in pairs({"BattlePetBreedID","PetTracker_Breeds"}) do
-         if IsAddOnLoaded(addon) then
-            breedSource = addon
-            return addon
+		 if IsAddOnLoaded(addon) then
+			if addon~="PetTracker_Breeds" or GetAddOnMetadata("PetTracker_Breeds","Version")~="7.1.4" then
+            	breedSource = addon
+				return addon
+			end
          end
       end
       -- one of the sources is not loaded, try loading LibPetBreedInfo separately
@@ -463,9 +465,11 @@ function rematch:GetBreedSource()
       if LibStub then
          for lib in LibStub:IterateLibraries() do
             if lib=="LibPetBreedInfo-1.0" then
-               breedLib = LibStub("LibPetBreedInfo-1.0")
-               breedSource = lib
-               return lib
+			   breedLib = LibStub("LibPetBreedInfo-1.0")
+			   if lib then
+				 breedSource = lib
+				 return lib
+			   end
             end
          end
       end

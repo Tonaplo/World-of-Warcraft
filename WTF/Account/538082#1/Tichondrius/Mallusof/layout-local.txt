@@ -1,11 +1,4 @@
 Version: 1
-Frame: SexyMapCoordFrame
-FrameLevel: 2
-Anchor: TOPRIGHT
-X: -61
-Y: -212
-W: 60
-H: 20
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: TOP
@@ -48,10 +41,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -164
-Y: -72
-W: 1236
-H: 444

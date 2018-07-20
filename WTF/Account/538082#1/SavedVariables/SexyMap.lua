@@ -65,7 +65,9 @@ SexyMap2DB = {
 				["MiniMapWorldMapButton"] = "hover",
 			},
 			["dragPositions"] = {
-				["LibDBIcon10_Grid2"] = 207.818123359674,
+				["QueueStatusMinimapButton"] = 161.816765760918,
+				["LibDBIcon10_Grid2"] = -58.0295371504847,
+				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
 				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
 				["GameTimeFrame"] = 48.6728540163423,
 				["MiniMapTracking"] = 116.402357746043,

@@ -41,7 +41,7 @@ AllTheThingsPCD = {
 		true, -- [35]
 		true, -- [36]
 		[0] = true,
-		[102] = true,
+		[200] = true,
 		[101] = true,
 		[103] = true,
 		[105] = true,
@@ -54,7 +54,7 @@ AllTheThingsPCD = {
 		[108] = true,
 		[54] = true,
 		[104] = true,
-		[200] = true,
+		[102] = true,
 		[100] = true,
 		[50] = true,
 		[51] = true,

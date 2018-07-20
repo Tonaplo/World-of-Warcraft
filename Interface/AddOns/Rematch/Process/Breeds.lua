@@ -9,12 +9,17 @@ local source -- will contain the breedSource
 	3. LibPetBreedInfo-1.0
 ]]
 
+
+
 -- returns the addon that will provide breed data
 function rematch:FindBreedSource()
 	local addon
 	for _,name in pairs({"BattlePetBreedID","PetTracker_Breeds","LibPetBreedInfo-1.0"}) do
 		if not addon and IsAddOnLoaded(name) then
-			addon = name
+			-- make sure PetTracker is not the Legion-version one
+			if name~="PetTracker_Breeds" or GetAddOnMetadata("PetTracker_Breeds","Version")~="7.1.4" then
+				addon = name
+			end
 		end
 	end
 	if not addon then -- one of the sources is not loaded, try loading LibPetBreedInfo separately
@@ -23,7 +28,10 @@ function rematch:FindBreedSource()
 			for lib in LibStub:IterateLibraries() do
 				if lib=="LibPetBreedInfo-1.0" then
 					rematch.breedLib = LibStub("LibPetBreedInfo-1.0")
-					addon = lib
+					-- ensure LibPetBreedInfo is working enough to return a value
+					if rematch.breedLib then
+						addon = lib
+					end
 					break
 				end
 			end

@@ -54,11 +54,11 @@ RCDatabase = {
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 100,
-				["itemLevelEquipped"] = 241.3125,
+				["itemLevelEquipped"] = 239.125,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 246.5625,
+				["itemLevelOverall"] = 245.9375,
 				["level"] = 110,
 				["firstProfLevel"] = 100,
 				["firstProf"] = "Alchemy",
@@ -91,10 +91,10 @@ RCDatabase = {
 				["class"] = "PALADIN",
 				["secondProf"] = "Mining",
 				["name"] = "Korugen",
-				["itemLevelOverall"] = 51.9375,
+				["firstProf"] = "Blacksmithing",
 				["level"] = 52,
 				["firstProfLevel"] = 11,
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 51.9375,
 			}, -- [4]
 			{
 				["secondProfLevel"] = 0,

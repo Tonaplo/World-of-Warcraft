@@ -14,16 +14,16 @@ SexyMap2DB = {
 		},
 		["coordinates"] = {
 			["enabled"] = true,
-			["x"] = -0.0003662109375,
+			["x"] = 0,
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 			},
-			["locked"] = false,
+			["locked"] = true,
 			["updateRate"] = 1,
 			["backgroundColor"] = {
 			},
-			["y"] = 64.6276245117188,
+			["y"] = 76.9075927734375,
 		},
 		["buttons"] = {
 			["radius"] = 10,
@@ -33,16 +33,18 @@ SexyMap2DB = {
 				["MinimapZoomIn"] = "never",
 				["MiniMapMailFrame"] = "always",
 				["GameTimeFrame"] = "hover",
-				["TimeManagerClockButton"] = "always",
+				["TimeManagerClockButton"] = "never",
 				["MinimapZoomOut"] = "never",
 				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "hover",
+				["GarrisonLandingPageMinimapButton"] = "always",
 				["MiniMapWorldMapButton"] = "hover",
 				["MinimapZoneTextButton"] = "always",
 				["LibDBIcon10_ExorsusRaidTools"] = "hover",
 			},
 			["dragPositions"] = {
-				["LibDBIcon10_Grid2"] = 207.818123359674,
+				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
+				["LibDBIcon10_Grid2"] = -58.0295371504847,
+				["QueueStatusMinimapButton"] = 161.816765760918,
 				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
 				["GameTimeFrame"] = 48.6728540163423,
 				["MiniMapTracking"] = 116.402357746043,

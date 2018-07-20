@@ -78,7 +78,7 @@ function journal:OtherAddonJournalStuff()
 		button:SetScript("OnClick",function() CollectMeOpen2Button:Click() end)
 	end
 	-- PetTracker "Zone Tracker" checkbutton along bottom
-	if IsAddOnLoaded("PetTracker_Journal") and PetTrackerTrackToggle then
+	if IsAddOnLoaded("PetTracker_Journal") and PetTrackerTrackToggle and GetAddOnMetadata("PetTracker","Version")~="7.1.4" then
 		journal.PetTrackerJournalButton = CreateFrame("CheckButton",nil,journal,"UICheckButtonTemplate")
 		local button = journal.PetTrackerJournalButton
 		button:SetSize(26,26)
