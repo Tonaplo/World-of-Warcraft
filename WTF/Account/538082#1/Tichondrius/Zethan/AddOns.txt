@@ -1,9 +1,9 @@
 VuhDo: disabled
 VuhDoOptions: disabled
-AdiBags: disabled
-AdiBags_Artifact_Weapons: enabled
+AdiBags: enabled
+AdiBags_Artifact_Weapons: disabled
 AdiBags_Config: enabled
-AdiBags_Legion_Filters: enabled
+AdiBags_Legion_Filters: disabled
 AllTheThings: enabled
 AngryKeystones: enabled
 AngryWorldQuests: enabled
@@ -25,7 +25,7 @@ BigWigs_Uldir: enabled
 CanIMogIt: enabled
 CDR: disabled
 Clique: enabled
-Conditioner: disabled
+Conditioner: enabled
 Details: enabled
 Details_DmgRank: enabled
 Details_DeathGraphs: enabled

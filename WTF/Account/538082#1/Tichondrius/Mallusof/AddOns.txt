@@ -5,7 +5,7 @@ VuhDoOptions: disabled
 autoturnin: disabled
 MythicPlusTimer: disabled
 XLoot_Options: enabled
-AdiBags: disabled
+AdiBags: enabled
 Bartender4: disabled
 AutoVendor: disabled
 MythicHelper: enabled
@@ -18,9 +18,9 @@ RaiderIO_DB_KR_A: disabled
 RaiderIO_DB_EU_H: disabled
 RaiderIO_DB_EU_A: disabled
 HealerManaWatch: disabled
-AdiBags_Artifact_Weapons: enabled
+AdiBags_Artifact_Weapons: disabled
 AdiBags_Config: enabled
-AdiBags_Legion_Filters: enabled
+AdiBags_Legion_Filters: disabled
 AllTheThings: enabled
 AngryKeystones: enabled
 Arh: enabled
@@ -40,7 +40,7 @@ BigWigs_Uldir: enabled
 CanIMogIt: enabled
 CDR: disabled
 Clique: enabled
-Conditioner: disabled
+Conditioner: enabled
 Details: enabled
 Details_DmgRank: enabled
 Details_DeathGraphs: enabled

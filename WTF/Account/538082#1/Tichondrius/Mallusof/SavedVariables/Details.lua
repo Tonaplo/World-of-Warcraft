@@ -30,8 +30,8 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["classe"] = "PRIEST",
 							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 67505.005289,
@@ -357,11 +357,11 @@ _detalhes_database = {
 							["end_time"] = 1531942149,
 							["colocacao"] = 1,
 							["last_event"] = 1531942143,
-							["on_hold"] = false,
-							["start_time"] = 1531942122,
-							["serial"] = "Player-11-0A92183E",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1531942122,
+							["serial"] = "Player-11-0A92183E",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -507,7 +507,8 @@ _detalhes_database = {
 							["totalover"] = 0.007185,
 							["total_without_pet"] = 4504.007185,
 							["total"] = 6054.007185,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -523,8 +524,7 @@ _detalhes_database = {
 							["healing_taken"] = 4504.007185,
 							["fight_component"] = true,
 							["end_time"] = 1531942149,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -547,12 +547,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 17,
 										["n_curado"] = 4504,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -563,11 +563,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531942142,
+							["tipo"] = 2,
 							["totaldenied"] = 0.007185,
 							["start_time"] = 1531942123,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1531942142,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -576,7 +576,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 							["totalover"] = 0.007522,
 							["total_without_pet"] = 1550.007522,
 							["total"] = 1550.007522,
@@ -641,7 +641,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["start_time"] = 1531942148,
 							["delay"] = 1531942131,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -819,7 +819,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["classe"] = "PRIEST",
-							["cc_break"] = 3.005852,
+							["grupo"] = true,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[255742] = {
@@ -888,12 +888,12 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[233641] = {
+									[253261] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 233641,
+										["refreshamt"] = 2,
+										["id"] = 253261,
 										["uptime"] = 32,
 										["targets"] = {
 										},
@@ -922,12 +922,12 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[253261] = {
+									[233641] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 2,
-										["id"] = 253261,
+										["refreshamt"] = 0,
+										["id"] = 233641,
 										["uptime"] = 32,
 										["targets"] = {
 										},
@@ -969,36 +969,36 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Mallusof",
 							["fight_component"] = true,
 							["debuff_uptime"] = 52,
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 							["cc_done"] = 4.003855,
-							["nome"] = "Mallusof",
+							["debuff_uptime_targets"] = {
+							},
 							["spec"] = 258,
-							["grupo"] = true,
-							["cc_done_targets"] = {
-								["Forsaken Deceiver"] = 1,
-								["Festering Abomination"] = 1,
-								["Forsaken Bishop"] = 1,
-								["Dark Ranger Alina"] = 1,
+							["cc_break"] = 3.005852,
+							["spell_cast"] = {
+								[147193] = 8,
+								[205369] = 1,
+								[228260] = 1,
+								[34914] = 4,
+								[32379] = 2,
+								[205448] = 2,
+								[8092] = 2,
+								[15407] = 5,
 							},
 							["cc_break_oque"] = {
 								[226943] = 3,
 							},
 							["tipo"] = 4,
 							["last_event"] = 1531942149,
-							["spell_cast"] = {
-								[228260] = 1,
-								[205369] = 1,
-								[147193] = 8,
-								[15407] = 5,
-								[32379] = 2,
-								[205448] = 2,
-								[8092] = 2,
-								[34914] = 4,
+							["cc_done_targets"] = {
+								["Forsaken Deceiver"] = 1,
+								["Festering Abomination"] = 1,
+								["Forsaken Bishop"] = 1,
+								["Dark Ranger Alina"] = 1,
 							},
 							["cc_break_targets"] = {
 								["Festering Abomination"] = 1,
@@ -1014,7 +1014,7 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Mallusof",
 							["nome"] = "Zabra Hexx <Mallusof>",
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[222075] = 4,
 								[222074] = 1,
@@ -1022,8 +1022,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
 							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["fight_component"] = true,
 						}, -- [2]
@@ -1047,7 +1047,7 @@ _detalhes_database = {
 				["combat_counter"] = 22173,
 				["playing_solo"] = true,
 				["totals"] = {
-					70063.961791, -- [1]
+					70063.954472, -- [1]
 					6053.989268, -- [2]
 					{
 						0, -- [1]
@@ -1231,138 +1231,13 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 10471.003812,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 48572.003812,
 							["spells"] = {
 								["_ActorTable"] = {
-									[589] = {
-										["c_amt"] = 12,
-										["b_amt"] = 0,
-										["c_dmg"] = 6519,
-										["g_amt"] = 0,
-										["n_max"] = 272,
-										["targets"] = {
-											["Forsaken Coldwitch"] = 4612,
-											["Forsaken Befouler"] = 2441,
-											["Forsaken Deceiver"] = 1626,
-											["Forsaken Defender"] = 2712,
-											["Sninkwind Hulk"] = 1631,
-											["Forsaken Dark Ranger"] = 1358,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7861,
-										["n_min"] = 271,
-										["g_dmg"] = 0,
-										["counter"] = 41,
-										["total"] = 14380,
-										["c_max"] = 544,
-										["id"] = 589,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 543,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 29,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[148859] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 311,
-										["targets"] = {
-											["Forsaken Coldwitch"] = 931,
-											["Sninkwind Hulk"] = 310,
-											["Forsaken Defender"] = 310,
-											["Forsaken Befouler"] = 310,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1861,
-										["n_min"] = 310,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1861,
-										["c_max"] = 0,
-										["id"] = 148859,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[15407] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 6950,
-										["g_amt"] = 0,
-										["n_max"] = 556,
-										["targets"] = {
-											["Forsaken Dark Ranger"] = 4167,
-											["Sninkwind Hulk"] = 7784,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5001,
-										["n_min"] = 555,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 11951,
-										["c_max"] = 1390,
-										["id"] = 15407,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1390,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[32379] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2331,
-										["targets"] = {
-											["Forsaken Dark Ranger"] = 2331,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2331,
-										["n_min"] = 2331,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2331,
-										["c_max"] = 0,
-										["id"] = 32379,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
 									[199486] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -1395,23 +1270,26 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
-									[8092] = {
+									[148859] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 1977,
+										["n_max"] = 311,
 										["targets"] = {
-											["Forsaken Dark Ranger"] = 1977,
+											["Forsaken Coldwitch"] = 931,
+											["Sninkwind Hulk"] = 310,
+											["Forsaken Defender"] = 310,
+											["Forsaken Befouler"] = 310,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1977,
-										["n_min"] = 1977,
+										["n_dmg"] = 1861,
+										["n_min"] = 310,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1977,
+										["counter"] = 6,
+										["total"] = 1861,
 										["c_max"] = 0,
-										["id"] = 8092,
+										["id"] = 148859,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
@@ -1420,7 +1298,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 6,
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
@@ -1458,12 +1336,134 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2331,
+										["targets"] = {
+											["Forsaken Dark Ranger"] = 2331,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2331,
+										["n_min"] = 2331,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2331,
+										["c_max"] = 0,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[589] = {
+										["c_amt"] = 12,
+										["b_amt"] = 0,
+										["c_dmg"] = 6519,
+										["g_amt"] = 0,
+										["n_max"] = 272,
+										["targets"] = {
+											["Forsaken Coldwitch"] = 4612,
+											["Forsaken Befouler"] = 2441,
+											["Forsaken Deceiver"] = 1626,
+											["Forsaken Defender"] = 2712,
+											["Sninkwind Hulk"] = 1631,
+											["Forsaken Dark Ranger"] = 1358,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7861,
+										["n_min"] = 271,
+										["g_dmg"] = 0,
+										["counter"] = 41,
+										["total"] = 14380,
+										["c_max"] = 544,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 543,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 29,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[8092] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1977,
+										["targets"] = {
+											["Forsaken Dark Ranger"] = 1977,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1977,
+										["n_min"] = 1977,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1977,
+										["c_max"] = 0,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[15407] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 6950,
+										["g_amt"] = 0,
+										["n_max"] = 556,
+										["targets"] = {
+											["Forsaken Dark Ranger"] = 4167,
+											["Sninkwind Hulk"] = 7784,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5001,
+										["n_min"] = 555,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 11951,
+										["c_max"] = 1390,
+										["id"] = 15407,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1390,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
 								},
 								["tipo"] = 2,
 							},
 							["dps_started"] = false,
 							["total"] = 50526.003812,
-							["damage_taken"] = 10471.003812,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -1476,7 +1476,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531942087,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -1651,7 +1651,9 @@ _detalhes_database = {
 							["totalover"] = 1031.007687,
 							["total_without_pet"] = 6844.007687,
 							["total"] = 6844.007687,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+								["Mallusof"] = 3932,
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -1666,9 +1668,7 @@ _detalhes_database = {
 							["healing_taken"] = 6844.007687,
 							["fight_component"] = true,
 							["end_time"] = 1531942107,
-							["targets_absorbs"] = {
-								["Mallusof"] = 3932,
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1722,12 +1722,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 11,
 										["n_curado"] = 2912,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -1739,11 +1739,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531942101,
+							["tipo"] = 2,
 							["totaldenied"] = 0.007687,
 							["start_time"] = 1531942087,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1531942101,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -1796,6 +1796,18 @@ _detalhes_database = {
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = -3,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["actived_at"] = 1531942101,
+										["uptime"] = 7,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 3,
+									},
 									[15407] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -1807,9 +1819,9 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 4,
 									},
-									[589] = {
+									[34914] = {
 										["activedamt"] = -3,
-										["id"] = 589,
+										["id"] = 34914,
 										["targets"] = {
 										},
 										["actived_at"] = 1531942101,
@@ -1829,18 +1841,6 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
-									},
-									[34914] = {
-										["activedamt"] = -3,
-										["id"] = 34914,
-										["targets"] = {
-										},
-										["actived_at"] = 1531942101,
-										["uptime"] = 7,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["appliedamt"] = 3,
 									},
 								},
 								["tipo"] = 9,
@@ -1993,12 +1993,10 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 22,
+							["interrupt"] = 1.006943,
 							["buff_uptime_targets"] = {
 							},
-							["interrupt"] = 1.006943,
-							["interrupt_targets"] = {
-								["Forsaken Dark Ranger"] = 1,
-							},
+							["spec"] = 258,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[147193] = 11,
@@ -2011,13 +2009,15 @@ _detalhes_database = {
 							["pets"] = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
-							["tipo"] = 4,
 							["last_event"] = 1531942107,
+							["tipo"] = 4,
 							["nome"] = "Mallusof",
 							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-11-0A92183E",
-							["spec"] = 258,
+							["interrupt_targets"] = {
+								["Forsaken Dark Ranger"] = 1,
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -2025,15 +2025,15 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222076] = 1,
 								[222072] = 2,
 								[222075] = 2,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -2217,8 +2217,8 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 8366.002351,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 42410.002351,
@@ -2380,8 +2380,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 511,
 										["m_amt"] = 0,
+										["c_min"] = 511,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 11,
@@ -2410,8 +2410,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
@@ -2423,7 +2423,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 44245.002351,
-							["damage_taken"] = 8366.002351,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -2436,7 +2436,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531942058,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -2581,7 +2581,9 @@ _detalhes_database = {
 							["totalover"] = 414.002323,
 							["total_without_pet"] = 7010.002323,
 							["total"] = 7010.002323,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+								["Mallusof"] = 3334,
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -2596,9 +2598,7 @@ _detalhes_database = {
 							["healing_taken"] = 7010.002323,
 							["fight_component"] = true,
 							["end_time"] = 1531942080,
-							["targets_absorbs"] = {
-								["Mallusof"] = 3334,
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2622,12 +2622,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 16,
 										["n_curado"] = 3676,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 									[17] = {
@@ -2669,11 +2669,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531942075,
+							["tipo"] = 2,
 							["totaldenied"] = 0.002323,
 							["start_time"] = 1531942059,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1531942075,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -2696,8 +2696,8 @@ _detalhes_database = {
 							["nome"] = "Mallusof",
 							["spec"] = 258,
 							["grupo"] = true,
-							["tipo"] = 3,
 							["last_event"] = 1531942087,
+							["tipo"] = 3,
 							["alternatepower"] = 0.006201,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2908,8 +2908,8 @@ _detalhes_database = {
 								[49821] = 9,
 								[48045] = 3,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1531942080,
+							["tipo"] = 4,
 							["nome"] = "Mallusof",
 							["pets"] = {
 								"Zabra Hexx <Mallusof>", -- [1]
@@ -2924,15 +2924,15 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222076] = 1,
 								[222075] = 3,
 								[222074] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -3122,41 +3122,42 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 2136.00328,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 33406.00328,
 							["spells"] = {
 								["_ActorTable"] = {
-									[199486] = {
-										["c_amt"] = 0,
+									[589] = {
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 1097,
 										["g_amt"] = 0,
-										["n_max"] = 399,
+										["n_max"] = 274,
 										["targets"] = {
-											["Forsaken Rector"] = 399,
-											["Forsaken Deceiver"] = 798,
-											["Forsaken Befouler"] = 398,
+											["Forsaken Rector"] = 1918,
+											["Forsaken Befouler"] = 1645,
+											["Forsaken Deceiver"] = 1370,
+											["Forsaken Frostflinger"] = 274,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1595,
-										["n_min"] = 398,
+										["n_dmg"] = 4110,
+										["n_min"] = 274,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 1595,
-										["c_max"] = 0,
-										["id"] = 199486,
+										["counter"] = 17,
+										["total"] = 5207,
+										["c_max"] = 549,
+										["id"] = 589,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 548,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 15,
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
@@ -3252,35 +3253,34 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
-									[589] = {
-										["c_amt"] = 2,
+									[228361] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 1097,
+										["c_dmg"] = 3160,
 										["g_amt"] = 0,
-										["n_max"] = 274,
+										["n_max"] = 1580,
 										["targets"] = {
-											["Forsaken Rector"] = 1918,
-											["Forsaken Befouler"] = 1645,
-											["Forsaken Deceiver"] = 1370,
-											["Forsaken Frostflinger"] = 274,
+											["Forsaken Deceiver"] = 4740,
+											["Forsaken Befouler"] = 1580,
+											["Forsaken Frostflinger"] = 1580,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 4110,
-										["n_min"] = 274,
+										["n_dmg"] = 4740,
+										["n_min"] = 1580,
 										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 5207,
-										["c_max"] = 549,
-										["id"] = 589,
+										["counter"] = 4,
+										["total"] = 7900,
+										["c_max"] = 3160,
+										["id"] = 228361,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 548,
+										["c_min"] = 3160,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 15,
+										["n_amt"] = 3,
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
@@ -3313,34 +3313,34 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
-									[228361] = {
-										["c_amt"] = 1,
+									[199486] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 3160,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 1580,
+										["n_max"] = 399,
 										["targets"] = {
-											["Forsaken Deceiver"] = 4740,
-											["Forsaken Befouler"] = 1580,
-											["Forsaken Frostflinger"] = 1580,
+											["Forsaken Rector"] = 399,
+											["Forsaken Deceiver"] = 798,
+											["Forsaken Befouler"] = 398,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 4740,
-										["n_min"] = 1580,
+										["n_dmg"] = 1595,
+										["n_min"] = 398,
 										["g_dmg"] = 0,
 										["counter"] = 4,
-										["total"] = 7900,
-										["c_max"] = 3160,
-										["id"] = 228361,
+										["total"] = 1595,
+										["c_max"] = 0,
+										["id"] = 199486,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 3160,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 4,
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
@@ -3349,7 +3349,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 34115.00328,
-							["damage_taken"] = 2136.00328,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -3362,7 +3362,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531941937,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -3477,7 +3477,9 @@ _detalhes_database = {
 							["totalover"] = 1199.008149,
 							["total_without_pet"] = 4427.008149,
 							["total"] = 4427.008149,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+								["Mallusof"] = 1927,
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -3492,9 +3494,7 @@ _detalhes_database = {
 							["healing_taken"] = 4427.008149,
 							["fight_component"] = true,
 							["end_time"] = 1531941950,
-							["targets_absorbs"] = {
-								["Mallusof"] = 1927,
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3517,12 +3517,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 10,
 										["n_curado"] = 2500,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 									[17] = {
@@ -3564,11 +3564,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531941946,
+							["tipo"] = 2,
 							["totaldenied"] = 0.008149,
 							["start_time"] = 1531941937,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1531941946,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -3800,8 +3800,8 @@ _detalhes_database = {
 								[8092] = 1,
 								[15407] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1531941950,
+							["tipo"] = 4,
 							["nome"] = "Mallusof",
 							["pets"] = {
 								"Zabra Hexx <Mallusof>", -- [1]
@@ -3816,14 +3816,14 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222074] = 1,
 								[222075] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -3991,45 +3991,13 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 8334.007326,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 43218.007326,
 							["spells"] = {
 								["_ActorTable"] = {
-									[199486] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 399,
-										["targets"] = {
-											["Forsaken Shadowblade"] = 398,
-											["Forsaken Defender"] = 797,
-											["Forsaken Archer"] = 398,
-											["Forsaken Frostflinger"] = 399,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1992,
-										["n_min"] = 398,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 1992,
-										["c_max"] = 0,
-										["id"] = 199486,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
 									[589] = {
 										["c_amt"] = 7,
 										["b_amt"] = 0,
@@ -4059,6 +4027,38 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 25,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[199486] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 399,
+										["targets"] = {
+											["Forsaken Shadowblade"] = 398,
+											["Forsaken Defender"] = 797,
+											["Forsaken Archer"] = 398,
+											["Forsaken Frostflinger"] = 399,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1992,
+										["n_min"] = 398,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 1992,
+										["c_max"] = 0,
+										["id"] = 199486,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
@@ -4093,32 +4093,35 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
-									[15407] = {
-										["c_amt"] = 0,
+									[34914] = {
+										["c_amt"] = 9,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 8224,
 										["g_amt"] = 0,
-										["n_max"] = 561,
+										["n_max"] = 458,
 										["targets"] = {
-											["Forsaken Shadowblade"] = 1682,
+											["Forsaken Shadowblade"] = 3199,
+											["Forsaken Defender"] = 5940,
+											["Forsaken Archer"] = 2739,
+											["Forsaken Frostflinger"] = 1829,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1682,
-										["n_min"] = 560,
+										["n_dmg"] = 5483,
+										["n_min"] = 456,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 1682,
-										["c_max"] = 0,
-										["id"] = 15407,
+										["counter"] = 21,
+										["total"] = 13707,
+										["c_max"] = 915,
+										["id"] = 34914,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 910,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 12,
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
@@ -4205,43 +4208,40 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
 										["spellschool"] = 32,
 										["MISS"] = 1,
 									},
-									[34914] = {
-										["c_amt"] = 9,
+									[15407] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 8224,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 458,
+										["n_max"] = 561,
 										["targets"] = {
-											["Forsaken Shadowblade"] = 3199,
-											["Forsaken Defender"] = 5940,
-											["Forsaken Archer"] = 2739,
-											["Forsaken Frostflinger"] = 1829,
+											["Forsaken Shadowblade"] = 1682,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 5483,
-										["n_min"] = 456,
+										["n_dmg"] = 1682,
+										["n_min"] = 560,
 										["g_dmg"] = 0,
-										["counter"] = 21,
-										["total"] = 13707,
-										["c_max"] = 915,
-										["id"] = 34914,
+										["counter"] = 3,
+										["total"] = 1682,
+										["c_max"] = 0,
+										["id"] = 15407,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 910,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 12,
+										["n_amt"] = 3,
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
@@ -4250,7 +4250,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 44894.007326,
-							["damage_taken"] = 8334.007326,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -4263,7 +4263,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531941913,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -4440,7 +4440,8 @@ _detalhes_database = {
 							["totalover"] = 0.005172,
 							["total_without_pet"] = 6593.005172,
 							["total"] = 6593.005172,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -4455,8 +4456,7 @@ _detalhes_database = {
 							["healing_taken"] = 6593.005172,
 							["fight_component"] = true,
 							["end_time"] = 1531941934,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4479,12 +4479,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 21,
 										["n_curado"] = 6593,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -4495,11 +4495,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531941927,
+							["tipo"] = 2,
 							["totaldenied"] = 0.005172,
 							["start_time"] = 1531941914,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1531941927,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -4522,8 +4522,8 @@ _detalhes_database = {
 							["nome"] = "Mallusof",
 							["spec"] = 258,
 							["grupo"] = true,
-							["tipo"] = 3,
 							["last_event"] = 1531941935,
+							["tipo"] = 3,
 							["alternatepower"] = 0.007754,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4575,28 +4575,6 @@ _detalhes_database = {
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[48045] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 48045,
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[15407] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 15407,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 									[34914] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -4618,6 +4596,28 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 6,
+									},
+									[48045] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 48045,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[15407] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 15407,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -4768,17 +4768,17 @@ _detalhes_database = {
 							["spec"] = 258,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[48045] = 2,
+								[8092] = 2,
 								[17] = 1,
 								[147193] = 6,
-								[15407] = 1,
+								[34914] = 6,
 								[32379] = 1,
 								[49821] = 5,
-								[8092] = 2,
-								[34914] = 6,
+								[48045] = 2,
+								[15407] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1531941934,
+							["tipo"] = 4,
 							["nome"] = "Mallusof",
 							["pets"] = {
 								"Zabra Hexx <Mallusof>", -- [1]
@@ -4793,10 +4793,6 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222072] = 1,
 								[222074] = 1,
@@ -4804,6 +4800,10 @@ _detalhes_database = {
 								[222076] = 1,
 								[203343] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -4991,8 +4991,8 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 10533.00814,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 59467.00814,
@@ -5021,8 +5021,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 1397,
 										["m_amt"] = 0,
+										["c_min"] = 1397,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
@@ -5051,8 +5051,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
@@ -5325,8 +5325,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 538,
 										["m_amt"] = 0,
+										["c_min"] = 538,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 12,
@@ -5369,7 +5369,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 62642.00814,
-							["damage_taken"] = 10533.00814,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -5382,7 +5382,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531941872,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -5560,7 +5560,8 @@ _detalhes_database = {
 							["totalover"] = 0.008351,
 							["total_without_pet"] = 4080.008351,
 							["total"] = 4080.008351,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -5575,8 +5576,7 @@ _detalhes_database = {
 							["healing_taken"] = 4080.008351,
 							["fight_component"] = true,
 							["end_time"] = 1531941902,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5599,12 +5599,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 16,
 										["n_curado"] = 4080,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -5615,11 +5615,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531941889,
+							["tipo"] = 2,
 							["totaldenied"] = 0.008351,
 							["start_time"] = 1531941888,
 							["delay"] = 1531941889,
-							["tipo"] = 2,
+							["last_event"] = 1531941889,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -5642,8 +5642,8 @@ _detalhes_database = {
 							["nome"] = "Mallusof",
 							["spec"] = 258,
 							["grupo"] = true,
-							["tipo"] = 3,
 							["last_event"] = 1531941897,
+							["tipo"] = 3,
 							["alternatepower"] = 0.001881,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5655,14 +5655,6 @@ _detalhes_database = {
 										},
 										["counter"] = 4,
 									},
-									[15407] = {
-										["id"] = 15407,
-										["total"] = 24.9099999070168,
-										["targets"] = {
-											["Mallusof"] = 24.9099999070168,
-										},
-										["counter"] = 10,
-									},
 									[34914] = {
 										["id"] = 34914,
 										["total"] = 18,
@@ -5670,6 +5662,14 @@ _detalhes_database = {
 											["Mallusof"] = 18,
 										},
 										["counter"] = 3,
+									},
+									[205448] = {
+										["id"] = 205448,
+										["total"] = 16,
+										["targets"] = {
+											["Mallusof"] = 16,
+										},
+										["counter"] = 1,
 									},
 									[190714] = {
 										["id"] = 190714,
@@ -5695,13 +5695,13 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
-									[205448] = {
-										["id"] = 205448,
-										["total"] = 16,
+									[15407] = {
+										["id"] = 15407,
+										["total"] = 24.9099999070168,
 										["targets"] = {
-											["Mallusof"] = 16,
+											["Mallusof"] = 24.9099999070168,
 										},
-										["counter"] = 1,
+										["counter"] = 10,
 									},
 								},
 								["tipo"] = 7,
@@ -5840,13 +5840,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[233641] = {
+									[253261] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 233641,
-										["uptime"] = 32,
+										["refreshamt"] = 1,
+										["id"] = 253261,
+										["uptime"] = 19,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -5896,13 +5896,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[253261] = {
+									[233641] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 253261,
-										["uptime"] = 19,
+										["refreshamt"] = 0,
+										["id"] = 233641,
+										["uptime"] = 32,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -5948,12 +5948,10 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 41,
+							["interrupt"] = 1.00584,
 							["buff_uptime_targets"] = {
 							},
-							["interrupt"] = 1.00584,
-							["interrupt_targets"] = {
-								["Forsaken Frostflinger"] = 1,
-							},
+							["spec"] = 258,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[15407] = 4,
@@ -5964,21 +5962,23 @@ _detalhes_database = {
 								[32379] = 2,
 								[205448] = 1,
 								[15487] = 1,
-								[203343] = 1,
 								[589] = 1,
-								[228260] = 1,
+								[203343] = 1,
 								[49821] = 4,
+								[228260] = 1,
 							},
 							["pets"] = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
-							["tipo"] = 4,
 							["last_event"] = 1531941902,
+							["tipo"] = 4,
 							["nome"] = "Mallusof",
 							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-11-0A92183E",
-							["spec"] = 258,
+							["interrupt_targets"] = {
+								["Forsaken Frostflinger"] = 1,
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -5986,10 +5986,6 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222072] = 2,
 								[222074] = 2,
@@ -5997,6 +5993,10 @@ _detalhes_database = {
 								[222076] = 1,
 								[203343] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -6299,8 +6299,8 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["classe"] = "PRIEST",
 							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 23879.008735,
@@ -6416,11 +6416,11 @@ _detalhes_database = {
 							["end_time"] = 1531941644,
 							["colocacao"] = 1,
 							["last_event"] = 1531941643,
-							["on_hold"] = false,
-							["start_time"] = 1531941634,
-							["serial"] = "Player-11-0A92183E",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1531941634,
+							["serial"] = "Player-11-0A92183E",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -6607,7 +6607,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 75,
+							["pets"] = {
+								"Zabra Hexx <Mallusof>", -- [1]
+							},
 							["classe"] = "PRIEST",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -6723,16 +6725,14 @@ _detalhes_database = {
 								[48045] = 2,
 								[49821] = 6,
 							},
-							["pets"] = {
-								"Zabra Hexx <Mallusof>", -- [1]
-							},
+							["tipo"] = 4,
 							["last_event"] = 1531941644,
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
-							["serial"] = "Player-11-0A92183E",
 							["debuff_uptime_targets"] = {
 							},
+							["serial"] = "Player-11-0A92183E",
+							["buff_uptime"] = 75,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -6740,14 +6740,14 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222074] = 1,
 								[222075] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -7010,8 +7010,8 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 1135.002289,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9172.002289,
@@ -7076,36 +7076,6 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
-									[199486] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 394,
-										["targets"] = {
-											["Timeworn Stormcaller"] = 393,
-											["Timeworn Riptail"] = 394,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 787,
-										["n_min"] = 393,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 787,
-										["c_max"] = 0,
-										["id"] = 199486,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
 									[589] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -7129,6 +7099,37 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["m_crit"] = 0,
 										["c_min"] = 541,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[49821] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 512,
+										["g_amt"] = 0,
+										["n_max"] = 285,
+										["targets"] = {
+											["Juvenile Scuttleback"] = 256,
+											["Timeworn Stormcaller"] = 280,
+											["Timeworn Riptail"] = 1323,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1347,
+										["n_min"] = 256,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1859,
+										["c_max"] = 512,
+										["id"] = 49821,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 512,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -7165,34 +7166,33 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
-									[49821] = {
-										["c_amt"] = 1,
+									[199486] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 512,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 285,
+										["n_max"] = 394,
 										["targets"] = {
-											["Juvenile Scuttleback"] = 256,
-											["Timeworn Stormcaller"] = 280,
-											["Timeworn Riptail"] = 1323,
+											["Timeworn Stormcaller"] = 393,
+											["Timeworn Riptail"] = 394,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1347,
-										["n_min"] = 256,
+										["n_dmg"] = 787,
+										["n_min"] = 393,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1859,
-										["c_max"] = 512,
-										["id"] = 49821,
+										["counter"] = 2,
+										["total"] = 787,
+										["c_max"] = 0,
+										["id"] = 199486,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 512,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 5,
+										["n_amt"] = 2,
 										["a_dmg"] = 0,
 										["spellschool"] = 32,
 									},
@@ -7201,7 +7201,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 9421.002289,
-							["damage_taken"] = 1135.002289,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -7214,7 +7214,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531941608,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -7329,7 +7329,8 @@ _detalhes_database = {
 							["totalover"] = 0.00484,
 							["total_without_pet"] = 807.00484,
 							["total"] = 807.00484,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -7344,8 +7345,7 @@ _detalhes_database = {
 							["healing_taken"] = 807.00484,
 							["fight_component"] = true,
 							["end_time"] = 1531941613,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7368,12 +7368,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 4,
 										["n_curado"] = 807,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -7384,11 +7384,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531941613,
+							["tipo"] = 2,
 							["totaldenied"] = 0.00484,
 							["start_time"] = 1531941609,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1531941613,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -7411,8 +7411,8 @@ _detalhes_database = {
 							["nome"] = "Mallusof",
 							["spec"] = 258,
 							["grupo"] = true,
-							["tipo"] = 3,
 							["last_event"] = 1531941634,
+							["tipo"] = 3,
 							["alternatepower"] = 0.002632,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7572,12 +7572,12 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[233641] = {
+									[253261] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 233641,
+										["id"] = 253261,
 										["uptime"] = 5,
 										["targets"] = {
 										},
@@ -7605,12 +7605,12 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[253261] = {
+									[233641] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 253261,
+										["id"] = 233641,
 										["uptime"] = 5,
 										["targets"] = {
 										},
@@ -7632,8 +7632,8 @@ _detalhes_database = {
 								[48045] = 1,
 								[8092] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1531941613,
+							["tipo"] = 4,
 							["nome"] = "Mallusof",
 							["pets"] = {
 								"Zabra Hexx <Mallusof>", -- [1]
@@ -7648,13 +7648,13 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222075] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -7906,8 +7906,8 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 1152.008682,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7133.008682,
@@ -8005,7 +8005,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 7133.008682,
-							["damage_taken"] = 1152.008682,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -8018,7 +8018,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531941588,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -8044,6 +8044,13 @@ _detalhes_database = {
 							["classe"] = "PRIEST",
 							["alternatepower"] = 0.001644,
 							["nome"] = "Mallusof",
+							["spec"] = 258,
+							["grupo"] = true,
+							["received"] = 30.751644,
+							["last_event"] = 1531941607,
+							["total"] = 30.751644,
+							["tipo"] = 3,
+							["serial"] = "Player-11-0A92183E",
 							["spells"] = {
 								["_ActorTable"] = {
 									[8092] = {
@@ -8081,13 +8088,6 @@ _detalhes_database = {
 								},
 								["tipo"] = 7,
 							},
-							["grupo"] = true,
-							["received"] = 30.751644,
-							["last_event"] = 1531941607,
-							["total"] = 30.751644,
-							["tipo"] = 3,
-							["serial"] = "Player-11-0A92183E",
-							["spec"] = 258,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -8099,28 +8099,6 @@ _detalhes_database = {
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[48045] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 48045,
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[15407] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 15407,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 									[34914] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -8143,10 +8121,34 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
+									[48045] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 48045,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[15407] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 15407,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 48,
+							["pets"] = {
+								"Zabra Hexx <Mallusof>", -- [1]
+							},
 							["classe"] = "PRIEST",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -8205,13 +8207,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[233641] = {
+									[253261] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 233641,
-										["uptime"] = 7,
+										["id"] = 253261,
+										["uptime"] = 5,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -8238,13 +8240,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[253261] = {
+									[233641] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 253261,
-										["uptime"] = 5,
+										["id"] = 233641,
+										["uptime"] = 7,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -8258,21 +8260,19 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spell_cast"] = {
 								[34914] = 1,
-								[8092] = 1,
-								[49821] = 3,
 								[48045] = 1,
+								[49821] = 3,
+								[8092] = 1,
 								[15407] = 1,
 							},
-							["pets"] = {
-								"Zabra Hexx <Mallusof>", -- [1]
-							},
+							["tipo"] = 4,
 							["last_event"] = 1531941593,
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
-							["serial"] = "Player-11-0A92183E",
 							["debuff_uptime_targets"] = {
 							},
+							["serial"] = "Player-11-0A92183E",
+							["buff_uptime"] = 48,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -8280,14 +8280,14 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222075] = 1,
 								[222074] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -8431,8 +8431,8 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 879.007723,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6294.007723,
@@ -8533,7 +8533,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 6505.007723,
-							["damage_taken"] = 879.007723,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -8546,7 +8546,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531941550,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -8632,7 +8632,8 @@ _detalhes_database = {
 							["totalover"] = 0.00734,
 							["total_without_pet"] = 675.00734,
 							["total"] = 675.00734,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -8647,8 +8648,7 @@ _detalhes_database = {
 							["healing_taken"] = 675.00734,
 							["fight_component"] = true,
 							["end_time"] = 1531941556,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8671,12 +8671,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 3,
 										["n_curado"] = 675,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -8687,11 +8687,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531941555,
+							["tipo"] = 2,
 							["totaldenied"] = 0.00734,
 							["start_time"] = 1531941551,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1531941555,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -8711,6 +8711,13 @@ _detalhes_database = {
 							["classe"] = "PRIEST",
 							["alternatepower"] = 0.002658,
 							["nome"] = "Mallusof",
+							["spec"] = 258,
+							["grupo"] = true,
+							["received"] = 0.002658,
+							["last_event"] = 1531941573,
+							["total"] = 0.002658,
+							["tipo"] = 3,
+							["serial"] = "Player-11-0A92183E",
 							["spells"] = {
 								["_ActorTable"] = {
 									[34914] = {
@@ -8724,13 +8731,6 @@ _detalhes_database = {
 								},
 								["tipo"] = 7,
 							},
-							["grupo"] = true,
-							["received"] = 0.002658,
-							["last_event"] = 1531941573,
-							["total"] = 0.002658,
-							["tipo"] = 3,
-							["serial"] = "Player-11-0A92183E",
-							["spec"] = 258,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -8896,8 +8896,8 @@ _detalhes_database = {
 								[34914] = 1,
 								[15407] = 2,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1531941556,
+							["tipo"] = 4,
 							["nome"] = "Mallusof",
 							["pets"] = {
 								"Zabra Hexx <Mallusof>", -- [1]
@@ -8912,14 +8912,14 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222075] = 1,
 								[222074] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -9065,8 +9065,8 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["on_hold"] = false,
-							["classe"] = "PRIEST",
+							["damage_taken"] = 659.007637,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4548.007637,
@@ -9165,7 +9165,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 5698.007637,
-							["damage_taken"] = 659.007637,
+							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Mallusof",
 							["spec"] = 258,
@@ -9178,7 +9178,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1531941531,
 							["serial"] = "Player-11-0A92183E",
-							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -9293,7 +9293,8 @@ _detalhes_database = {
 							["totalover"] = 0.003883,
 							["total_without_pet"] = 386.003883,
 							["total"] = 386.003883,
-							["spec"] = 258,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -9308,8 +9309,7 @@ _detalhes_database = {
 							["healing_taken"] = 386.003883,
 							["fight_component"] = true,
 							["end_time"] = 1531941538,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 258,
 							["nome"] = "Mallusof",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9332,12 +9332,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 2,
 										["n_curado"] = 386,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -9348,11 +9348,11 @@ _detalhes_database = {
 							},
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1531941537,
+							["tipo"] = 2,
 							["totaldenied"] = 0.003883,
 							["start_time"] = 1531941535,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1531941537,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -9375,8 +9375,8 @@ _detalhes_database = {
 							["nome"] = "Mallusof",
 							["spec"] = 258,
 							["grupo"] = true,
-							["tipo"] = 3,
 							["last_event"] = 1531941549,
+							["tipo"] = 3,
 							["alternatepower"] = 0.006884,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9553,8 +9553,8 @@ _detalhes_database = {
 								[34914] = 2,
 								[15407] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1531941538,
+							["tipo"] = 4,
 							["nome"] = "Mallusof",
 							["pets"] = {
 								"Zabra Hexx <Mallusof>", -- [1]
@@ -9569,14 +9569,14 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222072] = 1,
 								[222075] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -9719,8 +9719,8 @@ _detalhes_database = {
 								"Zabra Hexx <Mallusof>", -- [1]
 							},
 							["custom"] = 0,
-							["classe"] = "PRIEST",
 							["friendlyfire_total"] = 0,
+							["classe"] = "PRIEST",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7823.001301,
@@ -9769,11 +9769,11 @@ _detalhes_database = {
 							["end_time"] = 1531941509,
 							["colocacao"] = 1,
 							["last_event"] = 1531941508,
-							["on_hold"] = false,
-							["start_time"] = 1531941503,
-							["serial"] = "Player-11-0A92183E",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1531941503,
+							["serial"] = "Player-11-0A92183E",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -9865,6 +9865,13 @@ _detalhes_database = {
 							["classe"] = "PRIEST",
 							["alternatepower"] = 0.006898,
 							["nome"] = "Mallusof",
+							["spec"] = 258,
+							["grupo"] = true,
+							["received"] = 36.256898,
+							["last_event"] = 1531941531,
+							["total"] = 36.256898,
+							["tipo"] = 3,
+							["serial"] = "Player-11-0A92183E",
 							["spells"] = {
 								["_ActorTable"] = {
 									[589] = {
@@ -9894,13 +9901,6 @@ _detalhes_database = {
 								},
 								["tipo"] = 7,
 							},
-							["grupo"] = true,
-							["received"] = 36.256898,
-							["last_event"] = 1531941531,
-							["total"] = 36.256898,
-							["tipo"] = 3,
-							["serial"] = "Player-11-0A92183E",
-							["spec"] = 258,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -9926,7 +9926,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 36,
+							["pets"] = {
+								"Zabra Hexx <Mallusof>", -- [1]
+							},
 							["classe"] = "PRIEST",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -10007,16 +10009,14 @@ _detalhes_database = {
 								[49821] = 7,
 								[48045] = 1,
 							},
-							["pets"] = {
-								"Zabra Hexx <Mallusof>", -- [1]
-							},
+							["tipo"] = 4,
 							["last_event"] = 1531941509,
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
-							["serial"] = "Player-11-0A92183E",
 							["debuff_uptime_targets"] = {
 							},
+							["serial"] = "Player-11-0A92183E",
+							["buff_uptime"] = 36,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -10024,14 +10024,14 @@ _detalhes_database = {
 							["nome"] = "Zabra Hexx <Mallusof>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
 							["spell_cast"] = {
 								[222075] = 1,
 								[222072] = 1,
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -10101,7 +10101,7 @@ _detalhes_database = {
 				},
 				["end_time"] = 168039.624,
 				["data_inicio"] = "12:18:23",
-				["combat_id"] = 16127,
+				["instance_type"] = "none",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
@@ -10151,11 +10151,11 @@ _detalhes_database = {
 				},
 				["start_time"] = 168033.838,
 				["contra"] = "Shoalfin Slave",
-				["instance_type"] = "none",
+				["combat_id"] = 16127,
 			}, -- [12]
 		},
 	},
-	["combat_counter"] = 22178,
+	["combat_counter"] = 22180,
 	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
@@ -10255,8 +10255,8 @@ _detalhes_database = {
 				"3: 37,152,024", -- [1]
 				"2: 29,590,685", -- [2]
 			},
-			["dps"] = 37152024.002041,
 			["author"] = "Details! Team",
+			["dps"] = 37152024.002041,
 			["level"] = 3,
 			["enabled"] = true,
 		},
@@ -10331,6 +10331,20 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["use_spark"] = false,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -22.6146240234375,
+			["font_size"] = 14,
+			["x"] = 0,
+			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "TOPLEFT",
@@ -10342,34 +10356,20 @@ _detalhes_database = {
 				["update_speed"] = 0.0480000004172325,
 				["attribute_type"] = 2,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-			},
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
-			["y"] = -22.6146240234375,
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["font_size"] = 14,
 			["main_frame_strata"] = "LOW",
-			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -10380,20 +10380,14 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
-		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -10496,13 +10490,18 @@ _detalhes_database = {
 				["window_scale"] = 1,
 			},
 		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 	},
-	["ignore_nicktag"] = false,
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Darkheart Thicket",
 		["started"] = false,
@@ -10515,6 +10514,7 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 1530427217,
 	},
 	["last_encounter"] = "Il'gynoth, The Heart of Corruption",
+	["ignore_nicktag"] = false,
 	["nick_tag_cache"] = {
 		["last_version"] = 10,
 		["nextreset"] = 1532393602,
@@ -10576,8 +10576,8 @@ _detalhes_database = {
 						["Juvenile Scuttleback"] = 0,
 						["Shoalfin Warrior"] = 0,
 						["Timeworn Raider"] = 0,
-						["Timeworn Taskmaster"] = 0,
 						["Dark Ranger Alina"] = 38457,
+						["Timeworn Taskmaster"] = 0,
 						["Forsaken Plaguebringer"] = 12664,
 						["Forsaken Archer"] = 10159,
 						["Forsaken Defender"] = 32133,
@@ -10587,9 +10587,9 @@ _detalhes_database = {
 					["pets"] = {
 						"Zabra Hexx <Mallusof> <Mallusof>", -- [1]
 					},
-					["last_dps"] = 0,
+					["damage_taken"] = 46395.03204,
 					["tipo"] = 1,
-					["classe"] = "PRIEST",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 293401.03204,
@@ -10691,8 +10691,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
@@ -10718,8 +10718,8 @@ _detalhes_database = {
 									["Forsaken Deceiver"] = 7711,
 									["Shoalfin Warrior"] = 0,
 									["Timeworn Warrior"] = 0,
-									["Timeworn Taskmaster"] = 0,
 									["Dark Ranger Alina"] = 6357,
+									["Timeworn Taskmaster"] = 0,
 									["Forsaken Dark Ranger"] = 905,
 									["Forsaken Archer"] = 4999,
 									["Forsaken Defender"] = 11372,
@@ -10737,8 +10737,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 90,
@@ -10804,8 +10804,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
@@ -10833,8 +10833,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -10877,8 +10877,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 39,
@@ -10917,8 +10917,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 18,
@@ -10947,8 +10947,8 @@ _detalhes_database = {
 									["Timeworn Warrior"] = 0,
 									["Shoalfin Warrior"] = 0,
 									["Timeworn Raider"] = 0,
-									["Timeworn Taskmaster"] = 0,
 									["Dark Ranger Alina"] = 5453,
+									["Timeworn Taskmaster"] = 0,
 									["Forsaken Plaguebringer"] = 3804,
 									["Forsaken Archer"] = 3811,
 									["Forsaken Defender"] = 10364,
@@ -10966,8 +10966,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 157,
@@ -10985,13 +10985,13 @@ _detalhes_database = {
 									["Forsaken Deceiver"] = 3818,
 									["Shoalfin Warrior"] = 0,
 									["Timeworn Stormcaller"] = 0,
+									["Juvenile Scuttleback"] = 0,
 									["Timeworn Raider"] = 0,
-									["Forsaken Defender"] = 3900,
 									["Festering Abomination"] = 1618,
 									["Shoalfin Slave"] = 0,
 									["Forsaken Frostflinger"] = 2122,
 									["Forsaken Shadowblade"] = 4607,
-									["Juvenile Scuttleback"] = 0,
+									["Forsaken Defender"] = 3900,
 									["Captain Grimshanks"] = 1024,
 									["Forsaken Plaguebringer"] = 1088,
 								},
@@ -11042,8 +11042,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 8,
@@ -11053,7 +11053,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 46395.03204,
+					["last_dps"] = 0,
 					["nome"] = "Mallusof",
 					["spec"] = 258,
 					["grupo"] = true,
@@ -11065,7 +11065,7 @@ _detalhes_database = {
 					},
 					["start_time"] = 1531941767,
 					["serial"] = "Player-11-0A92183E",
-					["friendlyfire_total"] = 0,
+					["classe"] = "PRIEST",
 				}, -- [1]
 				{
 					["flag_original"] = 8465,
@@ -11126,8 +11126,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
@@ -11159,8 +11159,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 36,
@@ -11192,8 +11192,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 22,
@@ -11225,8 +11225,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
@@ -11253,8 +11253,8 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["targets_overheal"] = {
-						["Mallusof"] = 0,
+					["healing_from"] = {
+						["Mallusof"] = true,
 					},
 					["pets"] = {
 						"Zabra Hexx <Mallusof> <Mallusof>", -- [1]
@@ -11281,7 +11281,9 @@ _detalhes_database = {
 					["healing_taken"] = 33458.040704,
 					["fight_component"] = true,
 					["end_time"] = 1531941903,
-					["heal_enemy_amt"] = 0,
+					["targets_overheal"] = {
+						["Mallusof"] = 0,
+					},
 					["nome"] = "Mallusof",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -11305,12 +11307,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 91,
 								["n_curado"] = 24265,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[17] = {
@@ -11334,28 +11336,26 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 42,
 								["n_curado"] = 9193,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["healing_from"] = {
-						["Mallusof"] = true,
-					},
 					["spec"] = 258,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["totaldenied"] = 0.040704,
 					["start_time"] = 1531941786,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 8465,
@@ -11364,7 +11364,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 					["totalover"] = 0.009586,
 					["total_without_pet"] = 1550.009586,
 					["total"] = 1550.009586,
@@ -11408,12 +11408,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 1,
 								["n_curado"] = 1550,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
@@ -11425,7 +11425,7 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1531942146,
 					["delay"] = 0,
 					["tipo"] = 2,
@@ -11437,7 +11437,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 398.753623969006,
-					["resource"] = 0.292279,
+					["resource"] = 0.395741,
 					["targets"] = {
 						["Mallusof"] = 0,
 					},
@@ -11460,14 +11460,6 @@ _detalhes_database = {
 								},
 								["counter"] = 18,
 							},
-							[205448] = {
-								["id"] = 205448,
-								["total"] = 32,
-								["targets"] = {
-									["Mallusof"] = 0,
-								},
-								["counter"] = 2,
-							},
 							[15407] = {
 								["id"] = 15407,
 								["total"] = 56.4699999690056,
@@ -11475,6 +11467,14 @@ _detalhes_database = {
 									["Mallusof"] = 0,
 								},
 								["counter"] = 22,
+							},
+							[34914] = {
+								["id"] = 34914,
+								["total"] = 90,
+								["targets"] = {
+									["Mallusof"] = 0,
+								},
+								["counter"] = 26,
 							},
 							[190714] = {
 								["id"] = 190714,
@@ -11500,13 +11500,13 @@ _detalhes_database = {
 								},
 								["counter"] = 5,
 							},
-							[34914] = {
-								["id"] = 34914,
-								["total"] = 90,
+							[205448] = {
+								["id"] = 205448,
+								["total"] = 32,
 								["targets"] = {
 									["Mallusof"] = 0,
 								},
-								["counter"] = 26,
+								["counter"] = 2,
 							},
 						},
 						["tipo"] = 7,
@@ -11620,9 +11620,10 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["nome"] = "Mallusof",
-					["buff_uptime"] = 1056,
-					["debuff_uptime_targets"] = {
+					["pets"] = {
+						"Zabra Hexx <Mallusof> <Mallusof>", -- [1]
 					},
+					["buff_uptime"] = 1056,
 					["cc_done_spells"] = {
 						["_ActorTable"] = {
 							[226943] = {
@@ -11834,25 +11835,24 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["interrupt_targets"] = {
-						["Forsaken Frostflinger"] = 1,
-						["Forsaken Dark Ranger"] = 1,
-					},
+					["interrupt"] = 2.012783,
 					["interrompeu_oque"] = {
 						[204735] = 1,
 						[205425] = 1,
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 207,
-					["pets"] = {
-						"Zabra Hexx <Mallusof> <Mallusof>", -- [1]
+					["buff_uptime_targets"] = {
 					},
 					["cc_done"] = 4.007972,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
 					["spec"] = 258,
 					["cc_break"] = 3.005852,
-					["interrupt"] = 2.012783,
+					["interrupt_targets"] = {
+						["Forsaken Frostflinger"] = 1,
+						["Forsaken Dark Ranger"] = 1,
+					},
 					["spell_cast"] = {
 						[15407] = 16,
 						[48045] = 6,
@@ -11892,7 +11892,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["ownerName"] = "Mallusof",
 					["nome"] = "Zabra Hexx <Mallusof> <Mallusof>",
-					["last_event"] = 0,
+					["classe"] = "PET",
 					["spell_cast"] = {
 						[222072] = 6,
 						[222074] = 6,
@@ -11901,11 +11901,11 @@ _detalhes_database = {
 						[203343] = 2,
 					},
 					["tipo"] = 4,
-					["classe"] = "PET",
-					["flag_original"] = 8465,
-					["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+					["last_event"] = 0,
 					["pets"] = {
 					},
+					["serial"] = "Creature-0-3878-1220-854-111506-00004F921B",
+					["flag_original"] = 8465,
 				}, -- [2]
 			},
 		}, -- [4]
@@ -11964,8 +11964,28 @@ _detalhes_database = {
 			},
 		},
 		["end_time"] = 168680.369,
+		["totals_grupo"] = {
+			305309.030198, -- [1]
+			35008.038867, -- [2]
+			{
+				0, -- [1]
+				[0] = 318.175835907017,
+				["alternatepower"] = 0,
+				[6] = 80.5710470619888,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 3.005852,
+				["interrupt"] = 2.012783,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
 		["overall_refreshed"] = true,
-		["data_inicio"] = "12:24:30",
 		["hasSaved"] = true,
 		["frags"] = {
 		},
@@ -12018,30 +12038,10 @@ _detalhes_database = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["totals_grupo"] = {
-			305309.030198, -- [1]
-			35008.038867, -- [2]
-			{
-				0, -- [1]
-				[0] = 318.175835907017,
-				["alternatepower"] = 0,
-				[6] = 80.5710470619888,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 3.005852,
-				["interrupt"] = 2.012783,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-		},
+		["data_inicio"] = "12:24:30",
 	},
 	["character_data"] = {
-		["logons"] = 1149,
+		["logons"] = 1151,
 	},
 	["SoloTablesSaved"] = {
 		["Mode"] = 3,
@@ -12064,6 +12064,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-11-0A92183E"] = 258,
+		["Player-11-0A92183E"] = 256,
 	},
 }

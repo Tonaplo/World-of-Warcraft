@@ -7,6 +7,17 @@ SexyMap2DB = {
 	["Lorvol-Tichondrius"] = "global",
 	["Kaldorath-Proudmoore"] = "global",
 	["Granjior-Proudmoore"] = "global",
+	["presets"] = {
+	},
+	["Praerend-Proudmoore"] = "global",
+	["Alura-Tichondrius"] = "global",
+	["Korugen-Tichondrius"] = "global",
+	["Morifa-Proudmoore"] = "global",
+	["Zethan-Tichondrius"] = "global",
+	["Farahn-Proudmoore"] = "global",
+	["Rahran-Proudmoore"] = "global",
+	["Greybone-Proudmoore"] = "global",
+	["Amranar-Proudmoore"] = "global",
 	["global"] = {
 		["ping"] = {
 			["showPing"] = true,
@@ -14,16 +25,28 @@ SexyMap2DB = {
 		},
 		["coordinates"] = {
 			["enabled"] = true,
-			["x"] = -0.0003662109375,
+			["x"] = 0,
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 			},
-			["locked"] = false,
+			["locked"] = true,
+			["y"] = 76.9075927734375,
 			["updateRate"] = 1,
 			["backgroundColor"] = {
 			},
-			["y"] = 64.6276245117188,
+		},
+		["core"] = {
+			["clamp"] = true,
+			["point"] = "TOPRIGHT",
+			["relpoint"] = "TOPRIGHT",
+			["autoZoom"] = 5,
+			["northTag"] = true,
+			["y"] = -74.9572448730469,
+			["x"] = -20.8370418548584,
+			["lock"] = false,
+			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+			["rightClickToConfig"] = true,
 		},
 		["buttons"] = {
 			["radius"] = 10,
@@ -33,13 +56,13 @@ SexyMap2DB = {
 				["MinimapZoomIn"] = "never",
 				["MiniMapMailFrame"] = "always",
 				["GameTimeFrame"] = "hover",
-				["TimeManagerClockButton"] = "always",
+				["TimeManagerClockButton"] = "never",
 				["MinimapZoomOut"] = "never",
 				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "hover",
-				["MiniMapWorldMapButton"] = "hover",
-				["MinimapZoneTextButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
 				["LibDBIcon10_ExorsusRaidTools"] = "hover",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "hover",
 			},
 			["dragPositions"] = {
 				["LibDBIcon10_Grid2"] = 207.818123359674,
@@ -50,38 +73,20 @@ SexyMap2DB = {
 			},
 			["controlVisibility"] = true,
 		},
-		["movers"] = {
-			["enabled"] = true,
-			["framePositions"] = {
-				["ObjectiveTrackerFrame"] = {
-					["y"] = 852.268005371094,
-					["x"] = 1718.96520996094,
-				},
-				["DurabilityFrame"] = {
-					["y"] = 811.885559082031,
-					["x"] = 1607.46691894531,
-				},
-				["VehicleSeatIndicator"] = {
-					["y"] = 727.11083984375,
-					["x"] = 1579.00219726563,
-				},
-			},
-			["lock"] = true,
-		},
 		["clock"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -91,8 +96,8 @@ SexyMap2DB = {
 			["borders"] = {
 				{
 					["rotation"] = 225,
-					["name"] = "RenaitreFadeBorder",
 					["blendMode"] = "BLEND",
+					["name"] = "RenaitreFadeBorder",
 					["r"] = 0,
 					["scale"] = 1.47,
 					["b"] = 0,
@@ -142,43 +147,38 @@ SexyMap2DB = {
 		["zonetext"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["core"] = {
-			["clamp"] = true,
-			["point"] = "TOPRIGHT",
-			["relpoint"] = "TOPRIGHT",
-			["autoZoom"] = 5,
-			["northTag"] = true,
-			["y"] = -74.9572448730469,
-			["x"] = -20.8370418548584,
-			["lock"] = false,
-			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
-			["rightClickToConfig"] = true,
+		["movers"] = {
+			["enabled"] = true,
+			["framePositions"] = {
+				["ObjectiveTrackerFrame"] = {
+					["y"] = 852.268005371094,
+					["x"] = 1718.96520996094,
+				},
+				["DurabilityFrame"] = {
+					["y"] = 811.885559082031,
+					["x"] = 1607.46691894531,
+				},
+				["VehicleSeatIndicator"] = {
+					["y"] = 727.11083984375,
+					["x"] = 1579.00219726563,
+				},
+			},
+			["lock"] = true,
 		},
-	},
-	["Praerend-Proudmoore"] = "global",
-	["Alura-Tichondrius"] = "global",
-	["Amranar-Proudmoore"] = "global",
-	["Greybone-Proudmoore"] = "global",
-	["Zethan-Tichondrius"] = "global",
-	["Farahn-Proudmoore"] = "global",
-	["Rahran-Proudmoore"] = "global",
-	["Morifa-Proudmoore"] = "global",
-	["Korugen-Tichondrius"] = "global",
-	["presets"] = {
 	},
 }

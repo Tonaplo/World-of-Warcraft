@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Aku'mai",
+		}, -- [1]
+		{
+			["boss"] = "Twilight Lord Bathiel",
+		}, -- [2]
+		{
+			["boss"] = "Guardian of the Deep",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[150438] = {
 			["school"] = 1,
@@ -358,17 +369,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Randolph Moloch",
 		},
-		[86633] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[151303] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lord Overheat",
+			["source"] = "Aku'mai the Devourer",
 		},
 		[20805] = {
 			["school"] = 8,
@@ -379,12 +386,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Pythas",
 		},
-		[150025] = {
-			["school"] = 16,
+		[150660] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Restorative Waters",
+			["source"] = "Deep Terror",
 		},
 		[149943] = {
 			["school"] = 32,
@@ -406,13 +415,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hogger",
 		},
-		[149908] = {
+		[150035] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Thruk",
+			["source"] = "Restorative Waters",
 		},
 		[86620] = {
 			["school"] = 1,
@@ -421,14 +430,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hogger",
 		},
-		[12466] = {
-			["school"] = 4,
+		[8150] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lord Overheat",
+			["source"] = "Mutanus the Devourer",
 		},
 		[86636] = {
 			["school"] = 4,
@@ -441,14 +451,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Overheat",
 		},
-		[9532] = {
-			["school"] = 8,
+		[8040] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Druid of the Fang",
+			["source"] = "Lady Anacondra",
 		},
 		[14516] = {
 			["school"] = 1,
@@ -466,18 +477,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Disciple",
 		},
-		[86729] = {
+		[151813] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Randolph Moloch",
+			["source"] = "Twilight Lord Bathiel",
 		},
-		[149920] = {
+		[152753] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Guardian of the Deep",
 		},
@@ -518,22 +531,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thruk",
 		},
-		[152753] = {
+		[149920] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Guardian of the Deep",
 		},
-		[151813] = {
+		[86729] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Twilight Lord Bathiel",
+			["source"] = "Randolph Moloch",
 		},
 		[3600] = {
 			["school"] = 8,
@@ -543,42 +554,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Earthbind Totem",
 		},
-		[8040] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[9532] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lady Anacondra",
-		},
-		[8150] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mutanus the Devourer",
+			["source"] = "Druid of the Fang",
 		},
-		[150035] = {
+		[12466] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lord Overheat",
+		},
+		[149908] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Thruk",
+		},
+		[150025] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Restorative Waters",
-		},
-		[150660] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Deep Terror",
 		},
 		[150549] = {
 			["school"] = 32,
@@ -587,24 +594,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Voidwalker Minion",
 		},
-		[151303] = {
-			["school"] = 32,
+		[86633] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Aku'mai the Devourer",
+			["source"] = "Lord Overheat",
 		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Aku'mai",
-		}, -- [1]
-		{
-			["boss"] = "Twilight Lord Bathiel",
-		}, -- [2]
-		{
-			["boss"] = "Guardian of the Deep",
-		}, -- [3]
 	},
 }
