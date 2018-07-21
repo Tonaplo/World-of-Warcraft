@@ -1,4 +1,95 @@
 ------------------------------------------------------------------------
+r848 | chaoslux | 2018-07-21 00:21:23 +0000 (Sat, 21 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/init.lua
+
+- Fixed Revision Number
+------------------------------------------------------------------------
+r847 | chaoslux | 2018-07-21 00:07:34 +0000 (Sat, 21 Jul 2018) | 2 lines
+Changed paths:
+   M /trunk/LUI.lua
+   M /trunk/LUI.toc
+
+- Updated TOC
+- Updated Thank You
+------------------------------------------------------------------------
+r846 | chaoslux | 2018-07-20 22:03:11 +0000 (Fri, 20 Jul 2018) | 4 lines
+Changed paths:
+   M /trunk/LUI.xml
+   M /trunk/modules/chat/editbox.lua
+   M /trunk/modules/datatext.lua
+   M /trunk/modules/minimap.lua
+   A /trunk/scripts/WorldMapFix.lua
+
+- Minimap: Lets try that again.
+- Chat: Fixed editbox issues with custom channels.
+- WorldMap: Fixed issues with certain frames appearing above it
+- Infotext: Updated some default values wiht Equipment Sets and WeaponInfo
+------------------------------------------------------------------------
+r845 | chaoslux | 2018-07-20 15:49:13 +0000 (Fri, 20 Jul 2018) | 2 lines
+Changed paths:
+   M /trunk/modules/datatext.lua
+
+- Infotext-Guild: Removed bugged sort texture.
+- Infotext-EquipSets: Fixes issues preventing it from showing up.
+------------------------------------------------------------------------
+r844 | chaoslux | 2018-07-20 06:08:36 +0000 (Fri, 20 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/modules/auras/auras.lua
+   M /trunk/unitframes/plugins/oUF_RaidDebuffs.lua
+
+- Fixed some issues with blizzard API sending strings instead of numbers.
+------------------------------------------------------------------------
+r843 | chaoslux | 2018-07-20 05:54:51 +0000 (Fri, 20 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/modules/micromenu.lua
+
+- Micromenu: Remove right click interaction from Dungeon Finder button. (Old, unused Raid Browser)
+------------------------------------------------------------------------
+r842 | chaoslux | 2018-07-20 05:17:14 +0000 (Fri, 20 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/modules/minimap.lua
+
+- Minimap: Fixed coordinates inside dungeons.
+------------------------------------------------------------------------
+r841 | chaoslux | 2018-07-20 04:09:18 +0000 (Fri, 20 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/LUI.toc
+   M /trunk/LUI.xml
+   M /trunk/modules/bars.lua
+   M /trunk/unitframes/layout/layout.lua
+   M /trunk/unitframes/options/copysettings.lua
+   M /trunk/unitframes/options/general.lua
+   M /trunk/unitframes/options/importexport.lua
+   M /trunk/unitframes/options/toggle.lua
+
+- Remove all references to the Fader module, this should fix a lot of issues that have begun to crop up.
+------------------------------------------------------------------------
+r840 | chaoslux | 2018-07-20 01:50:37 +0000 (Fri, 20 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/unitframes/layout/layout.lua
+   M /trunk/unitframes/options/colors.lua
+
+- Unitframes: Fix unitframe colors being unresponsive if you try to change the colors of DK Runes.
+------------------------------------------------------------------------
+r839 | chaoslux | 2018-07-20 01:32:59 +0000 (Fri, 20 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/modules/minimap.lua
+
+- Fixed Minimap, for good this time.
+------------------------------------------------------------------------
+r838 | chaoslux | 2018-07-19 16:14:36 +0000 (Thu, 19 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/scripts/errorhider.lua
+
+- Fixed issues when "Hide Blizzard Errors" is checked.
+------------------------------------------------------------------------
+r837 | chaoslux | 2018-07-19 16:06:00 +0000 (Thu, 19 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/unitframes/layout/layout.lua
+
+
+------------------------------------------------------------------------
 r836 | kitkeh | 2018-07-19 08:36:09 +0000 (Thu, 19 Jul 2018) | 1 line
 Changed paths:
    A /trunk/media/templates/v3/panelborderv.tga

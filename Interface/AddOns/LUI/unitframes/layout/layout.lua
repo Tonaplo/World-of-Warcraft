@@ -8,7 +8,6 @@
 local addonname, LUI = ...
 local module = LUI:Module("Unitframes")
 local Forte = LUI:Module("Forte")
-local Fader = LUI:Module("Fader")
 
 local L = LUI.L
 local Blizzard = LUI.Blizzard
@@ -2132,14 +2131,10 @@ module.funcs = {
 			self.Runes = CreateFrame("Frame", nil, self)
 			self.Runes:SetFrameLevel(6)
 				
-			--local rid = {1, 2, 5, 6, 3, 4} -- Rune IDs
 			for i = 1, 6 do
 				self.Runes[i] = CreateFrame("StatusBar", nil, self.Runes)
 				self.Runes[i]:SetBackdrop(backdrop)
 				self.Runes[i]:SetBackdropColor(0.08, 0.08, 0.08)
-
-				--Assign Rune frames an ID to identify the runes themselves.
-				--self.Runes[i].id = rid[i]
 			end
 
 			self.Runes.FrameBackdrop = CreateFrame("Frame", nil, self.Runes)
@@ -2163,9 +2158,8 @@ module.funcs = {
 		self.Runes:SetPoint("BOTTOMLEFT", self, "TOPLEFT", x, y)
 
 		for i = 1, 6 do
-			--local id = self.Runes[i].id
 			self.Runes[i]:SetStatusBarTexture(Media:Fetch("statusbar", oufdb.Bars.Runes.Texture))
-			self.Runes[i]:SetStatusBarColor(unpack(module.colors.runes[4]))
+			self.Runes[i]:SetStatusBarColor(unpack(module.colors.runes[1]))
 			self.Runes[i]:SetSize(((oufdb.Bars.Runes.Width - 5 * oufdb.Bars.Runes.Padding) / 6), oufdb.Bars.Runes.Height)
 
 			self.Runes[i]:ClearAllPoints()
@@ -2191,7 +2185,7 @@ module.funcs = {
 			MAGE = 4,
 			MONK = 6,
 			PALADIN = 5,
-			ROGUE = 10,
+			ROGUE = 6,
 			WARLOCK = 5,
 			DRUID = 5,
 		}
@@ -2240,13 +2234,13 @@ module.funcs = {
 			local pLevel = (event == "UNIT_LEVEL") and tonumber(level) or UnitLevel("player")
 			local count = BASE_COUNT[class]
 			if class == "MONK" then
-				local _, _, _, ascension = GetTalentInfo(3, 2, GetActiveSpecGroup())
-				if ascension then count = count + 1 end
+				if select(4, GetTalentInfo(3, 1, 1)) then
+					count = count + 1
+				end
 			elseif class == "ROGUE" then
 				--Check for Strategem, increase CPoints to 6.
-				if select(4, GetTalentInfo(3, 1, 1)) then count = 6
-				--Check for Anticipation, increase CPoints to 10.
-				elseif select(4, GetTalentInfo(3, 2, 1)) then count = 10
+				if select(4, GetTalentInfo(3, 2, 1)) then
+					count = 6
 				end
 			end
 			self.ClassIcons.Count = count
@@ -3207,9 +3201,9 @@ local SetStyle = function(self, unit, isSingle)
 		end)
 	end
 
-	if oufdb.Fader and oufdb.Fader.Enable then Fader:RegisterFrame(self, oUF.Fader) end
+	-- if oufdb.Fader and oufdb.Fader.Enable then Fader:RegisterFrame(self, oUF.Fader) end
 
-	if unit == "raid" or (unit == "party" and oufdb.RangeFade and oufdb.Fader and not oufdb.Fader.Enable) then
+	if unit == "raid" or (unit == "party" and oufdb.RangeFade) then
 		self.Range = {
 			insideAlpha = 1,
 			outsideAlpha = 0.5

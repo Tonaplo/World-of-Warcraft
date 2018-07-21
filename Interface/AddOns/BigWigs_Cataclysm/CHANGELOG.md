@@ -1,9 +1,6 @@
 # BigWigs [Cataclysm]
 
-## [v8.0.0](https://github.com/BigWigsMods/BigWigs_Cataclysm/tree/v8.0.0) (2018-07-17)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs_Cataclysm/compare/v7.3.1...v8.0.0)
+## [v8.0.1](https://github.com/BigWigsMods/BigWigs_Cataclysm/tree/v8.0.1) (2018-07-20)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs_Cataclysm/compare/v8.0.0...v8.0.1)
 
-- bump toc  
-- Update colors and sounds  
-- Fixes  
-- Update for UnitBuff/UnitDebuff  
+- Update modules for new UNIT event arg order.  
