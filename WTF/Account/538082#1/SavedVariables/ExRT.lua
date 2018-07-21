@@ -8587,20 +8587,18 @@ VExRT = {
 			[115310] = true,
 			[204150] = true,
 			[196718] = true,
-			[204018] = true,
-			[47788] = true,
 			[33206] = true,
 			[200183] = true,
-			[116849] = true,
-			[102342] = true,
-			[31842] = true,
+			[204018] = true,
+			[47788] = true,
+			[97462] = true,
 			[15286] = true,
-			[6940] = true,
+			[102342] = true,
 			[62618] = true,
 			[47536] = true,
-			[97462] = true,
+			[6940] = true,
 			[108280] = true,
-			[207946] = true,
+			[116849] = true,
 			[31821] = true,
 		},
 		["enabled"] = true,
@@ -8816,8 +8814,8 @@ VExRT = {
 			["Selendis"] = 104,
 			["Aleea-Velen"] = 262,
 			["Luceo-Icecrown"] = 70,
+			["Availion-MoonGuard"] = 72,
 			["Zipploc-Ghostlands"] = 252,
-			["Smallstabs-Mok'Nathal"] = 259,
 			["Viranilya-Kel'Thuzad"] = 258,
 			["Atlasblack"] = 265,
 			["Aleksander-Tortheldrin"] = 252,
@@ -8842,20 +8840,20 @@ VExRT = {
 			["Bigdblades-Dalaran"] = 577,
 			["Eyeofdatiger-Icecrown"] = 268,
 			["Geneome"] = 265,
-			["Aladei-SistersofElune"] = 253,
+			["Renelok-Fizzcrank"] = 102,
 			["Alura"] = 256,
 			["Nuriél-Sargeras"] = 65,
 			["Mómmy-MoonGuard"] = 268,
-			["Blindservant-Dalaran"] = 263,
+			["Evangelija-Whisperwind"] = 72,
 			["Wingtontom"] = 105,
 			["Thrmanmurman-Ysera"] = 72,
 			["Nitorya-Goldrinn"] = 260,
-			["Renelok-Fizzcrank"] = 102,
-			["Evangelija-Whisperwind"] = 72,
-			["Zapdoodle-Stormrage"] = 262,
+			["Hanyuu-Gilneas"] = 263,
+			["Chewbaacca-EmeraldDream"] = 251,
+			["Aladei-SistersofElune"] = 253,
 			["Cosmicmojo-Area52"] = 269,
 			["Inumbro-Dalaran"] = 260,
-			["Chewbaacca-EmeraldDream"] = 251,
+			["Blindservant-Dalaran"] = 263,
 			["Saelaura-Goldrinn"] = 577,
 			["Verdict-Shandris"] = 70,
 			["Tzolkin-Quel'dorei"] = 254,
@@ -8939,7 +8937,7 @@ VExRT = {
 			["Ranará-MoonGuard"] = 257,
 			["Devastate-Saurfang"] = 71,
 			["Buebueosas-Ragnaros"] = 70,
-			["Hanyuu-Gilneas"] = 263,
+			["Zapdoodle-Stormrage"] = 262,
 			["Jeffsessions-Dunemaul"] = 266,
 			["Naiyr-Darkspear"] = 71,
 			["Mochee-Bronzebeard"] = 65,
@@ -8952,9 +8950,9 @@ VExRT = {
 			["Dardandiablo-Caelestrasz"] = 266,
 			["Mituun-Frostmourne"] = 70,
 			["Blakeyboy"] = 70,
-			["Availion-MoonGuard"] = 72,
-			["Cybraxx-Ragnaros"] = 253,
 			["Vanampelis-Area52"] = 73,
+			["Cybraxx-Ragnaros"] = 253,
+			["Smallstabs-Mok'Nathal"] = 259,
 			["Poperay-DemonSoul"] = 257,
 			["Pooflaps-Frostmourne"] = 72,
 			["Makoto-Hakkar"] = 71,
@@ -8984,16 +8982,6 @@ VExRT = {
 				["user"] = true,
 			}, -- [1]
 			{
-				207946, -- [1]
-				"PRIEST", -- [2]
-				[4] = {
-					207946, -- [1]
-					90, -- [2]
-					0, -- [3]
-				},
-				["user"] = true,
-			}, -- [2]
-			{
 				47536, -- [1]
 				"PRIEST", -- [2]
 				[4] = {
@@ -9002,7 +8990,7 @@ VExRT = {
 					8, -- [3]
 				},
 				["user"] = true,
-			}, -- [3]
+			}, -- [2]
 			{
 				132469, -- [1]
 				"DRUID", -- [2]
@@ -9012,7 +9000,7 @@ VExRT = {
 					6, -- [3]
 				}, -- [3]
 				["user"] = true,
-			}, -- [4]
+			}, -- [3]
 			{
 				204263, -- [1]
 				"PRIEST", -- [2]
@@ -9027,7 +9015,7 @@ VExRT = {
 					3, -- [3]
 				},
 				["user"] = true,
-			}, -- [5]
+			}, -- [4]
 			{
 				122, -- [1]
 				"MAGE", -- [2]
@@ -9037,7 +9025,7 @@ VExRT = {
 					0, -- [3]
 				}, -- [3]
 				["user"] = true,
-			}, -- [6]
+			}, -- [5]
 			{
 				116844, -- [1]
 				"MONK", -- [2]
@@ -9047,7 +9035,7 @@ VExRT = {
 					8, -- [3]
 				}, -- [3]
 				["user"] = true,
-			}, -- [7]
+			}, -- [6]
 		},
 		["Top"] = 303.664489746094,
 		["NoRaid"] = true,
@@ -9573,7 +9561,7 @@ VExRT = {
 			["204150;3"] = 3,
 			["6940;2"] = 4,
 			["108280;4"] = 3,
-			["31842;2"] = 3,
+			["97462;1"] = 2,
 			["6940;3"] = 4,
 			["204018;3"] = 4,
 			["15286;4"] = 2,
@@ -9593,7 +9581,6 @@ VExRT = {
 			["61391;1"] = 1,
 			["29166;2"] = 2,
 			["200183;3"] = 2,
-			["207946;2"] = 2,
 			["49576;2"] = 1,
 			["116844;1"] = 1,
 		},
@@ -65535,13 +65522,13 @@ VExRT = {
 		},
 	},
 	["Addon"] = {
-		["IconMiniMapHide"] = true,
-		["Version"] = 3930,
-		["IconMiniMapTop"] = 76.5466432308775,
 		["PreVersion"] = 3930,
-		["IconMiniMapLeft"] = 69.1221361814599,
-		["Timer"] = 0.1,
+		["Version"] = 3930,
 		["Scale"] = 1.01,
+		["Timer"] = 0.1,
+		["IconMiniMapLeft"] = 69.1221361814599,
+		["IconMiniMapTop"] = 76.5466432308775,
+		["IconMiniMapHide"] = true,
 	},
 	["MarksBar"] = {
 		["enabled"] = true,

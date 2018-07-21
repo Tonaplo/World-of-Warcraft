@@ -144,10 +144,10 @@ RCDatabase = {
 				["class"] = "ROGUE",
 				["secondProf"] = "Skinning",
 				["name"] = "Rahran",
-				["firstProf"] = "Leatherworking",
+				["itemLevelOverall"] = 213.9375,
 				["level"] = 110,
 				["firstProfLevel"] = 23,
-				["itemLevelOverall"] = 213.9375,
+				["firstProf"] = "Leatherworking",
 			}, -- [1]
 			{
 				["secondProfLevel"] = 100,
@@ -166,10 +166,10 @@ RCDatabase = {
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 216.0625,
 				["level"] = 110,
 				["firstProfLevel"] = 1,
-				["itemLevelOverall"] = 216.0625,
+				["firstProf"] = "Blacksmithing",
 			}, -- [3]
 			{
 				["secondProfLevel"] = 1,

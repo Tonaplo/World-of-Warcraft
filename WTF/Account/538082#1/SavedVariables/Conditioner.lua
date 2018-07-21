@@ -121,7 +121,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Protection",
 	}, -- [24]
 	{
-		["value"] = "[02+m0__ShiftE_6552_0_0]\n[04wn4002+80k+70__2_5308_0_0]\n[01w+l0_enrage_3_184367_0_0]\n[+701+g0_Sudden Death_2_5308_0_0]\n[00w+l0__E_85288_0_0]\n[+o0__F_23881_0_0]\n[+o0__Q_190411_0_0]",
+		["value"] = "[02+m0__ShiftE_6552_0_0]\n[04wn4002+80k+70__2_5308_0_0]\n[01w+l0_enrage_ShiftF_184367_0_0]\n[+701+g0_Sudden Death_2_5308_0_0]\n[00w+l0__E_85288_0_0]\n[+o0__F_23881_0_0]\n[+o0__Q_190411_0_0]",
 		["spec"] = 72,
 		["name"] = "Fury",
 	}, -- [25]
