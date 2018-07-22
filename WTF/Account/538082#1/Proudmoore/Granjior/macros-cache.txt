@@ -2,19 +2,6 @@ VER 3 0100000000000003 "BoS" "INV_MISC_QUESTIONMARK"
 #showtooltip Blessing of Sacrifice
 /cast  [@mouseover] Blessing of Sacrifice
 END
-VER 3 0100000000000005 "HoH jarl" "INV_MISC_QUESTIONMARK"
-#showtooltip Hand of Hindrance
-/target Jarl Vel
-/cast Hand of Hindrance
-END
-VER 3 010000000000000A "HoJ" "INV_MISC_QUESTIONMARK"
-#showtooltip Hammer of Justice
-/cast [target=focus] Hammer of Justice
-END
-VER 3 0100000000000006 "Jarl" "INV_MISC_QUESTIONMARK"
-/target Jarl Vel
-/focus
-END
 VER 3 0100000000000008 "Light of the Pro" "INV_MISC_QUESTIONMARK"
 #showtooltip Light of the Protector
 /use [@mouseover,help,nodead][help,nodead][@player] Light of the Protector
@@ -23,19 +10,6 @@ VER 3 010000000000000B "Prot CDS!" "INV_MISC_QUESTIONMARK"
 #showtooltip Avenging Wrath
 /cast Avenging Wrath
 /cast Seraphim
-END
-VER 3 0100000000000009 "Rebuke" "INV_MISC_QUESTIONMARK"
-#showtooltip Rebuke
-/cast [target=focus] Rebuke
-END
-VER 3 0100000000000004 "Repentance Sigry" "INV_MISC_QUESTIONMARK"
-#showtooltip Repentance
-/target Sigryn
-/cast Repentance
-END
-VER 3 0100000000000007 "Silgrtyn focus" "INV_MISC_QUESTIONMARK"
-/target Sigryn
-/focus
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

@@ -173,7 +173,6 @@ RematchSettings = {
 		["Other"] = {
 		},
 		["Strong"] = {
-			[9] = true,
 		},
 		["Types"] = {
 		},
@@ -181,9 +180,9 @@ RematchSettings = {
 		},
 		["Level"] = {
 		},
-		["Similar"] = {
-		},
 		["Sources"] = {
+		},
+		["Similar"] = {
 		},
 		["Breed"] = {
 		},

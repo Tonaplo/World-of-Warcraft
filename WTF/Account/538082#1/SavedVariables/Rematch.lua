@@ -173,7 +173,6 @@ RematchSettings = {
 		["Other"] = {
 		},
 		["Strong"] = {
-			[9] = true,
 		},
 		["Moveset"] = {
 		},
@@ -183,13 +182,13 @@ RematchSettings = {
 		},
 		["Rarity"] = {
 		},
-		["Similar"] = {
+		["Sources"] = {
 		},
 		["Breed"] = {
 		},
 		["Script"] = {
 		},
-		["Sources"] = {
+		["Similar"] = {
 		},
 		["Level"] = {
 		},

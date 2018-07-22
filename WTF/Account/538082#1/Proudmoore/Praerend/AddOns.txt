@@ -19,7 +19,7 @@ SellOMatic2_Item: enabled
 SellOMatic2_List: enabled
 autoturnin: disabled
 SorhaQuestLog: disabled
-AdiBags: disabled
+AdiBags: enabled
 Bartender4: disabled
 OrderHallCommander: disabled
 XLoot_Options: enabled

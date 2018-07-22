@@ -18,7 +18,7 @@ SellOMatic2_Item: enabled
 SellOMatic2_List: enabled
 autoturnin: disabled
 SorhaQuestLog: disabled
-AdiBags: disabled
+AdiBags: enabled
 Bartender4: disabled
 RaiderIO_DB_TW_H: disabled
 RaiderIO_DB_TW_A: disabled

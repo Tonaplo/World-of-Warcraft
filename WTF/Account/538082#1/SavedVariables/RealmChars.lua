@@ -54,14 +54,14 @@ RCDatabase = {
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 100,
-				["itemLevelEquipped"] = 239.125,
+				["itemLevelEquipped"] = 239.8125,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
 				["name"] = "Mallusof",
 				["firstProf"] = "Alchemy",
 				["level"] = 110,
 				["firstProfLevel"] = 100,
-				["itemLevelOverall"] = 245.9375,
+				["itemLevelOverall"] = 243.75,
 			}, -- [1]
 			{
 				["secondProfLevel"] = 0,
@@ -86,13 +86,13 @@ RCDatabase = {
 				["itemLevelOverall"] = 46.8125,
 			}, -- [3]
 			{
-				["secondProfLevel"] = 9,
-				["itemLevelEquipped"] = 51.5625,
+				["secondProfLevel"] = 10,
+				["itemLevelEquipped"] = 53.4375,
 				["class"] = "PALADIN",
 				["secondProf"] = "Mining",
 				["name"] = "Korugen",
-				["itemLevelOverall"] = 51.9375,
-				["level"] = 52,
+				["itemLevelOverall"] = 53.8125,
+				["level"] = 54,
 				["firstProfLevel"] = 11,
 				["firstProf"] = "Blacksmithing",
 			}, -- [4]
@@ -184,14 +184,14 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 9,
-				["itemLevelEquipped"] = 220.9375,
+				["itemLevelEquipped"] = 221.5625,
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
-				["itemLevelOverall"] = 222.375,
+				["firstProf"] = "Herbalism",
 				["level"] = 110,
 				["firstProfLevel"] = 1,
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 222.375,
 			}, -- [5]
 			{
 				["secondProfLevel"] = 1,
