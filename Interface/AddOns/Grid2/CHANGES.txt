@@ -1,4 +1,10 @@
 ------------------------------------------------------------------------
+r818 | michaelspain | 2018-07-22 08:45:33 +0000 (Sun, 22 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+
+- Fixed Grid2RaidDebuffs crash (ticket #566)
+------------------------------------------------------------------------
 r817 | michaelspain | 2018-07-21 19:11:20 +0000 (Sat, 21 Jul 2018) | 1 line
 Changed paths:
    M /trunk/modules/StatusDirection.lua
