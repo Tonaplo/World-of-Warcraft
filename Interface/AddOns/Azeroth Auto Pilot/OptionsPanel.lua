@@ -1,0 +1,373 @@
+local AAP_Version = tonumber(GetAddOnMetadata("Azeroth Auto Pilot", "Version"))
+AAP.AAP_panel = CreateFrame( "Frame", "CLPanelFrame", UIParent)
+AAP.AAP_panel.name = "Azeroth Auto Pilot"
+InterfaceOptions_AddCategory(AAP.AAP_panel)
+AAP_panel = {}
+AAP_panel.title = CreateFrame("SimpleHTML",nil,AAP.AAP_panel)
+AAP_panel.title:SetWidth(500)
+AAP_panel.title:SetHeight(20)
+AAP_panel.title:SetPoint("TOPLEFT", AAP.AAP_panel, 0,-30)
+AAP_panel.title:SetFont(AAP_Font, 18,"OUTLINE")
+AAP_panel.title:SetText("Azeroth Auto Pilot - v" .. AAP_Version)
+
+
+AAP_panel.Button1 = CreateFrame("Button", "ZPButton2", AAP.AAP_panel)
+AAP_panel.Button1:SetPoint("TOPLEFT", AAP.AAP_panel, "TOPLEFT", 120, -100)
+AAP_panel.Button1:SetWidth(70)
+AAP_panel.Button1:SetHeight(30)
+AAP_panel.Button1:SetText("Load")
+AAP_panel.Button1:SetNormalFontObject("GameFontNormal")
+AAP_panel.Button1ntex = AAP_panel.Button1:CreateTexture()
+AAP_panel.Button1ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")
+AAP_panel.Button1ntex:SetTexCoord(0, 0.625, 0, 0.6875)
+AAP_panel.Button1ntex:SetAllPoints()	
+AAP_panel.Button1:SetNormalTexture(AAP_panel.Button1ntex)
+AAP_panel.Button1htex = AAP_panel.Button1:CreateTexture()
+AAP_panel.Button1htex:SetTexture("Interface/Buttons/UI-Panel-Button-Highlight")
+AAP_panel.Button1htex:SetTexCoord(0, 0.625, 0, 0.6875)
+AAP_panel.Button1htex:SetAllPoints()
+AAP_panel.Button1:SetHighlightTexture(AAP_panel.Button1htex)
+AAP_panel.Button1ptex = AAP_panel.Button1:CreateTexture()
+AAP_panel.Button1ptex:SetTexture("Interface/Buttons/UI-Panel-Button-Down")
+AAP_panel.Button1ptex:SetTexCoord(0, 0.625, 0, 0.6875)
+AAP_panel.Button1ptex:SetAllPoints()
+AAP_panel.Button1:SetPushedTexture(AAP_panel.Button1ptex)
+AAP_panel.Button1:SetScript("OnClick", function(self, arg1)
+	InterfaceOptionsFrame:Hide()
+	HideUIPanel(GameMenuFrame)
+	if (AAP_DisableAddon == 0) then
+		AAP.OptionsFrame.MainFrame:Show()
+	else
+		print("AAP: BFA not detected")
+	end
+end)
+function LoadOptionsFrame()
+	AAP.OptionsFrame = {}
+	AAP.OptionsFrame.MainFrame = CreateFrame("frame", "AAP_OptionsMainFrame",  UIParent)
+	AAP.OptionsFrame.MainFrame:SetWidth(450)
+	AAP.OptionsFrame.MainFrame:SetHeight(260)
+	AAP.OptionsFrame.MainFrame:SetFrameStrata("MEDIUM")
+	AAP.OptionsFrame.MainFrame:SetPoint("CENTER",  UIParent, "CENTER",0,0)
+	AAP.OptionsFrame.MainFrame:SetMovable(true)
+	AAP.OptionsFrame.MainFrame:EnableMouse(true)
+	AAP.OptionsFrame.MainFrame:SetBackdrop( { 
+		bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
+		edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+		tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
+	});
+	AAP.OptionsFrame.MainFrame:SetScript("OnMouseDown", function(self, button)
+		if button == "LeftButton" and not AAP.OptionsFrame.MainFrame.isMoving then
+			AAP.OptionsFrame.MainFrame:StartMoving();
+			AAP.OptionsFrame.MainFrame.isMoving = true;
+		end
+	end)
+	AAP.OptionsFrame.MainFrame:SetScript("OnMouseUp", function(self, button)
+		if button == "LeftButton" and AAP.OptionsFrame.MainFrame.isMoving then
+			AAP.OptionsFrame.MainFrame:StopMovingOrSizing();
+			AAP.OptionsFrame.MainFrame.isMoving = false;
+		end
+	end)
+	AAP.OptionsFrame.MainFrame:SetScript("OnHide", function(self)
+		if ( AAP.OptionsFrame.MainFrame.isMoving ) then
+			AAP.OptionsFrame.MainFrame:StopMovingOrSizing();
+			AAP.OptionsFrame.MainFrame.isMoving = false;
+		end
+	end)
+	AAP.OptionsFrame.MainFrame:Hide()
+
+	AAP.OptionsFrame.FontString1 = AAP.OptionsFrame.MainFrame:CreateFontString("AAPSettingsFS1","ARTWORK", "ChatFontNormal")
+	AAP.OptionsFrame.FontString1:SetParent(AAP.OptionsFrame.MainFrame)
+	AAP.OptionsFrame.FontString1:SetPoint("TOP",AAP.OptionsFrame.MainFrame,"TOP",0,0)
+	AAP.OptionsFrame.FontString1:SetWidth(240)
+	AAP.OptionsFrame.FontString1:SetHeight(20)
+	AAP.OptionsFrame.FontString1:SetFont(AAP_Font, 16,"OUTLINE")
+	AAP.OptionsFrame.FontString1:SetText("Azeroth Auto Pilot - v" .. AAP_Version)
+	AAP.OptionsFrame.FontString1:SetTextColor(1, 1, 0)
+
+	AAP.OptionsFrame.CheckButton1 = CreateFrame("CheckButton", "CLxCheckButton1", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton1:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -50)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["CutScene"] == 0) then
+		AAP.OptionsFrame.CheckButton1:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton1:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton1:GetName() .. 'Text'):SetText(": "..AAP_Locals["Skipped cutscene"])
+	getglobal(AAP.OptionsFrame.CheckButton1:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton1:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton1:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["CutScene"] = 1
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["CutScene"] = 0
+		end
+	end)
+
+	AAP.OptionsFrame.CheckButton2 = CreateFrame("CheckButton", "CLxCheckButton2", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton2:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -70)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoAccept"] == 0) then
+		AAP.OptionsFrame.CheckButton2:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton2:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton2:GetName() .. 'Text'):SetText(": "..AAP_Locals["Accept Quest"])
+	getglobal(AAP.OptionsFrame.CheckButton2:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton2:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton2:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoAccept"] = 1
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoAccept"] = 0
+		end
+	end)
+
+	AAP.OptionsFrame.CheckButton3 = CreateFrame("CheckButton", "CLxCheckButton3", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton3:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -90)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoHandIn"] == 0) then
+		AAP.OptionsFrame.CheckButton3:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton3:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton3:GetName() .. 'Text'):SetText(": "..AAP_Locals["Turn in Quest"])
+	getglobal(AAP.OptionsFrame.CheckButton3:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton3:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton3:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoHandIn"] = 1
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoHandIn"] = 0
+		end
+	end)
+
+
+
+
+	AAP.OptionsFrame.CheckButton10 = CreateFrame("CheckButton", "CLxCheckButton10", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton10:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -110)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoVendor"] == 0) then
+		AAP.OptionsFrame.CheckButton10:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton10:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton10:GetName() .. 'Text'):SetText(": "..AAP_Locals["AutoVendor"])
+	getglobal(AAP.OptionsFrame.CheckButton10:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton10:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton10:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoVendor"] = 1
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoVendor"] = 0
+		end
+	end)
+
+	AAP.OptionsFrame.CheckButton11 = CreateFrame("CheckButton", "CLxCheckButton11", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton11:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -130)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoRepair"] == 0) then
+		AAP.OptionsFrame.CheckButton11:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton11:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton11:GetName() .. 'Text'):SetText(": "..AAP_Locals["AutoRepair"])
+	getglobal(AAP.OptionsFrame.CheckButton11:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton11:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton11:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoRepair"] = 1
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoRepair"] = 0
+		end
+	end)
+
+	AAP.OptionsFrame.CheckButton12 = CreateFrame("CheckButton", "CLxCheckButton12", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton12:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -150)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowGroup"] == 0) then
+		AAP.OptionsFrame.CheckButton12:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton12:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton12:GetName() .. 'Text'):SetText(": "..AAP_Locals["ShowGroup"])
+	getglobal(AAP.OptionsFrame.CheckButton12:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton12:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton12:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowGroup"] = 1
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowGroup"] = 0
+		end
+	end)
+
+
+	AAP.OptionsFrame.CheckButton5 = CreateFrame("CheckButton", "CLxCheckButton5", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton5:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -170)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoHandInChoice"] == 0) then
+		AAP.OptionsFrame.CheckButton5:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton5:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton5:GetName() .. 'Text'):SetText(": "..AAP_Locals["Choose Reward Ilvl"])
+	getglobal(AAP.OptionsFrame.CheckButton5:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton5:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton5:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoHandInChoice"] = 1
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoHandInChoice"] = 0
+		end
+	end)
+
+	AAP.OptionsFrame.CheckButton6 = CreateFrame("CheckButton", "CLxCheckButton6", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton6:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -190)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoShareQ"] == 0) then
+		AAP.OptionsFrame.CheckButton6:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton6:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton6:GetName() .. 'Text'):SetText(": "..AAP_Locals["AutoShareQ"])
+	getglobal(AAP.OptionsFrame.CheckButton6:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton6:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton6:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoShareQ"] = 1
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoShareQ"] = 0
+		end
+	end)
+
+
+
+
+	AAP.OptionsFrame.Slider1 = CreateFrame("Slider", "AAP_SettingsSlider1",AAP.OptionsFrame.MainFrame, "OptionsSliderTemplate")
+	AAP.OptionsFrame.Slider1:SetWidth(160)
+	AAP.OptionsFrame.Slider1:SetHeight(15)
+	AAP.OptionsFrame.Slider1:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 210, -50)
+	AAP.OptionsFrame.Slider1:SetOrientation("HORIZONTAL")
+	AAP.OptionsFrame.Slider1:SetMinMaxValues(1, 200)
+	AAP.OptionsFrame.Slider1.minValue, AAP.OptionsFrame.Slider1.maxValue = AAP.OptionsFrame.Slider1:GetMinMaxValues() 
+	getglobal(AAP.OptionsFrame.Slider1:GetName() .. 'Low'):SetText("1%")
+	getglobal(AAP.OptionsFrame.Slider1:GetName() .. 'High'):SetText("200%")
+	getglobal(AAP.OptionsFrame.Slider1:GetName() .. 'Text'):SetText("QuestList Scale:")
+	AAP.OptionsFrame.Slider1:SetValueStep(1)
+	AAP.OptionsFrame.Slider1:SetValue(100)
+	AAP.OptionsFrame.Slider1:SetScript("OnValueChanged", function(self,event) 
+		event = event - event%1
+		AAP1[AAP_Realm][AAP_Name]["Settings"]["Scale"] = event / 100
+		AAP.QuestList.ButtonParent:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["Scale"])
+		AAP.QuestList.ListFrame:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["Scale"])
+		AAP.QuestList21:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["Scale"])
+
+	end)
+	AAP.OptionsFrame.Slider1:SetScript("OnMouseWheel", function(self,delta) 
+		if tonumber(self:GetValue()) == nil then return end
+		self:SetValue(tonumber(self:GetValue())+delta)
+	end)
+	AAP.OptionsFrame.Slider1:SetValue(AAP1[AAP_Realm][AAP_Name]["Settings"]["Scale"] * 100)
+
+	AAP.OptionsFrame.Slider2 = CreateFrame("Slider", "AAP_SettingsSlider2",AAP.OptionsFrame.MainFrame, "OptionsSliderTemplate")
+	AAP.OptionsFrame.Slider2:SetWidth(160)
+	AAP.OptionsFrame.Slider2:SetHeight(15)
+	AAP.OptionsFrame.Slider2:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 210, -100)
+	AAP.OptionsFrame.Slider2:SetOrientation("HORIZONTAL")
+	AAP.OptionsFrame.Slider2:SetMinMaxValues(1, 200)
+	AAP.OptionsFrame.Slider2.minValue, AAP.OptionsFrame.Slider2.maxValue = AAP.OptionsFrame.Slider2:GetMinMaxValues() 
+	getglobal(AAP.OptionsFrame.Slider2:GetName() .. 'Low'):SetText("1%")
+	getglobal(AAP.OptionsFrame.Slider2:GetName() .. 'High'):SetText("200%")
+	getglobal(AAP.OptionsFrame.Slider2:GetName() .. 'Text'):SetText("Arrow Scale:")
+	AAP.OptionsFrame.Slider2:SetValueStep(1)
+	AAP.OptionsFrame.Slider2:SetValue(100)
+	AAP.OptionsFrame.Slider2:SetScript("OnValueChanged", function(self,event) 
+		event = event - event%1
+		AAP1[AAP_Realm][AAP_Name]["Settings"]["ArrowScale"] = event / 100
+		AAP_ArrowFrame:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["ArrowScale"])
+
+	end)
+	AAP.OptionsFrame.Slider2:SetScript("OnMouseWheel", function(self,delta) 
+		if tonumber(self:GetValue()) == nil then return end
+		self:SetValue(tonumber(self:GetValue())+delta)
+	end)
+	AAP.OptionsFrame.Slider2:SetValue(AAP1[AAP_Realm][AAP_Name]["Settings"]["ArrowScale"] * 100)
+
+	AAP.OptionsFrame["Button1"] = CreateFrame("Button", "AAP_OptionsButtons1", AAP.OptionsFrame.MainFrame, "SecureActionButtonTemplate")
+	AAP.OptionsFrame["Button1"]:SetPoint("BOTTOMRIGHT",AAP.OptionsFrame.MainFrame,"BOTTOMRIGHT",-5,5)
+	AAP.OptionsFrame["Button1"]:SetWidth(70)
+	AAP.OptionsFrame["Button1"]:SetHeight(30)
+	AAP.OptionsFrame["Button1"]:SetText("Close")
+	AAP.OptionsFrame["Button1"]:SetParent(AAP.OptionsFrame.MainFrame)
+	AAP.OptionsFrame.Button1:SetNormalFontObject("GameFontNormal")
+	AAP.OptionsFrame.Button1ntex = AAP.OptionsFrame.Button1:CreateTexture()
+	AAP.OptionsFrame.Button1ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")
+	AAP.OptionsFrame.Button1ntex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button1ntex:SetAllPoints()	
+	AAP.OptionsFrame.Button1:SetNormalTexture(AAP.OptionsFrame.Button1ntex)
+	AAP.OptionsFrame.Button1htex = AAP.OptionsFrame.Button1:CreateTexture()
+	AAP.OptionsFrame.Button1htex:SetTexture("Interface/Buttons/UI-Panel-Button-Highlight")
+	AAP.OptionsFrame.Button1htex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button1htex:SetAllPoints()
+	AAP.OptionsFrame.Button1:SetHighlightTexture(AAP.OptionsFrame.Button1htex)
+	AAP.OptionsFrame.Button1ptex = AAP.OptionsFrame.Button1:CreateTexture()
+	AAP.OptionsFrame.Button1ptex:SetTexture("Interface/Buttons/UI-Panel-Button-Down")
+	AAP.OptionsFrame.Button1ptex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button1ptex:SetAllPoints()
+	AAP.OptionsFrame.Button1:SetPushedTexture(AAP.OptionsFrame.Button1ptex)
+	AAP.OptionsFrame["Button1"]:SetScript("OnClick", function(self, arg1)
+		AAP.OptionsFrame.MainFrame:Hide()
+		AAP_SettingsOpen = 0
+		AAP_ArrowActive = 0
+		AAP_ArrowActive_X = 0
+		AAP_ArrowActive_Y = 0
+		AAP_UpdateQuestList()
+	end)
+
+
+
+	AAP.OptionsFrame["Button2"] = CreateFrame("Button", "AAP_OptionsButtons2", AAP.OptionsFrame.MainFrame, "SecureActionButtonTemplate")
+	AAP.OptionsFrame["Button2"]:SetPoint("BOTTOMLEFT",AAP.OptionsFrame.MainFrame,"BOTTOMLEFT",5,5)
+	AAP.OptionsFrame["Button2"]:SetWidth(200)
+	AAP.OptionsFrame["Button2"]:SetHeight(30)
+	AAP.OptionsFrame["Button2"]:SetText("Set Keybind: Use Quest Items")
+	AAP.OptionsFrame["Button2"]:SetParent(AAP.OptionsFrame.MainFrame)
+	AAP.OptionsFrame.Button2:SetNormalFontObject("GameFontNormal")
+	AAP.OptionsFrame.Button2ntex = AAP.OptionsFrame.Button2:CreateTexture()
+	AAP.OptionsFrame.Button2ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")
+	AAP.OptionsFrame.Button2ntex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button2ntex:SetAllPoints()	
+	AAP.OptionsFrame.Button2:SetNormalTexture(AAP.OptionsFrame.Button2ntex)
+	AAP.OptionsFrame.Button2htex = AAP.OptionsFrame.Button2:CreateTexture()
+	AAP.OptionsFrame.Button2htex:SetTexture("Interface/Buttons/UI-Panel-Button-Highlight")
+	AAP.OptionsFrame.Button2htex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button2htex:SetAllPoints()
+	AAP.OptionsFrame.Button2:SetHighlightTexture(AAP.OptionsFrame.Button2htex)
+	AAP.OptionsFrame.Button2ptex = AAP.OptionsFrame.Button2:CreateTexture()
+	AAP.OptionsFrame.Button2ptex:SetTexture("Interface/Buttons/UI-Panel-Button-Down")
+	AAP.OptionsFrame.Button2ptex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button2ptex:SetAllPoints()
+	AAP.OptionsFrame.Button2:SetPushedTexture(AAP.OptionsFrame.Button2ptex)
+	AAP.OptionsFrame["Button2"]:SetScript("OnClick", function(self, arg1)
+		KeyBindingFrame_LoadUI()
+		KeyBindingFrame:Show()
+	end)
+
+	AAP.OptionsFrame["Button3"] = CreateFrame("Button", "AAP_OptionsButtons3", AAP.OptionsFrame.MainFrame, "SecureActionButtonTemplate")
+	AAP.OptionsFrame["Button3"]:SetPoint("BOTTOMRIGHT",AAP.OptionsFrame.MainFrame,"BOTTOMRIGHT",-105,5)
+	AAP.OptionsFrame["Button3"]:SetWidth(70)
+	AAP.OptionsFrame["Button3"]:SetHeight(30)
+	AAP.OptionsFrame["Button3"]:SetText("Reset")
+	AAP.OptionsFrame["Button3"]:SetParent(AAP.OptionsFrame.MainFrame)
+	AAP.OptionsFrame.Button3:SetNormalFontObject("GameFontNormal")
+	AAP.OptionsFrame.Button3ntex = AAP.OptionsFrame.Button3:CreateTexture()
+	AAP.OptionsFrame.Button3ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")
+	AAP.OptionsFrame.Button3ntex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button3ntex:SetAllPoints()	
+	AAP.OptionsFrame.Button3:SetNormalTexture(AAP.OptionsFrame.Button3ntex)
+	AAP.OptionsFrame.Button3htex = AAP.OptionsFrame.Button3:CreateTexture()
+	AAP.OptionsFrame.Button3htex:SetTexture("Interface/Buttons/UI-Panel-Button-Highlight")
+	AAP.OptionsFrame.Button3htex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button3htex:SetAllPoints()
+	AAP.OptionsFrame.Button3:SetHighlightTexture(AAP.OptionsFrame.Button3htex)
+	AAP.OptionsFrame.Button3ptex = AAP.OptionsFrame.Button3:CreateTexture()
+	AAP.OptionsFrame.Button3ptex:SetTexture("Interface/Buttons/UI-Panel-Button-Down")
+	AAP.OptionsFrame.Button3ptex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button3ptex:SetAllPoints()
+	AAP.OptionsFrame.Button3:SetPushedTexture(AAP.OptionsFrame.Button3ptex)
+	AAP.OptionsFrame["Button3"]:SetScript("OnClick", function(self, arg1)
+		AAP_ResetSettings()
+	end)
+end
+
+
+
+
+
+
+
+

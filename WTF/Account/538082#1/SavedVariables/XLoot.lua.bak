@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["visible"] = false,
-						["direction"] = "down",
 						["y"] = 1084.51818847656,
 						["x"] = 1312.16442871094,
+						["visible"] = false,
+						["direction"] = "down",
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -40,8 +40,15 @@ XLootADB = {
 					["frame_snap"] = false,
 					["show_slot_errors"] = false,
 					["linkall_threshold"] = 4,
-					["frame_position_x"] = 708.143676757813,
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+					["frame_position_x"] = 708.143676757813,
+				},
+			},
+		},
+		["Master"] = {
+			["profiles"] = {
+				["Default"] = {
+					["award_qualitythreshold"] = 4,
 				},
 			},
 		},
@@ -56,20 +63,13 @@ XLootADB = {
 					["threshold_own"] = 0,
 					["name_width"] = 100,
 					["anchor"] = {
-						["visible"] = false,
-						["x"] = 2.0466570854187,
 						["y"] = 855.502685546875,
 						["direction"] = "down",
+						["visible"] = false,
+						["x"] = 2.0466570854187,
 					},
 					["threshold_other"] = 4,
 					["fade_own"] = 30,
-				},
-			},
-		},
-		["Master"] = {
-			["profiles"] = {
-				["Default"] = {
-					["award_qualitythreshold"] = 4,
 				},
 			},
 		},
