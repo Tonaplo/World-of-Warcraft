@@ -1,16 +1,22 @@
-lightweight tag 63b6287345a8141feb8d3e5ec9abe351c9300753 v201807220600
+lightweight tag dd083c6f32cca1153d49880a2600f8237cba96f5 v201807230600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Sun Jul 22 07:18:19 2018 +0000
+Date:	Mon Jul 23 07:18:37 2018 +0000
 
-commit 63b6287345a8141feb8d3e5ec9abe351c9300753
+commit dd083c6f32cca1153d49880a2600f8237cba96f5
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sun Jul 22 07:18:19 2018 +0000
+Date:   Mon Jul 23 07:18:37 2018 +0000
 
     [Raider.IO] Database Refresh
 
-commit 87e9f6323013b3e2af0a3f8f7e9074130a0c9dc5
-Author: Vlad <vladix@gmail.com>
-Date:   Sat Jul 21 18:48:23 2018 +0200
+commit a159509baaffe29351d59aec517bc8577340a38d
+Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
+Date:   Mon Jul 23 04:22:16 2018 +0200
 
-    Added support for Communities UI.
+    Add comunitiy guild member in supportedType (#53)
+
+commit e9ee8d6d51b47beb87d1939818077b948f268ba0
+Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
+Date:   Sun Jul 22 18:58:19 2018 +0200
+
+    Add community as a supported type (#52)
 
