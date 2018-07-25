@@ -1,22 +1,10 @@
-lightweight tag dd083c6f32cca1153d49880a2600f8237cba96f5 v201807230600
+lightweight tag 5a875e426a3950291d6296fc1c74bc7345e0752e v201807240600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Mon Jul 23 07:18:37 2018 +0000
+Date:	Tue Jul 24 07:20:33 2018 +0000
 
-commit dd083c6f32cca1153d49880a2600f8237cba96f5
+commit 5a875e426a3950291d6296fc1c74bc7345e0752e
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Mon Jul 23 07:18:37 2018 +0000
+Date:   Tue Jul 24 07:20:33 2018 +0000
 
     [Raider.IO] Database Refresh
-
-commit a159509baaffe29351d59aec517bc8577340a38d
-Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
-Date:   Mon Jul 23 04:22:16 2018 +0200
-
-    Add comunitiy guild member in supportedType (#53)
-
-commit e9ee8d6d51b47beb87d1939818077b948f268ba0
-Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
-Date:   Sun Jul 22 18:58:19 2018 +0200
-
-    Add community as a supported type (#52)
 

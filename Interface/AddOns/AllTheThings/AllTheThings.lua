@@ -3,47 +3,14 @@
 --------------------------------------------------------------------------------
 --               Copyright 2017 Dylan Fortune (Crieve-Sargeras)               --
 --------------------------------------------------------------------------------
-AllTheThings = CreateFrame("FRAME", "AllTheThings", UIParent);
-local function HandleEvents(self, e, ...) (self.events[e] or tostringall)(...); end
 local app = AllTheThings;	-- Create a local (non global) reference
-app.refreshDataForce = true;
-app.events = {};
 local backdrop = {
 	bgFile = "Interface/Tooltips/UI-Tooltip-Background", 
 	edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
 	tile = true, tileSize = 16, edgeSize = 16, 
 	insets = { left = 4, right = 4, top = 4, bottom = 4 }
 };
-app.DisplayName = "AllTheThings";
-app:SetScript("OnEvent", HandleEvents);
-app:SetPoint("BOTTOMLEFT", UIParent, "TOPLEFT", 0, 0);
-app:SetSize(1, 1);
-app:Show();
-function app:ShowPopupDialog(msg, callback)
-	local popup = StaticPopupDialogs["ALL_THE_THINGS"];
-	if not popup then
-		popup = {
-			button1 = "Yes",
-			button2 = "No",
-			timeout = 0,
-			showAlert = true,
-			whileDead = true,
-			hideOnEscape = true,
-			enterClicksFirstButton = true,
-			preferredIndex = 3,  -- avoid some UI taint, see http://www.wowace.com/announcements/how-to-avoid-some-ui-taint/
-		};
-		StaticPopupDialogs["ALL_THE_THINGS"] = popup;
-	end
-	popup.text = msg or "Are you sure?";
-	popup.OnAccept = callback or print;
-	StaticPopup_Hide ("ALL_THE_THINGS");
-	StaticPopup_Show ("ALL_THE_THINGS");
-end
 
--- ReloadUI slash command (for ease of use)
-SLASH_RELOADUI1 = "/reloadui";
-SLASH_RELOADUI2 = "/rl";
-SlashCmdList["RELOADUI"] = ReloadUI;
 
 -- Performance Cache 
 -- While this may seem silly, caching references to commonly used APIs is actually a performance gain...
@@ -59,6 +26,8 @@ local C_TransmogCollection_GetSourceInfo = C_TransmogCollection.GetSourceInfo;
 local C_TransmogSets_GetSetInfo = C_TransmogSets.GetSetInfo;
 local C_ToyBox_GetToyInfo = C_ToyBox.GetToyInfo;
 local C_ToyBox_GetToyLink = C_ToyBox.GetToyLink;
+local C_Map_GetMapDisplayInfo = C_Map.GetMapDisplayInfo;
+local C_Map_GetBestMapForUnit = C_Map.GetBestMapForUnit;
 local EJ_GetCreatureInfo = _G["EJ_GetCreatureInfo"];
 local EJ_GetEncounterInfo = _G["EJ_GetEncounterInfo"];
 local GetAchievementCriteriaInfo = _G["GetAchievementCriteriaInfo"];
@@ -277,6 +246,177 @@ app.SetPersonalDataMember = SetPersonalDataMember;
 app.GetPersonalDataMember = GetPersonalDataMember;
 app.GetTempDataMember = GetTempDataMember;
 app.GetTempDataSubMember = GetTempDataSubMember;
+
+(function()
+	-- Map all Skill IDs to the old Skill IDs
+	local tradeSkillMap = {
+		-- Alchemy Skills
+		[171] = 171,	-- Alchemy [7.3.5]
+		[2485] = 171,	-- Classic Alchemy [8.0.1]
+		[2484] = 171,	-- Outland Alchemy [8.0.1]
+		[2483] = 171,	-- Northrend Alchemy [8.0.1]
+		[2482] = 171,	-- Cataclysm Alchemy [8.0.1]
+		[2481] = 171,	-- Pandaria Alchemy [8.0.1]
+		[2480] = 171,	-- Draenor Alchemy [8.0.1]
+		[2479] = 171,	-- Legion Alchemy [8.0.1]
+		[2478] = 171,	-- Kul Tiran Alchemy [8.0.1]
+		
+		-- Archaeology Skills
+		[794] = 794,	-- Archaeology [7.3.5]
+		
+		-- Blacksmithing Skills
+		[164] = 164,	-- Blacksmithing [7.3.5]
+		[2477] = 164,	-- Classic Blacksmithing [8.0.1]
+		[2476] = 164,	-- Outland Blacksmithing [8.0.1]
+		[2475] = 164,	-- Northrend Blacksmithing [8.0.1]
+		[2474] = 164,	-- Cataclysm Blacksmithing [8.0.1]
+		[2473] = 164,	-- Pandaria Blacksmithing [8.0.1]
+		[2472] = 164,	-- Draenor Blacksmithing [8.0.1]
+		[2454] = 164,	-- Legion Blacksmithing [8.0.1]
+		[2437] = 164,	-- Kul Tiran Blacksmithing [8.0.1]
+		
+		-- Cooking Skills
+		[185] = 185,	-- Cooking [7.3.5]
+		[2548] = 185,	-- Classic Cooking [8.0.1]
+		[2547] = 185,	-- Outland Cooking [8.0.1]
+		[2546] = 185,	-- Northrend Cooking [8.0.1]
+		[2545] = 185,	-- Cataclysm Cooking [8.0.1]
+		[2544] = 185,	-- Pandaria Cooking [8.0.1]
+		[2543] = 185,	-- Draenor Cooking [8.0.1]
+		[2542] = 185,	-- Legion Cooking [8.0.1]
+		[2541] = 185,	-- Kul Tiran Cooking [8.0.1]
+		
+		-- Enchanting Skills
+		[333] = 333,	-- Enchanting [7.3.5]
+		[2494] = 333,	-- Classic Enchanting [8.0.1]
+		[2493] = 333,	-- Outland Enchanting [8.0.1]
+		[2492] = 333,	-- Northrend Enchanting [8.0.1]
+		[2491] = 333,	-- Cataclysm Enchanting [8.0.1]
+		[2489] = 333,	-- Pandaria Enchanting [8.0.1]
+		[2488] = 333,	-- Draenor Enchanting [8.0.1]
+		[2487] = 333,	-- Legion Enchanting [8.0.1]
+		[2486] = 333,	-- Kul Tiran Enchanting [8.0.1]
+		
+		-- Engineering Skills
+		[202] = 202,	-- Engineering [7.3.5]
+		[2506] = 202,	-- Classic Engineering [8.0.1]
+		[2505] = 202,	-- Outland Engineering [8.0.1]
+		[2504] = 202,	-- Northrend Engineering [8.0.1]
+		[2503] = 202,	-- Cataclysm Engineering [8.0.1]
+		[2502] = 202,	-- Pandaria Engineering [8.0.1]
+		[2501] = 202,	-- Draenor Engineering [8.0.1]
+		[2500] = 202,	-- Legion Engineering [8.0.1]
+		[2499] = 202,	-- Kul Tiran Engineering [8.0.1]
+		
+		-- First Aid Skills
+		[129] = 129,	-- First Aid [7.3.5] [REMOVED FROM GAME]
+		
+		-- Fishing Skills
+		[356] = 356,	-- Fishing [7.3.5]
+		[2592] = 356,	-- Classic Fishing [8.0.1]
+		[2591] = 356,	-- Outland Fishing [8.0.1]
+		[2590] = 356,	-- Northrend Fishing [8.0.1]
+		[2589] = 356,	-- Cataclysm Fishing [8.0.1]
+		[2588] = 356,	-- Pandaria Fishing [8.0.1]
+		[2587] = 356,	-- Draenor Fishing [8.0.1]
+		[2586] = 356,	-- Legion Fishing [8.0.1]
+		[2585] = 356,	-- Kul Tiran Fishing [8.0.1]
+		
+		-- Herbalism Skills
+		[182] = 182,	-- Herbalism [7.3.5]
+		[2556] = 182,	-- Classic Herbalism [8.0.1]
+		[2555] = 182,	-- Outland Herbalism [8.0.1]
+		[2554] = 182,	-- Northrend Herbalism [8.0.1]
+		[2553] = 182,	-- Cataclysm Herbalism [8.0.1]
+		[2552] = 182,	-- Pandaria Herbalism [8.0.1]
+		[2551] = 182,	-- Draenor Herbalism [8.0.1]
+		[2550] = 182,	-- Legion Herbalism [8.0.1]
+		[2549] = 182,	-- Kul Tiran Herbalism [8.0.1]
+		
+		-- Inscription Skills
+		[773] = 773,	-- Inscription [7.3.5]
+		[2514] = 773,	-- Classic Inscription [8.0.1]
+		[2513] = 773,	-- Outland Inscription [8.0.1]
+		[2512] = 773,	-- Northrend Inscription [8.0.1]
+		[2511] = 773,	-- Cataclysm Inscription [8.0.1]
+		[2510] = 773,	-- Pandaria Inscription [8.0.1]
+		[2509] = 773,	-- Draenor Inscription [8.0.1]
+		[2508] = 773,	-- Legion Inscription [8.0.1]
+		[2507] = 773,	-- Kul Tiran Inscription [8.0.1]
+		
+		-- Jewelcrafting Skills
+		[755] = 755,	-- Jewelcrafting [7.3.5]
+		[2524] = 755,	-- Classic Jewelcrafting [8.0.1]
+		[2523] = 755,	-- Outland Jewelcrafting [8.0.1]
+		[2522] = 755,	-- Northrend Jewelcrafting [8.0.1]
+		[2521] = 755,	-- Cataclysm Jewelcrafting [8.0.1]
+		[2520] = 755,	-- Pandaria Jewelcrafting [8.0.1]
+		[2519] = 755,	-- Draenor Jewelcrafting [8.0.1]
+		[2518] = 755,	-- Legion Jewelcrafting [8.0.1]
+		[2517] = 755,	-- Kul Tiran Jewelcrafting [8.0.1]
+		
+		-- Leatherworking Skills
+		[165] = 165,	-- Leatherworking [7.3.5]
+		[2532] = 165,	-- Classic Leatherworking [8.0.1]
+		[2531] = 165,	-- Outland Leatherworking [8.0.1]
+		[2530] = 165,	-- Northrend Leatherworking [8.0.1]
+		[2529] = 165,	-- Cataclysm Leatherworking [8.0.1]
+		[2528] = 165,	-- Pandaria Leatherworking [8.0.1]
+		[2527] = 165,	-- Draenor Leatherworking [8.0.1]
+		[2526] = 165,	-- Legion Leatherworking [8.0.1]
+		[2525] = 165,	-- Kul Tiran Leatherworking [8.0.1]
+		
+		-- Mining Skills
+		[186] = 186,	-- Mining [7.3.5]
+		[2572] = 186,	-- Classic Mining [8.0.1]
+		[2571] = 186,	-- Outland Mining [8.0.1]
+		[2570] = 186,	-- Northrend Mining [8.0.1]
+		[2569] = 186,	-- Cataclysm Mining [8.0.1]
+		[2568] = 186,	-- Pandaria Mining [8.0.1]
+		[2567] = 186,	-- Draenor Mining [8.0.1]
+		[2566] = 186,	-- Legion Mining [8.0.1]
+		[2565] = 186,	-- Kul Tiran Mining [8.0.1]
+		
+		-- Skinning Skills
+		[393] = 393,	-- Skinning [7.3.5]
+		[2564] = 393,	-- Classic Skinning [8.0.1]
+		[2563] = 393,	-- Outland Skinning [8.0.1]
+		[2562] = 393,	-- Northrend Skinning [8.0.1]
+		[2561] = 393,	-- Cataclysm Skinning [8.0.1]
+		[2560] = 393,	-- Pandaria Skinning [8.0.1]
+		[2559] = 393,	-- Draenor Skinning [8.0.1]
+		[2558] = 393,	-- Legion Skinning [8.0.1]
+		[2557] = 393,	-- Kul Tiran Skinning [8.0.1]
+		
+		-- Tailoring Skills
+		[197] = 197,	-- Tailoring [7.3.5]
+		[2540] = 197,	-- Classic Tailoring [8.0.1]
+		[2539] = 197,	-- Outland Tailoring [8.0.1]
+		[2538] = 197,	-- Northrend Tailoring [8.0.1]
+		[2537] = 197,	-- Cataclysm Tailoring [8.0.1]
+		[2536] = 197,	-- Pandaria Tailoring [8.0.1]
+		[2535] = 197,	-- Draenor Tailoring [8.0.1]
+		[2534] = 197,	-- Legion Tailoring [8.0.1]
+		[2533] = 197,	-- Kul Tiran Tailoring [8.0.1]
+	};
+	app.GetBaseTradeSkillID = function(skillID)
+		return tradeSkillMap[skillID] or skillID;
+	end
+	app.GetTradeSkillLine = function()
+		return app.GetBaseTradeSkillID(C_TradeSkillUI.GetTradeSkillLine());
+	end
+	app.GetTradeSkillCache = function(invalidate)
+		local cache = GetTempDataMember("PROFESSION_CACHE");
+		if not cache or invalidate then
+			cache = {};
+			SetTempDataMember("PROFESSION_CACHE", cache);
+			for i,j in ipairs({GetProfessions()}) do
+				cache[app.GetBaseTradeSkillID(select(7, GetProfessionInfo(j)))] = true;
+			end
+		end
+		return cache;
+	end
+end)();
 
 -- Game Tooltip Icon
 local GameTooltipIcon = CreateFrame("FRAME", nil, GameTooltip);
@@ -1087,17 +1227,6 @@ local function GetIllusionCache()
 	end
 	return cache;
 end
-local function GetProfessionCache(invalidate)
-	local cache = GetTempDataMember("PROFESSION_CACHE");
-	if not cache or invalidate then
-		cache = {};
-		SetTempDataMember("PROFESSION_CACHE", cache);
-		for i,j in ipairs({GetProfessions()}) do
-			cache[select(7, GetProfessionInfo(j))] = true;
-		end
-	end
-	return cache;
-end
 local function GetTitleCache()
 	local cache = GetTempDataMember("TITLE_CACHE");
 	if not cache then
@@ -1855,12 +1984,15 @@ local function OpenMiniList(field, id, label)
 			popout:SetVisible(true);
 			return false;
 		end
+	else
+		print("No map found for this location ", app.GetMapName(id), " [", id, "]");
+		print("Please report this to the ATT Discord! Thanks!");
 	end
 end
 local function OpenMiniListForCurrentProfession(manual, refresh)
 	if app.Categories.Professions then
 		local popout = app:GetWindow("Tradeskills");
-		local tradeSkillLine = C_TradeSkillUI.GetTradeSkillLine();
+		local tradeSkillLine = AllTheThings.GetTradeSkillLine();
 		if tradeSkillLine and GetDataMember("AutoProfessionMiniList") and fieldCache["requireSkill"][tradeSkillLine]
 			and not (C_TradeSkillUI.IsTradeSkillLinked() or C_TradeSkillUI.IsTradeSkillGuild()) then
 			if manual or not refresh then
@@ -1901,7 +2033,7 @@ local function OpenMiniListForCurrentProfession(manual, refresh)
 				end
 				
 				-- Open the Tradeskill list for this Profession
-				local tradeSkillID = C_TradeSkillUI.GetTradeSkillLine();
+				local tradeSkillID = AllTheThings.GetTradeSkillLine();
 				if popout.tradeSkillID ~= tradeSkillID then
 					popout.tradeSkillID = tradeSkillID;
 					for i,group in ipairs(app.Categories.Professions) do
@@ -1971,7 +2103,6 @@ local function RefreshLocationCoroutine()
 		coroutine.yield();
 		mapID = app.GetCurrentMapID();
 	end
-	--print("Current Map ID #", mapID);
 	
 	-- Cache that we're in the current map ID.
 	if GetTempDataMember("MapID") ~= mapID then
@@ -2290,6 +2421,87 @@ app.ToggleMainList = ToggleMainList;
 
 
 -- Tooltip Functions
+local function RecalculateGroupTotals(group)
+	if group.collectible then
+		group.total = 1;
+		if group.collected then
+			group.progress = 1;
+		else
+			group.progress = 0;
+		end
+	else
+		group.total = 0;
+		group.progress = 0;
+	end
+	if group.g then
+		for j,s in ipairs(group.g) do
+			if s.total then
+				group.total = group.total + s.total;
+				group.progress = group.progress + s.progress;
+			elseif s.collectible and app.GroupRequirementsFilter(s) and app.GroupFilter(s) then
+				group.total = group.total + 1;
+				if s.collected then
+					group.progress = group.progress + 1;
+				end
+			end
+		end
+	end
+end
+local function MergeSearchResults(group)
+	if group then
+		-- If the user has Show Collection Progress turned on.
+		local count = #group or 0;
+		if count > 1 then
+			-- Build the group data (merge into one group)
+			local merged = { g = {}, total = 0, progress = 0, merged = true };
+			for i,g in ipairs(group) do
+				if not g.hideText and (app.RecursiveClassAndRaceFilter(g.parent) or GetDataMember("IgnoreAllFilters")) then
+					if g.collectible then
+						merged.collectible = merged.collectible or g.collectible;
+						merged.collected = merged.collected or g.collected;
+					end
+					if g.trackable then
+						merged.trackable = merged.trackable or g.trackable;
+						merged.saved = merged.saved or g.saved;
+					end
+					if g.g then
+						for j,s in ipairs(g.g) do
+							tinsert(merged.g, s);
+						end
+					end
+				end
+			end
+			
+			local mcount = #merged.g;
+			if mcount > 0 then
+				-- Remove duplicate entries
+				local o, key, value, found;
+				for i=mcount,1,-1 do
+					o = merged.g[i];
+					if o.collectible or o.total then
+						key = o.key;
+						value = o[key];
+						found = false;
+						for j=i-1,1,-1 do
+							if merged.g[j][key] == value then
+								found = true;
+								break;
+							end
+						end
+						if found then table.remove(merged.g, i); end
+					else
+						table.remove(merged.g, i);
+					end
+				end
+			else
+				merged.g = nil;
+			end
+			return merged;
+		else
+			return group[1];
+		end
+	end
+end
 local function AttachTooltipRawSearchResults(self, listing, group)
 	if listing then
 		-- Display the pre-calculated row data.
@@ -2304,236 +2516,117 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 			end
 		end
 		
-		-- If the user has Show Collection Progress turned on.
-		local count = group and #group or 0;
-		if count > 0 and self:NumLines() > 0 and GetDataMember("ShowProgress") then
-			-- Determine if this group is composed of multiple sections
-			if count > 1 then
-				-- Build the group data (merge into one group)
-				local merged = { g = {}, total = 0, progress = 0 };
-				for i,g in ipairs(group) do
-					if not g.hideText and (app.RecursiveClassAndRaceFilter(g.parent) or GetDataMember("IgnoreAllFilters")) then
-						if g.collectible then
-							merged.collectible = merged.collectible or g.collectible;
-							merged.collected = merged.collected or g.collected;
-						end
-						if g.trackable then
-							merged.trackable = merged.trackable or g.trackable;
-							merged.saved = merged.saved or g.saved;
-						end
-						if g.g then
-							for j,s in ipairs(g.g) do
-								tinsert(merged.g, s);
+		-- Merge the Search Results into a compact list.
+		-- TODO: Potentially optimize this?
+		group = MergeSearchResults(group);
+		if group then
+			-- If this is a Merged group, then we need to recalculate totals since it isn't directly from the DB
+			if group.merged then RecalculateGroupTotals(group); end
+			
+			-- If the group has relative contents, we should show that information
+			if group.g and not group.hideText and GetDataMember("ShowContents") 
+				and (app.RecursiveClassAndRaceFilter(group) or GetDataMember("IgnoreAllFilters")) then
+				local parents = {};
+				local items = {};
+				for i,j in ipairs(group.g) do
+					if not j.hideText and app.GroupRequirementsFilter(j) and app.GroupFilter(j) then
+						if not contains(parents, j.parent) then tinsert(parents, j.parent); end
+						
+						local right = nil;
+						if j.total and j.total > 0 then
+							if (j.progress / j.total) < 1 or GetDataMember("ShowCompletedGroups") then
+								right = GetProgressColorText(j.progress, j.total);
 							end
+						elseif j.collectible then
+							if j.collected or (j.trackable and j.saved) then
+								if GetDataMember("ShowCollectedItems") then
+									right = L("COLLECTED_ICON");
+								end
+							else
+								right = L("NOT_COLLECTED_ICON");
+							end
+						elseif j.trackable then
+							if j.saved then
+								if GetDataMember("ShowCollectedItems") then
+									right = L("COMPLETE_ICON");
+								end
+							elseif app.ShowIncompleteQuests(j) then
+								right = L("NOT_COLLECTED_ICON");
+							end
+						elseif j.visible then
+							right = "---";
+						end
+						
+						-- If there's progress to display, then let's summarize a bit better.
+						if right then
+							-- If this group has a droprate, add it to the display.
+							if j.dr then right = "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. right; end
+							
+							-- If this group has specialization requirements, let's attempt to show the specialization icons.
+							local specs = GetDataMember("ShowLootSpecializationRequirements") and j.specs;
+							if specs and #specs > 0 then
+								table.sort(specs);
+								for i,spec in ipairs(specs) do
+									local id, name, description, icon, role, class = GetSpecializationInfoByID(spec);
+									if class == app.Class then right = "|T" .. icon .. ":0|t " .. right; end
+								end
+							end
+							
+							-- Insert into the display.
+							tinsert(items, { "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), right });
 						end
 					end
 				end
 				
-				local mcount = #merged.g;
-				if mcount > 0 then
-					-- Remove duplicate entries
-					local o, key, value, found;
-					for i=mcount,1,-1 do
-						o = merged.g[i];
-						key = o.key;
-						value = o[key];
-						if o.collectible or o.total then
-							found = false;
-							for j=i-1,1,-1 do
-								if merged.g[j][key] == value then
-									found = true;
-									break;
-								end
-							end
-							if found then table.remove(merged.g, i); end
-						else
-							table.remove(merged.g, i);
+				if #items > 0 then
+					self:AddLine("Contains:");
+					if #items < 5 then
+						for i,pair in ipairs(items) do
+							self:AddDoubleLine(pair[1], pair[2]);
 						end
-					end
-					
-					-- Calculate totals
-					if merged.collectible then
-						merged.total = 1;
-						if merged.collected then
-							merged.progress = 1;
-						else
-							merged.progress = 0;
+					elseif #parents < 2 then
+						for i=1,math.min(5, #items) do
+							self:AddDoubleLine(items[i][1], items[i][2]);
 						end
+						local more = #items - 5;
+						if more > 0 then self:AddLine("And " .. more .. " more..."); end
 					else
-						merged.total = 0;
-						merged.progress = 0;
-					end
-					for j,s in ipairs(merged.g) do
-						if s.total then
-							merged.total = merged.total + s.total;
-							merged.progress = merged.progress + s.progress;
-						elseif s.collectible and app.GroupRequirementsFilter(s) and app.GroupFilter(s) then
-							merged.total = merged.total + 1;
-							if s.collected then
-								merged.progress = merged.progress + 1;
+						for i,j in ipairs(parents) do
+							local title = "  ";
+							if j.parent then
+								if j.parent.parent then
+									if j.creatureID then
+										title = title .. (j.parent.parent.icon and ("|T" .. j.parent.parent.icon .. ":0|t") or "") .. (j.parent.parent.text or RETRIEVING_DATA) .. " -> " .. (j.text or RETRIEVING_DATA) .. " (" .. (j.parent.text or RETRIEVING_DATA) .. ")";
+									else
+										title = title .. (j.parent.parent.icon and ("|T" .. j.parent.parent.icon .. ":0|t") or "") .. (j.parent.parent.text or RETRIEVING_DATA) .. " -> " .. (j.parent.text or RETRIEVING_DATA);
+									end
+								else
+									title = title .. (j.parent.icon and ("|T" .. j.parent.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA) .. " (" .. (j.parent.text or RETRIEVING_DATA) .. ")";
+								end
+							else
+								title = title .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA);
 							end
+							self:AddDoubleLine(title, GetProgressColorText(j.progress, j.total));
 						end
 					end
-				else
-					merged.g = nil;
 				end
-				group = merged;
-			else
-				group = group[1];
 			end
 			
-			local rightSide = _G[self:GetName() .. "TextRight1"];
-			if rightSide then
-				if group.g and not group.hideText and app.RecursiveClassAndRaceFilter(group) then
-					if group.total and group.total > 0 then
-						local progress = 0;
-						local total = 0;
-						if GetDataMember("ShowContents") then
-							local parents = {};
-							local items = {};
-							for i,j in ipairs(group.g) do
-								if not j.hideText and app.GroupRequirementsFilter(j) and app.GroupFilter(j) then
-									if not contains(parents, j.parent) then tinsert(parents, j.parent); end
-									
-									local right = nil;
-									if j.total and j.total > 0 then
-										progress = progress + (j.progress or 0);
-										total = total + j.total;
-										if (j.progress / j.total) < 1 or GetDataMember("ShowCompletedGroups") then
-											right = GetProgressColorText(j.progress, j.total);
-										end
-									elseif j.collectible then
-										total = total + 1;
-										if j.collected or (j.trackable and j.saved) then
-											progress = progress + 1;
-											if GetDataMember("ShowCollectedItems") then
-												right = L("COLLECTED_ICON");
-											end
-										else
-											right = L("NOT_COLLECTED_ICON");
-										end
-									elseif j.trackable then
-										if j.saved then
-											if GetDataMember("ShowCollectedItems") then
-												right = L("COLLECTED_ICON");
-											end
-										elseif app.ShowIncompleteQuests(j) then
-											right = L("NOT_COLLECTED_ICON");
-										end
-									elseif j.visible then
-										right = "---";
-									end
-									
-									-- If there's progress to display, then let's summarize a bit better.
-									if right then
-										-- If this group has a droprate, add it to the display.
-										if j.dr then right = "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. right; end
-										
-										-- If this group has specialization requirements, let's attempt to show the specialization icons.
-										local specs = GetDataMember("ShowLootSpecializationRequirements") and j.specs;
-										if specs and #specs > 0 then
-											table.sort(specs);
-											for i,spec in ipairs(specs) do
-												local id, name, description, icon, role, class = GetSpecializationInfoByID(spec);
-												if class == app.Class then right = "|T" .. icon .. ":0|t " .. right; end
-											end
-										end
-										
-										-- Insert into the display.
-										tinsert(items, { "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), right });
-									end
-								end
-							end
-							
-							if total > 0 then
-								rightSide:SetText(GetProgressColorText(progress, total));
-								if #items > 0 then
-									self:AddLine("Contains:");
-									if #items < 5 then
-										for i,pair in ipairs(items) do
-											self:AddDoubleLine(pair[1], pair[2]);
-										end
-									elseif #parents < 2 then
-										for i=1,math.min(5, #items) do
-											self:AddDoubleLine(items[i][1], items[i][2]);
-										end
-										self:AddLine("And " .. (#items - 5) .. " more...");
-									else
-										for i,j in ipairs(parents) do
-											local title = "  ";
-											if j.parent then
-												if j.parent.parent then
-													if j.creatureID then
-														title = title .. (j.parent.parent.icon and ("|T" .. j.parent.parent.icon .. ":0|t") or "") .. (j.parent.parent.text or RETRIEVING_DATA) .. " -> " .. (j.text or RETRIEVING_DATA) .. " (" .. (j.parent.text or RETRIEVING_DATA) .. ")";
-													else
-														title = title .. (j.parent.parent.icon and ("|T" .. j.parent.parent.icon .. ":0|t") or "") .. (j.parent.parent.text or RETRIEVING_DATA) .. " -> " .. (j.parent.text or RETRIEVING_DATA);
-													end
-												else
-													title = title .. (j.parent.icon and ("|T" .. j.parent.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA) .. " (" .. (j.parent.text or RETRIEVING_DATA) .. ")";
-												end
-											else
-												title = title .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA);
-											end
-											self:AddDoubleLine(title, GetProgressColorText(j.progress, j.total));
-										end
-									end
-								end
-							else
-								if group.collectible then
-									rightSide:SetText(GetCollectionText(group.collected));
-								elseif group.trackable then
-									rightSide:SetText(GetCompletionText(group.saved));
-								else
-									rightSide:SetText("---");
-								end
-							end
-						else
-							-- TODO: Change this.
-							for i,j in ipairs(group.g) do
-								if not j.hideText and app.GroupRequirementsFilter(j) and app.GroupFilter(j) then
-									if j.total and j.total > 1 then
-										progress = progress + (j.progress or 0);
-										total = total + j.total;
-									else
-										total = total + 1;
-										if j.collected or (j.trackable and j.saved) then
-											progress = progress + 1;
-										end
-									end
-								end
-							end
-							
-							if total > 0 then
-								rightSide:SetText(GetProgressColorText(progress, total));
-							else
-								if group.collectible then
-									rightSide:SetText(GetCollectionText(group.collected));
-								elseif group.trackable then
-									rightSide:SetText(GetCompletionText(group.saved));
-								else
-									rightSide:SetText("---");
-								end
-							end
-						end
-					else
-						if group.collectible then
-							rightSide:SetText(GetCollectionText(group.collected));
-						elseif group.trackable then
-							rightSide:SetText(GetCompletionText(group.saved));
-						else
-							rightSide:SetText("---");
-						end
-					end
-				else
-					if group.collectible then
+			-- If the user has Show Collection Progress turned on.
+			if self:NumLines() > 0 and GetDataMember("ShowProgress") then
+				local rightSide = _G[self:GetName() .. "TextRight1"];
+				if rightSide then
+					if group.total and (group.total > 1 or (group.total > 0 and not group.collectible)) then
+						rightSide:SetText(GetProgressColorText(group.progress, group.total));
+					elseif group.collectible then
 						rightSide:SetText(GetCollectionText(group.collected));
 					elseif group.trackable then
 						rightSide:SetText(GetCompletionText(group.saved));
 					else
 						rightSide:SetText("---");
 					end
+					rightSide:Show();
 				end
-				rightSide:Show();
 			end
 		end
 	end
@@ -2545,6 +2638,29 @@ end
 local function AttachTooltipForEncounter(self, encounterID)
 	if GetDataMember("ShowEncounterID") then self:AddDoubleLine(L("ENCOUNTER_ID"), tostring(encounterID)); end
 	AttachTooltipSearchResults(self, "encounterID:" .. encounterID, SearchForFieldAndSummarizeForCurrentDifficulty, "encounterID", tonumber(encounterID));
+end
+local function AttachReagentTooltipInformation(self, link)
+	local itemID = GetItemInfoInstant(link);
+	if itemID then
+		local reagentCache = app.GetDataSubMember("Reagents", itemID);
+		if reagentCache then
+			self:AddDoubleLine("Reagent for:", "Count");
+			--[[
+			for recipeID,count in pairs(reagentCache[1]) do
+				local icon = select(3, GetSpellInfo(recipeID));
+				self:AddDoubleLine("  " .. (icon and ("|T" .. icon .. ":0|t") or "  ") .. (select(1, GetSpellLink(recipeID)) or ("Spell #" .. recipeID)), "x" .. count);
+			end
+			--]]
+			local data = {};
+			for itemID,count in pairs(reagentCache[2]) do
+				local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(itemID);
+				local searchResults = SearchForItemID(itemID);
+				if searchResults then
+					self:AddDoubleLine("  " .. (icon and ("|T" .. icon .. ":0|t") or "  ") .. (link or ("Item #" .. itemID)), "x" .. count);
+				end
+			end
+		end
+	end
 end
 local function AttachTooltip(self)
 	if not self.AllTheThingsProcessing then
@@ -2903,8 +3019,12 @@ app.BaseArtifact = {
 				return true;
 			end
 		elseif key == "text" then
-			return Colorize("Variant " .. t.info[4], RGBToHex(t.info[9] * 255, t.info[10] * 255, t.info[11] * 255));
+			return t.parent.itemID and t.variantText or t.appearanceText;
 		elseif key == "title" then
+			return t.parent.itemID and t.appearanceText or t.variantText;
+		elseif key == "variantText" then
+			return Colorize("Variant " .. t.info[4], RGBToHex(t.info[9] * 255, t.info[10] * 255, t.info[11] * 255));
+		elseif key == "appearanceText" then
 			return "|cffe6cc80" .. (t.info[3] or "???") .. "|r";
 		elseif key == "description" then
 			return t.info[6] or "Awarded for completing the introductory quest for this Artifact.";
@@ -3067,6 +3187,14 @@ app.BaseDifficulty = {
 					end
 				end
 			end
+		elseif key == "u" then
+			if t.difficultyID == 24 or t.difficultyID == 33 then
+				return 42;
+			end
+		elseif key == "description" then
+			if t.difficultyID == 24 or t.difficultyID == 33 then
+				return "Timewalking difficulties needlessly create new Source IDs for items despite having the exact same name, appearance, and display in the Collections Tab.\n\nA plea to the Blizzard Devs: Please clean up the Source ID database and have your Timewalking / Titanforged item variants use the same Source ID as their base assuming the appearances and names are exactly the same. Not only will this make your database much cleaner, but it will also make Completionists excited for rather than dreading the introduction of more Timewalking content.\n\n - Crieve, the Very Bitter Debug Completionist that had 99% Ulduar completion and now only has 59% because your team duplicated the Source IDs rather than reuse the existing one.";
+			end
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -3226,7 +3354,7 @@ app.BaseFollower = {
 			local info = t.info;
 			return info and info.name;
 		elseif key == "description" then
-			return "Followers must be collected on a per-character basis. You can filter this out by unchecking Settings -> Mini List -> Followers.\n\nYou must manually refresh the addon by Shift+Left clicking the header for this to be detected.";
+			return "Followers must be collected on a per-character basis. \n\nYou must manually refresh the addon by Shift+Left clicking the header for this to be detected.";
 		elseif key == "info" then
 			-- https://wow.gamepedia.com/API_C_Garrison.GetFollowerInfo
 			return C_Garrison.GetFollowerInfo(t.followerID);
@@ -3813,7 +3941,11 @@ app.BaseMusicRoll = {
 				return link;
 			end
 		elseif key == "description" then
-			return "These are unlocked per-character and are not currently shared across your account. If someone at Blizzard is reading this, it would be really swell if you made these account wide.\n\nYou must manually refresh the addon by Shift+Left clicking the header for this to be detected.";
+			local description = "These are unlocked per-character and are not currently shared across your account. If someone at Blizzard is reading this, it would be really swell if you made these account wide.\n\nYou must manually refresh the addon by Shift+Left clicking the header for this to be detected.";
+			if not (IsQuestFlaggedCompleted(38356) or IsQuestFlaggedCompleted(37961)) then
+				description = description .. "\n\nYou must first unlock the Music Rolls by completing the Bringing the Bass quest in your garrison for this item to drop.";
+			end
+			return description;
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -4188,7 +4320,8 @@ end
 		"Interface\\Icons\\expansionicon_cataclysm",				-- Cata
 		"Interface\\Icons\\expansionicon_mistsofpandaria",			-- Mists
 		"Interface\\Icons\\Achievement_boss_hellfire_archimonde",	-- WoD
-		"Interface\\Icons\\achievements_zone_brokenshore"			-- Legion
+		"Interface\\Icons\\achievements_zone_brokenshore",			-- Legion
+		"Interface\\Icons\\achievement_cloudnine",					-- Battle For Azeroth
 	};
 	local tierLevel = {
 		1, 		-- Classic
@@ -4197,7 +4330,8 @@ end
 		77,		-- Cata
 		77,		-- Mists
 		90,		-- WoD
-		98		-- Legion
+		98,		-- Legion
+		108,	-- Battle For Azeroth
 	};
 	local tierDescription = {
 		"|cff66ccffFour years after the Battle of Mount Hyjal, tensions between the Alliance & the Horde begin to arise once again. Intent on settling the arid region of Durotar, Thrall's new Horde expanded its ranks, inviting the undead Forsaken to join orcs, tauren, & trolls. Meanwhile, dwarves, gnomes & the ancient night elves pledged their loyalties to a reinvigorated Alliance, guided by the human kingdom of Stormwind. After Stormwind's king, Varian Wrynn, mysteriously disappeared, Highlord Bolvar Fordragon served as Regent but his service was marred by the manipulations & mind control of the Onyxia, who ruled in disguise as a human noblewoman. As heroes investigated Onyxia's manipulations, ancient foes surfaced in lands throughout the world to menace Horde & Alliance alike.|r", 					-- Classic
@@ -4206,7 +4340,8 @@ end
 		"|cff66ccffCataclysm is the third expansion. Set primarily in a dramatically reforged Kalimdor & Eastern Kingdoms on the world of Azeroth, the expansion follows the return of Deathwing, who causes a new Sundering as he makes his cataclysmic re-entrance into the world from Deepholm. Cataclysm returns players to the two continents of Azeroth for most of their campaigning, opening new zones such as Mount Hyjal, the sunken world of Vashj'ir, Deepholm, Uldum and the Twilight Highlands. It includes two new playable races, the worgen & the goblins. The expansion increases level cap to 85, adds the ability to fly in Kalimdor & Eastern Kingdoms, intorduces Archaeology & reforging, & restructures the world itself.|r",				-- Cata
 		"|cff66ccffMists of Pandaria is the fourth expansion pack. The expansion refocuses primarily on the war between the Alliance & Horde, in the wake of the accidental rediscovery of Pandaria. Adventurers rediscover the ancient pandaren people, whose wisdom will help guide them to new destinies; the Pandaren Empire's ancient enemy, the mantid; and their legendary oppressors, the enigmatic mogu. The land changes over time & the conflict between Varian Wrynn & Garrosh Hellscream escalates. As civil war wracks the Horde, the Alliance & forces in the Horde opposed to Hellscream's violent uprising join forces to take the battle directly to Hellscream & his Sha-touched allies in Orgrimmar.|r",			-- Mists
 		"|cff66ccffWarlords of Draenor is the fifth expansion. Across Draenor's savage jungles & battle-scarred plains, Azeroth's heroes will engage in a mythic conflict involving mystical draenei champions & mighty orc clans, & cross axes with the likes of Grommash Hellscream, Blackhand, & Ner’zhul at the height of their primal power. Players will need to scour this unwelcoming land in search of allies to help build a desperate defense against the old Horde’s formidable engine of conquest, or else watch their own world’s bloody, war-torn history repeat itself.|r",	-- WoD
-		"|cff66ccffLegion is the sixth expansion. Gul'dan is expelled into Azeroth to reopen the Tomb of Sargeras & the gateway to Argus, commencing the third invasion of the Burning Legion. After the defeat at the Broken Shore, the defenders of Azeroth search for the Pillars of Creation, which were Azeroth's only hope for closing the massive demonic portal at the heart of the Tomb. However, the Broken Isles came with their own perils to overcome, from Xavius, to God-King Skovald, to the nightborne, & to Tidemistress Athissa. Khadgar moved Dalaran to the shores of this land, the city serves as a central hub for the heroes. The death knights of Acherus also took their floating necropolis to the Isles. The heroes of Azeroth sought out legendary artifact weapons to wield in battle, but also found unexpected allies in the form of the Illidari. Ongoing conflict between the Alliance & the Horde led to the formation of the class orders, with exceptional commanders putting aside faction to lead their classes in the fight against the Legion.|r"			-- Legion
+		"|cff66ccffLegion is the sixth expansion. Gul'dan is expelled into Azeroth to reopen the Tomb of Sargeras & the gateway to Argus, commencing the third invasion of the Burning Legion. After the defeat at the Broken Shore, the defenders of Azeroth search for the Pillars of Creation, which were Azeroth's only hope for closing the massive demonic portal at the heart of the Tomb. However, the Broken Isles came with their own perils to overcome, from Xavius, to God-King Skovald, to the nightborne, & to Tidemistress Athissa. Khadgar moved Dalaran to the shores of this land, the city serves as a central hub for the heroes. The death knights of Acherus also took their floating necropolis to the Isles. The heroes of Azeroth sought out legendary artifact weapons to wield in battle, but also found unexpected allies in the form of the Illidari. Ongoing conflict between the Alliance & the Horde led to the formation of the class orders, with exceptional commanders putting aside faction to lead their classes in the fight against the Legion.|r",-- Legion
+		"|cff66ccffAzeroth paid a terrible price to end the apocalyptic march of the Legion's crusade—but even as the world's wounds are tended, it is the shattered trust between the Alliance and Horde that may prove the hardest to mend. In Battle for Azeroth, the fall of the Burning Legion sets off a series of disastrous incidents that reignites the conflict at the heart of the Warcraft saga. As a new age of warfare begins, Azeroth's heroes must set out on a journey to recruit new allies, race to claim the world's mightiest resources, and fight on several fronts to determine whether the Horde or Alliance will lead Azeroth into its uncertain future.|r", -- BfA
 	};
 	app.BaseTier = {
 		__index = function(t, key)
@@ -4550,7 +4685,7 @@ function app.FilterItemClass_RequireBinding(item)
 end
 function app.FilterItemClass_RequiredSkill(requireSkill)
 	if requireSkill then
-		return GetProfessionCache()[requireSkill];
+		return app.GetTradeSkillCache()[requireSkill];
 	else
 		return true;
 	end
@@ -6462,7 +6597,7 @@ function app:GetDataCache()
 			db.text = TRACKER_HEADER_ACHIEVEMENTS;
 			table.insert(g, db);
 		end
-		
+		--]]
 		-- Class Halls
 		if app.Categories.ClassHalls then
 			db = {};
@@ -6659,7 +6794,7 @@ function app:GetDataCache()
 		
 		-- Gear Sets
 		table.insert(g, GetGearSetCache());
-		]]--
+		--]]
 		
 		-- Raw Source Data (Oh god)
 		--[[
@@ -8458,11 +8593,11 @@ app.events.VARIABLES_LOADED = function()
 			if otherMapID then uiMapID = otherMapID; end
 			
 			-- print("Current UI Map ID: ", uiMapID);
-			return app.BFAToLegionMapID(uiMapID);
+			return uiMapID;--app.BFAToLegionMapID(uiMapID);
 		end
 		app.GetMapName = function(mapID)
 			if mapID and mapID > 0 then
-				local info = C_Map.GetMapInfo(app.LegionToBFAMapID(mapID));
+				local info = C_Map.GetMapInfo(mapID);--app.LegionToBFAMapID(mapID));
 				return (info and info.name) or ("Map ID #" .. mapID);
 			else
 				return "Map ID #???";

@@ -45,7 +45,7 @@ function LoadOptionsFrame()
 	AAP.OptionsFrame = {}
 	AAP.OptionsFrame.MainFrame = CreateFrame("frame", "AAP_OptionsMainFrame",  UIParent)
 	AAP.OptionsFrame.MainFrame:SetWidth(450)
-	AAP.OptionsFrame.MainFrame:SetHeight(260)
+	AAP.OptionsFrame.MainFrame:SetHeight(280)
 	AAP.OptionsFrame.MainFrame:SetFrameStrata("MEDIUM")
 	AAP.OptionsFrame.MainFrame:SetPoint("CENTER",  UIParent, "CENTER",0,0)
 	AAP.OptionsFrame.MainFrame:SetMovable(true)
@@ -223,6 +223,25 @@ function LoadOptionsFrame()
 			AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoShareQ"] = 0
 		end
 	end)
+	AAP.OptionsFrame.CheckButton7 = CreateFrame("CheckButton", "CLxCheckButton7", AAP.OptionsFrame.MainFrame, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.CheckButton7:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 10, -210)
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerShow"] == 0) then
+		AAP.OptionsFrame.CheckButton7:SetChecked(false)
+	else
+		AAP.OptionsFrame.CheckButton7:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.CheckButton7:GetName() .. 'Text'):SetText(": "..AAP_Locals["BannerShow"])
+	getglobal(AAP.OptionsFrame.CheckButton7:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.CheckButton7:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.CheckButton7:GetChecked() == true) then
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerShow"] = 1
+			AAP.Banners.BannersFrame.Frame:Show()
+		else
+			AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerShow"] = 0
+			AAP.Banners.BannersFrame.Frame:Hide()
+		end
+	end)
+
 
 
 
@@ -277,6 +296,43 @@ function LoadOptionsFrame()
 	end)
 	AAP.OptionsFrame.Slider2:SetValue(AAP1[AAP_Realm][AAP_Name]["Settings"]["ArrowScale"] * 100)
 
+
+
+
+	AAP.OptionsFrame.Slider3 = CreateFrame("Slider", "AAP_SettingsSlider3",AAP.OptionsFrame.MainFrame, "OptionsSliderTemplate")
+	AAP.OptionsFrame.Slider3:SetWidth(160)
+	AAP.OptionsFrame.Slider3:SetHeight(15)
+	AAP.OptionsFrame.Slider3:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame, "TOPLEFT", 210, -210)
+	AAP.OptionsFrame.Slider3:SetOrientation("HORIZONTAL")
+	AAP.OptionsFrame.Slider3:SetMinMaxValues(1, 200)
+	AAP.OptionsFrame.Slider3.minValue, AAP.OptionsFrame.Slider3.maxValue = AAP.OptionsFrame.Slider3:GetMinMaxValues() 
+	getglobal(AAP.OptionsFrame.Slider3:GetName() .. 'Low'):SetText("1%")
+	getglobal(AAP.OptionsFrame.Slider3:GetName() .. 'High'):SetText("200%")
+	getglobal(AAP.OptionsFrame.Slider3:GetName() .. 'Text'):SetText(AAP_Locals["BannerScale"])
+	AAP.OptionsFrame.Slider3:SetValueStep(1)
+	AAP.OptionsFrame.Slider3:SetValue(100)
+	AAP.OptionsFrame.Slider3:SetScript("OnValueChanged", function(self,event) 
+		event = event - event%1
+		AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"] = event / 100
+		AAP.Banners.BannersFrame.Frame:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.Banners.BannersFrame["Frame1"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.Banners.BannersFrame["Frame2"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.Banners.BannersFrame["Frame3"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.Banners.BannersFrame["Frame4"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+	end)
+	AAP.OptionsFrame.Slider3:SetScript("OnMouseWheel", function(self,delta) 
+		if tonumber(self:GetValue()) == nil then return end
+		self:SetValue(tonumber(self:GetValue())+delta)
+	end)
+	AAP.OptionsFrame.Slider3:SetValue(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"] * 100)
+
+
+
+
+
+
+
+
 	AAP.OptionsFrame["Button1"] = CreateFrame("Button", "AAP_OptionsButtons1", AAP.OptionsFrame.MainFrame, "SecureActionButtonTemplate")
 	AAP.OptionsFrame["Button1"]:SetPoint("BOTTOMRIGHT",AAP.OptionsFrame.MainFrame,"BOTTOMRIGHT",-5,5)
 	AAP.OptionsFrame["Button1"]:SetWidth(70)
@@ -314,7 +370,7 @@ function LoadOptionsFrame()
 	AAP.OptionsFrame["Button2"]:SetPoint("BOTTOMLEFT",AAP.OptionsFrame.MainFrame,"BOTTOMLEFT",5,5)
 	AAP.OptionsFrame["Button2"]:SetWidth(200)
 	AAP.OptionsFrame["Button2"]:SetHeight(30)
-	AAP.OptionsFrame["Button2"]:SetText("Set Keybind: Use Quest Items")
+	AAP.OptionsFrame["Button2"]:SetText(AAP_Locals["Keybinds"])
 	AAP.OptionsFrame["Button2"]:SetParent(AAP.OptionsFrame.MainFrame)
 	AAP.OptionsFrame.Button2:SetNormalFontObject("GameFontNormal")
 	AAP.OptionsFrame.Button2ntex = AAP.OptionsFrame.Button2:CreateTexture()

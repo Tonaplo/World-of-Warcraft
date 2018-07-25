@@ -422,6 +422,16 @@ function AAP_MakeQuestList()
 	AAP.QuestList.Greetings2FS1:SetText("Welcome to Azeroth Auto Pilot")
 	AAP.QuestList.Greetings2FS1:SetTextColor(1, 1, 0)
 
+	AAP.QuestList.Greetings2FS221 = AAP.QuestList.Greetings:CreateFontString("AAPGreetingsFS221","ARTWORK", "ChatFontNormal")
+	AAP.QuestList.Greetings2FS221:SetParent(AAP.QuestList.Greetings)
+	AAP.QuestList.Greetings2FS221:SetPoint("TOP",AAP.QuestList.Greetings,"TOP",0,-8)
+	AAP.QuestList.Greetings2FS221:SetWidth(290)
+	AAP.QuestList.Greetings2FS221:SetHeight(72)
+	AAP.QuestList.Greetings2FS221:SetJustifyH("LEFT")
+	AAP.QuestList.Greetings2FS221:SetFont(AAP_Font, 14)
+	AAP.QuestList.Greetings2FS221:SetText("Horde require 40+ Goblin Glider kits.")
+	AAP.QuestList.Greetings2FS221:SetTextColor(1, 1, 0)
+
 	AAP.QuestList.Greetings2FS2 = AAP.QuestList.Greetings:CreateFontString("AAPGreetingsFS2","ARTWORK", "ChatFontNormal")
 	AAP.QuestList.Greetings2FS2:SetParent(AAP.QuestList.Greetings)
 	AAP.QuestList.Greetings2FS2:SetPoint("TOP",AAP.QuestList.Greetings,"TOP",0,-38)
@@ -462,10 +472,10 @@ function AAP_MakeQuestList()
 	AAP.QuestList.GreetingsHideBptex:SetAllPoints()
 	AAP.QuestList.GreetingsHideB:SetPushedTexture(AAP.QuestList.GreetingsHideBptex)
 	AAP.QuestList.GreetingsHideB:SetScript("OnClick", function(self, arg1)
-		AAP1[AAP_Realm][AAP_Name]["Settings"]["Greetings"] = 1
+		AAP1[AAP_Realm][AAP_Name]["Settings"]["Greetings2"] = 1
 		AAP.QuestList.Greetings:Hide()
 	end)
-	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["Greetings"] == 1) then
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["Greetings2"] == 1) then
 		AAP.QuestList.Greetings:Hide()
 	end
 
@@ -565,7 +575,7 @@ function AAP_MakeQuestList()
 		AAP.QuestList.QuestFrames["FS"..CLi] = AAP.QuestList.ListFrame:CreateFontString("CLQFS"..CLi,"ARTWORK", "ChatFontNormal")
 		AAP.QuestList.QuestFrames["FS"..CLi]:SetParent(AAP.QuestList.QuestFrames[CLi])
 		AAP.QuestList.QuestFrames["FS"..CLi]:SetPoint("TOPLEFT",AAP.QuestList.QuestFrames[CLi],"TOPLEFT",5,0)
-		AAP.QuestList.QuestFrames["FS"..CLi]:SetWidth(400)
+		AAP.QuestList.QuestFrames["FS"..CLi]:SetWidth(800)
 		AAP.QuestList.QuestFrames["FS"..CLi]:SetHeight(38)
 		AAP.QuestList.QuestFrames["FS"..CLi]:SetJustifyH("LEFT")
 		AAP.QuestList.QuestFrames["FS"..CLi]:SetFont(AAP_Font, 20)

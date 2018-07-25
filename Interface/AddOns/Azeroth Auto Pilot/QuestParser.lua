@@ -2026,6 +2026,15 @@ AAP_ParserEventFrame:SetScript("OnEvent", function(self, event, ...)
 	if (event=="TAXIMAP_CLOSED" and AAP_DisableAddon == 0) then
 	end
 	if (event=="TAXIMAP_OPENED" and AAP_DisableAddon == 0) then
+
+--	local CLi
+--	for CLi = 1, NumTaxiNodes() do
+--		local aapx,aapy = TaxiNodePosition(CLi)
+--		aapx = (floor(aapx * 1000)/10)
+--		aapy = (floor(aapy * 1000)/10)
+--		print(TaxiNodeName(CLi).."-X:"..aapx.."-Y:"..aapy)
+--	end
+
 		if (AAP1 and AAP1[AAP_Realm] and AAP1[AAP_Realm][AAP_Name] and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] and not InCombatLockdown() and not IsControlKeyDown()) then
 			if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["UseFlightPath"]) then
 				if (AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["ETA"]) then

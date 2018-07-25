@@ -1,4 +1,55 @@
 ------------------------------------------------------------------------
+r856 | chaoslux | 2018-07-25 05:00:30 +0000 (Wed, 25 Jul 2018) | 2 lines
+Changed paths:
+   M /trunk/modules/datatext.lua
+
+- Infotext: Now separate thousands
+- Infotext: Add an option to shorten the gold displayed in the UI, credits to ????.
+------------------------------------------------------------------------
+r855 | chaoslux | 2018-07-25 04:11:45 +0000 (Wed, 25 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/LUI.toc
+
+- Bumping Version to 3.19
+------------------------------------------------------------------------
+r854 | chaoslux | 2018-07-25 03:29:35 +0000 (Wed, 25 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/unitframes/core/elements/castbar.lua
+
+Unitframes: Updated the CastBar element to remove most issues with it.
+------------------------------------------------------------------------
+r853 | chaoslux | 2018-07-25 03:05:48 +0000 (Wed, 25 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/scripts/WorldMapFix.lua
+
+WorldMap: Emissary graphic and Point of Interest filter will now appear again.
+------------------------------------------------------------------------
+r852 | chaoslux | 2018-07-25 02:56:12 +0000 (Wed, 25 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/modules/tooltip.lua
+
+Tooltip: Fixes some tooltips not correctly applying backdrop, border or border color.
+------------------------------------------------------------------------
+r851 | chaoslux | 2018-07-23 03:27:38 +0000 (Mon, 23 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/LUI.xml
+   D /trunk/unitframes/plugins/oUF_Smooth.lua
+
+Unitframe: Fixed Stack Overflow error caused by outdated file.
+------------------------------------------------------------------------
+r850 | chaoslux | 2018-07-23 03:10:19 +0000 (Mon, 23 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/modules/removethatbuff.lua
+
+RemoveThatBuff: Fixed buff detection.
+------------------------------------------------------------------------
+r849 | chaoslux | 2018-07-22 21:34:30 +0000 (Sun, 22 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/modules/auras/auras.lua
+   M /trunk/unitframes/plugins/oUF_RaidDebuffs.lua
+
+Raidframes: Fix faulty UnitAura calls. 
+------------------------------------------------------------------------
 r848 | chaoslux | 2018-07-21 00:21:23 +0000 (Sat, 21 Jul 2018) | 1 line
 Changed paths:
    M /trunk/init.lua

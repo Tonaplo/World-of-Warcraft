@@ -687,11 +687,11 @@ local function createAccountFrame(parent)
 	-- seasonal
 	local seasonal = child:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
 	seasonal:SetPoint("TOPLEFT", basicFrame, 0, -(basicFrame:GetHeight() + frameSpacer))
-	seasonal:SetText("Seasonal");
+	seasonal:SetText("Seasonal (Check to hide)");
 	addObject(elm,seasonal)
 	
 	local seasonalFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-seasonalFrame", child, "ThinBorderTemplate");
-	seasonalFrame:SetSize(child:GetWidth(),230)
+	seasonalFrame:SetSize(child:GetWidth(),250)
 	seasonalFrame:SetPoint("TOPLEFT",seasonal,0,-frameSpacer);
 	addObject(elm,seasonalFrame)
 	
@@ -795,11 +795,11 @@ local function createAccountFrame(parent)
 	-- Unobtainable
 	local unobtainable = child:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
 	unobtainable:SetPoint("TOPLEFT", seasonalFrame, 0, -(seasonalFrame:GetHeight() + frameSpacer))
-	unobtainable:SetText("Unobtainable");
+	unobtainable:SetText("Unobtainable (Check to hide)");
 	addObject(elm,unobtainable)
 	
 	local unobtainableFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-unobtainableFrame", child, "ThinBorderTemplate");
-	unobtainableFrame:SetSize(child:GetWidth(),500)
+	unobtainableFrame:SetSize(child:GetWidth(),520)
 	unobtainableFrame:SetPoint("TOPLEFT",unobtainable,0,-frameSpacer);
 	addObject(elm,unobtainableFrame)
 	
@@ -1115,7 +1115,7 @@ local function createAccountFrame(parent)
 	addObject(elm,legacy)
 	
 	local legacyFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-legacyFrame", child, "ThinBorderTemplate");
-	legacyFrame:SetSize(unobtainableFrame:GetWidth()-20,80)
+	legacyFrame:SetSize(unobtainableFrame:GetWidth()-20,100)
 	legacyFrame:SetPoint("TOPLEFT",legacy,0,-frameSpacer);
 	addObject(elm,legacyFrame)
 	
@@ -1151,10 +1151,9 @@ local function createAccountFrame(parent)
 	legacyAll:SetPoint("TOPLEFT",legacy, legacyFrame:GetWidth()/2, 7)
 	addObject(elm,legacyAll)
 	
-	local last = legacyFrame;
 	local x = 5;
 	local y = 5;
-	local count = 0;
+	local legacyWidth = legacyFrame:GetWidth();
 	for k,v in ipairs(app.L("UNOBTAINABLE_ITEM_REASONS")) do
 		if v[1]  == 4 then
 			local filter = createCheckBox(v[3], child, function(self)
@@ -1179,16 +1178,13 @@ local function createAccountFrame(parent)
 					GameTooltip:SetText (v[2], nil, nil, nil, nil, true);
 					GameTooltip:Show();
 				end);
-			filter:SetPoint("TOPLEFT",last,x,-y)
+			filter:SetPoint("TOPLEFT",legacyFrame,x,-y)
 			addObject(elm,filter)
-			last = filter
-			x = 0;
-			y = frameSpacer;
-			count = count + 1;
-			if count == 2 then
-				x = legacyFrame:GetWidth()/2
-				y = 5
-				last = legacyFrame
+			
+			x = x + (legacyWidth / 2);
+			if x > legacyWidth then
+				y = y + frameSpacer;
+				x = 5;
 			end
 		end
 	end
@@ -1324,7 +1320,7 @@ local function createMiniListFrame(parent)
 	--Show
 	local show = child:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
 	show:SetPoint("TOPLEFT",profileFrame,0, -(profileFrame:GetHeight() + frameSpacer));
-	show:SetText("Show");
+	show:SetText("Show (Check to enable)");
 	addObject(elm,show)
 	
 	local showFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-showFrame", child, "ThinBorderTemplate");
@@ -1448,7 +1444,7 @@ local function createMiniListFrame(parent)
 	--Item Filters
 	local item = child:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
 	item:SetPoint("TOPLEFT", showFrame, 0, -(showFrame:GetHeight() + frameSpacer))
-	item:SetText("Item Filters");
+	item:SetText("Item Filters (Check to enable)");
 	addObject(elm,item)
 	
 	local itemFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-itemFrame", child, "ThinBorderTemplate");
@@ -1500,7 +1496,7 @@ local function createMiniListFrame(parent)
 	--equip Filters
 	local equip = child:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
 	equip:SetPoint("TOPLEFT", itemFrame, 0, -(itemFrame:GetHeight() + frameSpacer))
-	equip:SetText("Equipment");
+	equip:SetText("Equipment (Check to enable)");
 	addObject(elm,equip)
 	
 	local equipFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-equipFrame", child, "ThinBorderTemplate");

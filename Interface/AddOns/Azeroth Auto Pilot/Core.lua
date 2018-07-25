@@ -819,6 +819,12 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 				AAP1[AAP_Realm][AAP_Name]["Settings"]["arrowleft"] = GetScreenWidth() / 2.05
 				AAP1[AAP_Realm][AAP_Name]["Settings"]["arrowtop"] = -(GetScreenHeight() / 1.5)
 			end
+			if (not AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"]) then
+				AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"] = UIParent:GetScale()
+			end
+			if (not AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerShow"]) then
+				AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerShow"] = 0
+			end
 			if (not AAP1[AAP_Realm][AAP_Name]["Settings"]["Hcampleft"]) then
 				AAP1[AAP_Realm][AAP_Name]["Settings"]["Hcampleft"] = GetScreenWidth() / 1.6
 			end
@@ -1012,7 +1018,12 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 			if (not AAP1[AAP_Realm][AAP_Name]["WantedQuestList"]) then
 				AAP1[AAP_Realm][AAP_Name]["WantedQuestList"] = {}
 			end
-
+			AAP_MakeBanners()
+			AAP.Banners.BannersFrame.Frame:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+			AAP.Banners.BannersFrame["Frame1"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+			AAP.Banners.BannersFrame["Frame2"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+			AAP.Banners.BannersFrame["Frame3"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+			AAP.Banners.BannersFrame["Frame4"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
 			SlashCmdList["AAP_Cmd"] = AAP_SlashCmd
 			SLASH_AAP_Cmd1 = "/aap"
 

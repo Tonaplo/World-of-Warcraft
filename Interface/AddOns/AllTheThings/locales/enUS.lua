@@ -369,10 +369,6 @@ AllTheThings.Locales.enUS = {
 		[-127] = "Interface\\Icons\\inv_pick_02", 								-- Lunarfall Excavation
 		[-128] = "Interface\\Icons\\inv_misc_rune_01", 							-- Lunarfall Inn
 		[-129] = "Interface\\Icons\\garrison_building_magetower", 				-- Mage Tower
-		[-130] = "Interface\\Icons\\inv_mail_thunderlordclan_b_01helm", 		-- Thunderlord Set
-		[-131] = "Interface\\Icons\\inv_helm_cloth_shadowmoonclan_b_01", 		-- Shadowmoon Set
-		[-132] = "Interface\\Icons\\inv_plate_blackrockclan_b_01helm", 			-- Blackrock Set
-		[-133] = "Interface\\Icons\\inv_helm_mail_warsongclan_b_01", 			-- Warsong Set
 		[-134] = "Interface\\Icons\\inv_bannerpvp_01", 							-- Orgrimmar Set
 		[-135] = "Interface\\Icons\\inv_bannerpvp_02", 							-- Stormwind Set
 		[-136] = "Interface\\Icons\\achievement_bg_defendxtowers_av", 			-- Garrison Invasion
@@ -769,6 +765,16 @@ AllTheThings.Locales.enUS = {
 		[-10049] = "Interface\\Icons\\buff_forcesoforder",						-- Command Center
 		[-10050] = "Interface\\Icons\\buff_epichunter",							-- Nether Disruptor
 		[-100001] = "Interface\\Icons\\inv_artifact_tome01", 					-- AK Research Book
+		[-10051] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10052] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10053] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10054] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10055] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10056] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10057] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10058] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10059] = "Interface\\Icons\\Paladin_Protection",						-- 
+		[-10060] = "Interface\\Icons\\achievement_faction_celestials",						-- The Four Celestials
 		[-101501] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
 		[-101502] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
 		[-101503] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
@@ -873,7 +879,7 @@ AllTheThings.Locales.enUS = {
 		[-91] = "Deprecated",
 		[-92] = "How to obtain Meatball",										-- Meatball Instructions
 		[-93] = "Silithus (The Wound)",
-		[-94] = "Black Market Auction House",
+		[-94] = "Black Market Auction House",									-- Black Market Auction House"
 		[-95] = ENABLE_MUSIC.." "..ROLL,										-- Music Roll
 		[-96] = NPC_NAMES_DROPDOWN_TRACKED,										-- Quest NPCs
 		[-97] = VOICEMACRO_20_Dw_0_FEMALE,										-- No, they're not real, but thanks for noticing.
@@ -901,7 +907,7 @@ AllTheThings.Locales.enUS = {
 		[-118] = select(2,C_Garrison.GetBuildingInfo(90)), 						-- The Tannery
 		[-119] = select(2,C_Garrison.GetBuildingInfo(111)), 					-- Trading Post
 --Horde [Swaps based on faction ONLY after a reloadui]
-		[-120] = select(2,C_Garrison.GetBuildingInfo(61)), 						-- Lunarfall Excavation / Frostwall Mine
+		[-120] = select(2,C_Garrison.GetBuildingInfo(61)), 						-- Lunarfall Excavation / Frostwall Mine [585]
 		[-121] = select(2,C_Garrison.GetBuildingInfo(34)), 						-- Lunarfall Inn / Frostwall Tavern
 		[-122] = select(2,C_Garrison.GetBuildingInfo(162)), 					-- Gnomish Gearworks / Goblin Workshop
 		[-123] = select(2,C_Garrison.GetBuildingInfo(37)), 						-- Mage Tower / Spirit Lodge
@@ -912,11 +918,18 @@ AllTheThings.Locales.enUS = {
 		[-127] = select(2,C_Garrison.GetBuildingInfo(61)),	 					-- Lunarfall Excavation / Frostwall Mine
 		[-128] = select(2,C_Garrison.GetBuildingInfo(34)), 						-- Lunarfall Inn / Frostwall Tavern
 		[-129] = select(2,C_Garrison.GetBuildingInfo(37)),	 					-- Mage Tower / Spirit Lodge
+		[-130] = "Duskwood "..GetSpellInfo(133137),								-- Duskwood Active
+		[-131] = "The Hinterlands "..GetSpellInfo(133137),						-- The Hinterlands Active
+		[-132] = "Feralas "..GetSpellInfo(133137),								-- Feralas Active
+		[-133] = "Duskwood "..GetSpellInfo(78741),								-- Duskwood Activated
+		--[[ Would rather cache through Blizzard, but it's not able to retrieve info during loading screen.
+		-- Need to talk to Crieve more and see if there's a way to cache it possible
+		--[-130] = select(1,AllTheThings.GetMapName(47)),	-- Duskwood Active
+		--[-131] = select(1,AllTheThings.GetMapName(26)).." "..GetSpellInfo(133137),	-- The Hinterlands Active
+		--[-132] = select(1,AllTheThings.GetMapName(69)).." "..GetSpellInfo(133137),	-- Feralas Active
+		--[-133] = select(1,AllTheThings.GetMapName(47)).." "..GetSpellInfo(78741),	-- Duskwood Activated
+		--]]
 --Transmog Sets
-		[-130] = "Thunderlord Set",
-		[-131] = "Shadowmoon Set",
-		[-132] = "Blackrock Set",
-		[-133] = "Warsong Set",
 		[-134] = "Orgrimmar Set",
 		[-135] = "Stormwind Set",
 --Invasions
@@ -940,6 +953,15 @@ AllTheThings.Locales.enUS = {
 		[-152] = "Garrison Campaign",
 		[-153] = CAPACITANCE_WORK_ORDERS,										-- Work Orders
 		[-154] = string.format(SPELLBOOK_AVAILABLE_AT, 110),					-- Level 110
+		[-155] = string.format(SPELLBOOK_AVAILABLE_AT, 120),					-- Level 120
+		[-156] = string.format(SPELLBOOK_AVAILABLE_AT, 130),					-- Level 130
+		[-157] = "The Hinterlands "..GetSpellInfo(78741),						-- The Hinterlands Activated
+		[-158] = "Feralas "..GetSpellInfo(78741),								-- Feralas Activated
+		[-159] = "Event Roll",													-- Daily Dreamway Event Roll
+		--[[ See above
+		[-157] = select(1,AllTheThings.GetMapName(26)).." "..GetSpellInfo(78741),	-- The Hinterlands Activated
+		[-158] = select(1,AllTheThings.GetMapName(69)).." "..GetSpellInfo(78741),	-- Feralas Activated
+		--]]
 -- Expansions
 		[-160] = TUTORIAL_TITLE53,												-- Mounts
 -- Other
@@ -1101,6 +1123,7 @@ AllTheThings.Locales.enUS = {
 		[-523] = "Cataclysm: Elemental Unrest",
 		[-525] = "Warlords of Draenor: Iron Horde Incursion",
 		[-526] = "Legion: Legion Invasion",
+		[-527] = "Battle For Azeroth: War of the Thorns",
 
 		[-531] = "2008 Spirit of Competition Event",
 		[-532] = "Heroes of the Storm Promotion",
@@ -1506,6 +1529,16 @@ AllTheThings.Locales.enUS = {
 		[-10048] = BROKENSHORE_BUILDING_MAGETOWER,		-- Mage Tower
 		[-10049] = BROKENSHORE_BUILDING_COMMANDCENTER,	-- Command Center
 		[-10050] = BROKENSHORE_BUILDING_NETHERDISRUPTOR, -- Nether Disruptor
+		[-10051] = select(1,GetCategoryInfo(92)),		-- Character
+		[-10052] = select(1,GetCategoryInfo(15284)),		-- Battle for Azeroth
+		[-10053] = select(1,GetCategoryInfo(15285)),		-- Battle Dungeon
+		[-10054] = select(1,GetCategoryInfo(15286)),		-- Battle Raid
+		[-10055] = select(1,GetCategoryInfo(15301)),		-- Expansion Features
+		[-10056] = select(1,GetCategoryInfo(15307)),		-- Island Expeditions
+		[-10057] = select(1,GetCategoryInfo(15308)),		-- War Effort
+		[-10058] = select(1,GetCategoryInfo(15283)),		-- World
+		[-10059] = select(1,GetCategoryInfo(15302)),		-- Pandaria Scenarios
+		[-10060] = select(2,GetAchievementInfo(7333)),		-- The Four Celestials
 
 		[-100001] = ITEM_QUALITY6_DESC, 				-- Artifact
 
@@ -1842,6 +1875,7 @@ AllTheThings.Locales.enUS = {
 		[164957] = "Eastern Crystal Pylon",
 		[169243] = "Chest of The Seven",
 		[173232] = "Blacksmithing Plans",
+		[176090] = "Human Remains",
 		[176091] = "Deadwood Cauldron",
 		[176392] = "Scourge Cauldron",
 		[179485] = "A Broken Trap",
@@ -2029,6 +2063,7 @@ AllTheThings.Locales.enUS = {
 		[211424] = "Alchemy Scroll",
 		[213363] = "Wodin's Mantid Shanker",
 		[213364] = "Ancient Pandaren Mining Pick",
+		[213650] = "Virmen Treasure Cache",
 		[213651] = "Equipment Locker",
 		[213653] = "Pandaren Fishing Spear",
 		[213741] = "Ancient Jinyu Staff",
@@ -2037,6 +2072,7 @@ AllTheThings.Locales.enUS = {
 		[213749] = "Staff of the Hidden Master",
 		[213751] = "Sprite's Cloth Chest",
 		[213765] = "Tablet of Ren Yun",
+		[213767] = "Hidden Treasure",
 		[213768] = "Hozen Warrior Spear",
 		[213842] = "Stash of Yaungol Weapons",
 		[213960] = "Yaungol Fire Carrier",
@@ -2046,7 +2082,10 @@ AllTheThings.Locales.enUS = {
 		[213968] = "Swarming Cleaver of Ka'roz",
 		[213969] = "Dissector's Staff of Mutation",
 		[213972] = "Blade of the Poisoned Mind",
+		[214340] = "Boat-Building Instructions",
 		[214439] = "Barrel of Banana Infused Rum",
+		[215705] = "Tillers Shrine",
+		[218750] = "Work Orders",
 		[220641] = "Thunderlord's Cache",
 		[220820] = "Step 6: Page 1127",
 		[220821] = "Step 5: Page 845",
@@ -2338,6 +2377,7 @@ AllTheThings.Locales.enUS = {
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Feast of the Winter Veil
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Stranglethorn Fishing Extravaganza
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- WoW Anniversary
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Timewalking
 	};
 	["UNOBTAINABLE_ITEM_REASONS"] = {
 		-- {header, description, name}, header: header id, 1-3 as above, 4 is legacy.
@@ -2380,7 +2420,10 @@ AllTheThings.Locales.enUS = {
 		{1, "|CFFFF0000This title is no longer obtainable in game.|r", "Titles (37)"}; --37
 		{4, "|CFFFF0000These items are only available for players that completed the Legendary Cloak quest chain during Mists of Pandaria|r", "Ordos - Legendary Cloak (38)"}; --38
 		{4, "|CFFFF0000This title is no longer available.|r", "Legacy Titles (39)"}; --39
-		{4, "|CFFFF0000This is a Legacy quest or quest item, and is no longer available.|r", "Legacy Quests (40)"}, -- 40
+		{4, "|CFFFF0000This is a Legacy quest or quest item, and is no longer available.|r", "Legacy Quests (40)"}; -- 40
+		{4, "|CFFFF0000These appearances are only available for players that completed the respective Mage Tower Artifact Challenges and earned the base appearance.|r", "Mage Tower Appearances (41)"}; -- 41
+		{21, "|CFFFF0000These appearances are only available during the weekly Timewalking Event. Only dungeons released during the featured expansion will be available.|r", "Timewalking (42)"}; -- 42
+		{1, "|CFFFF0000This NPC or creature has been removed from the game.|r", "Removed NPCs (43)"}; -- 43
 	};
 	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you, please post in Discord where you got it to drop!|r";
 	["RECENTLY_MADE_OBTAINABLE_PT2"] = "|CFFFF0000The more information, the better.  Thanks!|r";

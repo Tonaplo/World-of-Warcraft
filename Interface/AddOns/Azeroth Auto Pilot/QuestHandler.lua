@@ -259,15 +259,7 @@ function AAP_UpdateQuestList()
 	end
 	if (AAP1 and AAP1[AAP_Realm] and AAP1[AAP_Realm][AAP_Name] and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] and AAP_InstanceTest() == 0 and AAP_SettingsOpen == 0) then
 		if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["SearchBags"]) then
-			if (AAP_GliderCountFunc() < 40) then
-				local AAP_NRFS = AAP_QH_GetFS("123412341-1")
-				ars = ars + 1
-				AAP.QuestList.QuestFrames[AAP_NRFS]:SetPoint("BOTTOMLEFT", AAP.QuestList.ListFrame, "BOTTOMLEFT",0,-((ars * 38)+ars))
-				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_GliderCountFunc().."/40+ "..AAP_GliderFunc())
-				AAP.QuestList.QuestFrames[AAP_NRFS]:SetAlpha(1)
-				AAP.QuestList.QuestFrames[AAP_NRFS]:Show()
-				AAP_SetQPTT()
-			end
+
 		end
 		if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["ExtraLine"]) then
 			local AAPExtralk = AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["ExtraLine"]
