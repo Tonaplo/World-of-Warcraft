@@ -174,13 +174,13 @@ RematchSettings = {
 		},
 		["Strong"] = {
 		},
-		["Moveset"] = {
+		["Types"] = {
 		},
-		["Favorite"] = {
+		["Tough"] = {
 		},
-		["Collected"] = {
+		["Level"] = {
 		},
-		["Rarity"] = {
+		["Similar"] = {
 		},
 		["Sources"] = {
 		},
@@ -188,21 +188,21 @@ RematchSettings = {
 		},
 		["Script"] = {
 		},
-		["Similar"] = {
+		["Rarity"] = {
 		},
-		["Level"] = {
+		["Collected"] = {
 		},
-		["Tough"] = {
+		["Favorite"] = {
 		},
-		["Types"] = {
+		["Moveset"] = {
 		},
-	},
-	["SpecialSlots"] = {
 	},
 	["AllowHiddenPetsDefaulted"] = true,
+	["SpecialSlots"] = {
+	},
 	["CollapsedOptHeaders"] = {
 	},
-	["YPos"] = 250.59748840332,
+	["UseTypeBar"] = true,
 	["PreferredMode"] = 1,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
@@ -297,12 +297,12 @@ RematchSettings = {
 			4, -- [8]
 		},
 	},
-	["loadedTeam"] = 105898,
+	["JournalUsed"] = true,
 	["CornerPos"] = "BOTTOMLEFT",
 	["LevelingQueue"] = {
 	},
-	["JournalUsed"] = true,
-	["UseTypeBar"] = true,
+	["loadedTeam"] = 105898,
+	["YPos"] = 250.59748840332,
 	["SelectedTab"] = 2,
 	["PetNotes"] = {
 	},

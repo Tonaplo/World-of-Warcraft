@@ -20,28 +20,10 @@ SexyMap2DB = {
 			["borderColor"] = {
 			},
 			["locked"] = true,
+			["updateRate"] = 0.5,
 			["backgroundColor"] = {
 			},
-			["updateRate"] = 0.5,
 			["y"] = 76.9075927734375,
-		},
-		["movers"] = {
-			["enabled"] = true,
-			["framePositions"] = {
-				["ObjectiveTrackerFrame"] = {
-					["y"] = 852.268005371094,
-					["x"] = 1718.96520996094,
-				},
-				["DurabilityFrame"] = {
-					["y"] = 811.885559082031,
-					["x"] = 1607.46691894531,
-				},
-				["VehicleSeatIndicator"] = {
-					["y"] = 727.11083984375,
-					["x"] = 1579.00219726563,
-				},
-			},
-			["lock"] = true,
 		},
 		["buttons"] = {
 			["radius"] = 10,
@@ -70,6 +52,24 @@ SexyMap2DB = {
 				["MiniMapWorldMapButton"] = 24.3184216182432,
 			},
 			["controlVisibility"] = true,
+		},
+		["movers"] = {
+			["enabled"] = true,
+			["framePositions"] = {
+				["ObjectiveTrackerFrame"] = {
+					["y"] = 852.268005371094,
+					["x"] = 1718.96520996094,
+				},
+				["DurabilityFrame"] = {
+					["y"] = 811.885559082031,
+					["x"] = 1607.46691894531,
+				},
+				["VehicleSeatIndicator"] = {
+					["y"] = 727.11083984375,
+					["x"] = 1579.00219726563,
+				},
+			},
+			["lock"] = true,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -177,11 +177,11 @@ SexyMap2DB = {
 	["Alura-Tichondrius"] = "global",
 	["Amranar-Proudmoore"] = "global",
 	["Greybone-Proudmoore"] = "global",
-	["Korugen-Tichondrius"] = "global",
+	["Zethan-Tichondrius"] = "global",
 	["Farahn-Proudmoore"] = "global",
 	["Rahran-Proudmoore"] = "global",
 	["Morifa-Proudmoore"] = "global",
-	["Zethan-Tichondrius"] = "global",
+	["Korugen-Tichondrius"] = "global",
 	["presets"] = {
 	},
 }

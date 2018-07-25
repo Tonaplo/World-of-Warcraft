@@ -17,13 +17,14 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec2_profileKey"] = "Rahran - Proudmoore",
 		},
-		["Praerend - Proudmoore"] = {
-			["spec1_profileKey"] = "Praerend - Proudmoore",
-			["spec3_profileKey"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = {
+			["spec1_profileKey"] = "Druid - Balance",
+			["spec3_profileKey"] = "Druid - Guardian",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Praerend - Proudmoore",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Druid - Feral",
+			["specswap"] = true,
+			["spec4_profileKey"] = "Druid - Resto",
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
@@ -44,8 +45,8 @@ CliqueDB3 = {
 		["Mallusof - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
 			["blizzframes"] = {
-				["PlayerFrame"] = false,
 				["TargetFrame"] = false,
+				["PlayerFrame"] = false,
 			},
 			["fastooc"] = true,
 			["blacklist"] = {
@@ -75,20 +76,20 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Non-Healer",
 			["spec2_profileKey"] = "Non-Healer",
 		},
+		["Miriyal - Proudmoore"] = {
+			["spec1_profileKey"] = "Non-Healer",
+			["specswap"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Monk - Mistweaver",
+		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
 			["spec2_profileKey"] = "Morifa - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["spec3_profileKey"] = "Morifa - Proudmoore",
-			["specswap"] = false,
-		},
-		["Fimwack - Proudmoore"] = {
-			["spec1_profileKey"] = "Fimwack - Proudmoore",
-			["spec3_profileKey"] = "Fimwack - Proudmoore",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Fimwack - Proudmoore",
 			["specswap"] = false,
 		},
 		["Greybone - Proudmoore"] = {
@@ -99,13 +100,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Greybone - Proudmoore",
 			["specswap"] = false,
 		},
-		["Miriyal - Proudmoore"] = {
-			["spec1_profileKey"] = "Non-Healer",
-			["specswap"] = true,
+		["Fimwack - Proudmoore"] = {
+			["spec1_profileKey"] = "Fimwack - Proudmoore",
+			["spec3_profileKey"] = "Fimwack - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Non-Healer",
-			["spec2_profileKey"] = "Monk - Mistweaver",
+			["spec2_profileKey"] = "Fimwack - Proudmoore",
+			["specswap"] = false,
 		},
 		["Faerand - Proudmoore"] = {
 			["spec1_profileKey"] = "Faerand - Proudmoore",
@@ -115,14 +116,13 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Faerand - Proudmoore",
 			["spec3_profileKey"] = "Faerand - Proudmoore",
 		},
-		["Amranar - Proudmoore"] = {
-			["spec1_profileKey"] = "Druid - Balance",
-			["spec3_profileKey"] = "Druid - Guardian",
+		["Praerend - Proudmoore"] = {
+			["spec1_profileKey"] = "Praerend - Proudmoore",
+			["spec3_profileKey"] = "Praerend - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Druid - Feral",
-			["specswap"] = true,
-			["spec4_profileKey"] = "Druid - Resto",
+			["spec2_profileKey"] = "Praerend - Proudmoore",
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -248,7 +248,7 @@ CliqueDB3 = {
 				}, -- [9]
 			},
 		},
-		["Zethan - Tichondrius"] = {
+		["Deminath - Hyjal"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -793,25 +793,6 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Deminath - Hyjal"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
 		["Priest - Disc"] = {
 			["bindings"] = {
 				{
@@ -884,6 +865,25 @@ CliqueDB3 = {
 					["icon"] = 135940,
 					["type"] = "spell",
 				}, -- [8]
+			},
+		},
+		["Zethan - Tichondrius"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
 			},
 		},
 		["Alura - Tichondrius"] = {
