@@ -1986,7 +1986,7 @@ local function OpenMiniList(field, id, label)
 		end
 	else
 		print("No map found for this location ", app.GetMapName(id), " [", id, "]");
-		print("Please report this to the ATT Discord! Thanks!");
+		print("Please report this to the ATT Discord! Thanks! Version 1.6.5a"); -- Adding version so we can quickly see if it was done and they haven't updated
 	end
 end
 local function OpenMiniListForCurrentProfession(manual, refresh)
@@ -6733,6 +6733,7 @@ function app:GetDataCache()
 			db.text = "Never Implemented";
 			table.insert(g, db);
 		end
+		
 		-- Unsorted
 		if app.Categories.Unsorted then
 			db = {};
@@ -6741,6 +6742,7 @@ function app:GetDataCache()
 			db.text = "Unsorted";
 			table.insert(g, db);
 		end
+		
 		-- Titles (Dynamic)
 		db = app.CreateAchievement(2188, GetTitleCache());
 		db.expanded = false;
@@ -6761,7 +6763,7 @@ function app:GetDataCache()
 		db.expanded = false;
 		db.text = "Illusions (Dynamic)";
 		table.insert(g, db);
-		]]--
+		--]]
 		
 		-- Mounts (Dynamic)
 		--[[
@@ -6770,7 +6772,7 @@ function app:GetDataCache()
 		db.expanded = false;
 		db.text = "Mounts (Dynamic)";
 		table.insert(g, db);
-		]]--
+		--]]
 		
 		--[[
 		-- SUPER SECRETTTT!
@@ -6803,7 +6805,16 @@ function app:GetDataCache()
 		db.g = GetRawSourceDataCache();
 		db.text = "Raw Source Data (Dynamic)";
 		table.insert(g, db);
-		]]--
+		--]]
+		--[[
+		-- SUPER DUPER SECRET
+		if app.Categories.NaughtySecrets then
+			db = app.CreateAchievement(12478, app.Categories.NaughtySecrets);
+			db.expanded = false;
+			db.text = "Naughty Secrets";
+			table.insert(g, db);
+		end
+		--]]
 		
 		-- The Main Window's Data
 		app.refreshDataForce = true;
