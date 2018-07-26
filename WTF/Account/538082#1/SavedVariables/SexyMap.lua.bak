@@ -11,9 +11,9 @@ SexyMap2DB = {
 	},
 	["Praerend-Proudmoore"] = "global",
 	["Alura-Tichondrius"] = "global",
-	["Zethan-Tichondrius"] = "global",
-	["Morifa-Proudmoore"] = "global",
 	["Korugen-Tichondrius"] = "global",
+	["Morifa-Proudmoore"] = "global",
+	["Zethan-Tichondrius"] = "global",
 	["Farahn-Proudmoore"] = "global",
 	["Rahran-Proudmoore"] = "global",
 	["Greybone-Proudmoore"] = "global",
@@ -32,9 +32,9 @@ SexyMap2DB = {
 			},
 			["locked"] = true,
 			["y"] = 76.9075927734375,
+			["updateRate"] = 0.5,
 			["backgroundColor"] = {
 			},
-			["updateRate"] = 0.5,
 		},
 		["core"] = {
 			["clamp"] = true,
@@ -48,23 +48,33 @@ SexyMap2DB = {
 			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
 			["rightClickToConfig"] = true,
 		},
-		["movers"] = {
-			["enabled"] = true,
-			["framePositions"] = {
-				["ObjectiveTrackerFrame"] = {
-					["y"] = 852.268005371094,
-					["x"] = 1718.96520996094,
-				},
-				["DurabilityFrame"] = {
-					["y"] = 811.885559082031,
-					["x"] = 1607.46691894531,
-				},
-				["VehicleSeatIndicator"] = {
-					["y"] = 727.11083984375,
-					["x"] = 1579.00219726563,
-				},
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["GameTimeFrame"] = "hover",
+				["TimeManagerClockButton"] = "never",
+				["MinimapZoomOut"] = "never",
+				["QueueStatusMinimapButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
+				["LibDBIcon10_ExorsusRaidTools"] = "hover",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "hover",
 			},
-			["lock"] = true,
+			["dragPositions"] = {
+				["QueueStatusMinimapButton"] = 161.816765760918,
+				["MiniMapMailFrame"] = 7.08018105598895,
+				["LibDBIcon10_Grid2"] = -58.0295371504847,
+				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
+				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
+				["GameTimeFrame"] = 48.6728540163423,
+				["MiniMapTracking"] = 116.402357746043,
+				["MiniMapWorldMapButton"] = 24.3184216182432,
+			},
+			["controlVisibility"] = true,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -155,33 +165,23 @@ SexyMap2DB = {
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["buttons"] = {
-			["radius"] = 10,
-			["lockDragging"] = false,
-			["allowDragging"] = true,
-			["visibilitySettings"] = {
-				["MinimapZoomIn"] = "never",
-				["MiniMapMailFrame"] = "always",
-				["GameTimeFrame"] = "hover",
-				["TimeManagerClockButton"] = "never",
-				["MinimapZoomOut"] = "never",
-				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "always",
-				["LibDBIcon10_ExorsusRaidTools"] = "hover",
-				["MinimapZoneTextButton"] = "always",
-				["MiniMapWorldMapButton"] = "hover",
+		["movers"] = {
+			["enabled"] = true,
+			["framePositions"] = {
+				["ObjectiveTrackerFrame"] = {
+					["y"] = 852.268005371094,
+					["x"] = 1718.96520996094,
+				},
+				["DurabilityFrame"] = {
+					["y"] = 811.885559082031,
+					["x"] = 1607.46691894531,
+				},
+				["VehicleSeatIndicator"] = {
+					["y"] = 727.11083984375,
+					["x"] = 1579.00219726563,
+				},
 			},
-			["dragPositions"] = {
-				["QueueStatusMinimapButton"] = 161.816765760918,
-				["MiniMapMailFrame"] = 7.08018105598895,
-				["LibDBIcon10_Grid2"] = -58.0295371504847,
-				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
-				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
-				["GameTimeFrame"] = 48.6728540163423,
-				["MiniMapTracking"] = 116.402357746043,
-				["MiniMapWorldMapButton"] = 24.3184216182432,
-			},
-			["controlVisibility"] = true,
+			["lock"] = true,
 		},
 	},
 }

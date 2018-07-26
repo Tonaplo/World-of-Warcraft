@@ -162,14 +162,14 @@ RCDatabase = {
 			}, -- [2]
 			{
 				["secondProfLevel"] = 1,
-				["itemLevelEquipped"] = 213.125,
+				["itemLevelEquipped"] = 214.0625,
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
-				["itemLevelOverall"] = 216.0625,
+				["firstProf"] = "Blacksmithing",
 				["level"] = 110,
 				["firstProfLevel"] = 1,
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 217,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 1,
@@ -184,7 +184,7 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 9,
-				["itemLevelEquipped"] = 221.5625,
+				["itemLevelEquipped"] = 220.9375,
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
