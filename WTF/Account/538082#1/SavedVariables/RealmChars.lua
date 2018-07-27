@@ -58,10 +58,10 @@ RCDatabase = {
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 243.75,
+				["firstProf"] = "Alchemy",
 				["level"] = 110,
 				["firstProfLevel"] = 100,
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 243.75,
 			}, -- [1]
 			{
 				["secondProfLevel"] = 0,
