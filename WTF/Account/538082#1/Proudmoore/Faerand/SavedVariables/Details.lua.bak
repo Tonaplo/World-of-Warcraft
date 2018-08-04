@@ -7,9 +7,9 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 1814,
+	["combat_counter"] = 1820,
 	["character_data"] = {
-		["logons"] = 153,
+		["logons"] = 155,
 	},
 	["tabela_instancias"] = {
 	},
@@ -17,10 +17,10 @@ _detalhes_database = {
 		{
 			["segment"] = 0,
 			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
+			["horizontalSnap"] = true,
 			["verticalSnap"] = false,
 			["is_open"] = true,
-			["isLocked"] = false,
+			["isLocked"] = true,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -29,15 +29,16 @@ _detalhes_database = {
 				1, -- [5]
 			},
 			["snap"] = {
+				[3] = 2,
 			},
 			["mode"] = 2,
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 425.604187011719,
-					["x"] = -839.280364990234,
-					["w"] = 286.230285644531,
-					["h"] = 168.788421630859,
+					["y"] = 427.396362304688,
+					["x"] = -836.722045898438,
+					["w"] = 287.253723144531,
+					["h"] = 171.858489990234,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -50,10 +51,7 @@ _detalhes_database = {
 		{
 			["segment"] = 0,
 			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
-			["verticalSnap"] = false,
-			["is_open"] = true,
-			["isLocked"] = true,
+			["horizontalSnap"] = true,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -61,16 +59,19 @@ _detalhes_database = {
 				5, -- [4]
 				7, -- [5]
 			},
+			["is_open"] = true,
+			["isLocked"] = true,
 			["snap"] = {
+				1, -- [1]
 			},
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 425.604187011719,
-					["x"] = -553.178131103516,
-					["w"] = 285.974395751953,
-					["h"] = 168.788497924805,
+					["y"] = 427.396362304688,
+					["x"] = -546.910095214844,
+					["w"] = 292.370147705078,
+					["h"] = 171.858489990234,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -82,7 +83,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1533327706,
+		["nextreset"] = 1534627566,
 		["last_version"] = 10,
 	},
 	["last_instance_id"] = 1712,
@@ -99,7 +100,7 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Base",
-	["last_day"] = "19",
+	["last_day"] = "03",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -111,8 +112,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["dps"] = 0,
 			["author"] = "Details! Team",
+			["dps"] = 0,
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -186,7 +187,7 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["font_size"] = 14,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -194,12 +195,14 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 14,
 			["y"] = -20.15869140625,
-			["x"] = 0,
-			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -211,20 +214,18 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["use_spark"] = false,
+			["author"] = "Details! Team",
 			["main_frame_strata"] = "LOW",
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -235,21 +236,14 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
-		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -316,12 +310,18 @@ _detalhes_database = {
 			},
 			["author"] = "Details! Team",
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
 			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 	},
-	["ignore_nicktag"] = false,
 	["last_encounter"] = "Argus the Unmaker",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Cathedral of Eternal Night",
@@ -334,8 +334,9 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 1677,
 		["previous_boss_killed_at"] = 1520140406,
 	},
-	["last_realversion"] = 131,
-	["last_version"] = "v8.0.1.5985",
+	["ignore_nicktag"] = false,
+	["last_realversion"] = 132,
+	["last_version"] = "v8.0.1.6035",
 	["combat_id"] = 1307,
 	["savedStyles"] = {
 	},
@@ -380,7 +381,7 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 1804,
+		["combat_counter"] = 1818,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -394,10 +395,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -410,11 +411,12 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["end_time"] = 487.323,
-		["hasSaved"] = true,
+		["end_time"] = 3223.193,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
+		["CombatSkillCache"] = {
+		},
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -428,36 +430,33 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
-		["CombatSkillCache"] = {
+		["start_time"] = 3223.193,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
 		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage_section"] = {
-			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
+			["damage_section"] = {
+			},
 			["damage"] = {
 			},
 		},
-		["start_time"] = 487.323,
-		["TimeData"] = {
-			["Player Damage Done"] = {
-			},
-		},
-		["overall_refreshed"] = true,
 	},
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,

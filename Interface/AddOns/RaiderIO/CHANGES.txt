@@ -1,24 +1,10 @@
-lightweight tag b081aa8c585f104d91ef58cf7c4911c9298c9b38 v201807250600
+lightweight tag e3069f1f0a96a4d1b54e5983d21f920fa320f2e7 v201808030600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Wed Jul 25 07:19:33 2018 +0000
+Date:	Fri Aug 3 07:25:04 2018 +0000
 
-commit b081aa8c585f104d91ef58cf7c4911c9298c9b38
+commit e3069f1f0a96a4d1b54e5983d21f920fa320f2e7
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Jul 25 07:19:33 2018 +0000
+Date:   Fri Aug 3 07:25:04 2018 +0000
 
     [Raider.IO] Database Refresh
-
-commit 9a85f19392302011de2c52a9cfa497f6a9780ea6
-Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
-Date:   Tue Jul 24 14:50:07 2018 +0200
-
-    Fix : Keystone Tooltip (#54)
-    
-    * Add 138019 in the regex to match the new link
-    
-    * Add multiple pattern
-    
-    There's another itemid for the keystone (probably BfA) so :
-    - Wildcard for any item with keystone:
-    - Add both itemid for pattern "item:"
 

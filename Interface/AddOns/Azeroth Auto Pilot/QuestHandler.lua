@@ -323,6 +323,24 @@ function AAP_UpdateQuestList()
 			if (AAPExtralk == 19) then
 				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Dontwaitrun"])
 			end
+			if (AAPExtralk == 20) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Doesntmatterwep"])
+			end
+			if (AAPExtralk == 21) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Extracaravans"])
+			end
+			if (AAPExtralk == 22) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["dotsexpire"])
+			end
+			if (AAPExtralk == 23) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Banneronstuff"])
+			end
+			if (AAPExtralk == 24) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["GetSaurolistBuff"])
+			end
+			if (AAPExtralk == 25) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Get Flight Point"])
+			end
 			AAP.QuestList.QuestFrames[AAP_NRFS]:SetAlpha(1)
 			AAP.QuestList.QuestFrames[AAP_NRFS]:Show()
 			AAP_SetQPTT()

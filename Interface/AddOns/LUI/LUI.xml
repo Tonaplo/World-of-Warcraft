@@ -18,13 +18,11 @@
 	<Script file="modules\themes.lua"/>
 	<Script file="modules\panels.lua"/>
 	<Script file="modules\frames.lua"/>
-	<!-- <Script file="modules\fader.lua"/> -->
+	<Script file="modules\fader.lua"/>
 	<Script file="modules\bars.lua"/>
 
 	<!-- Addon Installation Routines -->
 	<Script file="addons\forte.lua"/>
-	<!--Script file="addons\sptimers.lua"/-->
-	<!--Script file="addons\raven.lua"/-->
 	<Script file="addons\bartender.lua"/>
 	<Script file="addons\grid.lua"/>
 	<Script file="addons\omen.lua"/>
@@ -35,9 +33,7 @@
 	<Include file="modules\auras\auras.xml"/>
 	<Include file="modules\chat\chat.xml"/>
 	<Script file="modules\minimap.lua"/>
- 	<!-- <Include file="modules\worldmap\worldmap.xml"/> -->
 	<Script file="modules\bags.lua"/>
-	<!--<Script file="modules\nameplates.lua"/> -->
     <Include file="modules\cooldown\cooldown.xml"/>
 	<Script file="modules\tooltip.lua"/>
 	<Script file="modules\datatext.lua"/>
@@ -46,21 +42,19 @@
 	<Include file="modules\raidmenu.xml"/>
 	<Script file="modules\swing.lua"/>
 	<Script file="modules\threatbar.lua"/>
- 	<Script file="modules\interruptannouncer.lua"/>
 	<Script file="modules\merchant.lua"/>
 	<Script file="modules\removethatbuff.lua"/>
 	<Script file="modules\mirrorbar.lua"/>
 	<Script file="modules\artwork.lua"/>
 
 	<!-- Additional Scripts -->
-	<Script file="scripts\errorhider.lua"/>
-	<!--Script file="scripts\partyfix.lua"/-->
-	<Script file="scripts\colourpicker.lua"/>
-	<Script file="scripts\frameidentifier.lua"/>
 	<Script file="scripts\autoinvite.lua"/>
-	<Script file="scripts\blizzscale.lua"/>
-	<Script file="scripts\talentspam.lua"/>
 	<Script file="scripts\blizzoptionsmover.lua"/>
+	<Script file="scripts\blizzscale.lua"/>
+	<Script file="scripts\colourpicker.lua"/>
+	<Script file="scripts\errorhider.lua"/>
+	<Script file="scripts\frameidentifier.lua"/>
+	<Script file="scripts\talentspam.lua"/>
 	<script file="scripts\WorldMapFix.lua"/>
 
 	<!-- Initialize Unitframes -->
@@ -103,7 +97,6 @@
 	<Script file="unitframes\plugins\oUF_CombatFeedback.lua"/>
 	<Script file="unitframes\plugins\oUF_Experience.lua"/>
 	<Script file="unitframes\plugins\oUF_Reputation.lua"/>
-	<!-- <Script file="unitframes\plugins\oUF_Smooth.lua"/> -->
 	<Script file="unitframes\plugins\oUF_RaidDebuffs.lua"/>
 
 	<!-- to investigate as we may not need these anymore -->
@@ -116,7 +109,6 @@
 	<Script file="unitframes\plugins\arcanecharges.lua"/>
 	<Script file="unitframes\plugins\chi.lua"/>
 	<Script file="unitframes\plugins\holypower.lua"/>
-	<Script file="unitframes\plugins\shadoworbs.lua"/>
 	<Script file="unitframes\plugins\warlockbar.lua"/>
 	<Script file="unitframes\plugins\totalabsorb.lua"/>
 

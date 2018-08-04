@@ -7,20 +7,15 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 609,
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
-	},
+	["combat_counter"] = 615,
+	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
 	["local_instances_config"] = {
 		{
 			["segment"] = 0,
 			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
-			["verticalSnap"] = false,
-			["is_open"] = true,
-			["isLocked"] = false,
+			["horizontalSnap"] = true,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -28,16 +23,19 @@ _detalhes_database = {
 				1, -- [4]
 				1, -- [5]
 			},
+			["is_open"] = true,
+			["isLocked"] = false,
 			["snap"] = {
+				[3] = 2,
 			},
 			["mode"] = 2,
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 425.604187011719,
-					["x"] = -839.280364990234,
-					["w"] = 286.230285644531,
-					["h"] = 168.788421630859,
+					["y"] = 428.930786132813,
+					["x"] = -833.921508789063,
+					["w"] = 296.463714599609,
+					["h"] = 167.765228271484,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -50,10 +48,7 @@ _detalhes_database = {
 		{
 			["segment"] = 0,
 			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
-			["verticalSnap"] = false,
-			["is_open"] = true,
-			["isLocked"] = true,
+			["horizontalSnap"] = true,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -61,16 +56,19 @@ _detalhes_database = {
 				1, -- [4]
 				1, -- [5]
 			},
+			["is_open"] = true,
+			["isLocked"] = true,
 			["snap"] = {
+				1, -- [1]
 			},
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 425.604187011719,
-					["x"] = -553.178131103516,
-					["w"] = 285.974395751953,
-					["h"] = 168.788497924805,
+					["y"] = 428.930786132813,
+					["x"] = -525.689575195313,
+					["w"] = 320.000183105469,
+					["h"] = 167.765228271484,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -97,7 +95,7 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Base",
-	["last_realversion"] = 131,
+	["last_realversion"] = 132,
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -109,8 +107,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
 			["dps"] = 0,
+			["author"] = "Details! Team",
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -226,8 +224,8 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -238,14 +236,21 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -311,12 +316,7 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -324,13 +324,9 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
 			["y"] = -20.15869140625,
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["font_size"] = 14,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -342,20 +338,22 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
-			["author"] = "Details! Team",
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["use_spark"] = false,
+			["font_size"] = 14,
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
+		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
 		},
 	},
 	["mythic_dungeon_currentsaved"] = {
@@ -370,16 +368,16 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 0,
 	},
 	["ignore_nicktag"] = false,
-	["last_day"] = "19",
-	["last_version"] = "v8.0.1.5985",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_version"] = "v8.0.1.6035",
 	["combat_id"] = 484,
 	["savedStyles"] = {
 	},
 	["last_instance_time"] = 1531204796,
-	["nick_tag_cache"] = {
-		["nextreset"] = 1532038673,
-		["last_version"] = 10,
-	},
+	["last_day"] = "03",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -418,7 +416,7 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 605,
+		["combat_counter"] = 611,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -448,7 +446,7 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["end_time"] = 241104.426,
+		["end_time"] = 7323.721,
 		["hasSaved"] = true,
 		["frags"] = {
 		},
@@ -470,7 +468,7 @@ _detalhes_database = {
 			["damage_section"] = {
 			},
 		},
-		["start_time"] = 241104.426,
+		["start_time"] = 7323.721,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
@@ -497,13 +495,15 @@ _detalhes_database = {
 			}, -- [4]
 		},
 	},
-	["character_data"] = {
-		["logons"] = 31,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
-	["force_font_outline"] = "",
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["character_data"] = {
+		["logons"] = 33,
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1534450944,
+		["last_version"] = 10,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

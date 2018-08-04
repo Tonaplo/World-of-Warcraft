@@ -444,15 +444,19 @@ GameTooltipModel.Models = {};
 GameTooltipModel.Model = CreateFrame("DressUpModel", nil, GameTooltipModel);
 GameTooltipModel.Model:SetPoint("TOPLEFT", GameTooltipModel ,"TOPLEFT", 4, -4)
 GameTooltipModel.Model:SetPoint("BOTTOMRIGHT", GameTooltipModel ,"BOTTOMRIGHT", -4, 4)
-GameTooltipModel.Model:SetRotation(MODELFRAME_DEFAULT_ROTATION);
+GameTooltipModel.Model:SetFacing(MODELFRAME_DEFAULT_ROTATION);
+GameTooltipModel.Model:SetScript("OnUpdate", function(self, elapsed)
+	self:SetFacing(self:GetFacing() + elapsed);
+end);
 GameTooltipModel.Model:Hide();
+
 for i=1,MAX_CREATURES_PER_ENCOUNTER do
 	model = CreateFrame("DressUpModel", "ATTGameTooltipModel" .. i, GameTooltipModel);
 	model:SetPoint("TOPLEFT", GameTooltipModel ,"TOPLEFT", 4, -4);
 	model:SetPoint("BOTTOMRIGHT", GameTooltipModel ,"BOTTOMRIGHT", -4, 4);
 	model:SetCamDistanceScale(1.7);
 	model:SetDisplayInfo(987);
-	model:SetRotation(MODELFRAME_DEFAULT_ROTATION);
+	model:SetFacing(MODELFRAME_DEFAULT_ROTATION);
 	fi = math.floor(i / 2);
 	model:SetPosition(fi * -0.1, (fi * (i % 2 == 0 and -1 or 1)) * ((MAX_CREATURES_PER_ENCOUNTER - i) * 0.1), fi * 0.2 - 0.3);
 	model:SetDepth(i);
@@ -496,7 +500,7 @@ GameTooltipModel.TrySetDisplayInfos = function(self, reference, displayInfos)
 					model = self.Models[i];
 					model:SetDisplayInfo(displayInfos[i]);
 					model:SetCamDistanceScale(scale);
-					model:SetRotation(rotation);
+					model:SetFacing(rotation);
 					model:SetPosition(0, (i % 2 == 0 and 0.5 or -0.5), 0);
 					model:Show();
 				end
@@ -506,14 +510,14 @@ GameTooltipModel.TrySetDisplayInfos = function(self, reference, displayInfos)
 					model = self.Models[i];
 					model:SetDisplayInfo(displayInfos[i]);
 					model:SetCamDistanceScale(scale);
-					model:SetRotation(rotation);
+					model:SetFacing(rotation);
 					fi = math.floor(i / 2);
 					model:SetPosition(fi * -0.1, (fi * (i % 2 == 0 and -1 or 1)) * ((MAX_CREATURES_PER_ENCOUNTER - i) * 0.1), fi * 0.2 - (ratio * 0.15));
 					model:Show();
 				end
 			end
 		else
-			self.Model:SetRotation(rotation);
+			self.Model:SetFacing(rotation);
 			self.Model:SetCamDistanceScale(scale);
 			self.Model:SetDisplayInfo(displayInfos[1]);
 			self.Model:Show();
@@ -546,7 +550,7 @@ GameTooltipModel.TrySetModel = function(self, reference)
 			else
 				local displayID = app.NPCDB[reference.qgs[1]];
 				if displayID then
-					self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+					self.Model:SetFacing(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
 					self.Model:SetCamDistanceScale(reference.modelScale or 1);
 					self.Model:SetDisplayInfo(displayID);
 					self.Model:Show();
@@ -557,14 +561,14 @@ GameTooltipModel.TrySetModel = function(self, reference)
 		end
 		
 		if reference.displayID then
-			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+			self.Model:SetFacing(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
 			self.Model:SetCamDistanceScale(reference.modelScale or 1);
 			self.Model:SetDisplayInfo(reference.displayID);
 			self.Model:Show();
 			self:Show();
 			return true;
 		elseif reference.model then
-			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+			self.Model:SetFacing(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
 			self.Model:SetCamDistanceScale(reference.modelScale or 1);
 			self.Model:SetUnit("none");
 			self.Model:SetModel(reference.model);
@@ -572,7 +576,7 @@ GameTooltipModel.TrySetModel = function(self, reference)
 			self:Show();
 			return true;
 		elseif reference.creatureID then
-			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+			self.Model:SetFacing(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
 			self.Model:SetCamDistanceScale(reference.modelScale or 1);
 			self:SetCreatureID(reference.creatureID);
 			self.Model:Show();
@@ -1495,7 +1499,7 @@ local function SearchForSourceIDQuickly(sourceID)
 		if group and #group > 0 then return group[1]; end
 	end
 end
-local function SearchForItemLink(link)
+local function SearchForItemLink(field, link)
 	if string.match(link, "item") then
 		-- Skip artifact weapons and common for now
 		local quality = select(3, GetItemInfo(link));
@@ -1706,7 +1710,7 @@ local function SearchForItemLink(link)
 	end
 end
 local function SearchForCachedItemLink(itemLink)
-	return GetCachedSearchResults(itemLink, SearchForItemLink, itemLink);
+	return GetCachedSearchResults(itemLink, SearchForItemLink, "itemID", itemLink);
 end
 local function SearchForMissingItemsRecursively(group, listing)
 	if group.visible then
@@ -1813,16 +1817,17 @@ local function OpenMiniList(field, id, label)
 		if #results < 2 then
 			-- Only one object matched.
 			results = setmetatable({ back = 1 }, { __index = results[1] });
+			app.MiniListHeader = nil;
 		else
 			-- A couple of objects matched, let's make a header.
-			local header = { g = {}, baseIndent = -1, back = 1, expanded = true, visible = true, text = app.DisplayName, description = "Auto Mini List for " .. (label or field) .. " #" .. id, total = 0, progress = 0 };
+			local header = { g = {}, back = 1, expanded = true, visible = true, text = app.DisplayName, description = "Auto Mini List for " .. (label or field) .. " #" .. id, total = 0, progress = 0 };
+			app.MiniListHeader = header;
 			table.wipe(app.HolidayHeader.g);
 			app.HolidayHeader.progress = 0;
 			app.HolidayHeader.total = 0;
 			for i, group in ipairs(results) do
 				header.progress = header.progress + (group.progress or 0);
 				header.total = header.total + (group.total or 0);
-				header.parent = group.parent;
 				
 				-- If this is relative to a holiday, let's do something special
 				if GetRelativeField(group, "npcID", -3) then
@@ -1904,6 +1909,61 @@ local function OpenMiniList(field, id, label)
 				app.HolidayHeader.visible = app.GroupVisibilityFilter(app.HolidayHeader);
 			else
 				app.HolidayHeader.visible = false;
+			end
+			
+			if field == "mapID" and #results > 1 and not header.mapID then
+				if not header.mapID then header.mapID = id; end
+				local count = #header.g;
+				local ins = {};
+				for i=1,count,1 do
+					local group = header.g[i];
+					if group.mapID then
+						header.text = group.text;
+						header.icon = group.icon;
+						for key,value in pairs(group) do
+							if key ~= "g" and key ~= "total" and key ~= "progress" then
+								header[key] = value;
+							end
+						end
+						break;
+					end
+				end
+				if not header.mapID then
+					for i=count,1,-1 do
+						local group = header.g[i];
+						if group.maps then
+							header.text = group.text;
+							header.icon = group.icon;
+							for key,value in pairs(group) do
+								if key ~= "g" and key ~= "total" and key ~= "progress" then
+									header[key] = value;
+								end
+							end
+						end
+					end
+				end
+				for i=count,1,-1 do
+						local group = header.g[i];
+						if group.mapID or (group.maps and header.text == group.text) then
+							table.remove(header.g, i);
+							if group.g then tinsert(ins, group.g); end
+						end
+					end
+				for i=#ins,1,-1 do
+					for j,subgroup in ipairs(ins[i]) do
+						tinsert(header.g, subgroup);
+					end
+				end
+				header.u = nil;
+				header.visible = true;
+				setmetatable(header,
+					header.classID and app.BaseCharacterClass
+					or header.achievementID and app.BaseAchievement
+					or app.BaseMap);
+				if header.collectible then
+					if header.collected then header.progress = header.progress + 1; end
+					app.MiniListHeader.total = app.MiniListHeader.total + 1;
+				end
 			end
 			
 			-- Swap out the map data for the header.
@@ -2447,7 +2507,7 @@ local function RecalculateGroupTotals(group)
 		end
 	end
 end
-local function MergeSearchResults(group)
+local function MergeSearchResults(group, itemID)
 	if group then
 		-- If the user has Show Collection Progress turned on.
 		local count = #group or 0;
@@ -2456,17 +2516,28 @@ local function MergeSearchResults(group)
 			local merged = { g = {}, total = 0, progress = 0, merged = true };
 			for i,g in ipairs(group) do
 				if not g.hideText and (app.RecursiveClassAndRaceFilter(g.parent) or GetDataMember("IgnoreAllFilters")) then
-					if g.collectible then
-						merged.collectible = merged.collectible or g.collectible;
-						merged.collected = merged.collected or g.collected;
-					end
-					if g.trackable then
-						merged.trackable = merged.trackable or g.trackable;
-						merged.saved = merged.saved or g.saved;
-					end
-					if g.g then
-						for j,s in ipairs(g.g) do
-							tinsert(merged.g, s);
+					if g.itemID and g.itemID ~= itemID then
+						local found = false;
+						for j,subgroup in ipairs(merged.g) do
+							if subgroup.itemID == g.itemID and subgroup.s == g.s then
+								found = true;
+								break;
+							end
+						end
+						if not found then tinsert(merged.g, g); end
+					else
+						if g.collectible then
+							merged.collectible = merged.collectible or g.collectible;
+							merged.collected = merged.collected or g.collected;
+						end
+						if g.trackable then
+							merged.trackable = merged.trackable or g.trackable;
+							merged.saved = merged.saved or g.saved;
+						end
+						if g.g then
+							for j,s in ipairs(g.g) do
+								tinsert(merged.g, s);
+							end
 						end
 					end
 				end
@@ -2502,10 +2573,10 @@ local function MergeSearchResults(group)
 		end
 	end
 end
-local function AttachTooltipRawSearchResults(self, listing, group)
+local function AttachTooltipRawSearchResults(self, listing, group, paramA, paramB)
 	if listing then
 		-- Display the pre-calculated row data.
-		if #listing > 0 then
+		if #listing > 0 and (not paramA or GetDataSubMember("SourceText", paramA, true)) then
 			for i,text in ipairs(listing) do
 				local left, right = strsplit("/", text);
 				if right then
@@ -2516,9 +2587,13 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 			end
 		end
 		
+		local itemID;
+		local link = select(2, self:GetItem());
+		if link then itemID = (tonumber(select(2, strsplit(":", link)) or "0") or 0); end
+		
 		-- Merge the Search Results into a compact list.
 		-- TODO: Potentially optimize this?
-		group = MergeSearchResults(group);
+		group = MergeSearchResults(group, itemID);
 		if group then
 			-- If this is a Merged group, then we need to recalculate totals since it isn't directly from the DB
 			if group.merged then RecalculateGroupTotals(group); end
@@ -2633,7 +2708,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 end
 local function AttachTooltipSearchResults(self, search, method, ...)
 	local listing, group = GetCachedSearchResults(search, method, ...);
-	AttachTooltipRawSearchResults(self, listing, group);
+	AttachTooltipRawSearchResults(self, listing, group, ...);
 end
 local function AttachTooltipForEncounter(self, encounterID)
 	if GetDataMember("ShowEncounterID") then self:AddDoubleLine(L("ENCOUNTER_ID"), tostring(encounterID)); end
@@ -2670,6 +2745,7 @@ local function AttachTooltip(self)
 			for i,j in pairs(self) do
 				self:AddDoubleLine(tostring(i), tostring(j));
 			end
+			self:Show();
 			]]--
 		
 			local owner = self:GetOwner();
@@ -2678,7 +2754,40 @@ local function AttachTooltip(self)
 				for i,j in pairs(owner) do
 					self:AddDoubleLine(tostring(i), tostring(j));
 				end
+				self:Show();
 				]]--
+				if owner.SpellHighlightTexture then
+					-- Actionbars, don't want that.
+					return true;
+				elseif owner.lastNumMountsNeedingFanfare then
+					-- Collections
+					local db = app:GetWindow("Prime").data;
+					AttachTooltipRawSearchResults(self, { app.DisplayName .. "/" .. db.title }, { db });
+					self:Show();
+				
+				elseif owner.NewAdventureNotice then
+					-- Adventure Guide
+					local dnr = app:GetWindow("Prime").data.g[1];
+					AttachTooltipRawSearchResults(self, { dnr.text}, { dnr });
+					self:Show();
+				elseif owner.tooltipText then
+					if owner.tooltipText == DUNGEONS_BUTTON then
+						-- Group Finder
+						local gf = app:GetWindow("Prime").data.g[4];
+						AttachTooltipRawSearchResults(self, {}, { gf });
+						self:Show();
+					elseif owner.tooltipText == BLIZZARD_STORE then
+						-- Shop
+						local gf = app:GetWindow("Prime").data.g[13];
+						AttachTooltipRawSearchResults(self, {}, { gf });
+						self:Show();
+					elseif string.sub(owner.tooltipText, 1, string.len(ACHIEVEMENT_BUTTON)) == ACHIEVEMENT_BUTTON then
+						-- Achievements
+						local gf = app:GetWindow("Prime").data.g[5];
+						AttachTooltipRawSearchResults(self, {}, { gf });
+						self:Show();
+					end
+				end
 				
 				if GetDataMember("ShowContents") then
 					-- Is this for a Unit?
@@ -2721,13 +2830,32 @@ local function AttachTooltip(self)
 					end
 				end
 				
-				local link = select(2, self:GetItem());
-				if link then AttachTooltipSearchResults(self, link, SearchForItemLink, link); end
-				
-				local spellID = select(3, self:GetSpell());
-				if spellID and not IsSpellKnown(spellID) then
-					AttachTooltipSearchResults(self, "spellID:" .. spellID, SearchForFieldAndSummarize, "spellID", spellID);
+				local itemID = owner.itemID;
+				if itemID then
+					-- Parse the link and get the itemID and bonus ids.
+					local link = select(2, self:GetItem());
+					if link then
+						if itemID == (tonumber(select(2, strsplit(":", link)) or "0") or 0) then
+							AttachTooltipSearchResults(self, link, SearchForItemLink, "itemID", link);
+							self:Show();
+						else
+							AttachTooltipSearchResults(self, "itemID:" .. itemID, SearchForFieldAndSummarize, "itemID", itemID);
+							self:Show();
+						end
+					else
+						AttachTooltipSearchResults(self, "itemID:" .. itemID, SearchForFieldAndSummarize, "itemID", itemID);
+						self:Show();
+					end
+				else
+					local link = select(2, self:GetItem());
+					if link then
+						AttachTooltipSearchResults(self, link, SearchForItemLink, "itemID", link);
+						self:Show();
+					end
 				end
+				
+				local spellID = select(2, self:GetSpell());
+				if spellID then AttachTooltipSearchResults(self, "spellID:" .. spellID, SearchForFieldAndSummarize, "spellID", spellID); end
 			else
 				if GetDataMember("ShowContents") then
 					-- Is this for a Unit?
@@ -2771,12 +2899,16 @@ local function AttachTooltip(self)
 					end
 				end
 				
-				local link = select(2, self:GetItem());
-				if link then AttachTooltipSearchResults(self, link, SearchForItemLink, link); end
-				
-				local spellID = select(3, self:GetSpell());
-				if spellID and not IsSpellKnown(spellID) then
-					AttachTooltipSearchResults(self, "spellID:" .. spellID, SearchForFieldAndSummarize, "spellID", spellID);
+				local itemID = self.itemID;
+				if itemID then
+					AttachTooltipSearchResults(self, "itemID:" .. itemID, SearchForFieldAndSummarize, "itemID", itemID);
+					self:Show();
+				else
+					local link = select(2, self:GetItem());
+					if link then AttachTooltipSearchResults(self, link, SearchForItemLink, "itemID", link); end
+					
+					local spellID = select(2, self:GetSpell());
+					if spellID then AttachTooltipSearchResults(self, "spellID:" .. spellID, SearchForFieldAndSummarize, "spellID", spellID); end
 				end
 			end
 		end
@@ -2826,9 +2958,9 @@ end
 	end
 	]]--
 	local GameTooltip_SetCurrencyByID = GameTooltip.SetCurrencyByID;
-	GameTooltip.SetCurrencyByID = function(self, currencyID)
+	GameTooltip.SetCurrencyByID = function(self, currencyID, count)
 		-- Make sure to call to base functionality
-		GameTooltip_SetCurrencyByID(self, currencyID);
+		GameTooltip_SetCurrencyByID(self, currencyID, count);
 		
 		if (not InCombatLockdown() or GetDataMember("DisplayTooltipsInCombat")) and GetDataMember("EnableTooltipInformation") then
 			AttachTooltipSearchResults(self, "currencyID:" .. currencyID, SearchForFieldAndSummarize, "currencyID", currencyID);
@@ -3887,7 +4019,7 @@ app.BaseMount = {
 			return "|cffb19cd9" .. (select(1, GetSpellInfo(t.spellID)) or "???") .. "|r";
 			--return select(1, GetSpellLink(t.spellID)) or select(1, GetSpellInfo(t.spellID)) or ("Spell #" .. t.spellID);
 		elseif key == "description" then
-			local mountID = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID")[t.spellID];
+			local mountID = t.mountID;
 			if mountID then return select(2, C_MountJournal_GetMountInfoExtraByID(mountID)); end
 		elseif key == "link" then
 			if t.itemID then
@@ -3901,10 +4033,27 @@ app.BaseMount = {
 		elseif key == "icon" then
 			return select(3, GetSpellInfo(t.spellID));
 		elseif key == "displayID" then
-			local mountID = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID")[t.spellID];
+			local mountID = t.mountID;
 			if mountID then return select(1, C_MountJournal_GetMountInfoExtraByID(mountID)); end
+		elseif key == "mountID" then
+			local temp = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID");
+			if not temp then
+				-- Harvest the Spell IDs for Conversion.
+				temp = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID", {});
+				for i,mountID in ipairs(C_MountJournal.GetMountIDs()) do
+					local spellID = select(2, C_MountJournal_GetMountInfoByID(mountID));
+					if spellID then temp[spellID] = mountID; end
+				end
+				
+				-- Assign to the temporary data container.
+				SetTempDataMember("MOUNT_SPELLID_TO_MOUNTID", temp);
+			end
+			
+			local mountID = temp[t.spellID];
+			if mountID then return mountID; end
 		elseif key == "name" then
-			return C_MountJournal_GetMountInfoByID(GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID")[t.spellID]);
+			local mountID = t.mountID;
+			if mountID then return C_MountJournal_GetMountInfoByID(mountID); end
 		elseif key == "tsm" then
 			if t.itemID then return string.format("i:%d", t.itemID); end
 			if t.parent and t.parent.itemID then return string.format("i:%d", t.parent.itemID); end
@@ -5970,7 +6119,53 @@ local function RowOnClick(self, button)
 						end
 					end
 				end
+			elseif TSMAPI_FOUR and false then
+				if reference.g and #reference.g > 0 then
+					if true then
+						app.print("TSM4 not compatible with ATT yet. If you know how to create Presets like we used to do in TSM3, please whisper Crieve on Discord!");
+						return true;
+					end
+					local missingItems = SearchForMissingItems(reference);					
+					if #missingItems > 0 then
+						app:ShowPopupDialog("Running this command can potentially destroy your existing TSM settings by reassigning items to the " .. app.DisplayName .. " preset.\n\nWe recommend that you use a different profile when using this feature.\n\nDo you want to proceed anyways?",
+						function()
+							local itemString, groupPath;
+							groupPath = BuildSourceTextForTSM(app:GetWindow("Prime").data, 0);
+							if TSMAPI_FOUR.Groups.Exists(groupPath) then
+								TSMAPI_FOUR.Groups.Remove(groupPath);
+							end
+							TSMAPI_FOUR.Groups.AppendOperation(groupPath, "Shopping", operation)
+							for i,group in ipairs(missingItems) do
+								if (not group.spellID and not group.achievementID) or group.itemID then
+									itemString = group.tsm;
+									if itemString then
+										groupPath = BuildSourceTextForTSM(group, 0);
+										TSMAPI_FOUR.Groups.Create(groupPath);
+										if TSMAPI_FOUR.Groups.IsItemInGroup(itemString) then
+											TSMAPI_FOUR.Groups.MoveItem(itemString, groupPath)
+										else
+											TSMAPI_FOUR.Groups.AddItem(itemString, groupPath)
+										end
+										if i > 10 then break; end
+									end
+								end
+							end
+							app.print("Updated the preset successfully.");
+						end);
+						return true;
+					end
+					app.print("No cached items found in search. Expand the group and view the items to cache the names and try again. Only Bind on Equip items will be found using this search.");
+				else
+					-- Attempt to search manually with the link.
+					local link = reference.link or reference.silentLink;
+					if link and HandleModifiedItemClick(link) then
+						AuctionFrameBrowse_Search();
+						return true;
+					end
+				end
+				return true;
 			else
+			
 				-- Not at the Auction House
 				-- If this reference has a link, then attempt to preview the appearance or write to the chat window.
 				local link = reference.link or reference.silentLink;
@@ -6083,7 +6278,7 @@ local function RowOnEnter(self)
 				end
 				--end
 			elseif reference.currencyID then
-				GameTooltip:SetCurrencyByID(reference.currencyID);
+				GameTooltip:SetCurrencyByID(reference.currencyID, 1);
 			elseif not reference.encounterID then
 				local link = reference.link;
 				if link then pcall(GameTooltip.SetHyperlink, GameTooltip, link); end
@@ -6671,6 +6866,16 @@ function app:GetDataCache()
 			table.insert(g, db);
 		end
 		
+		-- In-Game Store
+		if app.Categories.InGameShop then
+			db = { };
+			db.expanded = false;
+			db.text = BATTLE_PET_SOURCE_10;
+			db.icon = "Interface\\ICONS\\INV_Misc_Map02";
+			db.g = app.Categories.InGameShop;
+			table.insert(g, db);
+		end
+		
 		-- Illusions
 		if app.Categories.Illusions then
 			db = {};
@@ -6690,7 +6895,7 @@ function app:GetDataCache()
 		
 		-- Mounts
 		if app.Categories.Mounts then
-			db = app.CreateAchievement(app.Faction == "Horde" and 10355 or 10356, app.Categories.Mounts);
+			db = app.CreateAchievement(app.Faction == "Horde" and 12934 or 12933, app.Categories.Mounts);
 			db.f = 100;
 			db.expanded = false;
 			db.text = MOUNTS; -- L("MOUNTS");
@@ -6699,7 +6904,7 @@ function app:GetDataCache()
 		
 		-- Pet Journal
 		if app.Categories.PetJournal then
-			db = app.CreateAchievement(9643, app.Categories.PetJournal);
+			db = app.CreateAchievement(12958, app.Categories.PetJournal);
 			db.f = 100;
 			db.expanded = false;
 			db.text = PET_JOURNAL;
@@ -6717,7 +6922,7 @@ function app:GetDataCache()
 		
 		-- Toys
 		if app.Categories.Toys then
-			db = app.CreateAchievement(11176, app.Categories.Toys);
+			db = app.CreateAchievement(12996, app.Categories.Toys);
 			db.icon = "Interface\\ICONS\\INV_Misc_Toy_10";
 			db.expanded = false;
 			db.text = TOY_BOX; -- Toy Box
@@ -6952,6 +7157,18 @@ function app:RefreshData(lazy, safely, got)
 			app.HolidayHeader.total = 0;
 			UpdateGroups(app.HolidayHeader, app.HolidayHeader.g, 1);
 			app.HolidayHeader.visible = app.GroupVisibilityFilter(app.HolidayHeader);
+			
+			-- If we're dealing with a mini list, we need to handle it differently.
+			if app.MiniListHeader then
+				if app.MiniListHeader.collectible then
+					app.MiniListHeader.progress = app.MiniListHeader.collected and 1 or 0;
+					app.MiniListHeader.total = 1;
+				else
+					app.MiniListHeader.progress = 0;
+					app.MiniListHeader.total = 0;
+				end
+				UpdateGroups(app.MiniListHeader, app.MiniListHeader.g, 1);
+			end
 			
 			-- Forcibly update the windows.
 			app:UpdateWindows(true, got);
@@ -8876,22 +9093,8 @@ app.events.PLAYER_LOGIN = function()
 		if #mountIDs < 1 then return true; end
 		
 		-- Harvest the Spell IDs for Conversion.
-		local spellID_MountID = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID", {});
 		local collectedSpells = GetDataMember("CollectedSpells", {});
 		local collectedSpellsPerCharacter = GetTempDataMember("CollectedSpells", {});
-		for i,mountID in ipairs(C_MountJournal.GetMountIDs()) do
-			local _, spellID, _, _, _, _, _, _, _, _, isCollected = C_MountJournal_GetMountInfoByID(mountID);
-			if spellID then
-				spellID_MountID[spellID] = mountID;
-				if isCollected then
-					collectedSpells[spellID] = 1;
-					collectedSpellsPerCharacter[spellID] = 1;
-				end
-			end
-		end
-		
-		-- Assign to the temporary data container.
-		SetTempDataMember("MOUNT_SPELLID_TO_MOUNTID", spellID_MountID);
 		app:UnregisterEvent("PET_JOURNAL_LIST_UPDATE");
 		
 		-- Mark all previously completed quests.

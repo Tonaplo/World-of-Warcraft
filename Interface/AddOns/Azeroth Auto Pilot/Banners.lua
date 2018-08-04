@@ -179,7 +179,7 @@ function AAP_MakeBanners()
 
 	local CLi
 	for CLi = 1, 4 do
-		AAP.Banners.BannersFrame["Frame"..CLi] = CreateFrame("frame", "AAP_BannersFrames1B"..CLi, AAP.Banners.BannersFrame)
+		AAP.Banners.BannersFrame["Frame"..CLi] = CreateFrame("frame", "AAP_BannersFrames"..CLi+1, AAP.Banners.BannersFrame)
 		AAP.Banners.BannersFrame["Frame"..CLi]:SetWidth(32)
 		AAP.Banners.BannersFrame["Frame"..CLi]:SetHeight(20)
 		AAP.Banners.BannersFrame["Frame"..CLi]:SetPoint("TOPLEFT", AAP.Banners.BannersFrame, "TOPLEFT",-(32*CLi),0)

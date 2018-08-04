@@ -1,0 +1,8 @@
+## Interface: 80000
+## Author: cqwrteur
+## Title: LookingForGroup Invasion Point
+## LoadOnDemand: 1
+## X-LFG-EVENT: 0
+## Version: @project-version@
+
+Core.lua

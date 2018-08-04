@@ -1523,6 +1523,24 @@ function AAP_ChangeZone()
 	if (AAP_ActiveZone == 1182) then
 		AAP_ActiveZone = 942
 	end
+	if (AAP_ActiveZone == 539) then
+		AAP_ActiveZone = 11337
+	end
+	if (AAP_ActiveZone == 542) then
+		AAP_ActiveZone = 11337
+	end
+	if (AAP_ActiveZone == 535) then
+		AAP_ActiveZone = 11337
+	end
+	if (AAP_ActiveZone == 543) then
+		AAP_ActiveZone = 11337
+	end
+	if (AAP_ActiveZone == 590) then
+		AAP_ActiveZone = 11337
+	end
+	if (AAP_ActiveZone == 525) then
+		AAP_ActiveZone = 11337
+	end
 	if (AAP_ActiveZone) then
 		if (factionz == "Alliance") then
 			AAP_ActiveZone = "A"..AAP_ActiveZone
@@ -1571,10 +1589,10 @@ function AAP_ChangeZone()
 				AAP1[AAP_Realm][AAP_Name]["Settings"]["AutoHandIn"] = 0
 				AAP_Quests = AAPHSteps[AAP_ActiveZone]
 				print(AAP_ActiveZone)
-			elseif ((AAP_ActiveZone == 86) and ((AAP_ActiveQuests[47439]) or (AAP_ActiveQuests[50963]) or (AAP_ActiveQuests[50703]) or (AAP_ActiveQuests[50808]))) then
+			elseif ((AAP_ActiveZone == 86) and ((AAP_ActiveQuests[47439]) or (AAP_ActiveQuests[50963]) or (AAP_ActiveQuests[50617]) or (AAP_ActiveQuests[50808]))) then
 				AAP_ActiveZone = "86-1"
 				AAP_Quests = AAP_QuestList["86-1"]
-			elseif ((AAP_ActiveZone == 627) and ((AAP_ActiveQuests[47439]) or (AAP_ActiveQuests[50963]) or (AAP_ActiveQuests[50703]) or (AAP_ActiveQuests[50808]))) then
+			elseif ((AAP_ActiveZone == 627) and ((AAP_ActiveQuests[47439]) or (AAP_ActiveQuests[50963]) or (AAP_ActiveQuests[50617]) or (AAP_ActiveQuests[50808]))) then
 				AAP_ActiveZone = "627-1"
 				AAP_Quests = AAP_QuestList["627-1"]
 			elseif (AAP_ActiveZone == 864) then
@@ -1669,18 +1687,7 @@ AAP_ParserEventFrame:RegisterEvent ("BAG_UPDATE")
 AAP_ParserEventFrame:SetScript("OnEvent", function(self, event, ...)
 	if (event=="MERCHANT_SHOW" and AAP_DisableAddon == 0) then
 		if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["BuyMerchant"]) then
-			local i
-			for i=1,GetMerchantNumItems() do
-				local link = GetMerchantItemLink(i)
-				if (link) then
-					local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%-?%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
-					if (tonumber(Id) == 160499) then
-						BuyMerchantItem(i)
-						MerchantFrame:Hide()
-						break
-					end
-				end
-			end
+			AAP_ArrowEventAFkTimer2412:Play()
 		end
 	end
 	if (event=="UNIT_AURA" and AAP_DisableAddon == 0) then
@@ -1695,6 +1702,11 @@ AAP_ParserEventFrame:SetScript("OnEvent", function(self, event, ...)
 						AAP_Reset = 0
 						AAP_Plus()
 					elseif (spellzid and (AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["ExtraLine"] == 9) and (spellzid == 272119)) then
+						AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] + 1
+						QNumberLocal = 0
+						AAP_Reset = 0
+						AAP_Plus()
+					elseif (spellzid and (AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["ExtraLine"] == 24) and (spellzid == 273779)) then
 						AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] + 1
 						QNumberLocal = 0
 						AAP_Reset = 0

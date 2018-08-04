@@ -1,0 +1,7 @@
+changeset:   1277:bddeabb8e1e5
+tag:         1278.0
+user:        ejsvifq_mabmip
+date:        Fri Aug 03 18:50:05 2018 -0400
+summary:     lfg opt coroutine search tweaks
+
+

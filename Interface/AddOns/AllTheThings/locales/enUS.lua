@@ -13,6 +13,7 @@ AllTheThings.Locales.enUS = {
 	-- General Text
 	["TITLE"] = "ALL THE THINGS";
 	["DESCRIPTION"] = "\"Foolishly you have sought your own demise. Brazenly you have disregarded powers beyond your understanding. You have fought hard to invade the realm of the Collector. Now there is only one way out - To walk the lonely path... of the damned.\"";
+	--["DESCRIPTION"] = "\"Foolishly you have sought your own demise. Brazenly you have disregarded powers beyond your understanding. You have fought hard to invade the realm of the Collector. Now there is only one way out - To walk the lonely path... of the damned.\"\n\n|CFFFF0000Collection Mode Styles:\n\nUnique + Main Only = LFR Mode\nUnique = Normal Mode\nCompletitonist = Heroic Mode\nDebug + Completionist = Mythic Mode\n";
 	["LOADING"] = "v%s loaded successfully.";
 	["TITLE_OPTIONS"] = "All the Things";
 	["FILTERS"] = "Filters";
@@ -152,6 +153,7 @@ AllTheThings.Locales.enUS = {
 
 	["ABBREVIATIONS"] = {
 		["ALL THE THINGS"] = "ATT",
+		["Expansion Pre"] = "Pre",
 		["Dungeons & Raids"] = "D&R",
 		["Classic -> "] = "",
 		["Burning Crusade"] = "BC",
@@ -159,6 +161,7 @@ AllTheThings.Locales.enUS = {
 		["Cataclysm"] = "CATA",
 		["Mists of Pandaria"] = "MoP",
 		["Warlords of Draenor"] = "WoD",
+		["Battle for Azeroth"] = "BfA",
 		["Player vs Player"] = "PvP",
 		["Raid Finder"] = "LFR",
 		["Looking For Raid"] = "LFR",
@@ -181,6 +184,7 @@ AllTheThings.Locales.enUS = {
 		["Monthly World Events"] = CALENDAR_REPEAT_MONTHLY,
 		["Weekly World Events"] = CALENDAR_REPEAT_WEEKLY,
 		["Mini World Events"] = GetSpellInfo(57055),
+		
 	};
 
 	-- Music / Sound Management (You can add your own sounds for this if you want.)
@@ -436,6 +440,10 @@ AllTheThings.Locales.enUS = {
 		[-218] = "Interface\\Icons\\Achievement_Profession_Fishing_NorthrendAngler",	-- Coastal (for Fishing)
 		[-219] = "Interface\\MINIMAP\\TRACKING\\Profession",					-- Profession Trainers
 		[-220] = "Interface\\MINIMAP\\TRACKING\\Class",							-- Class
+		[-221] = "Interface\\Icons\\inv_orderhall_orderresources",				-- Bonus Objectives
+		[-222] = "Interface\\Icons\\inv_misc_coin_01",							-- Treasure Hunter
+		[-223] = "Interface\\Icons\\achievement_quests_completed_daily_07",		-- Daily
+		[-224] = "Interface\\Icons\\ClassIcon_DemonHunter", 					-- Demon Hunter
 		[-297] = "Interface\\Icons\\inv_letter_17", 							-- Mailbox
 		[-299] = "Interface\\Icons\\achievement_garrisonquests_1000", 			-- Missions
 		[-304] = "Interface\\Icons\\INV_BannerPVP_03",							-- Battlegrounds
@@ -537,6 +545,11 @@ AllTheThings.Locales.enUS = {
 		[-575] = "Interface\\Icons\\DiabloAnniversary_HoradricCube",			-- Diablo III: Reaper of Souls
 		[-576] = "Interface\\Icons\\inv_archonpet",								-- StarCraft II: Legacy of the Void
 		[-577] = "Interface\\Icons\\INV_MISC_FILM_01",							-- World of Warcraft Movie
+		[-578] = "Interface\\Icons\\inv_sword_25",								-- Weaponsmith
+		[-579] = "Interface\\Icons\\inv_axe_05",								-- Master Axesmith
+		[-580] = "Interface\\Icons\\inv_hammer_23",								-- Master Hammersmith
+		[-581] = "Interface\\Icons\\inv_sword_41",								-- Master Swordsmith
+		[-582] = "Interface\\Icons\\inv_chest_plate04",							-- Armorsmith
 		[-1000] = "Interface\\Icons\\achievement_transmog_collections",			-- Sets
 		[-1001] = "Interface\\Icons\\Racial_Dwarf_FindTreasure",				-- The Black Vault
 		[-3178] = "Interface\\Icons\\achievement_boss_warlord_kalithresh",		-- Tier 3.5
@@ -620,11 +633,21 @@ AllTheThings.Locales.enUS = {
 		[-4189] = "Interface\\Icons\\achievement_legionpvptier4",				-- Instance Item Sets, PvP
 		[-5349] = "Interface\\Icons\\achievement_challengemode_scarletmonastery_gold",	-- Miscellaneous Item Sets
 		[-5350] = "Interface\\Icons\\ability_bossmagistrix_timewarp1",			-- Class Trial Item Sets
+		[-5351] = "Interface\\Icons\\misc_arrowlup",							-- Character Boost					
 		[-5352] = "Interface\\Icons\\creatureportrait_portal_eyeofthestormhorde",	-- Tier Sets
 		[-6012] = "Interface\\Icons\\achievement_bg_masterofallbgs",			-- World Event Item Sets
 		[-6013] = "Interface\\Icons\\achievement_reputation_08",				-- Faction
 		[-6014] = "Interface\\Icons\\Spell_Arcane_PortalUnderCity",				-- Cities
 		[-6015] = "Interface\\Icons\\battleground_strongbox_gold_horde",		-- Rewards
+		
+		
+		[-7777] = "Interface\\Icons\\INV_Misc_Basket_05",
+		[-7778] = "Interface\\Icons\\INV_Misc_Bag_28_Halloween",
+		[-7779] = "Interface\\Icons\\inv_misc_treasurechest03a",
+		[-7780] = "Interface\\Icons\\INV_Misc_Bag_10",
+		[-7781] = "Interface\\Icons\\INV_Box_01",
+		
+		
 		[-9912] = "Interface\\Icons\\ClassIcon_Paladin", 	 					-- Protection / Retribution Spec
 		[-9914] = "Interface\\FriendsFrame\\PlusManz-Alliance", 				-- Alliance
 		[-9913] = "Interface\\FriendsFrame\\PlusManz-Horde", 					-- Horde
@@ -1011,7 +1034,6 @@ AllTheThings.Locales.enUS = {
 		[-202] = "Zealous", -- Paladin
 		[-203] = "Valiant", -- Warrior
 		[-204] = "Ebonsoul", -- Death Knight
-		[-205] = "Battle for Azeroth",
 		[-206] = GetSpellInfo(67772),											-- Paragon
 		[-207] = GetSpellInfo(262064),											-- Lightforged Draenei
 		[-208] = GetSpellInfo(262062),											-- Void Elf
@@ -1027,6 +1049,11 @@ AllTheThings.Locales.enUS = {
 		[-218] = "Coastal",														-- Coastal (for Fishing)
 		[-219] = MINIMAP_TRACKING_TRAINER_PROFESSION,							-- Profession Trainers
 		[-220] = CLASS,															-- Class
+		[-221] = TASKS_BONUS_OBJECTIVES,										-- Bonus Objectives
+		[-222] = select(2, GetAchievementInfo(9726)),							-- Treasure Hunter
+		[-223] = DAILY,															-- Daily
+		[-224] = "Illidari",													-- Illidari
+		[-225] = "Elemental Bonds",												-- Elemental Bonds
 -- Other
 		[-294] = "Killed First",
 		[-295] = "Killed Second",
@@ -1117,13 +1144,13 @@ AllTheThings.Locales.enUS = {
 		[-497] = GetSpellInfo(213410).." "..GetSpellInfo(76724),				-- Demonic Offering
 		[-498] = GetSpellInfo(23700),											-- Twisting Nether
 		[-500] = "WoW Anniversary",
-		[-520] = "Expansion Pre-Launch Events",
+		[-520] = "Expansion Pre-Launch",
 		[-521] = "Burning Crusade: Dark Portal Opens",
 		[-522] = "Wrath of the Lich King: Zombie Infestation",
 		[-523] = "Cataclysm: Elemental Unrest",
 		[-525] = "Warlords of Draenor: Iron Horde Incursion",
 		[-526] = "Legion: Legion Invasion",
-		[-527] = "Battle For Azeroth: War of the Thorns",
+		[-527] = "Battle for Azeroth: War of Thorns",
 
 		[-531] = "2008 Spirit of Competition Event",
 		[-532] = "Heroes of the Storm Promotion",
@@ -1172,6 +1199,13 @@ AllTheThings.Locales.enUS = {
 		[-575] = "Diablo III: Reaper of Souls",
 		[-576] = "StarCraft II: Legacy of the Void",
 		[-577] = "World of Warcraft Movie",
+		
+-- Blacksmithing Specialties
+		[-578] = GetSpellInfo(9787),											-- Weaponsmith
+		[-579] = GetSpellInfo(17041),											-- Master Axesmith
+		[-580] = GetSpellInfo(17040),											-- Master Hammersmith
+		[-581] = GetSpellInfo(17039),											-- Master Swordsmith
+		[-582] = GetSpellInfo(9788),											-- Armorsmith
 
 		[-1000] = WARDROBE_SETS, 												-- Sets
 		[-1001] = "The Black Vault",
@@ -1375,7 +1409,9 @@ AllTheThings.Locales.enUS = {
 		[-5205] = "Hidden Appearance",
 	-- Class Sets
 		[-5349] = MAC_OPTIONS_MISC.." "..LOOT_JOURNAL_ITEM_SETS, 					-- Miscellaneous Item Sets
-		[-5350] = "Class Trial Item Sets",
+		[-5350] = "Class Trial Item Sets",											-- Class Trial
+		[-5351] = GAMEMENU_BOOST_BUTTON,											-- Character Boost
+		
 		[-5352] = GARRISON_TIER.." "..WARDROBE_SETS,								-- Tier Sets
 --[[
 		-- Tier Set Numbers Localization
@@ -1385,6 +1421,13 @@ AllTheThings.Locales.enUS = {
 		[-6013] = FACTION,															-- Faction
 		[-6014] = BUG_CATEGORY4,													-- Cities
 		[-6015] = GUILD_TAB_REWARDS,												-- Rewards
+
+		[-7777] = "Timed Event",
+		[-7778] = "First Chest",
+		[-7779] = "Second Chest",
+		[-7780] = "Third Chest",
+		[-7781] = "Final Chest",
+		
 -- Factions
 		[-9913] = FACTION_HORDE, 													-- Horde
 		[-9914] = FACTION_ALLIANCE, 												-- Alliance
@@ -1711,15 +1754,11 @@ AllTheThings.Locales.enUS = {
 		[205143] = "Interface\\Icons\\INV_Misc_Key_12",
 		[205207] = "Interface\\Icons\\INV_Misc_Book_08",
 		[205258] = "Interface\\Icons\\INV_Crate_07",
-		[205266] = "Interface\\Icons\\Creatureportrait_Nexus_Floating_Disc",
 		[205332] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[205350] = "Interface\\Icons\\INV_Gizmo_GoblinBoomBox_01",
-		[205543] = "Interface\\Icons\\INV_Misc_Bone_HumanSkull_01",
-		[205874] = "Interface\\Icons\\Archaeology_5_0_EdictsOfTheThunderKing",
 		[205875] = "Interface\\Icons\\Spell_Fire_Flare",
 		[206109] = "Interface\\Icons\\Achievement_General_HordeSlayer",
 		[206116] = "Interface\\Icons\\Achievement_General_HordeSlayer",
-		[206293] = "Interface\\Icons\\INV_WorseRobot",
 		[206335] = "Interface\\Icons\\INV_Misc_StoneTablet_01",
 		[206336] = "Interface\\Icons\\INV_Misc_StoneTablet_01",
 		[206374] = "Interface\\Icons\\Buff_FelTreasures",
@@ -2001,6 +2040,7 @@ AllTheThings.Locales.enUS = {
 		[203734] = "Westfall Deed",
 		[203755] = "Wrenchmen Recruitment Poster",
 		[204050] = "Foebreaker Blueprints",
+		[204274] = "Captain's Log",
 		[204344] = "Wanted!",
 		[204351] = "Ettin Control Orb",
 		[204406] = "Half-Buried Bottle",
@@ -2009,13 +2049,15 @@ AllTheThings.Locales.enUS = {
 		[204817] = "Lightforged Rod",
 		[204824] = "Lightforged Arch",
 		[204825] = "Lightforged Crest",
+		[204959] = "Gigantic Painite Cluster",
+		[205134] = "Forgemaster's Log",
 		[205143] = "Abandoned Outhouse",
 		[205207] = "Maziel's Journal",
 		[205258] = "Broken Weapons Crate",
 		[205266] = "Elaborate Disc",
 		[205332] = "Wanted Poster",
 		[205350] = "Horde Communication Panel",
-		[205543] = "Decrepit Skeleton",
+		[205540] = "Decrepit Skeleton",
 		[205874] = "Sand-Covered Hieroglyphs",
 		[205875] = "Crusader's Flare",
 		[206109] = "Warchief's Command Board",
@@ -2062,29 +2104,60 @@ AllTheThings.Locales.enUS = {
 		[209270] = "Step 2: Page 78",
 		[209620] = "Darkmoon Treasure Chest",
 		[211424] = "Alchemy Scroll",
+		[212389] = "Scroll of Auspice",
+		[213362] = "Ship's Locker",
 		[213363] = "Wodin's Mantid Shanker",
 		[213364] = "Ancient Pandaren Mining Pick",
+		[213366] = "Ancient Pandaren Tea Pot",
+		[213368] = "Lucky Pandren Coin",
+		[213649] = "Cache of Pilfered Goods",
 		[213650] = "Virmen Treasure Cache",
 		[213651] = "Equipment Locker",
 		[213653] = "Pandaren Fishing Spear",
 		[213741] = "Ancient Jinyu Staff",
 		[213742] = "Hammer of Ten Thunders",
 		[213743] = "Jade Infused Blade",
+		[213748] = "Pandaren Ritual Stone",
 		[213749] = "Staff of the Hidden Master",
+		[213750] = "Saurok Stone Tablet",
 		[213751] = "Sprite's Cloth Chest",
 		[213765] = "Tablet of Ren Yun",
 		[213767] = "Hidden Treasure",
 		[213768] = "Hozen Warrior Spear",
+		[213769] = "Hozen Treasure Cache",
+		[213770] = "Stolen Sprite Treasure",
+		[213771] = "Statue of Xuen",
+		[213774] = "Lost Adventurer's Belongings",
+		[213782] = "Terracotta Head",
+		[213793] = "Rikktik's Tiny Chest",
 		[213842] = "Stash of Yaungol Weapons",
+		[213844] = "Amber Encased Moth",
+		[213845] = "The Hammer of Folly",
+		[213956] = "Fragment of Dread",
+		[213959] = "Hardened Sap of Kri'vess",
 		[213960] = "Yaungol Fire Carrier",
+		[213961] = "Abandoned Create of Goods",
 		[213962] = "Wind-Reaver's Dagger of Quick Strikes",
 		[213964] = "Malik's Stalwart Spear",
+		[213966] = "Amber Encased Necklace",
 		[213967] = "Blade of the Prime",
 		[213968] = "Swarming Cleaver of Ka'roz",
 		[213969] = "Dissector's Staff of Mutation",
+		[213970] = "Bloodsoaked Chitin Fragment",
+		[213971] = "Swarmkeeper's Medallion",
 		[213972] = "Blade of the Poisoned Mind",
+		[213973] = "Klaxxi Sonic Relay",
+		[214062] = "Glowing Amber",
+		[214325] = "Forgotten Lockbox",
+		[214337] = "Stash of Gems",
+		[214338] = "Offering of Remembrance",
+		[214339] = "Chest of Supplies",
 		[214340] = "Boat-Building Instructions",
+		[214403] = "Stack of Papers",
+		[214407] = "Mo-Mo's Treasure Chest",
+		[214438] = "Ancient Mogu Tablet",
 		[214439] = "Barrel of Banana Infused Rum",
+		[214562] = "Sha-Haunted Crystal",
 		[215705] = "Tillers Shrine",
 		[218750] = "Work Orders",
 		[220641] = "Thunderlord's Cache",
@@ -2393,7 +2466,7 @@ AllTheThings.Locales.enUS = {
 		{3, "|CFFFF0000The source of this item has been removed and is only available with the Black Market Auction House.|r", "Black Market AH [BMAH] (9)"}, -- There is Hope -- 9
 		{3, "|CFFFF0000Item from TCG card is no longer in print, but still purchaseable online, sometimes BMAH, and possibly AH.|r", "Trading Card  Game [TCG] (10)"}, -- There is Hope -- 10
 		{3, "|CFFFF0000This item is Bind on Pickup but can be obtained if you have access to the items to summon the boss.|r", "Requires Summoning Items (11)"}, -- There is Hope -- 11
-		{4, "|CFFFF0000This is legacy achievement that is no longer available.|r", "Legacy Achievement (12)"}; -- 12
+		{4, "|CFFFF0000This is legacy instance that is no longer available.|r", "Legacy Instance (12)"}; -- 12
 		{1, "|CFFFF0000Your followers are too high and the mission for the cache will no longer spawn.|r", "Legacy Cache (13)"}; -- 13
 		{2, "|CFFFF0000These items can't be purchased unless you have the required PvP Rating or were in the Top % of that season.|r", "PvP Elite/Gladiator (14)"}, -- 14
 		{1, "|CFFFF0000This item has a Source ID (Tempest Keep Legendaries), but can't be learned (training recipes). |r", "Training Recipes / Unlearnable (15)"}, -- 15

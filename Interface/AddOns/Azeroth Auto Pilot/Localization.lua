@@ -57,6 +57,11 @@ AAP_Locals = {
 	["BannerShow"] = "Show Banner CDS",
 	["BannerScale"] = "BannerWindow Scale:",
 	["Keybinds"] = "Set Keybind: Use Quest Items",
+	["Doesntmatterwep"] = "Doesn't matter what weapon you pick",
+	["Extracaravans"] = "Don't need to use the extra action button",
+	["dotsexpire"] = "Let dots on you expire before clicking altar",
+	["Banneronstuff"] = "Use Banner on Corpses",
+	["GetSaurolistBuff"] = "There is clickable buffs all over the zone.",
 }
 AAP_Locals["deDE"] = {
 	["Accept Quest"] = "Quest annehmen",
@@ -114,6 +119,72 @@ AAP_Locals["deDE"] = {
 	["AutoShareQ"] = "Quests automatisch teilen",
 	["BannerShow"] = "Banner CDs anzeigen",
 	["Keybinds"] = "Tastaturbelegung: Questgegenstand benutzen",
+}
+AAP_Locals["zhCN"] = {
+	["Accept Quest"] = "——接受任务",
+	["Decline Quest"] = "——拒绝任务",
+	["Boat to"] = "——用船",
+	["Buy Item"] = "——购买商品",
+	["Complete Quest"] = "——完成任务",
+	["Fly to"] = "——使用航迹",
+	["Get Flight Point"] = "——开飞行点",
+	["Optional"] = "——可选",
+	["Set Hearthstone"] = "——设置炉石",
+	["Settings"] = "——设置",
+	["Travel to"] = "——旅游",
+	["Turn in Quest"] = "——正在追踪的任务",
+	["Use Hearthstone"] = "——使用炉石",
+	["Use Item"] = "——使用物品",
+	["Suggested Players"] = "——建议玩家",
+	["Skipped cutscene"] = "——跳过图景",
+	["Choose Quests"] = "——选择任务",
+	["Bloodlust"] = "——开嗜血的好时机",
+	["waitforportal"] = "——门户将出现",
+	["BeneathHandin"] = "——表面如果你不能动手",
+	["Totemdmg"] = "——站在DMG Buff图腾",
+	["LoaInfo1"] = "——贡克：图腾，40%秒移动",
+	["LoaInfo2"] = "——Paku：Wrav骑师，飞定义的地方",
+	["UseDalaHS"] = "使用达拉然炉石",
+	["DalaranToOgri"] = "去奥格瑞玛",
+	["PortZuldazar"] = "使用门户网站ZuldZar",
+	["Choose Reward Ilvl"] = "任务升级自动挑选任务奖励",
+	["HeFlying"] = "他在飞，用矛拉他",
+	["ClickShrine"] = "点击神龛",
+	["Dontglide"] = "不要！滑翔机",
+	["Immuneatstart"] = "他在RP期间免疫",
+	["WaitforsetHS"] = "等待NPC到位",
+	["Talk to NPC to ride boat"] = "与人大谈乘船",
+	["Takes little dmg at start1"] = "等他的烟囱一去不复返了",
+	["Takes little dmg at start2"] = "否则他不会受到完全的伤害",
+	["Click 1 Dirt Pile"] = "点击1污垢堆，然后使用机器人",
+	["Go Up Elevator"] = "上电梯",
+	["Jump off Bridge"] = "跳桥",
+	["Jump off"] = "跳下",
+	["ClickAltar"] = "[1] 点击Buff祭坛",
+	["ClickTotem"] = "点击图腾飞翔",
+	["Kajamite"] = "Kaja'MITE块，10% DMG Buff",
+	["Spices"] = "调料",
+	["SeaUrchineBrine"] = "得到海胆盐水",
+	["JolNotes"] = "得到丁香粉",
+	["JolStir"] = "搅炖",
+	["JolPoweder"] = "获得JOLS笔记",
+	["JolHandin"] = "交给JOL",
+	["TopOfBoat"] = "他在船上",
+	["Dontwaitrun"] = "别等，跑这边！！",
+	["AutoVendor"] = "自动摧毁灰色物品",
+	["AutoRepair"] = "自动修理",
+	["ShowGroup"] = "显示小队进度",
+	["AutoShareQ"] = "自动共享任务",
+	["BannerShow"] = "显示横幅CD",
+	["BannerScale"] = "横幅窗口规模:",
+	["Keybinds"] = "设置键绑定：使用任务项",
+	["Doesntmatterwep"] = "Doesn't matter what weapon you pick",
+	["Extracaravans"] = "Don't need to use the extra action button",
+	["dotsexpire"] = "Let dots on you expire before clicking altar",
+	["Banneronstuff"] = "Use Banner on Corpses",
+
+
+
 }
 AAP_Locals["esMX"] = {
 	["Accept Quest"] = "Acceptar misión",
@@ -251,6 +322,10 @@ elseif (GetLocale() == "koKR") then
 	end
 elseif (GetLocale() == "ptBR") then
 	for AAP_index,AAP_value in pairs(AAP_Locals["ptBR"]) do
+		AAP_Locals[AAP_index] = AAP_value
+	end
+elseif (GetLocale() == "zhCN") then
+	for AAP_index,AAP_value in pairs(AAP_Locals["zhCN"]) do
 		AAP_Locals[AAP_index] = AAP_value
 	end
 elseif (GetLocale() == "ruRU") then

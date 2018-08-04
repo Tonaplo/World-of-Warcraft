@@ -328,12 +328,12 @@ local PlayMovie_hook = MovieFrame_PlayMovie
 
 MovieFrame_PlayMovie = function(...)
 
-	if IsControlKeyDown() then
+	if (IsControlKeyDown() or (AAP1[AAP_Realm][AAP_Name]["Settings"]["CutScene"] == 0)) then
 
 		PlayMovie_hook(...)
 
 	else
-
+		print("AAP: "..AAP_Locals["Skipped cutscene"])
 		GameMovieFinished()
 
 	end
@@ -614,6 +614,9 @@ function AAP_CheckDistance()
 			local plusnr = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]
 			local Distancenr = 0
 			local testad = true
+			if (AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["NoExtraRange"]) then
+				testad = false
+			end
 			while testad do
 				local oldx = AAP_Quests[plusnr]["TT"]["x"]
 				local oldy = AAP_Quests[plusnr]["TT"]["y"]
@@ -740,7 +743,6 @@ end
 AAP_CoreEventFrame = CreateFrame("Frame")
 AAP_CoreEventFrame:RegisterEvent ("ADDON_LOADED")
 AAP_CoreEventFrame:RegisterEvent ("UPDATE_MOUSEOVER_UNIT")
-AAP_CoreEventFrame:RegisterEvent ("CINEMATIC_START")
 AAP_CoreEventFrame:RegisterEvent ("QUEST_DETAIL")
 AAP_CoreEventFrame:RegisterEvent ("GOSSIP_SHOW")
 AAP_CoreEventFrame:RegisterEvent ("QUEST_GREETING")
@@ -749,6 +751,7 @@ AAP_CoreEventFrame:RegisterEvent ("QUEST_PROGRESS")
 AAP_CoreEventFrame:RegisterEvent ("UNIT_AURA")
 AAP_CoreEventFrame:RegisterEvent ("PLAYER_EQUIPMENT_CHANGED")
 AAP_CoreEventFrame:RegisterEvent ("MERCHANT_SHOW")
+AAP_CoreEventFrame:RegisterEvent ("CINEMATIC_START")
 
 
 AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
@@ -770,9 +773,11 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 			end
 		end
 	elseif (event=="CINEMATIC_START" and AAP_DisableAddon == 0) then
-		if ((not IsControlKeyDown()) and (AAP1[AAP_Realm][AAP_Name]["Settings"]["CutScene"] == 1)) then
+		if (not IsControlKeyDown()) then
 
-			AAP_QuestAcceptTimerMovie:Play()
+			if (AAP1[AAP_Realm][AAP_Name]["Settings"]["CutScene"] == 1) then
+				AAP_QuestAcceptTimerMovie:Play()
+			end
 		end
 
 	elseif (event=="UNIT_AURA" and AAP_DisableAddon == 0) then
@@ -890,6 +895,9 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 			end
 			if (not AAP1[AAP_Realm][AAP_Name][862]) then
 				AAP1[AAP_Realm][AAP_Name][862] = 1
+			end
+			if (not AAP1[AAP_Realm][AAP_Name][11337]) then
+				AAP1[AAP_Realm][AAP_Name][11337] = 1
 			end
 			if (not AAP1[AAP_Realm][AAP_Name][942]) then
 				AAP1[AAP_Realm][AAP_Name][942] = 1
@@ -1178,8 +1186,8 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 			AAP_QuestAcceptTimerMovie.anim:SetDuration(0.5)
 			AAP_QuestAcceptTimerMovie:SetLooping("REPEAT")
 			AAP_QuestAcceptTimerMovie:SetScript("OnLoop", function(self, event, ...)
-				CinematicFrame_CancelCinematic()
 				print("AAP: "..AAP_Locals["Skipped cutscene"])
+				CinematicFrame_CancelCinematic()
 				AAP_QuestAcceptTimerMovie:Stop()
 			end)
 			AAP_ArrowEventAFkTimer = AAP_CoreEventFrame:CreateAnimationGroup()
@@ -1247,6 +1255,26 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 					AAP_Reset = 0
 					AAP_Plus()
 				end
+			end)
+			AAP_ArrowEventAFkTimer2412 = AAP_CoreEventFrame:CreateAnimationGroup()
+			AAP_ArrowEventAFkTimer2412.anim = AAP_ArrowEventAFkTimer2412:CreateAnimation()
+			AAP_ArrowEventAFkTimer2412.anim:SetDuration(0.1)
+			AAP_ArrowEventAFkTimer2412:SetLooping("REPEAT")
+			AAP_ArrowEventAFkTimer2412:SetScript("OnLoop", function(self, event, ...)
+				local i
+				for i=1,GetMerchantNumItems() do
+					local link = GetMerchantItemLink(i)
+					if (link) then
+						local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%-?%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
+						if (tonumber(Id) == 160499) then
+							BuyMerchantItem(i)
+							MerchantFrame:Hide()
+							break
+						end
+					end
+				end
+
+				AAP_ArrowEventAFkTimer2412:Stop()
 			end)
 
 			AAP_ArrowEventLoadinT = AAP_CoreEventFrame:CreateAnimationGroup()

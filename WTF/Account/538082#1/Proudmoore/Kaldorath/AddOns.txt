@@ -17,3 +17,7 @@ Grid2LDB: enabled
 VuhDo: disabled
 VuhDoOptions: disabled
 CDR: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+LookingForGroup_Hook: enabled

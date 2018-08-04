@@ -1774,7 +1774,7 @@ local function createTooltipFrame(parent)
 	addObject(elm,database)
 	
 	local databaseFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-databaseFrame", child, "ThinBorderTemplate");
-	databaseFrame:SetSize(child:GetWidth(),60)
+	databaseFrame:SetSize(child:GetWidth(),90)
 	databaseFrame:SetPoint("TOPLEFT",database,0,-frameSpacer);
 	addObject(elm,databaseFrame)
 	
@@ -1793,6 +1793,54 @@ local function createTooltipFrame(parent)
 		end);
 	dataLoc:SetPoint("TOPLEFT",database,5,-frameSpacer)
 	addObject(elm,dataLoc)
+	
+	-- This creates the "Show for Items" Checkbox --
+	local sourceTextOption = createCheckBox("Show for Items", child, function(self)
+			app.SetDataSubMember("SourceText", "itemID", self:GetChecked());
+			wipe(app.searchCache);
+		end, 
+		function(self) 
+			self:SetChecked(app.GetDataSubMember("SourceText", "itemID", true));
+		end,
+		function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option to see the database locations on all items.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+	sourceTextOption:SetPoint("TOPLEFT",dataLoc,5,-frameSpacer)
+	addObject(elm,sourceTextOption)
+	
+	-- This creates the "Show for Encounters" Checkbox --
+	local sourceTextOptionEncounters = createCheckBox("Show for Encounters", child, function(self)
+			app.SetDataSubMember("SourceText", "encounterID", self:GetChecked());
+			wipe(app.searchCache);
+		end, 
+		function(self) 
+			self:SetChecked(app.GetDataSubMember("SourceText", "encounterID", true));
+		end,
+		function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option to see the database locations on all encounter icons on the map.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+	sourceTextOptionEncounters:SetPoint("TOPLEFT",sourceTextOption,0,-frameSpacer)
+	addObject(elm,sourceTextOptionEncounters)
+	
+	-- This creates the "Show for Creatures" Checkbox --
+	sourceTextOption = createCheckBox("Show for Creatures", child, function(self)
+			app.SetDataSubMember("SourceText", "creatureID", self:GetChecked());
+			wipe(app.searchCache);
+		end, 
+		function(self) 
+			self:SetChecked(app.GetDataSubMember("SourceText", "creatureID", true));
+		end,
+		function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option to see the database locations on all creatures and NPCs.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+	sourceTextOption:SetPoint("TOPLEFT",sourceTextOptionEncounters,0,-frameSpacer)
+	addObject(elm,sourceTextOption)
 	
 	-- This creates the "Show Completed Locations" Checkbox --
 	local compLoc = createCheckBox("Show Completed Locations", child, function(self)
@@ -1936,7 +1984,7 @@ local function createAboutFrame(parent)
 	local text = {}
 	text.introString = "|CFFADD8E6\nDo you find yourself completing old content just so that you can get literally everything for your Collections? Say no more! ALL THE THINGS will help you with your endeavor by giving you the ability to track your completion for everything.|r";
 	text.featureString = "|CFFADD8E6Features: \n • Supports tracking of Achievements, Appearances, Illusions, Mounts, Music Rolls, Pets, Quests, Titles & Toys \n • Primary Collections Window is moveable and resizeable \n • Auto Minilist \n • Datatext Support \n • Filters to allow you to customize the addon to your preferences \n • Extra tooltip information (Models, Icons, Descriptions, etc) \n • Fanfare music when you learn anything new. \n|r";
-	text.endString = "|CFFADD8E6Author -- Imoldgregg \nContributers -- Lucetia, Daktar, Slumber, Avella, Oiche, Gold, Aiue, Blueyleader, Iyanden, and Eiltherune \nDiscord -- https://discord.gg/Uv9XAr |r";
+	text.endString = "|CFFADD8E6Author -- Imoldgregg \nContributers -- Lucetia, Daktar, Slumber, Avella, Oiche, Gold, Aiue, Blueyleader, Iyanden, and Eiltherune \nDiscord -- https://discord.gg/3RAUKgu |r";
 		
 	local about = child:CreateFontString(nil, "ARTWORK", "GameFontNormal");
 	about:SetPoint("TOPLEFT", 16, -10)
@@ -1976,7 +2024,7 @@ local function createAboutFrame(parent)
 	text.q9 = "|CFFADD8E6Q) Is there any way to filter out PvP items? \n|r";
 	text.a9 = "PvP items are not able to be filtered out.  This is because about a third to a half of the available appearances come from PvP gear and are purchasable with Marks of Honor, obtainable via PvE World Quests in Legion. You can filter out PvP items that are unobtainable or only available to top-tier PvPers, like Elite and Gladiator items by turning on the 'PvP Elite/Gladiator' filter under 'Account Filters'  Current season gear is excluded from this filter as it is still obtainable at the time (this may change in the future).\n \n";
 	text.q10 = "|CFFADD8E6Q)What do I do if I have a suggestion, complaint, etc?\n|r";
-	text.a10 = "A) Feel free to post at \nhttps://github.com/DFortun81/AllTheThings/issues \nhttps://mods.curse.com/addons/wow/267285-all-the-things \nhttp://www.mmo-champion.com/threads/2227927-ALL-THE-THINGS-New-Transmog-Addon \nor join our discord -- https://discord.gg/Uv9XAr";
+	text.a10 = "A) Feel free to post at \nhttps://github.com/DFortun81/AllTheThings/issues \nhttps://mods.curse.com/addons/wow/267285-all-the-things \nhttp://www.mmo-champion.com/threads/2227927-ALL-THE-THINGS-New-Transmog-Addon \nor join our discord -- https://discord.gg/3RAUKgu";
 	
 	message = child:CreateFontString(nil, "ARTWORK", "GameFontNormal");
 	message:SetPoint("TOPLEFT",faq,5,-frameSpacer)

@@ -48,3 +48,10 @@ X: 249
 Y: 15
 W: 790
 H: 454
+Frame: AAP_OptionsMainFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -6
+Y: 96
+W: 450
+H: 280

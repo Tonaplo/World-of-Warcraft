@@ -170,16 +170,35 @@ local function hideButtons(frame)
 	frame.buttonFrame:Hide()
 end
 
+local chatButtonNames = {
+	"ChatFrameMenuButton",
+	"QuickJoinToastButton",
+}
+local voiceButtonNames = {
+	"ChatFrameChannelButton",
+	"ChatFrameToggleVoiceDeafenButton",
+	"ChatFrameToggleVoiceMuteButton",
+}
+
+local voiceHideFunc = function() return false end
+local voiceOrigFunc = function() return C_VoiceChat.IsLoggedIn() end
+
 local function configButtons(hide)
 	if hide then
 		if module:IsHooked("FCF_OpenTemporaryWindow") then return end
 
 		module:SecureHook("FCF_OpenTemporaryWindow")
+		
+		for i, name in ipairs(chatButtonNames) do
+			local frame = _G[name]
+			LUI:Kill(frame)
+		end
 
-		ChatFrameMenuButton.Show = LUI.dummy
-		ChatFrameMenuButton:Hide()
-		QuickJoinToastButton.Show = LUI.dummy
-		QuickJoinToastButton:Hide()
+		for i, name in pairs(voiceButtonNames) do
+			local frame = _G[name]
+			frame:SetVisibilityQueryFunction(voiceHideFunc)
+			frame:Hide()
+		end
 
 		for i, name in ipairs(CHAT_FRAMES) do
 			hideButtons(_G[name])
@@ -187,10 +206,19 @@ local function configButtons(hide)
 	else
 		module:Unhook("FCF_OpenTemporaryWindow")
 
-		ChatFrameMenuButton.Show = nil
-		ChatFrameMenuButton:Show()
-		QuickJoinToastButton.Show = nil
-		QuickJoinToastButton:Show()
+		for i, name in ipairs(chatButtonNames) do
+			local frame = _G[name]
+			frame.Show = nil
+			frame:Show()
+		end
+
+		for i, name in pairs(voiceButtonNames) do
+			local frame = _G[name]
+			frame:SetVisibilityQueryFunction(voiceOrigFunc)
+			if C_VoiceChat.IsLoggedIn() then
+				frame:Show()
+			end
+		end
 
 		for i, name in ipairs(CHAT_FRAMES) do
 			local frame = _G[name]

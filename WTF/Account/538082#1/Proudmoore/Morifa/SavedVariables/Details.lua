@@ -7,9 +7,9 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v8.0.1.6003",
+	["last_version"] = "v8.0.1.6035",
 	["character_data"] = {
-		["logons"] = 264,
+		["logons"] = 266,
 	},
 	["tabela_instancias"] = {
 	},
@@ -17,7 +17,7 @@ _detalhes_database = {
 		{
 			["segment"] = 0,
 			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
+			["horizontalSnap"] = true,
 			["verticalSnap"] = false,
 			["is_open"] = true,
 			["isLocked"] = false,
@@ -29,15 +29,16 @@ _detalhes_database = {
 				1, -- [5]
 			},
 			["snap"] = {
+				[3] = 2,
 			},
 			["mode"] = 2,
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 425.604187011719,
-					["x"] = -839.280364990234,
-					["w"] = 286.230285644531,
-					["h"] = 168.788421630859,
+					["y"] = 424.582092285156,
+					["x"] = -837.663360595703,
+					["w"] = 285.974395751953,
+					["h"] = 168.788558959961,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -50,10 +51,7 @@ _detalhes_database = {
 		{
 			["segment"] = 0,
 			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
-			["verticalSnap"] = false,
-			["is_open"] = true,
-			["isLocked"] = true,
+			["horizontalSnap"] = true,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -61,16 +59,19 @@ _detalhes_database = {
 				1, -- [4]
 				1, -- [5]
 			},
+			["is_open"] = true,
+			["isLocked"] = false,
 			["snap"] = {
+				1, -- [1]
 			},
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = 425.604187011719,
-					["x"] = -553.178131103516,
-					["w"] = 285.974395751953,
-					["h"] = 168.788497924805,
+					["y"] = 424.582092285156,
+					["x"] = -552.072601318359,
+					["w"] = 285.207153320313,
+					["h"] = 168.788558959961,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -109,9 +110,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["author"] = "Details! Team",
-			["level"] = 1,
 			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -180,10 +181,15 @@ _detalhes_database = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -191,14 +197,8 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -20.15869140625,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -210,10 +210,11 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
+			["use_spark"] = false,
 			["x"] = 0,
 			["font_face"] = "Prototype",
+			["y"] = -20.15869140625,
 			["font_size"] = 14,
-			["use_spark"] = false,
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
@@ -221,7 +222,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -230,22 +231,16 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
-		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -312,13 +307,18 @@ _detalhes_database = {
 			},
 			["realm_lastamt"] = 0,
 		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 	},
-	["last_encounter"] = "Argus the Unmaker",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -334,9 +334,10 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 1466,
 		["previous_boss_killed_at"] = 1531548941,
 	},
+	["last_encounter"] = "Argus the Unmaker",
 	["cached_talents"] = {
 	},
-	["last_day"] = "26",
+	["last_day"] = "02",
 	["combat_id"] = 737,
 	["savedStyles"] = {
 	},
@@ -462,11 +463,11 @@ _detalhes_database = {
 		},
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1532843641,
+		["nextreset"] = 1534520033,
 		["last_version"] = 10,
 	},
 	["last_instance_time"] = 1531547908,
-	["combat_counter"] = 2965,
+	["combat_counter"] = 2969,
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -483,5 +484,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-5-0B28F0ED"] = 63,
 	},
 }

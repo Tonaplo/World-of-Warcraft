@@ -11,6 +11,11 @@ AdiBagsDB = {
 	},
 	["namespaces"] = {
 		["ItemLevel"] = {
+			["profiles"] = {
+				["Default"] = {
+					["minLevel"] = 10,
+				},
+			},
 		},
 		["FilterOverride"] = {
 			["profiles"] = {
@@ -41,12 +46,14 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
-					["dispatchRule"] = "slot",
+					["small"] = true,
 				},
 			},
+		},
+		["DataSource"] = {
 		},
 		["ItemSets"] = {
 			["char"] = {
@@ -76,12 +83,12 @@ AdiBagsDB = {
 						["Timeless Coin"] = false,
 						["Essence of Corrupted Deathwing"] = false,
 						["Apexis Crystal"] = false,
-						["Ironpaw Token"] = false,
-						["Champion's Seal"] = false,
-						["Artifact Fragment"] = false,
-						["Oil"] = false,
-						["Lingering Soul Fragment"] = false,
 						["Timewarped Badge"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Oil"] = false,
+						["Artifact Fragment"] = false,
+						["Champion's Seal"] = false,
+						["Ironpaw Token"] = false,
 					},
 					["text"] = {
 						["name"] = "Prototype",
@@ -89,14 +96,12 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["DataSource"] = {
-		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 			["profiles"] = {
 				["Default"] = {
-					["small"] = true,
+					["dispatchRule"] = "slot",
 				},
 			},
 		},
@@ -107,21 +112,27 @@ AdiBagsDB = {
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Lorvol - Tichondrius"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
+		["Morifa - Tichondrius"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
 		["Deminath - Hyjal"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Rahran - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Zaliga - Bleeding Hollow"] = "Default",
+		["Zearthan - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Kindhoof - Tichondrius"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Deminath - Proudmoore"] = "Default",
+		["Korugen - Proudmoore"] = "Default",
+		["Zaliga - Bleeding Hollow"] = "Default",
 		["Rentror - Bleeding Hollow"] = "Default",
+		["Kindhoof - Proudmoore"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
 		["Mallusof - Icecrown"] = "Default",
@@ -133,13 +144,14 @@ AdiBagsDB = {
 				["stackable"] = true,
 				["incomplete"] = true,
 			},
+			["scale"] = 0.9,
 			["bagFont"] = {
 				["name"] = "Prototype",
 			},
 			["positions"] = {
 				["anchor"] = {
-					["xOffset"] = -12.5560302734375,
-					["yOffset"] = 13.7538537979126,
+					["xOffset"] = 0,
+					["yOffset"] = 273.048400878906,
 				},
 				["Backpack"] = {
 					["xOffset"] = -121.031344596151,
@@ -150,12 +162,15 @@ AdiBagsDB = {
 				["ItemSets"] = false,
 			},
 			["compactLayout"] = true,
-			["autoDeposit"] = true,
+			["hideAnchor"] = true,
 			["sectionFont"] = {
 				["name"] = "Prototype",
 				["size"] = 16,
 			},
-			["positionMode"] = "manual",
+			["autoDeposit"] = true,
+			["modules"] = {
+				["Artifact Power Currency"] = false,
+			},
 		},
 	},
 }

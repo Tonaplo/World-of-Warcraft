@@ -1,10 +1,10 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 8.0.05 (25th July 2018, www.leatrix.com)
+-- 	Leatrix Plus 8.0.07 (3rd August 2018, www.leatrix.com)
 ----------------------------------------------------------------------
 
---	01:Functions	20:Live			50:Player		72:Profile		
---	02:Locks		30:Isolated 	60:RunOnce		74:Logout	
---	03:Restarts		40:Variable		70:Events		80:Commands
+--	01:Functions	20:Live			50:RunOnce		70:Logout			
+--	02:Locks		30:Isolated 	60:Events		80:Commands
+--	03:Restarts		40:Player		62:Profile		90:Panel	
 
 ----------------------------------------------------------------------
 -- 	Leatrix Plus
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "8.0.05"
+	LeaPlusLC["AddonVer"] = "8.0.07"
 	LeaPlusLC["RestartReq"] = nil
 
 --	If client restart is required and has not been done, show warning and quit
@@ -48,8 +48,7 @@
 --	Create event frame
 	local LpEvt = CreateFrame("FRAME")
 	LpEvt:RegisterEvent("ADDON_LOADED")
-	LpEvt:RegisterEvent("VARIABLES_LOADED")
-	LpEvt:RegisterEvent("PLAYER_ENTERING_WORLD")
+	LpEvt:RegisterEvent("PLAYER_LOGIN")
 
 ----------------------------------------------------------------------
 --	L01: Functions
@@ -452,7 +451,6 @@
 		or	(LeaPlusLC["NoPetAutomation"]		~= LeaPlusDB["NoPetAutomation"])		-- Disable pet automation
 		or	(LeaPlusLC["CharAddonList"]			~= LeaPlusDB["CharAddonList"])			-- Show character addons
 		or	(LeaPlusLC["FasterLooting"]			~= LeaPlusDB["FasterLooting"])			-- Faster auto loot
-		or	(LeaPlusLC["NoMapEmote"]			~= LeaPlusDB["NoMapEmote"])				-- Disable map emote
 		or	(LeaPlusLC["LockoutSharing"]		~= LeaPlusDB["LockoutSharing"])			-- Lockout sharing
 
 		-- Settings
@@ -647,15 +645,31 @@
 	function LeaPlusLC:Isolated()
 
 		----------------------------------------------------------------------
-		-- Disable map emote
+		-- Unclamp chat frame
 		----------------------------------------------------------------------
 
-		if LeaPlusLC["NoMapEmote"] == "On" then
-			hooksecurefunc("DoEmote", function(emote)
-				if emote == "READ" and WorldMapFrame:IsShown() then
-					CancelEmote()
+		if LeaPlusLC["UnclampChat"] == "On" then
+
+			-- Process normal and existing chat frames on startup
+			for i = 1, 50 do
+				if _G["ChatFrame" .. i] then 
+					_G["ChatFrame" .. i]:SetClampRectInsets(0, 0, 0, 0);
+				end
+			end
+
+			-- Process new chat frames and combat log
+			hooksecurefunc("FloatingChatFrame_UpdateBackgroundAnchors", function(self)
+				self:SetClampRectInsets(0, 0, 0, 0);
+			end)
+
+			-- Process temporary chat frames
+			hooksecurefunc("FCF_OpenTemporaryWindow", function()
+				local cf = FCF_GetCurrentChatFrame():GetName() or nil
+				if cf then
+					_G[cf]:SetClampRectInsets(0, 0, 0, 0);
 				end
 			end)
+
 		end
 
 		----------------------------------------------------------------------
@@ -1015,7 +1029,7 @@
 
 			-- Function to skip gossip
 			local function SkipGossip()
-				if not IsAltKeyDown() then return end
+				if not IsControlKeyDown() then return end
 				local void, gossipType = GetGossipOptions()
 				if gossipType and gossipType == "gossip" then
 					SelectGossipOption(1)
@@ -1275,9 +1289,6 @@
 		----------------------------------------------------------------------
 
 		if LeaPlusLC["FasterLooting"] == "On" then
-
-			-- Enable auto loot
-			SetCVar("autoLootDefault", "1")
 
 			-- Time delay
 			local tDelay = 0
@@ -2017,56 +2028,125 @@
 			SideMinimap:RegisterEvent("PLAYER_REGEN_DISABLED")
 			SideMinimap:SetScript("OnEvent", SideMinimap.Hide)
 
+			-- Add checkboxes
+			LeaPlusLC:MakeTx(SideMinimap, "Settings", 16, -72)
+			LeaPlusLC:MakeCB(SideMinimap, "HideZoneTextBar", "Hide the zone text bar", 16, -92, false, "If checked, the zone text bar will be hidden.  The tracking button tooltip will show zone information.")
+			LeaPlusLC:MakeCB(SideMinimap, "MergeTrackBtn", "Merge the tracking and calendar buttons", 16, -112, false, "If checked, the tracking button will be merged with the calendar button.|n|nLeft-click the tracking button to show the tracking menu or right-click it to show the calendar.")
+			LeaPlusLC:MakeCB(SideMinimap, "HideMiniZoomBtns", "Hide the zoom buttons", 16, -132, false, "If checked, the zoom buttons will be hidden.  You can use the mousewheel to zoom regardless of this setting.")
+			LeaPlusLC:MakeCB(SideMinimap, "HideMiniClock", "Hide the clock", 16, -152, false, "If checked, the clock will be hidden.")
+
 			-- Add slider control
-			LeaPlusLC:MakeTx(SideMinimap, "Scale", 16, -72)
-			LeaPlusLC:MakeSL(SideMinimap, "MinimapScale", "", 1, 2, 0.1, 16, -92, "%.2f")
+			LeaPlusLC:MakeTx(SideMinimap, "Scale", 356, -72)
+			LeaPlusLC:MakeSL(SideMinimap, "MinimapScale", "", 1, 2, 0.1, 356, -92, "%.2f")
 
 			----------------------------------------------------------------------
-			-- Merge tracking button with calendar button
+			-- Hide the zone text bar
 			----------------------------------------------------------------------
 
-			-- Hide the calendar button
-			GameTimeFrame:Hide()
+			-- Store Blizzard handlers
+			local origMiniMapTrackingButtonOnEnter = MiniMapTrackingButton:GetScript("OnEnter")
+			local zonta, zontp, zontr, zontx, zonty = MinimapZoneTextButton:GetPoint()
 
-			-- Move the tracking button to the calendar button space
-			MiniMapTracking:ClearAllPoints()
-			MiniMapTracking:SetAllPoints(GameTimeFrame)
+			-- Function to show zone tooltip
+			local function ShowZoneTip(doNotShow)
+				if LeaPlusLC["HideZoneTextBar"] == "On" then
+					-- Show zone information in tooltip
+					local zoneName = GetZoneText()
+					local subzoneName = GetSubZoneText()
+					if subzoneName == zoneName then	subzoneName = "" end
+					-- Change the owner and position (needed for Minimap_SetTooltip)
+					GameTooltip:SetOwner(MinimapZoneTextButton, "ANCHOR_LEFT")
+					MinimapZoneTextButton:SetAllPoints(MiniMapTrackingButton)
+					-- Show the tooltip
+					local pvpType, isSubZonePvP, factionName = GetZonePVPInfo()
+					Minimap_SetTooltip(pvpType, factionName)
+					GameTooltip:Show()
+					if doNotShow == true then GameTooltip:Hide() end
+				else
+					MinimapZoneTextButton:ClearAllPoints()
+					MinimapZoneTextButton:SetPoint(zonta, zontp, zontr, zontx, zonty)
+				end
+			end
 
-			-- Right-clicking the tracking button shows the calendar 
-			MiniMapTrackingButton:SetScript("OnMouseDown", function(self, btn)
-				if btn == "RightButton" then GameTimeFrame:Click() end
-			end)
-
-			----------------------------------------------------------------------
-			-- Hide minimap zone text
-			----------------------------------------------------------------------
-
-			-- Hide the minimap zone information and world map button
-			MinimapZoneTextButton:Hide()
-			MiniMapWorldMapButton:Hide()
-			MinimapBorderTop:SetTexture("")
-
-			-- Move the minimap up to the top
-			MinimapCluster:ClearAllPoints()
-			MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 20)
-
-			-- Function to move the minimap down when order hall bar is shown
-			local function ManageCommandBar()
-				OrderHallCommandBar:HookScript("OnShow", function()
-					C_Timer.After(0.1, function()
-						if OrderHallCommandBar:IsShown() then
+			-- Function to set the zone text bar position
+			local function SetTitleBarPos()
+				if OrderHallCommandBar then
+					if OrderHallCommandBar:IsShown() then
+						if LeaPlusLC["HideZoneTextBar"] == "On" then
+							MinimapCluster:ClearAllPoints()
+							MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 0)
+						else
+							MinimapCluster:ClearAllPoints()
+							MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, -20)
+						end
+					else
+						if LeaPlusLC["HideZoneTextBar"] == "On" then
+							MinimapCluster:ClearAllPoints()
+							MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 20)
+						else
 							MinimapCluster:ClearAllPoints()
 							MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 0)
 						end
-					end)
-				end)
-				OrderHallCommandBar:HookScript("OnHide", function()
-					local void, void, void, void, y = MinimapCluster:GetPoint()
-					if y == 0 then
+					end
+				else
+					if LeaPlusLC["HideZoneTextBar"] == "On" then
 						MinimapCluster:ClearAllPoints()
 						MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 20)
+
+					else
+						MinimapCluster:ClearAllPoints()
+						MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", 0, 0)
 					end
+				end
+			end
+
+			-- Function to toggle the zone text bar
+			local function SetMiniZoneText()
+				if LeaPlusLC["HideZoneTextBar"] == "On" then
+					-- Hide the zone text bar
+					MinimapZoneTextButton:Hide()
+					MiniMapWorldMapButton:Hide()
+					MinimapBorderTop:SetTexture("")
+					-- Move the minimap up to the top
+					SetTitleBarPos()
+					-- Set the tooltip of the tracking button as the zone name
+					MiniMapTrackingButton:SetScript("OnEnter", ShowZoneTip)
+				else
+					-- Show the zone text bar
+					MinimapZoneTextButton:Show()
+					MiniMapWorldMapButton:Show()
+					MinimapBorderTop:SetTexture("Interface\\Minimap\\UI-Minimap-Border")
+					-- Move the minimap to its original position
+					SetTitleBarPos()
+					-- Set the tooltip of the tracking button as the original one
+					MiniMapTrackingButton:SetScript("OnEnter", origMiniMapTrackingButtonOnEnter)
+				end
+			end
+
+			-- Set the zone text bar layout and tooltip position when option is clicked
+			LeaPlusCB["HideZoneTextBar"]:HookScript("OnClick", function()
+				SetMiniZoneText()
+				ShowZoneTip(true)
+			end)
+
+			-- Set the zone text bar layout on startup
+			SetMiniZoneText()
+
+			-- Function to move the minimap down when order hall bar is shown or option is clicked
+			local function ManageCommandBar()
+
+				-- Set zone text bar when order hall bar is shown
+				OrderHallCommandBar:HookScript("OnShow", function()
+					C_Timer.After(0.1, function()
+						if OrderHallCommandBar:IsShown() then
+							SetTitleBarPos()
+						end
+					end)
 				end)
+
+				-- Set zone text bar when order hall bar is hidden
+				OrderHallCommandBar:HookScript("OnHide", SetTitleBarPos)
+
 			end
 
 			-- Run function when Blizzard addon has loaded
@@ -2083,27 +2163,92 @@
 				end)
 			end
 
-			-- Show the zone text tooltip when the pointer is over the tracking button
-			MiniMapTrackingButton:SetScript("OnEnter", function()
+			----------------------------------------------------------------------
+			-- Merge the tracking and calendar buttons
+			----------------------------------------------------------------------
 
-				-- Show zone information in tooltip
-				local zoneName = GetZoneText()
-				local subzoneName = GetSubZoneText()
-				if subzoneName == zoneName then subzoneName = "" end
+			-- Function to merge buttons
+			local function SetMiniMerge()
+				if LeaPlusLC["MergeTrackBtn"] == "On" then
+					-- Hide calendar button
+					GameTimeFrame:Hide()
+					-- Move the tracking button to the calendar button space
+					MiniMapTracking:ClearAllPoints()
+					MiniMapTracking:SetAllPoints(GameTimeFrame)
+					-- Right-clicking the tracking button shows the calendar 
+					MiniMapTrackingButton:SetScript("OnMouseDown", function(self, btn)
+						if btn == "RightButton" then GameTimeFrame:Click();	end
+					end)
+				else
+					-- Show the calendar button
+					GameTimeFrame:Show()
+					-- Move the tracking button to its origianl position
+					MiniMapTracking:ClearAllPoints()
+					MiniMapTracking:SetPoint("TOPLEFT", MinimapBackdrop, "TOPLEFT", 9, -45)
+					-- Remove right-click from the tracking button
+					MiniMapTrackingButton:SetScript("OnMouseDown", nil)
+				end
+			end
 
-				-- Change the owner and position (needed for Minimap_SetTooltip)
-				GameTooltip:SetOwner(MinimapZoneTextButton, "ANCHOR_LEFT")
-				MinimapZoneTextButton:SetAllPoints(MiniMapTrackingButton)
+			-- When the merge buttons option is checked, update the minimap
+			LeaPlusCB["MergeTrackBtn"]:HookScript("OnClick", SetMiniMerge)
 
-				-- Show the tooltip
-				local pvpType, isSubZonePvP, factionName = GetZonePVPInfo()
-				Minimap_SetTooltip(pvpType, factionName)
-				GameTooltip:Show()
-
-			end)
+			-- Merge buttons on startup
+			SetMiniMerge()
 
 			----------------------------------------------------------------------
-			-- Mousewheel zoom
+			-- Hide the zoom buttons
+			----------------------------------------------------------------------
+
+			-- Function to toggle the zoom buttons
+			local function ToggleZoomButtons()
+				if LeaPlusLC["HideMiniZoomBtns"] == "On" then
+					MinimapZoomIn:Hide()
+					MinimapZoomOut:Hide()
+				else
+					MinimapZoomIn:Show()
+					MinimapZoomOut:Show()
+				end
+			end
+
+			-- Set the zoom buttons when the option is clicked and on startup
+			LeaPlusCB["HideMiniZoomBtns"]:HookScript("OnClick", ToggleZoomButtons)
+			ToggleZoomButtons()
+
+			----------------------------------------------------------------------
+			-- Hide the clock
+			----------------------------------------------------------------------
+
+			-- Function to show or hide the clock
+			local function SetMiniClock()
+				if IsAddOnLoaded("Blizzard_TimeManager") then
+					if LeaPlusLC["HideMiniClock"] == "On" then
+						TimeManagerClockButton:Hide()
+					else
+						TimeManagerClockButton:Show()
+					end
+				end
+			end
+
+			-- Run function when Blizzard addon is loaded
+			if IsAddOnLoaded("Blizzard_TimeManager") then
+				SetMiniClock()
+			else
+				local waitFrame = CreateFrame("FRAME")
+				waitFrame:RegisterEvent("ADDON_LOADED")
+				waitFrame:SetScript("OnEvent", function(self, event, arg1)
+					if arg1 == "Blizzard_TimeManager" then
+						SetMiniClock()
+						waitFrame:UnregisterAllEvents()
+					end
+				end)
+			end
+
+			-- Update the clock when the checkbox is clicked
+			LeaPlusCB["HideMiniClock"]:HookScript("OnClick", SetMiniClock)
+
+			----------------------------------------------------------------------
+			-- Enable mousewheel zoom
 			----------------------------------------------------------------------
 
 			-- Function to control mousewheel zoom
@@ -2159,8 +2304,11 @@
 
 			-- Reset button handler
 			SideMinimap.r:SetScript("OnClick", function()
-				LeaPlusLC["MinimapScale"] = 1
-				SetMiniScale()
+				LeaPlusLC["HideZoneTextBar"] = "Off"; SetMiniZoneText(); ShowZoneTip(true)
+				LeaPlusLC["MergeTrackBtn"] = "Off"; SetMiniMerge()
+				LeaPlusLC["HideMiniZoomBtns"] = "Off"; ToggleZoomButtons()
+				LeaPlusLC["HideMiniClock"] = "Off"; SetMiniClock()
+				LeaPlusLC["MinimapScale"] = 1; SetMiniScale()
 				SideMinimap:Hide(); SideMinimap:Show()
 			end)
 
@@ -2171,8 +2319,11 @@
 				else
 					if IsShiftKeyDown() and IsControlKeyDown() then
 						-- Preset profile
-						LeaPlusLC["MinimapScale"] = 1.30
-						SetMiniScale()
+						LeaPlusLC["HideZoneTextBar"] = "On"; SetMiniZoneText(); ShowZoneTip(true)
+						LeaPlusLC["MergeTrackBtn"] = "On"; SetMiniMerge()
+						LeaPlusLC["HideMiniZoomBtns"] = "Off"; ToggleZoomButtons()
+						LeaPlusLC["HideMiniClock"] = "Off"; SetMiniClock()
+						LeaPlusLC["MinimapScale"] = 1.30; SetMiniScale()
 					else
 						-- Show configuration panel
 						SideMinimap:Show()
@@ -2219,7 +2370,7 @@
 			QuestTextPanel.r:SetScript("OnClick", function()
 
 				-- Reset slider
-				LeaPlusLC["LeaPlusQuestFontSize"] = 18
+				LeaPlusLC["LeaPlusQuestFontSize"] = 12
 				QuestSizeUpdate()
 
 				-- Refresh side panel
@@ -2277,7 +2428,7 @@
 			MailTextPanel.r:SetScript("OnClick", function()
 
 				-- Reset slider
-				LeaPlusLC["LeaPlusMailFontSize"] = 22
+				LeaPlusLC["LeaPlusMailFontSize"] = 15
 
 				-- Refresh side panel
 				MailTextPanel:Hide(); MailTextPanel:Show()
@@ -2741,32 +2892,10 @@
 	end
 
 ----------------------------------------------------------------------
---	L40: Variable
+--	L40: Player
 ----------------------------------------------------------------------
 
-	function LeaPlusLC:Variable()
-
-		----------------------------------------------------------------------
-		-- Disable map fade (no reload required)
-		----------------------------------------------------------------------
-
-		do
-
-			-- Disable map fade on startup if option is enabled
-			if LeaPlusLC["NoMapFade"] == "On" then
-				SetCVar("mapFade", "0")
-			end
-
-			-- Set map fade when option is clicked
-			LeaPlusCB["NoMapFade"]:HookScript("OnClick", function()
-				if LeaPlusLC["NoMapFade"] == "On" then
-					SetCVar("mapFade", "0")
-				else
-					SetCVar("mapFade", "1")
-				end
-			end)
-
-		end
+	function LeaPlusLC:Player()
 
 		----------------------------------------------------------------------
 		-- Auction House Extras
@@ -3049,34 +3178,6 @@
 					_G[cf .. "EditBox"]:SetAltArrowKeyMode(false)
 				end
 			end)
-		end
-
-		----------------------------------------------------------------------
-		-- Unclamp chat frame
-		----------------------------------------------------------------------
-
-		if LeaPlusLC["UnclampChat"] == "On" then
-
-			-- Process normal and existing chat frames on startup
-			for i = 1, 50 do
-				if _G["ChatFrame" .. i] then 
-					_G["ChatFrame" .. i]:SetClampRectInsets(0, 0, 0, 0);
-				end
-			end
-
-			-- Process new chat frames and combat log
-			hooksecurefunc("FloatingChatFrame_UpdateBackgroundAnchors", function(self)
-				self:SetClampRectInsets(0, 0, 0, 0);
-			end)
-
-			-- Process temporary chat frames
-			hooksecurefunc("FCF_OpenTemporaryWindow", function()
-				local cf = FCF_GetCurrentChatFrame():GetName() or nil
-				if cf then
-					_G[cf]:SetClampRectInsets(0, 0, 0, 0);
-				end
-			end)
-
 		end
 
 		----------------------------------------------------------------------
@@ -3454,18 +3555,8 @@
 					end
 				end
 			end)
+
 		end
-
-		-- Release memory
-		LeaPlusLC.Variable = nil
-
-	end
-
-----------------------------------------------------------------------
---	L50: Player (only runs once)
-----------------------------------------------------------------------
-
-	function LeaPlusLC:Player()
 
 		----------------------------------------------------------------------
 		-- Hide chat buttons
@@ -3601,8 +3692,8 @@
 			local hideUI = false
 			local function HideRecentChatFrame() if editFrame:IsShown() then hideUI = true editFrame:Hide() end	end
 			local function ShowRecentChatFrame() if hideUI and not PetBattleFrame:IsShown() then editFrame:Show() hideUI = false end end
-			UIParent:HookScript("OnHide", HideRecentChatFrame)
-			UIParent:HookScript("OnShow", ShowRecentChatFrame)
+			hooksecurefunc(UIParent, "Hide", HideRecentChatFrame)
+			hooksecurefunc(UIParent, "Show", ShowRecentChatFrame)
 			hooksecurefunc("PetBattleFrame_Display", HideRecentChatFrame)
 			hooksecurefunc("PetBattleFrame_Remove", ShowRecentChatFrame)
 
@@ -4564,18 +4655,18 @@
 			end
 
 			-- Tag locale (code construction from tiplang)
-			local ttLevel, ttBoss, ttElite, ttRare, ttRareElite, ttRareBoss, ttTarget
-			if 		GameLocale == "zhCN" then 	ttLevel = "等级"		; ttBoss = "首领"	; ttElite = "精英"	; ttRare = "精良"	; ttRareElite = "精良 精英"		; ttRareBoss = "精良 首领"		; ttTarget = "目标"
-			elseif 	GameLocale == "zhTW" then 	ttLevel = "等級"		; ttBoss = "首領"	; ttElite = "精英"	; ttRare = "精良"	; ttRareElite = "精良 精英"		; ttRareBoss = "精良 首領"		; ttTarget = "目標"
-			elseif 	GameLocale == "ruRU" then 	ttLevel = "Уровень"	; ttBoss = "босс"	; ttElite = "элита"	; ttRare = "Редкое"	; ttRareElite = "Редкое элита"	; ttRareBoss = "Редкое босс"	; ttTarget = "Цель"
-			elseif 	GameLocale == "koKR" then 	ttLevel = "레벨"		; ttBoss = "우두머리"	; ttElite = "정예"	; ttRare = "희귀"	; ttRareElite = "희귀 정예"		; ttRareBoss = "희귀 우두머리"		; ttTarget = "대상"
-			elseif 	GameLocale == "esMX" then 	ttLevel = "Nivel"	; ttBoss = "Jefe"	; ttElite = "Élite"	; ttRare = "Raro"	; ttRareElite = "Raro Élite"	; ttRareBoss = "Raro Jefe"		; ttTarget = "Objetivo"
-			elseif 	GameLocale == "ptBR" then 	ttLevel = "Nível"	; ttBoss = "Chefe"	; ttElite = "Elite"	; ttRare = "Raro"	; ttRareElite = "Raro Elite"	; ttRareBoss = "Raro Chefe"		; ttTarget = "Alvo"
-			elseif 	GameLocale == "deDE" then 	ttLevel = "Stufe"	; ttBoss = "Boss"	; ttElite = "Elite"	; ttRare = "Selten"	; ttRareElite = "Selten Elite"	; ttRareBoss = "Selten Boss"	; ttTarget = "Ziel"
-			elseif 	GameLocale == "esES" then	ttLevel = "Nivel"	; ttBoss = "Jefe"	; ttElite = "Élite"	; ttRare = "Raro"	; ttRareElite = "Raro Élite"	; ttRareBoss = "Raro Jefe"		; ttTarget = "Objetivo"
-			elseif 	GameLocale == "frFR" then 	ttLevel = "Niveau"	; ttBoss = "Boss"	; ttElite = "Élite"	; ttRare = "Rare"	; ttRareElite = "Rare Élite"	; ttRareBoss = "Rare Boss"		; ttTarget = "Cible"
-			elseif 	GameLocale == "itIT" then 	ttLevel = "Livello"	; ttBoss = "Boss"	; ttElite = "Élite"	; ttRare = "Raro"	; ttRareElite = "Raro Élite"	; ttRareBoss = "Raro Boss"		; ttTarget = "Bersaglio"
-			else 								ttLevel = "Level"	; ttBoss = "Boss"	; ttElite = "Elite"	; ttRare = "Rare"	; ttRareElite = "Rare Elite"	; ttRareBoss = "Rare Boss"		; ttTarget = "Target"
+			local ttYou, ttLevel, ttBoss, ttElite, ttRare, ttRareElite, ttRareBoss, ttTarget
+			if 		GameLocale == "zhCN" then 	ttYou = "您"		; ttLevel = "等级"		; ttBoss = "首领"	; ttElite = "精英"	; ttRare = "精良"	; ttRareElite = "精良 精英"		; ttRareBoss = "精良 首领"		; ttTarget = "目标"
+			elseif 	GameLocale == "zhTW" then 	ttYou = "您"		; ttLevel = "等級"		; ttBoss = "首領"	; ttElite = "精英"	; ttRare = "精良"	; ttRareElite = "精良 精英"		; ttRareBoss = "精良 首領"		; ttTarget = "目標"
+			elseif 	GameLocale == "ruRU" then 	ttYou = "ВЫ"	; ttLevel = "Уровень"	; ttBoss = "босс"	; ttElite = "элита"	; ttRare = "Редкое"	; ttRareElite = "Редкое элита"	; ttRareBoss = "Редкое босс"	; ttTarget = "Цель"
+			elseif 	GameLocale == "koKR" then 	ttYou = "당신"	; ttLevel = "레벨"		; ttBoss = "우두머리"	; ttElite = "정예"	; ttRare = "희귀"	; ttRareElite = "희귀 정예"		; ttRareBoss = "희귀 우두머리"		; ttTarget = "대상"
+			elseif 	GameLocale == "esMX" then 	ttYou = "TÚ"	; ttLevel = "Nivel"		; ttBoss = "Jefe"	; ttElite = "Élite"	; ttRare = "Raro"	; ttRareElite = "Raro Élite"	; ttRareBoss = "Raro Jefe"		; ttTarget = "Objetivo"
+			elseif 	GameLocale == "ptBR" then 	ttYou = "VOCÊ"	; ttLevel = "Nível"		; ttBoss = "Chefe"	; ttElite = "Elite"	; ttRare = "Raro"	; ttRareElite = "Raro Elite"	; ttRareBoss = "Raro Chefe"		; ttTarget = "Alvo"
+			elseif 	GameLocale == "deDE" then 	ttYou = "SIE"	; ttLevel = "Stufe"		; ttBoss = "Boss"	; ttElite = "Elite"	; ttRare = "Selten"	; ttRareElite = "Selten Elite"	; ttRareBoss = "Selten Boss"	; ttTarget = "Ziel"
+			elseif 	GameLocale == "esES" then	ttYou = "TÚ"	; ttLevel = "Nivel"		; ttBoss = "Jefe"	; ttElite = "Élite"	; ttRare = "Raro"	; ttRareElite = "Raro Élite"	; ttRareBoss = "Raro Jefe"		; ttTarget = "Objetivo"
+			elseif 	GameLocale == "frFR" then 	ttYou = "TOI"	; ttLevel = "Niveau"	; ttBoss = "Boss"	; ttElite = "Élite"	; ttRare = "Rare"	; ttRareElite = "Rare Élite"	; ttRareBoss = "Rare Boss"		; ttTarget = "Cible"
+			elseif 	GameLocale == "itIT" then 	ttYou = "TU"	; ttLevel = "Livello"	; ttBoss = "Boss"	; ttElite = "Élite"	; ttRare = "Raro"	; ttRareElite = "Raro Élite"	; ttRareBoss = "Raro Boss"		; ttTarget = "Bersaglio"
+			else 								ttYou = "YOU"	; ttLevel = "Level"		; ttBoss = "Boss"	; ttElite = "Elite"	; ttRare = "Rare"	; ttRareElite = "Rare Elite"	; ttRareBoss = "Rare Boss"		; ttTarget = "Target"
 			end
 
 			-- Show tooltip
@@ -4877,7 +4968,7 @@
 
 					-- If target is you, set target to YOU
 					if (UnitIsUnit(LT["Target"], "player")) then 
-						LT["Target"] = ("|c12ff4400YOU")
+						LT["Target"] = ("|c12ff4400" .. ttYou)
 
 					-- If it's not you, but it's a player, show target in class color
 					elseif UnitIsPlayer(LT["Unit"] .. "target") then
@@ -5150,16 +5241,13 @@
 		-- Register logout event to save settings
 		LpEvt:RegisterEvent("PLAYER_LOGOUT")
 
-		-- Unregister the player section (since it should only be run once)
-		LpEvt:UnregisterEvent("PLAYER_ENTERING_WORLD")
-
 		-- Release memory
 		LeaPlusLC.Player = nil
 
 	end
 
 ----------------------------------------------------------------------
--- 	L60: RunOnce
+-- 	L50: RunOnce
 ----------------------------------------------------------------------
 
 	function LeaPlusLC:RunOnce()
@@ -5520,7 +5608,7 @@
 			Zn(L["Movies"], L["Movies"], L["Mists of Pandaria"]							, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Mists of Pandaria"], prefol, L["Mists of Pandaria"] .. " |r(115)", L["Risking It All"] .. " |r(117)", L["Leaving the Wandering Isle"] .. " |r(116)", L["The King's Command"] .. " |r(119)", L["The Art of War"] .. " |r(120)", L["Battle of Serpent's Heart"] .. " |r(118)", L["The Fleet in Krasarang (Horde)"] .. " |r(128)", L["The Fleet in Krasarang (Alliance)"] .. " |r(127)", L["Hellscream's Downfall (Horde)"] .. " |r(151)", L["Hellscream's Downfall (Alliance)"] .. " |r(152)"})
 			Zn(L["Movies"], L["Movies"], L["Warlords of Draenor"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Warlords of Draenor"], prefol, L["Warlords of Draenor"] .. " |r(195)", L["Darkness Falls"] .. " |r(167)", L["The Battle of Thunder Pass"] .. " |r(168)", L["And Justice for Thrall"] .. " |r(177)", L["Into the Portal"] .. " |r(185)", L["A Taste of Iron"] .. " |r(187)", L["The Battle for Shattrath"] .. " |r(188)", L["Establish Your Garrison (Horde)"] .. " |r(189)", L["Establish Your Garrison (Alliance)"] .. " |r(192)", L["Bigger is Better (Horde)"] .. " |r(190)", L["Bigger is Better (Alliance)"] .. " |r(193)", L["My Very Own Castle (Horde)"] .. " |r(191)", L["My Very Own Castle (Alliance)"] .. " |r(194)", L["Gul'dan Ascendant"] .. " |r(270)", L["Shipyard Construction (Horde)"] .. " |r(292)", L["Shipyard Construction (Alliance)"] .. " |r(293)", L["Gul'dan's Plan"] .. "  |r(294)", L["Victory in Draenor!"] .. "  |r(295)"})
 			Zn(L["Movies"], L["Movies"], L["Legion"]									, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Legion"], prefol, L["Legion"] .. " |r(470)", L["The Invasion Begins"] .. " |r(469)", L["Return to the Black Temple"] .. " |r(471)", L["The Demon's Trail"] .. " |r(473)", L["The Fate of Val'sharah"] .. " |r(472)", L["Fate of the Horde"] .. " |r(474)", L["A New Life for Undeath"] .. " |r(475)", L["Harbingers Gul'dan"] .. " |r(476)", L["Harbingers Khadgar"] .. " |r(477)", L["Harbingers Illidan"] .. " |r(478)", L["The Nightborne Pact"] .. " |r(485)", L["The Battle for Broken Shore"] .. " |r(487)", L["A Falling Star"] .. " |r(489)", L["An Unclear Path"] .. " |r(490)", L["Victory at The Nighthold"] .. " |r(635)", L["A Found Memento"] .. " |r(636)", L["Kil'jaeden's Downfall"] .. " |r(656)", L["Arrival on Argus"] .. " |r(677)", L["Rejection of the Gift"] .. " |r(679)", L["Reincarnation of Alleria Windrunner"] .. " |r(682)", L["Rise of Argus"] .. " |r(687)", L["Antorus Ending"] .. " |r(689)", L["Epilogue (Horde)"] .. " |r(717)", L["Epilogue (Alliance)"] .. " |r(716)"})
-			Zn(L["Movies"], L["Movies"], L["Battle for Azeroth"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Battle for Azeroth"], prefol, L["Battle for Azeroth"] .. " |r(852)"})
+			Zn(L["Movies"], L["Movies"], L["Battle for Azeroth"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Battle for Azeroth"], prefol, L["Battle for Azeroth"] .. " |r(852)", L["Warbringers Sylvanas"] .. " |r(853)"})
 
 			-- Give zone table a file level scope so slash command function can access it
 			LeaPlusLC["ZoneList"] = ZoneList
@@ -6228,7 +6316,7 @@
 	end
 
 ----------------------------------------------------------------------
--- 	L70: Default events
+-- 	L60: Default events
 ----------------------------------------------------------------------
 
 	local function eventHandler(self, event, arg1, arg2, ...)
@@ -6458,7 +6546,7 @@
 		end
 
 		----------------------------------------------------------------------
-		-- L72: Profile events
+		-- L62: Profile events
 		----------------------------------------------------------------------
 
 		if event == "ADDON_LOADED" then
@@ -6506,13 +6594,17 @@
 				LeaPlusLC:LoadVarChk("HideZoneText", "Off")					-- Hide zone text
 
 				LeaPlusLC:LoadVarChk("MailFontChange", "Off")				-- Resize mail text
-				LeaPlusLC:LoadVarNum("LeaPlusMailFontSize", 22, 10, 36)		-- Mail text slider
+				LeaPlusLC:LoadVarNum("LeaPlusMailFontSize", 15, 10, 36)		-- Mail text slider
 
 				LeaPlusLC:LoadVarChk("QuestFontChange", "Off")				-- Resize quest text
-				LeaPlusLC:LoadVarNum("LeaPlusQuestFontSize", 18, 10, 36)	-- Quest text slider
+				LeaPlusLC:LoadVarNum("LeaPlusQuestFontSize", 12, 10, 36)	-- Quest text slider
 
 				-- Interface
 				LeaPlusLC:LoadVarChk("MinimapMod", "Off")					-- Customise minimap
+				LeaPlusLC:LoadVarChk("HideZoneTextBar", "Off")				-- Hide zone text bar
+				LeaPlusLC:LoadVarChk("MergeTrackBtn", "Off")				-- Merge minimap buttons
+				LeaPlusLC:LoadVarChk("HideMiniZoomBtns", "Off")				-- Hide zoom buttons
+				LeaPlusLC:LoadVarChk("HideMiniClock", "Off")				-- Hide the clock
 				LeaPlusLC:LoadVarNum("MinimapScale", 1, 1, 2)				-- Minimap scale slider
 
 				LeaPlusLC:LoadVarChk("TipModEnable", "Off")					-- Manage tooltip
@@ -6577,8 +6669,6 @@
 				LeaPlusLC:LoadVarChk("NoRaidRestrictions", "Off")			-- Remove raid restrictions
 				LeaPlusLC:LoadVarChk("NoConfirmLoot", "Off")				-- Disable loot warnings
 				LeaPlusLC:LoadVarChk("FasterLooting", "Off")				-- Faster auto loot
-				LeaPlusLC:LoadVarChk("NoMapFade", "Off")					-- Disable map fade
-				LeaPlusLC:LoadVarChk("NoMapEmote", "Off")					-- Disable map emote
 				LeaPlusLC:LoadVarChk("LockoutSharing", "Off")				-- Lockout sharing
 
 				-- Settings
@@ -6608,13 +6698,8 @@
 			return
 		end
 
-		if event == "VARIABLES_LOADED" then
-			LeaPlusLC:Variable()
-			return
-		end
-
-		if event == "PLAYER_ENTERING_WORLD" then
-			LeaPlusLC:Player();
+		if event == "PLAYER_LOGIN" then
+			LeaPlusLC:Player()
 			collectgarbage()
 			return
 		end
@@ -6674,6 +6759,10 @@
 
 			-- Interface
 			LeaPlusDB["MinimapMod"]				= LeaPlusLC["MinimapMod"]
+			LeaPlusDB["HideZoneTextBar"]		= LeaPlusLC["HideZoneTextBar"]
+			LeaPlusDB["MergeTrackBtn"]			= LeaPlusLC["MergeTrackBtn"]
+			LeaPlusDB["HideMiniZoomBtns"]		= LeaPlusLC["HideMiniZoomBtns"]
+			LeaPlusDB["HideMiniClock"]			= LeaPlusLC["HideMiniClock"]
 			LeaPlusDB["MinimapScale"]			= LeaPlusLC["MinimapScale"]
 
 			LeaPlusDB["TipModEnable"]			= LeaPlusLC["TipModEnable"]
@@ -6738,8 +6827,6 @@
 			LeaPlusDB["NoRaidRestrictions"]		= LeaPlusLC["NoRaidRestrictions"]
 			LeaPlusDB["NoConfirmLoot"] 			= LeaPlusLC["NoConfirmLoot"]
 			LeaPlusDB["FasterLooting"] 			= LeaPlusLC["FasterLooting"]
-			LeaPlusDB["NoMapFade"] 				= LeaPlusLC["NoMapFade"]
-			LeaPlusDB["NoMapEmote"] 			= LeaPlusLC["NoMapEmote"]
 			LeaPlusDB["LockoutSharing"] 		= LeaPlusLC["LockoutSharing"]
 
 			-- Settings
@@ -6767,7 +6854,7 @@
 	LpEvt:SetScript("OnEvent", eventHandler);
 
 ----------------------------------------------------------------------
---	L74: Player logout
+--	L70: Player logout
 ----------------------------------------------------------------------
 
 	-- Player Logout
@@ -7050,7 +7137,7 @@
 			Cbox.f:SetText(L[caption] .. "*")
 			Cbox.tiptext = L[tip] .. "|n|n* " .. L["Requires UI reload."]
 		else
-			-- Checkbox dot not require UI reload
+			-- Checkbox does not require UI reload
 			Cbox.f:SetText(L[caption])
 			Cbox.tiptext = L[tip]
 		end
@@ -7067,12 +7154,24 @@
 				LeaPlusLC["TruncatedLabelsList"] = LeaPlusLC["TruncatedLabelsList"] or {}
 				LeaPlusLC["TruncatedLabelsList"][Cbox.f] = L[caption]
 			end
+			-- Set checkbox click width
+			if Cbox.f:GetStringWidth() > 152 then
+				Cbox:SetHitRectInsets(0, -142, 0, 0)
+			else
+				Cbox:SetHitRectInsets(0, -Cbox.f:GetStringWidth() + 4, 0, 0)
+			end
 		else
 			-- Configuration panel checkbox labels (other checkboxes either have custom functions or blank labels)
 			if Cbox.f:GetWidth() > 302 then
 				Cbox.f:SetWidth(302)
 				LeaPlusLC["TruncatedLabelsList"] = LeaPlusLC["TruncatedLabelsList"] or {}
 				LeaPlusLC["TruncatedLabelsList"][Cbox.f] = L[caption]
+			end
+			-- Set checkbox click width
+			if Cbox.f:GetStringWidth() > 302 then
+				Cbox:SetHitRectInsets(0, -292, 0, 0)
+			else
+				Cbox:SetHitRectInsets(0, -Cbox.f:GetStringWidth() + 4, 0, 0)
 			end
 		end
 
@@ -7083,7 +7182,6 @@
 			else
 				self:SetChecked(false)
 			end
-			Cbox:SetHitRectInsets(0, -Cbox.f:GetStringWidth() + 10, 0, 0);
 		end)
 
 		-- Process clicks
@@ -8232,6 +8330,11 @@
 				-- Clear chat frame
 				ChatFrame1:Clear()
 				return
+			elseif str == "al" then
+				-- Enable auto loot
+				SetCVar("autoLootDefault", "1")
+				LeaPlusLC:Print("Auto loot is now enabled.")
+				return
 			elseif str == "admin" then
 				-- Preset profile (used for testing)
 				LpEvt:UnregisterAllEvents()						-- Prevent changes
@@ -8274,10 +8377,14 @@
 				LeaPlusDB["NoHitIndicators"] = "On"				-- Hide portrait text
 				LeaPlusDB["HideCraftedNames"] = "On"			-- Hide crafted names
 				LeaPlusDB["MailFontChange"] = "On"				-- Resize mail text
+				LeaPlusDB["LeaPlusMailFontSize"] = 22			-- Mail font size
 				LeaPlusDB["QuestFontChange"] = "On"				-- Resize quest text
+				LeaPlusDB["LeaPlusQuestFontSize"] = 18			-- Quest font size
 
 				-- Interface
 				LeaPlusDB["MinimapMod"] = "On"					-- Customise minimap
+				LeaPlusDB["HideZoneTextBar"] = "On"				-- Hide zone text bar
+				LeaPlusDB["MergeTrackBtn"] = "On"				-- Merge minimap buttons
 				LeaPlusDB["MinimapScale"] = 1.30				-- Minimap scale slider
 				LeaPlusDB["TipModEnable"] = "On"				-- Manage tooltip
 				LeaPlusDB["TipBackSimple"] = "On"				-- Color backdrops
@@ -8363,8 +8470,6 @@
 				LeaPlusDB["NoRaidRestrictions"] = "On"			-- Remove raid restrictions
 				LeaPlusDB["NoConfirmLoot"] = "On"				-- Disable loot warnings
 				LeaPlusDB["FasterLooting"] = "On"				-- Faster auto loot
-				LeaPlusDB["NoMapFade"] = "On"					-- Disable map fade
-				LeaPlusDB["NoMapEmote"] = "On"					-- Disable map emote
 				LeaPlusDB["LockoutSharing"] = "On"				-- Lockout sharing
 
 				-- Settings
@@ -8491,7 +8596,7 @@
 	end
 
 ----------------------------------------------------------------------
--- 	Create options panel pages (no content yet)
+-- 	L90: Create options panel pages (no content yet)
 ----------------------------------------------------------------------
 
 	-- Function to add menu button
@@ -8601,7 +8706,7 @@
 
 	LeaPlusLC:MakeTx(LeaPlusLC[pg], "Character"					, 	146, -72);
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "AutomateQuests"			,	"Automate quests"				,	146, -92, 	false,	"If checked, quests will be selected, accepted and turned-in automatically.|n|nYou can hold the shift key down when you talk to a quest giver to override this setting.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "AutomateGossip"			,	"Automate gossip"				,	146, -112, 	false,	"If checked, you can hold down the alt key while opening a gossip window to automatically select a single gossip option.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "AutomateGossip"			,	"Automate gossip"				,	146, -112, 	false,	"If checked, you can hold down the control key while opening a gossip window to automatically select a single gossip option.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "AutoAcceptSummon"			,	"Accept summon"					, 	146, -132, 	false,	"If checked, summon requests will be accepted automatically unless you are in combat.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "AutoAcceptRes"				,	"Accept resurrection"			, 	146, -152, 	false,	"If checked, resurrection requests will be accepted automatically as long as the player resurrecting you is not in combat.|n|nResurrection requests from a Brazier of Awakening or a Failure Detection Pylon will not be accepted automatically.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "AutoReleasePvP"			,	"Release in PvP"				, 	146, -172, 	false,	"If checked, you will release automatically after you die in Ashran, Tol Barad (PvP), Wintergrasp or any battleground.|n|nYou will not release automatically if you have the ability to self-resurrect (soulstone, reincarnation, etc).")
@@ -8675,7 +8780,7 @@
 	pg = "Page5";
 
 	LeaPlusLC:MakeTx(LeaPlusLC[pg], "Enhancements"				, 	146, -72);
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "MinimapMod"				,	"Customise minimap"				, 	146, -92, 	true,	"If checked, the minimap title bar and the calendar button will be hidden.  Right-clicking the tracking button will open the calendar.|n|nIn addition, you will be able to rescale the minimap and use the mousewheel to zoom.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "MinimapMod"				,	"Customise minimap"				, 	146, -92, 	true,	"If checked, you will be able to customise the minimap.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "TipModEnable"				,	"Manage tooltip"				,	146, -112, 	true,	"If checked, the tooltip will be color coded and you will be able to modify the tooltip layout and scale.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "EnhanceDressup"			, 	"Enhance dressup"				,	146, -132, 	true,	"If checked, additional functionality will be added to the dressup frame.|n|nNude and tabard toggle buttons will be added, model positioning controls will be removed and special model animations will be disabled.")
 
@@ -8737,10 +8842,8 @@
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "CharAddonList"				, 	"Show character addons"			, 	340, -132, 	true,	"If checked, the addon list (accessible from the game menu) will show character based addons by default.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoRaidRestrictions"		, 	"Remove raid restrictions"		,	340, -152, 	false,	"If checked, converting a party group to a raid group will succeed even if there are low level characters in the group.|n|nEveryone in the group needs to have Leatrix Plus installed with this option enabled.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoConfirmLoot"				, 	"Disable loot warnings"			,	340, -172, 	false,	"If checked, confirmations will no longer appear when you choose a loot roll option or attempt to sell or mail a tradable item.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "FasterLooting"				, 	"Faster auto loot"				,	340, -192, 	true,	"If checked, the amount of time it takes to auto loot creatures will be significantly reduced.|n|nEnabling this option will also enable auto loot in the game options panel.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoMapFade"					, 	"Disable map fade"				,	340, -212, 	false,	"If checked, the world map will no longer fade while your character is moving.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoMapEmote"				, 	"Disable map emote"				,	340, -232, 	true,	"If checked, your character will not perform the reading emote when you open the world map.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "LockoutSharing"			, 	"Lockout sharing"				, 	340, -252, 	true, 	"If checked, the 'Display only character achievements to others' setting in the game options panel ('Social' menu) will be permanently checked and locked.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "FasterLooting"				, 	"Faster auto loot"				,	340, -192, 	true,	"If checked, the amount of time it takes to auto loot creatures will be significantly reduced.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "LockoutSharing"			, 	"Lockout sharing"				, 	340, -212, 	true, 	"If checked, the 'Display only character achievements to others' setting in the game options panel ('Social' menu) will be permanently checked and locked.")
 
 	LeaPlusLC:CfgBtn("ModViewportBtn", LeaPlusCB["ViewPortEnable"])
 

@@ -16,7 +16,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Affliction",
 	}, -- [3]
 	{
-		["value"] = "[01+502+603+90_Immolate_ShiftF_348_0_0]\n[0g+m0__ShiftT_1122_0_0]\n[00082+b05+70__F_116858_0_0]\n[0g+m0__T_18540_0_0]\n[01+50102+a01000_Backdraft_3_17962_0_0]\n[00w+l0__F_116858_0_0]\n[+o0__E_29722_0_0]",
+		["value"] = "[01+502+603+90_Immolate_ShiftF_348_0_0]\n[0g+m0__ShiftT_1122_0_0]\n[00082+b05+70__F_116858_0_0]\n[01+50102+a01000_Backdraft_3_17962_0_0]\n[00w+l0__F_116858_0_0]\n[+o0__E_29722_0_0]",
 		["spec"] = 267,
 		["name"] = "Destruction",
 	}, -- [4]
@@ -41,7 +41,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Balance",
 	}, -- [8]
 	{
-		["value"] = "[02+m0__ShiftE_147362_0_0]\n[01+502+g0_A Murder of Crows_Shift3_131894_0_0]\n[+o0__3_19574_0_0]\n[+o0__ShiftF_34026_0_0]\n[000m4+j0__C_982_0_0]\n[040m4+a01b+70__C_136_0_0]\n[+o0__F_120679_0_0]\n[00031+b0u+70__E_193455_0_0]",
+		["value"] = "[02+m0__ShiftE_147362_0_0]\n[01+502+g0_A Murder of Crows_Shift3_131894_0_0]\n[+o0__3_19574_0_0]\n[+o0__ShiftF_34026_0_0]\n[000m4+j0__C_982_0_0]\n[040m4+a01b+70__C_136_0_0]\n[+o0__F_217200_0_0]\n[00031+b0u+70__E_193455_0_0]",
 		["spec"] = 253,
 		["name"] = "Beast Mastery",
 	}, -- [9]
@@ -56,7 +56,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Survival",
 	}, -- [11]
 	{
-		["value"] = "[02+m0__ShiftE_57994_0_0]\n[+m034__2_51533_0_187874]\n[00w+l0__Q_187874_0_0]\n[00w+401+g0_Stormbringer_F_17364_0_0]\n[01+501+603+90_Flametongue_ShiftF_193796_0_0]\n[00w+l0__F_17364_0_0]\n[+o0__E_193786_0_0]\n[00wc1+b0E+70__3_60103_0_0]",
+		["value"] = "[02+m0__ShiftE_57994_0_0]\n[+m034__2_51533_0_187874]\n[+o0__s-2_197214_0_0]\n[00w+l0__Q_187874_0_0]\n[00w+401+g0_Stormbringer_F_17364_0_0]\n[01+501+603+90_Flametongue_ShiftF_193796_0_0]\n[00w+l0__F_17364_0_0]\n[+o0__E_193786_0_0]\n[00wc1+b0O+70__3_60103_0_0]",
 		["spec"] = 263,
 		["name"] = "Enhancement",
 	}, -- [12]
@@ -66,7 +66,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Elemental",
 	}, -- [13]
 	{
-		["value"] = "[02+m0__ShiftE_47528_0_0]\n[01w+401+603+90_bone shield_E_195182_0_0]\n[01+502+g0_blood plague_ShiftF_50842_0_0]\n[00w+l0__Shift3_206931_0_0]\n[0w+m0__Q_43265_0_0]\n[04w72+a01b+70__F_49998_0_0]\n[+70140006+b0_bone shield_E_195182_0_0]\n[+o0__ShiftQ_205223_0_0]\n[00w+l0___206930_0_0]",
+		["value"] = "[02+m0__ShiftE_47528_0_0]\n[01w+401+603+90_bone shield_E_195182_0_0]\n[01+502+g0_blood plague_ShiftF_50842_0_0]\n[00w+l0__Shift3_206931_0_0]\n[0w+m0__Q_43265_0_0]\n[04w72+a01b+70__F_49998_0_0]\n[+70140006+b0_bone shield_E_195182_0_0]\n[00w+l0___206930_0_0]",
 		["spec"] = 250,
 		["name"] = "Blood",
 	}, -- [14]
@@ -81,7 +81,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Unholy",
 	}, -- [16]
 	{
-		["value"] = "[02+m0__ShiftE_183752_0_0]\n[+n04__3_207407_0_204021]\n[01+501+g0_demon spikes_2_203720_0_0]\n[000j2+b0O+70__F_228477_0_0]\n[000j4+a01g+70__E_232893_0_0]\n[+o0___211881_0_0]\n[+o0__X_204021_0_0]\n[+o0__Q_178740_0_0]\n[+o0__ShiftQ_204596_0_0]\n[+o0__ShiftR_189110_0_0]\n[00w+40150005+b0_soul fragments_Shift1_209795_0_0]\n[00w+40110003+b0_soul fragments_Shift4_247454_0_0]\n[000j4+a01q+70___203782_0_0]",
+		["value"] = "[02+m0__ShiftE_183752_0_0]\n[01+501+g0_demon spikes_2_203720_0_0]\n[000j2+b0O+70__F_228477_0_0]\n[+o0__s-2_212084_0_0]\n[+o0__X_204021_0_0]\n[+o0__Q_178740_0_0]\n[+o0__ShiftQ_204596_0_0]\n[+o0__ShiftR_189110_0_0]\n[000j4+a01q+70__E_203782_0_0]",
 		["spec"] = 581,
 		["name"] = "Vengeance",
 	}, -- [17]
@@ -91,7 +91,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Havoc",
 	}, -- [18]
 	{
-		["value"] = "[02+m0__ShiftE_116705_0_0]\n[01+501+g0_Ironskin Brew_Shift2_115308_0_0]\n[04wo2+b0O+70__Shift1_115072_0_0]\n[+70102+e0_Heavy Stagger_2_119582_0_0]\n[+o0__R_116847_0_0]\n[00w+l0__Q_121253_0_0]\n[+o0__E_205523_0_0]\n[+o0__F_115181_0_0]\n[00042+a011+70__ShiftF_100780_0_0]",
+		["value"] = "[02+m0__ShiftE_116705_0_0]\n[01+501+g0_Ironskin Brew_Shift2_115308_0_0]\n[04wo2+b0O+70__Shift1_115072_0_0]\n[+70102+e0_Heavy Stagger_2_119582_0_0]\n[00w+l0__Q_121253_0_0]\n[+o0__E_205523_0_0]\n[00042+a011+70__ShiftF_100780_0_0]\n[+o0__F_115181_0_0]",
 		["spec"] = 268,
 		["name"] = "Brewmaster",
 	}, -- [19]
@@ -121,7 +121,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Protection",
 	}, -- [24]
 	{
-		["value"] = "[02+m0__ShiftE_6552_0_0]\n[04wn4002+80k+70__2_5308_0_0]\n[01w+l0_enrage_ShiftF_184367_0_0]\n[+701+g0_Sudden Death_2_5308_0_0]\n[00w+l0__E_85288_0_0]\n[+o0__F_23881_0_0]\n[+o0__Q_190411_0_0]",
+		["value"] = "[02+m0__ShiftE_6552_0_0]\n[04wn4002+80k+70__2_5308_0_0]\n[01w22+a01b+70_enrage_ShiftF_184367_0_0]\n[+701+g0_Sudden Death_2_5308_0_0]\n[00w+l0__E_85288_0_0]\n[+o0__F_23881_0_0]\n[+o0__Q_190411_0_0]",
 		["spec"] = 72,
 		["name"] = "Fury",
 	}, -- [25]

@@ -1,0 +1,15955 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 4,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1421,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006731,
+							["damage_from"] = {
+								["Vengeful Huntress"] = true,
+								["Risen Grovewarden"] = true,
+								["Forest Sister"] = true,
+								["Shadowglen Keeper"] = true,
+							},
+							["targets"] = {
+								["Vengeful Huntress"] = 11216,
+								["Risen Grovewarden"] = 9890,
+								["Forest Sister"] = 13039,
+								["Shadowglen Keeper"] = 18619,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 48633.006731,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 52764.006731,
+							["damage_taken"] = 19830.006731,
+							["spells"] = {
+								["_ActorTable"] = {
+									[127802] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 710,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Risen Grovewarden"] = 710,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 710,
+										["c_max"] = 710,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 710,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[116858] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 24611,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Shadowglen Keeper"] = 9401,
+											["Forest Sister"] = 10031,
+											["Vengeful Huntress"] = 5179,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 24611,
+										["c_max"] = 5179,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 2874,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[348] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 3375,
+										["g_amt"] = 0,
+										["n_max"] = 618,
+										["targets"] = {
+											["Vengeful Huntress"] = 1085,
+											["Risen Grovewarden"] = 618,
+											["Forest Sister"] = 1109,
+											["Shadowglen Keeper"] = 1181,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 618,
+										["n_min"] = 618,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3993,
+										["c_max"] = 1181,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 1085,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[157736] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 3127,
+										["g_amt"] = 0,
+										["n_max"] = 406,
+										["targets"] = {
+											["Vengeful Huntress"] = 2657,
+											["Risen Grovewarden"] = 3492,
+											["Forest Sister"] = 1899,
+											["Shadowglen Keeper"] = 2166,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7087,
+										["n_min"] = 342,
+										["g_dmg"] = 0,
+										["counter"] = 23,
+										["total"] = 10214,
+										["c_max"] = 800,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 753,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 19,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2252,
+										["g_amt"] = 0,
+										["n_max"] = 1789,
+										["targets"] = {
+											["Shadowglen Keeper"] = 2252,
+											["Risen Grovewarden"] = 1789,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1789,
+										["n_min"] = 1789,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4041,
+										["c_max"] = 2252,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 2252,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[191380] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 260,
+										["targets"] = {
+											["Risen Grovewarden"] = 727,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 727,
+										["n_min"] = 227,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 727,
+										["c_max"] = 0,
+										["id"] = 191380,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[265931] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 19,
+										["g_amt"] = 0,
+										["n_max"] = 188,
+										["targets"] = {
+											["Risen Grovewarden"] = 759,
+											["Shadowglen Keeper"] = 767,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1507,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 1526,
+										["c_max"] = 19,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 19,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1934,
+										["g_amt"] = 0,
+										["n_max"] = 877,
+										["targets"] = {
+											["Risen Grovewarden"] = 877,
+											["Shadowglen Keeper"] = 1934,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 877,
+										["n_min"] = 877,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2811,
+										["c_max"] = 1934,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 1934,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 2558.87520518926,
+							["end_time"] = 1533246200,
+							["colocacao"] = 1,
+							["last_event"] = 1533246200,
+							["on_hold"] = false,
+							["start_time"] = 1533246179,
+							["serial"] = "Player-5-0B28F0EA",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001116,
+							["damage_from"] = {
+								["Shadowglen Keeper"] = true,
+							},
+							["targets"] = {
+								["Vengeful Huntress"] = 2295,
+								["Risen Grovewarden"] = 918,
+								["Shadowglen Keeper"] = 918,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 2847.001116,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4131.001116,
+							["last_event"] = 1533246200,
+							["dps_started"] = false,
+							["total"] = 4131.001116,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1836,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Vengeful Huntress"] = 2295,
+											["Risen Grovewarden"] = 918,
+											["Shadowglen Keeper"] = 918,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2295,
+										["n_min"] = 459,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 4131,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533246200,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533246182,
+							["serial"] = "Pet-0-3017-1-30904-416-0A02A38A1A",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1421,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 11.005085,
+							["total_without_pet"] = 13603.005085,
+							["total"] = 13603.005085,
+							["targets_absorbs"] = {
+								["Deminath"] = 10606,
+								["Lazgup <Deminath>"] = 2287,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 12893.005085,
+							["last_hps"] = 659.699567652797,
+							["targets"] = {
+								["Deminath"] = 11316,
+								["Lazgup <Deminath>"] = 2287,
+							},
+							["totalover_without_pet"] = 0.005085,
+							["healing_taken"] = 11316.005085,
+							["fight_component"] = true,
+							["end_time"] = 1533246200,
+							["last_event"] = 1533246200,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1757,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 134,
+										["targets"] = {
+											["Deminath"] = 1757,
+										},
+										["n_min"] = 15,
+										["counter"] = 31,
+										["overheal"] = 0,
+										["total"] = 1757,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 1757,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 31,
+										["n_curado"] = 1757,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 710,
+										["targets"] = {
+											["Deminath"] = 710,
+										},
+										["n_min"] = 710,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 710,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 710,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 11136,
+										["targets_overheal"] = {
+											["Deminath"] = 11,
+										},
+										["n_max"] = 753,
+										["targets"] = {
+											["Deminath"] = 8849,
+											["Lazgup <Deminath>"] = 2287,
+										},
+										["n_min"] = 215,
+										["counter"] = 42,
+										["overheal"] = 11,
+										["total"] = 11136,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 8849,
+											["Lazgup <Deminath>"] = 2287,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 42,
+										["n_curado"] = 11136,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Deminath"] = 11,
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.005085,
+							["start_time"] = 1533246181,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004494,
+							["total_without_pet"] = 0.004494,
+							["total"] = 0.004494,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3017-1-30904-416-0A02A38A1A",
+							["totalabsorb"] = 0.004494,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.004494,
+							["healing_taken"] = 2287.004494,
+							["fight_component"] = true,
+							["end_time"] = 1533246200,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.004494,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1533246200,
+							["delay"] = 0,
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1421,
+					["_ActorTable"] = {
+						{
+							["received"] = 2.001992,
+							["resource"] = 0.001992,
+							["targets"] = {
+								["Deminath"] = 2,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 2.001992,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1533246190,
+							["alternatepower"] = 0.001992,
+							["spells"] = {
+								["_ActorTable"] = {
+									[215942] = {
+										["id"] = 215942,
+										["total"] = 2,
+										["targets"] = {
+											["Deminath"] = 2,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1421,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[234153] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 234153,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157736] = {
+										["activedamt"] = -1,
+										["id"] = 157736,
+										["targets"] = {
+										},
+										["actived_at"] = 1533246200,
+										["uptime"] = 16,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 3,
+									},
+									[191380] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 191380,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[80240] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 80240,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 74,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[266030] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 266030,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 14,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 14,
+									},
+									[6307] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 6307,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 35,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 1,
+								[116858] = 3,
+								[348] = 3,
+								[29722] = 2,
+								[80240] = 1,
+								[234153] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533246210,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spell_cast"] = {
+								[3110] = 8,
+								[89792] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3017-1-30904-416-0A02A38A1A",
+							["fight_component"] = true,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1421,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Vengeful Huntress",
+				["combat_counter"] = 2126,
+				["playing_solo"] = true,
+				["totals"] = {
+					52763.945122, -- [1]
+					13603, -- [2]
+					{
+						0, -- [1]
+						[0] = 2,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+					["Deminath"] = {
+						{
+							true, -- [1]
+							278175, -- [2]
+							401, -- [3]
+							1533246201.213, -- [4]
+							11577, -- [5]
+							"Shadowglen Keeper", -- [6]
+							313, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							278175, -- [2]
+							333, -- [3]
+							1533246202.21, -- [4]
+							11412, -- [5]
+							"Shadowglen Keeper", -- [6]
+							168, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 62007.010926,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 14521.007177,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 23920.563,
+				["combat_id"] = 1421,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1085.006731, -- [1]
+						1328, -- [2]
+						1957, -- [3]
+						378, -- [4]
+						1181, -- [5]
+						5718, -- [6]
+						977, -- [7]
+						2013, -- [8]
+						729, -- [9]
+						9372, -- [10]
+						1238, -- [11]
+						3927, -- [12]
+						6760, -- [13]
+						1131, -- [14]
+						3246, -- [15]
+						6310, -- [16]
+						0, -- [17]
+						2198, -- [18]
+						364, -- [19]
+						1934, -- [20]
+						["max_value"] = 9372,
+					},
+					["Raid Damage Done"] = {
+						1085, -- [1]
+						1328, -- [2]
+						1498, -- [3]
+						378, -- [4]
+						1181, -- [5]
+						5259, -- [6]
+						977, -- [7]
+						1554, -- [8]
+						729, -- [9]
+						9372, -- [10]
+						779, -- [11]
+						3927, -- [12]
+						6301, -- [13]
+						1131, -- [14]
+						3246, -- [15]
+						6310, -- [16]
+						0, -- [17]
+						1280, -- [18]
+						364, -- [19]
+						1934, -- [20]
+						["max_value"] = 9372,
+					},
+				},
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Vengeful Huntress"] = 1,
+					["Risen Grovewarden"] = 1,
+					["Forest Sister"] = 1,
+					["Shadowglen Keeper"] = 1,
+				},
+				["data_fim"] = "14:43:20",
+				["data_inicio"] = "14:43:00",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					48633, -- [1]
+					13603, -- [2]
+					{
+						0, -- [1]
+						[0] = 2,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 23899.943,
+				["contra"] = "Vengeful Huntress",
+				["instance_type"] = "none",
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1420,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004507,
+							["damage_from"] = {
+								["Vengeful Huntress"] = true,
+								["Priestess of the Moon"] = true,
+							},
+							["targets"] = {
+								["Vengeful Huntress"] = 9430,
+								["Priestess of the Moon"] = 16147,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 23741.004507,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 25577.004507,
+							["damage_taken"] = 10551.004507,
+							["spells"] = {
+								["_ActorTable"] = {
+									[127802] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 710,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Vengeful Huntress"] = 710,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 710,
+										["c_max"] = 710,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 710,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[152108] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3168,
+										["targets"] = {
+											["Vengeful Huntress"] = 3168,
+											["Priestess of the Moon"] = 5742,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8910,
+										["n_min"] = 2749,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 8910,
+										["c_max"] = 0,
+										["id"] = 152108,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 36,
+									},
+									[157736] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1526,
+										["g_amt"] = 0,
+										["n_max"] = 403,
+										["targets"] = {
+											["Priestess of the Moon"] = 3689,
+											["Vengeful Huntress"] = 1551,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3714,
+										["n_min"] = 338,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 5240,
+										["c_max"] = 776,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 750,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 4032,
+										["g_amt"] = 0,
+										["n_max"] = 1023,
+										["targets"] = {
+											["Priestess of the Moon"] = 3969,
+											["Vengeful Huntress"] = 3083,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3020,
+										["n_min"] = 993,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 7052,
+										["c_max"] = 2079,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 1953,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1829,
+										["targets"] = {
+											["Priestess of the Moon"] = 1829,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1829,
+										["n_min"] = 1829,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1829,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 1902.62623722393,
+							["end_time"] = 1533246172,
+							["colocacao"] = 1,
+							["last_event"] = 1533246171,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533246160,
+							["serial"] = "Player-5-0B28F0EA",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.005915,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Vengeful Huntress"] = 918,
+								["Priestess of the Moon"] = 918,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.005915,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1836.005915,
+							["last_event"] = 1533246168,
+							["dps_started"] = false,
+							["total"] = 1836.005915,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 918,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Vengeful Huntress"] = 918,
+											["Priestess of the Moon"] = 918,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 918,
+										["n_min"] = 459,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1836,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533246172,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533246164,
+							["serial"] = "Pet-0-3017-1-30904-416-0A02A38A1A",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1420,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 2.008937,
+							["total_without_pet"] = 5863.008937,
+							["total"] = 5863.008937,
+							["targets_absorbs"] = {
+								["Deminath"] = 5153,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 5153.008937,
+							["last_hps"] = 436.1384316745,
+							["targets"] = {
+								["Deminath"] = 5863,
+							},
+							["totalover_without_pet"] = 0.008937,
+							["healing_taken"] = 5863.008937,
+							["fight_component"] = true,
+							["end_time"] = 1533246172,
+							["last_event"] = 1533246171,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 4235,
+										["targets_overheal"] = {
+											["Deminath"] = 2,
+										},
+										["n_max"] = 791,
+										["targets"] = {
+											["Deminath"] = 4235,
+										},
+										["n_min"] = 404,
+										["counter"] = 11,
+										["overheal"] = 2,
+										["total"] = 4235,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 4235,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 11,
+										["n_curado"] = 4235,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 710,
+										["targets"] = {
+											["Deminath"] = 710,
+										},
+										["n_min"] = 710,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 710,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 710,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 918,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 105,
+										["targets"] = {
+											["Deminath"] = 918,
+										},
+										["n_min"] = 47,
+										["counter"] = 14,
+										["overheal"] = 0,
+										["total"] = 918,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 918,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 14,
+										["n_curado"] = 918,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Deminath"] = 2,
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.008937,
+							["start_time"] = 1533246159,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1420,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1420,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 37,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 7,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 7,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 11,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[152108] = 1,
+								[17962] = 1,
+								[29722] = 5,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533246172,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 4,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3017-1-30904-416-0A02A38A1A",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1420,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Vengeful Huntress",
+				["combat_counter"] = 2125,
+				["playing_solo"] = true,
+				["totals"] = {
+					25576.978334, -- [1]
+					5863, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 25577.004507,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 5863.008937,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 23892.543,
+				["combat_id"] = 1420,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.004507, -- [1]
+						8910, -- [2]
+						0, -- [3]
+						0, -- [4]
+						2224, -- [5]
+						2412, -- [6]
+						0, -- [7]
+						2619, -- [8]
+						992.999999999998, -- [9]
+						2426, -- [10]
+						1004, -- [11]
+						0, -- [12]
+						4989, -- [13]
+						["max_value"] = 8910,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						8910, -- [2]
+						0, -- [3]
+						0, -- [4]
+						2224, -- [5]
+						1953, -- [6]
+						0, -- [7]
+						2160, -- [8]
+						993, -- [9]
+						1508, -- [10]
+						1004, -- [11]
+						0, -- [12]
+						4989, -- [13]
+						["max_value"] = 8910,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Priestess of the Moon"] = 2,
+					["Vengeful Huntress"] = 1,
+				},
+				["data_fim"] = "14:42:52",
+				["data_inicio"] = "14:42:39",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					23741, -- [1]
+					5863, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 23879.1,
+				["contra"] = "Vengeful Huntress",
+				["instance_type"] = "none",
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1419,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008023,
+							["damage_from"] = {
+								["Priestess of the Moon"] = true,
+								["Forest Sister"] = true,
+								["Vengeful Huntress"] = true,
+							},
+							["targets"] = {
+								["Priestess of the Moon"] = 16018,
+								["Forest Sister"] = 9353,
+								["Vengeful Huntress"] = 10679,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 31919.008023,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 36050.008023,
+							["damage_taken"] = 12822.008023,
+							["spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 3100,
+										["g_amt"] = 0,
+										["n_max"] = 391,
+										["targets"] = {
+											["Priestess of the Moon"] = 4187,
+											["Forest Sister"] = 2608,
+											["Vengeful Huntress"] = 386,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4081,
+										["n_min"] = 346,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 7181,
+										["c_max"] = 811,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 719,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 374,
+										["g_amt"] = 0,
+										["n_max"] = 187,
+										["targets"] = {
+											["Vengeful Huntress"] = 561,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 187,
+										["n_min"] = 187,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 561,
+										["c_max"] = 374,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 374,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 356,
+										["targets"] = {
+											["Forest Sister"] = 355,
+											["Vengeful Huntress"] = 356,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 711,
+										["n_min"] = 355,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 711,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[191380] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 272,
+										["targets"] = {
+											["Priestess of the Moon"] = 1494,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1494,
+										["n_min"] = 218,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1494,
+										["c_max"] = 0,
+										["id"] = 191380,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[116858] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4857,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Vengeful Huntress"] = 4857,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4857,
+										["c_max"] = 4857,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 4857,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[29722] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3824,
+										["g_amt"] = 0,
+										["n_max"] = 1009,
+										["targets"] = {
+											["Forest Sister"] = 5818,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1994,
+										["n_min"] = 985,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 5818,
+										["c_max"] = 2074,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 1750,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[42223] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 2662,
+										["g_amt"] = 0,
+										["n_max"] = 240,
+										["targets"] = {
+											["Priestess of the Moon"] = 4849,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2187,
+										["n_min"] = 203,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 4849,
+										["c_max"] = 485,
+										["id"] = 42223,
+										["r_dmg"] = 0,
+										["c_min"] = 409,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3459,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Vengeful Huntress"] = 3459,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3459,
+										["c_max"] = 3459,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 3459,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[348] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1250,
+										["g_amt"] = 0,
+										["n_max"] = 601,
+										["targets"] = {
+											["Priestess of the Moon"] = 1816,
+											["Forest Sister"] = 572,
+											["Vengeful Huntress"] = 601,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1739,
+										["n_min"] = 566,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2989,
+										["c_max"] = 1250,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 1250,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 1345.90285693486,
+							["end_time"] = 1533246145,
+							["colocacao"] = 1,
+							["last_event"] = 1533246144,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533246118,
+							["serial"] = "Player-5-0B28F0EA",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001844,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Priestess of the Moon"] = 3672,
+								["Vengeful Huntress"] = 459,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.001844,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4131.001844,
+							["last_event"] = 1533246143,
+							["dps_started"] = false,
+							["total"] = 4131.001844,
+							["delay"] = 1533246133,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1836,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Priestess of the Moon"] = 3672,
+											["Vengeful Huntress"] = 459,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2295,
+										["n_min"] = 459,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 4131,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533246145,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533246130,
+							["serial"] = "Pet-0-3017-1-30904-416-0902A38A1A",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1419,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 4.007863,
+							["total_without_pet"] = 10386.007863,
+							["total"] = 10386.007863,
+							["targets_absorbs"] = {
+								["Deminath"] = 9675,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 9675.007863,
+							["last_hps"] = 415.872822255112,
+							["targets"] = {
+								["Deminath"] = 10386,
+							},
+							["totalover_without_pet"] = 0.007863,
+							["healing_taken"] = 10386.007863,
+							["fight_component"] = true,
+							["end_time"] = 1533246145,
+							["last_event"] = 1533246143,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 8545,
+										["targets_overheal"] = {
+											["Deminath"] = 4,
+										},
+										["n_max"] = 815,
+										["targets"] = {
+											["Deminath"] = 8545,
+										},
+										["n_min"] = 286,
+										["counter"] = 24,
+										["overheal"] = 4,
+										["total"] = 8545,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 8545,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 24,
+										["n_curado"] = 8545,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 356,
+										["targets"] = {
+											["Deminath"] = 711,
+										},
+										["n_min"] = 355,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 711,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 711,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1130,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 86,
+										["targets"] = {
+											["Deminath"] = 1130,
+										},
+										["n_min"] = 20,
+										["counter"] = 22,
+										["overheal"] = 0,
+										["total"] = 1130,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 1130,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 22,
+										["n_curado"] = 1130,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Deminath"] = 4,
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.007863,
+							["start_time"] = 1533246119,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1419,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1419,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[191380] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 191380,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 26,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 81,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 27,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 27,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 12,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 22,
+										["targets"] = {
+										},
+										["appliedamt"] = 12,
+									},
+									[6307] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 6307,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 34,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 1,
+								[116858] = 1,
+								[348] = 3,
+								[5740] = 1,
+								[29722] = 4,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533246151,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 7,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3017-1-30904-416-0902A38A1A",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1419,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Priestess of the Moon",
+				["combat_counter"] = 2124,
+				["playing_solo"] = true,
+				["totals"] = {
+					36049.956753, -- [1]
+					10385.974492, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 36050.008023,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 10386.007863,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 23865.321,
+				["combat_id"] = 1419,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						566.008023, -- [1]
+						1250, -- [2]
+						2064, -- [3]
+						1319, -- [4]
+						426, -- [5]
+						2247, -- [6]
+						3202, -- [7]
+						2657, -- [8]
+						1519, -- [9]
+						1624, -- [10]
+						2168, -- [11]
+						379, -- [12]
+						2075, -- [13]
+						2074, -- [14]
+						1444, -- [15]
+						357, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						601, -- [22]
+						3459, -- [23]
+						543, -- [24]
+						386, -- [25]
+						833, -- [26]
+						["max_value"] = 3459,
+					},
+					["Raid Damage Done"] = {
+						566, -- [1]
+						1250, -- [2]
+						1146, -- [3]
+						1319, -- [4]
+						426, -- [5]
+						1788, -- [6]
+						3202, -- [7]
+						2198, -- [8]
+						1519, -- [9]
+						1165, -- [10]
+						2168, -- [11]
+						379, -- [12]
+						1157, -- [13]
+						2074, -- [14]
+						985, -- [15]
+						357, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						601, -- [22]
+						3459, -- [23]
+						543, -- [24]
+						386, -- [25]
+						374, -- [26]
+						["max_value"] = 3459,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Darkspear Keeneye"] = 1,
+					["Priestess of the Moon"] = 2,
+					["Forest Sister"] = 1,
+					["Vengeful Huntress"] = 1,
+					["Thunderous Brave"] = 1,
+					["Sin'dorei Bloodguard"] = 1,
+				},
+				["data_fim"] = "14:42:25",
+				["data_inicio"] = "14:41:58",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					31919, -- [1]
+					10386, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 23838.536,
+				["contra"] = "Priestess of the Moon",
+				["instance_type"] = "none",
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1418,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007962,
+							["damage_from"] = {
+								["Nature's Guardian"] = true,
+								["Shadowglen Keeper"] = true,
+								["Forest Sister"] = true,
+								["Vengeful Huntress"] = true,
+							},
+							["targets"] = {
+								["Shadowglen Keeper"] = 18561,
+								["Forest Sister"] = 9143,
+								["Vengeful Huntress"] = 9898,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["last_event"] = 1533246099,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 33012.007962,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1533246099,
+							["damage_taken"] = 28902.007962,
+							["spec"] = 267,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 132,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Shadowglen Keeper"] = 132,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 132,
+										["c_max"] = 132,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 132,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[157736] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1431,
+										["g_amt"] = 0,
+										["n_max"] = 402,
+										["targets"] = {
+											["Shadowglen Keeper"] = 3220,
+											["Forest Sister"] = 1479,
+											["Vengeful Huntress"] = 365,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3633,
+										["n_min"] = 159,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 5064,
+										["c_max"] = 730,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 701,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 749,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Vengeful Huntress"] = 749,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 749,
+										["c_max"] = 375,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 374,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 356,
+										["targets"] = {
+											["Forest Sister"] = 356,
+											["Shadowglen Keeper"] = 355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 711,
+										["n_min"] = 355,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 711,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[191380] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 270,
+										["targets"] = {
+											["Forest Sister"] = 743,
+											["Vengeful Huntress"] = 719,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1462,
+										["n_min"] = 226,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1462,
+										["c_max"] = 0,
+										["id"] = 191380,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[234153] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 562,
+										["g_amt"] = 0,
+										["n_max"] = 141,
+										["targets"] = {
+											["Shadowglen Keeper"] = 1406,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 844,
+										["n_min"] = 140,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1406,
+										["c_max"] = 281,
+										["id"] = 234153,
+										["r_dmg"] = 0,
+										["c_min"] = 281,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[116858] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 10047,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Shadowglen Keeper"] = 4817,
+											["Vengeful Huntress"] = 5230,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 10047,
+										["c_max"] = 5230,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 4817,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[29722] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3830,
+										["g_amt"] = 0,
+										["n_max"] = 1012,
+										["targets"] = {
+											["Forest Sister"] = 2070,
+											["Shadowglen Keeper"] = 3718,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1958,
+										["n_min"] = 946,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 5788,
+										["c_max"] = 2070,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 1760,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 634,
+										["targets"] = {
+											["Shadowglen Keeper"] = 614,
+											["Forest Sister"] = 622,
+											["Vengeful Huntress"] = 634,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1870,
+										["n_min"] = 614,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1870,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1742,
+										["targets"] = {
+											["Vengeful Huntress"] = 1742,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1742,
+										["n_min"] = 1742,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1742,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[42223] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 1365,
+										["g_amt"] = 0,
+										["n_max"] = 241,
+										["targets"] = {
+											["Forest Sister"] = 1578,
+											["Shadowglen Keeper"] = 2463,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2676,
+										["n_min"] = 203,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 4041,
+										["c_max"] = 492,
+										["id"] = 42223,
+										["r_dmg"] = 0,
+										["c_min"] = 410,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_dps"] = 931.065417768566,
+							["classe"] = "WARLOCK",
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533246072,
+							["serial"] = "Player-5-0B28F0EA",
+							["total"] = 37602.007962,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.006086,
+							["damage_from"] = {
+								["Shadowglen Keeper"] = true,
+							},
+							["targets"] = {
+								["Shadowglen Keeper"] = 1836,
+								["Forest Sister"] = 2295,
+								["Vengeful Huntress"] = 459,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 2818.006086,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4590.006086,
+							["last_event"] = 1533246098,
+							["dps_started"] = false,
+							["total"] = 4590.006086,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1836,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Shadowglen Keeper"] = 1836,
+											["Forest Sister"] = 2295,
+											["Vengeful Huntress"] = 459,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2754,
+										["n_min"] = 459,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 4590,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533246099,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533246075,
+							["serial"] = "Pet-0-3017-1-30904-416-0802A38A1A",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1418,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 370.005096,
+							["total_without_pet"] = 22135.005096,
+							["total"] = 22135.005096,
+							["targets_absorbs"] = {
+								["Deminath"] = 12221,
+								["Lazgup <Deminath>"] = 2818,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 15039.005096,
+							["last_hps"] = 548.086096568137,
+							["targets"] = {
+								["Deminath"] = 19317,
+								["Lazgup <Deminath>"] = 2818,
+							},
+							["totalover_without_pet"] = 0.005096,
+							["healing_taken"] = 19317.005096,
+							["fight_component"] = true,
+							["end_time"] = 1533246099,
+							["last_event"] = 1533246099,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 12493,
+										["targets_overheal"] = {
+											["Deminath"] = 14,
+										},
+										["n_max"] = 946,
+										["targets"] = {
+											["Deminath"] = 9675,
+											["Lazgup <Deminath>"] = 2818,
+										},
+										["n_min"] = 260,
+										["counter"] = 49,
+										["overheal"] = 14,
+										["total"] = 12493,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 9675,
+											["Lazgup <Deminath>"] = 2818,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 49,
+										["n_curado"] = 12493,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[234153] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1405,
+										["targets"] = {
+											["Deminath"] = 7030,
+										},
+										["n_min"] = 700,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 7030,
+										["c_max"] = 0,
+										["id"] = 234153,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 8,
+										["n_curado"] = 7030,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deminath"] = 356,
+										},
+										["n_max"] = 66,
+										["targets"] = {
+											["Deminath"] = 66,
+										},
+										["n_min"] = 66,
+										["counter"] = 2,
+										["overheal"] = 356,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 66,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2546,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 176,
+										["targets"] = {
+											["Deminath"] = 2546,
+										},
+										["n_min"] = 18,
+										["counter"] = 42,
+										["overheal"] = 0,
+										["total"] = 2546,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 2546,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 42,
+										["n_curado"] = 2546,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Deminath"] = 370,
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.005096,
+							["start_time"] = 1533246072,
+							["delay"] = 1533246060,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.006304,
+							["total_without_pet"] = 0.006304,
+							["total"] = 0.006304,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3017-1-30904-416-0802A38A1A",
+							["totalabsorb"] = 0.006304,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.006304,
+							["healing_taken"] = 2818.006304,
+							["fight_component"] = true,
+							["end_time"] = 1533246099,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.006304,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1533246099,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1418,
+					["_ActorTable"] = {
+						{
+							["received"] = 2.002301,
+							["resource"] = 0.002301,
+							["targets"] = {
+								["Deminath"] = 2,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 2.002301,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1533246074,
+							["alternatepower"] = 0.002301,
+							["spells"] = {
+								["_ActorTable"] = {
+									[215942] = {
+										["id"] = 215942,
+										["total"] = 2,
+										["targets"] = {
+											["Deminath"] = 2,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1418,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[191380] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 191380,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[234153] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 234153,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 23,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 168,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 40,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[232412] = {
+										["activedamt"] = 1,
+										["id"] = 232412,
+										["targets"] = {
+										},
+										["actived_at"] = 1533246059,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 40,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[6307] = {
+										["activedamt"] = 2,
+										["id"] = 6307,
+										["targets"] = {
+										},
+										["actived_at"] = 1533246117,
+										["uptime"] = 42,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 2,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 18,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 18,
+									},
+									[266030] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 266030,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 37,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[29722] = 4,
+								[116858] = 2,
+								[348] = 3,
+								[234153] = 3,
+								[119905] = 2,
+								[5740] = 1,
+								[17962] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533246117,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spell_cast"] = {
+								[3110] = 8,
+								[89792] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3017-1-30904-416-0802A38A1A",
+							["fight_component"] = true,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1418,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Nature's Guardian",
+				["combat_counter"] = 2123,
+				["playing_solo"] = true,
+				["totals"] = {
+					37601.942755, -- [1]
+					22135, -- [2]
+					{
+						0, -- [1]
+						[0] = 2,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 37602.007962,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 22135.005096,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 23819.602,
+				["combat_id"] = 1418,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.007962, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						622, -- [14]
+						614, -- [15]
+						0, -- [16]
+						1783, -- [17]
+						1935, -- [18]
+						3645, -- [19]
+						1980, -- [20]
+						1584, -- [21]
+						4001, -- [22]
+						0, -- [23]
+						1078, -- [24]
+						399, -- [25]
+						459, -- [26]
+						5219, -- [27]
+						740, -- [28]
+						140, -- [29]
+						669, -- [30]
+						600, -- [31]
+						841, -- [32]
+						899, -- [33]
+						496, -- [34]
+						0, -- [35]
+						0, -- [36]
+						2376, -- [37]
+						0, -- [38]
+						1093, -- [39]
+						1199, -- [40]
+						["max_value"] = 5219,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						622, -- [14]
+						614, -- [15]
+						0, -- [16]
+						865, -- [17]
+						1935, -- [18]
+						3186, -- [19]
+						1980, -- [20]
+						1584, -- [21]
+						3083, -- [22]
+						0, -- [23]
+						1078, -- [24]
+						399, -- [25]
+						0, -- [26]
+						5219, -- [27]
+						281, -- [28]
+						140, -- [29]
+						669, -- [30]
+						141, -- [31]
+						841, -- [32]
+						440, -- [33]
+						496, -- [34]
+						0, -- [35]
+						0, -- [36]
+						2376, -- [37]
+						0, -- [38]
+						1093, -- [39]
+						740, -- [40]
+						["max_value"] = 5219,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Shadowglen Keeper"] = 1,
+					["Forest Sister"] = 1,
+					["Vengeful Huntress"] = 1,
+				},
+				["data_fim"] = "14:41:39",
+				["data_inicio"] = "14:40:59",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					33012, -- [1]
+					22135, -- [2]
+					{
+						0, -- [1]
+						[0] = 2,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 23779.216,
+				["contra"] = "Nature's Guardian",
+				["instance_type"] = "none",
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1417,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007609,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Druid of the Branch"] = 6893,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5975.007609,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 6893.007609,
+							["damage_taken"] = 0.007609,
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3561,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Druid of the Branch"] = 3561,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3561,
+										["c_max"] = 3561,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 3561,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[234153] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 141,
+										["targets"] = {
+											["Druid of the Branch"] = 422,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 422,
+										["n_min"] = 140,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 422,
+										["c_max"] = 0,
+										["id"] = 234153,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[348] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1237,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Druid of the Branch"] = 1237,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1237,
+										["c_max"] = 1237,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 1237,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[157736] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 380,
+										["targets"] = {
+											["Druid of the Branch"] = 380,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 380,
+										["n_min"] = 380,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 380,
+										["c_max"] = 0,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 375,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Druid of the Branch"] = 375,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 375,
+										["c_max"] = 375,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 375,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 1230.23516134232,
+							["end_time"] = 1533245071,
+							["colocacao"] = 1,
+							["last_event"] = 1533245070,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533245065,
+							["serial"] = "Player-5-0B28F0EA",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.004886,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Druid of the Branch"] = 918,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.004886,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 918.004886,
+							["last_event"] = 1533245069,
+							["dps_started"] = false,
+							["total"] = 918.004886,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 918,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Druid of the Branch"] = 918,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 918,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533245071,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533245069,
+							["serial"] = "Pet-0-3017-1-30904-416-0502A38A1A",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1417,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007462,
+							["total_without_pet"] = 2110.007462,
+							["total"] = 2110.007462,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 0.007462,
+							["last_hps"] = 376.585304658276,
+							["targets"] = {
+								["Deminath"] = 2110,
+							},
+							["totalover_without_pet"] = 0.007462,
+							["healing_taken"] = 2110.007462,
+							["fight_component"] = true,
+							["end_time"] = 1533245071,
+							["last_event"] = 1533245068,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[234153] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 705,
+										["targets"] = {
+											["Deminath"] = 2110,
+										},
+										["n_min"] = 700,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 2110,
+										["c_max"] = 0,
+										["id"] = 234153,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 2110,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.007462,
+							["start_time"] = 1533245066,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1417,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1417,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157736] = {
+										["activedamt"] = -1,
+										["id"] = 157736,
+										["targets"] = {
+										},
+										["actived_at"] = 1533245070,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+									[234153] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 234153,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 98,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[6307] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 6307,
+										["uptime"] = 77,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 5,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[234153] = 1,
+								[17962] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533246045,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 2,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3017-1-30904-416-0502A38A1A",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1417,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Druid of the Branch",
+				["combat_counter"] = 2122,
+				["playing_solo"] = true,
+				["totals"] = {
+					6892.972318, -- [1]
+					2110, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 6893.007609,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 2110.007462,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 22791.194,
+				["combat_id"] = 1417,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1378.007609, -- [1]
+						140, -- [2]
+						4082, -- [3]
+						0, -- [4]
+						1293, -- [5]
+						["max_value"] = 4082,
+					},
+					["Raid Damage Done"] = {
+						1378, -- [1]
+						140, -- [2]
+						4082, -- [3]
+						0, -- [4]
+						375, -- [5]
+						["max_value"] = 4082,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Druid of the Branch"] = 1,
+				},
+				["data_fim"] = "14:24:31",
+				["data_inicio"] = "14:24:25",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					5975, -- [1]
+					2110, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 22785.591,
+				["contra"] = "Druid of the Branch",
+				["instance_type"] = "none",
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1416,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005725,
+							["damage_from"] = {
+								["Caranne Briarbow"] = true,
+								["Darnassian Archer"] = true,
+								["Lor'danel Sentinel"] = true,
+							},
+							["targets"] = {
+								["Caranne Briarbow"] = 55560,
+								["Lor'danel Sentinel"] = 38050,
+								["Darnassian Archer"] = 19864,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["last_event"] = 1533245041,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 94655.005725,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1533245043,
+							["damage_taken"] = 76138.005725,
+							["spec"] = 267,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["c_amt"] = 12,
+										["b_amt"] = 0,
+										["c_dmg"] = 8818,
+										["g_amt"] = 0,
+										["n_max"] = 405,
+										["targets"] = {
+											["Caranne Briarbow"] = 4783,
+											["Lor'danel Sentinel"] = 11213,
+											["Darnassian Archer"] = 4945,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12123,
+										["n_min"] = 159,
+										["g_dmg"] = 0,
+										["counter"] = 46,
+										["total"] = 20941,
+										["c_max"] = 790,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 682,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 34,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 1143,
+										["g_amt"] = 0,
+										["n_max"] = 188,
+										["targets"] = {
+											["Caranne Briarbow"] = 2836,
+											["Lor'danel Sentinel"] = 947,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2640,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 3783,
+										["c_max"] = 375,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 19,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[127802] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1421,
+										["g_amt"] = 0,
+										["n_max"] = 355,
+										["targets"] = {
+											["Caranne Briarbow"] = 710,
+											["Lor'danel Sentinel"] = 1066,
+											["Darnassian Archer"] = 355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 710,
+										["n_min"] = 355,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2131,
+										["c_max"] = 711,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 710,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[191380] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 269,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 2070,
+											["Darnassian Archer"] = 712,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2782,
+										["n_min"] = 201,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 2782,
+										["c_max"] = 0,
+										["id"] = 191380,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[116858] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 30806,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Caranne Briarbow"] = 20658,
+											["Lor'danel Sentinel"] = 5380,
+											["Darnassian Archer"] = 4768,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 30806,
+										["c_max"] = 5380,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 4768,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4039,
+										["g_amt"] = 0,
+										["n_max"] = 2001,
+										["targets"] = {
+											["Caranne Briarbow"] = 9702,
+											["Lor'danel Sentinel"] = 2001,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7664,
+										["n_min"] = 1818,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 11703,
+										["c_max"] = 4039,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 4039,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[234153] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 1405,
+										["g_amt"] = 0,
+										["n_max"] = 141,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 3371,
+											["Darnassian Archer"] = 1685,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3651,
+										["n_min"] = 140,
+										["g_dmg"] = 0,
+										["counter"] = 31,
+										["total"] = 5056,
+										["c_max"] = 281,
+										["id"] = 234153,
+										["r_dmg"] = 0,
+										["c_min"] = 281,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 26,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1925,
+										["g_amt"] = 0,
+										["n_max"] = 1062,
+										["targets"] = {
+											["Caranne Briarbow"] = 8777,
+											["Lor'danel Sentinel"] = 900,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7752,
+										["n_min"] = 896,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 9677,
+										["c_max"] = 1925,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 1925,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[348] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 4758,
+										["g_amt"] = 0,
+										["n_max"] = 656,
+										["targets"] = {
+											["Caranne Briarbow"] = 1209,
+											["Lor'danel Sentinel"] = 4217,
+											["Darnassian Archer"] = 2350,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3018,
+										["n_min"] = 556,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 7776,
+										["c_max"] = 1240,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 1118,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_dps"] = 1240.81754956205,
+							["classe"] = "WARLOCK",
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533244953,
+							["serial"] = "Player-5-0B28F0EA",
+							["total"] = 113474.005725,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.002409,
+							["damage_from"] = {
+								["Caranne Briarbow"] = true,
+							},
+							["targets"] = {
+								["Caranne Briarbow"] = 6885,
+								["Lor'danel Sentinel"] = 6885,
+								["Darnassian Archer"] = 5049,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 3323.002409,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 18819.002409,
+							["last_event"] = 1533245041,
+							["dps_started"] = false,
+							["total"] = 18819.002409,
+							["delay"] = 1533244981,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 9180,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Caranne Briarbow"] = 6885,
+											["Lor'danel Sentinel"] = 6885,
+											["Darnassian Archer"] = 5049,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9639,
+										["n_min"] = 459,
+										["g_dmg"] = 0,
+										["counter"] = 31,
+										["total"] = 18819,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 21,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533245043,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533244968,
+							["serial"] = "Pet-0-3017-1-30904-416-0502A38A1A",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1416,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 34.001794,
+							["total_without_pet"] = 63000.001794,
+							["total"] = 63000.001794,
+							["targets_absorbs"] = {
+								["Deminath"] = 32266,
+								["Lazgup <Deminath>"] = 3323,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 35589.001794,
+							["last_hps"] = 688.893525428911,
+							["targets"] = {
+								["Deminath"] = 59677,
+								["Lazgup <Deminath>"] = 3323,
+							},
+							["totalover_without_pet"] = 0.001794,
+							["healing_taken"] = 59677.001794,
+							["fight_component"] = true,
+							["end_time"] = 1533245043,
+							["last_event"] = 1533245041,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 28643,
+										["targets_overheal"] = {
+											["Deminath"] = 34,
+										},
+										["n_max"] = 1811,
+										["targets"] = {
+											["Deminath"] = 25320,
+											["Lazgup <Deminath>"] = 3323,
+										},
+										["n_min"] = 363,
+										["counter"] = 104,
+										["overheal"] = 34,
+										["total"] = 28643,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 25320,
+											["Lazgup <Deminath>"] = 3323,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 104,
+										["n_curado"] = 28643,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[234153] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1405,
+										["targets"] = {
+											["Deminath"] = 25280,
+										},
+										["n_min"] = 700,
+										["counter"] = 31,
+										["overheal"] = 0,
+										["total"] = 25280,
+										["c_max"] = 0,
+										["id"] = 234153,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 31,
+										["n_curado"] = 25280,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 711,
+										["targets"] = {
+											["Deminath"] = 2131,
+										},
+										["n_min"] = 355,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 2131,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["n_curado"] = 2131,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 6946,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 148,
+										["targets"] = {
+											["Deminath"] = 6946,
+										},
+										["n_min"] = 32,
+										["counter"] = 91,
+										["overheal"] = 0,
+										["total"] = 6946,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 6946,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 91,
+										["n_curado"] = 6946,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Deminath"] = 34,
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001794,
+							["start_time"] = 1533244951,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.003576,
+							["total_without_pet"] = 0.003576,
+							["total"] = 0.003576,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3017-1-30904-416-0502A38A1A",
+							["totalabsorb"] = 0.003576,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.003576,
+							["healing_taken"] = 3323.003576,
+							["fight_component"] = true,
+							["end_time"] = 1533245043,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.003576,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1533245043,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1416,
+					["_ActorTable"] = {
+						{
+							["received"] = 1.008438,
+							["resource"] = 0.008438,
+							["targets"] = {
+								["Deminath"] = 1,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 1.008438,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1533244964,
+							["alternatepower"] = 0.008438,
+							["spells"] = {
+								["_ActorTable"] = {
+									[215942] = {
+										["id"] = 215942,
+										["total"] = 1,
+										["targets"] = {
+											["Deminath"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1416,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[30283] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 30283,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 157736,
+										["uptime"] = 67,
+										["targets"] = {
+										},
+										["appliedamt"] = 7,
+									},
+									[191380] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 191380,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 28,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[234153] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 234153,
+										["uptime"] = 25,
+										["targets"] = {
+										},
+										["appliedamt"] = 8,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["cooldowns_defensive"] = 1.00808,
+							["buff_uptime"] = 306,
+							["last_cooldown"] = {
+								1533245016.74, -- [1]
+								104773, -- [2]
+							},
+							["cc_done_spells"] = {
+								["_ActorTable"] = {
+									[30283] = {
+										["id"] = 30283,
+										["targets"] = {
+											["Caranne Briarbow"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["classe"] = "WARLOCK",
+							["cooldowns_defensive_targets"] = {
+								["Deminath"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[6307] = {
+										["activedamt"] = 1,
+										["id"] = 6307,
+										["targets"] = {
+										},
+										["actived_at"] = 1533244952,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 92,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[104773] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 104773,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[232412] = {
+										["activedamt"] = 1,
+										["id"] = 232412,
+										["targets"] = {
+										},
+										["actived_at"] = 1533244951,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 92,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[266030] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 266030,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 55,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 69,
+										["targets"] = {
+										},
+										["appliedamt"] = 55,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 5,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 130,
+							["tipo"] = 4,
+							["cc_done"] = 1.008817,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 5,
+								[116858] = 6,
+								[348] = 9,
+								[29722] = 9,
+								[30283] = 1,
+								[119905] = 2,
+								[234153] = 10,
+								[104773] = 1,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["last_event"] = 1533245043,
+							["nome"] = "Deminath",
+							["debuff_uptime_targets"] = {
+							},
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[104773] = {
+										["id"] = 104773,
+										["targets"] = {
+											["Deminath"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["cc_done_targets"] = {
+								["Caranne Briarbow"] = 1,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spell_cast"] = {
+								[3110] = 31,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3017-1-30904-416-0502A38A1A",
+							["fight_component"] = true,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1416,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Caranne Briarbow",
+				["combat_counter"] = 2120,
+				["playing_solo"] = true,
+				["totals"] = {
+					113473.963573, -- [1]
+					62999.996177, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 121094.012976,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 65465.009151,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 22763.203,
+				["combat_id"] = 1416,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.005725, -- [1]
+						2553, -- [2]
+						0, -- [3]
+						375, -- [4]
+						1141, -- [5]
+						5244, -- [6]
+						1436, -- [7]
+						683, -- [8]
+						979, -- [9]
+						5341, -- [10]
+						896, -- [11]
+						646, -- [12]
+						899, -- [13]
+						5269, -- [14]
+						1694, -- [15]
+						207, -- [16]
+						5994, -- [17]
+						1925, -- [18]
+						2518, -- [19]
+						159, -- [20]
+						1259, -- [21]
+						187, -- [22]
+						1980, -- [23]
+						735, -- [24]
+						1128, -- [25]
+						3797, -- [26]
+						339, -- [27]
+						646, -- [28]
+						354, -- [29]
+						5341, -- [30]
+						1835, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						656, -- [38]
+						556, -- [39]
+						0, -- [40]
+						2028, -- [41]
+						2031, -- [42]
+						704, -- [43]
+						3360, -- [44]
+						2319, -- [45]
+						1464, -- [46]
+						2075, -- [47]
+						2195, -- [48]
+						1723, -- [49]
+						1256, -- [50]
+						1490, -- [51]
+						546, -- [52]
+						740, -- [53]
+						1290, -- [54]
+						726, -- [55]
+						3304, -- [56]
+						687, -- [57]
+						1515, -- [58]
+						1002, -- [59]
+						794, -- [60]
+						599, -- [61]
+						1249, -- [62]
+						600, -- [63]
+						141, -- [64]
+						1067, -- [65]
+						0, -- [66]
+						864, -- [67]
+						0, -- [68]
+						459, -- [69]
+						5380, -- [70]
+						0, -- [71]
+						281, -- [72]
+						600, -- [73]
+						140, -- [74]
+						459, -- [75]
+						1118, -- [76]
+						140, -- [77]
+						740, -- [78]
+						854, -- [79]
+						740, -- [80]
+						357, -- [81]
+						1391, -- [82]
+						239, -- [83]
+						5600, -- [84]
+						459, -- [85]
+						0, -- [86]
+						0, -- [87]
+						918, -- [88]
+						0, -- [89]
+						0, -- [90]
+						1058, -- [91]
+						["max_value"] = 5994,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						2553, -- [2]
+						0, -- [3]
+						375, -- [4]
+						682, -- [5]
+						5244, -- [6]
+						977, -- [7]
+						683, -- [8]
+						979, -- [9]
+						4423, -- [10]
+						896, -- [11]
+						187, -- [12]
+						899, -- [13]
+						5269, -- [14]
+						1235, -- [15]
+						207, -- [16]
+						5535, -- [17]
+						1925, -- [18]
+						2518, -- [19]
+						159, -- [20]
+						800, -- [21]
+						187, -- [22]
+						1062, -- [23]
+						735, -- [24]
+						1128, -- [25]
+						2879, -- [26]
+						339, -- [27]
+						187, -- [28]
+						354, -- [29]
+						5341, -- [30]
+						917, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						656, -- [38]
+						556, -- [39]
+						0, -- [40]
+						2028, -- [41]
+						1572, -- [42]
+						704, -- [43]
+						2901, -- [44]
+						2319, -- [45]
+						546, -- [46]
+						2075, -- [47]
+						1736, -- [48]
+						1723, -- [49]
+						1256, -- [50]
+						1031, -- [51]
+						546, -- [52]
+						281, -- [53]
+						1290, -- [54]
+						726, -- [55]
+						2386, -- [56]
+						687, -- [57]
+						597, -- [58]
+						1002, -- [59]
+						794, -- [60]
+						140, -- [61]
+						1249, -- [62]
+						141, -- [63]
+						141, -- [64]
+						1067, -- [65]
+						0, -- [66]
+						405, -- [67]
+						0, -- [68]
+						0, -- [69]
+						5380, -- [70]
+						0, -- [71]
+						281, -- [72]
+						141, -- [73]
+						140, -- [74]
+						0, -- [75]
+						1118, -- [76]
+						140, -- [77]
+						281, -- [78]
+						854, -- [79]
+						281, -- [80]
+						357, -- [81]
+						473, -- [82]
+						239, -- [83]
+						5600, -- [84]
+						0, -- [85]
+						0, -- [86]
+						0, -- [87]
+						0, -- [88]
+						0, -- [89]
+						0, -- [90]
+						140, -- [91]
+						["max_value"] = 5600,
+					},
+				},
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Lor'danel Sentinel"] = 4,
+					["Caranne Briarbow"] = 1,
+					["Shattered Skulker"] = 1,
+					["Darnassian Archer"] = 2,
+				},
+				["data_fim"] = "14:24:03",
+				["data_inicio"] = "14:22:31",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					94655, -- [1]
+					63000, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
+					}, -- [4]
+				},
+				["start_time"] = 22671.752,
+				["contra"] = "Caranne Briarbow",
+				["instance_type"] = "none",
+			}, -- [6]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1415,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00116,
+							["damage_from"] = {
+								["Lor'danel Sentinel"] = true,
+							},
+							["targets"] = {
+								["Lor'danel Sentinel"] = 27619,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 23947.00116,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 27619.00116,
+							["damage_taken"] = 9841.00116,
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1993,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 3724,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3724,
+										["n_min"] = 1731,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3724,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[116858] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 8769,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 8769,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8769,
+										["c_max"] = 5339,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 3430,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 636,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 1203,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1203,
+										["n_min"] = 567,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1203,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[157736] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2259,
+										["g_amt"] = 0,
+										["n_max"] = 408,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 4125,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1866,
+										["n_min"] = 343,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 4125,
+										["c_max"] = 809,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 684,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 355,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 355,
+										["n_min"] = 355,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 355,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[191380] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 265,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 731,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 731,
+										["n_min"] = 228,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 731,
+										["c_max"] = 0,
+										["id"] = 191380,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[265931] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 945,
+										["g_amt"] = 0,
+										["n_max"] = 188,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 1133,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 188,
+										["n_min"] = 188,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1133,
+										["c_max"] = 375,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 196,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1892,
+										["g_amt"] = 0,
+										["n_max"] = 915,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 3907,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2015,
+										["n_min"] = 546,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3907,
+										["c_max"] = 1892,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 1892,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 2104.78594421592,
+							["end_time"] = 1533244921,
+							["colocacao"] = 1,
+							["last_event"] = 1533244921,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533244908,
+							["serial"] = "Player-5-0B28F0EA",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001112,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Lor'danel Sentinel"] = 3672,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.001112,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3672.001112,
+							["last_event"] = 1533244921,
+							["dps_started"] = false,
+							["total"] = 3672.001112,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2754,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 3672,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 918,
+										["n_min"] = 459,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 3672,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533244921,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533244911,
+							["serial"] = "Pet-0-3017-1-30904-416-0402A38A1A",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1415,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 3.006028,
+							["total_without_pet"] = 5092.006028,
+							["total"] = 5092.006028,
+							["targets_absorbs"] = {
+								["Deminath"] = 4737,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 4737.006028,
+							["last_hps"] = 388.051061423582,
+							["targets"] = {
+								["Deminath"] = 5092,
+							},
+							["totalover_without_pet"] = 0.006028,
+							["healing_taken"] = 5092.006028,
+							["fight_component"] = true,
+							["end_time"] = 1533244921,
+							["last_event"] = 1533244919,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 3913,
+										["targets_overheal"] = {
+											["Deminath"] = 3,
+										},
+										["n_max"] = 996,
+										["targets"] = {
+											["Deminath"] = 3913,
+										},
+										["n_min"] = 314,
+										["counter"] = 11,
+										["overheal"] = 3,
+										["total"] = 3913,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 3913,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 11,
+										["n_curado"] = 3913,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 355,
+										["targets"] = {
+											["Deminath"] = 355,
+										},
+										["n_min"] = 355,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 355,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 355,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 824,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 121,
+										["targets"] = {
+											["Deminath"] = 824,
+										},
+										["n_min"] = 64,
+										["counter"] = 9,
+										["overheal"] = 0,
+										["total"] = 824,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 824,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 9,
+										["n_curado"] = 824,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Deminath"] = 3,
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006028,
+							["start_time"] = 1533244910,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1415,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1415,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[191380] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 191380,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[80240] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 80240,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 48,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[266030] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 266030,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 8,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 8,
+									},
+									[6307] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 6307,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 33,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 2,
+								[116858] = 1,
+								[348] = 2,
+								[80240] = 1,
+								[29722] = 2,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533244939,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 5,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3017-1-30904-416-0402A38A1A",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1415,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Lor'danel Sentinel",
+				["combat_counter"] = 2119,
+				["playing_solo"] = true,
+				["totals"] = {
+					27618.956709, -- [1]
+					5091.991584, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 27619.00116,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 5092.006028,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 22641.691,
+				["combat_id"] = 1415,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						567.00116, -- [1]
+						2629, -- [2]
+						367, -- [3]
+						833, -- [4]
+						402, -- [5]
+						1636, -- [6]
+						9470, -- [7]
+						384, -- [8]
+						3313, -- [9]
+						2508, -- [10]
+						2177, -- [11]
+						2415, -- [12]
+						918, -- [13]
+						["max_value"] = 9470,
+					},
+					["Raid Damage Done"] = {
+						567, -- [1]
+						2629, -- [2]
+						367, -- [3]
+						374, -- [4]
+						402, -- [5]
+						718, -- [6]
+						9470, -- [7]
+						384, -- [8]
+						2854, -- [9]
+						2508, -- [10]
+						1259, -- [11]
+						2415, -- [12]
+						0, -- [13]
+						["max_value"] = 9470,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Lor'danel Sentinel"] = 2,
+				},
+				["data_fim"] = "14:22:01",
+				["data_inicio"] = "14:21:48",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					23947, -- [1]
+					5092, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 22628.569,
+				["contra"] = "Lor'danel Sentinel",
+				["instance_type"] = "none",
+			}, -- [7]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1414,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006336,
+							["damage_from"] = {
+								["Lor'danel Sentinel"] = true,
+							},
+							["targets"] = {
+								["Lor'danel Sentinel"] = 50984,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["last_event"] = 1533244898,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 47312.006336,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1533244899,
+							["damage_taken"] = 31922.006336,
+							["spec"] = 267,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 2898,
+										["g_amt"] = 0,
+										["n_max"] = 401,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 8097,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5199,
+										["n_min"] = 338,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 8097,
+										["c_max"] = 776,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 680,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 14,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 374,
+										["g_amt"] = 0,
+										["n_max"] = 188,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 562,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 188,
+										["n_min"] = 188,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 562,
+										["c_max"] = 374,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 374,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 355,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 710,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 710,
+										["n_min"] = 355,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 710,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[152108] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 5742,
+										["g_amt"] = 0,
+										["n_max"] = 3264,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 15055,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9313,
+										["n_min"] = 2891,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 15055,
+										["c_max"] = 5742,
+										["id"] = 152108,
+										["r_dmg"] = 0,
+										["c_min"] = 5742,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 36,
+									},
+									[191380] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 244,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 675,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 675,
+										["n_min"] = 211,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 675,
+										["c_max"] = 0,
+										["id"] = 191380,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[42223] = {
+										["c_amt"] = 17,
+										["b_amt"] = 0,
+										["c_dmg"] = 7757,
+										["g_amt"] = 0,
+										["n_max"] = 244,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 15456,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7699,
+										["n_min"] = 203,
+										["g_dmg"] = 0,
+										["counter"] = 52,
+										["total"] = 15456,
+										["c_max"] = 486,
+										["id"] = 42223,
+										["r_dmg"] = 0,
+										["c_min"] = 416,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 35,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[234153] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 1686,
+										["g_amt"] = 0,
+										["n_max"] = 141,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 2247,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 561,
+										["n_min"] = 140,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 2247,
+										["c_max"] = 281,
+										["id"] = 234153,
+										["r_dmg"] = 0,
+										["c_min"] = 281,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2045,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 3875,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3875,
+										["n_min"] = 1830,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3875,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 635,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 635,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 635,
+										["n_min"] = 635,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 635,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_dps"] = 1894.96399687799,
+							["classe"] = "WARLOCK",
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533244877,
+							["serial"] = "Player-5-0B28F0EA",
+							["total"] = 50984.006336,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001429,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Lor'danel Sentinel"] = 3672,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.001429,
+							["classe"] = "PET",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3672.001429,
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1533244899,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 918,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 3672,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2754,
+										["n_min"] = 459,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 3672,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1533244898,
+							["on_hold"] = false,
+							["start_time"] = 1533244880,
+							["serial"] = "Pet-0-3017-1-30904-416-0402A38A1A",
+							["total"] = 3672.001429,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1414,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 17.005872,
+							["total_without_pet"] = 22773.005872,
+							["total"] = 22773.005872,
+							["targets_absorbs"] = {
+								["Deminath"] = 10991,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 10991.005872,
+							["last_hps"] = 836.996687444909,
+							["targets"] = {
+								["Deminath"] = 22773,
+							},
+							["totalover_without_pet"] = 0.005872,
+							["healing_taken"] = 22773.005872,
+							["fight_component"] = true,
+							["end_time"] = 1533244899,
+							["last_event"] = 1533244898,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 8171,
+										["targets_overheal"] = {
+											["Deminath"] = 17,
+										},
+										["n_max"] = 1051,
+										["targets"] = {
+											["Deminath"] = 8171,
+										},
+										["n_min"] = 0,
+										["counter"] = 39,
+										["overheal"] = 17,
+										["total"] = 8171,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 8171,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 39,
+										["n_curado"] = 8171,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[234153] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1405,
+										["targets"] = {
+											["Deminath"] = 11235,
+										},
+										["n_min"] = 700,
+										["counter"] = 10,
+										["overheal"] = 0,
+										["total"] = 11235,
+										["c_max"] = 0,
+										["id"] = 234153,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 10,
+										["n_curado"] = 11235,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 355,
+										["targets"] = {
+											["Deminath"] = 547,
+										},
+										["n_min"] = 192,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 547,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 547,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2820,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 198,
+										["targets"] = {
+											["Deminath"] = 2820,
+										},
+										["n_min"] = 60,
+										["counter"] = 28,
+										["overheal"] = 0,
+										["total"] = 2820,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 2820,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 28,
+										["n_curado"] = 2820,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Deminath"] = 17,
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.005872,
+							["start_time"] = 1533244876,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1414,
+					["_ActorTable"] = {
+						{
+							["received"] = 1.003316,
+							["resource"] = 0.003316,
+							["targets"] = {
+								["Deminath"] = 1,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 1.003316,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1533244888,
+							["alternatepower"] = 0.003316,
+							["spells"] = {
+								["_ActorTable"] = {
+									[215942] = {
+										["id"] = 215942,
+										["total"] = 1,
+										["targets"] = {
+											["Deminath"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1414,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[191380] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 191380,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 265931,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 157736,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 4,
+									},
+									[234153] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 234153,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 108,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 27,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 117828,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[232412] = {
+										["activedamt"] = 1,
+										["id"] = 232412,
+										["targets"] = {
+										},
+										["actived_at"] = 1533244872,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 27,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 19,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 27,
+										["targets"] = {
+										},
+										["appliedamt"] = 19,
+									},
+									[266030] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 266030,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 36,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 2,
+								[234153] = 3,
+								[348] = 1,
+								[152108] = 1,
+								[5740] = 2,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533244899,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 8,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3017-1-30904-416-0402A38A1A",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1414,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Lor'danel Sentinel",
+				["combat_counter"] = 2118,
+				["playing_solo"] = true,
+				["totals"] = {
+					50983.982796, -- [1]
+					22772.992035, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 50984.006336,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 22773.005872,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 22620.053,
+				["combat_id"] = 1414,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.006336, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						635, -- [6]
+						0, -- [7]
+						0, -- [8]
+						848, -- [9]
+						0, -- [10]
+						1904, -- [11]
+						2255, -- [12]
+						17955, -- [13]
+						4556, -- [14]
+						2504, -- [15]
+						5310, -- [16]
+						459, -- [17]
+						4357, -- [18]
+						1435, -- [19]
+						1362, -- [20]
+						696, -- [21]
+						2420, -- [22]
+						1070, -- [23]
+						599, -- [24]
+						989, -- [25]
+						281, -- [26]
+						1349, -- [27]
+						["max_value"] = 17955,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						635, -- [6]
+						0, -- [7]
+						0, -- [8]
+						389, -- [9]
+						0, -- [10]
+						1904, -- [11]
+						1796, -- [12]
+						17955, -- [13]
+						4097, -- [14]
+						2504, -- [15]
+						5310, -- [16]
+						0, -- [17]
+						4357, -- [18]
+						1435, -- [19]
+						1362, -- [20]
+						696, -- [21]
+						1502, -- [22]
+						1070, -- [23]
+						140, -- [24]
+						989, -- [25]
+						281, -- [26]
+						890, -- [27]
+						["max_value"] = 17955,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Lor'danel Sentinel"] = 4,
+				},
+				["data_fim"] = "14:21:40",
+				["data_inicio"] = "14:21:12",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					47312, -- [1]
+					22773, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 22592.206,
+				["contra"] = "Lor'danel Sentinel",
+				["instance_type"] = "none",
+			}, -- [8]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1413,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001458,
+							["damage_from"] = {
+								["Ariel Stagguard"] = true,
+							},
+							["targets"] = {
+								["Ariel Stagguard"] = 56123,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+								"Infernal <Deminath>", -- [2]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 42010.001458,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 56123.001458,
+							["damage_taken"] = 7581.001458,
+							["spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 1564,
+										["g_amt"] = 0,
+										["n_max"] = 402,
+										["targets"] = {
+											["Ariel Stagguard"] = 3452,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1888,
+										["n_min"] = 338,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 3452,
+										["c_max"] = 820,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 31,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[22703] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 853,
+										["targets"] = {
+											["Ariel Stagguard"] = 853,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 853,
+										["n_min"] = 853,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 853,
+										["c_max"] = 0,
+										["id"] = 22703,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 1692,
+										["g_amt"] = 0,
+										["n_max"] = 187,
+										["targets"] = {
+											["Ariel Stagguard"] = 2164,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 472,
+										["n_min"] = 98,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 2164,
+										["c_max"] = 374,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 196,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[127802] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 710,
+										["g_amt"] = 0,
+										["n_max"] = 355,
+										["targets"] = {
+											["Ariel Stagguard"] = 1065,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 355,
+										["n_min"] = 355,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1065,
+										["c_max"] = 710,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 710,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[191380] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 268,
+										["targets"] = {
+											["Ariel Stagguard"] = 1262,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1262,
+										["n_min"] = 246,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 1262,
+										["c_max"] = 0,
+										["id"] = 191380,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[116858] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 21259,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ariel Stagguard"] = 21259,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 21259,
+										["c_max"] = 5699,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 4931,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[348] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1183,
+										["g_amt"] = 0,
+										["n_max"] = 556,
+										["targets"] = {
+											["Ariel Stagguard"] = 1739,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 556,
+										["n_min"] = 556,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1739,
+										["c_max"] = 1183,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 1183,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3797,
+										["g_amt"] = 0,
+										["n_max"] = 1817,
+										["targets"] = {
+											["Ariel Stagguard"] = 7409,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3612,
+										["n_min"] = 1795,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 7409,
+										["c_max"] = 3797,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 3797,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 976,
+										["targets"] = {
+											["Ariel Stagguard"] = 2807,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2807,
+										["n_min"] = 875,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2807,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 2654.19727869467,
+							["end_time"] = 1533244858,
+							["colocacao"] = 1,
+							["last_event"] = 1533244857,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533244837,
+							["serial"] = "Player-5-0B28F0EA",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.008537,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Ariel Stagguard"] = 9525,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.008537,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9525.008537,
+							["last_event"] = 1533244857,
+							["dps_started"] = false,
+							["total"] = 9525.008537,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Infernal <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1072,
+										["g_amt"] = 0,
+										["n_max"] = 268,
+										["targets"] = {
+											["Ariel Stagguard"] = 3215,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2143,
+										["n_min"] = 267,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 3215,
+										["c_max"] = 536,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 536,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[20153] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 3442,
+										["g_amt"] = 0,
+										["n_max"] = 574,
+										["targets"] = {
+											["Ariel Stagguard"] = 6310,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2868,
+										["n_min"] = 573,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 6310,
+										["c_max"] = 1148,
+										["id"] = 20153,
+										["r_dmg"] = 0,
+										["c_min"] = 1147,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533244858,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533244841,
+							["serial"] = "Creature-0-3017-1-30904-89-00006375AB",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.007117,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Ariel Stagguard"] = 4588,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.007117,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4588.007117,
+							["last_event"] = 1533244857,
+							["dps_started"] = false,
+							["total"] = 4588.007117,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1835,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Ariel Stagguard"] = 4588,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2753,
+										["n_min"] = 458,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 4588,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 917,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533244858,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533244840,
+							["serial"] = "Pet-0-3017-1-30904-416-0302A38A1A",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1413,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007828,
+							["total_without_pet"] = 8561.007828,
+							["total"] = 8561.007828,
+							["targets_absorbs"] = {
+								["Deminath"] = 7496,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 7496.007828,
+							["last_hps"] = 452.149985634369,
+							["targets"] = {
+								["Deminath"] = 8561,
+							},
+							["totalover_without_pet"] = 0.007828,
+							["healing_taken"] = 8561.007828,
+							["fight_component"] = true,
+							["end_time"] = 1533244858,
+							["last_event"] = 1533244855,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 6758,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1236,
+										["targets"] = {
+											["Deminath"] = 6758,
+										},
+										["n_min"] = 76,
+										["counter"] = 20,
+										["overheal"] = 0,
+										["total"] = 6758,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 6758,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 20,
+										["n_curado"] = 6758,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 710,
+										["targets"] = {
+											["Deminath"] = 1065,
+										},
+										["n_min"] = 355,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 1065,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 1065,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 738,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 123,
+										["targets"] = {
+											["Deminath"] = 738,
+										},
+										["n_min"] = 7,
+										["counter"] = 20,
+										["overheal"] = 0,
+										["total"] = 738,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 738,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 20,
+										["n_curado"] = 738,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.007828,
+							["start_time"] = 1533244837,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1413,
+					["_ActorTable"] = {
+						{
+							["received"] = 1.007624,
+							["resource"] = 0.007624,
+							["targets"] = {
+								["Deminath"] = 1,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 1.007624,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1533244843,
+							["alternatepower"] = 0.007624,
+							["spells"] = {
+								["_ActorTable"] = {
+									[215942] = {
+										["id"] = 215942,
+										["total"] = 1,
+										["targets"] = {
+											["Deminath"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1413,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[191380] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 191380,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 20,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[22703] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 22703,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 80,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[104773] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 104773,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[6307] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 6307,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 37,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 3,
+								[116858] = 4,
+								[348] = 2,
+								[29722] = 4,
+								[1122] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533244866,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+								"Infernal <Deminath>", -- [2]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 8,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3017-1-30904-416-0302A38A1A",
+							["tipo"] = 4,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Deminath",
+							["nome"] = "Infernal <Deminath>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[19483] = 1,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3017-1-30904-89-00006375AB",
+							["tipo"] = 4,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1413,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Ariel Stagguard",
+				["combat_counter"] = 2117,
+				["playing_solo"] = true,
+				["totals"] = {
+					56122.98713, -- [1]
+					8561, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+					["Deminath"] = {
+						{
+							true, -- [1]
+							80009, -- [2]
+							85, -- [3]
+							1533244858.544, -- [4]
+							25010, -- [5]
+							"Ariel Stagguard", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 56123.001458,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 8561.007828,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 22578.421,
+				["combat_id"] = 1413,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1538.001458, -- [1]
+						268, -- [2]
+						2542, -- [3]
+						2648, -- [4]
+						268, -- [5]
+						1199, -- [6]
+						268, -- [7]
+						6680, -- [8]
+						6743, -- [9]
+						1343, -- [10]
+						5875, -- [11]
+						842, -- [12]
+						2439, -- [13]
+						5822, -- [14]
+						948, -- [15]
+						6893, -- [16]
+						1512, -- [17]
+						1435, -- [18]
+						2516, -- [19]
+						820, -- [20]
+						3524, -- [21]
+						["max_value"] = 6893,
+					},
+					["Raid Damage Done"] = {
+						1538, -- [1]
+						268, -- [2]
+						2083, -- [3]
+						2648, -- [4]
+						0, -- [5]
+						740, -- [6]
+						0, -- [7]
+						5649, -- [8]
+						6475, -- [9]
+						196, -- [10]
+						5148, -- [11]
+						0, -- [12]
+						374, -- [13]
+						5554, -- [14]
+						374, -- [15]
+						6166, -- [16]
+						98, -- [17]
+						976, -- [18]
+						1407, -- [19]
+						246, -- [20]
+						2070, -- [21]
+						["max_value"] = 6475,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Ariel Stagguard"] = 1,
+				},
+				["data_fim"] = "14:20:58",
+				["data_inicio"] = "14:20:37",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					42010, -- [1]
+					8561, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 22557.276,
+				["contra"] = "Ariel Stagguard",
+				["instance_type"] = "none",
+			}, -- [9]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1412,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002093,
+							["damage_from"] = {
+								["Lor'danel Sentinel"] = true,
+							},
+							["targets"] = {
+								["Lor'danel Sentinel"] = 27648,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24435.002093,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 27648.002093,
+							["damage_taken"] = 14831.002093,
+							["spells"] = {
+								["_ActorTable"] = {
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 356,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 356,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 356,
+										["n_min"] = 356,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 356,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[116858] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 8604,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 8604,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8604,
+										["c_max"] = 5446,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 3158,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[348] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1302,
+										["g_amt"] = 0,
+										["n_max"] = 616,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 1918,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 616,
+										["n_min"] = 616,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1918,
+										["c_max"] = 1302,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 1302,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[157736] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1570,
+										["g_amt"] = 0,
+										["n_max"] = 401,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 4252,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2682,
+										["n_min"] = 359,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 4252,
+										["c_max"] = 818,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 752,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1886,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 1886,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1886,
+										["n_min"] = 1886,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1886,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[191380] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 258,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 1447,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1447,
+										["n_min"] = 204,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1447,
+										["c_max"] = 0,
+										["id"] = 191380,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 187,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 659,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 659,
+										["n_min"] = 98,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 659,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 2437,
+										["g_amt"] = 0,
+										["n_max"] = 1049,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 5313,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2876,
+										["n_min"] = 882,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 5313,
+										["c_max"] = 1243,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 1194,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 1631.3430548147,
+							["end_time"] = 1533244825,
+							["colocacao"] = 1,
+							["last_event"] = 1533244825,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533244811,
+							["serial"] = "Player-5-0B28F0EA",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.006559,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Lor'danel Sentinel"] = 3213,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.006559,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3213.006559,
+							["last_event"] = 1533244825,
+							["dps_started"] = false,
+							["total"] = 3213.006559,
+							["delay"] = 0,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 918,
+										["g_amt"] = 0,
+										["n_max"] = 459,
+										["targets"] = {
+											["Lor'danel Sentinel"] = 3213,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2295,
+										["n_min"] = 459,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 3213,
+										["c_max"] = 918,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 918,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1533244825,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533244813,
+							["serial"] = "Pet-0-3017-1-30904-416-0202A38A1A",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1412,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 360.002813,
+							["total_without_pet"] = 8493.002813,
+							["total"] = 8493.002813,
+							["targets_absorbs"] = {
+								["Deminath"] = 8493,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 8493.002813,
+							["last_hps"] = 501.121242211461,
+							["targets"] = {
+								["Deminath"] = 8493,
+							},
+							["totalover_without_pet"] = 0.002813,
+							["healing_taken"] = 8493.002813,
+							["fight_component"] = true,
+							["end_time"] = 1533244825,
+							["last_event"] = 1533244825,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 7152,
+										["targets_overheal"] = {
+											["Deminath"] = 4,
+										},
+										["n_max"] = 980,
+										["targets"] = {
+											["Deminath"] = 7152,
+										},
+										["n_min"] = 359,
+										["counter"] = 17,
+										["overheal"] = 4,
+										["total"] = 7152,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 7152,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 17,
+										["n_curado"] = 7152,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deminath"] = 356,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Deminath"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 356,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 0,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1341,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 126,
+										["targets"] = {
+											["Deminath"] = 1341,
+										},
+										["n_min"] = 68,
+										["counter"] = 14,
+										["overheal"] = 0,
+										["total"] = 1341,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 1341,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 14,
+										["n_curado"] = 1341,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Deminath"] = 360,
+							},
+							["spec"] = 267,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002813,
+							["start_time"] = 1533244811,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1412,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1412,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[191380] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 191380,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[80240] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 80240,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 76,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 17,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[232412] = {
+										["activedamt"] = 1,
+										["id"] = 232412,
+										["targets"] = {
+										},
+										["actived_at"] = 1533244808,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[227723] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227723,
+										["uptime"] = 17,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 10,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 10,
+									},
+									[6307] = {
+										["activedamt"] = 2,
+										["id"] = 6307,
+										["targets"] = {
+										},
+										["actived_at"] = 1533244835,
+										["uptime"] = 24,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 30,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 1,
+								[116858] = 1,
+								[348] = 2,
+								[80240] = 1,
+								[29722] = 3,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533244835,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 6,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3017-1-30904-416-0202A38A1A",
+							["tipo"] = 4,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1412,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Lor'danel Sentinel",
+				["combat_counter"] = 2116,
+				["playing_solo"] = true,
+				["totals"] = {
+					27647.992936, -- [1]
+					8493, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Deminath"] = 27648.002093,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 8493.002813,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 22546.091,
+				["combat_id"] = 1412,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.002093, -- [1]
+						0, -- [2]
+						616, -- [3]
+						3544, -- [4]
+						818, -- [5]
+						1005, -- [6]
+						714, -- [7]
+						1103, -- [8]
+						10331, -- [9]
+						3100, -- [10]
+						383, -- [11]
+						2702, -- [12]
+						381, -- [13]
+						858, -- [14]
+						0, -- [15]
+						882, -- [16]
+						["max_value"] = 10331,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						616, -- [3]
+						3544, -- [4]
+						359, -- [5]
+						1005, -- [6]
+						255, -- [7]
+						1103, -- [8]
+						9413, -- [9]
+						3100, -- [10]
+						383, -- [11]
+						2243, -- [12]
+						381, -- [13]
+						399, -- [14]
+						0, -- [15]
+						882, -- [16]
+						["max_value"] = 9413,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Lor'danel Sentinel"] = 2,
+				},
+				["data_fim"] = "14:20:26",
+				["data_inicio"] = "14:20:09",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					24435, -- [1]
+					8493, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 22529.143,
+				["contra"] = "Lor'danel Sentinel",
+				["instance_type"] = "none",
+			}, -- [10]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1411,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006367,
+							["damage_from"] = {
+								["Unforgiving Sentinel"] = true,
+							},
+							["targets"] = {
+								["Unforgiving Sentinel"] = 9896,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9896.006367,
+							["total"] = 9896.006367,
+							["dps_started"] = false,
+							["end_time"] = 1533233617,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1533233616,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 1195.02552433269,
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4091,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Unforgiving Sentinel"] = 4091,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4091,
+										["c_max"] = 4091,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 4091,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[348] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1234,
+										["g_amt"] = 0,
+										["n_max"] = 611,
+										["targets"] = {
+											["Unforgiving Sentinel"] = 1845,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 611,
+										["n_min"] = 611,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1845,
+										["c_max"] = 1234,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 1234,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[157736] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 419,
+										["targets"] = {
+											["Unforgiving Sentinel"] = 790,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 790,
+										["n_min"] = 371,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 790,
+										["c_max"] = 0,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 187,
+										["targets"] = {
+											["Unforgiving Sentinel"] = 187,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 187,
+										["n_min"] = 187,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 187,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2007,
+										["g_amt"] = 0,
+										["n_max"] = 976,
+										["targets"] = {
+											["Unforgiving Sentinel"] = 2983,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 976,
+										["n_min"] = 976,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2983,
+										["c_max"] = 2007,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 2007,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1740.006367,
+							["start_time"] = 1533233607,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1411,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.002252,
+							["total_without_pet"] = 1740.002252,
+							["total"] = 1740.002252,
+							["targets_absorbs"] = {
+								["Deminath"] = 1740,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 1740.002252,
+							["last_hps"] = 210.119822726702,
+							["targets"] = {
+								["Deminath"] = 1740,
+							},
+							["totalover_without_pet"] = 0.002252,
+							["healing_taken"] = 1740.002252,
+							["fight_component"] = true,
+							["end_time"] = 1533233617,
+							["classe"] = "WARLOCK",
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 168,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 105,
+										["targets"] = {
+											["Deminath"] = 168,
+										},
+										["n_min"] = 63,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 168,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 168,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 168,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1572,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 888,
+										["targets"] = {
+											["Deminath"] = 1572,
+										},
+										["n_min"] = 684,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 1572,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 1572,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1572,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1533233616,
+							["start_time"] = 1533233613,
+							["totaldenied"] = 0.002252,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1411,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1411,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["activedamt"] = -1,
+										["id"] = 157736,
+										["targets"] = {
+										},
+										["actived_at"] = 1533233616,
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[265931] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 2,
+										["id"] = 265931,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 245,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[117828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 117828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[266030] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 266030,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 227723,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 108366,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6307] = {
+										["appliedamt"] = 3,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 6307,
+										["uptime"] = 208,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[348] = 1,
+								[17962] = 1,
+								[29722] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533244796,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3878-1-29281-416-2502A38A1A",
+							["spell_cast"] = {
+								[3110] = 2,
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1411,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Unforgiving Sentinel",
+				["combat_counter"] = 2114,
+				["playing_solo"] = true,
+				["totals"] = {
+					9895.981094, -- [1]
+					1740, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 1740.002252,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Deminath"] = 9896.006367,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11337.207,
+				["combat_id"] = 1411,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["frags"] = {
+					["Unforgiving Sentinel"] = 2,
+				},
+				["data_fim"] = "11:13:37",
+				["contra"] = "Unforgiving Sentinel",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					9896, -- [1]
+					1740, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11328.926,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						611.006367, -- [1]
+						0, -- [2]
+						5744, -- [3]
+						0, -- [4]
+						187, -- [5]
+						371, -- [6]
+						2007, -- [7]
+						976, -- [8]
+						["max_value"] = 5744,
+					},
+					["Raid Damage Done"] = {
+						611, -- [1]
+						0, -- [2]
+						5744, -- [3]
+						0, -- [4]
+						187, -- [5]
+						371, -- [6]
+						2007, -- [7]
+						976, -- [8]
+						["max_value"] = 5744,
+					},
+				},
+				["data_inicio"] = "11:13:28",
+			}, -- [11]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1410,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002268,
+							["damage_from"] = {
+								["Coastal Defender"] = true,
+							},
+							["targets"] = {
+								["Coastal Defender"] = 17338,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 15965.002268,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["total"] = 17338.002268,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1533233585,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 354,
+										["targets"] = {
+											["Coastal Defender"] = 354,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 354,
+										["n_min"] = 354,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 354,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[116858] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 8398,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Coastal Defender"] = 8398,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8398,
+										["c_max"] = 5097,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 3301,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 611,
+										["targets"] = {
+											["Coastal Defender"] = 1210,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1210,
+										["n_min"] = 599,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1210,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[157736] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 3164,
+										["g_amt"] = 0,
+										["n_max"] = 351,
+										["targets"] = {
+											["Coastal Defender"] = 3515,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 351,
+										["n_min"] = 351,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 3515,
+										["c_max"] = 830,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 750,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 187,
+										["targets"] = {
+											["Coastal Defender"] = 560,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 560,
+										["n_min"] = 186,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 560,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1928,
+										["targets"] = {
+											["Coastal Defender"] = 1928,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1928,
+										["n_min"] = 1928,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1928,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533233585,
+							["last_dps"] = 1804.35032448739,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533233576,
+							["delay"] = 0,
+							["damage_taken"] = 2990.002268,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.004177,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Coastal Defender"] = 1373,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1373.004177,
+							["classe"] = "PET",
+							["dps_started"] = false,
+							["total"] = 1373.004177,
+							["serial"] = "Pet-0-3878-1-29281-416-2302A38A1A",
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 458,
+										["targets"] = {
+											["Coastal Defender"] = 1373,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1373,
+										["n_min"] = 457,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1373,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1533233585,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1533233582,
+							["damage_taken"] = 0.004177,
+							["start_time"] = 1533233579,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1410,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Deminath"] = 354,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 354.007321,
+							["total_without_pet"] = 2381.007321,
+							["total"] = 2381.007321,
+							["targets_absorbs"] = {
+								["Deminath"] = 2381,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 2381.007321,
+							["last_hps"] = 247.789293474858,
+							["targets"] = {
+								["Deminath"] = 2381,
+							},
+							["totalover_without_pet"] = 0.007321,
+							["healing_taken"] = 2381.007321,
+							["fight_component"] = true,
+							["end_time"] = 1533233585,
+							["classe"] = "WARLOCK",
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 254,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 90,
+										["targets"] = {
+											["Deminath"] = 254,
+										},
+										["n_min"] = 7,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 254,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 254,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 254,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deminath"] = 354,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Deminath"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 354,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2127,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 942,
+										["targets"] = {
+											["Deminath"] = 2127,
+										},
+										["n_min"] = 81,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 2127,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 2127,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2127,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1533233584,
+							["start_time"] = 1533233578,
+							["totaldenied"] = 0.007321,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1410,
+					["_ActorTable"] = {
+						{
+							["received"] = 2.001207,
+							["resource"] = 0.001207,
+							["targets"] = {
+								["Deminath"] = 2,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 2.001207,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["tipo"] = 3,
+							["alternatepower"] = 0.001207,
+							["spells"] = {
+								["_ActorTable"] = {
+									[215942] = {
+										["id"] = 215942,
+										["total"] = 2,
+										["targets"] = {
+											["Deminath"] = 2,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533233584,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1410,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[265931] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 265931,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[157736] = {
+										["activedamt"] = -1,
+										["id"] = 157736,
+										["targets"] = {
+										},
+										["actived_at"] = 1533233585,
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[80240] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = 80240,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 50,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[117828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 117828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[266030] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 266030,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 227723,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 108366,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6307] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 6307,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 13,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 1,
+								[348] = 1,
+								[80240] = 1,
+								[116858] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533233602,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3878-1-29281-416-2302A38A1A",
+							["spell_cast"] = {
+								[3110] = 3,
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1410,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Coastal Defender",
+				["combat_counter"] = 2112,
+				["playing_solo"] = true,
+				["totals"] = {
+					17337.975377, -- [1]
+					2381, -- [2]
+					{
+						0, -- [1]
+						[0] = 2,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Deminath"] = {
+						{
+							true, -- [1]
+							266505, -- [2]
+							86, -- [3]
+							1533233585.859, -- [4]
+							27540, -- [5]
+							"Coastal Defender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							266505, -- [2]
+							81, -- [3]
+							1533233587.883, -- [4]
+							27540, -- [5]
+							"Coastal Defender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							266505, -- [2]
+							80, -- [3]
+							1533233589.864, -- [4]
+							26240, -- [5]
+							"Coastal Defender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							266505, -- [2]
+							81, -- [3]
+							1533233591.875, -- [4]
+							26240, -- [5]
+							"Coastal Defender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							266505, -- [2]
+							63, -- [3]
+							1533233593.891, -- [4]
+							27540, -- [5]
+							"Coastal Defender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							266505, -- [2]
+							64, -- [3]
+							1533233597.95, -- [4]
+							27540, -- [5]
+							"Coastal Defender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							266505, -- [2]
+							88, -- [3]
+							1533233599.891, -- [4]
+							27540, -- [5]
+							"Coastal Defender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+							true, -- [1]
+							266505, -- [2]
+							66, -- [3]
+							1533233601.844, -- [4]
+							27540, -- [5]
+							"Coastal Defender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 9,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 3272.013552,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Deminath"] = 24763.005824,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11305.946,
+				["combat_id"] = 1410,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Coastal Defender"] = 2,
+				},
+				["data_fim"] = "11:13:05",
+				["contra"] = "Coastal Defender",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					15965, -- [1]
+					2381, -- [2]
+					{
+						0, -- [1]
+						[0] = 2,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11296.337,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						611.002268, -- [1]
+						0, -- [2]
+						3232, -- [3]
+						645, -- [4]
+						1584, -- [5]
+						645, -- [6]
+						4051, -- [7]
+						1473, -- [8]
+						5097, -- [9]
+						["max_value"] = 5097,
+					},
+					["Raid Damage Done"] = {
+						611, -- [1]
+						0, -- [2]
+						3232, -- [3]
+						187, -- [4]
+						1584, -- [5]
+						187, -- [6]
+						4051, -- [7]
+						1016, -- [8]
+						5097, -- [9]
+						["max_value"] = 5097,
+					},
+				},
+				["data_inicio"] = "11:12:56",
+			}, -- [12]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1409,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008622,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Coastal Defender"] = 1794,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+							},
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1794.008622,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["total"] = 1794.008622,
+							["on_hold"] = false,
+							["last_event"] = 1533233502,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1794,
+										["targets"] = {
+											["Coastal Defender"] = 1794,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1794,
+										["n_min"] = 1794,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1794,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533233509,
+							["last_dps"] = 252.81970434049,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008622,
+							["start_time"] = 1533233502,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1409,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1409,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1409,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[265931] = {
+										["activedamt"] = -1,
+										["id"] = 265931,
+										["targets"] = {
+										},
+										["actived_at"] = 1533233502,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[117828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 117828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 227723,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 108366,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6307] = {
+										["activedamt"] = 3,
+										["id"] = 6307,
+										["targets"] = {
+										},
+										["actived_at"] = 1533233574,
+										["uptime"] = 22,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 0,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1533233574,
+							["nome"] = "Deminath",
+							["buff_uptime"] = 50,
+							["serial"] = "Player-5-0B28F0EA",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1409,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Coastal Defender",
+				["combat_counter"] = 2110,
+				["playing_solo"] = true,
+				["totals"] = {
+					1793.98005, -- [1]
+					-0.00466800000003786, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Deminath"] = 12856.009893,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11229.431,
+				["combat_id"] = 1409,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Coastal Defender"] = 1,
+				},
+				["data_fim"] = "11:11:49",
+				["contra"] = "Coastal Defender",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1794, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11222.335,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1794.008622, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						["max_value"] = 1794.008622,
+					},
+					["Raid Damage Done"] = {
+						1794, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						["max_value"] = 1794,
+					},
+				},
+				["data_inicio"] = "11:11:42",
+			}, -- [13]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1408,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005295,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Coastal Defender"] = 1966,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+							},
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1966.005295,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["total"] = 1966.005295,
+							["on_hold"] = false,
+							["last_event"] = 1533233474,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1966,
+										["targets"] = {
+											["Coastal Defender"] = 1966,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1966,
+										["n_min"] = 1966,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1966,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533233480,
+							["last_dps"] = 320.823318374642,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005295,
+							["start_time"] = 1533233474,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1408,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1408,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1408,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[265931] = {
+										["activedamt"] = -1,
+										["id"] = 265931,
+										["targets"] = {
+										},
+										["actived_at"] = 1533233474,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[117828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 117828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[266030] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 266030,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 227723,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 108366,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6307] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 21,
+										["id"] = 6307,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 0,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1533233499,
+							["nome"] = "Deminath",
+							["buff_uptime"] = 51,
+							["serial"] = "Player-5-0B28F0EA",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1408,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Coastal Defender",
+				["combat_counter"] = 2108,
+				["playing_solo"] = true,
+				["totals"] = {
+					1965.98612, -- [1]
+					-0.00447099999999523, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00125900000000456,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 1507.008736,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Deminath"] = 14297.013284,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11200.654,
+				["combat_id"] = 1408,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Coastal Defender"] = 2,
+				},
+				["data_fim"] = "11:11:20",
+				["contra"] = "Coastal Defender",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1966, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11194.526,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1966.005295, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						["max_value"] = 1966.005295,
+					},
+					["Raid Damage Done"] = {
+						1966, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						["max_value"] = 1966,
+					},
+				},
+				["data_inicio"] = "11:11:14",
+			}, -- [14]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1407,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005414,
+							["damage_from"] = {
+								["Auberdine Guardian"] = true,
+							},
+							["targets"] = {
+								["Rat"] = 684,
+								["Auberdine Guardian"] = 14751,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 14523.005414,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["total"] = 15435.005414,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1533233412,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1915,
+										["targets"] = {
+											["Auberdine Guardian"] = 1915,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1915,
+										["n_min"] = 1915,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1915,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[116858] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 8796,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Auberdine Guardian"] = 8796,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8796,
+										["c_max"] = 5638,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 3158,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 684,
+										["targets"] = {
+											["Rat"] = 684,
+											["Auberdine Guardian"] = 640,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1324,
+										["n_min"] = 640,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1324,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[157736] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1575,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Auberdine Guardian"] = 1575,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1575,
+										["c_max"] = 810,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 765,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[265931] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 373,
+										["g_amt"] = 0,
+										["n_max"] = 187,
+										["targets"] = {
+											["Auberdine Guardian"] = 560,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 187,
+										["n_min"] = 187,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 560,
+										["c_max"] = 373,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 373,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 353,
+										["targets"] = {
+											["Auberdine Guardian"] = 353,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 353,
+										["n_min"] = 353,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 353,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533233412,
+							["last_dps"] = 2434.54344069395,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533233405,
+							["delay"] = 0,
+							["damage_taken"] = 2534.005414,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001885,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Auberdine Guardian"] = 912,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 912.001885,
+							["classe"] = "PET",
+							["dps_started"] = false,
+							["total"] = 912.001885,
+							["serial"] = "Pet-0-3878-1-29281-416-1C02A38A1A",
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 456,
+										["targets"] = {
+											["Auberdine Guardian"] = 912,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 912,
+										["n_min"] = 456,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 912,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1533233412,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1533233411,
+							["damage_taken"] = 0.001885,
+							["start_time"] = 1533233409,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1407,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Deminath"] = 353,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 353.005663,
+							["total_without_pet"] = 2534.005663,
+							["total"] = 2534.005663,
+							["targets_absorbs"] = {
+								["Deminath"] = 2534,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 2534.005663,
+							["last_hps"] = 399.685435804407,
+							["targets"] = {
+								["Deminath"] = 2534,
+							},
+							["totalover_without_pet"] = 0.005663,
+							["healing_taken"] = 2534.005663,
+							["fight_component"] = true,
+							["end_time"] = 1533233412,
+							["classe"] = "WARLOCK",
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 324,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 121,
+										["targets"] = {
+											["Deminath"] = 324,
+										},
+										["n_min"] = 51,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 324,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 324,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 324,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deminath"] = 353,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Deminath"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 353,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2210,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 788,
+										["targets"] = {
+											["Deminath"] = 2210,
+										},
+										["n_min"] = 429,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 2210,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 2210,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2210,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1533233411,
+							["start_time"] = 1533233405,
+							["totaldenied"] = 0.005663,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1407,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1407,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[265931] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 265931,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[157736] = {
+										["activedamt"] = -1,
+										["id"] = 157736,
+										["targets"] = {
+										},
+										["actived_at"] = 1533233412,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[80240] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = 80240,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 30,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[117828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 117828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[266030] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 266030,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 227723,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 108366,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6307] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 6307,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 9,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 1,
+								[348] = 1,
+								[80240] = 1,
+								[116858] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533233467,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3878-1-29281-416-1C02A38A1A",
+							["spell_cast"] = {
+								[3110] = 2,
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1407,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Auberdine Guardian",
+				["combat_counter"] = 2106,
+				["playing_solo"] = true,
+				["totals"] = {
+					15434.967047, -- [1]
+					2534, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 3247.011841,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Deminath"] = 26003.00882,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11132.654,
+				["combat_id"] = 1407,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Auberdine Guardian"] = 2,
+					["Rat"] = 1,
+				},
+				["data_fim"] = "11:10:12",
+				["contra"] = "Auberdine Guardian",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					14523, -- [1]
+					2534, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11126.314,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						993.005414, -- [1]
+						2599, -- [2]
+						810, -- [3]
+						829, -- [4]
+						456, -- [5]
+						6590, -- [6]
+						["max_value"] = 6590,
+					},
+					["Raid Damage Done"] = {
+						993, -- [1]
+						2599, -- [2]
+						810, -- [3]
+						373, -- [4]
+						0, -- [5]
+						6590, -- [6]
+						["max_value"] = 6590,
+					},
+				},
+				["data_inicio"] = "11:10:06",
+			}, -- [15]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1406,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002983,
+							["damage_from"] = {
+								["Auberdine Guardian"] = true,
+							},
+							["targets"] = {
+								["Auberdine Guardian"] = 9973,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7687.002983,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["total"] = 9973.002983,
+							["on_hold"] = false,
+							["last_event"] = 1533233382,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 653,
+										["targets"] = {
+											["Auberdine Guardian"] = 653,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 653,
+										["n_min"] = 653,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 653,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1844,
+										["g_amt"] = 0,
+										["n_max"] = 1093,
+										["targets"] = {
+											["Auberdine Guardian"] = 5899,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4055,
+										["n_min"] = 938,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 5899,
+										["c_max"] = 1844,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 1844,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 726,
+										["g_amt"] = 0,
+										["n_max"] = 409,
+										["targets"] = {
+											["Auberdine Guardian"] = 1135,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 409,
+										["n_min"] = 409,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1135,
+										["c_max"] = 726,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 726,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533233383,
+							["last_dps"] = 1418.63484822177,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1515.002983,
+							["start_time"] = 1533233376,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.007,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Auberdine Guardian"] = 2286,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2286.007,
+							["classe"] = "PET",
+							["dps_started"] = false,
+							["total"] = 2286.007,
+							["serial"] = "Pet-0-3878-1-29281-416-1C02A38A1A",
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1829,
+										["g_amt"] = 0,
+										["n_max"] = 457,
+										["targets"] = {
+											["Auberdine Guardian"] = 2286,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 457,
+										["n_min"] = 457,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2286,
+										["c_max"] = 915,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 914,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1533233383,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1533233380,
+							["damage_taken"] = 0.007,
+							["start_time"] = 1533233378,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1406,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.008551,
+							["total_without_pet"] = 1515.008551,
+							["total"] = 1515.008551,
+							["targets_absorbs"] = {
+								["Deminath"] = 1515,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 1515.008551,
+							["last_hps"] = 215.506195021317,
+							["targets"] = {
+								["Deminath"] = 1515,
+							},
+							["totalover_without_pet"] = 0.008551,
+							["healing_taken"] = 1515.008551,
+							["fight_component"] = true,
+							["end_time"] = 1533233383,
+							["classe"] = "WARLOCK",
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 147,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 82,
+										["targets"] = {
+											["Deminath"] = 147,
+										},
+										["n_min"] = 65,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 147,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 147,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 147,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1368,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 692,
+										["targets"] = {
+											["Deminath"] = 1368,
+										},
+										["n_min"] = 676,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 1368,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 1368,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1368,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1533233382,
+							["start_time"] = 1533233379,
+							["totaldenied"] = 0.008551,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1406,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1406,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = 157736,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 28,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[266030] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 266030,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 227723,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 108366,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 5,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[29722] = 4,
+								[348] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533233383,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3878-1-29281-416-1C02A38A1A",
+							["spell_cast"] = {
+								[3110] = 3,
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1406,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Auberdine Guardian",
+				["combat_counter"] = 2104,
+				["playing_solo"] = true,
+				["totals"] = {
+					9972.997956, -- [1]
+					1515, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 1515.016595,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Deminath"] = 16785.004662,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11103.191,
+				["combat_id"] = 1406,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Auberdine Guardian"] = 1,
+				},
+				["data_fim"] = "11:09:43",
+				["contra"] = "Auberdine Guardian",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					7687, -- [1]
+					1515, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11096.161,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						938.002983, -- [1]
+						1693, -- [2]
+						457, -- [3]
+						1324, -- [4]
+						1844, -- [5]
+						1898, -- [6]
+						1819, -- [7]
+						["max_value"] = 1898,
+					},
+					["Raid Damage Done"] = {
+						938, -- [1]
+						1693, -- [2]
+						0, -- [3]
+						409, -- [4]
+						1844, -- [5]
+						984, -- [6]
+						1819, -- [7]
+						["max_value"] = 1844,
+					},
+				},
+				["data_inicio"] = "11:09:36",
+			}, -- [16]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1405,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001332,
+							["damage_from"] = {
+								["Auberdine Guardian"] = true,
+							},
+							["targets"] = {
+								["Auberdine Guardian"] = 18122,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 16293.001332,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["total"] = 18122.001332,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1533233370,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2007,
+										["targets"] = {
+											["Auberdine Guardian"] = 2007,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2007,
+										["n_min"] = 2007,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2007,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[116858] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 7846,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Auberdine Guardian"] = 7846,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 7846,
+										["c_max"] = 4992,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 2854,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 593,
+										["targets"] = {
+											["Auberdine Guardian"] = 1170,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1170,
+										["n_min"] = 577,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1170,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 793,
+										["g_amt"] = 0,
+										["n_max"] = 424,
+										["targets"] = {
+											["Auberdine Guardian"] = 2013,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1220,
+										["n_min"] = 388,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2013,
+										["c_max"] = 793,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 793,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2169,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Auberdine Guardian"] = 2169,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2169,
+										["c_max"] = 2169,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 2169,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 186,
+										["targets"] = {
+											["Auberdine Guardian"] = 736,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 736,
+										["n_min"] = 179,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 736,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 352,
+										["targets"] = {
+											["Auberdine Guardian"] = 352,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 352,
+										["n_min"] = 352,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 352,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533233370,
+							["last_dps"] = 2234.52544167728,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533233362,
+							["delay"] = 0,
+							["damage_taken"] = 3304.001332,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.006516,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Auberdine Guardian"] = 1829,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1829.006516,
+							["classe"] = "PET",
+							["dps_started"] = false,
+							["total"] = 1829.006516,
+							["serial"] = "Pet-0-3878-1-29281-416-1C02A38A1A",
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 915,
+										["g_amt"] = 0,
+										["n_max"] = 457,
+										["targets"] = {
+											["Auberdine Guardian"] = 1829,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 914,
+										["n_min"] = 457,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1829,
+										["c_max"] = 915,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 915,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1533233370,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1533233370,
+							["damage_taken"] = 0.006516,
+							["start_time"] = 1533233364,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1405,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Deminath"] = 352,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 352.007269,
+							["total_without_pet"] = 3304.007269,
+							["total"] = 3304.007269,
+							["targets_absorbs"] = {
+								["Deminath"] = 3304,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 3304.007269,
+							["last_hps"] = 422.994145307916,
+							["targets"] = {
+								["Deminath"] = 3304,
+							},
+							["totalover_without_pet"] = 0.007269,
+							["healing_taken"] = 3304.007269,
+							["fight_component"] = true,
+							["end_time"] = 1533233370,
+							["classe"] = "WARLOCK",
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2969,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1150,
+										["targets"] = {
+											["Deminath"] = 2969,
+										},
+										["n_min"] = 544,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 2969,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Deminath"] = 2969,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2969,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deminath"] = 352,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Deminath"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 352,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 335,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 140,
+										["targets"] = {
+											["Deminath"] = 335,
+										},
+										["n_min"] = 58,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 335,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 335,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 335,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1533233370,
+							["start_time"] = 1533233364,
+							["totaldenied"] = 0.007269,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1405,
+					["_ActorTable"] = {
+						{
+							["received"] = 1.004717,
+							["resource"] = 0.004717,
+							["targets"] = {
+								["Deminath"] = 1,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 1.004717,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["tipo"] = 3,
+							["alternatepower"] = 0.004717,
+							["spells"] = {
+								["_ActorTable"] = {
+									[215942] = {
+										["id"] = 215942,
+										["total"] = 1,
+										["targets"] = {
+											["Deminath"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533233368,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1405,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[265931] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 7,
+										["id"] = 265931,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[157736] = {
+										["activedamt"] = -1,
+										["id"] = 157736,
+										["targets"] = {
+										},
+										["actived_at"] = 1533233370,
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[80240] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 80240,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 39,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[117828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 117828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[266030] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 266030,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 227723,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 108366,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 18,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 1,
+								[116858] = 1,
+								[348] = 1,
+								[80240] = 1,
+								[29722] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533233370,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3878-1-29281-416-1C02A38A1A",
+							["spell_cast"] = {
+								[3110] = 3,
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1405,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Auberdine Guardian",
+				["combat_counter"] = 2103,
+				["playing_solo"] = true,
+				["totals"] = {
+					18121.993989, -- [1]
+					3304, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 3304.007269,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Deminath"] = 18122.001332,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11091.346,
+				["combat_id"] = 1405,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["frags"] = {
+					["Auberdine Guardian"] = 2,
+				},
+				["data_fim"] = "11:09:31",
+				["contra"] = "Auberdine Guardian",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					16293, -- [1]
+					3304, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11082.915,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						593.001332, -- [1]
+						2584, -- [2]
+						793, -- [3]
+						1525, -- [4]
+						593, -- [5]
+						8691, -- [6]
+						186, -- [7]
+						3157, -- [8]
+						["max_value"] = 8691,
+					},
+					["Raid Damage Done"] = {
+						593, -- [1]
+						2584, -- [2]
+						793, -- [3]
+						610, -- [4]
+						593, -- [5]
+						8234, -- [6]
+						186, -- [7]
+						2700, -- [8]
+						["max_value"] = 8234,
+					},
+				},
+				["data_inicio"] = "11:09:22",
+			}, -- [17]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1404,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008033,
+							["damage_from"] = {
+								["Lieutenant Aylissa Silverarrow"] = true,
+								["Auberdine Guardian"] = true,
+							},
+							["targets"] = {
+								["Auberdine Guardian"] = 15435,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12690.008033,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["total"] = 15435.008033,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1533233350,
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1829,
+										["targets"] = {
+											["Auberdine Guardian"] = 1829,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1829,
+										["n_min"] = 1829,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1829,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[116858] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 5860,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Auberdine Guardian"] = 5860,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 5860,
+										["c_max"] = 5860,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 5860,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 586,
+										["targets"] = {
+											["Auberdine Guardian"] = 1161,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1161,
+										["n_min"] = 575,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1161,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 704,
+										["g_amt"] = 0,
+										["n_max"] = 422,
+										["targets"] = {
+											["Auberdine Guardian"] = 2305,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1601,
+										["n_min"] = 381,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 2305,
+										["c_max"] = 704,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 704,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 354,
+										["targets"] = {
+											["Auberdine Guardian"] = 354,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 354,
+										["n_min"] = 354,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 354,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 186,
+										["targets"] = {
+											["Auberdine Guardian"] = 186,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 186,
+										["n_min"] = 186,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 186,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 995,
+										["targets"] = {
+											["Auberdine Guardian"] = 995,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 995,
+										["n_min"] = 995,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 995,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533233350,
+							["last_dps"] = 2040.58805301469,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1533233343,
+							["delay"] = 0,
+							["damage_taken"] = 1759.008033,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.002764,
+							["damage_from"] = {
+								["Auberdine Guardian"] = true,
+							},
+							["targets"] = {
+								["Auberdine Guardian"] = 2745,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2745.002764,
+							["classe"] = "PET",
+							["dps_started"] = false,
+							["total"] = 2745.002764,
+							["serial"] = "Pet-0-3878-1-29281-416-1B02A38A1A",
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2745,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Auberdine Guardian"] = 2745,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2745,
+										["c_max"] = 915,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 915,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1533233350,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1533233349,
+							["damage_taken"] = 2103.002764,
+							["start_time"] = 1533233345,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1404,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Deminath"] = 354,
+							},
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 354.005673,
+							["total_without_pet"] = 3777.005673,
+							["total"] = 3777.005673,
+							["targets_absorbs"] = {
+								["Lazgup <Deminath>"] = 2103,
+								["Deminath"] = 1674,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0B28F0EA",
+							["totalabsorb"] = 3777.005673,
+							["last_hps"] = 499.339724087884,
+							["targets"] = {
+								["Lazgup <Deminath>"] = 2103,
+								["Deminath"] = 1674,
+							},
+							["totalover_without_pet"] = 0.005673,
+							["healing_taken"] = 1674.005673,
+							["fight_component"] = true,
+							["end_time"] = 1533233350,
+							["classe"] = "WARLOCK",
+							["nome"] = "Deminath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 3597,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 872,
+										["targets"] = {
+											["Lazgup <Deminath>"] = 2103,
+											["Deminath"] = 1494,
+										},
+										["n_min"] = 74,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 3597,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Lazgup <Deminath>"] = 2103,
+											["Deminath"] = 1494,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 3597,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deminath"] = 354,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Deminath"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 354,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 180,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 82,
+										["targets"] = {
+											["Deminath"] = 180,
+										},
+										["n_min"] = 7,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 180,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Deminath"] = 180,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 180,
+										["n_amt"] = 5,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1533233350,
+							["start_time"] = 1533233344,
+							["totaldenied"] = 0.005673,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.002612,
+							["total_without_pet"] = 0.002612,
+							["total"] = 0.002612,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3878-1-29281-416-1B02A38A1A",
+							["totalabsorb"] = 0.002612,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002612,
+							["healing_taken"] = 2103.002612,
+							["fight_component"] = true,
+							["end_time"] = 1533233350,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1533233350,
+							["healing_from"] = {
+								["Deminath"] = true,
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
+							["totaldenied"] = 0.002612,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1404,
+					["_ActorTable"] = {
+						{
+							["received"] = 1.007957,
+							["resource"] = 0.007957,
+							["targets"] = {
+								["Deminath"] = 1,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 1.007957,
+							["nome"] = "Deminath",
+							["spec"] = 267,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["tipo"] = 3,
+							["alternatepower"] = 0.007957,
+							["spells"] = {
+								["_ActorTable"] = {
+									[215942] = {
+										["id"] = 215942,
+										["total"] = 1,
+										["targets"] = {
+											["Deminath"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533233349,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1404,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["activedamt"] = -1,
+										["id"] = 157736,
+										["targets"] = {
+										},
+										["actived_at"] = 1533233350,
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[265931] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = 265931,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 32,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[117828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 117828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[266030] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 266030,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 227723,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 108366,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6307] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 6307,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 8,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[29722] = 1,
+								[348] = 1,
+								[17962] = 1,
+								[116858] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["nome"] = "Deminath",
+							["pets"] = {
+								"Lazgup <Deminath>", -- [1]
+							},
+							["serial"] = "Player-5-0B28F0EA",
+							["last_event"] = 1533233353,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Deminath",
+							["nome"] = "Lazgup <Deminath>",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[3110] = 3,
+							},
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3878-1-29281-416-1B02A38A1A",
+							["pets"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1404,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deminath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Auberdine Guardian",
+				["combat_counter"] = 2102,
+				["playing_solo"] = true,
+				["totals"] = {
+					15434.985503, -- [1]
+					3777, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Deminath"] = {
+						{
+							true, -- [1]
+							78578, -- [2]
+							85, -- [3]
+							1533233353.59, -- [4]
+							27540, -- [5]
+							"Lieutenant Aylissa Silverarrow", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deminath"] = 3777.005673,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Deminath"] = 15435.008033,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11071.801,
+				["combat_id"] = 1404,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["frags"] = {
+					["Auberdine Guardian"] = 2,
+				},
+				["data_fim"] = "11:09:11",
+				["contra"] = "Auberdine Guardian",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					12690, -- [1]
+					3777, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11064.237,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						575.008033, -- [1]
+						586, -- [2]
+						1337, -- [3]
+						3238, -- [4]
+						1485, -- [5]
+						735, -- [6]
+						6775, -- [7]
+						["max_value"] = 6775,
+					},
+					["Raid Damage Done"] = {
+						575, -- [1]
+						586, -- [2]
+						422, -- [3]
+						3238, -- [4]
+						570, -- [5]
+						735, -- [6]
+						5860, -- [7]
+						["max_value"] = 5860,
+					},
+				},
+				["data_inicio"] = "11:09:04",
+			}, -- [18]
+		},
+	},
+	["combat_counter"] = 2128,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = 427.396667480469,
+					["x"] = -836.722045898438,
+					["w"] = 287.253723144531,
+					["h"] = 171.858489990234,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				1, -- [1]
+			},
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = 427.396667480469,
+					["x"] = -546.910095214844,
+					["w"] = 292.370147705078,
+					["h"] = 171.858489990234,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 1458,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Base",
+	["last_encounter"] = "Aggramar",
+	["ignore_nicktag"] = false,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["enabled"] = true,
+			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["last_boss"] = false,
+			["v1"] = true,
+			["captures"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["first_run"] = true,
+			["endurance_threshold"] = 3,
+			["max_deaths_for_timeline"] = 5,
+			["deaths_threshold"] = 10,
+			["show_icon"] = 1,
+			["max_segments_for_current"] = 2,
+			["max_deaths_for_current"] = 15,
+			["last_player"] = false,
+			["author"] = "Details! Team",
+			["last_encounter_hash"] = false,
+			["enabled"] = true,
+			["timeline_cutoff_time"] = 3,
+			["last_segment"] = false,
+			["last_combat_id"] = 1373,
+			["timeline_cutoff_delete_time"] = 3,
+			["showing_type"] = 4,
+			["InstalledAt"] = 1485740473,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				400, -- [1]
+				225.000045776367, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 208.244805703662,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Empty",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = true,
+			["main_frame_strata"] = "LOW",
+			["enabled"] = true,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = false,
+			["font_size"] = 14,
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["per_second"] = {
+				["enabled"] = true,
+				["point"] = "LEFT",
+				["scale"] = 1,
+				["font_shadow"] = false,
+				["y"] = 182.153472900391,
+				["x"] = 2.65877819061279,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.304000020027161,
+				["size"] = 32,
+			},
+			["y"] = -20.15869140625,
+			["point"] = "TOPLEFT",
+			["row_height"] = 21,
+			["scale"] = 1,
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["showamount"] = false,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["author"] = "Details! Team",
+			["realm_history"] = {
+			},
+			["realm_lastamt"] = 0,
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["name"] = "Your Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Player Damage Done",
+					["texture"] = "line",
+				}, -- [1]
+				{
+					["iType"] = "raid-DAMAGER",
+					["version"] = "v2.0",
+					["options"] = {
+						["iType"] = "raid-DAMAGER",
+						["name"] = "Damager (Same Class)",
+					},
+					["segment_type"] = 1,
+					["name"] = "Damager (Same Class)",
+					["data"] = "PRESET_DAMAGE_SAME_CLASS",
+					["texture"] = "line",
+				}, -- [2]
+				["last_selected"] = 2,
+			},
+			["options"] = {
+				["show_method"] = 4,
+				["auto_create"] = true,
+				["window_scale"] = 1,
+			},
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "Neltharion's Lair",
+		["started"] = false,
+		["segment_id"] = 5,
+		["ej_id"] = 767,
+		["started_at"] = 1531550231.7,
+		["run_id"] = 4,
+		["level"] = 7,
+		["dungeon_zone_id"] = 1458,
+		["previous_boss_killed_at"] = 1531551355,
+	},
+	["last_realversion"] = 132,
+	["last_day"] = "03",
+	["last_version"] = "v8.0.1.6035",
+	["combat_id"] = 1421,
+	["savedStyles"] = {
+	},
+	["last_instance_time"] = 1531550091,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1534522350,
+		["last_version"] = 10,
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.129119,
+					["damage_from"] = {
+						["Forest Sister"] = true,
+						["Vengeful Huntress"] = true,
+						["Caranne Briarbow"] = true,
+						["Burning Ancient"] = true,
+						["Priestess of the Moon"] = true,
+						["Nature's Guardian"] = true,
+						["Lieutenant Aylissa Silverarrow"] = true,
+						["Ashenvale Huntress"] = true,
+						["Lor'danel Sentinel"] = true,
+						["Corrupted Blackwood"] = true,
+						["Ariel Stagguard"] = true,
+						["Sentry Owl"] = true,
+						["Shadowglen Keeper"] = true,
+						["Darnassian Archer"] = true,
+						["Hippogryph Archer"] = true,
+						["Maddened Blackwood"] = true,
+						["Darnassus Sentinel"] = true,
+						["Frenzied Blackwood Furbolg"] = true,
+						["Risen Grovewarden"] = true,
+					},
+					["targets"] = {
+						["Druid of the Claw"] = 0,
+						["Vengeful Huntress"] = 41223,
+						["Coastal Defender"] = 0,
+						["Burning Ancient"] = 91591,
+						["Priestess of the Moon"] = 32165,
+						["Auberdine Guardian"] = 0,
+						["Druid of the Branch"] = 0,
+						["Unforgiving Sentinel"] = 0,
+						["Lieutenant Aylissa Silverarrow"] = 46384,
+						["Darnassian Archer"] = 94671,
+						["Ashenvale Huntress"] = 43474,
+						["Lor'danel Sentinel"] = 144301,
+						["Corrupted Blackwood"] = 30009,
+						["Sentry Owl"] = 18760,
+						["Hippogryph Archer"] = 18923,
+						["Risen Grovewarden"] = 9890,
+						["Caranne Briarbow"] = 55560,
+						["Ariel Stagguard"] = 56123,
+						["Frenzied Blackwood Furbolg"] = 86337,
+						["Rat"] = 430,
+						["Maddened Blackwood"] = 19532,
+						["Darnassus Sentinel"] = 137687,
+						["Forest Sister"] = 31535,
+						["Shadowglen Keeper"] = 37180,
+					},
+					["pets"] = {
+						"Lazgup <Deminath> <Deminath>", -- [1]
+						"Infernal <Deminath> <Deminath>", -- [2]
+					},
+					["last_dps"] = 0,
+					["last_event"] = 0,
+					["classe"] = "WARLOCK",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 852437.129119,
+					["serial"] = "Player-5-0B28F0EA",
+					["dps_started"] = false,
+					["total"] = 995775.129119,
+					["end_time"] = 1533228897,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Deminath",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 132,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Shadowglen Keeper"] = 132,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 132,
+								["c_max"] = 132,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[157736] = {
+								["c_amt"] = 91,
+								["b_amt"] = 0,
+								["c_dmg"] = 69049,
+								["g_amt"] = 0,
+								["n_max"] = 426,
+								["targets"] = {
+									["Druid of the Claw"] = 0,
+									["Vengeful Huntress"] = 4959,
+									["Coastal Defender"] = 0,
+									["Burning Ancient"] = 7557,
+									["Priestess of the Moon"] = 7876,
+									["Auberdine Guardian"] = 0,
+									["Druid of the Branch"] = 0,
+									["Lieutenant Aylissa Silverarrow"] = 4401,
+									["Unforgiving Sentinel"] = 0,
+									["Ashenvale Huntress"] = 5633,
+									["Lor'danel Sentinel"] = 27687,
+									["Corrupted Blackwood"] = 6540,
+									["Darnassian Archer"] = 20114,
+									["Hippogryph Archer"] = 3026,
+									["Risen Grovewarden"] = 3492,
+									["Forest Sister"] = 5986,
+									["Caranne Briarbow"] = 4783,
+									["Frenzied Blackwood Furbolg"] = 19885,
+									["Ariel Stagguard"] = 3452,
+									["Maddened Blackwood"] = 4521,
+									["Darnassus Sentinel"] = 26898,
+									["Sentry Owl"] = 2712,
+									["Shadowglen Keeper"] = 5386,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 95859,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 345,
+								["total"] = 164908,
+								["c_max"] = 854,
+								["id"] = 157736,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 254,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[22703] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 5094,
+								["g_amt"] = 0,
+								["n_max"] = 853,
+								["targets"] = {
+									["Ashenvale Huntress"] = 1698,
+									["Hippogryph Archer"] = 0,
+									["Frenzied Blackwood Furbolg"] = 4245,
+									["Ariel Stagguard"] = 853,
+									["Burning Ancient"] = 1698,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3400,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 8494,
+								["c_max"] = 1698,
+								["id"] = 22703,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[265931] = {
+								["c_amt"] = 34,
+								["b_amt"] = 0,
+								["c_dmg"] = 11043,
+								["g_amt"] = 0,
+								["n_max"] = 188,
+								["targets"] = {
+									["Druid of the Claw"] = 0,
+									["Vengeful Huntress"] = 1310,
+									["Coastal Defender"] = 0,
+									["Darnassian Archer"] = 1099,
+									["Auberdine Guardian"] = 0,
+									["Lieutenant Aylissa Silverarrow"] = 2423,
+									["Druid of the Branch"] = 0,
+									["Ashenvale Huntress"] = 933,
+									["Lor'danel Sentinel"] = 3301,
+									["Corrupted Blackwood"] = 642,
+									["Burning Ancient"] = 3488,
+									["Hippogryph Archer"] = 187,
+									["Risen Grovewarden"] = 759,
+									["Sentry Owl"] = 925,
+									["Caranne Briarbow"] = 2836,
+									["Ariel Stagguard"] = 2164,
+									["Frenzied Blackwood Furbolg"] = 2369,
+									["Maddened Blackwood"] = 0,
+									["Darnassus Sentinel"] = 3688,
+									["Shadowglen Keeper"] = 767,
+									["Unforgiving Sentinel"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 15848,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 127,
+								["total"] = 26891,
+								["c_max"] = 375,
+								["id"] = 265931,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 93,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[127802] = {
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["c_dmg"] = 4966,
+								["g_amt"] = 0,
+								["n_max"] = 356,
+								["targets"] = {
+									["Druid of the Claw"] = 0,
+									["Vengeful Huntress"] = 1066,
+									["Coastal Defender"] = 0,
+									["Burning Ancient"] = 1062,
+									["Auberdine Guardian"] = 0,
+									["Lieutenant Aylissa Silverarrow"] = 708,
+									["Ashenvale Huntress"] = 354,
+									["Lor'danel Sentinel"] = 2487,
+									["Corrupted Blackwood"] = 353,
+									["Darnassian Archer"] = 3185,
+									["Ariel Stagguard"] = 1065,
+									["Risen Grovewarden"] = 710,
+									["Hippogryph Archer"] = 0,
+									["Forest Sister"] = 711,
+									["Caranne Briarbow"] = 710,
+									["Frenzied Blackwood Furbolg"] = 1062,
+									["Maddened Blackwood"] = 706,
+									["Darnassus Sentinel"] = 1061,
+									["Shadowglen Keeper"] = 355,
+									["Sentry Owl"] = 354,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10983,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 38,
+								["total"] = 15949,
+								["c_max"] = 711,
+								["id"] = 127802,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 31,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[152108] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 5742,
+								["g_amt"] = 0,
+								["n_max"] = 3264,
+								["targets"] = {
+									["Lor'danel Sentinel"] = 15055,
+									["Darnassus Sentinel"] = 21195,
+									["Priestess of the Moon"] = 5742,
+									["Vengeful Huntress"] = 3168,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 39418,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 14,
+								["total"] = 45160,
+								["c_max"] = 5742,
+								["id"] = 152108,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 13,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[191380] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 272,
+								["targets"] = {
+									["Lieutenant Aylissa Silverarrow"] = 723,
+									["Ashenvale Huntress"] = 1223,
+									["Lor'danel Sentinel"] = 4923,
+									["Corrupted Blackwood"] = 948,
+									["Frenzied Blackwood Furbolg"] = 680,
+									["Hippogryph Archer"] = 0,
+									["Burning Ancient"] = 699,
+									["Darnassian Archer"] = 4731,
+									["Priestess of the Moon"] = 1494,
+									["Ariel Stagguard"] = 1262,
+									["Forest Sister"] = 743,
+									["Maddened Blackwood"] = 0,
+									["Darnassus Sentinel"] = 2822,
+									["Vengeful Huntress"] = 719,
+									["Risen Grovewarden"] = 727,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 21694,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 91,
+								["total"] = 21694,
+								["c_max"] = 0,
+								["id"] = 191380,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 91,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[42223] = {
+								["c_amt"] = 78,
+								["b_amt"] = 0,
+								["c_dmg"] = 36323,
+								["g_amt"] = 0,
+								["n_max"] = 256,
+								["targets"] = {
+									["Forest Sister"] = 1578,
+									["Lor'danel Sentinel"] = 15456,
+									["Corrupted Blackwood"] = 6029,
+									["Frenzied Blackwood Furbolg"] = 10032,
+									["Darnassian Archer"] = 4526,
+									["Priestess of the Moon"] = 4849,
+									["Rat"] = 430,
+									["Maddened Blackwood"] = 6269,
+									["Darnassus Sentinel"] = 14864,
+									["Shadowglen Keeper"] = 2463,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 30173,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 211,
+								["total"] = 66496,
+								["c_max"] = 507,
+								["id"] = 42223,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 133,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[116858] = {
+								["c_amt"] = 46,
+								["b_amt"] = 0,
+								["c_dmg"] = 222542,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Druid of the Claw"] = 0,
+									["Vengeful Huntress"] = 15266,
+									["Coastal Defender"] = 0,
+									["Burning Ancient"] = 27049,
+									["Auberdine Guardian"] = 0,
+									["Lieutenant Aylissa Silverarrow"] = 16496,
+									["Ashenvale Huntress"] = 11047,
+									["Lor'danel Sentinel"] = 22753,
+									["Corrupted Blackwood"] = 0,
+									["Ariel Stagguard"] = 21259,
+									["Sentry Owl"] = 8562,
+									["Darnassian Archer"] = 28501,
+									["Hippogryph Archer"] = 5756,
+									["Caranne Briarbow"] = 20658,
+									["Frenzied Blackwood Furbolg"] = 9195,
+									["Maddened Blackwood"] = 0,
+									["Darnassus Sentinel"] = 11751,
+									["Shadowglen Keeper"] = 14218,
+									["Forest Sister"] = 10031,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 46,
+								["total"] = 222542,
+								["c_max"] = 5850,
+								["id"] = 116858,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[17962] = {
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 32435,
+								["g_amt"] = 0,
+								["n_max"] = 2045,
+								["targets"] = {
+									["Druid of the Claw"] = 0,
+									["Vengeful Huntress"] = 5201,
+									["Coastal Defender"] = 0,
+									["Darnassian Archer"] = 1985,
+									["Priestess of the Moon"] = 1829,
+									["Auberdine Guardian"] = 0,
+									["Lieutenant Aylissa Silverarrow"] = 5731,
+									["Druid of the Branch"] = 0,
+									["Ashenvale Huntress"] = 1789,
+									["Lor'danel Sentinel"] = 11486,
+									["Corrupted Blackwood"] = 5500,
+									["Burning Ancient"] = 8985,
+									["Hippogryph Archer"] = 1776,
+									["Shadowglen Keeper"] = 2252,
+									["Sentry Owl"] = 1822,
+									["Caranne Briarbow"] = 9702,
+									["Ariel Stagguard"] = 7409,
+									["Frenzied Blackwood Furbolg"] = 9499,
+									["Maddened Blackwood"] = 0,
+									["Darnassus Sentinel"] = 19170,
+									["Risen Grovewarden"] = 1789,
+									["Unforgiving Sentinel"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 63490,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 43,
+								["total"] = 95925,
+								["c_max"] = 4039,
+								["id"] = 17962,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 34,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[348] = {
+								["c_amt"] = 20,
+								["b_amt"] = 0,
+								["c_dmg"] = 24530,
+								["g_amt"] = 0,
+								["n_max"] = 678,
+								["targets"] = {
+									["Druid of the Claw"] = 0,
+									["Vengeful Huntress"] = 2320,
+									["Coastal Defender"] = 0,
+									["Burning Ancient"] = 2567,
+									["Priestess of the Moon"] = 1816,
+									["Auberdine Guardian"] = 0,
+									["Druid of the Branch"] = 0,
+									["Unforgiving Sentinel"] = 0,
+									["Lieutenant Aylissa Silverarrow"] = 1255,
+									["Darnassian Archer"] = 8582,
+									["Ashenvale Huntress"] = 2455,
+									["Lor'danel Sentinel"] = 7973,
+									["Corrupted Blackwood"] = 2614,
+									["Sentry Owl"] = 1183,
+									["Hippogryph Archer"] = 1225,
+									["Risen Grovewarden"] = 618,
+									["Caranne Briarbow"] = 1209,
+									["Ariel Stagguard"] = 1739,
+									["Frenzied Blackwood Furbolg"] = 7522,
+									["Rat"] = 0,
+									["Maddened Blackwood"] = 1936,
+									["Darnassus Sentinel"] = 5591,
+									["Forest Sister"] = 2303,
+									["Shadowglen Keeper"] = 1795,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 30173,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 69,
+								["total"] = 54703,
+								["c_max"] = 1359,
+								["id"] = 348,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 49,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[29722] = {
+								["c_amt"] = 29,
+								["b_amt"] = 0,
+								["c_dmg"] = 54936,
+								["g_amt"] = 0,
+								["n_max"] = 1106,
+								["targets"] = {
+									["Druid of the Claw"] = 0,
+									["Vengeful Huntress"] = 3083,
+									["Caranne Briarbow"] = 8777,
+									["Burning Ancient"] = 18329,
+									["Priestess of the Moon"] = 3969,
+									["Auberdine Guardian"] = 0,
+									["Lieutenant Aylissa Silverarrow"] = 10075,
+									["Ashenvale Huntress"] = 3215,
+									["Lor'danel Sentinel"] = 10120,
+									["Corrupted Blackwood"] = 5098,
+									["Ariel Stagguard"] = 2807,
+									["Unforgiving Sentinel"] = 0,
+									["Darnassian Archer"] = 1872,
+									["Hippogryph Archer"] = 5125,
+									["Forest Sister"] = 7888,
+									["Frenzied Blackwood Furbolg"] = 9922,
+									["Maddened Blackwood"] = 2900,
+									["Darnassus Sentinel"] = 15248,
+									["Shadowglen Keeper"] = 5652,
+									["Risen Grovewarden"] = 877,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 60021,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 91,
+								["total"] = 114957,
+								["c_max"] = 2115,
+								["id"] = 29722,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 62,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[234153] = {
+								["c_amt"] = 20,
+								["b_amt"] = 0,
+								["c_dmg"] = 5613,
+								["g_amt"] = 0,
+								["n_max"] = 141,
+								["targets"] = {
+									["Lor'danel Sentinel"] = 5618,
+									["Druid of the Branch"] = 0,
+									["Darnassus Sentinel"] = 1679,
+									["Darnassian Archer"] = 5883,
+									["Shadowglen Keeper"] = 1406,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8973,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 84,
+								["total"] = 14586,
+								["c_max"] = 281,
+								["id"] = 234153,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 64,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["spec"] = 267,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 410591.129119,
+					["start_time"] = 1533228339,
+					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 4369,
+					["totalabsorbed"] = 0.099642,
+					["damage_from"] = {
+						["Darnassus Sentinel"] = true,
+						["Burning Ancient"] = true,
+						["Shadowglen Keeper"] = true,
+					},
+					["targets"] = {
+						["Lieutenant Aylissa Silverarrow"] = 4572,
+						["Ashenvale Huntress"] = 5028,
+						["Vengeful Huntress"] = 4131,
+						["Corrupted Blackwood"] = 2285,
+						["Frenzied Blackwood Furbolg"] = 6859,
+						["Hippogryph Archer"] = 1828,
+						["Darnassian Archer"] = 9144,
+						["Burning Ancient"] = 10973,
+						["Priestess of the Moon"] = 4590,
+						["Sentry Owl"] = 3202,
+						["Forest Sister"] = 2295,
+						["Maddened Blackwood"] = 3200,
+						["Darnassus Sentinel"] = 13720,
+						["Shadowglen Keeper"] = 2754,
+						["Risen Grovewarden"] = 918,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 75499.099642,
+					["damage_taken"] = 6981.099642,
+					["dps_started"] = false,
+					["total"] = 75499.099642,
+					["serial"] = "Pet-0-3878-1-29281-416-0102A38A1A",
+					["ownerName"] = "Deminath",
+					["nome"] = "Lazgup <Deminath> <Deminath>",
+					["spells"] = {
+						["_ActorTable"] = {
+							[3110] = {
+								["c_amt"] = 41,
+								["b_amt"] = 0,
+								["c_dmg"] = 37518,
+								["g_amt"] = 0,
+								["n_max"] = 459,
+								["targets"] = {
+									["Lieutenant Aylissa Silverarrow"] = 4572,
+									["Ashenvale Huntress"] = 5028,
+									["Vengeful Huntress"] = 4131,
+									["Corrupted Blackwood"] = 2285,
+									["Frenzied Blackwood Furbolg"] = 6859,
+									["Hippogryph Archer"] = 1828,
+									["Darnassian Archer"] = 9144,
+									["Burning Ancient"] = 10973,
+									["Priestess of the Moon"] = 4590,
+									["Sentry Owl"] = 3202,
+									["Forest Sister"] = 2295,
+									["Maddened Blackwood"] = 3200,
+									["Darnassus Sentinel"] = 13720,
+									["Shadowglen Keeper"] = 2754,
+									["Risen Grovewarden"] = 918,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 37981,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 124,
+								["total"] = 75499,
+								["c_max"] = 918,
+								["id"] = 3110,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 83,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "PET",
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1533246179,
+					["delay"] = 0,
+					["end_time"] = 1533246200,
+				}, -- [2]
+				{
+					["flag_original"] = 8465,
+					["totalabsorbed"] = 0.024577,
+					["damage_from"] = {
+						["Ashenvale Huntress"] = true,
+					},
+					["targets"] = {
+						["Frenzied Blackwood Furbolg"] = 5067,
+						["Ashenvale Huntress"] = 10099,
+						["Burning Ancient"] = 9184,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 24350.024577,
+					["last_dps"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1533233242,
+					["serial"] = "Creature-0-3878-1-29281-89-000063375D",
+					["ownerName"] = "Deminath",
+					["nome"] = "Infernal <Deminath> <Deminath>",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 3199,
+								["g_amt"] = 0,
+								["n_max"] = 267,
+								["targets"] = {
+									["Frenzied Blackwood Furbolg"] = 1067,
+									["Ashenvale Huntress"] = 2666,
+									["Burning Ancient"] = 3466,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4000,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 21,
+								["total"] = 7199,
+								["c_max"] = 534,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 15,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[20153] = {
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 10289,
+								["g_amt"] = 0,
+								["n_max"] = 572,
+								["targets"] = {
+									["Frenzied Blackwood Furbolg"] = 4000,
+									["Ashenvale Huntress"] = 7433,
+									["Burning Ancient"] = 5718,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 6862,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 21,
+								["total"] = 17151,
+								["c_max"] = 1144,
+								["id"] = 20153,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 12,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["total"] = 24350.024577,
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 527.024577,
+					["start_time"] = 1533233225,
+					["delay"] = 0,
+					["friendlyfire"] = {
+					},
+				}, -- [3]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["Lazgup <Deminath>"] = 0,
+						["Deminath"] = 0,
+					},
+					["pets"] = {
+						"Lazgup <Deminath> <Deminath>", -- [1]
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 5355.135471,
+					["total_without_pet"] = 322994.135471,
+					["total"] = 322994.135471,
+					["targets_absorbs"] = {
+						["Lazgup <Deminath>"] = 0,
+						["Deminath"] = 0,
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-5-0B28F0EA",
+					["totalabsorb"] = 241099.135471,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Lazgup <Deminath>"] = 0,
+						["Deminath"] = 0,
+					},
+					["totalover_without_pet"] = 0.135471,
+					["healing_taken"] = 314148.135471,
+					["fight_component"] = true,
+					["end_time"] = 1533228897,
+					["healing_from"] = {
+						["Deminath"] = true,
+					},
+					["nome"] = "Deminath",
+					["spells"] = {
+						["_ActorTable"] = {
+							[77220] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 39150,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 328,
+								["targets"] = {
+									["Deminath"] = 39150,
+								},
+								["n_min"] = 0,
+								["counter"] = 517,
+								["overheal"] = 0,
+								["total"] = 39150,
+								["c_max"] = 0,
+								["id"] = 77220,
+								["targets_absorbs"] = {
+									["Deminath"] = 39150,
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 39150,
+								["n_amt"] = 517,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+							[234153] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 1405,
+								["targets"] = {
+									["Deminath"] = 71480,
+								},
+								["n_min"] = 0,
+								["counter"] = 84,
+								["overheal"] = 0,
+								["total"] = 71480,
+								["c_max"] = 0,
+								["id"] = 234153,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 71480,
+								["n_amt"] = 84,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+							[127802] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Deminath"] = 5082,
+								},
+								["n_max"] = 711,
+								["targets"] = {
+									["Deminath"] = 10415,
+								},
+								["n_min"] = 0,
+								["counter"] = 38,
+								["overheal"] = 5082,
+								["total"] = 10415,
+								["c_max"] = 0,
+								["id"] = 127802,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 10415,
+								["n_amt"] = 38,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+							[108366] = {
+								["c_amt"] = 1,
+								["totalabsorb"] = 201949,
+								["targets_overheal"] = {
+									["Lazgup <Deminath>"] = 147,
+									["Deminath"] = 126,
+								},
+								["n_max"] = 2120,
+								["targets"] = {
+									["Lazgup <Deminath>"] = 8699,
+									["Deminath"] = 193103,
+								},
+								["n_min"] = 0,
+								["counter"] = 563,
+								["overheal"] = 273,
+								["total"] = 201802,
+								["c_max"] = 0,
+								["id"] = 108366,
+								["targets_absorbs"] = {
+									["Lazgup <Deminath>"] = 8846,
+									["Deminath"] = 193103,
+								},
+								["c_curado"] = -147,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = -147,
+								["n_curado"] = 201949,
+								["n_amt"] = 562,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["spec"] = 267,
+					["classe"] = "WARLOCK",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["start_time"] = 1533228353,
+					["totaldenied"] = 0.135471,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [1]
+				{
+					["flag_original"] = 4369,
+					["healing_from"] = {
+						["Deminath"] = true,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "PET",
+					["totalover"] = 0.018734,
+					["total_without_pet"] = 0.018734,
+					["total"] = 0.018734,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Pet-0-3878-1-29281-416-0D02A38A1A",
+					["totalabsorb"] = 0.018734,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.018734,
+					["healing_taken"] = 418.018734,
+					["fight_component"] = true,
+					["end_time"] = 1533233242,
+					["ownerName"] = "Deminath",
+					["nome"] = "Lazgup <Deminath> <Deminath>",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1533233239,
+					["targets_overheal"] = {
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.018734,
+					["delay"] = 0,
+					["heal_enemy_amt"] = 0,
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 15.047677,
+					["resource"] = 0.112702,
+					["targets"] = {
+						["Deminath"] = 0,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "WARLOCK",
+					["fight_component"] = true,
+					["total"] = 15.047677,
+					["nome"] = "Deminath",
+					["spec"] = 267,
+					["grupo"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[215942] = {
+								["id"] = 215942,
+								["total"] = 15,
+								["targets"] = {
+									["Deminath"] = 0,
+								},
+								["counter"] = 15,
+							},
+						},
+						["tipo"] = 7,
+					},
+					["tipo"] = 3,
+					["alternatepower"] = 0.047677,
+					["last_event"] = 0,
+					["serial"] = "Player-5-0B28F0EA",
+					["flag_original"] = 1297,
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[234153] = {
+								["refreshamt"] = 7,
+								["activedamt"] = 0,
+								["appliedamt"] = 22,
+								["id"] = 234153,
+								["uptime"] = 74,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[22703] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 7,
+								["id"] = 22703,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[157736] = {
+								["refreshamt"] = 5,
+								["appliedamt"] = 58,
+								["activedamt"] = -18,
+								["uptime"] = 388,
+								["id"] = 157736,
+								["actived_at"] = 15332328863,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[30283] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 30283,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[191380] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 34,
+								["id"] = 191380,
+								["uptime"] = 51,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[80240] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 9,
+								["id"] = 80240,
+								["uptime"] = 69,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[265931] = {
+								["refreshamt"] = 2,
+								["activedamt"] = 0,
+								["appliedamt"] = 41,
+								["id"] = 265931,
+								["uptime"] = 191,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["cooldowns_defensive"] = 1.013373,
+					["buff_uptime"] = 2223,
+					["cc_done_spells"] = {
+						["_ActorTable"] = {
+							[30283] = {
+								["id"] = 30283,
+								["targets"] = {
+									["Darnassian Archer"] = 1,
+									["Caranne Briarbow"] = 1,
+								},
+								["counter"] = 2,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["classe"] = "WARLOCK",
+					["cooldowns_defensive_targets"] = {
+						["Deminath"] = 1,
+					},
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[232412] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 5,
+								["activedamt"] = 5,
+								["uptime"] = 0,
+								["id"] = 232412,
+								["actived_at"] = 7666212539,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 25,
+								["appliedamt"] = 25,
+								["id"] = 186406,
+								["uptime"] = 645,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[104773] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 104773,
+								["uptime"] = 14,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[266030] = {
+								["refreshamt"] = 6,
+								["activedamt"] = 23,
+								["appliedamt"] = 23,
+								["id"] = 266030,
+								["uptime"] = 149,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[227723] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 25,
+								["appliedamt"] = 25,
+								["id"] = 227723,
+								["uptime"] = 645,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[108366] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 222,
+								["appliedamt"] = 222,
+								["id"] = 108366,
+								["uptime"] = 543,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[6307] = {
+								["counter"] = 0,
+								["appliedamt"] = 3,
+								["activedamt"] = 3,
+								["actived_at"] = 4599735823,
+								["id"] = 6307,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[117828] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 44,
+								["appliedamt"] = 44,
+								["id"] = 117828,
+								["uptime"] = 227,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 787,
+					["spell_cast"] = {
+						[1122] = 4,
+						[104773] = 1,
+						[80240] = 9,
+						[17962] = 41,
+						[234153] = 28,
+						[152108] = 3,
+						[5740] = 12,
+						[30283] = 2,
+						[116858] = 36,
+						[266949] = 4,
+						[119905] = 4,
+						[29722] = 90,
+						[348] = 55,
+					},
+					["cc_done"] = 2.017133,
+					["nome"] = "Deminath",
+					["spec"] = 267,
+					["grupo"] = true,
+					["cc_done_targets"] = {
+						["Darnassian Archer"] = 1,
+						["Caranne Briarbow"] = 1,
+					},
+					["serial"] = "Player-5-0B28F0EA",
+					["buff_uptime_targets"] = {
+					},
+					["last_event"] = 0,
+					["pets"] = {
+						"Lazgup <Deminath> <Deminath>", -- [1]
+						"Infernal <Deminath> <Deminath>", -- [2]
+					},
+					["tipo"] = 4,
+					["cooldowns_defensive_spells"] = {
+						["_ActorTable"] = {
+							[104773] = {
+								["id"] = 104773,
+								["targets"] = {
+									["Deminath"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime_targets"] = {
+					},
+				}, -- [1]
+				{
+					["flag_original"] = 4369,
+					["ownerName"] = "Deminath",
+					["nome"] = "Lazgup <Deminath> <Deminath>",
+					["tipo"] = 4,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["last_event"] = 0,
+					["spell_cast"] = {
+						[3110] = 115,
+						[89792] = 1,
+					},
+					["serial"] = "Pet-0-3878-1-29281-416-0102A38A1A",
+					["fight_component"] = true,
+				}, -- [2]
+				{
+					["flag_original"] = 8465,
+					["ownerName"] = "Deminath",
+					["nome"] = "Infernal <Deminath> <Deminath>",
+					["spell_cast"] = {
+						[19483] = 3,
+					},
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["pets"] = {
+					},
+					["serial"] = "Creature-0-3878-1-29281-89-000063375D",
+					["tipo"] = 4,
+				}, -- [3]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 2068,
+		["totals"] = {
+			1424646.320162, -- [1]
+			322994.13036, -- [2]
+			{
+				0, -- [1]
+				[0] = 15.044709,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 1.00808,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["end_time"] = 23920.563,
+		["overall_refreshed"] = true,
+		["data_inicio"] = "09:54:47",
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = "14:43:20",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 20.6200000000026,
+				["type"] = 0,
+				["name"] = "Vengeful Huntress",
+				["clock"] = "14:43:00",
+			}, -- [1]
+			{
+				["elapsed"] = 13.4429999999993,
+				["type"] = 0,
+				["name"] = "Vengeful Huntress",
+				["clock"] = "14:42:39",
+			}, -- [2]
+			{
+				["elapsed"] = 26.7849999999999,
+				["type"] = 0,
+				["name"] = "Priestess of the Moon",
+				["clock"] = "14:41:58",
+			}, -- [3]
+			{
+				["elapsed"] = 40.3859999999986,
+				["type"] = 0,
+				["name"] = "Nature's Guardian",
+				["clock"] = "14:40:59",
+			}, -- [4]
+			{
+				["elapsed"] = 91.4510000000009,
+				["type"] = 0,
+				["name"] = "Caranne Briarbow",
+				["clock"] = "14:22:31",
+			}, -- [5]
+			{
+				["elapsed"] = 13.1219999999994,
+				["type"] = 0,
+				["name"] = "Lor'danel Sentinel",
+				["clock"] = "14:21:48",
+			}, -- [6]
+			{
+				["elapsed"] = 27.8469999999979,
+				["type"] = 0,
+				["name"] = "Lor'danel Sentinel",
+				["clock"] = "14:21:12",
+			}, -- [7]
+			{
+				["elapsed"] = 21.1450000000004,
+				["type"] = 0,
+				["name"] = "Ariel Stagguard",
+				["clock"] = "14:20:37",
+			}, -- [8]
+			{
+				["elapsed"] = 16.9480000000003,
+				["type"] = 0,
+				["name"] = "Lor'danel Sentinel",
+				["clock"] = "14:20:09",
+			}, -- [9]
+			{
+				["elapsed"] = 23.0379999999987,
+				["type"] = 0,
+				["name"] = "Lieutenant Aylissa Silverarrow",
+				["clock"] = "11:08:33",
+			}, -- [10]
+			{
+				["elapsed"] = 20.5349999999999,
+				["type"] = 0,
+				["name"] = "Burning Ancient",
+				["clock"] = "11:07:02",
+			}, -- [11]
+			{
+				["elapsed"] = 130.096,
+				["type"] = 0,
+				["name"] = "Darnassus Sentinel",
+				["clock"] = "11:04:27",
+			}, -- [12]
+			{
+				["elapsed"] = 11.0190000000002,
+				["type"] = 0,
+				["name"] = "Hippogryph Archer",
+				["clock"] = "10:56:31",
+			}, -- [13]
+			{
+				["elapsed"] = 12.8259999999991,
+				["type"] = 0,
+				["name"] = "Maddened Blackwood",
+				["clock"] = "10:52:15",
+			}, -- [14]
+			{
+				["elapsed"] = 17.0799999999999,
+				["type"] = 0,
+				["name"] = "Corrupted Blackwood",
+				["clock"] = "10:50:56",
+			}, -- [15]
+			{
+				["elapsed"] = 25.8119999999999,
+				["type"] = 0,
+				["name"] = "Burning Ancient",
+				["clock"] = "10:48:45",
+			}, -- [16]
+			{
+				["elapsed"] = 18.4539999999997,
+				["type"] = 0,
+				["name"] = "Frenzied Blackwood Furbolg",
+				["clock"] = "10:47:51",
+			}, -- [17]
+			{
+				["elapsed"] = 10.0389999999989,
+				["type"] = 0,
+				["name"] = "Frenzied Blackwood Furbolg",
+				["clock"] = "10:47:33",
+			}, -- [18]
+			{
+				["elapsed"] = 14.4740000000002,
+				["type"] = 0,
+				["name"] = "Frenzied Blackwood Furbolg",
+				["clock"] = "10:47:12",
+			}, -- [19]
+			{
+				["elapsed"] = 13.223,
+				["type"] = 0,
+				["name"] = "Sentry Owl",
+				["clock"] = "10:46:03",
+			}, -- [20]
+			{
+				["elapsed"] = 15.134,
+				["type"] = 0,
+				["name"] = "Darnassus Sentinel",
+				["clock"] = "10:44:10",
+			}, -- [21]
+			{
+				["elapsed"] = 15.4549999999999,
+				["type"] = 0,
+				["name"] = "Darnassian Archer",
+				["clock"] = "10:41:58",
+			}, -- [22]
+			{
+				["elapsed"] = 22.4840000000004,
+				["type"] = 0,
+				["name"] = "Darnassus Sentinel",
+				["clock"] = "10:41:32",
+			}, -- [23]
+			{
+				["elapsed"] = 11.1289999999999,
+				["type"] = 0,
+				["name"] = "Ashenvale Huntress",
+				["clock"] = "09:55:11",
+			}, -- [24]
+			{
+				["elapsed"] = 10.6860000000006,
+				["type"] = 0,
+				["name"] = "Ashenvale Huntress",
+				["clock"] = "09:54:47",
+			}, -- [25]
+		},
+		["start_time"] = 23277.332,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
+			["Raid Damage Done"] = {
+			},
+		},
+		["totals_grupo"] = {
+			995775.121625, -- [1]
+			322994.133818, -- [2]
+			{
+				0, -- [1]
+				[0] = 15.044709,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 1.00808,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+	},
+	["character_data"] = {
+		["logons"] = 250,
+	},
+	["force_font_outline"] = "",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-5-0A3DAAAC"] = 66,
+		["Player-5-0B28F0EA"] = 267,
+	},
+}
