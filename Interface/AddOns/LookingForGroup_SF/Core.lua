@@ -91,7 +91,7 @@ local function realm_filter(name)
 	end
 end
 
-local function keyword_filter(filters,msg,player)
+local function keyword_filter(filters,msg,player,sf_whisper)
 	if realm_filter(player) then
 		return true
 	end
@@ -99,6 +99,9 @@ local function keyword_filter(filters,msg,player)
 	local string_find = string.find
 	for i=1,#filters do
 		if string_find(msg,filters[i]) then
+			if sf_whisper then
+				SendChatMessage(sf_whisper,"WHISPER",nil,player)
+			end
 			return true
 		end
 	end
@@ -106,6 +109,9 @@ local function keyword_filter(filters,msg,player)
 		player = player:lower()
 		for i=1,#filters do
 			if string_find(player,filters[i]) then
+				if sf_whisper then
+					SendChatMessage(sf_whisper,"WHISPER",nil,player)
+				end
 				return true
 			end
 		end
@@ -158,7 +164,7 @@ local function pm_filter(_, _, msg, player, _, _, _, _, _, _, _, _, _, guid)
 	else
 		local filters = profile.spam_filter_keywords
 		if filters then
-			return keyword_filter(filters,msg,player)
+			return keyword_filter(filters,msg,player,profile.sf_whisper)
 		end
 	end
 end
@@ -178,13 +184,16 @@ local function channel_filter(_, _, msg, player, _, _, _, _, _, _, _, _, _, guid
 			return
 		end
 	end
+	local profile = LookingForGroup.db.profile
 	local numHyperlink
-	msg, numHyperlink = msg:gsub("|H.-|h(.-)|h","%1")
+	msg, numHyperlink = msg:gsub("|c[^%[]+%[([^%]]+)%]|h|r", "%1")
 	if 2 < numHyperlink then
+		local sf_whisper = profile.sf_whisper
+		if sf_whisper then
+			SendChatMessage(sf_whisper,"WHISPER",nil,player)
+		end
 		return true
 	end
-	msg = msg:gsub("|c%x%x%x%x%x%x%x%x",""):gsub("|r","")
-	local profile = LookingForGroup.db.profile
 	local length = profile.spam_filter_maxlength
 	if length and length < strlenutf8(msg) then
 		return true
@@ -201,7 +210,7 @@ local function channel_filter(_, _, msg, player, _, _, _, _, _, _, _, _, _, guid
 	end
 	local filters = profile.spam_filter_keywords
 	if filters then
-		return keyword_filter(filters,msg,player)
+		return keyword_filter(filters,msg,player,profile.sf_whisper)
 	end
 end
 
@@ -219,12 +228,12 @@ local function guild_filter(_, _, msg, player, _, _, _, _, _, _, _, _, _, guid)
 	end
 	local filters = profile.spam_filter_keywords
 	if filters then
-		return keyword_filter(filters,msg,player)
+		return keyword_filter(filters,msg,player,profile.sf_whisper)
 	end
 end
 
 local function DBM_filter(_,_,msg)
-	if msg:find("^<Deadly Boss Mods>") or msg:find("^<DBM>") or msg:find("^%[BigWigs%]") or msg:find("^<LFG>") then
+	if msg:find("^<Deadly Boss Mods>") or msg:find("^<DBM>") or msg:find("^%[BigWigs%]") or msg:find("^<LFG>") or msg == LookingForGroup.db.profile.sf_whisper then
 		return true
 	end
 end

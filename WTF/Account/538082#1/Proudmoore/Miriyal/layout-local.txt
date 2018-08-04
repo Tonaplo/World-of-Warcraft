@@ -41,10 +41,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: WeakAurasDisplayButton346
-FrameLevel: 8
-Anchor: CENTER
-X: -129
-Y: 8
-W: 755
-H: 32

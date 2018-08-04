@@ -85,7 +85,7 @@ LookingForGroup_Options:push("find",{
 	name = FIND_A_GROUP,
 	desc = LFG_LIST_SELECT_A_CATEGORY,
 	type = "group",
-	childGroups = "select",
+	childGroups = "tab",
 	args =
 	{
 		category =

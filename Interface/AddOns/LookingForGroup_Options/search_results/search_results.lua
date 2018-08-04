@@ -116,13 +116,26 @@ function LookingForGroup_Options.Search(dialog_control,sign_up_func,research_fun
 	local function resume()
 		coroutine.resume(current)
 	end
-	local function finalizer(para)
-		if para then
-			LookingForGroup_Options:UnregisterMessage("LFG_ICON_MIDDLE_CLICK")
-			C_LFGList.ClearSearchResults()
-			LookingForGroup_Options:CancelAllTimers()
-			LookingForGroup_Options.Background_Timer = nil
-			LookingForGroup_Options.option_table.args.search_result = nil
+	local function finalizer(v)
+		wipe(select_sup)
+		LookingForGroup_Options:UnregisterMessage("LFG_ICON_MIDDLE_CLICK")
+		LookingForGroup_Options:UnregisterMessage("LFG_CORE_FINALIZER")
+		C_LFGList.ClearSearchResults()
+		LookingForGroup_Options:CancelAllTimers()
+		LookingForGroup_Options.Background_Timer = nil
+		if v == 1 then
+			local args = option_table_args.search_result.args
+			args.sign_up = nil
+			local results = args.results
+			if results then
+				wipe(results)
+				results.order = 4
+				results.name = SEARCHING
+				results.type = "description"
+				width = "full"
+			end
+		else
+			option_table_args.search_result = nil
 			if LookingForGroup_Options.IsSelected("search_result") then
 				if back_list then
 					AceConfigDialog:SelectGroup("LookingForGroup",unpack(back_list))
@@ -133,8 +146,11 @@ function LookingForGroup_Options.Search(dialog_control,sign_up_func,research_fun
 				LibStub("AceConfigRegistry-3.0"):NotifyChange("LookingForGroup")
 			end
 		end
-		coroutine.resume(current,true)
 	end
+	LookingForGroup_Options:SendMessage("LFG_CORE_FINALIZER",1)
+	LookingForGroup_Options:RegisterMessage("LFG_CORE_FINALIZER",function(_,v)
+		coroutine.resume(current,v)
+	end)
 	LookingForGroup_Options:RegisterMessage("LFG_ICON_MIDDLE_CLICK",finalizer)
 	local args =
 	{
@@ -176,7 +192,7 @@ function LookingForGroup_Options.Search(dialog_control,sign_up_func,research_fun
 		childGroups = "tab",
 		args = args
 	}
-	local count, results = LookingForGroup.Search(category,terms or LookingForGroup_Options.ExecuteSearchPattern(filter_options),filters,preferredfilters,finalizer)
+	local count, results = LookingForGroup.Search(category,terms or LookingForGroup_Options.ExecuteSearchPattern(filter_options),filters,preferredfilters)
 	wipe(select_sup)
 	local ftrs
 	local cnct
@@ -251,11 +267,13 @@ function LookingForGroup_Options.Search(dialog_control,sign_up_func,research_fun
 	local taskbar_flash = lfg_profile.taskbar_flash
 	while true do
 		LookingForGroup_Options.Background_Timer = LookingForGroup_Options:ScheduleTimer(resume,#ftrs+10)
-		if coroutine.yield() then
+		local yd = coroutine.yield()
+		if yd then
+			finalizer(yd)
 			return
 		elseif next(select_sup) == nil then
 			if not hardware then
-				count, results = LookingForGroup.Search(category,terms,filters,preferredfilters,finalizer)
+				count, results = LookingForGroup.Search(category,terms,filters,preferredfilters)
 				cnct[3]=#results
 				cnct[4]=(#results ~= count and count) or nil
 			end

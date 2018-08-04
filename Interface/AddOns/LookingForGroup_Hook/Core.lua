@@ -25,7 +25,6 @@ function Hook:OnEnable()
 		QuickJoinToastButton:Hide()
 	end
 	self:RawHook("LFGListUtil_SetSearchEntryTooltip",true)
-	self:RawHook(UIErrorsFrame,"AddMessage",true)
 	self:SecureHook("QuestObjectiveSetupBlockButton_FindGroup")
 end
 
@@ -261,11 +260,6 @@ end
 function Hook:LFGListUtil_SetSearchEntryTooltip(tooltip,resultID, ...)
 	if not pcall(self.hooks.LFGListUtil_SetSearchEntryTooltip,tooltip,resultID,...) then
 		tooltip:Hide()
-	end
-end
-function Hook:AddMessage(frame,message,...)
-	if message ~= ERR_REPORT_SUBMITTED_SUCCESSFULLY then
-		self.hooks[frame].AddMessage(frame,message,...)
 	end
 end
 

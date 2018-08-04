@@ -351,7 +351,7 @@ local function init_roles(id,numMembers)
 			damager = damager + 1
 		end
 	end
-	return tank,healer,damager
+	return tank,healer,damager,tank_tb,healer_tb,damager_tb,classes
 end
 LookingForGroup_Options.init_roles = init_roles
 local concat_tb = {}

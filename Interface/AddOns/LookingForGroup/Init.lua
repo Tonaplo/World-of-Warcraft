@@ -37,13 +37,8 @@ function LookingForGroup:OnEnable()
 	self.load_time = GetTime()
 end
 
-function LookingForGroup.Search(category,terms,filters,preferredfilters,finalizer)
-	if LookingForGroup.finalizer~=finalizer then
-		if LookingForGroup.finalizer then
-			LookingForGroup.finalizer()
-		end
-		LookingForGroup.finalizer = finalizer
-	end
+function LookingForGroup.Search(category,terms,filters,preferredfilters)
+	LookingForGroup:SendMessage("LFG_CORE_FINALIZER",0)
 	C_LFGList.Search(category,terms,filters,preferredfilters,C_LFGList.GetLanguageSearchFilter())
 	local current = coroutine.running()
 	LookingForGroup:RegisterEvent("LFG_LIST_SEARCH_RESULTS_RECEIVED",function()

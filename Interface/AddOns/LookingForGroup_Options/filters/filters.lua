@@ -174,6 +174,8 @@ function LookingForGroup_Options.ExecuteFilter(results,filter_options,first)
 		else
 			auto_report = not profile.auto_report
 		end
+		local UIErrorsFrame = UIErrorsFrame
+		UIErrorsFrame:UnregisterEvent("UI_INFO_MESSAGE") -- Don't show the "Thanks for the report" message
 		for i=1,#results do
 			local v = bts[i]
 			local g = results[i]
@@ -197,6 +199,7 @@ function LookingForGroup_Options.ExecuteFilter(results,filter_options,first)
 				end]]
 			end
 		end
+		UIErrorsFrame:RegisterEvent("UI_INFO_MESSAGE")
 	end
 	LookingForGroup_Options.SortSearchResults(tb)
 	return tb

@@ -89,6 +89,22 @@ LookingForGroup_Options:push("sf",{
 			get = nop,
 			width = "full"
 		},
+		auto_whisper =
+		{
+			name = WHISPER,
+			type = "input",
+			get = function(info)
+				return LookingForGroup.db.profile.sf_whisper
+			end,
+			set = function(info,v)
+				if v:len() == 0 then
+					LookingForGroup.db.profile.sf_whisper = nil
+				else
+					LookingForGroup.db.profile.sf_whisper = v					
+				end
+			end,
+			width = "full"
+		},
 		rmv =
 		{
 			name = REMOVE,
@@ -543,7 +559,7 @@ LookingForGroup_Options:push("sf",{
 						end
 					end
 				},
-				meetingstone =
+--[[				meetingstone =
 				{
 					name = "Meeting Stone",
 					desc = "Hack",
@@ -558,7 +574,7 @@ LookingForGroup_Options:push("sf",{
 							LookingForGroup_Options.db.profile.addon_meeting_stone_hack = true
 						end
 					end
-				},
+				},]]
 --[[				empty =
 				{
 					name = EMPTY,

@@ -172,6 +172,7 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 		local GetSearchResultMemberCounts = C_LFGList.GetSearchResultMemberCounts
 		local smatch = string.match
 		local keyword_be_number = keyword and tonumber(keyword) or nil
+		UIErrorsFrame:UnregisterEvent("UI_INFO_MESSAGE") -- Don't show the "Thanks for the report" message
 		for i=1,#results do
 			local id, activityID, name, comment, voiceChat, iLvl, honorLevel, age, numBNetFriends, numCharFriends, numGuildMates, isDelisted, leaderName, numMembers, autoaccept, questID = GetSearchResultInfo(results[i])
 			local fullName, shortName, categoryID, groupID, itemLevel, lfgfilter, minLevel, maxPlayers, displayType, activityOrder = GetActivityInfo(activityID)
@@ -196,6 +197,7 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 				end
 			end
 		end
+		UIErrorsFrame:RegisterEvent("UI_INFO_MESSAGE")
 		if #temp == 0 then
 			count = 0
 		end

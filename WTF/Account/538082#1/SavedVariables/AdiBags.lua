@@ -46,14 +46,12 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 			["profiles"] = {
 				["Default"] = {
-					["small"] = true,
+					["dispatchRule"] = "slot",
 				},
 			},
-		},
-		["DataSource"] = {
 		},
 		["ItemSets"] = {
 			["char"] = {
@@ -83,12 +81,12 @@ AdiBagsDB = {
 						["Timeless Coin"] = false,
 						["Essence of Corrupted Deathwing"] = false,
 						["Apexis Crystal"] = false,
-						["Timewarped Badge"] = false,
-						["Lingering Soul Fragment"] = false,
-						["Oil"] = false,
-						["Artifact Fragment"] = false,
-						["Champion's Seal"] = false,
 						["Ironpaw Token"] = false,
+						["Champion's Seal"] = false,
+						["Artifact Fragment"] = false,
+						["Oil"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Timewarped Badge"] = false,
 					},
 					["text"] = {
 						["name"] = "Prototype",
@@ -96,12 +94,14 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
-					["dispatchRule"] = "slot",
+					["small"] = true,
 				},
 			},
 		},
@@ -114,26 +114,26 @@ AdiBagsDB = {
 		["Lorvol - Tichondrius"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
 		["Brity - Steamwheedle Cartel"] = "Default",
-		["Morifa - Tichondrius"] = "Default",
+		["Zethan - Tichondrius"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
 		["Deminath - Hyjal"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
-		["Zearthan - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
-		["Kindhoof - Tichondrius"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Deminath - Proudmoore"] = "Default",
-		["Korugen - Proudmoore"] = "Default",
-		["Zaliga - Bleeding Hollow"] = "Default",
+		["Zearthan - Proudmoore"] = "Default",
 		["Rentror - Bleeding Hollow"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
+		["Kindhoof - Tichondrius"] = "Default",
+		["Korugen - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Deminath - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Zaliga - Bleeding Hollow"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Kindhoof - Proudmoore"] = "Default",
-		["Zethan - Tichondrius"] = "Default",
+		["Morifa - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
 		["Mallusof - Icecrown"] = "Default",
 	},

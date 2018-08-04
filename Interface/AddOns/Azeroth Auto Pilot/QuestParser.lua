@@ -2094,7 +2094,7 @@ AAP_ParserEventFrame:SetScript("OnEvent", function(self, event, ...)
 		if (arg1 == "player" and arg3 == 89158) then
 			AAP_EquipGearTimer:Play()
 		end
-		if (arg1 == "player" and arg3 == 8690) then
+		if ((arg1 == "player") and (arg3 == 8690)) then
 			if (AAP1 and AAP1[AAP_Realm] and AAP1[AAP_Realm][AAP_Name] and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]) then
 				if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["UseHS"]) then
 					if (AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["HSSteps"]) then
@@ -2108,6 +2108,16 @@ AAP_ParserEventFrame:SetScript("OnEvent", function(self, event, ...)
 						AAP_Plus()
 						AAP_UpdateQuestList()
 					end
+				end
+			end
+		end
+		if ((arg1 == "player") and ((arg3 == 89157) or (arg3 == 89158))) then
+			if (AAP1 and AAP1[AAP_Realm] and AAP1[AAP_Realm][AAP_Name] and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]) then
+				if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["UseDalaHS"]) then
+					AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] + 1
+					AAP_Reset = 0
+					AAP_Plus()
+					AAP_UpdateQuestList()
 				end
 			end
 		end
