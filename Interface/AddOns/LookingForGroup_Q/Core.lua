@@ -63,15 +63,15 @@ local function cofunc(quest_id,secure,gp)
 			C_LFGList.CreateListing(activityID,ilvl,0,true,false,quest_id)
 		end
 	end
-	local function search()
-		return LookingForGroup.Search(categoryID,{{matches = {confirm_keyword or questName}}},filters,0)
+	local function search(fiop)
+		return LookingForGroup.Search(categoryID,{not fiop and {matches = {confirm_keyword or questName}} or nil},filters,0)
 	end
 	LookingForGroup_Q:RegisterEvent("QUEST_REMOVED",function(info,id)
 		if quest_id == id then
 			StaticPopup_Hide("LookingForGroup_HardwareAPIDialog")
 		end
 	end)
-	local raid = select(4,GetQuestTagInfo(quest_id)) == 3
+	local raid = select(5,GetQuestTagInfo(quest_id))
 	if gp == nil and IsInGroup() then
 		if secure and UnitIsGroupLeader("player", LE_PARTY_CATEGORY_HOME) then
 			gp = true
@@ -120,7 +120,7 @@ local function cofunc(quest_id,secure,gp)
 		end
 	end)
 	
-	LookingForGroup.autoloop()
+	LookingForGroup.autoloop(nil,nil,nil,nil,raid)
 	LookingForGroup_Q:UnregisterEvent("QUEST_TURNED_IN")
 	LookingForGroup_Q:UnregisterEvent("QUEST_REMOVED")
 	LookingForGroup_Q:UnregisterEvent("GROUP_LEFT")

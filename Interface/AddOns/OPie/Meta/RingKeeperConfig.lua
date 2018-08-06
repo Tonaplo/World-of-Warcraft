@@ -789,7 +789,7 @@ newSlice = CreateFrame("Frame", nil, ringContainer) do
 	newSlice.close:SetSize(30, 30)
 	newSlice.close:SetScript("OnClick", function() ringContainer.newSlice:Click() end)
 	local b = newSlice.close:CreateTexture(nil, "BACKGROUND", "UI-Frame-TopCornerRight")
-	b:SetTexCoord(90/128, 113/128, 2/128, 25/128)
+	b:SetTexCoord(9/33, 1, 0, 23/33)
 	b:SetPoint("TOPLEFT", 4, -5) b:SetPoint("BOTTOMRIGHT", -5, 4)
 	b:SetVertexColor(0.6,0.6,0.6)
 	
@@ -1222,7 +1222,7 @@ end
 local function socall(f, s, ...)
 	return true, f[s](f, ...)
 end
-function api.updateSliceDisplay(id, desc)
+function api.updateSliceDisplay(_id, desc)
 	local stype, sname, sicon, icoext = getSliceInfo(desc)
 	if sname ~= "" then
 		sliceDetail.desc:SetFormattedText("%s: |cffffffff%s|r", L(stype or "?"), L(sname or "?"))

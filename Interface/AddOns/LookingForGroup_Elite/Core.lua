@@ -27,6 +27,7 @@ local function cofunc(npc_id,name,guid)
 			end
 		end
 	end
+	local raid
 	if quest_id then
 		local activityID = C_LFGList.GetActivityIDForQuestID(quest_id)
 		local categoryID
@@ -59,10 +60,11 @@ local function cofunc(npc_id,name,guid)
 				C_LFGList.CreateListing(activityID,ilvl,0,true,false,quest_id)
 			end
 		end
-		local function search()
-			return LookingForGroup.Search(categoryID,{{matches = {confirm_keyword or questName}}},filters,0)
+		local function search(fiop)
+			return LookingForGroup.Search(categoryID,{not fiop and {matches = {confirm_keyword or questName}} or nil},filters,0)
 		end
-		if LookingForGroup.accepted(questName,search,create,0,nil,quest_id,confirm_keyword) then
+		raid = select(5,GetQuestTagInfo(quest_id))
+		if LookingForGroup.accepted(questName,search,create,0,nil,quest_id,confirm_keyword,raid) then
 			return
 		end
 	else
@@ -89,7 +91,7 @@ local function cofunc(npc_id,name,guid)
 			coroutine.resume(current,0)
 		end
 	end)
-	LookingForGroup.autoloop()
+	LookingForGroup.autoloop(nil,nil,nil,nil,raid)
 	LookingForGroup_Elite:UnregisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 	LookingForGroup_Elite:RegisterEvent("LOADING_SCREEN_DISABLED")
 	LookingForGroup_Elite:LOADING_SCREEN_DISABLED()

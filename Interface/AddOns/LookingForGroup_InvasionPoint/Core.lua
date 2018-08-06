@@ -31,8 +31,8 @@ local function cofunc(secure,player_is_leader)
 		C_LFGList.CreateListing(C_PvP.IsWarModeActive() and 17 or 16,ilvl,0,true,false)
 	end
 	local name = C_Map.GetMapInfo(map).name
-	local function search(use)
-		return LookingForGroup.Search(6,{{matches = {confirm_keyword}}},C_PvP.IsWarModeActive() and LE_LFG_LIST_FILTER_PVP or LE_LFG_LIST_FILTER_PVE,0)
+	local function search(fiop)
+		return LookingForGroup.Search(6,{not fiop and {matches = {confirm_keyword}} or nil},C_PvP.IsWarModeActive() and LE_LFG_LIST_FILTER_PVP or LE_LFG_LIST_FILTER_PVE,0)
 	end
 	if LookingForGroup.accepted(name,search,create,secure,true,nil,confirm_keyword) then
 		return

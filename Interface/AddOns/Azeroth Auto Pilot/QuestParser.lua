@@ -100,7 +100,6 @@ function AAP_RepaintGroups()
 	end
 end
 function AAP_Plus()
-	AAP_CompletedQs = GetQuestsCompleted()
 	if (UnitLevel("player") == 120) then
 		for AAP_index,AAP_value in pairs(AAP_BonusObj) do
 			if (not AAP_CompletedQs[AAP_index]) then
@@ -1458,7 +1457,6 @@ function AAP_SetQPTT()
 	end
 end
 function AAP_ChangeZone()
-	AAP_CompletedQs = GetQuestsCompleted()
 	if (UnitLevel("player") == 120) then
 		for AAP_index,AAP_value in pairs(AAP_BonusObj) do
 			if (not AAP_CompletedQs[AAP_index]) then
@@ -1576,8 +1574,14 @@ function AAP_ChangeZone()
 				AAP_ActiveZone = "A895"
 				--AAP_TestAllyCampaign()
 			else
-				AAP_Quests = AllySteps[AAP_ActiveZone]
+				if (AllySteps[AAP_ActiveZone]) then
+					AAP_Quests = AllySteps[AAP_ActiveZone]
+				else
+					AAP_ActiveZone = 1233123991
+					AAP_Quests = AAP_QuestList[1233123991]
+				end
 				--AAP_TestAllyCampaign()
+
 			end
 		else
 		-- Horde
@@ -1615,10 +1619,13 @@ function AAP_ChangeZone()
 			elseif (AAP_QuestList[AAP_ActiveZone]) then
 				AAP_Quests = AAP_QuestList[AAP_ActiveZone]
 				AAP_TestHordeCampaign()
+			else
+				AAP_ActiveZone = 1233123991
+				AAP_Quests = AAP_QuestList[1233123991]
 			end
 --print(AAP_ActiveZone)
 		end
-		if (AAP_ActiveZoneOld ~= AAP_ActiveZone) then
+		if (AAP_ActiveZoneOld ~= AAP_ActiveZone or AAP_ActiveZone == 1233123991) then
 			AAP_ArrowActive = 0
 			AAP_ArrowActive_X = 0
 			AAP_ArrowActive_Y = 0

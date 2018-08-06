@@ -9,7 +9,7 @@ OneRing_Config = {
 		["Proudmoore-Fimwack-2"] = "default",
 	},
 	["_GameLocale"] = "enUS",
-	["_OPieVersion"] = "Vanilla 5 (3.93)",
+	["_OPieVersion"] = "Vanilla 6 (3.93)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["ClickActivation"] = true,
@@ -91,8 +91,8 @@ OneRing_Config = {
 			},
 			["SpecMenu"] = {
 				{
-					["sliceToken"] = "OPCTAc",
 					["id"] = "/cast {{spell:50977/193753/126892/193759}}",
+					["sliceToken"] = "OPCTAc",
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -253,16 +253,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea5k9m/e",
 				}, -- [10]
 				{
-					["sliceToken"] = "ABuea5PhMXe",
 					["id"] = 229385,
+					["sliceToken"] = "ABuea5PhMXe",
 				}, -- [11]
 				{
 					["id"] = 232412,
 					["sliceToken"] = "ABueax2PbEe",
 				}, -- [12]
 				{
-					["id"] = 231434,
 					["sliceToken"] = "ABueaxptLhe",
+					["id"] = 231434,
 				}, -- [13]
 				{
 					["id"] = 231435,

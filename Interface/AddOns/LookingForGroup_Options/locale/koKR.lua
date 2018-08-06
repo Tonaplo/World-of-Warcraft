@@ -15,10 +15,6 @@ L["Auto"] = "자동"
 --[[Translation missing --]]
 --[[ L["auto_report_desc"] = ""--]] 
 --[[Translation missing --]]
---[[ L["auto_use_name"] = ""--]] 
---[[Translation missing --]]
---[[ L["auto_use_name_desc"] = ""--]] 
---[[Translation missing --]]
 --[[ L["auto_wq_only_desc"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Backfill"] = ""--]] 
@@ -45,6 +41,8 @@ L["find_f_encounters"] = [=[보통 클릭 = 이 우두머리는 반드시 처치
 L["find_recommended_desc"] = [=[보통 클릭 = 추천 활동만 표시
 어두운 클릭 = 다른 활동 표시
 클릭 안함 = 모든 활동 표시]=]
+--[[Translation missing --]]
+--[[ L["hyperlinks_desc"] = ""--]] 
 L["Keywords"] = "키워드"
 --[[Translation missing --]]
 --[[ L["language_sf_desc"] = ""--]] 

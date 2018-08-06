@@ -2,11 +2,12 @@
 LookingForGroupDB = {
 	["profileKeys"] = {
 		["Zearthan - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Alura - Tichondrius"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Alura - Tichondrius"] = "Default",
+		["Lorvol - Tichondrius"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Deminath - Proudmoore"] = "Default",
 		["Korugen - Proudmoore"] = "Default",

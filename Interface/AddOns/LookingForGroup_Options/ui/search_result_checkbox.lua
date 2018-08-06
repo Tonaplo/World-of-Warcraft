@@ -560,9 +560,7 @@ function LookingForGroup_Options:results_tooltip_feedback()
 			end
 		end
 		if iLvl ~= 0 then
-			if iLvl == 160 then
-				addon = "WQL"
-			elseif math.floor(iLvl)~=iLvl then
+			if math.floor(iLvl)~=iLvl then
 				addon = "LFG"
 			end
 		elseif questID then

@@ -9,7 +9,7 @@ OneRing_Config = {
 		["Proudmoore-Fimwack-2"] = "default",
 	},
 	["_GameLocale"] = "enUS",
-	["_OPieVersion"] = "Vanilla 5 (3.93)",
+	["_OPieVersion"] = "Vanilla 6 (3.93)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["ClickActivation"] = true,
@@ -135,16 +135,16 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTt",
 				}, -- [1]
 				{
-					["sliceToken"] = "OPCCTl",
 					["id"] = "/cast {{spell:2108/51302}}",
+					["sliceToken"] = "OPCCTl",
 				}, -- [2]
 				{
-					["id"] = "/cast {{spell:2018/51300}}",
 					["sliceToken"] = "OPCCTb",
+					["id"] = "/cast {{spell:2018/51300}}",
 				}, -- [3]
 				{
-					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
 					["sliceToken"] = "OPCCTj",
+					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
 				}, -- [4]
 				{
 					["id"] = "/cast [mod] {{spell:13262}}; {{spell:7411/51313}}",
@@ -233,8 +233,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea4sWRNe",
 				}, -- [5]
 				{
-					["id"] = 229388,
 					["sliceToken"] = "ABuea4/4zZe",
+					["id"] = 229388,
 				}, -- [6]
 				{
 					["id"] = 229387,
@@ -261,8 +261,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueax2PbEe",
 				}, -- [12]
 				{
-					["sliceToken"] = "ABueaxptLhe",
 					["id"] = 231434,
+					["sliceToken"] = "ABueaxptLhe",
 				}, -- [13]
 				{
 					["id"] = 231435,
@@ -649,8 +649,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABue3OWbYce",
 				}, -- [29]
 				{
-					["id"] = 6673,
 					["sliceToken"] = "ABue3OSS36e",
+					["id"] = 6673,
 				}, -- [30]
 				{
 					["id"] = 1459,

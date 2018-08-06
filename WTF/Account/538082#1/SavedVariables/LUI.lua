@@ -67,9 +67,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 7678001,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 7678001,
 							["Gorog"] = 993959,
 						},
 					},
@@ -84,25 +84,25 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Deminath"] = 1636643255,
+							["Deminath"] = 1636728340,
 							["Morifa"] = 1384217305,
 							["Kindhoof"] = 1186116499,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 364697695,
-							["Farahn"] = 195237929,
-							["Greybone"] = 978267615,
-							["Amranar"] = 588908714,
+							["Miriyal"] = 365007838,
+							["Farahn"] = 195310416,
+							["Greybone"] = 978383056,
+							["Amranar"] = 588920823,
 							["Granjior"] = 1186116499,
-							["Kaldorath"] = 1269959618,
+							["Kaldorath"] = 1270031712,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7835929,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 1625871926,
 							["Morifa"] = 1385014335,
-							["Rahran"] = 672905124,
-							["Faerand"] = 325083763,
-							["Praerend"] = 1485895433,
+							["Rahran"] = 673012821,
+							["Faerand"] = 325102993,
+							["Praerend"] = 1485961911,
 						},
 					},
 				},
@@ -110,12 +110,12 @@ LUIDB = {
 					["Gold"] = {
 						["Horde"] = {
 							["Alura"] = 3644837,
-							["Lorvol"] = 1004262,
-							["Morifa"] = 1384313027,
-							["Kindhoof"] = 1186853031,
+							["Lorvol"] = 1057540,
+							["Morifa"] = 1384426622,
+							["Kindhoof"] = 1187537003,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1376216541,
+							["Mallusof"] = 1377813304,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -195,6 +195,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -205,10 +210,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -236,10 +237,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1143,105 +1143,105 @@ LUIDB = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
 							" Was giant, 10 pounds, 12 ounces :P", -- [1]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [2]
-							" Was giant, 10 pounds, 12 ounces :P", -- [3]
+							" Because I'm at working, working on making it work", -- [2]
+							" Hey bud!", -- [3]
 							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [4]
 							" Was giant, 10 pounds, 12 ounces :P", -- [5]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [6]
-							" Because I'm at working, working on making it work", -- [7]
-							" Was giant, 10 pounds, 12 ounces :P", -- [8]
-							" Because I'm at working, working on making it work", -- [9]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [10]
-							" Was giant, 10 pounds, 12 ounces :P", -- [11]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [12]
-							" Because I'm at working, working on making it work", -- [13]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [14]
-							" Because I'm at working, working on making it work", -- [15]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [16]
-							" Was giant, 10 pounds, 12 ounces :P", -- [17]
+							" Hey bud!", -- [6]
+							" Was giant, 10 pounds, 12 ounces :P", -- [7]
+							" Because I'm at working, working on making it work", -- [8]
+							" Was giant, 10 pounds, 12 ounces :P", -- [9]
+							" Because I'm at working, working on making it work", -- [10]
+							" Hey bud!", -- [11]
+							" Was giant, 10 pounds, 12 ounces :P", -- [12]
+							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [13]
+							" Because I'm at working, working on making it work", -- [14]
+							" Was giant, 10 pounds, 12 ounces :P", -- [15]
+							" Because I'm at working, working on making it work", -- [16]
+							" Hey bud!", -- [17]
 							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [18]
 							" Was giant, 10 pounds, 12 ounces :P", -- [19]
-							" Because I'm at working, working on making it work", -- [20]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [21]
-							" Was giant, 10 pounds, 12 ounces :P", -- [22]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [23]
-							" Because I'm at working, working on making it work", -- [24]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [25]
-							" Because I'm at working, working on making it work", -- [26]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [27]
-							" Was giant, 10 pounds, 12 ounces :P", -- [28]
+							" Hey bud!", -- [20]
+							" Was giant, 10 pounds, 12 ounces :P", -- [21]
+							" Because I'm at working, working on making it work", -- [22]
+							" Hey bud!", -- [23]
+							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [24]
+							" Was giant, 10 pounds, 12 ounces :P", -- [25]
+							" Hey bud!", -- [26]
+							" Was giant, 10 pounds, 12 ounces :P", -- [27]
+							" Because I'm at working, working on making it work", -- [28]
 							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [29]
-							" Because I'm at working, working on making it work", -- [30]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [31]
-							" Because I'm at working, working on making it work", -- [32]
+							" Hey bud!", -- [30]
+							" Because I'm at working, working on making it work", -- [31]
+							" Hey bud!", -- [32]
 						},
 						["Horde - Proudmoore"] = {
-							" hahaha", -- [1]
-							"/macro", -- [2]
-							" hahaha", -- [3]
+							"/macro", -- [1]
+							" hahaha", -- [2]
+							"/focus", -- [3]
 							"/macro", -- [4]
-							"/focus", -- [5]
-							" hahaha", -- [6]
-							"/macro", -- [7]
-							" hahaha", -- [8]
-							"/focus", -- [9]
-							"/macro", -- [10]
-							"/focus", -- [11]
-							"/macro", -- [12]
-							"/focus", -- [13]
-							" hahaha", -- [14]
-							"/macro", -- [15]
-							" hahaha", -- [16]
-							"/macro", -- [17]
-							"/focus", -- [18]
+							" hahaha", -- [5]
+							"/macro", -- [6]
+							" hahaha", -- [7]
+							"/focus", -- [8]
+							" hahaha", -- [9]
+							"/focus", -- [10]
+							" hahaha", -- [11]
+							"/focus", -- [12]
+							" hahaha", -- [13]
+							"/macro", -- [14]
+							"/focus", -- [15]
+							"/macro", -- [16]
+							" hahaha", -- [17]
+							"/macro", -- [18]
 							" hahaha", -- [19]
-							"/macro", -- [20]
+							"/focus", -- [20]
 							" hahaha", -- [21]
 							"/focus", -- [22]
-							"/macro", -- [23]
+							" hahaha", -- [23]
 							"/focus", -- [24]
-							"/macro", -- [25]
-							" hahaha", -- [26]
-							"/macro", -- [27]
-							" hahaha", -- [28]
-							"/focus", -- [29]
+							" hahaha", -- [25]
+							"/macro", -- [26]
+							" hahaha", -- [27]
+							"/focus", -- [28]
+							" hahaha", -- [29]
 							"/macro", -- [30]
-							" hahaha", -- [31]
+							"/focus", -- [31]
 							"/macro", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/i still missing a boss", -- [1]
-							"/i thanks :)", -- [2]
-							"/lfg", -- [3]
-							"/i ty indeed :)", -- [4]
-							"/i still missing a boss", -- [5]
-							"/lfg", -- [6]
-							"/i still missing a boss", -- [7]
-							"/i thanks :)", -- [8]
-							"/i still missing a boss", -- [9]
-							"/i thanks :)", -- [10]
-							"/lfg", -- [11]
-							"/i thanks :)", -- [12]
-							"/i ty indeed :)", -- [13]
-							"/i thanks :)", -- [14]
-							"/i still missing a boss", -- [15]
-							"/i thanks :)", -- [16]
-							"/lfg", -- [17]
-							"/i ty indeed :)", -- [18]
-							"/i still missing a boss", -- [19]
-							"/lfg", -- [20]
-							"/i still missing a boss", -- [21]
-							"/i thanks :)", -- [22]
-							"/lfg", -- [23]
-							"/i ty indeed :)", -- [24]
-							"/i still missing a boss", -- [25]
-							"/lfg", -- [26]
-							"/i still missing a boss", -- [27]
-							"/i thanks :)", -- [28]
-							"/i ty indeed :)", -- [29]
-							"/lfg", -- [30]
-							"/i thanks :)", -- [31]
-							"/lfg", -- [32]
+							"/i ty indeed :)", -- [1]
+							"/s lol @ Heals leaving", -- [2]
+							"/s well done :)", -- [3]
+							"/i thanks :)", -- [4]
+							"/i ty indeed :)", -- [5]
+							"/s well done :)", -- [6]
+							"/i ty indeed :)", -- [7]
+							"/s lol @ Heals leaving", -- [8]
+							"/i ty indeed :)", -- [9]
+							"/s lol @ Heals leaving", -- [10]
+							"/s well done :)", -- [11]
+							"/lfg", -- [12]
+							"/i thanks :)", -- [13]
+							"/s lol @ Heals leaving", -- [14]
+							"/i ty indeed :)", -- [15]
+							"/s lol @ Heals leaving", -- [16]
+							"/s well done :)", -- [17]
+							"/i thanks :)", -- [18]
+							"/i ty indeed :)", -- [19]
+							"/s well done :)", -- [20]
+							"/i ty indeed :)", -- [21]
+							"/s lol @ Heals leaving", -- [22]
+							"/s well done :)", -- [23]
+							"/i thanks :)", -- [24]
+							"/i ty indeed :)", -- [25]
+							"/s well done :)", -- [26]
+							"/i ty indeed :)", -- [27]
+							"/s lol @ Heals leaving", -- [28]
+							"/i thanks :)", -- [29]
+							"/s well done :)", -- [30]
+							"/s lol @ Heals leaving", -- [31]
+							"/s well done :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
 							" Send that guild invite; )", -- [1]
@@ -1256,28 +1256,28 @@ LUIDB = {
 							"/g Oh damn", -- [3]
 							"/1 Sure,", -- [4]
 							"/cw Draylock-Darkspear New to the game?", -- [5]
-							"/cw Draylock-Darkspear Yeah, there are a bunch of faction specific mounts :)", -- [6]
+							"/cw Draylock-Darkspear Yeah, I think so", -- [6]
 							"/cw Draylock-Darkspear But you only have to do 1 faction to get them", -- [7]
-							"/cw Draylock-Darkspear The mounts are only available untill the 13th", -- [8]
-							"/cw Draylock-Darkspear Yeah, I think so", -- [9]
+							"/cw Draylock-Darkspear Is your horde character level 110?", -- [8]
+							"/cw Draylock-Darkspear The vendor is just north of Kharanos", -- [9]
 							"/cw Draylock-Darkspear I started playing in the beginning of Vanilla", -- [10]
 							" Oh you dont have time? Whoever you dont save will just die in the flames", -- [11]
-							"/cw Draylock-Darkspear welcome to the Alliance :P", -- [12]
-							"/cw Draylock-Darkspear Is your horde character level 110?", -- [13]
+							"/cw Draylock-Darkspear The mounts are only available untill the 13th", -- [12]
+							"/cw Draylock-Darkspear welcome to the Alliance :P", -- [13]
 							"/cw Draylock-Darkspear Wisdom, but I'm not sticking around for a lot longer.", -- [14]
-							"/cw Draylock-Darkspear The vendor is just north of Kharanos", -- [15]
+							"/cw Draylock-Darkspear Yeah, there are a bunch of faction specific mounts :)", -- [15]
 							"/cw Draylock-Darkspear |cff71d5ff|Hspell:274610:0|h[Teldrassil Hippogryph]|h|r is the alliance one", -- [16]
 							"/cw Draylock-Darkspear That rewards two mounts", -- [17]
 							"/cw Draylock-Darkspear I've always stuck to WoW :)", -- [18]
 							"/1 Sure,", -- [19]
-							"/cw Draylock-Darkspear Yeah, there are a bunch of faction specific mounts :)", -- [20]
-							"/cw Draylock-Darkspear The mounts are only available untill the 13th", -- [21]
+							"/cw Draylock-Darkspear Yeah, I think so", -- [20]
+							"/cw Draylock-Darkspear Is your horde character level 110?", -- [21]
 							"/cw Draylock-Darkspear I started playing in the beginning of Vanilla", -- [22]
-							"/cw Draylock-Darkspear welcome to the Alliance :P", -- [23]
+							"/cw Draylock-Darkspear The mounts are only available untill the 13th", -- [23]
 							"/cw Draylock-Darkspear Wisdom, but I'm not sticking around for a lot longer.", -- [24]
 							"/cw Draylock-Darkspear |cff71d5ff|Hspell:274610:0|h[Teldrassil Hippogryph]|h|r is the alliance one", -- [25]
 							"/cw Draylock-Darkspear I've always stuck to WoW :)", -- [26]
-							"/cw Draylock-Darkspear Yeah, there are a bunch of faction specific mounts :)", -- [27]
+							"/cw Draylock-Darkspear Yeah, I think so", -- [27]
 							"/cw Draylock-Darkspear I started playing in the beginning of Vanilla", -- [28]
 							"/cw Draylock-Darkspear Wisdom, but I'm not sticking around for a lot longer.", -- [29]
 							"/cw Draylock-Darkspear I've always stuck to WoW :)", -- [30]
@@ -2033,7 +2033,7 @@ LUIDB = {
 		["Praerend - Proudmoore"] = "Base",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -2041,7 +2041,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
@@ -2051,7 +2051,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",

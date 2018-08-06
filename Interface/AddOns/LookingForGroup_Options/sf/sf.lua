@@ -69,6 +69,32 @@ LookingForGroup_Options:push("sf",{
 			end,
 			width = "full"
 		},
+		hyperlinks =
+		{
+			order = get_order(),
+			name = "|c[^%[]+%[([^%]]+)%]|h|r",
+			desc = L.hyperlinks_desc,
+			type = "input",
+			get = function(info)
+				local d = LookingForGroup.db.profile.spam_filter_hyperlinks
+				if d then
+					return tostring(d)
+				end
+			end,
+			pattern = "^[0-9]*$",
+			set = function(info,val)
+				if val == "" then
+					if GetCurrentRegion() == 5 then
+						LookingForGroup.db.profile.spam_filter_hyperlinks = false
+					else
+						LookingForGroup.db.profile.spam_filter_hyperlinks = nil
+					end
+				else
+					LookingForGroup.db.profile.spam_filter_hyperlinks = tonumber(val)
+				end
+			end,
+			width = "full"
+		},
 		add =
 		{
 			name = ADD,

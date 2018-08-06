@@ -9,7 +9,7 @@ AAP_panel.title:SetHeight(20)
 AAP_panel.title:SetPoint("TOPLEFT", AAP.AAP_panel, 0,-30)
 AAP_panel.title:SetFont(AAP_Font, 18,"OUTLINE")
 AAP_panel.title:SetText("Azeroth Auto Pilot - v" .. AAP_Version)
-
+AAP_ImportI = 0
 
 AAP_panel.Button1 = CreateFrame("Button", "ZPButton2", AAP.AAP_panel)
 AAP_panel.Button1:SetPoint("TOPLEFT", AAP.AAP_panel, "TOPLEFT", 120, -100)
@@ -45,7 +45,7 @@ function LoadOptionsFrame()
 	AAP.OptionsFrame = {}
 	AAP.OptionsFrame.MainFrame = CreateFrame("frame", "AAP_OptionsMainFrame",  UIParent)
 	AAP.OptionsFrame.MainFrame:SetWidth(450)
-	AAP.OptionsFrame.MainFrame:SetHeight(280)
+	AAP.OptionsFrame.MainFrame:SetHeight(320)
 	AAP.OptionsFrame.MainFrame:SetFrameStrata("MEDIUM")
 	AAP.OptionsFrame.MainFrame:SetPoint("CENTER",  UIParent, "CENTER",0,0)
 	AAP.OptionsFrame.MainFrame:SetMovable(true)
@@ -418,9 +418,149 @@ function LoadOptionsFrame()
 	AAP.OptionsFrame["Button3"]:SetScript("OnClick", function(self, arg1)
 		AAP_ResetSettings()
 	end)
+
+	AAP.OptionsFrame["Button4"] = CreateFrame("Button", "AAP_OptionsButtons4", AAP.OptionsFrame.MainFrame, "SecureActionButtonTemplate")
+	AAP.OptionsFrame["Button4"]:SetPoint("BOTTOMRIGHT",AAP.OptionsFrame.MainFrame,"BOTTOMRIGHT",-5,52)
+	AAP.OptionsFrame["Button4"]:SetWidth(70)
+	AAP.OptionsFrame["Button4"]:SetHeight(30)
+	AAP.OptionsFrame["Button4"]:SetText("Import")
+	AAP.OptionsFrame["Button4"]:SetParent(AAP.OptionsFrame.MainFrame)
+	AAP.OptionsFrame.Button4:SetNormalFontObject("GameFontNormal")
+	AAP.OptionsFrame.Button4ntex = AAP.OptionsFrame.Button4:CreateTexture()
+	AAP.OptionsFrame.Button4ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")
+	AAP.OptionsFrame.Button4ntex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button4ntex:SetAllPoints()	
+	AAP.OptionsFrame.Button4:SetNormalTexture(AAP.OptionsFrame.Button4ntex)
+	AAP.OptionsFrame.Button4htex = AAP.OptionsFrame.Button4:CreateTexture()
+	AAP.OptionsFrame.Button4htex:SetTexture("Interface/Buttons/UI-Panel-Button-Highlight")
+	AAP.OptionsFrame.Button4htex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button4htex:SetAllPoints()
+	AAP.OptionsFrame.Button4:SetHighlightTexture(AAP.OptionsFrame.Button4htex)
+	AAP.OptionsFrame.Button4ptex = AAP.OptionsFrame.Button4:CreateTexture()
+	AAP.OptionsFrame.Button4ptex:SetTexture("Interface/Buttons/UI-Panel-Button-Down")
+	AAP.OptionsFrame.Button4ptex:SetTexCoord(0, 0.625, 0, 0.6875)
+	AAP.OptionsFrame.Button4ptex:SetAllPoints()
+	AAP.OptionsFrame.Button4:SetPushedTexture(AAP.OptionsFrame.Button4ptex)
+	AAP.OptionsFrame["Button4"]:SetScript("OnClick", function(self, arg1)
+		aap_Importstuff()
+		ReloadUI()
+	end)
+
+
+	aap_Importfunc()
+end
+function aap_Importstuff()
+	if (AAP_ImportI == 0) then
+		print("AAP: Error: Must Select a Profile")
+	else
+		local nanr = 0
+		for AAP_indexx,AAP_valuex in pairs(AAP1) do
+			if (AAP_indexx ~= "GliderName") then
+				for AAP_indexx2,AAP_valuex2 in pairs(AAP_valuex) do
+					nanr = nanr + 1
+					if (AAP_ImportI == nanr) then
+						AAP1[AAP_Realm][AAP_Name]["Settings"] = nil
+						AAP1[AAP_Realm][AAP_Name]["Settings"] = AAP_valuex2["Settings"]
+						print("AAP: Imported: "..AAP_indexx2.."-"..AAP_indexx)
+					end
+				end
+			end
+		end
+		AAP.OptionsFrame.MainFrame:Hide()
+		AAP_SettingsOpen = 0
+		AAP_ArrowActive = 0
+		AAP_ArrowActive_X = 0
+		AAP_ArrowActive_Y = 0
+		AAP_UpdateQuestList()
+		AAP.Banners.BannersFrame:SetPoint("TOPLEFT", UIParent, "TOPLEFT",AAP1[AAP_Realm][AAP_Name]["Settings"]["Bannersleft"],AAP1[AAP_Realm][AAP_Name]["Settings"]["Bannerstop"])
+		AAP.Banners.BannersFrame.Frame:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.Banners.BannersFrame["Frame1"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.Banners.BannersFrame["Frame2"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.Banners.BannersFrame["Frame3"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.Banners.BannersFrame["Frame4"]:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["BannerScale"])
+		AAP.QuestList.MainFrame:SetPoint("TOPLEFT", UIParent, "TOPLEFT", AAP1[AAP_Realm][AAP_Name]["Settings"]["left"], AAP1[AAP_Realm][AAP_Name]["Settings"]["top"])
+		AAP_ArrowFrame:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["ArrowScale"])
+		AAP_ArrowFrameM:SetPoint("TOPLEFT", UIParent, "TOPLEFT", AAP1[AAP_Realm][AAP_Name]["Settings"]["arrowleft"], AAP1[AAP_Realm][AAP_Name]["Settings"]["arrowtop"])
+		AAP.QuestList.ButtonParent:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["Scale"])
+		AAP.QuestList.ListFrame:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["Scale"])
+		AAP.QuestList21:SetScale(AAP1[AAP_Realm][AAP_Name]["Settings"]["Scale"])
+		AAP.QuestList.ListFrame:SetAlpha(AAP1[AAP_Realm][AAP_Name]["Settings"]["alpha"])
+		AAP.BrutallCC.BrutallFrame:SetPoint("TOPLEFT", UIParent, "TOPLEFT",AAP1[AAP_Realm][AAP_Name]["Settings"]["Brutallleft"],AAP1[AAP_Realm][AAP_Name]["Settings"]["Brutalltop"])
+	end
+end
+function AAP_DropDown_OnClick(self, arg1, arg2, checked)
+	local nanr = 0
+	for AAP_indexx,AAP_valuex in pairs(AAP1) do
+		if (AAP_indexx ~= "GliderName") then
+			for AAP_indexx2,AAP_valuex2 in pairs(AAP_valuex) do
+				nanr = nanr + 1
+				if (arg1 == nanr) then
+					AAP_ImportI = nanr
+					UIDropDownMenu_SetText(AAP_dropDown1, "Import: "..AAP_indexx2)
+				end
+			end
+		end
+	end
 end
 
 
+function AAP_DropDown_Menu(frame, level, menuList)
+	local info = UIDropDownMenu_CreateInfo()
+	info.func = AAP_DropDown_OnClick
+	local nanr = 0
+	for AAP_indexx,AAP_valuex in pairs(AAP1) do
+		if (AAP_indexx ~= "GliderName") then
+			for AAP_indexx2,AAP_valuex2 in pairs(AAP_valuex) do
+				nanr = nanr + 1
+				info.text, info.arg1 = AAP_indexx.."-"..AAP_indexx2, nanr
+				UIDropDownMenu_AddButton(info)
+			end
+		end
+	end
+end
+
+
+
+
+
+function aap_Importfunc()
+	AAP_dropDown = CreateFrame("Frame", "AAP_DropDownList", AAP.OptionsFrame.MainFrame, "UIDropDownMenuTemplate")
+	AAP_dropDown:SetPoint("BOTTOMRIGHT",AAP.OptionsFrame.MainFrame,"BOTTOMRIGHT",-65,50)
+	UIDropDownMenu_SetWidth(AAP_dropDown, 150)
+	UIDropDownMenu_Initialize(AAP_dropDown, AAP_DropDown_Menu)
+
+	AAP_dropDown = CreateFrame("Frame", "WPDemoContextMenu", AAP.OptionsFrame.MainFrame, "UIDropDownMenuTemplate")
+	UIDropDownMenu_Initialize(AAP_dropDown, AAP_DropDown_Menu, "MENU")
+
+	favoriteNumber = 42
+
+	AAP_dropDown1 = CreateFrame("FRAME", "AAP_DropDown1", AAP.OptionsFrame.MainFrame, "UIDropDownMenuTemplate")
+	AAP_dropDown1:SetPoint("BOTTOMRIGHT",AAP.OptionsFrame.MainFrame,"BOTTOMRIGHT",-65,50)
+	UIDropDownMenu_SetWidth(AAP_dropDown1, 150)
+	UIDropDownMenu_SetText(AAP_dropDown1, "Import Profile")
+
+	UIDropDownMenu_Initialize(AAP_dropDown1, function(self, level, menuList)
+		local info = UIDropDownMenu_CreateInfo()
+		if (level or 1) == 1 then
+			for i=0,4 do
+				info.text, info.checked = i*10 .. " - " .. (i*10+9), favoriteNumber >= i*10 and favoriteNumber <= (i*10+9)
+				info.menuList, info.hasArrow = i, true
+				UIDropDownMenu_AddButton(info)
+			end
+		else
+			info.func = self.SetValue
+			for i=menuList*10, menuList*10+9 do
+				info.text, info.arg1, info.checked = i, i, i == favoriteNumber
+				UIDropDownMenu_AddButton(info, level)
+			end
+		end
+	end)
+	function AAP_dropDown1:SetValue(newValue)
+		favoriteNumber = newValue
+		UIDropDownMenu_SetText(AAP_dropDown1, "Import: "..AAP_ImportI)
+		CloseDropDownMenus()
+	end
+end
 
 
 

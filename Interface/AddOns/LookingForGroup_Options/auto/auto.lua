@@ -221,6 +221,21 @@ LookingForGroup_Options:push("auto",
 			end,
 			type = "toggle"
 		},
+		fiop =
+		{
+			name = "FIOP",
+			type = "toggle",
+			get = function()
+				return not LookingForGroup.db.profile.auto_fiop
+			end,
+			set = function(info,val)
+				if val then
+					LookingForGroup.db.profile.auto_fiop = nil
+				else
+					LookingForGroup.db.profile.auto_fiop = true
+				end				
+			end
+		},
 		quests =
 		{
 			name = BATTLE_PET_SOURCE_2,

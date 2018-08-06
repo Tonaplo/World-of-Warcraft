@@ -1,6 +1,5 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
-local is8 = select(4,GetBuildInfo()) >= 8e4
 local KR, EV = assert(T.ActionBook:compatible("Kindred", 1,12), "A compatible version of Kindred is required"), T.Evie
 local playerClassLocal, playerClass = UnitClass("player")
 
@@ -79,22 +78,16 @@ do -- known:spell id
 	f:RegisterEvent("PLAYER_ENTERING_WORLD")
 end
 do -- spec:id/name
-	local _, _, cid = UnitClass("player")
-	local function sync()
-		local idx, s = GetSpecialization(), "-1/unspec"
-		if idx then
-			local id, name = GetSpecializationInfoForClassID(cid, idx)
-			if id and name then
-				s = id .. "/" .. name
-			end
+	local s, _, _, cid = nil, UnitClass("player")
+	for i=1,5 do
+		local id, name = GetSpecializationInfoForClassID(cid, i)
+		if id and name then
+			s = ("%s[spec:%d] %d/%d/%s"):format(s and s .. "; " or "", i, i, id, name:lower())
 		end
-		if idx then
-			s = s .. "/" .. idx
-		end
-		KR:SetStateConditionalValue("spec", s)
 	end
-	EV.PLAYER_SPECIALIZATION_CHANGED = sync
-	sync()
+	if s then
+		RegisterStateConditional("spec", "spec", s, false)
+	end
 end
 do -- form:token
 	if playerClass == "DRUID" then
@@ -114,7 +107,8 @@ do -- form:token
 		local function sync()
 			local s = ""
 			for i=1,10 do
-				local _, name = GetShapeshiftFormInfo(i)
+				local _, _, _, fsid = GetShapeshiftFormInfo(i)
+				local name = GetSpellInfo(fsid)
 				s = ("%s[form:%d] %d%s;"):format(s, i,i, map[name] or "")
 			end
 			if curCnd ~= s then
@@ -309,16 +303,12 @@ do -- selfbuff:name
 		local at, query = stringArgCache[args], name == "selfbuff" and UnitBuff or UnitDebuff
 		for i=1,#at do
 			local ati = at[i]
-			if is8 then
-				local j, r = 2, query("player", 1)
-				while r do
-					if strcmputf8i(r, ati) == 0 then
-						return true
-					end
-					j, r = j + 1, query("player", j)
+			local j, r = 2, query("player", 1)
+			while r do
+				if strcmputf8i(r, ati) == 0 then
+					return true
 				end
-			elseif query("player", ati) then
-				return true
+				j, r = j + 1, query("player", j)
 			end
 		end
 		
@@ -338,16 +328,12 @@ do -- debuff:name
 		local query = (name == "debuff" or name == "owndebuff") and UnitDebuff or UnitBuff
 		for i=1,#at do
 			local ati = at[i]
-			if is8 then
-				local j, r = 2, query(target, 1, filter)
-				while r do
-					if strcmputf8i(r, ati) == 0 then
-						return true
-					end
-					j, r = j + 1, query(target, j, filter)
+			local j, r = 2, query(target, 1, filter)
+			while r do
+				if strcmputf8i(r, ati) == 0 then
+					return true
 				end
-			elseif query(target, ati, nil, filter) then
-				return true
+				j, r = j + 1, query(target, j, filter)
 			end
 		end
 		return false
@@ -379,7 +365,7 @@ do -- professions
 	local ct, ot, map = {}, {}, {
 		[197]="tail", [165]="lw", [164]="bs",
 		[171]="alch", [202]="engi", [333]="ench", [744]="jc", [773]="scri",
-		[182]="herb", [129]="fa", [794]="arch", [185]="cook", [356]="fish",
+		[182]="herb", [794]="arch", [185]="cook", [356]="fish",
 		[20219]="nomeng", [20222]="gobeng",
 	}
 	local function syncInner(id, ...)
@@ -414,7 +400,7 @@ do -- professions
 	for _, v in pairs(map) do
 		KR:SetThresholdConditionalValue(v, false)
 	end
-	for alias, real in ("tailoring:tail leatherworking:lw alchemy:alch engineering:engi enchanting:ench jewelcrafting:jc blacksmithing:bs inscription:scri herbalism:herb archaeology:arch cooking:cook fishing:fish firstaid:fa"):gmatch("(%a+):(%a+)") do
+	for alias, real in ("tailoring:tail leatherworking:lw alchemy:alch engineering:engi enchanting:ench jewelcrafting:jc blacksmithing:bs inscription:scri herbalism:herb archaeology:arch cooking:cook fishing:fish"):gmatch("(%a+):(%a+)") do
 		KR:SetAliasConditional(alias, real)
 	end
 	EV.PLAYER_LOGIN, EV.CHAT_MSG_SKILL = sync, sync

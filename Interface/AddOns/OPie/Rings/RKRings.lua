@@ -194,7 +194,6 @@ R:SetRing("CommonTrades", {
 	{id="/cast {{spell:2259/51304}}", _u="a"}, -- alchemy
 	{id="/cast [mod] {{spell:818}}; {{spell:2550/51296}}", _u="c"}, -- cooking/campfire
 	{id="/cast [mod] {{spell:51005}}; {{spell:45357/45363}}", _u="i"}, -- inscription/milling
-	{id="/cast {{spell:3273/45542}}", _u="f"}, -- first aid
 	{id="/cast {{spell:4036/51306}}", _u="g"}, -- engineering
 	{id="/cast [mod] {{spell:80451}}; {{spell:78670/89722}}", _u="r"},
 	{id=53428, _u="u"}, -- runeforging

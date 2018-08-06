@@ -19,6 +19,8 @@ AAP_CombatTestVar = 0
 AAP = {}
 AAP_GossipOpen = 0
 AAP_NPCList = {}
+AAP_UPDQListV = 0
+AAP_UPDPlus = 0
 AAP_ArrowActive = 0
 AAP_HorseBuffDur = 0
 AAP_ArrowActive_X = 0
@@ -53,7 +55,7 @@ BINDING_NAME_AAP_MACRO = "Quest Item 1"
 function AAP_UpdateILVLGear()
 	AAP_GearIlvlList = nil
 	AAP_GearIlvlList = {}
-	for slots2 = 0,19 do
+	for slots2 = 0,18 do
 		local itemLink = GetInventoryItemLink("player", slots2)
 		if (itemLink) then
 			local _, _, _, _, _, _, _, _, SpotName = GetItemInfo(itemLink)
@@ -522,6 +524,22 @@ function AAP_SlashCmd(AAP_index)
 	if (AAP_index == "reset") then
 		print("AAP: Resetting Zone.")
 		AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] = 1
+		local ResetAz = true
+		local ResetAz2 = 0
+		local ResetAz3 = 0
+		while ResetAz do
+			ResetAz3 = ResetAz3 + 1
+			if (ResetAz2 ~= AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]) then
+				ResetAz2 = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]
+				AAP_Plus()
+			else
+				ResetAz = nil
+			end
+			if (ResetAz3 > 2500) then
+				ResetAz = nil
+			end
+		end
+		AAP_UpdateQuestList()
 		AAP_ChangeZone()
 		AAP_UpdateQuestList()
 	elseif (AAP_index == "skip") then
@@ -788,6 +806,7 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 	elseif (event=="ADDON_LOADED" and AAP_DisableAddon == 0) then
 		local arg1, arg2, arg3, arg4, arg5 = ...;
 		if (arg1 == "Azeroth Auto Pilot") then
+			AAP_CompletedQs = GetQuestsCompleted()
 			AAP_RegisterChat = C_ChatInfo.RegisterAddonMessagePrefix("AAPChat")
 			if (not AAP1) then
 				AAP1 = {}
@@ -1023,6 +1042,10 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 			if (not AAP1[AAP_Realm][AAP_Name]["A1021"]) then
 				AAP1[AAP_Realm][AAP_Name]["A1021"] = 1
 			end
+			if (not AAP1[AAP_Realm][AAP_Name][1233123991]) then
+				AAP1[AAP_Realm][AAP_Name][1233123991] = 1
+			end
+
 			if (not AAP1[AAP_Realm][AAP_Name]["WantedQuestList"]) then
 				AAP1[AAP_Realm][AAP_Name]["WantedQuestList"] = {}
 			end
@@ -1114,6 +1137,22 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 			AAP_HorseBuffTimer:SetScript("OnLoop", function(self, event, ...)
 				AAP_HorseBuffTimerFunc()
 			end)
+
+			AAP_UpdateQuestListTimer = AAP_CoreEventFrame:CreateAnimationGroup()
+			AAP_UpdateQuestListTimer.anim = AAP_UpdateQuestListTimer:CreateAnimation()
+			AAP_UpdateQuestListTimer.anim:SetDuration(0.01)
+			AAP_UpdateQuestListTimer:SetLooping("REPEAT")
+			AAP_UpdateQuestListTimer:SetScript("OnLoop", function(self, event, ...)
+				if (AAP_UPDQListV == 1) then
+					AAP_UpdateQuestList()
+					AAP_UPDQListV = 0
+				end
+				if (AAP_UPDPlus == 1) then
+					AAP_Plus()
+					AAP_UPDPlus = 0
+				end
+			end)
+			AAP_UpdateQuestListTimer:Play()
 
 			AAP_EquipGearTimer = AAP_CoreEventFrame:CreateAnimationGroup()
 			AAP_EquipGearTimer.anim = AAP_EquipGearTimer:CreateAnimation()

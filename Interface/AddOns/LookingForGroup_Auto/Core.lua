@@ -52,6 +52,7 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 	else
 		auto_start_a_group = profile.auto_start_a_group
 	end
+	local fiop = not profile.fiop
 	local lfg_ec_n
 	local check_kw = nop
 	if keyword then
@@ -164,8 +165,11 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 		end
 	end
 	local GetSearchResultInfo = C_LFGList.GetSearchResultInfo
-	local count,results,iscache = search()
+	local count,results,iscache = search(fiop)
 	if count~=0 and not iscache then
+		if 300 < count then
+			profile.fiop = true
+		end
 		local temp = {}
 		local GetActivityInfo = C_LFGList.GetActivityInfo
 		local ReportSearchResult = C_LFGList.ReportSearchResult
@@ -173,6 +177,8 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 		local smatch = string.match
 		local keyword_be_number = keyword and tonumber(keyword) or nil
 		UIErrorsFrame:UnregisterEvent("UI_INFO_MESSAGE") -- Don't show the "Thanks for the report" message
+		DEFAULT_CHAT_FRAME:UnregisterEvent("CHAT_MSG_SYSTEM")
+		local qname = fiop and name:lower() or nil 
 		for i=1,#results do
 			local id, activityID, name, comment, voiceChat, iLvl, honorLevel, age, numBNetFriends, numCharFriends, numGuildMates, isDelisted, leaderName, numMembers, autoaccept, questID = GetSearchResultInfo(results[i])
 			local fullName, shortName, categoryID, groupID, itemLevel, lfgfilter, minLevel, maxPlayers, displayType, activityOrder = GetActivityInfo(activityID)
@@ -183,13 +189,28 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 				if keyword == nil then
 					yes = true
 				elseif name then
+					local name_lower = name:lower()
 					if keyword_be_number then
 						local n = smatch(name,"%d+")
 						if n and n==keyword then
 							yes = true
 						end
-					elseif name:lower():find(keyword) then
+					elseif name_lower:find(keyword) then
 						yes = true
+					end
+					if not yes and qname then
+						local n,x
+						if qname:len() < name_lower:len() then
+							n = qname
+							x = name_lower
+						else
+							n = name_lower
+							x = qname
+						end
+						local f,t = x:find(n)
+						if f and f + min(5,n:len()) <= t then
+							yes = true
+						end
 					end
 				end
 				if yes and (not raid or GetSearchResultMemberCounts(id).DEATHKNIGHT < 4) then
@@ -197,6 +218,7 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 				end
 			end
 		end
+		DEFAULT_CHAT_FRAME:RegisterEvent("CHAT_MSG_SYSTEM")
 		UIErrorsFrame:RegisterEvent("UI_INFO_MESSAGE")
 		if #temp == 0 then
 			count = 0
@@ -412,7 +434,7 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 	end
 end
 
-function LookingForGroup.autoloop(name,search,create,...)
+function LookingForGroup.autoloop(name,search,create,secure,raid,...)
 	local current = coroutine.running()
 	local profile = LookingForGroup.db.profile
 	local event_func = function(...)
@@ -426,6 +448,10 @@ function LookingForGroup.autoloop(name,search,create,...)
 			coroutine.resume(current,19)
 		end)
 	end
+	if raid then
+		LookingForGroup:RegisterEvent("LFG_LIST_ACTIVE_ENTRY_UPDATE",event_func)
+		LookingForGroup:RegisterEvent("LFG_LIST_APPLICANT_LIST_UPDATED",event_func)
+	end
 	while true do
 		local k,gpl = coroutine.yield()
 		if is_queueing_lfg() then
@@ -436,13 +462,16 @@ function LookingForGroup.autoloop(name,search,create,...)
 		if k == 2 then
 			LookingForGroup:UnregisterEvent("GROUP_ROSTER_UPDATE")
 			LookingForGroup:UnregisterEvent("LFG_LIST_ENTRY_EXPIRED_TOO_MANY_PLAYERS")
-			if LookingForGroup.accepted(name,search,create,...) then
+			if LookingForGroup.accepted(name,search,create,secure,raid,...) then
 				wipe(dialog)
 				break
 			end
 			LookingForGroup:RegisterEvent("LFG_LIST_ENTRY_EXPIRED_TOO_MANY_PLAYERS",event_func)
 		elseif k == 0 or k == 1 then
 			if k == 1 then
+				if ticker then
+					ticker:Cancel()
+				end
 				local timer = C_Timer.NewTimer(3, function()
 					coroutine.resume(current,1)
 				end)
@@ -452,6 +481,10 @@ function LookingForGroup.autoloop(name,search,create,...)
 					StaticPopup_Hide("LookingForGroup_HardwareAPIDialog")
 					wipe(dialog)
 					break
+				elseif k == 3 and ticker then
+					ticker = C_Timer.NewTicker(5,function()
+						coroutine.resume(current,19)
+					end)
 				end
 			end
 			if k == 0 or k == 1 then
@@ -524,6 +557,11 @@ function LookingForGroup.autoloop(name,search,create,...)
 					create()
 				end
 			end
+		elseif k == "LFG_LIST_APPLICANT_LIST_UPDATED" or k == "LFG_LIST_ACTIVE_ENTRY_UPDATE" then
+			if raid then
+				ConvertToRaid()
+			end
+			LookingForGroup:UnregisterEvent("LFG_LIST_ACTIVE_ENTRY_UPDATE")
 		elseif k == 11 then
 			if not IsInInstance() then
 				LeaveParty()
@@ -593,6 +631,9 @@ function LookingForGroup.autoloop(name,search,create,...)
 			break
 		end
 	end
+	LookingForGroup:UnregisterEvent("GROUP_LEFT")
+	LookingForGroup:UnregisterEvent("LFG_LIST_ACTIVE_ENTRY_UPDATE")
+	LookingForGroup:UnregisterEvent("LFG_LIST_APPLICANT_LIST_UPDATED")
 	LookingForGroup:UnregisterEvent("LFG_LIST_ENTRY_EXPIRED_TOO_MANY_PLAYERS")
 	LookingForGroup:UnregisterEvent("GROUP_ROSTER_UPDATE")
 	if ticker then ticker:Cancel() end

@@ -11,8 +11,6 @@ No Click = Verlassen Sie die Party nur automatisch, wenn der Spieler fliegt]=]
 L["auto_no_info_quest_desc"] = "Blockiere Quests, die keine Informationen von der API erhalten können. Dies zu aktivieren könnte eine Menge nerviger Quests blockieren, aber auch sinnvolle Quests."
 L["auto_report"] = "Automatischer Bericht"
 L["auto_report_desc"] = "Spamming-Gruppen automatisch im LFG-System melden"
-L["auto_use_name"] = "Verwenden Sie den Namen"
-L["auto_use_name_desc"] = "Erstellen / Suchen von Gruppen anhand des Namens statt der ID Diese Option ist schädlich für die Kommunikation mit Addons."
 --[[Translation missing --]]
 --[[ L["auto_wq_only_desc"] = ""--]] 
 L["Backfill"] = "Auffüllung"
@@ -44,6 +42,8 @@ Kein Klick = Es ist egal, ob dieser Boss besiegt ist oder nicht.]=]
 L["find_recommended_desc"] = [=[Normaler Klick = Nur empfohlene Aktivitäten anzeigen
 Dunkler Klick = Andere Aktivitäten anzeigen
 Nein Klicken = Alle Aktivitäten anzeigen]=]
+--[[Translation missing --]]
+--[[ L["hyperlinks_desc"] = ""--]] 
 L["Keywords"] = "Schlüsselwörter"
 --[[Translation missing --]]
 --[[ L["language_sf_desc"] = ""--]] 

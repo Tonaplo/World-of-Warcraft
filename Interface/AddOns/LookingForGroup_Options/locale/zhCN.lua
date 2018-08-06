@@ -11,8 +11,6 @@ L["auto_no_info_quest"] = "屏蔽无信息任务"
 L["auto_no_info_quest_desc"] = "屏蔽不能从API得到信息的任务。启用该选项可以屏蔽很多烦人的任务但也同样可能屏蔽有意义的任务。"
 L["auto_report"] = "自动举报"
 L["auto_report_desc"] = "自动举报游戏LFG系统里的垃圾信息队伍"
-L["auto_use_name"] = "使用名称"
-L["auto_use_name_desc"] = "创建和搜索队伍基于名称而不是id。这个选项对于插件间的通信有害。"
 L["auto_wq_only_desc"] = "只接受%s"
 L["Backfill"] = "补人"
 L["background_search"] = "后台搜索"
@@ -42,6 +40,7 @@ L["find_f_encounters"] = [=[正常勾 = 这个boss必须被击杀过。
 L["find_recommended_desc"] = [=[正常勾 = 只显示推荐的活动
 暗勾 = 显示其它活动
 无勾 = 显示全部活动]=]
+L["hyperlinks_desc"] = "刷屏信息通常有一大堆的超链接。这个选项控制了描述中最多的超链接数量可以是多少。"
 L["Keywords"] = "关键字"
 L["language_sf_desc"] = "强化版的BlockChinese插件。不仅可以屏蔽中文和韩文，同时还能屏蔽其它语言。"
 L["Levenshtein Distance"] = "Levenshtein距离"

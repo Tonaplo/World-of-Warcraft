@@ -921,6 +921,7 @@ AAP_QH_EventFrame:SetScript("OnEvent", function(self, event, ...)
 	if (event=="QUEST_REMOVED" and AAP_DisableAddon == 0) then
 		local arg1, arg2, arg3, arg4, arg5 = ...;
 		if (arg1) then
+			AAP_CompletedQs[arg1] = true
 			AAP_UpdateQuestList()
 		end
 	end

@@ -25,32 +25,6 @@ function Event:LFG_LIST_APPLICANT_LIST_UPDATED(event,hasNewPending,hasNewPending
 	if LFGListUtil_IsEntryEmpowered() then
 		local active, activityID, iLevel, honorLevel, name, comment, voiceChat, expiration, autoAccept, privateGroup, questID = C_LFGList.GetActiveEntryInfo()
 		if autoAccept then
-			if not IsInRaid(LE_PARTY_CATEGORY_HOME) and GetNumGroupMembers(LE_PARTY_CATEGORY_HOME) + C_LFGList.GetNumInvitedApplicantMembers() + C_LFGList.GetNumPendingApplicantMembers() > (MAX_PARTY_MEMBERS+1) then
-				if activityID == 16 or activityID == 17 then
-					local map = C_Map.GetBestMapForUnit("player")
-					if map and (920 < map or map < 933) then
-						ConvertToRaid()
-					end
-				else
-					local fullName, shortName, categoryID, groupID, itemLevel, filters, minLevel, maxPlayers, displayType, activityOrder = C_LFGList.GetActivityInfo(activityID)
-					if (categoryID == 1 or categoryID == 3 or categoryID == 6) and questID == nil then
-						local kw = name:match("(%d+)")
-						if kw and kw:len()<10 then
-							questID = tonumber(kw)
-						end
-					end
-					if questID then
-						if groupID ~= 126 then  -- i am not sure whether rare elite can be completed in raid or not
-							local tagID, tagName, wq_type, rarity, isElite, tradeskillLineIndex, displayTimeLeft = GetQuestTagInfo(questID)
-							if rarity == 3 then
-								ConvertToRaid()
-							end
-						end
-					elseif categoryID == 3 or categoryID == 9 then
-						StaticPopup_Show("LFG_LIST_AUTO_ACCEPT_CONVERT_TO_RAID")
-					end
-				end
-			end
 			if LookingForGroup.db.profile.taskbar_flash then
 				FlashClientIcon()
 			end

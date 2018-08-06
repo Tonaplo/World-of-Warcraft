@@ -1,6 +1,5 @@
 local api, MAJ, REV, _, T = {}, 1, 11, ...
 if T.ActionBook then return end
-local is8 = select(4,GetBuildInfo()) >= 8e4
 local AB, KR = nil, assert(T.Kindred:compatible(1,8), "A compatible version of Kindred is required.")
 
 local function assert(condition, err, ...)
@@ -557,9 +556,7 @@ function api:IsSpellCastable(id, disallowRewireEscapes)
 	if disallowRewireEscapes ~= true and coreEnv.castEscapes[name and name:lower()] then
 		return true, "rewire-escape"
 	end
-	if is8 then
-		rank = GetSpellSubtext(id)
-	end
+	rank = GetSpellSubtext(id)
 	return not not (name and GetSpellInfo(name, rank)), "double-gsi"
 end
 

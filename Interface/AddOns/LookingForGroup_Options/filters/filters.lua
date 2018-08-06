@@ -99,25 +99,20 @@ function LookingForGroup_Options.ExecuteSimpleFilter(result,filter_options)
 	else
 		local hack_ms = not profile.addon_meeting_stone_hack
 		local auto_report = not profile.auto_report
+		UIErrorsFrame:UnregisterEvent("UI_INFO_MESSAGE") -- Don't show the "Thanks for the report" message
+		DEFAULT_CHAT_FRAME:UnregisterEvent("CHAT_MSG_SYSTEM")
 		if b < 4 then
 			if hack_ms and band(b,2) == 2 then
 				C_LFGList_ReportSearchResult(result,"lfglistspam")
-				C_LFGList_ReportSearchResult(result,"lfglistname")
-				C_LFGList_ReportSearchResult(result,"lfglistcomment")
 			end
 			if band(b,1) == 0 then
 				return true
 			end
 		elseif auto_report then
 			C_LFGList_ReportSearchResult(result,"lfglistspam")
-			if band(b,4) == 4 then
-				C_LFGList_ReportSearchResult(result,"lfglistname")
-			elseif band(b,8) == 8 then
-				C_LFGList_ReportSearchResult(result,"lfglistcomment")
-			elseif band(b,16) == 16 then
-				C_LFGList_ReportSearchResult(result,"lfglistvoicechat")
-			end
 		end
+		DEFAULT_CHAT_FRAME:RegisterEvent("CHAT_MSG_SYSTEM")
+		UIErrorsFrame:RegisterEvent("UI_INFO_MESSAGE")
 	end
 end
 
@@ -174,8 +169,8 @@ function LookingForGroup_Options.ExecuteFilter(results,filter_options,first)
 		else
 			auto_report = not profile.auto_report
 		end
-		local UIErrorsFrame = UIErrorsFrame
 		UIErrorsFrame:UnregisterEvent("UI_INFO_MESSAGE") -- Don't show the "Thanks for the report" message
+		DEFAULT_CHAT_FRAME:UnregisterEvent("CHAT_MSG_SYSTEM")
 		for i=1,#results do
 			local v = bts[i]
 			local g = results[i]
@@ -199,6 +194,7 @@ function LookingForGroup_Options.ExecuteFilter(results,filter_options,first)
 				end]]
 			end
 		end
+		DEFAULT_CHAT_FRAME:RegisterEvent("CHAT_MSG_SYSTEM")
 		UIErrorsFrame:RegisterEvent("UI_INFO_MESSAGE")
 	end
 	LookingForGroup_Options.SortSearchResults(tb)

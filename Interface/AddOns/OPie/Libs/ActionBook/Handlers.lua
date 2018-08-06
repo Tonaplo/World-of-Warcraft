@@ -1,6 +1,5 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
-local is8 = select(4,GetBuildInfo()) >= 8e4
 local AB = assert(T.ActionBook:compatible(2,21), "A compatible version of ActionBook is required")
 local RW = assert(AB:compatible("Rewire",1,10), "A compatible version of Rewire is required")
 local KR = assert(AB:compatible("Kindred",1,14), "A compatible version of Kindred is required")
@@ -15,11 +14,6 @@ local safequote do
 	function safequote(s)
 		return (("%q"):format(s):gsub("[{}u]", r))
 	end
-end
-
-local GetSpellRank = is8 and GetSpellSubtext or function(...)
-	local _, r = GetSpellInfo(...)
-	return r
 end
 
 do -- mount: mount ID
@@ -148,11 +142,10 @@ do -- spell: spell ID + mount spell ID
 		elseif not RW:IsSpellCastable(id) then
 			return
 		else
-			local s0, r0 = GetSpellInfo(id)
-			if is8 then r0 = GetSpellSubtext(id) end
+			local s0, r0 = GetSpellInfo(id), GetSpellSubtext(id)
 			local o, s = pcall(GetSpellInfo, s0, r0)
 			if not (o and s and s0) then return end
-			local _, r1 = pcall(GetSpellRank, s0)
+			local _, r1 = pcall(GetSpellSubtext, s0)
 			action = (r0 and r1 ~= r0 and FindSpellBookSlotBySpellID(id)) and (s0 .. "(" .. r0 .. ")") or s0
 		end
 		if action and not actionMap[action] then
@@ -163,15 +156,12 @@ do -- spell: spell ID + mount spell ID
 		end
 		return actionMap[action]
 	end, function(id)
-		local name2, _, icon2, name, rank, icon = nil, nil, nil, GetSpellInfo(id)
+		local name2, _, icon2, rank, name, _, icon = nil, nil, nil, GetSpellSubtext(id), GetSpellInfo(id)
 		local _, castType = RW:IsSpellCastable(id)
-		if is8 then
-			rank = GetSpellSubtext(id)
-		end
 		if name and castType ~= "forced-id-cast" then
 			name2, rank, icon2 = GetSpellInfo(name, rank)
 		end
-		return mountMap[id] and L"Mount" or L"Spell", (name2 or name or "?") .. (rank and rank ~= "" and rank ~= GetSpellRank(name) and " (" .. rank .. ")" or ""), icon2 or icon, nil, GameTooltip.SetSpellByID, id
+		return mountMap[id] and L"Mount" or L"Spell", (name2 or name or "?") .. (rank and rank ~= "" and rank ~= GetSpellSubtext(name) and " (" .. rank .. ")" or ""), icon2 or icon, nil, GameTooltip.SetSpellByID, id
 	end)
 	do -- specials
 		local gab = GetSpellInfo(161691)
@@ -304,10 +294,13 @@ do -- macrotext
 	local function hintSlashCast(_, _, clause, target)
 		if not clause or clause == "" then return end
 		local link, bag, slot = SecureCmdItemParse(clause)
-		if link and GetItemInfo(link) then
+		if (bag and slot) or (link and GetItemIcon(link)) then
 			return checkReturn(90, itemHint(link, nil, target, nil, bag, slot))
 		end
-		return checkReturn(true, spellFeedback(clause, target))
+		if not tonumber(clause, 10) then
+			-- /cast SpellID doesn't work, but the API will return "valid" spell data
+			return checkReturn(true, spellFeedback(clause, target))
+		end
 	end
 	RW:SetCommandHint("/use", 100, hintSlashCast)
 	RW:SetCommandHint("/cast", 100, hintSlashCast)

@@ -74,6 +74,22 @@ local function rft_detail(realm_filters,realm)
 	end
 end
 
+local function whisper(player,sf_whisper)
+	if sf_whisper then
+		DEFAULT_CHAT_FRAME:UnregisterEvent("CHAT_MSG_IGNORED")
+		DEFAULT_CHAT_FRAME:UnregisterEvent("CHAT_MSG_SYSTEM")
+		UIErrorsFrame:UnregisterEvent("UI_ERROR_MESSAGE")
+		SF[1][player] = true
+		SendChatMessage(sf_whisper,"WHISPER",nil,player)
+		C_Timer.After(1,function()
+			UIErrorsFrame:RegisterEvent("UI_ERROR_MESSAGE")
+			DEFAULT_CHAT_FRAME:RegisterEvent("CHAT_MSG_SYSTEM")
+			DEFAULT_CHAT_FRAME:RegisterEvent("CHAT_MSG_IGNORED")		
+		end)
+	end
+	return true
+end
+
 local function realm_filter(name)
 	local profile = LookingForGroup.db.profile
 	local mode_rf = profile.mode_rf
@@ -99,27 +115,21 @@ local function keyword_filter(filters,msg,player,sf_whisper)
 	local string_find = string.find
 	for i=1,#filters do
 		if string_find(msg,filters[i]) then
-			if sf_whisper then
-				SendChatMessage(sf_whisper,"WHISPER",nil,player)
-			end
-			return true
+			return whisper(player,sf_whisper)
 		end
 	end
 	if LookingForGroup.db.profile.spam_filter_player_name then
 		player = player:lower()
 		for i=1,#filters do
 			if string_find(player,filters[i]) then
-				if sf_whisper then
-					SendChatMessage(sf_whisper,"WHISPER",nil,player)
-				end
-				return true
+				return whisper(player,sf_whisper)
 			end
 		end
 	end
 end
 
 local function addon_filter(_, _, msg,player, _, _, _, _, _, _, _, _, _, guid)
-	if msg:find("^<LFG>") then
+	if SF[1][player] or msg:find("^<LFG>") then
 		return true
 	end
 	local profile = LookingForGroup.db.profile
@@ -128,10 +138,11 @@ local function addon_filter(_, _, msg,player, _, _, _, _, _, _, _, _, _, guid)
 		local string_find = string.find
 		for i=1,#filters do
 			if string_find(msg,filters[i]) then
-				if profile.addon_ft_whisper and guid ~= UnitGUID("player") then
-					SendChatMessage("<LFG>Stop using bad addons which keep spamming!","WHISPER",nil,player)
+				if profile.addon_ft_whisper then
+					return whisper(player,guid ~= UnitGUID("player") and "<LFG>Stop using bad addons which keep spamming!")
+				else
+					return true
 				end
-				return true
 			end
 		end
 	end
@@ -185,18 +196,17 @@ local function channel_filter(_, _, msg, player, _, _, _, _, _, _, _, _, _, guid
 		end
 	end
 	local profile = LookingForGroup.db.profile
-	local numHyperlink
-	msg, numHyperlink = msg:gsub("|c[^%[]+%[([^%]]+)%]|h|r", "%1")
-	if 2 < numHyperlink then
-		local sf_whisper = profile.sf_whisper
-		if sf_whisper then
-			SendChatMessage(sf_whisper,"WHISPER",nil,player)
+	local hyperlinks = profile.spam_filter_hyperlinks
+	if hyperlinks then
+		local numHyperlink
+		msg, numHyperlink = msg:gsub("|c[^%[]+%[([^%]]+)%]|h|r", "%1")
+		if hyperlinks < numHyperlink then
+			return whisper(player,profile.sf_whisper)
 		end
-		return true
 	end
 	local length = profile.spam_filter_maxlength
 	if length and length < strlenutf8(msg) then
-		return true
+		return whisper(player,profile.sf_whisper)
 	end
 	local digits = profile.spam_filter_digits
 	if digits then
@@ -205,7 +215,7 @@ local function channel_filter(_, _, msg, player, _, _, _, _, _, _, _, _, _, guid
 			t = t + 1
 		end
 		if digits < t then
-			return true
+			return whisper(player,profile.sf_whisper)
 		end
 	end
 	local filters = profile.spam_filter_keywords
@@ -224,7 +234,7 @@ local function guild_filter(_, _, msg, player, _, _, _, _, _, _, _, _, _, guid)
 	local profile = LookingForGroup.db.profile
 	local length = profile.spam_filter_maxlength
 	if length and length < strlenutf8(msg) then
-		return true
+		return whisper(player,profile.sf_whisper)
 	end
 	local filters = profile.spam_filter_keywords
 	if filters then
@@ -276,17 +286,14 @@ function SF:OnInitialize()
 		"%[接受任务%]",
 		"<iLvl>",
 		("%-"):rep(30),
-		"<小队物品等级:.+>"
+		"<小队物品等级:.+>",
+		"^<EH>"
 	}
+	SF[1]={}
 	db:RegisterDefaults(defaults)
 
 	local profile = LookingForGroup.db.profile
 	local api = ChatFrame_AddMessageEventFilter
-	api("CHAT_MSG_SYSTEM",function(_,_,msg)
-		if msg == COMPLAINT_ADDED then
-			return true
-		end
-	end)
 	api("CHAT_MSG_WHISPER",pm_filter)
 	api("CHAT_MSG_EMOTE",channel_filter)
 	api("CHAT_MSG_SAY",bubble_filter)

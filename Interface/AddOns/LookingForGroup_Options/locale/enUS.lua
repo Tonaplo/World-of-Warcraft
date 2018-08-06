@@ -10,8 +10,6 @@ L["auto_no_info_quest"] = "Block No Info Quest"
 L["auto_no_info_quest_desc"] = "Block quests which are not able to get info from API. Enabling this might block a lot of annoying quests but meaningful quests as well."
 L["auto_report"] = "Auto Report"
 L["auto_report_desc"] = "Automatically report spamming groups in LFG system"
-L["auto_use_name"] = "Use name"
-L["auto_use_name_desc"] = "Create/Search groups based on name instead of id. This option is harmful for communicating with addons."
 L["auto_wq_only_desc"] = "%s Only"
 L["Backfill"] = true
 L["background_search"] = "Background Search"
@@ -42,6 +40,7 @@ No Click = Do not care whether this boss is defeated or not.]=]
 L["find_recommended_desc"] = [=[Normal Click = Display recommended activities only
 Dark Click = Display other activities
 No Click = Display all activities]=]
+L["hyperlinks_desc"] = "Spams always have a lot of hyperlinks in their descriptions. This option controls the maximum count of hyperlinks a description could have."
 L["Keywords"] = true
 L["language_sf_desc"] = "An empowered version of AddOn BlockChinese. It can block not only Chinese/Korean, but other languages as well."
 L["Levenshtein Distance"] = true
