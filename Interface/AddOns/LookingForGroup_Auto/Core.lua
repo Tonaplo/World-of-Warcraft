@@ -174,7 +174,6 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 		local GetActivityInfo = C_LFGList.GetActivityInfo
 		local ReportSearchResult = C_LFGList.ReportSearchResult
 		local GetSearchResultMemberCounts = C_LFGList.GetSearchResultMemberCounts
-		local smatch = string.match
 		local keyword_be_number = keyword and tonumber(keyword) or nil
 		UIErrorsFrame:UnregisterEvent("UI_INFO_MESSAGE") -- Don't show the "Thanks for the report" message
 		DEFAULT_CHAT_FRAME:UnregisterEvent("CHAT_MSG_SYSTEM")
@@ -191,9 +190,11 @@ function LookingForGroup.accepted(name,search,create,secure,raid,quest_id,keywor
 				elseif name then
 					local name_lower = name:lower()
 					if keyword_be_number then
-						local n = smatch(name,"%d+")
-						if n and n==keyword then
-							yes = true
+						for n,_ in string.gmatch(name,"%d+") do
+							if n==keyword then
+								yes = true
+								break
+							end
 						end
 					elseif name_lower:find(keyword) then
 						yes = true
@@ -447,6 +448,13 @@ function LookingForGroup.autoloop(name,search,create,secure,raid,...)
 		ticker = C_Timer.NewTicker(5,function()
 			coroutine.resume(current,19)
 		end)
+	end
+	if name then
+		LookingForGroup:RegisterEvent("GROUP_LEFT",function()
+			coroutine.resume(current,2)
+		end)
+	else
+		LookingForGroup:RegisterEvent("GROUP_LEFT",event_func)
 	end
 	if raid then
 		LookingForGroup:RegisterEvent("LFG_LIST_ACTIVE_ENTRY_UPDATE",event_func)

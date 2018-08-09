@@ -18,7 +18,11 @@ function Event:OnEnable()
 	LFGListFrame:UnregisterEvent("LFG_LIST_APPLICANT_LIST_UPDATED")
 	LFGListFrame:UnregisterEvent("LFG_LIST_ENTRY_EXPIRED_TOO_MANY_PLAYERS")
 	LFGListFrame:UnregisterEvent("LFG_LIST_ENTRY_EXPIRED_TIMEOUT")
---	LFGListFrame:UnregisterEvent("LFG_LIST_APPLICATION_STATUS_UPDATED")
+	LFGListFrame:UnregisterEvent("LFG_LIST_SEARCH_RESULT_UPDATED")
+	if LookingForGroup.db.profile.disable_lfglist then
+		LFGListFrame:UnregisterEvent("LFG_LIST_SEARCH_RESULTS_RECEIVED")
+		LFGListFrame:UnregisterEvent("LFG_LIST_SEARCH_FAILED")
+	end
 end
 
 function Event:LFG_LIST_APPLICANT_LIST_UPDATED(event,hasNewPending,hasNewPendingWithData,...)

@@ -315,7 +315,7 @@ LookingForGroup_Options:push("sf",{
 						end
 					end
 				},
-				cancel =
+				reset =
 				{
 					name = RESET,
 					type = "execute",

@@ -62,6 +62,8 @@ AAP_Locals = {
 	["dotsexpire"] = "Let dots on you expire before clicking altar",
 	["Banneronstuff"] = "Use Banner on Corpses",
 	["GetSaurolistBuff"] = "There is clickable buffs all over the zone.",
+	["Fixed Quest"] = "If they haven't fixed quest, leave quest at Rokor",
+	["WarModeOff"] = "Turn On WarMode!",
 }
 AAP_Locals["deDE"] = {
 	["Accept Quest"] = "Quest annehmen",

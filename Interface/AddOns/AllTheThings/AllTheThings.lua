@@ -277,6 +277,12 @@ app.GetTempDataSubMember = GetTempDataSubMember;
 		
 		-- Cooking Skills
 		[185] = 185,	-- Cooking [7.3.5]
+		[975] = 185,	-- Way of the Grill
+		[976] = 185,	-- Way of the Wok
+		[977] = 185,	-- Way of the Pot
+		[978] = 185,	-- Way of the Steamer
+		[979] = 185,	-- Way of the Oven
+		[980] = 185,	-- Way of the Brew
 		[2548] = 185,	-- Classic Cooking [8.0.1]
 		[2547] = 185,	-- Outland Cooking [8.0.1]
 		[2546] = 185,	-- Northrend Cooking [8.0.1]
@@ -2045,8 +2051,8 @@ local function OpenMiniList(field, id, label)
 			return false;
 		end
 	else
-		print("No map found for this location ", app.GetMapName(id), " [", id, "]");
-		print("Please report this to the ATT Discord! Thanks! Version 1.6.5a"); -- Adding version so we can quickly see if it was done and they haven't updated
+		--print("No map found for this location ", app.GetMapName(id), " [", id, "]");
+		--print("Please report this to the ATT Discord! Thanks! Version 1.6.7"); -- Adding version so we can quickly see if it was done and they haven't updated
 	end
 end
 local function OpenMiniListForCurrentProfession(manual, refresh)
@@ -2478,6 +2484,18 @@ app.ToggleMiniListForCurrentZone = ToggleMiniListForCurrentZone;
 app.ToggleCompletionistMode = ToggleCompletionistMode;
 app.ToggleDebugMode = ToggleDebugMode;
 app.ToggleMainList = ToggleMainList;
+app.SetHideBOEItems = function(checked)
+	app.SetDataMember("RequireBindingFilter", checked);
+	if checked then
+		app.RequireBindingFilter = app.FilterItemClass_RequireBinding;
+	else
+		app.RequireBindingFilter = app.NoFilter;
+	end
+	app:RefreshData();
+end
+app.ToggleBOEItems = function()
+	app.SetHideBOEItems(not app.GetDataMember("RequireBindingFilter"));
+end
 
 
 -- Tooltip Functions
@@ -6769,7 +6787,7 @@ function app:GetDataCache()
 		if app.Categories.WorldDrops then
 			db = {};
 			db.expanded = false;
-			db.text = L("WORLD_DROPS");
+			db.text = TRANSMOG_SOURCE_4; -- L("WORLD_DROPS");
 			db.icon = "Interface\\ICONS\\INV_Misc_Map02";
 			db.g = app.Categories.WorldDrops;
 			table.insert(g, db);
@@ -6792,15 +6810,15 @@ function app:GetDataCache()
 			db.text = TRACKER_HEADER_ACHIEVEMENTS;
 			table.insert(g, db);
 		end
-		--]]
-		-- Class Halls
-		if app.Categories.ClassHalls then
+		
+		-- Expansion Features
+		if app.Categories.ExpansionFeatures then
 			db = {};
-			db.lvl = 98;
+			db.lvl = 67;
 			db.expanded = false;
-			db.text = GetCategoryInfo(15304);
-			db.icon = "Interface\\Icons\\achievement_level_110";
-			db.g = app.Categories.ClassHalls;
+			db.text = GetCategoryInfo(15301);
+			db.icon = "Interface\\ICONS\\Achievement_Battleground_TempleOfKotmogu_02_Green";
+			db.g = app.Categories.ExpansionFeatures;
 			table.insert(g, db);
 		end
 		
@@ -8875,6 +8893,7 @@ app.events.VARIABLES_LOADED = function()
 	BINDING_NAME_ALLTHETHINGS_OPENPROFESSIONMINILIST = L("OPEN_PROFESSIONMINILIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLEMAINLIST = L("TOGGLE_MAINLIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLEMINILIST = L("TOGGLE_MINILIST");
+	BINDING_NAME_ALLTHETHINGS_TOGGLEBOEITEMS = L("TOGGLE_BOEITEMS");
 	BINDING_NAME_ALLTHETHINGS_TOGGLECOMPLETIONISTMODE = L("TOGGLE_COMPLETIONIST_MODE");
 	BINDING_NAME_ALLTHETHINGS_TOGGLEDEBUGMODE = L("TOGGLE_DEBUG_MODE");
 	BINDING_NAME_ALLTHETHINGS_OPEN_RAID_ASSISTANT = L("OPEN_RAID_ASSISTANT");

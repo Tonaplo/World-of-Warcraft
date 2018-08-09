@@ -1,3 +1,21 @@
+08/08/2018 version 4.8.2
+- Added a new options category 'Debugging Options'
+- Moved option 'Debug: Journal FrameLevel' to this new category.
+- Added option 'Debug: No Cache' to disable the automatic caching of NPC names.
+- Added option 'Debug: No Sanctuary' to disable the system that protects against server petID reassignments.
+- Teams are now checked for corruption on login, with instructions on what to do if any is encountered.
+- While ElvUI and RematchElvUISkin are both enabled, the version of the latter will display at the end of options.
+
+Special note for those experiencing crashes:
+- If you're NOT on a MacOS client, let me know. So far crashes seem limited to MacOS.
+- If you haven't, make a backup of WTF or Rematch's SavedVariable deep in WTF folder. Crashes are the #1 cause of addons losing data. (A backup of Interface\Addons\Rematch will not be useful. No saved data is stored there. Backup WTF instead.)
+- If you're unsure how to backup WTF, and you can open the addon with /rematch, go to the Teams tab and choose 'Backup All Teams' from the Teams button at the top of the panel.
+- Try to enable 'Debug: No Cache' and 'Debug: No Sanctuary' in the new 'Debugging Options' category and see if that helps.
+- If you can't open Rematch to set those options, copy and paste this to chat to set those options and reload the UI:
+/run RematchSettings.DebugNoCache=true RematchSettings.DebugNoSanctuary=true ReloadUI()
+- Let me know if this solves the problem or not, or if you experience any other issues.
+- Thank you for your patience!
+
 07/19/2018 version 4.8.1
 - Fixes for Rematch to better work alongside other addons not yet updated for to the 8.0 pre-patch
 

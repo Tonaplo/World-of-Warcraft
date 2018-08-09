@@ -1,7 +1,7 @@
-changeset:   1324:1937f4950feb
-tag:         1325.0
+changeset:   1336:7b983fe3a579
+tag:         1337.0
 user:        ejsvifq_mabmip
-date:        Mon Aug 06 00:42:40 2018 -0400
-summary:     1. fix background kicker conflicting with leave party bug. 2.lfg elite convert to raid.
+date:        Wed Aug 08 05:46:45 2018 -0400
+summary:     secure reference
 
 

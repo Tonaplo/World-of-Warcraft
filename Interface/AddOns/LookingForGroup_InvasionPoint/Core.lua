@@ -58,11 +58,7 @@ local function cofunc(secure,player_is_leader)
 			end
 		end)
 	end
-	LookingForGroup_InvasionPoint:RegisterEvent("GROUP_LEFT",function()
-		coroutine.resume(current,2)
-	end)
 	LookingForGroup.autoloop(name,search,create,0,true,nil,confirm_keyword)
-	LookingForGroup_InvasionPoint:UnregisterEvent("GROUP_LEFT")
 	LookingForGroup_InvasionPoint:UnregisterEvent("SCENARIO_COMPLETED")
 	LookingForGroup_InvasionPoint:UnregisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 	LookingForGroup_InvasionPoint:RegisterEvent("LOADING_SCREEN_DISABLED")

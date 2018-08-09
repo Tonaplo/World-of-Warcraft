@@ -3,6 +3,11 @@ VER 3 010000000000000E "Guild Standard" "INV_MISC_QUESTIONMARK"
 /use Standard of Unity
 /use Banner of Cooperation
 END
+VER 3 010000000000000F "Gunshoes and pot" "INV_MISC_QUESTIONMARK"
+#showtooltip Gunshoes
+/use Gunshoes
+/use Skystep Potion
+END
 VER 3 010000000000000D "Leveling CDs" "INV_MISC_QUESTIONMARK"
 /use 14
 /use Potion of Prolonged Power

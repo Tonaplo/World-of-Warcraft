@@ -60,6 +60,28 @@ LookingForGroup_Options:push("advanced",{
 						end
 					end,
 				},
+				lfglist =
+				{
+					name = LFGLIST_NAME,
+					type = "toggle",
+					get = function()
+						return LookingForGroup.db.profile.disable_lfglist
+					end,
+					set = function(_,v)
+						local Event = LookingForGroup:GetModule("Event",true)
+						if Event then
+							if v then
+								LookingForGroup.db.profile.disable_lfglist = true
+								LFGListFrame:UnregisterEvent("LFG_LIST_SEARCH_RESULTS_RECEIVED")
+								LFGListFrame:UnregisterEvent("LFG_LIST_SEARCH_FAILED")
+							else
+								LookingForGroup.db.profile.disable_lfglist = nil
+								LFGListFrame:RegisterEvent("LFG_LIST_SEARCH_RESULTS_RECEIVED")
+								LFGListFrame:RegisterEvent("LFG_LIST_SEARCH_FAILED")
+							end
+						end
+					end
+				}
 			}
 		},
 		window =

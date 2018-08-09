@@ -100,6 +100,7 @@ function AAP_RepaintGroups()
 	end
 end
 function AAP_Plus()
+	AAP_CompletedQs = GetQuestsCompleted()
 	if (UnitLevel("player") == 120) then
 		for AAP_index,AAP_value in pairs(AAP_BonusObj) do
 			if (not AAP_CompletedQs[AAP_index]) then
@@ -829,6 +830,7 @@ function AAP_QuestPartStep2()
 	end
 end
 function AAP_ZonePick()
+	AAP_CompletedQs = GetQuestsCompleted()
 	if (AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["ZonePick"] == "Horde") then
 		AAP_ActiveZonePick = 0
 		local H1 = {
@@ -1457,6 +1459,7 @@ function AAP_SetQPTT()
 	end
 end
 function AAP_ChangeZone()
+	AAP_CompletedQs = GetQuestsCompleted()
 	if (UnitLevel("player") == 120) then
 		for AAP_index,AAP_value in pairs(AAP_BonusObj) do
 			if (not AAP_CompletedQs[AAP_index]) then

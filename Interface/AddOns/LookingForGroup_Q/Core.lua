@@ -83,9 +83,6 @@ local function cofunc(quest_id,secure,gp)
 	if LookingForGroup.accepted(questName,search,create,secure,raid,quest_id,confirm_keyword) then
 		return
 	end
-	LookingForGroup_Q:RegisterEvent("GROUP_LEFT",function()
-		coroutine.resume(current)
-	end)
 	LookingForGroup_Q:RegisterEvent("QUEST_ACCEPTED",function(event,index,id)
 		if IsInGroup() then
 			if quest_id == id then
@@ -123,7 +120,6 @@ local function cofunc(quest_id,secure,gp)
 	LookingForGroup.autoloop(nil,nil,nil,nil,raid)
 	LookingForGroup_Q:UnregisterEvent("QUEST_TURNED_IN")
 	LookingForGroup_Q:UnregisterEvent("QUEST_REMOVED")
-	LookingForGroup_Q:UnregisterEvent("GROUP_LEFT")
 	LookingForGroup_Q:RegisterEvent("QUEST_ACCEPTED")
 end
 

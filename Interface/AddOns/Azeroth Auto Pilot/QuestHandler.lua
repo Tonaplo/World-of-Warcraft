@@ -341,6 +341,9 @@ function AAP_UpdateQuestList()
 			if (AAPExtralk == 25) then
 				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Get Flight Point"])
 			end
+			if (AAPExtralk == 26) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Fixed Quest"])
+			end
 			AAP.QuestList.QuestFrames[AAP_NRFS]:SetAlpha(1)
 			AAP.QuestList.QuestFrames[AAP_NRFS]:Show()
 			AAP_SetQPTT()
@@ -404,6 +407,15 @@ function AAP_UpdateQuestList()
 			ars = ars + 1
 			AAP.QuestList.QuestFrames[AAP_NRFS]:SetPoint("BOTTOMLEFT", AAP.QuestList.ListFrame, "BOTTOMLEFT",0,-((ars * 38)+ars))
 			AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText("** "..AAP_Locals["Totemdmg"].." **")
+			AAP.QuestList.QuestFrames[AAP_NRFS]:SetAlpha(1)
+			AAP.QuestList.QuestFrames[AAP_NRFS]:Show()
+			AAP_SetQPTT()
+		end
+		if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["WarModeChk"]) then
+			local AAP_NRFS = AAP_QH_GetFS("12932242-1")
+			ars = ars + 1
+			AAP.QuestList.QuestFrames[AAP_NRFS]:SetPoint("BOTTOMLEFT", AAP.QuestList.ListFrame, "BOTTOMLEFT",0,-((ars * 38)+ars))
+			AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText("** "..AAP_Locals["WarModeOff"].." **")
 			AAP.QuestList.QuestFrames[AAP_NRFS]:SetAlpha(1)
 			AAP.QuestList.QuestFrames[AAP_NRFS]:Show()
 			AAP_SetQPTT()
@@ -710,6 +722,12 @@ function AAP_UpdateQuestList()
 							ars = ars + 1
 							AAP.QuestList.QuestFrames[AAP_NRFS]:SetPoint("BOTTOMLEFT", AAP.QuestList.ListFrame, "BOTTOMLEFT",0,-((ars * 38)+ars))
 							AAP_SetButton(AAP_NRFS, ars)
+							if (not text) then
+								text = "Error: Missing text"
+								if (questID == 50331) then
+									text = AAP_Locals["Boat to"]
+								end
+							end
 							AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText("[".. ars+1 .."] "..text)
 							AAP.QuestList.QuestFrames[AAP_NRFS]:SetAlpha(1)
 							AAP.QuestList.QuestFrames[AAP_NRFS]:Show()
@@ -783,6 +801,12 @@ function AAP_UpdateQuestList()
 						AAP.QuestList.QuestFrames[AAP_NRFS]["BQid"] = AAP_index
 						AAP.QuestList.QuestFrames[AAP_NRFS]:SetAlpha(1)
 						AAP.QuestList.QuestFrames[AAP_NRFS]:Show()
+						if (AAP_index == 50331) then
+							AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] + 2
+							AAP_Reset = 0
+							AAP_Plus()
+							AAP_UpdateQuestList()
+						end
 				end
 			end
 		end

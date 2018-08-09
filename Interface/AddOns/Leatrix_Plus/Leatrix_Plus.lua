@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 8.0.08 (5th August 2018, www.leatrix.com)
+-- 	Leatrix Plus 8.0.09 (8th August 2018, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:RunOnce		70:Logout			
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "8.0.08"
+	LeaPlusLC["AddonVer"] = "8.0.09"
 	LeaPlusLC["RestartReq"] = nil
 
 --	If client restart is required and has not been done, show warning and quit
@@ -5590,6 +5590,15 @@
 
 			-- Various
 			Zn(L["Various"], L["Various"], "|cffffd800" .. L["Various"], {""})
+			Zn(L["Various"], L["Various"], L["Allied Races"], {	"|cffffd800" .. L["Various"] .. ": " .. L["Allied Races"], prefol, 
+				"|cffffd800", "|cffffd800" .. L["Dark Iron Dwarves"], "|Cffffffaa" .. L["Dark Iron Dwarves"] .. "|r " .. "MUS_80_AlliedRace_DarkIronDwarf_Intro#117230", "|Cffffffaa" .. L["Dark Iron Dwarves"] .. "|r " .. "MUS_80_AlliedRace_DarkIronDwarf_Intro02#117258", "|Cffffffaa" .. L["Dark Iron Dwarves"] .. "|r " .. "MUS_80_AlliedRace_DarkIronDwarf_Intro03#117261", "|Cffffffaa" .. L["Dark Iron Dwarves"] .. "|r " .. "MUS_80_AlliedRace_DarkIronDwarf01_Start#117245", "|Cffffffaa" .. L["Dark Iron Dwarves"] .. "|r " .. "MUS_80_AlliedRace_DarkIronDwarf02_Start#117246", "|Cffffffaa" .. L["Dark Iron Dwarves"] .. "|r " .. "MUS_80_AlliedRace_DarkIronDwarf_Scenario_SFC#117250", "|Cffffffaa" .. L["Dark Iron Dwarves"] .. "|r " .. "MUS_80_AlliedRace_DarkIronDwarf_Scenario_Firelands#117260",
+				"|cffffd800", "|cffffd800" .. L["Highmountain Tauren"], "|Cffffffaa" .. L["Highmountain Tauren"] .. "|r " .. "MUS_735_AR_RTC_HighmountainTauren_Flythrough#98204",
+				"|cffffd800", "|cffffd800" .. L["Lightforged Draenei"], "|Cffffffaa" .. L["Lightforged Draenei"] .. "|r " .. "MUS_735_AR_RTC_LightforgedDraenei_Flythrough#98201", "|Cffffffaa" .. L["Lightforged Draenei"] .. "|r " .. "MUS_735_AlliedRace_LightforgedDraenei_Vindicaar_01#97314", "|Cffffffaa" .. L["Lightforged Draenei"] .. "|r " .. "MUS_735_AlliedRace_LightforgedDraenei_ForgeofAeons#97316", "|Cffffffaa" .. L["Lightforged Draenei"] .. "|r " .. "MUS_735_AR_RTC_LightforgedDraenei_PreScenario_01#98199", "|Cffffffaa" .. L["Lightforged Draenei"] .. "|r " .. "MUS_735_AR_RTC_LightforgedDraenei_PreScenario_02#98200",
+				"|cffffd800", "|cffffd800" .. L["Mag'har Orcs"], "|Cffffffaa" .. L["Mag'har Orcs"] .. "|r " .. "MUS_80_AlliedRace_Mag'harOrc_Intro#117279", "|Cffffffaa" .. L["Mag'har Orcs"] .. "|r " .. "MUS_80_AlliedRace_Mag'harOrc02_Intro#117436", "|Cffffffaa" .. L["Mag'har Orcs"] .. "|r " .. "MUS_80_AlliedRace_Mag'harOrc01#117280", "|Cffffffaa" .. L["Mag'har Orcs"] .. "|r " .. "MUS_80_AlliedRace_Mag'harOrc02#117281", "|Cffffffaa" .. L["Mag'har Orcs"] .. "|r " .. "MUS_80_AlliedRace_Mag'harOrc_Light#117286", "|Cffffffaa" .. L["Mag'har Orcs"] .. "|r " .. "MUS_80_AlliedRace_Mag'harOrc_Light_Intro#117441",
+				"|cffffd800", "|cffffd800" .. L["Nightborne"], "|Cffffffaa" .. L["Nightborne"] .. "|r " .. "MUS_735_AR_RTC_Nightborne_Flythrough#98205", "|Cffffffaa" .. L["Nightborne"] .. "|r " .. "MUS_735_AR_RTC_Nightborne_Silvermoon_01#98214", "|Cffffffaa" .. L["Nightborne"] .. "|r " .. "MUS_735_AR_RTC_Nightborne_Silvermoon_03#98215", "|Cffffffaa" .. L["Nightborne"] .. "|r " .. "MUS_735_AR_RTC_Nightborne_ThalyssraEstate_01#98195", "|Cffffffaa" .. L["Nightborne"] .. "|r " .. "MUS_735_AR_RTC_Nightborne_ThalyssraEstate_02#98196", "|Cffffffaa" .. L["Nightborne"] .. "|r " .. "MUS_735_AR_RTC_Nightborne_ThalyssraEstate_03#98197",
+				"|cffffd800", "|cffffd800" .. L["Void Elves"], "|Cffffffaa" .. L["Void Elves"] .. "|r " .. "MUS_735_AR_RTC_VoidElf_Flythrough#98206", "|Cffffffaa" .. L["Void Elves"] .. "|r " .. "MUS_735_AlliedRace_VoidElf_01#97311", "|Cffffffaa" .. L["Void Elves"] .. "|r " .. "MUS_735_AlliedRace_VoidElf_02#97312", "|Cffffffaa" .. L["Void Elves"] .. "|r " .. "MUS_735_AlliedRace_VoidElf_Scenario_01#97782", "|Cffffffaa" .. L["Void Elves"] .. "|r " .. "MUS_735_AlliedRace_VoidElf_Scenario_02#97783", "|Cffffffaa" .. L["Void Elves"] .. "|r " .. "MUS_735_AlliedRace_VoidElf_Scenario_03#97784", "|Cffffffaa" .. L["Void Elves"] .. "|r " .. "MUS_735_AR_ThunderBluff_VoidAttack#97785",
+				"|cffffd800", "|cffffd800" .. L["Embassies"], "|Cffffffaa" .. L["Embassies"] .. "|r " .. "MUS_735_AlliedRace_EmbassyAlliance_01#97594", "|Cffffffaa" .. L["Embassies"] .. "|r " .. "MUS_735_AlliedRace_EmbassyHorde_01#97593",
+			})
 			Zn(L["Various"], L["Various"], L["Arenas"]									, {	"|cffffd800" .. L["Various"] .. ": " .. L["Arenas"], prefol, "Intro-NagrandDimond#10623", "MUS_50_Scenario_ArenaofAnnihilation#34019", "MUS_51_PVP_BrawlersGuild_Horde#34967", --[["MUS_80_PVP_ZandalarArena#117041", "MUS_80_PVP_KulTirasArena#114680",--]] "PVP-Battle Grounds#8233", "Zone-BladesEdge#9002",})
 			Zn(L["Various"], L["Various"], L["Battlegrounds"]							, {	"|cffffd800" .. L["Various"] .. ": " .. L["Battlegrounds"], prefol, "Altervac Valley_PVP#8014", "MUS_50_Scenario_TempleofKotmogu#33978", "MUS_BattleForGilneas_BG#23612", "MUS_TwinPeaks_BG#23613", "PVP-Battle Grounds#8233", "PVP-Battle Grounds--DeepwindGorge#37659", "PVP-Battle Grounds-Pandaria#33714", "PVP-Battle Grounds-SilvershardMines#33713", "Zone-WintergraspContested#14912",})
 			Zn(L["Various"], L["Various"], L["Class Trials"]							, {	"|cffffd800" .. L["Various"] .. ": " .. L["Class Trials"], prefol, "MUS_70_ClassTrial_Horde_BattleWalk#71954", "MUS_70_ClassTrial_Alliance_BattleWalk#71959",})
@@ -5607,7 +5616,7 @@
 			Zn(L["Movies"], L["Movies"], L["Mists of Pandaria"]							, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Mists of Pandaria"], prefol, L["Mists of Pandaria"] .. " |r(115)", L["Risking It All"] .. " |r(117)", L["Leaving the Wandering Isle"] .. " |r(116)", L["The King's Command"] .. " |r(119)", L["The Art of War"] .. " |r(120)", L["Battle of Serpent's Heart"] .. " |r(118)", L["The Fleet in Krasarang (Horde)"] .. " |r(128)", L["The Fleet in Krasarang (Alliance)"] .. " |r(127)", L["Hellscream's Downfall (Horde)"] .. " |r(151)", L["Hellscream's Downfall (Alliance)"] .. " |r(152)"})
 			Zn(L["Movies"], L["Movies"], L["Warlords of Draenor"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Warlords of Draenor"], prefol, L["Warlords of Draenor"] .. " |r(195)", L["Darkness Falls"] .. " |r(167)", L["The Battle of Thunder Pass"] .. " |r(168)", L["And Justice for Thrall"] .. " |r(177)", L["Into the Portal"] .. " |r(185)", L["A Taste of Iron"] .. " |r(187)", L["The Battle for Shattrath"] .. " |r(188)", L["Establish Your Garrison (Horde)"] .. " |r(189)", L["Establish Your Garrison (Alliance)"] .. " |r(192)", L["Bigger is Better (Horde)"] .. " |r(190)", L["Bigger is Better (Alliance)"] .. " |r(193)", L["My Very Own Castle (Horde)"] .. " |r(191)", L["My Very Own Castle (Alliance)"] .. " |r(194)", L["Gul'dan Ascendant"] .. " |r(270)", L["Shipyard Construction (Horde)"] .. " |r(292)", L["Shipyard Construction (Alliance)"] .. " |r(293)", L["Gul'dan's Plan"] .. "  |r(294)", L["Victory in Draenor!"] .. "  |r(295)"})
 			Zn(L["Movies"], L["Movies"], L["Legion"]									, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Legion"], prefol, L["Legion"] .. " |r(470)", L["The Invasion Begins"] .. " |r(469)", L["Return to the Black Temple"] .. " |r(471)", L["The Demon's Trail"] .. " |r(473)", L["The Fate of Val'sharah"] .. " |r(472)", L["Fate of the Horde"] .. " |r(474)", L["A New Life for Undeath"] .. " |r(475)", L["Harbingers Gul'dan"] .. " |r(476)", L["Harbingers Khadgar"] .. " |r(477)", L["Harbingers Illidan"] .. " |r(478)", L["The Nightborne Pact"] .. " |r(485)", L["The Battle for Broken Shore"] .. " |r(487)", L["A Falling Star"] .. " |r(489)", L["An Unclear Path"] .. " |r(490)", L["Victory at The Nighthold"] .. " |r(635)", L["A Found Memento"] .. " |r(636)", L["Kil'jaeden's Downfall"] .. " |r(656)", L["Arrival on Argus"] .. " |r(677)", L["Rejection of the Gift"] .. " |r(679)", L["Reincarnation of Alleria Windrunner"] .. " |r(682)", L["Rise of Argus"] .. " |r(687)", L["Antorus Ending"] .. " |r(689)", L["Epilogue (Horde)"] .. " |r(717)", L["Epilogue (Alliance)"] .. " |r(716)"})
-			Zn(L["Movies"], L["Movies"], L["Battle for Azeroth"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Battle for Azeroth"], prefol, L["Battle for Azeroth"] .. " |r(852)", L["Warbringers Sylvanas"] .. " |r(853)"})
+			Zn(L["Movies"], L["Movies"], L["Battle for Azeroth"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Battle for Azeroth"], prefol, L["Battle for Azeroth"] .. " |r(852)", L["Warbringers Sylvanas"] .. " |r(853)", L["Battle for Lordaeron (Alliance)"] .. " |r(854)", L["Battle for Lordaeron (Horde)"] .. " |r(855)", L["Battle for Lordaeron (Jaina)"] .. " |r(856)"})
 
 			-- Give zone table a file level scope so slash command function can access it
 			LeaPlusLC["ZoneList"] = ZoneList
@@ -7993,26 +8002,29 @@
 							if b.tracks then
 								for k, v in pairs(b.tracks) do
 									-- Check for bad sound IDs
-									local temFile, temSoundID = v:match("([^,]+)%#([^,]+)")
-									if temSoundID then
-										local temPlay, temHandle = PlaySound(temSoundID, "Master", false, true)
-										if temHandle then StopSound(temHandle) end
-										temPlay, temHandle = PlaySound(temSoundID, "Master", false, true)
-										if not temPlay and not temHandle then
-											print("|cffff5400" .. L["Bad ID"] .. ": |r" .. e, v)
-											badidfound = true
-										else
+									if not strfind(v, "|c") then
+										local temFile, temSoundID = v:match("([^,]+)%#([^,]+)")
+										if temSoundID then
+											local temPlay, temHandle = PlaySound(temSoundID, "Master", false, true)
 											if temHandle then StopSound(temHandle) end
+											temPlay, temHandle = PlaySound(temSoundID, "Master", false, true)
+											if not temPlay and not temHandle then
+												print("|cffff5400" .. L["Bad ID"] .. ": |r" .. e, v)
+												badidfound = true
+											else
+												if temHandle then StopSound(temHandle) end
+											end
 										end
+
+										-- Check for duplicate IDs
+										if tContains(same, v) and mask == false then 
+											mask = true
+											found = true
+											print("|cffec51ff" .. L["Dup ID"] .. ": |r" .. e, v)
+										end
+										tinsert(same, v)
+										mask = false
 									end
-									-- Check for duplicate IDs
-									if tContains(same, v) and mask == false then 
-										mask = true
-										found = true
-										print("|cffec51ff" .. L["Dup ID"] .. ": |r" .. e, v)
-									end
-									tinsert(same, v)
-									mask = false
 								end
 							end
 						end
@@ -8024,6 +8036,7 @@
 				if found == false then 
 					LeaPlusLC:Print("No media duplicates found.") 
 				end
+				Sound_GameSystem_RestartSoundSystem()
 				collectgarbage()
 				return
 			elseif str == "enigma" then

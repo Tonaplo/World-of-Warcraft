@@ -1,6 +1,5 @@
 local EntryCreation = LFGListFrame.EntryCreation
-EntryCreation.VoiceChat.CheckButton:Hide()
-local name,description,voicechat = EntryCreation.Name,EntryCreation.Description,EntryCreation.VoiceChat.EditBox
+local name,description,voicechat,voicechat_checkbutton = EntryCreation.Name,EntryCreation.Description,EntryCreation.VoiceChat.EditBox,EntryCreation.VoiceChat.CheckButton
 
 local methods = {
 	["OnAcquire"] = function(self)
@@ -12,6 +11,9 @@ local methods = {
 		if description ~= editbox then
 			editbox:SetScript("OnTextChanged",InputBoxInstructions_OnTextChanged)
 			editbox:SetScript("OnEnterPressed",EditBox_ClearFocus)
+			if editbox == voicechat then
+				voicechat_checkbutton:Hide()
+			end
 		end
 		editbox:ClearAllPoints()
 		editbox:SetParent(self.frame)
@@ -54,9 +56,7 @@ local methods = {
 	
 	["SetText"] = nop,
 
-	["GetText"] = function(self, text)
-		return self.editbox:GetText()
-	end,
+	["GetText"] = nop,
 }
 
 local function factory(Type,editbox)

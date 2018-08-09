@@ -145,13 +145,16 @@ local requests =
 			func = function()
 				local active, activityID, iLevel, honorLevel, name, comment = C_LFGList.GetActiveEntryInfo()
 				if active and LFGListUtil_IsEntryEmpowered() then
-					LookingForGroup_Options.option_table.args.requests = nil
 --[[					if activityID == 44 then
 						AceConfigDialog:SelectGroup("LookingForGroup","av")
 					else]]
-						AceConfigDialog:SelectGroup("LookingForGroup","find")
---					end
 					C_LFGList.RemoveListing()
+					LookingForGroup:RegisterEvent("LFG_LIST_ACTIVE_ENTRY_UPDATE",function()
+						LookingForGroup:UnregisterEvent("LFG_LIST_ACTIVE_ENTRY_UPDATE")
+						AceConfigDialog:SelectGroup("LookingForGroup","find")
+						LookingForGroup_Options.option_table.args.requests = nil
+					end)
+--					end
 				end
 			end
 		},

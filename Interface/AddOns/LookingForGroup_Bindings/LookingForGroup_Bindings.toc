@@ -1,6 +1,6 @@
 ## Interface: 80000
 ## Author: cqwrteur
 ## Title: LookingForGroup Bindings
-## Version: r1325
+## Version: r1337
 
 Core.lua

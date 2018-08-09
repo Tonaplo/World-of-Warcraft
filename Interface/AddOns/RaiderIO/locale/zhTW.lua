@@ -16,6 +16,8 @@ L["BEST_RUN"] = "最高紀錄"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[您的更動已儲存，但您必須重載UI以生效。
 
 你要現在這麼做嗎？]=]
+--[[Translation missing --]]
+--[[ L["CHECKBOX_DISPLAY_WEEKLY"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "複製Raider.IO設定檔網址"
 L["COPY_RAIDERIO_URL"] = "複製Raider.IO網址"
 L["DPS"] = "DPS"
@@ -43,6 +45,10 @@ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = "允許RaiderIO客戶端增強功能"
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = "啟用此功能後，你可以從RaiderIO客戶端下載並查看你要求角色的傳奇+詳細記錄數據。"
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "使用簡易分數著色"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "只使用標準物品品質顏色來顯示分數。 這可以使那些具有色弱的人更容易區分評分級別。"
+--[[Translation missing --]]
+--[[ L["GUILD_BEST_SEASON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
 L["HEALER"] = "治療者"
 L["HEALER_SCORE"] = "治療者分數"
 L["INVERSE_PROFILE_MODIFIER"] = "反轉切換紀錄提示"
@@ -59,6 +65,8 @@ L["MODULE_TAIWAN"] = "台灣"
 L["MY_PROFILE_TITLE"] = "我的M+紀錄"
 L["MYTHIC_PLUS_DB_MODULES"] = "傳奇+數據庫模組"
 L["MYTHIC_PLUS_SCORES"] = "傳奇+分數"
+--[[Translation missing --]]
+--[[ L["NO_GUILD_RECORD"] = ""--]] 
 L["OPEN_CONFIG"] = "開啟選項"
 L["OUT_OF_SYNC_DATABASE_S"] = "|cffFFFFFF%s|r有聯盟/部落陣營的數據尚未同步。請更新您的RaiderIO設置以同步雙方陣營。"
 L["OUTDATED_DATABASE"] = "分數已有%d天之久"
@@ -77,6 +85,10 @@ L["RELOAD_LATER"] = "等會才重載"
 L["RELOAD_NOW"] = "現在就重載"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "顯示時限內紀錄的平均分數"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "顯示隊員未超時紀錄的Raider.IO平均分數。這可以在地城搜尋器的鑰石與玩家提示中看見。"
+--[[Translation missing --]]
+--[[ L["SHOW_CLIENT_GUILD_BEST"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_CLIENT_GUILD_BEST_DESC"] = ""--]] 
 L["SHOW_IN_FRIENDS"] = "顯示在好友名單"
 L["SHOW_IN_FRIENDS_DESC"] = "當你鼠標懸停在好友時顯示傳奇+分數。"
 L["SHOW_IN_LFD"] = "顯示在地城搜尋器"
