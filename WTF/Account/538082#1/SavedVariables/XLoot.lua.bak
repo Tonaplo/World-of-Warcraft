@@ -79,6 +79,7 @@ XLootADB = {
 		["Kaldorath - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
+		["Mallubank - Tichondrius"] = "Default",
 		["Lorvol - Tichondrius"] = "Default",
 		["Brity - Steamwheedle Cartel"] = "Default",
 		["Amranar - Proudmoore"] = "Default",

@@ -97,8 +97,8 @@ LUIDB = {
 							["Kaldorath"] = 1270053364,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Fimwack"] = 1625871926,
 							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 673026685,
 							["Faerand"] = 325119376,
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1196583064,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1217545610,
+							["Mallusof"] = 1226512726,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -182,12 +182,12 @@ LUIDB = {
 					["DualSpec"] = {
 						["Enable"] = true,
 						["ShowSpentPoints"] = false,
-						["X"] = -600,
+						["Font"] = "Prototype",
 						["InfoPanel"] = {
 							["Vertical"] = "Top",
 							["Horizontal"] = "Right",
 						},
-						["Font"] = "Prototype",
+						["X"] = -600,
 					},
 				},
 			},
@@ -269,23 +269,24 @@ LUIDB = {
 						},
 					},
 					["Settings"] = {
+						["show_v2_party_textures"] = false,
 						["ShowV2Textures"] = false,
 						["show_v2_textures"] = false,
 						["ShowV2BossTextures"] = false,
-						["ShowV2PartyTextures"] = false,
-						["show_v2_arena_textures"] = false,
-						["show_v2_party_textures"] = false,
 						["ShowV2ArenaTextures"] = false,
+						["show_v2_arena_textures"] = false,
+						["ShowV2PartyTextures"] = false,
 					},
 					["Focus"] = {
 						["Point"] = "LEFT",
 						["Castbar"] = {
-							["General"] = {
-								["Width"] = 400,
-								["Y"] = 350,
-								["X"] = 640,
-								["Height"] = 35,
-								["IndividualColor"] = true,
+							["Colors"] = {
+								["Bar"] = {
+									["a"] = 0.680000007152557,
+									["b"] = 0,
+									["g"] = 1,
+									["r"] = 0,
+								},
 							},
 							["Shield"] = {
 								["Color"] = {
@@ -316,13 +317,12 @@ LUIDB = {
 									["Size"] = 15,
 								},
 							},
-							["Colors"] = {
-								["Bar"] = {
-									["a"] = 0.680000007152557,
-									["b"] = 0,
-									["g"] = 1,
-									["r"] = 0,
-								},
+							["General"] = {
+								["Width"] = 400,
+								["Y"] = 350,
+								["X"] = 640,
+								["Height"] = 35,
+								["IndividualColor"] = true,
 							},
 						},
 						["Y"] = -50,
@@ -379,13 +379,19 @@ LUIDB = {
 							["Width"] = 100,
 						},
 						["Castbar"] = {
-							["General"] = {
-								["Point"] = "CENTER",
-								["Width"] = 380,
-								["Y"] = -180,
-								["X"] = 20,
-								["Height"] = 25,
-								["IndividualColor"] = true,
+							["Colors"] = {
+								["Shield"] = {
+									["a"] = 0.1,
+									["r"] = 0.5,
+									["g"] = 0,
+									["b"] = 0,
+								},
+								["Bar"] = {
+									["a"] = 0.680000007152557,
+									["r"] = 1,
+									["g"] = 0,
+									["b"] = 0,
+								},
 							},
 							["Shield"] = {
 								["Color"] = {
@@ -412,25 +418,19 @@ LUIDB = {
 									["Size"] = 15,
 								},
 							},
-							["Colors"] = {
-								["Shield"] = {
-									["a"] = 0.1,
-									["r"] = 0.5,
-									["g"] = 0,
-									["b"] = 0,
-								},
-								["Bar"] = {
-									["a"] = 0.680000007152557,
-									["r"] = 1,
-									["g"] = 0,
-									["b"] = 0,
-								},
+							["General"] = {
+								["Point"] = "CENTER",
+								["Width"] = 380,
+								["Y"] = -180,
+								["X"] = 20,
+								["Height"] = 25,
+								["IndividualColor"] = true,
 							},
 						},
-						["Icons"] = {
-							["PvP"] = {
-								["Enable"] = true,
-							},
+						["Border"] = {
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+							["Aggro"] = true,
 						},
 						["X"] = 350.000030517578,
 						["Aura"] = {
@@ -479,10 +479,10 @@ LUIDB = {
 								},
 							},
 						},
-						["Border"] = {
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-							["Aggro"] = true,
+						["Icons"] = {
+							["PvP"] = {
+								["Enable"] = true,
+							},
 						},
 						["Texts"] = {
 							["PowerPercent"] = {
@@ -499,9 +499,9 @@ LUIDB = {
 								["ColorNameByClass"] = false,
 								["Point"] = "TOPRIGHT",
 								["X"] = -5,
-								["RelativePoint"] = "TOPRIGHT",
-								["Format"] = "Name + Level",
 								["ShortClassification"] = true,
+								["Format"] = "Name + Level",
+								["RelativePoint"] = "TOPRIGHT",
 								["Size"] = 14,
 							},
 							["Power"] = {
@@ -599,10 +599,6 @@ LUIDB = {
 							},
 						},
 						["Texts"] = {
-							["Name"] = {
-								["Point"] = "LEFT",
-								["RelativePoint"] = "LEFT",
-							},
 							["HealthPercent"] = {
 								["Point"] = "RIGHT",
 								["Enable"] = true,
@@ -615,6 +611,10 @@ LUIDB = {
 								},
 								["Size"] = 17,
 							},
+							["Name"] = {
+								["Point"] = "LEFT",
+								["RelativePoint"] = "LEFT",
+							},
 						},
 					},
 					["BossTarget"] = {
@@ -626,13 +626,13 @@ LUIDB = {
 					},
 					["Player"] = {
 						["Castbar"] = {
-							["General"] = {
-								["Point"] = "CENTER",
-								["Width"] = 380,
-								["Y"] = -210,
-								["X"] = 20,
-								["Height"] = 25,
-								["IndividualColor"] = true,
+							["Colors"] = {
+								["Bar"] = {
+									["a"] = 1,
+									["r"] = 0,
+									["g"] = 1,
+									["b"] = 0,
+								},
 							},
 							["Text"] = {
 								["Name"] = {
@@ -643,41 +643,40 @@ LUIDB = {
 									["Size"] = 15,
 								},
 							},
-							["Colors"] = {
-								["Bar"] = {
-									["a"] = 1,
-									["r"] = 0,
-									["g"] = 1,
-									["b"] = 0,
-								},
+							["General"] = {
+								["Point"] = "CENTER",
+								["Width"] = 380,
+								["Y"] = -210,
+								["X"] = 20,
+								["Height"] = 25,
+								["IndividualColor"] = true,
 							},
 						},
-						["Icons"] = {
-							["Combat"] = {
-								["Y"] = -20,
-								["Enable"] = true,
-							},
-							["Resting"] = {
-								["Enable"] = true,
-							},
+						["Border"] = {
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+							["Aggro"] = true,
 						},
 						["Y"] = -200.000091552734,
 						["X"] = -350.000030517578,
 						["Height"] = 54,
 						["Bars"] = {
-							["WarlockBar"] = {
-								["Y"] = 100,
-								["X"] = 350,
-								["Lock"] = false,
-								["Padding"] = 1,
+							["AltPower"] = {
+								["Enable"] = true,
+								["Height"] = 15,
 							},
 							["Power"] = {
 								["Color"] = "By Type",
 								["Y"] = -30,
 								["Height"] = 20,
 							},
-							["HealPrediction"] = {
-								["Enable"] = true,
+							["SoulShards"] = {
+								["Y"] = -4,
+								["X"] = 25,
+								["Lock"] = false,
+								["Padding"] = 1,
+								["Texture"] = "Otravi",
+								["Width"] = 200,
 							},
 							["DruidMana"] = {
 								["Height"] = 20,
@@ -699,13 +698,8 @@ LUIDB = {
 									["b"] = 0,
 								},
 							},
-							["SoulShards"] = {
-								["Y"] = -4,
-								["X"] = 25,
-								["Lock"] = false,
-								["Padding"] = 1,
-								["Texture"] = "Otravi",
-								["Width"] = 200,
+							["HealPrediction"] = {
+								["Enable"] = true,
 							},
 							["ClassIcons"] = {
 								["Y"] = 90,
@@ -714,15 +708,21 @@ LUIDB = {
 								["Texture"] = "oUF LUI",
 								["Width"] = 200,
 							},
-							["AltPower"] = {
-								["Enable"] = true,
-								["Height"] = 15,
+							["WarlockBar"] = {
+								["Y"] = 100,
+								["X"] = 350,
+								["Lock"] = false,
+								["Padding"] = 1,
 							},
 						},
-						["Border"] = {
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-							["Aggro"] = true,
+						["Icons"] = {
+							["Combat"] = {
+								["Y"] = -20,
+								["Enable"] = true,
+							},
+							["Resting"] = {
+								["Enable"] = true,
+							},
 						},
 						["Texts"] = {
 							["Power"] = {
@@ -749,11 +749,12 @@ LUIDB = {
 					["Raid"] = {
 						["Point"] = "BOTTOM",
 						["Enable"] = false,
-						["Backdrop"] = {
-							["Color"] = {
-								["a"] = 0.110000014305115,
+						["Icons"] = {
+							["Raid"] = {
+								["Y"] = 0,
+								["Enable"] = true,
+								["Size"] = 60,
 							},
-							["Texture"] = "None",
 						},
 						["Width"] = 80,
 						["Y"] = 150,
@@ -776,16 +777,15 @@ LUIDB = {
 								["Enable"] = true,
 							},
 						},
-						["Icons"] = {
-							["Raid"] = {
-								["Y"] = 0,
-								["Enable"] = true,
-								["Size"] = 60,
+						["Backdrop"] = {
+							["Color"] = {
+								["a"] = 0.110000014305115,
 							},
+							["Texture"] = "None",
 						},
-						["Height"] = 40,
-						["Padding"] = 1,
 						["GroupPadding"] = 1,
+						["Padding"] = 1,
+						["Height"] = 40,
 						["Texts"] = {
 							["HealthPercent"] = {
 								["ShowAlways"] = true,
@@ -920,6 +920,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
+					["Tps"] = {
+						["Width"] = 600,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 370,
@@ -927,17 +933,11 @@ LUIDB = {
 						["Height"] = 205,
 						["Animation"] = "None",
 					},
-					["MicroMenu"] = {
+					["Minimap"] = {
 						["IsShown"] = true,
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
-						["IsShown"] = true,
-					},
-					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1050,17 +1050,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
 					},
 					["micromenu_btn_hover"] = {
 						0.9, -- [1]
@@ -1068,13 +1062,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1108,6 +1108,169 @@ LUIDB = {
 						0, -- [2]
 						0, -- [3]
 						1, -- [4]
+					},
+				},
+				["Mallubank - Tichondrius"] = {
+					["micromenu_btn"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["color_bottom"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.5, -- [4]
+					},
+					["tpsborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["tps"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["chat"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["navi_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["micromenu_bg"] = {
+						0.6, -- [1]
+						0.6, -- [2]
+						0.6, -- [3]
+						0.8, -- [4]
+					},
+					["orb_cycle"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["color_top"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.5, -- [4]
+					},
+					["raid"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["theme"] = "Priest",
+					["micromenu_bg2"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0.7, -- [4]
+					},
+					["orb"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+					},
+					["chat2border"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["navi"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.6, -- [4]
+					},
+					["bar2"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.6, -- [4]
+					},
+					["dpsborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["dps"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["chat2"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["sidebar"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["micromenu"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+					},
+					["editbox"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["minimap"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						1, -- [4]
+					},
+					["chatborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["bar"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.7, -- [4]
 					},
 				},
 			},
@@ -1251,38 +1414,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [1]
-							"/aap", -- [2]
-							"/cw Kaligon-Tichondrius apparently not?", -- [3]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [4]
-							"/cw Kaligon-Tichondrius I did map it", -- [5]
-							"/i did I dc?", -- [6]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [7]
-							"/cw Kaligon-Tichondrius apparently not?", -- [8]
-							"/cw Kaligon-Tichondrius I did map it", -- [9]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [10]
-							"/cw Kaligon-Tichondrius I did map it", -- [11]
+							"/cw Mistaaytch-Lightbringer lol :P", -- [1]
+							"/cw Mistaaytch-Lightbringer Also, what's the link?", -- [2]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [3]
+							"/cw Mistaaytch-Lightbringer ah", -- [4]
+							"/cw Mistaaytch-Lightbringer yeah right?", -- [5]
+							"/cw Mistaaytch-Lightbringer sec", -- [6]
+							"/macro", -- [7]
+							"/cw Kaligon-Tichondrius I did map it", -- [8]
+							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [9]
+							"/macro", -- [10]
+							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [11]
 							"/macro", -- [12]
-							"/i did I dc?", -- [13]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [14]
-							"/cw Kaligon-Tichondrius apparently not?", -- [15]
-							"/cw Kaligon-Tichondrius I did map it", -- [16]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [17]
-							"/cw Kaligon-Tichondrius I did map it", -- [18]
-							"/macro", -- [19]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [20]
-							"/cw Kaligon-Tichondrius I did map it", -- [21]
-							"/macro", -- [22]
-							"/cw Kaligon-Tichondrius I did map it", -- [23]
-							"/raid want me as heals or DPS?", -- [24]
-							"/raid sure, summon available?", -- [25]
-							"/raid Immonar?", -- [26]
-							"/cw Aedowyn-Tichondrius sure thing", -- [27]
-							"/raid Go to the Exhaust", -- [28]
-							"/raid He made 1 mistake :P", -- [29]
-							"/raid sorry back", -- [30]
-							"/raid alright, that's it for me :)", -- [31]
-							"/raid Thanks!", -- [32]
+							"/cw Mistaaytch-Lightbringer HEy", -- [13]
+							"/cw Mistaaytch-Lightbringer I tried to write you in community chat :)", -- [14]
+							"/cw Mistaaytch-Lightbringer You're joining us?", -- [15]
+							"/cw Mistaaytch-Lightbringer Only maybe? :(", -- [16]
+							"/cw Mistaaytch-Lightbringer Why would it not be", -- [17]
+							"/cw Mistaaytch-Lightbringer lol :P", -- [18]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [19]
+							"/cw Mistaaytch-Lightbringer yeah right?", -- [20]
+							"/macro", -- [21]
+							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [22]
+							"/macro", -- [23]
+							"/cw Mistaaytch-Lightbringer I tried to write you in community chat :)", -- [24]
+							"/cw Mistaaytch-Lightbringer Only maybe? :(", -- [25]
+							"/cw Mistaaytch-Lightbringer lol :P", -- [26]
+							"/cw Mistaaytch-Lightbringer yeah right?", -- [27]
+							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [28]
+							"/cw Mistaaytch-Lightbringer I tried to write you in community chat :)", -- [29]
+							"/cw Mistaaytch-Lightbringer lol :P", -- [30]
+							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [31]
+							"/cw Mistaaytch-Lightbringer lol :P", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							" Also Prot Warrior deals a good amount of damage on AoE", -- [1]
@@ -1372,7 +1535,8 @@ LUIDB = {
 			},
 			["profiles"] = {
 				["Base"] = {
-					["y"] = 43.6975598532504,
+					["modules"] = {
+					},
 					["x"] = 33.3724626035666,
 					["General"] = {
 						["Font"] = {
@@ -1380,6 +1544,9 @@ LUIDB = {
 						},
 						["MinimalistTabs"] = false,
 					},
+					["y"] = 43.6975598532504,
+				},
+				["Mallubank - Tichondrius"] = {
 					["modules"] = {
 					},
 				},
@@ -1391,14 +1558,26 @@ LUIDB = {
 					["General"] = {
 						["MacroFont"] = "Prototype",
 						["ShowMacro"] = true,
-						["ShowHotkey"] = true,
+						["HotkeyFont"] = "Prototype",
 						["ShowEquipped"] = true,
 						["CountFont"] = "Prototype",
-						["HotkeyFont"] = "Prototype",
+						["ShowHotkey"] = true,
 					},
-					["BottomTexture"] = {
-						["Y"] = 180,
-						["Enable"] = false,
+					["Bottombar1"] = {
+						["Y"] = 32,
+						["X"] = -450,
+						["Fader"] = {
+							["PowerClip"] = 0,
+						},
+						["State"] = {
+							"1", -- [1]
+							"7", -- [2]
+							"1", -- [3]
+							[5] = "1",
+							["Alt"] = "1",
+							["Ctrl"] = "1",
+						},
+						["NumPerRow"] = 4,
 					},
 					["SidebarRight2"] = {
 						["State"] = {
@@ -1417,12 +1596,6 @@ LUIDB = {
 						["Y"] = -400,
 						["X"] = -260,
 					},
-					["SidebarLeft1"] = {
-						["State"] = {
-							"3", -- [1]
-						},
-						["Anchor"] = "BT4Bar10",
-					},
 					["Bottombar4"] = {
 						["State"] = {
 							"7", -- [1]
@@ -1430,27 +1603,20 @@ LUIDB = {
 							["Ctrl"] = "7",
 						},
 					},
-					["SidebarLeft2"] = {
-						["State"] = {
-							"1", -- [1]
-						},
-						["Anchor"] = "BT4Bar8",
+					["ExtraActionBar"] = {
+						["Y"] = 40,
+						["X"] = 290,
 					},
-					["Bottombar1"] = {
+					["Bottombar3"] = {
 						["State"] = {
 							"1", -- [1]
-							"7", -- [2]
-							"1", -- [3]
-							[5] = "1",
-							["Alt"] = "1",
-							["Ctrl"] = "1",
+							["Alt"] = "5",
+							["Ctrl"] = "5",
 						},
-						["X"] = -450,
-						["Fader"] = {
-							["PowerClip"] = 0,
-						},
-						["Y"] = 32,
-						["NumPerRow"] = 4,
+					},
+					["BottomTexture"] = {
+						["Enable"] = false,
+						["Y"] = 180,
 					},
 					["Bottombar2"] = {
 						["State"] = {
@@ -1475,16 +1641,17 @@ LUIDB = {
 						["Enable"] = false,
 						["Alpha"] = 1,
 					},
-					["Bottombar3"] = {
+					["SidebarLeft2"] = {
+						["Anchor"] = "BT4Bar8",
 						["State"] = {
 							"1", -- [1]
-							["Alt"] = "5",
-							["Ctrl"] = "5",
 						},
 					},
-					["ExtraActionBar"] = {
-						["Y"] = 40,
-						["X"] = 290,
+					["SidebarLeft1"] = {
+						["Anchor"] = "BT4Bar10",
+						["State"] = {
+							"3", -- [1]
+						},
 					},
 					["SidebarRight1"] = {
 						["Enable"] = false,
@@ -1537,6 +1704,22 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
+			["Brity - Steamwheedle Cartel"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["interrupt"] = 2,
+					["threatbar"] = 2,
+					["bartender"] = 3300,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
+					["bars"] = 2.4,
+					["Auras"] = 2,
+					["mirrorbar"] = 1,
+				},
+			},
 			["Kaldorath - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -1579,29 +1762,25 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
 					["Auras"] = 2,
 				},
 			},
-			["Brity - Steamwheedle Cartel"] = {
-				["IsConfigured"] = true,
+			["Mallubank - Tichondrius"] = {
 				["Versions"] = {
 					["raidmenu"] = 2.4,
 					["swing"] = 2,
 					["RaidMenu"] = true,
-					["interrupt"] = 2,
-					["threatbar"] = 2,
-					["bartender"] = 3300,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["bars"] = 2.4,
-					["Auras"] = 2,
 					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 			["Lorvol - Tichondrius"] = {
@@ -1631,11 +1810,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Zethan - Tichondrius"] = {
@@ -1665,11 +1844,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kindhoof - Tichondrius"] = {
@@ -1836,9 +2015,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1857,11 +2036,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Rentror - Bleeding Hollow"] = {
@@ -1891,11 +2070,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Gottagetlia - Aggramar"] = {
@@ -2031,6 +2210,7 @@ LUIDB = {
 		["Kaldorath - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
+		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
 		["Morifa - Proudmoore"] = "Base",
@@ -2058,7 +2238,9 @@ LUIDB = {
 		["Mallusof - Icecrown"] = "Base",
 	},
 	["profiles"] = {
-		["Default"] = {
+		["Mallubank - Tichondrius"] = {
+			["modules"] = {
+			},
 		},
 		["Base"] = {
 			["modules"] = {
@@ -2083,6 +2265,8 @@ LUIDB = {
 				},
 				["Enable"] = false,
 			},
+		},
+		["Default"] = {
 		},
 	},
 }

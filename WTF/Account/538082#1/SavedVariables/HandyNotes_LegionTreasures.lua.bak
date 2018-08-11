@@ -5,6 +5,7 @@ HandyNotes_LegionTreasuresDB = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Lorvol - Tichondrius",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
@@ -39,6 +40,8 @@ HandyNotes_LegionTreasuresDB = {
 		["Gorog - Bleeding Hollow"] = {
 		},
 		["Praerend - Proudmoore"] = {
+		},
+		["Mallubank - Tichondrius"] = {
 		},
 		["Lorvol - Tichondrius"] = {
 		},

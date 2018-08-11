@@ -5,6 +5,7 @@ QuesterDB = {
 		["Kaldorath - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
+		["Mallubank - Tichondrius"] = "Default",
 		["Lorvol - Tichondrius"] = "Default",
 		["Brity - Steamwheedle Cartel"] = "Default",
 		["Praerend - Proudmoore"] = "Default",

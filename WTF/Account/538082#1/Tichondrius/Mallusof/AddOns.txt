@@ -5,7 +5,7 @@ VuhDoOptions: disabled
 autoturnin: disabled
 MythicPlusTimer: disabled
 XLoot_Options: enabled
-AdiBags: enabled
+AdiBags: disabled
 Bartender4: disabled
 AutoVendor: disabled
 MythicHelper: enabled
@@ -18,12 +18,12 @@ RaiderIO_DB_KR_A: disabled
 RaiderIO_DB_EU_H: disabled
 RaiderIO_DB_EU_A: disabled
 HealerManaWatch: disabled
-AdiBags_Artifact_Weapons: enabled
-AdiBags_Config: enabled
-AdiBags_Legion_Filters: enabled
+AdiBags_Artifact_Weapons: disabled
+AdiBags_Config: disabled
+AdiBags_Legion_Filters: disabled
 AllTheThings: enabled
 AngryKeystones: enabled
-Arh: enabled
+Arh: disabled
 BigWigs: enabled
 BigWigs_Antorus: enabled
 BigWigs_ArgusInvasionPoints: enabled
@@ -69,7 +69,7 @@ Grid2LDB: enabled
 GTFO: enabled
 HandyNotes: enabled
 HandyNotes_BrokenShore: enabled
-HandyNotes_LegionTreasures: enabled
+HandyNotes_LegionTreasures: disabled
 idTip: enabled
 Immersion: enabled
 Leatrix_Plus: enabled
@@ -94,3 +94,5 @@ XLoot_Group: enabled
 XLoot_Master: enabled
 XLoot_Monitor: enabled
 ParagonReputation: enabled
+Azeroth Auto Pilot: enabled
+SexyMap: enabled

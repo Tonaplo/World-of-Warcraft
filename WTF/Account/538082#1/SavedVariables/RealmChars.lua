@@ -4,6 +4,7 @@ RCDatabase = {
 		["Korugen - Tichondrius"] = "Korugen - Tichondrius",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Lorvol - Tichondrius",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
@@ -135,7 +136,18 @@ RCDatabase = {
 				["firstProfLevel"] = 1,
 				["firstProf"] = "Herbalism",
 			}, -- [7]
-			["characterStored"] = 7,
+			{
+				["secondProfLevel"] = 0,
+				["itemLevelEquipped"] = 0.3125,
+				["class"] = "PRIEST",
+				["secondProf"] = "No 2nd Prof",
+				["name"] = "Mallubank",
+				["itemLevelOverall"] = 0.3125,
+				["level"] = 1,
+				["firstProfLevel"] = 0,
+				["firstProf"] = "No 1st Prof",
+			}, -- [8]
+			["characterStored"] = 8,
 		},
 		["Hyjal"] = {
 			{
