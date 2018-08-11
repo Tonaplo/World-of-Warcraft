@@ -1,8 +1,8 @@
-tag a6aa1689a5bf3a2f5f7a78f10477f81f685145f6 8.0.1.0
+tag 01d7beb6d5c04404b8e043e4a62b970b6592025f 8.0.1.1
 Author:	Hendrik Leppkes <h.leppkes@gmail.com>
-Date:	Tue Jul 17 20:22:33 2018 +0200
+Date:	Thu Aug 9 09:44:14 2018 +0200
 
-Tag as 8.0.1.0
+Tag as 8.0.1.1
 
 commit 2ece308c7483d657aa8c19d452b67b55d39c13a5
 Author: Hendrik Leppkes <h.leppkes@gmail.com>

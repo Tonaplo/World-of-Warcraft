@@ -19,6 +19,7 @@ AAP_Zone864 = {
 			},
 		}, -- [18]
 		{
+			["ClearZP"] = 1,
 			["ExtraLine"] = 20,
 			["Trigger"] = {
 				["y"] = 2673.6,

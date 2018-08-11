@@ -4,10 +4,10 @@ BigWigs:AddColors("Taloc", {
 	[271224] = {"blue","yellow"},
 	[271296] = "red",
 	[271728] = "orange",
-	[271895] = "yellow",
+	[271895] = {"blue","yellow"},
 	[271965] = "green",
 	[275270] = "blue",
-	[275432] = "blue",
+	[275432] = {"blue","red"},
 	["stages"] = "green",
 })
 
