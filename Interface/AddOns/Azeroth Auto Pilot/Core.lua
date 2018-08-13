@@ -550,6 +550,11 @@ function AAP_SlashCmd(AAP_index)
 		AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] + 1
 		AAP_ChangeZone()
 		AAP_UpdateQuestList()
+	elseif (AAP_index == "skipcamp") then
+		print("AAP: Skipping CampStep.")
+		AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] + 14
+		AAP_ChangeZone()
+		AAP_UpdateQuestList()
 	else
 		AAP_SettingsOpen = 1
 		AAP.OptionsFrame.MainFrame:Show()
@@ -685,6 +690,10 @@ function AAP_InstanceTest()
 	end
 end
 function AAP_PosTest()
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowArrow"] == 0) then
+		AAP_ArrowActive = 0
+		AAP_ArrowFrame:Hide()
+	else
 	if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["AreaTriggerZ"]) then
 		local d_y, d_x = UnitPosition("player")
 		x = AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["AreaTriggerZ"]["x"]
@@ -757,7 +766,7 @@ function AAP_PosTest()
 			end
 		end
 	end
-
+	end
 end
 
 function AAP_AnimeUpdater()
@@ -911,6 +920,13 @@ AAP_CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 			if (not AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowGroup"]) then
 				AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowGroup"] = 1
 			end
+			if (not AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowArrow"]) then
+				AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowArrow"] = 1
+			end
+			if (not AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowQList"]) then
+				AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowQList"] = 1
+			end
+
 			if (not AAP1[AAP_Realm][AAP_Name][86]) then
 				AAP1[AAP_Realm][AAP_Name][86] = 1
 			end

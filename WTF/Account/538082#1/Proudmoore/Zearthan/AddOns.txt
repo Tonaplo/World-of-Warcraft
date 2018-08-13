@@ -3,3 +3,4 @@ BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 AdiBags: enabled
 LookingForGroup_Hook: enabled
+Leatrix_Plus: disabled

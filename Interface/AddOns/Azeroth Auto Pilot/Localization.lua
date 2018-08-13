@@ -70,6 +70,10 @@ AAP_Locals = {
 	["Pick Zone"] = "Pick Zone",
 	["Talk to Princess Talanji"] = "Talk to Princess Talanji",
 	["War Campaign"] = "War Campaign",
+	["Zone Complete"] = "Zone Complete",
+	["Show Arrow"] = "Show Arrow",
+	["Show QuestList"] = "Show QuestList",
+	["Missing quest"] = "If you get stuck with 1 quest to pick up, do: /aap skipcamp",
 }
 AAP_Locals["zhTW"] = {
 	["Accept Quest"] = "接受任務",
@@ -136,6 +140,13 @@ AAP_Locals["zhTW"] = {
 	["GetSaurolistBuff"] = "這個區域到處都有可以點擊的BUFF",
 	["Fixed Quest"] = "如果這個任務還沒修好，解到 Rokor就先停止",
 	["WarModeOff"] = "開啟戰爭模式！",
+	["Lock QuestList"] = "鎖定任務表單視窗",
+	["Lock Arrow"] = "鎖定箭頭視窗",
+	["Yards"] = "碼",
+	["Pick Zone"] = "選擇地圖",
+	["Talk to Princess Talanji"] = "與Talanji公主對話",
+	["War Campaign"] = "War Campaign",
+	["Zone Complete"] = "地圖完成",
 }
 AAP_Locals["deDE"] = {
 	["Accept Quest"] = "Quest annehmen",

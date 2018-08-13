@@ -435,7 +435,7 @@ function AAP_Pickup()
 			AAP_Reset = 0
 			AAP_Plus()
 		end
-	elseif (AAP_ActiveZone and AAP_Quests and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["QuestLineSkip"] and Zdedaap == 0 and AAP1[AAP_Realm][AAP_Name]["QlineSkip"][AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["QuestLineSkip"]] and AAP1[AAP_Realm][AAP_Name]["QlineSkip"][AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["QuestLineSkip"]] == 0) then
+	elseif (AAP_ActiveZone and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] and AAP_Quests and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["QuestLineSkip"] and Zdedaap == 0 and AAP1[AAP_Realm][AAP_Name]["QlineSkip"][AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["QuestLineSkip"]] and AAP1[AAP_Realm][AAP_Name]["QlineSkip"][AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["QuestLineSkip"]] == 0) then
 		QNumberLocal = 0
 		AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] = AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] + 1
 		AAP_Reset = 0
@@ -1287,6 +1287,61 @@ function AAP_TestHordeCampaign()
 	local ResName, NumCurr = GetCurrencyInfo(1560)
 	if ((UnitLevel("player") > 117) and (not AAP1[AAP_Realm][AAP_Name]["Zone862Camp"])) then
 		local AAP_TTTT = C_Map.GetBestMapForUnit("player")
+	if (AAP_TTTT == 85) then
+		AAP_TTTT = 86
+	end
+	if (AAP_TTTT == 1161) then
+		AAP_TTTT = 895
+	end
+	if (AAP_TTTT == 1171) then
+		AAP_TTTT = 895
+	end
+	if (AAP_TTTT == 1172) then
+		AAP_TTTT = 895
+	end
+	if (AAP_TTTT == 1165) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1164) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1163) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1173) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1174) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1176) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1177) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1167) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1166) then
+		AAP_TTTT = 862
+	end
+	if (AAP_TTTT == 1169) then
+		AAP_TTTT = 876
+	end
+	if (AAP_TTTT == 1179) then
+		AAP_TTTT = 942
+	end
+	if (AAP_TTTT == 1180) then
+		AAP_TTTT = 942
+	end
+	if (AAP_TTTT == 1181) then
+		AAP_TTTT = 942
+	end
+	if (AAP_TTTT == 1182) then
+		AAP_TTTT = 942
+	end
+
 		if (AAP_TTTT == 1165) then
 			AAP_TTTT = 862
 		end
@@ -1314,9 +1369,17 @@ function AAP_TestHordeCampaign()
 		if (AAP_TTTT == 1166) then
 			AAP_TTTT = 862
 		end
-		if ((AAP_TTTT == 862) or (AAP1[AAP_Realm][AAP_Name]["AAP_DoWarCampaign"] == 1)) then
-			AAP_Quests = AAP_Zone8624["862-4"]
-			AAP_ActiveZone = "862-4"
+		if ((AAP1[AAP_Realm][AAP_Name]["AAP_DoWarCampaign"] == 1)) then
+			if ((AAP_TTTT == 862) or (AAP_TTTT == 863) or (AAP_TTTT == 864)) then
+				AAP_Quests = AAP_Zone8624["862-4"]
+				AAP_ActiveZone = "862-4"
+			elseif (AAP_TTTT == 895) or (AAP_TTTT == 896) or (AAP_TTTT == 942) then
+				AAP_ActiveZone = AAP_TTTT
+				AAP_Quests = AAP_QuestList[AAP_ActiveZone]
+			else
+				AAP_ActiveZone = AAP_TTTT
+				AAP_Quests = AAP_QuestList[AAP_ActiveZone]
+			end
 		end
 	end
 end

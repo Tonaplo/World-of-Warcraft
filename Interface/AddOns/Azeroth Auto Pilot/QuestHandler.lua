@@ -243,6 +243,9 @@ function AAP_UpdateQuestList()
 		end
 		AAP.QuestList.QuestFrames["FS"..CLi]["Button"]:Hide()
 	end
+	if (AAP1[AAP_Realm][AAP_Name]["Settings"]["ShowQList"] == 0) then
+		return
+	end
 	local i = 1
 	local ars = -1
 	if (AAP_SettingsOpen == 1) then
@@ -285,7 +288,8 @@ function AAP_UpdateQuestList()
 		AAP.QuestList.QuestFrames[AAP_NRFS]:Show()
 	end
 	if (AAP1 and AAP1[AAP_Realm] and AAP1[AAP_Realm][AAP_Name] and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone] and AAP_InstanceTest() == 0 and AAP_SettingsOpen == 0) then
-		if ((UnitLevel("player") > 117) and (not AAP_CompletedQs[51770])) then
+		local factionz = UnitFactionGroup("player")
+		if ((UnitLevel("player") > 117) and (not AAP_CompletedQs[51770]) and (factionz ~= "Alliance")) then
 			AAP.QuestList.Warcamp:Show()
 		else
 			AAP.QuestList.Warcamp:Hide()
@@ -382,6 +386,12 @@ function AAP_UpdateQuestList()
 			end
 			if (AAPExtralk == 27) then
 				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Talk to Princess Talanji"])
+			end
+			if (AAPExtralk == 28) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Zone Complete"])
+			end
+			if (AAPExtralk == 29) then
+				AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText(AAP_Locals["Missing quest"])
 			end
 			local aapwidth = AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:GetStringWidth()
 			if (aapwidth and aapwidth > 400) then
@@ -991,7 +1001,7 @@ function AAP_UpdateQuestList()
 	end
 	if (AAP1 and AAP1[AAP_Realm] and AAP1[AAP_Realm][AAP_Name] and AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]) then
 		if (AAP_Quests and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]] and AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["DroppableQuest"] and AAP_Check_Droppable() == 1) then
-			local AAP_NRFS = AAP_QH_GetFS(AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["DroppableQuest"]["Qid"] .."-1")
+			local AAP_NRFS = AAP_QH_GetFS(AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["DroppableQuest"]["Qid"] .."-11")
 			ars = ars + 1
 			AAP.QuestList.QuestFrames[AAP_NRFS]:SetPoint("BOTTOMLEFT", AAP.QuestList.ListFrame, "BOTTOMLEFT",0,-((ars * 38)+ars))
 			AAP.QuestList.QuestFrames["FS"..AAP_NRFS]:SetText("[".. ars+1 .."] "..AAP_CheckMobid(AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["DroppableQuest"]["MobId"]).."s drops quest")
@@ -1034,7 +1044,7 @@ function AAP_UpdateQuestList()
 							AAP.QuestList.QuestFrames["FS"..AAP_NRFS]["Button"]:Hide()
 						end
 					end
-				elseif (not AAP_BonusCrap[AAP_index] and (AAP_index < 100000) and (not AAP_CompletedQs[AAP_index])) then
+				elseif (not AAP_BonusCrap[AAP_index] and (AAP_index < 100000) and (not AAP_CompletedQs[AAP_index]) and (not AAP_Quests[AAP1[AAP_Realm][AAP_Name][AAP_ActiveZone]]["DroppableQuest"])) then
 						local AAP_NRFS = AAP_QH_GetFS(AAP_index .."-"..1)
 						ars = ars + 1
 						AAP.QuestList.QuestFrames[AAP_NRFS]:SetPoint("BOTTOMLEFT", AAP.QuestList.ListFrame, "BOTTOMLEFT",0,-((ars * 38)+ars))

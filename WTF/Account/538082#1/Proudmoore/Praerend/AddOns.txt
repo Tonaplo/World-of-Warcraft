@@ -34,3 +34,4 @@ LookingForGroup_Hook: enabled
 BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
+Leatrix_Plus: disabled
