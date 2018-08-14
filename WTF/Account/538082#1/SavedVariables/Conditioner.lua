@@ -121,7 +121,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Protection",
 	}, -- [24]
 	{
-		["value"] = "[02+m0__ShiftE_6552_0_0]\n[04wn4002+80k+70__2_5308_0_0]\n[01w22+a01b+70_enrage_ShiftF_184367_0_0]\n[+701+g0_Sudden Death_2_5308_0_0]\n[00w+l0__E_85288_0_0]\n[+o0__F_23881_0_0]\n[+o0__Q_190411_0_0]",
+		["value"] = "[02+m0__ShiftE_6552_0_0]\n[04wn4002+80k+70__2_5308_0_0]\n[01w22+a01b+70_enrage_ShiftF_184367_0_0]\n[+701+g0_Sudden Death_2_5308_0_0]\n[040o4+a01g+70__Shift 1_34428_0_0]\n[00w+l0__E_85288_0_0]\n[+o0__F_23881_0_0]\n[+o0__Q_190411_0_0]",
 		["spec"] = 72,
 		["name"] = "Fury",
 	}, -- [25]
@@ -131,7 +131,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Arms",
 	}, -- [26]
 	{
-		["value"] = "[02+m0__ShiftE_1766_0_0]\n[+o0__T_13750_0_0]\n[01w+402+603+90_ghostly strike_ShiftF_196937_0_0]\n[0g+m0__T_202665_0_0]\n[0ww54+b04+70__F_185763_0_0]\n[00w52001500020504+70_Slice and Dice_2_193316_0_0]\n[00w52+b05+70__3_2098_0_0]\n[00w55+b06+70__E_193315_0_0]",
+		["value"] = "[02+m0__ShiftE_1766_0_0]\n[01w+402+603+90_ghostly strike_ShiftF_196937_0_0]\n[0g+m0__T_202665_0_0]\n[0ww54+b04+70__F_185763_0_0]\n[00w52001500020504+70_Slice and Dice_2_193316_0_0]\n[00w52+b05+70__3_2098_0_0]\n[00w55+b06+70__E_193315_0_0]",
 		["spec"] = 260,
 		["name"] = "Outlaw",
 	}, -- [27]

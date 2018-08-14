@@ -67,7 +67,7 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 7678001,
+							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Gorog"] = 993959,
@@ -84,7 +84,7 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Deminath"] = 1633098139,
+							["Deminath"] = 1644198054,
 							["Morifa"] = 1384217305,
 							["Kindhoof"] = 1186116499,
 						},
@@ -101,8 +101,8 @@ LUIDB = {
 							["Fimwack"] = 1625871926,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 673026685,
-							["Faerand"] = 325119376,
-							["Praerend"] = 1486025367,
+							["Faerand"] = 331462352,
+							["Praerend"] = 1500267344,
 						},
 					},
 				},
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1196583064,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1177608538,
+							["Mallusof"] = 1188934318,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -702,6 +702,11 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
+								["Y"] = 90,
+								["X"] = 375,
+								["Lock"] = false,
+								["Texture"] = "oUF LUI",
+								["Width"] = 200,
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -1300,71 +1305,71 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							" Hey bud!", -- [1]
+							"/i hey guys?", -- [1]
 							" Was giant, 10 pounds, 12 ounces :P", -- [2]
-							"/rchars", -- [3]
-							" Hey bud!", -- [4]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [5]
-							" Was giant, 10 pounds, 12 ounces :P", -- [6]
-							" Hey bud!", -- [7]
-							" Was giant, 10 pounds, 12 ounces :P", -- [8]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [9]
-							" Because I'm at working, working on making it work", -- [10]
-							" Was giant, 10 pounds, 12 ounces :P", -- [11]
-							" Because I'm at working, working on making it work", -- [12]
-							" Hey bud!", -- [13]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [14]
-							" Was giant, 10 pounds, 12 ounces :P", -- [15]
-							" Hey bud!", -- [16]
-							" Was giant, 10 pounds, 12 ounces :P", -- [17]
+							" Hey bud!", -- [3]
+							"/rchars", -- [4]
+							"/i hey guys?", -- [5]
+							" Hey bud!", -- [6]
+							"/i hey guys?", -- [7]
+							"/rchars", -- [8]
+							"/i hey guys?", -- [9]
+							" Was giant, 10 pounds, 12 ounces :P", -- [10]
+							" Hey bud!", -- [11]
+							"/i hey guys?", -- [12]
+							"/rchars", -- [13]
+							" Was giant, 10 pounds, 12 ounces :P", -- [14]
+							"/i hey guys?", -- [15]
+							" Was giant, 10 pounds, 12 ounces :P", -- [16]
+							" Hey bud!", -- [17]
 							"/rchars", -- [18]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [19]
+							"/i hey guys?", -- [19]
 							" Hey bud!", -- [20]
-							"/raid GDI, I have an addon that auto accepts invites, I cant come, have fun! :)", -- [21]
-							" Was giant, 10 pounds, 12 ounces :P", -- [22]
-							" Hey bud!", -- [23]
-							" Was giant, 10 pounds, 12 ounces :P", -- [24]
-							"/rchars", -- [25]
+							"/i hey guys?", -- [21]
+							"/rchars", -- [22]
+							" Was giant, 10 pounds, 12 ounces :P", -- [23]
+							"/i hey guys?", -- [24]
+							" Was giant, 10 pounds, 12 ounces :P", -- [25]
 							" Hey bud!", -- [26]
-							" Was giant, 10 pounds, 12 ounces :P", -- [27]
+							"/i hey guys?", -- [27]
 							"/rchars", -- [28]
-							" Was giant, 10 pounds, 12 ounces :P", -- [29]
-							"/i hey guys?", -- [30]
-							"/i r?", -- [31]
-							"/i have a good one :)", -- [32]
+							"/i hey guys?", -- [29]
+							" Hey bud!", -- [30]
+							"/rchars", -- [31]
+							" Hey bud!", -- [32]
 						},
 						["Horde - Proudmoore"] = {
-							" hahaha", -- [1]
-							"/macro", -- [2]
-							" hahaha", -- [3]
-							"/aap", -- [4]
-							"/i ... ok, we're screwed", -- [5]
-							"/i ... cold", -- [6]
-							"/2 After the Siege of Lordaeron, there are no new quests, correct?", -- [7]
-							"/2 Not till Monday, cool thanks! :)", -- [8]
-							" hahaha", -- [9]
+							"/focus", -- [1]
+							" hahaha", -- [2]
+							"/aap", -- [3]
+							" hahaha", -- [4]
+							"/focus", -- [5]
+							"/aap", -- [6]
+							"/focus", -- [7]
+							"/2 contact CS", -- [8]
+							"/2 They made a thread about it, it's a known issue that is now fixed.", -- [9]
 							"/macro", -- [10]
-							"/aap", -- [11]
-							"/focus", -- [12]
-							" hahaha", -- [13]
-							"/focus", -- [14]
+							"/focus", -- [11]
+							" hahaha", -- [12]
+							"/aap", -- [13]
+							" hahaha", -- [14]
 							"/macro", -- [15]
-							"/aap", -- [16]
+							"/focus", -- [16]
 							" hahaha", -- [17]
-							"/macro", -- [18]
+							"/aap", -- [18]
 							" hahaha", -- [19]
-							"/aap", -- [20]
-							"/i ... cold", -- [21]
-							"/2 Not till Monday, cool thanks! :)", -- [22]
-							"/macro", -- [23]
-							"/focus", -- [24]
-							"/macro", -- [25]
-							" hahaha", -- [26]
-							"/aap", -- [27]
-							"/2 Not till Monday, cool thanks! :)", -- [28]
-							"/focus", -- [29]
+							"/focus", -- [20]
+							"/aap", -- [21]
+							"/focus", -- [22]
+							"/2 contact CS", -- [23]
+							"/macro", -- [24]
+							" hahaha", -- [25]
+							"/macro", -- [26]
+							" hahaha", -- [27]
+							"/focus", -- [28]
+							"/2 contact CS", -- [29]
 							" hahaha", -- [30]
-							"/2 Not till Monday, cool thanks! :)", -- [31]
+							"/focus", -- [31]
 							" hahaha", -- [32]
 						},
 						["Horde - Tichondrius"] = {
@@ -1409,72 +1414,72 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Mistaaytch-Lightbringer lol :P", -- [1]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [2]
-							"/cw Mistaaytch-Lightbringer lol :P", -- [3]
-							"/cw Mistaaytch-Lightbringer Also, what's the link?", -- [4]
-							"/cw Mistaaytch-Lightbringer ah", -- [5]
-							"/cw Mistaaytch-Lightbringer sec", -- [6]
-							"/cw Kaligon-Tichondrius I did map it", -- [7]
-							"/macro", -- [8]
-							"/cw Mistaaytch-Lightbringer HEy", -- [9]
-							"/cw Mistaaytch-Lightbringer You're joining us?", -- [10]
-							"/cw Mistaaytch-Lightbringer Why would it not be", -- [11]
-							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [12]
-							"/macro", -- [13]
-							"/cw Mistaaytch-Lightbringer I tried to write you in community chat :)", -- [14]
-							"/cw Mistaaytch-Lightbringer lol :P", -- [15]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [16]
-							"/cw Mistaaytch-Lightbringer lol :P", -- [17]
-							"/cw Mistaaytch-Lightbringer Also, what's the link?", -- [18]
-							"/cw Mistaaytch-Lightbringer sec", -- [19]
-							"/macro", -- [20]
-							"/cw Mistaaytch-Lightbringer You're joining us?", -- [21]
-							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [22]
-							"/cw Mistaaytch-Lightbringer I tried to write you in community chat :)", -- [23]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [24]
-							"/cw Mistaaytch-Lightbringer Also, what's the link?", -- [25]
-							"/macro", -- [26]
-							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [27]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [28]
-							"/macro", -- [29]
-							" https://twitter.com/celestalon/status/923607333422358528?lang=en", -- [30]
-							" Just did it :P", -- [31]
-							"/aap", -- [32]
+							"/macro", -- [1]
+							"/aap", -- [2]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [3]
+							" Just did it :P", -- [4]
+							"/macro", -- [5]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [6]
+							"/macro", -- [7]
+							"/aap", -- [8]
+							"/cw Celaniia yes", -- [9]
+							"/aap", -- [10]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [11]
+							"/macro", -- [12]
+							" Just did it :P", -- [13]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [14]
+							"/macro", -- [15]
+							"/aap", -- [16]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [17]
+							" Just did it :P", -- [18]
+							"/macro", -- [19]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [20]
+							"/macro", -- [21]
+							"/aap", -- [22]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [23]
+							" Just did it :P", -- [24]
+							"/macro", -- [25]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [26]
+							"/macro", -- [27]
+							"/aap", -- [28]
+							" Just did it :P", -- [29]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [30]
+							"/aap", -- [31]
+							"/cw Mistaaytch-Lightbringer I've tried typing it, couldnt manage", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [1]
-							" Did Ragefire with a bunch of level 19-20s", -- [2]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [3]
-							"/target Draaka", -- [4]
-							"/1 Yeah, that's gone now", -- [5]
-							"/1 Dungeons are still good", -- [6]
-							"/1 But you can stay in teh same zone to quest afterwards", -- [7]
-							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [8]
-							"/1 Depends on level though. 30-60 slowed down alot", -- [9]
-							" Did Ragefire with a bunch of level 19-20s", -- [10]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [11]
+							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [2]
+							" Did Ragefire with a bunch of level 19-20s", -- [3]
+							"/1 Dungeons are still good", -- [4]
+							" Did Ragefire with a bunch of level 19-20s", -- [5]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [6]
+							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [7]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [8]
+							" Did Ragefire with a bunch of level 19-20s", -- [9]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [10]
+							" Did Ragefire with a bunch of level 19-20s", -- [11]
 							"/i ok", -- [12]
 							" Also Prot Warrior deals a good amount of damage on AoE", -- [13]
-							" Did Ragefire with a bunch of level 19-20s", -- [14]
-							"/i ok", -- [15]
+							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [14]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [15]
 							" Did Ragefire with a bunch of level 19-20s", -- [16]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [17]
+							"/1 Dungeons are still good", -- [17]
 							" Did Ragefire with a bunch of level 19-20s", -- [18]
 							" Also Prot Warrior deals a good amount of damage on AoE", -- [19]
-							"/target Draaka", -- [20]
-							"/1 Dungeons are still good", -- [21]
-							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [22]
-							" Did Ragefire with a bunch of level 19-20s", -- [23]
-							"/i ok", -- [24]
-							" Did Ragefire with a bunch of level 19-20s", -- [25]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [26]
-							"/target Draaka", -- [27]
-							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [28]
-							"/i ok", -- [29]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [30]
-							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [31]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [32]
+							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [20]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [21]
+							" Did Ragefire with a bunch of level 19-20s", -- [22]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [23]
+							" Did Ragefire with a bunch of level 19-20s", -- [24]
+							"/i ok", -- [25]
+							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [26]
+							" Did Ragefire with a bunch of level 19-20s", -- [27]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [28]
+							" Did Ragefire with a bunch of level 19-20s", -- [29]
+							"/i ok", -- [30]
+							" Did Ragefire with a bunch of level 19-20s", -- [31]
+							"/i ok", -- [32]
 						},
 						["Horde - Hyjal"] = {
 							" Hey :)", -- [1]

@@ -1,15 +1,22 @@
 
-xl_num_desired_tracked = 5
-xl_ChildPosition = 1
-xl_LocX = 682.666657463789
-xl_LocY = 383.999970965884
-xl_DesiredScale = 125
-xl_OnTargetFrame = 1
-xl_current_target_dock = 1
-xl_savedvariables = {
-}
-xl_conditioner_options = {
-	["opacity"] = 1,
-	["hide_hotbar_incombat"] = false,
-	["tapersize"] = 0.75,
+ConditionerAddOn_SavedVariables = {
+	["CurrentLoadouts"] = {
+		[260] = 27,
+	},
+	["Options"] = {
+		["ShowSwingTimers"] = false,
+		["Opacity"] = 100,
+		["TaperSize"] = 80,
+		["AnchorDirection"] = 0,
+		["TrackedFrameAnchorCoords"] = {
+			["y"] = 537.247688293457,
+			["x"] = 706.864395141602,
+		},
+		["TrackedFrameSize"] = 100,
+		["ShowTargetCastBar"] = true,
+		["NumTrackedFrames"] = 5,
+		["OnlyDisplayInCombat"] = true,
+	},
+	["TalentsPerLoadout"] = {
+	},
 }

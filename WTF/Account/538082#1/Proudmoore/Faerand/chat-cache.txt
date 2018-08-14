@@ -7,6 +7,7 @@ General 0 1 0
 Trade 0 2 0
 LocalDefense 0 3 0
 risenhealers 1 4 0
+Community:348611221:1 0 5 1
 END
 
 ZONECHANNELS 0
@@ -151,6 +152,7 @@ END
 
 CHANNELS
 risenhealers
+Community:348611221:1
 END
 
 ZONECHANNELS 2097155
@@ -175,6 +177,7 @@ COMBAT_MISC_INFO
 END
 
 CHANNELS
+Community:348611221:1
 END
 
 ZONECHANNELS 0

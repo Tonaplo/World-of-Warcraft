@@ -222,9 +222,9 @@ RematchSettings = {
 		["Types"] = {
 		},
 	},
+	["AllowHiddenPetsDefaulted"] = true,
 	["SpecialSlots"] = {
 	},
-	["AllowHiddenPetsDefaulted"] = true,
 	["CollapsedOptHeaders"] = {
 	},
 	["YPos"] = 250.59748840332,

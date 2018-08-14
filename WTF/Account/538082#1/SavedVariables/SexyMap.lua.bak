@@ -5,8 +5,9 @@ SexyMap2DB = {
 	["Fimwack-Proudmoore"] = "global",
 	["Faerand-Proudmoore"] = "global",
 	["Morifa-Tichondrius"] = "global",
-	["Lorvol-Tichondrius"] = "global",
 	["Amranar-Proudmoore"] = "global",
+	["Lorvol-Tichondrius"] = "global",
+	["Greybone-Proudmoore"] = "global",
 	["Mallubank-Tichondrius"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -283,17 +284,16 @@ SexyMap2DB = {
 			["controlVisibility"] = true,
 		},
 	},
-	["Greybone-Proudmoore"] = "global",
 	["Zearthan-Proudmoore"] = "global",
 	["Kindhoof-Tichondrius"] = "global",
-	["Granjior-Proudmoore"] = "global",
 	["Zethan-Tichondrius"] = "global",
-	["Farahn-Proudmoore"] = "global",
+	["Granjior-Proudmoore"] = "global",
+	["Korugen-Tichondrius"] = "global",
 	["presets"] = {
 	},
+	["Kindhoof-Proudmoore"] = "global",
 	["Praerend-Proudmoore"] = "global",
 	["Alura-Tichondrius"] = "global",
-	["Kindhoof-Proudmoore"] = "global",
 	["global"] = {
 		["ping"] = {
 			["showPing"] = true,
@@ -464,7 +464,8 @@ SexyMap2DB = {
 			["rightClickToConfig"] = true,
 		},
 	},
-	["Korugen-Tichondrius"] = "global",
+	["Zaliga-Bleeding Hollow"] = "global",
+	["Farahn-Proudmoore"] = "global",
 	["Korugen-Proudmoore"] = "global",
 	["Rahran-Proudmoore"] = "global",
 	["Morifa-Proudmoore"] = "global",
