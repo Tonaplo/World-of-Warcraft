@@ -14,9 +14,17 @@ local CLASS, FULLNAME
 local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groundSpellID, airSpellID)
 	local castAlias = {[SLASH_CAST1]=1,[SLASH_CAST2]=1,[SLASH_CAST3]=1,[SLASH_CAST4]=1,[SLASH_USE1]=1,[SLASH_USE2]=1,["#show"]=1,["#showtooltip"]=1,[SLASH_CASTSEQUENCE1]=2,[SLASH_CASTSEQUENCE2]=2,[SLASH_CASTRANDOM1]=3,[SLASH_CASTRANDOM2]=3}
 	local function replaceSpellID(sidlist, prefix)
+		local sr
 		for id, sn in sidlist:gmatch("%d+") do
-			id, sn = id+0, GetSpellInfo(id)
-			if RW:IsSpellCastable(id) then
+			id = id + 0
+			sn, sr = GetSpellInfo(id), GetSpellSubtext(id)
+			local isCastable, castFlag = RW:IsSpellCastable(id)
+			if isCastable then
+				if castFlag == "forced-id-cast" then
+					sn = "spell:" .. id
+				elseif sr and sr ~= "" then
+					sn = sn .. "(" .. sr .. ")"
+				end
 				return prefix .. sn
 			end
 		end
@@ -126,7 +134,7 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			end
 			return value
 		end)
-		local spells = {}
+		local spells, OTHER_SPELL_IDS = {}, {150544, 243819}
 		quantizeLine = genLineParser(function(value)
 			local mark, name = value:match("^%s*(!?)(.-)%s*$")
 			local sid = spells[name:lower()]
@@ -136,9 +144,13 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 		function prepareQuantizer(reuse)
 			if reuse and next(spells) then return end
 			wipe(spells)
-			spells[GetSpellInfo(150544):lower()] = 150544
-			local idm = C_MountJournal.GetMountIDs()
-			local gmi = C_MountJournal.GetMountInfoByID
+			for i=1,#OTHER_SPELL_IDS do
+				local sn = GetSpellInfo(OTHER_SPELL_IDS[i])
+				if sn then
+					spells[sn:lower()] = OTHER_SPELL_IDS[i]
+				end
+			end
+			local gmi, idm = C_MountJournal.GetMountInfoByID, C_MountJournal.GetMountIDs()
 			for i=1, #idm do
 				local _, sid = gmi(idm[i])
 				local sname = GetSpellInfo(sid)

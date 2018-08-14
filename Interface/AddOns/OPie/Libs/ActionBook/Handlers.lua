@@ -30,7 +30,8 @@ do -- mount: mount ID
 			b:SetAttribute("macrotext", "/cancelform [nocombat]")
 			b:SetScript("PreClick", function()
 				local sf = GetShapeshiftForm()
-				local _, n = GetShapeshiftFormInfo(sf ~= 0 and sf or -1)
+				local _, _, _, fsid = GetShapeshiftFormInfo(sf ~= 0 and sf or -1)
+				local n = GetSpellInfo(fsid or -1)
 				if not (InCombatLockdown() or n == MOONKIN_FORM) then
 					b:SetAttribute("type", "macro")
 				end
@@ -94,16 +95,17 @@ do -- mount: mount ID
 			return HasFullControl() and not IsIndoors(), IsMounted() and 1 or 0, ricon, rname, 0, 0, 0, GameTooltip.SetMountBySpellID, 150544
 		end, nil, summonAction(0))
 		RW:SetCastEscapeAction(GetSpellInfo(150544), actionMap[0])
+		RW:SetCastEscapeAction("spell:150544", actionMap[0])
 	end
 	EV.MOUNT_JOURNAL_USABILITY_CHANGED, EV.PLAYER_ENTERING_WORLD, EV.COMPANION_LEARNED = mountSync, mountSync, mountSync
 	mountMap = {}
 end
 do -- spell: spell ID + mount spell ID
-	local function currentShapeshift()
-		local id, n = GetShapeshiftForm()
+	local function isCurrentForm(q)
+		local id = GetShapeshiftForm()
 		if id == 0 then return end
-		id, n = GetShapeshiftFormInfo(id)
-		return n
+		local _, _, _, sid = GetShapeshiftFormInfo(id)
+		return q == sid or q == GetSpellInfo(sid or 0) or (sid and q and ("" .. sid) == q)
 	end
 	local actionMap, spellMap = {}, {}
 	local function SetSpellBookItem(self, id)
@@ -120,8 +122,9 @@ do -- spell: spell ID + mount spell ID
 		local cooldown, cdLength, enabled = GetSpellCooldown(n)
 		local cdLeft = (cooldown or 0) > 0 and (enabled ~= 0) and (cooldown + cdLength - time) or 0
 		local count, charges, maxCharges, chargeStart, chargeDuration = GetSpellCount(n), GetSpellCharges(n)
-		local state = ((IsSelectedSpellBookItem(n) or IsCurrentSpell(n) or n == currentShapeshift() or enabled == 0) and 1 or 0) +
-		              (IsSpellOverlayed(msid or 0) and 2 or 0) + (nomana and 8 or 0) + (inRange and 0 or 16) + (charges and charges > 0 and 64 or 0) + (hasRange and 512 or 0) + (usable and 0 or 1024) + (enabled == 0 and 2048 or 0)
+		local state = ((IsSelectedSpellBookItem(n) or IsCurrentSpell(n) or isCurrentForm(n)  or enabled == 0) and 1 or 0) +
+		              (IsSpellOverlayed(msid or 0) and 2 or 0) + (nomana and 8 or 0) + (inRange and 0 or 16) + (charges and charges > 0 and 64 or 0) +
+		              (hasRange and 512 or 0) + (usable and 0 or 1024) + (enabled == 0 and 2048 or 0)
 		usable = not not (usable and inRange and (cooldown or 0) == 0 or (enabled == 0))
 		if charges and maxCharges and charges < maxCharges and cdLeft == 0 then
 			cdLeft, cdLength = chargeStart-time + chargeDuration, chargeDuration
@@ -139,8 +142,14 @@ do -- spell: spell ID + mount spell ID
 		local action = mountMap[id]
 		if action then
 			return AB:GetActionSlot("mount", action)
-		elseif not RW:IsSpellCastable(id) then
+		end
+		
+		local castable, rwCastType = RW:IsSpellCastable(id)
+		if not castable then
 			return
+		end
+		if rwCastType == "forced-id-cast" then
+			action = id
 		else
 			local s0, r0 = GetSpellInfo(id), GetSpellSubtext(id)
 			local o, s = pcall(GetSpellInfo, s0, r0)
@@ -148,6 +157,7 @@ do -- spell: spell ID + mount spell ID
 			local _, r1 = pcall(GetSpellSubtext, s0)
 			action = (r0 and r1 ~= r0 and FindSpellBookSlotBySpellID(id)) and (s0 .. "(" .. r0 .. ")") or s0
 		end
+		
 		if action and not actionMap[action] then
 			spellMap[action], actionMap[action] = id, AB:CreateActionSlot(spellHint, action, "attribute", "type","spell", "spell",action, "checkselfcast",true, "checkfocuscast",true)
 			if type(action) == "string" then
@@ -291,19 +301,30 @@ do -- macrotext
 	local function checkReturn(pri, ...)
 		if select("#", ...) > 0 then return pri, ... end
 	end
-	local function hintSlashCast(_, _, clause, target)
+	RW:SetCommandHint("/use", 100, function(_, _, clause, target)
 		if not clause or clause == "" then return end
 		local link, bag, slot = SecureCmdItemParse(clause)
 		if (bag and slot) or (link and GetItemIcon(link)) then
 			return checkReturn(90, itemHint(link, nil, target, nil, bag, slot))
 		end
-		if not tonumber(clause, 10) then
-			-- /cast SpellID doesn't work, but the API will return "valid" spell data
-			return checkReturn(true, spellFeedback(clause, target))
+		local sid = clause:match("^spell:(%d+)$")
+		if sid or not tonumber(clause, 10) then
+			return checkReturn(true, spellFeedback(sid or clause, target))
 		end
-	end
-	RW:SetCommandHint("/use", 100, hintSlashCast)
-	RW:SetCommandHint("/cast", 100, hintSlashCast)
+	end)
+	RW:SetCommandHint("/cast", 100, function(_, _, clause, target)
+		if not clause or clause == "" then return end
+		local sex = DoesSpellExist(clause) and not tonumber(clause, 10)
+		local sid = not sex and clause:match("^spell:(%d+)$")
+		if sex or sid then
+			return checkReturn(true, spellFeedback(sid or clause, target))
+		else
+			local link, bag, slot = SecureCmdItemParse(clause)
+			if (bag and slot) or (link and GetItemInfoInstant(link)) then
+				return checkReturn(90, itemHint(link, nil, target, nil, bag, slot))
+			end
+		end
+	end)
 	RW:SetCommandHint(SLASH_CASTSEQUENCE1, 100, function(_, _, clause, target)
 		if not clause or clause == "" then return end
 		local _, item, spell = QueryCastSequence(clause)
@@ -455,6 +476,7 @@ do -- battlepet: pet ID
 			end
 		end)
 		RW:SetCastEscapeAction(GetSpellInfo(243819), petAction.FAVE)
+		RW:SetCastEscapeAction("spell:243819", petAction.FAVE)
 		function special.fave()
 			return L"Battle Pet", rname, ricon, nil, GameTooltip.SetSpellByID, 243819
 		end

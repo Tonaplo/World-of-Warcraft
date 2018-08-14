@@ -1,6 +1,23 @@
 
 AllTheThingsPCD = {
+	["Saves"] = {
+	},
 	["MapID"] = 1188,
+	["FlightPaths"] = {
+		[2037] = 1,
+		[2057] = 1,
+		[2034] = 1,
+		[2104] = 1,
+		[2035] = 1,
+		[2105] = 1,
+		[2083] = 1,
+		[2052] = 1,
+		[2054] = 1,
+		[2053] = 1,
+		[2055] = 1,
+		[2033] = 1,
+		[2056] = 1,
+	},
 	["ItemFilters"] = {
 		true, -- [1]
 		true, -- [2]
@@ -39,7 +56,7 @@ AllTheThingsPCD = {
 		true, -- [35]
 		true, -- [36]
 		[0] = true,
-		[58] = true,
+		[200] = true,
 		[101] = true,
 		[103] = true,
 		[105] = true,
@@ -47,23 +64,21 @@ AllTheThingsPCD = {
 		[109] = true,
 		[111] = true,
 		[113] = true,
-		[57] = true,
-		[56] = true,
-		[55] = true,
-		[106] = true,
-		[53] = true,
-		[52] = true,
-		[51] = true,
-		[50] = true,
-		[100] = true,
-		[102] = true,
-		[104] = true,
-		[54] = true,
-		[108] = true,
-		[110] = true,
 		[112] = true,
-		[200] = true,
-	},
-	["Saves"] = {
+		[110] = true,
+		[108] = true,
+		[54] = true,
+		[104] = true,
+		[102] = true,
+		[100] = true,
+		[50] = true,
+		[51] = true,
+		[52] = true,
+		[53] = true,
+		[106] = true,
+		[55] = true,
+		[56] = true,
+		[57] = true,
+		[58] = true,
 	},
 }

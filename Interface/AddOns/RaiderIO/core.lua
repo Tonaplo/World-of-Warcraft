@@ -203,13 +203,21 @@ local EGG = {
 		["Ravencrest"] = {
 			["Voidzone"] = "Raider.IO AddOn Author",
 		},
+		["Sargeras"] = {
+			["Isak"] = "Raider.IO Contributor"
+		}
 	},
 	["us"] = {
 		["Skullcrusher"] = {
-			["Aspyrform"] = "Raider.IO Creator",
-			["Ulsoga"] = "Immeasurable Greatness",
+			["Aspyrox"] = "Raider.IO Creator",
+			["Ulsoga"] = "Raider.IO Creator",
+			["Dynrai"] = "Raider.IO Contributor",
+			["Divyn"] = "Raider.IO Contributor",
 			["Pepsiblue"] = "#millennialthings",
 		},
+		["Thrall"] = {
+			["Firstclass"] = "Author of mythicpl.us"
+		}
 	},
 }
 

@@ -1,7 +1,6 @@
 local api, L, RK, conf, ORI, _, T = {}, OneRingLib.lang, OneRingLib.ext.RingKeeper, OneRingLib.ext.config, OneRingLib.ext.OPieUI, ...
 local AB = assert(T.ActionBook:compatible(2,19), "A compatible version of ActionBook is required")
 local gfxBase, EV = [[Interface\AddOns\OPie\gfx\]], T.Evie
-local GameTooltip = AltGameTooltip or GameTooltip
 
 local FULLNAME, SHORTNAME do
 	function EV.PLAYER_LOGIN()
@@ -364,6 +363,7 @@ ringDetail = CreateFrame("Frame", nil, ringContainer) do
 	ringDetail.scope.label = ringDetail.scope:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
 	ringDetail.scope.label:SetPoint("TOPLEFT", ringDetail, "TOPLEFT", 10, -47)
 	ringDetail.binding = conf.createBindingButton(ringDetail)
+	ringDetail.bindingContainerFrame = panel
 	ringDetail.binding:SetPoint("TOPLEFT", 267, -68) ringDetail.binding:SetWidth(265)
 	function ringDetail:SetBinding(bind) return api.setRingProperty("hotkey", bind) end
 	function ringDetail:OnBindingAltClick() self:ToggleAlternateEditor(api.getRingProperty("hotkey")) end
@@ -466,7 +466,7 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 			GameTooltip:SetOwner(self, "ANCHOR_TOP")
 			GameTooltip:AddLine(L"Conditional Visibility")
 			GameTooltip:AddLine((L"If this macro conditional evaluates to %shide|r, or if none of its clauses apply, this slice will be hidden."):format(GREEN_FONT_COLOR_CODE), HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b, 1)
-			GameTooltip:AddLine((L"You may use extended macro conditionals; see |cff33DDFF%s|r for details."):format("http://townlong-yak.com/opie/extended-conditionals"), HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b, 1)
+			GameTooltip:AddLine((L"You may use extended macro conditionals; see |cff33DDFF%s|r for details."):format("https://townlong-yak.com/opie/extended-conditionals"), HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b, 1)
 			GameTooltip:AddLine((L"Example: %s."):format(GREEN_FONT_COLOR_CODE .. "[nocombat][mod]|r"), NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b)
 			GameTooltip:AddLine((L"Example: %s."):format(GREEN_FONT_COLOR_CODE .. "[combat,@target,noexists] hide; show|r"), NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b)
 			GameTooltip:Show()
@@ -919,20 +919,23 @@ newSlice = CreateFrame("Frame", nil, ringContainer) do
 	end)
 end
 
-local knownProps = {lockRotation="Forget sub-ring rotation", fastClick="Allow as quick action", byName="Also use items with the same name", forceShow="Always show this slice", onlyEquipped="Only show when equipped", clickUsingRightButton="Simulate a right-click", embed1="Display as embedded in this ring", embed2="Display as nested in this ring"}
+local knownProps = {lockRotation=L"Forget sub-ring rotation", fastClick=L"Allow as quick action", byName=L"Also use items with the same name", forceShow=L"Always show this slice", onlyEquipped=L"Only show when equipped", clickUsingRightButton=L"Simulate a right-click", embed1=L"Display as embedded in this ring", embed2=L"Display as nested in this ring"}
 local function displaySliceOptions(id, ringName, slice, a, ...)
 	local b, enabled, v = sliceDetail.optionBoxes[id], 1
 	if not a or not b then return id end
 	if knownProps[a] then
 		b.prop, id, v, b.tooltipText = a, id + 1, slice[a]
-		if a == "embed1" then v = slice.embed == true
-		elseif a == "embed2" then v = slice.embed == false end
+		if a == "embed1" then
+			v = slice.embed == true
+		elseif a == "embed2" then
+			v = slice.embed == false or slice.embed == nil
+		end
 		b:SetChecked(v)
 		if (a == "fastClick" and not OneRingLib:GetOption("CenterAction", ringName)) then
 			b.tooltipText, enabled = (L"You must enable the %s option for this ring in OPie options to use quick actions."):format("|cffffffff" .. L"Quick action at ring center" .. "|r"), nil
 			b:SetChecked(nil)
 		end
-		b.Text:SetText(L(knownProps[a]))
+		b.Text:SetText(knownProps[a])
 		b:SetEnabled(enabled)
 		b.Text:SetVertexColor(enabled or 0.6, enabled or 0.6, enabled or 0.6)
 	end
@@ -1172,7 +1175,7 @@ function api.setSliceProperty(prop, ...)
 		if ... then
 			slice.embed = prop == "embed1"
 		else
-			slice.embed = nil
+			slice.embed = prop == "embed2" or nil
 		end
 	else
 		slice[prop] = (...)

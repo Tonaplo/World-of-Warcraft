@@ -416,8 +416,9 @@ app.GetTempDataSubMember = GetTempDataSubMember;
 		if not cache or invalidate then
 			cache = {};
 			SetTempDataMember("PROFESSION_CACHE", cache);
-			for i,j in ipairs({GetProfessions()}) do
-				cache[app.GetBaseTradeSkillID(select(7, GetProfessionInfo(j)))] = true;
+			local prof1, prof2, archaeology, fishing, cooking, firstAid = GetProfessions();
+			for i,j in ipairs({prof1 or 0, prof2 or 0, archaeology or 0, fishing or 0, cooking or 0, firstAid or 0}) do
+				if j ~= 0 then cache[app.GetBaseTradeSkillID(select(7, GetProfessionInfo(j)))] = true; end
 			end
 		end
 		return cache;
@@ -613,6 +614,10 @@ GameTooltipModel:Hide();
 
 -- Localization Lib
 app.Locales = {};
+app.yell = function(msg)
+	UIErrorsFrame:AddMessage(msg or "nil", 1, 0, 0);
+	app:PlayRemoveSound();
+end
 app.print = function(msg, ...)
 	DEFAULT_CHAT_FRAME:AddMessage(app.DisplayName .. ": " .. (msg or "nil"), ...);
 end
@@ -733,8 +738,30 @@ local function GetProgressColor(p)
 end
 local function GetProgressColorText(progress, total)
 	if total and total > 0 then
+		local desiredLength, str = app.GetDataMember("Precision", 0);
 		local percent = progress / total;
-		return "|c" .. GetProgressColor(percent) .. tostring(progress) .. " / " .. tostring(total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r";
+		if desiredLength > 0 then
+			str = tostring(percent * 100);
+			local length = string.len(str);
+			local pos = string.find(str,"[.]");
+			if not pos then
+				str = str .. ".";
+				for i=desiredLength,1,-1 do
+					str = str .. "0";
+				end
+			else
+				local totalExtra = desiredLength - (length - pos);
+				for i=totalExtra,1,-1 do
+					str = str .. "0";
+				end
+				if totalExtra < 1 then
+					str = string.sub(str, 1, pos + desiredLength);
+				end
+			end
+		else
+			str = tostring(floor(percent * 100));
+		end
+		return "|c" .. GetProgressColor(percent) .. tostring(progress) .. " / " .. tostring(total) .. " (" .. str .. "%) |r";
 	end
 	return "---";
 end
@@ -1070,6 +1097,7 @@ local fieldCache = {};
 fieldCache["currencyID"] = {};
 fieldCache["creatureID"] = {};
 fieldCache["encounterID"] = {};
+fieldCache["flightPathID"] = {};
 fieldCache["objectID"] = {};
 fieldCache["itemID"] = {};
 fieldCache["mapID"] = {};
@@ -1124,6 +1152,7 @@ local function CacheFields(group)
 	CacheArrayFieldIDs(group, "creatureID", "crs");
 	CacheArrayFieldIDs(group, "creatureID", "qgs");
 	CacheFieldID(group, "encounterID");
+	CacheFieldID(group, "flightPathID");
 	CacheFieldID(group, "objectID");
 	CacheFieldID(group, "itemID");
 	CacheFieldID(group, "questID");
@@ -1756,6 +1785,45 @@ app.SearchForSourceID = SearchForSourceID;
 app.SearchForItemLink = SearchForItemLink;
 app.SearchForCachedItemLink = SearchForCachedItemLink;
 app.SearchForField = SearchForField;
+app.UpdateSearchResults = function(searchResults)
+	if searchResults and #searchResults > 0 then
+		-- Attempt to cleanly refresh the data.
+		local fresh = false;
+		
+		-- Mark all results as marked. This prevents a double +1 on parents.
+		for i,result in ipairs(searchResults) do
+			if result.visible and result.parent and result.parent.total then
+				result.marked = true;
+			end
+		end
+		
+		-- Only unmark and +1 marked search results.
+		for i,result in ipairs(searchResults) do
+			if result.marked then
+				result.marked = nil;
+				if result.total then
+					-- This is an item that has a relative set of groups
+					app.UpdateParentProgress(result);
+					
+					-- If this is NOT a group...
+					if not result.g then
+						-- If we've collected the item, use the "Show Collected Items" filter.
+						result.visible = app.CollectedItemVisibilityFilter(result);
+					end
+				else	
+					app.UpdateParentProgress(result.parent);
+					
+					-- If we've collected the item, use the "Show Collected Items" filter.
+					result.visible = app.CollectedItemVisibilityFilter(result);
+				end
+				fresh = true;
+			end
+		end
+		
+		-- If the data is fresh, don't force a refresh.
+		app:RefreshData(fresh, true, true);
+	end
+end
 
 -- Map Information Lib
 local function ExpandGroupsRecursively(group, expanded, manual)
@@ -1992,8 +2060,10 @@ local function OpenMiniList(field, id, label)
 				for _, row in ipairs(popout.data.g) do
 					if (row.difficultyID and row.difficultyID == difficultyID)
 						or (row.difficulties and containsValue(row.difficulties, difficultyID)) then
-						ExpandGroupsRecursively(row, true);
-						found = true;
+						if row.visible then
+							ExpandGroupsRecursively(row, true);
+							found = true;
+						end
 					end
 				end
 			end
@@ -2002,8 +2072,10 @@ local function OpenMiniList(field, id, label)
 				for _, row in ipairs(popout.data.g) do
 					if (row.difficultyID and row.difficultyID == difficultyID)
 						or (row.difficulties and containsValue(row.difficulties, difficultyID)) then
-						ExpandGroupsRecursively(row, true);
-						found = true;
+						if row.visible then
+							ExpandGroupsRecursively(row, true);
+							found = true;
+						end
 					end
 				end
 			end
@@ -2012,8 +2084,10 @@ local function OpenMiniList(field, id, label)
 				for _, row in ipairs(popout.data.g) do
 					if (row.difficultyID and row.difficultyID == difficultyID)
 						or (row.difficulties and containsValue(row.difficulties, difficultyID)) then
-						ExpandGroupsRecursively(row, true);
-						found = true;
+						if row.visible then
+							ExpandGroupsRecursively(row, true);
+							found = true;
+						end
 					end
 				end
 			end
@@ -2022,13 +2096,21 @@ local function OpenMiniList(field, id, label)
 				for _, row in ipairs(popout.data.g) do
 					if (row.difficultyID and row.difficultyID == difficultyID)
 						or (row.difficulties and containsValue(row.difficulties, difficultyID)) then
-						ExpandGroupsRecursively(row, true);
-						found = true;
+						if row.visible then
+							ExpandGroupsRecursively(row, true);
+							found = true;
+						end
 					end
 				end
 				
 				-- Expand them all!
-				if not found then ExpandGroupsRecursively(popout.data, true); end
+				if not found then
+					ExpandGroupsRecursively(popout.data, true);
+					if popout.data.instanceID and app.GetDataMember("WarnOnClearedDifficulty", false) then
+						AllTheThings.yell("YOU HAVE COLLECTED EVERYTHING FROM THIS DIFFICULTY BASED ON YOUR CURRENT FILTERS.");
+						AllTheThings.print("YOU HAVE COLLECTED EVERYTHING FROM THIS DIFFICULTY BASED ON YOUR CURRENT FILTERS.");
+					end
+				end
 			end
 		else
 			ExpandGroupsRecursively(popout.data, true);
@@ -2052,7 +2134,7 @@ local function OpenMiniList(field, id, label)
 		end
 	else
 		--print("No map found for this location ", app.GetMapName(id), " [", id, "]");
-		--print("Please report this to the ATT Discord! Thanks! Version 1.6.7"); -- Adding version so we can quickly see if it was done and they haven't updated
+		--print("Please report this to the ATT Discord! Thanks! Version 1.6.8"); -- Adding version so we can quickly see if it was done and they haven't updated
 	end
 end
 local function OpenMiniListForCurrentProfession(manual, refresh)
@@ -3428,9 +3510,13 @@ app.BaseFaction = {
 		elseif key == "f" then
 			return 112;
 		elseif key == "trackable" or key == "collectible" then
-			return true;
+			return app.GetDataMember("FactionsCollectible");
 		elseif key == "saved" or key == "collected" then
-			if GetDataSubMember("CollectedFactions", t.factionID) then return 1; end
+			if app.GetDataMember("TrackFactionsAccountWide") then
+				if GetDataSubMember("CollectedFactions", t.factionID) then return 1; end
+			else
+				if GetTempDataSubMember("CollectedFactions", t.factionID) then return 1; end
+			end
 			if t.isFriend and not select(9, GetFriendshipReputation(t.factionID)) or t.standing == 8 then
 				SetTempDataSubMember("CollectedFactions", t.factionID, 1);
 				SetDataSubMember("CollectedFactions", t.factionID, 1);
@@ -3470,6 +3556,116 @@ app.CreateFaction = function(id, t)
 	return createInstance(constructor(id, t, "factionID"), app.BaseFaction);
 end
 
+-- Flight Path Lib
+(function()
+	local arrOfNodes = {
+		1,		-- Durotar (All of Kalimdor)
+		36,		-- Burning Steppes (All of Eastern Kingdoms)
+		100,	-- Hellfire Peninsula (All of Outland)
+		118,	-- Icecrown (All of Northrend)
+	};
+	local cachedNodeData = {};
+	app.CacheFlightPathData = function()
+		for i,mapID in ipairs(arrOfNodes) do
+			local allNodeData = C_TaxiMap.GetTaxiNodesForMap(mapID);
+			if allNodeData then
+				for j,nodeData in ipairs(allNodeData) do
+					local node = cachedNodeData[nodeData.nodeID];
+					if not node then
+						node = {};
+						cachedNodeData[nodeData.nodeID] = node;
+					end
+					if nodeData.faction then node["faction"] = nodeData.faction; end
+					if nodeData.nodeID then node["nodeID"] = nodeData.nodeID; end
+					if nodeData.name then node["text"] = nodeData.name; end
+				end
+			end
+		end
+		-- SetDataMember("CrieveIsAwesome", cachedNodeData);
+	end
+	app.CacheFlightPathDataForCurrentNode = function()
+		local allNodeData = C_TaxiMap.GetAllTaxiNodes();
+		if allNodeData then
+			local knownNodeIDs = {};
+			for j,nodeData in ipairs(allNodeData) do
+				local node = cachedNodeData[nodeData.nodeID];
+				if not node then
+					node = {};
+					cachedNodeData[nodeData.nodeID] = node;
+				end
+				if nodeData.nodeID then node["nodeID"] = nodeData.nodeID; end
+				if nodeData.name then node["text"] = nodeData.name; end
+				if nodeData.state and nodeData.state < 2 then
+					table.insert(knownNodeIDs, nodeData.nodeID);
+				end
+			end
+			
+			if GetDataMember("FlightPathsAccountWide") then
+				for i,nodeID in ipairs(knownNodeIDs) do
+					if not GetDataSubMember("FlightPaths", nodeID) then
+						SetDataSubMember("FlightPaths", nodeID, 1);
+						SetPersonalDataSubMember("FlightPaths", nodeID, 1);
+						app.UpdateSearchResults(SearchForField("flightPathID", nodeID));
+					end
+				end
+			else
+				for i,nodeID in ipairs(knownNodeIDs) do
+					if not GetPersonalDataSubMember("FlightPaths", nodeID) then
+						SetDataSubMember("FlightPaths", nodeID, 1);
+						SetPersonalDataSubMember("FlightPaths", nodeID, 1);
+						app.UpdateSearchResults(SearchForField("flightPathID", nodeID));
+					end
+				end
+			end
+		end
+		--app:RefreshData();
+	end
+	app:RegisterEvent("TAXIMAP_OPENED");
+	app.events.TAXIMAP_OPENED = app.CacheFlightPathDataForCurrentNode;
+	app.BaseFlightPath = {
+		__index = function(t, key)
+			if key == "key" then
+				return "flightPathID";
+			elseif key == "collectible" then
+				return GetDataMember("FlightPathsCollectible");
+			elseif key == "collected" then
+				if GetDataMember("FlightPathsAccountWide")then
+					return GetDataSubMember("FlightPaths", t.flightPathID);
+				end
+				return GetPersonalDataSubMember("FlightPaths", t.flightPathID);
+			elseif key == "text" then
+				local info = t.info;
+				return info and info.text;
+			elseif key == "nmr" then
+				local info = t.info;
+				if info and info.faction then
+					if info.faction == 2 then
+						return app.Faction == "Horde";
+					elseif info.faction == 1 then
+						return app.Faction == "Alliance";
+					end
+				end
+			elseif key == "info" then
+				return cachedNodeData[t.flightPathID];
+			elseif key == "description" then
+				return "Flight paths are cached when you look at the flight master on each continent. We refresh the collection status when you look at the Flight Map. (blizzard limitation, not by choice... sorry!)\n\nHave fun!\n - Crieve";
+			elseif key == "icon" then
+				local info = t.info;
+				if info and info.faction and info.faction == 2 then
+					return "Interface/ICONS/Ability_Rogue_Sprint_Blue";
+				end
+				return "Interface/ICONS/Ability_Rogue_Sprint";
+			else
+				-- Something that isn't dynamic.
+				return table[key];
+			end
+		end
+	};
+	app.CreateFlightPath = function(id, t)
+		return createInstance(constructor(id, t, "flightPathID"), app.BaseFlightPath);
+	end
+end)();
+
 -- Filter Lib
 app.BaseFilter = {
 	__index = function(t, key)
@@ -3491,15 +3687,24 @@ app.CreateFilter = function(id, t)
 	return createInstance(constructor(id, t, "filterID"), app.BaseFilter);
 end
 
--- Garrison Follower Lib
+-- Follower Lib
 app.BaseFollower = {
 	__index = function(t, key)
 		if key == "key" then
 			return "followerID";
 		elseif key == "collectible" then
-			return true;
+			return app.GetDataMember("FollowersCollectible");
 		elseif key == "collected" then
-			return C_Garrison.IsFollowerCollected(t.followerID);
+			if app.GetDataMember("TrackFollowersAccountWide") then
+				if GetDataSubMember("CollectedFollowers", t.followerID) then return 1; end
+			else
+				if GetTempDataSubMember("CollectedFollowers", t.followerID) then return 1; end
+			end
+			if C_Garrison.IsFollowerCollected(t.followerID) then
+				SetTempDataSubMember("CollectedFollowers", t.followerID, 1);
+				SetDataSubMember("CollectedFollowers", t.followerID, 1);
+				return 1;
+			end
 		elseif key == "text" then
 			local info = t.info;
 			return info and info.name;
@@ -3596,6 +3801,7 @@ app.BaseHeirloom = {
 		if key == "key" then
 			return "itemID";
 		elseif key == "collectible" then
+			if t.factionID then return app.GetDataMember("FactionsCollectible"); end
 			return true;
 		elseif key == "collected" then
 			if C_Heirloom.PlayerHasHeirloom(t.itemID) or (t.s and t.s > 0 and GetDataSubMember("CollectedSources", t.s)) then return 1; end
@@ -4504,11 +4710,11 @@ end
 		"|cff66ccffFour years after the Battle of Mount Hyjal, tensions between the Alliance & the Horde begin to arise once again. Intent on settling the arid region of Durotar, Thrall's new Horde expanded its ranks, inviting the undead Forsaken to join orcs, tauren, & trolls. Meanwhile, dwarves, gnomes & the ancient night elves pledged their loyalties to a reinvigorated Alliance, guided by the human kingdom of Stormwind. After Stormwind's king, Varian Wrynn, mysteriously disappeared, Highlord Bolvar Fordragon served as Regent but his service was marred by the manipulations & mind control of the Onyxia, who ruled in disguise as a human noblewoman. As heroes investigated Onyxia's manipulations, ancient foes surfaced in lands throughout the world to menace Horde & Alliance alike.|r", 					-- Classic
 		"|cff66ccffThe Burning Crusade is the first expansion. Its main features include an increase of the level cap up to 70, the introduction of the blood elves & the draenei as playable races, & the addition of the world of Outland, along with many new zones, dungeons, items, quests, & monsters.|r",			-- Burning Crusade
 		"|cff66ccffWrath of the Lich King is the second expansion. The majority of the expansion content takes place in Northrend & centers around the plans of the Lich King. Content highlights include the increase of the level cap from 70 to 80, the introduction of the death knight Hero class, & new PvP/World PvP content.|r",		-- Wrath
-		"|cff66ccffCataclysm is the third expansion. Set primarily in a dramatically reforged Kalimdor & Eastern Kingdoms on the world of Azeroth, the expansion follows the return of Deathwing, who causes a new Sundering as he makes his cataclysmic re-entrance into the world from Deepholm. Cataclysm returns players to the two continents of Azeroth for most of their campaigning, opening new zones such as Mount Hyjal, the sunken world of Vashj'ir, Deepholm, Uldum and the Twilight Highlands. It includes two new playable races, the worgen & the goblins. The expansion increases level cap to 85, adds the ability to fly in Kalimdor & Eastern Kingdoms, intorduces Archaeology & reforging, & restructures the world itself.|r",				-- Cata
+		"|cff66ccffCataclysm is the third expansion. Set primarily in a dramatically reforged Kalimdor & Eastern Kingdoms on the world of Azeroth, the expansion follows the return of Deathwing, who causes a new Sundering as he makes his cataclysmic re-entrance into the world from Deepholm. Cataclysm returns players to the two continents of Azeroth for most of their campaigning, opening new zones such as Mount Hyjal, the sunken world of Vashj'ir, Deepholm, Uldum and the Twilight Highlands. It includes two new playable races, the worgen & the goblins. The expansion increases level cap to 85, adds the ability to fly in Kalimdor & Eastern Kingdoms, introduces Archaeology & reforging, & restructures the world itself.|r",				-- Cata
 		"|cff66ccffMists of Pandaria is the fourth expansion pack. The expansion refocuses primarily on the war between the Alliance & Horde, in the wake of the accidental rediscovery of Pandaria. Adventurers rediscover the ancient pandaren people, whose wisdom will help guide them to new destinies; the Pandaren Empire's ancient enemy, the mantid; and their legendary oppressors, the enigmatic mogu. The land changes over time & the conflict between Varian Wrynn & Garrosh Hellscream escalates. As civil war wracks the Horde, the Alliance & forces in the Horde opposed to Hellscream's violent uprising join forces to take the battle directly to Hellscream & his Sha-touched allies in Orgrimmar.|r",			-- Mists
 		"|cff66ccffWarlords of Draenor is the fifth expansion. Across Draenor's savage jungles & battle-scarred plains, Azeroth's heroes will engage in a mythic conflict involving mystical draenei champions & mighty orc clans, & cross axes with the likes of Grommash Hellscream, Blackhand, & Ner’zhul at the height of their primal power. Players will need to scour this unwelcoming land in search of allies to help build a desperate defense against the old Horde’s formidable engine of conquest, or else watch their own world’s bloody, war-torn history repeat itself.|r",	-- WoD
 		"|cff66ccffLegion is the sixth expansion. Gul'dan is expelled into Azeroth to reopen the Tomb of Sargeras & the gateway to Argus, commencing the third invasion of the Burning Legion. After the defeat at the Broken Shore, the defenders of Azeroth search for the Pillars of Creation, which were Azeroth's only hope for closing the massive demonic portal at the heart of the Tomb. However, the Broken Isles came with their own perils to overcome, from Xavius, to God-King Skovald, to the nightborne, & to Tidemistress Athissa. Khadgar moved Dalaran to the shores of this land, the city serves as a central hub for the heroes. The death knights of Acherus also took their floating necropolis to the Isles. The heroes of Azeroth sought out legendary artifact weapons to wield in battle, but also found unexpected allies in the form of the Illidari. Ongoing conflict between the Alliance & the Horde led to the formation of the class orders, with exceptional commanders putting aside faction to lead their classes in the fight against the Legion.|r",-- Legion
-		"|cff66ccffAzeroth paid a terrible price to end the apocalyptic march of the Legion's crusade—but even as the world's wounds are tended, it is the shattered trust between the Alliance and Horde that may prove the hardest to mend. In Battle for Azeroth, the fall of the Burning Legion sets off a series of disastrous incidents that reignites the conflict at the heart of the Warcraft saga. As a new age of warfare begins, Azeroth's heroes must set out on a journey to recruit new allies, race to claim the world's mightiest resources, and fight on several fronts to determine whether the Horde or Alliance will lead Azeroth into its uncertain future.|r", -- BfA
+		"|cff66ccffBattle for Azeroth is the seventh expansion. Azeroth paid a terrible price to end the apocalyptic march of the Legion's crusade—but even as the world's wounds are tended, it is the shattered trust between the Alliance and Horde that may prove the hardest to mend. In Battle for Azeroth, the fall of the Burning Legion sets off a series of disastrous incidents that reignites the conflict at the heart of the Warcraft saga. As a new age of warfare begins, Azeroth's heroes must set out on a journey to recruit new allies, race to claim the world's mightiest resources, and fight on several fronts to determine whether the Horde or Alliance will lead Azeroth into its uncertain future.|r", -- BfA
 	};
 	app.BaseTier = {
 		__index = function(t, key)
@@ -5204,6 +5410,7 @@ local function UpdateParentProgress(group)
 	end
 end
 app.UpdateGroups = UpdateGroups;
+app.UpdateParentProgress = UpdateParentProgress;
 
 -- Helper Methods
 -- The following Helper Methods are used when you obtain a new appearance.
@@ -5534,6 +5741,20 @@ function app.UniqueModeItemRemovalHelperOnlyMain(sourceID, oldState)
 end
 app.ActiveItemRemovalHelper = app.CompletionistItemRemovalHelper;
 
+function app.GetNumberOfItemsUntilNextPercentage(progress, total)
+	if total <= progress then
+		return "|c" .. GetProgressColor(1) .. "YOU DID IT!|r";
+	else
+		local originalPercent = progress / total;
+		local roundedPercent = math.ceil(originalPercent * 100) * 0.01;
+		local diff = math.ceil(total * (roundedPercent - originalPercent));
+		if diff < 1 then
+			return "|c" .. GetProgressColor(1) .. (total - progress) .. " THINGS UNTIL 100%|r";
+		else
+			return "|c" .. GetProgressColor(roundedPercent) .. diff .. " THINGS UNTIL " .. math.floor(roundedPercent * 100) .. "%|r";
+		end
+	end
+end
 function app.QuestCompletionHelper(questID)
 	-- Search ATT for the related quests.
 	local searchResults = SearchForQuestID(questID);
@@ -5595,7 +5816,7 @@ local function MinimapButtonOnEnter(self)
 	GameTooltip:SetOwner(self, "ANCHOR_LEFT");
 	GameTooltip:ClearLines();
 	GameTooltip:AddDoubleLine(app.DisplayName, GetProgressColorText(reference.progress, reference.total));
-	GameTooltip:AddLine(GetDataMember("CompletionistMode") and "Completionist Mode" or "Unique Appearance Mode", 1, 1, 1);
+	GameTooltip:AddDoubleLine(GetDataMember("CompletionistMode") and "Completionist Mode" or "Unique Appearance Mode", app.GetNumberOfItemsUntilNextPercentage(reference.progress, reference.total), 1, 1, 1);
 	GameTooltip:AddLine(L("DESCRIPTION"), 0.4, 0.8, 1, 1);
 	GameTooltip:AddLine(L("MINIMAP_MOUSEOVER_TEXT"), 1, 1, 1);
 	GameTooltip:Show();
@@ -6747,7 +6968,7 @@ function app:GetDataCache()
 		allData = setmetatable({}, {
 			__index = function(t, key)
 				if key == "title" then
-					return GetDataMember("CompletionistMode") and "Completionist Mode" or GetDataMember("MainOnly") and "Unique Appearance Mode (Main Only)" or "Unique Appearance Mode";
+					return (GetDataMember("CompletionistMode") and "Completionist Mode" or GetDataMember("MainOnly") and "Unique Appearance Mode (Main Only)" or "Unique Appearance Mode") .. "/" .. app.GetNumberOfItemsUntilNextPercentage(t.progress, t.total);
 				else
 					-- Something that isn't dynamic.
 					return table[key];
@@ -7723,6 +7944,7 @@ app:GetWindow("RaidAssistant", UIParent, function(self)
 	app.DungeonDifficulty = GetDungeonDifficultyID() or 1;
 	app.RaidDifficulty = GetRaidDifficultyID() or 14;
 	app.Spec = GetLootSpecialization();
+	wipe(app.searchCache);
 	if not app.Spec or app.Spec == 0 then
 		local s = GetSpecialization();
 		if s then app.Spec = select(1, GetSpecializationInfo(s)); end
@@ -8956,6 +9178,15 @@ app.events.VARIABLES_LOADED = function()
 		SetTempDataMember("CollectedFactions", myfactions);
 	end
 	
+	-- Cache your character's follower data.
+	local followers = GetDataMember("CollectedFollowersPerCharacter", {});
+	local myFollowers = GetTempDataMember("CollectedFollowers", factions[app.Me]);
+	if not myFollowers then
+		myFollowers = {};
+		followers[app.Me] = myFollowers;
+		SetTempDataMember("CollectedFollowers", myFollowers);
+	end
+	
 	-- Register for Dynamic Events and Assign Filters
 	if GetDataMember("IgnoreAllFilters", false) then
 		app.GroupFilter = app.NoFilter;
@@ -9125,6 +9356,8 @@ app.events.PLAYER_LOGIN = function()
 		RefreshLocation();
 		RefreshSaves();
 		
+		app.CacheFlightPathData();
+		
 		-- NOTE: The auto refresh only happens once.
 		if not app.autoRefreshedCollections then
 			app.autoRefreshedCollections = true;
@@ -9196,12 +9429,20 @@ app.events.COMPANION_LEARNED = function(...)
 	--print("COMPANION_LEARNED", ...);
 	RefreshMountCollection();
 end
-app.events.NEW_PET_ADDED = function(...)
-	--print("NEW_PET_ADDED", ...);
-	RefreshMountCollection();
+app.events.NEW_PET_ADDED = function(petID)
+	local speciesID = select(1, C_PetJournal.GetPetInfoByPetID(petID));
+	--print("NEW_PET_ADDED", petID, speciesID);
+	if speciesID and C_PetJournal.GetNumCollectedInfo(speciesID) == 1 then
+		app.UpdateSearchResults(SearchForField("speciesID", speciesID));
+		app:PlayFanfare();
+		wipe(searchCache);
+	end
 end
-app.events.PET_JOURNAL_PET_DELETED = function(...)
-	--print("PET_JOURNAL_PET_DELETED", ...);
+app.events.PET_JOURNAL_PET_DELETED = function(petID)
+	-- /dump C_PetJournal.GetPetInfoByPetID("BattlePet-0-00001006503D")
+	-- local speciesID = select(1, C_PetJournal.GetPetInfoByPetID(petID));
+	-- NOTE: Above APIs do not work in the DELETED API, THANKS BLIZZARD
+	--print("PET_JOURNAL_PET_DELETED", petID);
 	RefreshMountCollection();
 end
 app.events.COMPANION_UNLEARNED = function(...)

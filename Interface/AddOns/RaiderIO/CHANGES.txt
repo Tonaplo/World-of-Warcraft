@@ -1,10 +1,22 @@
-lightweight tag d13a700ed1aaa0f74cd8190378c121e2a95e17e3 v201808120600
+lightweight tag baeba0ea66674a1d545c853785b077b0ccbd7c84 v201808130600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Sun Aug 12 07:28:31 2018 +0000
+Date:	Mon Aug 13 07:38:48 2018 +0000
 
-commit d13a700ed1aaa0f74cd8190378c121e2a95e17e3
+commit baeba0ea66674a1d545c853785b077b0ccbd7c84
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sun Aug 12 07:28:31 2018 +0000
+Date:   Mon Aug 13 07:38:48 2018 +0000
 
     [Raider.IO] Database Refresh
+
+commit daed10a73a3fd9aa61dcf76dcdd07baa9a8593f9
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Mon Aug 13 02:03:50 2018 -0500
+
+    egg for Divyn
+
+commit 1fb3e99fcd0cd423aab2e523f10ee5c79e414e93
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sun Aug 12 10:51:20 2018 -0500
+
+    egg updates
 

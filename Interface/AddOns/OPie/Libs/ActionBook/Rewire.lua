@@ -49,7 +49,7 @@ local Spell_CheckKnown = {[33891]=IsSpellKnown, [102543]=IsSpellKnown, [102558]=
 		return IsSpellKnown(194223) and select(7, GetSpellInfo(GetSpellInfo(194223))) == 102560 or false
 	end
 end
-local Spell_ForcedID = {[126819]=1, [28272]=1, [28271]=1, [161372]=1, [51514]=1, [210873]=1, [211004]=1, [211010]=1, [211015]=1}
+local Spell_ForcedID = {[126819]=1, [28272]=1, [28271]=1, [161372]=1, [51514]=1, [210873]=1, [211004]=1, [211010]=1, [211015]=1, [783]=1}
 
 local namedMacros = {}
 local core, coreEnv = CreateFrame("FRAME", nil, nil, "SecureHandlerBaseTemplate") do
@@ -94,8 +94,11 @@ core:SetAttribute("RunSlashCmd", [=[-- Rewire:Internal_RunSlashCmd
 	if not v then
 	elseif slash == "/cast" or slash == "/use" then
 		local oid = v and castEscapes[v:lower()]
+		local sid = v and not oid and v:match("^%s*spell:(%d+)%s*$")
 		if oid then
 			return AB:RunAttribute("UseAction", oid, target)
+		elseif sid then
+			return AB:RunAttribute("CastSpellByID", tonumber(sid), target)
 		elseif v then
 			return (target and (slash .. " [@" .. target .. "] ") or (slash .. " ")) .. v
 		end
@@ -429,7 +432,7 @@ local function init()
 		if f then return f(...) end
 	end)
 
-	AB = assert(T.ActionBook:compatible(2, 18), "A compatible version of ActionBook is required.")
+	AB = assert(T.ActionBook:compatible(2, 22), "A compatible version of ActionBook is required.")
 	core:SetFrameRef("ActionBook", AB:seclib())
 	core:Execute([[AB = self:GetFrameRef('ActionBook')]])
 end
@@ -552,12 +555,12 @@ function api:IsSpellCastable(id, disallowRewireEscapes)
 	elseif Spell_ForcedID[id] then
 		return not not FindSpellBookSlotBySpellID(id), "forced-id-cast"
 	end
-	local name, rank = GetSpellInfo(id)
+	local name, rank = GetSpellInfo(id), GetSpellSubtext(id)
 	if disallowRewireEscapes ~= true and coreEnv.castEscapes[name and name:lower()] then
 		return true, "rewire-escape"
 	end
-	rank = GetSpellSubtext(id)
-	return not not (name and GetSpellInfo(name, rank)), "double-gsi"
+	local castable = not not (name and GetSpellInfo(name, rank))
+	return castable, castable and "double-gsi"
 end
 
 T.Rewire = {compatible=api.compatible}

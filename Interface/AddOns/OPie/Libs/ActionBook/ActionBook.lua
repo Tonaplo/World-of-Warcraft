@@ -1,4 +1,4 @@
-local apiV, api, MAJ, REV, ext, T = {}, {}, 2, 21, ...
+local apiV, api, MAJ, REV, ext, T = {}, {}, 2, 22, ...
 if T.ActionBook then return end
 apiV[MAJ], ext, T.Kindred, T.Rewire = api, {Kindred=T.Kindred, Rewire=T.Rewire, ActionBook={}}
 
@@ -20,6 +20,7 @@ local listToString do
 			elseif at == "number" then
 				p = p .. c .. ("%g"):format(a)
 			else
+				-- RE unpack does not accept start/finish indices, so replace nil/invalid values by a special table.
 				p = p .. c .. (at == "boolean" and (a and "true" or "false") or "_NIL")
 			end
 			return walk(p, n-1, ...)
@@ -123,7 +124,8 @@ local actionCallbacks, core, coreEnv = {}, CreateFrame("FRAME", nil, nil, "Secur
 	end
 	core:Execute([=[-- AB_Init
 		collections, tokens, metadata, actConditionals, tokConditionals = newtable(), newtable(), newtable(), newtable(), newtable()
-		actInfo, busy, idle, _NIL = newtable(), newtable(), newtable(), newtable()
+		actInfo, busy, idle, _NIL, sidCastID = newtable(), newtable(), newtable(), newtable(), 30 + math.random(9)
+		actInfo[sidCastID] = newtable("attribute", 6, "spell",nil, "target",nil, "type","spell")
 		for _, c in pairs(self:GetChildList(newtable())) do idle[c] = c:GetName() end
 		KR, colStack, idxStack, ecStack, outCount = self:GetFrameRef("KR"), newtable(), newtable(), newtable(), newtable()
 	]=])
@@ -179,7 +181,7 @@ core:SetAttribute("GetCollectionContent", [[-- AB:GetCollectionContent(slot)
 	until i == 0
 	return ret, metadata["openAction-" .. root]
 ]])
-core:SetAttribute("UseAction", [[-- AB:UseAction(slot)
+core:SetAttribute("UseAction", [[-- AB:UseAction(slot[, ...])
 	local at = actInfo[...]
 	if at == "icall" then
 		return self:CallMethod("icall", ...) or ""
@@ -191,6 +193,11 @@ core:SetAttribute("UseAction", [[-- AB:UseAction(slot)
 		return at[2]:RunAttribute(select(3, unpack(at))) or ""
 	end
 	return ""
+]])
+core:SetAttribute("CastSpellByID", [[-- AB:CastSpellByID(sid[, "target"])
+	local at = actInfo[sidCastID]
+	at[4], at[6] = ...
+	return self:RunAttribute("UseAction", sidCastID)
 ]])
 
 function core:notifyCollectionOpen(id)

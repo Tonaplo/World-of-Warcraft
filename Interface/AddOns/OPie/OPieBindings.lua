@@ -13,8 +13,8 @@ local lBinding = frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 	lBinding:SetPoint("TOPLEFT", 16, -125)
 	lRing:SetPoint("LEFT", lBinding, "LEFT", 215, 0)
 	lBinding:SetWidth(180)
-local bindZone = CreateFrame("Frame", nil, frame)
-local bindLines = {} do
+local bindLines, bindZone = {}, CreateFrame("Frame", nil, frame) do
+	bindZone.bindingContainerFrame = frame
 	local function onMacroClick(self)
 		bindZone.showMacroPopup(self:GetParent():GetID())
 	end

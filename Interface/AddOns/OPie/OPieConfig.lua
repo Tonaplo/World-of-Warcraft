@@ -1,5 +1,4 @@
 local L, config, _, T, KR = OneRingLib.lang, {}, ...
-local GameTooltip = AltGameTooltip or GameTooltip
 
 OneRingLib.ext.config, KR = config, T.ActionBook:compatible("Kindred",1,0)
 function config.createFrame(name, parent)
@@ -170,7 +169,7 @@ do -- ext.config.bind
 			GameTooltip:SetPoint("TOP", self, "BOTTOM")
 			GameTooltip:AddLine(L"Conditional Bindings", NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b)
 			GameTooltip:AddLine(L"The binding will update to reflect the value of this macro conditional.", HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b, 1)
-			GameTooltip:AddLine((L"You may use extended macro conditionals; see |cff33DDFF%s|r for details."):format("http://townlong-yak.com/opie/extended-conditionals"), HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b, 1)
+			GameTooltip:AddLine((L"You may use extended macro conditionals; see |cff33DDFF%s|r for details."):format("https://townlong-yak.com/opie/extended-conditionals"), HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b, 1)
 			GameTooltip:AddLine((L"Example: %s."):format(GREEN_FONT_COLOR_CODE .. "[combat] ALT-C; [nomounted] CTRL-F|r"), NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b)
 			GameTooltip:Show()
 		end)
@@ -192,6 +191,15 @@ do -- ext.config.bind
 			end
 		end)
 	end
+	local captureFrame = CreateFrame("Button") do
+		captureFrame:Hide()
+		captureFrame:RegisterForClicks("AnyUp")
+		captureFrame:SetScript("OnClick", function(_, ...)
+			if activeCaptureButton then
+				activeCaptureButton:Click(...)
+			end
+		end)
+	end
 	local function MapMouseButton(button)
 		if button == "MiddleButton" then return "BUTTON3" end
 		if type(button) == "string" and (tonumber(button:match("^Button(%d+)"))) or 1 > 3 then
@@ -203,6 +211,7 @@ do -- ext.config.bind
 		self:EnableKeyboard(false)
 		self:SetScript("OnKeyDown", nil)
 		self:SetScript("OnHide", nil)
+		captureFrame:Hide()
 		activeCaptureButton = activeCaptureButton ~= self and activeCaptureButton or nil
 		if unbindMap[self:GetParent()] then
 			unbindMap[self:GetParent()]:Disable()
@@ -220,6 +229,7 @@ do -- ext.config.bind
 		end
 	end
 	local function OnClick(self, button)
+		local parent = self:GetParent()
 		PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 		if activeCaptureButton then
 			local deactivated, mappedButton = Deactivate(activeCaptureButton), MapMouseButton(button)
@@ -229,13 +239,19 @@ do -- ext.config.bind
 			if deactivated == self then return end
 		end
 		if IsAltKeyDown() and activeCaptureButton == nil and self:GetParent().OnBindingAltClick then
-			return self:GetParent().OnBindingAltClick(self, button)
+			return parent.OnBindingAltClick(self, button)
 		end
 		activeCaptureButton = self
 		self:LockHighlight()
 		self:EnableKeyboard(true)
 		self:SetScript("OnKeyDown", SetBind)
 		self:SetScript("OnHide", Deactivate)
+		if parent then
+			captureFrame:SetParent(parent.bindingContainerFrame or parent)
+			captureFrame:SetAllPoints()
+			captureFrame:Show()
+			captureFrame:SetFrameLevel(self:GetFrameLevel()-1)
+		end
 		if unbindMap[self:GetParent()] then
 			unbindMap[self:GetParent()]:Enable()
 		end

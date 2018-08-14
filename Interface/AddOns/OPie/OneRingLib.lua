@@ -8,7 +8,8 @@ getmetatable(L).__call, T.L = TL and function(_,k) return TL[k] or k end or func
 
 local AB, KR = T.ActionBook:compatible(2,14), T.ActionBook:compatible("Kindred",1,11) do
 	AB:RegisterActionType("ring", function(name)
-		return type(name) == "string" and OR_Rings[name] and OR_Rings[name].action or nil
+		local ringInfo = type(name) == "string" and OR_Rings[name]
+		return ringInfo and ringInfo.action or nil
 	end, function(name)
 		return L"OPie Ring", OR_Rings[name] and OR_Rings[name].name or name, [[Interface\AddOns\OPie\gfx\opie_ring_icon]]
 	end)

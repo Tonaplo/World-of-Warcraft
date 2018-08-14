@@ -1,6 +1,5 @@
 local configCache, _, T = {}, ...
 local max, min, abs, floor, sin, cos, atan2 = math.max, math.min, math.abs, math.floor, sin, cos, atan2
-local GameTooltip = AltGameTooltip or GameTooltip
 local function cc(m, f, ...)
 	f[m](f, ...)
 	return f
