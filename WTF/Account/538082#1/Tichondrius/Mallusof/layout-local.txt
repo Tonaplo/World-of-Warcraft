@@ -6,13 +6,6 @@ X: 244
 Y: -197
 W: 1
 H: 1
-Frame: ScriptErrorsFrame
-FrameLevel: 0
-Anchor: LEFT
-X: 43
-Y: 100
-W: 384
-H: 260
 Frame: ColorPickerFrame
 FrameLevel: 22
 Anchor: CENTER
@@ -48,3 +41,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 43
+Y: 100
+W: 384
+H: 260
