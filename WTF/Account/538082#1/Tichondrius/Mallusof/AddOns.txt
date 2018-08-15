@@ -67,7 +67,7 @@ Grid2RaidDebuffs: enabled
 Grid2RaidDebuffsOptions: enabled
 Grid2LDB: enabled
 GTFO: enabled
-HandyNotes: enabled
+HandyNotes: disabled
 HandyNotes_BrokenShore: enabled
 HandyNotes_LegionTreasures: disabled
 idTip: enabled

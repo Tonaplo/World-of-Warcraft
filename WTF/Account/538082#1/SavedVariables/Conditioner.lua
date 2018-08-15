@@ -166,7 +166,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Shadow ST",
 	}, -- [33]
 	{
-		["value"] = "[01+502+g0_Shadow Word: Pain_Shift E_589_0_0]\n[00w+l0__Shift F_47540_0_0]\n[+o0__E_585_0_0]",
+		["value"] = "[+o0__R_129250_0_0]\n[00w+l0__Shift F_47540_0_0]\n[+o0__E_585_0_0]",
 		["spec"] = 256,
 		["name"] = "Disc",
 	}, -- [34]
