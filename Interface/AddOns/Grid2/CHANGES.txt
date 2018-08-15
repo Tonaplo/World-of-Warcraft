@@ -1,4 +1,17 @@
 ------------------------------------------------------------------------
+r827 | michaelspain | 2018-08-13 13:25:42 +0000 (Mon, 13 Aug 2018) | 2 lines
+Changed paths:
+   M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua
+
+- Removed duplicated raid debuffs.
+- Added some missing Uldir Raid Debuffs (thanks to Sixthumbs)
+------------------------------------------------------------------------
+r826 | stanzilla | 2018-08-13 12:01:43 +0000 (Mon, 13 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua
+
+add a few more Uldir debuffs, thanks to JD
+------------------------------------------------------------------------
 r825 | michaelspain | 2018-08-10 21:09:15 +0000 (Fri, 10 Aug 2018) | 2 lines
 Changed paths:
    M /trunk/Options/modules/indicators/IndicatorIcon.lua

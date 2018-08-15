@@ -1,22 +1,35 @@
-lightweight tag baeba0ea66674a1d545c853785b077b0ccbd7c84 v201808130600
+lightweight tag 2401b06ffd644080ecf3cfc782f3cfbe88ba79fa v201808140600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Mon Aug 13 07:38:48 2018 +0000
+Date:	Tue Aug 14 08:55:35 2018 +0000
 
-commit baeba0ea66674a1d545c853785b077b0ccbd7c84
+commit 2401b06ffd644080ecf3cfc782f3cfbe88ba79fa
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Mon Aug 13 07:38:48 2018 +0000
+Date:   Tue Aug 14 08:55:35 2018 +0000
 
     [Raider.IO] Database Refresh
 
-commit daed10a73a3fd9aa61dcf76dcdd07baa9a8593f9
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Mon Aug 13 02:03:50 2018 -0500
+commit 77d51ee17f44f12583aae56e0f0dd8dac8bcc4d4
+Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
+Date:   Mon Aug 13 23:08:03 2018 +0200
 
-    egg for Divyn
+    Switch back to legion (#62)
 
-commit 1fb3e99fcd0cd423aab2e523f10ee5c79e414e93
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sun Aug 12 10:51:20 2018 -0500
+commit 96816e09003bd6ae369d2f3fa673a9354b53d526
+Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
+Date:   Mon Aug 13 22:49:08 2018 +0200
 
-    egg updates
+    Feature/bfa launch (#61)
+    
+    * BfA is coming ...
+    
+    - The data is reset to be at 0 in any case
+    - Display a legion score, which is the best score across legion (rounded to the tenth)
+    
+    * Disable average player score
+    
+    * Reindent
+    
+    * Add new dungeon
+    
+    * Switch to BATTLE_FOR_AZEROTH :tada
 
