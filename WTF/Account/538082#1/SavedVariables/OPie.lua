@@ -224,9 +224,9 @@ OneRing_Config = {
 					["id"] = 72286,
 				}, -- [3]
 				{
+					["show"] = "[spec:255/254/253] hide;",
 					["sliceToken"] = "ABuepElZQEe",
 					["id"] = 229377,
-					["show"] = "[spec:255/254/253] hide;",
 				}, -- [4]
 				{
 					["id"] = 229376,

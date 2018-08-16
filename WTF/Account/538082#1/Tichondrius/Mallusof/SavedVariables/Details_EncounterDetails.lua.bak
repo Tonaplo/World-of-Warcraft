@@ -25777,12 +25777,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cobalt Guardian",
 		},
-		[247388] = {
-			["school"] = 8,
+		[206433] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Star Augur Etraeus",
 		},
 		[260698] = {
 			["school"] = 32,
@@ -25811,13 +25811,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrupted Taran Zhu",
 		},
-		[3355] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[247388] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Karhcore",
+			["source"] = "Unknown",
 		},
 		[267444] = {
 			["school"] = 32,
@@ -28284,6 +28283,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tormenting Orb",
 		},
+		[65192] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "VX-001",
+		},
 		[89421] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -28293,13 +28299,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Sinestra",
-		},
-		[227972] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Helya",
 		},
 		[200389] = {
 			["school"] = 8,
@@ -32322,12 +32321,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kin'garoth",
 		},
-		[65192] = {
-			["school"] = 1,
+		[227972] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "VX-001",
+			["source"] = "Helya",
 		},
 		[203109] = {
 			["school"] = 1,
@@ -33747,12 +33746,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ghostfac-Spinebreaker",
 		},
-		[206433] = {
-			["school"] = 1,
+		[3355] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Star Augur Etraeus",
+			["source"] = "Karhcore",
 		},
 		[224984] = {
 			["school"] = 32,

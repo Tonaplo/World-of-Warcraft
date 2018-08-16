@@ -67,9 +67,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1196583064,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1282480520,
+							["Mallusof"] = 1268991919,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -195,14 +195,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -230,16 +236,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1414,38 +1414,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g and get friendly with all factions :)", -- [1]
-							"/cw Bleugbert So", -- [2]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [3]
-							"/cw Bleugbert So", -- [4]
-							"/s I'll go Disc", -- [5]
-							"/s Then we can take him with your pet tanking", -- [6]
-							"/s nice!", -- [7]
-							"/s cya :)", -- [8]
-							"/cw Bleugbert So", -- [9]
-							"/cw Bleugbert-Tichondrius I've seen those at around 1 k", -- [10]
-							"/g GZ!", -- [11]
-							"/p snowstorm raiding", -- [12]
-							"/cw Bleugbert So", -- [13]
-							"/p snowstorm raiding", -- [14]
-							"/cw Bleugbert So", -- [15]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [16]
-							"/g and get friendly with all factions :)", -- [17]
-							"/cw Bleugbert So", -- [18]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [19]
-							"/cw Bleugbert So", -- [20]
-							"/s I'll go Disc", -- [21]
-							"/s nice!", -- [22]
-							"/cw Bleugbert So", -- [23]
-							"/g GZ!", -- [24]
-							"/cw Bleugbert So", -- [25]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [26]
-							"/cw Bleugbert So", -- [27]
-							"/s I'll go Disc", -- [28]
-							"/cw Bleugbert So", -- [29]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [30]
-							"/s I'll go Disc", -- [31]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [32]
+							"/i Do you lkow this booss?", -- [1]
+							"/i no", -- [2]
+							"/i Kill the Totems", -- [3]
+							"/i one at ta time", -- [4]
+							"/i then him", -- [5]
+							"/i Alright this guy", -- [6]
+							"/i She does a cast", -- [7]
+							"/i You have to stand to go soak a pool when she stars casting", -- [8]
+							"/i oh that was my bad", -- [9]
+							"/i sorry", -- [10]
+							"/i That", -- [11]
+							"/i Transfusion", -- [12]
+							"/i When boss casts that", -- [13]
+							"/i soak a blood pool", -- [14]
+							"/i r", -- [15]
+							"/i It's very important tough", -- [16]
+							"/i So", -- [17]
+							"/i Those that picked it uo", -- [18]
+							"/i damages", -- [19]
+							"/i the other heals", -- [20]
+							"/i I love this", -- [21]
+							"/i Waterfall turns into stairs", -- [22]
+							"/i Alright so", -- [23]
+							"/i It's", -- [24]
+							"/i Dont step on Spiders", -- [25]
+							"/i Ranged stay far away", -- [26]
+							"/i Someone or more of us gets a debuff", -- [27]
+							"/i go far away from boss", -- [28]
+							"/i kill add", -- [29]
+							"/i kill adds", -- [30]
+							"/i nice", -- [31]
+							"/i have a good one :)", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -2213,7 +2213,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -2221,7 +2221,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
@@ -2231,7 +2231,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",

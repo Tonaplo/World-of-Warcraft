@@ -129,9 +129,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
+							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 1281767559,
+							["Mallusof"] = 1267047419,
 						},
 					},
 				},
@@ -195,21 +195,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -237,9 +230,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -1021,38 +1021,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Bleugbert So", -- [1]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [2]
-							"/cw Bleugbert-Tichondrius I've seen those at around 1 k", -- [3]
-							"/cw Bleugbert-Tichondrius good luck :)", -- [4]
-							"/g GZ!", -- [5]
-							"/g and get friendly with all factions :)", -- [6]
-							"/p snowstorm raiding", -- [7]
-							"/g GZ!", -- [8]
-							"/p snowstorm raiding", -- [9]
-							"/cw Bleugbert So", -- [10]
-							"/cw Bleugbert-Tichondrius yup", -- [11]
-							"/p snowstorm raiding", -- [12]
-							"/g GZ!", -- [13]
-							"/cw Bleugbert So", -- [14]
-							"/p snowstorm raiding", -- [15]
-							"/cw Bleugbert So", -- [16]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [17]
-							"/cw Bleugbert-Tichondrius good luck :)", -- [18]
-							"/g and get friendly with all factions :)", -- [19]
-							"/g GZ!", -- [20]
-							"/cw Bleugbert So", -- [21]
-							"/p snowstorm raiding", -- [22]
-							"/cw Bleugbert So", -- [23]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [24]
-							"/g and get friendly with all factions :)", -- [25]
-							"/cw Bleugbert So", -- [26]
-							"/cw Bleugbert Because each rep step for the Champions of Azeroth gives your neck +15 itemlevels", -- [27]
-							"/cw Bleugbert So", -- [28]
-							"/s I'll go Disc", -- [29]
-							"/s Then we can take him with your pet tanking", -- [30]
-							"/s nice!", -- [31]
-							"/s cya :)", -- [32]
+							"/7 Heads up", -- [1]
+							"/7 Auction house is INSANELY slow", -- [2]
+							"/2 I think for the whole reset?", -- [3]
+							"/2 I have no timer on mine and I used it earlier today", -- [4]
+							"/g is anyone a tailor?", -- [5]
+							"/g link please?", -- [6]
+							"/g thansk :)", -- [7]
+							"/cw Kalithumos-Tichondrius |cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [8]
+							" thanks alot! The team worked hard :)", -- [9]
+							" I have barely had to do anything lol", -- [10]
+							" Server team and Design has been busy", -- [11]
+							" Gamepaly has been quite", -- [12]
+							" glad you're enjoying it ;0", -- [13]
+							"/7 sup", -- [14]
+							"/7 yes", -- [15]
+							"/7 also, Hey bud :)", -- [16]
+							"/7 Cant you?", -- [17]
+							"/7 Should be able to set your own as well", -- [18]
+							"/7 totally", -- [19]
+							"/7 :P", -- [20]
+							"/7 \"The name is Shaw. M Shaw", -- [21]
+							"/7 Oops, you're now commander of SI:7", -- [22]
+							"/7 Ya, it's super useful", -- [23]
+							"/7 Also", -- [24]
+							"/7 Adding it to all the chats", -- [25]
+							"/7 is the greatest", -- [26]
+							"/7 Hey bud", -- [27]
+							"/7 :)", -- [28]
+							"/7 303 ilevel", -- [29]
+							"/7 soooo close.....", -- [30]
+							"/s inv?", -- [31]
+							"/s pels :)", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1695,7 +1695,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -1703,7 +1703,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
@@ -1713,7 +1713,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
