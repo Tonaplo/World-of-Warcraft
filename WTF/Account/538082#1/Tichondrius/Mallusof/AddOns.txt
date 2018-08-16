@@ -94,5 +94,7 @@ XLoot_Group: enabled
 XLoot_Master: enabled
 XLoot_Monitor: enabled
 ParagonReputation: enabled
-Azeroth Auto Pilot: enabled
+Azeroth Auto Pilot: disabled
 SexyMap: enabled
+Blizzard_CompactRaidFrames: enabled
+Blizzard_CUFProfiles: enabled
