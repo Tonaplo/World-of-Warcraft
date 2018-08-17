@@ -387,3 +387,17 @@ do
 		hooksecurefunc('TalkingHead_LoadUI', HookTalkingHead)
 	end
 end
+
+
+-- Azerite Empowered Item UI
+do
+	local loaded = false
+	local function ignoreAzeriteItemUI()
+		if not loaded and IsAddOnLoaded('Blizzard_AzeriteUI') then
+			loaded = true
+			L.ToggleIgnoreFrame(AzeriteEmpoweredItemUI, true)
+		end
+	end
+	hooksecurefunc('OpenAzeriteEmpoweredItemUIFromItemLocation', ignoreAzeriteItemUI)
+	hooksecurefunc('OpenAzeriteEmpoweredItemUIFromLink', ignoreAzeriteItemUI)
+end

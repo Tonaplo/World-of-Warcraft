@@ -1,4 +1,11 @@
 ------------------------------------------------------------------------
+r828 | michaelspain | 2018-08-15 18:36:29 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/Options/GridUtils.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua
+
+Fixed Grid2Options crash when game client is in windowed mode.
+------------------------------------------------------------------------
 r827 | michaelspain | 2018-08-13 13:25:42 +0000 (Mon, 13 Aug 2018) | 2 lines
 Changed paths:
    M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua

@@ -1,4 +1,84 @@
 ------------------------------------------------------------------------
+r887 | chaoslux | 2018-08-15 21:49:57 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/LUI.lua
+
+- Fix for rare cases where LUI cannot get your current resolution.
+------------------------------------------------------------------------
+r886 | chaoslux | 2018-08-15 18:02:38 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/LUI.toc
+
+- Bumped to version 3.21
+------------------------------------------------------------------------
+r885 | chaoslux | 2018-08-15 18:01:18 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+Exp Bar: Renamed "Artifact XP" to "Azerite XP"
+------------------------------------------------------------------------
+r884 | chaoslux | 2018-08-15 17:18:47 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/modules/minimap.lua
+
+- Minimap: Fix for Garrison Show/Hide on charaqcters without any sort of garrisons.
+------------------------------------------------------------------------
+r883 | chaoslux | 2018-08-15 06:05:15 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/unitframes/plugins/oUF_RaidDebuffs.lua
+
+- RaidFrames: Partial revert of previous revision. 
+------------------------------------------------------------------------
+r882 | chaoslux | 2018-08-15 05:04:34 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/unitframes/plugins/oUF_RaidDebuffs.lua
+
+- RaidFrames: Update what can be dispelled by every class, adding monk.
+------------------------------------------------------------------------
+r881 | chaoslux | 2018-08-15 04:58:28 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/unitframes/plugins/oUF_RaidDebuffs.lua
+
+- RaidFrames: Potential fix for raid frames on healers.
+------------------------------------------------------------------------
+r880 | chaoslux | 2018-08-15 04:18:21 +0000 (Wed, 15 Aug 2018) | 2 lines
+Changed paths:
+   M /trunk/modules/minimap.lua
+
+- Minimap: Special Handling for the Alliance/Horde garrison symbol being far too big.
+- Minimap: Fix for Garrison button reappearing if you turned it off.
+------------------------------------------------------------------------
+r879 | chaoslux | 2018-08-14 23:43:23 +0000 (Tue, 14 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+- Artifact: Fixed inaccurate bar values.
+------------------------------------------------------------------------
+r878 | chaoslux | 2018-08-14 21:18:01 +0000 (Tue, 14 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/modules/minimap.lua
+
+- Minimap: Added button to disable Mission Report (Garrison, Class Hall, ...)
+------------------------------------------------------------------------
+r877 | chaoslux | 2018-08-14 20:15:02 +0000 (Tue, 14 Aug 2018) | 2 lines
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+- Threat: Renamed it to Threat/Exp in options. Revolutionary.
+- Threat: Added Heart of Azeroth tracking.
+------------------------------------------------------------------------
+r876 | chaoslux | 2018-08-13 22:32:22 +0000 (Mon, 13 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/modules/minimap.lua
+
+- Minimap: Added another sanity check, just in case.
+------------------------------------------------------------------------
+r875 | chaoslux | 2018-08-13 22:23:15 +0000 (Mon, 13 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+- Fix for BfA experience bar.
+------------------------------------------------------------------------
 r874 | chaoslux | 2018-07-31 00:56:58 +0000 (Tue, 31 Jul 2018) | 1 line
 Changed paths:
    M /trunk/LUI.lua

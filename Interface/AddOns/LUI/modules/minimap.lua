@@ -284,15 +284,17 @@ function module:SetMinimap()
 	QueueStatusMinimapButtonBorder:Hide()
 
 	-- Move Garrison icon
-	GarrisonLandingPageMinimapButton:ClearAllPoints();
-	GarrisonLandingPageMinimapButton:SetSize(32,32);
-	GarrisonLandingPageMinimapButton:SetPoint(db.Minimap.Icon.Mail, Minimap, LUI:Scale(3), LUI:Scale(12))
+	GarrisonLandingPageMinimapButton:ClearAllPoints()
+	GarrisonLandingPageMinimapButton:SetPoint(db.Minimap.Icon.Mail, Minimap, LUI:Scale(3), LUI:Scale(15))
+	module:SecureHook("GarrisonLandingPageMinimapButton_UpdateIcon", function()
+		GarrisonLandingPageMinimapButton:SetSize(32,32)
+	end)
 
 	MiniMapMailFrame:HookScript("OnShow", function()
-		GarrisonLandingPageMinimapButton:SetPoint("BOTTOMLEFT", MiniMapMailFrame, "TOPLEFT", 0, LUI:Scale(-4))
+		GarrisonLandingPageMinimapButton:SetPoint("BOTTOMLEFT", MiniMapMailFrame, "TOPLEFT", 0, LUI:Scale(-5))
 	end)
 	MiniMapMailFrame:HookScript("OnHide", function()
-		GarrisonLandingPageMinimapButton:SetPoint(db.Minimap.Icon.Mail, Minimap, LUI:Scale(3), LUI:Scale(12))
+		GarrisonLandingPageMinimapButton:SetPoint(db.Minimap.Icon.Mail, Minimap, LUI:Scale(3), LUI:Scale(15))
 	end)
 
 	-- Move GM Ticket Status icon
@@ -483,23 +485,20 @@ function module:SetMinimap()
 
 	m_coord:SetScript("OnUpdate", function()
 		local uiMap = C_Map.GetBestMapForUnit("player")
-		local position = C_Map.GetPlayerMapPosition(uiMap, "player")
-		if position then
-			local x, y = position:GetXY()
-			if x and y then
-				x = math.floor(100 * x)
-				y = math.floor(100 * y)
-				m_coord_text:SetFormattedText("%.2d, %.2d", x, y)
-				--LUI:Print("valid Coords:", m_coord_text:GetText())
-			else
-				m_coord_text:SetText("")
-				--LUI:Print("Nil X or Y", x, y)
+		if uiMap then 
+			local position = C_Map.GetPlayerMapPosition(uiMap, "player")
+			if position then
+				local x, y = position:GetXY()
+				if x and y then
+					x = math.floor(100 * x)
+					y = math.floor(100 * y)
+					m_coord_text:SetFormattedText("%.2d, %.2d", x, y)
+					--LUI:Print("valid Coords:", m_coord_text:GetText())
+					return
+				end
 			end
-		else
-			--LUI:Print("Position is nil", position)
-			m_coord_text:SetText("")
 		end
-		
+		m_coord_text:SetText("")
 	end)
 
 	m_zone:SetScript("OnUpdate", function()
@@ -542,7 +541,6 @@ function module:SetMinimap()
 	end)
 	Minimap:SetScript('OnDragStart', function() if(db.Minimap.General.Position.UnLocked) then Minimap:StartMoving() end end)
 	MinimapCluster:EnableMouse(false)
-
 end
 
 function module:GetMinimapPosition()
@@ -552,8 +550,20 @@ function module:GetMinimapPosition()
 	db.Minimap.General.Position.Point = point
 	db.Minimap.General.Position.X = xOfs
 	db.Minimap.General.Position.Y = yOfs
-
 end
+
+local emptyFunc = function() return end
+function module:ToggleMissionReport()
+	if C_Garrison.GetLandingPageGarrisonType() == 0 then return end
+	if db.Minimap.General.MissionReport then
+		GarrisonLandingPageMinimapButton.Show = nil
+		GarrisonLandingPageMinimapButton:Show()
+	else
+		GarrisonLandingPageMinimapButton.Show = emptyFunc
+		GarrisonLandingPageMinimapButton:Hide()
+	end
+end
+
 local defaults = {
 	Minimap = {
 		Enable = true,
@@ -570,6 +580,7 @@ local defaults = {
 			ShowTextures = true,
 			ShowBorder = true,
 			ShowCoord = true,
+			MissionReport = true,
 		},
 		Font = {
 			Font = "vibroceb",
@@ -695,7 +706,7 @@ function module:LoadOptions()
 									width = "full",
 									get = function() return db.Minimap.General.ShowCoord end,
 									set = function(_)
-										db.Minimap.General.ShowCoord= not db.Minimap.General.ShowCoord
+										db.Minimap.General.ShowCoord = not db.Minimap.General.ShowCoord
 										m_coord:Hide()
 										if db.Minimap.General.AlwaysShowText then
 											if db.Minimap.General.ShowCoord then
@@ -704,6 +715,19 @@ function module:LoadOptions()
 										end
 									end,
 									order = 4,
+								},
+								MissionReport = {
+									name = "Show Mission Report Button",
+									desc = "Whether or not the Mission Report in the corner of the minimap.\n\n The button will be in a 'dead' corner of the minimap in which Blizzard will never spawn icons or other information.",
+									disabled = function() return not db.Minimap.Enable end,
+									type = "toggle",
+									width = "full",
+									get = function() return db.Minimap.General.MissionReport end,
+									set = function(_)
+										db.Minimap.General.MissionReport = not db.Minimap.General.MissionReport
+										module:ToggleMissionReport()
+									end,
+									order = 4.5,
 								},
 								header1 = {
 									name = "Position",
@@ -1331,4 +1355,5 @@ function module:OnEnable()
 	end
 	self:SetMinimap()
 	self:SetAdditionalFrames()
+	C_Timer.After(0.1, self.ToggleMissionReport)
 end
