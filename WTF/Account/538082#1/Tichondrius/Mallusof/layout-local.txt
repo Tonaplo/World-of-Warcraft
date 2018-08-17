@@ -34,10 +34,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: WeakAurasOptions
+Frame: AllTheThings-Window-Tradeskills
 FrameLevel: 1
-Anchor: RIGHT
-X: -193
-Y: -4
-W: 935
-H: 452
+Anchor: TOP
+X: -146
+Y: -116
+W: 300
+H: 496
