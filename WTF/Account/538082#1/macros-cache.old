@@ -1,5 +1,6 @@
 VER 3 000000000000003E "AAP_MACRO" "INV_MISC_QUESTIONMARK"
-/script print('no button yet')
+#showtooltip
+/click ExtraActionButton1
 END
 VER 3 0000000000000030 "Balance of Powe" "876916"
 /run local p="BoP" for i=1,9 do RunScript(GetMacroBody(p..i)) end
