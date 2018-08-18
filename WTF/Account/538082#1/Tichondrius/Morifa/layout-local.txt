@@ -1,11 +1,4 @@
 Version: 1
-Frame: AAP_PartyListFrame1
-FrameLevel: 1
-Anchor: CENTER
-X: -196
-Y: 276
-W: 1
-H: 1
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

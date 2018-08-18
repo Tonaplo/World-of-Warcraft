@@ -47,7 +47,7 @@ Anchor: CENTER
 X: -6
 Y: 96
 W: 450
-H: 320
+H: 360
 Frame: DetailsPlayerDetailsWindow
 FrameLevel: 1
 Anchor: CENTER

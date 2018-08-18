@@ -1,35 +1,10 @@
-lightweight tag 2401b06ffd644080ecf3cfc782f3cfbe88ba79fa v201808140600
+lightweight tag bcfb7f1d090880adbd52b6769cd0ac2ce010b5ad v201808170653
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Tue Aug 14 08:55:35 2018 +0000
+Date:	Fri Aug 17 08:34:19 2018 +0000
 
-commit 2401b06ffd644080ecf3cfc782f3cfbe88ba79fa
+commit bcfb7f1d090880adbd52b6769cd0ac2ce010b5ad
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Aug 14 08:55:35 2018 +0000
+Date:   Fri Aug 17 08:34:19 2018 +0000
 
     [Raider.IO] Database Refresh
-
-commit 77d51ee17f44f12583aae56e0f0dd8dac8bcc4d4
-Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
-Date:   Mon Aug 13 23:08:03 2018 +0200
-
-    Switch back to legion (#62)
-
-commit 96816e09003bd6ae369d2f3fa673a9354b53d526
-Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
-Date:   Mon Aug 13 22:49:08 2018 +0200
-
-    Feature/bfa launch (#61)
-    
-    * BfA is coming ...
-    
-    - The data is reset to be at 0 in any case
-    - Display a legion score, which is the best score across legion (rounded to the tenth)
-    
-    * Disable average player score
-    
-    * Reindent
-    
-    * Add new dungeon
-    
-    * Switch to BATTLE_FOR_AZEROTH :tada
 

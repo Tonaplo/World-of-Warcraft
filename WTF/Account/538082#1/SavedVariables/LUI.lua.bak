@@ -151,17 +151,17 @@ LUIDB = {
 							["Morifa"] = 1384217305,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 365281884,
-							["Farahn"] = 195363957,
-							["Greybone"] = 978409908,
+							["Miriyal"] = 372968048,
+							["Farahn"] = 207174970,
+							["Greybone"] = 987100358,
 							["Amranar"] = 599676423,
 							["Granjior"] = 1186116499,
-							["Kaldorath"] = 1270053364,
+							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 673026685,
+							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
 							["Fimwack"] = 1625871926,
 							["Praerend"] = 1500267344,
@@ -181,12 +181,12 @@ LUIDB = {
 							["Alura"] = 3644837,
 							["Lorvol"] = 1057540,
 							["Kindhoof"] = 1198250606,
-							["Morifa"] = 1395026636,
+							["Morifa"] = 1396339366,
 						},
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 5048125872,
+							["Mallusof"] = 1502674035,
 						},
 					},
 				},
@@ -654,6 +654,11 @@ LUIDB = {
 								["Texture"] = "Otravi",
 							},
 							["ClassIcons"] = {
+								["Y"] = 90,
+								["X"] = 375,
+								["Lock"] = false,
+								["Width"] = 200,
+								["Texture"] = "oUF LUI",
 							},
 							["AltPower"] = {
 								["Enable"] = true,
@@ -908,38 +913,38 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i hey guys?", -- [1]
-							" Was giant, 10 pounds, 12 ounces :P", -- [2]
-							" Hey bud!", -- [3]
-							"/rchars", -- [4]
+							"/rchars", -- [1]
+							" Hey bud!", -- [2]
+							"/i hey guys?", -- [3]
+							" Hey bud!", -- [4]
 							"/i hey guys?", -- [5]
-							" Hey bud!", -- [6]
-							"/i hey guys?", -- [7]
-							"/rchars", -- [8]
-							"/i hey guys?", -- [9]
-							" Was giant, 10 pounds, 12 ounces :P", -- [10]
-							" Hey bud!", -- [11]
+							"/rchars", -- [6]
+							" Hey bud!", -- [7]
+							"/i hey guys?", -- [8]
+							" Hey bud!", -- [9]
+							"/i hey guys?", -- [10]
+							"/rchars", -- [11]
 							"/i hey guys?", -- [12]
 							"/rchars", -- [13]
-							" Was giant, 10 pounds, 12 ounces :P", -- [14]
+							" Hey bud!", -- [14]
 							"/i hey guys?", -- [15]
-							" Was giant, 10 pounds, 12 ounces :P", -- [16]
-							" Hey bud!", -- [17]
+							" Hey bud!", -- [16]
+							"/i hey guys?", -- [17]
 							"/rchars", -- [18]
-							"/i hey guys?", -- [19]
-							" Hey bud!", -- [20]
-							"/i hey guys?", -- [21]
-							"/rchars", -- [22]
-							" Was giant, 10 pounds, 12 ounces :P", -- [23]
+							" Hey bud!", -- [19]
+							"/i hey guys?", -- [20]
+							" Hey bud!", -- [21]
+							"/i hey guys?", -- [22]
+							"/rchars", -- [23]
 							"/i hey guys?", -- [24]
-							" Was giant, 10 pounds, 12 ounces :P", -- [25]
+							"/rchars", -- [25]
 							" Hey bud!", -- [26]
 							"/i hey guys?", -- [27]
-							"/rchars", -- [28]
+							" Hey bud!", -- [28]
 							"/i hey guys?", -- [29]
-							" Hey bud!", -- [30]
-							"/rchars", -- [31]
-							" Hey bud!", -- [32]
+							"/rchars", -- [30]
+							"/i hey guys?", -- [31]
+							"/rchars", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/focus", -- [1]
@@ -1017,38 +1022,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g Champions Contact", -- [1]
-							"/cw Coaxed-Tichondrius Just send all you have for that price :)", -- [2]
+							"/g cya", -- [1]
+							"/g thanks though :)", -- [2]
 							"/s raid group", -- [3]
-							"/g that will get you new flight poiints in Zandalar", -- [4]
-							"/cw Coaxed-Tichondrius Just send all of them :)", -- [5]
-							" sup?", -- [6]
-							" mostly doing WQs", -- [7]
-							" for rep", -- [8]
-							" yeah, That pushed me to 12 k on Heroic", -- [9]
-							" same lol", -- [10]
-							" logging on horde", -- [11]
-							"/g but now it's AMAZING for Solo", -- [12]
-							"/i I've heard rumour of this place", -- [13]
-							"/g Champions Contact", -- [14]
-							"/s raid group", -- [15]
-							"/cw Coaxed-Tichondrius Just send all of them :)", -- [16]
-							" mostly doing WQs", -- [17]
-							" yeah, That pushed me to 12 k on Heroic", -- [18]
-							" logging on horde", -- [19]
-							"/i I've heard rumour of this place", -- [20]
-							"/s raid group", -- [21]
-							" mostly doing WQs", -- [22]
-							" logging on horde", -- [23]
-							"/s raid group", -- [24]
-							" logging on horde", -- [25]
-							"/cw Lima-Tichondrius Gratz on finding my pants! :)", -- [26]
-							"/g ghz", -- [27]
-							"/2 Buying a ton of Herbs, pst", -- [28]
-							"/cw Waterwings haha, not that kind of Herb my friend :P", -- [29]
-							"/g The guild, yes", -- [30]
-							"/g I surely, truly do not miss him. Good luck to him in his endeavours", -- [31]
-							"/g now", -- [32]
+							"/2 Bearback, after you've done it once, you can skip it on alts. You have to do it once though. :)", -- [4]
+							"/cw Bearbåck-Tichondrius oh", -- [5]
+							"/cw Bearbåck-Tichondrius They are different though", -- [6]
+							"/2 dont think so", -- [7]
+							"/g I also only have 1 mythic complete :P", -- [8]
+							"/g holy shit", -- [9]
+							"/g I gtg", -- [10]
+							"/cw Lima-Tichondrius Gratz on finding my pants! :)", -- [11]
+							"/cw Bearbåck-Tichondrius so if you did Horde, you have to do Alliance :)", -- [12]
+							"/g same as before", -- [13]
+							"/g I have 1 Quest in Nazmir", -- [14]
+							"/cw Bearbåck-Tichondrius I'm not sure what his name is.", -- [15]
+							"/p the rare", -- [16]
+							"/2 WTB|cffffffff|Hitem:152509::::::::120:258::::::|h[Siren's Pollen]|h|rx325, |cff1eff00|Hitem:152510::::::::120:258::::::|h[Anchor Weed]|h|rx100 and |cffffffff|Hitem:152507::::::::120:258::::::|h[Akunda's Bite]|h|rx92 PST", -- [17]
+							"/g thanks though :)", -- [18]
+							"/2 Bearback, after you've done it once, you can skip it on alts. You have to do it once though. :)", -- [19]
+							"/cw Bearbåck-Tichondrius They are different though", -- [20]
+							"/g I also only have 1 mythic complete :P", -- [21]
+							"/g I gtg", -- [22]
+							"/cw Bearbåck-Tichondrius so if you did Horde, you have to do Alliance :)", -- [23]
+							"/g I have 1 Quest in Nazmir", -- [24]
+							"/p the rare", -- [25]
+							"/g thanks though :)", -- [26]
+							"/cw Bearbåck-Tichondrius They are different though", -- [27]
+							"/g I gtg", -- [28]
+							"/g I have 1 Quest in Nazmir", -- [29]
+							"/g thanks though :)", -- [30]
+							"/g I gtg", -- [31]
+							"/g thanks though :)", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1085,38 +1090,38 @@ LUIDB = {
 							"/i ok", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/s well done :)", -- [1]
-							"/i ty indeed :)", -- [2]
-							"/s lol @ Heals leaving", -- [3]
+							"/s lol @ Heals leaving", -- [1]
+							"/s well done :)", -- [2]
+							"/i ty indeed :)", -- [3]
 							"/i thanks :)", -- [4]
-							"/s well done :)", -- [5]
-							"/s lol @ Heals leaving", -- [6]
-							"/s well done :)", -- [7]
-							"/i ty indeed :)", -- [8]
-							"/s well done :)", -- [9]
-							"/i ty indeed :)", -- [10]
-							"/s lol @ Heals leaving", -- [11]
-							"/s well done :)", -- [12]
+							"/s lol @ Heals leaving", -- [5]
+							"/i ty indeed :)", -- [6]
+							"/s lol @ Heals leaving", -- [7]
+							"/s well done :)", -- [8]
+							"/s lol @ Heals leaving", -- [9]
+							"/s well done :)", -- [10]
+							"/i ty indeed :)", -- [11]
+							"/s lol @ Heals leaving", -- [12]
 							"/i thanks :)", -- [13]
-							"/i ty indeed :)", -- [14]
-							"/s well done :)", -- [15]
-							"/i ty indeed :)", -- [16]
-							"/s lol @ Heals leaving", -- [17]
+							"/s well done :)", -- [14]
+							"/s lol @ Heals leaving", -- [15]
+							"/s well done :)", -- [16]
+							"/i ty indeed :)", -- [17]
 							"/i thanks :)", -- [18]
-							"/s well done :)", -- [19]
-							"/s lol @ Heals leaving", -- [20]
-							"/s well done :)", -- [21]
-							"/i ty indeed :)", -- [22]
-							"/s lol @ Heals leaving", -- [23]
+							"/s lol @ Heals leaving", -- [19]
+							"/i ty indeed :)", -- [20]
+							"/s lol @ Heals leaving", -- [21]
+							"/s well done :)", -- [22]
+							"/i ty indeed :)", -- [23]
 							"/i thanks :)", -- [24]
-							"/s well done :)", -- [25]
-							"/s lol @ Heals leaving", -- [26]
-							"/s well done :)", -- [27]
-							"/i ty indeed :)", -- [28]
+							"/s lol @ Heals leaving", -- [25]
+							"/i ty indeed :)", -- [26]
+							"/s lol @ Heals leaving", -- [27]
+							"/s well done :)", -- [28]
 							"/i thanks :)", -- [29]
-							"/s lol @ Heals leaving", -- [30]
-							"/i ty indeed :)", -- [31]
-							"/s lol @ Heals leaving", -- [32]
+							"/i ty indeed :)", -- [30]
+							"/s well done :)", -- [31]
+							"/i ty indeed :)", -- [32]
 						},
 					},
 				},

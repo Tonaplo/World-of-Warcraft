@@ -1,67 +1,6 @@
 
 AllTheThingsPCD = {
-	["ItemFilters"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
-		true, -- [4]
-		false, -- [5]
-		false, -- [6]
-		false, -- [7]
-		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		nil, -- [11]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		true, -- [20]
-		false, -- [21]
-		false, -- [22]
-		true, -- [23]
-		false, -- [24]
-		false, -- [25]
-		false, -- [26]
-		true, -- [27]
-		true, -- [28]
-		false, -- [29]
-		nil, -- [30]
-		false, -- [31]
-		false, -- [32]
-		false, -- [33]
-		false, -- [34]
-		true, -- [35]
-		true, -- [36]
-		[0] = true,
-		[58] = true,
-		[101] = true,
-		[103] = true,
-		[105] = true,
-		[107] = true,
-		[109] = true,
-		[111] = true,
-		[113] = true,
-		[57] = true,
-		[56] = true,
-		[55] = true,
-		[106] = true,
-		[53] = true,
-		[52] = true,
-		[51] = true,
-		[50] = true,
-		[100] = true,
-		[102] = true,
-		[104] = true,
-		[54] = true,
-		[108] = true,
-		[110] = true,
-		[112] = true,
-		[200] = true,
+	["Saves"] = {
 	},
 	["MapID"] = 1188,
 	["FlightPaths"] = {
@@ -101,20 +40,81 @@ AllTheThingsPCD = {
 		[2088] = 1,
 		[2104] = 1,
 		[2057] = 1,
-		[2120] = 1,
-		[2084] = 1,
+		[2083] = 1,
+		[2277] = 1,
 		[2033] = 1,
 		[2089] = 1,
 		[2097] = 1,
 		[2105] = 1,
-		[2119] = 1,
-		[2137] = 1,
-		[2035] = 1,
-		[2074] = 1,
 		[2037] = 1,
-		[2277] = 1,
-		[2083] = 1,
+		[2074] = 1,
+		[2035] = 1,
+		[2137] = 1,
+		[2119] = 1,
+		[2084] = 1,
+		[2120] = 1,
 	},
-	["Saves"] = {
+	["ItemFilters"] = {
+		true, -- [1]
+		true, -- [2]
+		true, -- [3]
+		true, -- [4]
+		false, -- [5]
+		false, -- [6]
+		false, -- [7]
+		false, -- [8]
+		true, -- [9]
+		true, -- [10]
+		nil, -- [11]
+		nil, -- [12]
+		nil, -- [13]
+		nil, -- [14]
+		nil, -- [15]
+		nil, -- [16]
+		nil, -- [17]
+		nil, -- [18]
+		nil, -- [19]
+		true, -- [20]
+		false, -- [21]
+		false, -- [22]
+		true, -- [23]
+		false, -- [24]
+		false, -- [25]
+		false, -- [26]
+		true, -- [27]
+		true, -- [28]
+		false, -- [29]
+		nil, -- [30]
+		false, -- [31]
+		false, -- [32]
+		false, -- [33]
+		false, -- [34]
+		true, -- [35]
+		true, -- [36]
+		[0] = true,
+		[102] = true,
+		[101] = true,
+		[103] = true,
+		[105] = true,
+		[107] = true,
+		[109] = true,
+		[111] = true,
+		[113] = true,
+		[112] = true,
+		[110] = true,
+		[108] = true,
+		[54] = true,
+		[104] = true,
+		[200] = true,
+		[100] = true,
+		[50] = true,
+		[51] = true,
+		[52] = true,
+		[53] = true,
+		[106] = true,
+		[55] = true,
+		[56] = true,
+		[57] = true,
+		[58] = true,
 	},
 }

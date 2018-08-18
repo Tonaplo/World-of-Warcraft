@@ -89,18 +89,18 @@ LUIDB = {
 							["Kindhoof"] = 1186116499,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 365281884,
-							["Farahn"] = 195363957,
-							["Greybone"] = 978409908,
+							["Miriyal"] = 372968048,
+							["Farahn"] = 207174970,
+							["Greybone"] = 987100358,
 							["Amranar"] = 599676423,
 							["Granjior"] = 1186116499,
-							["Kaldorath"] = 1270053364,
+							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Fimwack"] = 1625871926,
 							["Mallusof"] = 1162234125,
 							["Morifa"] = 1385014335,
-							["Rahran"] = 673026685,
+							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
 							["Praerend"] = 1500267344,
 						},
@@ -111,11 +111,11 @@ LUIDB = {
 						["Horde"] = {
 							["Alura"] = 3644837,
 							["Lorvol"] = 1057540,
-							["Morifa"] = 1395026636,
+							["Morifa"] = 1396339366,
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1502601354,
+							["Mallusof"] = 1518717345,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -702,6 +702,11 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
+								["Y"] = 90,
+								["X"] = 375,
+								["Lock"] = false,
+								["Texture"] = "oUF LUI",
+								["Width"] = 200,
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -1301,38 +1306,38 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i hey guys?", -- [1]
-							" Was giant, 10 pounds, 12 ounces :P", -- [2]
-							" Hey bud!", -- [3]
-							"/rchars", -- [4]
+							"/rchars", -- [1]
+							" Hey bud!", -- [2]
+							"/i hey guys?", -- [3]
+							" Hey bud!", -- [4]
 							"/i hey guys?", -- [5]
-							" Hey bud!", -- [6]
-							"/i hey guys?", -- [7]
-							"/rchars", -- [8]
-							"/i hey guys?", -- [9]
-							" Was giant, 10 pounds, 12 ounces :P", -- [10]
-							" Hey bud!", -- [11]
+							"/rchars", -- [6]
+							" Hey bud!", -- [7]
+							"/i hey guys?", -- [8]
+							" Hey bud!", -- [9]
+							"/i hey guys?", -- [10]
+							"/rchars", -- [11]
 							"/i hey guys?", -- [12]
 							"/rchars", -- [13]
-							" Was giant, 10 pounds, 12 ounces :P", -- [14]
+							" Hey bud!", -- [14]
 							"/i hey guys?", -- [15]
-							" Was giant, 10 pounds, 12 ounces :P", -- [16]
-							" Hey bud!", -- [17]
+							" Hey bud!", -- [16]
+							"/i hey guys?", -- [17]
 							"/rchars", -- [18]
-							"/i hey guys?", -- [19]
-							" Hey bud!", -- [20]
-							"/i hey guys?", -- [21]
-							"/rchars", -- [22]
-							" Was giant, 10 pounds, 12 ounces :P", -- [23]
+							" Hey bud!", -- [19]
+							"/i hey guys?", -- [20]
+							" Hey bud!", -- [21]
+							"/i hey guys?", -- [22]
+							"/rchars", -- [23]
 							"/i hey guys?", -- [24]
-							" Was giant, 10 pounds, 12 ounces :P", -- [25]
+							"/rchars", -- [25]
 							" Hey bud!", -- [26]
 							"/i hey guys?", -- [27]
-							"/rchars", -- [28]
+							" Hey bud!", -- [28]
 							"/i hey guys?", -- [29]
-							" Hey bud!", -- [30]
-							"/rchars", -- [31]
-							" Hey bud!", -- [32]
+							"/rchars", -- [30]
+							"/i hey guys?", -- [31]
+							"/rchars", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/focus", -- [1]
@@ -1369,38 +1374,38 @@ LUIDB = {
 							" hahaha", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/s well done :)", -- [1]
-							"/i ty indeed :)", -- [2]
-							"/s lol @ Heals leaving", -- [3]
+							"/s lol @ Heals leaving", -- [1]
+							"/s well done :)", -- [2]
+							"/i ty indeed :)", -- [3]
 							"/i thanks :)", -- [4]
-							"/s well done :)", -- [5]
-							"/s lol @ Heals leaving", -- [6]
-							"/s well done :)", -- [7]
-							"/i ty indeed :)", -- [8]
-							"/s well done :)", -- [9]
-							"/i ty indeed :)", -- [10]
-							"/s lol @ Heals leaving", -- [11]
-							"/s well done :)", -- [12]
+							"/s lol @ Heals leaving", -- [5]
+							"/i ty indeed :)", -- [6]
+							"/s lol @ Heals leaving", -- [7]
+							"/s well done :)", -- [8]
+							"/s lol @ Heals leaving", -- [9]
+							"/s well done :)", -- [10]
+							"/i ty indeed :)", -- [11]
+							"/s lol @ Heals leaving", -- [12]
 							"/i thanks :)", -- [13]
-							"/i ty indeed :)", -- [14]
-							"/s well done :)", -- [15]
-							"/i ty indeed :)", -- [16]
-							"/s lol @ Heals leaving", -- [17]
+							"/s well done :)", -- [14]
+							"/s lol @ Heals leaving", -- [15]
+							"/s well done :)", -- [16]
+							"/i ty indeed :)", -- [17]
 							"/i thanks :)", -- [18]
-							"/s well done :)", -- [19]
-							"/s lol @ Heals leaving", -- [20]
-							"/s well done :)", -- [21]
-							"/i ty indeed :)", -- [22]
-							"/s lol @ Heals leaving", -- [23]
+							"/s lol @ Heals leaving", -- [19]
+							"/i ty indeed :)", -- [20]
+							"/s lol @ Heals leaving", -- [21]
+							"/s well done :)", -- [22]
+							"/i ty indeed :)", -- [23]
 							"/i thanks :)", -- [24]
-							"/s well done :)", -- [25]
-							"/s lol @ Heals leaving", -- [26]
-							"/s well done :)", -- [27]
-							"/i ty indeed :)", -- [28]
+							"/s lol @ Heals leaving", -- [25]
+							"/i ty indeed :)", -- [26]
+							"/s lol @ Heals leaving", -- [27]
+							"/s well done :)", -- [28]
 							"/i thanks :)", -- [29]
-							"/s lol @ Heals leaving", -- [30]
-							"/i ty indeed :)", -- [31]
-							"/s lol @ Heals leaving", -- [32]
+							"/i ty indeed :)", -- [30]
+							"/s well done :)", -- [31]
+							"/i ty indeed :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
 							" Send that guild invite; )", -- [1]
@@ -1410,38 +1415,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/s raid group", -- [1]
-							" logging on horde", -- [2]
-							"/cw Lima-Tichondrius Gratz on finding my pants! :)", -- [3]
-							"/s raid group", -- [4]
-							"/cw Lima-Tichondrius Gratz on finding my pants! :)", -- [5]
-							"/2 Bearback, after you've done it once, you can skip it on alts. You have to do it once though. :)", -- [6]
-							"/2 When you talk to the NPC to begin it, it should show you an option to skip instead :)", -- [7]
-							"/cw Bearbåck-Tichondrius I'm not sure what his name is.", -- [8]
-							"/cw Bearbåck-Tichondrius But it's the guy you talk to when you start the scenario", -- [9]
-							"/cw Bearbåck-Tichondrius oh", -- [10]
-							"/cw Bearbåck-Tichondrius But you have to do it once PER FACTION", -- [11]
-							"/cw Bearbåck-Tichondrius so if you did Horde, you have to do Alliance :)", -- [12]
-							"/cw Bearbåck-Tichondrius lawl", -- [13]
-							"/cw Bearbåck-Tichondrius They are different though", -- [14]
-							"/cw Bearbåck-Tichondrius You dont like it?", -- [15]
-							"/2 WTB|cffffffff|Hitem:152509::::::::120:258::::::|h[Siren's Pollen]|h|rx325, |cff1eff00|Hitem:152510::::::::120:258::::::|h[Anchor Weed]|h|rx100 and |cffffffff|Hitem:152507::::::::120:258::::::|h[Akunda's Bite]|h|rx92 PST", -- [16]
-							"/macro", -- [17]
-							"/2 dont think so", -- [18]
-							"/2 WTB |cff1eff00|Hitem:152510::::::::120:258::::::|h[Anchor Weed]|h|r and |cffffffff|Hitem:152507::::::::120:258::::::|h[Akunda's Bite]|h|r PST", -- [19]
-							"/g same as before", -- [20]
-							"/g 312 equipped 314 unequipped", -- [21]
-							"/g I also only have 1 mythic complete :P", -- [22]
-							"/g but gz", -- [23]
-							"/p the rare", -- [24]
-							"/g 7.5 k what?", -- [25]
-							"/g holy shit", -- [26]
-							"/g I'm at 4 k", -- [27]
-							"/g I have 1 Quest in Nazmir", -- [28]
-							"/g but not now", -- [29]
-							"/g I gtg", -- [30]
-							"/g thanks though :)", -- [31]
-							"/g cya", -- [32]
+							"/p sorry", -- [1]
+							"/p my bad", -- [2]
+							"/p oh", -- [3]
+							"/p wq", -- [4]
+							"/p mana", -- [5]
+							"/p Ok", -- [6]
+							"/p kill adds?", -- [7]
+							"/p Ok", -- [8]
+							"/p I understand how that works now :P", -- [9]
+							"/p ty indeed!", -- [10]
+							"/p have a good one!", -- [11]
+							"/g thanks", -- [12]
+							"/g Also got |cffffd000|Henchant:276976|h[Kul Tiran Alchemy: Mystical Cauldron]|h|r", -- [13]
+							"/g so that was awesome", -- [14]
+							"/g What is \"questions I dont know the answer to\"", -- [15]
+							" sure which dungeon?", -- [16]
+							" a boss should always drop loot to someone", -- [17]
+							" sounds like bug?", -- [18]
+							" <I think you should", -- [19]
+							" Not sure though", -- [20]
+							" please do", -- [21]
+							" which dungeon?", -- [22]
+							"/g Ok, I'll finish that up now", -- [23]
+							"/g How long is the questline?", -- [24]
+							"/g gz", -- [25]
+							" loot?", -- [26]
+							" Either buig", -- [27]
+							" or EXCTREMELY unlucky", -- [28]
+							" I'm mostly thinking the latter", -- [29]
+							"/g dat addon", -- [30]
+							"/g gz", -- [31]
+							"/g thanks :)", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]

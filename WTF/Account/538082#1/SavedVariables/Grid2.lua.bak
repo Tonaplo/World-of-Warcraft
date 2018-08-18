@@ -116,15 +116,15 @@ Grid2DB = {
 					"Non-Healer", -- [3]
 					["enabled"] = true,
 				},
-				["Miriyal - Proudmoore"] = {
-					"Non-Healer", -- [1]
-					"Healer", -- [2]
-					"Non-Healer", -- [3]
-					["enabled"] = true,
-				},
 				["Korugen - Proudmoore"] = {
 					"Healer", -- [1]
 					"Non-Healer", -- [2]
+					"Non-Healer", -- [3]
+					["enabled"] = true,
+				},
+				["Miriyal - Proudmoore"] = {
+					"Non-Healer", -- [1]
+					"Healer", -- [2]
 					"Non-Healer", -- [3]
 					["enabled"] = true,
 				},
