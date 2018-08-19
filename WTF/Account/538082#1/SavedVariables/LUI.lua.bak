@@ -129,9 +129,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
+							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 1520932876,
+							["Mallusof"] = 1522183422,
 						},
 					},
 				},
@@ -195,21 +195,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -237,9 +230,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -1023,37 +1023,37 @@ LUIDB = {
 						},
 						["Alliance - Tichondrius"] = {
 							"/cw Coaxed-Tichondrius I'm good ty", -- [1]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [2]
-							" <I think you should", -- [3]
-							"/p mana", -- [4]
-							"/p I understand how that works now :P", -- [5]
-							"/g The thing is", -- [6]
-							" <I think you should", -- [7]
-							"/p I understand how that works now :P", -- [8]
-							" <I think you should", -- [9]
-							" Holy fucking shit i cant get anything done", -- [10]
-							" Worst time ever to have a baby", -- [11]
-							" I dont think you got it", -- [12]
-							"/g Yes", -- [13]
-							"/g and Mythics", -- [14]
-							"/g but I cant", -- [15]
-							"/g You have 2 guesses", -- [16]
-							"/g 300", -- [17]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [18]
-							"/p mana", -- [19]
-							"/g The thing is", -- [20]
-							"/p I understand how that works now :P", -- [21]
-							" Holy fucking shit i cant get anything done", -- [22]
-							" I dont think you got it", -- [23]
-							"/g and Mythics", -- [24]
-							"/g You have 2 guesses", -- [25]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [26]
-							"/g The thing is", -- [27]
-							" Holy fucking shit i cant get anything done", -- [28]
-							"/g and Mythics", -- [29]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [30]
-							" Holy fucking shit i cant get anything done", -- [31]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [32]
+							"/s ty :)", -- [2]
+							" Holy fucking shit i cant get anything done", -- [3]
+							"/s ty :)", -- [4]
+							"/g The effect of telling your healer that s usually that you dont get the heals", -- [5]
+							"/s ty", -- [6]
+							"/g The effect of telling your healer that s usually that you dont get the heals", -- [7]
+							" Holy fucking shit i cant get anything done", -- [8]
+							"/g and Mythics", -- [9]
+							"/cw Coaxed-Tichondrius I'm good ty", -- [10]
+							"/g Honored with Champions!", -- [11]
+							"/g The effect of telling your healer that s usually that you dont get the heals", -- [12]
+							"/s ty :)", -- [13]
+							"/g awesome", -- [14]
+							" Holy fucking shit i cant get anything done", -- [15]
+							"/cw Coaxed-Tichondrius I'm good ty", -- [16]
+							"/s ty :)", -- [17]
+							" Holy fucking shit i cant get anything done", -- [18]
+							"/s ty :)", -- [19]
+							"/g The effect of telling your healer that s usually that you dont get the heals", -- [20]
+							" Holy fucking shit i cant get anything done", -- [21]
+							"/cw Coaxed-Tichondrius I'm good ty", -- [22]
+							"/g The effect of telling your healer that s usually that you dont get the heals", -- [23]
+							"/g awesome", -- [24]
+							"/cw Coaxed-Tichondrius I'm good ty", -- [25]
+							" Holy fucking shit i cant get anything done", -- [26]
+							"/g The effect of telling your healer that s usually that you dont get the heals", -- [27]
+							"/cw Coaxed-Tichondrius I'm good ty", -- [28]
+							"/g awesome", -- [29]
+							" Holy fucking shit i cant get anything done", -- [30]
+							"/cw Coaxed-Tichondrius I'm good ty", -- [31]
+							" Holy fucking shit i cant get anything done", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1696,7 +1696,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -1704,7 +1704,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
@@ -1714,7 +1714,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",

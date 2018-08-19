@@ -67,9 +67,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1521044656,
+							["Mallusof"] = 1517064864,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -195,14 +195,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -230,16 +236,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1415,38 +1415,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							" Holy fucking shit i cant get anything done", -- [1]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [2]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [3]
-							" <I think you should", -- [4]
-							"/p I understand how that works now :P", -- [5]
-							" <I think you should", -- [6]
-							" Holy fucking shit i cant get anything done", -- [7]
-							" I dont think you got it", -- [8]
-							"/g and Mythics", -- [9]
-							"/g You have 2 guesses", -- [10]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [11]
-							"/g The thing is", -- [12]
-							" Holy fucking shit i cant get anything done", -- [13]
-							"/g and Mythics", -- [14]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [15]
-							" Holy fucking shit i cant get anything done", -- [16]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [17]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [18]
-							"/p I understand how that works now :P", -- [19]
-							" Holy fucking shit i cant get anything done", -- [20]
-							"/g and Mythics", -- [21]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [22]
-							" Holy fucking shit i cant get anything done", -- [23]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [24]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [25]
-							" Holy fucking shit i cant get anything done", -- [26]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [27]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [28]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [29]
-							"/g Honored with Champions!", -- [30]
-							"/g awesome", -- [31]
-							"/g Hey, you get to do Mythics", -- [32]
+							"/p wow", -- [1]
+							"/p ww", -- [2]
+							"/p LOL", -- [3]
+							"/p shit", -- [4]
+							"/p yeah", -- [5]
+							"/p bye", -- [6]
+							"/p hahaha", -- [7]
+							"/p the brigde", -- [8]
+							"/p the bridge", -- [9]
+							"/p shout", -- [10]
+							"/p How was that only", -- [11]
+							"/p 7.7 k", -- [12]
+							"/p y", -- [13]
+							"/p felt like mre", -- [14]
+							"/p see that was 12", -- [15]
+							"/p lol", -- [16]
+							"/p shout", -- [17]
+							"/p lol", -- [18]
+							"/p kill adds", -- [19]
+							"/p kite fire shit", -- [20]
+							"/p dodge sea things", -- [21]
+							"/p ya", -- [22]
+							"/p lol", -- [23]
+							"/p Imma clean the WQs", -- [24]
+							"/p on KT and Zul", -- [25]
+							"/p and then bed", -- [26]
+							"/p thanks for these", -- [27]
+							"/p same", -- [28]
+							"/g cheers", -- [29]
+							"/g gz", -- [30]
+							"/THANK", -- [31]
+							"/BOW", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -2214,7 +2214,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -2222,7 +2222,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
@@ -2232,7 +2232,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
