@@ -160,10 +160,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 1522183422,
+							["Mallusof"] = 1504865909,
 						},
 					},
 				},
@@ -843,8 +843,8 @@ LUIDB = {
 						["BGTexture"] = "PlaterBackground",
 						["Color"] = "Individual",
 						["IndividualColor"] = {
-							["g"] = 0.666666666666667,
-							["r"] = 0,
+							["b"] = 0,
+							["g"] = 0.847058823529412,
 						},
 						["BGMultiplier"] = 0,
 					},
@@ -1022,38 +1022,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Coaxed-Tichondrius I'm good ty", -- [1]
-							"/s ty :)", -- [2]
-							" Holy fucking shit i cant get anything done", -- [3]
-							"/s ty :)", -- [4]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [5]
-							"/s ty", -- [6]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [7]
-							" Holy fucking shit i cant get anything done", -- [8]
-							"/g and Mythics", -- [9]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [10]
-							"/g Honored with Champions!", -- [11]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [12]
-							"/s ty :)", -- [13]
-							"/g awesome", -- [14]
-							" Holy fucking shit i cant get anything done", -- [15]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [16]
-							"/s ty :)", -- [17]
-							" Holy fucking shit i cant get anything done", -- [18]
-							"/s ty :)", -- [19]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [20]
-							" Holy fucking shit i cant get anything done", -- [21]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [22]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [23]
-							"/g awesome", -- [24]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [25]
-							" Holy fucking shit i cant get anything done", -- [26]
-							"/g The effect of telling your healer that s usually that you dont get the heals", -- [27]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [28]
-							"/g awesome", -- [29]
-							" Holy fucking shit i cant get anything done", -- [30]
-							"/cw Coaxed-Tichondrius I'm good ty", -- [31]
-							" Holy fucking shit i cant get anything done", -- [32]
+							"/cw Kalithumos-Tichondrius And I'm revered almost with the 3 factions", -- [1]
+							"/cw Kalithumos-Tichondrius damn", -- [2]
+							" what realm?", -- [3]
+							"/g 323here", -- [4]
+							"/cw Kalithumos-Tichondrius but thanks", -- [5]
+							"/cw Kalithumos-Tichondrius yeah indeed", -- [6]
+							"/cw Kalithumos-Tichondrius damn", -- [7]
+							"/g 323here", -- [8]
+							"/cw Kalithumos-Tichondrius yeah indeed", -- [9]
+							"/g 323here", -- [10]
+							" Oh that other message was written ages ago :P", -- [11]
+							" Did you do Siege?", -- [12]
+							" oh", -- [13]
+							" what happened?", -- [14]
+							" Yeah, with Michael and Brian the other day", -- [15]
+							" at lunch", -- [16]
+							" when you had a meeting", -- [17]
+							" You got 7.5k honored?", -- [18]
+							" ince", -- [19]
+							" me too", -- [20]
+							" I just want to clean out some more WQs", -- [21]
+							" still missing Tol Dagor and MOTHERLODE as well", -- [22]
+							" And Tol Dagor?", -- [23]
+							" Ahh", -- [24]
+							" makes sense", -- [25]
+							" are you ina group?", -- [26]
+							" wanna test Voice again?", -- [27]
+							" ok :)", -- [28]
+							" 326'", -- [29]
+							" WQs still doing me good", -- [30]
+							" although", -- [31]
+							" |cff0070dd|Hitem:158122::::::::120:258::26:3:4803:1512:4781:::|h[Spirit Bog Scepter]|h|r|cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1148,15 +1148,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1164,6 +1161,9 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 						["Animation"] = "None",
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1291,19 +1291,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1315,11 +1315,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1454,13 +1454,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1472,17 +1466,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1749,11 +1749,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kaldorath - Proudmoore"] = {
@@ -1841,9 +1841,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1958,9 +1958,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2055,11 +2055,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -2072,9 +2072,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2106,9 +2106,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,

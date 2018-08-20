@@ -115,13 +115,13 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Kindhoof - Tichondrius",
 			["spec3_profileKey"] = "Kindhoof - Tichondrius",
 		},
-		["Deminath - Proudmoore"] = {
-			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["spec2_profileKey"] = "Deminath - Proudmoore",
+		["Granjior - Proudmoore"] = {
+			["spec1_profileKey"] = "Paladin - Holy",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Deminath - Proudmoore",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
@@ -164,13 +164,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Priest - Shadow",
 			["specswap"] = true,
 		},
-		["Granjior - Proudmoore"] = {
-			["spec1_profileKey"] = "Paladin - Holy",
-			["specswap"] = true,
+		["Deminath - Proudmoore"] = {
+			["spec1_profileKey"] = "Deminath - Proudmoore",
+			["spec2_profileKey"] = "Deminath - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Deminath - Proudmoore",
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -711,23 +711,14 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["spell"] = "Binding Heal",
-					["key"] = "1",
+					["spell"] = "Dispel Magic",
+					["key"] = "BUTTON2",
 					["sets"] = {
-						["friend"] = true,
+						["enemy"] = true,
 					},
-					["icon"] = 135883,
+					["icon"] = 136066,
 					["type"] = "spell",
 				}, -- [2]
-				{
-					["spell"] = "Heal",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135913,
-					["type"] = "spell",
-				}, -- [3]
 				{
 					["spell"] = "Mass Dispel",
 					["key"] = "SHIFT-BUTTON2",
@@ -736,16 +727,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135739,
 					["type"] = "spell",
-				}, -- [4]
-				{
-					["spell"] = "Purify",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135894,
-					["type"] = "spell",
-				}, -- [5]
+				}, -- [3]
 				{
 					["spell"] = "Flash Heal",
 					["key"] = "3",
@@ -754,34 +736,34 @@ CliqueDB3 = {
 					},
 					["icon"] = 135907,
 					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Binding Heal",
+					["key"] = "1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135883,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Heal",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135913,
+					["type"] = "spell",
 				}, -- [6]
 				{
-					["spell"] = "Dispel Magic",
+					["spell"] = "Purify",
 					["key"] = "BUTTON2",
 					["sets"] = {
-						["enemy"] = true,
+						["friend"] = true,
 					},
-					["icon"] = 136066,
+					["icon"] = 135894,
 					["type"] = "spell",
 				}, -- [7]
-				{
-					["spell"] = "Light of T'uure",
-					["key"] = "2",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 1295540,
-					["type"] = "spell",
-				}, -- [8]
-				{
-					["spell"] = "Holy Word: Serenity",
-					["key"] = "F",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135937,
-					["type"] = "spell",
-				}, -- [9]
 				{
 					["spell"] = "Prayer of Healing",
 					["key"] = "Q",
@@ -790,25 +772,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135943,
 					["type"] = "spell",
-				}, -- [10]
-				{
-					["spell"] = "Guardian Spirit",
-					["key"] = "SHIFT-T",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 237542,
-					["type"] = "spell",
-				}, -- [11]
-				{
-					["spell"] = "Leap of Faith",
-					["key"] = "T",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 463835,
-					["type"] = "spell",
-				}, -- [12]
+				}, -- [8]
 				{
 					["spell"] = "Prayer of Mending",
 					["key"] = "SHIFT-2",
@@ -817,7 +781,34 @@ CliqueDB3 = {
 					},
 					["icon"] = 135944,
 					["type"] = "spell",
-				}, -- [13]
+				}, -- [9]
+				{
+					["spell"] = "Leap of Faith",
+					["key"] = "T",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 463835,
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Holy Word: Serenity",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135937,
+					["type"] = "spell",
+				}, -- [11]
+				{
+					["spell"] = "Guardian Spirit",
+					["key"] = "SHIFT-T",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 237542,
+					["type"] = "spell",
+				}, -- [12]
 				{
 					["spell"] = "Renew",
 					["key"] = "SHIFT-1",
@@ -826,7 +817,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135953,
 					["type"] = "spell",
-				}, -- [14]
+				}, -- [13]
 			},
 		},
 		["Zearthan - Proudmoore"] = {
@@ -908,21 +899,13 @@ CliqueDB3 = {
 		["Priest - Disc"] = {
 			["bindings"] = {
 				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-						["ooc"] = true,
-					},
-				}, -- [1]
-				{
 					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
-				}, -- [2]
+				}, -- [1]
 				{
 					["spell"] = "Pain Suppression",
 					["key"] = "SHIFT-T",
@@ -931,7 +914,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135936,
 					["type"] = "spell",
-				}, -- [3]
+				}, -- [2]
 				{
 					["spell"] = "Shadow Mend",
 					["key"] = "3",
@@ -940,7 +923,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136202,
 					["type"] = "spell",
-				}, -- [4]
+				}, -- [3]
 				{
 					["spell"] = "Power Word: Radiance",
 					["key"] = "Q",
@@ -949,7 +932,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 1386546,
 					["type"] = "spell",
-				}, -- [5]
+				}, -- [4]
 				{
 					["spell"] = "Power Word: Shield",
 					["key"] = "F",
@@ -958,7 +941,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135940,
 					["type"] = "spell",
-				}, -- [6]
+				}, -- [5]
 				{
 					["spell"] = "Purify",
 					["key"] = "BUTTON2",
@@ -967,7 +950,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135894,
 					["type"] = "spell",
-				}, -- [7]
+				}, -- [6]
 				{
 					["spell"] = "Penance",
 					["key"] = "SHIFT-F",
@@ -976,7 +959,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 237545,
 					["type"] = "spell",
-				}, -- [8]
+				}, -- [7]
 				{
 					["spell"] = "Mass Dispel",
 					["key"] = "SHIFT-BUTTON2",
@@ -985,7 +968,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135739,
 					["type"] = "spell",
-				}, -- [9]
+				}, -- [8]
 			},
 		},
 		["Deminath - Proudmoore"] = {
