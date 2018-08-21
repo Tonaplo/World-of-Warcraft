@@ -18,7 +18,7 @@ OneRing_Config = {
 				["Base"] = "SHIFT-G",
 				["Mounts"] = "SHIFT-H",
 			},
-			["ShowRecharge"] = true,
+			["UseDefaultBindings"] = false,
 			["ShowCooldowns"] = true,
 			["CenterAction"] = true,
 			["RingOptions"] = {
@@ -27,7 +27,7 @@ OneRing_Config = {
 				["Macros#NoClose"] = false,
 			},
 			["NoClose"] = true,
-			["UseDefaultBindings"] = false,
+			["ShowRecharge"] = true,
 		},
 		["All"] = {
 			["ClickActivation"] = true,
@@ -36,7 +36,7 @@ OneRing_Config = {
 				["Base"] = "SHIFT-G",
 				["Mounts"] = "SHIFT-H",
 			},
-			["UseDefaultBindings"] = false,
+			["ShowRecharge"] = true,
 			["NoClose"] = true,
 			["CenterAction"] = true,
 			["RingOptions"] = {
@@ -45,7 +45,7 @@ OneRing_Config = {
 				["Macros#NoClose"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["ShowRecharge"] = true,
+			["UseDefaultBindings"] = false,
 		},
 	},
 	["PersistentStorage"] = {
@@ -275,45 +275,6 @@ OneRing_Config = {
 				["name"] = "Mounts",
 				["save"] = true,
 			},
-			["onsumables"] = {
-				{
-					"item", -- [1]
-					140587, -- [2]
-					["sliceToken"] = "ABuepjqUmtZ",
-				}, -- [1]
-				{
-					["sliceToken"] = "ABuepjqUmt0",
-					["icon"] = 1339449,
-					["id"] = "/click ORLOpen Base",
-				}, -- [2]
-				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuepjv9NWu",
-				}, -- [3]
-				{
-					"item", -- [1]
-					153023, -- [2]
-					["sliceToken"] = "ABueaAYKAle",
-				}, -- [4]
-				{
-					"item", -- [1]
-					133576, -- [2]
-					["sliceToken"] = "ABue38FW89e",
-				}, -- [5]
-				{
-					"item", -- [1]
-					154882, -- [2]
-					["sliceToken"] = "ABue3/uXtc1",
-				}, -- [6]
-				{
-					"item", -- [1]
-					154888, -- [2]
-					["sliceToken"] = "ABue3/uXtcr",
-				}, -- [7]
-				["name"] = "Consumables",
-				["save"] = true,
-			},
 			["WorldMarkers"] = {
 				{
 					"worldmark", -- [1]
@@ -362,9 +323,190 @@ OneRing_Config = {
 					["c"] = "ccd8e5",
 				}, -- [9]
 				["name"] = "World Markers",
-				["save"] = true,
-				["hotkey"] = "[group] ALT-Y",
 				["internal"] = true,
+				["hotkey"] = "[group] ALT-Y",
+				["save"] = true,
+			},
+			["onsumables"] = {
+				{
+					"item", -- [1]
+					140587, -- [2]
+					["sliceToken"] = "ABuepjqUmtZ",
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuepjqUmt0",
+					["icon"] = 1339449,
+					["id"] = "/click ORLOpen Base",
+				}, -- [2]
+				{
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuepjv9NWu",
+				}, -- [3]
+				{
+					"item", -- [1]
+					153023, -- [2]
+					["sliceToken"] = "ABueaAYKAle",
+				}, -- [4]
+				{
+					"item", -- [1]
+					133576, -- [2]
+					["sliceToken"] = "ABue38FW89e",
+				}, -- [5]
+				{
+					"item", -- [1]
+					154882, -- [2]
+					["sliceToken"] = "ABue3/uXtc1",
+				}, -- [6]
+				{
+					"item", -- [1]
+					154888, -- [2]
+					["sliceToken"] = "ABue3/uXtcr",
+				}, -- [7]
+				["name"] = "Consumables",
+				["save"] = true,
+			},
+			["Macros"] = {
+				{
+					"macro", -- [1]
+					"WeakAuras", -- [2]
+					["sliceToken"] = "ABuep4Bpwxe4",
+				}, -- [1]
+				{
+					"macro", -- [1]
+					"Tich", -- [2]
+					["sliceToken"] = "ABuep4Bpwxeh",
+				}, -- [2]
+				{
+					"macro", -- [1]
+					"reload ui", -- [2]
+					["sliceToken"] = "ABuep4Bpwxeg",
+				}, -- [3]
+				{
+					"macro", -- [1]
+					"Opie", -- [2]
+					["sliceToken"] = "ABuep4Bpwxef",
+				}, -- [4]
+				{
+					"macro", -- [1]
+					"focus", -- [2]
+					["sliceToken"] = "ABuep4Bpwxeo",
+				}, -- [5]
+				{
+					["sliceToken"] = "ABuep4Bpwxe2",
+					["caption"] = "Back",
+					["id"] = "/click ORLOpen Base",
+					["icon"] = 1339449,
+				}, -- [6]
+				{
+					["sliceToken"] = "ABuepR6IT1u",
+					["caption"] = "Exorsus Raid Tools",
+					["id"] = "/rt",
+					["icon"] = 136106,
+				}, -- [7]
+				{
+					"macro", -- [1]
+					"Clique", -- [2]
+					["sliceToken"] = "ABue3cIAn1e",
+				}, -- [8]
+				{
+					"macro", -- [1]
+					"grid2", -- [2]
+					["sliceToken"] = "ABue3vGAs0e",
+				}, -- [9]
+				["name"] = "Macros",
+				["save"] = true,
+			},
+			["RaidSymbols"] = {
+				{
+					"raidmark", -- [1]
+					1, -- [2]
+					["sliceToken"] = "OPCRSy",
+				}, -- [1]
+				{
+					"raidmark", -- [1]
+					2, -- [2]
+					["sliceToken"] = "OPCRSo",
+				}, -- [2]
+				{
+					"raidmark", -- [1]
+					3, -- [2]
+					["sliceToken"] = "OPCRSp",
+				}, -- [3]
+				{
+					"raidmark", -- [1]
+					4, -- [2]
+					["sliceToken"] = "OPCRSg",
+				}, -- [4]
+				{
+					"raidmark", -- [1]
+					5, -- [2]
+					["sliceToken"] = "OPCRSs",
+				}, -- [5]
+				{
+					"raidmark", -- [1]
+					6, -- [2]
+					["sliceToken"] = "OPCRSb",
+				}, -- [6]
+				{
+					"raidmark", -- [1]
+					7, -- [2]
+					["sliceToken"] = "OPCRSr",
+				}, -- [7]
+				{
+					"raidmark", -- [1]
+					8, -- [2]
+					["sliceToken"] = "OPCRSw",
+				}, -- [8]
+				{
+					"raidmark", -- [1]
+					0, -- [2]
+					["sliceToken"] = "OPCRSc",
+				}, -- [9]
+				["name"] = "Target Markers",
+				["internal"] = true,
+				["hotkey"] = "ALT-R",
+				["save"] = true,
+			},
+			["Base"] = {
+				{
+					["sliceToken"] = "ABuep4Bpwxd",
+					["caption"] = "Travel",
+					["id"] = "/click ORLOpen SpecMenu",
+					["icon"] = 134414,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuep4BpwxS",
+					["caption"] = "Trade Skills",
+					["id"] = "/click ORLOpen CommonTrades",
+					["icon"] = 134707,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuep4Bpwxeb",
+					["caption"] = "Macros",
+					["id"] = "/click ORLOpen Macros",
+					["icon"] = 1505928,
+				}, -- [3]
+				{
+					["sliceToken"] = "ABuepjqUmtV",
+					["caption"] = "Consumables",
+					["id"] = "/click ORLOpen onsumables",
+					["icon"] = 134055,
+				}, -- [4]
+				{
+					["sliceToken"] = "ABuepjqUmtwq",
+					["caption"] = "Class Abilities",
+					["id"] = "/click ORLOpen tAbilities",
+					["icon"] = 132147,
+				}, -- [5]
+				{
+					["sliceToken"] = "ABuep5oDlq5",
+					["icon"] = 1385152,
+					["id"] = "/click ORLOpen Pots",
+				}, -- [6]
+				["name"] = "Base",
+				["save"] = true,
+				["hotkey"] = "SHIFT-G",
 			},
 			["tAbilities"] = {
 				{
@@ -500,148 +642,6 @@ OneRing_Config = {
 					["sliceToken"] = "ABue3Hxl4re",
 				}, -- [32]
 				["name"] = "Abilities",
-				["save"] = true,
-			},
-			["RaidSymbols"] = {
-				{
-					"raidmark", -- [1]
-					1, -- [2]
-					["sliceToken"] = "OPCRSy",
-				}, -- [1]
-				{
-					"raidmark", -- [1]
-					2, -- [2]
-					["sliceToken"] = "OPCRSo",
-				}, -- [2]
-				{
-					"raidmark", -- [1]
-					3, -- [2]
-					["sliceToken"] = "OPCRSp",
-				}, -- [3]
-				{
-					"raidmark", -- [1]
-					4, -- [2]
-					["sliceToken"] = "OPCRSg",
-				}, -- [4]
-				{
-					"raidmark", -- [1]
-					5, -- [2]
-					["sliceToken"] = "OPCRSs",
-				}, -- [5]
-				{
-					"raidmark", -- [1]
-					6, -- [2]
-					["sliceToken"] = "OPCRSb",
-				}, -- [6]
-				{
-					"raidmark", -- [1]
-					7, -- [2]
-					["sliceToken"] = "OPCRSr",
-				}, -- [7]
-				{
-					"raidmark", -- [1]
-					8, -- [2]
-					["sliceToken"] = "OPCRSw",
-				}, -- [8]
-				{
-					"raidmark", -- [1]
-					0, -- [2]
-					["sliceToken"] = "OPCRSc",
-				}, -- [9]
-				["name"] = "Target Markers",
-				["save"] = true,
-				["hotkey"] = "ALT-R",
-				["internal"] = true,
-			},
-			["Base"] = {
-				{
-					["sliceToken"] = "ABuep4Bpwxd",
-					["caption"] = "Travel",
-					["id"] = "/click ORLOpen SpecMenu",
-					["icon"] = 134414,
-				}, -- [1]
-				{
-					["sliceToken"] = "ABuep4BpwxS",
-					["caption"] = "Trade Skills",
-					["id"] = "/click ORLOpen CommonTrades",
-					["icon"] = 134707,
-				}, -- [2]
-				{
-					["sliceToken"] = "ABuep4Bpwxeb",
-					["caption"] = "Macros",
-					["id"] = "/click ORLOpen Macros",
-					["icon"] = 1505928,
-				}, -- [3]
-				{
-					["sliceToken"] = "ABuepjqUmtV",
-					["caption"] = "Consumables",
-					["id"] = "/click ORLOpen onsumables",
-					["icon"] = 134055,
-				}, -- [4]
-				{
-					["sliceToken"] = "ABuepjqUmtwq",
-					["caption"] = "Class Abilities",
-					["id"] = "/click ORLOpen tAbilities",
-					["icon"] = 132147,
-				}, -- [5]
-				{
-					["sliceToken"] = "ABuep5oDlq5",
-					["icon"] = 1385152,
-					["id"] = "/click ORLOpen Pots",
-				}, -- [6]
-				["name"] = "Base",
-				["save"] = true,
-				["hotkey"] = "SHIFT-G",
-			},
-			["Macros"] = {
-				{
-					"macro", -- [1]
-					"WeakAuras", -- [2]
-					["sliceToken"] = "ABuep4Bpwxe4",
-				}, -- [1]
-				{
-					"macro", -- [1]
-					"Tich", -- [2]
-					["sliceToken"] = "ABuep4Bpwxeh",
-				}, -- [2]
-				{
-					"macro", -- [1]
-					"reload ui", -- [2]
-					["sliceToken"] = "ABuep4Bpwxeg",
-				}, -- [3]
-				{
-					"macro", -- [1]
-					"Opie", -- [2]
-					["sliceToken"] = "ABuep4Bpwxef",
-				}, -- [4]
-				{
-					"macro", -- [1]
-					"focus", -- [2]
-					["sliceToken"] = "ABuep4Bpwxeo",
-				}, -- [5]
-				{
-					["sliceToken"] = "ABuep4Bpwxe2",
-					["caption"] = "Back",
-					["id"] = "/click ORLOpen Base",
-					["icon"] = 1339449,
-				}, -- [6]
-				{
-					["sliceToken"] = "ABuepR6IT1u",
-					["caption"] = "Exorsus Raid Tools",
-					["id"] = "/rt",
-					["icon"] = 136106,
-				}, -- [7]
-				{
-					"macro", -- [1]
-					"Clique", -- [2]
-					["sliceToken"] = "ABue3cIAn1e",
-				}, -- [8]
-				{
-					"macro", -- [1]
-					"grid2", -- [2]
-					["sliceToken"] = "ABue3vGAs0e",
-				}, -- [9]
-				["name"] = "Macros",
 				["save"] = true,
 			},
 		},

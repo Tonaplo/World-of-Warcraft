@@ -1,8 +1,12 @@
 # LittleWigs
 
-## [v8.0.9](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.9) (2018-08-18)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.8...v8.0.9)
+## [v8.0.10](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.10) (2018-08-18)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.9...v8.0.10)
 
-- TempleOfSethraliss/Merektha: added warnings for "A Knot of Snakes" (#319)  
-- update zhCN. (#318)  
-- Underrot/Abomination: fixed "Adds remaining" messages  
+- KingsRest: added a module for Dazar (#320)  
+- BfA/KingsRest: Start support for bosses  
+- WaycrestManor/Goliath: print Soul Thorns' target  
+- BfA/Underrot/Abomination: Slightly adjust Cleansing Light timers  
+- BfA/Underrot/Zancha: Add Heroic+ Abilities  
+- BfA/Underrot/Crawg: Add Heroic+ Abilities  
+- BfA/Underrot/Leaxa: Update Blood Mirror and Add Heroic+ Abilities  
