@@ -97,8 +97,8 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
-							["Mallusof"] = 1162234125,
 							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1513998907,
+							["Mallusof"] = 1260861701,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -702,11 +702,6 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
-								["Y"] = 90,
-								["X"] = 375,
-								["Lock"] = false,
-								["Texture"] = "oUF LUI",
-								["Width"] = 200,
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -921,12 +916,6 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 370,
@@ -934,11 +923,17 @@ LUIDB = {
 						["Height"] = 205,
 						["Animation"] = "None",
 					},
-					["Minimap"] = {
+					["MicroMenu"] = {
 						["IsShown"] = true,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1051,17 +1046,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
 					},
 					["raidborder"] = {
 						0.901960784313726, -- [1]
@@ -1069,13 +1058,19 @@ LUIDB = {
 						0.901960784313726, -- [3]
 						0.300000011920929, -- [4]
 					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1214,7 +1209,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1226,19 +1227,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1374,38 +1369,38 @@ LUIDB = {
 							" hahaha", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/s lol @ Heals leaving", -- [1]
-							"/s well done :)", -- [2]
-							"/i ty indeed :)", -- [3]
-							"/i thanks :)", -- [4]
-							"/s lol @ Heals leaving", -- [5]
-							"/i ty indeed :)", -- [6]
-							"/s lol @ Heals leaving", -- [7]
-							"/s well done :)", -- [8]
-							"/s lol @ Heals leaving", -- [9]
-							"/s well done :)", -- [10]
-							"/i ty indeed :)", -- [11]
-							"/s lol @ Heals leaving", -- [12]
-							"/i thanks :)", -- [13]
-							"/s well done :)", -- [14]
-							"/s lol @ Heals leaving", -- [15]
-							"/s well done :)", -- [16]
-							"/i ty indeed :)", -- [17]
+							"/p restarting wow", -- [1]
+							"/i thanks :)", -- [2]
+							"/s lol @ Heals leaving", -- [3]
+							"/p Is everyone in the correct mode?", -- [4]
+							"/p andy in on", -- [5]
+							"/p turn on", -- [6]
+							"/p try to join voice now", -- [7]
+							"/p Warmode On", -- [8]
+							"/p ok has everyone left?", -- [9]
+							"/p lets rejooni", -- [10]
+							"/p I cant hear you", -- [11]
+							"/p I saw no speakers or anything", -- [12]
+							"/p I was auto put into voice chat", -- [13]
+							"/p then couldnt hear you", -- [14]
+							"/p I am PTT", -- [15]
+							"/p yeah I'm in afucked state agaion", -- [16]
+							"/p nothing", -- [17]
 							"/i thanks :)", -- [18]
-							"/s lol @ Heals leaving", -- [19]
-							"/i ty indeed :)", -- [20]
-							"/s lol @ Heals leaving", -- [21]
-							"/s well done :)", -- [22]
-							"/i ty indeed :)", -- [23]
-							"/i thanks :)", -- [24]
-							"/s lol @ Heals leaving", -- [25]
-							"/i ty indeed :)", -- [26]
-							"/s lol @ Heals leaving", -- [27]
-							"/s well done :)", -- [28]
-							"/i thanks :)", -- [29]
-							"/i ty indeed :)", -- [30]
-							"/s well done :)", -- [31]
-							"/i ty indeed :)", -- [32]
+							"/p Is everyone in the correct mode?", -- [19]
+							"/p turn on", -- [20]
+							"/p Warmode On", -- [21]
+							"/p lets rejooni", -- [22]
+							"/p I saw no speakers or anything", -- [23]
+							"/p then couldnt hear you", -- [24]
+							"/p yeah I'm in afucked state agaion", -- [25]
+							"/i thanks :)", -- [26]
+							"/p turn on", -- [27]
+							"/p lets rejooni", -- [28]
+							"/p then couldnt hear you", -- [29]
+							"/i thanks :)", -- [30]
+							"/p lets rejooni", -- [31]
+							"/i thanks :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
 							" Send that guild invite; )", -- [1]
@@ -1415,38 +1410,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/p Table please", -- [1]
-							"/p thansk", -- [2]
-							"/p :)", -- [3]
-							"/p woop", -- [4]
-							"/p Kalis loot", -- [5]
-							"/p ...", -- [6]
-							"/p kali loot again", -- [7]
-							"/p my bad", -- [8]
-							"/p adasdasd", -- [9]
-							"/p I suck", -- [10]
-							"/p ress Kali", -- [11]
-							"/p no", -- [12]
-							"/p I stood in crap", -- [13]
-							"/p Arcane Int", -- [14]
-							"/p Kylo", -- [15]
-							"/p Kulo", -- [16]
-							"/p cast Arcane Int", -- [17]
-							"/p Arcane Intellect", -- [18]
-							"/p cast int", -- [19]
-							"/p it", -- [20]
-							"/p thanks", -- [21]
-							"/p fuck", -- [22]
-							"/p it's the jumo thing", -- [23]
-							"/p It stunds", -- [24]
-							"/p my bad", -- [25]
-							"/cw Kalithumos-Tichondrius Mechanics that tell you not to jum", -- [26]
-							"/cw Kalithumos-Tichondrius fuck that", -- [27]
-							"/cw Kalithumos-Tichondrius wow", -- [28]
-							"/p gz", -- [29]
-							"/p :(", -- [30]
-							"/p |cff0070dd|Hitem:158122::::::::120:256::26:3:4803:1512:4781:::|h[Spirit Bog Scepter]|h|r|cff1eff00|Hitem:160885::::::::120:256:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r", -- [31]
-							"/p chees guys", -- [32]
+							"/cw Summeroberts-Tichondrius price?", -- [1]
+							"/cw Summeroberts-Tichondrius alright then. Have a good day", -- [2]
+							"/g Weekly Islands quest gives you 2.5k AP", -- [3]
+							"/g 2500 AP", -- [4]
+							"/g You do not want to skip that", -- [5]
+							"/g and so good", -- [6]
+							"/i stick together", -- [7]
+							"/i should clear", -- [8]
+							"/i stick together", -- [9]
+							"/g 60", -- [10]
+							"/p Table please", -- [11]
+							"/g cause this grtoup sucks", -- [12]
+							"/i should clear", -- [13]
+							"/g 60", -- [14]
+							"/g cause this grtoup sucks", -- [15]
+							"/g 60", -- [16]
+							"/cw Spaceghostx price?", -- [17]
+							"/cw Spaceghostx-Tichondrius like 50 k?", -- [18]
+							"/cw Summeroberts-Tichondrius price?", -- [19]
+							"/g Weekly Islands quest gives you 2.5k AP", -- [20]
+							"/g You do not want to skip that", -- [21]
+							"/i stick together", -- [22]
+							"/g 60", -- [23]
+							"/g cause this grtoup sucks", -- [24]
+							"/g 60", -- [25]
+							"/cw Spaceghostx price?", -- [26]
+							"/cw Summeroberts-Tichondrius price?", -- [27]
+							"/g You do not want to skip that", -- [28]
+							"/g 60", -- [29]
+							"/cw Spaceghostx price?", -- [30]
+							"/g You do not want to skip that", -- [31]
+							"/cw Spaceghostx price?", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1763,9 +1758,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1811,11 +1806,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Zethan - Tichondrius"] = {
@@ -1845,11 +1840,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Kindhoof - Tichondrius"] = {
@@ -2016,9 +2011,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2037,11 +2032,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rentror - Bleeding Hollow"] = {
@@ -2071,11 +2066,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Gottagetlia - Aggramar"] = {

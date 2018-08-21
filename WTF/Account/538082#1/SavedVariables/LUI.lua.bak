@@ -160,10 +160,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 1504865909,
+							["Mallusof"] = 1260861701,
 						},
 					},
 				},
@@ -654,11 +654,6 @@ LUIDB = {
 								["Texture"] = "Otravi",
 							},
 							["ClassIcons"] = {
-								["Y"] = 90,
-								["X"] = 375,
-								["Lock"] = false,
-								["Width"] = 200,
-								["Texture"] = "oUF LUI",
 							},
 							["AltPower"] = {
 								["Enable"] = true,
@@ -843,8 +838,8 @@ LUIDB = {
 						["BGTexture"] = "PlaterBackground",
 						["Color"] = "Individual",
 						["IndividualColor"] = {
-							["b"] = 0,
 							["g"] = 0.847058823529412,
+							["b"] = 0,
 						},
 						["BGMultiplier"] = 0,
 					},
@@ -1022,38 +1017,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Kalithumos-Tichondrius And I'm revered almost with the 3 factions", -- [1]
-							"/cw Kalithumos-Tichondrius damn", -- [2]
-							" what realm?", -- [3]
-							"/g 323here", -- [4]
-							"/cw Kalithumos-Tichondrius but thanks", -- [5]
-							"/cw Kalithumos-Tichondrius yeah indeed", -- [6]
-							"/cw Kalithumos-Tichondrius damn", -- [7]
-							"/g 323here", -- [8]
-							"/cw Kalithumos-Tichondrius yeah indeed", -- [9]
-							"/g 323here", -- [10]
-							" Oh that other message was written ages ago :P", -- [11]
-							" Did you do Siege?", -- [12]
-							" oh", -- [13]
-							" what happened?", -- [14]
-							" Yeah, with Michael and Brian the other day", -- [15]
-							" at lunch", -- [16]
-							" when you had a meeting", -- [17]
-							" You got 7.5k honored?", -- [18]
-							" ince", -- [19]
-							" me too", -- [20]
-							" I just want to clean out some more WQs", -- [21]
-							" still missing Tol Dagor and MOTHERLODE as well", -- [22]
-							" And Tol Dagor?", -- [23]
-							" Ahh", -- [24]
-							" makes sense", -- [25]
-							" are you ina group?", -- [26]
-							" wanna test Voice again?", -- [27]
-							" ok :)", -- [28]
-							" 326'", -- [29]
-							" WQs still doing me good", -- [30]
-							" although", -- [31]
-							" |cff0070dd|Hitem:158122::::::::120:258::26:3:4803:1512:4781:::|h[Spirit Bog Scepter]|h|r|cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r", -- [32]
+							"/i stick together", -- [1]
+							"/p cast Arcane Int", -- [2]
+							"/i should clear", -- [3]
+							"/g cause this grtoup sucks", -- [4]
+							"/i stick together", -- [5]
+							"/i should clear", -- [6]
+							"/i stick together", -- [7]
+							"/g 60", -- [8]
+							"/g How so?", -- [9]
+							"/p Table please", -- [10]
+							"/i should clear", -- [11]
+							"/g cause this grtoup sucks", -- [12]
+							"/i stick together", -- [13]
+							"/i should clear", -- [14]
+							"/i stick together", -- [15]
+							"/g 60", -- [16]
+							"/p Table please", -- [17]
+							"/g cause this grtoup sucks", -- [18]
+							"/i should clear", -- [19]
+							"/g 60", -- [20]
+							"/g cause this grtoup sucks", -- [21]
+							"/g 60", -- [22]
+							"/cw Spaceghostx price?", -- [23]
+							"/cw Spaceghostx-Tichondrius too high for me, thanks :)", -- [24]
+							"/cw Spaceghostx-Tichondrius like 50 k?", -- [25]
+							"/cw Spaceghostx-Tichondrius no worries", -- [26]
+							"/cw Summeroberts-Tichondrius price?", -- [27]
+							"/cw Summeroberts-Tichondrius alright then. Have a good day", -- [28]
+							"/g Weekly Islands quest gives you 2.5k AP", -- [29]
+							"/g 2500 AP", -- [30]
+							"/g You do not want to skip that", -- [31]
+							"/g and so good", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1090,38 +1085,38 @@ LUIDB = {
 							"/i ok", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/s lol @ Heals leaving", -- [1]
-							"/s well done :)", -- [2]
-							"/i ty indeed :)", -- [3]
-							"/i thanks :)", -- [4]
-							"/s lol @ Heals leaving", -- [5]
-							"/i ty indeed :)", -- [6]
-							"/s lol @ Heals leaving", -- [7]
-							"/s well done :)", -- [8]
-							"/s lol @ Heals leaving", -- [9]
-							"/s well done :)", -- [10]
-							"/i ty indeed :)", -- [11]
-							"/s lol @ Heals leaving", -- [12]
-							"/i thanks :)", -- [13]
-							"/s well done :)", -- [14]
-							"/s lol @ Heals leaving", -- [15]
-							"/s well done :)", -- [16]
-							"/i ty indeed :)", -- [17]
+							"/p restarting wow", -- [1]
+							"/i thanks :)", -- [2]
+							"/s lol @ Heals leaving", -- [3]
+							"/p Is everyone in the correct mode?", -- [4]
+							"/p andy in on", -- [5]
+							"/p turn on", -- [6]
+							"/p try to join voice now", -- [7]
+							"/p Warmode On", -- [8]
+							"/p ok has everyone left?", -- [9]
+							"/p lets rejooni", -- [10]
+							"/p I cant hear you", -- [11]
+							"/p I saw no speakers or anything", -- [12]
+							"/p I was auto put into voice chat", -- [13]
+							"/p then couldnt hear you", -- [14]
+							"/p I am PTT", -- [15]
+							"/p yeah I'm in afucked state agaion", -- [16]
+							"/p nothing", -- [17]
 							"/i thanks :)", -- [18]
-							"/s lol @ Heals leaving", -- [19]
-							"/i ty indeed :)", -- [20]
-							"/s lol @ Heals leaving", -- [21]
-							"/s well done :)", -- [22]
-							"/i ty indeed :)", -- [23]
-							"/i thanks :)", -- [24]
-							"/s lol @ Heals leaving", -- [25]
-							"/i ty indeed :)", -- [26]
-							"/s lol @ Heals leaving", -- [27]
-							"/s well done :)", -- [28]
-							"/i thanks :)", -- [29]
-							"/i ty indeed :)", -- [30]
-							"/s well done :)", -- [31]
-							"/i ty indeed :)", -- [32]
+							"/p Is everyone in the correct mode?", -- [19]
+							"/p turn on", -- [20]
+							"/p Warmode On", -- [21]
+							"/p lets rejooni", -- [22]
+							"/p I saw no speakers or anything", -- [23]
+							"/p then couldnt hear you", -- [24]
+							"/p yeah I'm in afucked state agaion", -- [25]
+							"/i thanks :)", -- [26]
+							"/p turn on", -- [27]
+							"/p lets rejooni", -- [28]
+							"/p then couldnt hear you", -- [29]
+							"/i thanks :)", -- [30]
+							"/p lets rejooni", -- [31]
+							"/i thanks :)", -- [32]
 						},
 					},
 				},
@@ -1148,12 +1143,15 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
+					["Minimap"] = {
+						["IsShown"] = true,
+					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Minimap"] = {
-						["IsShown"] = true,
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1161,9 +1159,6 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 						["Animation"] = "None",
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1291,19 +1286,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1315,11 +1310,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1454,7 +1449,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1466,23 +1467,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1749,11 +1744,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Kaldorath - Proudmoore"] = {
@@ -1841,9 +1836,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1958,9 +1953,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2055,11 +2050,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -2072,9 +2067,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2106,9 +2101,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,

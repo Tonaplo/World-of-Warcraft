@@ -115,13 +115,13 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Kindhoof - Tichondrius",
 			["spec3_profileKey"] = "Kindhoof - Tichondrius",
 		},
-		["Granjior - Proudmoore"] = {
-			["spec1_profileKey"] = "Paladin - Holy",
-			["specswap"] = true,
+		["Deminath - Proudmoore"] = {
+			["spec1_profileKey"] = "Deminath - Proudmoore",
+			["spec2_profileKey"] = "Deminath - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Deminath - Proudmoore",
+			["specswap"] = false,
 		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
@@ -164,13 +164,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Priest - Shadow",
 			["specswap"] = true,
 		},
-		["Deminath - Proudmoore"] = {
-			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["spec2_profileKey"] = "Deminath - Proudmoore",
+		["Granjior - Proudmoore"] = {
+			["spec1_profileKey"] = "Paladin - Holy",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Deminath - Proudmoore",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 		},
 	},
 	["profileKeys"] = {
