@@ -97,8 +97,8 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
-							["Fimwack"] = 1625871926,
 							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1261095701,
+							["Mallusof"] = 1284184059,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -920,6 +920,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
+					["Tps"] = {
+						["Width"] = 600,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 370,
@@ -927,17 +933,11 @@ LUIDB = {
 						["Height"] = 205,
 						["Animation"] = "None",
 					},
-					["MicroMenu"] = {
+					["Minimap"] = {
 						["IsShown"] = true,
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
-						["IsShown"] = true,
-					},
-					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1050,17 +1050,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
 					},
 					["micromenu_btn_hover"] = {
 						0.9, -- [1]
@@ -1068,13 +1062,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1213,13 +1213,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1231,13 +1225,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1414,38 +1414,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g You do not want to skip that", -- [1]
-							"/cw Spaceghostx price?", -- [2]
-							"/cw Summeroberts-Tichondrius price?", -- [3]
-							"/g 60", -- [4]
-							"/g You do not want to skip that", -- [5]
-							"/cw Summeroberts-Tichondrius price?", -- [6]
-							"/g You do not want to skip that", -- [7]
-							"/cw Spaceghostx price?", -- [8]
-							"/g You do not want to skip that", -- [9]
-							"/cw Spaceghostx price?", -- [10]
-							"/cw Summeroberts-Tichondrius price?", -- [11]
-							"/g You do not want to skip that", -- [12]
-							"/g 60", -- [13]
-							"/cw Spaceghostx price?", -- [14]
-							"/g You do not want to skip that", -- [15]
-							"/cw Spaceghostx price?", -- [16]
-							"/cw Summeroberts-Tichondrius price?", -- [17]
-							"/g 60", -- [18]
-							"/g You do not want to skip that", -- [19]
-							"/cw Summeroberts-Tichondrius price?", -- [20]
-							"/g You do not want to skip that", -- [21]
-							"/cw Spaceghostx price?", -- [22]
-							"/cw Summeroberts-Tichondrius price?", -- [23]
-							"/g 60", -- [24]
-							"/g You do not want to skip that", -- [25]
-							"/cw Summeroberts-Tichondrius price?", -- [26]
-							"/g You do not want to skip that", -- [27]
-							"/cw Spaceghostx price?", -- [28]
-							"/g 60", -- [29]
-							"/cw Summeroberts-Tichondrius price?", -- [30]
-							"/cw Spaceghostx price?", -- [31]
-							"/cw Summeroberts-Tichondrius price?", -- [32]
+							"/g get a contract", -- [1]
+							"/g ahh right", -- [2]
+							"/p yeah, it slows down alot :P", -- [3]
+							"/p Alvzavm coming?", -- [4]
+							"/p Lia", -- [5]
+							"/p r", -- [6]
+							"/p very nice", -- [7]
+							"/p that's amazing", -- [8]
+							"/thank", -- [9]
+							"/p yeah, it slows down alot :P", -- [10]
+							"/p Lia", -- [11]
+							"/p very nice", -- [12]
+							"/thank", -- [13]
+							"/p Lia", -- [14]
+							"/thank", -- [15]
+							" yeah it's crazy :P", -- [16]
+							" wow", -- [17]
+							"/g ahh right", -- [18]
+							"/p Alvzavm coming?", -- [19]
+							"/p r", -- [20]
+							"/p that's amazing", -- [21]
+							"/p yeah, it slows down alot :P", -- [22]
+							"/p very nice", -- [23]
+							"/p Lia", -- [24]
+							" yeah it's crazy :P", -- [25]
+							"/g ahh right", -- [26]
+							"/p r", -- [27]
+							"/p yeah, it slows down alot :P", -- [28]
+							"/p Lia", -- [29]
+							"/g ahh right", -- [30]
+							"/p yeah, it slows down alot :P", -- [31]
+							"/g ahh right", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1762,9 +1762,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1810,11 +1810,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Zethan - Tichondrius"] = {
@@ -1844,11 +1844,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kindhoof - Tichondrius"] = {
@@ -2015,9 +2015,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2036,11 +2036,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Rentror - Bleeding Hollow"] = {
@@ -2070,11 +2070,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Gottagetlia - Aggramar"] = {
