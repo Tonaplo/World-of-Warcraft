@@ -65,13 +65,13 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec2_profileKey"] = "Rahran - Proudmoore",
 		},
-		["Granjior - Proudmoore"] = {
-			["spec1_profileKey"] = "Paladin - Holy",
-			["specswap"] = true,
+		["Deminath - Proudmoore"] = {
+			["spec1_profileKey"] = "Deminath - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Non-Healer",
-			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Deminath - Proudmoore",
+			["spec2_profileKey"] = "Deminath - Proudmoore",
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
@@ -81,13 +81,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Shaman - Resto",
 			["specswap"] = true,
 		},
-		["Deminath - Proudmoore"] = {
-			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["specswap"] = false,
+		["Granjior - Proudmoore"] = {
+			["spec1_profileKey"] = "Paladin - Holy",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Deminath - Proudmoore",
-			["spec2_profileKey"] = "Deminath - Proudmoore",
+			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Non-Healer",
 		},
 		["Mallusof - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
@@ -720,24 +720,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [2]
 				{
-					["spell"] = "Binding Heal",
-					["key"] = "1",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135883,
-					["type"] = "spell",
-				}, -- [3]
-				{
-					["spell"] = "Heal",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135913,
-					["type"] = "spell",
-				}, -- [4]
-				{
 					["spell"] = "Mass Dispel",
 					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
@@ -745,7 +727,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135739,
 					["type"] = "spell",
-				}, -- [5]
+				}, -- [3]
 				{
 					["spell"] = "Flash Heal",
 					["key"] = "3",
@@ -753,6 +735,24 @@ CliqueDB3 = {
 						["friend"] = true,
 					},
 					["icon"] = 135907,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Binding Heal",
+					["key"] = "1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135883,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Heal",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135913,
 					["type"] = "spell",
 				}, -- [6]
 				{
@@ -765,12 +765,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [7]
 				{
-					["spell"] = "Holy Word: Serenity",
-					["key"] = "F",
+					["spell"] = "Prayer of Healing",
+					["key"] = "Q",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 135937,
+					["icon"] = 135943,
 					["type"] = "spell",
 				}, -- [8]
 				{
@@ -783,30 +783,30 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [9]
 				{
-					["spell"] = "Guardian Spirit",
-					["key"] = "SHIFT-T",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 237542,
-					["type"] = "spell",
-				}, -- [10]
-				{
-					["spell"] = "Prayer of Healing",
-					["key"] = "Q",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135943,
-					["type"] = "spell",
-				}, -- [11]
-				{
 					["spell"] = "Leap of Faith",
 					["key"] = "T",
 					["sets"] = {
 						["friend"] = true,
 					},
 					["icon"] = 463835,
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Holy Word: Serenity",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135937,
+					["type"] = "spell",
+				}, -- [11]
+				{
+					["spell"] = "Guardian Spirit",
+					["key"] = "SHIFT-T",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 237542,
 					["type"] = "spell",
 				}, -- [12]
 				{
