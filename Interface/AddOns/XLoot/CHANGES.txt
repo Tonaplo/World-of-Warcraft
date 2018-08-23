@@ -1,12 +1,12 @@
-tag 88989b5e2bf199165b3073718c516b1c3bf38538 8.0-3
+tag 02e4575a218021a457cb3e8fab854fa937ee1d97 8.0-4
 Author:	Xuerian <xuerian@gmail.com>
-Date:	Wed Jul 18 21:48:22 2018 -0400
+Date:	Wed Aug 22 19:51:53 2018 -0400
 
-Frame: Probably fix Locked incorrectly being displayed
+Add loot padding options
 
-commit 981a7ae69d6b233707cc3136005f969876ce1153
+commit 97b3a414c76e1fbd7e1e8e5905f4c762c379bb8e
 Author: Xuerian <xuerian@gmail.com>
-Date:   Wed Jul 18 21:47:59 2018 -0400
+Date:   Wed Aug 22 19:51:33 2018 -0400
 
-    Frame: Probably fix Locked incorrectly being displayed
+    Add loot padding options
 
