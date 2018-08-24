@@ -129,9 +129,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 1283859343,
+							["Mallusof"] = 1284872848,
 						},
 					},
 				},
@@ -195,6 +195,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -205,10 +210,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -236,10 +237,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1021,38 +1021,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g truth", -- [1]
-							"/p thanks for directions!", -- [2]
-							"/s :)", -- [3]
-							"/g Also", -- [4]
-							"/g Artificial how?", -- [5]
-							"/g they are gonna talk about other things too", -- [6]
-							"/g but you know", -- [7]
-							"/g In that case", -- [8]
-							"/g I remember reading about it somewhere", -- [9]
-							"/g you're one of those guys", -- [10]
-							"/g Please provide reference from official blizard works", -- [11]
-							"/g also", -- [12]
-							"/g I'll provide plenty of references of Anduin being son of Variann", -- [13]
-							"/g 0 troll tolerance", -- [14]
-							"/g olvar just looked after Anduin", -- [15]
-							"/g ahh yeah", -- [16]
-							"/g rolf", -- [17]
-							"/p thanks for directions!", -- [18]
-							"/g Also", -- [19]
-							"/g they are gonna talk about other things too", -- [20]
-							"/g In that case", -- [21]
-							"/g you're one of those guys", -- [22]
-							"/g also", -- [23]
-							"/g 0 troll tolerance", -- [24]
-							"/g ahh yeah", -- [25]
-							"/p thanks for directions!", -- [26]
-							"/g they are gonna talk about other things too", -- [27]
-							"/g you're one of those guys", -- [28]
-							"/g 0 troll tolerance", -- [29]
-							"/p thanks for directions!", -- [30]
-							"/g you're one of those guys", -- [31]
-							"/p thanks for directions!", -- [32]
+							"/p super nice :)", -- [1]
+							"/p actually I gtg", -- [2]
+							"/p was great :)", -- [3]
+							"/6 Really Mark", -- [4]
+							"/6 *facepalm*", -- [5]
+							"/6 scroll up :)", -- [6]
+							"/6 It would be nice if people could get as close to 340 as possible for raid", -- [7]
+							"/6 \"You're 339, you cant come\"", -- [8]
+							"/6 I'm 333 lol", -- [9]
+							"/6 :(", -- [10]
+							"/6 Herb you win", -- [11]
+							"/6 I've been so tempted to buy a BoE... and my Pants", -- [12]
+							" Hey bud!", -- [13]
+							" for the raiding community!", -- [14]
+							" ?", -- [15]
+							"/i they are :)", -- [16]
+							"/p actually I gtg", -- [17]
+							"/6 Really Mark", -- [18]
+							"/6 scroll up :)", -- [19]
+							"/6 \"You're 339, you cant come\"", -- [20]
+							"/6 :(", -- [21]
+							"/6 I've been so tempted to buy a BoE... and my Pants", -- [22]
+							" for the raiding community!", -- [23]
+							"/i they are :)", -- [24]
+							"/6 Really Mark", -- [25]
+							"/6 \"You're 339, you cant come\"", -- [26]
+							"/6 I've been so tempted to buy a BoE... and my Pants", -- [27]
+							"/i they are :)", -- [28]
+							"/6 \"You're 339, you cant come\"", -- [29]
+							"/i they are :)", -- [30]
+							"/6  even reload ui didnt help", -- [31]
+							"/6 I'll bug Ben about it :P", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1695,7 +1695,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -1703,7 +1703,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
@@ -1713,7 +1713,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",

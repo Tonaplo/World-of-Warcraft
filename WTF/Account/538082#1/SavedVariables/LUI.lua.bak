@@ -67,9 +67,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1282923475,
+							["Mallusof"] = 1284866870,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -195,14 +195,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -230,16 +236,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1414,38 +1414,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/p thanks for directions!", -- [1]
-							"/g truth", -- [2]
-							"/s :)", -- [3]
-							"/g Please provide reference from official blizard works", -- [4]
-							"/g Also", -- [5]
-							"/g olvar just looked after Anduin", -- [6]
-							"/g Artificial how?", -- [7]
-							"/g also", -- [8]
-							"/g they are gonna talk about other things too", -- [9]
-							"/g rolf", -- [10]
-							"/g but you know", -- [11]
-							"/g I'll provide plenty of references of Anduin being son of Variann", -- [12]
-							"/g In that case", -- [13]
-							"/g ahh yeah", -- [14]
-							"/g I remember reading about it somewhere", -- [15]
-							"/g 0 troll tolerance", -- [16]
-							"/g you're one of those guys", -- [17]
-							"/g truth", -- [18]
-							"/g Please provide reference from official blizard works", -- [19]
-							"/g olvar just looked after Anduin", -- [20]
-							"/g also", -- [21]
-							"/g rolf", -- [22]
-							"/g I'll provide plenty of references of Anduin being son of Variann", -- [23]
-							"/g ahh yeah", -- [24]
-							"/g 0 troll tolerance", -- [25]
-							"/g truth", -- [26]
-							"/g olvar just looked after Anduin", -- [27]
-							"/g rolf", -- [28]
-							"/g ahh yeah", -- [29]
-							"/g truth", -- [30]
-							"/g rolf", -- [31]
-							"/g truth", -- [32]
+							"/i they are :)", -- [1]
+							"/i an no worries :)", -- [2]
+							"/p super nice :)", -- [3]
+							"/p you up for finding a third for more?", -- [4]
+							"/p actually I gtg", -- [5]
+							"/p baby is waking up", -- [6]
+							"/p was great :)", -- [7]
+							"/6 On the snipers of course", -- [8]
+							"/6 Really Mark", -- [9]
+							"/6 isnt that obvious", -- [10]
+							"/6 *facepalm*", -- [11]
+							"/6 Oh did you see the thing about 340 bt?", -- [12]
+							"/6 scroll up :)", -- [13]
+							"/6 It shouldnt be unfun to be here", -- [14]
+							"/6 It would be nice if people could get as close to 340 as possible for raid", -- [15]
+							"/6 But we arent gonna be like", -- [16]
+							"/6 \"You're 339, you cant come\"", -- [17]
+							"/6 (Also, if I random disappear, it's because of baby)", -- [18]
+							"/6 I'm 333 lol", -- [19]
+							"/6 |cff0070dd|Hitem:155278::::::::120:258::26:3:4803:1517:4785:::|h[Shiverscale Spellknife]|h|r|cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r qq", -- [20]
+							"/6 :(", -- [21]
+							"/6 oh god", -- [22]
+							"/6 Herb you win", -- [23]
+							"/6 A terrible thing to win", -- [24]
+							"/6 I've been so tempted to buy a BoE... and my Pants", -- [25]
+							"/6 Just dont have the gs", -- [26]
+							" Hey bud!", -- [27]
+							" https://www.worldofwarcraft.com/invite/vDDBouwPz?region=US&faction=Alliance", -- [28]
+							" for the raiding community!", -- [29]
+							" Can you see us in there", -- [30]
+							" ?", -- [31]
+							"/reloadui", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -2213,7 +2213,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -2221,7 +2221,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
@@ -2231,7 +2231,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
