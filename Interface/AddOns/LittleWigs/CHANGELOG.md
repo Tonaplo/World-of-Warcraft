@@ -1,7 +1,8 @@
 # LittleWigs
 
-## [v8.0.12](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.12) (2018-08-21)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.11...v8.0.12)
+## [v8.0.13](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.13) (2018-08-22)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.12...v8.0.13)
 
-- SiegeOfBoralus/Brainbridge: Fix adds warning spam.  
-- KingsRest/Dazar: fixed a Lua error  
+- BfA/SiegeOfBoralus/Lockwood: Check casts for adds  
+- Add SAY\_COUNTDOWN flag where needed  
+- KingsRest/Dazar: fixed icons of stage-related messages  

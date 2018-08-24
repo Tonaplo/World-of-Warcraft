@@ -1,12 +1,10 @@
-tag 02e4575a218021a457cb3e8fab854fa937ee1d97 8.0-4
+lightweight tag c0a56103d1ff46259e491fc8748d9cb03b6a8651 8.0-5
 Author:	Xuerian <xuerian@gmail.com>
-Date:	Wed Aug 22 19:51:53 2018 -0400
+Date:	Fri Aug 24 00:46:03 2018 -0400
 
-Add loot padding options
-
-commit 97b3a414c76e1fbd7e1e8e5905f4c762c379bb8e
+commit c0a56103d1ff46259e491fc8748d9cb03b6a8651
 Author: Xuerian <xuerian@gmail.com>
-Date:   Wed Aug 22 19:51:33 2018 -0400
+Date:   Fri Aug 24 00:46:03 2018 -0400
 
-    Add loot padding options
+    Frame: Respect padding options when collapsing looted slots
 
