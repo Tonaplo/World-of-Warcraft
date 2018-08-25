@@ -14,21 +14,21 @@ VExRT = {
 		["DefName"] = "Garothi Worldbreaker",
 		["SaveAllNew"] = true,
 		["LastUpdateName"] = "Ellestria-Tichondrius",
-		["Strata"] = "LOW",
+		["OnlyPromoted"] = true,
 		["FontName"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 		["Width"] = 292.866363525391,
 		["Top"] = 517.916870117188,
-		["LastUpdateTime"] = 1531098618,
+		["Scale"] = 100,
 		["Black"] = {
 			"", -- [1]
 			"", -- [2]
 			"", -- [3]
 		},
-		["Outline"] = true,
-		["Height"] = 233.288497924805,
 		["Alpha"] = 100,
-		["Scale"] = 100,
-		["OnlyPromoted"] = true,
+		["Height"] = 233.288497924805,
+		["Outline"] = true,
+		["LastUpdateTime"] = 1531098618,
+		["Strata"] = "LOW",
 	},
 	["ProfileKeys"] = {
 		["Miriyal-Proudmoore"] = "default",
@@ -36,33 +36,470 @@ VExRT = {
 		["Gottagetlia-Aggramar"] = "default",
 		["Fimwack-Proudmoore"] = "default",
 		["Amranar-Proudmoore"] = "default",
-		["Morifa-Tichondrius"] = "default",
-		["Mallubank-Tichondrius"] = "default",
-		["Lorvol-Tichondrius"] = "default",
-		["Greybone-Proudmoore"] = "default",
+		["Deminath-Proudmoore"] = "default",
 		["Kaldorath-Proudmoore"] = "default",
+		["Lorvol-Tichondrius"] = "default",
+		["Morifa-Proudmoore"] = "default",
+		["Mallusof-Icecrown"] = "default",
 		["Brity-SteamwheedleCartel"] = "default",
 		["Zearthan-Proudmoore"] = "default",
-		["Korugen-Proudmoore"] = "default",
-		["Korugen-Tichondrius"] = "default",
+		["Zaliga-BleedingHollow"] = "default",
+		["Zethan-Tichondrius"] = "default",
 		["Kindhoof-Tichondrius"] = "default",
-		["Farahn-Proudmoore"] = "default",
-		["Deminath-Hyjal"] = "default",
+		["Granjior-Proudmoore"] = "default",
+		["Faerand-Proudmoore"] = "default",
 		["Kindhoof-Proudmoore"] = "default",
 		["Praerend-Proudmoore"] = "default",
 		["Alura-Tichondrius"] = "default",
-		["Faerand-Proudmoore"] = "default",
-		["Granjior-Proudmoore"] = "default",
-		["Zethan-Tichondrius"] = "default",
-		["Zaliga-BleedingHollow"] = "default",
+		["Deminath-Hyjal"] = "default",
+		["Farahn-Proudmoore"] = "default",
+		["Korugen-Tichondrius"] = "default",
+		["Korugen-Proudmoore"] = "default",
 		["Rahran-Proudmoore"] = "default",
-		["Morifa-Proudmoore"] = "default",
-		["Mallusof-Icecrown"] = "default",
-		["Deminath-Proudmoore"] = "default",
+		["Greybone-Proudmoore"] = "default",
+		["Mallubank-Tichondrius"] = "default",
+		["Morifa-Tichondrius"] = "default",
 	},
 	["Arrow"] = {
 	},
 	["Encounter"] = {
+		["names"] = {
+			[2024] = "Skarvold & Dalronn",
+			[2025] = "Ingvar the Plunderer",
+			[2026] = "Prince Keleseth",
+			[2027] = "Gortok Palehoof",
+			[2028] = "King Ymiron",
+			[2029] = "Skadi the Ruthless",
+			[2030] = "Svala Sorrowgrave",
+			[2031] = "Nightbane",
+			[2032] = "Goroth",
+			[1777] = "Fel Lord Zakuun",
+			[1778] = "Hellfire Assault",
+			[382] = "Mekgineer Thermaplugg",
+			[2036] = "Harjatan",
+			[2037] = "Mistress Sassz'ine",
+			[1271] = "Murozond",
+			[2038] = "Fallen Avatar",
+			[1783] = "Gorefiend",
+			[2039] = "Mephistroth",
+			[1784] = "Tyrant Velhari",
+			[1785] = "Iron Reaver",
+			[1786] = "Kilrogg Deadeye",
+			[1022] = "Atramedes",
+			[1787] = "Kormrok",
+			[1788] = "Shadow-Lord Iskar",
+			[1023] = "Chimaeron",
+			[1790] = "Rokmora",
+			[1024] = "Magmaw",
+			[1791] = "Ularogg Cragshaper",
+			[1025] = "Maloriak",
+			[1792] = "Naraxas",
+			[2048] = "Demonic Inquisition",
+			[1793] = "Dargrul the Underking",
+			[2050] = "Sisters of the Moon",
+			[2051] = "Kil'jaeden",
+			[2052] = "Maiden of Vigilance",
+			[2053] = "Domatrax",
+			[2054] = "The Desolate Host",
+			[2055] = "Agronox",
+			[1030] = "Halfus Wyrmbreaker",
+			[2057] = "Thrashbite the Scornful",
+			[1798] = "Hellfire High Council",
+			[1032] = "Theralion and Valiona",
+			[1799] = "Archimonde",
+			[2063] = "Aggramar",
+			[2064] = "Portal Keeper Hasabel",
+			[2065] = "Zuraal the Ascended",
+			[2066] = "Saprish",
+			[2067] = "Viceroy Nezhar",
+			[519] = "Frozen Commander",
+			[2069] = "Varimathras",
+			[2070] = "Antoran High Command",
+			[1038] = "Corla, Herald of Twilight",
+			[1805] = "Hymdall",
+			[2074] = "Felhounds of Sargeras",
+			[2075] = "The Defense of Eonar",
+			[2076] = "Garothi Worldbreaker",
+			[1807] = "Fenryr",
+			[1041] = "Altairus",
+			[1808] = "God-King Skovald",
+			[1042] = "Asaad",
+			[1809] = "Odyn",
+			[2082] = "Imonar the Soulhunter",
+			[1810] = "Warlord Parjesh",
+			[1044] = "Commander Ulthok",
+			[1811] = "Lady Hatecoil",
+			[1045] = "Lady Naz'jar",
+			[1812] = "King Deepbeard",
+			[2088] = "Kin'garoth",
+			[1813] = "Serpentrix",
+			[1047] = "Ozumat",
+			[1814] = "Wrath of Azshara",
+			[1048] = "Drahga Shadowburner",
+			[1815] = "Tirathon Saltheril",
+			[1049] = "Erudax",
+			[1305] = "Sha of Violence",
+			[1050] = "Forgemaster Throngus",
+			[1306] = "Taran Zhu",
+			[1051] = "General Umbriss",
+			[1818] = "Cordana Felsong",
+			[2100] = "Viq'Goth",
+			[2101] = "The Sand Queen",
+			[2102] = "Jes Howlis",
+			[2103] = "Knight Captain Valyri",
+			[2104] = "Overseer Korgus",
+			[2105] = "Coin-Operated Crowd Pummeler",
+			[2106] = "Azerokk",
+			[1822] = "Ymiron, the Fallen King",
+			[1056] = "Corborus",
+			[1823] = "Harbaron",
+			[1057] = "High Priestess Azil",
+			[1824] = "Helya",
+			[1058] = "Ozruk",
+			[1825] = "Corstilax",
+			[1059] = "Slabhide",
+			[1826] = "Nal'tira",
+			[1060] = "\"Captain\" Cookie",
+			[1827] = "Ivanyr",
+			[2118] = "Cragmaw the Infested",
+			[1828] = "General Xakal",
+			[1062] = "Admiral Ripsnarl",
+			[1829] = "Advisor Vandros",
+			[1063] = "Foe Reaper 5000",
+			[2123] = "Unbound Abomination",
+			[1064] = "Glubtok",
+			[2125] = "Merektha",
+			[1065] = "Helix Gearbreaker",
+			[1832] = "Amalgam of Souls",
+			[1833] = "Ilysanna Ravencrest",
+			[2130] = "Aqu'sirr",
+			[1834] = "Smashspite the Hateful",
+			[2132] = "Lord Stormsong",
+			[1835] = "Lord Kur'talos Ravencrest",
+			[1069] = "Baron Ashbury",
+			[1836] = "Archdruid Glaidalis",
+			[1070] = "Baron Silverlaine",
+			[1837] = "Oakheart",
+			[1071] = "Commander Springvale",
+			[1838] = "Dresaron",
+			[1072] = "Lord Godfrey",
+			[1839] = "Shade of Xavius",
+			[1073] = "Lord Walden",
+			[1074] = "Ammunae",
+			[1841] = "Ursoc",
+			[1075] = "Anraphet",
+			[1842] = "Krosus",
+			[667] = "Shazzrah",
+			[1077] = "Isiset",
+			[1078] = "Rajh",
+			[1845] = "Shivermaw",
+			[1079] = "Setesh",
+			[1846] = "Mindflayer Kaahrj",
+			[1080] = "Temple Guardian Anhuur",
+			[1847] = "Millificent Manastorm",
+			[1081] = "Vanessa VanCleef",
+			[1849] = "Skorpyron",
+			[1083] = "Sinestra",
+			[1850] = "Inquisitor Tormentorum",
+			[1851] = "Sael'orn",
+			[1852] = "Anub'esset",
+			[1853] = "Nythendra",
+			[1854] = "Dragons of Nightmare",
+			[1855] = "Blood-Princess Thal'ena",
+			[1856] = "Fel Lord Betrug",
+			[1090] = "Sartharion",
+			[547] = "Revelosh",
+			[1862] = "Tichondrius",
+			[549] = "Ironaya",
+			[1863] = "Star Augur Etraeus",
+			[1864] = "Xavius",
+			[1865] = "Chronomatic Anomaly",
+			[1866] = "Gul'dan",
+			[551] = "Ancient Stone Keeper",
+			[1867] = "Trilliax",
+			[1868] = "Patrol Captain Gerdo",
+			[552] = "Galgann Firehammer",
+			[1869] = "Talixae Flamewreath",
+			[1870] = "Advisor Melandrus",
+			[553] = "Grimlok",
+			[1871] = "Spellblade Aluriel",
+			[1872] = "Grand Magistrix Elisande",
+			[554] = "Archaedas",
+			[1873] = "Il'gynoth, The Heart of Corruption",
+			[1107] = "Anub'Rekhan",
+			[235] = "Bael'Gar",
+			[1108] = "Gluth",
+			[1109] = "Gothik the Harvester",
+			[1876] = "Elerethe Renferal",
+			[1110] = "Grand Widow Faerlina",
+			[1877] = "Cenarius",
+			[1111] = "Grobbulus",
+			[1112] = "Heigan the Unclean",
+			[343] = "Zevrim Thornhoof",
+			[1113] = "Instructor Razuvious",
+			[1114] = "Kel'Thuzad",
+			[1881] = "Echo of Baine",
+			[1115] = "Loatheb",
+			[1116] = "Maexxna",
+			[1883] = "Echo of Jaina",
+			[1117] = "Noth the Plaguebringer",
+			[1118] = "Patchwerk",
+			[1119] = "Sapphiron",
+			[1886] = "High Botanist Tel'arn",
+			[1120] = "Thaddius",
+			[1887] = "Obsidian Sentinel",
+			[1121] = "The Four Horsemen",
+			[346] = "Alzzin the Wildshaper",
+			[1126] = "Archavon the Stone Watcher",
+			[1127] = "Emalon the Storm Watcher",
+			[1128] = "Koralon the Flame Watcher",
+			[347] = "Illyanna Ravenoak",
+			[1129] = "Toravon the Ice Watcher",
+			[475] = "Willey Hopebreaker",
+			[1130] = "Algalon the Observer",
+			[1131] = "Auriaya",
+			[1132] = "Flame Leviathan",
+			[348] = "Magister Kalendris",
+			[1133] = "Freya",
+			[476] = "Commander Malor",
+			[1134] = "General Vezax",
+			[1390] = "Feng the Accursed",
+			[1135] = "Hodir",
+			[1136] = "Ignis the Furnace Master",
+			[349] = "Immol'thar",
+			[1137] = "Kologarn",
+			[477] = "Instructor Galford",
+			[1138] = "Mimiron",
+			[1139] = "Razorscale",
+			[1395] = "The Stone Guard",
+			[1140] = "The Assembly of Iron",
+			[350] = "Tendris Warpwood",
+			[1141] = "Thorim",
+			[1397] = "Saboteur Kip'tilak",
+			[1142] = "XT-002 Deconstructor",
+			[1143] = "Yogg-Saron",
+			[1144] = "Hogger",
+			[1145] = "Lord Overheat",
+			[479] = "Baroness Anastari",
+			[1146] = "Randolph Moloch",
+			[1659] = "Warlord Ramtusk",
+			[1660] = "Groyat, the Blind Hunter",
+			[1405] = "Striker Ga'dok",
+			[1661] = "Chalgra Razorflank",
+			[1406] = "Commander Ri'mok",
+			[1662] = "Aaurx",
+			[1407] = "Will of the Emperor",
+			[1663] = "Mordresh Fire Eye",
+			[1664] = "Mushlump",
+			[1409] = "Protectors of the Endless",
+			[1665] = "Death Speaker Blackthorn",
+			[1666] = "Amnennar the Coldbringer",
+			[2099] = "Hadal Darkfathom",
+			[1667] = "Ghamoo-ra",
+			[2109] = "Dread Captain Lockwood",
+			[1668] = "Domina",
+			[482] = "Magistrate Barthilas",
+			[1669] = "Subjugator Kor'ul",
+			[2098] = "Chopper Redhook",
+			[1670] = "Executioner Gore",
+			[2112] = "Sporecaller Zancha",
+			[1671] = "Twilight Lord Bathiel",
+			[709] = "The Prophet Skeram",
+			[1672] = "Aku'mai",
+			[483] = "Ramstein the Gorger",
+			[2111] = "Elder Leaxa",
+			[710] = "Silithid Royalty",
+			[2108] = "Mogul Razdunk",
+			[242] = "Ambassador Flamelash",
+			[1675] = "Thruk",
+			[711] = "Battleguard Sartura",
+			[1676] = "Guardian of the Deep",
+			[484] = "Lord Aurius Rivendare",
+			[2107] = "Rixxa Fluxfume",
+			[712] = "Fankriss the Unyielding",
+			[2087] = "Yazma",
+			[1423] = "Thalnos the Soulrender",
+			[585] = "Lady Anacondra",
+			[1424] = "Brother Korloff",
+			[2084] = "Priestess Alun'za",
+			[1425] = "High Inquisitor Whitemane",
+			[586] = "Lord Cobrahn",
+			[714] = "Princess Huhuran",
+			[2085] = "Vol'kaal",
+			[243] = "The Seven",
+			[587] = "Kresh",
+			[715] = "Twin Emperors",
+			[422] = "Noxxion",
+			[1429] = "Lilian Voss",
+			[588] = "Lord Pythas",
+			[716] = "Ouro",
+			[2086] = "Rezan",
+			[1026] = "Nefarian's End",
+			[589] = "Skum",
+			[717] = "C'thun",
+			[423] = "Razorlash",
+			[487] = "Weaver",
+			[590] = "Lord Serpentis",
+			[1434] = "Gara'jal the Spiritbinder",
+			[1027] = "Omnotron Defense System",
+			[244] = "Magmus",
+			[591] = "Verdan the Everliving",
+			[1436] = "The Spirit Kings",
+			[424] = "Lord Vyletongue",
+			[488] = "Jammal'an the Prophet",
+			[592] = "Mutanus the Devourer",
+			[2093] = "Skycap'n Kragg",
+			[1040] = "Rom'ogg Bonecrusher",
+			[672] = "Ragnaros",
+			[593] = "Hydromancer Velratha",
+			[361] = "Prince Tortheldrin",
+			[425] = "Celebras the Cursed",
+			[1441] = "Xin the Weaponmaster",
+			[594] = "Ghaz'rilla",
+			[1442] = "Trial of the King",
+			[671] = "Majordomo Executus",
+			[1954] = "Maiden of Virtue",
+			[595] = "Antu'sul",
+			[1444] = "Dark Shaman Koranthal",
+			[426] = "Landslide",
+			[1445] = "Slagmaw",
+			[596] = "Theka the Martyr",
+			[1957] = "Opera Hall",
+			[2116] = "Lord and Lady Waycrest",
+			[1447] = "General Pa'valak",
+			[597] = "Witch Doctor Zum'rah",
+			[1959] = "Mana Devourer",
+			[427] = "Tinkerer Gizlock",
+			[1960] = "Attumen the Huntsman",
+			[598] = "Nekrum Gutchewer",
+			[1961] = "Moroes",
+			[670] = "Golemagg the Incinerator",
+			[1962] = "Guarm",
+			[599] = "Shadowpriest Sezz'ziz",
+			[364] = "Guard Fengus",
+			[428] = "Rotgrip",
+			[1964] = "The Curator",
+			[600] = "Chief Ukorz Sandscalp",
+			[1965] = "Shade of Medivh",
+			[668] = "Baron Geddon",
+			[1966] = "Prince Taldaram",
+			[666] = "Garr",
+			[1967] = "Jedoga Shadowseeker",
+			[429] = "Princess Theradras",
+			[1968] = "Herald Volazj",
+			[234] = "Fineous Darkvire",
+			[1969] = "Elder Nadox",
+			[1502] = "Commander Vo'jak",
+			[493] = "Shade of Eranikus",
+			[1430] = "Darkmaster Gandling",
+			[366] = "Captain Kromcrush",
+			[664] = "Magmadar",
+			[1972] = "Hadronox",
+			[1500] = "Elegon",
+			[1973] = "Anub'arak",
+			[490] = "Morphaz",
+			[1974] = "Trollgore",
+			[1656] = "Hunter Bonetusk",
+			[1464] = "Wing Leader Ner'onok",
+			[1427] = "Jandice Barov",
+			[1465] = "Vizier Jin'bak",
+			[1721] = "Kargath Bladefist",
+			[1977] = "King Dred",
+			[486] = "Dreamscythe",
+			[1978] = "Slad'ran",
+			[669] = "Sulfuron Harbinger",
+			[368] = "King Gordok",
+			[367] = "Cho'Rush the Observer",
+			[1980] = "Moorabi",
+			[665] = "Gehennas",
+			[1981] = "Gal'darah",
+			[345] = "Lethtendris",
+			[1428] = "Rattlegore",
+			[1420] = "Flameweaver Koegler",
+			[1983] = "Drakkari Colossus",
+			[1426] = "Instructor Chillheart",
+			[1984] = "Ionar",
+			[610] = "Razorgore the Untamed",
+			[1985] = "Volkhan",
+			[1028] = "Ascendant Council",
+			[1986] = "Loken",
+			[611] = "Vaelastrasz the Corrupt",
+			[1987] = "General Bjarngrim",
+			[1421] = "Armsmaster Harlan",
+			[481] = "Maleki the Pallid",
+			[612] = "Broodlord Lashlayer",
+			[1046] = "Mindbender Ghur'sha",
+			[1971] = "Krik'thir the Gatewatcher",
+			[1303] = "Gu Cloudstrike",
+			[613] = "Firemaw",
+			[480] = "Nerub'enkan",
+			[1795] = "Mannoroth",
+			[1422] = "Houndmaster Braun",
+			[614] = "Ebonroc",
+			[2092] = "Argus the Unmaker",
+			[1816] = "Ash'Golm",
+			[1794] = "Socrethar the Eternal",
+			[1304] = "Master Snowdrift",
+			[1958] = "Odyn",
+			[1446] = "Lava Guard Gordoth",
+			[1443] = "Adarogg",
+			[616] = "Chromaggus",
+			[2073] = "The Coven of Shivarra",
+			[1806] = "Hyrja",
+			[363] = "Stomper Kreeg",
+			[617] = "Nefarian",
+			[1999] = "Forgemaster Garfrost",
+			[365] = "Guard Slip'kik",
+			[2000] = "Scourgelord Tyrannus",
+			[1043] = "Grand Vizier Ertan",
+			[2001] = "Krick",
+			[2068] = "L'ura",
+			[2002] = "Meathook",
+			[362] = "Guard Mol'dar",
+			[2003] = "Chrono-Lord Epoch",
+			[438] = "Roogug",
+			[2004] = "Salram the Fleshcrafter",
+			[1419] = "Raigonn",
+			[2005] = "Mal'ganis",
+			[245] = "Emperor Dagran Thaurissan",
+			[478] = "Balnazzar",
+			[1800] = "Xhul'horac",
+			[1817] = "Glazer",
+			[380] = "Electrocutioner 6000",
+			[2008] = "Helya",
+			[1976] = "Novos the Summoner",
+			[2009] = "Anomalus",
+			[1975] = "The Prophet Tharon'ja",
+			[2010] = "Grand Magus Telestra",
+			[344] = "Hydrospawn",
+			[2011] = "Keristrasza",
+			[1029] = "Cho'gall",
+			[2012] = "Ormorok the Tree-Shaper",
+			[492] = "Avatar of Hakkar",
+			[2013] = "Ley-Guardian Eregos",
+			[491] = "Hazzas",
+			[2014] = "Mage-Lord Urom",
+			[663] = "Lucifron",
+			[2015] = "Varos Cloudstrider",
+			[2115] = "Raal the Gluttonous",
+			[2016] = "Drakos the Interrogator",
+			[232] = "Lord Incendius",
+			[2017] = "Viz'aduum the Watcher",
+			[2117] = "Gorak Tul",
+			[2114] = "Soulbound Goliath",
+			[2113] = "Heartsbane Triad",
+			[378] = "Viscous Fallout",
+			[1039] = "Karsh Steelbender",
+			[2131] = "Tidesage Council",
+			[2133] = "Vol'zith the Whisperer",
+			[1510] = "Gekkan",
+			[2094] = "Council o' Captains",
+			[2095] = "Ring of Booty",
+			[2096] = "Lord Harlan Sweete",
+			[2124] = "Adderis and Aspix",
+			[2126] = "Galvazzt",
+			[2127] = "Avatar of Sethraliss",
+		},
 		["list"] = {
 			["Alura"] = {
 				"^1069^1^1517797782^60^1^5^28.32^", -- [1]
@@ -766,63 +1203,7 @@ VExRT = {
 				"^1959^2^1526197032^18^1^5^939.44^", -- [183]
 				"^2017^2^1526197191^23^1^5^939.44^", -- [184]
 			},
-			["Faerand"] = {
-				"^1815^2^1498402669^26^1^5^683.70^", -- [1]
-				"^1850^2^1498402755^0^0^5^813.60^Iceqùeen-Drak'thul", -- [2]
-				"^2055^2^1498404184^49^1^5^874.17^", -- [3]
-				"^2057^2^1498404553^120^1^5^877.11^Iceqùeen-Drak'thul", -- [4]
-				"^2053^2^1498404985^136^1^5^879.25^", -- [5]
-				"^2039^2^1498405231^112^1^5^879.25^", -- [6]
-				"^1836^2^1499034592^45^1^5^846.14^", -- [7]
-				"^1837^2^1499035077^59^1^5^848.69^", -- [8]
-				"^1838^2^1499035231^57^1^5^849.25^", -- [9]
-				"^1839^2^1499035421^68^1^5^849.25^", -- [10]
-				"^1822^2^1515981926^38^1^5^916.84^", -- [11]
-				"^1822^23^1515982453^25^1^5^935.80^", -- [12]
-				"^1823^23^1515982569^17^1^5^930.34^", -- [13]
-				"^1824^23^1515982672^75^1^5^932.94^", -- [14]
-				"^1822^23^1516086397^37^1^5^893.41^", -- [15]
-				"^1823^23^1516086617^26^1^5^926.72^", -- [16]
-				"^1824^23^1516086774^95^1^5^926.72^", -- [17]
-				"^1822^23^1516087084^31^1^5^893.41^", -- [18]
-				"^1823^23^1516087257^21^1^5^918.20^", -- [19]
-				"^1824^23^1516087389^85^1^5^918.20^", -- [20]
-				"^1822^23^1516087672^32^1^5^929.59^", -- [21]
-				"^1823^23^1516087848^25^1^5^911.44^", -- [22]
-				"^1824^23^1516087985^68^1^5^911.44^", -- [23]
-				"^2065^8^1516781400^86^0^5^916.59^", -- [24]
-				"^2065^8^1516781520^79^1^5^916.59^Bravebubble-Darkspear", -- [25]
-				"^2066^8^1516782027^67^0^5^916.59^Kunfucartman-Nesingwary", -- [26]
-				"^2066^8^1516782188^76^0^5^913.56^Hooplaahh-Darkspear", -- [27]
-				"^2066^8^1516782350^99^1^5^919.63^Bravebubble-Darkspear", -- [28]
-				"^2067^8^1516782781^77^1^5^911.06^", -- [29]
-				"^2068^8^1516782969^97^1^5^911.06^", -- [30]
-				"^2076^16^1517638546^401^0^20^849.50^Faerand", -- [31]
-				"^2076^16^1517639072^405^0^20^956.21^Dazandis", -- [32]
-				"^2076^16^1517639584^287^0^20^955.88^Dazandis", -- [33]
-				"^2076^16^1517639977^11^0^20^955.36^Faerand", -- [34]
-				"^2076^16^1517640070^353^0^20^955.36^Chaosblades", -- [35]
-				"^2076^16^1517640505^352^1^20^954.93^Garroo", -- [36]
-				"^1810^23^1519185826^19^1^5^927.17^", -- [37]
-				"^1811^23^1519185963^20^1^5^922.67^", -- [38]
-				"^1813^23^1519186045^48^1^5^922.67^Aagabriel-Arthas", -- [39]
-				"^1812^23^1519186235^24^1^5^927.17^", -- [40]
-				"^1814^23^1519186333^23^1^5^927.17^", -- [41]
-				"^1836^23^1519278974^17^1^5^924.17^", -- [42]
-				"^1837^23^1519279147^28^1^5^924.17^", -- [43]
-				"^1838^23^1519279263^31^1^5^924.17^", -- [44]
-				"^1839^23^1519279402^19^1^5^924.17^", -- [45]
-				"^1836^8^1520114915^78^0^5^953.02^Caillis-Tichondrius", -- [46]
-				"^1836^8^1520115060^71^1^5^953.33^Sherbybuns-Tichondrius", -- [47]
-				"^1837^8^1520115390^100^1^5^953.48^", -- [48]
-				"^1838^8^1520115613^114^1^5^953.33^Sherbybuns-Tichondrius", -- [49]
-				"^1839^8^1520115907^109^0^5^953.33^Faerand", -- [50]
-				"^1839^8^1520116194^83^0^5^953.33^Sherbybuns-Tichondrius", -- [51]
-				"^1839^8^1520116417^110^1^5^950.48^", -- [52]
-				"^2055^8^1520139674^69^1^5^957.65^", -- [53]
-				"^2057^8^1520139877^60^1^5^957.65^Kalithumos-Tichondrius", -- [54]
-				"^2053^8^1520140073^175^1^5^957.96^Reportmepls-Tichondrius", -- [55]
-				"^2039^8^1520140300^106^1^5^958.14^", -- [56]
+			["Zaliga"] = {
 			},
 			["Greybone"] = {
 				"^1969^2^1493279418^49^1^5^744.19^", -- [1]
@@ -967,7 +1348,7 @@ VExRT = {
 				"^1816^8^1520138266^103^1^5^960.27^Reportmepls-Tichondrius", -- [140]
 				"^1818^8^1520138692^179^1^5^957.83^Nihilsm-Tichondrius", -- [141]
 			},
-			["Brity"] = {
+			["Mallubank"] = {
 			},
 			["Gottagetlia"] = {
 			},
@@ -1143,6 +1524,113 @@ VExRT = {
 				"^1672^1^1531599312^47^1^5^24.47^", -- [20]
 				"^380^1^1533531747^56^1^5^26.13^", -- [21]
 				"^382^1^1533532277^83^1^5^26.37^", -- [22]
+			},
+			["Morifa"] = {
+				"^1849^15^1496618053^333^1^13^884.32^Chopperdave-Tichondrius", -- [1]
+				"^1865^15^1496618606^9^0^15^874.80^", -- [2]
+				"^1865^15^1496618707^14^0^15^874.89^", -- [3]
+				"^1865^15^1496618759^6^0^17^849.81^", -- [4]
+				"^1865^15^1496618906^126^1^17^899.10^Meowfurryoff-Tichondrius", -- [5]
+				"^1867^15^1496619278^191^1^18^899.78^Meowfurryoff-Tichondrius", -- [6]
+				"^1871^15^1496620000^297^1^18^896.06^Kalethia-Tichondrius", -- [7]
+				"^1862^15^1496620608^11^0^18^896.67^Pokimaneomg-Tichondrius", -- [8]
+				"^1862^15^1496620837^273^1^18^896.46^Zoephos-Tichondrius", -- [9]
+				"^1863^15^1496621556^354^1^18^900.55^Daemonhater-Tichondrius", -- [10]
+				"^1886^15^1496622559^252^1^18^902.09^Dessirius-Tichondrius", -- [11]
+				"^1842^15^1496623175^206^0^18^899.63^Zoephos-Tichondrius", -- [12]
+				"^1842^15^1496623584^232^1^18^895.67^Zoephos-Tichondrius", -- [13]
+				"^1872^15^1496624589^291^1^16^903.15^Genjieggs-Tichondrius", -- [14]
+				"^1866^15^1496625070^439^1^16^902.86^Pokimaneomg-Tichondrius", -- [15]
+				"^1853^15^1498941232^114^1^21^893.93^", -- [16]
+				"^1841^15^1498941726^86^1^21^892.46^", -- [17]
+				"^1854^15^1498941984^74^1^21^892.73^", -- [18]
+				"^1876^15^1498942288^96^1^21^890.65^Morifa", -- [19]
+				"^1873^15^1498942656^164^1^21^896.31^Tiirion-Medivh", -- [20]
+				"^1877^15^1498942985^95^1^21^894.10^Krutoi-Stormrage", -- [21]
+				"^1864^15^1498943287^144^1^20^893.81^", -- [22]
+				"^2036^14^1508087242^230^1^16^910.92^", -- [23]
+				"^2037^14^1508087859^341^1^17^914.36^Opalauana-Whisperwind", -- [24]
+				"^2032^14^1510034559^239^1^16^891.73^Vossix-BloodFurnace", -- [25]
+				"^2048^14^1510034996^346^1^16^891.86^Morifa", -- [26]
+				"^2036^14^1510035725^251^1^16^913.97^Lólla-Kel'Thuzad", -- [27]
+				"^2037^14^1510036317^342^1^16^914.16^Darkchef-Quel'Thalas", -- [28]
+				"^2050^14^1510037336^394^1^15^913.41^Morifa", -- [29]
+				"^2054^14^1510038855^361^0^15^913.49^Rositar-Quel'Thalas", -- [30]
+				"^1815^8^1512793426^23^1^5^913.45^", -- [31]
+				"^1850^8^1512793514^80^1^5^913.45^", -- [32]
+				"^1816^8^1512793651^37^1^5^913.45^", -- [33]
+				"^1817^8^1512793756^28^1^5^913.45^", -- [34]
+				"^1818^8^1512794013^97^1^5^913.45^", -- [35]
+				"^1868^8^1514018280^63^1^5^927.81^", -- [36]
+				"^1869^8^1514019031^72^1^5^927.81^ßapps-Frostmourne", -- [37]
+				"^1870^8^1514019301^73^1^5^921.48^", -- [38]
+				"^1827^8^1516862850^41^1^5^905.70^", -- [39]
+				"^1825^8^1516863007^54^1^5^905.70^", -- [40]
+				"^1826^8^1516863218^46^1^5^905.70^", -- [41]
+				"^1828^8^1516863522^44^1^5^905.70^", -- [42]
+				"^1829^8^1516863651^105^1^5^905.70^Zannalyn-WyrmrestAccord", -- [43]
+				"^1810^8^1521524345^43^1^5^918.48^", -- [44]
+				"^1811^8^1521524610^58^1^5^918.48^", -- [45]
+				"^1813^8^1521524821^97^1^5^918.48^", -- [46]
+				"^1812^8^1521525084^64^1^5^918.48^", -- [47]
+				"^1814^8^1521525257^63^1^5^918.48^", -- [48]
+				"^2070^14^1522304995^411^1^22^939.11^Chatita-Stormrage", -- [49]
+				"^2075^14^1522305953^318^1^21^937.17^", -- [50]
+				"^2064^14^1522306714^522^1^21^938.28^Hans-KhazModan", -- [51]
+				"^2082^14^1522307464^156^0^19^939.03^Chatita-Stormrage", -- [52]
+				"^2082^14^1522307991^301^0^20^874.56^Hans-KhazModan", -- [53]
+				"^2082^14^1522308628^400^1^20^918.69^Hans-KhazModan", -- [54]
+				"^2088^14^1522309892^289^0^18^938.26^Hans-KhazModan", -- [55]
+				"^2088^14^1522310407^272^0^18^936.35^Aele-Dalaran", -- [56]
+				"^1828^8^1522736842^75^1^5^956.03^", -- [57]
+				"^1826^8^1522737095^103^1^5^956.03^", -- [58]
+				"^1825^8^1522737451^95^1^5^956.03^Zaelsynth-Tichondrius", -- [59]
+				"^1827^8^1522737783^111^1^5^956.34^", -- [60]
+				"^1829^8^1522737956^147^1^5^956.81^", -- [61]
+				"^1778^14^1525564478^221^1^10^952.38^", -- [62]
+				"^1785^14^1525564744^12^1^10^952.38^", -- [63]
+				"^1798^14^1525564858^30^1^10^952.38^", -- [64]
+				"^1786^14^1525564985^15^1^10^952.38^", -- [65]
+				"^1787^14^1525565183^11^1^10^952.38^", -- [66]
+				"^1783^14^1525565322^19^1^10^952.38^", -- [67]
+				"^1794^14^1525565458^449^1^10^942.13^", -- [68]
+				"^1784^14^1525566051^20^0^10^942.13^", -- [69]
+				"^1784^14^1525566116^22^1^10^942.13^", -- [70]
+				"^1788^14^1525566207^79^1^10^942.13^", -- [71]
+				"^1800^14^1525566379^11^1^10^942.13^", -- [72]
+				"^1777^14^1525566842^13^1^10^942.13^", -- [73]
+				"^1795^14^1525566923^47^1^10^942.13^", -- [74]
+				"^1799^14^1525567028^14^1^10^942.13^", -- [75]
+				"^1815^8^1526190632^33^1^5^928.49^", -- [76]
+				"^1850^8^1526190766^135^1^5^928.49^Figjam-Greymane", -- [77]
+				"^1817^8^1526190986^71^1^5^928.49^", -- [78]
+				"^1816^8^1526191110^49^1^5^928.49^", -- [79]
+				"^1818^8^1526191488^118^1^5^928.49^", -- [80]
+				"^1822^8^1526192857^89^1^5^942.66^Krashespeak-Ragnaros", -- [81]
+				"^1823^8^1526193210^116^1^5^942.66^", -- [82]
+				"^1824^8^1526193613^55^0^5^942.66^Krashespeak-Ragnaros", -- [83]
+				"^1824^8^1526193715^239^0^5^942.66^Krashespeak-Ragnaros", -- [84]
+				"^1824^8^1526194006^65^0^5^942.66^Thecrow-Quel'Thalas", -- [85]
+				"^1824^8^1526194140^220^1^5^942.66^Thecrow-Quel'Thalas", -- [86]
+				"^2076^14^1526238634^231^1^13^852.60^", -- [87]
+				"^2074^14^1526239087^229^1^13^880.83^", -- [88]
+				"^2070^14^1526239731^302^1^13^944.15^Wahhj-Sargeras", -- [89]
+				"^2064^14^1526240364^321^1^13^945.76^Riönna-Uldaman", -- [90]
+				"^2075^14^1526240805^286^1^13^946.42^", -- [91]
+				"^2082^14^1526241257^274^1^14^945.00^Neviden-Drakkari", -- [92]
+				"^2088^14^1526241758^356^1^14^945.31^Letoz-Sargeras", -- [93]
+				"^1964^2^1526535960^21^1^5^938.30^", -- [94]
+				"^1965^2^1526536043^18^1^5^920.97^", -- [95]
+				"^1959^2^1526536135^25^1^5^920.97^", -- [96]
+				"^2017^2^1526536308^9^1^5^948.22^", -- [97]
+				"^1836^8^1529997330^39^1^5^934.64^", -- [98]
+				"^1837^8^1529997560^70^1^5^934.76^", -- [99]
+				"^1838^8^1529997843^66^1^5^939.69^", -- [100]
+				"^1839^8^1529998042^40^1^5^939.69^", -- [101]
+				"^1836^8^1531548194^31^1^5^944.98^", -- [102]
+				"^1837^8^1531548497^42^1^5^944.98^", -- [103]
+				"^1838^8^1531548713^54^1^5^944.98^", -- [104]
+				"^1839^8^1531548903^38^1^5^944.98^", -- [105]
 			},
 			["Mallusof"] = {
 				"^1872^15^1493517565^256^1^19^904.93^Meowfurryoff", -- [1]
@@ -3994,556 +4482,68 @@ VExRT = {
 				"^1112^4^1530504195^0^1^25^206.69^", -- [156]
 				"^1115^4^1530504283^7^1^25^206.69^", -- [157]
 			},
-			["Morifa"] = {
-				"^1849^15^1496618053^333^1^13^884.32^Chopperdave-Tichondrius", -- [1]
-				"^1865^15^1496618606^9^0^15^874.80^", -- [2]
-				"^1865^15^1496618707^14^0^15^874.89^", -- [3]
-				"^1865^15^1496618759^6^0^17^849.81^", -- [4]
-				"^1865^15^1496618906^126^1^17^899.10^Meowfurryoff-Tichondrius", -- [5]
-				"^1867^15^1496619278^191^1^18^899.78^Meowfurryoff-Tichondrius", -- [6]
-				"^1871^15^1496620000^297^1^18^896.06^Kalethia-Tichondrius", -- [7]
-				"^1862^15^1496620608^11^0^18^896.67^Pokimaneomg-Tichondrius", -- [8]
-				"^1862^15^1496620837^273^1^18^896.46^Zoephos-Tichondrius", -- [9]
-				"^1863^15^1496621556^354^1^18^900.55^Daemonhater-Tichondrius", -- [10]
-				"^1886^15^1496622559^252^1^18^902.09^Dessirius-Tichondrius", -- [11]
-				"^1842^15^1496623175^206^0^18^899.63^Zoephos-Tichondrius", -- [12]
-				"^1842^15^1496623584^232^1^18^895.67^Zoephos-Tichondrius", -- [13]
-				"^1872^15^1496624589^291^1^16^903.15^Genjieggs-Tichondrius", -- [14]
-				"^1866^15^1496625070^439^1^16^902.86^Pokimaneomg-Tichondrius", -- [15]
-				"^1853^15^1498941232^114^1^21^893.93^", -- [16]
-				"^1841^15^1498941726^86^1^21^892.46^", -- [17]
-				"^1854^15^1498941984^74^1^21^892.73^", -- [18]
-				"^1876^15^1498942288^96^1^21^890.65^Morifa", -- [19]
-				"^1873^15^1498942656^164^1^21^896.31^Tiirion-Medivh", -- [20]
-				"^1877^15^1498942985^95^1^21^894.10^Krutoi-Stormrage", -- [21]
-				"^1864^15^1498943287^144^1^20^893.81^", -- [22]
-				"^2036^14^1508087242^230^1^16^910.92^", -- [23]
-				"^2037^14^1508087859^341^1^17^914.36^Opalauana-Whisperwind", -- [24]
-				"^2032^14^1510034559^239^1^16^891.73^Vossix-BloodFurnace", -- [25]
-				"^2048^14^1510034996^346^1^16^891.86^Morifa", -- [26]
-				"^2036^14^1510035725^251^1^16^913.97^Lólla-Kel'Thuzad", -- [27]
-				"^2037^14^1510036317^342^1^16^914.16^Darkchef-Quel'Thalas", -- [28]
-				"^2050^14^1510037336^394^1^15^913.41^Morifa", -- [29]
-				"^2054^14^1510038855^361^0^15^913.49^Rositar-Quel'Thalas", -- [30]
-				"^1815^8^1512793426^23^1^5^913.45^", -- [31]
-				"^1850^8^1512793514^80^1^5^913.45^", -- [32]
-				"^1816^8^1512793651^37^1^5^913.45^", -- [33]
-				"^1817^8^1512793756^28^1^5^913.45^", -- [34]
-				"^1818^8^1512794013^97^1^5^913.45^", -- [35]
-				"^1868^8^1514018280^63^1^5^927.81^", -- [36]
-				"^1869^8^1514019031^72^1^5^927.81^ßapps-Frostmourne", -- [37]
-				"^1870^8^1514019301^73^1^5^921.48^", -- [38]
-				"^1827^8^1516862850^41^1^5^905.70^", -- [39]
-				"^1825^8^1516863007^54^1^5^905.70^", -- [40]
-				"^1826^8^1516863218^46^1^5^905.70^", -- [41]
-				"^1828^8^1516863522^44^1^5^905.70^", -- [42]
-				"^1829^8^1516863651^105^1^5^905.70^Zannalyn-WyrmrestAccord", -- [43]
-				"^1810^8^1521524345^43^1^5^918.48^", -- [44]
-				"^1811^8^1521524610^58^1^5^918.48^", -- [45]
-				"^1813^8^1521524821^97^1^5^918.48^", -- [46]
-				"^1812^8^1521525084^64^1^5^918.48^", -- [47]
-				"^1814^8^1521525257^63^1^5^918.48^", -- [48]
-				"^2070^14^1522304995^411^1^22^939.11^Chatita-Stormrage", -- [49]
-				"^2075^14^1522305953^318^1^21^937.17^", -- [50]
-				"^2064^14^1522306714^522^1^21^938.28^Hans-KhazModan", -- [51]
-				"^2082^14^1522307464^156^0^19^939.03^Chatita-Stormrage", -- [52]
-				"^2082^14^1522307991^301^0^20^874.56^Hans-KhazModan", -- [53]
-				"^2082^14^1522308628^400^1^20^918.69^Hans-KhazModan", -- [54]
-				"^2088^14^1522309892^289^0^18^938.26^Hans-KhazModan", -- [55]
-				"^2088^14^1522310407^272^0^18^936.35^Aele-Dalaran", -- [56]
-				"^1828^8^1522736842^75^1^5^956.03^", -- [57]
-				"^1826^8^1522737095^103^1^5^956.03^", -- [58]
-				"^1825^8^1522737451^95^1^5^956.03^Zaelsynth-Tichondrius", -- [59]
-				"^1827^8^1522737783^111^1^5^956.34^", -- [60]
-				"^1829^8^1522737956^147^1^5^956.81^", -- [61]
-				"^1778^14^1525564478^221^1^10^952.38^", -- [62]
-				"^1785^14^1525564744^12^1^10^952.38^", -- [63]
-				"^1798^14^1525564858^30^1^10^952.38^", -- [64]
-				"^1786^14^1525564985^15^1^10^952.38^", -- [65]
-				"^1787^14^1525565183^11^1^10^952.38^", -- [66]
-				"^1783^14^1525565322^19^1^10^952.38^", -- [67]
-				"^1794^14^1525565458^449^1^10^942.13^", -- [68]
-				"^1784^14^1525566051^20^0^10^942.13^", -- [69]
-				"^1784^14^1525566116^22^1^10^942.13^", -- [70]
-				"^1788^14^1525566207^79^1^10^942.13^", -- [71]
-				"^1800^14^1525566379^11^1^10^942.13^", -- [72]
-				"^1777^14^1525566842^13^1^10^942.13^", -- [73]
-				"^1795^14^1525566923^47^1^10^942.13^", -- [74]
-				"^1799^14^1525567028^14^1^10^942.13^", -- [75]
-				"^1815^8^1526190632^33^1^5^928.49^", -- [76]
-				"^1850^8^1526190766^135^1^5^928.49^Figjam-Greymane", -- [77]
-				"^1817^8^1526190986^71^1^5^928.49^", -- [78]
-				"^1816^8^1526191110^49^1^5^928.49^", -- [79]
-				"^1818^8^1526191488^118^1^5^928.49^", -- [80]
-				"^1822^8^1526192857^89^1^5^942.66^Krashespeak-Ragnaros", -- [81]
-				"^1823^8^1526193210^116^1^5^942.66^", -- [82]
-				"^1824^8^1526193613^55^0^5^942.66^Krashespeak-Ragnaros", -- [83]
-				"^1824^8^1526193715^239^0^5^942.66^Krashespeak-Ragnaros", -- [84]
-				"^1824^8^1526194006^65^0^5^942.66^Thecrow-Quel'Thalas", -- [85]
-				"^1824^8^1526194140^220^1^5^942.66^Thecrow-Quel'Thalas", -- [86]
-				"^2076^14^1526238634^231^1^13^852.60^", -- [87]
-				"^2074^14^1526239087^229^1^13^880.83^", -- [88]
-				"^2070^14^1526239731^302^1^13^944.15^Wahhj-Sargeras", -- [89]
-				"^2064^14^1526240364^321^1^13^945.76^Riönna-Uldaman", -- [90]
-				"^2075^14^1526240805^286^1^13^946.42^", -- [91]
-				"^2082^14^1526241257^274^1^14^945.00^Neviden-Drakkari", -- [92]
-				"^2088^14^1526241758^356^1^14^945.31^Letoz-Sargeras", -- [93]
-				"^1964^2^1526535960^21^1^5^938.30^", -- [94]
-				"^1965^2^1526536043^18^1^5^920.97^", -- [95]
-				"^1959^2^1526536135^25^1^5^920.97^", -- [96]
-				"^2017^2^1526536308^9^1^5^948.22^", -- [97]
-				"^1836^8^1529997330^39^1^5^934.64^", -- [98]
-				"^1837^8^1529997560^70^1^5^934.76^", -- [99]
-				"^1838^8^1529997843^66^1^5^939.69^", -- [100]
-				"^1839^8^1529998042^40^1^5^939.69^", -- [101]
-				"^1836^8^1531548194^31^1^5^944.98^", -- [102]
-				"^1837^8^1531548497^42^1^5^944.98^", -- [103]
-				"^1838^8^1531548713^54^1^5^944.98^", -- [104]
-				"^1839^8^1531548903^38^1^5^944.98^", -- [105]
+			["Brity"] = {
 			},
 			["Kindhoof"] = {
 			},
-			["Mallubank"] = {
+			["Faerand"] = {
+				"^1815^2^1498402669^26^1^5^683.70^", -- [1]
+				"^1850^2^1498402755^0^0^5^813.60^Iceqùeen-Drak'thul", -- [2]
+				"^2055^2^1498404184^49^1^5^874.17^", -- [3]
+				"^2057^2^1498404553^120^1^5^877.11^Iceqùeen-Drak'thul", -- [4]
+				"^2053^2^1498404985^136^1^5^879.25^", -- [5]
+				"^2039^2^1498405231^112^1^5^879.25^", -- [6]
+				"^1836^2^1499034592^45^1^5^846.14^", -- [7]
+				"^1837^2^1499035077^59^1^5^848.69^", -- [8]
+				"^1838^2^1499035231^57^1^5^849.25^", -- [9]
+				"^1839^2^1499035421^68^1^5^849.25^", -- [10]
+				"^1822^2^1515981926^38^1^5^916.84^", -- [11]
+				"^1822^23^1515982453^25^1^5^935.80^", -- [12]
+				"^1823^23^1515982569^17^1^5^930.34^", -- [13]
+				"^1824^23^1515982672^75^1^5^932.94^", -- [14]
+				"^1822^23^1516086397^37^1^5^893.41^", -- [15]
+				"^1823^23^1516086617^26^1^5^926.72^", -- [16]
+				"^1824^23^1516086774^95^1^5^926.72^", -- [17]
+				"^1822^23^1516087084^31^1^5^893.41^", -- [18]
+				"^1823^23^1516087257^21^1^5^918.20^", -- [19]
+				"^1824^23^1516087389^85^1^5^918.20^", -- [20]
+				"^1822^23^1516087672^32^1^5^929.59^", -- [21]
+				"^1823^23^1516087848^25^1^5^911.44^", -- [22]
+				"^1824^23^1516087985^68^1^5^911.44^", -- [23]
+				"^2065^8^1516781400^86^0^5^916.59^", -- [24]
+				"^2065^8^1516781520^79^1^5^916.59^Bravebubble-Darkspear", -- [25]
+				"^2066^8^1516782027^67^0^5^916.59^Kunfucartman-Nesingwary", -- [26]
+				"^2066^8^1516782188^76^0^5^913.56^Hooplaahh-Darkspear", -- [27]
+				"^2066^8^1516782350^99^1^5^919.63^Bravebubble-Darkspear", -- [28]
+				"^2067^8^1516782781^77^1^5^911.06^", -- [29]
+				"^2068^8^1516782969^97^1^5^911.06^", -- [30]
+				"^2076^16^1517638546^401^0^20^849.50^Faerand", -- [31]
+				"^2076^16^1517639072^405^0^20^956.21^Dazandis", -- [32]
+				"^2076^16^1517639584^287^0^20^955.88^Dazandis", -- [33]
+				"^2076^16^1517639977^11^0^20^955.36^Faerand", -- [34]
+				"^2076^16^1517640070^353^0^20^955.36^Chaosblades", -- [35]
+				"^2076^16^1517640505^352^1^20^954.93^Garroo", -- [36]
+				"^1810^23^1519185826^19^1^5^927.17^", -- [37]
+				"^1811^23^1519185963^20^1^5^922.67^", -- [38]
+				"^1813^23^1519186045^48^1^5^922.67^Aagabriel-Arthas", -- [39]
+				"^1812^23^1519186235^24^1^5^927.17^", -- [40]
+				"^1814^23^1519186333^23^1^5^927.17^", -- [41]
+				"^1836^23^1519278974^17^1^5^924.17^", -- [42]
+				"^1837^23^1519279147^28^1^5^924.17^", -- [43]
+				"^1838^23^1519279263^31^1^5^924.17^", -- [44]
+				"^1839^23^1519279402^19^1^5^924.17^", -- [45]
+				"^1836^8^1520114915^78^0^5^953.02^Caillis-Tichondrius", -- [46]
+				"^1836^8^1520115060^71^1^5^953.33^Sherbybuns-Tichondrius", -- [47]
+				"^1837^8^1520115390^100^1^5^953.48^", -- [48]
+				"^1838^8^1520115613^114^1^5^953.33^Sherbybuns-Tichondrius", -- [49]
+				"^1839^8^1520115907^109^0^5^953.33^Faerand", -- [50]
+				"^1839^8^1520116194^83^0^5^953.33^Sherbybuns-Tichondrius", -- [51]
+				"^1839^8^1520116417^110^1^5^950.48^", -- [52]
+				"^2055^8^1520139674^69^1^5^957.65^", -- [53]
+				"^2057^8^1520139877^60^1^5^957.65^Kalithumos-Tichondrius", -- [54]
+				"^2053^8^1520140073^175^1^5^957.96^Reportmepls-Tichondrius", -- [55]
+				"^2039^8^1520140300^106^1^5^958.14^", -- [56]
 			},
-			["Zaliga"] = {
-			},
-		},
-		["names"] = {
-			[2024] = "Skarvold & Dalronn",
-			[2025] = "Ingvar the Plunderer",
-			[2026] = "Prince Keleseth",
-			[2027] = "Gortok Palehoof",
-			[2028] = "King Ymiron",
-			[2029] = "Skadi the Ruthless",
-			[2030] = "Svala Sorrowgrave",
-			[2031] = "Nightbane",
-			[2032] = "Goroth",
-			[1777] = "Fel Lord Zakuun",
-			[1778] = "Hellfire Assault",
-			[382] = "Mekgineer Thermaplugg",
-			[2036] = "Harjatan",
-			[2037] = "Mistress Sassz'ine",
-			[1271] = "Murozond",
-			[2038] = "Fallen Avatar",
-			[1783] = "Gorefiend",
-			[2039] = "Mephistroth",
-			[1784] = "Tyrant Velhari",
-			[1785] = "Iron Reaver",
-			[1786] = "Kilrogg Deadeye",
-			[1022] = "Atramedes",
-			[1787] = "Kormrok",
-			[1788] = "Shadow-Lord Iskar",
-			[1023] = "Chimaeron",
-			[1790] = "Rokmora",
-			[1024] = "Magmaw",
-			[1791] = "Ularogg Cragshaper",
-			[1025] = "Maloriak",
-			[1792] = "Naraxas",
-			[2048] = "Demonic Inquisition",
-			[1793] = "Dargrul the Underking",
-			[2050] = "Sisters of the Moon",
-			[2051] = "Kil'jaeden",
-			[2052] = "Maiden of Vigilance",
-			[2053] = "Domatrax",
-			[2054] = "The Desolate Host",
-			[2055] = "Agronox",
-			[1030] = "Halfus Wyrmbreaker",
-			[2057] = "Thrashbite the Scornful",
-			[1798] = "Hellfire High Council",
-			[1032] = "Theralion and Valiona",
-			[1799] = "Archimonde",
-			[2063] = "Aggramar",
-			[2064] = "Portal Keeper Hasabel",
-			[2065] = "Zuraal the Ascended",
-			[2066] = "Saprish",
-			[2067] = "Viceroy Nezhar",
-			[519] = "Frozen Commander",
-			[2069] = "Varimathras",
-			[2070] = "Antoran High Command",
-			[1038] = "Corla, Herald of Twilight",
-			[1805] = "Hymdall",
-			[2074] = "Felhounds of Sargeras",
-			[2075] = "The Defense of Eonar",
-			[2076] = "Garothi Worldbreaker",
-			[1807] = "Fenryr",
-			[1041] = "Altairus",
-			[1808] = "God-King Skovald",
-			[1042] = "Asaad",
-			[1809] = "Odyn",
-			[2082] = "Imonar the Soulhunter",
-			[1810] = "Warlord Parjesh",
-			[1044] = "Commander Ulthok",
-			[1811] = "Lady Hatecoil",
-			[1045] = "Lady Naz'jar",
-			[1812] = "King Deepbeard",
-			[2088] = "Kin'garoth",
-			[1813] = "Serpentrix",
-			[1047] = "Ozumat",
-			[1814] = "Wrath of Azshara",
-			[1048] = "Drahga Shadowburner",
-			[1815] = "Tirathon Saltheril",
-			[1049] = "Erudax",
-			[1305] = "Sha of Violence",
-			[1050] = "Forgemaster Throngus",
-			[1306] = "Taran Zhu",
-			[1051] = "General Umbriss",
-			[1818] = "Cordana Felsong",
-			[2100] = "Viq'Goth",
-			[2101] = "The Sand Queen",
-			[2102] = "Jes Howlis",
-			[2103] = "Knight Captain Valyri",
-			[2104] = "Overseer Korgus",
-			[2105] = "Coin-Operated Crowd Pummeler",
-			[2106] = "Azerokk",
-			[1822] = "Ymiron, the Fallen King",
-			[1056] = "Corborus",
-			[1823] = "Harbaron",
-			[1057] = "High Priestess Azil",
-			[1824] = "Helya",
-			[1058] = "Ozruk",
-			[1825] = "Corstilax",
-			[1059] = "Slabhide",
-			[1826] = "Nal'tira",
-			[1060] = "\"Captain\" Cookie",
-			[1827] = "Ivanyr",
-			[2118] = "Cragmaw the Infested",
-			[1828] = "General Xakal",
-			[1062] = "Admiral Ripsnarl",
-			[1829] = "Advisor Vandros",
-			[1063] = "Foe Reaper 5000",
-			[2123] = "Unbound Abomination",
-			[1064] = "Glubtok",
-			[2125] = "Merektha",
-			[1065] = "Helix Gearbreaker",
-			[1832] = "Amalgam of Souls",
-			[1833] = "Ilysanna Ravencrest",
-			[2130] = "Aqu'sirr",
-			[1834] = "Smashspite the Hateful",
-			[2132] = "Lord Stormsong",
-			[1835] = "Lord Kur'talos Ravencrest",
-			[1069] = "Baron Ashbury",
-			[1836] = "Archdruid Glaidalis",
-			[1070] = "Baron Silverlaine",
-			[1837] = "Oakheart",
-			[1071] = "Commander Springvale",
-			[1838] = "Dresaron",
-			[1072] = "Lord Godfrey",
-			[1839] = "Shade of Xavius",
-			[1073] = "Lord Walden",
-			[1074] = "Ammunae",
-			[1841] = "Ursoc",
-			[1075] = "Anraphet",
-			[1842] = "Krosus",
-			[667] = "Shazzrah",
-			[1077] = "Isiset",
-			[1078] = "Rajh",
-			[1845] = "Shivermaw",
-			[1079] = "Setesh",
-			[1846] = "Mindflayer Kaahrj",
-			[1080] = "Temple Guardian Anhuur",
-			[1847] = "Millificent Manastorm",
-			[1081] = "Vanessa VanCleef",
-			[1849] = "Skorpyron",
-			[1083] = "Sinestra",
-			[1850] = "Inquisitor Tormentorum",
-			[1851] = "Sael'orn",
-			[1852] = "Anub'esset",
-			[1853] = "Nythendra",
-			[1854] = "Dragons of Nightmare",
-			[1855] = "Blood-Princess Thal'ena",
-			[1856] = "Fel Lord Betrug",
-			[1090] = "Sartharion",
-			[547] = "Revelosh",
-			[1862] = "Tichondrius",
-			[549] = "Ironaya",
-			[1863] = "Star Augur Etraeus",
-			[1864] = "Xavius",
-			[1865] = "Chronomatic Anomaly",
-			[1866] = "Gul'dan",
-			[551] = "Ancient Stone Keeper",
-			[1867] = "Trilliax",
-			[1868] = "Patrol Captain Gerdo",
-			[552] = "Galgann Firehammer",
-			[1869] = "Talixae Flamewreath",
-			[1870] = "Advisor Melandrus",
-			[553] = "Grimlok",
-			[1871] = "Spellblade Aluriel",
-			[1872] = "Grand Magistrix Elisande",
-			[554] = "Archaedas",
-			[1873] = "Il'gynoth, The Heart of Corruption",
-			[1107] = "Anub'Rekhan",
-			[235] = "Bael'Gar",
-			[1108] = "Gluth",
-			[1109] = "Gothik the Harvester",
-			[1876] = "Elerethe Renferal",
-			[1110] = "Grand Widow Faerlina",
-			[1877] = "Cenarius",
-			[1111] = "Grobbulus",
-			[1112] = "Heigan the Unclean",
-			[343] = "Zevrim Thornhoof",
-			[1113] = "Instructor Razuvious",
-			[1114] = "Kel'Thuzad",
-			[1881] = "Echo of Baine",
-			[1115] = "Loatheb",
-			[1116] = "Maexxna",
-			[1883] = "Echo of Jaina",
-			[1117] = "Noth the Plaguebringer",
-			[1118] = "Patchwerk",
-			[1119] = "Sapphiron",
-			[1886] = "High Botanist Tel'arn",
-			[1120] = "Thaddius",
-			[1887] = "Obsidian Sentinel",
-			[1121] = "The Four Horsemen",
-			[346] = "Alzzin the Wildshaper",
-			[1126] = "Archavon the Stone Watcher",
-			[1127] = "Emalon the Storm Watcher",
-			[1128] = "Koralon the Flame Watcher",
-			[347] = "Illyanna Ravenoak",
-			[1129] = "Toravon the Ice Watcher",
-			[475] = "Willey Hopebreaker",
-			[1130] = "Algalon the Observer",
-			[1131] = "Auriaya",
-			[1132] = "Flame Leviathan",
-			[348] = "Magister Kalendris",
-			[1133] = "Freya",
-			[476] = "Commander Malor",
-			[1134] = "General Vezax",
-			[1390] = "Feng the Accursed",
-			[1135] = "Hodir",
-			[1136] = "Ignis the Furnace Master",
-			[349] = "Immol'thar",
-			[1137] = "Kologarn",
-			[477] = "Instructor Galford",
-			[1138] = "Mimiron",
-			[1139] = "Razorscale",
-			[1395] = "The Stone Guard",
-			[1140] = "The Assembly of Iron",
-			[350] = "Tendris Warpwood",
-			[1141] = "Thorim",
-			[1397] = "Saboteur Kip'tilak",
-			[1142] = "XT-002 Deconstructor",
-			[1143] = "Yogg-Saron",
-			[1144] = "Hogger",
-			[1145] = "Lord Overheat",
-			[479] = "Baroness Anastari",
-			[1146] = "Randolph Moloch",
-			[1659] = "Warlord Ramtusk",
-			[1660] = "Groyat, the Blind Hunter",
-			[1405] = "Striker Ga'dok",
-			[1661] = "Chalgra Razorflank",
-			[1406] = "Commander Ri'mok",
-			[1662] = "Aaurx",
-			[1407] = "Will of the Emperor",
-			[1663] = "Mordresh Fire Eye",
-			[1664] = "Mushlump",
-			[1409] = "Protectors of the Endless",
-			[1665] = "Death Speaker Blackthorn",
-			[1666] = "Amnennar the Coldbringer",
-			[2127] = "Avatar of Sethraliss",
-			[1667] = "Ghamoo-ra",
-			[2126] = "Galvazzt",
-			[1668] = "Domina",
-			[482] = "Magistrate Barthilas",
-			[1669] = "Subjugator Kor'ul",
-			[2124] = "Adderis and Aspix",
-			[1670] = "Executioner Gore",
-			[2096] = "Lord Harlan Sweete",
-			[1671] = "Twilight Lord Bathiel",
-			[709] = "The Prophet Skeram",
-			[1672] = "Aku'mai",
-			[483] = "Ramstein the Gorger",
-			[2095] = "Ring of Booty",
-			[710] = "Silithid Royalty",
-			[2094] = "Council o' Captains",
-			[242] = "Ambassador Flamelash",
-			[1675] = "Thruk",
-			[711] = "Battleguard Sartura",
-			[1676] = "Guardian of the Deep",
-			[484] = "Lord Aurius Rivendare",
-			[2107] = "Rixxa Fluxfume",
-			[712] = "Fankriss the Unyielding",
-			[2133] = "Vol'zith the Whisperer",
-			[1423] = "Thalnos the Soulrender",
-			[585] = "Lady Anacondra",
-			[1424] = "Brother Korloff",
-			[2131] = "Tidesage Council",
-			[1425] = "High Inquisitor Whitemane",
-			[586] = "Lord Cobrahn",
-			[714] = "Princess Huhuran",
-			[1039] = "Karsh Steelbender",
-			[243] = "The Seven",
-			[587] = "Kresh",
-			[715] = "Twin Emperors",
-			[422] = "Noxxion",
-			[1429] = "Lilian Voss",
-			[588] = "Lord Pythas",
-			[716] = "Ouro",
-			[2086] = "Rezan",
-			[2113] = "Heartsbane Triad",
-			[589] = "Skum",
-			[717] = "C'thun",
-			[423] = "Razorlash",
-			[487] = "Weaver",
-			[590] = "Lord Serpentis",
-			[1434] = "Gara'jal the Spiritbinder",
-			[2114] = "Soulbound Goliath",
-			[244] = "Magmus",
-			[591] = "Verdan the Everliving",
-			[1436] = "The Spirit Kings",
-			[424] = "Lord Vyletongue",
-			[488] = "Jammal'an the Prophet",
-			[592] = "Mutanus the Devourer",
-			[2117] = "Gorak Tul",
-			[1040] = "Rom'ogg Bonecrusher",
-			[232] = "Lord Incendius",
-			[593] = "Hydromancer Velratha",
-			[361] = "Prince Tortheldrin",
-			[425] = "Celebras the Cursed",
-			[1441] = "Xin the Weaponmaster",
-			[594] = "Ghaz'rilla",
-			[1442] = "Trial of the King",
-			[671] = "Majordomo Executus",
-			[1954] = "Maiden of Virtue",
-			[595] = "Antu'sul",
-			[1444] = "Dark Shaman Koranthal",
-			[426] = "Landslide",
-			[1445] = "Slagmaw",
-			[596] = "Theka the Martyr",
-			[1957] = "Opera Hall",
-			[2115] = "Raal the Gluttonous",
-			[1447] = "General Pa'valak",
-			[597] = "Witch Doctor Zum'rah",
-			[1959] = "Mana Devourer",
-			[427] = "Tinkerer Gizlock",
-			[1960] = "Attumen the Huntsman",
-			[598] = "Nekrum Gutchewer",
-			[1961] = "Moroes",
-			[670] = "Golemagg the Incinerator",
-			[1962] = "Guarm",
-			[599] = "Shadowpriest Sezz'ziz",
-			[364] = "Guard Fengus",
-			[428] = "Rotgrip",
-			[1964] = "The Curator",
-			[600] = "Chief Ukorz Sandscalp",
-			[1965] = "Shade of Medivh",
-			[663] = "Lucifron",
-			[1966] = "Prince Taldaram",
-			[666] = "Garr",
-			[1967] = "Jedoga Shadowseeker",
-			[429] = "Princess Theradras",
-			[1968] = "Herald Volazj",
-			[491] = "Hazzas",
-			[1969] = "Elder Nadox",
-			[2013] = "Ley-Guardian Eregos",
-			[492] = "Avatar of Hakkar",
-			[1430] = "Darkmaster Gandling",
-			[366] = "Captain Kromcrush",
-			[1029] = "Cho'gall",
-			[1972] = "Hadronox",
-			[2011] = "Keristrasza",
-			[1973] = "Anub'arak",
-			[344] = "Hydrospawn",
-			[1974] = "Trollgore",
-			[1656] = "Hunter Bonetusk",
-			[1464] = "Wing Leader Ner'onok",
-			[1975] = "The Prophet Tharon'ja",
-			[1465] = "Vizier Jin'bak",
-			[1721] = "Kargath Bladefist",
-			[1977] = "King Dred",
-			[486] = "Dreamscythe",
-			[1978] = "Slad'ran",
-			[1976] = "Novos the Summoner",
-			[368] = "King Gordok",
-			[367] = "Cho'Rush the Observer",
-			[1980] = "Moorabi",
-			[380] = "Electrocutioner 6000",
-			[1981] = "Gal'darah",
-			[1817] = "Glazer",
-			[1800] = "Xhul'horac",
-			[478] = "Balnazzar",
-			[1983] = "Drakkari Colossus",
-			[245] = "Emperor Dagran Thaurissan",
-			[1984] = "Ionar",
-			[610] = "Razorgore the Untamed",
-			[1985] = "Volkhan",
-			[1028] = "Ascendant Council",
-			[1986] = "Loken",
-			[611] = "Vaelastrasz the Corrupt",
-			[1987] = "General Bjarngrim",
-			[1419] = "Raigonn",
-			[481] = "Maleki the Pallid",
-			[612] = "Broodlord Lashlayer",
-			[1046] = "Mindbender Ghur'sha",
-			[1971] = "Krik'thir the Gatewatcher",
-			[362] = "Guard Mol'dar",
-			[613] = "Firemaw",
-			[480] = "Nerub'enkan",
-			[2068] = "L'ura",
-			[1422] = "Houndmaster Braun",
-			[614] = "Ebonroc",
-			[1043] = "Grand Vizier Ertan",
-			[1816] = "Ash'Golm",
-			[365] = "Guard Slip'kik",
-			[1304] = "Master Snowdrift",
-			[1958] = "Odyn",
-			[363] = "Stomper Kreeg",
-			[1806] = "Hyrja",
-			[616] = "Chromaggus",
-			[2073] = "The Coven of Shivarra",
-			[1443] = "Adarogg",
-			[1446] = "Lava Guard Gordoth",
-			[617] = "Nefarian",
-			[1999] = "Forgemaster Garfrost",
-			[1794] = "Socrethar the Eternal",
-			[2000] = "Scourgelord Tyrannus",
-			[2092] = "Argus the Unmaker",
-			[2001] = "Krick",
-			[1795] = "Mannoroth",
-			[2002] = "Meathook",
-			[1303] = "Gu Cloudstrike",
-			[2003] = "Chrono-Lord Epoch",
-			[438] = "Roogug",
-			[2004] = "Salram the Fleshcrafter",
-			[1421] = "Armsmaster Harlan",
-			[2005] = "Mal'ganis",
-			[1426] = "Instructor Chillheart",
-			[1420] = "Flameweaver Koegler",
-			[1428] = "Rattlegore",
-			[345] = "Lethtendris",
-			[665] = "Gehennas",
-			[2008] = "Helya",
-			[669] = "Sulfuron Harbinger",
-			[2009] = "Anomalus",
-			[1427] = "Jandice Barov",
-			[2010] = "Grand Magus Telestra",
-			[490] = "Morphaz",
-			[1500] = "Elegon",
-			[664] = "Magmadar",
-			[2012] = "Ormorok the Tree-Shaper",
-			[493] = "Shade of Eranikus",
-			[1502] = "Commander Vo'jak",
-			[234] = "Fineous Darkvire",
-			[2014] = "Mage-Lord Urom",
-			[668] = "Baron Geddon",
-			[2015] = "Varos Cloudstrider",
-			[2116] = "Lord and Lady Waycrest",
-			[2016] = "Drakos the Interrogator",
-			[672] = "Ragnaros",
-			[2017] = "Viz'aduum the Watcher",
-			[2093] = "Skycap'n Kragg",
-			[1027] = "Omnotron Defense System",
-			[1026] = "Nefarian's End",
-			[378] = "Viscous Fallout",
-			[2085] = "Vol'kaal",
-			[2084] = "Priestess Alun'za",
-			[2087] = "Yazma",
-			[1510] = "Gekkan",
-			[2108] = "Mogul Razdunk",
-			[2111] = "Elder Leaxa",
-			[2112] = "Sporecaller Zancha",
-			[2098] = "Chopper Redhook",
-			[2109] = "Dread Captain Lockwood",
-			[2099] = "Hadal Darkfathom",
 		},
 	},
 	["InviteTool"] = {
@@ -8794,17 +8794,17 @@ VExRT = {
 			[196718] = true,
 			[33206] = true,
 			[200183] = true,
-			[31821] = true,
-			[116849] = true,
+			[204018] = true,
+			[47788] = true,
 			[97462] = true,
 			[15286] = true,
-			[6940] = true,
+			[102342] = true,
 			[62618] = true,
 			[47536] = true,
-			[102342] = true,
+			[6940] = true,
 			[108280] = true,
-			[47788] = true,
-			[204018] = true,
+			[116849] = true,
+			[31821] = true,
 		},
 		["enabled"] = true,
 		["default_userDuration"] = {
@@ -8816,10 +8816,14 @@ VExRT = {
 			["Bilopdop-Hyjal"] = 72,
 			["Broclaw-Executus"] = 104,
 			["Cathelaide-Eldre'Thalas"] = 267,
+			["Shamanzão-Nemesis"] = 263,
+			["Junlear-Turalyon"] = 64,
 			["Lionsen-Sargeras"] = 70,
 			["Talvik-Llane"] = 252,
 			["Liä-EmeraldDream"] = 105,
+			["Taladorak-ScarletCrusade"] = 66,
 			["Towely-Gorefiend"] = 70,
+			["Fieryfang-Ysera"] = 72,
 			["Macgam-Proudmoore"] = 253,
 			["Wingnutt-Icecrown"] = 64,
 			["Lylrin-Dalaran"] = 254,
@@ -8829,32 +8833,43 @@ VExRT = {
 			["Iceen-Sargeras"] = 577,
 			["Komak-Sargeras"] = 253,
 			["Zmfr-Stormrage"] = 268,
+			["Geerss-Dalaran"] = 64,
 			["Amertasu-Sargeras"] = 251,
+			["Mcgilikuty-Aggramar"] = 253,
 			["Nikkamortia-Stormrage"] = 265,
 			["Jaisonjjanke-Gallywix"] = 253,
 			["Hasaan-Azuremyst"] = 72,
 			["Tormentedx-Trollbane"] = 62,
 			["Jepha-Exodar"] = 267,
 			["Patton-Destromath"] = 70,
+			["Kamri-Velen"] = 250,
 			["Lohn-Medivh"] = 72,
 			["Lythie-Gilneas"] = 64,
 			["Verdance-Gilneas"] = 102,
 			["Valiarra-Dalaran"] = 253,
 			["Raeda-EchoIsles"] = 265,
+			["Sorathsdmn-Ysera"] = 581,
+			["Religiøn-Stormrage"] = 70,
+			["Bottega-Stormrage"] = 265,
 			["Ezgeez-Sargeras"] = 265,
 			["Kuroefv-Nemesis"] = 261,
 			["Brokenbow-Turalyon"] = 253,
 			["Piriwit-Ragnaros"] = 259,
 			["Judgesavage-Sargeras"] = 66,
 			["Sorcanannan-Kael'thas"] = 253,
+			["Arcanecycles-Sargeras"] = 64,
 			["Sü-Drakkari"] = 253,
 			["Ultrathorick-Windrunner"] = 72,
 			["Antioche-Ravencrest"] = 70,
 			["Bennybigbrew-Frostmourne"] = 268,
+			["Oreioh-BlackwingLair"] = 269,
+			["Bericc-Alexstrasza"] = 70,
 			["Lð-Sentinels"] = 259,
 			["Discord-ShadowCouncil"] = 256,
 			["Tarddumius-Lightbringer"] = 577,
 			["Foopan-EmeraldDream"] = 268,
+			["Alxya-Frostmourne"] = 251,
+			["Qleaner-Bloodhoof"] = 254,
 			["Linariel-Cenarius"] = 260,
 			["Jnglss-Exodar"] = 577,
 			["Ârmyofone-Norgannon"] = 259,
@@ -8874,11 +8889,15 @@ VExRT = {
 			["Silverteeth-Proudmoore"] = 260,
 			["Nixki-Sen'jin"] = 253,
 			["Punkadin-Trollbane"] = 70,
+			["Valon-Ravencrest"] = 253,
 			["Ajaxs-Fenris"] = 70,
 			["Archaon-Terenas"] = 266,
 			["Zanmatø-Nemesis"] = 70,
+			["Mortos-Thrall"] = 260,
 			["Wimwicket-Ravencrest"] = 254,
 			["Rach-Ragnaros"] = 261,
+			["Ikeabedstand-Dalaran"] = 72,
+			["Vemy-Zul'jin"] = 70,
 			["Snichtzel-Boulderfist"] = 577,
 			["Adinna-Proudmoore"] = 103,
 			["Alydria-AeriePeak"] = 258,
@@ -8886,15 +8905,19 @@ VExRT = {
 			["Zillver-SilverHand"] = 72,
 			["Whitcombe-MoonGuard"] = 260,
 			["Árës-Kilrogg"] = 72,
+			["Edron-Nemesis"] = 70,
 			["Thuylinh-Stormrage"] = 263,
 			["Jandro-Sargeras"] = 72,
 			["Cryptvine-Arathor"] = 105,
+			["Lasskicker-Dragonmaw"] = 269,
+			["Jorhel-Frostwolf"] = 70,
 			["Hilgrid-MoonGuard"] = 72,
 			["Toasterere-Fenris"] = 65,
 			["Finnaden-Proudmoore"] = 71,
 			["Kallah-Darrowmere"] = 253,
 			["Boomclick-AeriePeak"] = 260,
 			["Rookiy-AeriePeak"] = 63,
+			["Skyless-AeriePeak"] = 267,
 			["Dreamax-Kel'Thuzad"] = 105,
 			["Verduz"] = 259,
 			["Trommir-Nemesis"] = 70,
@@ -8907,19 +8930,21 @@ VExRT = {
 			["Badboots-Darkspear"] = 252,
 			["Vajenda-KulTiras"] = 64,
 			["Holykreeper-Exodar"] = 66,
+			["Camigwen-Fizzcrank"] = 262,
 			["Janedojah-Stormrage"] = 258,
 			["Pepiere-Blackhand"] = 66,
 			["Lysàndrá-Frostmourne"] = 265,
 			["Luthiran-Darrowmere"] = 64,
 			["Erebus-Gilneas"] = 577,
 			["Cheesedonut-Sargeras"] = 102,
+			["Vathrok-Frostmourne"] = 253,
 			["Arenn-Uldum"] = 63,
 			["Vesaris-Khaz'goroth"] = 260,
 			["Crotchitty-Fizzcrank"] = 66,
 			["Honeylily-Sargeras"] = 264,
 			["Pandrogynous-Exodar"] = 269,
 			["Galharris-Frostmourne"] = 71,
-			["Swagonomix-EmeraldDream"] = 259,
+			["Amelyana-Icecrown"] = 263,
 			["Trevonn-Stormrage"] = 70,
 			["Aerylea-WyrmrestAccord"] = 270,
 			["Khairah-Proudmoore"] = 263,
@@ -8928,21 +8953,43 @@ VExRT = {
 			["Calignosity-Korgath"] = 73,
 			["Karson-Turalyon"] = 66,
 			["Delliana-Aggramar"] = 102,
+			["Reproach"] = 251,
+			["Slayerdemonx-GrizzlyHills"] = 252,
 			["Omnius-Dragonblight"] = 577,
+			["Jutros-ShadowCouncil"] = 262,
 			["Joseblowsmen-Proudmoore"] = 71,
 			["Gencela-Duskwood"] = 62,
+			["Critswalkin-Cenarius"] = 269,
 			["Aethios-MoonGuard"] = 104,
+			["Ðuchess-AeriePeak"] = 70,
 			["Eousphorus-Alleria"] = 62,
+			["Sevacis-Terokkar"] = 263,
 			["Amages-Dalaran"] = 64,
+			["Magici-Proudmoore"] = 64,
+			["Eredruin-Stormrage"] = 267,
+			["Anxt-Anvilmar"] = 72,
+			["Oberoth-Ravencrest"] = 263,
+			["Niscoops-Kel'Thuzad"] = 64,
+			["Grenth-Kilrogg"] = 71,
+			["Eíforya-Frostmourne"] = 252,
 			["Bøltzman-EmeraldDream"] = 262,
 			["Elinicia-Stormrage"] = 63,
 			["Lilmac-BoreanTundra"] = 62,
+			["Dias-Lightbringer"] = 66,
 			["Kelari-Trollbane"] = 105,
+			["Lrellia"] = 66,
+			["Bustèr-Zul'jin"] = 260,
 			["Durhallem-Stormrage"] = 71,
 			["Solzhenitsyn-Saurfang"] = 72,
+			["Luckystrikes-Doomhammer"] = 253,
+			["Monsterbuds-Dalaran"] = 265,
 			["Goozeface-BleedingHollow"] = 64,
 			["Peridöt-Garrosh"] = 581,
+			["Zeuxis-Malygos"] = 253,
+			["Frannie-Kel'Thuzad"] = 72,
+			["Brattinela-Moonrunner"] = 70,
 			["Luthair-Cairne"] = 70,
+			["Msdemeanor-Frostmourne"] = 265,
 			["Magnasus-WyrmrestAccord"] = 64,
 			["Outalife-Dalaran"] = 270,
 			["Jureshall-Dalaran"] = 265,
@@ -8950,170 +8997,215 @@ VExRT = {
 			["Paaradi-Winterhoof"] = 70,
 			["Captnreid-Kel'Thuzad"] = 66,
 			["Neebs-Dalaran"] = 577,
+			["Swoopdog-Stormrage"] = 267,
+			["Venger-DemonSoul"] = 581,
+			["Hashashn-Sargeras"] = 66,
+			["Artacuno-AeriePeak"] = 254,
+			["Maressa-Durotan"] = 258,
+			["Veledra-Sargeras"] = 253,
+			["Dallirra-Alexstrasza"] = 581,
 			["Chillywilly-Fizzcrank"] = 250,
+			["Sharpflex-Ragnaros"] = 73,
+			["Pica-Rexxar"] = 63,
+			["Nuchanat-Dentarg"] = 253,
+			["Pyrha-Hyjal"] = 72,
+			["Zatechz-Lightbringer"] = 71,
+			["Mallusof"] = 258,
+			["Multipieles-Quel'Thalas"] = 104,
+			["Waygu-Sargeras"] = 261,
 			["Alanyc-Baelgun"] = 252,
 			["Alymew-EmeraldDream"] = 581,
 			["Prinçêss-EmeraldDream"] = 262,
 			["Jaslyn-Winterhoof"] = 267,
 			["Azàzel-Kael'thas"] = 577,
+			["Kiptinnutron-Quel'dorei"] = 64,
+			["Srjarol-Sargeras"] = 577,
+			["Ismyea-Sargeras"] = 251,
 			["Dassinnar-Stormrage"] = 102,
+			["Pènny-AeriePeak"] = 70,
 			["Orixa-Khaz'goroth"] = 265,
+			["Gemmakitty-Kil'jaeden"] = 577,
 			["Retrybution-Lothar"] = 70,
 			["Hoii-Shadowsong"] = 253,
+			["Vortis-Kel'Thuzad"] = 71,
 			["Grimsins-Antonidas"] = 66,
+			["Abdelelkarim-Llane"] = 66,
 			["Redpowwow-Sargeras"] = 269,
+			["Edmaged-WyrmrestAccord"] = 64,
 			["Asteryx-Whisperwind"] = 103,
-			["Acë-Sargeras"] = 266,
+			["Shadowrun-Whisperwind"] = 255,
+			["Zeaks-WyrmrestAccord"] = 253,
+			["Omna-Stormrage"] = 70,
+			["Ayreas-Sargeras"] = 71,
 			["Whilatit-BoreanTundra"] = 253,
 			["Sebashtion-Fenris"] = 70,
+			["Speedyjosh-Windrunner"] = 63,
+			["Thundrenden-Dalaran"] = 577,
+			["Khoma-Proudmoore"] = 252,
 			["Rhadamanthys-CenarionCircle"] = 70,
+			["Dorofei-Aggramar"] = 72,
+			["Oardian-Malygos"] = 267,
+			["Sekkor-AeriePeak"] = 252,
+			["Algoboom-Icecrown"] = 104,
+			["Erinyagokoro-Frostmane"] = 70,
+			["Zírael-Sargeras"] = 250,
+			["ßoorådley-Medivh"] = 64,
 			["Lasershark-Alexstrasza"] = 73,
+			["Oldlu"] = 71,
 			["Taliah-Proudmoore"] = 63,
-			["Eouen"] = 102,
+			["Thelldran-Lightbringer"] = 66,
 			["Drowa-Blackhand"] = 253,
 			["Darmana-Dalaran"] = 266,
 			["Tinynoze-Stormrage"] = 253,
-			["Dorofei-Aggramar"] = 72,
+			["Farfurry-Korgath"] = 102,
+			["Dalbhack-WyrmrestAccord"] = 105,
+			["Zinixie-Lightbringer"] = 64,
+			["Noriafrost-Frostmourne"] = 64,
+			["Frogu-EmeraldDream"] = 269,
 			["Fatesformula-Khadgar"] = 64,
+			["Myshi-Kel'Thuzad"] = 255,
 			["Namenotaken-Stormrage"] = 72,
-			["Algoboom-Icecrown"] = 104,
+			["Édson-Drakkari"] = 66,
+			["Requiem-Greymane"] = 259,
 			["Gormogonzola-Uldaman"] = 253,
+			["Jadedknight-Ravencrest"] = 256,
 			["Tribrid-Lightbringer"] = 102,
-			["Yellowbeard-Llane"] = 66,
-			["Aesoprock-Lightbringer"] = 70,
-			["Sekkor-AeriePeak"] = 252,
-			["Zaavar-MoonGuard"] = 72,
 			["Galsorph-Proudmoore"] = 577,
-			["Eíforya-Frostmourne"] = 252,
-			["Gemmakitty-Kil'jaeden"] = 577,
 			["Zects-Dalaran"] = 70,
-			["Rhorin-Proudmoore"] = 70,
-			["Thios-Greymane"] = 255,
+			["Aesoprock-Lightbringer"] = 70,
+			["Brewnor-Malfurion"] = 65,
+			["Zaavar-MoonGuard"] = 72,
+			["Wayhairy-AeriePeak"] = 258,
+			["Barikade-Sen'jin"] = 71,
+			["Tolstyj-Stormrage"] = 263,
+			["Savienti-WyrmrestAccord"] = 253,
+			["Bully-Whisperwind"] = 104,
+			["Dìstance-Dalaran"] = 269,
 			["Llaothtaed-Mok'Nathal"] = 254,
-			["Tynan-Turalyon"] = 267,
-			["Aldriel-Uldum"] = 252,
-			["Aÿsha-Proudmoore"] = 105,
+			["Manimal-Skywall"] = 103,
+			["Valerie-Nazjatar"] = 260,
+			["Mandahugnkis-Turalyon"] = 72,
 			["Sidiousrmp-Malygos"] = 64,
 			["Trikkshot-EmeraldDream"] = 253,
-			["Noriafrost-Frostmourne"] = 64,
-			["Lykaius-Nemesis"] = 71,
-			["Aredis-Hyjal"] = 70,
-			["Refrígerator-Sargeras"] = 262,
+			["Indom-Turalyon"] = 260,
+			["Dasecondone-Doomhammer"] = 72,
+			["Yandalo-Dalaran"] = 66,
+			["Cantcee-Blackhand"] = 581,
 			["Holysponge-Whisperwind"] = 66,
 			["Fanadir-Sargeras"] = 577,
-			["Karll-Nemesis"] = 70,
-			["Sharpflex-Ragnaros"] = 73,
-			["Urururururu-Sargeras"] = 577,
-			["Edmaged-WyrmrestAccord"] = 64,
-			["Draagyn-Silvermoon"] = 71,
-			["Waygu-Sargeras"] = 261,
-			["Srjarol-Sargeras"] = 577,
+			["Malkz-TolBarad"] = 577,
+			["Ivandro-Nemesis"] = 263,
+			["Fedrico-MoonGuard"] = 64,
+			["Allannia-Caelestrasz"] = 265,
+			["Clearcoms-Stormrage"] = 70,
+			["Soknotty-Darkspear"] = 66,
+			["Aÿsha-Proudmoore"] = 105,
 			["Qynisa-Uldaman"] = 264,
-			["Ismyea-Sargeras"] = 251,
-			["Pènny-AeriePeak"] = 70,
-			["Elfpimpdaddy-Aggramar"] = 253,
-			["Mallusof"] = 258,
+			["Khàllmyr-Goldrinn"] = 73,
+			["Reolt-Stormrage"] = 64,
+			["Lïndsäy-Darkspear"] = 64,
+			["Alynthià-Stormrage"] = 577,
 			["Dekhar-ThoriumBrotherhood"] = 72,
-			["Entreri-Lothar"] = 261,
-			["Jkiller-Sargeras"] = 64,
-			["Zatechz-Lightbringer"] = 71,
-			["Bustèr-Zul'jin"] = 260,
+			["Syklops-Hellscream"] = 70,
+			["Ianaë-Zul'jin"] = 258,
+			["Leaf-TheScryers"] = 72,
+			["Garrwyn-Stormrage"] = 102,
 			["Naichingeru-EarthenRing"] = 255,
 			["Evita-Alexstrasza"] = 260,
 			["Trash-Firetree"] = 70,
 			["Kagesendo-Icecrown"] = 251,
-			["Vulcin-Mannoroth"] = 252,
-			["Alvzav-EmeraldDream"] = 577,
-			["Malkz-TolBarad"] = 577,
-			["Maressa-Durotan"] = 258,
-			["Hoslo-Ragnaros"] = 71,
-			["Underplayed-Dalaran"] = 267,
+			["Helrandor-EmeraldDream"] = 263,
+			["Draagyn-Silvermoon"] = 71,
+			["Erdam-Malygos"] = 253,
+			["Solarblair-Darkspear"] = 70,
+			["Melanyah-Stormrage"] = 102,
+			["Sylràn-WyrmrestAccord"] = 71,
 			["Blazt"] = 64,
-			["Mallath-Stormrage"] = 253,
-			["Missingnomer-Stormrage"] = 105,
-			["Wayhairy-AeriePeak"] = 258,
-			["Lhyrianna-WyrmrestAccord"] = 269,
-			["Saelix-Azuremyst"] = 102,
-			["Tempestra-Winterhoof"] = 62,
-			["Tolstyj-Stormrage"] = 263,
-			["Mandahugnkis-Turalyon"] = 72,
-			["Khàllmyr-Goldrinn"] = 73,
-			["Oldlu"] = 71,
-			["Syklops-Hellscream"] = 70,
-			["Dalbhack-WyrmrestAccord"] = 105,
-			["Eliias-Ravencrest"] = 102,
+			["Felruin-Aman'Thul"] = 262,
+			["Cedradrik-Dalaran"] = 64,
+			["Tormysaves-Uldum"] = 256,
 			["Wîñrÿ-Zangarmarsh"] = 263,
-			["Cantcee-Blackhand"] = 581,
-			["Patricladril-Proudmoore"] = 72,
+			["Daddydang-Aggramar"] = 70,
+			["Tempestra-Winterhoof"] = 62,
+			["Mallath-Stormrage"] = 253,
+			["Vulcin-Mannoroth"] = 252,
+			["Awperators-Kel'Thuzad"] = 253,
+			["Stormyy-Kel'Thuzad"] = 102,
+			["Pinkeyez-Elune"] = 63,
+			["Bravø-Kel'Thuzad"] = 72,
+			["Lhyrianna-WyrmrestAccord"] = 269,
+			["Larasya-Zul'jin"] = 258,
+			["Thygora-Nemesis"] = 253,
+			["Hoslo-Ragnaros"] = 71,
 			["Scaredofbees-Alexstrasza"] = 258,
-			["Brewnor-Malfurion"] = 65,
+			["Patricladril-Proudmoore"] = 72,
 			["Brime-Nesingwary"] = 104,
 			["Zhau-Sargeras"] = 253,
-			["Niscoops-Kel'Thuzad"] = 64,
-			["Tormysaves-Uldum"] = 256,
-			["Bully-Whisperwind"] = 104,
-			["Savienti-WyrmrestAccord"] = 253,
+			["Elfpimpdaddy-Aggramar"] = 253,
+			["Urururururu-Sargeras"] = 577,
+			["Joeytwo-Nazgrel"] = 66,
+			["Aerials-Caelestrasz"] = 73,
 			["Stryke-Sargeras"] = 70,
-			["Ianaë-Zul'jin"] = 258,
-			["Solarblair-Darkspear"] = 70,
+			["Refrígerator-Sargeras"] = 262,
+			["Lorave-EchoIsles"] = 257,
 			["Baltemir-Frostmourne"] = 260,
 			["Victus-Archimonde"] = 62,
-			["Awperators-Kel'Thuzad"] = 253,
+			["Tynan-Turalyon"] = 267,
 			["Jazgnomey-Cairne"] = 254,
-			["Frogu-EmeraldDream"] = 269,
-			["Imindeep-Proudmoore"] = 268,
-			["Cedradrik-Dalaran"] = 64,
-			["Daddydang-Aggramar"] = 70,
-			["Soknotty-Darkspear"] = 66,
 			["Maqarthur-Exodar"] = 66,
-			["Sylràn-WyrmrestAccord"] = 71,
+			["Imindeep-Proudmoore"] = 268,
+			["Jkiller-Sargeras"] = 64,
+			["Entreri-Lothar"] = 261,
+			["Yellowbeard-Llane"] = 66,
+			["Balgur-Proudmoore"] = 253,
+			["Marawynn-AeriePeak"] = 257,
 			["Xanavar-Dalaran"] = 266,
 			["Xenotria-Stormrage"] = 66,
-			["Aerials-Caelestrasz"] = 73,
-			["Indom-Turalyon"] = 260,
+			["Eliias-Ravencrest"] = 102,
+			["Antoriss-Proudmoore"] = 259,
 			["Ahsina-Windrunner"] = 253,
-			["Khoma-Proudmoore"] = 252,
-			["Melanyah-Stormrage"] = 102,
-			["Requiem-Greymane"] = 259,
+			["Hewnn-Malygos"] = 70,
+			["Onoskellis-Skywall"] = 267,
+			["Eouen"] = 102,
 			["Wispilo-Ragnaros"] = 73,
 			["Vennek-Zul'jin"] = 255,
-			["Abdelelkarim-Llane"] = 66,
-			["Garrwyn-Stormrage"] = 102,
+			["Lykaius-Nemesis"] = 71,
+			["Ayefcay-Proudmoore"] = 105,
 			["Penelopeas-Sargeras"] = 66,
-			["ßoorådley-Medivh"] = 64,
-			["Felruin-Aman'Thul"] = 262,
-			["Amelyana-Icecrown"] = 263,
-			["Kiptinnutron-Quel'dorei"] = 64,
-			["Helrandor-EmeraldDream"] = 263,
+			["Aldriel-Uldum"] = 252,
+			["Thios-Greymane"] = 255,
+			["Rhorin-Proudmoore"] = 70,
+			["Missingnomer-Stormrage"] = 105,
+			["Rule-Bladefist"] = 72,
 			["Zmân-Frostmourne"] = 251,
 			["Florunas-Stormrage"] = 264,
-			["Larasya-Zul'jin"] = 258,
-			["Nuchanat-Dentarg"] = 253,
+			["Acë-Sargeras"] = 266,
+			["Alvzav-EmeraldDream"] = 577,
 			["Swansdk-Proudmoore"] = 250,
-			["Thundrenden-Dalaran"] = 577,
-			["Omna-Stormrage"] = 70,
-			["Oardian-Malygos"] = 267,
-			["Reolt-Stormrage"] = 64,
-			["Vortis-Kel'Thuzad"] = 71,
-			["Bravø-Kel'Thuzad"] = 72,
-			["Rule-Bladefist"] = 72,
+			["Durronn-Lightbringer"] = 577,
+			["Tatsuri-Proudmoore"] = 258,
+			["Cableguy-Frostmourne"] = 72,
+			["Nightsevera-Proudmoore"] = 253,
+			["Dygar-Aman'Thul"] = 260,
+			["Underplayed-Dalaran"] = 267,
+			["Bornann-MoonGuard"] = 72,
 			["Sandyhandy-Turalyon"] = 70,
 			["Cassina-Kel'Thuzad"] = 258,
 			["Prohibits-Icecrown"] = 70,
 			["Felysanna-Icecrown"] = 71,
 			["Khanider-Thrall"] = 72,
-			["Luckystrikes-Doomhammer"] = 253,
-			["Clearcoms-Stormrage"] = 70,
+			["Karll-Nemesis"] = 70,
+			["Humud-Quel'Thalas"] = 102,
 			["Takayanagi-Quel'Thalas"] = 251,
-			["Pyrha-Hyjal"] = 72,
+			["Aredis-Hyjal"] = 70,
 			["Kaireh-Turalyon"] = 62,
+			["Lunalesca-Malfurion"] = 258,
 			["Alexsera-Darkspear"] = 253,
-			["Shadowrun-Whisperwind"] = 255,
-			["Artacuno-AeriePeak"] = 254,
-			["Hashashn-Sargeras"] = 66,
-			["Zírael-Sargeras"] = 250,
+			["Bovir-WyrmrestAccord"] = 253,
+			["Saelix-Azuremyst"] = 102,
+			["Swagonomix-EmeraldDream"] = 259,
 			["Dekren-Eldre'Thalas"] = 253,
-			["Marawynn-AeriePeak"] = 257,
+			["Loudwarrior-Proudmoore"] = 71,
 			["Fupaslayer-Sargeras"] = 72,
 		},
 		["userDB"] = {
@@ -9184,6 +9276,7 @@ VExRT = {
 			}, -- [6]
 		},
 		["Top"] = 303.664489746094,
+		["NoRaid"] = true,
 		["colSet"] = {
 			{
 				["textureColorTextCastR"] = 1,
@@ -9233,13 +9326,13 @@ VExRT = {
 				["textureColorTextCooldownG"] = 0.5,
 				["frameScale"] = 200,
 				["textureColorTimeLineCastB"] = 1,
-				["textureColorTextActiveB"] = 0.5,
-				["textureColorTimeLineCooldownR"] = 1,
-				["iconPosition"] = 1,
-				["textTemplateRight"] = "",
+				["textureBorderSize"] = 0,
+				["textureBorderColorA"] = 1,
+				["textureBorderColorG"] = 0,
+				["textureColorTextActiveR"] = 0.5,
 				["textureColorTimeLineCooldownB"] = 1,
-				["textureColorBackgroundCooldownB"] = 1,
-				["textureClassBackground"] = false,
+				["fontName"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+				["textureColorTimeLineActiveR"] = 1,
 				["textureAlphaTimeLine"] = 0,
 				["textureBorderColorR"] = 0,
 				["methodsTimeLineAnimation"] = 1,
@@ -9249,13 +9342,13 @@ VExRT = {
 				["methodsStyleAnimation"] = 1,
 				["methodsDisableActive"] = true,
 				["textureColorTimeLineActiveG"] = 1,
-				["textureColorTimeLineActiveR"] = 1,
-				["fontName"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+				["textureClassBackground"] = false,
+				["textureColorBackgroundCooldownB"] = 1,
 				["methodsSortingRules"] = 1,
-				["textureColorTextActiveR"] = 0.5,
-				["textureBorderColorG"] = 0,
-				["textureBorderColorA"] = 1,
-				["textureBorderSize"] = 0,
+				["textTemplateRight"] = "",
+				["iconPosition"] = 1,
+				["textureColorTimeLineCooldownR"] = 1,
+				["textureColorTextActiveB"] = 0.5,
 				["textureAlphaCooldown"] = 0.7,
 			}, -- [1]
 			{
@@ -9308,26 +9401,26 @@ VExRT = {
 				["textureColorTextCooldownG"] = 1,
 				["textureColorTimeLineCastB"] = 0,
 				["textureColorTimeLineDefaultG"] = 1,
-				["textTemplateLeft"] = "%name%",
-				["textureClassTimeLine"] = false,
+				["textureColorTextDefaultB"] = 1,
+				["textureColorTimeLineActiveR"] = 0,
+				["methodsGeneral"] = true,
+				["textureColorTextActiveR"] = 1,
 				["textureAlphaTimeLine"] = 0.8,
-				["textTemplateRight"] = "%time%",
-				["textureGeneral"] = true,
-				["textureAlphaBackground"] = 0.3,
+				["frameGeneral"] = true,
 				["methodsTimeLineAnimation"] = 1,
-				["textureColorTimeLineDefaultR"] = 0,
+				["textureClassBackground"] = false,
 				["methodsAlphaNotInRangeNum"] = 90,
-				["textureColorBackgroundCastG"] = 1,
+				["textGeneral"] = true,
 				["textureClassText"] = false,
 				["textureColorBackgroundCooldownG"] = 0,
 				["textureColorTimeLineActiveG"] = 1,
-				["textGeneral"] = true,
-				["textureClassBackground"] = false,
-				["frameGeneral"] = true,
-				["textureColorTextActiveR"] = 1,
-				["methodsGeneral"] = true,
-				["textureColorTimeLineActiveR"] = 0,
-				["textureColorTextDefaultB"] = 1,
+				["textureColorBackgroundCastG"] = 1,
+				["textureColorTimeLineDefaultR"] = 0,
+				["textureAlphaBackground"] = 0.3,
+				["textTemplateRight"] = "%time%",
+				["textureGeneral"] = true,
+				["textureClassTimeLine"] = false,
+				["textTemplateLeft"] = "%name%",
 				["textureAlphaCooldown"] = 1,
 			}, -- [2]
 			{
@@ -9378,24 +9471,24 @@ VExRT = {
 				["textureColorTextCooldownG"] = 0.5,
 				["textureColorTimeLineCastB"] = 1,
 				["textureClassBackground"] = false,
-				["textureColorTimeLineCooldownR"] = 1,
-				["textureClassTimeLine"] = false,
+				["textureColorTextCastR"] = 1,
+				["textureAlphaTimeLine"] = 0,
 				["textureGeneral"] = true,
-				["methodsGeneral"] = true,
+				["textGeneral"] = true,
 				["methodsTimeLineAnimation"] = 1,
-				["textTemplateRight"] = "",
-				["textureColorBackgroundCooldownG"] = 1,
-				["textureColorTimeLineDefaultR"] = 1,
-				["textureColorBackgroundCastG"] = 1,
+				["textureColorTextActiveR"] = 0.5,
+				["textureColorBackgroundDefaultB"] = 1,
+				["textureColorTextDefaultB"] = 1,
+				["textureAnimation"] = false,
 				["textureClassText"] = false,
 				["textureColorTimeLineActiveG"] = 1,
-				["textureAnimation"] = false,
-				["textureColorTextDefaultB"] = 1,
-				["textureColorBackgroundDefaultB"] = 1,
-				["textureColorTextActiveR"] = 0.5,
-				["textGeneral"] = true,
-				["textureAlphaTimeLine"] = 0,
-				["textureColorTextCastR"] = 1,
+				["textureColorBackgroundCastG"] = 1,
+				["textureColorTimeLineDefaultR"] = 1,
+				["textureColorBackgroundCooldownG"] = 1,
+				["textTemplateRight"] = "",
+				["methodsGeneral"] = true,
+				["textureClassTimeLine"] = false,
+				["textureColorTimeLineCooldownR"] = 1,
 				["textureAlphaCooldown"] = 1,
 			}, -- [3]
 			{
@@ -9447,26 +9540,26 @@ VExRT = {
 				["textureColorTextCooldownG"] = 0.5,
 				["textureColorTimeLineCastB"] = 1,
 				["methodsGeneral"] = true,
-				["textureColorTimeLineCooldownR"] = 1,
-				["textureClassTimeLine"] = false,
+				["textGeneral"] = true,
+				["textureColorTextDefaultB"] = 1,
+				["textureColorTextCastR"] = 1,
+				["textureColorTextActiveR"] = 0.5,
 				["textureAlphaTimeLine"] = 0,
-				["textTemplateRight"] = "",
-				["textureGeneral"] = true,
-				["textureColorBackgroundCooldownG"] = 1,
+				["frameScale"] = 100,
 				["methodsTimeLineAnimation"] = 1,
-				["textureColorTimeLineDefaultR"] = 1,
+				["textureColorBackgroundDefaultB"] = 1,
 				["methodsAlphaNotInRangeNum"] = 90,
-				["textureColorBackgroundCastG"] = 1,
+				["textureAnimation"] = false,
 				["textureColorTextCooldownR"] = 1,
 				["textureClassText"] = false,
 				["textureColorTimeLineActiveG"] = 1,
-				["textureAnimation"] = false,
-				["textureColorBackgroundDefaultB"] = 1,
-				["frameScale"] = 100,
-				["textureColorTextActiveR"] = 0.5,
-				["textureColorTextCastR"] = 1,
-				["textureColorTextDefaultB"] = 1,
-				["textGeneral"] = true,
+				["textureColorBackgroundCastG"] = 1,
+				["textureColorTimeLineDefaultR"] = 1,
+				["textureColorBackgroundCooldownG"] = 1,
+				["textTemplateRight"] = "",
+				["textureGeneral"] = true,
+				["textureClassTimeLine"] = false,
+				["textureColorTimeLineCooldownR"] = 1,
 				["textureAlphaCooldown"] = 1,
 			}, -- [4]
 			{
@@ -9479,16 +9572,16 @@ VExRT = {
 				["frameLines"] = 15,
 				["methodsAlphaNotInRangeNum"] = 90,
 				["textGeneral"] = true,
-				["textureGeneral"] = true,
-				["blacklistGeneral"] = true,
-				["textureAnimation"] = true,
-				["textureAlphaBackground"] = 0.3,
-				["iconGeneral"] = true,
-				["iconSize"] = 16,
-				["fontGeneral"] = true,
-				["frameScale"] = 100,
-				["frameWidth"] = 130,
 				["textureAlphaTimeLine"] = 0.8,
+				["blacklistGeneral"] = true,
+				["frameWidth"] = 130,
+				["frameScale"] = 100,
+				["iconGeneral"] = true,
+				["fontGeneral"] = true,
+				["iconSize"] = 16,
+				["textureAlphaBackground"] = 0.3,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -9496,13 +9589,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -9510,13 +9603,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -9524,13 +9617,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [8]
 			{
 				["textureColorTextCastR"] = 1,
@@ -9580,24 +9673,24 @@ VExRT = {
 				["textureColorTextCooldownG"] = 0.5,
 				["textureColorTimeLineCastB"] = 1,
 				["textureAnimation"] = false,
-				["textureColorTimeLineCooldownR"] = 1,
-				["textureClassTimeLine"] = false,
+				["textureClassBackground"] = false,
+				["textureColorBackgroundCastG"] = 1,
 				["textureAlphaTimeLine"] = 0,
-				["textureAlphaBackground"] = 0,
+				["textureColorTimeLineActiveR"] = 1,
 				["methodsTimeLineAnimation"] = 1,
 				["methodsCooldown"] = true,
 				["methodsAlphaNotInRangeNum"] = 90,
 				["textIconName"] = true,
-				["textureColorTextActiveR"] = 0.5,
-				["textureColorTextDefaultB"] = 1,
-				["textureColorTimeLineActiveG"] = 1,
-				["textureColorTimeLineDefaultR"] = 1,
-				["textureClassText"] = false,
-				["textureColorBackgroundCooldownG"] = 1,
 				["textTemplateRight"] = "",
-				["textureColorTimeLineActiveR"] = 1,
-				["textureColorBackgroundCastG"] = 1,
-				["textureClassBackground"] = false,
+				["textureColorBackgroundCooldownG"] = 1,
+				["textureColorTimeLineActiveG"] = 1,
+				["textureClassText"] = false,
+				["textureColorTimeLineDefaultR"] = 1,
+				["textureColorTextDefaultB"] = 1,
+				["textureColorTextActiveR"] = 0.5,
+				["textureAlphaBackground"] = 0,
+				["textureClassTimeLine"] = false,
+				["textureColorTimeLineCooldownR"] = 1,
 				["textureAlphaCooldown"] = 0.7,
 			}, -- [9]
 			{
@@ -9606,16 +9699,16 @@ VExRT = {
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["frameWidth"] = 130,
-				["methodsAlphaNotInRangeNum"] = 90,
+				["textureAnimation"] = true,
+				["fontGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
-				["fontGeneral"] = true,
-				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["methodsAlphaNotInRangeNum"] = 90,
+				["frameWidth"] = 130,
+				["fontShadow"] = false,
 			}, -- [10]
 			{
 				["textureColorTextCastR"] = 1,
@@ -9669,32 +9762,30 @@ VExRT = {
 				["textureColorTextCooldownG"] = 1,
 				["textureColorTimeLineCastB"] = 0,
 				["textureBorderSize"] = 0,
-				["frameColumns"] = 1,
-				["visibilityDisableBG"] = true,
-				["textureColorBackgroundDefaultB"] = 0,
-				["textureColorTextActiveR"] = 1,
-				["textureClassText"] = false,
+				["textureColorBackgroundCastG"] = 1,
+				["textureColorTimeLineCooldownB"] = 0,
+				["fontName"] = "Interface\\AddOns\\ExRT\\media\\skurri.ttf",
+				["textTemplateRight"] = "%time%",
+				["textureColorTimeLineCooldownR"] = 1,
 				["textureAlphaTimeLine"] = 0.8,
 				["textureColorTimeLineDefaultG"] = 1,
 				["methodsTimeLineAnimation"] = 1,
-				["textureClassBackground"] = false,
+				["textureColorTextDefaultB"] = 1,
 				["methodsAlphaNotInRangeNum"] = 89,
 				["frameAnchorBottom"] = true,
 				["frameScale"] = 118,
 				["textureColorBackgroundCooldownG"] = 0,
 				["textureColorTimeLineActiveG"] = 1,
-				["textureColorTextDefaultB"] = 1,
+				["textureClassBackground"] = false,
 				["textureSmoothAnimationDuration"] = 50,
-				["textureColorTimeLineCooldownR"] = 1,
-				["textTemplateRight"] = "%time%",
-				["fontName"] = "Interface\\AddOns\\ExRT\\media\\skurri.ttf",
-				["textureColorTimeLineCooldownB"] = 0,
-				["textureColorBackgroundCastG"] = 1,
+				["textureClassText"] = false,
+				["textureColorTextActiveR"] = 1,
+				["textureColorBackgroundDefaultB"] = 0,
+				["visibilityDisableBG"] = true,
+				["frameColumns"] = 1,
 				["textureAlphaCooldown"] = 1,
 			}, -- [11]
 		},
-		["SortByAvailability"] = true,
-		["lock"] = true,
 		["CDECol"] = {
 			["196718;2"] = 2,
 			["62618;2"] = 3,
@@ -9723,15 +9814,16 @@ VExRT = {
 			["740;5"] = 3,
 			["204263;2"] = 1,
 			["49576;3"] = 1,
-			["116844;1"] = 1,
-			["116849;4"] = 4,
-			["200183;3"] = 2,
-			["29166;2"] = 2,
-			["61391;1"] = 1,
-			["49576;2"] = 1,
 			["47788;3"] = 4,
+			["116849;4"] = 4,
+			["61391;1"] = 1,
+			["29166;2"] = 2,
+			["200183;3"] = 2,
+			["49576;2"] = 1,
+			["116844;1"] = 1,
 		},
-		["NoRaid"] = true,
+		["lock"] = true,
+		["SortByAvailability"] = true,
 	},
 	["Attendance"] = {
 		["enabled"] = 3,
@@ -9758,13 +9850,13 @@ VExRT = {
 				"FZaelsynth", -- [18]
 				"EMeowfurryoff", -- [19]
 				"KEllestria", -- [20]
-				["c"] = "Mallusof-Tichondrius",
-				["k"] = true,
-				["d"] = 15,
-				["eN"] = "Grand Magistrix Elisande",
-				["t"] = 1493517821,
-				["g"] = 19,
 				["eI"] = 1872,
+				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1493517821,
+				["eN"] = "Grand Magistrix Elisande",
+				["d"] = 15,
+				["g"] = 19,
+				["k"] = true,
 			}, -- [1]
 			{
 				"BKalithumos", -- [1]
@@ -9779,13 +9871,13 @@ VExRT = {
 				"HKaligon", -- [10]
 				"BHeadrush", -- [11]
 				"EMallusof", -- [12]
-				["k"] = true,
-				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 1958,
-				["t"] = 1493604096,
-				["g"] = 12,
 				["eN"] = "Odyn",
+				["k"] = true,
+				["t"] = 1493604096,
+				["eI"] = 1958,
+				["d"] = 15,
+				["g"] = 12,
+				["c"] = "Mallusof-Tichondrius",
 			}, -- [2]
 			{
 				"JIleiaris", -- [1]
@@ -9808,13 +9900,13 @@ VExRT = {
 				"KSombrador", -- [18]
 				"EMallusof", -- [19]
 				"KKelelrodwran", -- [20]
-				["eN"] = "Krosus",
-				["k"] = true,
-				["t"] = 1493689884,
-				["eI"] = 1842,
-				["d"] = 16,
-				["g"] = 20,
 				["c"] = "Mallusof-Tichondrius",
+				["k"] = true,
+				["d"] = 16,
+				["eN"] = "Krosus",
+				["t"] = 1493689884,
+				["g"] = 20,
+				["eI"] = 1842,
 			}, -- [3]
 			{
 				"BKalithumos", -- [1]
@@ -9837,13 +9929,13 @@ VExRT = {
 				"ETafè", -- [18]
 				"EMeowfurryoff", -- [19]
 				"EMallusof", -- [20]
-				["eN"] = "Skorpyron",
-				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1494121175,
-				["eI"] = 1849,
-				["d"] = 16,
-				["g"] = 20,
 				["k"] = true,
+				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
+				["eN"] = "Skorpyron",
+				["t"] = 1494121175,
+				["g"] = 20,
+				["eI"] = 1849,
 			}, -- [4]
 			{
 				"DSlicedlol", -- [1]
@@ -9866,13 +9958,13 @@ VExRT = {
 				"KSombrador", -- [18]
 				"EMallusof", -- [19]
 				"EMeowfurryoff", -- [20]
-				["c"] = "Mallusof-Tichondrius",
-				["k"] = true,
-				["d"] = 16,
-				["eN"] = "Star Augur Etraeus",
-				["t"] = 1494299990,
-				["g"] = 20,
 				["eI"] = 1863,
+				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1494299990,
+				["eN"] = "Star Augur Etraeus",
+				["d"] = 16,
+				["g"] = 20,
+				["k"] = true,
 			}, -- [5]
 			{
 				"BKalithumos", -- [1]
@@ -9896,13 +9988,13 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"KKelelrodwran", -- [20]
 				"HKalethia", -- [21]
-				["eI"] = 1849,
-				["k"] = true,
-				["t"] = 1494726496,
-				["eN"] = "Skorpyron",
-				["d"] = 16,
-				["g"] = 20,
 				["c"] = "Mallusof-Tichondrius",
+				["k"] = true,
+				["d"] = 16,
+				["eI"] = 1849,
+				["t"] = 1494726496,
+				["g"] = 20,
+				["eN"] = "Skorpyron",
 			}, -- [6]
 			{
 				"BKalithumos", -- [1]
@@ -9922,13 +10014,13 @@ VExRT = {
 				"IArkator", -- [15]
 				"LVeralkdh", -- [16]
 				"KKrixmix-Icecrown", -- [17]
-				["k"] = true,
-				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 1872,
-				["t"] = 1494813152,
-				["g"] = 17,
 				["eN"] = "Grand Magistrix Elisande",
+				["k"] = true,
+				["t"] = 1494813152,
+				["eI"] = 1872,
+				["d"] = 15,
+				["g"] = 17,
+				["c"] = "Mallusof-Tichondrius",
 			}, -- [7]
 			{
 				"EMeowfurryoff", -- [1]
@@ -9951,13 +10043,13 @@ VExRT = {
 				"CDaoxu", -- [18]
 				"IReportmepls", -- [19]
 				"HKaligon", -- [20]
-				["c"] = "Mallusof-Tichondrius",
-				["k"] = true,
-				["d"] = 16,
-				["eN"] = "Tichondrius",
-				["t"] = 1494903026,
-				["g"] = 20,
 				["eI"] = 1862,
+				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1494903026,
+				["eN"] = "Tichondrius",
+				["d"] = 16,
+				["g"] = 20,
+				["k"] = true,
 			}, -- [8]
 			{
 				"EMeowfurryoff", -- [1]
@@ -9980,13 +10072,13 @@ VExRT = {
 				"CDaoxu", -- [18]
 				"IReportmepls", -- [19]
 				"HKaligon", -- [20]
-				["k"] = true,
-				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1886,
-				["t"] = 1494910475,
-				["g"] = 20,
 				["eN"] = "High Botanist Tel'arn",
+				["k"] = true,
+				["t"] = 1494910475,
+				["eI"] = 1886,
+				["d"] = 16,
+				["g"] = 20,
+				["c"] = "Mallusof-Tichondrius",
 			}, -- [9]
 			{
 				"CNakedraygun-Frostmourne", -- [1]
@@ -10007,13 +10099,13 @@ VExRT = {
 				"KNaturesgift-Kel'Thuzad", -- [16]
 				"BMoradinn-Sargeras", -- [17]
 				"DPsychotîc-Proudmoore", -- [18]
-				["c"] = "Mallusof-Tichondrius",
-				["k"] = true,
-				["d"] = 14,
-				["eN"] = "Skorpyron",
-				["t"] = 1495332624,
-				["g"] = 17,
 				["eI"] = 1849,
+				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1495332624,
+				["eN"] = "Skorpyron",
+				["d"] = 14,
+				["g"] = 17,
+				["k"] = true,
 			}, -- [10]
 			{
 				"CCatmom-Sargeras", -- [1]
@@ -10031,13 +10123,13 @@ VExRT = {
 				"BSamiyah-Whisperwind", -- [13]
 				"CMáver-Sargeras", -- [14]
 				"HTipsey-Sargeras", -- [15]
-				["k"] = true,
-				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 1849,
-				["t"] = 1495930443,
-				["g"] = 15,
 				["eN"] = "Skorpyron",
+				["k"] = true,
+				["t"] = 1495930443,
+				["eI"] = 1849,
+				["d"] = 15,
+				["g"] = 15,
+				["c"] = "Mallusof-Tichondrius",
 			}, -- [11]
 			{
 				"LBlackkmamba", -- [1]
@@ -10060,13 +10152,13 @@ VExRT = {
 				"KSombrador", -- [18]
 				"EMallusof", -- [19]
 				"IYuniee", -- [20]
-				["eI"] = 1958,
-				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1495937513,
-				["eN"] = "Odyn",
-				["d"] = 16,
-				["g"] = 20,
 				["k"] = true,
+				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
+				["eI"] = 1958,
+				["t"] = 1495937513,
+				["g"] = 20,
+				["eN"] = "Odyn",
 			}, -- [12]
 			{
 				"HPriist-Quel'Thalas", -- [1]
@@ -10107,13 +10199,13 @@ VExRT = {
 				"JIleiaris-Tichondrius", -- [14]
 				"CGenjieggs-Tichondrius", -- [15]
 				"CInsentience-Tichondrius", -- [16]
-				["k"] = true,
-				["c"] = "Farahn-Proudmoore",
-				["d"] = 15,
-				["eI"] = 1872,
-				["t"] = 1496024081,
-				["g"] = 16,
 				["eN"] = "Grand Magistrix Elisande",
+				["k"] = true,
+				["t"] = 1496024081,
+				["eI"] = 1872,
+				["d"] = 15,
+				["g"] = 16,
+				["c"] = "Farahn-Proudmoore",
 			}, -- [14]
 			{
 				"BKalithumos", -- [1]
@@ -10135,13 +10227,13 @@ VExRT = {
 				"BChopperdave", -- [17]
 				"HKalethia", -- [18]
 				"HKaligon", -- [19]
-				["eN"] = "Gul'dan",
-				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496025062,
-				["eI"] = 1866,
-				["d"] = 15,
-				["g"] = 19,
 				["k"] = true,
+				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
+				["eN"] = "Gul'dan",
+				["t"] = 1496025062,
+				["g"] = 19,
+				["eI"] = 1866,
 			}, -- [15]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10167,8 +10259,8 @@ VExRT = {
 				[18] = "HKaligon-Tichondrius",
 				[19] = "CPvpedmypants-Stormrage",
 				["eI"] = 1849,
-				["d"] = 15,
 				["k"] = true,
+				["d"] = 15,
 			}, -- [16]
 			{
 				"JCalithief-Darkspear", -- [1]
@@ -10195,13 +10287,13 @@ VExRT = {
 				"GDrunknheals-Dalaran", -- [22]
 				"BAced-SilverHand", -- [23]
 				"DCeddia-Frostmourne", -- [24]
-				["k"] = true,
-				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Star Augur Etraeus",
-				["t"] = 1496042561,
-				["g"] = 24,
 				["eI"] = 1863,
+				["k"] = true,
+				["t"] = 1496042561,
+				["eN"] = "Star Augur Etraeus",
+				["d"] = 14,
+				["g"] = 24,
+				["c"] = "Mallusof-Tichondrius",
 			}, -- [17]
 			{
 				"BKalithumos", -- [1]
@@ -10224,13 +10316,13 @@ VExRT = {
 				"EMallusof", -- [18]
 				"KEllestria", -- [19]
 				"KSombrador", -- [20]
-				["eI"] = 1872,
-				["k"] = true,
-				["t"] = 1496119483,
-				["eN"] = "Grand Magistrix Elisande",
-				["d"] = 16,
-				["g"] = 20,
 				["c"] = "Mallusof-Tichondrius",
+				["k"] = true,
+				["d"] = 16,
+				["eI"] = 1872,
+				["t"] = 1496119483,
+				["g"] = 20,
+				["eN"] = "Grand Magistrix Elisande",
 			}, -- [18]
 			{
 				"EMallusof", -- [1]
@@ -10238,11 +10330,11 @@ VExRT = {
 				"FZaelsynth", -- [3]
 				"BArchator", -- [4]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496541050,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [19]
 			{
 				"EMallusof", -- [1]
@@ -10250,11 +10342,11 @@ VExRT = {
 				"FZaelsynth", -- [3]
 				"BArchator", -- [4]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496541260,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [20]
 			{
 				"EMallusof", -- [1]
@@ -10262,11 +10354,11 @@ VExRT = {
 				"FZaelsynth", -- [3]
 				"BArchator", -- [4]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496541395,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [21]
 			{
 				"EMallusof", -- [1]
@@ -10274,11 +10366,11 @@ VExRT = {
 				"FZaelsynth", -- [3]
 				"BArchator", -- [4]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496541540,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [22]
 			{
 				"EMallusof", -- [1]
@@ -10287,11 +10379,11 @@ VExRT = {
 				"BArchator", -- [4]
 				"JIleiaris", -- [5]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496541817,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [23]
 			{
 				"EMallusof", -- [1]
@@ -10300,11 +10392,11 @@ VExRT = {
 				"BArchator", -- [4]
 				"JIleiaris", -- [5]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496541921,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [24]
 			{
 				"EMallusof", -- [1]
@@ -10313,11 +10405,11 @@ VExRT = {
 				"BArchator", -- [4]
 				"JIleiaris", -- [5]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496542024,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [25]
 			{
 				"EMallusof", -- [1]
@@ -10326,11 +10418,11 @@ VExRT = {
 				"BArchator", -- [4]
 				"JIleiaris", -- [5]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496542158,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [26]
 			{
 				"EMallusof", -- [1]
@@ -10339,11 +10431,11 @@ VExRT = {
 				"BArchator", -- [4]
 				"JIleiaris", -- [5]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["t"] = 1496542313,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 1866,
 			}, -- [27]
 			{
 				"EMallusof", -- [1]
@@ -10354,11 +10446,11 @@ VExRT = {
 				"CDaoxu", -- [6]
 				"CGenjieggs", -- [7]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496542523,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [28]
 			{
 				"EMallusof", -- [1]
@@ -10369,11 +10461,11 @@ VExRT = {
 				"CDaoxu", -- [6]
 				"CGenjieggs", -- [7]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496542631,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [29]
 			{
 				"EMallusof", -- [1]
@@ -10384,11 +10476,11 @@ VExRT = {
 				"CDaoxu", -- [6]
 				"CGenjieggs", -- [7]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496543258,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [30]
 			{
 				"EMallusof", -- [1]
@@ -10399,61 +10491,61 @@ VExRT = {
 				"CDaoxu", -- [6]
 				"CGenjieggs", -- [7]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496543453,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [31]
 			{
 				"EMallusof", -- [1]
 				"BKalithumos", -- [2]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496549784,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [32]
 			{
 				"EMallusof", -- [1]
 				"BKalithumos", -- [2]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496549867,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [33]
 			{
 				"EMallusof", -- [1]
 				"BKalithumos", -- [2]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496549926,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [34]
 			{
 				"EMallusof", -- [1]
 				"BKalithumos", -- [2]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496550017,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [35]
 			{
 				"EMallusof", -- [1]
 				"BKalithumos", -- [2]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496550098,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [36]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10471,11 +10563,11 @@ VExRT = {
 				"EShallydoo-Terenas", -- [13]
 				"CGenjieggs-Tichondrius", -- [14]
 				["c"] = "Morifa-Proudmoore",
+				["t"] = 1496618053,
 				["eI"] = 1849,
-				["eN"] = "Skorpyron",
 				["d"] = 15,
 				["g"] = 13,
-				["t"] = 1496618053,
+				["eN"] = "Skorpyron",
 			}, -- [37]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10495,11 +10587,11 @@ VExRT = {
 				"LDaemonhater-Tichondrius", -- [15]
 				"HKalethia-Tichondrius", -- [16]
 				["c"] = "Morifa-Proudmoore",
+				["t"] = 1496618606,
 				["eI"] = 1865,
-				["eN"] = "Chronomatic Anomaly",
 				["d"] = 15,
 				["g"] = 15,
-				["t"] = 1496618606,
+				["eN"] = "Chronomatic Anomaly",
 			}, -- [38]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10519,11 +10611,11 @@ VExRT = {
 				"LDaemonhater-Tichondrius", -- [15]
 				"HKalethia-Tichondrius", -- [16]
 				["c"] = "Morifa-Proudmoore",
+				["t"] = 1496618707,
 				["eI"] = 1865,
-				["eN"] = "Chronomatic Anomaly",
 				["d"] = 15,
 				["g"] = 15,
-				["t"] = 1496618707,
+				["eN"] = "Chronomatic Anomaly",
 			}, -- [39]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10544,11 +10636,11 @@ VExRT = {
 				"HKalethia-Tichondrius", -- [16]
 				"EZeddicus-Tichondrius", -- [17]
 				["c"] = "Morifa-Proudmoore",
+				["t"] = 1496618759,
 				["eI"] = 1865,
-				["eN"] = "Chronomatic Anomaly",
 				["d"] = 15,
 				["g"] = 17,
-				["t"] = 1496618759,
+				["eN"] = "Chronomatic Anomaly",
 			}, -- [40]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10571,11 +10663,11 @@ VExRT = {
 				"EZoephos-Tichondrius", -- [18]
 				"AJimhälpert-Tichondrius", -- [19]
 				["c"] = "Morifa-Proudmoore",
+				["t"] = 1496618906,
 				["eN"] = "Chronomatic Anomaly",
-				["eI"] = 1865,
 				["d"] = 15,
 				["g"] = 17,
-				["t"] = 1496618906,
+				["eI"] = 1865,
 			}, -- [41]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10598,11 +10690,11 @@ VExRT = {
 				"EZoephos-Tichondrius", -- [18]
 				"AJimhälpert-Tichondrius", -- [19]
 				["c"] = "Morifa-Proudmoore",
+				["t"] = 1496619278,
 				["eN"] = "Trilliax",
-				["eI"] = 1867,
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1496619278,
+				["eI"] = 1867,
 			}, -- [42]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10624,11 +10716,11 @@ VExRT = {
 				[17] = "EZeddicus-Tichondrius",
 				[18] = "EZoephos-Tichondrius",
 				[19] = "AJimhälpert-Tichondrius",
+				["t"] = 1496620000,
 				[11] = "HKaligon-Tichondrius",
-				["eI"] = 1871,
 				["d"] = 15,
 				[12] = "JPokimaneomg-Tichondrius",
-				["t"] = 1496620000,
+				["eI"] = 1871,
 			}, -- [43]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10650,11 +10742,11 @@ VExRT = {
 				[17] = "EZeddicus-Tichondrius",
 				[18] = "EZoephos-Tichondrius",
 				[19] = "AJimhälpert-Tichondrius",
+				["t"] = 1496620608,
 				[11] = "HKaligon-Tichondrius",
-				["eI"] = 1862,
 				["d"] = 15,
 				[12] = "JPokimaneomg-Tichondrius",
-				["t"] = 1496620608,
+				["eI"] = 1862,
 			}, -- [44]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10676,11 +10768,11 @@ VExRT = {
 				[17] = "EZeddicus-Tichondrius",
 				[18] = "EZoephos-Tichondrius",
 				[19] = "AJimhälpert-Tichondrius",
+				["t"] = 1496620837,
 				[11] = "HKaligon-Tichondrius",
-				["eI"] = 1862,
 				["d"] = 15,
 				[12] = "JPokimaneomg-Tichondrius",
-				["t"] = 1496620837,
+				["eI"] = 1862,
 			}, -- [45]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10702,11 +10794,11 @@ VExRT = {
 				[17] = "EZeddicus-Tichondrius",
 				[18] = "EZoephos-Tichondrius",
 				[19] = "AJimhälpert-Tichondrius",
+				["t"] = 1496621556,
 				[11] = "HKaligon-Tichondrius",
-				["eI"] = 1863,
 				["d"] = 15,
 				[12] = "JPokimaneomg-Tichondrius",
-				["t"] = 1496621556,
+				["eI"] = 1863,
 			}, -- [46]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10728,11 +10820,11 @@ VExRT = {
 				[17] = "EZeddicus-Tichondrius",
 				[18] = "EZoephos-Tichondrius",
 				[19] = "AJimhälpert-Tichondrius",
+				["t"] = 1496622559,
 				[11] = "HKaligon-Tichondrius",
-				["eI"] = 1886,
 				["d"] = 15,
 				[12] = "JPokimaneomg-Tichondrius",
-				["t"] = 1496622559,
+				["eI"] = 1886,
 			}, -- [47]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10754,11 +10846,11 @@ VExRT = {
 				[17] = "EZeddicus-Tichondrius",
 				[18] = "EZoephos-Tichondrius",
 				[19] = "AJimhälpert-Tichondrius",
+				["t"] = 1496623175,
 				[11] = "HKaligon-Tichondrius",
-				["eI"] = 1842,
 				["d"] = 15,
 				[12] = "JPokimaneomg-Tichondrius",
-				["t"] = 1496623175,
+				["eI"] = 1842,
 			}, -- [48]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10780,11 +10872,11 @@ VExRT = {
 				[17] = "EZeddicus-Tichondrius",
 				[18] = "EZoephos-Tichondrius",
 				[19] = "AJimhälpert-Tichondrius",
+				["t"] = 1496623584,
 				[11] = "HKaligon-Tichondrius",
-				["eI"] = 1842,
 				["d"] = 15,
 				[12] = "JPokimaneomg-Tichondrius",
-				["t"] = 1496623584,
+				["eI"] = 1842,
 			}, -- [49]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10806,11 +10898,11 @@ VExRT = {
 				"EZeddicus-Tichondrius", -- [17]
 				"AJimhälpert-Tichondrius", -- [18]
 				["c"] = "Morifa-Proudmoore",
+				["t"] = 1496624589,
 				["eI"] = 1872,
-				["eN"] = "Grand Magistrix Elisande",
 				["d"] = 15,
 				["g"] = 16,
-				["t"] = 1496624589,
+				["eN"] = "Grand Magistrix Elisande",
 			}, -- [50]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -10832,11 +10924,11 @@ VExRT = {
 				"EZeddicus-Tichondrius", -- [17]
 				"AJimhälpert-Tichondrius", -- [18]
 				["c"] = "Morifa-Proudmoore",
+				["t"] = 1496625070,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 15,
 				["g"] = 16,
-				["t"] = 1496625070,
+				["eN"] = "Gul'dan",
 			}, -- [51]
 			{
 				"BKalithumos", -- [1]
@@ -10851,11 +10943,11 @@ VExRT = {
 				"BXji", -- [10]
 				"IReportmepls", -- [11]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Grand Magistrix Elisande",
-				["t"] = 1496627217,
-				["g"] = 11,
 				["eI"] = 1872,
+				["eN"] = "Grand Magistrix Elisande",
+				["d"] = 15,
+				["g"] = 11,
+				["t"] = 1496627217,
 			}, -- [52]
 			{
 				"BKalithumos", -- [1]
@@ -10871,11 +10963,11 @@ VExRT = {
 				"IReportmepls", -- [11]
 				"HKaligon", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Gul'dan",
-				["t"] = 1496627545,
-				["g"] = 12,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["d"] = 15,
+				["g"] = 12,
+				["t"] = 1496627545,
 			}, -- [53]
 			{
 				"HKalethia", -- [1]
@@ -10899,11 +10991,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KFoxxa", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "Gul'dan",
-				["t"] = 1496628911,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496628911,
 			}, -- [54]
 			{
 				"HKalethia", -- [1]
@@ -10927,11 +11019,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KFoxxa", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "Gul'dan",
-				["t"] = 1496629121,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496629121,
 			}, -- [55]
 			{
 				"HKalethia", -- [1]
@@ -10955,11 +11047,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KFoxxa", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "Gul'dan",
-				["t"] = 1496629501,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496629501,
 			}, -- [56]
 			{
 				"BKalithumos", -- [1]
@@ -10983,11 +11075,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496629811,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496629811,
 			}, -- [57]
 			{
 				"BKalithumos", -- [1]
@@ -11011,11 +11103,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496630063,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496630063,
 			}, -- [58]
 			{
 				"BKalithumos", -- [1]
@@ -11039,11 +11131,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496630406,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496630406,
 			}, -- [59]
 			{
 				"BKalithumos", -- [1]
@@ -11067,11 +11159,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496630614,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496630614,
 			}, -- [60]
 			{
 				"BKalithumos", -- [1]
@@ -11095,11 +11187,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496630833,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496630833,
 			}, -- [61]
 			{
 				"BKalithumos", -- [1]
@@ -11123,11 +11215,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496631209,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496631209,
 			}, -- [62]
 			{
 				"BKalithumos", -- [1]
@@ -11151,11 +11243,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496631524,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496631524,
 			}, -- [63]
 			{
 				"BKalithumos", -- [1]
@@ -11179,11 +11271,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496631878,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496631878,
 			}, -- [64]
 			{
 				"BKalithumos", -- [1]
@@ -11207,11 +11299,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496632454,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496632454,
 			}, -- [65]
 			{
 				"BKalithumos", -- [1]
@@ -11235,11 +11327,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496632826,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496632826,
 			}, -- [66]
 			{
 				"BKalithumos", -- [1]
@@ -11263,11 +11355,11 @@ VExRT = {
 				"KFoxxa", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1496633132,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496633132,
 			}, -- [67]
 			{
 				"BKalithumos", -- [1]
@@ -11291,11 +11383,11 @@ VExRT = {
 				"IYuniee", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1958,
-				["t"] = 1496634380,
-				["g"] = 20,
 				["eN"] = "Odyn",
+				["eI"] = 1958,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496634380,
 			}, -- [68]
 			{
 				"IYuniee", -- [1]
@@ -11319,11 +11411,11 @@ VExRT = {
 				"KEllestria", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "Guarm",
-				["t"] = 1496635033,
-				["g"] = 20,
 				["eI"] = 1962,
+				["eN"] = "Guarm",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496635033,
 			}, -- [69]
 			{
 				"IYuniee", -- [1]
@@ -11347,11 +11439,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "Helya",
-				["t"] = 1496635936,
-				["g"] = 20,
 				["eI"] = 2008,
+				["eN"] = "Helya",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1496635936,
 			}, -- [70]
 			{
 				"IYuniee", -- [1]
@@ -11375,11 +11467,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Helya",
-				["eI"] = 2008,
 				["t"] = 1496636069,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2008,
 			}, -- [71]
 			{
 				"IYuniee", -- [1]
@@ -11403,11 +11495,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Helya",
-				["eI"] = 2008,
 				["t"] = 1496636234,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2008,
 			}, -- [72]
 			{
 				"IYuniee", -- [1]
@@ -11431,11 +11523,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496636606,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496636606,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [73]
 			{
 				"IYuniee", -- [1]
@@ -11459,11 +11551,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496636812,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496636812,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [74]
 			{
 				"IYuniee", -- [1]
@@ -11487,11 +11579,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496636999,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496636999,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [75]
 			{
 				"IYuniee", -- [1]
@@ -11515,11 +11607,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496637381,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496637381,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [76]
 			{
 				"IYuniee", -- [1]
@@ -11543,11 +11635,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496638010,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496638010,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [77]
 			{
 				"IYuniee", -- [1]
@@ -11571,11 +11663,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496638558,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496638558,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [78]
 			{
 				"IYuniee", -- [1]
@@ -11599,11 +11691,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496638984,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496638984,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [79]
 			{
 				"IYuniee", -- [1]
@@ -11627,11 +11719,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496639141,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496639141,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [80]
 			{
 				"IYuniee", -- [1]
@@ -11655,11 +11747,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496639348,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496639348,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [81]
 			{
 				"IYuniee", -- [1]
@@ -11683,11 +11775,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496639847,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496639847,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [82]
 			{
 				"IYuniee", -- [1]
@@ -11711,11 +11803,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496640090,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496640090,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [83]
 			{
 				"IYuniee", -- [1]
@@ -11739,11 +11831,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496640563,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496640563,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [84]
 			{
 				"IYuniee", -- [1]
@@ -11767,11 +11859,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496640744,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496640744,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [85]
 			{
 				"IYuniee", -- [1]
@@ -11795,11 +11887,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496640955,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496640955,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [86]
 			{
 				"IYuniee", -- [1]
@@ -11823,11 +11915,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496641126,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496641126,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [87]
 			{
 				"IYuniee", -- [1]
@@ -11851,11 +11943,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"JIleiaris", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1496641504,
-				["eI"] = 2008,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["t"] = 1496641504,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [88]
 			{
 				"BKalithumos", -- [1]
@@ -11879,11 +11971,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496713232,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [89]
 			{
 				"BKalithumos", -- [1]
@@ -11907,11 +11999,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496713812,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [90]
 			{
 				"BKalithumos", -- [1]
@@ -11935,11 +12027,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1496714065,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [91]
 			{
 				"BKalithumos", -- [1]
@@ -11963,11 +12055,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496714572,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496714572,
+				["eI"] = 1866,
 			}, -- [92]
 			{
 				"BKalithumos", -- [1]
@@ -11991,11 +12083,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496714904,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496714904,
+				["eI"] = 1866,
 			}, -- [93]
 			{
 				"BKalithumos", -- [1]
@@ -12019,11 +12111,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496715169,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496715169,
+				["eI"] = 1866,
 			}, -- [94]
 			{
 				"BKalithumos", -- [1]
@@ -12047,11 +12139,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496715467,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496715467,
+				["eI"] = 1866,
 			}, -- [95]
 			{
 				"BKalithumos", -- [1]
@@ -12075,11 +12167,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496715651,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496715651,
+				["eI"] = 1866,
 			}, -- [96]
 			{
 				"BKalithumos", -- [1]
@@ -12103,11 +12195,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496716017,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496716017,
+				["eI"] = 1866,
 			}, -- [97]
 			{
 				"BKalithumos", -- [1]
@@ -12131,11 +12223,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496716438,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496716438,
+				["eI"] = 1866,
 			}, -- [98]
 			{
 				"BKalithumos", -- [1]
@@ -12159,11 +12251,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496716776,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496716776,
+				["eI"] = 1866,
 			}, -- [99]
 			{
 				"BKalithumos", -- [1]
@@ -12187,11 +12279,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496716941,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496716941,
+				["eI"] = 1866,
 			}, -- [100]
 			{
 				"BKalithumos", -- [1]
@@ -12215,11 +12307,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496717240,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496717240,
+				["eI"] = 1866,
 			}, -- [101]
 			{
 				"BKalithumos", -- [1]
@@ -12243,11 +12335,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496717696,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496717696,
+				["eI"] = 1866,
 			}, -- [102]
 			{
 				"BKalithumos", -- [1]
@@ -12271,11 +12363,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496718195,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496718195,
+				["eI"] = 1866,
 			}, -- [103]
 			{
 				"BKalithumos", -- [1]
@@ -12299,11 +12391,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496718694,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496718694,
+				["eI"] = 1866,
 			}, -- [104]
 			{
 				"BKalithumos", -- [1]
@@ -12327,11 +12419,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496719538,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496719538,
+				["eI"] = 1866,
 			}, -- [105]
 			{
 				"BKalithumos", -- [1]
@@ -12355,11 +12447,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496719770,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496719770,
+				["eI"] = 1866,
 			}, -- [106]
 			{
 				"BKalithumos", -- [1]
@@ -12383,11 +12475,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496720042,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496720042,
+				["eI"] = 1866,
 			}, -- [107]
 			{
 				"BKalithumos", -- [1]
@@ -12411,11 +12503,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496720299,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496720299,
+				["eI"] = 1866,
 			}, -- [108]
 			{
 				"BKalithumos", -- [1]
@@ -12439,11 +12531,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496720668,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496720668,
+				["eI"] = 1866,
 			}, -- [109]
 			{
 				"BKalithumos", -- [1]
@@ -12467,11 +12559,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496721087,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496721087,
+				["eI"] = 1866,
 			}, -- [110]
 			{
 				"BKalithumos", -- [1]
@@ -12495,11 +12587,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496721630,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496721630,
+				["eI"] = 1866,
 			}, -- [111]
 			{
 				"BKalithumos", -- [1]
@@ -12523,11 +12615,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496721847,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496721847,
+				["eI"] = 1866,
 			}, -- [112]
 			{
 				"BKalithumos", -- [1]
@@ -12551,11 +12643,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496722084,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496722084,
+				["eI"] = 1866,
 			}, -- [113]
 			{
 				"BKalithumos", -- [1]
@@ -12579,11 +12671,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496722638,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496722638,
+				["eI"] = 1866,
 			}, -- [114]
 			{
 				"BKalithumos", -- [1]
@@ -12607,11 +12699,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496722997,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496722997,
+				["eI"] = 1866,
 			}, -- [115]
 			{
 				"BKalithumos", -- [1]
@@ -12635,11 +12727,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496723814,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496723814,
+				["eI"] = 1866,
 			}, -- [116]
 			{
 				"BKalithumos", -- [1]
@@ -12663,11 +12755,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496724264,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496724264,
+				["eI"] = 1866,
 			}, -- [117]
 			{
 				"BKalithumos", -- [1]
@@ -12691,11 +12783,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496725199,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496725199,
+				["eI"] = 1866,
 			}, -- [118]
 			{
 				"BKalithumos", -- [1]
@@ -12719,11 +12811,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496725485,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496725485,
+				["eI"] = 1866,
 			}, -- [119]
 			{
 				"BKalithumos", -- [1]
@@ -12747,11 +12839,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496725822,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496725822,
+				["eI"] = 1866,
 			}, -- [120]
 			{
 				"BKalithumos", -- [1]
@@ -12775,11 +12867,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496726345,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496726345,
+				["eI"] = 1866,
 			}, -- [121]
 			{
 				"BKalithumos", -- [1]
@@ -12803,11 +12895,11 @@ VExRT = {
 				"KSombrador", -- [19]
 				"BHangookie", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496726825,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1496726825,
+				["eI"] = 1866,
 			}, -- [122]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -12829,11 +12921,11 @@ VExRT = {
 				"HFyfe-AlteracMountains", -- [17]
 				"CMôrdecäi-Sen'jin", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496806644,
 				["eI"] = 1849,
-				["eN"] = "Skorpyron",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1496806644,
+				["eN"] = "Skorpyron",
 			}, -- [123]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -12855,11 +12947,11 @@ VExRT = {
 				"HFyfe-AlteracMountains", -- [17]
 				"CMôrdecäi-Sen'jin", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496807321,
 				["eI"] = 1865,
-				["eN"] = "Chronomatic Anomaly",
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1496807321,
+				["eN"] = "Chronomatic Anomaly",
 			}, -- [124]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -12881,11 +12973,11 @@ VExRT = {
 				"HFyfe-AlteracMountains", -- [17]
 				"CMôrdecäi-Sen'jin", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496807709,
 				["eI"] = 1867,
-				["eN"] = "Trilliax",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1496807709,
+				["eN"] = "Trilliax",
 			}, -- [125]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -12907,11 +12999,11 @@ VExRT = {
 				"HFyfe-AlteracMountains", -- [17]
 				"CMôrdecäi-Sen'jin", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496808273,
 				["eI"] = 1867,
-				["eN"] = "Trilliax",
 				["d"] = 15,
 				["g"] = 17,
-				["t"] = 1496808273,
+				["eN"] = "Trilliax",
 			}, -- [126]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -12933,11 +13025,11 @@ VExRT = {
 				"CKalimmarr-BurningBlade", -- [17]
 				"CMôrdecäi-Sen'jin", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496809080,
 				["eI"] = 1871,
-				["eN"] = "Spellblade Aluriel",
 				["d"] = 15,
 				["g"] = 17,
-				["t"] = 1496809080,
+				["eN"] = "Spellblade Aluriel",
 			}, -- [127]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -12959,11 +13051,11 @@ VExRT = {
 				[17] = "CKalimmarr-BurningBlade",
 				[18] = "CMôrdecäi-Sen'jin",
 				[19] = "FSolarïan-Stormrage",
+				["t"] = 1496810064,
 				[11] = "LEscärlet-Ragnaros",
-				["eI"] = 1862,
 				["d"] = 15,
 				[12] = "EUmbraphile-AeriePeak",
-				["t"] = 1496810064,
+				["eI"] = 1862,
 			}, -- [128]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -12985,11 +13077,11 @@ VExRT = {
 				[17] = "CKalimmarr-BurningBlade",
 				[18] = "CMôrdecäi-Sen'jin",
 				[19] = "FSolarïan-Stormrage",
+				["t"] = 1496810867,
 				[11] = "LEscärlet-Ragnaros",
-				["eI"] = 1842,
 				["d"] = 15,
 				[12] = "EUmbraphile-AeriePeak",
-				["t"] = 1496810867,
+				["eI"] = 1842,
 			}, -- [129]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -13012,11 +13104,11 @@ VExRT = {
 				"CMôrdecäi-Sen'jin", -- [18]
 				"FSolarïan-Stormrage", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496811896,
 				["eN"] = "Star Augur Etraeus",
-				["eI"] = 1863,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1496811896,
+				["eI"] = 1863,
 			}, -- [130]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -13039,11 +13131,11 @@ VExRT = {
 				"CMôrdecäi-Sen'jin", -- [18]
 				"FSolarïan-Stormrage", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496812896,
 				["eN"] = "High Botanist Tel'arn",
-				["eI"] = 1886,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1496812896,
+				["eI"] = 1886,
 			}, -- [131]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -13065,11 +13157,11 @@ VExRT = {
 				"CKalimmarr-BurningBlade", -- [17]
 				"CMôrdecäi-Sen'jin", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496813756,
 				["eI"] = 1872,
-				["eN"] = "Grand Magistrix Elisande",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1496813756,
+				["eN"] = "Grand Magistrix Elisande",
 			}, -- [132]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -13091,11 +13183,11 @@ VExRT = {
 				"CKalimmarr-BurningBlade", -- [17]
 				"CMôrdecäi-Sen'jin", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496814559,
 				["eI"] = 1872,
-				["eN"] = "Grand Magistrix Elisande",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1496814559,
+				["eN"] = "Grand Magistrix Elisande",
 			}, -- [133]
 			{
 				"GCrottin-Zul'jin", -- [1]
@@ -13116,11 +13208,11 @@ VExRT = {
 				"KKillanight-Sen'jin", -- [16]
 				"CKalimmarr-BurningBlade", -- [17]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1496815245,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 15,
 				["g"] = 17,
-				["t"] = 1496815245,
+				["eN"] = "Gul'dan",
 			}, -- [134]
 			{
 				"KAlisius-Proudmoore", -- [1]
@@ -13144,11 +13236,11 @@ VExRT = {
 				"HAbylon-Proudmoore", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 1872,
-				["t"] = 1496889695,
-				["g"] = 20,
 				["eN"] = "Grand Magistrix Elisande",
+				["eI"] = 1872,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1496889695,
 			}, -- [135]
 			{
 				"KAlisius-Proudmoore", -- [1]
@@ -13172,11 +13264,11 @@ VExRT = {
 				"HAbylon-Proudmoore", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 1872,
-				["t"] = 1496890075,
-				["g"] = 20,
 				["eN"] = "Grand Magistrix Elisande",
+				["eI"] = 1872,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1496890075,
 			}, -- [136]
 			{
 				"KAlisius-Proudmoore", -- [1]
@@ -13201,11 +13293,11 @@ VExRT = {
 				"LFelmyheart-Icecrown", -- [20]
 				"BKorolet-Proudmoore", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 1866,
-				["t"] = 1496890913,
-				["g"] = 21,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1496890913,
 			}, -- [137]
 			{
 				"KAlisius", -- [1]
@@ -13229,11 +13321,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1849,
-				["eN"] = "Skorpyron",
 				["t"] = 1496892301,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Skorpyron",
 			}, -- [138]
 			{
 				"KAlisius", -- [1]
@@ -13257,11 +13349,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1865,
-				["eN"] = "Chronomatic Anomaly",
 				["t"] = 1496892860,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Chronomatic Anomaly",
 			}, -- [139]
 			{
 				"KAlisius", -- [1]
@@ -13285,11 +13377,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1865,
-				["eN"] = "Chronomatic Anomaly",
 				["t"] = 1496892988,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Chronomatic Anomaly",
 			}, -- [140]
 			{
 				"KAlisius", -- [1]
@@ -13313,11 +13405,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1865,
-				["eN"] = "Chronomatic Anomaly",
 				["t"] = 1496893031,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Chronomatic Anomaly",
 			}, -- [141]
 			{
 				"KAlisius", -- [1]
@@ -13341,11 +13433,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1865,
-				["eN"] = "Chronomatic Anomaly",
 				["t"] = 1496893117,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Chronomatic Anomaly",
 			}, -- [142]
 			{
 				"KAlisius", -- [1]
@@ -13369,11 +13461,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1867,
-				["eN"] = "Trilliax",
 				["t"] = 1496894117,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Trilliax",
 			}, -- [143]
 			{
 				"KAlisius", -- [1]
@@ -13397,11 +13489,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1871,
-				["eN"] = "Spellblade Aluriel",
 				["t"] = 1496894855,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Spellblade Aluriel",
 			}, -- [144]
 			{
 				"KAlisius", -- [1]
@@ -13425,11 +13517,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1842,
-				["eN"] = "Krosus",
 				["t"] = 1496895663,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Krosus",
 			}, -- [145]
 			{
 				"KAlisius", -- [1]
@@ -13453,11 +13545,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1863,
-				["eN"] = "Star Augur Etraeus",
 				["t"] = 1496896453,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Star Augur Etraeus",
 			}, -- [146]
 			{
 				"KAlisius", -- [1]
@@ -13481,11 +13573,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1886,
-				["eN"] = "High Botanist Tel'arn",
 				["t"] = 1496897824,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "High Botanist Tel'arn",
 			}, -- [147]
 			{
 				"KAlisius", -- [1]
@@ -13509,11 +13601,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1862,
-				["eN"] = "Tichondrius",
 				["t"] = 1496898299,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Tichondrius",
 			}, -- [148]
 			{
 				"KAlisius", -- [1]
@@ -13537,11 +13629,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1862,
-				["eN"] = "Tichondrius",
 				["t"] = 1496898470,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Tichondrius",
 			}, -- [149]
 			{
 				"KAlisius", -- [1]
@@ -13565,11 +13657,11 @@ VExRT = {
 				"ECriphra-Hyjal", -- [19]
 				"LFelmyheart-Icecrown", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1862,
-				["eN"] = "Tichondrius",
 				["t"] = 1496898653,
 				["g"] = 20,
-				["d"] = 15,
+				["eN"] = "Tichondrius",
 			}, -- [150]
 			{
 				"IMylittlepwne-EmeraldDream", -- [1]
@@ -13592,11 +13684,11 @@ VExRT = {
 				"CBeewin-Sargeras", -- [18]
 				"IMyleftsock-Khaz'goroth", -- [19]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eI"] = 1886,
-				["eN"] = "High Botanist Tel'arn",
 				["t"] = 1497076728,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "High Botanist Tel'arn",
 			}, -- [151]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -13612,11 +13704,11 @@ VExRT = {
 				"CGenjieggs-Tichondrius", -- [11]
 				"AHeetahme-Garona", -- [12]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1497145499,
-				["eI"] = 1872,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Grand Magistrix Elisande",
+				["eI"] = 1872,
+				["t"] = 1497145499,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [152]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -13632,11 +13724,11 @@ VExRT = {
 				"CGenjieggs-Tichondrius", -- [11]
 				"AHeetahme-Garona", -- [12]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1497145900,
-				["eI"] = 1866,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["t"] = 1497145900,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [153]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -13653,11 +13745,11 @@ VExRT = {
 				"AHeetahme-Garona", -- [12]
 				"BBlakeyboy-Tichondrius", -- [13]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1497146470,
-				["eI"] = 1866,
-				["d"] = 15,
-				["g"] = 13,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["t"] = 1497146470,
+				["g"] = 13,
+				["d"] = 15,
 			}, -- [154]
 			{
 				"BKalithumos", -- [1]
@@ -13681,11 +13773,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497318416,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [155]
 			{
 				"BKalithumos", -- [1]
@@ -13709,11 +13801,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497318718,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [156]
 			{
 				"BKalithumos", -- [1]
@@ -13737,11 +13829,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497319387,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [157]
 			{
 				"BKalithumos", -- [1]
@@ -13765,11 +13857,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497319954,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [158]
 			{
 				"BKalithumos", -- [1]
@@ -13793,11 +13885,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497320141,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [159]
 			{
 				"BKalithumos", -- [1]
@@ -13821,11 +13913,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497320433,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [160]
 			{
 				"BKalithumos", -- [1]
@@ -13849,11 +13941,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497320645,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [161]
 			{
 				"BKalithumos", -- [1]
@@ -13877,11 +13969,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497320944,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [162]
 			{
 				"BKalithumos", -- [1]
@@ -13905,11 +13997,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497321071,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [163]
 			{
 				"BKalithumos", -- [1]
@@ -13933,11 +14025,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497321341,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [164]
 			{
 				"BKalithumos", -- [1]
@@ -13961,11 +14053,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497321489,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [165]
 			{
 				"BKalithumos", -- [1]
@@ -13989,11 +14081,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497321763,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [166]
 			{
 				"BKalithumos", -- [1]
@@ -14017,11 +14109,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497322743,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [167]
 			{
 				"BKalithumos", -- [1]
@@ -14045,11 +14137,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497323304,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [168]
 			{
 				"BKalithumos", -- [1]
@@ -14073,11 +14165,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497323617,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [169]
 			{
 				"BKalithumos", -- [1]
@@ -14101,11 +14193,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497324121,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [170]
 			{
 				"BKalithumos", -- [1]
@@ -14129,11 +14221,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497324391,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [171]
 			{
 				"BKalithumos", -- [1]
@@ -14157,11 +14249,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497324609,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [172]
 			{
 				"BKalithumos", -- [1]
@@ -14185,11 +14277,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497325102,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [173]
 			{
 				"BKalithumos", -- [1]
@@ -14213,11 +14305,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497325499,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [174]
 			{
 				"BKalithumos", -- [1]
@@ -14241,11 +14333,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497325764,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [175]
 			{
 				"BKalithumos", -- [1]
@@ -14269,11 +14361,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497326218,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [176]
 			{
 				"BKalithumos", -- [1]
@@ -14297,11 +14389,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497326776,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [177]
 			{
 				"BKalithumos", -- [1]
@@ -14325,11 +14417,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497327394,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [178]
 			{
 				"BKalithumos", -- [1]
@@ -14353,11 +14445,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497327554,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [179]
 			{
 				"BKalithumos", -- [1]
@@ -14381,11 +14473,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497328367,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [180]
 			{
 				"BKalithumos", -- [1]
@@ -14409,11 +14501,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497329286,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [181]
 			{
 				"BKalithumos", -- [1]
@@ -14437,11 +14529,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497329792,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [182]
 			{
 				"BKalithumos", -- [1]
@@ -14465,11 +14557,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497330292,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [183]
 			{
 				"BKalithumos", -- [1]
@@ -14493,11 +14585,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497330642,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [184]
 			{
 				"BKalithumos", -- [1]
@@ -14521,11 +14613,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497330907,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [185]
 			{
 				"BKalithumos", -- [1]
@@ -14549,11 +14641,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497331067,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [186]
 			{
 				"BKalithumos", -- [1]
@@ -14577,11 +14669,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497331255,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [187]
 			{
 				"BKalithumos", -- [1]
@@ -14605,11 +14697,11 @@ VExRT = {
 				"EMeowfurryoff", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497331530,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [188]
 			{
 				"BKalithumos", -- [1]
@@ -14633,11 +14725,11 @@ VExRT = {
 				"BPhrantkk", -- [19]
 				"IArkator", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1497332380,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [189]
 			{
 				"BKalithumos", -- [1]
@@ -14661,11 +14753,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497585691,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497585691,
 			}, -- [190]
 			{
 				"BKalithumos", -- [1]
@@ -14689,11 +14781,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497585697,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497585697,
 			}, -- [191]
 			{
 				"BKalithumos", -- [1]
@@ -14717,11 +14809,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497586261,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497586261,
 			}, -- [192]
 			{
 				"BKalithumos", -- [1]
@@ -14745,11 +14837,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497586409,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497586409,
 			}, -- [193]
 			{
 				"BKalithumos", -- [1]
@@ -14773,11 +14865,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497587219,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497587219,
 			}, -- [194]
 			{
 				"BKalithumos", -- [1]
@@ -14801,11 +14893,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497587497,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497587497,
 			}, -- [195]
 			{
 				"BKalithumos", -- [1]
@@ -14829,11 +14921,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497587652,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497587652,
 			}, -- [196]
 			{
 				"BKalithumos", -- [1]
@@ -14857,11 +14949,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497587828,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497587828,
 			}, -- [197]
 			{
 				"BKalithumos", -- [1]
@@ -14885,11 +14977,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497588028,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497588028,
 			}, -- [198]
 			{
 				"BKalithumos", -- [1]
@@ -14913,11 +15005,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497588458,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497588458,
 			}, -- [199]
 			{
 				"BKalithumos", -- [1]
@@ -14941,11 +15033,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497589641,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497589641,
 			}, -- [200]
 			{
 				"BKalithumos", -- [1]
@@ -14969,11 +15061,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497590143,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497590143,
 			}, -- [201]
 			{
 				"BKalithumos", -- [1]
@@ -14997,11 +15089,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497590455,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497590455,
 			}, -- [202]
 			{
 				"BKalithumos", -- [1]
@@ -15025,11 +15117,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMeowfurryoff", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1497590609,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1497590609,
 			}, -- [203]
 			{
 				"BKalithumos", -- [1]
@@ -15053,11 +15145,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497924230,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497924230,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [204]
 			{
 				"BKalithumos", -- [1]
@@ -15081,11 +15173,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497924772,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497924772,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [205]
 			{
 				"BKalithumos", -- [1]
@@ -15109,11 +15201,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497925576,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497925576,
+				["eI"] = 1866,
 			}, -- [206]
 			{
 				"BKalithumos", -- [1]
@@ -15137,11 +15229,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497926070,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497926070,
+				["eI"] = 1866,
 			}, -- [207]
 			{
 				"BKalithumos", -- [1]
@@ -15165,11 +15257,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497926284,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497926284,
+				["eI"] = 1866,
 			}, -- [208]
 			{
 				"BKalithumos", -- [1]
@@ -15193,11 +15285,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497926908,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497926908,
+				["eI"] = 1866,
 			}, -- [209]
 			{
 				"BKalithumos", -- [1]
@@ -15221,11 +15313,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497927741,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497927741,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [210]
 			{
 				"BKalithumos", -- [1]
@@ -15249,11 +15341,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497927873,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497927873,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [211]
 			{
 				"BKalithumos", -- [1]
@@ -15277,11 +15369,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497928620,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497928620,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [212]
 			{
 				"BKalithumos", -- [1]
@@ -15305,11 +15397,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497928804,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497928804,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [213]
 			{
 				"BKalithumos", -- [1]
@@ -15333,11 +15425,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497929526,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497929526,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [214]
 			{
 				"BKalithumos", -- [1]
@@ -15361,11 +15453,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497929701,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497929701,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [215]
 			{
 				"BKalithumos", -- [1]
@@ -15389,11 +15481,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497930218,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497930218,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [216]
 			{
 				"BKalithumos", -- [1]
@@ -15417,11 +15509,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497931230,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497931230,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [217]
 			{
 				"BKalithumos", -- [1]
@@ -15445,11 +15537,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497931468,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497931468,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [218]
 			{
 				"BKalithumos", -- [1]
@@ -15473,11 +15565,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497932265,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497932265,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [219]
 			{
 				"BKalithumos", -- [1]
@@ -15501,11 +15593,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497932681,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497932681,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [220]
 			{
 				"BKalithumos", -- [1]
@@ -15529,11 +15621,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497933157,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497933157,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [221]
 			{
 				"BKalithumos", -- [1]
@@ -15557,11 +15649,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1497933432,
-				["eN"] = "Gul'dan",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 1866,
+				["eN"] = "Gul'dan",
+				["t"] = 1497933432,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [222]
 			{
 				"BKalithumos", -- [1]
@@ -15585,11 +15677,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497934105,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497934105,
+				["eI"] = 1866,
 			}, -- [223]
 			{
 				"BKalithumos", -- [1]
@@ -15613,11 +15705,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497934218,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497934218,
+				["eI"] = 1866,
 			}, -- [224]
 			{
 				"BKalithumos", -- [1]
@@ -15641,11 +15733,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497934822,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497934822,
+				["eI"] = 1866,
 			}, -- [225]
 			{
 				"BKalithumos", -- [1]
@@ -15669,11 +15761,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497935468,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497935468,
+				["eI"] = 1866,
 			}, -- [226]
 			{
 				"BKalithumos", -- [1]
@@ -15697,11 +15789,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497935895,
 				["eN"] = "Gul'dan",
-				["eI"] = 1866,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497935895,
+				["eI"] = 1866,
 			}, -- [227]
 			{
 				"BKalithumos", -- [1]
@@ -15725,11 +15817,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497936599,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497936599,
+				["eN"] = "Gul'dan",
 			}, -- [228]
 			{
 				"BKalithumos", -- [1]
@@ -15753,11 +15845,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497937734,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497937734,
+				["eN"] = "Gul'dan",
 			}, -- [229]
 			{
 				"BKalithumos", -- [1]
@@ -15781,11 +15873,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497938225,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497938225,
+				["eN"] = "Gul'dan",
 			}, -- [230]
 			{
 				"BKalithumos", -- [1]
@@ -15809,11 +15901,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497938971,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497938971,
+				["eN"] = "Gul'dan",
 			}, -- [231]
 			{
 				"BKalithumos", -- [1]
@@ -15837,11 +15929,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497939583,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497939583,
+				["eN"] = "Gul'dan",
 			}, -- [232]
 			{
 				"BKalithumos", -- [1]
@@ -15865,11 +15957,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497941596,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497941596,
+				["eN"] = "Gul'dan",
 			}, -- [233]
 			{
 				"BKalithumos", -- [1]
@@ -15893,11 +15985,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"CInsentience", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1497941838,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1497941838,
+				["eN"] = "Gul'dan",
 			}, -- [234]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -15919,11 +16011,11 @@ VExRT = {
 				"FScredler-Caelestrasz", -- [17]
 				"FAeoth-AeriePeak", -- [18]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1498277096,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1498277096,
+				["eN"] = "Goroth",
 			}, -- [235]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -15945,11 +16037,11 @@ VExRT = {
 				"FScredler-Caelestrasz", -- [17]
 				"FAeoth-AeriePeak", -- [18]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1498277424,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["d"] = 14,
 				["g"] = 16,
-				["t"] = 1498277424,
+				["eN"] = "Goroth",
 			}, -- [236]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -15971,11 +16063,11 @@ VExRT = {
 				"FScredler-Caelestrasz", -- [17]
 				"FAeoth-AeriePeak", -- [18]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Demonic Inquisition",
-				["t"] = 1498278195,
-				["g"] = 16,
 				["eI"] = 2048,
+				["eN"] = "Demonic Inquisition",
+				["d"] = 14,
+				["g"] = 16,
+				["t"] = 1498278195,
 			}, -- [237]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -15997,11 +16089,11 @@ VExRT = {
 				"FScredler-Caelestrasz", -- [17]
 				"FAeoth-AeriePeak", -- [18]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Harjatan",
-				["t"] = 1498278813,
-				["g"] = 15,
 				["eI"] = 2036,
+				["eN"] = "Harjatan",
+				["d"] = 14,
+				["g"] = 15,
+				["t"] = 1498278813,
 			}, -- [238]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -16023,11 +16115,11 @@ VExRT = {
 				"FScredler-Caelestrasz", -- [17]
 				"FAeoth-AeriePeak", -- [18]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Harjatan",
-				["t"] = 1498279193,
-				["g"] = 17,
 				["eI"] = 2036,
+				["eN"] = "Harjatan",
+				["d"] = 14,
+				["g"] = 17,
+				["t"] = 1498279193,
 			}, -- [239]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -16049,11 +16141,11 @@ VExRT = {
 				"FScredler-Caelestrasz", -- [17]
 				"FAeoth-AeriePeak", -- [18]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Harjatan",
-				["t"] = 1498279814,
-				["g"] = 17,
 				["eI"] = 2036,
+				["eN"] = "Harjatan",
+				["d"] = 14,
+				["g"] = 17,
+				["t"] = 1498279814,
 			}, -- [240]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -16075,11 +16167,11 @@ VExRT = {
 				"FScredler-Caelestrasz", -- [17]
 				"FAeoth-AeriePeak", -- [18]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Harjatan",
-				["t"] = 1498280237,
-				["g"] = 17,
 				["eI"] = 2036,
+				["eN"] = "Harjatan",
+				["d"] = 14,
+				["g"] = 17,
+				["t"] = 1498280237,
 			}, -- [241]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -16099,11 +16191,11 @@ VExRT = {
 				"KRavagon-Sargeras", -- [15]
 				"BVashamorgan-Eonar", -- [16]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Mistress Sassz'ine",
-				["t"] = 1498281866,
-				["g"] = 16,
 				["eI"] = 2037,
+				["eN"] = "Mistress Sassz'ine",
+				["d"] = 14,
+				["g"] = 16,
+				["t"] = 1498281866,
 			}, -- [242]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -16123,11 +16215,11 @@ VExRT = {
 				"KRavagon-Sargeras", -- [15]
 				"BVashamorgan-Eonar", -- [16]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Mistress Sassz'ine",
-				["t"] = 1498282847,
-				["g"] = 16,
 				["eI"] = 2037,
+				["eN"] = "Mistress Sassz'ine",
+				["d"] = 14,
+				["g"] = 16,
+				["t"] = 1498282847,
 			}, -- [243]
 			{
 				"FAkulin-Kel'Thuzad", -- [1]
@@ -16150,11 +16242,11 @@ VExRT = {
 				"FMordenn-WyrmrestAccord", -- [18]
 				"LHunterbosses", -- [19]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eI"] = 2050,
-				["t"] = 1498284717,
-				["g"] = 19,
 				["eN"] = "Sisters of the Moon",
+				["eI"] = 2050,
+				["d"] = 14,
+				["g"] = 19,
+				["t"] = 1498284717,
 			}, -- [244]
 			{
 				"GZelkona", -- [1]
@@ -16177,11 +16269,11 @@ VExRT = {
 				"CKuthrold-Drak'thul", -- [18]
 				"LHunterbosses", -- [19]
 				["c"] = "Farahn-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Sisters of the Moon",
-				["t"] = 1498285349,
-				["g"] = 18,
 				["eI"] = 2050,
+				["eN"] = "Sisters of the Moon",
+				["d"] = 14,
+				["g"] = 18,
+				["t"] = 1498285349,
 			}, -- [245]
 			{
 				"BKalithumos", -- [1]
@@ -16203,11 +16295,11 @@ VExRT = {
 				"EMeowfurryoff", -- [17]
 				"IReportmepls", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eN"] = "Goroth",
-				["eI"] = 2032,
 				["t"] = 1498354655,
 				["g"] = 18,
-				["d"] = 14,
+				["eI"] = 2032,
 			}, -- [246]
 			{
 				"BKalithumos", -- [1]
@@ -16229,11 +16321,11 @@ VExRT = {
 				"EMeowfurryoff", -- [17]
 				"IReportmepls", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1498355110,
 				["g"] = 18,
-				["d"] = 14,
+				["eI"] = 2048,
 			}, -- [247]
 			{
 				"BKalithumos", -- [1]
@@ -16255,11 +16347,11 @@ VExRT = {
 				"EMeowfurryoff", -- [17]
 				"IReportmepls", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eN"] = "Harjatan",
-				["eI"] = 2036,
 				["t"] = 1498355613,
 				["g"] = 18,
-				["d"] = 14,
+				["eI"] = 2036,
 			}, -- [248]
 			{
 				"BKalithumos", -- [1]
@@ -16281,11 +16373,11 @@ VExRT = {
 				"EMeowfurryoff", -- [17]
 				"IReportmepls", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eN"] = "Mistress Sassz'ine",
-				["eI"] = 2037,
 				["t"] = 1498356052,
 				["g"] = 18,
-				["d"] = 14,
+				["eI"] = 2037,
 			}, -- [249]
 			{
 				"BKalithumos", -- [1]
@@ -16307,11 +16399,11 @@ VExRT = {
 				"EMeowfurryoff", -- [17]
 				"IReportmepls", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eN"] = "Mistress Sassz'ine",
-				["eI"] = 2037,
 				["t"] = 1498356265,
 				["g"] = 18,
-				["d"] = 14,
+				["eI"] = 2037,
 			}, -- [250]
 			{
 				"BKalithumos", -- [1]
@@ -16333,11 +16425,11 @@ VExRT = {
 				"EMeowfurryoff", -- [17]
 				"IReportmepls", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eN"] = "Mistress Sassz'ine",
-				["eI"] = 2037,
 				["t"] = 1498356314,
 				["g"] = 18,
-				["d"] = 14,
+				["eI"] = 2037,
 			}, -- [251]
 			{
 				"BKalithumos", -- [1]
@@ -16361,11 +16453,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["t"] = 1498357087,
 				["g"] = 20,
-				["d"] = 14,
+				["eN"] = "Sisters of the Moon",
 			}, -- [252]
 			{
 				"BKalithumos", -- [1]
@@ -16389,11 +16481,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498357925,
-				["eN"] = "The Desolate Host",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["t"] = 1498357925,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [253]
 			{
 				"BKalithumos", -- [1]
@@ -16417,11 +16509,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498358152,
-				["eN"] = "The Desolate Host",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["t"] = 1498358152,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [254]
 			{
 				"BKalithumos", -- [1]
@@ -16445,11 +16537,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498358352,
-				["eN"] = "The Desolate Host",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["t"] = 1498358352,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [255]
 			{
 				"BKalithumos", -- [1]
@@ -16473,11 +16565,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498359198,
-				["eN"] = "Maiden of Vigilance",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2052,
+				["eN"] = "Maiden of Vigilance",
+				["t"] = 1498359198,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [256]
 			{
 				"BKalithumos", -- [1]
@@ -16501,11 +16593,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498359578,
-				["eN"] = "Maiden of Vigilance",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2052,
+				["eN"] = "Maiden of Vigilance",
+				["t"] = 1498359578,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [257]
 			{
 				"BKalithumos", -- [1]
@@ -16529,11 +16621,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498360285,
-				["eN"] = "Fallen Avatar",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["t"] = 1498360285,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [258]
 			{
 				"BKalithumos", -- [1]
@@ -16557,11 +16649,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498360608,
-				["eN"] = "Fallen Avatar",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["t"] = 1498360608,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [259]
 			{
 				"BKalithumos", -- [1]
@@ -16585,11 +16677,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498361577,
-				["eN"] = "Kil'jaeden",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1498361577,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [260]
 			{
 				"BKalithumos", -- [1]
@@ -16613,11 +16705,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498361917,
-				["eN"] = "Kil'jaeden",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1498361917,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [261]
 			{
 				"BKalithumos", -- [1]
@@ -16641,11 +16733,11 @@ VExRT = {
 				"KObjective", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498362289,
-				["eN"] = "Kil'jaeden",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1498362289,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [262]
 			{
 				"BKalithumos", -- [1]
@@ -16668,11 +16760,11 @@ VExRT = {
 				"KObjective", -- [18]
 				"LNîne", -- [19]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498363117,
-				["eN"] = "Kil'jaeden",
-				["d"] = 14,
-				["g"] = 19,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1498363117,
+				["g"] = 19,
+				["d"] = 14,
 			}, -- [263]
 			{
 				"BKalithumos", -- [1]
@@ -16694,11 +16786,11 @@ VExRT = {
 				[17] = "JCoaxed",
 				[18] = "IReportmepls",
 				[19] = "LNîne",
-				["t"] = 1498364244,
+				["eI"] = 2032,
 				[11] = "BGalavantt",
 				["d"] = 15,
 				[12] = "CDaoxu",
-				["eI"] = 2032,
+				["t"] = 1498364244,
 			}, -- [264]
 			{
 				"BKalithumos", -- [1]
@@ -16722,11 +16814,11 @@ VExRT = {
 				"BHangookie", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498364908,
-				["eN"] = "Demonic Inquisition",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2048,
+				["eN"] = "Demonic Inquisition",
+				["t"] = 1498364908,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [265]
 			{
 				"BKalithumos", -- [1]
@@ -16751,11 +16843,11 @@ VExRT = {
 				"LNîne", -- [20]
 				"BBlakeyboy", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498365549,
-				["eN"] = "Harjatan",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2036,
+				["eN"] = "Harjatan",
+				["t"] = 1498365549,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [266]
 			{
 				"BKalithumos", -- [1]
@@ -16780,11 +16872,11 @@ VExRT = {
 				"LNîne", -- [20]
 				"BBlakeyboy", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498366158,
-				["eN"] = "Mistress Sassz'ine",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2037,
+				["eN"] = "Mistress Sassz'ine",
+				["t"] = 1498366158,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [267]
 			{
 				"BKalithumos", -- [1]
@@ -16809,11 +16901,11 @@ VExRT = {
 				"LNîne", -- [20]
 				"BBlakeyboy", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498366211,
-				["eN"] = "Mistress Sassz'ine",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2037,
+				["eN"] = "Mistress Sassz'ine",
+				["t"] = 1498366211,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [268]
 			{
 				"BKalithumos", -- [1]
@@ -16838,11 +16930,11 @@ VExRT = {
 				"LNîne", -- [20]
 				"BBlakeyboy", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498366444,
-				["eN"] = "Mistress Sassz'ine",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2037,
+				["eN"] = "Mistress Sassz'ine",
+				["t"] = 1498366444,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [269]
 			{
 				"BKalithumos", -- [1]
@@ -16866,11 +16958,11 @@ VExRT = {
 				"BHangookie", -- [19]
 				"LNîne", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1498367513,
-				["eN"] = "Sisters of the Moon",
-				["d"] = 15,
-				["g"] = 19,
 				["eI"] = 2050,
+				["eN"] = "Sisters of the Moon",
+				["t"] = 1498367513,
+				["g"] = 19,
+				["d"] = 15,
 			}, -- [270]
 			{
 				"KKitosaki-Darkspear", -- [1]
@@ -16898,11 +16990,11 @@ VExRT = {
 				"BAbbadabbadoo-Stormrage", -- [23]
 				"KStaska-Stormrage", -- [24]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1498413100,
 				["eN"] = "Ursoc",
-				["eI"] = 1841,
 				["d"] = 15,
 				["g"] = 24,
-				["t"] = 1498413100,
+				["eI"] = 1841,
 			}, -- [271]
 			{
 				"KKitosaki-Darkspear", -- [1]
@@ -16933,11 +17025,11 @@ VExRT = {
 				"ICfiggis-Darkspear", -- [26]
 				"KHael-Goldrinn", -- [27]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1498413510,
 				["eN"] = "Dragons of Nightmare",
-				["eI"] = 1854,
 				["d"] = 15,
 				["g"] = 27,
-				["t"] = 1498413510,
+				["eI"] = 1854,
 			}, -- [272]
 			{
 				"KKitosaki-Darkspear", -- [1]
@@ -16968,11 +17060,11 @@ VExRT = {
 				"ICfiggis-Darkspear", -- [26]
 				"KHael-Goldrinn", -- [27]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1498413872,
 				["eN"] = "Elerethe Renferal",
-				["eI"] = 1876,
 				["d"] = 15,
 				["g"] = 27,
-				["t"] = 1498413872,
+				["eI"] = 1876,
 			}, -- [273]
 			{
 				"KKitosaki-Darkspear", -- [1]
@@ -17003,11 +17095,11 @@ VExRT = {
 				"ICfiggis-Darkspear", -- [26]
 				"KHael-Goldrinn", -- [27]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1498414228,
 				["eN"] = "Il'gynoth, The Heart of Corruption",
-				["eI"] = 1873,
 				["d"] = 15,
 				["g"] = 26,
-				["t"] = 1498414228,
+				["eI"] = 1873,
 			}, -- [274]
 			{
 				"KKitosaki-Darkspear", -- [1]
@@ -17038,11 +17130,11 @@ VExRT = {
 				"ICfiggis-Darkspear", -- [26]
 				"KHael-Goldrinn", -- [27]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1498414722,
 				["eN"] = "Cenarius",
-				["eI"] = 1877,
 				["d"] = 15,
 				["g"] = 26,
-				["t"] = 1498414722,
+				["eI"] = 1877,
 			}, -- [275]
 			{
 				"KKitosaki-Darkspear", -- [1]
@@ -17073,11 +17165,11 @@ VExRT = {
 				"ICfiggis-Darkspear", -- [26]
 				"KHael-Goldrinn", -- [27]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1498415101,
 				["eN"] = "Xavius",
-				["eI"] = 1864,
 				["d"] = 15,
 				["g"] = 26,
-				["t"] = 1498415101,
+				["eI"] = 1864,
 			}, -- [276]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17097,11 +17189,11 @@ VExRT = {
 				"HFreywindm-Kel'Thuzad", -- [15]
 				"HVoskeeyy-Tichondrius", -- [16]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Goroth",
-				["eI"] = 2032,
 				["t"] = 1498432117,
 				["g"] = 16,
-				["d"] = 15,
+				["eI"] = 2032,
 			}, -- [277]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17121,11 +17213,11 @@ VExRT = {
 				"HFreywindm-Kel'Thuzad", -- [15]
 				"HVoskeeyy-Tichondrius", -- [16]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1498432749,
 				["g"] = 16,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [278]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17145,11 +17237,11 @@ VExRT = {
 				"HFreywindm-Kel'Thuzad", -- [15]
 				"HVoskeeyy-Tichondrius", -- [16]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1498432996,
 				["g"] = 16,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [279]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17169,11 +17261,11 @@ VExRT = {
 				"HFreywindm-Kel'Thuzad", -- [15]
 				"HVoskeeyy-Tichondrius", -- [16]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1498433413,
 				["g"] = 16,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [280]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17193,11 +17285,11 @@ VExRT = {
 				"HFreywindm-Kel'Thuzad", -- [15]
 				"HVoskeeyy-Tichondrius", -- [16]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1498433546,
 				["g"] = 16,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [281]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17216,11 +17308,11 @@ VExRT = {
 				"LElbalthazar-Tichondrius", -- [14]
 				"HFreywindm-Kel'Thuzad", -- [15]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1498434029,
 				["g"] = 15,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [282]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17239,11 +17331,11 @@ VExRT = {
 				"LElbalthazar-Tichondrius", -- [14]
 				"HFreywindm-Kel'Thuzad", -- [15]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498434686,
-				["eI"] = 2036,
-				["d"] = 15,
-				["g"] = 15,
 				["eN"] = "Harjatan",
+				["eI"] = 2036,
+				["t"] = 1498434686,
+				["g"] = 15,
+				["d"] = 15,
 			}, -- [283]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17263,11 +17355,11 @@ VExRT = {
 				"HFreywindm-Kel'Thuzad", -- [15]
 				"ADessirius-Tichondrius", -- [16]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498435562,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 16,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1498435562,
+				["g"] = 16,
+				["d"] = 15,
 			}, -- [284]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17287,11 +17379,11 @@ VExRT = {
 				"HFreywindm-Kel'Thuzad", -- [15]
 				"ADessirius-Tichondrius", -- [16]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498436113,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 16,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1498436113,
+				["g"] = 16,
+				["d"] = 15,
 			}, -- [285]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17310,11 +17402,11 @@ VExRT = {
 				"LElbalthazar-Tichondrius", -- [14]
 				"HFreywindm-Kel'Thuzad", -- [15]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498436302,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 15,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1498436302,
+				["g"] = 15,
+				["d"] = 15,
 			}, -- [286]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17333,11 +17425,11 @@ VExRT = {
 				"LElbalthazar-Tichondrius", -- [14]
 				"HFreywindm-Kel'Thuzad", -- [15]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498436484,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 14,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1498436484,
+				["g"] = 14,
+				["d"] = 15,
 			}, -- [287]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17356,11 +17448,11 @@ VExRT = {
 				"LElbalthazar-Tichondrius", -- [14]
 				"HFreywindm-Kel'Thuzad", -- [15]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498436958,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 14,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1498436958,
+				["g"] = 14,
+				["d"] = 15,
 			}, -- [288]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17379,11 +17471,11 @@ VExRT = {
 				"LElbalthazar-Tichondrius", -- [14]
 				"HFreywindm-Kel'Thuzad", -- [15]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498437450,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 14,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1498437450,
+				["g"] = 14,
+				["d"] = 15,
 			}, -- [289]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17401,11 +17493,11 @@ VExRT = {
 				"BHolyjedi-Tichondrius", -- [13]
 				"HFreywindm-Kel'Thuzad", -- [14]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498438093,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 13,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1498438093,
+				["g"] = 13,
+				["d"] = 15,
 			}, -- [290]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -17422,11 +17514,11 @@ VExRT = {
 				"BChopperdave-Tichondrius", -- [12]
 				"BHolyjedi-Tichondrius", -- [13]
 				["c"] = "Farahn-Proudmoore",
-				["t"] = 1498438412,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1498438412,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [291]
 			{
 				"BKalithumos", -- [1]
@@ -17448,11 +17540,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JIleiaris", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "The Desolate Host",
-				["t"] = 1498441708,
-				["g"] = 16,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498441708,
 			}, -- [292]
 			{
 				"BKalithumos", -- [1]
@@ -17474,11 +17566,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JIleiaris", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "The Desolate Host",
-				["t"] = 1498442041,
-				["g"] = 15,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1498442041,
 			}, -- [293]
 			{
 				"BKalithumos", -- [1]
@@ -17500,11 +17592,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JIleiaris", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "The Desolate Host",
-				["t"] = 1498442217,
-				["g"] = 15,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1498442217,
 			}, -- [294]
 			{
 				"BKalithumos", -- [1]
@@ -17526,11 +17618,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JIleiaris", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "The Desolate Host",
-				["t"] = 1498442581,
-				["g"] = 15,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1498442581,
 			}, -- [295]
 			{
 				"BKalithumos", -- [1]
@@ -17552,11 +17644,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JIleiaris", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "The Desolate Host",
-				["t"] = 1498443096,
-				["g"] = 16,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498443096,
 			}, -- [296]
 			{
 				"BKalithumos", -- [1]
@@ -17578,11 +17670,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JIleiaris", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "The Desolate Host",
-				["t"] = 1498443395,
-				["g"] = 16,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498443395,
 			}, -- [297]
 			{
 				"BKalithumos", -- [1]
@@ -17629,9 +17721,9 @@ VExRT = {
 				[18] = "JIleiaris",
 				[19] = "JCoaxed",
 				[11] = "ABúî",
-				["eI"] = 2052,
-				[12] = "CInsentience",
 				["t"] = 1498445127,
+				[12] = "CInsentience",
+				["eI"] = 2052,
 			}, -- [299]
 			{
 				"BKalithumos", -- [1]
@@ -17653,9 +17745,9 @@ VExRT = {
 				[18] = "JIleiaris",
 				[19] = "JCoaxed",
 				[11] = "ABúî",
-				["eI"] = 2052,
-				[12] = "CInsentience",
 				["t"] = 1498445378,
+				[12] = "CInsentience",
+				["eI"] = 2052,
 			}, -- [300]
 			{
 				"BKalithumos", -- [1]
@@ -17677,9 +17769,9 @@ VExRT = {
 				[18] = "JIleiaris",
 				[19] = "JCoaxed",
 				[11] = "ABúî",
-				["eI"] = 2052,
-				[12] = "CInsentience",
 				["t"] = 1498445599,
+				[12] = "CInsentience",
+				["eI"] = 2052,
 			}, -- [301]
 			{
 				"BKalithumos", -- [1]
@@ -17701,9 +17793,9 @@ VExRT = {
 				[18] = "JIleiaris",
 				[19] = "JCoaxed",
 				[11] = "ABúî",
-				["eI"] = 2052,
-				[12] = "CInsentience",
 				["t"] = 1498445750,
+				[12] = "CInsentience",
+				["eI"] = 2052,
 			}, -- [302]
 			{
 				"BKalithumos", -- [1]
@@ -17725,9 +17817,9 @@ VExRT = {
 				[18] = "JIleiaris",
 				[19] = "JCoaxed",
 				[11] = "ABúî",
-				["eI"] = 2052,
-				[12] = "CInsentience",
 				["t"] = 1498445894,
+				[12] = "CInsentience",
+				["eI"] = 2052,
 			}, -- [303]
 			{
 				"BKalithumos", -- [1]
@@ -17749,9 +17841,9 @@ VExRT = {
 				[18] = "JIleiaris",
 				[19] = "JCoaxed",
 				[11] = "ABúî",
-				["eI"] = 2052,
-				[12] = "CInsentience",
 				["t"] = 1498446123,
+				[12] = "CInsentience",
+				["eI"] = 2052,
 			}, -- [304]
 			{
 				"BKalithumos", -- [1]
@@ -17773,9 +17865,9 @@ VExRT = {
 				[18] = "JIleiaris",
 				[19] = "JCoaxed",
 				[11] = "ABúî",
-				["eI"] = 2052,
-				[12] = "CInsentience",
 				["t"] = 1498446616,
+				[12] = "CInsentience",
+				["eI"] = 2052,
 			}, -- [305]
 			{
 				"BKalithumos", -- [1]
@@ -17797,9 +17889,9 @@ VExRT = {
 				[18] = "JIleiaris",
 				[19] = "JCoaxed",
 				[11] = "ABúî",
-				["eI"] = 2052,
-				[12] = "CInsentience",
 				["t"] = 1498446902,
+				[12] = "CInsentience",
+				["eI"] = 2052,
 			}, -- [306]
 			{
 				"BKalithumos", -- [1]
@@ -17821,11 +17913,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JCoaxed", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Maiden of Vigilance",
-				["t"] = 1498447845,
-				["g"] = 16,
 				["eI"] = 2052,
+				["eN"] = "Maiden of Vigilance",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498447845,
 			}, -- [307]
 			{
 				"BKalithumos", -- [1]
@@ -17847,11 +17939,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JCoaxed", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Maiden of Vigilance",
-				["t"] = 1498448134,
-				["g"] = 16,
 				["eI"] = 2052,
+				["eN"] = "Maiden of Vigilance",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498448134,
 			}, -- [308]
 			{
 				"BKalithumos", -- [1]
@@ -17873,11 +17965,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JCoaxed", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Maiden of Vigilance",
-				["t"] = 1498448444,
-				["g"] = 16,
 				["eI"] = 2052,
+				["eN"] = "Maiden of Vigilance",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498448444,
 			}, -- [309]
 			{
 				"BKalithumos", -- [1]
@@ -17899,11 +17991,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JCoaxed", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Maiden of Vigilance",
-				["t"] = 1498448816,
-				["g"] = 16,
 				["eI"] = 2052,
+				["eN"] = "Maiden of Vigilance",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498448816,
 			}, -- [310]
 			{
 				"BKalithumos", -- [1]
@@ -17925,11 +18017,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JCoaxed", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498449540,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498449540,
 			}, -- [311]
 			{
 				"BKalithumos", -- [1]
@@ -17951,11 +18043,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"JCoaxed", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498449854,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498449854,
 			}, -- [312]
 			{
 				"BKalithumos", -- [1]
@@ -17975,11 +18067,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498450091,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498450091,
 			}, -- [313]
 			{
 				"BKalithumos", -- [1]
@@ -17999,11 +18091,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498450403,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498450403,
 			}, -- [314]
 			{
 				"BKalithumos", -- [1]
@@ -18023,11 +18115,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498450795,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498450795,
 			}, -- [315]
 			{
 				"BKalithumos", -- [1]
@@ -18047,11 +18139,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498450944,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498450944,
 			}, -- [316]
 			{
 				"BKalithumos", -- [1]
@@ -18071,11 +18163,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498451529,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498451529,
 			}, -- [317]
 			{
 				"BKalithumos", -- [1]
@@ -18095,11 +18187,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498451959,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498451959,
 			}, -- [318]
 			{
 				"BKalithumos", -- [1]
@@ -18119,11 +18211,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498452298,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498452298,
 			}, -- [319]
 			{
 				"BKalithumos", -- [1]
@@ -18143,11 +18235,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498452559,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498452559,
 			}, -- [320]
 			{
 				"BKalithumos", -- [1]
@@ -18167,11 +18259,11 @@ VExRT = {
 				"LNîne", -- [15]
 				"ABúî", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498452920,
-				["g"] = 16,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 15,
+				["g"] = 16,
+				["t"] = 1498452920,
 			}, -- [321]
 			{
 				"BKalithumos", -- [1]
@@ -18194,8 +18286,8 @@ VExRT = {
 				[13] = "CInsentience",
 				[7] = "HKaligon",
 				[14] = "KEllestria",
-				["eN"] = "Fallen Avatar",
 				["g"] = 15,
+				["eN"] = "Fallen Avatar",
 			}, -- [322]
 			{
 				"BKalithumos", -- [1]
@@ -18220,11 +18312,11 @@ VExRT = {
 				"KSombrador", -- [20]
 				"FZaelsynth", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498528236,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["d"] = 15,
 				["g"] = 21,
-				["t"] = 1498528236,
+				["eI"] = 2038,
 			}, -- [323]
 			{
 				"BKalithumos", -- [1]
@@ -18249,11 +18341,11 @@ VExRT = {
 				"KSombrador", -- [20]
 				"FZaelsynth", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498528442,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["d"] = 15,
 				["g"] = 21,
-				["t"] = 1498528442,
+				["eI"] = 2038,
 			}, -- [324]
 			{
 				"BKalithumos", -- [1]
@@ -18278,11 +18370,11 @@ VExRT = {
 				"KSombrador", -- [20]
 				"FZaelsynth", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498528994,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["d"] = 15,
 				["g"] = 21,
-				["t"] = 1498528994,
+				["eI"] = 2038,
 			}, -- [325]
 			{
 				"BKalithumos", -- [1]
@@ -18307,11 +18399,11 @@ VExRT = {
 				"KSombrador", -- [20]
 				"FZaelsynth", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498529355,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["d"] = 15,
 				["g"] = 21,
-				["t"] = 1498529355,
+				["eI"] = 2038,
 			}, -- [326]
 			{
 				"BKalithumos", -- [1]
@@ -18336,11 +18428,11 @@ VExRT = {
 				"KSombrador", -- [20]
 				"FZaelsynth", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2038,
-				["t"] = 1498530013,
-				["g"] = 21,
 				["eN"] = "Fallen Avatar",
+				["eI"] = 2038,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498530013,
 			}, -- [327]
 			{
 				"BKalithumos", -- [1]
@@ -18365,11 +18457,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"BHangookie", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498531416,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498531416,
 			}, -- [328]
 			{
 				"BKalithumos", -- [1]
@@ -18394,11 +18486,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"BHangookie", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498531654,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498531654,
 			}, -- [329]
 			{
 				"BKalithumos", -- [1]
@@ -18423,11 +18515,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"BHangookie", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498531922,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498531922,
 			}, -- [330]
 			{
 				"BKalithumos", -- [1]
@@ -18451,11 +18543,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498532231,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498532231,
 			}, -- [331]
 			{
 				"BKalithumos", -- [1]
@@ -18479,11 +18571,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498532405,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498532405,
 			}, -- [332]
 			{
 				"BKalithumos", -- [1]
@@ -18507,11 +18599,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498532634,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498532634,
 			}, -- [333]
 			{
 				"BKalithumos", -- [1]
@@ -18535,11 +18627,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498532762,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498532762,
 			}, -- [334]
 			{
 				"BKalithumos", -- [1]
@@ -18563,11 +18655,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498533101,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498533101,
 			}, -- [335]
 			{
 				"BKalithumos", -- [1]
@@ -18591,11 +18683,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498533775,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498533775,
 			}, -- [336]
 			{
 				"BKalithumos", -- [1]
@@ -18620,11 +18712,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"JCoaxed", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498534171,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498534171,
 			}, -- [337]
 			{
 				"BKalithumos", -- [1]
@@ -18649,11 +18741,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"JCoaxed", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498534320,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498534320,
 			}, -- [338]
 			{
 				"BKalithumos", -- [1]
@@ -18678,11 +18770,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"JCoaxed", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498534509,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498534509,
 			}, -- [339]
 			{
 				"BKalithumos", -- [1]
@@ -18707,11 +18799,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"JCoaxed", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498534716,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498534716,
 			}, -- [340]
 			{
 				"BKalithumos", -- [1]
@@ -18736,11 +18828,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"JCoaxed", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498534883,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498534883,
 			}, -- [341]
 			{
 				"BKalithumos", -- [1]
@@ -18765,11 +18857,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"JCoaxed", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498535338,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498535338,
 			}, -- [342]
 			{
 				"BKalithumos", -- [1]
@@ -18794,11 +18886,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"JCoaxed", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498535718,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498535718,
 			}, -- [343]
 			{
 				"BKalithumos", -- [1]
@@ -18823,11 +18915,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498536148,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498536148,
 			}, -- [344]
 			{
 				"BKalithumos", -- [1]
@@ -18852,11 +18944,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498536351,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498536351,
 			}, -- [345]
 			{
 				"BKalithumos", -- [1]
@@ -18881,11 +18973,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498536744,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498536744,
 			}, -- [346]
 			{
 				"BKalithumos", -- [1]
@@ -18910,11 +19002,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498537268,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498537268,
 			}, -- [347]
 			{
 				"BKalithumos", -- [1]
@@ -18939,11 +19031,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498537448,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498537448,
 			}, -- [348]
 			{
 				"BKalithumos", -- [1]
@@ -18968,11 +19060,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498537853,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498537853,
 			}, -- [349]
 			{
 				"BKalithumos", -- [1]
@@ -18997,11 +19089,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498538405,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498538405,
 			}, -- [350]
 			{
 				"BKalithumos", -- [1]
@@ -19026,11 +19118,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498538854,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498538854,
 			}, -- [351]
 			{
 				"BKalithumos", -- [1]
@@ -19055,11 +19147,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498539089,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498539089,
 			}, -- [352]
 			{
 				"BKalithumos", -- [1]
@@ -19084,11 +19176,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498539731,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498539731,
 			}, -- [353]
 			{
 				"BKalithumos", -- [1]
@@ -19113,11 +19205,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498539842,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498539842,
 			}, -- [354]
 			{
 				"BKalithumos", -- [1]
@@ -19142,11 +19234,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498540244,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498540244,
 			}, -- [355]
 			{
 				"BKalithumos", -- [1]
@@ -19171,11 +19263,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498540632,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498540632,
 			}, -- [356]
 			{
 				"BKalithumos", -- [1]
@@ -19200,11 +19292,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498540799,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498540799,
 			}, -- [357]
 			{
 				"BKalithumos", -- [1]
@@ -19229,11 +19321,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498540988,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498540988,
 			}, -- [358]
 			{
 				"BKalithumos", -- [1]
@@ -19258,11 +19350,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498541645,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498541645,
 			}, -- [359]
 			{
 				"BKalithumos", -- [1]
@@ -19287,11 +19379,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498541847,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498541847,
 			}, -- [360]
 			{
 				"BKalithumos", -- [1]
@@ -19316,11 +19408,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498542319,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498542319,
 			}, -- [361]
 			{
 				"BKalithumos", -- [1]
@@ -19345,11 +19437,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498542718,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498542718,
 			}, -- [362]
 			{
 				"BKalithumos", -- [1]
@@ -19374,11 +19466,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498543114,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498543114,
 			}, -- [363]
 			{
 				"BKalithumos", -- [1]
@@ -19403,11 +19495,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498543558,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498543558,
 			}, -- [364]
 			{
 				"BKalithumos", -- [1]
@@ -19432,11 +19524,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498543769,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498543769,
 			}, -- [365]
 			{
 				"BKalithumos", -- [1]
@@ -19461,11 +19553,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"KSombrador", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498544120,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498544120,
 			}, -- [366]
 			{
 				"BKalithumos", -- [1]
@@ -19489,11 +19581,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498544757,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498544757,
 			}, -- [367]
 			{
 				"BKalithumos", -- [1]
@@ -19518,11 +19610,11 @@ VExRT = {
 				"BAcekicker", -- [20]
 				"LNîne", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498545191,
-				["g"] = 21,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498545191,
 			}, -- [368]
 			{
 				"BKalithumos", -- [1]
@@ -19546,11 +19638,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498545428,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498545428,
 			}, -- [369]
 			{
 				"BKalithumos", -- [1]
@@ -19574,11 +19666,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"BAcekicker", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2051,
-				["t"] = 1498545625,
-				["g"] = 20,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498545625,
 			}, -- [370]
 			{
 				"BKalithumos", -- [1]
@@ -19599,11 +19691,11 @@ VExRT = {
 				"BBlakeyboy", -- [16]
 				"JCoaxed", -- [17]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Kil'jaeden",
-				["t"] = 1498546087,
-				["g"] = 17,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["d"] = 15,
+				["g"] = 17,
+				["t"] = 1498546087,
 			}, -- [371]
 			{
 				"BKalithumos", -- [1]
@@ -19624,11 +19716,11 @@ VExRT = {
 				"BBlakeyboy", -- [16]
 				"JCoaxed", -- [17]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Kil'jaeden",
-				["t"] = 1498546720,
-				["g"] = 17,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["d"] = 15,
+				["g"] = 17,
+				["t"] = 1498546720,
 			}, -- [372]
 			{
 				"BKalithumos", -- [1]
@@ -19649,11 +19741,11 @@ VExRT = {
 				"BBlakeyboy", -- [16]
 				"JCoaxed", -- [17]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Kil'jaeden",
-				["t"] = 1498547115,
-				["g"] = 17,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["d"] = 15,
+				["g"] = 17,
+				["t"] = 1498547115,
 			}, -- [373]
 			{
 				"BKalithumos", -- [1]
@@ -19674,11 +19766,11 @@ VExRT = {
 				"BBlakeyboy", -- [16]
 				"JCoaxed", -- [17]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eN"] = "Kil'jaeden",
-				["t"] = 1498547337,
-				["g"] = 17,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["d"] = 15,
+				["g"] = 17,
+				["t"] = 1498547337,
 			}, -- [374]
 			{
 				"BKalithumos", -- [1]
@@ -19701,8 +19793,8 @@ VExRT = {
 				[13] = "JCoaxed",
 				[7] = "FZaelsynth",
 				[14] = "CInsentience",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [375]
 			{
 				"BKalithumos", -- [1]
@@ -19725,8 +19817,8 @@ VExRT = {
 				[13] = "JCoaxed",
 				[7] = "FZaelsynth",
 				[14] = "CInsentience",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [376]
 			{
 				"BKalithumos", -- [1]
@@ -19749,8 +19841,8 @@ VExRT = {
 				[13] = "JCoaxed",
 				[7] = "FZaelsynth",
 				[14] = "CInsentience",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [377]
 			{
 				"BKalithumos", -- [1]
@@ -19773,8 +19865,8 @@ VExRT = {
 				[13] = "JCoaxed",
 				[7] = "FZaelsynth",
 				[14] = "CInsentience",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [378]
 			{
 				"BKalithumos", -- [1]
@@ -19792,11 +19884,11 @@ VExRT = {
 				"EMallusof", -- [13]
 				"BVialath", -- [14]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Demonic Inquisition",
-				["t"] = 1498787221,
-				["g"] = 14,
 				["eI"] = 2048,
+				["eN"] = "Demonic Inquisition",
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1498787221,
 			}, -- [379]
 			{
 				"BKalithumos", -- [1]
@@ -19815,11 +19907,11 @@ VExRT = {
 				"BVialath", -- [14]
 				"HKaligon", -- [15]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Harjatan",
-				["t"] = 1498787743,
-				["g"] = 15,
 				["eI"] = 2036,
+				["eN"] = "Harjatan",
+				["d"] = 14,
+				["g"] = 15,
+				["t"] = 1498787743,
 			}, -- [380]
 			{
 				"BKalithumos", -- [1]
@@ -19838,11 +19930,11 @@ VExRT = {
 				"BVialath", -- [14]
 				"HKaligon", -- [15]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Mistress Sassz'ine",
-				["t"] = 1498788204,
-				["g"] = 15,
 				["eI"] = 2037,
+				["eN"] = "Mistress Sassz'ine",
+				["d"] = 14,
+				["g"] = 15,
+				["t"] = 1498788204,
 			}, -- [381]
 			{
 				"BKalithumos", -- [1]
@@ -19861,11 +19953,11 @@ VExRT = {
 				"BVialath", -- [14]
 				"HKaligon", -- [15]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Sisters of the Moon",
-				["t"] = 1498788888,
-				["g"] = 15,
 				["eI"] = 2050,
+				["eN"] = "Sisters of the Moon",
+				["d"] = 14,
+				["g"] = 15,
+				["t"] = 1498788888,
 			}, -- [382]
 			{
 				"BKalithumos", -- [1]
@@ -19884,11 +19976,11 @@ VExRT = {
 				"BVialath", -- [14]
 				"HKaligon", -- [15]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "The Desolate Host",
-				["t"] = 1498789688,
-				["g"] = 15,
 				["eI"] = 2054,
+				["eN"] = "The Desolate Host",
+				["d"] = 14,
+				["g"] = 15,
+				["t"] = 1498789688,
 			}, -- [383]
 			{
 				"BKalithumos", -- [1]
@@ -19907,11 +19999,11 @@ VExRT = {
 				"BVialath", -- [14]
 				"HKaligon", -- [15]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Maiden of Vigilance",
-				["t"] = 1498790309,
-				["g"] = 15,
 				["eI"] = 2052,
+				["eN"] = "Maiden of Vigilance",
+				["d"] = 14,
+				["g"] = 15,
+				["t"] = 1498790309,
 			}, -- [384]
 			{
 				"BKalithumos", -- [1]
@@ -19930,11 +20022,11 @@ VExRT = {
 				"BVialath", -- [14]
 				"HKaligon", -- [15]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Fallen Avatar",
-				["t"] = 1498790785,
-				["g"] = 15,
 				["eI"] = 2038,
+				["eN"] = "Fallen Avatar",
+				["d"] = 14,
+				["g"] = 15,
+				["t"] = 1498790785,
 			}, -- [385]
 			{
 				"BKalithumos", -- [1]
@@ -19953,11 +20045,11 @@ VExRT = {
 				"BVialath", -- [14]
 				"HKaligon", -- [15]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Kil'jaeden",
-				["t"] = 1498791650,
-				["g"] = 15,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["d"] = 14,
+				["g"] = 15,
+				["t"] = 1498791650,
 			}, -- [386]
 			{
 				"KBearington-Exodar", -- [1]
@@ -19982,11 +20074,11 @@ VExRT = {
 				"ATeaalle-Draka", -- [20]
 				"KKrutoi-Stormrage", -- [21]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 15,
-				["eI"] = 1853,
-				["t"] = 1498941232,
-				["g"] = 21,
 				["eN"] = "Nythendra",
+				["eI"] = 1853,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498941232,
 			}, -- [387]
 			{
 				"KBearington-Exodar", -- [1]
@@ -20011,11 +20103,11 @@ VExRT = {
 				"ATeaalle-Draka", -- [20]
 				"KKrutoi-Stormrage", -- [21]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 15,
-				["eI"] = 1841,
-				["t"] = 1498941726,
-				["g"] = 21,
 				["eN"] = "Ursoc",
+				["eI"] = 1841,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498941726,
 			}, -- [388]
 			{
 				"KBearington-Exodar", -- [1]
@@ -20040,11 +20132,11 @@ VExRT = {
 				"ATeaalle-Draka", -- [20]
 				"KKrutoi-Stormrage", -- [21]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 15,
-				["eI"] = 1854,
-				["t"] = 1498941984,
-				["g"] = 21,
 				["eN"] = "Dragons of Nightmare",
+				["eI"] = 1854,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498941984,
 			}, -- [389]
 			{
 				"KBearington-Exodar", -- [1]
@@ -20069,11 +20161,11 @@ VExRT = {
 				"ATeaalle-Draka", -- [20]
 				"KKrutoi-Stormrage", -- [21]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 15,
-				["eI"] = 1876,
-				["t"] = 1498942288,
-				["g"] = 21,
 				["eN"] = "Elerethe Renferal",
+				["eI"] = 1876,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498942288,
 			}, -- [390]
 			{
 				"KBearington-Exodar", -- [1]
@@ -20098,11 +20190,11 @@ VExRT = {
 				"ATeaalle-Draka", -- [20]
 				"KKrutoi-Stormrage", -- [21]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 15,
-				["eI"] = 1873,
-				["t"] = 1498942656,
-				["g"] = 21,
 				["eN"] = "Il'gynoth, The Heart of Corruption",
+				["eI"] = 1873,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498942656,
 			}, -- [391]
 			{
 				"KBearington-Exodar", -- [1]
@@ -20127,11 +20219,11 @@ VExRT = {
 				"ATeaalle-Draka", -- [20]
 				"KKrutoi-Stormrage", -- [21]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 15,
-				["eI"] = 1877,
-				["t"] = 1498942985,
-				["g"] = 21,
 				["eN"] = "Cenarius",
+				["eI"] = 1877,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1498942985,
 			}, -- [392]
 			{
 				"KBearington-Exodar", -- [1]
@@ -20155,11 +20247,11 @@ VExRT = {
 				"BYúne", -- [19]
 				"ATeaalle-Draka", -- [20]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 15,
-				["eI"] = 1864,
-				["t"] = 1498943287,
-				["g"] = 20,
 				["eN"] = "Xavius",
+				["eI"] = 1864,
+				["d"] = 15,
+				["g"] = 20,
+				["t"] = 1498943287,
 			}, -- [393]
 			{
 				"BKalithumos", -- [1]
@@ -20178,11 +20270,11 @@ VExRT = {
 				"EMallusof", -- [14]
 				"CDaoxu", -- [15]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498959247,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["d"] = 15,
 				["g"] = 14,
-				["t"] = 1498959247,
+				["eN"] = "Goroth",
 			}, -- [394]
 			{
 				"BKalithumos", -- [1]
@@ -20203,11 +20295,11 @@ VExRT = {
 				"FFrostìtùte", -- [16]
 				"HKalethia", -- [17]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498959921,
 				["eI"] = 2048,
-				["eN"] = "Demonic Inquisition",
 				["d"] = 15,
 				["g"] = 17,
-				["t"] = 1498959921,
+				["eN"] = "Demonic Inquisition",
 			}, -- [395]
 			{
 				"BKalithumos", -- [1]
@@ -20228,11 +20320,11 @@ VExRT = {
 				"FFrostìtùte", -- [16]
 				"HKalethia", -- [17]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498960442,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["d"] = 15,
 				["g"] = 17,
-				["t"] = 1498960442,
+				["eN"] = "Harjatan",
 			}, -- [396]
 			{
 				"BKalithumos", -- [1]
@@ -20254,11 +20346,11 @@ VExRT = {
 				"HKalethia", -- [17]
 				"LNîne", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498961144,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1498961144,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [397]
 			{
 				"BKalithumos", -- [1]
@@ -20280,11 +20372,11 @@ VExRT = {
 				"HKalethia", -- [17]
 				"LNîne", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498961604,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1498961604,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [398]
 			{
 				"BKalithumos", -- [1]
@@ -20306,11 +20398,11 @@ VExRT = {
 				"HKalethia", -- [17]
 				"LNîne", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498961772,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1498961772,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [399]
 			{
 				"BKalithumos", -- [1]
@@ -20332,11 +20424,11 @@ VExRT = {
 				"HKalethia", -- [17]
 				"ABúî", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1498962769,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1498962769,
+				["eN"] = "Sisters of the Moon",
 			}, -- [400]
 			{
 				"BKalithumos", -- [1]
@@ -20411,11 +20503,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498964732,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [403]
 			{
 				"BKalithumos", -- [1]
@@ -20438,11 +20530,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498964905,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [404]
 			{
 				"BKalithumos", -- [1]
@@ -20465,11 +20557,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498965197,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [405]
 			{
 				"BKalithumos", -- [1]
@@ -20492,11 +20584,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498965347,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [406]
 			{
 				"BKalithumos", -- [1]
@@ -20519,11 +20611,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498965601,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [407]
 			{
 				"BKalithumos", -- [1]
@@ -20546,11 +20638,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498965836,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [408]
 			{
 				"BKalithumos", -- [1]
@@ -20573,11 +20665,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498966042,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [409]
 			{
 				"BKalithumos", -- [1]
@@ -20600,11 +20692,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498966420,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [410]
 			{
 				"BKalithumos", -- [1]
@@ -20627,11 +20719,11 @@ VExRT = {
 				"ABúî", -- [18]
 				"CDaoxu", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["t"] = 1498966818,
 				["g"] = 19,
-				["d"] = 15,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [411]
 			{
 				"BKalithumos", -- [1]
@@ -20653,11 +20745,11 @@ VExRT = {
 				"ABúî", -- [17]
 				"CDaoxu", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1498967696,
 				["g"] = 17,
-				["d"] = 15,
+				["eI"] = 2052,
 			}, -- [412]
 			{
 				"BKalithumos", -- [1]
@@ -20679,11 +20771,11 @@ VExRT = {
 				"ABúî", -- [17]
 				"CDaoxu", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1498967920,
 				["g"] = 17,
-				["d"] = 15,
+				["eI"] = 2052,
 			}, -- [413]
 			{
 				"BKalithumos", -- [1]
@@ -20705,11 +20797,11 @@ VExRT = {
 				"ABúî", -- [17]
 				"CDaoxu", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1498968207,
 				["g"] = 17,
-				["d"] = 15,
+				["eI"] = 2052,
 			}, -- [414]
 			{
 				"BKalithumos", -- [1]
@@ -20732,9 +20824,9 @@ VExRT = {
 				[18] = "HKaligon",
 				[19] = "CDaoxu",
 				[11] = "EMallusof",
-				["eI"] = 2038,
-				[12] = "KEllestria",
 				["t"] = 1498968978,
+				[12] = "KEllestria",
+				["eI"] = 2038,
 			}, -- [415]
 			{
 				"BKalithumos", -- [1]
@@ -20757,9 +20849,9 @@ VExRT = {
 				[18] = "HKaligon",
 				[19] = "CDaoxu",
 				[11] = "EMallusof",
-				["eI"] = 2038,
-				[12] = "KEllestria",
 				["t"] = 1498969485,
+				[12] = "KEllestria",
+				["eI"] = 2038,
 			}, -- [416]
 			{
 				"BKalithumos", -- [1]
@@ -20782,9 +20874,9 @@ VExRT = {
 				[18] = "HKaligon",
 				[19] = "CDaoxu",
 				[11] = "EMallusof",
-				["eI"] = 2038,
-				[12] = "KEllestria",
 				["t"] = 1498969790,
+				[12] = "KEllestria",
+				["eI"] = 2038,
 			}, -- [417]
 			{
 				"BKalithumos", -- [1]
@@ -20807,9 +20899,9 @@ VExRT = {
 				[18] = "HKaligon",
 				[19] = "CDaoxu",
 				[11] = "EMallusof",
-				["eI"] = 2038,
-				[12] = "KEllestria",
 				["t"] = 1498969992,
+				[12] = "KEllestria",
+				["eI"] = 2038,
 			}, -- [418]
 			{
 				"BKalithumos", -- [1]
@@ -20988,8 +21080,8 @@ VExRT = {
 				[13] = "IArkator",
 				[7] = "LNîne",
 				[14] = "ETafè",
-				["eN"] = "Fallen Avatar",
 				["g"] = 16,
+				["eN"] = "Fallen Avatar",
 			}, -- [425]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -21009,11 +21101,11 @@ VExRT = {
 				"GFarahn", -- [15]
 				"BXji-Tichondrius", -- [16]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Goroth",
-				["eI"] = 2032,
 				["t"] = 1499037012,
 				["g"] = 15,
-				["d"] = 15,
+				["eI"] = 2032,
 			}, -- [426]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -21034,11 +21126,11 @@ VExRT = {
 				"BXji-Tichondrius", -- [16]
 				"ESaosín-Tichondrius", -- [17]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Harjatan",
-				["eI"] = 2036,
 				["t"] = 1499037534,
 				["g"] = 14,
-				["d"] = 15,
+				["eI"] = 2036,
 			}, -- [427]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -21059,11 +21151,11 @@ VExRT = {
 				"BXji-Tichondrius", -- [16]
 				"ESaosín-Tichondrius", -- [17]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Harjatan",
-				["eI"] = 2036,
 				["t"] = 1499037617,
 				["g"] = 16,
-				["d"] = 15,
+				["eI"] = 2036,
 			}, -- [428]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -21084,11 +21176,11 @@ VExRT = {
 				"BXji-Tichondrius", -- [16]
 				"ESaosín-Tichondrius", -- [17]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Harjatan",
-				["eI"] = 2036,
 				["t"] = 1499037691,
 				["g"] = 17,
-				["d"] = 15,
+				["eI"] = 2036,
 			}, -- [429]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -21110,11 +21202,11 @@ VExRT = {
 				"ESaosín-Tichondrius", -- [17]
 				"JKoaxed-Tichondrius", -- [18]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1499038325,
 				["g"] = 18,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [430]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -21136,11 +21228,11 @@ VExRT = {
 				"ESaosín-Tichondrius", -- [17]
 				"JKoaxed-Tichondrius", -- [18]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1499038540,
 				["g"] = 18,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [431]
 			{
 				"BKalithumos-Tichondrius", -- [1]
@@ -21162,11 +21254,11 @@ VExRT = {
 				"ESaosín-Tichondrius", -- [17]
 				"JKoaxed-Tichondrius", -- [18]
 				["c"] = "Farahn-Proudmoore",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1499039200,
 				["g"] = 18,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [432]
 			{
 				"BKalithumos", -- [1]
@@ -21183,14 +21275,14 @@ VExRT = {
 				"DTetsunochi", -- [12]
 				"CDaoxu", -- [13]
 				"IReportmepls", -- [14]
-				["d"] = 15,
+				["eI"] = 2051,
 				[17] = "FZaelsynth",
 				["c"] = "Mallusof-Tichondrius",
-				["g"] = 13,
-				["eN"] = "Kil'jaeden",
-				["t"] = 1499045880,
 				[16] = "ETafè",
-				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["d"] = 15,
+				["g"] = 13,
+				["t"] = 1499045880,
 			}, -- [433]
 			{
 				"BKalithumos", -- [1]
@@ -21207,14 +21299,14 @@ VExRT = {
 				"DTetsunochi", -- [12]
 				"CDaoxu", -- [13]
 				"IReportmepls", -- [14]
-				["d"] = 15,
+				["eI"] = 2051,
 				[17] = "FZaelsynth",
 				["c"] = "Mallusof-Tichondrius",
-				["g"] = 13,
-				["eN"] = "Kil'jaeden",
-				["t"] = 1499045904,
 				[16] = "ETafè",
-				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["d"] = 15,
+				["g"] = 13,
+				["t"] = 1499045904,
 			}, -- [434]
 			{
 				"BKalithumos", -- [1]
@@ -21237,8 +21329,8 @@ VExRT = {
 				[13] = "DTetsunochi",
 				[7] = "FZaelsynth",
 				[14] = "CDaoxu",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [435]
 			{
 				"BKalithumos", -- [1]
@@ -21261,8 +21353,8 @@ VExRT = {
 				[13] = "DTetsunochi",
 				[7] = "FZaelsynth",
 				[14] = "CDaoxu",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [436]
 			{
 				"BKalithumos", -- [1]
@@ -21285,8 +21377,8 @@ VExRT = {
 				[13] = "DTetsunochi",
 				[7] = "FZaelsynth",
 				[14] = "CDaoxu",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [437]
 			{
 				"BKalithumos", -- [1]
@@ -21309,8 +21401,8 @@ VExRT = {
 				[13] = "DTetsunochi",
 				[7] = "FZaelsynth",
 				[14] = "CDaoxu",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [438]
 			{
 				"BKalithumos", -- [1]
@@ -21333,8 +21425,8 @@ VExRT = {
 				[13] = "DTetsunochi",
 				[7] = "FZaelsynth",
 				[14] = "CDaoxu",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [439]
 			{
 				"BKalithumos", -- [1]
@@ -21357,8 +21449,8 @@ VExRT = {
 				[13] = "DTetsunochi",
 				[7] = "FZaelsynth",
 				[14] = "CDaoxu",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [440]
 			{
 				"BKalithumos", -- [1]
@@ -21381,8 +21473,8 @@ VExRT = {
 				[13] = "DTetsunochi",
 				[7] = "FZaelsynth",
 				[14] = "CDaoxu",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [441]
 			{
 				"BKalithumos", -- [1]
@@ -21405,8 +21497,8 @@ VExRT = {
 				[13] = "DTetsunochi",
 				[7] = "FZaelsynth",
 				[14] = "CDaoxu",
-				["g"] = 16,
 				["eN"] = "Kil'jaeden",
+				["g"] = 16,
 			}, -- [442]
 			{
 				"BKalithumos", -- [1]
@@ -21560,11 +21652,11 @@ VExRT = {
 				"DSlicedlol", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499052877,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499052877,
 			}, -- [448]
 			{
 				"BKalithumos", -- [1]
@@ -21588,11 +21680,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499053162,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499053162,
 			}, -- [449]
 			{
 				"BKalithumos", -- [1]
@@ -21616,11 +21708,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499053415,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499053415,
 			}, -- [450]
 			{
 				"BKalithumos", -- [1]
@@ -21644,11 +21736,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499053894,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499053894,
 			}, -- [451]
 			{
 				"BKalithumos", -- [1]
@@ -21672,11 +21764,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499054161,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499054161,
 			}, -- [452]
 			{
 				"BKalithumos", -- [1]
@@ -21700,11 +21792,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499054674,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499054674,
 			}, -- [453]
 			{
 				"BKalithumos", -- [1]
@@ -21728,11 +21820,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499054944,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499054944,
 			}, -- [454]
 			{
 				"BKalithumos", -- [1]
@@ -21756,11 +21848,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499055154,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499055154,
 			}, -- [455]
 			{
 				"BKalithumos", -- [1]
@@ -21784,11 +21876,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499055307,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499055307,
 			}, -- [456]
 			{
 				"BKalithumos", -- [1]
@@ -21812,11 +21904,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499055670,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499055670,
 			}, -- [457]
 			{
 				"BKalithumos", -- [1]
@@ -21840,11 +21932,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499056027,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499056027,
 			}, -- [458]
 			{
 				"BKalithumos", -- [1]
@@ -21868,11 +21960,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499056437,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499056437,
 			}, -- [459]
 			{
 				"BKalithumos", -- [1]
@@ -21896,11 +21988,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499056832,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499056832,
 			}, -- [460]
 			{
 				"BKalithumos", -- [1]
@@ -21924,11 +22016,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499057063,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499057063,
 			}, -- [461]
 			{
 				"BKalithumos", -- [1]
@@ -21952,11 +22044,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499057322,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499057322,
 			}, -- [462]
 			{
 				"BKalithumos", -- [1]
@@ -21980,11 +22072,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499057589,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499057589,
 			}, -- [463]
 			{
 				"BKalithumos", -- [1]
@@ -22008,11 +22100,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499058018,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499058018,
 			}, -- [464]
 			{
 				"BKalithumos", -- [1]
@@ -22036,11 +22128,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499058284,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499058284,
 			}, -- [465]
 			{
 				"BKalithumos", -- [1]
@@ -22064,11 +22156,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499058593,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499058593,
 			}, -- [466]
 			{
 				"BKalithumos", -- [1]
@@ -22092,11 +22184,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499059025,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499059025,
 			}, -- [467]
 			{
 				"BKalithumos", -- [1]
@@ -22120,11 +22212,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499059492,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499059492,
 			}, -- [468]
 			{
 				"BKalithumos", -- [1]
@@ -22148,11 +22240,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2032,
-				["t"] = 1499059861,
-				["g"] = 20,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1499059861,
 			}, -- [469]
 			{
 				"BKalithumos", -- [1]
@@ -22176,11 +22268,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499132412,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [470]
 			{
 				"BKalithumos", -- [1]
@@ -22204,11 +22296,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499132668,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [471]
 			{
 				"BKalithumos", -- [1]
@@ -22232,11 +22324,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499132979,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [472]
 			{
 				"BKalithumos", -- [1]
@@ -22260,11 +22352,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499133124,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [473]
 			{
 				"BKalithumos", -- [1]
@@ -22288,11 +22380,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499133337,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [474]
 			{
 				"BKalithumos", -- [1]
@@ -22316,11 +22408,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499133833,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [475]
 			{
 				"BKalithumos", -- [1]
@@ -22344,11 +22436,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499134010,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [476]
 			{
 				"BKalithumos", -- [1]
@@ -22372,11 +22464,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499134143,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [477]
 			{
 				"BKalithumos", -- [1]
@@ -22400,11 +22492,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499134470,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [478]
 			{
 				"BKalithumos", -- [1]
@@ -22428,11 +22520,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499134746,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [479]
 			{
 				"BKalithumos", -- [1]
@@ -22456,11 +22548,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499134982,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [480]
 			{
 				"BKalithumos", -- [1]
@@ -22484,11 +22576,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499135344,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [481]
 			{
 				"BKalithumos", -- [1]
@@ -22512,11 +22604,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1499135558,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [482]
 			{
 				"BKalithumos", -- [1]
@@ -22540,11 +22632,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499136182,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [483]
 			{
 				"BKalithumos", -- [1]
@@ -22568,11 +22660,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499136401,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [484]
 			{
 				"BKalithumos", -- [1]
@@ -22596,11 +22688,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499136542,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [485]
 			{
 				"BKalithumos", -- [1]
@@ -22624,11 +22716,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499136817,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [486]
 			{
 				"BKalithumos", -- [1]
@@ -22652,11 +22744,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499136983,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [487]
 			{
 				"BKalithumos", -- [1]
@@ -22680,11 +22772,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499137220,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [488]
 			{
 				"BKalithumos", -- [1]
@@ -22708,11 +22800,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499137407,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [489]
 			{
 				"BKalithumos", -- [1]
@@ -22736,11 +22828,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499137683,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [490]
 			{
 				"BKalithumos", -- [1]
@@ -22764,11 +22856,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499138034,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [491]
 			{
 				"BKalithumos", -- [1]
@@ -22792,11 +22884,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499138792,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [492]
 			{
 				"BKalithumos", -- [1]
@@ -22820,11 +22912,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499139269,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [493]
 			{
 				"BKalithumos", -- [1]
@@ -22848,11 +22940,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499139498,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [494]
 			{
 				"BKalithumos", -- [1]
@@ -22876,11 +22968,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499139901,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [495]
 			{
 				"BKalithumos", -- [1]
@@ -22904,11 +22996,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499140158,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [496]
 			{
 				"BKalithumos", -- [1]
@@ -22932,11 +23024,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499140596,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [497]
 			{
 				"BKalithumos", -- [1]
@@ -22960,11 +23052,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499140881,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [498]
 			{
 				"BKalithumos", -- [1]
@@ -22988,11 +23080,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499141279,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [499]
 			{
 				"BKalithumos", -- [1]
@@ -23016,11 +23108,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499141482,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [500]
 			{
 				"BKalithumos", -- [1]
@@ -23044,11 +23136,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499141710,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [501]
 			{
 				"BKalithumos", -- [1]
@@ -23072,11 +23164,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499142099,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [502]
 			{
 				"BKalithumos", -- [1]
@@ -23100,11 +23192,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499142342,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [503]
 			{
 				"BKalithumos", -- [1]
@@ -23128,11 +23220,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499142698,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [504]
 			{
 				"BKalithumos", -- [1]
@@ -23156,11 +23248,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499143065,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [505]
 			{
 				"BKalithumos", -- [1]
@@ -23184,11 +23276,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499143693,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [506]
 			{
 				"BKalithumos", -- [1]
@@ -23212,11 +23304,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499143961,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [507]
 			{
 				"BKalithumos", -- [1]
@@ -23240,11 +23332,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499144234,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [508]
 			{
 				"BKalithumos", -- [1]
@@ -23268,11 +23360,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499144320,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [509]
 			{
 				"BKalithumos", -- [1]
@@ -23296,11 +23388,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499144540,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [510]
 			{
 				"BKalithumos", -- [1]
@@ -23324,11 +23416,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499144816,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [511]
 			{
 				"BKalithumos", -- [1]
@@ -23352,11 +23444,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499145164,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [512]
 			{
 				"BKalithumos", -- [1]
@@ -23380,11 +23472,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499145396,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [513]
 			{
 				"BKalithumos", -- [1]
@@ -23408,11 +23500,11 @@ VExRT = {
 				"IArkator", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1499145894,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [514]
 			{
 				"BGalavantt", -- [1]
@@ -23438,11 +23530,11 @@ VExRT = {
 				"EMallusof", -- [21]
 				"DTetsunochi", -- [22]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Goroth",
-				["eI"] = 2032,
 				["t"] = 1500773714,
 				["g"] = 22,
-				["d"] = 15,
+				["eI"] = 2032,
 			}, -- [515]
 			{
 				"BGalavantt", -- [1]
@@ -23468,11 +23560,11 @@ VExRT = {
 				"EMallusof", -- [21]
 				"DTetsunochi", -- [22]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1500774146,
 				["g"] = 22,
-				["d"] = 15,
+				["eI"] = 2048,
 			}, -- [516]
 			{
 				"BGalavantt", -- [1]
@@ -23498,11 +23590,11 @@ VExRT = {
 				"EMallusof", -- [21]
 				"DTetsunochi", -- [22]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Harjatan",
-				["eI"] = 2036,
 				["t"] = 1500774644,
 				["g"] = 22,
-				["d"] = 15,
+				["eI"] = 2036,
 			}, -- [517]
 			{
 				"BGalavantt", -- [1]
@@ -23528,11 +23620,11 @@ VExRT = {
 				"EMallusof", -- [21]
 				"DTetsunochi", -- [22]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Mistress Sassz'ine",
-				["eI"] = 2037,
 				["t"] = 1500775226,
 				["g"] = 22,
-				["d"] = 15,
+				["eI"] = 2037,
 			}, -- [518]
 			{
 				"BGalavantt", -- [1]
@@ -23558,11 +23650,11 @@ VExRT = {
 				"EMallusof", -- [21]
 				"DTetsunochi", -- [22]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Sisters of the Moon",
-				["eI"] = 2050,
 				["t"] = 1500775959,
 				["g"] = 22,
-				["d"] = 15,
+				["eI"] = 2050,
 			}, -- [519]
 			{
 				"BGalavantt", -- [1]
@@ -23588,11 +23680,11 @@ VExRT = {
 				"EMallusof", -- [21]
 				"DTetsunochi", -- [22]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Sisters of the Moon",
-				["eI"] = 2050,
 				["t"] = 1500776237,
 				["g"] = 22,
-				["d"] = 15,
+				["eI"] = 2050,
 			}, -- [520]
 			{
 				"IShadowspwn", -- [1]
@@ -23619,11 +23711,11 @@ VExRT = {
 				"DTetsunochi", -- [22]
 				"HKalethia", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "The Desolate Host",
-				["eI"] = 2054,
 				["t"] = 1500777133,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2054,
 			}, -- [521]
 			{
 				"IShadowspwn", -- [1]
@@ -23650,11 +23742,11 @@ VExRT = {
 				"DTetsunochi", -- [22]
 				"HKalethia", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "The Desolate Host",
-				["eI"] = 2054,
 				["t"] = 1500777566,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2054,
 			}, -- [522]
 			{
 				"IShadowspwn", -- [1]
@@ -23681,11 +23773,11 @@ VExRT = {
 				"DTetsunochi", -- [22]
 				"HKalethia", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1500778367,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2052,
 			}, -- [523]
 			{
 				"IShadowspwn", -- [1]
@@ -23712,11 +23804,11 @@ VExRT = {
 				"DTetsunochi", -- [22]
 				"HKalethia", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1500778680,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2052,
 			}, -- [524]
 			{
 				"IShadowspwn", -- [1]
@@ -23743,11 +23835,11 @@ VExRT = {
 				"DTetsunochi", -- [22]
 				"HKalethia", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1500778953,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2052,
 			}, -- [525]
 			{
 				"IShadowspwn", -- [1]
@@ -23774,11 +23866,11 @@ VExRT = {
 				"DTetsunochi", -- [22]
 				"HKalethia", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1500779401,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2052,
 			}, -- [526]
 			{
 				"IShadowspwn", -- [1]
@@ -23805,11 +23897,11 @@ VExRT = {
 				"DTetsunochi", -- [22]
 				"HKalethia", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1500779695,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2052,
 			}, -- [527]
 			{
 				"KEllestria", -- [1]
@@ -23836,11 +23928,11 @@ VExRT = {
 				"DSlicedlol", -- [22]
 				"BAcekicker", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["t"] = 1500780303,
 				["g"] = 21,
-				["d"] = 15,
+				["eI"] = 2038,
 			}, -- [528]
 			{
 				"KEllestria", -- [1]
@@ -23867,11 +23959,11 @@ VExRT = {
 				"DSlicedlol", -- [22]
 				"BAcekicker", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["t"] = 1500780392,
 				["g"] = 21,
-				["d"] = 15,
+				["eI"] = 2038,
 			}, -- [529]
 			{
 				"KEllestria", -- [1]
@@ -23898,11 +23990,11 @@ VExRT = {
 				"DSlicedlol", -- [22]
 				"BAcekicker", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["t"] = 1500780582,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2038,
 			}, -- [530]
 			{
 				"KEllestria", -- [1]
@@ -23929,11 +24021,11 @@ VExRT = {
 				"DSlicedlol", -- [22]
 				"BAcekicker", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["t"] = 1500781135,
 				["g"] = 23,
-				["d"] = 15,
+				["eI"] = 2038,
 			}, -- [531]
 			{
 				"KEllestria", -- [1]
@@ -23961,11 +24053,11 @@ VExRT = {
 				"BAcekicker", -- [23]
 				"FZaelsynth", -- [24]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1500781692,
-				["eI"] = 2038,
-				["d"] = 15,
-				["g"] = 24,
 				["eN"] = "Fallen Avatar",
+				["eI"] = 2038,
+				["t"] = 1500781692,
+				["g"] = 24,
+				["d"] = 15,
 			}, -- [532]
 			{
 				"IReportmepls", -- [1]
@@ -23990,11 +24082,11 @@ VExRT = {
 				"JBeccapics", -- [20]
 				"HKaligon", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1500783486,
-				["eN"] = "Kil'jaeden",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1500783486,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [533]
 			{
 				"IReportmepls", -- [1]
@@ -24019,11 +24111,11 @@ VExRT = {
 				"JBeccapics", -- [20]
 				"HKaligon", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1500783795,
-				["eN"] = "Kil'jaeden",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1500783795,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [534]
 			{
 				"IReportmepls", -- [1]
@@ -24048,11 +24140,11 @@ VExRT = {
 				"JBeccapics", -- [20]
 				"HKaligon", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1500783819,
-				["eN"] = "Kil'jaeden",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1500783819,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [535]
 			{
 				"IReportmepls", -- [1]
@@ -24077,11 +24169,11 @@ VExRT = {
 				"JBeccapics", -- [20]
 				"HKaligon", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1500783956,
-				["eN"] = "Kil'jaeden",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1500783956,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [536]
 			{
 				"IReportmepls", -- [1]
@@ -24108,11 +24200,11 @@ VExRT = {
 				"BBlakeyboy", -- [22]
 				"EHangookie", -- [23]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1500784722,
-				["eN"] = "Kil'jaeden",
-				["d"] = 15,
-				["g"] = 23,
 				["eI"] = 2051,
+				["eN"] = "Kil'jaeden",
+				["t"] = 1500784722,
+				["g"] = 23,
+				["d"] = 15,
 			}, -- [537]
 			{
 				"EPotatobar-Stormrage", -- [1]
@@ -24131,11 +24223,11 @@ VExRT = {
 				"EMazcazz-Frostmourne", -- [14]
 				"HNephri-Bladefist", -- [15]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1505766620,
-				["eI"] = 2052,
-				["d"] = 14,
-				["g"] = 15,
 				["eN"] = "Maiden of Vigilance",
+				["eI"] = 2052,
+				["t"] = 1505766620,
+				["g"] = 15,
+				["d"] = 14,
 			}, -- [538]
 			{
 				"EPotatobar-Stormrage", -- [1]
@@ -24153,11 +24245,11 @@ VExRT = {
 				"IZeldalock-Frostmourne", -- [13]
 				"HNephri-Bladefist", -- [14]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1505766918,
-				["eI"] = 2052,
-				["d"] = 14,
-				["g"] = 14,
 				["eN"] = "Maiden of Vigilance",
+				["eI"] = 2052,
+				["t"] = 1505766918,
+				["g"] = 14,
+				["d"] = 14,
 			}, -- [539]
 			{
 				"EPotatobar-Stormrage", -- [1]
@@ -24175,11 +24267,11 @@ VExRT = {
 				"IZeldalock-Frostmourne", -- [13]
 				"HNephri-Bladefist", -- [14]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1505767262,
-				["eI"] = 2052,
-				["d"] = 14,
-				["g"] = 14,
 				["eN"] = "Maiden of Vigilance",
+				["eI"] = 2052,
+				["t"] = 1505767262,
+				["g"] = 14,
+				["d"] = 14,
 			}, -- [540]
 			{
 				"BSebarenn-Saurfang", -- [1]
@@ -24194,14 +24286,14 @@ VExRT = {
 				"AXavosotron-Goldrinn", -- [10]
 				"EMallusof", -- [11]
 				"CPalfrun-Shadowsong", -- [12]
-				["eI"] = 2052,
+				["t"] = 1506521031,
 				[17] = "DFlävia-Goldrinn",
 				["c"] = "Mallusof-Tichondrius",
+				["g"] = 14,
+				["eI"] = 2052,
+				["d"] = 14,
 				[16] = "EPaek-Dalaran",
 				["eN"] = "Maiden of Vigilance",
-				["d"] = 14,
-				["g"] = 14,
-				["t"] = 1506521031,
 			}, -- [541]
 			{
 				"BSebarenn-Saurfang", -- [1]
@@ -24221,11 +24313,11 @@ VExRT = {
 				nil, -- [15]
 				"EPaek-Dalaran", -- [16]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1506521805,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1506521805,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [542]
 			{
 				"JFaril-AzjolNerub", -- [1]
@@ -24246,11 +24338,11 @@ VExRT = {
 				"JIshtag-Gundrak", -- [16]
 				"FOpalauana-Whisperwind", -- [17]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Harjatan",
-				["t"] = 1508087242,
-				["g"] = 16,
 				["eI"] = 2036,
+				["eN"] = "Harjatan",
+				["d"] = 14,
+				["g"] = 16,
+				["t"] = 1508087242,
 			}, -- [543]
 			{
 				"JFaril-AzjolNerub", -- [1]
@@ -24271,11 +24363,11 @@ VExRT = {
 				"JIshtag-Gundrak", -- [16]
 				"FOpalauana-Whisperwind", -- [17]
 				["c"] = "Morifa-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Mistress Sassz'ine",
-				["t"] = 1508087859,
-				["g"] = 17,
 				["eI"] = 2037,
+				["eN"] = "Mistress Sassz'ine",
+				["d"] = 14,
+				["g"] = 17,
+				["t"] = 1508087859,
 			}, -- [544]
 			{
 				"BKalithumos", -- [1]
@@ -24299,11 +24391,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1509939603,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [545]
 			{
 				"BKalithumos", -- [1]
@@ -24327,11 +24419,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2048,
-				["eN"] = "Demonic Inquisition",
 				["t"] = 1509939954,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Demonic Inquisition",
 			}, -- [546]
 			{
 				"BKalithumos", -- [1]
@@ -24355,11 +24447,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2048,
-				["eN"] = "Demonic Inquisition",
 				["t"] = 1509940124,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Demonic Inquisition",
 			}, -- [547]
 			{
 				"BKalithumos", -- [1]
@@ -24383,11 +24475,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1509940623,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [548]
 			{
 				"BKalithumos", -- [1]
@@ -24411,11 +24503,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1509940725,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [549]
 			{
 				"BKalithumos", -- [1]
@@ -24439,11 +24531,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["t"] = 1509941357,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Sisters of the Moon",
 			}, -- [550]
 			{
 				"BKalithumos", -- [1]
@@ -24467,11 +24559,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["t"] = 1509941457,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Sisters of the Moon",
 			}, -- [551]
 			{
 				"BKalithumos", -- [1]
@@ -24495,11 +24587,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["t"] = 1509941477,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Sisters of the Moon",
 			}, -- [552]
 			{
 				"BKalithumos", -- [1]
@@ -24523,11 +24615,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["t"] = 1509941560,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Sisters of the Moon",
 			}, -- [553]
 			{
 				"BKalithumos", -- [1]
@@ -24551,11 +24643,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["t"] = 1509941867,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Sisters of the Moon",
 			}, -- [554]
 			{
 				"BKalithumos", -- [1]
@@ -24579,11 +24671,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"KCyous", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["t"] = 1509942146,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Sisters of the Moon",
 			}, -- [555]
 			{
 				"BKalithumos", -- [1]
@@ -24607,11 +24699,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2054,
-				["eN"] = "The Desolate Host",
 				["t"] = 1509943295,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Desolate Host",
 			}, -- [556]
 			{
 				"BKalithumos", -- [1]
@@ -24635,11 +24727,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2054,
-				["eN"] = "The Desolate Host",
 				["t"] = 1509943772,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Desolate Host",
 			}, -- [557]
 			{
 				"BKalithumos", -- [1]
@@ -24663,11 +24755,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2054,
-				["eN"] = "The Desolate Host",
 				["t"] = 1509944180,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Desolate Host",
 			}, -- [558]
 			{
 				"BKalithumos", -- [1]
@@ -24691,11 +24783,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2054,
-				["eN"] = "The Desolate Host",
 				["t"] = 1509944732,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Desolate Host",
 			}, -- [559]
 			{
 				"BDarkchef-Quel'Thalas", -- [1]
@@ -24715,11 +24807,11 @@ VExRT = {
 				"HMorifa", -- [15]
 				"HRositar-Quel'Thalas", -- [16]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1510034559,
-				["eI"] = 2032,
-				["d"] = 14,
-				["g"] = 16,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["t"] = 1510034559,
+				["g"] = 16,
+				["d"] = 14,
 			}, -- [560]
 			{
 				"BDarkchef-Quel'Thalas", -- [1]
@@ -24739,11 +24831,11 @@ VExRT = {
 				"HMorifa", -- [15]
 				"HRositar-Quel'Thalas", -- [16]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1510034996,
-				["eI"] = 2048,
-				["d"] = 14,
-				["g"] = 16,
 				["eN"] = "Demonic Inquisition",
+				["eI"] = 2048,
+				["t"] = 1510034996,
+				["g"] = 16,
+				["d"] = 14,
 			}, -- [561]
 			{
 				"BDarkchef-Quel'Thalas", -- [1]
@@ -24763,11 +24855,11 @@ VExRT = {
 				"HMorifa", -- [15]
 				"HRositar-Quel'Thalas", -- [16]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1510035725,
-				["eI"] = 2036,
-				["d"] = 14,
-				["g"] = 16,
 				["eN"] = "Harjatan",
+				["eI"] = 2036,
+				["t"] = 1510035725,
+				["g"] = 16,
+				["d"] = 14,
 			}, -- [562]
 			{
 				"BDarkchef-Quel'Thalas", -- [1]
@@ -24787,11 +24879,11 @@ VExRT = {
 				"HMorifa", -- [15]
 				"HRositar-Quel'Thalas", -- [16]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1510036317,
-				["eI"] = 2037,
-				["d"] = 14,
-				["g"] = 16,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510036317,
+				["g"] = 16,
+				["d"] = 14,
 			}, -- [563]
 			{
 				"BDarkchef-Quel'Thalas", -- [1]
@@ -24810,11 +24902,11 @@ VExRT = {
 				"JDîelema-Kel'Thuzad", -- [14]
 				"HMorifa", -- [15]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1510037336,
-				["eI"] = 2050,
-				["d"] = 14,
-				["g"] = 15,
 				["eN"] = "Sisters of the Moon",
+				["eI"] = 2050,
+				["t"] = 1510037336,
+				["g"] = 15,
+				["d"] = 14,
 			}, -- [564]
 			{
 				"HMorifa", -- [1]
@@ -24830,14 +24922,14 @@ VExRT = {
 				"BElthene-Sargeras", -- [11]
 				"KLucipürr-Frostmourne", -- [12]
 				"EÈllcrys-Stormrage", -- [13]
-				["t"] = 1510038855,
+				["eN"] = "The Desolate Host",
 				[17] = "IAmauta-Quel'Thalas",
 				["c"] = "Morifa-Proudmoore",
-				["g"] = 15,
-				["eI"] = 2054,
-				["d"] = 14,
 				[16] = "CFionaluvs-Suramar",
-				["eN"] = "The Desolate Host",
+				["eI"] = 2054,
+				["t"] = 1510038855,
+				["g"] = 15,
+				["d"] = 14,
 			}, -- [565]
 			{
 				"BKalithumos", -- [1]
@@ -24861,11 +24953,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2032,
-				["eN"] = "Goroth",
 				["t"] = 1510542543,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Goroth",
 			}, -- [566]
 			{
 				"BKalithumos", -- [1]
@@ -24889,11 +24981,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2048,
-				["eN"] = "Demonic Inquisition",
 				["t"] = 1510543018,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Demonic Inquisition",
 			}, -- [567]
 			{
 				"BKalithumos", -- [1]
@@ -24917,11 +25009,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2036,
-				["eN"] = "Harjatan",
 				["t"] = 1510543655,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Harjatan",
 			}, -- [568]
 			{
 				"BKalithumos", -- [1]
@@ -24945,11 +25037,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2050,
-				["eN"] = "Sisters of the Moon",
 				["t"] = 1510544184,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Sisters of the Moon",
 			}, -- [569]
 			{
 				"BKalithumos", -- [1]
@@ -24973,11 +25065,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510544292,
-				["eN"] = "Sisters of the Moon",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2050,
+				["eN"] = "Sisters of the Moon",
+				["t"] = 1510544292,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [570]
 			{
 				"BKalithumos", -- [1]
@@ -25001,11 +25093,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510544350,
-				["eN"] = "Sisters of the Moon",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2050,
+				["eN"] = "Sisters of the Moon",
+				["t"] = 1510544350,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [571]
 			{
 				"HLoudpâck", -- [1]
@@ -25029,11 +25121,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510545773,
-				["eI"] = 2054,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Desolate Host",
+				["eI"] = 2054,
+				["t"] = 1510545773,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [572]
 			{
 				"HLoudpâck", -- [1]
@@ -25057,11 +25149,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510546459,
-				["eI"] = 2054,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Desolate Host",
+				["eI"] = 2054,
+				["t"] = 1510546459,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [573]
 			{
 				"HLoudpâck", -- [1]
@@ -25085,11 +25177,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510546881,
-				["eI"] = 2054,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Desolate Host",
+				["eI"] = 2054,
+				["t"] = 1510546881,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [574]
 			{
 				"HLoudpâck", -- [1]
@@ -25113,11 +25205,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510548107,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510548107,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [575]
 			{
 				"HKaligon", -- [1]
@@ -25141,11 +25233,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"HLoudpâck", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510548509,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510548509,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [576]
 			{
 				"HKaligon", -- [1]
@@ -25169,11 +25261,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"HLoudpâck", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510549141,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510549141,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [577]
 			{
 				"HKaligon", -- [1]
@@ -25197,11 +25289,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"HLoudpâck", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510549348,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510549348,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [578]
 			{
 				"HKaligon", -- [1]
@@ -25225,11 +25317,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"HLoudpâck", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510549428,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510549428,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [579]
 			{
 				"HKaligon", -- [1]
@@ -25253,11 +25345,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"HLoudpâck", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510549808,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510549808,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [580]
 			{
 				"HKaligon", -- [1]
@@ -25281,11 +25373,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"HLoudpâck", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510550382,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510550382,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [581]
 			{
 				"HKaligon", -- [1]
@@ -25309,11 +25401,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"HLoudpâck", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510550571,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510550571,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [582]
 			{
 				"HKaligon", -- [1]
@@ -25337,11 +25429,11 @@ VExRT = {
 				"BLightpulse", -- [19]
 				"HLoudpâck", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510551144,
-				["eI"] = 2037,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510551144,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [583]
 			{
 				"KYajjë", -- [1]
@@ -25365,11 +25457,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510628836,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510628836,
+				["eI"] = 2052,
 			}, -- [584]
 			{
 				"KYajjë", -- [1]
@@ -25393,11 +25485,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510628970,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510628970,
+				["eI"] = 2052,
 			}, -- [585]
 			{
 				"KYajjë", -- [1]
@@ -25421,11 +25513,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510629163,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510629163,
+				["eI"] = 2052,
 			}, -- [586]
 			{
 				"KYajjë", -- [1]
@@ -25449,11 +25541,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510629291,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510629291,
+				["eI"] = 2052,
 			}, -- [587]
 			{
 				"KYajjë", -- [1]
@@ -25477,11 +25569,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510629684,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510629684,
+				["eI"] = 2052,
 			}, -- [588]
 			{
 				"KYajjë", -- [1]
@@ -25505,11 +25597,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510629942,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510629942,
+				["eI"] = 2052,
 			}, -- [589]
 			{
 				"KYajjë", -- [1]
@@ -25533,11 +25625,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510630023,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510630023,
+				["eI"] = 2052,
 			}, -- [590]
 			{
 				"KYajjë", -- [1]
@@ -25561,11 +25653,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510630220,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510630220,
+				["eI"] = 2052,
 			}, -- [591]
 			{
 				"KYajjë", -- [1]
@@ -25589,11 +25681,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510630495,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510630495,
+				["eI"] = 2052,
 			}, -- [592]
 			{
 				"KYajjë", -- [1]
@@ -25617,11 +25709,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510630672,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510630672,
+				["eI"] = 2052,
 			}, -- [593]
 			{
 				"KYajjë", -- [1]
@@ -25645,11 +25737,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510630821,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510630821,
+				["eI"] = 2052,
 			}, -- [594]
 			{
 				"KYajjë", -- [1]
@@ -25673,11 +25765,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510630946,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510630946,
+				["eI"] = 2052,
 			}, -- [595]
 			{
 				"KYajjë", -- [1]
@@ -25701,11 +25793,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510631054,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510631054,
+				["eI"] = 2052,
 			}, -- [596]
 			{
 				"KYajjë", -- [1]
@@ -25729,11 +25821,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510631216,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510631216,
+				["eI"] = 2052,
 			}, -- [597]
 			{
 				"KYajjë", -- [1]
@@ -25757,11 +25849,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510631431,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510631431,
+				["eI"] = 2052,
 			}, -- [598]
 			{
 				"KYajjë", -- [1]
@@ -25785,11 +25877,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"GMactoventus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510631584,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510631584,
+				["eI"] = 2052,
 			}, -- [599]
 			{
 				"KYajjë", -- [1]
@@ -25813,11 +25905,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510631791,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510631791,
+				["eI"] = 2052,
 			}, -- [600]
 			{
 				"KYajjë", -- [1]
@@ -25841,11 +25933,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510632025,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510632025,
+				["eI"] = 2052,
 			}, -- [601]
 			{
 				"KYajjë", -- [1]
@@ -25869,11 +25961,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510632238,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510632238,
+				["eI"] = 2052,
 			}, -- [602]
 			{
 				"KYajjë", -- [1]
@@ -25897,11 +25989,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510632368,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510632368,
+				["eI"] = 2052,
 			}, -- [603]
 			{
 				"KYajjë", -- [1]
@@ -25925,11 +26017,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510632519,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510632519,
+				["eI"] = 2052,
 			}, -- [604]
 			{
 				"KYajjë", -- [1]
@@ -25953,11 +26045,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510632676,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510632676,
+				["eI"] = 2052,
 			}, -- [605]
 			{
 				"KYajjë", -- [1]
@@ -25981,11 +26073,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510632868,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510632868,
+				["eI"] = 2052,
 			}, -- [606]
 			{
 				"KYajjë", -- [1]
@@ -26009,11 +26101,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510632991,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510632991,
+				["eI"] = 2052,
 			}, -- [607]
 			{
 				"KYajjë", -- [1]
@@ -26037,11 +26129,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510633134,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510633134,
+				["eI"] = 2052,
 			}, -- [608]
 			{
 				"KYajjë", -- [1]
@@ -26065,11 +26157,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"KSombrador", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510633277,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510633277,
+				["eI"] = 2052,
 			}, -- [609]
 			{
 				"DTheyungone", -- [1]
@@ -26093,11 +26185,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510634237,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510634237,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [610]
 			{
 				"DTheyungone", -- [1]
@@ -26121,11 +26213,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510634359,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510634359,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [611]
 			{
 				"DTheyungone", -- [1]
@@ -26149,11 +26241,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510634486,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510634486,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [612]
 			{
 				"DTheyungone", -- [1]
@@ -26177,11 +26269,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510634710,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510634710,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [613]
 			{
 				"DTheyungone", -- [1]
@@ -26205,11 +26297,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510634832,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510634832,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [614]
 			{
 				"DTheyungone", -- [1]
@@ -26233,11 +26325,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510635060,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510635060,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [615]
 			{
 				"DTheyungone", -- [1]
@@ -26261,11 +26353,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510635160,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510635160,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [616]
 			{
 				"DTheyungone", -- [1]
@@ -26289,11 +26381,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510635291,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510635291,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [617]
 			{
 				"DTheyungone", -- [1]
@@ -26317,11 +26409,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510635504,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510635504,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [618]
 			{
 				"DTheyungone", -- [1]
@@ -26345,11 +26437,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510635625,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510635625,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [619]
 			{
 				"DTheyungone", -- [1]
@@ -26373,11 +26465,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510635858,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510635858,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [620]
 			{
 				"DTheyungone", -- [1]
@@ -26401,11 +26493,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510635962,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510635962,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [621]
 			{
 				"DTheyungone", -- [1]
@@ -26429,11 +26521,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510636075,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510636075,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [622]
 			{
 				"DTheyungone", -- [1]
@@ -26457,11 +26549,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510636179,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510636179,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [623]
 			{
 				"DTheyungone", -- [1]
@@ -26485,11 +26577,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510636392,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510636392,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [624]
 			{
 				"DTheyungone", -- [1]
@@ -26513,11 +26605,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510636519,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510636519,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [625]
 			{
 				"DTheyungone", -- [1]
@@ -26541,11 +26633,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510636854,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510636854,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [626]
 			{
 				"DTheyungone", -- [1]
@@ -26569,11 +26661,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510636994,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510636994,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [627]
 			{
 				"DTheyungone", -- [1]
@@ -26597,11 +26689,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510637194,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510637194,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [628]
 			{
 				"DTheyungone", -- [1]
@@ -26625,11 +26717,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510637316,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510637316,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [629]
 			{
 				"DTheyungone", -- [1]
@@ -26653,11 +26745,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510637555,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510637555,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [630]
 			{
 				"DTheyungone", -- [1]
@@ -26681,11 +26773,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510637749,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510637749,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [631]
 			{
 				"DTheyungone", -- [1]
@@ -26709,11 +26801,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510637897,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510637897,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [632]
 			{
 				"DTheyungone", -- [1]
@@ -26737,11 +26829,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510638241,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510638241,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [633]
 			{
 				"DTheyungone", -- [1]
@@ -26765,11 +26857,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510638424,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510638424,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [634]
 			{
 				"DTheyungone", -- [1]
@@ -26793,11 +26885,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510638784,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510638784,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [635]
 			{
 				"DTheyungone", -- [1]
@@ -26821,11 +26913,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510638980,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510638980,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [636]
 			{
 				"DTheyungone", -- [1]
@@ -26849,11 +26941,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1510639075,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1510639075,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [637]
 			{
 				"BBlakeyboy", -- [1]
@@ -26869,11 +26961,11 @@ VExRT = {
 				"HOxidized-Saurfang", -- [11]
 				"AShadinstan", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510887903,
-				["eI"] = 2032,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["t"] = 1510887903,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [638]
 			{
 				"BBlakeyboy", -- [1]
@@ -26888,11 +26980,11 @@ VExRT = {
 				"EElorela", -- [10]
 				"AShadinstan", -- [11]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510888198,
-				["eI"] = 2032,
-				["d"] = 15,
-				["g"] = 11,
 				["eN"] = "Goroth",
+				["eI"] = 2032,
+				["t"] = 1510888198,
+				["g"] = 11,
+				["d"] = 15,
 			}, -- [639]
 			{
 				"BBlakeyboy", -- [1]
@@ -26908,11 +27000,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"AShadinstan", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510888543,
-				["eI"] = 2048,
-				["d"] = 15,
-				["g"] = 11,
 				["eN"] = "Demonic Inquisition",
+				["eI"] = 2048,
+				["t"] = 1510888543,
+				["g"] = 11,
+				["d"] = 15,
 			}, -- [640]
 			{
 				"BBlakeyboy", -- [1]
@@ -26928,11 +27020,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"AShadinstan", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510888922,
-				["eI"] = 2036,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Harjatan",
+				["eI"] = 2036,
+				["t"] = 1510888922,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [641]
 			{
 				"BBlakeyboy", -- [1]
@@ -26948,11 +27040,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"AShadinstan", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510888997,
-				["eI"] = 2036,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Harjatan",
+				["eI"] = 2036,
+				["t"] = 1510888997,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [642]
 			{
 				"BBlakeyboy", -- [1]
@@ -26968,11 +27060,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"AShadinstan", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510889330,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510889330,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [643]
 			{
 				"BBlakeyboy", -- [1]
@@ -26988,11 +27080,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"AShadinstan", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510889400,
-				["eI"] = 2037,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Mistress Sassz'ine",
+				["eI"] = 2037,
+				["t"] = 1510889400,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [644]
 			{
 				"BBlakeyboy", -- [1]
@@ -27008,11 +27100,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"AShadinstan", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510889874,
-				["eI"] = 2050,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Sisters of the Moon",
+				["eI"] = 2050,
+				["t"] = 1510889874,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [645]
 			{
 				"BBlakeyboy", -- [1]
@@ -27028,11 +27120,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"AShadinstan", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510889954,
-				["eI"] = 2050,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Sisters of the Moon",
+				["eI"] = 2050,
+				["t"] = 1510889954,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [646]
 			{
 				"BBlakeyboy", -- [1]
@@ -27052,11 +27144,11 @@ VExRT = {
 				nil, -- [15]
 				"AShadinstan", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510890320,
-				["eI"] = 2054,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "The Desolate Host",
+				["eI"] = 2054,
+				["t"] = 1510890320,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [647]
 			{
 				"BBlakeyboy", -- [1]
@@ -27076,11 +27168,11 @@ VExRT = {
 				nil, -- [15]
 				"AShadinstan", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510890573,
-				["eI"] = 2054,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "The Desolate Host",
+				["eI"] = 2054,
+				["t"] = 1510890573,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [648]
 			{
 				"BBlakeyboy", -- [1]
@@ -27097,11 +27189,11 @@ VExRT = {
 				"EHangookie", -- [12]
 				"AShadinstan", -- [13]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510891118,
-				["eI"] = 2052,
-				["d"] = 15,
-				["g"] = 13,
 				["eN"] = "Maiden of Vigilance",
+				["eI"] = 2052,
+				["t"] = 1510891118,
+				["g"] = 13,
+				["d"] = 15,
 			}, -- [649]
 			{
 				"BBlakeyboy", -- [1]
@@ -27118,11 +27210,11 @@ VExRT = {
 				"EHangookie", -- [12]
 				"AShadinstan", -- [13]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510891710,
-				["eI"] = 2038,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Fallen Avatar",
+				["eI"] = 2038,
+				["t"] = 1510891710,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [650]
 			{
 				"BBlakeyboy", -- [1]
@@ -27137,11 +27229,11 @@ VExRT = {
 				"EMallusof", -- [10]
 				"KYajjë", -- [11]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510892136,
-				["eI"] = 2038,
-				["d"] = 15,
-				["g"] = 11,
 				["eN"] = "Fallen Avatar",
+				["eI"] = 2038,
+				["t"] = 1510892136,
+				["g"] = 11,
+				["d"] = 15,
 			}, -- [651]
 			{
 				"BBlakeyboy", -- [1]
@@ -27157,11 +27249,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"GLêxx", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510892803,
-				["eI"] = 2051,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["t"] = 1510892803,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [652]
 			{
 				"BBlakeyboy", -- [1]
@@ -27177,11 +27269,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"GLêxx", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510893063,
-				["eI"] = 2051,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["t"] = 1510893063,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [653]
 			{
 				"BBlakeyboy", -- [1]
@@ -27197,11 +27289,11 @@ VExRT = {
 				"KYajjë", -- [11]
 				"GLêxx", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1510893625,
-				["eI"] = 2051,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Kil'jaeden",
+				["eI"] = 2051,
+				["t"] = 1510893625,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [654]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27223,11 +27315,11 @@ VExRT = {
 				"EHammydar-Sargeras", -- [17]
 				"EAdvill-Tichondrius", -- [18]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Goroth",
-				["eI"] = 2032,
 				["t"] = 1510991022,
 				["g"] = 18,
-				["d"] = 14,
+				["eI"] = 2032,
 			}, -- [655]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27249,11 +27341,11 @@ VExRT = {
 				"EHammydar-Sargeras", -- [17]
 				"EAdvill-Tichondrius", -- [18]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Demonic Inquisition",
-				["eI"] = 2048,
 				["t"] = 1510991418,
 				["g"] = 18,
-				["d"] = 14,
+				["eI"] = 2048,
 			}, -- [656]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27275,11 +27367,11 @@ VExRT = {
 				"EHammydar-Sargeras", -- [17]
 				"EAdvill-Tichondrius", -- [18]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Harjatan",
-				["eI"] = 2036,
 				["t"] = 1510991944,
 				["g"] = 16,
-				["d"] = 14,
+				["eI"] = 2036,
 			}, -- [657]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27301,11 +27393,11 @@ VExRT = {
 				"EHammydar-Sargeras", -- [17]
 				"EAdvill-Tichondrius", -- [18]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Mistress Sassz'ine",
-				["eI"] = 2037,
 				["t"] = 1510992483,
 				["g"] = 17,
-				["d"] = 14,
+				["eI"] = 2037,
 			}, -- [658]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27326,11 +27418,11 @@ VExRT = {
 				"HKreznik-Medivh", -- [16]
 				"EHammydar-Sargeras", -- [17]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Sisters of the Moon",
-				["eI"] = 2050,
 				["t"] = 1510993164,
 				["g"] = 16,
-				["d"] = 14,
+				["eI"] = 2050,
 			}, -- [659]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27352,11 +27444,11 @@ VExRT = {
 				"EHammydar-Sargeras", -- [17]
 				"CAllagguna-Quel'Thalas", -- [18]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "The Desolate Host",
-				["eI"] = 2054,
 				["t"] = 1510993948,
 				["g"] = 16,
-				["d"] = 14,
+				["eI"] = 2054,
 			}, -- [660]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27378,11 +27470,11 @@ VExRT = {
 				"EHammydar-Sargeras", -- [17]
 				"CAllagguna-Quel'Thalas", -- [18]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Maiden of Vigilance",
-				["eI"] = 2052,
 				["t"] = 1510994639,
 				["g"] = 15,
-				["d"] = 14,
+				["eI"] = 2052,
 			}, -- [661]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27404,11 +27496,11 @@ VExRT = {
 				"EHammydar-Sargeras", -- [17]
 				"CAllagguna-Quel'Thalas", -- [18]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Fallen Avatar",
-				["eI"] = 2038,
 				["t"] = 1510995369,
 				["g"] = 15,
-				["d"] = 14,
+				["eI"] = 2038,
 			}, -- [662]
 			{
 				"HRedlyn-Wildhammer", -- [1]
@@ -27430,11 +27522,11 @@ VExRT = {
 				"EHammydar-Sargeras", -- [17]
 				"CAllagguna-Quel'Thalas", -- [18]
 				["c"] = "Praerend-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Kil'jaeden",
-				["eI"] = 2051,
 				["t"] = 1510996364,
 				["g"] = 14,
-				["d"] = 14,
+				["eI"] = 2051,
 			}, -- [663]
 			{
 				"BWorddem-Ragnaros", -- [1]
@@ -27457,11 +27549,11 @@ VExRT = {
 				"EAryä-BurningBlade", -- [18]
 				"CCashadör-Ragnaros", -- [19]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1511131447,
-				["eN"] = "Maiden of Vigilance",
-				["d"] = 14,
-				["g"] = 19,
 				["eI"] = 2052,
+				["eN"] = "Maiden of Vigilance",
+				["t"] = 1511131447,
+				["g"] = 19,
+				["d"] = 14,
 			}, -- [664]
 			{
 				"BVaràlyon-Sargeras", -- [1]
@@ -27483,11 +27575,11 @@ VExRT = {
 				"EAryä-BurningBlade", -- [17]
 				"CCashadör-Ragnaros", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1511131992,
-				["eI"] = 2052,
-				["d"] = 14,
-				["g"] = 16,
 				["eN"] = "Maiden of Vigilance",
+				["eI"] = 2052,
+				["t"] = 1511131992,
+				["g"] = 16,
+				["d"] = 14,
 			}, -- [665]
 			{
 				"IReportmepls", -- [1]
@@ -27511,11 +27603,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511233888,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511233888,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [666]
 			{
 				"IReportmepls", -- [1]
@@ -27539,11 +27631,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511234524,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511234524,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [667]
 			{
 				"IReportmepls", -- [1]
@@ -27567,11 +27659,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511234575,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511234575,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [668]
 			{
 				"IReportmepls", -- [1]
@@ -27595,11 +27687,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511234749,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511234749,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [669]
 			{
 				"IReportmepls", -- [1]
@@ -27623,11 +27715,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511235276,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511235276,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [670]
 			{
 				"IReportmepls", -- [1]
@@ -27651,11 +27743,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511235348,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511235348,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [671]
 			{
 				"KYajjë", -- [1]
@@ -27679,11 +27771,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511236766,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511236766,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [672]
 			{
 				"KYajjë", -- [1]
@@ -27707,11 +27799,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511236947,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511236947,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [673]
 			{
 				"ADieidont", -- [1]
@@ -27735,11 +27827,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511237105,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511237105,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [674]
 			{
 				"ADieidont", -- [1]
@@ -27763,11 +27855,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511237316,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511237316,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [675]
 			{
 				"ADieidont", -- [1]
@@ -27791,11 +27883,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511237526,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511237526,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [676]
 			{
 				"ADieidont", -- [1]
@@ -27819,11 +27911,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511237631,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511237631,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [677]
 			{
 				"ADieidont", -- [1]
@@ -27847,11 +27939,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511237772,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511237772,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [678]
 			{
 				"ADieidont", -- [1]
@@ -27875,11 +27967,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511238074,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511238074,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [679]
 			{
 				"ADieidont", -- [1]
@@ -27903,11 +27995,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511238160,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511238160,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [680]
 			{
 				"ADieidont", -- [1]
@@ -27931,11 +28023,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511238266,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511238266,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [681]
 			{
 				"ADieidont", -- [1]
@@ -27959,11 +28051,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511238435,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511238435,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [682]
 			{
 				"ADieidont", -- [1]
@@ -27987,11 +28079,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511239008,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511239008,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [683]
 			{
 				"ADieidont", -- [1]
@@ -28015,11 +28107,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511239184,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511239184,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [684]
 			{
 				"ADieidont", -- [1]
@@ -28043,11 +28135,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511239352,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511239352,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [685]
 			{
 				"ADieidont", -- [1]
@@ -28071,11 +28163,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511239539,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511239539,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [686]
 			{
 				"ADieidont", -- [1]
@@ -28099,11 +28191,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511239800,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511239800,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [687]
 			{
 				"ADieidont", -- [1]
@@ -28127,11 +28219,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511240169,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511240169,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [688]
 			{
 				"ADieidont", -- [1]
@@ -28155,11 +28247,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511240316,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511240316,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [689]
 			{
 				"HAlyesh", -- [1]
@@ -28183,11 +28275,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HFuntango", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511838672,
 				["eN"] = "Mistress Sassz'ine",
-				["eI"] = 2037,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511838672,
+				["eI"] = 2037,
 			}, -- [690]
 			{
 				"HAlyesh", -- [1]
@@ -28211,11 +28303,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HFuntango", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511839342,
 				["eN"] = "Mistress Sassz'ine",
-				["eI"] = 2037,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511839342,
+				["eI"] = 2037,
 			}, -- [691]
 			{
 				"HAlyesh", -- [1]
@@ -28239,11 +28331,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HFuntango", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511839579,
 				["eN"] = "Mistress Sassz'ine",
-				["eI"] = 2037,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511839579,
+				["eI"] = 2037,
 			}, -- [692]
 			{
 				"HAlyesh", -- [1]
@@ -28267,11 +28359,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511839970,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511839970,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [693]
 			{
 				"HAlyesh", -- [1]
@@ -28295,11 +28387,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511840047,
 				["eI"] = 2037,
-				["eN"] = "Mistress Sassz'ine",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511840047,
+				["eN"] = "Mistress Sassz'ine",
 			}, -- [694]
 			{
 				"LJacktherpper", -- [1]
@@ -28323,11 +28415,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511841366,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511841366,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [695]
 			{
 				"LJacktherpper", -- [1]
@@ -28351,11 +28443,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511841598,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511841598,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [696]
 			{
 				"LJacktherpper", -- [1]
@@ -28379,11 +28471,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511841753,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511841753,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [697]
 			{
 				"LJacktherpper", -- [1]
@@ -28407,11 +28499,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511841902,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511841902,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [698]
 			{
 				"LJacktherpper", -- [1]
@@ -28435,11 +28527,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511842054,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511842054,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [699]
 			{
 				"LJacktherpper", -- [1]
@@ -28463,11 +28555,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511842240,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511842240,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [700]
 			{
 				"LJacktherpper", -- [1]
@@ -28491,11 +28583,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511842405,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511842405,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [701]
 			{
 				"LJacktherpper", -- [1]
@@ -28519,11 +28611,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511842589,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511842589,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [702]
 			{
 				"LJacktherpper", -- [1]
@@ -28547,11 +28639,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511842740,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511842740,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [703]
 			{
 				"LJacktherpper", -- [1]
@@ -28575,11 +28667,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511843153,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511843153,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [704]
 			{
 				"LJacktherpper", -- [1]
@@ -28603,11 +28695,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511843245,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511843245,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [705]
 			{
 				"LJacktherpper", -- [1]
@@ -28631,11 +28723,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511843547,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511843547,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [706]
 			{
 				"LJacktherpper", -- [1]
@@ -28659,11 +28751,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511843708,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511843708,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [707]
 			{
 				"FZaelsynth", -- [1]
@@ -28687,11 +28779,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511844223,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511844223,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [708]
 			{
 				"FZaelsynth", -- [1]
@@ -28715,11 +28807,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511844515,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511844515,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [709]
 			{
 				"FZaelsynth", -- [1]
@@ -28743,11 +28835,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511844661,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511844661,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [710]
 			{
 				"FZaelsynth", -- [1]
@@ -28771,11 +28863,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511844972,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511844972,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [711]
 			{
 				"FZaelsynth", -- [1]
@@ -28799,11 +28891,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511845090,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511845090,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [712]
 			{
 				"FZaelsynth", -- [1]
@@ -28827,11 +28919,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511845244,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511845244,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [713]
 			{
 				"FZaelsynth", -- [1]
@@ -28855,11 +28947,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511845450,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511845450,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [714]
 			{
 				"FZaelsynth", -- [1]
@@ -28883,11 +28975,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511845727,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511845727,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [715]
 			{
 				"FZaelsynth", -- [1]
@@ -28911,11 +29003,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511845951,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511845951,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [716]
 			{
 				"FZaelsynth", -- [1]
@@ -28939,11 +29031,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511846117,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511846117,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [717]
 			{
 				"FZaelsynth", -- [1]
@@ -28967,11 +29059,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511846361,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511846361,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [718]
 			{
 				"FZaelsynth", -- [1]
@@ -28995,11 +29087,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511846454,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511846454,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [719]
 			{
 				"FZaelsynth", -- [1]
@@ -29023,11 +29115,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511846700,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511846700,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [720]
 			{
 				"FZaelsynth", -- [1]
@@ -29051,11 +29143,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511846914,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511846914,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [721]
 			{
 				"FZaelsynth", -- [1]
@@ -29079,11 +29171,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511847113,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511847113,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [722]
 			{
 				"FZaelsynth", -- [1]
@@ -29107,11 +29199,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511847315,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511847315,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [723]
 			{
 				"FZaelsynth", -- [1]
@@ -29135,11 +29227,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511847496,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511847496,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [724]
 			{
 				"FZaelsynth", -- [1]
@@ -29163,11 +29255,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511847637,
 				["eI"] = 2052,
-				["eN"] = "Maiden of Vigilance",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511847637,
+				["eN"] = "Maiden of Vigilance",
 			}, -- [725]
 			{
 				"FZaelsynth", -- [1]
@@ -29191,11 +29283,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1511848150,
 				["eI"] = 2038,
-				["eN"] = "Fallen Avatar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1511848150,
+				["eN"] = "Fallen Avatar",
 			}, -- [726]
 			{
 				"BKalithumos", -- [1]
@@ -29222,11 +29314,11 @@ VExRT = {
 				"LChamuki-Greymane", -- [22]
 				"JSombrademonk", -- [23]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2076,
-				["t"] = 1512097140,
-				["g"] = 23,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 14,
+				["g"] = 23,
+				["t"] = 1512097140,
 			}, -- [727]
 			{
 				"BKalithumos", -- [1]
@@ -29256,11 +29348,11 @@ VExRT = {
 				"GShogunshaman", -- [25]
 				"JMonksiedon", -- [26]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2074,
-				["t"] = 1512097762,
-				["g"] = 25,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 14,
+				["g"] = 25,
+				["t"] = 1512097762,
 			}, -- [728]
 			{
 				"BKalithumos", -- [1]
@@ -29292,11 +29384,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2070,
-				["t"] = 1512098533,
-				["g"] = 28,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512098533,
 			}, -- [729]
 			{
 				"BKalithumos", -- [1]
@@ -29328,11 +29420,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2064,
-				["t"] = 1512099195,
-				["g"] = 28,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512099195,
 			}, -- [730]
 			{
 				"BKalithumos", -- [1]
@@ -29364,11 +29456,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2075,
-				["t"] = 1512099742,
-				["g"] = 28,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512099742,
 			}, -- [731]
 			{
 				"BKalithumos", -- [1]
@@ -29400,11 +29492,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2082,
-				["t"] = 1512100180,
-				["g"] = 28,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512100180,
 			}, -- [732]
 			{
 				"BKalithumos", -- [1]
@@ -29436,11 +29528,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2082,
-				["t"] = 1512100347,
-				["g"] = 28,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512100347,
 			}, -- [733]
 			{
 				"BKalithumos", -- [1]
@@ -29472,11 +29564,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2088,
-				["t"] = 1512100969,
-				["g"] = 28,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512100969,
 			}, -- [734]
 			{
 				"BKalithumos", -- [1]
@@ -29508,11 +29600,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2069,
-				["t"] = 1512101690,
-				["g"] = 28,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512101690,
 			}, -- [735]
 			{
 				"BKalithumos", -- [1]
@@ -29544,11 +29636,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2073,
-				["t"] = 1512102001,
-				["g"] = 28,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512102001,
 			}, -- [736]
 			{
 				"BKalithumos", -- [1]
@@ -29580,11 +29672,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2073,
-				["t"] = 1512102031,
-				["g"] = 28,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512102031,
 			}, -- [737]
 			{
 				"BKalithumos", -- [1]
@@ -29616,11 +29708,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2073,
-				["t"] = 1512102064,
-				["g"] = 28,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512102064,
 			}, -- [738]
 			{
 				"BKalithumos", -- [1]
@@ -29652,11 +29744,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2073,
-				["t"] = 1512102094,
-				["g"] = 28,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512102094,
 			}, -- [739]
 			{
 				"BKalithumos", -- [1]
@@ -29688,11 +29780,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [27]
 				"HSherbybuns", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2073,
-				["t"] = 1512102153,
-				["g"] = 28,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512102153,
 			}, -- [740]
 			{
 				"BKalithumos", -- [1]
@@ -29725,11 +29817,11 @@ VExRT = {
 				"HSherbybuns", -- [28]
 				"KCyous", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2063,
-				["t"] = 1512103048,
-				["g"] = 29,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 14,
+				["g"] = 29,
+				["t"] = 1512103048,
 			}, -- [741]
 			{
 				"BKalithumos", -- [1]
@@ -29763,11 +29855,11 @@ VExRT = {
 				"KCyous", -- [29]
 				"CForakurd", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2092,
-				["t"] = 1512103814,
-				["g"] = 30,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1512103814,
 			}, -- [742]
 			{
 				"FNomchao", -- [1]
@@ -29791,11 +29883,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"LLucres-Korgath", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512208317,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512208317,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [743]
 			{
 				"FNomchao", -- [1]
@@ -29824,11 +29916,11 @@ VExRT = {
 				"FFrostybloman-Sargeras", -- [24]
 				"GDangúl-Frostmourne", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512209191,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 25,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512209191,
+				["g"] = 25,
+				["d"] = 15,
 			}, -- [744]
 			{
 				"FNomchao", -- [1]
@@ -29857,11 +29949,11 @@ VExRT = {
 				"FFrostybloman-Sargeras", -- [24]
 				"AKyliara-Dreadmaul", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512209561,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 25,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512209561,
+				["g"] = 25,
+				["d"] = 15,
 			}, -- [745]
 			{
 				"BKalithumos", -- [1]
@@ -29894,11 +29986,11 @@ VExRT = {
 				"HKaligon", -- [28]
 				"BAcekicker", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2076,
-				["t"] = 1512356618,
-				["g"] = 29,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 15,
+				["g"] = 29,
+				["t"] = 1512356618,
 			}, -- [746]
 			{
 				"BKalithumos", -- [1]
@@ -29931,11 +30023,11 @@ VExRT = {
 				"HKaligon", -- [28]
 				"BAcekicker", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512357300,
-				["eN"] = "Felhounds of Sargeras",
-				["d"] = 15,
-				["g"] = 29,
 				["eI"] = 2074,
+				["eN"] = "Felhounds of Sargeras",
+				["t"] = 1512357300,
+				["g"] = 29,
+				["d"] = 15,
 			}, -- [747]
 			{
 				"BKalithumos", -- [1]
@@ -29968,11 +30060,11 @@ VExRT = {
 				"HKaligon", -- [28]
 				"BAcekicker", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512357653,
-				["eN"] = "Felhounds of Sargeras",
-				["d"] = 15,
-				["g"] = 29,
 				["eI"] = 2074,
+				["eN"] = "Felhounds of Sargeras",
+				["t"] = 1512357653,
+				["g"] = 29,
+				["d"] = 15,
 			}, -- [748]
 			{
 				"BKalithumos", -- [1]
@@ -30004,11 +30096,11 @@ VExRT = {
 				"HKaligon", -- [27]
 				"HMediocreman", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512358411,
-				["eN"] = "Antoran High Command",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1512358411,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [749]
 			{
 				"BKalithumos", -- [1]
@@ -30040,11 +30132,11 @@ VExRT = {
 				"IReportmepls", -- [27]
 				"HMediocreman", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512358500,
-				["eN"] = "Antoran High Command",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1512358500,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [750]
 			{
 				"FWrâthfûl", -- [1]
@@ -30076,11 +30168,11 @@ VExRT = {
 				"IReportmepls", -- [27]
 				"HMediocreman", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512359399,
-				["eN"] = "The Defense of Eonar",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2075,
+				["eN"] = "The Defense of Eonar",
+				["t"] = 1512359399,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [751]
 			{
 				"KSelendis", -- [1]
@@ -30112,11 +30204,11 @@ VExRT = {
 				"IReportmepls", -- [27]
 				"HMediocreman", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512360049,
-				["eN"] = "Portal Keeper Hasabel",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2064,
+				["eN"] = "Portal Keeper Hasabel",
+				["t"] = 1512360049,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [752]
 			{
 				"KSelendis", -- [1]
@@ -30148,11 +30240,11 @@ VExRT = {
 				"IReportmepls", -- [27]
 				"HMediocreman", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512360948,
-				["eN"] = "Imonar the Soulhunter",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2082,
+				["eN"] = "Imonar the Soulhunter",
+				["t"] = 1512360948,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [753]
 			{
 				"KSelendis", -- [1]
@@ -30185,11 +30277,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512361741,
-				["eN"] = "Kin'garoth",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1512361741,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [754]
 			{
 				"KSelendis", -- [1]
@@ -30222,11 +30314,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512362754,
-				["eN"] = "Varimathras",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2069,
+				["eN"] = "Varimathras",
+				["t"] = 1512362754,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [755]
 			{
 				"KSelendis", -- [1]
@@ -30259,11 +30351,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512363099,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512363099,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [756]
 			{
 				"KSelendis", -- [1]
@@ -30296,11 +30388,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512363128,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512363128,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [757]
 			{
 				"KSelendis", -- [1]
@@ -30333,11 +30425,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512363194,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 25,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512363194,
+				["g"] = 25,
+				["d"] = 15,
 			}, -- [758]
 			{
 				"KSelendis", -- [1]
@@ -30370,11 +30462,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512363379,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 25,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512363379,
+				["g"] = 25,
+				["d"] = 15,
 			}, -- [759]
 			{
 				"KSelendis", -- [1]
@@ -30407,11 +30499,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512364205,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512364205,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [760]
 			{
 				"KSelendis", -- [1]
@@ -30444,11 +30536,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512364694,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512364694,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [761]
 			{
 				"KSelendis", -- [1]
@@ -30481,11 +30573,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512364903,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512364903,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [762]
 			{
 				"KSelendis", -- [1]
@@ -30518,11 +30610,11 @@ VExRT = {
 				"IReportmepls", -- [28]
 				"HMediocreman", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512365768,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 15,
-				["g"] = 28,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1512365768,
+				["g"] = 28,
+				["d"] = 15,
 			}, -- [763]
 			{
 				"KSelendis", -- [1]
@@ -30556,11 +30648,11 @@ VExRT = {
 				"HMediocreman", -- [29]
 				"GLêxx", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512366885,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 30,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512366885,
+				["g"] = 30,
+				["d"] = 15,
 			}, -- [764]
 			{
 				"KSelendis", -- [1]
@@ -30594,11 +30686,11 @@ VExRT = {
 				"HMediocreman", -- [29]
 				"GLêxx", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512367092,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 30,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512367092,
+				["g"] = 30,
+				["d"] = 15,
 			}, -- [765]
 			{
 				"KSelendis", -- [1]
@@ -30622,11 +30714,11 @@ VExRT = {
 				"JSombrademonk", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512367875,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512367875,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [766]
 			{
 				"KSelendis", -- [1]
@@ -30650,11 +30742,11 @@ VExRT = {
 				"JSombrademonk", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512368171,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512368171,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [767]
 			{
 				"KSelendis", -- [1]
@@ -30678,11 +30770,11 @@ VExRT = {
 				"JSombrademonk", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512368382,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512368382,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [768]
 			{
 				"KSelendis", -- [1]
@@ -30706,11 +30798,11 @@ VExRT = {
 				"JSombrademonk", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512368710,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512368710,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [769]
 			{
 				"KSelendis", -- [1]
@@ -30734,11 +30826,11 @@ VExRT = {
 				"JSombrademonk", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512369160,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512369160,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [770]
 			{
 				"KSelendis", -- [1]
@@ -30764,11 +30856,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"FLitlesister-Nagrand", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512369906,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 22,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512369906,
+				["g"] = 22,
+				["d"] = 15,
 			}, -- [771]
 			{
 				"KSelendis", -- [1]
@@ -30794,11 +30886,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"FLitlesister-Nagrand", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512370344,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 22,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1512370344,
+				["g"] = 22,
+				["d"] = 15,
 			}, -- [772]
 			{
 				"KSelendis", -- [1]
@@ -30824,11 +30916,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"LJacktherpper", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512371296,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1512371296,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [773]
 			{
 				"KSelendis", -- [1]
@@ -30854,11 +30946,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"LJacktherpper", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512371392,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 21,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1512371392,
+				["g"] = 21,
+				["d"] = 15,
 			}, -- [774]
 			{
 				"KSelendis", -- [1]
@@ -30884,11 +30976,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"LJacktherpper", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512371820,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1512371820,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [775]
 			{
 				"KSelendis", -- [1]
@@ -30914,11 +31006,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"LJacktherpper", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512372379,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1512372379,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [776]
 			{
 				"KSelendis", -- [1]
@@ -30944,11 +31036,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"LJacktherpper", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512373078,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1512373078,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [777]
 			{
 				"KSelendis", -- [1]
@@ -30974,11 +31066,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"LJacktherpper", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512373822,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1512373822,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [778]
 			{
 				"KSelendis", -- [1]
@@ -31004,11 +31096,11 @@ VExRT = {
 				"JPandaxx-Runetotem", -- [21]
 				"LJacktherpper", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1512374508,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1512374508,
+				["g"] = 20,
+				["d"] = 15,
 			}, -- [779]
 			{
 				"KEllestria", -- [1]
@@ -31040,11 +31132,11 @@ VExRT = {
 				"GVlex", -- [27]
 				"BWorldborn", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Garothi Worldbreaker",
-				["t"] = 1512702563,
-				["g"] = 28,
 				["eI"] = 2076,
+				["eN"] = "Garothi Worldbreaker",
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512702563,
 			}, -- [780]
 			{
 				"KEllestria", -- [1]
@@ -31076,11 +31168,11 @@ VExRT = {
 				"GVlex", -- [27]
 				"BWorldborn", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Felhounds of Sargeras",
-				["t"] = 1512702977,
-				["g"] = 28,
 				["eI"] = 2074,
+				["eN"] = "Felhounds of Sargeras",
+				["d"] = 14,
+				["g"] = 28,
+				["t"] = 1512702977,
 			}, -- [781]
 			{
 				"KEllestria", -- [1]
@@ -31113,11 +31205,11 @@ VExRT = {
 				"BWorldborn", -- [28]
 				"BBlakeyboy", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Antoran High Command",
-				["t"] = 1512703593,
-				["g"] = 29,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["d"] = 14,
+				["g"] = 29,
+				["t"] = 1512703593,
 			}, -- [782]
 			{
 				"KEllestria", -- [1]
@@ -31150,11 +31242,11 @@ VExRT = {
 				"BWorldborn", -- [28]
 				"BBlakeyboy", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Portal Keeper Hasabel",
-				["t"] = 1512704172,
-				["g"] = 29,
 				["eI"] = 2064,
+				["eN"] = "Portal Keeper Hasabel",
+				["d"] = 14,
+				["g"] = 29,
+				["t"] = 1512704172,
 			}, -- [783]
 			{
 				"KEllestria", -- [1]
@@ -31187,11 +31279,11 @@ VExRT = {
 				"BWorldborn", -- [28]
 				"BBlakeyboy", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "The Defense of Eonar",
-				["t"] = 1512704609,
-				["g"] = 29,
 				["eI"] = 2075,
+				["eN"] = "The Defense of Eonar",
+				["d"] = 14,
+				["g"] = 29,
+				["t"] = 1512704609,
 			}, -- [784]
 			{
 				"KEllestria", -- [1]
@@ -31224,11 +31316,11 @@ VExRT = {
 				"BKalithumos", -- [28]
 				"BBlakeyboy", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2075,
-				["t"] = 1512705871,
-				["g"] = 29,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 14,
+				["g"] = 29,
+				["t"] = 1512705871,
 			}, -- [785]
 			{
 				"KEllestria", -- [1]
@@ -31261,11 +31353,11 @@ VExRT = {
 				"BKalithumos", -- [28]
 				"BBlakeyboy", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2082,
-				["t"] = 1512706504,
-				["g"] = 29,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 14,
+				["g"] = 29,
+				["t"] = 1512706504,
 			}, -- [786]
 			{
 				"KEllestria", -- [1]
@@ -31299,11 +31391,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"CForakurd", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2088,
-				["t"] = 1512707046,
-				["g"] = 30,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1512707046,
 			}, -- [787]
 			{
 				"KEllestria", -- [1]
@@ -31337,11 +31429,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"CForakurd", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2069,
-				["t"] = 1512707752,
-				["g"] = 30,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1512707752,
 			}, -- [788]
 			{
 				"KEllestria", -- [1]
@@ -31375,11 +31467,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"CForakurd", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2069,
-				["t"] = 1512708030,
-				["g"] = 30,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1512708030,
 			}, -- [789]
 			{
 				"KEllestria", -- [1]
@@ -31413,11 +31505,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"CForakurd", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2073,
-				["t"] = 1512708322,
-				["g"] = 30,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1512708322,
 			}, -- [790]
 			{
 				"KEllestria", -- [1]
@@ -31451,11 +31543,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"CForakurd", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2063,
-				["t"] = 1512708915,
-				["g"] = 30,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1512708915,
 			}, -- [791]
 			{
 				"KEllestria", -- [1]
@@ -31489,11 +31581,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"CForakurd", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2092,
-				["t"] = 1512709562,
-				["g"] = 30,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1512709562,
 			}, -- [792]
 			{
 				"BKalithumos", -- [1]
@@ -31518,11 +31610,11 @@ VExRT = {
 				"HLoudpâck", -- [20]
 				"GZoksugvixazz", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2076,
-				["t"] = 1512711035,
-				["g"] = 21,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 15,
+				["g"] = 21,
+				["t"] = 1512711035,
 			}, -- [793]
 			{
 				"BKalithumos", -- [1]
@@ -31548,11 +31640,11 @@ VExRT = {
 				"EHangookie", -- [21]
 				"GZoksugvixazz", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2074,
-				["t"] = 1512711544,
-				["g"] = 22,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1512711544,
 			}, -- [794]
 			{
 				"BKalithumos", -- [1]
@@ -31581,11 +31673,11 @@ VExRT = {
 				"FZaelsynth", -- [24]
 				"BAcekicker", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["t"] = 1512712291,
 				["g"] = 22,
-				["d"] = 15,
+				["eI"] = 2064,
 			}, -- [795]
 			{
 				"BKalithumos", -- [1]
@@ -31614,11 +31706,11 @@ VExRT = {
 				"FZaelsynth", -- [24]
 				"BAcekicker", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["t"] = 1512712509,
 				["g"] = 22,
-				["d"] = 15,
+				["eI"] = 2064,
 			}, -- [796]
 			{
 				"BKalithumos", -- [1]
@@ -31645,11 +31737,11 @@ VExRT = {
 				["eN"] = "Portal Keeper Hasabel",
 				["d"] = 15,
 				["g"] = 22,
-				["t"] = 1512712966,
+				[21] = "KSassbogs",
 				["eI"] = 2064,
 				[22] = "CLikez",
 				[23] = "EMallusof",
-				[21] = "KSassbogs",
+				["t"] = 1512712966,
 			}, -- [797]
 			{
 				"BKalithumos", -- [1]
@@ -31678,11 +31770,11 @@ VExRT = {
 				"FZaelsynth", -- [24]
 				"BAcekicker", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2064,
-				["t"] = 1512713289,
-				["g"] = 22,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1512713289,
 			}, -- [798]
 			{
 				"CKunoma-WyrmrestAccord", -- [1]
@@ -31704,11 +31796,11 @@ VExRT = {
 				"CSairr-Quel'Thalas", -- [17]
 				"BDougydug", -- [18]
 				["c"] = "Rahran-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Garothi Worldbreaker",
-				["t"] = 1512929615,
-				["g"] = 18,
 				["eI"] = 2076,
+				["eN"] = "Garothi Worldbreaker",
+				["d"] = 14,
+				["g"] = 18,
+				["t"] = 1512929615,
 			}, -- [799]
 			{
 				"CKunoma-WyrmrestAccord", -- [1]
@@ -31730,11 +31822,11 @@ VExRT = {
 				"CSairr-Quel'Thalas", -- [17]
 				"BDougydug", -- [18]
 				["c"] = "Rahran-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Felhounds of Sargeras",
-				["t"] = 1512930282,
-				["g"] = 18,
 				["eI"] = 2074,
+				["eN"] = "Felhounds of Sargeras",
+				["d"] = 14,
+				["g"] = 18,
+				["t"] = 1512930282,
 			}, -- [800]
 			{
 				"JLyomonk-Ysera", -- [1]
@@ -31755,11 +31847,11 @@ VExRT = {
 				"GRaggh-Staghelm", -- [16]
 				"FKotex-Executus", -- [17]
 				["c"] = "Rahran-Proudmoore",
+				["d"] = 14,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["t"] = 1512932069,
 				["g"] = 17,
-				["d"] = 14,
+				["eI"] = 2064,
 			}, -- [801]
 			{
 				"KSassbogs", -- [1]
@@ -31791,11 +31883,11 @@ VExRT = {
 				"FCrusnic", -- [27]
 				"JSombrademonk", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2070,
-				["t"] = 1512961159,
-				["g"] = 27,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 15,
+				["g"] = 27,
+				["t"] = 1512961159,
 			}, -- [802]
 			{
 				"KSassbogs", -- [1]
@@ -31829,11 +31921,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2070,
-				["t"] = 1512961323,
-				["g"] = 29,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 15,
+				["g"] = 29,
+				["t"] = 1512961323,
 			}, -- [803]
 			{
 				"BKalithumos", -- [1]
@@ -31867,11 +31959,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2075,
-				["t"] = 1512962033,
-				["g"] = 30,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512962033,
 			}, -- [804]
 			{
 				"BKalithumos", -- [1]
@@ -31905,11 +31997,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2082,
-				["t"] = 1512962704,
-				["g"] = 30,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512962704,
 			}, -- [805]
 			{
 				"BKalithumos", -- [1]
@@ -31943,11 +32035,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2088,
-				["t"] = 1512963434,
-				["g"] = 30,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512963434,
 			}, -- [806]
 			{
 				"BKalithumos", -- [1]
@@ -31981,11 +32073,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2069,
-				["t"] = 1512964079,
-				["g"] = 29,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 15,
+				["g"] = 29,
+				["t"] = 1512964079,
 			}, -- [807]
 			{
 				"BKalithumos", -- [1]
@@ -32019,11 +32111,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2069,
-				["t"] = 1512964249,
-				["g"] = 30,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512964249,
 			}, -- [808]
 			{
 				"BKalithumos", -- [1]
@@ -32057,11 +32149,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1512964553,
-				["g"] = 30,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512964553,
 			}, -- [809]
 			{
 				"BKalithumos", -- [1]
@@ -32095,11 +32187,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1512964644,
-				["g"] = 30,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512964644,
 			}, -- [810]
 			{
 				"BKalithumos", -- [1]
@@ -32133,11 +32225,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1512965209,
-				["g"] = 30,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512965209,
 			}, -- [811]
 			{
 				"BKalithumos", -- [1]
@@ -32171,11 +32263,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2063,
-				["t"] = 1512966007,
-				["g"] = 30,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512966007,
 			}, -- [812]
 			{
 				"BKalithumos", -- [1]
@@ -32209,11 +32301,11 @@ VExRT = {
 				"BBlakeyboy", -- [29]
 				"JTeranity", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2092,
-				["t"] = 1512966734,
-				["g"] = 30,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 15,
+				["g"] = 30,
+				["t"] = 1512966734,
 			}, -- [813]
 			{
 				"KEllestria", -- [1]
@@ -32237,11 +32329,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"LJacktherpper", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1512969295,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1512969295,
 			}, -- [814]
 			{
 				"KEllestria", -- [1]
@@ -32265,11 +32357,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"LJacktherpper", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1512969751,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1512969751,
 			}, -- [815]
 			{
 				"KEllestria", -- [1]
@@ -32293,11 +32385,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"LJacktherpper", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1512970012,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1512970012,
 			}, -- [816]
 			{
 				"KEllestria", -- [1]
@@ -32321,11 +32413,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"LJacktherpper", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1512970600,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1512970600,
 			}, -- [817]
 			{
 				"BKalithumos", -- [1]
@@ -32349,11 +32441,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"LJacktherpper", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1512971252,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1512971252,
 			}, -- [818]
 			{
 				"BKalithumos", -- [1]
@@ -32377,11 +32469,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"LJacktherpper", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1512971436,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1512971436,
 			}, -- [819]
 			{
 				"BKalithumos", -- [1]
@@ -32405,11 +32497,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"LJacktherpper", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1512971667,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1512971667,
 			}, -- [820]
 			{
 				"BKalithumos", -- [1]
@@ -32433,11 +32525,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"LJacktherpper", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1512971950,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1512971950,
 			}, -- [821]
 			{
 				"BKalithumos", -- [1]
@@ -32466,11 +32558,11 @@ VExRT = {
 				"HLoudpâck", -- [24]
 				"EMallusof", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1513566129,
 				["g"] = 24,
-				["d"] = 15,
+				["eN"] = "Aggramar",
 			}, -- [822]
 			{
 				"BKalithumos", -- [1]
@@ -32500,11 +32592,11 @@ VExRT = {
 				"EMallusof", -- [25]
 				"HFuntango", -- [26]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1513566544,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "Aggramar",
 			}, -- [823]
 			{
 				"BKalithumos", -- [1]
@@ -32534,11 +32626,11 @@ VExRT = {
 				"EMallusof", -- [25]
 				"HFuntango", -- [26]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513567038,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 26,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1513567038,
+				["g"] = 26,
+				["d"] = 15,
 			}, -- [824]
 			{
 				"BKalithumos", -- [1]
@@ -32568,11 +32660,11 @@ VExRT = {
 				"EMallusof", -- [25]
 				"HFuntango", -- [26]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513567628,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 26,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1513567628,
+				["g"] = 26,
+				["d"] = 15,
 			}, -- [825]
 			{
 				"BKalithumos", -- [1]
@@ -32601,11 +32693,11 @@ VExRT = {
 				"HLoudpâck", -- [24]
 				"EMallusof", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513568230,
-				["eN"] = "Aggramar",
-				["d"] = 15,
-				["g"] = 25,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1513568230,
+				["g"] = 25,
+				["d"] = 15,
 			}, -- [826]
 			{
 				"BKalithumos", -- [1]
@@ -32634,11 +32726,11 @@ VExRT = {
 				"HLoudpâck", -- [24]
 				"EMallusof", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513568866,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 25,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1513568866,
+				["g"] = 25,
+				["d"] = 15,
 			}, -- [827]
 			{
 				"BKalithumos", -- [1]
@@ -32662,11 +32754,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513570536,
-				["eN"] = "Garothi Worldbreaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2076,
+				["eN"] = "Garothi Worldbreaker",
+				["t"] = 1513570536,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [828]
 			{
 				"BKalithumos", -- [1]
@@ -32690,11 +32782,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513570989,
-				["eN"] = "Garothi Worldbreaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2076,
+				["eN"] = "Garothi Worldbreaker",
+				["t"] = 1513570989,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [829]
 			{
 				"BKalithumos", -- [1]
@@ -32718,11 +32810,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513571462,
-				["eN"] = "Garothi Worldbreaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2076,
+				["eN"] = "Garothi Worldbreaker",
+				["t"] = 1513571462,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [830]
 			{
 				"BKalithumos", -- [1]
@@ -32746,11 +32838,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513573354,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513573354,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [831]
 			{
 				"BKalithumos", -- [1]
@@ -32774,11 +32866,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513573499,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513573499,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [832]
 			{
 				"BKalithumos", -- [1]
@@ -32802,11 +32894,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513573600,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513573600,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [833]
 			{
 				"BKalithumos", -- [1]
@@ -32830,11 +32922,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513574135,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513574135,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [834]
 			{
 				"BKalithumos", -- [1]
@@ -32858,11 +32950,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513574382,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513574382,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [835]
 			{
 				"BKalithumos", -- [1]
@@ -32886,11 +32978,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513574775,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513574775,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [836]
 			{
 				"BKalithumos", -- [1]
@@ -32914,11 +33006,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513575331,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513575331,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [837]
 			{
 				"BKalithumos", -- [1]
@@ -32942,11 +33034,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513575594,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513575594,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [838]
 			{
 				"BKalithumos", -- [1]
@@ -32970,11 +33062,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513575823,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513575823,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [839]
 			{
 				"BKalithumos", -- [1]
@@ -32998,11 +33090,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513576325,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513576325,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [840]
 			{
 				"BKalithumos", -- [1]
@@ -33026,11 +33118,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"FLitlesister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513576766,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513576766,
+				["eI"] = 2070,
 			}, -- [841]
 			{
 				"BKalithumos", -- [1]
@@ -33054,11 +33146,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2070,
-				["eN"] = "Antoran High Command",
 				["t"] = 1513652808,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Antoran High Command",
 			}, -- [842]
 			{
 				"BKalithumos", -- [1]
@@ -33082,11 +33174,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2070,
-				["eN"] = "Antoran High Command",
 				["t"] = 1513653087,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Antoran High Command",
 			}, -- [843]
 			{
 				"BKalithumos", -- [1]
@@ -33110,11 +33202,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2070,
-				["eN"] = "Antoran High Command",
 				["t"] = 1513653397,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Antoran High Command",
 			}, -- [844]
 			{
 				"BKalithumos", -- [1]
@@ -33138,11 +33230,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1513654029,
-				["eN"] = "Antoran High Command",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1513654029,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [845]
 			{
 				"BKalithumos", -- [1]
@@ -33166,11 +33258,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513655138,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513655138,
+				["eI"] = 2074,
 			}, -- [846]
 			{
 				"BKalithumos", -- [1]
@@ -33194,11 +33286,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513655438,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513655438,
+				["eI"] = 2074,
 			}, -- [847]
 			{
 				"BKalithumos", -- [1]
@@ -33222,11 +33314,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513655786,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513655786,
+				["eI"] = 2074,
 			}, -- [848]
 			{
 				"BKalithumos", -- [1]
@@ -33250,11 +33342,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513655870,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513655870,
+				["eI"] = 2074,
 			}, -- [849]
 			{
 				"BKalithumos", -- [1]
@@ -33278,11 +33370,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513656200,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513656200,
+				["eI"] = 2074,
 			}, -- [850]
 			{
 				"BKalithumos", -- [1]
@@ -33306,11 +33398,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513656580,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513656580,
+				["eI"] = 2074,
 			}, -- [851]
 			{
 				"BKalithumos", -- [1]
@@ -33334,11 +33426,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513656826,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513656826,
+				["eI"] = 2074,
 			}, -- [852]
 			{
 				"BKalithumos", -- [1]
@@ -33362,11 +33454,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513657042,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513657042,
+				["eI"] = 2074,
 			}, -- [853]
 			{
 				"BKalithumos", -- [1]
@@ -33390,11 +33482,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513657171,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513657171,
+				["eI"] = 2074,
 			}, -- [854]
 			{
 				"BKalithumos", -- [1]
@@ -33418,11 +33510,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513657515,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513657515,
+				["eI"] = 2074,
 			}, -- [855]
 			{
 				"BKalithumos", -- [1]
@@ -33446,11 +33538,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1513658088,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1513658088,
+				["eI"] = 2074,
 			}, -- [856]
 			{
 				"BKalithumos", -- [1]
@@ -33474,11 +33566,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1513659350,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513659350,
 			}, -- [857]
 			{
 				"BKalithumos", -- [1]
@@ -33502,11 +33594,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1513659391,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513659391,
 			}, -- [858]
 			{
 				"BKalithumos", -- [1]
@@ -33530,11 +33622,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513659837,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513659837,
 			}, -- [859]
 			{
 				"BKalithumos", -- [1]
@@ -33558,11 +33650,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513660133,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513660133,
 			}, -- [860]
 			{
 				"BKalithumos", -- [1]
@@ -33586,11 +33678,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513660458,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513660458,
 			}, -- [861]
 			{
 				"BKalithumos", -- [1]
@@ -33614,11 +33706,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513661089,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513661089,
 			}, -- [862]
 			{
 				"BKalithumos", -- [1]
@@ -33642,11 +33734,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513661603,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513661603,
 			}, -- [863]
 			{
 				"BKalithumos", -- [1]
@@ -33670,11 +33762,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513662143,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513662143,
 			}, -- [864]
 			{
 				"BKalithumos", -- [1]
@@ -33698,11 +33790,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513662467,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513662467,
 			}, -- [865]
 			{
 				"BKalithumos", -- [1]
@@ -33726,11 +33818,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513663097,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513663097,
 			}, -- [866]
 			{
 				"BKalithumos", -- [1]
@@ -33754,11 +33846,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513663748,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513663748,
 			}, -- [867]
 			{
 				"BKalithumos", -- [1]
@@ -33782,11 +33874,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513664961,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513664961,
 			}, -- [868]
 			{
 				"BKalithumos", -- [1]
@@ -33810,11 +33902,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513665566,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513665566,
 			}, -- [869]
 			{
 				"BKalithumos", -- [1]
@@ -33838,11 +33930,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513666197,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513666197,
 			}, -- [870]
 			{
 				"BKalithumos", -- [1]
@@ -33866,11 +33958,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513666541,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513666541,
 			}, -- [871]
 			{
 				"BKalithumos", -- [1]
@@ -33894,11 +33986,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"BBlakeyboy", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1513667174,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1513667174,
 			}, -- [872]
 			{
 				"KEllestria", -- [1]
@@ -33929,11 +34021,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514939799,
-				["eN"] = "Garothi Worldbreaker",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2076,
+				["eN"] = "Garothi Worldbreaker",
+				["t"] = 1514939799,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [873]
 			{
 				"KEllestria", -- [1]
@@ -33964,11 +34056,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514940208,
-				["eN"] = "Felhounds of Sargeras",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2074,
+				["eN"] = "Felhounds of Sargeras",
+				["t"] = 1514940208,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [874]
 			{
 				"KEllestria", -- [1]
@@ -33999,11 +34091,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514940667,
-				["eN"] = "Antoran High Command",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1514940667,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [875]
 			{
 				"KEllestria", -- [1]
@@ -34034,11 +34126,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514941246,
-				["eN"] = "The Defense of Eonar",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2075,
+				["eN"] = "The Defense of Eonar",
+				["t"] = 1514941246,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [876]
 			{
 				"KEllestria", -- [1]
@@ -34069,11 +34161,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514941696,
-				["eN"] = "Portal Keeper Hasabel",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2064,
+				["eN"] = "Portal Keeper Hasabel",
+				["t"] = 1514941696,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [877]
 			{
 				"KEllestria", -- [1]
@@ -34104,11 +34196,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514942109,
-				["eN"] = "Imonar the Soulhunter",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2082,
+				["eN"] = "Imonar the Soulhunter",
+				["t"] = 1514942109,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [878]
 			{
 				"KEllestria", -- [1]
@@ -34139,11 +34231,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514942569,
-				["eN"] = "Kin'garoth",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1514942569,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [879]
 			{
 				"KEllestria", -- [1]
@@ -34174,11 +34266,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514943152,
-				["eN"] = "Varimathras",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2069,
+				["eN"] = "Varimathras",
+				["t"] = 1514943152,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [880]
 			{
 				"KEllestria", -- [1]
@@ -34209,11 +34301,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514943386,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1514943386,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [881]
 			{
 				"KEllestria", -- [1]
@@ -34244,11 +34336,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514943392,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1514943392,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [882]
 			{
 				"KEllestria", -- [1]
@@ -34279,11 +34371,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514943470,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1514943470,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [883]
 			{
 				"KEllestria", -- [1]
@@ -34314,11 +34406,11 @@ VExRT = {
 				"ELiamjammyyzx-Frostmourne", -- [26]
 				"AFunerus-Feathermoon", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514943987,
-				["eN"] = "Aggramar",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1514943987,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [884]
 			{
 				"KEllestria", -- [1]
@@ -34347,11 +34439,11 @@ VExRT = {
 				"AFunerus-Feathermoon", -- [24]
 				"JCronîc-Frostmourne", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1514944416,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 14,
-				["g"] = 25,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1514944416,
+				["g"] = 25,
+				["d"] = 14,
 			}, -- [885]
 			{
 				"BKalithumos", -- [1]
@@ -34377,11 +34469,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2069,
-				["t"] = 1515125572,
-				["g"] = 22,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515125572,
 			}, -- [886]
 			{
 				"BKalithumos", -- [1]
@@ -34407,11 +34499,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2069,
-				["t"] = 1515125625,
-				["g"] = 22,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515125625,
 			}, -- [887]
 			{
 				"BKalithumos", -- [1]
@@ -34437,11 +34529,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2069,
-				["t"] = 1515125917,
-				["g"] = 22,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515125917,
 			}, -- [888]
 			{
 				"BKalithumos", -- [1]
@@ -34467,11 +34559,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2069,
-				["t"] = 1515126229,
-				["g"] = 22,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515126229,
 			}, -- [889]
 			{
 				"BKalithumos", -- [1]
@@ -34497,11 +34589,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1515126482,
-				["g"] = 22,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515126482,
 			}, -- [890]
 			{
 				"BKalithumos", -- [1]
@@ -34527,11 +34619,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1515126489,
-				["g"] = 22,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515126489,
 			}, -- [891]
 			{
 				"BKalithumos", -- [1]
@@ -34557,11 +34649,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1515126515,
-				["g"] = 22,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515126515,
 			}, -- [892]
 			{
 				"BKalithumos", -- [1]
@@ -34587,11 +34679,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1515126522,
-				["g"] = 22,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515126522,
 			}, -- [893]
 			{
 				"BKalithumos", -- [1]
@@ -34617,11 +34709,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1515126546,
-				["g"] = 22,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515126546,
 			}, -- [894]
 			{
 				"BKalithumos", -- [1]
@@ -34647,11 +34739,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1515126552,
-				["g"] = 22,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515126552,
 			}, -- [895]
 			{
 				"BKalithumos", -- [1]
@@ -34677,11 +34769,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2073,
-				["t"] = 1515126610,
-				["g"] = 22,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515126610,
 			}, -- [896]
 			{
 				"BKalithumos", -- [1]
@@ -34707,11 +34799,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2063,
-				["t"] = 1515127391,
-				["g"] = 22,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515127391,
 			}, -- [897]
 			{
 				"BKalithumos", -- [1]
@@ -34737,11 +34829,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2063,
-				["t"] = 1515127785,
-				["g"] = 22,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515127785,
 			}, -- [898]
 			{
 				"BKalithumos", -- [1]
@@ -34767,11 +34859,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2092,
-				["t"] = 1515128434,
-				["g"] = 22,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515128434,
 			}, -- [899]
 			{
 				"BKalithumos", -- [1]
@@ -34797,11 +34889,11 @@ VExRT = {
 				"FLitlesister", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2092,
-				["t"] = 1515128541,
-				["g"] = 22,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 15,
+				["g"] = 22,
+				["t"] = 1515128541,
 			}, -- [900]
 			{
 				"BKalithumos", -- [1]
@@ -34825,11 +34917,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1515129974,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515129974,
 			}, -- [901]
 			{
 				"BKalithumos", -- [1]
@@ -34853,11 +34945,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1515130540,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515130540,
 			}, -- [902]
 			{
 				"BKalithumos", -- [1]
@@ -34881,11 +34973,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1515130583,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515130583,
 			}, -- [903]
 			{
 				"BKalithumos", -- [1]
@@ -34909,11 +35001,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1515130685,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515130685,
 			}, -- [904]
 			{
 				"BKalithumos", -- [1]
@@ -34937,11 +35029,11 @@ VExRT = {
 				"HLoudpâck", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1515131213,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515131213,
 			}, -- [905]
 			{
 				"BKalithumos", -- [1]
@@ -34967,11 +35059,11 @@ VExRT = {
 				"KSelendis", -- [21]
 				"FZaelsynth", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2070,
-				["t"] = 1515380468,
-				["g"] = 20,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515380468,
 			}, -- [906]
 			{
 				"BKalithumos", -- [1]
@@ -34998,8 +35090,8 @@ VExRT = {
 				[19] = "BMeowtwo",
 				["eI"] = 2070,
 				[22] = "FZaelsynth",
-				["d"] = 16,
 				[21] = "KSelendis",
+				["d"] = 16,
 			}, -- [907]
 			{
 				"BKalithumos", -- [1]
@@ -35023,11 +35115,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2070,
-				["t"] = 1515380711,
-				["g"] = 20,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515380711,
 			}, -- [908]
 			{
 				"BKalithumos", -- [1]
@@ -35051,11 +35143,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2070,
-				["t"] = 1515380943,
-				["g"] = 20,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515380943,
 			}, -- [909]
 			{
 				"BKalithumos", -- [1]
@@ -35079,11 +35171,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1515382068,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515382068,
 			}, -- [910]
 			{
 				"BKalithumos", -- [1]
@@ -35107,11 +35199,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1515382728,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515382728,
 			}, -- [911]
 			{
 				"BKalithumos", -- [1]
@@ -35135,11 +35227,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1515384282,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515384282,
 			}, -- [912]
 			{
 				"BKalithumos", -- [1]
@@ -35163,11 +35255,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1515384448,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515384448,
 			}, -- [913]
 			{
 				"BKalithumos", -- [1]
@@ -35191,11 +35283,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1515384629,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515384629,
 			}, -- [914]
 			{
 				"BKalithumos", -- [1]
@@ -35219,11 +35311,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1515384847,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515384847,
 			}, -- [915]
 			{
 				"BKalithumos", -- [1]
@@ -35247,11 +35339,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1515385322,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515385322,
 			}, -- [916]
 			{
 				"BKalithumos", -- [1]
@@ -35275,11 +35367,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1515385495,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515385495,
 			}, -- [917]
 			{
 				"BKalithumos", -- [1]
@@ -35303,11 +35395,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1515385548,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515385548,
 			}, -- [918]
 			{
 				"BKalithumos", -- [1]
@@ -35331,11 +35423,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1515385755,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515385755,
 			}, -- [919]
 			{
 				"BKalithumos", -- [1]
@@ -35359,11 +35451,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515386709,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515386709,
 			}, -- [920]
 			{
 				"BKalithumos", -- [1]
@@ -35387,11 +35479,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515386972,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515386972,
 			}, -- [921]
 			{
 				"BKalithumos", -- [1]
@@ -35415,11 +35507,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515387152,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515387152,
 			}, -- [922]
 			{
 				"BKalithumos", -- [1]
@@ -35443,11 +35535,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515387439,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515387439,
 			}, -- [923]
 			{
 				"BKalithumos", -- [1]
@@ -35471,11 +35563,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515387489,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515387489,
 			}, -- [924]
 			{
 				"BKalithumos", -- [1]
@@ -35499,11 +35591,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515387808,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515387808,
 			}, -- [925]
 			{
 				"BKalithumos", -- [1]
@@ -35527,11 +35619,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515388235,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515388235,
 			}, -- [926]
 			{
 				"BKalithumos", -- [1]
@@ -35555,11 +35647,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515388701,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515388701,
 			}, -- [927]
 			{
 				"BKalithumos", -- [1]
@@ -35583,11 +35675,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515389087,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515389087,
 			}, -- [928]
 			{
 				"BKalithumos", -- [1]
@@ -35611,11 +35703,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515389299,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515389299,
 			}, -- [929]
 			{
 				"BKalithumos", -- [1]
@@ -35639,11 +35731,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515389616,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515389616,
 			}, -- [930]
 			{
 				"BKalithumos", -- [1]
@@ -35667,11 +35759,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515390056,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515390056,
 			}, -- [931]
 			{
 				"BKalithumos", -- [1]
@@ -35695,11 +35787,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515390203,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515390203,
 			}, -- [932]
 			{
 				"BKalithumos", -- [1]
@@ -35723,11 +35815,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515390467,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515390467,
 			}, -- [933]
 			{
 				"BKalithumos", -- [1]
@@ -35751,11 +35843,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515390525,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515390525,
 			}, -- [934]
 			{
 				"BKalithumos", -- [1]
@@ -35779,11 +35871,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515390587,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515390587,
 			}, -- [935]
 			{
 				"BKalithumos", -- [1]
@@ -35807,11 +35899,11 @@ VExRT = {
 				"KSelendis", -- [19]
 				"BMeowtwo", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1515390940,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1515390940,
 			}, -- [936]
 			{
 				"BKalithumos", -- [1]
@@ -35835,11 +35927,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515988714,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515988714,
+				["eI"] = 2064,
 			}, -- [937]
 			{
 				"BKalithumos", -- [1]
@@ -35863,11 +35955,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515988912,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515988912,
+				["eI"] = 2064,
 			}, -- [938]
 			{
 				"BKalithumos", -- [1]
@@ -35891,11 +35983,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515989279,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515989279,
+				["eI"] = 2064,
 			}, -- [939]
 			{
 				"BKalithumos", -- [1]
@@ -35919,11 +36011,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515989562,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515989562,
+				["eI"] = 2064,
 			}, -- [940]
 			{
 				"BKalithumos", -- [1]
@@ -35947,11 +36039,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515989916,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515989916,
+				["eI"] = 2064,
 			}, -- [941]
 			{
 				"BKalithumos", -- [1]
@@ -35975,11 +36067,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515990222,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515990222,
+				["eI"] = 2064,
 			}, -- [942]
 			{
 				"BKalithumos", -- [1]
@@ -36003,11 +36095,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515991647,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515991647,
+				["eI"] = 2082,
 			}, -- [943]
 			{
 				"BKalithumos", -- [1]
@@ -36031,11 +36123,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515991957,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515991957,
+				["eI"] = 2082,
 			}, -- [944]
 			{
 				"BKalithumos", -- [1]
@@ -36059,11 +36151,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515992431,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515992431,
+				["eI"] = 2082,
 			}, -- [945]
 			{
 				"BKalithumos", -- [1]
@@ -36087,11 +36179,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515992817,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515992817,
+				["eI"] = 2082,
 			}, -- [946]
 			{
 				"BKalithumos", -- [1]
@@ -36115,11 +36207,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515993005,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515993005,
+				["eI"] = 2082,
 			}, -- [947]
 			{
 				"BKalithumos", -- [1]
@@ -36143,11 +36235,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515993136,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515993136,
+				["eI"] = 2082,
 			}, -- [948]
 			{
 				"BKalithumos", -- [1]
@@ -36171,11 +36263,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515993532,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515993532,
+				["eI"] = 2082,
 			}, -- [949]
 			{
 				"BKalithumos", -- [1]
@@ -36199,11 +36291,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515993835,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515993835,
+				["eI"] = 2082,
 			}, -- [950]
 			{
 				"BKalithumos", -- [1]
@@ -36227,11 +36319,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515993995,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515993995,
+				["eI"] = 2082,
 			}, -- [951]
 			{
 				"BKalithumos", -- [1]
@@ -36255,11 +36347,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515994408,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515994408,
+				["eI"] = 2082,
 			}, -- [952]
 			{
 				"BKalithumos", -- [1]
@@ -36283,11 +36375,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515994972,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515994972,
+				["eI"] = 2082,
 			}, -- [953]
 			{
 				"BKalithumos", -- [1]
@@ -36311,11 +36403,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515995149,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515995149,
+				["eI"] = 2082,
 			}, -- [954]
 			{
 				"BKalithumos", -- [1]
@@ -36339,11 +36431,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1515995337,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1515995337,
+				["eI"] = 2082,
 			}, -- [955]
 			{
 				"FÄtlàs-Dalaran", -- [1]
@@ -36365,11 +36457,11 @@ VExRT = {
 				"BAchlane-Sargeras", -- [17]
 				"FSerroth-MoonGuard", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516429343,
-				["eI"] = 2082,
-				["d"] = 15,
-				["g"] = 18,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["t"] = 1516429343,
+				["g"] = 18,
+				["d"] = 15,
 			}, -- [956]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36400,11 +36492,11 @@ VExRT = {
 				"EMallusof", -- [26]
 				"FKamishi-Elune", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516430011,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 14,
-				["g"] = 25,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1516430011,
+				["g"] = 25,
+				["d"] = 14,
 			}, -- [957]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36435,11 +36527,11 @@ VExRT = {
 				"EMallusof", -- [26]
 				"FKamishi-Elune", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516430016,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 14,
-				["g"] = 25,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1516430016,
+				["g"] = 25,
+				["d"] = 14,
 			}, -- [958]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36470,11 +36562,11 @@ VExRT = {
 				"EMallusof", -- [26]
 				"FKamishi-Elune", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516430059,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 14,
-				["g"] = 25,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1516430059,
+				["g"] = 25,
+				["d"] = 14,
 			}, -- [959]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36505,11 +36597,11 @@ VExRT = {
 				"EMallusof", -- [26]
 				"FKamishi-Elune", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516430068,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 14,
-				["g"] = 25,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1516430068,
+				["g"] = 25,
+				["d"] = 14,
 			}, -- [960]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36540,11 +36632,11 @@ VExRT = {
 				"EMallusof", -- [26]
 				"FKamishi-Elune", -- [27]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516430295,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1516430295,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [961]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36576,11 +36668,11 @@ VExRT = {
 				"FKamishi-Elune", -- [27]
 				"HOmgzhi-Sargeras", -- [28]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516431308,
-				["eN"] = "Aggramar",
-				["d"] = 14,
-				["g"] = 27,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1516431308,
+				["g"] = 27,
+				["d"] = 14,
 			}, -- [962]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36613,11 +36705,11 @@ VExRT = {
 				"FArrawnn-Malfurion", -- [28]
 				"HOmgzhi-Sargeras", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516432196,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 14,
-				["g"] = 26,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1516432196,
+				["g"] = 26,
+				["d"] = 14,
 			}, -- [963]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36650,11 +36742,11 @@ VExRT = {
 				"FArrawnn-Malfurion", -- [28]
 				"HOmgzhi-Sargeras", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516432719,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 14,
-				["g"] = 26,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1516432719,
+				["g"] = 26,
+				["d"] = 14,
 			}, -- [964]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36678,11 +36770,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EAgathom-Jubei'Thos", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516433791,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1516433791,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [965]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36704,11 +36796,11 @@ VExRT = {
 				"BMaeiko-Korgath", -- [17]
 				"EGèm-Undermine", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516434866,
-				["eI"] = 2092,
-				["d"] = 14,
-				["g"] = 18,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1516434866,
+				["g"] = 18,
+				["d"] = 14,
 			}, -- [966]
 			{
 				"LNorthlight-Frostmourne", -- [1]
@@ -36730,11 +36822,11 @@ VExRT = {
 				"BMaeiko-Korgath", -- [17]
 				"EGèm-Undermine", -- [18]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1516435682,
-				["eI"] = 2092,
-				["d"] = 14,
-				["g"] = 17,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1516435682,
+				["g"] = 17,
+				["d"] = 14,
 			}, -- [967]
 			{
 				"BKalithumos", -- [1]
@@ -36758,11 +36850,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FBigsister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1516597505,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516597505,
 			}, -- [968]
 			{
 				"BKalithumos", -- [1]
@@ -36786,11 +36878,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FBigsister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1516597831,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516597831,
 			}, -- [969]
 			{
 				"BKalithumos", -- [1]
@@ -36814,11 +36906,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FBigsister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1516598090,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516598090,
 			}, -- [970]
 			{
 				"BKalithumos", -- [1]
@@ -36842,11 +36934,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FBigsister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1516598545,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516598545,
 			}, -- [971]
 			{
 				"BKalithumos", -- [1]
@@ -36870,11 +36962,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FBigsister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1516598877,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516598877,
 			}, -- [972]
 			{
 				"BKalithumos", -- [1]
@@ -36898,11 +36990,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FBigsister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1516598966,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516598966,
 			}, -- [973]
 			{
 				"BKalithumos", -- [1]
@@ -36926,11 +37018,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FBigsister", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516599841,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516599841,
 			}, -- [974]
 			{
 				"BKalithumos", -- [1]
@@ -36954,11 +37046,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516600152,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516600152,
 			}, -- [975]
 			{
 				"BKalithumos", -- [1]
@@ -36982,11 +37074,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516600576,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516600576,
 			}, -- [976]
 			{
 				"BKalithumos", -- [1]
@@ -37010,11 +37102,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516600814,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516600814,
 			}, -- [977]
 			{
 				"BKalithumos", -- [1]
@@ -37039,11 +37131,11 @@ VExRT = {
 				"FFdl", -- [20]
 				"BMeowtwo", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516676968,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516676968,
 			}, -- [978]
 			{
 				"BKalithumos", -- [1]
@@ -37067,11 +37159,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516677225,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516677225,
 			}, -- [979]
 			{
 				"BKalithumos", -- [1]
@@ -37095,11 +37187,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516677580,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516677580,
 			}, -- [980]
 			{
 				"BKalithumos", -- [1]
@@ -37123,11 +37215,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516677852,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516677852,
 			}, -- [981]
 			{
 				"BKalithumos", -- [1]
@@ -37151,11 +37243,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516678177,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516678177,
 			}, -- [982]
 			{
 				"BKalithumos", -- [1]
@@ -37179,11 +37271,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516678665,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516678665,
 			}, -- [983]
 			{
 				"BKalithumos", -- [1]
@@ -37207,11 +37299,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516679063,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516679063,
 			}, -- [984]
 			{
 				"BKalithumos", -- [1]
@@ -37235,11 +37327,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516679520,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516679520,
 			}, -- [985]
 			{
 				"BKalithumos", -- [1]
@@ -37263,11 +37355,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516679913,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516679913,
 			}, -- [986]
 			{
 				"BKalithumos", -- [1]
@@ -37291,11 +37383,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1516680164,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1516680164,
 			}, -- [987]
 			{
 				"KEllestria", -- [1]
@@ -37319,11 +37411,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "The Defense of Eonar",
-				["t"] = 1517195217,
-				["g"] = 20,
 				["eI"] = 2075,
+				["eN"] = "The Defense of Eonar",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517195217,
 			}, -- [988]
 			{
 				"KEllestria", -- [1]
@@ -37347,11 +37439,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "The Defense of Eonar",
-				["t"] = 1517195645,
-				["g"] = 20,
 				["eI"] = 2075,
+				["eN"] = "The Defense of Eonar",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517195645,
 			}, -- [989]
 			{
 				"BKalithumos", -- [1]
@@ -37375,11 +37467,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1517196203,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517196203,
 			}, -- [990]
 			{
 				"BKalithumos", -- [1]
@@ -37403,11 +37495,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1517196746,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517196746,
 			}, -- [991]
 			{
 				"BKalithumos", -- [1]
@@ -37431,11 +37523,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1517197007,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517197007,
 			}, -- [992]
 			{
 				"BKalithumos", -- [1]
@@ -37459,11 +37551,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517197956,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517197956,
 			}, -- [993]
 			{
 				"BKalithumos", -- [1]
@@ -37487,11 +37579,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517198254,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517198254,
 			}, -- [994]
 			{
 				"BKalithumos", -- [1]
@@ -37515,11 +37607,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517198802,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517198802,
 			}, -- [995]
 			{
 				"BKalithumos", -- [1]
@@ -37543,11 +37635,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517198959,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517198959,
 			}, -- [996]
 			{
 				"BKalithumos", -- [1]
@@ -37571,11 +37663,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517200093,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517200093,
 			}, -- [997]
 			{
 				"BKalithumos", -- [1]
@@ -37599,11 +37691,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517200365,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517200365,
 			}, -- [998]
 			{
 				"BKalithumos", -- [1]
@@ -37627,11 +37719,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517200663,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517200663,
 			}, -- [999]
 			{
 				"BKalithumos", -- [1]
@@ -37655,11 +37747,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517201048,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517201048,
 			}, -- [1000]
 			{
 				"BKalithumos", -- [1]
@@ -37683,11 +37775,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517201367,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517201367,
 			}, -- [1001]
 			{
 				"BKalithumos", -- [1]
@@ -37711,11 +37803,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517201669,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517201669,
 			}, -- [1002]
 			{
 				"BKalithumos", -- [1]
@@ -37739,11 +37831,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517202065,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517202065,
 			}, -- [1003]
 			{
 				"BKalithumos", -- [1]
@@ -37767,11 +37859,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517202635,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517202635,
 			}, -- [1004]
 			{
 				"BKalithumos", -- [1]
@@ -37795,11 +37887,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517202947,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517202947,
 			}, -- [1005]
 			{
 				"BKalithumos", -- [1]
@@ -37823,11 +37915,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517203279,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517203279,
 			}, -- [1006]
 			{
 				"BKalithumos", -- [1]
@@ -37851,11 +37943,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517203357,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517203357,
 			}, -- [1007]
 			{
 				"BKalithumos", -- [1]
@@ -37879,11 +37971,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517203433,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517203433,
 			}, -- [1008]
 			{
 				"BKalithumos", -- [1]
@@ -37907,11 +37999,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517204000,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517204000,
 			}, -- [1009]
 			{
 				"BKalithumos", -- [1]
@@ -37935,11 +38027,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517204256,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517204256,
 			}, -- [1010]
 			{
 				"BKalithumos", -- [1]
@@ -37963,11 +38055,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517204546,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517204546,
 			}, -- [1011]
 			{
 				"BKalithumos", -- [1]
@@ -37991,11 +38083,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517204752,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517204752,
 			}, -- [1012]
 			{
 				"BKalithumos", -- [1]
@@ -38019,11 +38111,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517205147,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517205147,
 			}, -- [1013]
 			{
 				"KEllestria", -- [1]
@@ -38049,11 +38141,11 @@ VExRT = {
 				"JPanli-Sargeras", -- [21]
 				"BKalithumos", -- [22]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2076,
-				["eN"] = "Garothi Worldbreaker",
 				["t"] = 1517540446,
 				["g"] = 22,
-				["d"] = 15,
+				["eN"] = "Garothi Worldbreaker",
 			}, -- [1014]
 			{
 				"KEllestria", -- [1]
@@ -38080,11 +38172,11 @@ VExRT = {
 				"BKalithumos", -- [22]
 				"HKaligon", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["t"] = 1517540857,
 				["g"] = 23,
-				["d"] = 15,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [1015]
 			{
 				"KEllestria", -- [1]
@@ -38112,11 +38204,11 @@ VExRT = {
 				"HKaligon", -- [23]
 				"KSassbogs", -- [24]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1517541380,
 				["g"] = 24,
-				["d"] = 15,
+				["eN"] = "Kin'garoth",
 			}, -- [1016]
 			{
 				"KEllestria", -- [1]
@@ -38145,11 +38237,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2069,
-				["eN"] = "Varimathras",
 				["t"] = 1517542007,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "Varimathras",
 			}, -- [1017]
 			{
 				"KEllestria", -- [1]
@@ -38178,11 +38270,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2069,
-				["eN"] = "Varimathras",
 				["t"] = 1517542262,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "Varimathras",
 			}, -- [1018]
 			{
 				"KEllestria", -- [1]
@@ -38211,11 +38303,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542473,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1019]
 			{
 				"KEllestria", -- [1]
@@ -38244,11 +38336,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542477,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1020]
 			{
 				"KEllestria", -- [1]
@@ -38277,11 +38369,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542503,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1021]
 			{
 				"KEllestria", -- [1]
@@ -38310,11 +38402,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542509,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1022]
 			{
 				"KEllestria", -- [1]
@@ -38343,11 +38435,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542534,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1023]
 			{
 				"KEllestria", -- [1]
@@ -38376,11 +38468,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542555,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1024]
 			{
 				"KEllestria", -- [1]
@@ -38409,11 +38501,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542619,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1025]
 			{
 				"KEllestria", -- [1]
@@ -38442,11 +38534,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542829,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1026]
 			{
 				"KEllestria", -- [1]
@@ -38475,11 +38567,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542835,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1027]
 			{
 				"KEllestria", -- [1]
@@ -38508,11 +38600,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1517542873,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1028]
 			{
 				"KEllestria", -- [1]
@@ -38541,11 +38633,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1517543385,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "Aggramar",
 			}, -- [1029]
 			{
 				"KEllestria", -- [1]
@@ -38574,11 +38666,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1517543535,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "Aggramar",
 			}, -- [1030]
 			{
 				"KEllestria", -- [1]
@@ -38607,11 +38699,11 @@ VExRT = {
 				"KSassbogs", -- [24]
 				"KSelendis", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1517544017,
 				["g"] = 25,
-				["d"] = 15,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1031]
 			{
 				"KEllestria", -- [1]
@@ -38635,11 +38727,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Garothi Worldbreaker",
-				["eI"] = 2076,
 				["t"] = 1517545537,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2076,
 			}, -- [1032]
 			{
 				"KEllestria", -- [1]
@@ -38663,11 +38755,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["t"] = 1517546263,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2074,
 			}, -- [1033]
 			{
 				"KEllestria", -- [1]
@@ -38691,11 +38783,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["t"] = 1517546947,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2070,
 			}, -- [1034]
 			{
 				"KEllestria", -- [1]
@@ -38719,11 +38811,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["t"] = 1517546990,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2070,
 			}, -- [1035]
 			{
 				"KEllestria", -- [1]
@@ -38747,11 +38839,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["t"] = 1517546996,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2070,
 			}, -- [1036]
 			{
 				"KEllestria", -- [1]
@@ -38775,11 +38867,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["t"] = 1517547096,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2070,
 			}, -- [1037]
 			{
 				"KEllestria", -- [1]
@@ -38803,11 +38895,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["t"] = 1517547624,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2070,
 			}, -- [1038]
 			{
 				"KEllestria", -- [1]
@@ -38831,11 +38923,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["t"] = 1517548150,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2070,
 			}, -- [1039]
 			{
 				"KEllestria", -- [1]
@@ -38859,11 +38951,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["t"] = 1517548529,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2070,
 			}, -- [1040]
 			{
 				"KEllestria", -- [1]
@@ -38887,11 +38979,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["t"] = 1517549026,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2070,
 			}, -- [1041]
 			{
 				"KEllestria", -- [1]
@@ -38915,11 +39007,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Defense of Eonar",
-				["eI"] = 2075,
 				["t"] = 1517549992,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2075,
 			}, -- [1042]
 			{
 				"KEllestria", -- [1]
@@ -38943,11 +39035,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Defense of Eonar",
-				["eI"] = 2075,
 				["t"] = 1517550356,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2075,
 			}, -- [1043]
 			{
 				"KEllestria", -- [1]
@@ -38971,11 +39063,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Portal Keeper Hasabel",
-				["eI"] = 2064,
 				["t"] = 1517551098,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2064,
 			}, -- [1044]
 			{
 				"BVivie", -- [1]
@@ -38998,11 +39090,11 @@ VExRT = {
 				"DExxacto", -- [18]
 				"GFarahn", -- [19]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517627394,
 				["eN"] = "Garothi Worldbreaker",
-				["eI"] = 2076,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1517627394,
+				["eI"] = 2076,
 			}, -- [1045]
 			{
 				"BVivie", -- [1]
@@ -39025,11 +39117,11 @@ VExRT = {
 				"DExxacto", -- [18]
 				"GFarahn", -- [19]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517627832,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1517627832,
+				["eI"] = 2074,
 			}, -- [1046]
 			{
 				"BVivie", -- [1]
@@ -39052,11 +39144,11 @@ VExRT = {
 				"DExxacto", -- [18]
 				"GFarahn", -- [19]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517627951,
 				["eN"] = "Felhounds of Sargeras",
-				["eI"] = 2074,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1517627951,
+				["eI"] = 2074,
 			}, -- [1047]
 			{
 				"BVivie", -- [1]
@@ -39079,11 +39171,11 @@ VExRT = {
 				"DExxacto", -- [18]
 				"GFarahn", -- [19]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517628623,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1517628623,
+				["eI"] = 2070,
 			}, -- [1048]
 			{
 				"BVivie", -- [1]
@@ -39106,11 +39198,11 @@ VExRT = {
 				"DExxacto", -- [18]
 				"GFarahn", -- [19]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517629328,
 				["eN"] = "The Defense of Eonar",
-				["eI"] = 2075,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1517629328,
+				["eI"] = 2075,
 			}, -- [1049]
 			{
 				"BVivie", -- [1]
@@ -39133,11 +39225,11 @@ VExRT = {
 				"DExxacto", -- [18]
 				"GFarahn", -- [19]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517629988,
 				["eN"] = "Imonar the Soulhunter",
-				["eI"] = 2082,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1517629988,
+				["eI"] = 2082,
 			}, -- [1050]
 			{
 				"BVivie", -- [1]
@@ -39158,14 +39250,14 @@ VExRT = {
 				"INáutywáshrag", -- [16]
 				"JPandamemeium", -- [17]
 				"KGarroo", -- [18]
-				["eN"] = "Kin'garoth",
-				["eI"] = 2088,
-				[21] = "DExxacto",
-				["t"] = 1517630718,
-				[22] = "GAredor",
-				["d"] = 15,
-				["g"] = 20,
 				["c"] = "Farahn-Proudmoore",
+				[22] = "GAredor",
+				[21] = "DExxacto",
+				["d"] = 15,
+				["eN"] = "Kin'garoth",
+				["t"] = 1517630718,
+				["g"] = 20,
+				["eI"] = 2088,
 			}, -- [1051]
 			{
 				"BVivie", -- [1]
@@ -39189,11 +39281,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517631528,
 				["eN"] = "Varimathras",
-				["eI"] = 2069,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517631528,
+				["eI"] = 2069,
 			}, -- [1052]
 			{
 				"BVivie", -- [1]
@@ -39217,11 +39309,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517631822,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517631822,
+				["eI"] = 2073,
 			}, -- [1053]
 			{
 				"BVivie", -- [1]
@@ -39245,11 +39337,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517631829,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517631829,
+				["eI"] = 2073,
 			}, -- [1054]
 			{
 				"BVivie", -- [1]
@@ -39273,11 +39365,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517631854,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517631854,
+				["eI"] = 2073,
 			}, -- [1055]
 			{
 				"BVivie", -- [1]
@@ -39301,11 +39393,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517631864,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517631864,
+				["eI"] = 2073,
 			}, -- [1056]
 			{
 				"BVivie", -- [1]
@@ -39329,11 +39421,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517632139,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517632139,
+				["eI"] = 2073,
 			}, -- [1057]
 			{
 				"BVivie", -- [1]
@@ -39357,11 +39449,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517632592,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517632592,
+				["eI"] = 2073,
 			}, -- [1058]
 			{
 				"BVivie", -- [1]
@@ -39385,11 +39477,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517632596,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517632596,
+				["eI"] = 2073,
 			}, -- [1059]
 			{
 				"BVivie", -- [1]
@@ -39413,11 +39505,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517632645,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517632645,
+				["eI"] = 2073,
 			}, -- [1060]
 			{
 				"FMelea", -- [1]
@@ -39441,11 +39533,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517633504,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517633504,
+				["eI"] = 2063,
 			}, -- [1061]
 			{
 				"FMelea", -- [1]
@@ -39469,11 +39561,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517633818,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517633818,
+				["eI"] = 2063,
 			}, -- [1062]
 			{
 				"FMelea", -- [1]
@@ -39497,11 +39589,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517635409,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1517635409,
+				["eI"] = 2063,
 			}, -- [1063]
 			{
 				"BVivie", -- [1]
@@ -39525,11 +39617,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517636047,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517636047,
+				["eI"] = 2092,
 			}, -- [1064]
 			{
 				"BVivie", -- [1]
@@ -39553,11 +39645,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517636168,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517636168,
+				["eI"] = 2092,
 			}, -- [1065]
 			{
 				"BVivie", -- [1]
@@ -39581,11 +39673,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517636338,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517636338,
+				["eI"] = 2092,
 			}, -- [1066]
 			{
 				"BVivie", -- [1]
@@ -39609,11 +39701,11 @@ VExRT = {
 				"GAredor", -- [19]
 				"KGarroo", -- [20]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1517636881,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 15,
 				["g"] = 20,
-				["t"] = 1517636881,
+				["eI"] = 2092,
 			}, -- [1067]
 			{
 				"BVivie", -- [1]
@@ -39636,11 +39728,11 @@ VExRT = {
 				"GAredor", -- [18]
 				"KGarroo", -- [19]
 				["c"] = "Faerand-Proudmoore",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1517638546,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517638546,
 			}, -- [1068]
 			{
 				"BVivie", -- [1]
@@ -39663,11 +39755,11 @@ VExRT = {
 				"GAredor", -- [18]
 				"KGarroo", -- [19]
 				["c"] = "Faerand-Proudmoore",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1517639072,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517639072,
 			}, -- [1069]
 			{
 				"BVivie", -- [1]
@@ -39690,11 +39782,11 @@ VExRT = {
 				"GAredor", -- [18]
 				"KGarroo", -- [19]
 				["c"] = "Faerand-Proudmoore",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1517639584,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517639584,
 			}, -- [1070]
 			{
 				"BVivie", -- [1]
@@ -39717,11 +39809,11 @@ VExRT = {
 				"GAredor", -- [18]
 				"KGarroo", -- [19]
 				["c"] = "Faerand-Proudmoore",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1517639977,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517639977,
 			}, -- [1071]
 			{
 				"BVivie", -- [1]
@@ -39744,11 +39836,11 @@ VExRT = {
 				"GAredor", -- [18]
 				"KGarroo", -- [19]
 				["c"] = "Faerand-Proudmoore",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1517640070,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517640070,
 			}, -- [1072]
 			{
 				"BVivie", -- [1]
@@ -39771,11 +39863,11 @@ VExRT = {
 				"GAredor", -- [18]
 				"KGarroo", -- [19]
 				["c"] = "Faerand-Proudmoore",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1517640505,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517640505,
 			}, -- [1073]
 			{
 				"BKalithumos", -- [1]
@@ -39799,11 +39891,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517799768,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517799768,
 			}, -- [1074]
 			{
 				"BKalithumos", -- [1]
@@ -39827,11 +39919,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517799843,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517799843,
 			}, -- [1075]
 			{
 				"BKalithumos", -- [1]
@@ -39855,11 +39947,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517799886,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517799886,
 			}, -- [1076]
 			{
 				"BKalithumos", -- [1]
@@ -39883,11 +39975,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517799936,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517799936,
 			}, -- [1077]
 			{
 				"BKalithumos", -- [1]
@@ -39911,11 +40003,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517800119,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517800119,
 			}, -- [1078]
 			{
 				"BKalithumos", -- [1]
@@ -39939,11 +40031,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517800326,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517800326,
 			}, -- [1079]
 			{
 				"BKalithumos", -- [1]
@@ -39967,11 +40059,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517800558,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517800558,
 			}, -- [1080]
 			{
 				"BKalithumos", -- [1]
@@ -39995,11 +40087,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517800967,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517800967,
 			}, -- [1081]
 			{
 				"BKalithumos", -- [1]
@@ -40023,11 +40115,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517801258,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517801258,
 			}, -- [1082]
 			{
 				"BKalithumos", -- [1]
@@ -40051,11 +40143,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1517801724,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517801724,
 			}, -- [1083]
 			{
 				"BKalithumos", -- [1]
@@ -40079,11 +40171,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517803006,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517803006,
 			}, -- [1084]
 			{
 				"BKalithumos", -- [1]
@@ -40107,11 +40199,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517803312,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517803312,
 			}, -- [1085]
 			{
 				"BKalithumos", -- [1]
@@ -40135,11 +40227,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517803646,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517803646,
 			}, -- [1086]
 			{
 				"BKalithumos", -- [1]
@@ -40163,11 +40255,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517804113,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517804113,
 			}, -- [1087]
 			{
 				"BKalithumos", -- [1]
@@ -40191,11 +40283,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517805017,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517805017,
 			}, -- [1088]
 			{
 				"BKalithumos", -- [1]
@@ -40219,11 +40311,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517805379,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517805379,
 			}, -- [1089]
 			{
 				"BKalithumos", -- [1]
@@ -40247,11 +40339,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517805975,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517805975,
 			}, -- [1090]
 			{
 				"BKalithumos", -- [1]
@@ -40275,11 +40367,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517806288,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517806288,
 			}, -- [1091]
 			{
 				"BKalithumos", -- [1]
@@ -40303,11 +40395,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517806616,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517806616,
 			}, -- [1092]
 			{
 				"BKalithumos", -- [1]
@@ -40331,11 +40423,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517806872,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517806872,
 			}, -- [1093]
 			{
 				"BKalithumos", -- [1]
@@ -40359,11 +40451,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517807425,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517807425,
 			}, -- [1094]
 			{
 				"BKalithumos", -- [1]
@@ -40387,11 +40479,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1517807969,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517807969,
 			}, -- [1095]
 			{
 				"BKalithumos", -- [1]
@@ -40415,11 +40507,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517809067,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517809067,
 			}, -- [1096]
 			{
 				"BKalithumos", -- [1]
@@ -40443,11 +40535,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517809326,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517809326,
 			}, -- [1097]
 			{
 				"BKalithumos", -- [1]
@@ -40471,11 +40563,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517809607,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517809607,
 			}, -- [1098]
 			{
 				"BKalithumos", -- [1]
@@ -40499,11 +40591,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517810004,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517810004,
 			}, -- [1099]
 			{
 				"BKalithumos", -- [1]
@@ -40527,11 +40619,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517810171,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517810171,
 			}, -- [1100]
 			{
 				"BKalithumos", -- [1]
@@ -40555,11 +40647,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517886446,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517886446,
 			}, -- [1101]
 			{
 				"BKalithumos", -- [1]
@@ -40583,11 +40675,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517886956,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517886956,
 			}, -- [1102]
 			{
 				"BKalithumos", -- [1]
@@ -40611,11 +40703,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517887413,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517887413,
 			}, -- [1103]
 			{
 				"BKalithumos", -- [1]
@@ -40639,11 +40731,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517887757,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517887757,
 			}, -- [1104]
 			{
 				"BKalithumos", -- [1]
@@ -40667,11 +40759,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517888344,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517888344,
 			}, -- [1105]
 			{
 				"BKalithumos", -- [1]
@@ -40695,11 +40787,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517888658,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517888658,
 			}, -- [1106]
 			{
 				"BKalithumos", -- [1]
@@ -40723,11 +40815,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517888988,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517888988,
 			}, -- [1107]
 			{
 				"BKalithumos", -- [1]
@@ -40751,11 +40843,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517889413,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517889413,
 			}, -- [1108]
 			{
 				"BKalithumos", -- [1]
@@ -40779,11 +40871,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517890394,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517890394,
 			}, -- [1109]
 			{
 				"BKalithumos", -- [1]
@@ -40807,11 +40899,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517890829,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517890829,
 			}, -- [1110]
 			{
 				"BKalithumos", -- [1]
@@ -40835,11 +40927,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517891303,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517891303,
 			}, -- [1111]
 			{
 				"BKalithumos", -- [1]
@@ -40863,11 +40955,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517891833,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517891833,
 			}, -- [1112]
 			{
 				"BKalithumos", -- [1]
@@ -40891,11 +40983,11 @@ VExRT = {
 				"DSmm", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1517892312,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1517892312,
 			}, -- [1113]
 			{
 				"KAmranar", -- [1]
@@ -40917,11 +41009,11 @@ VExRT = {
 				"LIllißalls", -- [17]
 				"BBishster-Zul'jin", -- [18]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518375950,
 				["eN"] = "Garothi Worldbreaker",
-				["eI"] = 2076,
 				["d"] = 14,
 				["g"] = 18,
-				["t"] = 1518375950,
+				["eI"] = 2076,
 			}, -- [1114]
 			{
 				"KAmranar", -- [1]
@@ -40944,11 +41036,11 @@ VExRT = {
 				"KHuricaneirma-Darkspear", -- [18]
 				"BBishster-Zul'jin", -- [19]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518376740,
 				["eI"] = 2074,
-				["eN"] = "Felhounds of Sargeras",
 				["d"] = 14,
 				["g"] = 19,
-				["t"] = 1518376740,
+				["eN"] = "Felhounds of Sargeras",
 			}, -- [1115]
 			{
 				"KAmranar", -- [1]
@@ -40975,11 +41067,11 @@ VExRT = {
 				"BUtherió-Quel'Thalas", -- [22]
 				"KElunis-Goldrinn", -- [23]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518377595,
 				["eI"] = 2070,
-				["eN"] = "Antoran High Command",
 				["d"] = 14,
 				["g"] = 23,
-				["t"] = 1518377595,
+				["eN"] = "Antoran High Command",
 			}, -- [1116]
 			{
 				"KAmranar", -- [1]
@@ -41010,11 +41102,11 @@ VExRT = {
 				"KZèöl-Undermine", -- [26]
 				"GFussene-Frostmourne", -- [27]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518378748,
 				["eI"] = 2075,
-				["eN"] = "The Defense of Eonar",
 				["d"] = 14,
 				["g"] = 26,
-				["t"] = 1518378748,
+				["eN"] = "The Defense of Eonar",
 			}, -- [1117]
 			{
 				"KAmranar", -- [1]
@@ -41044,11 +41136,11 @@ VExRT = {
 				"GAurous-Undermine", -- [25]
 				"GFussene-Frostmourne", -- [26]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518379363,
 				["eI"] = 2064,
-				["eN"] = "Portal Keeper Hasabel",
 				["d"] = 14,
 				["g"] = 26,
-				["t"] = 1518379363,
+				["eN"] = "Portal Keeper Hasabel",
 			}, -- [1118]
 			{
 				"KAmranar", -- [1]
@@ -41078,11 +41170,11 @@ VExRT = {
 				"GAurous-Undermine", -- [25]
 				"GFussene-Frostmourne", -- [26]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518379915,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["d"] = 14,
 				["g"] = 26,
-				["t"] = 1518379915,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [1119]
 			{
 				"KAmranar", -- [1]
@@ -41112,11 +41204,11 @@ VExRT = {
 				"GAurous-Undermine", -- [25]
 				"GFussene-Frostmourne", -- [26]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518380017,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["d"] = 14,
 				["g"] = 26,
-				["t"] = 1518380017,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [1120]
 			{
 				"CLoradell-Stormrage", -- [1]
@@ -41146,11 +41238,11 @@ VExRT = {
 				"GAurous-Undermine", -- [25]
 				"GFussene-Frostmourne", -- [26]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518380714,
 				["eN"] = "Kin'garoth",
-				["eI"] = 2088,
 				["d"] = 14,
 				["g"] = 26,
-				["t"] = 1518380714,
+				["eI"] = 2088,
 			}, -- [1121]
 			{
 				"CLoradell-Stormrage", -- [1]
@@ -41176,13 +41268,13 @@ VExRT = {
 				"KHuricaneirma-Darkspear", -- [21]
 				"BUtherió-Quel'Thalas", -- [22]
 				"KElunis-Goldrinn", -- [23]
-				["eN"] = "Varimathras",
-				["c"] = "Amranar-Proudmoore",
-				["t"] = 1518381430,
-				["eI"] = 2069,
-				[26] = "GFussene-Frostmourne",
-				["g"] = 23,
 				["d"] = 14,
+				["c"] = "Amranar-Proudmoore",
+				[26] = "GFussene-Frostmourne",
+				["eN"] = "Varimathras",
+				["t"] = 1518381430,
+				["g"] = 23,
+				["eI"] = 2069,
 			}, -- [1122]
 			{
 				"CLoradell-Stormrage", -- [1]
@@ -41208,13 +41300,13 @@ VExRT = {
 				"KHuricaneirma-Darkspear", -- [21]
 				"BUtherió-Quel'Thalas", -- [22]
 				"KElunis-Goldrinn", -- [23]
-				["eN"] = "The Coven of Shivarra",
-				["c"] = "Amranar-Proudmoore",
-				["t"] = 1518381745,
-				["eI"] = 2073,
-				[26] = "GFussene-Frostmourne",
-				["g"] = 23,
 				["d"] = 14,
+				["c"] = "Amranar-Proudmoore",
+				[26] = "GFussene-Frostmourne",
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1518381745,
+				["g"] = 23,
+				["eI"] = 2073,
 			}, -- [1123]
 			{
 				"CLoradell-Stormrage", -- [1]
@@ -41240,13 +41332,13 @@ VExRT = {
 				"KHuricaneirma-Darkspear", -- [21]
 				"BUtherió-Quel'Thalas", -- [22]
 				"KElunis-Goldrinn", -- [23]
-				["eN"] = "The Coven of Shivarra",
-				["c"] = "Amranar-Proudmoore",
-				["t"] = 1518381751,
-				["eI"] = 2073,
-				[26] = "GFussene-Frostmourne",
-				["g"] = 23,
 				["d"] = 14,
+				["c"] = "Amranar-Proudmoore",
+				[26] = "GFussene-Frostmourne",
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1518381751,
+				["g"] = 23,
+				["eI"] = 2073,
 			}, -- [1124]
 			{
 				"CLoradell-Stormrage", -- [1]
@@ -41272,13 +41364,13 @@ VExRT = {
 				"KHuricaneirma-Darkspear", -- [21]
 				"BUtherió-Quel'Thalas", -- [22]
 				"KElunis-Goldrinn", -- [23]
-				["eN"] = "The Coven of Shivarra",
-				["c"] = "Amranar-Proudmoore",
-				["t"] = 1518381789,
-				["eI"] = 2073,
-				[26] = "GFussene-Frostmourne",
-				["g"] = 23,
 				["d"] = 14,
+				["c"] = "Amranar-Proudmoore",
+				[26] = "GFussene-Frostmourne",
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1518381789,
+				["g"] = 23,
+				["eI"] = 2073,
 			}, -- [1125]
 			{
 				"CLoradell-Stormrage", -- [1]
@@ -41304,13 +41396,13 @@ VExRT = {
 				"KHuricaneirma-Darkspear", -- [21]
 				"BUtherió-Quel'Thalas", -- [22]
 				"KElunis-Goldrinn", -- [23]
-				["eN"] = "The Coven of Shivarra",
-				["c"] = "Amranar-Proudmoore",
-				["t"] = 1518381801,
-				["eI"] = 2073,
-				[26] = "GFussene-Frostmourne",
-				["g"] = 23,
 				["d"] = 14,
+				["c"] = "Amranar-Proudmoore",
+				[26] = "GFussene-Frostmourne",
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1518381801,
+				["g"] = 23,
+				["eI"] = 2073,
 			}, -- [1126]
 			{
 				"CLoradell-Stormrage", -- [1]
@@ -41336,13 +41428,13 @@ VExRT = {
 				"KHuricaneirma-Darkspear", -- [21]
 				"BUtherió-Quel'Thalas", -- [22]
 				"KElunis-Goldrinn", -- [23]
-				["eN"] = "The Coven of Shivarra",
-				["c"] = "Amranar-Proudmoore",
-				["t"] = 1518381983,
-				["eI"] = 2073,
-				[26] = "GFussene-Frostmourne",
-				["g"] = 23,
 				["d"] = 14,
+				["c"] = "Amranar-Proudmoore",
+				[26] = "GFussene-Frostmourne",
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1518381983,
+				["g"] = 23,
+				["eI"] = 2073,
 			}, -- [1127]
 			{
 				"BLathánder-Ragnaros", -- [1]
@@ -41368,11 +41460,11 @@ VExRT = {
 				"BAurrasing-Draenor", -- [21]
 				"HPithwick-EmeraldDream", -- [22]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518383179,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["d"] = 14,
 				["g"] = 22,
-				["t"] = 1518383179,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1128]
 			{
 				"KAmranar", -- [1]
@@ -41394,13 +41486,13 @@ VExRT = {
 				"JGrumm-Whisperwind", -- [17]
 				"IPandemoc-Stormrage", -- [18]
 				"BBishster-Zul'jin", -- [19]
-				["eN"] = "Aggramar",
-				[21] = "HPithwick-EmeraldDream",
-				["t"] = 1518384157,
-				["eI"] = 2063,
-				["d"] = 14,
-				["g"] = 20,
 				["c"] = "Amranar-Proudmoore",
+				[21] = "HPithwick-EmeraldDream",
+				["d"] = 14,
+				["eN"] = "Aggramar",
+				["t"] = 1518384157,
+				["g"] = 20,
+				["eI"] = 2063,
 			}, -- [1129]
 			{
 				"KAmranar", -- [1]
@@ -41422,13 +41514,13 @@ VExRT = {
 				"JGrumm-Whisperwind", -- [17]
 				"IPandemoc-Stormrage", -- [18]
 				"BBishster-Zul'jin", -- [19]
-				["eN"] = "Argus the Unmaker",
-				[21] = "HPithwick-EmeraldDream",
-				["t"] = 1518384796,
-				["eI"] = 2092,
-				["d"] = 14,
-				["g"] = 20,
 				["c"] = "Amranar-Proudmoore",
+				[21] = "HPithwick-EmeraldDream",
+				["d"] = 14,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1518384796,
+				["g"] = 20,
+				["eI"] = 2092,
 			}, -- [1130]
 			{
 				"BKalithumos", -- [1]
@@ -41452,11 +41544,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518404689,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518404689,
 			}, -- [1131]
 			{
 				"BKalithumos", -- [1]
@@ -41480,11 +41572,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518405276,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518405276,
 			}, -- [1132]
 			{
 				"BKalithumos", -- [1]
@@ -41508,11 +41600,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518405712,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518405712,
 			}, -- [1133]
 			{
 				"BKalithumos", -- [1]
@@ -41536,11 +41628,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518406030,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518406030,
 			}, -- [1134]
 			{
 				"BKalithumos", -- [1]
@@ -41564,11 +41656,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518406536,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518406536,
 			}, -- [1135]
 			{
 				"BKalithumos", -- [1]
@@ -41592,11 +41684,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518406998,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518406998,
 			}, -- [1136]
 			{
 				"BKalithumos", -- [1]
@@ -41620,11 +41712,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518407450,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518407450,
 			}, -- [1137]
 			{
 				"BKalithumos", -- [1]
@@ -41648,11 +41740,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518407898,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518407898,
 			}, -- [1138]
 			{
 				"BKalithumos", -- [1]
@@ -41676,11 +41768,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518408195,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518408195,
 			}, -- [1139]
 			{
 				"BKalithumos", -- [1]
@@ -41704,11 +41796,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518408755,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518408755,
 			}, -- [1140]
 			{
 				"BKalithumos", -- [1]
@@ -41732,11 +41824,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518408953,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518408953,
 			}, -- [1141]
 			{
 				"BKalithumos", -- [1]
@@ -41760,11 +41852,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518409046,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518409046,
 			}, -- [1142]
 			{
 				"BKalithumos", -- [1]
@@ -41788,11 +41880,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518409172,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518409172,
 			}, -- [1143]
 			{
 				"BKalithumos", -- [1]
@@ -41816,11 +41908,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518409586,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518409586,
 			}, -- [1144]
 			{
 				"BKalithumos", -- [1]
@@ -41844,11 +41936,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2088,
-				["t"] = 1518409877,
-				["g"] = 20,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518409877,
 			}, -- [1145]
 			{
 				"BKalithumos", -- [1]
@@ -41872,11 +41964,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518410829,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518410829,
 			}, -- [1146]
 			{
 				"BKalithumos", -- [1]
@@ -41900,11 +41992,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518411085,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518411085,
 			}, -- [1147]
 			{
 				"BKalithumos", -- [1]
@@ -41928,11 +42020,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518411251,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518411251,
 			}, -- [1148]
 			{
 				"BKalithumos", -- [1]
@@ -41956,11 +42048,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518411426,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518411426,
 			}, -- [1149]
 			{
 				"BKalithumos", -- [1]
@@ -41984,11 +42076,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518411692,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518411692,
 			}, -- [1150]
 			{
 				"BKalithumos", -- [1]
@@ -42012,11 +42104,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518411820,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518411820,
 			}, -- [1151]
 			{
 				"BKalithumos", -- [1]
@@ -42040,11 +42132,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518411878,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518411878,
 			}, -- [1152]
 			{
 				"BKalithumos", -- [1]
@@ -42068,11 +42160,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518411945,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518411945,
 			}, -- [1153]
 			{
 				"BKalithumos", -- [1]
@@ -42096,11 +42188,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518412005,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518412005,
 			}, -- [1154]
 			{
 				"BKalithumos", -- [1]
@@ -42124,11 +42216,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518412068,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518412068,
 			}, -- [1155]
 			{
 				"BKalithumos", -- [1]
@@ -42152,11 +42244,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518412283,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518412283,
 			}, -- [1156]
 			{
 				"BKalithumos", -- [1]
@@ -42180,11 +42272,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518412385,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518412385,
 			}, -- [1157]
 			{
 				"BKalithumos", -- [1]
@@ -42208,11 +42300,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518412474,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518412474,
 			}, -- [1158]
 			{
 				"BKalithumos", -- [1]
@@ -42236,11 +42328,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2069,
-				["t"] = 1518412715,
-				["g"] = 20,
 				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518412715,
 			}, -- [1159]
 			{
 				"BKalithumos", -- [1]
@@ -42264,11 +42356,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413140,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413140,
 			}, -- [1160]
 			{
 				"BKalithumos", -- [1]
@@ -42292,11 +42384,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413150,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413150,
 			}, -- [1161]
 			{
 				"BKalithumos", -- [1]
@@ -42320,11 +42412,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413175,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413175,
 			}, -- [1162]
 			{
 				"BKalithumos", -- [1]
@@ -42348,11 +42440,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413180,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413180,
 			}, -- [1163]
 			{
 				"BKalithumos", -- [1]
@@ -42376,11 +42468,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413205,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413205,
 			}, -- [1164]
 			{
 				"BKalithumos", -- [1]
@@ -42404,11 +42496,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413210,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413210,
 			}, -- [1165]
 			{
 				"BKalithumos", -- [1]
@@ -42433,11 +42525,11 @@ VExRT = {
 				"HKaligon", -- [20]
 				"DCaillis", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413584,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413584,
 			}, -- [1166]
 			{
 				"BKalithumos", -- [1]
@@ -42462,11 +42554,11 @@ VExRT = {
 				"HKaligon", -- [20]
 				"DCaillis", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413589,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413589,
 			}, -- [1167]
 			{
 				"BKalithumos", -- [1]
@@ -42490,11 +42582,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518413967,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518413967,
 			}, -- [1168]
 			{
 				"BKalithumos", -- [1]
@@ -42518,11 +42610,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518414291,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518414291,
 			}, -- [1169]
 			{
 				"BKalithumos", -- [1]
@@ -42546,11 +42638,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518414670,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518414670,
 			}, -- [1170]
 			{
 				"BKalithumos", -- [1]
@@ -42574,11 +42666,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518415023,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518415023,
 			}, -- [1171]
 			{
 				"BKalithumos", -- [1]
@@ -42602,11 +42694,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2073,
-				["t"] = 1518415326,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518415326,
 			}, -- [1172]
 			{
 				"BKalithumos", -- [1]
@@ -42629,11 +42721,11 @@ VExRT = {
 				"IReportmepls", -- [18]
 				"HKahoots", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518490778,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1173]
 			{
 				"BKalithumos", -- [1]
@@ -42656,11 +42748,11 @@ VExRT = {
 				"IReportmepls", -- [18]
 				"HKahoots", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518490781,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1174]
 			{
 				"BKalithumos", -- [1]
@@ -42683,11 +42775,11 @@ VExRT = {
 				"IReportmepls", -- [18]
 				"HKahoots", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518490806,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1175]
 			{
 				"BKalithumos", -- [1]
@@ -42710,11 +42802,11 @@ VExRT = {
 				"IReportmepls", -- [18]
 				"HKahoots", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518490811,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1176]
 			{
 				"ECelaniia", -- [1]
@@ -42738,11 +42830,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518491516,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1177]
 			{
 				"ECelaniia", -- [1]
@@ -42766,11 +42858,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518491763,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1178]
 			{
 				"ECelaniia", -- [1]
@@ -42794,11 +42886,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518492000,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1179]
 			{
 				"ECelaniia", -- [1]
@@ -42822,11 +42914,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518492005,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1180]
 			{
 				"ECelaniia", -- [1]
@@ -42850,11 +42942,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518492030,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1181]
 			{
 				"ECelaniia", -- [1]
@@ -42878,11 +42970,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518492035,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1182]
 			{
 				"ECelaniia", -- [1]
@@ -42906,11 +42998,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518492102,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1183]
 			{
 				"ECelaniia", -- [1]
@@ -42934,11 +43026,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518492554,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1184]
 			{
 				"ECelaniia", -- [1]
@@ -42962,11 +43054,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518492917,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1185]
 			{
 				"ECelaniia", -- [1]
@@ -42990,11 +43082,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518493237,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1186]
 			{
 				"ECelaniia", -- [1]
@@ -43018,11 +43110,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518493673,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1187]
 			{
 				"ECelaniia", -- [1]
@@ -43046,11 +43138,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518494124,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1188]
 			{
 				"ECelaniia", -- [1]
@@ -43074,11 +43166,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518494611,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1189]
 			{
 				"ECelaniia", -- [1]
@@ -43102,11 +43194,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518494815,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1190]
 			{
 				"ECelaniia", -- [1]
@@ -43130,11 +43222,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518494819,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1191]
 			{
 				"ECelaniia", -- [1]
@@ -43158,11 +43250,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518494930,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1192]
 			{
 				"ECelaniia", -- [1]
@@ -43186,11 +43278,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495254,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1193]
 			{
 				"ECelaniia", -- [1]
@@ -43214,11 +43306,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495258,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1194]
 			{
 				"ECelaniia", -- [1]
@@ -43242,11 +43334,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495284,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1195]
 			{
 				"ECelaniia", -- [1]
@@ -43270,11 +43362,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495289,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1196]
 			{
 				"ECelaniia", -- [1]
@@ -43298,11 +43390,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495316,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1197]
 			{
 				"ECelaniia", -- [1]
@@ -43326,11 +43418,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495322,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1198]
 			{
 				"ECelaniia", -- [1]
@@ -43354,11 +43446,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495348,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1199]
 			{
 				"ECelaniia", -- [1]
@@ -43382,11 +43474,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495351,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1200]
 			{
 				"ECelaniia", -- [1]
@@ -43410,11 +43502,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495377,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1201]
 			{
 				"ECelaniia", -- [1]
@@ -43438,11 +43530,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495383,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1202]
 			{
 				"ECelaniia", -- [1]
@@ -43466,11 +43558,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495409,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1203]
 			{
 				"ECelaniia", -- [1]
@@ -43494,11 +43586,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495415,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1204]
 			{
 				"ECelaniia", -- [1]
@@ -43522,11 +43614,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1518495508,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1205]
 			{
 				"ECelaniia", -- [1]
@@ -43550,11 +43642,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518496637,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518496637,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1206]
 			{
 				"ECelaniia", -- [1]
@@ -43578,11 +43670,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518496982,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518496982,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1207]
 			{
 				"ECelaniia", -- [1]
@@ -43606,11 +43698,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518496987,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518496987,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1208]
 			{
 				"ECelaniia", -- [1]
@@ -43634,11 +43726,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518497081,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518497081,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1209]
 			{
 				"ECelaniia", -- [1]
@@ -43662,11 +43754,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518497420,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518497420,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1210]
 			{
 				"ECelaniia", -- [1]
@@ -43690,11 +43782,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518497681,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518497681,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1211]
 			{
 				"ECelaniia", -- [1]
@@ -43718,11 +43810,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498193,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498193,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1212]
 			{
 				"ECelaniia", -- [1]
@@ -43746,11 +43838,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498199,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498199,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1213]
 			{
 				"ECelaniia", -- [1]
@@ -43774,11 +43866,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498231,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498231,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1214]
 			{
 				"ECelaniia", -- [1]
@@ -43802,11 +43894,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498243,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498243,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1215]
 			{
 				"ECelaniia", -- [1]
@@ -43830,11 +43922,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498293,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498293,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1216]
 			{
 				"ECelaniia", -- [1]
@@ -43858,11 +43950,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498296,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498296,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1217]
 			{
 				"ECelaniia", -- [1]
@@ -43886,11 +43978,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498460,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498460,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1218]
 			{
 				"ECelaniia", -- [1]
@@ -43914,11 +44006,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498735,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498735,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1219]
 			{
 				"ECelaniia", -- [1]
@@ -43942,11 +44034,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498833,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498833,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1220]
 			{
 				"ECelaniia", -- [1]
@@ -43970,11 +44062,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518498994,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518498994,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1221]
 			{
 				"ECelaniia", -- [1]
@@ -43998,11 +44090,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518499469,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518499469,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1222]
 			{
 				"ECelaniia", -- [1]
@@ -44026,11 +44118,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518499855,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518499855,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1223]
 			{
 				"ECelaniia", -- [1]
@@ -44054,11 +44146,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518499860,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518499860,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1224]
 			{
 				"ECelaniia", -- [1]
@@ -44082,11 +44174,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518499933,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518499933,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1225]
 			{
 				"ECelaniia", -- [1]
@@ -44110,11 +44202,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518500368,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518500368,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1226]
 			{
 				"ECelaniia", -- [1]
@@ -44138,11 +44230,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518500651,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518500651,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1227]
 			{
 				"ECelaniia", -- [1]
@@ -44166,11 +44258,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518501305,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518501305,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1228]
 			{
 				"ECelaniia", -- [1]
@@ -44194,11 +44286,11 @@ VExRT = {
 				"GMactoventus", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518501588,
-				["eI"] = 2073,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "The Coven of Shivarra",
+				["eI"] = 2073,
+				["t"] = 1518501588,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1229]
 			{
 				"BPhadamayg-Tichondrius", -- [1]
@@ -44217,11 +44309,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Garothi Worldbreaker",
-				["t"] = 1518582964,
-				["g"] = 14,
 				["eI"] = 2076,
+				["eN"] = "Garothi Worldbreaker",
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518582964,
 			}, -- [1230]
 			{
 				"BPhadamayg-Tichondrius", -- [1]
@@ -44240,11 +44332,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Felhounds of Sargeras",
-				["t"] = 1518583503,
-				["g"] = 14,
 				["eI"] = 2074,
+				["eN"] = "Felhounds of Sargeras",
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518583503,
 			}, -- [1231]
 			{
 				"BPhadamayg-Tichondrius", -- [1]
@@ -44262,11 +44354,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [13]
 				"KZegermans-Perenolde", -- [14]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Antoran High Command",
-				["t"] = 1518584355,
-				["g"] = 14,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518584355,
 			}, -- [1232]
 			{
 				"BPhadamayg-Tichondrius", -- [1]
@@ -44284,11 +44376,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [13]
 				"KZegermans-Perenolde", -- [14]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Portal Keeper Hasabel",
-				["t"] = 1518585151,
-				["g"] = 14,
 				["eI"] = 2064,
+				["eN"] = "Portal Keeper Hasabel",
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518585151,
 			}, -- [1233]
 			{
 				"BPhadamayg-Tichondrius", -- [1]
@@ -44306,11 +44398,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [13]
 				"KZegermans-Perenolde", -- [14]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eN"] = "The Defense of Eonar",
-				["t"] = 1518585708,
-				["g"] = 14,
 				["eI"] = 2075,
+				["eN"] = "The Defense of Eonar",
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518585708,
 			}, -- [1234]
 			{
 				"BPhadamayg-Tichondrius", -- [1]
@@ -44328,11 +44420,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [13]
 				"KZegermans-Perenolde", -- [14]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eN"] = "Imonar the Soulhunter",
-				["t"] = 1518586318,
-				["g"] = 14,
 				["eI"] = 2082,
+				["eN"] = "Imonar the Soulhunter",
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518586318,
 			}, -- [1235]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44351,11 +44443,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eI"] = 2088,
-				["t"] = 1518587221,
-				["g"] = 14,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518587221,
 			}, -- [1236]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44374,11 +44466,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eI"] = 2088,
-				["t"] = 1518587647,
-				["g"] = 14,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518587647,
 			}, -- [1237]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44397,11 +44489,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
-				["d"] = 14,
-				["eI"] = 2088,
-				["t"] = 1518587987,
-				["g"] = 14,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["d"] = 14,
+				["g"] = 14,
+				["t"] = 1518587987,
 			}, -- [1238]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44420,11 +44512,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2069,
-				["eN"] = "Varimathras",
 				["t"] = 1518588993,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "Varimathras",
 			}, -- [1239]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44443,11 +44535,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2069,
-				["eN"] = "Varimathras",
 				["t"] = 1518589246,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "Varimathras",
 			}, -- [1240]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44466,11 +44558,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518589561,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1241]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44489,11 +44581,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518589565,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1242]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44512,11 +44604,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518589590,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1243]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44535,11 +44627,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518589596,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1244]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44558,11 +44650,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518589910,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1245]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44581,11 +44673,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518589916,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1246]
 			{
 				"APakcho-Shu'halo", -- [1]
@@ -44604,11 +44696,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518589948,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1247]
 			{
 				"LGreenred-Trollbane", -- [1]
@@ -44627,11 +44719,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518590450,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1248]
 			{
 				"LGreenred-Trollbane", -- [1]
@@ -44650,11 +44742,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518591048,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1249]
 			{
 				"LGreenred-Trollbane", -- [1]
@@ -44673,11 +44765,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1518591224,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1250]
 			{
 				"LGreenred-Trollbane", -- [1]
@@ -44696,11 +44788,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1518592132,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "Aggramar",
 			}, -- [1251]
 			{
 				"LGreenred-Trollbane", -- [1]
@@ -44719,11 +44811,11 @@ VExRT = {
 				"GSpeedfeet-Frostmourne", -- [14]
 				"KZegermans-Perenolde", -- [15]
 				["c"] = "Kaldorath-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1518592791,
 				["g"] = 14,
-				["d"] = 14,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1252]
 			{
 				"KEllestria", -- [1]
@@ -44753,11 +44845,11 @@ VExRT = {
 				"HKaligon", -- [25]
 				"KSelendis", -- [26]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2076,
-				["t"] = 1518750207,
-				["g"] = 20,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518750207,
 			}, -- [1253]
 			{
 				"KEllestria", -- [1]
@@ -44787,11 +44879,11 @@ VExRT = {
 				nil, -- [25]
 				"KSelendis", -- [26]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1518750877,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518750877,
 			}, -- [1254]
 			{
 				"KEllestria", -- [1]
@@ -44815,11 +44907,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2074,
-				["t"] = 1518751360,
-				["g"] = 20,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518751360,
 			}, -- [1255]
 			{
 				"KEllestria", -- [1]
@@ -44844,11 +44936,11 @@ VExRT = {
 				"IDotido", -- [20]
 				"HKaligon", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2070,
-				["t"] = 1518752096,
-				["g"] = 20,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518752096,
 			}, -- [1256]
 			{
 				"KEllestria", -- [1]
@@ -44872,11 +44964,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2070,
-				["t"] = 1518752146,
-				["g"] = 20,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518752146,
 			}, -- [1257]
 			{
 				"KEllestria", -- [1]
@@ -44900,11 +44992,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2070,
-				["t"] = 1518752151,
-				["g"] = 20,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518752151,
 			}, -- [1258]
 			{
 				"KEllestria", -- [1]
@@ -44928,11 +45020,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2070,
-				["t"] = 1518752256,
-				["g"] = 20,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518752256,
 			}, -- [1259]
 			{
 				"KEllestria", -- [1]
@@ -44956,11 +45048,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1518753078,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518753078,
 			}, -- [1260]
 			{
 				"KEllestria", -- [1]
@@ -44984,11 +45076,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1518753119,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518753119,
 			}, -- [1261]
 			{
 				"KEllestria", -- [1]
@@ -45012,11 +45104,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1518753168,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518753168,
 			}, -- [1262]
 			{
 				"KEllestria", -- [1]
@@ -45040,11 +45132,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1518753357,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518753357,
 			}, -- [1263]
 			{
 				"KEllestria", -- [1]
@@ -45068,11 +45160,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1518753555,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518753555,
 			}, -- [1264]
 			{
 				"KEllestria", -- [1]
@@ -45096,11 +45188,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1518754001,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518754001,
 			}, -- [1265]
 			{
 				"KEllestria", -- [1]
@@ -45124,11 +45216,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2064,
-				["t"] = 1518754326,
-				["g"] = 20,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518754326,
 			}, -- [1266]
 			{
 				"KEllestria", -- [1]
@@ -45152,11 +45244,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"IDotido", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2075,
-				["t"] = 1518755123,
-				["g"] = 20,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518755123,
 			}, -- [1267]
 			{
 				"KEllestria", -- [1]
@@ -45180,11 +45272,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1518756068,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518756068,
 			}, -- [1268]
 			{
 				"KEllestria", -- [1]
@@ -45208,11 +45300,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1518756626,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518756626,
 			}, -- [1269]
 			{
 				"KEllestria", -- [1]
@@ -45236,11 +45328,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1518756815,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518756815,
 			}, -- [1270]
 			{
 				"KEllestria", -- [1]
@@ -45264,11 +45356,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1518757014,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518757014,
 			}, -- [1271]
 			{
 				"KEllestria", -- [1]
@@ -45292,11 +45384,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1518757285,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518757285,
 			}, -- [1272]
 			{
 				"KEllestria", -- [1]
@@ -45320,11 +45412,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ADieidont", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2082,
-				["t"] = 1518757446,
-				["g"] = 20,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1518757446,
 			}, -- [1273]
 			{
 				"KEllestria", -- [1]
@@ -45353,11 +45445,11 @@ VExRT = {
 				"GShoksmakheal", -- [24]
 				"DAllîar", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2092,
-				["t"] = 1518758615,
-				["g"] = 25,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 15,
+				["g"] = 25,
+				["t"] = 1518758615,
 			}, -- [1274]
 			{
 				"KEllestria", -- [1]
@@ -45386,11 +45478,11 @@ VExRT = {
 				"GShoksmakheal", -- [24]
 				"DAllîar", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518758868,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 25,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1518758868,
+				["g"] = 25,
+				["d"] = 15,
 			}, -- [1275]
 			{
 				"KEllestria", -- [1]
@@ -45419,11 +45511,11 @@ VExRT = {
 				"GShoksmakheal", -- [24]
 				"DAllîar", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1518759101,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 15,
-				["g"] = 25,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1518759101,
+				["g"] = 25,
+				["d"] = 15,
 			}, -- [1276]
 			{
 				"EBlakeypriest-Tichondrius", -- [1]
@@ -45439,11 +45531,11 @@ VExRT = {
 				"JSassybogs-Tichondrius", -- [11]
 				"BPanly-Tichondrius", -- [12]
 				["c"] = "Greybone-Proudmoore",
+				["t"] = 1518760824,
 				["eI"] = 2076,
-				["eN"] = "Garothi Worldbreaker",
 				["d"] = 15,
 				["g"] = 12,
-				["t"] = 1518760824,
+				["eN"] = "Garothi Worldbreaker",
 			}, -- [1277]
 			{
 				"EBlakeypriest-Tichondrius", -- [1]
@@ -45460,11 +45552,11 @@ VExRT = {
 				"BPanly-Tichondrius", -- [12]
 				"IIrogasm-Tichondrius", -- [13]
 				["c"] = "Greybone-Proudmoore",
+				["t"] = 1518761545,
 				["eI"] = 2074,
-				["eN"] = "Felhounds of Sargeras",
 				["d"] = 15,
 				["g"] = 12,
-				["t"] = 1518761545,
+				["eN"] = "Felhounds of Sargeras",
 			}, -- [1278]
 			{
 				"EBlakeypriest-Tichondrius", -- [1]
@@ -45481,11 +45573,11 @@ VExRT = {
 				"BPanly-Tichondrius", -- [12]
 				"IIrogasm-Tichondrius", -- [13]
 				["c"] = "Greybone-Proudmoore",
+				["t"] = 1518761859,
 				["eI"] = 2074,
-				["eN"] = "Felhounds of Sargeras",
 				["d"] = 15,
 				["g"] = 13,
-				["t"] = 1518761859,
+				["eN"] = "Felhounds of Sargeras",
 			}, -- [1279]
 			{
 				"EBlakeypriest-Tichondrius", -- [1]
@@ -45502,11 +45594,11 @@ VExRT = {
 				"BPanly-Tichondrius", -- [12]
 				"EHangookie-Tichondrius", -- [13]
 				["c"] = "Greybone-Proudmoore",
+				["t"] = 1518762717,
 				["eI"] = 2070,
-				["eN"] = "Antoran High Command",
 				["d"] = 15,
 				["g"] = 12,
-				["t"] = 1518762717,
+				["eN"] = "Antoran High Command",
 			}, -- [1280]
 			{
 				"EBlakeypriest-Tichondrius", -- [1]
@@ -45524,11 +45616,11 @@ VExRT = {
 				"HMathrim-Uther", -- [13]
 				"EHangookie-Tichondrius", -- [14]
 				["c"] = "Greybone-Proudmoore",
+				["t"] = 1518763536,
 				["eI"] = 2070,
-				["eN"] = "Antoran High Command",
 				["d"] = 15,
 				["g"] = 14,
-				["t"] = 1518763536,
+				["eN"] = "Antoran High Command",
 			}, -- [1281]
 			{
 				"EBlakeypriest-Tichondrius", -- [1]
@@ -45549,11 +45641,11 @@ VExRT = {
 				"BAzenoth-Frostmourne", -- [16]
 				"ELyfeguard-Kil'jaeden", -- [17]
 				["c"] = "Greybone-Proudmoore",
+				["t"] = 1518764298,
 				["eI"] = 2070,
-				["eN"] = "Antoran High Command",
 				["d"] = 15,
 				["g"] = 17,
-				["t"] = 1518764298,
+				["eN"] = "Antoran High Command",
 			}, -- [1282]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45571,11 +45663,11 @@ VExRT = {
 				"IWarlessa-Gnomeregan", -- [13]
 				"APraerend", -- [14]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518845971,
 				["eI"] = 2076,
-				["eN"] = "Garothi Worldbreaker",
 				["d"] = 14,
 				["g"] = 14,
-				["t"] = 1518845971,
+				["eN"] = "Garothi Worldbreaker",
 			}, -- [1283]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45593,11 +45685,11 @@ VExRT = {
 				"IWarlessa-Gnomeregan", -- [13]
 				"APraerend", -- [14]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518846588,
 				["eI"] = 2074,
-				["eN"] = "Felhounds of Sargeras",
 				["d"] = 14,
 				["g"] = 14,
-				["t"] = 1518846588,
+				["eN"] = "Felhounds of Sargeras",
 			}, -- [1284]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45615,11 +45707,11 @@ VExRT = {
 				"IWarlessa-Gnomeregan", -- [13]
 				"APraerend", -- [14]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518847524,
 				["eI"] = 2070,
-				["eN"] = "Antoran High Command",
 				["d"] = 14,
 				["g"] = 14,
-				["t"] = 1518847524,
+				["eN"] = "Antoran High Command",
 			}, -- [1285]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45637,11 +45729,11 @@ VExRT = {
 				"IWarlessa-Gnomeregan", -- [13]
 				"APraerend", -- [14]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518849014,
 				["eI"] = 2075,
-				["eN"] = "The Defense of Eonar",
 				["d"] = 14,
 				["g"] = 14,
-				["t"] = 1518849014,
+				["eN"] = "The Defense of Eonar",
 			}, -- [1286]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45660,11 +45752,11 @@ VExRT = {
 				"APraerend", -- [14]
 				"JZensei-AzjolNerub", -- [15]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518849717,
 				["eI"] = 2064,
-				["eN"] = "Portal Keeper Hasabel",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1518849717,
+				["eN"] = "Portal Keeper Hasabel",
 			}, -- [1287]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45683,11 +45775,11 @@ VExRT = {
 				"APraerend", -- [14]
 				"JZensei-AzjolNerub", -- [15]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518850443,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1518850443,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [1288]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45706,11 +45798,11 @@ VExRT = {
 				"APraerend", -- [14]
 				"JZensei-AzjolNerub", -- [15]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518851112,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1518851112,
+				["eN"] = "Kin'garoth",
 			}, -- [1289]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45729,11 +45821,11 @@ VExRT = {
 				"APraerend", -- [14]
 				"JZensei-AzjolNerub", -- [15]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518851410,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1518851410,
+				["eN"] = "Kin'garoth",
 			}, -- [1290]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45752,11 +45844,11 @@ VExRT = {
 				"APraerend", -- [14]
 				"JZensei-AzjolNerub", -- [15]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518852537,
 				["eI"] = 2069,
-				["eN"] = "Varimathras",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1518852537,
+				["eN"] = "Varimathras",
 			}, -- [1291]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45775,11 +45867,11 @@ VExRT = {
 				"APraerend", -- [14]
 				"JZensei-AzjolNerub", -- [15]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518852918,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1518852918,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1292]
 			{
 				"CAeryngorn-Spinebreaker", -- [1]
@@ -45798,11 +45890,11 @@ VExRT = {
 				"APraerend", -- [14]
 				"JZensei-AzjolNerub", -- [15]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518852925,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1518852925,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1293]
 			{
 				"JExtrasalt", -- [1]
@@ -45822,11 +45914,11 @@ VExRT = {
 				"JZensei-AzjolNerub", -- [15]
 				"FSiamshade-Cairne", -- [16]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518853198,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["d"] = 14,
 				["g"] = 10,
-				["t"] = 1518853198,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1294]
 			{
 				"JExtrasalt", -- [1]
@@ -45846,11 +45938,11 @@ VExRT = {
 				"JZensei-AzjolNerub", -- [15]
 				"FSiamshade-Cairne", -- [16]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518853202,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["d"] = 14,
 				["g"] = 10,
-				["t"] = 1518853202,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1295]
 			{
 				"JExtrasalt", -- [1]
@@ -45877,11 +45969,11 @@ VExRT = {
 				"KWolfbrother-Gul'dan", -- [22]
 				"JChimana-Kel'Thuzad", -- [23]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518853503,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 14,
 				["g"] = 23,
-				["t"] = 1518853503,
+				["eI"] = 2073,
 			}, -- [1296]
 			{
 				"JExtrasalt", -- [1]
@@ -45913,11 +46005,11 @@ VExRT = {
 				"JJudoka-Quel'Thalas", -- [27]
 				"ADartavios-Shandris", -- [28]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518854313,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 14,
 				["g"] = 28,
-				["t"] = 1518854313,
+				["eI"] = 2063,
 			}, -- [1297]
 			{
 				"JExtrasalt", -- [1]
@@ -45949,11 +46041,11 @@ VExRT = {
 				"JJudoka-Quel'Thalas", -- [27]
 				"ADartavios-Shandris", -- [28]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518854815,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 14,
 				["g"] = 27,
-				["t"] = 1518854815,
+				["eI"] = 2063,
 			}, -- [1298]
 			{
 				"JExtrasalt", -- [1]
@@ -45987,11 +46079,11 @@ VExRT = {
 				"ADartavios-Shandris", -- [29]
 				"FPheng-Malfurion", -- [30]
 				["c"] = "Praerend-Proudmoore",
+				["t"] = 1518855505,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 14,
 				["g"] = 29,
-				["t"] = 1518855505,
+				["eI"] = 2092,
 			}, -- [1299]
 			{
 				"BVivie", -- [1]
@@ -46013,11 +46105,11 @@ VExRT = {
 				"KAmranar", -- [17]
 				"HMirage", -- [18]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518923630,
 				["eN"] = "Varimathras",
-				["eI"] = 2069,
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1518923630,
+				["eI"] = 2069,
 			}, -- [1300]
 			{
 				"BVivie", -- [1]
@@ -46039,11 +46131,11 @@ VExRT = {
 				"KAmranar", -- [17]
 				"HMirage", -- [18]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518923918,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1518923918,
+				["eI"] = 2073,
 			}, -- [1301]
 			{
 				"BVivie", -- [1]
@@ -46065,11 +46157,11 @@ VExRT = {
 				"KAmranar", -- [17]
 				"HMirage", -- [18]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518923921,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1518923921,
+				["eI"] = 2073,
 			}, -- [1302]
 			{
 				"BVivie", -- [1]
@@ -46091,11 +46183,11 @@ VExRT = {
 				"KAmranar", -- [17]
 				"HMirage", -- [18]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518923947,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1518923947,
+				["eI"] = 2073,
 			}, -- [1303]
 			{
 				"BVivie", -- [1]
@@ -46117,11 +46209,11 @@ VExRT = {
 				"KAmranar", -- [17]
 				"HMirage", -- [18]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518923952,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1518923952,
+				["eI"] = 2073,
 			}, -- [1304]
 			{
 				"BVivie", -- [1]
@@ -46143,11 +46235,11 @@ VExRT = {
 				"KAmranar", -- [17]
 				"HMirage", -- [18]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518924169,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 15,
 				["g"] = 18,
-				["t"] = 1518924169,
+				["eI"] = 2073,
 			}, -- [1305]
 			{
 				"LOdisam-Kel'Thuzad", -- [1]
@@ -46170,11 +46262,11 @@ VExRT = {
 				"BSçörn-EchoIsles", -- [18]
 				"HDilfmage-Korgath", -- [19]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518926843,
 				["eN"] = "Garothi Worldbreaker",
-				["eI"] = 2076,
 				["d"] = 14,
 				["g"] = 19,
-				["t"] = 1518926843,
+				["eI"] = 2076,
 			}, -- [1306]
 			{
 				"LOdisam-Kel'Thuzad", -- [1]
@@ -46198,11 +46290,11 @@ VExRT = {
 				"HDilfmage-Korgath", -- [19]
 				"KUnbrokee", -- [20]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518928212,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 14,
 				["g"] = 20,
-				["t"] = 1518928212,
+				["eI"] = 2063,
 			}, -- [1307]
 			{
 				"LOdisam-Kel'Thuzad", -- [1]
@@ -46236,11 +46328,11 @@ VExRT = {
 				"GMawdack-Quel'Thalas", -- [29]
 				"BChaantha-GrizzlyHills", -- [30]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518929165,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 14,
 				["g"] = 29,
-				["t"] = 1518929165,
+				["eI"] = 2092,
 			}, -- [1308]
 			{
 				"LOdisam-Kel'Thuzad", -- [1]
@@ -46274,11 +46366,11 @@ VExRT = {
 				"GMawdack-Quel'Thalas", -- [29]
 				"BChaantha-GrizzlyHills", -- [30]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1518930249,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 14,
 				["g"] = 24,
-				["t"] = 1518930249,
+				["eI"] = 2092,
 			}, -- [1309]
 			{
 				"LOdisam-Kel'Thuzad", -- [1]
@@ -46309,12 +46401,12 @@ VExRT = {
 				[28] = "EDarklogic-Whisperwind",
 				[29] = "GMawdack-Quel'Thalas",
 				[30] = "BChaantha-GrizzlyHills",
-				["eN"] = "Argus the Unmaker",
-				["g"] = 28,
+				["c"] = "Amranar-Proudmoore",
+				["d"] = 14,
 				["eI"] = 2092,
 				["t"] = 1518930561,
-				["d"] = 14,
-				["c"] = "Amranar-Proudmoore",
+				["g"] = 28,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1310]
 			{
 				"BKalithumos", -- [1]
@@ -46338,11 +46430,11 @@ VExRT = {
 				"DCaillis", -- [19]
 				"FZaelsynth", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1519010243,
-				["eN"] = "Kin'garoth",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1519010243,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1311]
 			{
 				"BKalithumos", -- [1]
@@ -46366,11 +46458,11 @@ VExRT = {
 				"DCaillis", -- [19]
 				"FZaelsynth", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1519010653,
-				["eN"] = "Kin'garoth",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1519010653,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1312]
 			{
 				"BKalithumos", -- [1]
@@ -46394,11 +46486,11 @@ VExRT = {
 				"DCaillis", -- [19]
 				"FZaelsynth", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1519011199,
-				["eN"] = "Kin'garoth",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1519011199,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1313]
 			{
 				"BKalithumos", -- [1]
@@ -46422,11 +46514,11 @@ VExRT = {
 				"DCaillis", -- [19]
 				"FZaelsynth", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1519011719,
-				["eN"] = "Kin'garoth",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1519011719,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1314]
 			{
 				"BKalithumos", -- [1]
@@ -46450,11 +46542,11 @@ VExRT = {
 				"DCaillis", -- [19]
 				"FZaelsynth", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1519012157,
-				["eN"] = "Kin'garoth",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1519012157,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1315]
 			{
 				"BKalithumos", -- [1]
@@ -46478,11 +46570,11 @@ VExRT = {
 				"DCaillis", -- [19]
 				"FZaelsynth", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1519012576,
-				["eN"] = "Kin'garoth",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1519012576,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1316]
 			{
 				"LWedemon-Muradin", -- [1]
@@ -46500,11 +46592,11 @@ VExRT = {
 				"IRäf-Stormrage", -- [13]
 				"LKalthoris-MoonGuard", -- [14]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1519070508,
 				["eI"] = 2051,
-				["eN"] = "Kil'jaeden",
 				["d"] = 15,
 				["g"] = 14,
-				["t"] = 1519070508,
+				["eN"] = "Kil'jaeden",
 			}, -- [1317]
 			{
 				"LWedemon-Muradin", -- [1]
@@ -46522,11 +46614,11 @@ VExRT = {
 				"IRäf-Stormrage", -- [13]
 				"LKalthoris-MoonGuard", -- [14]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1519070778,
 				["eI"] = 2051,
-				["eN"] = "Kil'jaeden",
 				["d"] = 15,
 				["g"] = 14,
-				["t"] = 1519070778,
+				["eN"] = "Kil'jaeden",
 			}, -- [1318]
 			{
 				"LWedemon-Muradin", -- [1]
@@ -46544,11 +46636,11 @@ VExRT = {
 				"IRäf-Stormrage", -- [13]
 				"LKalthoris-MoonGuard", -- [14]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1519071566,
 				["eI"] = 2051,
-				["eN"] = "Kil'jaeden",
 				["d"] = 15,
 				["g"] = 14,
-				["t"] = 1519071566,
+				["eN"] = "Kil'jaeden",
 			}, -- [1319]
 			{
 				"LWedemon-Muradin", -- [1]
@@ -46566,11 +46658,11 @@ VExRT = {
 				"IRäf-Stormrage", -- [13]
 				"LKalthoris-MoonGuard", -- [14]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1519072358,
 				["eI"] = 2051,
-				["eN"] = "Kil'jaeden",
 				["d"] = 15,
 				["g"] = 14,
-				["t"] = 1519072358,
+				["eN"] = "Kil'jaeden",
 			}, -- [1320]
 			{
 				"LWedemon-Muradin", -- [1]
@@ -46588,11 +46680,11 @@ VExRT = {
 				"IRäf-Stormrage", -- [13]
 				"LKalthoris-MoonGuard", -- [14]
 				["c"] = "Farahn-Proudmoore",
+				["t"] = 1519072761,
 				["eI"] = 2051,
-				["eN"] = "Kil'jaeden",
 				["d"] = 15,
 				["g"] = 14,
-				["t"] = 1519072761,
+				["eN"] = "Kil'jaeden",
 			}, -- [1321]
 			{
 				"BKalithumos", -- [1]
@@ -46616,11 +46708,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519101711,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1322]
 			{
 				"BKalithumos", -- [1]
@@ -46644,11 +46736,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519101718,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1323]
 			{
 				"BKalithumos", -- [1]
@@ -46672,11 +46764,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519101901,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1324]
 			{
 				"BKalithumos", -- [1]
@@ -46700,11 +46792,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519102306,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1325]
 			{
 				"BKalithumos", -- [1]
@@ -46728,11 +46820,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519102595,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1326]
 			{
 				"BKalithumos", -- [1]
@@ -46756,11 +46848,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519102902,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1327]
 			{
 				"BKalithumos", -- [1]
@@ -46784,11 +46876,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519102908,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1328]
 			{
 				"BKalithumos", -- [1]
@@ -46812,11 +46904,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519103027,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1329]
 			{
 				"BKalithumos", -- [1]
@@ -46840,11 +46932,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519103196,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1330]
 			{
 				"BKalithumos", -- [1]
@@ -46868,11 +46960,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519103200,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1331]
 			{
 				"BKalithumos", -- [1]
@@ -46896,11 +46988,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519103252,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1332]
 			{
 				"BKalithumos", -- [1]
@@ -46924,11 +47016,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519103543,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1333]
 			{
 				"BKalithumos", -- [1]
@@ -46952,11 +47044,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519103702,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1334]
 			{
 				"BKalithumos", -- [1]
@@ -46980,11 +47072,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519104027,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1335]
 			{
 				"BKalithumos", -- [1]
@@ -47008,11 +47100,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519104032,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1336]
 			{
 				"BKalithumos", -- [1]
@@ -47036,11 +47128,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519104102,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1337]
 			{
 				"BKalithumos", -- [1]
@@ -47064,11 +47156,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519104751,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1338]
 			{
 				"BKalithumos", -- [1]
@@ -47092,11 +47184,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519104756,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1339]
 			{
 				"BKalithumos", -- [1]
@@ -47120,11 +47212,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519104811,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1340]
 			{
 				"BKalithumos", -- [1]
@@ -47148,11 +47240,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519104945,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1341]
 			{
 				"BKalithumos", -- [1]
@@ -47176,11 +47268,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519105006,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1342]
 			{
 				"BKalithumos", -- [1]
@@ -47204,11 +47296,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519105161,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1343]
 			{
 				"BKalithumos", -- [1]
@@ -47232,11 +47324,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519105167,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1344]
 			{
 				"BKalithumos", -- [1]
@@ -47260,11 +47352,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519105218,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1345]
 			{
 				"BKalithumos", -- [1]
@@ -47288,11 +47380,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519105837,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1346]
 			{
 				"BKalithumos", -- [1]
@@ -47316,11 +47408,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519106040,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1347]
 			{
 				"BKalithumos", -- [1]
@@ -47344,11 +47436,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519106099,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1348]
 			{
 				"BKalithumos", -- [1]
@@ -47372,11 +47464,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519106107,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1349]
 			{
 				"BKalithumos", -- [1]
@@ -47400,11 +47492,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519106170,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1350]
 			{
 				"BKalithumos", -- [1]
@@ -47428,11 +47520,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519106466,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1351]
 			{
 				"BKalithumos", -- [1]
@@ -47456,11 +47548,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519106491,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1352]
 			{
 				"BKalithumos", -- [1]
@@ -47484,11 +47576,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519106495,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1353]
 			{
 				"BKalithumos", -- [1]
@@ -47512,11 +47604,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519106551,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1354]
 			{
 				"KAmranar", -- [1]
@@ -47534,11 +47626,11 @@ VExRT = {
 				"JBáthøry-Ragnaros", -- [13]
 				"IKourtinsouls-Ravencrest", -- [14]
 				["c"] = "Amranar-Proudmoore",
-				["t"] = 1519182813,
-				["eI"] = 1853,
-				["d"] = 15,
-				["g"] = 14,
 				["eN"] = "Nythendra",
+				["eI"] = 1853,
+				["t"] = 1519182813,
+				["g"] = 14,
+				["d"] = 15,
 			}, -- [1355]
 			{
 				"KAmranar", -- [1]
@@ -47556,11 +47648,11 @@ VExRT = {
 				"JBáthøry-Ragnaros", -- [13]
 				"IKourtinsouls-Ravencrest", -- [14]
 				["c"] = "Amranar-Proudmoore",
-				["t"] = 1519183230,
-				["eI"] = 1841,
-				["d"] = 15,
-				["g"] = 14,
 				["eN"] = "Ursoc",
+				["eI"] = 1841,
+				["t"] = 1519183230,
+				["g"] = 14,
+				["d"] = 15,
 			}, -- [1356]
 			{
 				"KAmranar", -- [1]
@@ -47578,11 +47670,11 @@ VExRT = {
 				"JBáthøry-Ragnaros", -- [13]
 				"IKourtinsouls-Ravencrest", -- [14]
 				["c"] = "Amranar-Proudmoore",
-				["t"] = 1519183445,
-				["eI"] = 1854,
-				["d"] = 15,
-				["g"] = 14,
 				["eN"] = "Dragons of Nightmare",
+				["eI"] = 1854,
+				["t"] = 1519183445,
+				["g"] = 14,
+				["d"] = 15,
 			}, -- [1357]
 			{
 				"KAmranar", -- [1]
@@ -47600,11 +47692,11 @@ VExRT = {
 				"JBáthøry-Ragnaros", -- [13]
 				"IKourtinsouls-Ravencrest", -- [14]
 				["c"] = "Amranar-Proudmoore",
-				["t"] = 1519183625,
-				["eI"] = 1876,
-				["d"] = 15,
-				["g"] = 14,
 				["eN"] = "Elerethe Renferal",
+				["eI"] = 1876,
+				["t"] = 1519183625,
+				["g"] = 14,
+				["d"] = 15,
 			}, -- [1358]
 			{
 				"KAmranar", -- [1]
@@ -47622,11 +47714,11 @@ VExRT = {
 				"JBáthøry-Ragnaros", -- [13]
 				"IKourtinsouls-Ravencrest", -- [14]
 				["c"] = "Amranar-Proudmoore",
-				["t"] = 1519183856,
-				["eI"] = 1873,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Il'gynoth, The Heart of Corruption",
+				["eI"] = 1873,
+				["t"] = 1519183856,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [1359]
 			{
 				"KAmranar", -- [1]
@@ -47644,11 +47736,11 @@ VExRT = {
 				"JBáthøry-Ragnaros", -- [13]
 				"IKourtinsouls-Ravencrest", -- [14]
 				["c"] = "Amranar-Proudmoore",
-				["t"] = 1519184139,
-				["eI"] = 1877,
-				["d"] = 15,
-				["g"] = 11,
 				["eN"] = "Cenarius",
+				["eI"] = 1877,
+				["t"] = 1519184139,
+				["g"] = 11,
+				["d"] = 15,
 			}, -- [1360]
 			{
 				"KAmranar", -- [1]
@@ -47666,11 +47758,11 @@ VExRT = {
 				"JBáthøry-Ragnaros", -- [13]
 				"IKourtinsouls-Ravencrest", -- [14]
 				["c"] = "Amranar-Proudmoore",
-				["t"] = 1519184394,
-				["eI"] = 1864,
-				["d"] = 15,
-				["g"] = 12,
 				["eN"] = "Xavius",
+				["eI"] = 1864,
+				["t"] = 1519184394,
+				["g"] = 12,
+				["d"] = 15,
 			}, -- [1361]
 			{
 				"FGreybone", -- [1]
@@ -47689,11 +47781,11 @@ VExRT = {
 				"HXplotlavous-Winterhoof", -- [14]
 				"LDirhaell-Nemesis", -- [15]
 				["c"] = "Greybone-Proudmoore",
-				["d"] = 15,
-				["eN"] = "Nythendra",
-				["t"] = 1519276351,
-				["g"] = 14,
 				["eI"] = 1853,
+				["eN"] = "Nythendra",
+				["d"] = 15,
+				["g"] = 14,
+				["t"] = 1519276351,
 			}, -- [1362]
 			{
 				"FGreybone", -- [1]
@@ -47712,11 +47804,11 @@ VExRT = {
 				"HXplotlavous-Winterhoof", -- [14]
 				"LDirhaell-Nemesis", -- [15]
 				["c"] = "Greybone-Proudmoore",
-				["d"] = 15,
-				["eN"] = "Ursoc",
-				["t"] = 1519276815,
-				["g"] = 15,
 				["eI"] = 1841,
+				["eN"] = "Ursoc",
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1519276815,
 			}, -- [1363]
 			{
 				"FGreybone", -- [1]
@@ -47735,11 +47827,11 @@ VExRT = {
 				"HXplotlavous-Winterhoof", -- [14]
 				"LDirhaell-Nemesis", -- [15]
 				["c"] = "Greybone-Proudmoore",
-				["d"] = 15,
-				["eN"] = "Dragons of Nightmare",
-				["t"] = 1519277042,
-				["g"] = 15,
 				["eI"] = 1854,
+				["eN"] = "Dragons of Nightmare",
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1519277042,
 			}, -- [1364]
 			{
 				"FGreybone", -- [1]
@@ -47758,11 +47850,11 @@ VExRT = {
 				"HXplotlavous-Winterhoof", -- [14]
 				"LDirhaell-Nemesis", -- [15]
 				["c"] = "Greybone-Proudmoore",
-				["d"] = 15,
-				["eN"] = "Elerethe Renferal",
-				["t"] = 1519277233,
-				["g"] = 15,
 				["eI"] = 1876,
+				["eN"] = "Elerethe Renferal",
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1519277233,
 			}, -- [1365]
 			{
 				"FGreybone", -- [1]
@@ -47779,11 +47871,11 @@ VExRT = {
 				"KPorcupinez-Zul'jin", -- [12]
 				"HXplotlavous-Winterhoof", -- [13]
 				["c"] = "Greybone-Proudmoore",
-				["d"] = 15,
-				["eN"] = "Il'gynoth, The Heart of Corruption",
-				["t"] = 1519277438,
-				["g"] = 12,
 				["eI"] = 1873,
+				["eN"] = "Il'gynoth, The Heart of Corruption",
+				["d"] = 15,
+				["g"] = 12,
+				["t"] = 1519277438,
 			}, -- [1366]
 			{
 				"FGreybone", -- [1]
@@ -47800,11 +47892,11 @@ VExRT = {
 				"KPorcupinez-Zul'jin", -- [12]
 				"HXplotlavous-Winterhoof", -- [13]
 				["c"] = "Greybone-Proudmoore",
-				["d"] = 15,
-				["eN"] = "Cenarius",
-				["t"] = 1519277780,
-				["g"] = 12,
 				["eI"] = 1877,
+				["eN"] = "Cenarius",
+				["d"] = 15,
+				["g"] = 12,
+				["t"] = 1519277780,
 			}, -- [1367]
 			{
 				"FGreybone", -- [1]
@@ -47821,11 +47913,11 @@ VExRT = {
 				"KPorcupinez-Zul'jin", -- [12]
 				"HXplotlavous-Winterhoof", -- [13]
 				["c"] = "Greybone-Proudmoore",
-				["d"] = 15,
-				["eN"] = "Xavius",
-				["t"] = 1519278167,
-				["g"] = 11,
 				["eI"] = 1864,
+				["eN"] = "Xavius",
+				["d"] = 15,
+				["g"] = 11,
+				["t"] = 1519278167,
 			}, -- [1368]
 			{
 				"KEllestria", -- [1]
@@ -47849,11 +47941,11 @@ VExRT = {
 				"FBigsister", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["t"] = 1519361481,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [1369]
 			{
 				"KEllestria", -- [1]
@@ -47877,11 +47969,11 @@ VExRT = {
 				"FBigsister", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["t"] = 1519361875,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [1370]
 			{
 				"KEllestria", -- [1]
@@ -47905,11 +47997,11 @@ VExRT = {
 				"FBigsister", -- [19]
 				"HMediocreman", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["t"] = 1519362037,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [1371]
 			{
 				"KEllestria", -- [1]
@@ -47934,11 +48026,11 @@ VExRT = {
 				"HMediocreman", -- [20]
 				"HKalethia", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1519362847,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Kin'garoth",
 			}, -- [1372]
 			{
 				"LTetsuen", -- [1]
@@ -47962,11 +48054,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1519363141,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Kin'garoth",
 			}, -- [1373]
 			{
 				"LTetsuen", -- [1]
@@ -47990,11 +48082,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1519363623,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Kin'garoth",
 			}, -- [1374]
 			{
 				"LTetsuen", -- [1]
@@ -48018,11 +48110,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1519364066,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Kin'garoth",
 			}, -- [1375]
 			{
 				"LTetsuen", -- [1]
@@ -48046,11 +48138,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1519364617,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Kin'garoth",
 			}, -- [1376]
 			{
 				"LTetsuen", -- [1]
@@ -48074,11 +48166,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1519364922,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Kin'garoth",
 			}, -- [1377]
 			{
 				"LTetsuen", -- [1]
@@ -48102,11 +48194,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1519365249,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Kin'garoth",
 			}, -- [1378]
 			{
 				"LTetsuen", -- [1]
@@ -48130,11 +48222,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"IReportmepls", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2088,
-				["eN"] = "Kin'garoth",
 				["t"] = 1519365477,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Kin'garoth",
 			}, -- [1379]
 			{
 				"BKalithumos", -- [1]
@@ -48158,11 +48250,11 @@ VExRT = {
 				"ADieidont", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1519614389,
-				["eN"] = "Kin'garoth",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1519614389,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1380]
 			{
 				"BKalithumos", -- [1]
@@ -48186,11 +48278,11 @@ VExRT = {
 				"ADieidont", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1519614624,
-				["eN"] = "Kin'garoth",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2088,
+				["eN"] = "Kin'garoth",
+				["t"] = 1519614624,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1381]
 			{
 				"BKalithumos", -- [1]
@@ -48214,11 +48306,11 @@ VExRT = {
 				"ADieidont", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1519615425,
 				["eN"] = "Kin'garoth",
-				["eI"] = 2088,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1519615425,
+				["eI"] = 2088,
 			}, -- [1382]
 			{
 				"BKalithumos", -- [1]
@@ -48242,11 +48334,11 @@ VExRT = {
 				"ADieidont", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1519615619,
 				["eN"] = "Kin'garoth",
-				["eI"] = 2088,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1519615619,
+				["eI"] = 2088,
 			}, -- [1383]
 			{
 				"BKalithumos", -- [1]
@@ -48270,11 +48362,11 @@ VExRT = {
 				"ADieidont", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1519615890,
 				["eN"] = "Kin'garoth",
-				["eI"] = 2088,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1519615890,
+				["eI"] = 2088,
 			}, -- [1384]
 			{
 				"BKalithumos", -- [1]
@@ -48298,11 +48390,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519621332,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1385]
 			{
 				"BKalithumos", -- [1]
@@ -48326,11 +48418,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519621336,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1386]
 			{
 				"BKalithumos", -- [1]
@@ -48354,11 +48446,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"FCrusnic", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519621455,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1387]
 			{
 				"BKalithumos", -- [1]
@@ -48382,11 +48474,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519621871,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1388]
 			{
 				"BKalithumos", -- [1]
@@ -48410,11 +48502,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519622239,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1389]
 			{
 				"BKalithumos", -- [1]
@@ -48438,11 +48530,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519622243,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1390]
 			{
 				"BKalithumos", -- [1]
@@ -48466,11 +48558,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519622336,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1391]
 			{
 				"BKalithumos", -- [1]
@@ -48494,11 +48586,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519622790,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1392]
 			{
 				"BKalithumos", -- [1]
@@ -48522,11 +48614,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519623009,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1393]
 			{
 				"BKalithumos", -- [1]
@@ -48550,11 +48642,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519623126,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1394]
 			{
 				"BKalithumos", -- [1]
@@ -48578,11 +48670,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519623817,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1395]
 			{
 				"BKalithumos", -- [1]
@@ -48606,11 +48698,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519623947,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1396]
 			{
 				"BKalithumos", -- [1]
@@ -48634,11 +48726,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519623970,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1397]
 			{
 				"BKalithumos", -- [1]
@@ -48662,11 +48754,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519623975,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1398]
 			{
 				"BKalithumos", -- [1]
@@ -48690,11 +48782,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519624047,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1399]
 			{
 				"BKalithumos", -- [1]
@@ -48718,11 +48810,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519624342,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1400]
 			{
 				"BKalithumos", -- [1]
@@ -48746,11 +48838,11 @@ VExRT = {
 				"IDotido", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1519624761,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1401]
 			{
 				"KSassbogs", -- [1]
@@ -48775,11 +48867,11 @@ VExRT = {
 				"LTetsuen", -- [20]
 				"KSelendis", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519700608,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1402]
 			{
 				"KSassbogs", -- [1]
@@ -48804,11 +48896,11 @@ VExRT = {
 				"LTetsuen", -- [20]
 				"KSelendis", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519700613,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1403]
 			{
 				"KSassbogs", -- [1]
@@ -48833,11 +48925,11 @@ VExRT = {
 				"LTetsuen", -- [20]
 				"KSelendis", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519700675,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1404]
 			{
 				"KSassbogs", -- [1]
@@ -48862,11 +48954,11 @@ VExRT = {
 				"LTetsuen", -- [20]
 				"KSelendis", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519700680,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1405]
 			{
 				"KSassbogs", -- [1]
@@ -48890,11 +48982,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519700966,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1406]
 			{
 				"KSassbogs", -- [1]
@@ -48918,11 +49010,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519701486,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1407]
 			{
 				"KSassbogs", -- [1]
@@ -48946,11 +49038,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519701623,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1408]
 			{
 				"KSassbogs", -- [1]
@@ -48974,11 +49066,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519701699,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1409]
 			{
 				"KSassbogs", -- [1]
@@ -49002,11 +49094,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519701909,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1410]
 			{
 				"KSassbogs", -- [1]
@@ -49030,11 +49122,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702228,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1411]
 			{
 				"KSassbogs", -- [1]
@@ -49058,11 +49150,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702233,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1412]
 			{
 				"KSassbogs", -- [1]
@@ -49086,11 +49178,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702297,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1413]
 			{
 				"KSassbogs", -- [1]
@@ -49114,11 +49206,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702540,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1414]
 			{
 				"KSassbogs", -- [1]
@@ -49142,11 +49234,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702545,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1415]
 			{
 				"KSassbogs", -- [1]
@@ -49170,11 +49262,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702572,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1416]
 			{
 				"KSassbogs", -- [1]
@@ -49198,11 +49290,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702576,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1417]
 			{
 				"KSassbogs", -- [1]
@@ -49226,11 +49318,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702601,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1418]
 			{
 				"KSassbogs", -- [1]
@@ -49254,11 +49346,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702607,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1419]
 			{
 				"KSassbogs", -- [1]
@@ -49282,11 +49374,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519702665,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1420]
 			{
 				"KSassbogs", -- [1]
@@ -49310,11 +49402,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519703284,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1421]
 			{
 				"KSassbogs", -- [1]
@@ -49338,11 +49430,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519703709,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1422]
 			{
 				"KSassbogs", -- [1]
@@ -49366,11 +49458,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519703714,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1423]
 			{
 				"KSassbogs", -- [1]
@@ -49394,11 +49486,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519703788,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1424]
 			{
 				"KSassbogs", -- [1]
@@ -49422,11 +49514,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519704444,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1425]
 			{
 				"KSassbogs", -- [1]
@@ -49450,11 +49542,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519704600,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1426]
 			{
 				"KSassbogs", -- [1]
@@ -49478,11 +49570,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519704776,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1427]
 			{
 				"KSassbogs", -- [1]
@@ -49506,11 +49598,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519704781,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1428]
 			{
 				"KSassbogs", -- [1]
@@ -49534,11 +49626,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519704807,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1429]
 			{
 				"KSassbogs", -- [1]
@@ -49562,11 +49654,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519704813,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1430]
 			{
 				"KSassbogs", -- [1]
@@ -49590,11 +49682,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519704897,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1431]
 			{
 				"KSassbogs", -- [1]
@@ -49618,11 +49710,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519705178,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1432]
 			{
 				"KSassbogs", -- [1]
@@ -49646,11 +49738,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519705550,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1433]
 			{
 				"KSassbogs", -- [1]
@@ -49674,11 +49766,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519705723,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1434]
 			{
 				"KSassbogs", -- [1]
@@ -49702,11 +49794,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519705730,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1435]
 			{
 				"KSassbogs", -- [1]
@@ -49730,11 +49822,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519705800,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1436]
 			{
 				"KSassbogs", -- [1]
@@ -49758,11 +49850,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706084,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1437]
 			{
 				"KSassbogs", -- [1]
@@ -49786,11 +49878,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706089,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1438]
 			{
 				"KSassbogs", -- [1]
@@ -49814,11 +49906,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706115,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1439]
 			{
 				"KSassbogs", -- [1]
@@ -49842,11 +49934,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706124,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1440]
 			{
 				"KSassbogs", -- [1]
@@ -49870,11 +49962,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706371,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1441]
 			{
 				"KSassbogs", -- [1]
@@ -49898,11 +49990,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706531,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1442]
 			{
 				"KSassbogs", -- [1]
@@ -49926,11 +50018,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706589,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1443]
 			{
 				"KSassbogs", -- [1]
@@ -49954,11 +50046,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706831,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1444]
 			{
 				"KSassbogs", -- [1]
@@ -49982,11 +50074,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706835,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1445]
 			{
 				"KSassbogs", -- [1]
@@ -50010,11 +50102,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519706900,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1446]
 			{
 				"KSassbogs", -- [1]
@@ -50038,11 +50130,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707179,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1447]
 			{
 				"KSassbogs", -- [1]
@@ -50066,11 +50158,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707185,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1448]
 			{
 				"KSassbogs", -- [1]
@@ -50094,11 +50186,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707280,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1449]
 			{
 				"KSassbogs", -- [1]
@@ -50122,11 +50214,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707284,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1450]
 			{
 				"KSassbogs", -- [1]
@@ -50150,11 +50242,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707296,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1451]
 			{
 				"KSassbogs", -- [1]
@@ -50178,11 +50270,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707331,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1452]
 			{
 				"KSassbogs", -- [1]
@@ -50206,11 +50298,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707473,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1453]
 			{
 				"KSassbogs", -- [1]
@@ -50234,11 +50326,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707566,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1454]
 			{
 				"KSassbogs", -- [1]
@@ -50262,11 +50354,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707828,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1455]
 			{
 				"KSassbogs", -- [1]
@@ -50290,11 +50382,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707832,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1456]
 			{
 				"KSassbogs", -- [1]
@@ -50318,11 +50410,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"LTetsuen", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519707898,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1457]
 			{
 				"KSassbogs", -- [1]
@@ -50346,11 +50438,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519708548,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1458]
 			{
 				"KSassbogs", -- [1]
@@ -50374,11 +50466,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519708938,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1459]
 			{
 				"KSassbogs", -- [1]
@@ -50402,11 +50494,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519709133,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1460]
 			{
 				"KSassbogs", -- [1]
@@ -50430,11 +50522,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519709408,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1461]
 			{
 				"KSassbogs", -- [1]
@@ -50458,11 +50550,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519709813,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1462]
 			{
 				"KSassbogs", -- [1]
@@ -50486,11 +50578,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710040,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1463]
 			{
 				"KSassbogs", -- [1]
@@ -50514,11 +50606,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710044,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1464]
 			{
 				"KSassbogs", -- [1]
@@ -50542,11 +50634,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710096,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1465]
 			{
 				"KSassbogs", -- [1]
@@ -50570,11 +50662,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710393,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1466]
 			{
 				"KSassbogs", -- [1]
@@ -50598,11 +50690,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710585,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1467]
 			{
 				"KSassbogs", -- [1]
@@ -50626,11 +50718,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710654,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1468]
 			{
 				"KSassbogs", -- [1]
@@ -50654,11 +50746,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710855,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1469]
 			{
 				"KSassbogs", -- [1]
@@ -50682,11 +50774,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710862,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1470]
 			{
 				"KSassbogs", -- [1]
@@ -50710,11 +50802,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519710894,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1471]
 			{
 				"KSassbogs", -- [1]
@@ -50738,11 +50830,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519711099,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1472]
 			{
 				"KSassbogs", -- [1]
@@ -50766,11 +50858,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519711103,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1473]
 			{
 				"KSassbogs", -- [1]
@@ -50794,11 +50886,11 @@ VExRT = {
 				"JJoustness", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1519711139,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2073,
 			}, -- [1474]
 			{
 				"IReportmepls", -- [1]
@@ -50815,14 +50907,14 @@ VExRT = {
 				"FBigsister", -- [12]
 				"JSsmm", -- [13]
 				"KSelendis", -- [14]
-				["t"] = 1520306245,
+				["eN"] = "Varimathras",
 				[17] = "FAleynthe",
 				["c"] = "Mallusof-Tichondrius",
-				["g"] = 20,
-				["eI"] = 2069,
-				["d"] = 16,
 				[16] = "ADieidont",
-				["eN"] = "Varimathras",
+				["eI"] = 2069,
+				["t"] = 1520306245,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1475]
 			{
 				"ACropp-EmeraldDream", -- [1]
@@ -50856,11 +50948,11 @@ VExRT = {
 				"EMallusof", -- [29]
 				"GNococo-Sargeras", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2063,
-				["t"] = 1520485891,
-				["g"] = 30,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1520485891,
 			}, -- [1476]
 			{
 				"ACropp-EmeraldDream", -- [1]
@@ -50894,11 +50986,11 @@ VExRT = {
 				"EMallusof", -- [29]
 				"IFuzzý-Lightbringer", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2092,
-				["t"] = 1520486768,
-				["g"] = 30,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1520486768,
 			}, -- [1477]
 			{
 				"BBlakeyboy", -- [1]
@@ -50922,11 +51014,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EDeathbysexi", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521165368,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521165368,
+				["eN"] = "Aggramar",
 			}, -- [1478]
 			{
 				"BBlakeyboy", -- [1]
@@ -50950,11 +51042,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EDeathbysexi", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521165708,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521165708,
+				["eN"] = "Aggramar",
 			}, -- [1479]
 			{
 				"BBlakeyboy", -- [1]
@@ -50978,11 +51070,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EDeathbysexi", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521165833,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521165833,
+				["eI"] = 2063,
 			}, -- [1480]
 			{
 				"BBlakeyboy", -- [1]
@@ -51006,11 +51098,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EDeathbysexi", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521165901,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521165901,
+				["eN"] = "Aggramar",
 			}, -- [1481]
 			{
 				"BBlakeyboy", -- [1]
@@ -51034,11 +51126,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EDeathbysexi", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521166241,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521166241,
+				["eN"] = "Aggramar",
 			}, -- [1482]
 			{
 				"BBlakeyboy", -- [1]
@@ -51062,11 +51154,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EDeathbysexi", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521166407,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521166407,
+				["eN"] = "Aggramar",
 			}, -- [1483]
 			{
 				"BBlakeyboy", -- [1]
@@ -51090,11 +51182,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EDeathbysexi", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521166442,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521166442,
+				["eN"] = "Aggramar",
 			}, -- [1484]
 			{
 				"BBlakeyboy", -- [1]
@@ -51118,11 +51210,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"EDeathbysexi", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521166726,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521166726,
+				["eN"] = "Aggramar",
 			}, -- [1485]
 			{
 				"BBlakeyboy", -- [1]
@@ -51146,11 +51238,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521167095,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521167095,
+				["eN"] = "Aggramar",
 			}, -- [1486]
 			{
 				"BBlakeyboy", -- [1]
@@ -51174,11 +51266,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521167632,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521167632,
+				["eN"] = "Aggramar",
 			}, -- [1487]
 			{
 				"BBlakeyboy", -- [1]
@@ -51202,11 +51294,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521167875,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521167875,
+				["eN"] = "Aggramar",
 			}, -- [1488]
 			{
 				"BBlakeyboy", -- [1]
@@ -51230,11 +51322,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521168204,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521168204,
+				["eN"] = "Aggramar",
 			}, -- [1489]
 			{
 				"BBlakeyboy", -- [1]
@@ -51258,11 +51350,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521168352,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521168352,
+				["eN"] = "Aggramar",
 			}, -- [1490]
 			{
 				"BBlakeyboy", -- [1]
@@ -51286,11 +51378,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521168450,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521168450,
+				["eN"] = "Aggramar",
 			}, -- [1491]
 			{
 				"BBlakeyboy", -- [1]
@@ -51314,11 +51406,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521169736,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521169736,
+				["eN"] = "Aggramar",
 			}, -- [1492]
 			{
 				"BBlakeyboy", -- [1]
@@ -51342,11 +51434,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521170029,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521170029,
+				["eN"] = "Aggramar",
 			}, -- [1493]
 			{
 				"BBlakeyboy", -- [1]
@@ -51370,11 +51462,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521170257,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521170257,
+				["eN"] = "Aggramar",
 			}, -- [1494]
 			{
 				"BBlakeyboy", -- [1]
@@ -51398,11 +51490,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521170538,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521170538,
+				["eN"] = "Aggramar",
 			}, -- [1495]
 			{
 				"BBlakeyboy", -- [1]
@@ -51426,11 +51518,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521170804,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521170804,
+				["eN"] = "Aggramar",
 			}, -- [1496]
 			{
 				"BBlakeyboy", -- [1]
@@ -51454,11 +51546,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521171210,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521171210,
+				["eN"] = "Aggramar",
 			}, -- [1497]
 			{
 				"BBlakeyboy", -- [1]
@@ -51482,11 +51574,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521171630,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521171630,
+				["eN"] = "Aggramar",
 			}, -- [1498]
 			{
 				"BBlakeyboy", -- [1]
@@ -51510,11 +51602,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521171916,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521171916,
+				["eN"] = "Aggramar",
 			}, -- [1499]
 			{
 				"BBlakeyboy", -- [1]
@@ -51538,11 +51630,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"KDrexella", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1521172577,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1521172577,
+				["eN"] = "Aggramar",
 			}, -- [1500]
 			{
 				"BKalithumos", -- [1]
@@ -51566,11 +51658,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521423730,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521423730,
 			}, -- [1501]
 			{
 				"BKalithumos", -- [1]
@@ -51594,11 +51686,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521423932,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521423932,
 			}, -- [1502]
 			{
 				"BKalithumos", -- [1]
@@ -51622,11 +51714,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521424142,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521424142,
 			}, -- [1503]
 			{
 				"BKalithumos", -- [1]
@@ -51650,11 +51742,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521424278,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521424278,
 			}, -- [1504]
 			{
 				"BKalithumos", -- [1]
@@ -51678,11 +51770,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521424351,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521424351,
 			}, -- [1505]
 			{
 				"BKalithumos", -- [1]
@@ -51706,11 +51798,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521424493,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521424493,
 			}, -- [1506]
 			{
 				"BKalithumos", -- [1]
@@ -51734,11 +51826,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521424621,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521424621,
 			}, -- [1507]
 			{
 				"BKalithumos", -- [1]
@@ -51762,11 +51854,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521424821,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521424821,
 			}, -- [1508]
 			{
 				"BKalithumos", -- [1]
@@ -51790,11 +51882,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521425020,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521425020,
 			}, -- [1509]
 			{
 				"BKalithumos", -- [1]
@@ -51818,11 +51910,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521425660,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521425660,
 			}, -- [1510]
 			{
 				"BKalithumos", -- [1]
@@ -51846,11 +51938,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521425914,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521425914,
 			}, -- [1511]
 			{
 				"BKalithumos", -- [1]
@@ -51874,11 +51966,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521426238,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521426238,
 			}, -- [1512]
 			{
 				"BKalithumos", -- [1]
@@ -51902,11 +51994,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521426480,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521426480,
 			}, -- [1513]
 			{
 				"BKalithumos", -- [1]
@@ -51930,11 +52022,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521426605,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521426605,
 			}, -- [1514]
 			{
 				"BKalithumos", -- [1]
@@ -51958,11 +52050,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521426907,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521426907,
 			}, -- [1515]
 			{
 				"BKalithumos", -- [1]
@@ -51986,11 +52078,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521427500,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521427500,
 			}, -- [1516]
 			{
 				"BKalithumos", -- [1]
@@ -52014,11 +52106,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521427652,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521427652,
 			}, -- [1517]
 			{
 				"BKalithumos", -- [1]
@@ -52042,11 +52134,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521427763,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521427763,
 			}, -- [1518]
 			{
 				"BKalithumos", -- [1]
@@ -52070,11 +52162,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521428122,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521428122,
 			}, -- [1519]
 			{
 				"BKalithumos", -- [1]
@@ -52098,11 +52190,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521428420,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521428420,
 			}, -- [1520]
 			{
 				"BKalithumos", -- [1]
@@ -52126,11 +52218,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521428649,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521428649,
 			}, -- [1521]
 			{
 				"BKalithumos", -- [1]
@@ -52154,11 +52246,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521429176,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521429176,
 			}, -- [1522]
 			{
 				"BKalithumos", -- [1]
@@ -52182,11 +52274,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521429404,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521429404,
 			}, -- [1523]
 			{
 				"BKalithumos", -- [1]
@@ -52210,11 +52302,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521429613,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521429613,
 			}, -- [1524]
 			{
 				"BKalithumos", -- [1]
@@ -52238,11 +52330,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521430130,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521430130,
 			}, -- [1525]
 			{
 				"BKalithumos", -- [1]
@@ -52266,11 +52358,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521430469,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521430469,
 			}, -- [1526]
 			{
 				"BKalithumos", -- [1]
@@ -52294,11 +52386,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521430746,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521430746,
 			}, -- [1527]
 			{
 				"BKalithumos", -- [1]
@@ -52322,11 +52414,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521431001,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521431001,
 			}, -- [1528]
 			{
 				"BKalithumos", -- [1]
@@ -52350,11 +52442,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521431224,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521431224,
 			}, -- [1529]
 			{
 				"BKalithumos", -- [1]
@@ -52378,11 +52470,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521431510,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521431510,
 			}, -- [1530]
 			{
 				"BKalithumos", -- [1]
@@ -52406,11 +52498,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521431745,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521431745,
 			}, -- [1531]
 			{
 				"BKalithumos", -- [1]
@@ -52434,11 +52526,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CLikez", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2063,
-				["t"] = 1521432096,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1521432096,
 			}, -- [1532]
 			{
 				"BKalithumos", -- [1]
@@ -52459,11 +52551,11 @@ VExRT = {
 				"ECelaniia", -- [16]
 				"EMallusof", -- [17]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522028182,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522028182,
+				["eN"] = "Aggramar",
 			}, -- [1533]
 			{
 				"BKalithumos", -- [1]
@@ -52484,11 +52576,11 @@ VExRT = {
 				"ECelaniia", -- [16]
 				"EMallusof", -- [17]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522028217,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522028217,
+				["eN"] = "Aggramar",
 			}, -- [1534]
 			{
 				"BKalithumos", -- [1]
@@ -52510,11 +52602,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"KDrexella", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522028277,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522028277,
+				["eN"] = "Aggramar",
 			}, -- [1535]
 			{
 				"BKalithumos", -- [1]
@@ -52536,11 +52628,11 @@ VExRT = {
 				"EMallusof", -- [17]
 				"KDrexella", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522028313,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522028313,
+				["eN"] = "Aggramar",
 			}, -- [1536]
 			{
 				"BKalithumos", -- [1]
@@ -52565,11 +52657,11 @@ VExRT = {
 				"JTawrk", -- [20]
 				"HKahoots", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522028407,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522028407,
+				["eI"] = 2063,
 			}, -- [1537]
 			{
 				"BKalithumos", -- [1]
@@ -52593,11 +52685,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522029334,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522029334,
+				["eI"] = 2063,
 			}, -- [1538]
 			{
 				"BKalithumos", -- [1]
@@ -52621,11 +52713,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522029522,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522029522,
+				["eI"] = 2063,
 			}, -- [1539]
 			{
 				"BKalithumos", -- [1]
@@ -52649,11 +52741,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522029810,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522029810,
+				["eI"] = 2063,
 			}, -- [1540]
 			{
 				"BKalithumos", -- [1]
@@ -52677,11 +52769,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522030007,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522030007,
+				["eI"] = 2063,
 			}, -- [1541]
 			{
 				"BKalithumos", -- [1]
@@ -52705,11 +52797,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522030292,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522030292,
+				["eI"] = 2063,
 			}, -- [1542]
 			{
 				"BKalithumos", -- [1]
@@ -52733,11 +52825,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522030514,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522030514,
+				["eI"] = 2063,
 			}, -- [1543]
 			{
 				"BKalithumos", -- [1]
@@ -52761,11 +52853,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522030790,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522030790,
+				["eI"] = 2063,
 			}, -- [1544]
 			{
 				"BKalithumos", -- [1]
@@ -52789,11 +52881,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522031074,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522031074,
+				["eI"] = 2063,
 			}, -- [1545]
 			{
 				"BKalithumos", -- [1]
@@ -52817,11 +52909,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522031331,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522031331,
+				["eI"] = 2063,
 			}, -- [1546]
 			{
 				"BKalithumos", -- [1]
@@ -52845,11 +52937,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522031867,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522031867,
+				["eI"] = 2063,
 			}, -- [1547]
 			{
 				"BKalithumos", -- [1]
@@ -52873,11 +52965,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522032180,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522032180,
+				["eI"] = 2063,
 			}, -- [1548]
 			{
 				"BKalithumos", -- [1]
@@ -52901,11 +52993,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522032471,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522032471,
+				["eI"] = 2063,
 			}, -- [1549]
 			{
 				"BKalithumos", -- [1]
@@ -52929,11 +53021,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522032753,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522032753,
+				["eI"] = 2063,
 			}, -- [1550]
 			{
 				"BKalithumos", -- [1]
@@ -52957,11 +53049,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522033047,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522033047,
+				["eI"] = 2063,
 			}, -- [1551]
 			{
 				"BKalithumos", -- [1]
@@ -52985,11 +53077,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522033182,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522033182,
+				["eI"] = 2063,
 			}, -- [1552]
 			{
 				"BKalithumos", -- [1]
@@ -53013,11 +53105,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522033444,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522033444,
+				["eI"] = 2063,
 			}, -- [1553]
 			{
 				"BKalithumos", -- [1]
@@ -53041,11 +53133,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522034155,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522034155,
+				["eI"] = 2063,
 			}, -- [1554]
 			{
 				"BKalithumos", -- [1]
@@ -53069,11 +53161,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522034440,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522034440,
+				["eI"] = 2063,
 			}, -- [1555]
 			{
 				"BKalithumos", -- [1]
@@ -53097,11 +53189,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522034626,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522034626,
+				["eI"] = 2063,
 			}, -- [1556]
 			{
 				"BKalithumos", -- [1]
@@ -53125,11 +53217,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522035208,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522035208,
+				["eI"] = 2063,
 			}, -- [1557]
 			{
 				"BKalithumos", -- [1]
@@ -53153,11 +53245,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522035603,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522035603,
+				["eI"] = 2063,
 			}, -- [1558]
 			{
 				"BKalithumos", -- [1]
@@ -53181,11 +53273,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522035794,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522035794,
+				["eI"] = 2063,
 			}, -- [1559]
 			{
 				"BKalithumos", -- [1]
@@ -53209,11 +53301,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522036027,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522036027,
+				["eI"] = 2063,
 			}, -- [1560]
 			{
 				"BKalithumos", -- [1]
@@ -53237,11 +53329,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522036259,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522036259,
+				["eI"] = 2063,
 			}, -- [1561]
 			{
 				"BKalithumos", -- [1]
@@ -53265,11 +53357,11 @@ VExRT = {
 				"KDrexella", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522036732,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1522036732,
+				["eI"] = 2063,
 			}, -- [1562]
 			{
 				"BKalithumos", -- [1]
@@ -53293,11 +53385,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522114323,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1563]
 			{
 				"BKalithumos", -- [1]
@@ -53321,11 +53413,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522115175,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1564]
 			{
 				"BKalithumos", -- [1]
@@ -53349,11 +53441,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522115368,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1565]
 			{
 				"BKalithumos", -- [1]
@@ -53377,11 +53469,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522115647,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1566]
 			{
 				"BKalithumos", -- [1]
@@ -53405,11 +53497,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522116067,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1567]
 			{
 				"BKalithumos", -- [1]
@@ -53433,11 +53525,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522116274,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1568]
 			{
 				"BKalithumos", -- [1]
@@ -53461,11 +53553,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522116666,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1569]
 			{
 				"BKalithumos", -- [1]
@@ -53489,11 +53581,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522117050,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1570]
 			{
 				"BKalithumos", -- [1]
@@ -53517,11 +53609,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522117250,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1571]
 			{
 				"BKalithumos", -- [1]
@@ -53545,11 +53637,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522117698,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1572]
 			{
 				"BKalithumos", -- [1]
@@ -53573,11 +53665,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522117960,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1573]
 			{
 				"BKalithumos", -- [1]
@@ -53601,11 +53693,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522118096,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1574]
 			{
 				"BKalithumos", -- [1]
@@ -53629,11 +53721,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522118369,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1575]
 			{
 				"BKalithumos", -- [1]
@@ -53657,11 +53749,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522118614,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1576]
 			{
 				"BKalithumos", -- [1]
@@ -53685,11 +53777,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522118793,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1577]
 			{
 				"BKalithumos", -- [1]
@@ -53713,11 +53805,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522119024,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1578]
 			{
 				"BKalithumos", -- [1]
@@ -53741,11 +53833,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522119451,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1579]
 			{
 				"BKalithumos", -- [1]
@@ -53769,11 +53861,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522120188,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1580]
 			{
 				"BKalithumos", -- [1]
@@ -53797,11 +53889,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522120475,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1581]
 			{
 				"BKalithumos", -- [1]
@@ -53825,11 +53917,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522120574,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1582]
 			{
 				"BKalithumos", -- [1]
@@ -53853,11 +53945,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522120798,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1583]
 			{
 				"BKalithumos", -- [1]
@@ -53881,11 +53973,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522121055,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1584]
 			{
 				"BKalithumos", -- [1]
@@ -53909,11 +54001,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522121272,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1585]
 			{
 				"BKalithumos", -- [1]
@@ -53937,11 +54029,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522121600,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1586]
 			{
 				"BKalithumos", -- [1]
@@ -53965,11 +54057,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522122082,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1587]
 			{
 				"BKalithumos", -- [1]
@@ -53993,11 +54085,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522122336,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1588]
 			{
 				"BKalithumos", -- [1]
@@ -54021,11 +54113,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522122499,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1589]
 			{
 				"BKalithumos", -- [1]
@@ -54049,11 +54141,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522122563,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1590]
 			{
 				"BKalithumos", -- [1]
@@ -54077,11 +54169,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1522123071,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1591]
 			{
 				"BFranzhupala-Dragonblight", -- [1]
@@ -54107,11 +54199,11 @@ VExRT = {
 				"DSkiddi-MoonGuard", -- [21]
 				"KPrantyle-Quel'Thalas", -- [22]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1522304995,
-				["eN"] = "Antoran High Command",
-				["d"] = 14,
-				["g"] = 22,
 				["eI"] = 2070,
+				["eN"] = "Antoran High Command",
+				["t"] = 1522304995,
+				["g"] = 22,
+				["d"] = 14,
 			}, -- [1592]
 			{
 				"BFranzhupala-Dragonblight", -- [1]
@@ -54133,14 +54225,14 @@ VExRT = {
 				"BSkykíng-Quel'Thalas", -- [17]
 				"HXeinall-Aegwynn", -- [18]
 				"GAele-Dalaran", -- [19]
-				["c"] = "Morifa-Proudmoore",
-				[22] = "KPrantyle-Quel'Thalas",
-				[21] = "DSkiddi-MoonGuard",
-				["d"] = 14,
-				["eN"] = "The Defense of Eonar",
-				["t"] = 1522305953,
-				["g"] = 21,
 				["eI"] = 2075,
+				["eN"] = "The Defense of Eonar",
+				["c"] = "Morifa-Proudmoore",
+				["t"] = 1522305953,
+				[22] = "KPrantyle-Quel'Thalas",
+				["d"] = 14,
+				["g"] = 21,
+				[21] = "DSkiddi-MoonGuard",
 			}, -- [1593]
 			{
 				"BFranzhupala-Dragonblight", -- [1]
@@ -54162,14 +54254,14 @@ VExRT = {
 				"BSkykíng-Quel'Thalas", -- [17]
 				"HXeinall-Aegwynn", -- [18]
 				"GAele-Dalaran", -- [19]
-				["c"] = "Morifa-Proudmoore",
-				[22] = "KPrantyle-Quel'Thalas",
-				[21] = "DSkiddi-MoonGuard",
-				["d"] = 14,
-				["eN"] = "Portal Keeper Hasabel",
-				["t"] = 1522306714,
-				["g"] = 21,
 				["eI"] = 2064,
+				["eN"] = "Portal Keeper Hasabel",
+				["c"] = "Morifa-Proudmoore",
+				["t"] = 1522306714,
+				[22] = "KPrantyle-Quel'Thalas",
+				["d"] = 14,
+				["g"] = 21,
+				[21] = "DSkiddi-MoonGuard",
 			}, -- [1594]
 			{
 				"BFranzhupala-Dragonblight", -- [1]
@@ -54195,8 +54287,8 @@ VExRT = {
 				[18] = "HXeinall-Aegwynn",
 				[19] = "GAele-Dalaran",
 				[21] = "DSkiddi-MoonGuard",
-				["d"] = 14,
 				["eI"] = 2082,
+				["d"] = 14,
 			}, -- [1595]
 			{
 				"BFranzhupala-Dragonblight", -- [1]
@@ -54221,11 +54313,11 @@ VExRT = {
 				"GAele-Dalaran", -- [20]
 				"DSkiddi-MoonGuard", -- [21]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1522307991,
-				["eN"] = "Imonar the Soulhunter",
-				["d"] = 14,
-				["g"] = 20,
 				["eI"] = 2082,
+				["eN"] = "Imonar the Soulhunter",
+				["t"] = 1522307991,
+				["g"] = 20,
+				["d"] = 14,
 			}, -- [1596]
 			{
 				"BFranzhupala-Dragonblight", -- [1]
@@ -54247,13 +54339,13 @@ VExRT = {
 				"BSkykíng-Quel'Thalas", -- [17]
 				"HXeinall-Aegwynn", -- [18]
 				"GAele-Dalaran", -- [19]
-				["c"] = "Morifa-Proudmoore",
-				[21] = "DSkiddi-MoonGuard",
-				["d"] = 14,
-				["eN"] = "Imonar the Soulhunter",
-				["t"] = 1522308628,
-				["g"] = 20,
 				["eI"] = 2082,
+				["c"] = "Morifa-Proudmoore",
+				["t"] = 1522308628,
+				["eN"] = "Imonar the Soulhunter",
+				["d"] = 14,
+				["g"] = 20,
+				[21] = "DSkiddi-MoonGuard",
 			}, -- [1597]
 			{
 				"BFranzhupala-Dragonblight", -- [1]
@@ -54273,13 +54365,13 @@ VExRT = {
 				"CDonno-Moonrunner", -- [15]
 				"HXeinall-Aegwynn", -- [16]
 				"GAele-Dalaran", -- [17]
-				["eN"] = "Kin'garoth",
-				[21] = "DSkiddi-MoonGuard",
-				["t"] = 1522309892,
-				["eI"] = 2088,
-				["d"] = 14,
-				["g"] = 18,
 				["c"] = "Morifa-Proudmoore",
+				[21] = "DSkiddi-MoonGuard",
+				["d"] = 14,
+				["eN"] = "Kin'garoth",
+				["t"] = 1522309892,
+				["g"] = 18,
+				["eI"] = 2088,
 			}, -- [1598]
 			{
 				"BFranzhupala-Dragonblight", -- [1]
@@ -54299,13 +54391,13 @@ VExRT = {
 				"CDonno-Moonrunner", -- [15]
 				"HXeinall-Aegwynn", -- [16]
 				"GAele-Dalaran", -- [17]
-				["eN"] = "Kin'garoth",
-				[21] = "DSkiddi-MoonGuard",
-				["t"] = 1522310407,
-				["eI"] = 2088,
-				["d"] = 14,
-				["g"] = 18,
 				["c"] = "Morifa-Proudmoore",
+				[21] = "DSkiddi-MoonGuard",
+				["d"] = 14,
+				["eN"] = "Kin'garoth",
+				["t"] = 1522310407,
+				["g"] = 18,
+				["eI"] = 2088,
 			}, -- [1599]
 			{
 				"ITavington-KulTiras", -- [1]
@@ -54339,11 +54431,11 @@ VExRT = {
 				"EMallusof", -- [29]
 				"ESìrens-TheVentureCo", -- [30]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522472244,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["d"] = 14,
 				["g"] = 28,
-				["t"] = 1522472244,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1600]
 			{
 				"LDarkstardh-Frostmourne", -- [1]
@@ -54367,11 +54459,11 @@ VExRT = {
 				"LSparie-Stormreaver", -- [19]
 				"GClives-Korgath", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1522473252,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 15,
 				["g"] = 19,
-				["t"] = 1522473252,
+				["eI"] = 2063,
 			}, -- [1601]
 			{
 				"AMithal-Stormreaver", -- [1]
@@ -54399,11 +54491,11 @@ VExRT = {
 				"AThaydor-Frostmourne", -- [23]
 				"BVadev-Caelestrasz", -- [24]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2092,
-				["t"] = 1522474108,
-				["g"] = 24,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 15,
+				["g"] = 24,
+				["t"] = 1522474108,
 			}, -- [1602]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54425,11 +54517,11 @@ VExRT = {
 				"KPipesy-Frostmourne", -- [17]
 				"LDarkmissy-Bladefist", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2069,
-				["eN"] = "Varimathras",
 				["t"] = 1522479843,
 				["g"] = 18,
-				["d"] = 15,
+				["eN"] = "Varimathras",
 			}, -- [1603]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54453,11 +54545,11 @@ VExRT = {
 				"CRekkliiss-Sargeras", -- [19]
 				"BWagnercas-Quel'Thalas", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Varimathras",
-				["eI"] = 2069,
 				["t"] = 1522480363,
 				["g"] = 20,
-				["d"] = 15,
+				["eI"] = 2069,
 			}, -- [1604]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54481,11 +54573,11 @@ VExRT = {
 				"CRekkliiss-Sargeras", -- [19]
 				"BWagnercas-Quel'Thalas", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Varimathras",
-				["eI"] = 2069,
 				["t"] = 1522480856,
 				["g"] = 18,
-				["d"] = 15,
+				["eI"] = 2069,
 			}, -- [1605]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54507,11 +54599,11 @@ VExRT = {
 				[17] = "KPipesy-Frostmourne",
 				[18] = "LDarkmissy-Bladefist",
 				[19] = "CRekkliiss-Sargeras",
+				["t"] = 1522481248,
 				["eI"] = 2069,
-				[11] = "LAeldemon-Durotan",
 				["d"] = 15,
 				[12] = "HFìnrod-AeriePeak",
-				["t"] = 1522481248,
+				[11] = "LAeldemon-Durotan",
 			}, -- [1606]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54533,11 +54625,11 @@ VExRT = {
 				"KPipesy-Frostmourne", -- [17]
 				"CRekkliiss-Sargeras", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2069,
-				["eN"] = "Varimathras",
 				["t"] = 1522481486,
 				["g"] = 18,
-				["d"] = 15,
+				["eN"] = "Varimathras",
 			}, -- [1607]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54559,11 +54651,11 @@ VExRT = {
 				"KPipesy-Frostmourne", -- [17]
 				"CRekkliiss-Sargeras", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1522481769,
 				["g"] = 18,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1608]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54585,11 +54677,11 @@ VExRT = {
 				"KPipesy-Frostmourne", -- [17]
 				"CRekkliiss-Sargeras", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1522481775,
 				["g"] = 18,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1609]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54611,11 +54703,11 @@ VExRT = {
 				"KPipesy-Frostmourne", -- [17]
 				"CRekkliiss-Sargeras", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1522481800,
 				["g"] = 18,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1610]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54637,11 +54729,11 @@ VExRT = {
 				"KPipesy-Frostmourne", -- [17]
 				"CRekkliiss-Sargeras", -- [18]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1522481804,
 				["g"] = 18,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1611]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54665,11 +54757,11 @@ VExRT = {
 				"CRekkliiss-Sargeras", -- [19]
 				"FWolfylon-Quel'Thalas", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1522482353,
 				["g"] = 20,
-				["d"] = 15,
+				["eI"] = 2073,
 			}, -- [1612]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54693,11 +54785,11 @@ VExRT = {
 				"CRekkliiss-Sargeras", -- [19]
 				"FWolfylon-Quel'Thalas", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1522482976,
 				["g"] = 19,
-				["d"] = 15,
+				["eI"] = 2073,
 			}, -- [1613]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54718,11 +54810,11 @@ VExRT = {
 				"JPadroni-Draka", -- [16]
 				"DLebotix-Saurfang", -- [17]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1522484207,
 				["g"] = 17,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1614]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54742,11 +54834,11 @@ VExRT = {
 				nil, -- [15]
 				"JPadroni-Draka", -- [16]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1522484868,
 				["g"] = 13,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1615]
 			{
 				"LIluvmygf-Ysera", -- [1]
@@ -54766,11 +54858,11 @@ VExRT = {
 				nil, -- [15]
 				"JPadroni-Draka", -- [16]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2073,
-				["eN"] = "The Coven of Shivarra",
 				["t"] = 1522484873,
 				["g"] = 13,
-				["d"] = 15,
+				["eN"] = "The Coven of Shivarra",
 			}, -- [1616]
 			{
 				"BKalithumos", -- [1]
@@ -54794,11 +54886,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522719935,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522719935,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1617]
 			{
 				"BKalithumos", -- [1]
@@ -54822,11 +54914,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522720066,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522720066,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1618]
 			{
 				"BKalithumos", -- [1]
@@ -54850,11 +54942,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522720438,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522720438,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1619]
 			{
 				"BKalithumos", -- [1]
@@ -54878,11 +54970,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522720737,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522720737,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1620]
 			{
 				"BKalithumos", -- [1]
@@ -54906,11 +54998,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522721366,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522721366,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1621]
 			{
 				"BKalithumos", -- [1]
@@ -54934,11 +55026,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522721574,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522721574,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1622]
 			{
 				"BKalithumos", -- [1]
@@ -54962,11 +55054,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522722155,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522722155,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1623]
 			{
 				"BKalithumos", -- [1]
@@ -54990,11 +55082,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522722361,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522722361,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1624]
 			{
 				"BKalithumos", -- [1]
@@ -55018,11 +55110,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522722576,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522722576,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1625]
 			{
 				"BKalithumos", -- [1]
@@ -55046,11 +55138,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522722968,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522722968,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1626]
 			{
 				"BKalithumos", -- [1]
@@ -55074,11 +55166,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522723178,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522723178,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1627]
 			{
 				"BKalithumos", -- [1]
@@ -55102,11 +55194,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522723453,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522723453,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1628]
 			{
 				"BKalithumos", -- [1]
@@ -55130,11 +55222,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522723669,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522723669,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1629]
 			{
 				"BKalithumos", -- [1]
@@ -55158,11 +55250,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522724068,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522724068,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1630]
 			{
 				"BKalithumos", -- [1]
@@ -55186,11 +55278,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522724474,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522724474,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1631]
 			{
 				"BKalithumos", -- [1]
@@ -55214,11 +55306,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522724695,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522724695,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1632]
 			{
 				"BKalithumos", -- [1]
@@ -55242,11 +55334,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522725161,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522725161,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1633]
 			{
 				"BKalithumos", -- [1]
@@ -55270,11 +55362,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522725782,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522725782,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1634]
 			{
 				"BKalithumos", -- [1]
@@ -55298,11 +55390,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522726301,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522726301,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1635]
 			{
 				"BKalithumos", -- [1]
@@ -55326,11 +55418,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522726476,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522726476,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1636]
 			{
 				"BKalithumos", -- [1]
@@ -55354,11 +55446,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522727116,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522727116,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1637]
 			{
 				"BKalithumos", -- [1]
@@ -55382,11 +55474,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522727376,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522727376,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1638]
 			{
 				"BKalithumos", -- [1]
@@ -55410,11 +55502,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522727640,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522727640,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1639]
 			{
 				"BKalithumos", -- [1]
@@ -55438,11 +55530,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1522727890,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1522727890,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1640]
 			{
 				"KSharlasia-Proudmoore", -- [1]
@@ -55472,11 +55564,11 @@ VExRT = {
 				"BGregis-Caelestrasz", -- [25]
 				"BRhadamir-Stormrage", -- [26]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eI"] = 1853,
-				["eN"] = "Nythendra",
 				["t"] = 1523685777,
 				["g"] = 25,
-				["d"] = 14,
+				["eN"] = "Nythendra",
 			}, -- [1641]
 			{
 				"BKalithumos", -- [1]
@@ -55500,11 +55592,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523845713,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523845713,
+				["eI"] = 2063,
 			}, -- [1642]
 			{
 				"BKalithumos", -- [1]
@@ -55528,11 +55620,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523845911,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523845911,
+				["eI"] = 2063,
 			}, -- [1643]
 			{
 				"BKalithumos", -- [1]
@@ -55556,11 +55648,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523847028,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523847028,
+				["eI"] = 2063,
 			}, -- [1644]
 			{
 				"BKalithumos", -- [1]
@@ -55584,11 +55676,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523847221,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523847221,
+				["eI"] = 2063,
 			}, -- [1645]
 			{
 				"BKalithumos", -- [1]
@@ -55612,11 +55704,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523847483,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523847483,
+				["eI"] = 2063,
 			}, -- [1646]
 			{
 				"BKalithumos", -- [1]
@@ -55640,11 +55732,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523847710,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523847710,
+				["eI"] = 2063,
 			}, -- [1647]
 			{
 				"BKalithumos", -- [1]
@@ -55668,11 +55760,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523847885,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523847885,
+				["eI"] = 2063,
 			}, -- [1648]
 			{
 				"BKalithumos", -- [1]
@@ -55696,11 +55788,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523848079,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523848079,
+				["eI"] = 2063,
 			}, -- [1649]
 			{
 				"BKalithumos", -- [1]
@@ -55724,11 +55816,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523848581,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523848581,
+				["eI"] = 2063,
 			}, -- [1650]
 			{
 				"BKalithumos", -- [1]
@@ -55752,11 +55844,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523849298,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523849298,
+				["eI"] = 2063,
 			}, -- [1651]
 			{
 				"BKalithumos", -- [1]
@@ -55780,11 +55872,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523849896,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523849896,
+				["eI"] = 2063,
 			}, -- [1652]
 			{
 				"BKalithumos", -- [1]
@@ -55808,11 +55900,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523850424,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523850424,
+				["eI"] = 2063,
 			}, -- [1653]
 			{
 				"BKalithumos", -- [1]
@@ -55836,11 +55928,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523850618,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523850618,
+				["eI"] = 2063,
 			}, -- [1654]
 			{
 				"BKalithumos", -- [1]
@@ -55864,11 +55956,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523850825,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523850825,
+				["eI"] = 2063,
 			}, -- [1655]
 			{
 				"BKalithumos", -- [1]
@@ -55892,11 +55984,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"HKahoots", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1523851382,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1523851382,
+				["eI"] = 2063,
 			}, -- [1656]
 			{
 				"BKalithumos", -- [1]
@@ -55920,11 +56012,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523930642,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1657]
 			{
 				"BKalithumos", -- [1]
@@ -55948,11 +56040,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"HKalethia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523930769,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1658]
 			{
 				"BKalithumos", -- [1]
@@ -55976,11 +56068,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523930911,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1659]
 			{
 				"BKalithumos", -- [1]
@@ -56004,11 +56096,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523931025,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1660]
 			{
 				"BKalithumos", -- [1]
@@ -56032,11 +56124,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523931223,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1661]
 			{
 				"BKalithumos", -- [1]
@@ -56060,11 +56152,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523931418,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1662]
 			{
 				"BKalithumos", -- [1]
@@ -56088,11 +56180,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523931858,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1663]
 			{
 				"BKalithumos", -- [1]
@@ -56116,11 +56208,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523932397,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1664]
 			{
 				"BKalithumos", -- [1]
@@ -56144,11 +56236,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523932870,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1665]
 			{
 				"BKalithumos", -- [1]
@@ -56172,11 +56264,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523933167,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1666]
 			{
 				"BKalithumos", -- [1]
@@ -56200,11 +56292,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523933916,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1667]
 			{
 				"BKalithumos", -- [1]
@@ -56228,11 +56320,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523934487,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1668]
 			{
 				"BKalithumos", -- [1]
@@ -56256,11 +56348,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523935032,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1669]
 			{
 				"BKalithumos", -- [1]
@@ -56284,11 +56376,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523935695,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1670]
 			{
 				"BKalithumos", -- [1]
@@ -56312,11 +56404,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523936170,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1671]
 			{
 				"BKalithumos", -- [1]
@@ -56340,11 +56432,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523936406,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1672]
 			{
 				"BKalithumos", -- [1]
@@ -56368,11 +56460,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523936653,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1673]
 			{
 				"BKalithumos", -- [1]
@@ -56396,11 +56488,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523936726,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1674]
 			{
 				"BKalithumos", -- [1]
@@ -56424,11 +56516,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523937042,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1675]
 			{
 				"BKalithumos", -- [1]
@@ -56452,11 +56544,11 @@ VExRT = {
 				"KSassbogs", -- [19]
 				"KEllestria", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1523937658,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Aggramar",
 			}, -- [1676]
 			{
 				"JKangø-Sargeras", -- [1]
@@ -56473,11 +56565,11 @@ VExRT = {
 				"KMierande-Frostmourne", -- [12]
 				"HWaytoohi-Sargeras", -- [13]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["t"] = 1524382254,
 				["g"] = 13,
-				["d"] = 15,
+				["eI"] = 2073,
 			}, -- [1677]
 			{
 				"BKalithumos", -- [1]
@@ -56501,11 +56593,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524446150,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524446150,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1678]
 			{
 				"BKalithumos", -- [1]
@@ -56529,11 +56621,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524446443,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524446443,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1679]
 			{
 				"BKalithumos", -- [1]
@@ -56557,11 +56649,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524447141,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524447141,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1680]
 			{
 				"BKalithumos", -- [1]
@@ -56585,11 +56677,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524447388,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524447388,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1681]
 			{
 				"BKalithumos", -- [1]
@@ -56613,11 +56705,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524447599,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524447599,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1682]
 			{
 				"BKalithumos", -- [1]
@@ -56641,11 +56733,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524447841,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524447841,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1683]
 			{
 				"BKalithumos", -- [1]
@@ -56669,11 +56761,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524448381,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524448381,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1684]
 			{
 				"BKalithumos", -- [1]
@@ -56697,11 +56789,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524448566,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524448566,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1685]
 			{
 				"BKalithumos", -- [1]
@@ -56725,11 +56817,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524448994,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524448994,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1686]
 			{
 				"BKalithumos", -- [1]
@@ -56753,11 +56845,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524449276,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524449276,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1687]
 			{
 				"BKalithumos", -- [1]
@@ -56781,11 +56873,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524449399,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524449399,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1688]
 			{
 				"BKalithumos", -- [1]
@@ -56809,11 +56901,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524449603,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524449603,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1689]
 			{
 				"BKalithumos", -- [1]
@@ -56837,11 +56929,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524449833,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524449833,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1690]
 			{
 				"BKalithumos", -- [1]
@@ -56865,11 +56957,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524450187,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524450187,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1691]
 			{
 				"BKalithumos", -- [1]
@@ -56893,11 +56985,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524450621,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524450621,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1692]
 			{
 				"BKalithumos", -- [1]
@@ -56921,11 +57013,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524450911,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524450911,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1693]
 			{
 				"BKalithumos", -- [1]
@@ -56949,11 +57041,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524451204,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524451204,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1694]
 			{
 				"BKalithumos", -- [1]
@@ -56977,11 +57069,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524451816,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1524451816,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1695]
 			{
 				"BKalithumos", -- [1]
@@ -57005,11 +57097,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1524452384,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1524452384,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1696]
 			{
 				"BKalithumos", -- [1]
@@ -57033,11 +57125,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1524453688,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1697]
 			{
 				"BKalithumos", -- [1]
@@ -57061,11 +57153,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1524453881,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1698]
 			{
 				"BKalithumos", -- [1]
@@ -57089,11 +57181,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1524454007,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1699]
 			{
 				"BKalithumos", -- [1]
@@ -57117,11 +57209,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2064,
-				["eN"] = "Portal Keeper Hasabel",
 				["t"] = 1524454315,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Portal Keeper Hasabel",
 			}, -- [1700]
 			{
 				"BKalithumos", -- [1]
@@ -57145,11 +57237,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2064,
-				["eN"] = "Portal Keeper Hasabel",
 				["t"] = 1524454356,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Portal Keeper Hasabel",
 			}, -- [1701]
 			{
 				"BKalithumos", -- [1]
@@ -57173,11 +57265,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2064,
-				["eN"] = "Portal Keeper Hasabel",
 				["t"] = 1524454395,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Portal Keeper Hasabel",
 			}, -- [1702]
 			{
 				"BKalithumos", -- [1]
@@ -57201,11 +57293,11 @@ VExRT = {
 				"HKaligon", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2064,
-				["eN"] = "Portal Keeper Hasabel",
 				["t"] = 1524454530,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Portal Keeper Hasabel",
 			}, -- [1703]
 			{
 				"BKalithumos", -- [1]
@@ -57229,11 +57321,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525051517,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525051517,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1704]
 			{
 				"BKalithumos", -- [1]
@@ -57257,11 +57349,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525051639,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525051639,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1705]
 			{
 				"BKalithumos", -- [1]
@@ -57285,11 +57377,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525051793,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525051793,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1706]
 			{
 				"BKalithumos", -- [1]
@@ -57313,11 +57405,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525051950,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525051950,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1707]
 			{
 				"BKalithumos", -- [1]
@@ -57341,11 +57433,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525052126,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525052126,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1708]
 			{
 				"BKalithumos", -- [1]
@@ -57369,11 +57461,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525052269,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525052269,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1709]
 			{
 				"BKalithumos", -- [1]
@@ -57397,11 +57489,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525052418,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525052418,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1710]
 			{
 				"BKalithumos", -- [1]
@@ -57425,11 +57517,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525052610,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525052610,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1711]
 			{
 				"BKalithumos", -- [1]
@@ -57453,11 +57545,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525052837,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525052837,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1712]
 			{
 				"BKalithumos", -- [1]
@@ -57481,11 +57573,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525053068,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525053068,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1713]
 			{
 				"BKalithumos", -- [1]
@@ -57509,11 +57601,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525053251,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525053251,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1714]
 			{
 				"BKalithumos", -- [1]
@@ -57537,11 +57629,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525053383,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525053383,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1715]
 			{
 				"BKalithumos", -- [1]
@@ -57565,11 +57657,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525053568,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525053568,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1716]
 			{
 				"BKalithumos", -- [1]
@@ -57593,11 +57685,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525053743,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525053743,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1717]
 			{
 				"BKalithumos", -- [1]
@@ -57621,11 +57713,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525053970,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525053970,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1718]
 			{
 				"BKalithumos", -- [1]
@@ -57649,11 +57741,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525054126,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525054126,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1719]
 			{
 				"BKalithumos", -- [1]
@@ -57677,11 +57769,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525054256,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525054256,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1720]
 			{
 				"BKalithumos", -- [1]
@@ -57705,11 +57797,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525054422,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525054422,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1721]
 			{
 				"BKalithumos", -- [1]
@@ -57733,11 +57825,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525054609,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525054609,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1722]
 			{
 				"BKalithumos", -- [1]
@@ -57761,11 +57853,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525055552,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525055552,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1723]
 			{
 				"BKalithumos", -- [1]
@@ -57789,11 +57881,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525055706,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525055706,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1724]
 			{
 				"BKalithumos", -- [1]
@@ -57817,11 +57909,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525055891,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525055891,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1725]
 			{
 				"BKalithumos", -- [1]
@@ -57845,11 +57937,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525056055,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525056055,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1726]
 			{
 				"BKalithumos", -- [1]
@@ -57873,11 +57965,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525056243,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525056243,
+				["eI"] = 2092,
 			}, -- [1727]
 			{
 				"BKalithumos", -- [1]
@@ -57901,11 +57993,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525056463,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525056463,
+				["eI"] = 2092,
 			}, -- [1728]
 			{
 				"BKalithumos", -- [1]
@@ -57929,11 +58021,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525056688,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525056688,
+				["eI"] = 2092,
 			}, -- [1729]
 			{
 				"BKalithumos", -- [1]
@@ -57957,11 +58049,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525056822,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525056822,
+				["eI"] = 2092,
 			}, -- [1730]
 			{
 				"BKalithumos", -- [1]
@@ -57985,11 +58077,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525056842,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525056842,
+				["eI"] = 2092,
 			}, -- [1731]
 			{
 				"BKalithumos", -- [1]
@@ -58013,11 +58105,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525057333,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525057333,
+				["eI"] = 2092,
 			}, -- [1732]
 			{
 				"BKalithumos", -- [1]
@@ -58041,11 +58133,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525057555,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525057555,
+				["eI"] = 2092,
 			}, -- [1733]
 			{
 				"BKalithumos", -- [1]
@@ -58069,11 +58161,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525057710,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525057710,
+				["eI"] = 2092,
 			}, -- [1734]
 			{
 				"BKalithumos", -- [1]
@@ -58097,11 +58189,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525057822,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525057822,
+				["eI"] = 2092,
 			}, -- [1735]
 			{
 				"BKalithumos", -- [1]
@@ -58125,11 +58217,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525058052,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525058052,
+				["eI"] = 2092,
 			}, -- [1736]
 			{
 				"BKalithumos", -- [1]
@@ -58153,11 +58245,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525058130,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525058130,
+				["eI"] = 2092,
 			}, -- [1737]
 			{
 				"BKalithumos", -- [1]
@@ -58181,11 +58273,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525058270,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525058270,
+				["eI"] = 2092,
 			}, -- [1738]
 			{
 				"BKalithumos", -- [1]
@@ -58209,11 +58301,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525058456,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525058456,
+				["eI"] = 2092,
 			}, -- [1739]
 			{
 				"BKalithumos", -- [1]
@@ -58237,11 +58329,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525058850,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525058850,
+				["eI"] = 2092,
 			}, -- [1740]
 			{
 				"BKalithumos", -- [1]
@@ -58265,11 +58357,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525058943,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525058943,
+				["eI"] = 2092,
 			}, -- [1741]
 			{
 				"BKalithumos", -- [1]
@@ -58293,11 +58385,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525059116,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525059116,
+				["eI"] = 2092,
 			}, -- [1742]
 			{
 				"BKalithumos", -- [1]
@@ -58321,11 +58413,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525059298,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525059298,
+				["eI"] = 2092,
 			}, -- [1743]
 			{
 				"BKalithumos", -- [1]
@@ -58349,11 +58441,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525059468,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525059468,
+				["eI"] = 2092,
 			}, -- [1744]
 			{
 				"BKalithumos", -- [1]
@@ -58377,11 +58469,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525059660,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525059660,
+				["eI"] = 2092,
 			}, -- [1745]
 			{
 				"BKalithumos", -- [1]
@@ -58405,11 +58497,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525059893,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525059893,
+				["eI"] = 2092,
 			}, -- [1746]
 			{
 				"BKalithumos", -- [1]
@@ -58433,11 +58525,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525060161,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525060161,
+				["eI"] = 2092,
 			}, -- [1747]
 			{
 				"BKalithumos", -- [1]
@@ -58461,11 +58553,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525060340,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525060340,
+				["eI"] = 2092,
 			}, -- [1748]
 			{
 				"BKalithumos", -- [1]
@@ -58489,11 +58581,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525060468,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525060468,
+				["eI"] = 2092,
 			}, -- [1749]
 			{
 				"BKalithumos", -- [1]
@@ -58517,11 +58609,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525060584,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525060584,
+				["eI"] = 2092,
 			}, -- [1750]
 			{
 				"BKalithumos", -- [1]
@@ -58545,11 +58637,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525060727,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1525060727,
+				["eI"] = 2092,
 			}, -- [1751]
 			{
 				"BKalithumos", -- [1]
@@ -58573,11 +58665,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "Argus the Unmaker",
-				["t"] = 1525060953,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1525060953,
 			}, -- [1752]
 			{
 				"BKalithumos", -- [1]
@@ -58601,11 +58693,11 @@ VExRT = {
 				"HMediocreman", -- [19]
 				"DCaillis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eN"] = "Argus the Unmaker",
-				["t"] = 1525060959,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1525060959,
 			}, -- [1753]
 			{
 				"BCriogenic-Quel'Thalas", -- [1]
@@ -58630,11 +58722,11 @@ VExRT = {
 				"KGrasskicker-Lightninghoof", -- [20]
 				"EMallusof", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1525239481,
 				["eN"] = "Antoran High Command",
-				["eI"] = 2070,
 				["d"] = 15,
 				["g"] = 21,
-				["t"] = 1525239481,
+				["eI"] = 2070,
 			}, -- [1754]
 			{
 				"BVelaira-Shadowsong", -- [1]
@@ -58668,11 +58760,11 @@ VExRT = {
 				"GPizzicato-Proudmoore", -- [29]
 				"KGromit-Caelestrasz", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "Argus the Unmaker",
-				["t"] = 1525331143,
-				["g"] = 30,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["d"] = 14,
+				["g"] = 30,
+				["t"] = 1525331143,
 			}, -- [1755]
 			{
 				"BKalithumos", -- [1]
@@ -58696,11 +58788,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525656631,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525656631,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1756]
 			{
 				"BKalithumos", -- [1]
@@ -58724,11 +58816,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525656801,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525656801,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1757]
 			{
 				"BKalithumos", -- [1]
@@ -58752,11 +58844,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525657006,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657006,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1758]
 			{
 				"BKalithumos", -- [1]
@@ -58780,11 +58872,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525657117,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657117,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1759]
 			{
 				"BKalithumos", -- [1]
@@ -58808,11 +58900,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525657343,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657343,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1760]
 			{
 				"BKalithumos", -- [1]
@@ -58836,11 +58928,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525657520,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657520,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1761]
 			{
 				"BKalithumos", -- [1]
@@ -58864,11 +58956,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525657670,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657670,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1762]
 			{
 				"BKalithumos", -- [1]
@@ -58892,11 +58984,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525657831,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657831,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1763]
 			{
 				"BKalithumos", -- [1]
@@ -58920,11 +59012,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525657990,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657990,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1764]
 			{
 				"BKalithumos", -- [1]
@@ -58948,11 +59040,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525658188,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658188,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1765]
 			{
 				"BKalithumos", -- [1]
@@ -58976,11 +59068,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"HKaligon", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525658306,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658306,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1766]
 			{
 				"BKalithumos", -- [1]
@@ -59004,11 +59096,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525658466,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658466,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1767]
 			{
 				"BKalithumos", -- [1]
@@ -59032,11 +59124,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525658744,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658744,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1768]
 			{
 				"BKalithumos", -- [1]
@@ -59060,11 +59152,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525658924,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658924,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1769]
 			{
 				"BKalithumos", -- [1]
@@ -59088,11 +59180,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525659092,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659092,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1770]
 			{
 				"BKalithumos", -- [1]
@@ -59116,11 +59208,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525659338,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659338,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1771]
 			{
 				"BKalithumos", -- [1]
@@ -59144,11 +59236,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525659536,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659536,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1772]
 			{
 				"BKalithumos", -- [1]
@@ -59172,11 +59264,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525659752,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659752,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1773]
 			{
 				"BKalithumos", -- [1]
@@ -59200,11 +59292,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525659938,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659938,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1774]
 			{
 				"BKalithumos", -- [1]
@@ -59228,11 +59320,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525660081,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525660081,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1775]
 			{
 				"BKalithumos", -- [1]
@@ -59256,11 +59348,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525660889,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525660889,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1776]
 			{
 				"BKalithumos", -- [1]
@@ -59284,11 +59376,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525661018,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525661018,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1777]
 			{
 				"BKalithumos", -- [1]
@@ -59312,11 +59404,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525661311,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525661311,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1778]
 			{
 				"BKalithumos", -- [1]
@@ -59340,11 +59432,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525661569,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525661569,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1779]
 			{
 				"BKalithumos", -- [1]
@@ -59368,11 +59460,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525661942,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525661942,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1780]
 			{
 				"BKalithumos", -- [1]
@@ -59396,11 +59488,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525662192,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525662192,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1781]
 			{
 				"BKalithumos", -- [1]
@@ -59424,11 +59516,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"KSassbogs", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525662419,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525662419,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1782]
 			{
 				"BKalithumos", -- [1]
@@ -59452,11 +59544,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525662732,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525662732,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1783]
 			{
 				"BKalithumos", -- [1]
@@ -59480,11 +59572,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525663086,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663086,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1784]
 			{
 				"BKalithumos", -- [1]
@@ -59508,11 +59600,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525663270,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663270,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1785]
 			{
 				"BKalithumos", -- [1]
@@ -59536,11 +59628,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525663541,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663541,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1786]
 			{
 				"BKalithumos", -- [1]
@@ -59564,11 +59656,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525663688,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663688,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1787]
 			{
 				"BKalithumos", -- [1]
@@ -59592,11 +59684,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525663820,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663820,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1788]
 			{
 				"BKalithumos", -- [1]
@@ -59620,11 +59712,11 @@ VExRT = {
 				"BBlakeyboy", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525663975,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663975,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1789]
 			{
 				"BKalithumos", -- [1]
@@ -59648,11 +59740,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525664191,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525664191,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1790]
 			{
 				"BKalithumos", -- [1]
@@ -59676,11 +59768,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525664507,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525664507,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1791]
 			{
 				"BKalithumos", -- [1]
@@ -59704,11 +59796,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525664669,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525664669,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1792]
 			{
 				"BKalithumos", -- [1]
@@ -59732,11 +59824,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525664854,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525664854,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1793]
 			{
 				"BKalithumos", -- [1]
@@ -59760,11 +59852,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525665054,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525665054,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1794]
 			{
 				"BKalithumos", -- [1]
@@ -59788,11 +59880,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525665231,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525665231,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1795]
 			{
 				"BKalithumos", -- [1]
@@ -59816,11 +59908,11 @@ VExRT = {
 				"HKalethia", -- [19]
 				"GSassparagus", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1525665547,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525665547,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1796]
 			{
 				"JWahhj-Sargeras", -- [1]
@@ -59837,11 +59929,11 @@ VExRT = {
 				"ISpliffster-BloodFurnace", -- [12]
 				"FFrozentoaste-Sargeras", -- [13]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1526238634,
-				["eI"] = 2076,
-				["d"] = 14,
-				["g"] = 13,
 				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["t"] = 1526238634,
+				["g"] = 13,
+				["d"] = 14,
 			}, -- [1797]
 			{
 				"JWahhj-Sargeras", -- [1]
@@ -59858,11 +59950,11 @@ VExRT = {
 				"ISpliffster-BloodFurnace", -- [12]
 				"FFrozentoaste-Sargeras", -- [13]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1526239087,
-				["eI"] = 2074,
-				["d"] = 14,
-				["g"] = 13,
 				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["t"] = 1526239087,
+				["g"] = 13,
+				["d"] = 14,
 			}, -- [1798]
 			{
 				"JWahhj-Sargeras", -- [1]
@@ -59879,11 +59971,11 @@ VExRT = {
 				"ISpliffster-BloodFurnace", -- [12]
 				"FFrozentoaste-Sargeras", -- [13]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1526239731,
-				["eI"] = 2070,
-				["d"] = 14,
-				["g"] = 13,
 				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["t"] = 1526239731,
+				["g"] = 13,
+				["d"] = 14,
 			}, -- [1799]
 			{
 				"JWahhj-Sargeras", -- [1]
@@ -59900,11 +59992,11 @@ VExRT = {
 				"ISpliffster-BloodFurnace", -- [12]
 				"FFrozentoaste-Sargeras", -- [13]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1526240364,
-				["eI"] = 2064,
-				["d"] = 14,
-				["g"] = 13,
 				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["t"] = 1526240364,
+				["g"] = 13,
+				["d"] = 14,
 			}, -- [1800]
 			{
 				"JWahhj-Sargeras", -- [1]
@@ -59921,11 +60013,11 @@ VExRT = {
 				"ISpliffster-BloodFurnace", -- [12]
 				"FFrozentoaste-Sargeras", -- [13]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1526240805,
-				["eI"] = 2075,
-				["d"] = 14,
-				["g"] = 13,
 				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["t"] = 1526240805,
+				["g"] = 13,
+				["d"] = 14,
 			}, -- [1801]
 			{
 				"JWahhj-Sargeras", -- [1]
@@ -59943,11 +60035,11 @@ VExRT = {
 				"FFrozentoaste-Sargeras", -- [13]
 				"IËuph-Shu'halo", -- [14]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1526241257,
-				["eI"] = 2082,
-				["d"] = 14,
-				["g"] = 14,
 				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["t"] = 1526241257,
+				["g"] = 14,
+				["d"] = 14,
 			}, -- [1802]
 			{
 				"JWahhj-Sargeras", -- [1]
@@ -59965,11 +60057,11 @@ VExRT = {
 				"FFrozentoaste-Sargeras", -- [13]
 				"IËuph-Shu'halo", -- [14]
 				["c"] = "Morifa-Proudmoore",
-				["t"] = 1526241758,
-				["eI"] = 2088,
-				["d"] = 14,
-				["g"] = 14,
 				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["t"] = 1526241758,
+				["g"] = 14,
+				["d"] = 14,
 			}, -- [1803]
 			{
 				"LTetsuen", -- [1]
@@ -59993,11 +60085,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526260787,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526260787,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1804]
 			{
 				"LTetsuen", -- [1]
@@ -60021,11 +60113,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526260946,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526260946,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1805]
 			{
 				"LTetsuen", -- [1]
@@ -60049,11 +60141,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526261228,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526261228,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1806]
 			{
 				"LTetsuen", -- [1]
@@ -60077,11 +60169,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526261440,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526261440,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1807]
 			{
 				"LTetsuen", -- [1]
@@ -60105,11 +60197,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526261642,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526261642,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1808]
 			{
 				"LTetsuen", -- [1]
@@ -60133,11 +60225,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526262200,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526262200,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1809]
 			{
 				"LTetsuen", -- [1]
@@ -60161,11 +60253,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526262811,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526262811,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1810]
 			{
 				"BKalithumos", -- [1]
@@ -60189,11 +60281,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526262963,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526262963,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1811]
 			{
 				"BKalithumos", -- [1]
@@ -60217,11 +60309,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526263674,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526263674,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1812]
 			{
 				"BKalithumos", -- [1]
@@ -60245,11 +60337,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526264269,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526264269,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1813]
 			{
 				"BKalithumos", -- [1]
@@ -60273,11 +60365,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526264790,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526264790,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1814]
 			{
 				"BKalithumos", -- [1]
@@ -60301,11 +60393,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526264800,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526264800,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1815]
 			{
 				"BKalithumos", -- [1]
@@ -60329,11 +60421,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526265039,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526265039,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1816]
 			{
 				"BKalithumos", -- [1]
@@ -60357,11 +60449,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526265697,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526265697,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1817]
 			{
 				"BKalithumos", -- [1]
@@ -60385,11 +60477,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526266023,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526266023,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1818]
 			{
 				"BKalithumos", -- [1]
@@ -60413,11 +60505,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526266106,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526266106,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1819]
 			{
 				"BKalithumos", -- [1]
@@ -60441,11 +60533,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526266277,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526266277,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1820]
 			{
 				"BKalithumos", -- [1]
@@ -60469,11 +60561,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526266304,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526266304,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1821]
 			{
 				"BKalithumos", -- [1]
@@ -60497,11 +60589,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526266708,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526266708,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1822]
 			{
 				"BKalithumos", -- [1]
@@ -60525,11 +60617,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526267339,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526267339,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1823]
 			{
 				"BKalithumos", -- [1]
@@ -60553,11 +60645,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526267539,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526267539,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1824]
 			{
 				"BKalithumos", -- [1]
@@ -60581,11 +60673,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526268231,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526268231,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1825]
 			{
 				"BKalithumos", -- [1]
@@ -60609,11 +60701,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526268380,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526268380,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1826]
 			{
 				"BKalithumos", -- [1]
@@ -60637,11 +60729,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526268726,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526268726,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1827]
 			{
 				"BKalithumos", -- [1]
@@ -60665,11 +60757,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526268789,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526268789,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1828]
 			{
 				"BKalithumos", -- [1]
@@ -60693,11 +60785,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526269251,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526269251,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1829]
 			{
 				"BKalithumos", -- [1]
@@ -60721,11 +60813,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526269914,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526269914,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1830]
 			{
 				"BKalithumos", -- [1]
@@ -60749,11 +60841,11 @@ VExRT = {
 				"IReportmepls", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1526270120,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1526270120,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1831]
 			{
 				"EWolfenstéin-WyrmrestAccord", -- [1]
@@ -60767,11 +60859,11 @@ VExRT = {
 				"IPraý-Eonar", -- [9]
 				"CDreadwolf-Fenris", -- [10]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1526279758,
 				["eN"] = "Nythendra",
-				["eI"] = 1853,
 				["d"] = 15,
 				["g"] = 10,
-				["t"] = 1526279758,
+				["eI"] = 1853,
 			}, -- [1832]
 			{
 				"EWolfenstéin-WyrmrestAccord", -- [1]
@@ -60785,11 +60877,11 @@ VExRT = {
 				"IPraý-Eonar", -- [9]
 				"CDreadwolf-Fenris", -- [10]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1526280224,
 				["eN"] = "Il'gynoth, The Heart of Corruption",
-				["eI"] = 1873,
 				["d"] = 15,
 				["g"] = 10,
-				["t"] = 1526280224,
+				["eI"] = 1873,
 			}, -- [1833]
 			{
 				"EWolfenstéin-WyrmrestAccord", -- [1]
@@ -60803,11 +60895,11 @@ VExRT = {
 				"IPraý-Eonar", -- [9]
 				"CDreadwolf-Fenris", -- [10]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1526280540,
 				["eN"] = "Elerethe Renferal",
-				["eI"] = 1876,
 				["d"] = 15,
 				["g"] = 10,
-				["t"] = 1526280540,
+				["eI"] = 1876,
 			}, -- [1834]
 			{
 				"EWolfenstéin-WyrmrestAccord", -- [1]
@@ -60821,11 +60913,11 @@ VExRT = {
 				"IPraý-Eonar", -- [9]
 				"CDreadwolf-Fenris", -- [10]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1526280750,
 				["eN"] = "Dragons of Nightmare",
-				["eI"] = 1854,
 				["d"] = 15,
 				["g"] = 10,
-				["t"] = 1526280750,
+				["eI"] = 1854,
 			}, -- [1835]
 			{
 				"EWolfenstéin-WyrmrestAccord", -- [1]
@@ -60839,11 +60931,11 @@ VExRT = {
 				"IPraý-Eonar", -- [9]
 				"CDreadwolf-Fenris", -- [10]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1526280986,
 				["eN"] = "Ursoc",
-				["eI"] = 1841,
 				["d"] = 15,
 				["g"] = 10,
-				["t"] = 1526280986,
+				["eI"] = 1841,
 			}, -- [1836]
 			{
 				"EWolfenstéin-WyrmrestAccord", -- [1]
@@ -60857,11 +60949,11 @@ VExRT = {
 				"IPraý-Eonar", -- [9]
 				"CDreadwolf-Fenris", -- [10]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1526281317,
 				["eN"] = "Cenarius",
-				["eI"] = 1877,
 				["d"] = 15,
 				["g"] = 10,
-				["t"] = 1526281317,
+				["eI"] = 1877,
 			}, -- [1837]
 			{
 				"EWolfenstéin-WyrmrestAccord", -- [1]
@@ -60875,11 +60967,11 @@ VExRT = {
 				"IPraý-Eonar", -- [9]
 				"CDreadwolf-Fenris", -- [10]
 				["c"] = "Amranar-Proudmoore",
+				["t"] = 1526281536,
 				["eN"] = "Xavius",
-				["eI"] = 1864,
 				["d"] = 15,
 				["g"] = 10,
-				["t"] = 1526281536,
+				["eI"] = 1864,
 			}, -- [1838]
 			{
 				"BKalithumos", -- [1]
@@ -60900,11 +60992,11 @@ VExRT = {
 				"KEllestria", -- [16]
 				"KSelendis", -- [17]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1526864718,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2092,
 			}, -- [1839]
 			{
 				"BKalithumos", -- [1]
@@ -60928,11 +61020,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1526866547,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1840]
 			{
 				"BKalithumos", -- [1]
@@ -60956,11 +61048,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1526866731,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1841]
 			{
 				"BKalithumos", -- [1]
@@ -60984,11 +61076,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1526866955,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1842]
 			{
 				"BKalithumos", -- [1]
@@ -61012,11 +61104,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1526867152,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1843]
 			{
 				"BKalithumos", -- [1]
@@ -61040,11 +61132,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1526867299,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1844]
 			{
 				"BBlakeyboy", -- [1]
@@ -61068,11 +61160,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526955289,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526955289,
+				["eI"] = 2092,
 			}, -- [1845]
 			{
 				"BBlakeyboy", -- [1]
@@ -61096,11 +61188,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526956057,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526956057,
+				["eI"] = 2092,
 			}, -- [1846]
 			{
 				"BBlakeyboy", -- [1]
@@ -61124,11 +61216,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526956405,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526956405,
+				["eI"] = 2092,
 			}, -- [1847]
 			{
 				"BBlakeyboy", -- [1]
@@ -61152,11 +61244,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526956572,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526956572,
+				["eI"] = 2092,
 			}, -- [1848]
 			{
 				"BBlakeyboy", -- [1]
@@ -61180,11 +61272,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526956779,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526956779,
+				["eI"] = 2092,
 			}, -- [1849]
 			{
 				"BBlakeyboy", -- [1]
@@ -61208,11 +61300,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526956940,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526956940,
+				["eI"] = 2092,
 			}, -- [1850]
 			{
 				"BKalithumos", -- [1]
@@ -61236,11 +61328,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526957138,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526957138,
+				["eI"] = 2092,
 			}, -- [1851]
 			{
 				"BKalithumos", -- [1]
@@ -61264,11 +61356,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526957282,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526957282,
+				["eI"] = 2092,
 			}, -- [1852]
 			{
 				"BKalithumos", -- [1]
@@ -61292,11 +61384,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526957480,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526957480,
+				["eI"] = 2092,
 			}, -- [1853]
 			{
 				"BKalithumos", -- [1]
@@ -61320,11 +61412,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526957796,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526957796,
+				["eI"] = 2092,
 			}, -- [1854]
 			{
 				"BKalithumos", -- [1]
@@ -61348,11 +61440,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526958050,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526958050,
+				["eI"] = 2092,
 			}, -- [1855]
 			{
 				"BKalithumos", -- [1]
@@ -61376,11 +61468,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526958223,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526958223,
+				["eI"] = 2092,
 			}, -- [1856]
 			{
 				"BKalithumos", -- [1]
@@ -61404,11 +61496,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526958386,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526958386,
+				["eI"] = 2092,
 			}, -- [1857]
 			{
 				"BKalithumos", -- [1]
@@ -61432,11 +61524,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526958564,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526958564,
+				["eI"] = 2092,
 			}, -- [1858]
 			{
 				"BKalithumos", -- [1]
@@ -61460,11 +61552,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526958737,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526958737,
+				["eI"] = 2092,
 			}, -- [1859]
 			{
 				"BKalithumos", -- [1]
@@ -61488,11 +61580,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526958892,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526958892,
+				["eI"] = 2092,
 			}, -- [1860]
 			{
 				"BKalithumos", -- [1]
@@ -61516,11 +61608,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526959098,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526959098,
+				["eI"] = 2092,
 			}, -- [1861]
 			{
 				"BKalithumos", -- [1]
@@ -61544,11 +61636,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526959368,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526959368,
+				["eI"] = 2092,
 			}, -- [1862]
 			{
 				"BKalithumos", -- [1]
@@ -61572,11 +61664,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526959703,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526959703,
+				["eI"] = 2092,
 			}, -- [1863]
 			{
 				"BKalithumos", -- [1]
@@ -61600,11 +61692,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526959924,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526959924,
+				["eI"] = 2092,
 			}, -- [1864]
 			{
 				"BKalithumos", -- [1]
@@ -61628,11 +61720,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526960153,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526960153,
+				["eI"] = 2092,
 			}, -- [1865]
 			{
 				"BKalithumos", -- [1]
@@ -61656,11 +61748,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526960308,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526960308,
+				["eI"] = 2092,
 			}, -- [1866]
 			{
 				"BKalithumos", -- [1]
@@ -61684,11 +61776,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526960538,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526960538,
+				["eI"] = 2092,
 			}, -- [1867]
 			{
 				"BKalithumos", -- [1]
@@ -61712,11 +61804,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526960780,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526960780,
+				["eI"] = 2092,
 			}, -- [1868]
 			{
 				"BKalithumos", -- [1]
@@ -61740,11 +61832,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526960995,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526960995,
+				["eI"] = 2092,
 			}, -- [1869]
 			{
 				"BKalithumos", -- [1]
@@ -61768,11 +61860,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526961212,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526961212,
+				["eI"] = 2092,
 			}, -- [1870]
 			{
 				"BKalithumos", -- [1]
@@ -61796,11 +61888,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"ECelaniia", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1526961440,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1526961440,
+				["eI"] = 2092,
 			}, -- [1871]
 			{
 				"HThesoundfour", -- [1]
@@ -61833,11 +61925,11 @@ VExRT = {
 				"BSeguralaniña-Nemesis", -- [28]
 				"FAprocalypse-Frostmourne", -- [29]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527226729,
-				["eI"] = 2063,
-				["d"] = 15,
-				["g"] = 29,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["t"] = 1527226729,
+				["g"] = 29,
+				["d"] = 15,
 			}, -- [1872]
 			{
 				"HThesoundfour", -- [1]
@@ -61864,11 +61956,11 @@ VExRT = {
 				"EMallusof", -- [22]
 				"LJxo", -- [23]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527227400,
-				["eI"] = 2063,
-				["d"] = 15,
-				["g"] = 23,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["t"] = 1527227400,
+				["g"] = 23,
+				["d"] = 15,
 			}, -- [1873]
 			{
 				"HThesoundfour", -- [1]
@@ -61894,11 +61986,11 @@ VExRT = {
 				"JOverbudget-Proudmoore", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527227798,
-				["eI"] = 2063,
-				["d"] = 15,
-				["g"] = 22,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["t"] = 1527227798,
+				["g"] = 22,
+				["d"] = 15,
 			}, -- [1874]
 			{
 				"HThesoundfour", -- [1]
@@ -61924,11 +62016,11 @@ VExRT = {
 				"KMarle-Dalaran", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527228644,
-				["eI"] = 2092,
-				["d"] = 15,
-				["g"] = 22,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1527228644,
+				["g"] = 22,
+				["d"] = 15,
 			}, -- [1875]
 			{
 				"HThesoundfour", -- [1]
@@ -61954,11 +62046,11 @@ VExRT = {
 				"KMarle-Dalaran", -- [21]
 				"EMallusof", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527229195,
-				["eI"] = 2092,
-				["d"] = 15,
-				["g"] = 22,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1527229195,
+				["g"] = 22,
+				["d"] = 15,
 			}, -- [1876]
 			{
 				"BKalithumos", -- [1]
@@ -61975,11 +62067,11 @@ VExRT = {
 				"HKaligon", -- [12]
 				"BAcekicker", -- [13]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527559062,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1527559062,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1877]
 			{
 				"BKalithumos", -- [1]
@@ -62003,11 +62095,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527560047,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527560047,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1878]
 			{
 				"BKalithumos", -- [1]
@@ -62031,11 +62123,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527560255,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527560255,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1879]
 			{
 				"BKalithumos", -- [1]
@@ -62059,11 +62151,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527560424,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527560424,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1880]
 			{
 				"BKalithumos", -- [1]
@@ -62087,11 +62179,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527560559,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527560559,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1881]
 			{
 				"BKalithumos", -- [1]
@@ -62115,11 +62207,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527560738,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527560738,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1882]
 			{
 				"BKalithumos", -- [1]
@@ -62143,11 +62235,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527561194,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527561194,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1883]
 			{
 				"BKalithumos", -- [1]
@@ -62171,11 +62263,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527561437,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527561437,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1884]
 			{
 				"BKalithumos", -- [1]
@@ -62199,11 +62291,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527561570,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527561570,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1885]
 			{
 				"BKalithumos", -- [1]
@@ -62227,11 +62319,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527561739,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527561739,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1886]
 			{
 				"BKalithumos", -- [1]
@@ -62255,11 +62347,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527561861,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527561861,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1887]
 			{
 				"BKalithumos", -- [1]
@@ -62283,11 +62375,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527562044,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527562044,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1888]
 			{
 				"BKalithumos", -- [1]
@@ -62311,11 +62403,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527562187,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527562187,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1889]
 			{
 				"BKalithumos", -- [1]
@@ -62339,11 +62431,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527562935,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527562935,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1890]
 			{
 				"BKalithumos", -- [1]
@@ -62367,11 +62459,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527563144,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527563144,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1891]
 			{
 				"BKalithumos", -- [1]
@@ -62395,11 +62487,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527563653,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527563653,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1892]
 			{
 				"BKalithumos", -- [1]
@@ -62423,11 +62515,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527563956,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527563956,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1893]
 			{
 				"BKalithumos", -- [1]
@@ -62451,11 +62543,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527564113,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527564113,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1894]
 			{
 				"BKalithumos", -- [1]
@@ -62479,11 +62571,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527564306,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527564306,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1895]
 			{
 				"BKalithumos", -- [1]
@@ -62507,11 +62599,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527564643,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527564643,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1896]
 			{
 				"BKalithumos", -- [1]
@@ -62535,11 +62627,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527564957,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527564957,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1897]
 			{
 				"BKalithumos", -- [1]
@@ -62563,11 +62655,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527565111,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527565111,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1898]
 			{
 				"BKalithumos", -- [1]
@@ -62591,11 +62683,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527565322,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527565322,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1899]
 			{
 				"BKalithumos", -- [1]
@@ -62619,11 +62711,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527565646,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527565646,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1900]
 			{
 				"BKalithumos", -- [1]
@@ -62647,11 +62739,11 @@ VExRT = {
 				"BPanly", -- [19]
 				"KSelendis", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527566170,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527566170,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1901]
 			{
 				"DSkwirlin", -- [1]
@@ -62685,11 +62777,11 @@ VExRT = {
 				"EDocmad-Frostmourne", -- [29]
 				"FBleachblond-Sargeras", -- [30]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1527567378,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 14,
-				["g"] = 30,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1527567378,
+				["g"] = 30,
+				["d"] = 14,
 			}, -- [1902]
 			{
 				"FJilok-Stormrage", -- [1]
@@ -62714,11 +62806,11 @@ VExRT = {
 				"GBossyb-Proudmoore", -- [20]
 				"EToximk-Sargeras", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Aggramar",
-				["eI"] = 2063,
 				["t"] = 1527988128,
 				["g"] = 21,
-				["d"] = 15,
+				["eI"] = 2063,
 			}, -- [1903]
 			{
 				"FJilok-Stormrage", -- [1]
@@ -62747,11 +62839,11 @@ VExRT = {
 				"LAnguisher-Lightbringer", -- [24]
 				"HIggby-Frostmourne", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1527989081,
 				["g"] = 24,
-				["d"] = 15,
+				["eI"] = 2092,
 			}, -- [1904]
 			{
 				"FTrövão-Gallywix", -- [1]
@@ -62777,11 +62869,11 @@ VExRT = {
 				["eN"] = "Argus the Unmaker",
 				["d"] = 14,
 				["g"] = 22,
-				["t"] = 1527989976,
+				[21] = "BSonecaks-Gallywix",
 				["eI"] = 2092,
 				[22] = "BVue",
 				[23] = "BCarthm-Gallywix",
-				[21] = "BSonecaks-Gallywix",
+				["t"] = 1527989976,
 			}, -- [1905]
 			{
 				"KAntidoses-EmeraldDream", -- [1]
@@ -62801,11 +62893,11 @@ VExRT = {
 				"CYunmei-Hellscream", -- [15]
 				"EDelani-Stormrage", -- [16]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 14,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1527990807,
 				["g"] = 16,
-				["d"] = 14,
+				["eI"] = 2092,
 			}, -- [1906]
 			{
 				"IReportmepls", -- [1]
@@ -62828,11 +62920,11 @@ VExRT = {
 				"KDrexella", -- [18]
 				"EDeathbysexi", -- [19]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528074324,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528074324,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1907]
 			{
 				"BKalithumos", -- [1]
@@ -62856,11 +62948,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528074936,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528074936,
+				["eI"] = 2092,
 			}, -- [1908]
 			{
 				"BKalithumos", -- [1]
@@ -62884,11 +62976,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528075547,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528075547,
+				["eI"] = 2092,
 			}, -- [1909]
 			{
 				"BKalithumos", -- [1]
@@ -62912,11 +63004,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528075725,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528075725,
+				["eI"] = 2092,
 			}, -- [1910]
 			{
 				"BKalithumos", -- [1]
@@ -62940,11 +63032,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528075999,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528075999,
+				["eI"] = 2092,
 			}, -- [1911]
 			{
 				"BKalithumos", -- [1]
@@ -62968,11 +63060,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528076239,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528076239,
+				["eI"] = 2092,
 			}, -- [1912]
 			{
 				"BKalithumos", -- [1]
@@ -62996,11 +63088,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528076798,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528076798,
+				["eI"] = 2092,
 			}, -- [1913]
 			{
 				"BKalithumos", -- [1]
@@ -63024,11 +63116,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528076971,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528076971,
+				["eI"] = 2092,
 			}, -- [1914]
 			{
 				"BKalithumos", -- [1]
@@ -63052,11 +63144,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528077134,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528077134,
+				["eI"] = 2092,
 			}, -- [1915]
 			{
 				"BKalithumos", -- [1]
@@ -63080,11 +63172,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528077623,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528077623,
+				["eI"] = 2092,
 			}, -- [1916]
 			{
 				"BKalithumos", -- [1]
@@ -63108,11 +63200,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528077786,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528077786,
+				["eI"] = 2092,
 			}, -- [1917]
 			{
 				"BKalithumos", -- [1]
@@ -63136,11 +63228,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528078388,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528078388,
+				["eI"] = 2092,
 			}, -- [1918]
 			{
 				"BKalithumos", -- [1]
@@ -63164,11 +63256,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528078571,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1528078571,
+				["eI"] = 2092,
 			}, -- [1919]
 			{
 				"BKalithumos", -- [1]
@@ -63192,11 +63284,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528079593,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528079593,
 			}, -- [1920]
 			{
 				"BKalithumos", -- [1]
@@ -63220,11 +63312,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528079910,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528079910,
 			}, -- [1921]
 			{
 				"BKalithumos", -- [1]
@@ -63248,11 +63340,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528080516,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528080516,
 			}, -- [1922]
 			{
 				"BKalithumos", -- [1]
@@ -63276,11 +63368,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528080666,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528080666,
 			}, -- [1923]
 			{
 				"BKalithumos", -- [1]
@@ -63304,11 +63396,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528080824,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528080824,
 			}, -- [1924]
 			{
 				"BKalithumos", -- [1]
@@ -63332,11 +63424,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528081139,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528081139,
 			}, -- [1925]
 			{
 				"BKalithumos", -- [1]
@@ -63360,11 +63452,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528081292,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528081292,
 			}, -- [1926]
 			{
 				"BKalithumos", -- [1]
@@ -63388,11 +63480,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528081669,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528081669,
 			}, -- [1927]
 			{
 				"BKalithumos", -- [1]
@@ -63416,11 +63508,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528081812,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528081812,
 			}, -- [1928]
 			{
 				"BKalithumos", -- [1]
@@ -63444,11 +63536,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528082469,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528082469,
 			}, -- [1929]
 			{
 				"BKalithumos", -- [1]
@@ -63472,11 +63564,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528082815,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528082815,
 			}, -- [1930]
 			{
 				"BKalithumos", -- [1]
@@ -63500,11 +63592,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528083307,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528083307,
 			}, -- [1931]
 			{
 				"BKalithumos", -- [1]
@@ -63528,11 +63620,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528083527,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528083527,
 			}, -- [1932]
 			{
 				"BKalithumos", -- [1]
@@ -63556,11 +63648,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528083711,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528083711,
 			}, -- [1933]
 			{
 				"BKalithumos", -- [1]
@@ -63584,11 +63676,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528084307,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528084307,
 			}, -- [1934]
 			{
 				"BKalithumos", -- [1]
@@ -63612,11 +63704,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528084444,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528084444,
 			}, -- [1935]
 			{
 				"BKalithumos", -- [1]
@@ -63640,11 +63732,11 @@ VExRT = {
 				"FZaelsynth", -- [19]
 				"ICalandra-Blackrock", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2092,
-				["t"] = 1528084621,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1528084621,
 			}, -- [1936]
 			{
 				"BBlakeyboy", -- [1]
@@ -63658,11 +63750,11 @@ VExRT = {
 				"BPanly", -- [9]
 				"HKalethia", -- [10]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1528768772,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1937]
 			{
 				"CKidbart-Nemesis", -- [1]
@@ -63689,11 +63781,11 @@ VExRT = {
 				"ADyond-Sargeras", -- [22]
 				"HThiccnaros-Stormrage", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1528781262,
 				["eN"] = "Varimathras",
-				["eI"] = 2069,
 				["d"] = 14,
 				["g"] = 23,
-				["t"] = 1528781262,
+				["eI"] = 2069,
 			}, -- [1938]
 			{
 				"EMallusof", -- [1]
@@ -63721,11 +63813,11 @@ VExRT = {
 				"KThilandes-Aggramar", -- [23]
 				"LOnikitsune-Whisperwind", -- [24]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2076,
-				["eN"] = "Garothi Worldbreaker",
 				["t"] = 1529122882,
 				["g"] = 24,
-				["d"] = 15,
+				["eN"] = "Garothi Worldbreaker",
 			}, -- [1939]
 			{
 				"EMallusof", -- [1]
@@ -63750,11 +63842,11 @@ VExRT = {
 				"DRaxtordone-Stormrage", -- [20]
 				"HZaftigg-Dalaran", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1529123787,
 				["g"] = 21,
-				["d"] = 15,
+				["eN"] = "Aggramar",
 			}, -- [1940]
 			{
 				"EMallusof", -- [1]
@@ -63780,11 +63872,11 @@ VExRT = {
 				"BMournblade-Blackhand", -- [21]
 				"HZaftigg-Dalaran", -- [22]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1529124247,
 				["g"] = 22,
-				["d"] = 15,
+				["eN"] = "Aggramar",
 			}, -- [1941]
 			{
 				"EMallusof", -- [1]
@@ -63809,11 +63901,11 @@ VExRT = {
 				"DRaxtordone-Stormrage", -- [20]
 				"BShirubap-Sargeras", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2063,
-				["eN"] = "Aggramar",
 				["t"] = 1529124922,
 				["g"] = 21,
-				["d"] = 15,
+				["eN"] = "Aggramar",
 			}, -- [1942]
 			{
 				"KDingu-Kel'Thuzad", -- [1]
@@ -63842,11 +63934,11 @@ VExRT = {
 				"AShuly-Kil'jaeden", -- [24]
 				"IImgarbo-Thrall", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2063,
-				["t"] = 1529130968,
-				["g"] = 24,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 15,
+				["g"] = 24,
+				["t"] = 1529130968,
 			}, -- [1943]
 			{
 				"KDingu-Kel'Thuzad", -- [1]
@@ -63875,11 +63967,11 @@ VExRT = {
 				"AShuly-Kil'jaeden", -- [24]
 				"IImgarbo-Thrall", -- [25]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 15,
-				["eI"] = 2063,
-				["t"] = 1529132189,
-				["g"] = 24,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 15,
+				["g"] = 24,
+				["t"] = 1529132189,
 			}, -- [1944]
 			{
 				"KDingu-Kel'Thuzad", -- [1]
@@ -63901,8 +63993,8 @@ VExRT = {
 				[13] = "EMallusof",
 				[7] = "CArthshot-ScarletCrusade",
 				[14] = "HAsahina-Lightbringer",
-				[16] = "AThroneghost-Frostmourne",
 				[23] = "GMasonmoore-Lightbringer",
+				[16] = "AThroneghost-Frostmourne",
 			}, -- [1945]
 			{
 				"FToeland-Stormrage", -- [1]
@@ -63922,11 +64014,11 @@ VExRT = {
 				"EMallusof", -- [15]
 				"IPredátor-EchoIsles", -- [16]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eN"] = "The Coven of Shivarra",
-				["t"] = 1529132699,
-				["g"] = 16,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["d"] = 14,
+				["g"] = 16,
+				["t"] = 1529132699,
 			}, -- [1946]
 			{
 				"FToeland-Stormrage", -- [1]
@@ -63950,11 +64042,11 @@ VExRT = {
 				"BBwy-Frostmourne", -- [19]
 				"FZevrash-Stormrage", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2063,
-				["t"] = 1529133500,
-				["g"] = 20,
 				["eN"] = "Aggramar",
+				["eI"] = 2063,
+				["d"] = 14,
+				["g"] = 20,
+				["t"] = 1529133500,
 			}, -- [1947]
 			{
 				"FToeland-Stormrage", -- [1]
@@ -63980,11 +64072,11 @@ VExRT = {
 				"IMelaeri-Stormrage", -- [21]
 				"IVellrot-Stormrage", -- [22]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 14,
-				["eI"] = 2092,
-				["t"] = 1529134133,
-				["g"] = 22,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["d"] = 14,
+				["g"] = 22,
+				["t"] = 1529134133,
 			}, -- [1948]
 			{
 				"BBlakeyboy", -- [1]
@@ -64000,11 +64092,11 @@ VExRT = {
 				"EMallusof", -- [11]
 				"LTetsuen", -- [12]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1529373590,
-				["eI"] = 2092,
-				["d"] = 16,
-				["g"] = 20,
 				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1529373590,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1949]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64028,11 +64120,11 @@ VExRT = {
 				"IEmberjack-Malygos", -- [19]
 				"KOlder-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1958,
-				["t"] = 1529722168,
-				["g"] = 20,
 				["eN"] = "Odyn",
+				["eI"] = 1958,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529722168,
 			}, -- [1950]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64056,11 +64148,11 @@ VExRT = {
 				"BCeledhring-Icecrown", -- [19]
 				"FAlgo-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1962,
-				["t"] = 1529723023,
-				["g"] = 20,
 				["eN"] = "Guarm",
+				["eI"] = 1962,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529723023,
 			}, -- [1951]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64084,11 +64176,11 @@ VExRT = {
 				"BCeledhring-Icecrown", -- [19]
 				"FAlgo-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2008,
-				["t"] = 1529723995,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529723995,
 			}, -- [1952]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64112,11 +64204,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CFoxpaw-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 2008,
-				["t"] = 1529724371,
-				["g"] = 20,
 				["eN"] = "Helya",
+				["eI"] = 2008,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529724371,
 			}, -- [1953]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64140,11 +64232,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CFoxpaw-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1872,
-				["t"] = 1529725299,
-				["g"] = 20,
 				["eN"] = "Grand Magistrix Elisande",
+				["eI"] = 1872,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529725299,
 			}, -- [1954]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64168,11 +64260,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CFoxpaw-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1872,
-				["t"] = 1529725372,
-				["g"] = 20,
 				["eN"] = "Grand Magistrix Elisande",
+				["eI"] = 1872,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529725372,
 			}, -- [1955]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64196,11 +64288,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CFoxpaw-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1529725839,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529725839,
 			}, -- [1956]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64224,11 +64316,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CFoxpaw-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1529726321,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529726321,
 			}, -- [1957]
 			{
 				"KGbits-Icecrown", -- [1]
@@ -64252,11 +64344,11 @@ VExRT = {
 				"EMallusof", -- [19]
 				"CFoxpaw-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["d"] = 16,
-				["eI"] = 1866,
-				["t"] = 1529726994,
-				["g"] = 20,
 				["eN"] = "Gul'dan",
+				["eI"] = 1866,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1529726994,
 			}, -- [1958]
 			{
 				"LTetsuen", -- [1]
@@ -64280,11 +64372,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1529888617,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2092,
 			}, -- [1959]
 			{
 				"LTetsuen", -- [1]
@@ -64308,11 +64400,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1529889129,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2092,
 			}, -- [1960]
 			{
 				"LTetsuen", -- [1]
@@ -64336,11 +64428,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1529889264,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2092,
 			}, -- [1961]
 			{
 				"LTetsuen", -- [1]
@@ -64364,11 +64456,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1529889414,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2092,
 			}, -- [1962]
 			{
 				"LTetsuen", -- [1]
@@ -64392,11 +64484,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"EMallusof", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1529889518,
 				["g"] = 20,
-				["d"] = 16,
+				["eI"] = 2092,
 			}, -- [1963]
 			{
 				"JMómmy-MoonGuard", -- [1]
@@ -64423,161 +64515,161 @@ VExRT = {
 				"JVy-Kil'jaeden", -- [22]
 				"BDurric-Stormrage", -- [23]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eI"] = 2092,
-				["eN"] = "Argus the Unmaker",
 				["t"] = 1529979118,
 				["g"] = 23,
-				["d"] = 15,
+				["eN"] = "Argus the Unmaker",
 			}, -- [1964]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1132,
-				["t"] = 1530501299,
-				["g"] = 10,
 				["eN"] = "Flame Leviathan",
+				["eI"] = 1132,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530501299,
 			}, -- [1965]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1136,
-				["t"] = 1530501423,
-				["g"] = 10,
 				["eN"] = "Ignis the Furnace Master",
+				["eI"] = 1136,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530501423,
 			}, -- [1966]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1139,
-				["t"] = 1530501462,
-				["g"] = 10,
 				["eN"] = "Razorscale",
+				["eI"] = 1139,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530501462,
 			}, -- [1967]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1142,
-				["t"] = 1530501619,
-				["g"] = 10,
 				["eN"] = "XT-002 Deconstructor",
+				["eI"] = 1142,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530501619,
 			}, -- [1968]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1140,
-				["t"] = 1530501748,
-				["g"] = 10,
 				["eN"] = "The Assembly of Iron",
+				["eI"] = 1140,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530501748,
 			}, -- [1969]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1137,
-				["t"] = 1530501849,
-				["g"] = 10,
 				["eN"] = "Kologarn",
+				["eI"] = 1137,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530501849,
 			}, -- [1970]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1131,
-				["t"] = 1530501980,
-				["g"] = 10,
 				["eN"] = "Auriaya",
+				["eI"] = 1131,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530501980,
 			}, -- [1971]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1135,
-				["t"] = 1530502102,
-				["g"] = 10,
 				["eN"] = "Hodir",
+				["eI"] = 1135,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530502102,
 			}, -- [1972]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1131,
-				["t"] = 1530502146,
-				["g"] = 10,
 				["eN"] = "Auriaya",
+				["eI"] = 1131,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530502146,
 			}, -- [1973]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1141,
-				["t"] = 1530502207,
-				["g"] = 10,
 				["eN"] = "Thorim",
+				["eI"] = 1141,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530502207,
 			}, -- [1974]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1133,
-				["t"] = 1530502401,
-				["g"] = 10,
 				["eN"] = "Freya",
+				["eI"] = 1133,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530502401,
 			}, -- [1975]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1138,
-				["t"] = 1530502521,
-				["g"] = 10,
 				["eN"] = "Mimiron",
+				["eI"] = 1138,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530502521,
 			}, -- [1976]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1134,
-				["t"] = 1530502965,
-				["g"] = 10,
 				["eN"] = "General Vezax",
+				["eI"] = 1134,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530502965,
 			}, -- [1977]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1143,
-				["t"] = 1530503059,
-				["g"] = 10,
 				["eN"] = "Yogg-Saron",
+				["eI"] = 1143,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530503059,
 			}, -- [1978]
 			{
 				"IZethan", -- [1]
 				"HAsahina-Lightbringer", -- [2]
 				["c"] = "Zethan-Tichondrius",
-				["d"] = 14,
-				["eI"] = 1143,
-				["t"] = 1530503163,
-				["g"] = 10,
 				["eN"] = "Yogg-Saron",
+				["eI"] = 1143,
+				["d"] = 14,
+				["g"] = 10,
+				["t"] = 1530503163,
 			}, -- [1979]
 			{
 				"GElebits-Icecrown", -- [1]
@@ -64601,11 +64693,11 @@ VExRT = {
 				"AOldes-Icecrown", -- [19]
 				"DPajamaas-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1958,
-				["eN"] = "Odyn",
 				["t"] = 1530930013,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Odyn",
 			}, -- [1980]
 			{
 				"GElebits-Icecrown", -- [1]
@@ -64629,11 +64721,11 @@ VExRT = {
 				"CFrippouille-Icecrown", -- [19]
 				"BLuceo-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1962,
-				["eN"] = "Guarm",
 				["t"] = 1530930576,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Guarm",
 			}, -- [1981]
 			{
 				"BCeledhring-Icecrown", -- [1]
@@ -64657,11 +64749,11 @@ VExRT = {
 				"CFrippouille-Icecrown", -- [19]
 				"BLuceo-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 2008,
-				["eN"] = "Helya",
 				["t"] = 1530931549,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Helya",
 			}, -- [1982]
 			{
 				"BCeledhring-Icecrown", -- [1]
@@ -64685,11 +64777,11 @@ VExRT = {
 				"CFrippouille-Icecrown", -- [19]
 				"BLuceo-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1872,
-				["eN"] = "Grand Magistrix Elisande",
 				["t"] = 1530932412,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Grand Magistrix Elisande",
 			}, -- [1983]
 			{
 				"BCeledhring-Icecrown", -- [1]
@@ -64713,11 +64805,11 @@ VExRT = {
 				"CFrippouille-Icecrown", -- [19]
 				"BLuceo-Icecrown", -- [20]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 16,
 				["eI"] = 1866,
-				["eN"] = "Gul'dan",
 				["t"] = 1530932915,
 				["g"] = 20,
-				["d"] = 16,
+				["eN"] = "Gul'dan",
 			}, -- [1984]
 			{
 				"BKalithumos", -- [1]
@@ -64741,11 +64833,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531098616,
-				["eN"] = "Garothi Worldbreaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2076,
+				["eN"] = "Garothi Worldbreaker",
+				["t"] = 1531098616,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1985]
 			{
 				"BKalithumos", -- [1]
@@ -64770,11 +64862,11 @@ VExRT = {
 				"BPanly", -- [20]
 				"LJacktherpper", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531099193,
-				["eN"] = "Varimathras",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2069,
+				["eN"] = "Varimathras",
+				["t"] = 1531099193,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1986]
 			{
 				"BKalithumos", -- [1]
@@ -64799,11 +64891,11 @@ VExRT = {
 				"BPanly", -- [20]
 				"IReportmepls", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531099289,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531099289,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1987]
 			{
 				"BKalithumos", -- [1]
@@ -64828,11 +64920,11 @@ VExRT = {
 				"BPanly", -- [20]
 				"IReportmepls", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531099336,
-				["eN"] = "The Coven of Shivarra",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2073,
+				["eN"] = "The Coven of Shivarra",
+				["t"] = 1531099336,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1988]
 			{
 				"BKalithumos", -- [1]
@@ -64857,11 +64949,11 @@ VExRT = {
 				"BPanly", -- [20]
 				"IReportmepls", -- [21]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531099397,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531099397,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1989]
 			{
 				"BKalithumos", -- [1]
@@ -64885,11 +64977,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531099882,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531099882,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1990]
 			{
 				"BKalithumos", -- [1]
@@ -64913,11 +65005,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531100026,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531100026,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1991]
 			{
 				"BKalithumos", -- [1]
@@ -64941,11 +65033,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531100248,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531100248,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1992]
 			{
 				"BKalithumos", -- [1]
@@ -64969,11 +65061,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531100659,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531100659,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1993]
 			{
 				"BKalithumos", -- [1]
@@ -64997,11 +65089,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531100942,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531100942,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1994]
 			{
 				"BKalithumos", -- [1]
@@ -65025,11 +65117,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531101505,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531101505,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1995]
 			{
 				"BKalithumos", -- [1]
@@ -65053,11 +65145,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531101672,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531101672,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1996]
 			{
 				"BKalithumos", -- [1]
@@ -65081,11 +65173,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531101845,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531101845,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1997]
 			{
 				"BKalithumos", -- [1]
@@ -65109,11 +65201,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531102444,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531102444,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1998]
 			{
 				"BKalithumos", -- [1]
@@ -65137,11 +65229,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531102936,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531102936,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [1999]
 			{
 				"BKalithumos", -- [1]
@@ -65165,11 +65257,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531103132,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531103132,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2000]
 			{
 				"BKalithumos", -- [1]
@@ -65193,11 +65285,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531103345,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531103345,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2001]
 			{
 				"BKalithumos", -- [1]
@@ -65221,11 +65313,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531104082,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531104082,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2002]
 			{
 				"BKalithumos", -- [1]
@@ -65249,11 +65341,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531104268,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531104268,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2003]
 			{
 				"BKalithumos", -- [1]
@@ -65277,11 +65369,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531104554,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531104554,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2004]
 			{
 				"BKalithumos", -- [1]
@@ -65305,11 +65397,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531104638,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531104638,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2005]
 			{
 				"BKalithumos", -- [1]
@@ -65333,11 +65425,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531104821,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531104821,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2006]
 			{
 				"BKalithumos", -- [1]
@@ -65361,11 +65453,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531104975,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531104975,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2007]
 			{
 				"BKalithumos", -- [1]
@@ -65389,11 +65481,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531105469,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531105469,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2008]
 			{
 				"BKalithumos", -- [1]
@@ -65417,11 +65509,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531105827,
-				["eN"] = "Aggramar",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2063,
+				["eN"] = "Aggramar",
+				["t"] = 1531105827,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2009]
 			{
 				"BKalithumos", -- [1]
@@ -65445,11 +65537,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531108063,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1531108063,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2010]
 			{
 				"BKalithumos", -- [1]
@@ -65473,11 +65565,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531108165,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1531108165,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2011]
 			{
 				"BKalithumos", -- [1]
@@ -65501,11 +65593,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531108763,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1531108763,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2012]
 			{
 				"BKalithumos", -- [1]
@@ -65529,11 +65621,11 @@ VExRT = {
 				"ECelaniia", -- [19]
 				"BPanly", -- [20]
 				["c"] = "Mallusof-Tichondrius",
-				["t"] = 1531108967,
-				["eN"] = "Argus the Unmaker",
-				["d"] = 16,
-				["g"] = 20,
 				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1531108967,
+				["g"] = 20,
+				["d"] = 16,
 			}, -- [2013]
 			{
 				"BBlakeyboy", -- [1]
@@ -65558,11 +65650,11 @@ VExRT = {
 				"FBigsister", -- [20]
 				"FScriixdk-Sargeras", -- [21]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1531188651,
 				["eN"] = "The Coven of Shivarra",
-				["eI"] = 2073,
 				["d"] = 16,
 				["g"] = 20,
-				["t"] = 1531188651,
+				["eI"] = 2073,
 			}, -- [2014]
 			{
 				"AXfalcorn-Ragnaros", -- [1]
@@ -65592,11 +65684,11 @@ VExRT = {
 				"BNashara-EarthenRing", -- [25]
 				"EMysterhealer-Dalaran", -- [26]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1531556887,
 				["g"] = 26,
-				["d"] = 15,
+				["eI"] = 2092,
 			}, -- [2015]
 			{
 				"AXfalcorn-Ragnaros", -- [1]
@@ -65625,11 +65717,11 @@ VExRT = {
 				"BBubblehappy-EmeraldDream", -- [24]
 				"BNashara-EarthenRing", -- [25]
 				["c"] = "Mallusof-Tichondrius",
+				["d"] = 15,
 				["eN"] = "Argus the Unmaker",
-				["eI"] = 2092,
 				["t"] = 1531557248,
 				["g"] = 24,
-				["d"] = 15,
+				["eI"] = 2092,
 			}, -- [2016]
 			{
 				"HAedowyn", -- [1]
@@ -65648,11 +65740,11 @@ VExRT = {
 				"LLaylahh-Frostmourne", -- [14]
 				"JWookoi-Frostmourne", -- [15]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1533790258,
 				["eI"] = 2064,
-				["eN"] = "Portal Keeper Hasabel",
 				["d"] = 14,
 				["g"] = 15,
-				["t"] = 1533790258,
+				["eN"] = "Portal Keeper Hasabel",
 			}, -- [2017]
 			{
 				"HAedowyn", -- [1]
@@ -65670,11 +65762,11 @@ VExRT = {
 				"LLaylahh-Frostmourne", -- [13]
 				"JWookoi-Frostmourne", -- [14]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1533790828,
 				["eI"] = 2075,
-				["eN"] = "The Defense of Eonar",
 				["d"] = 14,
 				["g"] = 14,
-				["t"] = 1533790828,
+				["eN"] = "The Defense of Eonar",
 			}, -- [2018]
 			{
 				"HAedowyn", -- [1]
@@ -65692,11 +65784,11 @@ VExRT = {
 				"LLaylahh-Frostmourne", -- [13]
 				"JWookoi-Frostmourne", -- [14]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1533791464,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["d"] = 14,
 				["g"] = 13,
-				["t"] = 1533791464,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [2019]
 			{
 				"HAedowyn", -- [1]
@@ -65714,11 +65806,11 @@ VExRT = {
 				"LLaylahh-Frostmourne", -- [13]
 				"JWookoi-Frostmourne", -- [14]
 				["c"] = "Mallusof-Tichondrius",
+				["t"] = 1533791751,
 				["eI"] = 2082,
-				["eN"] = "Imonar the Soulhunter",
 				["d"] = 14,
 				["g"] = 14,
-				["t"] = 1533791751,
+				["eN"] = "Imonar the Soulhunter",
 			}, -- [2020]
 		},
 		["alts"] = {
@@ -65732,33 +65824,57 @@ VExRT = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeLowIlvl"] = true,
 		["ColorizeNoTopEnchGems"] = false,
+		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["BattleRes"] = {
-		["enabled"] = true,
-		["Top"] = 356.691162109375,
-		["Left"] = 0,
-		["fix"] = true,
+	["RaidCheck"] = {
+		["BuffsCheck"] = true,
+		["ReadyCheckLeft"] = 479.347473144531,
+		["ReadyCheckFrameScale"] = 100,
+		["ReadyCheck"] = true,
+		["FlaskExp"] = 2,
+		["RunesCheck"] = true,
+		["ReadyCheckTop"] = 1033.10656738281,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["SendSelf"] = true,
+		["disableLFR"] = true,
 	},
-	["WhoPulled"] = {
+	["Bossmods"] = {
+		["ArchimondeRadius"] = 40,
+		["Mannoroth"] = {
+		},
+		["Ilgynoth"] = {
+		},
+		["Kormrok"] = {
+		},
+		["ModuleViewed3580"] = true,
+		["Kromog"] = {
+		},
 	},
 	["Addon"] = {
 		["Version"] = 3940,
-		["Scale"] = 1.01,
 		["IconMiniMapTop"] = -19.312423260428,
-		["Timer"] = 0.1,
-		["IconMiniMapLeft"] = 80,
 		["PreVersion"] = 3940,
+		["IconMiniMapLeft"] = 80,
+		["Timer"] = 0.1,
+		["Scale"] = 1.01,
 	},
-	["InspectArtifact"] = {
-		["players"] = {
+	["MarksBar"] = {
+		["enabled"] = true,
+		["Strata"] = "BACKGROUND",
+		["DisableOutsideRaid"] = true,
+		["Left"] = 3.0699782371521,
+		["Top"] = 887.8525390625,
+		["Fix"] = true,
+		["pulltimer"] = 10,
+		["Show"] = {
+			true, -- [1]
+			true, -- [2]
+			true, -- [3]
+			true, -- [4]
 		},
-	},
-	["Profiles"] = {
-		["default"] = {
-		},
+		["wmKind"] = true,
 	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
@@ -65768,8 +65884,16 @@ VExRT = {
 		["trackingDamageSpells"] = {
 		},
 	},
+	["Profiles"] = {
+		["default"] = {
+		},
+	},
 	["Profile"] = "default",
 	["LootLink"] = {
+	},
+	["Marks"] = {
+		["list"] = {
+		},
 	},
 	["Timers"] = {
 		["specTimes"] = {
@@ -65803,12 +65927,12 @@ VExRT = {
 			[72] = 10,
 			[104] = 10,
 			[73] = 10,
-			[581] = 10,
-			[105] = 10,
-			[577] = 10,
-			[256] = 10,
-			[254] = 10,
 			[252] = 10,
+			[105] = 10,
+			[254] = 10,
+			[256] = 10,
+			[577] = 10,
+			[581] = 10,
 		},
 		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
@@ -65820,50 +65944,18 @@ VExRT = {
 		["enabled"] = true,
 		["OnlyInCombat"] = true,
 	},
-	["Marks"] = {
-		["list"] = {
-		},
-	},
 	["Logging"] = {
 	},
-	["MarksBar"] = {
+	["InspectArtifact"] = {
+		["players"] = {
+		},
+	},
+	["WhoPulled"] = {
+	},
+	["BattleRes"] = {
 		["enabled"] = true,
-		["Strata"] = "BACKGROUND",
-		["DisableOutsideRaid"] = true,
-		["Left"] = 3.0699782371521,
-		["Top"] = 887.8525390625,
-		["Fix"] = true,
-		["pulltimer"] = 10,
-		["wmKind"] = true,
-		["Show"] = {
-			true, -- [1]
-			true, -- [2]
-			true, -- [3]
-			true, -- [4]
-		},
-	},
-	["Bossmods"] = {
-		["ArchimondeRadius"] = 40,
-		["Mannoroth"] = {
-		},
-		["Ilgynoth"] = {
-		},
-		["Kormrok"] = {
-		},
-		["ModuleViewed3580"] = true,
-		["Kromog"] = {
-		},
-	},
-	["RaidCheck"] = {
-		["BuffsCheck"] = true,
-		["ReadyCheckLeft"] = 479.347473144531,
-		["ReadyCheckFrameScale"] = 100,
-		["ReadyCheck"] = true,
-		["FlaskExp"] = 2,
-		["RunesCheck"] = true,
-		["ReadyCheckTop"] = 1033.10656738281,
-		["SendSelf"] = true,
-		["disableLFR"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
+		["Top"] = 356.691162109375,
+		["Left"] = 0,
+		["fix"] = true,
 	},
 }
