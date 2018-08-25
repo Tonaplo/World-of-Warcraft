@@ -13,10 +13,10 @@ Details_StreamerDB = {
 		["Deminath - Hyjal"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
-		["Morifa - Tichondrius"] = "Greybone - Proudmoore",
+		["Zethan - Tichondrius"] = "Greybone - Proudmoore",
+		["Morifa - Proudmoore"] = "Greybone - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Mallusof - Proudmoore",
-		["Rahran - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyal - Proudmoore"] = "Greybone - Proudmoore",
+		["Kindhoof - Tichondrius"] = "Greybone - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Greybone - Proudmoore",
 		["Farahn - Proudmoore"] = "Greybone - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Greybone - Proudmoore",
@@ -24,9 +24,9 @@ Details_StreamerDB = {
 		["Gottagetlia - Aggramar"] = "Mallusof - Proudmoore",
 		["Granjior - Proudmoore"] = "Greybone - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Mallusof - Proudmoore",
-		["Kindhoof - Tichondrius"] = "Greybone - Proudmoore",
-		["Morifa - Proudmoore"] = "Greybone - Proudmoore",
-		["Zethan - Tichondrius"] = "Greybone - Proudmoore",
+		["Miriyal - Proudmoore"] = "Greybone - Proudmoore",
+		["Rahran - Proudmoore"] = "Greybone - Proudmoore",
+		["Morifa - Tichondrius"] = "Greybone - Proudmoore",
 		["Alura - Tichondrius"] = "Greybone - Proudmoore",
 		["Mallusof - Icecrown"] = "Greybone - Proudmoore",
 	},
@@ -56,17 +56,12 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Empty",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = true,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["scale"] = 1,
+			["row_height"] = 21,
+			["point"] = "TOPLEFT",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -74,9 +69,17 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -20.15869140625,
+			["font_size"] = 14,
+			["use_spark"] = false,
+			["x"] = 0,
+			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -84,17 +87,14 @@ Details_StreamerDB = {
 				["font_shadow"] = false,
 				["y"] = 182.153472900391,
 				["x"] = 2.65877819061279,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
+				["update_speed"] = 0.304000020027161,
+				["attribute_type"] = 1,
 			},
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["font_size"] = 14,
-			["author"] = "Details! Team",
-			["point"] = "TOPLEFT",
-			["row_height"] = 21,
-			["scale"] = 1,
+			["y"] = -20.15869140625,
+			["main_frame_strata"] = "LOW",
+			["main_frame_locked"] = true,
+			["arrow_anchor_y"] = 0,
 		},
 		["Mallusof - Proudmoore"] = {
 			["font_color"] = {
@@ -121,17 +121,12 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = true,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["scale"] = 1,
+			["row_height"] = 21,
+			["point"] = "TOPLEFT",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["font_size"] = 14,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -139,12 +134,13 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
-			["y"] = -22.6146240234375,
-			["x"] = 0,
-			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "TOPLEFT",
@@ -152,14 +148,18 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = -269.982299804688,
 				["x"] = 14.120078086853,
-				["attribute_type"] = 2,
-				["update_speed"] = 0.0480000004172325,
 				["size"] = 32,
+				["update_speed"] = 0.0480000004172325,
+				["attribute_type"] = 2,
 			},
-			["font_size"] = 14,
-			["point"] = "TOPLEFT",
-			["row_height"] = 21,
-			["scale"] = 1,
+			["use_spark"] = false,
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["y"] = -22.6146240234375,
+			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
+			["main_frame_locked"] = true,
+			["arrow_anchor_y"] = 0,
 		},
 		["Mallusof - Tichondrius"] = {
 			["font_color"] = {
@@ -186,12 +186,17 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["row_height"] = 21,
-			["point"] = "TOPLEFT",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = true,
+			["main_frame_strata"] = "LOW",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["font_size"] = 14,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -201,6 +206,11 @@ Details_StreamerDB = {
 			},
 			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -22.6146240234375,
+			["font_size"] = 14,
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["use_spark"] = false,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "TOPLEFT",
@@ -208,23 +218,13 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = -269.982299804688,
 				["x"] = 14.120078086853,
-				["size"] = 32,
-				["update_speed"] = 0.0480000004172325,
 				["attribute_type"] = 2,
+				["update_speed"] = 0.0480000004172325,
+				["size"] = 32,
 			},
-			["use_spark"] = false,
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["y"] = -22.6146240234375,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["main_frame_locked"] = true,
-			["arrow_anchor_y"] = 0,
+			["point"] = "TOPLEFT",
+			["row_height"] = 21,
+			["scale"] = 1,
 		},
 	},
 }
