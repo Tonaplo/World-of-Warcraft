@@ -67,9 +67,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1289618897,
+							["Mallusof"] = 1933924105,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -195,6 +195,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -205,10 +210,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -236,10 +237,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1414,38 +1414,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g Azshara is insane, lol", -- [1]
-							"/g Really fits with her story though", -- [2]
-							"/g Like, she thought she would become Sargeras' mate", -- [3]
-							"/g Oh, cant become the wife of a titan? I'll be the queen of a GOD then", -- [4]
-							" Hey bud!", -- [5]
-							"/g Horde faction even", -- [6]
-							"/g (He asked previously if anyone needed a healer)", -- [7]
-							" Hey bud!", -- [8]
-							"/g (He asked previously if anyone needed a healer)", -- [9]
-							"/g Why would you contract 7th?", -- [10]
-							"/g Champions should be your contract :)", -- [11]
-							"/g oh yeah", -- [12]
-							"/g Inscription item", -- [13]
-							"/g alot", -- [14]
-							"/g dont all the extra war campaign quests?", -- [15]
-							"/g asking Celaniia :)", -- [16]
-							"/g like the survey thing in Zuldazar and such", -- [17]
-							"/g Azshara is insane, lol", -- [18]
-							"/g Like, she thought she would become Sargeras' mate", -- [19]
-							" Hey bud!", -- [20]
-							"/g (He asked previously if anyone needed a healer)", -- [21]
-							"/g Why would you contract 7th?", -- [22]
-							"/g oh yeah", -- [23]
-							"/g alot", -- [24]
-							"/g asking Celaniia :)", -- [25]
-							"/g Azshara is insane, lol", -- [26]
-							" Hey bud!", -- [27]
-							"/g Why would you contract 7th?", -- [28]
-							"/g alot", -- [29]
-							"/g Azshara is insane, lol", -- [30]
-							"/g Why would you contract 7th?", -- [31]
-							"/g Azshara is insane, lol", -- [32]
+							"/2 WTB a ton of Siren's Pollen", -- [1]
+							"/g pretty much solo", -- [2]
+							"/g GZ", -- [3]
+							"/g ct?", -- [4]
+							" I think they might have fixed it :)", -- [5]
+							"/p much better", -- [6]
+							"/cw Scyllyqt-Tichondrius that's undercutting you", -- [7]
+							"/g gz", -- [8]
+							"/p you can only healkl", -- [9]
+							"/cw Scyllyqt-Tichondrius 4400", -- [10]
+							"/2 WTB a ton of Siren's Pollen", -- [11]
+							"/g GZ", -- [12]
+							" I think they might have fixed it :)", -- [13]
+							"/cw Scyllyqt-Tichondrius that's undercutting you", -- [14]
+							"/p you can only healkl", -- [15]
+							"/2 WTB a ton of Siren's Pollen", -- [16]
+							" I think they might have fixed it :)", -- [17]
+							"/p you can only healkl", -- [18]
+							" I think they might have fixed it :)", -- [19]
+							" Ryan is about to come by", -- [20]
+							" I know others in the raiding group wants to go though!", -- [21]
+							"/g Kalithumos can I believe", -- [22]
+							"/g how about gloves?", -- [23]
+							"/g YOU HAVE MADE A WISE CHOICE", -- [24]
+							"/g Sorry, channelling my inner Kaligon", -- [25]
+							"/g P", -- [26]
+							" Hi, I'm Ryan", -- [27]
+							" I say I will come visit between 2 and 3 pm", -- [28]
+							" But then I dont show up yet, even though it's 3:07", -- [29]
+							"/6 11465/12000 with Champions", -- [30]
+							"/6 EEEEEEEEEEEEE", -- [31]
+							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -2213,7 +2213,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -2221,7 +2221,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
@@ -2231,7 +2231,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",

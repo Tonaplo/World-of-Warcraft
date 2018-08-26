@@ -129,9 +129,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
+							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 1293303969,
+							["Mallusof"] = 1933924105,
 						},
 					},
 				},
@@ -195,21 +195,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -237,9 +230,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -1021,38 +1021,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/p much better", -- [1]
-							"/p woooo", -- [2]
-							"/p ok", -- [3]
-							"/p mini game", -- [4]
-							"/p need to move eyes to skull", -- [5]
-							"/p elites will steal eyes from you", -- [6]
-							"/p throw them forward", -- [7]
-							"/p throw", -- [8]
-							"/p next eye", -- [9]
-							"/p ok", -- [10]
-							"/p last boss is all adds", -- [11]
-							"/p |cff66bbff|Hjournal:2:18205:23|h[Heart Guardian]|h|r is always prio", -- [12]
-							"/p during healing phase", -- [13]
-							"/p make sure no frogs hit me", -- [14]
-							"/p I will stand at entrance", -- [15]
-							"/p |cff66bbff|Hjournal:2:18297:23|h[Plague]|h|r is what they give when they hit", -- [16]
-							"/p ok so", -- [17]
-							"/p |cff66bbff|Hjournal:2:18205:23|h[Heart Guardian]|h|r first", -- [18]
-							"/p always", -- [19]
-							"/p always always", -- [20]
-							"/p make sure Taods dont hit me", -- [21]
-							"/p kill adds", -- [22]
-							"/p r?", -- [23]
-							"/p no", -- [24]
-							"/p you can only healkl", -- [25]
-							"/p when all hexxers are dead", -- [26]
-							"/p ok", -- [27]
-							"/p bed for me", -- [28]
-							"/p yeah, that was fun :)", -- [29]
-							"/p have a good one! :)", -- [30]
-							"/p yeah you too :)", -- [31]
-							"/p goodnnight! :)", -- [32]
+							" I think they might have fixed it :)", -- [1]
+							"/p you can only healkl", -- [2]
+							" I think they might have fixed it :)", -- [3]
+							" Ryan is about to come by", -- [4]
+							"/g Kalithumos can I believe", -- [5]
+							"/g YOU HAVE MADE A WISE CHOICE", -- [6]
+							"/g P", -- [7]
+							" I say I will come visit between 2 and 3 pm", -- [8]
+							"/6 11465/12000 with Champions", -- [9]
+							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [10]
+							"/g GZ", -- [11]
+							"/cw Scyllyqt-Tichondrius that's undercutting you", -- [12]
+							"/2 WTB a ton of Siren's Pollen", -- [13]
+							"/p you can only healkl", -- [14]
+							" Ryan is about to come by", -- [15]
+							"/g YOU HAVE MADE A WISE CHOICE", -- [16]
+							" I say I will come visit between 2 and 3 pm", -- [17]
+							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [18]
+							"/cw Scyllyqt-Tichondrius that's undercutting you", -- [19]
+							"/p you can only healkl", -- [20]
+							"/g YOU HAVE MADE A WISE CHOICE", -- [21]
+							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [22]
+							"/p you can only healkl", -- [23]
+							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [24]
+							"/cw Kalithumos-Tichondrius yeah 4", -- [25]
+							"/cw Kalithumos-Tichondrius but I''m not running them before much later tonight", -- [26]
+							"/cw Kalithumos-Tichondrius I've done all of those :/ oh well", -- [27]
+							"/cw Kalithumos-Tichondrius yeah indeed", -- [28]
+							"/cw Kalithumos-Tichondrius off again", -- [29]
+							"/cw Kalithumos-Tichondrius just wanted to show Ryan my new laptop :P", -- [30]
+							"/cw Kalithumos-Tichondrius GL! ", -- [31]
+							"/cw Kalithumos-Tichondrius  :)", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1695,7 +1695,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -1703,7 +1703,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
@@ -1713,7 +1713,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
