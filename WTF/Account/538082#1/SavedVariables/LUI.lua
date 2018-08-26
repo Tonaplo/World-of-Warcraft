@@ -129,9 +129,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
-							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -160,10 +160,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 1933924105,
+							["Mallusof"] = 917315220,
 						},
 					},
 				},
@@ -195,14 +195,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -230,16 +237,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1021,38 +1021,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							" I think they might have fixed it :)", -- [1]
-							"/p you can only healkl", -- [2]
-							" I think they might have fixed it :)", -- [3]
-							" Ryan is about to come by", -- [4]
-							"/g Kalithumos can I believe", -- [5]
-							"/g YOU HAVE MADE A WISE CHOICE", -- [6]
-							"/g P", -- [7]
-							" I say I will come visit between 2 and 3 pm", -- [8]
-							"/6 11465/12000 with Champions", -- [9]
-							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [10]
-							"/g GZ", -- [11]
-							"/cw Scyllyqt-Tichondrius that's undercutting you", -- [12]
-							"/2 WTB a ton of Siren's Pollen", -- [13]
-							"/p you can only healkl", -- [14]
-							" Ryan is about to come by", -- [15]
-							"/g YOU HAVE MADE A WISE CHOICE", -- [16]
-							" I say I will come visit between 2 and 3 pm", -- [17]
-							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [18]
-							"/cw Scyllyqt-Tichondrius that's undercutting you", -- [19]
-							"/p you can only healkl", -- [20]
-							"/g YOU HAVE MADE A WISE CHOICE", -- [21]
-							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [22]
-							"/p you can only healkl", -- [23]
-							"/6 Still got 2 Champions world quests to go too, so I think I'll get it today", -- [24]
-							"/cw Kalithumos-Tichondrius yeah 4", -- [25]
-							"/cw Kalithumos-Tichondrius but I''m not running them before much later tonight", -- [26]
-							"/cw Kalithumos-Tichondrius I've done all of those :/ oh well", -- [27]
-							"/cw Kalithumos-Tichondrius yeah indeed", -- [28]
-							"/cw Kalithumos-Tichondrius off again", -- [29]
-							"/cw Kalithumos-Tichondrius just wanted to show Ryan my new laptop :P", -- [30]
-							"/cw Kalithumos-Tichondrius GL! ", -- [31]
-							"/cw Kalithumos-Tichondrius  :)", -- [32]
+							"/g you just go to stormwind", -- [1]
+							"/g open the talents page", -- [2]
+							"/g it might be collapsed", -- [3]
+							"/g |cffe6cc80|Hitem:158075::::::::120:257::11:4:4936:4929:4930:1506:::|h[Heart of Azeroth]|h|r", -- [4]
+							"/g sexy", -- [5]
+							"/g Friendly, Honored and Revered with Champions each gives you a quest", -- [6]
+							"/g that increases the ilvl by 15", -- [7]
+							"/g each quest", -- [8]
+							"/cw Kaligon-Tichondrius I be faaaaast ;P", -- [9]
+							"/g I just hit revered", -- [10]
+							"/cw Kaligon-Tichondrius Contract for Champions", -- [11]
+							"/cw Kaligon-Tichondrius did a metric ton of WQs", -- [12]
+							"/cw Kaligon-Tichondrius and the missions table popped a lot of Champions rep for me", -- [13]
+							"/cw Kaligon-Tichondrius loads of WQs is the main reason", -- [14]
+							"/cw Kaligon-Tichondrius I've cleared both continents prolly 75% of the time", -- [15]
+							"/g nope, it's 116 right?", -- [16]
+							"/g It's part of Warcampaign>?", -- [17]
+							"/g Or maybe you cant queue at 116?", -- [18]
+							"/g PLS", -- [19]
+							"/g |cff0070dd|Hitem:155278::::::::120:256::26:3:4803:1517:4785:::|h[Shiverscale Spellknife]|h|r|cff1eff00|Hitem:160885::::::::120:256:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r", -- [20]
+							"/g behold the might of my weapons", -- [21]
+							"/g No", -- [22]
+							"/g It's amazing", -- [23]
+							"/g no more ridiculkous single stacks", -- [24]
+							"/g significant reduction on load means the AH will be much faster", -- [25]
+							"/g gz", -- [26]
+							"/g good to know!", -- [27]
+							"/g 337", -- [28]
+							"/g 1 ring, both trinkets and my weapons are not 340+", -- [29]
+							"/g Gotta get that champions rep", -- [30]
+							"/g gtg", -- [31]
+							"/g cya! :)", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1147,15 +1147,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1163,6 +1160,9 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 						["Animation"] = "None",
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1290,19 +1290,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1314,11 +1314,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1453,13 +1453,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1471,17 +1465,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1695,7 +1695,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -1703,7 +1703,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
@@ -1713,7 +1713,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
@@ -1748,11 +1748,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kaldorath - Proudmoore"] = {
@@ -1840,9 +1840,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1957,9 +1957,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2054,11 +2054,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -2071,9 +2071,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2105,9 +2105,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
