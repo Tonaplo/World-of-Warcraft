@@ -50,7 +50,7 @@ idTip: disabled
 Immersion: disabled
 Leatrix_Plus: disabled
 LittleWigs: disabled
-LUI: disabled
+LUI: enabled
 OPie: disabled
 Quester: disabled
 RaiderIO: disabled
