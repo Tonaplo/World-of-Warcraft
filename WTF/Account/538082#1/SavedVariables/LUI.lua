@@ -129,9 +129,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
-							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -160,10 +160,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 890868611,
+							["Mallusof"] = 903634679,
 						},
 					},
 				},
@@ -195,14 +195,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -230,16 +237,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1021,38 +1021,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g Imma hit that soon then!", -- [1]
-							" oops, mt", -- [2]
-							"/g arg", -- [3]
-							"/g Imma hit that soon then!", -- [4]
-							"/g arg", -- [5]
-							"/g Optiks is right", -- [6]
-							"/g It is not specific to Tich. ", -- [7]
-							"/g Play on RP servers then", -- [8]
-							"/g arg", -- [9]
-							"/i hey guys!", -- [10]
-							" Holy/Disc", -- [11]
-							" oops, mt", -- [12]
-							"/g Imma hit that soon then!", -- [13]
-							"/g Optiks is right", -- [14]
-							"/g Play on RP servers then", -- [15]
+							"/i hey guys!", -- [1]
+							"/p sup?", -- [2]
+							"/p also", -- [3]
+							"/p it's to the left of chatboc", -- [4]
+							"/g Imma hit that soon then!", -- [5]
+							"/i hey guys!", -- [6]
+							"/p sup?", -- [7]
+							"/p it's to the left of chatboc", -- [8]
+							"/i hey guys!", -- [9]
+							"/p it's to the left of chatboc", -- [10]
+							"/g what about them dont you like?", -- [11]
+							"/g absolutist", -- [12]
+							"/g Bye bye", -- [13]
+							"/cw Checkcasher-Tichondrius Sorry, I was AFK", -- [14]
+							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [15]
 							"/i hey guys!", -- [16]
-							" oops, mt", -- [17]
-							"/g Optiks is right", -- [18]
-							"/i hey guys!", -- [19]
-							"/g Optiks is right", -- [20]
-							"/p sup?", -- [21]
-							"/p We can try", -- [22]
-							"/p I'm sitting with a baby in a wrap to my chest though", -- [23]
-							"/p I cant do skype right now", -- [24]
-							"/p also", -- [25]
-							"/p why not use ingame voice?", -- [26]
-							"/p it's super upgraded from legion", -- [27]
-							"/p default key is t", -- [28]
-							"/p it's to the left of chatboc", -- [29]
-							"/p and baby is waking", -- [30]
-							"/p so I cant go lol", -- [31]
-							"/p sorry", -- [32]
+							"/p also", -- [17]
+							"/g Imma hit that soon then!", -- [18]
+							"/p sup?", -- [19]
+							"/i hey guys!", -- [20]
+							"/g what about them dont you like?", -- [21]
+							"/g Bye bye", -- [22]
+							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [23]
+							"/p also", -- [24]
+							"/p sup?", -- [25]
+							"/g what about them dont you like?", -- [26]
+							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [27]
+							"/p sup?", -- [28]
+							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [29]
+							"/g Misspress!", -- [30]
+							"/g I'll delete that macro now :)", -- [31]
+							"/macro", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1147,15 +1147,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1163,6 +1160,9 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 						["Animation"] = "None",
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1290,19 +1290,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1314,11 +1314,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1453,13 +1453,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1471,17 +1465,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1695,7 +1695,7 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
@@ -1703,7 +1703,7 @@ LUIDB = {
 		["Faerand - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
@@ -1713,7 +1713,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
@@ -1748,11 +1748,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kaldorath - Proudmoore"] = {
@@ -1840,9 +1840,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1957,9 +1957,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2054,11 +2054,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -2071,9 +2071,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2105,9 +2105,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
