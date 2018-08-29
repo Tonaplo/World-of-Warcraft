@@ -1,16 +1,12 @@
-# [2.7.2](https://github.com/WeakAuras/WeakAuras2/tree/2.7.2) (2018-08-13)
+# [2.7.4](https://github.com/WeakAuras/WeakAuras2/tree/2.7.4) (2018-08-28)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.7.1...2.7.2)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.7.3...2.7.4)
 
-Infus (5):
+Benjamin Staneck (1):
 
-- Don't run the tsu trigger function to decide CanHaveTooltip
-- Fix fallback code for disabled region plugins
-- Fix Conditions being unable to set width/height
-- Fix for masque skinning of buttons not in a group
-- Fix framelevel of first aura in a group
+- decrease "new" category label size
 
-Zinoh (1):
+Infus (1):
 
-- Let Masque Skin the Glow (#645)
+- Fix PvP Load condition for Characters without a PvP talent selected
 

@@ -43,8 +43,8 @@ W: 300
 H: 300
 Frame: ItemRefTooltip
 FrameLevel: 1
-Anchor: TOP
+Anchor: CENTER
 X: -236
-Y: -188
-W: 335
-H: 335
+Y: 154
+W: 398
+H: 420

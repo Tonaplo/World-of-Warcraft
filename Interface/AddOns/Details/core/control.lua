@@ -443,6 +443,19 @@
 			end
 		end
 		
+		function _detalhes:ScheduleSyncPlayerActorData()
+			if ((IsInGroup() or IsInRaid()) and (_detalhes.zone_type == "party" or _detalhes.zone_type == "raid")) then
+				--> do not sync if in battleground or arena
+				_detalhes:SendCharacterData()
+			end
+		end
+		
+		function _detalhes:EndCombat()
+			if (_detalhes.in_combat) then
+				_detalhes:SairDoCombate()
+			end
+		end
+		
 		-- ~end ~leave
 		function _detalhes:SairDoCombate (bossKilled, from_encounter_end)
 		
@@ -571,6 +584,9 @@
 					_detalhes.tabela_vigente.is_mythic_dungeon_run_id = _detalhes.mythic_dungeon_id
 				end
 			end
+			
+			--> send item level after a combat if is in raid or party group
+			C_Timer.After (1, _detalhes.ScheduleSyncPlayerActorData)
 			
 			if (not _detalhes.tabela_vigente.is_boss) then
 
