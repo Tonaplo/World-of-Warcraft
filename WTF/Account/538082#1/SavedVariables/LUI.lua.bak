@@ -97,8 +97,8 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
-							["Mallusof"] = 1162234125,
 							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -115,7 +115,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 903482783,
+							["Mallusof"] = 909798186,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -920,12 +920,6 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 370,
@@ -933,11 +927,17 @@ LUIDB = {
 						["Height"] = 205,
 						["Animation"] = "None",
 					},
-					["Minimap"] = {
+					["MicroMenu"] = {
 						["IsShown"] = true,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1050,17 +1050,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
 					},
 					["raidborder"] = {
 						0.901960784313726, -- [1]
@@ -1068,13 +1062,19 @@ LUIDB = {
 						0.901960784313726, -- [3]
 						0.300000011920929, -- [4]
 					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1213,7 +1213,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1225,19 +1231,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1414,38 +1414,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g Bye bye", -- [1]
-							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [2]
-							"/p also", -- [3]
-							"/p sup?", -- [4]
-							"/g what about them dont you like?", -- [5]
-							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [6]
-							"/p sup?", -- [7]
-							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [8]
-							"/g Misspress!", -- [9]
-							"/macro", -- [10]
-							"/p also", -- [11]
-							"/p sup?", -- [12]
-							"/g what about them dont you like?", -- [13]
-							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [14]
-							"/p sup?", -- [15]
-							"/6 |cff1eff00|Hitem:160885::::::::120:258:512:11:1:4793:119:::|h[Fort Daelin Lantern]|h|r still need to replace this", -- [16]
-							"/g Misspress!", -- [17]
-							"/p also", -- [18]
-							"/g what about them dont you like?", -- [19]
-							"/p sup?", -- [20]
-							"/g Misspress!", -- [21]
-							"/g what about them dont you like?", -- [22]
-							"/g Misspress!", -- [23]
-							" It's very up in th eair atm", -- [24]
-							" how long do you have on Kings?", -- [25]
-							" I'll know by then :)", -- [26]
-							" baby is feeding at the moment", -- [27]
-							" if that makes her wake up, then that's what I'm doing", -- [28]
-							" otherwise, Mythic", -- [29]
-							"/6 Do you already have a group?", -- [30]
-							"/6 If baby doesnt get fussy, then I promised to heal another Atal, lol", -- [31]
-							"/6 that's why I was asking", -- [32]
+							"/g still missing tortollans", -- [1]
+							"/p second", -- [2]
+							"/p gz", -- [3]
+							"/p have a good one! :)", -- [4]
+							"/p I need drops from first and last boss in here", -- [5]
+							"/p wtb |cffa335ee|Hitem:159129::::::::120:258::23:1:3524:::|h[Flamecaster Botefeux]|h|r dro", -- [6]
+							"/p Yeah, seems everyone wants weapons :P", -- [7]
+							"/p But at least I still have a chance to get SOMETHING, from here :P", -- [8]
+							"/p The bar starts filling when you move", -- [9]
+							"/p If you're too far away from me, I cant run to reach you", -- [10]
+							"/p that's death :LP", -- [11]
+							"/p LOS", -- [12]
+							"/p fuyck yeah", -- [13]
+							"/p lol", -- [14]
+							"/g I do", -- [15]
+							"/g Rank 3 drops from Uldir, but I have rak 2", -- [16]
+							"/g Anchor Weeds are expensive, around 300 g per at leat", -- [17]
+							"/p second", -- [18]
+							"/p have a good one! :)", -- [19]
+							"/p wtb |cffa335ee|Hitem:159129::::::::120:258::23:1:3524:::|h[Flamecaster Botefeux]|h|r dro", -- [20]
+							"/p But at least I still have a chance to get SOMETHING, from here :P", -- [21]
+							"/p If you're too far away from me, I cant run to reach you", -- [22]
+							"/p LOS", -- [23]
+							"/p lol", -- [24]
+							"/g Rank 3 drops from Uldir, but I have rak 2", -- [25]
+							"/p second", -- [26]
+							"/p wtb |cffa335ee|Hitem:159129::::::::120:258::23:1:3524:::|h[Flamecaster Botefeux]|h|r dro", -- [27]
+							"/p If you're too far away from me, I cant run to reach you", -- [28]
+							"/p lol", -- [29]
+							"/p second", -- [30]
+							"/p If you're too far away from me, I cant run to reach you", -- [31]
+							"/p second", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1762,9 +1762,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1810,11 +1810,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Zethan - Tichondrius"] = {
@@ -1844,11 +1844,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Kindhoof - Tichondrius"] = {
@@ -2015,9 +2015,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2036,11 +2036,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rentror - Bleeding Hollow"] = {
@@ -2070,11 +2070,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Gottagetlia - Aggramar"] = {

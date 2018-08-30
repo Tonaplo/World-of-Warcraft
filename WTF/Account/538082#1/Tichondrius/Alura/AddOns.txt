@@ -88,3 +88,4 @@ XLoot_Monitor: enabled
 XLoot_Options: enabled
 ParagonReputation: enabled
 Azeroth Auto Pilot: disabled
+SexyMap: enabled

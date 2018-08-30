@@ -23,7 +23,7 @@ AdiBags_Config: disabled
 AdiBags_Legion_Filters: disabled
 AllTheThings: enabled
 AngryKeystones: enabled
-Arh: disabled
+Arh: enabled
 BigWigs: enabled
 BigWigs_Antorus: enabled
 BigWigs_ArgusInvasionPoints: enabled
@@ -67,7 +67,7 @@ Grid2RaidDebuffs: enabled
 Grid2RaidDebuffsOptions: enabled
 Grid2LDB: enabled
 GTFO: enabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_BrokenShore: enabled
 HandyNotes_LegionTreasures: disabled
 idTip: enabled

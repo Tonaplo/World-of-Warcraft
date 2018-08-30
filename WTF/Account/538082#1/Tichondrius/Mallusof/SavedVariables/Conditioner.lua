@@ -2,7 +2,7 @@
 ConditionerAddOn_SavedVariables = {
 	["CurrentLoadouts"] = {
 		[257] = 0,
-		[258] = 0,
+		[258] = 34,
 		[256] = 0,
 	},
 	["Loadouts"] = {
@@ -19,18 +19,19 @@ ConditionerAddOn_SavedVariables = {
 	},
 	["Options"] = {
 		["TaperSize"] = 100,
-		["NumTrackedFrames"] = 5,
+		["TrackedFrameSize"] = 120,
 		["AnchorDirection"] = 0,
-		["OnlyDisplayInCombat"] = true,
-		["TrackedFrameSize"] = 100,
+		["TrackedFrameAnchorCoords"] = {
+			["y"] = 670.557022094727,
+			["x"] = 712.002090454102,
+		},
+		["NumTrackedFrames"] = 5,
 		["Opacity"] = 100,
 		["ShowSwingTimers"] = false,
-		["TrackedFrameAnchorCoords"] = {
-			["y"] = 652.904621124268,
-			["x"] = 712.001968383789,
-		},
+		["OnlyDisplayInCombat"] = true,
 	},
 	["TalentsPerLoadout"] = {
+		[34] = "2122221",
 		[36] = "2122221",
 		[32] = "2211131",
 		[33] = "2211131",

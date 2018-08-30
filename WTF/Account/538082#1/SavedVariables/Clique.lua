@@ -115,13 +115,13 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec3_profileKey"] = "Morifa - Proudmoore",
 		},
-		["Deminath - Proudmoore"] = {
-			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["specswap"] = false,
+		["Granjior - Proudmoore"] = {
+			["spec1_profileKey"] = "Paladin - Holy",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Deminath - Proudmoore",
-			["spec3_profileKey"] = "Deminath - Proudmoore",
+			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 		},
 		["Miriyal - Proudmoore"] = {
 			["spec1_profileKey"] = "Non-Healer",
@@ -164,13 +164,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Priest - Shadow",
 			["specswap"] = true,
 		},
-		["Granjior - Proudmoore"] = {
-			["spec1_profileKey"] = "Paladin - Holy",
-			["specswap"] = true,
+		["Deminath - Proudmoore"] = {
+			["spec1_profileKey"] = "Deminath - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Deminath - Proudmoore",
+			["spec3_profileKey"] = "Deminath - Proudmoore",
 		},
 	},
 	["profileKeys"] = {
@@ -907,15 +907,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["spell"] = "Power Word: Radiance",
-					["key"] = "Q",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 1386546,
-					["type"] = "spell",
-				}, -- [2]
-				{
 					["spell"] = "Pain Suppression",
 					["key"] = "SHIFT-T",
 					["sets"] = {
@@ -923,7 +914,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135936,
 					["type"] = "spell",
-				}, -- [3]
+				}, -- [2]
 				{
 					["spell"] = "Shadow Mend",
 					["key"] = "3",
@@ -932,16 +923,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136202,
 					["type"] = "spell",
-				}, -- [4]
+				}, -- [3]
 				{
-					["spell"] = "Penance",
-					["key"] = "SHIFT-F",
+					["spell"] = "Power Word: Radiance",
+					["key"] = "Q",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 237545,
+					["icon"] = 1386546,
 					["type"] = "spell",
-				}, -- [5]
+				}, -- [4]
 				{
 					["spell"] = "Power Word: Shield",
 					["key"] = "F",
@@ -950,7 +941,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135940,
 					["type"] = "spell",
-				}, -- [6]
+				}, -- [5]
 				{
 					["spell"] = "Purify",
 					["key"] = "BUTTON2",
@@ -958,6 +949,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 135894,
+					["type"] = "spell",
+				}, -- [6]
+				{
+					["spell"] = "Penance",
+					["key"] = "SHIFT-F",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 237545,
 					["type"] = "spell",
 				}, -- [7]
 				{

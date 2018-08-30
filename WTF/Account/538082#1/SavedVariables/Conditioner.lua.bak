@@ -165,7 +165,11 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 258,
 		["name"] = "Shadow ST",
 	}, -- [33]
-	false, -- [34]
+	{
+		["value"] = "[02+m0___15487_0_0]",
+		["spec"] = 258,
+		["name"] = "Interrupts",
+	}, -- [34]
 	{
 		["value"] = "[02+m0__ShiftE_2139_0_0]\n[+702+g0_Winter's Chill_ShiftF_30455_0_0]\n[+701+g0_Fingers of Frost_ShiftF_30455_0_0]\n[+701+g0_Brain Freeze_F_44614_0_0]\n[00w+l0__2_214634_0_0]\n[0g+m0__T_12472_0_0]\n[+o0__E_116_0_0]",
 		["spec"] = 64,

@@ -160,10 +160,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -186,7 +186,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 901425156,
+							["Mallusof"] = 908824496,
 						},
 					},
 				},
@@ -1021,38 +1021,38 @@ LUIDB = {
 							"/g Logging off again :P Just wanted to get the char in :)", -- [5]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Celedhring-Icecrown hahah", -- [1]
-							"/cw Celedhring-Icecrown both of them", -- [2]
-							"/cw Celedhring-Icecrown it's awesome", -- [3]
-							"/p the other achievements are easy", -- [4]
-							"/p no", -- [5]
-							"/p yes", -- [6]
-							"/cw Celedhring-Icecrown yeah, haha", -- [7]
-							"/cw Celedhring-Icecrown sec", -- [8]
-							"/p sec", -- [9]
-							"/p you know how to do the boss yes>?", -- [10]
-							"/p achievement:", -- [11]
-							"/p Boss will summon an add by casting  Spirit of Gold. This add will move to any  Tainted Blood puddles and soak them, and when there are no puddles up, it will turn to attack the players. ", -- [12]
-							"/p At this point, you should cc the add in order to prevent excessive damage. The add will have to soak 8 puddles of  Tainted Blood in order to turn into a Fatal Corruption.", -- [13]
-							"/p some do", -- [14]
-							"/p |cff71d5ff|Hspell:278645:0|h[Word of Mending]|h|r", -- [15]
-							"/p additional healing stacks", -- [16]
-							"/p 2 secs does not", -- [17]
-							"/p kill the pack", -- [18]
-							"/p then jump down left", -- [19]
-							"/p er, right", -- [20]
-							"/p |cffffff00|Hachievement:12273:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[It's Lit!]|h|r", -- [21]
-							"/p In order to light the Shadowflame Sconces, everyone in the group except the tank will have to spread and stay near one of them when the boss casts  Soulrend. ", -- [22]
-							"/p The sconces will stay lit up for about 25 seconds, so you should do this when the boss is around 5 to 10% health.", -- [23]
-							"/p Manor?", -- [24]
-							"/p Irith yeah", -- [25]
-							"/p I'd like that if you dont need", -- [26]
-							"/p thansk!", -- [27]
-							"/i wow", -- [28]
-							"/i what a dfick", -- [29]
-							"/i up", -- [30]
-							"/i the cluster", -- [31]
-							"/i What was that, lol", -- [32]
+							"/p I need drops from first and last boss in here", -- [1]
+							"/p Yeah, seems everyone wants weapons :P", -- [2]
+							"/p The bar starts filling when you move", -- [3]
+							"/p that's death :LP", -- [4]
+							"/p fuyck yeah", -- [5]
+							"/g I do", -- [6]
+							"/g Anchor Weeds are expensive, around 300 g per at leat", -- [7]
+							"/p have a good one! :)", -- [8]
+							"/p But at least I still have a chance to get SOMETHING, from here :P", -- [9]
+							"/p LOS", -- [10]
+							"/g Rank 3 drops from Uldir, but I have rak 2", -- [11]
+							"/p wtb |cffa335ee|Hitem:159129::::::::120:258::23:1:3524:::|h[Flamecaster Botefeux]|h|r dro", -- [12]
+							"/p lol", -- [13]
+							"/p If you're too far away from me, I cant run to reach you", -- [14]
+							"/g still missing tortollans", -- [15]
+							"/p I need drops from first and last boss in here", -- [16]
+							"/p The bar starts filling when you move", -- [17]
+							"/p fuyck yeah", -- [18]
+							"/g Anchor Weeds are expensive, around 300 g per at leat", -- [19]
+							"/p But at least I still have a chance to get SOMETHING, from here :P", -- [20]
+							"/g Rank 3 drops from Uldir, but I have rak 2", -- [21]
+							"/p lol", -- [22]
+							"/g still missing tortollans", -- [23]
+							"/p The bar starts filling when you move", -- [24]
+							"/g Anchor Weeds are expensive, around 300 g per at leat", -- [25]
+							"/g Rank 3 drops from Uldir, but I have rak 2", -- [26]
+							"/g still missing tortollans", -- [27]
+							"/g Anchor Weeds are expensive, around 300 g per at leat", -- [28]
+							"/g still missing tortollans", -- [29]
+							"/i my bad", -- [30]
+							"/i should have dodged", -- [31]
+							"/cw Kalithumos-Tichondrius same", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1147,15 +1147,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1163,6 +1160,9 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 						["Animation"] = "None",
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1290,19 +1290,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1314,11 +1314,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1453,13 +1453,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1471,17 +1465,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1748,11 +1748,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kaldorath - Proudmoore"] = {
@@ -1840,9 +1840,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1957,9 +1957,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2054,11 +2054,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -2071,9 +2071,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2105,9 +2105,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
