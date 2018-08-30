@@ -46,5 +46,12 @@ FrameLevel: 1
 Anchor: CENTER
 X: -236
 Y: 154
-W: 469
-H: 306
+W: 389
+H: 292
+Frame: AllTheThings-Window-Tradeskills
+FrameLevel: 1
+Anchor: TOP
+X: -146
+Y: -116
+W: 300
+H: 496
