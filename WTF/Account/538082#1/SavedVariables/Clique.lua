@@ -107,6 +107,22 @@ CliqueDB3 = {
 			["specswap"] = true,
 			["alerthidden"] = true,
 		},
+		["Miriyal - Proudmoore"] = {
+			["spec1_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = true,
+			["spec2_profileKey"] = "Monk - Mistweaver",
+		},
+		["Deminath - Proudmoore"] = {
+			["spec1_profileKey"] = "Deminath - Proudmoore",
+			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Deminath - Proudmoore",
+			["spec3_profileKey"] = "Deminath - Proudmoore",
+		},
 		["Kindhoof - Tichondrius"] = {
 			["spec1_profileKey"] = "Kindhoof - Tichondrius",
 			["spec2_profileKey"] = "Kindhoof - Tichondrius",
@@ -115,14 +131,6 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Kindhoof - Tichondrius",
 			["specswap"] = false,
 		},
-		["Granjior - Proudmoore"] = {
-			["spec1_profileKey"] = "Paladin - Holy",
-			["specswap"] = true,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
-		},
 		["Morifa - Proudmoore"] = {
 			["spec1_profileKey"] = "Morifa - Proudmoore",
 			["spec2_profileKey"] = "Morifa - Proudmoore",
@@ -130,14 +138,6 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 			["spec3_profileKey"] = "Morifa - Proudmoore",
-		},
-		["Miriyal - Proudmoore"] = {
-			["spec1_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["specswap"] = true,
-			["spec2_profileKey"] = "Monk - Mistweaver",
 		},
 		["Kindhoof - Proudmoore"] = {
 			["spec1_profileKey"] = "Kindhoof - Proudmoore",
@@ -164,13 +164,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Priest - Shadow",
 			["specswap"] = true,
 		},
-		["Deminath - Proudmoore"] = {
-			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["specswap"] = false,
+		["Granjior - Proudmoore"] = {
+			["spec1_profileKey"] = "Paladin - Holy",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Deminath - Proudmoore",
-			["spec3_profileKey"] = "Deminath - Proudmoore",
+			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 		},
 	},
 	["profileKeys"] = {
@@ -186,13 +186,13 @@ CliqueDB3 = {
 		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
 		["Amranar - Proudmoore"] = "Druid - Feral",
 		["Rahran - Proudmoore"] = "Non-Healer",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Farahn - Proudmoore"] = "Shaman - Resto",
-		["Granjior - Proudmoore"] = "Non-Healer",
-		["Mallusof - Tichondrius"] = "Priest - Shadow",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Mallusof - Tichondrius"] = "Priest - Disc",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Granjior - Proudmoore"] = "Non-Healer",
 		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Morifa - Proudmoore"] = "Non-Healer",
 		["Kindhoof - Proudmoore"] = "Kindhoof - Proudmoore",
@@ -934,21 +934,21 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [4]
 				{
-					["spell"] = "Purify",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135894,
-					["type"] = "spell",
-				}, -- [5]
-				{
 					["spell"] = "Penance",
 					["key"] = "SHIFT-F",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 237545,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Mass Dispel",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135739,
 					["type"] = "spell",
 				}, -- [6]
 				{
@@ -961,14 +961,23 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [7]
 				{
-					["spell"] = "Mass Dispel",
-					["key"] = "SHIFT-BUTTON2",
+					["spell"] = "Purify",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135739,
+					["icon"] = 135894,
 					["type"] = "spell",
 				}, -- [8]
+				{
+					["spell"] = "Leap of Faith",
+					["key"] = "T",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 463835,
+					["type"] = "spell",
+				}, -- [9]
 			},
 		},
 		["Deminath - Proudmoore"] = {
