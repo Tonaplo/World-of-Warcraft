@@ -10,6 +10,8 @@ WisdomHealers 1 4 0
 fpheals 1 5 0
 Community:2005161:1 0 6 1
 Community:348611221:1 0 7 1
+satisfyingmythics 1 8 0
+Community:350329461:1 0 9 1
 END
 
 ZONECHANNELS 0
@@ -164,6 +166,8 @@ END
 CHANNELS
 Community:348611221:1
 Community:2005161:1
+satisfyingmythics
+Community:350329461:1
 END
 
 ZONECHANNELS 2097155
@@ -190,6 +194,7 @@ END
 CHANNELS
 Community:348611221:1
 Community:2005161:1
+Community:350329461:1
 END
 
 ZONECHANNELS 0
