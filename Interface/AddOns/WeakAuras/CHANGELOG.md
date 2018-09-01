@@ -1,12 +1,20 @@
-# [2.7.4](https://github.com/WeakAuras/WeakAuras2/tree/2.7.4) (2018-08-28)
+# [2.7.5](https://github.com/WeakAuras/WeakAuras2/tree/2.7.5) (2018-08-29)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.7.3...2.7.4)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.7.4...2.7.5)
 
-Benjamin Staneck (1):
+Allen Faure (1):
 
-- decrease "new" category label size
+- block xpcall as well as pcall
 
-Infus (1):
+Causese (1):
 
-- Fix PvP Load condition for Characters without a PvP talent selected
+- adds worlddrop trinkets to templates
+
+Infus (5):
+
+- Add default values to Condition properties and fix a few nil errors
+- Overlays: Only use up to 7 drawlayers for overlays
+- Fix Cooldown Ready trigger
+- Unit Characteristics: Fix UnitIsUnit condition
+- Tweak Spell widget a bit more
 
