@@ -1,3 +1,17 @@
+09/01/2018 version 4.8.4
+- Changed 'Delay Journal On Macs' delay from half a second to a full second.
+
+08/31/2018 version 4.8.3
+- Added new debug option 'Delay Journal On Macs' that's enabled by default for MacOS clients. When the pet journal launches for the first time in a session, it will delay Rematch taking over the journal by half a second.
+- Added new suboption to the above 'Delay Just One Frame' to make Rematch take over the journal almost instantly with the above option set. This option is disabled by default.
+- Added Kul Tiras and Zandalar world quest tamers to the notable target choices.
+- The three Argus target menus (Antorian Wastes, Krokuun and Mac'Aree) are now combined into one.
+
+Special note for MacOS users experiencing crashes:
+- The experimental settings 'Delay Journal On Macs' will hopefully prevent crashes. If it seems to work, try enabling 'Delay Just One Frame' too. Please let me know your findings.
+- For those who use the standalone Rematch window: the above setting only relate to those who open Rematch in the pet journal. I understand the standalone window crashes too, but the new setting won't affect it.
+- Thanks again for your patience!
+
 08/08/2018 version 4.8.2
 - Added a new options category 'Debugging Options'
 - Moved option 'Debug: Journal FrameLevel' to this new category.
