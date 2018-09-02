@@ -1,3 +1,6 @@
+09/01/2018 version 4.8.5
+- Fix for new Mac debug options not doing what they were intended: if Blizzard_Collections is already loaded on login, wait until the journal is actually shown to setup Rematch.
+
 09/01/2018 version 4.8.4
 - Changed 'Delay Journal On Macs' delay from half a second to a full second.
 
