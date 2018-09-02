@@ -1,11 +1,4 @@
 Version: 1
-Frame: ColorPickerFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 365
-H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
@@ -34,6 +27,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: ColorPickerFrame
+FrameLevel: 21
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 240
 Frame: AllTheThings-Window-Tradeskills
 FrameLevel: 1
 Anchor: TOP
@@ -41,3 +41,10 @@ X: -146
 Y: -116
 W: 300
 H: 496
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: RIGHT
+X: -160
+Y: 99
+W: 935
+H: 452
