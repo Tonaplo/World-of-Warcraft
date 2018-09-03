@@ -15,7 +15,7 @@ ParagonReputationDB = {
 	["y"] = 843.597473144531,
 	["deficit"] = false,
 	["default"] = true,
-	["x"] = 831.3955078125,
-	["fade"] = 5,
 	["value"] = false,
+	["fade"] = 5,
+	["x"] = 831.3955078125,
 }
