@@ -1,82 +1,6 @@
 
 Grid2DB = {
 	["namespaces"] = {
-		["Grid2AoeHeals"] = {
-		},
-		["Grid2RaidDebuffs"] = {
-			["profiles"] = {
-				["Non-Healer"] = {
-					["autodetect"] = {
-						["zones"] = {
-							[1188] = true,
-						},
-						["debuffs"] = {
-							[245994] = "1188@946@Aggramar",
-							[245990] = "1188@946@Aggramar",
-							[244736] = "1188@946@Aggramar",
-						},
-					},
-					["defaultEJ_difficulty"] = 16,
-					["lastSelectedModule"] = "Legion",
-					["lastSelectedInstance"] = 1015,
-				},
-				["Healer"] = {
-					["lastSelectedModule"] = "Legion",
-					["defaultEJ_difficulty"] = 16,
-					["lastSelectedInstance"] = 1015,
-				},
-			},
-		},
-		["Grid2Layout"] = {
-			["profiles"] = {
-				["Non-Healer"] = {
-					["BorderB"] = 0.501960784313726,
-					["layouts"] = {
-						["arena"] = "By Group",
-						["raid"] = "By Group & Role",
-						["solo"] = "Solo",
-						["party"] = "Party",
-					},
-					["BackgroundR"] = 1,
-					["BorderR"] = 0.501960784313726,
-					["Spacing"] = 3,
-					["anchor"] = "TOPRIGHT",
-					["BackgroundG"] = 1,
-					["groupAnchor"] = "TOPRIGHT",
-					["PosY"] = -600.888744491441,
-					["BackgroundA"] = 0,
-					["BorderG"] = 0.501960784313726,
-					["BorderTexture"] = "Stripped_medium",
-					["horizontal"] = false,
-					["BackgroundB"] = 1,
-					["PosX"] = -15.2272332442953,
-				},
-				["Healer"] = {
-					["BackgroundG"] = 1,
-					["minimapIcon"] = {
-						["hide"] = true,
-					},
-					["BorderB"] = 0.501960784313726,
-					["layouts"] = {
-						["party"] = "Party",
-						["arena"] = "By Group",
-						["solo"] = "Solo",
-						["raid"] = "By Group & Role",
-					},
-					["BackgroundB"] = 1,
-					["BackgroundR"] = 1,
-					["PosX"] = 0.000877425736007353,
-					["FrameLock"] = true,
-					["BackgroundA"] = 0,
-					["BorderR"] = 0.501960784313726,
-					["BorderTexture"] = "Stripped_medium",
-					["anchor"] = "TOP",
-					["BorderG"] = 0.501960784313726,
-					["Spacing"] = 3,
-					["PosY"] = -572.444192629906,
-				},
-			},
-		},
 		["LibDualSpec-1.0"] = {
 			["char"] = {
 				["Amranar - Proudmoore"] = {
@@ -142,6 +66,82 @@ Grid2DB = {
 				},
 			},
 		},
+		["Grid2RaidDebuffs"] = {
+			["profiles"] = {
+				["Non-Healer"] = {
+					["autodetect"] = {
+						["zones"] = {
+							[1188] = true,
+						},
+						["debuffs"] = {
+							[245994] = "1188@946@Aggramar",
+							[245990] = "1188@946@Aggramar",
+							[244736] = "1188@946@Aggramar",
+						},
+					},
+					["defaultEJ_difficulty"] = 16,
+					["lastSelectedModule"] = "Legion",
+					["lastSelectedInstance"] = 1015,
+				},
+				["Healer"] = {
+					["lastSelectedModule"] = "Legion",
+					["defaultEJ_difficulty"] = 16,
+					["lastSelectedInstance"] = 1015,
+				},
+			},
+		},
+		["Grid2Layout"] = {
+			["profiles"] = {
+				["Non-Healer"] = {
+					["BorderB"] = 0.501960784313726,
+					["layouts"] = {
+						["raid"] = "By Group & Role",
+						["party"] = "Party",
+						["solo"] = "Solo",
+						["arena"] = "By Group",
+					},
+					["BackgroundR"] = 1,
+					["BorderR"] = 0.501960784313726,
+					["Spacing"] = 3,
+					["anchor"] = "TOPRIGHT",
+					["BackgroundG"] = 1,
+					["groupAnchor"] = "TOPRIGHT",
+					["PosY"] = -600.888744491441,
+					["BackgroundA"] = 0,
+					["BorderG"] = 0.501960784313726,
+					["BorderTexture"] = "Stripped_medium",
+					["horizontal"] = false,
+					["BackgroundB"] = 1,
+					["PosX"] = -15.2272332442953,
+				},
+				["Healer"] = {
+					["BackgroundG"] = 1,
+					["minimapIcon"] = {
+						["hide"] = true,
+					},
+					["BorderB"] = 0.501960784313726,
+					["layouts"] = {
+						["arena"] = "By Group",
+						["raid"] = "By Group & Role",
+						["solo"] = "Solo",
+						["party"] = "Party",
+					},
+					["BackgroundR"] = 1,
+					["BackgroundB"] = 1,
+					["BorderTexture"] = "Stripped_medium",
+					["FrameLock"] = true,
+					["BackgroundA"] = 0,
+					["BorderR"] = 0.501960784313726,
+					["Spacing"] = 3,
+					["anchor"] = "TOP",
+					["BorderG"] = 0.501960784313726,
+					["PosX"] = 0.000877425736007353,
+					["PosY"] = -572.444192629906,
+				},
+			},
+		},
+		["Grid2AoeHeals"] = {
+		},
 		["Grid2Options"] = {
 			["profiles"] = {
 				["Non-Healer"] = {
@@ -161,8 +161,6 @@ Grid2DB = {
 					},
 				},
 			},
-		},
-		["Grid2Utils"] = {
 		},
 		["Grid2Frame"] = {
 			["profiles"] = {
@@ -207,6 +205,8 @@ Grid2DB = {
 				},
 			},
 		},
+		["Grid2Utils"] = {
+		},
 	},
 	["profileKeys"] = {
 		["Korugen - Tichondrius"] = "Non-Healer",
@@ -219,18 +219,18 @@ Grid2DB = {
 		["Faerand - Proudmoore"] = "Non-Healer",
 		["Amranar - Proudmoore"] = "Non-Healer",
 		["Zearthan - Proudmoore"] = "Non-Healer",
-		["Morifa - Proudmoore"] = "Non-Healer",
+		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Rahran - Proudmoore"] = "Non-Healer",
 		["Morifa - Tichondrius"] = "Non-Healer",
-		["Granjior - Proudmoore"] = "Non-Healer",
+		["Korugen - Proudmoore"] = "Non-Healer",
 		["Farahn - Proudmoore"] = "Non-Healer",
-		["Kindhoof - Tichondrius"] = "Non-Healer",
+		["Morifa - Proudmoore"] = "Non-Healer",
 		["Mallusof - Tichondrius"] = "Non-Healer",
 		["Thedodrouk - Icecrown"] = "Non-Healer",
-		["Korugen - Proudmoore"] = "Non-Healer",
-		["Zaliga - Bleeding Hollow"] = "Non-Healer",
-		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Deminath - Proudmoore"] = "Non-Healer",
+		["Zaliga - Bleeding Hollow"] = "Non-Healer",
+		["Kindhoof - Tichondrius"] = "Non-Healer",
+		["Granjior - Proudmoore"] = "Non-Healer",
 		["Zethan - Tichondrius"] = "Non-Healer",
 		["Alura - Tichondrius"] = "Healer",
 		["Mallusof - Icecrown"] = "Healer",
@@ -404,18 +404,6 @@ Grid2DB = {
 						["b"] = 0,
 					},
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
 				["corner-bottom-left"] = {
 					["disableStack"] = true,
 					["type"] = "icons",
@@ -429,16 +417,28 @@ Grid2DB = {
 						["b"] = 0,
 					},
 					["maxIcons"] = 3,
-					["orientation"] = "HORIZONTAL",
 					["iconSize"] = 20,
-					["level"] = 8,
-					["maxIconsPerRow"] = 3,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["level"] = 8,
+					["maxIconsPerRow"] = 3,
+					["orientation"] = "HORIZONTAL",
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
 				},
 				["text-up-color"] = {
 					["type"] = "text-color",
@@ -698,13 +698,13 @@ Grid2DB = {
 					["fontJustifyV"] = "TOP",
 					["maxIcons"] = 3,
 					["font"] = "Prototype",
+					["iconSize"] = 20,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "TOPLEFT",
 						["point"] = "TOPLEFT",
 						["x"] = 0,
 					},
-					["iconSize"] = 20,
 					["level"] = 8,
 					["reverseCooldown"] = true,
 					["fontSize"] = 12,
@@ -858,6 +858,21 @@ Grid2DB = {
 				["importantDebuffsBorder-color"] = {
 					["type"] = "multibar-color",
 				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
+				},
+				["text-up-color"] = {
+					["type"] = "text-color",
+				},
 				["corner-bottom-left"] = {
 					["disableStack"] = true,
 					["type"] = "icons",
@@ -871,31 +886,16 @@ Grid2DB = {
 						["r"] = 0,
 					},
 					["maxIcons"] = 3,
-					["iconSize"] = 20,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["orientation"] = "HORIZONTAL",
 					["level"] = 8,
 					["maxIconsPerRow"] = 3,
-					["orientation"] = "HORIZONTAL",
-				},
-				["text-up-color"] = {
-					["type"] = "text-color",
-				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
+					["iconSize"] = 20,
 				},
 				["heals"] = {
 					["type"] = "bar",
@@ -1128,12 +1128,12 @@ Grid2DB = {
 					["hideDamagers"] = true,
 					["hideInCombat"] = true,
 				},
+				["health-current"] = {
+					["frequentHealth"] = true,
+				},
 				["heals-incoming"] = {
 					["multiplier"] = 1.6,
 					["includePlayerHeals"] = true,
-				},
-				["health-current"] = {
-					["frequentHealth"] = true,
 				},
 				["debuffs-ImportantDebuffs"] = {
 					["auras"] = {

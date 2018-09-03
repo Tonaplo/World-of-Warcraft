@@ -130,9 +130,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
-							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -161,10 +161,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -187,7 +187,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 792000034,
+							["Mallusof"] = 801828230,
 						},
 					},
 				},
@@ -196,14 +196,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -231,16 +238,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1053,38 +1053,38 @@ LUIDB = {
 							" Arg, no wories", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							" How is Icecrown", -- [1]
-							" hmmm", -- [2]
-							"/s thanks", -- [3]
-							" How is Icecrown", -- [4]
-							"/s thanks", -- [5]
-							" hmmm", -- [6]
-							" How is Icecrown", -- [7]
-							"/s thanks", -- [8]
-							" hmmm", -- [9]
-							"/s thanks", -- [10]
-							" So", -- [11]
-							" I had a talk with Candace", -- [12]
-							" Has she talked to you?", -- [13]
-							" I think we might end up doing a merge of some sorts", -- [14]
-							" But we're not certain yet. I was talking about how I know that your group has people that play more for fun than for clearing the raid", -- [15]
-							" It also just feels bad to say to those guys \"sorry, we're taking your friends\"", -- [16]
-							" Yeah,l that makes sense", -- [17]
-							" That's actually a really good idea", -- [18]
-							" Hey Cat", -- [19]
-							" I have a request", -- [20]
-							" <3", -- [21]
-							" There is box signing on Tuesday and Wednesday for BFA", -- [22]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [23]
-							" Could I ask you to bring that box around?", -- [24]
-							" On whichever of the days you plan on going... if you plan on going at all?", -- [25]
-							" Sure thing! :) Just let me know :) And I completely understand :)", -- [26]
-							" yeah yeah", -- [27]
-							" Oh I will be signing though P", -- [28]
-							" that's the thing", -- [29]
-							" Cause we've been told we need to ask other coworkers if we want stuff signed, lol", -- [30]
-							" Yeh, it's kinda weird", -- [31]
-							" I feel like this year the rules are kinda.. off", -- [32]
+							" So", -- [1]
+							" Hey Cat", -- [2]
+							" yeah yeah", -- [3]
+							" hmmm", -- [4]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [5]
+							" But we're not certain yet. I was talking about how I know that your group has people that play more for fun than for clearing the raid", -- [6]
+							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [7]
+							"/g It gives you 5 Anchorweed", -- [8]
+							"/cw Eugenik-Tichondrius thanks", -- [9]
+							"/cw Eugenik-Tichondrius or \" thanks\"", -- [10]
+							"/cw Eugenik-Tichondrius \"Omg, I have to play the game, that sucks", -- [11]
+							"/cw Eugenik-Tichondrius good luck", -- [12]
+							"/cw Eugenik-Tichondrius tired of it", -- [13]
+							" On whichever of the days you plan on going... if you plan on going at all?", -- [14]
+							" How is Icecrown", -- [15]
+							" Hey Cat", -- [16]
+							" hmmm", -- [17]
+							" But we're not certain yet. I was talking about how I know that your group has people that play more for fun than for clearing the raid", -- [18]
+							"/g It gives you 5 Anchorweed", -- [19]
+							"/cw Eugenik-Tichondrius or \" thanks\"", -- [20]
+							"/cw Eugenik-Tichondrius good luck", -- [21]
+							" On whichever of the days you plan on going... if you plan on going at all?", -- [22]
+							" Hey Cat", -- [23]
+							" But we're not certain yet. I was talking about how I know that your group has people that play more for fun than for clearing the raid", -- [24]
+							"/cw Eugenik-Tichondrius or \" thanks\"", -- [25]
+							" On whichever of the days you plan on going... if you plan on going at all?", -- [26]
+							" But we're not certain yet. I was talking about how I know that your group has people that play more for fun than for clearing the raid", -- [27]
+							" On whichever of the days you plan on going... if you plan on going at all?", -- [28]
+							"/6 Holy shit i should herb more at night", -- [29]
+							"/6 24 Anchor weed tonight alone", -- [30]
+							"/6 26", -- [31]
+							"/6 in like 45 mins", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1183,12 +1183,15 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
+					},
+					["Minimap"] = {
+						["IsShown"] = true,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1196,9 +1199,6 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 						["Animation"] = "None",
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1338,7 +1338,13 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1350,19 +1356,13 @@ LUIDB = {
 						0.89, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1502,7 +1502,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1514,23 +1520,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1665,19 +1665,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1689,11 +1689,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1907,14 +1907,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
@@ -1926,7 +1926,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
@@ -1944,9 +1944,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1997,9 +1997,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2033,9 +2033,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2232,11 +2232,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Evisca - Bleeding Hollow"] = {
@@ -2296,9 +2296,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2397,11 +2397,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kindhoof - Proudmoore"] = {
