@@ -68,9 +68,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
-							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -98,8 +98,8 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
-							["Mallusof"] = 1162234125,
 							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -116,7 +116,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 805458306,
+							["Mallusof"] = 799933016,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -196,11 +196,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -211,6 +206,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -238,9 +237,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -925,12 +925,6 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 370,
@@ -938,11 +932,17 @@ LUIDB = {
 						["Height"] = 205,
 						["Animation"] = "None",
 					},
-					["Chat"] = {
-						["AlwaysShow"] = true,
+					["MicroMenu"] = {
 						["IsShown"] = true,
 					},
+					["Tps"] = {
+						["Width"] = 600,
+					},
 					["Minimap"] = {
+						["IsShown"] = true,
+					},
+					["Chat"] = {
+						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
 				},
@@ -1069,13 +1069,7 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1087,17 +1081,23 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.12, -- [1]
@@ -1231,7 +1231,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1243,19 +1249,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1394,17 +1394,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
 					},
 					["raidborder"] = {
 						0.901960784313726, -- [1]
@@ -1412,13 +1406,19 @@ LUIDB = {
 						0.901960784313726, -- [3]
 						0.300000011920929, -- [4]
 					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1622,38 +1622,38 @@ LUIDB = {
 							" Arg, no wories", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							" yeah yeah", -- [1]
-							"/2 Naah, you need to go all the way up in the Mage Tower, through the portal. It's the one to the left in there", -- [2]
-							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [3]
-							" How is Icecrown", -- [4]
-							" Hey Cat", -- [5]
-							"/6 26", -- [6]
-							"/cw Eugenik-Tichondrius tired of it", -- [7]
-							"/6 Holy shit i should herb more at night", -- [8]
-							"/cw Eugenik-Tichondrius or \" thanks\"", -- [9]
-							"/2 Mage Tower", -- [10]
-							"/cw Eugenik-Tichondrius \"Omg, I have to play the game, that sucks", -- [11]
-							" But we're not certain yet. I was talking about how I know that your group has people that play more for fun than for clearing the raid", -- [12]
-							"/cw Eugenik-Tichondrius good luck", -- [13]
-							" hmmm", -- [14]
-							"/g It gives you 5 Anchorweed", -- [15]
-							"/cw Eugenik-Tichondrius thanks", -- [16]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [17]
-							"/2 Naah, you need to go all the way up in the Mage Tower, through the portal. It's the one to the left in there", -- [18]
+							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [1]
+							"/cw Eugenik-Tichondrius tired of it", -- [2]
+							"/cw Eugenik-Tichondrius \"Omg, I have to play the game, that sucks", -- [3]
+							"/g It gives you 5 Anchorweed", -- [4]
+							" How is Icecrown", -- [5]
+							" But we're not certain yet. I was talking about how I know that your group has people that play more for fun than for clearing the raid", -- [6]
+							"/6 26", -- [7]
+							"/2 Mage Tower", -- [8]
+							" Hey Cat", -- [9]
+							"/cw Eugenik-Tichondrius good luck", -- [10]
+							"/6 Holy shit i should herb more at night", -- [11]
+							" hmmm", -- [12]
+							"/cw Eugenik-Tichondrius or \" thanks\"", -- [13]
+							"/cw Eugenik-Tichondrius thanks", -- [14]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [15]
+							"/i Who wants to lead?", -- [16]
+							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [17]
+							"/cw Eugenik-Tichondrius \"Omg, I have to play the game, that sucks", -- [18]
 							" How is Icecrown", -- [19]
 							"/6 26", -- [20]
-							"/6 Holy shit i should herb more at night", -- [21]
-							"/2 Mage Tower", -- [22]
-							" But we're not certain yet. I was talking about how I know that your group has people that play more for fun than for clearing the raid", -- [23]
-							" hmmm", -- [24]
-							"/cw Eugenik-Tichondrius thanks", -- [25]
-							"/2 Naah, you need to go all the way up in the Mage Tower, through the portal. It's the one to the left in there", -- [26]
-							"/6 26", -- [27]
-							"/2 Mage Tower", -- [28]
-							" hmmm", -- [29]
-							"/2 Naah, you need to go all the way up in the Mage Tower, through the portal. It's the one to the left in there", -- [30]
-							"/2 Mage Tower", -- [31]
-							"/2 Naah, you need to go all the way up in the Mage Tower, through the portal. It's the one to the left in there", -- [32]
+							" Hey Cat", -- [21]
+							"/6 Holy shit i should herb more at night", -- [22]
+							"/cw Eugenik-Tichondrius or \" thanks\"", -- [23]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [24]
+							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [25]
+							" How is Icecrown", -- [26]
+							" Hey Cat", -- [27]
+							"/cw Eugenik-Tichondrius or \" thanks\"", -- [28]
+							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [29]
+							" Hey Cat", -- [30]
+							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [31]
+							"/s indeed", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1913,11 +1913,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -1966,11 +1966,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -2002,11 +2002,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -2197,9 +2197,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2265,11 +2265,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Korugen - Proudmoore"] = {
@@ -2295,9 +2295,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2440,14 +2440,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
@@ -2459,7 +2459,7 @@ LUIDB = {
 		["Thedodrouk - Icecrown"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
