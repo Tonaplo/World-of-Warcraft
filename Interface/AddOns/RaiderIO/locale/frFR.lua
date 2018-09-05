@@ -11,6 +11,12 @@ L["ALLOW_ON_PLAYER_UNITS"] = "Autoriser pour les cadres d'unité"
 L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Ajoute une option pour copier l'url du profil Raider.IO dans le menu bouton droit d'un cadre d'unité."
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "Toujours afficher les scores des rôles"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Garder une des touches (shift/ctrl/alt) permet d'afficher les scores des différents rôles du joueur. Si on active cette option, alors l'info-bulle possédera toujours les scores des rôles."
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_ANONYMOUS_FUNCTION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_WITH"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "Meilleure clé pour le donjon"
 L["BEST_RUN"] = "Meilleure clé"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Vos changements ont été sauvegardé, mais il faut recharger l'interface pour qu'elles prennent effets.
@@ -21,19 +27,39 @@ L["COPY_RAIDERIO_PROFILE_URL"] = "Copier le profil Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Copier l'url Raider.IO"
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "Score en DPS"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AD"] = ""--]] 
 L["DUNGEON_SHORT_NAME_ARC"] = "ARC"
 L["DUNGEON_SHORT_NAME_BRH"] = "BRH"
 L["DUNGEON_SHORT_NAME_COEN"] = "COEN"
 L["DUNGEON_SHORT_NAME_COS"] = "COS"
 L["DUNGEON_SHORT_NAME_DHT"] = "DHT"
 L["DUNGEON_SHORT_NAME_EOA"] = "EOA"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_FH"] = ""--]] 
 L["DUNGEON_SHORT_NAME_HOV"] = "HOV"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_LOWR"] = "LOWR"
 L["DUNGEON_SHORT_NAME_MOS"] = "MOS"
 L["DUNGEON_SHORT_NAME_NL"] = "NL"
 L["DUNGEON_SHORT_NAME_SEAT"] = "SEAT"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SIEGE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TM"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_UNDR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_UPPR"] = "UPPR"
 L["DUNGEON_SHORT_NAME_VOTW"] = "VOTW"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_WM"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
 --[[Translation missing --]]
@@ -50,6 +76,8 @@ L["ENABLE_NO_SCORE_COLORS_DESC"] = "Tous les scores seront affichés en blanc."
 --[[ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = ""--]] 
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Utiliser les couleurs de rareté pour le score"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Utiliser les couleurs de raretés (rare, épique, etc ...) pour les scores. Cela peut aider pour distinguer les tiers de score."
+--[[Translation missing --]]
+--[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
 L["GUILD_BEST_SEASON"] = "Guilde: Top Saison"
 L["GUILD_BEST_WEEKLY"] = "Guilde : Top Semaine"
 L["HEALER"] = "Heal"
@@ -58,6 +86,10 @@ L["INVERSE_PROFILE_MODIFIER"] = "Inverser le modificateur de l'info bulle"
 L["INVERSE_PROFILE_MODIFIER_DESC"] = "Activer cette option va inverser le comportement de l'info-bulle lorsque l'on utilise les touches (shift/ctrl/alt)."
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (CM)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (MM)"
+--[[Translation missing --]]
+--[[ L["LEGION_MAIN_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["LEGION_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
 L["MAINS_SCORE"] = "Score du personnage principal"
@@ -84,6 +116,8 @@ L["RAIDERIO_MP_BASE_SCORE"] = "Score MM+ Raider.IO de base "
 L["RAIDERIO_MP_SCORE"] = "Score Raider.IO M+"
 L["RAIDERIO_MP_SCORE_COLON"] = "Score Raider.IO M+ :"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Options de l'addon Raider.IO"
+--[[Translation missing --]]
+--[[ L["RAIDING_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "Je rechargerai l'interface plus tard"
 L["RELOAD_NOW"] = "Recharger l'interface maintenant"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Afficher le score moyen des joueurs pour une clé dans les temps"
@@ -120,6 +154,8 @@ L["TIMED_10_RUNS"] = "10-14+ dans les temps"
 L["TIMED_15_RUNS"] = "15+ dans les temps"
 L["TOOLTIP_CUSTOMIZATION"] = "Modification de l'info-bulle"
 L["TOOLTIP_PROFILE"] = "Modification du Profil"
+--[[Translation missing --]]
+--[[ L["TOTAL_RUNS"] = ""--]] 
 L["UNKNOWN_SCORE"] = "Inconnu"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r a rencontré une erreur. S'il vous plait, écrivez ces informations |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r et reporter le aux développers. Merci !"
 --[[Translation missing --]]

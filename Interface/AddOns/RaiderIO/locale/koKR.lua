@@ -11,6 +11,12 @@ L["ALLOW_ON_PLAYER_UNITS"] = "플레이어 유닛프레임도 허용"
 L["ALLOW_ON_PLAYER_UNITS_DESC"] = "플레이어를 우클릭하여 Raider.IO 프로필 URL로 복사합니다."
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "역할 점수 항상 표시"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "보조키(Shift/Ctrl/Alt)를 누르고 있어야 플레이어의 역할 점수가 툴팁에 표시됩니다. 이 설정을 사용하면 툴팁에 항상 역할 점수가 표시됩니다."
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_ANONYMOUS_FUNCTION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_WITH"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "던전 최고 기록"
 L["BEST_RUN"] = "최고 기록"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[변경 사항이 저장되었지만 변경 사항을 적용하려면 UI를 다시 불러와야 합니다.
@@ -22,19 +28,39 @@ L["COPY_RAIDERIO_PROFILE_URL"] = "Raider.IO URL 복사"
 L["COPY_RAIDERIO_URL"] = "Raider.IO URL 복사"
 L["DPS"] = "|cffFF3636공격전담|r"
 L["DPS_SCORE"] = "|cffFF3636공격전담|r 점수"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AD"] = ""--]] 
 L["DUNGEON_SHORT_NAME_ARC"] = "비전로"
 L["DUNGEON_SHORT_NAME_BRH"] = "검떼"
 L["DUNGEON_SHORT_NAME_COEN"] = "대성당"
 L["DUNGEON_SHORT_NAME_COS"] = "별궁"
 L["DUNGEON_SHORT_NAME_DHT"] = "어숲"
 L["DUNGEON_SHORT_NAME_EOA"] = "아즈"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_FH"] = ""--]] 
 L["DUNGEON_SHORT_NAME_HOV"] = "용맹"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_LOWR"] = "하층"
 L["DUNGEON_SHORT_NAME_MOS"] = "아귀"
 L["DUNGEON_SHORT_NAME_NL"] = "넬타"
 L["DUNGEON_SHORT_NAME_SEAT"] = "삼두정"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SIEGE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TM"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_UNDR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_UPPR"] = "상층"
 L["DUNGEON_SHORT_NAME_VOTW"] = "금고"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_WM"] = ""--]] 
 L["ENABLE_AUTO_FRAME_POSITION"] = "내 프로필 프레임 위치 자동화"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "활성화시 프로필 툴팁이 파티 구성하기나 플레이어 툴팁 옆에 유지됩니다."
 L["ENABLE_LOCK_PROFILE_FRAME"] = "내 프로필 고정"
@@ -48,6 +74,8 @@ L["ENABLE_NO_SCORE_COLORS_DESC"] = "점수의 색상 표시를 사용하지 않�
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "표준 색상 사용"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "표준 아이템 품질의 색상만으로 점수를 표시합니다. 이렇게 하면 색각 보정이 필요한 사람들이 점수 등급을 쉽게 구분할 수 있습니다."
 --[[Translation missing --]]
+--[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
@@ -57,6 +85,10 @@ L["INVERSE_PROFILE_MODIFIER"] = "프로필 전환 사용"
 L["INVERSE_PROFILE_MODIFIER_DESC"] = "툴팁에 프로필 표시 전환 사용. 보조키(Shift/Ctrl/Alt) 유지시 개인 프로필과 파티장 프로필이 전환됩니다."
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (정복자)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (장인)"
+--[[Translation missing --]]
+--[[ L["LEGION_MAIN_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["LEGION_SCORE"] = ""--]] 
 L["LOCKING_PROFILE_FRAME"] = "RaiderIO: 프로필 고정"
 L["MAINS_SCORE"] = "주 캐릭터 점수"
 L["MAINS_SCORE_COLON"] = "주 캐릭터 점수: "
@@ -84,6 +116,8 @@ L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO 쐐기 기본 점수"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO 쐐기 점수"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO 쐐기 점수: "
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO M+ 설정"
+--[[Translation missing --]]
+--[[ L["RAIDING_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "나중에 다시 불러오겠습니다."
 L["RELOAD_NOW"] = "지금 다시 불러오기"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "시간내 평균 점수 표시"
@@ -120,6 +154,8 @@ L["TIMED_10_RUNS"] = "+10-14단 횟수"
 L["TIMED_15_RUNS"] = "15단+ 횟수"
 L["TOOLTIP_CUSTOMIZATION"] = "점수 툴팁 설정"
 L["TOOLTIP_PROFILE"] = "프로필 설정"
+--[[Translation missing --]]
+--[[ L["TOTAL_RUNS"] = ""--]] 
 L["UNKNOWN_SCORE"] = "알수없음"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r: 새 서버가 발견되었습니다. |cffFF9999 {|r |cffFFFFFF%s|r  |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r의 정보를 적은 후 개발자에게 보고해주세요. 감사합니다!"
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: 내 프로필 고정 해제"

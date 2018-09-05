@@ -11,6 +11,12 @@ L["ALLOW_ON_PLAYER_UNITS"] = "При нажатии на игроков"
 L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Нажмите правой кнопкой мыши на игрока для копирования ссылки на профиль Raider.IO."
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "Всегда показывать очки всех ролей"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Удерживайте клавиши shift/ctrl/alt для отображения в подсказке очков всех ролей. Если этот параметр включен, то в подсказках всегда будут отображаться очки всех ролей."
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_ANONYMOUS_FUNCTION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_WITH"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "Лучшее прохождение тек. подзем."
 L["BEST_RUN"] = "Лучшее прохождение"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Изменения были сохранены, но необходимо перезагрузить интерфейс, чтобы они вступили в силу.
@@ -22,19 +28,39 @@ L["COPY_RAIDERIO_PROFILE_URL"] = "Копирование ссылки на пр�
 L["COPY_RAIDERIO_URL"] = "Копировать ссылку на Raider.IO-профиль"
 L["DPS"] = "Боец"
 L["DPS_SCORE"] = "Очки бойца"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AD"] = ""--]] 
 L["DUNGEON_SHORT_NAME_ARC"] = "Катакомбы Сурамара"
 L["DUNGEON_SHORT_NAME_BRH"] = "Крепость Черной Ладьи"
 L["DUNGEON_SHORT_NAME_COEN"] = "Собор Вечной Ночи"
 L["DUNGEON_SHORT_NAME_COS"] = "Квартал Звезд"
 L["DUNGEON_SHORT_NAME_DHT"] = "Чаща Темного Сердца"
 L["DUNGEON_SHORT_NAME_EOA"] = "Око Азшары"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_FH"] = ""--]] 
 L["DUNGEON_SHORT_NAME_HOV"] = "Чертоги Доблести"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_LOWR"] = "Каражан (нижняя часть)"
 L["DUNGEON_SHORT_NAME_MOS"] = "Утроба Душ"
 L["DUNGEON_SHORT_NAME_NL"] = "Логово Нелтариона"
 L["DUNGEON_SHORT_NAME_SEAT"] = "Престол Триумвирата"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SIEGE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TM"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_UNDR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_UPPR"] = "Каражан (верхняя часть)"
 L["DUNGEON_SHORT_NAME_VOTW"] = "Казематы Стражей"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_WM"] = ""--]] 
 L["ENABLE_AUTO_FRAME_POSITION"] = "Автоматическое позиционирование моего М+ профиля"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Включение этого параметра будет содержать подсказку M+ профиля рядом с Поиском группы или подсказкой игрока. "
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Закрепить рамку М+ профиля"
@@ -48,6 +74,8 @@ L["ENABLE_NO_SCORE_COLORS_DESC"] = "Отключает раскраску очк
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Использовать упрощенную окраску очков"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Показывает очки только цветами качества предметов. Это упрощает визуальную оценку очков при беглом осмотре кандидатов."
 --[[Translation missing --]]
+--[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
@@ -59,6 +87,10 @@ L["HEALER_SCORE"] = "Очки лекаря"
 --[[ L["INVERSE_PROFILE_MODIFIER_DESC"] = ""--]] 
 L["KEYSTONE_COMPLETED_10"] = "+10 (К-з)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (Вк)"
+--[[Translation missing --]]
+--[[ L["LEGION_MAIN_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["LEGION_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
 L["MAINS_SCORE"] = "Очки мейна"
@@ -91,6 +123,8 @@ L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO M+ Базовые Очки"
 L["RAIDERIO_MP_SCORE"] = "Очки по версии Raider.IO"
 L["RAIDERIO_MP_SCORE_COLON"] = "Очки по версии Raider.IO: "
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Настройки аддона Raider.IO "
+--[[Translation missing --]]
+--[[ L["RAIDING_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "Перезагрузить позже"
 L["RELOAD_NOW"] = "Перезагрузить сейчас"
 --[[Translation missing --]]
@@ -132,6 +166,8 @@ L["TIMED_15_RUNS"] = "Пройдено 15+ ключей вовремя"
 L["TOOLTIP_CUSTOMIZATION"] = "Настройки подсказок"
 --[[Translation missing --]]
 --[[ L["TOOLTIP_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["TOTAL_RUNS"] = ""--]] 
 L["UNKNOWN_SCORE"] = "Неизвестно"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r обнаружил неизвестный ранее сервер. Пожалуйста, запишите эту информацию |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r и сообщите об этом разработчикам. Спасибо!"
 --[[Translation missing --]]

@@ -11,6 +11,12 @@ L["ALLOW_ON_PLAYER_UNITS"] = "允许用在玩家单位"
 L["ALLOW_ON_PLAYER_UNITS_DESC"] = "右键点击玩家单位来复制Raider.IO人物简介网址"
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "总是显示角色分数"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "按下一个快捷键（shift/ctrl/alt）在提示中显示玩家的角色分數。如果您启用此选项，鼠标提示将总是显示角色分数。"
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_ANONYMOUS_FUNCTION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_WITH"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "最佳地下城"
 L["BEST_RUN"] = "最高记录"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[您的改动已保存，但您必须重新加载（reload）才能生效。
@@ -22,19 +28,39 @@ L["COPY_RAIDERIO_PROFILE_URL"] = "复制 Raider.IO 人物简介链接"
 L["COPY_RAIDERIO_URL"] = "复制 Raider.IO 链接"
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "DPS分数"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AD"] = ""--]] 
 L["DUNGEON_SHORT_NAME_ARC"] = "魔法回廊"
 L["DUNGEON_SHORT_NAME_BRH"] = "黑鸦堡垒"
 L["DUNGEON_SHORT_NAME_COEN"] = "永夜大教堂"
 L["DUNGEON_SHORT_NAME_COS"] = "群星庭院"
 L["DUNGEON_SHORT_NAME_DHT"] = "黑心林地"
 L["DUNGEON_SHORT_NAME_EOA"] = "艾萨拉之眼"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_FH"] = ""--]] 
 L["DUNGEON_SHORT_NAME_HOV"] = "英灵殿"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_LOWR"] = "卡拉赞下层"
 L["DUNGEON_SHORT_NAME_MOS"] = "噬魂之喉"
 L["DUNGEON_SHORT_NAME_NL"] = "奈萨里奥的巢穴"
 L["DUNGEON_SHORT_NAME_SEAT"] = "执政团之座"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SIEGE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TM"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_UNDR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_UPPR"] = "卡拉赞上层"
 L["DUNGEON_SHORT_NAME_VOTW"] = "守望者地窟"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_WM"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
 --[[Translation missing --]]
@@ -52,6 +78,8 @@ L["ENABLE_NO_SCORE_COLORS_DESC"] = "关闭评分颜色。所有评分会显示�
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "使用简单评分颜色"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "将评分用基础装备等级颜色显示，这会让有色觉缺陷更简单的区分评分等级。"
 --[[Translation missing --]]
+--[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
@@ -63,6 +91,10 @@ L["HEALER_SCORE"] = "治疗者评分"
 --[[ L["INVERSE_PROFILE_MODIFIER_DESC"] = ""--]] 
 L["KEYSTONE_COMPLETED_10"] = "+10-14 完成的钥石"
 L["KEYSTONE_COMPLETED_15"] = "+15 完成的钥石"
+--[[Translation missing --]]
+--[[ L["LEGION_MAIN_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["LEGION_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
 L["MAINS_SCORE"] = "当前分数"
@@ -102,6 +134,8 @@ L["PREV_SEASON_SUFFIX"] = "（*）"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO 大秘境评分"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO 大秘境评分："
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO 大秘境选项"
+--[[Translation missing --]]
+--[[ L["RAIDING_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "我一会儿再重载（Reload）"
 L["RELOAD_NOW"] = "现在重载（Reload）"
 --[[Translation missing --]]
@@ -147,6 +181,8 @@ L["TIMED_15_RUNS"] = "限时通关 15+ 次数"
 L["TOOLTIP_CUSTOMIZATION"] = "提示自定义"
 --[[Translation missing --]]
 --[[ L["TOOLTIP_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["TOTAL_RUNS"] = ""--]] 
 L["UNKNOWN_SCORE"] = "未知"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r已经转到新服务器。情急下这条信息|cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r並且发送给开发者，非常感谢！"
 --[[Translation missing --]]

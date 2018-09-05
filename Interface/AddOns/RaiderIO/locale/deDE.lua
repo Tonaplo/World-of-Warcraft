@@ -11,6 +11,12 @@ L["ALLOW_ON_PLAYER_UNITS"] = "Erlaube auf Einheitenfenstern von Spielern"
 L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Rechtsklick auf Einheitenfenster von Spielern, um den Raider.IO Profil-Link zu kopieren."
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "Immer Wertung der aktuellen Rolle anzeigen"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Halte einen Modifikator gedrückt (Shift / Strg / Alt), um die Rollenwertung des Spielers im Tooltip anzuzeigen. Wenn du diese Option aktivierst, enthalten die Tooltips immer Rollenwerte."
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_ANONYMOUS_FUNCTION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_WITH"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "Beste Instanzwertung"
 L["BEST_RUN"] = "Bester Run"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Ihre Änderungen wurden gespeichert, du musst jedoch die Benutzeroberfläche neu laden, damit diese wirksam werden.
@@ -22,6 +28,8 @@ L["COPY_RAIDERIO_PROFILE_URL"] = "Kopiere Raider.IO Link"
 L["COPY_RAIDERIO_URL"] = "Kopiere Raider.IO Link"
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "DPS Wertung"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AD"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_ARC"] = ""--]] 
 --[[Translation missing --]]
@@ -35,7 +43,11 @@ L["DPS_SCORE"] = "DPS Wertung"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_EOA"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_FH"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_HOV"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_LOWR"] = ""--]] 
 --[[Translation missing --]]
@@ -45,9 +57,23 @@ L["DPS_SCORE"] = "DPS Wertung"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_SEAT"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SIEGE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SOTS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TD"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TM"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TOS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_UNDR"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_UPPR"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_VOTW"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_WM"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
 --[[Translation missing --]]
@@ -63,6 +89,8 @@ L["ENABLE_NO_SCORE_COLORS_DESC"] = "Deaktiviere Farben der Wertungen. Alle Wertu
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Verwende einfache Farben"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Zeigt nur Wertungen mit Standardfarben für Itemqualität an. Dies kann es für Personen mit Farbsehschwächen leichter machen, die Bewertungsstufen zu unterscheiden."
 --[[Translation missing --]]
+--[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
@@ -73,6 +101,10 @@ L["INVERSE_PROFILE_MODIFIER_DESC"] = [=[
 Wenn du dies aktivierst, wird das Verhalten des Profil-Tooltip-Modifikators (Shift / Strg / Alt) umgekehrt: Halten, um die Ansicht zwischen persönlichen und Gruppenleiter-Profil oder Gruppenleiter und persönlichen Profil umzuschalten.]=]
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (SSE)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (SSM)"
+--[[Translation missing --]]
+--[[ L["LEGION_MAIN_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["LEGION_SCORE"] = ""--]] 
 L["LOCKING_PROFILE_FRAME"] = "RaiderIO: M+ Profilrahmen sperren"
 L["MAINS_SCORE"] = "Hauptcharakter Wertung"
 L["MAINS_SCORE_COLON"] = "Hauptcharakter Wertung:"
@@ -99,6 +131,8 @@ L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO M+ Basiswertung"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO M+ Wertung"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO M+ Wertung:"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO M+ Einstellungen"
+--[[Translation missing --]]
+--[[ L["RAIDING_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "Aktualisiere später"
 L["RELOAD_NOW"] = "Aktualisiere jetzt"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Zeige durchschn. Wertungen für Durchgänge"
@@ -135,6 +169,8 @@ L["TIMED_10_RUNS"] = "Erfolgreiche +10-14 Runs"
 L["TIMED_15_RUNS"] = "Erfolgreiche +15 Runs"
 L["TOOLTIP_CUSTOMIZATION"] = "Wertung Tooltip Anpassungen"
 L["TOOLTIP_PROFILE"] = "Profil Tooltip Anpassungen"
+--[[Translation missing --]]
+--[[ L["TOTAL_RUNS"] = ""--]] 
 L["UNKNOWN_SCORE"] = "Unbekannt"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r hat einen neuen Server gefunden. Bitte schreibe folgende information auf: |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r . Danach schicke diese den Entwicklern. Danke!"
 --[[Translation missing --]]
