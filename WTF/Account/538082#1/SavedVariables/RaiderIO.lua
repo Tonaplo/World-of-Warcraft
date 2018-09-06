@@ -15,3 +15,4 @@ RaiderIO_Config = {
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
 }
+RaiderIO_LastCharacter = "us-Thedodrouk-icecrown"

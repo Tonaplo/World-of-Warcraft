@@ -60,7 +60,7 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Thedodrouk"] = 10976,
+							["Thedodrouk"] = 11294,
 							["Mallusof"] = 100000,
 						},
 					},
@@ -98,8 +98,8 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
-							["Mallusof"] = 1162234125,
 							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -116,7 +116,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 800130111,
+							["Mallusof"] = 788359147,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -925,12 +925,6 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 370,
@@ -938,11 +932,17 @@ LUIDB = {
 						["Height"] = 205,
 						["Animation"] = "None",
 					},
-					["Chat"] = {
-						["AlwaysShow"] = true,
+					["MicroMenu"] = {
 						["IsShown"] = true,
 					},
+					["Tps"] = {
+						["Width"] = 600,
+					},
 					["Minimap"] = {
+						["IsShown"] = true,
+					},
+					["Chat"] = {
+						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
 				},
@@ -1069,13 +1069,7 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1087,17 +1081,23 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.12, -- [1]
@@ -1231,7 +1231,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1243,19 +1249,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1394,17 +1394,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
 					},
 					["raidborder"] = {
 						0.901960784313726, -- [1]
@@ -1412,13 +1406,19 @@ LUIDB = {
 						0.901960784313726, -- [3]
 						0.300000011920929, -- [4]
 					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1554,106 +1554,106 @@ LUIDB = {
 							"/focus", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/p restarting wow", -- [1]
-							"/i thanks :)", -- [2]
+							"/i thanks :)", -- [1]
+							"/p restarting wow", -- [2]
 							"/s lol @ Heals leaving", -- [3]
-							"/p Is everyone in the correct mode?", -- [4]
-							"/p andy in on", -- [5]
-							"/p turn on", -- [6]
-							"/p try to join voice now", -- [7]
-							"/p Warmode On", -- [8]
-							"/p ok has everyone left?", -- [9]
-							"/p lets rejooni", -- [10]
-							"/p I cant hear you", -- [11]
-							"/p I saw no speakers or anything", -- [12]
-							"/p I was auto put into voice chat", -- [13]
-							"/p then couldnt hear you", -- [14]
-							"/p I am PTT", -- [15]
-							"/p yeah I'm in afucked state agaion", -- [16]
-							"/p nothing", -- [17]
-							"/i thanks :)", -- [18]
-							"/p Is everyone in the correct mode?", -- [19]
-							"/p turn on", -- [20]
-							"/p Warmode On", -- [21]
-							"/p lets rejooni", -- [22]
-							"/p I saw no speakers or anything", -- [23]
-							"/p then couldnt hear you", -- [24]
-							"/p yeah I'm in afucked state agaion", -- [25]
-							"/i thanks :)", -- [26]
-							"/p turn on", -- [27]
-							"/p lets rejooni", -- [28]
-							"/p then couldnt hear you", -- [29]
-							"/i thanks :)", -- [30]
-							"/p lets rejooni", -- [31]
-							"/i thanks :)", -- [32]
+							"/p andy in on", -- [4]
+							"/p try to join voice now", -- [5]
+							"/p ok has everyone left?", -- [6]
+							"/p I cant hear you", -- [7]
+							"/p I was auto put into voice chat", -- [8]
+							"/p I am PTT", -- [9]
+							"/p nothing", -- [10]
+							"/p Is everyone in the correct mode?", -- [11]
+							"/p Warmode On", -- [12]
+							"/p I saw no speakers or anything", -- [13]
+							"/p yeah I'm in afucked state agaion", -- [14]
+							"/p turn on", -- [15]
+							"/p then couldnt hear you", -- [16]
+							"/p lets rejooni", -- [17]
+							"/p restarting wow", -- [18]
+							"/p andy in on", -- [19]
+							"/p ok has everyone left?", -- [20]
+							"/p I was auto put into voice chat", -- [21]
+							"/p nothing", -- [22]
+							"/p Warmode On", -- [23]
+							"/p yeah I'm in afucked state agaion", -- [24]
+							"/p then couldnt hear you", -- [25]
+							"/p restarting wow", -- [26]
+							"/p ok has everyone left?", -- [27]
+							"/p nothing", -- [28]
+							"/p yeah I'm in afucked state agaion", -- [29]
+							"/p restarting wow", -- [30]
+							"/p nothing", -- [31]
+							"/p restarting wow", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/g Yeah, it's a strange name, but I needed a name that fit a Dark Iron Dwarf!", -- [1]
+							"/g Thanks :)", -- [1]
 							"/g the best", -- [2]
 							"/g thanks :)", -- [3]
-							"/g Logging off again :P Just wanted to get the char in :)", -- [4]
-							"/g Yeah, it's a strange name, but I needed a name that fit a Dark Iron Dwarf!", -- [5]
-							"/g thanks :)", -- [6]
-							"/g Yeah, it's a strange name, but I needed a name that fit a Dark Iron Dwarf!", -- [7]
-							"/g And this fits perfectly", -- [8]
-							"/g Not gonna level now tho", -- [9]
-							"/g Thanks :)", -- [10]
-							"/g Thank you :)", -- [11]
-							"/g the best", -- [12]
-							"/g Logging off again :P Just wanted to get the char in :)", -- [13]
-							"/g thanks :)", -- [14]
-							"/g And this fits perfectly", -- [15]
-							"/g Thanks :)", -- [16]
-							"/g the best", -- [17]
-							"/g thanks :)", -- [18]
-							"/g Thanks :)", -- [19]
-							"/g thanks :)", -- [20]
+							"/g Thanks :)", -- [4]
+							"/g thanks :)", -- [5]
+							" Yeah, that is annoying", -- [6]
+							" the character DID leave the guild", -- [7]
+							" >", -- [8]
+							" Yeah, that I can agree with", -- [9]
+							" If it was \"Blabla has left Azeroth\"", -- [10]
+							" Do you also have a billion transfer codes lying around?", -- [11]
+							"/g Yeah, it's a strange name, but I needed a name that fit a Dark Iron Dwarf!", -- [12]
+							"/g And this fits perfectly", -- [13]
+							"/g the best", -- [14]
+							"/g Thanks :)", -- [15]
+							" Yeah, that is annoying", -- [16]
+							" >", -- [17]
+							" If it was \"Blabla has left Azeroth\"", -- [18]
+							"/g Yeah, it's a strange name, but I needed a name that fit a Dark Iron Dwarf!", -- [19]
+							"/g the best", -- [20]
 							" Yeah, that is annoying", -- [21]
-							" I mean", -- [22]
-							" the character DID leave the guild", -- [23]
-							" You dont want it to", -- [24]
-							" >", -- [25]
-							" Why not?", -- [26]
-							" Yeah, that I can agree with", -- [27]
-							" true", -- [28]
-							" If it was \"Blabla has left Azeroth\"", -- [29]
-							" yeah", -- [30]
-							" Do you also have a billion transfer codes lying around?", -- [31]
-							" Arg, no wories", -- [32]
+							" If it was \"Blabla has left Azeroth\"", -- [22]
+							"/g the best", -- [23]
+							" If it was \"Blabla has left Azeroth\"", -- [24]
+							"/g Did you know that your name means \"Danish\".... in Danish?", -- [25]
+							"/g Dansk", -- [26]
+							"/g I AM Danish :P", -- [27]
+							"/g Favourite mead? as in  a Danish brand?", -- [28]
+							"/g Gonna have to look that up lol", -- [29]
+							"/g I usually just drink Tuborg or Carlsberg", -- [30]
+							"/g Yeah I prefer that :P", -- [31]
+							"/g gtg !  :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [1]
-							"/cw Eugenik-Tichondrius or \" thanks\"", -- [2]
-							"/s indeed", -- [3]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [4]
-							"/s indeed", -- [5]
-							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [6]
-							"/cw Eugenik-Tichondrius \"Omg, I have to play the game, that sucks", -- [7]
-							"/6 26", -- [8]
-							"/6 Holy shit i should herb more at night", -- [9]
+							" awesome!", -- [2]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [3]
+							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [4]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [5]
+							" awesome!", -- [6]
+							"/s gone disc now", -- [7]
+							"/s indeed", -- [8]
+							" I'm not raiding with Wisdom", -- [9]
 							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [10]
-							" How is Icecrown", -- [11]
-							"/cw Eugenik-Tichondrius or \" thanks\"", -- [12]
-							" Hey Cat", -- [13]
+							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [11]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [12]
+							" awesome!", -- [13]
 							"/s indeed", -- [14]
-							"/6 26", -- [15]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [16]
-							"/cw Eugenik-Tichondrius or \" thanks\"", -- [17]
-							"/s indeed", -- [18]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [19]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [15]
+							" awesome!", -- [16]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [17]
+							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [18]
+							" awesome!", -- [19]
 							"/s indeed", -- [20]
-							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [21]
-							"/6 26", -- [22]
+							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [21]
+							" awesome!", -- [22]
 							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [23]
-							"/cw Eugenik-Tichondrius or \" thanks\"", -- [24]
+							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [24]
 							"/s indeed", -- [25]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [26]
-							"/s indeed", -- [27]
-							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [28]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [29]
-							"/s indeed", -- [30]
-							"/g |cffffff00|Hquest:53300:-1:120:120:0|h[Overgrown Anchor Weed]|h|r", -- [31]
-							"/s indeed", -- [32]
+							" awesome!", -- [26]
+							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [27]
+							" awesome!", -- [28]
+							"/cw Opi-Tichondrius Hello there", -- [29]
+							"/cw Opi-Tichondrius How did you get that achievement?", -- [30]
+							"/cw Opi-Tichondrius |cffffff00|Hachievement:12993:Player-11-0B00F9AC:1:9:5:18:4294967295:4294967295:4294967295:4294967295|h[Don't Warfront Me]|h|r?", -- [31]
+							"/cw Opi-Tichondrius Did you just log in or?", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1913,11 +1913,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -1966,11 +1966,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -2002,11 +2002,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -2197,9 +2197,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2265,11 +2265,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Korugen - Proudmoore"] = {
@@ -2295,9 +2295,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2440,14 +2440,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
@@ -2459,7 +2459,7 @@ LUIDB = {
 		["Thedodrouk - Icecrown"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
