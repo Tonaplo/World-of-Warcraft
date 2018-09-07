@@ -6,6 +6,8 @@ BigWigs:AddColors("Taloc", {
 	[271728] = "orange",
 	[271895] = {"blue","yellow"},
 	[271965] = "green",
+	[275189] = "yellow",
+	[275205] = {"blue","orange"},
 	[275270] = "blue",
 	[275432] = {"blue","red"},
 	["stages"] = "green",
@@ -46,6 +48,7 @@ BigWigs:AddColors("Zek'voz, Herald of N'zoth", {
 })
 
 BigWigs:AddColors("Vectis", {
+	[265143] = "blue",
 	[265178] = {"blue","purple"},
 	[265212] = {"blue","orange"},
 	[265217] = "cyan",

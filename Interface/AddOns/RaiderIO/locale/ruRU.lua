@@ -78,6 +78,8 @@ L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Показывает очки тольк
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["GUILD_BEST_TITLE"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
 L["HEALER"] = "Лекарь"
 L["HEALER_SCORE"] = "Очки лекаря"

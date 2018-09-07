@@ -79,6 +79,8 @@ L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Utiliser les couleurs de raretés (rare,
 --[[Translation missing --]]
 --[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
 L["GUILD_BEST_SEASON"] = "Guilde: Top Saison"
+--[[Translation missing --]]
+--[[ L["GUILD_BEST_TITLE"] = ""--]] 
 L["GUILD_BEST_WEEKLY"] = "Guilde : Top Semaine"
 L["HEALER"] = "Heal"
 L["HEALER_SCORE"] = "Score en heal"

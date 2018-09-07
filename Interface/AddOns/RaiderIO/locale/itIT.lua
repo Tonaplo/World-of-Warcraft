@@ -110,6 +110,8 @@ if ns:IsSameLocale("itIT") then
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["GUILD_BEST_TITLE"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["HEALER"] = ""--]] 

@@ -1,160 +1,28 @@
-lightweight tag 7c3dd8417638d9a71354a0b9e38451b50d117c35 v201809050600
+lightweight tag 7c6bad9eee6ab1c60add944999a58d756f75ad3a v201809060600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Wed Sep 5 06:26:36 2018 +0000
+Date:	Thu Sep 6 06:27:52 2018 +0000
 
-commit 7c3dd8417638d9a71354a0b9e38451b50d117c35
+commit 7c6bad9eee6ab1c60add944999a58d756f75ad3a
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Sep 5 06:26:36 2018 +0000
+Date:   Thu Sep 6 06:27:52 2018 +0000
 
     [Raider.IO] Database Refresh
 
-commit fbec32c52951f66291cdd75124ddc54c36e23df0
+commit f611b120a5f2fa108546e0c745498bffedae7317
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 19:40:27 2018 -0500
+Date:   Wed Sep 5 15:12:00 2018 -0500
 
-    fixed package build issues from case change on GuildBest.xml
+    fixed ordering of dungeons so it is sorted by zone ID, like the server
 
-commit 93904e817979069de2f335b852b841cc289f26d0
-Author: Vlad <vladix@gmail.com>
-Date:   Wed Sep 5 00:15:30 2018 +0200
-
-    - Sticky the profile tooltip to show expanded information. Might revert if it overflows with information.
-
-commit 80c867fa181bc0741cf251b72a6633264c90b637
-Author: Vlad <vladix@gmail.com>
-Date:   Wed Sep 5 00:09:35 2018 +0200
-
-    - The file is now lowercase. I hope this doesn't break things, Jah.
-
-commit 9bdbe7ad8a3510593a3fed2724d85ef8fcfc9311
-Author: Vlad <vladix@gmail.com>
-Date:   Wed Sep 5 00:08:08 2018 +0200
-
-    - Adjusted Guild Best frame and code, fixed some issues and it should appear functional again.
-    
-    - Adjusted the Export button to look more buttony.
-    - Added a clearer message if its possible to identify the caller of a deprecated API.
-
-commit 9bdbe7ad8a3510593a3fed2724d85ef8fcfc9311
-Author: Vlad <vladix@gmail.com>
-Date:   Wed Sep 5 00:08:08 2018 +0200
-
-    - Adjusted Guild Best frame and code, fixed some issues and it should appear functional again.
-    
-    - Adjusted the Export button to look more buttony.
-    - Added a clearer message if its possible to identify the caller of a deprecated API.
-
-commit 922efd53c56b52802f86c310265d5b59c561e52d
+commit b29e17e41c8478ebd65fa9f4eb58f54afb34f1a8
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 15:50:28 2018 -0500
+Date:   Wed Sep 5 14:18:54 2018 -0500
 
-    we have a different capitalization of GuildBest.xml in the uploaded files, so let's forcibly remove it so we don't package two cases of the same file
+    more readme updates
 
-commit bd15949010f24fd98009ffa0e3f2f38c15e4bb14
-Author: Vlad <vladix@gmail.com>
-Date:   Tue Sep 4 20:01:50 2018 +0200
-
-    - Forgot to merge the locale string.
-
-commit 28c19ba20dd5c11703f1c912d24b4a288e7eef2b
-Author: Vlad <vladix@gmail.com>
-Date:   Tue Sep 4 19:53:29 2018 +0200
-
-    - Fixed an issue with caching while in LFD or dungeon activities where we would like to show "Best" run for that dungeon, but to avoid caching it when we leave, we also have to avoid caching during this state.
-
-commit 4776f25b49a1d3782cb894176e34a03f77683bca
-Author: Vlad <vladix@gmail.com>
-Date:   Tue Sep 4 19:47:49 2018 +0200
-
-    - Added global flags to avoid caching when we are in LFD or a dungeon, and modify the tooltips to show everyones "Best" dungeon run of what we're doing.
-
-commit 4776f25b49a1d3782cb894176e34a03f77683bca
-Author: Vlad <vladix@gmail.com>
-Date:   Tue Sep 4 19:47:49 2018 +0200
-
-    - Added global flags to avoid caching when we are in LFD or a dungeon, and modify the tooltips to show everyones "Best" dungeon run of what we're doing.
-
-commit 909dad098cf8f72203975bf13ae58a15af03ffc9
+commit d12865c8e6e6c68eb038813c2ff43a32ad582d58
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 12:00:42 2018 -0500
+Date:   Wed Sep 5 14:04:05 2018 -0500
 
-    Moving this off of master
-    
-    Revert "- Adjusted some frame names, those that don't need a name can be nameless."
-    
-    This reverts commit a9dc7a73c9f4c33b02566e6773f78c9cfb53f17b.
-
-commit a9dc7a73c9f4c33b02566e6773f78c9cfb53f17b
-Author: Vlad <vladix@gmail.com>
-Date:   Tue Sep 4 18:50:17 2018 +0200
-
-    - Adjusted some frame names, those that don't need a name can be nameless.
-    
-    - Added a export button that easily lets you copy a particular text and paste it into https://raider.io to lookup your group and queued applicants. This feature might not be live, but the button has been implemented into the addon. This button only functions in debug mode for testing purposes.
-
-commit f966d38afa54ed1898b6097cb774a7863404b101
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 08:50:01 2018 -0500
-
-    score color updates
-
-commit 6715f5df000668a44d4f704f99c06c87529c4201
-Author: Vlad <Vladinator89@users.noreply.github.com>
-Date:   Tue Sep 4 15:23:27 2018 +0200
-
-    Rename GuildBest.xml to guildbest.xml
-
-commit 6715f5df000668a44d4f704f99c06c87529c4201
-Author: Vlad <Vladinator89@users.noreply.github.com>
-Date:   Tue Sep 4 15:23:27 2018 +0200
-
-    Rename GuildBest.xml to guildbest.xml
-
-commit 6dded4feb5364058e2314ec20ff44f77561b6999
-Author: Vlad <vladix@gmail.com>
-Date:   Tue Sep 4 15:22:02 2018 +0200
-
-    Updated the readme, the bits about API.
-
-commit 653bdeb1e96994d43e49082b6312d90f0e40e261
-Author: Vlad <vladix@gmail.com>
-Date:   Tue Sep 4 15:13:18 2018 +0200
-
-    - Updated the config frame references to addonConfig to use the namespace reference.
-
-commit b8ff887b9cb639f8adac768009ab6aa48924e101
-Author: Vlad <vladix@gmail.com>
-Date:   Tue Sep 4 15:09:44 2018 +0200
-
-    - Moved the config related code into its own file.
-
-commit 229601e87a34ff6f6e70174cbbf8153f01de6e6b
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 06:32:34 2018 -0500
-
-    Make search tooltip show name
-
-commit 1a94e9d6fea7e924615f8e5921d845a64043b9a7
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 05:46:12 2018 -0500
-
-    do not override best run with KSM/KSC, because those are brought over from Legion
-
-commit 3f61727e56def7554ec7c6390de371ed6f5bdc71
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 05:40:41 2018 -0500
-
-    latest data
-
-commit 3f61727e56def7554ec7c6390de371ed6f5bdc71
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 05:40:41 2018 -0500
-
-    latest data
-
-commit c70b5832aae2b62f5b2b193831a75551cf619693
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Sep 4 05:40:33 2018 -0500
-
-    got rid of debug mode legion override stuff
+    a couple tweaks to readme
 

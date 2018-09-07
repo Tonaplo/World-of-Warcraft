@@ -130,9 +130,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
-							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -161,10 +161,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -187,7 +187,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 791264354,
+							["Mallusof"] = 520171454,
 						},
 					},
 				},
@@ -196,11 +196,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -211,6 +206,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -238,9 +237,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1053,38 +1053,38 @@ LUIDB = {
 							"/g gtg !  :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [1]
-							"/cw Mistaaytch-Lightbringer HHHHdsadH", -- [2]
-							"/cw Opi-Tichondrius Hello there", -- [3]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [4]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [5]
-							"/cw Opi-Tichondrius Hello there", -- [6]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [7]
-							"/cw Mistaaytch-Lightbringer HHHHdsadH", -- [8]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [9]
-							"/cw Mistaaytch-Lightbringer HHHHdsadH", -- [10]
-							"/cw Opi-Tichondrius Hello there", -- [11]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [12]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [13]
-							"/cw Mistaaytch-Lightbringer HHHHdsadH", -- [14]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [15]
-							"/cw Mistaaytch-Lightbringer HHHHdsadH", -- [16]
-							"/cw Opi-Tichondrius Hello there", -- [17]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [18]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [19]
-							"/cw Opi-Tichondrius Hello there", -- [20]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [21]
-							"/cw Mistaaytch-Lightbringer HHHHdsadH", -- [22]
-							"/cw Opi-Tichondrius Hello there", -- [23]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [24]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [25]
-							"/cw Opi-Tichondrius Hello there", -- [26]
-							" |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r|cffffd000|Htrade:Player-11-0A92183E:195095:171|h[Alchemy]|h|r", -- [27]
-							"/cw Mistaaytch-Lightbringer HHHHdsadH", -- [28]
-							" And I have  Collectors Edition I wanna gift a good friend that I need signed", -- [29]
-							"/cw Opi-Tichondrius Hello there", -- [30]
-							"/cw Mistaaytch-Lightbringer HHHHdsadH", -- [31]
-							"/cw Opi-Tichondrius Hello there", -- [32]
+							" you should be higher than 316. That's too low :(", -- [1]
+							"/cw Kalithumos-Tichondrius yeah", -- [2]
+							"/raid join raid voice chat peeps!", -- [3]
+							" you should be higher than 316. That's too low :(", -- [4]
+							"/raid join raid voice chat peeps!", -- [5]
+							"/cw Jhasu-Lightbringer yeah, I'm used to doing that too lol", -- [6]
+							"/cw Jhasu-Lightbringer you do CDs for now", -- [7]
+							"/cw Jhasu-Lightbringer adde LD(", -- [8]
+							"/cw Jhasu-Lightbringer :)", -- [9]
+							"/cw Kalithumos-Tichondrius yeah, lets try", -- [10]
+							"/raid No worries, Jhasu :)", -- [11]
+							"/cw Kholvinski-EmeraldDream sure :)", -- [12]
+							"/cw Kalithumos-Tichondrius Yeah", -- [13]
+							"/cw Kalithumos-Tichondrius Went so freaking well", -- [14]
+							"/cw Kalithumos-Tichondrius I was very impressed", -- [15]
+							"/cw Kalithumos-Tichondrius and very happy", -- [16]
+							" yeah lol", -- [17]
+							" Laura bailed and so did the other healer we had lol", -- [18]
+							" no worries", -- [19]
+							" :)", -- [20]
+							" Ofcourse!: ) Was great fun :L)", -- [21]
+							"/cw Kalithumos-Tichondrius damn wow", -- [22]
+							"/cw Kalithumos-Tichondrius nope it is not", -- [23]
+							"/cw Kalithumos-Tichondrius but", -- [24]
+							"/cw Kalithumos-Tichondrius I gtg", -- [25]
+							"/cw Kalithumos-Tichondrius 3 hours of raid, gotta help wife", -- [26]
+							"/cw Kalithumos-Tichondrius with baby :)", -- [27]
+							"/cw Kalithumos-Tichondrius talk tomorrow!", -- [28]
+							"/cw Kalithumos-Tichondrius )", -- [29]
+							" soudns great! :)", -- [30]
+							" gtg", -- [31]
+							" Cecilie needs help :)", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1183,12 +1183,15 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
+					},
+					["Minimap"] = {
+						["IsShown"] = true,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1196,9 +1199,6 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 						["Animation"] = "None",
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1338,7 +1338,13 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1350,19 +1356,13 @@ LUIDB = {
 						0.89, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1502,7 +1502,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1514,23 +1520,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1665,19 +1665,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1689,11 +1689,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1907,14 +1907,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
@@ -1926,7 +1926,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
@@ -1944,9 +1944,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1997,9 +1997,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2033,9 +2033,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2232,11 +2232,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Evisca - Bleeding Hollow"] = {
@@ -2296,9 +2296,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2397,11 +2397,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kindhoof - Proudmoore"] = {

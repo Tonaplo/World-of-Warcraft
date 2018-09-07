@@ -82,6 +82,8 @@ L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Muestra las puntuaciones usando solo los
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["GUILD_BEST_TITLE"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
 L["HEALER"] = "Sanador"
 L["HEALER_SCORE"] = "Puntuación de sanador"

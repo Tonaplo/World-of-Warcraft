@@ -73,6 +73,8 @@ L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "只使用標準物品品質顏色來顯�
 --[[Translation missing --]]
 --[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
 L["GUILD_BEST_SEASON"] = "公會：當季最佳"
+--[[Translation missing --]]
+--[[ L["GUILD_BEST_TITLE"] = ""--]] 
 L["GUILD_BEST_WEEKLY"] = "公會：當週最佳"
 L["HEALER"] = "治療者"
 L["HEALER_SCORE"] = "治療者分數"

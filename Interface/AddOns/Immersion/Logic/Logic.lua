@@ -121,7 +121,7 @@ end
 function NPC:HandleGossipQuestOverlap(event)
 	if (type(event) == 'string') then
 		if ( event == 'GOSSIP_SHOW' ) then
-			CloseQuest()
+		--	CloseQuest()
 		elseif ( event:match('^QUEST') and event ~= 'QUEST_ACCEPTED' ) then
 			CloseGossip()
 		end

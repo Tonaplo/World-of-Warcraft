@@ -78,6 +78,8 @@ L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "표준 아이템 품질의 색상만으�
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["GUILD_BEST_TITLE"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
 L["HEALER"] = "|cff41FF3A치유전담|r"
 L["HEALER_SCORE"] = "|cff41FF3A치유전담|r 점수"

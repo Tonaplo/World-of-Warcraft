@@ -82,6 +82,8 @@ L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "将评分用基础装备等级颜色显�
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["GUILD_BEST_TITLE"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
 L["HEALER"] = "治疗者"
 L["HEALER_SCORE"] = "治疗者评分"
