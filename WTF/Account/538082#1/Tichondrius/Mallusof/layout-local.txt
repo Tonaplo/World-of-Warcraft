@@ -34,6 +34,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: RIGHT
+X: -211
+Y: -106
+W: 267
+H: 190
 Frame: AllTheThings-Window-Tradeskills
 FrameLevel: 1
 Anchor: TOP

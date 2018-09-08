@@ -31,9 +31,9 @@ ConditionerAddOn_SavedVariables = {
 		["NumTrackedFrames"] = 5,
 	},
 	["TalentsPerLoadout"] = {
+		[34] = "2122221",
 		[36] = "2122221",
 		[32] = "2211131",
 		[33] = "2211131",
-		[34] = "2122221",
 	},
 }
