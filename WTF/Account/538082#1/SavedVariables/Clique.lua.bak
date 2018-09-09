@@ -90,13 +90,13 @@ CliqueDB3 = {
 			["specswap"] = true,
 			["spec3_profileKey"] = "Shaman - Resto",
 		},
-		["Morifa - Proudmoore"] = {
-			["spec1_profileKey"] = "Morifa - Proudmoore",
-			["spec2_profileKey"] = "Morifa - Proudmoore",
+		["Kindhoof - Tichondrius"] = {
+			["spec1_profileKey"] = "Kindhoof - Tichondrius",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec3_profileKey"] = "Morifa - Proudmoore",
+			["spec2_profileKey"] = "Kindhoof - Tichondrius",
+			["spec3_profileKey"] = "Kindhoof - Tichondrius",
 		},
 		["Mallusof - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
@@ -123,13 +123,21 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Thedodrouk - Icecrown",
 			["specswap"] = false,
 		},
-		["Granjior - Proudmoore"] = {
-			["spec1_profileKey"] = "Paladin - Holy",
-			["specswap"] = true,
+		["Deminath - Proudmoore"] = {
+			["spec1_profileKey"] = "Deminath - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Deminath - Proudmoore",
+			["spec3_profileKey"] = "Deminath - Proudmoore",
+		},
+		["Morifa - Proudmoore"] = {
+			["spec1_profileKey"] = "Morifa - Proudmoore",
+			["spec2_profileKey"] = "Morifa - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec3_profileKey"] = "Morifa - Proudmoore",
 		},
 		["Miriyal - Proudmoore"] = {
 			["spec1_profileKey"] = "Non-Healer",
@@ -138,14 +146,6 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = true,
 			["spec2_profileKey"] = "Monk - Mistweaver",
-		},
-		["Kindhoof - Tichondrius"] = {
-			["spec1_profileKey"] = "Kindhoof - Tichondrius",
-			["specswap"] = false,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Kindhoof - Tichondrius",
-			["spec3_profileKey"] = "Kindhoof - Tichondrius",
 		},
 		["Kindhoof - Proudmoore"] = {
 			["spec1_profileKey"] = "Kindhoof - Proudmoore",
@@ -172,13 +172,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Priest - Shadow",
 			["specswap"] = true,
 		},
-		["Deminath - Proudmoore"] = {
-			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["specswap"] = false,
+		["Granjior - Proudmoore"] = {
+			["spec1_profileKey"] = "Paladin - Holy",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Deminath - Proudmoore",
-			["spec3_profileKey"] = "Deminath - Proudmoore",
+			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 		},
 	},
 	["profileKeys"] = {
@@ -193,15 +193,15 @@ CliqueDB3 = {
 		["Faerand - Proudmoore"] = "Non-Healer",
 		["Amranar - Proudmoore"] = "Druid - Feral",
 		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
-		["Granjior - Proudmoore"] = "Non-Healer",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Rahran - Proudmoore"] = "Non-Healer",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Granjior - Proudmoore"] = "Non-Healer",
 		["Farahn - Proudmoore"] = "Shaman - Resto",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Mallusof - Tichondrius"] = "Priest - Shadow",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Morifa - Proudmoore"] = "Non-Healer",
 		["Kindhoof - Proudmoore"] = "Kindhoof - Proudmoore",
@@ -729,24 +729,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [2]
 				{
-					["spell"] = "Binding Heal",
-					["key"] = "1",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135883,
-					["type"] = "spell",
-				}, -- [3]
-				{
-					["spell"] = "Heal",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135913,
-					["type"] = "spell",
-				}, -- [4]
-				{
 					["spell"] = "Mass Dispel",
 					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
@@ -754,7 +736,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135739,
 					["type"] = "spell",
-				}, -- [5]
+				}, -- [3]
 				{
 					["spell"] = "Flash Heal",
 					["key"] = "3",
@@ -762,6 +744,24 @@ CliqueDB3 = {
 						["friend"] = true,
 					},
 					["icon"] = 135907,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Binding Heal",
+					["key"] = "1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135883,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Heal",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135913,
 					["type"] = "spell",
 				}, -- [6]
 				{
@@ -774,12 +774,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [7]
 				{
-					["spell"] = "Holy Word: Serenity",
-					["key"] = "F",
+					["spell"] = "Prayer of Healing",
+					["key"] = "Q",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 135937,
+					["icon"] = 135943,
 					["type"] = "spell",
 				}, -- [8]
 				{
@@ -792,30 +792,30 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [9]
 				{
-					["spell"] = "Guardian Spirit",
-					["key"] = "SHIFT-T",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 237542,
-					["type"] = "spell",
-				}, -- [10]
-				{
-					["spell"] = "Prayer of Healing",
-					["key"] = "Q",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135943,
-					["type"] = "spell",
-				}, -- [11]
-				{
 					["spell"] = "Leap of Faith",
 					["key"] = "T",
 					["sets"] = {
 						["friend"] = true,
 					},
 					["icon"] = 463835,
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Holy Word: Serenity",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135937,
+					["type"] = "spell",
+				}, -- [11]
+				{
+					["spell"] = "Guardian Spirit",
+					["key"] = "SHIFT-T",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 237542,
 					["type"] = "spell",
 				}, -- [12]
 				{
