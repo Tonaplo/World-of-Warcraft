@@ -1,28 +1,16 @@
-lightweight tag 7c6bad9eee6ab1c60add944999a58d756f75ad3a v201809060600
+lightweight tag 10a9445d01abb780401ae6d57c0c4e201e8d9db8 v201809070600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Thu Sep 6 06:27:52 2018 +0000
+Date:	Fri Sep 7 10:03:38 2018 +0000
 
-commit 7c6bad9eee6ab1c60add944999a58d756f75ad3a
+commit 10a9445d01abb780401ae6d57c0c4e201e8d9db8
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Thu Sep 6 06:27:52 2018 +0000
+Date:   Fri Sep 7 10:03:38 2018 +0000
 
     [Raider.IO] Database Refresh
 
-commit f611b120a5f2fa108546e0c745498bffedae7317
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Sep 5 15:12:00 2018 -0500
+commit 36eb2402843b10954d17b6abf76c4e9ea983fcd9
+Author: Vlad <vladix@gmail.com>
+Date:   Thu Sep 6 23:26:49 2018 +0200
 
-    fixed ordering of dungeons so it is sorted by zone ID, like the server
-
-commit b29e17e41c8478ebd65fa9f4eb58f54afb34f1a8
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Sep 5 14:18:54 2018 -0500
-
-    more readme updates
-
-commit d12865c8e6e6c68eb038813c2ff43a32ad582d58
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Sep 5 14:04:05 2018 -0500
-
-    a couple tweaks to readme
+    - Improve the deprecated message to emphasise on the addon we suspect causes the error, not so much on the API itself, as it can seem misleading when the RaiderIO is outlined in bold letters. I just hope other authors don't hate us if we accidentally blame their addon, like WeakAura might missfire if custom coded plugins started to call and get blamed on the main addon. Sorry!
 

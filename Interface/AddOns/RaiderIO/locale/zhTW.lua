@@ -14,7 +14,9 @@ L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "按下一個快捷鍵（shift/ctrl/alt）
 --[[Translation missing --]]
 --[[ L["API_DEPRECATED"] = ""--]] 
 --[[Translation missing --]]
---[[ L["API_DEPRECATED_ANONYMOUS_FUNCTION"] = ""--]] 
+--[[ L["API_DEPRECATED_UNKNOWN_ADDON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_DEPRECATED_UNKNOWN_FILE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["API_DEPRECATED_WITH"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "最速地城"
