@@ -98,3 +98,5 @@ Azeroth Auto Pilot: disabled
 SexyMap: enabled
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CUFProfiles: enabled
+Overachiever: disabled
+BigWigs_Azeroth: enabled
