@@ -63,10 +63,12 @@ BigWigs:AddSounds("Zul", {
 	[273361] = "info",
 	[273365] = "warning",
 	[273451] = "alarm",
-	[273889] = "long",
 	[274271] = "alarm",
 	[274358] = "warning",
 	[276299] = "alarm",
+	["bloodhexer"] = "long",
+	["crawg"] = "long",
+	["crusher"] = "long",
 	["stages"] = "long",
 })
 

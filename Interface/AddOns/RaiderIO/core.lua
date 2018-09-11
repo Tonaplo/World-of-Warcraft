@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201809070600", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201809102109", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -900,6 +900,7 @@ do
 						if numSigned then
 							if numSigned == true then
 								best.dungeon = status.dungeon
+								best.level = status.level or 0
 							elseif numSigned > 0 then
 								local highestDungeon
 								for j = 1, numSigned do
@@ -909,7 +910,7 @@ do
 									end
 								end
 								best.dungeon = highestDungeon
-								best.level = highestDungeon.level
+								best.level = highestDungeon.level or 0
 							end
 						end
 						if not best.dungeon then
@@ -918,13 +919,13 @@ do
 					end
 
 					-- if we have a dungeon, but no level assigned to it, try to read one from our profile
-					if best.dungeon and not best.level then
-						best.level = profile.dungeons[best.dungeon.index]
+					if best.dungeon and (not best.level or best.level < 1) then
+						best.level = profile.dungeons[best.dungeon.index] or 0
 					end
 
 					-- if no dungeon, or the level is undefined or 0, drop showing both as it's irrelevant information
 					if not best.dungeon or (best.level and best.level < 1) then
-						best.dungeon, best.level = nil
+						best.dungeon, best.level = nil, 0
 					end
 
 					-- Jah: Disabled for now, as everyone who did a +15 in Legion will have one in BFA since we are sharing achievements
@@ -1176,7 +1177,7 @@ do
 			-- store tooltip args for refresh purposes
 			local tooltipCache = tooltipArgs[tooltip]
 			if isCached then
-				tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8] = true, tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil
+				tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8] = true, tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, arg1, ...
 			else
 				tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8] = false, {tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, arg1, ...}
 			end
@@ -1254,7 +1255,7 @@ do
 			if modBitIsArg then
 				arg3 = modBit
 			else
-				arg2[3] = modBit
+				arg2[2] = modBit
 			end
 		end
 		-- finalize by calling the show tooltip API with the same arguments as earlier
@@ -1579,7 +1580,7 @@ do
 						local _, activityID, _, title, description = C_LFGList.GetActiveEntryInfo()
 						local keystoneLevel = GetKeystoneLevel(title) or GetKeystoneLevel(description) or 0
 						ShowTooltip(GameTooltip, bor(TooltipProfileOutput.PADDING(), ProfileOutput.ADD_LFD), fullName, nil, PLAYER_FACTION, true, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
-						ns.PROFILE_UI.ShowProfile(fullName, nil, PLAYER_FACTION, GameTooltip, nil, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
+						ns.PROFILE_UI.ShowProfile(fullName, nil, PLAYER_FACTION, GameTooltip, nil, activityID, keystoneLevel)
 					end
 				end
 			end
@@ -1595,7 +1596,7 @@ do
 					local keystoneLevel = GetKeystoneLevel(title) or GetKeystoneLevel(description) or 0
 					-- Update game tooltip with player info
 					ShowTooltip(tooltip, bor(TooltipProfileOutput.PADDING(), ProfileOutput.ADD_LFD), leaderName, nil, PLAYER_FACTION, true, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
-					ns.PROFILE_UI.ShowProfile(leaderName, nil, PLAYER_FACTION, tooltip, nil, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
+					ns.PROFILE_UI.ShowProfile(leaderName, nil, PLAYER_FACTION, tooltip, nil, activityID, keystoneLevel)
 				end
 			end
 			hooksecurefunc("LFGListUtil_SetSearchEntryTooltip", SetSearchEntryTooltip)
@@ -2192,6 +2193,7 @@ do
 	ns.CompareDungeon = CompareDungeon
 	ns.GetDungeonWithData = GetDungeonWithData
 	ns.GetNameAndRealm = GetNameAndRealm
+	ns.GetRealmSlug = GetRealmSlug
 	ns.GetStarsForUpgrades = GetStarsForUpgrades
 	ns.ProfileOutput = ProfileOutput
 	ns.TooltipProfileOutput = TooltipProfileOutput

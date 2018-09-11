@@ -1,3 +1,14 @@
+09/09/2018 version 4.8.6
+- Added new debug option to troubleshoot Mac crashes: 'Debug: No Models' to run Rematch without any models. This option is OFF by default.
+- Removed the default-on setting for 'Debug: Delay Journal On Macs' on Macs. If any currently have it on, it will remain on.
+- Renamed the option 'Debug: Delay Journal on Macs' to 'Debug: Delay Journal' for use on any client.
+
+Special note for MacOS users experiencing crashes:
+- The new Debug: No Models option is OFF by default.
+- If you can't even bring up options, copy and paste the following to chat to turn on the option and reload the UI:
+    /run RematchSettings.DebugNoModels=true ReloadUI()
+- Changing this setting requires reloading the UI to take effect.
+
 09/01/2018 version 4.8.5
 - Fix for new Mac debug options not doing what they were intended: if Blizzard_Collections is already loaded on login, wait until the journal is actually shown to setup Rematch.
 

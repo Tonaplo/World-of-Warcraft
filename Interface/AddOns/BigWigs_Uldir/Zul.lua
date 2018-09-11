@@ -5,11 +5,38 @@
 
 local mod, CL = BigWigs:NewBoss("Zul", 1861, 2195)
 if not mod then return end
-mod:RegisterEnableMob(138967) -- XXX Needs checking
-mod.engageId = 2145 -- XXX Needs checking
---mod.respawnTime = 30
+mod:RegisterEnableMob(138967)
+mod.engageId = 2145
+mod.respawnTime = 32
+
+--------------------------------------------------------------------------------
+-- Locals
+--
 
 local stage = 1
+
+--------------------------------------------------------------------------------
+-- Localization
+--
+
+local L = mod:GetLocale()
+if L then
+	L.crawg = -18541 -- Bloodthirsty Crawg
+	L.crawg_msg = "Crawg"
+	L.crawg_desc = "Warnings and timers for when the Bloodthirsty Crawg spawns."
+	L.crawg_icon = "achievement_dungeon_infestedcrawg"
+
+	L.bloodhexer = -18540 -- Nazmani Bloodhexer
+	L.bloodhexer_msg = "Bloodhexer"
+	L.bloodhexer_desc = "Warnings and timers for when the Nazmani Bloodhexer spawns."
+	L.bloodhexer_icon = "inv_bloodtrollfemalehead"
+
+	L.crusher = -18539 -- Nazmani Crusher
+	L.crusher_msg = "Crusher"
+	L.crusher_desc = "Warnings and timers for when the Nazmani Crusher spawns."
+	L.crusher_icon = "inv_bloodtrollfemaleheaddire01"
+end
+
 --------------------------------------------------------------------------------
 -- Initialization
 --
@@ -23,12 +50,14 @@ function mod:GetOptions()
 		darkRevelationMarker,
 		269936, -- Fixate
 		273361, -- Pool of Darkness
-		273889, -- Call of Blood
+		"crusher",
+		"bloodhexer",
+		"crawg",
 		273288, -- Thrumming Pulse
 		273451, -- Congeal Blood
 		273350, -- Bloodshard
 		276299, -- Engorged Burst
-		{274358, "TANK"}, -- Rupturing Blood
+		{274358, "SAY_COUNTDOWN"}, -- Rupturing Blood
 		274271, -- Deathwish
 		deathwishMarker,
 	}
@@ -42,7 +71,9 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "DarkRevelationApplied", 273365)
 	self:Log("SPELL_AURA_REMOVED", "DarkRevelationRemoved", 273365)
 	self:Log("SPELL_AURA_APPLIED", "FixateApplied", 269936, 276020)
-	self:Log("SPELL_CAST_START", "CallofBlood", 273889, 274098, 274119)
+	self:Log("SPELL_CAST_START", "NazmaniCrusher", 274119)
+	self:Log("SPELL_CAST_START", "NazmaniBloodhexer", 274098)
+	self:Log("SPELL_CAST_START", "BloodthirstyCrawg", 273889)
 	self:Log("SPELL_CAST_START", "ThrummingPulse", 273288)
 	self:Log("SPELL_CAST_SUCCESS", "CongealBlood", 273451)
 	self:Log("SPELL_CAST_START", "Bloodshard", 273350)
@@ -50,8 +81,10 @@ function mod:OnBossEnable()
 
 	-- Stage 2
 	self:Log("SPELL_CAST_SUCCESS", "LocusofCorruption", 274168)
+	self:Log("SPELL_CAST_SUCCESS", "RupturingBlood", 274358)
 	self:Log("SPELL_AURA_APPLIED", "RupturingBloodApplied", 274358)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "RupturingBloodApplied", 274358)
+	self:Log("SPELL_AURA_REMOVED", "RupturingBloodRemoved", 274358)
 	self:Log("SPELL_AURA_APPLIED", "DeathwishApplied", 274271)
 	self:Log("SPELL_AURA_REMOVED", "DeathwishRemoved", 274271)
 end
@@ -60,6 +93,10 @@ function mod:OnEngage()
 	stage = 1
 	self:Bar(273361, 21) -- Pool of Darkness
 	self:Bar(273365, 30) -- Dark Revelation
+
+	self:CDBar("crawg", 37, CL.soon:format(L.crawg_msg), L.crawg_icon)
+	self:CDBar("bloodhexer", 50, CL.soon:format(L.bloodhexer_msg), L.bloodhexer_icon)
+	self:CDBar("crusher", 75, CL.soon:format(L.crusher_msg), L.crusher_icon)
 
 	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "boss1")
 end
@@ -117,7 +154,7 @@ do
 		playerList[#playerList+1] = args.destName
 		if #playerList == 1 then
 			self:SimpleTimer(announce, 0.1)
-			self:CastBar(args.spellId, 10) -- XXX Change to an 'Exploding Bar' incase more appropriate
+			self:TargetBar(args.spellId, 10, 140995, args.spellId) -- 140995 = "Explode"
 		end
 		if self:Me(args.destGUID) then
 			isOnMe = #playerList
@@ -132,6 +169,9 @@ do
 end
 
 function mod:DarkRevelationRemoved(args)
+	if self:Me(args.destGUID) then
+		self:CancelSayCountdown(args.spellId)
+	end
 	if self:GetOption(darkRevelationMarker) then
 		SetRaidTarget(args.destName, 0)
 	end
@@ -151,9 +191,25 @@ do
 	end
 end
 
-function mod:CallofBlood(args) -- XXX Add types each wave/wave timers
-	self:Message(273889, "cyan")
-	self:PlaySound(273889, "long")
+function mod:NazmaniCrusher(args)
+	self:Message("crusher", "cyan", nil, CL.soon:format(L.crusher_msg), L.crusher_icon)
+	self:PlaySound("crusher", "long")
+	self:CDBar("crusher", 62.5, CL.soon:format(L.crusher_msg), L.crusher_icon)
+	self:Bar("crusher", 14, CL.spawning:format(L.crusher_msg), L.crusher_icon)
+end
+
+function mod:NazmaniBloodhexer(args)
+	self:Message("bloodhexer", "cyan", nil, CL.soon:format(L.bloodhexer_msg), L.bloodhexer_icon)
+	self:PlaySound("bloodhexer", "long")
+	self:CDBar("bloodhexer", 62.5, L.bloodhexer_msg, L.bloodhexer_icon)
+	self:Bar("bloodhexer", 14, CL.spawning:format(L.bloodhexer_msg), L.bloodhexer_icon)
+end
+
+function mod:BloodthirstyCrawg(args)
+	self:Message("crawg", "cyan", nil, CL.soon:format(L.crawg_msg), L.crawg_icon)
+	self:PlaySound("crawg", "long")
+	self:CDBar("crawg", 42.5, L.crawg_msg, L.crawg_icon)
+	self:Bar("crawg", 14, CL.spawning:format(L.crawg_msg), L.crawg_icon)
 end
 
 function mod:ThrummingPulse(args)
@@ -167,9 +223,12 @@ function mod:CongealBlood(args)
 end
 
 function mod:Bloodshard(args)
-	self:Message(args.spellId, "orange")
-	if self:Interrupter() then
-		self:PlaySound(args.spellId, "alert")
+	local canDo, ready = self:Interrupter(args.sourceGUID)
+	if canDo then
+		self:Message(args.spellId, "orange")
+		if ready then
+			self:PlaySound(args.spellId, "alert")
+		end
 	end
 end
 
@@ -179,21 +238,48 @@ function mod:EngorgedBurst(args)
 end
 
 function mod:LocusofCorruption(args)
+	self:StopBar(L.crawg)
+	self:StopBar(L.bloodhexer)
+	self:StopBar(L.crusher)
+	self:StopBar(273361) -- Pool of Blood
+	self:StopBar(273365) -- Dark Revelation
+
 	stage = 2
 	self:Message("stages", "green", nil, CL.stage:format(stage), false)
 	self:PlaySound("stages", "long")
 
-	self:CDBar(274358, 10) -- Rupturing Blood
+	if self:Tank() then
+		self:CDBar(274358, 10) -- Rupturing Blood
+	end
+	self:CDBar(273361, 16) -- Pool of Blood
 	self:CDBar(274271, 26) -- Death Wish
 end
 
-function mod:RupturingBloodApplied(args)
-	local amount = args.amount or 1
-	self:StackMessage(args.spellId, args.destName, args.amount, "purple")
-	if self:Me(args.destGUID) or amount > 2 then
-		self:PlaySound(args.spellId, "warning", args.destName)
+function mod:RupturingBlood(args)
+	if self:Tank() then
+		self:CDBar(args.spellId, 6.1)
 	end
-	self:CDBar(args.spellId, 6.1)
+end
+
+function mod:RupturingBloodApplied(args)
+	if self:Me(args.destGUID) then
+		self:CancelSayCountdown(args.spellId)
+		self:SayCountdown(args.spellId, 20, nil, 5)
+		self:PlaySound(args.spellId, "warning", args.destName)
+		self:StackMessage(args.spellId, args.destName, args.amount, "purple")
+	elseif self:Tank() and self:Tank(args.destName) then
+		local amount = args.amount or 1
+		self:StackMessage(args.spellId, args.destName, amount, "purple")
+		if amount > 2 then
+			self:PlaySound(args.spellId, "warning", args.destName)
+		end
+	end
+end
+
+function mod:RupturingBloodRemoved(args)
+	if self:Me(args.destGUID) then
+		self:CancelSayCountdown(args.spellId)
+	end
 end
 
 do

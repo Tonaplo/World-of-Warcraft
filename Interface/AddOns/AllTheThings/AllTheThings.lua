@@ -448,7 +448,7 @@ GameTooltipModel:SetBackdrop(backdrop);
 GameTooltipModel:SetBackdropBorderColor(1, 1, 1, 1);
 GameTooltipModel:SetBackdropColor(0, 0, 0, 1);
 GameTooltipModel.Models = {};
-GameTooltipModel.Model = CreateFrame("PlayerModel", nil, GameTooltipModel);
+GameTooltipModel.Model = CreateFrame("DressUpModel", nil, GameTooltipModel);
 GameTooltipModel.Model:SetPoint("TOPLEFT", GameTooltipModel ,"TOPLEFT", 4, -4)
 GameTooltipModel.Model:SetPoint("BOTTOMRIGHT", GameTooltipModel ,"BOTTOMRIGHT", -4, 4)
 GameTooltipModel.Model:SetFacing(MODELFRAME_DEFAULT_ROTATION);
@@ -574,7 +574,36 @@ GameTooltipModel.TrySetModel = function(self, reference)
 			self.Model:Show();
 			self:Show();
 			return true;
-		elseif reference.model then
+		end
+		
+		local s = reference.s;
+		if s then
+			if reference.artifactID then
+				-- Okay, fine.
+			elseif reference.g and #reference.g > 0 then
+				local npc = reference.g[1];
+				if npc and npc.npcID and npc.npcID <= -5200 and npc.npcID >= -5206 then
+					-- Okay, we're good.
+				else
+					s = nil;
+				end
+			else
+				s = nil;
+			end
+		end
+		
+		if s then
+			local categoryID, appearanceID = C_TransmogCollection_GetAppearanceSourceInfo(s);
+			if appearanceID then
+				self.Model:SetCamDistanceScale(0.8);
+				self.Model:SetItemAppearance(appearanceID);
+				self.Model:Show();
+				self:Show();
+				return true;
+			end
+		end
+		
+		if reference.model then
 			self.Model:SetFacing(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
 			self.Model:SetCamDistanceScale(reference.modelScale or 1);
 			self.Model:SetUnit("none");
@@ -588,7 +617,8 @@ GameTooltipModel.TrySetModel = function(self, reference)
 			self:SetCreatureID(reference.creatureID);
 			self.Model:Show();
 			return true;
-		elseif reference.atlas then
+		end
+		if reference.atlas then
 			GameTooltipIcon:SetSize(64,64);
 			GameTooltipIcon.icon:SetAtlas(reference.atlas);
 			GameTooltipIcon:Show();
@@ -898,27 +928,6 @@ local function SetPortraitIcon(self, data, x)
 				self:SetTexCoord(0, 1, 0, 1);
 				return true;
 			end
-		elseif data.atlas then
-			self:SetAtlas(data.atlas);
-			self:SetWidth(self:GetHeight());
-			self:SetTexCoord(0, 1, 0, 1);
-			if data["atlas-background"] then
-				self.Background:SetAtlas(data["atlas-background"]);
-				self.Background:SetWidth(self:GetHeight());
-				self.Background:Show();
-			end
-			if data["atlas-border"] then
-				self.Border:SetAtlas(data["atlas-border"]);
-				self.Border:SetWidth(self:GetHeight());
-				self.Border:Show();
-				if data["atlas-color"] then
-					local swatches = data["atlas-color"];
-					self.Border:SetVertexColor(swatches[1], swatches[2], swatches[3], swatches[4] or 1.0);
-				else
-					self.Border:SetVertexColor(1, 1, 1, 1.0);
-				end
-			end
-			return true;
 		elseif data.qgs and #data.qgs > 0 then
 			local displayID = app.NPCDB[data.qgs[1]];
 			if displayID then
@@ -931,7 +940,28 @@ local function SetPortraitIcon(self, data, x)
 	end
 	
 	-- Fallback to a traditional icon.
-	if data.icon then
+	if data.atlas then
+		self:SetAtlas(data.atlas);
+		self:SetWidth(self:GetHeight());
+		self:SetTexCoord(0, 1, 0, 1);
+		if data["atlas-background"] then
+			self.Background:SetAtlas(data["atlas-background"]);
+			self.Background:SetWidth(self:GetHeight());
+			self.Background:Show();
+		end
+		if data["atlas-border"] then
+			self.Border:SetAtlas(data["atlas-border"]);
+			self.Border:SetWidth(self:GetHeight());
+			self.Border:Show();
+			if data["atlas-color"] then
+				local swatches = data["atlas-color"];
+				self.Border:SetVertexColor(swatches[1], swatches[2], swatches[3], swatches[4] or 1.0);
+			else
+				self.Border:SetVertexColor(1, 1, 1, 1.0);
+			end
+		end
+		return true;
+	elseif data.icon then
 		self:SetWidth(self:GetHeight());
 		self:SetTexture(data.icon);
 		self:SetTexCoord(0, 1, 0, 1);
@@ -1170,6 +1200,7 @@ local function CacheFields(group)
 	CacheFieldID(group, "objectID");
 	CacheFieldID(group, "itemID");
 	CacheFieldID(group, "questID");
+	CacheSubFieldID(group, "questID", "altQuestID");
 	CacheFieldID(group, "requireSkill");
 	CacheFieldID(group, "s");
 	CacheFieldID(group, "speciesID");
@@ -1440,6 +1471,12 @@ local function GetRelativeField(group, field, value)
 			end
 		end
 		if group.parent then return GetRelativeField(group.parent, field, value); end
+	end
+end
+local function GetRelativeValue(group, field)
+	if group then
+		if group[field] then return group[field]; end
+		if group.parent then return GetRelativeValue(group.parent, field); end
 	end
 end
 local function GetRelativeInstanceID(group)
@@ -1952,16 +1989,16 @@ local function OpenMiniList(field, id, label)
 							if group.parent.achievementID then
 								group = app.CreateAchievement(group.parent.achievementID, 
 									{ g = { group }, total = group.total, progress = group.progress, 
-										u = group.parent.u, races = group.parent.races, classes = group.parent.classes, nmc = group.parent.nmc, nmr = group.parent.nmr });
+										u = group.parent.u, races = group.parent.races, c = group.parent.c, nmc = group.parent.nmc, nmr = group.parent.nmr });
 							else
 								group = app.CreateAchievement(group.achievementID,
 									{ g = { group }, total = group.total, progress = group.progress,
-										u = group.u, races = group.races, classes = group.classes, nmc = group.nmc, nmr = group.nmr });
+										u = group.u, races = group.races, c = group.c, nmc = group.nmc, nmr = group.nmr });
 							end
 						end
 					elseif group.criteriaID and group.parent.achievementID then
 						group = app.CreateAchievement(group.parent.achievementID, { g = { group }, total = group.total, progress = group.progress, 
-							u = group.parent.u, races = group.parent.races, classes = group.parent.classes, nmc = group.parent.nmc, nmr = group.parent.nmr });
+							u = group.parent.u, races = group.parent.races, c = group.parent.c, nmc = group.parent.nmc, nmr = group.parent.nmr });
 					end
 					
 					-- Check to see if this group already exists in the header
@@ -1971,7 +2008,7 @@ local function OpenMiniList(field, id, label)
 							if g.g and g.achievementID == group.achievementID 
 								and g.u == group.u 
 								and g.races == group.races 
-								and g.classes == group.classes then
+								and g.c == group.c then
 								group = group.g[1];
 								app.HolidayHeader.progress = app.HolidayHeader.progress + (group.progress or 0);
 								app.HolidayHeader.total = app.HolidayHeader.total + (group.total or 0);
@@ -3317,6 +3354,12 @@ app.CreateTransmogCategory = function(id, t)
 end
     
 -- Artifact Lib
+(function()
+local artifactItemIDs = {
+	[841] = 133755, -- Underlight Angler [Base Skin]
+	[988] = 133755, -- Underlight Angler [Fisherfriend of the Isles]
+	[989] = 133755, -- Underlight Angler [Fisherfriend of the Isles]
+};
 app.BaseArtifact = {
 	__index = function(t, key)
 		if key == "key" then
@@ -3347,8 +3390,12 @@ app.BaseArtifact = {
 			return "Forge-ColorSwatch";
 		elseif key == "atlas-color" then
 			return { t.info[9], t.info[10], t.info[11], 1.0 };
-		elseif key == "model" or key == "modelScale" or key == "modelRotation" then
-			return t.parent[key] or t.parent.parent[key];
+		elseif key == "model" then
+			return GetRelativeValue(t.parent, key);
+		elseif key == "modelScale" then
+			return GetRelativeValue(t.parent, key) or 0.95;
+		elseif key == "modelRotation" then
+			return GetRelativeValue(t.parent, key) or 45;
 		elseif key == "info" then
 			--[[
 			local setID, appearanceID, appearanceName, displayIndex, appearanceUnlocked, unlockConditionText, 
@@ -3359,14 +3406,30 @@ app.BaseArtifact = {
 			rawset(t, "info", info);
 			return info;
 		elseif key == "silentLink" then
-			-- If the engineer has supplied the itemID associated with this item, let's build it!
-			return select(2, GetItemInfo(string.format("item:%d::::::::::256:::%d", t.itemID or t.parent.itemID or t.parent.parent.itemID, t.artifactID)));
+			local itemID = artifactItemIDs[t.artifactID];
+			if itemID then
+				return select(2, GetItemInfo(string.format("item:%d::::::::::256:::%d", itemID, t.artifactID))), itemID;
+			elseif t.parent.npcID and (t.parent.npcID <= -5200 and t.parent.npcID >= -5205) then
+				itemID = GetRelativeValue(t.parent, "itemID");
+				artifactItemIDs[t.artifactID] = itemID;
+				return select(2, GetItemInfo(string.format("item:%d::::::::::256:::%d", itemID, t.artifactID))), itemID;
+			end
+		elseif key == "s" then
+			local s = t.silentLink;
+			if s then
+				s = app.GetSourceID(s, itemID);
+				if s then
+					rawset(t, "s", s);
+					return s;
+				end
+			end
 		else
 			-- Something that isn't dynamic.
 			return table[key];
 		end
 	end
 };
+end)();
 app.CreateArtifact = function(id, t)
 	return setmetatable(constructor(id, t, "artifactID"), app.BaseArtifact);
 end
@@ -3568,24 +3631,9 @@ app.BaseEncounter = {
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			if IsQuestFlaggedCompleted(t.questID) then
+			if IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID) then
 				return true;
 			end
-			--[[
-			if t.parent then
-				local locks = t.parent.locks;
-				if locks then
-					-- Look for this encounter's lockout.
-					if #locks > 0 then
-						-- We have an explicit difficulty already
-					else
-						
-						rawset(t, key, locks);
-						return locks;
-					end
-				end
-			end
-			]]--
 		elseif key == "index" then
 			return 1;
 		else
@@ -3910,7 +3958,7 @@ app.BaseGarrisonTalent = {
 		elseif key == "trackable" then
 			return true;
 		elseif key == "saved" then
-			if t.questID then return IsQuestFlaggedCompleted(t.questID); end
+			if t.questID then return IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID); end
 			local info = t.info;
 			if info.researched then return info.researched; end
 		elseif key == "icon" then
@@ -4227,7 +4275,7 @@ app.BaseItem = {
 		elseif key == "repeatable" then
 			return t.isDaily or t.isWeekly;
 		elseif key == "saved" then
-			return t.questID and IsQuestFlaggedCompleted(t.questID);
+			return IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID);
 		elseif key == "modID" then
 			return 1;
 		elseif key == "name" then
@@ -4372,7 +4420,7 @@ app.BaseMount = {
 			return true;
 		elseif key == "collected" then
 			if app.RecipeChecker("CollectedSpells", t.spellID) then return 1; end
-			if IsSpellKnown(t.spellID) or (t.questID and IsQuestFlaggedCompleted(t.questID)) then
+			if IsSpellKnown(t.spellID) or (t.questID and IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID)) then
 				SetTempDataSubMember("CollectedSpells", t.spellID, 1);
 				SetDataSubMember("CollectedSpells", t.spellID, 1);
 				return 1;
@@ -4441,7 +4489,7 @@ app.BaseMusicRoll = {
 		elseif key == "collectible" or key == "trackable" then
 			return true;
 		elseif key == "collected" or key == "saved" then
-			return IsQuestFlaggedCompleted(t.questID);
+			return IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID);
 		elseif key == "f" then
 			return 108;
 		elseif key == "lvl" then
@@ -4499,14 +4547,9 @@ app.BaseNPC = {
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			if IsQuestFlaggedCompleted(t.questID) then
+			if IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID) then
 				return true;
 			end
-			--[[
-			return t.locks and t.creatureID;
-		elseif key == "locks" and t.parent then
-			return t.parent.locks;
-			]]--
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -4537,7 +4580,7 @@ app.BaseObject = {
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			return t.questID and IsQuestFlaggedCompleted(t.questID);
+			return IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -4643,12 +4686,7 @@ app.BaseQuest = {
 				t.title = false;
 				return t.text;
 			end
-			local questName = QuestTitleFromID[t.questID];
-			if questName then
-				t.retries = nil;
-				t.title = nil;
-				return "|Hquest:" .. t.questID .. "|h[" .. questName .. "]|h";
-			end
+			local questName = t.questName;
 			if t.retries and t.retries > 120 then
 				if t.npcID then
 					if t.npcID > 0 then
@@ -4657,13 +4695,23 @@ app.BaseQuest = {
 						return L("NPC_ID_NAMES")[t.npcID];
 					end
 				end
-				return "|Hquest:" .. t.questID .. "|h[Quest #" .. t.questID .. "*]|h";
+			end
+			return questName;
+		elseif key == "questName" then
+			local questID = t.altQuestID and app.Faction == "Horde" and t.altQuestID or t.questID;
+			local questName = QuestTitleFromID[questID];
+			if questName then
+				t.retries = nil;
+				t.title = nil;
+				return "[" .. questName .. "]";
+			end
+			if t.retries and t.retries > 120 then
+				return "[Quest #" .. questID .. "*]";
 			else
 				t.retries = (t.retries or 0) + 1;
-				return "|Hquest:" .. t.questID .. "|h[]|h";
 			end
 		elseif key == "link" then
-			return "quest:" .. t.questID;
+			return "quest:" .. (t.altQuestID and app.Faction == "Horde" and t.altQuestID or t.questID);
 		elseif key == "icon" then
 			return "Interface\\Icons\\Achievement_Quests_Completed_08";
 		elseif key == "trackable" then
@@ -4675,7 +4723,7 @@ app.BaseQuest = {
 		elseif key == "repeatable" then
 			return t.isDaily or t.isWeekly;
 		elseif key == "saved" then
-			return IsQuestFlaggedCompleted(t.questID);
+			return IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -5088,26 +5136,22 @@ app.BaseVignette = {
 					return t.name;
 				end
 			end
-		
-			local questName = QuestTitleFromID[t.questID];
+			return t.questName;
+		elseif key == "questName" then
+			local questID = t.altQuestID and app.Faction == "Horde" and t.altQuestID or t.questID;
+			local questName = QuestTitleFromID[questID];
 			if questName then
-				if t.retries then
-					t.retries = nil;
-					t.title = nil;
-				end
-				return "|Hquest:" .. t.questID .. "|h[" .. questName .. "]|h";
+				t.retries = nil;
+				t.title = nil;
+				return "[" .. questName .. "]";
 			end
-			if t.retries then
-				t.retries = t.retries + 1;
-				if t.retries > 40 then
-					return "|Hquest:" .. t.questID .. "|h[Quest #" .. t.questID .. "*]|h";
-				end
+			if t.retries and t.retries > 120 then
+				return "[Quest #" .. questID .. "*]";
 			else
-				t.retries = 1;
+				t.retries = (t.retries or 0) + 1;
 			end
-			return "|Hquest:" .. t.questID .. "|h[]|h";
 		elseif key == "link" then
-			return "quest:" .. t.questID;
+			return "quest:" .. (t.altQuestID and app.Faction == "Horde" and t.altQuestID or t.questID);
 		elseif key == "icon" then
 			return "Interface\\Icons\\INV_Misc_Head_Dragon_Black";
 		elseif key == "collectible" then
@@ -5117,7 +5161,7 @@ app.BaseVignette = {
 		elseif key == "repeatable" then
 			return t.isDaily or t.isWeekly;
 		elseif key == "saved" then
-			return IsQuestFlaggedCompleted(t.questID);
+			return IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -6093,25 +6137,41 @@ local function CreateMiniListForGroup(group)
 			while sourceQuests and #sourceQuests > 0 do
 				subSourceQuests = {}; prereqs = {};
 				for i,sourceQuestID in ipairs(sourceQuests) do
-					sourceQuest = sourceQuestID > 0 and SearchForField("questID", sourceQuestID) or SearchForField("creatureID", math.abs(sourceQuestID));
+					sourceQuest = sourceQuestID < 1 and SearchForField("creatureID", math.abs(sourceQuestID)) or SearchForField("questID", sourceQuestID);
 					if sourceQuest and #sourceQuest > 0 then
-						local found = false;
+						local found = nil;
 						for i=1,#sourceQuest,1 do
 							-- Only care about the first search result.
 							local sq = sourceQuest[i];
-							if sq and app.GroupFilter(sq) and app.RecursiveClassAndRaceFilter(sq) then
-								sourceQuest = setmetatable({ --[[['collectible'] = true,]] ['visible'] = true, ['hideText'] = true }, { __index = sq });
-								if sourceQuest.sourceQuests and #sourceQuest.sourceQuests > 0 and (not sourceQuest.saved or app.CollectedItemVisibilityFilter(sourceQuest)) then
-									-- Mark the sub source quest IDs as marked (as the same sub quest might point to 1 source quest ID)
-									for j, subsourceQuests in ipairs(sourceQuest.sourceQuests) do
-										subSourceQuests[subsourceQuests] = true;
+							if sq and app.GroupFilter(sq) then
+								if sq.altQuestID then
+									-- Alt Quest IDs are always Horde.
+									if app.Faction == "Horde" then
+										if sq.altQuestID == sourceQuestID then
+											found = sq;
+											break;
+										end
+									elseif sq.questID == sourceQuestID then
+										found = sq;
+										break;
 									end
+								elseif app.RecursiveClassAndRaceFilter(sq) then
+									found = sq;
+									break;
 								end
-								found = true;
-								break;
 							end
 						end
-						if not found then sourceQuest = nil; end
+						if found then
+							sourceQuest = setmetatable({ --[[['collectible'] = true,]] ['visible'] = true, ['hideText'] = true }, { __index = found });
+							if sourceQuest.sourceQuests and #sourceQuest.sourceQuests > 0 and (not sourceQuest.saved or app.CollectedItemVisibilityFilter(sourceQuest)) then
+								-- Mark the sub source quest IDs as marked (as the same sub quest might point to 1 source quest ID)
+								for j, subsourceQuests in ipairs(sourceQuest.sourceQuests) do
+									subSourceQuests[subsourceQuests] = true;
+								end
+							end
+						else
+							sourceQuest = nil;
+						end
 					elseif sourceQuestID > 0 then
 						-- Create a Quest Object.
 						sourceQuest = app.CreateQuest(sourceQuestID, { ['visible'] = true, ['collectible'] = true, ['hideText'] = true });
@@ -6814,7 +6874,10 @@ local function RowOnEnter(self)
 			GameTooltip:AddDoubleLine(" ", L(IsTitleKnown(reference.titleID) and "KNOWN_ON_CHARACTER" or "UNKNOWN_ON_CHARACTER"));
 		end
 		if reference.questID then
-			if GetDataMember("ShowQuestID") then GameTooltip:AddDoubleLine(L("QUEST_ID"), tostring(reference.questID)); end
+			if GetDataMember("ShowQuestID") then
+				GameTooltip:AddDoubleLine(L("QUEST_ID"), tostring(reference.questID));
+				if reference.altQuestID then GameTooltip:AddDoubleLine(" ", tostring(reference.altQuestID)); end
+			end
 		end
 		if reference.qgs and GetDataMember("ShowQuestGivers") then
 			if #reference.qgs > 1 then
@@ -6856,6 +6919,22 @@ local function RowOnEnter(self)
 				end
 			end
 		end
+		if reference.c and GetDataMember("ShowClassRequirements") then
+			local str = "";
+			for i,cl in ipairs(reference.c) do
+				if i > 1 then str = str .. ", "; end
+				str = str .. C_CreatureInfo.GetClassInfo(cl).className;
+			end
+			GameTooltip:AddDoubleLine("Classes", str);
+		end
+		if reference.races and GetDataMember("ShowRaceRequirements") then
+			local str = "";
+			for i,race in ipairs(reference.races) do
+				if i > 1 then str = str .. ", "; end
+				str = str .. C_CreatureInfo.GetRaceInfo(race).raceName;
+			end
+			GameTooltip:AddDoubleLine("Races", str);
+		end
 		if reference.isDaily then GameTooltip:AddLine("This can be completed daily."); end
 		if not GameTooltipModel:TrySetModel(reference) and reference.icon then
 			if reference.g then
@@ -6880,7 +6959,7 @@ local function RowOnEnter(self)
 		end
 		
 		-- Show Quest Prereqs
-		if reference.sourceQuests then
+		if reference.sourceQuests and not reference.saved then
 			for i,sourceQuestID in ipairs(reference.sourceQuests) do
 				if not IsQuestFlaggedCompleted(sourceQuestID) then
 					GameTooltip:AddLine("This quest has an incomplete prerequisite quest that you need to complete first.");

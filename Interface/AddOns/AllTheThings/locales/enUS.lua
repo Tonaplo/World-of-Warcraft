@@ -46,9 +46,9 @@ AllTheThings.Locales.enUS = {
 	["ERROR_UNKNOWN"] = "An unknown error occured.";
 
 	["ITEM_ID_ADDED"] = "%s (%d) was added to your collection.";
-	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection. Not found in the database. Please report to the ATT Discord!";
+	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection.";
 	["ITEM_ID_ADDED_SHARED"] = "%s (%d) [+%d] were added to your collection.";
-	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection. Not found in the database. Please report to the ATT Discord!";
+	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection.";
 	["ITEM_ID_REMOVED"] = "%s (%d) was removed from your collection.";
 	["ITEM_ID_REMOVED_SHARED"] = "%s (%d) [+%d] were removed from your collection.";
 
@@ -447,8 +447,12 @@ AllTheThings.Locales.enUS = {
 		[-222] = "Interface\\Icons\\inv_misc_coin_01",							-- Treasure Hunter
 		[-223] = "Interface\\Icons\\achievement_quests_completed_daily_07",		-- Daily
 		[-224] = "Interface\\Icons\\ClassIcon_DemonHunter", 					-- Demon Hunter
-		[-225] = "Interface\\ICONS\\INV_Misc_Map02",							-- World Drop
+		[-225] = "Interface\\Icons\\INV_Misc_Map02",							-- World Drop
 		[-228] = "Interface\\Minimap\\Tracking\\Flightmaster",					-- Flight Paths
+		[-230] = "Interface\\Icons\\achievement_legionpvp2tier3",				-- Conquest
+		[-231] = "Interface\\Icons\\Spell_Shadow_DeathScream",
+		[-232] = "Interface\\Icons\\Spell_Shadow_DeathScream",
+		[-233] = "Interface\\Icons\\achievement_zone_arathihighlands_01",		-- Warfront: The Battle for Stromgarde
 		[-297] = "Interface\\Icons\\inv_letter_17", 							-- Mailbox
 		[-299] = "Interface\\Icons\\achievement_garrisonquests_1000", 			-- Missions
 		[-304] = "Interface\\Icons\\INV_BannerPVP_03",							-- Battlegrounds
@@ -635,7 +639,11 @@ AllTheThings.Locales.enUS = {
 		[-3310] = "Interface\\Icons\\Achievement_Garrison_blueprint_large",		-- Garrison Architect
 		[-3311] = "Interface\\Icons\\achievement_bg_killflagcarriers_grabflag_capit", -- Call To Arms [LFD Queue]
 		[-3314] = "Interface\\Icons\\inv_plate_draenorlfr_c_01helm",				-- Storm-Tempered Set
+		
 		[-4189] = "Interface\\Icons\\achievement_legionpvptier4",				-- Instance Item Sets, PvP
+		[-4190] = "Interface\\Icons\\ExpansionIcon_BurningCrusade",
+		[-4191] = "Interface\\Icons\\Achievement_PVP_Legion08",
+		
 		[-5349] = "Interface\\Icons\\achievement_challengemode_scarletmonastery_gold",	-- Miscellaneous Item Sets
 		[-5350] = "Interface\\Icons\\ability_bossmagistrix_timewarp1",			-- Class Trial Item Sets
 		[-5351] = "Interface\\Icons\\misc_arrowlup",							-- Character Boost					
@@ -1062,6 +1070,10 @@ AllTheThings.Locales.enUS = {
 		[-227] = GetSpellInfo(109382),											-- Victory
 		[-228] = GetSpellInfo(218950),											-- Flight Path
 		[-229] = CALENDAR_REPEAT_WEEKLY,										-- Weekly
+		[-230] = PVP_CONQUEST,													-- Conquest
+		[-231] = BATTLE_PET_BREED_QUALITY4.." - "..FACTION_ALLIANCE,			-- Rares - Alliance  [Note: Temp Solution]
+		[-232] = BATTLE_PET_BREED_QUALITY4.." - "..FACTION_HORDE,				-- Rares - Horde  [Note: Temp Solution]
+		[-233] = GetSpellInfo(279443),											-- Warfront: The Battle for Stromgarde
 -- Other
 		[-294] = "Killed First",
 		[-295] = "Killed Second",
@@ -1143,6 +1155,7 @@ AllTheThings.Locales.enUS = {
 		
 -- Blizzard Events and Anniversaries
 -- Lucetia Note: Leave these for now, some may be swapped to achieves instead.
+		[-490] = select(2, GetAchievementInfo(12945)),							-- Dread Gladiator: Battle for Azeroth  Season 1
 		[-491] = "Tarot Cards",
 		[-492] = "Illusions",
 		[-493] = TIME_UNKNOWN.." "..SPELL_TARGET_TYPE6_DESC, 					-- Unknown location
@@ -1438,6 +1451,8 @@ AllTheThings.Locales.enUS = {
 		[-4187] = "Season 1",
 		[-4188] = "Legacy Sets",
 		[-4189] = CALENDAR_TYPE_PVP.." "..LOOT_JOURNAL_ITEM_SETS, 					-- Instance Item Sets, PvP
+		[-4190] = "Pre-Season",
+		[-4191] = "Tournament",
 -- Tier/Dungeon/Event/Holiday Sets
 	-- Artifact Strings
 		[-5200] = "Base Appearance",

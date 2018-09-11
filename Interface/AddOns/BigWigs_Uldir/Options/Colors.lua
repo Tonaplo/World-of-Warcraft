@@ -63,10 +63,12 @@ BigWigs:AddColors("Zul", {
 	[273361] = "orange",
 	[273365] = {"blue","yellow"},
 	[273451] = "red",
-	[273889] = "cyan",
 	[274271] = {"blue","orange"},
 	[274358] = {"blue","purple"},
 	[276299] = "yellow",
+	["bloodhexer"] = "cyan",
+	["crawg"] = "cyan",
+	["crusher"] = "cyan",
 	["stages"] = "green",
 })
 
