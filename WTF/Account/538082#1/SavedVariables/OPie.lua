@@ -273,29 +273,24 @@ OneRing_Config = {
 				}, -- [2]
 				{
 					"item", -- [1]
-					133576, -- [2]
-					["sliceToken"] = "ABue38FW89e",
-				}, -- [3]
-				{
-					"item", -- [1]
-					154882, -- [2]
-					["sliceToken"] = "ABue3/uXtc1",
-				}, -- [4]
-				{
-					"item", -- [1]
 					154888, -- [2]
 					["sliceToken"] = "ABue3/uXtcr",
-				}, -- [5]
+				}, -- [3]
 				{
 					"item", -- [1]
 					159867, -- [2]
 					["sliceToken"] = "ABue3MAkaQt",
-				}, -- [6]
+				}, -- [4]
 				{
 					"item", -- [1]
 					160053, -- [2]
 					["sliceToken"] = "ABue3MAkaQ1",
-				}, -- [7]
+				}, -- [5]
+				{
+					"item", -- [1]
+					154884, -- [2]
+					["sliceToken"] = "ABuedyXtWwe",
+				}, -- [6]
 				["name"] = "Consumables",
 				["save"] = true,
 			},
@@ -368,8 +363,8 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [3]
 				{
-					["id"] = 232698,
 					["sliceToken"] = "ABuepjqUmtwp",
+					["id"] = 232698,
 				}, -- [4]
 				{
 					["id"] = 31687,
@@ -456,8 +451,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuesG8z4qe",
 				}, -- [25]
 				{
-					["sliceToken"] = "ABue3cjatfe",
 					["id"] = 212036,
+					["sliceToken"] = "ABue3cjatfe",
 				}, -- [26]
 				{
 					["id"] = 20577,
@@ -545,33 +540,33 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
+					["id"] = "/click ORLOpen SpecMenu",
 					["caption"] = "Travel",
 					["icon"] = 134414,
-					["id"] = "/click ORLOpen SpecMenu",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
+					["id"] = "/click ORLOpen CommonTrades",
 					["caption"] = "Trade Skills",
 					["icon"] = 134707,
-					["id"] = "/click ORLOpen CommonTrades",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
+					["id"] = "/click ORLOpen Macros",
 					["caption"] = "Macros",
 					["icon"] = 1505928,
-					["id"] = "/click ORLOpen Macros",
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
+					["id"] = "/click ORLOpen onsumables",
 					["caption"] = "Consumables",
 					["icon"] = 134055,
-					["id"] = "/click ORLOpen onsumables",
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
+					["id"] = "/click ORLOpen tAbilities",
 					["caption"] = "Class Abilities",
 					["icon"] = 132147,
-					["id"] = "/click ORLOpen tAbilities",
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep5oDlq5",
@@ -610,14 +605,14 @@ OneRing_Config = {
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
-					["caption"] = "Back",
 					["id"] = "/click ORLOpen Base",
+					["caption"] = "Back",
 					["icon"] = 1339449,
 				}, -- [6]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
-					["caption"] = "Exorsus Raid Tools",
 					["id"] = "/rt",
+					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
 				}, -- [7]
 				{

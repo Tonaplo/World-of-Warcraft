@@ -168,10 +168,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -194,7 +194,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Zethan"] = 38755956,
 							["Korugen"] = 7835929,
-							["Mallusof"] = 353864989,
+							["Mallusof"] = 352217422,
 						},
 					},
 				},
@@ -1060,38 +1060,38 @@ LUIDB = {
 							"/g gtg !  :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							" |cffe6cc80|Hitem:158075::::::::120:257::11:4:4936:4929:4930:1514:::|h[Heart of Azeroth]|h|r", -- [1]
-							"/4 potentially", -- [2]
-							"/4 if I dont do it tonight", -- [3]
-							"/p greetings :)", -- [4]
-							"/p Voice?", -- [5]
-							"/p yeah", -- [6]
-							"/p omw, not in warmode", -- [7]
-							"/p Oh, it was more if you wanted to coordinate :)", -- [8]
-							"/p nps then :)", -- [9]
-							"/p Get that Ironmask?", -- [10]
-							"/p readycheck please :)", -- [11]
-							"/p int?", -- [12]
-							"/p ap", -- [13]
-							"/p wtf", -- [14]
-							"/p something is wrong with EXRT :P", -- [15]
-							"/p kewl", -- [16]
-							"/p ready when you are", -- [17]
-							"/p whose key is it?", -- [18]
-							"/p yeah, please dont break CC", -- [19]
-							"/p this pack in particular", -- [20]
-							"/p me and dudu north", -- [21]
-							" I do indeed", -- [22]
-							" doing a +2 Atal", -- [23]
-							" could be nice", -- [24]
-							" these dont work?", -- [25]
-							" here", -- [26]
-							" center", -- [27]
-							" pillars", -- [28]
-							" mt", -- [29]
-							"/p center", -- [30]
-							"/p stairs", -- [31]
-							"/p for debuff", -- [32]
+							" literally just had a dude run up and start dancing with me lol", -- [1]
+							"/p something is wrong with EXRT :P", -- [2]
+							" mt", -- [3]
+							"/p ready when you are", -- [4]
+							" Yeah, that might be an option", -- [5]
+							"/cw Kennyg fdance floor", -- [6]
+							" center", -- [7]
+							"/1 LF Dance Partner for |cffffff00|Hachievement:13058:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[Kul Tiran Up the Dance Floor]|h|r", -- [8]
+							"/p stairs", -- [9]
+							" I ran another one", -- [10]
+							"/p nps then :)", -- [11]
+							" |cffffff00|Hachievement:13058:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[Kul Tiran Up the Dance Floor]|h|r", -- [12]
+							"/p damn", -- [13]
+							"/cw Kennyg Come over here", -- [14]
+							"/4 indeed, there should be", -- [15]
+							"/dance", -- [16]
+							"/cw Kennyg-Tichondrius thanks!", -- [17]
+							"/p something is wrong with EXRT :P", -- [18]
+							"/p ready when you are", -- [19]
+							"/cw Kennyg fdance floor", -- [20]
+							"/1 LF Dance Partner for |cffffff00|Hachievement:13058:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[Kul Tiran Up the Dance Floor]|h|r", -- [21]
+							" I ran another one", -- [22]
+							" |cffffff00|Hachievement:13058:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[Kul Tiran Up the Dance Floor]|h|r", -- [23]
+							"/cw Kennyg Come over here", -- [24]
+							"/dance", -- [25]
+							"/p something is wrong with EXRT :P", -- [26]
+							"/cw Kennyg fdance floor", -- [27]
+							" I ran another one", -- [28]
+							"/cw Kennyg Come over here", -- [29]
+							"/p something is wrong with EXRT :P", -- [30]
+							" I ran another one", -- [31]
+							"/p something is wrong with EXRT :P", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1190,15 +1190,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Chat"] = {
-						["AlwaysShow"] = true,
-						["IsShown"] = true,
-					},
 					["Minimap"] = {
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Chat"] = {
+						["AlwaysShow"] = true,
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1206,6 +1203,9 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 						["Animation"] = "None",
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1345,13 +1345,7 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1363,13 +1357,19 @@ LUIDB = {
 						0.89, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1509,13 +1509,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1527,17 +1521,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1672,19 +1672,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1696,11 +1696,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1914,14 +1914,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
@@ -1933,7 +1933,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
@@ -1951,9 +1951,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2004,9 +2004,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2040,9 +2040,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2239,11 +2239,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Evisca - Bleeding Hollow"] = {
@@ -2303,9 +2303,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2404,11 +2404,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Kindhoof - Proudmoore"] = {
