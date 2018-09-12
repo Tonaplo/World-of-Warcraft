@@ -7,6 +7,7 @@ BigWigs3DB = {
 		["Fimwack - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
+		["Mallusof - Proudmoore"] = "Default",
 		["Mallusof - Blackhand"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
@@ -17,12 +18,12 @@ BigWigs3DB = {
 		["Mallusof - Tichondrius"] = "Default",
 		["Gottagetlia - Aggramar"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Theodor - Emerald Dream"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
-		["Mallusof - Proudmoore"] = "Default",
+		["Mallusof - Icecrown"] = "Default",
 	},
 	["discord"] = 15,
 	["namespaces"] = {
@@ -74,7 +75,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -87,22 +88,22 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["Default"] = {
+					["BigWigsEmphasizeAnchor_y"] = 458.466451679233,
+					["fontSize"] = 13,
 					["BigWigsAnchor_width"] = 412.852294921875,
+					["BigWigsAnchor_y"] = 553.244378579591,
+					["emphasizeGrowup"] = true,
 					["BigWigsAnchor_x"] = 3.17738821849466,
+					["spacing"] = 8,
 					["fill"] = false,
+					["barStyle"] = "BeautyCase",
 					["BigWigsEmphasizeAnchor_height"] = 21.9999847412109,
 					["growup"] = false,
 					["monochrome"] = false,
-					["BigWigsAnchor_height"] = 15.9999761581421,
-					["fontSize"] = 13,
-					["BigWigsAnchor_y"] = 553.244378579591,
-					["emphasizeGrowup"] = true,
-					["spacing"] = 8,
-					["emphasizeTime"] = 10,
-					["barStyle"] = "BeautyCase",
-					["fontSizeEmph"] = 20,
 					["BigWigsEmphasizeAnchor_x"] = 800.02192021982,
-					["BigWigsEmphasizeAnchor_y"] = 458.466451679233,
+					["BigWigsAnchor_height"] = 15.9999761581421,
+					["emphasizeTime"] = 10,
+					["fontSizeEmph"] = 20,
 					["BigWigsEmphasizeAnchor_width"] = 400.332916259766,
 				},
 			},
@@ -115,8 +116,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Zek'voz, Herald of N'zoth"] = {
-		},
 		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -126,32 +125,32 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_Respawn"] = {
-		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
-					["width"] = 139.999557495117,
-					["posy"] = 415.822182476095,
 					["posx"] = 8.62224799026808,
+					["posy"] = 415.822182476095,
 					["font"] = "Prototype",
+					["width"] = 139.999557495117,
 				},
 			},
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
+					["BWEmphasizeMessageAnchor_x"] = 616.17532458582,
 					["BWEmphasizeCountdownMessageAnchor_x"] = 669.666680759037,
-					["BWEmphasizeMessageAnchor_y"] = 639.051038208396,
-					["BWMessageAnchor_y"] = 544.795855583387,
 					["align"] = "LEFT",
 					["BWMessageAnchor_x"] = 861.541350649284,
+					["growUpwards"] = true,
 					["BWEmphasizeCountdownMessageAnchor_y"] = 380.122239475168,
 					["font"] = "Prototype",
-					["BWEmphasizeMessageAnchor_x"] = 616.17532458582,
-					["growUpwards"] = true,
+					["BWEmphasizeMessageAnchor_y"] = 639.051038208396,
+					["BWMessageAnchor_y"] = 544.795855583387,
 				},
 			},
+		},
+		["BigWigs_Plugins_Respawn"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 			["profiles"] = {
@@ -160,7 +159,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 	},
 	["wipe80"] = true,
@@ -175,25 +174,26 @@ BigWigs3DB = {
 			[295] = true,
 			[74] = true,
 			[76] = true,
-			[686] = true,
-			[-917] = true,
+			[-1004] = true,
 			["993:2"] = true,
+			[-917] = true,
+			[686] = true,
 			["953:2"] = true,
 			["800:1"] = true,
+			[549] = true,
+			[688] = true,
 			["984:1"] = {
 				true, -- [1]
 				[3] = true,
 			},
-			[688] = true,
-			[549] = true,
-			[656] = true,
+			[73] = true,
 			["953:8"] = true,
 			["1042:1"] = true,
 			["994:3"] = true,
 			["964:1"] = true,
 			[75] = true,
 			["1147:6"] = true,
-			[73] = true,
+			[656] = true,
 			[-909] = true,
 			["993:4"] = true,
 		},

@@ -61,7 +61,7 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Thedodrouk"] = 11294,
-							["Mallusof"] = 100000,
+							["Mallusof"] = 223773874,
 						},
 					},
 				},
@@ -116,7 +116,7 @@ LUIDB = {
 							["Kindhoof"] = 1198250606,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 352554404,
+							["Mallusof"] = 226844308,
 							["Korugen"] = 7835929,
 							["Zethan"] = 38755956,
 						},
@@ -161,12 +161,9 @@ LUIDB = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["MoveSpeed"] = {
+					["Instance"] = {
+						["Enable"] = true,
 						["Font"] = "Prototype",
-						["InfoPanel"] = {
-							["Horizontal"] = "Left",
-						},
-						["X"] = 690,
 					},
 					["FPS"] = {
 						["Font"] = "Prototype",
@@ -186,15 +183,18 @@ LUIDB = {
 					["DualSpec"] = {
 						["Enable"] = true,
 						["ShowSpentPoints"] = false,
-						["Font"] = "Prototype",
+						["X"] = -600,
 						["InfoPanel"] = {
 							["Vertical"] = "Top",
 							["Horizontal"] = "Right",
 						},
-						["X"] = -600,
+						["Font"] = "Prototype",
 					},
-					["Instance"] = {
-						["Enable"] = true,
+					["MoveSpeed"] = {
+						["X"] = 690,
+						["InfoPanel"] = {
+							["Horizontal"] = "Left",
+						},
 						["Font"] = "Prototype",
 					},
 				},
@@ -277,24 +277,23 @@ LUIDB = {
 						},
 					},
 					["Settings"] = {
-						["show_v2_party_textures"] = false,
 						["ShowV2Textures"] = false,
 						["show_v2_textures"] = false,
 						["ShowV2BossTextures"] = false,
-						["ShowV2ArenaTextures"] = false,
-						["show_v2_arena_textures"] = false,
 						["ShowV2PartyTextures"] = false,
+						["show_v2_arena_textures"] = false,
+						["show_v2_party_textures"] = false,
+						["ShowV2ArenaTextures"] = false,
 					},
 					["Focus"] = {
 						["Point"] = "LEFT",
 						["Castbar"] = {
-							["Colors"] = {
-								["Bar"] = {
-									["a"] = 0.680000007152557,
-									["b"] = 0,
-									["g"] = 1,
-									["r"] = 0,
-								},
+							["General"] = {
+								["Width"] = 400,
+								["Y"] = 350,
+								["X"] = 640,
+								["Height"] = 35,
+								["IndividualColor"] = true,
 							},
 							["Shield"] = {
 								["Color"] = {
@@ -325,12 +324,13 @@ LUIDB = {
 									["Size"] = 15,
 								},
 							},
-							["General"] = {
-								["Width"] = 400,
-								["Y"] = 350,
-								["X"] = 640,
-								["Height"] = 35,
-								["IndividualColor"] = true,
+							["Colors"] = {
+								["Bar"] = {
+									["a"] = 0.680000007152557,
+									["b"] = 0,
+									["g"] = 1,
+									["r"] = 0,
+								},
 							},
 						},
 						["Y"] = -50,
@@ -387,19 +387,13 @@ LUIDB = {
 							["Width"] = 100,
 						},
 						["Castbar"] = {
-							["Colors"] = {
-								["Shield"] = {
-									["a"] = 0.1,
-									["r"] = 0.5,
-									["g"] = 0,
-									["b"] = 0,
-								},
-								["Bar"] = {
-									["a"] = 0.680000007152557,
-									["r"] = 1,
-									["g"] = 0,
-									["b"] = 0,
-								},
+							["General"] = {
+								["Point"] = "CENTER",
+								["Width"] = 380,
+								["Y"] = -180,
+								["X"] = 20,
+								["Height"] = 25,
+								["IndividualColor"] = true,
 							},
 							["Shield"] = {
 								["Color"] = {
@@ -426,19 +420,25 @@ LUIDB = {
 									["Size"] = 15,
 								},
 							},
-							["General"] = {
-								["Point"] = "CENTER",
-								["Width"] = 380,
-								["Y"] = -180,
-								["X"] = 20,
-								["Height"] = 25,
-								["IndividualColor"] = true,
+							["Colors"] = {
+								["Shield"] = {
+									["a"] = 0.1,
+									["r"] = 0.5,
+									["g"] = 0,
+									["b"] = 0,
+								},
+								["Bar"] = {
+									["a"] = 0.680000007152557,
+									["r"] = 1,
+									["g"] = 0,
+									["b"] = 0,
+								},
 							},
 						},
-						["Border"] = {
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-							["Aggro"] = true,
+						["Icons"] = {
+							["PvP"] = {
+								["Enable"] = true,
+							},
 						},
 						["X"] = 350.000030517578,
 						["Aura"] = {
@@ -487,10 +487,10 @@ LUIDB = {
 								},
 							},
 						},
-						["Icons"] = {
-							["PvP"] = {
-								["Enable"] = true,
-							},
+						["Border"] = {
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+							["Aggro"] = true,
 						},
 						["Texts"] = {
 							["PowerPercent"] = {
@@ -507,9 +507,9 @@ LUIDB = {
 								["ColorNameByClass"] = false,
 								["Point"] = "TOPRIGHT",
 								["X"] = -5,
-								["ShortClassification"] = true,
-								["Format"] = "Name + Level",
 								["RelativePoint"] = "TOPRIGHT",
+								["Format"] = "Name + Level",
+								["ShortClassification"] = true,
 								["Size"] = 14,
 							},
 							["Power"] = {
@@ -607,6 +607,10 @@ LUIDB = {
 							},
 						},
 						["Texts"] = {
+							["Name"] = {
+								["Point"] = "LEFT",
+								["RelativePoint"] = "LEFT",
+							},
 							["HealthPercent"] = {
 								["Point"] = "RIGHT",
 								["Enable"] = true,
@@ -619,10 +623,6 @@ LUIDB = {
 								},
 								["Size"] = 17,
 							},
-							["Name"] = {
-								["Point"] = "LEFT",
-								["RelativePoint"] = "LEFT",
-							},
 						},
 					},
 					["BossTarget"] = {
@@ -634,13 +634,13 @@ LUIDB = {
 					},
 					["Player"] = {
 						["Castbar"] = {
-							["Colors"] = {
-								["Bar"] = {
-									["a"] = 1,
-									["r"] = 0,
-									["g"] = 1,
-									["b"] = 0,
-								},
+							["General"] = {
+								["Point"] = "CENTER",
+								["Width"] = 380,
+								["Y"] = -210,
+								["X"] = 20,
+								["Height"] = 25,
+								["IndividualColor"] = true,
 							},
 							["Text"] = {
 								["Name"] = {
@@ -651,40 +651,41 @@ LUIDB = {
 									["Size"] = 15,
 								},
 							},
-							["General"] = {
-								["Point"] = "CENTER",
-								["Width"] = 380,
-								["Y"] = -210,
-								["X"] = 20,
-								["Height"] = 25,
-								["IndividualColor"] = true,
+							["Colors"] = {
+								["Bar"] = {
+									["a"] = 1,
+									["r"] = 0,
+									["g"] = 1,
+									["b"] = 0,
+								},
 							},
 						},
-						["Border"] = {
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-							["Aggro"] = true,
+						["Icons"] = {
+							["Combat"] = {
+								["Y"] = -20,
+								["Enable"] = true,
+							},
+							["Resting"] = {
+								["Enable"] = true,
+							},
 						},
 						["Y"] = -200.000091552734,
 						["X"] = -350.000030517578,
 						["Height"] = 54,
 						["Bars"] = {
-							["AltPower"] = {
-								["Enable"] = true,
-								["Height"] = 15,
+							["WarlockBar"] = {
+								["Y"] = 100,
+								["X"] = 350,
+								["Lock"] = false,
+								["Padding"] = 1,
 							},
 							["Power"] = {
 								["Color"] = "By Type",
 								["Y"] = -30,
 								["Height"] = 20,
 							},
-							["SoulShards"] = {
-								["Y"] = -4,
-								["X"] = 25,
-								["Lock"] = false,
-								["Padding"] = 1,
-								["Texture"] = "Otravi",
-								["Width"] = 200,
+							["HealPrediction"] = {
+								["Enable"] = true,
 							},
 							["DruidMana"] = {
 								["Height"] = 20,
@@ -706,26 +707,25 @@ LUIDB = {
 									["b"] = 0,
 								},
 							},
-							["HealPrediction"] = {
-								["Enable"] = true,
+							["SoulShards"] = {
+								["Y"] = -4,
+								["X"] = 25,
+								["Lock"] = false,
+								["Padding"] = 1,
+								["Texture"] = "Otravi",
+								["Width"] = 200,
 							},
 							["ClassIcons"] = {
 							},
-							["WarlockBar"] = {
-								["Y"] = 100,
-								["X"] = 350,
-								["Lock"] = false,
-								["Padding"] = 1,
+							["AltPower"] = {
+								["Enable"] = true,
+								["Height"] = 15,
 							},
 						},
-						["Icons"] = {
-							["Combat"] = {
-								["Y"] = -20,
-								["Enable"] = true,
-							},
-							["Resting"] = {
-								["Enable"] = true,
-							},
+						["Border"] = {
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+							["Aggro"] = true,
 						},
 						["Texts"] = {
 							["Power"] = {
@@ -752,24 +752,15 @@ LUIDB = {
 					["Raid"] = {
 						["Point"] = "BOTTOM",
 						["Enable"] = false,
-						["Icons"] = {
-							["Raid"] = {
-								["Y"] = 0,
-								["Enable"] = true,
-								["Size"] = 60,
-							},
-						},
-						["Width"] = 80,
-						["Y"] = 150,
-						["X"] = 0,
-						["Padding"] = 1,
 						["Backdrop"] = {
 							["Color"] = {
 								["a"] = 0.110000014305115,
 							},
 							["Texture"] = "None",
 						},
-						["Height"] = 40,
+						["Width"] = 80,
+						["Y"] = 150,
+						["X"] = 0,
 						["Bars"] = {
 							["TotalAbsorb"] = {
 								["Enable"] = true,
@@ -788,6 +779,15 @@ LUIDB = {
 								["Enable"] = true,
 							},
 						},
+						["Icons"] = {
+							["Raid"] = {
+								["Y"] = 0,
+								["Enable"] = true,
+								["Size"] = 60,
+							},
+						},
+						["Height"] = 40,
+						["Padding"] = 1,
 						["GroupPadding"] = 1,
 						["Texts"] = {
 							["HealthPercent"] = {
@@ -842,13 +842,14 @@ LUIDB = {
 						["Precision"] = 2,
 					},
 					["General"] = {
-						["expMode"] = true,
+						["ShowAbsolute"] = true,
 						["Width"] = 410,
 						["Y"] = 5,
 						["X"] = 770,
+						["expMode"] = true,
 						["showRested"] = true,
-						["artifact"] = true,
 						["TankHide"] = false,
+						["artifact"] = true,
 					},
 					["Appearance"] = {
 						["BGTexture"] = "PlaterBackground",
@@ -945,11 +946,11 @@ LUIDB = {
 						["Height"] = 205,
 						["Animation"] = "None",
 					},
-					["Chat"] = {
-						["AlwaysShow"] = true,
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
-					["Minimap"] = {
+					["Chat"] = {
+						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
 				},
@@ -1595,72 +1596,72 @@ LUIDB = {
 							"/p restarting wow", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/g Thanks :)", -- [1]
-							"/g the best", -- [2]
-							"/g thanks :)", -- [3]
-							"/g Thanks :)", -- [4]
-							"/g thanks :)", -- [5]
-							" Yeah, that is annoying", -- [6]
-							" the character DID leave the guild", -- [7]
-							" >", -- [8]
-							" Yeah, that I can agree with", -- [9]
-							" If it was \"Blabla has left Azeroth\"", -- [10]
-							" Do you also have a billion transfer codes lying around?", -- [11]
-							"/g Yeah, it's a strange name, but I needed a name that fit a Dark Iron Dwarf!", -- [12]
-							"/g And this fits perfectly", -- [13]
-							"/g the best", -- [14]
-							"/g Thanks :)", -- [15]
-							" Yeah, that is annoying", -- [16]
-							" >", -- [17]
-							" If it was \"Blabla has left Azeroth\"", -- [18]
-							"/g Yeah, it's a strange name, but I needed a name that fit a Dark Iron Dwarf!", -- [19]
-							"/g the best", -- [20]
-							" Yeah, that is annoying", -- [21]
-							" If it was \"Blabla has left Azeroth\"", -- [22]
-							"/g the best", -- [23]
-							" If it was \"Blabla has left Azeroth\"", -- [24]
-							"/g Did you know that your name means \"Danish\".... in Danish?", -- [25]
-							"/g Dansk", -- [26]
-							"/g I AM Danish :P", -- [27]
-							"/g Favourite mead? as in  a Danish brand?", -- [28]
-							"/g Gonna have to look that up lol", -- [29]
-							"/g I usually just drink Tuborg or Carlsberg", -- [30]
-							"/g Yeah I prefer that :P", -- [31]
-							"/g gtg !  :)", -- [32]
+							" Server too now", -- [1]
+							"/p 3", -- [2]
+							"/p Hopefully a ranged and a Tank now", -- [3]
+							"/p you guys were good though", -- [4]
+							"/p So it's cross realm", -- [5]
+							"/p 1", -- [6]
+							"/p maybe?", -- [7]
+							"/p starting", -- [8]
+							"/p |cffa335ee|Hkeystone:158923:245:5:9:11:0:0|h[Keystone: Freehold (5)]|h|r", -- [9]
+							"/p trying to fiund a good M+ community", -- [10]
+							"/p Hey there!", -- [11]
+							"/p Yeah, same here", -- [12]
+							"/p Like, crossrealm, so I can put everybody that are good at M+ in there", -- [13]
+							" >", -- [14]
+							" O hai", -- [15]
+							"/p 3", -- [16]
+							"/p you guys were good though", -- [17]
+							"/p 1", -- [18]
+							"/p starting", -- [19]
+							"/p trying to fiund a good M+ community", -- [20]
+							"/p Yeah, same here", -- [21]
+							" >", -- [22]
+							"/p 3", -- [23]
+							"/p 1", -- [24]
+							"/p trying to fiund a good M+ community", -- [25]
+							" >", -- [26]
+							"/p 1", -- [27]
+							" >", -- [28]
+							" How are you doing?", -- [29]
+							" Not too bad, not too bad", -- [30]
+							" Playing from Work or?", -- [31]
+							"/reloadui", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/p something is wrong with EXRT :P", -- [1]
-							" literally just had a dude run up and start dancing with me lol", -- [2]
-							" mt", -- [3]
-							" Yeah, that might be an option", -- [4]
-							" center", -- [5]
-							"/p stairs", -- [6]
-							"/p nps then :)", -- [7]
-							"/p damn", -- [8]
-							"/4 indeed, there should be", -- [9]
-							"/cw Kennyg-Tichondrius thanks!", -- [10]
-							"/p ready when you are", -- [11]
-							"/1 LF Dance Partner for |cffffff00|Hachievement:13058:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[Kul Tiran Up the Dance Floor]|h|r", -- [12]
-							" |cffffff00|Hachievement:13058:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[Kul Tiran Up the Dance Floor]|h|r", -- [13]
-							"/dance", -- [14]
-							"/cw Kennyg fdance floor", -- [15]
-							"/cw Kennyg Come over here", -- [16]
-							" I ran another one", -- [17]
-							" literally just had a dude run up and start dancing with me lol", -- [18]
-							" Yeah, that might be an option", -- [19]
-							"/p stairs", -- [20]
-							"/p damn", -- [21]
-							"/cw Kennyg-Tichondrius thanks!", -- [22]
-							"/1 LF Dance Partner for |cffffff00|Hachievement:13058:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[Kul Tiran Up the Dance Floor]|h|r", -- [23]
-							"/dance", -- [24]
-							"/cw Kennyg Come over here", -- [25]
-							" literally just had a dude run up and start dancing with me lol", -- [26]
-							"/p stairs", -- [27]
-							"/cw Kennyg-Tichondrius thanks!", -- [28]
-							"/dance", -- [29]
-							" literally just had a dude run up and start dancing with me lol", -- [30]
-							"/cw Kennyg-Tichondrius thanks!", -- [31]
-							" literally just had a dude run up and start dancing with me lol", -- [32]
+							"/1 Yeah in Zuldazar, but not here?", -- [1]
+							"/cw Quadraxes-Darkspear same :P", -- [2]
+							"/cw Kalithumos Still running keys", -- [3]
+							"/cw Quadraxes-Darkspear same :P", -- [4]
+							"/cw Quadraxes-Darkspear :P", -- [5]
+							"/raid hence why I said ress me", -- [6]
+							"/raid good luck", -- [7]
+							"/cw Kalithumos Still running keys", -- [8]
+							"/raid good luck", -- [9]
+							"/2 No they are two different professions.", -- [10]
+							"/1 Yeah in Zuldazar, but not here?", -- [11]
+							"/cw Quadraxes-Darkspear Which is it?", -- [12]
+							"/cw Quadraxes-Darkspear same :P", -- [13]
+							" I ran another one", -- [14]
+							"/cw Kalithumos Still running keys", -- [15]
+							"/1 Yeah in Zuldazar, but not here?", -- [16]
+							"/cw Quadraxes-Darkspear same :P", -- [17]
+							"/cw Kalithumos Still running keys", -- [18]
+							"/cw Quadraxes-Darkspear same :P", -- [19]
+							"/cw Quadraxes-Darkspear :P", -- [20]
+							"/raid good luck", -- [21]
+							"/2 No they are two different professions.", -- [22]
+							"/cw Quadraxes-Darkspear Which is it?", -- [23]
+							" I ran another one", -- [24]
+							"/1 Yeah in Zuldazar, but not here?", -- [25]
+							"/cw Kalithumos Still running keys", -- [26]
+							"/cw Quadraxes-Darkspear :P", -- [27]
+							"/2 No they are two different professions.", -- [28]
+							" I ran another one", -- [29]
+							"/cw Kalithumos Still running keys", -- [30]
+							"/2 No they are two different professions.", -- [31]
+							"/cw Kalithumos Still running keys", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [1]
@@ -1758,8 +1759,7 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["modules"] = {
-					},
+					["y"] = 43.6975598532504,
 					["x"] = 33.3724626035666,
 					["General"] = {
 						["Font"] = {
@@ -1767,7 +1767,8 @@ LUIDB = {
 						},
 						["MinimalistTabs"] = false,
 					},
-					["y"] = 43.6975598532504,
+					["modules"] = {
+					},
 				},
 			},
 		},
@@ -1777,26 +1778,14 @@ LUIDB = {
 					["General"] = {
 						["MacroFont"] = "Prototype",
 						["ShowMacro"] = true,
-						["HotkeyFont"] = "Prototype",
+						["ShowHotkey"] = true,
 						["ShowEquipped"] = true,
 						["CountFont"] = "Prototype",
-						["ShowHotkey"] = true,
+						["HotkeyFont"] = "Prototype",
 					},
-					["Bottombar1"] = {
-						["Y"] = 32,
-						["X"] = -450,
-						["Fader"] = {
-							["PowerClip"] = 0,
-						},
-						["State"] = {
-							"1", -- [1]
-							"7", -- [2]
-							"1", -- [3]
-							[5] = "1",
-							["Alt"] = "1",
-							["Ctrl"] = "1",
-						},
-						["NumPerRow"] = 4,
+					["BottomTexture"] = {
+						["Y"] = 180,
+						["Enable"] = false,
 					},
 					["SidebarRight2"] = {
 						["State"] = {
@@ -1815,6 +1804,12 @@ LUIDB = {
 						["Y"] = -400,
 						["X"] = -260,
 					},
+					["SidebarLeft1"] = {
+						["State"] = {
+							"3", -- [1]
+						},
+						["Anchor"] = "BT4Bar10",
+					},
 					["Bottombar4"] = {
 						["State"] = {
 							"7", -- [1]
@@ -1822,20 +1817,27 @@ LUIDB = {
 							["Ctrl"] = "7",
 						},
 					},
-					["ExtraActionBar"] = {
-						["Y"] = 40,
-						["X"] = 290,
-					},
-					["Bottombar3"] = {
+					["SidebarLeft2"] = {
 						["State"] = {
 							"1", -- [1]
-							["Alt"] = "5",
-							["Ctrl"] = "5",
 						},
+						["Anchor"] = "BT4Bar8",
 					},
-					["BottomTexture"] = {
-						["Enable"] = false,
-						["Y"] = 180,
+					["Bottombar1"] = {
+						["State"] = {
+							"1", -- [1]
+							"7", -- [2]
+							"1", -- [3]
+							[5] = "1",
+							["Alt"] = "1",
+							["Ctrl"] = "1",
+						},
+						["X"] = -450,
+						["Fader"] = {
+							["PowerClip"] = 0,
+						},
+						["Y"] = 32,
+						["NumPerRow"] = 4,
 					},
 					["TopTexture"] = {
 						["Y"] = 430,
@@ -1850,6 +1852,17 @@ LUIDB = {
 							["Ctrl"] = "9",
 						},
 					},
+					["ExtraActionBar"] = {
+						["Y"] = 40,
+						["X"] = 290,
+					},
+					["Bottombar3"] = {
+						["State"] = {
+							"1", -- [1]
+							["Alt"] = "5",
+							["Ctrl"] = "5",
+						},
+					},
 					["Bottombar2"] = {
 						["State"] = {
 							"2", -- [1]
@@ -1859,18 +1872,6 @@ LUIDB = {
 						["X"] = -450,
 						["Y"] = 130,
 						["NumPerRow"] = 4,
-					},
-					["SidebarLeft2"] = {
-						["Anchor"] = "BT4Bar8",
-						["State"] = {
-							"1", -- [1]
-						},
-					},
-					["SidebarLeft1"] = {
-						["Anchor"] = "BT4Bar10",
-						["State"] = {
-							"3", -- [1]
-						},
 					},
 					["SidebarRight1"] = {
 						["Enable"] = false,
@@ -2493,6 +2494,7 @@ LUIDB = {
 				["DamageFont"] = "Prototype",
 			},
 			["Tooltip"] = {
+				["ShowSex"] = true,
 				["Y"] = -100,
 				["X"] = -2000,
 				["Health"] = {

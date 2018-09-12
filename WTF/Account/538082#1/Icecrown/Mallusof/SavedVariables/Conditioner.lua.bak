@@ -1,6 +1,9 @@
 
 ConditionerAddOn_SavedVariables = {
 	["CurrentLoadouts"] = {
+		[257] = 0,
+		[258] = 0,
+		[256] = 0,
 	},
 	["Options"] = {
 		["TaperSize"] = 80,

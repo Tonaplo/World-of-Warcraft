@@ -84,8 +84,8 @@ Grid2DB = {
 					["lastSelectedInstance"] = 1015,
 				},
 				["Healer"] = {
-					["lastSelectedModule"] = "Legion",
 					["defaultEJ_difficulty"] = 16,
+					["lastSelectedModule"] = "Legion",
 					["lastSelectedInstance"] = 1015,
 				},
 			},
@@ -93,6 +93,8 @@ Grid2DB = {
 		["Grid2Layout"] = {
 			["profiles"] = {
 				["Non-Healer"] = {
+					["BackgroundG"] = 1,
+					["groupAnchor"] = "TOPRIGHT",
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
 						["arena"] = "By Group",
@@ -100,19 +102,17 @@ Grid2DB = {
 						["solo"] = "Solo",
 						["party"] = "Party",
 					},
-					["BackgroundB"] = 1,
+					["PosY"] = -534.513571117253,
+					["BackgroundR"] = 1,
+					["BorderG"] = 0.501960784313726,
+					["BorderTexture"] = "Stripped_medium",
+					["BackgroundA"] = 0,
 					["BorderR"] = 0.501960784313726,
 					["Spacing"] = 3,
 					["anchor"] = "TOPRIGHT",
-					["BackgroundG"] = 1,
-					["groupAnchor"] = "TOPRIGHT",
-					["PosY"] = -600.888744491441,
-					["BackgroundA"] = 0,
-					["BorderG"] = 0.501960784313726,
-					["PosX"] = -15.2272332442953,
 					["horizontal"] = false,
-					["BackgroundR"] = 1,
-					["BorderTexture"] = "Stripped_medium",
+					["PosX"] = -15.2272332442953,
+					["BackgroundB"] = 1,
 				},
 				["Healer"] = {
 					["BorderB"] = 0.501960784313726,
@@ -122,21 +122,21 @@ Grid2DB = {
 						["solo"] = "Solo",
 						["raid"] = "By Group & Role",
 					},
-					["BackgroundR"] = 1,
+					["BackgroundB"] = 1,
 					["FrameLock"] = true,
 					["BorderR"] = 0.501960784313726,
-					["PosX"] = 0.00159049982357828,
+					["BorderTexture"] = "Stripped_medium",
 					["anchor"] = "TOP",
 					["BackgroundG"] = 1,
 					["minimapIcon"] = {
 						["hide"] = true,
 					},
 					["PosY"] = -572.444192629906,
-					["BackgroundB"] = 1,
+					["Spacing"] = 3,
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.501960784313726,
-					["BorderTexture"] = "Stripped_medium",
-					["Spacing"] = 3,
+					["BackgroundR"] = 1,
+					["PosX"] = 0.00159049982357828,
 				},
 			},
 		},
@@ -171,17 +171,17 @@ Grid2DB = {
 						["g"] = 0.690196078431373,
 						["r"] = 0.690196078431373,
 					},
+					["frameHeight"] = 40,
 					["frameBorder"] = 1,
-					["showTooltip"] = "Always",
-					["frameBorderDistance"] = 0,
 					["frameBorderTexture"] = "glow",
 					["font"] = "Prototype",
-					["frameHeight"] = 40,
-					["orientation"] = "HORIZONTAL",
-					["frameWidth"] = 70,
+					["showTooltip"] = "Always",
 					["frameContentColor"] = {
 						["r"] = 0.549019607843137,
 					},
+					["orientation"] = "HORIZONTAL",
+					["frameWidth"] = 70,
+					["frameBorderDistance"] = 0,
 				},
 				["Healer"] = {
 					["frameColor"] = {
@@ -196,12 +196,12 @@ Grid2DB = {
 					["frameBorderTexture"] = "glow",
 					["font"] = "Prototype",
 					["menuDisabled"] = true,
-					["orientation"] = "HORIZONTAL",
-					["frameHeight"] = 55,
-					["frameWidth"] = 119,
 					["frameContentColor"] = {
 						["r"] = 0.549019607843137,
 					},
+					["frameHeight"] = 55,
+					["frameWidth"] = 119,
+					["orientation"] = "HORIZONTAL",
 				},
 			},
 		},
@@ -212,6 +212,7 @@ Grid2DB = {
 		["Korugen - Tichondrius"] = "Non-Healer",
 		["Kaldorath - Proudmoore"] = "Non-Healer",
 		["Praerend - Proudmoore"] = "Non-Healer",
+		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Non-Healer",
 		["Fimwack - Proudmoore"] = "Non-Healer",
 		["Greybone - Proudmoore"] = "Non-Healer",
@@ -225,7 +226,7 @@ Grid2DB = {
 		["Granjior - Proudmoore"] = "Non-Healer",
 		["Farahn - Proudmoore"] = "Non-Healer",
 		["Kindhoof - Tichondrius"] = "Non-Healer",
-		["Mallusof - Tichondrius"] = "Healer",
+		["Mallusof - Tichondrius"] = "Non-Healer",
 		["Thedodrouk - Icecrown"] = "Non-Healer",
 		["Korugen - Proudmoore"] = "Non-Healer",
 		["Zaliga - Bleeding Hollow"] = "Non-Healer",
@@ -461,6 +462,22 @@ Grid2DB = {
 				},
 			},
 			["statuses"] = {
+				["buffs-Bottom-Right-Buffs-mine"] = {
+					["auras"] = {
+						"Rejuvenation", -- [1]
+						"Rejuvenation (Germination)", -- [2]
+						"Renew", -- [3]
+						"Atonement", -- [4]
+					},
+					["type"] = "buffs",
+					["mine"] = 1,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+				},
 				["heal-absorbs"] = {
 					["color2"] = {
 						["g"] = 1,
@@ -476,13 +493,6 @@ Grid2DB = {
 						["r"] = 0.0705882352941177,
 					},
 				},
-				["role"] = {
-					["hideInCombat"] = true,
-				},
-				["heals-incoming"] = {
-					["includePlayerHeals"] = true,
-					["multiplier"] = 1.6,
-				},
 				["color-absorbs-color"] = {
 					["color1"] = {
 						["a"] = 1,
@@ -491,6 +501,18 @@ Grid2DB = {
 						["r"] = 1,
 					},
 					["type"] = "color",
+				},
+				["color-IncommingHealsColor"] = {
+					["type"] = "color",
+					["color1"] = {
+						["a"] = 0.5,
+						["r"] = 0,
+						["g"] = 1,
+						["b"] = 0,
+					},
+				},
+				["leader"] = {
+					["hideInCombat"] = true,
 				},
 				["debuffs-ImportantDebuffs"] = {
 					["color1"] = {
@@ -511,18 +533,51 @@ Grid2DB = {
 						"Soulburst", -- [7]
 					},
 				},
+				["role"] = {
+					["hideInCombat"] = true,
+				},
+				["buffs-Bottom-Left-Buffs-mine"] = {
+					["auras"] = {
+						"Prayer of Mending", -- [1]
+						"Power Word: Shield", -- [2]
+						"Regrowth", -- [3]
+						"Wild Growth", -- [4]
+					},
+					["type"] = "buffs",
+					["mine"] = 1,
+					["color1"] = {
+						["a"] = 0,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+				},
+				["debuffs-AllDebuffs"] = {
+					["type"] = "debuffs",
+					["auras"] = {
+						"Challenger's Burden", -- [1]
+						"Exhaustion", -- [2]
+						"Sated", -- [3]
+						"Fatigued", -- [4]
+						"Temporal Displacement", -- [5]
+					},
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0.2,
+						["g"] = 0.2,
+						["r"] = 1,
+					},
+				},
 				["dungeon-role"] = {
 					["hideDamagers"] = true,
 					["hideInCombat"] = true,
 				},
-				["color-IncommingHealsColor"] = {
-					["type"] = "color",
-					["color1"] = {
-						["a"] = 0.5,
-						["r"] = 0,
-						["g"] = 1,
-						["b"] = 0,
-					},
+				["heals-incoming"] = {
+					["multiplier"] = 1.6,
+					["includePlayerHeals"] = true,
+				},
+				["health-current"] = {
+					["frequentHealth"] = true,
 				},
 				["buffs-DefensiveCooldowns"] = {
 					["type"] = "buffs",
@@ -553,60 +608,6 @@ Grid2DB = {
 					},
 					["color1"] = {
 						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-				},
-				["leader"] = {
-					["hideInCombat"] = true,
-				},
-				["debuffs-AllDebuffs"] = {
-					["type"] = "debuffs",
-					["auras"] = {
-						"Challenger's Burden", -- [1]
-						"Exhaustion", -- [2]
-						"Sated", -- [3]
-						"Fatigued", -- [4]
-						"Temporal Displacement", -- [5]
-					},
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0.2,
-						["g"] = 0.2,
-						["r"] = 1,
-					},
-				},
-				["health-current"] = {
-					["frequentHealth"] = true,
-				},
-				["buffs-Bottom-Right-Buffs-mine"] = {
-					["auras"] = {
-						"Rejuvenation", -- [1]
-						"Rejuvenation (Germination)", -- [2]
-						"Renew", -- [3]
-						"Atonement", -- [4]
-					},
-					["type"] = "buffs",
-					["mine"] = 1,
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-				},
-				["buffs-Bottom-Left-Buffs-mine"] = {
-					["auras"] = {
-						"Prayer of Mending", -- [1]
-						"Power Word: Shield", -- [2]
-						"Regrowth", -- [3]
-						"Wild Growth", -- [4]
-					},
-					["type"] = "buffs",
-					["mine"] = 1,
-					["color1"] = {
-						["a"] = 0,
 						["b"] = 1,
 						["g"] = 1,
 						["r"] = 1,
@@ -686,6 +687,340 @@ Grid2DB = {
 				},
 				["heals"] = {
 					["shields"] = 100,
+				},
+			},
+		},
+		["Mallubank - Tichondrius"] = {
+			["statuses"] = {
+				["buff-SpiritOfRedemption"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["blinkThreshold"] = 3,
+					["spellName"] = 27827,
+				},
+				["buff-PowerWordShield"] = {
+					["type"] = "buff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 0,
+					},
+					["spellName"] = 17,
+				},
+				["debuff-WeakenedSoul"] = {
+					["type"] = "debuff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0.9,
+						["g"] = 0.2,
+						["r"] = 0,
+					},
+					["spellName"] = 6788,
+				},
+				["buff-Renew-mine"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = true,
+					["spellName"] = 139,
+				},
+				["buff-PrayerOfMending-mine"] = {
+					["type"] = "buff",
+					["mine"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0.2,
+						["g"] = 0.2,
+						["r"] = 1,
+					},
+					["color2"] = {
+						["a"] = 0.4,
+						["b"] = 0.4,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["color3"] = {
+						["a"] = 1,
+						["b"] = 0.6,
+						["g"] = 0.6,
+						["r"] = 1,
+					},
+					["colorCount"] = 5,
+					["color4"] = {
+						["a"] = 1,
+						["b"] = 0.8,
+						["g"] = 0.8,
+						["r"] = 1,
+					},
+					["color5"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["spellName"] = 33076,
+				},
+			},
+			["versions"] = {
+				["Grid2"] = 5,
+				["Grid2RaidDebuffs"] = 4,
+			},
+			["indicators"] = {
+				["corner-top-left"] = {
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "TOPLEFT",
+						["point"] = "TOPLEFT",
+						["x"] = 0,
+					},
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
+				},
+				["text-down"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = 4,
+						["relPoint"] = "BOTTOM",
+						["point"] = "BOTTOM",
+						["x"] = 0,
+					},
+					["level"] = 6,
+					["textlength"] = 6,
+					["fontSize"] = 8,
+				},
+				["icon-left"] = {
+					["type"] = "icon",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "LEFT",
+						["point"] = "LEFT",
+						["x"] = -2,
+					},
+					["level"] = 8,
+					["fontSize"] = 8,
+					["size"] = 12,
+				},
+				["border"] = {
+					["color1"] = {
+						["a"] = 0,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["type"] = "border",
+				},
+				["text-down-color"] = {
+					["type"] = "text-color",
+				},
+				["icon-center"] = {
+					["type"] = "icon",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "CENTER",
+						["point"] = "CENTER",
+						["x"] = 0,
+					},
+					["level"] = 8,
+					["fontSize"] = 8,
+					["size"] = 14,
+				},
+				["health-color"] = {
+					["type"] = "bar-color",
+				},
+				["icon-right"] = {
+					["type"] = "icon",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "RIGHT",
+						["point"] = "RIGHT",
+						["x"] = 2,
+					},
+					["level"] = 8,
+					["fontSize"] = 8,
+					["size"] = 12,
+				},
+				["heals-color"] = {
+					["type"] = "bar-color",
+				},
+				["alpha"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["type"] = "alpha",
+				},
+				["heals"] = {
+					["type"] = "bar",
+					["color1"] = {
+						["a"] = 0,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["anchorTo"] = "health",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "CENTER",
+						["point"] = "CENTER",
+						["x"] = 0,
+					},
+					["level"] = 1,
+					["opacity"] = 0.25,
+					["texture"] = "Gradient",
+				},
+				["health"] = {
+					["type"] = "bar",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "CENTER",
+						["point"] = "CENTER",
+						["x"] = 0,
+					},
+					["level"] = 2,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["texture"] = "Gradient",
+				},
+				["corner-bottom-left"] = {
+					["type"] = "square",
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "BOTTOMLEFT",
+						["point"] = "BOTTOMLEFT",
+						["x"] = 0,
+					},
+					["level"] = 5,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["size"] = 5,
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
+				},
+				["text-up-color"] = {
+					["type"] = "text-color",
+				},
+				["corner-top-right"] = {
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "TOPRIGHT",
+						["point"] = "TOPRIGHT",
+						["x"] = 0,
+					},
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
+				},
+				["side-bottom"] = {
+					["location"] = {
+						["y"] = 0,
+						["relPoint"] = "BOTTOM",
+						["point"] = "BOTTOM",
+						["x"] = 0,
+					},
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
+				},
+			},
+			["statusMap"] = {
+				["corner-top-left"] = {
+					["buff-Renew-mine"] = 99,
+				},
+				["heals"] = {
+					["heals-incoming"] = 99,
+				},
+				["icon-right"] = {
+					["buff-PrayerOfMending-mine"] = 99,
+				},
+				["text-down"] = {
+					["name"] = 99,
+				},
+				["heals-color"] = {
+					["classcolor"] = 99,
+				},
+				["icon-left"] = {
+					["raid-icon-player"] = 155,
+				},
+				["alpha"] = {
+					["offline"] = 97,
+					["range"] = 99,
+					["death"] = 98,
+				},
+				["corner-top-right"] = {
+					["buff-PowerWordShield"] = 99,
+					["debuff-WeakenedSoul"] = 89,
+				},
+				["text-down-color"] = {
+					["classcolor"] = 99,
+				},
+				["text-up"] = {
+					["charmed"] = 65,
+					["feign-death"] = 96,
+					["health-deficit"] = 50,
+					["offline"] = 93,
+					["vehicle"] = 70,
+					["death"] = 95,
+				},
+				["health"] = {
+					["health-current"] = 99,
+				},
+				["border"] = {
+					["debuff-Disease"] = 90,
+					["health-low"] = 55,
+					["debuff-Poison"] = 70,
+					["target"] = 50,
+					["debuff-Magic"] = 80,
+					["debuff-Curse"] = 60,
+				},
+				["corner-bottom-left"] = {
+					["threat"] = 99,
+				},
+				["text-up-color"] = {
+					["charmed"] = 65,
+					["feign-death"] = 96,
+					["health-deficit"] = 50,
+					["offline"] = 93,
+					["vehicle"] = 70,
+					["death"] = 95,
+				},
+				["health-color"] = {
+					["classcolor"] = 99,
+				},
+				["icon-center"] = {
+					["ready-check"] = 150,
+					["raid-debuffs"] = 155,
+					["death"] = 155,
 				},
 			},
 		},
@@ -917,86 +1252,6 @@ Grid2DB = {
 					["texture"] = "Blizzard Raid Bar",
 				},
 			},
-			["statusMap"] = {
-				["corner-top-left"] = {
-					["debuffs-AllDebuffs"] = 50,
-				},
-				["side-top"] = {
-				},
-				["corner-bottom-right"] = {
-					["buffs-Bottom-Right-Buffs-mine"] = 50,
-				},
-				["text-down"] = {
-					["name"] = 99,
-				},
-				["absorbs-color"] = {
-				},
-				["icon-left"] = {
-					["dungeon-role"] = 157,
-				},
-				["border"] = {
-				},
-				["text-down-color"] = {
-					["classcolor"] = 50,
-				},
-				["side-top-color"] = {
-				},
-				["icon-center"] = {
-					["ready-check"] = 150,
-					["leader"] = 156,
-					["death"] = 155,
-				},
-				["health-color"] = {
-					["debuff-Disease"] = 57,
-					["debuffs-ImportantDebuffs"] = 53,
-					["debuff-Poison"] = 56,
-					["debuffs-AllDebuffs"] = 54,
-					["debuff-Curse"] = 58,
-					["debuff-Magic"] = 55,
-					["health-current"] = 50,
-				},
-				["corner-top-right"] = {
-					["buffs-DefensiveCooldowns"] = 50,
-				},
-				["heals-color"] = {
-					["color-IncommingHealsColor"] = 53,
-					["heal-absorbs"] = 52,
-				},
-				["alpha"] = {
-					["offline"] = 97,
-					["range"] = 99,
-					["death"] = 98,
-				},
-				["health"] = {
-					["health-current"] = 50,
-				},
-				["corner-bottom-left"] = {
-					["buffs-Bottom-Left-Buffs-mine"] = 50,
-				},
-				["text-up-color"] = {
-					["charmed"] = 65,
-					["feign-death"] = 96,
-					["health-deficit"] = 50,
-					["offline"] = 93,
-					["vehicle"] = 70,
-					["death"] = 95,
-				},
-				["heals"] = {
-					["shields"] = 100,
-					["heal-absorbs"] = 101,
-				},
-				["text-up"] = {
-					["charmed"] = 65,
-					["feign-death"] = 96,
-					["death"] = 95,
-					["offline"] = 93,
-					["vehicle"] = 70,
-				},
-			},
-			["versions"] = {
-				["Grid2"] = 5,
-				["Grid2RaidDebuffs"] = 4,
-			},
 			["statuses"] = {
 				["heal-absorbs"] = {
 					["thresholdMedium"] = 0,
@@ -1017,8 +1272,8 @@ Grid2DB = {
 					["hideInCombat"] = true,
 				},
 				["heals-incoming"] = {
-					["multiplier"] = 1.6,
 					["includePlayerHeals"] = true,
+					["multiplier"] = 1.6,
 				},
 				["debuffs-ImportantDebuffs"] = {
 					["auras"] = {
@@ -1038,10 +1293,6 @@ Grid2DB = {
 						["g"] = 0,
 						["r"] = 0,
 					},
-				},
-				["dungeon-role"] = {
-					["hideDamagers"] = true,
-					["hideInCombat"] = true,
 				},
 				["buffs-DefensiveCooldowns"] = {
 					["type"] = "buffs",
@@ -1158,6 +1409,90 @@ Grid2DB = {
 						"Beacon of Faith", -- [6]
 						"Essence Font", -- [7]
 					},
+				},
+				["dungeon-role"] = {
+					["hideDamagers"] = true,
+					["hideInCombat"] = true,
+				},
+			},
+			["versions"] = {
+				["Grid2"] = 5,
+				["Grid2RaidDebuffs"] = 4,
+			},
+			["statusMap"] = {
+				["corner-top-left"] = {
+					["debuffs-AllDebuffs"] = 50,
+				},
+				["side-top"] = {
+				},
+				["corner-bottom-right"] = {
+					["buffs-Bottom-Right-Buffs-mine"] = 50,
+				},
+				["text-down"] = {
+					["name"] = 99,
+				},
+				["absorbs-color"] = {
+				},
+				["icon-left"] = {
+					["dungeon-role"] = 157,
+				},
+				["border"] = {
+				},
+				["text-down-color"] = {
+					["classcolor"] = 50,
+				},
+				["side-top-color"] = {
+				},
+				["icon-center"] = {
+					["ready-check"] = 150,
+					["leader"] = 156,
+					["death"] = 155,
+				},
+				["health-color"] = {
+					["debuff-Disease"] = 57,
+					["debuffs-ImportantDebuffs"] = 53,
+					["debuff-Poison"] = 56,
+					["debuffs-AllDebuffs"] = 54,
+					["debuff-Curse"] = 58,
+					["debuff-Magic"] = 55,
+					["health-current"] = 50,
+				},
+				["corner-top-right"] = {
+					["buffs-DefensiveCooldowns"] = 50,
+				},
+				["heals-color"] = {
+					["color-IncommingHealsColor"] = 53,
+					["heal-absorbs"] = 52,
+				},
+				["alpha"] = {
+					["offline"] = 97,
+					["range"] = 99,
+					["death"] = 98,
+				},
+				["health"] = {
+					["health-current"] = 50,
+				},
+				["corner-bottom-left"] = {
+					["buffs-Bottom-Left-Buffs-mine"] = 50,
+				},
+				["text-up-color"] = {
+					["charmed"] = 65,
+					["feign-death"] = 96,
+					["health-deficit"] = 50,
+					["offline"] = 93,
+					["vehicle"] = 70,
+					["death"] = 95,
+				},
+				["heals"] = {
+					["shields"] = 100,
+					["heal-absorbs"] = 101,
+				},
+				["text-up"] = {
+					["charmed"] = 65,
+					["feign-death"] = 96,
+					["death"] = 95,
+					["offline"] = 93,
+					["vehicle"] = 70,
 				},
 			},
 		},
