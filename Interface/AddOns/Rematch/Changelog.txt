@@ -1,3 +1,6 @@
+09/11/2016 version 4.8.7
+- Fix for error when displaying the pet card of a leveling/random pet.
+
 09/09/2018 version 4.8.6
 - Added new debug option to troubleshoot Mac crashes: 'Debug: No Models' to run Rematch without any models. This option is OFF by default.
 - Removed the default-on setting for 'Debug: Delay Journal On Macs' on Macs. If any currently have it on, it will remain on.

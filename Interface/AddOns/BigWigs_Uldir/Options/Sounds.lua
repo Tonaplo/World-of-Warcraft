@@ -20,6 +20,7 @@ BigWigs:AddSounds("MOTHER", {
 	[268253] = {"alarm","alert"},
 	[269051] = {"alarm","info"},
 	[274205] = "long",
+	[279662] = "warning",
 })
 
 BigWigs:AddSounds("Fetid Devourer", {
@@ -43,6 +44,7 @@ BigWigs:AddSounds("Zek'voz, Herald of N'zoth", {
 	[265662] = "long",
 	[267180] = "alert",
 	[267239] = "alert",
+	["mythic_adds"] = "long",
 	["stages"] = "Long",
 })
 
@@ -54,6 +56,7 @@ BigWigs:AddSounds("Vectis", {
 	[265217] = {"info","long"},
 	[266459] = "warning",
 	[267242] = "alarm",
+	[274990] = "warning",
 })
 
 BigWigs:AddSounds("Zul", {
@@ -73,7 +76,7 @@ BigWigs:AddSounds("Zul", {
 })
 
 BigWigs:AddSounds("Mythrax the Unraveler", {
-	[272115] = "alert",
+	[272115] = "long",
 	[272404] = "warning",
 	[272536] = "alert",
 	[273282] = {"alarm","alert"},

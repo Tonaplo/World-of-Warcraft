@@ -12,7 +12,7 @@ local mod, CL = BigWigs:NewBoss("Zek'voz, Herald of N'zoth", 1861, 2169)
 if not mod then return end
 mod:RegisterEnableMob(134445) -- Zek'voz
 mod.engageId = 2136
---mod.respawnTime = 30
+mod.respawnTime = 30 -- XXX verify
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -32,6 +32,9 @@ local roilingDeceitTargets = {}
 local L = mod:GetLocale()
 if L then
 	L.surging_darkness_eruption = "Eruption (%d)"
+	L.mythic_adds = "Mythic Adds"
+	L.mythic_adds_desc = "Show timers when adds will spawn in Mythic (Both Qiraji Warrior and Anub'ar Voidweaver spawn at the same time)."
+	L.mythic_adds_icon = "inv_misc_ahnqirajtrinket_01"
 end
 
 --------------------------------------------------------------------------------
@@ -58,11 +61,15 @@ function mod:GetOptions()
 		--[[ Stage 3 ]]--
 		267239, -- Orb of Corruption
 		{265662, "SAY_COUNTDOWN"}, -- Corruptor's Pact
+
+		--[[ Mythic ]]--
+		"mythic_adds",
 	},{
 		["stages"] = "general",
 		[264382] = CL.stage:format(1),
 		[265360] = CL.stage:format(2),
 		[267239] = CL.stage:format(3),
+		["mythic_adds"] = CL.mythic,
 	}
 end
 
@@ -87,6 +94,9 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "OrbofCorruption", 267239)
 	self:Log("SPELL_AURA_APPLIED", "CorruptorsPact", 265662)
 	self:Log("SPELL_AURA_REMOVED", "CorruptorsPactRemoved", 265662)
+
+	--[[ Mythic ]]--
+	self:Log("SPELL_CAST_SUCCESS", "MythicAdds", 271099)
 end
 
 function mod:OnEngage()
@@ -99,8 +109,14 @@ function mod:OnEngage()
 
 	self:Bar(265231, 15.4) -- Void Lash (Initial)
 	self:Bar(265530, 25) -- Surging Darkness
-	self:Bar(-18390, 55.5, nil, 275772) -- Qiraji Warrior
 	self:CDBar(264382, 51.8) -- Eye Beam
+
+	if self:Mythic() then
+		self:CDBar(265360, 31) -- Roiling Deceit -- Until APPLIED not START
+		self:Bar("mythic_adds", 60, CL.adds, L.mythic_adds_icon)
+	else
+		self:Bar(-18390, 55.5, nil, 275772) -- Qiraji Warrior
+	end
 
 	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "boss1")
 	self:RegisterUnitEvent("UNIT_POWER_FREQUENT", nil, "boss1")
@@ -128,7 +144,12 @@ function mod:UNIT_POWER_FREQUENT(event, unit)
 		stage = stage + 1
 		self:Message("stages", "green", "Long", CL.stage:format(stage), false)
 		self:Bar(265530, 80) -- Surging Darkness
-		if stage == 2 then
+		if self:Mythic() then
+			self:StopBar(-18390) -- Qiraji Warrior
+			self:StopBar(-18397) -- Anub'ar Voidweaver
+			self:Bar(267239, 15) -- Orb of Corruption
+			self:Bar(265231, 35) -- Void Lash (Initial)
+		elseif stage == 2 then
 			self:StopBar(-18390) -- Qiraji Warrior
 			self:StopBar(264382) -- Eye Beam
 			self:Bar(-18397, 20.5, nil, 267180) -- Anub'ar Voidweaver
@@ -146,6 +167,7 @@ function mod:UNIT_POWER_FREQUENT(event, unit)
 end
 
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
+	if self:Mythic() then return end -- Adds are handled better in Mythic
 	if spellId == 266913 then -- Spawn Qiraji Warrior
 		self:Message(-18390, "cyan", nil, nil, 275772)
 		self:PlaySound(-18390, "long")
@@ -162,9 +184,13 @@ function mod:SurgingDarkness(args)
 	self:Message(args.spellId, "red")
 	self:PlaySound(args.spellId, "long")
 	self:Bar(args.spellId, 83)
-	self:CDBar(args.spellId, 10.5, L.surging_darkness_eruption:format(1))
-	self:CDBar(args.spellId, 17, L.surging_darkness_eruption:format(2))
-	self:CDBar(args.spellId, 23.5, L.surging_darkness_eruption:format(3))
+	-- XXX Lots of Bars, try to rework into a less intrusive manner
+	self:CDBar(args.spellId, self:Mythic() and 8 or 10.5, L.surging_darkness_eruption:format(1))
+	self:CDBar(args.spellId, self:Mythic() and 12 or 17, L.surging_darkness_eruption:format(2))
+	self:CDBar(args.spellId, self:Mythic() and 16 or 23.5, L.surging_darkness_eruption:format(3))
+	if self:Mythic() then
+		self:CDBar(args.spellId, 20, L.surging_darkness_eruption:format(4))
+	end
 end
 
 function mod:VoidLash(args)
@@ -199,7 +225,7 @@ do
 	end
 	function mod:EyeBeam(args)
 		self:GetBossTarget(printTarget, 0.5, args.sourceGUID)
-		self:CastBar(args.spellId, 3)
+		self:CastBar(args.spellId, self:Mythic() and 1.5 or 3)
 		eyeBeamCount = eyeBeamCount + 1
 		if eyeBeamCount == 4 then
 			eyeBeamCount = 1
@@ -254,9 +280,12 @@ do
 end
 
 function mod:VoidBolt(args)
-	if self:Interrupter(args.sourceGUID) then
+	local canDo, ready = self:Interrupter(args.sourceGUID)
+	if canDo then
 		self:Message(args.spellId, "yellow")
-		self:PlaySound(args.spellId, "alert")
+		if ready then
+			self:PlaySound(args.spellId, "alert")
+		end
 	end
 end
 
@@ -264,7 +293,7 @@ end
 function mod:OrbofCorruption(args)
 	self:Message(args.spellId, "yellow")
 	self:PlaySound(args.spellId, "alert")
-	self:Bar(args.spellId, 90) -- XXX verify
+	--self:Bar(args.spellId, 90) -- XXX Does not get cast again?
 end
 
 function mod:CorruptorsPact(args)
@@ -279,4 +308,11 @@ function mod:CorruptorsPactRemoved(args)
 	if self:Me(args.destGUID) then
 		self:CancelSayCountdown(args.spellId)
 	end
+end
+
+--[[ Mythic ]]--
+function mod:MythicAdds()
+	self:Message("mythic_adds", "cyan", nil, CL.incoming:format(CL.adds), L.mythic_adds_icon)
+	self:PlaySound("mythic_adds", "long")
+	self:Bar("mythic_adds", 120, CL.adds, L.mythic_adds_icon)
 end

@@ -1,10 +1,22 @@
-lightweight tag dfeada337ebf4ce4e3a4e4bb4604d721c422f1bf v201809102109
+lightweight tag 870d600fc4e63e0125f2cce5a9404d19530dec5a v201809110600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Mon Sep 10 22:32:32 2018 +0000
+Date:	Tue Sep 11 07:25:32 2018 +0000
 
-commit dfeada337ebf4ce4e3a4e4bb4604d721c422f1bf
+commit 870d600fc4e63e0125f2cce5a9404d19530dec5a
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Mon Sep 10 22:32:32 2018 +0000
+Date:   Tue Sep 11 07:25:32 2018 +0000
 
     [Raider.IO] Database Refresh
+
+commit d08590bec1532a7f8a01c680cafe4ac129fd39cd
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Tue Sep 11 00:18:35 2018 -0500
+
+    added `/rio group` to pop open the group export JSON dialog
+
+commit bc7b96c54b2951292b2f2633be91e55a68a29562
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Tue Sep 11 00:07:11 2018 -0500
+
+    warn on invalid data type attempting to load, which is the case if user has old data before BFA S1
 
