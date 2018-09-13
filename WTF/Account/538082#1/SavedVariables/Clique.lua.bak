@@ -125,11 +125,11 @@ CliqueDB3 = {
 		},
 		["Thedodrouk - Icecrown"] = {
 			["spec1_profileKey"] = "Thedodrouk - Icecrown",
-			["spec3_profileKey"] = "Thedodrouk - Icecrown",
+			["spec2_profileKey"] = "Thedodrouk - Icecrown",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Thedodrouk - Icecrown",
 			["specswap"] = false,
+			["spec3_profileKey"] = "Thedodrouk - Icecrown",
 		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
@@ -187,28 +187,29 @@ CliqueDB3 = {
 				["oUF_LUI_player"] = true,
 				["oUF_LUI_target"] = true,
 			},
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["spec3_profileKey"] = "Non-Healer",
 			["spec2_profileKey"] = "Priest - Holy",
+			["downclick"] = false,
+			["alerthidden"] = true,
 			["specswap"] = true,
+			["spec3_profileKey"] = "Non-Healer",
 		},
 	},
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Non-Healer",
 		["Praerend - Proudmoore"] = "Non-Healer",
+		["Kaldorath - Proudmoore"] = "Non-Healer",
+		["Faerand - Proudmoore"] = "Non-Healer",
 		["Amranar - Proudmoore"] = "Druid - Feral",
 		["Farahn - Proudmoore"] = "Shaman - Resto",
-		["Faerand - Proudmoore"] = "Non-Healer",
-		["Mallusof - Tichondrius"] = "Priest - Shadow",
 		["Rahran - Proudmoore"] = "Non-Healer",
+		["Mallusof - Tichondrius"] = "Priest - Shadow",
+		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Granjior - Proudmoore"] = "Non-Healer",
 		["Fimwack - Proudmoore"] = "Non-Healer",
-		["Miriyal - Proudmoore"] = "Non-Healer",
-		["Greybone - Proudmoore"] = "Non-Healer",
 		["Morifa - Proudmoore"] = "Non-Healer",
+		["Greybone - Proudmoore"] = "Non-Healer",
+		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Alura - Tichondrius"] = "Priest - Disc",
-		["Mallusof - Icecrown"] = "Priest - Disc",
+		["Mallusof - Icecrown"] = "Non-Healer",
 	},
 	["profiles"] = {
 		["Monk - Mistweaver"] = {
@@ -892,6 +893,25 @@ CliqueDB3 = {
 					["icon"] = 135953,
 					["type"] = "spell",
 				}, -- [13]
+			},
+		},
+		["Thedodrouk - Icecrown"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
 			},
 		},
 	},

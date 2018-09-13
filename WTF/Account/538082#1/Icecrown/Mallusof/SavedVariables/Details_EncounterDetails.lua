@@ -1,15 +1,13 @@
 
 EncounterDetailsDB = {
 	["encounter_spells"] = {
-		[267256] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[265923] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "The Golden Serpent",
 		},
 		[269231] = {
 			["school"] = 1,
@@ -53,12 +51,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Reban",
 		},
-		[268589] = {
-			["school"] = 1,
+		[267256] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "King Dazar",
+			["source"] = "Unknown",
 		},
 		[267618] = {
 			["school"] = 8,
@@ -266,13 +267,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Dazar",
 		},
-		[265923] = {
+		[268589] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Golden Serpent",
+			["source"] = "King Dazar",
 		},
 	},
 	["emotes"] = {
