@@ -2,7 +2,7 @@
 QEConfig = {
 	["PriorityTargets"] = true,
 	["ShowFrame"] = "Show in separate frame",
-	["Fluff"] = false,
+	["Fluff"] = true,
 	["Important"] = true,
 	["TargetTrigger"] = "Show targeted mob",
 	["Advanced"] = true,
