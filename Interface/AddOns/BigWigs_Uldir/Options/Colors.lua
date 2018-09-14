@@ -28,7 +28,7 @@ BigWigs:AddColors("Fetid Devourer", {
 	[262288] = "orange",
 	[262292] = "yellow",
 	[262313] = {"blue","orange"},
-	[262314] = "blue",
+	[262314] = {"blue","orange"},
 	[262364] = {"cyan","red"},
 	[262378] = "cyan",
 })

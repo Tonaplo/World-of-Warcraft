@@ -27,7 +27,7 @@ BigWigs:AddSounds("Fetid Devourer", {
 	[262277] = "alert",
 	[262288] = "alarm",
 	[262292] = "alert",
-	[262313] = "info",
+	[262313] = {"info","warning"},
 	[262314] = "warning",
 	[262364] = {"long","warning"},
 	[262378] = "info",
