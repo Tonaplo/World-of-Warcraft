@@ -1,6 +1,8 @@
 
 Grid2DB = {
 	["namespaces"] = {
+		["Grid2Utils"] = {
+		},
 		["Grid2Frame"] = {
 			["profiles"] = {
 				["Non-Healer"] = {
@@ -44,8 +46,6 @@ Grid2DB = {
 				},
 			},
 		},
-		["Grid2Utils"] = {
-		},
 		["Grid2Layout"] = {
 			["profiles"] = {
 				["Non-Healer"] = {
@@ -53,92 +53,46 @@ Grid2DB = {
 					["groupAnchor"] = "TOPRIGHT",
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["arena"] = "By Group",
 						["raid"] = "By Group & Role",
-						["solo"] = "Solo",
 						["party"] = "Party",
+						["solo"] = "Solo",
+						["arena"] = "By Group",
 					},
 					["PosY"] = -600.888744491441,
 					["BackgroundB"] = 1,
-					["BorderG"] = 0.501960784313726,
 					["PosX"] = -15.2272332442953,
+					["BorderG"] = 0.501960784313726,
 					["BackgroundA"] = 0,
 					["BorderR"] = 0.501960784313726,
-					["Spacing"] = 3,
+					["BorderTexture"] = "Stripped_medium",
 					["anchor"] = "TOPRIGHT",
 					["horizontal"] = false,
+					["Spacing"] = 3,
 					["BackgroundR"] = 1,
-					["BorderTexture"] = "Stripped_medium",
 				},
 				["Healer"] = {
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["party"] = "Party",
 						["arena"] = "By Group",
-						["solo"] = "Solo",
 						["raid"] = "By Group & Role",
+						["solo"] = "Solo",
+						["party"] = "Party",
 					},
 					["BackgroundB"] = 1,
 					["FrameLock"] = true,
 					["BorderR"] = 0.501960784313726,
-					["Spacing"] = 3,
+					["BorderTexture"] = "Stripped_medium",
 					["anchor"] = "TOP",
 					["BackgroundG"] = 1,
 					["minimapIcon"] = {
 						["hide"] = true,
 					},
 					["PosY"] = -572.444192629906,
-					["PosX"] = 0.00198282311339426,
+					["Spacing"] = 3,
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.501960784313726,
 					["BackgroundR"] = 1,
-					["BorderTexture"] = "Stripped_medium",
-				},
-			},
-		},
-		["Grid2AoeHeals"] = {
-		},
-		["Grid2Options"] = {
-			["profiles"] = {
-				["Non-Healer"] = {
-					["L"] = {
-						["indicators"] = {
-							["text-down"] = "text-center",
-							["icon-center"] = "icon-top",
-						},
-					},
-				},
-				["Healer"] = {
-					["L"] = {
-						["indicators"] = {
-							["icon-center"] = "icon-top",
-							["text-down"] = "text-center",
-						},
-					},
-				},
-			},
-		},
-		["Grid2RaidDebuffs"] = {
-			["profiles"] = {
-				["Non-Healer"] = {
-					["autodetect"] = {
-						["zones"] = {
-							[1188] = true,
-						},
-						["debuffs"] = {
-							[245994] = "1188@946@Aggramar",
-							[245990] = "1188@946@Aggramar",
-							[244736] = "1188@946@Aggramar",
-						},
-					},
-					["defaultEJ_difficulty"] = 16,
-					["lastSelectedModule"] = "Legion",
-					["lastSelectedInstance"] = 1015,
-				},
-				["Healer"] = {
-					["defaultEJ_difficulty"] = 16,
-					["lastSelectedModule"] = "Legion",
-					["lastSelectedInstance"] = 1015,
+					["PosX"] = 0.00197221978123707,
 				},
 			},
 		},
@@ -207,6 +161,52 @@ Grid2DB = {
 				},
 			},
 		},
+		["Grid2Options"] = {
+			["profiles"] = {
+				["Non-Healer"] = {
+					["L"] = {
+						["indicators"] = {
+							["text-down"] = "text-center",
+							["icon-center"] = "icon-top",
+						},
+					},
+				},
+				["Healer"] = {
+					["L"] = {
+						["indicators"] = {
+							["icon-center"] = "icon-top",
+							["text-down"] = "text-center",
+						},
+					},
+				},
+			},
+		},
+		["Grid2RaidDebuffs"] = {
+			["profiles"] = {
+				["Non-Healer"] = {
+					["autodetect"] = {
+						["zones"] = {
+							[1188] = true,
+						},
+						["debuffs"] = {
+							[245994] = "1188@946@Aggramar",
+							[245990] = "1188@946@Aggramar",
+							[244736] = "1188@946@Aggramar",
+						},
+					},
+					["defaultEJ_difficulty"] = 16,
+					["lastSelectedModule"] = "Legion",
+					["lastSelectedInstance"] = 1015,
+				},
+				["Healer"] = {
+					["defaultEJ_difficulty"] = 16,
+					["lastSelectedModule"] = "Legion",
+					["lastSelectedInstance"] = 1015,
+				},
+			},
+		},
+		["Grid2AoeHeals"] = {
+		},
 	},
 	["profileKeys"] = {
 		["Korugen - Tichondrius"] = "Non-Healer",
@@ -220,18 +220,18 @@ Grid2DB = {
 		["Faerand - Proudmoore"] = "Non-Healer",
 		["Amranar - Proudmoore"] = "Non-Healer",
 		["Zearthan - Proudmoore"] = "Non-Healer",
-		["Morifa - Proudmoore"] = "Non-Healer",
+		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Rahran - Proudmoore"] = "Non-Healer",
 		["Zethan - Tichondrius"] = "Non-Healer",
-		["Granjior - Proudmoore"] = "Non-Healer",
+		["Korugen - Proudmoore"] = "Non-Healer",
 		["Farahn - Proudmoore"] = "Non-Healer",
-		["Kindhoof - Tichondrius"] = "Non-Healer",
+		["Morifa - Proudmoore"] = "Non-Healer",
 		["Mallusof - Tichondrius"] = "Non-Healer",
 		["Thedodrouk - Icecrown"] = "Non-Healer",
-		["Korugen - Proudmoore"] = "Non-Healer",
-		["Zaliga - Bleeding Hollow"] = "Non-Healer",
-		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Deminath - Proudmoore"] = "Non-Healer",
+		["Zaliga - Bleeding Hollow"] = "Non-Healer",
+		["Kindhoof - Tichondrius"] = "Non-Healer",
+		["Granjior - Proudmoore"] = "Non-Healer",
 		["Morifa - Tichondrius"] = "Non-Healer",
 		["Alura - Tichondrius"] = "Healer",
 		["Mallusof - Icecrown"] = "Healer",
@@ -402,21 +402,6 @@ Grid2DB = {
 				["importantDebuffsBorder-color"] = {
 					["type"] = "multibar-color",
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
-				["text-up-color"] = {
-					["type"] = "text-color",
-				},
 				["corner-bottom-left"] = {
 					["disableStack"] = true,
 					["type"] = "icons",
@@ -430,16 +415,31 @@ Grid2DB = {
 						["r"] = 0,
 					},
 					["maxIcons"] = 3,
-					["orientation"] = "HORIZONTAL",
 					["iconSize"] = 20,
-					["level"] = 8,
-					["maxIconsPerRow"] = 3,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["level"] = 8,
+					["maxIconsPerRow"] = 3,
+					["orientation"] = "HORIZONTAL",
+				},
+				["text-up-color"] = {
+					["type"] = "text-color",
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
 				},
 				["heals"] = {
 					["type"] = "bar",
@@ -514,6 +514,9 @@ Grid2DB = {
 				["leader"] = {
 					["hideInCombat"] = true,
 				},
+				["role"] = {
+					["hideInCombat"] = true,
+				},
 				["debuffs-ImportantDebuffs"] = {
 					["auras"] = {
 						"Fulminating Pulse", -- [1]
@@ -532,9 +535,6 @@ Grid2DB = {
 						["g"] = 0,
 						["r"] = 0,
 					},
-				},
-				["role"] = {
-					["hideInCombat"] = true,
 				},
 				["buffs-Bottom-Left-Buffs-mine"] = {
 					["color1"] = {
@@ -899,21 +899,6 @@ Grid2DB = {
 					["level"] = 9,
 					["size"] = 5,
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
-				["text-up-color"] = {
-					["type"] = "text-color",
-				},
 				["corner-bottom-left"] = {
 					["type"] = "square",
 					["location"] = {
@@ -930,6 +915,21 @@ Grid2DB = {
 						["g"] = 1,
 						["b"] = 1,
 					},
+				},
+				["text-up-color"] = {
+					["type"] = "text-color",
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
 				},
 				["side-bottom"] = {
 					["location"] = {
@@ -1034,15 +1034,15 @@ Grid2DB = {
 					["maxIcons"] = 3,
 					["font"] = "Prototype",
 					["fontSize"] = 12,
+					["iconSize"] = 20,
+					["level"] = 8,
+					["reverseCooldown"] = true,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "TOPLEFT",
 						["point"] = "TOPLEFT",
 						["x"] = 0,
 					},
-					["level"] = 8,
-					["reverseCooldown"] = true,
-					["iconSize"] = 20,
 				},
 				["side-top"] = {
 					["type"] = "text",
@@ -1196,18 +1196,6 @@ Grid2DB = {
 						["b"] = 0,
 					},
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
 				["corner-bottom-left"] = {
 					["disableStack"] = true,
 					["type"] = "icons",
@@ -1221,16 +1209,28 @@ Grid2DB = {
 						["b"] = 0,
 					},
 					["maxIcons"] = 3,
-					["iconSize"] = 20,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["orientation"] = "HORIZONTAL",
 					["level"] = 8,
 					["maxIconsPerRow"] = 3,
-					["orientation"] = "HORIZONTAL",
+					["iconSize"] = 20,
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
 				},
 				["text-up-color"] = {
 					["type"] = "text-color",

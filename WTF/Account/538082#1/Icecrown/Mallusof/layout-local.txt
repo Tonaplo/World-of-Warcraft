@@ -41,3 +41,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: QE_HeaderFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: -27
+Y: 179
+W: 450
+H: 22
