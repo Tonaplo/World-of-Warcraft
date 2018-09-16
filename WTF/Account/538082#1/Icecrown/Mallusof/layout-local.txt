@@ -44,10 +44,10 @@ H: 300
 Frame: AllTheThings-Window-Tradeskills
 FrameLevel: 1
 Anchor: TOP
-X: -146
+X: -140
 Y: -116
-W: 300
-H: 496
+W: 312
+H: 501
 Frame: QE_HeaderFrame
 FrameLevel: 1
 Anchor: BOTTOM
