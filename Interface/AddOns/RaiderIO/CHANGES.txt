@@ -1,22 +1,28 @@
-lightweight tag 226b32535c0d05f7f106cc885cc2b85596b3d823 v201809140600
+lightweight tag 51db909d2c10ba450467983f4f7ba6c888fe641f v201809150600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Fri Sep 14 08:50:43 2018 +0000
+Date:	Sat Sep 15 08:38:39 2018 +0000
 
-commit 226b32535c0d05f7f106cc885cc2b85596b3d823
+commit 51db909d2c10ba450467983f4f7ba6c888fe641f
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Fri Sep 14 08:50:43 2018 +0000
+Date:   Sat Sep 15 08:38:39 2018 +0000
 
     [Raider.IO] Database Refresh
 
-commit b58e20c10d760b06c767139a45f48ddc0bc9f399
+commit c96b4f4be28576d850023fe901c5f2b8e72e3107
 Author: Vlad <vladix@gmail.com>
-Date:   Thu Sep 13 21:47:51 2018 +0200
+Date:   Sat Sep 15 00:52:52 2018 +0200
 
-    - Fixed a bug that didn't respect your option to enable/disable the LFD frame tooltips.
+    - Added back the information about having to reload the UI if client enhancements are enabled or disabled. This is accounted for during loading, so we can't turn it on or off on demand.
+    
+    - Respecting your choice to not show the guild best in your mythic tab if turned off.
+    - If the RaiderIO Client isn't used we will attempt to get a list of the guilds best runs for the week with the old API that still exists. It's a fallback in order to show something instead of nothing for those not using the client program.
 
-commit b58e20c10d760b06c767139a45f48ddc0bc9f399
+commit c96b4f4be28576d850023fe901c5f2b8e72e3107
 Author: Vlad <vladix@gmail.com>
-Date:   Thu Sep 13 21:47:51 2018 +0200
+Date:   Sat Sep 15 00:52:52 2018 +0200
 
-    - Fixed a bug that didn't respect your option to enable/disable the LFD frame tooltips.
+    - Added back the information about having to reload the UI if client enhancements are enabled or disabled. This is accounted for during loading, so we can't turn it on or off on demand.
+    
+    - Respecting your choice to not show the guild best in your mythic tab if turned off.
+    - If the RaiderIO Client isn't used we will attempt to get a list of the guilds best runs for the week with the old API that still exists. It's a fallback in order to show something instead of nothing for those not using the client program.
 
