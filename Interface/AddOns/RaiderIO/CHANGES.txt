@@ -1,28 +1,32 @@
-lightweight tag 51db909d2c10ba450467983f4f7ba6c888fe641f v201809150600
+lightweight tag 0a0f742a9237b540da49114c244ecd70916a7105 v201809160600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Sat Sep 15 08:38:39 2018 +0000
+Date:	Sun Sep 16 09:55:47 2018 +0000
 
-commit 51db909d2c10ba450467983f4f7ba6c888fe641f
+commit 0a0f742a9237b540da49114c244ecd70916a7105
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sat Sep 15 08:38:39 2018 +0000
+Date:   Sun Sep 16 09:55:47 2018 +0000
 
     [Raider.IO] Database Refresh
 
-commit c96b4f4be28576d850023fe901c5f2b8e72e3107
+commit d5c82de15272e40f264ca7f92db119457f906633
 Author: Vlad <vladix@gmail.com>
-Date:   Sat Sep 15 00:52:52 2018 +0200
+Date:   Sun Sep 16 11:03:03 2018 +0200
 
-    - Added back the information about having to reload the UI if client enhancements are enabled or disabled. This is accounted for during loading, so we can't turn it on or off on demand.
+    - Adjust where the Guild Best frame is placed depending if AngryKeystones is present or not. Hopefully avoid overlapping a lot of UI elements this way.
     
-    - Respecting your choice to not show the guild best in your mythic tab if turned off.
-    - If the RaiderIO Client isn't used we will attempt to get a list of the guilds best runs for the week with the old API that still exists. It's a fallback in order to show something instead of nothing for those not using the client program.
+    - Made the Guild Best frame adjust the height to fit the contents better. It previously looked empty and big with less than 5 runs in the frame.
 
-commit c96b4f4be28576d850023fe901c5f2b8e72e3107
+commit d5c82de15272e40f264ca7f92db119457f906633
 Author: Vlad <vladix@gmail.com>
-Date:   Sat Sep 15 00:52:52 2018 +0200
+Date:   Sun Sep 16 11:03:03 2018 +0200
 
-    - Added back the information about having to reload the UI if client enhancements are enabled or disabled. This is accounted for during loading, so we can't turn it on or off on demand.
+    - Adjust where the Guild Best frame is placed depending if AngryKeystones is present or not. Hopefully avoid overlapping a lot of UI elements this way.
     
-    - Respecting your choice to not show the guild best in your mythic tab if turned off.
-    - If the RaiderIO Client isn't used we will attempt to get a list of the guilds best runs for the week with the old API that still exists. It's a fallback in order to show something instead of nothing for those not using the client program.
+    - Made the Guild Best frame adjust the height to fit the contents better. It previously looked empty and big with less than 5 runs in the frame.
+
+commit df86986c072920fef0b6b6fab9ecd0e94bf0da66
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Sat Sep 15 15:40:02 2018 -0500
+
+    EGG update
 

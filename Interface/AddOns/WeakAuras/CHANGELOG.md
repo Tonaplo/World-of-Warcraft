@@ -1,6 +1,6 @@
-# [2.7.9](https://github.com/WeakAuras/WeakAuras2/tree/2.7.9) (2018-09-16)
+# [2.7.10](https://github.com/WeakAuras/WeakAuras2/tree/2.7.10) (2018-09-16)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.7.8...2.7.9)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.7.9...2.7.10)
 
 ## Highlights
 
@@ -10,8 +10,8 @@
 
 ## Commits
 
-Infus (2):
+Buds (2):
 
-- Fix regression in remain time check
-- Fix fallback creation
+- templates: fix 2 wrong spellids
+- may fix migration error
 

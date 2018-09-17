@@ -86,7 +86,9 @@ BigWigs:AddColors("Mythrax the Unraveler", {
 	[273810] = "yellow",
 	[273949] = "red",
 	[274230] = "green",
+	[276922] = {"cyan","green","orange"},
 	[279013] = "red",
+	[279157] = "orange",
 	["stages"] = {"cyan","green"},
 })
 

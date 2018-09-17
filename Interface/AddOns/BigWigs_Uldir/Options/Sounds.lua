@@ -46,7 +46,7 @@ BigWigs:AddSounds("Zek'voz, Herald of N'zoth", {
 	[267180] = "alert",
 	[267239] = "alert",
 	["mythic_adds"] = "long",
-	["stages"] = "Long",
+	["stages"] = "long",
 })
 
 BigWigs:AddSounds("Vectis", {
@@ -85,7 +85,9 @@ BigWigs:AddSounds("Mythrax the Unraveler", {
 	[273810] = "long",
 	[273949] = "warning",
 	[274230] = "info",
+	[276922] = {"info","long"},
 	[279013] = "long",
+	[279157] = "alarm",
 	["stages"] = "long",
 })
 
