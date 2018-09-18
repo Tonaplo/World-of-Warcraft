@@ -129,7 +129,7 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 76018121,
+							["Mallusof"] = 178857,
 							["Thedodrouk"] = 43980,
 						},
 					},
@@ -137,9 +137,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -203,6 +203,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -213,10 +218,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -244,10 +245,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1027,38 +1027,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/g You are not wrong", -- [1]
-							"/g indeed not :)", -- [2]
-							"/p target dungeon mob -> all the shit you need to do to deal with it", -- [3]
-							"/cw Prohibits-Icecrown gz", -- [4]
-							"/p Questionably Epic Dungeon Tips", -- [5]
-							"/p FOOD PLEASE", -- [6]
-							"/g Farming for the Drake recipe?", -- [7]
-							" Got like 15 mins to wait?", -- [8]
-							"/p target dungeon mob -> all the shit you need to do to deal with it", -- [9]
-							"/p Questionably Epic Dungeon Tips", -- [10]
-							"/g Farming for the Drake recipe?", -- [11]
-							"/p target dungeon mob -> all the shit you need to do to deal with it", -- [12]
-							"/g Farming for the Drake recipe?", -- [13]
-							"/cw Bravesirrobn Literally Ion's words from the AMA :) So look forward to it! :)", -- [14]
-							"/p cheer!", -- [15]
-							"/g 3x|cffffd000|Henchant:255074|h[Seal of Versatility]|h|r for 20x Mana Potions?", -- [16]
-							"/g rank 1", -- [17]
-							"/g indeed not :)", -- [18]
-							"/cw Prohibits-Icecrown gz", -- [19]
-							"/p FOOD PLEASE", -- [20]
-							" Got like 15 mins to wait?", -- [21]
-							"/p Questionably Epic Dungeon Tips", -- [22]
-							"/p target dungeon mob -> all the shit you need to do to deal with it", -- [23]
-							"/cw Bravesirrobn Literally Ion's words from the AMA :) So look forward to it! :)", -- [24]
-							"/g 3x|cffffd000|Henchant:255074|h[Seal of Versatility]|h|r for 20x Mana Potions?", -- [25]
-							"/g indeed not :)", -- [26]
-							"/p FOOD PLEASE", -- [27]
-							"/p Questionably Epic Dungeon Tips", -- [28]
-							"/cw Bravesirrobn Literally Ion's words from the AMA :) So look forward to it! :)", -- [29]
-							"/g indeed not :)", -- [30]
-							"/p Questionably Epic Dungeon Tips", -- [31]
-							"/g indeed not :)", -- [32]
+							"/p ffs", -- [1]
+							"/p burst and disc", -- [2]
+							"/p focus", -- [3]
+							"/p Disc when you AoE kill mobs", -- [4]
+							"/p Yeah, I can imagine", -- [5]
+							" On tanks", -- [6]
+							"/cw Prohibits-Icecrown Just doing a WQ after trying to untangle some ugly code", -- [7]
+							"/cw Prohibits-Icecrown Yeah, I'm not sure I'm allowed to do that :P", -- [8]
+							"/cw Prohibits-Icecrown that are several DECADES old", -- [9]
+							"/cw Prohibits-Icecrown not several", -- [10]
+							"/p Questionably Epic Dungeon Tips", -- [11]
+							"/p Didnt think we'd find a group so fast", -- [12]
+							"/p 3", -- [13]
+							"/p ffs", -- [14]
+							"/p focus", -- [15]
+							"/p Yeah, I can imagine", -- [16]
+							"/cw Prohibits-Icecrown Just doing a WQ after trying to untangle some ugly code", -- [17]
+							"/cw Prohibits-Icecrown that are several DECADES old", -- [18]
+							"/p Questionably Epic Dungeon Tips", -- [19]
+							"/p 3", -- [20]
+							"/p focus", -- [21]
+							"/cw Prohibits-Icecrown Just doing a WQ after trying to untangle some ugly code", -- [22]
+							"/p Questionably Epic Dungeon Tips", -- [23]
+							"/p focus", -- [24]
+							"/p Questionably Epic Dungeon Tips", -- [25]
+							"/cw Criptonite-Malygos Good luck selling my pants! :)", -- [26]
+							"/2 WTS|cffffffff|Hitem:152639::::::::120:258::::::|h[Flask of Endless Fathoms]|h|r", -- [27]
+							"/cw Kalrami-Malygos Recipe?", -- [28]
+							"/cw Kalrami-Malygos I'm not selling the recipe, just the flasks", -- [29]
+							"/cw Kalrami-Malygos 2k per", -- [30]
+							"/cw Kalrami-Malygos sure!", -- [31]
+							"/cw Kalrami-Malygos sent", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

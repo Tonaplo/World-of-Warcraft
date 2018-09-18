@@ -61,16 +61,16 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Thedodrouk"] = 43980,
-							["Mallusof"] = 76018121,
+							["Mallusof"] = 79091225,
 						},
 					},
 				},
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -203,14 +203,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -238,16 +244,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1597,38 +1597,38 @@ LUIDB = {
 							"/p restarting wow", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/p target dungeon mob -> all the shit you need to do to deal with it", -- [1]
-							"/cw Prohibits-Icecrown lacking healers?", -- [2]
-							"/cw Prohibits-Icecrown gz", -- [3]
-							" i have my 10 for thw eek", -- [4]
-							"/p Questionably Epic Dungeon Tips", -- [5]
-							"/cw Prohibits-Icecrown :)", -- [6]
-							"/p FOOD PLEASE", -- [7]
-							" also", -- [8]
-							"/g Farming for the Drake recipe?", -- [9]
-							"/cw Prohibits-Icecrown Want me on?", -- [10]
-							" Got like 15 mins to wait?", -- [11]
-							" that's what I did my 10 for the week as", -- [12]
-							"/p target dungeon mob -> all the shit you need to do to deal with it", -- [13]
-							"/cw Prohibits-Icecrown gz", -- [14]
-							"/p Questionably Epic Dungeon Tips", -- [15]
-							"/p FOOD PLEASE", -- [16]
-							"/g Farming for the Drake recipe?", -- [17]
-							" Got like 15 mins to wait?", -- [18]
-							"/p target dungeon mob -> all the shit you need to do to deal with it", -- [19]
-							"/p Questionably Epic Dungeon Tips", -- [20]
-							"/g Farming for the Drake recipe?", -- [21]
-							"/p target dungeon mob -> all the shit you need to do to deal with it", -- [22]
-							"/g Farming for the Drake recipe?", -- [23]
-							"/cw Bravesirrobn Literally Ion's words from the AMA :) So look forward to it! :)", -- [24]
-							"/cw Bravesirrobn-Icecrown :)", -- [25]
-							"/p cheer!", -- [26]
-							"/g Hey Luceo", -- [27]
-							"/g 3x|cffffd000|Henchant:255074|h[Seal of Versatility]|h|r for 20x Mana Potions?", -- [28]
-							"/g oh wait", -- [29]
-							"/g rank 1", -- [30]
-							"/g You are not wrong", -- [31]
-							"/g indeed not :)", -- [32]
+							"/p Questionably Epic Dungeon Tips", -- [1]
+							"/g You are not wrong", -- [2]
+							"/p I need like", -- [3]
+							"/p 3 mins", -- [4]
+							"/p Didnt think we'd find a group so fast", -- [5]
+							"/p b", -- [6]
+							"/p alright", -- [7]
+							"/p all r?", -- [8]
+							"/p 3", -- [9]
+							"/p 2", -- [10]
+							"/p 1", -- [11]
+							"/p BURSTING", -- [12]
+							"/p ffs", -- [13]
+							"/p gusy", -- [14]
+							"/p burst and disc", -- [15]
+							"/p I cant hit dead shit", -- [16]
+							"/p focus", -- [17]
+							"/p jesus", -- [18]
+							"/p Disc when you AoE kill mobs", -- [19]
+							"/p on Bursting", -- [20]
+							"/p Yeah, I can imagine", -- [21]
+							" Supposed to be, yeah", -- [22]
+							" On tanks", -- [23]
+							"/g Once per cycle", -- [24]
+							"/cw Prohibits-Icecrown Just doing a WQ after trying to untangle some ugly code", -- [25]
+							"/cw Prohibits-Icecrown There are some pretty hilarious comments in here tbh :P", -- [26]
+							"/cw Prohibits-Icecrown Yeah, I'm not sure I'm allowed to do that :P", -- [27]
+							"/cw Prohibits-Icecrown But suffice to say there are code snippets with the words \"HACK, FIXME LATER\"", -- [28]
+							"/cw Prohibits-Icecrown that are several DECADES old", -- [29]
+							"/cw Prohibits-Icecrown Well", -- [30]
+							"/cw Prohibits-Icecrown not several", -- [31]
+							"/cw Prohibits-Icecrown more than a decade", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
