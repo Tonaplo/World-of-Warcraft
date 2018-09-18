@@ -9,5 +9,5 @@ BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 LittleWigs: enabled
 BigWigs_Uldir: enabled
-QE-DungeonTips: enabled
+QE-DungeonTips: disabled
 XLoot_Options: enabled

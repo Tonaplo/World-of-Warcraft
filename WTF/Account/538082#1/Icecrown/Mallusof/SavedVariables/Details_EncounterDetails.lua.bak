@@ -1518,6 +1518,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Marksopp-Lightbringer",
 		},
+		[224729] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Remnant of Corruption",
+		},
 		[257593] = {
 			["school"] = 8,
 			["token"] = {
@@ -2785,6 +2792,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Healing Tide Totem",
 		},
+		[267803] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[267700] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -2864,15 +2877,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
-		[269266] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Demolishing Terror",
-		},
 		[271539] = {
 			["school"] = 1,
 			["token"] = {
@@ -2880,14 +2884,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Marksopp-Lightbringer",
 		},
-		[272542] = {
-			["school"] = 1,
+		[269493] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ashvane Sniper",
+			["source"] = "Coin-Operated Crowd Pummeler",
 		},
 		[275014] = {
 			["school"] = 16,
@@ -2899,13 +2903,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Viq'Goth",
 		},
-		[269238] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Asahina-Lightbringer",
-		},
 		[257882] = {
 			["school"] = 16,
 			["token"] = {
@@ -2914,12 +2911,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hadal Darkfathom",
 		},
+		[269238] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Asahina-Lightbringer",
+		},
 		[268443] = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Dread Cannon",
+		},
+		[272471] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Dread Captain Lockwood",
 		},
 		[274098] = {
 			["school"] = 1,
@@ -2945,27 +2957,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Overseer Korgus",
 		},
-		[272471] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Dread Captain Lockwood",
-		},
 		[256005] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Sharkbait",
-		},
-		[2565] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sheilyana-Sargeras",
 		},
 		[281388] = {
 			["school"] = 1,
@@ -2974,6 +2971,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ashvane Cannoneer",
 		},
+		[2565] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sheilyana-Sargeras",
+		},
 		[273556] = {
 			["school"] = 1,
 			["token"] = {
@@ -2981,6 +2985,15 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Animated Ichor",
+		},
+		[257326] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Chopper Redhook",
 		},
 		[276146] = {
 			["school"] = 2,
@@ -3021,14 +3034,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sharkbait",
 		},
-		[257326] = {
+		[257292] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Chopper Redhook",
+			["source"] = "Irontide Cleaver",
 		},
 		[255591] = {
 			["school"] = 1,
@@ -3046,14 +3059,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zek'voz",
 		},
-		[257292] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[52212] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Irontide Cleaver",
+			["source"] = "Marksopp-Lightbringer",
 		},
 		[274358] = {
 			["school"] = 1,
@@ -3079,13 +3090,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mogul Razdunk",
 		},
-		[52212] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Marksopp-Lightbringer",
-		},
 		[188499] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3094,14 +3098,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Êlwen-KhazModan",
-		},
-		[164545] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Mistaaytch-Lightbringer",
 		},
 		[256199] = {
 			["school"] = 1,
@@ -3112,6 +3108,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Overseer Korgus",
+		},
+		[164545] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
 		},
 		[256038] = {
 			["school"] = 1,
@@ -3140,15 +3144,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Overseer Korgus",
 		},
-		[57984] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Primal Fire Elemental",
-		},
 		[257028] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -3159,6 +3154,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Knight Captain Valyri",
 		},
+		[57984] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Primal Fire Elemental",
+		},
 		[259474] = {
 			["school"] = 4,
 			["token"] = {
@@ -3166,6 +3170,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Rixxa Fluxflame",
+		},
+		[260829] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Homing Missile Stalker",
 		},
 		[260708] = {
 			["school"] = 1,
@@ -3176,13 +3188,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Murtag-Sargeras",
 		},
-		[260829] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[275540] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Homing Missile Stalker",
+			["source"] = "Murtag-Sargeras",
 		},
 		[275129] = {
 			["school"] = 40,
@@ -3209,13 +3221,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Overseer Korgus",
 		},
-		[275540] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[259856] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Murtag-Sargeras",
+			["source"] = "Rixxa Fluxflame",
 		},
 		[265923] = {
 			["school"] = 1,
@@ -3225,13 +3237,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Golden Serpent",
 		},
-		[260669] = {
+		[259853] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Rixxa Fluxflame",
 		},
@@ -3243,22 +3254,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mistaaytch-Lightbringer",
 		},
-		[259853] = {
-			["school"] = 8,
+		[205180] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kahoots-Proudmoore",
+		},
+		[267787] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Rixxa Fluxflame",
-		},
-		[259856] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rixxa Fluxflame",
+			["source"] = "MOTHER",
 		},
 		[265157] = {
 			["school"] = 4,
@@ -3324,13 +3338,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[267787] = {
-			["school"] = 4,
+		[205708] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "MOTHER",
+			["source"] = "Asahina-Lightbringer",
 		},
 		[5302] = {
 			["school"] = 1,
@@ -3340,21 +3354,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sheilyana-Sargeras",
 		},
-		[205708] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[276199] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Marksopp-Lightbringer",
+		},
+		[267878] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Asahina-Lightbringer",
-		},
-		[258622] = {
-			["school"] = 8,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Azerokk",
+			["source"] = "Wind Tunnel",
 		},
 		[260455] = {
 			["school"] = 1,
@@ -3366,14 +3380,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blood Tick",
 		},
-		[267878] = {
-			["school"] = 1,
+		[257495] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Wind Tunnel",
+			["source"] = "The Sand Queen",
 		},
 		[262347] = {
 			["school"] = 8,
@@ -3387,13 +3402,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Coin-Operated Crowd Pummeler",
 		},
-		[272115] = {
-			["school"] = 32,
+		[79206] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mythrax the Unraveler",
+			["source"] = "Jhasu-Lightbringer",
 		},
 		[266951] = {
 			["school"] = 1,
@@ -3452,16 +3468,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Asahina-Lightbringer",
 		},
-		[257495] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "The Sand Queen",
-		},
 		[257617] = {
 			["school"] = 8,
 			["token"] = {
@@ -3478,22 +3484,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Sand Queen",
 		},
-		[259732] = {
-			["school"] = 40,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Sporecaller Zancha",
-		},
-		[54149] = {
-			["school"] = 2,
+		[275686] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kalithumos-Tichondrius",
+			["source"] = "Coalesced Blood",
 		},
 		[256137] = {
 			["school"] = 4,
@@ -3502,10 +3500,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azerite Footbomb",
 		},
-		[20473] = {
+		[54149] = {
 			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
@@ -3517,6 +3516,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cragmaw the Infested",
 		},
+		[20473] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
+		},
 		[273316] = {
 			["school"] = 1,
 			["token"] = {
@@ -3526,13 +3532,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nazmani Crusher",
 		},
-		[5394] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Jhasu-Lightbringer",
-		},
 		[250258] = {
 			["school"] = 8,
 			["token"] = {
@@ -3540,6 +3539,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Vol'kaal",
+		},
+		[5394] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Jhasu-Lightbringer",
+		},
+		[274230] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mythrax the Unraveler",
 		},
 		[260202] = {
 			["school"] = 1,
@@ -3558,14 +3573,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azerokk",
 		},
-		[274230] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[258622] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mythrax the Unraveler",
+			["source"] = "Azerokk",
 		},
 		[273350] = {
 			["school"] = 32,
@@ -3575,13 +3589,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Nazmani Bloodhexer",
-		},
-		[276199] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Marksopp-Lightbringer",
 		},
 		[255579] = {
 			["school"] = 1,
@@ -3610,6 +3617,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cragmaw the Infested",
 		},
+		[642] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Voinic-Lightbringer",
+		},
 		[272584] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3619,14 +3635,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volatile Droplet",
 		},
-		[642] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[259718] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Voinic-Lightbringer",
+			["source"] = "Sporecaller Zancha",
 		},
 		[274119] = {
 			["school"] = 1,
@@ -3653,23 +3669,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Asahina-Lightbringer",
 		},
-		[259718] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[259732] = {
+			["school"] = 40,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Sporecaller Zancha",
-		},
-		[275686] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Coalesced Blood",
 		},
 		[6343] = {
 			["school"] = 1,
@@ -3678,6 +3685,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Sheilyana-Sargeras",
+		},
+		[280400] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Asahina-Lightbringer",
 		},
 		[272586] = {
 			["school"] = 4,
@@ -3694,14 +3709,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Mistaaytch-Lightbringer",
-		},
-		[280400] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Asahina-Lightbringer",
 		},
 		[1064] = {
 			["school"] = 8,
@@ -3745,19 +3752,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aka'ali the Conqueror",
 		},
-		[260333] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Cragmaw the Infested",
-		},
 		[222031] = {
 			["school"] = 127,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Êlwen-KhazModan",
+		},
+		[260333] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Cragmaw the Infested",
 		},
 		[115804] = {
 			["school"] = 1,
@@ -3775,14 +3782,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[277960] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kesak-Lightbringer",
-		},
 		[273432] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -3791,6 +3790,21 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Minion of Zul",
+		},
+		[277960] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kesak-Lightbringer",
+		},
+		[271656] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
 		},
 		[270288] = {
 			["school"] = 1,
@@ -3801,20 +3815,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blood Storm",
 		},
-		[271656] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kalithumos-Tichondrius",
-		},
-		[260334] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Cragmaw the Infested",
-		},
 		[275441] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3824,13 +3824,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[258544] = {
+		[260334] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Jes Howlis",
+			["source"] = "Cragmaw the Infested",
+		},
+		[271843] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Jhasu-Lightbringer",
+		},
+		[269266] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Demolishing Terror",
 		},
 		[256358] = {
 			["school"] = 1,
@@ -3870,14 +3886,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zul",
 		},
-		[269301] = {
+		[267239] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Unbound Abomination",
+			["source"] = "Warped Projection",
 		},
 		[278888] = {
 			["school"] = 8,
@@ -3921,13 +3936,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mythrax the Unraveler",
 		},
-		[265781] = {
-			["school"] = 8,
+		[257402] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "The Golden Serpent",
+			["source"] = "Harlan Sweete",
 		},
 		[267427] = {
 			["school"] = 32,
@@ -3976,13 +3991,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vanquished Tendril of G'huun",
 		},
-		[271843] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[258544] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Jhasu-Lightbringer",
+			["source"] = "Jes Howlis",
 		},
 		[55078] = {
 			["school"] = 32,
@@ -4002,13 +4017,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Projection of Yogg-Saron",
 		},
-		[267239] = {
+		[269301] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Warped Projection",
+			["source"] = "Unbound Abomination",
 		},
 		[273282] = {
 			["school"] = 32,
@@ -4074,20 +4090,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[268587] = {
-			["school"] = 1,
+		[274396] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "King Dazar",
+			["source"] = "Animated Ichor",
 		},
-		[257402] = {
-			["school"] = 1,
+		[265781] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Harlan Sweete",
+			["source"] = "The Golden Serpent",
 		},
 		[196941] = {
 			["school"] = 2,
@@ -4161,21 +4180,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vol'kaal",
 		},
-		[257305] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[52042] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Healing Stream Totem",
+		},
+		[207400] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Harlan Sweete",
-		},
-		[276439] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Vectis",
+			["source"] = "Jhasu-Lightbringer",
 		},
 		[187707] = {
 			["school"] = 1,
@@ -4184,12 +4202,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kholvinski-EmeraldDream",
 		},
-		[263140] = {
-			["school"] = 8,
+		[276439] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kholvinski-EmeraldDream",
+			["source"] = "Vectis",
 		},
 		[271579] = {
 			["school"] = 8,
@@ -4214,23 +4233,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "G'huun",
 		},
-		[207400] = {
+		[263140] = {
 			["school"] = 8,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Jhasu-Lightbringer",
+			["source"] = "Kholvinski-EmeraldDream",
 		},
-		[274396] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[268587] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Animated Ichor",
+			["source"] = "King Dazar",
 		},
 		[255835] = {
 			["school"] = 32,
@@ -4241,12 +4256,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Priestess Alun'za",
 		},
-		[52042] = {
-			["school"] = 8,
+		[257305] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Healing Stream Totem",
+			["source"] = "Harlan Sweete",
 		},
 		[269279] = {
 			["school"] = 1,
@@ -4650,20 +4666,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harlan Sweete",
 		},
+		[256493] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Azerite Footbomb",
+		},
 		[183811] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Kalithumos-Tichondrius",
-		},
-		[257814] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Jes Howlis",
 		},
 		[277732] = {
 			["school"] = 40,
@@ -4673,6 +4689,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Sporecaller Zancha",
+		},
+		[257814] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Jes Howlis",
 		},
 		[256706] = {
 			["school"] = 1,
@@ -4689,6 +4713,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "G'huun",
 		},
+		[256128] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Overseer Korgus",
+		},
 		[260067] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -4698,22 +4729,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Bobby Howlis",
-		},
-		[256128] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Overseer Korgus",
-		},
-		[272457] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Sporecaller Zancha",
 		},
 		[257407] = {
 			["school"] = 1,
@@ -4725,14 +4740,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rezan",
 		},
-		[205180] = {
+		[272115] = {
 			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kahoots-Proudmoore",
+			["source"] = "Mythrax the Unraveler",
+		},
+		[272457] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sporecaller Zancha",
+		},
+		[257791] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Jes Howlis",
 		},
 		[257337] = {
 			["school"] = 8,
@@ -4745,21 +4775,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Coin-Operated Crowd Pummeler",
 		},
-		[257791] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Jes Howlis",
-		},
-		[256493] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Azerite Footbomb",
-		},
 		[49998] = {
 			["school"] = 1,
 			["token"] = {
@@ -4767,6 +4782,16 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Marksopp-Lightbringer",
+		},
+		[260669] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rixxa Fluxflame",
 		},
 		[271784] = {
 			["school"] = 1,
@@ -4803,15 +4828,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Earthrager",
-		},
-		[79206] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Jhasu-Lightbringer",
 		},
 		[271526] = {
 			["school"] = 1,
@@ -4942,14 +4958,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kula the Butcher",
 		},
-		[269493] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[272542] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Coin-Operated Crowd Pummeler",
+			["source"] = "Ashvane Sniper",
 		},
 		[262287] = {
 			["school"] = 4,
@@ -4961,13 +4977,259 @@ EncounterDetailsDB = {
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Viq'Goth",
+			{
+				0.244999999999891, -- [1]
+				"Virulent strain detected. Neutralize with extreme prejudice.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				6.16300000000047, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				11.0619999999999, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				20.7950000000001, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				29.7269999999999, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				34.2179999999999, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				53.6199999999999, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				58.4829999999993, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				64.9319999999998, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				77.0880000000007, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				81.5860000000003, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				101.045000000001, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				105.893999999999, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				112.401000000001, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				124.561000000001, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [15]
+			{
+				124.561000000001, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				129.410000000001, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				135.509999999999, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				146.464000000001, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				155.000000000001, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [20]
+			{
+				155.000000000001, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				163.369, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				168.419000000001, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				176.920999999999, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				185.410000000001, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [25]
+			{
+				185.410000000001, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				197.576, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				202.453, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				208.525000000001, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				215.830999999999, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [30]
+			{
+				215.830999999999, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				231.517000000001, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				236.452, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				242.509000000001, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				248.61, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				248.61, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				265.638, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				270.398, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				276.568, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				282.658, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [40]
+			{
+				282.658, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [41]
+			["boss"] = "MOTHER",
 		}, -- [1]
 		{
-			["boss"] = "Hadal Darkfathom",
+			["boss"] = "MOTHER",
 		}, -- [2]
 		{
-			["boss"] = "Dread Captain Lockwood",
+			["boss"] = "Viq'Goth",
 		}, -- [3]
 	},
 }

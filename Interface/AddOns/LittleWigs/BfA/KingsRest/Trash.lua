@@ -394,7 +394,7 @@ function mod:InduceRegeneration(args)
 end
 
 function mod:InduceRegenerationApplied(args)
-	if self:mobId(args.sourceGUID) ~= 134251 then return end -- filter out Spellsteal
+	if self:MobId(args.sourceGUID) ~= 134251 then return end -- filter out Spellsteal
 	self:TargetBar(args.spellId, 10, args.destName)
 	self:Message2(args.spellId, "cyan", CL.other:format(args.spellName, args.destName))
 	self:PlaySound(args.spellId, "info")
@@ -490,7 +490,7 @@ function mod:BloodedLeap(args)
 end
 
 -- Spectral Witch Doctor
-function mod:HealingTideTotem(args)
+function mod:HealingTideTotem()
 	self:Message2("healing_tide_totem", "red", self:SpellName(L.healing_tide_totem), L.healing_tide_totem_icon) -- 5th arg is ignored if 4th is a number
 
 	if isThrottled("healing_tide_totem") then return end

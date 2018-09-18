@@ -48,7 +48,7 @@ AllTheThings.Locales.enUS = {
 	["ITEM_ID_ADDED"] = "%s (%d) was added to your collection.";
 	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection.";
 	["ITEM_ID_ADDED_SHARED"] = "%s (%d) [+%d] were added to your collection.";
-	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection.";
+	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection. ";
 	["ITEM_ID_REMOVED"] = "%s (%d) was removed from your collection.";
 	["ITEM_ID_REMOVED_SHARED"] = "%s (%d) [+%d] were removed from your collection.";
 
@@ -800,7 +800,7 @@ AllTheThings.Locales.enUS = {
 		[-10048] = "Interface\\Icons\\buff_feltreasures",						-- Mage Tower
 		[-10049] = "Interface\\Icons\\buff_forcesoforder",						-- Command Center
 		[-10050] = "Interface\\Icons\\buff_epichunter",							-- Nether Disruptor
-		[-100001] = "Interface\\Icons\\inv_artifact_tome01", 					-- AK Research Book
+		[-10067] = "Interface\\Icons\\inv_artifact_tome01", 					-- AK Research Book
 		[-10051] = "Interface\\Icons\\Paladin_Protection",						-- 
 		[-10052] = "Interface\\Icons\\Paladin_Protection",						-- 
 		[-10053] = "Interface\\Icons\\Paladin_Protection",						-- 
@@ -1636,20 +1636,33 @@ AllTheThings.Locales.enUS = {
 		[-10058] = select(1,GetCategoryInfo(15283)),		-- World
 		[-10059] = select(1,GetCategoryInfo(15302)),		-- Pandaria Scenarios
 		[-10060] = select(2,GetAchievementInfo(7333)),		-- The Four Celestials
+		[-10061] = BATTLE_PET_BREED_QUALITY1,			-- "Poor";
+		[-10062] = BATTLE_PET_BREED_QUALITY2,			-- "Common";
+		[-10063] = BATTLE_PET_BREED_QUALITY3,			-- "Uncommon";
+		[-10064] = BATTLE_PET_BREED_QUALITY4,			-- "Rare";
+		[-10065] = BATTLE_PET_BREED_QUALITY5,			-- "Epic";
+		[-10066] = BATTLE_PET_BREED_QUALITY6,			-- "Legendary";
+		[-10067] = ITEM_QUALITY6_DESC, 				-- Artifact
+		[-10068] = OPTION_TOOLTIP_ANIMATION,			-- PLACE_HOLDER
 		
-		 [-99995] = BATTLE_PET_BREED_QUALITY1,			-- "Poor";
-		 [-99996] = BATTLE_PET_BREED_QUALITY2,			-- "Common";
-		 [-99997] = BATTLE_PET_BREED_QUALITY3,			-- "Uncommon";
-		 [-99998] = BATTLE_PET_BREED_QUALITY4,			-- "Rare";
-		 [-99999] = BATTLE_PET_BREED_QUALITY5,			-- "Epic";
-		[-100000] = BATTLE_PET_BREED_QUALITY6,			-- "Legendary";
-		[-100001] = ITEM_QUALITY6_DESC, 				-- Artifact
-		[-100002] = OPTION_TOOLTIP_ANIMATION,			-- PLACE_HOLDER
+		--9000+ are reserved for town names.  If you use one make sure to attach an icon (either here or in the file).
+		
+		[-90000] = "Lunarwing Shallows",
+		[-90001] = "Lostlight Grotto",
+		[-90002] = C_Map.GetAreaInfo(9655),							-- Krazzlefrazz Outpost
+		[-90003] = select(1,GetAchievementCriteriaInfo(12556,11)),	-- Waning Glacier
+		[-90004] = "Anyport",										-- Currently no localization calls
+		 
+		 
+		 
+		 
+		
+		
+		
 
 -- Custom Subzone Names that we can't pull from the API because Blizz hates us
   -- Val'sharah
-		[-101801] = "Lunarwing Shallows",
-		[-101802] = "Lostlight Grotto",
+		
 
 	},
 
@@ -2660,9 +2673,9 @@ AllTheThings.Locales.enUS = {
 		[297892] = select(1,GetAchievementCriteriaInfo(12995,4)), -- Runebound Chest
 		[297893] = select(1,GetAchievementCriteriaInfo(12995,5)), -- Runebound Coffer
 		[298920] = select(1,GetAchievementCriteriaInfo(12995,10)), -- Stolen Thornspeaker Cache
-
-		
-		
+		[298858] = "Wanted Poster",
+		[298849] = "Wanted Poster",
+		[288214] = "Wanted Poster",
 		
 		
 		[9999999] = "Treasure Chest",	-- Because we have to make up on our own objectID's until information rolls in.  Start with this one and go down the list when entering.
@@ -2749,7 +2762,7 @@ AllTheThings.Locales.enUS = {
 		{1, "|CFFFF0000The source of this item has been removed or was never available to players.|r", "Never Available (1)"}, -- No Hope -- 1
 		{1, "|CFFFF0000The source of this item has been removed and the item is Bind on Pickup or Bind on Account.|r", "BoP / BoA Item (2)"}, -- No Hope -- 2
 		{1, "|CFFFF0000This was obtainable only during a special promotion or one time event by Blizzard.|r", "Blizzard Promotion (3)"}, -- No Hope -- 3
-		{1, "|CFFFF0000This item is purchaseable from a vendor provided you meet certain qualifications.|r", "Legacy Achievement (4)"},	-- Little Hope -- 4
+		{1, "|CFFFF0000The achievement criteria required to obtain these rewards is no longer obtainable or was only available for a limited time.|r", "Legacy Achievement (4)"},	-- Little Hope -- 4
 		{2, "|CFFFF0000The recipe to learn to craft this item has been removed, the item is bind on pickup and only available to a crafter with the recipe.|r", "Recipe: BoP Craftable Removed (5)"}, -- Little Hope -- 5
 		{2, "|CFFFF0000Item is included in Collector's Edition's, you can still find these for sale online in very low quantities.|r", "Collector's Edition (6)"}, -- Little Hope -- 6
 		{3, "|CFFFF0000The source of this item has been removed, but the item is Bind on Equip or a cageable pet.|r", "BoE Item (7)"}, -- There is Hope -- 7
