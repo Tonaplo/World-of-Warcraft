@@ -60,17 +60,17 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Thedodrouk"] = 53583,
-							["Mallusof"] = 5149673,
+							["Thedodrouk"] = 73343,
+							["Mallusof"] = 399112393,
 						},
 					},
 				},
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -98,8 +98,8 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
-							["Mallusof"] = 1162234125,
 							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -203,6 +203,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -213,10 +218,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -244,10 +245,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -933,12 +933,6 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Animation"] = "None",
@@ -947,11 +941,17 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 					},
-					["Minimap"] = {
+					["MicroMenu"] = {
 						["IsShown"] = true,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1078,13 +1078,7 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1096,17 +1090,23 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.12, -- [1]
@@ -1240,7 +1240,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1252,19 +1258,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1403,17 +1403,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
 					},
 					["raidborder"] = {
 						0.901960784313726, -- [1]
@@ -1421,13 +1415,19 @@ LUIDB = {
 						0.901960784313726, -- [3]
 						0.300000011920929, -- [4]
 					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1597,38 +1597,38 @@ LUIDB = {
 							"/p restarting wow", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/i Warriors shout please :)", -- [1]
-							"/s OMG", -- [2]
-							"/s ANCHOR WEEED", -- [3]
-							"/s :P", -- [4]
-							"/cw Mitsiamh-Malygos so I'm trying to trade instead", -- [5]
-							"/cw Celedhring-Icecrown hmmm, should still be fine", -- [6]
-							"/cw Celedhring-Icecrown First boss is ez tho", -- [7]
-							"/cw Celedhring-Icecrown well, the bosses are not easy, tho", -- [8]
-							"/cw Celedhring-Icecrown hmmm, should still be fine", -- [9]
-							"/cw Celedhring-Icecrown well, the bosses are not easy, tho", -- [10]
-							"/i shout please, warriors :)_", -- [11]
-							"/g You'll get flasks in return", -- [12]
-							"/g Int/Str?", -- [13]
-							"/cw Celedhring-Icecrown First boss is ez tho", -- [14]
-							"/i shout please, warriors :)_", -- [15]
-							"/g Int/Str?", -- [16]
-							"/i shout please, warriors :)_", -- [17]
-							"/i Warriors shout please :)", -- [18]
-							"/s ANCHOR WEEED", -- [19]
-							"/cw Mitsiamh-Malygos so I'm trying to trade instead", -- [20]
-							"/cw Celedhring-Icecrown First boss is ez tho", -- [21]
-							"/cw Celedhring-Icecrown hmmm, should still be fine", -- [22]
-							"/i shout please, warriors :)_", -- [23]
-							"/g Int/Str?", -- [24]
-							"/i shout please, warriors :)_", -- [25]
-							"/i Warriors shout please :)", -- [26]
-							"/cw Mitsiamh-Malygos so I'm trying to trade instead", -- [27]
-							"/cw Celedhring-Icecrown hmmm, should still be fine", -- [28]
-							"/g Int/Str?", -- [29]
-							"/i Warriors shout please :)", -- [30]
-							"/cw Celedhring-Icecrown hmmm, should still be fine", -- [31]
-							"/i Warriors shout please :)", -- [32]
+							"/hsw", -- [1]
+							"/cw Anvella-Malygos nps :)", -- [2]
+							"/i dude", -- [3]
+							"/g ?", -- [4]
+							"/cw Anvella-Malygos nps :)", -- [5]
+							"/i dude", -- [6]
+							"/cw Anvella-Malygos nps :)", -- [7]
+							"/hsw", -- [8]
+							"/cw Anvella-Malygos nps :)", -- [9]
+							"/i dude", -- [10]
+							"/4 Pirate Ship?", -- [11]
+							"/g ?", -- [12]
+							"/macro", -- [13]
+							"/cw Anvella-Malygos nps :)", -- [14]
+							"/hsw", -- [15]
+							"/cw Anvella-Malygos nps :)", -- [16]
+							"/i dude", -- [17]
+							"/g ?", -- [18]
+							"/cw Anvella-Malygos nps :)", -- [19]
+							"/i dude", -- [20]
+							"/cw Anvella-Malygos nps :)", -- [21]
+							"/hsw", -- [22]
+							"/i dude", -- [23]
+							"/g ?", -- [24]
+							"/cw Anvella-Malygos nps :)", -- [25]
+							"/i dude", -- [26]
+							"/cw Anvella-Malygos nps :)", -- [27]
+							"/hsw", -- [28]
+							"/g ?", -- [29]
+							"/i dude", -- [30]
+							"/hsw", -- [31]
+							"/i dude", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
@@ -1922,11 +1922,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -1975,11 +1975,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -2011,11 +2011,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -2206,9 +2206,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2274,11 +2274,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Korugen - Proudmoore"] = {
@@ -2304,9 +2304,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2449,14 +2449,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
@@ -2468,7 +2468,7 @@ LUIDB = {
 		["Thedodrouk - Icecrown"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",

@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Lava Guard Gordoth",
+		}, -- [1]
+		{
+			["boss"] = "Slagmaw",
+		}, -- [2]
+		{
+			["boss"] = "Dark Shaman Koranthal",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[119999] = {
 			["school"] = 1,
@@ -42,28 +53,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Shaman Koranthal",
 		},
-		[119405] = {
+		[120024] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Adarogg",
-		},
-		[120166] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Corrupted Reaver",
-		},
-		[119420] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Adarogg",
+			["source"] = "Lava Guard Gordoth",
+		},
+		[119434] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Slagmaw",
+		},
+		[119964] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dark Shaman Koranthal",
 		},
 		[50420] = {
 			["school"] = 1,
@@ -74,39 +85,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lava Guard Gordoth",
 		},
-		[119964] = {
-			["school"] = 32,
+		[119420] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dark Shaman Koranthal",
-		},
-		[119434] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Slagmaw",
-		},
-		[120024] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lava Guard Gordoth",
+			["source"] = "Adarogg",
 		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Lava Guard Gordoth",
-		}, -- [1]
-		{
-			["boss"] = "Slagmaw",
-		}, -- [2]
-		{
-			["boss"] = "Dark Shaman Koranthal",
-		}, -- [3]
+		[120166] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Corrupted Reaver",
+		},
+		[119405] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Adarogg",
+		},
 	},
 }

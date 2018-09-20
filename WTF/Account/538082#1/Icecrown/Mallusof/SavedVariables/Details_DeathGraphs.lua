@@ -5,7 +5,112 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "G'huun",
 		["id"] = 2147,
-		["diff"] = 14,
+		["player_db"] = {
+			["Kholvinski-EmeraldDream"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Kholvinski-EmeraldDream",
+				["overall"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Voinic-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Marksopp-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Êlwen-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Mallusof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mallusof",
+				["overall"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Sheilyana-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Murtag-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Kahoots-Proudmoore",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 8,
@@ -14,123 +119,67 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1861,
 			["try_number"] = 1,
 			["name"] = "G'huun",
-			["encounter"] = "G'huun",
-			["ej_instance_id"] = 1031,
 			["diff"] = 14,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "G'huun",
 		},
-		["player_db"] = {
-			["Kholvinski-EmeraldDream"] = {
-				["name"] = "Kholvinski-EmeraldDream",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["name"] = "Voinic-Lightbringer",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["name"] = "Êlwen-KhazModan",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 14,
 	},
 	["216914"] = {
 		["hash"] = "216914",
 		["type"] = "deaths",
 		["name"] = "Zek'voz",
 		["id"] = 2169,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Mallusof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mallusof",
+				["overall"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Murtag-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Kahoots-Proudmoore",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -140,67 +189,35 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Zek'voz",
 			["diff"] = 14,
-			["id"] = 2136,
 			["ej_instance_id"] = 1031,
+			["id"] = 2136,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 14,
 	},
 	["216814"] = {
 		["hash"] = "216814",
 		["type"] = "deaths",
 		["name"] = "Taloc",
 		["id"] = 2168,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -210,35 +227,19 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Taloc",
 			["diff"] = 14,
-			["id"] = 2144,
 			["ej_instance_id"] = 1031,
+			["id"] = 2144,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 14,
 	},
 	["219514"] = {
 		["hash"] = "219514",
 		["type"] = "deaths",
 		["name"] = "Zul",
 		["id"] = 2195,
-		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
@@ -246,19 +247,107 @@ DeathGraphsDBDeaths = {
 			["id"] = 2145,
 			["mapid"] = 1861,
 			["name"] = "Zul",
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Zul",
 			["diff"] = 14,
+			["encounter"] = "Zul",
+			["ej_instance_id"] = 1031,
 		},
-		["player_db"] = {
-		},
+		["diff"] = 14,
 	},
 	["219414"] = {
 		["hash"] = "219414",
 		["type"] = "deaths",
 		["name"] = "Mythrax",
 		["id"] = 2194,
-		["diff"] = 14,
+		["player_db"] = {
+			["Kholvinski-EmeraldDream"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Kholvinski-EmeraldDream",
+				["overall"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Voinic-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Mallusof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mallusof",
+				["overall"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Sheilyana-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Murtag-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Kahoots-Proudmoore",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 7,
@@ -267,107 +356,19 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1861,
 			["try_number"] = 1,
 			["name"] = "Mythrax",
-			["encounter"] = "Mythrax",
-			["ej_instance_id"] = 1031,
 			["diff"] = 14,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Mythrax",
 		},
-		["player_db"] = {
-			["Kholvinski-EmeraldDream"] = {
-				["name"] = "Kholvinski-EmeraldDream",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["name"] = "Voinic-Lightbringer",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 14,
 	},
 	["216815"] = {
 		["hash"] = "216815",
 		["type"] = "deaths",
 		["name"] = "Taloc",
 		["id"] = 2168,
-		["diff"] = 15,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -377,19 +378,19 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 2,
 			["name"] = "Taloc",
 			["diff"] = 15,
-			["id"] = 2144,
 			["ej_instance_id"] = 1031,
+			["id"] = 2144,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
+		["diff"] = 15,
 	},
 	["214614"] = {
 		["hash"] = "214614",
 		["type"] = "deaths",
 		["name"] = "Fetid Devourer",
 		["id"] = 2146,
-		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -398,19 +399,91 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1861,
 			["try_number"] = 1,
 			["name"] = "Fetid Devourer",
-			["encounter"] = "Fetid Devourer",
-			["ej_instance_id"] = 1031,
 			["diff"] = 14,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Fetid Devourer",
 		},
-		["player_db"] = {
-		},
+		["diff"] = 14,
 	},
 	["216614"] = {
 		["hash"] = "216614",
 		["type"] = "deaths",
 		["name"] = "Vectis",
 		["id"] = 2166,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Murtag-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Sheilyana-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Marksopp-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Kahoots-Proudmoore",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -419,91 +492,27 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1861,
 			["try_number"] = 1,
 			["name"] = "Vectis",
-			["encounter"] = "Vectis",
-			["ej_instance_id"] = 1031,
 			["diff"] = 14,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Vectis",
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 14,
 	},
 	["216714"] = {
 		["hash"] = "216714",
 		["type"] = "deaths",
 		["name"] = "MOTHER",
 		["id"] = 2167,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mirwen-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Mirwen-Lightbringer",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -513,20 +522,11 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "MOTHER",
 			["diff"] = 14,
-			["id"] = 2141,
 			["ej_instance_id"] = 1031,
+			["id"] = 2141,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Mirwen-Lightbringer"] = {
-				["name"] = "Mirwen-Lightbringer",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 14,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -535,30 +535,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "G'huun",
 		["id"] = 2147,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 8,
-			["zone"] = "Uldir",
-			["id"] = 2122,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "G'huun",
-			["encounter"] = "G'huun",
-			["ej_instance_id"] = 1031,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Kholvinski-EmeraldDream"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 5,
 				["points"] = 480,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -571,18 +559,18 @@ DeathGraphsDBEndurance = {
 						"Blighted Ground (DoT) |cFFFF333317,132|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "DRUID",
 			},
 			["Jhasu-Lightbringer"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Kesak-Lightbringer"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -590,18 +578,85 @@ DeathGraphsDBEndurance = {
 						"Torment |cFFFF333333,855|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Voinic-Lightbringer"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						193.369000000001, -- [2]
+						"Undulating Mass |cFFFF33331,016|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						135.834999999999, -- [2]
+						"Torment |cFFFF333334,359|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 5,
+				["points"] = 500,
 				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						3, -- [1]
+						128.328, -- [2]
+						"Blighted Ground (DoT) |cFFFF333321,626|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 6,
+				["points"] = 570,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						5, -- [1]
+						187.198, -- [2]
+						"Corrupting Bite |cFFFF333314,743|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						294.509, -- [2]
+						"Corrupting Bite |cFFFF333312,341|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
 			},
 			["Murtag-Sargeras"] = {
 				["encounters"] = 5,
 				["points"] = 460,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -624,78 +679,11 @@ DeathGraphsDBEndurance = {
 						"Torment |cFFFF333339,995|r", -- [3]
 					}, -- [4]
 				},
-				["class"] = "WARRIOR",
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 5,
-				["points"] = 480,
-				["deaths"] = {
-					{
-						1, -- [1]
-						193.369000000001, -- [2]
-						"Undulating Mass |cFFFF33331,016|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						135.834999999999, -- [2]
-						"Torment |cFFFF333334,359|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["deaths"] = {
-					{
-						3, -- [1]
-						128.328, -- [2]
-						"Blighted Ground (DoT) |cFFFF333321,626|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 6,
-				["points"] = 570,
-				["deaths"] = {
-					{
-						5, -- [1]
-						187.198, -- [2]
-						"Corrupting Bite |cFFFF333314,743|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						294.509, -- [2]
-						"Corrupting Bite |cFFFF333312,341|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Kahoots-Proudmoore"] = {
 				["encounters"] = 5,
 				["points"] = 470,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -713,16 +701,121 @@ DeathGraphsDBEndurance = {
 						"Torment |cFFFF333342,088|r", -- [3]
 					}, -- [3]
 				},
-				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 8,
+			["zone"] = "Uldir",
+			["id"] = 2122,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "G'huun",
+			["diff"] = 14,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "G'huun",
+		},
+		["diff"] = 14,
 	},
 	["216914"] = {
 		["hash"] = "216914",
 		["type"] = "endurance",
 		["name"] = "Zek'voz",
 		["id"] = 2169,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						357.466, -- [2]
+						"Corruption Pulse |cFFFF3333102,568|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						357.466, -- [2]
+						"Corruption Pulse |cFFFF3333118,985|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						352.412, -- [2]
+						"Titan Spark |cFFFF333313,480|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -732,111 +825,113 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "Zek'voz",
 			["diff"] = 14,
-			["id"] = 2136,
 			["ej_instance_id"] = 1031,
+			["id"] = 2136,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						357.466, -- [2]
-						"Corruption Pulse |cFFFF3333102,568|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						357.466, -- [2]
-						"Corruption Pulse |cFFFF3333118,985|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						352.412, -- [2]
-						"Titan Spark |cFFFF333313,480|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
+		["diff"] = 14,
 	},
 	["216814"] = {
 		["hash"] = "216814",
 		["type"] = "endurance",
 		["name"] = "Taloc",
 		["id"] = 2168,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						263.965999999999, -- [2]
+						"Blood Storm (DoT) |cFFFF33338,848|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						292.077, -- [2]
+						"Combustible Fuel |cFFFF333353,168|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mirwen-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -846,113 +941,96 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "Taloc",
 			["diff"] = 14,
-			["id"] = 2144,
 			["ej_instance_id"] = 1031,
+			["id"] = 2144,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						263.965999999999, -- [2]
-						"Blood Storm (DoT) |cFFFF33338,848|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						292.077, -- [2]
-						"Combustible Fuel |cFFFF333353,168|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Mirwen-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
+		["diff"] = 14,
 	},
 	["219514"] = {
 		["hash"] = "219514",
 		["type"] = "endurance",
 		["name"] = "Zul",
 		["id"] = 2195,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
@@ -960,96 +1038,155 @@ DeathGraphsDBEndurance = {
 			["id"] = 2145,
 			["mapid"] = 1861,
 			["name"] = "Zul",
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Zul",
 			["diff"] = 14,
+			["encounter"] = "Zul",
+			["ej_instance_id"] = 1031,
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
+		["diff"] = 14,
 	},
 	["219414"] = {
 		["hash"] = "219414",
 		["type"] = "endurance",
 		["name"] = "Mythrax",
 		["id"] = 2194,
-		["diff"] = 14,
+		["player_db"] = {
+			["Kholvinski-EmeraldDream"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						354.361000000001, -- [2]
+						"Void Volley |cFFFF333320,386|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						328.455999999998, -- [2]
+						"Melee |cFFFF333351,496|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						108.803999999998, -- [2]
+						"Annihilation |cFFFF3333949|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						354.343999999999, -- [2]
+						"Void Volley |cFFFF333320,412|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						118.809999999999, -- [2]
+						"Melee |cFFFF333336,239|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						3, -- [1]
+						304.505999999999, -- [2]
+						"Melee |cFFFF333342,348|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						3, -- [1]
+						325.343000000001, -- [2]
+						"Annihilation |cFFFF3333967|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						124.144, -- [2]
+						"Void Volley |cFFFF333336,918|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						2, -- [1]
+						125.896000000001, -- [2]
+						"Obliteration Beam (DoT) |cFFFF333310,451|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 7,
@@ -1058,155 +1195,110 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 1861,
 			["try_number"] = 1,
 			["name"] = "Mythrax",
-			["encounter"] = "Mythrax",
-			["ej_instance_id"] = 1031,
 			["diff"] = 14,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Mythrax",
 		},
-		["player_db"] = {
-			["Kholvinski-EmeraldDream"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						3, -- [1]
-						354.361000000001, -- [2]
-						"Void Volley |cFFFF333320,386|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						1, -- [1]
-						328.455999999998, -- [2]
-						"Melee |cFFFF333351,496|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						1, -- [1]
-						108.803999999998, -- [2]
-						"Annihilation |cFFFF3333949|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						1, -- [1]
-						354.343999999999, -- [2]
-						"Void Volley |cFFFF333320,412|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						2, -- [1]
-						125.896000000001, -- [2]
-						"Obliteration Beam (DoT) |cFFFF333310,451|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARRIOR",
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						2, -- [1]
-						118.809999999999, -- [2]
-						"Melee |cFFFF333336,239|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						3, -- [1]
-						304.505999999999, -- [2]
-						"Melee |cFFFF333342,348|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						3, -- [1]
-						325.343000000001, -- [2]
-						"Annihilation |cFFFF3333967|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						2, -- [1]
-						124.144, -- [2]
-						"Void Volley |cFFFF333336,918|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
+		["diff"] = 14,
 	},
 	["216815"] = {
 		["hash"] = "216815",
 		["type"] = "endurance",
 		["name"] = "Taloc",
 		["id"] = 2168,
-		["diff"] = 15,
+		["player_db"] = {
+			["Kholvinski-EmeraldDream"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -1216,110 +1308,96 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 2,
 			["name"] = "Taloc",
 			["diff"] = 15,
-			["id"] = 2144,
 			["ej_instance_id"] = 1031,
+			["id"] = 2144,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Kholvinski-EmeraldDream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
+		["diff"] = 15,
 	},
 	["214614"] = {
 		["hash"] = "214614",
 		["type"] = "endurance",
 		["name"] = "Fetid Devourer",
 		["id"] = 2146,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -1328,96 +1406,111 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 1861,
 			["try_number"] = 1,
 			["name"] = "Fetid Devourer",
-			["encounter"] = "Fetid Devourer",
-			["ej_instance_id"] = 1031,
 			["diff"] = 14,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Fetid Devourer",
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
+		["diff"] = 14,
 	},
 	["216614"] = {
 		["hash"] = "216614",
 		["type"] = "endurance",
 		["name"] = "Vectis",
 		["id"] = 2166,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						49.4549999999999, -- [2]
+						"Melee |cFFFF333348,468|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						181.440000000001, -- [2]
+						"Evolving Affliction |cFFFF333331,404|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						204.433, -- [2]
+						"Evolving Affliction |cFFFF333333,301|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -1426,111 +1519,108 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 1861,
 			["try_number"] = 1,
 			["name"] = "Vectis",
-			["encounter"] = "Vectis",
-			["ej_instance_id"] = 1031,
 			["diff"] = 14,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Vectis",
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						49.4549999999999, -- [2]
-						"Melee |cFFFF333348,468|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						204.433, -- [2]
-						"Evolving Affliction |cFFFF333333,301|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						181.440000000001, -- [2]
-						"Evolving Affliction |cFFFF333331,404|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
+		["diff"] = 14,
 	},
 	["216714"] = {
 		["hash"] = "216714",
 		["type"] = "endurance",
 		["name"] = "MOTHER",
 		["id"] = 2167,
-		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mirwen-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						68.5829999999996, -- [2]
+						"Purifying Flame (DoT) |cFFFF333325,580|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -1540,101 +1630,11 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "MOTHER",
 			["diff"] = 14,
-			["id"] = 2141,
 			["ej_instance_id"] = 1031,
+			["id"] = 2141,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Mirwen-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						68.5829999999996, -- [2]
-						"Purifying Flame (DoT) |cFFFF333325,580|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
+		["diff"] = 14,
 	},
 }
 DeathGraphsDBCurrent = {
@@ -1644,9 +1644,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 176420,
 				["timeofdeath"] = 187.198,
 				["name"] = "Sheilyana-Sargeras",
-				["time"] = 1536900511.687,
-				["class"] = "WARRIOR",
-				["timestring"] = "3m 7s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -2051,14 +2048,14 @@ DeathGraphsDBCurrent = {
 						"Sheilyana-Sargeras", -- [6]
 					}, -- [35]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "3m 7s",
+				["time"] = 1536900511.687,
 			}, -- [1]
 			{
 				["maxhealth"] = 176420,
 				["timeofdeath"] = 294.509,
 				["name"] = "Sheilyana-Sargeras",
-				["time"] = 1536900618.998,
-				["class"] = "WARRIOR",
-				["timestring"] = "4m 54s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2451,14 +2448,14 @@ DeathGraphsDBCurrent = {
 						"Sheilyana-Sargeras", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "4m 54s",
+				["time"] = 1536900618.998,
 			}, -- [2]
 			{
 				["maxhealth"] = 111000,
 				["timeofdeath"] = 428.888999999999,
 				["name"] = "Mistaaytch-Lightbringer",
-				["time"] = 1536900753.378,
-				["class"] = "DRUID",
-				["timestring"] = "7m 8s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2853,14 +2850,14 @@ DeathGraphsDBCurrent = {
 						"Mistaaytch-Lightbringer", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "7m 8s",
+				["time"] = 1536900753.378,
 			}, -- [3]
 			{
 				["maxhealth"] = 111340,
 				["timeofdeath"] = 435.370999999999,
 				["name"] = "Êlwen-KhazModan",
-				["time"] = 1536900759.86,
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "7m 15s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -3255,14 +3252,14 @@ DeathGraphsDBCurrent = {
 						"Êlwen-KhazModan", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "7m 15s",
+				["time"] = 1536900759.86,
 			}, -- [4]
 			{
 				["maxhealth"] = 141526,
 				["timeofdeath"] = 447.251999999999,
 				["name"] = "Mallusof",
-				["time"] = 1536900771.741,
-				["class"] = "PRIEST",
-				["timestring"] = "7m 27s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3657,14 +3654,14 @@ DeathGraphsDBCurrent = {
 						"Mallusof", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PRIEST",
+				["timestring"] = "7m 27s",
+				["time"] = 1536900771.741,
 			}, -- [5]
 			{
 				["maxhealth"] = 112980,
 				["timeofdeath"] = 453.690999999999,
 				["name"] = "Kahoots-Proudmoore",
-				["time"] = 1536900778.18,
-				["class"] = "WARLOCK",
-				["timestring"] = "7m 33s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4059,6 +4056,9 @@ DeathGraphsDBCurrent = {
 						"Kahoots-Proudmoore", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "7m 33s",
+				["time"] = 1536900778.18,
 			}, -- [6]
 		},
 		["bossname"] = "G'huun",
@@ -4078,9 +4078,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 115780,
 				["timeofdeath"] = 105.955,
 				["name"] = "Murtag-Sargeras",
-				["time"] = 1536899941.869,
-				["class"] = "WARRIOR",
-				["timestring"] = "1m 45s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4457,14 +4454,14 @@ DeathGraphsDBCurrent = {
 						"Murtag-Sargeras", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "1m 45s",
+				["time"] = 1536899941.869,
 			}, -- [1]
 			{
 				["maxhealth"] = 112980,
 				["timeofdeath"] = 192.503000000001,
 				["name"] = "Kahoots-Proudmoore",
-				["time"] = 1536900028.417,
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 12s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -4859,14 +4856,14 @@ DeathGraphsDBCurrent = {
 						"Kahoots-Proudmoore", -- [6]
 					}, -- [34]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "3m 12s",
+				["time"] = 1536900028.417,
 			}, -- [2]
 			{
 				["maxhealth"] = 111000,
 				["timeofdeath"] = 361.928,
 				["name"] = "Mistaaytch-Lightbringer",
-				["time"] = 1536900197.842,
-				["class"] = "DRUID",
-				["timestring"] = "6m 1s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5261,14 +5258,14 @@ DeathGraphsDBCurrent = {
 						"Mistaaytch-Lightbringer", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "6m 1s",
+				["time"] = 1536900197.842,
 			}, -- [3]
 			{
 				["maxhealth"] = 115120,
 				["timeofdeath"] = 364.786,
 				["name"] = "Kesak-Lightbringer",
-				["time"] = 1536900200.7,
-				["class"] = "SHAMAN",
-				["timestring"] = "6m 4s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -5663,14 +5660,14 @@ DeathGraphsDBCurrent = {
 						"Kesak-Lightbringer", -- [6]
 					}, -- [33]
 				},
+				["class"] = "SHAMAN",
+				["timestring"] = "6m 4s",
+				["time"] = 1536900200.7,
 			}, -- [4]
 			{
 				["maxhealth"] = 111340,
 				["timeofdeath"] = 367.412,
 				["name"] = "Êlwen-KhazModan",
-				["time"] = 1536900203.326,
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "6m 7s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6065,14 +6062,14 @@ DeathGraphsDBCurrent = {
 						"Êlwen-KhazModan", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "6m 7s",
+				["time"] = 1536900203.326,
 			}, -- [5]
 			{
 				["maxhealth"] = 128620,
 				["timeofdeath"] = 367.701000000001,
 				["name"] = "Kalithumos-Tichondrius",
-				["time"] = 1536900203.615,
-				["class"] = "PALADIN",
-				["timestring"] = "6m 7s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6467,14 +6464,14 @@ DeathGraphsDBCurrent = {
 						"Kalithumos-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PALADIN",
+				["timestring"] = "6m 7s",
+				["time"] = 1536900203.615,
 			}, -- [6]
 			{
 				["maxhealth"] = 115560,
 				["timeofdeath"] = 367.828,
 				["name"] = "Jhasu-Lightbringer",
-				["time"] = 1536900203.742,
-				["class"] = "SHAMAN",
-				["timestring"] = "6m 7s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6869,14 +6866,14 @@ DeathGraphsDBCurrent = {
 						"Jhasu-Lightbringer", -- [6]
 					}, -- [33]
 				},
+				["class"] = "SHAMAN",
+				["timestring"] = "6m 7s",
+				["time"] = 1536900203.742,
 			}, -- [7]
 			{
 				["maxhealth"] = 176420,
 				["timeofdeath"] = 370.199000000001,
 				["name"] = "Sheilyana-Sargeras",
-				["time"] = 1536900206.113,
-				["class"] = "WARRIOR",
-				["timestring"] = "6m 10s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -7271,14 +7268,14 @@ DeathGraphsDBCurrent = {
 						"Sheilyana-Sargeras", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "6m 10s",
+				["time"] = 1536900206.113,
 			}, -- [8]
 			{
 				["maxhealth"] = 112980,
 				["timeofdeath"] = 371.867,
 				["name"] = "Kahoots-Proudmoore",
-				["time"] = 1536900207.781,
-				["class"] = "WARLOCK",
-				["timestring"] = "6m 11s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -7671,14 +7668,14 @@ DeathGraphsDBCurrent = {
 						"Kahoots-Proudmoore", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "6m 11s",
+				["time"] = 1536900207.781,
 			}, -- [9]
 			{
 				["maxhealth"] = 123800,
 				["timeofdeath"] = 372.563,
 				["name"] = "Voinic-Lightbringer",
-				["time"] = 1536900208.477,
-				["class"] = "PALADIN",
-				["timestring"] = "6m 12s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -8073,6 +8070,9 @@ DeathGraphsDBCurrent = {
 						"Voinic-Lightbringer", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PALADIN",
+				["timestring"] = "6m 12s",
+				["time"] = 1536900208.477,
 			}, -- [10]
 		},
 		["bossname"] = "G'huun",
@@ -8127,8 +8127,8 @@ DeathGraphsDBGraph = {
 			[375] = {
 				1536897002, -- [1]
 			},
-			[374] = {
-				1536897002, -- [1]
+			[395] = {
+				1536897843, -- [1]
 			},
 			[325] = {
 				1536897843, -- [1]
@@ -8139,8 +8139,8 @@ DeathGraphsDBGraph = {
 			[304] = {
 				1536897843, -- [1]
 			},
-			[395] = {
-				1536897843, -- [1]
+			[374] = {
+				1536897002, -- [1]
 			},
 		},
 		["spells"] = {
@@ -8185,23 +8185,23 @@ DeathGraphsDBGraph = {
 			[367] = {
 				1536900218, -- [1]
 			},
-			[107] = {
-				1536899431, -- [1]
-			},
-			[187] = {
+			[435] = {
 				1536900786, -- [1]
 			},
-			[138] = {
-				1536899714, -- [1]
+			[428] = {
+				1536900786, -- [1]
+			},
+			[294] = {
+				1536900786, -- [1]
 			},
 			[192] = {
 				1536900218, -- [1]
 			},
-			[150] = {
-				1536899431, -- [1]
+			[447] = {
+				1536900786, -- [1]
 			},
-			[361] = {
-				1536900218, -- [1]
+			[138] = {
+				1536899714, -- [1]
 			},
 			[173] = {
 				1536899033, -- [1]
@@ -8209,17 +8209,17 @@ DeathGraphsDBGraph = {
 			[208] = {
 				1536899033, -- [1]
 			},
-			[447] = {
+			[150] = {
+				1536899431, -- [1]
+			},
+			[361] = {
+				1536900218, -- [1]
+			},
+			[187] = {
 				1536900786, -- [1]
 			},
-			[294] = {
-				1536900786, -- [1]
-			},
-			[428] = {
-				1536900786, -- [1]
-			},
-			[435] = {
-				1536900786, -- [1]
+			[107] = {
+				1536899431, -- [1]
 			},
 		},
 		["spells"] = {
