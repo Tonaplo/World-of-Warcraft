@@ -48,7 +48,7 @@ AllTheThings.Locales.enUS = {
 	["ITEM_ID_ADDED"] = "%s (%d) was added to your collection.";
 	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection.";
 	["ITEM_ID_ADDED_SHARED"] = "%s (%d) [+%d] were added to your collection.";
-	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection. ";
+	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection.";
 	["ITEM_ID_REMOVED"] = "%s (%d) was removed from your collection.";
 	["ITEM_ID_REMOVED_SHARED"] = "%s (%d) [+%d] were removed from your collection.";
 
@@ -1644,6 +1644,7 @@ AllTheThings.Locales.enUS = {
 		[-10066] = BATTLE_PET_BREED_QUALITY6,			-- "Legendary";
 		[-10067] = ITEM_QUALITY6_DESC, 				-- Artifact
 		[-10068] = OPTION_TOOLTIP_ANIMATION,			-- PLACE_HOLDER
+		[-10069] = "Mag'har Orc",
 		
 		--9000+ are reserved for town names.  If you use one make sure to attach an icon (either here or in the file).
 		
@@ -2676,6 +2677,10 @@ AllTheThings.Locales.enUS = {
 		[298858] = "Wanted Poster",
 		[298849] = "Wanted Poster",
 		[288214] = "Wanted Poster",
+		[298921] = select(1,GetAchievementCriteriaInfo(13024,1)),	-- Ancient Nazmani Tablet
+		[298963] = select(1,GetAchievementCriteriaInfo(13024,2)),	-- Weathered Nazmani Tablet
+		[298965] = select(1,GetAchievementCriteriaInfo(13024,3)),	-- Cracked Tablet
+		[299073] = select(1,GetAchievementCriteriaInfo(13024,4)),	-- Fractured Tablet
 		
 		
 		[9999999] = "Treasure Chest",	-- Because we have to make up on our own objectID's until information rolls in.  Start with this one and go down the list when entering.

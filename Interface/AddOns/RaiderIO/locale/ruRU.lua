@@ -19,6 +19,8 @@ L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Удерживайте клавиши shi
 --[[ L["API_DEPRECATED_UNKNOWN_FILE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["API_DEPRECATED_WITH"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["API_INVALID_DATABASE"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "Лучшее прохождение тек. подзем."
 L["BEST_RUN"] = "Лучшее прохождение"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Изменения были сохранены, но необходимо перезагрузить интерфейс, чтобы они вступили в силу.
@@ -44,6 +46,8 @@ L["DUNGEON_SHORT_NAME_HOV"] = "Чертоги Доблести"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_KR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_LOWR"] = "Каражан (нижняя часть)"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_ML"] = ""--]] 
 L["DUNGEON_SHORT_NAME_MOS"] = "Утроба Душ"
 L["DUNGEON_SHORT_NAME_NL"] = "Логово Нелтариона"
 L["DUNGEON_SHORT_NAME_SEAT"] = "Престол Триумвирата"

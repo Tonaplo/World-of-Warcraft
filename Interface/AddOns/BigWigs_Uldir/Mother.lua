@@ -47,6 +47,11 @@ function mod:GetOptions()
 	}
 end
 
+function mod:VerifyEnable(unit)
+	local hp = UnitHealthMax(unit)
+	return hp > 0 and (UnitHealth(unit) / hp) > 0.2 -- 20%
+end
+
 function mod:OnBossEnable()
 	self:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", nil, "boss1", "boss2", "boss3", "boss4")
 
@@ -155,7 +160,7 @@ do
 	local prev = 0
 	function mod:PurifyingFlameDamage(args)
 		if self:Me(args.destGUID) then
-			local t = GetTime()
+			local t = args.time
 			if t-prev > 2 then
 				prev = t
 				self:PlaySound(267795, "alarm")
@@ -167,8 +172,8 @@ end
 
 do
 	local prev = 0
-	function mod:WindTunnel()
-		local t = GetTime()
+	function mod:WindTunnel(args)
+		local t = args.time
 		if t-prev > 2 then
 			prev = t
 			self:Message2(267878, "red")
@@ -212,7 +217,7 @@ do
 	local prev = 0
 	function mod:UldirDefensiveBeamDamage(args)
 		if self:Me(args.destGUID) then
-			local t = GetTime()
+			local t = args.time
 			if t-prev > 2 then
 				prev = t
 				self:PlaySound(args.spellId, "alarm")

@@ -54,7 +54,7 @@ if L then
 	L.rat = "Soggy Shiprat"
 	L.crusher = "Irontide Crusher"
 	L.lightning = "Lightning"
-	L.lightning_caught = "Lightning caught after %s seconds!"
+	L.lightning_caught = "Lightning caught after %.1f seconds!"
 	L.ludwig = "Ludwig Von Tortollen"
 	L.buccaneer = "Irontide Buccaneer"
 	L.ravager = "Irontide Ravager"
@@ -214,7 +214,7 @@ do
 	local prev = 0
 	function mod:VileCoating(args)
 		if self:Me(args.destGUID) then
-			local t = GetTime()
+			local t = args.time
 			if t-prev > 1.5 then
 				prev = t
 				self:PersonalMessage(257272, "underyou")
@@ -304,7 +304,7 @@ do
 	local prev = 0
 	function mod:BlindRage(args)
 		if self:Me(args.destGUID) then
-			local t = GetTime()
+			local t = args.time
 			if t-prev > 2 then
 				prev = t
 				self:PersonalMessage(args.spellId)
@@ -375,8 +375,8 @@ end
 -- Lightning
 do
 	local seconds = 0
-	function mod:GreasyApplied()
-		seconds = GetTime()
+	function mod:GreasyApplied(args)
+		seconds = args.time
 	end
 
 	function mod:GreasyRemoved(args)
@@ -384,7 +384,7 @@ do
 			self:StackMessage(args.spellId, args.destName, args.amount, "cyan")
 			self:PlaySound(args.spellId, "info")
 		else -- Caught!
-			seconds = math.floor((GetTime() - seconds) * 100)/100
+			seconds = math.floor((args.time - seconds) * 100)/100
 			self:Message2(args.spellId, "green", L.lightning_caught:format(seconds))
 			self:Win() -- XXX Replace with normal victory PlaySound preferably
 		end
@@ -412,7 +412,7 @@ end
 do
 	local prev = 0
 	function mod:PainfulMotivationApplied(args)
-		local t = GetTime()
+		local t = args.time
 		if t-prev > 2 then
 			prev = t
 			self:Message2(args.spellId, "red")
