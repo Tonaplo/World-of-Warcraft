@@ -363,8 +363,8 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [3]
 				{
-					["id"] = 232698,
 					["sliceToken"] = "ABuepjqUmtwp",
+					["id"] = 232698,
 				}, -- [4]
 				{
 					["id"] = 31687,
@@ -451,8 +451,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuesG8z4qe",
 				}, -- [25]
 				{
-					["sliceToken"] = "ABue3cjatfe",
 					["id"] = 212036,
+					["sliceToken"] = "ABue3cjatfe",
 				}, -- [26]
 				{
 					["id"] = 20577,
@@ -605,15 +605,15 @@ OneRing_Config = {
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
-					["id"] = "/click ORLOpen Base",
 					["caption"] = "Back",
 					["icon"] = 1339449,
+					["id"] = "/click ORLOpen Base",
 				}, -- [6]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
-					["id"] = "/rt",
 					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
+					["id"] = "/rt",
 				}, -- [7]
 				{
 					"macro", -- [1]

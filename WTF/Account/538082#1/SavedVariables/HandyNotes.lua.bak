@@ -10,12 +10,12 @@ HandyNotesDB = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Morifa - Tichondrius"] = "Morifa - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Deminath - Hyjal"] = "Deminath - Hyjal",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
@@ -27,7 +27,7 @@ HandyNotesDB = {
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Kindhoof - Proudmoore"] = "Kindhoof - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -52,7 +52,7 @@ HandyNotesDB = {
 		},
 		["Morifa - Tichondrius"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Fimwack - Proudmoore"] = {
 		},
@@ -62,7 +62,7 @@ HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Rentror - Bleeding Hollow"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Zearthan - Proudmoore"] = {
 		},
@@ -86,7 +86,7 @@ HandyNotesDB = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Miriyal - Proudmoore"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
 		["Kindhoof - Proudmoore"] = {
 		},
@@ -109,12 +109,12 @@ HandyNotes_HandyNotesDB = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Morifa - Tichondrius"] = "Morifa - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Deminath - Hyjal"] = "Deminath - Hyjal",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
@@ -126,7 +126,7 @@ HandyNotes_HandyNotesDB = {
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Kindhoof - Proudmoore"] = "Kindhoof - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -151,7 +151,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Morifa - Tichondrius"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Fimwack - Proudmoore"] = {
 		},
@@ -161,7 +161,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Rentror - Bleeding Hollow"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Zearthan - Proudmoore"] = {
 		},
@@ -185,7 +185,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Miriyal - Proudmoore"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
 		["Kindhoof - Proudmoore"] = {
 		},
