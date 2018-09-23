@@ -1,4 +1,88 @@
 ------------------------------------------------------------------------
+r834 | michaelspain | 2018-09-19 02:11:02 +0000 (Wed, 19 Sep 2018) | 2 lines
+Changed paths:
+   M /trunk/GridRoster.lua
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+   M /trunk/modules/StatusRange.lua
+
+-Fixed Status Range bug when changing profile.
+-RaidDebuffs: Workaround to try to fix ticket #588 (sometimes raiddebuffs not loaded).
+------------------------------------------------------------------------
+r833 | michaelspain | 2018-09-18 19:04:46 +0000 (Tue, 18 Sep 2018) | 7 lines
+Changed paths:
+   M /trunk/Options/locales/enUS.lua
+   M /trunk/Options/locales/esES.lua
+   M /trunk/Options/modules/general/GridProfile.lua
+   M /trunk/Options/modules/statuses/StatusAuraNew.lua
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+   M /trunk/RaidDebuffsOptions/OptionsGeneral.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua
+   M /trunk/modules/StatusAuras.lua
+   M /trunk/modules/StatusAurasBuffs.lua
+   M /trunk/modules/StatusHealsAoe.lua
+   M /trunk/modules/StatusHealth.lua
+   M /trunk/modules/StatusRange.lua
+   M /trunk/modules/StatusTarget.lua
+   M /trunk/modules/StatusVoiceComm.lua
+
+-Fixed target status not updated when raid members were added or removed (ticket #581)
+-Fixed Buffs groups colors time tracking bug (ticket #590)
+-Fixed timetracker initialization bug in StatusAuras.lua (initialization code was executed multiple times instead of only once)
+-Some minor speed optimization tweaks in several statuses.
+-Added number of raid debuffs loaded in Grid2 LDB and Minimap tooltip.
+
+
+------------------------------------------------------------------------
+r832 | michaelspain | 2018-09-14 01:40:11 +0000 (Fri, 14 Sep 2018) | 3 lines
+Changed paths:
+   M /trunk/GridLayout.lua
+   M /trunk/Options/locales/enUS.lua
+   M /trunk/Options/locales/esES.lua
+   M /trunk/Options/modules/general/GridProfile.lua
+
+Profiles management: 
+- Now profile configurations by Raid Type (pvp/lfr/mythic/etc) are optional.
+- Removed "Raid(world)" & "Raid(other)" configurations, replaced by a simple "Raid" profile option.
+------------------------------------------------------------------------
+r831 | michaelspain | 2018-09-13 19:08:28 +0000 (Thu, 13 Sep 2018) | 11 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Grid2.toc
+   M /trunk/GridCore.lua
+   M /trunk/GridLayout.lua
+   M /trunk/Options/Grid2Options.toc
+   M /trunk/Options/locales/enUS.lua
+   M /trunk/Options/locales/esES.lua
+   M /trunk/Options/modules/general/GridExportImport.lua
+   M /trunk/Options/modules/general/GridLayouts.lua
+   M /trunk/Options/modules/general/GridLayoutsEditor.lua
+   M /trunk/Options/modules/general/GridProfile.lua
+   M /trunk/Options/modules/statuses/StatusAuraNewPredictor.lua
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+   M /trunk/modules/StatusAurasDebuffs.lua
+
+-Fixing non self debuffs bug (ticket #582).
+-Layouts Editor: Added Role Order option (visible when Group By: "Role" is selected).
+-Refactored Profiles Management Code:
+ *Removed libdualspec library (now grid2 own code handles spec profile changes).
+ *"Advanced" tab renamed to "Import&Export"
+ *New "Advanced" tab to configure advanced profiles:
+ *Added "Enable profiles by Specialization" option to Advanced tab.
+ *Added "Enable Profiles by Type of Group"  option to Advanced tab. Enabling this option a different 
+  profile can be selected for each type of group: solo, party, arena, raid, etc.
+ *Profiles "by spec" and "by type of group" can be enabled at the same time.
+
+------------------------------------------------------------------------
+r830 | michaelspain | 2018-09-07 17:21:12 +0000 (Fri, 07 Sep 2018) | 1 line
+Changed paths:
+   M /trunk/GridCore.lua
+   M /trunk/GridFrame.lua
+   M /trunk/Options/locales/enUS.lua
+   M /trunk/Options/locales/esES.lua
+   M /trunk/Options/modules/general/GridFrame.lua
+
+Added configuration options to Texture&Color mouseover Highlight.(ticket #580)
+------------------------------------------------------------------------
 r829 | michaelspain | 2018-08-24 01:14:46 +0000 (Fri, 24 Aug 2018) | 1 line
 Changed paths:
    M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua

@@ -1,10 +1,12 @@
 # BigWigs
 
-## [v117.1](https://github.com/BigWigsMods/BigWigs/tree/v117.1) (2018-09-20)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v117...v117.1)
+## [v118](https://github.com/BigWigsMods/BigWigs/tree/v118) (2018-09-23)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v117.1...v118)
 
-- Core: Use CancelAllTimers in Disable calls.  
-- Core/BossPrototype: Move CancelAllTimers from the Reboot call to the module Disable call.  
-- Core: Transmit moduleName not name.  
-- Uldir/Mother: Don't re-enable after winning.  
-- Core: Fix error when you're the one enabling a module.  
+- bump version  
+- Disable most of the minimap click stuff for now  
+- Core: Tweaks  
+- Uldir/Devourer: Add a counter to "Shockwave Stomp" timers  
+- Uldir/Ghuun: Adjust initial "Gaze of G'huun" timer  
+- Uldir/Zekvoz: Allow Eye Beam to only play a sound when it's only on you if that option is selected  
+- Uldir/Mother: Update Chambers Cleaning Purge timer for Mythic  

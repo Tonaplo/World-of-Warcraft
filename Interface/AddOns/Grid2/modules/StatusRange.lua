@@ -65,13 +65,15 @@ function Range:OnEnable()
 	self:RegisterMessage("Grid_UnitLeft")
 	self:RegisterMessage("Grid_GroupTypeChanged")
 	self.timer:Play()
+	Update(self.timer)
 end
 
 function Range:OnDisable()
 	self:UnregisterMessage("Grid_UnitUpdated")
 	self:UnregisterMessage("Grid_UnitLeft")
 	self:UnregisterMessage("Grid_GroupTypeChanged")
-	self.timer:Stop() 
+	self.timer:Stop()
+	wipe(cache)
 end
 
 -- {{ Workaround for WoW 5.0.4 UnitInRange() bug (returns false for player&pet while solo or in arena)
@@ -81,7 +83,6 @@ local Ranges38 = {
 }
 function Range:Grid_GroupTypeChanged(_, groupType)
 	if self.range == "38" then
-		Ranges["38"] = Ranges38[groupType] or UnitInRange 
 		self:UpdateDB()
 	end
 end
@@ -105,6 +106,7 @@ function Range:CreateTimer()
 end
 
 function Range:UpdateDB()
+	Ranges["38"] = Ranges38[ Grid2:GetGroupType() ] or UnitInRange
 	self.defaultAlpha = self.dbx.default or 0.25
 	self.range = tostring(self.dbx.range)
 	UnitRangeCheck = Ranges[self.range]

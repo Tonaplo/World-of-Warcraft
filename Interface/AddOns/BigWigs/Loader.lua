@@ -10,7 +10,7 @@ local ldbi = LibStub("LibDBIcon-1.0")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 117
+local BIGWIGS_VERSION = 118
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
@@ -21,7 +21,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "f51ac34" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "7926051" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -358,26 +358,26 @@ local dataBroker = ldb:NewDataObject("BigWigs",
 )
 
 function dataBroker.OnClick(self, button)
-	if button == "RightButton" then
+	--if button == "RightButton" then
 		loadCoreAndOpenOptions()
-	else
-		loadAndEnableCore()
-		if IsAltKeyDown() then
-			if IsControlKeyDown() then
-				BigWigs:Disable()
-			else
-				for name, module in BigWigs:IterateBossModules() do
-					if module:IsEnabled() then module:Disable() end
-				end
-				sysprint(L.modulesDisabled)
-			end
-		else
-			for name, module in BigWigs:IterateBossModules() do
-				if module:IsEnabled() then module:Reboot() end
-			end
-			sysprint(L.modulesReset)
-		end
-	end
+	--else
+	--	loadAndEnableCore()
+	--	if IsAltKeyDown() then
+	--		if IsControlKeyDown() then
+	--			BigWigs:Disable()
+	--		else
+	--			for name, module in BigWigs:IterateBossModules() do
+	--				if module:IsEnabled() then module:Disable() end
+	--			end
+	--			sysprint(L.modulesDisabled)
+	--		end
+	--	else
+	--		for name, module in BigWigs:IterateBossModules() do
+	--			if module:IsEnabled() then module:Reboot() end
+	--		end
+	--		sysprint(L.modulesReset)
+	--	end
+	--end
 end
 
 function dataBroker.OnTooltipShow(tt)

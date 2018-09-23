@@ -2,7 +2,7 @@
 Questionably Epic Mythic+ Dungeon Tips
 Configuration Page
 
-Version: 4.6
+Version: 4.7
 Developed by: Voulk
 Contact: 
 	Discord: Voulk#1858
@@ -114,7 +114,7 @@ function createQEFrame()
 	end)
 	QE_ConfigBtn:Show()
 	
-	--[[
+	-- Minimize Button
 	minimizeBtn = CreateFrame("Button", "minimize", QE_HeaderPanel)
 	minimizeBtn:SetFrameLevel(5)
 	minimizeBtn:ClearAllPoints()
@@ -130,7 +130,6 @@ function createQEFrame()
 	end)
 	
 	minimizeBtn:Show()
-	]]--
 	
 	QE_HeaderPanel:RegisterEvent("PLAYER_ENTERING_WORLD")
 	QE_HeaderPanel:RegisterEvent("PLAYER_TARGET_CHANGED")
@@ -211,17 +210,20 @@ function addon:setEnabled()
 	
 end
 
---[[
+
 function addon:setMinimized(forceShow)
-	if not QE_TipPanel:IsVisible() or forceShow then
-		QE_TipPanel:Show()
+	--if not QE_TipText:IsVisible() or forceShow then
+	if QE_TipPanel:GetHeight() <= 26 then
+		QE_TipPanel:SetHeight(175)
+		QE_TipText:Show()
+		
 	else
 		--QE_TipPanel:Hide()
 		QE_TipPanel:SetHeight(25)
 		QE_TipText:Hide()
 	end
 end
-		]]--
+		
 		
 function addon:setDropdownEnabled()
 	if QEConfig.ShowFrame == "Show in separate frame" then

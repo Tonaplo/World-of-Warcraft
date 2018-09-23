@@ -2,7 +2,7 @@
 Questionably Epic Mythic+ Dungeon Tips
 Configuration Page
 
-Version: 4.6
+Version: 4.7
 Developed by: Voulk
 Contact: 
 	Discord: Voulk#1858

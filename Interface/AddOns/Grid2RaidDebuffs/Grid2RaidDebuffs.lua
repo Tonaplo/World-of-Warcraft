@@ -1,5 +1,6 @@
 -- Raid Debuffs module, implements raid-debuffs statuses
 
+local L = LibStub("AceLocale-3.0"):GetLocale("Grid2")
 local GSRD = Grid2:NewModule("Grid2RaidDebuffs")
 local frame = CreateFrame("Frame")
 
@@ -21,6 +22,7 @@ local instance_map_name
 local statuses = {}
 local spells_order = {}
 local spells_status = {}
+local spells_count = 0
 
 -- autdetect debuffs variables
 local auto_status
@@ -29,6 +31,13 @@ local auto_boss
 local auto_instance
 local auto_debuffs
 local auto_blacklist = { [160029] = true, [36032] = true, [6788] = true, [80354] = true, [95223] = true, [114216] = true }
+
+-- LDB Tooltip
+Grid2.tooltipFunc['RaidDebuffsCount'] = function(tooltip)
+	if instance_map_name then
+		tooltip:AddDoubleLine( instance_map_name, string.format("|cffff0000%d|r %s",spells_count,L['debuffs']), 255,255,255, 255,255,0)
+	end
+end
 
 -- GSRD 
 frame:SetScript("OnEvent", function (self, event, unit)
@@ -65,18 +74,22 @@ function GSRD:OnModuleDisable()
 end
 
 function GSRD:UpdateZoneSpells(event)
-	local map_name,_,_,_,_,_,_,map_id = GetInstanceInfo() 
-	map_id = map_id + 100000 -- +100000 to avoid collisions with instance_id
-	if map_id==instance_map_id and event then return end
-	self:ResetZoneSpells()
-	instance_map_id   = map_id
-	instance_map_name = map_name
-	instance_id = EJ_GetInstanceForMap(C_Map.GetBestMapForUnit("player"))
-	for status in next,statuses do
-		status:LoadZoneSpells()
+	local bm = C_Map.GetBestMapForUnit("player")
+	if bm then
+		local map_id = select(8,GetInstanceInfo()) + 100000 -- +100000 to avoid collisions with instance_id
+		if event and map_id==instance_map_id then return end
+		self:ResetZoneSpells()
+		instance_id = EJ_GetInstanceForMap(bm)
+		instance_map_id = map_id
+		instance_map_name = GetInstanceInfo()
+		for status in next,statuses do
+			status:LoadZoneSpells()
+		end
+		self:UpdateEvents()
+		self:ClearAllIndicators()
+	else
+		C_Timer.After(3, function() self:UpdateZoneSpells(true) end )
 	end
-	self:UpdateEvents()
-	self:ClearAllIndicators()
 end
 
 function GSRD:GetCurrentZone()
@@ -143,7 +156,7 @@ function GSRD:RegisterEncounter(encounterName)
 	end
 	auto_debuffs = debuffs[encounterName]
 	if not auto_debuffs then
-		local instance = instance_id>0 and instance_id or 1028 -- 0=>asuming Azeroth worldmap (1028)
+		local instance = (instance_id or 0)>0 and instance_id or 1028 -- 0=>asuming Azeroth worldmap (1028)
 		local encOrder, encName, encID, _ = 0
 		EJ_SelectInstance(instance)
 		repeat
@@ -215,8 +228,8 @@ function class:ClearAllIndicators()
 end
 
 function class:LoadZoneSpells()
-	if instance_id then
-		local count = 0
+	if instance_map_id then
+		spells_count = 0
 		local db = self.dbx.debuffs[ instance_map_id ] or self.dbx.debuffs[ instance_id ]
 		if db then
 			for index, spell in ipairs(db) do
@@ -224,14 +237,14 @@ function class:LoadZoneSpells()
 				if name and (not spells_order[name]) then
 					spells_order[name]  = index
 					spells_status[name] = self
-					count = count + 1
+					spells_count = spells_count + 1
 				end
 			end
 		end
 		if GSRD.debugging then
-			GSRD:Debug("Zone [%s][%d/%d] Status [%s]: %d raid debuffs loaded", instance_map_name, instance_id, instance_map_id, self.name, count)
+			GSRD:Debug("Zone [%s][%d/%d] Status [%s]: %d raid debuffs loaded", instance_map_name, instance_id, instance_map_id, self.name, spells_count)
 		end
-	end
+	end	
 end
 
 function class:OnEnable()
