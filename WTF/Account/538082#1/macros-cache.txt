@@ -89,6 +89,9 @@ END
 VER 3 0000000000000002 "reload ui" "237290"
 /reload ui
 END
+VER 3 0000000000000040 "SUPER PET LEVEL" "254858"
+/script local ids = { 31851, 31819, 31850, 31780, 31781, }; for i = 1, 5 do local index = GetQuestLogIndexByID(ids[i]); SelectQuestLogEntry(index); ShowQuestComplete(index); CompleteQuest(); GetQuestReward(); end
+END
 VER 3 0000000000000021 "Swapblast" "132138"
 /swapcheck list
 END

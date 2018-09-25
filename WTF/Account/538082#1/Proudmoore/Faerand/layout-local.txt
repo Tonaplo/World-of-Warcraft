@@ -1,11 +1,4 @@
 Version: 1
-Frame: AAP_PartyListFrame1
-FrameLevel: 1
-Anchor: TOP
-X: -225
-Y: -268
-W: 1
-H: 1
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: BOTTOMLEFT

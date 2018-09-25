@@ -1,4 +1,11 @@
 Version: 1
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
@@ -27,10 +34,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: ColorPickerFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 305
-H: 240

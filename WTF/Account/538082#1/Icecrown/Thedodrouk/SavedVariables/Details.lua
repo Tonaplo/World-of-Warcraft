@@ -7,8 +7,2120 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 187,
+					["combatId"] = 192,
 					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002817,
+							["damage_from"] = {
+								["Fäbülõüs-Dalaran"] = true,
+							},
+							["targets"] = {
+							},
+							["on_hold"] = false,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002817,
+							["spec"] = 63,
+							["dps_started"] = false,
+							["total"] = 0.002817,
+							["classe"] = "MAGE",
+							["serial"] = "Player-104-09FD5086",
+							["nome"] = "Thedodrouk",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["end_time"] = 1537804657,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2650.002817,
+							["start_time"] = 1537804657,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 192,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 192,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 192,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 63,
+							["grupo"] = true,
+							["buff_uptime"] = 10,
+							["nome"] = "Thedodrouk",
+							["pets"] = {
+							},
+							["last_event"] = 1537804657,
+							["classe"] = "MAGE",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[269083] = {
+										["activedamt"] = 1,
+										["id"] = 269083,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-104-09FD5086",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 192,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Thedodrouk"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Fäbülõüs-Dalaran",
+				["combat_counter"] = 220,
+				["playing_solo"] = true,
+				["totals"] = {
+					-0.0544270000013131, -- [1]
+					-0.005482, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00634899999999994,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Thedodrouk"] = {
+						{
+							true, -- [1]
+							228598, -- [2]
+							1328, -- [3]
+							1537804658.271, -- [4]
+							1, -- [5]
+							"Fäbülõüs-Dalaran", -- [6]
+							nil, -- [7]
+							16, -- [8]
+							false, -- [9]
+							781, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Thedodrouk"] = 0.002817,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2888.742,
+				["combat_id"] = 192,
+				["instance_type"] = "none",
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags"] = {
+					["Agrota-Kel'Thuzad"] = 1,
+					["Erikadius-Sargeras"] = 1,
+				},
+				["data_fim"] = "08:57:38",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.002817, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						["max_value"] = 0.002817,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "08:57:33",
+				["start_time"] = 2883.551,
+				["contra"] = "Fäbülõüs-Dalaran",
+				["pvp"] = true,
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004058,
+							["damage_from"] = {
+								["Rotting Horror"] = true,
+								["Flesh Eating Worm"] = true,
+							},
+							["targets"] = {
+								["Flesh Eating Worm"] = 40,
+							},
+							["pets"] = {
+							},
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 40.004058,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["total"] = 40.004058,
+							["classe"] = "MAGE",
+							["spells"] = {
+								["_ActorTable"] = {
+									[235314] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 40,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Flesh Eating Worm"] = 40,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 40,
+										["c_max"] = 40,
+										["id"] = 235314,
+										["r_dmg"] = 0,
+										["c_min"] = 40,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["end_time"] = 1537802711,
+							["damage_taken"] = 46.004058,
+							["last_dps"] = 30.584142201835,
+							["colocacao"] = 1,
+							["last_event"] = 1537802710,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1537802710,
+							["serial"] = "Player-104-09FD5086",
+							["on_hold"] = false,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Thedodrouk"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004592,
+							["total_without_pet"] = 17.004592,
+							["total"] = 17.004592,
+							["targets_absorbs"] = {
+								["Thedodrouk"] = 17,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-104-09FD5086",
+							["totalabsorb"] = 17.004592,
+							["last_hps"] = 13.0004525993885,
+							["targets"] = {
+								["Thedodrouk"] = 17,
+							},
+							["totalover_without_pet"] = 0.004592,
+							["healing_taken"] = 17.004592,
+							["fight_component"] = true,
+							["end_time"] = 1537802711,
+							["last_event"] = 1537802711,
+							["nome"] = "Thedodrouk",
+							["spells"] = {
+								["_ActorTable"] = {
+									[235313] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 17,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 15,
+										["targets"] = {
+											["Thedodrouk"] = 17,
+										},
+										["n_min"] = 2,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 17,
+										["c_max"] = 0,
+										["id"] = 235313,
+										["targets_absorbs"] = {
+											["Thedodrouk"] = 17,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 17,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+							},
+							["spec"] = 63,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.004592,
+							["start_time"] = 1537802710,
+							["delay"] = 0,
+							["classe"] = "MAGE",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+						{
+							["received"] = 30.005983,
+							["resource"] = 0.005983,
+							["targets"] = {
+								["Thedodrouk"] = 30,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 6,
+							["classe"] = "MAGE",
+							["fight_component"] = true,
+							["total"] = 30.005983,
+							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1537802710,
+							["alternatepower"] = 0.005983,
+							["spells"] = {
+								["_ActorTable"] = {
+									[59914] = {
+										["id"] = 59914,
+										["total"] = 30,
+										["targets"] = {
+											["Thedodrouk"] = 30,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-104-09FD5086",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "MAGE",
+							["buff_uptime"] = 3,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[235313] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 235313,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-104-09FD5086",
+							["last_event"] = 1537802711,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 191,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Thedodrouk"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Rotting Horror",
+				["combat_counter"] = 218,
+				["playing_solo"] = true,
+				["totals"] = {
+					39.9532660000031, -- [1]
+					17, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 30,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+					["Thedodrouk"] = {
+						{
+							true, -- [1]
+							85236, -- [2]
+							15, -- [3]
+							1537802711.592, -- [4]
+							893, -- [5]
+							"Rotting Horror", -- [6]
+							nil, -- [7]
+							40, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Thedodrouk"] = 40.004058,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Thedodrouk"] = 17.004592,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 942.209,
+				["combat_id"] = 191,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						40.004058, -- [1]
+						["max_value"] = 40.004058,
+					},
+					["Raid Damage Done"] = {
+						40, -- [1]
+						["max_value"] = 40,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Flesh Eating Worm"] = 1,
+				},
+				["data_fim"] = "08:25:12",
+				["data_inicio"] = "08:25:10",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					40, -- [1]
+					17, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 30,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 940.901,
+				["contra"] = "Rotting Horror",
+				["instance_type"] = "none",
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 190,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004044,
+							["damage_from"] = {
+								["Rotted One"] = true,
+								["Rotting Horror"] = true,
+							},
+							["targets"] = {
+								["Rotted One"] = 754,
+								["Rotting Horror"] = 903,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "MAGE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1657.004044,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 1657.004044,
+							["damage_taken"] = 1097.004044,
+							["spells"] = {
+								["_ActorTable"] = {
+									[133] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 384,
+										["g_amt"] = 0,
+										["n_max"] = 96,
+										["targets"] = {
+											["Rotted One"] = 384,
+											["Rotting Horror"] = 670,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 670,
+										["n_min"] = 94,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 1054,
+										["c_max"] = 192,
+										["id"] = 133,
+										["r_dmg"] = 0,
+										["c_min"] = 192,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[235314] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 80,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Rotted One"] = 80,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 80,
+										["c_max"] = 40,
+										["id"] = 235314,
+										["r_dmg"] = 0,
+										["c_min"] = 40,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[2948] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Rotted One"] = 56,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 56,
+										["n_min"] = 28,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 56,
+										["c_max"] = 0,
+										["id"] = 2948,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[108853] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 467,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Rotted One"] = 234,
+											["Rotting Horror"] = 233,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 467,
+										["c_max"] = 234,
+										["id"] = 108853,
+										["r_dmg"] = 0,
+										["c_min"] = 233,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["last_dps"] = 62.7557962429935,
+							["end_time"] = 1537802709,
+							["colocacao"] = 1,
+							["last_event"] = 1537802708,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1537802683,
+							["serial"] = "Player-104-09FD5086",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 190,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Thedodrouk"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004672,
+							["total_without_pet"] = 170.004672,
+							["total"] = 170.004672,
+							["targets_absorbs"] = {
+								["Thedodrouk"] = 170,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-104-09FD5086",
+							["totalabsorb"] = 170.004672,
+							["last_hps"] = 6.43859536433874,
+							["targets"] = {
+								["Thedodrouk"] = 170,
+							},
+							["totalover_without_pet"] = 0.004672,
+							["healing_taken"] = 170.004672,
+							["fight_component"] = true,
+							["end_time"] = 1537802709,
+							["last_event"] = 1537802709,
+							["nome"] = "Thedodrouk",
+							["spells"] = {
+								["_ActorTable"] = {
+									[235313] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 170,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 60,
+										["targets"] = {
+											["Thedodrouk"] = 170,
+										},
+										["n_min"] = 14,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 170,
+										["c_max"] = 0,
+										["id"] = 235313,
+										["targets_absorbs"] = {
+											["Thedodrouk"] = 170,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 170,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+							},
+							["spec"] = 63,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.004672,
+							["start_time"] = 1537802706,
+							["delay"] = 0,
+							["classe"] = "MAGE",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 190,
+					["_ActorTable"] = {
+						{
+							["received"] = 67.003803,
+							["resource"] = 0.003803,
+							["targets"] = {
+								["Thedodrouk"] = 67,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "MAGE",
+							["fight_component"] = true,
+							["total"] = 67.003803,
+							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1537802708,
+							["alternatepower"] = 0.003803,
+							["spells"] = {
+								["_ActorTable"] = {
+									[59914] = {
+										["id"] = 59914,
+										["total"] = 67,
+										["targets"] = {
+											["Thedodrouk"] = 67,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-104-09FD5086",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 190,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 63,
+							["grupo"] = true,
+							["nome"] = "Thedodrouk",
+							["buff_uptime"] = 68,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[133] = 9,
+								[108853] = 2,
+								[235313] = 1,
+								[2948] = 1,
+							},
+							["classe"] = "MAGE",
+							["last_event"] = 1537802709,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 26,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 26,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[48107] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 48107,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[235313] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 235313,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[48108] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 48108,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-104-09FD5086",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 190,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Thedodrouk"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Rotted One",
+				["combat_counter"] = 217,
+				["playing_solo"] = true,
+				["totals"] = {
+					1656.986829, -- [1]
+					170, -- [2]
+					{
+						0, -- [1]
+						[0] = 35,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 32,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Thedodrouk"] = 1657.004044,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Thedodrouk"] = 170.004672,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 940.191,
+				["combat_id"] = 190,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						28.004044, -- [1]
+						262, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						96, -- [7]
+						0, -- [8]
+						192, -- [9]
+						0, -- [10]
+						96, -- [11]
+						0, -- [12]
+						94, -- [13]
+						0, -- [14]
+						0, -- [15]
+						96, -- [16]
+						0, -- [17]
+						96, -- [18]
+						0, -- [19]
+						96, -- [20]
+						0, -- [21]
+						96, -- [22]
+						233, -- [23]
+						40, -- [24]
+						0, -- [25]
+						232, -- [26]
+						["max_value"] = 262,
+					},
+					["Raid Damage Done"] = {
+						28, -- [1]
+						262, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						96, -- [7]
+						0, -- [8]
+						192, -- [9]
+						0, -- [10]
+						96, -- [11]
+						0, -- [12]
+						94, -- [13]
+						0, -- [14]
+						0, -- [15]
+						96, -- [16]
+						0, -- [17]
+						96, -- [18]
+						0, -- [19]
+						96, -- [20]
+						0, -- [21]
+						96, -- [22]
+						233, -- [23]
+						40, -- [24]
+						0, -- [25]
+						232, -- [26]
+						["max_value"] = 262,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Rotting Horror"] = 1,
+					["Rotted One"] = 1,
+				},
+				["data_fim"] = "08:25:10",
+				["data_inicio"] = "08:24:43",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1657, -- [1]
+					170, -- [2]
+					{
+						0, -- [1]
+						[0] = 35,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 32,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 913.611,
+				["contra"] = "Rotted One",
+				["instance_type"] = "none",
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 189,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00121,
+							["damage_from"] = {
+								["Young Panther"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00121,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.00121,
+							["classe"] = "MAGE",
+							["damage_taken"] = 105.00121,
+							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["end_time"] = 1537802210,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1537802210,
+							["serial"] = "Player-104-09FD5086",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 189,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 189,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 189,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 30,
+							["classe"] = "MAGE",
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[134359] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 134359,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-104-09FD5086",
+							["last_event"] = 1537802210,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 189,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Thedodrouk"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Young Panther",
+				["combat_counter"] = 216,
+				["playing_solo"] = true,
+				["totals"] = {
+					-0.0119730000002392, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+					["Goldbrew-AeriePeak"] = {
+						{
+							true, -- [1]
+							124255, -- [2]
+							1, -- [3]
+							1537802325.688, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							124255, -- [2]
+							1, -- [3]
+							1537802326.121, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							124255, -- [2]
+							1, -- [3]
+							1537802326.688, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802327.121, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802327.721, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802328.155, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802328.721, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802329.188, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [8]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802329.755, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [9]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802330.255, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [10]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802330.755, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [11]
+						{
+							true, -- [1]
+							124255, -- [2]
+							1, -- [3]
+							1537802342.721, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [12]
+						{
+							true, -- [1]
+							124255, -- [2]
+							1, -- [3]
+							1537802343.221, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [13]
+						{
+							true, -- [1]
+							124255, -- [2]
+							1, -- [3]
+							1537802343.721, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [14]
+						{
+							true, -- [1]
+							124255, -- [2]
+							2, -- [3]
+							1537802344.221, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [15]
+						{
+							true, -- [1]
+							124255, -- [2]
+							2, -- [3]
+							1537802344.721, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [16]
+						{
+							true, -- [1]
+							124255, -- [2]
+							2, -- [3]
+							1537802345.221, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [17]
+						{
+							true, -- [1]
+							124255, -- [2]
+							2, -- [3]
+							1537802345.755, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [18]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802346.255, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [19]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802346.788, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [20]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802347.288, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [21]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802347.788, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [22]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802348.288, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [23]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802348.788, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [24]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802349.321, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [25]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802349.821, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [26]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802350.288, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [27]
+						{
+							true, -- [1]
+							124255, -- [2]
+							3, -- [3]
+							1537802350.821, -- [4]
+							0, -- [5]
+							"Goldbrew-AeriePeak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 29,
+					},
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Thedodrouk"] = 0.00121,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 442.207,
+				["combat_id"] = 189,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.00121, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						["max_value"] = 0.00121,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "08:16:50",
+				["data_inicio"] = "08:16:40",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 431.679,
+				["contra"] = "Young Panther",
+				["instance_type"] = "none",
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 188,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002699,
+							["damage_from"] = {
+								["Young Stranglethorn Tiger"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["spec"] = 63,
+							["classe"] = "MAGE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002699,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1537802178,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 67.002699,
+							["nome"] = "Thedodrouk",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1537802178,
+							["serial"] = "Player-104-09FD5086",
+							["total"] = 0.002699,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 188,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 188,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 188,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 33,
+							["classe"] = "MAGE",
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[134359] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 134359,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-104-09FD5086",
+							["last_event"] = 1537802178,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 188,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Thedodrouk"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Young Stranglethorn Tiger",
+				["combat_counter"] = 215,
+				["playing_solo"] = true,
+				["totals"] = {
+					-0.00501299999999105, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Thedodrouk"] = 0.002699,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 409.898,
+				["combat_id"] = 188,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.002699, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						["max_value"] = 0.002699,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "08:16:18",
+				["data_inicio"] = "08:16:07",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 398.924,
+				["contra"] = "Young Stranglethorn Tiger",
+				["instance_type"] = "none",
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 187,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -19,24 +2131,26 @@ _detalhes_database = {
 							["targets"] = {
 								["River Crocolisk"] = 749,
 							},
-							["total"] = 749.005881,
+							["serial"] = "Player-104-09FD5086",
 							["pets"] = {
 							},
+							["colocacao"] = 1,
 							["on_hold"] = false,
-							["classe"] = "MAGE",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 749.005881,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["total"] = 749.005881,
 							["dps_started"] = false,
 							["end_time"] = 1537771695,
-							["friendlyfire_total"] = 0,
-							["spec"] = 63,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1537771694,
 							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["last_dps"] = 47.46852658594,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[108853] = {
 										["c_amt"] = 1,
@@ -59,13 +2173,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 233,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 233,
 									},
 									[2948] = {
 										["c_amt"] = 1,
@@ -88,13 +2202,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 57,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 57,
 									},
 									[11366] = {
 										["c_amt"] = 1,
@@ -117,37 +2231,35 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 403,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 403,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-104-09FD5086",
-							["last_dps"] = 47.4685265859838,
 							["custom"] = 0,
-							["last_event"] = 1537771694,
+							["tipo"] = 1,
 							["damage_taken"] = 357.005881,
 							["start_time"] = 1537771686,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 187,
 					["tipo"] = 3,
+					["combatId"] = 187,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 187,
 					["tipo"] = 7,
+					["combatId"] = 187,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.008794,
@@ -163,97 +2275,97 @@ _detalhes_database = {
 							["spec"] = 63,
 							["grupo"] = true,
 							["resource_type"] = 18,
-							["flag_original"] = 1297,
 							["last_event"] = 1537771694,
+							["tipo"] = 3,
 							["alternatepower"] = 0.008794,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["tipo"] = 3,
+							["flag_original"] = 1297,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 187,
 					["tipo"] = 9,
+					["combatId"] = 187,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["nome"] = "Thedodrouk",
 							["spec"] = 63,
 							["grupo"] = true,
+							["tipo"] = 4,
+							["buff_uptime"] = 36,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "MAGE",
 							["spell_cast"] = {
 								[108853] = 1,
 								[2948] = 3,
 								[11366] = 1,
 							},
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 36,
-							["tipo"] = 4,
-							["last_event"] = 1537771695,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[269083] = {
-										["activedamt"] = 1,
-										["id"] = 269083,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 269083,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48107] = {
-										["activedamt"] = 2,
-										["id"] = 48107,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 5,
-										["appliedamt"] = 2,
+										["id"] = 48107,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48108] = {
-										["activedamt"] = 1,
-										["id"] = 48108,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 48108,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[186406] = {
-										["activedamt"] = 1,
-										["id"] = 186406,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 186406,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["classe"] = "MAGE",
+							["last_event"] = 1537771695,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 187,
 					["tipo"] = 2,
+					["combatId"] = 187,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -281,10 +2393,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -301,13 +2413,13 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -318,11 +2430,12 @@ _detalhes_database = {
 				["end_time"] = 100974.8,
 				["combat_id"] = 187,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 					["River Crocolisk"] = 1,
 				},
 				["data_fim"] = "23:48:16",
-				["data_inicio"] = "23:48:00",
+				["contra"] = "River Crocolisk",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -338,16 +2451,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 100959.021,
-				["contra"] = "River Crocolisk",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.005881, -- [1]
@@ -386,11 +2498,12 @@ _detalhes_database = {
 						["max_value"] = 403,
 					},
 				},
-			}, -- [1]
+				["data_inicio"] = "23:48:00",
+			}, -- [6]
 			{
 				{
-					["combatId"] = 186,
 					["tipo"] = 2,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -403,51 +2516,51 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["total"] = 0.002658,
+							["last_event"] = 0,
 							["classe"] = "MAGE",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002658,
-							["on_hold"] = false,
-							["end_time"] = 1537771649,
+							["serial"] = "Player-104-09FD5086",
 							["dps_started"] = false,
-							["total"] = 0.002658,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["nome"] = "Thedodrouk",
+							["end_time"] = 1537771649,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
+							["on_hold"] = false,
+							["nome"] = "Thedodrouk",
 							["spec"] = 63,
-							["serial"] = "Player-104-09FD5086",
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 1866.002658,
 							["start_time"] = 1537771649,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 186,
 					["tipo"] = 3,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 186,
 					["tipo"] = 7,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 186,
 					["tipo"] = 9,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -459,18 +2572,17 @@ _detalhes_database = {
 							["nome"] = "Thedodrouk",
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1537771649,
-							["classe"] = "MAGE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[269083] = {
-										["activedamt"] = 1,
-										["id"] = 269083,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 269083,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -488,26 +2600,27 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[186406] = {
-										["activedamt"] = 1,
-										["id"] = 186406,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 186406,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["tipo"] = 4,
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 186,
 					["tipo"] = 2,
+					["combatId"] = 186,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -626,10 +2739,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 1,
 					}, -- [4]
@@ -646,13 +2759,13 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -663,10 +2776,11 @@ _detalhes_database = {
 				["end_time"] = 100927.988,
 				["combat_id"] = 186,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "23:47:29",
-				["data_inicio"] = "23:47:23",
+				["contra"] = "Young Panther",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -682,16 +2796,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 1,
 					}, -- [4]
 				},
 				["start_time"] = 100922.411,
-				["contra"] = "Young Panther",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.002658, -- [1]
@@ -709,7 +2822,8 @@ _detalhes_database = {
 						0, -- [5]
 					},
 				},
-			}, -- [2]
+				["data_inicio"] = "23:47:23",
+			}, -- [7]
 			{
 				{
 					["tipo"] = 2,
@@ -724,14 +2838,18 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
+							["serial"] = "Player-104-09FD5086",
 							["pets"] = {
 							},
-							["serial"] = "Player-104-09FD5086",
+							["damage_taken"] = 3602.007451,
+							["classe"] = "MAGE",
 							["friendlyfire_total"] = 182,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007451,
-							["spec"] = 63,
+							["total"] = 0.007451,
+							["fight_component"] = true,
+							["end_time"] = 1537455907,
 							["friendlyfire"] = {
 								["Thedodrouk"] = {
 									["spells"] = {
@@ -740,26 +2858,22 @@ _detalhes_database = {
 									["total"] = 182,
 								},
 							},
-							["dps_started"] = false,
-							["total"] = 0.007451,
-							["classe"] = "MAGE",
-							["end_time"] = 1537455907,
+							["last_event"] = 1537455906,
 							["nome"] = "Thedodrouk",
+							["spec"] = 63,
+							["grupo"] = true,
+							["on_hold"] = false,
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["fight_component"] = true,
-							["on_hold"] = false,
-							["last_event"] = 1537455906,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 3602.007451,
+							["last_dps"] = 0,
 							["start_time"] = 1537455906,
 							["delay"] = 0,
-							["last_dps"] = 0,
+							["dps_started"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -787,9 +2901,9 @@ _detalhes_database = {
 							["grupo"] = true,
 							["flag_original"] = 1047,
 							["buff_uptime"] = 4,
-							["last_event"] = 1537455907,
-							["nome"] = "Thedodrouk",
 							["tipo"] = 4,
+							["nome"] = "Thedodrouk",
+							["classe"] = "MAGE",
 							["pets"] = {
 							},
 							["buff_uptime_spells"] = {
@@ -842,7 +2956,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["classe"] = "MAGE",
+							["last_event"] = 1537455907,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1029,7 +3143,7 @@ _detalhes_database = {
 					},
 				},
 				["pvp"] = true,
-			}, -- [3]
+			}, -- [8]
 			{
 				{
 					["tipo"] = 2,
@@ -1048,8 +3162,8 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
 							["classe"] = "MAGE",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 680.001245,
@@ -1128,10 +3242,10 @@ _detalhes_database = {
 							["last_dps"] = 151.684417800328,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 54.001245,
 							["start_time"] = 1537455175,
 							["delay"] = 0,
-							["damage_taken"] = 54.001245,
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -1156,16 +3270,16 @@ _detalhes_database = {
 							["nome"] = "Thedodrouk",
 							["spec"] = 63,
 							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 12,
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "MAGE",
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
+							["buff_uptime_targets"] = {
+							},
 							["spell_cast"] = {
 								[133] = 1,
 							},
+							["last_event"] = 1537455179,
+							["buff_uptime"] = 12,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[186406] = {
@@ -1216,7 +3330,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455179,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1441,7 +3555,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:52:55",
-			}, -- [4]
+			}, -- [9]
 			{
 				{
 					["tipo"] = 2,
@@ -1459,8 +3573,8 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
 							["classe"] = "MAGE",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 681.006589,
@@ -1539,10 +3653,10 @@ _detalhes_database = {
 							["last_dps"] = 236.871857043478,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 0.006589,
 							["start_time"] = 1537455166,
 							["delay"] = 0,
-							["damage_taken"] = 0.006589,
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -1592,16 +3706,16 @@ _detalhes_database = {
 							["nome"] = "Thedodrouk",
 							["spec"] = 63,
 							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 12,
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "MAGE",
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
+							["buff_uptime_targets"] = {
+							},
 							["spell_cast"] = {
 								[133] = 1,
 							},
+							["last_event"] = 1537455170,
+							["buff_uptime"] = 12,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
@@ -1663,7 +3777,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455170,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1779,7 +3893,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:52:46",
-			}, -- [5]
+			}, -- [10]
 			{
 				{
 					["tipo"] = 2,
@@ -1797,16 +3911,16 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["classe"] = "MAGE",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 778.005429,
 							["spec"] = 63,
 							["dps_started"] = false,
 							["total"] = 778.005429,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["last_event"] = 1537455164,
 							["nome"] = "Thedodrouk",
 							["spells"] = {
@@ -1880,7 +3994,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.005429,
 							["start_time"] = 1537455160,
 							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -1931,14 +4045,14 @@ _detalhes_database = {
 							},
 							["spec"] = 63,
 							["grupo"] = true,
-							["last_event"] = 1537455164,
-							["pets"] = {
-							},
-							["nome"] = "Thedodrouk",
-							["buff_uptime"] = 16,
 							["tipo"] = 4,
+							["buff_uptime"] = 16,
+							["nome"] = "Thedodrouk",
 							["spell_cast"] = {
 								[133] = 1,
+							},
+							["classe"] = "MAGE",
+							["pets"] = {
 							},
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -2001,7 +4115,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["classe"] = "MAGE",
+							["last_event"] = 1537455164,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -2117,7 +4231,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:52:40",
-			}, -- [6]
+			}, -- [11]
 			{
 				{
 					["tipo"] = 2,
@@ -2137,16 +4251,16 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["classe"] = "MAGE",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 796.001675,
 							["spec"] = 63,
 							["dps_started"] = false,
 							["total"] = 796.001675,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["last_event"] = 1537455154,
 							["nome"] = "Thedodrouk",
 							["spells"] = {
@@ -2249,7 +4363,7 @@ _detalhes_database = {
 							["damage_taken"] = 88.001675,
 							["start_time"] = 1537455151,
 							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -2268,9 +4382,7 @@ _detalhes_database = {
 							["totalover"] = 0.002526,
 							["total_without_pet"] = 62.002526,
 							["total"] = 62.002526,
-							["targets_absorbs"] = {
-								["Thedodrouk"] = 62,
-							},
+							["spec"] = 63,
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -2285,7 +4397,7 @@ _detalhes_database = {
 							["healing_taken"] = 62.002526,
 							["fight_component"] = true,
 							["end_time"] = 1537455155,
-							["classe"] = "MAGE",
+							["last_event"] = 1537455154,
 							["nome"] = "Thedodrouk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2325,13 +4437,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Thedodrouk"] = true,
 							},
-							["tipo"] = 2,
+							["classe"] = "MAGE",
 							["custom"] = 0,
-							["last_event"] = 1537455154,
+							["tipo"] = 2,
 							["start_time"] = 1537455153,
 							["totaldenied"] = 0.002526,
 							["delay"] = 0,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+								["Thedodrouk"] = 62,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -2652,7 +4766,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:52:31",
-			}, -- [7]
+			}, -- [12]
 			{
 				{
 					["tipo"] = 2,
@@ -2670,16 +4784,16 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["classe"] = "MAGE",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 681.001983,
 							["spec"] = 63,
 							["dps_started"] = false,
 							["total"] = 681.001983,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["last_event"] = 1537455149,
 							["nome"] = "Thedodrouk",
 							["spells"] = {
@@ -2753,7 +4867,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.001983,
 							["start_time"] = 1537455146,
 							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -2804,14 +4918,14 @@ _detalhes_database = {
 							},
 							["spec"] = 63,
 							["grupo"] = true,
-							["last_event"] = 1537455150,
-							["pets"] = {
-							},
-							["nome"] = "Thedodrouk",
-							["buff_uptime"] = 16,
 							["tipo"] = 4,
+							["buff_uptime"] = 16,
+							["nome"] = "Thedodrouk",
 							["spell_cast"] = {
 								[133] = 1,
+							},
+							["classe"] = "MAGE",
+							["pets"] = {
 							},
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -2874,7 +4988,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["classe"] = "MAGE",
+							["last_event"] = 1537455150,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -2990,7 +5104,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:52:26",
-			}, -- [8]
+			}, -- [13]
 			{
 				{
 					["tipo"] = 2,
@@ -3009,16 +5123,16 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["classe"] = "MAGE",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 796.0051,
 							["spec"] = 63,
 							["dps_started"] = false,
 							["total"] = 796.0051,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["last_event"] = 1537455140,
 							["nome"] = "Thedodrouk",
 							["spells"] = {
@@ -3121,7 +5235,7 @@ _detalhes_database = {
 							["damage_taken"] = 36.0051,
 							["start_time"] = 1537455137,
 							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -3140,9 +5254,7 @@ _detalhes_database = {
 							["totalover"] = 0.005703,
 							["total_without_pet"] = 36.005703,
 							["total"] = 36.005703,
-							["targets_absorbs"] = {
-								["Thedodrouk"] = 36,
-							},
+							["spec"] = 63,
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -3157,7 +5269,7 @@ _detalhes_database = {
 							["healing_taken"] = 36.005703,
 							["fight_component"] = true,
 							["end_time"] = 1537455141,
-							["classe"] = "MAGE",
+							["last_event"] = 1537455140,
 							["nome"] = "Thedodrouk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3197,13 +5309,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Thedodrouk"] = true,
 							},
-							["tipo"] = 2,
+							["classe"] = "MAGE",
 							["custom"] = 0,
-							["last_event"] = 1537455140,
+							["tipo"] = 2,
 							["start_time"] = 1537455140,
 							["totaldenied"] = 0.005703,
 							["delay"] = 0,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+								["Thedodrouk"] = 36,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -3437,7 +5551,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:52:17",
-			}, -- [9]
+			}, -- [14]
 			{
 				{
 					["tipo"] = 2,
@@ -3455,8 +5569,8 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
 							["classe"] = "MAGE",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 684.002992,
@@ -3535,10 +5649,10 @@ _detalhes_database = {
 							["last_dps"] = 187.706638856886,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 0.002992,
 							["start_time"] = 1537455128,
 							["delay"] = 0,
-							["damage_taken"] = 0.002992,
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -3588,16 +5702,16 @@ _detalhes_database = {
 							["nome"] = "Thedodrouk",
 							["spec"] = 63,
 							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 12,
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "MAGE",
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
+							["buff_uptime_targets"] = {
+							},
 							["spell_cast"] = {
 								[133] = 1,
 							},
+							["last_event"] = 1537455131,
+							["buff_uptime"] = 12,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
@@ -3659,7 +5773,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455131,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -3775,7 +5889,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:52:08",
-			}, -- [10]
+			}, -- [15]
 			{
 				{
 					["tipo"] = 2,
@@ -3794,8 +5908,8 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
 							["classe"] = "MAGE",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 682.007344,
@@ -3874,10 +5988,10 @@ _detalhes_database = {
 							["last_dps"] = 192.711880189533,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 14.007344,
 							["start_time"] = 1537455117,
 							["delay"] = 0,
-							["damage_taken"] = 14.007344,
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -3927,16 +6041,16 @@ _detalhes_database = {
 							["nome"] = "Thedodrouk",
 							["spec"] = 63,
 							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 12,
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "MAGE",
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
+							["buff_uptime_targets"] = {
+							},
 							["spell_cast"] = {
 								[133] = 1,
 							},
+							["last_event"] = 1537455120,
+							["buff_uptime"] = 12,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
@@ -3998,7 +6112,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455120,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4191,7 +6305,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:51:57",
-			}, -- [11]
+			}, -- [16]
 			{
 				{
 					["tipo"] = 2,
@@ -4212,8 +6326,8 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
 							["classe"] = "MAGE",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 675.006031,
@@ -4226,6 +6340,64 @@ _detalhes_database = {
 							["nome"] = "Thedodrouk",
 							["spells"] = {
 								["_ActorTable"] = {
+									[2948] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Bone Chewer"] = 28,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 28,
+										["n_min"] = 28,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 28,
+										["c_max"] = 0,
+										["id"] = 2948,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[11366] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 398,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Bone Chewer"] = 398,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 398,
+										["c_max"] = 398,
+										["id"] = 11366,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 398,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
 									[133] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -4285,64 +6457,6 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
-									[2948] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 28,
-										["targets"] = {
-											["Bone Chewer"] = 28,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 28,
-										["n_min"] = 28,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 28,
-										["c_max"] = 0,
-										["id"] = 2948,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[11366] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 398,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Bone Chewer"] = 398,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 398,
-										["c_max"] = 398,
-										["id"] = 11366,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 398,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
 								},
 								["tipo"] = 2,
 							},
@@ -4351,10 +6465,10 @@ _detalhes_database = {
 							["last_dps"] = 58.2655184288976,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 47.006031,
 							["start_time"] = 1537455106,
 							["delay"] = 0,
-							["damage_taken"] = 47.006031,
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -4373,9 +6487,7 @@ _detalhes_database = {
 							["totalover"] = 0.004216,
 							["total_without_pet"] = 41.004216,
 							["total"] = 41.004216,
-							["targets_absorbs"] = {
-								["Thedodrouk"] = 41,
-							},
+							["spec"] = 63,
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -4390,7 +6502,7 @@ _detalhes_database = {
 							["healing_taken"] = 41.004216,
 							["fight_component"] = true,
 							["end_time"] = 1537455112,
-							["classe"] = "MAGE",
+							["last_event"] = 1537455111,
 							["nome"] = "Thedodrouk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4430,13 +6542,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Thedodrouk"] = true,
 							},
-							["tipo"] = 2,
+							["classe"] = "MAGE",
 							["custom"] = 0,
-							["last_event"] = 1537455111,
+							["tipo"] = 2,
 							["start_time"] = 1537455108,
 							["totaldenied"] = 0.004216,
 							["delay"] = 0,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+								["Thedodrouk"] = 41,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -4462,10 +6576,10 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["spell_cast"] = {
-								[133] = 1,
-								[11366] = 1,
 								[235313] = 1,
+								[11366] = 1,
 								[2948] = 1,
+								[133] = 1,
 							},
 							["classe"] = "MAGE",
 							["tipo"] = 4,
@@ -4664,7 +6778,7 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:51:41",
-			}, -- [12]
+			}, -- [17]
 			{
 				{
 					["tipo"] = 2,
@@ -4684,8 +6798,8 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
 							["classe"] = "MAGE",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 702.004212,
@@ -4793,10 +6907,10 @@ _detalhes_database = {
 							["last_dps"] = 141.847688827053,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 90.004212,
 							["start_time"] = 1537455094,
 							["delay"] = 0,
-							["damage_taken"] = 90.004212,
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -4846,16 +6960,16 @@ _detalhes_database = {
 							["nome"] = "Thedodrouk",
 							["spec"] = 63,
 							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 15,
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "MAGE",
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
+							["buff_uptime_targets"] = {
+							},
 							["spell_cast"] = {
 								[2948] = 2,
 							},
+							["last_event"] = 1537455099,
+							["buff_uptime"] = 15,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[186406] = {
@@ -4906,7 +7020,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455099,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5101,1921 +7215,11 @@ _detalhes_database = {
 					},
 				},
 				["data_inicio"] = "07:51:34",
-			}, -- [13]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 174,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.002023,
-							["damage_from"] = {
-								["Plague Spreader"] = true,
-							},
-							["targets"] = {
-								["Plague Spreader"] = 707,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
-							["classe"] = "MAGE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 707.002023,
-							["spec"] = 63,
-							["dps_started"] = false,
-							["total"] = 707.002023,
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1537455089,
-							["nome"] = "Thedodrouk",
-							["spells"] = {
-								["_ActorTable"] = {
-									[133] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 190,
-										["g_amt"] = 0,
-										["n_max"] = 95,
-										["targets"] = {
-											["Plague Spreader"] = 475,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 285,
-										["n_min"] = 95,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 475,
-										["c_max"] = 190,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 190,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[108853] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 232,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Plague Spreader"] = 232,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 232,
-										["c_max"] = 232,
-										["id"] = 108853,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 232,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["end_time"] = 1537455091,
-							["last_dps"] = 84.3879234904168,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1537455083,
-							["delay"] = 0,
-							["damage_taken"] = 156.002023,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 174,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 174,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 174,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Thedodrouk",
-							["spec"] = 63,
-							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 24,
-							["buff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "MAGE",
-							["spell_cast"] = {
-								[108853] = 1,
-								[133] = 3,
-							},
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 8,
-										["id"] = 186406,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48107] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 48107,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48108] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = 48108,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[269083] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 8,
-										["id"] = 269083,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455091,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 174,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Thedodrouk"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Plague Spreader",
-				["combat_counter"] = 198,
-				["playing_solo"] = true,
-				["totals"] = {
-					706.987661, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-					["Thedodrouk"] = {
-						{
-							true, -- [1]
-							85236, -- [2]
-							14, -- [3]
-							1537455093.658, -- [4]
-							1591, -- [5]
-							"Plague Spreader", -- [6]
-							nil, -- [7]
-							40, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							85236, -- [2]
-							12, -- [3]
-							1537455094.729, -- [4]
-							1579, -- [5]
-							"Plague Spreader", -- [6]
-							nil, -- [7]
-							40, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 3,
-					},
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Thedodrouk"] = 707.002023,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 337510.12,
-				["combat_id"] = 174,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Plague Spreader"] = 1,
-				},
-				["data_fim"] = "07:51:32",
-				["contra"] = "Plague Spreader",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					707, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 337501.742,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						190.002023, -- [1]
-						232, -- [2]
-						95, -- [3]
-						0, -- [4]
-						95, -- [5]
-						0, -- [6]
-						95, -- [7]
-						0, -- [8]
-						["max_value"] = 232,
-					},
-					["Raid Damage Done"] = {
-						190, -- [1]
-						232, -- [2]
-						95, -- [3]
-						0, -- [4]
-						95, -- [5]
-						0, -- [6]
-						95, -- [7]
-						0, -- [8]
-						["max_value"] = 232,
-					},
-				},
-				["data_inicio"] = "07:51:23",
-			}, -- [14]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 173,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004639,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Plague Spreader"] = 714,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
-							["classe"] = "MAGE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 714.004639,
-							["spec"] = 63,
-							["dps_started"] = false,
-							["total"] = 714.004639,
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1537455071,
-							["nome"] = "Thedodrouk",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108853] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 232,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Plague Spreader"] = 232,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 232,
-										["c_max"] = 232,
-										["id"] = 108853,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 232,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[133] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 189,
-										["g_amt"] = 0,
-										["n_max"] = 95,
-										["targets"] = {
-											["Plague Spreader"] = 284,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 95,
-										["n_min"] = 95,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 284,
-										["c_max"] = 189,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 189,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[11366] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 198,
-										["targets"] = {
-											["Plague Spreader"] = 198,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 198,
-										["n_min"] = 198,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 198,
-										["c_max"] = 0,
-										["id"] = 11366,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["end_time"] = 1537455072,
-							["last_dps"] = 330.71081009955,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1537455069,
-							["delay"] = 0,
-							["damage_taken"] = 0.004639,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 173,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 173,
-					["_ActorTable"] = {
-						{
-							["received"] = 34.001013,
-							["resource"] = 0.001013,
-							["targets"] = {
-								["Thedodrouk"] = 34,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "MAGE",
-							["total"] = 34.001013,
-							["nome"] = "Thedodrouk",
-							["spells"] = {
-								["_ActorTable"] = {
-									[59914] = {
-										["id"] = 59914,
-										["total"] = 34,
-										["targets"] = {
-											["Thedodrouk"] = 34,
-										},
-										["counter"] = 1,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["last_event"] = 1537455071,
-							["alternatepower"] = 0.001013,
-							["spec"] = 63,
-							["serial"] = "Player-104-09FD5086",
-							["tipo"] = 3,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 173,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Thedodrouk",
-							["spec"] = 63,
-							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 8,
-							["buff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "MAGE",
-							["spell_cast"] = {
-								[108853] = 1,
-								[133] = 1,
-								[11366] = 1,
-							},
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 186406,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48107] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 48107,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48108] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 48108,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[269083] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 269083,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455072,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 173,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Thedodrouk"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Plague Spreader",
-				["combat_counter"] = 197,
-				["playing_solo"] = true,
-				["totals"] = {
-					713.993522, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 34,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Thedodrouk"] = 714.004639,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 337490.222,
-				["combat_id"] = 173,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Plague Spreader"] = 1,
-				},
-				["data_fim"] = "07:51:12",
-				["contra"] = "Plague Spreader",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					714, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 34,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 337488.063,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						421.004639, -- [1]
-						293, -- [2]
-						["max_value"] = 421.004639,
-					},
-					["Raid Damage Done"] = {
-						421, -- [1]
-						293, -- [2]
-						["max_value"] = 421,
-					},
-				},
-				["data_inicio"] = "07:51:09",
-			}, -- [15]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 172,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004532,
-							["damage_from"] = {
-								["Bone Chewer"] = true,
-							},
-							["targets"] = {
-								["Bone Chewer"] = 644,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["total"] = 644.004532,
-							["classe"] = "MAGE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 644.004532,
-							["spec"] = 63,
-							["dps_started"] = false,
-							["end_time"] = 1537455053,
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1537455053,
-							["nome"] = "Thedodrouk",
-							["spells"] = {
-								["_ActorTable"] = {
-									[11366] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 398,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Bone Chewer"] = 398,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 398,
-										["c_max"] = 398,
-										["id"] = 11366,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 398,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[133] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 190,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Bone Chewer"] = 190,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 190,
-										["c_max"] = 190,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 190,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[2948] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 56,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Bone Chewer"] = 56,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 56,
-										["c_max"] = 56,
-										["id"] = 2948,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 56,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 148.115117755353,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1537455050,
-							["delay"] = 0,
-							["damage_taken"] = 79.004532,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 172,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 172,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.007004,
-							["resource"] = 16.007004,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "MAGE",
-							["total"] = 0.007004,
-							["nome"] = "Thedodrouk",
-							["spec"] = 63,
-							["grupo"] = true,
-							["resource_type"] = 18,
-							["last_event"] = 1537455053,
-							["tipo"] = 3,
-							["alternatepower"] = 0.007004,
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["flag_original"] = 1297,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 172,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Thedodrouk",
-							["spec"] = 63,
-							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 12,
-							["buff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "MAGE",
-							["spell_cast"] = {
-								[11366] = 1,
-								[133] = 1,
-								[2948] = 1,
-							},
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 186406,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48107] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = 48107,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48108] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 4,
-										["id"] = 48108,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[269083] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 269083,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455053,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 172,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Thedodrouk"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Bone Chewer",
-				["combat_counter"] = 196,
-				["playing_solo"] = true,
-				["totals"] = {
-					643.996634, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Thedodrouk"] = 644.004532,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 337472.06,
-				["combat_id"] = 172,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Bone Chewer"] = 1,
-				},
-				["data_fim"] = "07:50:53",
-				["contra"] = "Bone Chewer",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					644, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 337467.712,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						0.004532, -- [1]
-						588, -- [2]
-						0, -- [3]
-						56, -- [4]
-						["max_value"] = 588,
-					},
-					["Raid Damage Done"] = {
-						0, -- [1]
-						588, -- [2]
-						0, -- [3]
-						56, -- [4]
-						["max_value"] = 588,
-					},
-				},
-				["data_inicio"] = "07:50:49",
-			}, -- [16]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 171,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.002319,
-							["damage_from"] = {
-								["Flesh Eater"] = true,
-							},
-							["targets"] = {
-								["Flesh Eater"] = 821,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
-							["classe"] = "MAGE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 821.002319,
-							["spec"] = 63,
-							["dps_started"] = false,
-							["total"] = 821.002319,
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1537455043,
-							["nome"] = "Thedodrouk",
-							["spells"] = {
-								["_ActorTable"] = {
-									[11366] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 399,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Flesh Eater"] = 399,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 399,
-										["c_max"] = 399,
-										["id"] = 11366,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 399,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[133] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 190,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Flesh Eater"] = 190,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 190,
-										["c_max"] = 190,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 190,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[108853] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 232,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Flesh Eater"] = 232,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 232,
-										["c_max"] = 232,
-										["id"] = 108853,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 232,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["end_time"] = 1537455044,
-							["last_dps"] = 212.639813258967,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1537455043,
-							["delay"] = 0,
-							["damage_taken"] = 101.002319,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 171,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 171,
-					["_ActorTable"] = {
-						{
-							["received"] = 34.005821,
-							["resource"] = 0.005821,
-							["targets"] = {
-								["Thedodrouk"] = 34,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "MAGE",
-							["total"] = 34.005821,
-							["nome"] = "Thedodrouk",
-							["spells"] = {
-								["_ActorTable"] = {
-									[59914] = {
-										["id"] = 59914,
-										["total"] = 34,
-										["targets"] = {
-											["Thedodrouk"] = 34,
-										},
-										["counter"] = 1,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["last_event"] = 1537455043,
-							["alternatepower"] = 0.005821,
-							["spec"] = 63,
-							["serial"] = "Player-104-09FD5086",
-							["tipo"] = 3,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 171,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Thedodrouk",
-							["spec"] = 63,
-							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 8,
-							["buff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "MAGE",
-							["spell_cast"] = {
-								[11366] = 1,
-								[133] = 1,
-								[108853] = 1,
-							},
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 186406,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48107] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = 48107,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48108] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 2,
-										["id"] = 48108,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[269083] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 269083,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455044,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 171,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Thedodrouk"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Flesh Eater",
-				["combat_counter"] = 195,
-				["playing_solo"] = true,
-				["totals"] = {
-					820.997249, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 34,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Thedodrouk"] = 821.002319,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 337463.139,
-				["combat_id"] = 171,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Flesh Eater"] = 1,
-				},
-				["data_fim"] = "07:50:45",
-				["contra"] = "Flesh Eater",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					821, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 34,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 337459.278,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						0.002319, -- [1]
-						589, -- [2]
-						232, -- [3]
-						["max_value"] = 589,
-					},
-					["Raid Damage Done"] = {
-						0, -- [1]
-						589, -- [2]
-						232, -- [3]
-						["max_value"] = 589,
-					},
-				},
-				["data_inicio"] = "07:50:41",
-			}, -- [17]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 170,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.00471,
-							["damage_from"] = {
-								["Plague Spreader"] = true,
-							},
-							["targets"] = {
-								["Plague Spreader"] = 683,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
-							["classe"] = "MAGE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 683.00471,
-							["spec"] = 63,
-							["dps_started"] = false,
-							["total"] = 683.00471,
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1537455035,
-							["nome"] = "Thedodrouk",
-							["spells"] = {
-								["_ActorTable"] = {
-									[133] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 190,
-										["g_amt"] = 0,
-										["n_max"] = 95,
-										["targets"] = {
-											["Plague Spreader"] = 285,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 95,
-										["n_min"] = 95,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 285,
-										["c_max"] = 190,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 190,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[11366] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 398,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Plague Spreader"] = 398,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 398,
-										["c_max"] = 398,
-										["id"] = 11366,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 398,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["end_time"] = 1537455035,
-							["last_dps"] = 197.001646956785,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1537455032,
-							["delay"] = 0,
-							["damage_taken"] = 25.00471,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 170,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 170,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.005648,
-							["resource"] = 23.005648,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "MAGE",
-							["total"] = 0.005648,
-							["nome"] = "Thedodrouk",
-							["spec"] = 63,
-							["grupo"] = true,
-							["resource_type"] = 11,
-							["last_event"] = 1537455035,
-							["tipo"] = 3,
-							["alternatepower"] = 0.005648,
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["flag_original"] = 1297,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 170,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Thedodrouk",
-							["spec"] = 63,
-							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 9,
-							["buff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "MAGE",
-							["spell_cast"] = {
-								[133] = 1,
-							},
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 186406,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48107] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = 48107,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48108] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 48108,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[269083] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 269083,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-104-09FD5086",
-							["last_event"] = 1537455035,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 170,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Thedodrouk"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Plague Spreader",
-				["combat_counter"] = 194,
-				["playing_solo"] = true,
-				["totals"] = {
-					682.991042, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-					["Thedodrouk"] = {
-						{
-							true, -- [1]
-							85236, -- [2]
-							12, -- [3]
-							1537455038.119, -- [4]
-							1636, -- [5]
-							"Plague Spreader", -- [6]
-							nil, -- [7]
-							40, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							85236, -- [2]
-							13, -- [3]
-							1537455039.07, -- [4]
-							1641, -- [5]
-							"Plague Spreader", -- [6]
-							nil, -- [7]
-							40, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 3,
-					},
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Thedodrouk"] = 683.00471,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 337453.801,
-				["combat_id"] = 170,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Plague Spreader"] = 1,
-				},
-				["data_fim"] = "07:50:35",
-				["contra"] = "Plague Spreader",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					683, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 337450.334,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						588.00471, -- [1]
-						0, -- [2]
-						95, -- [3]
-						["max_value"] = 588.00471,
-					},
-					["Raid Damage Done"] = {
-						588, -- [1]
-						0, -- [2]
-						95, -- [3]
-						["max_value"] = 588,
-					},
-				},
-				["data_inicio"] = "07:50:32",
 			}, -- [18]
 		},
 	},
-	["combat_counter"] = 213,
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
-	},
+	["combat_counter"] = 220,
+	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
 	["local_instances_config"] = {
@@ -7115,7 +7319,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -7124,7 +7328,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -7218,14 +7422,23 @@ _detalhes_database = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["font_size"] = 14,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = false,
+			["y"] = -20.15869140625,
+			["x"] = 0,
+			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -7237,21 +7450,12 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 14,
-			["use_spark"] = false,
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["y"] = -20.15869140625,
-			["author"] = "Details! Team",
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
@@ -7285,16 +7489,26 @@ _detalhes_database = {
 		},
 	},
 	["ignore_nicktag"] = false,
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["last_version"] = "v8.0.1.6449",
+	["combat_id"] = 192,
+	["savedStyles"] = {
+	},
+	["last_instance_time"] = 1537083719,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_version"] = "v8.0.1.6449",
-	["combat_id"] = 187,
-	["savedStyles"] = {
-	},
-	["last_instance_time"] = 1537083719,
-	["last_day"] = "23",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -7331,15 +7545,15 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
-					["classe"] = "WARRIOR",
 					["friendlyfire_total"] = 0,
+					["classe"] = "WARRIOR",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 34631.073923,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["dps_started"] = false,
-					["end_time"] = 1537083770,
-					["damage_taken"] = 1913.073923,
+					["total"] = 34631.073923,
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Ghats-Goldrinn",
 					["spells"] = {
@@ -7374,11 +7588,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 101,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 							[7384] = {
@@ -7411,11 +7625,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 24,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[126664] = {
@@ -7444,11 +7658,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[34428] = {
@@ -7479,11 +7693,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 13,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[105771] = {
@@ -7516,34 +7730,6 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							},
-							[57755] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 9,
-								["targets"] = {
-									["Adolescent Flame Hound"] = 9,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 9,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 9,
-								["c_max"] = 0,
-								["id"] = 57755,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
 							[12294] = {
 								["c_amt"] = 10,
 								["b_amt"] = 0,
@@ -7574,11 +7760,39 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 46,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[57755] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 9,
+								["targets"] = {
+									["Adolescent Flame Hound"] = 9,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 9,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 9,
+								["c_max"] = 0,
+								["id"] = 57755,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[260643] = {
@@ -7609,11 +7823,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 18,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[1464] = {
@@ -7644,11 +7858,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 49,
 								["n_amt"] = 33,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[260798] = {
@@ -7681,11 +7895,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 138,
 								["n_amt"] = 23,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -7697,14 +7911,14 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 1913.073923,
 					["start_time"] = 1537083354,
 					["delay"] = 0,
-					["total"] = 34631.073923,
+					["end_time"] = 1537083770,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.788149,
+					["totalabsorbed"] = 0.802977,
 					["damage_from"] = {
 						["Nightbane Vile Fang"] = true,
 						["Marina DeSirrus"] = true,
@@ -7730,20 +7944,22 @@ _detalhes_database = {
 						["[*] Lava"] = true,
 						["Stalvan Mistmantle"] = true,
 						["Lava Guard Gordoth"] = true,
+						["Fäbülõüs-Dalaran"] = true,
+						["Lurking Worgen"] = true,
 						["Flesh Eater"] = true,
 						["Rotting Horror"] = true,
 						["Plague Spreader"] = true,
 						["Nightbane Stalker"] = true,
 						["Adarogg"] = true,
-						["Lurking Worgen"] = true,
 						["Adolescent Flame Hound"] = true,
+						["Corrupted Houndmaster"] = true,
 						["Nightbane Tainted One"] = true,
 						["Fetid Corpse"] = true,
-						["Corrupted Houndmaster"] = true,
-						["Young Panther"] = true,
 						["Slagmaw"] = true,
+						["Young Panther"] = true,
 						["Dark Shaman Koranthal"] = true,
 						["Insane Ghoul"] = true,
+						["Young Stranglethorn Tiger"] = true,
 						["Anguished Spirit"] = true,
 					},
 					["targets"] = {
@@ -7754,8 +7970,8 @@ _detalhes_database = {
 						["Barn Owl"] = 626,
 						["River Crocolisk"] = 749,
 						["Splinter Fist Warrior"] = 3045,
-						["Flesh Eating Worm"] = 229,
-						["Rotted One"] = 1371,
+						["Flesh Eating Worm"] = 269,
+						["Rotted One"] = 2125,
 						["Skeletal Mage"] = 3611,
 						["Grave Robber"] = 1496,
 						["Slagmaw"] = 3631,
@@ -7774,7 +7990,7 @@ _detalhes_database = {
 						["Plague Spreader"] = 7099,
 						["Marina DeSirrus"] = 1145,
 						["Flesh Eater"] = 3099,
-						["Rotting Horror"] = 496,
+						["Rotting Horror"] = 1399,
 						["Venom Web Spider"] = 0,
 						["Nightbane Stalker"] = 2623,
 						["Adarogg"] = 3192,
@@ -7795,26 +8011,26 @@ _detalhes_database = {
 					["classe"] = "MAGE",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 115808.788149,
-					["serial"] = "Player-104-09FD5086",
-					["last_dps"] = 0,
+					["total_without_pet"] = 117505.802977,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1537083770,
 					["friendlyfire_total"] = 182,
-					["total"] = 116648.788149,
+					["serial"] = "Player-104-09FD5086",
 					["nome"] = "Thedodrouk",
 					["spec"] = 63,
 					["grupo"] = true,
-					["on_hold"] = false,
-					["last_event"] = 0,
+					["total"] = 118345.802977,
+					["last_dps"] = 0,
 					["spells"] = {
 						["_ActorTable"] = {
 							[133] = {
-								["c_amt"] = 187,
+								["c_amt"] = 189,
 								["b_amt"] = 0,
-								["c_dmg"] = 32571,
+								["c_dmg"] = 32955,
 								["g_amt"] = 0,
-								["n_max"] = 95,
+								["n_max"] = 96,
 								["targets"] = {
 									["Nightbane Vile Fang"] = 1868,
 									["Dark Shaman Acolyte"] = 2377,
@@ -7823,7 +8039,7 @@ _detalhes_database = {
 									["Barn Owl"] = 184,
 									["Splinter Fist Warrior"] = 599,
 									["Flesh Eating Worm"] = 189,
-									["Rotted One"] = 377,
+									["Rotted One"] = 761,
 									["Skeletal Mage"] = 1014,
 									["Grave Robber"] = 643,
 									["Slagmaw"] = 1971,
@@ -7842,7 +8058,7 @@ _detalhes_database = {
 									["Plague Spreader"] = 3314,
 									["Marina DeSirrus"] = 276,
 									["Flesh Eater"] = 1042,
-									["Rotting Horror"] = 168,
+									["Rotting Horror"] = 838,
 									["Venom Web Spider"] = 0,
 									["Nightbane Stalker"] = 680,
 									["Adarogg"] = 1450,
@@ -7858,22 +8074,22 @@ _detalhes_database = {
 									["Anguished Spirit"] = 1191,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 12971,
+								["n_dmg"] = 13641,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 340,
-								["total"] = 45542,
-								["c_max"] = 190,
+								["counter"] = 349,
+								["total"] = 46596,
+								["c_max"] = 192,
 								["id"] = 133,
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 153,
-								["m_amt"] = 0,
+								["n_amt"] = 160,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[2120] = {
@@ -7904,11 +8120,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 25,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[2948] = {
@@ -7926,7 +8142,7 @@ _detalhes_database = {
 									["River Crocolisk"] = 113,
 									["Lava Guard Gordoth"] = 73,
 									["Skeletal Mage"] = 50,
-									["Rotted One"] = 198,
+									["Rotted One"] = 254,
 									["Corpseweed"] = 77,
 									["Black Widow Hatchling"] = 151,
 									["Bone Chewer"] = 84,
@@ -7944,54 +8160,55 @@ _detalhes_database = {
 									["Anguished Spirit"] = 55,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 1057,
+								["n_dmg"] = 1113,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 67,
-								["total"] = 2438,
+								["counter"] = 69,
+								["total"] = 2494,
 								["c_max"] = 57,
 								["id"] = 2948,
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 41,
-								["m_amt"] = 0,
+								["n_amt"] = 43,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[235314] = {
-								["c_amt"] = 1,
+								["c_amt"] = 4,
 								["b_amt"] = 0,
-								["c_dmg"] = 38,
+								["c_dmg"] = 158,
 								["g_amt"] = 0,
 								["n_max"] = 20,
 								["targets"] = {
 									["Grave Robber"] = 95,
-									["Flesh Eating Worm"] = 40,
+									["Flesh Eating Worm"] = 80,
 									["Marina DeSirrus"] = 19,
 									["Plague Spreader"] = 20,
+									["Rotted One"] = 80,
 									["Bone Chewer"] = 40,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 176,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 10,
-								["total"] = 214,
-								["c_max"] = 38,
+								["counter"] = 13,
+								["total"] = 334,
+								["c_max"] = 40,
 								["id"] = 235314,
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[122] = {
@@ -8016,11 +8233,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[11366] = {
@@ -8079,17 +8296,17 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 25,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[108853] = {
-								["c_amt"] = 80,
+								["c_amt"] = 82,
 								["b_amt"] = 0,
-								["c_dmg"] = 16793,
+								["c_dmg"] = 17260,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
@@ -8099,6 +8316,7 @@ _detalhes_database = {
 									["Black Widow"] = 225,
 									["River Crocolisk"] = 233,
 									["Splinter Fist Warrior"] = 417,
+									["Rotted One"] = 234,
 									["Skeletal Mage"] = 413,
 									["Grave Robber"] = 225,
 									["Slagmaw"] = 602,
@@ -8115,7 +8333,7 @@ _detalhes_database = {
 									["Lurking Worgen"] = 225,
 									["Plague Spreader"] = 696,
 									["Flesh Eater"] = 464,
-									["Rotting Horror"] = 205,
+									["Rotting Horror"] = 438,
 									["Venom Web Spider"] = 0,
 									["Nightbane Stalker"] = 414,
 									["Adarogg"] = 790,
@@ -8134,19 +8352,19 @@ _detalhes_database = {
 								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 80,
-								["total"] = 16793,
-								["c_max"] = 233,
+								["counter"] = 82,
+								["total"] = 17260,
+								["c_max"] = 234,
 								["id"] = 108853,
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -8154,9 +8372,6 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 11828.788149,
-					["start_time"] = 1537082844,
-					["delay"] = 0,
 					["friendlyfire"] = {
 						["Thedodrouk"] = {
 							["spells"] = {
@@ -8165,6 +8380,9 @@ _detalhes_database = {
 							["total"] = 182,
 						},
 					},
+					["start_time"] = 1537082817,
+					["delay"] = 0,
+					["damage_taken"] = 14450.802977,
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
@@ -8198,7 +8416,7 @@ _detalhes_database = {
 					},
 					["friendlyfire"] = {
 					},
-					["nome"] = "Pàladîn-Frostmourne",
+					["boss_fight_component"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
@@ -8209,7 +8427,10 @@ _detalhes_database = {
 					["total"] = 33341.069273,
 					["serial"] = "Player-3725-0AB4BF6A",
 					["isTank"] = true,
-					["boss_fight_component"] = true,
+					["nome"] = "Pàladîn-Frostmourne",
+					["spec"] = 66,
+					["grupo"] = true,
+					["last_event"] = 0,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -8242,11 +8463,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 64,
 								["n_amt"] = 124,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 							[53600] = {
@@ -8279,11 +8500,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 44,
 								["n_amt"] = 46,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[275779] = {
@@ -8316,11 +8537,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 24,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[204301] = {
@@ -8352,11 +8573,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 74,
 								["n_amt"] = 307,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[204242] = {
@@ -8420,11 +8641,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 698,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[31935] = {
@@ -8457,19 +8678,16 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 53,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["grupo"] = true,
-					["last_event"] = 0,
-					["spec"] = 66,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -8521,15 +8739,15 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
-					["classe"] = "ROGUE",
 					["friendlyfire_total"] = 0,
+					["classe"] = "ROGUE",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 16127.056639,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["dps_started"] = false,
-					["end_time"] = 1537083831,
-					["damage_taken"] = 1645.056639,
+					["total"] = 16127.056639,
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Krelel-Draenor",
 					["spells"] = {
@@ -8602,11 +8820,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 38,
 								["n_amt"] = 61,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[1766] = {
@@ -8664,11 +8882,81 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 23,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[259756] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 4,
+								["targets"] = {
+									["Dark Shaman Koranthal"] = 26,
+									["Slagmaw"] = 20,
+									["Dark Shaman Acolyte"] = 17,
+									["Corrupted Reaver"] = 16,
+									["Adarogg"] = 20,
+									["Corrupted Flamecaller"] = 9,
+									["Mature Flame Hound"] = 10,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 118,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 89,
+								["total"] = 118,
+								["c_max"] = 0,
+								["id"] = 259756,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 89,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[1943] = {
+								["c_amt"] = 16,
+								["b_amt"] = 0,
+								["c_dmg"] = 762,
+								["g_amt"] = 0,
+								["n_max"] = 28,
+								["targets"] = {
+									["Slagmaw"] = 327,
+									["Dark Shaman Acolyte"] = 25,
+									["Adolescent Flame Hound"] = 101,
+									["Adarogg"] = 464,
+									["Dark Shaman Koranthal"] = 390,
+									["Corrupted Flamecaller"] = 103,
+									["Corrupted Reaver"] = 238,
+									["Lava Guard Gordoth"] = 531,
+									["Mature Flame Hound"] = 226,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1643,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 83,
+								["total"] = 2405,
+								["c_max"] = 54,
+								["id"] = 1943,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 67,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[196819] = {
@@ -8701,81 +8989,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 17,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							[1943] = {
-								["c_amt"] = 16,
-								["b_amt"] = 0,
-								["c_dmg"] = 762,
-								["g_amt"] = 0,
-								["n_max"] = 28,
-								["targets"] = {
-									["Slagmaw"] = 327,
-									["Dark Shaman Acolyte"] = 25,
-									["Adolescent Flame Hound"] = 101,
-									["Adarogg"] = 464,
-									["Dark Shaman Koranthal"] = 390,
-									["Corrupted Flamecaller"] = 103,
-									["Corrupted Reaver"] = 238,
-									["Lava Guard Gordoth"] = 531,
-									["Mature Flame Hound"] = 226,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1643,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 83,
-								["total"] = 2405,
-								["c_max"] = 54,
-								["id"] = 1943,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 67,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							[259756] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 4,
-								["targets"] = {
-									["Dark Shaman Koranthal"] = 26,
-									["Slagmaw"] = 20,
-									["Dark Shaman Acolyte"] = 17,
-									["Corrupted Reaver"] = 16,
-									["Adarogg"] = 20,
-									["Corrupted Flamecaller"] = 9,
-									["Mature Flame Hound"] = 10,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 118,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 89,
-								["total"] = 118,
-								["c_max"] = 0,
-								["id"] = 259756,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 89,
-								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -8787,10 +9005,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 1645.056639,
 					["start_time"] = 1537083486,
 					["delay"] = 0,
-					["total"] = 16127.056639,
+					["end_time"] = 1537083831,
 				}, -- [4]
 				{
 					["flag_original"] = 8465,
@@ -8806,18 +9024,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["last_event"] = 0,
 					["classe"] = "PET",
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 512.021827,
 					["serial"] = "Creature-0-3138-389-23335-95577-00001E09E0",
 					["dps_started"] = false,
 					["total"] = 512.021827,
-					["damage_taken"] = 1844.021827,
+					["friendlyfire"] = {
+					},
 					["ownerName"] = "Thedodrouk",
-					["nome"] = "Void Tendril <Thedodrouk> <Thedodrouk>",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -8843,26 +9062,25 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 6,
 								["n_amt"] = 75,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["damage_taken"] = 1844.021827,
 					["on_hold"] = false,
 					["end_time"] = 1537084348,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1537084323,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
+					["nome"] = "Void Tendril <Thedodrouk> <Thedodrouk>",
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
@@ -8881,17 +9099,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1910.012436,
 					["serial"] = "Creature-0-3138-389-23335-61408-00001E0938",
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1537083969,
-					["on_hold"] = false,
-					["damage_taken"] = 15791.012436,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
 					["nome"] = "Adarogg",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -8917,11 +9136,11 @@ _detalhes_database = {
 								["a_dmg"] = 717,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 178,
 								["n_amt"] = 13,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 							[119299] = {
@@ -8946,11 +9165,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[119405] = {
@@ -8973,11 +9192,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[119420] = {
@@ -9001,11 +9220,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -9016,11 +9235,10 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 15791.012436,
 					["start_time"] = 1537083924,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 1298,
@@ -9044,15 +9262,16 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
-					["classe"] = "DRUID",
 					["friendlyfire_total"] = 0,
+					["classe"] = "DRUID",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 13747.04006,
-					["damage_taken"] = 1382.04006,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
 					["total"] = 13747.04006,
-					["on_hold"] = false,
+					["damage_taken"] = 1382.04006,
 					["last_event"] = 0,
 					["nome"] = "Grizzledtree-Stormrage",
 					["spells"] = {
@@ -9081,11 +9300,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 49,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[164815] = {
@@ -9112,11 +9331,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 52,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[164812] = {
@@ -9143,11 +9362,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 54,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -9158,11 +9377,10 @@ _detalhes_database = {
 					["end_time"] = 1537083969,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1537083824,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 				}, -- [7]
 				{
 					["flag_original"] = 2632,
@@ -9180,18 +9398,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2042.027807,
 					["serial"] = "Creature-0-3138-389-23335-61672-00021E0938",
-					["dps_started"] = false,
+					["monster"] = true,
 					["total"] = 2042.027807,
 					["friendlyfire"] = {
 					},
-					["damage_taken"] = 15678.027807,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -9212,7 +9430,7 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 43,
 								["MISS"] = 1,
-								["total"] = 1345,
+								["r_amt"] = 0,
 								["c_max"] = 0,
 								["a_amt"] = 21,
 								["id"] = 1,
@@ -9221,12 +9439,12 @@ _detalhes_database = {
 								["a_dmg"] = 714,
 								["m_crit"] = 0,
 								["PARRY"] = 4,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
 								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["c_min"] = 0,
 								["n_amt"] = 36,
 								["DODGE"] = 2,
-								["r_amt"] = 0,
+								["total"] = 1345,
 							}, -- [1]
 							[119903] = {
 								["c_amt"] = 0,
@@ -9249,11 +9467,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 7,
 								["b_dmg"] = 0,
 								["n_amt"] = 7,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[119902] = {
@@ -9276,11 +9494,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -9291,10 +9509,10 @@ _detalhes_database = {
 					["nome"] = "Dark Shaman Acolyte",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 15678.027807,
 					["start_time"] = 1537083924,
 					["delay"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 				}, -- [8]
 				{
 					["flag_original"] = 2632,
@@ -9313,18 +9531,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 5577.040465,
 					["serial"] = "Creature-0-3138-389-23335-61678-00011E0938",
-					["dps_started"] = false,
+					["monster"] = true,
 					["total"] = 5577.040465,
 					["friendlyfire"] = {
 					},
-					["damage_taken"] = 19281.040465,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -9345,7 +9563,7 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 92,
 								["MISS"] = 3,
-								["total"] = 3595,
+								["r_amt"] = 0,
 								["c_max"] = 0,
 								["a_amt"] = 43,
 								["id"] = 1,
@@ -9354,12 +9572,12 @@ _detalhes_database = {
 								["a_dmg"] = 1785,
 								["m_crit"] = 0,
 								["PARRY"] = 7,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
 								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["c_min"] = 0,
 								["n_amt"] = 79,
 								["DODGE"] = 3,
-								["r_amt"] = 0,
+								["total"] = 3595,
 							}, -- [1]
 							[120166] = {
 								["c_amt"] = 0,
@@ -9386,9 +9604,9 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 14,
 								["m_amt"] = 0,
+								["successful_casted"] = 14,
+								["c_min"] = 0,
 								["n_amt"] = 43,
 								["a_dmg"] = 0,
 								["r_amt"] = 0,
@@ -9401,10 +9619,10 @@ _detalhes_database = {
 					["nome"] = "Corrupted Reaver",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 19281.040465,
 					["start_time"] = 1537083901,
 					["delay"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 				}, -- [9]
 				{
 					["flag_original"] = 2632,
@@ -9425,17 +9643,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2030.011581,
 					["serial"] = "Creature-0-3138-389-23335-61412-00001E0938",
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1537084109,
-					["on_hold"] = false,
-					["damage_taken"] = 12658.011581,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
 					["nome"] = "Dark Shaman Koranthal",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -9461,11 +9680,11 @@ _detalhes_database = {
 								["a_dmg"] = 257,
 								["m_crit"] = 0,
 								["a_amt"] = 3,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 							[119964] = {
@@ -9489,11 +9708,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[119971] = {
@@ -9516,11 +9735,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[119300] = {
@@ -9545,11 +9764,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -9560,11 +9779,10 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 12658.011581,
 					["start_time"] = 1537084076,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
@@ -9582,17 +9800,18 @@ _detalhes_database = {
 						"Flame Spout <Corrupted Flamecaller> <Corrupted Flamecaller> <Corrupted Flamecaller>", -- [1]
 						"Flame Spout <Corrupted Flamecaller> <Corrupted Flamecaller>", -- [2]
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1303.01649,
 					["serial"] = "Creature-0-3138-389-23335-61705-00011E0938",
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1537084175,
-					["on_hold"] = false,
-					["damage_taken"] = 6373.01649,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
 					["nome"] = "Corrupted Flamecaller",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -9611,7 +9830,7 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 13,
 								["DODGE"] = 1,
-								["total"] = 493,
+								["r_amt"] = 0,
 								["c_max"] = 0,
 								["MISS"] = 1,
 								["id"] = 1,
@@ -9620,12 +9839,12 @@ _detalhes_database = {
 								["a_dmg"] = 280,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
 								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["c_min"] = 0,
 								["n_amt"] = 10,
 								["a_amt"] = 6,
-								["r_amt"] = 0,
+								["total"] = 493,
 							}, -- [1]
 							[120112] = {
 								["c_amt"] = 0,
@@ -9676,11 +9895,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -9691,11 +9910,10 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 6373.01649,
 					["start_time"] = 1537084106,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
@@ -9708,15 +9926,16 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
-					["on_hold"] = false,
+					["damage_taken"] = 0.007414,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007414,
-					["damage_taken"] = 0.007414,
-					["dps_started"] = false,
+					["friendlyfire"] = {
+					},
+					["monster"] = true,
 					["total"] = 0.007414,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["ownerName"] = "Corrupted Flamecaller",
 					["nome"] = "Flame Spout <Corrupted Flamecaller> <Corrupted Flamecaller> <Corrupted Flamecaller>",
 					["spells"] = {
@@ -9741,11 +9960,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -9756,11 +9975,10 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1537084293,
 					["delay"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
@@ -9781,17 +9999,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4081.012173,
 					["serial"] = "Vehicle-0-3138-389-23335-61463-00001E0938",
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1537084296,
-					["on_hold"] = false,
-					["damage_taken"] = 15854.012173,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
 					["nome"] = "Slagmaw",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -9815,11 +10034,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 13,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[119433] = {
@@ -9847,11 +10066,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 15,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -9862,11 +10081,10 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 15854.012173,
 					["start_time"] = 1537084245,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = -2147483648,
@@ -9883,11 +10101,12 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 269.009968,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["end_time"] = 1537084296,
 					["serial"] = "",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -9912,23 +10131,22 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 0.009968,
+					["last_dps"] = 0,
 					["total"] = 269.009968,
 					["nome"] = "Environment (Lava)",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 0.009968,
 					["start_time"] = 1537084288,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -9944,16 +10162,16 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
 					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.009406,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["end_time"] = 1537084296,
-					["damage_taken"] = 0.009406,
+					["friendlyfire"] = {
+					},
 					["ownerName"] = "Corrupted Flamecaller",
 					["nome"] = "Flame Spout <Corrupted Flamecaller> <Corrupted Flamecaller>",
 					["spells"] = {
@@ -9995,10 +10213,10 @@ _detalhes_database = {
 					["total"] = 0.009406,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["start_time"] = 1537084293,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.009406,
 				}, -- [15]
 				{
 					["flag_original"] = 68168,
@@ -10021,17 +10239,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4148.005843,
 					["serial"] = "Creature-0-3138-389-23335-61528-00001E0938",
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1537084348,
-					["on_hold"] = false,
-					["damage_taken"] = 15718.005843,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
 					["nome"] = "Lava Guard Gordoth",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10057,11 +10276,11 @@ _detalhes_database = {
 								["a_dmg"] = 1350,
 								["m_crit"] = 0,
 								["a_amt"] = 14,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 47,
 								["n_amt"] = 17,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 							[120024] = {
@@ -10090,11 +10309,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 10,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[119999] = {
@@ -10119,11 +10338,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[50420] = {
@@ -10146,11 +10365,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -10161,11 +10380,10 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 15718.005843,
 					["start_time"] = 1537084304,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 				}, -- [16]
 				{
 					["flag_original"] = 2632,
@@ -10176,18 +10394,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Flame Spout <Corrupted Flamecaller>",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005694,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1537251420,
+					["monster"] = true,
+					["total"] = 0.005694,
+					["last_dps"] = 0,
 					["damage_taken"] = 0.005694,
-					["friendlyfire"] = {
-					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10211,8 +10428,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -10227,10 +10444,11 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1537251417,
 					["serial"] = "Creature-0-3138-389-23335-61786-00001E0B57",
-					["total"] = 0.005694,
+					["end_time"] = 1537251420,
 				}, -- [17]
 			},
 		}, -- [1]
@@ -10298,12 +10516,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 556,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 846,
 								["n_amt"] = 12,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[774] = {
@@ -10334,12 +10552,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 1438,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 4132,
 								["n_amt"] = 155,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[8936] = {
@@ -10367,12 +10585,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 2876,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 3181,
 								["n_amt"] = 119,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[18562] = {
@@ -10396,12 +10614,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 3322,
 								["n_amt"] = 7,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[33763] = {
@@ -10426,12 +10644,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 1004,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 3054,
 								["n_amt"] = 238,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 						},
@@ -10503,12 +10721,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 819,
 								["n_amt"] = 150,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[59913] = {
@@ -10531,12 +10749,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 124,
 								["n_amt"] = 7,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 						},
@@ -10546,11 +10764,11 @@ _detalhes_database = {
 					["heal_enemy_amt"] = 0,
 					["start_time"] = 1537083473,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["spec"] = 66,
 					["totaldenied"] = 0.079095,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
@@ -10606,12 +10824,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 207,
 								["n_amt"] = 36,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[118779] = {
@@ -10634,12 +10852,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 119,
 								["n_amt"] = 16,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 						},
@@ -10657,15 +10875,17 @@ _detalhes_database = {
 				}, -- [3]
 				{
 					["flag_original"] = 1297,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["Thedodrouk"] = true,
+						["Grizzledtree-Stormrage"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
 					["heal_enemy_amt"] = 0,
-					["totalover"] = 0.050153,
-					["total_without_pet"] = 487.050153,
-					["total"] = 487.050153,
+					["totalover"] = 0.059417,
+					["total_without_pet"] = 674.059417,
+					["total"] = 674.059417,
 					["targets_absorbs"] = {
 						["Thedodrouk"] = 0,
 					},
@@ -10673,62 +10893,60 @@ _detalhes_database = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Player-104-09FD5086",
-					["totalabsorb"] = 487.050153,
+					["totalabsorb"] = 674.059417,
 					["last_hps"] = 0,
 					["targets"] = {
 						["Thedodrouk"] = 0,
 					},
-					["totalover_without_pet"] = 0.050153,
-					["healing_taken"] = 2309.050153,
+					["totalover_without_pet"] = 0.059417,
+					["healing_taken"] = 2496.059417,
 					["fight_component"] = true,
 					["end_time"] = 1537083788,
-					["spec"] = 63,
+					["classe"] = "MAGE",
 					["nome"] = "Thedodrouk",
 					["spells"] = {
 						["_ActorTable"] = {
 							[235313] = {
 								["c_amt"] = 0,
-								["totalabsorb"] = 487,
+								["totalabsorb"] = 674,
 								["targets_overheal"] = {
 								},
 								["n_max"] = 67,
 								["targets"] = {
-									["Thedodrouk"] = 487,
+									["Thedodrouk"] = 674,
 								},
 								["n_min"] = 0,
-								["counter"] = 14,
+								["counter"] = 22,
 								["overheal"] = 0,
-								["total"] = 487,
+								["total"] = 674,
 								["c_max"] = 0,
 								["id"] = 235313,
 								["targets_absorbs"] = {
-									["Thedodrouk"] = 487,
+									["Thedodrouk"] = 674,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
-								["n_curado"] = 487,
-								["n_amt"] = 14,
-								["m_healed"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 674,
+								["n_amt"] = 22,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["healing_from"] = {
-						["Thedodrouk"] = true,
-						["Grizzledtree-Stormrage"] = true,
+					["targets_overheal"] = {
 					},
-					["last_event"] = 0,
+					["spec"] = 63,
 					["custom"] = 0,
 					["tipo"] = 2,
-					["start_time"] = 1537083774,
-					["totaldenied"] = 0.050153,
+					["start_time"] = 1537083770,
+					["totaldenied"] = 0.059417,
 					["delay"] = 0,
-					["classe"] = "MAGE",
+					["last_event"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
@@ -10782,12 +11000,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 6,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[259760] = {
@@ -10810,12 +11028,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 2,
-								["m_healed"] = 0,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 						},
@@ -10930,7 +11148,7 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["flag_original"] = 1297,
-					["resource"] = 1382.844576,
+					["resource"] = 1843.97413,
 					["targets"] = {
 						["Thedodrouk"] = 0,
 					},
@@ -10938,29 +11156,30 @@ _detalhes_database = {
 					},
 					["powertype"] = 3,
 					["classe"] = "MAGE",
-					["total"] = 1693.488481,
+					["fight_component"] = true,
+					["total"] = 1790.498267,
 					["nome"] = "Thedodrouk",
 					["spec"] = 63,
 					["grupo"] = true,
 					["resource_type"] = 18,
-					["received"] = 1693.488481,
 					["tipo"] = 3,
-					["alternatepower"] = 0.488481,
+					["last_event"] = 0,
+					["alternatepower"] = 0.498267,
 					["spells"] = {
 						["_ActorTable"] = {
 							[59914] = {
 								["id"] = 59914,
-								["total"] = 1693,
+								["total"] = 1790,
 								["targets"] = {
 									["Thedodrouk"] = 0,
 								},
-								["counter"] = 59,
+								["counter"] = 62,
 							},
 						},
 						["tipo"] = 7,
 					},
 					["serial"] = "Player-104-09FD5086",
-					["last_event"] = 0,
+					["received"] = 1790.498267,
 				}, -- [3]
 				{
 					["received"] = 41.020669,
@@ -11158,15 +11377,10 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["nome"] = "Pàladîn-Frostmourne",
+					["boss_fight_component"] = true,
 					["buff_uptime"] = 769,
-					["spell_cast"] = {
-						[53600] = 36,
-						[204019] = 112,
-						[853] = 1,
-						[275779] = 32,
-						[31935] = 25,
-						[26573] = 68,
+					["cc_done_targets"] = {
+						["Dark Shaman Acolyte"] = 1,
 					},
 					["cc_done_spells"] = {
 						["_ActorTable"] = {
@@ -11232,24 +11446,29 @@ _detalhes_database = {
 						["Mature Flame Hound"] = 4,
 						["Corrupted Houndmaster"] = 1,
 					},
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
 					["debuff_uptime"] = 469,
 					["tipo"] = 4,
 					["cc_done"] = 1.007701,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["spec"] = 66,
-					["grupo"] = true,
-					["cc_done_targets"] = {
-						["Dark Shaman Acolyte"] = 1,
+					["cc_break"] = 5.015871,
+					["spell_cast"] = {
+						[53600] = 36,
+						[204019] = 112,
+						[853] = 1,
+						[275779] = 32,
+						[31935] = 25,
+						[26573] = 68,
 					},
 					["cc_break_oque"] = {
 						[122] = 5,
 					},
-					["cc_break"] = 5.015871,
+					["grupo"] = true,
 					["last_event"] = 0,
-					["boss_fight_component"] = true,
+					["nome"] = "Pàladîn-Frostmourne",
 					["isTank"] = true,
 					["serial"] = "Player-3725-0AB4BF6A",
 					["cc_break_spells"] = {
@@ -11409,9 +11628,9 @@ _detalhes_database = {
 						[93402] = 9,
 						[5487] = 1,
 						[8921] = 8,
-						[8936] = 26,
-						[18562] = 7,
 						[33763] = 18,
+						[18562] = 7,
+						[8936] = 26,
 					},
 					["nome"] = "Grizzledtree-Stormrage",
 					["last_event"] = 0,
@@ -11450,9 +11669,10 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["interrupt"] = 2.009869,
+					["debuff_uptime_targets"] = {
+					},
 					["buff_uptime"] = 282,
-					["grupo"] = true,
+					["cc_break"] = 1.005262,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
@@ -11519,31 +11739,30 @@ _detalhes_database = {
 					["interrompeu_oque"] = {
 						[120112] = 2,
 					},
+					["nome"] = "Krelel-Draenor",
+					["debuff_uptime"] = 215,
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
 					["buff_uptime_targets"] = {
 					},
-					["debuff_uptime"] = 215,
-					["debuff_uptime_targets"] = {
+					["interrupt_targets"] = {
+						["Corrupted Flamecaller"] = 2,
 					},
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["spec"] = 259,
-					["cc_break"] = 1.005262,
+					["grupo"] = true,
 					["spell_cast"] = {
 						[1766] = 19,
-						[196819] = 18,
-						[703] = 4,
 						[185311] = 1,
+						[703] = 4,
+						[196819] = 18,
 						[1943] = 28,
 						[1752] = 82,
 					},
 					["cc_break_oque"] = {
 						[122] = 1,
 					},
-					["interrupt_targets"] = {
-						["Corrupted Flamecaller"] = 2,
-					},
+					["spec"] = 259,
 					["tipo"] = 4,
-					["nome"] = "Krelel-Draenor",
+					["interrupt"] = 2.009869,
 					["cc_break_targets"] = {
 						["Corrupted Houndmaster"] = 1,
 					},
@@ -11593,8 +11812,10 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 1809,
-					["buff_uptime_targets"] = {
+					["buff_uptime"] = 1953,
+					["interrupt_targets"] = {
+						["Dark Shaman Acolyte"] = 2,
+						["Corrupted Flamecaller"] = 1,
 					},
 					["cc_done_spells"] = {
 						["_ActorTable"] = {
@@ -11652,10 +11873,10 @@ _detalhes_database = {
 							},
 							[48108] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 177,
-								["appliedamt"] = 177,
+								["activedamt"] = 178,
+								["appliedamt"] = 178,
 								["id"] = 48108,
-								["uptime"] = 415,
+								["uptime"] = 416,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -11673,40 +11894,40 @@ _detalhes_database = {
 							},
 							[235313] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 12,
-								["appliedamt"] = 12,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
 								["id"] = 235313,
-								["uptime"] = 52,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[186406] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 98,
-								["appliedamt"] = 98,
-								["id"] = 186406,
-								["uptime"] = 503,
+								["uptime"] = 58,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[269083] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 129,
-								["appliedamt"] = 129,
+								["activedamt"] = 134,
+								["appliedamt"] = 134,
 								["id"] = 269083,
-								["uptime"] = 615,
+								["uptime"] = 668,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 103,
+								["appliedamt"] = 103,
+								["id"] = 186406,
+								["uptime"] = 556,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[48107] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 206,
-								["appliedamt"] = 206,
+								["activedamt"] = 209,
+								["appliedamt"] = 209,
 								["id"] = 48107,
-								["uptime"] = 158,
+								["uptime"] = 168,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -11723,9 +11944,9 @@ _detalhes_database = {
 							},
 							[134359] = {
 								["refreshamt"] = 0,
-								["appliedamt"] = 9,
-								["activedamt"] = 9,
-								["uptime"] = 45,
+								["appliedamt"] = 11,
+								["activedamt"] = 11,
+								["uptime"] = 66,
 								["id"] = 134359,
 								["actived_at"] = 9223980889,
 								["targets"] = {
@@ -11740,23 +11961,21 @@ _detalhes_database = {
 						[120112] = 1,
 					},
 					["debuff_uptime"] = 103,
-					["interrupt_targets"] = {
-						["Dark Shaman Acolyte"] = 2,
-						["Corrupted Flamecaller"] = 1,
-					},
-					["cc_done"] = 4.012282,
 					["nome"] = "Thedodrouk",
+					["cc_done"] = 4.012282,
+					["buff_uptime_targets"] = {
+					},
 					["spec"] = 63,
 					["grupo"] = true,
 					["spell_cast"] = {
-						[108853] = 68,
-						[133] = 240,
+						[108853] = 70,
+						[133] = 249,
 						[2120] = 14,
 						[1953] = 10,
-						[235313] = 2,
+						[235313] = 3,
 						[122] = 2,
 						[11366] = 63,
-						[2948] = 67,
+						[2948] = 68,
 						[2139] = 3,
 					},
 					["interrupt"] = 3.013536,
@@ -11764,8 +11983,8 @@ _detalhes_database = {
 						["Mature Flame Hound"] = 3,
 						["Corrupted Houndmaster"] = 1,
 					},
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["debuff_uptime_targets"] = {
 					},
 					["serial"] = "Player-104-09FD5086",
@@ -11970,8 +12189,8 @@ _detalhes_database = {
 					["buff_uptime_targets"] = {
 					},
 					["buff_uptime"] = 78,
+					["last_event"] = 0,
 					["tipo"] = 4,
-					["classe"] = "PALADIN",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[272770] = {
@@ -12014,22 +12233,22 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[269083] = {
-								["counter"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 0,
-								["id"] = 269083,
-								["uptime"] = 0,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
 							[186406] = {
 								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 186406,
 								["uptime"] = 13,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[269083] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 269083,
+								["uptime"] = 0,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -12069,7 +12288,7 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["serial"] = "Player-76-06F8C7F1",
-					["last_event"] = 0,
+					["classe"] = "PALADIN",
 				}, -- [16]
 			},
 		}, -- [4]
@@ -12086,14 +12305,14 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 63,
 		["totals"] = {
-			275111.947453, -- [1]
-			22211.24718, -- [2]
+			288181.011123, -- [1]
+			22398.261926, -- [2]
 			{
 				32.061886, -- [1]
-				[0] = 2198.486913,
+				[0] = 2265.490716,
 				["alternatepower"] = 0,
 				[3] = 171.077344,
-				[6] = 26.018606,
+				[6] = 56.024589,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
@@ -12127,17 +12346,214 @@ _detalhes_database = {
 			["damage"] = {
 			},
 		},
-		["end_time"] = 100974.8,
+		["end_time"] = 2888.742,
+		["overall_refreshed"] = true,
 		["data_inicio"] = "00:42:35",
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = "08:57:38",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 5.19100000000026,
+				["type"] = 0,
+				["name"] = "Fäbülõüs-Dalaran",
+				["clock"] = "08:57:33",
+			}, -- [1]
+			{
+				["elapsed"] = 1.30799999999999,
+				["type"] = 0,
+				["name"] = "Rotting Horror",
+				["clock"] = "08:25:10",
+			}, -- [2]
+			{
+				["elapsed"] = 26.58,
+				["type"] = 0,
+				["name"] = "Rotted One",
+				["clock"] = "08:24:43",
+			}, -- [3]
+			{
+				["elapsed"] = 10.528,
+				["type"] = 0,
+				["name"] = "Young Panther",
+				["clock"] = "08:16:40",
+			}, -- [4]
+			{
+				["elapsed"] = 10.974,
+				["type"] = 0,
+				["name"] = "Young Stranglethorn Tiger",
+				["clock"] = "08:16:07",
+			}, -- [5]
+			{
+				["elapsed"] = 15.778999999995,
+				["type"] = 0,
+				["name"] = "River Crocolisk",
+				["clock"] = "23:48:00",
+			}, -- [6]
+			{
+				["elapsed"] = 5.57699999999022,
+				["type"] = 0,
+				["name"] = "Young Panther",
+				["clock"] = "23:47:23",
+			}, -- [7]
+			{
+				["elapsed"] = 1.00699999998324,
+				["type"] = 0,
+				["name"] = "Unknown",
+				["clock"] = "08:05:06",
+			}, -- [8]
+			{
+				["elapsed"] = 4.48300000000745,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:52:55",
+			}, -- [9]
+			{
+				["elapsed"] = 3.84599999996135,
+				["type"] = 0,
+				["name"] = "Flesh Eater",
+				["clock"] = "07:52:46",
+			}, -- [10]
+			{
+				["elapsed"] = 3.41100000002189,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:52:40",
+			}, -- [11]
+			{
+				["elapsed"] = 3.3289999999688,
+				["type"] = 0,
+				["name"] = "Bone Chewer",
+				["clock"] = "07:52:31",
+			}, -- [12]
+			{
+				["elapsed"] = 3.63900000002468,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:52:26",
+			}, -- [13]
+			{
+				["elapsed"] = 3.86099999997532,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:52:17",
+			}, -- [14]
+			{
+				["elapsed"] = 3.64400000002934,
+				["type"] = 0,
+				["name"] = "Bone Chewer",
+				["clock"] = "07:52:08",
+			}, -- [15]
+			{
+				["elapsed"] = 3.53900000004796,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:51:57",
+			}, -- [16]
+			{
+				["elapsed"] = 11.585000000021,
+				["type"] = 0,
+				["name"] = "Flesh Eating Worm",
+				["clock"] = "07:51:41",
+			}, -- [17]
+			{
+				["elapsed"] = 4.94899999996414,
+				["type"] = 0,
+				["name"] = "Rotted One",
+				["clock"] = "07:51:34",
+			}, -- [18]
+			{
+				["elapsed"] = 8.37799999996787,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:51:23",
+			}, -- [19]
+			{
+				["elapsed"] = 2.1589999999851,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:51:09",
+			}, -- [20]
+			{
+				["elapsed"] = 4.34799999999814,
+				["type"] = 0,
+				["name"] = "Bone Chewer",
+				["clock"] = "07:50:49",
+			}, -- [21]
+			{
+				["elapsed"] = 3.86100000003353,
+				["type"] = 0,
+				["name"] = "Flesh Eater",
+				["clock"] = "07:50:41",
+			}, -- [22]
+			{
+				["elapsed"] = 3.46700000000419,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:50:32",
+			}, -- [23]
+			{
+				["elapsed"] = 3.48099999997066,
+				["type"] = 0,
+				["name"] = "Flesh Eater",
+				["clock"] = "07:50:22",
+			}, -- [24]
+			{
+				["elapsed"] = 2.16599999996834,
+				["type"] = 0,
+				["name"] = "Flesh Eater",
+				["clock"] = "07:50:14",
+			}, -- [25]
+			{
+				["elapsed"] = 3.01399999996647,
+				["type"] = 0,
+				["name"] = "Flesh Eating Worm",
+				["clock"] = "07:50:07",
+			}, -- [26]
+			{
+				["elapsed"] = 3.65299999999115,
+				["type"] = 0,
+				["name"] = "Rotted One",
+				["clock"] = "07:50:02",
+			}, -- [27]
+			{
+				["elapsed"] = 6.06000000005588,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:49:51",
+			}, -- [28]
+			{
+				["elapsed"] = 4.69900000002235,
+				["type"] = 0,
+				["name"] = "Plague Spreader",
+				["clock"] = "07:49:41",
+			}, -- [29]
+			{
+				["elapsed"] = 2.15299999999115,
+				["type"] = 0,
+				["name"] = "Coalpelt Bear",
+				["clock"] = "07:49:07",
+			}, -- [30]
+		},
+		["start_time"] = 1751.22299999999,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
+			["Raid Damage Done"] = {
+			},
+		},
 		["totals_grupo"] = {
-			214494.994766, -- [1]
-			22165.254625, -- [2]
+			216192.009594, -- [1]
+			22352.263889, -- [2]
 			{
 				32.061886, -- [1]
-				[0] = 2097.478911,
+				[0] = 2164.482714,
 				["alternatepower"] = 0,
 				[3] = 171.077344,
-				[6] = 26.018606,
+				[6] = 56.024589,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
@@ -12150,219 +12566,14 @@ _detalhes_database = {
 				["dead"] = 0,
 			}, -- [4]
 		},
-		["hasSaved"] = true,
-		["frags"] = {
-		},
-		["data_fim"] = "23:48:16",
-		["overall_enemy_name"] = "-- x -- x --",
-		["CombatSkillCache"] = {
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 15.778999999995,
-				["type"] = 0,
-				["name"] = "River Crocolisk",
-				["clock"] = "23:48:00",
-			}, -- [1]
-			{
-				["elapsed"] = 5.57699999999022,
-				["type"] = 0,
-				["name"] = "Young Panther",
-				["clock"] = "23:47:23",
-			}, -- [2]
-			{
-				["elapsed"] = 1.00699999998324,
-				["type"] = 0,
-				["name"] = "Unknown",
-				["clock"] = "08:05:06",
-			}, -- [3]
-			{
-				["elapsed"] = 4.48300000000745,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:52:55",
-			}, -- [4]
-			{
-				["elapsed"] = 3.84599999996135,
-				["type"] = 0,
-				["name"] = "Flesh Eater",
-				["clock"] = "07:52:46",
-			}, -- [5]
-			{
-				["elapsed"] = 3.41100000002189,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:52:40",
-			}, -- [6]
-			{
-				["elapsed"] = 3.3289999999688,
-				["type"] = 0,
-				["name"] = "Bone Chewer",
-				["clock"] = "07:52:31",
-			}, -- [7]
-			{
-				["elapsed"] = 3.63900000002468,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:52:26",
-			}, -- [8]
-			{
-				["elapsed"] = 3.86099999997532,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:52:17",
-			}, -- [9]
-			{
-				["elapsed"] = 3.64400000002934,
-				["type"] = 0,
-				["name"] = "Bone Chewer",
-				["clock"] = "07:52:08",
-			}, -- [10]
-			{
-				["elapsed"] = 3.53900000004796,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:51:57",
-			}, -- [11]
-			{
-				["elapsed"] = 11.585000000021,
-				["type"] = 0,
-				["name"] = "Flesh Eating Worm",
-				["clock"] = "07:51:41",
-			}, -- [12]
-			{
-				["elapsed"] = 4.94899999996414,
-				["type"] = 0,
-				["name"] = "Rotted One",
-				["clock"] = "07:51:34",
-			}, -- [13]
-			{
-				["elapsed"] = 8.37799999996787,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:51:23",
-			}, -- [14]
-			{
-				["elapsed"] = 2.1589999999851,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:51:09",
-			}, -- [15]
-			{
-				["elapsed"] = 4.34799999999814,
-				["type"] = 0,
-				["name"] = "Bone Chewer",
-				["clock"] = "07:50:49",
-			}, -- [16]
-			{
-				["elapsed"] = 3.86100000003353,
-				["type"] = 0,
-				["name"] = "Flesh Eater",
-				["clock"] = "07:50:41",
-			}, -- [17]
-			{
-				["elapsed"] = 3.46700000000419,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:50:32",
-			}, -- [18]
-			{
-				["elapsed"] = 3.48099999997066,
-				["type"] = 0,
-				["name"] = "Flesh Eater",
-				["clock"] = "07:50:22",
-			}, -- [19]
-			{
-				["elapsed"] = 2.16599999996834,
-				["type"] = 0,
-				["name"] = "Flesh Eater",
-				["clock"] = "07:50:14",
-			}, -- [20]
-			{
-				["elapsed"] = 3.01399999996647,
-				["type"] = 0,
-				["name"] = "Flesh Eating Worm",
-				["clock"] = "07:50:07",
-			}, -- [21]
-			{
-				["elapsed"] = 3.65299999999115,
-				["type"] = 0,
-				["name"] = "Rotted One",
-				["clock"] = "07:50:02",
-			}, -- [22]
-			{
-				["elapsed"] = 6.06000000005588,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:49:51",
-			}, -- [23]
-			{
-				["elapsed"] = 4.69900000002235,
-				["type"] = 0,
-				["name"] = "Plague Spreader",
-				["clock"] = "07:49:41",
-			}, -- [24]
-			{
-				["elapsed"] = 2.15299999999115,
-				["type"] = 0,
-				["name"] = "Coalpelt Bear",
-				["clock"] = "07:49:07",
-			}, -- [25]
-			{
-				["elapsed"] = 5.80400000000373,
-				["type"] = 0,
-				["name"] = "Coalpelt Bear",
-				["clock"] = "07:48:42",
-			}, -- [26]
-			{
-				["elapsed"] = 24.0410000000265,
-				["type"] = 0,
-				["name"] = "Marina DeSirrus",
-				["clock"] = "07:48:05",
-			}, -- [27]
-			{
-				["elapsed"] = 2.4320000000298,
-				["type"] = 0,
-				["name"] = "Coalpelt Bear",
-				["clock"] = "07:47:52",
-			}, -- [28]
-			{
-				["elapsed"] = 6.50700000004144,
-				["type"] = 0,
-				["name"] = "Coalpelt Bear",
-				["clock"] = "07:47:39",
-			}, -- [29]
-			{
-				["elapsed"] = 5.05299999995623,
-				["type"] = 0,
-				["name"] = "Coalpelt Bear",
-				["clock"] = "07:47:23",
-			}, -- [30]
-		},
-		["start_time"] = 99891.862,
-		["TimeData"] = {
-			["Player Damage Done"] = {
-			},
-			["Raid Damage Done"] = {
-			},
-		},
-		["overall_refreshed"] = true,
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
 	["character_data"] = {
-		["logons"] = 16,
+		["logons"] = 18,
 	},
-	["force_font_outline"] = "",
-	["mythic_dungeon_currentsaved"] = {
-		["dungeon_name"] = "",
-		["started"] = false,
-		["segment_id"] = 0,
-		["ej_id"] = 0,
-		["started_at"] = 0,
-		["run_id"] = 0,
-		["level"] = 0,
-		["dungeon_zone_id"] = 0,
-		["previous_boss_killed_at"] = 0,
-	},
+	["last_day"] = "24",
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -12379,8 +12590,8 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-73-0BA7ECDA"] = 71,
-		["Player-105-0A0785EA"] = 66,
+		["Player-106-0A0802F5"] = 265,
+		["Player-3683-0ADF3F8C"] = 64,
 		["Player-104-09FD5086"] = 63,
 	},
 }
