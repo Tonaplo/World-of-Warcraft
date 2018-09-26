@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------
-r425 | Zensunim | 2018-09-14 06:54:46 +0000 (Fri, 14 Sep 2018) | 2 lines
+r428 | Zensunim | 2018-09-25 04:37:11 +0000 (Tue, 25 Sep 2018) | 4 lines
 Changed paths:
    M /trunk/GTFO.lua
    M /trunk/GTFO.toc
@@ -7,7 +7,22 @@ Changed paths:
    M /trunk/GTFO_Spells_BFA.lua
    M /trunk/ReadMe.txt
 
-4.46.7
+4.46.8
+* Added Battle for Azeroth spells (world)
 * Added BFA spells for Uldir
+* Added BFA spells for King's Rest
+------------------------------------------------------------------------
+r427 | Zensunim | 2018-09-22 03:03:59 +0000 (Sat, 22 Sep 2018) | 4 lines
+Changed paths:
+   M /trunk/GTFO.lua
+   M /trunk/GTFO.toc
+   M /trunk/GTFO_Fail_BFA.lua
+   M /trunk/GTFO_Spells_BFA.lua
+   M /trunk/ReadMe.txt
+
+4.46.8
+* Added Battle for Azeroth spells (world)
+* Added BFA spells for Uldir
+
 ------------------------------------------------------------------------
 

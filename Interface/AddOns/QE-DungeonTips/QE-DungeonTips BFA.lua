@@ -1,6 +1,6 @@
 --[[
 Questionably Epic Mythic+ Dungeon Tips
-Version: 4.7 (Battle for Azeroth)
+Version: 4.8 (Battle for Azeroth)
 Developed by: Voulk
 Contact: 
 	Discord: Voulk#1858
@@ -1637,7 +1637,7 @@ GameTooltip:HookScript("OnTooltipSetUnit", function(self)
   if C_PetBattles.IsInBattle() then return end -- Tiny Snippet to disable the mod while pet battling.
   if QEConfig.ShowFrame == "Show in separate frame" and QEConfig.TargetTrigger == "Show targeted mob" then return end -- Tiny Snippet to disable the tooltip hook if targeting is selected instead.
   if QEConfig.ShowFrame == "Show in separate frame" and QEConfig.TargetTrigger == "Show mouseover" and QE_onBoss then return end -- Disable tooltip hook if player is using frame + Mouseover but is on boss
-  
+  if not addon:checkInstance() then return end -- We won't be adding anything to tooltips if the addon is disabled in the current instance.
   
   local unit = select(2, self:GetUnit()) -- This grabs information about the unit we have targeted.
   local role = UnitGroupRolesAssigned("player")

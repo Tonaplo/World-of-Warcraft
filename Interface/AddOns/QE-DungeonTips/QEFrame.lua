@@ -2,7 +2,7 @@
 Questionably Epic Mythic+ Dungeon Tips
 Configuration Page
 
-Version: 4.7
+Version: 4.8
 Developed by: Voulk
 Contact: 
 	Discord: Voulk#1858
@@ -184,7 +184,29 @@ end)
 lockBtn:Show()
 ]]--
 
+-- Returns true or false depending on if the user wants the addon on in the current instance.
+function addon:checkInstance()
+		-- Check if in raid or Mythic+
+	local inInstance, instanceType = IsInInstance()
+	local _, _, difficultyID = GetInstanceInfo()	
+	
+	local instanceAllowed = true
+	if difficultyID == 8 then 
+		if QEConfig.MythicPlusToggle then
+			instanceAllowed = true
+		else
+			instanceAllowed = false
+		end
+	elseif instanceType == "raid" then
+		if QEConfig.RaidToggle then
+			instanceAllowed = true
+		else
+			instanceAllowed = false
+		end	
+	end
+	return instanceAllowed
 
+end
 
 function addon:setEnabled()
 	local inInstance, instanceType = IsInInstance()
@@ -195,11 +217,19 @@ function addon:setEnabled()
 	--print(C_Map.GetBestMapForUnit("player"))
 	--print(addon.acceptedDungeons[C_Map.GetBestMapForUnit("player")])
 	if inInstance and QEConfig.ShowFrame == "Show in separate frame" and addon.acceptedDungeons[C_Map.GetBestMapForUnit("player")] then
+		if addon:checkInstance() then
+			QE_HeaderPanel:Show()
+		else
+			QE_HeaderPanel:Hide()
+		end
+	
+		--elseif difficultyID == 
+			
 		--local mapID = C_Map.GetBestMapForUnit("player")
 		--if not acceptedDungeons[mapID] then return end	
 		--local isShown = QE_TipPanel:IsVisible()
 		--print(isShown)
-		QE_HeaderPanel:Show()
+		
 		
 		--if not isShown then
 		--	QE_TipPanel:Hide()
@@ -207,7 +237,6 @@ function addon:setEnabled()
 	else
 		QE_HeaderPanel:Hide()
 	end
-	
 end
 
 

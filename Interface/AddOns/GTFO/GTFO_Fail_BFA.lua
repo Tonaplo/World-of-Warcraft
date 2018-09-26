@@ -279,6 +279,17 @@ GTFO.SpellID["269680"] = {
   sound = 3;
 };
 
+GTFO.SpellID["274829"] = {
+  --desc = "Gale Force (Azurethos)";
+  sound = 3;
+};
+
+GTFO.SpellID["274840"] = {
+  --desc = "Azurethos' Fury (Azurethos)";
+  applicationOnly = true;
+  sound = 3;
+};
+
 
 -- ***********************
 -- * Shrine of the Storm *
@@ -697,11 +708,39 @@ GTFO.SpellID["258986"] = {
 -- * King's Rest *
 -- ***************
 
--- TODO: Serpentine Gust (The Golden Serpent) -- Is this avoidable?
--- TODO: Whirling Axes (Kula the Butcher) -- Is this avoidable?
--- TODO: Torrent Totem (Zanazal the Wise) -- Is this avoidable?
--- TODO: Gale Slash (Dazar, The First King) -- Is this avoidable?
--- TODO: Impaling Spear (Dazar, The First King) -- Is this avoidable?
+-- TODO: Gale Slash (Dazar, The First King)
+-- TODO: Impaling Spear (Dazar, The First King)
+
+GTFO.SpellID["270003"] = {
+  --desc = "Suppression Slam (Animated Guardian)";
+  sound = 3;
+};
+
+GTFO.SpellID["265781"] = {
+  --desc = "Serpentine Gust (The Golden Serpent)";
+  sound = 3;
+};
+
+GTFO.SpellID["270872"] = {
+  --desc = "Shadow Whirl (Bloodsworn Agent)";
+  sound = 3;
+};
+
+GTFO.SpellID["275212"] = {
+  --desc = "Bisecting Strike (Weaponmaster Halu)";
+  sound = 3;
+};
+
+GTFO.SpellID["270289"] = {
+  --desc = "Purification Beam";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["267105"] = {
+  --desc = "Torrent (Torrent Totem)";
+  sound = 3;
+};
 
 -- ********************
 -- * Siege of Boralus *
@@ -800,7 +839,6 @@ GTFO.SpellID["277794"] = {
 };
 
 -- TODO: Spreading Epidemic (MOTHER) -- What does this do?
--- TODO: Rotting Regurgitation (Fetid Devourer) -- Avoidable?
 -- TODO: Surging Darkness (Zek'voz) -- Avoidable for big pools? Different spell IDs for pool damage vs. incidental
 -- TODO: Void Lash (Zek'voz) -- For tanks only, stack tracking, fail at 100% reduction
 -- TODO: Ominous Cloud (Zek'voz) -- Touching the cloud failure
@@ -864,3 +902,14 @@ GTFO.SpellID["273282"] = {
   sound = 3;
   tankSound = 0;
 };
+
+GTFO.SpellID["262292"] = {
+  --desc = "Rotting Regurgitation (Fetid Devourer)";
+  sound = 3;
+};
+
+GTFO.SpellID["278988"] = {
+  --desc = "Wild Leap (Nazmani Dominator)";
+  sound = 3;
+};
+

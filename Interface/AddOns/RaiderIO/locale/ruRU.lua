@@ -69,12 +69,9 @@ L["ENABLE_NO_SCORE_COLORS_DESC"] = "Отключает раскраску очк
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Использовать упрощенную окраску очков"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Показывает очки только цветами качества предметов. Это упрощает визуальную оценку очков при беглом осмотре кандидатов."
 L["EXPORTJSON_COPY_TEXT"] = "Скопировать ссылку и вставить ее в |cff00C8FFhttps://raider.io|r для просмотра всех игроков."
---[[Translation missing --]]
---[[ L["GUILD_BEST_SEASON"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_BEST_TITLE"] = ""--]] 
---[[Translation missing --]]
---[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
+L["GUILD_BEST_SEASON"] = "Гильдия: Лучший Сезон"
+L["GUILD_BEST_TITLE"] = "Данные Raider.IO"
+L["GUILD_BEST_WEEKLY"] = "Гильдия: Лучшие за Неделю"
 L["HEALER"] = "Лекарь"
 L["HEALER_SCORE"] = "Очки лекаря"
 --[[Translation missing --]]
@@ -98,8 +95,7 @@ L["MODULE_TAIWAN"] = "Тайвань"
 L["MY_PROFILE_TITLE"] = "Мой M+ профиль"
 L["MYTHIC_PLUS_DB_MODULES"] = "Региональные модули базы данных очков"
 L["MYTHIC_PLUS_SCORES"] = "Очки эпохальных+ подземелий"
---[[Translation missing --]]
---[[ L["NO_GUILD_RECORD"] = ""--]] 
+L["NO_GUILD_RECORD"] = "Нет Данных Гильдии"
 L["OPEN_CONFIG"] = "Открыть настройки"
 --[[Translation missing --]]
 --[[ L["OUT_OF_SYNC_DATABASE_S"] = ""--]] 
