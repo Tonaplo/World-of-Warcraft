@@ -43,11 +43,11 @@ CliqueDB3 = {
 		},
 		["Faerand - Proudmoore"] = {
 			["spec1_profileKey"] = "Faerand - Proudmoore",
-			["spec2_profileKey"] = "Faerand - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Faerand - Proudmoore",
 			["spec3_profileKey"] = "Faerand - Proudmoore",
-			["specswap"] = false,
 		},
 		["Zearthan - Proudmoore"] = {
 			["spec1_profileKey"] = "Zearthan - Proudmoore",
@@ -59,11 +59,11 @@ CliqueDB3 = {
 		},
 		["Amranar - Proudmoore"] = {
 			["spec1_profileKey"] = "Druid - Balance",
-			["specswap"] = true,
+			["spec3_profileKey"] = "Druid - Guardian",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Druid - Guardian",
 			["spec2_profileKey"] = "Druid - Feral",
+			["specswap"] = true,
 			["spec4_profileKey"] = "Druid - Resto",
 		},
 		["Rahran - Proudmoore"] = {
@@ -76,11 +76,11 @@ CliqueDB3 = {
 		},
 		["Deminath - Proudmoore"] = {
 			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["spec2_profileKey"] = "Deminath - Proudmoore",
+			["spec3_profileKey"] = "Deminath - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Deminath - Proudmoore",
 			["specswap"] = false,
-			["spec3_profileKey"] = "Deminath - Proudmoore",
 		},
 		["Korugen - Proudmoore"] = {
 			["spec1_profileKey"] = "Korugen - Proudmoore",
@@ -92,11 +92,11 @@ CliqueDB3 = {
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
-			["spec3_profileKey"] = "Shaman - Resto",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = true,
 			["spec2_profileKey"] = "Shaman - Resto",
+			["spec3_profileKey"] = "Shaman - Resto",
 		},
 		["Kindhoof - Tichondrius"] = {
 			["spec1_profileKey"] = "Kindhoof - Tichondrius",
@@ -125,11 +125,11 @@ CliqueDB3 = {
 		},
 		["Thedodrouk - Icecrown"] = {
 			["spec1_profileKey"] = "Thedodrouk - Icecrown",
-			["spec2_profileKey"] = "Thedodrouk - Icecrown",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Thedodrouk - Icecrown",
 			["specswap"] = false,
+			["downclick"] = false,
+			["spec2_profileKey"] = "Thedodrouk - Icecrown",
+			["spec3_profileKey"] = "Thedodrouk - Icecrown",
 		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
@@ -182,16 +182,16 @@ CliqueDB3 = {
 		},
 		["Mallusof - Icecrown"] = {
 			["spec1_profileKey"] = "Priest - Disc",
+			["spec2_profileKey"] = "Priest - Holy",
+			["downclick"] = false,
+			["spec3_profileKey"] = "Non-Healer",
 			["fastooc"] = false,
+			["specswap"] = true,
+			["alerthidden"] = true,
 			["blacklist"] = {
 				["oUF_LUI_player"] = true,
 				["oUF_LUI_target"] = true,
 			},
-			["spec2_profileKey"] = "Priest - Holy",
-			["downclick"] = false,
-			["specswap"] = true,
-			["alerthidden"] = true,
-			["spec3_profileKey"] = "Non-Healer",
 		},
 	},
 	["profileKeys"] = {
@@ -416,13 +416,13 @@ CliqueDB3 = {
 				}, -- [11]
 			},
 		},
-		["Deminath - Proudmoore"] = {
+		["Priest - Shadow"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -563,7 +563,7 @@ CliqueDB3 = {
 				}, -- [14]
 			},
 		},
-		["Non-Healer"] = {
+		["Thedodrouk - Icecrown"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -582,13 +582,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Priest - Shadow"] = {
+		["Deminath - Proudmoore"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -935,7 +935,7 @@ CliqueDB3 = {
 				}, -- [13]
 			},
 		},
-		["Thedodrouk - Icecrown"] = {
+		["Non-Healer"] = {
 			["bindings"] = {
 				{
 					["sets"] = {

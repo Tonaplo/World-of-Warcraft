@@ -130,7 +130,7 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Mallusof"] = 659798181,
-							["Thedodrouk"] = 168520,
+							["Thedodrouk"] = 181020,
 						},
 					},
 				},
@@ -168,10 +168,10 @@ LUIDB = {
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Praerend"] = 1500267344,
 						},
 					},
@@ -927,65 +927,65 @@ LUIDB = {
 						["Alliance - Proudmoore"] = {
 							"/i hey guys?", -- [1]
 							" Hey bud!", -- [2]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [3]
-							"/macro", -- [4]
-							"/i hey guys?", -- [5]
+							"/rchars", -- [3]
+							"/i hey guys?", -- [4]
+							"/rchars", -- [5]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [6]
 							"/i hey guys?", -- [7]
-							"/rchars", -- [8]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [8]
 							"/i hey guys?", -- [9]
-							" Hey bud!", -- [10]
+							"/rchars", -- [10]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
 							"/i hey guys?", -- [12]
-							"/macro", -- [13]
-							" Hey bud!", -- [14]
-							"/i hey guys?", -- [15]
-							" Hey bud!", -- [16]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [17]
-							"/macro", -- [18]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [13]
+							"/i hey guys?", -- [14]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [15]
+							"/i hey guys?", -- [16]
+							"/rchars", -- [17]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [18]
 							"/i hey guys?", -- [19]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [20]
 							"/i hey guys?", -- [21]
 							"/rchars", -- [22]
-							" Hey bud!", -- [23]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [23]
 							"/i hey guys?", -- [24]
-							" Hey bud!", -- [25]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [26]
-							"/i hey guys?", -- [27]
-							"/rchars", -- [28]
-							"/i hey guys?", -- [29]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [30]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [25]
+							"/i hey guys?", -- [26]
+							"/rchars", -- [27]
+							"/i hey guys?", -- [28]
+							"/rchars", -- [29]
+							"/i hey guys?", -- [30]
 							"/rchars", -- [31]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [32]
+							"/i hey guys?", -- [32]
 						},
 						["Horde - Proudmoore"] = {
-							"/2 contact CS", -- [1]
+							"/focus", -- [1]
 							" hahaha", -- [2]
 							"/focus", -- [3]
-							" hahaha", -- [4]
+							"/2 contact CS", -- [4]
 							"/focus", -- [5]
 							"/2 contact CS", -- [6]
-							" hahaha", -- [7]
-							"/focus", -- [8]
-							" hahaha", -- [9]
+							"/focus", -- [7]
+							" hahaha", -- [8]
+							"/2 contact CS", -- [9]
 							"/focus", -- [10]
-							" hahaha", -- [11]
-							"/focus", -- [12]
-							"/2 contact CS", -- [13]
+							"/2 contact CS", -- [11]
+							" hahaha", -- [12]
+							"/focus", -- [13]
 							" hahaha", -- [14]
 							"/focus", -- [15]
-							" hahaha", -- [16]
+							"/2 contact CS", -- [16]
 							"/focus", -- [17]
 							"/2 contact CS", -- [18]
-							" hahaha", -- [19]
-							"/focus", -- [20]
-							" hahaha", -- [21]
+							"/focus", -- [19]
+							" hahaha", -- [20]
+							"/2 contact CS", -- [21]
 							"/focus", -- [22]
-							" hahaha", -- [23]
-							"/focus", -- [24]
-							"/2 contact CS", -- [25]
-							"/focus", -- [26]
-							"/2 contact CS", -- [27]
+							"/2 contact CS", -- [23]
+							" hahaha", -- [24]
+							"/focus", -- [25]
+							"/2 contact CS", -- [26]
+							" hahaha", -- [27]
 							"/focus", -- [28]
 							" hahaha", -- [29]
 							"/2 contact CS", -- [30]
@@ -1027,37 +1027,37 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/cw Kalithumos-Tichondrius Also", -- [1]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [2]
-							"/cw Kalithumos-Tichondrius family visit", -- [3]
-							"/p and die", -- [4]
-							"/cw Inevitabits-Icecrown hey!", -- [5]
-							"/macro", -- [6]
-							"/cw Inevitabits-Icecrown hey!", -- [7]
-							"/cw Inevitabits-Icecrown There is no revenge, lol :P And I only just logged on, not ready for stuff yet :)", -- [8]
-							"/cw Inevitabits-Icecrown For the Mission Tree", -- [9]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [1]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [2]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [3]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [4]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [5]
+							"/cw Kalithumos-Tichondrius Also", -- [6]
+							"/cw Kalithumos-Tichondrius family visit", -- [7]
+							"/cw Inevitabits-Icecrown hey!", -- [8]
+							"/cw Inevitabits-Icecrown There is no revenge, lol :P And I only just logged on, not ready for stuff yet :)", -- [9]
 							"/cw Inevitabits-Icecrown 2 different commanders", -- [10]
-							"/cw Inevitabits-Icecrown is it always Eitrigg this round?", -- [11]
-							"/cw Inevitabits-Icecrown nvm then", -- [12]
-							"/cw Inevitabits-Icecrown To recap", -- [13]
-							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [14]
-							"/cw Inevitabits-Icecrown alrigt", -- [15]
-							"/i Shout pease :)", -- [16]
-							"/cw Kalithumos-Tichondrius gOTCHA", -- [17]
+							"/cw Inevitabits-Icecrown nvm then", -- [11]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [12]
+							"/i Shout pease :)", -- [13]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [14]
+							"/macro", -- [15]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [16]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [17]
 							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [18]
-							"/p and die", -- [19]
-							"/macro", -- [20]
-							"/cw Inevitabits-Icecrown There is no revenge, lol :P And I only just logged on, not ready for stuff yet :)", -- [21]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [22]
-							"/cw Inevitabits-Icecrown nvm then", -- [23]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [19]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [20]
+							"/cw Kalithumos-Tichondrius Also", -- [21]
+							"/cw Inevitabits-Icecrown hey!", -- [22]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [23]
 							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [24]
-							"/i Shout pease :)", -- [25]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [26]
-							"/macro", -- [27]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [28]
-							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [29]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [25]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [26]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [27]
+							"/cw Kalithumos-Tichondrius Also", -- [28]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [29]
 							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [30]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [31]
+							"/cw Kalithumos-Tichondrius Also", -- [31]
 							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
@@ -1191,15 +1191,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1208,6 +1205,9 @@ LUIDB = {
 						["Width"] = 370,
 						["Height"] = 205,
 						["Anchor"] = "CompactRaidFrameContainer",
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1347,13 +1347,7 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1365,13 +1359,19 @@ LUIDB = {
 						0.89, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1511,13 +1511,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1529,17 +1523,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1674,19 +1674,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1698,11 +1698,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1916,14 +1916,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
@@ -1935,7 +1935,7 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
@@ -1953,9 +1953,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2006,9 +2006,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2042,9 +2042,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2241,11 +2241,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Evisca - Bleeding Hollow"] = {
@@ -2305,9 +2305,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2406,11 +2406,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Kindhoof - Proudmoore"] = {

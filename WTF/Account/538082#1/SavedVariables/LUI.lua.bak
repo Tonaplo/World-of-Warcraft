@@ -98,8 +98,8 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
-							["Mallusof"] = 1162234125,
 							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -716,6 +716,10 @@ LUIDB = {
 								["Width"] = 200,
 							},
 							["ClassIcons"] = {
+								["Y"] = 100,
+								["X"] = 350,
+								["Padding"] = 1,
+								["Lock"] = false,
 							},
 							["AltPower"] = {
 								["Enable"] = true,
@@ -933,12 +937,6 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Animation"] = "None",
@@ -947,11 +945,17 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 					},
-					["Minimap"] = {
+					["MicroMenu"] = {
 						["IsShown"] = true,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1078,13 +1082,7 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1096,17 +1094,23 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.12, -- [1]
@@ -1240,7 +1244,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1252,19 +1262,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1403,17 +1407,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
 					},
 					["raidborder"] = {
 						0.901960784313726, -- [1]
@@ -1421,13 +1419,19 @@ LUIDB = {
 						0.901960784313726, -- [3]
 						0.300000011920929, -- [4]
 					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1497,65 +1501,65 @@ LUIDB = {
 						["Alliance - Proudmoore"] = {
 							"/i hey guys?", -- [1]
 							" Hey bud!", -- [2]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [3]
-							"/macro", -- [4]
-							"/i hey guys?", -- [5]
+							"/rchars", -- [3]
+							"/i hey guys?", -- [4]
+							"/rchars", -- [5]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [6]
 							"/i hey guys?", -- [7]
-							"/rchars", -- [8]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [8]
 							"/i hey guys?", -- [9]
-							" Hey bud!", -- [10]
+							"/rchars", -- [10]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
 							"/i hey guys?", -- [12]
-							"/macro", -- [13]
-							" Hey bud!", -- [14]
-							"/i hey guys?", -- [15]
-							" Hey bud!", -- [16]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [17]
-							"/macro", -- [18]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [13]
+							"/i hey guys?", -- [14]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [15]
+							"/i hey guys?", -- [16]
+							"/rchars", -- [17]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [18]
 							"/i hey guys?", -- [19]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [20]
 							"/i hey guys?", -- [21]
 							"/rchars", -- [22]
-							" Hey bud!", -- [23]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [23]
 							"/i hey guys?", -- [24]
-							" Hey bud!", -- [25]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [26]
-							"/i hey guys?", -- [27]
-							"/rchars", -- [28]
-							"/i hey guys?", -- [29]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [30]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [25]
+							"/i hey guys?", -- [26]
+							"/rchars", -- [27]
+							"/i hey guys?", -- [28]
+							"/rchars", -- [29]
+							"/i hey guys?", -- [30]
 							"/rchars", -- [31]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [32]
+							"/i hey guys?", -- [32]
 						},
 						["Horde - Proudmoore"] = {
-							"/2 contact CS", -- [1]
+							"/focus", -- [1]
 							" hahaha", -- [2]
 							"/focus", -- [3]
-							" hahaha", -- [4]
+							"/2 contact CS", -- [4]
 							"/focus", -- [5]
 							"/2 contact CS", -- [6]
-							" hahaha", -- [7]
-							"/focus", -- [8]
-							" hahaha", -- [9]
+							"/focus", -- [7]
+							" hahaha", -- [8]
+							"/2 contact CS", -- [9]
 							"/focus", -- [10]
-							" hahaha", -- [11]
-							"/focus", -- [12]
-							"/2 contact CS", -- [13]
+							"/2 contact CS", -- [11]
+							" hahaha", -- [12]
+							"/focus", -- [13]
 							" hahaha", -- [14]
 							"/focus", -- [15]
-							" hahaha", -- [16]
+							"/2 contact CS", -- [16]
 							"/focus", -- [17]
 							"/2 contact CS", -- [18]
-							" hahaha", -- [19]
-							"/focus", -- [20]
-							" hahaha", -- [21]
+							"/focus", -- [19]
+							" hahaha", -- [20]
+							"/2 contact CS", -- [21]
 							"/focus", -- [22]
-							" hahaha", -- [23]
-							"/focus", -- [24]
-							"/2 contact CS", -- [25]
-							"/focus", -- [26]
-							"/2 contact CS", -- [27]
+							"/2 contact CS", -- [23]
+							" hahaha", -- [24]
+							"/focus", -- [25]
+							"/2 contact CS", -- [26]
+							" hahaha", -- [27]
 							"/focus", -- [28]
 							" hahaha", -- [29]
 							"/2 contact CS", -- [30]
@@ -1597,38 +1601,38 @@ LUIDB = {
 							"/p restarting wow", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/p and die", -- [1]
-							"/i well", -- [2]
-							"/p and die", -- [3]
-							"/cw Inevitabits-Icecrown hey!", -- [4]
-							"/cw Inevitabits-Icecrown No worries, mostly annoyed that it means I likely wont get my 10 for the week", -- [5]
+							"/cw Kalithumos-Tichondrius Also", -- [1]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [2]
+							"/cw Kalithumos-Tichondrius family visit", -- [3]
+							"/p and die", -- [4]
+							"/cw Inevitabits-Icecrown hey!", -- [5]
 							"/macro", -- [6]
-							"/i well", -- [7]
-							"/cw Inevitabits-Icecrown hey!", -- [8]
-							"/macro", -- [9]
-							"/cw Inevitabits-Icecrown hey!", -- [10]
-							"/cw Inevitabits-Icecrown There is no revenge, lol :P And I only just logged on, not ready for stuff yet :)", -- [11]
-							"/cw Inevitabits-Icecrown I need to do at least 1 more Stromgarde", -- [12]
-							"/cw Inevitabits-Icecrown For the Mission Tree", -- [13]
-							"/cw Inevitabits-Icecrown Second to last talent", -- [14]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [15]
-							"/cw Inevitabits-Icecrown unless", -- [16]
-							"/cw Inevitabits-Icecrown is it always Eitrigg this round?", -- [17]
-							"/cw Inevitabits-Icecrown :/", -- [18]
-							"/cw Inevitabits-Icecrown nvm then", -- [19]
-							"/cw Inevitabits-Icecrown Also|cffa335ee|Hkeystone:158923:250:8:9:6:4:0|h[Keystone: Temple of Sethraliss (8)]|h|r", -- [20]
-							"/cw Inevitabits-Icecrown To recap", -- [21]
-							"/cw Inevitabits-Icecrown I need to help Cecilie and Ellie settle down and get to bed", -- [22]
-							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [23]
-							"/cw Inevitabits-Icecrown It's liely at least 30 mins for me", -- [24]
-							"/cw Inevitabits-Icecrown alrigt", -- [25]
-							"/i hello!", -- [26]
-							"/i Shout pease :)", -- [27]
-							"/cw Kalithumos-Tichondrius Doing PvP? :P", -- [28]
-							"/cw Kalithumos-Tichondrius gOTCHA", -- [29]
-							"/cw Kalithumos-Tichondrius Also", -- [30]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [31]
-							"/cw Kalithumos-Tichondrius family visit", -- [32]
+							"/cw Inevitabits-Icecrown hey!", -- [7]
+							"/cw Inevitabits-Icecrown There is no revenge, lol :P And I only just logged on, not ready for stuff yet :)", -- [8]
+							"/cw Inevitabits-Icecrown For the Mission Tree", -- [9]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [10]
+							"/cw Inevitabits-Icecrown is it always Eitrigg this round?", -- [11]
+							"/cw Inevitabits-Icecrown nvm then", -- [12]
+							"/cw Inevitabits-Icecrown To recap", -- [13]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [14]
+							"/cw Inevitabits-Icecrown alrigt", -- [15]
+							"/i Shout pease :)", -- [16]
+							"/cw Kalithumos-Tichondrius gOTCHA", -- [17]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [18]
+							"/p and die", -- [19]
+							"/macro", -- [20]
+							"/cw Inevitabits-Icecrown There is no revenge, lol :P And I only just logged on, not ready for stuff yet :)", -- [21]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [22]
+							"/cw Inevitabits-Icecrown nvm then", -- [23]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [24]
+							"/i Shout pease :)", -- [25]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [26]
+							"/macro", -- [27]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [28]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [29]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [30]
+							"/cw Inevitabits-Icecrown 2 different commanders", -- [31]
+							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
@@ -1922,11 +1926,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -1975,11 +1979,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -2011,11 +2015,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -2206,9 +2210,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2274,11 +2278,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Korugen - Proudmoore"] = {
@@ -2304,9 +2308,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2449,14 +2453,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
@@ -2468,7 +2472,7 @@ LUIDB = {
 		["Thedodrouk - Icecrown"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",
