@@ -1363,3 +1363,8 @@ Change Log:
 * Added Battle for Azeroth spells (world)
 * Added BFA spells for Uldir
 * Added BFA spells for King's Rest
+
+4.46.9
+* Added Battle for Azeroth spells (world)
+* Added BFA spells for Uldir
+

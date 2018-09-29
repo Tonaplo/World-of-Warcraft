@@ -1,4 +1,64 @@
 ------------------------------------------------------------------------
+r838 | michaelspain | 2018-09-24 02:11:07 +0000 (Mon, 24 Sep 2018) | 4 lines
+Changed paths:
+   M /trunk/GridCore.lua
+   M /trunk/GridFrame.lua
+   M /trunk/GridLayout.lua
+   M /trunk/Options/modules/general/GridDebug.lua
+   M /trunk/modules/IndicatorTooltip.lua
+   M /trunk/modules/StatusAuras.lua
+   M /trunk/modules/StatusAurasDebuffs.lua
+
+- Fixing ticket #594, (whitelisted debuffs not displayed).
+- Fixing minor pets bug in GridLayout.
+- Debugging options now are global (instead of per profile).
+
+------------------------------------------------------------------------
+r837 | michaelspain | 2018-09-23 03:43:01 +0000 (Sun, 23 Sep 2018) | 1 line
+Changed paths:
+   M /trunk/Grid2.toc
+   M /trunk/GridCore.lua
+   M /trunk/GridFrame.lua
+   M /trunk/GridLayout.lua
+   M /trunk/modules/IndicatorTooltip.lua
+
+Fixed a crash when changing profiles.
+------------------------------------------------------------------------
+r836 | michaelspain | 2018-09-23 02:08:51 +0000 (Sun, 23 Sep 2018) | 5 lines
+Changed paths:
+   M /trunk/GridDefaults.lua
+   M /trunk/GridFrame.lua
+   M /trunk/GridLayout.lua
+   M /trunk/GridLayoutLayouts.lua
+   M /trunk/LDB/Grid2LDB.lua
+   M /trunk/Options/GridIndicators.lua
+   M /trunk/Options/locales/enUS.lua
+   M /trunk/Options/locales/esES.lua
+   A /trunk/Options/media/indicator-tooltip.tga
+   M /trunk/Options/modules/general/GridFrame.lua
+   M /trunk/Options/modules/general/GridLayoutsEditor.lua
+   A /trunk/Options/modules/indicators/IndicatorTooltip.lua
+   M /trunk/Options/modules.xml
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+   A /trunk/modules/IndicatorTooltip.lua
+   M /trunk/modules/StatusAuras.lua
+   M /trunk/modules/StatusAurasDebuffs.lua
+   M /trunk/modules/StatusBanzai.lua
+   M /trunk/modules/StatusName.lua
+   M /trunk/modules.xml
+
+- Fixing ticket #593 (Grid2 layouts not working in Brawl)
+- Cleaning a bit layouts definitions and layouts managemente code.
+- Refactored de Tooltip management code: 
+ * Now tooltip is a new indicator, configurable from Options -> Indicators -> tooltip
+ * Statuses that can be assigned to the new tooltip indicator: Name, Banzai, RaidDebuffs, Debuffs (groups of debuffs)
+------------------------------------------------------------------------
+r835 | michaelspain | 2018-09-21 16:35:32 +0000 (Fri, 21 Sep 2018) | 1 line
+Changed paths:
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+
+RaidDebuffs: One more workaround for the never-ending ticket #588 (Uldir RaidDebuffs not loading).
+------------------------------------------------------------------------
 r834 | michaelspain | 2018-09-19 02:11:02 +0000 (Wed, 19 Sep 2018) | 2 lines
 Changed paths:
    M /trunk/GridRoster.lua

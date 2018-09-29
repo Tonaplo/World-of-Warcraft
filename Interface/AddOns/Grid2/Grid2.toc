@@ -12,8 +12,8 @@
 ## DefaultState: enabled
 ## LoadOnDemand: 0
 
-## Version: r834
-## X-ReleaseDate: "$Date: 2018-09-13 19:08:28 +0000 (Thu, 13 Sep 2018) $"
+## Version: r838
+## X-ReleaseDate: "$Date: 2018-09-23 03:43:01 +0000 (Sun, 23 Sep 2018) $"
 ## X-Category: UnitFrame
 
 # Ace Libraries
@@ -36,9 +36,9 @@ locales.xml
 GridCore.lua
 GridUtils.lua
 GridRoster.lua
+GridFrame.lua
 GridLayout.lua
 GridLayoutLayouts.lua
-GridFrame.lua
 GridIndicator.lua
 GridStatus.lua
 GridSetup.lua

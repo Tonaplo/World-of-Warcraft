@@ -51,11 +51,11 @@ frame:SetScript("OnEvent", function (self, event, unit)
 			order, name = spells_order[id], id
 		end
 		if order then
-			spells_status[name]:AddDebuff(order, te, co, ty, du, ex)
+			spells_status[name]:AddDebuff(order, te, co, ty, du, ex, index)
 		elseif auto_time and (not auto_blacklist[id]) and (ex<=0 or du<=0 or ex-du>=auto_time) then
 			order = GSRD:RegisterNewDebuff(id, ca, te, co, ty, du, ex, isBoss)
 			if order then
-				auto_status:AddDebuff(order, te, co, ty, du, ex)
+				auto_status:AddDebuff(order, te, co, ty, du, ex, index)
 			end	
 		end
 		index = index + 1
@@ -79,7 +79,7 @@ function GSRD:UpdateZoneSpells(event)
 		local map_id = select(8,GetInstanceInfo()) + 100000 -- +100000 to avoid collisions with instance_id
 		if event and map_id==instance_map_id then return end
 		self:ResetZoneSpells()
-		instance_id = EJ_GetInstanceForMap(bm)
+		instance_id = EJ_GetInstanceForMap(bm~=1150 and bm or 1148) -- Fix for Uldir map 1150 (ticket #588)
 		instance_map_id = map_id
 		instance_map_name = GetInstanceInfo()
 		for status in next,statuses do
@@ -217,6 +217,7 @@ local class = {
 	GetCount          = function(self, unit) return self.counts[unit]      end,
 	GetDuration       = function(self, unit) return self.durations[unit]   end,
 	GetExpirationTime = function(self, unit) return self.expirations[unit] end,
+	GetTooltip        = function(self, unit, tip) tip:SetUnitDebuff(unit, self.states[unit]) end,
 }	
 
 function class:ClearAllIndicators()
@@ -267,8 +268,9 @@ function class:OnDisable()
 	end	
 end
 
-function class:AddDebuff(order, te, co, ty, du, ex, id)
+function class:AddDebuff(order, te, co, ty, du, ex, index)
 	if order < self.order or ( order == self.order and co > self.count ) then
+		self.index      = index
 		self.order      = order
 		self.count      = co
 		self.texture    = te
@@ -281,14 +283,14 @@ end
 function class:UpdateState(unit)
 	if self.order<10000 then
 		if self.count==0 then self.count = 1 end
-		if	true            ~= self.states[unit]    or 
-			self.count      ~= self.counts[unit]    or 
-			self.type       ~= self.types[unit]     or
-			self.texture    ~= self.textures[unit]  or
-			self.duration   ~= self.durations[unit] or	
+		if	false           ~= not self.states[unit] or 
+			self.count      ~= self.counts[unit]     or 
+			self.type       ~= self.types[unit]      or
+			self.texture    ~= self.textures[unit]   or
+			self.duration   ~= self.durations[unit]  or	
 			self.expiration ~= self.expirations[unit]
 		then
-			self.states[unit]      = true
+			self.states[unit]      = self.index
 			self.counts[unit]      = self.count
 			self.textures[unit]    = self.texture
 			self.types[unit]       = self.type
@@ -323,7 +325,7 @@ local function Create(baseKey, dbx)
 	status.count       = 0
 	status.order       = 10000
 	status:Inject(class)
-	Grid2:RegisterStatus(status, { "icon", "color" }, baseKey, dbx)
+	Grid2:RegisterStatus(status, { "icon", "color", 'tooltip' }, baseKey, dbx)
 	return status
 end
 

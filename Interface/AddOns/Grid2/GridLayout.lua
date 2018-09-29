@@ -4,7 +4,7 @@ Created by Grid2 original authors, modified by Michael
 
 local Grid2Layout = Grid2:NewModule("Grid2Layout")
 
-local pairs, ipairs, next = pairs, ipairs, next
+local pairs, ipairs, next, strmatch = pairs, ipairs, next, strmatch
 
 --{{{ Frame config function for secure headers
 local function GridHeader_InitialConfigFunction(self, name)
@@ -15,21 +15,14 @@ end
 --{{{ Class for group headers
 
 local NUM_HEADERS = 0
-local SecureHeaderTemplates = {
-	party = "SecurePartyHeaderTemplate",
-	partypet = "SecurePartyPetHeaderTemplate",
-	raid = "SecureRaidGroupHeaderTemplate",
-	raidpet = "SecureRaidPetHeaderTemplate",
-}
 
 local GridLayoutHeaderClass = {
 	prototype = {},
 	new = function (self, type)
 		NUM_HEADERS = NUM_HEADERS + 1
 		local frame
-		frame = CreateFrame("Frame", "Grid2LayoutHeader"..NUM_HEADERS, Grid2Layout.frame, assert(SecureHeaderTemplates[type]))
-		frame:SetAttribute("template",
-			ClickCastHeader and "ClickCastUnitTemplate,SecureUnitButtonTemplate" or "SecureUnitButtonTemplate")
+		frame = CreateFrame("Frame", "Grid2LayoutHeader"..NUM_HEADERS, Grid2Layout.frame, type=='pet' and "SecureGroupPetHeaderTemplate" or "SecureGroupHeaderTemplate" )
+		frame:SetAttribute("template", ClickCastHeader and "ClickCastUnitTemplate,SecureUnitButtonTemplate" or "SecureUnitButtonTemplate")
 		frame.initialConfigFunction = GridHeader_InitialConfigFunction
 		frame:SetAttribute("initialConfigFunction", [[
 			RegisterUnitWatch(self)
@@ -51,7 +44,7 @@ local GridLayoutHeaderClass = {
 }
 
 local HeaderAttributes = {
-	"showPlayer", "showSolo", "nameList", "groupFilter", "strictFiltering",
+	"nameList", "groupFilter", "strictFiltering",
 	"sortDir", "groupBy", "groupingOrder", "maxColumns", "unitsPerColumn",
 	"startingIndex", "columnSpacing", "columnAnchorPoint",
 	"useOwnerUnit", "filterOnPet", "unitsuffix",
@@ -64,6 +57,10 @@ function GridLayoutHeaderClass.prototype:Reset()
 			self:SetLayoutAttribute(attr, nil)
 		end
 	end
+	self:SetAttribute("showSolo", true)
+	self:SetAttribute("showPlayer", true)
+	self:SetAttribute("showParty", true)
+	self:SetAttribute("showRaid", true)	
 	self:Hide()
 end
 
@@ -92,21 +89,15 @@ end
 -- including those which not affect anchors, the only exception: calls from GridLayoutHeaderClass.new)
 function GridLayoutHeaderClass.prototype:SetLayoutAttribute(name, value)
 	if name == "point" or name == "columnAnchorPoint" or name == "unitsPerColumn" then
-	  self:ClearChildrenPoints()
-  end
+		local count, uframe = 1, self:GetAttribute("child1")
+		while uframe do
+			uframe:ClearAllPoints()
+			count = count + 1
+			uframe = self:GetAttribute("child" .. count)
+		end
+	end
    self:SetAttribute(name, value)
 end
-
-function GridLayoutHeaderClass.prototype:ClearChildrenPoints()
-      local count = 1
-      local uframe = self:GetAttribute("child1")
-      while uframe do
-         uframe:ClearAllPoints()
-         count = count + 1
-         uframe = self:GetAttribute("child" .. count)
-      end
-end
-
 --{{{ Grid2Layout
 
 -- AceDB defaults
@@ -162,34 +153,20 @@ Grid2Layout.layoutSettings = {}
 Grid2Layout.layoutHeaderClass = GridLayoutHeaderClass
 
 function Grid2Layout:OnModuleInitialize()
-	self.groups = {
-		raid = {},
-		raidpet = {},
-		party = {},
-		partypet = {},
-	}
-	self.indexes = {
-		raid = 0,
-		raidpet = 0,
-		party = 0,
-		partypet = 0,
-	}
+	self.groups = { player = {}, pet = {} }
+	self.indexes = { player = 0,  pet = 0  }
 	self.groupsUsed = {}
 	self:AddCustomLayouts()
 end
 
 function Grid2Layout:OnModuleEnable()
-	if not self.frame then
-		self:CreateFrame()
-	end
+	self:CreateFrame()
 	self:RestorePosition()
-	if self.layoutName then
-		self:ReloadLayout(true)
-	end
 	self:RegisterMessage("Grid_GroupTypeChanged")
 	self:RegisterMessage("Grid_UpdateLayoutSize", "UpdateSize")
 	self:RegisterEvent("PLAYER_REGEN_ENABLED")
 	self:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
+	self:RefreshModule()
 end
 
 function Grid2Layout:OnModuleDisable()
@@ -200,9 +177,16 @@ function Grid2Layout:OnModuleDisable()
 	self.frame:Hide()
 end
 
+-- Executed only if profile changes (not first run)
+function Grid2Layout:RefreshModule()
+	self.RefreshModule = function(self) 
+		self:ReloadLayout(true) 
+	end
+end
+
 --{{{ Event handlers
 
-local reloadLayoutQueued, updateSizeQueued, restorePositionQueued
+local reloadLayoutQueued, updateSizeQueued, restorePositionQueued, reloadProfileQueued, initProfileFlag
 function Grid2Layout:PLAYER_REGEN_ENABLED()
 	if reloadProfileQueued then return self:ReloadProfile() end
 	if reloadLayoutQueued then return self:ReloadLayout(true) end
@@ -289,7 +273,7 @@ function Grid2Layout:CreateFrame()
 	f:SetFrameLevel(0)
 	--
 	self:UpdateTextures()
-	self.CreateFrame = nil
+	self.CreateFrame = Grid2.Dummy
 end
 
 local relativePoints = {
@@ -342,9 +326,13 @@ function Grid2Layout:ReloadProfile()
 		if type(pro)=="string" and pro~=Grid2.db:GetCurrentProfile() then
 			if InCombatLockdown() then
 				reloadProfileQueued = true
+			elseif not initProfileFlag and self.partyType=='solo' then
+				reloadProfileQueued = true -- Trick to avoid loading two profiles on startup (We wait a couple of seconds for the final Group Type)
+				C_Timer.After(3, function() if reloadProfileQueued then self:ReloadProfile() end end )
 			else
 				Grid2.db:SetProfile(pro)
-			end	
+			end
+			initProfileFlag = true
 			return true
 		end
 	end	
@@ -368,7 +356,6 @@ end
 local groupFilters = { "1", "1,2", "1,2,3", "1,2,3,4", "1,2,3,4,5", "1,2,3,4,5,6", "1,2,3,4,5,6,7", "1,2,3,4,5,6,7,8" }
 
 local function SetAllAttributes(header, p, list, fix)
-	local petgroup = false
 	for attr, value in next, list do
 		if attr=="groupFilter" and value=="auto" then
 			value = groupFilters[Grid2Layout.instMaxGroups] or "1"
@@ -379,12 +366,10 @@ local function SetAllAttributes(header, p, list, fix)
 			header:SetLayoutAttribute("columnAnchorPoint", anchorPoints[not p.horizontal][p.groupAnchor] or p.groupAnchor )
 		elseif attr ~= "type" then
 			header:SetLayoutAttribute(attr, value)
-		else
-			petgroup = (value == "partypet" or value == "raidpet")
 		end
 	end
 	if fix then
-		if petgroup then
+		if strmatch(list.type or '','pet') then
 			-- force these so that the bug in SecureGroupPetHeader_Update doesn't trigger
 			header:SetLayoutAttribute("filterOnPet", true)
 			header:SetLayoutAttribute("useOwnerUnit", false)
@@ -413,8 +398,8 @@ local function ForceFramesCreation(header)
 end
 
 local function AddLayoutHeader(self, profile, defaults, header, visualIndex)
-	local type = header.type or (defaults and defaults.type) or "raid"
-	local headers = assert(self.groups[type], "Bad " .. type)
+	local type = header.type and strmatch(header.type,'pet') or 'player'
+	local headers = self.groups[type]
 	local index = self.indexes[type] + 1
 	local group = headers[index]
 	if not group then

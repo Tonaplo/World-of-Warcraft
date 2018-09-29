@@ -4,6 +4,8 @@ local Grid2 = Grid2
 local type = type
 local next = next
 local GetTime = GetTime
+local UnitBuff = UnitBuff
+local UnitDebuff = UnitDebuff
 
 -- Local variables
 local StatusList = {}
@@ -33,7 +35,7 @@ do
 			if statuses then
 				local isMine = myUnits[caster]
 				for status in next, statuses do
-					status:UpdateState(unit, texture, count, duration, expiration, values[status.valueIndex], isMine )
+					status:UpdateState(unit, texture, count, duration, expiration, values[status.valueIndex], isMine, debuffType, i )
 				end
 			end
 			if debuffType then
@@ -44,7 +46,7 @@ do
 			end
 			for status in next, DebuffsHandlers do
 				if not status.seen then	
-					status:UpdateState(unit, name, texture, count, duration, expiration, caster, isBossDebuff, debuffType)
+					status:UpdateState(unit, name, texture, count, duration, expiration, caster, isBossDebuff, debuffType, i)
 				end	
 			end
 			i = i + 1
@@ -231,7 +233,7 @@ do
 		return true
 	end
 	local function IsActive(self, unit) 
-		return self.states[unit] 
+		if self.states[unit] then return true end 
 	end
 	local function IsActiveBlink(self, unit) 
 		if not self.states[unit] then return end
