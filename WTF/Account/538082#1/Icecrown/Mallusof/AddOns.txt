@@ -11,3 +11,4 @@ LittleWigs: enabled
 BigWigs_Uldir: enabled
 QE-DungeonTips: disabled
 XLoot_Options: enabled
+BigWigs_Azeroth: enabled

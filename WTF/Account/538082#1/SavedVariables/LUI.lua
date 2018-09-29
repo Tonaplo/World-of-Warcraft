@@ -129,17 +129,17 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 659798181,
-							["Thedodrouk"] = 181020,
+							["Mallusof"] = 665050045,
+							["Thedodrouk"] = 210020,
 						},
 					},
 				},
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
-							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -203,11 +203,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -218,6 +213,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -245,9 +244,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -926,14 +926,14 @@ LUIDB = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
 							"/i hey guys?", -- [1]
-							" Hey bud!", -- [2]
-							"/rchars", -- [3]
+							"/rchars", -- [2]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [3]
 							"/i hey guys?", -- [4]
-							"/rchars", -- [5]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [6]
-							"/i hey guys?", -- [7]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [8]
-							"/i hey guys?", -- [9]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [5]
+							"/i hey guys?", -- [6]
+							"/rchars", -- [7]
+							"/i hey guys?", -- [8]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [9]
 							"/rchars", -- [10]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
 							"/i hey guys?", -- [12]
@@ -941,26 +941,26 @@ LUIDB = {
 							"/i hey guys?", -- [14]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [15]
 							"/i hey guys?", -- [16]
-							"/rchars", -- [17]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [18]
-							"/i hey guys?", -- [19]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [20]
-							"/i hey guys?", -- [21]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [17]
+							"/i hey guys?", -- [18]
+							"/rchars", -- [19]
+							"/i hey guys?", -- [20]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [21]
 							"/rchars", -- [22]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [23]
 							"/i hey guys?", -- [24]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [25]
 							"/i hey guys?", -- [26]
-							"/rchars", -- [27]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [27]
 							"/i hey guys?", -- [28]
-							"/rchars", -- [29]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [29]
 							"/i hey guys?", -- [30]
-							"/rchars", -- [31]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [31]
 							"/i hey guys?", -- [32]
 						},
 						["Horde - Proudmoore"] = {
-							"/focus", -- [1]
-							" hahaha", -- [2]
+							" hahaha", -- [1]
+							"/2 contact CS", -- [2]
 							"/focus", -- [3]
 							"/2 contact CS", -- [4]
 							"/focus", -- [5]
@@ -969,11 +969,11 @@ LUIDB = {
 							" hahaha", -- [8]
 							"/2 contact CS", -- [9]
 							"/focus", -- [10]
-							"/2 contact CS", -- [11]
-							" hahaha", -- [12]
-							"/focus", -- [13]
-							" hahaha", -- [14]
-							"/focus", -- [15]
+							" hahaha", -- [11]
+							"/focus", -- [12]
+							"/2 contact CS", -- [13]
+							"/focus", -- [14]
+							" hahaha", -- [15]
 							"/2 contact CS", -- [16]
 							"/focus", -- [17]
 							"/2 contact CS", -- [18]
@@ -981,13 +981,13 @@ LUIDB = {
 							" hahaha", -- [20]
 							"/2 contact CS", -- [21]
 							"/focus", -- [22]
-							"/2 contact CS", -- [23]
-							" hahaha", -- [24]
-							"/focus", -- [25]
-							"/2 contact CS", -- [26]
-							" hahaha", -- [27]
-							"/focus", -- [28]
-							" hahaha", -- [29]
+							" hahaha", -- [23]
+							"/focus", -- [24]
+							"/2 contact CS", -- [25]
+							" hahaha", -- [26]
+							"/focus", -- [27]
+							" hahaha", -- [28]
+							"/focus", -- [29]
 							"/2 contact CS", -- [30]
 							"/focus", -- [31]
 							"/2 contact CS", -- [32]
@@ -1027,38 +1027,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [1]
+							"/cw Kalithumos-Tichondrius Also", -- [1]
 							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [2]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [3]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [4]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [5]
-							"/cw Kalithumos-Tichondrius Also", -- [6]
-							"/cw Kalithumos-Tichondrius family visit", -- [7]
-							"/cw Inevitabits-Icecrown hey!", -- [8]
-							"/cw Inevitabits-Icecrown There is no revenge, lol :P And I only just logged on, not ready for stuff yet :)", -- [9]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [10]
-							"/cw Inevitabits-Icecrown nvm then", -- [11]
-							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [12]
-							"/i Shout pease :)", -- [13]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [14]
-							"/macro", -- [15]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [16]
-							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [17]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [18]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [19]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [20]
-							"/cw Kalithumos-Tichondrius Also", -- [21]
-							"/cw Inevitabits-Icecrown hey!", -- [22]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [23]
-							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [24]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [25]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [26]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [27]
-							"/cw Kalithumos-Tichondrius Also", -- [28]
-							"/cw Inevitabits-Icecrown 2 different commanders", -- [29]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [30]
-							"/cw Kalithumos-Tichondrius Also", -- [31]
-							"/cw Kalithumos-Tichondrius Remember that I am not raiding this week", -- [32]
+							"/g Anchor Weed WQ in Drustwar", -- [3]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [4]
+							"/g Anchor Weed WQ in Drustwar", -- [5]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [6]
+							"/g Anchor Weed WQ in Drustwar", -- [7]
+							"/cw Kalithumos-Tichondrius Also", -- [8]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [9]
+							"/g Anchor Weed WQ in Drustwar", -- [10]
+							"/cw Kalithumos-Tichondrius Also", -- [11]
+							"/g Anchor Weed WQ in Drustwar", -- [12]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [13]
+							"/g Anchor Weed WQ in Drustwar", -- [14]
+							"/cw Kalithumos-Tichondrius Also", -- [15]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [16]
+							"/g Anchor Weed WQ in Drustwar", -- [17]
+							"/cw Kalithumos-Tichondrius Also", -- [18]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [19]
+							"/cw Kalithumos-Tichondrius Also", -- [20]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [21]
+							"/g Anchor Weed WQ in Drustwar", -- [22]
+							"/cw Kalithumos-Tichondrius Also", -- [23]
+							"/g Anchor Weed WQ in Drustwar", -- [24]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [25]
+							"/cw Kalithumos-Tichondrius Also", -- [26]
+							"/g Anchor Weed WQ in Drustwar", -- [27]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [28]
+							"/g Anchor Weed WQ in Drustwar", -- [29]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [30]
+							"/g Anchor Weed WQ in Drustwar", -- [31]
+							"/cw Inevitabits-Icecrown and then I'd love to do a key", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

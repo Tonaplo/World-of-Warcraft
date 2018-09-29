@@ -109,8 +109,8 @@ _detalhes_database = {
 			["dpshistory"] = {
 				"2: 3,664,324", -- [1]
 			},
-			["author"] = "Details! Team",
 			["dps"] = 3664324.008294,
+			["author"] = "Details! Team",
 			["level"] = 2,
 			["enabled"] = true,
 		},
@@ -184,6 +184,25 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
+			["use_spark"] = false,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -20.15869140625,
+			["font_size"] = 14,
+			["x"] = 0,
+			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -195,34 +214,15 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-			},
 			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
-			["y"] = -20.15869140625,
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["font_size"] = 14,
 			["main_frame_strata"] = "LOW",
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -232,10 +232,6 @@ _detalhes_database = {
 				1, -- [3]
 			},
 			["enabled"] = true,
-		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -247,6 +243,11 @@ _detalhes_database = {
 			["pre_pot_healers"] = false,
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -349,13 +350,11 @@ _detalhes_database = {
 			},
 			["author"] = "Details! Team",
 		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
+		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
 		},
 	},
-	["last_day"] = "26",
 	["ignore_nicktag"] = false,
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "The Arcway",
@@ -368,6 +367,7 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 1516,
 		["previous_boss_killed_at"] = 1517644497,
 	},
+	["last_day"] = "28",
 	["nick_tag_cache"] = {
 		["nextreset"] = 1539099465,
 		["last_version"] = 10,
@@ -390,7 +390,7 @@ _detalhes_database = {
 		["Mode"] = 1,
 	},
 	["character_data"] = {
-		["logons"] = 207,
+		["logons"] = 209,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -515,7 +515,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["combat_counter"] = 2982,
+	["combat_counter"] = 2986,
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {
@@ -533,6 +533,5 @@ _detalhes_database = {
 	},
 	["cached_specs"] = {
 		["Player-5-0A1AA184"] = 263,
-		["Player-3661-07FACD7C"] = 70,
 	},
 }
