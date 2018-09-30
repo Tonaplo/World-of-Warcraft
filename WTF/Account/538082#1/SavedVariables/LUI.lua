@@ -60,7 +60,7 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Thedodrouk"] = 225020,
+							["Thedodrouk"] = 240020,
 							["Mallusof"] = 659984848,
 						},
 					},
@@ -98,8 +98,8 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38755956,
 							["Korugen"] = 7955626,
-							["Fimwack"] = 1625871926,
 							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -933,6 +933,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
+					["Tps"] = {
+						["Width"] = 600,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Animation"] = "None",
@@ -941,17 +947,11 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 					},
-					["MicroMenu"] = {
+					["Minimap"] = {
 						["IsShown"] = true,
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
-						["IsShown"] = true,
-					},
-					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1078,7 +1078,13 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.12, -- [1]
+						0.58, -- [2]
+						0.89, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
@@ -1090,23 +1096,17 @@ LUIDB = {
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.12, -- [1]
-						0.58, -- [2]
-						0.89, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.12, -- [1]
 						0.58, -- [2]
 						0.89, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.12, -- [1]
@@ -1240,13 +1240,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1258,13 +1252,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1403,17 +1403,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
 					},
 					["micromenu_btn_hover"] = {
 						0.9, -- [1]
@@ -1421,13 +1415,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1495,68 +1495,68 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/rchars", -- [1]
-							"/i hey guys?", -- [2]
-							"/rchars", -- [3]
-							"/i hey guys?", -- [4]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [5]
-							"/rchars", -- [6]
+							"/i hey guys?", -- [1]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [2]
+							"/i hey guys?", -- [3]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [4]
+							"/rchars", -- [5]
+							"/i hey guys?", -- [6]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [7]
-							"/i hey guys?", -- [8]
-							"/rchars", -- [9]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [10]
-							"/i hey guys?", -- [11]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [12]
-							"/rchars", -- [13]
-							"/i hey guys?", -- [14]
-							"/rchars", -- [15]
-							"/i hey guys?", -- [16]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [17]
-							"/rchars", -- [18]
+							"/rchars", -- [8]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [9]
+							"/rchars", -- [10]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
+							"/rchars", -- [12]
+							"/i hey guys?", -- [13]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [14]
+							"/i hey guys?", -- [15]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [16]
+							"/rchars", -- [17]
+							"/i hey guys?", -- [18]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [19]
-							"/i hey guys?", -- [20]
-							"/rchars", -- [21]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [22]
-							"/i hey guys?", -- [23]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [24]
-							"/rchars", -- [25]
-							"/i hey guys?", -- [26]
-							"/rchars", -- [27]
-							"/i hey guys?", -- [28]
+							"/rchars", -- [20]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [21]
+							"/rchars", -- [22]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [23]
+							"/rchars", -- [24]
+							"/i hey guys?", -- [25]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [26]
+							"/i hey guys?", -- [27]
+							"/rchars", -- [28]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [29]
-							"/rchars", -- [30]
-							"/i hey guys?", -- [31]
-							"/rchars", -- [32]
+							"/i hey guys?", -- [30]
+							"/rchars", -- [31]
+							"/i hey guys?", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/focus", -- [1]
 							" hahaha", -- [2]
 							"/focus", -- [3]
 							"/2 contact CS", -- [4]
-							" hahaha", -- [5]
-							"/focus", -- [6]
+							"/focus", -- [5]
+							"/2 contact CS", -- [6]
 							" hahaha", -- [7]
-							"/focus", -- [8]
-							"/2 contact CS", -- [9]
-							"/focus", -- [10]
-							"/2 contact CS", -- [11]
-							" hahaha", -- [12]
+							"/2 contact CS", -- [8]
+							"/focus", -- [9]
+							" hahaha", -- [10]
+							"/focus", -- [11]
+							"/2 contact CS", -- [12]
 							"/focus", -- [13]
 							"/2 contact CS", -- [14]
-							" hahaha", -- [15]
-							"/focus", -- [16]
-							"/2 contact CS", -- [17]
-							" hahaha", -- [18]
-							"/focus", -- [19]
-							" hahaha", -- [20]
+							"/focus", -- [15]
+							"/2 contact CS", -- [16]
+							"/focus", -- [17]
+							"/2 contact CS", -- [18]
+							" hahaha", -- [19]
+							"/2 contact CS", -- [20]
 							"/focus", -- [21]
-							"/2 contact CS", -- [22]
+							" hahaha", -- [22]
 							"/focus", -- [23]
 							"/2 contact CS", -- [24]
-							" hahaha", -- [25]
+							"/focus", -- [25]
 							"/2 contact CS", -- [26]
 							"/focus", -- [27]
-							" hahaha", -- [28]
+							"/2 contact CS", -- [28]
 							"/focus", -- [29]
 							"/2 contact CS", -- [30]
 							"/focus", -- [31]
@@ -1597,38 +1597,38 @@ LUIDB = {
 							"/p restarting wow", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/raid caps", -- [1]
-							"/cw Newc-Lightbringer Yeah, it's one of Kalithumos friends", -- [2]
+							"/MACRO", -- [1]
+							"/raid caps", -- [2]
 							"/cw Newc-Lightbringer that's all I know really :P", -- [3]
-							"/raid where?", -- [4]
-							"/raid oh yeah", -- [5]
-							"/raid that's default", -- [6]
-							"/raid You can start a timer or set a timer", -- [7]
-							"/cw Bigburt-Sargeras Yeah, that was a combination of badness :P They started taling about topping off first", -- [8]
-							"/cw Bigburt-Sargeras I hesitated and fucked up", -- [9]
-							"/g NICE GZ!", -- [10]
-							"/g caps", -- [11]
-							"/g You guys doing a 10 after the one you're doing now?", -- [12]
-							"/cw Silkena-Icecrown cheers :)", -- [13]
-							"/cw Silkena-Icecrown Couldnt raid Thursday", -- [14]
-							"/cw Silkena-Icecrown so in a pug right now", -- [15]
-							"/cw Silkena-Icecrown but yeah, still need my 10", -- [16]
-							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [17]
-							"/cw Holydemon-ShatteredHalls cheers", -- [18]
-							"/raid shout please :)", -- [19]
-							"/raid cheers", -- [20]
-							"/raid mechanics", -- [21]
-							"/raid  that was fixed", -- [22]
-							"/raid He always creates 3 debuffs, the duration is just longer in smaller groups", -- [23]
-							"/raid Coud you move tanks into group 5", -- [24]
-							"/raid thanks", -- [25]
-							"/roll 1-1", -- [26]
-							"/raid nice BoE", -- [27]
-							"/cw Holydemon-ShatteredHalls cheers", -- [28]
-							"/raid That was last pull for me :)", -- [29]
-							"/raid Thanks for the run everyone", -- [30]
-							"/raid have a good night :)", -- [31]
-							"/MACRO", -- [32]
+							"/raid oh yeah", -- [4]
+							"/raid You can start a timer or set a timer", -- [5]
+							"/cw Bigburt-Sargeras I hesitated and fucked up", -- [6]
+							"/g caps", -- [7]
+							"/cw Silkena-Icecrown cheers :)", -- [8]
+							"/cw Silkena-Icecrown so in a pug right now", -- [9]
+							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [10]
+							"/raid shout please :)", -- [11]
+							"/raid mechanics", -- [12]
+							"/raid He always creates 3 debuffs, the duration is just longer in smaller groups", -- [13]
+							"/raid thanks", -- [14]
+							"/raid nice BoE", -- [15]
+							"/raid That was last pull for me :)", -- [16]
+							"/raid have a good night :)", -- [17]
+							"/raid caps", -- [18]
+							"/raid oh yeah", -- [19]
+							"/cw Bigburt-Sargeras I hesitated and fucked up", -- [20]
+							"/cw Silkena-Icecrown cheers :)", -- [21]
+							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [22]
+							"/raid mechanics", -- [23]
+							"/raid thanks", -- [24]
+							"/raid That was last pull for me :)", -- [25]
+							"/raid caps", -- [26]
+							"/cw Bigburt-Sargeras I hesitated and fucked up", -- [27]
+							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [28]
+							"/raid thanks", -- [29]
+							"/raid caps", -- [30]
+							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [31]
+							"/raid caps", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
@@ -1922,11 +1922,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -1975,11 +1975,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -2011,11 +2011,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -2206,9 +2206,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2274,11 +2274,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Korugen - Proudmoore"] = {
@@ -2304,9 +2304,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2449,14 +2449,14 @@ LUIDB = {
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Rentror - Bleeding Hollow"] = "Base",
 		["Zethan - Tichondrius"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Kindhoof - Tichondrius"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Deminath - Hyjal"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Rentror - Bleeding Hollow"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Zearthan - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
@@ -2468,7 +2468,7 @@ LUIDB = {
 		["Thedodrouk - Icecrown"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Kindhoof - Tichondrius"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Kindhoof - Proudmoore"] = "Base",
 		["Morifa - Tichondrius"] = "Base",
 		["Alura - Tichondrius"] = "Base",

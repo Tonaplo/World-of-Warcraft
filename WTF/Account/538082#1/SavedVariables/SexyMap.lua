@@ -5,11 +5,11 @@ SexyMap2DB = {
 	["Fimwack-Proudmoore"] = "global",
 	["Deminath-Proudmoore"] = "global",
 	["Faerand-Proudmoore"] = "global",
-	["Mallusof-Icecrown"] = "global",
+	["Kaldorath-Proudmoore"] = "global",
 	["Morifa-Proudmoore"] = "global",
 	["Thedodrouk-Icecrown"] = "global",
 	["Lorvol-Tichondrius"] = "global",
-	["Kaldorath-Proudmoore"] = "global",
+	["Mallusof-Icecrown"] = "global",
 	["Mallubank-Tichondrius"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -32,6 +32,12 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -49,12 +55,6 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -170,6 +170,12 @@ SexyMap2DB = {
 			},
 			["updateRate"] = 1,
 		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -187,12 +193,6 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -321,23 +321,35 @@ SexyMap2DB = {
 			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
 			["rightClickToConfig"] = true,
 		},
-		["movers"] = {
-			["enabled"] = true,
-			["framePositions"] = {
-				["ObjectiveTrackerFrame"] = {
-					["y"] = 852.268005371094,
-					["x"] = 1718.96520996094,
-				},
-				["DurabilityFrame"] = {
-					["y"] = 811.885559082031,
-					["x"] = 1607.46691894531,
-				},
-				["VehicleSeatIndicator"] = {
-					["y"] = 727.11083984375,
-					["x"] = 1579.00219726563,
-				},
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["GameTimeFrame"] = "hover",
+				["TimeManagerClockButton"] = "never",
+				["MinimapZoomOut"] = "never",
+				["QueueStatusMinimapButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
+				["LibDBIcon10_ExorsusRaidTools"] = "hover",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "hover",
 			},
-			["lock"] = true,
+			["dragPositions"] = {
+				["LibDBIcon10_ExorsusRaidTools"] = -9.27105280123834,
+				["MiniMapMailFrame"] = 7.08018105598895,
+				["LibDBIcon10_Grid2"] = -55.2231071020398,
+				["GameTimeFrame"] = 48.6728540163423,
+				["LibDBIcon10_LookingForGroup"] = 206.638284068863,
+				["MiniMapWorldMapButton"] = 22.1750488706855,
+				["QueueStatusMinimapButton"] = 161.816765760918,
+				["MiniMapTracking"] = 116.402357746043,
+				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
+				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
+			},
+			["controlVisibility"] = true,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -430,35 +442,23 @@ SexyMap2DB = {
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["buttons"] = {
-			["radius"] = 10,
-			["lockDragging"] = false,
-			["allowDragging"] = true,
-			["visibilitySettings"] = {
-				["MinimapZoomIn"] = "never",
-				["MiniMapMailFrame"] = "always",
-				["GameTimeFrame"] = "hover",
-				["TimeManagerClockButton"] = "never",
-				["MinimapZoomOut"] = "never",
-				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "always",
-				["LibDBIcon10_ExorsusRaidTools"] = "hover",
-				["MinimapZoneTextButton"] = "always",
-				["MiniMapWorldMapButton"] = "hover",
+		["movers"] = {
+			["enabled"] = true,
+			["framePositions"] = {
+				["ObjectiveTrackerFrame"] = {
+					["y"] = 852.268005371094,
+					["x"] = 1718.96520996094,
+				},
+				["DurabilityFrame"] = {
+					["y"] = 811.885559082031,
+					["x"] = 1607.46691894531,
+				},
+				["VehicleSeatIndicator"] = {
+					["y"] = 727.11083984375,
+					["x"] = 1579.00219726563,
+				},
 			},
-			["dragPositions"] = {
-				["LibDBIcon10_ExorsusRaidTools"] = -9.27105280123834,
-				["MiniMapMailFrame"] = 7.08018105598895,
-				["LibDBIcon10_Grid2"] = -55.2231071020398,
-				["GameTimeFrame"] = 48.6728540163423,
-				["LibDBIcon10_LookingForGroup"] = 206.638284068863,
-				["MiniMapWorldMapButton"] = 22.1750488706855,
-				["QueueStatusMinimapButton"] = 161.816765760918,
-				["MiniMapTracking"] = 116.402357746043,
-				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
-				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
-			},
-			["controlVisibility"] = true,
+			["lock"] = true,
 		},
 	},
 	["Kindhoof-Proudmoore"] = "global",

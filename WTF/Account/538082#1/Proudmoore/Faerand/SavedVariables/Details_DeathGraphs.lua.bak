@@ -6,152 +6,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
 		["diff"] = 16,
-		["player_db"] = {
-			["Librarien"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Librarien",
-				["class"] = "DRUID",
-			},
-			["Mirialyn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Mirialyn",
-				["class"] = "HUNTER",
-			},
-			["Nemain"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nemain",
-				["class"] = "WARRIOR",
-			},
-			["Faerand"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Faerand",
-				["class"] = "HUNTER",
-			},
-			["Chaosblades"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Chaosblades",
-				["class"] = "DEMONHUNTER",
-			},
-			["Bmany"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bmany",
-				["class"] = "HUNTER",
-			},
-			["Náutywáshrag"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Náutywáshrag",
-				["class"] = "WARLOCK",
-			},
-			["Caelus"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Caelus",
-				["class"] = "DRUID",
-			},
-			["Garroo"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Garroo",
-				["class"] = "DRUID",
-			},
-			["Aredor"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Aredor",
-				["class"] = "SHAMAN",
-			},
-			["Vivie"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Vivie",
-				["class"] = "PALADIN",
-			},
-			["Ddeath"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ddeath",
-				["class"] = "HUNTER",
-			},
-			["Snowvulpix"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Snowvulpix",
-				["class"] = "DRUID",
-			},
-			["Surenia"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Surenia",
-				["class"] = "MONK",
-			},
-			["Dazandis"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Dazandis",
-				["class"] = "DEMONHUNTER",
-			},
-			["Zcc"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zcc",
-				["class"] = "PALADIN",
-			},
-			["Glimmerstar"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Glimmerstar",
-				["class"] = "WARRIOR",
-			},
-			["Denyal"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Denyal",
-				["class"] = "MAGE",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Mythic",
 			["index"] = 1,
@@ -164,6 +18,152 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 946,
 			["diff"] = 16,
 		},
+		["player_db"] = {
+			["Librarien"] = {
+				["name"] = "Librarien",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mirialyn"] = {
+				["name"] = "Mirialyn",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nemain"] = {
+				["name"] = "Nemain",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Faerand"] = {
+				["name"] = "Faerand",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Chaosblades"] = {
+				["name"] = "Chaosblades",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Bmany"] = {
+				["name"] = "Bmany",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Náutywáshrag"] = {
+				["name"] = "Náutywáshrag",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Caelus"] = {
+				["name"] = "Caelus",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Garroo"] = {
+				["name"] = "Garroo",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Aredor"] = {
+				["name"] = "Aredor",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Vivie"] = {
+				["name"] = "Vivie",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Ddeath"] = {
+				["name"] = "Ddeath",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Snowvulpix"] = {
+				["name"] = "Snowvulpix",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Surenia"] = {
+				["name"] = "Surenia",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Dazandis"] = {
+				["name"] = "Dazandis",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Zcc"] = {
+				["name"] = "Zcc",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Glimmerstar"] = {
+				["name"] = "Glimmerstar",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Denyal"] = {
+				["name"] = "Denyal",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -173,6 +173,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
 		["diff"] = 16,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 1,
+			["zone"] = "Antorus, the Burning Throne",
+			["id"] = 2076,
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Garothi Worldbreaker",
+			["encounter"] = "Garothi Worldbreaker",
+			["ej_instance_id"] = 946,
+			["diff"] = 16,
+		},
 		["player_db"] = {
 			["Librarien"] = {
 				["encounters"] = 5,
@@ -372,18 +384,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 1,
-			["zone"] = "Antorus, the Burning Throne",
-			["id"] = 2076,
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "Garothi Worldbreaker",
-			["encounter"] = "Garothi Worldbreaker",
-			["ej_instance_id"] = 946,
-			["diff"] = 16,
 		},
 	},
 }
