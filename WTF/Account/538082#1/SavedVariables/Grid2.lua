@@ -1,6 +1,8 @@
 
 Grid2DB = {
 	["namespaces"] = {
+		["Grid2Utils"] = {
+		},
 		["Grid2Frame"] = {
 			["profiles"] = {
 				["Non-Healer"] = {
@@ -42,12 +44,10 @@ Grid2DB = {
 					["orientation"] = "HORIZONTAL",
 					["frameWidth"] = 119,
 					["frameHeights"] = {
-						[40] = 34,
+						[40] = 35,
 					},
 				},
 			},
-		},
-		["Grid2Utils"] = {
 		},
 		["Grid2Layout"] = {
 			["profiles"] = {
@@ -56,92 +56,46 @@ Grid2DB = {
 					["groupAnchor"] = "TOPRIGHT",
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["raid"] = "By Group & Role",
 						["party"] = "Party",
-						["solo"] = "Solo",
 						["arena"] = "By Group",
+						["solo"] = "Solo",
+						["raid"] = "By Group & Role",
 					},
-					["Spacing"] = 3,
-					["BackgroundR"] = 1,
 					["BackgroundB"] = 1,
+					["BackgroundR"] = 1,
 					["PosX"] = -15.2272332442953,
+					["Spacing"] = 3,
 					["BackgroundA"] = 0,
 					["BorderR"] = 0.501960784313726,
-					["BorderTexture"] = "Stripped_medium",
+					["BorderG"] = 0.501960784313726,
 					["anchor"] = "TOPRIGHT",
 					["horizontal"] = false,
-					["BorderG"] = 0.501960784313726,
+					["BorderTexture"] = "Stripped_medium",
 					["PosY"] = -600.888744491441,
 				},
 				["Healer"] = {
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["arena"] = "By Group",
 						["raid"] = "By Group & Role",
-						["solo"] = "Solo",
 						["party"] = "Party",
+						["solo"] = "Solo",
+						["arena"] = "By Group",
 					},
 					["BackgroundR"] = 1,
 					["FrameLock"] = true,
 					["BorderR"] = 0.501960784313726,
-					["Spacing"] = 3,
+					["BorderTexture"] = "Stripped_medium",
 					["anchor"] = "TOP",
 					["BackgroundG"] = 1,
 					["minimapIcon"] = {
 						["hide"] = true,
 					},
-					["PosY"] = -572.733069811196,
-					["BackgroundB"] = 1,
+					["PosY"] = -569.258548723265,
+					["PosX"] = 0.00197221978123707,
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.501960784313726,
-					["PosX"] = 0.00186618645966519,
-					["BorderTexture"] = "Stripped_medium",
-				},
-			},
-		},
-		["Grid2AoeHeals"] = {
-		},
-		["Grid2Options"] = {
-			["profiles"] = {
-				["Non-Healer"] = {
-					["L"] = {
-						["indicators"] = {
-							["text-down"] = "text-center",
-							["icon-center"] = "icon-top",
-						},
-					},
-				},
-				["Healer"] = {
-					["L"] = {
-						["indicators"] = {
-							["icon-center"] = "icon-top",
-							["text-down"] = "text-center",
-						},
-					},
-				},
-			},
-		},
-		["Grid2RaidDebuffs"] = {
-			["profiles"] = {
-				["Non-Healer"] = {
-					["autodetect"] = {
-						["zones"] = {
-							[1188] = true,
-						},
-						["debuffs"] = {
-							[245994] = "1188@946@Aggramar",
-							[245990] = "1188@946@Aggramar",
-							[244736] = "1188@946@Aggramar",
-						},
-					},
-					["defaultEJ_difficulty"] = 16,
-					["lastSelectedModule"] = "Legion",
-					["lastSelectedInstance"] = 1015,
-				},
-				["Healer"] = {
-					["lastSelectedModule"] = "Legion",
-					["defaultEJ_difficulty"] = 16,
-					["lastSelectedInstance"] = 1015,
+					["BackgroundB"] = 1,
+					["Spacing"] = 3,
 				},
 			},
 		},
@@ -210,6 +164,52 @@ Grid2DB = {
 				},
 			},
 		},
+		["Grid2Options"] = {
+			["profiles"] = {
+				["Non-Healer"] = {
+					["L"] = {
+						["indicators"] = {
+							["text-down"] = "text-center",
+							["icon-center"] = "icon-top",
+						},
+					},
+				},
+				["Healer"] = {
+					["L"] = {
+						["indicators"] = {
+							["icon-center"] = "icon-top",
+							["text-down"] = "text-center",
+						},
+					},
+				},
+			},
+		},
+		["Grid2RaidDebuffs"] = {
+			["profiles"] = {
+				["Non-Healer"] = {
+					["autodetect"] = {
+						["zones"] = {
+							[1188] = true,
+						},
+						["debuffs"] = {
+							[245994] = "1188@946@Aggramar",
+							[245990] = "1188@946@Aggramar",
+							[244736] = "1188@946@Aggramar",
+						},
+					},
+					["defaultEJ_difficulty"] = 16,
+					["lastSelectedModule"] = "Legion",
+					["lastSelectedInstance"] = 1015,
+				},
+				["Healer"] = {
+					["lastSelectedModule"] = "Legion",
+					["defaultEJ_difficulty"] = 16,
+					["lastSelectedInstance"] = 1015,
+				},
+			},
+		},
+		["Grid2AoeHeals"] = {
+		},
 	},
 	["profileKeys"] = {
 		["Korugen - Tichondrius"] = "Non-Healer",
@@ -223,18 +223,18 @@ Grid2DB = {
 		["Faerand - Proudmoore"] = "Non-Healer",
 		["Amranar - Proudmoore"] = "Non-Healer",
 		["Zearthan - Proudmoore"] = "Non-Healer",
-		["Miriyal - Proudmoore"] = "Non-Healer",
+		["Kindhoof - Tichondrius"] = "Non-Healer",
 		["Rahran - Proudmoore"] = "Non-Healer",
 		["Zethan - Tichondrius"] = "Non-Healer",
-		["Korugen - Proudmoore"] = "Non-Healer",
+		["Deminath - Proudmoore"] = "Non-Healer",
 		["Farahn - Proudmoore"] = "Non-Healer",
-		["Morifa - Proudmoore"] = "Non-Healer",
+		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Mallusof - Tichondrius"] = "Non-Healer",
 		["Thedodrouk - Icecrown"] = "Non-Healer",
-		["Deminath - Proudmoore"] = "Non-Healer",
-		["Zaliga - Bleeding Hollow"] = "Non-Healer",
-		["Kindhoof - Tichondrius"] = "Non-Healer",
 		["Granjior - Proudmoore"] = "Non-Healer",
+		["Zaliga - Bleeding Hollow"] = "Non-Healer",
+		["Morifa - Proudmoore"] = "Non-Healer",
+		["Korugen - Proudmoore"] = "Non-Healer",
 		["Morifa - Tichondrius"] = "Non-Healer",
 		["Alura - Tichondrius"] = "Healer",
 		["Mallusof - Icecrown"] = "Healer",
@@ -409,21 +409,6 @@ Grid2DB = {
 				["importantDebuffsBorder-color"] = {
 					["type"] = "multibar-color",
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
-				["text-up-color"] = {
-					["type"] = "text-color",
-				},
 				["corner-bottom-left"] = {
 					["disableStack"] = true,
 					["type"] = "icons",
@@ -437,16 +422,31 @@ Grid2DB = {
 						["r"] = 0,
 					},
 					["maxIcons"] = 3,
-					["iconSize"] = 20,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["orientation"] = "HORIZONTAL",
 					["level"] = 8,
 					["maxIconsPerRow"] = 3,
-					["orientation"] = "HORIZONTAL",
+					["iconSize"] = 20,
+				},
+				["text-up-color"] = {
+					["type"] = "text-color",
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
 				},
 				["heals"] = {
 					["type"] = "bar",
@@ -521,11 +521,58 @@ Grid2DB = {
 				["leader"] = {
 					["hideInCombat"] = true,
 				},
-				["health-current"] = {
-					["frequentHealth"] = true,
+				["buffs-DefensiveCooldowns"] = {
+					["type"] = "buffs",
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["auras"] = {
+						"Anti-Magic Shell", -- [1]
+						"Ardent Defender", -- [2]
+						"Barkskin", -- [3]
+						"Blessing of Sacrifice", -- [4]
+						"Blessing of Protection", -- [5]
+						"Bristling Fur", -- [6]
+						"Dancing Rune Weapon", -- [7]
+						"Deterrence", -- [8]
+						"Divine Protection", -- [9]
+						"Evanesce", -- [10]
+						"Frenzied Regeneration", -- [11]
+						"Guardian of Ancient Kings", -- [12]
+						"Guardian Spirit", -- [13]
+						"Ironbark", -- [14]
+						"Icebound Fortitude", -- [15]
+						"Ice Block", -- [16]
+						"Last Stand", -- [17]
+						"Life Cocoon", -- [18]
+						"Pain Suppression", -- [19]
+						"Roar of Sacrifice", -- [20]
+						"Survival Instincts", -- [21]
+						"Shield Wall", -- [22]
+						"Vampiric Blood", -- [23]
+					},
 				},
-				["role"] = {
-					["hideInCombat"] = true,
+				["debuffs-ImportantDebuffs"] = {
+					["auras"] = {
+						"Fulminating Pulse", -- [1]
+						"Chilled Blood", -- [2]
+						"Ravenous Blaze", -- [3]
+						"Withering Roots", -- [4]
+						"Soulblight", -- [5]
+						"Soulbomb", -- [6]
+						"Soulburst", -- [7]
+					},
+					["useWhiteList"] = true,
+					["type"] = "debuffs",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
 				},
 				["buffs-Bottom-Left-Buffs-mine"] = {
 					["color1"] = {
@@ -563,62 +610,15 @@ Grid2DB = {
 					["hideDamagers"] = true,
 					["hideInCombat"] = true,
 				},
-				["buffs-DefensiveCooldowns"] = {
-					["type"] = "buffs",
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-					["auras"] = {
-						"Anti-Magic Shell", -- [1]
-						"Ardent Defender", -- [2]
-						"Barkskin", -- [3]
-						"Blessing of Sacrifice", -- [4]
-						"Blessing of Protection", -- [5]
-						"Bristling Fur", -- [6]
-						"Dancing Rune Weapon", -- [7]
-						"Deterrence", -- [8]
-						"Divine Protection", -- [9]
-						"Evanesce", -- [10]
-						"Frenzied Regeneration", -- [11]
-						"Guardian of Ancient Kings", -- [12]
-						"Guardian Spirit", -- [13]
-						"Ironbark", -- [14]
-						"Icebound Fortitude", -- [15]
-						"Ice Block", -- [16]
-						"Last Stand", -- [17]
-						"Life Cocoon", -- [18]
-						"Pain Suppression", -- [19]
-						"Roar of Sacrifice", -- [20]
-						"Survival Instincts", -- [21]
-						"Shield Wall", -- [22]
-						"Vampiric Blood", -- [23]
-					},
+				["health-current"] = {
+					["frequentHealth"] = true,
 				},
 				["heals-incoming"] = {
 					["includePlayerHeals"] = true,
 					["multiplier"] = 1.6,
 				},
-				["debuffs-ImportantDebuffs"] = {
-					["auras"] = {
-						"Fulminating Pulse", -- [1]
-						"Chilled Blood", -- [2]
-						"Ravenous Blaze", -- [3]
-						"Withering Roots", -- [4]
-						"Soulblight", -- [5]
-						"Soulbomb", -- [6]
-						"Soulburst", -- [7]
-					},
-					["useWhiteList"] = true,
-					["type"] = "debuffs",
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0,
-						["r"] = 0,
-					},
+				["role"] = {
+					["hideInCombat"] = true,
 				},
 			},
 			["versions"] = {
@@ -906,21 +906,6 @@ Grid2DB = {
 					["level"] = 9,
 					["size"] = 5,
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
-				["text-up-color"] = {
-					["type"] = "text-color",
-				},
 				["corner-bottom-left"] = {
 					["type"] = "square",
 					["location"] = {
@@ -937,6 +922,21 @@ Grid2DB = {
 						["g"] = 1,
 						["b"] = 1,
 					},
+				},
+				["text-up-color"] = {
+					["type"] = "text-color",
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
 				},
 				["side-bottom"] = {
 					["location"] = {
@@ -1041,15 +1041,15 @@ Grid2DB = {
 					["maxIcons"] = 3,
 					["font"] = "Prototype",
 					["fontSize"] = 12,
+					["iconSize"] = 20,
+					["level"] = 8,
+					["reverseCooldown"] = true,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "TOPLEFT",
 						["point"] = "TOPLEFT",
 						["x"] = 0,
 					},
-					["level"] = 8,
-					["reverseCooldown"] = true,
-					["iconSize"] = 20,
 				},
 				["side-top"] = {
 					["type"] = "text",
@@ -1207,18 +1207,6 @@ Grid2DB = {
 						["b"] = 0,
 					},
 				},
-				["text-up"] = {
-					["type"] = "text",
-					["location"] = {
-						["y"] = -8,
-						["relPoint"] = "TOP",
-						["point"] = "TOP",
-						["x"] = 0,
-					},
-					["level"] = 7,
-					["textlength"] = 6,
-					["fontSize"] = 8,
-				},
 				["corner-bottom-left"] = {
 					["disableStack"] = true,
 					["type"] = "icons",
@@ -1232,16 +1220,28 @@ Grid2DB = {
 						["b"] = 0,
 					},
 					["maxIcons"] = 3,
+					["orientation"] = "HORIZONTAL",
+					["iconSize"] = 20,
+					["level"] = 8,
+					["maxIconsPerRow"] = 3,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
-					["orientation"] = "HORIZONTAL",
-					["level"] = 8,
-					["maxIconsPerRow"] = 3,
-					["iconSize"] = 20,
+				},
+				["text-up"] = {
+					["type"] = "text",
+					["location"] = {
+						["y"] = -8,
+						["relPoint"] = "TOP",
+						["point"] = "TOP",
+						["x"] = 0,
+					},
+					["level"] = 7,
+					["textlength"] = 6,
+					["fontSize"] = 8,
 				},
 				["text-up-color"] = {
 					["type"] = "text-color",

@@ -8,6 +8,10 @@ VER 3 010000000000000F "Gunshoes and pot" "INV_MISC_QUESTIONMARK"
 /use Gunshoes
 /use Skystep Potion
 END
+VER 3 0100000000000010 "Halo/DS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2, nochanneling:Penance] Divine Star; [talent:6/3, nochanneling:Penance] Halo
+END
 VER 3 010000000000000D "Leveling CDs" "INV_MISC_QUESTIONMARK"
 /use 14
 /use Potion of Prolonged Power
