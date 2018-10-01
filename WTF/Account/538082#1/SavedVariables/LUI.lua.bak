@@ -130,16 +130,16 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Mallusof"] = 659984848,
-							["Thedodrouk"] = 225020,
+							["Thedodrouk"] = 257020,
 						},
 					},
 				},
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
-							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -165,7 +165,7 @@ LUIDB = {
 							["Amranar"] = 599870423,
 							["Granjior"] = 1186116499,
 							["Kaldorath"] = 1269646101,
-							["Zearthan"] = 38755956,
+							["Zearthan"] = 38822533,
 							["Korugen"] = 7955626,
 							["Faerand"] = 331462352,
 							["Fimwack"] = 1625871926,
@@ -203,14 +203,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -238,16 +245,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -666,8 +666,8 @@ LUIDB = {
 							["ClassIcons"] = {
 								["Y"] = 100,
 								["X"] = 350,
-								["Padding"] = 1,
 								["Lock"] = false,
+								["Padding"] = 1,
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -929,72 +929,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i hey guys?", -- [1]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [2]
-							"/i hey guys?", -- [3]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [4]
-							"/rchars", -- [5]
-							"/i hey guys?", -- [6]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [7]
-							"/rchars", -- [8]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [9]
-							"/rchars", -- [10]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
-							"/rchars", -- [12]
-							"/i hey guys?", -- [13]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [14]
-							"/i hey guys?", -- [15]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [16]
-							"/rchars", -- [17]
-							"/i hey guys?", -- [18]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [19]
-							"/rchars", -- [20]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [21]
-							"/rchars", -- [22]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [23]
-							"/rchars", -- [24]
-							"/i hey guys?", -- [25]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [26]
-							"/i hey guys?", -- [27]
-							"/rchars", -- [28]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [29]
-							"/i hey guys?", -- [30]
-							"/rchars", -- [31]
-							"/i hey guys?", -- [32]
+							"/rchars", -- [1]
+							"/i hey guys?", -- [2]
+							"/rchars", -- [3]
+							"/i hey guys?", -- [4]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [5]
+							"/rchars", -- [6]
+							"/i hey guys?", -- [7]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [8]
+							"/i hey guys?", -- [9]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [10]
+							"/i hey guys?", -- [11]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [12]
+							"/rchars", -- [13]
+							"/i hey guys?", -- [14]
+							"/rchars", -- [15]
+							"/i hey guys?", -- [16]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [17]
+							"/rchars", -- [18]
+							"/i hey guys?", -- [19]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [20]
+							"/i hey guys?", -- [21]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [22]
+							"/i hey guys?", -- [23]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [24]
+							"/rchars", -- [25]
+							"/i hey guys?", -- [26]
+							"/rchars", -- [27]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [28]
+							"/i hey guys?", -- [29]
+							"/rchars", -- [30]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [31]
+							"/rchars", -- [32]
 						},
 						["Horde - Proudmoore"] = {
-							"/focus", -- [1]
-							" hahaha", -- [2]
-							"/focus", -- [3]
-							"/2 contact CS", -- [4]
-							"/focus", -- [5]
-							"/2 contact CS", -- [6]
-							" hahaha", -- [7]
-							"/2 contact CS", -- [8]
-							"/focus", -- [9]
-							" hahaha", -- [10]
-							"/focus", -- [11]
-							"/2 contact CS", -- [12]
-							"/focus", -- [13]
-							"/2 contact CS", -- [14]
-							"/focus", -- [15]
-							"/2 contact CS", -- [16]
+							"/2 contact CS", -- [1]
+							"/focus", -- [2]
+							" hahaha", -- [3]
+							"/focus", -- [4]
+							"/2 contact CS", -- [5]
+							"/focus", -- [6]
+							"/2 contact CS", -- [7]
+							"/focus", -- [8]
+							"/2 contact CS", -- [9]
+							"/focus", -- [10]
+							"/2 contact CS", -- [11]
+							"/focus", -- [12]
+							"/2 contact CS", -- [13]
+							"/focus", -- [14]
+							"/2 contact CS", -- [15]
+							" hahaha", -- [16]
 							"/focus", -- [17]
 							"/2 contact CS", -- [18]
-							" hahaha", -- [19]
+							"/focus", -- [19]
 							"/2 contact CS", -- [20]
 							"/focus", -- [21]
-							" hahaha", -- [22]
+							"/2 contact CS", -- [22]
 							"/focus", -- [23]
 							"/2 contact CS", -- [24]
 							"/focus", -- [25]
-							"/2 contact CS", -- [26]
-							"/focus", -- [27]
-							"/2 contact CS", -- [28]
-							"/focus", -- [29]
-							"/2 contact CS", -- [30]
+							" hahaha", -- [26]
+							"/2 contact CS", -- [27]
+							"/focus", -- [28]
+							"/2 contact CS", -- [29]
+							" hahaha", -- [30]
 							"/focus", -- [31]
-							"/2 contact CS", -- [32]
+							" hahaha", -- [32]
 						},
 						["Horde - Hyjal"] = {
 							" Hey :)", -- [1]
@@ -1032,35 +1032,35 @@ LUIDB = {
 						},
 						["Alliance - Icecrown"] = {
 							"/raid caps", -- [1]
-							"/cw Newc-Lightbringer Yeah, it's one of Kalithumos friends", -- [2]
+							"/MACRO", -- [2]
 							"/cw Newc-Lightbringer that's all I know really :P", -- [3]
-							"/raid where?", -- [4]
-							"/raid oh yeah", -- [5]
-							"/raid that's default", -- [6]
-							"/raid You can start a timer or set a timer", -- [7]
-							"/cw Bigburt-Sargeras Yeah, that was a combination of badness :P They started taling about topping off first", -- [8]
-							"/cw Bigburt-Sargeras I hesitated and fucked up", -- [9]
-							"/g NICE GZ!", -- [10]
-							"/g caps", -- [11]
-							"/g You guys doing a 10 after the one you're doing now?", -- [12]
-							"/cw Silkena-Icecrown cheers :)", -- [13]
-							"/cw Silkena-Icecrown Couldnt raid Thursday", -- [14]
-							"/cw Silkena-Icecrown so in a pug right now", -- [15]
-							"/cw Silkena-Icecrown but yeah, still need my 10", -- [16]
+							"/raid You can start a timer or set a timer", -- [4]
+							"/g caps", -- [5]
+							"/cw Silkena-Icecrown so in a pug right now", -- [6]
+							"/raid shout please :)", -- [7]
+							"/raid He always creates 3 debuffs, the duration is just longer in smaller groups", -- [8]
+							"/raid nice BoE", -- [9]
+							"/raid have a good night :)", -- [10]
+							"/raid oh yeah", -- [11]
+							"/cw Silkena-Icecrown cheers :)", -- [12]
+							"/raid mechanics", -- [13]
+							"/raid That was last pull for me :)", -- [14]
+							"/cw Bigburt-Sargeras I hesitated and fucked up", -- [15]
+							"/raid thanks", -- [16]
 							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [17]
-							"/cw Holydemon-ShatteredHalls cheers", -- [18]
-							"/raid shout please :)", -- [19]
-							"/raid cheers", -- [20]
-							"/raid mechanics", -- [21]
-							"/raid  that was fixed", -- [22]
-							"/raid He always creates 3 debuffs, the duration is just longer in smaller groups", -- [23]
-							"/raid Coud you move tanks into group 5", -- [24]
+							"/MACRO", -- [18]
+							"/raid You can start a timer or set a timer", -- [19]
+							"/cw Silkena-Icecrown so in a pug right now", -- [20]
+							"/raid He always creates 3 debuffs, the duration is just longer in smaller groups", -- [21]
+							"/raid have a good night :)", -- [22]
+							"/cw Silkena-Icecrown cheers :)", -- [23]
+							"/raid That was last pull for me :)", -- [24]
 							"/raid thanks", -- [25]
-							"/roll 1-1", -- [26]
-							"/raid nice BoE", -- [27]
-							"/cw Holydemon-ShatteredHalls cheers", -- [28]
+							"/MACRO", -- [26]
+							"/cw Silkena-Icecrown so in a pug right now", -- [27]
+							"/raid have a good night :)", -- [28]
 							"/raid That was last pull for me :)", -- [29]
-							"/raid Thanks for the run everyone", -- [30]
+							"/MACRO", -- [30]
 							"/raid have a good night :)", -- [31]
 							"/MACRO", -- [32]
 						},

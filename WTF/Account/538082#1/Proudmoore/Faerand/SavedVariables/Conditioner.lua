@@ -7,16 +7,16 @@ ConditionerAddOn_SavedVariables = {
 	},
 	["Options"] = {
 		["TaperSize"] = 80,
-		["TrackedFrameSize"] = 120,
+		["OnlyDisplayInCombat"] = true,
 		["AnchorDirection"] = 0,
 		["TrackedFrameAnchorCoords"] = {
 			["y"] = 613.229572296143,
 			["x"] = 705.840957641602,
 		},
-		["NumTrackedFrames"] = 3,
+		["TrackedFrameSize"] = 120,
 		["Opacity"] = 100,
 		["ShowSwingTimers"] = false,
-		["OnlyDisplayInCombat"] = true,
+		["NumTrackedFrames"] = 3,
 	},
 	["TalentsPerLoadout"] = {
 		[11] = "3221312",
