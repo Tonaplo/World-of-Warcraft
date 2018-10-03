@@ -43,11 +43,11 @@ CliqueDB3 = {
 		},
 		["Faerand - Proudmoore"] = {
 			["spec1_profileKey"] = "Faerand - Proudmoore",
-			["spec2_profileKey"] = "Faerand - Proudmoore",
+			["spec3_profileKey"] = "Faerand - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Faerand - Proudmoore",
 			["specswap"] = false,
-			["spec3_profileKey"] = "Faerand - Proudmoore",
 		},
 		["Zearthan - Proudmoore"] = {
 			["spec1_profileKey"] = "Zearthan - Proudmoore",
@@ -59,11 +59,11 @@ CliqueDB3 = {
 		},
 		["Amranar - Proudmoore"] = {
 			["spec1_profileKey"] = "Druid - Balance",
-			["specswap"] = true,
+			["spec2_profileKey"] = "Druid - Feral",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Druid - Feral",
 			["spec3_profileKey"] = "Druid - Guardian",
+			["specswap"] = true,
 			["spec4_profileKey"] = "Druid - Resto",
 		},
 		["Rahran - Proudmoore"] = {
@@ -74,14 +74,6 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Rahran - Proudmoore",
 			["specswap"] = false,
 		},
-		["Korugen - Proudmoore"] = {
-			["spec1_profileKey"] = "Korugen - Proudmoore",
-			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
-			["spec3_profileKey"] = "Korugen - Proudmoore",
-			["spec2_profileKey"] = "Korugen - Proudmoore",
-		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
 			["specswap"] = true,
@@ -90,21 +82,29 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Non-Healer",
 			["spec3_profileKey"] = "Non-Healer",
 		},
+		["Deminath - Proudmoore"] = {
+			["spec1_profileKey"] = "Deminath - Proudmoore",
+			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Deminath - Proudmoore",
+			["spec3_profileKey"] = "Deminath - Proudmoore",
+		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
-			["spec3_profileKey"] = "Shaman - Resto",
-			["downclick"] = false,
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Shaman - Resto",
-			["specswap"] = true,
-		},
-		["Morifa - Proudmoore"] = {
-			["spec1_profileKey"] = "Morifa - Proudmoore",
-			["spec2_profileKey"] = "Morifa - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec3_profileKey"] = "Morifa - Proudmoore",
+			["specswap"] = true,
+			["spec3_profileKey"] = "Shaman - Resto",
+		},
+		["Miriyal - Proudmoore"] = {
+			["spec1_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = true,
+			["spec2_profileKey"] = "Monk - Mistweaver",
 		},
 		["Mallusof - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
@@ -125,27 +125,19 @@ CliqueDB3 = {
 		},
 		["Thedodrouk - Icecrown"] = {
 			["spec1_profileKey"] = "Thedodrouk - Icecrown",
-			["spec2_profileKey"] = "Thedodrouk - Icecrown",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
 			["spec3_profileKey"] = "Thedodrouk - Icecrown",
+			["spec2_profileKey"] = "Thedodrouk - Icecrown",
 		},
-		["Deminath - Proudmoore"] = {
-			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["spec2_profileKey"] = "Deminath - Proudmoore",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec3_profileKey"] = "Deminath - Proudmoore",
+		["Korugen - Proudmoore"] = {
+			["spec1_profileKey"] = "Korugen - Proudmoore",
 			["specswap"] = false,
-		},
-		["Miriyal - Proudmoore"] = {
-			["spec1_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = true,
-			["spec2_profileKey"] = "Monk - Mistweaver",
+			["spec3_profileKey"] = "Korugen - Proudmoore",
+			["spec2_profileKey"] = "Korugen - Proudmoore",
 		},
 		["Kindhoof - Tichondrius"] = {
 			["spec1_profileKey"] = "Kindhoof - Tichondrius",
@@ -154,6 +146,14 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["spec2_profileKey"] = "Kindhoof - Tichondrius",
 			["spec3_profileKey"] = "Kindhoof - Tichondrius",
+		},
+		["Morifa - Proudmoore"] = {
+			["spec1_profileKey"] = "Morifa - Proudmoore",
+			["spec2_profileKey"] = "Morifa - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec3_profileKey"] = "Morifa - Proudmoore",
 		},
 		["Kindhoof - Proudmoore"] = {
 			["spec1_profileKey"] = "Kindhoof - Proudmoore",
@@ -182,16 +182,16 @@ CliqueDB3 = {
 		},
 		["Mallusof - Icecrown"] = {
 			["spec1_profileKey"] = "Priest - Disc",
-			["specswap"] = true,
-			["downclick"] = false,
-			["alerthidden"] = true,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Priest - Holy",
-			["spec3_profileKey"] = "Non-Healer",
 			["blacklist"] = {
 				["oUF_LUI_player"] = true,
 				["oUF_LUI_target"] = true,
 			},
+			["alerthidden"] = true,
+			["downclick"] = false,
+			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Priest - Holy",
+			["specswap"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -864,30 +864,30 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [3]
 				{
-					["spell"] = "Prayer of Healing",
-					["key"] = "Q",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135943,
-					["type"] = "spell",
-				}, -- [4]
-				{
-					["spell"] = "Binding Heal",
-					["key"] = "1",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135883,
-					["type"] = "spell",
-				}, -- [5]
-				{
 					["spell"] = "Flash Heal",
 					["key"] = "3",
 					["sets"] = {
 						["friend"] = true,
 					},
 					["icon"] = 135907,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Prayer of Mending",
+					["key"] = "SHIFT-2",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135944,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Prayer of Healing",
+					["key"] = "Q",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135943,
 					["type"] = "spell",
 				}, -- [6]
 				{
@@ -909,12 +909,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [8]
 				{
-					["spell"] = "Holy Word: Serenity",
-					["key"] = "F",
+					["spell"] = "Leap of Faith",
+					["key"] = "T",
 					["sets"] = {
 						["friend"] = true,
 					},
-					["icon"] = 135937,
+					["icon"] = 463835,
 					["type"] = "spell",
 				}, -- [9]
 				{
@@ -927,30 +927,30 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [10]
 				{
-					["spell"] = "Prayer of Mending",
-					["key"] = "SHIFT-2",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 135944,
-					["type"] = "spell",
-				}, -- [11]
-				{
-					["spell"] = "Leap of Faith",
-					["key"] = "T",
-					["sets"] = {
-						["friend"] = true,
-					},
-					["icon"] = 463835,
-					["type"] = "spell",
-				}, -- [12]
-				{
 					["spell"] = "Renew",
 					["key"] = "SHIFT-1",
 					["sets"] = {
 						["friend"] = true,
 					},
 					["icon"] = 135953,
+					["type"] = "spell",
+				}, -- [11]
+				{
+					["spell"] = "Holy Word: Serenity",
+					["key"] = "F",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135937,
+					["type"] = "spell",
+				}, -- [12]
+				{
+					["spell"] = "Binding Heal",
+					["key"] = "1",
+					["sets"] = {
+						["friend"] = true,
+					},
+					["icon"] = 135883,
 					["type"] = "spell",
 				}, -- [13]
 				{

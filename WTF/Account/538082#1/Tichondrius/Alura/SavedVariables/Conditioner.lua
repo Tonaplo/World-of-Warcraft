@@ -1,7 +1,6 @@
 
 ConditionerAddOn_SavedVariables = {
 	["TalentsPerLoadout"] = {
-		[34] = "2130000",
 	},
 	["Options"] = {
 		["TaperSize"] = 80,
@@ -17,6 +16,6 @@ ConditionerAddOn_SavedVariables = {
 		},
 	},
 	["CurrentLoadouts"] = {
-		[256] = 34,
+		[256] = 0,
 	},
 }

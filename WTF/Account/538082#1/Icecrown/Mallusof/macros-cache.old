@@ -1,3 +1,7 @@
+VER 3 0100000000000011 "Binding/Circle" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2] Binding Heal; [talent:5/3] Circle of Healing
+END
 VER 3 010000000000000E "Guild Standard" "INV_MISC_QUESTIONMARK"
 /use Battle Standard of Coordination
 /use Standard of Unity

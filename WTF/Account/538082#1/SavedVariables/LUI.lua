@@ -60,17 +60,17 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Thedodrouk"] = 257020,
-							["Mallusof"] = 659984848,
+							["Thedodrouk"] = 274520,
+							["Mallusof"] = 658500900,
 						},
 					},
 				},
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -97,7 +97,7 @@ LUIDB = {
 							["Granjior"] = 1186116499,
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38822533,
-							["Korugen"] = 7955626,
+							["Korugen"] = 8015553,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 1625871926,
 							["Morifa"] = 1385014335,
@@ -203,14 +203,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -238,16 +244,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1499,136 +1499,136 @@ LUIDB = {
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [2]
 							"/i hey guys?", -- [3]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [4]
-							"/rchars", -- [5]
-							"/i hey guys?", -- [6]
-							"/rchars", -- [7]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [8]
+							"/i hey guys?", -- [5]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [6]
+							"/i hey guys?", -- [7]
+							"/rchars", -- [8]
 							"/i hey guys?", -- [9]
-							"/rchars", -- [10]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [10]
+							"/i hey guys?", -- [11]
 							"/rchars", -- [12]
-							"/i hey guys?", -- [13]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [14]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [13]
+							"/rchars", -- [14]
 							"/i hey guys?", -- [15]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [16]
-							"/rchars", -- [17]
-							"/i hey guys?", -- [18]
-							"/rchars", -- [19]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [20]
+							"/rchars", -- [16]
+							"/i hey guys?", -- [17]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [18]
+							"/i hey guys?", -- [19]
+							"/rchars", -- [20]
 							"/i hey guys?", -- [21]
-							"/rchars", -- [22]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [23]
-							"/rchars", -- [24]
-							"/i hey guys?", -- [25]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [26]
-							"/i hey guys?", -- [27]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [28]
-							"/rchars", -- [29]
-							"/i hey guys?", -- [30]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [22]
+							"/i hey guys?", -- [23]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [24]
+							"/rchars", -- [25]
+							"/i hey guys?", -- [26]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [27]
+							"/rchars", -- [28]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [29]
+							"/rchars", -- [30]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [31]
-							"/i hey guys?", -- [32]
+							"/rchars", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/2 contact CS", -- [1]
 							"/focus", -- [2]
-							" hahaha", -- [3]
+							"/2 contact CS", -- [3]
 							"/focus", -- [4]
-							"/2 contact CS", -- [5]
-							"/focus", -- [6]
-							"/2 contact CS", -- [7]
-							"/focus", -- [8]
-							"/2 contact CS", -- [9]
+							" hahaha", -- [5]
+							"/2 contact CS", -- [6]
+							"/focus", -- [7]
+							"/2 contact CS", -- [8]
+							" hahaha", -- [9]
 							"/focus", -- [10]
-							"/2 contact CS", -- [11]
-							"/focus", -- [12]
-							"/2 contact CS", -- [13]
-							"/focus", -- [14]
-							"/2 contact CS", -- [15]
-							" hahaha", -- [16]
+							" hahaha", -- [11]
+							"/2 contact CS", -- [12]
+							" hahaha", -- [13]
+							"/2 contact CS", -- [14]
+							"/focus", -- [15]
+							"/2 contact CS", -- [16]
 							"/focus", -- [17]
-							"/2 contact CS", -- [18]
-							"/focus", -- [19]
-							"/2 contact CS", -- [20]
-							"/focus", -- [21]
-							"/2 contact CS", -- [22]
+							" hahaha", -- [18]
+							"/2 contact CS", -- [19]
+							"/focus", -- [20]
+							"/2 contact CS", -- [21]
+							" hahaha", -- [22]
 							"/focus", -- [23]
-							"/2 contact CS", -- [24]
-							"/focus", -- [25]
-							" hahaha", -- [26]
-							"/2 contact CS", -- [27]
+							" hahaha", -- [24]
+							"/2 contact CS", -- [25]
+							"/focus", -- [26]
+							" hahaha", -- [27]
 							"/focus", -- [28]
-							"/2 contact CS", -- [29]
-							" hahaha", -- [30]
-							"/focus", -- [31]
-							" hahaha", -- [32]
+							" hahaha", -- [29]
+							"/2 contact CS", -- [30]
+							" hahaha", -- [31]
+							"/2 contact CS", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/i thanks :)", -- [1]
-							"/p restarting wow", -- [2]
-							"/s lol @ Heals leaving", -- [3]
-							"/p andy in on", -- [4]
-							"/p try to join voice now", -- [5]
-							"/p ok has everyone left?", -- [6]
-							"/p I cant hear you", -- [7]
-							"/p I was auto put into voice chat", -- [8]
-							"/p I am PTT", -- [9]
-							"/p nothing", -- [10]
-							"/p Is everyone in the correct mode?", -- [11]
-							"/p Warmode On", -- [12]
+							"/p then couldnt hear you", -- [1]
+							"/reload", -- [2]
+							"/p yeah I'm in afucked state agaion", -- [3]
+							"/reload", -- [4]
+							"/i thanks :)", -- [5]
+							"/p yeah I'm in afucked state agaion", -- [6]
+							"/reload", -- [7]
+							"/i thanks :)", -- [8]
+							"/reload", -- [9]
+							"/p yeah I'm in afucked state agaion", -- [10]
+							"/reload", -- [11]
+							"/i thanks :)", -- [12]
 							"/p I saw no speakers or anything", -- [13]
 							"/p yeah I'm in afucked state agaion", -- [14]
-							"/p turn on", -- [15]
-							"/p then couldnt hear you", -- [16]
-							"/p lets rejooni", -- [17]
-							"/p restarting wow", -- [18]
-							"/p andy in on", -- [19]
-							"/p ok has everyone left?", -- [20]
-							"/p I was auto put into voice chat", -- [21]
-							"/p nothing", -- [22]
-							"/p Warmode On", -- [23]
+							"/p then couldnt hear you", -- [15]
+							"/reload", -- [16]
+							"/p yeah I'm in afucked state agaion", -- [17]
+							"/reload", -- [18]
+							"/i thanks :)", -- [19]
+							"/p yeah I'm in afucked state agaion", -- [20]
+							"/reload", -- [21]
+							"/i thanks :)", -- [22]
+							"/reload", -- [23]
 							"/p yeah I'm in afucked state agaion", -- [24]
-							"/p then couldnt hear you", -- [25]
-							"/p restarting wow", -- [26]
-							"/p ok has everyone left?", -- [27]
-							"/p nothing", -- [28]
-							"/p yeah I'm in afucked state agaion", -- [29]
-							"/p restarting wow", -- [30]
-							"/p nothing", -- [31]
-							"/p restarting wow", -- [32]
+							"/i thanks :)", -- [25]
+							"/p yeah I'm in afucked state agaion", -- [26]
+							"/reload", -- [27]
+							"/i thanks :)", -- [28]
+							"/reload", -- [29]
+							"/p yeah I'm in afucked state agaion", -- [30]
+							"/reload", -- [31]
+							"/p yeah I'm in afucked state agaion", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/raid caps", -- [1]
-							"/MACRO", -- [2]
-							"/cw Newc-Lightbringer that's all I know really :P", -- [3]
-							"/raid You can start a timer or set a timer", -- [4]
-							"/g caps", -- [5]
-							"/cw Silkena-Icecrown so in a pug right now", -- [6]
-							"/raid shout please :)", -- [7]
-							"/raid He always creates 3 debuffs, the duration is just longer in smaller groups", -- [8]
-							"/raid nice BoE", -- [9]
-							"/raid have a good night :)", -- [10]
-							"/raid oh yeah", -- [11]
-							"/cw Silkena-Icecrown cheers :)", -- [12]
-							"/raid mechanics", -- [13]
-							"/raid That was last pull for me :)", -- [14]
-							"/cw Bigburt-Sargeras I hesitated and fucked up", -- [15]
+							"/raid thanks", -- [1]
+							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [2]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [3]
+							"/raid thanks", -- [4]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [5]
+							"/raid erm", -- [6]
+							"/g caps", -- [7]
+							"/raid mechanics", -- [8]
+							"/raid He always creates 3 debuffs, the duration is just longer in smaller groups", -- [9]
+							"/raid That was last pull for me :)", -- [10]
+							"/raid nice BoE", -- [11]
+							"/raid thanks", -- [12]
+							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [13]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [14]
+							"/raid nice BoE", -- [15]
 							"/raid thanks", -- [16]
 							"/cw Holydemon-ShatteredHalls Rebuff Wisdom please :)", -- [17]
-							"/MACRO", -- [18]
-							"/raid You can start a timer or set a timer", -- [19]
-							"/cw Silkena-Icecrown so in a pug right now", -- [20]
-							"/raid He always creates 3 debuffs, the duration is just longer in smaller groups", -- [21]
-							"/raid have a good night :)", -- [22]
-							"/cw Silkena-Icecrown cheers :)", -- [23]
-							"/raid That was last pull for me :)", -- [24]
-							"/raid thanks", -- [25]
-							"/MACRO", -- [26]
-							"/cw Silkena-Icecrown so in a pug right now", -- [27]
-							"/raid have a good night :)", -- [28]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [18]
+							"/raid thanks", -- [19]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [20]
+							"/raid erm", -- [21]
+							"/raid mechanics", -- [22]
+							"/raid That was last pull for me :)", -- [23]
+							"/raid thanks", -- [24]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [25]
+							"/raid thanks", -- [26]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [27]
+							"/raid erm", -- [28]
 							"/raid That was last pull for me :)", -- [29]
-							"/MACRO", -- [30]
-							"/raid have a good night :)", -- [31]
-							"/MACRO", -- [32]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [30]
+							"/raid erm", -- [31]
+							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

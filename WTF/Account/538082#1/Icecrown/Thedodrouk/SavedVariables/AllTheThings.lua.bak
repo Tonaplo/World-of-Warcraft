@@ -4,11 +4,11 @@ AllTheThingsPCD = {
 		[6] = 1,
 		[2] = 1,
 		[8] = 1,
-		[622] = 1,
 		[12] = 1,
-		[4] = 1,
-		[195] = 1,
+		[622] = 1,
 		[589] = 1,
+		[195] = 1,
+		[4] = 1,
 	},
 	["ItemFilters"] = {
 		true, -- [1]
@@ -48,7 +48,7 @@ AllTheThingsPCD = {
 		false, -- [35]
 		true, -- [36]
 		[0] = true,
-		[102] = true,
+		[52] = false,
 		[101] = true,
 		[103] = true,
 		[105] = true,
@@ -61,7 +61,7 @@ AllTheThingsPCD = {
 		[55] = false,
 		[54] = false,
 		[53] = false,
-		[52] = false,
+		[102] = true,
 		[51] = false,
 		[50] = true,
 		[100] = true,

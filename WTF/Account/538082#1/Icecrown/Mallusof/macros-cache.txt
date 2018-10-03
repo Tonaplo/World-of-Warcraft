@@ -21,6 +21,10 @@ VER 3 010000000000000D "Leveling CDs" "INV_MISC_QUESTIONMARK"
 /use Potion of Prolonged Power
 /use Drums of Fury
 END
+VER 3 0100000000000012 "SW:D/SC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2] Shadow Word: Death [talent:5/3] Shadow Crash
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
