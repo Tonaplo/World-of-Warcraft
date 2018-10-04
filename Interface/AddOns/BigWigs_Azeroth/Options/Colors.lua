@@ -1,4 +1,10 @@
 
+BigWigs:AddColors("Ji'arak", {
+	[260908] = "yellow",
+	[261088] = "red",
+	[261467] = "orange",
+})
+
 BigWigs:AddColors("Azurethos, The Winged Typhoon", {
 	[274829] = "red",
 	[274832] = "purple",

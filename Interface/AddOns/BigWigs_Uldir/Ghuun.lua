@@ -94,7 +94,6 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "DarkBargain", 267409)
 	self:Log("SPELL_CAST_START", "DecayingEruption", 267462)
 	self:Log("SPELL_CAST_START", "ReoriginationBlast", 263482)
-	self:Log("SPELL_CAST_SUCCESS", "ReoriginationBlastSuccess", 263482)
 	self:Log("SPELL_AURA_REMOVED", "ReoriginationBlastRemoved", 263504)
 
 	-- Stage 2
@@ -221,7 +220,7 @@ do
 			end
 			self:TargetMessage2(272506, "orange", args.destName)
 		end
-		self:CDBar(272506, self:Mythic() and stage == 3 and 27 or 44 or stage == 1 and 26 or stage == 2 and 15.9 or 13.4)
+		self:CDBar(272506, self:Mythic() and (stage == 3 and 27 or 44) or stage == 1 and 26 or stage == 2 and 15.9 or 13.4)
 	end
 
 	local playerList = mod:NewTargetList()
@@ -295,10 +294,7 @@ end
 function mod:ReoriginationBlast(args)
 	self:Message2(args.spellId, "green")
 	self:PlaySound(args.spellId, "long")
-end
-
-function mod:ReoriginationBlastSuccess(args)
-	self:Bar(args.spellId, 24)
+	self:Bar(args.spellId, 28)
 	if stage == 1 then -- Stage 1 ending
 		self:StopBar(CL.count:format(self:SpellName(267509), waveCounter)) -- Thousand Maws (x)
 		self:StopBar(267412) -- Massive Smash
@@ -313,7 +309,6 @@ function mod:ReoriginationBlastSuccess(args)
 		self:PauseBar(277007, CL.count:format(self:SpellName(277007), burstingBoilCount)) -- Bursting Boil
 	end
 end
-
 
 function mod:ReoriginationBlastRemoved(args)
 	orbsCounter = 0
@@ -331,7 +326,7 @@ function mod:GrowingCorruption(args)
 	local amount = args.amount or 1
 	if amount % 2 == 1 and amount > 2 then
 		self:StackMessage(args.spellId, args.destName, args.amount, "purple")
-		self:PlaySound(args.spellId, "alarm")
+		self:PlaySound(args.spellId, "alarm", nil, args.destName)
 	end
 end
 

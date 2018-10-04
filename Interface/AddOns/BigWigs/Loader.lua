@@ -10,7 +10,7 @@ local ldbi = LibStub("LibDBIcon-1.0")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 118
+local BIGWIGS_VERSION = 119
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
@@ -21,7 +21,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "7926051" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "a59d43e" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -358,32 +358,15 @@ local dataBroker = ldb:NewDataObject("BigWigs",
 )
 
 function dataBroker.OnClick(self, button)
-	--if button == "RightButton" then
+	if button == "RightButton" then
 		loadCoreAndOpenOptions()
-	--else
-	--	loadAndEnableCore()
-	--	if IsAltKeyDown() then
-	--		if IsControlKeyDown() then
-	--			BigWigs:Disable()
-	--		else
-	--			for name, module in BigWigs:IterateBossModules() do
-	--				if module:IsEnabled() then module:Disable() end
-	--			end
-	--			sysprint(L.modulesDisabled)
-	--		end
-	--	else
-	--		for name, module in BigWigs:IterateBossModules() do
-	--			if module:IsEnabled() then module:Reboot() end
-	--		end
-	--		sysprint(L.modulesReset)
-	--	end
-	--end
+	end
 end
 
 function dataBroker.OnTooltipShow(tt)
 	tt:AddLine("BigWigs")
 	if BigWigs and BigWigs:IsEnabled() then
-		local added = nil
+		local added = false
 		for name, module in BigWigs:IterateBossModules() do
 			if module:IsEnabled() then
 				if not added then
@@ -405,7 +388,7 @@ end
 --
 
 tooltipFunctions[#tooltipFunctions+1] = function(tt)
-	local add, i = nil, 0
+	local add, i = false, 0
 	for _, version in next, usersVersion do
 		i = i + 1
 		if version < highestFoundVersion then
@@ -971,8 +954,8 @@ end
 
 do
 	-- This is a crapfest mainly because DBM's actual handling of versions is a crapfest, I'll try explain how this works...
-	local DBMdotRevision = "17892" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
-	local DBMdotDisplayVersion = "8.0.10" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
+	local DBMdotRevision = "17934" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
+	local DBMdotDisplayVersion = "8.0.11" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
 	local DBMdotReleaseRevision = DBMdotRevision -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil

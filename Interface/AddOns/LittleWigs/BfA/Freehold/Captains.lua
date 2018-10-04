@@ -36,6 +36,10 @@ function mod:OnEngage()
 	self:Bar(258338, 19.4) -- Blackout Barrel
 end
 
+function mod:VerifyEnable(unit)
+	return UnitCanAttack("player", unit) -- one of the captains should be friendly
+end
+
 --------------------------------------------------------------------------------
 -- Event Handlers
 --

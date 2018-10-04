@@ -1,7 +1,9 @@
 # LittleWigs
 
-## [v8.0.24](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.24) (2018-09-20)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.23...v8.0.24)
+## [v8.0.26](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.26) (2018-10-03)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.25...v8.0.26)
 
-- BfA/Freehold/Trash: Fix capture time error.  
-- BfA: Use args.time where appropriate.  
+- Update option files  
+- TolDagor/Korgus: Show bars on the infobox  
+- BfA/TolDagor/Korgus: Fix option key  
+- BfA/TolDagor/Korgus: Add infobox for Deadeye, closes #337  

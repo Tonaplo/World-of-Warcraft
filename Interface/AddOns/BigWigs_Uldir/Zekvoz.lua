@@ -50,7 +50,7 @@ function mod:GetOptions()
 		{265248, "TANK"}, -- Shatter
 
 		--[[ Stage 1 ]]--
-		{264382, "SAY", "ICON"}, -- Eye Beam
+		{264382, "SAY", "ICON", "ME_ONLY_EMPHASIZE"}, -- Eye Beam
 		-18390, -- Qiraji Warrior
 
 		--[[ Stage 2 ]]--
@@ -86,7 +86,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "EyeBeam", 264382)
 
 	--[[ Stage 2 ]]--
-	self:Log("SPELL_CAST_START", "RoilingDeceit", 265358)
+	self:Log("SPELL_CAST_SUCCESS", "RoilingDeceit", 265358)
 	self:Log("SPELL_AURA_APPLIED", "RoilingDeceitApplied", 265360)
 	self:Log("SPELL_AURA_REMOVED", "RoilingDeceitRemoved", 265360)
 	self:Log("SPELL_CAST_START", "VoidBolt", 267180)
@@ -219,17 +219,29 @@ do
 	local function printTarget(self, name, guid)
 		local count = CL.count:format(self:SpellName(264382), eyeBeamCount)
 		self:TargetMessage2(264382, "yellow", name, count)
-		self:PlaySound(264382, "alert", nil, name)
 		self:PrimaryIcon(264382, name)
 		if self:Me(guid) then
+			self:PlaySound(264382, "warning")
 			self:Say(264382, count)
+		else
+			self:PlaySound(264382, "alert", nil, name)
 		end
 		if eyeBeamCount == 3 then
 			self:ScheduleTimer("PrimaryIcon", 3, 264382)
 		end
 	end
+	function mod:UNIT_TARGET(event, unit)
+		self:UnregisterUnitEvent(event, unit)
+		local id = unit.."target"
+		printTarget(self, self:UnitName(id), UnitGUID(id))
+	end
 	function mod:EyeBeam(args)
-		self:GetBossTarget(printTarget, 0.5, args.sourceGUID)
+		local unit = self:GetBossIdByGUID(args.sourceGUID)
+		if unit then
+			self:RegisterUnitEvent("UNIT_TARGET", nil, unit)
+		else
+			self:GetBossTarget(printTarget, 0.5, args.sourceGUID)
+		end
 		self:CastBar(args.spellId, self:Mythic() and 1.5 or 3)
 		eyeBeamCount = eyeBeamCount + 1
 		if eyeBeamCount == 4 then
@@ -316,7 +328,7 @@ end
 
 function mod:WillOfTheCorruptor(args)
 	self:TargetMessage2(args.spellId, "red", args.destName)
-	self:PlaySound(args.spellId, "warning")
+	self:PlaySound(args.spellId, "warning", nil, args.destName)
 end
 
 --[[ Mythic ]]--

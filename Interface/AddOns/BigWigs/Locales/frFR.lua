@@ -67,8 +67,6 @@ L.MESSAGE_desc = "La plupart des techniques des rencontres comportent un ou plus
 L.minimapIcon = "Icône de la minicarte"
 L.minimapToggle = "Affiche ou non l'icône de la minicarte."
 L.missingAddOn = "Notez que cette zone nécessite le plugin |cFF436EEE%s|r pour que les délais puissent s'afficher."
-L.modulesDisabled = "Tous les modules actifs ont été désactivés."
-L.modulesReset = "Tous les modules actifs ont été réinitialisés."
 L.mythic = "Mythique"
 L.noBossMod = "Pas de boss mod :"
 L.normal = "Normal"
@@ -109,9 +107,7 @@ L.testBarsBtn = "Créer une barre de test"
 L.testBarsBtn_desc = "Créée une barre pour que vous puissiez tester vos paramètres d'affichage actuels."
 L.toggleAnchorsBtn = "Afficher/cacher ancres"
 L.toggleAnchorsBtn_desc = "Affiche ou cache toutes les ancres."
-L.tooltipHint = [=[|cffeda55fClic gauche|r pour redémarrer les modules actifs.
-|cffeda55fAlt-Clic gauche|r pour les désactiver.
-|cffeda55fClic droit|r pour accéder aux options.]=]
+L.tooltipHint = "|cffeda55fClic droit|r pour accéder aux options."
 L.upToDate = "À jour :"
 L.VOICE = "Voix"
 L.VOICE_desc = "Si vous avez un plugin vocal installé, cette option l'activera afin qu'il puisse jouer un fichier son qui dira cette alerte à voix haute pour vous."
@@ -127,6 +123,8 @@ L.CASTBAR = "Barres d'incantation"
 L.CASTBAR_desc = "Les barres d'incantation sont parfois affichées sur certains boss, habituellement pour attirer l'attention sur une technique critique imminente. Si cette technique est accompagnée d'une barre d'incantation que vous souhaitez cacher, désactivez cette option."
 L.SAY_COUNTDOWN = "Dire le compte à rebours"
 L.SAY_COUNTDOWN_desc = "Les bulles de discussion sont faciles à repérer. BigWigs utilisera plusieurs messages en compte à rebours pour avertir les personnes proches qu'une technique vous affectant est sur le point de disparaitre."
+--L.ME_ONLY_EMPHASIZE = "Emphasize (me only)"
+--L.ME_ONLY_EMPHASIZE_desc = "Enabling this will emphasize any messages associated with this ability ONLY if it is casted on you, making them larger and more visible."
 
 -- Media.lua
 L.Beware = "Attention (Algalon)"
