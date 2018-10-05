@@ -38,11 +38,11 @@ VExRT = {
 		["Fimwack-Proudmoore"] = "default",
 		["Amranar-Proudmoore"] = "default",
 		["Deminath-Proudmoore"] = "default",
-		["Mallusof-Icecrown"] = "default",
+		["Kaldorath-Proudmoore"] = "default",
 		["Thedodrouk-Icecrown"] = "default",
 		["Lorvol-Tichondrius"] = "default",
 		["Morifa-Proudmoore"] = "default",
-		["Mallubank-Tichondrius"] = "default",
+		["Mallusof-Icecrown"] = "default",
 		["Brity-SteamwheedleCartel"] = "default",
 		["Zearthan-Proudmoore"] = "default",
 		["Zaliga-BleedingHollow"] = "default",
@@ -59,7 +59,7 @@ VExRT = {
 		["Korugen-Proudmoore"] = "default",
 		["Rahran-Proudmoore"] = "default",
 		["Greybone-Proudmoore"] = "default",
-		["Kaldorath-Proudmoore"] = "default",
+		["Mallubank-Tichondrius"] = "default",
 		["Morifa-Tichondrius"] = "default",
 	},
 	["Arrow"] = {
@@ -4454,6 +4454,19 @@ VExRT = {
 				"^2113^8^1538631341^79^1^5^360.79^", -- [2905]
 				"^2116^8^1538631654^63^1^5^360.79^", -- [2906]
 				"^2117^8^1538631784^73^1^5^360.79^", -- [2907]
+				"^2124^8^1538633124^96^1^5^364.58^", -- [2908]
+				"^2125^8^1538633742^116^1^5^364.58^Riiza-AeriePeak", -- [2909]
+				"^2126^8^1538634134^91^1^5^364.58^", -- [2910]
+				"^2127^8^1538634682^255^1^5^364.58^Matbart-Dawnbringer", -- [2911]
+				"^2144^15^1538705515^338^1^13^346.37^Newc-Lightbringer", -- [2912]
+				"^2141^15^1538706215^294^1^13^354.57^Kahoots-Proudmoore", -- [2913]
+				"^2128^15^1538707109^239^1^14^361.14^", -- [2914]
+				"^2134^15^1538707917^332^1^14^361.51^", -- [2915]
+				"^2136^15^1538709020^524^1^15^296.51^Mistaaytch-Lightbringer", -- [2916]
+				"^2145^15^1538710237^4^0^14^361.07^", -- [2917]
+				"^2145^15^1538711294^295^0^15^361.75^Asahina-Lightbringer", -- [2918]
+				"^2145^15^1538711785^384^0^15^361.62^Mistaaytch-Lightbringer", -- [2919]
+				"^2145^15^1538712283^0^0^15^361.80^", -- [2920]
 			},
 			["Zethan"] = {
 				"^1443^1^1518336463^47^1^5^19.49^", -- [1]
@@ -9056,11 +9069,31 @@ VExRT = {
 			"!B161366Cyenia-WyrmrestAccord1538512975:3:4798:1492:4784", -- [4251]
 			"!6161372Greennight-AltarofStorms1538512978:3:4822:1477:4786", -- [4252]
 			"!4161364Tomores-Eldre'Thalas1538512985:3:4798:1477:4786", -- [4253]
+			"!2160634Voinic-Lightbringer1538706525:3:4823:1492:4786", -- [4254]
+			"!B160643Nanaeve-Lightbringer1538707363:3:4799:1492:4786", -- [4255]
+			"!5160647Mallusof1538709546:3:4799:1492:4786", -- [4256]
+			"!B160688Mistaaytch-Lightbringer1538709601:3:4799:1492:4786", -- [4257]
 		},
 	},
 	["ExCD2"] = {
 		["SortByAvailabilityActiveToTop"] = true,
 		["Save"] = {
+			["Unshocked-Proudmoore20608"] = {
+				11048.656, -- [1]
+				1800, -- [2]
+			},
+			["Kesak-Lightbringer20608"] = {
+				10560.345, -- [1]
+				1800, -- [2]
+			},
+			["Superc-Lightbringer20608"] = {
+				9910.728, -- [1]
+				1800, -- [2]
+			},
+			["Kalithumos-Tichondrius216331"] = {
+				11055.567, -- [1]
+				120, -- [2]
+			},
 		},
 		["Left"] = 1116.43627929688,
 		["default_userCD"] = {
@@ -9070,6 +9103,7 @@ VExRT = {
 		},
 		["CDE"] = {
 			[740] = true,
+			[29166] = true,
 			[64843] = true,
 			[98008] = true,
 			[115310] = true,
@@ -9206,320 +9240,325 @@ VExRT = {
 			["Avarandi-SteamwheedleCartel"] = 581,
 			["Balthere-Stormrage"] = 251,
 			["Ametys-Zul'jin"] = 72,
+			["Dimpa-Velen"] = 66,
 			["Astranaria-Bladefist"] = 258,
+			["Arrow"] = 253,
+			["Grayysson-Sargeras"] = 72,
 			["Beastfury-AzjolNerub"] = 105,
+			["Matbart-Dawnbringer"] = 104,
 			["Charmingo-Ragnaros"] = 259,
 			["Ratattack-SistersofElune"] = 66,
 			["Awhyee-Cenarius"] = 102,
 			["Colgnomeble-Dalaran"] = 253,
+			["Caechi-Korgath"] = 270,
 			["Chaotic-TolBarad"] = 267,
-			["Zaliga"] = 260,
+			["Tidalsurge-Uldum"] = 64,
 			["Asahina-Lightbringer"] = 64,
-			["Cogsplash-Kel'Thuzad"] = 264,
+			["Marksopp-Lightbringer"] = 250,
 			["Hunglee-Sargeras"] = 268,
-			["Dimpa-Velen"] = 66,
-			["Grayysson-Sargeras"] = 72,
+			["Townmedik-Sargeras"] = 102,
+			["Mystersana-EmeraldDream"] = 72,
 			["Halofire-Greymane"] = 258,
 			["Ereyel-Elune"] = 102,
-			["Moonraylre-Mannoroth"] = 64,
+			["Elementfire-Quel'Thalas"] = 262,
 			["Felclef-Proudmoore"] = 577,
 			["Azrãel-CenarionCircle"] = 581,
-			["Tidalsurge-Uldum"] = 64,
-			["Townmedik-Sargeras"] = 102,
+			["Tuffcukee-Hellscream"] = 71,
+			["Baab-Durotan"] = 63,
 			["Nonsum-Proudmoore"] = 267,
-			["Grenfel-Blade'sEdge"] = 265,
-			["Mallusof"] = 256,
+			["Trixfaine-Ravencrest"] = 259,
+			["Mallusof"] = 257,
 			["Keishune-Perenolde"] = 64,
 			["Everìca-Stormrage"] = 253,
 			["Eyebegnomal-Shandris"] = 64,
-			["Elementfire-Quel'Thalas"] = 262,
+			["Siciliana-Goldrinn"] = 256,
 			["Wolfdeel-Blackhand"] = 64,
 			["Sylenea-Aegwynn"] = 104,
 			["Adia-WyrmrestAccord"] = 251,
 			["Manadeldio-EmeraldDream"] = 62,
 			["Prohibits"] = 70,
 			["Torch-Saurfang"] = 102,
-			["Caechi-Korgath"] = 270,
+			["Yardo-Quel'Thalas"] = 253,
 			["Bokkles-Mal'Ganis"] = 72,
 			["Dorp-Turalyon"] = 73,
-			["Shatt-Firetree"] = 64,
-			["Tuffcukee-Hellscream"] = 71,
-			["Tassadaradun-Sargeras"] = 267,
-			["Baab-Durotan"] = 63,
-			["Siciliana-Goldrinn"] = 256,
-			["Leninade-MoonGuard"] = 269,
-			["Yardo-Quel'Thalas"] = 253,
 			["Jaejunip-Aggramar"] = 253,
-			["Axxehole-Stormrage"] = 261,
-			["Arnon-Vek'nilash"] = 253,
+			["Melasandra-Farstriders"] = 62,
 			["Enfys-Alleria"] = 253,
-			["Arwwar-Zangarmarsh"] = 66,
-			["Bluiimoon-Moonrunner"] = 253,
-			["Dienikes-Stormrage"] = 260,
+			["Êlwen-KhazModan"] = 577,
 			["Lasandren-Terokkar"] = 63,
-			["Magena-WyrmrestAccord"] = 70,
+			["Silverterror-Stormrage"] = 254,
 			["Koldun-Medivh"] = 62,
 			["Sathaira-Kel'Thuzad"] = 104,
-			["Dekalog-Stormrage"] = 577,
-			["Infernoism-Uldaman"] = 253,
+			["Zaqiri-Stormrage"] = 103,
+			["Madix-Sargeras"] = 64,
+			["Tocina-KulTiras"] = 253,
+			["Zaliga"] = 260,
+			["Greennight-AltarofStorms"] = 251,
+			["Dienikes-Stormrage"] = 260,
+			["Yipmen-Kel'Thuzad"] = 268,
+			["Florila-Shadowsong"] = 62,
+			["Chaotix-Moonrunner"] = 256,
+			["Mistaaytch-Lightbringer"] = 102,
+			["Vekthrash-Dalaran"] = 64,
+			["Thewidow-Ragnaros"] = 577,
 			["Spindle-Whisperwind"] = 250,
 			["Leighbringer-Suramar"] = 63,
 			["Gimily-Nagrand"] = 70,
 			["Spikejones-Moonrunner"] = 70,
 			["Zilah-Sargeras"] = 70,
 			["Wyspër-Ghostlands"] = 266,
-			["Nanaeve-Lightbringer"] = 105,
+			["Nanaeve-Lightbringer"] = 102,
 			["Salarian-Stormrage"] = 72,
 			["Kesak-Lightbringer"] = 262,
 			["Midnightsnag-Frostmourne"] = 255,
-			["Chaotix-Moonrunner"] = 256,
-			["Maevin-CenarionCircle"] = 263,
+			["Darthbobula-Eldre'Thalas"] = 70,
+			["Belgara-Exodar"] = 63,
 			["Phelomia-Norgannon"] = 253,
 			["Stubbs-Hellscream"] = 260,
-			["Vekthrash-Dalaran"] = 64,
+			["Thorinal-MoonGuard"] = 259,
 			["Stonebridge-Arygos"] = 63,
-			["Belgara-Exodar"] = 63,
+			["Shatt-Firetree"] = 64,
 			["Swiftfòx-Darkspear"] = 263,
-			["Sanguinus-Greymane"] = 66,
+			["Brandwyne-Galakrond"] = 260,
 			["Sareia-Caelestrasz"] = 269,
 			["Måxpowers-Stormrage"] = 270,
 			["Grubb-Aggramar"] = 255,
 			["Resizer-Proudmoore"] = 71,
 			["Bacontrain-SistersofElune"] = 72,
-			["Darthbobula-Eldre'Thalas"] = 70,
-			["Ellphelt-Frostmourne"] = 266,
-			["Zaqiri-Stormrage"] = 103,
-			["Madix-Sargeras"] = 64,
+			["Elbareth-Malygos"] = 265,
+			["Arborvitae-Kalecgos"] = 264,
+			["Riiza-AeriePeak"] = 255,
+			["Axxehole-Stormrage"] = 261,
 			["Minertha-Proudmoore"] = 70,
-			["Tocina-KulTiras"] = 253,
+			["Glorf-Caelestrasz"] = 577,
 			["Rivlenine-Stormrage"] = 252,
-			["Yipmen-Kel'Thuzad"] = 268,
+			["Sanguinus-Greymane"] = 66,
 			["Thedodrouk"] = 63,
 			["Muhal-Kael'thas"] = 262,
 			["Cynleste-Shu'halo"] = 577,
-			["Glorf-Caelestrasz"] = 577,
-			["Thewidow-Ragnaros"] = 577,
+			["Dekalog-Stormrage"] = 577,
+			["Gremal-Sargeras"] = 253,
 			["Kuiuudemon-Durotan"] = 581,
-			["Yvonne-Frostmourne"] = 64,
+			["Clariana-Frostmourne"] = 105,
 			["Suzanneh-Tichondrius"] = 70,
 			["Lesaray-Moonrunner"] = 72,
-			["Brandwyne-Galakrond"] = 260,
-			["Tovrole-Ragnaros"] = 72,
+			["Algar-Drak'thul"] = 253,
+			["Magena-WyrmrestAccord"] = 70,
 			["Flashboi-Nagrand"] = 66,
-			["Jinto-Khaz'goroth"] = 270,
+			["Yvonne-Frostmourne"] = 64,
 			["Gözer-WyrmrestAccord"] = 577,
 			["Adsp-Frostmourne"] = 105,
 			["Aáryl-Darkspear"] = 263,
 			["Ravensnow-WyrmrestAccord"] = 254,
 			["Teinshu-Stormrage"] = 268,
-			["Arborvitae-Kalecgos"] = 264,
-			["Waggz-Stormrage"] = 71,
+			["Tovrole-Ragnaros"] = 72,
+			["Zareth-Kel'Thuzad"] = 105,
 			["Dâddy-Dalaran"] = 268,
 			["Failianna-CenarionCircle"] = 264,
-			["Gremal-Sargeras"] = 253,
+			["Manhunter-Windrunner"] = 66,
 			["Hyiue-Proudmoore"] = 64,
 			["Kehlynn-Kel'Thuzad"] = 264,
 			["Steakbaebae-Kel'Thuzad"] = 73,
 			["Bìas-WyrmrestAccord"] = 72,
-			["Clariana-Frostmourne"] = 105,
-			["Sajurai-Stormrage"] = 253,
-			["Algar-Drak'thul"] = 253,
-			["Scorpiion-Cenarius"] = 266,
 			["Twürk-Frostmourne"] = 70,
-			["Zippitydoda-Trollbane"] = 104,
-			["Zareth-Kel'Thuzad"] = 105,
-			["Bhora-Stormrage"] = 70,
+			["Megalynn-ArgentDawn"] = 105,
 			["Deminath"] = 267,
+			["Scorpiion-Cenarius"] = 266,
+			["Ellphelt-Frostmourne"] = 266,
+			["Zippitydoda-Trollbane"] = 104,
 			["Harcellus-Sargeras"] = 70,
-			["Newc-Lightbringer"] = 577,
-			["Nastarcane-Whisperwind"] = 64,
+			["Bhora-Stormrage"] = 70,
 			["Chaske-Proudmoore"] = 105,
+			["Melon-Aggramar"] = 267,
+			["Newc-Lightbringer"] = 577,
+			["Emonoda-EmeraldDream"] = 254,
+			["Nishkavel-AeriePeak"] = 66,
 			["Amranar"] = 103,
 			["Dravos-Alexstrasza"] = 255,
-			["Melon-Aggramar"] = 267,
-			["Unshocked-Proudmoore"] = 262,
-			["Zimmer-Kalecgos"] = 64,
+			["Aerión-WyrmrestAccord"] = 70,
+			["Unshocked-Proudmoore"] = 264,
+			["Kaelaara-MoonGuard"] = 62,
 			["Lõsse-Thunderhorn"] = 270,
+			["Nastarcane-Whisperwind"] = 64,
 			["Comfybundle-EmeraldDream"] = 252,
-			["Emonoda-EmeraldDream"] = 254,
-			["Jin-Gnomeregan"] = 71,
+			["Jaecine-Bloodhoof"] = 262,
 			["Louros-Stormrage"] = 102,
 			["Dagna-KulTiras"] = 263,
 			["Trust-Firetree"] = 103,
 			["Cyenia-WyrmrestAccord"] = 105,
 			["Karinthe-Silvermoon"] = 577,
-			["Kaelaara-MoonGuard"] = 62,
-			["Aerión-WyrmrestAccord"] = 70,
-			["Jaecine-Bloodhoof"] = 262,
-			["Tyrionlan-Ner'zhul"] = 64,
-			["Lucyluu-Uldum"] = 269,
-			["Traeanne-Malfurion"] = 73,
+			["Zelodea-Nemesis"] = 102,
+			["Raier-WyrmrestAccord"] = 259,
+			["Elhowyn-Quel'Thalas"] = 70,
+			["Opyoungest-AeriePeak"] = 252,
+			["Dumpee-Proudmoore"] = 261,
+			["Codeblue-Blackhand"] = 254,
 			["Weezuz-MoonGuard"] = 70,
 			["Thundermuf-Lightbringer"] = 260,
-			["Giggss-Frostmourne"] = 64,
+			["Stevierae-Drak'thul"] = 105,
 			["Padaone-Quel'Thalas"] = 269,
-			["Codeblue-Blackhand"] = 254,
+			["Feng-Aman'Thul"] = 65,
 			["Duskflower-Gnomeregan"] = 104,
-			["Smokeybearr-Kel'Thuzad"] = 64,
+			["Lucyluu-Uldum"] = 269,
 			["Patiencé-Thunderhorn"] = 105,
 			["Mågicmån-ShadowCouncil"] = 63,
 			["Absolutnasty-Frostmourne"] = 251,
 			["Braneour-Perenolde"] = 66,
-			["Stevierae-Drak'thul"] = 105,
+			["Mahkat-KulTiras"] = 254,
 			["Andarana-Korgath"] = 102,
-			["Zelodea-Nemesis"] = 102,
-			["Droodftw-Ner'zhul"] = 102,
+			["Zimmer-Kalecgos"] = 64,
+			["Syldina-Drak'Tharon"] = 581,
 			["Eevanu-Draka"] = 262,
 			["Tankenspank-Spirestone"] = 71,
 			["Drchiro-Kilrogg"] = 66,
-			["Opyoungest-AeriePeak"] = 252,
-			["Daddydinerox-Dalaran"] = 70,
-			["Fenewa-Proudmoore"] = 253,
-			["Dumpee-Proudmoore"] = 261,
-			["Feng-Aman'Thul"] = 65,
-			["Mahkat-KulTiras"] = 254,
-			["Watchmecrit-Deathwing"] = 259,
 			["Keleena-Llane"] = 65,
+			["Daddydinerox-Dalaran"] = 70,
+			["Aurmana-Korgath"] = 66,
+			["Decree-Sen'jin"] = 70,
+			["Falin-Windrunner"] = 262,
+			["Zearthan"] = 267,
+			["Watchmecrit-Deathwing"] = 259,
+			["Valkekx-Cenarius"] = 251,
 			["Velst-Greymane"] = 250,
 			["Sylynt-Ner'zhul"] = 259,
-			["Emiyi-BoreanTundra"] = 72,
+			["Mintt-Kel'Thuzad"] = 577,
 			["Hagzealot-Goldrinn"] = 70,
 			["Raidine-Tichondrius"] = 251,
 			["Hanodar-Whisperwind"] = 64,
-			["Acromodus-Area52"] = 70,
-			["Decree-Sen'jin"] = 70,
+			["Tyrionlan-Ner'zhul"] = 64,
+			["Devinhunter-Bronzebeard"] = 253,
 			["Jones-Dragonmaw"] = 62,
 			["Superloop-Whisperwind"] = 71,
 			["Gerana-Suramar"] = 66,
-			["Curaga-Kalecgos"] = 264,
-			["Falin-Windrunner"] = 262,
+			["Acromodus-Area52"] = 70,
+			["Giggss-Frostmourne"] = 64,
 			["Alura"] = 256,
 			["Nielsonjus-Madoran"] = 251,
 			["Cobalt-Gnomeregan"] = 105,
 			["Merricat-MoonGuard"] = 265,
-			["Armorx-Elune"] = 66,
-			["Valkekx-Cenarius"] = 251,
-			["Ryandril-MoonGuard"] = 104,
-			["Auralie-Proudmoore"] = 257,
-			["Daveon-Hyjal"] = 70,
-			["Devinhunter-Bronzebeard"] = 253,
-			["Kahoots-Proudmoore"] = 265,
-			["Floreth-Ghostlands"] = 253,
-			["Duckduck-Khadgar"] = 103,
-			["Konaksa-Tichondrius"] = 581,
 			["Algoboom"] = 102,
-			["Palleste-Sargeras"] = 258,
 			["Hàteful-EmeraldDream"] = 250,
+			["Ryandril-MoonGuard"] = 104,
 			["Cyberhwk-Zul'jin"] = 70,
-			["Superc-Lightbringer"] = 263,
+			["Daveon-Hyjal"] = 70,
+			["Aydria-AzjolNerub"] = 253,
+			["Parladox-Ragnaros"] = 253,
+			["Floreth-Ghostlands"] = 253,
+			["Arkina-Thunderhorn"] = 254,
+			["Konaksa-Tichondrius"] = 581,
+			["Sheilyana-Sargeras"] = 73,
+			["Palleste-Sargeras"] = 258,
+			["Grenfel-Blade'sEdge"] = 265,
+			["Korugen"] = 66,
+			["Armorx-Elune"] = 66,
 			["Burtis-BlackDragonflight"] = 71,
-			["Blisters-Aggramar"] = 265,
 			["Tremling-KhazModan"] = 269,
+			["Blisters-Aggramar"] = 265,
 			["Duach-Dalvengyr"] = 265,
 			["Kaldorath"] = 581,
 			["Heffalumpz-Kel'Thuzad"] = 253,
 			["Drewdz-Stormrage"] = 102,
 			["Vanillerice-Stormrage"] = 253,
 			["Valthier"] = 577,
-			["Korugen"] = 66,
-			["Spotless-Magtheridon"] = 253,
-			["Rivast-Mok'Nathal"] = 64,
-			["Chabu-Eldre'Thalas"] = 70,
 			["Shallarah-Garona"] = 263,
-			["Guitianki-Goldrinn"] = 70,
 			["Keldia-Sentinels"] = 102,
+			["Spotless-Magtheridon"] = 253,
+			["Chabu-Eldre'Thalas"] = 70,
 			["Kaennisa-MoonGuard"] = 267,
+			["Guitianki-Goldrinn"] = 70,
+			["Rivast-Mok'Nathal"] = 64,
+			["Ayrénn-Dalaran"] = 267,
 			["Avanie-Kargath"] = 105,
 			["Pisocake-Aman'Thul"] = 70,
 			["Keirin-Greymane"] = 577,
-			["Ayrénn-Dalaran"] = 267,
+			["Superc-Lightbringer"] = 263,
 			["Baskîn-Stormrage"] = 259,
-			["Parladox-Ragnaros"] = 253,
+			["Duckduck-Khadgar"] = 103,
 			["Marteros-Perenolde"] = 63,
-			["Sheilyana-Sargeras"] = 73,
-			["Aydria-AzjolNerub"] = 253,
-			["Arkina-Thunderhorn"] = 254,
+			["Mcshifty-Khaz'goroth"] = 102,
 			["Míra"] = 250,
 			["Flintysneaks-Sargeras"] = 259,
+			["Auralie-Proudmoore"] = 257,
+			["Curaga-Kalecgos"] = 264,
 			["Dewgamble-Moonrunner"] = 258,
-			["Mintt-Kel'Thuzad"] = 577,
 			["Holydemon-ShatteredHalls"] = 70,
+			["Clori-Skywall"] = 63,
 			["Retro-Saurfang"] = 70,
 			["Irith"] = 64,
 			["Thronpal-Kael'thas"] = 66,
-			["Zearthan"] = 267,
-			["Clori-Skywall"] = 63,
+			["Emiyi-BoreanTundra"] = 72,
+			["Fenewa-Proudmoore"] = 253,
 			["Vontinkles-Fizzcrank"] = 70,
 			["Cattheh-Sentinels"] = 253,
-			["Syldina-Drak'Tharon"] = 581,
+			["Droodftw-Ner'zhul"] = 102,
 			["Wansolo-Elune"] = 253,
-			["Aurmana-Korgath"] = 66,
+			["Smokeybearr-Kel'Thuzad"] = 64,
 			["Tongsterr-Windrunner"] = 64,
 			["Pumbalee-Ner'zhul"] = 71,
 			["Thedeathscat-Stormrage"] = 253,
 			["Xavierren-Moonrunner"] = 71,
 			["Thrífted-Stormrage"] = 260,
-			["Raier-WyrmrestAccord"] = 259,
+			["Traeanne-Malfurion"] = 73,
 			["Jhasu-Lightbringer"] = 264,
-			["Mistaaytch-Lightbringer"] = 104,
-			["Bjorne"] = 71,
 			["Gnoworsen-EchoIsles"] = 253,
+			["Bjorne"] = 71,
+			["Jin-Gnomeregan"] = 71,
 			["Phealme-Proudmoore"] = 258,
-			["Nishkavel-AeriePeak"] = 66,
+			["Sparklepony-Shandris"] = 258,
 			["Yeva-Proudmoore"] = 70,
 			["Orelight-Stormreaver"] = 70,
 			["Bawnn-EmeraldDream"] = 64,
-			["Sparklepony-Shandris"] = 258,
+			["Sajurai-Stormrage"] = 253,
 			["Azira-Nagrand"] = 72,
 			["Yunasz-Nemesis"] = 62,
-			["Manhunter-Windrunner"] = 66,
+			["Jinto-Khaz'goroth"] = 270,
 			["Sizzer-Saurfang"] = 63,
 			["Puppyhunter-Destromath"] = 253,
 			["Yasmen-Draenor"] = 253,
 			["Teisha-Feathermoon"] = 259,
 			["Illnino-Arathor"] = 260,
-			["Megalynn-ArgentDawn"] = 105,
 			["Shamdi-Sargeras"] = 257,
+			["Waggz-Stormrage"] = 71,
 			["Glorik-Medivh"] = 250,
 			["Wickdfury-Daggerspine"] = 270,
-			["Elbareth-Malygos"] = 265,
+			["Infernoism-Uldaman"] = 253,
 			["Ifan-Dragonblight"] = 255,
 			["Eclips-Darkspear"] = 265,
 			["Lyrikk-MoonGuard"] = 265,
 			["Chickenmelon"] = 72,
-			["Thorinal-MoonGuard"] = 259,
 			["Lörkhän-Goldrinn"] = 577,
+			["Kahoots-Proudmoore"] = 267,
 			["Mertaa-EmeraldDream"] = 70,
 			["Kxv-KhazModan"] = 72,
-			["Florila-Shadowsong"] = 62,
+			["Maevin-CenarionCircle"] = 263,
 			["Stabu-Ner'zhul"] = 259,
 			["Cree-Sen'jin"] = 105,
 			["Voinic-Lightbringer"] = 70,
 			["Capetina-Nemesis"] = 253,
-			["Greennight-AltarofStorms"] = 251,
+			["Bluiimoon-Moonrunner"] = 253,
 			["Yulivertia-Aggramar"] = 105,
 			["Deadblotto-DarkIron"] = 250,
 			["Spoiler-Destromath"] = 267,
 			["Hélgir-Quel'Thalas"] = 255,
 			["Tanìs-Garona"] = 253,
-			["Silverterror-Stormrage"] = 254,
+			["Arwwar-Zangarmarsh"] = 66,
 			["Syriandre-KhazModan"] = 102,
-			["Êlwen-KhazModan"] = 577,
+			["Arnon-Vek'nilash"] = 253,
 			["Stupidrename-Alexstrasza"] = 64,
-			["Melasandra-Farstriders"] = 62,
 			["Docfunk-ArgentDawn"] = 577,
+			["Leninade-MoonGuard"] = 269,
 			["Kalithumos-Tichondrius"] = 65,
 			["Balut-Cenarius"] = 70,
-			["Trixfaine-Ravencrest"] = 259,
+			["Tassadaradun-Sargeras"] = 267,
 			["Ellanthe-Cenarius"] = 102,
 			["Verela-Winterhoof"] = 103,
 			["Ceilingfan-Frostmourne"] = 73,
 			["Jaiford-Khaz'goroth"] = 64,
 			["Leeanndara-Area52"] = 64,
-			["Mystersana-EmeraldDream"] = 72,
+			["Moonraylre-Mannoroth"] = 64,
 			["Gregorydk-Proudmoore"] = 251,
 			["Farekaa-Stormrage"] = 71,
-			["Arrow"] = 253,
+			["Cogsplash-Kel'Thuzad"] = 264,
 			["Hèrbalicious-Stormrage"] = 263,
 		},
 		["userDB"] = {
@@ -11560,6 +11599,230 @@ VExRT = {
 				["g"] = 15,
 				["t"] = 1538291371,
 			}, -- [58]
+			{
+				"EMallusof", -- [1]
+				"BKalithumos-Tichondrius", -- [2]
+				"HAsahina-Lightbringer", -- [3]
+				"IEldodin-KhazModan", -- [4]
+				"IKahoots-Proudmoore", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"KNanaeve-Lightbringer", -- [8]
+				"LNewc-Lightbringer", -- [9]
+				"ASheilyana-Sargeras", -- [10]
+				"GSuperc-Lightbringer", -- [11]
+				"BVoinic-Lightbringer", -- [12]
+				"GUnshocked-Proudmoore", -- [13]
+				["c"] = "Mallusof-Icecrown",
+				["t"] = 1538705515,
+				["eI"] = 2144,
+				["d"] = 15,
+				["g"] = 13,
+				["eN"] = "Taloc",
+			}, -- [59]
+			{
+				"EMallusof", -- [1]
+				"BKalithumos-Tichondrius", -- [2]
+				"HAsahina-Lightbringer", -- [3]
+				"IEldodin-KhazModan", -- [4]
+				"IKahoots-Proudmoore", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"KNanaeve-Lightbringer", -- [8]
+				"LNewc-Lightbringer", -- [9]
+				"ASheilyana-Sargeras", -- [10]
+				"GSuperc-Lightbringer", -- [11]
+				"BVoinic-Lightbringer", -- [12]
+				"GUnshocked-Proudmoore", -- [13]
+				["c"] = "Mallusof-Icecrown",
+				["t"] = 1538706215,
+				["eI"] = 2141,
+				["d"] = 15,
+				["g"] = 13,
+				["eN"] = "MOTHER",
+			}, -- [60]
+			{
+				"EMallusof", -- [1]
+				"BKalithumos-Tichondrius", -- [2]
+				"HAsahina-Lightbringer", -- [3]
+				"IEldodin-KhazModan", -- [4]
+				"IKahoots-Proudmoore", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"KNanaeve-Lightbringer", -- [8]
+				"LNewc-Lightbringer", -- [9]
+				"ASheilyana-Sargeras", -- [10]
+				"GSuperc-Lightbringer", -- [11]
+				"BVoinic-Lightbringer", -- [12]
+				"GUnshocked-Proudmoore", -- [13]
+				"FMarksopp-Lightbringer", -- [14]
+				["c"] = "Mallusof-Icecrown",
+				["t"] = 1538707109,
+				["eI"] = 2128,
+				["d"] = 15,
+				["g"] = 14,
+				["eN"] = "Fetid Devourer",
+			}, -- [61]
+			{
+				"BKalithumos-Tichondrius", -- [1]
+				"GSuperc-Lightbringer", -- [2]
+				"ASheilyana-Sargeras", -- [3]
+				"LNewc-Lightbringer", -- [4]
+				"BVoinic-Lightbringer", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"GUnshocked-Proudmoore", -- [8]
+				"KNanaeve-Lightbringer", -- [9]
+				"FMarksopp-Lightbringer", -- [10]
+				"EMallusof", -- [11]
+				"HAsahina-Lightbringer", -- [12]
+				"IEldodin-KhazModan", -- [13]
+				"IKahoots-Proudmoore", -- [14]
+				["c"] = "Mallusof-Icecrown",
+				["t"] = 1538707917,
+				["eN"] = "Vectis",
+				["d"] = 15,
+				["g"] = 14,
+				["eI"] = 2134,
+			}, -- [62]
+			{
+				"BKalithumos-Tichondrius", -- [1]
+				"GSuperc-Lightbringer", -- [2]
+				"ASheilyana-Sargeras", -- [3]
+				"LNewc-Lightbringer", -- [4]
+				"BVoinic-Lightbringer", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"GUnshocked-Proudmoore", -- [8]
+				"KNanaeve-Lightbringer", -- [9]
+				"FMarksopp-Lightbringer", -- [10]
+				"EMallusof", -- [11]
+				"HAsahina-Lightbringer", -- [12]
+				"LÊlwen-KhazModan", -- [13]
+				"IEldodin-KhazModan", -- [14]
+				"IKahoots-Proudmoore", -- [15]
+				["c"] = "Mallusof-Icecrown",
+				["eN"] = "Zek'voz",
+				["eI"] = 2136,
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1538709020,
+			}, -- [63]
+			{
+				"BKalithumos-Tichondrius", -- [1]
+				"GSuperc-Lightbringer", -- [2]
+				"ASheilyana-Sargeras", -- [3]
+				"LNewc-Lightbringer", -- [4]
+				"BVoinic-Lightbringer", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"GUnshocked-Proudmoore", -- [8]
+				"KNanaeve-Lightbringer", -- [9]
+				"FMarksopp-Lightbringer", -- [10]
+				"EMallusof", -- [11]
+				"HAsahina-Lightbringer", -- [12]
+				"LÊlwen-KhazModan", -- [13]
+				"IEldodin-KhazModan", -- [14]
+				"IKahoots-Proudmoore", -- [15]
+				["c"] = "Mallusof-Icecrown",
+				["eN"] = "Zul",
+				["eI"] = 2145,
+				["d"] = 15,
+				["g"] = 14,
+				["t"] = 1538710237,
+			}, -- [64]
+			{
+				"BKalithumos-Tichondrius", -- [1]
+				"GSuperc-Lightbringer", -- [2]
+				"ASheilyana-Sargeras", -- [3]
+				"LNewc-Lightbringer", -- [4]
+				"BVoinic-Lightbringer", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"GUnshocked-Proudmoore", -- [8]
+				"KNanaeve-Lightbringer", -- [9]
+				"FMarksopp-Lightbringer", -- [10]
+				"EMallusof", -- [11]
+				"HAsahina-Lightbringer", -- [12]
+				"LÊlwen-KhazModan", -- [13]
+				"IEldodin-KhazModan", -- [14]
+				"IKahoots-Proudmoore", -- [15]
+				["c"] = "Mallusof-Icecrown",
+				["eN"] = "Zul",
+				["eI"] = 2145,
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1538711294,
+			}, -- [65]
+			{
+				"BKalithumos-Tichondrius", -- [1]
+				"GSuperc-Lightbringer", -- [2]
+				"ASheilyana-Sargeras", -- [3]
+				"LNewc-Lightbringer", -- [4]
+				"BVoinic-Lightbringer", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"GUnshocked-Proudmoore", -- [8]
+				"KNanaeve-Lightbringer", -- [9]
+				"FMarksopp-Lightbringer", -- [10]
+				"EMallusof", -- [11]
+				"HAsahina-Lightbringer", -- [12]
+				"LÊlwen-KhazModan", -- [13]
+				"IEldodin-KhazModan", -- [14]
+				"IKahoots-Proudmoore", -- [15]
+				["c"] = "Mallusof-Icecrown",
+				["eN"] = "Zul",
+				["eI"] = 2145,
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1538711785,
+			}, -- [66]
+			{
+				"BKalithumos-Tichondrius", -- [1]
+				"GSuperc-Lightbringer", -- [2]
+				"ASheilyana-Sargeras", -- [3]
+				"LNewc-Lightbringer", -- [4]
+				"BVoinic-Lightbringer", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"GUnshocked-Proudmoore", -- [8]
+				"KNanaeve-Lightbringer", -- [9]
+				"FMarksopp-Lightbringer", -- [10]
+				"EMallusof", -- [11]
+				"HAsahina-Lightbringer", -- [12]
+				"LÊlwen-KhazModan", -- [13]
+				"IEldodin-KhazModan", -- [14]
+				"IKahoots-Proudmoore", -- [15]
+				["c"] = "Mallusof-Icecrown",
+				["eN"] = "Zul",
+				["eI"] = 2145,
+				["d"] = 15,
+				["g"] = 15,
+				["t"] = 1538712283,
+			}, -- [67]
+			{
+				"BKalithumos-Tichondrius", -- [1]
+				"GSuperc-Lightbringer", -- [2]
+				"ASheilyana-Sargeras", -- [3]
+				"LNewc-Lightbringer", -- [4]
+				"BVoinic-Lightbringer", -- [5]
+				"GKesak-Lightbringer", -- [6]
+				"KMistaaytch-Lightbringer", -- [7]
+				"GUnshocked-Proudmoore", -- [8]
+				"KNanaeve-Lightbringer", -- [9]
+				"FMarksopp-Lightbringer", -- [10]
+				"EMallusof", -- [11]
+				"HAsahina-Lightbringer", -- [12]
+				"LÊlwen-KhazModan", -- [13]
+				"IEldodin-KhazModan", -- [14]
+				"IKahoots-Proudmoore", -- [15]
+				["c"] = "Mallusof-Icecrown",
+				["d"] = 15,
+				["eI"] = 2145,
+				["t"] = 1538712291,
+				["g"] = 15,
+				["eN"] = "Zul",
+			}, -- [68]
 		},
 		["alts"] = {
 			{
@@ -11610,12 +11873,12 @@ VExRT = {
 		},
 	},
 	["Addon"] = {
-		["Version"] = 3970,
-		["PreVersion"] = 3970,
-		["Scale"] = 1.01,
+		["Version"] = 3975,
+		["IconMiniMapTop"] = -18.4258559884296,
+		["PreVersion"] = 3975,
 		["IconMiniMapLeft"] = 80,
 		["Timer"] = 0.1,
-		["IconMiniMapTop"] = -18.4258559884296,
+		["Scale"] = 1.01,
 	},
 	["WhoPulled"] = {
 	},

@@ -97,30 +97,30 @@ Grid2DB = {
 					["groupAnchor"] = "TOPRIGHT",
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["raid"] = "By Group & Role",
-						["party"] = "Party",
-						["solo"] = "Solo",
 						["arena"] = "By Group",
+						["raid"] = "By Group & Role",
+						["solo"] = "Solo",
+						["party"] = "Party",
 					},
-					["BorderTexture"] = "Stripped_medium",
-					["BackgroundR"] = 1,
+					["PosX"] = -15.2272332442953,
 					["BackgroundB"] = 1,
-					["Spacing"] = 3,
+					["BackgroundR"] = 1,
+					["BorderTexture"] = "Stripped_medium",
 					["BackgroundA"] = 0,
 					["BorderR"] = 0.501960784313726,
-					["PosX"] = -15.2272332442953,
+					["BorderG"] = 0.501960784313726,
 					["anchor"] = "TOPRIGHT",
 					["horizontal"] = false,
-					["BorderG"] = 0.501960784313726,
+					["Spacing"] = 3,
 					["PosY"] = -600.888744491441,
 				},
 				["Healer"] = {
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["arena"] = "By Group",
-						["raid"] = "By Group & Role",
-						["solo"] = "Solo",
 						["party"] = "Party",
+						["arena"] = "By Group",
+						["solo"] = "Solo",
+						["raid"] = "By Group & Role",
 					},
 					["BackgroundB"] = 1,
 					["FrameLock"] = true,
@@ -132,11 +132,11 @@ Grid2DB = {
 						["hide"] = true,
 					},
 					["PosY"] = -569.258548723265,
-					["BackgroundR"] = 1,
+					["Spacing"] = 3,
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.501960784313726,
-					["PosX"] = 0.00197221978123707,
-					["Spacing"] = 3,
+					["BackgroundR"] = 1,
+					["PosX"] = 0.00202258560898372,
 				},
 			},
 		},
@@ -223,18 +223,18 @@ Grid2DB = {
 		["Faerand - Proudmoore"] = "Non-Healer",
 		["Amranar - Proudmoore"] = "Non-Healer",
 		["Zearthan - Proudmoore"] = "Non-Healer",
-		["Miriyal - Proudmoore"] = "Non-Healer",
+		["Morifa - Proudmoore"] = "Non-Healer",
 		["Rahran - Proudmoore"] = "Non-Healer",
 		["Morifa - Tichondrius"] = "Non-Healer",
-		["Korugen - Proudmoore"] = "Non-Healer",
+		["Granjior - Proudmoore"] = "Non-Healer",
 		["Farahn - Proudmoore"] = "Non-Healer",
-		["Morifa - Proudmoore"] = "Non-Healer",
+		["Kindhoof - Tichondrius"] = "Non-Healer",
 		["Mallusof - Tichondrius"] = "Non-Healer",
 		["Thedodrouk - Icecrown"] = "Non-Healer",
-		["Deminath - Proudmoore"] = "Non-Healer",
+		["Korugen - Proudmoore"] = "Non-Healer",
 		["Zaliga - Bleeding Hollow"] = "Non-Healer",
-		["Kindhoof - Tichondrius"] = "Non-Healer",
-		["Granjior - Proudmoore"] = "Non-Healer",
+		["Miriyal - Proudmoore"] = "Non-Healer",
+		["Deminath - Proudmoore"] = "Non-Healer",
 		["Zethan - Tichondrius"] = "Non-Healer",
 		["Alura - Tichondrius"] = "Healer",
 		["Mallusof - Icecrown"] = "Healer",
@@ -425,16 +425,16 @@ Grid2DB = {
 						["b"] = 0,
 					},
 					["maxIcons"] = 3,
+					["orientation"] = "HORIZONTAL",
 					["iconSize"] = 20,
+					["level"] = 8,
+					["maxIconsPerRow"] = 3,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
-					["level"] = 8,
-					["maxIconsPerRow"] = 3,
-					["orientation"] = "HORIZONTAL",
 				},
 				["text-up"] = {
 					["type"] = "text",
@@ -521,11 +521,58 @@ Grid2DB = {
 				["leader"] = {
 					["hideInCombat"] = true,
 				},
-				["health-current"] = {
-					["frequentHealth"] = true,
+				["buffs-DefensiveCooldowns"] = {
+					["type"] = "buffs",
+					["auras"] = {
+						"Anti-Magic Shell", -- [1]
+						"Ardent Defender", -- [2]
+						"Barkskin", -- [3]
+						"Blessing of Sacrifice", -- [4]
+						"Blessing of Protection", -- [5]
+						"Bristling Fur", -- [6]
+						"Dancing Rune Weapon", -- [7]
+						"Deterrence", -- [8]
+						"Divine Protection", -- [9]
+						"Evanesce", -- [10]
+						"Frenzied Regeneration", -- [11]
+						"Guardian of Ancient Kings", -- [12]
+						"Guardian Spirit", -- [13]
+						"Ironbark", -- [14]
+						"Icebound Fortitude", -- [15]
+						"Ice Block", -- [16]
+						"Last Stand", -- [17]
+						"Life Cocoon", -- [18]
+						"Pain Suppression", -- [19]
+						"Roar of Sacrifice", -- [20]
+						"Survival Instincts", -- [21]
+						"Shield Wall", -- [22]
+						"Vampiric Blood", -- [23]
+					},
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
 				},
-				["role"] = {
-					["hideInCombat"] = true,
+				["debuffs-ImportantDebuffs"] = {
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["useWhiteList"] = true,
+					["type"] = "debuffs",
+					["auras"] = {
+						"Fulminating Pulse", -- [1]
+						"Chilled Blood", -- [2]
+						"Ravenous Blaze", -- [3]
+						"Withering Roots", -- [4]
+						"Soulblight", -- [5]
+						"Soulbomb", -- [6]
+						"Soulburst", -- [7]
+					},
 				},
 				["buffs-Bottom-Left-Buffs-mine"] = {
 					["auras"] = {
@@ -563,62 +610,15 @@ Grid2DB = {
 					["hideDamagers"] = true,
 					["hideInCombat"] = true,
 				},
-				["buffs-DefensiveCooldowns"] = {
-					["type"] = "buffs",
-					["auras"] = {
-						"Anti-Magic Shell", -- [1]
-						"Ardent Defender", -- [2]
-						"Barkskin", -- [3]
-						"Blessing of Sacrifice", -- [4]
-						"Blessing of Protection", -- [5]
-						"Bristling Fur", -- [6]
-						"Dancing Rune Weapon", -- [7]
-						"Deterrence", -- [8]
-						"Divine Protection", -- [9]
-						"Evanesce", -- [10]
-						"Frenzied Regeneration", -- [11]
-						"Guardian of Ancient Kings", -- [12]
-						"Guardian Spirit", -- [13]
-						"Ironbark", -- [14]
-						"Icebound Fortitude", -- [15]
-						"Ice Block", -- [16]
-						"Last Stand", -- [17]
-						"Life Cocoon", -- [18]
-						"Pain Suppression", -- [19]
-						"Roar of Sacrifice", -- [20]
-						"Survival Instincts", -- [21]
-						"Shield Wall", -- [22]
-						"Vampiric Blood", -- [23]
-					},
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
+				["health-current"] = {
+					["frequentHealth"] = true,
 				},
 				["heals-incoming"] = {
-					["multiplier"] = 1.6,
 					["includePlayerHeals"] = true,
+					["multiplier"] = 1.6,
 				},
-				["debuffs-ImportantDebuffs"] = {
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0,
-						["g"] = 0,
-						["b"] = 0,
-					},
-					["useWhiteList"] = true,
-					["type"] = "debuffs",
-					["auras"] = {
-						"Fulminating Pulse", -- [1]
-						"Chilled Blood", -- [2]
-						"Ravenous Blaze", -- [3]
-						"Withering Roots", -- [4]
-						"Soulblight", -- [5]
-						"Soulbomb", -- [6]
-						"Soulburst", -- [7]
-					},
+				["role"] = {
+					["hideInCombat"] = true,
 				},
 			},
 			["versions"] = {
@@ -1232,16 +1232,16 @@ Grid2DB = {
 						["r"] = 0,
 					},
 					["maxIcons"] = 3,
+					["iconSize"] = 20,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
-					["orientation"] = "HORIZONTAL",
 					["level"] = 8,
 					["maxIconsPerRow"] = 3,
-					["iconSize"] = 20,
+					["orientation"] = "HORIZONTAL",
 				},
 				["heals"] = {
 					["type"] = "bar",

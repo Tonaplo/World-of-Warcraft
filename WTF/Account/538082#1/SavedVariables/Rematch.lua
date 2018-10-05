@@ -872,17 +872,17 @@ RematchSettings = {
 	},
 	["QueueSortOrder"] = 1,
 	["XPos"] = 254.550247192383,
-	["FavoriteFilters"] = {
+	["loadedTeam"] = 66522,
+	["SpecialSlots"] = {
 	},
-	["JournalUsed"] = true,
-	["LevelingQueue"] = {
+	["FavoriteFilters"] = {
 	},
 	["Sort"] = {
 		["Order"] = 2,
 		["FavoritesFirst"] = true,
 	},
-	["JournalPanel"] = 1,
-	["BackupCount"] = 0,
+	["AllowHiddenPetsDefaulted"] = true,
+	["PromptToLoad"] = true,
 	["TeamGroups"] = {
 		{
 			"General", -- [1]
@@ -893,7 +893,7 @@ RematchSettings = {
 			1118739, -- [2]
 		}, -- [2]
 	},
-	["loadedTeam"] = 66522,
+	["JournalPanel"] = 1,
 	["Filters"] = {
 		["Other"] = {
 		},
@@ -924,8 +924,7 @@ RematchSettings = {
 		},
 	},
 	["YPos"] = 418.679138183594,
-	["SpecialSlots"] = {
-	},
+	["BackupCount"] = 0,
 	["ShowOnTarget"] = false,
 	["CollapsedOptHeaders"] = {
 		nil, -- [1]
@@ -1518,8 +1517,9 @@ RematchSettings = {
 	},
 	["NotifiedExperimental"] = true,
 	["CornerPos"] = "BOTTOMLEFT",
-	["PromptToLoad"] = true,
-	["AllowHiddenPetsDefaulted"] = true,
+	["LevelingQueue"] = {
+	},
+	["JournalUsed"] = true,
 	["UseTypeBar"] = true,
 	["SelectedTab"] = 1,
 	["PetNotes"] = {

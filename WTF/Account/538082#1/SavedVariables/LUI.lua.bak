@@ -61,16 +61,16 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Thedodrouk"] = 292020,
-							["Mallusof"] = 659063244,
+							["Mallusof"] = 663431413,
 						},
 					},
 				},
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -203,6 +203,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -213,10 +218,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -244,10 +245,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1602,38 +1602,38 @@ LUIDB = {
 							"/p yeah I'm in afucked state agaion", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/i center", -- [1]
-							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [2]
-							"/1 Go Disc, and he's a breeze :) It's gonna take you a while tho :P", -- [3]
-							"/g Stats arent great, but Socket and Avoidance and +5 ilevels? Thank you!|cffa335ee|Hitem:159251::::::::120:258::35:5:5010:4802:40:1562:4784:::|h[Top-Sail Footwraps]|h|r", -- [4]
-							"/1 Go Disc, and he's a breeze :) It's gonna take you a while tho :P", -- [5]
-							"/i center", -- [6]
-							"/1 Go Disc, and he's a breeze :) It's gonna take you a while tho :P", -- [7]
-							"/i center", -- [8]
-							"/g I got |cffa335ee|Hkeystone:158923:353:12:10:7:2:16|h[Keystone: Siege of Boralus (12)]|h|r any takers?", -- [9]
-							"/cw Lumindra-Malygos Aww, it's not that bad ;P", -- [10]
-							"/cw Lumindra-Malygos LOL", -- [11]
-							"/g So that's a no? :P", -- [12]
-							"/g cause too late?", -- [13]
-							"/g I heal", -- [14]
-							"/cw Míra Hey you guys done for the night?", -- [15]
-							"/cw Míra-Icecrown No worries, wanted to do |cffa335ee|Hkeystone:158923:353:12:10:7:2:16|h[Keystone: Siege of Boralus (12)]|h|r", -- [16]
-							"/cw Míra-Icecrown auch", -- [17]
-							"/cw Míra-Icecrown I mean, it's still completeable", -- [18]
-							"/cw Míra-Icecrown lawl", -- [19]
-							"/cw Míra-Icecrown I mostly care about getting my 10 for the week", -- [20]
-							"/cw Míra-Icecrown I mean, I'll push peoples key and all that", -- [21]
-							"/cw Míra-Icecrown but sure thing, I'll do the key at some other point :)", -- [22]
-							"/p hey there", -- [23]
-							"/p Got a summon?", -- [24]
-							"/cw Míra-Icecrown Yeah, this week could be rough", -- [25]
-							"/cw Míra-Icecrown However", -- [26]
-							"/cw Míra-Icecrown Tuesday/Wednesday of next week, wife and baby are out of town", -- [27]
-							"/cw Míra-Icecrown so I'll be doing M+ all night those days :P", -- [28]
-							"/cw Míra-Icecrown yeah, looking forward to it :P", -- [29]
-							"/p thanks :)", -- [30]
-							"/p cheers!", -- [31]
-							"/p have a good one :)", -- [32]
+							"/cw Kalithumos-Tichondrius She", -- [1]
+							"/cw Kalithumos-Tichondrius Is so", -- [2]
+							"/cw Kalithumos-Tichondrius amazingly", -- [3]
+							"/cw Kalithumos-Tichondrius useless", -- [4]
+							"/p you stood in them", -- [5]
+							"/p greetings ;)", -- [6]
+							"/g contracts", -- [7]
+							" Also, I'm a little AFK until pull", -- [8]
+							"/raid Ok so", -- [9]
+							"/raid and they got here, literally at 7", -- [10]
+							"/cw Míra-Icecrown I mean, I'll push peoples key and all that", -- [11]
+							"/p greetings ;)", -- [12]
+							" Also, I'm a little AFK until pull", -- [13]
+							"/raid and they got here, literally at 7", -- [14]
+							"/p greetings ;)", -- [15]
+							"/raid and they got here, literally at 7", -- [16]
+							"/s awesome", -- [17]
+							"/s HERE", -- [18]
+							"/cw Kalithumos-Tichondrius Is so", -- [19]
+							"/cw Kalithumos-Tichondrius useless", -- [20]
+							"/p greetings ;)", -- [21]
+							" Also, I'm a little AFK until pull", -- [22]
+							"/raid and they got here, literally at 7", -- [23]
+							"/p greetings ;)", -- [24]
+							"/raid and they got here, literally at 7", -- [25]
+							"/s awesome", -- [26]
+							"/cw Kalithumos-Tichondrius Is so", -- [27]
+							"/p greetings ;)", -- [28]
+							"/raid and they got here, literally at 7", -- [29]
+							"/s awesome", -- [30]
+							"/p greetings ;)", -- [31]
+							"/s awesome", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

@@ -129,7 +129,7 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 659063244,
+							["Mallusof"] = 661366951,
 							["Thedodrouk"] = 292020,
 						},
 					},
@@ -137,9 +137,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
+							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -203,21 +203,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -245,9 +238,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -1032,38 +1032,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/cw Míra-Icecrown yeah, looking forward to it :P", -- [1]
-							"/p cheers!", -- [2]
-							"/i center", -- [3]
-							"/g I got |cffa335ee|Hkeystone:158923:353:12:10:7:2:16|h[Keystone: Siege of Boralus (12)]|h|r any takers?", -- [4]
-							"/g cause too late?", -- [5]
-							"/cw Míra-Icecrown auch", -- [6]
-							"/cw Míra-Icecrown I mean, I'll push peoples key and all that", -- [7]
-							"/cw Míra-Icecrown Yeah, this week could be rough", -- [8]
-							"/cw Míra-Icecrown yeah, looking forward to it :P", -- [9]
-							"/i center", -- [10]
-							"/g cause too late?", -- [11]
-							"/cw Míra-Icecrown I mean, I'll push peoples key and all that", -- [12]
-							"/cw Míra-Icecrown yeah, looking forward to it :P", -- [13]
-							"/g cause too late?", -- [14]
-							"/cw Míra-Icecrown yeah, looking forward to it :P", -- [15]
-							"/p greetings ;)", -- [16]
-							"/p my bad", -- [17]
-							"/p yeah", -- [18]
-							"/p like last boss", -- [19]
-							"/p nope", -- [20]
-							"/p brez", -- [21]
-							"/p shifty", -- [22]
-							"/p lightning balls", -- [23]
-							"/p you stood in them", -- [24]
-							"/p gg", -- [25]
-							"/p nice job", -- [26]
-							"/p kewl", -- [27]
-							"/p cheers guys", -- [28]
-							"/p great group", -- [29]
-							"/p have a good night ;)", -- [30]
-							"/p have a good night", -- [31]
-							"/cw Riiza-AeriePeak Hey bud, have a raiding group?", -- [32]
+							"/s awesome", -- [1]
+							"/p greetings ;)", -- [2]
+							"/s awesome", -- [3]
+							"/cw Kalithumos-Tichondrius She", -- [4]
+							"/cw Kalithumos-Tichondrius amazingly", -- [5]
+							"/p you stood in them", -- [6]
+							"/g contracts", -- [7]
+							"/raid Ok so", -- [8]
+							"/cw Míra-Icecrown I mean, I'll push peoples key and all that", -- [9]
+							" Also, I'm a little AFK until pull", -- [10]
+							"/p greetings ;)", -- [11]
+							"/s awesome", -- [12]
+							"/cw Kalithumos-Tichondrius Is so", -- [13]
+							"/p greetings ;)", -- [14]
+							"/raid and they got here, literally at 7", -- [15]
+							"/s awesome", -- [16]
+							"/p greetings ;)", -- [17]
+							"/s awesome", -- [18]
+							"/cw Kalithumos-Tichondrius She", -- [19]
+							"/p you stood in them", -- [20]
+							"/raid Ok so", -- [21]
+							" Also, I'm a little AFK until pull", -- [22]
+							"/s awesome", -- [23]
+							"/p greetings ;)", -- [24]
+							"/s awesome", -- [25]
+							"/cw Kalithumos-Tichondrius She", -- [26]
+							"/raid Ok so", -- [27]
+							"/s awesome", -- [28]
+							"/cw Kalithumos-Tichondrius She", -- [29]
+							"/s awesome", -- [30]
+							" WOW", -- [31]
+							"/raid INT and shout", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
