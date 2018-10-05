@@ -41,10 +41,3 @@ X: 36
 Y: 27
 W: 384
 H: 260
-Frame: AllTheThings-Window-Tradeskills
-FrameLevel: 1
-Anchor: TOP
-X: -146
-Y: -116
-W: 300
-H: 496

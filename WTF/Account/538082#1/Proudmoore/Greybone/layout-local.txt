@@ -41,13 +41,6 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: AAP_OptionsMainFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -6
-Y: 96
-W: 450
-H: 360
 Frame: DetailsPlayerDetailsWindow
 FrameLevel: 1
 Anchor: CENTER

@@ -4343,6 +4343,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
+		[276094] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Nazmani Bloodhexer",
+		},
 		[262277] = {
 			["school"] = 1,
 			["token"] = {
@@ -6370,14 +6377,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kahoots-Proudmoore",
 		},
-		[271538] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Mistaaytch-Lightbringer",
-		},
 		[276192] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -6385,6 +6384,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Superc-Lightbringer",
+		},
+		[280286] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Supremë-Proudmoore",
 		},
 		[265217] = {
 			["school"] = 32,
@@ -6533,12 +6541,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[195072] = {
-			["school"] = 1,
+		[265231] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Êlwen-KhazModan",
+			["source"] = "Zek'voz",
 		},
 		[277732] = {
 			["school"] = 40,
@@ -6549,13 +6558,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sporecaller Zancha",
 		},
-		[265231] = {
-			["school"] = 32,
+		[265366] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Zek'voz",
+			["source"] = "Aqualing",
 		},
 		[256198] = {
 			["school"] = 1,
@@ -6578,14 +6590,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[275686] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[265451] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Coalesced Blood",
 		},
 		[271811] = {
 			["school"] = 32,
@@ -6595,12 +6604,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cudgel of Gore",
 		},
-		[265974] = {
-			["school"] = 8,
+		[275084] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Galvazzt",
 		},
 		[210320] = {
 			["school"] = 2,
@@ -6623,12 +6631,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Marksopp-Lightbringer",
 		},
-		[275084] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
 		[264210] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -6646,13 +6648,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gorak Tul",
 		},
-		[101625] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Echo of Baine",
-		},
 		[265248] = {
 			["school"] = 1,
 			["token"] = {
@@ -6660,6 +6655,21 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Zek'voz",
+		},
+		[101625] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Echo of Baine",
+		},
+		[278974] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Unknown",
 		},
 		[257402] = {
 			["school"] = 1,
@@ -6675,9 +6685,9 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[54149] = {
+		[204242] = {
 			["school"] = 2,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
@@ -6695,13 +6705,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Malformed Lion",
 		},
-		[75000] = {
+		[256493] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Forgemaster Throngus",
+			["source"] = "Azerite Footbomb",
 		},
 		[76151] = {
 			["school"] = 32,
@@ -6711,44 +6721,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Beguiler",
 		},
-		[278974] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Unknown",
-		},
-		[204242] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kalithumos-Tichondrius",
-		},
-		[256493] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Azerite Footbomb",
-		},
 		[281711] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Marksopp-Lightbringer",
-		},
-		[186270] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Kholvinski-EmeraldDream",
 		},
 		[260923] = {
 			["school"] = 1,
@@ -6766,19 +6744,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Marksopp-Lightbringer",
 		},
-		[81269] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Mistacool-Lightbringer",
-		},
 		[280705] = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Voinic-Lightbringer",
+		},
+		[186270] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
 		},
 		[233499] = {
 			["school"] = 32,
@@ -6788,6 +6767,21 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Kahoots-Proudmoore",
+		},
+		[75000] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Forgemaster Throngus",
+		},
+		[81269] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Mistacool-Lightbringer",
 		},
 		[75861] = {
 			["school"] = 32,
@@ -6817,6 +6811,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mistaaytch-Lightbringer",
 		},
+		[272115] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mythrax the Unraveler",
+		},
+		[193786] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
+		},
 		[270576] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -6831,13 +6841,12 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[272115] = {
-			["school"] = 32,
+		[279664] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mythrax the Unraveler",
+			["source"] = "Vanquished Tendril of G'huun",
 		},
 		[276206] = {
 			["school"] = 1,
@@ -6848,20 +6857,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Marksopp-Lightbringer",
 		},
-		[193786] = {
-			["school"] = 8,
+		[980] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Superc-Lightbringer",
+			["source"] = "Kahoots-Proudmoore",
 		},
-		[279664] = {
-			["school"] = 8,
+		[281178] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Vanquished Tendril of G'huun",
+			["source"] = "Voinic-Lightbringer",
 		},
 		[277742] = {
 			["school"] = 1,
@@ -6898,32 +6910,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vol'kaal",
 		},
-		[980] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kahoots-Proudmoore",
-		},
-		[83445] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "General Husam",
-		},
-		[281178] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Voinic-Lightbringer",
-		},
 		[250050] = {
 			["school"] = 32,
 			["token"] = {
@@ -6932,13 +6918,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[267509] = {
-			["school"] = 1,
+		[83445] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "G'huun",
+			["source"] = "General Husam",
 		},
 		[263927] = {
 			["school"] = 8,
@@ -6949,13 +6935,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Merektha",
 		},
-		[275907] = {
+		[273889] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Azerokk",
+			["source"] = "Zul",
+		},
+		[267509] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "G'huun",
+		},
+		[265974] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Galvazzt",
+		},
+		[257459] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Chopper Redhook",
 		},
 		[256405] = {
 			["school"] = 1,
@@ -6967,15 +6978,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trothak",
 		},
-		[257459] = {
-			["school"] = 1,
+		[233490] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Chopper Redhook",
+			["source"] = "Kahoots-Proudmoore",
 		},
 		[276210] = {
 			["school"] = 1,
@@ -7028,12 +7038,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Overseer Korgus",
 		},
-		[262019] = {
-			["school"] = 1,
+		[264954] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mogul Razdunk",
 		},
 		[197277] = {
 			["school"] = 2,
@@ -7043,26 +7052,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Voinic-Lightbringer",
 		},
-		[276212] = {
-			["school"] = 4,
+		[83446] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Minion of Siamat",
+		},
+		[102241] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mogul Razdunk",
+			["source"] = "Echo of Tyrande",
 		},
-		[224729] = {
-			["school"] = 1,
+		[54149] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Remnant of Corruption",
-		},
-		[264954] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
+			["source"] = "Kalithumos-Tichondrius",
 		},
 		[259711] = {
 			["school"] = 1,
@@ -7083,13 +7094,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Murozond",
 		},
-		[102241] = {
-			["school"] = 64,
+		[250028] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Echo of Tyrande",
+			["source"] = "Yazma",
 		},
 		[88308] = {
 			["school"] = 16,
@@ -7139,20 +7149,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Murtag-Sargeras",
 		},
-		[84982] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[274168] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Zul",
+		},
+		[257305] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Siamat",
-		},
-		[250028] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Yazma",
+			["source"] = "Harlan Sweete",
 		},
 		[269051] = {
 			["school"] = 1,
@@ -7167,14 +7178,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Deathtouched Slaver",
-		},
-		[257305] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Harlan Sweete",
 		},
 		[267105] = {
 			["school"] = 16,
@@ -7191,6 +7194,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Superc-Lightbringer",
 		},
+		[271685] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Unshocked-Proudmoore",
+		},
 		[273658] = {
 			["school"] = 32,
 			["token"] = {
@@ -7199,20 +7209,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deathtouched Slaver",
 		},
-		[263424] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Adderis",
-		},
-		[271685] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Unshocked-Proudmoore",
-		},
 		[148022] = {
 			["school"] = 16,
 			["token"] = {
@@ -7220,13 +7216,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Asahina-Lightbringer",
 		},
-		[51399] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[271682] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Marksopp-Lightbringer",
+			["source"] = "Jhasu-Lightbringer",
 		},
 		[265264] = {
 			["school"] = 32,
@@ -7237,6 +7232,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zek'voz",
 		},
+		[51399] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Marksopp-Lightbringer",
+		},
+		[101614] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Echo of Baine",
+		},
 		[270589] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -7246,12 +7256,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sheilyana-Sargeras",
 		},
-		[101614] = {
-			["school"] = 1,
+		[270882] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Echo of Baine",
+			["source"] = "Azerite Footbomb",
 		},
 		[263425] = {
 			["school"] = 1,
@@ -7261,13 +7272,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Adderis",
 		},
-		[270882] = {
-			["school"] = 4,
+		[196941] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Azerite Footbomb",
+			["source"] = "Kalithumos-Tichondrius",
 		},
 		[119910] = {
 			["school"] = 1,
@@ -7283,20 +7294,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sheilyana-Sargeras",
 		},
-		[196941] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kalithumos-Tichondrius",
-		},
 		[74987] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+		},
+		[268899] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
 		},
 		[199854] = {
 			["school"] = 1,
@@ -7306,13 +7317,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Murtag-Sargeras",
 		},
-		[268899] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[91853] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Superc-Lightbringer",
+			["source"] = "Siamat",
 		},
 		[188070] = {
 			["school"] = 8,
@@ -7332,14 +7343,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Energy Core",
 		},
-		[91853] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Siamat",
-		},
 		[126664] = {
 			["school"] = 1,
 			["token"] = {
@@ -7347,6 +7350,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Murtag-Sargeras",
+		},
+		[257326] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Chopper Redhook",
 		},
 		[267522] = {
 			["school"] = 1,
@@ -7363,20 +7375,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harbinger of Darkness",
 		},
-		[257326] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Chopper Redhook",
-		},
 		[257585] = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[6343] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sheilyana-Sargeras",
 		},
 		[267523] = {
 			["school"] = 1,
@@ -7389,15 +7402,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Captain Jolly",
 		},
-		[6343] = {
+		[262019] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sheilyana-Sargeras",
+			["source"] = "Mogul Razdunk",
 		},
 		[76620] = {
 			["school"] = 64,
@@ -7514,13 +7524,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Plague Doctor",
 		},
-		[268552] = {
+		[263914] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kholvinski-EmeraldDream",
+			["source"] = "Merektha",
 		},
 		[259718] = {
 			["school"] = 1,
@@ -7531,14 +7542,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sporecaller Zancha",
 		},
-		[263914] = {
-			["school"] = 1,
+		[276863] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Merektha",
 		},
 		[83066] = {
 			["school"] = 8,
@@ -7549,11 +7557,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Siamat",
 		},
-		[276863] = {
-			["school"] = 32,
+		[257650] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Chopper Redhook",
 		},
 		[205473] = {
 			["school"] = 16,
@@ -7563,14 +7573,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Asahina-Lightbringer",
 		},
-		[257650] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Chopper Redhook",
-		},
 		[274693] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -7578,6 +7580,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Mythrax the Unraveler",
+		},
+		[268552] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
 		},
 		[268905] = {
 			["school"] = 1,
@@ -7597,22 +7607,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kesak-Lightbringer",
 		},
-		[259975] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[276229] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "The Sand Queen",
+			["source"] = "B.O.O.M.B.A.",
 		},
-		[88184] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[256137] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Empyrean Assassin",
+			["source"] = "Azerite Footbomb",
 		},
 		[255434] = {
 			["school"] = 1,
@@ -7716,14 +7724,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Silt Crab",
 		},
-		[108271] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[255371] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Unshocked-Proudmoore",
+			["source"] = "Rezan",
 		},
 		[267533] = {
 			["school"] = 4,
@@ -7852,14 +7861,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Molly",
 		},
-		[255373] = {
+		[75520] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Rezan",
+			["source"] = "Faceless Corruptor",
 		},
 		[240447] = {
 			["school"] = 1,
@@ -7902,14 +7911,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Malformed Creation",
 		},
-		[75520] = {
+		[255373] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Faceless Corruptor",
+			["source"] = "Rezan",
 		},
 		[273718] = {
 			["school"] = 64,
@@ -7981,15 +7990,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wanton Sapper",
 		},
-		[255371] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[108271] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Rezan",
+			["source"] = "Unshocked-Proudmoore",
 		},
 		[277776] = {
 			["school"] = 1,
@@ -8060,27 +8068,29 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
+		[88184] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Empyrean Assassin",
+		},
+		[259975] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Sand Queen",
+		},
 		[260813] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Mogul Razdunk",
-		},
-		[256137] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Azerite Footbomb",
-		},
-		[276229] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "B.O.O.M.B.A.",
 		},
 		[250259] = {
 			["school"] = 8,
@@ -8294,12 +8304,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azerokk",
 		},
-		[271682] = {
-			["school"] = 32,
+		[263424] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Jhasu-Lightbringer",
+			["source"] = "Adderis",
 		},
 		[261265] = {
 			["school"] = 1,
@@ -8373,6 +8383,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
+		[84982] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Siamat",
+		},
 		[260894] = {
 			["school"] = 1,
 			["token"] = {
@@ -8381,22 +8399,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elder Leaxa",
 		},
-		[274168] = {
-			["school"] = 32,
+		[276212] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Zul",
-		},
-		[233490] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Kahoots-Proudmoore",
+			["source"] = "Mogul Razdunk",
 		},
 		[278812] = {
 			["school"] = 1,
@@ -8414,13 +8423,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Newc-Lightbringer",
 		},
-		[273889] = {
+		[224729] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Zul",
+			["source"] = "Remnant of Corruption",
 		},
 		[2645] = {
 			["school"] = 8,
@@ -8430,6 +8438,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Jhasu-Lightbringer",
+		},
+		[275907] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Azerokk",
 		},
 		[268024] = {
 			["school"] = 8,
@@ -8441,6 +8457,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Heart of Sethraliss",
 		},
+		[86911] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Asaad",
+		},
 		[260280] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -8451,14 +8475,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mogul Razdunk",
 		},
-		[86911] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Asaad",
-		},
 		[209858] = {
 			["school"] = 40,
 			["type"] = "DEBUFF",
@@ -8467,13 +8483,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Elder Leaxa",
-		},
-		[83446] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Minion of Siamat",
 		},
 		[205231] = {
 			["school"] = 32,
@@ -8652,6 +8661,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
+		[275686] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Coalesced Blood",
+		},
 		[12975] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -8661,17 +8679,6 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Sheilyana-Sargeras",
-		},
-		[265366] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Aqualing",
 		},
 		[269097] = {
 			["school"] = 32,
@@ -8688,13 +8695,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
-		[273947] = {
+		[195072] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Marksopp-Lightbringer",
+			["source"] = "Êlwen-KhazModan",
 		},
 		[280868] = {
 			["school"] = 1,
@@ -8704,6 +8710,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
+		[273947] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Marksopp-Lightbringer",
+		},
 		[259856] = {
 			["school"] = 8,
 			["token"] = {
@@ -8711,12 +8725,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Rixxa Fluxflame",
-		},
-		[265451] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
 		},
 		[87854] = {
 			["school"] = 64,
@@ -8757,6 +8765,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Valiona",
 		},
+		[271538] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
 		[268815] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -8764,15 +8780,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Test Subject",
-		},
-		[261446] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Lady Waycrest",
 		},
 		[277800] = {
 			["school"] = 1,
@@ -8801,6 +8808,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kholvinski-EmeraldDream",
 		},
+		[261446] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lady Waycrest",
+		},
 		[108589] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -8810,15 +8826,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Murozond",
-		},
-		[280286] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Supremë-Proudmoore",
 		},
 		[355] = {
 			["school"] = 1,
@@ -9287,426 +9294,666 @@ EncounterDetailsDB = {
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Zul",
-		}, -- [1]
-		{
 			{
-				14.3639999999996, -- [1]
-				"Weak. Just as I predicted.", -- [2]
-				"Zul", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				20.1319999999996, -- [1]
+				20.3829999999998, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
+			}, -- [1]
+			{
+				32.5200000000004, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
 			}, -- [2]
 			{
-				30.2829999999995, -- [1]
-				"De power of G'huun will be your doom!", -- [2]
+				36.1599999999999, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				43.6640000000007, -- [1]
-				"Come, brethren! Feed upon de unfaithful!", -- [2]
-				"Zul", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				51.0120000000006, -- [1]
+				50.6890000000003, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
+			}, -- [4]
+			{
+				53.2070000000003, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
 			}, -- [5]
 			{
-				51.0120000000006, -- [1]
-				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				72.6280000000006, -- [1]
+				"Rise from my blood to crush de weak!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				72.7839999999997, -- [1]
-				"Rise from my blood to crush de weak!", -- [2]
+				79.9200000000001, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				82.4609999999993, -- [1]
+				82.2790000000005, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [8]
 			{
-				87.3359999999993, -- [1]
+				89.6620000000003, -- [1]
 				"De power of G'huun will be your doom!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [9]
 			{
-				88.5570000000007, -- [1]
-				"Come, brethren! Feed upon de unfaithful!", -- [2]
-				"Zul", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				112.857, -- [1]
+				113.957, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
+			}, -- [10]
+			{
+				116.384, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
 			}, -- [11]
 			{
-				115.276, -- [1]
-				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				123.692999999999, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [12]
 			{
-				132.309999999999, -- [1]
-				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				135.627, -- [1]
+				"Rise from my blood to crush de weak!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [13]
 			{
-				136.743, -- [1]
-				"Rise from my blood to crush de weak!", -- [2]
-				"Zul", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				144.041999999999, -- [1]
+				145.539999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
+			}, -- [14]
+			{
+				145.539999999999, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
 			}, -- [15]
 			{
-				144.041999999999, -- [1]
-				"De power of G'huun will be your doom!", -- [2]
+				166.210999999999, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [16]
 			{
-				176.002, -- [1]
+				175.950999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [17]
 			{
-				176.002, -- [1]
-				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				180.795, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [18]
 			{
-				180.856, -- [1]
-				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				200.242, -- [1]
+				"Rise from my blood to crush de weak!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [19]
 			{
-				200.291999999999, -- [1]
-				"Rise from my blood to crush de weak!", -- [2]
+				202.668, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [20]
 			{
-				202.724, -- [1]
-				"De power of G'huun will be your doom!", -- [2]
-				"Zul", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				207.603999999999, -- [1]
+				207.501, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
-			}, -- [22]
+			}, -- [21]
 			{
-				219.316999999999, -- [1]
+				209.935, -- [1]
 				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
-			}, -- [23]
+			}, -- [22]
 			{
-				238.781999999999, -- [1]
+				239.115, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
+			}, -- [23]
+			{
+				243.978999999999, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
 			}, -- [24]
 			{
-				239.709999999999, -- [1]
+				244.474, -- [1]
 				"You never had a future.", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [25]
 			{
-				246.074000000001, -- [1]
-				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				258.551, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [26]
 			{
-				258.236000000001, -- [1]
-				"De power of G'huun will be your doom!", -- [2]
+				260.973, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [27]
 			{
-				264.291999999999, -- [1]
-				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				263.415999999999, -- [1]
+				"Rise from my blood to crush de weak!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [28]
 			{
-				266.742, -- [1]
-				"Rise from my blood to crush de weak!", -- [2]
-				"Zul", -- [3]
-				7, -- [4]
-			}, -- [29]
-			{
-				269.174999999999, -- [1]
+				270.716, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
-			}, -- [30]
+			}, -- [29]
 			{
-				300.771000000001, -- [1]
+				273.110999999999, -- [1]
 				"G'huun's blood flows through my veins! Tremble before my power!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
-			}, -- [31]
+			}, -- [30]
 			{
-				320.605, -- [1]
+				292.593999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
-			}, -- [32]
+			}, -- [31]
 			{
-				325.486999999999, -- [1]
+				297.465, -- [1]
 				"Witness your end and despair!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
+			}, -- [32]
+			{
+				308.386, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
 			}, -- [33]
 			{
-				336.406000000001, -- [1]
+				324.171, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [34]
 			{
-				352.234, -- [1]
-				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
-				"Zul", -- [3]
-				1, -- [4]
-			}, -- [35]
-			{
-				353.437, -- [1]
+				325.394, -- [1]
 				"Witness your end and despair!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
-			}, -- [36]
+			}, -- [35]
 			{
-				367.575000000001, -- [1]
+				339.977999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
-			}, -- [37]
+			}, -- [36]
 			{
-				368.554, -- [1]
-				"You never had a future.", -- [2]
+				353.357, -- [1]
+				"Witness your end and despair!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
+			}, -- [37]
+			{
+				355.773999999999, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
 			}, -- [38]
 			{
-				381.713, -- [1]
-				"You never had a future.", -- [2]
+				366.177, -- [1]
+				"Weak. Just as I predicted.", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [39]
+			{
+				371.594999999999, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [40]
 			["boss"] = "Zul",
-		}, -- [2]
+		}, -- [1]
 		{
 			{
-				19.7579999999998, -- [1]
+				21.2049999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [1]
 			{
-				35.9439999999995, -- [1]
-				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				31.3489999999983, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				38.366, -- [1]
-				"De power of G'huun will be your doom!", -- [2]
+				36.1739999999991, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				51.3109999999997, -- [1]
+				51.5929999999989, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [4]
 			{
-				51.3109999999997, -- [1]
+				51.5929999999989, -- [1]
 				"Arise my chosen! Through blood we shall conquer!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				70.7430000000004, -- [1]
+				70.976999999999, -- [1]
 				"Rise from my blood to crush de weak!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				77.9969999999994, -- [1]
+				78.2709999999988, -- [1]
 				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				82.8619999999992, -- [1]
+				83.116, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [8]
 			{
-				93.7929999999997, -- [1]
+				87.9709999999996, -- [1]
 				"De power of G'huun will be your doom!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [9]
 			{
-				114.442999999999, -- [1]
+				115.090999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [10]
 			{
-				116.893, -- [1]
+				117.525, -- [1]
 				"Arise my chosen! Through blood we shall conquer!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				124.190999999999, -- [1]
+				123.597, -- [1]
 				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [12]
 			{
-				128.404, -- [1]
-				"Weak. Just as I predicted.", -- [2]
+				136.552, -- [1]
+				"Rise from my blood to crush de weak!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [13]
 			{
-				136.342000000001, -- [1]
-				"Rise from my blood to crush de weak!", -- [2]
+				143.83, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [14]
 			{
-				146.054, -- [1]
+				146.262999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [15]
 			{
-				153.334999999999, -- [1]
-				"De power of G'huun will be your doom!", -- [2]
+				165.737999999999, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [16]
 			{
-				167.903, -- [1]
-				"Come, brethren! Feed upon de unfaithful!", -- [2]
-				"Zul", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				177.652, -- [1]
+				177.885999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
+			}, -- [17]
+			{
+				180.313999999999, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
 			}, -- [18]
 			{
-				179.244000000001, -- [1]
-				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				180.313999999999, -- [1]
+				"You never had a future.", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [19]
 			{
-				200.735000000001, -- [1]
+				199.795, -- [1]
 				"Rise from my blood to crush de weak!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [20]
 			{
-				208.026, -- [1]
-				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
-				"Zul", -- [3]
-				1, -- [4]
-			}, -- [21]
-			{
-				210.356, -- [1]
+				202.219999999999, -- [1]
 				"De power of G'huun will be your doom!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
+			}, -- [21]
+			{
+				208.312, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
 			}, -- [22]
 			{
-				214.101999999999, -- [1]
+				208.312, -- [1]
 				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [23]
 			{
-				238.396000000001, -- [1]
+				238.683999999999, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
 			}, -- [24]
 			{
-				243.244999999999, -- [1]
+				243.529999999999, -- [1]
 				"Arise my chosen! Through blood we shall conquer!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [25]
 			{
-				257.811, -- [1]
+				251.216999999999, -- [1]
 				"Come, brethren! Feed upon de unfaithful!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [26]
 			{
-				265.117, -- [1]
+				254.848, -- [1]
+				"G'huun's blood flows through my veins! Tremble before my power!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				274.319, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				279.183999999999, -- [1]
+				"Witness your end and despair!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				290.132, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [30]
+			{
+				305.916999999999, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				308.356, -- [1]
+				"Witness your end and despair!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				315.088, -- [1]
+				"You never had a future.", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				321.728999999999, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [34]
+			{
+				327.921999999999, -- [1]
+				"You never had a future.", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [35]
+			["boss"] = "Zul",
+		}, -- [2]
+		{
+			{
+				21.1479999999992, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [1]
+			{
+				33.2729999999992, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				39.3400000000002, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				51.473, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				58.7890000000007, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				70.9539999999997, -- [1]
+				"Rise from my blood to crush de weak!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				83.1000000000004, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				83.1000000000004, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				90.3719999999994, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				114.639999999999, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [10]
+			{
+				121.904, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				131.621999999999, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				134.030000000001, -- [1]
+				"Rise from my blood to crush de weak!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				146.172, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				148.647000000001, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				174.093000000001, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				176.522999999999, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [17]
+			{
+				186.254000000001, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				198.415999999999, -- [1]
+				"Rise from my blood to crush de weak!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				205.733, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				206.932000000001, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [21]
+			{
+				216.656999999999, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				238.498, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [23]
+			{
+				250.607, -- [1]
+				"Arise my chosen! Through blood we shall conquer!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				260.359, -- [1]
+				"Come, brethren! Feed upon de unfaithful!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				262.811, -- [1]
+				"De power of G'huun will be your doom!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				264.022999999999, -- [1]
 				"Rise from my blood to crush de weak!", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
 			}, -- [27]
 			{
-				267.532999999999, -- [1]
-				"De power of G'huun will be your doom!", -- [2]
-				"Zul", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				269.942999999999, -- [1]
+				268.891, -- [1]
 				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
 				"Zul", -- [3]
 				1, -- [4]
+			}, -- [28]
+			{
+				273.732, -- [1]
+				"G'huun's blood flows through my veins! Tremble before my power!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
 			}, -- [29]
 			{
-				282.529000000001, -- [1]
+				293.23, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [30]
+			{
+				298.112999999999, -- [1]
+				"Witness your end and despair!", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				309.072, -- [1]
+				"|TInterface\\ICONS\\INV_Misc_Food_Legion_gooAmberPink_pool.BLP:20|t %s begins to cast |cFFFF0000|Hspell:273361|h[Pool of Darkness]|h|r!", -- [2]
+				"Zul", -- [3]
+				1, -- [4]
+			}, -- [32]
+			{
+				309.493, -- [1]
 				"You never had a future.", -- [2]
 				"Zul", -- [3]
 				7, -- [4]
-			}, -- [30]
+			}, -- [33]
+			{
+				322.082, -- [1]
+				"You never had a future.", -- [2]
+				"Zul", -- [3]
+				7, -- [4]
+			}, -- [34]
 			["boss"] = "Zul",
 		}, -- [3]
 	},
