@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Immol'thar",
+		}, -- [1]
+		{
+			["boss"] = "Prince Tortheldrin",
+		}, -- [2]
+		{
+			["boss"] = "Illyanna Ravenoak",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[55964] = {
 			["school"] = 1,
@@ -138,16 +149,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lethtendris",
 		},
-		[7948] = {
+		[124280] = {
 			["school"] = 8,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Alzzin the Wildshaper",
+			["source"] = "Mooseknucklë-Thrall",
 		},
 		[111323] = {
 			["school"] = 1,
@@ -204,21 +213,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Shadowmage",
 		},
-		[22938] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mana Burst",
-		},
-		[151815] = {
+		[93535] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Twilight Lord Bathiel",
+			["source"] = "Lord Walden",
+		},
+		[22691] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Alzzin the Wildshaper",
 		},
 		[21807] = {
 			["school"] = 8,
@@ -228,14 +237,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Celebras the Cursed",
 		},
-		[22420] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[21655] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hydrospawn",
+			["source"] = "Lord Vyletongue",
 		},
 		[224239] = {
 			["school"] = 2,
@@ -244,16 +253,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iletha-Shandris",
 		},
-		[20787] = {
-			["school"] = 4,
+		[7964] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Lethtendris",
+			["source"] = "Lord Vyletongue",
 		},
 		[21910] = {
 			["school"] = 4,
@@ -277,13 +284,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odo the Blindwatcher",
 		},
-		[21062] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[22950] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Putridus Shadowstalker",
+			["source"] = "Immol'thar",
 		},
 		[111324] = {
 			["school"] = 1,
@@ -318,12 +324,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nitorya-Goldrinn",
 		},
-		[10101] = {
-			["school"] = 1,
+		[114465] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Alzzin the Wildshaper",
 		},
 		[115739] = {
 			["school"] = 1,
@@ -357,15 +362,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baron Silverlaine",
 		},
-		[149869] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[93423] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ghamoo-Ra",
+			["source"] = "Baron Ashbury",
 		},
 		[115309] = {
 			["school"] = 1,
@@ -376,14 +380,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Alura",
 		},
-		[137639] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[114848] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mooseknucklë-Thrall",
+			["source"] = "High Inquisitor Whitemane",
 		},
 		[116616] = {
 			["school"] = 28,
@@ -430,8 +434,8 @@ EncounterDetailsDB = {
 		[7485] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Razorclaw the Butcher",
 		},
@@ -458,18 +462,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Residual Monstrosity",
 		},
-		[114465] = {
-			["school"] = 4,
+		[10101] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Alzzin the Wildshaper",
 		},
-		[150549] = {
+		[149943] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Voidwalker Minion",
+			["source"] = "Executioner Gore",
 		},
 		[22696] = {
 			["school"] = 8,
@@ -504,31 +511,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Razorlash",
 		},
-		[151813] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Twilight Lord Bathiel",
-		},
-		[115289] = {
+		[151303] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Thalnos the Soulrender",
+			["source"] = "Aku'mai the Devourer",
 		},
-		[114848] = {
-			["school"] = 2,
+		[86729] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "High Inquisitor Whitemane",
+			["source"] = "Randolph Moloch",
+		},
+		[137639] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mooseknucklë-Thrall",
 		},
 		[115629] = {
 			["school"] = 1,
@@ -540,8 +546,8 @@ EncounterDetailsDB = {
 		[196608] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Tznopanda-Illidan",
 		},
@@ -553,21 +559,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Doomguard",
 		},
-		[22995] = {
-			["school"] = 64,
+		[16247] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Prince Tortheldrin",
+			["source"] = "Lethtendris",
 		},
-		[42292] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[150549] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tznopanda-Illidan",
+			["source"] = "Voidwalker Minion",
 		},
 		[15587] = {
 			["school"] = 32,
@@ -578,14 +582,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Magister Kalendris",
 		},
-		[22688] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[113653] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Alzzin the Wildshaper",
+			["source"] = "Flameweaver Koegler",
 		},
 		[96231] = {
 			["school"] = 1,
@@ -594,23 +599,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iletha-Shandris",
 		},
-		[150634] = {
+		[114004] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Subjugator Kor'ul",
+			["source"] = "Houndmaster Braun",
 		},
-		[104993] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[86633] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Lord Overheat",
 		},
 		[114259] = {
 			["school"] = 1,
@@ -633,13 +640,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eldreth Spectre",
 		},
-		[18101] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[22910] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Eldreth Apparition",
+			["source"] = "Illyanna Ravenoak",
 		},
 		[93505] = {
 			["school"] = 16,
@@ -650,15 +656,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Walden",
 		},
-		[93697] = {
-			["school"] = 8,
+		[149913] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Walden",
+			["source"] = "Thruk",
 		},
 		[116140] = {
 			["school"] = 1,
@@ -677,22 +682,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deeprot Tangler",
 		},
-		[110762] = {
+		[152417] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Landslide",
+			["source"] = "Deep Terror",
 		},
-		[86736] = {
+		[152967] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hogger",
+			["source"] = "Aku'mai",
 		},
 		[53385] = {
 			["school"] = 2,
@@ -701,12 +705,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iletha-Shandris",
 		},
-		[152967] = {
+		[150377] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Aku'mai",
+			["source"] = "Twilight Disciple",
 		},
 		[9143] = {
 			["school"] = 4,
@@ -717,13 +722,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tinkerer Gizlock",
 		},
-		[150377] = {
+		[114021] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Twilight Disciple",
+			["source"] = "Houndmaster Braun",
+		},
+		[111216] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Armsmaster Harlan",
+		},
+		[91677] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Pustulant Monstrosity",
 		},
 		[12466] = {
 			["school"] = 4,
@@ -734,28 +752,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Overheat",
 		},
-		[114021] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Houndmaster Braun",
-		},
-		[21808] = {
+		[86736] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Landslide",
-		},
-		[20537] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Prince Tortheldrin",
+			["source"] = "Hogger",
 		},
 		[152592] = {
 			["school"] = 32,
@@ -765,20 +769,20 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[115392] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Alura",
-		},
-		[10966] = {
+		[3391] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Noxxion",
+			["source"] = "Princess Theradras",
+		},
+		[152753] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Guardian of the Deep",
 		},
 		[93685] = {
 			["school"] = 1,
@@ -797,52 +801,49 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Princess Theradras",
 		},
-		[3391] = {
-			["school"] = 1,
+		[115392] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Alura",
+		},
+		[12747] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Celebras the Cursed",
+		},
+		[21868] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Princess Theradras",
 		},
-		[115297] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[111217] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Thalnos the Soulrender",
+			["source"] = "Armsmaster Harlan",
 		},
-		[78578] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[150025] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Illyanna Ravenoak",
+			["source"] = "Restorative Waters",
 		},
-		[13787] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[211390] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Gordok Warlock",
-		},
-		[16427] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Death Lash",
-		},
-		[155145] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Iletha-Shandris",
 		},
@@ -863,31 +864,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian of the Deep",
 		},
-		[152753] = {
+		[10966] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of the Deep",
+			["source"] = "Noxxion",
 		},
-		[21390] = {
-			["school"] = 64,
+		[22422] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Vyletongue",
+			["source"] = "Massive Geyser",
 		},
-		[853] = {
-			["school"] = 2,
+		[115297] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Iletha-Shandris",
+			["source"] = "Thalnos the Soulrender",
 		},
 		[143924] = {
 			["school"] = 1,
@@ -904,14 +905,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pimgib",
 		},
-		[86738] = {
+		[113959] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Vicious Thug",
+			["source"] = "Unknown",
 		},
 		[93686] = {
 			["school"] = 1,
@@ -931,13 +932,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Alzzin the Wildshaper",
 		},
-		[22920] = {
-			["school"] = 64,
+		[13787] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Prince Tortheldrin",
+			["source"] = "Gordok Warlock",
 		},
 		[22924] = {
 			["school"] = 1,
@@ -959,13 +960,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wildspawn Felsworn",
 		},
-		[22422] = {
-			["school"] = 16,
+		[155145] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Massive Geyser",
+			["source"] = "Iletha-Shandris",
 		},
 		[93527] = {
 			["school"] = 16,
@@ -1005,12 +1006,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Petrified Treant",
 		},
-		[21968] = {
-			["school"] = 8,
+		[22713] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Celebras the Cursed",
+			["source"] = "Pimgib",
 		},
 		[16100] = {
 			["school"] = 1,
@@ -1021,13 +1025,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Vyletongue",
 		},
-		[111218] = {
-			["school"] = 1,
+		[78578] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Armsmaster Harlan",
+			["source"] = "Illyanna Ravenoak",
 		},
 		[22709] = {
 			["school"] = 32,
@@ -1045,14 +1050,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mooseknucklë-Thrall",
 		},
-		[93931] = {
-			["school"] = 32,
+		[149865] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Odo the Blindwatcher",
+			["source"] = "Ghamoo-Ra",
 		},
 		[93687] = {
 			["school"] = 32,
@@ -1061,15 +1067,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Springvale",
 		},
-		[111107] = {
+		[115139] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Scarlet Judicator",
+			["source"] = "Thalnos the Soulrender",
 		},
 		[57825] = {
 			["school"] = 16,
@@ -1082,16 +1087,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eldreth Apparition",
 		},
-		[22478] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[21968] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Zevrim Thornhoof",
+			["source"] = "Celebras the Cursed",
 		},
 		[113641] = {
 			["school"] = 4,
@@ -1103,31 +1104,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flameweaver Koegler",
 		},
-		[12550] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Arcane Feedback",
-		},
-		[7645] = {
-			["school"] = 32,
+		[111107] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Magister Kalendris",
+			["source"] = "Scarlet Judicator",
 		},
-		[163212] = {
+		[16128] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tznopanda-Illidan",
+			["source"] = "Immol'thar",
+		},
+		[86727] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Randolph Moloch",
 		},
 		[149888] = {
 			["school"] = 32,
@@ -1143,20 +1145,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian of the Deep",
 		},
-		[152757] = {
-			["school"] = 1,
+		[163212] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Guardian of the Deep",
+			["source"] = "Tznopanda-Illidan",
 		},
-		[17156] = {
+		[22766] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ferra",
+			["source"] = "Putridus Shadowstalker",
 		},
 		[13584] = {
 			["school"] = 1,
@@ -1177,28 +1179,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illyanna Ravenoak",
 		},
-		[151681] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ghamoo-Ra",
-		},
-		[113626] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Flameweaver Koegler",
-		},
 		[125439] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Mooseknucklë-Thrall",
+		},
+		[14873] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Shifty Thief",
+		},
+		[93564] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lord Godfrey",
 		},
 		[13339] = {
 			["school"] = 4,
@@ -1217,13 +1218,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eldreth Seether",
 		},
-		[14873] = {
+		[113626] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shifty Thief",
+			["source"] = "Flameweaver Koegler",
 		},
 		[116694] = {
 			["school"] = 8,
@@ -1243,12 +1243,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nitorya-Goldrinn",
 		},
-		[113766] = {
-			["school"] = 4,
+		[107079] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Brother Korloff",
+			["source"] = "Tznopanda-Illidan",
 		},
 		[113690] = {
 			["school"] = 4,
@@ -1262,33 +1264,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flameweaver Koegler",
 		},
-		[150660] = {
+		[86740] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Deep Terror",
-		},
-		[28858] = {
-			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ironbark Protector",
+			["source"] = "Rowdy Troublemaker",
 		},
-		[127399] = {
-			["school"] = 2,
+		[114410] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "High Inquisitor Whitemane",
+			["source"] = "Brother Korloff",
+		},
+		[111589] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Starving Hound",
 		},
 		[15654] = {
 			["school"] = 32,
@@ -1310,20 +1310,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Highborne Summoner",
 		},
-		[93691] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[93914] = {
-			["school"] = 1,
+		[150405] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Razorclaw the Butcher",
+			["source"] = "Twilight Storm Mender",
+		},
+		[22714] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hydrospawn",
 		},
 		[93928] = {
 			["school"] = 1,
@@ -1371,29 +1370,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[150405] = {
-			["school"] = 8,
+		[115876] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Twilight Storm Mender",
+			["source"] = "Commander Durand",
 		},
-		[93675] = {
+		[93930] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lord Godfrey",
+			["source"] = "Razorclaw the Butcher",
 		},
-		[22714] = {
-			["school"] = 2,
+		[23224] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hydrospawn",
+			["source"] = "Baron Silverlaine",
 		},
 		[113691] = {
 			["school"] = 4,
@@ -1404,25 +1405,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flameweaver Koegler",
 		},
-		[22710] = {
+		[114808] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Brother Korloff",
+		},
+		[22917] = {
 			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lethtendris",
-		},
-		[22909] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Eye of Immol'thar",
+			["source"] = "Magister Kalendris",
 		},
 		[21869] = {
 			["school"] = 1,
@@ -1469,13 +1466,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tznopanda-Illidan",
 		},
-		[5568] = {
-			["school"] = 1,
+		[22909] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Landslide",
+			["source"] = "Eye of Immol'thar",
 		},
 		[149893] = {
 			["school"] = 1,
@@ -1506,14 +1505,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Immol'thar",
 		},
-		[113364] = {
-			["school"] = 4,
+		[21909] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Flameweaver Koegler",
+			["source"] = "Princess Theradras",
 		},
 		[22419] = {
 			["school"] = 16,
@@ -1524,22 +1523,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hydrospawn",
 		},
-		[149908] = {
-			["school"] = 1,
+		[150020] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Thruk",
+			["source"] = "Twilight Lord Bathiel",
 		},
-		[18100] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[149894] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Eldreth Apparition",
+			["source"] = "Domina",
 		},
 		[9080] = {
 			["school"] = 1,
@@ -1551,29 +1548,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vicious Thug",
 		},
-		[149894] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Domina",
-		},
-		[150020] = {
+		[18100] = {
 			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Twilight Lord Bathiel",
-		},
-		[21909] = {
-			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Princess Theradras",
+			["source"] = "Eldreth Apparition",
+		},
+		[149908] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Thruk",
+		},
+		[113364] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Flameweaver Koegler",
 		},
 		[86726] = {
 			["school"] = 1,
@@ -1584,47 +1583,49 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Randolph Moloch",
 		},
-		[22917] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[5568] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Magister Kalendris",
-		},
-		[114808] = {
-			["school"] = 4,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Brother Korloff",
+			["source"] = "Landslide",
 		},
-		[23224] = {
+		[22710] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Baron Silverlaine",
+			["source"] = "Lethtendris",
 		},
-		[93930] = {
+		[93914] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Razorclaw the Butcher",
+		},
+		[93675] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Razorclaw the Butcher",
+			["source"] = "Lord Godfrey",
 		},
-		[115876] = {
+		[150660] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Commander Durand",
+			["source"] = "Deep Terror",
 		},
 		[93707] = {
 			["school"] = 1,
@@ -1644,40 +1645,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baron Ashbury",
 		},
-		[111589] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Starving Hound",
-		},
-		[114410] = {
-			["school"] = 1,
+		[127399] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Brother Korloff",
+			["source"] = "High Inquisitor Whitemane",
 		},
-		[86740] = {
-			["school"] = 1,
+		[28858] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ironbark Protector",
+		},
+		[93691] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Rowdy Troublemaker",
 		},
-		[107079] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[113766] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tznopanda-Illidan",
+			["source"] = "Brother Korloff",
 		},
 		[18670] = {
 			["school"] = 1,
@@ -1687,12 +1687,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ironbark Protector",
 		},
-		[93564] = {
-			["school"] = 32,
+		[151681] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lord Godfrey",
+			["source"] = "Ghamoo-Ra",
 		},
 		[150438] = {
 			["school"] = 1,
@@ -1711,68 +1713,67 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Shadow",
 		},
-		[22766] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Putridus Shadowstalker",
-		},
-		[86727] = {
+		[17156] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Randolph Moloch",
+			["source"] = "Ferra",
 		},
-		[16128] = {
-			["school"] = 8,
+		[152757] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Guardian of the Deep",
+		},
+		[7645] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Immol'thar",
-		},
-		[115139] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Thalnos the Soulrender",
-		},
-		[149865] = {
-			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ghamoo-Ra",
+			["source"] = "Magister Kalendris",
 		},
-		[22713] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Pimgib",
-		},
-		[113959] = {
-			["school"] = 1,
+		[12550] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Arcane Feedback",
+		},
+		[93931] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Odo the Blindwatcher",
+		},
+		[22478] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Zevrim Thornhoof",
+		},
+		[111218] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Armsmaster Harlan",
 		},
 		[161691] = {
 			["school"] = 1,
@@ -1781,44 +1782,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iletha-Shandris",
 		},
-		[211390] = {
-			["school"] = 1,
+		[22920] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prince Tortheldrin",
+		},
+		[16427] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Death Lash",
+		},
+		[86738] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Vicious Thug",
+		},
+		[853] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Iletha-Shandris",
 		},
-		[150025] = {
-			["school"] = 16,
+		[21390] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Restorative Waters",
-		},
-		[111217] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Armsmaster Harlan",
-		},
-		[21868] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Princess Theradras",
-		},
-		[12747] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Celebras the Cursed",
+			["source"] = "Lord Vyletongue",
 		},
 		[111670] = {
 			["school"] = 2,
@@ -1838,19 +1842,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baron Ashbury",
 		},
-		[91677] = {
-			["school"] = 8,
+		[20537] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Pustulant Monstrosity",
+			["source"] = "Prince Tortheldrin",
 		},
-		[111216] = {
+		[21808] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Armsmaster Harlan",
+			["source"] = "Landslide",
 		},
 		[93629] = {
 			["school"] = 32,
@@ -1881,14 +1887,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Residual Monstrosity",
 		},
-		[152417] = {
+		[110762] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Deep Terror",
+			["source"] = "Landslide",
 		},
 		[151684] = {
 			["school"] = 8,
@@ -1898,14 +1903,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ghamoo-Ra",
 		},
-		[149913] = {
-			["school"] = 1,
+		[93697] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Thruk",
+			["source"] = "Lord Walden",
 		},
 		[1604] = {
 			["school"] = 1,
@@ -1915,12 +1921,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Starving Hound",
 		},
-		[22910] = {
-			["school"] = 4,
+		[18101] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Illyanna Ravenoak",
+			["source"] = "Eldreth Apparition",
 		},
 		[40504] = {
 			["school"] = 1,
@@ -1930,25 +1937,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Razorlash",
 		},
-		[86633] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[104993] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lord Overheat",
 		},
-		[114004] = {
+		[150634] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Houndmaster Braun",
+			["source"] = "Subjugator Kor'ul",
 		},
 		[114460] = {
 			["school"] = 4,
@@ -1957,15 +1962,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[113653] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[22688] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Flameweaver Koegler",
+			["source"] = "Alzzin the Wildshaper",
 		},
 		[150442] = {
 			["school"] = 1,
@@ -1974,37 +1978,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Razorshell Snapjaw",
 		},
-		[16247] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Lethtendris",
-		},
-		[86729] = {
+		[42292] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Randolph Moloch",
+			["source"] = "Tznopanda-Illidan",
 		},
-		[151303] = {
+		[115289] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Aku'mai the Devourer",
+			["source"] = "Thalnos the Soulrender",
 		},
-		[149943] = {
-			["school"] = 32,
+		[151813] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Executioner Gore",
+			["source"] = "Twilight Lord Bathiel",
+		},
+		[22995] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prince Tortheldrin",
 		},
 		[22651] = {
 			["school"] = 32,
@@ -2018,14 +2023,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zevrim Thornhoof",
 		},
-		[93423] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[149869] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Baron Ashbury",
+			["source"] = "Ghamoo-Ra",
 		},
 		[22914] = {
 			["school"] = 64,
@@ -2037,12 +2043,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illyanna Ravenoak",
 		},
-		[22950] = {
-			["school"] = 64,
+		[21062] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Immol'thar",
+			["source"] = "Putridus Shadowstalker",
 		},
 		[113616] = {
 			["school"] = 1,
@@ -2051,39 +2058,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Book Case",
 		},
-		[7964] = {
-			["school"] = 1,
+		[20787] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Lethtendris",
+		},
+		[22420] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Lord Vyletongue",
+			["source"] = "Hydrospawn",
 		},
-		[21655] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lord Vyletongue",
-		},
-		[22691] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Alzzin the Wildshaper",
-		},
-		[93535] = {
+		[151815] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Walden",
+			["source"] = "Twilight Lord Bathiel",
+		},
+		[22938] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mana Burst",
 		},
 		[58506] = {
 			["school"] = 1,
@@ -2094,25 +2103,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deathstalker Commander Belmont",
 		},
-		[124280] = {
+		[7948] = {
 			["school"] = 8,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Mooseknucklë-Thrall",
+			["source"] = "Alzzin the Wildshaper",
 		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Immol'thar",
-		}, -- [1]
-		{
-			["boss"] = "Prince Tortheldrin",
-		}, -- [2]
-		{
-			["boss"] = "Illyanna Ravenoak",
-		}, -- [3]
 	},
 }

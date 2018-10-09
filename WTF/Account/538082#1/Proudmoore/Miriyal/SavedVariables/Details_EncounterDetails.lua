@@ -4489,14 +4489,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ameythist",
 		},
-		[245631] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[69172] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Flame of Taeshalach",
+			["source"] = "Scourgelord Tyrannus",
 		},
 		[244736] = {
 			["school"] = 4,
@@ -4518,14 +4519,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hyrja",
 		},
-		[197550] = {
-			["school"] = 64,
+		[245631] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "King Deepbeard",
+			["source"] = "Flame of Taeshalach",
 		},
 		[238598] = {
 			["school"] = 8,
@@ -4577,15 +4578,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Keristrasza",
 		},
-		[69172] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[197550] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Scourgelord Tyrannus",
+			["source"] = "King Deepbeard",
 		},
 		[245632] = {
 			["school"] = 4,

@@ -347,8 +347,8 @@ WeakAurasSaved = {
 		["Shadow Dance"] = {
 			[185422] = 236279,
 		},
-		["Desolate Gaze"] = {
-			[244768] = 236301,
+		["Essence of Night"] = {
+			[206466] = 607513,
 		},
 		["Broadsides"] = {
 			[193356] = 1393014,
@@ -356,8 +356,8 @@ WeakAurasSaved = {
 		["Phantasmal Winds"] = {
 			[181957] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
 		},
-		["Essence of Night"] = {
-			[206466] = 607513,
+		["Marked Prey"] = {
+			[244042] = 458727,
 		},
 		["Lunar Beacon"] = {
 			[236712] = 429383,
@@ -375,8 +375,8 @@ WeakAurasSaved = {
 		["Creeping Nightmares"] = {
 			[210279] = "Interface\\Icons\\Ability_Warlock_Eradication",
 		},
-		["Marked Prey"] = {
-			[244042] = 458727,
+		["Desolate Gaze"] = {
+			[244768] = 236301,
 		},
 		["Speed of the Pious"] = {
 			[197767] = 571558,
@@ -1774,11 +1774,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -1786,7 +1783,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -1940,11 +1940,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -1954,7 +1951,10 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -1965,7 +1965,9 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["useTooltip"] = true,
+			["stickyDuration"] = false,
+			["xOffset"] = 0,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1981,15 +1983,13 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["stickyDuration"] = false,
+			["internalVersion"] = 9,
 			["cooldownTextEnabled"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -2050,7 +2050,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 0,
+			["useTooltip"] = true,
 		},
 		["Skull Bash"] = {
 			["sparkWidth"] = 10,
@@ -2380,22 +2380,22 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "OUTSIDE",
+			["text2Point"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text1Containment"] = "OUTSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["internalVersion"] = 9,
@@ -2444,7 +2444,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
 		},
 		["dispel"] = {
 			["sparkWidth"] = 10,
@@ -2761,16 +2761,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -2978,9 +2978,16 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
-			["glow"] = false,
+			["useTooltip"] = true,
+			["xOffset"] = 0,
 			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Color"] = {
+				0.980392156862745, -- [1]
+				0.980392156862745, -- [2]
+				0.980392156862745, -- [3]
+				1, -- [4]
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2996,13 +3003,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text1Color"] = {
-				0.980392156862745, -- [1]
-				0.980392156862745, -- [2]
-				0.980392156862745, -- [3]
-				1, -- [4]
-			},
-			["useTooltip"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -3063,7 +3063,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 0,
+			["internalVersion"] = 9,
 		},
 		["Shaman Flame Shock"] = {
 			["text2Point"] = "CENTER",
@@ -3185,15 +3185,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -3201,22 +3201,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text1Containment"] = "INSIDE",
 			["parent"] = "UseNows",
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["glow"] = true,
 			["conditions"] = {
 			},
 			["text2Color"] = {
@@ -3227,9 +3222,14 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "icon",
 			["text1Font"] = "Prototype",
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2FontSize"] = 24,
-			["glow"] = true,
+			["xOffset"] = 0,
 			["text1"] = "%p",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -3369,13 +3369,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["use_class"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -3511,7 +3511,21 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = -10,
 			},
 			["internalVersion"] = 9,
-			["borderOffset"] = 5,
+			["borderEdge"] = "None",
+			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "Priest Graphics Disc ",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["scale"] = 1,
+			["borderInset"] = 11,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3526,13 +3540,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Priest Graphics Disc ",
-			["scale"] = 1,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "BOTTOMLEFT",
-			["borderInset"] = 11,
-			["borderEdge"] = "None",
 			["anchorPoint"] = "CENTER",
 			["conditions"] = {
 			},
@@ -3552,14 +3559,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["borderOffset"] = 5,
 		},
 		["Druid Incapacitating Roar"] = {
 			["text2Point"] = "BOTTOM",
@@ -3644,7 +3644,10 @@ WeakAurasSaved = {
 						true, -- [3]
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -3653,19 +3656,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-						["DAMAGER"] = true,
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["DAMAGER"] = true,
+						["TANK"] = true,
 					},
 				},
 				["use_class"] = true,
@@ -3676,31 +3676,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["preset"] = "bounce",
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["parent"] = "Cooldowns - Utility",
+			["icon"] = true,
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["glow"] = false,
+			["parent"] = "Cooldowns - Utility",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["glow"] = false,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -3761,7 +3747,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["preset"] = "bounce",
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Priest - VE"] = {
 			["text2Point"] = "CENTER",
@@ -3868,15 +3868,17 @@ WeakAurasSaved = {
 			["text2Enabled"] = false,
 			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Font"] = "Prototype",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
-			["text1Enabled"] = true,
+			["text1Font"] = "Prototype",
+			["selfPoint"] = "CENTER",
+			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Color"] = {
@@ -3885,7 +3887,12 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2FontSize"] = 24,
 			["glow"] = false,
 			["text1"] = "%c",
@@ -3904,16 +3911,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["inverse"] = false,
 			["text1Containment"] = "OUTSIDE",
+			["inverse"] = false,
+			["xOffset"] = 0,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -3930,7 +3930,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["text1Enabled"] = true,
 		},
 		["Shaman Earth Shock"] = {
 			["text2Point"] = "CENTER",
@@ -4048,12 +4048,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -4067,22 +4067,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text1Containment"] = "OUTSIDE",
 			["xOffset"] = 0,
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "OUTSIDE",
+			["glow"] = true,
 			["conditions"] = {
 			},
 			["text2Color"] = {
@@ -4093,9 +4088,14 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "icon",
 			["text1Font"] = "Prototype",
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2FontSize"] = 24,
-			["glow"] = true,
+			["desaturate"] = false,
 			["text1"] = "%c",
 			["width"] = 45,
 			["text2Enabled"] = false,
@@ -4233,9 +4233,16 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["useTooltip"] = true,
-			["text1Enabled"] = true,
+			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Prototype",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -4248,8 +4255,6 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
-			["text1Font"] = "Prototype",
-			["desaturate"] = false,
 			["glow"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -4324,12 +4329,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["useTooltip"] = true,
 		},
 		["All - Body and Soul"] = {
 			["glow"] = false,
@@ -4446,12 +4446,12 @@ WeakAurasSaved = {
 				},
 			},
 			["text2Enabled"] = false,
-			["text2Point"] = "CENTER",
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
 			["xOffset"] = 0,
 			["text1Font"] = "Prototype",
 			["text2Font"] = "Friz Quadrata TT",
-			["stickyDuration"] = false,
+			["text1Containment"] = "OUTSIDE",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["internalVersion"] = 9,
@@ -4478,7 +4478,7 @@ WeakAurasSaved = {
 			["cooldownTextEnabled"] = true,
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["text1Containment"] = "OUTSIDE",
+			["text2Point"] = "CENTER",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4486,7 +4486,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["inverse"] = false,
-			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -4589,15 +4589,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -4608,7 +4608,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
+			["xOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4616,9 +4616,13 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "OUTSIDE",
+			["glow"] = false,
 			["text1Font"] = "Prototype",
 			["selfPoint"] = "CENTER",
+			["cooldownTextEnabled"] = true,
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["text1Containment"] = "OUTSIDE",
 			["actions"] = {
 				["start"] = {
 				},
@@ -4627,12 +4631,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["internalVersion"] = 9,
-			["xOffset"] = 0,
 			["text2FontSize"] = 24,
-			["glow"] = false,
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -4776,31 +4776,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Active Defensives",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text1Font"] = "Prototype",
-			["selfPoint"] = "CENTER",
-			["text1Containment"] = "INSIDE",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\shot.ogg",
@@ -4811,8 +4786,33 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text2FontSize"] = 24,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
 			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["selfPoint"] = "CENTER",
+			["parent"] = "Active Defensives",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["stickyDuration"] = false,
+			["text1Containment"] = "INSIDE",
+			["text2FontSize"] = 24,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -4940,11 +4940,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -4952,7 +4949,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -5322,12 +5322,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+						["SHAMAN"] = true,
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 						[3] = true,
 					},
 				},
-				["level_operator"] = ">=",
 				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
@@ -5352,43 +5357,24 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "48",
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-						["SHAMAN"] = true,
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 80,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["xOffset"] = 0,
+			["glow"] = false,
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["xOffset"] = 0,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
+			["icon"] = true,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -5449,7 +5435,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["HPriest Healthstone"] = {
 			["text2Point"] = "CENTER",
@@ -5532,19 +5532,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -5712,13 +5712,14 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["use_spellknown"] = true,
-				["use_spec"] = false,
-				["use_class"] = true,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
+				["use_spec"] = false,
+				["use_class"] = true,
+				["use_spellknown"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -5727,9 +5728,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
-						["TANK"] = true,
 					},
 				},
 				["difficulty"] = {
@@ -5920,13 +5920,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["level_operator"] = ">=",
-				["class"] = {
-					["single"] = "WARRIOR",
+				["spec"] = {
 					["multi"] = {
-						["SHAMAN"] = true,
+						[2] = true,
 					},
 				},
+				["level_operator"] = ">=",
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -5952,9 +5951,10 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "36",
-				["spec"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
-						[2] = true,
+						["SHAMAN"] = true,
 					},
 				},
 				["size"] = {
@@ -5963,23 +5963,12 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = false,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = true,
-				},
-			},
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Font"] = "Prototype",
 			["selfPoint"] = "CENTER",
+			["parent"] = "Cooldowns - Utility",
+			["text2Containment"] = "INSIDE",
+			["stickyDuration"] = false,
+			["text1Font"] = "Prototype",
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -6040,7 +6029,18 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Utility",
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = true,
+				},
+			},
 		},
 		["Priest PoM"] = {
 			["text2Point"] = "CENTER",
@@ -6066,12 +6066,13 @@ WeakAurasSaved = {
 					["trigger"] = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
-						["use_unit"] = true,
+						["names"] = {
+						},
 						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["use_genericShowOn"] = true,
 						["genericShowOn"] = "showOnReady",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["realSpellName"] = "Prayer of Mending",
 						["use_spellName"] = true,
 						["spellIds"] = {
@@ -6079,8 +6080,7 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Cooldown Progress (Spell)",
 						["subeventPrefix"] = "SPELL",
-						["names"] = {
-						},
+						["unit"] = "player",
 						["spellName"] = 33076,
 					},
 					["untrigger"] = {
@@ -6147,12 +6147,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -6163,15 +6163,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
+			["text1Containment"] = "INSIDE",
 			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 			["text1Font"] = "Friz Quadrata TT",
 			["glow"] = true,
 			["displayIcon"] = 135944,
@@ -6182,8 +6177,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text1Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["icon"] = true,
+			["xOffset"] = 0,
 			["text2FontSize"] = 24,
 			["text1Color"] = {
 				1, -- [1]
@@ -6207,7 +6202,12 @@ WeakAurasSaved = {
 			["internalVersion"] = 9,
 			["conditions"] = {
 			},
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Font"] = "Friz Quadrata TT",
 		},
 		["Priest Halo"] = {
@@ -6302,12 +6302,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -6319,25 +6319,11 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["preset"] = "pulse",
-					["type"] = "preset",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Font"] = "Friz Quadrata TT",
 			["desaturate"] = false,
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "INSIDE",
 			["displayIcon"] = 632352,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -6376,8 +6362,22 @@ WeakAurasSaved = {
 			["text2Point"] = "CENTER",
 			["conditions"] = {
 			},
-			["text1Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "preset",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Paladin Icons"] = {
 			["grow"] = "HORIZONTAL",
@@ -6519,18 +6519,18 @@ WeakAurasSaved = {
 						["buffShowOn"] = "showOnMissing",
 						["unevent"] = "auto",
 						["debuffType"] = "HELPFUL",
-						["use_behavior"] = true,
+						["use_specific_unit"] = false,
 						["event"] = "Conditions",
-						["names"] = {
-							"Greater Blessing of Kings", -- [1]
-						},
+						["use_behavior"] = true,
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
 						["subeventSuffix"] = "_CAST_START",
 						["use_unit"] = true,
-						["use_specific_unit"] = false,
+						["names"] = {
+							"Greater Blessing of Kings", -- [1]
+						},
 						["use_HasPet"] = false,
 						["custom_hide"] = "timed",
 					},
@@ -6584,12 +6584,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -6600,10 +6600,24 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["parent"] = "UseNows",
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["text1Font"] = "Prototype",
 			["animation"] = {
 				["start"] = {
@@ -6628,24 +6642,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["text2FontSize"] = 24,
 			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -6749,11 +6749,8 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -6761,7 +6758,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -6772,14 +6772,16 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+			["xOffset"] = 0,
+			["text1Enabled"] = true,
+			["text2Containment"] = "INSIDE",
+			["desaturate"] = false,
+			["text1Color"] = {
+				0.980392156862745, -- [1]
+				0.980392156862745, -- [2]
+				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["desaturate"] = false,
-			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -6792,13 +6794,6 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
-			["text1Color"] = {
-				0.980392156862745, -- [1]
-				0.980392156862745, -- [2]
-				0.980392156862745, -- [3]
-				1, -- [4]
-			},
-			["xOffset"] = 0,
 			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -6868,7 +6863,12 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["text1Enabled"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Priest Serenity"] = {
 			["text2Point"] = "CENTER",
@@ -6883,12 +6883,13 @@ WeakAurasSaved = {
 					["trigger"] = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
-						["use_unit"] = true,
+						["names"] = {
+						},
 						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["use_genericShowOn"] = true,
 						["genericShowOn"] = "showOnReady",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["realSpellName"] = "Holy Word: Serenity",
 						["use_spellName"] = true,
 						["spellIds"] = {
@@ -6896,8 +6897,7 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Cooldown Progress (Spell)",
 						["subeventPrefix"] = "SPELL",
-						["names"] = {
-						},
+						["unit"] = "player",
 						["spellName"] = 2050,
 					},
 					["untrigger"] = {
@@ -6961,15 +6961,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -6981,21 +6981,21 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["text2Font"] = "Friz Quadrata TT",
-			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text2Containment"] = "INSIDE",
+			["stickyDuration"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["internalVersion"] = 9,
 			["displayIcon"] = 135937,
 			["text2Color"] = {
 				1, -- [1]
@@ -7035,8 +7035,8 @@ WeakAurasSaved = {
 			["glow"] = true,
 			["conditions"] = {
 			},
-			["internalVersion"] = 9,
-			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
+			["text2Font"] = "Friz Quadrata TT",
 		},
 		["Priest - Twist of Fate"] = {
 			["text2Point"] = "CENTER",
@@ -7108,15 +7108,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -7135,14 +7135,19 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1Font"] = "Prototype",
 			["text2Font"] = "Friz Quadrata TT",
-			["parent"] = "Proc Buffs",
+			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["glow"] = false,
-			["desaturate"] = false,
+			["parent"] = "Proc Buffs",
 			["text2FontSize"] = 24,
 			["text2Color"] = {
 				1, -- [1]
@@ -7188,12 +7193,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 		},
 		["PriestDiscIcons"] = {
 			["grow"] = "HORIZONTAL",
@@ -7411,13 +7411,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["use_class"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -7605,15 +7605,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["glow"] = false,
+			["desaturate"] = false,
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -7621,13 +7616,18 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["icon"] = true,
-			["text1Containment"] = "OUTSIDE",
+			["glow"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Containment"] = "OUTSIDE",
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -7747,19 +7747,19 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["race"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -7770,17 +7770,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
-			["parent"] = "Cooldowns - Utility",
+			["xOffset"] = 0,
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["parent"] = "Cooldowns - Utility",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
+			["desaturate"] = false,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -7861,7 +7861,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["internalVersion"] = 9,
 		},
 		["Warrior - Bounding Stride"] = {
 			["text2Point"] = "CENTER",
@@ -7972,10 +7972,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "OUTSIDE",
+			["parent"] = "Active Utility",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -7983,13 +7983,13 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["internalVersion"] = 9,
-			["text1Enabled"] = true,
+			["desaturate"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["glow"] = false,
-			["selfPoint"] = "CENTER",
+			["text1Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
 			["text2FontSize"] = 24,
-			["parent"] = "Active Utility",
+			["glow"] = false,
 			["text1"] = "%c",
 			["width"] = 64,
 			["alpha"] = 1,
@@ -8127,16 +8127,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -8152,7 +8152,9 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "CENTER",
+			["parent"] = "Cooldowns - Utility",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -8165,10 +8167,8 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
 			["text1Font"] = "Prototype",
-			["parent"] = "Cooldowns - Utility",
+			["text1Containment"] = "INSIDE",
 			["stickyDuration"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -8229,7 +8229,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
 		},
 		["Shaman Astral Shift"] = {
 			["text2Point"] = "BOTTOM",
@@ -8319,15 +8319,20 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["DAMAGER"] = true,
+						["TANK"] = true,
 					},
 				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
@@ -8337,12 +8342,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-						["DAMAGER"] = true,
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["spellknown"] = 108271,
 				["size"] = {
 					["multi"] = {
@@ -8350,17 +8350,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["desaturate"] = false,
-			["glow"] = false,
+			["internalVersion"] = 9,
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
+			["text2Font"] = "Friz Quadrata TT",
 			["icon"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -8430,7 +8430,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["desaturate"] = false,
 		},
 		["Track FR 2"] = {
 			["textFlags"] = "None",
@@ -8501,16 +8501,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -8764,12 +8764,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -8783,20 +8783,15 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-				},
-				["init"] = {
-				},
-				["finish"] = {
-					["do_custom"] = false,
-				},
-			},
+			["parent"] = "UseNows",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -8813,15 +8808,20 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["parent"] = "UseNows",
-			["text2FontSize"] = 24,
 			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
+			["text2FontSize"] = 24,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+				},
+				["init"] = {
+				},
+				["finish"] = {
+					["do_custom"] = false,
+				},
+			},
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -8911,6 +8911,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+						["SHAMAN"] = true,
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 						true, -- [1]
@@ -8918,7 +8924,6 @@ WeakAurasSaved = {
 						true, -- [3]
 					},
 				},
-				["level_operator"] = ">=",
 				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
@@ -8944,29 +8949,24 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "26",
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-						["SHAMAN"] = true,
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
-			["glow"] = false,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
+			["text2Font"] = "Friz Quadrata TT",
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -9041,7 +9041,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["stickyDuration"] = false,
+			["internalVersion"] = 9,
 		},
 		["Death Knight Pillar of Frost"] = {
 			["text2Point"] = "BOTTOM",
@@ -9132,16 +9132,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -9161,9 +9161,9 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
-			["text1Font"] = "Prototype",
 			["text2Font"] = "Prototype",
+			["text1Font"] = "Prototype",
+			["icon"] = true,
 			["cooldownTextEnabled"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -9238,7 +9238,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["useTooltip"] = true,
 		},
 		["Serenity Text"] = {
 			["outline"] = "OUTLINE",
@@ -9491,10 +9491,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
+			["stickyDuration"] = false,
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Active Mitigation",
+			["text1Containment"] = "OUTSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -9502,7 +9502,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["selfPoint"] = "CENTER",
-			["text2Point"] = "CENTER",
+			["xOffset"] = 0,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -9510,10 +9510,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text2Font"] = "Friz Quadrata TT",
-			["stickyDuration"] = false,
+			["parent"] = "Active Mitigation",
+			["text2Point"] = "CENTER",
 			["text2FontSize"] = 24,
-			["text1Containment"] = "OUTSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1"] = "%c",
 			["width"] = 64,
 			["text2Enabled"] = false,
@@ -9689,13 +9689,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["use_class"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -10037,7 +10037,7 @@ WeakAurasSaved = {
 						["WARRIOR"] = true,
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -10046,7 +10046,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
@@ -10055,10 +10058,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["use_class"] = true,
 				["spellknown"] = 49998,
 				["size"] = {
@@ -10285,6 +10285,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -10293,7 +10294,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -10301,10 +10301,15 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
+			["parent"] = "UseNows",
 			["icon"] = true,
 			["text2Containment"] = "INSIDE",
-			["glow"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1Font"] = "Prototype",
 			["cooldownTextEnabled"] = true,
 			["displayIcon"] = 236216,
@@ -10315,15 +10320,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["parent"] = "UseNows",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2FontSize"] = 24,
 			["stickyDuration"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
+			["glow"] = true,
 			["text1"] = "%p",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -10470,16 +10470,16 @@ WeakAurasSaved = {
 				},
 			},
 			["frameStrata"] = 1,
-			["cooldownTextEnabled"] = true,
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["icon"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["stickyDuration"] = false,
+			["internalVersion"] = 9,
 			["displayIcon"] = 136000,
 			["text2Color"] = {
 				1, -- [1]
@@ -10508,8 +10508,8 @@ WeakAurasSaved = {
 			["parent"] = "Personal Consumables",
 			["conditions"] = {
 			},
-			["internalVersion"] = 9,
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
+			["cooldownTextEnabled"] = true,
 		},
 		["Missing Shadowform"] = {
 			["text2Point"] = "CENTER",
@@ -10598,17 +10598,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 3,
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -10654,7 +10654,7 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "icon",
 			["text1FontFlags"] = "OUTLINE",
-			["text1Containment"] = "INSIDE",
+			["parent"] = "Personal Consumables",
 			["text2FontSize"] = 24,
 			["animation"] = {
 				["start"] = {
@@ -10680,8 +10680,8 @@ WeakAurasSaved = {
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Enabled"] = false,
 			["width"] = 100,
-			["parent"] = "Personal Consumables",
-			["stickyDuration"] = false,
+			["glow"] = false,
+			["cooldownTextEnabled"] = true,
 			["inverse"] = false,
 			["text1Color"] = {
 				1, -- [1]
@@ -10691,8 +10691,8 @@ WeakAurasSaved = {
 			},
 			["conditions"] = {
 			},
-			["glow"] = false,
-			["cooldownTextEnabled"] = true,
+			["stickyDuration"] = false,
+			["text1Containment"] = "INSIDE",
 		},
 		["All - Concordance"] = {
 			["text2Point"] = "CENTER",
@@ -10811,7 +10811,7 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -10824,7 +10824,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "OUTSIDE",
+			["desaturate"] = false,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -10833,7 +10833,7 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "icon",
 			["parent"] = "Proc Buffs",
-			["glow"] = false,
+			["text1Containment"] = "OUTSIDE",
 			["text2FontSize"] = 24,
 			["text1FontFlags"] = "OUTLINE",
 			["text1"] = "%c",
@@ -10853,7 +10853,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["glow"] = false,
 		},
 		["Death Knight Gorefiends Grasp"] = {
 			["text2Point"] = "BOTTOM",
@@ -10933,13 +10933,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["use_class"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -10955,7 +10955,9 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["internalVersion"] = 9,
+			["glow"] = false,
+			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -10968,15 +10970,13 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -11051,7 +11051,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["internalVersion"] = 9,
 		},
 		["Penance"] = {
 			["text2Point"] = "CENTER",
@@ -11131,6 +11131,23 @@ WeakAurasSaved = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["text2Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["internalVersion"] = 9,
+			["glow"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["parent"] = "Priest Graphics Disc ",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\PUNCH.ogg",
@@ -11141,25 +11158,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["internalVersion"] = 9,
-			["text1Containment"] = "INSIDE",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["parent"] = "Priest Graphics Disc ",
-			["selfPoint"] = "CENTER",
 			["text2FontSize"] = 24,
-			["xOffset"] = 64.4697875976563,
+			["text1Containment"] = "INSIDE",
 			["text1"] = "%s",
 			["text2Font"] = "Friz Quadrata TT",
 			["anchorFrameType"] = "SCREEN",
@@ -11181,7 +11181,7 @@ WeakAurasSaved = {
 			},
 			["conditions"] = {
 			},
-			["glow"] = false,
+			["xOffset"] = 64.4697875976563,
 			["text1Font"] = "Friz Quadrata TT",
 		},
 		["Kick"] = {
@@ -11488,16 +11488,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -11511,17 +11511,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["useTooltip"] = true,
-			["xOffset"] = 0,
+			["text1Containment"] = "INSIDE",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["xOffset"] = 0,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["parent"] = "Cooldowns - Throughput",
 			["text2Color"] = {
 				1, -- [1]
@@ -11602,7 +11602,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 		},
 		["Track FR 3"] = {
 			["textFlags"] = "None",
@@ -11673,16 +11673,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -11916,15 +11916,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -11932,9 +11932,23 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
+			["cooldownTextEnabled"] = true,
 			["xOffset"] = 0,
 			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["stickyDuration"] = false,
+			["displayIcon"] = 132314,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["glow"] = true,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -11947,20 +11961,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["text1Font"] = "Prototype",
-			["stickyDuration"] = false,
-			["displayIcon"] = 132314,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["cooldownTextEnabled"] = true,
-			["internalVersion"] = 9,
-			["text2FontSize"] = 24,
-			["glow"] = true,
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -12097,9 +12097,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
-						["TANK"] = true,
 					},
 				},
 				["pvptalent"] = {
@@ -12107,11 +12106,12 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spec"] = false,
-				["race"] = {
+				["use_spellknown"] = true,
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
-				["use_spellknown"] = true,
 				["spellknown"] = 193530,
 				["size"] = {
 					["multi"] = {
@@ -12119,17 +12119,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
+			["text1Containment"] = "INSIDE",
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
+			["text1Font"] = "Prototype",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Font"] = "Prototype",
-			["text1Containment"] = "INSIDE",
 			["internalVersion"] = 9,
 			["text2Color"] = {
 				1, -- [1]
@@ -12201,7 +12201,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["stickyDuration"] = false,
 		},
 		["Death Knight Dancing Rune Weapon"] = {
 			["text2Point"] = "BOTTOM",
@@ -12281,16 +12281,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -12302,7 +12302,9 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["internalVersion"] = 9,
+			["glow"] = false,
+			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -12315,15 +12317,13 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Prototype",
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
+			["text2Font"] = "Prototype",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -12398,7 +12398,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["internalVersion"] = 9,
 		},
 		["Priest Solace"] = {
 			["text2Point"] = "CENTER",
@@ -12481,15 +12481,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -12524,7 +12524,7 @@ WeakAurasSaved = {
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text2Font"] = "Friz Quadrata TT",
-			["glow"] = true,
+			["desaturate"] = false,
 			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
@@ -12551,8 +12551,8 @@ WeakAurasSaved = {
 			["text2"] = "%p",
 			["alpha"] = 1,
 			["width"] = 45,
-			["desaturate"] = false,
-			["internalVersion"] = 9,
+			["cooldownTextEnabled"] = true,
+			["parent"] = "UseNows",
 			["inverse"] = false,
 			["text1Color"] = {
 				1, -- [1]
@@ -12562,8 +12562,8 @@ WeakAurasSaved = {
 			},
 			["conditions"] = {
 			},
-			["cooldownTextEnabled"] = true,
-			["parent"] = "UseNows",
+			["internalVersion"] = 9,
+			["glow"] = true,
 		},
 		["Druid - Frenzied Regen Buff"] = {
 			["text2Point"] = "CENTER",
@@ -12678,7 +12678,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -12686,7 +12686,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -12696,17 +12699,32 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["spellknown"] = 22842,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["icon"] = true,
+			["parent"] = "Active Mitigation",
+			["text1Containment"] = "OUTSIDE",
+			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stickyDuration"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -12722,27 +12740,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["parent"] = "Active Mitigation",
-			["text1Containment"] = "OUTSIDE",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["glow"] = false,
+			["icon"] = true,
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -12906,11 +12906,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -12918,7 +12915,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -12926,10 +12926,37 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 64,
-			["stickyDuration"] = false,
-			["text2Font"] = "Prototype",
-			["text2Containment"] = "OUTSIDE",
 			["desaturate"] = false,
+			["icon"] = true,
+			["text2Containment"] = "OUTSIDE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "preset",
+					["colorR"] = 1,
+					["use_color"] = false,
+					["duration_type"] = "seconds",
+					["colorType"] = "straightColor",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["x"] = 0,
+					["y"] = 0,
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["colorB"] = 1,
+					["colorFunc"] = "    function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
+					["rotate"] = 0,
+					["scalex"] = 1,
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["text1Font"] = "Prototype",
 			["displayIcon"] = 236415,
 			["glow"] = false,
@@ -12970,35 +12997,8 @@ WeakAurasSaved = {
 			},
 			["conditions"] = {
 			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "preset",
-					["colorR"] = 1,
-					["use_color"] = false,
-					["duration_type"] = "seconds",
-					["colorType"] = "straightColor",
-					["preset"] = "pulse",
-					["alpha"] = 0,
-					["x"] = 0,
-					["y"] = 0,
-					["colorA"] = 1,
-					["colorG"] = 1,
-					["colorB"] = 1,
-					["colorFunc"] = "    function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
-					["rotate"] = 0,
-					["scaley"] = 1,
-					["scalex"] = 1,
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["icon"] = true,
+			["text2Font"] = "Prototype",
+			["stickyDuration"] = false,
 		},
 		["Rogue - SoD"] = {
 			["text2Point"] = "CENTER",
@@ -13085,15 +13085,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -13105,11 +13105,6 @@ WeakAurasSaved = {
 				},
 			},
 			["frameStrata"] = 1,
-			["internalVersion"] = 9,
-			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text1Font"] = "Prototype",
-			["cooldownTextEnabled"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -13118,6 +13113,11 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Font"] = "Prototype",
+			["stickyDuration"] = false,
+			["cooldownTextEnabled"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Color"] = {
@@ -13156,7 +13156,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["text2Font"] = "Friz Quadrata TT",
+			["internalVersion"] = 9,
 		},
 		["Quaking"] = {
 			["text2Point"] = "BOTTOM",
@@ -13224,12 +13224,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_zoneId"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["use_zone"] = false,
+				["use_zoneId"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -13242,10 +13245,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_zone"] = false,
 				["ingroup"] = {
 					["multi"] = {
 					},
@@ -13255,7 +13255,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Prototype",
+			["icon"] = true,
 			["text2Containment"] = "OUTSIDE",
 			["text2Color"] = {
 				1, -- [1]
@@ -13263,33 +13263,12 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Font"] = "Prototype",
-			["desaturate"] = false,
-			["icon"] = true,
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["text1Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
-			["text2FontSize"] = 24,
-			["color"] = {
+			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1"] = "%p",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
-			["auto"] = true,
-			["text2Enabled"] = false,
-			["id"] = "Quaking",
-			["text2"] = "%p",
-			["alpha"] = 1,
-			["width"] = 100,
-			["glow"] = false,
-			["parent"] = "Important Debuffs",
-			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -13304,15 +13283,36 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["conditions"] = {
-			},
-			["text1Color"] = {
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["parent"] = "Important Debuffs",
 			["internalVersion"] = 9,
+			["text2FontSize"] = 24,
+			["desaturate"] = false,
+			["text1"] = "%p",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["auto"] = true,
+			["text2Enabled"] = false,
+			["id"] = "Quaking",
+			["text2"] = "%p",
+			["alpha"] = 1,
+			["width"] = 100,
+			["glow"] = false,
+			["text1Font"] = "Prototype",
+			["inverse"] = false,
+			["text2Font"] = "Prototype",
+			["conditions"] = {
+			},
+			["cooldownTextEnabled"] = true,
+			["text1Containment"] = "INSIDE",
 		},
 		["Mage Mirror Image"] = {
 			["text2Point"] = "BOTTOM",
@@ -13428,16 +13428,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -13612,25 +13612,6 @@ WeakAurasSaved = {
 			["text2Point"] = "CENTER",
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
-			["text1Font"] = "Prototype",
-			["internalVersion"] = 9,
-			["parent"] = "Active Defensives",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1FontFlags"] = "OUTLINE",
-			["text2FontSize"] = 24,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -13646,6 +13627,25 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["text1Font"] = "Prototype",
+			["parent"] = "Active Defensives",
+			["desaturate"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["text2FontSize"] = 24,
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -13769,17 +13769,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -13969,19 +13969,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -13992,17 +13992,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["desaturate"] = false,
+			["text2Point"] = "BOTTOM",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
 			["text1Font"] = "Prototype",
-			["text2Point"] = "BOTTOM",
+			["text1Enabled"] = true,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -14088,7 +14088,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["desaturate"] = false,
 		},
 		["Druid Incarnation Track"] = {
 			["text2Point"] = "CENTER",
@@ -14199,6 +14199,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -14207,7 +14208,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -14215,7 +14215,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -14223,10 +14223,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
 			["text1Font"] = "Prototype",
 			["text1Containment"] = "INSIDE",
-			["icon"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -14234,10 +14234,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["glow"] = false,
-			["internalVersion"] = 9,
+			["desaturate"] = false,
+			["icon"] = true,
 			["text2FontSize"] = 24,
-			["selfPoint"] = "CENTER",
+			["glow"] = false,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -14351,12 +14351,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -14372,12 +14372,12 @@ WeakAurasSaved = {
 			["text2Containment"] = "INSIDE",
 			["internalVersion"] = 9,
 			["text1Font"] = "Prototype",
-			["text2Font"] = "Friz Quadrata TT",
+			["desaturate"] = false,
 			["displayIcon"] = 135861,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["parent"] = "UseNows",
-			["glow"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 			["text2FontSize"] = 24,
 			["cooldownTextEnabled"] = true,
 			["text1"] = "%c",
@@ -14401,27 +14401,6 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-				},
-				["finish"] = {
-					["do_custom"] = false,
-				},
-				["init"] = {
-				},
-			},
-			["inverse"] = false,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["conditions"] = {
-			},
-			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
 					["preset"] = "fade",
@@ -14439,6 +14418,27 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["inverse"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+				},
+				["finish"] = {
+					["do_custom"] = false,
+				},
+				["init"] = {
+				},
+			},
+			["glow"] = true,
 		},
 		["Demon Hunter - Demon Spike"] = {
 			["glow"] = false,
@@ -14566,10 +14566,7 @@ WeakAurasSaved = {
 						["WARRIOR"] = true,
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -14578,7 +14575,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -14587,7 +14584,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["spellknown"] = 203720,
 				["size"] = {
@@ -14595,15 +14595,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -14611,7 +14606,12 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["selfPoint"] = "CENTER",
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -14619,10 +14619,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["text2Point"] = "CENTER",
 			["text1"] = "%s",
 			["width"] = 64,
 			["text2Enabled"] = false,
@@ -14792,12 +14792,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -14811,12 +14811,12 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["icon"] = true,
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
-			["text1Font"] = "Prototype",
 			["text2Point"] = "BOTTOM",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["stickyDuration"] = false,
+			["text1Font"] = "Prototype",
+			["text1Enabled"] = true,
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -14882,7 +14882,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["icon"] = true,
 		},
 		["Mage Icy Veins"] = {
 			["text2Point"] = "BOTTOM",
@@ -14986,19 +14986,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = false,
-				["use_spellknown"] = true,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
+					},
+				},
+				["race"] = {
+					["multi"] = {
 					},
 				},
 				["spellknown"] = 12472,
@@ -15208,23 +15208,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["internalVersion"] = 9,
-			["xOffset"] = 0,
-			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
-			["text1Font"] = "Prototype",
 			["text2Font"] = "Friz Quadrata TT",
 			["text1Containment"] = "INSIDE",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["glow"] = false,
-			["text1FontFlags"] = "OUTLINE",
-			["text2FontSize"] = 24,
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\shot.ogg",
@@ -15235,6 +15221,20 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["text1Font"] = "Prototype",
+			["glow"] = false,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["xOffset"] = 0,
+			["text1FontFlags"] = "OUTLINE",
+			["text2FontSize"] = 24,
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -15289,7 +15289,7 @@ WeakAurasSaved = {
 						["use_showOn"] = true,
 						["custom_hide"] = "timed",
 						["event"] = "Cooldown Progress (Spell)",
-						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
 						["realSpellName"] = "Feral Spirit",
 						["use_spellName"] = true,
 						["spellIds"] = {
@@ -15298,8 +15298,8 @@ WeakAurasSaved = {
 							"Exhaustion", -- [1]
 						},
 						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
 						["unit"] = "player",
+						["use_unit"] = true,
 						["debuffType"] = "HARMFUL",
 					},
 					["untrigger"] = {
@@ -15371,18 +15371,14 @@ WeakAurasSaved = {
 						true, -- [2]
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_class"] = true,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
-						["TANK"] = true,
 					},
 				},
 				["use_spec"] = false,
@@ -15390,7 +15386,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+						["TANK"] = true,
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -15590,19 +15590,19 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["race"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -15902,16 +15902,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -15925,22 +15925,22 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["icon"] = true,
+			["text1Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -16010,7 +16010,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["icon"] = true,
 		},
 		["Track FR 1"] = {
 			["textFlags"] = "None",
@@ -16081,16 +16081,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -16324,16 +16324,16 @@ WeakAurasSaved = {
 						[4] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -16342,7 +16342,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -16530,16 +16530,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -16558,18 +16558,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
-			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
-			["text1Font"] = "Prototype",
 			["text2Point"] = "CENTER",
-			["desaturate"] = false,
+			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["text2Font"] = "Friz Quadrata TT",
+			["cooldownTextEnabled"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["icon"] = true,
 			["xOffset"] = 0,
+			["desaturate"] = false,
 			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 			["text1"] = "%s",
 			["width"] = 40,
 			["frameStrata"] = 1,
@@ -16704,16 +16704,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -16929,13 +16929,13 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["use_genericShowOn"] = true,
+						["debuffType"] = "HELPFUL",
 						["spellName"] = 152108,
 						["custom_hide"] = "custom",
-						["debuffType"] = "HELPFUL",
 						["use_unit"] = true,
 						["type"] = "event",
+						["subeventSuffix"] = "_CAST_START",
 						["custom_type"] = "status",
-						["unevent"] = "timed",
 						["use_showOn"] = true,
 						["events"] = "SPELL_UPDATE_USABLE",
 						["event"] = "Cooldown Ready (Spell)",
@@ -16944,7 +16944,7 @@ WeakAurasSaved = {
 						["realSpellName"] = "Cataclysm",
 						["use_spellName"] = true,
 						["custom"] = "function(event, arg1, arg2, ...)\n    \n    local start, duration, enable = GetSpellCooldown(207778)\n    \n    if start and duration then -- the spell is on cooldown\n        local getTime = GetTime()\n        \n        -- start + duration gives us the value of GetTime() at the point when the cd will end\n        -- the time when the cd ends (a time in the future) minus the current time gives us the remaining duration on the cooldown\n        local remainingCD = start + duration - getTime\n        \n        -- if we're on cooldown and the total cooldown is greater than 2 seconds\n        -- this filters out global cooldown spells or spells whose cds are otherwise irrelevant\n        if remainingCD > 0  and duration > 2 then\n            return false\n        end\n    end\n    return true\nend\n\n\n\n",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "timed",
 						["check"] = "update",
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
@@ -17018,15 +17018,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = false,
 				["size"] = {
@@ -17040,25 +17040,16 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["parent"] = "UseNows",
 			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
+			["internalVersion"] = 9,
 			["text1Font"] = "Friz Quadrata TT",
 			["stickyDuration"] = false,
 			["conditions"] = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["parent"] = "UseNows",
+			["desaturate"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -17066,7 +17057,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["desaturate"] = false,
+			["text2Point"] = "CENTER",
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -17088,7 +17079,16 @@ WeakAurasSaved = {
 			["cooldownTextEnabled"] = true,
 			["displayIcon"] = 1267638,
 			["selfPoint"] = "CENTER",
-			["internalVersion"] = 9,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["Rogue Sprint"] = {
 			["text2Point"] = "BOTTOM",
@@ -17202,7 +17202,9 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["useTooltip"] = true,
+			["internalVersion"] = 9,
+			["xOffset"] = 0,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -17218,15 +17220,13 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["icon"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
+			["icon"] = true,
 			["glow"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -17287,7 +17287,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 0,
+			["useTooltip"] = true,
 		},
 		["Death Knight Vampiric Blood"] = {
 			["text2Point"] = "BOTTOM",
@@ -17381,13 +17381,12 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = false,
-				["use_spec"] = true,
-				["faction"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -17396,6 +17395,7 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spellknown"] = false,
 				["spellknown"] = 55233,
 				["size"] = {
 					["multi"] = {
@@ -17403,17 +17403,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["glow"] = false,
-			["icon"] = true,
+			["text2Font"] = "Prototype",
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Cooldowns - Throughput",
+			["icon"] = true,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Prototype",
+			["parent"] = "Cooldowns - Throughput",
 			["internalVersion"] = 9,
 			["text2Color"] = {
 				1, -- [1]
@@ -17488,7 +17488,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["glow"] = false,
 		},
 		["Priest Penance"] = {
 			["text2Point"] = "CENTER",
@@ -17503,13 +17503,13 @@ WeakAurasSaved = {
 					["trigger"] = {
 						["spellName"] = 47540,
 						["type"] = "status",
-						["names"] = {
-						},
+						["unit"] = "player",
 						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["use_genericShowOn"] = true,
 						["genericShowOn"] = "showOnReady",
-						["use_unit"] = true,
+						["names"] = {
+						},
 						["realSpellName"] = "Penance",
 						["use_spellName"] = true,
 						["spellIds"] = {
@@ -17517,7 +17517,7 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Cooldown Progress (Spell)",
 						["subeventSuffix"] = "_CAST_START",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -17584,6 +17584,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -17592,7 +17593,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -17600,6 +17600,29 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
+			["text2Containment"] = "INSIDE",
+			["parent"] = "UseNows",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldownTextEnabled"] = true,
+			["conditions"] = {
+			},
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["glow"] = true,
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -17612,29 +17635,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["glow"] = true,
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["conditions"] = {
-			},
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["text1Font"] = "Friz Quadrata TT",
-			["text1Containment"] = "INSIDE",
-			["text2FontSize"] = 24,
-			["stickyDuration"] = false,
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -17645,18 +17645,18 @@ WeakAurasSaved = {
 			["text2"] = "%p",
 			["frameStrata"] = 1,
 			["width"] = 45,
-			["text2Color"] = {
+			["text1Enabled"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["inverse"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["displayIcon"] = 135937,
+			["text1Containment"] = "INSIDE",
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Enabled"] = true,
-			["inverse"] = false,
-			["cooldownTextEnabled"] = true,
-			["displayIcon"] = 135937,
-			["parent"] = "UseNows",
-			["selfPoint"] = "CENTER",
 		},
 		["Death Knight Army of the Dead"] = {
 			["glow"] = false,
@@ -17742,11 +17742,8 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -17754,7 +17751,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -17762,28 +17762,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = false,
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
-				},
-			},
-			["xOffset"] = 0,
+			["text2Point"] = "BOTTOM",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
+			["xOffset"] = 0,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text2Point"] = "BOTTOM",
+			["stickyDuration"] = false,
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -17853,7 +17842,18 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = false,
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+			},
 		},
 		["HPriest Trinket 2"] = {
 			["glow"] = false,
@@ -17938,11 +17938,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -17950,7 +17947,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -18147,10 +18147,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -18159,11 +18156,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
 						["TANK"] = true,
+					},
+				},
+				["race"] = {
+					["multi"] = {
 					},
 				},
 				["spellknown"] = 20484,
@@ -18173,17 +18173,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextEnabled"] = false,
-			["icon"] = true,
+			["internalVersion"] = 9,
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
+			["text2Font"] = "Friz Quadrata TT",
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -18258,7 +18258,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["desaturate"] = false,
+			["cooldownTextEnabled"] = false,
 		},
 		["Paladin Hand of Hinderance"] = {
 			["text2Point"] = "BOTTOM",
@@ -18355,38 +18355,38 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
 						["TANK"] = true,
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 60,
-			["internalVersion"] = 9,
-			["cooldownTextEnabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Cooldowns - Utility",
+			["cooldownTextEnabled"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Friz Quadrata TT",
+			["parent"] = "Cooldowns - Utility",
 			["glow"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -18456,7 +18456,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["internalVersion"] = 9,
 		},
 		["Warrior Die by the sword"] = {
 			["glow"] = false,
@@ -18543,12 +18543,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+						["SHAMAN"] = true,
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 						true, -- [1]
 					},
 				},
-				["level_operator"] = ">=",
 				["use_class"] = true,
 				["use_spec"] = false,
 				["difficulty"] = {
@@ -18574,29 +18579,24 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "36",
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-						["SHAMAN"] = true,
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["icon"] = true,
+			["text2Point"] = "BOTTOM",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
 			["text1Font"] = "Prototype",
-			["text2Point"] = "BOTTOM",
+			["useTooltip"] = true,
 			["selfPoint"] = "CENTER",
 			["text2Color"] = {
 				1, -- [1]
@@ -18657,7 +18657,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["icon"] = true,
 		},
 		["All - Feather"] = {
 			["text2Point"] = "CENTER",
@@ -18772,13 +18772,13 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "OUTSIDE",
-			["selfPoint"] = "CENTER",
-			["text2Containment"] = "INSIDE",
 			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "OUTSIDE",
+			["text2Containment"] = "INSIDE",
+			["icon"] = true,
 			["text1Font"] = "Prototype",
 			["parent"] = "Active Utility",
-			["glow"] = false,
+			["stickyDuration"] = false,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -18786,8 +18786,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
+			["glow"] = false,
 			["text2FontSize"] = 24,
 			["text1FontFlags"] = "OUTLINE",
 			["text1"] = "%c",
@@ -18830,7 +18830,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["internalVersion"] = 9,
 		},
 		["Smite and Atonement Count Helper"] = {
 			["outline"] = "OUTLINE",
@@ -18941,10 +18941,7 @@ WeakAurasSaved = {
 						true, -- [1]
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_ingroup"] = false,
 				["difficulty"] = {
 					["multi"] = {
 						["normal"] = true,
@@ -18954,10 +18951,11 @@ WeakAurasSaved = {
 						["mythic"] = true,
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -18966,8 +18964,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_ingroup"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -19054,11 +19054,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -19066,7 +19063,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -19077,22 +19077,22 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["xOffset"] = 0,
+			["text2Point"] = "BOTTOM",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Point"] = "BOTTOM",
+			["useTooltip"] = true,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -19173,7 +19173,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["xOffset"] = 0,
 		},
 		["Warrior - Shield Block"] = {
 			["text2Point"] = "CENTER",
@@ -19292,16 +19292,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -19317,18 +19317,18 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "OUTSIDE",
-			["parent"] = "Active Mitigation",
+			["stickyDuration"] = false,
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["stickyDuration"] = false,
-			["internalVersion"] = 9,
+			["icon"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -19336,10 +19336,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["icon"] = true,
+			["parent"] = "Active Mitigation",
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["glow"] = false,
+			["text1Containment"] = "OUTSIDE",
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -19486,13 +19486,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+						["SHAMAN"] = true,
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 						true, -- [1]
 						true, -- [2]
 					},
 				},
-				["level_operator"] = ">=",
 				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
@@ -19517,29 +19522,24 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "50",
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-						["SHAMAN"] = true,
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["stickyDuration"] = false,
-			["xOffset"] = 0,
+			["text2Point"] = "BOTTOM",
+			["parent"] = "Cooldowns - Throughput",
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["xOffset"] = 0,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text2Point"] = "BOTTOM",
+			["icon"] = true,
 			["internalVersion"] = 9,
 			["text2Color"] = {
 				1, -- [1]
@@ -19614,7 +19614,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Throughput",
+			["stickyDuration"] = false,
 		},
 		["Missing Lightning Shield"] = {
 			["text2Point"] = "CENTER",
@@ -19686,12 +19686,15 @@ WeakAurasSaved = {
 						["mythic"] = true,
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["ingroup"] = {
 					["multi"] = {
 					},
@@ -19704,10 +19707,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["spellknown"] = 192106,
 				["size"] = {
 					["multi"] = {
@@ -19723,7 +19723,7 @@ WeakAurasSaved = {
 			["text2Containment"] = "INSIDE",
 			["desaturate"] = false,
 			["text1Font"] = "Friz Quadrata TT",
-			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 			["conditions"] = {
 			},
 			["text2Color"] = {
@@ -19734,7 +19734,7 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "icon",
 			["xOffset"] = 0,
-			["text1Enabled"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 			["text2FontSize"] = 24,
 			["glow"] = false,
 			["text1"] = "%s",
@@ -19761,12 +19761,7 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["text1FontFlags"] = "OUTLINE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["cooldownTextEnabled"] = true,
 			["inverse"] = false,
 			["text1Color"] = {
 				1, -- [1]
@@ -19775,8 +19770,13 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["displayIcon"] = 135932,
-			["icon"] = true,
-			["cooldownTextEnabled"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Enabled"] = true,
 		},
 		["Demon Hunter - Empower Wards"] = {
 			["text2Point"] = "CENTER",
@@ -19898,12 +19898,12 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["desaturate"] = false,
-			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
-			["text1Font"] = "Prototype",
-			["text2Font"] = "Friz Quadrata TT",
 			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
+			["text1Font"] = "Prototype",
+			["cooldownTextEnabled"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -19946,7 +19946,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 		},
 		["Mage Arcane Power CD"] = {
 			["glow"] = false,
@@ -20042,11 +20042,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -20054,7 +20051,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -20493,15 +20493,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -20512,10 +20512,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["internalVersion"] = 9,
+			["parent"] = "UseNows",
 			["text2Point"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["desaturate"] = false,
 			["text1Font"] = "Prototype",
 			["animation"] = {
 				["start"] = {
@@ -20535,7 +20535,7 @@ WeakAurasSaved = {
 			["displayIcon"] = 252272,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["parent"] = "UseNows",
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -20543,7 +20543,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 			["text1"] = "%p",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -20566,7 +20566,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["text1Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["internalVersion"] = 9,
 		},
 		["Active Utility"] = {
 			["grow"] = "DOWN",
@@ -20806,15 +20806,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -20826,9 +20826,14 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Prototype",
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["cooldownTextEnabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -20854,15 +20859,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextEnabled"] = true,
-			["text2FontSize"] = 24,
 			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
+			["text2FontSize"] = 24,
+			["xOffset"] = 0,
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -20981,19 +20981,19 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -21435,10 +21435,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Prototype",
-			["text1Containment"] = "OUTSIDE",
 			["internalVersion"] = 9,
+			["desaturate"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Color"] = {
@@ -21454,7 +21454,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "OUTSIDE",
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -21573,17 +21573,14 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
 				["use_spec"] = false,
@@ -21595,7 +21592,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["spellknown"] = 86659,
 				["size"] = {
 					["multi"] = {
@@ -21767,11 +21767,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -21779,7 +21776,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -21790,22 +21790,22 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["internalVersion"] = 9,
+			["stickyDuration"] = false,
+			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Point"] = "BOTTOM",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["stickyDuration"] = false,
+			["text2Point"] = "BOTTOM",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -21886,7 +21886,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["internalVersion"] = 9,
 		},
 		["Shaman Lava Burst"] = {
 			["text2Point"] = "CENTER",
@@ -21918,22 +21918,22 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["unit"] = "player",
-						["events"] = "SPELL_UPDATE_USABLE",
-						["unevent"] = "auto",
+						["custom"] = "function(event, arg1, arg2, ...)\n    \n    local start, duration, enable = GetSpellCooldown(51505)\n    \n    if start and duration then -- the spell is on cooldown\n        local getTime = GetTime()\n        \n        -- start + duration gives us the value of GetTime() at the point when the cd will end\n        -- the time when the cd ends (a time in the future) minus the current time gives us the remaining duration on the cooldown\n        local remainingCD = start + duration - getTime\n        \n        -- if we're on cooldown and the total cooldown is greater than 2 seconds\n        -- this filters out global cooldown spells or spells whose cds are otherwise irrelevant\n        if remainingCD > 0  and duration > 2 then\n            return false\n        end\n    end\n    return true\nend\n\n\n\n",
+						["subeventSuffix"] = "_CAST_START",
 						["custom_hide"] = "custom",
 						["charges_operator"] = ">=",
 						["type"] = "status",
-						["custom"] = "function(event, arg1, arg2, ...)\n    \n    local start, duration, enable = GetSpellCooldown(51505)\n    \n    if start and duration then -- the spell is on cooldown\n        local getTime = GetTime()\n        \n        -- start + duration gives us the value of GetTime() at the point when the cd will end\n        -- the time when the cd ends (a time in the future) minus the current time gives us the remaining duration on the cooldown\n        local remainingCD = start + duration - getTime\n        \n        -- if we're on cooldown and the total cooldown is greater than 2 seconds\n        -- this filters out global cooldown spells or spells whose cds are otherwise irrelevant\n        if remainingCD > 0  and duration > 2 then\n            return false\n        end\n    end\n    return true\nend\n\n\n\n",
-						["custom_type"] = "status",
+						["spellIds"] = {
+						},
+						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["debuffType"] = "HELPFUL",
 						["event"] = "Cooldown Progress (Spell)",
 						["use_unit"] = true,
 						["realSpellName"] = "Lava Burst",
 						["use_spellName"] = true,
-						["spellIds"] = {
-						},
-						["subeventSuffix"] = "_CAST_START",
+						["events"] = "SPELL_UPDATE_USABLE",
+						["custom_type"] = "status",
 						["check"] = "update",
 						["charges"] = "1",
 						["spellName"] = 51505,
@@ -22001,6 +22001,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -22009,7 +22010,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -22026,21 +22026,16 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["internalVersion"] = 9,
 			["text1Font"] = "Friz Quadrata TT",
 			["icon"] = true,
 			["conditions"] = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["desaturate"] = false,
+			["glow"] = true,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -22048,7 +22043,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 36,
-			["glow"] = true,
+			["selfPoint"] = "CENTER",
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = true,
@@ -22065,7 +22060,12 @@ WeakAurasSaved = {
 			["parent"] = "UseNows",
 			["displayIcon"] = 237582,
 			["text1Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Warlock Command Demon"] = {
 			["glow"] = false,
@@ -22180,7 +22180,9 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextEnabled"] = false,
+			["useTooltip"] = true,
+			["text1Enabled"] = true,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -22196,20 +22198,18 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["useTooltip"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["icon"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -22265,7 +22265,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["text1Enabled"] = true,
+			["cooldownTextEnabled"] = false,
 		},
 		["Paladin Blessing of Protection"] = {
 			["text2Point"] = "BOTTOM",
@@ -22338,8 +22338,10 @@ WeakAurasSaved = {
 						[2] = true,
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["DAMAGER"] = true,
+						["TANK"] = true,
 					},
 				},
 				["pvptalent"] = {
@@ -22347,18 +22349,16 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-						["DAMAGER"] = true,
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -22370,36 +22370,33 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["animation"] = {
+			["internalVersion"] = 9,
+			["actions"] = {
 				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "bounce",
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = false,
 				},
 				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
 				},
 			},
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 			["parent"] = "Cooldowns - Utility",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -22455,16 +22452,19 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["actions"] = {
+			["animation"] = {
 				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = false,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "bounce",
 				},
 				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 			},
 		},
@@ -22543,12 +22543,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -22563,26 +22563,12 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["type"] = "preset",
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Font"] = "Prototype",
-			["parent"] = "Proc Buffs",
 			["glow"] = false,
+			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["text2Font"] = "Friz Quadrata TT",
+			["parent"] = "Proc Buffs",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -22623,7 +22609,21 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "preset",
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 		},
 		["Background"] = {
 			["text2Point"] = "CENTER",
@@ -22711,18 +22711,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_ingroup"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -22731,8 +22729,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_ingroup"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -22749,7 +22749,7 @@ WeakAurasSaved = {
 				},
 			},
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Smite helper with Atonement tracker",
+			["xOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -22766,7 +22766,7 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["stickyDuration"] = false,
+			["text1Containment"] = "INSIDE",
 			["text2FontSize"] = 24,
 			["frameStrata"] = 2,
 			["text1"] = "%s",
@@ -22779,14 +22779,14 @@ WeakAurasSaved = {
 			["glow"] = false,
 			["text2Enabled"] = false,
 			["anchorFrameType"] = "SCREEN",
-			["text1Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1FontFlags"] = "OUTLINE",
 			["inverse"] = false,
 			["text1Font"] = "Friz Quadrata TT",
 			["conditions"] = {
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
+			["parent"] = "Smite helper with Atonement tracker",
+			["stickyDuration"] = false,
 		},
 		["Warrior - Shield Wall"] = {
 			["glow"] = false,
@@ -22893,19 +22893,12 @@ WeakAurasSaved = {
 				},
 			},
 			["frameStrata"] = 1,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
-			["text1Font"] = "Prototype",
-			["text2Font"] = "Friz Quadrata TT",
 			["xOffset"] = 0,
+			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["text2Point"] = "CENTER",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Containment"] = "OUTSIDE",
@@ -22957,7 +22950,14 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 		},
 		["All - Externals - Pain Sup"] = {
 			["glow"] = false,
@@ -23075,10 +23075,10 @@ WeakAurasSaved = {
 				},
 			},
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "OUTSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Prototype",
-			["selfPoint"] = "CENTER",
 			["text2Point"] = "CENTER",
+			["text1Containment"] = "OUTSIDE",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Color"] = {
@@ -23094,7 +23094,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -23193,12 +23193,16 @@ WeakAurasSaved = {
 						[10] = true,
 					},
 				},
+				["spec"] = {
+					["multi"] = {
+						true, -- [1]
+					},
+				},
 				["class"] = {
 					["single"] = "PRIEST",
 					["multi"] = {
 					},
 				},
-				["level_operator"] = ">=",
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -23222,20 +23226,16 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "40",
-				["spec"] = {
-					["multi"] = {
-						true, -- [1]
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["xOffset"] = 0,
+			["glow"] = false,
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
+			["desaturate"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -23252,13 +23252,13 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["text1Containment"] = "INSIDE",
+			["xOffset"] = 0,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["text2Font"] = "Friz Quadrata TT",
-			["glow"] = false,
+			["cooldownTextEnabled"] = true,
+			["text1Containment"] = "INSIDE",
 			["text2FontSize"] = 24,
-			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1"] = "%s",
 			["width"] = 40,
 			["frameStrata"] = 1,
@@ -23385,12 +23385,16 @@ WeakAurasSaved = {
 						[10] = true,
 					},
 				},
+				["spec"] = {
+					["multi"] = {
+						true, -- [1]
+					},
+				},
 				["class"] = {
 					["single"] = "PRIEST",
 					["multi"] = {
 					},
 				},
-				["level_operator"] = ">=",
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
@@ -23414,25 +23418,16 @@ WeakAurasSaved = {
 				},
 				["use_spec"] = false,
 				["level"] = "70",
-				["spec"] = {
-					["multi"] = {
-						true, -- [1]
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["internalVersion"] = 9,
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -23440,13 +23435,18 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["glow"] = false,
-			["cooldownTextEnabled"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["icon"] = true,
-			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
 			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 			["text1"] = "%s",
 			["width"] = 40,
 			["frameStrata"] = 1,
@@ -23592,19 +23592,19 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -23794,16 +23794,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
@@ -23816,17 +23816,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["useTooltip"] = true,
-			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
+			["icon"] = true,
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["cooldownTextEnabled"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -23896,7 +23896,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["useTooltip"] = true,
 		},
 		["Death Knight - Bone Shield"] = {
 			["text2Point"] = "CENTER",
@@ -24012,12 +24012,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
+				["use_spellknown"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -24027,7 +24027,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spec"] = true,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -24237,10 +24237,7 @@ WeakAurasSaved = {
 						true, -- [1]
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -24251,11 +24248,14 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -24273,12 +24273,12 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["useTooltip"] = true,
-			["text2Font"] = "Prototype",
-			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
-			["text1Font"] = "Prototype",
 			["xOffset"] = 0,
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Prototype",
+			["text1Font"] = "Prototype",
+			["selfPoint"] = "CENTER",
 			["icon"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -24339,7 +24339,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 		},
 		["Shaman Flametongue"] = {
 			["text2Point"] = "CENTER",
@@ -24451,15 +24451,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -24467,20 +24467,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
-			["text2Containment"] = "INSIDE",
-			["parent"] = "UseNows",
-			["text1Font"] = "Prototype",
-			["stickyDuration"] = false,
-			["displayIcon"] = 135814,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -24496,8 +24482,19 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["xOffset"] = 0,
+			["text2Containment"] = "INSIDE",
 			["internalVersion"] = 9,
-			["text2FontSize"] = 24,
+			["text1Font"] = "Prototype",
+			["stickyDuration"] = false,
+			["displayIcon"] = 135814,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -24510,6 +24507,9 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
+			["parent"] = "UseNows",
 			["text1"] = "%p",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -24610,12 +24610,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+						["SHAMAN"] = true,
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 						[3] = true,
 					},
 				},
-				["level_operator"] = ">=",
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -24640,34 +24645,24 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "55",
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-						["SHAMAN"] = true,
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 80,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["glow"] = false,
+			["text2Font"] = "Prototype",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["glow"] = false,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Prototype",
+			["desaturate"] = false,
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -24737,7 +24732,12 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Shaman - CotTM"] = {
 			["glow"] = false,
@@ -24812,6 +24812,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -24820,7 +24821,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -24831,30 +24831,6 @@ WeakAurasSaved = {
 			["internalVersion"] = 9,
 			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "OUTSIDE",
-			["text1Font"] = "Prototype",
-			["text1Enabled"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1FontFlags"] = "OUTLINE",
-			["text2FontSize"] = 24,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -24870,6 +24846,30 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["text1Font"] = "Prototype",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Containment"] = "OUTSIDE",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["text2FontSize"] = 24,
+			["text1Enabled"] = true,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -24936,10 +24936,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["unit"] = "player",
 						["subeventSuffix"] = "_CAST_START",
-						["health"] = "1",
-						["custom"] = "function()\n    local buffId = 21562\n    local name = GetSpellInfo(buffId)\n    \n    for unit in aura_env.GroupMembers() do\n        if (not WA_GetUnitBuff(unit, name)) and WeakAuras.CheckRange(unit, 100, \"<=\") then\n            return true\n        end    \n    end \n    \n    return false\nend",
 						["spellIds"] = {
 						},
+						["health"] = "1",
+						["custom"] = "function()\n    local buffId = 21562\n    local name = GetSpellInfo(buffId)\n    \n    for unit in aura_env.GroupMembers() do\n        if (not WA_GetUnitBuff(unit, name)) and WeakAuras.CheckRange(unit, 100, \"<=\") then\n            return true\n        end    \n    end \n    \n    return false\nend",
 						["check"] = "update",
 						["health_operator"] = ">",
 						["unevent"] = "auto",
@@ -25050,7 +25050,7 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["parent"] = "Personal Consumables",
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["text1Enabled"] = false,
 			["text1Font"] = "Friz Quadrata TT",
 			["text2Font"] = "Friz Quadrata TT",
 			["conditions"] = {
@@ -25063,7 +25063,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
+			["icon"] = true,
 			["text2FontSize"] = 30,
 			["stickyDuration"] = false,
 			["text1"] = "Use Raid Buff",
@@ -25076,7 +25076,7 @@ WeakAurasSaved = {
 			["text2"] = "Buff",
 			["alpha"] = 1,
 			["width"] = 100,
-			["icon"] = true,
+			["desaturate"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -25084,10 +25084,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["inverse"] = false,
-			["desaturate"] = false,
+			["xOffset"] = 0,
 			["displayIcon"] = 135987,
 			["cooldownTextEnabled"] = true,
-			["text1Enabled"] = false,
+			["selfPoint"] = "CENTER",
 		},
 		["Shammy EarthQuak"] = {
 			["text2Point"] = "CENTER",
@@ -25120,8 +25120,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["custom_hide"] = "timed",
 						["type"] = "status",
+						["power"] = "50",
 						["subeventSuffix"] = "_CAST_START",
-						["unevent"] = "auto",
 						["power_operator"] = ">=",
 						["percenthealth"] = "0",
 						["event"] = "Power",
@@ -25131,7 +25131,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["use_showOn"] = true,
-						["power"] = "50",
+						["unevent"] = "auto",
 						["use_percenthealth"] = true,
 						["percenthealth_operator"] = "~=",
 						["names"] = {
@@ -25202,15 +25202,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -25219,10 +25219,15 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 64,
-			["icon"] = true,
-			["parent"] = "Stack Tracker",
-			["text2Containment"] = "INSIDE",
 			["text1Enabled"] = true,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -25258,13 +25263,8 @@ WeakAurasSaved = {
 			["text1Font"] = "Prototype",
 			["conditions"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2Font"] = "Friz Quadrata TT",
+			["parent"] = "Stack Tracker",
+			["icon"] = true,
 		},
 		["Warlock UR"] = {
 			["text2Point"] = "BOTTOM",
@@ -25356,19 +25356,19 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -25379,17 +25379,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
-			["useTooltip"] = true,
+			["parent"] = "Cooldowns - Utility",
+			["xOffset"] = 0,
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "Cooldowns - Utility",
+			["internalVersion"] = 9,
 			["icon"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -25464,7 +25464,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 0,
+			["desaturate"] = false,
 		},
 		["Healer -Innervate"] = {
 			["text2Point"] = "CENTER",
@@ -25595,11 +25595,11 @@ WeakAurasSaved = {
 			["text2Containment"] = "INSIDE",
 			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Prototype",
+			["xOffset"] = 0,
 			["icon"] = true,
-			["desaturate"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["internalVersion"] = 9,
+			["desaturate"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -25607,7 +25607,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["xOffset"] = 0,
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -25975,7 +25975,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Point"] = "CENTER",
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -25983,21 +25983,21 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Proc Buffs",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Prototype",
 			["text1Containment"] = "OUTSIDE",
-			["internalVersion"] = 9,
+			["text2Point"] = "CENTER",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
+			["parent"] = "Proc Buffs",
+			["internalVersion"] = 9,
+			["text2FontSize"] = 24,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
-			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -26144,9 +26144,9 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
-			["text1Font"] = "Prototype",
 			["text2Font"] = "Friz Quadrata TT",
+			["text1Font"] = "Prototype",
+			["icon"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -26221,7 +26221,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["useTooltip"] = true,
 		},
 		["Track FR 5"] = {
 			["textFlags"] = "None",
@@ -26292,16 +26292,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -26517,16 +26517,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -26769,22 +26769,22 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = true,
-				["use_spec"] = false,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
 						["TANK"] = true,
 					},
 				},
+				["use_spec"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_spellknown"] = true,
 				["spellknown"] = 1044,
 				["size"] = {
 					["multi"] = {
@@ -26792,17 +26792,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextEnabled"] = false,
-			["icon"] = true,
+			["useTooltip"] = true,
+			["parent"] = "Cooldowns - Utility",
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["useTooltip"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 			["internalVersion"] = 9,
 			["text2Color"] = {
 				1, -- [1]
@@ -26872,7 +26872,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Utility",
+			["cooldownTextEnabled"] = false,
 		},
 		["MonkTouch of Death"] = {
 			["glow"] = false,
@@ -26967,11 +26967,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -26979,7 +26976,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -27158,16 +27158,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -27181,17 +27181,28 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["useTooltip"] = true,
-			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = true,
+				},
+			},
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["cooldownTextEnabled"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -27261,18 +27272,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = false,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = true,
-				},
-			},
+			["useTooltip"] = true,
 		},
 		["Race - Bull Rush"] = {
 			["glow"] = false,
@@ -27375,12 +27375,9 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "Cooldowns - Utility",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -27393,15 +27390,13 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "Cooldowns - Utility",
+			["cooldownTextEnabled"] = false,
 			["stickyDuration"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -27471,7 +27466,12 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Warlock SF"] = {
 			["text2Point"] = "BOTTOM",
@@ -27591,16 +27591,6 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["glow"] = false,
-			["icon"] = true,
-			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -27616,6 +27606,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["icon"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["xOffset"] = 0,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -27671,7 +27671,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["glow"] = false,
 		},
 		["Shaman Healing Rain"] = {
 			["text2Point"] = "CENTER",
@@ -27761,6 +27761,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -27769,7 +27770,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -27786,9 +27786,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["glow"] = true,
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
 			["text1Font"] = "Friz Quadrata TT",
 			["selfPoint"] = "CENTER",
 			["conditions"] = {
@@ -27800,10 +27800,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["desaturate"] = false,
+			["xOffset"] = 0,
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["xOffset"] = 0,
+			["internalVersion"] = 9,
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -27836,7 +27836,7 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text1Containment"] = "INSIDE",
+			["glow"] = true,
 		},
 		["Stack Tracker"] = {
 			["grow"] = "DOWN",
@@ -28266,7 +28266,7 @@ WeakAurasSaved = {
 						["DRUID"] = true,
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -28278,16 +28278,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["use_class"] = true,
 				["spellknown"] = 208253,
 				["size"] = {
@@ -28466,12 +28466,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -28482,10 +28482,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
 			["text1Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
+			["cooldownTextEnabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -28502,10 +28502,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["cooldownTextEnabled"] = true,
-			["text2FontSize"] = 24,
 			["internalVersion"] = 9,
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["text2Point"] = "CENTER",
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
@@ -28610,25 +28610,25 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+						["DAMAGER"] = true,
+						["TANK"] = true,
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
-						["DAMAGER"] = true,
-						["TANK"] = true,
 					},
 				},
 				["difficulty"] = {
@@ -28642,31 +28642,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "bounce",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["cooldownTextEnabled"] = false,
+			["text1Containment"] = "INSIDE",
+			["parent"] = "Cooldowns - Utility",
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["cooldownTextEnabled"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["useTooltip"] = true,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -28738,7 +28724,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Utility",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "bounce",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Radiance Text"] = {
 			["outline"] = "OUTLINE",
@@ -29118,8 +29118,17 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["internalVersion"] = 9,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Font"] = "Prototype",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -29135,16 +29144,7 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text1Font"] = "Prototype",
 			["desaturate"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["xOffset"] = 0,
@@ -29196,7 +29196,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["text2Font"] = "Friz Quadrata TT",
+			["internalVersion"] = 9,
 		},
 		["SWD Circle"] = {
 			["user_y"] = 0,
@@ -29473,36 +29473,22 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "bounce",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["glow"] = false,
+			["internalVersion"] = 9,
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["icon"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -29558,7 +29544,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "bounce",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Priest Scism"] = {
 			["glow"] = true,
@@ -29665,15 +29665,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = false,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["spec"] = {
 					["single"] = 2,
@@ -29687,9 +29687,9 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Friz Quadrata TT",
-			["desaturate"] = false,
+			["xOffset"] = 0,
 			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
+			["cooldownTextEnabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -29701,10 +29701,10 @@ WeakAurasSaved = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["xOffset"] = 0,
-			["cooldownTextEnabled"] = true,
-			["text2FontSize"] = 24,
 			["internalVersion"] = 9,
+			["desaturate"] = false,
+			["text2FontSize"] = 24,
+			["text2Point"] = "CENTER",
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
@@ -29798,24 +29798,24 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+						["TANK"] = true,
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
-						["TANK"] = true,
 					},
 				},
 				["difficulty"] = {
@@ -29829,23 +29829,16 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "pulse",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["glow"] = false,
+			["cooldownTextEnabled"] = false,
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Color"] = {
+				0.980392156862745, -- [1]
+				0.980392156862745, -- [2]
+				0.980392156862745, -- [3]
+				1, -- [4]
+			},
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -29858,13 +29851,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text1Color"] = {
-				0.980392156862745, -- [1]
-				0.980392156862745, -- [2]
-				0.980392156862745, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextEnabled"] = false,
 			["parent"] = "Cooldowns - Throughput",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -29925,7 +29911,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["FISHING POLE"] = {
 			["text2Point"] = "CENTER",
@@ -30028,12 +30028,7 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["stickyDuration"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -30057,7 +30052,7 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "icon",
 			["parent"] = "Personal Consumables",
-			["glow"] = false,
+			["text1Containment"] = "OUTSIDE",
 			["text2FontSize"] = 24,
 			["animation"] = {
 				["start"] = {
@@ -30083,14 +30078,19 @@ WeakAurasSaved = {
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Enabled"] = false,
 			["width"] = 100,
-			["text1Containment"] = "OUTSIDE",
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "Friz Quadrata TT",
 			["inverse"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["conditions"] = {
 			},
-			["cooldownTextEnabled"] = true,
-			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["glow"] = false,
 		},
 		["Death Knight - DRW"] = {
 			["glow"] = false,
@@ -30212,10 +30212,11 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["parent"] = "Active Defensives",
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
 			["text1Font"] = "Prototype",
+			["text1Enabled"] = true,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\shot.ogg",
@@ -30226,7 +30227,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["text1Containment"] = "INSIDE",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -30273,7 +30273,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["parent"] = "Active Defensives",
 		},
 		["Smite helper with Atonement tracker"] = {
 			["backdropColor"] = {
@@ -30323,7 +30323,9 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = -10,
 			},
 			["borderOffset"] = 5,
-			["anchorPoint"] = "CENTER",
+			["borderEdge"] = "None",
+			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "Smite helper with Atonement tracker",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -30338,13 +30340,11 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["id"] = "Smite helper with Atonement tracker",
-			["xOffset"] = -343.126647949219,
 			["frameStrata"] = 4,
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
+			["xOffset"] = -343.126647949219,
 			["borderInset"] = 11,
-			["borderEdge"] = "None",
+			["internalVersion"] = 9,
 			["actions"] = {
 				["start"] = {
 				},
@@ -30403,7 +30403,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "BOTTOMLEFT",
+			["anchorPoint"] = "CENTER",
 		},
 		["Insanity Text"] = {
 			["outline"] = "OUTLINE",
@@ -30589,20 +30589,20 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-						["DAMAGER"] = true,
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
 				["race"] = {
 					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+						["DAMAGER"] = true,
+						["TANK"] = true,
 					},
 				},
 				["spellknown"] = 11426,
@@ -30612,12 +30612,12 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["cooldownTextEnabled"] = false,
-			["text2Font"] = "Friz Quadrata TT",
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
-			["text1Font"] = "Prototype",
 			["desaturate"] = false,
+			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Font"] = "Prototype",
+			["text1Containment"] = "INSIDE",
 			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -30697,7 +30697,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["cooldownTextEnabled"] = false,
 		},
 		["Spear Hand Strike"] = {
 			["sparkWidth"] = 10,
@@ -31123,11 +31123,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -31135,7 +31132,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -31146,33 +31146,22 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = false,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = true,
-				},
-			},
+			["text2Point"] = "BOTTOM",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text2Point"] = "BOTTOM",
+			["useTooltip"] = true,
 			["stickyDuration"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -31242,7 +31231,18 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = true,
+				},
+			},
 		},
 		["Mage Missing Pet"] = {
 			["text2Point"] = "CENTER",
@@ -31338,12 +31338,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -31355,24 +31355,6 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Prototype",
-			["xOffset"] = 0,
-			["text2Containment"] = "INSIDE",
-			["glow"] = true,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["icon"] = true,
-			["displayIcon"] = 135861,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -31388,9 +31370,27 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["text2Containment"] = "INSIDE",
 			["internalVersion"] = 9,
-			["text2FontSize"] = 24,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
+			["displayIcon"] = 135861,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
 			["stickyDuration"] = false,
+			["xOffset"] = 0,
+			["text2FontSize"] = 24,
+			["glow"] = true,
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -31531,10 +31531,10 @@ WeakAurasSaved = {
 				},
 			},
 			["text2Containment"] = "INSIDE",
-			["glow"] = false,
+			["internalVersion"] = 9,
 			["text1Font"] = "Prototype",
-			["text1Enabled"] = true,
 			["stickyDuration"] = false,
+			["glow"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Color"] = {
@@ -31550,7 +31550,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["text1Enabled"] = true,
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -31679,11 +31679,8 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -31691,7 +31688,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -31699,16 +31699,6 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["useTooltip"] = true,
-			["glow"] = false,
-			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -31724,6 +31714,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["icon"] = true,
+			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["internalVersion"] = 9,
 			["parent"] = "Cooldowns - Utility",
 			["text2Color"] = {
 				1, -- [1]
@@ -31784,7 +31784,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["useTooltip"] = true,
 		},
 		["Rogue - Slice and Dice"] = {
 			["glow"] = false,
@@ -31882,12 +31882,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -31898,10 +31898,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = false,
-			["internalVersion"] = 9,
-			["text2Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
 			["parent"] = "Proc Buffs",
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -31909,13 +31909,13 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Point"] = "CENTER",
-			["text1Containment"] = "OUTSIDE",
+			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
+			["text1Containment"] = "OUTSIDE",
 			["icon"] = true,
-			["stickyDuration"] = false,
 			["text2FontSize"] = 24,
-			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 			["text1"] = "%s",
 			["width"] = 64,
 			["text2Enabled"] = true,
@@ -32060,14 +32060,14 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Prototype",
+			["xOffset"] = 0,
 			["text2Font"] = "Friz Quadrata TT",
-			["glow"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["desaturate"] = false,
+			["glow"] = false,
 			["internalVersion"] = 9,
 			["text2FontSize"] = 24,
-			["xOffset"] = 0,
+			["desaturate"] = false,
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -32553,16 +32553,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -32752,9 +32752,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
-						["TANK"] = true,
 					},
 				},
 				["pvptalent"] = {
@@ -32765,11 +32764,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["use_spellknown"] = true,
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
-				["use_spellknown"] = true,
 				["spellknown"] = 51533,
 				["size"] = {
 					["multi"] = {
@@ -32777,17 +32777,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["internalVersion"] = 9,
-			["desaturate"] = false,
+			["text2Font"] = "Prototype",
+			["glow"] = false,
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["desaturate"] = false,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Prototype",
+			["icon"] = true,
 			["cooldownTextEnabled"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -32857,7 +32857,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["glow"] = false,
+			["internalVersion"] = 9,
 		},
 		["Shaman - AG buff"] = {
 			["text2Point"] = "CENTER",
@@ -32969,10 +32969,10 @@ WeakAurasSaved = {
 			},
 			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["internalVersion"] = 9,
 			["text1Font"] = "Prototype",
-			["selfPoint"] = "CENTER",
 			["glow"] = false,
+			["text1Enabled"] = true,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -32988,7 +32988,7 @@ WeakAurasSaved = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -33106,20 +33106,20 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = false,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -33127,7 +33127,9 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["text1Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -33140,10 +33142,8 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Point"] = "BOTTOM",
 			["text1Font"] = "Prototype",
-			["xOffset"] = 0,
+			["text2Point"] = "BOTTOM",
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -33223,7 +33223,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
 		},
 		["HPriest DH"] = {
 			["text2Point"] = "CENTER",
@@ -33311,16 +33311,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -33494,15 +33494,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -33514,23 +33514,9 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Prototype",
-			["cooldownTextEnabled"] = true,
+			["parent"] = "UseNows",
 			["text2Containment"] = "INSIDE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-					["type"] = "preset",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -33546,9 +33532,6 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["parent"] = "UseNows",
-			["internalVersion"] = 9,
-			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -33557,6 +33540,23 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 				["init"] = {
+				},
+			},
+			["cooldownTextEnabled"] = true,
+			["text2FontSize"] = 24,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 			},
 			["text1"] = "+3 targets",
@@ -33667,6 +33667,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -33675,7 +33676,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["class"] = {
 					["single"] = "MAGE",
@@ -33687,17 +33687,22 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
+			["cooldownTextEnabled"] = true,
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["actions"] = {
+			["animation"] = {
 				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
-				["init"] = {
+				["main"] = {
+					["preset"] = "pulse",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
 				},
 				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 			},
 			["text1Color"] = {
@@ -33706,7 +33711,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownTextEnabled"] = true,
+			["xOffset"] = 0,
 			["conditions"] = {
 			},
 			["text1FontFlags"] = "OUTLINE",
@@ -33719,7 +33724,16 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["text1"] = "Scorch Now!",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -33736,21 +33750,7 @@ WeakAurasSaved = {
 			["text1Containment"] = "OUTSIDE",
 			["displayIcon"] = 135827,
 			["internalVersion"] = 9,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["stickyDuration"] = false,
 		},
 		["Mage Shimmer"] = {
 			["text2Point"] = "BOTTOM",
@@ -33865,12 +33865,12 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["useTooltip"] = true,
-			["text2Font"] = "Friz Quadrata TT",
-			["text2Containment"] = "INSIDE",
-			["glow"] = false,
-			["text1Font"] = "Prototype",
 			["text1Containment"] = "INSIDE",
+			["stickyDuration"] = false,
+			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Font"] = "Prototype",
+			["glow"] = false,
 			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -33950,7 +33950,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["stickyDuration"] = false,
+			["useTooltip"] = true,
 		},
 		["Sanc Text"] = {
 			["outline"] = "OUTLINE",
@@ -34151,15 +34151,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -34173,14 +34173,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["glow"] = true,
+			["selfPoint"] = "CENTER",
 			["text1Font"] = "Friz Quadrata TT",
 			["stickyDuration"] = false,
 			["conditions"] = {
@@ -34192,10 +34187,15 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text2Font"] = "Friz Quadrata TT",
-			["selfPoint"] = "CENTER",
-			["text2FontSize"] = 24,
 			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2FontSize"] = 24,
+			["glow"] = true,
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
@@ -34485,15 +34485,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -34507,9 +34507,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownTextEnabled"] = true,
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["parent"] = "UseNows",
+			["stickyDuration"] = false,
 			["text1Font"] = "Prototype",
 			["actions"] = {
 				["start"] = {
@@ -34531,10 +34531,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text1Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
 			["xOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["text2FontSize"] = 24,
+			["parent"] = "UseNows",
 			["text1"] = "%p",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -34678,12 +34678,12 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "Active Utility",
 			["text1Containment"] = "OUTSIDE",
+			["icon"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Font"] = "Prototype",
-			["xOffset"] = 0,
+			["internalVersion"] = 9,
 			["text2FontSize"] = 24,
 			["text1Enabled"] = true,
 			["text1"] = "%c",
@@ -34701,15 +34701,15 @@ WeakAurasSaved = {
 			["text2"] = "%p",
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["glow"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["xOffset"] = 0,
 			["inverse"] = false,
-			["internalVersion"] = 9,
+			["parent"] = "Active Utility",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -34726,7 +34726,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["glow"] = false,
 		},
 		["Priest Sanctify"] = {
 			["text2Point"] = "CENTER",
@@ -34746,12 +34746,13 @@ WeakAurasSaved = {
 					["trigger"] = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
-						["use_unit"] = true,
+						["names"] = {
+						},
 						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["use_genericShowOn"] = true,
 						["genericShowOn"] = "showOnReady",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["realSpellName"] = "Holy Word: Sanctify",
 						["use_spellName"] = true,
 						["spellIds"] = {
@@ -34759,8 +34760,7 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Cooldown Progress (Spell)",
 						["subeventPrefix"] = "SPELL",
-						["names"] = {
-						},
+						["unit"] = "player",
 						["spellName"] = 34861,
 					},
 					["untrigger"] = {
@@ -34813,6 +34813,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -34821,7 +34822,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -34829,24 +34829,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
+			["text1Containment"] = "INSIDE",
 			["parent"] = "UseNows",
 			["text2Containment"] = "INSIDE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-					["type"] = "preset",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["desaturate"] = false,
 			["text1Font"] = "Friz Quadrata TT",
 			["actions"] = {
 				["start"] = {
@@ -34868,8 +34854,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text1Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["internalVersion"] = 9,
+			["xOffset"] = 0,
 			["text2FontSize"] = 24,
 			["text1Color"] = {
 				1, -- [1]
@@ -34893,7 +34879,21 @@ WeakAurasSaved = {
 			["glow"] = true,
 			["conditions"] = {
 			},
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 			["text2Font"] = "Friz Quadrata TT",
 		},
 		["Monk Touch of Karma Def"] = {
@@ -34982,19 +34982,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
@@ -35007,7 +35007,9 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["icon"] = true,
+			["text1Containment"] = "INSIDE",
+			["parent"] = "Cooldowns - Utility",
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -35023,15 +35025,13 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["useTooltip"] = true,
 			["cooldownTextEnabled"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -35092,7 +35092,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Utility",
+			["icon"] = true,
 		},
 		["Chi-Ji"] = {
 			["text2Point"] = "CENTER",
@@ -35181,16 +35181,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -35337,11 +35337,11 @@ WeakAurasSaved = {
 			["id"] = "Background HPriest",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["desaturate"] = true,
 			["discrete_rotation"] = 0,
 			["rotation"] = 0,
-			["desaturate"] = true,
 			["width"] = 150,
+			["anchorFrameType"] = "SCREEN",
 			["height"] = 150,
 			["conditions"] = {
 			},
@@ -35459,12 +35459,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -35475,16 +35475,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Proc Buffs",
-			["text1Containment"] = "OUTSIDE",
-			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Font"] = "Prototype",
 			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
+			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Font"] = "Prototype",
+			["xOffset"] = 0,
+			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["xOffset"] = 0,
+			["text1Containment"] = "OUTSIDE",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -35492,7 +35492,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["glow"] = false,
+			["parent"] = "Proc Buffs",
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -35564,10 +35564,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["unit"] = "player",
 						["subeventSuffix"] = "_CAST_START",
-						["health"] = "1",
-						["custom"] = "function()\n    local buffId = 1459\n    local name = GetSpellInfo(buffId)\n    \n    for unit in aura_env.GroupMembers() do\n        if (not WA_GetUnitBuff(unit, name)) and WeakAuras.CheckRange(unit, 100, \"<=\") then\n            return true\n        end  \n    end \n    \n    return false\nend",
 						["spellIds"] = {
 						},
+						["health"] = "1",
+						["custom"] = "function()\n    local buffId = 1459\n    local name = GetSpellInfo(buffId)\n    \n    for unit in aura_env.GroupMembers() do\n        if (not WA_GetUnitBuff(unit, name)) and WeakAuras.CheckRange(unit, 100, \"<=\") then\n            return true\n        end  \n    end \n    \n    return false\nend",
 						["check"] = "update",
 						["unevent"] = "auto",
 						["health_operator"] = ">",
@@ -35679,7 +35679,7 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["parent"] = "Personal Consumables",
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["text1Enabled"] = false,
 			["text1Font"] = "Friz Quadrata TT",
 			["text2Font"] = "Friz Quadrata TT",
 			["conditions"] = {
@@ -35692,7 +35692,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
+			["icon"] = true,
 			["text2FontSize"] = 30,
 			["stickyDuration"] = false,
 			["text1"] = "Use Raid Buff",
@@ -35705,7 +35705,7 @@ WeakAurasSaved = {
 			["text2"] = "Buff",
 			["alpha"] = 1,
 			["width"] = 100,
-			["icon"] = true,
+			["desaturate"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -35713,10 +35713,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["inverse"] = false,
-			["desaturate"] = false,
+			["xOffset"] = 0,
 			["displayIcon"] = 135932,
 			["cooldownTextEnabled"] = true,
-			["text1Enabled"] = false,
+			["selfPoint"] = "CENTER",
 		},
 		["Serenity Circle"] = {
 			["user_y"] = 0,
@@ -35959,16 +35959,6 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
-			["text1Enabled"] = true,
-			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Color"] = {
-				0.980392156862745, -- [1]
-				0.980392156862745, -- [2]
-				0.980392156862745, -- [3]
-				1, -- [4]
-			},
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -35981,6 +35971,16 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["xOffset"] = 0,
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
+			["text1Color"] = {
+				0.980392156862745, -- [1]
+				0.980392156862745, -- [2]
+				0.980392156862745, -- [3]
+				1, -- [4]
+			},
+			["internalVersion"] = 9,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -36050,7 +36050,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 0,
+			["desaturate"] = false,
 		},
 		["RDruid Innervate"] = {
 			["text2Point"] = "CENTER",
@@ -36136,22 +36136,22 @@ WeakAurasSaved = {
 						["DRUID"] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -36341,15 +36341,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -36360,7 +36360,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -36368,7 +36368,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["xOffset"] = 0,
 			["text1Font"] = "Prototype",
 			["actions"] = {
 				["start"] = {
@@ -36380,7 +36380,7 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["stickyDuration"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -36388,10 +36388,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["internalVersion"] = 9,
-			["selfPoint"] = "CENTER",
+			["text1Containment"] = "INSIDE",
+			["stickyDuration"] = false,
 			["text2FontSize"] = 24,
-			["xOffset"] = 0,
+			["internalVersion"] = 9,
 			["text1"] = "%s",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -36653,15 +36653,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -36673,30 +36673,16 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-					["type"] = "preset",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["text1Font"] = "Prototype",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["glow"] = true,
 			["displayIcon"] = 1016351,
 			["text2Color"] = {
 				1, -- [1]
@@ -36730,8 +36716,22 @@ WeakAurasSaved = {
 			["text1Containment"] = "OUTSIDE",
 			["conditions"] = {
 			},
-			["glow"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["stickyDuration"] = false,
 		},
 		["Radiance Full"] = {
 			["xOffset"] = 0,
@@ -36799,12 +36799,12 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "Radiance Full",
-			["desaturate"] = false,
+			["width"] = 118,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["desaturate"] = false,
 			["discrete_rotation"] = 0,
 			["rotation"] = 0,
-			["width"] = 118,
+			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
 			["height"] = 118,
 			["conditions"] = {
@@ -36866,8 +36866,8 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["unit"] = "player",
+						["buffShowOn"] = "showOnActive",
 						["custom_hide"] = "timed",
-						["spellName"] = 61295,
 						["debuffType"] = "HELPFUL",
 						["type"] = "aura",
 						["use_unit"] = true,
@@ -36886,7 +36886,7 @@ WeakAurasSaved = {
 						["unevent"] = "auto",
 						["use_percenthealth"] = true,
 						["percenthealth_operator"] = "~=",
-						["buffShowOn"] = "showOnActive",
+						["spellName"] = 61295,
 					},
 					["untrigger"] = {
 						["spellName"] = 61295,
@@ -36949,12 +36949,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -36969,15 +36969,15 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Containment"] = "OUTSIDE",
-			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["useTooltip"] = false,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
 			["text1Font"] = "Prototype",
 			["conditions"] = {
 			},
@@ -37013,8 +37013,8 @@ WeakAurasSaved = {
 			["inverse"] = false,
 			["icon"] = true,
 			["displayIcon"] = 237590,
-			["xOffset"] = 0,
-			["useTooltip"] = false,
+			["text1Containment"] = "OUTSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 		},
 		["Mage Prismatic Barrier"] = {
 			["glow"] = false,
@@ -37102,21 +37102,21 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
 						["TANK"] = true,
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -37127,12 +37127,12 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["text1Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
-			["text1Font"] = "Prototype",
 			["text2Point"] = "BOTTOM",
+			["icon"] = true,
+			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["xOffset"] = 0,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -37212,7 +37212,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["text1Containment"] = "INSIDE",
 		},
 		["Priest - BT"] = {
 			["text2Point"] = "CENTER",
@@ -37291,15 +37291,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -37310,7 +37310,30 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["glow"] = false,
+			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Containment"] = "OUTSIDE",
+			["text2Font"] = "Friz Quadrata TT",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -37326,32 +37349,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["internalVersion"] = 9,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text1Containment"] = "OUTSIDE",
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["xOffset"] = 0,
+			["glow"] = false,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -37458,6 +37458,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -37466,7 +37467,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -37477,15 +37477,20 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "OUTSIDE",
 			["text2Point"] = "CENTER",
+			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Font"] = "Prototype",
@@ -37496,12 +37501,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2FontSize"] = 24,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text1Containment"] = "OUTSIDE",
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -37722,8 +37722,8 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["subeventPrefix"] = "SPELL",
+						["buffShowOn"] = "showOnActive",
 						["spellName"] = 61295,
-						["debuffType"] = "HELPFUL",
 						["custom_hide"] = "timed",
 						["type"] = "aura",
 						["names"] = {
@@ -37742,7 +37742,7 @@ WeakAurasSaved = {
 						["unevent"] = "auto",
 						["use_percenthealth"] = true,
 						["percenthealth_operator"] = "~=",
-						["buffShowOn"] = "showOnActive",
+						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 						["spellName"] = 61295,
@@ -37808,15 +37808,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -37825,10 +37825,10 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 64,
-			["parent"] = "Stack Tracker",
-			["desaturate"] = false,
-			["text2Containment"] = "INSIDE",
 			["glow"] = false,
+			["text1Enabled"] = true,
+			["text2Containment"] = "INSIDE",
+			["useTooltip"] = false,
 			["text1Font"] = "Prototype",
 			["displayIcon"] = 237590,
 			["internalVersion"] = 9,
@@ -37869,8 +37869,8 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["conditions"] = {
 			},
-			["useTooltip"] = false,
-			["text1Enabled"] = true,
+			["desaturate"] = false,
+			["parent"] = "Stack Tracker",
 		},
 		["PointsTracker"] = {
 			["backdropColor"] = {
@@ -37917,7 +37917,6 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = -10,
 			},
 			["borderOffset"] = 5,
-			["borderEdge"] = "None",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -37932,10 +37931,13 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["selfPoint"] = "BOTTOMLEFT",
 			["id"] = "PointsTracker",
-			["scale"] = 1,
+			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["scale"] = 1,
+			["borderInset"] = 11,
 			["actions"] = {
 				["start"] = {
 				},
@@ -37944,8 +37946,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["borderInset"] = 11,
-			["selfPoint"] = "BOTTOMLEFT",
 			["internalVersion"] = 9,
 			["conditions"] = {
 			},
@@ -37997,7 +37997,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorPoint"] = "CENTER",
+			["borderEdge"] = "None",
 		},
 		["Druid Tiger's Fury"] = {
 			["glow"] = false,
@@ -38082,11 +38082,7 @@ WeakAurasSaved = {
 						[2] = true,
 					},
 				},
-				["role"] = {
-					["multi"] = {
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -38095,8 +38091,9 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
 				["use_spec"] = false,
@@ -38104,7 +38101,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["spellknown"] = 5217,
 				["size"] = {
@@ -38113,17 +38113,22 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["icon"] = true,
-			["desaturate"] = false,
+			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["desaturate"] = false,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 			["text1Font"] = "Prototype",
 			["text2Color"] = {
 				1, -- [1]
@@ -38193,12 +38198,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["icon"] = true,
 		},
 		["Rogue Riposte"] = {
 			["glow"] = false,
@@ -38302,22 +38302,33 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["internalVersion"] = 9,
-			["cooldownTextEnabled"] = false,
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = false,
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+			},
+			["text2Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["useTooltip"] = true,
 			["xOffset"] = 0,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -38387,18 +38398,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = false,
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
-				},
-			},
+			["internalVersion"] = 9,
 		},
 		["HW:Chas"] = {
 			["sparkWidth"] = 10,
@@ -38723,16 +38723,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -38893,19 +38893,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
@@ -38918,16 +38918,6 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
-			["xOffset"] = 0,
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -38943,6 +38933,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["useTooltip"] = true,
 			["cooldownTextEnabled"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -39003,7 +39003,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["desaturate"] = false,
 		},
 		["Paladin Ardent Defender"] = {
 			["text2Point"] = "BOTTOM",
@@ -39105,15 +39105,19 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -39123,11 +39127,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spec"] = false,
-				["role"] = {
-					["multi"] = {
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["spellknown"] = 31850,
 				["size"] = {
 					["multi"] = {
@@ -39305,19 +39305,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -39326,15 +39326,15 @@ WeakAurasSaved = {
 			},
 			["cooldownTextEnabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["color"] = {
+			["selfPoint"] = "CENTER",
+			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				0.400000035762787, -- [4]
+				1, -- [4]
 			},
-			["text1Font"] = "Friz Quadrata TT",
 			["glow"] = false,
-			["selfPoint"] = "CENTER",
+			["text1Font"] = "Friz Quadrata TT",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["icon"] = true,
@@ -39362,11 +39362,11 @@ WeakAurasSaved = {
 			["internalVersion"] = 9,
 			["conditions"] = {
 			},
-			["text1Color"] = {
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				0.400000035762787, -- [4]
 			},
 			["text2Font"] = "Friz Quadrata TT",
 		},
@@ -39611,17 +39611,17 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Active Defensives",
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["parent"] = "Active Defensives",
 			["selfPoint"] = "CENTER",
-			["text2Point"] = "CENTER",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -39663,7 +39663,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["stickyDuration"] = false,
 		},
 		["Paladin - Light of the Protector"] = {
 			["glow"] = false,
@@ -39742,12 +39742,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -39757,10 +39760,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["spellknown"] = 184092,
 				["size"] = {
 					["multi"] = {
@@ -39768,22 +39768,36 @@ WeakAurasSaved = {
 				},
 			},
 			["frameStrata"] = 1,
-			["text1Enabled"] = false,
+			["xOffset"] = 0,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text2Font"] = "Friz Quadrata TT",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["actions"] = {
@@ -39845,21 +39859,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "pulse",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["text1Enabled"] = false,
 		},
 		["Rogue - Sprint"] = {
 			["text2Point"] = "CENTER",
@@ -39986,7 +39986,7 @@ WeakAurasSaved = {
 			["text2Containment"] = "INSIDE",
 			["parent"] = "Active Utility",
 			["text1Font"] = "Prototype",
-			["desaturate"] = false,
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -39996,7 +39996,7 @@ WeakAurasSaved = {
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["xOffset"] = 0,
-			["text2Font"] = "Friz Quadrata TT",
+			["desaturate"] = false,
 			["text2FontSize"] = 24,
 			["text2Color"] = {
 				1, -- [1]
@@ -40014,10 +40014,10 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["glow"] = false,
-			["internalVersion"] = 9,
-			["inverse"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Containment"] = "OUTSIDE",
+			["inverse"] = false,
+			["cooldownTextEnabled"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -40034,7 +40034,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["cooldownTextEnabled"] = true,
+			["internalVersion"] = 9,
 		},
 		["Hunter Trueshot"] = {
 			["text2Point"] = "BOTTOM",
@@ -40115,9 +40115,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
-						["TANK"] = true,
 					},
 				},
 				["use_spec"] = false,
@@ -40125,11 +40124,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["use_spellknown"] = true,
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
-				["use_spellknown"] = true,
 				["spellknown"] = 193526,
 				["size"] = {
 					["multi"] = {
@@ -40137,7 +40137,9 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["useTooltip"] = true,
+			["parent"] = "Cooldowns - Throughput",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -40150,15 +40152,13 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Prototype",
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "Cooldowns - Throughput",
+			["text2Font"] = "Prototype",
 			["desaturate"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -40233,7 +40233,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 		},
 		["Priest Desperate Prayer"] = {
 			["glow"] = true,
@@ -40263,19 +40263,19 @@ WeakAurasSaved = {
 						["spellName"] = 19236,
 						["custom_hide"] = "custom",
 						["type"] = "status",
+						["custom_type"] = "status",
 						["unevent"] = "auto",
-						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["use_unit"] = true,
 						["event"] = "Cooldown Progress (Spell)",
-						["custom"] = "function(event, arg1, arg2, ...)\n    \n    local start, duration, enable = GetSpellCooldown(19236)\n    \n    if start and duration then -- the spell is on cooldown\n        local getTime = GetTime()\n        \n        -- start + duration gives us the value of GetTime() at the point when the cd will end\n        -- the time when the cd ends (a time in the future) minus the current time gives us the remaining duration on the cooldown\n        local remainingCD = start + duration - getTime\n        \n        -- if we're on cooldown and the total cooldown is greater than 2 seconds\n        -- this filters out global cooldown spells or spells whose cds are otherwise irrelevant\n        if remainingCD > 0  and duration > 2 then\n            return false\n        end\n    end\n    return true\nend\n\n\n\n",
+						["events"] = "SPELL_UPDATE_USABLE",
 						["realSpellName"] = "Desperate Prayer",
 						["use_spellName"] = true,
+						["custom"] = "function(event, arg1, arg2, ...)\n    \n    local start, duration, enable = GetSpellCooldown(19236)\n    \n    if start and duration then -- the spell is on cooldown\n        local getTime = GetTime()\n        \n        -- start + duration gives us the value of GetTime() at the point when the cd will end\n        -- the time when the cd ends (a time in the future) minus the current time gives us the remaining duration on the cooldown\n        local remainingCD = start + duration - getTime\n        \n        -- if we're on cooldown and the total cooldown is greater than 2 seconds\n        -- this filters out global cooldown spells or spells whose cds are otherwise irrelevant\n        if remainingCD > 0  and duration > 2 then\n            return false\n        end\n    end\n    return true\nend\n\n\n\n",
 						["spellIds"] = {
 						},
-						["events"] = "SPELL_UPDATE_USABLE",
 						["check"] = "update",
-						["custom_type"] = "status",
+						["subeventSuffix"] = "_CAST_START",
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
 					},
@@ -40344,6 +40344,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -40352,7 +40353,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -40364,9 +40364,9 @@ WeakAurasSaved = {
 				},
 			},
 			["text1FontFlags"] = "OUTLINE",
-			["text2Point"] = "CENTER",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["icon"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -40383,10 +40383,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["internalVersion"] = 9,
+			["desaturate"] = false,
 			["text1Font"] = "Friz Quadrata TT",
 			["text2FontSize"] = 24,
-			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -40422,7 +40422,7 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["icon"] = true,
+			["text2Point"] = "CENTER",
 		},
 		["Rogue - Envenom"] = {
 			["text2Point"] = "CENTER",
@@ -40568,6 +40568,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -40576,7 +40577,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -40585,14 +40585,9 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Prototype",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["stickyDuration"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -40608,10 +40603,15 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text2Font"] = "Friz Quadrata TT",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
 			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2FontSize"] = 24,
+			["icon"] = true,
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -40681,14 +40681,6 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = -10,
 			},
 			["borderOffset"] = 5,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -40703,13 +40695,14 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["selfPoint"] = "BOTTOMLEFT",
 			["id"] = "FR Lite percentage with tracking",
-			["scale"] = 1,
+			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
+			["scale"] = 1,
 			["borderInset"] = 11,
-			["selfPoint"] = "BOTTOMLEFT",
+			["internalVersion"] = 9,
 			["borderEdge"] = "None",
 			["conditions"] = {
 			},
@@ -40761,7 +40754,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["Hunter Cheetah"] = {
 			["text2Point"] = "BOTTOM",
@@ -40872,22 +40872,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["glow"] = false,
+			["desaturate"] = false,
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["desaturate"] = false,
+			["icon"] = true,
 			["internalVersion"] = 9,
 			["text2Color"] = {
 				1, -- [1]
@@ -40957,7 +40952,12 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Priest Shadow Graphic"] = {
 			["backdropColor"] = {
@@ -41011,7 +41011,21 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = -10,
 			},
 			["internalVersion"] = 9,
-			["borderOffset"] = 5,
+			["borderEdge"] = "None",
+			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "Priest Shadow Graphic",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["scale"] = 1,
+			["borderInset"] = 11,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -41026,13 +41040,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Priest Shadow Graphic",
-			["scale"] = 1,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "BOTTOMLEFT",
-			["borderInset"] = 11,
-			["borderEdge"] = "None",
 			["anchorPoint"] = "CENTER",
 			["conditions"] = {
 			},
@@ -41052,14 +41059,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["borderOffset"] = 5,
 		},
 		["Shaman HST"] = {
 			["glow"] = true,
@@ -41083,7 +41083,7 @@ WeakAurasSaved = {
 						},
 						["use_genericShowOn"] = true,
 						["subeventPrefix"] = "SPELL",
-						["custom_hide"] = "custom",
+						["debuffType"] = "HELPFUL",
 						["unit"] = "player",
 						["type"] = "status",
 						["unevent"] = "auto",
@@ -41099,8 +41099,8 @@ WeakAurasSaved = {
 						["events"] = "SPELL_UPDATE_USABLE",
 						["check"] = "update",
 						["custom_type"] = "status",
-						["debuffType"] = "HELPFUL",
 						["spellName"] = 5394,
+						["custom_hide"] = "custom",
 					},
 					["untrigger"] = {
 						["showOn"] = "showOnReady",
@@ -41153,12 +41153,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -41169,12 +41169,23 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["parent"] = "UseNows",
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["text2Point"] = "CENTER",
 			["text1Font"] = "Friz Quadrata TT",
-			["desaturate"] = false,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["displayIcon"] = 135127,
 			["text2Color"] = {
 				1, -- [1]
@@ -41189,20 +41200,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
 			["text2FontSize"] = 24,
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["internalVersion"] = 9,
 			["text1"] = "%s",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -41351,17 +41351,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["stickyDuration"] = false,
-			["internalVersion"] = 9,
+			["cooldownTextEnabled"] = false,
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownTextEnabled"] = false,
+			["text1Enabled"] = true,
 			["desaturate"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -41433,7 +41433,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 		},
 		["DPriest Evangelism"] = {
 			["text2Point"] = "CENTER",
@@ -41528,16 +41528,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -41548,6 +41548,8 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
+			["cooldownTextEnabled"] = true,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -41563,16 +41565,14 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["glow"] = false,
+			["text1Font"] = "Prototype",
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Font"] = "Prototype",
-			["internalVersion"] = 9,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -41614,7 +41614,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["cooldownTextEnabled"] = true,
+			["glow"] = false,
 		},
 		["Monk SEF"] = {
 			["glow"] = false,
@@ -41709,11 +41709,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -41721,7 +41718,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -41899,7 +41899,12 @@ WeakAurasSaved = {
 						["SHAMAN"] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+						["DAMAGER"] = true,
+						["TANK"] = true,
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
@@ -41908,19 +41913,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
-						["DAMAGER"] = true,
-						["TANK"] = true,
 					},
 				},
 				["use_class"] = true,
@@ -41931,17 +41931,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["useTooltip"] = true,
+			["icon"] = true,
+			["desaturate"] = false,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
 			["text1Font"] = "Prototype",
-			["icon"] = true,
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -42016,7 +42016,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["desaturate"] = false,
+			["useTooltip"] = true,
 		},
 		["Level"] = {
 			["outline"] = "OUTLINE",
@@ -42226,15 +42226,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["talent2"] = {
 					["multi"] = {
@@ -42246,17 +42246,17 @@ WeakAurasSaved = {
 				},
 			},
 			["frameStrata"] = 1,
-			["parent"] = "Proc Buffs",
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text2Point"] = "CENTER",
 			["text1Enabled"] = true,
-			["stickyDuration"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["animation"] = {
@@ -42304,7 +42304,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["text1Containment"] = "INSIDE",
+			["parent"] = "Proc Buffs",
 		},
 		["DPriest Rapture"] = {
 			["text2Point"] = "CENTER",
@@ -42367,12 +42367,16 @@ WeakAurasSaved = {
 						[10] = true,
 					},
 				},
+				["spec"] = {
+					["multi"] = {
+						true, -- [1]
+					},
+				},
 				["class"] = {
 					["single"] = "PRIEST",
 					["multi"] = {
 					},
 				},
-				["level_operator"] = ">=",
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -42396,27 +42400,13 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "50",
-				["spec"] = {
-					["multi"] = {
-						true, -- [1]
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["frameStrata"] = 1,
-			["desaturate"] = false,
-			["text2Containment"] = "INSIDE",
-			["glow"] = false,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["internalVersion"] = 9,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Sound\\Spells\\SimonGame_Visual_BadPress.ogg",
@@ -42427,6 +42417,16 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["text2Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["glow"] = false,
+			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text2Font"] = "Friz Quadrata TT",
@@ -42487,7 +42487,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["cooldownTextEnabled"] = true,
+			["desaturate"] = false,
 		},
 		["All - Sephuz"] = {
 			["glow"] = false,
@@ -42610,7 +42610,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
+			["parent"] = "Proc Buffs",
 			["text1Font"] = "Prototype",
 			["actions"] = {
 				["start"] = {
@@ -42620,11 +42620,11 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["selfPoint"] = "CENTER",
+			["text2Point"] = "CENTER",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["xOffset"] = 0,
-			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
 			["text2FontSize"] = 24,
 			["text2Color"] = {
 				1, -- [1]
@@ -42649,7 +42649,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "Proc Buffs",
+			["text1Enabled"] = true,
 		},
 		[" Warrior - Last Stand"] = {
 			["glow"] = false,
@@ -42765,10 +42765,10 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["text1Containment"] = "OUTSIDE",
 			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
+			["icon"] = true,
 			["text1Font"] = "Prototype",
-			["internalVersion"] = 9,
 			["cooldownTextEnabled"] = true,
+			["text2Point"] = "CENTER",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -42784,7 +42784,7 @@ WeakAurasSaved = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["icon"] = true,
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["width"] = 64,
 			["text2Enabled"] = false,
@@ -42895,13 +42895,9 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["level_operator"] = ">=",
 				["class"] = {
 					["single"] = "MONK",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 1,
 					["multi"] = {
 					},
 				},
@@ -42928,13 +42924,17 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "10",
-				["level_operator"] = ">=",
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["parent"] = "Active Mitigation",
+			["icon"] = true,
 			["text2Containment"] = "INSIDE",
 			["text2Color"] = {
 				1, -- [1]
@@ -42942,20 +42942,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["text1Font"] = "Friz Quadrata TT",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldownTextEnabled"] = true,
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["text2Font"] = "Friz Quadrata TT",
+			["internalVersion"] = 9,
+			["text2FontSize"] = 24,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Font"] = "Friz Quadrata TT",
-			["icon"] = true,
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
-			["text2FontSize"] = 24,
-			["cooldownTextEnabled"] = true,
 			["text1"] = "%c",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
@@ -42967,18 +42972,13 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["width"] = 64,
 			["zoom"] = 0,
-			["text2Font"] = "Friz Quadrata TT",
+			["glow"] = false,
 			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "Active Mitigation",
 			["conditions"] = {
 			},
-			["glow"] = false,
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 		},
 		["Druid Berserk"] = {
 			["glow"] = false,
@@ -43075,13 +43075,12 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = true,
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["use_spec"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -43090,6 +43089,7 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spellknown"] = true,
 				["spellknown"] = 106951,
 				["size"] = {
 					["multi"] = {
@@ -43097,17 +43097,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["internalVersion"] = 9,
-			["text2Font"] = "Prototype",
+			["stickyDuration"] = false,
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["text2Font"] = "Prototype",
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
 			["cooldownTextEnabled"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -43179,7 +43179,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["internalVersion"] = 9,
 		},
 		["Mistweaver Icons"] = {
 			["grow"] = "HORIZONTAL",
@@ -43357,28 +43357,15 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = -10,
 			},
 			["internalVersion"] = 9,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["borderOffset"] = 5,
 			["selfPoint"] = "BOTTOMLEFT",
 			["id"] = "Fire Mage",
-			["scale"] = 1,
+			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["expanded"] = false,
+			["scale"] = 1,
 			["borderInset"] = 11,
-			["borderOffset"] = 5,
+			["expanded"] = false,
 			["yOffset"] = 0,
 			["conditions"] = {
 			},
@@ -43430,7 +43417,20 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorPoint"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Warrior Spell Reflect"] = {
 			["text2Point"] = "BOTTOM",
@@ -43508,12 +43508,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+						["SHAMAN"] = true,
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 						[3] = true,
 					},
 				},
-				["level_operator"] = ">=",
 				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
@@ -43538,29 +43543,24 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "80",
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-						["SHAMAN"] = true,
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["parent"] = "Cooldowns - Throughput",
-			["glow"] = false,
+			["text2Font"] = "Prototype",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["glow"] = false,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Prototype",
+			["desaturate"] = false,
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -43630,7 +43630,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["parent"] = "Cooldowns - Throughput",
 		},
 		["Death Knight - IBF"] = {
 			["glow"] = false,
@@ -43756,15 +43756,9 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1Font"] = "Prototype",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -43772,6 +43766,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -43813,7 +43808,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Mage - Arcane Power"] = {
 			["text2Point"] = "CENTER",
@@ -43887,15 +43887,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["ingroup"] = {
 					["multi"] = {
@@ -43907,8 +43907,17 @@ WeakAurasSaved = {
 				},
 			},
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Font"] = "Prototype",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -43924,20 +43933,11 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text1Font"] = "Prototype",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -43972,7 +43972,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["glow"] = false,
+			["desaturate"] = false,
 		},
 		["Priest Disc SWP"] = {
 			["text2Point"] = "CENTER",
@@ -44097,12 +44097,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -44116,26 +44116,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
+			["parent"] = "UseNows",
 			["icon"] = true,
 			["text2Containment"] = "INSIDE",
-			["glow"] = true,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextEnabled"] = true,
-			["displayIcon"] = 136207,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["parent"] = "UseNows",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -44151,6 +44134,23 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 136207,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["xOffset"] = 0,
+			["text1Containment"] = "INSIDE",
 			["text2FontSize"] = 24,
 			["text1Font"] = "Prototype",
 			["text1"] = "%p",
@@ -44169,7 +44169,7 @@ WeakAurasSaved = {
 			["internalVersion"] = 9,
 			["conditions"] = {
 			},
-			["xOffset"] = 0,
+			["glow"] = true,
 			["desaturate"] = false,
 		},
 		["Background DPriest"] = {
@@ -44243,12 +44243,12 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "Background DPriest",
-			["desaturate"] = true,
+			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
-			["width"] = 150,
+			["desaturate"] = true,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 150,
 			["frameStrata"] = 1,
 			["height"] = 150,
 			["rotate"] = true,
@@ -44520,7 +44520,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -44528,10 +44528,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["text1Containment"] = "OUTSIDE",
 			["text1Font"] = "Prototype",
 			["selfPoint"] = "CENTER",
-			["glow"] = false,
+			["cooldownTextEnabled"] = true,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -44539,10 +44539,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["internalVersion"] = 9,
-			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
+			["glow"] = false,
 			["text2FontSize"] = 24,
-			["text1Containment"] = "OUTSIDE",
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -44664,16 +44664,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -44975,15 +44975,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -44992,15 +44992,15 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 64,
-			["text1Enabled"] = true,
-			["icon"] = true,
-			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["stickyDuration"] = false,
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "OUTSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -45036,8 +45036,8 @@ WeakAurasSaved = {
 			["internalVersion"] = 9,
 			["conditions"] = {
 			},
-			["text1Containment"] = "OUTSIDE",
-			["stickyDuration"] = false,
+			["icon"] = true,
+			["text1Enabled"] = true,
 		},
 		["Shaman Riptide"] = {
 			["glow"] = true,
@@ -45067,7 +45067,7 @@ WeakAurasSaved = {
 						["use_genericShowOn"] = true,
 						["names"] = {
 						},
-						["debuffType"] = "HELPFUL",
+						["custom_hide"] = "custom",
 						["unit"] = "player",
 						["type"] = "status",
 						["unevent"] = "auto",
@@ -45083,8 +45083,8 @@ WeakAurasSaved = {
 						},
 						["check"] = "update",
 						["custom_type"] = "status",
-						["custom_hide"] = "custom",
 						["spellName"] = 61295,
+						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 						["showOn"] = "showOnReady",
@@ -45134,6 +45134,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -45142,7 +45143,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -45154,9 +45154,9 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Friz Quadrata TT",
-			["cooldownTextEnabled"] = true,
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["text2Point"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -45173,10 +45173,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["desaturate"] = false,
-			["text2Point"] = "CENTER",
-			["text2FontSize"] = 24,
 			["icon"] = true,
+			["cooldownTextEnabled"] = true,
+			["text2FontSize"] = 24,
+			["xOffset"] = 0,
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -45328,10 +45328,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["glow"] = false,
-			["selfPoint"] = "CENTER",
-			["text2Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
 			["text1Containment"] = "OUTSIDE",
+			["text2Containment"] = "INSIDE",
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -45339,18 +45339,18 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Font"] = "Friz Quadrata TT",
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
+			["internalVersion"] = 9,
 			["parent"] = "Active Utility",
+			["text2FontSize"] = 24,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2FontSize"] = 24,
-			["cooldownTextEnabled"] = true,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -45487,14 +45487,16 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["color"] = {
+			["internalVersion"] = 9,
+			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
-			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -45510,13 +45512,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["internalVersion"] = 9,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -45583,7 +45578,12 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Hunter Snake Hunter"] = {
 			["glow"] = false,
@@ -45663,19 +45663,19 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -45686,26 +45686,12 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["cooldownTextEnabled"] = false,
-			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text1Font"] = "Prototype",
 			["text2Point"] = "BOTTOM",
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = false,
+			["text1Font"] = "Prototype",
+			["stickyDuration"] = false,
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -45782,7 +45768,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 		},
 		["Personal Consumables"] = {
 			["grow"] = "HORIZONTAL",
@@ -45904,13 +45904,13 @@ WeakAurasSaved = {
 			["id"] = "Personal Consumables",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["width"] = 199.999938964844,
-			["internalVersion"] = 9,
 			["backgroundInset"] = 0,
+			["stagger"] = 0,
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["stagger"] = 0,
+			["internalVersion"] = 9,
+			["width"] = 199.999938964844,
 		},
 		["Background SPriest"] = {
 			["color"] = {
@@ -45982,12 +45982,12 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "Background SPriest",
-			["desaturate"] = true,
+			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["width"] = 150,
+			["desaturate"] = true,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 150,
 			["selfPoint"] = "CENTER",
 			["height"] = 150,
 			["conditions"] = {
@@ -46329,16 +46329,16 @@ WeakAurasSaved = {
 						["DRUID"] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -46347,7 +46347,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -46494,12 +46494,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+						["SHAMAN"] = true,
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 						[3] = true,
 					},
 				},
-				["level_operator"] = ">=",
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -46524,48 +46529,29 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "32",
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-						["SHAMAN"] = true,
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 80,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["glow"] = false,
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["icon"] = true,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
+			["icon"] = true,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -46621,7 +46607,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Druid - Ironfur Buff"] = {
 			["glow"] = false,
@@ -46735,10 +46735,7 @@ WeakAurasSaved = {
 						["WARRIOR"] = true,
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -46747,7 +46744,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -46756,7 +46753,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["spellknown"] = 192081,
 				["size"] = {
@@ -46764,33 +46764,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["internalVersion"] = 9,
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
-			["icon"] = true,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "BOTTOMRIGHT",
-			["internalVersion"] = 9,
-			["text2FontSize"] = 24,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -46806,6 +46782,30 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["stickyDuration"] = false,
+			["icon"] = true,
+			["text2FontSize"] = 24,
+			["text2Point"] = "BOTTOMRIGHT",
 			["text1"] = "%s",
 			["width"] = 64,
 			["text2Enabled"] = true,
@@ -46960,6 +46960,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -46968,7 +46969,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -46976,9 +46976,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["internalVersion"] = 9,
-			["text2Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -46987,6 +46985,8 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -46994,13 +46994,13 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
+			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
+			["stickyDuration"] = false,
 			["xOffset"] = 0,
-			["cooldownTextEnabled"] = true,
 			["text2FontSize"] = 24,
-			["selfPoint"] = "CENTER",
+			["cooldownTextEnabled"] = true,
 			["text1"] = "%c",
 			["width"] = 64,
 			["text2Enabled"] = false,
@@ -47338,15 +47338,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -47358,17 +47358,17 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["stickyDuration"] = false,
+			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Proc Buffs",
+			["internalVersion"] = 9,
 			["text1Font"] = "Prototype",
+			["parent"] = "Proc Buffs",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Enabled"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["icon"] = true,
@@ -47402,7 +47402,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["stickyDuration"] = false,
 		},
 		["Race - Darkflight"] = {
 			["glow"] = false,
@@ -47524,16 +47524,6 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["useTooltip"] = true,
-			["xOffset"] = 0,
-			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -47546,6 +47536,16 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
+			["selfPoint"] = "CENTER",
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stickyDuration"] = false,
 			["text1Containment"] = "INSIDE",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -47601,7 +47601,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["useTooltip"] = true,
 		},
 		["Hunter Missing Pet"] = {
 			["text2Point"] = "CENTER",
@@ -47618,18 +47618,18 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["unevent"] = "auto",
 						["genericShowOn"] = "showOnActive",
-						["unit"] = "pet",
+						["names"] = {
+							"Ironfur", -- [1]
+						},
 						["event"] = "Conditions",
-						["use_unit"] = true,
+						["unit"] = "pet",
 						["subeventSuffix"] = "_CAST_START",
 						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
 						["inverse"] = true,
 						["use_behavior"] = true,
-						["names"] = {
-							"Ironfur", -- [1]
-						},
+						["use_unit"] = true,
 						["use_HasPet"] = false,
 						["custom_hide"] = "timed",
 					},
@@ -47686,12 +47686,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -47703,9 +47703,23 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Prototype",
-			["text1Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "preset",
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -47726,23 +47740,6 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["cooldownTextEnabled"] = true,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["type"] = "preset",
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -47753,6 +47750,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["text1Containment"] = "INSIDE",
+			["text2FontSize"] = 24,
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -47832,15 +47832,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_zone"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["use_zoneId"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -47853,13 +47853,62 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_zone"] = false,
+				["use_zoneId"] = false,
 				["zone"] = "Nighthold",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Font"] = "Prototype",
+			["text2Font"] = "Prototype",
+			["xOffset"] = 0,
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["parent"] = "Important Debuffs",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BoxingArenaSound.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1"] = "%p",
+			["text2"] = "%s",
+			["width"] = 100,
+			["zoom"] = 0,
+			["auto"] = true,
+			["text2Enabled"] = true,
+			["id"] = "Necrotic",
+			["glow"] = false,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -47874,59 +47923,10 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BoxingArenaSound.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Font"] = "Prototype",
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["desaturate"] = false,
-			["internalVersion"] = 9,
-			["text2FontSize"] = 24,
-			["xOffset"] = 0,
-			["text1"] = "%p",
-			["text2"] = "%s",
-			["width"] = 100,
-			["zoom"] = 0,
-			["auto"] = true,
-			["text2Enabled"] = true,
-			["id"] = "Necrotic",
-			["glow"] = false,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["parent"] = "Important Debuffs",
-			["inverse"] = false,
-			["text2Font"] = "Prototype",
 			["conditions"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stickyDuration"] = false,
+			["internalVersion"] = 9,
+			["desaturate"] = false,
 		},
 		["Mind Blast Full Circle"] = {
 			["user_y"] = 0,
@@ -48219,15 +48219,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -48238,10 +48238,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["glow"] = true,
+			["icon"] = true,
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -48258,8 +48258,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["icon"] = true,
-			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["glow"] = true,
 			["text2FontSize"] = 24,
 			["text1Font"] = "Prototype",
 			["text1"] = "%c",
@@ -48277,7 +48277,7 @@ WeakAurasSaved = {
 			["inverse"] = false,
 			["internalVersion"] = 9,
 			["displayIcon"] = 132304,
-			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
 			["text1Containment"] = "OUTSIDE",
 		},
 		["Monk MW Thunder Tea"] = {
@@ -48404,12 +48404,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -48423,20 +48423,15 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-				},
-				["init"] = {
-				},
-				["finish"] = {
-					["do_custom"] = false,
-				},
-			},
+			["parent"] = "UseNows",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -48453,15 +48448,20 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["parent"] = "UseNows",
-			["text2FontSize"] = 24,
 			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
+			["text2FontSize"] = 24,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+				},
+				["init"] = {
+				},
+				["finish"] = {
+					["do_custom"] = false,
+				},
+			},
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -48570,6 +48570,28 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
+			["text1Font"] = "Prototype",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "OUTSIDE",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["internalVersion"] = 9,
+			["text1FontFlags"] = "OUTLINE",
+			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
 				},
@@ -48578,28 +48600,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["internalVersion"] = 9,
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "OUTSIDE",
-			["text1Font"] = "Prototype",
-			["xOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Font"] = "Friz Quadrata TT",
-			["text1FontFlags"] = "OUTLINE",
-			["text2FontSize"] = 24,
-			["cooldownTextEnabled"] = true,
 			["text1"] = "%c",
 			["width"] = 64,
 			["text2Enabled"] = false,
@@ -48761,19 +48761,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -48872,7 +48872,7 @@ WeakAurasSaved = {
 						},
 						["use_genericShowOn"] = true,
 						["subeventPrefix"] = "SPELL",
-						["custom_hide"] = "custom",
+						["debuffType"] = "HELPFUL",
 						["unit"] = "player",
 						["type"] = "status",
 						["unevent"] = "auto",
@@ -48888,8 +48888,8 @@ WeakAurasSaved = {
 						["events"] = "SPELL_UPDATE_USABLE",
 						["check"] = "update",
 						["custom_type"] = "status",
-						["debuffType"] = "HELPFUL",
 						["spellName"] = 18562,
+						["custom_hide"] = "custom",
 					},
 					["untrigger"] = {
 						["showOn"] = "showOnReady",
@@ -48940,7 +48940,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -48951,10 +48951,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spellknown"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
@@ -48964,7 +48961,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -48982,15 +48982,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
-			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Font"] = "Friz Quadrata TT",
-			["glow"] = true,
-			["displayIcon"] = 134914,
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
 			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -49003,8 +48996,15 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["text2FontSize"] = 24,
+			["text1Font"] = "Friz Quadrata TT",
+			["glow"] = true,
+			["displayIcon"] = 134914,
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
 			["cooldownTextEnabled"] = true,
+			["selfPoint"] = "CENTER",
+			["text2FontSize"] = 24,
+			["internalVersion"] = 9,
 			["text1"] = "%s",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -49120,16 +49120,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -49311,19 +49311,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -49432,13 +49432,13 @@ WeakAurasSaved = {
 					["trigger"] = {
 						["spellName"] = 204883,
 						["type"] = "status",
-						["names"] = {
-						},
+						["unit"] = "player",
 						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["use_genericShowOn"] = true,
 						["genericShowOn"] = "showOnReady",
-						["use_unit"] = true,
+						["names"] = {
+						},
 						["realSpellName"] = "Circle of Healing",
 						["use_spellName"] = true,
 						["spellIds"] = {
@@ -49446,7 +49446,7 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Cooldown Progress (Spell)",
 						["subeventSuffix"] = "_CAST_START",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -49512,15 +49512,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -49531,17 +49531,12 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "UseNows",
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
+			["glow"] = true,
 			["text1Font"] = "Friz Quadrata TT",
-			["parent"] = "UseNows",
+			["internalVersion"] = 9,
 			["conditions"] = {
 			},
 			["text2Color"] = {
@@ -49559,7 +49554,7 @@ WeakAurasSaved = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["stickyDuration"] = false,
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -49576,7 +49571,12 @@ WeakAurasSaved = {
 			["icon"] = true,
 			["displayIcon"] = 135944,
 			["text1Containment"] = "INSIDE",
-			["glow"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Rogue - Garrote"] = {
 			["glow"] = true,
@@ -49732,12 +49732,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -49751,10 +49751,15 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["internalVersion"] = 9,
+			["text2Font"] = "Friz Quadrata TT",
 			["xOffset"] = 0,
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -49771,15 +49776,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text2Font"] = "Friz Quadrata TT",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2FontSize"] = 24,
 			["stickyDuration"] = false,
+			["internalVersion"] = 9,
+			["text2FontSize"] = 24,
+			["selfPoint"] = "CENTER",
 			["text1"] = "%p",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -49888,6 +49888,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -49896,7 +49897,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -49910,14 +49910,14 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["parent"] = "Proc Buffs",
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
+			["internalVersion"] = 9,
 			["cooldownTextEnabled"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -49948,13 +49948,13 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["width"] = 64,
 			["text1Containment"] = "OUTSIDE",
-			["text2Point"] = "CENTER",
+			["xOffset"] = 0,
 			["inverse"] = false,
 			["text1Font"] = "Prototype",
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["text2Point"] = "CENTER",
 		},
 		["Shaman GotQ"] = {
 			["text2Point"] = "CENTER",
@@ -49982,7 +49982,7 @@ WeakAurasSaved = {
 						},
 						["use_genericShowOn"] = true,
 						["subeventPrefix"] = "SPELL",
-						["custom_hide"] = "custom",
+						["debuffType"] = "HELPFUL",
 						["unit"] = "player",
 						["type"] = "status",
 						["unevent"] = "auto",
@@ -49998,8 +49998,8 @@ WeakAurasSaved = {
 						["events"] = "SPELL_UPDATE_USABLE",
 						["check"] = "update",
 						["custom_type"] = "status",
-						["debuffType"] = "HELPFUL",
 						["spellName"] = 207778,
+						["custom_hide"] = "custom",
 					},
 					["untrigger"] = {
 						["showOn"] = "showOnReady",
@@ -50066,12 +50066,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -50082,12 +50082,12 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["cooldownTextEnabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["text1Enabled"] = true,
 			["text1Font"] = "Friz Quadrata TT",
-			["desaturate"] = false,
+			["icon"] = true,
 			["displayIcon"] = 1267638,
 			["text2Color"] = {
 				1, -- [1]
@@ -50104,7 +50104,7 @@ WeakAurasSaved = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["icon"] = true,
+			["internalVersion"] = 9,
 			["text1"] = "%s",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -50127,7 +50127,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["glow"] = true,
-			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["Druid Solar Empowerment"] = {
 			["glow"] = false,
@@ -50224,15 +50224,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -50241,17 +50241,31 @@ WeakAurasSaved = {
 				},
 			},
 			["text2Enabled"] = false,
-			["stickyDuration"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["stickyDuration"] = false,
+			["text1Font"] = "Prototype",
+			["cooldownTextEnabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Font"] = "Prototype",
-			["cooldownTextEnabled"] = true,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -50285,21 +50299,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["text1Enabled"] = true,
 		},
 		["Mind Blast Half Circle"] = {
 			["user_y"] = 0,
@@ -50539,18 +50539,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -50565,22 +50565,22 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "CENTER",
-			["useTooltip"] = true,
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["useTooltip"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Containment"] = "INSIDE",
 			["text2Font"] = "Friz Quadrata TT",
 			["text2Color"] = {
 				1, -- [1]
@@ -50647,7 +50647,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
 		},
 		["Druid Wild Growth"] = {
 			["text2Point"] = "CENTER",
@@ -50671,7 +50671,7 @@ WeakAurasSaved = {
 						["use_genericShowOn"] = true,
 						["names"] = {
 						},
-						["debuffType"] = "HELPFUL",
+						["custom_hide"] = "custom",
 						["unit"] = "player",
 						["type"] = "status",
 						["unevent"] = "auto",
@@ -50687,8 +50687,8 @@ WeakAurasSaved = {
 						},
 						["check"] = "update",
 						["custom_type"] = "status",
-						["custom_hide"] = "custom",
 						["spellName"] = 48438,
+						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 						["showOn"] = "showOnReady",
@@ -50725,10 +50725,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "DRUID",
 					["multi"] = {
@@ -50736,7 +50733,10 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spellknown"] = true,
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -50749,7 +50749,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -50761,6 +50761,21 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["glow"] = true,
+			["displayIcon"] = 236153,
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["cooldownTextEnabled"] = true,
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -50771,8 +50786,7 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
+			["text2FontSize"] = 24,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -50788,20 +50802,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["glow"] = true,
-			["displayIcon"] = 236153,
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["internalVersion"] = 9,
-			["xOffset"] = 0,
-			["text2FontSize"] = 24,
-			["cooldownTextEnabled"] = true,
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -50852,10 +50852,10 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["use_genericShowOn"] = true,
 						["subeventPrefix"] = "SPELL",
-						["custom_hide"] = "timed",
-						["spellName"] = 205406,
-						["use_HasPet"] = false,
 						["debuffType"] = "HELPFUL",
+						["custom_hide"] = "timed",
+						["use_HasPet"] = false,
+						["spellName"] = 205406,
 						["charges_operator"] = "==",
 						["charges"] = "12",
 						["type"] = "status",
@@ -50944,6 +50944,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -50952,7 +50953,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["ingroup"] = {
 					["multi"] = {
@@ -50964,11 +50964,11 @@ WeakAurasSaved = {
 				},
 			},
 			["frameStrata"] = 1,
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["glow"] = true,
-			["text1Font"] = "Prototype",
 			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["icon"] = true,
+			["text1Font"] = "Prototype",
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = 135861,
 			["text2Color"] = {
 				1, -- [1]
@@ -51007,8 +51007,8 @@ WeakAurasSaved = {
 			["text2Font"] = "Friz Quadrata TT",
 			["conditions"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["icon"] = true,
+			["glow"] = true,
+			["stickyDuration"] = false,
 		},
 		["Warlock Grimoire"] = {
 			["text2Point"] = "BOTTOM",
@@ -51101,16 +51101,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -51130,9 +51130,9 @@ WeakAurasSaved = {
 			},
 			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Font"] = "Prototype",
 			["text2Font"] = "Prototype",
+			["text1Font"] = "Prototype",
+			["useTooltip"] = true,
 			["glow"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -51207,7 +51207,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["internalVersion"] = 9,
 		},
 		["Radiance Circle"] = {
 			["user_y"] = 0,
@@ -51443,11 +51443,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -51455,7 +51452,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -51466,17 +51466,22 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["internalVersion"] = 9,
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text1Enabled"] = true,
 			["stickyDuration"] = false,
-			["desaturate"] = false,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -51518,12 +51523,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["internalVersion"] = 9,
 		},
 		["Paladin - Shield of the Righteous"] = {
 			["text2Point"] = "CENTER",
@@ -51649,16 +51649,16 @@ WeakAurasSaved = {
 						["WARRIOR"] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -51667,7 +51667,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -51679,17 +51679,17 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["text1Containment"] = "OUTSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Active Mitigation",
+			["desaturate"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["parent"] = "Active Mitigation",
 			["xOffset"] = 0,
-			["text2Font"] = "Friz Quadrata TT",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -51767,7 +51767,7 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["desaturate"] = false,
+			["text1Containment"] = "OUTSIDE",
 		},
 		["Druid Resto Icons"] = {
 			["grow"] = "HORIZONTAL",
@@ -51988,19 +51988,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -52181,13 +52181,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+						["SHAMAN"] = true,
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 						true, -- [1]
 						true, -- [2]
 					},
 				},
-				["level_operator"] = ">=",
 				["use_class"] = true,
 				["use_spec"] = false,
 				["difficulty"] = {
@@ -52213,29 +52218,24 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "80",
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-						["SHAMAN"] = true,
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
+			["cooldownTextEnabled"] = false,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Point"] = "BOTTOM",
 			["text1Font"] = "Prototype",
-			["selfPoint"] = "CENTER",
+			["text2Point"] = "BOTTOM",
 			["icon"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -52296,7 +52296,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["cooldownTextEnabled"] = false,
+			["internalVersion"] = 9,
 		},
 		["All - Heroism"] = {
 			["glow"] = false,
@@ -52565,10 +52565,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -52577,10 +52574,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
+					},
+				},
+				["race"] = {
+					["multi"] = {
 					},
 				},
 				["spellknown"] = 22812,
@@ -52590,22 +52590,22 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["glow"] = false,
-			["desaturate"] = false,
+			["text2Font"] = "Prototype",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Prototype",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -52675,7 +52675,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["glow"] = false,
 		},
 		["Warrior Dragon Roar"] = {
 			["glow"] = false,
@@ -52786,16 +52786,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -52809,17 +52809,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["desaturate"] = false,
-			["internalVersion"] = 9,
+			["text1Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Cooldowns - Throughput",
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["parent"] = "Cooldowns - Throughput",
 			["selfPoint"] = "CENTER",
 			["text2Color"] = {
 				1, -- [1]
@@ -52875,7 +52875,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["text1Enabled"] = true,
+			["desaturate"] = false,
 		},
 		["Mage Ice Block"] = {
 			["text2Point"] = "BOTTOM",
@@ -52960,7 +52960,10 @@ WeakAurasSaved = {
 						true, -- [3]
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -52969,19 +52972,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-						["DAMAGER"] = true,
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["DAMAGER"] = true,
+						["TANK"] = true,
 					},
 				},
 				["use_class"] = true,
@@ -52992,9 +52992,16 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
-			["cooldownTextEnabled"] = false,
+			["text1Containment"] = "INSIDE",
+			["parent"] = "Cooldowns - Utility",
 			["text2Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -53010,13 +53017,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1Containment"] = "INSIDE",
 			["glow"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -53077,7 +53077,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Utility",
+			["internalVersion"] = 9,
 		},
 		["RDruid Tranq"] = {
 			["text2Point"] = "CENTER",
@@ -53161,7 +53161,7 @@ WeakAurasSaved = {
 						["DRUID"] = true,
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -53173,16 +53173,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_spellknown"] = true,
 				["use_class"] = true,
 				["spellknown"] = 740,
 				["size"] = {
@@ -53360,15 +53360,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -53380,30 +53380,16 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-					["type"] = "preset",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["text1Font"] = "Prototype",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["glow"] = true,
 			["displayIcon"] = 132314,
 			["text2Color"] = {
 				1, -- [1]
@@ -53437,8 +53423,22 @@ WeakAurasSaved = {
 			["text1Containment"] = "OUTSIDE",
 			["conditions"] = {
 			},
-			["glow"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["stickyDuration"] = false,
 		},
 		["Monk MW Essence Font"] = {
 			["glow"] = true,
@@ -53555,6 +53555,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -53563,7 +53564,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["talent2"] = {
 					["multi"] = {
@@ -53574,10 +53574,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
 			["text2Point"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -53593,15 +53593,15 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["text2FontSize"] = 24,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -53715,13 +53715,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["use_class"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -53737,17 +53737,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["icon"] = true,
-			["glow"] = false,
+			["cooldownTextEnabled"] = false,
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownTextEnabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["desaturate"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -53817,7 +53817,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["icon"] = true,
 		},
 		["Mage - Combustion"] = {
 			["text2Point"] = "CENTER",
@@ -53901,12 +53901,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -53917,10 +53917,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
+			["text1Containment"] = "OUTSIDE",
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -53928,6 +53928,15 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["desaturate"] = false,
+			["icon"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Enabled"] = true,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -53943,17 +53952,8 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["xOffset"] = 0,
-			["text1Containment"] = "OUTSIDE",
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["xOffset"] = 0,
 			["text1"] = "%c",
 			["width"] = 64,
 			["text2Enabled"] = false,
@@ -54068,19 +54068,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["ingroup"] = {
 					["multi"] = {
 					},
@@ -54091,17 +54091,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["selfPoint"] = "CENTER",
-			["useTooltip"] = true,
+			["text1Containment"] = "INSIDE",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = false,
+			["useTooltip"] = true,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = false,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -54173,7 +54173,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["selfPoint"] = "CENTER",
 		},
 		["Racial - Darkflight"] = {
 			["glow"] = false,
@@ -54294,13 +54294,13 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
-			["text1Font"] = "Prototype",
 			["text1Containment"] = "OUTSIDE",
 			["icon"] = true,
+			["text2Containment"] = "INSIDE",
+			["text2Point"] = "CENTER",
+			["text1Font"] = "Prototype",
+			["parent"] = "Active Utility",
+			["selfPoint"] = "CENTER",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -54308,10 +54308,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["parent"] = "Active Utility",
+			["stickyDuration"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["text2Point"] = "CENTER",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1"] = "%c",
 			["width"] = 64,
 			["text2Enabled"] = false,
@@ -54432,16 +54432,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -54455,17 +54455,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["internalVersion"] = 9,
-			["glow"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["parent"] = "Cooldowns - Utility",
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
 			["cooldownTextEnabled"] = false,
 			["text2Color"] = {
 				1, -- [1]
@@ -54546,7 +54546,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Utility",
+			["internalVersion"] = 9,
 		},
 		["Pummel"] = {
 			["sparkWidth"] = 10,
@@ -55006,15 +55006,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -55026,9 +55026,9 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Prototype",
-			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
+			["glow"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -55044,10 +55044,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text1Containment"] = "INSIDE",
-			["glow"] = true,
-			["text2FontSize"] = 24,
 			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
+			["cooldownTextEnabled"] = true,
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -55180,6 +55180,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -55188,7 +55189,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -55205,23 +55205,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["type"] = "preset",
-					["preset"] = "pulse",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
+			["icon"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -55238,8 +55224,22 @@ WeakAurasSaved = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["text1Containment"] = "INSIDE",
-			["icon"] = true,
+			["parent"] = "UseNows",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "preset",
+					["preset"] = "pulse",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 			["text2FontSize"] = 24,
 			["text1Font"] = "Friz Quadrata TT",
 			["text1"] = "%s",
@@ -55257,7 +55257,7 @@ WeakAurasSaved = {
 			["inverse"] = false,
 			["cooldownTextEnabled"] = true,
 			["displayIcon"] = 537026,
-			["parent"] = "UseNows",
+			["internalVersion"] = 9,
 			["text1Enabled"] = true,
 		},
 		["Active Mitigation"] = {
@@ -55484,16 +55484,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -55504,16 +55504,6 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["xOffset"] = 0,
-			["glow"] = false,
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
-			["text1Color"] = {
-				0.980392156862745, -- [1]
-				0.980392156862745, -- [2]
-				0.980392156862745, -- [3]
-				1, -- [4]
-			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -55529,6 +55519,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Color"] = {
+				0.980392156862745, -- [1]
+				0.980392156862745, -- [2]
+				0.980392156862745, -- [3]
+				1, -- [4]
+			},
+			["useTooltip"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -55589,7 +55589,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["xOffset"] = 0,
 		},
 		["Paladin Light's Hamnmer"] = {
 			["text2Point"] = "CENTER",
@@ -55672,11 +55672,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -55684,7 +55681,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -55842,6 +55842,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -55850,7 +55851,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -55858,6 +55858,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["cooldownTextEnabled"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Font"] = "Prototype",
+			["icon"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -55873,17 +55884,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text1Font"] = "Prototype",
-			["icon"] = true,
-			["text1Containment"] = "OUTSIDE",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -55891,10 +55891,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["internalVersion"] = 9,
-			["cooldownTextEnabled"] = true,
+			["stickyDuration"] = false,
+			["text1Containment"] = "OUTSIDE",
 			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -56027,9 +56027,9 @@ WeakAurasSaved = {
 			},
 			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Font"] = "Prototype",
 			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["desaturate"] = false,
 			["xOffset"] = 0,
 			["text2Color"] = {
 				1, -- [1]
@@ -56115,7 +56115,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 		},
 		["Warrior Shockwave"] = {
 			["text2Point"] = "BOTTOM",
@@ -56203,18 +56203,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -56228,22 +56228,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["xOffset"] = 0,
+			["glow"] = false,
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["xOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
+			["icon"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -56313,7 +56308,12 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Druid FR"] = {
 			["text2Point"] = "BOTTOM",
@@ -56396,7 +56396,10 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -56405,18 +56408,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
 				["use_class"] = true,
@@ -56427,31 +56427,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "pulse",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["parent"] = "Cooldowns - Throughput",
+			["icon"] = true,
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["glow"] = false,
+			["parent"] = "Cooldowns - Throughput",
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["glow"] = false,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -56512,7 +56498,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Shaman Ascendance"] = {
 			["glow"] = false,
@@ -56599,18 +56599,18 @@ WeakAurasSaved = {
 						["SHAMAN"] = true,
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_talent"] = true,
 				["use_class"] = true,
 				["use_spellknown"] = true,
-				["use_spec"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -56630,33 +56630,22 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = false,
-				},
-				["finish"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
-				},
-			},
+			["internalVersion"] = 9,
+			["parent"] = "Cooldowns - Throughput",
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Point"] = "BOTTOM",
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
+			["text2Point"] = "BOTTOM",
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -56712,7 +56701,18 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Throughput",
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = false,
+				},
+				["finish"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+			},
 		},
 		["Hunter  AotW"] = {
 			["text2Point"] = "CENTER",
@@ -56810,12 +56810,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -56837,25 +56837,6 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
-			["selfPoint"] = "CENTER",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text1Font"] = "Prototype",
-			["text1FontFlags"] = "OUTLINE",
-			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\shot.ogg",
@@ -56866,6 +56847,25 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["selfPoint"] = "CENTER",
+			["text1Containment"] = "INSIDE",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Font"] = "Prototype",
+			["text1FontFlags"] = "OUTLINE",
+			["text2FontSize"] = 24,
+			["desaturate"] = false,
 			["text1"] = "%s",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -57089,6 +57089,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -57097,7 +57098,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -57105,11 +57105,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
-			["parent"] = "Proc Buffs",
-			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
-			["text1Font"] = "Prototype",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -57126,6 +57121,11 @@ WeakAurasSaved = {
 				},
 			},
 			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "OUTSIDE",
+			["text1Font"] = "Prototype",
+			["glow"] = false,
+			["desaturate"] = false,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -57133,10 +57133,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["glow"] = false,
+			["parent"] = "Proc Buffs",
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["text1Containment"] = "OUTSIDE",
+			["cooldownTextEnabled"] = true,
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -57266,19 +57266,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -57654,13 +57654,12 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = false,
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -57669,6 +57668,7 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spellknown"] = false,
 				["spellknown"] = 48707,
 				["size"] = {
 					["multi"] = {
@@ -57676,7 +57676,9 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["internalVersion"] = 9,
+			["glow"] = false,
+			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -57692,15 +57694,13 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["parent"] = "Cooldowns - Throughput",
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
+			["parent"] = "Cooldowns - Throughput",
 			["icon"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -57761,7 +57761,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["internalVersion"] = 9,
 		},
 		["Monk - Purifying Brew"] = {
 			["glow"] = false,
@@ -57863,12 +57863,25 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "OUTSIDE",
-			["xOffset"] = 0,
-			["text2Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["stickyDuration"] = false,
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "OUTSIDE",
 			["text1Font"] = "Prototype",
 			["text2Point"] = "BOTTOMRIGHT",
+			["xOffset"] = 0,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -57884,22 +57897,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
 			["text1Enabled"] = true,
-			["internalVersion"] = 9,
 			["text2FontSize"] = 20,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["internalVersion"] = 9,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -58065,19 +58065,19 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -58088,17 +58088,17 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["glow"] = false,
-			["internalVersion"] = 9,
+			["xOffset"] = 0,
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
+			["icon"] = true,
 			["parent"] = "Cooldowns - Throughput",
 			["text2Color"] = {
 				1, -- [1]
@@ -58168,7 +58168,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["glow"] = false,
 		},
 		["Death Knight Wraithwalk"] = {
 			["text2Point"] = "BOTTOM",
@@ -58252,11 +58252,8 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -58264,7 +58261,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -58272,7 +58272,9 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["xOffset"] = 0,
+			["internalVersion"] = 9,
+			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -58288,7 +58290,12 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -58301,13 +58308,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["internalVersion"] = 9,
 			["glow"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -58368,7 +58368,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["xOffset"] = 0,
 		},
 		["Paladin Lay on Hands"] = {
 			["text2Point"] = "BOTTOM",
@@ -58455,22 +58455,22 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = true,
-				["use_spec"] = false,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
 						["TANK"] = true,
 					},
 				},
+				["use_spec"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_spellknown"] = true,
 				["spellknown"] = 633,
 				["size"] = {
 					["multi"] = {
@@ -58478,7 +58478,9 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["cooldownTextEnabled"] = false,
+			["glow"] = false,
+			["xOffset"] = 0,
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -58491,15 +58493,13 @@ WeakAurasSaved = {
 					["do_sound"] = true,
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -58569,7 +58569,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 0,
+			["cooldownTextEnabled"] = false,
 		},
 		["Warrior Intimidating"] = {
 			["glow"] = false,
@@ -58631,13 +58631,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["level_operator"] = ">=",
-				["class"] = {
-					["single"] = "WARRIOR",
+				["spec"] = {
 					["multi"] = {
-						["SHAMAN"] = true,
+						true, -- [1]
+						true, -- [2]
 					},
 				},
+				["level_operator"] = ">=",
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -58663,10 +58663,10 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "70",
-				["spec"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
-						true, -- [1]
-						true, -- [2]
+						["SHAMAN"] = true,
 					},
 				},
 				["size"] = {
@@ -58675,10 +58675,10 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["desaturate"] = false,
 			["internalVersion"] = 9,
-			["text2Containment"] = "INSIDE",
 			["xOffset"] = 0,
+			["text2Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -58883,16 +58883,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -59017,10 +59017,10 @@ WeakAurasSaved = {
 						["event"] = "Health",
 						["unit"] = "player",
 						["subeventSuffix"] = "_CAST_START",
-						["health"] = "1",
-						["custom"] = "function()\n    local buffId = 27578\n    local name = GetSpellInfo(buffId)\n    \n    for unit in aura_env.GroupMembers() do\n        if (not WA_GetUnitBuff(unit, name)) and WeakAuras.CheckRange(unit, 100, \"<=\") then\n            return true\n        end  \n    end \n    \n    return false\nend",
 						["spellIds"] = {
 						},
+						["health"] = "1",
+						["custom"] = "function()\n    local buffId = 27578\n    local name = GetSpellInfo(buffId)\n    \n    for unit in aura_env.GroupMembers() do\n        if (not WA_GetUnitBuff(unit, name)) and WeakAuras.CheckRange(unit, 100, \"<=\") then\n            return true\n        end  \n    end \n    \n    return false\nend",
 						["check"] = "update",
 						["health_operator"] = ">",
 						["unevent"] = "auto",
@@ -59129,7 +59129,7 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["parent"] = "Personal Consumables",
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["desaturate"] = false,
 			["text1Color"] = {
 				0.78039215686274, -- [1]
 				0.61176470588235, -- [2]
@@ -59147,7 +59147,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
+			["text1Enabled"] = false,
 			["text2FontSize"] = 30,
 			["stickyDuration"] = false,
 			["text1"] = "Use Raid Buff",
@@ -59160,13 +59160,13 @@ WeakAurasSaved = {
 			["text2"] = "Buff",
 			["alpha"] = 1,
 			["width"] = 100,
-			["text1Enabled"] = false,
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "Friz Quadrata TT",
 			["inverse"] = false,
-			["cooldownTextEnabled"] = true,
+			["icon"] = true,
 			["displayIcon"] = 132333,
 			["xOffset"] = 0,
-			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
 		},
 		["DPriest PS"] = {
 			["text2Point"] = "CENTER",
@@ -59248,12 +59248,16 @@ WeakAurasSaved = {
 						[10] = true,
 					},
 				},
+				["spec"] = {
+					["multi"] = {
+						true, -- [1]
+					},
+				},
 				["class"] = {
 					["single"] = "PRIEST",
 					["multi"] = {
 					},
 				},
-				["level_operator"] = ">=",
 				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
@@ -59277,28 +59281,24 @@ WeakAurasSaved = {
 					},
 				},
 				["level"] = "48",
-				["spec"] = {
-					["multi"] = {
-						true, -- [1]
-					},
-				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["cooldownTextEnabled"] = true,
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["xOffset"] = 0,
 			["internalVersion"] = 9,
-			["text1Containment"] = "INSIDE",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["text1Font"] = "Prototype",
@@ -59349,7 +59349,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["text2Font"] = "Friz Quadrata TT",
+			["cooldownTextEnabled"] = true,
 		},
 		["Mind Freeze"] = {
 			["textFlags"] = "None",
@@ -59817,10 +59817,14 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["glow"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
-			["text1Font"] = "Prototype",
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -59828,6 +59832,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text1Enabled"] = true,
+			["text1Font"] = "Prototype",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -59856,12 +59861,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 		},
 		["Interrupts and Dispells"] = {
 			["grow"] = "DOWN",
@@ -60114,12 +60114,12 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextEnabled"] = false,
-			["useTooltip"] = true,
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Font"] = "Prototype",
 			["xOffset"] = 0,
+			["icon"] = true,
+			["text2Containment"] = "INSIDE",
+			["useTooltip"] = true,
+			["text1Font"] = "Prototype",
+			["text2Font"] = "Friz Quadrata TT",
 			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -60194,7 +60194,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["icon"] = true,
+			["cooldownTextEnabled"] = false,
 		},
 		["FR percentage Health Lite "] = {
 			["textFlags"] = "None",
@@ -60257,19 +60257,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -60383,7 +60383,7 @@ WeakAurasSaved = {
 					["scaley"] = 1,
 					["scalex"] = 1,
 					["colorType"] = "custom",
-					["duration"] = "1",
+					["use_color"] = true,
 					["alpha"] = 0,
 					["x"] = 0,
 					["y"] = 0,
@@ -60392,8 +60392,8 @@ WeakAurasSaved = {
 					["colorB"] = 0,
 					["colorFunc"] = "function()\n    if WA_GRELORNE_PERCENTAGE_HEAL < 10 then\n        return 0,255,0    \n    elseif WA_GRELORNE_PERCENTAGE_HEAL >= 10 and WA_GRELORNE_PERCENTAGE_HEAL < 30 then\n        return 255,255,0 \n    elseif WA_GRELORNE_PERCENTAGE_HEAL >= 30 then\n        return 255,0,0\n    end\nend\n\n\n\n\n\n\n",
 					["rotate"] = 0,
-					["use_color"] = true,
 					["duration_type"] = "seconds",
+					["duration"] = "1",
 				},
 				["finish"] = {
 					["type"] = "none",
@@ -60580,16 +60580,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
@@ -60763,15 +60763,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -60782,26 +60782,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-					["type"] = "none",
-				},
-				["main"] = {
-					["preset"] = "pulse",
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-					["type"] = "none",
-				},
-			},
+			["parent"] = "UseNows",
 			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
+			["xOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -60813,10 +60797,10 @@ WeakAurasSaved = {
 			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["parent"] = "UseNows",
+			["internalVersion"] = 9,
 			["text1Font"] = "Prototype",
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["cooldownTextEnabled"] = true,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -60848,7 +60832,23 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
-			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+					["type"] = "none",
+				},
+				["main"] = {
+					["preset"] = "pulse",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+					["type"] = "none",
+				},
+			},
 		},
 		["Druid Use Ironfur"] = {
 			["text2Point"] = "CENTER",
@@ -60872,7 +60872,7 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["genericShowOn"] = "showOnActive",
 						["event"] = "Action Usable",
-						["subeventPrefix"] = "SPELL",
+						["unit"] = "player",
 						["realSpellName"] = "Ironfur",
 						["use_spellName"] = true,
 						["spellIds"] = {
@@ -60880,8 +60880,8 @@ WeakAurasSaved = {
 						["spellName"] = 192081,
 						["names"] = {
 						},
-						["unit"] = "player",
 						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -60937,7 +60937,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["class"] = {
 					["single"] = "DRUID",
 					["multi"] = {
@@ -60945,7 +60948,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spellknown"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -60961,10 +60964,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["use_combat"] = true,
 				["spellknown"] = 192081,
@@ -60973,22 +60973,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["internalVersion"] = 9,
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
 			["text1FontFlags"] = "OUTLINE",
-			["text1Font"] = "Prototype",
-			["text1Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
-			["text2Color"] = {
+			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["regionType"] = "icon",
-			["cooldownTextEnabled"] = true,
-			["xOffset"] = 0,
-			["text2FontSize"] = 24,
+			["parent"] = "UseNows",
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -60999,6 +60993,17 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["glow"] = true,
+			["text1Font"] = "Prototype",
+			["text2FontSize"] = 24,
+			["text1Containment"] = "INSIDE",
 			["text1"] = "%c",
 			["animation"] = {
 				["start"] = {
@@ -61024,18 +61029,13 @@ WeakAurasSaved = {
 			["text2Enabled"] = false,
 			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
-			["glow"] = true,
+			["stickyDuration"] = false,
 			["inverse"] = false,
-			["parent"] = "UseNows",
+			["internalVersion"] = 9,
 			["conditions"] = {
 			},
-			["stickyDuration"] = false,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = 0,
+			["cooldownTextEnabled"] = true,
 		},
 		["Consume Magic"] = {
 			["textFlags"] = "None",
@@ -61372,12 +61372,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["cooldownTextEnabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -61385,16 +61380,21 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "OUTSIDE",
+			["parent"] = "Active Utility",
 			["text1Font"] = "Prototype",
 			["glow"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["desaturate"] = false,
-			["cooldownTextEnabled"] = true,
+			["text1Containment"] = "OUTSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 			["text2FontSize"] = 24,
-			["parent"] = "Active Utility",
+			["desaturate"] = false,
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -61502,8 +61502,9 @@ WeakAurasSaved = {
 						["SHAMAN"] = true,
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["TANK"] = true,
 					},
 				},
 				["pvptalent"] = {
@@ -61514,17 +61515,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["use_class"] = true,
 				["spellknown"] = 186289,
 				["size"] = {
@@ -61533,17 +61533,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["useTooltip"] = true,
-			["text2Font"] = "Prototype",
+			["text1Containment"] = "INSIDE",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Cooldowns - Throughput",
+			["text2Font"] = "Prototype",
 			["text1Color"] = {
 				0.980392156862745, -- [1]
 				0.980392156862745, -- [2]
 				0.980392156862745, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["parent"] = "Cooldowns - Throughput",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -61629,7 +61629,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 		},
 		["Demon Hunter - Metamorphosis"] = {
 			["text2Point"] = "CENTER",
@@ -61752,12 +61752,12 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["internalVersion"] = 9,
-			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
-			["text1Font"] = "Prototype",
-			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
+			["text2Containment"] = "INSIDE",
+			["stickyDuration"] = false,
+			["text1Font"] = "Prototype",
+			["cooldownTextEnabled"] = true,
+			["desaturate"] = false,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -61813,7 +61813,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["stickyDuration"] = false,
+			["internalVersion"] = 9,
 		},
 		["Death Knight - AMS"] = {
 			["glow"] = false,
@@ -61939,17 +61939,12 @@ WeakAurasSaved = {
 				},
 			},
 			["text2Enabled"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2Containment"] = "INSIDE",
-			["parent"] = "Active Defensives",
-			["text1Font"] = "Prototype",
-			["icon"] = true,
 			["selfPoint"] = "CENTER",
+			["text2Containment"] = "INSIDE",
+			["desaturate"] = false,
+			["text1Font"] = "Prototype",
+			["parent"] = "Active Defensives",
+			["icon"] = true,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -61996,7 +61991,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Cooldowns - Throughput"] = {
 			["grow"] = "HORIZONTAL",
@@ -62267,12 +62267,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -62280,9 +62275,18 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "OUTSIDE",
+			["xOffset"] = 0,
 			["text1Font"] = "Prototype",
 			["glow"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["text1Containment"] = "OUTSIDE",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -62298,8 +62302,7 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
+			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
 				},
@@ -62308,9 +62311,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["internalVersion"] = 9,
-			["text2FontSize"] = 24,
-			["xOffset"] = 0,
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -62471,12 +62471,12 @@ WeakAurasSaved = {
 				["level_operator"] = ">=",
 			},
 			["width"] = 60,
-			["internalVersion"] = 9,
-			["text2Font"] = "Friz Quadrata TT",
-			["text2Containment"] = "INSIDE",
-			["icon"] = true,
-			["text1Font"] = "Prototype",
 			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
+			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Font"] = "Prototype",
+			["icon"] = true,
 			["useTooltip"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -62551,7 +62551,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["desaturate"] = false,
+			["internalVersion"] = 9,
 		},
 		["Hunter  Dire Beast"] = {
 			["text2Point"] = "CENTER",
@@ -62661,6 +62661,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -62669,7 +62670,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -62677,7 +62677,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -62685,21 +62685,21 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["glow"] = false,
+			["icon"] = true,
 			["text1Font"] = "Prototype",
 			["selfPoint"] = "CENTER",
+			["cooldownTextEnabled"] = true,
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["glow"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["desaturate"] = false,
-			["text1Containment"] = "INSIDE",
 			["text2FontSize"] = 24,
-			["icon"] = true,
+			["desaturate"] = false,
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -62809,19 +62809,19 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
-				["race"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = false,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -62829,17 +62829,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["useTooltip"] = true,
-			["glow"] = false,
+			["parent"] = "Cooldowns - Utility",
+			["internalVersion"] = 9,
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "Cooldowns - Utility",
+			["xOffset"] = 0,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -62920,7 +62920,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 		},
 		["Shaman Lava Lash"] = {
 			["text2Point"] = "CENTER",
@@ -63041,6 +63041,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -63049,7 +63050,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["use_class"] = true,
 				["size"] = {
@@ -63062,26 +63062,23 @@ WeakAurasSaved = {
 			["text2Containment"] = "INSIDE",
 			["internalVersion"] = 9,
 			["text1Font"] = "Prototype",
-			["text2Font"] = "Friz Quadrata TT",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["displayIcon"] = 236289,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["glow"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["preset"] = "pulse",
-					["type"] = "preset",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["text2Font"] = "Friz Quadrata TT",
 			["text2FontSize"] = 24,
 			["xOffset"] = 0,
 			["text1"] = "%c",
@@ -63100,7 +63097,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "UseNows",
+			["desaturate"] = false,
 			["inverse"] = false,
 			["text1Color"] = {
 				1, -- [1]
@@ -63110,19 +63107,22 @@ WeakAurasSaved = {
 			},
 			["conditions"] = {
 			},
-			["actions"] = {
+			["parent"] = "UseNows",
+			["animation"] = {
 				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
-					["do_sound"] = true,
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
-				["init"] = {
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "preset",
 				},
 				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 			},
-			["desaturate"] = false,
 		},
 		["Proc Buffs"] = {
 			["grow"] = "LEFT",
@@ -63369,20 +63369,20 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["TANK"] = true,
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = false,
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -63490,18 +63490,18 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["unevent"] = "auto",
 						["genericShowOn"] = "showOnActive",
-						["unit"] = "pet",
+						["names"] = {
+							"Ironfur", -- [1]
+						},
 						["event"] = "Conditions",
-						["use_unit"] = true,
+						["unit"] = "pet",
 						["subeventSuffix"] = "_CAST_START",
 						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
 						["inverse"] = true,
 						["use_behavior"] = true,
-						["names"] = {
-							"Ironfur", -- [1]
-						},
+						["use_unit"] = true,
 						["use_HasPet"] = false,
 						["custom_hide"] = "timed",
 					},
@@ -63554,12 +63554,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -63574,13 +63574,17 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Font"] = "Prototype",
-			["text2Font"] = "Friz Quadrata TT",
+			["parent"] = "UseNows",
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
 			["text1Color"] = {
 				1, -- [1]
@@ -63597,19 +63601,15 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["parent"] = "UseNows",
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["text2FontSize"] = 24,
 			["internalVersion"] = 9,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1"] = "%c",
 			["width"] = 45,
 			["frameStrata"] = 1,
@@ -63747,7 +63747,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Active Defensives",
+			["xOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -63755,6 +63755,12 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["desaturate"] = false,
+			["parent"] = "Active Defensives",
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -63770,15 +63776,9 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text1Font"] = "Prototype",
-			["desaturate"] = false,
 			["cooldownTextEnabled"] = true,
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -63912,12 +63912,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["use_spec"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -63932,11 +63932,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["text2Point"] = "CENTER",
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
-			["text1Font"] = "Prototype",
 			["internalVersion"] = 9,
 			["actions"] = {
 				["start"] = {
@@ -63948,6 +63943,11 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["text2Containment"] = "INSIDE",
+			["desaturate"] = false,
+			["text1Font"] = "Prototype",
+			["selfPoint"] = "CENTER",
+			["text1Containment"] = "INSIDE",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -63955,10 +63955,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["text2Point"] = "CENTER",
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["desaturate"] = false,
+			["xOffset"] = 0,
 			["text1"] = "%s",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -64099,13 +64099,12 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["use_spellknown"] = false,
-				["use_spec"] = true,
-				["faction"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -64114,6 +64113,7 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spellknown"] = false,
 				["spellknown"] = 48792,
 				["size"] = {
 					["multi"] = {
@@ -64121,12 +64121,12 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 80,
-			["xOffset"] = 0,
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
-			["text1Font"] = "Prototype",
 			["parent"] = "Cooldowns - Throughput",
+			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "INSIDE",
+			["text1Font"] = "Prototype",
+			["selfPoint"] = "CENTER",
 			["internalVersion"] = 9,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -64187,7 +64187,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = true,
+			["xOffset"] = 0,
 		},
 		["Paladin Hammer of Justice"] = {
 			["text2Point"] = "BOTTOM",
@@ -64271,25 +64271,25 @@ WeakAurasSaved = {
 						[2] = true,
 					},
 				},
-				["use_spellknown"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
 				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-						["DAMAGER"] = true,
-						["TANK"] = true,
-					},
-				},
+				["use_spellknown"] = true,
 				["use_spec"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
+						["DAMAGER"] = true,
+						["TANK"] = true,
 					},
 				},
 				["difficulty"] = {
@@ -64303,36 +64303,22 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "bounce",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["internalVersion"] = 9,
+			["parent"] = "Cooldowns - Utility",
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["internalVersion"] = 9,
+			["useTooltip"] = true,
 			["glow"] = false,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -64388,7 +64374,21 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "Cooldowns - Utility",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "bounce",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["massdispell"] = {
 			["textFlags"] = "None",
@@ -64733,7 +64733,9 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["text1Enabled"] = true,
+			["desaturate"] = false,
+			["xOffset"] = 0,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -64749,15 +64751,13 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["parent"] = "Cooldowns - Utility",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["desaturate"] = false,
+			["parent"] = "Cooldowns - Utility",
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -64813,7 +64813,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 0,
+			["text1Enabled"] = true,
 		},
 		["Active Defensives"] = {
 			["grow"] = "DOWN",
@@ -65013,20 +65013,20 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -65283,11 +65283,8 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
+				["use_spec"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -65295,7 +65292,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -65483,7 +65483,25 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Active Defensives",
+			["stickyDuration"] = false,
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Enabled"] = true,
+			["desaturate"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -65499,27 +65517,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stickyDuration"] = false,
-			["internalVersion"] = 9,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text1Enabled"] = true,
 			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["cooldownTextEnabled"] = true,
+			["parent"] = "Active Defensives",
 			["text1"] = "%c",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -65638,21 +65638,21 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
 				["role"] = {
 					["multi"] = {
 						["DAMAGER"] = true,
 						["TANK"] = true,
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -65663,16 +65663,6 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 60,
-			["icon"] = true,
-			["glow"] = false,
-			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = false,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -65688,6 +65678,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["glow"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldownTextEnabled"] = false,
 			["useTooltip"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -65748,7 +65748,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["icon"] = true,
 		},
 		["Paladin Tyr's Deliverance"] = {
 			["text2Point"] = "CENTER",
@@ -65854,16 +65854,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -66003,6 +66003,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -66011,7 +66012,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_combat"] = true,
 				["talent2"] = {
 					["multi"] = {
@@ -66022,20 +66022,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["cooldownTextEnabled"] = true,
-			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text1Font"] = "Friz Quadrata TT",
-			["text1Enabled"] = true,
-			["displayIcon"] = 136201,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -66049,6 +66035,31 @@ WeakAurasSaved = {
 				["finish"] = {
 					["type"] = "none",
 					["duration_type"] = "seconds",
+				},
+			},
+			["cooldownTextEnabled"] = true,
+			["text2Containment"] = "INSIDE",
+			["desaturate"] = false,
+			["text1Font"] = "Friz Quadrata TT",
+			["text1Enabled"] = true,
+			["displayIcon"] = 136201,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
+					["do_sound"] = true,
+				},
+				["init"] = {
+				},
+				["finish"] = {
 				},
 			},
 			["text1Color"] = {
@@ -66075,19 +66086,8 @@ WeakAurasSaved = {
 			["internalVersion"] = 9,
 			["conditions"] = {
 			},
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\Shotgun.ogg",
-					["do_sound"] = true,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["desaturate"] = false,
+			["stickyDuration"] = false,
+			["xOffset"] = 0,
 		},
 		["Priest Graphics Holy "] = {
 			["backdropColor"] = {
@@ -66136,7 +66136,21 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = -10,
 			},
 			["internalVersion"] = 9,
-			["borderOffset"] = 5,
+			["borderEdge"] = "None",
+			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "Priest Graphics Holy ",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["scale"] = 1,
+			["borderInset"] = 11,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -66151,13 +66165,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Priest Graphics Holy ",
-			["scale"] = 1,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "BOTTOMLEFT",
-			["borderInset"] = 11,
-			["borderEdge"] = "None",
 			["anchorPoint"] = "CENTER",
 			["conditions"] = {
 			},
@@ -66177,14 +66184,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["borderOffset"] = 5,
 		},
 		["Warlock Pet MIssing"] = {
 			["text2Point"] = "CENTER",
@@ -66299,11 +66299,25 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["icon"] = true,
-			["text1Font"] = "Prototype",
 			["cooldownTextEnabled"] = true,
+			["text2Containment"] = "INSIDE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "preset",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["text1Font"] = "Prototype",
+			["glow"] = true,
 			["displayIcon"] = 460856,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
@@ -66337,22 +66351,8 @@ WeakAurasSaved = {
 			["parent"] = "UseNows",
 			["conditions"] = {
 			},
-			["glow"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["preset"] = "pulse",
-					["type"] = "preset",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["icon"] = true,
+			["stickyDuration"] = false,
 		},
 		["UseNows"] = {
 			["grow"] = "COUNTERCIRCLE",
@@ -66601,47 +66601,41 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["glow"] = false,
-			["text2Containment"] = "INSIDE",
-			["text1FontFlags"] = "OUTLINE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["text1FontFlags"] = "OUTLINE",
 			["text1Font"] = "Friz Quadrata TT",
-			["text2Color"] = {
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				0.400000035762787, -- [4]
 			},
-			["regionType"] = "icon",
-			["xOffset"] = 0,
-			["text2Font"] = "Friz Quadrata TT",
-			["text2FontSize"] = 24,
 			["actions"] = {
 				["start"] = {
 				},
@@ -66650,28 +66644,14 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text1"] = "%s",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
-			["auto"] = true,
-			["text2Enabled"] = false,
-			["id"] = "Priest - Holy Fire",
-			["text2"] = "%p",
-			["alpha"] = 1,
-			["width"] = 64,
-			["stickyDuration"] = false,
-			["internalVersion"] = 9,
-			["inverse"] = false,
-			["color"] = {
+			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				0.400000035762787, -- [4]
+				1, -- [4]
 			},
-			["conditions"] = {
-			},
-			["parent"] = "Healer DPS",
+			["regionType"] = "icon",
+			["internalVersion"] = 9,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -66686,6 +66666,26 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["text2FontSize"] = 24,
+			["text1Containment"] = "INSIDE",
+			["text1"] = "%s",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["auto"] = true,
+			["text2Enabled"] = false,
+			["id"] = "Priest - Holy Fire",
+			["text2"] = "%p",
+			["alpha"] = 1,
+			["width"] = 64,
+			["stickyDuration"] = false,
+			["parent"] = "Healer DPS",
+			["inverse"] = false,
+			["glow"] = false,
+			["conditions"] = {
+			},
+			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
 		},
 		["Paladin - Ardent Defender"] = {
 			["glow"] = false,
@@ -66784,16 +66784,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_spellknown"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -66813,10 +66813,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Active Defensives",
+			["selfPoint"] = "CENTER",
 			["text1Font"] = "Prototype",
 			["text2Containment"] = "INSIDE",
-			["xOffset"] = 0,
+			["internalVersion"] = 9,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -66829,7 +66829,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["stickyDuration"] = false,
+			["parent"] = "Active Defensives",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -66837,10 +66837,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["icon"] = true,
-			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
 			["text2FontSize"] = 24,
-			["internalVersion"] = 9,
+			["icon"] = true,
 			["text1"] = "%s",
 			["width"] = 64,
 			["frameStrata"] = 1,
@@ -66983,12 +66983,12 @@ WeakAurasSaved = {
 				},
 			},
 			["text2Enabled"] = false,
-			["parent"] = "Active Defensives",
-			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
-			["text1Font"] = "Prototype",
-			["text1Containment"] = "INSIDE",
 			["glow"] = false,
+			["text2Containment"] = "INSIDE",
+			["internalVersion"] = 9,
+			["text1Font"] = "Prototype",
+			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["animation"] = {
@@ -67054,7 +67054,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["parent"] = "Active Defensives",
 		},
 		["All - Lightfoot Potion"] = {
 			["text2Point"] = "CENTER",
@@ -67183,11 +67183,11 @@ WeakAurasSaved = {
 			["text2Containment"] = "INSIDE",
 			["desaturate"] = false,
 			["text1Font"] = "Prototype",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Containment"] = "OUTSIDE",
-			["parent"] = "Active Utility",
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["text1Enabled"] = true,
+			["parent"] = "Active Utility",
 			["actions"] = {
 				["start"] = {
 				},
@@ -67197,7 +67197,7 @@ WeakAurasSaved = {
 				},
 			},
 			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
+			["text1Enabled"] = true,
 			["text1"] = "%c",
 			["anchorFrameType"] = "SCREEN",
 			["text2Enabled"] = false,
@@ -67328,12 +67328,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -67348,11 +67348,11 @@ WeakAurasSaved = {
 				},
 			},
 			["text2"] = "%p",
-			["selfPoint"] = "CENTER",
-			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["text1Font"] = "Friz Quadrata TT",
 			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "INSIDE",
+			["text1Font"] = "Friz Quadrata TT",
+			["text2Font"] = "Friz Quadrata TT",
 			["displayIcon"] = 136149,
 			["text2Color"] = {
 				1, -- [1]
@@ -67397,8 +67397,8 @@ WeakAurasSaved = {
 			["xOffset"] = 0,
 			["conditions"] = {
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Containment"] = "INSIDE",
+			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
 		},
 		["Wind Shear"] = {
 			["textFlags"] = "None",
@@ -67716,9 +67716,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Proc Buffs",
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -67734,6 +67739,8 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["text2Containment"] = "INSIDE",
+			["parent"] = "Proc Buffs",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -67741,7 +67748,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text1Font"] = "Prototype",
-			["text1Enabled"] = true,
+			["stickyDuration"] = false,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -67749,17 +67756,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
+			["text1Enabled"] = true,
 			["glow"] = false,
-			["text1Containment"] = "OUTSIDE",
 			["text2FontSize"] = 24,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["text1Containment"] = "OUTSIDE",
 			["text1"] = "%s",
 			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
@@ -67858,14 +67858,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spellknown"] = true,
+				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-						["TANK"] = true,
 					},
 				},
 				["faction"] = {
@@ -67877,7 +67873,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spellknown"] = true,
+				["role"] = {
+					["multi"] = {
+						["TANK"] = true,
+					},
+				},
 				["spellknown"] = 31884,
 				["size"] = {
 					["multi"] = {
@@ -68095,12 +68095,12 @@ WeakAurasSaved = {
 				},
 			},
 			["alpha"] = 1,
-			["text2Point"] = "CENTER",
-			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
-			["text1Font"] = "Prototype",
-			["desaturate"] = false,
 			["parent"] = "Active Utility",
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "OUTSIDE",
+			["text1Font"] = "Prototype",
+			["text1Enabled"] = true,
+			["desaturate"] = false,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -68154,7 +68154,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["text1Containment"] = "OUTSIDE",
+			["text2Point"] = "CENTER",
 		},
 		["Mage Evocation CD"] = {
 			["glow"] = false,
@@ -68250,16 +68250,16 @@ WeakAurasSaved = {
 						["TANK"] = true,
 					},
 				},
-				["use_spec"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -68489,7 +68489,11 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["use_ingroup"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
@@ -68498,15 +68502,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_ingroup"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -68518,7 +68518,14 @@ WeakAurasSaved = {
 				0.90980392156863, -- [3]
 				1, -- [4]
 			},
-			["fixedWidth"] = 200,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["backgroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
 			["displayStacks"] = "%c",
 			["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura73",
@@ -68531,7 +68538,7 @@ WeakAurasSaved = {
 			["blendMode"] = "ADD",
 			["frameStrata"] = 1,
 			["crop_y"] = 0.41,
-			["selfPoint"] = "CENTER",
+			["fixedWidth"] = 200,
 			["fontSize"] = 32,
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.3,
@@ -68542,14 +68549,7 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["icon"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["selfPoint"] = "CENTER",
 			["inverse"] = false,
 			["displayIcon"] = 458720,
 			["orientation"] = "CLOCKWISE",

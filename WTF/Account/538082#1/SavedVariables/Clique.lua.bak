@@ -59,11 +59,11 @@ CliqueDB3 = {
 		},
 		["Greybone - Proudmoore"] = {
 			["spec1_profileKey"] = "Greybone - Proudmoore",
-			["spec3_profileKey"] = "Greybone - Proudmoore",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec3_profileKey"] = "Greybone - Proudmoore",
 			["spec2_profileKey"] = "Greybone - Proudmoore",
-			["specswap"] = false,
 		},
 		["Faerand - Proudmoore"] = {
 			["spec1_profileKey"] = "Faerand - Proudmoore",
@@ -75,12 +75,12 @@ CliqueDB3 = {
 		},
 		["Amranar - Proudmoore"] = {
 			["spec1_profileKey"] = "Druid - Balance",
-			["spec2_profileKey"] = "Druid - Feral",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Druid - Guardian",
-			["specswap"] = true,
 			["spec4_profileKey"] = "Druid - Resto",
+			["spec2_profileKey"] = "Druid - Feral",
+			["spec3_profileKey"] = "Druid - Guardian",
 		},
 		["Zearthan - Proudmoore"] = {
 			["spec1_profileKey"] = "Zearthan - Proudmoore",
@@ -92,11 +92,11 @@ CliqueDB3 = {
 		},
 		["Deminath - Proudmoore"] = {
 			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["specswap"] = false,
+			["spec3_profileKey"] = "Deminath - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 			["spec2_profileKey"] = "Deminath - Proudmoore",
-			["spec3_profileKey"] = "Deminath - Proudmoore",
 		},
 		["Rahran - Proudmoore"] = {
 			["spec1_profileKey"] = "Rahran - Proudmoore",
@@ -116,25 +116,25 @@ CliqueDB3 = {
 		},
 		["Praerend - Icecrown"] = {
 			["spec1_profileKey"] = "Praerend - Icecrown",
-			["spec2_profileKey"] = "Praerend - Icecrown",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Praerend - Icecrown",
 			["spec3_profileKey"] = "Praerend - Icecrown",
-			["specswap"] = false,
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
-			["spec2_profileKey"] = "Shaman - Resto",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = true,
 			["spec3_profileKey"] = "Shaman - Resto",
+			["spec2_profileKey"] = "Shaman - Resto",
 		},
 		["Miriyal - Proudmoore"] = {
 			["spec1_profileKey"] = "Non-Healer",
+			["fastooc"] = false,
 			["spec3_profileKey"] = "Non-Healer",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = true,
 			["spec2_profileKey"] = "Monk - Mistweaver",
 		},
@@ -157,11 +157,11 @@ CliqueDB3 = {
 		},
 		["Thedodrouk - Icecrown"] = {
 			["spec1_profileKey"] = "Thedodrouk - Icecrown",
+			["spec3_profileKey"] = "Thedodrouk - Icecrown",
+			["downclick"] = false,
 			["fastooc"] = false,
 			["spec2_profileKey"] = "Thedodrouk - Icecrown",
-			["downclick"] = false,
 			["specswap"] = false,
-			["spec3_profileKey"] = "Thedodrouk - Icecrown",
 		},
 		["Granjior - Proudmoore"] = {
 			["spec1_profileKey"] = "Paladin - Holy",
@@ -205,21 +205,21 @@ CliqueDB3 = {
 		},
 		["Alura - Tichondrius"] = {
 			["spec1_profileKey"] = "Priest - Disc",
-			["spec2_profileKey"] = "Priest - Holy",
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["spec3_profileKey"] = "Priest - Shadow",
 			["specswap"] = true,
+			["spec2_profileKey"] = "Priest - Holy",
 		},
 		["Mallusof - Icecrown"] = {
 			["spec1_profileKey"] = "Priest - Disc",
-			["spec3_profileKey"] = "Non-Healer",
-			["downclick"] = false,
-			["spec2_profileKey"] = "Priest - Holy",
-			["fastooc"] = false,
-			["specswap"] = true,
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["specswap"] = true,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Priest - Holy",
 			["blacklist"] = {
 				["oUF_LUI_player"] = true,
 				["oUF_LUI_target"] = true,
@@ -247,7 +247,7 @@ CliqueDB3 = {
 		["Miriyal - Proudmoore"] = "Non-Healer",
 		["Amranar - Proudmoore"] = "Druid - Feral",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
-		["Alura - Tichondrius"] = "Priest - Disc",
+		["Alura - Tichondrius"] = "Priest - Shadow",
 		["Mallusof - Icecrown"] = "Non-Healer",
 	},
 	["profiles"] = {
@@ -902,24 +902,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["spell"] = "Shadow Mend",
-					["key"] = "3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136202,
-					["type"] = "spell",
-				}, -- [2]
-				{
-					["spell"] = "Power Word: Radiance",
-					["key"] = "Q",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 1386546,
-					["type"] = "spell",
-				}, -- [3]
-				{
 					["spell"] = "Pain Suppression",
 					["key"] = "SHIFT-T",
 					["sets"] = {
@@ -927,7 +909,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135936,
 					["type"] = "spell",
-				}, -- [4]
+				}, -- [2]
 				{
 					["spell"] = "Penance",
 					["key"] = "SHIFT-F",
@@ -935,6 +917,24 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 237545,
+					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Shadow Mend",
+					["key"] = "3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136202,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Power Word: Radiance",
+					["key"] = "Q",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 1386546,
 					["type"] = "spell",
 				}, -- [5]
 				{
@@ -947,24 +947,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [6]
 				{
-					["spell"] = "Power Word: Shield",
-					["key"] = "F",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135940,
-					["type"] = "spell",
-				}, -- [7]
-				{
-					["spell"] = "Purify",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135894,
-					["type"] = "spell",
-				}, -- [8]
-				{
 					["spell"] = "Leap of Faith",
 					["key"] = "T",
 					["sets"] = {
@@ -972,7 +954,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 463835,
 					["type"] = "spell",
-				}, -- [9]
+				}, -- [7]
 				{
 					["spell"] = "Dispel Magic",
 					["key"] = "2",
@@ -980,6 +962,24 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 136066,
+					["type"] = "spell",
+				}, -- [8]
+				{
+					["spell"] = "Power Word: Shield",
+					["key"] = "F",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135940,
+					["type"] = "spell",
+				}, -- [9]
+				{
+					["spell"] = "Purify",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135894,
 					["type"] = "spell",
 				}, -- [10]
 				{

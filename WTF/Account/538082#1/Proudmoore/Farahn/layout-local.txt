@@ -54,4 +54,4 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 300
-H: 310
+H: 176

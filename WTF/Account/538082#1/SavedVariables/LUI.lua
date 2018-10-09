@@ -60,10 +60,10 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 647719998,
-							["Praerend"] = 1501005466,
+							["Mallusof"] = 616306104,
+							["Praerend"] = 1500542195,
 							["Faerand"] = 331462352,
-							["Thedodrouk"] = 7431811,
+							["Thedodrouk"] = 7500764,
 							["Rahran"] = 594441111,
 						},
 					},
@@ -71,9 +71,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -93,14 +93,14 @@ LUIDB = {
 							["Kindhoof"] = 1186116499,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 372968048,
+							["Miriyal"] = 373580598,
 							["Farahn"] = 207174970,
 							["Greybone"] = 987100358,
 							["Amranar"] = 599870423,
 							["Granjior"] = 1186116499,
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38822533,
-							["Korugen"] = 8043103,
+							["Korugen"] = 8207000,
 							["Fimwack"] = 1625871926,
 							["Mallusof"] = 1162234125,
 							["Morifa"] = 1385014335,
@@ -113,7 +113,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Alura"] = 3644837,
+							["Alura"] = 3644797,
 							["Lorvol"] = 1057540,
 							["Morifa"] = 1396339366,
 							["Zaliga"] = 8607092,
@@ -207,14 +207,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -242,16 +248,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -714,6 +714,11 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
+								["Y"] = 90,
+								["X"] = 375,
+								["Lock"] = false,
+								["Texture"] = "oUF LUI",
+								["Width"] = 200,
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -1152,54 +1157,54 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [1]
-							"/gdisband", -- [2]
-							"/i hey guys?", -- [3]
-							"/rchars", -- [4]
-							"/gdisband", -- [5]
+							"/gdisband", -- [1]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [2]
+							"/rchars", -- [3]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [4]
+							"/rchars", -- [5]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [6]
-							"/i hey guys?", -- [7]
-							"/gdisband", -- [8]
-							"/i hey guys?", -- [9]
-							"/gdisband", -- [10]
-							"/rchars", -- [11]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [12]
-							"/gdisband", -- [13]
+							"/gdisband", -- [7]
+							"/rchars", -- [8]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [9]
+							"/rchars", -- [10]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
+							"/gdisband", -- [12]
+							"/rchars", -- [13]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [14]
 							"/gdisband", -- [15]
-							"/i hey guys?", -- [16]
-							"/rchars", -- [17]
-							"/gdisband", -- [18]
+							"/rchars", -- [16]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [17]
+							"/rchars", -- [18]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [19]
-							"/i hey guys?", -- [20]
-							"/gdisband", -- [21]
-							"/i hey guys?", -- [22]
-							"/gdisband", -- [23]
+							"/gdisband", -- [20]
+							"/rchars", -- [21]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [22]
+							"/rchars", -- [23]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [24]
-							"/gdisband", -- [25]
-							"/rchars", -- [26]
+							"/rchars", -- [25]
+							"/gdisband", -- [26]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [27]
 							"/gdisband", -- [28]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [29]
 							"/rchars", -- [30]
-							"/gdisband", -- [31]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [31]
 							"/rchars", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/2 contact CS", -- [1]
 							" hahaha", -- [2]
 							"/2 contact CS", -- [3]
-							"/focus", -- [4]
-							" hahaha", -- [5]
-							"/focus", -- [6]
-							" hahaha", -- [7]
-							"/2 contact CS", -- [8]
-							" hahaha", -- [9]
-							"/2 contact CS", -- [10]
-							"/rematch", -- [11]
-							"/2 contact CS", -- [12]
-							"/focus", -- [13]
-							"/2 contact CS", -- [14]
+							"/rematch", -- [4]
+							"/focus", -- [5]
+							" hahaha", -- [6]
+							"/focus", -- [7]
+							" hahaha", -- [8]
+							"/2 contact CS", -- [9]
+							"/focus", -- [10]
+							" hahaha", -- [11]
+							"/focus", -- [12]
+							"/2 contact CS", -- [13]
+							"/focus", -- [14]
 							" hahaha", -- [15]
 							"/2 contact CS", -- [16]
 							"/focus", -- [17]
@@ -1207,85 +1212,85 @@ LUIDB = {
 							"/focus", -- [19]
 							" hahaha", -- [20]
 							"/2 contact CS", -- [21]
-							" hahaha", -- [22]
-							"/2 contact CS", -- [23]
-							"/rematch", -- [24]
-							"/focus", -- [25]
+							"/focus", -- [22]
+							" hahaha", -- [23]
+							"/focus", -- [24]
+							"/2 contact CS", -- [25]
 							" hahaha", -- [26]
 							"/focus", -- [27]
 							" hahaha", -- [28]
-							"/2 contact CS", -- [29]
-							"/focus", -- [30]
-							" hahaha", -- [31]
-							"/focus", -- [32]
+							"/focus", -- [29]
+							"/2 contact CS", -- [30]
+							"/focus", -- [31]
+							"/2 contact CS", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/p yeah I'm in afucked state agaion", -- [1]
-							"/i thanks :)", -- [2]
-							"/reload", -- [3]
+							"/reload", -- [1]
+							"/p yeah I'm in afucked state agaion", -- [2]
+							"/i thanks :)", -- [3]
 							"/p then couldnt hear you", -- [4]
-							"/p yeah I'm in afucked state agaion", -- [5]
-							"/reload", -- [6]
-							"/p yeah I'm in afucked state agaion", -- [7]
-							"/i thanks :)", -- [8]
-							"/p then couldnt hear you", -- [9]
-							"/i thanks :)", -- [10]
-							"/reload", -- [11]
-							"/i thanks :)", -- [12]
+							"/reload", -- [5]
+							"/i thanks :)", -- [6]
+							"/reload", -- [7]
+							"/p yeah I'm in afucked state agaion", -- [8]
+							"/reload", -- [9]
+							"/p yeah I'm in afucked state agaion", -- [10]
+							"/i thanks :)", -- [11]
+							"/reload", -- [12]
 							"/p then couldnt hear you", -- [13]
-							"/reload", -- [14]
-							"/p yeah I'm in afucked state agaion", -- [15]
-							"/i thanks :)", -- [16]
-							"/reload", -- [17]
+							"/p yeah I'm in afucked state agaion", -- [14]
+							"/reload", -- [15]
+							"/p yeah I'm in afucked state agaion", -- [16]
+							"/i thanks :)", -- [17]
 							"/p then couldnt hear you", -- [18]
-							"/p yeah I'm in afucked state agaion", -- [19]
-							"/reload", -- [20]
-							"/p yeah I'm in afucked state agaion", -- [21]
-							"/i thanks :)", -- [22]
-							"/reload", -- [23]
+							"/reload", -- [19]
+							"/i thanks :)", -- [20]
+							"/reload", -- [21]
+							"/p yeah I'm in afucked state agaion", -- [22]
+							"/i thanks :)", -- [23]
 							"/p then couldnt hear you", -- [24]
-							"/p yeah I'm in afucked state agaion", -- [25]
-							"/reload", -- [26]
-							"/p yeah I'm in afucked state agaion", -- [27]
-							"/i thanks :)", -- [28]
+							"/reload", -- [25]
+							"/i thanks :)", -- [26]
+							"/reload", -- [27]
+							"/p yeah I'm in afucked state agaion", -- [28]
 							"/p then couldnt hear you", -- [29]
-							"/reload", -- [30]
-							"/i thanks :)", -- [31]
-							"/reload", -- [32]
+							"/i thanks :)", -- [30]
+							"/p yeah I'm in afucked state agaion", -- [31]
+							"/i thanks :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/i fun :)", -- [1]
-							"/p Oh just here", -- [2]
-							"/i fun :)", -- [3]
+							"/i but its' good :)", -- [1]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [2]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [3]
 							"/p Oh just here", -- [4]
-							"/i fun :)", -- [5]
-							"/p Oh just here", -- [6]
-							"/cw Endoria-Malygos thanks!", -- [7]
-							"/i fun :)", -- [8]
-							"/i but its' good :)", -- [9]
-							"/i fun :)", -- [10]
-							"/p Oh just here", -- [11]
-							"/cw Endoria-Malygos thanks!", -- [12]
-							"/i but its' good :)", -- [13]
-							"/p Oh just here", -- [14]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [5]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [6]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [7]
+							"/i but its' good :)", -- [8]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [9]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [10]
+							"/i fun :)", -- [11]
+							"/p Oh just here", -- [12]
+							"/g lol", -- [13]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [14]
 							"/i but its' good :)", -- [15]
-							"/g Excellent, need tank and 2 DPS then", -- [16]
-							"/g Eli, tank or DPS?", -- [17]
-							"/g Still need 2 more, tank and DPS, anymore?", -- [18]
-							"/g How high are you?", -- [19]
-							"/g lol", -- [20]
-							"/g I think that's fine", -- [21]
-							"/g Honestly, I'd say it's mostly about surviving 1 shots, when we're not going for time :P", -- [22]
-							"/cw Celedhring-Icecrown How much longer?", -- [23]
-							"/g Cele is offering himself up when he's done in 15", -- [24]
-							"/cw Celedhring-Icecrown Deal :)", -- [25]
-							"/cw Inevitabits-Icecrown Panda offered first though", -- [26]
-							"/cw Celedhring-Icecrown :(", -- [27]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [28]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [29]
-							"/cw Celedhring-Icecrown Caps", -- [30]
-							"/cw Celedhring-Icecrown :/", -- [31]
-							"/cw Celedhring-Icecrown Yeah, that needs dealing with too", -- [32]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [16]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [17]
+							"/p Oh just here", -- [18]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [19]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [20]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [21]
+							"/i but its' good :)", -- [22]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [23]
+							"/p Oh just here", -- [24]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [25]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [26]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [27]
+							"/i but its' good :)", -- [28]
+							"/p Oh just here", -- [29]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [30]
+							"/i but its' good :)", -- [31]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
