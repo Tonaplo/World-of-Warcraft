@@ -60,10 +60,10 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 616306104,
+							["Mallusof"] = 548759103,
 							["Praerend"] = 1500542195,
 							["Faerand"] = 331462352,
-							["Thedodrouk"] = 7500764,
+							["Thedodrouk"] = 7502345,
 							["Rahran"] = 594441111,
 						},
 					},
@@ -71,9 +71,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -100,9 +100,9 @@ LUIDB = {
 							["Granjior"] = 1186116499,
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38822533,
-							["Korugen"] = 8207000,
-							["Fimwack"] = 1625871926,
+							["Korugen"] = 8215500,
 							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
@@ -207,6 +207,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -217,10 +222,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -248,10 +249,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -714,11 +714,6 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
-								["Y"] = 90,
-								["X"] = 375,
-								["Lock"] = false,
-								["Texture"] = "oUF LUI",
-								["Width"] = 200,
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -934,6 +929,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
+					["Tps"] = {
+						["Width"] = 600,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Animation"] = "None",
@@ -942,17 +943,11 @@ LUIDB = {
 						["Height"] = 205,
 						["Anchor"] = "CompactRaidFrameContainer",
 					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1065,17 +1060,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
 					},
 					["micromenu_btn_hover"] = {
 						0.9, -- [1]
@@ -1083,13 +1072,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1157,32 +1152,32 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/gdisband", -- [1]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [2]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [1]
+							"/gdisband", -- [2]
 							"/rchars", -- [3]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [4]
+							"/gdisband", -- [4]
 							"/rchars", -- [5]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [6]
 							"/gdisband", -- [7]
 							"/rchars", -- [8]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [9]
+							"/gdisband", -- [9]
 							"/rchars", -- [10]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
-							"/gdisband", -- [12]
-							"/rchars", -- [13]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [14]
+							"/gdisband", -- [11]
+							"/rchars", -- [12]
+							"/gdisband", -- [13]
+							"/rchars", -- [14]
 							"/gdisband", -- [15]
-							"/rchars", -- [16]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [17]
-							"/rchars", -- [18]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [19]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [16]
+							"/rchars", -- [17]
+							"/gdisband", -- [18]
+							"/rchars", -- [19]
 							"/gdisband", -- [20]
-							"/rchars", -- [21]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [22]
-							"/rchars", -- [23]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [24]
-							"/rchars", -- [25]
-							"/gdisband", -- [26]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [21]
+							"/rchars", -- [22]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [23]
+							"/rchars", -- [24]
+							"/gdisband", -- [25]
+							"/rchars", -- [26]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [27]
 							"/gdisband", -- [28]
 							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [29]
@@ -1192,36 +1187,36 @@ LUIDB = {
 						},
 						["Horde - Proudmoore"] = {
 							"/2 contact CS", -- [1]
-							" hahaha", -- [2]
-							"/2 contact CS", -- [3]
-							"/rematch", -- [4]
-							"/focus", -- [5]
+							"/focus", -- [2]
+							" hahaha", -- [3]
+							"/focus", -- [4]
+							"/2 contact CS", -- [5]
 							" hahaha", -- [6]
 							"/focus", -- [7]
 							" hahaha", -- [8]
-							"/2 contact CS", -- [9]
-							"/focus", -- [10]
-							" hahaha", -- [11]
-							"/focus", -- [12]
-							"/2 contact CS", -- [13]
-							"/focus", -- [14]
+							"/focus", -- [9]
+							"/2 contact CS", -- [10]
+							"/focus", -- [11]
+							"/2 contact CS", -- [12]
+							" hahaha", -- [13]
+							"/rematch", -- [14]
 							" hahaha", -- [15]
 							"/2 contact CS", -- [16]
-							"/focus", -- [17]
-							" hahaha", -- [18]
-							"/focus", -- [19]
-							" hahaha", -- [20]
-							"/2 contact CS", -- [21]
+							" hahaha", -- [17]
+							"/2 contact CS", -- [18]
+							" hahaha", -- [19]
+							"/focus", -- [20]
+							" hahaha", -- [21]
 							"/focus", -- [22]
-							" hahaha", -- [23]
+							"/2 contact CS", -- [23]
 							"/focus", -- [24]
 							"/2 contact CS", -- [25]
 							" hahaha", -- [26]
-							"/focus", -- [27]
+							"/2 contact CS", -- [27]
 							" hahaha", -- [28]
 							"/focus", -- [29]
 							"/2 contact CS", -- [30]
-							"/focus", -- [31]
+							" hahaha", -- [31]
 							"/2 contact CS", -- [32]
 						},
 						["Horde - Tichondrius"] = {
@@ -1259,38 +1254,38 @@ LUIDB = {
 							"/i thanks :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/i but its' good :)", -- [1]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [2]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [3]
-							"/p Oh just here", -- [4]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [5]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [6]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [7]
-							"/i but its' good :)", -- [8]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [9]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [10]
-							"/i fun :)", -- [11]
-							"/p Oh just here", -- [12]
-							"/g lol", -- [13]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [14]
-							"/i but its' good :)", -- [15]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [16]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [17]
-							"/p Oh just here", -- [18]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [19]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [20]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [21]
-							"/i but its' good :)", -- [22]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [1]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [2]
+							"/i but its' good :)", -- [3]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [4]
+							"/i but its' good :)", -- [5]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [6]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [7]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [8]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [9]
+							"/cw Míra-Icecrown Once I get off Work, I'm doing dungeons all night today and tomorrow", -- [10]
+							"/cw Míra-Icecrown Passively logged in at work right now thou :P", -- [11]
+							"/i but its' good :)", -- [12]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [13]
+							"/i but its' good :)", -- [14]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [15]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [16]
+							"/i but its' good :)", -- [17]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [18]
+							"/i but its' good :)", -- [19]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [20]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [21]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [22]
 							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [23]
-							"/p Oh just here", -- [24]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [25]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [26]
-							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [27]
-							"/i but its' good :)", -- [28]
-							"/p Oh just here", -- [29]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [30]
-							"/i but its' good :)", -- [31]
-							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [32]
+							"/cw Míra-Icecrown Once I get off Work, I'm doing dungeons all night today and tomorrow", -- [24]
+							"/i but its' good :)", -- [25]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [26]
+							"/i but its' good :)", -- [27]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [28]
+							"/cw Celedhring-Icecrown hOW ARE YOU LOOKING? :)", -- [29]
+							"/i but its' good :)", -- [30]
+							"/cw Celedhring-Icecrown Sorry, that sucks :(", -- [31]
+							"/i but its' good :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
@@ -1576,11 +1571,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Icecrown"] = {
@@ -1643,11 +1638,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -1693,11 +1688,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -1982,11 +1977,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Morifa - Proudmoore"] = {
@@ -1998,9 +1993,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2124,9 +2119,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2174,11 +2169,11 @@ LUIDB = {
 		["Zearthan - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Base",
 		["Faerand - Icecrown"] = "Base",
-		["Thedodrouk - Icecrown"] = "Base",
+		["Gottagetlia - Aggramar"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Morifa - Proudmoore"] = "Base",
-		["Gottagetlia - Aggramar"] = "Base",
+		["Thedodrouk - Icecrown"] = "Base",
 		["Korugen - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",

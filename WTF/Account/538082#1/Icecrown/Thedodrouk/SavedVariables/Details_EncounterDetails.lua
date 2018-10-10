@@ -65,6 +65,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Adarogg",
 		},
+		[119964] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dark Shaman Koranthal",
+		},
 		[120024] = {
 			["school"] = 1,
 			["token"] = {
@@ -81,13 +88,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Lava Guard Gordoth",
-		},
-		[119964] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dark Shaman Koranthal",
 		},
 		[119434] = {
 			["school"] = 1,
