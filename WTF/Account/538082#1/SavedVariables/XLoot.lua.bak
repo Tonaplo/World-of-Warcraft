@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["visible"] = false,
-						["direction"] = "down",
 						["y"] = 1084.51818847656,
 						["x"] = 1312.16442871094,
+						["visible"] = false,
+						["direction"] = "down",
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -45,13 +45,6 @@ XLootADB = {
 				},
 			},
 		},
-		["Master"] = {
-			["profiles"] = {
-				["Default"] = {
-					["award_qualitythreshold"] = 4,
-				},
-			},
-		},
 		["Monitor"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -63,13 +56,20 @@ XLootADB = {
 					["threshold_own"] = 0,
 					["name_width"] = 100,
 					["anchor"] = {
-						["y"] = 846.292724609375,
-						["direction"] = "down",
 						["visible"] = false,
 						["x"] = 0,
+						["y"] = 846.292724609375,
+						["direction"] = "down",
 					},
 					["threshold_other"] = 4,
 					["fade_own"] = 30,
+				},
+			},
+		},
+		["Master"] = {
+			["profiles"] = {
+				["Default"] = {
+					["award_qualitythreshold"] = 4,
 				},
 			},
 		},
@@ -98,17 +98,17 @@ XLootADB = {
 		["Zearthan - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Faerand - Icecrown"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Thedodrouk - Icecrown"] = "Default",
 		["Korugen - Proudmoore"] = "Default",
-		["Zaliga - Bleeding Hollow"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
+		["Thedodrouk - Icecrown"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Zaliga - Bleeding Hollow"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Kindhoof - Proudmoore"] = "Default",
 		["Morifa - Tichondrius"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 		["Mallusof - Icecrown"] = "Default",
 	},
 	["profiles"] = {

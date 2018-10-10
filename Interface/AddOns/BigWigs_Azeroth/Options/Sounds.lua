@@ -5,6 +5,11 @@ BigWigs:AddSounds("Ji'arak", {
 	[261467] = "alert",
 })
 
+BigWigs:AddSounds("Hailstone Construct", {
+	[274891] = "long",
+	[274895] = "warning",
+})
+
 BigWigs:AddSounds("Azurethos, The Winged Typhoon", {
 	[274829] = "warning",
 	[274832] = "long",

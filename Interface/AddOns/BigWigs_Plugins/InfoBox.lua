@@ -230,7 +230,7 @@ function plugin:OnPluginEnable()
 	self:RegisterMessage("BigWigs_SetInfoBoxTableWithBars")
 	self:RegisterMessage("BigWigs_SetInfoBoxBar")
 	self:RegisterMessage("BigWigs_OnBossDisable")
-	self:RegisterMessage("BigWigs_OnBossReboot", "BigWigs_OnBossDisable")
+	self:RegisterMessage("BigWigs_OnBossWipe", "BigWigs_OnBossDisable")
 
 	self:RegisterMessage("BigWigs_StartConfigureMode", "Test")
 	self:RegisterMessage("BigWigs_StopConfigureMode", "Close")
@@ -317,7 +317,7 @@ function plugin:BigWigs_ResizeInfoBoxRow(row)
 end
 
 do
-	local sortingTbl = nil
+	local sortingTbl = {}
 	local function sortFunc(x,y)
 		local px, py = sortingTbl[x] or -1, sortingTbl[y] or -1
 		if px == py then
@@ -395,6 +395,7 @@ do
 			else
 				display.text[line]:SetText("")
 				display.text[line+1]:SetText("")
+				self:BigWigs_SetInfoBoxBar(nil, nil, i*2, 0)
 			end
 			self:BigWigs_ResizeInfoBoxRow(line)
 			line = line + 2
@@ -403,6 +404,11 @@ do
 			reschedule = true
 			Timer(0.1, update)
 		end
+	end
+
+	function plugin:Close()
+		display:Hide()
+		sortingTbl = {}
 	end
 end
 
@@ -416,10 +422,6 @@ function plugin:BigWigs_SetInfoBoxBar(_, _, line, percentage, r, g, b, a)
 	else
 		bar:Hide()
 	end
-end
-
-function plugin:Close()
-	display:Hide()
 end
 
 function plugin:BigWigs_OnBossDisable(_, module)
