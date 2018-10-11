@@ -1,4 +1,11 @@
 
+BigWigs:AddSounds("T'zane", {
+	[261552] = "long",
+	[261600] = "info",
+	[261605] = "alarm",
+	[262004] = "warning",
+})
+
 BigWigs:AddSounds("Ji'arak", {
 	[260908] = "info",
 	[261088] = "long",

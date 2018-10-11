@@ -238,7 +238,9 @@ function mod:CorruptingBiteApplied()
 		self:Bar(272506, 9) -- Explosive Corruption
 	end
 	self:Bar(270373, 15.5, CL.count:format(self:SpellName(270373), waveOfCorruptionCount)) -- Wave of Corruption
-	self:OpenProximity(270373, 5)
+	if not self:Easy() then
+		self:OpenProximity(270373, 5)
+	end
 	self:Bar(263235, self:Mythic() and 32 or 47) -- Blood Feast
 end
 
@@ -360,7 +362,9 @@ do
 			CustomResumeBar(270373, CL.count:format(self:SpellName(270373), waveOfCorruptionCount)) -- Wave of Corruption
 			CustomResumeBar(263235) -- Blood Feast
 			CustomResumeBar(277007, CL.count:format(self:SpellName(277007), burstingBoilCount)) -- Bursting Boil
-			self:OpenProximity(270373, 5)
+			if not self:Easy() then
+				self:OpenProximity(270373, 5)
+			end
 		end
 	end
 end
@@ -431,7 +435,9 @@ function mod:Collapse(args)
 
 	self:CastBar("stages", 20, args.spellName, args.spellId) -- Collapse
 	self:Bar(272506, self:Mythic() and 48.3 or 30) -- Explosive Corruption
-	self:Bar(274582, self:Mythic() and 35 or 34) -- Malignant Growth
+	if not self:Easy() then
+		self:Bar(274582, self:Mythic() and 35 or 34) -- Malignant Growth
+	end
 	self:Bar(275160, self:Mythic() and 43.8 or self:Heroic() and 47.2 or 52.3) -- Gaze of G'huun
 	self:Bar(270373, self:Mythic() and 39 or 50.5, CL.count:format(self:SpellName(270373), waveOfCorruptionCount)) -- Wave of Corruption
 	if self:Mythic() then
