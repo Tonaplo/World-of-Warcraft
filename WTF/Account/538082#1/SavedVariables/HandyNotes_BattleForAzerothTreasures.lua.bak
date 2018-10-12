@@ -1,0 +1,43 @@
+
+HandyNotes_BattleForAzerothTreasuresDB = {
+	["profileKeys"] = {
+		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Faerand - Icecrown"] = "Faerand - Icecrown",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
+	},
+	["profiles"] = {
+		["Luugo - Frostwolf"] = {
+		},
+		["Kaldorath - Proudmoore"] = {
+		},
+		["Faerand - Icecrown"] = {
+		},
+		["Amranar - Proudmoore"] = {
+		},
+		["Farahn - Proudmoore"] = {
+		},
+		["Thedodrouk - Icecrown"] = {
+		},
+		["Korugen - Proudmoore"] = {
+		},
+		["Greybone - Proudmoore"] = {
+		},
+		["Fandagny - Frostwolf"] = {
+		},
+		["Deminath - Proudmoore"] = {
+		},
+		["Rahran - Icecrown"] = {
+		},
+		["Mallusof - Icecrown"] = {
+		},
+	},
+}
