@@ -2,13 +2,961 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
-			["boss"] = "King Dazar",
+			{
+				0.1, -- [1]
+				"AN'zig wgah zzof!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				0.1, -- [1]
+				"G'huun will rise!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [2]
+			{
+				9.06400000001304, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				9.06400000001304, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [4]
+			{
+				15.0499999999302, -- [1]
+				"Xith wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				15.0499999999302, -- [1]
+				"Extermination!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [6]
+			{
+				45.0749999999534, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				45.0749999999534, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [8]
+			{
+				54.0899999999674, -- [1]
+				"Zuq ag'xig ka'kar za wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				54.0899999999674, -- [1]
+				"You cannot resist my call.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [10]
+			{
+				60.0779999999795, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				60.0779999999795, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [12]
+			{
+				65.9149999999209, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				65.9149999999209, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [14]
+			{
+				69.0840000000317, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				69.0840000000317, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [16]
+			{
+				84.0799999999581, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				84.0799999999581, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [18]
+			{
+				95.0709999999963, -- [1]
+				"|TINTERFACE\\ICONS\\SPELL_SHADOW_SHADOWFURY.BLP:20|t You are affected by |cFFFF0000|Hspell:272536|h[Imminent Ruin]|h|r!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				2, -- [4]
+			}, -- [19]
+			{
+				99.1049999999814, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				99.1049999999814, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [21]
+			{
+				105.079999999958, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				105.079999999958, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [23]
+			{
+				110.770000000019, -- [1]
+				"Zuq ag'xig gag wgah naggwa'fssh!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				110.770000000019, -- [1]
+				"You cannot run from destruction!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [25]
+			{
+				115.304999999935, -- [1]
+				"Uulg'ma zyqtahg yrr!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				115.304999999935, -- [1]
+				"Xalzaix hungers for annihilation!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [27]
+			{
+				122.218999999925, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				122.218999999925, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [29]
+			{
+				135.848999999929, -- [1]
+				"I wgah far'al zuq ni shn!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				135.848999999929, -- [1]
+				"I will reduce you to ash!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [31]
+			{
+				159.853999999934, -- [1]
+				"Zuq wgah qam n'lyeth!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				159.853999999934, -- [1]
+				"You will not survive!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [33]
+			{
+				171.831999999937, -- [1]
+				"Zuq wgah qam n'lyeth!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				171.831999999937, -- [1]
+				"You will not survive!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [35]
+			{
+				183.897999999928, -- [1]
+				"Zuq wgah qam n'lyeth!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				183.897999999928, -- [1]
+				"You will not survive!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [37]
+			{
+				215.579999999958, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				215.579999999958, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [39]
+			{
+				219.543999999994, -- [1]
+				"Zuq ag'xig ka'kar za wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [40]
+			{
+				219.543999999994, -- [1]
+				"You cannot resist my call.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [41]
+			{
+				230.564000000013, -- [1]
+				"Zuq ag'xig gag wgah naggwa'fssh!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				230.564000000013, -- [1]
+				"You cannot run from destruction!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [43]
+			{
+				261.584999999963, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [44]
+			{
+				261.584999999963, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [45]
+			{
+				266.126999999979, -- [1]
+				"Arwi ryiu yrr oou qam!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [46]
+			{
+				266.126999999979, -- [1]
+				"More food for the rot!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [47]
+			{
+				270.574999999953, -- [1]
+				"Xith wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [48]
+			{
+				270.574999999953, -- [1]
+				"Extermination!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [49]
+			{
+				275.618000000017, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [50]
+			{
+				275.618000000017, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [51]
+			{
+				285.564000000013, -- [1]
+				"Xith wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [52]
+			{
+				285.564000000013, -- [1]
+				"Extermination!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [53]
+			{
+				290.598999999929, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [54]
+			{
+				290.598999999929, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [55]
+			{
+				294.589000000036, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [56]
+			{
+				294.589000000036, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [57]
+			{
+				297.744999999995, -- [1]
+				"Ywaq ongg uul'gwa no AN'zig!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [58]
+			{
+				297.744999999995, -- [1]
+				"Your husk belongs to G'huun.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [59]
+			{
+				300.58600000001, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [60]
+			{
+				300.58600000001, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [61]
+			["boss"] = "Mythrax",
 		}, -- [1]
 		{
-			["boss"] = "The Council of Tribes",
+			{
+				0.221000000019558, -- [1]
+				"AN'zig wgah zzof!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				0.221000000019558, -- [1]
+				"G'huun will rise!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [2]
+			{
+				15.2330000000075, -- [1]
+				"Xith wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				15.2330000000075, -- [1]
+				"Extermination!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [4]
+			{
+				20.2619999999879, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				20.2619999999879, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [6]
+			{
+				30.2440000000643, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				30.2440000000643, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [8]
+			{
+				39.2469999999739, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				39.2469999999739, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [10]
+			{
+				54.2770000000019, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				54.2770000000019, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [12]
+			{
+				66.0810000000056, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				66.0810000000056, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [14]
+			{
+				75.2369999999646, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				75.2369999999646, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [16]
+			{
+				80.2269999999553, -- [1]
+				"|TINTERFACE\\ICONS\\SPELL_SHADOW_SHADOWFURY.BLP:20|t You are affected by |cFFFF0000|Hspell:272536|h[Imminent Ruin]|h|r!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				2, -- [4]
+			}, -- [17]
+			{
+				84.2390000000596, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				84.2390000000596, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [19]
+			{
+				90.2360000000335, -- [1]
+				"Xith wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				90.2360000000335, -- [1]
+				"Extermination!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [21]
+			{
+				105.231000000029, -- [1]
+				"Xith wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				105.231000000029, -- [1]
+				"Extermination!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [23]
+			{
+				111.991999999969, -- [1]
+				"Uulg'ma zyqtahg yrr!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				111.991999999969, -- [1]
+				"Xalzaix hungers for annihilation!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [25]
+			{
+				119.005000000005, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				119.005000000005, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [27]
+			{
+				132.532000000007, -- [1]
+				"I wgah far'al zuq ni shn!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				132.532000000007, -- [1]
+				"I will reduce you to ash!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [29]
+			{
+				156.567000000039, -- [1]
+				"Zuq wgah qam n'lyeth!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				156.567000000039, -- [1]
+				"You will not survive!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [31]
+			{
+				168.543999999994, -- [1]
+				"I wgah far'al zuq ni shn!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				168.543999999994, -- [1]
+				"I will reduce you to ash!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [33]
+			{
+				180.552000000025, -- [1]
+				"Zuq wgah qam n'lyeth!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				180.552000000025, -- [1]
+				"You will not survive!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [35]
+			{
+				197.251999999979, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				197.251999999979, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [37]
+			{
+				201.258999999962, -- [1]
+				"Zuq ag'xig ka'kar za wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				201.258999999962, -- [1]
+				"You cannot resist my call.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [39]
+			{
+				212.23199999996, -- [1]
+				"|TINTERFACE\\ICONS\\SPELL_SHADOW_SHADOWFURY.BLP:20|t You are affected by |cFFFF0000|Hspell:272536|h[Imminent Ruin]|h|r!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				2, -- [4]
+			}, -- [40]
+			{
+				222.23900000006, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				222.23900000006, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [42]
+			{
+				231.251999999979, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [43]
+			{
+				231.251999999979, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [44]
+			{
+				246.251000000048, -- [1]
+				"Zuq ag'xig ka'kar za wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [45]
+			{
+				246.251000000048, -- [1]
+				"You cannot resist my call.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [46]
+			{
+				257.238000000012, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [47]
+			{
+				257.238000000012, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [48]
+			{
+				261.238000000012, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [49]
+			{
+				261.238000000012, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [50]
+			{
+				267.258000000031, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [51]
+			{
+				267.258000000031, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [52]
+			{
+				276.253000000026, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [53]
+			{
+				276.253000000026, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [54]
+			{
+				303.069000000018, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [55]
+			{
+				303.069000000018, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [56]
+			{
+				312.256000000052, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [57]
+			{
+				312.256000000052, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [58]
+			{
+				324.976000000024, -- [1]
+				"Ywaq ongg uul'gwa no AN'zig!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [59]
+			{
+				324.976000000024, -- [1]
+				"Your husk belongs to G'huun.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [60]
+			{
+				332.260000000009, -- [1]
+				"Zuq ag'xig bormax oou iiqaath!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [61]
+			{
+				332.260000000009, -- [1]
+				"You cannot escape the shadows!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [62]
+			{
+				336.271999999997, -- [1]
+				"Zuq ag'xig ka'kar za wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [63]
+			{
+				336.271999999997, -- [1]
+				"You cannot resist my call.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [64]
+			["boss"] = "Mythrax",
 		}, -- [2]
 		{
-			["boss"] = "Mchimba the Embalmer",
+			{
+				0.1, -- [1]
+				"Ywaq fhssh wgah qam!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				0.1, -- [1]
+				"Your world will end!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [2]
+			{
+				5.125, -- [1]
+				"Zuq ag'xig gag wgah naggwa'fssh!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				5.125, -- [1]
+				"You cannot run from destruction!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [4]
+			{
+				15.137999999919, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				15.137999999919, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [6]
+			{
+				35.1239999999525, -- [1]
+				"Zuq ag'xig gag wgah naggwa'fssh!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				35.1239999999525, -- [1]
+				"You cannot run from destruction!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [8]
+			{
+				60.1209999999264, -- [1]
+				"Xith wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				60.1209999999264, -- [1]
+				"Extermination!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [10]
+			{
+				65.1059999999125, -- [1]
+				"|TINTERFACE\\ICONS\\SPELL_SHADOW_SHADOWFURY.BLP:20|t You are affected by |cFFFF0000|Hspell:272536|h[Imminent Ruin]|h|r!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				2, -- [4]
+			}, -- [11]
+			{
+				65.1059999999125, -- [1]
+				"Zuq ag'xig gag wgah naggwa'fssh!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				65.1059999999125, -- [1]
+				"You cannot run from destruction!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [13]
+			{
+				69.1030000000028, -- [1]
+				"Zuq ag'xig ka'kar za wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				69.1030000000028, -- [1]
+				"You cannot resist my call.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [15]
+			{
+				84.1189999999479, -- [1]
+				"Zuq ag'xig ka'kar za wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				84.1189999999479, -- [1]
+				"You cannot resist my call.", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [17]
+			{
+				90.326999999932, -- [1]
+				"Xith wgah!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				90.326999999932, -- [1]
+				"Extermination!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [19]
+			{
+				99.1059999999125, -- [1]
+				"Puul qi'plahf ni oou bormax!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				99.1059999999125, -- [1]
+				"Give yourself to the plague!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [21]
+			{
+				105.126999999979, -- [1]
+				"Naz raqul!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				105.126999999979, -- [1]
+				"Obliteration!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [23]
+			{
+				111.858000000007, -- [1]
+				"Uulg'ma zyqtahg yrr!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				111.858000000007, -- [1]
+				"Xalzaix hungers for annihilation!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [25]
+			{
+				132.366999999969, -- [1]
+				"I wgah far'al zuq ni shn!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				132.366999999969, -- [1]
+				"I will reduce you to ash!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [27]
+			{
+				144.364999999991, -- [1]
+				"Zuq wgah qam n'lyeth!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				144.364999999991, -- [1]
+				"You will not survive!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [29]
+			{
+				156.38599999994, -- [1]
+				"Zuq wgah qam n'lyeth!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				156.38599999994, -- [1]
+				"You will not survive!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [31]
+			{
+				168.392999999924, -- [1]
+				"I wgah far'al zuq ni shn!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				168.392999999924, -- [1]
+				"I will reduce you to ash!", -- [2]
+				"Mythrax the Unraveler", -- [3]
+				5, -- [4]
+			}, -- [33]
+			["boss"] = "Mythrax",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -54,6 +1002,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jhasu-Lightbringer",
 		},
+		[266047] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sheilyana-Sargeras",
+		},
 		[77451] = {
 			["school"] = 4,
 			["token"] = {
@@ -86,6 +1043,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Jes Howlis",
+		},
+		[205246] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Eldodin-KhazModan",
 		},
 		[214202] = {
 			["school"] = 2,
@@ -131,6 +1096,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Erudax",
+		},
+		[31821] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
 		},
 		[260773] = {
 			["school"] = 32,
@@ -255,6 +1229,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cacunningham-Malygos",
 		},
+		[276299] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Bloodthirsty Crawg",
+		},
 		[93959] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -288,12 +1270,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Asahina-Lightbringer",
 		},
+		[273232] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Êlwen-KhazModan",
+		},
 		[259756] = {
 			["school"] = 48,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Kahoots-Proudmoore",
+		},
+		[270674] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
 		},
 		[271698] = {
 			["school"] = 1,
@@ -781,6 +1780,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
+		[82326] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
+		},
 		[261565] = {
 			["school"] = 16,
 			["token"] = {
@@ -927,12 +1935,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Superc-Lightbringer",
 		},
+		[196834] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
+		},
 		[260547] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Soulbound Goliath",
+		},
+		[12654] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Asahina-Lightbringer",
 		},
 		[260292] = {
 			["school"] = 1,
@@ -979,6 +2003,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Sister Solena",
+		},
+		[272260] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
 		},
 		[192231] = {
 			["school"] = 4,
@@ -1048,6 +2081,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Knight Captain Valyri",
 		},
+		[200166] = {
+			["school"] = 124,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Êlwen-KhazModan",
+		},
 		[118922] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -1103,6 +2144,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Marksopp-Lightbringer",
+		},
+		[199658] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Murtag-Sargeras",
 		},
 		[77472] = {
 			["school"] = 8,
@@ -1185,6 +2234,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Newc-Lightbringer",
+		},
+		[633] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
 		},
 		[200685] = {
 			["school"] = 1,
@@ -1276,6 +2333,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sand-crusted Striker",
 		},
+		[217832] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Newc-Lightbringer",
+		},
 		[276894] = {
 			["school"] = 32,
 			["token"] = {
@@ -1306,6 +2372,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Skycap'n Kragg",
+		},
+		[259285] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
 		},
 		[5394] = {
 			["school"] = 8,
@@ -1369,6 +2443,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
+		[264106] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Eldodin-KhazModan",
+		},
 		[276900] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -1417,6 +2499,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nerubian Voidweaver",
 		},
+		[61336] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
 		[20473] = {
 			["school"] = 2,
 			["token"] = {
@@ -1430,6 +2521,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Sharkbait",
+		},
+		[273323] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
 		},
 		[281000] = {
 			["school"] = 1,
@@ -1502,6 +2601,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "G'huun",
+		},
+		[147732] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
 		},
 		[265143] = {
 			["school"] = 32,
@@ -2078,6 +3185,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kahoots-Proudmoore",
 		},
+		[228354] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Asahina-Lightbringer",
+		},
 		[102183] = {
 			["school"] = 64,
 			["type"] = "BUFF",
@@ -2182,6 +3296,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Daddydinerox-Dalaran",
 		},
+		[228358] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Asahina-Lightbringer",
+		},
 		[279011] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -2248,6 +3370,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Voinic-Lightbringer",
 		},
+		[270827] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kesak-Lightbringer",
+		},
 		[157228] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -2264,6 +3393,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Mistaaytch-Lightbringer",
+		},
+		[11426] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Asahina-Lightbringer",
 		},
 		[87474] = {
 			["school"] = 8,
@@ -2304,6 +3442,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Raal the Gluttonous",
+		},
+		[270323] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
 		},
 		[264694] = {
 			["school"] = 32,
@@ -2374,6 +3519,7 @@ EncounterDetailsDB = {
 		[185123] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Êlwen-KhazModan",
@@ -2424,6 +3570,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
+		[270329] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
+		},
 		[272888] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -2472,7 +3625,9 @@ EncounterDetailsDB = {
 		},
 		[270332] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Kholvinski-EmeraldDream",
@@ -2592,6 +3747,20 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Aspix",
+		},
+		[274436] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Nanaeve-Lightbringer",
+		},
+		[270343] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
 		},
 		[102193] = {
 			["school"] = 64,
@@ -2732,7 +3901,9 @@ EncounterDetailsDB = {
 		},
 		[233496] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Kahoots-Proudmoore",
@@ -2991,6 +4162,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Augh",
+		},
+		[117679] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Nanaeve-Lightbringer",
 		},
 		[273949] = {
 			["school"] = 32,
@@ -3495,6 +4674,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "G'huun",
 		},
+		[186439] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Murtag-Sargeras",
+		},
 		[268865] = {
 			["school"] = 64,
 			["token"] = {
@@ -3697,6 +4883,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Magicmanager-Stormrage",
+		},
+		[1680] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Murtag-Sargeras",
 		},
 		[256044] = {
 			["school"] = 1,
@@ -4050,6 +5243,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mechanized Peacekeeper",
 		},
+		[282720] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Voinic-Lightbringer",
+		},
 		[263274] = {
 			["school"] = 1,
 			["token"] = {
@@ -4136,9 +5336,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azerokk",
 		},
+		[280165] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
 		[223306] = {
 			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Kalithumos-Tichondrius",
@@ -4181,6 +5392,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fetid Devourer",
 		},
+		[223819] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Voinic-Lightbringer",
+		},
+		[268910] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
 		[256060] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -4190,6 +5417,14 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Skycap'n Kragg",
+		},
+		[268911] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
 		},
 		[75096] = {
 			["school"] = 8,
@@ -4588,6 +5823,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Superc-Lightbringer",
+		},
+		[278145] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
 		},
 		[82522] = {
 			["school"] = 1,
@@ -5092,6 +6335,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kahoots-Proudmoore",
 		},
+		[276188] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
+		},
 		[5302] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -5140,6 +6391,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "G'huun",
 		},
+		[276128] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kahoots-Proudmoore",
+		},
+		[268998] = {
+			["school"] = 36,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Eldodin-KhazModan",
+		},
+		[102352] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Nanaeve-Lightbringer",
+		},
 		[255575] = {
 			["school"] = 32,
 			["token"] = {
@@ -5155,6 +6429,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kahoots-Proudmoore",
 		},
+		[275773] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
+		},
+		[276193] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
+		},
 		[267430] = {
 			["school"] = 32,
 			["token"] = {
@@ -5169,6 +6459,56 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Yvonne-Frostmourne",
+		},
+		[18562] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Nanaeve-Lightbringer",
+		},
+		[262288] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fetid Devourer",
+		},
+		[276139] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
+		},
+		[276131] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kahoots-Proudmoore",
+		},
+		[77761] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
+		[270657] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Newc-Lightbringer",
 		},
 		[271526] = {
 			["school"] = 1,
@@ -5215,12 +6555,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "MOTHER",
 		},
+		[256198] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Overseer Korgus",
+		},
+		[280855] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Voinic-Lightbringer",
+		},
 		[106839] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Mistaaytch-Lightbringer",
+		},
+		[271924] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
+		},
+		[12975] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Sheilyana-Sargeras",
 		},
 		[266923] = {
 			["school"] = 8,
@@ -5231,6 +6606,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Energy Core",
 		},
+		[264210] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Silithid Warrior",
+		},
 		[44544] = {
 			["school"] = 16,
 			["type"] = "BUFF",
@@ -5238,6 +6622,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Asahina-Lightbringer",
+		},
+		[281744] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
 		},
 		[83171] = {
 			["school"] = 4,
@@ -5253,6 +6645,22 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Sister Malady",
+		},
+		[260231] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
+		},
+		[271049] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
 		},
 		[91871] = {
 			["school"] = 1,
@@ -5280,6 +6688,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
+		[271048] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
+		},
+		[272146] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
 		[260697] = {
 			["school"] = 1,
 			["token"] = {
@@ -5289,6 +6711,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sister Briar",
 		},
+		[271045] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
+		},
 		[201846] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -5296,6 +6725,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Superc-Lightbringer",
+		},
+		[278070] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Newc-Lightbringer",
 		},
 		[263345] = {
 			["school"] = 4,
@@ -5312,6 +6749,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Hadal Darkfathom",
+		},
+		[271864] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Taloc",
 		},
 		[74984] = {
 			["school"] = 1,
@@ -5337,6 +6783,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Kalithumos-Tichondrius",
+		},
+		[190446] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Asahina-Lightbringer",
 		},
 		[91872] = {
 			["school"] = 8,
@@ -5369,6 +6823,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Laawlipop-Proudmoore",
 		},
+		[270339] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kholvinski-EmeraldDream",
+		},
 		[260699] = {
 			["school"] = 32,
 			["token"] = {
@@ -5394,6 +6855,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harbinger of Darkness",
 		},
+		[278088] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Unshocked-Proudmoore",
+		},
 		[255582] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -5401,6 +6869,31 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+		},
+		[276143] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kalithumos-Tichondrius",
+		},
+		[279793] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Nanaeve-Lightbringer",
+		},
+		[275936] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Êlwen-KhazModan",
 		},
 		[260700] = {
 			["school"] = 32,
@@ -5410,6 +6903,33 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Sister Malady",
+		},
+		[205021] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Asahina-Lightbringer",
+		},
+		[188838] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Unshocked-Proudmoore",
+		},
+		[33891] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Nanaeve-Lightbringer",
 		},
 		[271539] = {
 			["school"] = 1,
@@ -5459,6 +6979,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos-Tichondrius",
 		},
+		[93622] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
 		[57723] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -5503,6 +7031,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
+		[213771] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
 		[264378] = {
 			["school"] = 32,
 			["token"] = {
@@ -5534,6 +7070,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sharkbait",
 		},
+		[279709] = {
+			["school"] = 12,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
 		[170379] = {
 			["school"] = 8,
 			["token"] = {
@@ -5552,6 +7096,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sister Malady",
 		},
+		[192081] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
+		[279555] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistaaytch-Lightbringer",
+		},
 		[266939] = {
 			["school"] = 1,
 			["token"] = {
@@ -5560,6 +7121,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aka'ali the Conqueror",
 		},
+		[273324] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
+		},
+		[76620] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Azureborne Warlord",
+		},
+		[355] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Sheilyana-Sargeras",
+		},
 		[266940] = {
 			["school"] = 1,
 			["token"] = {
@@ -5567,6 +7153,24 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Aka'ali the Conqueror",
+		},
+		[63106] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Kahoots-Proudmoore",
+		},
+		[277812] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Speaker Obara",
 		},
 		[264382] = {
 			["school"] = 32,
@@ -5585,6 +7189,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "G'huun",
 		},
+		[277779] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Unworthy Vessel",
+		},
+		[210153] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Newc-Lightbringer",
+		},
+		[272046] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sharkbait",
+		},
 		[205180] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -5593,6 +7221,24 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Kahoots-Proudmoore",
+		},
+		[197214] = {
+			["school"] = 5,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Superc-Lightbringer",
+		},
+		[280485] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Constricting Terror",
 		},
 		[263234] = {
 			["school"] = 8,
@@ -5979,6 +7625,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blood Tick",
 		},
+		[274119] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Zul",
+		},
 		[258920] = {
 			["school"] = 4,
 			["type"] = "BUFF",
@@ -5987,14 +7641,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Newc-Lightbringer",
-		},
-		[274119] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Zul",
 		},
 		[272584] = {
 			["school"] = 1,
@@ -6173,13 +7819,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mogul Razdunk",
 		},
-		[279709] = {
-			["school"] = 12,
+		[271054] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mistaaytch-Lightbringer",
+			["source"] = "Nanaeve-Lightbringer",
 		},
 		[269686] = {
 			["school"] = 40,
@@ -6224,8 +7871,13 @@ EncounterDetailsDB = {
 		},
 		[8936] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Mistaaytch-Lightbringer",
 		},
@@ -6353,14 +8005,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Superc-Lightbringer",
 		},
-		[355] = {
+		[278736] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Sheilyana-Sargeras",
+			["source"] = "Newc-Lightbringer",
 		},
 		[257882] = {
 			["school"] = 16,
@@ -6552,14 +8203,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Waycrest",
 		},
-		[271864] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[44614] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Taloc",
+			["source"] = "Asahina-Lightbringer",
 		},
 		[275160] = {
 			["school"] = 32,
@@ -6746,15 +8396,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Adderis",
 		},
-		[256198] = {
+		[265954] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Overseer Korgus",
+			["source"] = "Newc-Lightbringer",
 		},
 		[212653] = {
 			["school"] = 64,
@@ -7031,6 +8680,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Asaad",
 		},
+		[265451] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[275686] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -7039,12 +8694,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Coalesced Blood",
-		},
-		[265451] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
 		},
 		[266266] = {
 			["school"] = 1,
@@ -7209,14 +8858,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kholvinski-EmeraldDream",
 		},
-		[81141] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Marksopp-Lightbringer",
-		},
 		[75000] = {
 			["school"] = 1,
 			["token"] = {
@@ -7224,6 +8865,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Forgemaster Throngus",
+		},
+		[81141] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Marksopp-Lightbringer",
 		},
 		[81269] = {
 			["school"] = 8,
@@ -7385,14 +9034,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kahoots-Proudmoore",
 		},
-		[263927] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[272115] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Merektha",
+			["source"] = "Mythrax the Unraveler",
 		},
 		[267509] = {
 			["school"] = 1,
@@ -7402,13 +9050,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "G'huun",
 		},
-		[272115] = {
-			["school"] = 32,
+		[265974] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mythrax the Unraveler",
+			["source"] = "Galvazzt",
 		},
 		[102241] = {
 			["school"] = 64,
@@ -7484,6 +9131,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Overseer Korgus",
 		},
+		[83446] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Minion of Siamat",
+		},
+		[197277] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Voinic-Lightbringer",
+		},
 		[268024] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -7494,20 +9156,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Heart of Sethraliss",
 		},
-		[197277] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Voinic-Lightbringer",
-		},
-		[83446] = {
-			["school"] = 8,
+		[264954] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Minion of Siamat",
 		},
 		[54149] = {
 			["school"] = 2,
@@ -7516,12 +9169,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Kalithumos-Tichondrius",
-		},
-		[264954] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
 		},
 		[259711] = {
 			["school"] = 1,
@@ -7599,13 +9246,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Murtag-Sargeras",
 		},
-		[84982] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[274168] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Siamat",
+			["source"] = "Zul",
 		},
 		[118297] = {
 			["school"] = 4,
@@ -7724,13 +9371,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Adderis",
 		},
-		[119910] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Eldodin-KhazModan",
-		},
 		[270590] = {
 			["school"] = 1,
 			["token"] = {
@@ -7739,6 +9379,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Demolishing Terror",
+		},
+		[119910] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Eldodin-KhazModan",
 		},
 		[126664] = {
 			["school"] = 1,
@@ -7840,12 +9487,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kesak-Lightbringer",
 		},
-		[262019] = {
+		[6343] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mogul Razdunk",
+			["source"] = "Sheilyana-Sargeras",
 		},
 		[267523] = {
 			["school"] = 1,
@@ -7858,19 +9508,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Captain Jolly",
 		},
-		[6343] = {
+		[262019] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sheilyana-Sargeras",
+			["source"] = "Mogul Razdunk",
 		},
 		[57755] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Murtag-Sargeras",
@@ -7905,12 +9553,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Murtag-Sargeras",
 		},
-		[272146] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[271107] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Mistaaytch-Lightbringer",
 		},
 		[277775] = {
 			["school"] = 1,
@@ -8048,14 +9698,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sheilyana-Sargeras",
 		},
-		[276229] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "B.O.O.M.B.A.",
-		},
 		[259975] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -8064,6 +9706,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "The Sand Queen",
+		},
+		[276229] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "B.O.O.M.B.A.",
 		},
 		[256137] = {
 			["school"] = 4,
@@ -8160,15 +9810,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zek'voz",
 		},
-		[108271] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Unshocked-Proudmoore",
-		},
 		[255371] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -8178,6 +9819,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Rezan",
+		},
+		[108271] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Unshocked-Proudmoore",
 		},
 		[267533] = {
 			["school"] = 4,
@@ -8379,15 +10029,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Venomous Ophidian",
 		},
-		[197214] = {
-			["school"] = 5,
-			["type"] = "DEBUFF",
+		[277774] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Superc-Lightbringer",
+			["source"] = "Unworthy Vessel",
 		},
 		[274192] = {
 			["school"] = 1,
@@ -8430,13 +10078,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "A Knot of Snakes",
 		},
-		[275773] = {
-			["school"] = 2,
+		[199850] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kalithumos-Tichondrius",
+			["source"] = "Murtag-Sargeras",
 		},
 		[183811] = {
 			["school"] = 2,
@@ -8595,13 +10242,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jhasu-Lightbringer",
 		},
-		[274168] = {
-			["school"] = 32,
+		[84982] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Zul",
+			["source"] = "Siamat",
 		},
 		[30283] = {
 			["school"] = 32,
@@ -8627,14 +10274,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Murtag-Sargeras",
 		},
-		[76620] = {
-			["school"] = 64,
+		[280852] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Azureborne Warlord",
+			["source"] = "Eldodin-KhazModan",
 		},
 		[265264] = {
 			["school"] = 32,
@@ -8670,12 +10316,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aqu'sirr",
 		},
-		[265974] = {
+		[263927] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Galvazzt",
+			["source"] = "Merektha",
 		},
 		[267548] = {
 			["school"] = 1,
@@ -8928,14 +10576,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vanquished Tendril of G'huun",
 		},
-		[264210] = {
+		[280861] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Silithid Warrior",
+			["source"] = "Mistaaytch-Lightbringer",
 		},
 		[205231] = {
 			["school"] = 32,
@@ -8963,15 +10610,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Erudax",
 		},
-		[12975] = {
+		[280862] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Sheilyana-Sargeras",
+			["source"] = "Mistaaytch-Lightbringer",
 		},
 		[198067] = {
 			["school"] = 4,
@@ -9224,14 +10869,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Valiona",
 		},
-		[262288] = {
+		[280870] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fetid Devourer",
+			["source"] = "Voinic-Lightbringer",
 		},
 		[259531] = {
 			["school"] = 32,
@@ -9400,13 +11044,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Warped Projection",
 		},
-		[280485] = {
+		[277805] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Constricting Terror",
+			["source"] = "Malformed Raptor",
 		},
 		[76703] = {
 			["school"] = 1,
@@ -9475,13 +11120,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eldodin-KhazModan",
 		},
-		[278070] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[201657] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Newc-Lightbringer",
+			["source"] = "Voinic-Lightbringer",
 		},
 		[267444] = {
 			["school"] = 32,
@@ -9531,12 +11175,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azerite Footbomb",
 		},
-		[210153] = {
-			["school"] = 1,
+		[277809] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Newc-Lightbringer",
+			["source"] = "Speaker Obara",
 		},
 		[164812] = {
 			["school"] = 64,
@@ -9662,14 +11307,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[272046] = {
-			["school"] = 8,
+		[277813] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sharkbait",
+			["source"] = "Speaker Obara",
 		},
 		[273316] = {
 			["school"] = 1,

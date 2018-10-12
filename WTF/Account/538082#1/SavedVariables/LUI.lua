@@ -129,35 +129,11 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1355710909,
+							["Mallusof"] = 1168473430,
 							["Rahran"] = 595705761,
 							["Faerand"] = 331986152,
 							["Thedodrouk"] = 7136037,
 							["Praerend"] = 1500156434,
-						},
-					},
-				},
-				["Aggramar"] = {
-					["Gold"] = {
-						["Horde"] = {
-							["Gottagetlia"] = 319950,
-						},
-					},
-				},
-				["Bleeding Hollow"] = {
-					["Gold"] = {
-						["Horde"] = {
-							["Zaliga"] = 8607092,
-							["Evisca"] = 303004,
-							["Rentror"] = 470,
-							["Gorog"] = 993959,
-						},
-					},
-				},
-				["Hyjal"] = {
-					["Gold"] = {
-						["Horde"] = {
-							["Deminath"] = 2131,
 						},
 					},
 				},
@@ -178,11 +154,35 @@ LUIDB = {
 							["Zearthan"] = 38822533,
 							["Korugen"] = 8314025,
 							["Faerand"] = 331462352,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Praerend"] = 1500267344,
+						},
+					},
+				},
+				["Bleeding Hollow"] = {
+					["Gold"] = {
+						["Horde"] = {
+							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
+							["Evisca"] = 303004,
+							["Gorog"] = 993959,
+						},
+					},
+				},
+				["Hyjal"] = {
+					["Gold"] = {
+						["Horde"] = {
+							["Deminath"] = 2131,
+						},
+					},
+				},
+				["Aggramar"] = {
+					["Gold"] = {
+						["Horde"] = {
+							["Gottagetlia"] = 319950,
 						},
 					},
 				},
@@ -214,20 +214,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
-					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
+					},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -255,10 +249,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -966,40 +966,6 @@ LUIDB = {
 							"/rchars", -- [31]
 							"/gdisband", -- [32]
 						},
-						["Horde - Hyjal"] = {
-							" Hey :)", -- [1]
-							"/bt4", -- [2]
-							" Hey :)", -- [3]
-							"/bt4", -- [4]
-							" Hey :)", -- [5]
-							"/bt4", -- [6]
-							" Hey :)", -- [7]
-							"/bt4", -- [8]
-							" Hey :)", -- [9]
-							"/bt4", -- [10]
-							" Hey :)", -- [11]
-							"/bt4", -- [12]
-							" Hey :)", -- [13]
-							"/bt4", -- [14]
-							" Hey :)", -- [15]
-							"/bt4", -- [16]
-							" Hey :)", -- [17]
-							"/bt4", -- [18]
-							" Hey :)", -- [19]
-							"/bt4", -- [20]
-							" Hey :)", -- [21]
-							"/bt4", -- [22]
-							" Hey :)", -- [23]
-							"/bt4", -- [24]
-							" Hey :)", -- [25]
-							"/bt4", -- [26]
-							" Hey :)", -- [27]
-							"/bt4", -- [28]
-							" Hey :)", -- [29]
-							"/bt4", -- [30]
-							" Hey :)", -- [31]
-							"/bt4", -- [32]
-						},
 						["Horde - Proudmoore"] = {
 							" hahaha", -- [1]
 							"/focus", -- [2]
@@ -1034,39 +1000,73 @@ LUIDB = {
 							" hahaha", -- [31]
 							"/focus", -- [32]
 						},
+						["Horde - Hyjal"] = {
+							" Hey :)", -- [1]
+							"/bt4", -- [2]
+							" Hey :)", -- [3]
+							"/bt4", -- [4]
+							" Hey :)", -- [5]
+							"/bt4", -- [6]
+							" Hey :)", -- [7]
+							"/bt4", -- [8]
+							" Hey :)", -- [9]
+							"/bt4", -- [10]
+							" Hey :)", -- [11]
+							"/bt4", -- [12]
+							" Hey :)", -- [13]
+							"/bt4", -- [14]
+							" Hey :)", -- [15]
+							"/bt4", -- [16]
+							" Hey :)", -- [17]
+							"/bt4", -- [18]
+							" Hey :)", -- [19]
+							"/bt4", -- [20]
+							" Hey :)", -- [21]
+							"/bt4", -- [22]
+							" Hey :)", -- [23]
+							"/bt4", -- [24]
+							" Hey :)", -- [25]
+							"/bt4", -- [26]
+							" Hey :)", -- [27]
+							"/bt4", -- [28]
+							" Hey :)", -- [29]
+							"/bt4", -- [30]
+							" Hey :)", -- [31]
+							"/bt4", -- [32]
+						},
 						["Alliance - Icecrown"] = {
-							"/p !key", -- [1]
-							"/cw Elidellx-Icecrown nps :)", -- [2]
-							"/p !key", -- [3]
-							"/cw Elidellx-Icecrown nps :)", -- [4]
-							"/s hello :)", -- [5]
-							"/p !key", -- [6]
-							"/cw Elidellx-Icecrown nps :)", -- [7]
-							"/p !key", -- [8]
-							"/cw Elidellx-Icecrown nps :)", -- [9]
-							"/s hello :)", -- [10]
-							"/cw Elidellx-Icecrown nps :)", -- [11]
-							"/s hello :)", -- [12]
-							"/p |cffa335ee|Hkeystone:158923:248:10:9:5:3:16|h[Keystone: Waycrest Manor (10)]|h|r :P", -- [13]
-							"/p !key", -- [14]
-							"/s |cffa335ee|Hitem:159631::::::::120:258::16:3:5010:1542:4786:::|h[Lady Waycrest's Music Box]|h|r", -- [15]
-							"/cw Elidellx-Icecrown nps :)", -- [16]
-							"/s hello :)", -- [17]
-							"/p !key", -- [18]
-							"/cw Elidellx-Icecrown nps :)", -- [19]
-							"/p !key", -- [20]
-							"/cw Elidellx-Icecrown nps :)", -- [21]
-							"/s hello :)", -- [22]
-							"/cw Elidellx-Icecrown nps :)", -- [23]
-							"/s hello :)", -- [24]
-							"/p |cffa335ee|Hkeystone:158923:248:10:9:5:3:16|h[Keystone: Waycrest Manor (10)]|h|r :P", -- [25]
-							"/s |cffa335ee|Hitem:159631::::::::120:258::16:3:5010:1542:4786:::|h[Lady Waycrest's Music Box]|h|r", -- [26]
-							"/s hello :)", -- [27]
-							"/cw Elidellx-Icecrown nps :)", -- [28]
-							"/s hello :)", -- [29]
-							"/p |cffa335ee|Hkeystone:158923:248:10:9:5:3:16|h[Keystone: Waycrest Manor (10)]|h|r :P", -- [30]
-							"/s hello :)", -- [31]
-							"/p |cffa335ee|Hkeystone:158923:248:10:9:5:3:16|h[Keystone: Waycrest Manor (10)]|h|r :P", -- [32]
+							"/raid thanks :)", -- [1]
+							"/cw Asahina-Lightbringer Do you have WeakAuras?", -- [2]
+							"/raid B", -- [3]
+							"/raid SORRY", -- [4]
+							"/cw Asahina-Lightbringer !LE1xtTnoq8Vl5fsMRnKeAN56DLotsAaYnGHgzAN7EqXk2koQOiLrwgk8q(SF7kztmXgkxVbgh7vR2))BxjAFAiLSMssW)HxT8FyhCLwOSuYOlddV8cpT(NOvwI4bonyqpkjwRLj67uHWstuSfsEcDeqopZQxJePKT)1p)pk5(lxUmJBPbGqzQ4vAtHYhpjiCYSQI86njmlNsYl)1iPKvw7MS)4WdVJLQ7k0hoQ)7dFiv(1VC4aqGXwHwLH(vML", -- [5]
+							"/cw Asahina-Lightbringer ARG", -- [6]
+							"/cw Asahina-Lightbringer SEC", -- [7]
+							"/cw Asahina-Lightbringer [WeakAuras: Mallusof-Icecrown - Mage - Arcane Intellect - Intellect]", -- [8]
+							"/cw Asahina-Lightbringer This will pop up whenever ANYONE in the raid doesnt have Int", -- [9]
+							"/cw Asahina-Lightbringer What?", -- [10]
+							"/cw Asahina-Lightbringer Yeah you can?", -- [11]
+							"/raid Nana and Unshocked", -- [12]
+							"/raid I'm gonna try Disc for a pull or 2", -- [13]
+							"/raid see if I'm better", -- [14]
+							"/raid also", -- [15]
+							"/raid Nana, Tranq the first", -- [16]
+							"/raid Then unshocked second", -- [17]
+							"/raid then Innervate on yourself", -- [18]
+							" prolly", -- [19]
+							"/cw Nanaeve-Lightbringer No worries :)", -- [20]
+							"/cw Nanaeve-Lightbringer you did good :)", -- [21]
+							"/pull 10", -- [22]
+							"/raid Yeah, I had people yell at me IRL", -- [23]
+							"/raid kinda threw me off and pissed me off", -- [24]
+							"/raid sorry about that", -- [25]
+							"/cw Nanaeve-Lightbringer I'm Disc atm, so use Innervate on yourself :)", -- [26]
+							"/cw Nanaeve-Lightbringer I cant unload that much mana :)", -- [27]
+							"/cw Nanaeve-Lightbringer No worries :)", -- [28]
+							"/cw Kalithumos-Tichondrius Beam", -- [29]
+							" 10 mins", -- [30]
+							" sup?", -- [31]
+							"/bw", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
@@ -1212,15 +1212,12 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1229,6 +1226,9 @@ LUIDB = {
 						["Width"] = 370,
 						["Height"] = 205,
 						["Anchor"] = "CompactRaidFrameContainer",
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1368,13 +1368,7 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1386,13 +1380,19 @@ LUIDB = {
 						0.55, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1532,19 +1532,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1556,11 +1556,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1694,13 +1694,7 @@ LUIDB = {
 						0.1, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.8, -- [1]
-						0.1, -- [2]
-						0.1, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
@@ -1712,13 +1706,19 @@ LUIDB = {
 						0.1, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.8, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
@@ -1979,9 +1979,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2046,9 +2046,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2096,9 +2096,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2312,20 +2312,6 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Zearthan - Proudmoore"] = {
-				["IsConfigured"] = true,
-				["Versions"] = {
-					["raidmenu"] = 2.4,
-					["swing"] = 2,
-					["RaidMenu"] = true,
-					["threatbar"] = 2,
-					["Auras"] = 2,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["bars"] = 2.4,
-					["mirrorbar"] = 1,
-				},
-			},
 			["Luugo - Frostwolf"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -2341,6 +2327,20 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
+			["Zearthan - Proudmoore"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["threatbar"] = 2,
+					["Auras"] = 2,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
+					["bars"] = 2.4,
+					["mirrorbar"] = 1,
+				},
+			},
 			["Amranar - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -2353,11 +2353,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Evisca - Bleeding Hollow"] = {
@@ -2419,9 +2419,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2518,11 +2518,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Kindhoof - Proudmoore"] = {
@@ -2597,8 +2597,6 @@ LUIDB = {
 				["Merchant"] = false,
 			},
 		},
-		["Default"] = {
-		},
 		["Base"] = {
 			["modules"] = {
 				["Merchant"] = true,
@@ -2623,6 +2621,8 @@ LUIDB = {
 				},
 				["Enable"] = false,
 			},
+		},
+		["Default"] = {
 		},
 	},
 }
