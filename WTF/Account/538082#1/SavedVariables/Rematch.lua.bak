@@ -970,8 +970,9 @@ RematchSettings = {
 	["XPos"] = 254.550247192383,
 	["DialogYPos"] = 552.597473144531,
 	["BackupCount"] = 0,
-	["JournalUsed"] = true,
-	["loadedTeam"] = 65655,
+	["loadedTeam"] = 66522,
+	["SpecialSlots"] = {
+	},
 	["LevelingQueue"] = {
 	},
 	["DialogXPos"] = 982.395568847656,
@@ -1000,9 +1001,9 @@ RematchSettings = {
 		},
 		["Level"] = {
 		},
-		["Sources"] = {
-		},
 		["Similar"] = {
+		},
+		["Sources"] = {
 		},
 		["Breed"] = {
 		},
@@ -1021,8 +1022,7 @@ RematchSettings = {
 		["Order"] = 2,
 		["FavoritesFirst"] = true,
 	},
-	["SpecialSlots"] = {
-	},
+	["JournalUsed"] = true,
 	["ShowOnTarget"] = false,
 	["CollapsedOptHeaders"] = {
 		nil, -- [1]

@@ -969,10 +969,10 @@ RematchSettings = {
 	["QueueSortOrder"] = 1,
 	["XPos"] = 254.550247192383,
 	["DialogYPos"] = 552.597473144531,
+	["JournalUsed"] = true,
+	["loadedTeam"] = 66522,
 	["SpecialSlots"] = {
 	},
-	["JournalUsed"] = true,
-	["loadedTeam"] = 65655,
 	["LevelingQueue"] = {
 	},
 	["DialogXPos"] = 982.395568847656,
@@ -1003,13 +1003,13 @@ RematchSettings = {
 		},
 		["Rarity"] = {
 		},
-		["Sources"] = {
+		["Similar"] = {
 		},
 		["Breed"] = {
 		},
 		["Script"] = {
 		},
-		["Similar"] = {
+		["Sources"] = {
 		},
 		["Level"] = {
 		},

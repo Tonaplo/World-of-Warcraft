@@ -60,10 +60,10 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1173213240,
+							["Mallusof"] = 1180632107,
 							["Praerend"] = 1500156434,
 							["Faerand"] = 331986152,
-							["Thedodrouk"] = 7169081,
+							["Thedodrouk"] = 7197610,
 							["Rahran"] = 595705761,
 						},
 					},
@@ -79,9 +79,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -93,10 +93,28 @@ LUIDB = {
 						},
 					},
 				},
-				["Aggramar"] = {
+				["Proudmoore"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Gottagetlia"] = 319950,
+							["Deminath"] = 1644198054,
+							["Morifa"] = 1384217305,
+							["Kindhoof"] = 1186116499,
+						},
+						["Alliance"] = {
+							["Miriyal"] = 373580598,
+							["Farahn"] = 207174970,
+							["Greybone"] = 987100358,
+							["Amranar"] = 599870423,
+							["Granjior"] = 1186116499,
+							["Kaldorath"] = 1269646101,
+							["Zearthan"] = 38822533,
+							["Korugen"] = 8331025,
+							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
+							["Morifa"] = 1385014335,
+							["Rahran"] = 594441111,
+							["Faerand"] = 331462352,
+							["Praerend"] = 1500267344,
 						},
 					},
 				},
@@ -116,28 +134,10 @@ LUIDB = {
 						},
 					},
 				},
-				["Proudmoore"] = {
+				["Aggramar"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Deminath"] = 1644198054,
-							["Morifa"] = 1384217305,
-							["Kindhoof"] = 1186116499,
-						},
-						["Alliance"] = {
-							["Miriyal"] = 373580598,
-							["Farahn"] = 207174970,
-							["Greybone"] = 987100358,
-							["Amranar"] = 599870423,
-							["Granjior"] = 1186116499,
-							["Kaldorath"] = 1269646101,
-							["Zearthan"] = 38822533,
-							["Korugen"] = 8322525,
-							["Fimwack"] = 1625871926,
-							["Mallusof"] = 1162234125,
-							["Morifa"] = 1385014335,
-							["Rahran"] = 594441111,
-							["Faerand"] = 331462352,
-							["Praerend"] = 1500267344,
+							["Gottagetlia"] = 319950,
 						},
 					},
 				},
@@ -215,14 +215,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -250,16 +256,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -963,6 +963,12 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
+					["Tps"] = {
+						["Width"] = 600,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Animation"] = "None",
@@ -971,17 +977,11 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1108,7 +1108,13 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1120,23 +1126,17 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						1, -- [1]
@@ -1270,7 +1270,13 @@ LUIDB = {
 						0.1, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.8, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
@@ -1282,19 +1288,13 @@ LUIDB = {
 						0.1, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.8, -- [1]
-						0.1, -- [2]
-						0.1, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
@@ -1433,17 +1433,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
 					},
 					["micromenu_btn_hover"] = {
 						0.9, -- [1]
@@ -1451,13 +1445,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1597,7 +1597,13 @@ LUIDB = {
 						0.1, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.8, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
@@ -1609,23 +1615,17 @@ LUIDB = {
 						0.1, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.8, -- [1]
-						0.1, -- [2]
-						0.1, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.8, -- [1]
 						0.1, -- [2]
 						0.1, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.8, -- [1]
@@ -1688,38 +1688,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [1]
-							"/gdisband", -- [2]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [3]
-							"/gdisband", -- [4]
-							"/rchars", -- [5]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [6]
-							"/rchars", -- [7]
-							"/gdisband", -- [8]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [9]
-							"/rchars", -- [10]
-							"/gdisband", -- [11]
-							"/rchars", -- [12]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [13]
-							"/gdisband", -- [14]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [15]
-							"/gdisband", -- [16]
-							"/rchars", -- [17]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [18]
-							"/rchars", -- [19]
-							"/gdisband", -- [20]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [21]
-							"/rchars", -- [22]
-							"/gdisband", -- [23]
-							"/rchars", -- [24]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [25]
-							"/gdisband", -- [26]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [27]
-							"/gdisband", -- [28]
-							"/rchars", -- [29]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [30]
-							"/gdisband", -- [31]
-							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [32]
+							"/rchars", -- [1]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [2]
+							"/rchars", -- [3]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [4]
+							"/gdisband", -- [5]
+							"/rchars", -- [6]
+							"/gdisband", -- [7]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [8]
+							"/rchars", -- [9]
+							"/gdisband", -- [10]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [11]
+							"/gdisband", -- [12]
+							"/rchars", -- [13]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [14]
+							"/rchars", -- [15]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [16]
+							"/gdisband", -- [17]
+							"/rchars", -- [18]
+							"/gdisband", -- [19]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [20]
+							"/rchars", -- [21]
+							"/gdisband", -- [22]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [23]
+							"/gdisband", -- [24]
+							"/rchars", -- [25]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [26]
+							"/rchars", -- [27]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [28]
+							"/gdisband", -- [29]
+							"/rchars", -- [30]
+							"/1 Original meaning of gay is happy, so yeah, I guess you're right :)", -- [31]
+							"/rchars", -- [32]
+						},
+						["Horde - Proudmoore"] = {
+							"/2 contact CS", -- [1]
+							"/focus", -- [2]
+							" hahaha", -- [3]
+							"/focus", -- [4]
+							" hahaha", -- [5]
+							"/2 contact CS", -- [6]
+							"/focus", -- [7]
+							" hahaha", -- [8]
+							"/focus", -- [9]
+							" hahaha", -- [10]
+							"/focus", -- [11]
+							" hahaha", -- [12]
+							"/focus", -- [13]
+							" hahaha", -- [14]
+							"/focus", -- [15]
+							" hahaha", -- [16]
+							"/focus", -- [17]
+							" hahaha", -- [18]
+							"/2 contact CS", -- [19]
+							"/focus", -- [20]
+							" hahaha", -- [21]
+							"/focus", -- [22]
+							" hahaha", -- [23]
+							"/focus", -- [24]
+							" hahaha", -- [25]
+							"/focus", -- [26]
+							" hahaha", -- [27]
+							"/2 contact CS", -- [28]
+							" hahaha", -- [29]
+							"/focus", -- [30]
+							" hahaha", -- [31]
+							"/focus", -- [32]
 						},
 						["Horde - Tichondrius"] = {
 							"/reload", -- [1]
@@ -1755,73 +1789,39 @@ LUIDB = {
 							"/p yeah I'm in afucked state agaion", -- [31]
 							"/i thanks :)", -- [32]
 						},
-						["Horde - Proudmoore"] = {
-							" hahaha", -- [1]
-							"/focus", -- [2]
-							"/2 contact CS", -- [3]
-							" hahaha", -- [4]
-							"/2 contact CS", -- [5]
-							"/focus", -- [6]
-							"/2 contact CS", -- [7]
-							" hahaha", -- [8]
-							"/2 contact CS", -- [9]
-							"/focus", -- [10]
-							" hahaha", -- [11]
-							"/focus", -- [12]
-							" hahaha", -- [13]
-							"/focus", -- [14]
-							"/2 contact CS", -- [15]
-							" hahaha", -- [16]
-							"/2 contact CS", -- [17]
-							"/focus", -- [18]
-							"/2 contact CS", -- [19]
-							" hahaha", -- [20]
-							"/2 contact CS", -- [21]
-							"/focus", -- [22]
-							" hahaha", -- [23]
-							"/focus", -- [24]
-							" hahaha", -- [25]
-							"/2 contact CS", -- [26]
-							"/focus", -- [27]
-							" hahaha", -- [28]
-							"/focus", -- [29]
-							" hahaha", -- [30]
-							"/focus", -- [31]
-							" hahaha", -- [32]
-						},
 						["Alliance - Icecrown"] = {
-							"/bw", -- [1]
-							"/raid thanks :)", -- [2]
-							"/raid B", -- [3]
-							"/cw Asahina-Lightbringer Yeah you can?", -- [4]
-							" prolly", -- [5]
-							"/cw Nanaeve-Lightbringer I cant unload that much mana :)", -- [6]
-							"/cw Asahina-Lightbringer !LE1xtTnoq8Vl5fsMRnKeAN56DLotsAaYnGHgzAN7EqXk2koQOiLrwgk8q(SF7kztmXgkxVbgh7vR2))BxjAFAiLSMssW)HxT8FyhCLwOSuYOlddV8cpT(NOvwI4bonyqpkjwRLj67uHWstuSfsEcDeqopZQxJePKT)1p)pk5(lxUmJBPbGqzQ4vAtHYhpjiCYSQI86njmlNsYl)1iPKvw7MS)4WdVJLQ7k0hoQ)7dFiv(1VC4aqGXwHwLH(vML", -- [7]
-							"/cw Nanaeve-Lightbringer you did good :)", -- [8]
-							"/cw Asahina-Lightbringer This will pop up whenever ANYONE in the raid doesnt have Int", -- [9]
-							"/raid Then unshocked second", -- [10]
-							"/cw Asahina-Lightbringer SEC", -- [11]
-							"/raid Yeah, I had people yell at me IRL", -- [12]
+							"/cw Kalithumos-Tichondrius Beam", -- [1]
+							"/g nice one :)", -- [2]
+							"/raid sorry about that", -- [3]
+							"/g nice one :)", -- [4]
+							"/bw", -- [5]
+							"/raid sorry about that", -- [6]
+							"/g nice one :)", -- [7]
+							"/bw", -- [8]
+							"/g nice one :)", -- [9]
+							"/raid sorry about that", -- [10]
+							"/g nice one :)", -- [11]
+							"/bw", -- [12]
 							"/raid I'm gonna try Disc for a pull or 2", -- [13]
 							"/raid sorry about that", -- [14]
-							"/raid also", -- [15]
-							"/cw Kalithumos-Tichondrius Beam", -- [16]
-							" sup?", -- [17]
-							"/raid thanks :)", -- [18]
-							"/cw Asahina-Lightbringer Yeah you can?", -- [19]
-							"/cw Nanaeve-Lightbringer I cant unload that much mana :)", -- [20]
-							"/cw Nanaeve-Lightbringer you did good :)", -- [21]
-							"/raid Then unshocked second", -- [22]
-							"/raid Yeah, I had people yell at me IRL", -- [23]
+							"/cw Kalithumos-Tichondrius Beam", -- [15]
+							"/g nice one :)", -- [16]
+							"/raid sorry about that", -- [17]
+							"/g nice one :)", -- [18]
+							"/bw", -- [19]
+							"/raid sorry about that", -- [20]
+							"/g nice one :)", -- [21]
+							"/bw", -- [22]
+							"/g nice one :)", -- [23]
 							"/raid sorry about that", -- [24]
-							"/cw Kalithumos-Tichondrius Beam", -- [25]
-							"/raid thanks :)", -- [26]
-							"/cw Nanaeve-Lightbringer I cant unload that much mana :)", -- [27]
-							"/raid Then unshocked second", -- [28]
-							"/raid sorry about that", -- [29]
-							"/raid thanks :)", -- [30]
-							"/raid Then unshocked second", -- [31]
-							"/raid thanks :)", -- [32]
+							"/bw", -- [25]
+							"/raid sorry about that", -- [26]
+							"/g nice one :)", -- [27]
+							"/bw", -- [28]
+							"/g nice one :)", -- [29]
+							"/raid sorry about that", -- [30]
+							"/g nice one :)", -- [31]
+							"/raid sorry about that", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
@@ -2184,11 +2184,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Icecrown"] = {
@@ -2251,11 +2251,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -2301,11 +2301,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -2568,9 +2568,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2601,9 +2601,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2639,11 +2639,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Korugen - Proudmoore"] = {
