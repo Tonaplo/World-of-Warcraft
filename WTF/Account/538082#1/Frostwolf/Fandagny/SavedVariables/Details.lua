@@ -7,114 +7,531 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 92,
+					["combatId"] = 94,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004334,
+							["totalabsorbed"] = 0.005603,
 							["damage_from"] = {
-								["Hearthglen Crusader"] = true,
+								["Terrifying Abomination"] = true,
 							},
 							["targets"] = {
+								["Terrifying Abomination"] = 5743,
+							},
+							["pets"] = {
+								"Rotslobber <Fandagny>", -- [1]
 							},
 							["on_hold"] = false,
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
+							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 0.004334,
-							["spec"] = 252,
+							["total_without_pet"] = 5523.005603,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
-							["total"] = 0.004334,
-							["classe"] = "DEATHKNIGHT",
-							["serial"] = "Player-7-0B437180",
+							["end_time"] = 1539384062,
+							["friendlyfire_total"] = 0,
+							["spec"] = 252,
 							["nome"] = "Fandagny",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1186,
+										["targets"] = {
+											["Terrifying Abomination"] = 1186,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1186,
+										["n_min"] = 1186,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1186,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[85948] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3170,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Terrifying Abomination"] = 3170,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3170,
+										["c_max"] = 3170,
+										["id"] = 85948,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 3170,
+									},
+									[47632] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 914,
+										["targets"] = {
+											["Terrifying Abomination"] = 914,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 914,
+										["n_min"] = 914,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 914,
+										["c_max"] = 0,
+										["id"] = 47632,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[77575] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 253,
+										["targets"] = {
+											["Terrifying Abomination"] = 253,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 253,
+										["n_min"] = 253,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 253,
+										["c_max"] = 0,
+										["id"] = 77575,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
 								},
 							},
 							["grupo"] = true,
-							["end_time"] = 1539300797,
+							["total"] = 5743.005603,
+							["serial"] = "Player-7-0B437180",
+							["last_dps"] = 1298.44123965347,
+							["custom"] = 0,
+							["last_event"] = 1539384061,
+							["damage_taken"] = 243.005603,
+							["start_time"] = 1539384058,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.005698,
+							["serial"] = "Pet-0-3132-0-4736-26125-0102ACCE34",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Terrifying Abomination"] = 220,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 220.005698,
+							["dps_started"] = false,
+							["total"] = 220.005698,
+							["classe"] = "PET",
+							["ownerName"] = "Fandagny",
+							["nome"] = "Rotslobber <Fandagny>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 58,
+										["targets"] = {
+											["Terrifying Abomination"] = 116,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 116,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 116,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[91776] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 52,
+										["targets"] = {
+											["Terrifying Abomination"] = 104,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 104,
+										["n_min"] = 52,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 104,
+										["c_max"] = 0,
+										["id"] = 91776,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1539384062,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 462.004334,
-							["start_time"] = 1539300797,
+							["damage_taken"] = 0.005698,
+							["start_time"] = 1539384059,
 							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [1]
+							["last_event"] = 1539384061,
+						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 92,
+					["combatId"] = 94,
 					["tipo"] = 3,
 					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Fandagny"] = 11355,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["totalover"] = 11355.008845,
+							["total_without_pet"] = 453.008845,
+							["total"] = 453.008845,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-7-0B437180",
+							["totalabsorb"] = 0.008845,
+							["last_hps"] = 102.421172281031,
+							["targets"] = {
+								["Fandagny"] = 4428,
+							},
+							["totalover_without_pet"] = 0.008845,
+							["healing_taken"] = 453.008845,
+							["fight_component"] = true,
+							["end_time"] = 1539384062,
+							["healing_from"] = {
+								["Fandagny"] = true,
+							},
+							["nome"] = "Fandagny",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[53365] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Fandagny"] = 738,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Fandagny"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 738,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 53365,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[58361] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Fandagny"] = 10617,
+										},
+										["n_max"] = 243,
+										["targets"] = {
+											["Fandagny"] = 453,
+										},
+										["n_min"] = 243,
+										["counter"] = 5,
+										["overheal"] = 10617,
+										["total"] = 453,
+										["c_max"] = 0,
+										["id"] = 58361,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 453,
+										["n_amt"] = 5,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1539384058,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 252,
+							["totaldenied"] = 0.008845,
+							["delay"] = 0,
+							["last_event"] = 1539384062,
+						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 92,
+					["combatId"] = 94,
 					["tipo"] = 7,
 					["_ActorTable"] = {
+						{
+							["received"] = 19.001504,
+							["resource"] = 0.001504,
+							["targets"] = {
+								["Fandagny"] = 19,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEATHKNIGHT",
+							["fight_component"] = true,
+							["total"] = 19.001504,
+							["nome"] = "Fandagny",
+							["spec"] = 252,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1539384061,
+							["alternatepower"] = 0.001504,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[77575] = {
+										["id"] = 77575,
+										["total"] = 10,
+										["targets"] = {
+											["Fandagny"] = 10,
+										},
+										["counter"] = 1,
+									},
+									[195757] = {
+										["id"] = 195757,
+										["total"] = 9,
+										["targets"] = {
+											["Fandagny"] = 9,
+										},
+										["counter"] = 3,
+									},
+								},
+							},
+							["serial"] = "Player-7-0B437180",
+							["tipo"] = 3,
+						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 92,
+					["combatId"] = 94,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[191587] = {
+										["activedamt"] = 0,
+										["id"] = 191587,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196782] = {
+										["activedamt"] = 0,
+										["id"] = 196782,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194310] = {
+										["activedamt"] = -1,
+										["id"] = 194310,
+										["targets"] = {
+										},
+										["actived_at"] = 1539384061,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
 							},
-							["spec"] = 252,
-							["grupo"] = true,
-							["buff_uptime"] = 48,
-							["nome"] = "Fandagny",
-							["pets"] = {
-							},
-							["last_event"] = 1539300797,
+							["buff_uptime"] = 13,
 							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[229387] = {
+									[58361] = {
 										["activedamt"] = 1,
-										["id"] = 229387,
+										["id"] = 58361,
 										["targets"] = {
 										},
-										["uptime"] = 19,
+										["uptime"] = 4,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[51915] = {
+									[51721] = {
 										["activedamt"] = 1,
-										["id"] = 51915,
+										["id"] = 51721,
 										["targets"] = {
 										},
-										["uptime"] = 19,
+										["uptime"] = 4,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[52424] = {
+									[51460] = {
 										["activedamt"] = 1,
-										["id"] = 52424,
+										["id"] = 51460,
 										["targets"] = {
 										},
-										["uptime"] = 10,
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[53365] = {
+										["activedamt"] = 1,
+										["id"] = 53365,
+										["targets"] = {
+										},
+										["uptime"] = 4,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 252,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[77575] = 1,
+								[47541] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1539384062,
+							["nome"] = "Fandagny",
+							["pets"] = {
 							},
 							["serial"] = "Player-7-0B437180",
 							["tipo"] = 4,
@@ -122,7 +539,7 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 92,
+					["combatId"] = 94,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -130,20 +547,21 @@ _detalhes_database = {
 				["raid_roster"] = {
 					["Fandagny"] = true,
 				},
+				["CombatStartedAt"] = 197224.365,
 				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["enemy"] = "Hearthglen Crusader",
-				["combat_counter"] = 106,
+				["enemy"] = "Terrifying Abomination",
+				["combat_counter"] = 109,
 				["playing_solo"] = true,
 				["totals"] = {
-					-0.0436280000077195, -- [1]
-					0, -- [2]
+					5742.938301, -- [1]
+					452.992661, -- [2]
 					{
-						0, -- [1]
-						[0] = 0,
+						-0.0062850000000001, -- [1]
+						[0] = 18.990045,
 						["alternatepower"] = 0,
 						[3] = 0,
 						[6] = 0,
@@ -176,34 +594,34 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
+							["Fandagny"] = 453.008845,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Fandagny"] = 0.004334,
+							["Fandagny"] = 5743.005603,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 113961.623,
-				["combat_id"] = 92,
-				["TotalElapsedCombatTime"] = 113961.623,
-				["CombatEndedAt"] = 113961.623,
+				["end_time"] = 197228.788,
+				["combat_id"] = 94,
+				["TotalElapsedCombatTime"] = 4.42300000000978,
+				["CombatEndedAt"] = 197228.788,
 				["frags"] = {
-					["Tirisfal Crusader"] = 6,
-					["Hearthglen Crusader"] = 3,
+					["Terrifying Abomination"] = 1,
 				},
-				["data_fim"] = "16:33:17",
-				["data_inicio"] = "16:32:59",
+				["data_fim"] = "15:41:03",
+				["data_inicio"] = "15:40:59",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
+					5523, -- [1]
+					453, -- [2]
 					{
 						0, -- [1]
-						[0] = 0,
+						[0] = 19,
 						["alternatepower"] = 0,
 						[3] = 0,
 						[6] = 0,
@@ -219,8 +637,1624 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 113943.7,
-				["contra"] = "Hearthglen Crusader",
+				["start_time"] = 197224.365,
+				["contra"] = "Terrifying Abomination",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						3170.005603, -- [1]
+						363, -- [2]
+						52, -- [3]
+						2158, -- [4]
+						["max_value"] = 3170.005603,
+					},
+					["Raid Damage Done"] = {
+						3170, -- [1]
+						253, -- [2]
+						0, -- [3]
+						2100, -- [4]
+						["max_value"] = 3170,
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 93,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006483,
+							["damage_from"] = {
+								["[*] Touch of the Val'kyr"] = true,
+								["Val'kyr Battle-maiden"] = true,
+								["Patchwerk"] = true,
+								["Scourge Necromancer"] = true,
+								["Terrifying Abomination"] = true,
+							},
+							["targets"] = {
+								["Terrifying Abomination"] = 39304,
+								["Val'kyr Battle-maiden"] = 6204,
+								["Scourge Necromancer"] = 5676,
+								["Patchwerk"] = 30625,
+							},
+							["pets"] = {
+								"Pebblereaver <Fandagny>", -- [1]
+								"Rotslobber <Fandagny>", -- [2]
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 79304.006483,
+							["end_time"] = 1539384053,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 81809.006483,
+							["classe"] = "DEATHKNIGHT",
+							["on_hold"] = false,
+							["nome"] = "Fandagny",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 1,
+										["c_dmg"] = 2477,
+										["g_amt"] = 10,
+										["n_max"] = 1246,
+										["targets"] = {
+											["Terrifying Abomination"] = 6361,
+											["Patchwerk"] = 1639,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3884,
+										["n_min"] = 693,
+										["g_dmg"] = 1639,
+										["counter"] = 17,
+										["total"] = 8000,
+										["c_max"] = 2477,
+										["DODGE"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 693,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 2477,
+									}, -- [1]
+									[191587] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 3195,
+										["g_amt"] = 0,
+										["n_max"] = 276,
+										["targets"] = {
+											["Terrifying Abomination"] = 8634,
+											["Val'kyr Battle-maiden"] = 1657,
+											["Scourge Necromancer"] = 2276,
+											["Patchwerk"] = 3943,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13315,
+										["n_min"] = 224,
+										["g_dmg"] = 0,
+										["counter"] = 59,
+										["total"] = 16510,
+										["c_max"] = 551,
+										["id"] = 191587,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 52,
+										["r_amt"] = 0,
+										["c_min"] = 177,
+									},
+									[47632] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 924,
+										["targets"] = {
+											["Terrifying Abomination"] = 821,
+											["Patchwerk"] = 1848,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2669,
+										["n_min"] = 821,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2669,
+										["c_max"] = 0,
+										["id"] = 47632,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[70890] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 909,
+										["g_amt"] = 0,
+										["n_max"] = 418,
+										["targets"] = {
+											["Terrifying Abomination"] = 909,
+											["Patchwerk"] = 1625,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1625,
+										["n_min"] = 371,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 2534,
+										["c_max"] = 909,
+										["id"] = 70890,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 909,
+									},
+									[191685] = {
+										["c_amt"] = 13,
+										["b_amt"] = 0,
+										["c_dmg"] = 4758,
+										["g_amt"] = 0,
+										["n_max"] = 507,
+										["targets"] = {
+											["Terrifying Abomination"] = 6436,
+											["Val'kyr Battle-maiden"] = 2962,
+											["Scourge Necromancer"] = 2381,
+											["Patchwerk"] = 2873,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9894,
+										["n_min"] = 68,
+										["g_dmg"] = 0,
+										["counter"] = 117,
+										["total"] = 14652,
+										["c_max"] = 1014,
+										["MISS"] = 8,
+										["id"] = 191685,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 96,
+										["r_amt"] = 0,
+										["c_min"] = 137,
+									},
+									[55090] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 3083,
+										["g_amt"] = 0,
+										["n_max"] = 579,
+										["targets"] = {
+											["Terrifying Abomination"] = 579,
+											["Patchwerk"] = 3540,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1036,
+										["n_min"] = 457,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 4119,
+										["c_max"] = 1028,
+										["id"] = 55090,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 1027,
+									},
+									[196780] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Patchwerk"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 3,
+										["id"] = 196780,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[121147] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Patchwerk"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 3,
+										["id"] = 121147,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[52212] = {
+										["c_amt"] = 16,
+										["b_amt"] = 0,
+										["c_dmg"] = 2883,
+										["g_amt"] = 0,
+										["n_max"] = 100,
+										["targets"] = {
+											["Terrifying Abomination"] = 7822,
+											["Scourge Necromancer"] = 1019,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5958,
+										["n_min"] = 80,
+										["g_dmg"] = 0,
+										["counter"] = 80,
+										["total"] = 8841,
+										["c_max"] = 199,
+										["id"] = 52212,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 64,
+										["r_amt"] = 0,
+										["c_min"] = 161,
+									},
+									[194311] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1058,
+										["g_amt"] = 0,
+										["n_max"] = 529,
+										["targets"] = {
+											["Patchwerk"] = 2588,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1530,
+										["n_min"] = 472,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2588,
+										["c_max"] = 1058,
+										["id"] = 194311,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 1058,
+									},
+									[77575] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 253,
+										["targets"] = {
+											["Terrifying Abomination"] = 229,
+											["Patchwerk"] = 253,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 482,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 482,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 77575,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[47541] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Patchwerk"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 3,
+										["id"] = 47541,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[85948] = {
+										["c_amt"] = 5,
+										["b_amt"] = 2,
+										["c_dmg"] = 14135,
+										["g_amt"] = 0,
+										["n_max"] = 1595,
+										["targets"] = {
+											["Val'kyr Battle-maiden"] = 1585,
+											["Terrifying Abomination"] = 6205,
+											["Patchwerk"] = 11119,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4774,
+										["n_min"] = 1585,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 18909,
+										["c_max"] = 3463,
+										["a_amt"] = 0,
+										["id"] = 85948,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 4578,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 2154,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 252,
+							["serial"] = "Player-7-0B437180",
+							["last_dps"] = 1189.46474865474,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 46477.006483,
+							["start_time"] = 1539383983,
+							["delay"] = 0,
+							["last_event"] = 1539384052,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.003864,
+							["serial"] = "Pet-0-3881-609-9601-26125-1502ACCE34",
+							["damage_from"] = {
+								["Terrifying Abomination"] = true,
+								["Patchwerk"] = true,
+							},
+							["targets"] = {
+								["Terrifying Abomination"] = 1308,
+								["Patchwerk"] = 375,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1683.003864,
+							["dps_started"] = false,
+							["total"] = 1683.003864,
+							["classe"] = "PET",
+							["ownerName"] = "Fandagny",
+							["nome"] = "Pebblereaver <Fandagny>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 625,
+										["g_amt"] = 4,
+										["n_max"] = 64,
+										["targets"] = {
+											["Terrifying Abomination"] = 872,
+											["Patchwerk"] = 231,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 451,
+										["n_min"] = 51,
+										["g_dmg"] = 27,
+										["counter"] = 18,
+										["total"] = 1103,
+										["c_max"] = 106,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 102,
+									}, -- [1]
+									[91776] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 95,
+										["g_amt"] = 0,
+										["n_max"] = 57,
+										["targets"] = {
+											["Terrifying Abomination"] = 435,
+											["Patchwerk"] = 144,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 484,
+										["n_min"] = 46,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 579,
+										["c_max"] = 95,
+										["id"] = 91776,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["r_amt"] = 0,
+										["c_min"] = 95,
+									},
+									[91800] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Terrifying Abomination"] = 1,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 91800,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1539384053,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2771.003864,
+							["start_time"] = 1539384010,
+							["delay"] = 1539384026,
+							["last_event"] = 1539384026,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.004469,
+							["serial"] = "Pet-0-3132-0-4736-26125-0102ACCE34",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Patchwerk"] = 822,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 822.004469,
+							["dps_started"] = false,
+							["total"] = 822.004469,
+							["classe"] = "PET",
+							["ownerName"] = "Fandagny",
+							["nome"] = "Rotslobber <Fandagny>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 329,
+										["g_amt"] = 5,
+										["n_max"] = 0,
+										["targets"] = {
+											["Patchwerk"] = 384,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 55,
+										["counter"] = 10,
+										["total"] = 384,
+										["c_max"] = 114,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 101,
+									}, -- [1]
+									[91776] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 290,
+										["g_amt"] = 0,
+										["n_max"] = 52,
+										["targets"] = {
+											["Patchwerk"] = 438,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 148,
+										["n_min"] = 45,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 438,
+										["c_max"] = 103,
+										["DODGE"] = 1,
+										["id"] = 91776,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 85,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1539384053,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.004469,
+							["start_time"] = 1539384032,
+							["delay"] = 0,
+							["last_event"] = 1539384052,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 93,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Fandagny"] = 109448,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["totalover"] = 109448.006633,
+							["total_without_pet"] = 46270.006633,
+							["total"] = 46270.006633,
+							["targets_absorbs"] = {
+								["Fandagny"] = 530,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-7-0B437180",
+							["totalabsorb"] = 530.006633,
+							["last_hps"] = 664.20726698907,
+							["targets"] = {
+								["Fandagny"] = 139274,
+							},
+							["totalover_without_pet"] = 0.006633,
+							["healing_taken"] = 46270.006633,
+							["fight_component"] = true,
+							["end_time"] = 1539384053,
+							["healing_from"] = {
+								["Fandagny"] = true,
+							},
+							["nome"] = "Fandagny",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[48707] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 530,
+										["targets_overheal"] = {
+											["Fandagny"] = 3160,
+										},
+										["n_max"] = 530,
+										["targets"] = {
+											["Fandagny"] = 530,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 3160,
+										["total"] = 530,
+										["c_max"] = 0,
+										["id"] = 48707,
+										["targets_absorbs"] = {
+											["Fandagny"] = 530,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 530,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[53365] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Fandagny"] = 575,
+										},
+										["n_max"] = 458,
+										["targets"] = {
+											["Fandagny"] = 901,
+										},
+										["n_min"] = 443,
+										["counter"] = 2,
+										["overheal"] = 575,
+										["total"] = 901,
+										["c_max"] = 0,
+										["id"] = 53365,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 901,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[58361] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Fandagny"] = 105713,
+										},
+										["n_max"] = 1585,
+										["targets"] = {
+											["Fandagny"] = 44839,
+										},
+										["n_min"] = 0,
+										["counter"] = 68,
+										["overheal"] = 105713,
+										["total"] = 44839,
+										["c_max"] = 0,
+										["id"] = 58361,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 44839,
+										["n_amt"] = 68,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1539383984,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 252,
+							["totaldenied"] = 0.006633,
+							["delay"] = 0,
+							["last_event"] = 1539384053,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 93,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 336.608167143051,
+							["resource"] = 0.008167,
+							["targets"] = {
+								["Fandagny"] = 336.600000143051,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEATHKNIGHT",
+							["fight_component"] = true,
+							["total"] = 336.608167143051,
+							["nome"] = "Fandagny",
+							["spec"] = 252,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1539384058,
+							["alternatepower"] = 0.008167,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[195757] = {
+										["id"] = 195757,
+										["total"] = 63,
+										["targets"] = {
+											["Fandagny"] = 63,
+										},
+										["counter"] = 21,
+									},
+									[43265] = {
+										["id"] = 43265,
+										["total"] = 10,
+										["targets"] = {
+											["Fandagny"] = 10,
+										},
+										["counter"] = 1,
+									},
+									[55090] = {
+										["id"] = 55090,
+										["total"] = 40,
+										["targets"] = {
+											["Fandagny"] = 40,
+										},
+										["counter"] = 4,
+									},
+									[85948] = {
+										["id"] = 85948,
+										["total"] = 180,
+										["targets"] = {
+											["Fandagny"] = 180,
+										},
+										["counter"] = 9,
+									},
+									[49088] = {
+										["id"] = 49088,
+										["total"] = 3.60000014305115,
+										["targets"] = {
+											["Fandagny"] = 3.60000014305115,
+										},
+										["counter"] = 1,
+									},
+									[77575] = {
+										["id"] = 77575,
+										["total"] = 40,
+										["targets"] = {
+											["Fandagny"] = 40,
+										},
+										["counter"] = 4,
+									},
+								},
+							},
+							["serial"] = "Player-7-0B437180",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 93,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[191587] = {
+										["activedamt"] = 0,
+										["id"] = 191587,
+										["targets"] = {
+										},
+										["uptime"] = 59,
+										["appliedamt"] = 10,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196782] = {
+										["activedamt"] = 0,
+										["id"] = 196782,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 4,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194310] = {
+										["activedamt"] = 0,
+										["id"] = 194310,
+										["targets"] = {
+										},
+										["uptime"] = 54,
+										["appliedamt"] = 6,
+										["refreshamt"] = 15,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 201,
+							["classe"] = "DEATHKNIGHT",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[52424] = {
+										["activedamt"] = 1,
+										["id"] = 52424,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188290] = {
+										["activedamt"] = 1,
+										["id"] = 188290,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[51721] = {
+										["activedamt"] = 1,
+										["id"] = 51721,
+										["targets"] = {
+										},
+										["uptime"] = 70,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[51460] = {
+										["activedamt"] = 2,
+										["id"] = 51460,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[58361] = {
+										["activedamt"] = 2,
+										["id"] = 58361,
+										["targets"] = {
+										},
+										["uptime"] = 70,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[53365] = {
+										["activedamt"] = 2,
+										["id"] = 53365,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[48707] = {
+										["activedamt"] = 1,
+										["id"] = 48707,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 131,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 252,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[48707] = 1,
+								[77575] = 4,
+								[55090] = 5,
+								[85948] = 10,
+								[47541] = 7,
+								[43265] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1539384053,
+							["nome"] = "Fandagny",
+							["pets"] = {
+							},
+							["serial"] = "Player-7-0B437180",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 93,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Fandagny"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Terrifying Abomination",
+				["combat_counter"] = 108,
+				["playing_solo"] = true,
+				["totals"] = {
+					81808.978589, -- [1]
+					46269.991441, -- [2]
+					{
+						0, -- [1]
+						[0] = 336.600000143051,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Fandagny"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							210, -- [3]
+							1539384059.953, -- [4]
+							12300, -- [5]
+							"Terrifying Abomination", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["instance_type"] = "none",
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Fandagny"] = 46270.006633,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Fandagny"] = 81809.006483,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 197219.505,
+				["combat_id"] = 93,
+				["TotalElapsedCombatTime"] = 197219.505,
+				["CombatEndedAt"] = 197219.505,
+				["frags"] = {
+					["Knight of the Ebon Blade"] = 3,
+					["Patchwerk"] = 1,
+					["Terrifying Abomination"] = 9,
+					["Scourge Necromancer"] = 1,
+					["Val'kyr Battle-maiden"] = 2,
+				},
+				["data_fim"] = "15:40:54",
+				["data_inicio"] = "15:39:44",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					79304, -- [1]
+					46270, -- [2]
+					{
+						0, -- [1]
+						[0] = 336.600000143051,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 197149.843,
+				["contra"] = "Terrifying Abomination",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						2781.006483, -- [1]
+						95, -- [2]
+						53, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						566, -- [9]
+						1420, -- [10]
+						1033, -- [11]
+						2582, -- [12]
+						939, -- [13]
+						7474, -- [14]
+						4457, -- [15]
+						746, -- [16]
+						3349, -- [17]
+						2152, -- [18]
+						891, -- [19]
+						5916, -- [20]
+						1462, -- [21]
+						63, -- [22]
+						3549, -- [23]
+						927, -- [24]
+						48, -- [25]
+						1231, -- [26]
+						449, -- [27]
+						104, -- [28]
+						2195, -- [29]
+						1636, -- [30]
+						0, -- [31]
+						4348, -- [32]
+						102, -- [33]
+						46, -- [34]
+						1880, -- [35]
+						924, -- [36]
+						3, -- [37]
+						1058, -- [38]
+						2435, -- [39]
+						0, -- [40]
+						858, -- [41]
+						0, -- [42]
+						2, -- [43]
+						2533, -- [44]
+						160, -- [45]
+						0, -- [46]
+						507, -- [47]
+						23, -- [48]
+						2513, -- [49]
+						253, -- [50]
+						1369, -- [51]
+						143, -- [52]
+						565, -- [53]
+						3078, -- [54]
+						0, -- [55]
+						624, -- [56]
+						2020, -- [57]
+						0, -- [58]
+						3210, -- [59]
+						0, -- [60]
+						374, -- [61]
+						1266, -- [62]
+						1122, -- [63]
+						102, -- [64]
+						368, -- [65]
+						3463, -- [66]
+						4, -- [67]
+						253, -- [68]
+						85, -- [69]
+						["max_value"] = 7474,
+					},
+					["Raid Damage Done"] = {
+						2628, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						566, -- [9]
+						1420, -- [10]
+						1033, -- [11]
+						2483, -- [12]
+						892, -- [13]
+						7422, -- [14]
+						4457, -- [15]
+						694, -- [16]
+						3349, -- [17]
+						2041, -- [18]
+						891, -- [19]
+						5852, -- [20]
+						1462, -- [21]
+						0, -- [22]
+						3492, -- [23]
+						821, -- [24]
+						0, -- [25]
+						1125, -- [26]
+						449, -- [27]
+						0, -- [28]
+						2148, -- [29]
+						1585, -- [30]
+						0, -- [31]
+						4348, -- [32]
+						0, -- [33]
+						0, -- [34]
+						1778, -- [35]
+						924, -- [36]
+						0, -- [37]
+						1012, -- [38]
+						2424, -- [39]
+						0, -- [40]
+						795, -- [41]
+						0, -- [42]
+						0, -- [43]
+						2533, -- [44]
+						160, -- [45]
+						0, -- [46]
+						507, -- [47]
+						23, -- [48]
+						2503, -- [49]
+						253, -- [50]
+						1300, -- [51]
+						91, -- [52]
+						451, -- [53]
+						3078, -- [54]
+						0, -- [55]
+						624, -- [56]
+						1975, -- [57]
+						0, -- [58]
+						3109, -- [59]
+						0, -- [60]
+						253, -- [61]
+						1266, -- [62]
+						1117, -- [63]
+						0, -- [64]
+						254, -- [65]
+						3463, -- [66]
+						0, -- [67]
+						253, -- [68]
+						0, -- [69]
+						["max_value"] = 7422,
+					},
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 92,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004334,
+							["damage_from"] = {
+								["Hearthglen Crusader"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004334,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.004334,
+							["classe"] = "DEATHKNIGHT",
+							["damage_taken"] = 462.004334,
+							["nome"] = "Fandagny",
+							["spec"] = 252,
+							["grupo"] = true,
+							["end_time"] = 1539300797,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1539300797,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 92,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 92,
+					["_ActorTable"] = {
+						{
+							["received"] = 10.006665,
+							["resource"] = 0.006665,
+							["targets"] = {
+								["Fandagny"] = 10,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEATHKNIGHT",
+							["total"] = 10.006665,
+							["nome"] = "Fandagny",
+							["spec"] = 252,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1539383949,
+							["alternatepower"] = 0.006665,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[50977] = {
+										["id"] = 50977,
+										["total"] = 10,
+										["targets"] = {
+											["Fandagny"] = 10,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-7-0B437180",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 92,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Fandagny",
+							["spec"] = 252,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 48,
+							["classe"] = "DEATHKNIGHT",
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[229387] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 229387,
+										["uptime"] = 19,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 51915,
+										["uptime"] = 19,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[52424] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 52424,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-7-0B437180",
+							["last_event"] = 1539300797,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 92,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Fandagny"] = true,
+				},
+				["CombatStartedAt"] = 197148.639,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Hearthglen Crusader",
+				["combat_counter"] = 106,
+				["playing_solo"] = true,
+				["totals"] = {
+					-0.0505730000054427, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 9.995208,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 0.004334,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 113961.623,
+				["TotalElapsedCombatTime"] = 113961.623,
+				["instance_type"] = "none",
+				["CombatEndedAt"] = 113961.623,
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.004334, -- [1]
@@ -262,11 +2296,44 @@ _detalhes_database = {
 						0, -- [17]
 					},
 				},
-			}, -- [1]
+				["hasSaved"] = true,
+				["frags"] = {
+					["Tirisfal Crusader"] = 6,
+					["Hearthglen Crusader"] = 3,
+				},
+				["data_fim"] = "16:33:17",
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 10,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:32:59",
+				["start_time"] = 113943.7,
+				["contra"] = "Hearthglen Crusader",
+				["combat_id"] = 92,
+			}, -- [3]
 			{
 				{
-					["combatId"] = 91,
 					["tipo"] = 2,
+					["combatId"] = 91,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -276,70 +2343,68 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["on_hold"] = false,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
+							["last_event"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
 							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004484,
-							["spec"] = 252,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 0.004484,
 							["classe"] = "DEATHKNIGHT",
-							["serial"] = "Player-7-0B437180",
+							["damage_taken"] = 3987.004484,
 							["nome"] = "Fandagny",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
+							["spec"] = 252,
 							["grupo"] = true,
 							["end_time"] = 1539300684,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 3987.004484,
+							["on_hold"] = false,
 							["start_time"] = 1539300684,
-							["delay"] = 0,
-							["last_event"] = 0,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 91,
 					["tipo"] = 3,
+					["combatId"] = 91,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.006788,
 							["last_hps"] = 0,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Fandagny"] = 1476,
 							},
 							["targets"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.006788,
-							["targets_overheal"] = {
-								["Fandagny"] = 1476,
+							["iniciar_hps"] = false,
+							["healing_from"] = {
 							},
 							["heal_enemy_amt"] = 0,
 							["totalover"] = 1476.006788,
 							["total_without_pet"] = 0.006788,
-							["iniciar_hps"] = false,
-							["classe"] = "DEATHKNIGHT",
-							["end_time"] = 1539300684,
-							["total"] = 0.006788,
+							["totalover_without_pet"] = 0.006788,
+							["totaldenied"] = 0.006788,
 							["healing_taken"] = 0.006788,
-							["start_time"] = 1539300683,
+							["end_time"] = 1539300684,
+							["spec"] = 252,
+							["classe"] = "DEATHKNIGHT",
 							["nome"] = "Fandagny",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[48707] = {
 										["c_amt"] = 0,
@@ -360,42 +2425,44 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Fandagny"] = 0,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 1,
+										["m_crit"] = 0,
 										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 0,
+										["m_healed"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["spec"] = 252,
+							["total"] = 0.006788,
 							["heal_enemy"] = {
 							},
-							["serial"] = "Player-7-0B437180",
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1539300683,
 							["on_hold"] = false,
-							["totaldenied"] = 0.006788,
-							["delay"] = 0,
-							["tipo"] = 2,
+							["start_time"] = 1539300683,
+							["serial"] = "Player-7-0B437180",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 91,
 					["tipo"] = 7,
+					["combatId"] = 91,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 91,
 					["tipo"] = 9,
+					["combatId"] = 91,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -411,64 +2478,64 @@ _detalhes_database = {
 								["Fandagny"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[48707] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48707,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[52419] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 52419,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48265] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48265,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48792] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48792,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["uptime"] = 4,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["uptime"] = 9,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_targets"] = {
 							},
@@ -479,8 +2546,11 @@ _detalhes_database = {
 								[48265] = 1,
 								[48792] = 1,
 							},
+							["tipo"] = 4,
+							["last_event"] = 1539300684,
+							["serial"] = "Player-7-0B437180",
+							["nome"] = "Fandagny",
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[48792] = {
 										["id"] = 48792,
@@ -490,18 +2560,15 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["last_event"] = 1539300684,
 							["buff_uptime"] = 31,
-							["nome"] = "Fandagny",
-							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 91,
 					["tipo"] = 2,
+					["combatId"] = 91,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -781,25 +2848,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = false,
 				["__call"] = {
 				},
@@ -808,6 +2874,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 0.004484,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -817,45 +2888,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 0.004484,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113849.282,
-				["combat_id"] = 91,
 				["TotalElapsedCombatTime"] = 113849.282,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113849.282,
-				["frags"] = {
-				},
-				["data_fim"] = "16:31:25",
-				["data_inicio"] = "16:31:15",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["start_time"] = 113839.971,
-				["contra"] = "Tirisfal Crusader",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.004484, -- [1]
@@ -881,11 +2918,42 @@ _detalhes_database = {
 						0, -- [9]
 					},
 				},
-			}, -- [2]
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "16:31:25",
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:31:15",
+				["start_time"] = 113839.971,
+				["contra"] = "Tirisfal Crusader",
+				["combat_id"] = 91,
+			}, -- [4]
 			{
 				{
-					["combatId"] = 90,
 					["tipo"] = 2,
+					["combatId"] = 90,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -899,42 +2967,41 @@ _detalhes_database = {
 								["Tirisfal Crusader"] = 481152,
 								["Scarlet Ballista"] = 1053600,
 							},
-							["total"] = 1981899.001295,
+							["delay"] = 1539300647,
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["on_hold"] = false,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001295,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1539300665,
 							["friendlyfire_total"] = 0,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
+							["dps_started"] = false,
+							["total"] = 1981899.001295,
+							["damage_taken"] = 5853.001295,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Fandagny",
+							["spec"] = 252,
 							["grupo"] = true,
-							["serial"] = "Player-7-0B437180",
 							["last_dps"] = 27465.3409270358,
-							["custom"] = 0,
+							["end_time"] = 1539300665,
+							["colocacao"] = 1,
 							["last_event"] = 1539300661,
-							["damage_taken"] = 5853.001295,
+							["on_hold"] = false,
 							["start_time"] = 1539300607,
-							["delay"] = 1539300647,
-							["tipo"] = 1,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.007124,
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
 							["damage_from"] = {
 								["Hearthglen Crusader"] = true,
 								["Tirisfal Crusader"] = true,
@@ -947,18 +3014,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 28250.007124,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1981899.007124,
+							["last_event"] = 1539300661,
 							["dps_started"] = false,
 							["total"] = 1981899.007124,
-							["classe"] = "PET",
+							["delay"] = 1539300647,
 							["ownerName"] = "Fandagny",
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[53115] = {
 										["c_amt"] = 0,
@@ -980,18 +3047,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53115,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 157,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -999,44 +3067,43 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 28250.007124,
+							["on_hold"] = false,
 							["start_time"] = 1539300607,
-							["delay"] = 1539300647,
-							["last_event"] = 1539300661,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 90,
 					["tipo"] = 3,
+					["combatId"] = 90,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 90,
 					["tipo"] = 7,
+					["combatId"] = 90,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 90,
 					["tipo"] = 9,
+					["combatId"] = 90,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["buff_uptime"] = 73,
-							["nome"] = "Fandagny",
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["last_event"] = 1539300665,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 73,
 							["classe"] = "DEATHKNIGHT",
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[52196] = {
 										["activedamt"] = 1,
@@ -1045,37 +3112,38 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1539300593,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61243] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 61243,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 72,
 										["targets"] = {
 										},
-										["uptime"] = 72,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["last_event"] = 1539300665,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1083,20 +3151,20 @@ _detalhes_database = {
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[53114] = 29,
 								[53110] = 1,
 							},
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 90,
 					["tipo"] = 2,
+					["combatId"] = 90,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1146,8 +3214,8 @@ _detalhes_database = {
 						"DEATHKNIGHT", -- [4]
 						4920, -- [5]
 						"1m 12s", -- [6]
-						["dead_at"] = 72.1600000000035,
 						["dead"] = true,
+						["dead_at"] = 72.1600000000035,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -1162,21 +3230,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 					["Fandagny"] = {
@@ -1257,7 +3325,6 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = true,
 				["__call"] = {
 				},
@@ -1266,6 +3333,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 1981899.001295,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1274,48 +3346,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 1981899.001295,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113830.581,
-				["combat_id"] = 90,
 				["TotalElapsedCombatTime"] = 72.1600000000035,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113830.581,
-				["frags"] = {
-					["Hearthglen Crusader"] = 69,
-					["Tirisfal Crusader"] = 74,
-					["Scarlet Ballista"] = 18,
-				},
-				["data_fim"] = "16:31:06",
-				["data_inicio"] = "16:29:54",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["start_time"] = 113758.421,
-				["contra"] = "Hearthglen Crusader",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						152013.001295, -- [1]
@@ -1467,11 +3502,45 @@ _detalhes_database = {
 						0, -- [72]
 					},
 				},
-			}, -- [3]
+				["hasSaved"] = true,
+				["frags"] = {
+					["Hearthglen Crusader"] = 69,
+					["Tirisfal Crusader"] = 74,
+					["Scarlet Ballista"] = 18,
+				},
+				["data_fim"] = "16:31:06",
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:29:54",
+				["start_time"] = 113758.421,
+				["contra"] = "Hearthglen Crusader",
+				["combat_id"] = 90,
+			}, -- [5]
 			{
 				{
-					["combatId"] = 89,
 					["tipo"] = 2,
+					["combatId"] = 89,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -1481,42 +3550,41 @@ _detalhes_database = {
 							["targets"] = {
 								["Hearthglen Crusader"] = 6771,
 							},
-							["total"] = 6771.007205,
+							["delay"] = 0,
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["on_hold"] = false,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007205,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1539300592,
 							["friendlyfire_total"] = 0,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
+							["dps_started"] = false,
+							["total"] = 6771.007205,
+							["damage_taken"] = 0.007205,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Fandagny",
+							["spec"] = 252,
 							["grupo"] = true,
-							["serial"] = "Player-7-0B437180",
 							["last_dps"] = 6825.61210182573,
-							["custom"] = 0,
+							["end_time"] = 1539300592,
+							["colocacao"] = 1,
 							["last_event"] = 1539300591,
-							["damage_taken"] = 0.007205,
+							["on_hold"] = false,
 							["start_time"] = 1539300591,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.007763,
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -1524,18 +3592,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.007763,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6771.007763,
+							["last_event"] = 1539300591,
 							["dps_started"] = false,
 							["total"] = 6771.007763,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Fandagny",
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[53115] = {
 										["c_amt"] = 0,
@@ -1555,18 +3623,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53115,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -1574,76 +3643,76 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.007763,
+							["on_hold"] = false,
 							["start_time"] = 1539300591,
-							["delay"] = 0,
-							["last_event"] = 1539300591,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 89,
 					["tipo"] = 3,
+					["combatId"] = 89,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 89,
 					["tipo"] = 7,
+					["combatId"] = 89,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 89,
 					["tipo"] = 9,
+					["combatId"] = 89,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["buff_uptime"] = 2,
-							["nome"] = "Fandagny",
 							["pets"] = {
 							},
-							["last_event"] = 1539300592,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 2,
 							["classe"] = "DEATHKNIGHT",
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[52196] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 52196,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["last_event"] = 1539300592,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 89,
 					["tipo"] = 2,
+					["combatId"] = 89,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1666,25 +3735,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = true,
 				["__call"] = {
 				},
@@ -1693,6 +3761,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 6771.007205,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1701,24 +3774,23 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 6771.007205,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113756.935,
-				["combat_id"] = 89,
 				["TotalElapsedCombatTime"] = 0.99199999999837,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113756.935,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+					},
+					["Raid Damage Done"] = {
+					},
+				},
+				["hasSaved"] = true,
 				["frags"] = {
 					["Hearthglen Crusader"] = 1,
 					["Tirisfal Crusader"] = 1,
 				},
 				["data_fim"] = "16:29:52",
-				["data_inicio"] = "16:29:51",
-				["CombatSkillCache"] = {
-				},
 				["totals_grupo"] = {
 					0, -- [1]
 					0, -- [2]
@@ -1726,33 +3798,31 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:29:51",
 				["start_time"] = 113755.943,
 				["contra"] = "Hearthglen Crusader",
-				["TimeData"] = {
-					["Player Damage Done"] = {
-					},
-					["Raid Damage Done"] = {
-					},
-				},
-			}, -- [4]
+				["combat_id"] = 89,
+			}, -- [6]
 			{
 				{
-					["combatId"] = 88,
 					["tipo"] = 2,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -1762,42 +3832,41 @@ _detalhes_database = {
 							["targets"] = {
 								["Tirisfal Crusader"] = 6585,
 							},
-							["total"] = 6585.008964,
+							["delay"] = 0,
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["on_hold"] = false,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008964,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1539300589,
 							["friendlyfire_total"] = 0,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
+							["dps_started"] = false,
+							["total"] = 6585.008964,
+							["damage_taken"] = 0.008964,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Fandagny",
+							["spec"] = 252,
 							["grupo"] = true,
-							["serial"] = "Player-7-0B437180",
 							["last_dps"] = 7065.46026179728,
-							["custom"] = 0,
+							["end_time"] = 1539300589,
+							["colocacao"] = 1,
 							["last_event"] = 1539300588,
-							["damage_taken"] = 0.008964,
+							["on_hold"] = false,
 							["start_time"] = 1539300588,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.007405,
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -1805,18 +3874,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.007405,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6585.007405,
+							["last_event"] = 1539300588,
 							["dps_started"] = false,
 							["total"] = 6585.007405,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Fandagny",
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[53115] = {
 										["c_amt"] = 0,
@@ -1836,18 +3905,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53115,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -1855,71 +3925,71 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.007405,
+							["on_hold"] = false,
 							["start_time"] = 1539300588,
-							["delay"] = 0,
-							["last_event"] = 1539300588,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 88,
 					["tipo"] = 3,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 88,
 					["tipo"] = 7,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 88,
 					["tipo"] = 9,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["buff_uptime"] = 2,
-							["nome"] = "Fandagny",
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["last_event"] = 1539300589,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 2,
 							["classe"] = "DEATHKNIGHT",
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[52196] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 52196,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["last_event"] = 1539300589,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1927,19 +3997,19 @@ _detalhes_database = {
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[53114] = 1,
 							},
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 88,
 					["tipo"] = 2,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1962,25 +4032,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = true,
 				["__call"] = {
 				},
@@ -1989,6 +4058,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 6585.008964,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1997,23 +4071,22 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 6585.008964,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113754.535,
-				["combat_id"] = 88,
 				["TotalElapsedCombatTime"] = 0.932000000000699,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113754.535,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+					},
+					["Raid Damage Done"] = {
+					},
+				},
+				["hasSaved"] = true,
 				["frags"] = {
 					["Tirisfal Crusader"] = 1,
 				},
 				["data_fim"] = "16:29:50",
-				["data_inicio"] = "16:29:49",
-				["CombatSkillCache"] = {
-				},
 				["totals_grupo"] = {
 					0, -- [1]
 					0, -- [2]
@@ -2021,33 +4094,31 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:29:49",
 				["start_time"] = 113753.603,
 				["contra"] = "Tirisfal Crusader",
-				["TimeData"] = {
-					["Player Damage Done"] = {
-					},
-					["Raid Damage Done"] = {
-					},
-				},
-			}, -- [5]
+				["combat_id"] = 88,
+			}, -- [7]
 			{
 				{
-					["combatId"] = 87,
 					["tipo"] = 2,
+					["combatId"] = 87,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -2058,42 +4129,41 @@ _detalhes_database = {
 								["Hearthglen Crusader"] = 6771,
 								["Tirisfal Crusader"] = 12984,
 							},
-							["total"] = 19755.003734,
+							["delay"] = 0,
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["on_hold"] = false,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003734,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1539300587,
 							["friendlyfire_total"] = 0,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
+							["dps_started"] = false,
+							["total"] = 19755.003734,
+							["damage_taken"] = 0.003734,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Fandagny",
+							["spec"] = 252,
 							["grupo"] = true,
-							["serial"] = "Player-7-0B437180",
 							["last_dps"] = 19482.2522029612,
-							["custom"] = 0,
+							["end_time"] = 1539300587,
+							["colocacao"] = 1,
 							["last_event"] = 1539300586,
-							["damage_taken"] = 0.003734,
+							["on_hold"] = false,
 							["start_time"] = 1539300586,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.007407,
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -2102,18 +4172,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.007407,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19755.007407,
+							["last_event"] = 1539300586,
 							["dps_started"] = false,
 							["total"] = 19755.007407,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Fandagny",
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[53115] = {
 										["c_amt"] = 0,
@@ -2134,18 +4204,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53115,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -2153,71 +4224,71 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.007407,
+							["on_hold"] = false,
 							["start_time"] = 1539300586,
-							["delay"] = 0,
-							["last_event"] = 1539300586,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 87,
 					["tipo"] = 3,
+					["combatId"] = 87,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 87,
 					["tipo"] = 7,
+					["combatId"] = 87,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 87,
 					["tipo"] = 9,
+					["combatId"] = 87,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["buff_uptime"] = 2,
-							["nome"] = "Fandagny",
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["last_event"] = 1539300587,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 2,
 							["classe"] = "DEATHKNIGHT",
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[52196] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 52196,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["last_event"] = 1539300587,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2225,19 +4296,19 @@ _detalhes_database = {
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[53114] = 1,
 							},
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 87,
 					["tipo"] = 2,
+					["combatId"] = 87,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2260,25 +4331,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = true,
 				["__call"] = {
 				},
@@ -2287,6 +4357,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 19755.003734,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -2295,47 +4370,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 19755.003734,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113752.865,
-				["combat_id"] = 87,
 				["TotalElapsedCombatTime"] = 1.01400000001013,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113752.865,
-				["frags"] = {
-					["Hearthglen Crusader"] = 1,
-					["Tirisfal Crusader"] = 3,
-				},
-				["data_fim"] = "16:29:48",
-				["data_inicio"] = "16:29:47",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 113751.851,
-				["contra"] = "Hearthglen Crusader",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						19755.003734, -- [1]
@@ -2345,11 +4384,44 @@ _detalhes_database = {
 						0, -- [1]
 					},
 				},
-			}, -- [6]
+				["hasSaved"] = true,
+				["frags"] = {
+					["Hearthglen Crusader"] = 1,
+					["Tirisfal Crusader"] = 3,
+				},
+				["data_fim"] = "16:29:48",
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:29:47",
+				["start_time"] = 113751.851,
+				["contra"] = "Hearthglen Crusader",
+				["combat_id"] = 87,
+			}, -- [8]
 			{
 				{
-					["combatId"] = 86,
 					["tipo"] = 2,
+					["combatId"] = 86,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -2360,42 +4432,41 @@ _detalhes_database = {
 								["Tirisfal Crusader"] = 19197,
 								["Hearthglen Crusader"] = 6771,
 							},
-							["total"] = 25968.006861,
+							["delay"] = 0,
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["on_hold"] = false,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006861,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1539300583,
 							["friendlyfire_total"] = 0,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
+							["dps_started"] = false,
+							["total"] = 25968.006861,
+							["damage_taken"] = 0.006861,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Fandagny",
+							["spec"] = 252,
 							["grupo"] = true,
-							["serial"] = "Player-7-0B437180",
 							["last_dps"] = 24544.4299252255,
-							["custom"] = 0,
+							["end_time"] = 1539300583,
+							["colocacao"] = 1,
 							["last_event"] = 1539300582,
-							["damage_taken"] = 0.006861,
+							["on_hold"] = false,
 							["start_time"] = 1539300582,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.00701,
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -2404,18 +4475,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.00701,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 25968.00701,
+							["last_event"] = 1539300582,
 							["dps_started"] = false,
 							["total"] = 25968.00701,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Fandagny",
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[53115] = {
 										["c_amt"] = 0,
@@ -2436,18 +4507,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53115,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -2455,76 +4527,76 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.00701,
+							["on_hold"] = false,
 							["start_time"] = 1539300582,
-							["delay"] = 0,
-							["last_event"] = 1539300582,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 86,
 					["tipo"] = 3,
+					["combatId"] = 86,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 86,
 					["tipo"] = 7,
+					["combatId"] = 86,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 86,
 					["tipo"] = 9,
+					["combatId"] = 86,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["buff_uptime"] = 2,
-							["nome"] = "Fandagny",
 							["pets"] = {
 							},
-							["last_event"] = 1539300583,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 2,
 							["classe"] = "DEATHKNIGHT",
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[52196] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 52196,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["last_event"] = 1539300583,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 86,
 					["tipo"] = 2,
+					["combatId"] = 86,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2547,25 +4619,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = true,
 				["__call"] = {
 				},
@@ -2574,6 +4645,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 25968.006861,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -2582,47 +4658,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 25968.006861,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113748.392,
-				["combat_id"] = 86,
 				["TotalElapsedCombatTime"] = 1.05800000000454,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113748.392,
-				["frags"] = {
-					["Tirisfal Crusader"] = 3,
-					["Hearthglen Crusader"] = 1,
-				},
-				["data_fim"] = "16:29:44",
-				["data_inicio"] = "16:29:43",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 113747.334,
-				["contra"] = "Tirisfal Crusader",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						25968.006861, -- [1]
@@ -2632,11 +4672,44 @@ _detalhes_database = {
 						0, -- [1]
 					},
 				},
-			}, -- [7]
+				["hasSaved"] = true,
+				["frags"] = {
+					["Tirisfal Crusader"] = 3,
+					["Hearthglen Crusader"] = 1,
+				},
+				["data_fim"] = "16:29:44",
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:29:43",
+				["start_time"] = 113747.334,
+				["contra"] = "Tirisfal Crusader",
+				["combat_id"] = 86,
+			}, -- [9]
 			{
 				{
-					["combatId"] = 85,
 					["tipo"] = 2,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -2647,42 +4720,41 @@ _detalhes_database = {
 								["Hearthglen Crusader"] = 13374,
 								["Tirisfal Crusader"] = 34667,
 							},
-							["total"] = 48041.006023,
+							["delay"] = 0,
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["on_hold"] = false,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006023,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1539300581,
 							["friendlyfire_total"] = 0,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
+							["dps_started"] = false,
+							["total"] = 48041.006023,
+							["damage_taken"] = 0.006023,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Fandagny",
+							["spec"] = 252,
 							["grupo"] = true,
-							["serial"] = "Player-7-0B437180",
 							["last_dps"] = 4350.35823806735,
-							["custom"] = 0,
+							["end_time"] = 1539300581,
+							["colocacao"] = 1,
 							["last_event"] = 1539300580,
-							["damage_taken"] = 0.006023,
+							["on_hold"] = false,
 							["start_time"] = 1539300570,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.005005,
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -2691,18 +4763,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.005005,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 48041.005005,
+							["last_event"] = 1539300580,
 							["dps_started"] = false,
 							["total"] = 48041.005005,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Fandagny",
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[53115] = {
 										["c_amt"] = 0,
@@ -2723,18 +4795,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53115,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 11,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -2742,71 +4815,71 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.005005,
+							["on_hold"] = false,
 							["start_time"] = 1539300570,
-							["delay"] = 0,
-							["last_event"] = 1539300580,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 85,
 					["tipo"] = 3,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 85,
 					["tipo"] = 7,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 85,
 					["tipo"] = 9,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["buff_uptime"] = 22,
-							["nome"] = "Fandagny",
 							["pets"] = {
 								"Frostbrood Vanquisher <Fandagny>", -- [1]
 							},
-							["last_event"] = 1539300581,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 22,
 							["classe"] = "DEATHKNIGHT",
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 11,
 										["targets"] = {
 										},
-										["uptime"] = 11,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[52196] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 52196,
+										["uptime"] = 11,
 										["targets"] = {
 										},
-										["uptime"] = 11,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["last_event"] = 1539300581,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2814,19 +4887,19 @@ _detalhes_database = {
 							["nome"] = "Frostbrood Vanquisher <Fandagny>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[53114] = 5,
 							},
-							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["classe"] = "PET",
 							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 85,
 					["tipo"] = 2,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2849,25 +4922,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = true,
 				["__call"] = {
 				},
@@ -2876,6 +4948,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 48041.006023,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -2884,47 +4961,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 48041.006023,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113745.959,
-				["combat_id"] = 85,
 				["TotalElapsedCombatTime"] = 11.0430000000051,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113745.959,
-				["frags"] = {
-					["Hearthglen Crusader"] = 5,
-					["Tirisfal Crusader"] = 13,
-				},
-				["data_fim"] = "16:29:41",
-				["data_inicio"] = "16:29:30",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 113734.916,
-				["contra"] = "Hearthglen Crusader",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						5602.006023, -- [1]
@@ -2954,16 +4995,48 @@ _detalhes_database = {
 						0, -- [11]
 					},
 				},
-			}, -- [8]
+				["hasSaved"] = true,
+				["frags"] = {
+					["Hearthglen Crusader"] = 5,
+					["Tirisfal Crusader"] = 13,
+				},
+				["data_fim"] = "16:29:41",
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:29:30",
+				["start_time"] = 113734.916,
+				["contra"] = "Hearthglen Crusader",
+				["combat_id"] = 85,
+			}, -- [10]
 			{
 				{
-					["combatId"] = 84,
 					["tipo"] = 2,
+					["combatId"] = 84,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.003985,
-							["total"] = 2074.003985,
 							["damage_from"] = {
 								["Environment (Falling)"] = true,
 								["Scarlet Crusader"] = true,
@@ -2971,24 +5044,21 @@ _detalhes_database = {
 							["targets"] = {
 								["Scarlet Crusader"] = 2074,
 							},
+							["delay"] = 0,
 							["pets"] = {
 								"Rotrumbler <Fandagny>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1627.003985,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1539300350,
 							["on_hold"] = false,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
+							["dps_started"] = false,
+							["total"] = 2074.003985,
+							["damage_taken"] = 1477.003985,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -3008,16 +5078,16 @@ _detalhes_database = {
 										["c_max"] = 354,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 353,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 353,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[191587] = {
 										["c_amt"] = 0,
@@ -3037,16 +5107,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 191587,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[77575] = {
 										["c_amt"] = 0,
@@ -3066,45 +5136,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 77575,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[47632] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 151,
-										["targets"] = {
-											["Scarlet Crusader"] = 151,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 151,
-										["n_min"] = 151,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 151,
-										["c_max"] = 0,
-										["id"] = 47632,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["spellschool"] = 32,
 									},
 									[85948] = {
 										["c_amt"] = 0,
@@ -3124,33 +5165,65 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 85948,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[47632] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 151,
+										["targets"] = {
+											["Scarlet Crusader"] = 151,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 151,
+										["n_min"] = 151,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 151,
+										["c_max"] = 0,
+										["id"] = 47632,
+										["r_dmg"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Fandagny",
+							["spec"] = 252,
 							["grupo"] = true,
-							["serial"] = "Player-7-0B437180",
 							["last_dps"] = 278.726513237782,
-							["custom"] = 0,
+							["end_time"] = 1539300350,
+							["colocacao"] = 1,
 							["last_event"] = 1539300349,
-							["damage_taken"] = 1477.003985,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1539300342,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.001763,
-							["serial"] = "Pet-0-3881-609-9601-26125-1202ACCE34",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -3158,18 +5231,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.001763,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 447.001763,
+							["last_event"] = 1539300349,
 							["dps_started"] = false,
 							["total"] = 447.001763,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Fandagny",
 							["nome"] = "Rotrumbler <Fandagny>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -3189,16 +5262,16 @@ _detalhes_database = {
 										["c_max"] = 104,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 104,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 104,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[91776] = {
 										["c_amt"] = 1,
@@ -3218,18 +5291,19 @@ _detalhes_database = {
 										["c_max"] = 93,
 										["id"] = 91776,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 93,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 93,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -3237,25 +5311,26 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.001763,
+							["on_hold"] = false,
 							["start_time"] = 1539300343,
-							["delay"] = 0,
-							["last_event"] = 1539300349,
+							["serial"] = "Pet-0-3881-609-9601-26125-1202ACCE34",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 84,
 					["tipo"] = 3,
+					["combatId"] = 84,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Fandagny"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "DEATHKNIGHT",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.003634,
 							["total_without_pet"] = 591.003634,
 							["total"] = 591.003634,
@@ -3275,12 +5350,9 @@ _detalhes_database = {
 							["healing_taken"] = 591.003634,
 							["fight_component"] = true,
 							["end_time"] = 1539300350,
-							["healing_from"] = {
-								["Fandagny"] = true,
-							},
+							["last_event"] = 1539300349,
 							["nome"] = "Fandagny",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[53365] = {
 										["c_amt"] = 0,
@@ -3301,31 +5373,33 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 591,
-										["n_amt"] = 2,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 591,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1539300346,
+							["targets_overheal"] = {
+							},
+							["spec"] = 252,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["spec"] = 252,
 							["totaldenied"] = 0.003634,
+							["start_time"] = 1539300346,
 							["delay"] = 0,
-							["last_event"] = 1539300349,
+							["classe"] = "DEATHKNIGHT",
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 84,
 					["tipo"] = 7,
+					["combatId"] = 84,
 					["_ActorTable"] = {
 						{
 							["received"] = 28.004287,
@@ -3342,11 +5416,10 @@ _detalhes_database = {
 							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["flag_original"] = 1297,
+							["tipo"] = 3,
 							["last_event"] = 1539300349,
 							["alternatepower"] = 0.004287,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[77575] = {
 										["id"] = 77575,
@@ -3365,95 +5438,96 @@ _detalhes_database = {
 										["counter"] = 6,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 3,
+							["flag_original"] = 1297,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 84,
 					["tipo"] = 9,
+					["combatId"] = 84,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[191587] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 191587,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[196782] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 196782,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[194310] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 5,
 										["id"] = 194310,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 13,
 							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[53365] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 1,
 										["id"] = 53365,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["uptime"] = 4,
 										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[51460] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51460,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 17,
@@ -3466,20 +5540,20 @@ _detalhes_database = {
 								[47541] = 2,
 								[77575] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["last_event"] = 1539300350,
 							["nome"] = "Fandagny",
 							["pets"] = {
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 84,
 					["tipo"] = 2,
+					["combatId"] = 84,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3501,21 +5575,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 27.986619,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 					["Fandagny"] = {
@@ -3596,7 +5670,6 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = true,
 				["__call"] = {
 				},
@@ -3605,6 +5678,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 2074.003985,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -3614,47 +5692,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 2074.003985,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113514.961,
-				["combat_id"] = 84,
 				["TotalElapsedCombatTime"] = 113514.961,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113514.961,
-				["frags"] = {
-					["Scarlet Marksman"] = 1,
-					["Scarlet Crusader"] = 1,
-				},
-				["data_fim"] = "16:25:50",
-				["data_inicio"] = "16:25:43",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					1627, -- [1]
-					591, -- [2]
-					{
-						0, -- [1]
-						[0] = 28,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 113507.52,
-				["contra"] = "Scarlet Crusader",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						716.003985, -- [1]
@@ -3677,44 +5719,73 @@ _detalhes_database = {
 						["max_value"] = 649,
 					},
 				},
-			}, -- [9]
+				["hasSaved"] = true,
+				["frags"] = {
+					["Scarlet Marksman"] = 1,
+					["Scarlet Crusader"] = 1,
+				},
+				["data_fim"] = "16:25:50",
+				["totals_grupo"] = {
+					1627, -- [1]
+					591, -- [2]
+					{
+						0, -- [1]
+						[0] = 28,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:25:43",
+				["start_time"] = 113507.52,
+				["contra"] = "Scarlet Crusader",
+				["combat_id"] = 84,
+			}, -- [11]
 			{
 				{
-					["combatId"] = 83,
 					["tipo"] = 2,
+					["combatId"] = 83,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.002656,
-							["total"] = 4207.002656,
 							["damage_from"] = {
-								["Scarlet Courier"] = true,
-								["Scarlet Crusader"] = true,
 								["Scarlet Marksman"] = true,
+								["Scarlet Crusader"] = true,
+								["Scarlet Courier"] = true,
 								["Scarlet Preacher"] = true,
 							},
 							["targets"] = {
 								["Scarlet Courier"] = 2133,
 								["Scarlet Crusader"] = 2074,
 							},
+							["delay"] = 1539300319,
 							["pets"] = {
 								"Rotrumbler <Fandagny>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3504.002656,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1539300331,
 							["on_hold"] = false,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
+							["dps_started"] = false,
+							["total"] = 4207.002656,
+							["damage_taken"] = 1918.002656,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -3735,16 +5806,16 @@ _detalhes_database = {
 										["c_max"] = 374,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 374,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 374,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[191685] = {
 										["c_amt"] = 0,
@@ -3764,16 +5835,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 191685,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[77575] = {
 										["c_amt"] = 0,
@@ -3794,16 +5865,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 77575,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[85948] = {
 										["c_amt"] = 1,
@@ -3824,16 +5895,16 @@ _detalhes_database = {
 										["c_max"] = 647,
 										["id"] = 85948,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 647,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 647,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[47632] = {
 										["c_amt"] = 2,
@@ -3854,16 +5925,16 @@ _detalhes_database = {
 										["c_max"] = 330,
 										["id"] = 47632,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 301,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 301,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[191587] = {
 										["c_amt"] = 0,
@@ -3884,33 +5955,36 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 191587,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Fandagny",
+							["spec"] = 252,
 							["grupo"] = true,
-							["serial"] = "Player-7-0B437180",
 							["last_dps"] = 96.1578628145558,
-							["custom"] = 0,
+							["end_time"] = 1539300331,
+							["colocacao"] = 1,
 							["last_event"] = 1539300319,
-							["damage_taken"] = 1918.002656,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1539300316,
-							["delay"] = 1539300319,
-							["tipo"] = 1,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.002371,
-							["serial"] = "Pet-0-3881-609-9601-26125-1202ACCE34",
 							["damage_from"] = {
 								["Scarlet Marksman"] = true,
 							},
@@ -3920,18 +5994,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 8.002371,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 703.002371,
+							["last_event"] = 1539300317,
 							["dps_started"] = false,
 							["total"] = 703.002371,
-							["classe"] = "PET",
+							["delay"] = 1539300317,
 							["ownerName"] = "Fandagny",
 							["nome"] = "Rotrumbler <Fandagny>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -3952,16 +6026,16 @@ _detalhes_database = {
 										["c_max"] = 36,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 36,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 36,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[91776] = {
 										["c_amt"] = 1,
@@ -3982,16 +6056,16 @@ _detalhes_database = {
 										["c_max"] = 92,
 										["id"] = 91776,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 92,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 92,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[91800] = {
 										["c_amt"] = 0,
@@ -4011,18 +6085,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 91800,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -4030,25 +6105,26 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 8.002371,
+							["on_hold"] = false,
 							["start_time"] = 1539300318,
-							["delay"] = 1539300317,
-							["last_event"] = 1539300317,
+							["serial"] = "Pet-0-3881-609-9601-26125-1202ACCE34",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 83,
 					["tipo"] = 3,
+					["combatId"] = 83,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Fandagny"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "DEATHKNIGHT",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.007896,
 							["total_without_pet"] = 590.007896,
 							["total"] = 590.007896,
@@ -4068,12 +6144,9 @@ _detalhes_database = {
 							["healing_taken"] = 590.007896,
 							["fight_component"] = true,
 							["end_time"] = 1539300331,
-							["healing_from"] = {
-								["Fandagny"] = true,
-							},
+							["last_event"] = 1539300318,
 							["nome"] = "Fandagny",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[53365] = {
 										["c_amt"] = 0,
@@ -4094,31 +6167,33 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 590,
-										["n_amt"] = 2,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 590,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1539300323,
+							["targets_overheal"] = {
+							},
+							["spec"] = 252,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["spec"] = 252,
 							["totaldenied"] = 0.007896,
+							["start_time"] = 1539300323,
 							["delay"] = 1539300318,
-							["last_event"] = 1539300318,
+							["classe"] = "DEATHKNIGHT",
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 83,
 					["tipo"] = 7,
+					["combatId"] = 83,
 					["_ActorTable"] = {
 						{
 							["received"] = 173.005717,
@@ -4135,11 +6210,10 @@ _detalhes_database = {
 							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["flag_original"] = 1297,
+							["tipo"] = 3,
 							["last_event"] = 1539300342,
 							["alternatepower"] = 0.005717,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[195757] = {
 										["id"] = 195757,
@@ -4166,115 +6240,104 @@ _detalhes_database = {
 										["counter"] = 6,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 3,
+							["flag_original"] = 1297,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 83,
 					["tipo"] = 9,
+					["combatId"] = 83,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[191587] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 191587,
+										["uptime"] = 12,
 										["targets"] = {
 										},
-										["uptime"] = 12,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[196782] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 196782,
+										["uptime"] = 11,
 										["targets"] = {
 										},
-										["uptime"] = 11,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[194310] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 9,
 										["id"] = 194310,
+										["uptime"] = 14,
 										["targets"] = {
 										},
-										["uptime"] = 14,
 										["appliedamt"] = 2,
-										["refreshamt"] = 9,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 83,
 							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[52424] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 52424,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["uptime"] = 10,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
-										["targets"] = {
-										},
 										["uptime"] = 43,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[51460] = {
-										["activedamt"] = 1,
-										["id"] = 51460,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[53061] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 53061,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[48265] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["id"] = 48265,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
 										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[53365] = {
-										["activedamt"] = 1,
-										["id"] = 53365,
+										["id"] = 48265,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 20,
 										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[134359] = {
 										["activedamt"] = 1,
@@ -4283,23 +6346,35 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1539300288,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
-									[53061] = {
+									[53365] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["id"] = 53061,
+										["refreshamt"] = 1,
+										["id"] = 53365,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[51460] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 51460,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 37,
@@ -4314,20 +6389,20 @@ _detalhes_database = {
 								[85948] = 5,
 								[47541] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["last_event"] = 1539300331,
 							["nome"] = "Fandagny",
 							["pets"] = {
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 83,
 					["tipo"] = 2,
+					["combatId"] = 83,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4350,25 +6425,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 172.997552,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = true,
 				["__call"] = {
 				},
@@ -4377,6 +6451,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 4207.002656,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -4386,47 +6465,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 4207.002656,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113496.72,
-				["combat_id"] = 83,
 				["TotalElapsedCombatTime"] = 113496.72,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113496.72,
-				["frags"] = {
-					["Scarlet Courier"] = 1,
-					["Scarlet Crusader"] = 1,
-				},
-				["data_fim"] = "16:25:32",
-				["data_inicio"] = "16:24:48",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3504, -- [1]
-					590, -- [2]
-					{
-						0, -- [1]
-						[0] = 173,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 113452.969,
-				["contra"] = "Scarlet Preacher",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.002656, -- [1]
@@ -4521,11 +6564,44 @@ _detalhes_database = {
 						["max_value"] = 852,
 					},
 				},
-			}, -- [10]
+				["hasSaved"] = true,
+				["frags"] = {
+					["Scarlet Courier"] = 1,
+					["Scarlet Crusader"] = 1,
+				},
+				["data_fim"] = "16:25:32",
+				["totals_grupo"] = {
+					3504, -- [1]
+					590, -- [2]
+					{
+						0, -- [1]
+						[0] = 173,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:24:48",
+				["start_time"] = 113452.969,
+				["contra"] = "Scarlet Preacher",
+				["combat_id"] = 83,
+			}, -- [12]
 			{
 				{
-					["combatId"] = 82,
 					["tipo"] = 2,
+					["combatId"] = 82,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -4535,90 +6611,90 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["on_hold"] = false,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
+							["last_event"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
 							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001124,
-							["spec"] = 252,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 0.001124,
 							["classe"] = "DEATHKNIGHT",
-							["serial"] = "Player-7-0B437180",
+							["damage_taken"] = 139.001124,
 							["nome"] = "Fandagny",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
+							["spec"] = 252,
 							["grupo"] = true,
 							["end_time"] = 1539300144,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 139.001124,
+							["on_hold"] = false,
 							["start_time"] = 1539300144,
-							["delay"] = 0,
-							["last_event"] = 0,
+							["serial"] = "Player-7-0B437180",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 82,
 					["tipo"] = 3,
+					["combatId"] = 82,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 82,
 					["tipo"] = 7,
+					["combatId"] = 82,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 82,
 					["tipo"] = 9,
+					["combatId"] = 82,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["buff_uptime"] = 0,
-							["nome"] = "Fandagny",
 							["pets"] = {
 							},
-							["last_event"] = 1539300144,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 0,
 							["classe"] = "DEATHKNIGHT",
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[51915] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 51915,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-7-0B437180",
-							["tipo"] = 4,
+							["last_event"] = 1539300144,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 82,
 					["tipo"] = 2,
+					["combatId"] = 82,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4641,25 +6717,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.00105700000000297,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
-				["instance_type"] = "none",
 				["frags_need_refresh"] = false,
 				["__call"] = {
 				},
@@ -4668,6 +6743,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Fandagny"] = 0.001124,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -4676,22 +6756,21 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Fandagny"] = 0.001124,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 113408.058,
-				["combat_id"] = 82,
 				["TotalElapsedCombatTime"] = 113408.058,
+				["instance_type"] = "none",
 				["CombatEndedAt"] = 113408.058,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+					},
+					["Raid Damage Done"] = {
+					},
+				},
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "16:24:04",
-				["data_inicio"] = "16:24:04",
-				["CombatSkillCache"] = {
-				},
 				["totals_grupo"] = {
 					0, -- [1]
 					0, -- [2]
@@ -4699,29 +6778,27 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:24:04",
 				["start_time"] = 113408.058,
 				["contra"] = "Scarlet Commander",
-				["TimeData"] = {
-					["Player Damage Done"] = {
-					},
-					["Raid Damage Done"] = {
-					},
-				},
-			}, -- [11]
+				["combat_id"] = 82,
+			}, -- [13]
 			{
 				{
 					["tipo"] = 2,
@@ -4736,24 +6813,26 @@ _detalhes_database = {
 							["targets"] = {
 								["Scarlet Marksman"] = 2015,
 							},
+							["serial"] = "Player-7-0B437180",
 							["pets"] = {
 								"Rotrumbler <Fandagny>", -- [1]
 							},
-							["delay"] = 0,
+							["colocacao"] = 1,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1550.004631,
-							["custom"] = 0,
-							["tipo"] = 1,
+							["total"] = 2015.004631,
 							["dps_started"] = false,
 							["end_time"] = 1539298329,
-							["classe"] = "DEATHKNIGHT",
-							["total"] = 2015.004631,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1539298328,
 							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
-							["damage_taken"] = 773.004631,
+							["last_dps"] = 191.340293514337,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -4774,16 +6853,16 @@ _detalhes_database = {
 										["c_max"] = 340,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 340,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 340,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[191685] = {
 										["c_amt"] = 0,
@@ -4803,16 +6882,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 191685,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[77575] = {
 										["c_amt"] = 0,
@@ -4832,16 +6911,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 77575,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[85948] = {
 										["c_amt"] = 0,
@@ -4861,16 +6940,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 85948,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[47632] = {
 										["c_amt"] = 0,
@@ -4890,16 +6969,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 47632,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[191587] = {
 										["c_amt"] = 0,
@@ -4919,28 +6998,26 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 191587,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_dps"] = 191.340293514337,
-							["colocacao"] = 1,
-							["last_event"] = 1539298328,
-							["friendlyfire"] = {
-							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 773.004631,
 							["start_time"] = 1539298320,
-							["serial"] = "Player-7-0B437180",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "DEATHKNIGHT",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4952,15 +7029,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.008743,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 465.008743,
-							["last_event"] = 1539298328,
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 465.008743,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3881-609-9601-26125-1102ACCE34",
 							["ownerName"] = "Fandagny",
 							["nome"] = "Rotrumbler <Fandagny>",
 							["spells"] = {
@@ -4983,16 +7060,16 @@ _detalhes_database = {
 										["c_max"] = 106,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 106,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 106,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[91776] = {
 										["c_amt"] = 0,
@@ -5012,16 +7089,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 91776,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[91800] = {
 										["c_amt"] = 1,
@@ -5041,30 +7118,30 @@ _detalhes_database = {
 										["c_max"] = 4,
 										["id"] = 91800,
 										["r_dmg"] = 0,
-										["c_min"] = 4,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 4,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
 							["end_time"] = 1539298329,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1539298328,
+							["damage_taken"] = 0.008743,
 							["start_time"] = 1539298320,
-							["serial"] = "Pet-0-3881-609-9601-26125-1102ACCE34",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5074,8 +7151,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Fandagny"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -5100,7 +7176,7 @@ _detalhes_database = {
 							["healing_taken"] = 283.006039,
 							["fight_component"] = true,
 							["end_time"] = 1539298329,
-							["last_event"] = 1539298327,
+							["classe"] = "DEATHKNIGHT",
 							["nome"] = "Fandagny",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5123,27 +7199,28 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 283,
 										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 283,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Fandagny"] = true,
 							},
-							["spec"] = 252,
-							["custom"] = 0,
 							["tipo"] = 2,
-							["totaldenied"] = 0.006039,
+							["custom"] = 0,
+							["last_event"] = 1539298327,
 							["start_time"] = 1539298327,
+							["totaldenied"] = 0.006039,
 							["delay"] = 0,
-							["classe"] = "DEATHKNIGHT",
+							["spec"] = 252,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -5166,8 +7243,8 @@ _detalhes_database = {
 							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
+							["flag_original"] = 1297,
 							["tipo"] = 3,
-							["last_event"] = 1539298328,
 							["alternatepower"] = 0.004924,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5199,7 +7276,7 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["serial"] = "Player-7-0B437180",
-							["flag_original"] = 1297,
+							["last_event"] = 1539298328,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -5212,37 +7289,37 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[191587] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 191587,
-										["uptime"] = 7,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 7,
+										["id"] = 191587,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[196782] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 196782,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 196782,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[194310] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 5,
-										["id"] = 194310,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 194310,
+										["refreshamt"] = 5,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -5252,37 +7329,37 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[51460] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51460,
-										["uptime"] = 3,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 51460,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[51915] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51915,
-										["uptime"] = 11,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 51915,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[53365] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 53365,
-										["uptime"] = 2,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 53365,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -5294,19 +7371,19 @@ _detalhes_database = {
 							["spec"] = 252,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[49576] = 1,
-								[85948] = 3,
-								[47541] = 1,
 								[77575] = 1,
+								[49576] = 1,
+								[47541] = 1,
+								[85948] = 3,
+							},
+							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["last_event"] = 1539298329,
 							["nome"] = "Fandagny",
 							["pets"] = {
 							},
 							["serial"] = "Player-7-0B437180",
-							["debuff_uptime_targets"] = {
-							},
+							["last_event"] = 1539298329,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5335,21 +7412,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 87.985625,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -5361,10 +7438,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Fandagny"] = 2015.004631,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -5373,13 +7447,47 @@ _detalhes_database = {
 							["Fandagny"] = 283.006039,
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Fandagny"] = 2015.004631,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 111493.917,
-				["TotalElapsedCombatTime"] = 111493.917,
-				["instance_type"] = "none",
 				["CombatEndedAt"] = 111493.917,
+				["instance_type"] = "none",
+				["combat_id"] = 81,
+				["contra"] = "Scarlet Marksman",
+				["hasSaved"] = true,
+				["frags"] = {
+					["Scarlet Marksman"] = 1,
+				},
+				["data_fim"] = "15:52:09",
+				["data_inicio"] = "15:51:59",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1550, -- [1]
+					283, -- [2]
+					{
+						0, -- [1]
+						[0] = 88,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 111483.386,
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.004631, -- [1]
@@ -5408,39 +7516,8 @@ _detalhes_database = {
 						["max_value"] = 556,
 					},
 				},
-				["hasSaved"] = true,
-				["frags"] = {
-					["Scarlet Marksman"] = 1,
-				},
-				["data_fim"] = "15:52:09",
-				["totals_grupo"] = {
-					1550, -- [1]
-					283, -- [2]
-					{
-						0, -- [1]
-						[0] = 88,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "15:51:59",
-				["start_time"] = 111483.386,
-				["contra"] = "Scarlet Marksman",
-				["combat_id"] = 81,
-			}, -- [12]
+				["TotalElapsedCombatTime"] = 111493.917,
+			}, -- [14]
 			{
 				{
 					["tipo"] = 2,
@@ -5454,20 +7531,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Ellen Stanbridge"] = 4,
 							},
-							["delay"] = 0,
+							["serial"] = "Player-7-0B437180",
 							["pets"] = {
 								"Rotrumbler <Fandagny>", -- [1]
 							},
-							["custom"] = 0,
-							["tipo"] = 1,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4.006874,
-							["friendlyfire_total"] = 0,
+							["spec"] = 252,
 							["dps_started"] = false,
 							["total"] = 4.006874,
-							["damage_taken"] = 0.006874,
+							["on_hold"] = false,
+							["last_event"] = 1539298271,
+							["nome"] = "Fandagny",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -5488,16 +7568,16 @@ _detalhes_database = {
 										["c_max"] = 2,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 2,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 2,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[85948] = {
 										["c_amt"] = 1,
@@ -5517,32 +7597,29 @@ _detalhes_database = {
 										["c_max"] = 2,
 										["id"] = 85948,
 										["r_dmg"] = 0,
-										["c_min"] = 2,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 2,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Fandagny",
-							["spec"] = 252,
 							["grupo"] = true,
-							["last_dps"] = 40.06874,
 							["end_time"] = 1539298278,
-							["colocacao"] = 1,
-							["last_event"] = 1539298271,
-							["on_hold"] = false,
+							["last_dps"] = 40.06874,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.006874,
 							["start_time"] = 1539298271,
-							["serial"] = "Player-7-0B437180",
-							["friendlyfire"] = {
-							},
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -5554,15 +7631,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 8.007322,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007322,
-							["last_event"] = 0,
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 0.007322,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3881-609-9601-26125-1102ACCE34",
 							["ownerName"] = "Fandagny",
 							["nome"] = "Rotrumbler <Fandagny>",
 							["spells"] = {
@@ -5570,16 +7647,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
 							["end_time"] = 1539298318,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 0,
+							["damage_taken"] = 8.007322,
 							["start_time"] = 1539298318,
-							["serial"] = "Pet-0-3881-609-9601-26125-1102ACCE34",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5594,7 +7671,7 @@ _detalhes_database = {
 					["combatId"] = 80,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 9.002075,
 							["resource"] = 0.002075,
 							["targets"] = {
 								["Fandagny"] = 9,
@@ -5603,7 +7680,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 0,
 							["classe"] = "DEATHKNIGHT",
-							["alternatepower"] = 0.002075,
+							["total"] = 9.002075,
 							["nome"] = "Fandagny",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5619,12 +7696,12 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["received"] = 9.002075,
+							["flag_original"] = 1297,
 							["last_event"] = 1539298271,
-							["total"] = 9.002075,
-							["tipo"] = 3,
-							["serial"] = "Player-7-0B437180",
+							["alternatepower"] = 0.002075,
 							["spec"] = 252,
+							["serial"] = "Player-7-0B437180",
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -5637,50 +7714,50 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[194310] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 2,
-										["id"] = 194310,
-										["uptime"] = 0,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 194310,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 7,
+							["pets"] = {
+							},
 							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[51915] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51915,
-										["uptime"] = 7,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 51915,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
-							["nome"] = "Fandagny",
-							["spec"] = 252,
-							["grupo"] = true,
-							["last_event"] = 1539298278,
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
-							["pets"] = {
-							},
-							["serial"] = "Player-7-0B437180",
+							["spec"] = 252,
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
+							["last_event"] = 1539298278,
+							["nome"] = "Fandagny",
+							["buff_uptime"] = 7,
+							["serial"] = "Player-7-0B437180",
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5709,21 +7786,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 9,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -5735,10 +7812,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Fandagny"] = 4.006874,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -5746,19 +7820,25 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Fandagny"] = 4.006874,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 111442.88,
-				["TotalElapsedCombatTime"] = 6.93099999999686,
-				["instance_type"] = "none",
-				["CombatEndedAt"] = 111442.88,
 				["combat_id"] = 80,
+				["instance_type"] = "none",
+				["TotalElapsedCombatTime"] = 6.93099999999686,
+				["CombatEndedAt"] = 111442.88,
 				["hasSaved"] = true,
 				["frags"] = {
 					["Ellen Stanbridge"] = 1,
 				},
 				["data_fim"] = "15:51:18",
+				["data_inicio"] = "15:51:12",
+				["CombatSkillCache"] = {
+				},
 				["totals_grupo"] = {
 					4, -- [1]
 					0, -- [2]
@@ -5766,23 +7846,20 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 9,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "15:51:12",
 				["start_time"] = 111435.949,
 				["TimeData"] = {
 					["Player Damage Done"] = {
@@ -5805,7 +7882,7 @@ _detalhes_database = {
 					},
 				},
 				["pvp"] = true,
-			}, -- [13]
+			}, -- [15]
 			{
 				{
 					["tipo"] = 2,
@@ -5824,20 +7901,23 @@ _detalhes_database = {
 								["Scarlet Crusader"] = 385,
 								["Scarlet Marksman"] = 2745,
 							},
-							["delay"] = 0,
+							["serial"] = "Player-7-0B437180",
 							["pets"] = {
 								"Tombrobber <Fandagny>", -- [1]
 							},
-							["custom"] = 0,
-							["tipo"] = 1,
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2767.005639,
-							["on_hold"] = false,
+							["spec"] = 252,
 							["dps_started"] = false,
 							["total"] = 3498.005639,
-							["damage_taken"] = 2726.005639,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1539298112,
+							["nome"] = "Fandagny",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -5858,16 +7938,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[52212] = {
 										["c_amt"] = 4,
@@ -5889,16 +7969,16 @@ _detalhes_database = {
 										["c_max"] = 30,
 										["id"] = 52212,
 										["r_dmg"] = 0,
-										["c_min"] = 27,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 27,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 27,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[191587] = {
 										["c_amt"] = 1,
@@ -5920,16 +8000,16 @@ _detalhes_database = {
 										["c_max"] = 84,
 										["id"] = 191587,
 										["r_dmg"] = 0,
-										["c_min"] = 84,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 84,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[77575] = {
 										["c_amt"] = 0,
@@ -5949,16 +8029,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 77575,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[85948] = {
 										["c_amt"] = 1,
@@ -5978,16 +8058,16 @@ _detalhes_database = {
 										["c_max"] = 592,
 										["id"] = 85948,
 										["r_dmg"] = 0,
-										["c_min"] = 592,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 592,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[49998] = {
 										["c_amt"] = 0,
@@ -6007,16 +8087,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 49998,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[191685] = {
 										["c_amt"] = 0,
@@ -6038,32 +8118,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 191685,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Fandagny",
-							["spec"] = 252,
 							["grupo"] = true,
-							["last_dps"] = 180.523591835745,
 							["end_time"] = 1539298112,
-							["colocacao"] = 1,
-							["last_event"] = 1539298112,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 180.523591835745,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1539298097,
-							["serial"] = "Player-7-0B437180",
-							["friendlyfire_total"] = 0,
+							["delay"] = 0,
+							["damage_taken"] = 2726.005639,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -6076,15 +8153,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 9.008771,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 731.008771,
-							["last_event"] = 1539298112,
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 731.008771,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3881-609-9601-26125-1002ACCE34",
 							["ownerName"] = "Fandagny",
 							["nome"] = "Tombrobber <Fandagny>",
 							["spells"] = {
@@ -6107,16 +8184,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[91776] = {
 										["c_amt"] = 2,
@@ -6136,30 +8213,30 @@ _detalhes_database = {
 										["c_max"] = 93,
 										["id"] = 91776,
 										["r_dmg"] = 0,
-										["c_min"] = 76,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 76,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
 							["end_time"] = 1539298112,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1539298112,
+							["damage_taken"] = 9.008771,
 							["start_time"] = 1539298098,
-							["serial"] = "Pet-0-3881-609-9601-26125-1002ACCE34",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6169,8 +8246,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Fandagny"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -6195,7 +8271,7 @@ _detalhes_database = {
 							["healing_taken"] = 1220.005574,
 							["fight_component"] = true,
 							["end_time"] = 1539298112,
-							["last_event"] = 1539298107,
+							["classe"] = "DEATHKNIGHT",
 							["nome"] = "Fandagny",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6218,12 +8294,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 2,
-										["n_curado"] = 564,
 										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 564,
+										["n_amt"] = 2,
+										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[45470] = {
@@ -6245,27 +8321,28 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 2,
-										["n_curado"] = 656,
 										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 656,
+										["n_amt"] = 2,
+										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Fandagny"] = true,
 							},
-							["spec"] = 252,
-							["custom"] = 0,
 							["tipo"] = 2,
-							["totaldenied"] = 0.005574,
+							["custom"] = 0,
+							["last_event"] = 1539298107,
 							["start_time"] = 1539298098,
+							["totaldenied"] = 0.005574,
 							["delay"] = 0,
-							["classe"] = "DEATHKNIGHT",
+							["spec"] = 252,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -6288,8 +8365,8 @@ _detalhes_database = {
 							["nome"] = "Fandagny",
 							["spec"] = 252,
 							["grupo"] = true,
+							["flag_original"] = 1297,
 							["tipo"] = 3,
-							["last_event"] = 1539298271,
 							["alternatepower"] = 0.007724,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6309,14 +8386,6 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
-									[85948] = {
-										["id"] = 85948,
-										["total"] = 60,
-										["targets"] = {
-											["Fandagny"] = 60,
-										},
-										["counter"] = 3,
-									},
 									[195757] = {
 										["id"] = 195757,
 										["total"] = 18,
@@ -6325,11 +8394,19 @@ _detalhes_database = {
 										},
 										["counter"] = 6,
 									},
+									[85948] = {
+										["id"] = 85948,
+										["total"] = 60,
+										["targets"] = {
+											["Fandagny"] = 60,
+										},
+										["counter"] = 3,
+									},
 								},
 								["tipo"] = 7,
 							},
 							["serial"] = "Player-7-0B437180",
-							["flag_original"] = 1297,
+							["last_event"] = 1539298271,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -6342,37 +8419,37 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[191587] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 191587,
-										["uptime"] = 14,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
-										["appliedamt"] = 3,
+										["activedamt"] = 2,
+										["uptime"] = 14,
+										["id"] = 191587,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[196782] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 196782,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 196782,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[194310] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 5,
-										["id"] = 194310,
-										["uptime"] = 2,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 2,
+										["id"] = 194310,
+										["refreshamt"] = 5,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -6381,49 +8458,49 @@ _detalhes_database = {
 							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[51915] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51915,
-										["uptime"] = 20,
+									[52419] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 52419,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
-									[188290] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 188290,
-										["uptime"] = 8,
+									[51915] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 51915,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[51460] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51460,
-										["uptime"] = 3,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 51460,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[48265] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 48265,
-										["uptime"] = 7,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 48265,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[229387] = {
 										["activedamt"] = 1,
@@ -6432,32 +8509,32 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1539298092,
 										["uptime"] = 0,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 									},
 									[53365] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 53365,
 										["uptime"] = 14,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[52419] = {
-										["counter"] = 0,
+										["id"] = 53365,
+										["refreshamt"] = 1,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 52419,
-										["uptime"] = 10,
+										["counter"] = 0,
+									},
+									[188290] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 188290,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -6475,14 +8552,14 @@ _detalhes_database = {
 								[49998] = 2,
 								[43265] = 1,
 							},
+							["debuff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
-							["last_event"] = 1539298112,
 							["nome"] = "Fandagny",
 							["pets"] = {
 							},
 							["serial"] = "Player-7-0B437180",
-							["debuff_uptime_targets"] = {
-							},
+							["last_event"] = 1539298112,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -6841,8 +8918,8 @@ _detalhes_database = {
 						"DEATHKNIGHT", -- [4]
 						4695, -- [5]
 						"0m 19s", -- [6]
-						["dead"] = true,
 						["dead_at"] = 19.3769999999931,
+						["dead"] = true,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -6857,21 +8934,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 98,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -6883,10 +8960,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Fandagny"] = 3498.005639,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -6895,13 +8969,47 @@ _detalhes_database = {
 							["Fandagny"] = 1220.005574,
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Fandagny"] = 3498.005639,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 111277.155,
-				["TotalElapsedCombatTime"] = 111277.155,
-				["instance_type"] = "none",
 				["CombatEndedAt"] = 111277.155,
+				["instance_type"] = "none",
+				["combat_id"] = 79,
+				["contra"] = "Scarlet Marksman",
+				["hasSaved"] = true,
+				["frags"] = {
+					["Scarlet Marksman"] = 1,
+				},
+				["data_fim"] = "15:48:33",
+				["data_inicio"] = "15:48:13",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2767, -- [1]
+					1220, -- [2]
+					{
+						0, -- [1]
+						[0] = 98,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
+					}, -- [4]
+				},
+				["start_time"] = 111257.778,
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.005639, -- [1]
@@ -6948,39 +9056,8 @@ _detalhes_database = {
 						["max_value"] = 828,
 					},
 				},
-				["hasSaved"] = true,
-				["frags"] = {
-					["Scarlet Marksman"] = 1,
-				},
-				["data_fim"] = "15:48:33",
-				["totals_grupo"] = {
-					2767, -- [1]
-					1220, -- [2]
-					{
-						0, -- [1]
-						[0] = 98,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "15:48:13",
-				["start_time"] = 111257.778,
-				["contra"] = "Scarlet Marksman",
-				["combat_id"] = 79,
-			}, -- [14]
+				["TotalElapsedCombatTime"] = 111277.155,
+			}, -- [16]
 			{
 				{
 					["tipo"] = 2,
@@ -6996,33 +9073,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004779,
+							["serial"] = "Player-7-0B437180",
+							["dps_started"] = false,
+							["total"] = 0.004779,
+							["spec"] = 252,
+							["on_hold"] = false,
+							["nome"] = "Fandagny",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.004779,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.004779,
-							["classe"] = "DEATHKNIGHT",
-							["damage_taken"] = 603.004779,
-							["nome"] = "Fandagny",
-							["spec"] = 252,
 							["grupo"] = true,
 							["end_time"] = 1539298072,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 0,
+							["damage_taken"] = 603.004779,
 							["start_time"] = 1539298072,
-							["serial"] = "Player-7-0B437180",
-							["friendlyfire"] = {
-							},
+							["delay"] = 0,
+							["classe"] = "DEATHKNIGHT",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -7044,48 +9121,48 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["nome"] = "Fandagny",
-							["spec"] = 252,
-							["grupo"] = true,
-							["tipo"] = 4,
-							["buff_uptime"] = 25,
 							["buff_uptime_targets"] = {
 							},
+							["spec"] = 252,
+							["grupo"] = true,
+							["last_event"] = 1539298072,
+							["pets"] = {
+							},
+							["nome"] = "Fandagny",
+							["buff_uptime"] = 25,
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[48265] = 1,
-							},
-							["classe"] = "DEATHKNIGHT",
-							["pets"] = {
 							},
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[51915] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51915,
-										["uptime"] = 17,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 51915,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[48265] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 48265,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 48265,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-7-0B437180",
-							["last_event"] = 1539298072,
+							["classe"] = "DEATHKNIGHT",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7114,21 +9191,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -7140,10 +9217,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Fandagny"] = 0.004779,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -7151,13 +9225,46 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Fandagny"] = 0.004779,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 111237.667,
-				["TotalElapsedCombatTime"] = 111237.667,
-				["instance_type"] = "none",
 				["CombatEndedAt"] = 111237.667,
+				["instance_type"] = "none",
+				["combat_id"] = 78,
+				["contra"] = "Scarlet Crusader",
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "15:47:53",
+				["data_inicio"] = "15:47:36",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 111220.611,
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.004779, -- [1]
@@ -7199,38 +9306,8 @@ _detalhes_database = {
 						0, -- [17]
 					},
 				},
-				["hasSaved"] = true,
-				["frags"] = {
-				},
-				["data_fim"] = "15:47:53",
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "15:47:36",
-				["start_time"] = 111220.611,
-				["contra"] = "Scarlet Crusader",
-				["combat_id"] = 78,
-			}, -- [15]
+				["TotalElapsedCombatTime"] = 111237.667,
+			}, -- [17]
 			{
 				{
 					["tipo"] = 2,
@@ -7245,22 +9322,16 @@ _detalhes_database = {
 							["targets"] = {
 								["High Inquisitor Valroth"] = 3590,
 							},
-							["delay"] = 0,
+							["serial"] = "Player-7-0B437180",
 							["pets"] = {
 								"Tombrobber <Fandagny>", -- [1]
 							},
-							["custom"] = 0,
-							["last_event"] = 1539298042,
+							["colocacao"] = 1,
+							["total"] = 3590.004799,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2620.004799,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1539298042,
-							["damage_taken"] = 767.004799,
-							["spec"] = 252,
-							["nome"] = "Fandagny",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -7281,103 +9352,45 @@ _detalhes_database = {
 										["c_max"] = 324,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 324,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 324,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
-									[191685] = {
+									[70890] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 74,
+										["n_max"] = 61,
 										["targets"] = {
-											["High Inquisitor Valroth"] = 74,
+											["High Inquisitor Valroth"] = 61,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 74,
-										["n_min"] = 74,
+										["n_dmg"] = 61,
+										["n_min"] = 61,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 74,
+										["total"] = 61,
 										["c_max"] = 0,
-										["id"] = 191685,
+										["id"] = 70890,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[77575] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 37,
-										["targets"] = {
-											["High Inquisitor Valroth"] = 74,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 74,
-										["n_min"] = 37,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 74,
-										["c_max"] = 0,
-										["id"] = 77575,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[191587] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 37,
-										["targets"] = {
-											["High Inquisitor Valroth"] = 185,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 185,
-										["n_min"] = 37,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 185,
-										["c_max"] = 0,
-										["id"] = 191587,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
 									},
 									[194311] = {
 										["c_amt"] = 0,
@@ -7397,16 +9410,74 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 194311,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[191685] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 74,
+										["targets"] = {
+											["High Inquisitor Valroth"] = 74,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 74,
+										["n_min"] = 74,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 74,
+										["c_max"] = 0,
+										["id"] = 191685,
+										["r_dmg"] = 0,
 										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[77575] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 37,
+										["targets"] = {
+											["High Inquisitor Valroth"] = 74,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 74,
+										["n_min"] = 37,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 74,
+										["c_max"] = 0,
+										["id"] = 77575,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[55090] = {
 										["c_amt"] = 0,
@@ -7426,16 +9497,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 55090,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[85948] = {
 										["c_amt"] = 0,
@@ -7455,16 +9526,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 85948,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[47632] = {
 										["c_amt"] = 0,
@@ -7484,59 +9555,65 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 47632,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
-									[70890] = {
+									[191587] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 61,
+										["n_max"] = 37,
 										["targets"] = {
-											["High Inquisitor Valroth"] = 61,
+											["High Inquisitor Valroth"] = 185,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 61,
-										["n_min"] = 61,
+										["n_dmg"] = 185,
+										["n_min"] = 37,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 61,
+										["counter"] = 5,
+										["total"] = 185,
 										["c_max"] = 0,
-										["id"] = 70890,
+										["id"] = 191587,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["n_amt"] = 5,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["last_dps"] = 184.576082210686,
-							["classe"] = "DEATHKNIGHT",
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1539298042,
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
+							["nome"] = "Fandagny",
+							["spec"] = 252,
+							["grupo"] = true,
+							["classe"] = "DEATHKNIGHT",
+							["last_dps"] = 184.576082210686,
+							["custom"] = 0,
+							["last_event"] = 1539298042,
+							["on_hold"] = false,
 							["start_time"] = 1539298022,
-							["serial"] = "Player-7-0B437180",
-							["total"] = 3590.004799,
+							["delay"] = 0,
+							["damage_taken"] = 767.004799,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -7548,15 +9625,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.0058,
+							["on_hold"] = false,
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 970.0058,
-							["tipo"] = 1,
+							["total"] = 970.0058,
 							["dps_started"] = false,
 							["end_time"] = 1539298042,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3881-609-9601-26125-1002ACCE34",
 							["ownerName"] = "Fandagny",
 							["nome"] = "Tombrobber <Fandagny>",
 							["spells"] = {
@@ -7579,16 +9656,16 @@ _detalhes_database = {
 										["c_max"] = 104,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 71,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 71,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[91776] = {
 										["c_amt"] = 2,
@@ -7608,16 +9685,16 @@ _detalhes_database = {
 										["c_max"] = 93,
 										["id"] = 91776,
 										["r_dmg"] = 0,
-										["c_min"] = 93,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 93,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[91800] = {
 										["c_amt"] = 0,
@@ -7637,30 +9714,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 91800,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
+							["last_event"] = 1539298042,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1539298042,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.0058,
 							["start_time"] = 1539298024,
-							["serial"] = "Pet-0-3881-609-9601-26125-1002ACCE34",
-							["total"] = 970.0058,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7675,7 +9752,7 @@ _detalhes_database = {
 					["combatId"] = 77,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 88.005884,
 							["resource"] = 0.005884,
 							["targets"] = {
 								["Fandagny"] = 88,
@@ -7684,7 +9761,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 0,
 							["classe"] = "DEATHKNIGHT",
-							["alternatepower"] = 0.005884,
+							["total"] = 88.005884,
 							["nome"] = "Fandagny",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7704,14 +9781,6 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
-									[85948] = {
-										["id"] = 85948,
-										["total"] = 40,
-										["targets"] = {
-											["Fandagny"] = 40,
-										},
-										["counter"] = 2,
-									},
 									[55090] = {
 										["id"] = 55090,
 										["total"] = 10,
@@ -7720,16 +9789,24 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
+									[85948] = {
+										["id"] = 85948,
+										["total"] = 40,
+										["targets"] = {
+											["Fandagny"] = 40,
+										},
+										["counter"] = 2,
+									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["received"] = 88.005884,
+							["flag_original"] = 1297,
 							["last_event"] = 1539298042,
-							["total"] = 88.005884,
-							["tipo"] = 3,
-							["serial"] = "Player-7-0B437180",
+							["alternatepower"] = 0.005884,
 							["spec"] = 252,
+							["serial"] = "Player-7-0B437180",
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -7742,37 +9819,37 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[191587] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 191587,
-										["uptime"] = 16,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 16,
+										["id"] = 191587,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[196782] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 196782,
-										["uptime"] = 12,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = 196782,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[194310] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 5,
-										["id"] = 194310,
-										["uptime"] = 20,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 20,
+										["id"] = 194310,
+										["refreshamt"] = 5,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -7783,48 +9860,48 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[51915] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51915,
-										["uptime"] = 20,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 51915,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[52419] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 52419,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 52419,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 48,
-							["nome"] = "Fandagny",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 252,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[85948] = 2,
-								[55090] = 1,
-								[47541] = 1,
 								[77575] = 2,
+								[85948] = 2,
+								[47541] = 1,
+								[55090] = 1,
 							},
-							["tipo"] = 4,
+							["buff_uptime"] = 21,
 							["last_event"] = 1539298042,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Fandagny",
+							["tipo"] = 4,
+							["serial"] = "Player-7-0B437180",
 							["debuff_uptime_targets"] = {
 							},
-							["serial"] = "Player-7-0B437180",
-							["buff_uptime"] = 21,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7853,21 +9930,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 88,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -7879,10 +9956,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Fandagny"] = 3590.004799,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -7890,13 +9964,47 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Fandagny"] = 3590.004799,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 111207.212,
-				["TotalElapsedCombatTime"] = 111207.212,
-				["instance_type"] = "none",
 				["CombatEndedAt"] = 111207.212,
+				["instance_type"] = "none",
+				["combat_id"] = 77,
+				["contra"] = "High Inquisitor Valroth",
+				["hasSaved"] = true,
+				["frags"] = {
+					["High Inquisitor Valroth"] = 1,
+				},
+				["data_fim"] = "15:47:23",
+				["data_inicio"] = "15:47:03",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2620, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 88,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 111187.696,
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						432.004799, -- [1]
@@ -7943,1725 +10051,13 @@ _detalhes_database = {
 						["max_value"] = 432,
 					},
 				},
-				["hasSaved"] = true,
-				["frags"] = {
-					["High Inquisitor Valroth"] = 1,
-				},
-				["data_fim"] = "15:47:23",
-				["totals_grupo"] = {
-					2620, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 88,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "15:47:03",
-				["start_time"] = 111187.696,
-				["contra"] = "High Inquisitor Valroth",
-				["combat_id"] = 77,
-			}, -- [16]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 76,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.00193,
-							["damage_from"] = {
-								["Crimson Acolyte"] = true,
-							},
-							["targets"] = {
-								["Crimson Acolyte"] = 2046,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Carrionchomp <Fandagny>", -- [1]
-							},
-							["custom"] = 0,
-							["tipo"] = 1,
-							["classe"] = "DEATHKNIGHT",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1848.00193,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 2046.00193,
-							["damage_taken"] = 1206.00193,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 193,
-										["targets"] = {
-											["Crimson Acolyte"] = 383,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 383,
-										["n_min"] = 16,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 383,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[191685] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 194,
-										["g_amt"] = 0,
-										["n_max"] = 42,
-										["targets"] = {
-											["Crimson Acolyte"] = 671,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 477,
-										["n_min"] = 19,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 671,
-										["c_max"] = 83,
-										["id"] = 191685,
-										["r_dmg"] = 0,
-										["c_min"] = 37,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[77575] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 37,
-										["targets"] = {
-											["Crimson Acolyte"] = 37,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 37,
-										["n_min"] = 37,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 37,
-										["c_max"] = 0,
-										["id"] = 77575,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[85948] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 36,
-										["targets"] = {
-											["Crimson Acolyte"] = 36,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 36,
-										["n_min"] = 36,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 36,
-										["c_max"] = 0,
-										["id"] = 85948,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									[47632] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 151,
-										["targets"] = {
-											["Crimson Acolyte"] = 151,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 151,
-										["n_min"] = 151,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 151,
-										["c_max"] = 0,
-										["id"] = 47632,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[191587] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 324,
-										["g_amt"] = 0,
-										["n_max"] = 42,
-										["targets"] = {
-											["Crimson Acolyte"] = 570,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 246,
-										["n_min"] = 5,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 570,
-										["c_max"] = 84,
-										["id"] = 191587,
-										["r_dmg"] = 0,
-										["c_min"] = 74,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["nome"] = "Fandagny",
-							["spec"] = 252,
-							["grupo"] = true,
-							["last_dps"] = 137.085556448885,
-							["end_time"] = 1539298012,
-							["colocacao"] = 1,
-							["last_event"] = 1539298010,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1539297997,
-							["serial"] = "Player-7-0B437180",
-							["friendlyfire_total"] = 0,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.00811,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Crimson Acolyte"] = 198,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.00811,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 198.00811,
-							["last_event"] = 1539297999,
-							["dps_started"] = false,
-							["total"] = 198.00811,
-							["delay"] = 1539297999,
-							["ownerName"] = "Fandagny",
-							["nome"] = "Carrionchomp <Fandagny>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 52,
-										["targets"] = {
-											["Crimson Acolyte"] = 104,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 104,
-										["n_min"] = 52,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 104,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[91776] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 47,
-										["targets"] = {
-											["Crimson Acolyte"] = 94,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 94,
-										["n_min"] = 47,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 94,
-										["c_max"] = 0,
-										["id"] = 91776,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1539298012,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1539298009,
-							["serial"] = "Pet-0-3881-609-9601-26125-0F02ACCE34",
-							["classe"] = "PET",
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 76,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Fandagny"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.004188,
-							["total_without_pet"] = 611.004188,
-							["total"] = 611.004188,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-7-0B437180",
-							["totalabsorb"] = 0.004188,
-							["last_hps"] = 40.9383040535934,
-							["targets"] = {
-								["Fandagny"] = 611,
-							},
-							["totalover_without_pet"] = 0.004188,
-							["healing_taken"] = 611.004188,
-							["fight_component"] = true,
-							["end_time"] = 1539298012,
-							["last_event"] = 1539298010,
-							["nome"] = "Fandagny",
-							["spells"] = {
-								["_ActorTable"] = {
-									[53365] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 282,
-										["targets"] = {
-											["Fandagny"] = 282,
-										},
-										["n_min"] = 282,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 282,
-										["c_max"] = 0,
-										["id"] = 53365,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 282,
-										["m_amt"] = 0,
-										["absorbed"] = 0,
-									},
-									[45470] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 329,
-										["targets"] = {
-											["Fandagny"] = 329,
-										},
-										["n_min"] = 329,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 329,
-										["c_max"] = 0,
-										["id"] = 45470,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 329,
-										["m_amt"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_overheal"] = {
-							},
-							["spec"] = 252,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.004188,
-							["start_time"] = 1539298010,
-							["delay"] = 1539298000,
-							["classe"] = "DEATHKNIGHT",
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 76,
-					["_ActorTable"] = {
-						{
-							["received"] = 20.007719,
-							["resource"] = 0.007719,
-							["targets"] = {
-								["Fandagny"] = 20,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "DEATHKNIGHT",
-							["fight_component"] = true,
-							["total"] = 20.007719,
-							["nome"] = "Fandagny",
-							["spec"] = 252,
-							["grupo"] = true,
-							["tipo"] = 3,
-							["last_event"] = 1539298022,
-							["alternatepower"] = 0.007719,
-							["spells"] = {
-								["_ActorTable"] = {
-									[195757] = {
-										["id"] = 195757,
-										["total"] = 0,
-										["targets"] = {
-											["Fandagny"] = 0,
-										},
-										["counter"] = 3,
-									},
-									[85948] = {
-										["id"] = 85948,
-										["total"] = 20,
-										["targets"] = {
-											["Fandagny"] = 20,
-										},
-										["counter"] = 1,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["serial"] = "Player-7-0B437180",
-							["flag_original"] = 1297,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 76,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[191587] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 191587,
-										["uptime"] = 13,
-										["targets"] = {
-										},
-										["appliedamt"] = 4,
-									},
-									[196782] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 196782,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[194310] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 2,
-										["id"] = 194310,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 37,
-							["classe"] = "DEATHKNIGHT",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[51460] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 51460,
-										["uptime"] = 6,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[53365] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 53365,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[52419] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 52419,
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[51915] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51915,
-										["uptime"] = 15,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 16,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 252,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[85948] = 1,
-								[47541] = 1,
-								[49998] = 1,
-							},
-							["tipo"] = 4,
-							["last_event"] = 1539298012,
-							["nome"] = "Fandagny",
-							["pets"] = {
-							},
-							["serial"] = "Player-7-0B437180",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 76,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Fandagny"] = true,
-				},
-				["CombatStartedAt"] = 111186.606,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Crimson Acolyte",
-				["combat_counter"] = 89,
-				["playing_solo"] = true,
-				["totals"] = {
-					2045.992107, -- [1]
-					611, -- [2]
-					{
-						0, -- [1]
-						[0] = 20,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Fandagny"] = 2046.00193,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Fandagny"] = 611.004188,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 111176.885,
-				["TotalElapsedCombatTime"] = 111176.885,
-				["instance_type"] = "none",
-				["CombatEndedAt"] = 111176.885,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						310.00193, -- [1]
-						47, -- [2]
-						405, -- [3]
-						161, -- [4]
-						0, -- [5]
-						344, -- [6]
-						250, -- [7]
-						0, -- [8]
-						0, -- [9]
-						353, -- [10]
-						0, -- [11]
-						0, -- [12]
-						125, -- [13]
-						51, -- [14]
-						["max_value"] = 405,
-					},
-					["Raid Damage Done"] = {
-						211, -- [1]
-						0, -- [2]
-						353, -- [3]
-						161, -- [4]
-						0, -- [5]
-						344, -- [6]
-						250, -- [7]
-						0, -- [8]
-						0, -- [9]
-						353, -- [10]
-						0, -- [11]
-						0, -- [12]
-						125, -- [13]
-						51, -- [14]
-						["max_value"] = 353,
-					},
-				},
-				["hasSaved"] = true,
-				["frags"] = {
-					["Crimson Acolyte"] = 4,
-				},
-				["data_fim"] = "15:46:52",
-				["totals_grupo"] = {
-					1848, -- [1]
-					611, -- [2]
-					{
-						0, -- [1]
-						[0] = 20,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "15:46:38",
-				["start_time"] = 111161.96,
-				["contra"] = "Crimson Acolyte",
-				["combat_id"] = 76,
-			}, -- [17]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 75,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["totalabsorbed"] = 0.002927,
-							["damage_from"] = {
-								["Scarlet Crusader"] = true,
-								["Crimson Acolyte"] = true,
-							},
-							["targets"] = {
-								["Scarlet Crusader"] = 2074,
-								["Crimson Acolyte"] = 1527,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Ribrumbler <Fandagny>", -- [1]
-								"Carrionchomp <Fandagny>", -- [2]
-							},
-							["custom"] = 0,
-							["tipo"] = 1,
-							["classe"] = "DEATHKNIGHT",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3074.002927,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 3601.002927,
-							["damage_taken"] = 690.002927,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 702,
-										["g_amt"] = 0,
-										["n_max"] = 195,
-										["targets"] = {
-											["Scarlet Crusader"] = 897,
-											["Crimson Acolyte"] = 21,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 216,
-										["n_min"] = 5,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 918,
-										["c_max"] = 370,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["c_min"] = 332,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[52212] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 90,
-										["g_amt"] = 0,
-										["n_max"] = 15,
-										["targets"] = {
-											["Crimson Acolyte"] = 300,
-											["Scarlet Crusader"] = 30,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 240,
-										["n_min"] = 15,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 330,
-										["c_max"] = 30,
-										["id"] = 52212,
-										["r_dmg"] = 0,
-										["c_min"] = 30,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 16,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[191587] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 83,
-										["g_amt"] = 0,
-										["n_max"] = 42,
-										["targets"] = {
-											["Scarlet Crusader"] = 125,
-											["Crimson Acolyte"] = 124,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 166,
-										["n_min"] = 41,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 249,
-										["c_max"] = 83,
-										["id"] = 191587,
-										["r_dmg"] = 0,
-										["c_min"] = 83,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[77575] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 37,
-										["targets"] = {
-											["Scarlet Crusader"] = 37,
-											["Crimson Acolyte"] = 4,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 41,
-										["n_min"] = 4,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 41,
-										["c_max"] = 0,
-										["id"] = 77575,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[191685] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 111,
-										["g_amt"] = 0,
-										["n_max"] = 41,
-										["targets"] = {
-											["Crimson Acolyte"] = 221,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 110,
-										["n_min"] = 28,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 221,
-										["c_max"] = 56,
-										["id"] = 191685,
-										["r_dmg"] = 0,
-										["c_min"] = 55,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[85948] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 298,
-										["targets"] = {
-											["Scarlet Crusader"] = 593,
-											["Crimson Acolyte"] = 298,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 891,
-										["n_min"] = 296,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 891,
-										["c_max"] = 0,
-										["id"] = 85948,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									[49998] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 272,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Crimson Acolyte"] = 272,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 272,
-										["c_max"] = 272,
-										["id"] = 49998,
-										["r_dmg"] = 0,
-										["c_min"] = 272,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									[47632] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 152,
-										["targets"] = {
-											["Scarlet Crusader"] = 152,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 152,
-										["n_min"] = 152,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 152,
-										["c_max"] = 0,
-										["id"] = 47632,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["nome"] = "Fandagny",
-							["spec"] = 252,
-							["grupo"] = true,
-							["last_dps"] = 165.975429894829,
-							["end_time"] = 1539297987,
-							["colocacao"] = 1,
-							["last_event"] = 1539297987,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1539297972,
-							["serial"] = "Player-7-0B437180",
-							["friendlyfire_total"] = 0,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.007634,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Scarlet Crusader"] = 240,
-								["Crimson Acolyte"] = 287,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.007634,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 527.007634,
-							["last_event"] = 1539297986,
-							["dps_started"] = false,
-							["total"] = 527.007634,
-							["delay"] = 0,
-							["ownerName"] = "Fandagny",
-							["nome"] = "Carrionchomp <Fandagny>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 253,
-										["g_amt"] = 0,
-										["n_max"] = 59,
-										["targets"] = {
-											["Scarlet Crusader"] = 136,
-											["Crimson Acolyte"] = 234,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 117,
-										["n_min"] = 58,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 370,
-										["c_max"] = 117,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["c_min"] = 19,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[91776] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 53,
-										["targets"] = {
-											["Scarlet Crusader"] = 104,
-											["Crimson Acolyte"] = 53,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 157,
-										["n_min"] = 52,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 157,
-										["c_max"] = 0,
-										["id"] = 91776,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1539297987,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1539297978,
-							["serial"] = "Pet-0-3881-609-9601-26125-0F02ACCE34",
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.00278,
-							["damage_from"] = {
-								["Scarlet Crusader"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 133.00278,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.00278,
-							["last_event"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.00278,
-							["delay"] = 0,
-							["ownerName"] = "Fandagny",
-							["nome"] = "Ribrumbler <Fandagny>",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1539297987,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1539297987,
-							["serial"] = "Pet-0-3881-609-9601-26125-0E02ACCE34",
-							["classe"] = "PET",
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 75,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Fandagny"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.003363,
-							["total_without_pet"] = 611.003363,
-							["total"] = 611.003363,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-7-0B437180",
-							["totalabsorb"] = 0.003363,
-							["last_hps"] = 28.1620281618591,
-							["targets"] = {
-								["Fandagny"] = 611,
-							},
-							["totalover_without_pet"] = 0.003363,
-							["healing_taken"] = 611.003363,
-							["fight_component"] = true,
-							["end_time"] = 1539297987,
-							["last_event"] = 1539297981,
-							["nome"] = "Fandagny",
-							["spells"] = {
-								["_ActorTable"] = {
-									[53365] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 282,
-										["targets"] = {
-											["Fandagny"] = 282,
-										},
-										["n_min"] = 282,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 282,
-										["c_max"] = 0,
-										["id"] = 53365,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 282,
-										["m_amt"] = 0,
-										["absorbed"] = 0,
-									},
-									[45470] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 329,
-										["targets"] = {
-											["Fandagny"] = 329,
-										},
-										["n_min"] = 329,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 329,
-										["c_max"] = 0,
-										["id"] = 45470,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 329,
-										["m_amt"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_overheal"] = {
-							},
-							["spec"] = 252,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.003363,
-							["start_time"] = 1539297972,
-							["delay"] = 0,
-							["classe"] = "DEATHKNIGHT",
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 75,
-					["_ActorTable"] = {
-						{
-							["received"] = 127.007797,
-							["resource"] = 0.007797,
-							["targets"] = {
-								["Fandagny"] = 127,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "DEATHKNIGHT",
-							["fight_component"] = true,
-							["total"] = 127.007797,
-							["nome"] = "Fandagny",
-							["spec"] = 252,
-							["grupo"] = true,
-							["tipo"] = 3,
-							["last_event"] = 1539297997,
-							["alternatepower"] = 0.007797,
-							["spells"] = {
-								["_ActorTable"] = {
-									[43265] = {
-										["id"] = 43265,
-										["total"] = 10,
-										["targets"] = {
-											["Fandagny"] = 10,
-										},
-										["counter"] = 1,
-									},
-									[85948] = {
-										["id"] = 85948,
-										["total"] = 60,
-										["targets"] = {
-											["Fandagny"] = 60,
-										},
-										["counter"] = 3,
-									},
-									[77575] = {
-										["id"] = 77575,
-										["total"] = 30,
-										["targets"] = {
-											["Fandagny"] = 30,
-										},
-										["counter"] = 3,
-									},
-									[195757] = {
-										["id"] = 195757,
-										["total"] = 27,
-										["targets"] = {
-											["Fandagny"] = 27,
-										},
-										["counter"] = 9,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["serial"] = "Player-7-0B437180",
-							["flag_original"] = 1297,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 75,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[191587] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 191587,
-										["uptime"] = 15,
-										["targets"] = {
-										},
-										["appliedamt"] = 3,
-									},
-									[196782] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 196782,
-										["uptime"] = 6,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[194310] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 7,
-										["id"] = 194310,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 42,
-							["classe"] = "DEATHKNIGHT",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[188290] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 3,
-										["refreshamt"] = 0,
-										["id"] = 188290,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 3,
-									},
-									[53365] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 53365,
-										["uptime"] = 15,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[51915] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51915,
-										["uptime"] = 21,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[51460] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 51460,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 29,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 252,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[43265] = 1,
-								[77575] = 2,
-								[47541] = 1,
-								[49576] = 1,
-								[49998] = 1,
-								[85948] = 3,
-							},
-							["tipo"] = 4,
-							["last_event"] = 1539297987,
-							["nome"] = "Fandagny",
-							["pets"] = {
-							},
-							["serial"] = "Player-7-0B437180",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 75,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Fandagny"] = true,
-				},
-				["CombatStartedAt"] = 111161.116,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Scarlet Crusader",
-				["combat_counter"] = 88,
-				["playing_solo"] = true,
-				["totals"] = {
-					3600.987448, -- [1]
-					611, -- [2]
-					{
-						0, -- [1]
-						[0] = 127,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-					["Fandagny"] = {
-						{
-							true, -- [1]
-							1, -- [2]
-							47, -- [3]
-							1539297996.724, -- [4]
-							2571, -- [5]
-							"Crimson Acolyte", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							1, -- [2]
-							49, -- [3]
-							1539297996.724, -- [4]
-							2571, -- [5]
-							"Crimson Acolyte", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 3,
-					},
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Fandagny"] = 3601.002927,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Fandagny"] = 611.003363,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 111152.547,
-				["TotalElapsedCombatTime"] = 111152.547,
-				["instance_type"] = "none",
-				["CombatEndedAt"] = 111152.547,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						0.002927, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						369, -- [7]
-						296, -- [8]
-						370, -- [9]
-						235, -- [10]
-						297, -- [11]
-						0, -- [12]
-						406, -- [13]
-						184, -- [14]
-						218, -- [15]
-						358, -- [16]
-						186, -- [17]
-						30, -- [18]
-						539, -- [19]
-						35, -- [20]
-						78, -- [21]
-						["max_value"] = 539,
-					},
-					["Raid Damage Done"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						369, -- [7]
-						296, -- [8]
-						370, -- [9]
-						235, -- [10]
-						297, -- [11]
-						0, -- [12]
-						237, -- [13]
-						132, -- [14]
-						199, -- [15]
-						358, -- [16]
-						128, -- [17]
-						30, -- [18]
-						369, -- [19]
-						35, -- [20]
-						19, -- [21]
-						["max_value"] = 370,
-					},
-				},
-				["hasSaved"] = true,
-				["frags"] = {
-					["Scarlet Crusader"] = 1,
-					["Crimson Acolyte"] = 3,
-				},
-				["data_fim"] = "15:46:28",
-				["totals_grupo"] = {
-					3074, -- [1]
-					611, -- [2]
-					{
-						0, -- [1]
-						[0] = 127,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "15:46:06",
-				["start_time"] = 111130.851,
-				["contra"] = "Scarlet Crusader",
-				["combat_id"] = 75,
+				["TotalElapsedCombatTime"] = 111207.212,
 			}, -- [18]
 		},
 	},
-	["last_version"] = "v8.0.1.6561",
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
+	["combat_counter"] = 109,
+	["character_data"] = {
+		["logons"] = 8,
 	},
 	["tabela_instancias"] = {
 	},
@@ -9746,24 +10142,31 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
-	["last_instance_time"] = 0,
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
 	["active_profile"] = "Base",
 	["last_realversion"] = 135,
-	["ignore_nicktag"] = false,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
+			["enabled"] = true,
 			["showamount"] = false,
-			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -9793,15 +10196,15 @@ _detalhes_database = {
 			["max_segments_for_current"] = 2,
 			["max_deaths_for_current"] = 20,
 			["last_player"] = false,
-			["InstalledAt"] = 1539292895,
+			["author"] = "Details! Team",
 			["last_encounter_hash"] = false,
-			["showing_type"] = 4,
+			["enabled"] = true,
 			["timeline_cutoff_time"] = 3,
 			["last_segment"] = false,
 			["last_combat_id"] = 0,
 			["timeline_cutoff_delete_time"] = 3,
-			["enabled"] = true,
-			["author"] = "Details! Team",
+			["showing_type"] = 4,
+			["InstalledAt"] = 1539292895,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -9810,21 +10213,21 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
-			["tank_block_texture"] = "Details Serenity",
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_texture"] = "Details Serenity",
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
 			["first_run"] = false,
@@ -9855,16 +10258,21 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Empty",
-			["scale"] = 1,
-			["row_height"] = 21,
-			["point"] = "TOPLEFT",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = true,
+			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
+			["per_second"] = {
+				["enabled"] = true,
+				["point"] = "LEFT",
+				["scale"] = 1,
+				["font_shadow"] = false,
+				["y"] = 182.153961181641,
+				["x"] = 2.65877819061279,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.304000020027161,
+				["size"] = 32,
 			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
@@ -9873,51 +10281,46 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 14,
 			["use_spark"] = false,
-			["y"] = -20.15869140625,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["font_size"] = 14,
-			["per_second"] = {
-				["enabled"] = true,
-				["point"] = "LEFT",
-				["scale"] = 1,
-				["font_shadow"] = false,
-				["y"] = 182.153961181641,
-				["x"] = 2.65877819061279,
-				["size"] = 32,
-				["update_speed"] = 0.304000020027161,
-				["attribute_type"] = 1,
-			},
-			["author"] = "Details! Team",
-			["main_frame_locked"] = true,
-			["arrow_anchor_y"] = 0,
+			["y"] = -20.15869140625,
+			["main_frame_strata"] = "LOW",
+			["point"] = "TOPLEFT",
+			["row_height"] = 21,
+			["scale"] = 1,
 		},
 	},
 	["nick_tag_cache"] = {
 		["nextreset"] = 1540588895,
 		["last_version"] = 10,
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["combat_counter"] = 106,
-	["combat_id"] = 92,
+	["ignore_nicktag"] = false,
+	["last_day"] = "12",
+	["last_version"] = "v8.0.1.6561",
+	["combat_id"] = 94,
 	["savedStyles"] = {
 	},
-	["announce_prepots"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-		["reverse"] = false,
+	["last_instance_time"] = 0,
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
 	},
-	["last_day"] = "11",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -9930,68 +10333,76 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.488273,
-					["end_time"] = 1539293392,
+					["totalabsorbed"] = 0.500359,
 					["damage_from"] = {
-						["Scarlet Captain"] = true,
-						["Scarlet Crusader"] = true,
-						["Scarlet Infantryman"] = true,
-						["Dark Rider of Acherus"] = true,
+						["Scarlet Ballista"] = true,
+						["Citizen of New Avalon"] = true,
+						["Terrifying Abomination"] = true,
+						["Stable Master Kitrik"] = true,
 						["Scarlet Commander"] = true,
-						["Hearthglen Crusader"] = true,
 						["Havenshire Stallion"] = true,
 						["Scarlet Commander Rodrick"] = true,
-						["Tirisfal Crusader"] = true,
-						["Scarlet Ballista"] = true,
+						["Scarlet Farm Hound"] = true,
+						["Hearthglen Crusader"] = true,
+						["Scarlet Courier"] = true,
+						["Scourge Necromancer"] = true,
+						["Scarlet Preacher"] = true,
+						["Acherus Deathcharger"] = true,
+						["Death Knight Initiate"] = true,
+						["High Inquisitor Valroth"] = true,
+						["Scarlet Infantryman"] = true,
+						["Dark Rider of Acherus"] = true,
+						["Crimson Acolyte"] = true,
 						["Scarlet Medic"] = true,
 						["Unworthy Initiate"] = true,
-						["Shadowy Tormentor"] = true,
-						["High Inquisitor Valroth"] = true,
-						["Scarlet Courier"] = true,
-						["Death Knight Initiate"] = true,
-						["Scarlet Ghost"] = true,
+						["Tirisfal Crusader"] = true,
+						["[*] Touch of the Val'kyr"] = true,
 						["New Avalon Councilman"] = true,
-						["Scarlet Farm Hound"] = true,
-						["Scarlet Preacher"] = true,
-						["Citizen of New Avalon"] = true,
+						["Scarlet Captain"] = true,
+						["Scarlet Crusader"] = true,
 						["Citizen of Havenshire"] = true,
-						["Crimson Acolyte"] = true,
+						["Patchwerk"] = true,
+						["Shadowy Tormentor"] = true,
 						["Mayor Quimby"] = true,
-						["Stable Master Kitrik"] = true,
-						["Acherus Deathcharger"] = true,
+						["Val'kyr Battle-maiden"] = true,
+						["Scarlet Ghost"] = true,
 						["Scarlet Marksman"] = true,
 						["Scarlet Miner"] = true,
 					},
 					["targets"] = {
-						["Scarlet Captain"] = 6163,
-						["Scarlet Crusader"] = 23458,
-						["Scarlet Infantryman"] = 8003,
 						["Scarlet Ballista"] = 1053600,
-						["Tirisfal Crusader"] = 554585,
-						["Hearthglen Crusader"] = 480834,
-						["Dark Rider of Acherus"] = 3111,
-						["Scarlet Commander"] = 7162,
+						["Citizen of New Avalon"] = 27298,
+						["Terrifying Abomination"] = 45047,
 						["Stable Master Kitrik"] = 6181,
-						["Havenshire Stallion"] = 763,
+						["Scarlet Commander"] = 7162,
+						["Scarlet Fleet Defender"] = 208748,
 						["Scarlet Commander Rodrick"] = 3051,
-						["High Inquisitor Valroth"] = 3590,
-						["Death Knight Initiate"] = 12444,
-						["Scarlet Medic"] = 4030,
-						["Unworthy Initiate"] = 2074,
-						["Shadowy Tormentor"] = 2015,
 						["Scarlet Farm Hound"] = 2519,
+						["Shadowy Tormentor"] = 2015,
 						["Scarlet Courier"] = 2133,
+						["Scourge Necromancer"] = 5676,
+						["Scarlet Preacher"] = 2779,
 						["Scarlet Land Cannon"] = 72590,
+						["Death Knight Initiate"] = 12444,
+						["High Inquisitor Valroth"] = 3590,
+						["Scarlet Infantryman"] = 8003,
+						["Dark Rider of Acherus"] = 3111,
+						["Crimson Acolyte"] = 5328,
+						["Citizen of Havenshire"] = 11672,
+						["Unworthy Initiate"] = 2074,
+						["Patchwerk"] = 30625,
+						["Tirisfal Crusader"] = 554585,
+						["Ellen Stanbridge"] = 4,
 						["Scarlet Peasant"] = 3657,
 						["New Avalon Councilman"] = 1296,
-						["Citizen of Havenshire"] = 11672,
-						["Scarlet Preacher"] = 2779,
-						["Scarlet Fleet Defender"] = 208748,
-						["Crimson Acolyte"] = 5328,
-						["Citizen of New Avalon"] = 27298,
-						["Ellen Stanbridge"] = 4,
+						["Scarlet Captain"] = 6163,
+						["Scarlet Crusader"] = 23458,
+						["Hearthglen Crusader"] = 480834,
+						["Havenshire Stallion"] = 763,
 						["Scarlet Ghost"] = 12366,
 						["Mayor Quimby"] = 860,
+						["Val'kyr Battle-maiden"] = 6204,
+						["Scarlet Medic"] = 4030,
 						["Scarlet Marksman"] = 12333,
 						["Scarlet Miner"] = 1581,
 					},
@@ -10008,529 +10419,330 @@ _detalhes_database = {
 						"Tombrobber <Fandagny>", -- [10]
 						"Rotrumbler <Fandagny>", -- [11]
 						"Frostbrood Vanquisher <Fandagny>", -- [12]
+						"Pebblereaver <Fandagny>", -- [13]
+						"Rotslobber <Fandagny>", -- [14]
 					},
-					["last_dps"] = 0,
-					["classe"] = "DEATHKNIGHT",
+					["friendlyfire_total"] = 73,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 131874.488273,
-					["tipo"] = 1,
+					["total_without_pet"] = 216701.500359,
+					["spec"] = 252,
+					["last_event"] = 0,
 					["dps_started"] = false,
-					["total"] = 2536228.488273,
-					["friendlyfire_total"] = 73,
-					["delay"] = 0,
+					["total"] = 2623780.500359,
+					["classe"] = "DEATHKNIGHT",
+					["serial"] = "Player-7-0B437180",
 					["nome"] = "Fandagny",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 49,
-								["b_amt"] = 2,
-								["c_dmg"] = 15369,
-								["g_amt"] = 0,
-								["n_max"] = 208,
+								["c_amt"] = 50,
+								["b_amt"] = 3,
+								["c_dmg"] = 17846,
+								["g_amt"] = 10,
+								["n_max"] = 1246,
 								["targets"] = {
 									["Scarlet Captain"] = 1590,
 									["Scarlet Crusader"] = 6888,
 									["Scarlet Infantryman"] = 2427,
+									["Terrifying Abomination"] = 7547,
 									["Dark Rider of Acherus"] = 934,
 									["Scarlet Commander"] = 2602,
 									["Scarlet Commander Rodrick"] = 695,
-									["Death Knight Initiate"] = 3029,
+									["Patchwerk"] = 1639,
+									["High Inquisitor Valroth"] = 1152,
 									["Scarlet Medic"] = 1174,
 									["Unworthy Initiate"] = 551,
 									["Shadowy Tormentor"] = 495,
-									["High Inquisitor Valroth"] = 1152,
+									["Scarlet Marksman"] = 4164,
 									["Scarlet Courier"] = 733,
-									["Scarlet Farm Hound"] = 875,
+									["Citizen of Havenshire"] = 4056,
 									["Scarlet Peasant"] = 1063,
 									["Scarlet Ghost"] = 3512,
-									["Stable Master Kitrik"] = 2013,
-									["Scarlet Preacher"] = 856,
-									["Mayor Quimby"] = 330,
-									["Crimson Acolyte"] = 744,
-									["Citizen of New Avalon"] = 4078,
-									["Ellen Stanbridge"] = 2,
 									["New Avalon Councilman"] = 346,
-									["Citizen of Havenshire"] = 4056,
-									["Scarlet Marksman"] = 4164,
+									["Scarlet Preacher"] = 856,
+									["Ellen Stanbridge"] = 2,
+									["Citizen of New Avalon"] = 4078,
+									["Crimson Acolyte"] = 744,
+									["Mayor Quimby"] = 330,
+									["Stable Master Kitrik"] = 2013,
+									["Scarlet Farm Hound"] = 875,
+									["Death Knight Initiate"] = 3029,
 									["Scarlet Miner"] = 371,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 29311,
+								["n_dmg"] = 34381,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 225,
-								["total"] = 44680,
-								["c_max"] = 405,
+								["g_dmg"] = 1639,
+								["counter"] = 243,
+								["total"] = 53866,
+								["c_max"] = 2477,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 240,
-								["n_amt"] = 176,
-								["a_amt"] = 0,
+								["DODGE"] = 2,
 								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 933,
+								["n_amt"] = 181,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[191587] = {
-								["c_amt"] = 45,
+								["c_amt"] = 52,
 								["b_amt"] = 0,
-								["c_dmg"] = 3407,
+								["c_dmg"] = 6602,
 								["g_amt"] = 0,
-								["n_max"] = 45,
+								["n_max"] = 276,
 								["targets"] = {
 									["Scarlet Captain"] = 219,
 									["Scarlet Crusader"] = 1782,
 									["Scarlet Infantryman"] = 470,
+									["Terrifying Abomination"] = 8634,
 									["Dark Rider of Acherus"] = 184,
 									["Scarlet Commander"] = 348,
+									["Patchwerk"] = 3943,
 									["Havenshire Stallion"] = 535,
 									["Scarlet Commander Rodrick"] = 356,
+									["Citizen of Havenshire"] = 191,
+									["Stable Master Kitrik"] = 421,
 									["Scarlet Medic"] = 200,
 									["Unworthy Initiate"] = 123,
 									["Shadowy Tormentor"] = 71,
 									["High Inquisitor Valroth"] = 185,
 									["Scarlet Courier"] = 82,
-									["Death Knight Initiate"] = 466,
+									["Scarlet Marksman"] = 542,
 									["Scarlet Peasant"] = 21,
 									["Scarlet Ghost"] = 308,
-									["Scarlet Farm Hound"] = 164,
+									["Scourge Necromancer"] = 2276,
 									["Scarlet Preacher"] = 108,
-									["Stable Master Kitrik"] = 421,
+									["New Avalon Councilman"] = 36,
 									["Citizen of New Avalon"] = 3791,
 									["Crimson Acolyte"] = 694,
 									["Mayor Quimby"] = 36,
-									["New Avalon Councilman"] = 36,
-									["Citizen of Havenshire"] = 191,
-									["Scarlet Marksman"] = 542,
+									["Val'kyr Battle-maiden"] = 1657,
+									["Scarlet Farm Hound"] = 164,
+									["Death Knight Initiate"] = 466,
 									["Scarlet Miner"] = 147,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 8073,
+								["n_dmg"] = 21388,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 259,
-								["total"] = 11480,
-								["c_max"] = 84,
+								["counter"] = 318,
+								["total"] = 27990,
+								["c_max"] = 551,
 								["id"] = 191587,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 214,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["n_amt"] = 266,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[47632] = {
 								["c_amt"] = 10,
 								["b_amt"] = 0,
 								["c_dmg"] = 2795,
 								["g_amt"] = 0,
-								["n_max"] = 152,
+								["n_max"] = 924,
 								["targets"] = {
 									["Scarlet Captain"] = 149,
 									["Scarlet Crusader"] = 1893,
 									["Citizen of New Avalon"] = 1525,
+									["Terrifying Abomination"] = 1735,
 									["Dark Rider of Acherus"] = 267,
 									["Scarlet Commander"] = 264,
 									["Scarlet Commander Rodrick"] = 177,
 									["Citizen of Havenshire"] = 1113,
 									["Unworthy Initiate"] = 150,
 									["Scarlet Courier"] = 301,
+									["Patchwerk"] = 1848,
 									["Scarlet Peasant"] = 14,
 									["New Avalon Councilman"] = 263,
 									["High Inquisitor Valroth"] = 134,
 									["Scarlet Preacher"] = 395,
-									["Death Knight Initiate"] = 533,
-									["Crimson Acolyte"] = 286,
-									["Scarlet Ghost"] = 1070,
-									["Mayor Quimby"] = 131,
-									["Scarlet Farm Hound"] = 279,
-									["Scarlet Infantryman"] = 151,
 									["Scarlet Marksman"] = 700,
+									["Scarlet Infantryman"] = 151,
+									["Scarlet Farm Hound"] = 279,
+									["Mayor Quimby"] = 131,
+									["Scarlet Ghost"] = 1070,
+									["Crimson Acolyte"] = 286,
+									["Death Knight Initiate"] = 533,
 									["Scarlet Miner"] = 86,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 7086,
+								["n_dmg"] = 10669,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 63,
-								["total"] = 9881,
+								["counter"] = 67,
+								["total"] = 13464,
 								["c_max"] = 330,
 								["id"] = 47632,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 53,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["n_amt"] = 57,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[70890] = {
-								["c_amt"] = 2,
+								["c_amt"] = 3,
 								["b_amt"] = 0,
-								["c_dmg"] = 240,
+								["c_dmg"] = 1149,
 								["g_amt"] = 0,
-								["n_max"] = 68,
+								["n_max"] = 418,
 								["targets"] = {
 									["Shadowy Tormentor"] = 61,
 									["Scarlet Crusader"] = 189,
 									["Scarlet Infantryman"] = 68,
+									["Terrifying Abomination"] = 909,
 									["Scarlet Ghost"] = 60,
 									["Stable Master Kitrik"] = 180,
-									["High Inquisitor Valroth"] = 61,
-									["Death Knight Initiate"] = 376,
-									["Dark Rider of Acherus"] = 60,
-									["Citizen of New Avalon"] = 187,
 									["Scarlet Marksman"] = 66,
+									["High Inquisitor Valroth"] = 61,
+									["Patchwerk"] = 1625,
+									["Citizen of New Avalon"] = 187,
+									["Dark Rider of Acherus"] = 60,
+									["Death Knight Initiate"] = 376,
 									["Scarlet Farm Hound"] = 68,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 1136,
+								["n_dmg"] = 2761,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 20,
-								["total"] = 1376,
-								["c_max"] = 120,
+								["counter"] = 25,
+								["total"] = 3910,
+								["c_max"] = 909,
 								["id"] = 70890,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 18,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["n_amt"] = 22,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[191685] = {
-								["c_amt"] = 42,
+								["c_amt"] = 55,
 								["b_amt"] = 0,
-								["c_dmg"] = 2048,
+								["c_dmg"] = 6806,
 								["g_amt"] = 0,
-								["n_max"] = 90,
+								["n_max"] = 507,
 								["targets"] = {
 									["Scarlet Captain"] = 155,
 									["Scarlet Crusader"] = 1043,
 									["Citizen of New Avalon"] = 3231,
+									["Terrifying Abomination"] = 6436,
 									["Stable Master Kitrik"] = 232,
 									["Scarlet Commander"] = 65,
 									["Havenshire Stallion"] = 228,
 									["Scarlet Commander Rodrick"] = 234,
 									["Scarlet Medic"] = 124,
 									["Shadowy Tormentor"] = 73,
-									["New Avalon Councilman"] = 108,
+									["Patchwerk"] = 2873,
 									["High Inquisitor Valroth"] = 74,
-									["Scarlet Preacher"] = 144,
-									["Death Knight Initiate"] = 155,
-									["Citizen of Havenshire"] = 189,
 									["Scarlet Ghost"] = 73,
-									["Mayor Quimby"] = 72,
-									["Crimson Acolyte"] = 892,
-									["Scarlet Infantryman"] = 438,
+									["New Avalon Councilman"] = 108,
+									["Scourge Necromancer"] = 2381,
+									["Scarlet Preacher"] = 144,
 									["Scarlet Marksman"] = 456,
+									["Scarlet Infantryman"] = 438,
+									["Crimson Acolyte"] = 892,
+									["Mayor Quimby"] = 72,
+									["Val'kyr Battle-maiden"] = 2962,
+									["Citizen of Havenshire"] = 189,
+									["Death Knight Initiate"] = 155,
 									["Scarlet Miner"] = 147,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 6085,
+								["n_dmg"] = 15979,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 216,
-								["total"] = 8133,
-								["c_max"] = 129,
+								["counter"] = 333,
+								["total"] = 22785,
+								["c_max"] = 1014,
+								["MISS"] = 8,
 								["id"] = 191685,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 173,
-								["a_dmg"] = 0,
 								["EVADE"] = 1,
-							},
-							[55090] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 179,
-								["g_amt"] = 0,
-								["n_max"] = 88,
-								["targets"] = {
-									["Shadowy Tormentor"] = 77,
-									["Scarlet Crusader"] = 242,
-									["Scarlet Infantryman"] = 88,
-									["Scarlet Ghost"] = 79,
-									["Stable Master Kitrik"] = 152,
-									["High Inquisitor Valroth"] = 78,
-									["Death Knight Initiate"] = 403,
-									["Dark Rider of Acherus"] = 76,
-									["Citizen of New Avalon"] = 347,
-									["Scarlet Marksman"] = 86,
-									["Scarlet Farm Hound"] = 86,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1535,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 20,
-								["total"] = 1714,
-								["c_max"] = 179,
-								["id"] = 55090,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 19,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[49998] = {
-								["c_amt"] = 2,
-								["b_amt"] = 0,
-								["c_dmg"] = 541,
-								["g_amt"] = 0,
-								["n_max"] = 136,
-								["targets"] = {
-									["Scarlet Captain"] = 384,
-									["Scarlet Crusader"] = 242,
-									["Scarlet Infantryman"] = 507,
-									["Crimson Acolyte"] = 272,
-									["Death Knight Initiate"] = 193,
-									["Scarlet Medic"] = 522,
-									["Scarlet Marksman"] = 658,
-									["Stable Master Kitrik"] = 382,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2619,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 23,
-								["total"] = 3160,
-								["c_max"] = 272,
-								["id"] = 49998,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 21,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[45524] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Scarlet Commander"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 45524,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[52212] = {
-								["c_amt"] = 59,
-								["b_amt"] = 0,
-								["c_dmg"] = 1628,
-								["g_amt"] = 0,
-								["n_max"] = 15,
-								["targets"] = {
-									["Scarlet Commander"] = 253,
-									["Scarlet Crusader"] = 733,
-									["Citizen of New Avalon"] = 3253,
-									["Scarlet Commander Rodrick"] = 210,
-									["Scarlet Marksman"] = 307,
-									["Crimson Acolyte"] = 597,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3725,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 331,
-								["total"] = 5353,
-								["c_max"] = 30,
-								["id"] = 52212,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
+								["n_amt"] = 269,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 271,
-								["a_dmg"] = 0,
-								["EVADE"] = 1,
-							},
-							[194311] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 156,
-								["g_amt"] = 0,
-								["n_max"] = 86,
-								["targets"] = {
-									["Shadowy Tormentor"] = 76,
-									["Scarlet Crusader"] = 241,
-									["Scarlet Infantryman"] = 86,
-									["Scarlet Ghost"] = 77,
-									["Stable Master Kitrik"] = 154,
-									["High Inquisitor Valroth"] = 78,
-									["Citizen of New Avalon"] = 161,
-									["Dark Rider of Acherus"] = 76,
-									["Death Knight Initiate"] = 373,
-									["Scarlet Farm Hound"] = 86,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1252,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 17,
-								["total"] = 1408,
-								["c_max"] = 156,
-								["id"] = 194311,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 16,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[77575] = {
-								["c_amt"] = 17,
-								["b_amt"] = 0,
-								["c_dmg"] = 1289,
-								["g_amt"] = 0,
-								["n_max"] = 42,
-								["targets"] = {
-									["Scarlet Captain"] = 187,
-									["Scarlet Crusader"] = 377,
-									["Citizen of New Avalon"] = 262,
-									["Dark Rider of Acherus"] = 36,
-									["Scarlet Commander"] = 123,
-									["Scarlet Commander Rodrick"] = 79,
-									["Scarlet Medic"] = 114,
-									["Unworthy Initiate"] = 37,
-									["Shadowy Tormentor"] = 36,
-									["Scarlet Courier"] = 41,
-									["Scarlet Peasant"] = 187,
-									["Scarlet Ghost"] = 378,
-									["Citizen of Havenshire"] = 337,
-									["Scarlet Preacher"] = 37,
-									["Death Knight Initiate"] = 339,
-									["Scarlet Farm Hound"] = 37,
-									["Stable Master Kitrik"] = 72,
-									["Mayor Quimby"] = 36,
-									["Scarlet Infantryman"] = 155,
-									["Crimson Acolyte"] = 41,
-									["Scarlet Marksman"] = 274,
-									["High Inquisitor Valroth"] = 74,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1970,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 71,
-								["total"] = 3259,
-								["c_max"] = 82,
-								["id"] = 77575,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 54,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
 							},
 							[85948] = {
-								["c_amt"] = 24,
-								["b_amt"] = 4,
-								["c_dmg"] = 10849,
+								["c_amt"] = 30,
+								["b_amt"] = 6,
+								["c_dmg"] = 28154,
 								["g_amt"] = 0,
-								["n_max"] = 321,
+								["n_max"] = 1595,
 								["targets"] = {
 									["Scarlet Captain"] = 2363,
 									["Scarlet Crusader"] = 5974,
 									["Citizen of New Avalon"] = 3732,
+									["Terrifying Abomination"] = 9375,
 									["Dark Rider of Acherus"] = 1034,
 									["Scarlet Commander"] = 2143,
 									["Crimson Acolyte"] = 1065,
+									["Patchwerk"] = 11119,
+									["Stable Master Kitrik"] = 1152,
 									["Scarlet Medic"] = 1136,
 									["Unworthy Initiate"] = 719,
 									["Shadowy Tormentor"] = 780,
 									["High Inquisitor Valroth"] = 784,
 									["Scarlet Courier"] = 560,
-									["Death Knight Initiate"] = 3847,
+									["Scarlet Marksman"] = 2673,
 									["Scarlet Peasant"] = 1397,
 									["Scarlet Ghost"] = 3933,
-									["Scarlet Farm Hound"] = 520,
-									["Scarlet Preacher"] = 1035,
-									["Stable Master Kitrik"] = 1152,
-									["Mayor Quimby"] = 255,
-									["Scarlet Infantryman"] = 1926,
-									["Ellen Stanbridge"] = 2,
-									["New Avalon Councilman"] = 543,
 									["Citizen of Havenshire"] = 3545,
-									["Scarlet Marksman"] = 2673,
+									["Scarlet Preacher"] = 1035,
+									["New Avalon Councilman"] = 543,
+									["Ellen Stanbridge"] = 2,
+									["Scarlet Infantryman"] = 1926,
+									["Mayor Quimby"] = 255,
+									["Val'kyr Battle-maiden"] = 1585,
+									["Scarlet Farm Hound"] = 520,
+									["Death Knight Initiate"] = 3847,
 									["Scarlet Miner"] = 312,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 30581,
+								["n_dmg"] = 35355,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 144,
-								["total"] = 41430,
-								["c_max"] = 647,
+								["counter"] = 155,
+								["total"] = 63509,
+								["c_max"] = 3463,
 								["id"] = 85948,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 764,
-								["n_amt"] = 120,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 5342,
+								["n_amt"] = 123,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[43265] = {
 								["c_amt"] = 0,
@@ -10550,36 +10762,353 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 43265,
 								["r_dmg"] = 0,
+								["EVADE"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
 								["r_amt"] = 0,
+							},
+							[55090] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 3262,
+								["g_amt"] = 0,
+								["n_max"] = 579,
+								["targets"] = {
+									["Shadowy Tormentor"] = 77,
+									["Scarlet Crusader"] = 242,
+									["Scarlet Infantryman"] = 88,
+									["Terrifying Abomination"] = 579,
+									["Scarlet Ghost"] = 79,
+									["Stable Master Kitrik"] = 152,
+									["Scarlet Marksman"] = 86,
+									["High Inquisitor Valroth"] = 78,
+									["Patchwerk"] = 3540,
+									["Citizen of New Avalon"] = 347,
+									["Dark Rider of Acherus"] = 76,
+									["Death Knight Initiate"] = 403,
+									["Scarlet Farm Hound"] = 86,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2571,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 25,
+								["total"] = 5833,
+								["c_max"] = 1028,
+								["id"] = 55090,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 21,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[49998] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 541,
+								["g_amt"] = 0,
+								["n_max"] = 136,
+								["targets"] = {
+									["Scarlet Captain"] = 384,
+									["Scarlet Crusader"] = 242,
+									["Scarlet Infantryman"] = 507,
+									["Crimson Acolyte"] = 272,
+									["Scarlet Medic"] = 522,
+									["Scarlet Marksman"] = 658,
+									["Death Knight Initiate"] = 193,
+									["Stable Master Kitrik"] = 382,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2619,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 23,
+								["total"] = 3160,
+								["c_max"] = 272,
+								["id"] = 49998,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 21,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[196780] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Patchwerk"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 196780,
+								["r_dmg"] = 0,
+								["MISS"] = 3,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[121147] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Patchwerk"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 121147,
+								["r_dmg"] = 0,
+								["MISS"] = 3,
 								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[52212] = {
+								["c_amt"] = 75,
+								["b_amt"] = 0,
+								["c_dmg"] = 4511,
+								["g_amt"] = 0,
+								["n_max"] = 100,
+								["targets"] = {
+									["Scarlet Commander"] = 253,
+									["Scarlet Crusader"] = 733,
+									["Citizen of New Avalon"] = 3253,
+									["Scarlet Commander Rodrick"] = 210,
+									["Terrifying Abomination"] = 7822,
+									["Scourge Necromancer"] = 1019,
+									["Scarlet Marksman"] = 307,
+									["Crimson Acolyte"] = 597,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 9683,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 411,
+								["total"] = 14194,
+								["c_max"] = 199,
+								["id"] = 52212,
+								["r_dmg"] = 0,
 								["EVADE"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 335,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[194311] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 1214,
+								["g_amt"] = 0,
+								["n_max"] = 529,
+								["targets"] = {
+									["Shadowy Tormentor"] = 76,
+									["Scarlet Crusader"] = 241,
+									["Scarlet Infantryman"] = 86,
+									["Scarlet Ghost"] = 77,
+									["Stable Master Kitrik"] = 154,
+									["High Inquisitor Valroth"] = 78,
+									["Patchwerk"] = 2588,
+									["Citizen of New Avalon"] = 161,
+									["Dark Rider of Acherus"] = 76,
+									["Death Knight Initiate"] = 373,
+									["Scarlet Farm Hound"] = 86,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2782,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 21,
+								["total"] = 3996,
+								["c_max"] = 1058,
+								["id"] = 194311,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 19,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[77575] = {
+								["c_amt"] = 17,
+								["b_amt"] = 0,
+								["c_dmg"] = 1289,
+								["g_amt"] = 0,
+								["n_max"] = 253,
+								["targets"] = {
+									["Scarlet Captain"] = 187,
+									["Scarlet Crusader"] = 377,
+									["Citizen of New Avalon"] = 262,
+									["Terrifying Abomination"] = 482,
+									["Dark Rider of Acherus"] = 36,
+									["Scarlet Commander"] = 123,
+									["Scarlet Commander Rodrick"] = 79,
+									["Scarlet Medic"] = 114,
+									["Unworthy Initiate"] = 37,
+									["Shadowy Tormentor"] = 36,
+									["Scarlet Courier"] = 41,
+									["Patchwerk"] = 253,
+									["Scarlet Peasant"] = 187,
+									["Scarlet Ghost"] = 378,
+									["High Inquisitor Valroth"] = 74,
+									["Scarlet Preacher"] = 37,
+									["Scarlet Marksman"] = 274,
+									["Crimson Acolyte"] = 41,
+									["Scarlet Infantryman"] = 155,
+									["Mayor Quimby"] = 36,
+									["Stable Master Kitrik"] = 72,
+									["Scarlet Farm Hound"] = 37,
+									["Death Knight Initiate"] = 339,
+									["Citizen of Havenshire"] = 337,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2705,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 76,
+								["total"] = 3994,
+								["c_max"] = 82,
+								["id"] = 77575,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 58,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[47541] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Patchwerk"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 47541,
+								["r_dmg"] = 0,
+								["MISS"] = 3,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[45524] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Scarlet Commander"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 45524,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
-					["damage_taken"] = 53287.488273,
-					["custom"] = 0,
-					["last_event"] = 0,
+					["end_time"] = 1539293392,
 					["friendlyfire"] = {
 						["Death Knight Initiate"] = {
-							["total"] = 73,
 							["spells"] = {
 								[191685] = 73,
 							},
+							["total"] = 73,
 						},
 					},
-					["start_time"] = 1539292441,
-					["serial"] = "Player-7-0B437180",
-					["spec"] = 252,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1539292367,
+					["delay"] = 0,
+					["damage_taken"] = 99797.500359,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
@@ -10589,23 +11118,24 @@ _detalhes_database = {
 					["targets"] = {
 						["Scarlet Captain"] = 1116,
 						["Scarlet Infantryman"] = 1304,
-						["Unworthy Initiate"] = 494,
-						["Scarlet Peasant"] = 975,
-						["Death Knight Initiate"] = 2730,
-						["Scarlet Medic"] = 760,
 						["Stable Master Kitrik"] = 1423,
+						["Scarlet Peasant"] = 975,
+						["Scarlet Medic"] = 760,
+						["Death Knight Initiate"] = 2730,
+						["Unworthy Initiate"] = 494,
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 0.103831,
+					["friendlyfire"] = {
+					},
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 8802.103831,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["end_time"] = 1539293392,
-					["delay"] = 0,
+					["serial"] = "Creature-0-3881-609-9601-26125-00003FBFF2",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Rootrobber <Fandagny>",
 					["spells"] = {
@@ -10619,11 +11149,11 @@ _detalhes_database = {
 								["targets"] = {
 									["Scarlet Captain"] = 747,
 									["Scarlet Infantryman"] = 862,
-									["Unworthy Initiate"] = 308,
-									["Scarlet Peasant"] = 463,
-									["Death Knight Initiate"] = 1704,
-									["Scarlet Medic"] = 506,
 									["Stable Master Kitrik"] = 945,
+									["Scarlet Peasant"] = 463,
+									["Scarlet Medic"] = 506,
+									["Death Knight Initiate"] = 1704,
+									["Unworthy Initiate"] = 308,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 3949,
@@ -10634,15 +11164,15 @@ _detalhes_database = {
 								["c_max"] = 116,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 75,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[91800] = {
 								["c_amt"] = 0,
@@ -10653,9 +11183,9 @@ _detalhes_database = {
 								["targets"] = {
 									["Scarlet Infantryman"] = 2,
 									["Scarlet Peasant"] = 1,
-									["Unworthy Initiate"] = 2,
-									["Death Knight Initiate"] = 3,
 									["Stable Master Kitrik"] = 2,
+									["Death Knight Initiate"] = 3,
+									["Unworthy Initiate"] = 2,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 10,
@@ -10666,15 +11196,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 91800,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[91776] = {
 								["c_amt"] = 10,
@@ -10685,11 +11215,11 @@ _detalhes_database = {
 								["targets"] = {
 									["Scarlet Captain"] = 369,
 									["Scarlet Infantryman"] = 440,
-									["Unworthy Initiate"] = 184,
-									["Scarlet Peasant"] = 511,
-									["Death Knight Initiate"] = 1023,
-									["Scarlet Medic"] = 254,
 									["Stable Master Kitrik"] = 476,
+									["Scarlet Peasant"] = 511,
+									["Scarlet Medic"] = 254,
+									["Death Knight Initiate"] = 1023,
+									["Unworthy Initiate"] = 184,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 2394,
@@ -10700,50 +11230,49 @@ _detalhes_database = {
 								["c_max"] = 104,
 								["id"] = 91776,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 50,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire_total"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["total"] = 8802.103831,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["tipo"] = 1,
+					["damage_taken"] = 0.103831,
 					["start_time"] = 1539293197,
-					["serial"] = "Creature-0-3881-609-9601-26125-00003FBFF2",
-					["on_hold"] = false,
+					["delay"] = 0,
+					["last_dps"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
 					["totalabsorbed"] = 0.050237,
 					["damage_from"] = {
-						["Scarlet Crusader"] = true,
 						["Scarlet Preacher"] = true,
+						["Scarlet Crusader"] = true,
 					},
 					["targets"] = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.050237,
-					["damage_taken"] = 6713.050237,
+					["classe"] = "PET",
 					["dps_started"] = false,
 					["end_time"] = 1539294171,
-					["delay"] = 0,
+					["serial"] = "Creature-0-3881-609-9601-28511-00003FC10A",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Eye of Acherus <Fandagny>",
 					["spells"] = {
@@ -10753,14 +11282,14 @@ _detalhes_database = {
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["total"] = 0.050237,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539294168,
-					["serial"] = "Creature-0-3881-609-9601-28511-00003FC10A",
-					["classe"] = "PET",
+					["delay"] = 0,
+					["damage_taken"] = 6713.050237,
 				}, -- [3]
 				{
 					["flag_original"] = 4369,
@@ -10771,23 +11300,24 @@ _detalhes_database = {
 					["targets"] = {
 						["Shadowy Tormentor"] = 346,
 						["Scarlet Infantryman"] = 383,
-						["Dark Rider of Acherus"] = 444,
+						["Scarlet Farm Hound"] = 404,
 						["Scarlet Miner"] = 432,
 						["Scarlet Ghost"] = 2520,
 						["Citizen of Havenshire"] = 2241,
-						["Scarlet Farm Hound"] = 404,
+						["Dark Rider of Acherus"] = 444,
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 2220.105914,
+					["friendlyfire"] = {
+					},
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 6770.105914,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["total"] = 6770.105914,
-					["delay"] = 0,
+					["serial"] = "Pet-0-3881-609-9601-26125-0802ACCE34",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Carrionflayer <Fandagny>",
 					["spells"] = {
@@ -10801,11 +11331,11 @@ _detalhes_database = {
 								["targets"] = {
 									["Shadowy Tormentor"] = 206,
 									["Scarlet Infantryman"] = 235,
-									["Dark Rider of Acherus"] = 306,
+									["Scarlet Farm Hound"] = 265,
 									["Scarlet Miner"] = 279,
 									["Scarlet Ghost"] = 1500,
 									["Citizen of Havenshire"] = 1385,
-									["Scarlet Farm Hound"] = 265,
+									["Dark Rider of Acherus"] = 306,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 3428,
@@ -10816,15 +11346,15 @@ _detalhes_database = {
 								["c_max"] = 115,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 64,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[91776] = {
 								["c_amt"] = 8,
@@ -10835,11 +11365,11 @@ _detalhes_database = {
 								["targets"] = {
 									["Shadowy Tormentor"] = 138,
 									["Scarlet Infantryman"] = 146,
-									["Dark Rider of Acherus"] = 138,
+									["Scarlet Farm Hound"] = 139,
 									["Scarlet Miner"] = 153,
 									["Scarlet Ghost"] = 1018,
 									["Citizen of Havenshire"] = 853,
-									["Scarlet Farm Hound"] = 139,
+									["Dark Rider of Acherus"] = 138,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1821,
@@ -10850,15 +11380,15 @@ _detalhes_database = {
 								["c_max"] = 107,
 								["id"] = 91776,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 37,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[91800] = {
 								["c_amt"] = 0,
@@ -10881,29 +11411,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 91800,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["end_time"] = 1539295244,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["tipo"] = 1,
+					["damage_taken"] = 2220.105914,
 					["start_time"] = 1539295104,
-					["serial"] = "Pet-0-3881-609-9601-26125-0802ACCE34",
-					["on_hold"] = false,
+					["delay"] = 0,
+					["last_dps"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 8465,
@@ -10912,20 +11441,20 @@ _detalhes_database = {
 						["Scarlet Ghost"] = true,
 					},
 					["targets"] = {
-						["Scarlet Ghost"] = 356,
 						["Scarlet Miner"] = 86,
+						["Scarlet Ghost"] = 356,
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 442.013075,
-					["damage_taken"] = 851.013075,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
 					["total"] = 442.013075,
-					["delay"] = 0,
+					["serial"] = "Creature-0-3881-609-9601-28845-00003FCA2E",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Scarlet Ghoul <Fandagny>",
 					["spells"] = {
@@ -10937,8 +11466,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 14,
 								["targets"] = {
-									["Scarlet Ghost"] = 356,
 									["Scarlet Miner"] = 86,
+									["Scarlet Ghost"] = 356,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 350,
@@ -10949,29 +11478,29 @@ _detalhes_database = {
 								["c_max"] = 29,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 31,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["end_time"] = 1539295808,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539295769,
-					["serial"] = "Creature-0-3881-609-9601-28845-00003FCA2E",
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["damage_taken"] = 851.013075,
 				}, -- [5]
 				{
 					["flag_original"] = 4369,
@@ -10987,15 +11516,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 7109.048854,
-					["damage_taken"] = 1813.048854,
+					["classe"] = "PET",
 					["dps_started"] = false,
 					["end_time"] = 1539296476,
-					["delay"] = 0,
+					["serial"] = "Pet-0-3881-609-9601-26125-0C02ACCE34",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Wormcruncher <Fandagny>",
 					["spells"] = {
@@ -11020,15 +11549,15 @@ _detalhes_database = {
 								["c_max"] = 119,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 60,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[91776] = {
 								["c_amt"] = 9,
@@ -11050,15 +11579,15 @@ _detalhes_database = {
 								["c_max"] = 106,
 								["id"] = 91776,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 35,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[91800] = {
 								["c_amt"] = 1,
@@ -11079,29 +11608,29 @@ _detalhes_database = {
 								["c_max"] = 3,
 								["id"] = 91800,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["total"] = 7109.048854,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539296308,
-					["serial"] = "Pet-0-3881-609-9601-26125-0C02ACCE34",
-					["classe"] = "PET",
+					["delay"] = 0,
+					["damage_taken"] = 1813.048854,
 				}, -- [6]
 				{
 					["flag_original"] = 4369,
@@ -11118,15 +11647,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3215.034967,
-					["damage_taken"] = 2366.034967,
+					["classe"] = "PET",
 					["dps_started"] = false,
 					["end_time"] = 1539296792,
-					["delay"] = 0,
+					["serial"] = "Pet-0-3881-609-9601-26125-0D02ACCE34",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Graverobber <Fandagny>",
 					["spells"] = {
@@ -11152,15 +11681,15 @@ _detalhes_database = {
 								["c_max"] = 114,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 25,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[91776] = {
 								["c_amt"] = 4,
@@ -11183,15 +11712,15 @@ _detalhes_database = {
 								["c_max"] = 94,
 								["id"] = 91776,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 16,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[91800] = {
 								["c_amt"] = 0,
@@ -11212,37 +11741,37 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 91800,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["total"] = 3215.034967,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539296723,
-					["serial"] = "Pet-0-3881-609-9601-26125-0D02ACCE34",
-					["classe"] = "PET",
+					["delay"] = 0,
+					["damage_taken"] = 2366.034967,
 				}, -- [7]
 				{
 					["flag_original"] = 4369,
 					["totalabsorbed"] = 0.032647,
 					["damage_from"] = {
 						["Scarlet Crusader"] = true,
-						["Scarlet Commander Rodrick"] = true,
 						["Crimson Acolyte"] = true,
+						["Scarlet Commander Rodrick"] = true,
 					},
 					["targets"] = {
 						["Scarlet Commander"] = 453,
@@ -11253,15 +11782,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3618.032647,
-					["damage_taken"] = 692.032647,
+					["classe"] = "PET",
 					["dps_started"] = false,
 					["end_time"] = 1539297719,
-					["delay"] = 0,
+					["serial"] = "Pet-0-3881-609-9601-26125-0E02ACCE34",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Ribrumbler <Fandagny>",
 					["spells"] = {
@@ -11288,15 +11817,15 @@ _detalhes_database = {
 								["c_max"] = 117,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 28,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[91776] = {
 								["c_amt"] = 4,
@@ -11320,15 +11849,15 @@ _detalhes_database = {
 								["c_max"] = 104,
 								["id"] = 91776,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 18,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[91800] = {
 								["c_amt"] = 1,
@@ -11337,8 +11866,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 2,
 								["targets"] = {
-									["Scarlet Crusader"] = 4,
 									["Crimson Acolyte"] = 2,
+									["Scarlet Crusader"] = 4,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 2,
@@ -11349,29 +11878,29 @@ _detalhes_database = {
 								["c_max"] = 4,
 								["id"] = 91800,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["total"] = 3618.032647,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539297643,
-					["serial"] = "Pet-0-3881-609-9601-26125-0E02ACCE34",
-					["classe"] = "PET",
+					["delay"] = 0,
+					["damage_taken"] = 692.032647,
 				}, -- [8]
 				{
 					["flag_original"] = 4369,
@@ -11379,20 +11908,20 @@ _detalhes_database = {
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Crimson Acolyte"] = 485,
 						["Scarlet Crusader"] = 240,
+						["Crimson Acolyte"] = 485,
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 725.01848,
-					["damage_taken"] = 0.01848,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
 					["total"] = 725.01848,
-					["delay"] = 0,
+					["serial"] = "Pet-0-3881-609-9601-26125-0F02ACCE34",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Carrionchomp <Fandagny>",
 					["spells"] = {
@@ -11404,8 +11933,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 59,
 								["targets"] = {
-									["Crimson Acolyte"] = 338,
 									["Scarlet Crusader"] = 136,
+									["Crimson Acolyte"] = 338,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 221,
@@ -11416,15 +11945,15 @@ _detalhes_database = {
 								["c_max"] = 117,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[91776] = {
 								["c_amt"] = 0,
@@ -11433,8 +11962,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 53,
 								["targets"] = {
-									["Crimson Acolyte"] = 147,
 									["Scarlet Crusader"] = 104,
+									["Crimson Acolyte"] = 147,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 251,
@@ -11445,29 +11974,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 91776,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["end_time"] = 1539297988,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539297973,
-					["serial"] = "Pet-0-3881-609-9601-26125-0F02ACCE34",
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["damage_taken"] = 0.01848,
 				}, -- [9]
 				{
 					["flag_original"] = 4369,
@@ -11481,15 +12010,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1701.019505,
-					["damage_taken"] = 9.019505,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
 					["total"] = 1701.019505,
-					["delay"] = 0,
+					["serial"] = "Pet-0-3881-609-9601-26125-1002ACCE34",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Tombrobber <Fandagny>",
 					["spells"] = {
@@ -11513,15 +12042,15 @@ _detalhes_database = {
 								["c_max"] = 104,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 15,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[91776] = {
 								["c_amt"] = 4,
@@ -11542,15 +12071,15 @@ _detalhes_database = {
 								["c_max"] = 93,
 								["id"] = 91776,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[91800] = {
 								["c_amt"] = 0,
@@ -11570,29 +12099,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 91800,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["end_time"] = 1539298043,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539298008,
-					["serial"] = "Pet-0-3881-609-9601-26125-1002ACCE34",
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["damage_taken"] = 9.019505,
 				}, -- [10]
 				{
 					["flag_original"] = 4369,
@@ -11607,16 +12136,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 8.015557,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1615.015557,
-					["friendlyfire"] = {
-					},
+					["tipo"] = 1,
 					["dps_started"] = false,
 					["end_time"] = 1539298329,
-					["last_dps"] = 0,
+					["serial"] = "Pet-0-3881-609-9601-26125-1102ACCE34",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Rotrumbler <Fandagny>",
 					["spells"] = {
@@ -11641,15 +12169,15 @@ _detalhes_database = {
 								["c_max"] = 106,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 14,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[91776] = {
 								["c_amt"] = 2,
@@ -11671,15 +12199,15 @@ _detalhes_database = {
 								["c_max"] = 93,
 								["id"] = 91776,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 							[91800] = {
 								["c_amt"] = 1,
@@ -11700,28 +12228,29 @@ _detalhes_database = {
 								["c_max"] = 4,
 								["id"] = 91800,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["classe"] = "PET",
 					["total"] = 1615.015557,
-					["delay"] = 0,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 8.015557,
 					["start_time"] = 1539298297,
-					["serial"] = "Pet-0-3881-609-9601-26125-1102ACCE34",
-					["tipo"] = 1,
+					["delay"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [11]
 				{
 					["flag_original"] = 4369,
@@ -11738,22 +12267,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2089019.04525,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
+					["damage_taken"] = 28250.04525,
 					["dps_started"] = false,
 					["total"] = 2089019.04525,
-					["end_time"] = 1539300581,
+					["delay"] = 0,
 					["ownerName"] = "Fandagny",
 					["nome"] = "Frostbrood Vanquisher <Fandagny>",
-					["friendlyfire"] = {
-					},
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[53115] = {
 								["c_amt"] = 0,
@@ -11775,26 +12300,128 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 53115,
 								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 177,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["friendlyfire"] = {
+					},
+					["tipo"] = 1,
+					["end_time"] = 1539300581,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1539300505,
+					["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+					["friendlyfire_total"] = 0,
+				}, -- [12]
+				{
+					["flag_original"] = 4369,
+					["totalabsorbed"] = 0.013357,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Terrifying Abomination"] = 220,
+						["Patchwerk"] = 822,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 1042.013357,
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["total"] = 1042.013357,
+					["end_time"] = 1539384054,
+					["ownerName"] = "Fandagny",
+					["nome"] = "Rotslobber <Fandagny>",
+					["friendlyfire"] = {
+					},
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 329,
+								["g_amt"] = 5,
+								["n_max"] = 58,
+								["targets"] = {
+									["Terrifying Abomination"] = 116,
+									["Patchwerk"] = 384,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 116,
+								["n_min"] = 0,
+								["g_dmg"] = 55,
+								["counter"] = 12,
+								["total"] = 500,
+								["c_max"] = 114,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 2,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 177,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[91776] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 290,
+								["g_amt"] = 0,
+								["n_max"] = 52,
+								["targets"] = {
+									["Terrifying Abomination"] = 104,
+									["Patchwerk"] = 438,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 252,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 542,
+								["c_max"] = 103,
+								["id"] = 91776,
+								["r_dmg"] = 0,
+								["DODGE"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
 						},
 					},
-					["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
+					["serial"] = "Pet-0-3132-0-4736-26125-0102ACCE34",
 					["custom"] = 0,
 					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1539300505,
+					["start_time"] = 1539384027,
 					["delay"] = 0,
-					["damage_taken"] = 28250.04525,
-				}, -- [12]
+					["damage_taken"] = 0.013357,
+				}, -- [13]
 			},
 		}, -- [1]
 		{
@@ -11802,33 +12429,33 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["healing_from"] = {
-						["Fandagny"] = true,
+					["targets_overheal"] = {
+						["Fandagny"] = 120803,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "DEATHKNIGHT",
-					["totalover"] = 2092.203585,
-					["total_without_pet"] = 18910.203585,
-					["total"] = 18910.203585,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 122895.219063,
+					["total_without_pet"] = 65633.219063,
+					["total"] = 65633.219063,
 					["targets_absorbs"] = {
+						["Fandagny"] = 530,
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Player-7-0B437180",
-					["totalabsorb"] = 0.203585,
+					["totalabsorb"] = 530.219063,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Fandagny"] = 1181,
+						["Fandagny"] = 143702,
 					},
-					["totalover_without_pet"] = 0.203585,
-					["healing_taken"] = 18910.203585,
+					["totalover_without_pet"] = 0.219063,
+					["healing_taken"] = 65633.219063,
+					["fight_component"] = true,
 					["end_time"] = 1539293392,
-					["targets_overheal"] = {
-						["Fandagny"] = 1476,
-					},
+					["start_time"] = 1539293104,
 					["nome"] = "Fandagny",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -11851,83 +12478,113 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
-								["totaldenied"] = 0,
-								["n_amt"] = 25,
-								["n_curado"] = 7858,
 								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 7858,
+								["n_amt"] = 25,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[53365] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Fandagny"] = 616,
+									["Fandagny"] = 1929,
 								},
-								["n_max"] = 296,
+								["n_max"] = 458,
 								["targets"] = {
-									["Fandagny"] = 11052,
+									["Fandagny"] = 11953,
 								},
 								["n_min"] = 0,
-								["counter"] = 43,
-								["overheal"] = 616,
-								["total"] = 11052,
+								["counter"] = 46,
+								["overheal"] = 1929,
+								["total"] = 11953,
 								["c_max"] = 0,
 								["id"] = 53365,
 								["targets_absorbs"] = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
-								["totaldenied"] = 0,
-								["n_amt"] = 43,
-								["n_curado"] = 11052,
 								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 11953,
+								["n_amt"] = 46,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
-							[48707] = {
+							[58361] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Fandagny"] = 1476,
+									["Fandagny"] = 116330,
 								},
-								["n_max"] = 0,
+								["n_max"] = 1585,
 								["targets"] = {
-									["Fandagny"] = 0,
+									["Fandagny"] = 45292,
 								},
 								["n_min"] = 0,
-								["counter"] = 1,
-								["overheal"] = 1476,
-								["total"] = 0,
+								["counter"] = 73,
+								["overheal"] = 116330,
+								["total"] = 45292,
 								["c_max"] = 0,
-								["id"] = 48707,
+								["id"] = 58361,
 								["targets_absorbs"] = {
-									["Fandagny"] = 0,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["n_curado"] = 0,
-								["n_amt"] = 1,
+								["n_curado"] = 45292,
+								["n_amt"] = 73,
 								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[48707] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 530,
+								["targets_overheal"] = {
+									["Fandagny"] = 4636,
+								},
+								["n_max"] = 530,
+								["targets"] = {
+									["Fandagny"] = 530,
+								},
+								["n_min"] = 0,
+								["counter"] = 3,
+								["overheal"] = 4636,
+								["total"] = 530,
+								["c_max"] = 0,
+								["id"] = 48707,
+								["targets_absorbs"] = {
+									["Fandagny"] = 530,
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["n_curado"] = 530,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
-					["heal_enemy_amt"] = 0,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["totaldenied"] = 0.203585,
-					["start_time"] = 1539293177,
-					["delay"] = 0,
+					["healing_from"] = {
+						["Fandagny"] = true,
+					},
 					["spec"] = 252,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["classe"] = "DEATHKNIGHT",
+					["totaldenied"] = 0.219063,
+					["delay"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -11936,26 +12593,26 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 0.408754,
+					["resource"] = 0.464552,
 					["targets"] = {
-						["Fandagny"] = 181,
+						["Fandagny"] = 335.600000143051,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
-					["alternatepower"] = 0.320008,
+					["alternatepower"] = 0.329679,
 					["nome"] = "Fandagny",
 					["spells"] = {
 						["_ActorTable"] = {
 							[195757] = {
 								["id"] = 195757,
-								["total"] = 957,
+								["total"] = 1029,
 								["targets"] = {
-									["Fandagny"] = 51,
+									["Fandagny"] = 72,
 								},
-								["counter"] = 335,
+								["counter"] = 359,
 							},
 							[45524] = {
 								["id"] = 45524,
@@ -11967,46 +12624,54 @@ _detalhes_database = {
 							},
 							[77575] = {
 								["id"] = 77575,
-								["total"] = 610,
+								["total"] = 660,
 								["targets"] = {
-									["Fandagny"] = 30,
+									["Fandagny"] = 50,
 								},
-								["counter"] = 61,
+								["counter"] = 66,
 							},
 							[55090] = {
 								["id"] = 55090,
-								["total"] = 160,
+								["total"] = 200,
 								["targets"] = {
-									["Fandagny"] = 0,
+									["Fandagny"] = 40,
 								},
-								["counter"] = 16,
+								["counter"] = 20,
 							},
 							[85948] = {
 								["id"] = 85948,
-								["total"] = 2320,
+								["total"] = 2480,
 								["targets"] = {
-									["Fandagny"] = 100,
+									["Fandagny"] = 160,
 								},
-								["counter"] = 116,
+								["counter"] = 124,
+							},
+							[49088] = {
+								["id"] = 49088,
+								["total"] = 3.60000014305115,
+								["targets"] = {
+									["Fandagny"] = 3.60000014305115,
+								},
+								["counter"] = 1,
 							},
 							[43265] = {
 								["id"] = 43265,
-								["total"] = 60,
+								["total"] = 70,
 								["targets"] = {
-									["Fandagny"] = 0,
+									["Fandagny"] = 10,
 								},
-								["counter"] = 6,
+								["counter"] = 7,
 							},
 						},
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
+					["received"] = 4522.92967914305,
 					["tipo"] = 3,
-					["last_event"] = 0,
-					["total"] = 4187.320008,
+					["total"] = 4522.92967914305,
 					["spec"] = 252,
 					["serial"] = "Player-7-0B437180",
-					["received"] = 4187.320008,
+					["last_event"] = 0,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -12018,57 +12683,57 @@ _detalhes_database = {
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[52781] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 2,
 								["id"] = 52781,
 								["uptime"] = 4,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[194310] = {
-								["counter"] = 0,
-								["refreshamt"] = 272,
-								["activedamt"] = -4,
-								["uptime"] = 542,
+								["actived_at"] = 7696565806,
+								["refreshamt"] = 287,
+								["activedamt"] = -5,
+								["appliedamt"] = 96,
 								["id"] = 194310,
-								["appliedamt"] = 90,
+								["uptime"] = 596,
 								["targets"] = {
 								},
-								["actived_at"] = 6157181745,
+								["counter"] = 0,
 							},
 							[196782] = {
-								["counter"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 70,
-								["id"] = 196782,
-								["uptime"] = 332,
-								["targets"] = {
-								},
 								["refreshamt"] = 1,
-							},
-							[45524] = {
-								["counter"] = 0,
-								["refreshamt"] = 0,
-								["activedamt"] = -1,
-								["uptime"] = 49,
-								["id"] = 45524,
-								["appliedamt"] = 9,
+								["activedamt"] = 0,
+								["appliedamt"] = 75,
+								["id"] = 196782,
+								["uptime"] = 352,
 								["targets"] = {
 								},
-								["actived_at"] = 1539296803,
+								["counter"] = 0,
 							},
 							[191587] = {
-								["counter"] = 0,
+								["actived_at"] = 1539295152,
 								["refreshamt"] = 0,
 								["activedamt"] = 3,
-								["uptime"] = 518,
+								["appliedamt"] = 110,
 								["id"] = 191587,
-								["appliedamt"] = 99,
+								["uptime"] = 579,
 								["targets"] = {
 								},
-								["actived_at"] = 1539295152,
+								["counter"] = 0,
+							},
+							[45524] = {
+								["actived_at"] = 1539296803,
+								["refreshamt"] = 0,
+								["activedamt"] = -1,
+								["appliedamt"] = 9,
+								["id"] = 45524,
+								["uptime"] = 49,
+								["targets"] = {
+								},
+								["counter"] = 0,
 							},
 						},
 						["tipo"] = 9,
@@ -12086,196 +12751,216 @@ _detalhes_database = {
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[61243] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 61243,
 								["uptime"] = 1,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[58361] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 58361,
+								["uptime"] = 74,
+								["targets"] = {
+								},
 								["counter"] = 0,
 							},
 							[53061] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 53061,
 								["uptime"] = 0,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[51915] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 92,
 								["appliedamt"] = 92,
 								["id"] = 51915,
 								["uptime"] = 1266,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[229387] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["appliedamt"] = 3,
 								["activedamt"] = 3,
-								["actived_at"] = 3078595721,
-								["id"] = 229387,
 								["uptime"] = 19,
+								["id"] = 229387,
+								["actived_at"] = 3078595721,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[52196] = {
-								["actived_at"] = 1539300593,
+								["counter"] = 0,
 								["refreshamt"] = 0,
 								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 52196,
 								["uptime"] = 15,
+								["id"] = 52196,
+								["appliedamt"] = 6,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1539300593,
 							},
 							[52693] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 52693,
 								["uptime"] = 22,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[52447] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["appliedamt"] = 1,
 								["activedamt"] = 1,
-								["actived_at"] = 1539296112,
-								["id"] = 52447,
 								["uptime"] = 0,
+								["id"] = 52447,
+								["actived_at"] = 1539296112,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[52263] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 52263,
 								["uptime"] = 26,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[52419] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = 52419,
 								["uptime"] = 30,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[51460] = {
-								["counter"] = 0,
-								["activedamt"] = 52,
-								["appliedamt"] = 52,
+								["refreshamt"] = 0,
+								["activedamt"] = 55,
+								["appliedamt"] = 55,
 								["id"] = 51460,
-								["uptime"] = 131,
+								["uptime"] = 138,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[188290] = {
-								["counter"] = 0,
-								["activedamt"] = 12,
-								["appliedamt"] = 12,
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
 								["id"] = 188290,
-								["uptime"] = 86,
+								["uptime"] = 96,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[52424] = {
+								["counter"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 52424,
+								["uptime"] = 30,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
 							},
-							[52424] = {
+							[48707] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 48707,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[134359] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 5,
+								["activedamt"] = 5,
+								["uptime"] = 21,
+								["id"] = 134359,
+								["actived_at"] = 6157189983,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51852] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 14,
+								["appliedamt"] = 14,
+								["id"] = 51852,
+								["uptime"] = 61,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51721] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
-								["id"] = 52424,
-								["uptime"] = 20,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[48707] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 48707,
-								["uptime"] = 5,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[134359] = {
-								["counter"] = 0,
-								["appliedamt"] = 5,
-								["activedamt"] = 5,
-								["actived_at"] = 6157189983,
-								["id"] = 134359,
-								["uptime"] = 21,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
-							[48792] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 48792,
-								["uptime"] = 4,
+								["id"] = 51721,
+								["uptime"] = 74,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[61425] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["appliedamt"] = 1,
 								["activedamt"] = 1,
-								["actived_at"] = 1539297529,
-								["id"] = 61425,
 								["uptime"] = 0,
+								["id"] = 61425,
+								["actived_at"] = 1539297529,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
+							},
+							[53365] = {
+								["refreshamt"] = 11,
+								["activedamt"] = 44,
+								["appliedamt"] = 44,
+								["id"] = 53365,
+								["uptime"] = 336,
+								["targets"] = {
+								},
+								["counter"] = 0,
 							},
 							[48265] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 11,
 								["appliedamt"] = 11,
 								["id"] = 48265,
 								["uptime"] = 64,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
-							},
-							[53365] = {
 								["counter"] = 0,
-								["activedamt"] = 41,
-								["appliedamt"] = 41,
-								["id"] = 53365,
-								["uptime"] = 302,
-								["targets"] = {
-								},
-								["refreshamt"] = 11,
 							},
-							[51852] = {
+							[48792] = {
 								["counter"] = 0,
-								["activedamt"] = 14,
-								["appliedamt"] = 14,
-								["id"] = 51852,
-								["uptime"] = 61,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 48792,
+								["uptime"] = 4,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -12283,9 +12968,34 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["debuff_uptime"] = 1445,
+					["fight_component"] = true,
+					["debuff_uptime"] = 1580,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 252,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[45524] = 9,
+						[85948] = 131,
+						[49576] = 7,
+						[48707] = 2,
+						[55090] = 23,
+						[49998] = 25,
+						[52481] = 2,
+						[48265] = 9,
+						[48792] = 1,
+						[43265] = 7,
+						[77575] = 69,
+						[53061] = 1,
+						[47541] = 71,
+					},
+					["buff_uptime"] = 2287,
+					["serial"] = "Player-7-0B437180",
+					["tipo"] = 4,
+					["debuff_uptime_targets"] = {
+					},
+					["nome"] = "Fandagny",
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[48792] = {
 								["id"] = 48792,
@@ -12295,33 +13005,9 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["buff_uptime_targets"] = {
-					},
-					["spec"] = 252,
-					["grupo"] = true,
-					["spell_cast"] = {
-						[45524] = 9,
-						[85948] = 121,
-						[49576] = 7,
-						[48707] = 1,
-						[55090] = 18,
-						[49998] = 25,
-						[52481] = 2,
-						[53061] = 1,
-						[48792] = 1,
-						[43265] = 6,
-						[77575] = 64,
-						[47541] = 63,
-						[48265] = 9,
-					},
-					["tipo"] = 4,
 					["last_event"] = 0,
-					["nome"] = "Fandagny",
-					["debuff_uptime_targets"] = {
-					},
-					["serial"] = "Player-7-0B437180",
-					["buff_uptime"] = 2073,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
@@ -12329,30 +13015,30 @@ _detalhes_database = {
 					["nome"] = "Eye of Acherus <Fandagny>",
 					["spell_cast"] = {
 						[52006] = 1,
-						[51859] = 7,
 						[51904] = 1,
+						[51859] = 7,
 					},
+					["classe"] = "PET",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3881-609-9601-28511-00003FC10A",
 					["pets"] = {
 					},
-					["tipo"] = 4,
-					["classe"] = "PET",
-					["serial"] = "Creature-0-3881-609-9601-28511-00003FC10A",
-					["last_event"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
-					["classe"] = "PET",
 					["ownerName"] = "Fandagny",
 					["nome"] = "Frostbrood Vanquisher <Fandagny>",
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["classe"] = "PET",
+					["last_event"] = 0,
+					["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
 					["spell_cast"] = {
 						[53114] = 36,
 						[53110] = 1,
 					},
-					["tipo"] = 4,
-					["serial"] = "Vehicle-0-3881-609-9601-28670-00003FDCD4",
-					["last_event"] = 0,
 				}, -- [3]
 			},
 		}, -- [4]
@@ -12369,27 +13055,27 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 13,
 		["totals"] = {
-			4771166.151099, -- [1]
-			18910.174532, -- [2]
+			4944684.172206, -- [1]
+			65633.186652, -- [2]
 			{
 				0, -- [1]
-				[0] = 4187.260526,
+				[0] = 4522.86212914305,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0.007719,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 1.001262,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 1.001262,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
-			["voidzone_damage"] = 0,
 			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -12401,255 +13087,248 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage"] = {
+			["damage_section"] = {
 			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage_section"] = {
+			["damage"] = {
 			},
 		},
-		["end_time"] = 113961.623,
-		["totals_grupo"] = {
-			2536228.480112, -- [1]
-			18910.200962, -- [2]
-			{
-				0, -- [1]
-				[0] = 4187.305444,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0.007719,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 1.001262,
-			}, -- [4]
-		},
+		["end_time"] = 197228.788,
 		["overall_refreshed"] = true,
+		["data_inicio"] = "14:29:43",
 		["hasSaved"] = true,
 		["frags"] = {
 		},
-		["data_fim"] = "16:33:17",
+		["data_fim"] = "15:41:03",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
 		["segments_added"] = {
 			{
+				["elapsed"] = 4.42300000000978,
+				["type"] = 0,
+				["name"] = "Terrifying Abomination",
+				["clock"] = "15:40:59",
+			}, -- [1]
+			{
+				["elapsed"] = 69.6620000000112,
+				["type"] = 0,
+				["name"] = "Terrifying Abomination",
+				["clock"] = "15:39:44",
+			}, -- [2]
+			{
 				["elapsed"] = 17.9230000000098,
 				["type"] = 0,
 				["name"] = "Hearthglen Crusader",
 				["clock"] = "16:32:59",
-			}, -- [1]
+			}, -- [3]
 			{
 				["elapsed"] = 9.31100000000151,
 				["type"] = 0,
 				["name"] = "Tirisfal Crusader",
 				["clock"] = "16:31:15",
-			}, -- [2]
+			}, -- [4]
 			{
 				["elapsed"] = 72.1600000000035,
 				["type"] = 0,
 				["name"] = "Scarlet Ballista",
 				["clock"] = "16:29:54",
-			}, -- [3]
+			}, -- [5]
 			{
 				["elapsed"] = 0.99199999999837,
 				["type"] = 0,
 				["name"] = "Hearthglen Crusader",
 				["clock"] = "16:29:51",
-			}, -- [4]
+			}, -- [6]
 			{
 				["elapsed"] = 0.932000000000699,
 				["type"] = 0,
 				["name"] = "Tirisfal Crusader",
 				["clock"] = "16:29:49",
-			}, -- [5]
+			}, -- [7]
 			{
 				["elapsed"] = 1.01400000001013,
 				["type"] = 0,
 				["name"] = "Hearthglen Crusader",
 				["clock"] = "16:29:47",
-			}, -- [6]
+			}, -- [8]
 			{
 				["elapsed"] = 1.05800000000454,
 				["type"] = 0,
 				["name"] = "Tirisfal Crusader",
 				["clock"] = "16:29:43",
-			}, -- [7]
+			}, -- [9]
 			{
 				["elapsed"] = 11.0430000000051,
 				["type"] = 0,
 				["name"] = "Hearthglen Crusader",
 				["clock"] = "16:29:30",
-			}, -- [8]
+			}, -- [10]
 			{
 				["elapsed"] = 7.44099999999162,
 				["type"] = 0,
 				["name"] = "Scarlet Crusader",
 				["clock"] = "16:25:43",
-			}, -- [9]
+			}, -- [11]
 			{
 				["elapsed"] = 43.7510000000038,
 				["type"] = 0,
 				["name"] = "Scarlet Preacher",
 				["clock"] = "16:24:48",
-			}, -- [10]
+			}, -- [12]
 			{
 				["elapsed"] = 0.1,
 				["type"] = 0,
 				["name"] = "Scarlet Commander",
 				["clock"] = "16:24:04",
-			}, -- [11]
+			}, -- [13]
 			{
 				["elapsed"] = 10.5310000000027,
 				["type"] = 0,
 				["name"] = "Scarlet Marksman",
 				["clock"] = "15:51:59",
-			}, -- [12]
+			}, -- [14]
 			{
 				["elapsed"] = 6.93099999999686,
 				["type"] = 0,
 				["name"] = "Ellen Stanbridge",
 				["clock"] = "15:51:12",
-			}, -- [13]
+			}, -- [15]
 			{
 				["elapsed"] = 19.3769999999931,
 				["type"] = 0,
 				["name"] = "Scarlet Marksman",
 				["clock"] = "15:48:13",
-			}, -- [14]
+			}, -- [16]
 			{
 				["elapsed"] = 17.0559999999969,
 				["type"] = 0,
 				["name"] = "Scarlet Crusader",
 				["clock"] = "15:47:36",
-			}, -- [15]
+			}, -- [17]
 			{
 				["elapsed"] = 19.5160000000033,
 				["type"] = 0,
 				["name"] = "High Inquisitor Valroth",
 				["clock"] = "15:47:03",
-			}, -- [16]
+			}, -- [18]
 			{
 				["elapsed"] = 14.9250000000029,
 				["type"] = 0,
 				["name"] = "Crimson Acolyte",
 				["clock"] = "15:46:38",
-			}, -- [17]
+			}, -- [19]
 			{
 				["elapsed"] = 21.6960000000108,
 				["type"] = 0,
 				["name"] = "Scarlet Crusader",
 				["clock"] = "15:46:06",
-			}, -- [18]
+			}, -- [20]
 			{
 				["elapsed"] = 11.3799999999901,
 				["type"] = 0,
 				["name"] = "Crimson Acolyte",
 				["clock"] = "15:45:48",
-			}, -- [19]
+			}, -- [21]
 			{
 				["elapsed"] = 7.33600000001025,
 				["type"] = 0,
 				["name"] = "Scarlet Crusader",
 				["clock"] = "15:45:23",
-			}, -- [20]
+			}, -- [22]
 			{
 				["elapsed"] = 32.9030000000057,
 				["type"] = 0,
 				["name"] = "Scarlet Crusader",
 				["clock"] = "15:44:20",
-			}, -- [21]
+			}, -- [23]
 			{
 				["elapsed"] = 32.3910000000033,
 				["type"] = 0,
 				["name"] = "Scarlet Commander",
 				["clock"] = "15:43:39",
-			}, -- [22]
+			}, -- [24]
 			{
 				["elapsed"] = 70.3819999999978,
 				["type"] = 0,
 				["name"] = "Scarlet Crusader",
 				["clock"] = "15:40:48",
-			}, -- [23]
+			}, -- [25]
 			{
 				["elapsed"] = 14.5850000000064,
 				["type"] = 0,
 				["name"] = "Scarlet Crusader",
 				["clock"] = "15:40:30",
-			}, -- [24]
+			}, -- [26]
 			{
 				["elapsed"] = 19.7510000000038,
 				["type"] = 0,
 				["name"] = "Scarlet Commander",
 				["clock"] = "15:38:50",
-			}, -- [25]
+			}, -- [27]
 			{
 				["elapsed"] = 28.0630000000092,
 				["type"] = 0,
 				["name"] = "Scarlet Commander",
 				["clock"] = "15:26:57",
-			}, -- [26]
+			}, -- [28]
 			{
 				["elapsed"] = 6.57399999999325,
 				["type"] = 0,
 				["name"] = "Scarlet Marksman",
 				["clock"] = "15:26:38",
-			}, -- [27]
+			}, -- [29]
 			{
 				["elapsed"] = 10.4899999999907,
 				["type"] = 0,
 				["name"] = "Scarlet Preacher",
 				["clock"] = "15:26:21",
-			}, -- [28]
-			{
-				["elapsed"] = 110.614999999991,
-				["type"] = 0,
-				["name"] = "Citizen of New Avalon",
-				["clock"] = "15:24:26",
-			}, -- [29]
-			{
-				["elapsed"] = 1.84700000000885,
-				["type"] = 0,
-				["name"] = "Scarlet Commander",
-				["clock"] = "15:24:21",
 			}, -- [30]
 		},
-		["start_time"] = 112693.145,
+		["start_time"] = 195886.225,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
 			["Raid Damage Done"] = {
 			},
 		},
-		["data_inicio"] = "14:29:43",
-	},
-	["character_data"] = {
-		["logons"] = 7,
+		["totals_grupo"] = {
+			2623780.492198, -- [1]
+			65633.21644, -- [2]
+			{
+				0, -- [1]
+				[0] = 4522.91511514305,
+				["alternatepower"] = 0,
+				[3] = 0.007719,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 1.001262,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
 	},
 	["force_font_outline"] = "",
-	["mythic_dungeon_currentsaved"] = {
-		["dungeon_name"] = "",
-		["started"] = false,
-		["segment_id"] = 0,
-		["ej_id"] = 0,
-		["started_at"] = 0,
-		["run_id"] = 0,
-		["level"] = 0,
-		["dungeon_zone_id"] = 0,
-		["previous_boss_killed_at"] = 0,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -12662,6 +13341,8 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-1136-07FF67C3"] = 64,
+		["Player-47-07F95C01"] = 253,
 		["Player-7-0B437180"] = 252,
 	},
 }

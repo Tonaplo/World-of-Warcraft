@@ -8,10 +8,11 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
-		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
@@ -29,13 +30,15 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Korugen - Proudmoore"] = {
 		},
-		["Fandagny - Frostwolf"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
-		["Rahran - Icecrown"] = {
+		["Fandagny - Frostwolf"] = {
 		},
 		["Deminath - Proudmoore"] = {
+		},
+		["Rahran - Icecrown"] = {
 		},
 		["Mallusof - Icecrown"] = {
 		},
