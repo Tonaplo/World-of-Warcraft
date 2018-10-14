@@ -775,7 +775,7 @@ local function createAccountFrame(parent)
 	addObject(elm,treatFollowersAsCollectible)
 	
 	-- Track Followers Account Wide
-	local factionsAccountWide = createCheckBox("Track Followers Account-Wide", child, function(self)
+	local followersAccountWide = createCheckBox("Track Followers Account-Wide", child, function(self)
 			app.SetDataMember("TrackFollowersAccountWide", self:GetChecked());
 			app:RefreshData();
 		end, 
@@ -787,10 +787,24 @@ local function createAccountFrame(parent)
 			GameTooltip:SetText ("Enable this setting if you want to treat Followers collected by any character on your account as Collected.\n\nIf you wish to treat only Followers known by your current character as Collected, turn this setting off.", nil, nil, nil, nil, true);
 			GameTooltip:Show();
 		end);
-	factionsAccountWide:SetPoint("TOPLEFT",treatFollowersAsCollectible,0,-frameSpacer)
-	addObject(elm,factionsAccountWide)
+	followersAccountWide:SetPoint("TOPLEFT",treatFollowersAsCollectible,0,-frameSpacer)
+	addObject(elm,followersAccountWide)
 	
-	
+	-- Track Music Rolls Account Wide
+	local musicRollsAccountWide = createCheckBox("Track Music Rolls Account-Wide", child, function(self)
+			app.SetDataMember("TrackMusicRollsAccountWide", self:GetChecked());
+			app:RefreshData();
+		end, 
+		function(self) 
+			self:SetChecked(app.GetDataMember("TrackMusicRollsAccountWide", true));
+		end,
+		function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this setting if you want to treat Music Rolls collected by any character on your account as Collected.\n\nIf you wish to treat only Music Rolls known by your current character as Collected, turn this setting off.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+	musicRollsAccountWide:SetPoint("TOPLEFT",followersAccountWide,0,-frameSpacer)
+	addObject(elm,musicRollsAccountWide)
 	
 	-- seasonal
 	local seasonal = child:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
@@ -1477,7 +1491,7 @@ local function createMiniListFrame(parent)
 	showCollected:SetPoint("TOPLEFT",showComp,0,-20)
 	addObject(elm,showCollected)
 	
-	local showIncomp = createCheckBox("Show Incomplete Quests", child, function(self)
+	local showIncomp = createCheckBox("Show Incomplete/Repeatable Quests", child, function(self)
 			app.SetDataMember("ShowIncompleteQuests", self:GetChecked());
 			if self:GetChecked() then
 				app.ShowIncompleteQuests = app.FilterItemTrackable;
@@ -1966,21 +1980,33 @@ local function createTooltipFrame(parent)
 	compLoc:SetPoint("TOPLEFT",dataLoc,databaseFrame:GetWidth()/2, 0)
 	addObject(elm,compLoc)
 	
-	-- This creates the "Show More Locations" Checkbox --
-	local moreLoc = createCheckBox("Show More Locations", child, function(self)
-			app.SetDataMember("ShowAllSources", self:GetChecked());
-			wipe(app.searchCache);
-		end, 
-		function(self) 
-			self:SetChecked(app.GetDataMember("ShowAllSources", true));
-		end,
-		function(self)
-			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
-			GameTooltip:SetText ("Enable this option if you want to see more than one database location summary in the tooltip.", nil, nil, nil, nil, true);
-			GameTooltip:Show();
-		end);
-	moreLoc:SetPoint("TOPLEFT",compLoc, 0, -frameSpacer)
-	addObject(elm,moreLoc)
+	-- This creates the "Location" slider.
+	local locationSlider = CreateFrame("Slider", "ATTLocationSlider", child, "OptionsSliderTemplate");
+	locationSlider.tooltipText = 'Use this to customize the number of sources to show in the tooltip.';
+	locationSlider:SetOrientation('HORIZONTAL');
+	locationSlider:SetWidth(250);
+	locationSlider:SetHeight(20);
+	locationSlider:SetValueStep(1);
+	locationSlider:SetMinMaxValues(1, 100);
+	locationSlider:SetObeyStepOnDrag(true);
+	locationSlider:SetValue(app.GetDataMember("Locations", 5));
+	locationSlider:SetPoint("TOPLEFT",compLoc,0,-(frameSpacer * 2))
+	_G[locationSlider:GetName() .. 'Low']:SetText('1')
+	_G[locationSlider:GetName() .. 'High']:SetText('100')
+	_G[locationSlider:GetName() .. 'Text']:SetText("Number of Locations")
+	addObject(elm,locationSlider)
+	
+	locationSlider.Label = locationSlider:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall");
+	locationSlider.Label:SetPoint("BOTTOM", 0, -12);
+	locationSlider.Label:SetText(locationSlider:GetValue());
+	locationSlider:SetScript("OnValueChanged", function(self, newValue)
+		if newValue == app.GetDataMember("Locations") then
+			return 1;
+		end
+		app.SetDataMember("Locations", newValue)
+		locationSlider.Label:SetText(newValue);
+		wipe(app.searchCache);
+	end);
 end
 local function createDebugFrame(parent)
 	createTab(parent,debugTab,"Debug",480)

@@ -574,6 +574,13 @@ GameTooltipModel.TrySetModel = function(self, reference)
 			self.Model:Show();
 			self:Show();
 			return true;
+		elseif reference.modelID then
+			self.Model:SetFacing(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+			self.Model:SetCamDistanceScale(reference.modelScale or 1);
+			self.Model:SetDisplayInfo(reference.modelID);
+			self.Model:Show();
+			self:Show();
+			return true;
 		end
 		
 		local s = reference.s;
@@ -908,12 +915,7 @@ app.GetSourceID = GetSourceID;
 app.MaximumItemInfoRetries = 400;
 local function SetPortraitIcon(self, data, x)
 	self.lastData = data;
-	if data.texCoords then
-		self:SetWidth(self:GetHeight());
-		self:SetTexture(data.icon);
-		self:SetTexCoord(unpack(data.texCoords));
-		return true;
-	elseif GetDataMember("ShowModels") then
+	if GetDataMember("ShowModels") then
 		if data.displayID then
 			app.SetPortraitTexture(self, data.displayID);
 			self:SetWidth(self:GetHeight());
@@ -1085,7 +1087,6 @@ local function GetCachedSearchResults(search, method, ...)
 							for source,replacement in pairs(abbrevs) do
 								text = string.gsub(text, source,replacement);
 							end
-							
 							if not app.RecursiveClassAndRaceFilter(j.parent) then
 								tinsert(unfiltered, "|TInterface\\FriendsFrame\\StatusIcon-Away:0|t" .. text);
 							elseif not app.RecursiveUnobtainableFilter(j.parent) then
@@ -1093,14 +1094,12 @@ local function GetCachedSearchResults(search, method, ...)
 							else
 								tinsert(temp, text);
 								count = count + 1;
-								if count > 4 then -- Shows 15 sources (Take # you want minus 1 and input)
+								if count >= app.GetDataMember("Locations") then
 									count = #group - count;
 									if count > 1 then
 										tinsert(temp, "And " .. count .. " other sources...");
 										break;
 									end
-								else
-									if not GetDataMember("ShowAllSources") then break; end
 								end
 							end
 						end
@@ -1108,13 +1107,13 @@ local function GetCachedSearchResults(search, method, ...)
 					if #temp < 1 or not GetDataMember("OnlyShowRelevantDatabaseLocations") then
 						for i,j in ipairs(unfiltered) do
 							if not contains(listing, j) then
-								tinsert(listing, i, j);
+								tinsert(listing, 1, j);
 							end
 						end
 					end
 					for i,j in ipairs(temp) do
 						if not contains(listing, j) then
-							tinsert(listing, i, j);
+							tinsert(listing, 1, j);
 						end
 					end
 				end
@@ -1291,6 +1290,17 @@ end
 local function GetCompletionText(state)
 	return L(state and "COMPLETE" or "INCOMPLETE");
 end
+local function GetModelCache()
+	local cache = GetTempDataMember("MODEL_CACHE");
+	if not cache then
+		cache = {};
+		SetTempDataMember("MODEL_CACHE", cache);
+		for i=1,78092,1 do
+			tinsert(cache, {["displayID"] = i,["text"] = "Model #" .. i});
+		end
+	end
+	return cache;
+end
 local function GetFactionCache()
 	local cache = GetTempDataMember("FACTION_CACHE");
 	if not cache then
@@ -1325,6 +1335,17 @@ local function GetTitleCache()
 			if GetTitleName(i) then
 				tinsert(cache, app.CreateTitle(i));
 			end
+		end
+	end
+	return cache;
+end
+local function GetItemCache()
+	local cache = GetTempDataMember("ITEM_CACHE");
+	if not cache then
+		cache = {};
+		SetTempDataMember("ITEM_CACHE", cache);
+		for i=166000,1,-1 do
+			tinsert(cache, app.CreateItem(i));
 		end
 	end
 	return cache;
@@ -1629,7 +1650,7 @@ local function SearchForItemLink(field, link)
 				
 				local group, working, important;
 				-- Source ID searching is much faster and more reliable.
-				local sourceID = GetSourceID(link, itemID);
+				local sourceID = quality ~= LE_ITEM_QUALITY_ARTIFACT and GetSourceID(link, itemID);
 				if sourceID then
 					important = true;
 					group = SearchForSourceID(sourceID) or SearchForItemID(itemID);
@@ -1673,7 +1694,7 @@ local function SearchForItemLink(field, link)
 												else
 													text = "   ";
 												end
-												text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherATTSource.collected);
+												text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID or "???") .. ")") or "") .. "/" .. GetCollectionIcon(otherATTSource.collected);
 												tinsert(listing, text);
 											end
 										else
@@ -1717,7 +1738,7 @@ local function SearchForItemLink(field, link)
 											else
 												text = "   ";
 											end
-											text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "");
+											text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID or "???") .. ")") or "");
 											
 											-- Show all of the reasons why an appearance does not meet given criteria.
 											-- Only show Shared Appearances that match the requirements for this class to prevent people from assuming things.
@@ -1752,7 +1773,7 @@ local function SearchForItemLink(field, link)
 													link = RETRIEVING_DATA;
 													working = true;
 												end
-												text = " |CFFFF0000!|r " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "");
+												text = " |CFFFF0000!|r " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID or "???") .. ")") or "");
 												if otherSource.isCollected then SetDataSubMember("CollectedSources", otherSourceID, 1); end
 												text = text	.. " |CFFFF0000(MISSING IN ATT - " .. otherSourceID .. ")|r/" .. GetCollectionIcon(otherSource.isCollected);
 												tinsert(listing, text);
@@ -1979,6 +2000,8 @@ local function OpenMiniList(field, id, label)
 			for i, group in ipairs(results) do
 				header.progress = header.progress + (group.progress or 0);
 				header.total = header.total + (group.total or 0);
+				if group.description and group.mapID then header.description = group.description; end
+				if group.isRaid then header.isRaid = group.isRaid; end
 				
 				-- If this is relative to a holiday, let's do something special
 				if GetRelativeField(group, "npcID", -3) then
@@ -2711,7 +2734,7 @@ end
 
 -- Tooltip Functions
 local function RecalculateGroupTotals(group)
-	if group.collectible then
+	if group.collectible and app.GroupRequirementsFilter(group) and app.GroupFilter(group) then
 		group.total = 1;
 		if group.collected then
 			group.progress = 1;
@@ -2885,7 +2908,9 @@ local function AttachTooltipRawSearchResults(self, listing, group, paramA, param
 									end
 									
 									-- Insert into the display.
-									tinsert(items, { "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), right });
+									local left;
+									if j.icon then left = "  |T" .. j.icon .. ":0|t "; else left = "  "; end
+									tinsert(items, { left .. (j.text or RETRIEVING_DATA), right });
 								end
 							end
 						end
@@ -3420,7 +3445,7 @@ app.BaseArtifact = {
 				return select(2, GetItemInfo(string.format("item:%d::::::::::256:::%d", itemID, t.artifactID))), itemID;
 			end
 		elseif key == "s" then
-			local s = t.silentLink;
+			local s, itemID = t.silentLink;
 			if s then
 				s = app.GetSourceID(s, itemID);
 				if s then
@@ -3463,6 +3488,21 @@ app.CreateCategory = function(id, t)
 end
 
 -- Character Class Lib
+(function()
+local classIcons = {
+	[1] = "Interface\\Icons\\ClassIcon_Warrior",
+	[2] = "Interface\\Icons\\ClassIcon_Paladin",
+	[3] = "Interface\\Icons\\ClassIcon_Hunter",
+	[4] = "Interface\\Icons\\ClassIcon_Rogue",
+	[5] = "Interface\\Icons\\ClassIcon_Priest",
+	[6] = "Interface\\Icons\\ClassIcon_DeathKnight",
+	[7] = "Interface\\Icons\\ClassIcon_Shaman",
+	[8] = "Interface\\Icons\\ClassIcon_Mage",
+	[9] = "Interface\\Icons\\ClassIcon_Warlock",
+	[10] = "Interface\\Icons\\ClassIcon_Monk",
+	[11] = "Interface\\Icons\\ClassIcon_Druid",
+	[12] = "Interface\\Icons\\ClassIcon_DemonHunter",
+};
 app.BaseCharacterClass = {
 	__index = function(t, key)
 		if key == "key" then
@@ -3471,31 +3511,24 @@ app.BaseCharacterClass = {
 			if t.mapID then return "|c" .. t.classColors.colorStr .. app.GetMapName(t.mapID) .. " (" .. t.name .. ")|r"; end
 			return "|c" .. t.classColors.colorStr .. t.name .. "|r";
 		elseif key == "icon" then
-			return "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes";
+			return classIcons[t.classID];
 		elseif key == "name" then
-			local name, classFileName = GetClassInfo(t.classID);
+			local name = GetClassInfo(t.classID);
 			rawset(t, "name", name);
-			rawset(t, "classFileName", classFileName);
 			return name;
-		elseif key == "classFileName" then
-			local name, classFileName = GetClassInfo(t.classID);
-			rawset(t, "name", name);
-			rawset(t, "classFileName", classFileName);
-			return classFileName;
 		elseif key == "c" then
 			local c = { t.classID };
 			rawset(t, "c", c);
 			return c;
-		elseif key == "texCoords" then
-			return CLASS_ICON_TCOORDS[t.classFileName];
 		elseif key == "classColors" then
-			return RAID_CLASS_COLORS[t.classFileName];
+			return RAID_CLASS_COLORS[select(2, GetClassInfo(t.classID))];
 		else
 			-- Something that isn't dynamic.
 			return table[key];
 		end
 	end
 };
+end)();
 app.CreateCharacterClass = function(id, t)
 	return createInstance(constructor(id, t, "classID"), app.BaseCharacterClass);
 end
@@ -4487,14 +4520,48 @@ app.CreateMount = function(id, t)
 end
 
 -- Music Roll Lib
+(function()
+local completed = false;
+local frame = CreateFrame("FRAME", nil, app);
+frame:SetSize(1, 1);
+frame:Hide();
+frame.events = {};
+frame:SetScript("OnEvent", function(self, e, ...) (self.events[e] or tostringall)(...); end);
+frame:RegisterEvent("PLAYER_LOGIN");
+frame:RegisterEvent("QUEST_LOG_UPDATE");
+frame.events.PLAYER_LOGIN = function()
+	if IsQuestFlaggedCompleted(38356) or IsQuestFlaggedCompleted(37961) then
+		completed = true;
+		frame:UnregisterEvent("PLAYER_LOGIN");
+	end
+end
+frame.events.QUEST_LOG_UPDATE = function()
+	if IsQuestFlaggedCompleted(38356) or IsQuestFlaggedCompleted(37961) then
+		completed = true;
+		frame:UnregisterEvent("QUEST_LOG_UPDATE");
+	end
+end
 app.BaseMusicRoll = {
 	__index = function(t, key)
 		if key == "key" then
 			return "questID";
 		elseif key == "collectible" or key == "trackable" then
-			return true;
+			return completed;
 		elseif key == "collected" or key == "saved" then
-			return IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID);
+			if app.GetDataMember("TrackMusicRollsAccountWide") then
+				if GetDataSubMember("CollectedMusicRolls", t.questID) then
+					return 1;
+				end
+			else
+				if GetTempDataSubMember("CollectedMusicRolls", t.questID) then
+					return 1;
+				end
+			end
+			if IsQuestFlaggedCompleted(t.questID) then
+				SetTempDataSubMember("CollectedMusicRolls", t.questID, 1);
+				SetDataSubMember("CollectedMusicRolls", t.questID, 1);
+				return 1;
+			end
 		elseif key == "f" then
 			return 108;
 		elseif key == "lvl" then
@@ -4510,7 +4577,7 @@ app.BaseMusicRoll = {
 			end
 		elseif key == "description" then
 			local description = "These are unlocked per-character and are not currently shared across your account. If someone at Blizzard is reading this, it would be really swell if you made these account wide.\n\nYou must manually refresh the addon by Shift+Left clicking the header for this to be detected.";
-			if not (IsQuestFlaggedCompleted(38356) or IsQuestFlaggedCompleted(37961)) then
+			if not completed then
 				description = description .. "\n\nYou must first unlock the Music Rolls by completing the Bringing the Bass quest in your garrison for this item to drop.";
 			end
 			return description;
@@ -4520,6 +4587,7 @@ app.BaseMusicRoll = {
 		end
 	end
 };
+end)();
 app.CreateMusicRoll = function(questID, t)
 	return createInstance(constructor(questID, t, "questID"), app.BaseMusicRoll);
 end
@@ -4551,10 +4619,14 @@ app.BaseNPC = {
 			return t.npcID > 0 and t.npcID;
 		elseif key == "trackable" then
 			return t.questID;
+		elseif key == "collectible" then
+			return t.questID and not t.repeatable and GetDataMember("TreatQuestsAsCollectible");
 		elseif key == "saved" then
-			if IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID) then
-				return true;
-			end
+			return IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID);
+		elseif key == "collected" then
+			return t.saved;
+		elseif key == "repeatable" then
+			return t.isDaily or t.isWeekly;
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -4913,14 +4985,14 @@ end
 		108,	-- Battle For Azeroth
 	};
 	local tierDescription = {
-		"|cff66ccffFour years after the Battle of Mount Hyjal, tensions between the Alliance & the Horde begin to arise once again. Intent on settling the arid region of Durotar, Thrall's new Horde expanded its ranks, inviting the undead Forsaken to join orcs, tauren, & trolls. Meanwhile, dwarves, gnomes & the ancient night elves pledged their loyalties to a reinvigorated Alliance, guided by the human kingdom of Stormwind. After Stormwind's king, Varian Wrynn, mysteriously disappeared, Highlord Bolvar Fordragon served as Regent but his service was marred by the manipulations & mind control of the Onyxia, who ruled in disguise as a human noblewoman. As heroes investigated Onyxia's manipulations, ancient foes surfaced in lands throughout the world to menace Horde & Alliance alike.|r", 					-- Classic
-		"|cff66ccffThe Burning Crusade is the first expansion. Its main features include an increase of the level cap up to 70, the introduction of the blood elves & the draenei as playable races, & the addition of the world of Outland, along with many new zones, dungeons, items, quests, & monsters.|r",			-- Burning Crusade
-		"|cff66ccffWrath of the Lich King is the second expansion. The majority of the expansion content takes place in Northrend & centers around the plans of the Lich King. Content highlights include the increase of the level cap from 70 to 80, the introduction of the death knight Hero class, & new PvP/World PvP content.|r",		-- Wrath
-		"|cff66ccffCataclysm is the third expansion. Set primarily in a dramatically reforged Kalimdor & Eastern Kingdoms on the world of Azeroth, the expansion follows the return of Deathwing, who causes a new Sundering as he makes his cataclysmic re-entrance into the world from Deepholm. Cataclysm returns players to the two continents of Azeroth for most of their campaigning, opening new zones such as Mount Hyjal, the sunken world of Vashj'ir, Deepholm, Uldum and the Twilight Highlands. It includes two new playable races, the worgen & the goblins. The expansion increases level cap to 85, adds the ability to fly in Kalimdor & Eastern Kingdoms, introduces Archaeology & reforging, & restructures the world itself.|r",				-- Cata
-		"|cff66ccffMists of Pandaria is the fourth expansion pack. The expansion refocuses primarily on the war between the Alliance & Horde, in the wake of the accidental rediscovery of Pandaria. Adventurers rediscover the ancient pandaren people, whose wisdom will help guide them to new destinies; the Pandaren Empire's ancient enemy, the mantid; and their legendary oppressors, the enigmatic mogu. The land changes over time & the conflict between Varian Wrynn & Garrosh Hellscream escalates. As civil war wracks the Horde, the Alliance & forces in the Horde opposed to Hellscream's violent uprising join forces to take the battle directly to Hellscream & his Sha-touched allies in Orgrimmar.|r",			-- Mists
-		"|cff66ccffWarlords of Draenor is the fifth expansion. Across Draenor's savage jungles & battle-scarred plains, Azeroth's heroes will engage in a mythic conflict involving mystical draenei champions & mighty orc clans, & cross axes with the likes of Grommash Hellscream, Blackhand, & Ner’zhul at the height of their primal power. Players will need to scour this unwelcoming land in search of allies to help build a desperate defense against the old Horde’s formidable engine of conquest, or else watch their own world’s bloody, war-torn history repeat itself.|r",	-- WoD
-		"|cff66ccffLegion is the sixth expansion. Gul'dan is expelled into Azeroth to reopen the Tomb of Sargeras & the gateway to Argus, commencing the third invasion of the Burning Legion. After the defeat at the Broken Shore, the defenders of Azeroth search for the Pillars of Creation, which were Azeroth's only hope for closing the massive demonic portal at the heart of the Tomb. However, the Broken Isles came with their own perils to overcome, from Xavius, to God-King Skovald, to the nightborne, & to Tidemistress Athissa. Khadgar moved Dalaran to the shores of this land, the city serves as a central hub for the heroes. The death knights of Acherus also took their floating necropolis to the Isles. The heroes of Azeroth sought out legendary artifact weapons to wield in battle, but also found unexpected allies in the form of the Illidari. Ongoing conflict between the Alliance & the Horde led to the formation of the class orders, with exceptional commanders putting aside faction to lead their classes in the fight against the Legion.|r",-- Legion
-		"|cff66ccffBattle for Azeroth is the seventh expansion. Azeroth paid a terrible price to end the apocalyptic march of the Legion's crusade—but even as the world's wounds are tended, it is the shattered trust between the Alliance and Horde that may prove the hardest to mend. In Battle for Azeroth, the fall of the Burning Legion sets off a series of disastrous incidents that reignites the conflict at the heart of the Warcraft saga. As a new age of warfare begins, Azeroth's heroes must set out on a journey to recruit new allies, race to claim the world's mightiest resources, and fight on several fronts to determine whether the Horde or Alliance will lead Azeroth into its uncertain future.|r", -- BfA
+		"Four years after the Battle of Mount Hyjal, tensions between the Alliance & the Horde begin to arise once again. Intent on settling the arid region of Durotar, Thrall's new Horde expanded its ranks, inviting the undead Forsaken to join orcs, tauren, & trolls. Meanwhile, dwarves, gnomes & the ancient night elves pledged their loyalties to a reinvigorated Alliance, guided by the human kingdom of Stormwind. After Stormwind's king, Varian Wrynn, mysteriously disappeared, Highlord Bolvar Fordragon served as Regent but his service was marred by the manipulations & mind control of the Onyxia, who ruled in disguise as a human noblewoman. As heroes investigated Onyxia's manipulations, ancient foes surfaced in lands throughout the world to menace Horde & Alliance alike.", 					-- Classic
+		"The Burning Crusade is the first expansion. Its main features include an increase of the level cap up to 70, the introduction of the blood elves & the draenei as playable races, & the addition of the world of Outland, along with many new zones, dungeons, items, quests, & monsters.",			-- Burning Crusade
+		"Wrath of the Lich King is the second expansion. The majority of the expansion content takes place in Northrend & centers around the plans of the Lich King. Content highlights include the increase of the level cap from 70 to 80, the introduction of the death knight Hero class, & new PvP/World PvP content.",		-- Wrath
+		"Cataclysm is the third expansion. Set primarily in a dramatically reforged Kalimdor & Eastern Kingdoms on the world of Azeroth, the expansion follows the return of Deathwing, who causes a new Sundering as he makes his cataclysmic re-entrance into the world from Deepholm. Cataclysm returns players to the two continents of Azeroth for most of their campaigning, opening new zones such as Mount Hyjal, the sunken world of Vashj'ir, Deepholm, Uldum and the Twilight Highlands. It includes two new playable races, the worgen & the goblins. The expansion increases level cap to 85, adds the ability to fly in Kalimdor & Eastern Kingdoms, introduces Archaeology & reforging, & restructures the world itself.",				-- Cata
+		"Mists of Pandaria is the fourth expansion pack. The expansion refocuses primarily on the war between the Alliance & Horde, in the wake of the accidental rediscovery of Pandaria. Adventurers rediscover the ancient pandaren people, whose wisdom will help guide them to new destinies; the Pandaren Empire's ancient enemy, the mantid; and their legendary oppressors, the enigmatic mogu. The land changes over time & the conflict between Varian Wrynn & Garrosh Hellscream escalates. As civil war wracks the Horde, the Alliance & forces in the Horde opposed to Hellscream's violent uprising join forces to take the battle directly to Hellscream & his Sha-touched allies in Orgrimmar.",			-- Mists
+		"Warlords of Draenor is the fifth expansion. Across Draenor's savage jungles & battle-scarred plains, Azeroth's heroes will engage in a mythic conflict involving mystical draenei champions & mighty orc clans, & cross axes with the likes of Grommash Hellscream, Blackhand, & Ner’zhul at the height of their primal power. Players will need to scour this unwelcoming land in search of allies to help build a desperate defense against the old Horde’s formidable engine of conquest, or else watch their own world’s bloody, war-torn history repeat itself.",	-- WoD
+		"Legion is the sixth expansion. Gul'dan is expelled into Azeroth to reopen the Tomb of Sargeras & the gateway to Argus, commencing the third invasion of the Burning Legion. After the defeat at the Broken Shore, the defenders of Azeroth search for the Pillars of Creation, which were Azeroth's only hope for closing the massive demonic portal at the heart of the Tomb. However, the Broken Isles came with their own perils to overcome, from Xavius, to God-King Skovald, to the nightborne, & to Tidemistress Athissa. Khadgar moved Dalaran to the shores of this land, the city serves as a central hub for the heroes. The death knights of Acherus also took their floating necropolis to the Isles. The heroes of Azeroth sought out legendary artifact weapons to wield in battle, but also found unexpected allies in the form of the Illidari. Ongoing conflict between the Alliance & the Horde led to the formation of the class orders, with exceptional commanders putting aside faction to lead their classes in the fight against the Legion.",-- Legion
+		"Battle for Azeroth is the seventh expansion. Azeroth paid a terrible price to end the apocalyptic march of the Legion's crusade—but even as the world's wounds are tended, it is the shattered trust between the Alliance and Horde that may prove the hardest to mend. In Battle for Azeroth, the fall of the Burning Legion sets off a series of disastrous incidents that reignites the conflict at the heart of the Warcraft saga. As a new age of warfare begins, Azeroth's heroes must set out on a journey to recruit new allies, race to claim the world's mightiest resources, and fight on several fronts to determine whether the Horde or Alliance will lead Azeroth into its uncertain future.", -- BfA
 	};
 	app.BaseTier = {
 		__index = function(t, key)
@@ -5557,18 +5629,20 @@ UpdateGroup = function(parent, group)
 						group.visible = false;
 					end
 				else
-					-- Show this group.
-					group.visible = true;
-					
 					-- We only want to filter out Consumables, Reagents, and Miscellaneous items if they can't be used to collect something
 					if group.f then
-						if group.f == 56 or group.f == 50 then
-							if not GetPersonalDataSubMember("ItemFilters", group.f, true) then
+						if group.f == 58 then
+							group.visible = app.CollectedItemVisibilityFilter(group);
+						else
+							if GetPersonalDataSubMember("ItemFilters", group.f, true) then
+								group.visible = true;
+							else
 								group.visible = false;
 							end
-						elseif group.f == 58 then
-							group.visible = app.CollectedItemVisibilityFilter(group);
 						end
+					else
+						-- Hide this group.
+						group.visible = false;
 					end
 				end
 			else
@@ -6948,12 +7022,15 @@ local function RowOnEnter(self)
 				GameTooltipIcon:SetSize(64,64);
 			end
 			GameTooltipIcon.icon:SetTexture(reference.preview or reference.icon);
-			if reference.texCoords then
-				GameTooltipIcon.icon:SetTexCoord(unpack(reference.texCoords));
-			else
-				GameTooltipIcon.icon:SetTexCoord(0, 1, 0, 1);
-			end
 			GameTooltipIcon:Show();
+		elseif reference.displayID or reference.modelID or reference.model then
+			GameTooltip:AddDoubleLine("File ID", GameTooltipModel.Model:GetModelFileID());
+			if reference.displayID or reference.modelID then
+				GameTooltip:AddDoubleLine("Display ID", reference.displayID);
+			end
+			if reference.modelID then
+				GameTooltip:AddDoubleLine("Model ID", reference.modelID);
+			end
 		end
 		if reference.cost then
 			local cost = tostring(reference.cost);
@@ -7327,7 +7404,7 @@ function app:GetDataCache()
 		
 		-- Pet Battles
 		if app.Categories.PetBattles then
-			db = app.CreateAchievement(6622, app.Categories.PetBattles); -- Big City Pet Brawler
+			db = app.CreateAchievement(6559, app.Categories.PetBattles); -- Traveling Pet Mauler
 			db.f = 0;
 			db.lvl = 5; -- Must be 5 to train
 			db.expanded = false;
@@ -7466,6 +7543,12 @@ function app:GetDataCache()
 		db.text = "Titles (Dynamic)";
 		table.insert(g, db);
 		
+		-- Models (Dynamic)
+		db = app.CreateAchievement(9924, GetModelCache());
+		db.expanded = false;
+		db.text = "Models (Dynamic)";
+		table.insert(g, db);
+		
 		-- Factions (Dynamic)
 		db = app.CreateAchievement(11177, GetFactionCache());
 		db.expanded = false;
@@ -7481,6 +7564,14 @@ function app:GetDataCache()
 		db.text = "Illusions (Dynamic)";
 		table.insert(g, db);
 		--]]
+		-- Items (Dynamic)
+		--[[
+		db = {};
+		db.g = GetItemCache();
+		db.expanded = false;
+		db.text = "All Items (Dynamic)";
+		table.insert(g, db);
+		]]--
 		
 		-- Mounts (Dynamic)
 		--[[
@@ -7574,6 +7665,85 @@ function app:GetDataCache()
 		UpdateGroups(allData, allData.g, 1);
 		app:GetWindow("Unsorted").data = allData;
 		CacheFields(allData);
+		
+		-- Uncomment this section if you need to Harvest Display IDs:
+		--[[
+		local displayData = {};
+		displayData.visible = true;
+		displayData.expanded = true;
+		displayData.progress = 0;
+		displayData.total = 0;
+		displayData.icon = "Interface\\Icons\\Spell_Warlock_HarvestofLife";
+		displayData.text = "Harvesting All Display IDs";
+		displayData.description = "If you're seeing this window outside of Git, please yell loudly in Crieve's ear.";
+		displayData.g = {};
+		for model,groups in pairs(fieldCache["model"]) do
+			tinsert(displayData.g, {visible = true, back = 0.5, indent = 1, model = model, text = model});
+		end
+		for i=1,78092,1 do
+			tinsert(displayData.g, {["displayID"] = i,["text"] = "Model #" .. i});
+		end
+		displayData.rows = displayData.g;
+		BuildGroups(displayData, displayData.g);
+		UpdateGroups(displayData, displayData.g, 1);
+		
+		-- Assign the missing data table to the harvester.
+		local popout = app:GetWindow("DisplayIDs");
+		popout.data = displayData;
+		popout.ScrollBar:SetValue(1);
+		popout:SetVisible(true);
+		popout.fileIDs = {};
+		popout.UpdateDone = function(self)
+			print("UpdateDone");
+			local progress = 0;
+			local total = 0;
+			local tries = 0;
+			for i,group in ipairs(displayData.g) do
+				total = total + 1;
+				if not group.fileID then
+					if tries < 10 and (not group.tries or group.tries < 5) then
+						tries = tries + 1;
+						group.tries = (group.tries or 0) + 1;
+						if GameTooltipModel:TrySetModel(group) then
+							group.fileID = GameTooltipModel.Model:GetModelFileID();
+						end
+					end
+				end
+				
+				if group.fileID then
+					if group.displayID then
+						popout.fileIDs[group.fileID] = group.displayID;
+					elseif popout.fileIDs[group.fileID] then
+						group.displayID = popout.fileIDs[group.fileID];
+					end
+				end
+				
+				if not group.displayID or not group.fileID then
+					group.visible = true;
+					group.saved = false;
+					group.trackable = true;
+				else
+					group.saved = true;
+					group.trackable = true;
+					if group.model then
+						group.visible = true;
+					else
+						group.visible = false;
+					end
+					progress = progress + 1;
+				end
+			end
+			if self.rowData then
+				local count = #self.rowData;
+				if count > 1 then
+					self.rowData[1].progress = progress;
+					self.rowData[1].total = total;
+				end
+				self.processingLinks = false;
+			end
+			UpdateVisibleRowData(self);
+		end
+		]]--
 		
 		-- Uncomment this section if you need to Harvest Source IDs:
 		--[[
@@ -8302,11 +8472,10 @@ app:GetWindow("RaidAssistant", UIParent, function(self)
 					['OnUpdate'] = function(data)
 						if app.DungeonDifficulty then
 							data.difficultyID = app.DungeonDifficulty;
+							data.name = GetDifficultyInfo(data.difficultyID) or "???";
 							local name, instanceType, instanceDifficulty, difficultyName = GetInstanceInfo();
 							if instanceDifficulty and data.difficultyID ~= instanceDifficulty and instanceType == 'party' then
-								data.name = GetDifficultyInfo(data.difficultyID) .. " (" .. difficultyName .. ")";
-							else
-								data.name = GetDifficultyInfo(data.difficultyID);
+								data.name = data.name .. " (" .. (difficultyName or "???") .. ")";
 							end
 						end
 					end,
@@ -9791,6 +9960,8 @@ app.events.VARIABLES_LOADED = function()
 	
 	-- Check to see if we have a leftover ItemDB cache
 	GetDataMember("CollectedFactions", {});
+	GetDataMember("CollectedFollowers", {});
+	GetDataMember("CollectedMusicRolls", {});
 	GetDataMember("CollectedSpells", {});
 	GetDataMember("SeasonalFilters", {});
 	GetDataMember("UnobtainableItemFilters", {});
@@ -9815,11 +9986,20 @@ app.events.VARIABLES_LOADED = function()
 	
 	-- Cache your character's follower data.
 	local followers = GetDataMember("CollectedFollowersPerCharacter", {});
-	local myFollowers = GetTempDataMember("CollectedFollowers", factions[app.Me]);
+	local myFollowers = GetTempDataMember("CollectedFollowers", followers[app.Me]);
 	if not myFollowers then
 		myFollowers = {};
 		followers[app.Me] = myFollowers;
 		SetTempDataMember("CollectedFollowers", myFollowers);
+	end
+	
+	-- Cache your character's music roll data.
+	local musicRolls = GetDataMember("CollectedMusicRollsPerCharacter", {});
+	local myMusicRolls = GetTempDataMember("CollectedMusicRolls", musicRolls[app.Me]);
+	if not myMusicRolls then
+		myMusicRolls = {};
+		musicRolls[app.Me] = myMusicRolls;
+		SetTempDataMember("CollectedMusicRolls", myMusicRolls);
 	end
 	
 	-- Register for Dynamic Events and Assign Filters
@@ -9953,7 +10133,6 @@ app.events.VARIABLES_LOADED = function()
 	GetDataMember("ShowItemString", false);
 	GetDataMember("ShowMapID", false);
 	GetDataMember("ShowModID", false);
-	GetDataMember("ShowMusicRollID", false);
 	GetDataMember("ShowObjectID", false);
 	GetDataMember("ShowQuestID", false);
 	GetDataMember("ShowSourceID", false);

@@ -370,7 +370,7 @@ AllTheThings.Locales.enUS = {
 		[-121] = "Interface\\Icons\\inv_misc_rune_01", 							-- Frostwall Tavern
 		[-122] = "Interface\\Icons\\garrison_building_workshop", 				-- Goblin Workshop
 		[-123] = "Interface\\Icons\\garrison_building_magetower", 				-- Spirit Lodge
-		[-124] = "Interface\\Icons\\garrison_building_armory", 					-- War Mill
+		[-124] = "Interface\\Icons\\garrison_building_armory", 					-- Garrison Sets
 		[-125] = "Interface\\Icons\\garrison_building_armory", 					-- Dwarven Bunker
 		[-126] = "Interface\\Icons\\garrison_building_workshop", 				-- Gnomish Gearworks
 		[-127] = "Interface\\Icons\\inv_pick_02", 								-- Lunarfall Excavation
@@ -453,6 +453,7 @@ AllTheThings.Locales.enUS = {
 		[-231] = "Interface\\Icons\\Spell_Shadow_DeathScream",
 		[-232] = "Interface\\Icons\\Spell_Shadow_DeathScream",
 		[-233] = "Interface\\Icons\\achievement_zone_arathihighlands_01",		-- Warfront: The Battle for Stromgarde
+		[-234] = "Interface\\Icons\\achievement_zone_arathihighlands_01",		-- Warfront: The Battle for Stromgarde
 		[-297] = "Interface\\Icons\\inv_letter_17", 							-- Mailbox
 		[-299] = "Interface\\Icons\\achievement_garrisonquests_1000", 			-- Missions
 		[-304] = "Interface\\Icons\\INV_BannerPVP_03",							-- Battlegrounds
@@ -508,6 +509,8 @@ AllTheThings.Locales.enUS = {
 		[-385] = "Interface\\Icons\\inv_70_dungeon_ring5a",						-- Finger
 		[-386] = "Interface\\Icons\\inv_qirajidol_obsidian",					-- Trinket
 		[-387] = "Interface\\Icons\\inv_staff_2h_felfireraid_d_03",				-- Relic
+		[-388] = "Interface\\Icons\\INV_Misc_Token_ScarletCrusade",				-- Main Gate (Stratholme)
+		[-389] = "Interface\\Icons\\INV_MISC_KEY_13",							-- Service Entrance (Stratholme)
 		[-494] = "Interface\\Icons\\Ability_Shaman_Ascendance",					-- Miscellaneous
 		[-500] = "Interface\\Icons\\inv_misc_celebrationcake_01",				-- WoW Anniversary
 		[-531] = "Interface\\Icons\\achievement_general",						-- 2008 Spirit of Competition Event
@@ -559,6 +562,9 @@ AllTheThings.Locales.enUS = {
 		[-580] = "Interface\\Icons\\inv_hammer_23",								-- Master Hammersmith
 		[-581] = "Interface\\Icons\\inv_sword_41",								-- Master Swordsmith
 		[-582] = "Interface\\Icons\\inv_chest_plate04",							-- Armorsmith
+		[-593] = "Interface\\Icons\\70_inscription_deck_Hellfire",				-- Kill Credit 1
+		[-594] = "Interface\\Icons\\70_inscription_deck_Hellfire_2",			-- Kill Credit 2
+		[-595] = "Interface\\Icons\\70_inscription_deck_Hellfire_3",			-- Kill Credit 3
 		[-1000] = "Interface\\Icons\\achievement_transmog_collections",			-- Sets
 		[-1001] = "Interface\\Icons\\Racial_Dwarf_FindTreasure",				-- The Black Vault
 		[-3178] = "Interface\\Icons\\achievement_boss_warlord_kalithresh",		-- Tier 3.5
@@ -946,7 +952,7 @@ AllTheThings.Locales.enUS = {
 		[-121] = select(2,C_Garrison.GetBuildingInfo(34)), 						-- Lunarfall Inn / Frostwall Tavern
 		[-122] = select(2,C_Garrison.GetBuildingInfo(162)), 					-- Gnomish Gearworks / Goblin Workshop
 		[-123] = select(2,C_Garrison.GetBuildingInfo(37)), 						-- Mage Tower / Spirit Lodge
-		[-124] = select(2,C_Garrison.GetBuildingInfo(8)), 						-- Dwarven Bunker / War Mill
+		[-124] = "Garrison Sets", 												-- Garrison Sets
 -- Alliance [Swaps based on faction ONLY after a reloadui]
 		[-125] = select(2,C_Garrison.GetBuildingInfo(8)), 						-- Dwarven Bunker / War Mill
 		[-126] = select(2,C_Garrison.GetBuildingInfo(162)), 					-- Gnomish Gearworks / Goblin Workshop
@@ -1046,6 +1052,7 @@ AllTheThings.Locales.enUS = {
 		[-202] = "Zealous", -- Paladin
 		[-203] = "Valiant", -- Warrior
 		[-204] = "Ebonsoul", -- Death Knight
+		[-205] = "Monastic", -- Monk
 		[-206] = GetSpellInfo(67772),											-- Paragon
 		[-207] = GetSpellInfo(262064),											-- Lightforged Draenei
 		[-208] = GetSpellInfo(262062),											-- Void Elf
@@ -1073,7 +1080,9 @@ AllTheThings.Locales.enUS = {
 		[-230] = PVP_CONQUEST,													-- Conquest
 		[-231] = BATTLE_PET_BREED_QUALITY4.." - "..FACTION_ALLIANCE,			-- Rares - Alliance  [Note: Temp Solution]
 		[-232] = BATTLE_PET_BREED_QUALITY4.." - "..FACTION_HORDE,				-- Rares - Horde  [Note: Temp Solution]
-		[-233] = GetSpellInfo(279443),											-- Warfront: The Battle for Stromgarde
+		[-233] = GetSpellInfo(279443),											-- Warfront: The Battle for Stromgarde [Horde]
+		[-234] = GetSpellInfo(279443),											-- Warfront: The Battle for Stromgarde [Alliance]
+		
 -- Other
 		[-294] = "Killed First",
 		[-295] = "Killed Second",
@@ -1152,6 +1161,8 @@ AllTheThings.Locales.enUS = {
 		[-385] = GetItemSubClassInfo(8,10),										-- Finger
 		[-386] = INVTYPE_TRINKET,												-- Trinket
 		[-387] = GetItemSubClassInfo(3,11),										-- Relic
+		[-388] = "Main Gate",													-- Main Gate (Stratholme)
+		[-389] = "Service Entrance",											-- Service Entrance (Stratholme)
 		
 -- Blizzard Events and Anniversaries
 -- Lucetia Note: Leave these for now, some may be swapped to achieves instead.
@@ -1228,6 +1239,30 @@ AllTheThings.Locales.enUS = {
 		[-581] = GetSpellInfo(17039),											-- Master Swordsmith
 		[-582] = GetSpellInfo(9788),											-- Armorsmith
 
+-- Raid Buff Stack Size
+
+		[-583] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 1),				-- Power Increased to Level 1
+		[-584] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 2),				-- Power Increased to Level 2
+		[-585] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 3),				-- Power Increased to Level 3
+		[-586] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 4),				-- Power Increased to Level 4
+		[-587] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 5),				-- Power Increased to Level 5
+		[-588] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 6),				-- Power Increased to Level 6
+		[-589] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 7),				-- Power Increased to Level 7
+		[-590] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 8),				-- Power Increased to Level 8
+		[-591] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 9),				-- Power Increased to Level 9
+		[-592] = string.format(AZERITE_ITEM_LEVELED_UP_TOAST, 10),				-- Power Increased to Level 10
+		[-593] = GetSpellInfo(228357).." 1",									-- Kill Credit 1
+		[-594] = GetSpellInfo(228357).." 2",									-- Kill Credit 2
+		[-595] = GetSpellInfo(228357).." 3",									-- Kill Credit 3
+		-- Need these spells here because if we use them in the file it won't allow the quest to mark as complete due to it not being designed that way.
+		-- This is the workaround.
+		[-596] = GetSpellInfo(266165),											-- Communing with Jani [Polished Ringhorn Hoof]
+		[-597] = GetSpellInfo(266123),											-- Communing with Jani [Charged Ranishu Antennae]
+		[-598] = GetSpellInfo(266189),											-- Communing with Jani [Sturdy Redrock Jaw]
+		[-599] = GetSpellInfo(262978),											-- Communing with Jani [Nazwathan Relic]
+		[-600] = GetSpellInfo(262954),											-- Communing with Jani [Vilescale Pearl]
+		[-601] = GetSpellInfo(262971),											-- Communing with Jani [Snapjaw Tail]
+		
 		[-1000] = WARDROBE_SETS, 												-- Sets
 		[-1001] = "The Black Vault",
 
@@ -1653,6 +1688,7 @@ AllTheThings.Locales.enUS = {
 		[-90002] = C_Map.GetAreaInfo(9655),							-- Krazzlefrazz Outpost
 		[-90003] = select(1,GetAchievementCriteriaInfo(12556,11)),	-- Waning Glacier
 		[-90004] = "Anyport",										-- Currently no localization calls
+		[-90005] = C_Map.GetAreaInfo(9305),							-- Castaway Point
 		 
 		 
 		 
@@ -2313,8 +2349,10 @@ AllTheThings.Locales.enUS = {
 		[226967] = "Lagoon Pool",
 		[226976] = "Deceptia's Smoldering Boots",
 		[226983] = "Crag-Leaper's Cache",
+		[227504] = "Barbed Thunderlord Spear",
 		[227654] = "Bonechewer Spear",
 		[227793] = "Aarko's Family Treasure",
+		[227806] = "Battle-Worn Frostwolf Banner",
 		[227859] = "Hope",
 		[227868] = "Sparkling Pool",
 		[227996] = "Curious Deathweb Egg",
@@ -2681,6 +2719,7 @@ AllTheThings.Locales.enUS = {
 		[298963] = select(1,GetAchievementCriteriaInfo(13024,2)),	-- Weathered Nazmani Tablet
 		[298965] = select(1,GetAchievementCriteriaInfo(13024,3)),	-- Cracked Tablet
 		[299073] = select(1,GetAchievementCriteriaInfo(13024,4)),	-- Fractured Tablet
+		[279750] = "Hay Covered Chest",
 		
 		
 		[9999999] = "Treasure Chest",	-- Because we have to make up on our own objectID's until information rolls in.  Start with this one and go down the list when entering.
