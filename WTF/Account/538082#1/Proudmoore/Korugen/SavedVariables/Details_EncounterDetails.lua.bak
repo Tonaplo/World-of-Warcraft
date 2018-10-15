@@ -272,14 +272,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Doom'rel",
 		},
-		[11974] = {
-			["school"] = 2,
+		[15061] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Vile'rel",
+			["source"] = "Anger'rel",
 		},
 		[8994] = {
 			["school"] = 32,
@@ -307,13 +306,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dope'rel",
 		},
-		[15061] = {
-			["school"] = 1,
+		[11974] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Anger'rel",
+			["source"] = "Vile'rel",
 		},
 		[13847] = {
 			["school"] = 1,
