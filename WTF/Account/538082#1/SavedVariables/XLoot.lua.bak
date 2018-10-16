@@ -82,6 +82,7 @@ XLootADB = {
 		["Faerand - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
 		["Praerend - Icecrown"] = "Default",
+		["Tyindel - Frostwolf"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Deminath - Proudmoore"] = "Default",
 		["Kindhoof - Tichondrius"] = "Default",

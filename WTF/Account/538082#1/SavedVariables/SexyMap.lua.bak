@@ -187,6 +187,7 @@ SexyMap2DB = {
 	["Amranar-Proudmoore"] = "global",
 	["Thedodrouk-Icecrown"] = "global",
 	["Lorvol-Tichondrius"] = "global",
+	["Fandagny-Frostwolf"] = "global",
 	["Deminath-Hyjal"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -324,8 +325,8 @@ SexyMap2DB = {
 		},
 	},
 	["Zaliga-Tichondrius"] = "global",
-	["Fandagny-Frostwolf"] = "global",
-	["Kindhoof-Proudmoore"] = "global",
+	["Luugo-Frostwolf"] = "global",
+	["Tyindel-Frostwolf"] = "global",
 	["presets"] = {
 	},
 	["Kindhoof-Tichondrius"] = "global",
@@ -479,5 +480,5 @@ SexyMap2DB = {
 	["Faerand-Icecrown"] = "global",
 	["Morifa-Proudmoore"] = "global",
 	["Caircaidin-Frostwolf"] = "global",
-	["Luugo-Frostwolf"] = "global",
+	["Kindhoof-Proudmoore"] = "global",
 }

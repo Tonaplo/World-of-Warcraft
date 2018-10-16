@@ -6,6 +6,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Faerand - Icecrown"] = "Faerand - Icecrown",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
@@ -26,6 +27,8 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Amranar - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
+		},
+		["Tyindel - Frostwolf"] = {
 		},
 		["Praerend - Icecrown"] = {
 		},

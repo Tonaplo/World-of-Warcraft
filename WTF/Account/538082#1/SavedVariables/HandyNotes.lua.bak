@@ -8,6 +8,7 @@ HandyNotesDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
+		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
@@ -54,6 +55,8 @@ HandyNotesDB = {
 		["Rahran - Proudmoore"] = {
 		},
 		["Praerend - Icecrown"] = {
+		},
+		["Tyindel - Frostwolf"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
@@ -128,6 +131,7 @@ HandyNotes_HandyNotesDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
+		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
@@ -174,6 +178,8 @@ HandyNotes_HandyNotesDB = {
 		["Rahran - Proudmoore"] = {
 		},
 		["Praerend - Icecrown"] = {
+		},
+		["Tyindel - Frostwolf"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},

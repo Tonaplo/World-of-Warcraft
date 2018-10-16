@@ -8,6 +8,7 @@ QuesterDB = {
 		["Faerand - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
 		["Praerend - Icecrown"] = "Default",
+		["Tyindel - Frostwolf"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Deminath - Proudmoore"] = "Default",
 		["Rentror - Bleeding Hollow"] = "Default",
