@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Emperor Dagran Thaurissan",
+		}, -- [1]
+		{
+			["boss"] = "Magmus",
+		}, -- [2]
+		{
+			["boss"] = "The Seven",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[12169] = {
 			["school"] = 1,
@@ -127,12 +138,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vile'rel",
 		},
-		[8364] = {
-			["school"] = 16,
+		[15643] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Seeth'rel",
+			["source"] = "Emperor Dagran Thaurissan",
 		},
 		[13730] = {
 			["school"] = 1,
@@ -152,29 +163,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Emperor Dagran Thaurissan",
 		},
-		[15087] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Dope'rel",
-		},
-		[15498] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Shadowforge Senator",
-		},
-		[13489] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Burning Spirit",
-		},
 		[15654] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -183,6 +171,34 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "High Priestess of Thaurissan",
+		},
+		[14868] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shadowforge Senator",
+		},
+		[12040] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hate'rel",
+		},
+		[15087] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dope'rel",
 		},
 		[15245] = {
 			["school"] = 32,
@@ -200,13 +216,10 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ironhand Guardian",
 		},
-		[14868] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[15498] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Shadowforge Senator",
 		},
@@ -229,14 +242,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anger'rel",
 		},
-		[12493] = {
-			["school"] = 32,
+		[13847] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Doom'rel",
+			["source"] = "Gloom'rel",
 		},
 		[11972] = {
 			["school"] = 1,
@@ -246,14 +259,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anvilrage Captain",
 		},
-		[14744] = {
-			["school"] = 1,
+		[11974] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ambassador Flamelash",
+			["source"] = "Vile'rel",
 		},
 		[13737] = {
 			["school"] = 1,
@@ -280,22 +293,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anger'rel",
 		},
-		[8994] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Doom'rel",
-		},
-		[15062] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Anger'rel",
-		},
 		[12540] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -306,32 +303,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dope'rel",
 		},
-		[11974] = {
-			["school"] = 2,
+		[15062] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Vile'rel",
+			["source"] = "Anger'rel",
 		},
-		[13847] = {
+		[8994] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Doom'rel",
+		},
+		[14744] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ambassador Flamelash",
+		},
+		[12493] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gloom'rel",
+			["source"] = "Doom'rel",
 		},
-		[12040] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[13489] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hate'rel",
+			["source"] = "Burning Spirit",
 		},
 		[15537] = {
 			["school"] = 32,
@@ -359,23 +370,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ironhand Guardian",
 		},
-		[15643] = {
-			["school"] = 4,
+		[8364] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Emperor Dagran Thaurissan",
+			["source"] = "Seeth'rel",
 		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Emperor Dagran Thaurissan",
-		}, -- [1]
-		{
-			["boss"] = "Magmus",
-		}, -- [2]
-		{
-			["boss"] = "The Seven",
-		}, -- [3]
 	},
 }
