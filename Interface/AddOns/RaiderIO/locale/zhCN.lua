@@ -100,6 +100,8 @@ L["HEALER_SCORE"] = "治疗者评分"
 L["KEYSTONE_COMPLETED_10"] = "+10-14 完成的钥石"
 L["KEYSTONE_COMPLETED_15"] = "+15 完成的钥石"
 --[[Translation missing --]]
+--[[ L["KEYSTONE_COMPLETED_5"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["LEGION_MAIN_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LEGION_SCORE"] = ""--]] 
@@ -186,6 +188,8 @@ L["TANK"] = "坦克"
 L["TANK_SCORE"] = "坦克评分"
 L["TIMED_10_RUNS"] = "限时通关 10-14 次数"
 L["TIMED_15_RUNS"] = "限时通关 15+ 次数"
+--[[Translation missing --]]
+--[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "提示自定义"
 --[[Translation missing --]]
 --[[ L["TOOLTIP_PROFILE"] = ""--]] 

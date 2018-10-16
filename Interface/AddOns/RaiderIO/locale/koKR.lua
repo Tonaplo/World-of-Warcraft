@@ -83,6 +83,8 @@ L["INVERSE_PROFILE_MODIFIER_DESC"] = "툴팁에 프로필 표시 전환 사용. 
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (정복자)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (장인)"
 --[[Translation missing --]]
+--[[ L["KEYSTONE_COMPLETED_5"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["LEGION_MAIN_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LEGION_SCORE"] = ""--]] 
@@ -149,6 +151,8 @@ L["TANK"] = "|cff2478FF방어전담|r"
 L["TANK_SCORE"] = "|cff2478FF방어전담|r 점수"
 L["TIMED_10_RUNS"] = "+10-14단 횟수"
 L["TIMED_15_RUNS"] = "15단+ 횟수"
+--[[Translation missing --]]
+--[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "점수 툴팁 설정"
 L["TOOLTIP_PROFILE"] = "프로필 설정"
 --[[Translation missing --]]

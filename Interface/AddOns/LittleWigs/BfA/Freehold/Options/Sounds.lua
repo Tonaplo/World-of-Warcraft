@@ -4,6 +4,7 @@ BigWigs:AddSounds("Skycap'n Kragg", {
 	[256016] = "alarm",
 	[256060] = "warning",
 	[256106] = "alert",
+	[272046] = "alarm",
 	["stages"] = "info",
 })
 

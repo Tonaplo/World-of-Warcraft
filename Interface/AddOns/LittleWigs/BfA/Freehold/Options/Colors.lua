@@ -4,6 +4,7 @@ BigWigs:AddColors("Skycap'n Kragg", {
 	[256016] = "blue",
 	[256060] = "red",
 	[256106] = "yellow",
+	[272046] = "orange",
 	["stages"] = "cyan",
 })
 

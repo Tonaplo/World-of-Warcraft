@@ -110,6 +110,8 @@ Wenn du dies aktivierst, wird das Verhalten des Profil-Tooltip-Modifikators (Shi
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (SSE)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (SSM)"
 --[[Translation missing --]]
+--[[ L["KEYSTONE_COMPLETED_5"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["LEGION_MAIN_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LEGION_SCORE"] = ""--]] 
@@ -175,6 +177,8 @@ L["TANK"] = "Tank"
 L["TANK_SCORE"] = "Tank Wertung"
 L["TIMED_10_RUNS"] = "Erfolgreiche +10-14 Runs"
 L["TIMED_15_RUNS"] = "Erfolgreiche +15 Runs"
+--[[Translation missing --]]
+--[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "Wertung Tooltip Anpassungen"
 L["TOOLTIP_PROFILE"] = "Profil Tooltip Anpassungen"
 --[[Translation missing --]]

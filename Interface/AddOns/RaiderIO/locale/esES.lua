@@ -98,6 +98,8 @@ L["INVERSE_PROFILE_MODIFIER_DESC"] = "Invierte el comportamiento del modificador
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (completadas)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (completadas)"
 --[[Translation missing --]]
+--[[ L["KEYSTONE_COMPLETED_5"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["LEGION_MAIN_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LEGION_SCORE"] = ""--]] 
@@ -166,6 +168,8 @@ L["TANK"] = "Tanque"
 L["TANK_SCORE"] = "Puntuación de tanque"
 L["TIMED_10_RUNS"] = "+10-14 en tiempo"
 L["TIMED_15_RUNS"] = "+15 en tiempo"
+--[[Translation missing --]]
+--[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "Personalización de ventanas emergentes"
 L["TOOLTIP_PROFILE"] = "Personalización del marco de perfil"
 --[[Translation missing --]]

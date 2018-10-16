@@ -83,6 +83,8 @@ L["INVERSE_PROFILE_MODIFIER_DESC"] = "Activer cette option va inverser le compor
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (CM)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (MM)"
 --[[Translation missing --]]
+--[[ L["KEYSTONE_COMPLETED_5"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["LEGION_MAIN_SCORE"] = ""--]] 
 L["LEGION_SCORE"] = "Score Legion"
 --[[Translation missing --]]
@@ -147,6 +149,8 @@ L["TANK"] = "Tank"
 L["TANK_SCORE"] = "Score en tank"
 L["TIMED_10_RUNS"] = "10-14+ dans les temps"
 L["TIMED_15_RUNS"] = "15+ dans les temps"
+--[[Translation missing --]]
+--[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "Modification de l'info-bulle"
 L["TOOLTIP_PROFILE"] = "Modification du Profil"
 --[[Translation missing --]]

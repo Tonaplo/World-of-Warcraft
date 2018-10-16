@@ -81,6 +81,8 @@ L["HEALER_SCORE"] = "Очки лекаря"
 L["KEYSTONE_COMPLETED_10"] = "+10 (К-з)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (Вк)"
 --[[Translation missing --]]
+--[[ L["KEYSTONE_COMPLETED_5"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["LEGION_MAIN_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LEGION_SCORE"] = ""--]] 
@@ -155,6 +157,8 @@ L["TANK"] = "Танк"
 L["TANK_SCORE"] = "Очки танка"
 L["TIMED_10_RUNS"] = "Пройдено 10-14 ключей вовремя"
 L["TIMED_15_RUNS"] = "Пройдено 15+ ключей вовремя"
+--[[Translation missing --]]
+--[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "Настройки подсказок"
 --[[Translation missing --]]
 --[[ L["TOOLTIP_PROFILE"] = ""--]] 
