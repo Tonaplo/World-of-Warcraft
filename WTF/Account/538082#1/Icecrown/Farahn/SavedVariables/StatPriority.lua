@@ -1,0 +1,2 @@
+
+statPriorityStats = nil

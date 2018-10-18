@@ -19,11 +19,11 @@ CliqueDB3 = {
 		},
 		["Faerand - Icecrown"] = {
 			["spec1_profileKey"] = "Faerand - Icecrown",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Faerand - Icecrown",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Faerand - Icecrown",
 			["spec3_profileKey"] = "Faerand - Icecrown",
+			["specswap"] = false,
 		},
 		["Praerend - Proudmoore"] = {
 			["spec1_profileKey"] = "Praerend - Proudmoore",
@@ -47,6 +47,14 @@ CliqueDB3 = {
 			["downclick"] = false,
 			["fastooc"] = false,
 			["spec2_profileKey"] = "Rahran - Icecrown",
+			["specswap"] = false,
+		},
+		["Deminath - Proudmoore"] = {
+			["spec1_profileKey"] = "Deminath - Proudmoore",
+			["spec2_profileKey"] = "Deminath - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Deminath - Proudmoore",
 			["specswap"] = false,
 		},
 		["Fimwack - Proudmoore"] = {
@@ -98,13 +106,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Zearthan - Proudmoore",
 			["specswap"] = false,
 		},
-		["Korugen - Proudmoore"] = {
-			["spec1_profileKey"] = "Korugen - Proudmoore",
-			["spec3_profileKey"] = "Korugen - Proudmoore",
+		["Granjior - Proudmoore"] = {
+			["spec1_profileKey"] = "Paladin - Holy",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Korugen - Proudmoore",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Non-Healer",
+			["spec3_profileKey"] = "Non-Healer",
 		},
 		["Rahran - Proudmoore"] = {
 			["spec1_profileKey"] = "Rahran - Proudmoore",
@@ -114,21 +122,13 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec3_profileKey"] = "Rahran - Proudmoore",
 		},
-		["Granjior - Proudmoore"] = {
-			["spec1_profileKey"] = "Paladin - Holy",
-			["specswap"] = true,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Non-Healer",
-			["spec3_profileKey"] = "Non-Healer",
-		},
 		["Praerend - Icecrown"] = {
 			["spec1_profileKey"] = "Praerend - Icecrown",
-			["specswap"] = false,
+			["spec3_profileKey"] = "Praerend - Icecrown",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 			["spec2_profileKey"] = "Praerend - Icecrown",
-			["spec3_profileKey"] = "Praerend - Icecrown",
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
@@ -165,18 +165,18 @@ CliqueDB3 = {
 		},
 		["Thedodrouk - Icecrown"] = {
 			["spec1_profileKey"] = "Thedodrouk - Icecrown",
-			["spec3_profileKey"] = "Thedodrouk - Icecrown",
-			["downclick"] = false,
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Thedodrouk - Icecrown",
-			["specswap"] = false,
-		},
-		["Deminath - Proudmoore"] = {
-			["spec1_profileKey"] = "Deminath - Proudmoore",
-			["spec2_profileKey"] = "Deminath - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Deminath - Proudmoore",
+			["specswap"] = false,
+			["spec3_profileKey"] = "Thedodrouk - Icecrown",
+		},
+		["Korugen - Proudmoore"] = {
+			["spec1_profileKey"] = "Korugen - Proudmoore",
+			["spec3_profileKey"] = "Korugen - Proudmoore",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Korugen - Proudmoore",
 			["specswap"] = false,
 		},
 		["Kindhoof - Tichondrius"] = {
@@ -222,16 +222,16 @@ CliqueDB3 = {
 		},
 		["Mallusof - Icecrown"] = {
 			["spec1_profileKey"] = "Priest - Disc",
+			["alerthidden"] = true,
+			["downclick"] = false,
+			["specswap"] = true,
 			["fastooc"] = false,
+			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Priest - Holy",
 			["blacklist"] = {
 				["oUF_LUI_player"] = true,
 				["oUF_LUI_target"] = true,
 			},
-			["spec2_profileKey"] = "Priest - Holy",
-			["downclick"] = false,
-			["alerthidden"] = true,
-			["specswap"] = true,
-			["spec3_profileKey"] = "Non-Healer",
 		},
 	},
 	["profileKeys"] = {
@@ -239,26 +239,29 @@ CliqueDB3 = {
 		["Kaldorath - Proudmoore"] = "Non-Healer",
 		["Faerand - Icecrown"] = "Faerand - Icecrown",
 		["Praerend - Proudmoore"] = "Non-Healer",
+		["Amranar - Proudmoore"] = "Druid - Feral",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Korugen - Icecrown"] = "Korugen - Icecrown",
+		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Fimwack - Proudmoore"] = "Non-Healer",
 		["Greybone - Proudmoore"] = "Non-Healer",
-		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
-		["Faerand - Proudmoore"] = "Non-Healer",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Faerand - Proudmoore"] = "Non-Healer",
+		["Morifa - Proudmoore"] = "Non-Healer",
 		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
-		["Amranar - Proudmoore"] = "Druid - Feral",
+		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Rahran - Proudmoore"] = "Non-Healer",
-		["Granjior - Proudmoore"] = "Non-Healer",
+		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
 		["Farahn - Proudmoore"] = "Shaman - Resto",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Mallusof - Tichondrius"] = "Priest - Shadow",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
-		["Morifa - Proudmoore"] = "Non-Healer",
-		["Miriyal - Proudmoore"] = "Non-Healer",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Miriyal - Proudmoore"] = "Non-Healer",
+		["Granjior - Proudmoore"] = "Non-Healer",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Alura - Tichondrius"] = "Priest - Shadow",
 		["Mallusof - Icecrown"] = "Non-Healer",
 	},
@@ -827,7 +830,64 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
+		["Luugo - Frostwolf"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Farahn - Icecrown"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Druid - Feral"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Korugen - Icecrown"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -865,7 +925,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Luugo - Frostwolf"] = {
+		["Kaldorath - Icecrown"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -903,7 +963,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Korugen - Proudmoore"] = {
+		["Caircaidin - Frostwolf"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -1145,7 +1205,7 @@ CliqueDB3 = {
 				}, -- [11]
 			},
 		},
-		["Rahran - Icecrown"] = {
+		["Korugen - Proudmoore"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -1164,7 +1224,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Caircaidin - Frostwolf"] = {
+		["Rahran - Icecrown"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
