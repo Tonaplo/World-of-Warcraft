@@ -61,14 +61,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slagmaw",
 		},
-		[120024] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lava Guard Gordoth",
-		},
 		[119964] = {
 			["school"] = 32,
 			["token"] = {
@@ -82,6 +74,14 @@ EncounterDetailsDB = {
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lava Guard Gordoth",
+		},
+		[120024] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Lava Guard Gordoth",
 		},

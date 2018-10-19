@@ -14,6 +14,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
 		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
@@ -46,6 +47,8 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Thedodrouk - Icecrown"] = {
 		},
 		["Caircaidin - Frostwolf"] = {
+		},
+		["Greybone - Icecrown"] = {
 		},
 		["Korugen - Icecrown"] = {
 		},
