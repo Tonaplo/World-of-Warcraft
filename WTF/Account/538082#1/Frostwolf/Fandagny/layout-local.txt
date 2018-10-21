@@ -6,3 +6,10 @@ X: 0
 Y: 0
 W: 365
 H: 200
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: CENTER
+X: -3
+Y: 2
+W: 300
+H: 176

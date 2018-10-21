@@ -15,10 +15,10 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
-		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Korugen - Icecrown"] = "Korugen - Icecrown",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
@@ -50,13 +50,13 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Greybone - Icecrown"] = {
 		},
-		["Korugen - Icecrown"] = {
-		},
-		["Deminath - Proudmoore"] = {
+		["Korugen - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
-		["Korugen - Proudmoore"] = {
+		["Deminath - Proudmoore"] = {
+		},
+		["Korugen - Icecrown"] = {
 		},
 		["Mallusof - Icecrown"] = {
 			["tooltip_questid"] = true,

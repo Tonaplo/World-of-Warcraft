@@ -992,17 +992,14 @@ RematchSettings = {
 	["QueueSortOrder"] = 1,
 	["XPos"] = 254.550247192383,
 	["DialogYPos"] = 554.132568359375,
-	["Sort"] = {
-		["Order"] = 2,
-		["FavoritesFirst"] = true,
-	},
+	["JournalUsed"] = true,
+	["loadedTeam"] = 66522,
 	["SpecialSlots"] = {
 	},
-	["JournalUsed"] = true,
 	["LevelingQueue"] = {
 	},
-	["DialogXPos"] = 978.30224609375,
-	["JournalPanel"] = 1,
+	["DialogXPos"] = 979.325622558594,
+	["AllowHiddenPetsDefaulted"] = true,
 	["BackupCount"] = 0,
 	["TeamGroups"] = {
 		{
@@ -1044,9 +1041,9 @@ RematchSettings = {
 		["Types"] = {
 		},
 	},
-	["loadedTeam"] = 66135,
 	["FavoriteFilters"] = {
 	},
+	["JournalPanel"] = 1,
 	["ShowOnTarget"] = false,
 	["CollapsedOptHeaders"] = {
 		nil, -- [1]
@@ -1080,10 +1077,10 @@ RematchSettings = {
 			2, -- [1]
 			true, -- [2]
 			1623, -- [3]
-			7, -- [4]
-			505, -- [5]
-			81, -- [6]
-			73, -- [7]
+			10, -- [4]
+			678, -- [5]
+			116, -- [6]
+			104, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-00000AD7751C"] = {
@@ -1300,10 +1297,10 @@ RematchSettings = {
 			1, -- [1]
 			true, -- [2]
 			347, -- [3]
-			22, -- [4]
-			1315, -- [5]
-			265, -- [6]
-			222, -- [7]
+			23, -- [4]
+			1371, -- [5]
+			277, -- [6]
+			232, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-00000AD77507"] = {
@@ -1347,7 +1344,7 @@ RematchSettings = {
 			4, -- [8]
 		},
 		["BattlePet-0-00000AD7755E"] = {
-			2, -- [1]
+			1, -- [1]
 			true, -- [2]
 			1734, -- [3]
 			24, -- [4]
@@ -1540,10 +1537,10 @@ RematchSettings = {
 			1, -- [1]
 			true, -- [2]
 			1926, -- [3]
-			22, -- [4]
-			1373, -- [5]
-			257, -- [6]
-			226, -- [7]
+			23, -- [4]
+			1431, -- [5]
+			269, -- [6]
+			236, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-00000AD7752E"] = {
@@ -1577,7 +1574,7 @@ RematchSettings = {
 			4, -- [8]
 		},
 		["BattlePet-0-00000AD77557"] = {
-			5, -- [1]
+			3, -- [1]
 			true, -- [2]
 			1761, -- [3]
 			25, -- [4]
@@ -1587,7 +1584,7 @@ RematchSettings = {
 			4, -- [8]
 		},
 		["BattlePet-0-00000AD7755C"] = {
-			7, -- [1]
+			5, -- [1]
 			true, -- [2]
 			1587, -- [3]
 			25, -- [4]
@@ -1607,7 +1604,7 @@ RematchSettings = {
 			4, -- [8]
 		},
 		["BattlePet-0-00000AD77561"] = {
-			10, -- [1]
+			9, -- [1]
 			true, -- [2]
 			844, -- [3]
 			25, -- [4]
@@ -1659,8 +1656,11 @@ RematchSettings = {
 	},
 	["NotifiedExperimental"] = true,
 	["CornerPos"] = "BOTTOMLEFT",
+	["Sort"] = {
+		["Order"] = 2,
+		["FavoritesFirst"] = true,
+	},
 	["PromptToLoad"] = true,
-	["AllowHiddenPetsDefaulted"] = true,
 	["UseTypeBar"] = true,
 	["SelectedTab"] = 1,
 	["PetNotes"] = {

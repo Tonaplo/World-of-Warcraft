@@ -20,28 +20,22 @@ SexyMap2DB = {
 			["borderColor"] = {
 			},
 			["xOffset"] = 0,
+			["updateRate"] = 0.5,
 			["backgroundColor"] = {
 			},
-			["updateRate"] = 0.5,
 			["yOffset"] = 10,
 		},
-		["movers"] = {
-			["enabled"] = true,
-			["framePositions"] = {
-				["ObjectiveTrackerFrame"] = {
-					["y"] = 852.268005371094,
-					["x"] = 1718.96520996094,
-				},
-				["DurabilityFrame"] = {
-					["y"] = 811.885559082031,
-					["x"] = 1607.46691894531,
-				},
-				["VehicleSeatIndicator"] = {
-					["y"] = 727.11083984375,
-					["x"] = 1579.00219726563,
-				},
-			},
-			["lock"] = true,
+		["core"] = {
+			["clamp"] = true,
+			["point"] = "TOPRIGHT",
+			["relpoint"] = "TOPRIGHT",
+			["autoZoom"] = 5,
+			["northTag"] = true,
+			["y"] = -74.9572448730469,
+			["x"] = -20.8370418548584,
+			["lock"] = false,
+			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+			["rightClickToConfig"] = true,
 		},
 		["buttons"] = {
 			["radius"] = 10,
@@ -55,9 +49,9 @@ SexyMap2DB = {
 				["MinimapZoomOut"] = "never",
 				["QueueStatusMinimapButton"] = "always",
 				["GarrisonLandingPageMinimapButton"] = "always",
-				["MiniMapWorldMapButton"] = "hover",
-				["MinimapZoneTextButton"] = "always",
 				["LibDBIcon10_ExorsusRaidTools"] = "hover",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "hover",
 			},
 			["dragPositions"] = {
 				["LibDBIcon10_ExorsusRaidTools"] = -9.27105280123834,
@@ -68,26 +62,26 @@ SexyMap2DB = {
 				["MiniMapWorldMapButton"] = 22.1750488706855,
 				["QueueStatusMinimapButton"] = 161.816765760918,
 				["MiniMapTracking"] = 116.402357746043,
-				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
 				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
+				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
 			},
 			["controlVisibility"] = true,
 		},
 		["clock"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["font"] = "Friz Quadrata TT",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -97,8 +91,8 @@ SexyMap2DB = {
 			["borders"] = {
 				{
 					["rotation"] = 225,
-					["name"] = "RenaitreFadeBorder",
 					["blendMode"] = "BLEND",
+					["name"] = "RenaitreFadeBorder",
 					["r"] = 0,
 					["scale"] = 1.47,
 					["b"] = 0,
@@ -148,33 +142,39 @@ SexyMap2DB = {
 		["zonetext"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["font"] = "Friz Quadrata TT",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["core"] = {
-			["clamp"] = true,
-			["point"] = "TOPRIGHT",
-			["relpoint"] = "TOPRIGHT",
-			["autoZoom"] = 5,
-			["northTag"] = true,
-			["y"] = -74.9572448730469,
-			["x"] = -20.8370418548584,
-			["lock"] = false,
-			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
-			["rightClickToConfig"] = true,
+		["movers"] = {
+			["enabled"] = true,
+			["framePositions"] = {
+				["ObjectiveTrackerFrame"] = {
+					["y"] = 852.268005371094,
+					["x"] = 1718.96520996094,
+				},
+				["DurabilityFrame"] = {
+					["y"] = 811.885559082031,
+					["x"] = 1607.46691894531,
+				},
+				["VehicleSeatIndicator"] = {
+					["y"] = 727.11083984375,
+					["x"] = 1579.00219726563,
+				},
+			},
+			["lock"] = true,
 		},
 	},
 	["Alura-Tichondrius"] = "global",
@@ -189,16 +189,16 @@ SexyMap2DB = {
 	["Korugen-Icecrown"] = "global",
 	["Thedodrouk-Icecrown"] = "global",
 	["Lorvol-Tichondrius"] = "global",
-	["Luugo-Frostwolf"] = "global",
+	["Kindhoof-Proudmoore"] = "global",
 	["Farahn-Icecrown"] = "global",
 	["Deminath-Hyjal"] = {
 		["core"] = {
 			["clamp"] = true,
 			["lock"] = false,
-			["rightClickToConfig"] = true,
-			["autoZoom"] = 5,
-			["shape"] = "Interface\\AddOns\\SexyMap\\shapes\\circle.tga",
 			["northTag"] = true,
+			["shape"] = "Interface\\AddOns\\SexyMap\\shapes\\circle.tga",
+			["autoZoom"] = 5,
+			["rightClickToConfig"] = true,
 		},
 		["coordinates"] = {
 			["enabled"] = false,
@@ -211,30 +211,44 @@ SexyMap2DB = {
 			},
 			["updateRate"] = 1,
 		},
-		["ping"] = {
-			["showPing"] = true,
-			["showAt"] = "map",
-		},
 		["movers"] = {
 			["enabled"] = false,
 			["framePositions"] = {
 			},
 			["lock"] = false,
 		},
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["TimeManagerClockButton"] = "always",
+				["QueueStatusMinimapButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
+				["MiniMapMailFrame"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapWorldMapButton"] = "never",
+			},
+			["dragPositions"] = {
+			},
+			["controlVisibility"] = true,
+		},
 		["clock"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -293,38 +307,24 @@ SexyMap2DB = {
 		["zonetext"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["buttons"] = {
-			["radius"] = 10,
-			["lockDragging"] = false,
-			["allowDragging"] = true,
-			["visibilitySettings"] = {
-				["MinimapZoomIn"] = "never",
-				["MinimapZoneTextButton"] = "always",
-				["MiniMapWorldMapButton"] = "never",
-				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "always",
-				["MinimapZoomOut"] = "never",
-				["MiniMapMailFrame"] = "always",
-				["TimeManagerClockButton"] = "always",
-			},
-			["dragPositions"] = {
-			},
-			["controlVisibility"] = true,
+		["ping"] = {
+			["showPing"] = true,
+			["showAt"] = "map",
 		},
 	},
 	["Zaliga-Tichondrius"] = "global",
@@ -333,16 +333,16 @@ SexyMap2DB = {
 	["presets"] = {
 	},
 	["Kaldorath-Icecrown"] = "global",
-	["Kindhoof-Tichondrius"] = "global",
-	["Miriyal-Proudmoore"] = "global",
+	["Faerand-Icecrown"] = "global",
+	["Granjior-Proudmoore"] = "global",
 	["Praerend-Proudmoore"] = "global",
-	["Zethan-Tichondrius"] = "global",
+	["Korugen-Tichondrius"] = "global",
 	["Kaldorath-Proudmoore"] = "global",
 	["Rahran-Icecrown"] = "global",
-	["Korugen-Tichondrius"] = "global",
-	["Granjior-Proudmoore"] = "global",
-	["Faerand-Icecrown"] = "global",
+	["Zethan-Tichondrius"] = "global",
+	["Miriyal-Proudmoore"] = "global",
+	["Kindhoof-Tichondrius"] = "global",
 	["Morifa-Proudmoore"] = "global",
 	["Caircaidin-Frostwolf"] = "global",
-	["Kindhoof-Proudmoore"] = "global",
+	["Luugo-Frostwolf"] = "global",
 }
