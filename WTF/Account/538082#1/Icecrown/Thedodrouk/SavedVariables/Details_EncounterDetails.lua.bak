@@ -61,13 +61,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slagmaw",
 		},
-		[119964] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dark Shaman Koranthal",
-		},
 		[50420] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -84,6 +77,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Lava Guard Gordoth",
+		},
+		[119964] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dark Shaman Koranthal",
 		},
 		[119420] = {
 			["school"] = 4,

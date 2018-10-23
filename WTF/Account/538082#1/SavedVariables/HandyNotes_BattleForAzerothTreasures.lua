@@ -7,6 +7,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
@@ -33,6 +34,8 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Fandagny - Frostwolf"] = {
 		},
 		["Luugo - Frostwolf"] = {
+		},
+		["Miriyal - Icecrown"] = {
 		},
 		["Farahn - Icecrown"] = {
 		},
