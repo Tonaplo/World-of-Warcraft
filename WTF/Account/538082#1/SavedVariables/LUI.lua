@@ -133,10 +133,10 @@ LUIDB = {
 							["Farahn"] = 207795770,
 							["Greybone"] = 987676356,
 							["Faerand"] = 332757806,
-							["Korugen"] = 8573477,
+							["Korugen"] = 8581977,
 							["Kaldorath"] = 1274216901,
-							["Mallusof"] = 1110106019,
-							["Thedodrouk"] = 7489055,
+							["Mallusof"] = 1090072419,
+							["Thedodrouk"] = 7523717,
 							["Rahran"] = 595705761,
 							["Praerend"] = 1499245138,
 						},
@@ -152,9 +152,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
+							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -221,21 +221,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -263,9 +256,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -1037,38 +1037,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/i why split off?", -- [1]
-							"/p great group :)", -- [2]
-							"/raid On Transistion", -- [3]
+							"/raid On Transistion", -- [1]
+							"/i why split off?", -- [2]
+							"/p great group :)", -- [3]
 							"/p I have flames", -- [4]
-							"/i why split off?", -- [5]
-							"/raid On Transistion", -- [6]
-							"/i why split off?", -- [7]
-							"/p great group :)", -- [8]
-							"/i why split off?", -- [9]
-							"/p great group :)", -- [10]
-							"/raid On Transistion", -- [11]
-							"/i why split off?", -- [12]
+							"/raid On Transistion", -- [5]
+							"/p great group :)", -- [6]
+							"/raid On Transistion", -- [7]
+							"/i why split off?", -- [8]
+							"/raid On Transistion", -- [9]
+							"/i why split off?", -- [10]
+							"/p great group :)", -- [11]
+							"/raid On Transistion", -- [12]
 							"/p I have flames", -- [13]
-							"/p great group :)", -- [14]
-							"/i why split off?", -- [15]
-							"/p great group :)", -- [16]
-							"/raid On Transistion", -- [17]
+							"/i why split off?", -- [14]
+							"/raid On Transistion", -- [15]
+							"/i why split off?", -- [16]
+							"/p great group :)", -- [17]
 							"/p I have flames", -- [18]
-							"/i why split off?", -- [19]
-							"/raid On Transistion", -- [20]
-							"/i why split off?", -- [21]
-							"/p great group :)", -- [22]
-							"/raid On Transistion", -- [23]
+							"/raid On Transistion", -- [19]
+							"/p great group :)", -- [20]
+							"/raid On Transistion", -- [21]
+							"/i why split off?", -- [22]
+							"/p great group :)", -- [23]
 							"/p I have flames", -- [24]
-							"/i why split off?", -- [25]
-							"/raid On Transistion", -- [26]
-							"/i why split off?", -- [27]
-							"/p great group :)", -- [28]
+							"/raid On Transistion", -- [25]
+							"/p great group :)", -- [26]
+							"/raid On Transistion", -- [27]
+							"/i why split off?", -- [28]
 							"/p I have flames", -- [29]
-							"/raid On Transistion", -- [30]
-							"/p great group :)", -- [31]
-							"/raid On Transistion", -- [32]
+							"/p great group :)", -- [30]
+							"/i why split off?", -- [31]
+							"/p great group :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
