@@ -28,6 +28,8 @@ L["CHANGES_REQUIRES_UI_RELOAD"] = [=[변경 사항이 저장되었지만 변경 
 지금 하시겠습니까?]=]
 --[[Translation missing --]]
 --[[ L["CHECKBOX_DISPLAY_WEEKLY"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Raider.IO URL 복사"
 L["COPY_RAIDERIO_URL"] = "Raider.IO URL 복사"
 L["DPS"] = "|cffFF3636공격전담|r"
@@ -78,6 +80,10 @@ L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "표준 아이템 품질의 색상만으�
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
 L["HEALER"] = "|cff41FF3A치유전담|r"
 L["HEALER_SCORE"] = "|cff41FF3A치유전담|r 점수"
+--[[Translation missing --]]
+--[[ L["HIDE_OWN_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["HIDE_OWN_PROFILE_DESC"] = ""--]] 
 L["INVERSE_PROFILE_MODIFIER"] = "프로필 전환 사용"
 L["INVERSE_PROFILE_MODIFIER_DESC"] = "툴팁에 프로필 표시 전환 사용. 보조키(Shift/Ctrl/Alt) 유지시 개인 프로필과 파티장 프로필이 전환됩니다."
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (정복자)"
@@ -89,6 +95,8 @@ L["KEYSTONE_COMPLETED_15"] = "+15 (장인)"
 --[[Translation missing --]]
 --[[ L["LEGION_SCORE"] = ""--]] 
 L["LOCKING_PROFILE_FRAME"] = "RaiderIO: 프로필 고정"
+--[[Translation missing --]]
+--[[ L["MAINS_RAID_PROGRESS"] = ""--]] 
 L["MAINS_SCORE"] = "주 캐릭터 점수"
 L["MAINS_SCORE_COLON"] = "주 캐릭터 점수: "
 L["MODULE_AMERICAS"] = "북미"
@@ -108,6 +116,62 @@ L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r의 자료는 |cffFF6666%d|r일 전 �
 L["PLAYER_PROFILE_TITLE"] = "파티장 프로필"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "던전별 최고 기록"
+--[[Translation missing --]]
+--[[ L["RAID_ABBREVIATION_ULD"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_10"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_11"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_9"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_NAME_HEROIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_NAME_MYTHIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_NAME_NORMAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_PROGRESS_TITLE"] = ""--]] 
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "+%s단 시간내 평균 점수"
 --[[Translation missing --]]
 --[[ L["RAIDERIO_CLIENT_CUSTOMIZATION"] = ""--]] 
@@ -115,6 +179,8 @@ L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO 쐐기 기본 점수"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO 쐐기 점수"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO 쐐기 점수: "
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO M+ 설정"
+--[[Translation missing --]]
+--[[ L["RAIDING_DATA_HEADER"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAIDING_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "나중에 다시 불러오겠습니다."
@@ -143,6 +209,10 @@ L["SHOW_ON_GUILD_ROSTER"] = "길드원 목록에 표시"
 L["SHOW_ON_GUILD_ROSTER_DESC"] = "길드원에 마우스를 올리면 신화쐐기돌 점수를 표시합니다."
 L["SHOW_ON_PLAYER_UNITS"] = "플레이어 유닛에 표시"
 L["SHOW_ON_PLAYER_UNITS_DESC"] = "플레이어 유닛에 마우스를 올리면 Mythic+ 점수를 표시합니다."
+--[[Translation missing --]]
+--[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = ""--]] 
 L["SHOW_RAIDERIO_PROFILE"] = "파티 구성하기 툴팁에 표시"
 L["SHOW_RAIDERIO_PROFILE_DESC"] = "파티 구성하기 툴팁에 Raider.IO 프로필을 표시합니다."
 L["SHOW_SCORE_IN_COMBAT"] = "전투 중 점수 표시"
@@ -155,6 +225,8 @@ L["TIMED_15_RUNS"] = "15단+ 횟수"
 --[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "점수 툴팁 설정"
 L["TOOLTIP_PROFILE"] = "프로필 설정"
+--[[Translation missing --]]
+--[[ L["TOTAL_MP_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["TOTAL_RUNS"] = ""--]] 
 L["UNKNOWN_SCORE"] = "알수없음"

@@ -27,6 +27,8 @@ L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Vos changements ont été sauvegardé, mais
 
 Voulez-vous faire cela maintenant ?]=]
 L["CHECKBOX_DISPLAY_WEEKLY"] = "Hebdomadaire"
+--[[Translation missing --]]
+--[[ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Copier le profil Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Copier l'url Raider.IO"
 L["DPS"] = "DPS"
@@ -78,6 +80,10 @@ L["GUILD_BEST_TITLE"] = "Record Raider.IO"
 L["GUILD_BEST_WEEKLY"] = "Guilde : Top Semaine"
 L["HEALER"] = "Heal"
 L["HEALER_SCORE"] = "Score en heal"
+--[[Translation missing --]]
+--[[ L["HIDE_OWN_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["HIDE_OWN_PROFILE_DESC"] = ""--]] 
 L["INVERSE_PROFILE_MODIFIER"] = "Inverser le modificateur de l'info bulle"
 L["INVERSE_PROFILE_MODIFIER_DESC"] = "Activer cette option va inverser le comportement de l'info-bulle lorsque l'on utilise les touches (shift/ctrl/alt)."
 L["KEYSTONE_COMPLETED_10"] = "+10-14 (CM)"
@@ -89,6 +95,8 @@ L["KEYSTONE_COMPLETED_15"] = "+15 (MM)"
 L["LEGION_SCORE"] = "Score Legion"
 --[[Translation missing --]]
 --[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["MAINS_RAID_PROGRESS"] = ""--]] 
 L["MAINS_SCORE"] = "Score du personnage principal"
 L["MAINS_SCORE_COLON"] = "Score du personnage principal :"
 L["MODULE_AMERICAS"] = "Amérique"
@@ -107,12 +115,70 @@ L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r utilise de la data qui est vieux de |
 L["PLAYER_PROFILE_TITLE"] = "Profil Mythic+ du joueur"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "Meilleurs Donjons"
+--[[Translation missing --]]
+--[[ L["RAID_ABBREVIATION_ULD"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_10"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_11"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ABT_9"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_ULD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_NAME_HEROIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_NAME_MYTHIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_NAME_NORMAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_PROGRESS_TITLE"] = ""--]] 
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Moy. de score Raider.IO sur des +%s"
 L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Modification avec le Client RaiderIO"
 L["RAIDERIO_MP_BASE_SCORE"] = "Score MM+ Raider.IO de base "
 L["RAIDERIO_MP_SCORE"] = "Score Raider.IO M+"
 L["RAIDERIO_MP_SCORE_COLON"] = "Score Raider.IO M+ :"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Options de l'addon Raider.IO"
+--[[Translation missing --]]
+--[[ L["RAIDING_DATA_HEADER"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAIDING_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "Je rechargerai l'interface plus tard"
@@ -141,6 +207,10 @@ L["SHOW_ON_GUILD_ROSTER"] = "Afficher dans l'onglet guilde"
 L["SHOW_ON_GUILD_ROSTER_DESC"] = "Afficher le score Mythique+ lorsqu'on survole un joueur dans la liste des membres de la guilde."
 L["SHOW_ON_PLAYER_UNITS"] = "Afficher sur les cadres d'unité"
 L["SHOW_ON_PLAYER_UNITS_DESC"] = "Afficher le score Mythique+ lorsqu'on survole le cadre d'un joueur. "
+--[[Translation missing --]]
+--[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = ""--]] 
 L["SHOW_RAIDERIO_PROFILE"] = "Afficher le Profil Raider.IO dans la recherche de donjon"
 L["SHOW_RAIDERIO_PROFILE_DESC"] = "Afficher le Profil Raider.IO en Info-Bulle dans la recherche de donjon"
 L["SHOW_SCORE_IN_COMBAT"] = "Afficher le score en combat"
@@ -153,6 +223,8 @@ L["TIMED_15_RUNS"] = "15+ dans les temps"
 --[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "Modification de l'info-bulle"
 L["TOOLTIP_PROFILE"] = "Modification du Profil"
+--[[Translation missing --]]
+--[[ L["TOTAL_MP_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["TOTAL_RUNS"] = ""--]] 
 L["UNKNOWN_SCORE"] = "Inconnu"
