@@ -133,10 +133,10 @@ LUIDB = {
 							["Farahn"] = 207795770,
 							["Greybone"] = 987676356,
 							["Faerand"] = 332757806,
-							["Korugen"] = 8581977,
+							["Korugen"] = 8590477,
 							["Kaldorath"] = 1274216901,
-							["Mallusof"] = 1090072419,
-							["Thedodrouk"] = 7523717,
+							["Mallusof"] = 1118976303,
+							["Thedodrouk"] = 7557936,
 							["Rahran"] = 595705761,
 							["Praerend"] = 1499245138,
 						},
@@ -152,9 +152,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
-							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -221,14 +221,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -256,16 +263,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1037,38 +1037,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/raid On Transistion", -- [1]
-							"/i why split off?", -- [2]
-							"/p great group :)", -- [3]
-							"/p I have flames", -- [4]
-							"/raid On Transistion", -- [5]
-							"/p great group :)", -- [6]
-							"/raid On Transistion", -- [7]
-							"/i why split off?", -- [8]
-							"/raid On Transistion", -- [9]
-							"/i why split off?", -- [10]
-							"/p great group :)", -- [11]
-							"/raid On Transistion", -- [12]
-							"/p I have flames", -- [13]
-							"/i why split off?", -- [14]
-							"/raid On Transistion", -- [15]
-							"/i why split off?", -- [16]
-							"/p great group :)", -- [17]
-							"/p I have flames", -- [18]
-							"/raid On Transistion", -- [19]
-							"/p great group :)", -- [20]
-							"/raid On Transistion", -- [21]
-							"/i why split off?", -- [22]
-							"/p great group :)", -- [23]
-							"/p I have flames", -- [24]
-							"/raid On Transistion", -- [25]
-							"/p great group :)", -- [26]
-							"/raid On Transistion", -- [27]
-							"/i why split off?", -- [28]
-							"/p I have flames", -- [29]
-							"/p great group :)", -- [30]
-							"/i why split off?", -- [31]
-							"/p great group :)", -- [32]
+							" whispered Paul", -- [1]
+							"/4 |cff0070dd|Hitem:163617::::::::120:258::::::|h[Rusted Alliance Insignia]|h|r", -- [2]
+							"/i I messed up", -- [3]
+							"/i wow", -- [4]
+							"/i really", -- [5]
+							"/4 .... I hate those people", -- [6]
+							"/raid |cffa335ee|Hitem:160616::::::::120:256::5:3:4823:1492:4786:::|h[Horrific Amalgam's Hood]|h|r", -- [7]
+							"/cw Kalithumos-Tichondrius Yeah, but he raids on his paladin", -- [8]
+							"/s ?", -- [9]
+							"/cw Kalithumos-Tichondrius Yeah, but he raids on his paladin", -- [10]
+							"/cw Kalithumos-Tichondrius He doesnt know yet, lol", -- [11]
+							"/4 .... I hate those people", -- [12]
+							"/cw Kalithumos-Tichondrius Yeah, but he raids on his paladin", -- [13]
+							"/cw Kalithumos-Tichondrius He doesnt know yet, lol", -- [14]
+							"/cw Kalithumos-Tichondrius Yeah, but he raids on his paladin", -- [15]
+							" aLRIGHT", -- [16]
+							" 7 mins past raid time", -- [17]
+							" whispered Paul", -- [18]
+							"/i I messed up", -- [19]
+							"/i really", -- [20]
+							"/raid |cffa335ee|Hitem:160616::::::::120:256::5:3:4823:1492:4786:::|h[Horrific Amalgam's Hood]|h|r", -- [21]
+							"/s ?", -- [22]
+							"/cw Kalithumos-Tichondrius He doesnt know yet, lol", -- [23]
+							"/cw Kalithumos-Tichondrius Yeah, but he raids on his paladin", -- [24]
+							" aLRIGHT", -- [25]
+							" whispered Paul", -- [26]
+							"/i really", -- [27]
+							"/s ?", -- [28]
+							"/cw Kalithumos-Tichondrius Yeah, but he raids on his paladin", -- [29]
+							" whispered Paul", -- [30]
+							"/s ?", -- [31]
+							" whispered Paul", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
