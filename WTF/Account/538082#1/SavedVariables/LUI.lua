@@ -64,10 +64,10 @@ LUIDB = {
 							["Farahn"] = 207795770,
 							["Greybone"] = 987676356,
 							["Faerand"] = 332757806,
-							["Korugen"] = 8822180,
+							["Korugen"] = 8839180,
 							["Kaldorath"] = 1274216901,
-							["Mallusof"] = 1122970106,
-							["Thedodrouk"] = 7703156,
+							["Mallusof"] = 1122938858,
+							["Thedodrouk"] = 7904382,
 							["Rahran"] = 595705761,
 							["Praerend"] = 1499245138,
 						},
@@ -85,9 +85,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -221,14 +221,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -256,16 +262,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1268,38 +1268,38 @@ LUIDB = {
 							"/i thanks :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/p great", -- [1]
-							" whatever", -- [2]
-							" I think Kaligon already got me his group lol", -- [3]
-							" I think so", -- [4]
-							"/p 1", -- [5]
-							" what?", -- [6]
-							" Whoever wants to sit out, go ahead", -- [7]
-							" I think sO?", -- [8]
-							"/p great", -- [9]
-							" I think Kaligon already got me his group lol", -- [10]
-							"/p 1", -- [11]
-							" Whoever wants to sit out, go ahead", -- [12]
-							"/p great", -- [13]
-							"/p 1", -- [14]
-							"/p great", -- [15]
+							"/cw Swifttyy-Icecrown oh thanks :P", -- [1]
+							" lolwhut?", -- [2]
+							" I have not", -- [3]
+							"/cw Swifttyy-Icecrown oh thanks :P", -- [4]
+							" I have not", -- [5]
+							" lolwhut?", -- [6]
+							"/cw Swifttyy-Icecrown oh thanks :P", -- [7]
+							" lolwhut?", -- [8]
+							" I have not", -- [9]
+							" lolwhut?", -- [10]
+							" I have not", -- [11]
+							"/raid here", -- [12]
+							" I have not", -- [13]
+							"/cw Swifttyy-Icecrown oh thanks :P", -- [14]
+							" lolwhut?", -- [15]
 							" I have not", -- [16]
-							" GREAT", -- [17]
-							"/cw Unshocked-Proudmoore dps :()", -- [18]
-							"/cw Kholvinski-EmeraldDream I was just trying to call out cooldown", -- [19]
-							"/cw Kholvinski-EmeraldDream s", -- [20]
-							" I take it you're not coming :)", -- [21]
-							"/raid need 2", -- [22]
-							"/raid ok", -- [23]
-							"/raid here", -- [24]
-							"/raid sorry", -- [25]
-							"/raid Int", -- [26]
-							"/raid I am lagging like a motherfucker", -- [27]
-							" no", -- [28]
-							"/raid tomorrow?", -- [29]
-							"/cw Swifttyy-Icecrown ? What's up?", -- [30]
-							"/cw Swifttyy-Icecrown oh thanks :P", -- [31]
-							" lolwhut?", -- [32]
+							"/cw Swifttyy-Icecrown oh thanks :P", -- [17]
+							" I have not", -- [18]
+							" lolwhut?", -- [19]
+							"/cw Swifttyy-Icecrown oh thanks :P", -- [20]
+							" lolwhut?", -- [21]
+							" I have not", -- [22]
+							" lolwhut?", -- [23]
+							" I have not", -- [24]
+							"/raid here", -- [25]
+							"/cw Swifttyy-Icecrown oh thanks :P", -- [26]
+							" I have not", -- [27]
+							" lolwhut?", -- [28]
+							" I have not", -- [29]
+							"/raid here", -- [30]
+							" I have not", -- [31]
+							"/raid here", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
