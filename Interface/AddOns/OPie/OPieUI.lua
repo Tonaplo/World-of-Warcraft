@@ -5,6 +5,7 @@ local function cc(m, f, ...)
 	return f
 end
 
+local triggerFrame = nil
 local gfxBase = ([[Interface\AddOns\%s\gfx\]]):format((...))
 local anchorFrame = cc("Hide", cc("SetPoint", cc("SetSize", CreateFrame("Frame"), 1, 1), "CENTER"))
 local mainFrame = cc("Hide", cc("SetFrameStrata", cc("SetPoint", cc("SetSize", CreateFrame("Frame", nil, UIParent), 128, 128), "CENTER", anchorFrame), "FULLSCREEN"))
@@ -61,22 +62,26 @@ local GhostIndication = {} do
 		end
 	end
 	local function AnimateShow(self, elapsed)
-		local total = configCache.XTZoomTime/2
-		self.expire = (self.expire or total) - elapsed
-		if self.expire < 0 then
+		local zoomTime = configCache.XTZoomTime
+		local et = self.expire
+		et = et and (et - elapsed) or (zoomTime + configCache.GhostShowDelay)
+		if et < 0 then
 			self.expire = nil
 			self:SetScript("OnUpdate", nil)
 			self:SetAlpha(1)
 		else
-			self:SetAlpha(1-self.expire/total)
+			self.expire = et
+			self:SetAlpha(et > zoomTime and 0 or (1-self.expire/zoomTime))
 		end
 	end
 	function GhostIndication:ActivateGroup(index, count, incidentAngle, mainRadius, mainScale)
 		local ret = currentGroups[index] or next(spareGroups) or cc("SetScale", cc("SetSize", CreateFrame("Frame", nil, mainFrame), 1, 1), 0.80)
 		currentGroups[index], spareGroups[ret] = ret
 		if not ret:IsShown() then
+			ret.expire = nil
 			ret:SetScript("OnUpdate", AnimateShow)
 			ret:Show()
+			AnimateShow(ret, 0)
 		end
 		if activeGroup ~= ret then GhostIndication:Deactivate() end
 		if ret.incident ~= incidentAngle or ret.count ~= count then
@@ -222,8 +227,9 @@ local function updateSlice(self, selected, tok, usable, state, icon, _, count, c
 end
 
 local function OnUpdate_Main(self, elapsed)
+	local aframe = triggerFrame or self
 	local count, offset = self.count, self.offset
-	local scale, l, b, w, h = self:GetEffectiveScale(), self:GetRect()
+	local scale, l, b, w, h = aframe:GetEffectiveScale(), aframe:GetRect()
 	local x, y = GetCursorPosition()
 	local dx, dy = (x / scale) - (l + w / 2), (y / scale) - (b + h / 2)
 	local radius2 = dx*dx+dy*dy
@@ -322,8 +328,8 @@ mainFrame:SetScript("OnHide", function(self)
 end)
 
 local api, iapi = {}, {}
-function iapi:Show(_ringName, fcSlice, fastOpen)
-	_, mainFrame.count, mainFrame.offset = OneRingLib:GetOpenRing(configCache)
+function iapi:Show(_, fcSlice, fastOpen, reFrame)
+	triggerFrame, _, mainFrame.count, mainFrame.offset = reFrame, OneRingLib:GetOpenRing(configCache)
 	mainFrame.radius = CalculateRingRadius(mainFrame.count or 3, 48, 48, 95, 90-(mainFrame.offset or 0))
 	mainFrame:SetScript("OnUpdate", OnUpdate_ZoomIn)
 	mainFrame.eleft, mainFrame.fastClickSlice, mainFrame.oldSlice, mainFrame.angle, mainFrame.omState, mainFrame.oldIsGlowing = configCache.XTZoomTime * (fastOpen and 0.5 or 1), fcSlice or 0, -1
@@ -392,7 +398,7 @@ end
 
 for k,v in pairs({ShowCooldowns=false, ShowRecharge=false, UseGameTooltip=true, ShowKeys=true,
 	MIScale=true, MISpinOnHide=true, GhostMIRings=true,
-	XTPointerSpeed=0, XTScaleSpeed=0, XTZoomTime=0.3, XTRotationPeriod=4}) do
+	XTPointerSpeed=0, XTScaleSpeed=0, XTZoomTime=0.3, XTRotationPeriod=4, GhostShowDelay=0.25}) do
 	OneRingLib:RegisterOption(k,v)
 end
 OneRingLib.ext.OPieUI, T.OPieUI = api, iapi

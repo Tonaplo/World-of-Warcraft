@@ -71,11 +71,11 @@ R:SetRing("MageCombat", {
 	name=L"Combat", limit="MAGE", hotkey="PRIMARY", _u="OPCMC"
 })
 R:SetRing("MageTools", {
-	{id=43987, _u="r"}, -- ritual
 	{id=42955, _u="f"}, -- food
 	{id=66, _u="i"}, -- (greater) invisibility
 	{"ring", "MagePolymorph", onlyNonEmpty=true, _u="t"},
 	{id=130, _u="s"}, -- slow fall
+	{id=1459, _u="n"}, -- intellect
 	name=L"Utility", limit="MAGE", hotkey="SECONDARY", _u="OPCMT"
 })
 R:SetRing("MagePolymorph", {
@@ -95,6 +95,8 @@ R:SetRing("MagePolymorph", {
 do -- MageTravel
 	local m = "/cast [mod] {{spell:%s}}; {{spell:%s}}"
 	R:SetRing("MageTravel", {
+		{id=m:format(268969, 281403), _u="8t"}, -- Boralus
+		{id=m:format(281402, 281404), _u="8z"}, -- Dazar'alor
 		{id=m:format(224871, 224869), _u="b"}, -- Dalaran Broken Isles
 		{id=m:format("132620/132626", "132621/132627"), _u="v"}, -- Vale of Eternal Blossoms
 		{id=m:format(53142, 53140), _u="r"}, -- Dalaran Northrend

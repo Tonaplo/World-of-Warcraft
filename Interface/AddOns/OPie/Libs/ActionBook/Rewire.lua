@@ -1,4 +1,4 @@
-local api, MAJ, REV, _, T = {}, 1, 11, ...
+local RW, MAJ, REV, _, T = {}, 1, 12, ...
 if T.ActionBook then return end
 local AB, KR = nil, assert(T.Kindred:compatible(1,8), "A compatible version of Kindred is required.")
 
@@ -189,7 +189,10 @@ core:SetAttribute("RunMacro", [=[-- Rewire:RunMacro
 		if mutedAbove > 0 and mutedAbove > i then
 			mutedAbove = -1, self:CallMethod("setMute", false)
 		end
-		if not m then overfull = false return "" end
+		if not m then
+			overfull = false
+			return ""
+		end
 		k, v = commandAlias[m[2]] or m[2], m[3]
 		ct = commandInfo[k] or 0
 		if ct % 2 > 0 and m[3] ~= "" then
@@ -260,7 +263,7 @@ local function getAliases(p, i)
 	end
 end
 
-local setCommandHinter, getMacroHint, getCommandHint, getCommandHintRaw do
+local setCommandHinter, getMacroHint, getCommandHint, getCommandHintRaw, metaFilters, metaFilterTypes do
 	local hintFunc, pri, cache, ht, ht2, nInf, cDepth, DEPTH_LIMIT = {}, {}, {}, {}, {}, -math.huge, 0, 20
 	local store do
 		local function write(t, n, i, a,b,c,d, ...)
@@ -277,26 +280,43 @@ local setCommandHinter, getMacroHint, getCommandHint, getCommandHintRaw do
 			return ok
 		end
 	end
-	local iconReplCache = setmetatable({}, {__index=function(t,k)
-		if k then
-			local v = tonumber(k)
-			if not v then
-				if k:match("[/\\]") then
-					v = k
-				elseif k ~= "" then
-					v = "Interface\\Icons\\" .. k
+	metaFilters, metaFilterTypes = {}, {} do
+		local function fillToSize(sz, stopFillAt)
+			if ht[0] < sz then
+				for i=ht[0]+1,stopFillAt do
+					ht[i] = nil
 				end
+				ht[0] = sz
 			end
-			t[k] = v ~= 0 and v
-			return v
+			return true
 		end
-	end})
-	local function replaceIcon(nico, ...)
-		if not nico then return ... end
-		nico = iconReplCache[nico]
-		if not nico then return ... end
-		local n, f = ...
-		return n, f, nico, select(4, ...)
+		function metaFilterTypes:replaceIcon(...)
+			local doReplace, icon = self(...)
+			if doReplace then
+				ht[3] = icon
+				return fillToSize(3, 2)
+			end
+		end
+		function metaFilterTypes:replaceTooltip(...)
+			local doReplace, tipFunc, tipArg = self(...)
+			if doReplace then
+				ht[8], ht[9] = tipFunc, tipArg
+				return fillToSize(9, 7)
+			end
+		end
+		function metaFilterTypes:replaceCooldown(...)
+			local doReplace, cdLeft, cdLength = self(...)
+			if doReplace then
+				ht[6], ht[7] = cdLeft, cdLength
+				return fillToSize(7, 5)
+			end
+		end
+		function metaFilterTypes:replaceHint(...)
+			if store(self(...)) then
+				ht = ht2
+				return true
+			end
+		end
 	end
 	function getCommandHintRaw(hslash, ...)
 		local hf = hintFunc[hslash]
@@ -350,15 +370,19 @@ local setCommandHinter, getMacroHint, getCommandHint, getCommandHintRaw do
 				local meta, meta4 = slash:match("^#((.?.?.?.?).*)")
 				if meta4 == "show" and args ~= "" then
 					m[-1], m[0] = "/use", args
-				elseif meta == "icon" then
-					m.icon = args
 				elseif meta == nil or meta == "skip" or meta == "important" then
 					m[#m+1], m[#m+2] = slash, args
+				else
+					if m.metaKeys == nil then
+						m.metaKeys, m.metaArgs = {}, {}
+					end
+					local idx = #m.metaKeys+1
+					m.metaKeys[idx], m.metaArgs[idx] = meta, args
 				end
 			end
 			cache[macrotext] = m
 		end
-		local bestPri, bias, oico, haveUnknown = lowPri, m[-1] and 1000 or 0, m.icon
+		local bestPri, bias, haveUnknown = lowPri, m[-1] and 1000 or 0
 		for i=m[-1] and -1 or 1, #m, 2 do
 			local cmd, args = m[i], m[i+1]
 			if cmd == "#skip" or cmd == "#important" then
@@ -379,10 +403,33 @@ local setCommandHinter, getMacroHint, getCommandHint, getCommandHintRaw do
 				bias = 0
 			end
 		end
-		if bestPri > lowPri then
-			return select(minPriority and 1 or 2, bestPri, replaceIcon(oico and KR:EvaluateCmdOptions(oico, modState), unpack(ht, 1, ht[0]) ))
-		elseif haveUnknown or oico then
-			return select(minPriority and 1 or 2, false, replaceIcon(oico and KR:EvaluateCmdOptions(oico, modState), nil, 0, "Interface/Icons/INV_Misc_QuestionMark", "", 0, 0, 0))
+		local mk, mv = m.metaKeys
+		if (bestPri <= lowPri) and (haveUnknown or mk) then
+			store(true, nil, 0, "Interface/Icons/INV_Misc_QuestionMark", "", 0, 0, 0)
+			ht = ht2
+		end
+		for i=1,mk and #mk or 0 do
+			local k = mk[i]
+			local fi = metaFilters[k]
+			if fi then
+				mv = mv or m.metaArgs
+				local filterRun, parseConditional, filterFunc = fi[1], fi[2], fi[3]
+				local v, vt = mv[i], nil
+				if parseConditional then
+					v, vt = KR:EvaluateCmdOptions(v, modState)
+				end
+				if v and securecall(filterRun, filterFunc, k, v, vt) then
+					haveUnknown = true
+				end
+			end
+		end
+		
+		if bestPri > lowPri or haveUnknown then
+			if minPriority then
+				return bestPri > lowPri and bestPri or false, unpack(ht, 1, ht[0])
+			else
+				return unpack(ht, 1, ht[0])
+			end
 		end
 	end
 	function setCommandHinter(slash, priority, hint)
@@ -394,11 +441,11 @@ local function init()
 	for k, v in pairs(_G) do
 		local k = type(k) == "string" and k:match("^SLASH_(.*)1$")
 		if k and IsSecureCmd(v) then
-			api:ImportSlashCmd(k, true, false)
+			RW:ImportSlashCmd(k, true, false)
 		end
 	end
 	for k in ("DISMOUNT LEAVEVEHICLE SET_TITLE USE_TALENT_SPEC TARGET_MARKER"):gmatch("%S+") do
-		api:ImportSlashCmd(k, true, false)
+		RW:ImportSlashCmd(k, true, false)
 	end
 	for k in ("STARTATTACK TARGET TARGET_EXACT ASSIST FOCUS MAINTANKON MAINTANKOFF MAINASSISTON MAINASSISTOFF PET_ATTACK"):gmatch("%S+") do
 		local cmd = _G["SLASH_" .. k .. "1"]
@@ -407,29 +454,47 @@ local function init()
 		end
 	end
 	for m in ("#mute #unmute #mutenext #parse"):gmatch("%S+") do
-		api:RegisterCommand(m, true, false, core)
+		RW:RegisterCommand(m, true, false, core)
 	end
-	api:RegisterCommand("/stopmacro", true, false, core)
-	api:AddCommandAliases("/stopmacro", getAliases("SLASH_STOPMACRO", 1))
-	api:SetCommandHint("/stopmacro", math.huge, function(_, _, clause)
+	RW:RegisterCommand("/stopmacro", true, false, core)
+	RW:AddCommandAliases("/stopmacro", getAliases("SLASH_STOPMACRO", 1))
+	RW:SetCommandHint("/stopmacro", math.huge, function(_, _, clause)
 		return clause and "stop" or nil
 	end)
-	api:SetCommandHint(SLASH_CLICK1, math.huge, function(...)
+	RW:SetCommandHint(SLASH_CLICK1, math.huge, function(...)
 		local _, _, clause = ...
 		local name = clause and clause:match("%S+")
 		return getCommandHintRaw(name and ("/click " .. name), ...)
 	end)
 	setCommandType("/use", 1+2, core)
 	setCommandType("/cast", 1+2, core)
-	api:AddCommandAliases("/cast", getAliases("SLASH_CAST", 1))
-	api:AddCommandAliases("/use", getAliases("SLASH_USE", 1))
+	RW:AddCommandAliases("/cast", getAliases("SLASH_CAST", 1))
+	RW:AddCommandAliases("/use", getAliases("SLASH_USE", 1))
 	setCommandType(SLASH_USERANDOM1, 1+2+4)
-	api:AddCommandAliases(SLASH_USERANDOM1, getAliases("SLASH_CASTRANDOM", 1))
+	RW:AddCommandAliases(SLASH_USERANDOM1, getAliases("SLASH_CASTRANDOM", 1))
 	setCommandType(SLASH_CASTSEQUENCE1, 1+2+4+8)
-	api:RegisterCommand("/runmacro", true, false, core)
-	api:SetCommandHint("/runmacro", math.huge, function(_slash, _, ...)
+	RW:RegisterCommand("/runmacro", true, false, core)
+	RW:SetCommandHint("/runmacro", math.huge, function(_slash, _, ...)
 		local f = namedMacros[...]
 		if f then return f(...) end
+	end)
+
+	local iconReplCache = setmetatable({}, {__index=function(t,k)
+		if k then
+			local v = tonumber(k)
+			if not v then
+				if k:match("[/\\]") or tonumber(k) then
+					v = k
+				elseif k ~= "" then
+					v = "Interface\\Icons\\" .. k
+				end
+			end
+			t[k] = v ~= 0 and v
+			return v
+		end
+	end})
+	RW:SetMetaHintFilter("icon", "replaceIcon", true, function(_meta, value, _target)
+		return true, iconReplCache[value]
 	end)
 
 	AB = assert(T.ActionBook:compatible(2, 22), "A compatible version of ActionBook is required.")
@@ -459,19 +524,18 @@ local caEscapeCache, cuHints = {}, {} do
 	setCommandHinter("/cast", 100, mixHint)
 end
 
-
-function api:compatible(cmaj, crev)
+function RW:compatible(cmaj, crev)
 	local acceptable = (cmaj == MAJ and crev <= REV)
 	if acceptable and init then
 		init()
 		init = nil
 	end
-	return acceptable and api or nil, MAJ, REV
+	return acceptable and RW or nil, MAJ, REV
 end
-function api:seclib()
+function RW:seclib()
 	return core
 end
-function api:RegisterCommand(slash, isConditional, allowVars, handlerFrame)
+function RW:RegisterCommand(slash, isConditional, allowVars, handlerFrame)
 	assert(type(slash) == "string" and (handlerFrame == nil or type(handlerFrame) == "table" and type(handlerFrame.GetAttribute) == "function"),
 		'Syntax: Rewire:RegisterCommand("/slash", parseConditional, allowVars[, handlerFrame])')
 	assert(handlerFrame == nil or handlerFrame:GetAttribute("RunSlashCmd"), 'Handler frame must have "RunSlashCmd" attribute set.')
@@ -479,26 +543,33 @@ function api:RegisterCommand(slash, isConditional, allowVars, handlerFrame)
 	local ct = (isConditional and 1 or 0) + (allowVars and 2 or 0)
 	setCommandType(slash, ct, handlerFrame)
 end
-function api:AddCommandAliases(primary, ...)
+function RW:AddCommandAliases(primary, ...)
 	assert(type(primary) == "string", 'Syntax: Rewire:AddCommandAliases("/slash", ["/alias1", "/alias2", ...])')
 	assert(not InCombatLockdown(), 'Combat lockdown in effect')
 	local n, s = select("#", ...), "-- Rewire_AddCommandAliases\nlocal a, p = commandAlias, %s\n"
 	s = s .. ("a[%s], "):rep(n-1) .. "a[%s] = " .. ("p, "):rep(n-1) .. "p\n"
 	core:Execute(s:format(forall(safequote, primary, ...)))
 end
-function api:ImportSlashCmd(key, isConditional, allowVars, priority, hint)
+function RW:GetCommandInfo(slash)
+	assert(type(slash) == "string", 'Syntax: isConditional, allowVars, isCommaListArg, isSequenceListArg, resolveUnitTargets = Rewire:GetCommandInfo("/slash")')
+	local ct = coreEnv.commandInfo[slash]
+	if ct then
+		return ct % 2 >= 1, ct % 4 >= 2, ct % 8 >= 4, ct % 16 >= 8, ct % 32 >= 16
+	end
+end
+function RW:ImportSlashCmd(key, isConditional, allowVars, priority, hint)
 	assert(type(key) == "string" and (hint == nil or type(hint) == "function" and type(priority) == "number"), 'Syntax: Rewire:ImportSlashCmd("KEY", parseConditional, allowVars[, hintPriority, hintFunc])')
 	assert(not InCombatLockdown(), 'Combat lockdown in effect')
 	local primary = _G["SLASH_" .. key .. "1"]
-	api:RegisterCommand(primary, isConditional, allowVars)
+	RW:RegisterCommand(primary, isConditional, allowVars)
 	if _G["SLASH_" .. key .. "2"] then
-		api:AddCommandAliases(getAliases("SLASH_" .. key, 1))
+		RW:AddCommandAliases(getAliases("SLASH_" .. key, 1))
 	end
 	if primary and hint then
 		self:SetCommandHint(primary, priority, hint)
 	end
 end
-function api:SetCommandHint(slash, priority, hint)
+function RW:SetCommandHint(slash, priority, hint)
 	assert(type(slash) == "string" and (hint == nil or type(hint) == "function" and type(priority) == "number"), 'Syntax: Rewire:SetCommandHint("/slash", priority, hintFunc)')
 	if slash ~= "/use" and slash ~= "/cast" then
 		setCommandHinter(slash, priority, hint)
@@ -506,11 +577,16 @@ function api:SetCommandHint(slash, priority, hint)
 		cuHints[slash] = hint
 	end
 end
-function api:SetClickHint(buttonName, priority, hint)
+function RW:SetClickHint(buttonName, priority, hint)
 	assert(type(buttonName) == "string" and (hint == nil or type(hint) == "function" and type(priority) == "number"), 'Syntax: Rewire:SetClickHint("buttonName", priority, hintFunc)')
 	setCommandHinter("/click " .. buttonName, priority, hint)
 end
-function api:SetNamedMacroHandler(name, handlerFrame, hintFunc)
+function RW:SetMetaHintFilter(meta, filterType, isConditional, hint)
+	assert(type(meta) == "string" and type(isConditional) == "boolean" and type(hint) == "function", 'Syntax: Rewire:SetMetaHintFilter("meta", "filterType", isConditional, hintFunc)')
+	local filterRun = assert(metaFilterTypes[filterType], 'Unsupported meta hint filter type')
+	metaFilters[meta:lower()] = {filterRun, isConditional, hint}
+end
+function RW:SetNamedMacroHandler(name, handlerFrame, hintFunc)
 	assert(type(name) == "string" and type(handlerFrame) == "table" and type(handlerFrame.GetAttribute) == "function" and (hintFunc == nil or type(hintFunc) == "function"),
 		'Syntax: Rewire:SetNamedMacroHandler(name, handlerFrame[, hintFunc])')
 	assert(handlerFrame:GetAttribute("RunNamedMacro"), 'Handler frame must have "RunNamedMacro" attribute set.')
@@ -521,32 +597,32 @@ function api:SetNamedMacroHandler(name, handlerFrame, hintFunc)
 	end
 	namedMacros[name] = hintFunc
 end
-function api:ClearNamedMacroHandler(name, handlerFrame)
+function RW:ClearNamedMacroHandler(name, handlerFrame)
 	assert(type(handlerFrame) == "table" and type(name) == "string", 'Syntax: Rewire:ClearNamedMacroHandler("name", handlerFrame)')
 	if GetFrameHandleFrame(coreEnv.macros[name]) == handlerFrame then
 		core:Execute(('macros[%s] = nil'):format(safequote(name)))
 		namedMacros[name] = nil
 	end
 end
-function api:GetNamedMacros()
+function RW:GetNamedMacros()
 	return rtable.pairs(coreEnv.macros)
 end
-function api:GetMacroAction(macrotext, modState, minPriority)
+function RW:GetMacroAction(macrotext, modState, minPriority)
 	return getMacroHint(macrotext, modState, minPriority)
 end
-function api:GetCommandAction(slash, args, target, modState)
+function RW:GetCommandAction(slash, args, target, modState)
 	return getCommandHint(nil, slash, args, modState, target)
 end
-function api:SetCastEscapeAction(castArg, action)
+function RW:SetCastEscapeAction(castArg, action)
 	assert(type(castArg) == "string" and (type(action) == "number" and action % 1 == 0 or action == nil), 'Syntax: Rewire:SetCastEscapeAction("castAction", abActionID or nil)')
 	assert(not InCombatLockdown(), 'Combat lockdown in effect')
 	core:Execute(([[castEscapes[%q] = %s]]):format(castArg:lower(), action or "nil"))
 	wipe(caEscapeCache)
 end
-function api:GetCastEscapeAction(castArg)
+function RW:GetCastEscapeAction(castArg)
 	return coreEnv.castEscapes[castArg and castArg:lower()]
 end
-function api:IsSpellCastable(id, disallowRewireEscapes)
+function RW:IsSpellCastable(id, disallowRewireEscapes)
 	local cks = Spell_CheckKnown[id]
 	if cks and not cks(id) then
 		return false, "known-check"
@@ -563,4 +639,4 @@ function api:IsSpellCastable(id, disallowRewireEscapes)
 	return castable, castable and "double-gsi"
 end
 
-T.Rewire = {compatible=api.compatible}
+T.Rewire = {compatible=RW.compatible}

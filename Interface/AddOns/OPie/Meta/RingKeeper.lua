@@ -9,18 +9,23 @@ end
 local AB = assert(T.ActionBook:compatible(2,19), "A compatible version of ActionBook is required")
 local RW = assert(T.ActionBook:compatible("Rewire", 1,10), "A compatible version of Rewire is required")
 local ORI = OneRingLib.ext.OPieUI
-local CLASS, FULLNAME
+local CLASS, FULLNAME, FACTION
 
 local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groundSpellID, airSpellID)
-	local castAlias = {[SLASH_CAST1]=1,[SLASH_CAST2]=1,[SLASH_CAST3]=1,[SLASH_CAST4]=1,[SLASH_USE1]=1,[SLASH_USE2]=1,["#show"]=1,["#showtooltip"]=1,[SLASH_CASTSEQUENCE1]=2,[SLASH_CASTSEQUENCE2]=2,[SLASH_CASTRANDOM1]=3,[SLASH_CASTRANDOM2]=3}
-	local function replaceSpellID(sidlist, prefix)
+	local castAlias = {
+		[SLASH_CAST1]=1, [SLASH_CAST2]=1, [SLASH_CAST3]=1, [SLASH_CAST4]=1, [SLASH_USE1]=1, [SLASH_USE2]=1,
+		["#show"]=0, ["#showtooltip"]=0,
+		[SLASH_CASTSEQUENCE1]=2, [SLASH_CASTSEQUENCE2]=2,
+		[SLASH_CASTRANDOM1]=3, [SLASH_CASTRANDOM2]=3,
+	}
+	local function replaceSpellID(ctype, sidlist, prefix)
 		local sr
 		for id, sn in sidlist:gmatch("%d+") do
 			id = id + 0
 			sn, sr = GetSpellInfo(id), GetSpellSubtext(id)
 			local isCastable, castFlag = RW:IsSpellCastable(id)
 			if isCastable then
-				if castFlag == "forced-id-cast" then
+				if castFlag == "forced-id-cast" and (ctype == 1 or ctype == 3) then
 					sn = "spell:" .. id
 				elseif sr and sr ~= "" then
 					sn = sn .. "(" .. sr .. ")"
@@ -59,13 +64,13 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			end
 			return cs
 		end
-		function replaceMountTag(tag, prefix)
+		function replaceMountTag(ctype, tag, prefix)
 			if tag == "ground" then
 				gmSid = gmSid and IsKnownSpell(gmSid) or findMount(gmPref or gmSid, 230)
-				return replaceSpellID(tostring(gmSid), prefix)
+				return replaceSpellID(ctype, tostring(gmSid), prefix)
 			elseif tag == "air" then
 				fmSid = fmSid and IsKnownSpell(fmSid) or findMount(fmPref or fmSid, 248)
-				return replaceSpellID(tostring(fmSid), prefix)
+				return replaceSpellID(ctype, tostring(fmSid), prefix)
 			end
 			return ""
 		end
@@ -78,10 +83,10 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			end
 		end
 	end
-	local function replaceAlternatives(replaceFunc, args)
+	local function replaceAlternatives(ctype, replaceFunc, args)
 		local ret
 		for alt in (args .. ","):gmatch("(.-),") do
-			local alt2 = replaceFunc(alt)
+			local alt2 = replaceFunc(ctype, alt)
 			if alt == alt2 or (alt2 and alt2:match("%S")) then
 				ret = (ret and (ret .. ", ") or "") .. alt2:match("^%s*(.-)%s*$")
 			end
@@ -106,11 +111,11 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 				if not pos then return end
 				local cval = args:sub(cend, vend)
 				if ctype < 2 then
-					cval = replaceFunc(args:sub(cend, vend))
+					cval = replaceFunc(ctype, args:sub(cend, vend))
 				else
 					local val, reset = args:sub(cend, vend)
 					if ctype == 2 then reset, val = val:match("^(%s*reset=%S+%s*)"), val:gsub("^%s*reset=%S+%s*", "") end
-					val = replaceAlternatives(replaceFunc, val)
+					val = replaceAlternatives(ctype, replaceFunc, val)
 					cval = val and ((reset or "") .. val) or nil
 				end
 				if cval or ctype == 0 then
@@ -125,17 +130,17 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 		local tip = CreateFrame("GameTooltip")
 		tip:AddFontStrings(tip:CreateFontString(), tip:CreateFontString())
 		tip:SetOwner(UIParent, "ANCHOR_NONE")
-		parseLine = genLineParser(function(value)
+		parseLine = genLineParser(function(ctype, value)
 			local prefix, tkey, tval = value:match("^%s*(!?)%s*{{(%a+):([%a%d/]+)}}%s*$")
 			if tkey == "spell" then
-				return replaceSpellID(tval, prefix)
+				return replaceSpellID(ctype, tval, prefix)
 			elseif tkey == "mount" then
-				return replaceMountTag(tval, prefix)
+				return replaceMountTag(ctype, tval, prefix)
 			end
 			return value
 		end)
 		local spells, OTHER_SPELL_IDS = {}, {150544, 243819}
-		quantizeLine = genLineParser(function(value)
+		quantizeLine = genLineParser(function(_ctype, value)
 			local mark, name = value:match("^%s*(!?)(.-)%s*$")
 			local sid = spells[name:lower()]
 			if not sid and mark == "!" then mark, sid = "", spells[mark .. name:lower()] end
@@ -211,7 +216,7 @@ end
 local function RK_IsRelevantRingDescription(desc)
 	if desc then
 		local limit = desc.limit
-		return limit == nil or limit == FULLNAME or limit == CLASS
+		return limit == nil or limit == FULLNAME or limit == CLASS or limit == FACTION
 	end
 end
 local serialize, unserialize do
@@ -457,7 +462,7 @@ local function svInitializer(event, _name, sv)
 
 	elseif event == "LOGIN" then
 		local name, realm, _ = UnitFullName("player")
-		FULLNAME, _, CLASS = name .. '-' .. realm, UnitClass("player")
+		FULLNAME, FACTION, _, CLASS = name .. '-' .. realm, UnitFactionGroup("player"), UnitClass("player")
 
 		unlocked = true
 		local deleted, flags, mousemap = SV.OPieDeletedRings or RK_DeletedRings, SV.OPieFlagStore or RK_FlagStore

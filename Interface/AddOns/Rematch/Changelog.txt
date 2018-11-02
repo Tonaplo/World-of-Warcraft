@@ -1,3 +1,6 @@
+10/29/2018 version 4.8.10
+- Fix for lua error and interrupted open on 8.1 client (PTR)
+
 09/30/2018 version 4.8.9
 - MacOS users will get a one-time popup that says:
 

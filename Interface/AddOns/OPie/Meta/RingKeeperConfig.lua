@@ -609,7 +609,7 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 				self.Down:SetEnabled(icontex[value + #icons + 1] ~= nil)
 				for i=0,#icons do
 					local ico, tex = icons[i].tex, i == 0 and value == 1 and (initTexture or "Interface/Icons/INV_Misc_QuestionMark") or icontex[i+value-1]
-					ico:SetShown(not not tex)
+					icons[i]:SetShown(not not tex)
 					if tex then
 						ico:SetTexture(tex)
 						local tex = ico:GetTexture()
@@ -618,11 +618,26 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 					end
 				end
 			end)
+		local function FixLooseIcons(f, t)
+			local c = #t
+			f(t)
+			for i=c+1,#t do
+				local e = t[i]
+				if type(e) == "string" and not GetFileIDFromPath(e) then
+					local c1 = e:gsub("%.$", "")
+					local c2 = "Interface/Icons/" .. c1
+					local c3 = "Interface/Icons/" .. e
+					t[i] = GetFileIDFromPath(c1) and c1 or GetFileIDFromPath(c2) and c2 or GetFileIDFromPath(c3) and c3 or e
+				end
+			end
+		end
 		frame:SetScript("OnShow", function(self)
 			self:SetFrameStrata("DIALOG")
 			self:SetFrameLevel(sliceDetail.icon:GetFrameLevel()+10)
 			icontex = GetMacroIcons()
+			FixLooseIcons(GetLooseMacroIcons, icontex)
 			GetMacroItemIcons(icontex)
+			FixLooseIcons(GetLooseMacroItemIcons, icontex)
 			slider:SetMinMaxValues(1, #icontex-#icons+16)
 			if slider:GetValue() == 1 then
 				slider:GetScript("OnValueChanged")(slider, slider:GetValue())
@@ -959,7 +974,12 @@ local function getSliceColor(slice, sicon)
 end
 
 local ringNameMap, ringOrderMap, ringTypeMap, ringNames, currentRing, currentRingName, sliceBaseIndex, currentSliceIndex = {}, {}, {}, {}
-local typePrefix = {MINE="|cff25bdff|TInterface/FriendsFrame/UI-Toast-FriendOnlineIcon:14:14:0:1:32:32:8:24:8:24:30:190:255|t ", PERSONAL="|cffd659ff|TInterface/FriendsFrame/UI-Toast-FriendOnlineIcon:14:14:0:1:32:32:8:24:8:24:180:0:255|t "}
+local typePrefix = {
+	MINE="|cff25bdff|TInterface/FriendsFrame/UI-Toast-FriendOnlineIcon:14:14:0:1:32:32:8:24:8:24:30:190:255|t ",
+	PERSONAL="|cffd659ff|TInterface/FriendsFrame/UI-Toast-FriendOnlineIcon:14:14:0:1:32:32:8:24:8:24:180:0:255|t ",
+	HORDE="|cffff3000|A:QuestPortraitIcon-Horde-small:18:18:-1:-2|a",
+	ALLIANCE="|cff00a0ff|A:QuestPortraitIcon-Alliance-small:20:18:-2:0|a",
+}
 do
 	for k, v in pairs(CLASS_ICON_TCOORDS) do
 		typePrefix[k] = ("|cff%s|TInterface/GLUES/CHARACTERCREATE/UI-CharacterCreate-Classes:14:14:0:1:256:256:%d:%d:%d:%d|t "):format(RAID_CLASS_COLORS[k].colorStr:sub(3), v[1]*256+6,v[2]*256-6,v[3]*256+6,v[4]*256-6)
@@ -977,8 +997,9 @@ function ringDropDown:initialize(level, nameList)
 		ringNames = {hidden={}, other={}}
 		for name, dname, active, _slices, internal, limit in RK:GetManagedRings() do
 			table.insert(active and (internal and ringNames.hidden or ringNames) or ringNames.other, name)
-			local rtype = type(limit) ~= "string" and "GLOBAL" or limit == playerFullName and "MINE" or limit:match("[^A-Z]") and "PERSONAL" or limit
-			ringNameMap[name], ringOrderMap[name], ringTypeMap[name] = dname, (not active and (rtype == "PERSONAL" and 12 or 10)) or (limit and (limit:match("[^A-Z]") and 0 or 2)), rtype
+			local isFactionLimit = (limit == "Alliance" or limit == "Horde") and limit:upper() or nil
+			local rtype = type(limit) ~= "string" and "GLOBAL" or limit == playerFullName and "MINE" or isFactionLimit or limit:match("[^A-Z]") and "PERSONAL" or limit
+			ringNameMap[name], ringOrderMap[name], ringTypeMap[name] = dname, (not active and (rtype == "PERSONAL" and 12 or 10)) or isFactionLimit and 4 or (limit and (limit:match("[^A-Z]") and 0 or 2)), rtype
 		end
 		table.sort(ringNames, sortNames)
 		table.sort(ringNames.hidden, sortNames)
@@ -1103,8 +1124,11 @@ function sliceDetail.skipSpecs:initialize()
 	end
 end
 function ringDetail.scope:initialize()
+	local luFaction, lFaction = UnitFactionGroup("player")
 	local info = UIDropDownMenu_CreateInfo()
 	info.func, info.minWidth, info.text, info.checked = self.set, self:GetWidth()-40, L"All characters", currentRing.limit == nil
+	UIDropDownMenu_AddButton(info)
+	info.text, info.checked, info.arg1 = (L"All %s characters"):format("|cff" .. (luFaction == "Horde" and "ff3000" or "00a0ff") .. lFaction .. "|r"), currentRing.limit == luFaction, luFaction
 	UIDropDownMenu_AddButton(info)
 	info.text, info.checked, info.arg1 = (L"All %s characters"):format("|cff" .. PLAYER_CLASS_COLOR_HEX .. PLAYER_CLASS .. "|r"), currentRing.limit == PLAYER_CLASS_UC, PLAYER_CLASS_UC
 	UIDropDownMenu_AddButton(info)
@@ -1116,7 +1140,9 @@ function ringDetail.scope:set(arg1)
 end
 function ringDetail.scope:text()
 	local limit = currentRing.limit
+	local isFactionLimit = (limit == "Alliance" or limit == "Horde")
 	UIDropDownMenu_SetText(self, type(limit) ~= "string" and L"All characters" or
+		isFactionLimit and (L"All %s characters"):format((limit == "Horde" and "|cffff3000" or "|cff00a0ff") .. (limit == "Horde" and FACTION_HORDE or FACTION_ALLIANCE) .. "|r") or
 		limit:match("[^A-Z]") and (L"Only %s"):format("|cff" .. (limit == FULLNAME and PLAYER_CLASS_COLOR_HEX .. SHORTNAME or ("d659ff" .. limit)) .. "|r") or
 		RAID_CLASS_COLORS[limit] and (L"All %s characters"):format("|cff" .. RAID_CLASS_COLORS[limit].colorStr:sub(3) .. (UnitSex("player") == 3 and LOCALIZED_CLASS_NAMES_FEMALE or LOCALIZED_CLASS_NAMES_MALE)[limit] .. "|r")
 	)

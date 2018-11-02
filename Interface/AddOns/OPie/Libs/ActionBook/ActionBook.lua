@@ -1,6 +1,6 @@
-local apiV, api, MAJ, REV, ext, T = {}, {}, 2, 22, ...
+local apiV, AB, MAJ, REV, ext, T = {}, {}, 2, 22, ...
 if T.ActionBook then return end
-apiV[MAJ], ext, T.Kindred, T.Rewire = api, {Kindred=T.Kindred, Rewire=T.Rewire, ActionBook={}}
+apiV[MAJ], ext, T.Kindred, T.Rewire = AB, {Kindred=T.Kindred, Rewire=T.Rewire, ActionBook={}}
 
 local function assert(condition, err, ...)
 	return (not condition) and error(tostring(err):format(...), 3) or condition
@@ -201,7 +201,7 @@ core:SetAttribute("CastSpellByID", [[-- AB:CastSpellByID(sid[, "target"])
 ]])
 
 function core:notifyCollectionOpen(id)
-	api:NotifyObservers("internal.collection.preopen", id)
+	AB:NotifyObservers("internal.collection.preopen", id)
 end
 function core:icall(id)
 	local t = actionCallbacks[id]
@@ -347,7 +347,7 @@ local function getCategoryTable(name)
 	return r
 end
 
-do -- api:CreateToken()
+do -- AB:CreateToken()
 	local seq, dict, dictLength, prefix = 262143, "qwer1tyui2opas3dfgh4jklz5xcvb6nmQWE7RTYU8IOPA9SDFG0HJKL=ZXCV/BNM", 64
 	local function encode(n)
 		local ret, d = ""
@@ -357,7 +357,7 @@ do -- api:CreateToken()
 		until n == 0
 		return ret
 	end
-	function api:CreateToken()
+	function AB:CreateToken()
 		if seq > 262142 then
 			prefix, seq = "ABu" .. encode(time()*100+(math.floor(GetTime()%1*100)%100)), 0
 		end
@@ -366,7 +366,7 @@ do -- api:CreateToken()
 	end
 end
 
-function api:GetActionSlot(actionType, ...)
+function AB:GetActionSlot(actionType, ...)
 	local ident, at = getActionIdent(actionType)
 	local id = actionCreators[ident] and actionCreators[ident](getActionArgs(at, ...))
 	if allocatedActions[id] then
@@ -374,29 +374,29 @@ function api:GetActionSlot(actionType, ...)
 	end
 	assert(ident, 'Syntax: actionId = ActionBook:GetActionSlot("actionType", ... or actionTable)')
 end
-function api:GetActionDescription(actionType, ...)
+function AB:GetActionDescription(actionType, ...)
 	local ident, at = getActionIdent(actionType)
 	if actionDescribers[ident] then
 		return actionDescribers[ident](getActionArgs(at, ...))
 	end
 	assert(ident, 'Syntax: typeName, actionName, icon, ext, tipFunc, tipArg = ActionBook:GetActionDescription("actionType", ... or actionTable)')
 end
-function api:GetActionOptions(actionType)
+function AB:GetActionOptions(actionType)
 	assert(type(actionType) == "string", 'Syntax: ... = ActionBook:GetActionOptions("actionType")')
 	return unpack(optData, optStart[actionType] or 0, optEnd[actionType] or -1)
 end
-function api:GetSlotInfo(id, modLock)
+function AB:GetSlotInfo(id, modLock)
 	assert(type(id) == "number" and (modLock == nil or type(modLock) == "string"), 'Syntax: usable, state, icon, caption, count, cdLeft, cdLength, tipFunc, tipArg, ext = ActionBook:GetSlotInfo(slot[, "modLockState"])')
 	if allocatedActions[id] then
 		return allocatedActions[id](allocatedActionArg[id], modLock)
 	end
 end
-function api:GetSlotImplementation(id)
+function AB:GetSlotImplementation(id)
 	assert(type(id) == "number", "Syntax: actionType, colEntryCount = ActionBook:GetSlotImplementation(slot)")
 	return allocatedActions[id] and allocatedActionType[id], coreEnv.collections[id] and #coreEnv.collections[id] or nil
 end
 
-function api:RegisterActionType(actionType, create, describe, opt)
+function AB:RegisterActionType(actionType, create, describe, opt)
 	assert(type(actionType) == "string" and type(create) == "function" and type(describe) == "function" and (opt == nil or type(opt) == "table"), 'Syntax: ActionBook:RegisterActionType("actionType", createFunc, describeFunc[, {options}])')
 	assert(not actionCreators[actionType], "Identifier %q is already registered", actionType)
 	actionCreators[actionType], actionDescribers[actionType] = create, describe
@@ -407,7 +407,7 @@ function api:RegisterActionType(actionType, create, describe, opt)
 		optStart[actionType], optEnd[actionType] = ok+1, ok + #opt
 	end
 end
-function api:CreateActionSlot(infoFunc, infoArg, implType, ...)
+function AB:CreateActionSlot(infoFunc, infoArg, implType, ...)
 	local as, an = 1, select("#", ...)
 	local cnd if implType == "conditional" then
 		as, an, cnd, implType = as + 2, an - 2, select(as, ...)
@@ -421,36 +421,36 @@ function api:CreateActionSlot(infoFunc, infoArg, implType, ...)
 	if cnd then DeferExecute(("actConditionals[%d] = %s"):format(id, safequote(cnd))) end
 	return id
 end
-function api:UpdateActionSlot(id, ...)
+function AB:UpdateActionSlot(id, ...)
 	assert(type(id) == "number", "Syntax: ActionBook:UpdateActionSlot(actionId, ...)")
 	assert(allocatedActions[id] and allocatedActionType[id], "Action %d does not exist", id)
 	assert(updateHandlers[allocatedActionType[id]], "Action type %q is not updatable", allocatedActionType[id])
 	assert(updateHandlers[allocatedActionType[id]](id, select("#", ...), ...))
 end
 
-function api:AddCategoryAlias(name, aliasOf)
+function AB:AddCategoryAlias(name, aliasOf)
 	assert(type(name) == "string" and type(aliasOf) == "string", 'Syntax: ActionBook:AddCategoryAlias("name", "aliasOf")')
 	assert(name == aliasOf or categories[name] == nil, "Category %q already exists.", name)
 	categoryAliases[name] = categoryAliases[name] or aliasOf
 end
-function api:AugmentCategory(name, augFunc)
+function AB:AugmentCategory(name, augFunc)
 	assert(type(name) == "string" and type(augFunc) == "function" and name ~= "*", 'Syntax: ActionBook:AugmentCategory("name", augFunc)')
 	table.insert(getCategoryTable(name), augFunc)
 end
-function api:AddActionToCategory(name, actionType, ...)
+function AB:AddActionToCategory(name, actionType, ...)
 	assert(type(name) == "string" and type(actionType) == "string" and name ~= "*", 'Syntax: ActionBook:AddActionToCategory("name", "actionType"[, ...])')
 	local ct = getCategoryTable(name)
 	ct.extra = ct.extra or istore()
 	ct.extra:insert(actionType, ...)
 end
-function api:GetNumCategories()
+function AB:GetNumCategories()
 	return #categories + (categories[L"Miscellaneous"] and 1 or 0)
 end
-function api:GetCategoryInfo(id)
+function AB:GetCategoryInfo(id)
 	assert(type(id) == "number", 'Syntax: name = ActionBook:GetCategoryInfo(index)')
 	return getCategoryName(id)
 end
-function api:GetCategoryContents(id, into)
+function AB:GetCategoryContents(id, into)
 	assert(type(id) == "number", 'Syntax: contents = ActionBook:GetCategoryContents(index[, into])')
 	local cname, ret = assert(getCategoryName(id), 'Invalid category index'), into or istore()
 	local co = categories[cname]
@@ -465,7 +465,7 @@ function api:GetCategoryContents(id, into)
 end
 
 local notifyCount, observers = 1, {["*"]={}, ["internal.collection.preopen"] = {}}
-function api:NotifyObservers(ident, data)
+function AB:NotifyObservers(ident, data)
 	assert(type(ident) == "string", 'Syntax: ActionBook:NotifyObservers("identifier"[, data])')
 	assert(actionCreators[ident] or observers[ident] ~= nil, "Identifier %q is not registered", ident)
 	notifyCount = (notifyCount + 1) % 4503599627370495
@@ -475,22 +475,22 @@ function api:NotifyObservers(ident, data)
 		end
 	end
 end
-function api:AddObserver(ident, callback, selfarg)
+function AB:AddObserver(ident, callback, selfarg)
 	assert(type(ident) == "string" and type(callback) == "function", 'Syntax: ActionBook:AddObserver("identifier", callbackFunc, callbackSelfArg)')
 	assert(ident == "*" or actionCreators[ident] or observers[ident], "Identifier %q is not registered", ident)
 	if observers[ident] == nil then observers[ident] = {} end
 	observers[ident][callback] = selfarg == nil and true or selfarg
 end
-function api:GetLastObserverUpdateToken(ident)
+function AB:GetLastObserverUpdateToken(ident)
 	assert(type(ident) == "string", 'Syntax: token = ActionBook:GetLastObserverUpdateToken("identifier")')
 	assert(ident == "*" or actionCreators[ident], "Identifier %q is not registered", ident)
 	return notifyCount
 end
 
-function api:seclib()
+function AB:seclib()
 	return core
 end
-function api:compatible(module, maj, rev, ...)
+function AB:compatible(module, maj, rev, ...)
 	if ext[module] then
 		return ext[module]:compatible(maj, rev, ...)
 	elseif type(module) == "number" and type(maj) == "number" and rev == nil then
@@ -500,7 +500,7 @@ function api:compatible(module, maj, rev, ...)
 	end
 end
 
-function api:locale(getWritableHandle)
+function AB:locale(getWritableHandle)
 	if getWritableHandle then
 		local r = LW
 		LW = nil
@@ -509,14 +509,14 @@ function api:locale(getWritableHandle)
 	return L
 end
 
-apiV[1] = {uniq=api.CreateToken, get=api.GetActionSlot, describe=api.GetActionDescription, info=api.GetSlotInfo, options=api.GetActionOptions, actionType=api.GetSlotImplementation,
-	register=api.RegisterActionType, update=api.UpdateActionSlot, notify=api.NotifyObservers, observe=api.AddObserver, lastupdate=api.GetLastObserverUpdateToken, compatible=api.compatible} do
-	apiV[1].miscaction = function(_self, ...) return api:AddActionToCategory(L"Miscellaneous", ...) end
+apiV[1] = {uniq=AB.CreateToken, get=AB.GetActionSlot, describe=AB.GetActionDescription, info=AB.GetSlotInfo, options=AB.GetActionOptions, actionType=AB.GetSlotImplementation,
+	register=AB.RegisterActionType, update=AB.UpdateActionSlot, notify=AB.NotifyObservers, observe=AB.AddObserver, lastupdate=AB.GetLastObserverUpdateToken, compatible=AB.compatible} do
+	apiV[1].miscaction = function(_self, ...) return AB:AddActionToCategory(L"Miscellaneous", ...) end
 	apiV[1].category = function(_self, name, numFunc, getFunc)
 		assert(type(name) == "string" and type(numFunc) == "function" and type(getFunc) == "function", 'Syntax: ActionBook:category("name", countFunc, entryFunc)')
 		local count = numFunc()
 		assert(type(count) == "number" and count >= 0, "countFunc() must return a non-negative integer")
-		return api:AugmentCategory(name, function(_, add)
+		return AB:AugmentCategory(name, function(_, add)
 			for i=1, numFunc() do
 				add(getFunc(i))
 			end
@@ -530,8 +530,8 @@ apiV[1] = {uniq=api.CreateToken, get=api.GetActionSlot, describe=api.GetActionDe
 	apiV[1].seclib = function() return proxy end
 	apiV[1].create = function(_self, atype, hint, ...)
 		assert(type(atype) == "string" and (hint == nil or type(hint) == "function"), 'Syntax: id = ActionBook:create("actionType", hintFunc, ...)')
-		return api:CreateActionSlot(hint, nextActionId, atype, ...)
+		return AB:CreateActionSlot(hint, nextActionId, atype, ...)
 	end
 end
 
-T.ActionBook, ext.ActionBook.compatible = ext.ActionBook, api.compatible
+T.ActionBook, ext.ActionBook.compatible = ext.ActionBook, AB.compatible

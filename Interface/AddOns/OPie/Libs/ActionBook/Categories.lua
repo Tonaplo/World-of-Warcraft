@@ -34,7 +34,7 @@ do -- spellbook
 			end
 		end
 		wipe(mark)
-		for i=1,6 do -- TODO: BfA compat: there are only 5 slots
+		for i=1,4 do
 			local id = C_SpecializationInfo.GetPvpTalentSlotInfo(i)
 			id = id and id.selectedTalentID
 			if id then

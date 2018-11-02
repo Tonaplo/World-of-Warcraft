@@ -147,17 +147,34 @@ do -- talent:tier.num/name
 	EV.PLAYER_TALENT_UPDATE = updateTalents
 	updateTalents()
 end
-do -- instance:arena/bg/ratedbg/raid/instance/scenario + draenor/pandaria
+do -- instance:arena/bg/ratedbg/lfr/raid/scenario + outland/northrend/...
 	local mapTypes = {
 		party="dungeon", pvp="battleground/bg", ratedbg="ratedbg/rgb", none="world",
 		[1116]="world/draenor", [1464]="world/draenor", [1191]="world/draenor/ashran/worldpvp",
 		[870]="world/pandaria", [1064]="world/pandaria",
 		[530]="world/outland", [571]="world/northrend",
 		[1220]="world/broken isles", [1669]="world/argus",
+		[1642]="world/bfa/zandalar", [1643]="world/bfa/kul tiras",
+		
+		garrison="world/draenor/garrison",
+		[1158]="garrison",
+		[1331]="garrison",
+		[1159]="garrison",
+		[1152]="garrison",
+		[1330]="garrison",
+		[1153]="garrison",
+		
+		[1893]="island", -- The Dread Chain
+		[1814]="island", -- Havenswood (?)
+		[1879]="island", -- Jorundall (?)
+		[1897]="island", -- Molten Cay
+		[1892]="island", -- The Rotting Mire
+		[1898]="island", -- Skittering Hollow
+		[1813]="island", -- Un'gol Ruins
+		[1955]="island", -- Uncharted Island (tutorial)
+		[1882]="island", -- Verdant Wilds
+		[1883]="island", -- Whispering Reef
 	}
-	for n in ("1158 1331 1159 1152 1330 1153"):gmatch("%d+") do
-		mapTypes[tonumber(n)] = "world/draenor/garrison"
-	end
 	function EV.PLAYER_ENTERING_WORLD()
 		local _, itype, did, _, _, _, _, imid = GetInstanceInfo()
 		if imid and mapTypes[imid] then
@@ -364,9 +381,16 @@ end
 do -- professions
 	local ct, ot, map = {}, {}, {
 		[197]="tail", [165]="lw", [164]="bs",
-		[171]="alch", [202]="engi", [333]="ench", [744]="jc", [773]="scri",
+		[171]="alch", [202]="engi", [333]="ench", [755]="jc", [773]="scri",
 		[182]="herb", [794]="arch", [185]="cook", [356]="fish",
 		[20219]="nomeng", [20222]="gobeng",
+	}
+	local spellIDProfs = {
+		[264636]="cook3",
+		[264620]="tail3", [264626]="tail6",
+		[271662]="fish5",
+		[264588]="lw6", [264590]="lw7",
+		[264479]="eng2", [264481]="eng3", [264483]="eng4", [264485]="eng5", [264488]="eng6", [264490]="eng7",
 	}
 	local function syncInner(id, ...)
 		if id then
@@ -384,6 +408,9 @@ do -- professions
 		ct, ot = ot, ct
 		for k in pairs(ct) do ct[k] = nil end
 		syncInner(GetProfessions())
+		for sid, cnd in pairs(spellIDProfs) do
+			ct[cnd] = GetSpellInfo(GetSpellInfo(sid) or "\1") and 1 or nil
+		end
 		for k,v in pairs(ct) do
 			if ot[k] ~= v then
 				KR:SetThresholdConditionalValue(k, v)
@@ -398,6 +425,9 @@ do -- professions
 		end
 	end
 	for _, v in pairs(map) do
+		KR:SetThresholdConditionalValue(v, false)
+	end
+	for _, v in pairs(spellIDProfs) do
 		KR:SetThresholdConditionalValue(v, false)
 	end
 	for alias, real in ("tailoring:tail leatherworking:lw alchemy:alch engineering:engi enchanting:ench jewelcrafting:jc blacksmithing:bs inscription:scri herbalism:herb archaeology:arch cooking:cook fishing:fish"):gmatch("(%a+):(%a+)") do

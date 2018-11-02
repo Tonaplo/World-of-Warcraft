@@ -1,4 +1,4 @@
-local api, MAJ, REV, execQueue, _, T = {}, 1, 14, {}, ...
+local KR, MAJ, REV, execQueue, _, T = {}, 1, 14, {}, ...
 if T.ActionBook then return end
 
 local function assert(condition, err, ...)
@@ -466,7 +466,7 @@ local EvaluateCmdOptions, SetExternalShadow do
 	end
 end
 
-function api:ClearConditional(name)
+function KR:ClearConditional(name)
 	assert(type(name) == "string", 'Syntax: Kindred:ClearConditional("name")')
 	core:DeferExecute(([[-- KR:ClearConditional
 		local name = %s
@@ -474,16 +474,16 @@ function api:ClearConditional(name)
 		owner:Run(RefreshDrivers, name)
 	]]):format(safequote(name)))
 end
-function api:SetStateConditionalValue(name, value)
+function KR:SetStateConditionalValue(name, value)
 	if type(value) == "boolean" then value = value and "*" or "" end
 	assert(type(name) == 'string' and type(value) == 'string', 'Syntax: Kindred:SetStateConditionalValue("name", "value")')
 	core:DeferExecute(([[owner:RunAttribute("UpdateStateConditional", %s, %s, "*")]]):format(safequote(name), safequote(value or "")), name)
 end
-function api:SetThresholdConditionalValue(name, value)
+function KR:SetThresholdConditionalValue(name, value)
 	assert(type(name) == 'string' and (value == false or type(value) == 'number'), 'Syntax: Kindred:SetThresholdConditionalValue("name", value or false)')
 	core:DeferExecute(([[owner:RunAttribute("UpdateThresholdConditional", %s, %s)]]):format(safequote(name), value or "false"), name)
 end
-function api:SetSecureExecConditional(name, snippet)
+function KR:SetSecureExecConditional(name, snippet)
 	assert(type(name) == "string" and type(snippet) == "string", 'Syntax: Kindred:SetSecureExecConditional("name", "snippet")')
 	core:DeferExecute(([[-- KR:SetSecureExecConditional
 		local name = %s
@@ -491,7 +491,7 @@ function api:SetSecureExecConditional(name, snippet)
 		owner:Run(RefreshDrivers, name)
 	]]):format(safequote(name), safequote(snippet)), name)
 end
-function api:SetSecureExternalConditional(name, handler, hint)
+function KR:SetSecureExternalConditional(name, handler, hint)
 	assert(type(name) == "string" and type(handler) == "table" and handler[0] and type(hint) == "function", 'Syntax: Kindred:SetSecureExternalConditional("name", handlerFrame, hintFunc)')
 	assert(handler.IsProtected and select(2,handler:IsProtected()) and handler:GetAttribute("EvaluateMacroConditional"), 'Handler frame must be explicitly protected; must have EvaluateMacroConditional attribute set')
 	if InCombatLockdown() then
@@ -505,7 +505,7 @@ function api:SetSecureExternalConditional(name, handler, hint)
 	]]):format(safequote(name)), name)
 	SetExternalShadow(name, hint)
 end
-function api:SetNonSecureConditional(name, handler)
+function KR:SetNonSecureConditional(name, handler)
 	assert(type(name) == "string" and type(handler) == "function", 'Syntax: Kindred:SetNonSecureConditional("name", handlerFunc)')
 	if InCombatLockdown() then
 		return core:DeferExecute(function() self:SetNonSecureConditional(name, handler) end, name)
@@ -517,30 +517,30 @@ function api:SetNonSecureConditional(name, handler)
 	]]):format(safequote(name)), name)
 	SetExternalShadow(name, handler)
 end
-function api:SetAliasConditional(name, aliasFor)
+function KR:SetAliasConditional(name, aliasFor)
 	assert(type(name) == "string" and type(aliasFor) == "string", 'Syntax: Kindred:SetAliasConditional("name", "aliasFor")')
 	core:DeferExecute(('cndAlias[%s] = %s\n owner:Run(RefreshDrivers, name)'):format(safequote(name), safequote(aliasFor)), name)
 end
-function api:SetAliasUnit(alias, unit)
+function KR:SetAliasUnit(alias, unit)
 	assert(type(alias) == "string" and (type(unit) == "string" or unit == nil), 'Syntax: Kindred:SetAliasUnit("alias", "unit" or nil)')
 	core:DeferExecute(('owner:RunAttribute("SetAliasUnit", %s, %s)'):format(safequote(alias), unit and safequote(unit) or "nil"), "_alias-" .. alias)
 end
-function api:PokeConditional(name)
+function KR:PokeConditional(name)
 	assert(type(name) == "string", 'Syntax: Kindred:PokeConditional("name")')
 	core:DeferExecute(("owner:Run(RefreshDrivers, %s)"):format(safequote(name)), "_poke-" .. name)
 end
 
-function api:EvaluateCmdOptions(options, ...)
+function KR:EvaluateCmdOptions(options, ...)
 	return EvaluateCmdOptions(options, ...)
 end
 
-function api:RegisterStateDriver(frame, state, values)
+function KR:RegisterStateDriver(frame, state, values)
 	assert(type(frame) == "table" and type(state) == "string" and (values == nil or type(values) == "string"), 'Syntax: Kindred:RegisterStateDriver(frame, "state"[, "values"])')
 	assert(not InCombatLockdown(), 'Combat lockdown in effect')
 	core:SetFrameRef("RegisterStateDriver-frame", frame)
 	core:Execute(([[self:RunAttribute("RegisterStateDriver", %s, %s)]]):format(safequote(state), safequote(values or "")))
 end
-function api:RegisterBindingDriver(target, button, options, priority, notify)
+function KR:RegisterBindingDriver(target, button, options, priority, notify)
 	assert(type(target) == "table" and type(button) == "string" and type(options) == "string", 'Syntax: Kindred:RegisterBindingDriver(targetButton, "button", "options", priority, notifyFrame)')
 	assert(type(priority or 0) == "number", 'Binding priority must be a number')
 	assert(not InCombatLockdown(), 'Combat lockdown in effect')
@@ -550,21 +550,21 @@ function api:RegisterBindingDriver(target, button, options, priority, notify)
 	core:SetFrameRef('RegisterBindingDriver-target', target)
 	core:Execute(('self:RunAttribute("RegisterBindingDriver", %s, %s, %d)'):format(safequote(button), safequote(options), priority or 0))
 end
-function api:UnregisterBindingDriver(target, button)
+function KR:UnregisterBindingDriver(target, button)
 	assert(type(target) == "table" and type(button) == "string", 'Syntax: Kindred:UnregisterBindingDriver(targetButton, "button")')
 	assert(not InCombatLockdown(), 'Combat lockdown in effect')
 	core:SetFrameRef('UnregisterBindingDriver-target', target)
 	core:Execute(('self:RunAttribute("UnregisterBindingDriver", %s)'):format(safequote(button)))
 end
 
-function api:seclib()
+function KR:seclib()
 	return core
 end
-function api:compatible(cmaj, crev)
-	return (cmaj == MAJ and crev <= REV) and api or nil, MAJ, REV
+function KR:compatible(cmaj, crev)
+	return (cmaj == MAJ and crev <= REV) and KR or nil, MAJ, REV
 end
 
-api:SetAliasConditional("modifier", "mod")
-api:SetAliasConditional("button", "btn")
+KR:SetAliasConditional("modifier", "mod")
+KR:SetAliasConditional("button", "btn")
 
-T.Kindred = {compatible=api.compatible}
+T.Kindred = {compatible=KR.compatible}
