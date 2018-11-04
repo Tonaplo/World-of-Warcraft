@@ -63,13 +63,13 @@ LUIDB = {
 							["Miriyal"] = 374201398,
 							["Farahn"] = 207795770,
 							["Greybone"] = 987676356,
-							["Faerand"] = 332757806,
-							["Korugen"] = 8847680,
+							["Faerand"] = 332913006,
+							["Korugen"] = 8856180,
 							["Kaldorath"] = 1274216901,
-							["Mallusof"] = 1124757011,
-							["Thedodrouk"] = 7943952,
+							["Mallusof"] = 1126309910,
+							["Thedodrouk"] = 7983251,
 							["Rahran"] = 595705761,
-							["Praerend"] = 1499245138,
+							["Praerend"] = 1499197841,
 						},
 					},
 				},
@@ -99,10 +99,28 @@ LUIDB = {
 						},
 					},
 				},
-				["Aggramar"] = {
+				["Proudmoore"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Gottagetlia"] = 319950,
+							["Deminath"] = 1644198054,
+							["Morifa"] = 1384217305,
+							["Kindhoof"] = 1186116499,
+						},
+						["Alliance"] = {
+							["Miriyal"] = 373580598,
+							["Farahn"] = 207174970,
+							["Greybone"] = 987100358,
+							["Amranar"] = 599870423,
+							["Granjior"] = 1186116499,
+							["Kaldorath"] = 1269646101,
+							["Zearthan"] = 38822533,
+							["Korugen"] = 8422477,
+							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
+							["Morifa"] = 1385014335,
+							["Rahran"] = 594441111,
+							["Faerand"] = 331462352,
+							["Praerend"] = 1500267344,
 						},
 					},
 				},
@@ -122,28 +140,10 @@ LUIDB = {
 						},
 					},
 				},
-				["Proudmoore"] = {
+				["Aggramar"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Deminath"] = 1644198054,
-							["Morifa"] = 1384217305,
-							["Kindhoof"] = 1186116499,
-						},
-						["Alliance"] = {
-							["Miriyal"] = 373580598,
-							["Farahn"] = 207174970,
-							["Greybone"] = 987100358,
-							["Amranar"] = 599870423,
-							["Granjior"] = 1186116499,
-							["Kaldorath"] = 1269646101,
-							["Zearthan"] = 38822533,
-							["Korugen"] = 8422477,
-							["Fimwack"] = 1625871926,
-							["Mallusof"] = 1162234125,
-							["Morifa"] = 1385014335,
-							["Rahran"] = 594441111,
-							["Faerand"] = 331462352,
-							["Praerend"] = 1500267344,
+							["Gottagetlia"] = 319950,
 						},
 					},
 				},
@@ -943,6 +943,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
+					["Tps"] = {
+						["Width"] = 600,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Animation"] = "None",
@@ -951,17 +957,11 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 					},
-					["MicroMenu"] = {
+					["Minimap"] = {
 						["IsShown"] = true,
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
-						["IsShown"] = true,
-					},
-					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1074,17 +1074,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
 					},
 					["micromenu_btn_hover"] = {
 						0.9, -- [1]
@@ -1092,13 +1086,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1268,38 +1268,38 @@ LUIDB = {
 							"/i thanks :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/raid here", -- [1]
-							" I have not", -- [2]
-							" lolwhut?", -- [3]
-							" I have not", -- [4]
-							"/p Arcarym?", -- [5]
+							"/g It's unfortunate, because it was alot of fun to play", -- [1]
+							" lolwhut?", -- [2]
+							" I have not", -- [3]
+							"/g It's unfortunate, because it was alot of fun to play", -- [4]
+							" I have not", -- [5]
 							" lolwhut?", -- [6]
-							" I have not", -- [7]
-							"/p Arcarym?", -- [8]
+							"/g It's unfortunate, because it was alot of fun to play", -- [7]
+							" lolwhut?", -- [8]
 							" I have not", -- [9]
 							" lolwhut?", -- [10]
 							" I have not", -- [11]
-							"/p Arcarym?", -- [12]
-							"/raid here", -- [13]
-							" lolwhut?", -- [14]
-							"/raid here", -- [15]
+							"/raid here", -- [12]
+							" I have not", -- [13]
+							"/g It's unfortunate, because it was alot of fun to play", -- [14]
+							" lolwhut?", -- [15]
 							" I have not", -- [16]
-							" lolwhut?", -- [17]
+							"/g It's unfortunate, because it was alot of fun to play", -- [17]
 							" I have not", -- [18]
-							"/p Arcarym?", -- [19]
-							" lolwhut?", -- [20]
-							" I have not", -- [21]
-							"/p Arcarym?", -- [22]
-							" I have not", -- [23]
-							" lolwhut?", -- [24]
-							"/p Arcarym?", -- [25]
-							" lolwhut?", -- [26]
+							" lolwhut?", -- [19]
+							"/g It's unfortunate, because it was alot of fun to play", -- [20]
+							" lolwhut?", -- [21]
+							" I have not", -- [22]
+							" lolwhut?", -- [23]
+							" I have not", -- [24]
+							"/raid here", -- [25]
+							"/g It's unfortunate, because it was alot of fun to play", -- [26]
 							" I have not", -- [27]
-							"/p Arcarym?", -- [28]
+							" lolwhut?", -- [28]
 							" I have not", -- [29]
-							" lolwhut?", -- [30]
+							"/raid here", -- [30]
 							" I have not", -- [31]
-							" lolwhut?", -- [32]
+							"/raid here", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
@@ -1585,11 +1585,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Icecrown"] = {
@@ -1652,11 +1652,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -1730,11 +1730,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -1967,9 +1967,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2123,11 +2123,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Amranar - Proudmoore"] = {
@@ -2140,9 +2140,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,

@@ -9,7 +9,7 @@ H: 200
 Frame: RematchDialog
 FrameLevel: 1
 Anchor: CENTER
-X: -199
+X: -200
 Y: 32
 W: 300
 H: 176
