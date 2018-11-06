@@ -16,8 +16,8 @@ L["API_DEPRECATED_UNKNOWN_ADDON"] = "<AddOn Sconosciuto>"
 L["API_DEPRECATED_UNKNOWN_FILE"] = "<File AddOn Sconosciuto>"
 L["API_DEPRECATED_WITH"] = "| cffFF0000Warning! | r L'addon | cffFFFFFF% s | r sta chiamando una funzione deprecata RaiderIO.% s. Questa funzione verrà rimossa nelle versioni future. Si prega di incoraggiare l'autore di% s ad aggiornare alla nuova API RaiderIO.% S invece. Stack di chiamata:% s"
 L["API_INVALID_DATABASE"] = "| cffFF0000Warning! | r Rilevato un database RaiderIO non valido in | cffffffff% s | r. Si prega di aggiornare tutte le regioni e le fazioni nel client RaiderIO o reinstallare manualmente l'addon."
-L["BEST_FOR_DUNGEON"] = "Migliore questa Spedizione"
-L["BEST_RUN"] = "Spedizione Migliore"
+L["BEST_FOR_DUNGEON"] = "Migliore Questa Spedizione"
+L["BEST_RUN"] = "Miglior Spedizione"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Le tue modifiche sono state salvate, ma devi ricaricare la tua interfaccia affinché abbiano effetto.
 
 Vuoi farlo ora?]=]
@@ -41,15 +41,15 @@ L["DUNGEON_SHORT_NAME_LOWR"] = "KINF"
 L["DUNGEON_SHORT_NAME_ML"] = "VM"
 L["DUNGEON_SHORT_NAME_MOS"] = "FDA"
 L["DUNGEON_SHORT_NAME_NL"] = "ADN"
-L["DUNGEON_SHORT_NAME_SEAT"] = "SEGGIO"
-L["DUNGEON_SHORT_NAME_SIEGE"] = "BORALUS"
-L["DUNGEON_SHORT_NAME_SOTS"] = "SANTUARIO"
+L["DUNGEON_SHORT_NAME_SEAT"] = "SDT"
+L["DUNGEON_SHORT_NAME_SIEGE"] = "ADB"
+L["DUNGEON_SHORT_NAME_SOTS"] = "SDT"
 L["DUNGEON_SHORT_NAME_TD"] = "TD"
 L["DUNGEON_SHORT_NAME_TM"] = "VM"
 L["DUNGEON_SHORT_NAME_TOS"] = "TDS"
-L["DUNGEON_SHORT_NAME_UNDR"] = "GROTTA"
-L["DUNGEON_SHORT_NAME_UPPR"] = "KAR SUP"
-L["DUNGEON_SHORT_NAME_VOTW"] = "SEGRETE"
+L["DUNGEON_SHORT_NAME_UNDR"] = "GRO"
+L["DUNGEON_SHORT_NAME_UPPR"] = "KSUP"
+L["DUNGEON_SHORT_NAME_VOTW"] = "SDC"
 L["DUNGEON_SHORT_NAME_WM"] = "MDC"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posiziona Automaticamente la Cornice del Profilo RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Abilitando questa Opzione manterrai la Descrizione del Profilo M+ accanto Finestra della Ricerca delle Incursioni o al Tooltip del Giocatore."
@@ -64,9 +64,9 @@ L["ENABLE_SIMPLE_SCORE_COLORS"] = [=[Usa i Colori dei Punteggi Semplici
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = [=[Mostra i Punteggi solo con Colori Standard utilizzati per gli Oggetti. Ciò può rendere più facile per chi ha problemi di visione dei colori a distinguere i livelli di punteggio.
 ]=]
 L["EXPORTJSON_COPY_TEXT"] = "Copia quanto segue e ncollalo ovunque su | cff00C8FFhttps: //raider.io | r per Cercare tutti i Giocatori."
-L["GUILD_BEST_SEASON"] = "Gilda: Classifica Stagionale"
+L["GUILD_BEST_SEASON"] = "Gilda: Stagionale"
 L["GUILD_BEST_TITLE"] = "Raider.IO Records"
-L["GUILD_BEST_WEEKLY"] = "Gilda: Classifica Settimanale"
+L["GUILD_BEST_WEEKLY"] = "Gilda: Settimanale"
 L["HEALER"] = "Curatore"
 L["HEALER_SCORE"] = "Punteggio Curatore"
 L["HIDE_OWN_PROFILE"] = "Nascondi Informazioni Personali dal Tooltip"
@@ -74,8 +74,7 @@ L["HIDE_OWN_PROFILE"] = "Nascondi Informazioni Personali dal Tooltip"
 --[[ L["HIDE_OWN_PROFILE_DESC"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["INVERSE_PROFILE_MODIFIER"] = ""--]] 
---[[Translation missing --]]
---[[ L["INVERSE_PROFILE_MODIFIER_DESC"] = ""--]] 
+L["INVERSE_PROFILE_MODIFIER_DESC"] = "Abilitando questo si inverte il comportamento del modificatore del tooltip profilo RaiderIO (shift / ctrl / alt): tieni premuto per alternare la visualizzazione tra profilo personale / leader o profilo leader / personale."
 --[[Translation missing --]]
 --[[ L["KEYSTONE_COMPLETED_10"] = ""--]] 
 --[[Translation missing --]]
@@ -130,7 +129,7 @@ L["RAID_DIFFICULTY_NAME_NORMAL"] = "Normale"
 L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = "HC"
 L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "M"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "NM"
-L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Combattimenti Incursione Sconfitti"
+L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Boss Incursione Sconfitti"
 L["RAID_PROGRESS_TITLE"] = "Progresso Incursione"
 --[[Translation missing --]]
 --[[ L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = ""--]] 
@@ -142,28 +141,18 @@ L["RAIDERIO_MP_SCORE"] = "Raider.IO Punteggio M+"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO Punteggio M+:"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO Opzioni Addon"
 L["RAIDING_DATA_HEADER"] = "Raider.IO Progresso Incursione"
---[[Translation missing --]]
---[[ L["RAIDING_DB_MODULES"] = ""--]] 
---[[Translation missing --]]
---[[ L["RELOAD_LATER"] = ""--]] 
---[[Translation missing --]]
---[[ L["RELOAD_NOW"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = ""--]] 
+L["RAIDING_DB_MODULES"] = "Moduli Database Incursione"
+L["RELOAD_LATER"] = "Ricaricherò Più Tardi"
+L["RELOAD_NOW"] = "Ricarica Ora"
+L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Visualizza il Punteggio Medio Per Corse In Tempo"
 --[[Translation missing --]]
 --[[ L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_CLIENT_GUILD_BEST"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_CLIENT_GUILD_BEST_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_IN_FRIENDS"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_IN_FRIENDS_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_IN_LFD"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_IN_LFD_DESC"] = ""--]] 
+L["SHOW_CLIENT_GUILD_BEST"] = "Mostra i Record nella Ricerca Gruppi per Spedizioni Mitiche"
+L["SHOW_CLIENT_GUILD_BEST_DESC"] = "Abilitando questa Opzione verranno visualizzate le 5 migliori Corse della tua Gilda (Stagionale o Settimanale) nella Scheda Spedizioni Mitiche della finestra di Ricerca Gruppi."
+L["SHOW_IN_FRIENDS"] = "Mostra in Elenco Amici"
+L["SHOW_IN_FRIENDS_DESC"] = "Mostra il Punteggio M+ quando passi il Mouse sopra i tuoi Amici"
+L["SHOW_IN_LFD"] = "Mostra in Ricerca delle Spedizioni"
+L["SHOW_IN_LFD_DESC"] = "Mostra Punteggio M+ quando passi il mouse sopra i gruppi o le richieste di "
 --[[Translation missing --]]
 --[[ L["SHOW_IN_SLASH_WHO_RESULTS"] = ""--]] 
 --[[Translation missing --]]
@@ -180,12 +169,10 @@ L["RAIDING_DATA_HEADER"] = "Raider.IO Progresso Incursione"
 --[[ L["SHOW_LEADER_PROFILE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SHOW_LEADER_PROFILE_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_MAINS_SCORE"] = ""--]] 
+L["SHOW_MAINS_SCORE"] = "Mostra Punteggio del Personaggio Principale e Progresso Incursione"
 --[[Translation missing --]]
 --[[ L["SHOW_MAINS_SCORE_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_ON_GUILD_ROSTER"] = ""--]] 
+L["SHOW_ON_GUILD_ROSTER"] = "Mostra nell'elenco Membri di Gilda"
 --[[Translation missing --]]
 --[[ L["SHOW_ON_GUILD_ROSTER_DESC"] = ""--]] 
 --[[Translation missing --]]
@@ -206,9 +193,9 @@ L["RAIDING_DATA_HEADER"] = "Raider.IO Progresso Incursione"
 --[[ L["SHOW_SCORE_IN_COMBAT_DESC"] = ""--]] 
 L["TANK"] = "Difensore"
 L["TANK_SCORE"] = "Punteggio Difensore"
-L["TIMED_10_RUNS"] = "+10-14 Finite In Tempo"
-L["TIMED_15_RUNS"] = "+15 Finite In Tempo"
-L["TIMED_5_RUNS"] = "+5-9 Finite In Tempo"
+L["TIMED_10_RUNS"] = "+10-14 In Tempo"
+L["TIMED_15_RUNS"] = "+15 In Tempo"
+L["TIMED_5_RUNS"] = "+5-9 In Tempo"
 L["TOOLTIP_CUSTOMIZATION"] = "Personalizzazione Finestra Tooltip"
 L["TOOLTIP_PROFILE"] = "Personalizzazione Finestra Tooltip del Profilo RaiderIO"
 L["TOTAL_MP_SCORE"] = "Punteggio Mythic+"

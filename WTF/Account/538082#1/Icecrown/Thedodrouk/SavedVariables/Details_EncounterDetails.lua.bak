@@ -61,15 +61,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slagmaw",
 		},
-		[50420] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lava Guard Gordoth",
-		},
 		[120024] = {
 			["school"] = 1,
 			["token"] = {
@@ -84,6 +75,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Dark Shaman Koranthal",
+		},
+		[50420] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lava Guard Gordoth",
 		},
 		[119420] = {
 			["school"] = 4,
