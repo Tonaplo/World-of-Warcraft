@@ -136,10 +136,34 @@ LUIDB = {
 							["Korugen"] = 8882680,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 38959333,
-							["Mallusof"] = 876230084,
+							["Mallusof"] = 880212142,
 							["Thedodrouk"] = 8267963,
 							["Rahran"] = 595705761,
 							["Praerend"] = 1499197841,
+						},
+					},
+				},
+				["Aggramar"] = {
+					["Gold"] = {
+						["Horde"] = {
+							["Gottagetlia"] = 319950,
+						},
+					},
+				},
+				["Bleeding Hollow"] = {
+					["Gold"] = {
+						["Horde"] = {
+							["Zaliga"] = 8607092,
+							["Evisca"] = 303004,
+							["Rentror"] = 470,
+							["Gorog"] = 993959,
+						},
+					},
+				},
+				["Hyjal"] = {
+					["Gold"] = {
+						["Horde"] = {
+							["Deminath"] = 2131,
 						},
 					},
 				},
@@ -160,35 +184,11 @@ LUIDB = {
 							["Zearthan"] = 38822533,
 							["Korugen"] = 8422477,
 							["Faerand"] = 331462352,
-							["Fimwack"] = 1625871926,
+							["Mallusof"] = 1162234125,
 							["Rahran"] = 594441111,
 							["Morifa"] = 1385014335,
-							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Praerend"] = 1500267344,
-						},
-					},
-				},
-				["Bleeding Hollow"] = {
-					["Gold"] = {
-						["Horde"] = {
-							["Evisca"] = 303004,
-							["Rentror"] = 470,
-							["Zaliga"] = 8607092,
-							["Gorog"] = 993959,
-						},
-					},
-				},
-				["Hyjal"] = {
-					["Gold"] = {
-						["Horde"] = {
-							["Deminath"] = 2131,
-						},
-					},
-				},
-				["Aggramar"] = {
-					["Gold"] = {
-						["Horde"] = {
-							["Gottagetlia"] = 319950,
 						},
 					},
 				},
@@ -222,11 +222,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -237,6 +232,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -264,9 +263,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1046,38 +1046,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/raid here", -- [1]
-							"/s :P", -- [2]
-							"/i were behind", -- [3]
-							" I have not", -- [4]
-							"/raid here", -- [5]
-							"/i were behind", -- [6]
-							"/raid here", -- [7]
-							"/s :P", -- [8]
+							" I have not", -- [1]
+							"/raid here", -- [2]
+							"/4 Also, Kalithumos is a little late", -- [3]
+							"/cw Unshocked-Proudmoore you didnt accept", -- [4]
+							"/cw Kalithumos-Tichondrius ...", -- [5]
+							" could ask", -- [6]
+							" saaaaaaame", -- [7]
+							"/p WE'LL RESTART", -- [8]
 							"/raid here", -- [9]
-							"/s :P", -- [10]
-							"/i were behind", -- [11]
-							"/raid here", -- [12]
-							" I have not", -- [13]
-							"/s :P", -- [14]
-							"/raid here", -- [15]
-							"/s :P", -- [16]
-							"/i were behind", -- [17]
-							" I have not", -- [18]
-							"/raid here", -- [19]
-							"/i were behind", -- [20]
-							"/raid here", -- [21]
-							"/s :P", -- [22]
-							"/i were behind", -- [23]
-							" I have not", -- [24]
-							"/raid here", -- [25]
-							"/i were behind", -- [26]
-							"/raid here", -- [27]
-							"/s :P", -- [28]
-							" I have not", -- [29]
-							"/i were behind", -- [30]
-							"/s :P", -- [31]
-							"/i were behind", -- [32]
+							"/cw Unshocked-Proudmoore you didnt accept", -- [10]
+							" could ask", -- [11]
+							"/p WE'LL RESTART", -- [12]
+							"/cw Unshocked-Proudmoore you didnt accept", -- [13]
+							"/p WE'LL RESTART", -- [14]
+							"/p PAUL DID YOU JOIN VOICE CHAT?", -- [15]
+							"/p THERE", -- [16]
+							"/p caps", -- [17]
+							"/p sorry about that", -- [18]
+							"/p it's my push to talk key", -- [19]
+							"/p shout please", -- [20]
+							"/p Newc?", -- [21]
+							"/p ready?", -- [22]
+							"/p SHOUT", -- [23]
+							"/p yeah", -- [24]
+							"/p OOM", -- [25]
+							"/p R", -- [26]
+							"/p |cff66bbff|Hjournal:2:17747:23|h[Focusing Iris]|h|r", -- [27]
+							"/p |cff66bbff|Hjournal:2:17748:23|h[Dire Ritual]|h|r", -- [28]
+							"/p DO", -- [29]
+							"/p NOT", -- [30]
+							"/p STACK", -- [31]
+							"/p |cffa335ee|Hkeystone:158923:246:11:9:6:3:16|h[Keystone: Tol Dagor (11)]|h|r", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
@@ -1206,12 +1206,15 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
+					},
+					["Minimap"] = {
+						["IsShown"] = true,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1220,9 +1223,6 @@ LUIDB = {
 						["Width"] = 370,
 						["Height"] = 205,
 						["Anchor"] = "CompactRaidFrameContainer",
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1363,19 +1363,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1387,11 +1387,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1526,13 +1526,7 @@ LUIDB = {
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.57, -- [1]
-						0.22, -- [2]
-						1, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
@@ -1544,17 +1538,23 @@ LUIDB = {
 						1, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.57, -- [1]
+						0.22, -- [2]
+						1, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.57, -- [1]
@@ -1884,9 +1884,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1951,9 +1951,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2043,9 +2043,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2421,11 +2421,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -2438,9 +2438,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2533,11 +2533,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Kindhoof - Proudmoore"] = {
