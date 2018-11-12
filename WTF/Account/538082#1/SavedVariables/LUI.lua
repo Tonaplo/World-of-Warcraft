@@ -133,11 +133,11 @@ LUIDB = {
 							["Farahn"] = 207795770,
 							["Greybone"] = 987676356,
 							["Faerand"] = 332913006,
-							["Korugen"] = 8882680,
+							["Korugen"] = 9021633,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 38959333,
-							["Mallusof"] = 880212142,
-							["Thedodrouk"] = 8267963,
+							["Mallusof"] = 874698809,
+							["Thedodrouk"] = 8469303,
 							["Rahran"] = 595705761,
 							["Praerend"] = 1499197841,
 						},
@@ -153,9 +153,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -222,6 +222,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -232,10 +237,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -263,10 +264,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1046,38 +1046,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							" I have not", -- [1]
-							"/raid here", -- [2]
-							"/4 Also, Kalithumos is a little late", -- [3]
-							"/cw Unshocked-Proudmoore you didnt accept", -- [4]
-							"/cw Kalithumos-Tichondrius ...", -- [5]
-							" could ask", -- [6]
-							" saaaaaaame", -- [7]
-							"/p WE'LL RESTART", -- [8]
-							"/raid here", -- [9]
-							"/cw Unshocked-Proudmoore you didnt accept", -- [10]
-							" could ask", -- [11]
-							"/p WE'LL RESTART", -- [12]
-							"/cw Unshocked-Proudmoore you didnt accept", -- [13]
-							"/p WE'LL RESTART", -- [14]
-							"/p PAUL DID YOU JOIN VOICE CHAT?", -- [15]
-							"/p THERE", -- [16]
-							"/p caps", -- [17]
-							"/p sorry about that", -- [18]
-							"/p it's my push to talk key", -- [19]
-							"/p shout please", -- [20]
-							"/p Newc?", -- [21]
-							"/p ready?", -- [22]
-							"/p SHOUT", -- [23]
-							"/p yeah", -- [24]
-							"/p OOM", -- [25]
-							"/p R", -- [26]
-							"/p |cff66bbff|Hjournal:2:17747:23|h[Focusing Iris]|h|r", -- [27]
-							"/p |cff66bbff|Hjournal:2:17748:23|h[Dire Ritual]|h|r", -- [28]
-							"/p DO", -- [29]
-							"/p NOT", -- [30]
-							"/p STACK", -- [31]
-							"/p |cffa335ee|Hkeystone:158923:246:11:9:6:3:16|h[Keystone: Tol Dagor (11)]|h|r", -- [32]
+							"/cw Prohibits-Icecrown LUI", -- [1]
+							"/cw Prohibits-Icecrown ftw", -- [2]
+							"/cw Prohibits-Icecrown oh", -- [3]
+							"/cw Prohibits-Icecrown facebook?", -- [4]
+							"/cw Prohibits-Icecrown Gmail?", -- [5]
+							"/cw Prohibits-Icecrown Linkedin", -- [6]
+							"/cw Prohibits-Icecrown Linkedin is terrible, lol", -- [7]
+							"/cw Prohibits-Icecrown yeah", -- [8]
+							"/cw Prohibits-Icecrown Map in top right", -- [9]
+							"/cw Prohibits-Icecrown health top left", -- [10]
+							"/cw Prohibits-Icecrown buttons bottom center", -- [11]
+							"/cw Prohibits-Icecrown great for immersion, terrible for, you know, actually playing", -- [12]
+							"/cw Prohibits-Icecrown LOL", -- [13]
+							"/cw Prohibits-Icecrown there we go :P", -- [14]
+							"/cw Prohibits-Icecrown -grumbles-", -- [15]
+							"/cw Prohibits-Icecrown The one that says \"chill out guys:", -- [16]
+							"/cw Prohibits-Icecrown ahh", -- [17]
+							"/cw Prohibits-Icecrown need the monk here", -- [18]
+							"/cw Prohibits-Icecrown Do you know where LEGO is from?", -- [19]
+							"/cw Prohibits-Icecrown lawl", -- [20]
+							"/cw Prohibits-Icecrown DENMARK", -- [21]
+							"/cw Prohibits-Icecrown oh yeah", -- [22]
+							"/cw Prohibits-Icecrown Blizzard", -- [23]
+							"/raid That's it for me too", -- [24]
+							"/raid need sleeps :)", -- [25]
+							"/raid Good luck guys, was fun :)", -- [26]
+							"/cw Prohibits-Icecrown We were wiping", -- [27]
+							"/cw Prohibits-Icecrown so", -- [28]
+							"/cw Prohibits-Icecrown popped EVERYTHING", -- [29]
+							"/cw Prohibits-Icecrown :P", -- [30]
+							"/cw Prohibits-Icecrown goodnight", -- [31]
+							"/cw Prohibits-Icecrown good luck :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

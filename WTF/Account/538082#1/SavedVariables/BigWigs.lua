@@ -1,197 +1,5 @@
 
 BigWigs3DB = {
-	["profileKeys"] = {
-		["Korugen - Tichondrius"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Mallusof - Proudmoore"] = "Default",
-		["Mallusof - Blackhand"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
-		["Rahran - Proudmoore"] = "Default",
-		["Praerend - Emerald Dream"] = "Default",
-		["Contumon - Blackhand"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Mallusof - Emerald Dream"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Gottagetlia - Aggramar"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Theodor - Emerald Dream"] = "Default",
-		["Zethan - Tichondrius"] = "Default",
-		["Alura - Tichondrius"] = "Default",
-		["Mallusof - Icecrown"] = "Default",
-	},
-	["discord"] = 15,
-	["namespaces"] = {
-		["BigWigs_Plugins_Victory"] = {
-			["profiles"] = {
-				["Default"] = {
-					["soundName"] = "BigWigs: Victory Classic",
-				},
-			},
-		},
-		["BigWigs_Bosses_Soulbound Goliath"] = {
-		},
-		["BigWigs_Plugins_Alt Power"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 344.977757614313,
-					["posy"] = 75.5114390974395,
-					["font"] = "Prototype",
-				},
-			},
-		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Bosses_Mchimba the Embalmer"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Gorak Tul"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["width"] = 139.999557495117,
-					["posy"] = 415.822182476095,
-					["posx"] = 8.62224799026808,
-					["font"] = "Prototype",
-				},
-			},
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Bosses_Heartsbane Triad"] = {
-		},
-		["BigWigs_Bosses_Raal the Gluttonous"] = {
-		},
-		["BigWigs_Bosses_King's Rest Trash"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockSpellErrors"] = false,
-				},
-			},
-		},
-		["BigWigs_Bosses_Lord and Lady Waycrest"] = {
-		},
-		["BigWigs_Bosses_Waycrest Manor Trash"] = {
-		},
-		["BigWigs_Plugins_Colors"] = {
-			["profiles"] = {
-				["Default"] = {
-					["barBackground"] = {
-						["BigWigs_Plugins_Colors"] = {
-							["default"] = {
-								0, -- [1]
-								0, -- [2]
-								0, -- [3]
-								1, -- [4]
-							},
-						},
-					},
-					["flash"] = {
-						["BigWigs_Plugins_Colors"] = {
-							["default"] = {
-								nil, -- [1]
-								nil, -- [2]
-								nil, -- [3]
-								1, -- [4]
-							},
-						},
-					},
-				},
-			},
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 64.3903462310154,
-					["posy"] = 269.286549623481,
-				},
-			},
-		},
-		["BigWigs_Plugins_Bars"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BigWigsAnchor_width"] = 412.852294921875,
-					["BigWigsAnchor_x"] = 3.17738821849466,
-					["fill"] = false,
-					["BigWigsEmphasizeAnchor_height"] = 21.9999847412109,
-					["growup"] = false,
-					["monochrome"] = false,
-					["BigWigsAnchor_height"] = 15.9999761581421,
-					["fontSize"] = 13,
-					["BigWigsAnchor_y"] = 553.244378579591,
-					["emphasizeGrowup"] = true,
-					["spacing"] = 8,
-					["emphasizeTime"] = 10,
-					["barStyle"] = "BeautyCase",
-					["fontSizeEmph"] = 20,
-					["BigWigsEmphasizeAnchor_x"] = 800.02192021982,
-					["BigWigsEmphasizeAnchor_y"] = 458.466451679233,
-					["BigWigsEmphasizeAnchor_width"] = 400.332916259766,
-				},
-			},
-		},
-		["BigWigs_Bosses_Dazar, The First King"] = {
-		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-			["profiles"] = {
-				["Default"] = {
-					["voice"] = "English: Jim",
-					["font"] = "Prototype",
-				},
-			},
-		},
-		["BigWigs_Bosses_The Council of Tribes"] = {
-		},
-		["BigWigs_Bosses_The Golden Serpent"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Bosses_Mythrax the Unraveler"] = {
-			["profiles"] = {
-				["Default"] = {
-					[272404] = 1032951,
-				},
-			},
-		},
-		["BigWigs_Plugins_Respawn"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BWEmphasizeCountdownMessageAnchor_x"] = 669.666680759037,
-					["BWEmphasizeMessageAnchor_y"] = 639.051038208396,
-					["BWMessageAnchor_y"] = 544.795855583387,
-					["align"] = "LEFT",
-					["BWMessageAnchor_x"] = 861.541350649284,
-					["BWEmphasizeCountdownMessageAnchor_y"] = 380.122239475168,
-					["font"] = "Prototype",
-					["BWEmphasizeMessageAnchor_x"] = 616.17532458582,
-					["growUpwards"] = true,
-				},
-			},
-		},
-		["BigWigs_Plugins_Pull"] = {
-			["profiles"] = {
-				["Default"] = {
-					["combatLog"] = true,
-				},
-			},
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-	},
-	["wipe80"] = true,
 	["global"] = {
 		["watchedMovies"] = {
 			["1188:1"] = true,
@@ -228,6 +36,180 @@ BigWigs3DB = {
 			["993:4"] = true,
 		},
 	},
+	["profileKeys"] = {
+		["Korugen - Tichondrius"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Mallusof - Proudmoore"] = "Default",
+		["Mallusof - Blackhand"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Praerend - Emerald Dream"] = "Default",
+		["Contumon - Blackhand"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Mallusof - Emerald Dream"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Gottagetlia - Aggramar"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Theodor - Emerald Dream"] = "Default",
+		["Zethan - Tichondrius"] = "Default",
+		["Alura - Tichondrius"] = "Default",
+		["Mallusof - Icecrown"] = "Default",
+	},
+	["discord"] = 15,
+	["namespaces"] = {
+		["BigWigs_Plugins_Victory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["soundName"] = "BigWigs: Victory Classic",
+				},
+			},
+		},
+		["BigWigs_Plugins_Alt Power"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 344.977757614313,
+					["posy"] = 75.5114390974395,
+					["font"] = "Prototype",
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Bosses_Taloc"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_Colors"] = {
+			["profiles"] = {
+				["Default"] = {
+					["barBackground"] = {
+						["BigWigs_Plugins_Colors"] = {
+							["default"] = {
+								0, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+						},
+					},
+					["flash"] = {
+						["BigWigs_Plugins_Colors"] = {
+							["default"] = {
+								nil, -- [1]
+								nil, -- [2]
+								nil, -- [3]
+								1, -- [4]
+							},
+						},
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 64.3903462310154,
+					["posy"] = 269.286549623481,
+				},
+			},
+		},
+		["BigWigs_Plugins_Bars"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BigWigsAnchor_width"] = 412.852294921875,
+					["BigWigsAnchor_x"] = 3.17738821849466,
+					["fill"] = false,
+					["BigWigsEmphasizeAnchor_height"] = 21.9999847412109,
+					["growup"] = false,
+					["monochrome"] = false,
+					["BigWigsAnchor_height"] = 15.9999761581421,
+					["fontSize"] = 13,
+					["BigWigsAnchor_y"] = 553.244378579591,
+					["emphasizeGrowup"] = true,
+					["spacing"] = 8,
+					["emphasizeTime"] = 10,
+					["barStyle"] = "BeautyCase",
+					["fontSizeEmph"] = 20,
+					["BigWigsEmphasizeAnchor_x"] = 800.02192021982,
+					["BigWigsEmphasizeAnchor_y"] = 458.466451679233,
+					["BigWigsEmphasizeAnchor_width"] = 400.332916259766,
+				},
+			},
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["width"] = 139.999557495117,
+					["posy"] = 415.822182476095,
+					["posx"] = 8.62224799026808,
+					["font"] = "Prototype",
+				},
+			},
+		},
+		["BigWigs_Plugins_Super Emphasize"] = {
+			["profiles"] = {
+				["Default"] = {
+					["voice"] = "English: Jim",
+					["font"] = "Prototype",
+				},
+			},
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockSpellErrors"] = false,
+				},
+			},
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Bosses_Mythrax the Unraveler"] = {
+			["profiles"] = {
+				["Default"] = {
+					[272404] = 1032951,
+				},
+			},
+		},
+		["BigWigs_Bosses_MOTHER"] = {
+		},
+		["BigWigs_Plugins_Respawn"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BWEmphasizeCountdownMessageAnchor_x"] = 669.666680759037,
+					["BWEmphasizeMessageAnchor_y"] = 639.051038208396,
+					["BWMessageAnchor_y"] = 544.795855583387,
+					["align"] = "LEFT",
+					["BWMessageAnchor_x"] = 861.541350649284,
+					["BWEmphasizeCountdownMessageAnchor_y"] = 380.122239475168,
+					["font"] = "Prototype",
+					["BWEmphasizeMessageAnchor_x"] = 616.17532458582,
+					["growUpwards"] = true,
+				},
+			},
+		},
+		["BigWigs_Plugins_Pull"] = {
+			["profiles"] = {
+				["Default"] = {
+					["combatLog"] = true,
+				},
+			},
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+	},
+	["wipe80"] = true,
 	["profiles"] = {
 		["Default"] = {
 			["fakeDBMVersion"] = true,
@@ -312,24 +294,18 @@ BigWigsStatsDB = {
 				["kills"] = 4,
 			},
 		},
-		[1432] = {
-			["normal"] = {
-				["kills"] = 1,
-				["best"] = 437.290999999997,
-				["wipes"] = 1,
-			},
+		[1447] = {
 			["mythic"] = {
-				["kills"] = 3,
-				["best"] = 345.235,
-				["wipes"] = 1,
+				["wipes"] = 109,
 			},
 			["heroic"] = {
-				["best"] = 264.710999999999,
-				["kills"] = 3,
+				["kills"] = 5,
+				["wipes"] = 5,
+				["best"] = 259.499,
 			},
 			["LFR"] = {
-				["best"] = 276.891,
-				["kills"] = 3,
+				["best"] = 194.652,
+				["kills"] = 1,
 			},
 		},
 		[1394] = {
@@ -358,20 +334,24 @@ BigWigsStatsDB = {
 				["kills"] = 3,
 			},
 		},
-		[1372] = {
-			["heroic"] = {
-				["best"] = 324.116,
-				["kills"] = 3,
+		[1432] = {
+			["normal"] = {
+				["kills"] = 1,
+				["best"] = 437.290999999997,
+				["wipes"] = 1,
 			},
 			["mythic"] = {
-				["kills"] = 4,
-				["wipes"] = 34,
-				["best"] = 388.648000000001,
+				["kills"] = 3,
+				["best"] = 345.235,
+				["wipes"] = 1,
+			},
+			["heroic"] = {
+				["best"] = 264.710999999999,
+				["kills"] = 3,
 			},
 			["LFR"] = {
-				["kills"] = 5,
-				["best"] = 227.687999999995,
-				["wipes"] = 1,
+				["best"] = 276.891,
+				["kills"] = 3,
 			},
 		},
 		[1391] = {
@@ -440,18 +420,20 @@ BigWigsStatsDB = {
 				["kills"] = 4,
 			},
 		},
-		[1447] = {
-			["mythic"] = {
-				["wipes"] = 109,
-			},
+		[1372] = {
 			["heroic"] = {
-				["kills"] = 5,
-				["wipes"] = 5,
-				["best"] = 259.499,
+				["best"] = 324.116,
+				["kills"] = 3,
+			},
+			["mythic"] = {
+				["kills"] = 4,
+				["wipes"] = 34,
+				["best"] = 388.648000000001,
 			},
 			["LFR"] = {
-				["best"] = 194.652,
-				["kills"] = 1,
+				["kills"] = 5,
+				["best"] = 227.687999999995,
+				["wipes"] = 1,
 			},
 		},
 	},
@@ -2101,6 +2083,11 @@ BigWigsStatsDB = {
 				["best"] = 244.930000000051,
 				["wipes"] = 1,
 			},
+			["mythic"] = {
+				["kills"] = 1,
+				["wipes"] = 1,
+				["best"] = 352.483,
+			},
 			["normal"] = {
 				["best"] = 302.79,
 				["kills"] = 2,
@@ -2142,6 +2129,9 @@ BigWigsStatsDB = {
 			["normal"] = {
 				["best"] = 281.768999999999,
 				["kills"] = 2,
+			},
+			["mythic"] = {
+				["wipes"] = 13,
 			},
 			["heroic"] = {
 				["kills"] = 8,

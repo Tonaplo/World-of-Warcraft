@@ -30,36 +30,36 @@ Grid2DB = {
 		["Grid2Layout"] = {
 			["profiles"] = {
 				["Non-Healer"] = {
-					["BackgroundG"] = 1,
-					["groupAnchor"] = "TOPRIGHT",
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["arena"] = "By Group",
-						["raid"] = "By Group & Role",
-						["solo"] = "Solo",
 						["party"] = "Party",
+						["arena"] = "By Group",
+						["solo"] = "Solo",
+						["raid"] = "By Group & Role",
 					},
-					["PosX"] = -15.2272332442953,
 					["BackgroundB"] = 1,
-					["BackgroundR"] = 1,
-					["BorderTexture"] = "Stripped_medium",
-					["BackgroundA"] = 0,
 					["BorderR"] = 0.501960784313726,
-					["Spacing"] = 3,
+					["BorderTexture"] = "Stripped_medium",
 					["anchor"] = "TOPRIGHT",
-					["horizontal"] = false,
-					["BorderG"] = 0.501960784313726,
+					["BackgroundG"] = 1,
+					["groupAnchor"] = "TOPRIGHT",
 					["PosY"] = -600.888744491441,
+					["BackgroundA"] = 0,
+					["BorderG"] = 0.501960784313726,
+					["PosX"] = -15.2272332442953,
+					["horizontal"] = false,
+					["BackgroundR"] = 1,
+					["Spacing"] = 3,
 				},
 				["Healer"] = {
 					["BorderB"] = 0.501960784313726,
 					["layouts"] = {
-						["party"] = "Party",
-						["arena"] = "By Group",
-						["solo"] = "Solo",
 						["raid"] = "By Group & Role",
+						["party"] = "Party",
+						["solo"] = "Solo",
+						["arena"] = "By Group",
 					},
-					["BackgroundR"] = 1,
+					["BackgroundB"] = 1,
 					["FrameLock"] = true,
 					["BorderR"] = 0.501960784313726,
 					["PosX"] = 0.00290531301106967,
@@ -69,10 +69,10 @@ Grid2DB = {
 						["hide"] = true,
 					},
 					["PosY"] = -569.258548723265,
-					["Spacing"] = 3,
+					["BackgroundR"] = 1,
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.501960784313726,
-					["BackgroundB"] = 1,
+					["Spacing"] = 3,
 					["BorderTexture"] = "Stripped_medium",
 				},
 			},
@@ -191,17 +191,17 @@ Grid2DB = {
 						["g"] = 0.690196078431373,
 						["r"] = 0.690196078431373,
 					},
-					["frameHeight"] = 40,
 					["frameBorder"] = 1,
+					["showTooltip"] = "Always",
+					["frameBorderDistance"] = 0,
 					["frameBorderTexture"] = "glow",
 					["font"] = "Prototype",
-					["showTooltip"] = "Always",
+					["frameHeight"] = 40,
 					["orientation"] = "HORIZONTAL",
 					["frameContentColor"] = {
 						["r"] = 0.549019607843137,
 					},
 					["frameWidth"] = 70,
-					["frameBorderDistance"] = 0,
 				},
 				["Healer"] = {
 					["frameColor"] = {
@@ -467,16 +467,16 @@ Grid2DB = {
 						["b"] = 0,
 					},
 					["maxIcons"] = 3,
-					["orientation"] = "HORIZONTAL",
-					["iconSize"] = 20,
-					["level"] = 8,
-					["maxIconsPerRow"] = 3,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["orientation"] = "HORIZONTAL",
+					["level"] = 8,
+					["maxIconsPerRow"] = 3,
+					["iconSize"] = 20,
 				},
 				["text-up-color"] = {
 					["type"] = "text-color",
@@ -499,22 +499,6 @@ Grid2DB = {
 				},
 			},
 			["statuses"] = {
-				["buffs-Bottom-Right-Buffs-mine"] = {
-					["auras"] = {
-						"Rejuvenation", -- [1]
-						"Rejuvenation (Germination)", -- [2]
-						"Renew", -- [3]
-						"Atonement", -- [4]
-					},
-					["type"] = "buffs",
-					["mine"] = 1,
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-				},
 				["heal-absorbs"] = {
 					["thresholdMedium"] = 0,
 					["color3"] = {
@@ -530,6 +514,13 @@ Grid2DB = {
 						["r"] = 0.0705882352941177,
 					},
 				},
+				["role"] = {
+					["hideInCombat"] = true,
+				},
+				["heals-incoming"] = {
+					["includePlayerHeals"] = true,
+					["multiplier"] = 1.6,
+				},
 				["color-absorbs-color"] = {
 					["color1"] = {
 						["a"] = 1,
@@ -539,54 +530,23 @@ Grid2DB = {
 					},
 					["type"] = "color",
 				},
-				["color-IncommingHealsColor"] = {
-					["type"] = "color",
-					["color1"] = {
-						["a"] = 0.5,
-						["r"] = 0,
-						["g"] = 1,
-						["b"] = 0,
-					},
-				},
-				["leader"] = {
-					["hideInCombat"] = true,
-				},
-				["health-current"] = {
-					["frequentHealth"] = true,
-				},
-				["role"] = {
-					["hideInCombat"] = true,
-				},
-				["buffs-Bottom-Left-Buffs-mine"] = {
-					["auras"] = {
-						"Prayer of Mending", -- [1]
-						"Power Word: Shield", -- [2]
-						"Regrowth", -- [3]
-						"Wild Growth", -- [4]
-					},
-					["type"] = "buffs",
-					["mine"] = 1,
-					["color1"] = {
-						["a"] = 0,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-				},
-				["debuffs-AllDebuffs"] = {
-					["type"] = "debuffs",
-					["auras"] = {
-						"Challenger's Burden", -- [1]
-						"Exhaustion", -- [2]
-						"Sated", -- [3]
-						"Fatigued", -- [4]
-						"Temporal Displacement", -- [5]
-					},
+				["debuffs-ImportantDebuffs"] = {
 					["color1"] = {
 						["a"] = 1,
-						["b"] = 0.2,
-						["g"] = 0.2,
-						["r"] = 1,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["useWhiteList"] = true,
+					["type"] = "debuffs",
+					["auras"] = {
+						"Fulminating Pulse", -- [1]
+						"Chilled Blood", -- [2]
+						"Ravenous Blaze", -- [3]
+						"Withering Roots", -- [4]
+						"Soulblight", -- [5]
+						"Soulbomb", -- [6]
+						"Soulburst", -- [7]
 					},
 				},
 				["dungeon-role"] = {
@@ -627,27 +587,67 @@ Grid2DB = {
 						["r"] = 1,
 					},
 				},
-				["heals-incoming"] = {
-					["includePlayerHeals"] = true,
-					["multiplier"] = 1.6,
-				},
-				["debuffs-ImportantDebuffs"] = {
+				["color-IncommingHealsColor"] = {
+					["type"] = "color",
 					["color1"] = {
-						["a"] = 1,
+						["a"] = 0.5,
 						["r"] = 0,
-						["g"] = 0,
+						["g"] = 1,
 						["b"] = 0,
 					},
-					["useWhiteList"] = true,
+				},
+				["leader"] = {
+					["hideInCombat"] = true,
+				},
+				["debuffs-AllDebuffs"] = {
 					["type"] = "debuffs",
 					["auras"] = {
-						"Fulminating Pulse", -- [1]
-						"Chilled Blood", -- [2]
-						"Ravenous Blaze", -- [3]
-						"Withering Roots", -- [4]
-						"Soulblight", -- [5]
-						"Soulbomb", -- [6]
-						"Soulburst", -- [7]
+						"Challenger's Burden", -- [1]
+						"Exhaustion", -- [2]
+						"Sated", -- [3]
+						"Fatigued", -- [4]
+						"Temporal Displacement", -- [5]
+					},
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0.2,
+						["g"] = 0.2,
+						["r"] = 1,
+					},
+				},
+				["health-current"] = {
+					["frequentHealth"] = true,
+				},
+				["buffs-Bottom-Right-Buffs-mine"] = {
+					["auras"] = {
+						"Rejuvenation", -- [1]
+						"Rejuvenation (Germination)", -- [2]
+						"Renew", -- [3]
+						"Atonement", -- [4]
+					},
+					["type"] = "buffs",
+					["mine"] = 1,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+				},
+				["buffs-Bottom-Left-Buffs-mine"] = {
+					["auras"] = {
+						"Prayer of Mending", -- [1]
+						"Power Word: Shield", -- [2]
+						"Regrowth", -- [3]
+						"Wild Growth", -- [4]
+					},
+					["type"] = "buffs",
+					["mine"] = 1,
+					["color1"] = {
+						["a"] = 0,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
 					},
 				},
 			},
@@ -913,16 +913,16 @@ Grid2DB = {
 						["r"] = 0,
 					},
 					["maxIcons"] = 3,
+					["orientation"] = "HORIZONTAL",
 					["iconSize"] = 20,
+					["level"] = 8,
+					["maxIconsPerRow"] = 3,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
-					["level"] = 8,
-					["maxIconsPerRow"] = 3,
-					["orientation"] = "HORIZONTAL",
 				},
 				["text-up-color"] = {
 					["type"] = "text-color",

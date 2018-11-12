@@ -64,11 +64,11 @@ LUIDB = {
 							["Farahn"] = 207795770,
 							["Greybone"] = 987676356,
 							["Faerand"] = 332913006,
-							["Korugen"] = 8882680,
+							["Korugen"] = 9021633,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 38959333,
-							["Mallusof"] = 880256942,
-							["Thedodrouk"] = 8267963,
+							["Mallusof"] = 878628536,
+							["Thedodrouk"] = 8469303,
 							["Rahran"] = 595705761,
 							["Praerend"] = 1499197841,
 						},
@@ -86,9 +86,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -222,14 +222,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -257,16 +263,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1453,38 +1453,38 @@ LUIDB = {
 							"/i thanks :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/raid here", -- [1]
-							"/s :P", -- [2]
-							" I have not", -- [3]
-							"/i were behind", -- [4]
-							"/s :P", -- [5]
-							"/i were behind", -- [6]
-							"/raid here", -- [7]
-							" I have not", -- [8]
-							"/s :P", -- [9]
-							"/raid here", -- [10]
-							"/s :P", -- [11]
-							"/4 Also, Kalithumos is a little late", -- [12]
-							"/4 I meant the thing about the calendar btw. That's how I invite people, by just spamming the Invite Members button in the calendar", -- [13]
-							"/cw Unshocked-Proudmoore Brian...", -- [14]
-							"/cw Unshocked-Proudmoore the calendar", -- [15]
-							"/cw Unshocked-Proudmoore you didnt accept", -- [16]
-							"/cw Unshocked-Proudmoore The calendar says you didnt respond, lol", -- [17]
-							"/cw Unshocked-Proudmoore STAY ELE", -- [18]
-							"/cw Unshocked-Proudmoore stay resto", -- [19]
-							"/cw Kalithumos-Tichondrius ...", -- [20]
-							"/cw Kalithumos-Tichondrius Seems like a slight clusterfuck", -- [21]
-							"/BREAK 12", -- [22]
-							" ... or achievements now?", -- [23]
-							" could ask", -- [24]
-							" afterwards", -- [25]
-							" Alright, yeah", -- [26]
-							" makes sense", -- [27]
-							" saaaaaaame", -- [28]
-							"/4 great run indeed!", -- [29]
-							"/p Mist and Sheil, party voice", -- [30]
-							"/p quit client and relog works", -- [31]
-							"/p WE'LL RESTART", -- [32]
+							"/p caps", -- [1]
+							"/i Anyone rare farming or just here for weekly?", -- [2]
+							"/raid here", -- [3]
+							"/i Anyone rare farming or just here for weekly?", -- [4]
+							"/i lets go skull :)", -- [5]
+							"/p caps", -- [6]
+							" I have not", -- [7]
+							"/i stop splitting up", -- [8]
+							"/p Newc?", -- [9]
+							"/p caps", -- [10]
+							"/raid here", -- [11]
+							"/i lets go skull :)", -- [12]
+							" I have not", -- [13]
+							"/p Newc?", -- [14]
+							"/raid here", -- [15]
+							" I have not", -- [16]
+							"/raid here", -- [17]
+							"/cw Prohibits-Icecrown Hey :)", -- [18]
+							"/cw Prohibits-Icecrown Yeah, I'm mostly leveling via daily pet battles", -- [19]
+							"/cw Prohibits-Icecrown but every now and then I play a bit for real :)", -- [20]
+							"/cw Prohibits-Icecrown There are 5 account wide daily quests that can be turned in from anywhere", -- [21]
+							"/cw Prohibits-Icecrown so I have a level 1 toon in each of those spots", -- [22]
+							"/cw Prohibits-Icecrown All the pets are below level 12, so any level 25 one shots", -- [23]
+							"/cw Prohibits-Icecrown 5 mins of work = 1/2 a level a day", -- [24]
+							"/cw Prohibits-Icecrown yup", -- [25]
+							"/cw Prohibits-Icecrown Are you about to do those?", -- [26]
+							"/cw Prohibits-Icecrown And I already have a 10 :)", -- [27]
+							"/cw Prohibits-Icecrown Theorectically?", -- [28]
+							"/cw Prohibits-Icecrown Like right now?", -- [29]
+							"/cw Prohibits-Icecrown I'm so confused", -- [30]
+							"/cw Prohibits-Icecrown alright, I guess I'll kill the first two?", -- [31]
+							"/cw Prohibits-Icecrown 56", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
