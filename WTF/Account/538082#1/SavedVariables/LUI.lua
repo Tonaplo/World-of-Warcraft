@@ -61,16 +61,16 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 374201398,
-							["Farahn"] = 207795770,
+							["Farahn"] = 210466840,
 							["Greybone"] = 987676356,
 							["Faerand"] = 332913006,
-							["Korugen"] = 9048633,
+							["Korugen"] = 9075633,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 68959333,
-							["Mallusof"] = 884276894,
-							["Thedodrouk"] = 8459495,
-							["Rahran"] = 595705761,
-							["Praerend"] = 1499197841,
+							["Mallusof"] = 882576576,
+							["Thedodrouk"] = 8594943,
+							["Rahran"] = 596537247,
+							["Praerend"] = 1499741891,
 						},
 					},
 				},
@@ -86,9 +86,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
-							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -222,20 +222,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
-					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
+					},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -263,10 +257,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -735,10 +735,11 @@ LUIDB = {
 								["Width"] = 200,
 							},
 							["ClassIcons"] = {
-								["Y"] = 100,
-								["X"] = 350,
-								["Padding"] = 1,
+								["Y"] = 90,
+								["X"] = 375,
 								["Lock"] = false,
+								["Texture"] = "oUF LUI",
+								["Width"] = 200,
 							},
 							["AltPower"] = {
 								["Enable"] = true,
@@ -1457,38 +1458,38 @@ LUIDB = {
 							"/i thanks :)", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/4 inv please", -- [1]
-							"/4 :)", -- [2]
-							"/cw Inevitabits-Icecrown well don :)", -- [3]
-							"/cw Kaligon-Tichondrius We're raiding tonight :)", -- [4]
-							"/cw Kaligon-Tichondrius well", -- [5]
-							"/cw Kaligon-Tichondrius We're doing achievements", -- [6]
-							" just did", -- [7]
-							"/4 Newc and Elwen", -- [8]
-							"/4 We've figured out that the orbs are supposedly always spawning in the same spots :)", -- [9]
-							"/g FYI", -- [10]
-							"/g sORRY, group double pulled", -- [11]
-							"/g again", -- [12]
-							"/g Ok so", -- [13]
-							"/g |cffffff00|Hachievement:12823:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Thrash Mouth - All Stars]|h|r will not be granted to you if you're dead when the boss dies", -- [14]
-							"/g even though the rest of the group gets it", -- [15]
-							"/g and that sucks", -- [16]
-							"/g But now you guys know", -- [17]
-							" wE HAVE A JOB TOMORROW", -- [18]
-							" caps", -- [19]
-							" read guild chat around 19:30 when you log in", -- [20]
-							" We need to yell at Morgan tomorrow", -- [21]
-							" YES", -- [22]
-							" Raid achievements though?", -- [23]
-							" especially when other raid achievements in the raid dont require it?", -- [24]
-							"/g VERY OLD VIDEO", -- [25]
-							"/g caps", -- [26]
-							"/g back from Vanilla", -- [27]
-							"/g I remember it", -- [28]
-							"/raid 1 SEC", -- [29]
-							"/raid arcane int please :)", -- [30]
-							"/raid not now", -- [31]
-							"/raid definitely not now :)", -- [32]
+							"/p 42", -- [1]
+							"/p nonono", -- [2]
+							"/p trash", -- [3]
+							"/p 50 trash", -- [4]
+							"/p wait", -- [5]
+							"/p they announced it?", -- [6]
+							"/p I know what it does", -- [7]
+							"/p :", -- [8]
+							"/p alright", -- [9]
+							"/p I'll shut up then", -- [10]
+							"/p I'm going to fucking bed", -- [11]
+							"/p 1 trash", -- [12]
+							"/p well", -- [13]
+							"/p if they didnt say Specifics", -- [14]
+							"/p I wont say anythin", -- [15]
+							"/p the king", -- [16]
+							"/p I'm staying up here", -- [17]
+							"/p you can kill somethign", -- [18]
+							"/p |cffa335ee|Hitem:158375::::::::120:256::16:3:5010:1542:4786:::|h[Drape of the Loyal Vassal]|h|r anyone?", -- [19]
+							"/p YOu wouldnt get it either", -- [20]
+							"/p No heals, no loot for you", -- [21]
+							"/p oh god", -- [22]
+							"/p no more", -- [23]
+							"/p alright", -- [24]
+							"/p good night :)", -- [25]
+							"/p Feel free you message me to get in in next week", -- [26]
+							"/p to heal everyone", -- [27]
+							"/p except Kaligon", -- [28]
+							"/p :P", -- [29]
+							" <3", -- [30]
+							"/p Alright for real goodnight;", -- [31]
+							"/p cya", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

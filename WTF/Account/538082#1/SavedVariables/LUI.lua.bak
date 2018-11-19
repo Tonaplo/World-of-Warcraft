@@ -130,16 +130,16 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 374201398,
-							["Farahn"] = 207795770,
+							["Farahn"] = 210466840,
 							["Greybone"] = 987676356,
 							["Faerand"] = 332913006,
-							["Korugen"] = 9048633,
+							["Korugen"] = 9075633,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 68959333,
-							["Mallusof"] = 880883175,
-							["Thedodrouk"] = 8459495,
-							["Rahran"] = 595705761,
-							["Praerend"] = 1499197841,
+							["Mallusof"] = 887988388,
+							["Thedodrouk"] = 8594943,
+							["Rahran"] = 596537247,
+							["Praerend"] = 1499741891,
 						},
 					},
 				},
@@ -171,9 +171,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
-							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -222,14 +222,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -257,16 +264,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -683,10 +683,11 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
-								["Y"] = 100,
-								["X"] = 350,
+								["Y"] = 90,
+								["X"] = 375,
 								["Lock"] = false,
-								["Padding"] = 1,
+								["Width"] = 200,
+								["Texture"] = "oUF LUI",
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -1050,38 +1051,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/cw Prohibits-Icecrown ahh", -- [1]
-							"/i oh ", -- [2]
-							"/i this is good", -- [3]
-							" yup :)", -- [4]
-							"/cw Prohibits-Icecrown ahh", -- [5]
-							"/i this is good", -- [6]
-							"/cw Prohibits-Icecrown ahh", -- [7]
-							"/i oh ", -- [8]
-							"/cw Prohibits-Icecrown ahh", -- [9]
-							"/i oh ", -- [10]
-							"/i this is good", -- [11]
-							"/cw Prohibits-Icecrown ahh", -- [12]
-							" yup :)", -- [13]
-							"/i oh ", -- [14]
-							"/cw Prohibits-Icecrown ahh", -- [15]
-							"/i oh ", -- [16]
-							"/i this is good", -- [17]
-							" yup :)", -- [18]
-							"/cw Prohibits-Icecrown ahh", -- [19]
-							"/i this is good", -- [20]
-							"/cw Prohibits-Icecrown ahh", -- [21]
-							"/i oh ", -- [22]
-							"/i this is good", -- [23]
-							" yup :)", -- [24]
-							"/cw Prohibits-Icecrown ahh", -- [25]
-							"/i this is good", -- [26]
-							"/cw Prohibits-Icecrown ahh", -- [27]
-							"/i oh ", -- [28]
-							" yup :)", -- [29]
-							"/i this is good", -- [30]
-							"/i oh ", -- [31]
-							"/i this is good", -- [32]
+							" We need to yell at Morgan tomorrow", -- [1]
+							" Raid achievements though?", -- [2]
+							"/g VERY OLD VIDEO", -- [3]
+							"/g back from Vanilla", -- [4]
+							"/raid 1 SEC", -- [5]
+							"/raid not now", -- [6]
+							"/i thanks :)", -- [7]
+							"/cw Inevitabits-Icecrown well don :)", -- [8]
+							" caps", -- [9]
+							"/cw Kaligon-Tichondrius well", -- [10]
+							"/g even though the rest of the group gets it", -- [11]
+							" just did", -- [12]
+							" Raid achievements though?", -- [13]
+							"/g back from Vanilla", -- [14]
+							"/raid not now", -- [15]
+							"/cw Inevitabits-Icecrown well don :)", -- [16]
+							"/cw Kaligon-Tichondrius well", -- [17]
+							" just did", -- [18]
+							"/g back from Vanilla", -- [19]
+							"/cw Inevitabits-Icecrown well don :)", -- [20]
+							" just did", -- [21]
+							"/cw Inevitabits-Icecrown well don :)", -- [22]
+							"/cw Kalithumos-Tichondrius How long do you guys have in there?", -- [23]
+							"/cw Kalithumos-Tichondrius what changes?", -- [24]
+							"/cw Kalithumos-Tichondrius That's from 8.0 tho?", -- [25]
+							"/cw Kalithumos-Tichondrius :P", -- [26]
+							"/cw Inevitabits ohhhh", -- [27]
+							"/cw Inevitabits  TD+", -- [28]
+							"/cw Inevitabits +14", -- [29]
+							"/cw Inevitabits I logged on 15 mins ago", -- [30]
+							"/cw Inevitabits Can the heals DPS?", -- [31]
+							"/cw Inevitabits I do, ye", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
