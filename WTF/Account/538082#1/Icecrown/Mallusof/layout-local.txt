@@ -34,13 +34,6 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: RematchDialog
-FrameLevel: 1
-Anchor: CENTER
-X: -200
-Y: 32
-W: 420
-H: 200
 Frame: DetailsPlayerDetailsWindow
 FrameLevel: 1
 Anchor: CENTER
@@ -48,3 +41,10 @@ X: 0
 Y: 0
 W: 790
 H: 454
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: CENTER
+X: -200
+Y: 32
+W: 420
+H: 200
