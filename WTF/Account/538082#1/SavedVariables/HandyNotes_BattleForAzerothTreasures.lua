@@ -8,19 +8,19 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
-		["Korugen - Icecrown"] = "Korugen - Icecrown",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
-		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
+		["Korugen - Icecrown"] = "Korugen - Icecrown",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
@@ -38,7 +38,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Miriyal - Icecrown"] = {
 		},
-		["Caircaidin - Frostwolf"] = {
+		["Zearthan - Icecrown"] = {
 		},
 		["Farahn - Icecrown"] = {
 		},
@@ -52,17 +52,17 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["Korugen - Proudmoore"] = {
-		},
-		["Greybone - Proudmoore"] = {
-		},
-		["Deminath - Proudmoore"] = {
-		},
-		["Korugen - Icecrown"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
 		["Greybone - Icecrown"] = {
 		},
-		["Zearthan - Icecrown"] = {
+		["Korugen - Icecrown"] = {
+		},
+		["Deminath - Proudmoore"] = {
+		},
+		["Greybone - Proudmoore"] = {
+		},
+		["Korugen - Proudmoore"] = {
 		},
 		["Mallusof - Icecrown"] = {
 			["tooltip_questid"] = true,
