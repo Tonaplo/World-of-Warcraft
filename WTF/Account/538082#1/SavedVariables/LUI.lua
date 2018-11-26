@@ -67,7 +67,7 @@ LUIDB = {
 							["Korugen"] = 9075633,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 68959333,
-							["Mallusof"] = 855960753,
+							["Mallusof"] = 856077753,
 							["Thedodrouk"] = 8594943,
 							["Rahran"] = 596537247,
 							["Praerend"] = 1499741891,
@@ -86,9 +86,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
-							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -97,29 +97,6 @@ LUIDB = {
 					["Gold"] = {
 						["Horde"] = {
 							["Deminath"] = 2131,
-						},
-					},
-				},
-				["Aggramar"] = {
-					["Gold"] = {
-						["Horde"] = {
-							["Gottagetlia"] = 319950,
-						},
-					},
-				},
-				["Tichondrius"] = {
-					["Gold"] = {
-						["Horde"] = {
-							["Alura"] = 3644797,
-							["Lorvol"] = 1057540,
-							["Morifa"] = 1396339366,
-							["Zaliga"] = 8607092,
-							["Kindhoof"] = 1198250606,
-						},
-						["Alliance"] = {
-							["Mallusof"] = 226844308,
-							["Korugen"] = 7835929,
-							["Zethan"] = 38755956,
 						},
 					},
 				},
@@ -139,12 +116,35 @@ LUIDB = {
 							["Kaldorath"] = 1269646101,
 							["Zearthan"] = 38822533,
 							["Korugen"] = 8422477,
-							["Fimwack"] = 1625871926,
 							["Mallusof"] = 1162234125,
+							["Fimwack"] = 1625871926,
 							["Morifa"] = 1385014335,
 							["Rahran"] = 594441111,
 							["Faerand"] = 331462352,
 							["Praerend"] = 1500267344,
+						},
+					},
+				},
+				["Tichondrius"] = {
+					["Gold"] = {
+						["Horde"] = {
+							["Alura"] = 3644797,
+							["Lorvol"] = 1057540,
+							["Morifa"] = 1396339366,
+							["Zaliga"] = 8607092,
+							["Kindhoof"] = 1198250606,
+						},
+						["Alliance"] = {
+							["Mallusof"] = 226844308,
+							["Korugen"] = 7835929,
+							["Zethan"] = 38755956,
+						},
+					},
+				},
+				["Aggramar"] = {
+					["Gold"] = {
+						["Horde"] = {
+							["Gottagetlia"] = 319950,
 						},
 					},
 				},
@@ -222,11 +222,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -237,6 +232,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -264,9 +263,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -957,6 +957,12 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Base"] = {
+					["Tps"] = {
+						["Width"] = 600,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Animation"] = "None",
@@ -965,17 +971,11 @@ LUIDB = {
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
 					},
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
-					["Tps"] = {
-						["Width"] = 600,
-					},
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1101,17 +1101,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
-					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
 					},
 					["micromenu_btn_hover"] = {
 						0.9, -- [1]
@@ -1119,13 +1113,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1264,7 +1264,13 @@ LUIDB = {
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.57, -- [1]
+						0.22, -- [2]
+						1, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
@@ -1276,19 +1282,13 @@ LUIDB = {
 						1, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.57, -- [1]
-						0.22, -- [2]
-						1, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
@@ -1459,35 +1459,35 @@ LUIDB = {
 						},
 						["Alliance - Icecrown"] = {
 							"/p :P", -- [1]
-							" What are you guys doing?", -- [2]
+							"/s ?", -- [2]
 							" How can you even concentrate on playing when you're 8 months pregnant, lol", -- [3]
-							"/p Alright for real goodnight;", -- [4]
-							" What are you guys doing?", -- [5]
-							"/p Alright for real goodnight;", -- [6]
-							"/g I should prolly get around to doing tose", -- [7]
-							"/g ici", -- [8]
-							"/cw Astral-Icecrown That's one hell of a name.  Congrats on getting that one :P", -- [9]
-							"/cw Astral-Icecrown coming", -- [10]
-							"/i comig", -- [11]
-							"/g Was there ever a time where one of you did not read chat?", -- [12]
-							"/g Not because you didnt know about it", -- [13]
-							"/g Well", -- [14]
-							"/g Actually no", -- [15]
-							"/g because you didnt know about it", -- [16]
+							"/g I should prolly get around to doing tose", -- [4]
+							"/i comig", -- [5]
+							"/g Actually no", -- [6]
+							"/g when they join group content", -- [7]
+							"/i go for hrode", -- [8]
+							"/i gather", -- [9]
+							"/i omw", -- [10]
+							" What are you guys doing?", -- [11]
+							"/g Not because you didnt know about it", -- [12]
+							"/i beach", -- [13]
+							"/i nice", -- [14]
+							"/cw Astral-Icecrown That's one hell of a name.  Congrats on getting that one :P", -- [15]
+							"/i Go gather", -- [16]
 							"/i rare or x?", -- [17]
-							"/g Just frustrated with people that dont read chat", -- [18]
-							"/g when they join group content", -- [19]
-							"/i beack", -- [20]
-							"/i beach", -- [21]
-							"/g terible Island pugs, yses", -- [22]
-							"/i go for hrode", -- [23]
-							"/i Need to keep them occupied", -- [24]
+							"/s ?", -- [18]
+							"/g I should prolly get around to doing tose", -- [19]
+							"/g Actually no", -- [20]
+							"/i go for hrode", -- [21]
+							"/i omw", -- [22]
+							"/g Not because you didnt know about it", -- [23]
+							"/i nice", -- [24]
 							"/i Go gather", -- [25]
-							"/i I got them", -- [26]
-							"/i gather", -- [27]
-							"/i mount?", -- [28]
+							"/s ?", -- [26]
+							"/g Actually no", -- [27]
+							"/i omw", -- [28]
 							"/i nice", -- [29]
-							"/i seems like it", -- [30]
+							"/s ?", -- [30]
 							"/i omw", -- [31]
 							"/s ?", -- [32]
 						},
@@ -1845,11 +1845,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Icecrown"] = {
@@ -1912,11 +1912,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Rahran - Proudmoore"] = {
@@ -2004,11 +2004,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Deminath - Proudmoore"] = {
@@ -2241,9 +2241,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2397,11 +2397,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Amranar - Proudmoore"] = {
@@ -2414,9 +2414,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
