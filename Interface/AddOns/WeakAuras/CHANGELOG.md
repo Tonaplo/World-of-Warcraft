@@ -1,18 +1,22 @@
-# [2.8.1](https://github.com/WeakAuras/WeakAuras2/tree/2.8.1) (2018-10-02)
+# [2.10.2](https://github.com/WeakAuras/WeakAuras2/tree/2.10.2) (2018-11-28)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.8.0...2.8.1)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.10.1...2.10.2)
 
 ## Highlights
 
- We fixed a bug where conditions were not properly resetting when auras got unloaded. 
+  
 
 ## Commits
 
-Causese (1):
+InfusOnWoW (5):
 
-- fixed a trait that is no longer a buff on player
+- Use a unicode code point from the private use area
+- Fix WeakAuras.RemoveCollapsed
+- Tweak AuthorOptions
+- Fix lua errors for multi bufftriggers
+- Increase min width/height
 
-Infus (1):
+mrbuds (1):
 
-- Fix Conditions not resetting on unloading auras
+- fix texteditor crashing on PTR - ticket #971
 

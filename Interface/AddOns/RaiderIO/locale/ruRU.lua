@@ -26,9 +26,8 @@ L["BEST_RUN"] = "Лучшее прохождение"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Изменения были сохранены, но необходимо перезагрузить интерфейс, чтобы они вступили в силу.
 
 Сделать это сейчас?]=]
-L["CHECKBOX_DISPLAY_WEEKLY"] = "Отобразить за Неделю"
---[[Translation missing --]]
---[[ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = ""--]] 
+L["CHECKBOX_DISPLAY_WEEKLY"] = "Текущая неделя"
+L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Отображение информации по подземельям и рейдам"
 L["COPY_RAIDERIO_PROFILE_URL"] = "Копирование ссылки на профиль Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Копировать ссылку на Raider.IO-профиль"
 L["DPS"] = "Боец"
@@ -51,8 +50,7 @@ L["DUNGEON_SHORT_NAME_SEAT"] = "Престол Триумвирата"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Осада Боралуса"
 L["DUNGEON_SHORT_NAME_SOTS"] = "Святилище Штормов"
 L["DUNGEON_SHORT_NAME_TD"] = "Тол Дагор"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_TM"] = ""--]] 
+L["DUNGEON_SHORT_NAME_TM"] = "ЗОЛОТАЯ ЖИЛА!!!"
 L["DUNGEON_SHORT_NAME_TOS"] = "Храм Сетралисс"
 L["DUNGEON_SHORT_NAME_UNDR"] = "Подгнилье"
 L["DUNGEON_SHORT_NAME_UPPR"] = "Каражан (верхняя часть)"
@@ -64,38 +62,29 @@ L["ENABLE_LOCK_PROFILE_FRAME"] = "Закрепить рамку М+ профил
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Предотвращает перетаскивание рамки М+ профиля. Не действует, если рамка М+ профиля настроена на автоматическое позиционирование."
 L["ENABLE_NO_SCORE_COLORS"] = "Отключить цвета для очков"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "Отключает раскраску очков. Все очки будут отображены белым цветом."
---[[Translation missing --]]
---[[ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = ""--]] 
---[[Translation missing --]]
---[[ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = ""--]] 
+L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = "Расширенная информация по персонажам"
+L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = "Включает отображение расширенной информации по вашим персонажам, полученной с помощью RaiderIO Client."
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Использовать упрощенную окраску очков"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Показывает очки только цветами качества предметов. Это упрощает визуальную оценку очков при беглом осмотре кандидатов."
-L["EXPORTJSON_COPY_TEXT"] = "Скопировать ссылку и вставить ее в |cff00C8FFhttps://raider.io|r для просмотра всех игроков."
+L["EXPORTJSON_COPY_TEXT"] = "Скопируйте текст и вставьте его где угодно на странице |cff00C8FFhttps://raider.io|r для просмотра данных по всем игрокам."
 L["GUILD_BEST_SEASON"] = "Гильдия: Лучший Сезон"
 L["GUILD_BEST_TITLE"] = "Данные Raider.IO"
 L["GUILD_BEST_WEEKLY"] = "Гильдия: Лучшие за Неделю"
 L["HEALER"] = "Лекарь"
 L["HEALER_SCORE"] = "Очки лекаря"
---[[Translation missing --]]
---[[ L["HIDE_OWN_PROFILE"] = ""--]] 
---[[Translation missing --]]
---[[ L["HIDE_OWN_PROFILE_DESC"] = ""--]] 
+L["HIDE_OWN_PROFILE"] = "Скрыть подсказку для вашего персонажа"
+L["HIDE_OWN_PROFILE_DESC"] = "Отключает отображение подсказки для вашего персонажа. Не влияет на отображение подсказок для других игроков."
 --[[Translation missing --]]
 --[[ L["INVERSE_PROFILE_MODIFIER"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["INVERSE_PROFILE_MODIFIER_DESC"] = ""--]] 
-L["KEYSTONE_COMPLETED_10"] = "+10 (К-з)"
-L["KEYSTONE_COMPLETED_15"] = "+15 (Вк)"
---[[Translation missing --]]
---[[ L["KEYSTONE_COMPLETED_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["LEGION_MAIN_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["LEGION_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
---[[Translation missing --]]
---[[ L["MAINS_RAID_PROGRESS"] = ""--]] 
+L["KEYSTONE_COMPLETED_10"] = "+10 (Завоеватель)"
+L["KEYSTONE_COMPLETED_15"] = "+15 (Мастер)"
+L["KEYSTONE_COMPLETED_5"] = "+5-9 (Претендент)"
+L["LEGION_MAIN_SCORE"] = "Очки дополнения Legion"
+L["LEGION_SCORE"] = "Очки дополнения Legion"
+L["LOCKING_PROFILE_FRAME"] = "Блокировка перемещения окна с информацией"
+L["MAINS_RAID_PROGRESS"] = "Рейдовый прогресс главного персонажа"
 L["MAINS_SCORE"] = "Очки мейна"
 L["MAINS_SCORE_COLON"] = "Очки мейна"
 L["MODULE_AMERICAS"] = "Америка"
@@ -110,91 +99,53 @@ L["OPEN_CONFIG"] = "Открыть настройки"
 --[[Translation missing --]]
 --[[ L["OUT_OF_SYNC_DATABASE_S"] = ""--]] 
 L["OUTDATED_DATABASE"] = "Данные устарели на %d дня."
---[[Translation missing --]]
---[[ L["OUTDATED_DATABASE_HOURS"] = ""--]] 
+L["OUTDATED_DATABASE_HOURS"] = "Данные обновлены %d часов назад"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r использует данные устаревшие на |cffFF6666%d|r дня(дней). Пожалуйста, обновите аддон для отображения корректных очков."
---[[Translation missing --]]
---[[ L["PLAYER_PROFILE_TITLE"] = ""--]] 
+L["PLAYER_PROFILE_TITLE"] = "Профиль игрока"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "Лучшие прохождения подземелий"
---[[Translation missing --]]
---[[ L["RAID_ABBREVIATION_ULD"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_11"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ABT_9"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ULD_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ULD_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ULD_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ULD_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ULD_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ULD_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ULD_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_ULD_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_NAME_HEROIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_NAME_MYTHIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_NAME_NORMAL"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_PROGRESS_TITLE"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAIDERIO_CLIENT_CUSTOMIZATION"] = ""--]] 
+L["RAID_ABBREVIATION_ULD"] = "Ульдир"
+L["RAID_BOSS_ABT_1"] = "Разрушитель миров Кин'гарота."
+L["RAID_BOSS_ABT_10"] = "Агграмар"
+L["RAID_BOSS_ABT_11"] = "Аргус"
+L["RAID_BOSS_ABT_2"] = "Гончие Саргераса"
+L["RAID_BOSS_ABT_3"] = "Хранительница порталов"
+L["RAID_BOSS_ABT_4"] = "Военный совет"
+L["RAID_BOSS_ABT_5"] = "Эонар"
+L["RAID_BOSS_ABT_6"] = "Имонар"
+L["RAID_BOSS_ABT_7"] = "Кин'гарот"
+L["RAID_BOSS_ABT_8"] = "Вариматрас"
+L["RAID_BOSS_ABT_9"] = "Ковен шиварр"
+L["RAID_BOSS_ULD_1"] = "Талок"
+L["RAID_BOSS_ULD_2"] = "МАТРИАРХ"
+L["RAID_BOSS_ULD_3"] = "Зловонный пожиратель"
+L["RAID_BOSS_ULD_4"] = "Зек'воз"
+L["RAID_BOSS_ULD_5"] = "Вектис"
+L["RAID_BOSS_ULD_6"] = "Зул"
+L["RAID_BOSS_ULD_7"] = "Митракс"
+L["RAID_BOSS_ULD_8"] = "Г'уун"
+L["RAID_DIFFICULTY_NAME_HEROIC"] = "Героический"
+L["RAID_DIFFICULTY_NAME_MYTHIC"] = "Эпохальный"
+L["RAID_DIFFICULTY_NAME_NORMAL"] = "Обычный"
+L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = "Гер"
+L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "Эпх"
+L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "Об"
+L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Побежденные боссы"
+L["RAID_PROGRESS_TITLE"] = "Рейдовый прогресс"
+L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Средние очки у прошедших во время "
+L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Настройки клиента RaiderIO"
 L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO M+ Базовые Очки"
 L["RAIDERIO_MP_SCORE"] = "Очки по версии Raider.IO"
 L["RAIDERIO_MP_SCORE_COLON"] = "Очки по версии Raider.IO: "
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Настройки аддона Raider.IO "
---[[Translation missing --]]
---[[ L["RAIDING_DATA_HEADER"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAIDING_DB_MODULES"] = ""--]] 
+L["RAIDING_DATA_HEADER"] = "Рейдовый прогресс"
+L["RAIDING_DB_MODULES"] = "Региональные модули базы данных рейдов"
 L["RELOAD_LATER"] = "Перезагрузить позже"
 L["RELOAD_NOW"] = "Перезагрузить сейчас"
---[[Translation missing --]]
---[[ L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_CLIENT_GUILD_BEST"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_CLIENT_GUILD_BEST_DESC"] = ""--]] 
+L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Отображать средние очки прошедших вовремя"
+L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Показывает среднее количество очков по версии RaiderIO у персонажей прошедших подземелье по ключу вовремя. Показывается в подсказке для ключа и информации по персонажу в поиске подземелий и рейдов."
+L["SHOW_CLIENT_GUILD_BEST"] = "Отображать лучшие прохождения в заранее собранных группах"
+L["SHOW_CLIENT_GUILD_BEST_DESC"] = "Включает отображение 5 лучших прохождений вашей гильдии (за текущий сезон или неделю) во вкладках эпохальных подземелий или поиска группы."
 L["SHOW_IN_FRIENDS"] = "Показывать в списке друзей"
 L["SHOW_IN_FRIENDS_DESC"] = "Показывает очки при наведении курсора мыши в списке друзей."
 L["SHOW_IN_LFD"] = "Показывать в заранее собранных группах"
@@ -215,10 +166,8 @@ L["SHOW_ON_GUILD_ROSTER"] = "Показывать в гильдии"
 L["SHOW_ON_GUILD_ROSTER_DESC"] = "Показывает очки при наведении курсора мыши на членов гильдии."
 L["SHOW_ON_PLAYER_UNITS"] = "Показывать при наведении на игроков"
 L["SHOW_ON_PLAYER_UNITS_DESC"] = "Показывает очки при наведении курсора мыши на цель, если это игрок."
---[[Translation missing --]]
---[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = ""--]] 
+L["SHOW_RAID_ENCOUNTERS_IN_PROFILE"] = "Отображать рейдовый прогресс в подсказке"
+L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = "Включает отображение побежденных боссов рейдов в окне с информацией по персонажу"
 L["SHOW_RAIDERIO_PROFILE"] = "Показывать подсказку моего M+ профиля"
 L["SHOW_RAIDERIO_PROFILE_DESC"] = "Показывает подсказку моего M+ профиля"
 L["SHOW_SCORE_IN_COMBAT"] = "Показывать количество очков во время боя"
@@ -227,21 +176,15 @@ L["TANK"] = "Танк"
 L["TANK_SCORE"] = "Очки танка"
 L["TIMED_10_RUNS"] = "Пройдено 10-14 ключей вовремя"
 L["TIMED_15_RUNS"] = "Пройдено 15+ ключей вовремя"
---[[Translation missing --]]
---[[ L["TIMED_5_RUNS"] = ""--]] 
+L["TIMED_5_RUNS"] = "Пройдено 5-9 ключей вовремя"
 L["TOOLTIP_CUSTOMIZATION"] = "Настройки подсказок"
---[[Translation missing --]]
---[[ L["TOOLTIP_PROFILE"] = ""--]] 
---[[Translation missing --]]
---[[ L["TOTAL_MP_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["TOTAL_RUNS"] = ""--]] 
+L["TOOLTIP_PROFILE"] = "Настройки окна с информацией RaiderIO"
+L["TOTAL_MP_SCORE"] = "Очки эпохальных подземелий"
+L["TOTAL_RUNS"] = "Всего пройдено в дополнении БзА"
 L["UNKNOWN_SCORE"] = "Неизвестно"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r обнаружил неизвестный ранее сервер. Пожалуйста, запишите эту информацию |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r и сообщите об этом разработчикам. Спасибо!"
---[[Translation missing --]]
---[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
---[[Translation missing --]]
---[[ L["WARNING_LOCK_POSITION_FRAME_AUTO"] = ""--]] 
+L["UNLOCKING_PROFILE_FRAME"] = "Разблокировать для перемещения окно с информацией по персонажу"
+L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "Для этого необходимо отключить автоматическое позиционирование окна с  информацией."
 
 
 	ns.L = L

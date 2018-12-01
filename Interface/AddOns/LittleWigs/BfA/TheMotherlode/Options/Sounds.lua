@@ -25,3 +25,20 @@ BigWigs:AddSounds("Mogul Razzdunk", {
 	[271456] = "alert",
 	["stages"] = "info",
 })
+
+BigWigs:AddSounds("The MOTHERLODE!! Trash", {
+	[262540] = {"alarm","warning"},
+	[262554] = "alert",
+	[262947] = "alarm",
+	[263066] = "alarm",
+	[263215] = {"alarm","warning"},
+	[267433] = "long",
+	[268415] = "alert",
+	[268702] = "warning",
+	[268709] = "alarm",
+	[268797] = {"alert","info"},
+	[268846] = "alert",
+	[269302] = "warning",
+	[269313] = "alert",
+	[280605] = "info",
+})

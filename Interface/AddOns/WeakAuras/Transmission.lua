@@ -348,6 +348,12 @@ local function importPendingData()
       merged = {},
     }
   end
+  if data then
+    data.authorMode = nil
+  end
+  if oldData then
+    oldData.authorMode = nil
+  end
   local installedData = {[0] = install(data, oldData, patch, mode, true)}
   WeakAuras.NewDisplayButton(installedData[0])
   coroutine.yield()
@@ -545,7 +551,7 @@ hooksecurefunc("ChatFrame_OnHyperlinkShow", function(self, link, text, button)
         ShowTooltip({
           {2, "WeakAuras", displayName, 0.5, 0, 1, 1, 1, 1},
           {1, L["Requesting display information from %s ..."]:format(characterName), 1, 0.82, 0},
-          {1, L["Note, that cross realm transmission is not possible"], 1, 0.82, 0}
+          {1, L["Note, that cross realm transmission is possible if you are on the same group"], 1, 0.82, 0}
         });
         tooltipLoading = true;
         receivedData = false;
@@ -555,7 +561,7 @@ hooksecurefunc("ChatFrame_OnHyperlinkShow", function(self, link, text, button)
             ShowTooltip({
               {2, "WeakAuras", displayName, 0.5, 0, 1, 1, 1, 1},
               {1, L["Error not receiving display information from %s"]:format(characterName), 1, 0, 0},
-              {1, L["Note, that cross realm transmission is not possible"], 1, 0.82, 0}
+              {1, L["Note, that cross realm transmission is possible if you are on the same group"], 1, 0.82, 0}
             })
           end
         end, 5);
@@ -791,7 +797,7 @@ local function SetCheckButtonStates(radioButtonAnchor, activeCategories)
         button:Show()
         button:Enable()
         button:SetPoint("TOPLEFT", checkButtonAnchor, "TOPLEFT", 17, -27*(0.6 + buttonsShown))
-        button:SetChecked(button ~= checkButtons.anchor)
+        button:SetChecked(button.default)
         buttonsShown = buttonsShown + 1
         buttonsChecked = buttonsChecked + (button:GetChecked() and 1 or 0)
       else
@@ -989,8 +995,6 @@ local function checkCustomCondition(codes, id, customText)
   t.code = customText;
   tinsert(codes, t);
 end
-
-
 
 local function scamCheck(codes, data)
   for i, v in ipairs(data.triggers) do
@@ -1468,6 +1472,8 @@ function WeakAuras.ShowDisplayTooltip(data, children, icon, icons, import, compr
                   tinsert(tooltip, {2, left, name.." |T"..icon..":12:12:0:0:64:64:4:60:4:60|t", 1, 1, 1, 1, 1, 1});
                 end
               end
+            elseif(trigger.type == "aura2") then
+              tinsert(tooltip, {2, L["Trigger:"], L["Aura"], 1, 1, 1, 1, 1, 1});
             elseif(trigger.type == "event" or trigger.type == "status") then
               if(trigger.type == "event") then
                 tinsert(tooltip, {2, L["Trigger:"], (event_types[trigger.event] or L["Undefined"]), 1, 1, 1, 1, 1, 1});
@@ -1675,6 +1681,20 @@ function WeakAuras.ImportString(str)
   end
 end
 
+local function crossRealmSendCommMessage(prefix, text, target, queueName, callbackFn, callbackArg)
+  local chattype = "WHISPER"
+  if target and not UnitIsSameServer(target) then
+    if UnitInRaid(target) then
+      chattype = "RAID"
+      text = ("§§%s:%s"):format(target, text)
+    elseif UnitInParty(target) then
+      chattype = "PARTY"
+      text = ("§§%s:%s"):format(target, text)
+    end
+  end
+  Comm:SendCommMessage(prefix, text, chattype, target, queueName, callbackFn, callbackArg)
+end
+
 local safeSenders = {}
 function RequestDisplay(characterName, displayName)
   safeSenders[characterName] = true
@@ -1684,7 +1704,7 @@ function RequestDisplay(characterName, displayName)
     d = displayName
   };
   local transmitString = TableToString(transmit);
-  Comm:SendCommMessage("WeakAuras", transmitString, "WHISPER", characterName);
+  crossRealmSendCommMessage("WeakAuras", transmitString, characterName);
 end
 
 function TransmitError(errorMsg, characterName)
@@ -1692,14 +1712,14 @@ function TransmitError(errorMsg, characterName)
     m = "dE",
     eM = errorMsg
   };
-  Comm:SendCommMessage("WeakAuras", TableToString(transmit), "WHISPER", characterName);
+  crossRealmSendCommMessage("WeakAuras", TableToString(transmit), characterName);
 end
 
 function TransmitDisplay(id, characterName)
   local encoded = WeakAuras.DisplayToString(id);
   if(encoded ~= "") then
-    Comm:SendCommMessage("WeakAuras", encoded, "WHISPER", characterName, "BULK", function(displayName, done, total)
-      Comm:SendCommMessage("WeakAurasProg", done.." "..total.." "..displayName, "WHISPER", characterName, "ALERT");
+    crossRealmSendCommMessage("WeakAuras", encoded, characterName, "BULK", function(displayName, done, total)
+      crossRealmSendCommMessage("WeakAurasProg", done.." "..total.." "..displayName, characterName, "ALERT");
     end, id);
   else
     TransmitError("dne", characterName);
@@ -1707,6 +1727,18 @@ function TransmitDisplay(id, characterName)
 end
 
 Comm:RegisterComm("WeakAurasProg", function(prefix, message, distribution, sender)
+  if distribution == "PARTY" or distribution == "RAID" then
+    local dest, msg = string.match(message, "^§§(.+):(.+)$")
+    if dest then
+      local dName, dServer = string.match(dest, "^(.*)-(.*)$")
+      local myName, myServer = UnitFullName("player")
+      if myName == dName and myServer == dServer then
+        message = msg
+      else
+        return
+      end
+    end
+  end
   if tooltipLoading and ItemRefTooltip:IsVisible() and safeSenders[sender] then
     receivedData = true;
     local done, total, displayName = strsplit(" ", message, 3)
@@ -1725,6 +1757,18 @@ Comm:RegisterComm("WeakAurasProg", function(prefix, message, distribution, sende
 end)
 
 Comm:RegisterComm("WeakAuras", function(prefix, message, distribution, sender)
+  if distribution == "PARTY" or distribution == "RAID" then
+    local dest, msg = string.match(message, "^§§([^:]+):(.+)$")
+    if dest then
+      local dName, dServer = string.match(dest, "^(.*)-(.*)$")
+      local myName, myServer = UnitFullName("player")
+      if myName == dName and myServer == dServer then
+        message = msg
+      else
+        return
+      end
+    end
+  end
   local received = StringToTable(message);
   if(received and type(received) == "table" and received.m) then
     if(received.m == "d") and safeSenders[sender] then

@@ -25,3 +25,20 @@ BigWigs:AddColors("Mogul Razzdunk", {
 	[271456] = "orange",
 	["stages"] = "cyan",
 })
+
+BigWigs:AddColors("The MOTHERLODE!! Trash", {
+	[262540] = {"red","yellow"},
+	[262554] = "orange",
+	[262947] = "red",
+	[263066] = "orange",
+	[263215] = {"red","yellow"},
+	[267433] = "red",
+	[268415] = "orange",
+	[268702] = "orange",
+	[268709] = "red",
+	[268797] = {"blue","yellow"},
+	[268846] = "orange",
+	[269302] = "orange",
+	[269313] = "red",
+	[280605] = {"blue","yellow"},
+})

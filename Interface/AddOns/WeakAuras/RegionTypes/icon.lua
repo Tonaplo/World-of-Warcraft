@@ -1,5 +1,6 @@
 local SharedMedia = LibStub("LibSharedMedia-3.0");
 local MSQ = LibStub("Masque", true);
+local LCG = LibStub("LibCustomGlow-1.0")
 local L = WeakAuras.L
 
 -- WoW API
@@ -40,7 +41,12 @@ local default = {
   frameStrata = 1,
   customTextUpdate = "update",
   glow = false,
+  useglowColor = false,
+  glowColor = {1, 1, 1, 1},
+  glowType = "buttonOverlay",
   cooldownTextEnabled = true,
+  cooldownSwipe = true,
+  cooldownEdge = false,
 };
 
 WeakAuras.regionPrototype.AddAlphaToDefault(default);
@@ -72,9 +78,25 @@ local properties = {
     default = 32
   },
   glow = {
-    display = L["Glow"],
+    display = WeakAuras.newFeatureString .. L["Set Glow Visibility"],
     setter = "SetGlow",
     type = "bool"
+  },
+  glowType = {
+    display = WeakAuras.newFeatureString .. L["Glow Type"],
+    setter = "SetGlowType",
+    type = "list",
+    values = WeakAuras.glow_types,
+  },
+  useGlowColor = {
+    display = WeakAuras.newFeatureString .. L["Use Custom Glow Color"],
+    setter = "SetUseGlowColor",
+    type = "bool"
+  },
+  glowColor = {
+    display = WeakAuras.newFeatureString .. L["Glow Color"],
+    setter = "SetGlowColor",
+    type = "color"
   },
   text1Color = {
     display = L["1. Text Color"],
@@ -114,6 +136,26 @@ local properties = {
     setter = "SetInverse",
     type = "bool"
   },
+  cooldownSwipe = {
+    display = WeakAuras.newFeatureString .. L["Cooldown Swipe"],
+    setter = "SetCooldownSwipe",
+    type = "bool",
+  },
+  cooldownEdge = {
+    display = WeakAuras.newFeatureString .. L["Cooldown Edge"],
+    setter = "SetCooldownEdge",
+    type = "bool",
+  },
+  zoom = {
+    display = L["Zoom"],
+    setter = "SetZoom",
+    type = "number",
+    min = 0,
+    max = 1,
+    step = 0.01,
+    default = 0,
+    isPercent = true
+  },
 };
 
 WeakAuras.regionPrototype.AddProperties(properties, default);
@@ -122,30 +164,31 @@ local function GetProperties(data)
   return properties;
 end
 
-local function GetTexCoord(region, texWidth, aspectRatio)
-  local currentCoord
 
+local function GetTexCoord(region, texWidth, aspectRatio)
+  region.currentCoord = region.currentCoord or {}
+  local usesMasque = false
   if region.MSQGroup then
     region.MSQGroup:ReSkin();
 
     local db = region.MSQGroup.db
     if db and not db.Disabled then
-      currentCoord = {region.icon:GetTexCoord()}
+      usesMasque = true
+      region.currentCoord[1], region.currentCoord[2], region.currentCoord[3], region.currentCoord[4], region.currentCoord[5], region.currentCoord[6], region.currentCoord[7], region.currentCoord[8] = region.icon:GetTexCoord()
     end
   end
-  if (not currentCoord) then
-    currentCoord = {0, 0, 0, 1, 1, 0, 1, 1};
+  if (not usesMasque) then
+    region.currentCoord[1], region.currentCoord[2], region.currentCoord[3], region.currentCoord[4], region.currentCoord[5], region.currentCoord[6], region.currentCoord[7], region.currentCoord[8] = 0, 0, 0, 1, 1, 0, 1, 1;
   end
 
   local xRatio = aspectRatio < 1 and aspectRatio or 1;
   local yRatio = aspectRatio > 1 and 1 / aspectRatio or 1;
-  local texCoord = {}
-  for i, coord in pairs(currentCoord) do
+  for i, coord in ipairs(region.currentCoord) do
     local aspectRatio = (i % 2 == 1) and xRatio or yRatio;
-    texCoord[i] = (coord - 0.5) * texWidth * aspectRatio + 0.5;
+    region.currentCoord[i] = (coord - 0.5) * texWidth * aspectRatio + 0.5;
   end
 
-  return unpack(texCoord)
+  return unpack(region.currentCoord)
 end
 
 local function create(parent, data)
@@ -192,7 +235,6 @@ local function create(parent, data)
   local cooldown = CreateFrame("COOLDOWN", "WeakAurasCooldown"..frameId, region, "CooldownFrameTemplate");
   region.cooldown = cooldown;
   cooldown:SetAllPoints(icon);
-  cooldown:SetDrawEdge(false);
 
   local stacksFrame = CreateFrame("frame", nil, region);
   local stacks = stacksFrame:CreateFontString(nil, "OVERLAY");
@@ -309,12 +351,13 @@ local function modify(parent, region, data)
   region.scalex = 1;
   region.scaley = 1;
   region.keepAspectRatio = data.keepAspectRatio;
+  region.zoom = data.zoom;
   icon:SetAllPoints();
 
   configureText(stacks, icon, data.text1Enabled, data.text1Point, data.width, data.height, data.text1Containment, data.text1Font, data.text1FontSize, data.text1FontFlags, data.text1Color);
   configureText(text2, icon, data.text2Enabled, data.text2Point, data.width, data.height, data.text2Containment, data.text2Font, data.text2FontSize, data.text2FontFlags, data.text2Color);
 
-  local texWidth = 1 - data.zoom * 0.5;
+  local texWidth = 1 - region.zoom * 0.5;
   local aspectRatio = region.keepAspectRatio and region.width / region.height or 1;
 
   icon:SetTexCoord(GetTexCoord(region, texWidth, aspectRatio))
@@ -411,8 +454,8 @@ local function modify(parent, region, data)
   end
 
   local customTextFunc = nil
-  local data1Custom = data.text1Enabled and data.text1:find("%%c");
-  local data2Custom = data.text2Enabled and data.text2:find("%%c")
+  local data1Custom = data.text1Enabled and WeakAuras.ContainsCustomPlaceHolder(data.text1)
+  local data2Custom = data.text2Enabled and WeakAuras.ContainsCustomPlaceHolder(data.text2)
   if (data.customText and (data1Custom or data2Custom)) then
     customTextFunc = WeakAuras.LoadFunction("return "..data.customText, region.id)
   end
@@ -464,20 +507,10 @@ local function modify(parent, region, data)
   end
 
   function region:UpdateSize()
-    local mirror_h, mirror_v, width, height;
-    local scalex = region.scalex;
-    local scaley = region.scaley;
-    if(scalex < 0) then
-      mirror_h = true;
-      scalex = scalex * -1;
-    end
-    width = region.width * scalex;
+    local width = region.width * math.abs(region.scalex);
+    local height = region.height * math.abs(region.scaley);
+
     region:SetWidth(width);
-    if(scaley < 0) then
-      mirror_v = true;
-      scaley = scaley * -1;
-    end
-    height = region.height * scaley;
     region:SetHeight(height);
     if MSQ then
       button:SetWidth(width);
@@ -486,12 +519,26 @@ local function modify(parent, region, data)
     end
     icon:SetAllPoints();
 
-    local texWidth = 1 - 0.5 * data.zoom;
+    region:UpdateTexCoords();
+  end
+
+  function region:UpdateTexCoords()
+    local mirror_h = region.scalex < 0;
+    local mirror_v = region.scaley < 0;
+
+    local texWidth = 1 - 0.5 * region.zoom;
     local aspectRatio
-    if (not region.keepAspectRatio or width == 0 or height == 0) then
-      aspectRatio = 1
+    if not region.keepAspectRatio then
+      aspectRatio = 1;
     else
-      aspectRatio = width / height;
+      local width = region.width * math.abs(region.scalex);
+      local height = region.height * math.abs(region.scaley);
+
+      if width == 0 or height == 0 then
+        aspectRatio = 1;
+      else
+        aspectRatio = width / height;
+      end
     end
 
     local ulx, uly, llx, lly, urx, ury, lrx, lry = GetTexCoord(region, texWidth, aspectRatio)
@@ -556,14 +603,77 @@ local function modify(parent, region, data)
 
   function region:SetInverse(inverse)
     cooldown:SetReverse(not inverse);
+    if (cooldown.expirationTime and cooldown.duration and cooldown:IsShown()) then
+      -- WORKAROUND SetReverse not applying until next frame
+      cooldown:SetCooldown(0, 0);
+      cooldown:SetCooldown(cooldown.expirationTime - cooldown.duration, cooldown.duration);
+    end
+  end
+
+  function region:SetCooldownSwipe(cooldownSwipe)
+    region.cooldownSwipe = cooldownSwipe;
+    cooldown:SetDrawSwipe(cooldownSwipe);
+  end
+
+  function region:SetCooldownEdge(cooldownEdge)
+    region.cooldownEdge = cooldownEdge;
+    cooldown:SetDrawEdge(cooldownEdge);
+  end
+
+  region:SetCooldownSwipe(data.cooldownSwipe)
+  region:SetCooldownEdge(data.cooldownEdge)
+
+  function region:SetZoom(zoom)
+    region.zoom = zoom;
+    region:UpdateTexCoords();
+  end
+
+  function region:SetGlowType(newType)
+    local isGlowing = region.glow
+    if isGlowing then
+      region:SetGlow(false)
+    end
+    if newType == "buttonOverlay" then
+      region.glowStart = LCG.ButtonGlow_Start
+      region.glowStop = LCG.ButtonGlow_Stop
+    elseif newType == "ACShine" then
+      region.glowStart = LCG.AutoCastGlow_Start
+      region.glowStop = LCG.AutoCastGlow_Stop
+    elseif newType == "Pixel" then
+      region.glowStart = LCG.PixelGlow_Start
+      region.glowStop = LCG.PixelGlow_Stop
+    end
+    region.glowType = newType
+    if isGlowing then
+      region:SetGlow(true)
+    end
+  end
+
+  function region:SetUseGlowColor(useGlowColor)
+    region.useGlowColor = useGlowColor
+    if region.glow then
+      region:SetGlow(true)
+    end
+  end
+
+  function region:SetGlowColor(r, g, b, a)
+    region.glowColor = {r, g, b, a}
+    if region.glow then
+      region:SetGlow(true)
+    end
   end
 
   function region:SetGlow(showGlow)
+    region.glow = showGlow
+    local color
+    if region.useGlowColor then
+      color = region.glowColor
+    end
     if MSQ then
       if (showGlow) then
-        WeakAuras.ShowOverlayGlow(region.button);
+        region.glowStart(region.button, color);
       else
-        WeakAuras.HideOverlayGlow(region.button);
+        region.glowStop(region.button);
       end
     elseif (showGlow) then
       if (not region.__WAGlowFrame) then
@@ -571,15 +681,18 @@ local function modify(parent, region, data)
         region.__WAGlowFrame:SetAllPoints();
         region.__WAGlowFrame:SetSize(region.width, region.height);
       end
-      WeakAuras.ShowOverlayGlow(region.__WAGlowFrame);
+      region.glowStart(region.__WAGlowFrame, color);
     else
       if (region.__WAGlowFrame) then
-        WeakAuras.HideOverlayGlow(region.__WAGlowFrame);
+        region.glowStop(region.__WAGlowFrame);
       end
     end
   end
 
-  region:SetGlow(data.glow);
+  region.useGlowColor = data.useGlowColor
+  region.glowColor = data.glowColor
+  region:SetGlowType(data.glowType)
+  region:SetGlow(data.glow)
 
   if(data.cooldown) then
     function region:SetValue(value, total)
@@ -590,6 +703,8 @@ local function modify(parent, region, data)
     function region:SetTime(duration, expirationTime)
       if (duration > 0) then
         cooldown:Show();
+        cooldown.expirationTime = expirationTime;
+        cooldown.duration = duration;
         cooldown:SetCooldown(expirationTime - duration, duration);
       else
         cooldown:Hide();

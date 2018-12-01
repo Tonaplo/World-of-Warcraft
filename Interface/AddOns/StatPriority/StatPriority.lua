@@ -5,10 +5,9 @@ local statPriorityStats = {}
 
 statPriorityStats["WARRIORArms"] = "Strength > Haste > Critical Strike > Mastery > Versatility"
 statPriorityStats["WARRIORFury"] = "Strength > Haste > Mastery > Versatility > Critical Strike"
-statPriorityStats["WARRIORProtection"] = "Haste > Versatility = Mastery > Critical Strike > Strength"
+statPriorityStats["WARRIORProtection"] = "Haste> Armor > Versatility = Mastery > Critical Strike > Strength"
 
 statPriorityStats["PALADINHoly"] = "Intellect > Critical Strike > Mastery > Haste > Versatility"
-statPriorityStats["PALADINAvenger"] = "Intellect > Critical Strike > Haste > Versatility > Mastery"
 statPriorityStats["PALADINProtection"] = "Haste > Mastery > Versatility > Critical Strike"
 statPriorityStats["PALADINRetribution"] = "Strength > Haste > Critical Strike = Versatility = Mastery"
 
@@ -21,8 +20,8 @@ statPriorityStats["ROGUEOutlaw"] = "Agility > Haste > Versatility > Critical Str
 statPriorityStats["ROGUESubtlety"] = "Mastery > Critical Strike > Versatility > Haste"
 
 statPriorityStats["PRIESTDiscipline"] = "Intellect > Haste > Critical Strike > Mastery > Versatility"
-statPriorityStats["PRIESTHoly"] = "Intellect > Mastery > Critical Strike > Haste > Versatility"
-statPriorityStats["PRIESTShadow"] = "Intellect > Critical Strike > Versatility > Haste = Mastery"
+statPriorityStats["PRIESTHoly"] = "Intellect > Critical Strike > Haste > Versatility > Mastery"
+statPriorityStats["PRIESTShadow"] = "Intellect > Haste = Critical Strike > Mastery > Versatility"
 
 statPriorityStats["SHAMANElemental"] = "Intellect > Haste > Versatility > Critical Strike > Mastery"
 statPriorityStats["SHAMANEnhancement"] = "Agility > Haste > Critical Strike = Versatility > Mastery"
@@ -33,7 +32,7 @@ statPriorityStats["MAGEFire"] = "Intellect > Mastery > Versatility > Haste > Cri
 statPriorityStats["MAGEFrost"] = "Intellect > Critical Strike to 33.34% > Haste > Versatility > Mastery"
 
 statPriorityStats["WARLOCKAffliction"] = "Mastery > Intellect > Haste > Critical Strike = Versatility"
-statPriorityStats["WARLOCKDemonology"] = "Intellect > Haste > Critical Strike = Mastery > Versatility"
+statPriorityStats["WARLOCKDemonology"] = "Intellect > Haste > Critical Strike > Versatility > Mastery"
 statPriorityStats["WARLOCKDestruction"] = "Intellect > Haste > Critical Strike = Mastery > Versatility"
 
 statPriorityStats["DRUIDBalance"] = "Intellect > Haste > Critical Strike > Versatility > Mastery"
@@ -45,7 +44,7 @@ statPriorityStats["MONKBrewmaster"] = "Agility > Critical Strike = Versatility =
 statPriorityStats["MONKMistweaver"] = "Intellect > Critical Strike > Versatility > Haste > Mastery"
 statPriorityStats["MONKWindwalker"] = "Agility > Versatility > Mastery > Critical Strike > Haste"
 
-statPriorityStats["DEATHKNIGHTBlood"] = "Haste > Versatility > Mastery > Critical Strike"
+statPriorityStats["DEATHKNIGHTBlood"] = "Versatility > Haste > Mastery > Critical Strike"
 statPriorityStats["DEATHKNIGHTFrost"] = "Mastery > Critical Strike > Versatility > Haste"
 statPriorityStats["DEATHKNIGHTUnholy"] = "Haste > Critical Strike = Versatility > Mastery"
 
@@ -196,11 +195,11 @@ function statPriorityFrameUpdate(frame, frameText, parent, unit)
 			spec = GetSpecializationInfo(GetSpecialization())
 			spec = GetSpecializationName(spec)
 			text = statPriorityStats[class .. spec];
-			if class == "PALADIN" then
-				if IsSpellKnown(216331) then
-					text = statPriorityStats[class .. "Avenger"]
-				end
-			end
+			-- if class == "PALADIN" then
+				-- if IsSpellKnown(216331) then
+					-- text = statPriorityStats[class .. "Avenger"]
+				-- end
+			-- end
 			if statPriorityStats[name..spec] ~= nil then
 				text = statPriorityStats[name..spec]
 			end

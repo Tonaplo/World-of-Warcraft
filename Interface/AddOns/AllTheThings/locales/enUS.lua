@@ -46,9 +46,9 @@ AllTheThings.Locales.enUS = {
 	["ERROR_UNKNOWN"] = "An unknown error occured.";
 
 	["ITEM_ID_ADDED"] = "%s (%d) was added to your collection.";
-	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection.";
+	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection. Not found in the database. Please report to the ATT Discord!";
 	["ITEM_ID_ADDED_SHARED"] = "%s (%d) [+%d] were added to your collection.";
-	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection.";
+	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection. Not found in the database. Please report to the ATT Discord!";
 	["ITEM_ID_REMOVED"] = "%s (%d) was removed from your collection.";
 	["ITEM_ID_REMOVED_SHARED"] = "%s (%d) [+%d] were removed from your collection.";
 
@@ -169,7 +169,7 @@ AllTheThings.Locales.enUS = {
 		["Normal"] = "N",
 		["Heroic"] = "H",
 		["Mythic"] = "M",
-		-- [" Player"] = "M",   [Lucetia Note: Commenting this out for PvP fix as it lists it as M vs M]
+		-- [" Player"] = "M",   -- Note!! Commenting this out for PvP fix as it lists it as M vs M
 		["10 Player"] = "10M",
 		["10 Player (Heroic)"] = "10M (H)",
 		["25 Player"] = "25",
@@ -187,6 +187,7 @@ AllTheThings.Locales.enUS = {
 		["Mini World Events"] = GetSpellInfo(57055),
 		["Emissary Quests"] = "Emissary",
 		["World Quests"] = "WQ",
+		["WoW Anniversary"] = "Anniversary",
 		
 	};
 
@@ -251,7 +252,7 @@ AllTheThings.Locales.enUS = {
 		[55] = "Consumables",									-- Consumable (Artifact Power, etc)
 		[56] = GetItemClassInfo(5),								-- Reagents (Crafting, etc)
 		[57] = GetItemSubClassInfo(2,20),						-- Fishing Poles
-		[58] = "Containers",									-- Containers (Tier Tokens, Timeless Isle BoA gear tokens, Bags of loot, etc)
+		[58] = AUCTION_CATEGORY_CONTAINERS,						-- Containers (Tier Tokens, Timeless Isle BoA gear tokens, Bags of loot, etc)
 
 		-- "Non-Equipment Types"
 		[100] = GetItemSubClassInfo(15,5),						-- Mounts
@@ -271,11 +272,19 @@ AllTheThings.Locales.enUS = {
 
 		-- "Recipes"
 		[200] = AUCTION_CATEGORY_RECIPES,						-- Recipes
+		
+		[999] = "Event Item",
 	};
 	["FILTER_ID_ICONS"] = {
 		[27] = "Interface\\Icons\\inv_wand_02",								-- Wands
+		[50] = "Interface\\Icons\\Spell_Misc_Drink",						-- Miscellaneous
+		[51] = "Interface\\Icons\\INV_Jewelry_Necklace_02",					-- Neck
+		[52] = "Interface\\Icons\\INV_Jewelry_Ring_04",						-- Finger
+		[53] = "Interface\\Icons\\INV_Trinket_Naxxramas05",					-- Trinket
 		[102] = "Interface\\Icons\\INV_Misc_Toy_10",						-- Toy
+		[113] = "Interface\\Icons\\INV_Misc_Bag_08",						-- Bag
 		[200] = "Interface\\Icons\\inv_scroll_05",							-- Recipes
+		
 	},
 
 	-- These need to be localized manually.
@@ -323,7 +332,7 @@ AllTheThings.Locales.enUS = {
 		[-55] = "Interface\\Icons\\inv_helmet_66",								-- Pirate's Day",
 		[-56] = "Interface\\Icons\\achievement_worldevent_brewmaster",			-- Brewfest
 		[-57] = "Interface\\Icons\\INV_Holiday_Thanksgiving_Cornucopia", 		-- Harvest Festival
-		[-58] = "Interface\\Icons\\achievement_halloween_witch_01",				-- Hallow's End
+		[-58] = "Interface\\Addons\\AllTheThings\\assets\\hallows_end",			-- Hallow's End
 		[-59] = "Interface\\Icons\\inv_misc_bone_humanskull_02",				-- Day of the Dead
 		[-60] = "Interface\\Icons\\inv_thanksgiving_turkey",					-- Pilgrim's Bounty
 		[-61] = "Interface\\Icons\\achievement_worldevent_merrymaker",			-- The Feast of Winter Veil
@@ -659,7 +668,7 @@ AllTheThings.Locales.enUS = {
 		[-6014] = "Interface\\Icons\\Spell_Arcane_PortalUnderCity",				-- Cities
 		[-6015] = "Interface\\Icons\\battleground_strongbox_gold_horde",		-- Rewards
 		
-		
+		[-7776] = "Interface\\Icons\\INV_Helm_Cloth_Holiday_Christmas_A_03",	-- Winter Revelers (for Winter Veil)
 		[-7777] = "Interface\\Icons\\INV_Misc_Basket_05",
 		[-7778] = "Interface\\Icons\\INV_Misc_Bag_28_Halloween",
 		[-7779] = "Interface\\Icons\\inv_misc_treasurechest03a",
@@ -821,6 +830,20 @@ AllTheThings.Locales.enUS = {
 		[-101502] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
 		[-101503] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
 		[-101504] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
+		
+		
+		[-91001] = "Interface\\Icons\\achievement_zone_durotar",
+		[-91002] = "Interface\\Icons\\achievement_zone_durotar",
+		[-91003] = "Interface\\Icons\\achievement_zone_durotar",
+		[-91004] = "Interface\\Icons\\achievement_zone_barrens_01",
+		[-91005] = "Interface\\Icons\\achievement_zone_barrens_01",
+		[-91006] = "Interface\\Icons\\achievement_zone_barrens_01",
+		[-91007] = "Interface\\Icons\\achievement_zone_barrens_01",
+		[-91008] = "Interface\\Icons\\achievement_zone_barrens_01",
+		[-91009] = "Interface\\Icons\\achievement_zone_barrens_01",
+		[-91010] = "Interface\\Icons\\achievement_zone_barrens_01",
+		[-91011] = "Interface\\Icons\\achievement_zone_barrens_01",
+		[-91012] = "Interface\\Icons\\achievement_zone_barrens_01",
 	};
 	["NPC_ID_NAMES"] = {
 
@@ -1502,6 +1525,20 @@ AllTheThings.Locales.enUS = {
 		[-5351] = GAMEMENU_BOOST_BUTTON,											-- Character Boost
 		
 		[-5352] = GARRISON_TIER.." "..WARDROBE_SETS,								-- Tier Sets
+		
+		--Note!! We are localizing them here so when we filter the achievement we don't filter the entire section which is bad!
+		[-5353] = select(2,GetAchievementInfo(2398)),	-- 4th Anniversary
+		[-5354] = select(2,GetAchievementInfo(4400)),	-- 5th Anniversary
+		[-5355] = select(2,GetAchievementInfo(5512)),	-- 6th Anniversary
+		[-5356] = select(2,GetAchievementInfo(5863)),	-- 7th Anniversary
+		[-5357] = select(2,GetAchievementInfo(6131)),	-- 8th Anniversary
+		[-5358] = select(2,GetAchievementInfo(7853)),	-- 9th Anniversary
+		[-5359] = select(2,GetAchievementInfo(8820)),	-- 10th Anniversary
+		[-5360] = select(2,GetAchievementInfo(10058)),	-- 11th Anniversary
+		[-5361] = select(2,GetAchievementInfo(10741)),	-- 12th Anniversary
+		[-5362] = select(2,GetAchievementInfo(11848)),	-- 13th Anniversary
+		[-5363] = select(2,GetAchievementInfo(12827)),	-- 14th Anniversary
+		--[-5364] = select(2,GetAchievementInfo(
 --[[
 		-- Tier Set Numbers Localization
 		[-5992] = GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, -- Tier 9 Sets
@@ -1510,7 +1547,8 @@ AllTheThings.Locales.enUS = {
 		[-6013] = FACTION,															-- Faction
 		[-6014] = BUG_CATEGORY4,													-- Cities
 		[-6015] = GUILD_TAB_REWARDS,												-- Rewards
-
+		
+		[-7776] = "Winter Revelers",												-- Winter Revelers (for Winter Veil)
 		[-7777] = "Timed Event",
 		[-7778] = "First Chest",
 		[-7779] = "Second Chest",
@@ -1681,7 +1719,7 @@ AllTheThings.Locales.enUS = {
 		[-10068] = OPTION_TOOLTIP_ANIMATION,			-- PLACE_HOLDER
 		[-10069] = "Mag'har Orc",
 		
-		--9000+ are reserved for town names.  If you use one make sure to attach an icon (either here or in the file).
+		--90000+ are reserved for town names.  If you use one make sure to attach an icon (either here or in the file).
 		
 		[-90000] = "Lunarwing Shallows",
 		[-90001] = "Lostlight Grotto",
@@ -1689,18 +1727,25 @@ AllTheThings.Locales.enUS = {
 		[-90003] = select(1,GetAchievementCriteriaInfo(12556,11)),	-- Waning Glacier
 		[-90004] = "Anyport",										-- Currently no localization calls
 		[-90005] = C_Map.GetAreaInfo(9305),							-- Castaway Point
-		 
-		 
-		 
-		 
 		
+		-- Durotar
+		[-91001] = C_Map.GetAreaInfo(362),	-- Razor Hill
+		[-91002] = C_Map.GetAreaInfo(367),	-- Sen'jin Village
+		[-91003] = C_Map.GetAreaInfo(4982),	-- The Dranosh'ar Blockade
+		-- Northern Barrens
+		[-91004] = C_Map.GetAreaInfo(379),	-- Far Watch Post
+		[-91005] = C_Map.GetAreaInfo(1704),	-- Grol'dom Farm
+		[-91006] = C_Map.GetAreaInfo(380),	-- The Crossroads
+		[-91007] = C_Map.GetAreaInfo(386),	-- The Forgotten Pools
+		[-91008] = C_Map.GetAreaInfo(388),	-- The Stagnant Oasis
+		[-91009] = C_Map.GetAreaInfo(392),	-- Ratchet
+		[-91010] = C_Map.GetAreaInfo(5117),	-- Nozzlepot's Outpost
+		[-91011] = C_Map.GetAreaInfo(382),	-- The Sludge Fen
+		[-91012] = C_Map.GetAreaInfo(1703),	-- The Mor'Shan Ramparts
 		
-		
-
+		 
 -- Custom Subzone Names that we can't pull from the API because Blizz hates us
   -- Val'sharah
-		
-
 	},
 
 	["OBJECT_ID_ICONS"] = {
@@ -1735,6 +1780,7 @@ AllTheThings.Locales.enUS = {
 		[142195] = "Interface\\Icons\\INV_Misc_Map07",
 		[142487] = "Interface\\Icons\\INV_Engineering_Failure Detection Pylon",
 		[156561] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[160836] = "Interface\\Icons\\Battleground_Strongbox_Silver_Alliance",
 		[161495] = "Interface\\Icons\\Battleground_Strongbox_Silver_Alliance",
 		[161521] = "Interface\\Icons\\Icon_PetFamily_Mechanical",
 		[161526] = "Interface\\Icons\\INV_Crate_08",
@@ -1770,6 +1816,8 @@ AllTheThings.Locales.enUS = {
 		[183811] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[184465] = "Interface\\Icons\\INV_6_2Raid_Trinket_3b",
 		[184945] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[184946] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[185126] = "Interface\\Icons\\ToolTip_CrystallizedFel",
 		[185927] = "Interface\\Icons\\ToolTip_CrystallizedFel",
 		[186426] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[186648] = "Interface\\Icons\\INV_Box_01",
@@ -1919,13 +1967,124 @@ AllTheThings.Locales.enUS = {
 		[214439] = "Interface\\Icons\\INV_Drink_01",
 		[221376] = "Interface\\Icons\\INV_Misc_StoneTablet_05",
 		[221413] = "Interface\\Icons\\TRADE_ARCHAEOLOGY_HIGHBORNE_SCROLL",
+		[224228] = "Interface\\Icons\\INV_Alchemy_70_Cauldron",
+		[224623] = "Interface\\Icons\\INV_Egg_06",
+		[224750] = "Interface\\Icons\\INV_Misc_Bag_13",
+		[224754] = "Interface\\Icons\\inv_misc_treasurechest05b",
+		[224755] = "Interface\\Icons\\inv_misc_treasurechest03c",
+		[224780] = "Interface\\Icons\\INV_ThrowingKnife_01",
+		[224784] = "Interface\\Icons\\inv_misc_diachest01",
+		[224785] = "Interface\\Icons\\inv_misc_treasurechest03d",
+		[226831] = "Interface\\Icons\\Garrison_BronzeChest",
+		[226854] = "Interface\\Icons\\INV_Misc_Bone_02",
+		[226862] = "Interface\\Icons\\INV_Misc_Herb_TeroconeLeaf",
+		[226955] = "Interface\\Icons\\inv_misc_horn_01",
 		[226956] = "Interface\\Icons\\INV_Misc_Basket_03",
+		[226967] = "Interface\\Icons\\inv_misc_abyssalclam",
+		[226976] = "Interface\\Icons\\INV_Boots_Robe_RaidMage_I_01",
+		[227654] = "Interface\\Icons\\INV_Spear_05",
+		[227793] = "Interface\\Icons\\inv_misc_diachest02",
+		[227859] = "Interface\\Icons\\INV_Sword_1H_Draenei_C_02",
+		[227868] = "Interface\\Icons\\INV_Misc_Food_Legion_gooAmberBlue_pool",
+		[227954] = "Interface\\Icons\\INV_Misc_Shell_04",
+		[227956] = "Interface\\Icons\\INV_Misc_Food_Lunchbox_Silver",
+		[227996] = "Interface\\Icons\\INV_Misc_Web_01",
+		[228012] = "Interface\\Icons\\INV_Sword_1H_PandaRaid_D_03",
+		[228015] = "Interface\\Icons\\inv_misc_treasurechest05b",
+		[228018] = "Interface\\Icons\\INV_TreasureChest_FelfireCitadel",
+		[228026] = "Interface\\Icons\\INV_Enchanting_WOD_dust",
+		[228570] = "Interface\\Icons\\INV_Plate_BlackrockClan_B_01Chest",
+		[229354] = "Interface\\Icons\\INV_Misc_Coin_17",
+		[229367] = "Interface\\Icons\\INV_Fishing_Innards_Bones",
+		[229640] = "Interface\\Icons\\inv_axe_1h_draenorquest95_b_01",
+		[230252] = "Interface\\Icons\\INV_Misc_Gem_Pearl_05",
+		[230425] = "Interface\\Icons\\inv_misc_monsterfang_01",
+		[230643] = "Interface\\Icons\\INV_Egg_03",
+		[231069] = "Interface\\Icons\\inv_knife_1h_draenorquest_b_01",
+		[232406] = "Interface\\Icons\\INV_Misc_Bag_08",
+		[232586] = "Interface\\Icons\\INV_ThrowingKnife_03",
+		[232587] = "Interface\\Icons\\inv_misc_chamferchest01",
+		[232588] = "Interface\\Icons\\INV_Misc_Urn_01",
+		[232590] = "Interface\\Icons\\INV_DataCrystal05",
+		[232591] = "Interface\\Icons\\INV_RoseBouquet01",
+		[232596] = "Interface\\Icons\\INV_Axe_18",
+		[232621] = "Interface\\Icons\\priest_icon_chakra_blue",
+		[233137] = "Interface\\Icons\\INV_TreasureChest_FelfireCitadel",
+		[233206] = "Interface\\Icons\\INV_Crate_01",
+		[233218] = "Interface\\Icons\\INV_Misc_Bag_08",
+		[233457] = "Interface\\Icons\\INV_Staff_07",
+		[233511] = "Interface\\Icons\\INV_Misc_Bag_08",
+		[233532] = "Interface\\Icons\\TRADE_ARCHAEOLOGY_RUSTEDSTEAKKNIFE",
+		[233560] = "Interface\\Icons\\INV_DataCrystal07",
+		[233561] = "Interface\\Icons\\INV_Axe_18",
+		[233593] = "Interface\\Icons\\INV_Bone_Skull_04",
+		[233598] = "Interface\\Icons\\INV_Shoulder_02",
+		[233611] = "Interface\\Icons\\INV_Hammer_03",
+		[233613] = "Interface\\Icons\\INV_Shield_49",
+		[233615] = "Interface\\Icons\\INV_Helm_Misc_Necklace_Bone02",
+		[233645] = "Interface\\Icons\\INV_Helm_Misc_VikingPartyHat",
+		[233650] = "Interface\\Icons\\INV_Mace_06",
+		[233651] = "Interface\\Icons\\inv_jewelry_necklace_106",
+		[233792] = "Interface\\Icons\\INV_Stone_10",
+		[234054] = "Interface\\Icons\\inv_misc_ornatebox",
+		[234147] = "Interface\\Icons\\INV_Misc_Basket_05",
+		[234456] = "Interface\\Icons\\INV_TreasureChest_FelfireCitadel",
+		[234618] = "Interface\\Icons\\inv-mount_raven_54",
+		[234740] = "Interface\\Icons\\INV_Misc_Horn_02",
+		[235091] = "Interface\\Icons\\INV_Jewelry_Ring_03",
+		[235097] = "Interface\\Icons\\ability_warlock_ancientgrimoire",
+		[235143] = "Interface\\Icons\\INV_Spear_05",
+		[235172] = "Interface\\Icons\\INV_Misc_Basket_05",
+		[235289] = "Interface\\Icons\\INV_Misc_1h_BlacksmithHammer_A_01",
+		[235313] = "Interface\\Icons\\INV_Axe_2h_6miningpick",
+		[235859] = "Interface\\Icons\\INV_Misc_Bag_10",
+		[235860] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[236092] = "Interface\\Icons\\INV_Misc_Bag_08",
+		[236141] = "Interface\\Icons\\INV_Misc_Bag_08",
+		[236147] = "Interface\\Icons\\INV_Hammer_04",
+		[236149] = "Interface\\Icons\\INV_Misc_Bag_33",
+		[236158] = "Interface\\Icons\\inv_bow_2h_crossbow_draenorquest_b_01",
+		[236178] = "Interface\\Icons\\Ability_Skyreach_Empower",
+		[236715] = "Interface\\Icons\\INV_Misc_Skull_08",
+		[237511] = "Interface\\Icons\\priest_icon_chakra_red",
+		[239828] = "Interface\\Icons\\Spell_Warlock_DemonicPortal_Purple",
+		[239901] = "Interface\\Icons\\INV_Egg_09",
+		[240003] = "Interface\\Icons\\INV_Misc_Gem_Sapphire_01",
+		[240289] = "Interface\\Icons\\INV_Axe_22",
+		[240577] = "Interface\\Icons\\inv_sword_1h_arakkoa_c_01",
+		[240580] = "Interface\\Icons\\INV_jewelcrafting_ImmacTaladite_Red",
 		[240616] = "Interface\\Icons\\INV_Misc_Bag_14",
 		[240617] = "Interface\\ICONS\\INV_Misc_Bag_10_Green.blp",
 		[240625] = "Interface\\Icons\\INV_QirajIdol_Rebirth_Holy",
+		[240855] = "Interface\\Icons\\INV_Misc_Book_04",
 		[241128] = "Interface\\Icons\\inv_misc_treasurechest02a",
+		[241434] = "Interface\\Icons\\INV_Spear_05",
+		[241450] = "Interface\\Icons\\ToolTip_CrystallizedFel",
+		[241521] = "Interface\\Icons\\INV_Misc_Flute_01",
+		[241522] = "Interface\\Icons\\INV_Misc_Herb_TornGoldenLotus",
+		[241533] = "Interface\\Icons\\INV_Sword_25",
+		[241563] = "Interface\\Icons\\INV_Misc_Bone_Skull_03",
+		[241565] = "Interface\\Icons\\INV_Misc_Food_95_Grainbread",
+		[241566] = "Interface\\Icons\\INV_Misc_Bone_01",
+		[241599] = "Interface\\Icons\\inv_misc_food_vendor_jadesquash",
+		[241600] = "Interface\\Icons\\INV_Helm_Mail_WarsongClan_B_01",
+		[241601] = "Interface\\Icons\\INV_Misc_Bag_08",
+		[241605] = "Interface\\Icons\\INV_DataCrystal09",
+		[241656] = "Interface\\Icons\\inv_misc_treasurechest02a",
+		[241664] = "Interface\\Icons\\inv_misc_scopea",
+		[241671] = "Interface\\Icons\\INV_Enchant_ShardBrilliantLarge",
+		[241674] = "Interface\\Icons\\INV_Offhand_1h_ArtifactSkullofEredar_D_03",
+		[241692] = "Interface\\Icons\\INV_Axe_1h_430NightElf_C_01",
+		[241713] = "Interface\\Icons\\INV_Misc_Gem_Pearl_08",
 		[241726] = "Interface\\Icons\\INV_Leystone",
+		[241742] = "Interface\\Icons\\ability_warlock_ancientgrimoire",
 		[241743] = "Interface\\Icons\\INV_FelSlate",
+		[241745] = "Interface\\Icons\\INV_Misc_Bag_36",
+		[241760] = "Interface\\Icons\\INV_Sword_2H_WorgenDeathKnight_C_01",
+		[241835] = "Interface\\Icons\\Ability_Vehicle_PlagueBarrel",
+		[241841] = "Interface\\Icons\\inv_misc_ornatebox",
+		[241847] = "Interface\\Icons\\INV_Shield_09",
+		[241848] = "Interface\\Icons\\INV_Rod_EnchantedEternium",
 		[243334] = "Interface\\Icons\\INV_Misc_Herb_NightmareVine_Stem",
 		[244473] = "Interface\\Icons\\inv_misc_ornatebox",
 		[244983] = "Interface\\Icons\\INV_Misc_PocketWatch_01",
@@ -2070,6 +2229,7 @@ AllTheThings.Locales.enUS = {
 		[142487] = "The Sparklematic 5200",
 		[148502] = "Step 1: Page 9",
 		[156561] = "Wanted Poster",
+		[160836] = "Relic Coffer",
 		[160845] = "Dark Coffer",
 		[161495] = "Secret Safe",
 		[161521] = "Research Equipment",
@@ -2080,6 +2240,7 @@ AllTheThings.Locales.enUS = {
 		[164957] = "Eastern Crystal Pylon",
 		[169243] = "Chest of The Seven",
 		[173232] = "Blacksmithing Plans",
+		[175756] = select(1,GetAchievementCriteriaInfo(1244,34)), -- The Scourge of Lordaeron
 		[176090] = "Human Remains",
 		[176091] = "Deadwood Cauldron",
 		[176392] = "Scourge Cauldron",
@@ -2114,6 +2275,8 @@ AllTheThings.Locales.enUS = {
 		[184300] = "Necromantic Focus",
 		[184465] = "Cache of the Legion",
 		[184945] = "Wanted Poster",
+		[184946] = "Wanted Poster",
+		[185126] = "Crystal Prison",
 		[185168] = "Reinforced Fel Iron Chest",
 		[185927] = "Fel Crystal Prism",
 		[186426] = "Wanted Poster",
@@ -2334,14 +2497,18 @@ AllTheThings.Locales.enUS = {
 		[220832] = "Sunken Treasure",
 		[221376] = "Old Sign Fragment",
 		[221413] = "Lin Family Scroll",
+		[224228] = "Bubbling Cauldron",
 		[222685] = "Crane Nest",
 		[224623] = "Wiggling Egg",
 		[224686] = "Devourer's Gutstone",
 		[224750] = "Hanging Satchel",
 		[224754] = "Waterlogged Chest",
+		[224755] = "Iron Horde Tribute",
 		[224780] = "Shadowmoon Sacrificial Dagger",
 		[224784] = "Vindicator's Cache",
+		[224785] = "Demonic Cache",
 		[226831] = "Astrologer's Box",
+		[226854] = "Armored Elekk Tusk",
 		[226861] = "Ronokk's Belongings",
 		[226862] = "Giant Moonwillow Cone",
 		[226955] = "Arena Master's War Horn",
@@ -2355,18 +2522,26 @@ AllTheThings.Locales.enUS = {
 		[227806] = "Battle-Worn Frostwolf Banner",
 		[227859] = "Hope",
 		[227868] = "Sparkling Pool",
+		[227954] = "Luminous Shell",
+		[227956] = "Foreman's Lunchbox",
 		[227996] = "Curious Deathweb Egg",
 		[228012] = "Charred Sword",
 		[228015] = "Iron Box",
+		[228018] = "Soulbinder's Reliquary",
+		[228026] = "Pure Crystal Dust",
 		[228483] = "Rusted Lockbox",
 		[228570] = "Ketya's Stash",
+		[229354] = "Bright Coin",
+		[229367] = "Frozen Orc Skeleton",
 		[229640] = "Frozen Frostwolf Axe",
+		[230252] = "Burning Pearl",
 		[230425] = "Gnawed Bone",
 		[230643] = "Teroclaw Nest",
 		[231069] = "Strange Looking Dagger",
 		[232406] = "Adventurer's Pack",
 		[232586] = "Rovo's Dagger",
 		[232587] = "Uzko's Knickknacks",
+		[232588] = "Greka's Urn",
 		[232590] = "Void-Infused Crystal",
 		[232591] = "Beloved's Offering",
 		[232596] = "Ancestral Greataxe",
@@ -2381,15 +2556,25 @@ AllTheThings.Locales.enUS = {
 		[233560] = "Fragment of Oshu'gun",
 		[233561] = "Pokkar's Thirteenth Axe",
 		[233590] = "Void-Infused Crystal",
+		[233593] = "Polished Saberon Skull",
+		[233598] = "Elemental Shackles",
+		[233611] = "Highmaul Sledge",
+		[233613] = "Telaar Defender Shield",
+		[233618] = "Ogre Beads",
 		[233623] = "Adventurer's Pouch",
 		[233645] = "Warsong Helm",
 		[233650] = "Adventurer's Mace",
+		[233651] = "Lost Pendant",
 		[233658] = "Adventurer's Pouch",
+		[233697] = "Saberon Stash",
 		[233792] = "Pile of Rubble",
+		[233975] = "Rooby's Roo",
 		[234054] = "Warm Goren Egg",
 		[234147] = "Outcast's Belongings",
 		[234456] = "Shattered Hand Lockbox",
 		[234618] = "Gift of Anzu",
+		[234740] = "Orchish Signaling Horn",
+		[235091] = "Lost Ring",
 		[235097] = "Ephial's Dark Grimoire",
 		[235143] = "Assassin's Spear",
 		[235168] = "Outcast's Pouch",
@@ -2398,6 +2583,7 @@ AllTheThings.Locales.enUS = {
 		[235307] = "Waterlogged Satchel",
 		[235313] = "Abandoned Mining Pick",
 		[235859] = "Brokor's Sack",
+		[235860] = "Orc Skeleton",
 		[236092] = "Stashed Emergency Rucksack",
 		[236141] = "Discarded Pack",
 		[236147] = "Vindicator's Hammer",
@@ -2411,6 +2597,7 @@ AllTheThings.Locales.enUS = {
 		[239171] = "Glass of Warm Milk",
 		[239828] = "Edge of Reality",
 		[239901] = "Voidtalon Egg",
+		[240003] = "Strange Sapphire",
 		[240289] = "Weathered Axe",
 		[240577] = "The Blade of Kra'nak",
 		[240580] = "Jewel of Hellfire",
@@ -2423,18 +2610,23 @@ AllTheThings.Locales.enUS = {
 		[240855] = "Tome of Secrets",
 		[241128] = "Unguarded Thistleleaf Treasure",
 		[241434] = "Lodged Hunting Spear",
+		[241450] = "Crystallized Fel Spike",
 		[241521] = "Snake Charmer's Flute",
 		[241522] = "The Perfect Blossom",
 		[241533] = "Forgotten Champion's Blade",
+		[241563] = "Censer of Torment",
 		[241565] = "Looted Bleeding Hollow Treasure",
 		[241566] = "Rune Etched Femur",
 		[241599] = "Strange Fruit",
 		[241600] = "Discarded Helm",
 		[241601] = "Scout's Belongings",
 		[241605] = "Crystalized Essence of the Elements",
+		[241656] = "Overgrown Relic",
+		[241664] = "Borrowed Enchanted Spyglass",
 		[241671] = "Forgotten Shard of the Cipher",
 		[241674] = "Skull of the Mad Chief",
 		[241692] = "Axe of the Weeping Wolf",
+		[241713] = "The Eye of Grannok",
 		[241726] = "Leystone Deposit",
 		[241742] = "Book of Zyzzix",
 		[241743] = "Felslate Deposit",
@@ -2558,6 +2750,7 @@ AllTheThings.Locales.enUS = {
 		[273535] = "Legion War Supplies",
 		[273538] = "Legion War Supplies",
 		[273814] = "Bladed Charm",
+		[273854] = "Backpack",
 		[273900] = "Small Treasure Chest",
 		[273902] = "Small Treasure Chest",
 		[273903] = "Small Treasure Chest",
@@ -2570,6 +2763,7 @@ AllTheThings.Locales.enUS = {
 		[275071] = "Small Treasure Chest",
 		[275074] = "Small Treasure Chest",
 		[275076] = "Small Treasure Chest",
+		[276187] = "Junji",
 		[276224] = "Chest of Ill-Gotten Gains",
 		[276225] = "Student's Surprising Surplus",
 		[276226] = "Void-Tinged Chest",
@@ -2598,8 +2792,10 @@ AllTheThings.Locales.enUS = {
 		[277885] = select(1,GetAchievementCriteriaInfo(12771,10)), -- Wunja's Trove
 		[277897] = select(1,GetAchievementCriteriaInfo(12941,12)), --  Seething Cache
 		[278313] = "Sternly Worded Letter",
+		[278368] = "Tattered Note",
 		[278436] = select(1,GetAchievementCriteriaInfo(12771,7)), -- Shipwrecked Chest
 		[278437] = select(1,GetAchievementCriteriaInfo(12771,6)), -- Offering to Bwonsamdi
+		[278447] = "Faithless Trapper's Spear",
 		[278669] = "Fallhaven Ledger",
 		[278675] = "Cursed Effigy",
 		[279042] = select(1,GetAchievementCriteriaInfo(12853,6)), -- Smuggler's Stash
@@ -2621,6 +2817,8 @@ AllTheThings.Locales.enUS = {
 		[281397] = select(1,GetAchievementCriteriaInfo(12852,2)), -- Cutwater Treasure Chest
 		[281494] = select(1,GetAchievementCriteriaInfo(12853,3)), -- Frosty Treasure Chest
 		[281551] = "Help Wanted Poster",
+		[281583] = "Ancient Reliquary",
+		[281639] = "Crumbling Statue",
 		[281646] = "Honey Vat",
 		[281647] = "Posted Notice",
 		[281655] = select(1,GetAchievementCriteriaInfo(12851,4)), -- Gift of the Brokenhearted
@@ -2630,6 +2828,7 @@ AllTheThings.Locales.enUS = {
 		[282448] = "Wanted Poster",
 		[282457] = "Brambleguard Totem",
 		[282478] = "Empty Crate",
+		[282498] = "Desert Flute",
 		[282628] = GetSpellInfo(245476),	-- Sand Pile
 		[282666] = select(1,GetAchievementCriteriaInfo(12942,25)), --  Urn of Agussu
 		[284426] = "Buried Mining Machine",
@@ -2642,6 +2841,10 @@ AllTheThings.Locales.enUS = {
 		[287320] = select(1,GetAchievementCriteriaInfo(12849,5)), -- Stranded Cache
 		[287324] = select(1,GetAchievementCriteriaInfo(12849,6)), -- Excavator's Greed
 		[287326] = select(1,GetAchievementCriteriaInfo(12849,7)), -- Zem'lan's Buried Treasure
+		[287398] = "Wanted: Za'roco",
+		[287440] = "Wanted: Taz'raka",
+		[287441] = "Wanted: Sandscout Vesarik",
+		[287442] = "Wanted: Cobra Excursion Participants",
 		[287531] = "Small Treasure Chest",
 		[288157] = "WANTED: Yarsel'ghun",
 		[288214] = "Wanted Poster",		
@@ -2650,11 +2853,13 @@ AllTheThings.Locales.enUS = {
 		[288641] = "WANTED: Gryphon 'Nappers",
 		[289365] = "Wanted Poster",
 		[289647] = select(1,GetAchievementCriteriaInfo(12853,1)), -- Weathered Treasure Chest
+		[289728] = "Captain Gulnaku's Treasure Map",
 		[290419] = "Wanted Poster",
 		[290765] = "Large Pile of Gold",
 		[290537] = "Help Wanted",
 		[290725] = select(1,GetAchievementCriteriaInfo(12851,10)), -- Riches of Tor'nowa
 		[290993] = "Irontide Loot",
+		[291143] = "Ranah's Wrench",
 		[291201] = "Small Treasure Chest",
 		[291204] = "Small Treasure Chest",
 		[291211] = "Small Treasure Chest",
@@ -2819,21 +3024,21 @@ AllTheThings.Locales.enUS = {
 		{2, "|CFFFF0000These items can't be purchased unless you have the required PvP Rating or were in the Top % of that season.|r", "PvP Elite/Gladiator (14)"}, -- 14
 		{1, "|CFFFF0000This item has a Source ID (Tempest Keep Legendaries), but can't be learned (training recipes). |r", "Training Recipes / Unlearnable (15)"}, -- 15
 		{2, "|CFFFF0000These items require either attending Blizzcon or purchasing a virtual ticket.  You may also find codes on various sites for high prices.|r", "Blizzcon (16)"},--16
-		{6, "|CFF00FFDEIn order to obtain this item it may require Lunar Festival to be active.|r", "Lunar Festival (17)"};--17
-		{7, "|CFF00FFDEIn order to obtain this item it may require Love is In the Air to be active.|r", "Love is In the Air (18)"};--18
-		{8, "|CFF00FFDEIn order to obtain this item it may require Noblegarden to be active.|r", "Noblegarden (19)"};--19
-		{9, "|CFF00FFDEIn order to obtain this item it may require Children's Week to be active.|r", "Children's Week (20)"};--20
-		{10, "|CFF00FFDEIn order to obtain this item it may require Midsummer Fire Festival to be active.|r", "Midsummer Fire Festival (21)"};--21
-		{11, "|CFF00FFDEIn order to obtain this item it may require Trial of Style to be active.|r", "Trial of Style (22)"};--22
-		{12, "|CFF00FFDEIn order to obtain this item it may require Pirate's Day to be active.|r", "Pirate's Day (23)"};--23
-		{13, "|CFF00FFDEIn order to obtain this item it may require Brewfest to be active.|r", "Brewfest (24)"};--24
-		{14, "|CFF00FFDEIn order to obtain this item it may require Harvest Festival to be active.|r", "Harvest Festival (25)"};--25
-		{15, "|CFF00FFDEIn order to obtain this item it may require Hallow's End to be active.|r", "Hallow's End (26)"};--26
-		{16, "|CFF00FFDEIn order to obtain this item it may require Day of the Dead to be active.|r", "Day of the Dead (27)"};--27
-		{17, "|CFF00FFDEIn order to obtain this item it may require Pilgrim's Bounty to be active.|r", "Pilgrim's Bounty (28)"};--28
-		{18, "|CFF00FFDEIn order to obtain this item it may require Feast of Winter Veil to be active.|r", "Feast of Winter Veil (29)"};--29
-		{19, "|CFF00FFDEIn order to obtain this item it may require Stranglethorn Fishing Extravaganza to be active.|r", "Stranglethorn Fishing Extravaganza (30) "};--30
-		{20, "|CFF00FFDEThis is obtainable only during the WoW Anniversary it was active. It's a possibility future anniversaries may include this item.|r\n", "WoW Anniversary (31)"};--31
+		{6, "|CFF00FFDEMay require Lunar Festival to be active.|r", "Lunar Festival (17)"};--17
+		{7, "|CFF00FFDEMay require Love is In the Air to be active.|r", "Love is In the Air (18)"};--18
+		{8, "|CFF00FFDEMay require Noblegarden to be active.|r", "Noblegarden (19)"};--19
+		{9, "|CFF00FFDEMay require Children's Week to be active.|r", "Children's Week (20)"};--20
+		{10, "|CFF00FFDEMay require Midsummer Fire Festival to be active.|r", "Midsummer Fire Festival (21)"};--21
+		{11, "|CFF00FFDEMay require Trial of Style to be active.|r", "Trial of Style (22)"};--22
+		{12, "|CFF00FFDEMay require Pirate's Day to be active.|r", "Pirate's Day (23)"};--23
+		{13, "|CFF00FFDEMay require Brewfest to be active.|r", "Brewfest (24)"};--24
+		{14, "|CFF00FFDEMay require Harvest Festival to be active.|r", "Harvest Festival (25)"};--25
+		{15, "|CFF00FFDEMay require Hallow's End to be active.|r", "Hallow's End (26)"};--26
+		{16, "|CFF00FFDEMay require Day of the Dead to be active.|r", "Day of the Dead (27)"};--27
+		{17, "|CFF00FFDEMay require Pilgrim's Bounty to be active.|r", "Pilgrim's Bounty (28)"};--28
+		{18, "|CFF00FFDEMay require Feast of Winter Veil to be active.|r", "Feast of Winter Veil (29)"};--29
+		{19, "|CFF00FFDEMay require Stranglethorn Fishing Extravaganza to be active.|r", "Stranglethorn Fishing Extravaganza (30) "};--30
+		{20, "|CFF00FFDEThis is obtainable only during the WoW Anniversary it was active.\nIt's a possibility future anniversaries may include this item.|r\n", "WoW Anniversary (31)"};--31
 		{4, "|CFFFF0000This is an original vanilla reward for this quest. The quest was later reworked with new rewards. If you did complete this quest it is likely this item will not be added to your transmog as Blizzard will add the rewards from the revamped quest.|r", "Classic Rewards (32)"};--32
 		{4, "|CFFFF0000This vendor is no longer available in this spot or in game.|r", "Legacy Vendors (33)"}; -- 33
 		{4, "|CFFFF0000This item was a quest award from a Legacy Quest that is no longer obtainable.|r", "Legacy Quest Reward (34)"}; --34
@@ -2844,10 +3049,10 @@ AllTheThings.Locales.enUS = {
 		{4, "|CFFFF0000This title is no longer available.|r", "Legacy Titles (39)"}; --39
 		{4, "|CFFFF0000This is a Legacy quest or quest item, and is no longer available.|r", "Legacy Quests (40)"}; -- 40
 		{4, "|CFFFF0000These appearances are only available for players that completed the respective Mage Tower Artifact Challenges and earned the base appearance.|r", "Mage Tower Appearances (41)"}; -- 41
-		{21, "|CFFFF0000These appearances are only available during the weekly Timewalking Event. Only dungeons released during the featured expansion will be available.|r", "Timewalking (42)"}; -- 42
+		{21, "|CFFFF0000These appearances are only available during the weekly Timewalking Event.\nOnly dungeons released during the featured expansion will be available.|r", "Timewalking (42)"}; -- 42
 		{1, "|CFFFF0000This NPC or creature has been removed from the game.|r", "Removed NPCs (43)"}; -- 43
 	};
-	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you (anywhere but Salvage Crates), please post in Discord where you got it to drop!|r";
+	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you (anywhere but Salvage\nCrates), please post in Discord where you got it to drop!|r";
 	["RECENTLY_MADE_OBTAINABLE_PT2"] = "|CFFFF0000The more information, the better.  Thanks!|r";
 	["I_ONLY_CARE_ABOUT_MY_MAIN"] = "|cff3399ffI only care about my main.|r";
 };

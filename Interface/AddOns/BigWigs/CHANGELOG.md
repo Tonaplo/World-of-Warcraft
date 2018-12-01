@@ -1,9 +1,8 @@
 # BigWigs
 
-## [v121.3](https://github.com/BigWigsMods/BigWigs/tree/v121.3) (2018-10-24)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v121.2...v121.3)
+## [v122](https://github.com/BigWigsMods/BigWigs/tree/v122) (2018-11-22)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v121.4...v122)
 
-- BattleOfDazaralor/Mekkatorque: Drycode  
-- BattleOfDazaralor/Rastakhan: Drycode  
-- Uldir/Mother: Don't trigger a beam timer update in the first room  
-- Uldir/Mythrax: Change proximity check to 5 yards (#565)  
+- bump version  
+- Uldir/Vectis: Drop the "in range" check from 8yd to 5yd for the Omega Vector check in the info box.  
+- Uldir/Vectis: Maybe fix showing >5 texts in the infobox for non-Vectis bosses after doing Vectis.  

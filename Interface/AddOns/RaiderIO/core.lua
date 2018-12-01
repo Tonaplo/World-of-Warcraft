@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201811170600", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201811302005", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -1273,13 +1273,10 @@ do
 				end
 			end
 
-			local j = 1
-
 			if addFooter then
 				if IS_DB_OUTDATED[dataType][profile.faction] then
 					output[i] = {format(L.OUTDATED_DATABASE, OUTDATED_DAYS[dataType][profile.faction]), "", 1, 1, 1, 1, 1, 1, false}
 					i = i + 1
-					j = j + 1
 				end
 
 				local t = EGG[profile.region]
@@ -1290,13 +1287,12 @@ do
 						if t then
 							output[i] = {t, "", 0.9, 0.8, 0.5, 1, 1, 1, false}
 							i = i + 1
-							j = j + 1
 						end
 					end
 				end
 			end
 
-			output.length = i - j
+			output.length = i - 1
 
 		end
 

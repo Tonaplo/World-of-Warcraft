@@ -118,6 +118,12 @@ do
 	local tsort = table.sort
 
 	function UpdateInfoBox()
+		if mod.isEngaged then
+			mod:SimpleTimer(UpdateInfoBox, 0.1)
+		else
+			return
+		end
+
 		tsort(nameList, sortFunc)
 		for i = 1, 20 do
 			local n = nameList[i]
@@ -133,7 +139,7 @@ do
 						local elap = t - vector
 						local duration = omegaVectorDuration or 10
 						local remaining = duration - elap
-						if IsItemInRange(63427, n) then -- Worgsaw, 8yd
+						if IsItemInRange(37727, n) then -- Ruby Acorn, 5yd
 							mod:SetInfoBar(265127, i+19, remaining/duration, 0, 0, 1)
 						else
 							mod:SetInfoBar(265127, i+19, remaining/duration)
@@ -171,10 +177,6 @@ do
 					mod:SetInfoBar(265127, i, 0)
 				end
 			end
-		end
-
-		if mod.isEngaged then
-			mod:SimpleTimer(UpdateInfoBox, 0.1)
 		end
 	end
 end

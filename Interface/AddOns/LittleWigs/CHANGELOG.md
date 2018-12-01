@@ -1,19 +1,19 @@
 # LittleWigs
 
-## [v8.0.27](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.27) (2018-10-15)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.26...v8.0.27)
+## [v8.0.28](https://github.com/BigWigsMods/LittleWigs/tree/v8.0.28) (2018-11-24)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.0.27...v8.0.28)
 
-- Update zhTW.lua (#387)  
-- Update deDE.lua (#386)  
-- BfA/Freehold/Kragg: Add Dive Bomb  
-- ShrineOfTheStorm/Stormsong: Fix the warmup timer for Alliance characters  
-- Update deDE.lua (#384)  
-- Freehold/Trash: Remove unused locale strings  
-- KingsRest/Trash: Throttle "Fixate" warnings, fix :Dispeller() call for "Seduction", fix "Bladestorm" causing 2 messages to display  
-- WaycrestManor/Heartsbane: Use GetBossIdByGUID instead of GetUnitIdByGUID  
-- Update zhCN.lua (#363)  
-- Update zhTW.lua (#362)  
-- Update zhTW.lua (#361)  
-- Update zhCN.lua (#360)  
-- Update deDE (#359)  
-- Add some respawn times  
+- BfA/TheMotherlode/Trash: Fix Furious Quake messages while not in combat (#401)  
+- BfA/SiegeOfBoralus: Various improvements (#396)  
+- BfA/TheMotherlode/Rixxa: Fix Chemical Burn timer (#400)  
+- Update deDE.lua (#397)  
+- Update zhTW.lua (#394)  
+- Update zhTW.lua (#393)  
+- Update zhTW.lua (#392)  
+- BfA/Freehold/Captains: Add a missing =  
+- Freehold/Captains: Missed a brew message  
+- Freehold/Captains: Shorten brew messages  
+- Freehold/Captains: Add warnings for Rummy Mancomb's brews (closes #395)  
+- BfA/SiegeOfBoralus: Add trash module (#391)  
+-  BfA/TheMotherlode: add Trash module (#388)  
+- BfA/TolDagor: Add some respawn timers.  

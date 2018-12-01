@@ -6,6 +6,8 @@ local L = WeakAuras.L
 
 -- WeakAuras/Options
 	--[[Translation missing --]]
+	L[" Configuration"] = " Configuration"
+	--[[Translation missing --]]
 	L["-- Do not remove this comment, it is part of this trigger: "] = "-- Do not remove this comment, it is part of this trigger: "
 	--[[Translation missing --]]
 	L["% of Progress"] = "% of Progress"
@@ -40,11 +42,15 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["A group that dynamically controls the positioning of its children"] = "A group that dynamically controls the positioning of its children"
 	--[[Translation missing --]]
+	L["A Unit ID (e.g., party1)."] = "A Unit ID (e.g., party1)."
+	--[[Translation missing --]]
 	L["Actions"] = "Actions"
 	--[[Translation missing --]]
 	L["Add a new display"] = "Add a new display"
 	--[[Translation missing --]]
 	L["Add Condition"] = "Add Condition"
+	--[[Translation missing --]]
+	L["Add Option"] = "Add Option"
 	--[[Translation missing --]]
 	L["Add Overlay"] = "Add Overlay"
 	--[[Translation missing --]]
@@ -110,15 +116,17 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Aura Name"] = "Aura Name"
 	--[[Translation missing --]]
+	L["Aura Name Pattern"] = "Aura Name Pattern"
+	--[[Translation missing --]]
 	L["Aura Type"] = "Aura Type"
 	--[[Translation missing --]]
 	L["Aura(s)"] = "Aura(s)"
 	--[[Translation missing --]]
-	L["Aura:"] = "Aura:"
-	--[[Translation missing --]]
-	L["Auras:"] = "Auras:"
+	L["Author Options"] = "Author Options"
 	--[[Translation missing --]]
 	L["Auto"] = "Auto"
+	--[[Translation missing --]]
+	L["Auto-Clone (Show All Matches)"] = "Auto-Clone (Show All Matches)"
 	--[[Translation missing --]]
 	L["Auto-cloning enabled"] = "Auto-cloning enabled"
 	--[[Translation missing --]]
@@ -180,6 +188,8 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Can be a name or a UID (e.g., party1). A name only works on friendly players in your group."] = "Can be a name or a UID (e.g., party1). A name only works on friendly players in your group."
 	--[[Translation missing --]]
+	L["Can be a Name or a Unit ID (e.g. party1). A name only works on friendly players in your group."] = "Can be a Name or a Unit ID (e.g. party1). A name only works on friendly players in your group."
+	--[[Translation missing --]]
 	L["Cancel"] = "Cancel"
 	--[[Translation missing --]]
 	L["Channel Number"] = "Channel Number"
@@ -214,7 +224,11 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Combinations"] = "Combinations"
 	--[[Translation missing --]]
+	L["Combine Matches Per Unit"] = "Combine Matches Per Unit"
+	--[[Translation missing --]]
 	L["Common Options"] = "Common Options"
+	--[[Translation missing --]]
+	L["Compare against the number of units affected."] = "Compare against the number of units affected."
 	--[[Translation missing --]]
 	L["Compress"] = "Compress"
 	--[[Translation missing --]]
@@ -222,15 +236,25 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Conditions"] = "Conditions"
 	--[[Translation missing --]]
+	L["Configure what options appear on this pannel."] = "Configure what options appear on this pannel."
+	--[[Translation missing --]]
 	L["Constant Factor"] = "Constant Factor"
 	--[[Translation missing --]]
 	L["Control-click to select multiple displays"] = "Control-click to select multiple displays"
 	--[[Translation missing --]]
 	L["Controls the positioning and configuration of multiple displays at the same time"] = "Controls the positioning and configuration of multiple displays at the same time"
 	--[[Translation missing --]]
+	L["Convert to New Aura Trigger"] = "Convert to New Aura Trigger"
+	--[[Translation missing --]]
 	L["Convert to..."] = "Convert to..."
 	--[[Translation missing --]]
 	L["Cooldown"] = "Cooldown"
+	--[[Translation missing --]]
+	L["Cooldown Edge"] = "Cooldown Edge"
+	--[[Translation missing --]]
+	L["Cooldown Settings"] = "Cooldown Settings"
+	--[[Translation missing --]]
+	L["Cooldown Swipe"] = "Cooldown Swipe"
 	--[[Translation missing --]]
 	L["Copy settings..."] = "Copy settings..."
 	--[[Translation missing --]]
@@ -239,6 +263,8 @@ local L = WeakAuras.L
 	L["Copy URL"] = "Copy URL"
 	--[[Translation missing --]]
 	L["Count"] = "Count"
+	--[[Translation missing --]]
+	L["Counts the number of matches over all units."] = "Counts the number of matches over all units."
 	--[[Translation missing --]]
 	L["Creating buttons: "] = "Creating buttons: "
 	--[[Translation missing --]]
@@ -252,7 +278,11 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Custom Code"] = "Custom Code"
 	--[[Translation missing --]]
+	L["Custom Configuration"] = "Custom Configuration"
+	--[[Translation missing --]]
 	L["Custom Function"] = "Custom Function"
+	--[[Translation missing --]]
+	L["Custom Options"] = "Custom Options"
 	--[[Translation missing --]]
 	L["Custom Trigger"] = "Custom Trigger"
 	--[[Translation missing --]]
@@ -278,6 +308,10 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Desaturate"] = "Desaturate"
 	--[[Translation missing --]]
+	L["Description"] = "Description"
+	--[[Translation missing --]]
+	L["Description Text"] = "Description Text"
+	--[[Translation missing --]]
 	L["Differences"] = "Differences"
 	--[[Translation missing --]]
 	L["Disable Import"] = "Disable Import"
@@ -289,6 +323,8 @@ local L = WeakAuras.L
 	L["Display"] = "Display"
 	--[[Translation missing --]]
 	L["Display Icon"] = "Display Icon"
+	--[[Translation missing --]]
+	L["Display Name"] = "Display Name"
 	--[[Translation missing --]]
 	L["Display Text"] = "Display Text"
 	--[[Translation missing --]]
@@ -330,7 +366,17 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["End Angle"] = "End Angle"
 	--[[Translation missing --]]
+	L["Enter a Spell ID"] = "Enter a Spell ID"
+	--[[Translation missing --]]
 	L["Enter an aura name, partial aura name, or spell id"] = "Enter an aura name, partial aura name, or spell id"
+	--[[Translation missing --]]
+	L["Enter an Aura Name, partial Aura Name, or Spell ID. A Spell ID will match any spells with the same name."] = "Enter an Aura Name, partial Aura Name, or Spell ID. A Spell ID will match any spells with the same name."
+	--[[Translation missing --]]
+	L["Enter Author Mode"] = "Enter Author Mode"
+	--[[Translation missing --]]
+	L["Enter User Mode"] = "Enter User Mode"
+	--[[Translation missing --]]
+	L["Enter user mode."] = "Enter user mode."
 	--[[Translation missing --]]
 	L["Event"] = "Event"
 	--[[Translation missing --]]
@@ -339,6 +385,8 @@ local L = WeakAuras.L
 	L["Event(s)"] = "Event(s)"
 	--[[Translation missing --]]
 	L["Everything"] = "Everything"
+	--[[Translation missing --]]
+	L["Exact Spell ID(s)"] = "Exact Spell ID(s)"
 	--[[Translation missing --]]
 	L["Exact Spell Match"] = "Exact Spell Match"
 	--[[Translation missing --]]
@@ -364,6 +412,8 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["False"] = "False"
 	--[[Translation missing --]]
+	L["Fetch Affected/Unaffected Names"] = "Fetch Affected/Unaffected Names"
+	--[[Translation missing --]]
 	L["Filter by Group Role"] = "Filter by Group Role"
 	--[[Translation missing --]]
 	L["Finish"] = "Finish"
@@ -388,15 +438,17 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["From Template"] = "From Template"
 	--[[Translation missing --]]
-	L["Full Scan"] = "Full Scan"
-	--[[Translation missing --]]
 	L["General Text Settings"] = "General Text Settings"
 	--[[Translation missing --]]
 	L["Global Conditions"] = "Global Conditions"
 	--[[Translation missing --]]
-	L["Glow"] = "Glow"
-	--[[Translation missing --]]
 	L["Glow Action"] = "Glow Action"
+	--[[Translation missing --]]
+	L["Glow Color"] = "Glow Color"
+	--[[Translation missing --]]
+	L["Glow Settings"] = "Glow Settings"
+	--[[Translation missing --]]
+	L["Glow Type"] = "Glow Type"
 	--[[Translation missing --]]
 	L["Green Rune"] = "Green Rune"
 	--[[Translation missing --]]
@@ -452,7 +504,13 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["If Trigger %s"] = "If Trigger %s"
 	--[[Translation missing --]]
+	L["If unchecked, then a default color will be used (usually yellow)"] = "If unchecked, then a default color will be used (usually yellow)"
+	--[[Translation missing --]]
+	L["If unchecked, then this space will fill the entire line it is on in User Mode."] = "If unchecked, then this space will fill the entire line it is on in User Mode."
+	--[[Translation missing --]]
 	L["Ignore self"] = "Ignore self"
+	--[[Translation missing --]]
+	L["Ignore Self"] = "Ignore Self"
 	--[[Translation missing --]]
 	L["Ignored"] = "Ignored"
 	--[[Translation missing --]]
@@ -470,9 +528,13 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Inverse Slant"] = "Inverse Slant"
 	--[[Translation missing --]]
+	L["Is Stealable"] = "Is Stealable"
+	--[[Translation missing --]]
 	L["Justify"] = "Justify"
 	--[[Translation missing --]]
 	L["Keep Aspect Ratio"] = "Keep Aspect Ratio"
+	--[[Translation missing --]]
+	L["Key for aura_env.config at which the user value can be found."] = "Key for aura_env.config at which the user value can be found."
 	--[[Translation missing --]]
 	L["Leaf"] = "Leaf"
 	--[[Translation missing --]]
@@ -481,6 +543,8 @@ local L = WeakAuras.L
 	L["Left HUD position"] = "Left HUD position"
 	--[[Translation missing --]]
 	L["Left Text"] = "Left Text"
+	--[[Translation missing --]]
+	L["Length"] = "Length"
 	--[[Translation missing --]]
 	L["Load"] = "Load"
 	--[[Translation missing --]]
@@ -494,6 +558,12 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Manage displays defined by Addons"] = "Manage displays defined by Addons"
 	--[[Translation missing --]]
+	L["Match Count"] = "Match Count"
+	--[[Translation missing --]]
+	L["Max"] = "Max"
+	--[[Translation missing --]]
+	L["Max Length"] = "Max Length"
+	--[[Translation missing --]]
 	L["Medium Icon"] = "Medium Icon"
 	--[[Translation missing --]]
 	L["Message"] = "Message"
@@ -504,7 +574,7 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Message Type"] = "Message Type"
 	--[[Translation missing --]]
-	L["Message type:"] = "Message type:"
+	L["Min"] = "Min"
 	--[[Translation missing --]]
 	L["Mirror"] = "Mirror"
 	--[[Translation missing --]]
@@ -530,11 +600,17 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Name Info"] = "Name Info"
 	--[[Translation missing --]]
+	L["Name Pattern Match"] = "Name Pattern Match"
+	--[[Translation missing --]]
+	L["Name(s)"] = "Name(s)"
+	--[[Translation missing --]]
 	L["Negator"] = "Negator"
 	--[[Translation missing --]]
 	L["Never"] = "Never"
 	--[[Translation missing --]]
 	L["New"] = "New"
+	--[[Translation missing --]]
+	L["New Value"] = "New Value"
 	--[[Translation missing --]]
 	L["No"] = "No"
 	--[[Translation missing --]]
@@ -564,6 +640,16 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Operator"] = "Operator"
 	--[[Translation missing --]]
+	L["Option #"] = "Option #"
+	--[[Translation missing --]]
+	L["Option #%i"] = "Option #%i"
+	--[[Translation missing --]]
+	L["Option %i"] = "Option %i"
+	--[[Translation missing --]]
+	L["Option key"] = "Option key"
+	--[[Translation missing --]]
+	L["Option Type"] = "Option Type"
+	--[[Translation missing --]]
 	L["Options will open after combat ends."] = "Options will open after combat ends."
 	--[[Translation missing --]]
 	L["or"] = "or"
@@ -588,7 +674,11 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Paste Animations Settings"] = "Paste Animations Settings"
 	--[[Translation missing --]]
+	L["Paste Author Option Settings"] = "Paste Author Option Settings"
+	--[[Translation missing --]]
 	L["Paste Condition Settings"] = "Paste Condition Settings"
+	--[[Translation missing --]]
+	L["Paste Custom Configuration"] = "Paste Custom Configuration"
 	--[[Translation missing --]]
 	L["Paste Display Settings"] = "Paste Display Settings"
 	--[[Translation missing --]]
@@ -607,6 +697,8 @@ local L = WeakAuras.L
 	L["Portrait Zoom"] = "Portrait Zoom"
 	--[[Translation missing --]]
 	L["Position Settings"] = "Position Settings"
+	--[[Translation missing --]]
+	L["Preferred Match"] = "Preferred Match"
 	--[[Translation missing --]]
 	L["Preset"] = "Preset"
 	--[[Translation missing --]]
@@ -647,6 +739,14 @@ local L = WeakAuras.L
 	L["Repeat every"] = "Repeat every"
 	--[[Translation missing --]]
 	L["Required for Activation"] = "Required for Activation"
+	--[[Translation missing --]]
+	L["Reset all options in this group to their default values."] = "Reset all options in this group to their default values."
+	--[[Translation missing --]]
+	L["Reset all options to their default values."] = "Reset all options to their default values."
+	--[[Translation missing --]]
+	L["Reset ALL to Defaults"] = "Reset ALL to Defaults"
+	--[[Translation missing --]]
+	L["Reset to Defaults"] = "Reset to Defaults"
 	--[[Translation missing --]]
 	L["Right 2 HUD position"] = "Right 2 HUD position"
 	--[[Translation missing --]]
@@ -692,7 +792,15 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Show Cooldown Text"] = "Show Cooldown Text"
 	--[[Translation missing --]]
+	L["Show Glow Effect"] = "Show Glow Effect"
+	--[[Translation missing --]]
+	L["Show If Unit Does Not Exist"] = "Show If Unit Does Not Exist"
+	--[[Translation missing --]]
 	L["Show If Unit Is Invalid"] = "Show If Unit Is Invalid"
+	--[[Translation missing --]]
+	L["Show Matches for"] = "Show Matches for"
+	--[[Translation missing --]]
+	L["Show Matches for Units"] = "Show Matches for Units"
 	--[[Translation missing --]]
 	L["Show model of unit "] = "Show model of unit "
 	--[[Translation missing --]]
@@ -728,9 +836,15 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Slide Out"] = "Slide Out"
 	--[[Translation missing --]]
+	L["Slider Step Size"] = "Slider Step Size"
+	--[[Translation missing --]]
 	L["Small Icon"] = "Small Icon"
 	--[[Translation missing --]]
 	L["Smooth Progress"] = "Smooth Progress"
+	--[[Translation missing --]]
+	L["Soft Max"] = "Soft Max"
+	--[[Translation missing --]]
+	L["Soft Min"] = "Soft Min"
 	--[[Translation missing --]]
 	L["Sort"] = "Sort"
 	--[[Translation missing --]]
@@ -778,6 +892,8 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Stealable"] = "Stealable"
 	--[[Translation missing --]]
+	L["Step Size"] = "Step Size"
+	--[[Translation missing --]]
 	L["Sticky Duration"] = "Sticky Duration"
 	--[[Translation missing --]]
 	L["Stop Sound"] = "Stop Sound"
@@ -806,11 +922,15 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Then "] = "Then "
 	--[[Translation missing --]]
+	L["This adds %tooltip, %tooltip1, %tooltip2, %tooltip3 as text replacements."] = "This adds %tooltip, %tooltip1, %tooltip2, %tooltip3 as text replacements."
+	--[[Translation missing --]]
 	L["This display is currently loaded"] = "This display is currently loaded"
 	--[[Translation missing --]]
 	L["This display is not currently loaded"] = "This display is not currently loaded"
 	--[[Translation missing --]]
 	L["This region of type \"%s\" is not supported."] = "This region of type \"%s\" is not supported."
+	--[[Translation missing --]]
+	L["This setting controls what widget is generated in user mode."] = "This setting controls what widget is generated in user mode."
 	--[[Translation missing --]]
 	L["Time in"] = "Time in"
 	--[[Translation missing --]]
@@ -832,7 +952,17 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Tooltip"] = "Tooltip"
 	--[[Translation missing --]]
+	L["Tooltip Content"] = "Tooltip Content"
+	--[[Translation missing --]]
 	L["Tooltip on Mouseover"] = "Tooltip on Mouseover"
+	--[[Translation missing --]]
+	L["Tooltip Pattern Match"] = "Tooltip Pattern Match"
+	--[[Translation missing --]]
+	L["Tooltip Text"] = "Tooltip Text"
+	--[[Translation missing --]]
+	L["Tooltip Value"] = "Tooltip Value"
+	--[[Translation missing --]]
+	L["Tooltip Value #"] = "Tooltip Value #"
 	--[[Translation missing --]]
 	L["Top HUD position"] = "Top HUD position"
 	--[[Translation missing --]]
@@ -846,17 +976,15 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Trigger %s"] = "Trigger %s"
 	--[[Translation missing --]]
-	L["Trigger:"] = "Trigger:"
-	--[[Translation missing --]]
 	L["True"] = "True"
 	--[[Translation missing --]]
 	L["Type"] = "Type"
 	--[[Translation missing --]]
-	L["Undefined"] = "Undefined"
-	--[[Translation missing --]]
 	L["Ungroup"] = "Ungroup"
 	--[[Translation missing --]]
 	L["Unit"] = "Unit"
+	--[[Translation missing --]]
+	L["Unit Count"] = "Unit Count"
 	--[[Translation missing --]]
 	L["Unlike the start or finish animations, the main animation will loop over and over until the display is hidden."] = "Unlike the start or finish animations, the main animation will loop over and over until the display is hidden."
 	--[[Translation missing --]]
@@ -872,7 +1000,19 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Use tooltip \"size\" instead of stacks"] = "Use tooltip \"size\" instead of stacks"
 	--[[Translation missing --]]
+	L["Use Tooltip Information"] = "Use Tooltip Information"
+	--[[Translation missing --]]
+	L["Used in Auras:"] = "Used in Auras:"
+	--[[Translation missing --]]
 	L["Used in auras:"] = "Used in auras:"
+	--[[Translation missing --]]
+	L["Value %i"] = "Value %i"
+	--[[Translation missing --]]
+	L["Values are in normalized rgba format."] = "Values are in normalized rgba format."
+	--[[Translation missing --]]
+	L["Values:"] = "Values:"
+	--[[Translation missing --]]
+	L["Variable Size"] = "Variable Size"
 	--[[Translation missing --]]
 	L["Version: "] = "Version: "
 	--[[Translation missing --]]
