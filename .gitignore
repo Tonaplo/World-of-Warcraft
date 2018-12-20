@@ -1,15 +1,20 @@
-Errors/*
 Data/*
-Cache/*
-Utils/*
 Screenshots/*
-Logs/*
-dbghelp.dll
+_retail_/Utils/*
+_retail_/.flavor.info
+_retail_/BlizzardError.exe
+_retail_/Cache/*
+_retail_/Logs/*
+_retail_/dbghelp.dll
+_retail_/GFSDK_Aftermath_Lib.x64.dll
+_retail_/Wow.exe
 .agent.db
-BlizzardError.exe
 WoW.mfil
 Wow.exe
 Wow-64.exe
 World of Warcraft Launcher.exe
 Scan-64.dll
 Launcher.db
+.build.info
+.product.db
+.patch.result
