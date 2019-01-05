@@ -229,14 +229,13 @@ local tipsMap = {
 	-- Trash toward Skycap'n Kragg
 	[128551] = {{"Important", "Moderate tank damage."}, {"DRUID", "Soothe: Beastial Wrath (50% dmg buff)"}, {"HUNTER", "Tranq Shot: Beastial Wrath (50% dmg buff)"}}, -- Irontide Mastiff
 	[129788] = {{"Important", "Moderate tank damage."}, {"Interrupts", "Interrupt (or purge): Healing Balm (medium HoT)"}, {"HEALER", "Dispel: Infected Wound (Disease, -healing taken)"}}, -- Irontide Bonesaw
-	[129602] = {{"Important", "VERY annoying mob. Frontal cleave (tank can dodge after cast starts)"}, {"Important", "Will throw the tank and drop all threat. Pull one at a time."},
-				{"Important", "Just have to be very careful until the tank can taunt it back."}}, -- Irontide Enforcer
+	[129602] = {{"Important", "VERY annoying mob. Frontal cleave (tank can dodge after cast starts)"}, {"Important", "Will throw the tank but no longer drops threat. Pull one at a time if possible."}}, -- Irontide Enforcer
 	[126928] = {{"Important", "Moderate tank damage."}, {"HEALER", "Dispel: Poisoning Strike (Poison, DoT, wait until 2 stacks)"}}, -- Irontide Corsair
 	[126918] = {{"Important", "Move out of the red swirls. They burn. Don't burn."}, {"TANK", "These don't really move but still have threat table. Tank everything on top of them."}}, -- Irontide Crackshot
 	[129598] = {{"Important", "Why are you killing the poor mules!?"}, {"Important", "No notable mechanics but still... why!?"}},
 	
 	-- The Village	
-	[130522] = {{"Important", "MMostly harmless. Pull as few of them as you can."}}, -- Freehold Shipmate (Neutral)
+	[130522] = {{"Important", "Mostly harmless. Pull as few of them as you can."}}, -- Freehold Shipmate (Neutral)
 	[130521] = {{"Important", "Mostly harmless. Pull as few of them as you can."}}, -- Freehold Deckhand (Neutral)
 	[127124] = {{"Important", "Mostly harmless. Pull as few of them as you can."}}, -- Freehold Barhand (Neutral)
 	[129526] = {{"Important", "Mostly harmless. Pull as few of them as you can."}}, -- Bilge Rat Swabby (Neutral)	

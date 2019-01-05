@@ -6,21 +6,22 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
+		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
-		["Korugen - Icecrown"] = "Korugen - Icecrown",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
-		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
+		["Korugen - Icecrown"] = "Korugen - Icecrown",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
@@ -34,17 +35,19 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Fandagny - Frostwolf"] = {
 		},
+		["Deminath - Tichondrius"] = {
+		},
 		["Luugo - Frostwolf"] = {
 		},
 		["Miriyal - Icecrown"] = {
 		},
-		["Caircaidin - Frostwolf"] = {
+		["Farahn - Proudmoore"] = {
 		},
 		["Farahn - Icecrown"] = {
 		},
 		["Praerend - Icecrown"] = {
 		},
-		["Farahn - Proudmoore"] = {
+		["Zearthan - Icecrown"] = {
 		},
 		["Tyindel - Frostwolf"] = {
 		},
@@ -54,15 +57,15 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Korugen - Proudmoore"] = {
 		},
-		["Greybone - Proudmoore"] = {
-		},
-		["Deminath - Proudmoore"] = {
+		["Greybone - Icecrown"] = {
 		},
 		["Korugen - Icecrown"] = {
 		},
-		["Greybone - Icecrown"] = {
+		["Deminath - Proudmoore"] = {
 		},
-		["Zearthan - Icecrown"] = {
+		["Caircaidin - Frostwolf"] = {
+		},
+		["Greybone - Proudmoore"] = {
 		},
 		["Mallusof - Icecrown"] = {
 			["tooltip_questid"] = true,

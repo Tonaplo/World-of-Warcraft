@@ -2,7 +2,7 @@
 ## Title: Rematch
 ## Notes: A pet journal alternative for managing pets and teams.
 ## Author: Gello
-## Version: 4.9.0
+## Version: 4.9.4
 ## SavedVariables: RematchSaved, RematchSettings
 
 Localization\Rematch deDE.lua
@@ -107,4 +107,4 @@ Frames\Journal.xml
 Frames\Journal.lua
 
 Process\Battle.lua
-Process\Breeds.lua
+

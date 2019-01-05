@@ -315,7 +315,7 @@ local function createGeneralFrame(parent)
 		end,
 		function(self)
 			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
-			GameTooltip:SetText ("Enable this option if you want to hear a celebratory 'fanfare' sound effect when you obtain a new collectible item.\n\nThis feature can very addicting.\n\nThe default sound effects are from Final Fantasy Tactics. (One of the best games ever.)", nil, nil, nil, nil, true);
+			GameTooltip:SetText ("Enable this option if you want to hear a celebratory 'fanfare' sound effect when you obtain a new collectible item.\n\nThis feature can be very addicting.\n\nThe default sound effects are from Final Fantasy Tactics. (One of the best games ever.)", nil, nil, nil, nil, true);
 			GameTooltip:Show();
 		end);
 	playFanfare:SetPoint("TOPLEFT",notifyMe,0,-frameSpacer)
@@ -1724,12 +1724,6 @@ local function createMiniListFrame(parent)
 	end
 	
 	local window =  app:GetWindow("settings", child)
-	--local allData = window.data;
-	--local groups = {};
-	--allData.groups = groups;
-	--app.BuildGroups(allData, allData.groups);
-	--window.data = allData;
-	--app.CacheFields(allData);
 	window:SetScript("OnMouseDown", nil);
 	window:SetMovable(false);
 	window:SetResizable(false);
@@ -2348,8 +2342,8 @@ local function createAboutFrame(parent)
 	
 	local text = {}
 	text.introString = "|CFFADD8E6\nDo you find yourself completing old content just so that you can get literally everything for your Collections? Say no more! ALL THE THINGS will help you with your endeavor by giving you the ability to track your completion for everything.|r";
-	text.featureString = "|CFFADD8E6Features: \n • Supports tracking of Achievements, Appearances, Illusions, Mounts, Music Rolls, Pets, Quests, Titles & Toys \n • Primary Collections Window is moveable and resizeable \n • Auto Minilist \n • Datatext Support \n • Filters to allow you to customize the addon to your preferences \n • Extra tooltip information (Models, Icons, Descriptions, etc) \n • Fanfare music when you learn anything new. \n|r";
-	text.endString = "|CFFADD8E6Author -- Imoldgregg \nContributers -- Lucetia, Daktar, Slumber, Avella, Oiche, Gold, Aiue, Blueyleader, Iyanden, and Eiltherune \nDiscord -- https://discord.gg/3RAUKgu |r";
+	text.featureString = "\n|CFFADD8E6Features: \n • Supports tracking of Achievements, Appearances, Illusions, Mounts, Music Rolls, Pets, Quests, Titles & Toys \n  • Primary Collections Window is moveable and resizeable \n • Auto Minilist \n • Datatext Support \n • Filters to allow you to customize the addon to your preferences \n • Extra tooltip information (Models, Icons, Descriptions, etc) \n • Fanfare music when you learn anything new. \n|r";
+	text.endString = "\n|CFFADD8E6Author -- Imoldgregg \nContributers -- Lucetia, Daktar, Slumber, Avella, Oiche, Gold, Aiue, Blueyleader, Iyanden, and Eiltherune \nDiscord -- https://discord.gg/3RAUKgu |r\n\nATT Commands:\n • |CFF71C671/att|r - Brings up the main list [Keybind available]|r\n •|r |CFF71C671/att mini|r - Brings up the Mini List [Keybind available]|r\n •|r |CFF71C671/attrandom|r - Brings up the Random Go Get 'Em Window where you can let ATT randomly pick an activity for you to do based on what you need collected still.  [Keybind available]|r\n •|r |CFF71C671/attra|r - Brings up the Raid Assist Window for toggling various Raid settings easier  [Keybind available]|r\n\n •|r |CFF71C671/attwq|r - Brings up the Active World Quest list (Note: Need to refresh about 5 times due to API limitations)  [Keybind available]|r\n •|r |CFF71C671/att itemID:#####|r - Brings up a window with that specific item and it's shared appearances (Useful for finding where an item is in ATT and any appearances it can share)|r\n •|r |CFF71C671/att achievementID:#####|r - Brings up a window with the specified achievement number.  Useful to bring up the entire achievement if you see parts in a zone [Example: /att achievementID:12866 brings up tracking for 100 Exalted Factions]|r\n •|r |CFF71C671/att questID:#####|r - Brings up a window with the specified quest and it's entire chain|r";
 		
 	local about = child:CreateFontString(nil, "ARTWORK", "GameFontNormal");
 	about:SetPoint("TOPLEFT", 16, -10)

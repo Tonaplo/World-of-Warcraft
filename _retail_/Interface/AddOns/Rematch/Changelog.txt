@@ -1,3 +1,22 @@
+12/29/2018 version 4.9.4
+- Added Gnomeregan dungeon to the Targets menu.
+- In Targets menu, added headers to the Other menu to say where targets are from.
+- Removed Cataclysm category from Targets menu and moved Brok and Obalis to Kalimdor, Goz Banefury to Eastern Kingdom, and Bordin Steadyfist to Other-Maelstrom.
+- Removed the "Can't Summon" stat on pet cards for pets you don't own, such as opponent pets.
+- Fix for 'Hide/Unhide Pet' options not appearing when the Pet Filter Option 'Allow Hidden Pets' is enabled.
+
+12/23/2018 version 4.9.3
+- Fix for Leveling Queue Option "Double Click To Send To Top" not working since 4.9.0.
+
+12/22/2018 version 4.9.2
+- Reworked how breeds are pulled from supported addons in pet card, menus and filtering system. (If you have any saved filters that filter breed, you may need to update those filters.)
+- Removed Breed.lua since it's no longer needed.
+- If Preferred Window Mode is set to Pet Journal, then the Targeting Options to show the window will open the Pet Journal and not standalone. (Unless Use Default Pet Journal is checked; then the targeting options will open the standalone window.)
+- Fix for error trying to save/import/receive a team to a different tab before team panel has loaded in a session.
+- Updated some old code to use newer petInfo system in loadout slots, pet card, and the pet filtering system.
+- Added note back to Standalone Option "Use Custom Scale" that it doesn't affect the pet journal view of the addon.
+- In save dialogs, the text is changed from center-justified to left-justified to fix a weird cursor offset bug.
+
 12/14/2018 version 4.9.1
 - Updated toc to 8.1
 

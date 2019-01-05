@@ -24,27 +24,28 @@ Details_StreamerDB = {
 		["Mallubank - Tichondrius"] = "Greybone - Proudmoore",
 		["Lorvol - Tichondrius"] = "Greybone - Proudmoore",
 		["Miriyal - Icecrown"] = "Greybone - Proudmoore",
-		["Korugen - Icecrown"] = "Greybone - Proudmoore",
+		["Deminath - Tichondrius"] = "Greybone - Proudmoore",
+		["Caircaidin - Frostwolf"] = "Greybone - Proudmoore",
 		["Faerand - Icecrown"] = "Greybone - Proudmoore",
 		["Fandagny - Frostwolf"] = "Greybone - Proudmoore",
 		["Deminath - Hyjal"] = "Greybone - Proudmoore",
-		["Amranar - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyal - Proudmoore"] = "Greybone - Proudmoore",
+		["Faerand - Proudmoore"] = "Greybone - Proudmoore",
+		["Morifa - Proudmoore"] = "Greybone - Proudmoore",
 		["Luugo - Frostwolf"] = "Greybone - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Greybone - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Mallusof - Proudmoore",
-		["Granjior - Proudmoore"] = "Greybone - Proudmoore",
-		["Gottagetlia - Aggramar"] = "Mallusof - Proudmoore",
-		["Farahn - Proudmoore"] = "Greybone - Proudmoore",
-		["Greybone - Icecrown"] = "Greybone - Proudmoore",
-		["Kaldorath - Icecrown"] = "Greybone - Proudmoore",
-		["Thedodrouk - Icecrown"] = "Greybone - Proudmoore",
 		["Korugen - Proudmoore"] = "Greybone - Proudmoore",
+		["Thedodrouk - Icecrown"] = "Greybone - Proudmoore",
+		["Farahn - Proudmoore"] = "Greybone - Proudmoore",
+		["Kaldorath - Icecrown"] = "Greybone - Proudmoore",
+		["Greybone - Icecrown"] = "Greybone - Proudmoore",
+		["Gottagetlia - Aggramar"] = "Mallusof - Proudmoore",
+		["Granjior - Proudmoore"] = "Greybone - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Mallusof - Proudmoore",
-		["Morifa - Proudmoore"] = "Greybone - Proudmoore",
-		["Faerand - Proudmoore"] = "Greybone - Proudmoore",
+		["Miriyal - Proudmoore"] = "Greybone - Proudmoore",
+		["Amranar - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Tichondrius"] = "Greybone - Proudmoore",
-		["Caircaidin - Frostwolf"] = "Greybone - Proudmoore",
+		["Korugen - Icecrown"] = "Greybone - Proudmoore",
 		["Mallusof - Icecrown"] = "Greybone - Proudmoore",
 	},
 	["profiles"] = {
@@ -75,10 +76,10 @@ Details_StreamerDB = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["y"] = -20.15869140625,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -86,14 +87,8 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -20.15869140625,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -105,10 +100,16 @@ Details_StreamerDB = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
+			["font_size"] = 14,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["font_size"] = 14,
-			["main_frame_strata"] = "LOW",
+			["use_spark"] = false,
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
@@ -138,12 +139,12 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["scale"] = 1,
+			["row_height"] = 21,
+			["point"] = "TOPLEFT",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -151,9 +152,18 @@ Details_StreamerDB = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = false,
 			["y"] = -22.6146240234375,
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["font_size"] = 14,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "TOPLEFT",
@@ -161,22 +171,13 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = -269.982299804688,
 				["x"] = 14.120078086853,
-				["attribute_type"] = 2,
-				["update_speed"] = 0.0480000004172325,
 				["size"] = 32,
+				["update_speed"] = 0.0480000004172325,
+				["attribute_type"] = 2,
 			},
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["font_size"] = 14,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["point"] = "TOPLEFT",
-			["row_height"] = 21,
-			["scale"] = 1,
+			["main_frame_strata"] = "LOW",
+			["main_frame_locked"] = true,
+			["arrow_anchor_y"] = 0,
 		},
 		["Mallusof - Tichondrius"] = {
 			["font_color"] = {
@@ -203,17 +204,12 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["scale"] = 1,
+			["row_height"] = 21,
+			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["use_spark"] = false,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -227,7 +223,6 @@ Details_StreamerDB = {
 			["font_size"] = 14,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["use_spark"] = false,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "TOPLEFT",
@@ -235,13 +230,19 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = -269.982299804688,
 				["x"] = 14.120078086853,
-				["attribute_type"] = 2,
-				["update_speed"] = 0.0480000004172325,
 				["size"] = 32,
+				["update_speed"] = 0.0480000004172325,
+				["attribute_type"] = 2,
 			},
-			["point"] = "TOPLEFT",
-			["row_height"] = 21,
-			["scale"] = 1,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["main_frame_locked"] = true,
+			["arrow_anchor_y"] = 0,
 		},
 	},
 }
