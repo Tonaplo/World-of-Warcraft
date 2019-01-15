@@ -67,10 +67,10 @@ LUIDB = {
 							["Korugen"] = 9439782,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 68959333,
-							["Mallusof"] = 778147511,
+							["Mallusof"] = 778597912,
 							["Thedodrouk"] = 7422199,
 							["Rahran"] = 596537247,
-							["Praerend"] = 1499741891,
+							["Praerend"] = 1499517691,
 						},
 					},
 				},
@@ -86,9 +86,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
+							["Evisca"] = 303004,
 							["Gorog"] = 993959,
 						},
 					},
@@ -131,7 +131,7 @@ LUIDB = {
 							["Alura"] = 3644797,
 							["Lorvol"] = 1057540,
 							["Morifa"] = 1396339366,
-							["Deminath"] = 1644198054,
+							["Deminath"] = 1644721410,
 							["Zaliga"] = 8607092,
 							["Kindhoof"] = 1198250606,
 						},
@@ -223,21 +223,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -265,9 +258,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -738,10 +738,6 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
-								["Y"] = 100,
-								["X"] = 350,
-								["Lock"] = false,
-								["Padding"] = 1,
 							},
 							["WarlockBar"] = {
 								["Y"] = 100,
@@ -1608,72 +1604,72 @@ LUIDB = {
 							"/focus", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/i thanks :)", -- [1]
-							"/reload", -- [2]
+							"/reload", -- [1]
+							"/p then couldnt hear you", -- [2]
 							"/p yeah I'm in afucked state agaion", -- [3]
-							"/p then couldnt hear you", -- [4]
-							"/i thanks :)", -- [5]
-							"/p yeah I'm in afucked state agaion", -- [6]
-							"/i thanks :)", -- [7]
-							"/reload", -- [8]
-							"/i thanks :)", -- [9]
-							"/reload", -- [10]
-							"/p yeah I'm in afucked state agaion", -- [11]
+							"/reload", -- [4]
+							"/p yeah I'm in afucked state agaion", -- [5]
+							"/i thanks :)", -- [6]
+							"/p yeah I'm in afucked state agaion", -- [7]
+							"/i thanks :)", -- [8]
+							"/reload", -- [9]
+							"/p yeah I'm in afucked state agaion", -- [10]
+							"/p then couldnt hear you", -- [11]
 							"/i thanks :)", -- [12]
-							"/p then couldnt hear you", -- [13]
-							"/reload", -- [14]
-							"/i thanks :)", -- [15]
-							"/reload", -- [16]
+							"/p yeah I'm in afucked state agaion", -- [13]
+							"/i thanks :)", -- [14]
+							"/reload", -- [15]
+							"/p then couldnt hear you", -- [16]
 							"/p yeah I'm in afucked state agaion", -- [17]
-							"/p then couldnt hear you", -- [18]
-							"/i thanks :)", -- [19]
-							"/p yeah I'm in afucked state agaion", -- [20]
-							"/i thanks :)", -- [21]
-							"/reload", -- [22]
+							"/reload", -- [18]
+							"/p yeah I'm in afucked state agaion", -- [19]
+							"/i thanks :)", -- [20]
+							"/reload", -- [21]
+							"/p then couldnt hear you", -- [22]
 							"/p yeah I'm in afucked state agaion", -- [23]
-							"/p then couldnt hear you", -- [24]
-							"/i thanks :)", -- [25]
-							"/p yeah I'm in afucked state agaion", -- [26]
-							"/i thanks :)", -- [27]
+							"/reload", -- [24]
+							"/p yeah I'm in afucked state agaion", -- [25]
+							"/i thanks :)", -- [26]
+							"/p then couldnt hear you", -- [27]
 							"/reload", -- [28]
-							"/p then couldnt hear you", -- [29]
-							"/p yeah I'm in afucked state agaion", -- [30]
-							"/reload", -- [31]
-							"/p yeah I'm in afucked state agaion", -- [32]
+							"/i thanks :)", -- [29]
+							"/reload", -- [30]
+							"/1 Where is the portal to Zuldazar?", -- [31]
+							"/1 thanks", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							" Alliance player here", -- [1]
-							"/i have a good one :)", -- [2]
+							"/i have a good one :)", -- [1]
+							" Alliance player here", -- [2]
 							" Would you mind letting me do that? I'll bugger off and let you have them all after that", -- [3]
-							" Also, if you could let the other horde know in general chat. I've been killed a couple of times there now :P", -- [4]
-							"  /1", -- [5]
+							" Will do", -- [4]
+							" Also, if you could let the other horde know in general chat. I've been killed a couple of times there now :P", -- [5]
 							" To you too :)", -- [6]
-							" Killsshot from Illidan :P", -- [7]
+							"  /1", -- [7]
 							" have a good one :)", -- [8]
 							"/i Sorry about that", -- [9]
-							"/i jsut do it :)", -- [10]
-							" Will do", -- [11]
+							" Which was the other one?", -- [10]
+							" Killsshot from Illidan :P", -- [11]
 							" Otherwise, /3 is LocalDefense", -- [12]
 							" There you go!", -- [13]
-							"/i There's 1 boss left tho", -- [14]
+							" Joined :) Cant talk right now, tho", -- [14]
 							" As long as you tried :()", -- [15]
-							" Joined :) Cant talk right now, tho", -- [16]
-							" Which was the other one?", -- [17]
-							"/i have a good one :)", -- [18]
-							" Also, if you could let the other horde know in general chat. I've been killed a couple of times there now :P", -- [19]
+							"/i There's 1 boss left tho", -- [16]
+							"/i jsut do it :)", -- [17]
+							" Alliance player here", -- [18]
+							" Will do", -- [19]
 							" To you too :)", -- [20]
 							" have a good one :)", -- [21]
-							"/i jsut do it :)", -- [22]
+							" Which was the other one?", -- [22]
 							" Otherwise, /3 is LocalDefense", -- [23]
-							"/i There's 1 boss left tho", -- [24]
-							" Joined :) Cant talk right now, tho", -- [25]
-							"/i have a good one :)", -- [26]
+							" Joined :) Cant talk right now, tho", -- [24]
+							"/i There's 1 boss left tho", -- [25]
+							" Alliance player here", -- [26]
 							" To you too :)", -- [27]
-							"/i jsut do it :)", -- [28]
-							"/i There's 1 boss left tho", -- [29]
-							"/i have a good one :)", -- [30]
-							"/i jsut do it :)", -- [31]
-							"/i have a good one :)", -- [32]
+							" Which was the other one?", -- [28]
+							" Joined :) Cant talk right now, tho", -- [29]
+							" Alliance player here", -- [30]
+							" Which was the other one?", -- [31]
+							" Alliance player here", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

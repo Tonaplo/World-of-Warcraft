@@ -1,11 +1,11 @@
 
 AllTheThingsPCD = {
 	["FlightPaths"] = {
-		[457] = 1,
-		[4] = 1,
 		[26] = 1,
+		[4] = 1,
+		[457] = 1,
 		[338] = 1,
-		[2] = 1,
+		[39] = 1,
 		[513] = 1,
 		[8] = 1,
 		[622] = 1,
@@ -16,7 +16,7 @@ AllTheThingsPCD = {
 		[195] = 1,
 		[6] = 1,
 		[12] = 1,
-		[39] = 1,
+		[2] = 1,
 	},
 	["ItemFilters"] = {
 		true, -- [1]
@@ -57,7 +57,7 @@ AllTheThingsPCD = {
 		true, -- [36]
 		[0] = true,
 		[-1] = true,
-		[102] = true,
+		[52] = false,
 		[112] = true,
 		[101] = true,
 		[103] = true,
@@ -70,7 +70,7 @@ AllTheThingsPCD = {
 		[55] = false,
 		[54] = false,
 		[53] = false,
-		[52] = false,
+		[102] = true,
 		[51] = false,
 		[999] = true,
 		[50] = true,

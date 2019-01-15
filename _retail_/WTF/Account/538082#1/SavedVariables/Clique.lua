@@ -98,13 +98,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Faerand - Proudmoore",
 			["spec2_profileKey"] = "Faerand - Proudmoore",
 		},
-		["Miriyal - Proudmoore"] = {
-			["spec1_profileKey"] = "Non-Healer",
-			["specswap"] = true,
+		["Kindhoof - Tichondrius"] = {
+			["spec1_profileKey"] = "Kindhoof - Tichondrius",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Monk - Mistweaver",
-			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Kindhoof - Tichondrius",
+			["spec3_profileKey"] = "Kindhoof - Tichondrius",
 		},
 		["Zearthan - Proudmoore"] = {
 			["spec1_profileKey"] = "Zearthan - Proudmoore",
@@ -114,13 +114,13 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Zearthan - Proudmoore",
 			["specswap"] = false,
 		},
-		["Kindhoof - Tichondrius"] = {
-			["spec1_profileKey"] = "Kindhoof - Tichondrius",
-			["specswap"] = false,
+		["Morifa - Proudmoore"] = {
+			["spec1_profileKey"] = "Morifa - Proudmoore",
+			["spec2_profileKey"] = "Morifa - Proudmoore",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Kindhoof - Tichondrius",
-			["spec3_profileKey"] = "Kindhoof - Tichondrius",
+			["specswap"] = false,
+			["spec3_profileKey"] = "Morifa - Proudmoore",
 		},
 		["Rahran - Proudmoore"] = {
 			["spec1_profileKey"] = "Rahran - Proudmoore",
@@ -149,11 +149,11 @@ CliqueDB3 = {
 		},
 		["Praerend - Icecrown"] = {
 			["spec1_profileKey"] = "Praerend - Icecrown",
-			["spec3_profileKey"] = "Praerend - Icecrown",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
 			["spec2_profileKey"] = "Praerend - Icecrown",
+			["spec3_profileKey"] = "Praerend - Icecrown",
 		},
 		["Farahn - Proudmoore"] = {
 			["spec1_profileKey"] = "Shaman - Resto",
@@ -181,9 +181,9 @@ CliqueDB3 = {
 		},
 		["Thedodrouk - Icecrown"] = {
 			["spec1_profileKey"] = "Thedodrouk - Icecrown",
+			["fastooc"] = false,
 			["spec2_profileKey"] = "Thedodrouk - Icecrown",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
 			["spec3_profileKey"] = "Thedodrouk - Icecrown",
 		},
@@ -203,13 +203,13 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Korugen - Proudmoore",
 			["specswap"] = false,
 		},
-		["Morifa - Proudmoore"] = {
-			["spec1_profileKey"] = "Morifa - Proudmoore",
-			["spec2_profileKey"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = {
+			["spec1_profileKey"] = "Non-Healer",
+			["specswap"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec3_profileKey"] = "Morifa - Proudmoore",
+			["spec2_profileKey"] = "Monk - Mistweaver",
+			["spec3_profileKey"] = "Non-Healer",
 		},
 		["Kindhoof - Proudmoore"] = {
 			["spec1_profileKey"] = "Kindhoof - Proudmoore",
@@ -238,12 +238,12 @@ CliqueDB3 = {
 		},
 		["Mallusof - Icecrown"] = {
 			["spec1_profileKey"] = "Priest - Disc",
-			["spec3_profileKey"] = "Non-Healer",
-			["downclick"] = false,
-			["spec2_profileKey"] = "Priest - Holy",
-			["fastooc"] = false,
-			["specswap"] = true,
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["specswap"] = true,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Non-Healer",
+			["spec2_profileKey"] = "Priest - Holy",
 			["blacklist"] = {
 				["oUF_LUI_player"] = true,
 				["oUF_LUI_target"] = true,

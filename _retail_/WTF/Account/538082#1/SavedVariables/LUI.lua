@@ -136,10 +136,10 @@ LUIDB = {
 							["Korugen"] = 9439782,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 68959333,
-							["Mallusof"] = 778147511,
-							["Thedodrouk"] = 7422199,
+							["Mallusof"] = 778597912,
+							["Thedodrouk"] = 8248619,
 							["Rahran"] = 596537247,
-							["Praerend"] = 1499741891,
+							["Praerend"] = 1499517691,
 						},
 					},
 				},
@@ -153,9 +153,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -223,14 +223,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -258,16 +264,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -690,10 +690,6 @@ LUIDB = {
 								["Texture"] = "Otravi",
 							},
 							["ClassIcons"] = {
-								["Y"] = 100,
-								["X"] = 350,
-								["Lock"] = false,
-								["Padding"] = 1,
 							},
 							["AltPower"] = {
 								["Enable"] = true,
@@ -1059,38 +1055,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							" Alliance player here", -- [1]
-							"/i have a good one :)", -- [2]
-							" Would you mind letting me do that? I'll bugger off and let you have them all after that", -- [3]
-							" Also, if you could let the other horde know in general chat. I've been killed a couple of times there now :P", -- [4]
-							"  /1", -- [5]
-							" To you too :)", -- [6]
-							" Killsshot from Illidan :P", -- [7]
-							" have a good one :)", -- [8]
-							"/i Sorry about that", -- [9]
-							"/i jsut do it :)", -- [10]
-							" Will do", -- [11]
-							" Otherwise, /3 is LocalDefense", -- [12]
-							" There you go!", -- [13]
-							"/i There's 1 boss left tho", -- [14]
-							" As long as you tried :()", -- [15]
-							" Joined :) Cant talk right now, tho", -- [16]
-							" Which was the other one?", -- [17]
-							"/i have a good one :)", -- [18]
-							" Also, if you could let the other horde know in general chat. I've been killed a couple of times there now :P", -- [19]
-							" To you too :)", -- [20]
-							" have a good one :)", -- [21]
-							"/i jsut do it :)", -- [22]
-							" Otherwise, /3 is LocalDefense", -- [23]
+							"/i Sorry about that", -- [1]
+							" Killsshot from Illidan :P", -- [2]
+							" There you go!", -- [3]
+							" As long as you tried :()", -- [4]
+							"/i jsut do it :)", -- [5]
+							" Will do", -- [6]
+							" have a good one :)", -- [7]
+							" Otherwise, /3 is LocalDefense", -- [8]
+							"/i There's 1 boss left tho", -- [9]
+							" To you too :)", -- [10]
+							" Joined :) Cant talk right now, tho", -- [11]
+							" Which was the other one?", -- [12]
+							"/i have a good one :)", -- [13]
+							" Also, if you could let the other horde know in general chat. I've been killed a couple of times there now :P", -- [14]
+							"/i Sorry about that", -- [15]
+							" There you go!", -- [16]
+							"/i jsut do it :)", -- [17]
+							" have a good one :)", -- [18]
+							"/i There's 1 boss left tho", -- [19]
+							" Joined :) Cant talk right now, tho", -- [20]
+							"/i have a good one :)", -- [21]
+							"/i Sorry about that", -- [22]
+							"/i jsut do it :)", -- [23]
 							"/i There's 1 boss left tho", -- [24]
-							" Joined :) Cant talk right now, tho", -- [25]
-							"/i have a good one :)", -- [26]
-							" To you too :)", -- [27]
-							"/i jsut do it :)", -- [28]
-							"/i There's 1 boss left tho", -- [29]
-							"/i have a good one :)", -- [30]
-							"/i jsut do it :)", -- [31]
-							"/i have a good one :)", -- [32]
+							"/i have a good one :)", -- [25]
+							"/i jsut do it :)", -- [26]
+							"/i have a good one :)", -- [27]
+							"/i Fort please Tinnet :)", -- [28]
+							"/i Ty! :)", -- [29]
+							"/i pretty decent upgrade :)", -- [30]
+							"/i gz", -- [31]
+							"/i have a goodone :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

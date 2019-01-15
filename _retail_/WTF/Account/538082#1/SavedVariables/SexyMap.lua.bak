@@ -171,6 +171,7 @@ SexyMap2DB = {
 				["MiniMapWorldMapButton"] = 22.1750488706855,
 				["QueueStatusMinimapButton"] = 161.816765760918,
 				["MiniMapTracking"] = 116.402357746043,
+				["LibDBIcon10_WeakAuras"] = 205.545301510266,
 				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
 				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
 			},

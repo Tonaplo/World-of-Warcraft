@@ -52,6 +52,7 @@ SexyMap2DB = {
 				["MiniMapTracking"] = 116.402357746043,
 				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
 				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
+				["LibDBIcon10_WeakAuras"] = 205.545301510266,
 			},
 			["controlVisibility"] = true,
 		},
