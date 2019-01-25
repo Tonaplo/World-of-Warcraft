@@ -19,3 +19,5 @@ RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_EU_H_R: disabled
 RaiderIO_DB_EU_A_R: disabled
 Arh: disabled
+HealerStatWeights: disabled
+BigWigs_BattleOfDazaralor: enabled
