@@ -3,8 +3,8 @@ SLASH_STATPRIORITY2 = "/stat"
 
 local statPriorityStats = {}
 
-statPriorityStats["WARRIORArms"] = "Strength > Haste > Critical Strike > Mastery > Versatility"
-statPriorityStats["WARRIORFury"] = "Strength > Haste > Mastery > Versatility > Critical Strike"
+statPriorityStats["WARRIORArms"] = "Haste > Critical Strike > Versatility > Mastery > Strength"
+statPriorityStats["WARRIORFury"] = "Critical Strike > Mastery > Haste > Versatility > Strength"
 statPriorityStats["WARRIORProtection"] = "Haste > Armor > Versatility > Mastery > Critical Strike > Strength"
 
 statPriorityStats["PALADINHoly"] = "Intellect > Critical Strike > Mastery > Haste > Versatility"
@@ -16,7 +16,7 @@ statPriorityStats["HUNTERMarksmanship"] = "Mastery > Critical Strike > Versatili
 statPriorityStats["HUNTERSurvival"] = "Haste > Critical Strike > Versatility > Mastery"
 
 statPriorityStats["ROGUEAssassination"] = "Agility > Haste > Critical Strike > Mastery > Versatility"
-statPriorityStats["ROGUEOutlaw"] = "Agility > Haste > Versatility > Critical Strike > Mastery"
+statPriorityStats["ROGUEOutlaw"] = "Agility > Critical Strike > Haste > Versatility > Mastery"
 statPriorityStats["ROGUESubtlety"] = "Mastery > Critical Strike > Versatility > Haste"
 
 statPriorityStats["PRIESTDiscipline"] = "Intellect > Haste > Critical Strike > Versatility > Mastery"

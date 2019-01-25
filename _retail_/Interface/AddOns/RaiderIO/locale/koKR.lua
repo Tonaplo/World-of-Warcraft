@@ -96,6 +96,8 @@ L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r의 자료는 |cffFF6666%d|r일 전 �
 L["PLAYER_PROFILE_TITLE"] = "파티장 프로필"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "던전별 최고 기록"
+--[[Translation missing --]]
+--[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
 L["RAID_ABBREVIATION_ULD"] = "울디르"
 L["RAID_BOSS_ABT_1"] = "가로시 세계파괴자"
 L["RAID_BOSS_ABT_10"] = "아그라마르"
@@ -108,6 +110,24 @@ L["RAID_BOSS_ABT_6"] = "영혼사냥꾼 이모나르"
 L["RAID_BOSS_ABT_7"] = "킨가로스"
 L["RAID_BOSS_ABT_8"] = "바리마트라스"
 L["RAID_BOSS_ABT_9"] = "쉬바라의 집회"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_9"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "탈록"
 L["RAID_BOSS_ULD_2"] = "마더"
 L["RAID_BOSS_ULD_3"] = "악취나는 포식자"

@@ -15,6 +15,7 @@ local TooltipCheck= {
 }
 
 local tooltipOOC
+local tooltipDefault
 local tooltipCheck
 local tooltipFrame
 local tooltipDisplayed
@@ -26,15 +27,15 @@ local function OnFrameEnter(frame)
 			Tooltip:Display(unit, Tooltip)
 		elseif tooltipCheck() then
 			local status = Tooltip:GetCurrentStatus(unit)
-			if status then
-				Tooltip:Display(unit, status)
+			if status or tooltipDefault then
+				Tooltip:Display(unit, status or Tooltip)
 			end
 		end
 	end	
 	tooltipFrame = frame
 end
 
-local function OnFrameLeave(frame, keep)
+local function OnFrameLeave()
 	Tooltip:Hide()
 	tooltipFrame = nil 
 end
@@ -44,14 +45,14 @@ function Tooltip:GetTooltip(unit, tip)
 	tip:SetUnit(unit)
 end
 
-function Tooltip:Display(unit, object)
+function Tooltip:Display(unit, status)
 	local anchor = self.dbx.tooltipAnchor
 	if anchor then
 		GameTooltip:SetOwner(Grid2Layout.frameBack, anchor)
 	else
 		GameTooltip_SetDefaultAnchor(GameTooltip, UIParent)
 	end
-	object:GetTooltip(unit, GameTooltip)	
+	status:GetTooltip(unit, GameTooltip)	
 	GameTooltip:Show()
 	tooltipDisplayed = true
 end
@@ -73,22 +74,23 @@ function Tooltip:OnUpdate(parent, unit, status)
 	end	
 end
 
-function Tooltip:UpdateDB(dbx)
-	dbx = dbx or self.dbx
-	local show = dbx.showTooltip or 1
+function Tooltip:OnSuspend()
+	Grid2Frame:SetEventHook( 'OnEnter', OnFrameEnter, false )
+	Grid2Frame:SetEventHook( 'OnLeave', OnFrameLeave, false )
+end
+
+function Tooltip:UpdateDB()
+	local dbx  = self.dbx
 	tooltipOOC = dbx.displayUnitOOC
-	tooltipCheck = TooltipCheck[show]
-	Grid2Frame.Events.OnEnter = ( show~=1 or tooltipOOC ) and OnFrameEnter or nil
-	Grid2Frame.Events.OnLeave = ( show~=1 or tooltipOOC ) and OnFrameLeave or nil
-	Grid2Frame:WithAllFrames(function (f)
-		f:SetScript('OnEnter', Grid2Frame.Events.OnEnter)
-		f:SetScript('OnLeave', Grid2Frame.Events.OnLeave)
-	end)
+	tooltipDefault = dbx.showDefault
+	tooltipCheck = TooltipCheck[dbx.showTooltip or 4]
+	Grid2Frame:SetEventHook( 'OnEnter', OnFrameEnter, dbx.showTooltip~=1 )
+	Grid2Frame:SetEventHook( 'OnLeave', OnFrameLeave, dbx.showTooltip~=1 )
 end
 
 local function Create(indicatorKey, dbx)
 	Tooltip.dbx = dbx
-	Tooltip:UpdateDB(dbx)
+	Tooltip:UpdateDB()
 	Grid2:RegisterIndicator(Tooltip, { "tooltip" })
 	return Tooltip
 end

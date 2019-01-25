@@ -1,4 +1,3 @@
-if not IsTestBuild() then return end
 --------------------------------------------------------------------------------
 -- TODO:
 -- - Assistant on robots?
@@ -12,7 +11,7 @@ if not IsTestBuild() then return end
 
 local mod, CL = BigWigs:NewBoss("High Tinker Mekkatorque", 2070, 2334)
 if not mod then return end
-mod:RegisterEnableMob(0)
+mod:RegisterEnableMob(144796)
 mod.engageId = 2276
 --mod.respawnTime = 31
 
@@ -20,25 +19,29 @@ mod.engageId = 2276
 -- Locals
 --
 
+local sparkBotCount = 1
+
 --------------------------------------------------------------------------------
 -- Localization
 --
 
---local L = mod:GetLocale()
---if L then
---
---end
+local L = mod:GetLocale()
+if L then
+	L.gigavolt_alt_text = "Bomb"
+end
 
 --------------------------------------------------------------------------------
 -- Initialization
 --
 
+local gigavoltChargeMarker = mod:AddMarkerOption(false, "player", 1, 286646, 1, 2, 3) -- Gigavolt Charge
 function mod:GetOptions()
 	return {
 		-- General
 		282153, -- Buster Cannon
 		282205, -- Blast Off
-		{283409, "SAY", "SAY_COUNTDOWN"}, -- Gigavolt Charge
+		{286646, "SAY", "SAY_COUNTDOWN"}, -- Gigavolt Charge
+		gigavoltChargeMarker,
 		287952, -- Dimensional Ripper XL
 		284042, -- Deploy Spark Bot
 		288049, -- Shrink Ray
@@ -52,8 +55,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "BusterCannon", 282153)
 	self:Log("SPELL_CAST_START", "BlastOff", 282205)
 	self:Log("SPELL_CAST_SUCCESS", "GigavoltCharge", 286597)
-	self:Log("SPELL_AURA_APPLIED", "GigavoltChargeApplied", 283409, 286646)
-	self:Log("SPELL_AURA_REMOVED", "GigavoltChargeRemoved", 283409, 286646)
+	self:Log("SPELL_AURA_APPLIED", "GigavoltChargeApplied", 286646)
+	self:Log("SPELL_AURA_REMOVED", "GigavoltChargeRemoved", 286646)
 	self:Log("SPELL_CAST_START", "DimensionalRipperXL", 287952)
 	self:Log("SPELL_CAST_SUCCESS", "DeploySparkBot", 284042)
 	self:Log("SPELL_CAST_START", "ShrinkRay", 288049)
@@ -62,6 +65,7 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
+	sparkBotCount = sparkBotCount + 1
 end
 
 --------------------------------------------------------------------------------
@@ -81,21 +85,62 @@ function mod:BlastOff(args)
 end
 
 function mod:GigavoltCharge(args)
-	self:CDBar(283409, 30)
+	self:CDBar(286646, 30, L.gigavolt_alt_text)
 end
 
-function mod:GigavoltChargeApplied(args)
-	self:TargetMessage2(283409, "yellow", args.destName)
-	if self:Me(args.destGUID) then
-		self:PlaySound(283409, "warning")
-		self:Say(283409)
-		self:SayCountdown(283409, 15)
+do
+	local playerList, isOnMe = {}, nil
+
+	local function announce()
+		local meOnly = mod:CheckOption(286646, "ME_ONLY")
+
+		if isOnMe then
+			mod:TargetBar(286646, 15, mod:UnitName("player"), L.gigavolt_alt_text)
+		end
+
+		if isOnMe and (meOnly or #playerList == 1) then
+			mod:Message2(286646, "blue", CL.you:format(("|T13700%d:0|t%s"):format(isOnMe, L.gigavolt_alt_text)))
+		elseif not meOnly then
+			local msg = ""
+			for i=1, #playerList do
+				local icon = ("|T13700%d:0|t"):format(i)
+				msg = msg .. icon .. mod:ColorName(playerList[i]) .. (i == #playerList and "" or ",")
+			end
+
+			mod:Message2(286646, "yellow", CL.other:format(L.gigavolt_alt_text, msg))
+		end
+
+		playerList = {}
+		isOnMe = nil
+	end
+
+	function mod:GigavoltChargeApplied(args)
+		playerList[#playerList+1] = args.destName
+		if #playerList == 1 then
+			self:SimpleTimer(announce, 0.1)
+		end
+		if self:Me(args.destGUID) then
+			isOnMe = #playerList
+			self:PlaySound(args.spellId, "warning")
+			self:Say(args.spellId, CL.count_rticon:format(args.spellName, isOnMe, isOnMe))
+			self:SayCountdown(args.spellId, 15)
+		end
+		if self:GetOption(gigavoltChargeMarker) then
+			SetRaidTarget(args.destName, #playerList)
+		end
 	end
 end
 
-function mod:GigavoltChargeRemoved(args)
-	if self:Me(args.destGUID) then
-		self:CancelSayCountdown(283409)
+do
+	local prev = 0
+	function mod:GigavoltChargeRemoved(args)
+		if self:Me(args.destGUID) then
+			self:CancelSayCountdown(args.spellId)
+			self:StopBar(L.gigavolt_alt_text, args.destName)
+		end
+		if self:GetOption(gigavoltChargeMarker) then
+			SetRaidTarget(args.destName, 0)
+		end
 	end
 end
 
@@ -106,8 +151,9 @@ function mod:DimensionalRipperXL(args)
 end
 
 function mod:DeploySparkBot(args)
-	self:Message2(args.spellId, "cyan")
+	self:Message2(args.spellId, "cyan", CL.count:format(args.spellName, sparkBotCount))
 	self:PlaySound(args.spellId, "info")
+	sparkBotCount = sparkBotCount + 1
 end
 
 function mod:ShrinkRay(args)

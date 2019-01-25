@@ -96,6 +96,8 @@ L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r使用的數據已經有|cffFF6666%d|r
 L["PLAYER_PROFILE_TITLE"] = "玩家M+紀錄"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "地城最高紀錄"
+--[[Translation missing --]]
+--[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
 L["RAID_ABBREVIATION_ULD"] = "ULD"
 L["RAID_BOSS_ABT_1"] = "加洛斯碎界者"
 L["RAID_BOSS_ABT_10"] = "阿格拉瑪"
@@ -108,6 +110,24 @@ L["RAID_BOSS_ABT_6"] = "伊莫納爾"
 L["RAID_BOSS_ABT_7"] = "金加洛斯"
 L["RAID_BOSS_ABT_8"] = "瓦里瑪薩斯"
 L["RAID_BOSS_ABT_9"] = "巫女"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_9"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "塔羅克"
 L["RAID_BOSS_ULD_2"] = "母親大人"
 L["RAID_BOSS_ULD_3"] = "噬臭者"

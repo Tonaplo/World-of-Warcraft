@@ -1,12 +1,9 @@
 # BigWigs
 
-## [v123](https://github.com/BigWigsMods/BigWigs/tree/v123) (2018-12-14)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v122...v123)
+## [v127.1](https://github.com/BigWigsMods/BigWigs/tree/v127.1) (2019-01-24)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v127...v127.1)
 
-- Uldir: Add trash warning for Bloodshot Rage  
-- Uldir/Zekvoz: UnregisterUnitEvent call is no longer needed.  
-- Uldir/Zekvoz: Encounter Event spell for stage changes is now live  
-- Uldir/Taloc: Tweak cudgel timers  
-- bump version  
-- bump toc  
-- Plugins/AutoReply: IsCharacterFriend() has been replaced by C\_FriendList.IsFriend()  
+- BattleOfDazaralor/GrongHorde: Add respawn time.  
+- BattleOfDazaralor/Mekkatorque: Fix NPC id  
+- BattleOfDazaralor/Rastakhan: Add respawn time  
+- BattleOfDazaralor/Council: Rename module & add respawn time  

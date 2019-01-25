@@ -43,7 +43,6 @@ RDDB["Battle for Azeroth"] = {
 		order = 5, ejid = nil,
 		273563, -- Neurotoxina
 		272657, -- Aliento nocivo
-		267027, -- Citotoxina
 		272655, -- Arena asoladora
 		272696, -- Rel�mpagos embotellados
 		272699, -- Flema venenosa
@@ -78,6 +77,7 @@ RDDB["Battle for Azeroth"] = {
 		["Trash"] = {
 		257908, -- Hoja aceitada
 		257478, -- Mordedura entorpecedora
+		274384, -- Trampas para ratas
 		}
 	},
 	[1022] = {
@@ -441,7 +441,6 @@ RDDB["Battle for Azeroth"] = {
 		268198, -- Clinging Corruption		
 		268253, -- Surgical Beam
 		268277, -- Purifying Flame
-        268253, -- Uldir Defensive Beam
 		},
 		["Fetid Devourer"] = {
 		order = 3, ejid = 2146,
@@ -457,7 +456,6 @@ RDDB["Battle for Azeroth"] = {
 		265264, -- Void Lash
 		265646, -- Will of the Corruptor
         264210, -- Jagged Mandible
-        265360, -- Roiling Deceit
         270589, -- Void Wail
         270620, -- Psionic Blast  		
 		},
@@ -468,7 +466,6 @@ RDDB["Battle for Azeroth"] = {
 		265212, -- Gestate
 		265127, -- Lingering Infection
 		265206, -- Immunosuppression
-        265127, -- Lingering Infection
 		},
 		["Zul, Reborn"] = {
 		order = 6, ejid = 2195,
@@ -488,8 +485,6 @@ RDDB["Battle for Azeroth"] = {
 		274693, -- Essence Shear
 		272407, -- Oblivion Sphere
         272146, -- Annihilation
-        272407, -- Oblivion Sphere
-        272536, -- Imminent Ruin
         274019, -- Mind Flay
         274113, -- Obliteration Beam
         274761, -- Oblivion Veil
@@ -505,17 +500,107 @@ RDDB["Battle for Azeroth"] = {
 		267430, -- Torment
 		263235, -- Blood Feast
 		270287, -- Blighted Ground
-        263235, -- Blood Feast
         263321, -- Undulating Mass
-        263372, -- Power Matrix
-        263436, -- Imperfect Physiology
         267659, -- Unclean Contagion
         267700, -- Gaze of G'huun
         267813, -- Blood Host
         269691, -- Mind Thrall
-        270287, -- Blighted Ground
         277007, -- Bursting Boil
         279575, -- Choking Miasma  
+		},
+	},
+	[1176] = {
+		{ id = 1176, name = "Battle of Dazar'alor", raid = true },
+		["Champion of the Light"] = {
+		order = 1, ejid = 2344,
+		283572, -- Sacred Blade
+		283651, -- Blinding Faith
+		283579, -- Consecration
+		},
+		["Jadefire Masters"] = {
+		order = 2, ejid = 2323,
+		286988, -- Searing Embers
+		288151, -- Tested
+		282037, -- Rising Flames
+		285632, -- Stalking
+		},
+		["Grong, the Revenant"] = {
+		order = 3, ejid = 2340,
+		285875, -- Rending Bite
+		282215, -- Megatomic Seeker Missile
+		282471, -- Voodoo Blast
+		285659, -- Apetagonizer Core
+		286434, -- Necrotic Core
+		283069, -- Megatomic Fire
+		285671, -- Crushed		
+		282010, -- Shattered
+		},
+		["Opulence"] = {
+		order = 4, ejid = 2342,
+		283507, -- Volatile Charge
+		287072, -- Liquid Gold
+		284470, -- Hex of Lethargy
+		},
+		["Conclave of the Chosen"] = {
+		order = 5, ejid = 2330,
+		282444, -- Lacerating Claws
+		286811, -- Akunda's Wrath
+		282209, -- Mark of Prey
+		282135, -- Crawling Hex
+		285878, -- Mind Wipe
+		},
+		["King Rastakhan"] = {
+		order = 6, ejid = 2335,
+		285213, -- Caress of Death
+		288449, -- Death's Door
+		284662, -- Seal of Purification
+		285349, -- Plague of Fire
+		284781, -- Grevious Axe
+		},
+		["High Tinker Mekkatorque"] = {
+		order = 7, ejid = 2334,
+		286480, -- Anti Tampering Shock
+		282182, -- Buster Cannon
+		287757, -- Gigavolt Charge
+		283411, -- Gigavolt Blast
+		284168, -- Shrunk
+		284214, -- Trample
+		287891, -- Sheep Shrapnel
+		287167, -- Discombobulation
+		289023, -- Enormous
+		},
+		["Stormwall Blockade"] = {
+		order = 8, ejid = 2337,
+		284405, -- Tempting Song
+		285000, -- Kelp Wrapping
+		285350, -- Storms Wail
+		285075, -- Freezing Tidepool
+		285382, -- Kelp Wrapping
+		},
+		["Lady Jaina Proudmoore"] = {
+		order = 9, ejid = 2343,
+		287626, -- Grasp of Frost
+		287365, -- Searing Pitch
+		288218, -- Broadside
+		289220, -- Heart of Frost
+		288038, -- Marked Target
+		285212, -- Chilling Touch
+		287565, -- Avalanche
+		},
+	},
+	[1177] = {
+		{ id = 1177, name = "Crucible of Storms", raid = true },
+		["The Restless Cabal"] = {
+		order = 1, ejid = 2328,
+		282384, -- Shear Mind
+		283524, -- Aphotic Blast
+		282517, -- Terrifying Echo
+		282562, -- Promises of Power
+		282738, -- Embrace of the void
+		},
+		["Uu'nat, Harbinger of the Void"] = {
+		order = 2, ejid = 2332,
+		284733, -- Embrace of the void
 		},
 	},
 }

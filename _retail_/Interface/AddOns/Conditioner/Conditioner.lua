@@ -1,6 +1,6 @@
 --==============================================CONDITIONER 2.0==============================================--
 --By Tony Allain
---version 2.3.4
+--version 2.3.7
 --===========================================================================================================--
 local ConditionerAddOn = CreateFrame("Frame")
 ConditionerAddOn.EventHandler = {}
@@ -1182,7 +1182,7 @@ function ConditionerAddOn:GetConditions(frame)
     local boolStringShort = ConditionerAddOn:EncodeToMask({frame.Conditions.cooldownRemainingIsItemID,
         frame.Conditions.onlyInRange,
         frame.Conditions.onlyDuringCC,
-        false, --4
+        frame.Conditions.onlyWhileMoving, --4
         frame.Conditions.inStealth, --5
         frame.Conditions.canCast}, true)
     local encoded_resourceTypeEnum = ConditionerAddOn:EncodeToMask(frame.Conditions.resourceTypeEnum, true)
@@ -1740,6 +1740,13 @@ function ConditionerAddOn:CheckCondition(priorityButton)
         return false
     end
 
+    --windwalker only - combo strikes, we'll never repeat spells
+    if (IsSpellKnown(115636)) then
+        if (ConditionerAddOn.lastSpell == spellID) then
+            return false
+        end
+    end
+
     --onlyWhenReadyBool
     if (Conditions.onlyWhenReadyBool) then
         local testFunc = (itemID > 0) and GetItemCooldown or GetSpellCooldown
@@ -1760,7 +1767,7 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     local targetUnitEnum, targetUnitToken = Conditions.auraTargetEnum, "target"
     if (targetUnitEnum == 1) then
         targetUnitToken = "player"
-    elseif (targetUnitEnum == 2 or targetUnitEnum == 3 or targetUnitEnum == 4 or targetUnitEnum == 13 or targetUnitEnum == 14 or targetUnitEnum == 15) then
+    elseif (targetUnitEnum == 2 or targetUnitEnum == 3 or targetUnitEnum == 4 or targetUnitEnum == 13 or targetUnitEnum == 14 or targetUnitEnum == 15 or targetUnitEnum == 16) then
         targetUnitToken = "target"
     elseif (targetUnitEnum == 5 or targetUnitEnum == 6 or targetUnitEnum == 7) then
         targetUnitToken = "mouseover"
@@ -1777,10 +1784,19 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     end
 
     -- 2/5 enemy
-    if (targetUnitEnum == 2 or targetUnitEnum == 5 or targetUnitEnum == 14) and (not UnitCanAttack("player", targetUnitToken)) then
+    if (targetUnitEnum == 2 or targetUnitEnum == 5 or targetUnitEnum == 14 or targetUnitEnum == 16) and (not UnitCanAttack("player", targetUnitToken)) then
         --print("FAILED - ENEMY TARGET")
         return false
     end
+
+    if (targetUnitEnum == 16) then
+        --it has to be elite or higher
+        local classificationName = UnitClassification(targetUnitToken)
+        if (classificationName == "normal" or classificationName == "trivial" or classificationName == "minus") then
+            return false
+        end
+    end
+
     -- 3/6 friend
     if (targetUnitEnum == 3 or targetUnitEnum == 6 or targetUnitEnum == 13) and (UnitCanAttack("player", targetUnitToken)) then
         --print("FAILED - FRIENDLY TARGET")
@@ -2796,7 +2812,8 @@ function ConditionerAddOn:Init()
             "My Target's Target",
             "Friendly Player",
             "Enemy Player",
-            "Any Player"
+            "Any Player",
+            "Enemy Elite+"
         },
         shapeShiftChoicesEnum = {
             [0] = "None",
@@ -4062,6 +4079,13 @@ end
 
 function ConditionerAddOn.EventHandler:UNIT_SPELLCAST_SUCCEEDED(...)
     ConditionerAddOn:HandleSwingTimerRanged(...)
+    ConditionerAddOn:TrackLastSpell(...)
+end
+
+function ConditionerAddOn:TrackLastSpell(...)
+    if (select(1,...) == "player") then
+        ConditionerAddOn.lastSpell = select(3,...)
+    end
 end
 --[[
 function ConditionerAddOn.EventHandler:ADDON_ACTION_FORBIDDEN(...)

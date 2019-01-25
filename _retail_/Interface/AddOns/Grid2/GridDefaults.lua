@@ -54,7 +54,7 @@ end
 -- Default configurations
 
 local function MakeDefaultsCommon()
-	Grid2:DbSetValue( "indicators",  "tooltip", {type = "tooltip", displayUnitOOC = true} )
+	Grid2:DbSetValue( "indicators",  "tooltip", {type = "tooltip", showTooltip = 4, showDefault = true} )
 
 	Grid2:DbSetValue( "indicators",  "alpha", {type = "alpha", color1 = {r=0,g=0,b=0,a=1}})
 	Grid2:DbSetMap( "alpha", "range", 99)
@@ -103,7 +103,7 @@ local function MakeDefaultsCommon()
 	Grid2:DbSetMap( "text-up-color", "vehicle", 70)
 	Grid2:DbSetMap( "text-up-color", "charmed", 65)
 
-	Grid2:DbSetValue( "indicators",  "text-down", {type = "text", level = 6, location = Location("BOTTOM",0,4) , textlength = 6, fontSize = 8 })
+	Grid2:DbSetValue( "indicators",  "text-down", {type = "text", level = 6, location = Location("BOTTOM",0,4) , textlength = 6, fontSize = 10 })
 	Grid2:DbSetMap( "text-down", "name", 99)
 	Grid2:DbSetValue( "indicators",  "text-down-color", {type = "text-color"})
 	Grid2:DbSetMap( "text-down-color", "classcolor", 99)

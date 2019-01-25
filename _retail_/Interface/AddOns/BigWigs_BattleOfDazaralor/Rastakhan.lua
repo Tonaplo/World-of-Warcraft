@@ -1,18 +1,19 @@
-if not IsTestBuild() then return end
-
 --------------------------------------------------------------------------------
 -- Module Declaration
 --
 
 local mod, CL = BigWigs:NewBoss("King Rastakhan", 2070, 2335)
 if not mod then return end
-mod:RegisterEnableMob(145616)
+-- King Rastakhan, Siegebreaker Roka, Headhunter Gal'wana, Prelate Za'lan, Bwonsamdi
+mod:RegisterEnableMob(145616, 146322, 146326, 146320, 145644)
 mod.engageId = 2272
---mod.respawnTime = 31
+mod.respawnTime = 30
 
 --------------------------------------------------------------------------------
 -- Locals
 --
+
+local toadCount = 1
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -35,10 +36,10 @@ function mod:GetOptions()
 		285172, -- Greater Serpent Totem
 		{284662, "SAY", "FLASH"}, -- Seal of Purification
 		284686, -- Meteor Leap
-		284730, -- Crushing Leap
+		284719, -- Crushing Leap
 		284781, -- Grievous Axe
 		-- Stage 2
-		{285349, "SAY"}, -- Plague of Fire
+		{285347, "SAY"}, -- Plague of Fire
 		285003, -- Zombie Dust Totem
 		285402, -- Voodoo Doll
 		{285213, "TANK_HEALER"}, -- Caress of Death
@@ -56,11 +57,11 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "GreaterSerpentTotem", 285172)
 	self:Log("SPELL_AURA_APPLIED", "SealofPurificationApplied", 284662)
 	self:Log("SPELL_CAST_START", "MeteorLeap", 284686)
-	self:Log("SPELL_CAST_SUCCESS", "CrushingLeap", 284730)
+	self:Log("SPELL_CAST_SUCCESS", "CrushingLeap", 284719)
 	self:Log("SPELL_CAST_START", "GrievousAxe", 284781)
 	self:Log("SPELL_AURA_APPLIED", "GrievousAxeApplied", 284781)
 	-- Stage 2
-	self:Log("SPELL_CAST_SUCCESS", "PlagueofFire", 285349)
+	self:Log("SPELL_CAST_SUCCESS", "PlagueofFire", 285347)
 	self:Log("SPELL_AURA_APPLIED", "PlagueofFireApplied", 285349)
 	self:Log("SPELL_CAST_SUCCESS", "ZombieDustTotem", 285003)
 	self:Log("SPELL_CAST_SUCCESS", "VoodooDoll", 285402)
@@ -72,6 +73,7 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
+	toadCount = 1
 end
 
 --------------------------------------------------------------------------------
@@ -82,11 +84,14 @@ function mod:ScorchingDetonationSuccess(args)
 	self:TargetMessage2(args.spellId, "purple", args.destName)
 	self:PlaySound(args.spellId, "warning")
 	self:CastBar(args.spellId, 5)
+	self:Bar(args.spellId, 22)
 end
 
 function mod:PlagueofToads(args)
-	self:Message2(args.spellId, "yellow")
+	self:Message2(args.spellId, "yellow", CL.count:format(args.spellName, toadCount))
 	self:PlaySound(args.spellId, "alert")
+	toadCount = toadCount + 1
+	self:Bar(args.spellId, 20, CL.count:format(args.spellName, toadCount))
 end
 
 function mod:GreaterSerpentTotem(args)
@@ -107,6 +112,7 @@ function mod:MeteorLeap(args)
 	self:Message2(args.spellId, "orange")
 	self:PlaySound(args.spellId, "alarm")
 	self:CastBar(args.spellId, 5)
+	self:Bar(args.spellId, 30)
 end
 
 function mod:CrushingLeap(args)
@@ -142,15 +148,23 @@ do
 	end
 end
 
-function mod:PlagueofFire(args)
-	self:Message2(args.spellId, "orange")
-	self:PlaySound(args.spellId, "alarm")
+do
+	local prev = 0
+	function mod:PlagueofFire(args)
+		local t = args.time
+		if t-prev > 2 then
+			prev = t
+			self:Message2(args.spellId, "orange")
+			self:PlaySound(args.spellId, "alarm")
+			self:Bar(args.spellId, 30)
+		end
+	end
 end
 
 function mod:PlagueofFireApplied(args)
 	if self:Me(args.destGUID) then
-		self:PlaySound(args.spellId, "warning")
-		self:Say(args.spellId)
+		self:PlaySound(285347, "warning")
+		self:Say(285347, self:SpellName(177849)) -- Fire on X
 	end
 end
 
@@ -165,7 +179,7 @@ function mod:VoodooDoll(args)
 end
 
 function mod:CaressofDeath(args)
-	self:Message2(args.spellId, "pueple")
+	self:Message2(args.spellId, "purple")
 	self:PlaySound(args.spellId, "alarm")
 end
 
@@ -178,15 +192,6 @@ end
 function mod:DeathsDoor(args)
 	self:Message2(args.spellId, "cyan")
 	self:PlaySound(args.spellId, "info")
-end
-
-function mod:PlagueofFireApplied(args)
-	if self:Me(args.destGUID) then
-		self:PersonalMessage(args.spellId)
-		self:PlaySound(args.spellId, "alert")
-		self:Say(args.spellId)
-		self:SayCountdown(args.spellId, 8)
-	end
 end
 
 function mod:InevitableEnd(args)

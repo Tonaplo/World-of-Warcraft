@@ -1,4 +1,3 @@
-if not IsTestBuild() then return end
 --------------------------------------------------------------------------------
 -- TODO:
 -- - Loa Abilities
@@ -8,11 +7,11 @@ if not IsTestBuild() then return end
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Loa Council", 2070, 2330)
+local mod, CL = BigWigs:NewBoss("Conclave of the Chosen", 2070, 2330)
 if not mod then return end
-mod:RegisterEnableMob(144747, 144767, 144963, 144941)
+mod:RegisterEnableMob(144747, 144767, 144963, 144941) -- Pa'ku's Aspect, Gonk's Aspect, Kimbul's Aspect, Akunda's Aspect
 mod.engageId = 2268
---mod.respawnTime = 31
+mod.respawnTime = 30
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -45,7 +44,7 @@ function mod:GetOptions()
 		{282135, "SAY", "SAY_COUNTDOWN"}, -- Crawling Hex
 		285893, -- Wild Maul
 		282155, -- Gonk's Wrath
-		{282209, "FLASH"}, -- Mark of Prey
+		{282209, "SAY", "FLASH"}, -- Mark of Prey
 		-- Kimbul's Aspect
 		{282444, "TANK"}, -- Lacerating Claws
 		282447, -- Kimbul's Wrath

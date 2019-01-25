@@ -103,6 +103,8 @@ L["OUTDATED_DATABASE_S"] = "| cffFFFFFF% s | r sta utilizzando dati | cffFF6666%
 L["PLAYER_PROFILE_TITLE"] = "Profilo M+ Giocatore"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "Miglior Corsa per Spedizione"
+--[[Translation missing --]]
+--[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
 L["RAID_ABBREVIATION_ULD"] = "ULD"
 L["RAID_BOSS_ABT_1"] = "Garothi"
 L["RAID_BOSS_ABT_10"] = "Aggramar"
@@ -115,6 +117,24 @@ L["RAID_BOSS_ABT_6"] = "Imonar"
 L["RAID_BOSS_ABT_7"] = "Kin'garoth"
 L["RAID_BOSS_ABT_8"] = "Varimathras"
 L["RAID_BOSS_ABT_9"] = "Congrega delle Shivarra"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_9"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "MADRE"
 L["RAID_BOSS_ULD_3"] = "Divoratore Fetido"

@@ -104,6 +104,8 @@ L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r использует данные у�
 L["PLAYER_PROFILE_TITLE"] = "Профиль игрока"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "Лучшие прохождения подземелий"
+--[[Translation missing --]]
+--[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
 L["RAID_ABBREVIATION_ULD"] = "Ульдир"
 L["RAID_BOSS_ABT_1"] = "Разрушитель миров Кин'гарота."
 L["RAID_BOSS_ABT_10"] = "Агграмар"
@@ -116,6 +118,24 @@ L["RAID_BOSS_ABT_6"] = "Имонар"
 L["RAID_BOSS_ABT_7"] = "Кин'гарот"
 L["RAID_BOSS_ABT_8"] = "Вариматрас"
 L["RAID_BOSS_ABT_9"] = "Ковен шиварр"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_9"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "Талок"
 L["RAID_BOSS_ULD_2"] = "МАТРИАРХ"
 L["RAID_BOSS_ULD_3"] = "Зловонный пожиратель"

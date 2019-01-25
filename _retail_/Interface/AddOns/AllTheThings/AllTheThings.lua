@@ -25,7 +25,8 @@ local C_ToyBox_GetToyInfo = C_ToyBox.GetToyInfo;
 local C_ToyBox_GetToyLink = C_ToyBox.GetToyLink;
 local C_Map_GetMapDisplayInfo = C_Map.GetMapDisplayInfo;
 local C_Map_GetBestMapForUnit = C_Map.GetBestMapForUnit;
-local SetPortraitTexture = _G["SetPortraitTextureFromCreatureDisplayID"];
+local SetPortraitTexture = _G["SetPortraitTexture"];
+local SetPortraitTextureFromDisplayID = _G["SetPortraitTextureFromCreatureDisplayID"];
 local EJ_GetCreatureInfo = _G["EJ_GetCreatureInfo"];
 local EJ_GetEncounterInfo = _G["EJ_GetEncounterInfo"];
 local GetAchievementCriteriaInfo = _G["GetAchievementCriteriaInfo"];
@@ -615,6 +616,12 @@ GameTooltipModel.TrySetModel = function(self, reference)
 			self.Model:Show();
 			self:Show();
 			return true;
+		elseif reference.unit and not reference.icon then
+			self.Model:SetFacing(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+			self.Model:SetCamDistanceScale(reference.modelScale or 1);
+			self.Model:SetUnit(reference.unit);
+			self.Model:Show();
+			self:Show();
 		end
 		
 		local s = reference.s;
@@ -762,6 +769,12 @@ end
 local CS = CreateFrame("ColorSelect", nil, app);
 local function Colorize(str, color)
 	return "|c" .. color .. str .. "|r";
+end
+local function HexToARGB(hex)
+	return tonumber("0x"..hex:sub(1,2)), tonumber("0x"..hex:sub(3,4)), tonumber("0x"..hex:sub(5,6)), tonumber("0x"..hex:sub(7,8));
+end
+local function HexToRGB(hex)
+	return tonumber("0x"..hex:sub(1,2)), tonumber("0x"..hex:sub(3,4)), tonumber("0x"..hex:sub(5,6));
 end
 local function RGBToHex(r, g, b)
 	return string.format("ff%02x%02x%02x", 
@@ -958,7 +971,12 @@ local function SetPortraitIcon(self, data, x)
 	if GetDataMember("ShowModels") then
 		local displayID = GetDisplayID(data);
 		if displayID then
-			SetPortraitTexture(self, displayID);
+			SetPortraitTextureFromDisplayID(self, displayID);
+			self:SetWidth(self:GetHeight());
+			self:SetTexCoord(0, 1, 0, 1);
+			return true;
+		elseif data.unit and not data.icon then
+			SetPortraitTexture(self, data.unit);
 			self:SetWidth(self:GetHeight());
 			self:SetTexCoord(0, 1, 0, 1);
 			return true;
@@ -1226,6 +1244,8 @@ local function CreateObject(t)
 				t = app.CreateNPC(t.npcID or t.creatureID, t);
 			elseif t.questID then
 				t = app.CreateQuest(t.questID, t);
+			elseif t.unit then
+				t = app.CreateUnit(t.unit, t);
 			else
 				t = setmetatable({}, { __index = t });
 			end
@@ -1277,6 +1297,8 @@ local function MergeObject(g, t, index)
 			key = "creatureID";
 		elseif t.questID then
 			key = "questID";
+		elseif t.unit then
+			key = "unit";
 		end
 	end
 	for i,o in ipairs(g) do
@@ -1425,7 +1447,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 				if GetDataMember("ShowDescriptions") and paramA ~= "encounterID" then
 					for i,j in ipairs(group) do
 						if j.description and j[paramA] and j[paramA] == paramB then
-							tinsert(info, 1, { left = "|cff66ccff" .. j.description .. "|r", wrap = true });
+							tinsert(info, 1, { left = j.description, wrap = true, color = "ff66ccff" });
 						end
 					end
 				end
@@ -1738,14 +1760,14 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		end
 		
 		if group.description and GetDataMember("ShowDescriptions") and not group.encounterID then
-			tinsert(info, 1, { left = "|cff66ccff" .. group.description .. "|r", wrap = true });
+			tinsert(info, 1, { left = group.description, wrap = true, color = "ff66ccff" });
 		end
 		
 		if group.g and #group.g > 0 then
 			if GetDataMember("ShowDescriptions") then
 				for i,j in ipairs(group.g) do
 					if j.description and ((j[paramA] and j[paramA] == paramB) or (paramA == "itemID" and group.key == j.key)) then
-						tinsert(info, 1, { left = "|cff66ccff" .. j.description .. "|r", wrap = true });
+						tinsert(info, 1, { left = j.description, wrap = true, color = "ff66ccff" });
 					end
 				end
 			end
@@ -1780,7 +1802,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 				group.collectionText = GetCollectionText(group.collected);
 			elseif group.trackable then
 				group.collectionText = GetCompletionText(group.saved);
-			elseif group.info and #group.info > 0 then
+			elseif #info > 0 then
 				group.collectionText = "---";
 			end
 		end
@@ -1793,7 +1815,12 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		end
 		
 		-- If there was any informational text generated, then attach that info.
-		if #info > 0 then group.info = info; end
+		if #info > 0 then
+			group.info = info;
+			for i,item in ipairs(info) do
+				if item.color then item.a, item.r, item.g, item.b = HexToARGB(item.color); end
+			end
+		end
 		
 		-- Cache the result for a while depending on if there is more work to be done.
 		cache[2] = (working and 0.01) or 100000000;
@@ -2672,10 +2699,18 @@ local function AttachTooltipRawSearchResults(self, group)
 			for i,entry in ipairs(group.info) do
 				if entry.right then
 					self:AddDoubleLine(entry.left or " ", entry.right);
-				elseif entry.wrap then
-					self:AddLine(entry.left, nil, nil, nil, 1);
+				elseif entry.r then
+					if entry.wrap then
+						self:AddLine(entry.left, entry.r / 255, entry.g / 255, entry.b / 255, 1);
+					else
+						self:AddLine(entry.left, entry.r / 255, entry.g / 255, entry.b / 255);
+					end
 				else
-					self:AddLine(entry.left);
+					if entry.wrap then
+						self:AddLine(entry.left, nil, nil, nil, 1);
+					else
+						self:AddLine(entry.left);
+					end
 				end
 			end
 		end
@@ -2993,6 +3028,96 @@ end
 	]]--
 end)();
 
+-- Paragon Hook
+hooksecurefunc("ReputationParagonFrame_SetupParagonTooltip",function(frame)
+	-- Source: //Interface//FrameXML//ReputationFrame.lua Line 360
+	-- Using hooksecurefunc because of how Blizzard coded the frame.  Couldn't get GameTooltip to work like the above ones.
+	-- //Interface//FrameXML//ReputationFrame.lua Segment code
+	--[[
+		function ReputationParagonFrame_SetupParagonTooltip(frame)
+			EmbeddedItemTooltip.owner = frame;
+			EmbeddedItemTooltip.factionID = frame.factionID;
+
+			local factionName, _, standingID = GetFactionInfoByID(frame.factionID);
+			local gender = UnitSex("player");
+			local factionStandingtext = GetText("FACTION_STANDING_LABEL"..standingID, gender);
+			local currentValue, threshold, rewardQuestID, hasRewardPending, tooLowLevelForParagon = C_Reputation.GetFactionParagonInfo(frame.factionID);
+
+			if ( tooLowLevelForParagon ) then
+				EmbeddedItemTooltip:SetText(PARAGON_REPUTATION_TOOLTIP_TEXT_LOW_LEVEL);
+			else
+				EmbeddedItemTooltip:SetText(factionStandingtext);
+				local description = PARAGON_REPUTATION_TOOLTIP_TEXT:format(factionName);
+				if ( hasRewardPending ) then
+					local questIndex = GetQuestLogIndexByID(rewardQuestID);
+					local text = GetQuestLogCompletionText(questIndex);
+					if ( text and text ~= "" ) then
+						description = text;
+					end
+				end
+				EmbeddedItemTooltip:AddLine(description, HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b, 1);
+				if ( not hasRewardPending ) then
+					local value = mod(currentValue, threshold);
+					-- show overflow if reward is pending
+					if ( hasRewardPending ) then
+						value = value + threshold;
+					end
+					GameTooltip_ShowProgressBar(EmbeddedItemTooltip, 0, threshold, value, REPUTATION_PROGRESS_FORMAT:format(value, threshold));
+				end
+				GameTooltip_AddQuestRewardsToTooltip(EmbeddedItemTooltip, rewardQuestID);
+			end
+			EmbeddedItemTooltip:Show();
+		end
+	--]]
+	local currentValue, threshold, paragonQuestID, hasRewardPending, tooLowLevelForParagon = C_Reputation.GetFactionParagonInfo(frame.factionID)
+	-- Let's make sure the user isn't in combat and if they are do they have In Combat turned on.  Finally check to see if Tootltips are turned on.
+	if (not InCombatLockdown() or GetDataMember("DisplayTooltipsInCombat")) and GetDataMember("EnableTooltipInformation") then
+		
+	local paragonCacheID = {
+		-- Paragon Cache Rewards
+		-- [QuestID] = [ItemCacheID"]	-- Faction // Quest Title
+		[54454] = 166300,	-- 7th Legion // Supplies from the 7th Legion
+		[48976] = 152922,	-- Argussian Reach // Paragon of the Argussian Reach
+		[46777] = 152108,	-- Armies of Legionfall // The Bounties of Legionfall
+		[48977] = 152923,	-- Army of the Light // Paragon of the Army of the Light
+		[54453] = 166298,	-- Champions of Azeroth // Supplies from Magni
+		[46745] = 152102,	-- Court of Farondis // Supplies from the Court
+		[46747] = 152103,	-- Dreamweavers // Supplies from the Dreamweavers
+		[46743] = 152104,	-- Highmountain Tribes // Supplies from Highmountain
+		[54455] = 166299,	-- Honorbound // Supplies from the Honorbound
+		[54456] = 166297,	-- Order of Embers // Supplies from the Order of Embers
+		[54458] = 166295,	-- Proudmoore Admiralty // Supplies from the Proudmoore Admiralty
+		[54457] = 166294,	-- Storm's Wake // Supplies from Storm's Wake
+		[54460] = 166282,	-- Talanji's Expedition // Supplies from Talanji's Expedition
+		[46748] = 152105,	-- The Nightfallen // Supplies from the Nightfallen
+		[46749] = 152107,	-- The Wardens // Supplies from the Wardens
+		[54451] = 166245,	-- Tortollan Seekers // Baubles from the Seekers
+		[46746] = 152106,	-- Valarjar // Supplies from the Valarjar
+		[54461] = 166290,	-- Voldunai // Supplies from the Voldunai
+		[54462] = 166292,	-- Zandalari Empire // Supplies from the Zandalari Empire
+	};
+	
+	-- Grab Item Link Info
+	local iName, sLink, iRarity, iLevel, iMinLevel, sType, sSubType, iStackCount = GetItemInfo(paragonCacheID[paragonQuestID])
+		if sLink ~= nil then
+			-- Attach tooltip to the Paragon Frame
+			GameTooltip:SetOwner(EmbeddedItemTooltip, "ANCHOR_NONE")
+			-- Using TOPRIGHT for now so that it hooks slightly better into other addon's that take up a lot of the vertical distance.  As well as when you scroll towards the bottom of the frame it doesn't cause potential cutoffs.	
+			GameTooltip:SetPoint("TOPLEFT", EmbeddedItemTooltip, "TOPRIGHT")
+			-- TOP/BOTTOM + LEFT/RIGHT attaches it to that particular spot of the corresponding paragon tooltip
+			-- Populate Tooltip with the Paragon Cache Rewards
+			GameTooltip:SetHyperlink(sLink)
+		end
+	end
+end
+);
+
+-- Hide Paragon Tooltip when cleared
+hooksecurefunc("ReputationParagonFrame_OnLeave",function(self)
+	GameTooltip:Hide();
+end
+);
+
 -- Achievement Lib
 app.BaseAchievement = {
 	__index = function(t, key)
@@ -3254,6 +3379,10 @@ end
 
 -- Character Class Lib
 (function()
+local class_id_cache = {};
+for i=1,GetNumClasses() do
+	class_id_cache[select(2, GetClassInfo(i))] = i;
+end
 local classIcons = {
 	[1] = "Interface\\Icons\\ClassIcon_Warrior",
 	[2] = "Interface\\Icons\\ClassIcon_Paladin",
@@ -3293,10 +3422,45 @@ app.BaseCharacterClass = {
 		end
 	end
 };
-end)();
 app.CreateCharacterClass = function(id, t)
 	return createInstance(constructor(id, t, "classID"), app.BaseCharacterClass);
 end
+app.BaseUnit = {
+	__index = function(t, key)
+		if key == "key" then
+			return "unit";
+		elseif key == "text" then
+			if t.isGUID then return nil; end
+			return UnitName(t.unit) or t.unit;
+		elseif key == "icon" then
+			if t.classID then return classIcons[t.classID]; end
+		elseif key == "isGUID" then
+			local a, b, c, d = strsplit("-", t.unit);
+			if a == "Player" then
+				local className, classId, raceName, raceId, gender, name, realm = GetPlayerInfoByGUID(t.unit);
+				if name then
+					if classId then t.classID = class_id_cache[classId]; end
+					if realm and realm ~= "" then name = name .. "-" .. realm; end
+					if t.classID then name = "|c" .. t.classColors.colorStr .. name .. "|r"; end
+					rawset(t, "text", name);
+				end
+				rawset(t, "isGUID", true);
+				return true;
+			else
+				rawset(t, "isGUID", false);
+			end
+		elseif key == "classColors" then
+			return RAID_CLASS_COLORS[select(2, GetClassInfo(t.classID))];
+		else
+			-- Something that isn't dynamic.
+			return table[key];
+		end
+	end
+};
+app.CreateUnit = function(unit, t)
+	return createInstance(constructor(unit, t, "unit"), app.BaseUnit);
+end
+end)();
 
 -- Currency Lib
 app.BaseCurrencyClass = {
@@ -6872,7 +7036,16 @@ local function RowOnEnter(self)
 		if reference.setID then GameTooltip:AddDoubleLine(L("SET_ID"), tostring(reference.setID)); end
 		if reference.setHeaderID then GameTooltip:AddDoubleLine(L("SET_ID"), tostring(reference.setHeaderID)); end
 		if reference.setSubHeaderID then GameTooltip:AddDoubleLine(L("SET_ID"), tostring(reference.setSubHeaderID)); end
-		if reference.description and GetDataMember("ShowDescriptions") and not reference.itemID and not reference.speciesID then GameTooltip:AddLine(reference.description, 0.4, 0.8, 1, 1); end
+		if reference.description and GetDataMember("ShowDescriptions") then
+			local found = false;
+			for i=1,GameTooltip:NumLines() do
+				if _G["GameTooltipTextLeft"..i]:GetText() == reference.description then
+					found = true;
+					break;
+				end
+			end
+			if not found then GameTooltip:AddLine(reference.description, 0.4, 0.8, 1, 1); end
+		end
 		if reference.mapID and GetDataMember("ShowMapID") then GameTooltip:AddDoubleLine(L("MAP_ID"), tostring(reference.mapID)); end
 		if reference.coords and app.GetDataMember("ShowCoordinatesInTooltip") then
 			local j = 0;
@@ -8072,7 +8245,11 @@ function app:GetWindow(suffix, parent, onUpdate)
 			self:Update();
 		end
 		window.Clear = function(self)
-			self.rawData = {};
+			if self.rawData then
+				wipe(self.rawData);
+			else
+				self.rawData = {};
+			end
 			app.SetDataMember(self.Suffix, self.rawData);
 			wipe(self.data.g);
 			self:Update();
@@ -8124,17 +8301,65 @@ end
 -- Create the Primary Collection Window (this allows you to save the size and location)
 app:GetWindow("Prime");
 app:GetWindow("Unsorted");
---[[--
+--[[
 app:GetWindow("Debugger", UIParent, function(self)
 	if not self.initialized then
 		self.initialized = true;
 		self.data = {
-			['text'] = "Debugger",
+			['text'] = "Session History",
 			['icon'] = "Interface\\Icons\\Achievement_Dungeon_GloryoftheRaider.blp", 
-			["description"] = "This builds a list of all of the quests you have encountered recently.",
+			["description"] = "This keeps a visual record of all of the quests, maps, loot, and vendors that you have come into contact with since the session was started.",
 			['visible'] = true, 
 			['expanded'] = true,
 			['back'] = 1,
+			['options'] = {
+				{
+					['text'] = "Clear History",
+					['icon'] = "Interface\\Icons\\Ability_Rogue_FeignDeath.blp", 
+					["description"] = "Click this to fully clear this window.\n\nNOTE: If you click this by accident, use the dynamic Restore Buttons that this generates to reapply the data that was cleared.\n\nWARNING: If you reload the UI, the data stored in the Reload Button will be lost forever!",
+					['visible'] = true,
+					['f'] = -1,
+					['key'] = "nope",
+					['count'] = 0,
+					['OnClick'] = function(row, button)
+						local copy = {};
+						for i,o in ipairs(self.rawData) do
+							tinsert(copy, o);
+						end
+						if #copy < 1 then
+							app.print("There is nothing to clear.");
+							return true;
+						end
+						row.ref.count = row.ref.count + 1;
+						tinsert(self.data.options, {
+							['text'] = "Restore Button " .. row.ref.count,
+							['icon'] = "Interface\\Icons\\ability_monk_roll.blp", 
+							["description"] = "Click this to restore your cleared data.\n\nNOTE: Each Restore Button houses different data.\n\nWARNING: This data will be lost forever when you reload your UI!",
+							['visible'] = true,
+							['f'] = -1,
+							['key'] = "nope",
+							['data'] = copy,
+							['OnClick'] = function(row, button)
+								for i,info in ipairs(row.ref.data) do
+									MergeObject(self.data.g, CreateObject(info));
+									MergeObject(self.rawData, info);
+								end
+								self:Update();
+								return true;
+							end,
+							['back'] = 0.5,
+						});
+						wipe(self.rawData);
+						wipe(self.data.g);
+						for i=#self.data.options,1,-1 do
+							tinsert(self.data.g, 1, self.data.options[i]);
+						end
+						self:Update();
+						return true;
+					end,
+					['back'] = 0.5,
+				},
+			},
 			['g'] = {},
 		};
 		self.rawData = {};
@@ -8149,6 +8374,9 @@ app:GetWindow("Debugger", UIParent, function(self)
 				end
 				self.rawData = AllTheThingsDebugData;
 				self.data.g = CreateObject(self.rawData);
+				for i=#self.data.options,1,-1 do
+					tinsert(self.data.g, 1, self.data.options[i]);
+				end
 				self:Update();
 			elseif e == "ZONE_CHANGED_NEW_AREA" or e == "NEW_WMO_CHUNK" then
 				-- Bubble Up the Maps
@@ -8375,8 +8603,16 @@ app:GetWindow("Debugger", UIParent, function(self)
 					info.faction = UnitFactionGroup(npc);
 				end
 				self:AddObject(info);
+			elseif e == "CHAT_MSG_LOOT" then
+				local msg, player, a, b, c, d, e, f, g, h, i, j, k, l = ...;
+				local itemString = string.match(msg, "item[%-?%d:]+");
+				if itemString then
+					local rawGroups = {};
+					local itemID = GetItemInfoInstant(itemString);
+					table.insert(rawGroups, { ["itemID"] = itemID, ["s"] = app.GetSourceID(itemString, itemID) });
+					self:AddObject({ ["unit"] = j, ["g"] = rawGroups });
+				end
 			end
-			
 		end);
 		self:RegisterEvent("PLAYER_LOGIN");
 		self:RegisterEvent("QUEST_DETAIL");
@@ -8386,6 +8622,7 @@ app:GetWindow("Debugger", UIParent, function(self)
 		self:RegisterEvent("NEW_WMO_CHUNK");
 		self:RegisterEvent("MERCHANT_SHOW");
 		self:RegisterEvent("MERCHANT_UPDATE");
+		self:RegisterEvent("CHAT_MSG_LOOT");
 		--self:RegisterAllEvents();
 	end
 	
@@ -8593,8 +8830,8 @@ end):Show();
 				
 				-- If we don't have any map data on this area, report it to the chat window.
 				if not results or not results.g or #results.g < 1 then
-					print("No map found for this location ", app.GetMapName(self.mapID), " [", self.mapID, "]");
-					print("Please report this to the ATT Discord! Thanks! ", GetAddOnMetadata("AllTheThings", "Version"));
+					--print("No map found for this location ", app.GetMapName(self.mapID), " [", self.mapID, "]");
+					--print("Please report this to the ATT Discord! Thanks! ", GetAddOnMetadata("AllTheThings", "Version"));
 				end
 			end
 			local function OpenMiniList(id, show)
@@ -10250,6 +10487,17 @@ app.events.PLAYER_LOGIN = function()
 	app:UnregisterEvent("PLAYER_LOGIN");
 	app.Spec = GetLootSpecialization();
 	if not app.Spec or app.Spec == 0 then app.Spec = select(1, GetSpecializationInfo(GetSpecialization())); end
+	local reagentCache = app.GetDataMember("Reagents");
+	if reagentCache then
+		local craftedItem = { {}, {[31890] = 1} };	-- Blessings Deck
+		for i,itemID in ipairs({ 31882, 31889, 31888, 31885, 31884, 31887, 31886, 31883 }) do reagentCache[itemID] = craftedItem; end
+		craftedItem = { {}, {[31907] = 1} };	-- Furies Deck
+		for i,itemID in ipairs({ 31901, 31909, 31908, 31904, 31903, 31906, 31905, 31902 }) do reagentCache[itemID] = craftedItem; end
+		craftedItem = { {}, {[31914] = 1} };	-- Lunacy Deck
+		for i,itemID in ipairs({ 31910, 31918, 31917, 31913, 31912, 31916, 31915, 31911 }) do reagentCache[itemID] = craftedItem; end
+		craftedItem = { {}, {[31891] = 1} };	-- Storms Deck
+		for i,itemID in ipairs({ 31892, 31900, 31899, 31895, 31894, 31898, 31896, 31893 }) do reagentCache[itemID] = craftedItem; end
+	end
 	app:GetDataCache();
 	Push(app, "WaitOnMountData", function()
 		-- Detect how many pets there are. If 0, Blizzard isn't ready yet.
