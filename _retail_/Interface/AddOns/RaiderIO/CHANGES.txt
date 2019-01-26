@@ -1,22 +1,10 @@
-lightweight tag 1ee53587b9259b934109ed8367b603f117c8f8b8 v201901240631
+lightweight tag ac461d58d475ada8778edf77c8c2283bea94d47d v201901260600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Thu Jan 24 07:08:05 2019 +0000
+Date:	Sat Jan 26 06:40:40 2019 +0000
 
-commit 1ee53587b9259b934109ed8367b603f117c8f8b8
+commit ac461d58d475ada8778edf77c8c2283bea94d47d
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Thu Jan 24 07:08:05 2019 +0000
+Date:   Sat Jan 26 06:40:40 2019 +0000
 
     [Raider.IO] Database Refresh
-
-commit ee41c86a08f762a288a217f4969af9eb53bed9e0
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Thu Jan 24 00:29:26 2019 -0600
-
-    fixes to support raid BoD raid. we were overflowing the first field, which was preventing data from being updated
-
-commit 8ca1a4bded8f07e4b81e1a7207c7a255e94721b6
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Jan 23 15:12:47 2019 -0600
-
-    removed stub cn files
 

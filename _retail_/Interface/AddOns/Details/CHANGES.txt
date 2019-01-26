@@ -1,5 +1,11 @@
-changeset:   769:d028abffce39
+changeset:   770:86af40120d52
 tag:         tip
+user:        Tercioo
+date:        Fri Jan 25 16:00:17 2019 -0200
+summary:     - Fixed Player Details! Breakdown window not opening for new installs.
+
+
+changeset:   769:d028abffce39
 user:        Tercioo
 date:        Wed Jan 23 16:20:12 2019 -0200
 summary:     - Major clean up on plugins that lost support on 8.0.

@@ -110,24 +110,15 @@ L["RAID_BOSS_ABT_6"] = "Imonar"
 L["RAID_BOSS_ABT_7"] = "Kin'garoth"
 L["RAID_BOSS_ABT_8"] = "Varimathras"
 L["RAID_BOSS_ABT_9"] = "Aquelarre"
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_9"] = ""--]] 
+L["RAID_BOSS_BOD_1"] = "Campeona de la Luz"
+L["RAID_BOSS_BOD_2"] = "Grong"
+L["RAID_BOSS_BOD_3"] = "Maestros Fuego de Jade"
+L["RAID_BOSS_BOD_4"] = "Opulencia"
+L["RAID_BOSS_BOD_5"] = "Cónclave de los Elegidos"
+L["RAID_BOSS_BOD_6"] = "Rey Rastakhan"
+L["RAID_BOSS_BOD_7"] = "Manitas mayor Mekkatorque"
+L["RAID_BOSS_BOD_8"] = "Bloqueo de la tormenta"
+L["RAID_BOSS_BOD_9"] = "Lady Jaina Valiente"
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "MADRE"
 L["RAID_BOSS_ULD_3"] = "Devorador fétido"

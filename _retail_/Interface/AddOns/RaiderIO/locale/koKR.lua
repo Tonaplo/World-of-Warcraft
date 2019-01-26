@@ -96,8 +96,7 @@ L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r의 자료는 |cffFF6666%d|r일 전 �
 L["PLAYER_PROFILE_TITLE"] = "파티장 프로필"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "던전별 최고 기록"
---[[Translation missing --]]
---[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
+L["PROVIDER_NOT_LOADED"] = "|cffFF0000경고:|r |cffFFFFFF%s|r은(는) 현재 진영에 대한 데이터를 찾을 수 없습니다. |cffFFFFFF/raiderio|r 설정을 확인하고 |cffFFFFFF%s|r에 대한 툴팁 데이터를 활성화하십시오."
 L["RAID_ABBREVIATION_ULD"] = "울디르"
 L["RAID_BOSS_ABT_1"] = "가로시 세계파괴자"
 L["RAID_BOSS_ABT_10"] = "아그라마르"
@@ -110,24 +109,15 @@ L["RAID_BOSS_ABT_6"] = "영혼사냥꾼 이모나르"
 L["RAID_BOSS_ABT_7"] = "킨가로스"
 L["RAID_BOSS_ABT_8"] = "바리마트라스"
 L["RAID_BOSS_ABT_9"] = "쉬바라의 집회"
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_9"] = ""--]] 
+L["RAID_BOSS_BOD_1"] = " 빛의 용사"
+L["RAID_BOSS_BOD_2"] = "그롱"
+L["RAID_BOSS_BOD_3"] = " 비취불길의 대가"
+L["RAID_BOSS_BOD_4"] = "금은보화"
+L["RAID_BOSS_BOD_5"] = "선택받은 자의 비밀의회"
+L["RAID_BOSS_BOD_6"] = "왕 라스타칸"
+L["RAID_BOSS_BOD_7"] = "멕카토크"
+L["RAID_BOSS_BOD_8"] = "폭풍장벽 봉쇄군"
+L["RAID_BOSS_BOD_9"] = "여군주 제이나 프라우드무어"
 L["RAID_BOSS_ULD_1"] = "탈록"
 L["RAID_BOSS_ULD_2"] = "마더"
 L["RAID_BOSS_ULD_3"] = "악취나는 포식자"

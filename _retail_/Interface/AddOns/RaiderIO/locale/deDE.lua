@@ -11,16 +11,11 @@ L["ALLOW_ON_PLAYER_UNITS"] = "Erlaube auf Einheitenfenstern von Spielern"
 L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Rechtsklick auf Einheitenfenster von Spielern, um den Raider.IO Profil-Link zu kopieren."
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "Immer Wertung der aktuellen Rolle anzeigen"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Halte einen Modifikator gedrückt (Shift / Strg / Alt), um die Rollenwertung des Spielers im Tooltip anzuzeigen. Wenn du diese Option aktivierst, enthalten die Tooltips immer Rollenwerte."
---[[Translation missing --]]
---[[ L["API_DEPRECATED"] = ""--]] 
---[[Translation missing --]]
---[[ L["API_DEPRECATED_UNKNOWN_ADDON"] = ""--]] 
---[[Translation missing --]]
---[[ L["API_DEPRECATED_UNKNOWN_FILE"] = ""--]] 
---[[Translation missing --]]
---[[ L["API_DEPRECATED_WITH"] = ""--]] 
---[[Translation missing --]]
---[[ L["API_INVALID_DATABASE"] = ""--]] 
+L["API_DEPRECATED"] = "|cffFF0000Warnung!|r Das AddOn |cffFFFFFF%s|r verwendet eine veraltete Funktion RaiderIO.%s. Diese Funktion wird in zukünftigen Versionen entfernt. Bitte ermutigen Sie den Autor von %s, sein AddOn zu aktualisieren. Call stack: %s"
+L["API_DEPRECATED_UNKNOWN_ADDON"] = "<Unbekanntes AddOn>"
+L["API_DEPRECATED_UNKNOWN_FILE"] = "<Unbekannte AddOn Datei>"
+L["API_DEPRECATED_WITH"] = "|cffFF0000Warnung!|r Das AddOn |cffFFFFFF%s|r verwendet eine veraltete Funktion RaiderIO.%s. Diese Funktion wird in zukünftigen Versionen entfernt. Bitte ermutigen Sie den Autor von %s auf die neue API RaiderIO.%s zu aktualisieren. Call stack: %s"
+L["API_INVALID_DATABASE"] = "|cffFF0000Warnung!|r Ungültige RaiderIO Datenbank in |cffffffff%s|r entdeckt. Bitte aktualisiere alle Regionen und Fraktionen im RaiderIO Client oder installiere das AddOn manuell neu."
 L["BEST_FOR_DUNGEON"] = "Beste Instanzwertung"
 L["BEST_RUN"] = "Bester Run"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Ihre Änderungen wurden gespeichert, du musst jedoch die Benutzeroberfläche neu laden, damit diese wirksam werden.
@@ -28,8 +23,7 @@ L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Ihre Änderungen wurden gespeichert, du mus
 Möchtest du das jetzt tun?]=]
 --[[Translation missing --]]
 --[[ L["CHECKBOX_DISPLAY_WEEKLY"] = ""--]] 
---[[Translation missing --]]
---[[ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = ""--]] 
+L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Mythic+ und Raid Tooltips"
 L["COPY_RAIDERIO_PROFILE_URL"] = "Kopiere Raider.IO Link"
 L["COPY_RAIDERIO_URL"] = "Kopiere Raider.IO Link"
 L["DPS"] = "DPS"
@@ -82,8 +76,7 @@ L["DPS_SCORE"] = "DPS Wertung"
 --[[ L["DUNGEON_SHORT_NAME_VOTW"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_WM"] = ""--]] 
---[[Translation missing --]]
---[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
+L["ENABLE_AUTO_FRAME_POSITION"] = "Positioniere RaiderIO Profilfenster automatisch"
 --[[Translation missing --]]
 --[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Sperre meinen M+ Profilrahmen"
@@ -267,18 +260,14 @@ L["TANK"] = "Tank"
 L["TANK_SCORE"] = "Tank Wertung"
 L["TIMED_10_RUNS"] = "Erfolgreiche +10-14 Runs"
 L["TIMED_15_RUNS"] = "Erfolgreiche +15 Runs"
---[[Translation missing --]]
---[[ L["TIMED_5_RUNS"] = ""--]] 
+L["TIMED_5_RUNS"] = "Erfolgreiche +5-9 Runs"
 L["TOOLTIP_CUSTOMIZATION"] = "Wertung Tooltip Anpassungen"
 L["TOOLTIP_PROFILE"] = "Profil Tooltip Anpassungen"
---[[Translation missing --]]
---[[ L["TOTAL_MP_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["TOTAL_RUNS"] = ""--]] 
+L["TOTAL_MP_SCORE"] = "Mythic+ Wertung"
+L["TOTAL_RUNS"] = "Anzahl BFA Runs"
 L["UNKNOWN_SCORE"] = "Unbekannt"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r hat einen neuen Server gefunden. Bitte schreibe folgende information auf: |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r . Danach schicke diese den Entwicklern. Danke!"
---[[Translation missing --]]
---[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
+L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: Entsperre das M+ Profilfenster."
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Ihr müsst zuerst die automatische Positionierung des M+ Profils deaktivieren."
 
 
