@@ -6,7 +6,7 @@ local mod, CL = BigWigs:NewBoss("Stormwall Blockade", 2070, 2337)
 if not mod then return end
 mod:RegisterEnableMob(146251, 146253, 146256) -- Sister Katherine, Brother Joseph, Laminaria
 mod.engageId = 2280
---mod.respawnTime = 31
+mod.respawnTime = 15
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -14,7 +14,6 @@ mod.engageId = 2280
 
 local ireCount = 1
 local stormsWailCount = 1
-local catastrophicTidesCount = 1
 local cracklingLightningCount = 1
 
 --------------------------------------------------------------------------------
@@ -86,6 +85,7 @@ function mod:OnBossEnable()
 
 	-- Stage 2
 	self:Log("SPELL_CAST_START", "CatastrophicTides", 288696)
+	self:Log("SPELL_INTERRUPT", "Interupted", "*")
 	self:Log("SPELL_AURA_APPLIED", "KelpWrappedApplied", 285000)
 	self:Log("SPELL_AURA_REFRESH", "KelpWrappedApplied", 285000)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "KelpWrappedApplied", 285000)
@@ -94,14 +94,14 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "IreoftheDeep", 285017)
 
 	self:Log("SPELL_AURA_APPLIED", "StormsWailApplied", 285350)
-	self:Log("SPELL_AURA_REMOVED", "StormsWailRemoved", 285350)
+	self:Log("SPELL_AURA_APPLIED", "StormsWailSecondaryApplied", 285426)
+	self:Log("SPELL_AURA_REMOVED", "StormsWailRemoved", 285350, 285426)
 end
 
 function mod:OnEngage()
 	ireCount = 1
 	stormsWailCount = 1
 	cracklingLightningCount = 1
-	catastrophicTidesCount = 1
 
 	self:CDBar(284362, 7) -- Sea Storm
 	self:CDBar(284106, 10.5) -- Crackling Lightning
@@ -237,15 +237,13 @@ end
 function mod:Translocate(args)
 	if self:MobId(args.sourceGUID) == 146251 then -- Sister
 		cracklingLightningCount = 1
-		-- XXX Fix timers
-		self:CDBar(284106, 10.5) -- Crackling Lightning
-		self:CDBar(284262, 24) -- Voltaic Flash
-		self:CDBar(287995, 35.5) -- Electric Shroud
+		self:CDBar(284106, 14.5) -- Crackling Lightning
+		self:CDBar(284262, 19.5) -- Voltaic Flash
+		self:CDBar(287995, 36.5) -- Electric Shroud
 	else -- Brother
-		-- XXX Fix timers
-		self:CDBar(284362, 7) -- Sea Storm
-		self:CDBar(284383, 12) -- Sea's Temptation
-		self:CDBar(286558, 32) -- Tidal Shroud
+		self:CDBar(284362, 12) -- Sea Storm
+		self:CDBar(284383, 20.5) -- Sea's Temptation
+		self:CDBar(286558, 37.5) -- Tidal Shroud
 	end
 	if self:GetOption("custom_on_fade_out_bars") then
 		self:CheckBossPlatforms()
@@ -289,6 +287,7 @@ end
 function mod:SisterDeath(args)
 	self:Message2("stages", "red", L.killed:format(args.destName), false)
 	self:PlaySound("stages", "long")
+	self:StopBar(287995) -- Electric Shroud
 	self:StopBar(284262) -- Voltaic Flash
 	self:StopBar(284106) -- Crackling Lightning
 end
@@ -321,13 +320,14 @@ end
 function mod:TemptingSongApplied(args)
 	if self:IsBrotherOnPlatform() then
 		self:TargetMessage2(args.spellId, "red", args.destName)
-		self:PlaySound(args.spellId, "warning")
+		self:PlaySound(args.spellId, "warning", nil, args.destName)
 	end
 end
 
 function mod:BrotherDeath(args)
 	self:Message2("stages", "cyan", L.killed:format(args.destName), false)
 	self:PlaySound("stages", "long")
+	self:StopBar(286558) -- Tidal Shroud
 	self:StopBar(284362) -- Sea Storm
 	self:StopBar(284383) -- Sea's Temptation
 end
@@ -335,21 +335,35 @@ end
 -- Stage 2
 function mod:CatastrophicTides(args)
 	self:Message2(args.spellId, "red", CL.casting:format(args.spellName))
-	self:PlaySound(args.spellId, "info")
+	self:PlaySound(args.spellId, "long")
 	self:CastBar(args.spellId, 15)
-	catastrophicTidesCount = catastrophicTidesCount + 1
+end
+
+function mod:Interupted(args)
+	if args.extraSpellId == 288696 then -- Catastrophic Tides
+		self:Message2(288696, "green", CL.interrupted:format(args.extraSpellName))
+		self:PlaySound(288696, "info")
+		self:StopBar(CL.cast:format(args.extraSpellName))
+
+		stormsWailCount = 1
+		ireCount = 1
+
+		self:CDBar(285017, 6, CL.count:format(self:SpellName(285017), ireCount)) -- Ire of the Deep
+		self:CDBar(285118, 8.5) -- Sea Swell
+		self:CDBar(285350, 15.5, CL.count:format(self:SpellName(285350), stormsWailCount)) -- Storm's Wail
+	end
 end
 
 function mod:KelpWrappedApplied(args)
 	if self:Me(args.destGUID) then
 		self:CancelSayCountdown(args.spellId)
 		self:SayCountdown(args.spellId, 15, nil, 5)
-		self:PlaySound(args.spellId, "warning")
+		self:PlaySound(args.spellId, "alarm")
 		self:StackMessage(args.spellId, args.destName, args.amount, "purple")
 	elseif self:Tank() and self:Tank(args.destName) then
 		local amount = args.amount or 1
 		self:StackMessage(args.spellId, args.destName, amount, "purple")
-		if amount > 7 then
+		if amount == 5 then
 			self:PlaySound(args.spellId, "warning", nil, args.destName)
 		end
 	end
@@ -385,8 +399,17 @@ function mod:StormsWailApplied(args)
 	self:CDBar(args.spellId, 120, CL.count:format(args.spellName, stormsWailCount))
 end
 
+function mod:StormsWailSecondaryApplied(args)
+	self:TargetMessage2(285350, "yellow", args.destName)
+	self:TargetBar(285350, 10, args.destName)
+	if self:Me(args.destGUID) then
+		self:PlaySound(285350, "warning")
+		self:SayCountdown(285350, 10)
+	end
+end
+
 function mod:StormsWailRemoved(args)
 	if self:Me(args.destGUID) then
-		self:CancelSayCountdown(args.spellId)
+		self:CancelSayCountdown(285350)
 	end
 end

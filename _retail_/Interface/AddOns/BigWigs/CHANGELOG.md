@@ -1,16 +1,23 @@
 # BigWigs
 
-## [v129](https://github.com/BigWigsMods/BigWigs/tree/v129) (2019-01-28)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v128...v129)
+## [v130](https://github.com/BigWigsMods/BigWigs/tree/v130) (2019-01-30)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v129.1...v130)
 
-- Bump version  
-- BattleOfDazaralor: Update option files  
-- BattleOfDazaralor: Update locales  
-- BattleOfDazaralor/Jaina: Update option keys  
-- BattleOfDazaralor/Jaina: Stage Support, Add Chilled Touch Infobox, Timer Updates, Broadside Markers and Timers, Siegebreaker Blast Added.  
-- BattleOfDazaralor/Trash: Fix bad copy paste.  
-- BattleOfDazaralor: Add trash module  
-- BattleOfDazaralor/Blockade: P1 overhaul (Only show messages for abilities on your boat, fade out other bars), overall timer fixes  
-- BattleOfDazaralor/Mekkatorque: Emphasize Buster Cannon by default and change sound to "warning".  
-- BattleOfDazaralor/Conclave: Fix Mind Wipe and Akundas Wrath messages  
-- Update zhTW. (#581)  
+- bump version  
+- BattleOfDazaralor/Blockade: Add the secondary Storm's Wail debuff id.  
+- Miscellaneous API fixes  
+- Fix some PlaySound usage.  
+- BattleOfDazaralor/Grong: Add Megatomic Seeker Missile messages and bars  
+- BattleOfDazaralor/Jaina: Add berserk  
+- BattleOfDazaralor/Conclave: Honor "Only on me" option for the leaps, remove flash when leap is near you  
+- BattleOfDazaralor/Jaina: Fix InfoBox breaking during phase tranitions  
+- BattleOfDazaralor/Jaina: Fix Chilling Touch Infobox, add message when it got removed  
+- BattleOfDazaralor/Jaina: Fix Chilling Touch spell id  
+- update zhCN. (#582)  
+- BattleOfDazaralor/Jadefire: Add count to Magma Trap  
+- BattleOfDazaralor/Jadefire: Add Magma Trap  
+- BattleOfDazaralor/Jadefire: Fix Multi Sided Strike for mythic, minor changes  
+- BattleOfDazaralor/Grong: Fix a duplicate message on mythic  
+- BattleOfDazaralor/Conclave: Fix dispel messages and options  
+- BattleOfDazaralor/Conclave: Fix double Crawling Hex messages  
+- BattleOfDazaralor/Jaina: Improve Avalanche handling, add marker option for it  
