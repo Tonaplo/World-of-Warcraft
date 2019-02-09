@@ -1,23 +1,22 @@
 # BigWigs
 
-## [v130](https://github.com/BigWigsMods/BigWigs/tree/v130) (2019-01-30)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v129.1...v130)
+## [v134](https://github.com/BigWigsMods/BigWigs/tree/v134) (2019-02-08)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v133...v134)
 
+- update zhCN. (#590)  
 - bump version  
-- BattleOfDazaralor/Blockade: Add the secondary Storm's Wail debuff id.  
-- Miscellaneous API fixes  
-- Fix some PlaySound usage.  
-- BattleOfDazaralor/Grong: Add Megatomic Seeker Missile messages and bars  
-- BattleOfDazaralor/Jaina: Add berserk  
-- BattleOfDazaralor/Conclave: Honor "Only on me" option for the leaps, remove flash when leap is near you  
-- BattleOfDazaralor/Jaina: Fix InfoBox breaking during phase tranitions  
-- BattleOfDazaralor/Jaina: Fix Chilling Touch Infobox, add message when it got removed  
-- BattleOfDazaralor/Jaina: Fix Chilling Touch spell id  
-- update zhCN. (#582)  
-- BattleOfDazaralor/Jadefire: Add count to Magma Trap  
-- BattleOfDazaralor/Jadefire: Add Magma Trap  
-- BattleOfDazaralor/Jadefire: Fix Multi Sided Strike for mythic, minor changes  
-- BattleOfDazaralor/Grong: Fix a duplicate message on mythic  
-- BattleOfDazaralor/Conclave: Fix dispel messages and options  
-- BattleOfDazaralor/Conclave: Fix double Crawling Hex messages  
-- BattleOfDazaralor/Jaina: Improve Avalanche handling, add marker option for it  
+- Plugins/BossBlock: Add "entering Dazar'alor" to the list of movies to skip.  
+- BattleOfDazaralor/Trash: Add Impale.  
+- BattleOfDazaralor/Jadefire: Fix some issues with the infobox.  
+- BattleOfDazaralor/Grong: Do not show Ferocious Roar bar timer on LFR/Normal (#592)  
+- BattleOfDazaralor/Opulence: Add Surging Gold  
+- BattleOfDazaralor/Opulence: Fix Volatile Charge bar  
+- BattleOfDazaralor/Blockade: Don't fade out bars in p2, Fix color for Sister Death  
+- BattleOfDazaralor/Jaina: Fix intermission message and textual mistake in the options  
+- BattleOfDazaralor/Jaina: Add Kultiran Corsair (Ship left/right) warnings and bars, Add stopbars for stage 1, add Mythic abilities, Add Intermission 1 time to complete warning  
+- BattleOfDazaralor/Blockade: Fix Siren Spawn events for mythic p2  
+- BattleOfDazaralor/Mekkatorque: Add options for repeating says when you're shrunk or controlling a robot (default off)  
+- BattleOfDazaralor/Mekkatorque: Actually use heroic timers on heroic  
+- BattleOfDazaralor/Mekkatorque: Fixed all timers for mythic and heroic  
+- BattleOfDazaralor/Champion: Fix Seal of Retribution warning showing after a wipe.  
+- BattleOfDazaralor/Opulence: Make sure hex marking doesn't re-use markers on other hex players.  

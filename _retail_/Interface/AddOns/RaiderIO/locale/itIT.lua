@@ -8,7 +8,7 @@ if ns:IsSameLocale("itIT") then
 L["ALLOW_IN_LFD"] = "Abilita in Ricerca delle Incursioni"
 L["ALLOW_IN_LFD_DESC"] = "Fai clic con il pulsante destro del mouse su gruppi o candidati in Ricerca delle Incusioni per copiare l'URL del Profilo Raider.IO"
 L["ALLOW_ON_PLAYER_UNITS"] = "Consenti su Frame Unità Giocatore"
-L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Fare clic con il tasto destro del mouse sui Frame dell'Unità Giocatore per Copiare l'URL del Profilo Raider.IO."
+L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Fare clic con il tasto destro del mouse sulla finestra di un Giocatore per Copiare l'URL del Profilo Raider.IO."
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "Mostra sempre Punteggi di Ruolo"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Tenere premuto un tasto (maiusc / ctrl / alt) per mostrare i Punteggi del Ruolo del Giocatore nel Tooltip. Se abiliti questa Opzione, le Descrizioni Comandi includeranno sempre i Punteggi del Ruolo."
 L["API_DEPRECATED"] = "| cffFF0000Warning! | r L'addon | cffFFFFFF% s | r sta chiamando una funzione deprecata RaiderIO.% s. Questa funzione verrà rimossa nelle versioni future. Si prega di incoraggiare l'autore di% s per aggiornare il loro addon. Stack di chiamata:% s"
@@ -70,17 +70,12 @@ L["GUILD_BEST_WEEKLY"] = "Gilda: Settimanale"
 L["HEALER"] = "Curatore"
 L["HEALER_SCORE"] = "Punteggio Curatore"
 L["HIDE_OWN_PROFILE"] = "Nascondi Informazioni Personali dal Tooltip"
---[[Translation missing --]]
---[[ L["HIDE_OWN_PROFILE_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["INVERSE_PROFILE_MODIFIER"] = ""--]] 
+L["HIDE_OWN_PROFILE_DESC"] = "Quando impostato, questo non mostrerà la propria descrizione del profilo RaiderIO, ma potrebbe mostrare quello di un altro giocatore se ne ha uno."
+L["INVERSE_PROFILE_MODIFIER"] = "Inverti il ​​modificatore del tooltip del profilo RaiderIO"
 L["INVERSE_PROFILE_MODIFIER_DESC"] = "Abilitando questo si inverte il comportamento del modificatore del tooltip profilo RaiderIO (shift / ctrl / alt): tieni premuto per alternare la visualizzazione tra profilo personale / leader o profilo leader / personale."
---[[Translation missing --]]
---[[ L["KEYSTONE_COMPLETED_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["KEYSTONE_COMPLETED_15"] = ""--]] 
---[[Translation missing --]]
---[[ L["KEYSTONE_COMPLETED_5"] = ""--]] 
+L["KEYSTONE_COMPLETED_10"] = "+10-14(COMP)"
+L["KEYSTONE_COMPLETED_15"] = "+15(COMP)"
+L["KEYSTONE_COMPLETED_5"] = "+5-9(COMP)"
 L["LEGION_MAIN_SCORE"] = "Punteggio PG Principale \"Legion\""
 L["LEGION_SCORE"] = "Punteggio \"Legion\""
 L["LOCKING_PROFILE_FRAME"] = "RaiderIO: Blocco della finestra Profilo M+."
@@ -103,8 +98,7 @@ L["OUTDATED_DATABASE_S"] = "| cffFFFFFF% s | r sta utilizzando dati | cffFF6666%
 L["PLAYER_PROFILE_TITLE"] = "Profilo M+ Giocatore"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PROFILE_BEST_RUNS"] = "Miglior Corsa per Spedizione"
---[[Translation missing --]]
---[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
+L["PROVIDER_NOT_LOADED"] = "| cffFF0000Warning: | r | cffFFFFFF% s | r non riesce a trovare i dati per la fazione corrente. Controllare le impostazioni | cffFFFFFF / raiderio | r e abilitare i dati del tooltip per | cffFFFFFF% s | r."
 L["RAID_ABBREVIATION_ULD"] = "ULD"
 L["RAID_BOSS_ABT_1"] = "Garothi"
 L["RAID_BOSS_ABT_10"] = "Aggramar"
@@ -117,24 +111,15 @@ L["RAID_BOSS_ABT_6"] = "Imonar"
 L["RAID_BOSS_ABT_7"] = "Kin'garoth"
 L["RAID_BOSS_ABT_8"] = "Varimathras"
 L["RAID_BOSS_ABT_9"] = "Congrega delle Shivarra"
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_BOD_9"] = ""--]] 
+L["RAID_BOSS_BOD_1"] = "Campionessa della Luce"
+L["RAID_BOSS_BOD_2"] = "Grong"
+L["RAID_BOSS_BOD_3"] = "Maestri Giadafulgida"
+L["RAID_BOSS_BOD_4"] = "Opulenza"
+L["RAID_BOSS_BOD_5"] = "Conclave dei Prescelti"
+L["RAID_BOSS_BOD_6"] = "Re Rastakhan"
+L["RAID_BOSS_BOD_7"] = "Gran Meccanista Meccatork"
+L["RAID_BOSS_BOD_8"] = "Blocco Navale Frangitempeste"
+L["RAID_BOSS_BOD_9"] = "Dama Jaina Marefiero"
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "MADRE"
 L["RAID_BOSS_ULD_3"] = "Divoratore Fetido"
@@ -151,12 +136,9 @@ L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "M"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "NM"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Boss Incursione Sconfitti"
 L["RAID_PROGRESS_TITLE"] = "Progresso Incursione"
---[[Translation missing --]]
---[[ L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAIDERIO_CLIENT_CUSTOMIZATION"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAIDERIO_MP_BASE_SCORE"] = ""--]] 
+L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Media Punteggio per +%s in Tempo"
+L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Personalizzazione del client RaiderIO"
+L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO M+ Punteggio Base"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO Punteggio M+"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO Punteggio M+:"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO Opzioni Addon"
@@ -165,52 +147,34 @@ L["RAIDING_DB_MODULES"] = "Moduli Database Incursione"
 L["RELOAD_LATER"] = "Ricaricherò Più Tardi"
 L["RELOAD_NOW"] = "Ricarica Ora"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Visualizza il Punteggio Medio Per Corse In Tempo"
---[[Translation missing --]]
---[[ L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = ""--]] 
+L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Mostra il punteggio medio Raider.IO visualizzato sui membri delle Spedizioni finite in tempo. Questo è visibile nel Tooltip della Chiava del Potere e nelle descrizioni dei giocatori nella finestra Ricerca delle Incursioni."
 L["SHOW_CLIENT_GUILD_BEST"] = "Mostra i Record nella Ricerca Gruppi per Spedizioni Mitiche"
 L["SHOW_CLIENT_GUILD_BEST_DESC"] = "Abilitando questa Opzione verranno visualizzate le 5 migliori Corse della tua Gilda (Stagionale o Settimanale) nella Scheda Spedizioni Mitiche della finestra di Ricerca Gruppi."
 L["SHOW_IN_FRIENDS"] = "Mostra in Elenco Amici"
 L["SHOW_IN_FRIENDS_DESC"] = "Mostra il Punteggio M+ quando passi il Mouse sopra i tuoi Amici"
 L["SHOW_IN_LFD"] = "Mostra in Ricerca delle Spedizioni"
-L["SHOW_IN_LFD_DESC"] = "Mostra Punteggio M+ quando passi il mouse sopra i gruppi o le richieste di "
---[[Translation missing --]]
---[[ L["SHOW_IN_SLASH_WHO_RESULTS"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_IN_SLASH_WHO_RESULTS_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_IN_WHO_UI"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_IN_WHO_UI_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_KEYSTONE_INFO"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_KEYSTONE_INFO_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_LEADER_PROFILE"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_LEADER_PROFILE_DESC"] = ""--]] 
+L["SHOW_IN_LFD_DESC"] = "Mostra il Punteggio M+ quando passi il mouse sopra gruppi o candidati."
+L["SHOW_IN_SLASH_WHO_RESULTS"] = "Mostra nei risultati del comando /chi"
+L["SHOW_IN_SLASH_WHO_RESULTS_DESC"] = "Mostra il Punteggio M+ quando esegui il comendo /chi su un personaggio specifico."
+L["SHOW_IN_WHO_UI"] = "Mostra nell'interfaccia \"CHI\""
+L["SHOW_IN_WHO_UI_DESC"] = [=[Mostra il Punteggio M+ quando passo il mouse sull'elenco dei giocatori risultanti da una ricerca 
+del comando /chi.]=]
+L["SHOW_KEYSTONE_INFO"] = "Mostra Informazioni Chiave del Potere"
+L["SHOW_KEYSTONE_INFO_DESC"] = "Aggiunge il punteggio Raider.IO di base per le Chiavi nei loro Tooltip. Per ogni giocatore nel tuo gruppo mostra la migliore chiave fatta per la specifica Spedizione."
+L["SHOW_LEADER_PROFILE"] = "Permetti il ​​modificatore del Tooltip del profilo RaiderIO"
+L["SHOW_LEADER_PROFILE_DESC"] = "Tenere premuto un modificatore (shift/ctlr/alt) per alternare la descrizione del profilo tra Profilo Personale/Profilo Leader."
 L["SHOW_MAINS_SCORE"] = "Mostra Punteggio del Personaggio Principale e Progresso Incursione"
---[[Translation missing --]]
---[[ L["SHOW_MAINS_SCORE_DESC"] = ""--]] 
+L["SHOW_MAINS_SCORE_DESC"] = "Mostra il punteggio del PG Principale del giocatore e i Progressi dell'Incursione sul tooltip. I giocatori devono essere registrati sul sito Raider.IO ed impostare un personaggio come principale."
 L["SHOW_ON_GUILD_ROSTER"] = "Mostra nell'elenco Membri di Gilda"
---[[Translation missing --]]
---[[ L["SHOW_ON_GUILD_ROSTER_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_ON_PLAYER_UNITS"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_ON_PLAYER_UNITS_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_RAIDERIO_PROFILE"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_RAIDERIO_PROFILE_DESC"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_SCORE_IN_COMBAT"] = ""--]] 
---[[Translation missing --]]
---[[ L["SHOW_SCORE_IN_COMBAT_DESC"] = ""--]] 
+L["SHOW_ON_GUILD_ROSTER_DESC"] = "Mostra il Punteggio M+ quando passi il mouse sopra l'elenco dei giocatori di Gilda."
+L["SHOW_ON_PLAYER_UNITS"] = "Mostra sula Finestra del Giocatore"
+L["SHOW_ON_PLAYER_UNITS_DESC"] = "Mostra il Punteggio M+ quando passi il mouse sopra un Giocatore."
+L["SHOW_RAID_ENCOUNTERS_IN_PROFILE"] = "Mostra i progressi delle Incursioni nel Tooltip del Profilo."
+L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = "Quando impostato, mostrerà i progressi delle Incursioni nel Tooltip di RaiderIO."
+L["SHOW_RAIDERIO_PROFILE"] = "Mostra il Tooltip del Profilo RaiderIO"
+L["SHOW_RAIDERIO_PROFILE_DESC"] = "Mostra il Popup del Profilo RaiderIO"
+L["SHOW_SCORE_IN_COMBAT"] = "Mostra Punteggio in Combattimento"
+L["SHOW_SCORE_IN_COMBAT_DESC"] = "Disabilita per minimizzare l'impatto sulle prestazioni mentre si passa il mouse sopra i giocatori durante il combattimento."
 L["TANK"] = "Difensore"
 L["TANK_SCORE"] = "Punteggio Difensore"
 L["TIMED_10_RUNS"] = "+10-14 In Tempo"

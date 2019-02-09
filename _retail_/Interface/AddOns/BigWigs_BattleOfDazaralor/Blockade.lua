@@ -15,6 +15,9 @@ mod.respawnTime = 15
 local ireCount = 1
 local stormsWailCount = 1
 local cracklingLightningCount = 1
+local stage = 1
+local sirenCount = 1
+local mobCollector = {}
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -80,6 +83,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "TidalShroud", 286558)
 	self:Log("SPELL_CAST_START", "SeaStorm", 284362)
 	self:Log("SPELL_CAST_START", "SeasTemptation", 284383)
+	self:Log("SPELL_CAST_SUCCESS", "SirenSpawn", 289795) -- Zuldazar Reuse Spell 06
 	self:Log("SPELL_AURA_APPLIED", "TemptingSongApplied", 284405)
 	self:Death("BrotherDeath", 146253) -- Brother Joseph
 
@@ -90,7 +94,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_REFRESH", "KelpWrappedApplied", 285000)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "KelpWrappedApplied", 285000)
 	self:Log("SPELL_AURA_REMOVED", "KelpWrappedRemoved", 285000)
-	self:Log("SPELL_CAST_START", "SeaSwell", 285118)
+	self:Log("SPELL_CAST_SUCCESS", "SeaSwell", 285118, 290694) -- Stage 2, Mythic Stage 1
 	self:Log("SPELL_CAST_START", "IreoftheDeep", 285017)
 
 	self:Log("SPELL_AURA_APPLIED", "StormsWailApplied", 285350)
@@ -99,9 +103,12 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
+	stage = 1
 	ireCount = 1
 	stormsWailCount = 1
 	cracklingLightningCount = 1
+	sirenCount = 1
+	wipe(mobCollector)
 
 	self:CDBar(284362, 7) -- Sea Storm
 	self:CDBar(284106, 10.5) -- Crackling Lightning
@@ -109,6 +116,9 @@ function mod:OnEngage()
 	self:CDBar(284262, 24) -- Voltaic Flash
 	self:CDBar(287995, 30) -- Electric Shroud
 	self:CDBar(286558, 32) -- Tidal Shroud
+	if self:Mythic() then
+		self:Bar(285118, 19.7) -- Sea Swell
+	end
 end
 
 --------------------------------------------------------------------------------
@@ -205,7 +215,7 @@ do
 	end
 
 	function mod:BarCreated(_, _, bar, _, key, text)
-		if not self:GetOption("custom_on_fade_out_bars") then return end
+		if not self:GetOption("custom_on_fade_out_bars") or stage ~= 1 then return end
 		if sisterAbilities[key] then
 			if not self:IsSisterOnPlatform() then
 				fadeOutBar(self, bar)
@@ -228,6 +238,7 @@ end
 
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, unit, _, spellId)
 	if spellId == 284993 then -- Move Laminaria to Position // Might want to use Anchor Here 45313
+		stage = 2
 		self:Message2("stages", "cyan", CL.stage:format(2), false)
 		self:PlaySound("stages", "long")
 	end
@@ -285,7 +296,7 @@ function mod:CracklingLightning(args)
 end
 
 function mod:SisterDeath(args)
-	self:Message2("stages", "red", L.killed:format(args.destName), false)
+	self:Message2("stages", "cyan", L.killed:format(args.destName), false)
 	self:PlaySound("stages", "long")
 	self:StopBar(287995) -- Electric Shroud
 	self:StopBar(284262) -- Voltaic Flash
@@ -317,8 +328,21 @@ function mod:SeasTemptation(args)
 	self:CDBar(args.spellId, 7)
 end
 
+function mod:SirenSpawn(args)
+	if self:Mythic() and stage == 2 and not mobCollector[args.sourceGUID] then
+		mobCollector[args.sourceGUID] = true
+		self:Message2(284383, "cyan", CL.incoming:format(CL.count:format(args.sourceName, sirenCount)))
+		self:PlaySound(284383, "info")
+		sirenCount = sirenCount + 1
+		if sirenCount % 2 == 0 then
+			self:Bar(284383, 5, CL.count:format(args.sourceName, sirenCount))
+			self:CDBar(284383, 43, CL.count:format(args.sourceName, sirenCount+1))
+		end
+	end
+end
+
 function mod:TemptingSongApplied(args)
-	if self:IsBrotherOnPlatform() then
+	if self:IsBrotherOnPlatform() or stage == 2 then
 		self:TargetMessage2(args.spellId, "red", args.destName)
 		self:PlaySound(args.spellId, "warning", nil, args.destName)
 	end
@@ -345,12 +369,16 @@ function mod:Interupted(args)
 		self:PlaySound(288696, "info")
 		self:StopBar(CL.cast:format(args.extraSpellName))
 
-		stormsWailCount = 1
 		ireCount = 1
+		stormsWailCount = 1
+		sirenCount = 1
 
-		self:CDBar(285017, 6, CL.count:format(self:SpellName(285017), ireCount)) -- Ire of the Deep
-		self:CDBar(285118, 8.5) -- Sea Swell
-		self:CDBar(285350, 15.5, CL.count:format(self:SpellName(285350), stormsWailCount)) -- Storm's Wail
+		self:CDBar(285017, self:Mythic() and 4 or 6, CL.count:format(self:SpellName(285017), ireCount)) -- Ire of the Deep
+		self:CDBar(285118, self:Mythic() and 8 or 10.5) -- Sea Swell
+		self:CDBar(285350, self:Mythic() and 8.5 or 15.5, CL.count:format(self:SpellName(285350), stormsWailCount)) -- Storm's Wail
+		if self:Mythic() then
+			self:Bar(284383, 40, CL.count:format(self:SpellName(-19279), sirenCount)) -- Tempting Siren
+		end
 	end
 end
 
@@ -375,25 +403,33 @@ function mod:KelpWrappedRemoved(args)
 	end
 end
 
-function mod:SeaSwell(args)
-	self:Message2(args.spellId, "orange")
-	self:PlaySound(args.spellId, "alert")
-	self:Bar(args.spellId, 20.6)
+do
+	local prev = 0
+	function mod:SeaSwell(args)
+		local t = args.time
+		if t-prev > 1.5 then
+			prev = t
+			self:Message2(285118, "orange")
+			self:PlaySound(285118, "alert")
+			self:Bar(285118, self:Mythic() and (stage == 1 and 20 or 17) or 20.6)
+		end
+	end
 end
 
 function mod:IreoftheDeep(args)
 	self:Message2(args.spellId, "red", CL.count:format(args.spellName, ireCount))
 	self:PlaySound(args.spellId, "warning")
 	ireCount = ireCount + 1
-	self:CDBar(args.spellId, 32.5, CL.count:format(args.spellName, ireCount))
+	self:CDBar(args.spellId, self:Mythic() and 32.8 or 32.5, CL.count:format(args.spellName, ireCount))
 end
 
 function mod:StormsWailApplied(args)
 	self:TargetMessage2(args.spellId, "yellow", args.destName, CL.count:format(args.spellName, stormsWailCount))
-	self:TargetBar(args.spellId, 10, args.destName, CL.count:format(args.spellName, stormsWailCount))
+	local duration = self:Easy() and 13 or 10
+	self:TargetBar(args.spellId, duration, args.destName, CL.count:format(args.spellName, stormsWailCount))
 	if self:Me(args.destGUID) then
 		self:PlaySound(args.spellId, "warning")
-		self:SayCountdown(args.spellId, 10)
+		self:SayCountdown(args.spellId, duration)
 	end
 	stormsWailCount = stormsWailCount + 1
 	self:CDBar(args.spellId, 120, CL.count:format(args.spellName, stormsWailCount))
@@ -401,10 +437,11 @@ end
 
 function mod:StormsWailSecondaryApplied(args)
 	self:TargetMessage2(285350, "yellow", args.destName)
-	self:TargetBar(285350, 10, args.destName)
+	local duration = self:Easy() and 13 or 10
+	self:TargetBar(285350, duration, args.destName)
 	if self:Me(args.destGUID) then
 		self:PlaySound(285350, "warning")
-		self:SayCountdown(285350, 10)
+		self:SayCountdown(285350, duration)
 	end
 end
 

@@ -1,7 +1,7 @@
 # LittleWigs
 
-## [v8.1.2](https://github.com/BigWigsMods/LittleWigs/tree/v8.1.2) (2019-01-28)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.1.1...v8.1.2)
+## [v8.1.3](https://github.com/BigWigsMods/LittleWigs/tree/v8.1.3) (2019-02-04)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.1.2...v8.1.3)
 
-- MoP: Tweaks to health functions  
-- BfA/AtalDazar/Volkaal: Fix Toxic Leap and Noxious Stench timers (#415)  
+- Update zhTW (#417)  
+- BfA/TolDagor/SandQueen: Improve Upheaval cast bar (#416)  

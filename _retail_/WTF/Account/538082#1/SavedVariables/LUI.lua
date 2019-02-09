@@ -129,17 +129,17 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Miriyal"] = 374201398,
-							["Farahn"] = 210466840,
+							["Miriyal"] = 374998937,
+							["Farahn"] = 210754236,
 							["Greybone"] = 987676356,
-							["Faerand"] = 332913006,
-							["Korugen"] = 9448782,
+							["Faerand"] = 333865561,
+							["Korugen"] = 9683963,
 							["Kaldorath"] = 1274216901,
-							["Zearthan"] = 68959333,
-							["Mallusof"] = 909172565,
-							["Thedodrouk"] = 9701036,
-							["Rahran"] = 596537247,
-							["Praerend"] = 1501969960,
+							["Zearthan"] = 75243568,
+							["Mallusof"] = 2176717654,
+							["Thedodrouk"] = 97708183,
+							["Rahran"] = 597570982,
+							["Praerend"] = 1504745781,
 						},
 					},
 				},
@@ -153,9 +153,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -223,6 +223,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -233,10 +238,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -264,10 +265,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1055,38 +1055,38 @@ LUIDB = {
 							"/bt4", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/g night night! :)", -- [1]
-							"/raid Please fix groups to 5 again", -- [2]
-							"/raid Is there an enchanter here? I need Quick Nav", -- [3]
-							"/raid Int please :)", -- [4]
-							"/raid Thanks! :)", -- [5]
-							"/cw Celedhring-Icecrown I thought Peter fixed that?", -- [6]
-							" I went to bed way too late yesterday", -- [7]
-							"/raid rofl", -- [8]
-							"/g night night! :)", -- [9]
-							"/raid Is there an enchanter here? I need Quick Nav", -- [10]
-							"/raid Thanks! :)", -- [11]
-							" I went to bed way too late yesterday", -- [12]
-							"/g night night! :)", -- [13]
-							"/raid Thanks! :)", -- [14]
-							"/g night night! :)", -- [15]
-							"/g Gonna do 3 Heroic Islands, anyone wanna come?", -- [16]
-							"/g Cause I'm just missing 3 Heroic Islands an I'm capped :)", -- [17]
-							"/g Anyone else?", -- [18]
-							" :O", -- [19]
-							" Holy shit", -- [20]
-							"/g Alright looks like it's jsut the 2 of us :)", -- [21]
-							"/p awesome :)", -- [22]
-							"/p And just run around?", -- [23]
-							" Yeah, makes sense", -- [24]
-							"/p Wrong island lol", -- [25]
-							" I cant even imagin what I'd do", -- [26]
-							"/i hello :)_", -- [27]
-							"/p awesome :)", -- [28]
-							"/p no worries!", -- [29]
-							"/cw Vanim-Icecrown Have a good one! :)", -- [30]
-							"/i Hello :)", -- [31]
-							"/i going Disc", -- [32]
+							"/p queue us then", -- [1]
+							"/p have a good one!", -- [2]
+							"/p Is Vyni coming back?", -- [3]
+							"/p not needed", -- [4]
+							"/p there we go", -- [5]
+							"/p well", -- [6]
+							"/p go die", -- [7]
+							"/p have a good one", -- [8]
+							"/p Aeonex, you there?", -- [9]
+							"/p thanks alot! Thats all I needed", -- [10]
+							"/p Yeah", -- [11]
+							"/p hug", -- [12]
+							"/p run out and reset", -- [13]
+							"/p aoe", -- [14]
+							"/p Aoe all", -- [15]
+							"/p shuld have been>", -- [16]
+							"/p yup", -- [17]
+							"/p have a good one!", -- [18]
+							"/p not needed", -- [19]
+							"/p well", -- [20]
+							"/p have a good one", -- [21]
+							"/p thanks alot! Thats all I needed", -- [22]
+							"/p hug", -- [23]
+							"/p aoe", -- [24]
+							"/p shuld have been>", -- [25]
+							"/p have a good one!", -- [26]
+							"/p well", -- [27]
+							"/p thanks alot! Thats all I needed", -- [28]
+							"/p aoe", -- [29]
+							"/p have a good one!", -- [30]
+							"/p thanks alot! Thats all I needed", -- [31]
+							"/p have a good one!", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]

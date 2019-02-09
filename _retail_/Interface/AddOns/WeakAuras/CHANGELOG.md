@@ -1,45 +1,21 @@
-# [2.11.1](https://github.com/WeakAuras/WeakAuras2/tree/2.11.1) (2019-01-22)
+# [2.11.3](https://github.com/WeakAuras/WeakAuras2/tree/2.11.3) (2019-02-02)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.11.0...2.11.1)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.11.2...2.11.3)
 
 ## Highlights
 
- Bugfixes! 
+ Bug fixes! 
 
 ## Commits
 
-Causese (1):
+InfusOnWoW (3):
 
-- adds battle for dazar'alor raid trinkets
+- Fix Glow animation missing if the aura was hidden but glowing
+- Fix duration function not wrapped in xpcall
+- Fix groups making childs misaligned
 
-InfusOnWoW (4):
+mrbuds (2):
 
-- Fix a few issues around MSQ integration
-- Tweak GetSpellCooldownUnified again
-- Fix Bloodlust Heroism templates
-- Fix duration template
-
-Stanzilla (3):
-
-- add a space
-- add projectDateInt packager replacement
-- Update README.md
-
-emptyrivers (5):
-
-- guard against invalid inputs to auraspellids
-- add warning for duplicate keys
-- add separator option type
-- reconfigure user mode to merge options
-- improve coroutine error handling
-
-mrbuds (7):
-
-- fix feral spirit and starfall duration templates
-- add duration trigger to some templates
-- add support for static duration on spell success
-- status cast trigger: fix handling of PLAYER_FOCUS_CHANGED
-- add stamina, blocktargetpercent, armortargetpercent rename movement speed add event for player moving and target changed
-- removed block rating
-- New status trigger "Character Stats"
+- cast trigger with unit=multi: check if sourceGUID match before hiding state #1142
+- fix cooldown setting disabled for timed duration #1141
 

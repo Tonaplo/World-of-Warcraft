@@ -14,6 +14,7 @@ mod.respawnTime = 30
 --
 
 local addCount = 1
+local deathKnellCount = 1
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -35,7 +36,7 @@ function mod:GetOptions()
 		286450, -- Necrotic Combo
 		{285671, "TANK"}, -- Crushed
 		{285875, "TANK"}, -- Rending Bite
-		289401, -- Bestial Throw
+		{289401, "SAY", "FLASH"}, -- Bestial Throw
 		282543, -- Deathly Slam
 		285994, -- Ferocious Roar
 		--[[ Death Specter ]]--
@@ -64,7 +65,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "BestialThrow", 289401)
 	self:Log("SPELL_CAST_SUCCESS", "BestialThrowTarget", 289307)
 	self:Log("SPELL_CAST_SUCCESS", "DeathlySlam", 282543)
-	self:Log("SPELL_CAST_START", "FerociousRoar", 285994)
+	self:Log("SPELL_CAST_START", "FerociousRoar", 290574, 285994) -- Mythic, Others
 
 	--[[ Death Specter ]]--
 	self:Log("SPELL_AURA_APPLIED", "GroundDamage", 286373) -- Chill of Death
@@ -81,11 +82,14 @@ end
 
 function mod:OnEngage()
 	addCount = 1
+	deathKnellCount = 1
 	self:Bar(282471, 10.5) -- Voodoo Blast
 	self:Bar(282543, 13.1) -- Deathly Slam
-	self:Bar(282526, 16.8, CL.count:format(CL.add, addCount)) -- DeathSpecter, Add
+	self:Bar(282526, 16.8, CL.count:format(self:Mythic() and CL.adds or CL.add, addCount)) -- DeathSpecter, Add
 	self:Bar(286450, 22)	-- Necrotic Combo
-	self:Bar(285994, 37.5) -- Ferocious Roar
+	if not self:Easy() then
+		self:Bar(285994, 37.5) -- Ferocious Roar
+	end
 end
 
 --------------------------------------------------------------------------------
@@ -101,9 +105,10 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(_, unit, _, spellId)
 end
 
 function mod:DeathKnel(args)
-	self:Message2(args.spellId, "orange")
+	self:Message2(args.spellId, "orange", CL.count:format(args.spellName, deathKnellCount))
 	self:PlaySound(args.spellId, "alarm")
-	self:CastBar(args.spellId, 5) -- 1s + 4s Channel
+	self:CastBar(args.spellId, 5, CL.count:format(args.spellName, deathKnellCount)) -- 1s + 4s Channel
+	deathKnellCount = deathKnellCount + 1
 end
 
 function mod:NecroticCombo(args)
@@ -127,6 +132,10 @@ end
 function mod:BestialThrowTarget(args)
 	self:TargetMessage2(289401, "purple", args.destName)
 	self:PlaySound(289401, "alarm", nil, args.destName)
+	if self:Me(args.destGUID) then
+		self:Say(289401)
+		self:Flash(289401)
+	end
 end
 
 function mod:DeathlySlam(args)
@@ -136,9 +145,9 @@ function mod:DeathlySlam(args)
 end
 
 function mod:FerociousRoar(args)
-	self:Message2(args.spellId, "red")
-	self:PlaySound(args.spellId, "warning")
-	self:Bar(args.spellId, 36.5)
+	self:Message2(285994, "red")
+	self:PlaySound(285994, "warning")
+	self:Bar(285994, 36.5)
 end
 
 --function mod:VoodooBlast(args)
@@ -168,7 +177,7 @@ function mod:DeathSpecter(args)
 	self:Message2(args.spellId, "yellow", CL.incoming:format(CL.count:format(CL.add, addCount)))
 	self:PlaySound(args.spellId, "long")
 	addCount = addCount + 1
-	self:Bar(args.spellId, 60.5, CL.count:format(CL.add, addCount))
+	self:Bar(args.spellId, self:Mythic() and 120 or 60.5, CL.count:format(self:Mythic() and CL.adds or CL.add, addCount))
 end
 
 do

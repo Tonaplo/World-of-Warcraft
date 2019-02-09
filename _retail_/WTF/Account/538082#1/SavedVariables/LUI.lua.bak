@@ -60,17 +60,17 @@ LUIDB = {
 				["Icecrown"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Miriyal"] = 374201398,
-							["Farahn"] = 210466840,
+							["Miriyal"] = 374998937,
+							["Farahn"] = 210754236,
 							["Greybone"] = 987676356,
-							["Faerand"] = 332913006,
-							["Korugen"] = 9448782,
+							["Faerand"] = 333865561,
+							["Korugen"] = 9683963,
 							["Kaldorath"] = 1274216901,
-							["Zearthan"] = 68959333,
-							["Mallusof"] = 814984050,
-							["Thedodrouk"] = 9701036,
-							["Rahran"] = 596537247,
-							["Praerend"] = 1501969960,
+							["Zearthan"] = 75243568,
+							["Mallusof"] = 2176717654,
+							["Thedodrouk"] = 97708183,
+							["Rahran"] = 597570982,
+							["Praerend"] = 1504745781,
 						},
 					},
 				},
@@ -86,9 +86,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Rentror"] = 470,
 							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
+							["Rentror"] = 470,
 							["Gorog"] = 993959,
 						},
 					},
@@ -223,14 +223,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -258,16 +264,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1638,38 +1638,38 @@ LUIDB = {
 							"/1 thanks", -- [32]
 						},
 						["Alliance - Icecrown"] = {
-							"/g night night! :)", -- [1]
-							"/raid IT seriously messes up my frames :P", -- [2]
-							"/raid :P", -- [3]
-							"/raid You have to fix groups", -- [4]
-							"/raid Please fix groups to 5 again", -- [5]
-							"/raid Thanks alot :)", -- [6]
-							"/raid 100% crit", -- [7]
-							"/cw Celedhring-Icecrown I thought Peter fixed that?", -- [8]
-							"/raid Is there an enchanter here? I need Quick Nav", -- [9]
-							"/cw Jojomcblow-Malygos Like, I cant give anything to you", -- [10]
-							"/cw Jojomcblow-Malygos I could trade gold", -- [11]
-							"/cw Jojomcblow-Malygos hmm", -- [12]
-							"/raid Int please :)", -- [13]
-							"/raid rofl", -- [14]
-							"/raid ty", -- [15]
-							" I went to bed way too late yesterday", -- [16]
-							"/raid Thanks! :)", -- [17]
-							"/raid IT seriously messes up my frames :P", -- [18]
-							"/raid You have to fix groups", -- [19]
-							"/raid Thanks alot :)", -- [20]
-							"/cw Celedhring-Icecrown I thought Peter fixed that?", -- [21]
-							"/cw Jojomcblow-Malygos Like, I cant give anything to you", -- [22]
-							"/cw Jojomcblow-Malygos hmm", -- [23]
-							"/raid rofl", -- [24]
-							" I went to bed way too late yesterday", -- [25]
-							"/raid IT seriously messes up my frames :P", -- [26]
-							"/raid Thanks alot :)", -- [27]
-							"/cw Jojomcblow-Malygos Like, I cant give anything to you", -- [28]
-							"/raid rofl", -- [29]
-							"/raid IT seriously messes up my frames :P", -- [30]
-							"/cw Jojomcblow-Malygos Like, I cant give anything to you", -- [31]
-							"/raid IT seriously messes up my frames :P", -- [32]
+							"/p have a good one!", -- [1]
+							"/p queue us then", -- [2]
+							"/p Is Vyni coming back?", -- [3]
+							"/p Yeah", -- [4]
+							"/p not needed", -- [5]
+							"/p Aoe all", -- [6]
+							"/p there we go", -- [7]
+							"/p hug", -- [8]
+							"/p well", -- [9]
+							"/p yup", -- [10]
+							"/p go die", -- [11]
+							"/p run out and reset", -- [12]
+							"/p have a good one", -- [13]
+							"/p shuld have been>", -- [14]
+							"/p Aeonex, you there?", -- [15]
+							"/p aoe", -- [16]
+							"/p thanks alot! Thats all I needed", -- [17]
+							"/p queue us then", -- [18]
+							"/p Yeah", -- [19]
+							"/p Aoe all", -- [20]
+							"/p hug", -- [21]
+							"/p yup", -- [22]
+							"/p run out and reset", -- [23]
+							"/p shuld have been>", -- [24]
+							"/p aoe", -- [25]
+							"/p queue us then", -- [26]
+							"/p Aoe all", -- [27]
+							"/p yup", -- [28]
+							"/p shuld have been>", -- [29]
+							"/p queue us then", -- [30]
+							"/p yup", -- [31]
+							"/p queue us then", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/1 Yeah in Zuldazar, but not here?", -- [1]
