@@ -39,7 +39,7 @@ end
 -- Initialization
 --
 
-local searingEmbersMarker = mod:AddMarkerOption(false, "player", 1, 286988, 1, 2, 3) -- Searing Embers
+local searingEmbersMarker = mod:AddMarkerOption(false, "player", 1, 286988, 1, 2, 3, 4) -- Searing Embers
 function mod:GetOptions()
 	return {
 		"stages",
@@ -53,7 +53,7 @@ function mod:GetOptions()
 		282037, -- Rising Flames
 		286379, -- Pyroblast
 		{286425, "INFOBOX"}, -- Fire Shield
-		{286988, "SAY"}, -- Searing Embers
+		286988, -- Searing Embers
 		searingEmbersMarker,
 		284374, -- Magma Trap
 		-- Team Attacks
@@ -331,13 +331,12 @@ do
 			self:CDBar(args.spellId, 40)
 		end
 		if self:Me(args.destGUID) then
-			self:Say(args.spellId)
 			self:PlaySound(args.spellId, "alarm")
 		end
 		if self:GetOption(searingEmbersMarker) then
 			SetRaidTarget(args.destName, playerIconsCount)
 		end
-		self:TargetsMessage(args.spellId, "orange", playerList, 3, nil, nil, nil, playerIcons)
+		self:TargetsMessage(args.spellId, "orange", playerList, self:Easy() and 3 or 4, nil, nil, nil, playerIcons)
 	end
 
 	function mod:SearingEmbersRemoved(args)

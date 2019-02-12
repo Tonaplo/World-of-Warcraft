@@ -138,7 +138,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "CoinShowerApplied", 285014)
 	self:Log("SPELL_AURA_REMOVED", "CoinShowerRemoved", 285014)
 	self:Log("SPELL_CAST_START", "WailofGreed", 284941)
-	self:Log("SPELL_AURA_APPLIED", "CoinSweepApplied", 287037)
+	self:Log("SPELL_CAST_SUCCESS", "CoinSweep", 287037)
 	self:Log("SPELL_CAST_START", "SurgingGold", 289155)
 	self:Log("SPELL_CAST_SUCCESS", "SurgingGoldSuccess", 289155)
 
@@ -583,6 +583,7 @@ function mod:HoardPower(args)
 	self:StopBar(L.swap) -- Chaotic Displacement
 
 	self:CDBar(287072, 14.5) -- Liquid Gold
+	self:CDBar(287037, 16.3) -- Coin Sweep
 	self:CDBar(285014, 16.7) -- Coin Shower
 	self:CDBar(285995, 28, CL.count:format(self:SpellName(285995), spiritsofGoldCount)) -- Spirits of Gold (x)
 	self:Bar(289155, 46.2) -- Surging Gold
@@ -666,12 +667,14 @@ function mod:WailofGreed(args)
 	self:PlaySound(args.spellId, "warning")
 	self:CastBar(args.spellId, 12, CL.count:format(args.spellName, wailofGreedCount)) -- 2s cast, 10s channel
 	wailofGreedCount = wailofGreedCount + 1
-	self:CDBar(args.spellId, 62, CL.count:format(args.spellName, wailofGreedCount))
+	self:CDBar(args.spellId, self:Mythic() and 62 or 72, CL.count:format(args.spellName, wailofGreedCount))
+	self:CDBar(287037, 12.7) -- Coin Sweep
 end
 
-function mod:CoinSweepApplied(args)
-	self:StackMessage(args.spellId, args.destName, args.amount, "purple")
-	self:PlaySound(args.spellId, "alarm", nil, args.destName)
+function mod:CoinSweep(args)
+	self:Message2(args.spellId, "purple")
+	self:PlaySound(args.spellId, "alarm")
+	self:CDBar(args.spellId, 10.9)
 end
 
 function mod:SurgingGold(args)

@@ -64,11 +64,11 @@ LUIDB = {
 							["Farahn"] = 210754236,
 							["Greybone"] = 987676356,
 							["Faerand"] = 333865561,
-							["Korugen"] = 9683963,
+							["Korugen"] = 10127351,
 							["Kaldorath"] = 1274216901,
 							["Zearthan"] = 75243568,
 							["Mallusof"] = 2176717654,
-							["Thedodrouk"] = 97708183,
+							["Thedodrouk"] = 122320516,
 							["Rahran"] = 597570982,
 							["Praerend"] = 1504745781,
 						},
@@ -86,9 +86,9 @@ LUIDB = {
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Zaliga"] = 8607092,
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
+							["Zaliga"] = 8607092,
 							["Gorog"] = 993959,
 						},
 					},
@@ -223,6 +223,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -233,10 +238,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -264,10 +265,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1643,28 +1643,28 @@ LUIDB = {
 							"/p Is Vyni coming back?", -- [3]
 							"/p Yeah", -- [4]
 							"/p not needed", -- [5]
-							"/p Aoe all", -- [6]
+							"/p well", -- [6]
 							"/p there we go", -- [7]
-							"/p hug", -- [8]
-							"/p well", -- [9]
+							"/p have a good one", -- [8]
+							"/p Aeonex, you there?", -- [9]
 							"/p yup", -- [10]
 							"/p go die", -- [11]
-							"/p run out and reset", -- [12]
-							"/p have a good one", -- [13]
+							"/p hug", -- [12]
+							"/p run out and reset", -- [13]
 							"/p shuld have been>", -- [14]
-							"/p Aeonex, you there?", -- [15]
+							"/p Aoe all", -- [15]
 							"/p aoe", -- [16]
 							"/p thanks alot! Thats all I needed", -- [17]
 							"/p queue us then", -- [18]
 							"/p Yeah", -- [19]
-							"/p Aoe all", -- [20]
-							"/p hug", -- [21]
+							"/p well", -- [20]
+							"/p have a good one", -- [21]
 							"/p yup", -- [22]
-							"/p run out and reset", -- [23]
+							"/p hug", -- [23]
 							"/p shuld have been>", -- [24]
 							"/p aoe", -- [25]
 							"/p queue us then", -- [26]
-							"/p Aoe all", -- [27]
+							"/p well", -- [27]
 							"/p yup", -- [28]
 							"/p shuld have been>", -- [29]
 							"/p queue us then", -- [30]

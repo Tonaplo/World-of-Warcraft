@@ -109,7 +109,7 @@ BigWigs:AddColors("Opulence", {
 	[285995] = "yellow",
 	[286026] = "orange",
 	[286541] = "cyan",
-	[287037] = {"blue","purple"},
+	[287037] = "purple",
 	[287070] = "cyan",
 	[287072] = {"blue","yellow"},
 	[287074] = "blue",
