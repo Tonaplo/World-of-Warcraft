@@ -1,1278 +1,1277 @@
 
 Blizzard_Console_SavedVars = {
 	["version"] = 3,
-	["height"] = 300,
 	["messageHistory"] = {
 		{
-			"Ripple detail changed to 1", -- [1]
+			"Time set to 2/12/2019 (Tue) 14:11", -- [1]
 			0, -- [2]
 		}, -- [1]
 		{
-			"Reflection mode changed to 0", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [2]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [3]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"   Player 0 Player-104-0A10F15D  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [4]
 		{
-			"Refraction mode changed to 2", -- [1]
+			"     Slot   0, Species 1934, Health 1627, Level  25, DisplayID 72658, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [5]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"        abilities : 228, 232, 934,", -- [1]
 			0, -- [2]
 		}, -- [6]
 		{
-			"Alpha map bit depth set to 8bit on restart.", -- [1]
+			"     Slot   1, Species 2184, Health 1315, Level  21, DisplayID 86020, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [7]
 		{
-			"Volume fog enabled.", -- [1]
+			"        abilities : 477, 481, 1955,", -- [1]
 			0, -- [2]
 		}, -- [8]
 		{
-			"Projected textures enabled.", -- [1]
+			"     Slot   2, Species 1926, Health 1546, Level  25, DisplayID 71938, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [9]
 		{
-			"Shadow mode changed to 2 - 3 band dynamic shadows, 2048", -- [1]
+			"        abilities : 1570, 1068, 315,", -- [1]
 			0, -- [2]
 		}, -- [10]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [11]
 		{
-			"Soft shadows changed to 0.", -- [1]
+			"     Slot   0, Species 949, Health 1012, Level  19, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [12]
 		{
-			"SSAO mode set to 3", -- [1]
+			"        abilities : 398, 318, 303,", -- [1]
 			0, -- [2]
 		}, -- [13]
 		{
-			"Depth Based Opacity Enabled", -- [1]
+			"     Slot   1, Species 948, Health 1012, Level  19, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [14]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"        abilities : 210, 592, 476,", -- [1]
 			0, -- [2]
 		}, -- [15]
 		{
-			"Texture filtering mode updated. Pending GxRestart", -- [1]
+			"     Slot   2, Species 947, Health 1115, Level  19, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [16]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"        abilities : 422, 657, 121,", -- [1]
 			0, -- [2]
 		}, -- [17]
 		{
-			"Outline mode changed to 2", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [18]
 		{
-			"LightBuffer mode changed to 2", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [19]
 		{
-			"Physics interaction level changed to 1", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [20]
 		{
-			"Render scale changed to 1", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [21]
 		{
-			"Resample quality changed to 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [22]
 		{
-			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [23]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [24]
 		{
-			"Component texture lod changed to 0", -- [1]
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68211) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [25]
 		{
-			"Component texture lod changed to 0", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [26]
 		{
-			"World preload object sort enabled.", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [27]
 		{
-			"World load object sort enabled.", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [28]
 		{
-			"World preload non critical enabled.", -- [1]
+			"  P1 PET 1 performs AURA_CHANGE    on P0 PET 0 : (968,11,1,0) :Ability(1418), Turn(2362), Effect(2846), Flags(8192)", -- [1]
 			0, -- [2]
 		}, -- [29]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68751) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [30]
 		{
-			"FFX: Anti Aliasing Mode disabled", -- [1]
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [31]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [32]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [33]
 		{
-			"Error display disabled", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [34]
 		{
-			"Error display shown", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [35]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [36]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [37]
 		{
-			"Now filtering: all messages", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [38]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [39]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [40]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [41]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [42]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [43]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Proficiency in item class 2 set to 0x0000000480", -- [1]
 			0, -- [2]
 		}, -- [44]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Proficiency in item class 2 set to 0x0000008480", -- [1]
 			0, -- [2]
 		}, -- [45]
 		{
-			"[IBN_Login] Attempting logonhost=\"us.actual.battle.net\" port=\"1119\"", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [46]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 2 set to 0x000000c480", -- [1]
 			0, -- [2]
 		}, -- [47]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
 		}, -- [48]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [49]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
 		}, -- [50]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [51]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [52]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Time set to 2/12/2019 (Tue) 14:15", -- [1]
 			0, -- [2]
 		}, -- [53]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [54]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [55]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"4\"", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [56]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [57]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-5-26\"", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [58]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [59]
 		{
-			"NetClient::HandleCantConnect()\n", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [60]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [61]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [62]
 		{
-			"Got new connection 2", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [63]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [64]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [65]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [66]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [67]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [68]
 		{
-			"[IBN_Login] Requesting change realm list", -- [1]
+			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [69]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [70]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Water detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [71]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Ripple detail changed to 1", -- [1]
 			0, -- [2]
 		}, -- [72]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"Reflection mode changed to 0", -- [1]
 			0, -- [2]
 		}, -- [73]
 		{
-			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [74]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [75]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-3-7\"", -- [1]
+			"Refraction mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [76]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [77]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
+			"Alpha map bit depth set to 8bit on restart.", -- [1]
 			0, -- [2]
 		}, -- [78]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [79]
 		{
-			"NetClient::HandleCantConnect()\n", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [80]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Shadow mode changed to 2 - 3 band dynamic shadows, 2048", -- [1]
 			0, -- [2]
 		}, -- [81]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
 		}, -- [82]
 		{
-			"Got new connection 2", -- [1]
+			"Soft shadows changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [83]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"SSAO mode set to 3", -- [1]
 			0, -- [2]
 		}, -- [84]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Depth Based Opacity Enabled", -- [1]
 			0, -- [2]
 		}, -- [85]
 		{
-			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
+			"SkyCloudLOD set to 0", -- [1]
+			0, -- [2]
 		}, -- [86]
 		{
-			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
+			"Texture filtering mode updated. Pending GxRestart", -- [1]
+			0, -- [2]
 		}, -- [87]
 		{
-			"Got new connection 3", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [88]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"Outline mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [89]
 		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			"LightBuffer mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [90]
 		{
-			"Proficiency in item class 2 set to 0x0000000085", -- [1]
+			"Physics interaction level changed to 1", -- [1]
 			0, -- [2]
 		}, -- [91]
 		{
-			"Proficiency in item class 2 set to 0x000000008d", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [92]
 		{
-			"Proficiency in item class 2 set to 0x000000009d", -- [1]
+			"Resample quality changed to 0", -- [1]
 			0, -- [2]
 		}, -- [93]
 		{
-			"Proficiency in item class 2 set to 0x000000809d", -- [1]
+			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
 			0, -- [2]
 		}, -- [94]
 		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [95]
 		{
-			"Proficiency in item class 2 set to 0x000000c09d", -- [1]
+			"Component texture lod changed to 0", -- [1]
 			0, -- [2]
 		}, -- [96]
 		{
-			"Proficiency in item class 2 set to 0x000004c09d", -- [1]
+			"Component texture lod changed to 0", -- [1]
 			0, -- [2]
 		}, -- [97]
 		{
-			"Proficiency in item class 4 set to 0x0000000025", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [98]
 		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [99]
 		{
-			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [100]
 		{
-			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [101]
 		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			"FFX: Anti Aliasing Mode disabled", -- [1]
 			0, -- [2]
 		}, -- [102]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [103]
 		{
-			"Time set to 2/12/2019 (Tue) 1:29", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [104]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [105]
 		{
-			"PetBattle Initial Update", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [106]
 		{
-			"   Player 0 Player-7-0B43709A  frontPet 0 ", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [107]
 		{
-			"     Slot   0, Species 1152, Health 1644, Level  25, DisplayID 46925, CollarID 0", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [108]
 		{
-			"        abilities : 299, 611, 593,", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [109]
 		{
-			"     Slot   1, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [110]
 		{
-			"        abilities : 449, 299, 650,", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [111]
 		{
-			"     Slot   2, Species 1587, Health 1481, Level  25, DisplayID 60891, CollarID 0", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [112]
 		{
-			"        abilities : 420, 521, 508,", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [113]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [114]
 		{
-			"     Slot   0, Species 879, Health 345, Level   5, DisplayID 0, CollarID 0", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [115]
 		{
-			"        abilities : 119, 159, 360,", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [116]
 		{
-			"     Slot   1, Species 878, Health 334, Level   5, DisplayID 0, CollarID 0", -- [1]
+			"[IBN_Login] Attempting logonhost=\"us.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [117]
 		{
-			"        abilities : 119, 162, 360,", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [118]
 		{
-			"     Slot   2, Species 877, Health 345, Level   5, DisplayID 0, CollarID 0", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [119]
 		{
-			"        abilities : 119, 312, 163,", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [120]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [121]
 		{
-			"---Battle Begin---", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [122]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [123]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [124]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [125]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [126]
 		{
-			"---Replacements made---", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"4\"", -- [1]
 			0, -- [2]
 		}, -- [127]
 		{
-			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68040) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [128]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-5-26\"", -- [1]
 			0, -- [2]
 		}, -- [129]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [130]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [131]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [132]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [133]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [134]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [135]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [136]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [137]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"[IBN_Login] Requesting change realm list", -- [1]
 			0, -- [2]
 		}, -- [138]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [139]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [140]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [141]
 		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [142]
 		{
-			"Proficiency in item class 2 set to 0x0000000085", -- [1]
+			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
 			0, -- [2]
 		}, -- [143]
 		{
-			"Proficiency in item class 2 set to 0x000000008d", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [144]
 		{
-			"Proficiency in item class 2 set to 0x000000009d", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-3-7\"", -- [1]
 			0, -- [2]
 		}, -- [145]
 		{
-			"Proficiency in item class 2 set to 0x000000019d", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [146]
 		{
-			"Proficiency in item class 2 set to 0x000000059d", -- [1]
+			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
 		}, -- [147]
 		{
-			"Proficiency in item class 2 set to 0x00000005bd", -- [1]
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
 		}, -- [148]
 		{
-			"Proficiency in item class 2 set to 0x00000005bf", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [149]
 		{
-			"Proficiency in item class 2 set to 0x00000085bf", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [150]
 		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			"Got new connection 2", -- [1]
 			0, -- [2]
 		}, -- [151]
 		{
-			"Proficiency in item class 2 set to 0x000000c5bf", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [152]
 		{
-			"Proficiency in item class 2 set to 0x000004c5bf", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [153]
 		{
-			"Proficiency in item class 2 set to 0x000004c5ff", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [154]
 		{
-			"Proficiency in item class 4 set to 0x0000000031", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [155]
 		{
-			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [156]
 		{
-			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [157]
 		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [158]
 		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			"Proficiency in item class 2 set to 0x0000000085", -- [1]
 			0, -- [2]
 		}, -- [159]
 		{
-			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
+			"Proficiency in item class 2 set to 0x000000008d", -- [1]
 			0, -- [2]
 		}, -- [160]
 		{
-			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
+			"Proficiency in item class 2 set to 0x000000009d", -- [1]
 			0, -- [2]
 		}, -- [161]
 		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			"Proficiency in item class 2 set to 0x000000019d", -- [1]
 			0, -- [2]
 		}, -- [162]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x000000059d", -- [1]
 			0, -- [2]
 		}, -- [163]
 		{
-			"Time set to 2/12/2019 (Tue) 1:32", -- [1]
+			"Proficiency in item class 2 set to 0x00000005bd", -- [1]
 			0, -- [2]
 		}, -- [164]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Proficiency in item class 2 set to 0x00000005bf", -- [1]
 			0, -- [2]
 		}, -- [165]
 		{
-			"PetBattle Initial Update", -- [1]
+			"Proficiency in item class 2 set to 0x00000085bf", -- [1]
 			0, -- [2]
 		}, -- [166]
 		{
-			"   Player 0 Player-7-0B437094  frontPet 0 ", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [167]
 		{
-			"     Slot   0, Species 1387, Health 1400, Level  25, DisplayID 53748, CollarID 0", -- [1]
+			"Proficiency in item class 2 set to 0x000000c5bf", -- [1]
 			0, -- [2]
 		}, -- [168]
 		{
-			"        abilities : 459, 640, 282,", -- [1]
+			"Proficiency in item class 2 set to 0x000004c5bf", -- [1]
 			0, -- [2]
 		}, -- [169]
 		{
-			"     Slot   1, Species 1451, Health 1400, Level  25, DisplayID 58570, CollarID 0", -- [1]
+			"Proficiency in item class 2 set to 0x000004c5ff", -- [1]
 			0, -- [2]
 		}, -- [170]
 		{
-			"        abilities : 1359, 1357, 1354,", -- [1]
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
 			0, -- [2]
 		}, -- [171]
 		{
-			"     Slot   2, Species 297, Health 1400, Level  25, DisplayID 37541, CollarID 0", -- [1]
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
 			0, -- [2]
 		}, -- [172]
 		{
-			"        abilities : 812, 179, 330,", -- [1]
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
 			0, -- [2]
 		}, -- [173]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
 			0, -- [2]
 		}, -- [174]
 		{
-			"     Slot   0, Species 893, Health 240, Level   3, DisplayID 0, CollarID 0", -- [1]
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
 			0, -- [2]
 		}, -- [175]
 		{
-			"        abilities : 493, 254, 163,", -- [1]
+			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
 			0, -- [2]
 		}, -- [176]
 		{
-			"     Slot   1, Species 892, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
+			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
 			0, -- [2]
 		}, -- [177]
 		{
-			"        abilities : 493, 574, 376,", -- [1]
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
 			0, -- [2]
 		}, -- [178]
 		{
-			"     Slot   2, Species 891, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [179]
 		{
-			"        abilities : 429, 492, 536,", -- [1]
+			"Time set to 2/14/2019 (Thu) 1:16", -- [1]
 			0, -- [2]
 		}, -- [180]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [181]
 		{
-			"---Battle Begin---", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [182]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"   Player 0 Player-7-0B437094  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [183]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"     Slot   0, Species 1387, Health 1400, Level  25, DisplayID 53748, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [184]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"        abilities : 459, 640, 282,", -- [1]
 			0, -- [2]
 		}, -- [185]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"     Slot   1, Species 1451, Health 1400, Level  25, DisplayID 58570, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [186]
 		{
-			"---Replacements made---", -- [1]
+			"        abilities : 1359, 1357, 1354,", -- [1]
 			0, -- [2]
 		}, -- [187]
 		{
-			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68064) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"     Slot   2, Species 297, Health 1400, Level  25, DisplayID 37541, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [188]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 812, 179, 330,", -- [1]
 			0, -- [2]
 		}, -- [189]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [190]
 		{
-			"---Replacements made---", -- [1]
+			"     Slot   0, Species 893, Health 240, Level   3, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [191]
 		{
-			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68734) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"        abilities : 493, 254, 163,", -- [1]
 			0, -- [2]
 		}, -- [192]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"     Slot   1, Species 892, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [193]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 493, 574, 376,", -- [1]
 			0, -- [2]
 		}, -- [194]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"     Slot   2, Species 891, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [195]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"        abilities : 429, 492, 536,", -- [1]
 			0, -- [2]
 		}, -- [196]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [197]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [198]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [199]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [200]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [201]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [202]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [203]
 		{
-			"Got new connection 3", -- [1]
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68064) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [204]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [205]
 		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [206]
 		{
-			"Proficiency in item class 2 set to 0x0000000091", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [207]
 		{
-			"Proficiency in item class 2 set to 0x0000000191", -- [1]
+			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68734) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [208]
 		{
-			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [209]
 		{
-			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [210]
 		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [211]
 		{
-			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [212]
 		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [213]
 		{
-			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [214]
 		{
-			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [215]
 		{
-			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [216]
 		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [217]
 		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [218]
 		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [219]
 		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [220]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
 		}, -- [221]
 		{
-			"Time set to 2/12/2019 (Tue) 1:34", -- [1]
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
 		}, -- [222]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
 			0, -- [2]
 		}, -- [223]
 		{
-			"PetBattle Initial Update", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [224]
 		{
-			"   Player 0 Player-7-0B437099  frontPet 0 ", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [225]
 		{
-			"     Slot   0, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [226]
 		{
-			"        abilities : 449, 299, 650,", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [227]
 		{
-			"     Slot   1, Species 1229, Health 503, Level   8, DisplayID 48662, CollarID 0", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [228]
 		{
-			"        abilities : 113, 409, 567,", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [229]
 		{
-			"     Slot   2, Species 1706, Health 646, Level   8, DisplayID 65070, CollarID 0", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [230]
 		{
-			"        abilities : 429, 247, 345,", -- [1]
+			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [231]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [232]
 		{
-			"     Slot   0, Species 876, Health 247, Level   3, DisplayID 0, CollarID 0", -- [1]
+			"Water detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [233]
 		{
-			"        abilities : 384, 389, 390,", -- [1]
+			"Ripple detail changed to 1", -- [1]
 			0, -- [2]
 		}, -- [234]
 		{
-			"     Slot   1, Species 875, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
+			"Reflection mode changed to 0", -- [1]
 			0, -- [2]
 		}, -- [235]
 		{
-			"        abilities : 112, 524, 581,", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [236]
 		{
-			"     Slot   2, Species 874, Health 240, Level   3, DisplayID 0, CollarID 0", -- [1]
+			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [237]
 		{
-			"        abilities : 119, 360, 283,", -- [1]
+			"Refraction mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [238]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [239]
 		{
-			"---Battle Begin---", -- [1]
+			"Alpha map bit depth set to 8bit on restart.", -- [1]
 			0, -- [2]
 		}, -- [240]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [241]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [242]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Shadow mode changed to 2 - 3 band dynamic shadows, 2048", -- [1]
 			0, -- [2]
 		}, -- [243]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
 		}, -- [244]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"Soft shadows changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [245]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"SSAO mode set to 3", -- [1]
 			0, -- [2]
 		}, -- [246]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"Depth Based Opacity Enabled", -- [1]
 			0, -- [2]
 		}, -- [247]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
 		}, -- [248]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Texture filtering mode updated. Pending GxRestart", -- [1]
 			0, -- [2]
 		}, -- [249]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [250]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"Outline mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [251]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"LightBuffer mode changed to 2", -- [1]
 			0, -- [2]
 		}, -- [252]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Physics interaction level changed to 1", -- [1]
 			0, -- [2]
 		}, -- [253]
 		{
-			"Got new connection 3", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [254]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"Resample quality changed to 0", -- [1]
 			0, -- [2]
 		}, -- [255]
 		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
 			0, -- [2]
 		}, -- [256]
 		{
-			"Proficiency in item class 2 set to 0x0000000085", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [257]
 		{
-			"Proficiency in item class 2 set to 0x000000008d", -- [1]
+			"Component texture lod changed to 0", -- [1]
 			0, -- [2]
 		}, -- [258]
 		{
-			"Proficiency in item class 2 set to 0x000000009d", -- [1]
+			"Component texture lod changed to 0", -- [1]
 			0, -- [2]
 		}, -- [259]
 		{
-			"Proficiency in item class 2 set to 0x000000809d", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [260]
 		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [261]
 		{
-			"Proficiency in item class 2 set to 0x000000c09d", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [262]
 		{
-			"Proficiency in item class 2 set to 0x000004c09d", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [263]
 		{
-			"Proficiency in item class 4 set to 0x0000000025", -- [1]
+			"FFX: Anti Aliasing Mode disabled", -- [1]
 			0, -- [2]
 		}, -- [264]
 		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [265]
 		{
-			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [266]
 		{
-			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [267]
 		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [268]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [269]
 		{
-			"Time set to 2/12/2019 (Tue) 1:36", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [270]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [271]
 		{
-			"PetBattle Initial Update", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [272]
 		{
-			"   Player 0 Player-7-0B447E38  frontPet 0 ", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [273]
 		{
-			"     Slot   0, Species 1387, Health 1400, Level  25, DisplayID 53748, CollarID 0", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [274]
 		{
-			"        abilities : 459, 640, 208,", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [275]
 		{
-			"     Slot   1, Species 471, Health 1546, Level  25, DisplayID 7920, CollarID 0", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [276]
 		{
-			"        abilities : 455, 533, 459,", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [277]
 		{
-			"     Slot   2, Species 844, Health 1400, Level  25, DisplayID 45386, CollarID 0", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [278]
 		{
-			"        abilities : 115, 647, 334,", -- [1]
+			"[IBN_Login] Attempting logonhost=\"us.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [279]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [280]
 		{
-			"     Slot   0, Species 882, Health 443, Level   7, DisplayID 0, CollarID 0", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [281]
 		{
-			"        abilities : 378, 339, 380,", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [282]
 		{
-			"     Slot   1, Species 881, Health 408, Level   7, DisplayID 0, CollarID 0", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [283]
 		{
-			"        abilities : 378, 339, 383,", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [284]
 		{
-			"     Slot   2, Species 880, Health 443, Level   7, DisplayID 0, CollarID 0", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [285]
 		{
-			"        abilities : 380, 382, 250,", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [286]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [287]
 		{
-			"---Battle Begin---", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [288]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"4\"", -- [1]
 			0, -- [2]
 		}, -- [289]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [290]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-3-7\"", -- [1]
 			0, -- [2]
 		}, -- [291]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [292]
 		{
-			"---Replacements made---", -- [1]
+			"NetClient::HandleCantConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [293]
 		{
-			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68731) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [294]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [295]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [296]
 		{
-			"---Replacements made---", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [297]
 		{
-			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68046) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [298]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [299]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [300]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [301]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [302]
 		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [303]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [304]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [305]
-		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
-			0, -- [2]
-		}, -- [306]
-		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
-			0, -- [2]
-		}, -- [307]
-		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [308]
-		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [309]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [310]
+		}, -- [304]
 		{
 			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
-		}, -- [311]
+		}, -- [305]
 		{
 			"Proficiency in item class 2 set to 0x0000000081", -- [1]
 			0, -- [2]
-		}, -- [312]
+		}, -- [306]
 		{
 			"Proficiency in item class 2 set to 0x0000000091", -- [1]
 			0, -- [2]
-		}, -- [313]
+		}, -- [307]
 		{
 			"Proficiency in item class 2 set to 0x0000000191", -- [1]
 			0, -- [2]
-		}, -- [314]
+		}, -- [308]
 		{
 			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
 			0, -- [2]
-		}, -- [315]
+		}, -- [309]
 		{
 			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
 			0, -- [2]
-		}, -- [316]
+		}, -- [310]
 		{
 			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
-		}, -- [317]
+		}, -- [311]
 		{
 			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
+			0, -- [2]
+		}, -- [312]
+		{
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			0, -- [2]
+		}, -- [313]
+		{
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			0, -- [2]
+		}, -- [314]
+		{
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			0, -- [2]
+		}, -- [315]
+		{
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			0, -- [2]
+		}, -- [316]
+		{
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			0, -- [2]
+		}, -- [317]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
 			0, -- [2]
 		}, -- [318]
 		{
@@ -1280,548 +1279,548 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [319]
 		{
-			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
 			0, -- [2]
 		}, -- [320]
 		{
-			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [321]
 		{
-			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			"Time set to 2/14/2019 (Thu) 1:19", -- [1]
 			0, -- [2]
 		}, -- [322]
 		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [323]
 		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [324]
 		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			"   Player 0 Player-7-0B437099  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [325]
 		{
-			"Weather changed to 2, intensity 0.800000\n", -- [1]
+			"     Slot   0, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [326]
 		{
-			"Time set to 2/12/2019 (Tue) 1:38", -- [1]
+			"        abilities : 449, 299, 650,", -- [1]
 			0, -- [2]
 		}, -- [327]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"     Slot   1, Species 1229, Health 503, Level   8, DisplayID 48662, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [328]
 		{
-			"PetBattle Initial Update", -- [1]
+			"        abilities : 113, 409, 567,", -- [1]
 			0, -- [2]
 		}, -- [329]
 		{
-			"   Player 0 Player-7-0B437180  frontPet 0 ", -- [1]
+			"     Slot   2, Species 1706, Health 646, Level   8, DisplayID 65070, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [330]
 		{
-			"     Slot   0, Species 1152, Health 1644, Level  25, DisplayID 46925, CollarID 0", -- [1]
+			"        abilities : 429, 247, 345,", -- [1]
 			0, -- [2]
 		}, -- [331]
 		{
-			"        abilities : 299, 611, 593,", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [332]
 		{
-			"     Slot   1, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
+			"     Slot   0, Species 876, Health 247, Level   3, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [333]
 		{
-			"        abilities : 449, 299, 650,", -- [1]
+			"        abilities : 384, 389, 390,", -- [1]
 			0, -- [2]
 		}, -- [334]
 		{
-			"     Slot   2, Species 1587, Health 1481, Level  25, DisplayID 60891, CollarID 0", -- [1]
+			"     Slot   1, Species 875, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [335]
 		{
-			"        abilities : 420, 521, 508,", -- [1]
+			"        abilities : 112, 524, 581,", -- [1]
 			0, -- [2]
 		}, -- [336]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"     Slot   2, Species 874, Health 240, Level   3, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [337]
 		{
-			"     Slot   0, Species 888, Health 661, Level  11, DisplayID 0, CollarID 0", -- [1]
+			"        abilities : 119, 360, 283,", -- [1]
 			0, -- [2]
 		}, -- [338]
 		{
-			"        abilities : 111, 757, 230,", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [339]
 		{
-			"     Slot   1, Species 887, Health 628, Level  11, DisplayID 0, CollarID 0", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [340]
 		{
-			"        abilities : 420, 521, 190,", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [341]
 		{
-			"     Slot   2, Species 886, Health 687, Level  11, DisplayID 0, CollarID 0", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [342]
 		{
-			"        abilities : 170, 202, 162,", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [343]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [344]
 		{
-			"---Battle Begin---", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [345]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [346]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [347]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [348]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [349]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [350]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [351]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [352]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [353]
 		{
-			"[IBN_Login] Requesting change realm list", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [354]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [355]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [356]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000085", -- [1]
 			0, -- [2]
 		}, -- [357]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"Proficiency in item class 2 set to 0x000000008d", -- [1]
 			0, -- [2]
 		}, -- [358]
 		{
-			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
+			"Proficiency in item class 2 set to 0x000000009d", -- [1]
 			0, -- [2]
 		}, -- [359]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"Proficiency in item class 2 set to 0x000000809d", -- [1]
 			0, -- [2]
 		}, -- [360]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-5-26\"", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [361]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Proficiency in item class 2 set to 0x000000c09d", -- [1]
 			0, -- [2]
 		}, -- [362]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
+			"Proficiency in item class 2 set to 0x000004c09d", -- [1]
 			0, -- [2]
 		}, -- [363]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000025", -- [1]
 			0, -- [2]
 		}, -- [364]
 		{
-			"NetClient::HandleCantConnect()\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
 			0, -- [2]
 		}, -- [365]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
 			0, -- [2]
 		}, -- [366]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
 			0, -- [2]
 		}, -- [367]
 		{
-			"Got new connection 2", -- [1]
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
 			0, -- [2]
 		}, -- [368]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [369]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Time set to 2/14/2019 (Thu) 1:21", -- [1]
 			0, -- [2]
 		}, -- [370]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [371]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [372]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"   Player 0 Player-7-0B43709A  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [373]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"     Slot   0, Species 1152, Health 1644, Level  25, DisplayID 46925, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [374]
 		{
-			"Got new connection 3", -- [1]
+			"        abilities : 299, 611, 593,", -- [1]
 			0, -- [2]
 		}, -- [375]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"     Slot   1, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [376]
 		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			"        abilities : 449, 299, 650,", -- [1]
 			0, -- [2]
 		}, -- [377]
 		{
-			"Proficiency in item class 2 set to 0x0000000091", -- [1]
+			"     Slot   2, Species 1587, Health 1481, Level  25, DisplayID 60891, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [378]
 		{
-			"Proficiency in item class 2 set to 0x0000000191", -- [1]
+			"        abilities : 420, 521, 508,", -- [1]
 			0, -- [2]
 		}, -- [379]
 		{
-			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [380]
 		{
-			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
+			"     Slot   0, Species 879, Health 345, Level   5, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [381]
 		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			"        abilities : 119, 159, 360,", -- [1]
 			0, -- [2]
 		}, -- [382]
 		{
-			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
+			"     Slot   1, Species 878, Health 334, Level   5, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [383]
 		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			"        abilities : 119, 162, 360,", -- [1]
 			0, -- [2]
 		}, -- [384]
 		{
-			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			"     Slot   2, Species 877, Health 345, Level   5, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [385]
 		{
-			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			"        abilities : 119, 312, 163,", -- [1]
 			0, -- [2]
 		}, -- [386]
 		{
-			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [387]
 		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [388]
 		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [389]
 		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [390]
 		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [391]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [392]
 		{
-			"Time set to 2/12/2019 (Tue) 1:41", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [393]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68040) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [394]
 		{
-			"PetBattle Initial Update", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [395]
 		{
-			"   Player 0 Player-104-0A10F15D  frontPet 0 ", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [396]
 		{
-			"     Slot   0, Species 1934, Health 1627, Level  25, DisplayID 72658, CollarID 0", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [397]
 		{
-			"        abilities : 228, 232, 934,", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [398]
 		{
-			"     Slot   1, Species 2184, Health 1257, Level  20, DisplayID 86020, CollarID 0", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [399]
 		{
-			"        abilities : 477, 481, 1955,", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [400]
 		{
-			"     Slot   2, Species 1926, Health 1546, Level  25, DisplayID 71938, CollarID 0", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [401]
 		{
-			"        abilities : 1570, 1068, 315,", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [402]
 		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [403]
 		{
-			"     Slot   0, Species 949, Health 1012, Level  19, DisplayID 0, CollarID 0", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [404]
 		{
-			"        abilities : 398, 318, 303,", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [405]
 		{
-			"     Slot   1, Species 948, Health 1012, Level  19, DisplayID 0, CollarID 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [406]
 		{
-			"        abilities : 210, 592, 476,", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [407]
 		{
-			"     Slot   2, Species 947, Health 1115, Level  19, DisplayID 0, CollarID 0", -- [1]
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [408]
 		{
-			"        abilities : 422, 657, 121,", -- [1]
+			"Proficiency in item class 2 set to 0x0000000085", -- [1]
 			0, -- [2]
 		}, -- [409]
 		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
+			"Proficiency in item class 2 set to 0x000000008d", -- [1]
 			0, -- [2]
 		}, -- [410]
 		{
-			"---Battle Begin---", -- [1]
+			"Proficiency in item class 2 set to 0x000000009d", -- [1]
 			0, -- [2]
 		}, -- [411]
 		{
-			"  PetSwap P0 PET 0", -- [1]
+			"Proficiency in item class 2 set to 0x000000809d", -- [1]
 			0, -- [2]
 		}, -- [412]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [413]
 		{
-			"  PetSwap P1 PET 0", -- [1]
+			"Proficiency in item class 2 set to 0x000000c09d", -- [1]
 			0, -- [2]
 		}, -- [414]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Proficiency in item class 2 set to 0x000004c09d", -- [1]
 			0, -- [2]
 		}, -- [415]
 		{
-			"---Replacements made---", -- [1]
+			"Proficiency in item class 4 set to 0x0000000025", -- [1]
 			0, -- [2]
 		}, -- [416]
 		{
-			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68211) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
 			0, -- [2]
 		}, -- [417]
 		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
 			0, -- [2]
 		}, -- [418]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
 			0, -- [2]
 		}, -- [419]
 		{
-			"---Replacements made---", -- [1]
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
 			0, -- [2]
 		}, -- [420]
 		{
-			"  P1 PET 1 performs AURA_CHANGE    on P0 PET 0 : (968,15,1,0) :Ability(1418), Turn(2362), Effect(2846), Flags(8192)", -- [1]
+			"Weather changed to 2, intensity 0.800000\n", -- [1]
 			0, -- [2]
 		}, -- [421]
 		{
-			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68751) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Time set to 2/14/2019 (Thu) 1:22", -- [1]
 			0, -- [2]
 		}, -- [422]
 		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [423]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [424]
 		{
-			"---Replacements made---", -- [1]
+			"   Player 0 Player-7-0B447E38  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [425]
 		{
-			"  P0 PET 0 performs PET_SWAP       on P0 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"     Slot   0, Species 1387, Health 1400, Level  25, DisplayID 53748, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [426]
 		{
-			"<waiting for PetBattleInput command>", -- [1]
+			"        abilities : 459, 640, 208,", -- [1]
 			0, -- [2]
 		}, -- [427]
 		{
-			"---BattleFinished: You Won ---", -- [1]
+			"     Slot   1, Species 471, Health 1546, Level  25, DisplayID 7920, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [428]
 		{
-			"<waiting for PetBattleInput final>", -- [1]
+			"        abilities : 455, 533, 459,", -- [1]
 			0, -- [2]
 		}, -- [429]
 		{
-			"---ClientPetBattleFinished---", -- [1]
+			"     Slot   2, Species 844, Health 1400, Level  25, DisplayID 45386, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [430]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"        abilities : 115, 647, 334,", -- [1]
 			0, -- [2]
 		}, -- [431]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [432]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"     Slot   0, Species 882, Health 443, Level   7, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [433]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"        abilities : 378, 339, 380,", -- [1]
 			0, -- [2]
 		}, -- [434]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"     Slot   1, Species 881, Health 408, Level   7, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [435]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"        abilities : 378, 339, 383,", -- [1]
 			0, -- [2]
 		}, -- [436]
 		{
-			"Got new connection 3", -- [1]
+			"     Slot   2, Species 880, Health 443, Level   7, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [437]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"        abilities : 380, 382, 250,", -- [1]
 			0, -- [2]
 		}, -- [438]
 		{
-			"Proficiency in item class 2 set to 0x0000000480", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [439]
 		{
-			"Proficiency in item class 2 set to 0x0000008480", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [440]
 		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [441]
 		{
-			"Proficiency in item class 2 set to 0x000000c480", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [442]
 		{
-			"Proficiency in item class 2 set to 0x000008c480", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [443]
 		{
-			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [444]
 		{
-			"Proficiency in item class 2 set to 0x000008c480", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [445]
 		{
-			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68731) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [446]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [447]
 		{
-			"Time set to 2/12/2019 (Tue) 1:46", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [448]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [449]
 		{
-			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
+			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68046) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
 		}, -- [450]
 		{
-			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
 		}, -- [451]
 		{
-			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
 		}, -- [452]
 		{
-			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
 		}, -- [453]
 		{
-			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
 		}, -- [454]
 		{
-			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
 		}, -- [455]
 		{
 			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
@@ -1832,371 +1831,371 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [457]
 		{
-			"Sorting particles normally.", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [458]
 		{
-			"Multithreaded rendering enabled.", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [459]
 		{
-			"Multithreaded BeginDraw enabled.", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [460]
 		{
-			"Multithread shadows changed to 1.", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [461]
 		{
-			"Multithreaded prepass enabled.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [462]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [463]
 		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [464]
 		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000091", -- [1]
 			0, -- [2]
 		}, -- [465]
 		{
-			"Water detail changed to 2", -- [1]
+			"Proficiency in item class 2 set to 0x0000000191", -- [1]
 			0, -- [2]
 		}, -- [466]
 		{
-			"Ripple detail changed to 1", -- [1]
+			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
 			0, -- [2]
 		}, -- [467]
 		{
-			"Reflection mode changed to 0", -- [1]
+			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
 			0, -- [2]
 		}, -- [468]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [469]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
 			0, -- [2]
 		}, -- [470]
 		{
-			"Refraction mode changed to 2", -- [1]
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
 			0, -- [2]
 		}, -- [471]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
 			0, -- [2]
 		}, -- [472]
 		{
-			"Alpha map bit depth set to 8bit on restart.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
 			0, -- [2]
 		}, -- [473]
 		{
-			"Volume fog enabled.", -- [1]
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
 			0, -- [2]
 		}, -- [474]
 		{
-			"Projected textures enabled.", -- [1]
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
 			0, -- [2]
 		}, -- [475]
 		{
-			"Shadow mode changed to 2 - 3 band dynamic shadows, 2048", -- [1]
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
 			0, -- [2]
 		}, -- [476]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
 			0, -- [2]
 		}, -- [477]
 		{
-			"Soft shadows changed to 0.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [478]
 		{
-			"SSAO mode set to 3", -- [1]
+			"Time set to 2/14/2019 (Thu) 1:25", -- [1]
 			0, -- [2]
 		}, -- [479]
 		{
-			"Depth Based Opacity Enabled", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [480]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"PetBattle Initial Update", -- [1]
 			0, -- [2]
 		}, -- [481]
 		{
-			"Texture filtering mode updated. Pending GxRestart", -- [1]
+			"   Player 0 Player-7-0B437180  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [482]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"     Slot   0, Species 1152, Health 1644, Level  25, DisplayID 46925, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [483]
 		{
-			"Outline mode changed to 2", -- [1]
+			"        abilities : 299, 611, 593,", -- [1]
 			0, -- [2]
 		}, -- [484]
 		{
-			"LightBuffer mode changed to 2", -- [1]
+			"     Slot   1, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [485]
 		{
-			"Physics interaction level changed to 1", -- [1]
+			"        abilities : 449, 299, 650,", -- [1]
 			0, -- [2]
 		}, -- [486]
 		{
-			"Render scale changed to 1", -- [1]
+			"     Slot   2, Species 1587, Health 1481, Level  25, DisplayID 60891, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [487]
 		{
-			"Resample quality changed to 0", -- [1]
+			"        abilities : 420, 521, 508,", -- [1]
 			0, -- [2]
 		}, -- [488]
 		{
-			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
 			0, -- [2]
 		}, -- [489]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"     Slot   0, Species 888, Health 661, Level  11, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [490]
 		{
-			"Component texture lod changed to 0", -- [1]
+			"        abilities : 111, 757, 230,", -- [1]
 			0, -- [2]
 		}, -- [491]
 		{
-			"Component texture lod changed to 0", -- [1]
+			"     Slot   1, Species 887, Health 628, Level  11, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [492]
 		{
-			"World preload object sort enabled.", -- [1]
+			"        abilities : 420, 521, 190,", -- [1]
 			0, -- [2]
 		}, -- [493]
 		{
-			"World load object sort enabled.", -- [1]
+			"     Slot   2, Species 886, Health 687, Level  11, DisplayID 0, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [494]
 		{
-			"World preload non critical enabled.", -- [1]
+			"        abilities : 170, 202, 162,", -- [1]
 			0, -- [2]
 		}, -- [495]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"<waiting for PetBattleReadyToStart command>", -- [1]
 			0, -- [2]
 		}, -- [496]
 		{
-			"FFX: Anti Aliasing Mode disabled", -- [1]
+			"---Battle Begin---", -- [1]
 			0, -- [2]
 		}, -- [497]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"  PetSwap P0 PET 0", -- [1]
 			0, -- [2]
 		}, -- [498]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [499]
 		{
-			"Error display disabled", -- [1]
+			"  PetSwap P1 PET 0", -- [1]
 			0, -- [2]
 		}, -- [500]
 		{
-			"Error display shown", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [501]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"---Replacements made---", -- [1]
 			0, -- [2]
 		}, -- [502]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68530) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [503]
 		{
-			"Now filtering: all messages", -- [1]
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [504]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"<waiting for PetBattleInput command>", -- [1]
 			0, -- [2]
 		}, -- [505]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"---BattleFinished: You Won ---", -- [1]
 			0, -- [2]
 		}, -- [506]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"<waiting for PetBattleInput final>", -- [1]
 			0, -- [2]
 		}, -- [507]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"---ClientPetBattleFinished---", -- [1]
 			0, -- [2]
 		}, -- [508]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [509]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"[IBN_Login] Requesting change realm list", -- [1]
 			0, -- [2]
 		}, -- [510]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [511]
 		{
-			"[IBN_Login] Attempting logonhost=\"us.actual.battle.net\" port=\"1119\"", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [512]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [513]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [514]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
 			0, -- [2]
 		}, -- [515]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [516]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-5-26\"", -- [1]
 			0, -- [2]
 		}, -- [517]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [518]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
 		}, -- [519]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
 		}, -- [520]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"NetClient::HandleCantConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [521]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"4\"", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [522]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [523]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-5-26\"", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [524]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [525]
 		{
-			"NetClient::HandleCantConnect()\n", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [526]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [527]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [528]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [529]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [530]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [531]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Proficiency in item class 2 set to 0x0000000480", -- [1]
 			0, -- [2]
 		}, -- [532]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Proficiency in item class 2 set to 0x0000008480", -- [1]
 			0, -- [2]
 		}, -- [533]
 		{
-			"[IBN_Login] Requesting change realm list", -- [1]
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
 			0, -- [2]
 		}, -- [534]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Proficiency in item class 2 set to 0x000000c480", -- [1]
 			0, -- [2]
 		}, -- [535]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
 		}, -- [536]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [537]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"Proficiency in item class 2 set to 0x000008c480", -- [1]
 			0, -- [2]
 		}, -- [538]
 		{
-			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
 			0, -- [2]
 		}, -- [539]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [540]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-3-7\"", -- [1]
+			"Time set to 2/14/2019 (Thu) 1:27", -- [1]
 			0, -- [2]
 		}, -- [541]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [542]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [543]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [544]
 		{
-			"NetClient::HandleCantConnect()\n", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [545]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [546]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [547]
 		{
-			"Got new connection 2", -- [1]
-			0, -- [2]
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [548]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [549]
 		{
@@ -2204,1551 +2203,1551 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [550]
 		{
-			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
-		}, -- [551]
-		{
-			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
-		}, -- [552]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [553]
-		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
-			0, -- [2]
-		}, -- [554]
-		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
-			0, -- [2]
-		}, -- [555]
-		{
-			"Proficiency in item class 2 set to 0x0000000085", -- [1]
-			0, -- [2]
-		}, -- [556]
-		{
-			"Proficiency in item class 2 set to 0x000000008d", -- [1]
-			0, -- [2]
-		}, -- [557]
-		{
-			"Proficiency in item class 2 set to 0x000000009d", -- [1]
-			0, -- [2]
-		}, -- [558]
-		{
-			"Proficiency in item class 2 set to 0x000000019d", -- [1]
-			0, -- [2]
-		}, -- [559]
-		{
-			"Proficiency in item class 2 set to 0x000000059d", -- [1]
-			0, -- [2]
-		}, -- [560]
-		{
-			"Proficiency in item class 2 set to 0x00000005bd", -- [1]
-			0, -- [2]
-		}, -- [561]
-		{
-			"Proficiency in item class 2 set to 0x00000005bf", -- [1]
-			0, -- [2]
-		}, -- [562]
-		{
-			"Proficiency in item class 2 set to 0x00000085bf", -- [1]
-			0, -- [2]
-		}, -- [563]
-		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
-			0, -- [2]
-		}, -- [564]
-		{
-			"Proficiency in item class 2 set to 0x000000c5bf", -- [1]
-			0, -- [2]
-		}, -- [565]
-		{
-			"Proficiency in item class 2 set to 0x000004c5bf", -- [1]
-			0, -- [2]
-		}, -- [566]
-		{
-			"Proficiency in item class 2 set to 0x000004c5ff", -- [1]
-			0, -- [2]
-		}, -- [567]
-		{
-			"Proficiency in item class 4 set to 0x0000000031", -- [1]
-			0, -- [2]
-		}, -- [568]
-		{
-			"Proficiency in item class 4 set to 0x0000000039", -- [1]
-			0, -- [2]
-		}, -- [569]
-		{
-			"Proficiency in item class 4 set to 0x000000003d", -- [1]
-			0, -- [2]
-		}, -- [570]
-		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
-			0, -- [2]
-		}, -- [571]
-		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
-			0, -- [2]
-		}, -- [572]
-		{
-			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
-			0, -- [2]
-		}, -- [573]
-		{
-			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
-			0, -- [2]
-		}, -- [574]
-		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
-			0, -- [2]
-		}, -- [575]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [576]
-		{
-			"Time set to 2/12/2019 (Tue) 6:08", -- [1]
-			0, -- [2]
-		}, -- [577]
-		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
-			0, -- [2]
-		}, -- [578]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [579]
-		{
 			"Sorting particles normally.", -- [1]
 			0, -- [2]
-		}, -- [580]
+		}, -- [551]
 		{
 			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
-		}, -- [581]
+		}, -- [552]
 		{
 			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
-		}, -- [582]
+		}, -- [553]
 		{
 			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
-		}, -- [583]
+		}, -- [554]
 		{
 			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
-		}, -- [584]
+		}, -- [555]
 		{
 			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
-		}, -- [585]
+		}, -- [556]
 		{
 			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
-		}, -- [586]
+		}, -- [557]
 		{
 			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
-		}, -- [587]
+		}, -- [558]
 		{
 			"Water detail changed to 2", -- [1]
 			0, -- [2]
-		}, -- [588]
+		}, -- [559]
 		{
 			"Ripple detail changed to 1", -- [1]
 			0, -- [2]
-		}, -- [589]
+		}, -- [560]
 		{
 			"Reflection mode changed to 0", -- [1]
 			0, -- [2]
-		}, -- [590]
+		}, -- [561]
 		{
 			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
-		}, -- [591]
+		}, -- [562]
 		{
 			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
-		}, -- [592]
+		}, -- [563]
 		{
 			"Refraction mode changed to 2", -- [1]
 			0, -- [2]
-		}, -- [593]
+		}, -- [564]
 		{
 			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
-		}, -- [594]
+		}, -- [565]
 		{
 			"Alpha map bit depth set to 8bit on restart.", -- [1]
 			0, -- [2]
-		}, -- [595]
+		}, -- [566]
 		{
 			"Volume fog enabled.", -- [1]
 			0, -- [2]
-		}, -- [596]
+		}, -- [567]
 		{
 			"Projected textures enabled.", -- [1]
 			0, -- [2]
-		}, -- [597]
+		}, -- [568]
 		{
 			"Shadow mode changed to 2 - 3 band dynamic shadows, 2048", -- [1]
 			0, -- [2]
-		}, -- [598]
+		}, -- [569]
 		{
 			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
-		}, -- [599]
+		}, -- [570]
 		{
 			"Soft shadows changed to 0.", -- [1]
 			0, -- [2]
-		}, -- [600]
+		}, -- [571]
 		{
 			"SSAO mode set to 3", -- [1]
 			0, -- [2]
-		}, -- [601]
+		}, -- [572]
 		{
 			"Depth Based Opacity Enabled", -- [1]
 			0, -- [2]
-		}, -- [602]
+		}, -- [573]
 		{
 			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
-		}, -- [603]
+		}, -- [574]
 		{
 			"Texture filtering mode updated. Pending GxRestart", -- [1]
 			0, -- [2]
-		}, -- [604]
+		}, -- [575]
 		{
 			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
-		}, -- [605]
+		}, -- [576]
 		{
 			"Outline mode changed to 2", -- [1]
 			0, -- [2]
-		}, -- [606]
+		}, -- [577]
 		{
 			"LightBuffer mode changed to 2", -- [1]
 			0, -- [2]
-		}, -- [607]
+		}, -- [578]
 		{
 			"Physics interaction level changed to 1", -- [1]
 			0, -- [2]
-		}, -- [608]
+		}, -- [579]
 		{
 			"Render scale changed to 1", -- [1]
 			0, -- [2]
-		}, -- [609]
+		}, -- [580]
 		{
 			"Resample quality changed to 0", -- [1]
 			0, -- [2]
-		}, -- [610]
+		}, -- [581]
 		{
 			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
 			0, -- [2]
-		}, -- [611]
+		}, -- [582]
 		{
 			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
-		}, -- [612]
+		}, -- [583]
 		{
 			"Component texture lod changed to 0", -- [1]
 			0, -- [2]
-		}, -- [613]
+		}, -- [584]
 		{
 			"Component texture lod changed to 0", -- [1]
 			0, -- [2]
-		}, -- [614]
+		}, -- [585]
 		{
 			"World preload object sort enabled.", -- [1]
 			0, -- [2]
-		}, -- [615]
+		}, -- [586]
 		{
 			"World load object sort enabled.", -- [1]
 			0, -- [2]
-		}, -- [616]
+		}, -- [587]
 		{
 			"World preload non critical enabled.", -- [1]
 			0, -- [2]
-		}, -- [617]
+		}, -- [588]
 		{
 			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
-		}, -- [618]
+		}, -- [589]
 		{
 			"FFX: Anti Aliasing Mode disabled", -- [1]
 			0, -- [2]
-		}, -- [619]
+		}, -- [590]
 		{
 			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
-		}, -- [620]
+		}, -- [591]
 		{
 			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
-		}, -- [621]
+		}, -- [592]
 		{
 			"Error display disabled", -- [1]
 			0, -- [2]
-		}, -- [622]
+		}, -- [593]
 		{
 			"Error display shown", -- [1]
 			0, -- [2]
-		}, -- [623]
+		}, -- [594]
 		{
 			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
-		}, -- [624]
+		}, -- [595]
 		{
 			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
-		}, -- [625]
+		}, -- [596]
 		{
 			"Now filtering: all messages", -- [1]
 			0, -- [2]
-		}, -- [626]
+		}, -- [597]
 		{
 			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [627]
+		}, -- [598]
 		{
 			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [628]
+		}, -- [599]
 		{
 			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [629]
+		}, -- [600]
 		{
 			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [630]
+		}, -- [601]
 		{
 			"[GlueLogin] Starting loginlauncherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
-		}, -- [631]
+		}, -- [602]
 		{
 			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
-		}, -- [632]
+		}, -- [603]
 		{
 			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
-		}, -- [633]
+		}, -- [604]
 		{
 			"[IBN_Login] Attempting logonhost=\"us.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
-		}, -- [634]
+		}, -- [605]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [635]
+		}, -- [606]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [636]
+		}, -- [607]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [637]
+		}, -- [608]
 		{
 			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
-		}, -- [638]
+		}, -- [609]
 		{
 			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
-		}, -- [639]
+		}, -- [610]
 		{
 			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
-		}, -- [640]
+		}, -- [611]
 		{
 			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [641]
+		}, -- [612]
 		{
 			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
-		}, -- [642]
+		}, -- [613]
 		{
 			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [643]
+		}, -- [614]
 		{
 			"[IBN_Login] Requesting last played charsnumSubRegions=\"4\"", -- [1]
 			0, -- [2]
-		}, -- [644]
+		}, -- [615]
 		{
 			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
-		}, -- [645]
-		{
-			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-3-7\"", -- [1]
-			0, -- [2]
-		}, -- [646]
-		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [647]
-		{
-			"NetClient::HandleCantConnect()\n", -- [1]
-			0, -- [2]
-		}, -- [648]
-		{
-			"NetClient::HandleConnect()\n", -- [1]
-			0, -- [2]
-		}, -- [649]
-		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [650]
-		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
-			0, -- [2]
-		}, -- [651]
-		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [652]
-		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
-			0, -- [2]
-		}, -- [653]
-		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
-			0, -- [2]
-		}, -- [654]
-		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [655]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [656]
-		{
-			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
-		}, -- [657]
-		{
-			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
-		}, -- [658]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [659]
-		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
-			0, -- [2]
-		}, -- [660]
-		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
-			0, -- [2]
-		}, -- [661]
-		{
-			"Proficiency in item class 2 set to 0x0000000085", -- [1]
-			0, -- [2]
-		}, -- [662]
-		{
-			"Proficiency in item class 2 set to 0x000000008d", -- [1]
-			0, -- [2]
-		}, -- [663]
-		{
-			"Proficiency in item class 2 set to 0x000000009d", -- [1]
-			0, -- [2]
-		}, -- [664]
-		{
-			"Proficiency in item class 2 set to 0x000000019d", -- [1]
-			0, -- [2]
-		}, -- [665]
-		{
-			"Proficiency in item class 2 set to 0x000000059d", -- [1]
-			0, -- [2]
-		}, -- [666]
-		{
-			"Proficiency in item class 2 set to 0x00000005bd", -- [1]
-			0, -- [2]
-		}, -- [667]
-		{
-			"Proficiency in item class 2 set to 0x00000005bf", -- [1]
-			0, -- [2]
-		}, -- [668]
-		{
-			"Proficiency in item class 2 set to 0x00000085bf", -- [1]
-			0, -- [2]
-		}, -- [669]
-		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
-			0, -- [2]
-		}, -- [670]
-		{
-			"Proficiency in item class 2 set to 0x000000c5bf", -- [1]
-			0, -- [2]
-		}, -- [671]
-		{
-			"Proficiency in item class 2 set to 0x000004c5bf", -- [1]
-			0, -- [2]
-		}, -- [672]
-		{
-			"Proficiency in item class 2 set to 0x000004c5ff", -- [1]
-			0, -- [2]
-		}, -- [673]
-		{
-			"Proficiency in item class 4 set to 0x0000000031", -- [1]
-			0, -- [2]
-		}, -- [674]
-		{
-			"Proficiency in item class 4 set to 0x0000000039", -- [1]
-			0, -- [2]
-		}, -- [675]
-		{
-			"Proficiency in item class 4 set to 0x000000003d", -- [1]
-			0, -- [2]
-		}, -- [676]
-		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
-			0, -- [2]
-		}, -- [677]
-		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
-			0, -- [2]
-		}, -- [678]
-		{
-			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
-			0, -- [2]
-		}, -- [679]
-		{
-			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
-			0, -- [2]
-		}, -- [680]
-		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
-			0, -- [2]
-		}, -- [681]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [682]
-		{
-			"Time set to 2/12/2019 (Tue) 13:53", -- [1]
-			0, -- [2]
-		}, -- [683]
-		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
-			0, -- [2]
-		}, -- [684]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [685]
-		{
-			"   Player 0 Player-7-0B437094  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [686]
-		{
-			"     Slot   0, Species 1387, Health 1400, Level  25, DisplayID 53748, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [687]
-		{
-			"        abilities : 459, 640, 282,", -- [1]
-			0, -- [2]
-		}, -- [688]
-		{
-			"     Slot   1, Species 1451, Health 1400, Level  25, DisplayID 58570, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [689]
-		{
-			"        abilities : 1359, 1357, 1354,", -- [1]
-			0, -- [2]
-		}, -- [690]
-		{
-			"     Slot   2, Species 297, Health 1400, Level  25, DisplayID 37541, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [691]
-		{
-			"        abilities : 812, 179, 330,", -- [1]
-			0, -- [2]
-		}, -- [692]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [693]
-		{
-			"     Slot   0, Species 893, Health 240, Level   3, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [694]
-		{
-			"        abilities : 493, 254, 163,", -- [1]
-			0, -- [2]
-		}, -- [695]
-		{
-			"     Slot   1, Species 892, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [696]
-		{
-			"        abilities : 493, 574, 376,", -- [1]
-			0, -- [2]
-		}, -- [697]
-		{
-			"     Slot   2, Species 891, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [698]
-		{
-			"        abilities : 429, 492, 536,", -- [1]
-			0, -- [2]
-		}, -- [699]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [700]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [701]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [702]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [703]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [704]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [705]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [706]
-		{
-			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68064) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [707]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [708]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [709]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [710]
-		{
-			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68734) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [711]
-		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [712]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [713]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [714]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [715]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [716]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [717]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [718]
-		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
-			0, -- [2]
-		}, -- [719]
-		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
-			0, -- [2]
-		}, -- [720]
-		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [721]
-		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [722]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [723]
-		{
-			"set pending gxRestart", -- [1]
-			0, -- [2]
-		}, -- [724]
-		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
-			0, -- [2]
-		}, -- [725]
-		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
-			0, -- [2]
-		}, -- [726]
-		{
-			"Proficiency in item class 2 set to 0x0000000091", -- [1]
-			0, -- [2]
-		}, -- [727]
-		{
-			"Proficiency in item class 2 set to 0x0000000191", -- [1]
-			0, -- [2]
-		}, -- [728]
-		{
-			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
-			0, -- [2]
-		}, -- [729]
-		{
-			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
-			0, -- [2]
-		}, -- [730]
-		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
-			0, -- [2]
-		}, -- [731]
-		{
-			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
-			0, -- [2]
-		}, -- [732]
-		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
-			0, -- [2]
-		}, -- [733]
-		{
-			"Proficiency in item class 4 set to 0x0000000031", -- [1]
-			0, -- [2]
-		}, -- [734]
-		{
-			"Proficiency in item class 4 set to 0x0000000039", -- [1]
-			0, -- [2]
-		}, -- [735]
-		{
-			"Proficiency in item class 4 set to 0x000000003d", -- [1]
-			0, -- [2]
-		}, -- [736]
-		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
-			0, -- [2]
-		}, -- [737]
-		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
-			0, -- [2]
-		}, -- [738]
-		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
-			0, -- [2]
-		}, -- [739]
-		{
-			"Proficiency in item class 4 set to 0x000000007f", -- [1]
-			0, -- [2]
-		}, -- [740]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [741]
-		{
-			"Time set to 2/12/2019 (Tue) 13:55", -- [1]
-			0, -- [2]
-		}, -- [742]
-		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
-			0, -- [2]
-		}, -- [743]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [744]
-		{
-			"   Player 0 Player-7-0B437099  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [745]
-		{
-			"     Slot   0, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [746]
-		{
-			"        abilities : 449, 299, 650,", -- [1]
-			0, -- [2]
-		}, -- [747]
-		{
-			"     Slot   1, Species 1229, Health 503, Level   8, DisplayID 48662, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [748]
-		{
-			"        abilities : 113, 409, 567,", -- [1]
-			0, -- [2]
-		}, -- [749]
-		{
-			"     Slot   2, Species 1706, Health 646, Level   8, DisplayID 65070, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [750]
-		{
-			"        abilities : 429, 247, 345,", -- [1]
-			0, -- [2]
-		}, -- [751]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [752]
-		{
-			"     Slot   0, Species 876, Health 247, Level   3, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [753]
-		{
-			"        abilities : 384, 389, 390,", -- [1]
-			0, -- [2]
-		}, -- [754]
-		{
-			"     Slot   1, Species 875, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [755]
-		{
-			"        abilities : 112, 524, 581,", -- [1]
-			0, -- [2]
-		}, -- [756]
-		{
-			"     Slot   2, Species 874, Health 240, Level   3, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [757]
-		{
-			"        abilities : 119, 360, 283,", -- [1]
-			0, -- [2]
-		}, -- [758]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [759]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [760]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [761]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [762]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [763]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [764]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [765]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [766]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [767]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [768]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [769]
-		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
-			0, -- [2]
-		}, -- [770]
-		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
-			0, -- [2]
-		}, -- [771]
-		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [772]
-		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [773]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [774]
-		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
-			0, -- [2]
-		}, -- [775]
-		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
-			0, -- [2]
-		}, -- [776]
-		{
-			"Proficiency in item class 2 set to 0x0000000085", -- [1]
-			0, -- [2]
-		}, -- [777]
-		{
-			"Proficiency in item class 2 set to 0x000000008d", -- [1]
-			0, -- [2]
-		}, -- [778]
-		{
-			"Proficiency in item class 2 set to 0x000000009d", -- [1]
-			0, -- [2]
-		}, -- [779]
-		{
-			"Proficiency in item class 2 set to 0x000000809d", -- [1]
-			0, -- [2]
-		}, -- [780]
-		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
-			0, -- [2]
-		}, -- [781]
-		{
-			"Proficiency in item class 2 set to 0x000000c09d", -- [1]
-			0, -- [2]
-		}, -- [782]
-		{
-			"Proficiency in item class 2 set to 0x000004c09d", -- [1]
-			0, -- [2]
-		}, -- [783]
-		{
-			"Proficiency in item class 4 set to 0x0000000025", -- [1]
-			0, -- [2]
-		}, -- [784]
-		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
-			0, -- [2]
-		}, -- [785]
-		{
-			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
-			0, -- [2]
-		}, -- [786]
-		{
-			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
-			0, -- [2]
-		}, -- [787]
-		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
-			0, -- [2]
-		}, -- [788]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [789]
-		{
-			"Time set to 2/12/2019 (Tue) 13:58", -- [1]
-			0, -- [2]
-		}, -- [790]
-		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
-			0, -- [2]
-		}, -- [791]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [792]
-		{
-			"   Player 0 Player-7-0B43709A  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [793]
-		{
-			"     Slot   0, Species 1152, Health 1644, Level  25, DisplayID 46925, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [794]
-		{
-			"        abilities : 299, 611, 593,", -- [1]
-			0, -- [2]
-		}, -- [795]
-		{
-			"     Slot   1, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [796]
-		{
-			"        abilities : 449, 299, 650,", -- [1]
-			0, -- [2]
-		}, -- [797]
-		{
-			"     Slot   2, Species 1587, Health 1481, Level  25, DisplayID 60891, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [798]
-		{
-			"        abilities : 420, 521, 508,", -- [1]
-			0, -- [2]
-		}, -- [799]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [800]
-		{
-			"     Slot   0, Species 879, Health 345, Level   5, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [801]
-		{
-			"        abilities : 119, 159, 360,", -- [1]
-			0, -- [2]
-		}, -- [802]
-		{
-			"     Slot   1, Species 878, Health 334, Level   5, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [803]
-		{
-			"        abilities : 119, 162, 360,", -- [1]
-			0, -- [2]
-		}, -- [804]
-		{
-			"     Slot   2, Species 877, Health 345, Level   5, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [805]
-		{
-			"        abilities : 119, 312, 163,", -- [1]
-			0, -- [2]
-		}, -- [806]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [807]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [808]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [809]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [810]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [811]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [812]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [813]
-		{
-			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68040) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [814]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [815]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [816]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [817]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [818]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [819]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [820]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [821]
-		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
-			0, -- [2]
-		}, -- [822]
-		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
-			0, -- [2]
-		}, -- [823]
-		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [824]
-		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [825]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [826]
-		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
-			0, -- [2]
-		}, -- [827]
-		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
-			0, -- [2]
-		}, -- [828]
-		{
-			"Proficiency in item class 2 set to 0x0000000085", -- [1]
-			0, -- [2]
-		}, -- [829]
-		{
-			"Proficiency in item class 2 set to 0x000000008d", -- [1]
-			0, -- [2]
-		}, -- [830]
-		{
-			"Proficiency in item class 2 set to 0x000000009d", -- [1]
-			0, -- [2]
-		}, -- [831]
-		{
-			"Proficiency in item class 2 set to 0x000000809d", -- [1]
-			0, -- [2]
-		}, -- [832]
-		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
-			0, -- [2]
-		}, -- [833]
-		{
-			"Proficiency in item class 2 set to 0x000000c09d", -- [1]
-			0, -- [2]
-		}, -- [834]
-		{
-			"Proficiency in item class 2 set to 0x000004c09d", -- [1]
-			0, -- [2]
-		}, -- [835]
-		{
-			"Proficiency in item class 4 set to 0x0000000025", -- [1]
-			0, -- [2]
-		}, -- [836]
-		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
-			0, -- [2]
-		}, -- [837]
-		{
-			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
-			0, -- [2]
-		}, -- [838]
-		{
-			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
-			0, -- [2]
-		}, -- [839]
-		{
-			"Proficiency in item class 4 set to 0x0000000027", -- [1]
-			0, -- [2]
-		}, -- [840]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [841]
-		{
-			"Time set to 2/12/2019 (Tue) 14:02", -- [1]
-			0, -- [2]
-		}, -- [842]
-		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
-			0, -- [2]
-		}, -- [843]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [844]
-		{
-			"   Player 0 Player-7-0B447E38  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [845]
-		{
-			"     Slot   0, Species 1387, Health 1400, Level  25, DisplayID 53748, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [846]
-		{
-			"        abilities : 459, 640, 208,", -- [1]
-			0, -- [2]
-		}, -- [847]
-		{
-			"     Slot   1, Species 471, Health 1546, Level  25, DisplayID 7920, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [848]
-		{
-			"        abilities : 455, 533, 459,", -- [1]
-			0, -- [2]
-		}, -- [849]
-		{
-			"     Slot   2, Species 844, Health 1400, Level  25, DisplayID 45386, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [850]
-		{
-			"        abilities : 115, 647, 334,", -- [1]
-			0, -- [2]
-		}, -- [851]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [852]
-		{
-			"     Slot   0, Species 882, Health 443, Level   7, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [853]
-		{
-			"        abilities : 378, 339, 380,", -- [1]
-			0, -- [2]
-		}, -- [854]
-		{
-			"     Slot   1, Species 881, Health 408, Level   7, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [855]
-		{
-			"        abilities : 378, 339, 383,", -- [1]
-			0, -- [2]
-		}, -- [856]
-		{
-			"     Slot   2, Species 880, Health 443, Level   7, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [857]
-		{
-			"        abilities : 380, 382, 250,", -- [1]
-			0, -- [2]
-		}, -- [858]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [859]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [860]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [861]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [862]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [863]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [864]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [865]
-		{
-			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68731) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [866]
-		{
-			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [867]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [868]
-		{
-			"---Replacements made---", -- [1]
-			0, -- [2]
-		}, -- [869]
-		{
-			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68046) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [870]
-		{
-			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
-			0, -- [2]
-		}, -- [871]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [872]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [873]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [874]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [875]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [876]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [877]
-		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
-			0, -- [2]
-		}, -- [878]
-		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
-			0, -- [2]
-		}, -- [879]
-		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [880]
-		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [881]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [882]
-		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
-			0, -- [2]
-		}, -- [883]
-		{
-			"Proficiency in item class 2 set to 0x0000000081", -- [1]
-			0, -- [2]
-		}, -- [884]
-		{
-			"Proficiency in item class 2 set to 0x0000000091", -- [1]
-			0, -- [2]
-		}, -- [885]
-		{
-			"Proficiency in item class 2 set to 0x0000000191", -- [1]
-			0, -- [2]
-		}, -- [886]
-		{
-			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
-			0, -- [2]
-		}, -- [887]
-		{
-			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
-			0, -- [2]
-		}, -- [888]
-		{
-			"Proficiency in item class 4 set to 0x0000000021", -- [1]
-			0, -- [2]
-		}, -- [889]
-		{
-			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
-			0, -- [2]
-		}, -- [890]
-		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
-			0, -- [2]
-		}, -- [891]
-		{
-			"Proficiency in item class 4 set to 0x0000000031", -- [1]
-			0, -- [2]
-		}, -- [892]
-		{
-			"Proficiency in item class 4 set to 0x0000000039", -- [1]
-			0, -- [2]
-		}, -- [893]
-		{
-			"Proficiency in item class 4 set to 0x000000003d", -- [1]
-			0, -- [2]
-		}, -- [894]
-		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
-			0, -- [2]
-		}, -- [895]
-		{
-			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
-			0, -- [2]
-		}, -- [896]
-		{
-			"Proficiency in item class 4 set to 0x000000003f", -- [1]
-			0, -- [2]
-		}, -- [897]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [898]
-		{
-			"Time set to 2/12/2019 (Tue) 14:07", -- [1]
-			0, -- [2]
-		}, -- [899]
-		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
-			0, -- [2]
-		}, -- [900]
-		{
-			"PetBattle Initial Update", -- [1]
-			0, -- [2]
-		}, -- [901]
-		{
-			"   Player 0 Player-7-0B437180  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [902]
-		{
-			"     Slot   0, Species 1152, Health 1644, Level  25, DisplayID 46925, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [903]
-		{
-			"        abilities : 299, 611, 593,", -- [1]
-			0, -- [2]
-		}, -- [904]
-		{
-			"     Slot   1, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [905]
-		{
-			"        abilities : 449, 299, 650,", -- [1]
-			0, -- [2]
-		}, -- [906]
-		{
-			"     Slot   2, Species 1587, Health 1481, Level  25, DisplayID 60891, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [907]
-		{
-			"        abilities : 420, 521, 508,", -- [1]
-			0, -- [2]
-		}, -- [908]
-		{
-			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
-			0, -- [2]
-		}, -- [909]
-		{
-			"     Slot   0, Species 888, Health 661, Level  11, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [910]
-		{
-			"        abilities : 111, 757, 230,", -- [1]
-			0, -- [2]
-		}, -- [911]
-		{
-			"     Slot   1, Species 887, Health 628, Level  11, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [912]
-		{
-			"        abilities : 420, 521, 190,", -- [1]
-			0, -- [2]
-		}, -- [913]
-		{
-			"     Slot   2, Species 886, Health 687, Level  11, DisplayID 0, CollarID 0", -- [1]
-			0, -- [2]
-		}, -- [914]
-		{
-			"        abilities : 170, 202, 162,", -- [1]
-			0, -- [2]
-		}, -- [915]
-		{
-			"<waiting for PetBattleReadyToStart command>", -- [1]
-			0, -- [2]
-		}, -- [916]
-		{
-			"---Battle Begin---", -- [1]
-			0, -- [2]
-		}, -- [917]
-		{
-			"  PetSwap P0 PET 0", -- [1]
-			0, -- [2]
-		}, -- [918]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [919]
-		{
-			"  PetSwap P1 PET 0", -- [1]
-			0, -- [2]
-		}, -- [920]
-		{
-			"<waiting for PetBattleInput command>", -- [1]
-			0, -- [2]
-		}, -- [921]
-		{
-			"---BattleFinished: You Won ---", -- [1]
-			0, -- [2]
-		}, -- [922]
-		{
-			"<waiting for PetBattleInput final>", -- [1]
-			0, -- [2]
-		}, -- [923]
-		{
-			"---ClientPetBattleFinished---", -- [1]
-			0, -- [2]
-		}, -- [924]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [925]
-		{
-			"[IBN_Login] Requesting change realm list", -- [1]
-			0, -- [2]
-		}, -- [926]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [927]
-		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [928]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [929]
-		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [930]
-		{
-			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
-			0, -- [2]
-		}, -- [931]
-		{
-			"[GlueLogin] Realm list ready.", -- [1]
-			0, -- [2]
-		}, -- [932]
+		}, -- [616]
 		{
 			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-5-26\"", -- [1]
 			0, -- [2]
-		}, -- [933]
+		}, -- [617]
 		{
 			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [934]
+		}, -- [618]
+		{
+			"NetClient::HandleConnect()\n", -- [1]
+			0, -- [2]
+		}, -- [619]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [620]
+		{
+			"Got new connection 2", -- [1]
+			0, -- [2]
+		}, -- [621]
+		{
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			0, -- [2]
+		}, -- [622]
+		{
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [623]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [624]
+		{
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			0, -- [2]
+		}, -- [625]
+		{
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [626]
+		{
+			"[IBN_Login] Requesting change realm list", -- [1]
+			0, -- [2]
+		}, -- [627]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [628]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [629]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [630]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [631]
+		{
+			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
+			0, -- [2]
+		}, -- [632]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [633]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-3-7\"", -- [1]
+			0, -- [2]
+		}, -- [634]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [635]
 		{
 			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
-		}, -- [935]
+		}, -- [636]
 		{
 			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
+		}, -- [637]
+		{
+			"NetClient::HandleConnect()\n", -- [1]
+			0, -- [2]
+		}, -- [638]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [639]
+		{
+			"Got new connection 2", -- [1]
+			0, -- [2]
+		}, -- [640]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [641]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [642]
+		{
+			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
+		}, -- [643]
+		{
+			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
+		}, -- [644]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [645]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [646]
+		{
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			0, -- [2]
+		}, -- [647]
+		{
+			"Proficiency in item class 2 set to 0x0000000085", -- [1]
+			0, -- [2]
+		}, -- [648]
+		{
+			"Proficiency in item class 2 set to 0x000000008d", -- [1]
+			0, -- [2]
+		}, -- [649]
+		{
+			"Proficiency in item class 2 set to 0x000000009d", -- [1]
+			0, -- [2]
+		}, -- [650]
+		{
+			"Proficiency in item class 2 set to 0x000000019d", -- [1]
+			0, -- [2]
+		}, -- [651]
+		{
+			"Proficiency in item class 2 set to 0x000000059d", -- [1]
+			0, -- [2]
+		}, -- [652]
+		{
+			"Proficiency in item class 2 set to 0x00000005bd", -- [1]
+			0, -- [2]
+		}, -- [653]
+		{
+			"Proficiency in item class 2 set to 0x00000005bf", -- [1]
+			0, -- [2]
+		}, -- [654]
+		{
+			"Proficiency in item class 2 set to 0x00000085bf", -- [1]
+			0, -- [2]
+		}, -- [655]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [656]
+		{
+			"Proficiency in item class 2 set to 0x000000c5bf", -- [1]
+			0, -- [2]
+		}, -- [657]
+		{
+			"Proficiency in item class 2 set to 0x000004c5bf", -- [1]
+			0, -- [2]
+		}, -- [658]
+		{
+			"Proficiency in item class 2 set to 0x000004c5ff", -- [1]
+			0, -- [2]
+		}, -- [659]
+		{
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			0, -- [2]
+		}, -- [660]
+		{
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			0, -- [2]
+		}, -- [661]
+		{
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			0, -- [2]
+		}, -- [662]
+		{
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			0, -- [2]
+		}, -- [663]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [664]
+		{
+			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
+			0, -- [2]
+		}, -- [665]
+		{
+			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
+			0, -- [2]
+		}, -- [666]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [667]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [668]
+		{
+			"Time set to 2/14/2019 (Thu) 18:13", -- [1]
+			0, -- [2]
+		}, -- [669]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [670]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [671]
+		{
+			"   Player 0 Player-7-0B437094  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [672]
+		{
+			"     Slot   0, Species 1387, Health 1400, Level  25, DisplayID 53748, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [673]
+		{
+			"        abilities : 459, 640, 282,", -- [1]
+			0, -- [2]
+		}, -- [674]
+		{
+			"     Slot   1, Species 1451, Health 1400, Level  25, DisplayID 58570, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [675]
+		{
+			"        abilities : 1359, 1357, 1354,", -- [1]
+			0, -- [2]
+		}, -- [676]
+		{
+			"     Slot   2, Species 297, Health 1400, Level  25, DisplayID 37541, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [677]
+		{
+			"        abilities : 812, 179, 330,", -- [1]
+			0, -- [2]
+		}, -- [678]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [679]
+		{
+			"     Slot   0, Species 893, Health 240, Level   3, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [680]
+		{
+			"        abilities : 493, 254, 163,", -- [1]
+			0, -- [2]
+		}, -- [681]
+		{
+			"     Slot   1, Species 892, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [682]
+		{
+			"        abilities : 493, 574, 376,", -- [1]
+			0, -- [2]
+		}, -- [683]
+		{
+			"     Slot   2, Species 891, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [684]
+		{
+			"        abilities : 429, 492, 536,", -- [1]
+			0, -- [2]
+		}, -- [685]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [686]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [687]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [688]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [689]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [690]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [691]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [692]
+		{
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68064) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [693]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [694]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [695]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [696]
+		{
+			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68734) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [697]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [698]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [699]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [700]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [701]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [702]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [703]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [704]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [705]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [706]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [707]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [708]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [709]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [710]
+		{
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			0, -- [2]
+		}, -- [711]
+		{
+			"Proficiency in item class 2 set to 0x0000000091", -- [1]
+			0, -- [2]
+		}, -- [712]
+		{
+			"Proficiency in item class 2 set to 0x0000000191", -- [1]
+			0, -- [2]
+		}, -- [713]
+		{
+			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
+			0, -- [2]
+		}, -- [714]
+		{
+			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
+			0, -- [2]
+		}, -- [715]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [716]
+		{
+			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
+			0, -- [2]
+		}, -- [717]
+		{
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			0, -- [2]
+		}, -- [718]
+		{
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			0, -- [2]
+		}, -- [719]
+		{
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			0, -- [2]
+		}, -- [720]
+		{
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			0, -- [2]
+		}, -- [721]
+		{
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			0, -- [2]
+		}, -- [722]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [723]
+		{
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			0, -- [2]
+		}, -- [724]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [725]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [726]
+		{
+			"Time set to 2/14/2019 (Thu) 18:15", -- [1]
+			0, -- [2]
+		}, -- [727]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [728]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [729]
+		{
+			"   Player 0 Player-7-0B437099  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [730]
+		{
+			"     Slot   0, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [731]
+		{
+			"        abilities : 449, 299, 650,", -- [1]
+			0, -- [2]
+		}, -- [732]
+		{
+			"     Slot   1, Species 1229, Health 503, Level   8, DisplayID 48662, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [733]
+		{
+			"        abilities : 113, 409, 567,", -- [1]
+			0, -- [2]
+		}, -- [734]
+		{
+			"     Slot   2, Species 1706, Health 646, Level   8, DisplayID 65070, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [735]
+		{
+			"        abilities : 429, 247, 345,", -- [1]
+			0, -- [2]
+		}, -- [736]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [737]
+		{
+			"     Slot   0, Species 876, Health 247, Level   3, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [738]
+		{
+			"        abilities : 384, 389, 390,", -- [1]
+			0, -- [2]
+		}, -- [739]
+		{
+			"     Slot   1, Species 875, Health 232, Level   3, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [740]
+		{
+			"        abilities : 112, 524, 581,", -- [1]
+			0, -- [2]
+		}, -- [741]
+		{
+			"     Slot   2, Species 874, Health 240, Level   3, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [742]
+		{
+			"        abilities : 119, 360, 283,", -- [1]
+			0, -- [2]
+		}, -- [743]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [744]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [745]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [746]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [747]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [748]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [749]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [750]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [751]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [752]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [753]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [754]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [755]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [756]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [757]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [758]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [759]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [760]
+		{
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			0, -- [2]
+		}, -- [761]
+		{
+			"Proficiency in item class 2 set to 0x0000000085", -- [1]
+			0, -- [2]
+		}, -- [762]
+		{
+			"Proficiency in item class 2 set to 0x000000008d", -- [1]
+			0, -- [2]
+		}, -- [763]
+		{
+			"Proficiency in item class 2 set to 0x000000009d", -- [1]
+			0, -- [2]
+		}, -- [764]
+		{
+			"Proficiency in item class 2 set to 0x000000809d", -- [1]
+			0, -- [2]
+		}, -- [765]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [766]
+		{
+			"Proficiency in item class 2 set to 0x000000c09d", -- [1]
+			0, -- [2]
+		}, -- [767]
+		{
+			"Proficiency in item class 2 set to 0x000004c09d", -- [1]
+			0, -- [2]
+		}, -- [768]
+		{
+			"Proficiency in item class 4 set to 0x0000000025", -- [1]
+			0, -- [2]
+		}, -- [769]
+		{
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			0, -- [2]
+		}, -- [770]
+		{
+			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
+			0, -- [2]
+		}, -- [771]
+		{
+			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
+			0, -- [2]
+		}, -- [772]
+		{
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			0, -- [2]
+		}, -- [773]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [774]
+		{
+			"Time set to 2/14/2019 (Thu) 18:18", -- [1]
+			0, -- [2]
+		}, -- [775]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [776]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [777]
+		{
+			"   Player 0 Player-7-0B43709A  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [778]
+		{
+			"     Slot   0, Species 1152, Health 1644, Level  25, DisplayID 46925, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [779]
+		{
+			"        abilities : 299, 611, 593,", -- [1]
+			0, -- [2]
+		}, -- [780]
+		{
+			"     Slot   1, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [781]
+		{
+			"        abilities : 449, 299, 650,", -- [1]
+			0, -- [2]
+		}, -- [782]
+		{
+			"     Slot   2, Species 1587, Health 1481, Level  25, DisplayID 60891, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [783]
+		{
+			"        abilities : 420, 521, 508,", -- [1]
+			0, -- [2]
+		}, -- [784]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [785]
+		{
+			"     Slot   0, Species 879, Health 345, Level   5, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [786]
+		{
+			"        abilities : 119, 159, 360,", -- [1]
+			0, -- [2]
+		}, -- [787]
+		{
+			"     Slot   1, Species 878, Health 334, Level   5, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [788]
+		{
+			"        abilities : 119, 162, 360,", -- [1]
+			0, -- [2]
+		}, -- [789]
+		{
+			"     Slot   2, Species 877, Health 345, Level   5, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [790]
+		{
+			"        abilities : 119, 312, 163,", -- [1]
+			0, -- [2]
+		}, -- [791]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [792]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [793]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [794]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [795]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [796]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [797]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [798]
+		{
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68040) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [799]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [800]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [801]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [802]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [803]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [804]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [805]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [806]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [807]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [808]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [809]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [810]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [811]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [812]
+		{
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			0, -- [2]
+		}, -- [813]
+		{
+			"Proficiency in item class 2 set to 0x0000000085", -- [1]
+			0, -- [2]
+		}, -- [814]
+		{
+			"Proficiency in item class 2 set to 0x000000008d", -- [1]
+			0, -- [2]
+		}, -- [815]
+		{
+			"Proficiency in item class 2 set to 0x000000009d", -- [1]
+			0, -- [2]
+		}, -- [816]
+		{
+			"Proficiency in item class 2 set to 0x000000809d", -- [1]
+			0, -- [2]
+		}, -- [817]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [818]
+		{
+			"Proficiency in item class 2 set to 0x000000c09d", -- [1]
+			0, -- [2]
+		}, -- [819]
+		{
+			"Proficiency in item class 2 set to 0x000004c09d", -- [1]
+			0, -- [2]
+		}, -- [820]
+		{
+			"Proficiency in item class 4 set to 0x0000000025", -- [1]
+			0, -- [2]
+		}, -- [821]
+		{
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			0, -- [2]
+		}, -- [822]
+		{
+			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
+			0, -- [2]
+		}, -- [823]
+		{
+			"Proficiency in item class 2 set to 0x000004e09d", -- [1]
+			0, -- [2]
+		}, -- [824]
+		{
+			"Proficiency in item class 4 set to 0x0000000027", -- [1]
+			0, -- [2]
+		}, -- [825]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [826]
+		{
+			"Time set to 2/14/2019 (Thu) 18:19", -- [1]
+			0, -- [2]
+		}, -- [827]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [828]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [829]
+		{
+			"   Player 0 Player-7-0B447E38  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [830]
+		{
+			"     Slot   0, Species 1387, Health 1400, Level  25, DisplayID 53748, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [831]
+		{
+			"        abilities : 459, 640, 208,", -- [1]
+			0, -- [2]
+		}, -- [832]
+		{
+			"     Slot   1, Species 471, Health 1546, Level  25, DisplayID 7920, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [833]
+		{
+			"        abilities : 455, 533, 459,", -- [1]
+			0, -- [2]
+		}, -- [834]
+		{
+			"     Slot   2, Species 844, Health 1400, Level  25, DisplayID 45386, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [835]
+		{
+			"        abilities : 115, 647, 334,", -- [1]
+			0, -- [2]
+		}, -- [836]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [837]
+		{
+			"     Slot   0, Species 882, Health 443, Level   7, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [838]
+		{
+			"        abilities : 378, 339, 380,", -- [1]
+			0, -- [2]
+		}, -- [839]
+		{
+			"     Slot   1, Species 881, Health 408, Level   7, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [840]
+		{
+			"        abilities : 378, 339, 383,", -- [1]
+			0, -- [2]
+		}, -- [841]
+		{
+			"     Slot   2, Species 880, Health 443, Level   7, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [842]
+		{
+			"        abilities : 380, 382, 250,", -- [1]
+			0, -- [2]
+		}, -- [843]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [844]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [845]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [846]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [847]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [848]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [849]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [850]
+		{
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68731) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [851]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [852]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [853]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [854]
+		{
+			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68046) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [855]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [856]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [857]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [858]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [859]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [860]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [861]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [862]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [863]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [864]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [865]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [866]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [867]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [868]
+		{
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			0, -- [2]
+		}, -- [869]
+		{
+			"Proficiency in item class 2 set to 0x0000000091", -- [1]
+			0, -- [2]
+		}, -- [870]
+		{
+			"Proficiency in item class 2 set to 0x0000000191", -- [1]
+			0, -- [2]
+		}, -- [871]
+		{
+			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
+			0, -- [2]
+		}, -- [872]
+		{
+			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
+			0, -- [2]
+		}, -- [873]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [874]
+		{
+			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
+			0, -- [2]
+		}, -- [875]
+		{
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			0, -- [2]
+		}, -- [876]
+		{
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			0, -- [2]
+		}, -- [877]
+		{
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			0, -- [2]
+		}, -- [878]
+		{
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			0, -- [2]
+		}, -- [879]
+		{
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			0, -- [2]
+		}, -- [880]
+		{
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			0, -- [2]
+		}, -- [881]
+		{
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			0, -- [2]
+		}, -- [882]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [883]
+		{
+			"Time set to 2/14/2019 (Thu) 18:22", -- [1]
+			0, -- [2]
+		}, -- [884]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [885]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [886]
+		{
+			"   Player 0 Player-7-0B437180  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [887]
+		{
+			"     Slot   0, Species 1152, Health 1644, Level  25, DisplayID 46925, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [888]
+		{
+			"        abilities : 299, 611, 593,", -- [1]
+			0, -- [2]
+		}, -- [889]
+		{
+			"     Slot   1, Species 458, Health 1562, Level  25, DisplayID 45952, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [890]
+		{
+			"        abilities : 449, 299, 650,", -- [1]
+			0, -- [2]
+		}, -- [891]
+		{
+			"     Slot   2, Species 1587, Health 1481, Level  25, DisplayID 60891, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [892]
+		{
+			"        abilities : 420, 521, 508,", -- [1]
+			0, -- [2]
+		}, -- [893]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [894]
+		{
+			"     Slot   0, Species 888, Health 661, Level  11, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [895]
+		{
+			"        abilities : 111, 757, 230,", -- [1]
+			0, -- [2]
+		}, -- [896]
+		{
+			"     Slot   1, Species 887, Health 628, Level  11, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [897]
+		{
+			"        abilities : 420, 521, 190,", -- [1]
+			0, -- [2]
+		}, -- [898]
+		{
+			"     Slot   2, Species 886, Health 687, Level  11, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [899]
+		{
+			"        abilities : 170, 202, 162,", -- [1]
+			0, -- [2]
+		}, -- [900]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [901]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [902]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [903]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [904]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [905]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [906]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [907]
+		{
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68530) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [908]
+		{
+			"  P1 PET 0 performs PET_SWAP       on P1 PET 1 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [909]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [910]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [911]
+		{
+			"  P1 PET 2 performs NPC_EMOTE      on P1 PET 2 : (68530) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [912]
+		{
+			"  P1 PET 1 performs PET_SWAP       on P1 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [913]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [914]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [915]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [916]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [917]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [918]
+		{
+			"[IBN_Login] Requesting change realm list", -- [1]
+			0, -- [2]
+		}, -- [919]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [920]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [921]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [922]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [923]
+		{
+			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
+			0, -- [2]
+		}, -- [924]
+		{
+			"[IBN_Login] Requesting cancel realm list", -- [1]
+			0, -- [2]
+		}, -- [925]
+		{
+			"[GlueLogin] Cancelled realm list.", -- [1]
+			0, -- [2]
+		}, -- [926]
+		{
+			"[IBN_Login] Requesting change realm list", -- [1]
+			0, -- [2]
+		}, -- [927]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [928]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [929]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [930]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [931]
+		{
+			"[IBN_Login] Requesting realm listsnumSubRegions=\"4\"", -- [1]
+			0, -- [2]
+		}, -- [932]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [933]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"1-101-89\" realmAddress=\"1-5-26\"", -- [1]
+			0, -- [2]
+		}, -- [934]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [935]
+		{
+			"NetClient::HandleDisconnect()\n", -- [1]
+			0, -- [2]
 		}, -- [936]
 		{
-			"NetClient::HandleCantConnect()\n", -- [1]
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
 		}, -- [937]
 		{
@@ -3860,7 +3859,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [964]
 		{
-			"Time set to 2/12/2019 (Tue) 14:11", -- [1]
+			"Time set to 2/14/2019 (Thu) 18:26", -- [1]
 			0, -- [2]
 		}, -- [965]
 		{
@@ -3884,7 +3883,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [970]
 		{
-			"     Slot   1, Species 2184, Health 1315, Level  21, DisplayID 86020, CollarID 0", -- [1]
+			"     Slot   1, Species 2184, Health 1373, Level  22, DisplayID 86020, CollarID 0", -- [1]
 			0, -- [2]
 		}, -- [971]
 		{
@@ -3956,7 +3955,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [988]
 		{
-			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68211) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			"  P1 PET 1 performs NPC_EMOTE      on P1 PET 1 : (68579) :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
 			0, -- [2]
 		}, -- [989]
 		{
@@ -3972,7 +3971,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [992]
 		{
-			"  P1 PET 1 performs AURA_CHANGE    on P0 PET 0 : (968,11,1,0) :Ability(1418), Turn(2362), Effect(2846), Flags(8192)", -- [1]
+			"  P1 PET 1 performs AURA_CHANGE    on P0 PET 1 : (968,10,1,0) :Ability(1418), Turn(2362), Effect(2846), Flags(8192)", -- [1]
 			0, -- [2]
 		}, -- [993]
 		{
@@ -4068,7 +4067,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1016]
 		{
-			"Time set to 2/12/2019 (Tue) 14:15", -- [1]
+			"Time set to 2/14/2019 (Thu) 18:29", -- [1]
 			0, -- [2]
 		}, -- [1017]
 		{
@@ -4099,9 +4098,94 @@ Blizzard_Console_SavedVars = {
 			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
 			3, -- [2]
 		}, -- [1024]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [1025]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [1026]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [1027]
+		{
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
+		}, -- [1028]
+		{
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
+		}, -- [1029]
+		{
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
+		}, -- [1030]
+		{
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
+		}, -- [1031]
+		{
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
+		}, -- [1032]
+		{
+			"Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
+		}, -- [1033]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [1034]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [1035]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [1036]
+		{
+			"Skill 101 increased from 595 to 600", -- [1]
+			0, -- [2]
+		}, -- [1037]
+		{
+			"Skill 183 increased from 595 to 600", -- [1]
+			0, -- [2]
+		}, -- [1038]
+		{
+			"Skill 228 increased from 595 to 600", -- [1]
+			0, -- [2]
+		}, -- [1039]
+		{
+			"Skill 904 increased from 595 to 600", -- [1]
+			0, -- [2]
+		}, -- [1040]
+		{
+			"Skill 2597 increased from 595 to 600", -- [1]
+			0, -- [2]
+		}, -- [1041]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [1042]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [1043]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [1044]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [1045]
 	},
-	["isShown"] = false,
+	["height"] = 300,
 	["fontHeight"] = 14,
+	["isShown"] = false,
 	["commandHistory"] = {
 		"disableAutoRealmSelect 1", -- [1]
 		"camp", -- [2]

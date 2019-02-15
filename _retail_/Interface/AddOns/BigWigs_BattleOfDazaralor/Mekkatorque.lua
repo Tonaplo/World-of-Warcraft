@@ -124,7 +124,7 @@ local mythicTimers = {
 
 	-- "SPELL_CAST_START", "WorldEnlarger", 286693, 288041, 289537
 	[286693] = {
-		[1] = {75.0, 90.0},
+		[1] = {75.0, 90.0, 90.0},
 		[2] = {7.8, 31.0},
 		[3] = {75.8, 90.0, 90.0},
 	},
@@ -261,24 +261,24 @@ end
 
 function mod:GigavoltCharge(args)
 	chargeCount = chargeCount + 1
-	self:Bar(286646, timers[286646][stage][chargeCount], CL.count:format(args.spellName, chargeCount))
+	self:Bar(286646, timers[286646][stage][chargeCount], CL.count:format(L.gigavolt_alt_text, chargeCount))
 end
 
 do
 	local playerList, playerIcons = mod:NewTargetList(), {}
 
 	function mod:GigavoltChargeApplied(args)
-		local playerIconsCount = #playerIcons+1
-		playerList[#playerList+1] = args.destName
-		playerIcons[playerIconsCount] = playerIconsCount
+		local playerListCount = #playerList+1
+		playerList[playerListCount] = args.destName
+		playerIcons[playerListCount] = playerListCount
 		if self:Me(args.destGUID) then
 			self:PlaySound(args.spellId, "warning")
-			self:Say(args.spellId, CL.count_rticon:format(args.spellName, playerIconsCount, playerIconsCount))
+			self:Say(args.spellId, CL.count_rticon:format(L.gigavolt_alt_text, playerListCount, playerListCount))
 			self:SayCountdown(args.spellId, 15)
 			self:TargetBar(args.spellId, 15, args.destName, L.gigavolt_alt_text)
 		end
 		if self:GetOption(gigavoltChargeMarker) then
-			SetRaidTarget(args.destName, playerIconsCount)
+			SetRaidTarget(args.destName, playerListCount)
 		end
 		self:TargetsMessage(args.spellId, "yellow", playerList, 3, L.gigavolt_alt_text, nil, nil, playerIcons)
 	end
