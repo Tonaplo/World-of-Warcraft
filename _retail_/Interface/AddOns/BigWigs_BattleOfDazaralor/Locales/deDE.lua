@@ -1,6 +1,7 @@
 local L = BigWigs:NewBossLocale("Battle of Dazar'alor Trash", "deDE")
 if not L then return end
 if L then
+	L.flamespeaker = "Flammensprecher der Rastari"
 	L.enforcer = "Ewiger Vollstrecker"
 	L.punisher = "Bestrafer der Rastari"
 	L.vessel = "Gefäß für Bwonsamdi"
@@ -48,7 +49,6 @@ L = BigWigs:NewBossLocale("Opulence", "deDE")
 if L then
 	L.room = "Raum (%d/8)"
 	L.no_jewel = "Kein Juwel:"
-	L.seconds = "%.1fs"
 
 	L.custom_on_fade_out_bars = "Blende Leisten für Phase 1 aus."
 	L.custom_on_fade_out_bars_desc = "Blende Leisten aus, welche zu dem Konstrukt gehören, das während Phase 1 nicht in deinem Gang ist."
@@ -75,8 +75,8 @@ if L then
 	L.custom_off_sparkbot_marker = "Funkenbot Marker"
 	L.custom_off_sparkbot_marker_desc = "Markiere Funkenbots mit {rt4}{rt5}{rt6}{rt7}{rt8}."
 
-	L.custom_off_repeating_shrunk_say = "Wiederholende Schrumpfen-Ansage" -- Shrunk = 284168
-	L.custom_off_repeating_shrunk_say_desc = "Spamme Schrumpfen während |cff71d5ff[Geschrumpft]|r. Eventuell hören sie dann auf dich zu zertreten."
+	L.custom_on_repeating_shrunk_say = "Wiederholende Schrumpfen-Ansage" -- Shrunk = 284168
+	L.custom_on_repeating_shrunk_say_desc = "Spamme Schrumpfen während |cff71d5ff[Geschrumpft]|r. Eventuell hören sie dann auf dich zu zertreten."
 
 	L.custom_off_repeating_tampering_say = "Wiederholende Manipulation!-Ansage" -- Tampering = 286105
 	L.custom_off_repeating_tampering_say_desc = "Spamme deinen Namen während du einen Roboter kontrollierst."

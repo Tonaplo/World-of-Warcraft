@@ -11,3 +11,5 @@ Bartender4: disabled
 QE-DungeonTips: disabled
 Arh: disabled
 LittleWigs: enabled
+BigWigs_Azeroth: enabled
+BigWigs_Uldir: enabled

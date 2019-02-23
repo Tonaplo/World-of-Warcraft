@@ -51,9 +51,6 @@ VER 3 000000000000003A "Challenge Macro" "988197"
 /use Drums of Fury
 /use Potion of Prolonged Power
 END
-VER 3 000000000000003C "Clique" "132950"
-/clique
-END
 VER 3 000000000000002A "CooldownRotation" "1386546"
 /cdr
 END
@@ -66,8 +63,8 @@ END
 VER 3 0000000000000006 "focus" "132222"
 /focus
 END
-VER 3 000000000000003D "grid2" "443374"
-/grid2
+VER 3 0000000000000041 "logout" "INV_MISC_QUESTIONMARK"
+/logout
 END
 VER 3 0000000000000027 "Newplayers" "1516058"
 /i Hey guys. If any of you are new, feel free to ask about fights and I'll do my best to explain them :)
@@ -106,6 +103,9 @@ END
 VER 3 000000000000002C "use 14" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover] 14
+END
+VER 3 000000000000003D "vuhdo" "1349535"
+/vuhdo opt
 END
 VER 3 0000000000000004 "WeakAuras" "INV_MISC_NOTE_05"
 /wa

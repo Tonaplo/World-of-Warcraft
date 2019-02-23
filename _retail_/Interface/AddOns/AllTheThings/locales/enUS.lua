@@ -9,9 +9,9 @@
 --------------------------------------------------------------------------------
 --				This script is called directly after the Core.lua file. 	  --
 --------------------------------------------------------------------------------
-AllTheThings.Locales.enUS = {
+AllTheThings.L = {
 	-- General Text
-	["TITLE"] = "ALL THE THINGS";
+	["TITLE"] = "|cffb4b4ffALL THE THINGS|r";
 	["DESCRIPTION"] = "\"Foolishly you have sought your own demise. Brazenly you have disregarded powers beyond your understanding. You have fought hard to invade the realm of the Collector. Now there is only one way out - To walk the lonely path... of the damned.\"";
 	--["DESCRIPTION"] = "\"Foolishly you have sought your own demise. Brazenly you have disregarded powers beyond your understanding. You have fought hard to invade the realm of the Collector. Now there is only one way out - To walk the lonely path... of the damned.\"\n\n|CFFFF0000Collection Mode Styles:\n\nUnique + Main Only = LFR Mode\nUnique = Normal Mode\nCompletitonist = Heroic Mode\nDebug + Completionist = Mythic Mode\n";
 	["LOADING"] = "v%s loaded successfully.";
@@ -52,9 +52,9 @@ AllTheThings.Locales.enUS = {
 	["ERROR_UNKNOWN"] = "An unknown error occured.";
 
 	["ITEM_ID_ADDED"] = "%s (%d) was added to your collection.";
-	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection.";
+	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection. Not found in the database. Please report to the ATT Discord!";
 	["ITEM_ID_ADDED_SHARED"] = "%s (%d) [+%d] were added to your collection.";
-	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection.";
+	["ITEM_ID_ADDED_SHARED_MISSING"] = "%s (%d) [+%d] were added to your collection. Not found in the database. Please report to the ATT Discord!";
 	["ITEM_ID_REMOVED"] = "%s (%d) was removed from your collection.";
 	["ITEM_ID_REMOVED_SHARED"] = "%s (%d) [+%d] were removed from your collection.";
 
@@ -710,7 +710,6 @@ AllTheThings.Locales.enUS = {
 		[-5350] = "Interface\\Icons\\ability_bossmagistrix_timewarp1",			-- Class Trial Item Sets
 		[-5351] = "Interface\\Icons\\misc_arrowlup",							-- Character Boost					
 		[-5352] = "Interface\\Icons\\creatureportrait_portal_eyeofthestormhorde",	-- Tier Sets
-		[-6012] = "Interface\\Icons\\achievement_bg_masterofallbgs",			-- World Event Item Sets
 		[-6013] = "Interface\\Icons\\achievement_reputation_08",				-- Faction
 		[-6014] = "Interface\\Icons\\Spell_Arcane_PortalUnderCity",				-- Cities
 		[-6015] = "Interface\\Icons\\battleground_strongbox_gold_horde",		-- Rewards
@@ -1623,7 +1622,6 @@ AllTheThings.Locales.enUS = {
 		-- Tier Set Numbers Localization
 		[-5992] = GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, -- Tier 9 Sets
 --]]
-		[-6012] = BATTLE_PET_SOURCE_7.." "..WARDROBE_SETS, 							-- World Event Item Sets
 		[-6013] = FACTION,															-- Faction
 		[-6014] = BUG_CATEGORY4,													-- Cities
 		[-6015] = GUILD_TAB_REWARDS,												-- Rewards
@@ -3336,6 +3334,3 @@ AllTheThings.Locales.enUS = {
 	["RECENTLY_MADE_OBTAINABLE_PT2"] = "|CFFFF0000The more information, the better.  Thanks!|r";
 	["I_ONLY_CARE_ABOUT_MY_MAIN"] = "|cff3399ffI only care about my main.|r";
 };
-
--- Set the fallback file for all translation IDs.
-AllTheThings.Locales.Base = { __index = AllTheThings.Locales.enUS };

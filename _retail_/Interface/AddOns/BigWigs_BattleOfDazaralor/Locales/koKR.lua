@@ -1,6 +1,7 @@
 local L = BigWigs:NewBossLocale("Battle of Dazar'alor Trash", "koKR")
 if not L then return end
 if L then
+	L.flamespeaker = "라스타리 화염예언자"
 	L.enforcer = "영원의 집행자"
 	L.punisher = "라스타리 응징자"
 	L.vessel = "브원삼디의 매개체"
@@ -49,7 +50,6 @@ L = BigWigs:NewBossLocale("Opulence", "koKR")
 if L then
 	--L.room = "방 (%d/8)"
 	L.no_jewel = "보석 없음:"
-	L.seconds = "%.1f초"
 
 	L.custom_on_fade_out_bars = "1페이지 바 숨기기"
 	L.custom_on_fade_out_bars_desc = "1페이지 동안 반대편 피조물 타이머 바 숨기기."
@@ -76,8 +76,8 @@ if L then
 	L.custom_off_sparkbot_marker = "불꽃봇 징표 표시"
 	L.custom_off_sparkbot_marker_desc = "불꽃봇에 {rt4}{rt5}{rt6}{rt7}{rt8} 징표로 표시."
 
-	L.custom_off_repeating_shrunk_say = "축소 상태 알림" -- Shrunk = 284168
-	L.custom_off_repeating_shrunk_say_desc = "|cff71d5ff[축소]|r의 영향을 받는 동안 계속 채팅으로 알림. 그럼 다른 사람들이 피해갈수도 있겠지"
+	L.custom_on_repeating_shrunk_say = "축소 상태 알림" -- Shrunk = 284168
+	L.custom_on_repeating_shrunk_say_desc = "|cff71d5ff[축소]|r의 영향을 받는 동안 계속 채팅으로 알림. 그럼 다른 사람들이 피해갈수도 있겠지"
 
 	L.custom_off_repeating_tampering_say = "로봇 조종 상태 알림" -- Tampering = 286105
 	L.custom_off_repeating_tampering_say_desc = "불꽃봇을 컨트롤하는 동안 계속 채팅으로 알림."

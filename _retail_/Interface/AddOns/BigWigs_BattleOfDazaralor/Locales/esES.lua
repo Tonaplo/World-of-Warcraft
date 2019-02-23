@@ -1,6 +1,7 @@
 local L = BigWigs:NewBossLocale("Battle of Dazar'alor Trash", "esES") or BigWigs:NewBossLocale("Battle of Dazar'alor Trash", "esMX")
 if not L then return end
 if L then
+	L.flamespeaker = "Hablallamas Rastari"
 	L.enforcer = "Déspota eterno"
 	L.punisher = "Castigador Rastari"
 	L.vessel = "Receptáculo de Bwonsamdi"
@@ -49,7 +50,6 @@ L = BigWigs:NewBossLocale("Opulence", "esES") or BigWigs:NewBossLocale("Opulence
 if L then
 	--L.room = "Room (%d/8)"
 	--L.no_jewel = "No Jewel:"
-	--L.seconds = "%.1fs"
 
 	--L.custom_on_fade_out_bars = "Fade out stage 1 bars"
 	--L.custom_on_fade_out_bars_desc = "Fade out bars which belong to the construct which isn't in your hall during stage 1."
@@ -76,8 +76,8 @@ if L then
 	--L.custom_off_sparkbot_marker = "Spark Bot Marker"
 	--L.custom_off_sparkbot_marker_desc = "Mark Spark Bots with {rt4}{rt5}{rt6}{rt7}{rt8}."
 
-	--L.custom_off_repeating_shrunk_say = "Repeating Shrunk Say" -- Shrunk = 284168
-	--L.custom_off_repeating_shrunk_say_desc = "Spam Shrunk while you're |cff71d5ff[Shrunk]|r. Maybe they'll stop running you over."
+	--L.custom_on_repeating_shrunk_say = "Repeating Shrunk Say" -- Shrunk = 284168
+	--L.custom_on_repeating_shrunk_say_desc = "Spam Shrunk while you're |cff71d5ff[Shrunk]|r. Maybe they'll stop running you over."
 
 	--L.custom_off_repeating_tampering_say = "Repeating Tampering Say" -- Tampering = 286105
 	--L.custom_off_repeating_tampering_say_desc = "Spam your name while you're controlling a robot."

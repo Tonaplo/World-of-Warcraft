@@ -1,6 +1,7 @@
 local L = BigWigs:NewBossLocale("Battle of Dazar'alor Trash", "zhCN")
 if not L then return end
 if L then
+	L.flamespeaker = "拉斯塔利火语者"
 	L.enforcer = "永恒执行者"
 	L.punisher = "拉斯塔利惩罚者"
 	L.vessel = "邦桑迪的使者"
@@ -49,7 +50,6 @@ L = BigWigs:NewBossLocale("Opulence", "zhCN")
 if L then
 	L.room = "房间（%d/8）"
 	L.no_jewel = "没有宝石："
-	L.seconds = "%.1f秒"
 
 	L.custom_on_fade_out_bars = "淡出第1阶段计时条"
 	L.custom_on_fade_out_bars_desc = "第1阶段时，淡出另一侧房间的首领技能计时条。"
@@ -76,8 +76,8 @@ if L then
 	L.custom_off_sparkbot_marker = "火花机器人标记"
 	L.custom_off_sparkbot_marker_desc = "使用 {rt4}{rt5}{rt6}{rt7}{rt8} 标记火花机器人。"
 
-	L.custom_off_repeating_shrunk_say = "重复缩小喊话" -- Shrunk = 284168
-	L.custom_off_repeating_shrunk_say_desc = "当你受到|cff71d5ff[缩小]|r时重复喊话。这可能防止你被踩死。"
+	L.custom_on_repeating_shrunk_say = "重复缩小喊话" -- Shrunk = 284168
+	L.custom_on_repeating_shrunk_say_desc = "当你受到|cff71d5ff[缩小]|r时重复喊话“缩小”。如果其他人看到此聊天泡泡尽可能防止你被踩死。"
 
 	L.custom_off_repeating_tampering_say = "重复干涉喊话" -- Tampering = 286105
 	L.custom_off_repeating_tampering_say_desc = "当你控制机器人时重复喊话你的名字。"

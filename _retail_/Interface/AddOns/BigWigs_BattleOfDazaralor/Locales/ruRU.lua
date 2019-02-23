@@ -1,6 +1,7 @@
 local L = BigWigs:NewBossLocale("Battle of Dazar'alor Trash", "ruRU")
 if not L then return end
 if L then
+	L.flamespeaker = "Растарский заклинатель огня"
 	L.enforcer = "Вечный каратель"
 	L.punisher = "Растарский каратель"
 	L.vessel = "Сосуд Бвонсамди"
@@ -49,7 +50,6 @@ L = BigWigs:NewBossLocale("Opulence", "ruRU")
 if L then
 	L.room = "Комната (%d/8)"
 	L.no_jewel = "Нет Камня:"
-	L.seconds = "%.1fс"
 
 	L.custom_on_fade_out_bars = "Скрыть полосы 1-ой фазы"
 	L.custom_on_fade_out_bars_desc = "Скрыть полосы, которые не принадлежат голему в вашей комнате на 1-ой фазе."
@@ -76,8 +76,8 @@ if L then
 	L.custom_off_sparkbot_marker = "Метки на Раздражаторов"
 	L.custom_off_sparkbot_marker_desc = "Отмечает Раздражаторов {rt4}{rt5}{rt6}{rt7}{rt8}."
 
-	L.custom_off_repeating_shrunk_say = "Повторяющееся сообщение об Уменьшении" -- Shrunk = 284168
-	L.custom_off_repeating_shrunk_say_desc = "Спамить Уменьшение, когда Вы |cff71d5ff[Уменьшены]|r. Может тогда по Вам перестанут бегать."
+	L.custom_on_repeating_shrunk_say = "Повторяющееся сообщение об Уменьшении" -- Shrunk = 284168
+	L.custom_on_repeating_shrunk_say_desc = "Спамить Уменьшение, когда Вы |cff71d5ff[Уменьшены]|r. Может тогда по Вам перестанут бегать."
 
 	L.custom_off_repeating_tampering_say = "Повторяющееся сообщение во время Взлома" -- Tampering = 286105
 	L.custom_off_repeating_tampering_say_desc = "Спамить Ваще имя, когда Вы управляете Раздражатором."
