@@ -1,4 +1,4 @@
-local apiV, AB, MAJ, REV, ext, T = {}, {}, 2, 22, ...
+local apiV, AB, MAJ, REV, ext, T = {}, {}, 2, 23, ...
 if T.ActionBook then return end
 apiV[MAJ], ext, T.Kindred, T.Rewire = AB, {Kindred=T.Kindred, Rewire=T.Rewire, ActionBook={}}
 
@@ -100,13 +100,13 @@ local LW, L do
 	end
 end
 
-local actionCallbacks, core, coreEnv = {}, CreateFrame("FRAME", nil, nil, "SecureHandlerBaseTemplate") do
+local actionCallbacks, core, coreEnv = {}, CreateFrame("Frame", nil, nil, "SecureHandlerBaseTemplate") do
 	core:SetFrameRef("KR", ext.Kindred:compatible(1,0):seclib())
 	for s in ("0123456789QWERTYUIOP"):gmatch(".") do
 		local bni, bn = 1 repeat
 			bn, bni = "AB!" .. bni .. s, bni + 1
 		until GetClickFrame(bn) == nil
-		core:WrapScript(CreateFrame("BUTTON", bn, core, "SecureActionButtonTemplate"), "OnClick",
+		core:WrapScript(CreateFrame("Button", bn, core, "SecureActionButtonTemplate"), "OnClick",
 		[[-- AB:OnClick_Pre
 			local t = actInfo[tonumber(button)]
 			busy[self], idle[self] = t
@@ -347,6 +347,8 @@ local function getCategoryTable(name)
 	return r
 end
 
+local editorPanels = {}
+
 do -- AB:CreateToken()
 	local seq, dict, dictLength, prefix = 262143, "qwer1tyui2opas3dfgh4jklz5xcvb6nmQWE7RTYU8IOPA9SDFG0HJKL=ZXCV/BNM", 64
 	local function encode(n)
@@ -372,16 +374,17 @@ function AB:GetActionSlot(actionType, ...)
 	if allocatedActions[id] then
 		return id
 	end
-	assert(ident, 'Syntax: actionId = ActionBook:GetActionSlot("actionType", ... or actionTable)')
+	assert(ident, 'Syntax: actionId = ActionBook:GetActionSlot(actionTable or "actionType", ...)')
 end
 function AB:GetActionDescription(actionType, ...)
 	local ident, at = getActionIdent(actionType)
 	if actionDescribers[ident] then
 		return actionDescribers[ident](getActionArgs(at, ...))
 	end
-	assert(ident, 'Syntax: typeName, actionName, icon, ext, tipFunc, tipArg = ActionBook:GetActionDescription("actionType", ... or actionTable)')
+	assert(ident, 'Syntax: typeName, actionName, icon, ext, tipFunc, tipArg, actionType = ActionBook:GetActionDescription(actionTable or "actionType", ...)')
 end
 function AB:GetActionOptions(actionType)
+	-- DEPRECATED: Named action options will be going away; use the array portion + :RegisterEditorPanel
 	assert(type(actionType) == "string", 'Syntax: ... = ActionBook:GetActionOptions("actionType")')
 	return unpack(optData, optStart[actionType] or 0, optEnd[actionType] or -1)
 end
@@ -392,8 +395,10 @@ function AB:GetSlotInfo(id, modLock)
 	end
 end
 function AB:GetSlotImplementation(id)
-	assert(type(id) == "number", "Syntax: actionType, colEntryCount = ActionBook:GetSlotImplementation(slot)")
-	return allocatedActions[id] and allocatedActionType[id], coreEnv.collections[id] and #coreEnv.collections[id] or nil
+	assert(type(id) == "number", "Syntax: actionType, colEntryCount, colEmbedDefault = ActionBook:GetSlotImplementation(slot)")
+	local aType = allocatedActions[id] and allocatedActionType[id]
+	local colData = coreEnv.collections[id]
+	return aType, colData and #colData or nil, colData and coreEnv.metadata['embed-' .. id]
 end
 
 function AB:RegisterActionType(actionType, create, describe, opt)
@@ -485,6 +490,22 @@ function AB:GetLastObserverUpdateToken(ident)
 	assert(type(ident) == "string", 'Syntax: token = ActionBook:GetLastObserverUpdateToken("identifier")')
 	assert(ident == "*" or actionCreators[ident], "Identifier %q is not registered", ident)
 	return notifyCount
+end
+
+function AB:RegisterEditorPanel(actionType, editorPanel)
+	assert(type(actionType) == "string" and type(editorPanel) == "table", 'Syntax: ActionBook:RegisterEditorPanel("actionType", editorPanel)')
+	assert(actionCreators[actionType] ~= nil, "actionType %q is not registered", actionType)
+	assert(editorPanels[actionType] == nil, "An editor for %q is already registered", actionType)
+	assert(
+		type(editorPanel.SetAction) == "function" and
+		type(editorPanel.GetAction) == "function" and
+		type(editorPanel.IsOwned) == "function" and
+		type(editorPanel.Release) == "function",
+	"Required editor panel API methods not implemented")
+	editorPanels[actionType] = editorPanel
+end
+function AB:GetEditorPanel(actionType)
+	return editorPanels[actionType]
 end
 
 function AB:seclib()

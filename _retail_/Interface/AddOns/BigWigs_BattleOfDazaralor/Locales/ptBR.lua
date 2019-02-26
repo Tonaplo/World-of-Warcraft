@@ -1,6 +1,7 @@
 local L = BigWigs:NewBossLocale("Battle of Dazar'alor Trash", "ptBR")
 if not L then return end
 if L then
+	L.prelate = "Prelado Akk'al"
 	L.flamespeaker = "Flamiglota Rastari"
 	L.enforcer = "Impositor Eterno"
 	L.punisher = "Castigador Rastari"
@@ -65,6 +66,8 @@ end
 
 L = BigWigs:NewBossLocale("Conclave of the Chosen", "ptBR")
 if L then
+	-- L.custom_on_fixate_plates = "Mark of Prey icon on Enemy Nameplate"
+	-- L.custom_on_fixate_plates_desc = "Show an icon on the target nameplate that is fixating on you.\nRequires the use of Enemy Nameplates. This feature is currently only supported by KuiNameplates."
 	--L.killed = "%s killed!"
 	--L.count_of = "%s (%d/%d)"
 end

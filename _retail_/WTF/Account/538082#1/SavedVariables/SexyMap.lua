@@ -25,24 +25,6 @@ SexyMap2DB = {
 			["updateRate"] = 0.5,
 			["yOffset"] = 10,
 		},
-		["movers"] = {
-			["enabled"] = true,
-			["framePositions"] = {
-				["ObjectiveTrackerFrame"] = {
-					["y"] = 852.268005371094,
-					["x"] = 1718.96520996094,
-				},
-				["DurabilityFrame"] = {
-					["y"] = 811.885559082031,
-					["x"] = 1607.46691894531,
-				},
-				["VehicleSeatIndicator"] = {
-					["y"] = 727.11083984375,
-					["x"] = 1579.00219726563,
-				},
-			},
-			["lock"] = true,
-		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -68,12 +50,30 @@ SexyMap2DB = {
 				["MiniMapWorldMapButton"] = 22.1750488706855,
 				["LibDBIcon10_VuhDo"] = 244.64553357343,
 				["QueueStatusMinimapButton"] = 161.816765760918,
-				["MiniMapTracking"] = 116.402357746043,
+				["LibDBIcon10_WeakAuras"] = 205.545301510266,
 				["LibDBIcon10_DetailsStreamer"] = -31.5418667324045,
 				["GarrisonLandingPageMinimapButton"] = 228.102715337113,
-				["LibDBIcon10_WeakAuras"] = 205.545301510266,
+				["MiniMapTracking"] = 116.402357746043,
 			},
 			["controlVisibility"] = true,
+		},
+		["movers"] = {
+			["enabled"] = true,
+			["framePositions"] = {
+				["ObjectiveTrackerFrame"] = {
+					["y"] = 852.268005371094,
+					["x"] = 1718.96520996094,
+				},
+				["DurabilityFrame"] = {
+					["y"] = 811.885559082031,
+					["x"] = 1607.46691894531,
+				},
+				["VehicleSeatIndicator"] = {
+					["y"] = 727.11083984375,
+					["x"] = 1579.00219726563,
+				},
+			},
+			["lock"] = true,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -220,11 +220,23 @@ SexyMap2DB = {
 			["showPing"] = true,
 			["showAt"] = "map",
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "never",
+				["QueueStatusMinimapButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
 			},
-			["lock"] = false,
+			["dragPositions"] = {
+			},
+			["controlVisibility"] = true,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -313,30 +325,18 @@ SexyMap2DB = {
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["buttons"] = {
-			["radius"] = 10,
-			["lockDragging"] = false,
-			["allowDragging"] = true,
-			["visibilitySettings"] = {
-				["MinimapZoomIn"] = "never",
-				["MinimapZoneTextButton"] = "always",
-				["MiniMapWorldMapButton"] = "never",
-				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "always",
-				["MinimapZoomOut"] = "never",
-				["MiniMapMailFrame"] = "always",
-				["TimeManagerClockButton"] = "always",
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
 			},
-			["dragPositions"] = {
-			},
-			["controlVisibility"] = true,
+			["lock"] = false,
 		},
 	},
 	["Zaliga-Tichondrius"] = "global",
-	["Kindhoof-Tichondrius"] = "global",
-	["Tyindel-Frostwolf"] = "global",
 	["presets"] = {
 	},
+	["Tyindel-Frostwolf"] = "global",
+	["Kindhoof-Tichondrius"] = "global",
 	["Kaldorath-Icecrown"] = "global",
 	["Zethan-Tichondrius"] = "global",
 	["Rahran-Icecrown"] = "global",

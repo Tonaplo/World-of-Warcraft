@@ -11,7 +11,7 @@ local safequote do
 end
 
 local RegisterStateConditional do
-	local f = CreateFrame("FRAME", nil, nil, "SecureHandlerAttributeTemplate")
+	local f = CreateFrame("Frame", nil, nil, "SecureHandlerAttributeTemplate")
 	f:SetFrameRef("KR", KR:seclib())
 	f:Execute('KR, cndName, curValue = self:GetFrameRef("KR"), newtable(), newtable()')
 	f:SetAttribute("_onattributechanged", [[--
@@ -67,7 +67,7 @@ do -- known:spell id
 		end
 		return false
 	]=])
-	local f = CreateFrame("FRAME")
+	local f = CreateFrame("Frame")
 	f:SetScript("OnUpdate", function(self)
 		self:Hide()
 		KR:PokeConditional("known")
@@ -104,7 +104,7 @@ do -- form:token
 			[GetSpellInfo(114282)]="/treant",
 			[GetSpellInfo(210053)]="/stag",
 		}, nil
-		local function sync()
+		local function syncForm()
 			local s = ""
 			for i=1,10 do
 				local _, _, _, fsid = GetShapeshiftFormInfo(i)
@@ -117,12 +117,12 @@ do -- form:token
 			pending = nil
 			return "remove"
 		end
-		EV.PLAYER_LOGIN = sync
+		EV.PLAYER_LOGIN = syncForm
 		function EV.UPDATE_SHAPESHIFT_FORMS()
 			if InCombatLockdown() then
-				pending = pending or EV.RegisterEvent("PLAYER_REGEN_ENABLED", sync) or 1
+				pending = pending or EV.RegisterEvent("PLAYER_REGEN_ENABLED", syncForm) or 1
 			else
-				sync()
+				syncForm()
 			end
 		end
 	end
@@ -213,34 +213,36 @@ do -- outpost
 		[168499]="brewery", [168487]="brewery", [170108]="smuggling run/run", [170097]="smuggling run/run",
 		[164222]="corral", [165803]="corral", [160240]="tankworks", [160241]="tankworks",
 	}, false, GetSpellInfo(161691)
-	local function sync()
+	local function syncOutpost()
 		local ns = map[select(7, GetSpellInfo(name))]
 		if state ~= ns then
 			KR:SetStateConditionalValue("outpost", ns or "")
 			state = ns
 		end
 	end
-	EV.SPELLS_CHANGED = sync
-	sync()
+	EV.SPELLS_CHANGED = syncOutpost
+	syncOutpost()
 end
 do -- glyph:(defunct)
 	KR:SetStateConditionalValue("glyph", "")
 end
 do -- level:floor
-	local function sync()
+	local function syncLevel()
 		KR:SetThresholdConditionalValue("level", UnitLevel("player") or 0)
 	end
-	sync()
-	EV.PLAYER_LEVEL_UP = sync
+	syncLevel()
+	EV.PLAYER_LEVEL_UP = syncLevel
 end
 do -- horde/alliance
-	local function sync()
-		local fg = UnitFactionGroup("player")
-		KR:SetStateConditionalValue("horde", fg == "Horde" and "*" or "")
-		KR:SetStateConditionalValue("alliance", fg == "Alliance" and "*" or "")
+	local function syncFactionGroup(e, u)
+		if e ~= "UNIT_FACTION" or u == "player" then
+			local fg = UnitFactionGroup("player", true)
+			KR:SetStateConditionalValue("horde", fg == "Horde" and "*" or "")
+			KR:SetStateConditionalValue("alliance", fg == "Alliance" and "*" or "")
+		end
 	end
-	sync()
-	EV.PLAYER_ENTERING_WORLD = sync
+	syncFactionGroup()
+	EV.PLAYER_ENTERING_WORLD, EV.UNIT_FACTION = syncFactionGroup, syncFactionGroup
 end
 do -- moving
 	KR:SetNonSecureConditional("moving", function()
@@ -370,13 +372,19 @@ do -- combo:count
 	KR:SetNonSecureConditional("combo", function(_name, args)
 		return UnitPower("player", power) >= (tonumber(args) or 1)
 	end)
-	local function sync()
+	local function syncComboPower()
 		power = powerMap[GetSpecializationInfo(GetSpecialization() or 0)] or defaultPower
 	end
-	EV.PLAYER_SPECIALIZATION_CHANGED, EV.PLAYER_LOGIN = sync, sync
+	EV.PLAYER_SPECIALIZATION_CHANGED, EV.PLAYER_LOGIN = syncComboPower, syncComboPower
 end
 do -- race:token
-	KR:SetStateConditionalValue("race", (select(2,UnitRace("player"))))
+	local map, _, raceToken = {
+		Scourge="Scourage/Undead/Forsaken",
+		LightforgedDraenei="LightforgedDraenei/Lightforged",
+		HighmountainTauren="HighmountainTauren/Highmountain",
+		MagharOrc="MagharOrc/Maghar",
+	}, UnitRace("player")
+	KR:SetStateConditionalValue("race", map[raceToken] or raceToken)
 end
 do -- professions
 	local ct, ot, map = {}, {}, {
@@ -392,7 +400,7 @@ do -- professions
 		[264588]="lw6", [264590]="lw7",
 		[264479]="eng2", [264481]="eng3", [264483]="eng4", [264485]="eng5", [264488]="eng6", [264490]="eng7",
 	}
-	local function syncInner(id, ...)
+	local function syncProfInner(id, ...)
 		if id then
 			local _1, _2, cur, _cap, ns, sofs, skid, _bonus, specIdx, _ = GetProfessionInfo(id)
 			local et, sid = GetSpellBookItemInfo(ns == 2 and sofs and specIdx > -1 and sofs+2 or 0, "spell")
@@ -401,13 +409,13 @@ do -- professions
 			if e2 then ct[e2] = cur end
 		end
 		if select("#", ...) > 0 then
-			return syncInner(...)
+			return syncProfInner(...)
 		end
 	end
-	local function sync()
+	local function syncProf()
 		ct, ot = ot, ct
 		for k in pairs(ct) do ct[k] = nil end
-		syncInner(GetProfessions())
+		syncProfInner(GetProfessions())
 		for sid, cnd in pairs(spellIDProfs) do
 			ct[cnd] = GetSpellInfo(GetSpellInfo(sid) or "\1") and 1 or nil
 		end
@@ -433,14 +441,14 @@ do -- professions
 	for alias, real in ("tailoring:tail leatherworking:lw alchemy:alch engineering:engi enchanting:ench jewelcrafting:jc blacksmithing:bs inscription:scri herbalism:herb archaeology:arch cooking:cook fishing:fish"):gmatch("(%a+):(%a+)") do
 		KR:SetAliasConditional(alias, real)
 	end
-	EV.PLAYER_LOGIN, EV.CHAT_MSG_SKILL = sync, sync
+	EV.PLAYER_LOGIN, EV.CHAT_MSG_SKILL = syncProf, syncProf
 end
 if playerClass == "HUNTER" then -- pet:stable id; havepet:stable id
 	local pt, noPendingSync = {}, true
-	local function sync(e)
+	local function syncPet(e)
 		if InCombatLockdown() then
 			if noPendingSync then
-				EV.PLAYER_REGEN_ENABLED, noPendingSync = sync, false
+				EV.PLAYER_REGEN_ENABLED, noPendingSync = syncPet, false
 			end
 			return
 		end
@@ -463,7 +471,7 @@ if playerClass == "HUNTER" then -- pet:stable id; havepet:stable id
 		return e == "PLAYER_REGEN_ENABLED" and "remove" or nil
 	end
 	KR:SetStateConditionalValue("havepet", false)
-	EV.PLAYER_LOGIN, EV.PET_STABLE_UPDATE, EV.LOCALPLAYER_PET_RENAMED = sync, sync, sync
+	EV.PLAYER_LOGIN, EV.PET_STABLE_UPDATE, EV.LOCALPLAYER_PET_RENAMED = syncPet, syncPet, syncPet
 else
 	KR:SetStateConditionalValue("havepet", false)
 end

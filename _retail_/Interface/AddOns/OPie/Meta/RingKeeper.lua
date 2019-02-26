@@ -1,5 +1,5 @@
 local RingKeeper, _, T = {}, ...
-local RK_RingDesc, RK_CollectionIDs, RK_Version, RK_Rev, EV, SV = {}, {}, 2, 46, T.Evie
+local RK_RingDesc, RK_CollectionIDs, RK_Version, RK_Rev, EV, SV = {}, {}, 2, 47, T.Evie
 local unlocked, queue, RK_DeletedRings, RK_FlagStore, sharedCollection = false, {}, {}, {}, {}
 
 local function assert(condition, text, level, ...)
@@ -12,12 +12,17 @@ local ORI = OneRingLib.ext.OPieUI
 local CLASS, FULLNAME, FACTION
 
 local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groundSpellID, airSpellID)
-	local castAlias = {
-		[SLASH_CAST1]=1, [SLASH_CAST2]=1, [SLASH_CAST3]=1, [SLASH_CAST4]=1, [SLASH_USE1]=1, [SLASH_USE2]=1,
-		["#show"]=0, ["#showtooltip"]=0,
-		[SLASH_CASTSEQUENCE1]=2, [SLASH_CASTSEQUENCE2]=2,
-		[SLASH_CASTRANDOM1]=3, [SLASH_CASTRANDOM2]=3,
-	}
+	local castAlias = {["#show"]=0, ["#showtooltip"]=0} do
+		for n,v in ("CAST:1 USE:1 CASTSEQUENCE:2 CASTRANDOM:3 USERANDOM:3"):gmatch("(%a+):(%d+)") do
+			local v, idx, s = v+0, 1
+			repeat
+				if s then
+					castAlias[s] = v
+				end
+				s, idx = _G["SLASH_" .. n .. idx], idx+1
+			until not s
+		end
+	end
 	local function replaceSpellID(ctype, sidlist, prefix)
 		local sr
 		for id, sn in sidlist:gmatch("%d+") do
@@ -26,6 +31,8 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			local isCastable, castFlag = RW:IsSpellCastable(id)
 			if isCastable then
 				if castFlag == "forced-id-cast" and (ctype == 1 or ctype == 3) then
+					sn = "spell:" .. id
+				elseif ctype == 3 and sn and sn:match(",") then
 					sn = "spell:" .. id
 				elseif sr and sr ~= "" then
 					sn = sn .. "(" .. sr .. ")"
@@ -84,9 +91,9 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 		end
 	end
 	local function replaceAlternatives(ctype, replaceFunc, args)
-		local ret
-		for alt in (args .. ","):gmatch("(.-),") do
-			local alt2 = replaceFunc(ctype, alt)
+		local ret, alt2, rfCtx
+		for alt, cpos in (args .. ","):gmatch("(.-),()") do
+			alt2, rfCtx = replaceFunc(ctype, alt, rfCtx, args, cpos)
 			if alt == alt2 or (alt2 and alt2:match("%S")) then
 				ret = (ret and (ret .. ", ") or "") .. alt2:match("^%s*(.-)%s*$")
 			end
@@ -140,11 +147,24 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			return value
 		end)
 		local spells, OTHER_SPELL_IDS = {}, {150544, 243819}
-		quantizeLine = genLineParser(function(_ctype, value)
-			local mark, name = value:match("^%s*(!?)(.-)%s*$")
-			local sid = spells[name:lower()]
-			if not sid and mark == "!" then mark, sid = "", spells[mark .. name:lower()] end
-			return sid and (mark .. "{{spell:" .. sid .. "}}") or value
+		quantizeLine = genLineParser(function(ctype, value, ctx, args, cpos)
+			if type(ctx) == "number" and ctx > 0 then
+				return nil, ctx-1
+			end
+			local cc, mark, name = 0, value:match("^%s*(!?)(.-)%s*$")
+			repeat
+				local sid, peek, cnpos = spells[name:lower()]
+				if sid then
+					return (mark .. "{{spell:" .. sid .. "}}"), cc
+				end
+				if ctype >= 2 and args then
+					peek, cnpos = args:match("^([^,]+),?()", cpos)
+					if peek then
+						cc, name, cpos = cc + 1, name .. ", " .. peek:match("^%s*(.-)%s*$"), cnpos
+					end
+				end
+			until not peek or cc > 5
+			return value
 		end)
 		function prepareQuantizer(reuse)
 			if reuse and next(spells) then return end
@@ -167,34 +187,36 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 				for tier=1, MAX_TALENT_TIERS do
 					for column=1, 3 do
 						tip:SetTalent(GetTalentInfoBySpecialization(spec, tier, column))
-						local name, _, id = tip:GetSpell()
+						local name, id = tip:GetSpell()
 						if id and type(name) == "string" then
 							spells[name:lower()] = id
 						end
 					end
 				end
 			end
-			for i=GetNumSpellTabs()+12,1,-1 do
-				local _, _, ofs, c, _, sid = GetSpellTabInfo(i)
-				for j=ofs+1,sid == 0 and (ofs+c) or 0 do
-					local n, st, id = GetSpellBookItemName(j, "spell"), GetSpellBookItemInfo(j, "spell")
-					if type(n) ~= "string" or not id then
-					elseif st == "SPELL" or st == "FUTURESPELL" then
-						spells[n:lower()] = id
-						local sr = GetSpellSubtext(id)
-						if sr and sr ~= "" then
-							spells[n:lower() .."(" .. sr:lower() .. ")"] = id
-							spells[n:lower() .." (" .. sr:lower() .. ")"] = id
-						end
-					elseif st == "FLYOUT" then
-						for j=1,select(3,GetFlyoutInfo(id)) do
-							local sid, _, _, sname = GetFlyoutSlotInfo(id, j)
-							if sid and type(sname) == "string" then
-								spells[sname:lower()] = sid
-								local sr = GetSpellSubtext(sid)
-								if sr and sr ~= "" then
-									spells[sname:lower() .."(" .. sr:lower() .. ")"] = sid
-									spells[sname:lower() .." (" .. sr:lower() .. ")"] = sid
+			for curSpec=0,1 do
+				for i=GetNumSpellTabs()+12,1,-1 do
+					local _, _, ofs, c, _, sid = GetSpellTabInfo(i)
+					for j=ofs+1,((curSpec == 0) == (sid == 0)) and ofs+c or 0 do
+						local n, st, id = GetSpellBookItemName(j, "spell"), GetSpellBookItemInfo(j, "spell")
+						if type(n) ~= "string" or not id then
+						elseif st == "SPELL" or st == "FUTURESPELL" then
+							local nl, sr, k = n:lower(), GetSpellSubtext(id)
+							spells[nl] = spells[nl] or id
+							if sr and sr ~= "" then
+								k = nl .. "(" .. sr:lower() .. ")"; spells[k] = spells[k] or sid
+								k = nl .. " (" .. sr:lower() .. ")"; spells[k] = spells[k] or sid
+							end
+						elseif st == "FLYOUT" then
+							for j=1,select(3,GetFlyoutInfo(id)) do
+								local sid, _, _, sname = GetFlyoutSlotInfo(id, j)
+								if sid and type(sname) == "string" then
+									local nl, sr, k = sname:lower(), GetSpellSubtext(sid)
+									spells[nl] = spells[nl] or sid
+									if sr and sr ~= "" then
+										k = nl .. "(" .. sr:lower() .. ")"; spells[k] = spells[k] or sid
+										k = nl .. " (" .. sr:lower() .. ")"; spells[k] = spells[k] or sid
+									end
 								end
 							end
 						end
@@ -374,8 +396,8 @@ local function RK_SyncRing(name, force, tok)
 		elseif type(ident) == "string" then
 			action = AB:GetActionSlot(unpackABAction(e, 1))
 		end
-		changed = changed or (action ~= e._action) or (e.fastClick ~= e._fastClick) or (e.lockRotation ~= e._lockRotation) or (action and (e.show ~= e._show) or (e.embed ~= e._embed))
-		e._action, e._fastClick, e._lockRotation = action, e.fastClick, e.lockRotation
+		changed = changed or (action ~= e._action) or (e.fastClick ~= e._fastClick) or (e.rotationMode ~= e._rotationMode) or (action and (e.show ~= e._show) or (e.embed ~= e._embed))
+		e._action, e._fastClick, e._rotationMode = action, e.fastClick, e.rotationMode
 	end
 	changed = changed or (desc._embed ~= desc.embed)
 
@@ -420,6 +442,11 @@ local function RK_SanitizeDescription(props)
 			v[1], v[2], v.rtype, v.id = "macrotext", id
 		elseif v[1] == nil then
 			table.remove(props, i)
+		end
+		if v.lockRotation ~= nil and v.rotationMode == nil then
+			-- DEPRECATED [1902/3.96/W1]: lockRotation->rotationMode transition.
+			v.rotationMode = v.lockRotation and "reset" or nil
+			v.lockRotation = nil
 		end
 		v.show = v.show ~= "" and v.show or nil
 		v.sliceToken = v.sliceToken or (uprefix and type(v._u) == "string" and (uprefix .. v._u)) or AB:CreateToken()

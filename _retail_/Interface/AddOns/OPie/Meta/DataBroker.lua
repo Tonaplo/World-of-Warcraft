@@ -1,7 +1,7 @@
 local _, T = ...
 
 local AB = assert(T.ActionBook:compatible(2, 21), "A compatible version of ActionBook is required")
-local EV = T.Evie
+local EV, L = T.Evie, T.L
 
 local LDB
 local function checkLDB()
@@ -13,7 +13,7 @@ do -- action handler
 	local function call(obj, btn)
 		obj:OnClick(btn)
 	end
-	local function describe(name)
+	local function describeBroker(name)
 		local obj = (LDB or checkLDB() or LDB) and LDB:GetDataObjectByName(name)
 		return "Launcher", obj and obj.label or name, obj and obj.icon or "Interface/Icons/INV_Misc_QuestionMark", obj
 	end
@@ -21,7 +21,7 @@ do -- action handler
 		if not obj then return end
 		return true, 0, obj.icon, obj.label or obj.text, 0,0,0, obj.OnTooltipShow, nil, obj
 	end
-	local function create(name, rightClick)
+	local function createBroker(name, rightClick)
 		if type(name) ~= "string" or not (LDB or checkLDB() or LDB) then return end
 		local pname = name .. "#" .. (rightClick and "R" or "L")
 		if not nameMap[pname] then
@@ -31,7 +31,7 @@ do -- action handler
 		end
 		return nameMap[pname]
 	end
-	AB:RegisterActionType("opie.databroker.launcher", create, describe, {"clickUsingRightButton"})
+	AB:RegisterActionType("opie.databroker.launcher", createBroker, describeBroker, {"clickUsingRightButton"})
 end
 do -- category
 	local waiting = true
@@ -64,3 +64,4 @@ do -- category
 		end
 	end
 end
+AB._CreateSimpleEditorPanel("opie.databroker.launcher", {"clickUsingRightButton", clickUsingRightButton=L"Simulate a right-click"})

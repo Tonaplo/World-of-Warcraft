@@ -1,7 +1,7 @@
 local config, L, _, T = OneRingLib.ext.config, OneRingLib.lang, ...
 local KR = OneRingLib.ext.ActionBook:compatible("Kindred", 1, 0)
 
-local frame = config.createFrame("Bindings", "OPie")
+local frame = config.createPanel("Bindings", "OPie")
 local OBC_Profile = CreateFrame("Frame", "OBC_Profile", frame, "UIDropDownMenuTemplate")
 	OBC_Profile:SetPoint("TOPLEFT", 0, -85) UIDropDownMenu_SetWidth(OBC_Profile, 200)
 	OBC_Profile.initialize = OPC_Profile.initialize
@@ -22,7 +22,7 @@ local bindLines, bindZone = {}, CreateFrame("Frame", nil, frame) do
 		local bind = config.createBindingButton(bindZone)
 		local label = bind:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
 		bind:SetPoint("TOPLEFT", lBinding, "BOTTOMLEFT", 0, 16-20*i)
-		bind.macro = CreateFrame("BUTTON", nil, bind, "UIPanelButtonTemplate")
+		bind.macro = CreateFrame("Button", nil, bind, "UIPanelButtonTemplate")
 		bind.macro:SetWidth(24) bind.macro:SetPoint("LEFT", bind, "RIGHT", 1, 0)
 		local ico = bind.macro:CreateTexture(nil, "ARTWORK")
 		ico:SetSize(23,23) ico:SetPoint("CENTER", -1, -1) ico:SetTexture("Interface\\RaidFrame\\UI-RaidFrame-Arrow")
@@ -240,8 +240,7 @@ end
 btnDown:SetScript("OnClick", scroll) btnUp:SetScript("OnClick", scroll)
 
 function bindSet:initialize(level, menuList)
-	local info = UIDropDownMenu_CreateInfo()
-	info.func, info.minWidth = bindSet.set, level == 1 and (bindSet:GetWidth()-40) or nil
+	local info = {func=bindSet.set, minWidth=level == 1 and (bindSet:GetWidth()-40) or nil}
 	if level == 2 and menuList then
 		return menuList:scopes(info, level, menuList == currentOwner)
 	end

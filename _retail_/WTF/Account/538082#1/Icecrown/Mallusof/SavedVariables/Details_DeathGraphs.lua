@@ -572,11 +572,11 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Êlwen-KhazModan"] = {
+			["Meowtapes-Proudmoore"] = {
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Êlwen-KhazModan",
+				["class"] = "PRIEST",
+				["name"] = "Meowtapes-Proudmoore",
 				["overall"] = {
 				},
 			},
@@ -588,11 +588,11 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Azsharys-SilverHand"] = {
+			["Êlwen-KhazModan"] = {
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
-				["name"] = "Azsharys-SilverHand",
+				["class"] = "DEMONHUNTER",
+				["name"] = "Êlwen-KhazModan",
 				["overall"] = {
 				},
 			},
@@ -620,11 +620,11 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Meowtapes-Proudmoore"] = {
+			["Azsharys-SilverHand"] = {
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
-				["name"] = "Meowtapes-Proudmoore",
+				["class"] = "DRUID",
+				["name"] = "Azsharys-SilverHand",
 				["overall"] = {
 				},
 			},
@@ -3109,17 +3109,17 @@ DeathGraphsDBDeaths = {
 		["id"] = 2195,
 		["diff"] = 15,
 		["player_db"] = {
-			["Eldodin-KhazModan"] = {
+			["Murtag-Sargeras"] = {
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
 			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
+			["Marksopp-Lightbringer"] = {
+				["name"] = "Marksopp-Lightbringer",
+				["class"] = "DEATHKNIGHT",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -3221,13 +3221,13 @@ DeathGraphsDBDeaths = {
 				["name"] = "Asahina-Lightbringer",
 				["class"] = "MAGE",
 			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
+			["Eldodin-KhazModan"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
 			},
 			["Kahoots-Proudmoore"] = {
 				["name"] = "Kahoots-Proudmoore",
@@ -3769,9 +3769,9 @@ DeathGraphsDBDeaths = {
 				["name"] = "Elidellx",
 				["class"] = "DEATHKNIGHT",
 			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
+			["Popmybubbles-Kel'Thuzad"] = {
+				["name"] = "Popmybubbles-Kel'Thuzad",
+				["class"] = "PALADIN",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -3793,13 +3793,13 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Havnot-Stormrage"] = {
+			["Mallusof"] = {
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Havnot-Stormrage",
-				["class"] = "DEMONHUNTER",
 			},
 			["Atag"] = {
 				["overall"] = {
@@ -3809,13 +3809,13 @@ DeathGraphsDBDeaths = {
 				["name"] = "Atag",
 				["class"] = "MONK",
 			},
-			["Popmybubbles-Kel'Thuzad"] = {
-				["name"] = "Popmybubbles-Kel'Thuzad",
-				["class"] = "PALADIN",
+			["Havnot-Stormrage"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Havnot-Stormrage",
+				["class"] = "DEMONHUNTER",
 			},
 			["Jests"] = {
 				["name"] = "Jests",
@@ -6494,11 +6494,21 @@ DeathGraphsDBEndurance = {
 		["name"] = "Zul",
 		["id"] = 2195,
 		["player_db"] = {
-			["Eldodin-KhazModan"] = {
+			["Murtag-Sargeras"] = {
 				["encounters"] = 5,
-				["points"] = 500,
-				["class"] = "WARLOCK",
+				["points"] = 480,
+				["class"] = "WARRIOR",
 				["deaths"] = {
+					{
+						2, -- [1]
+						14.4960000000001, -- [2]
+						"Bloody Cleave |cFFFF333327,300|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						221.299, -- [2]
+						"Environment (Falling) |cFFFF333397,926|r", -- [3]
+					}, -- [2]
 				},
 			},
 			["Mistaaytch-Lightbringer"] = {
@@ -6515,21 +6525,11 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 5,
-				["points"] = 480,
-				["class"] = "WARRIOR",
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
-					{
-						2, -- [1]
-						14.4960000000001, -- [2]
-						"Bloody Cleave |cFFFF333327,300|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						221.299, -- [2]
-						"Environment (Falling) |cFFFF333397,926|r", -- [3]
-					}, -- [2]
 				},
 			},
 			["Kesak-Lightbringer"] = {
@@ -6630,10 +6630,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEATHKNIGHT",
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -15650,14 +15650,14 @@ DeathGraphsDBGraph = {
 			[140] = {
 				1536899714, -- [1]
 			},
-			[119] = {
-				1543553349, -- [1]
-			},
 			[60] = {
 				1543553097, -- [1]
 			},
 			[173] = {
 				1536899033, -- [1]
+			},
+			[119] = {
+				1543553349, -- [1]
 			},
 			[105] = {
 				1536899431, -- [1]
@@ -15753,8 +15753,8 @@ DeathGraphsDBGraph = {
 				1548998578, -- [1]
 				1548998578, -- [2]
 			},
-			[246] = {
-				1548999893, -- [1]
+			[267] = {
+				1548999065, -- [1]
 			},
 			[188] = {
 				1548999893, -- [1]
@@ -15777,11 +15777,11 @@ DeathGraphsDBGraph = {
 			[28] = {
 				1548999369, -- [1]
 			},
-			[267] = {
-				1548999065, -- [1]
-			},
 			[184] = {
 				1549001294, -- [1]
+			},
+			[246] = {
+				1548999893, -- [1]
 			},
 			[502] = {
 				1549000576, -- [1]
@@ -15992,8 +15992,8 @@ DeathGraphsDBGraph = {
 	},
 	["234214"] = {
 		["deaths"] = {
-			[273] = {
-				1548992852, -- [1]
+			[240] = {
+				1548389910, -- [1]
 			},
 			[66] = {
 				1548389274, -- [1]
@@ -16005,8 +16005,8 @@ DeathGraphsDBGraph = {
 			[39] = {
 				1548389274, -- [1]
 			},
-			[107] = {
-				1548389274, -- [1]
+			[273] = {
+				1548992852, -- [1]
 			},
 			[236] = {
 				1548992852, -- [1]
@@ -16014,8 +16014,8 @@ DeathGraphsDBGraph = {
 			[241] = {
 				1548389910, -- [1]
 			},
-			[240] = {
-				1548389910, -- [1]
+			[107] = {
+				1548389274, -- [1]
 			},
 		},
 		["spells"] = {

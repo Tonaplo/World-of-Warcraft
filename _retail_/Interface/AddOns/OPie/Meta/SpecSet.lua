@@ -1,9 +1,9 @@
 local _, T = ...
 
 local EV, L = T.Evie, T.L
-local AB = assert(T.ActionBook:compatible(2,21), "A compatible version of ActionBook is required.")
+local AB = assert(T.ActionBook:compatible(2,23), "A compatible version of ActionBook is required.")
 local RW = assert(AB:compatible("Rewire", 1,7), "A compatible version of Rewire is required")
-local PLAYERNAME = UnitName("player") .. "@" .. GetRealmName()
+local CHARNAME = UnitName("player") .. "@" .. GetRealmName()
 
 do -- RW/opiespecset
 	local f = CreateFrame("Frame", nil, nil, "SecureFrameTemplate")
@@ -61,7 +61,7 @@ do -- AB/specset
 		end
 		SetSpecializationTooltip(self, spec, set)
 	end
-	local function hint(tok)
+	local function hintSpecSet(tok)
 		local cs, spec, set = GetSpecialization(), tspec[tok], tset[tok]
 		if spec == nil then
 			spec, set = 0+tok:sub(1,1), tok:sub(3)
@@ -69,26 +69,26 @@ do -- AB/specset
 		end
 		local _, name, _, ico = GetSpecializationInfo(spec)
 		local state = (cs == spec and 1 or 0)
-		return not InCombatLockdown(), state, ico, name, 0, 0, 0, SetSpecSetTooltip, tok
+		return (HasFullControl() and not InCombatLockdown()), state, ico, name, 0, 0, 0, SetSpecSetTooltip, tok
 	end
-	local function create(idx, sets)
+	local function createSpecSet(idx, sets)
 		local _, specName = GetSpecializationInfo(idx)
-		local setName = sets and sets[PLAYERNAME]
+		local setName = sets and sets[CHARNAME]
 		setName = setName ~= false and (setName or specName) or ""
 		local tk = idx .. "#" .. setName
 		local ret = slot[tk]
 		if specName and UnitLevel("player") >= 10 and GetNumSpecializations() >= idx and not ret then
 			ret = AB:GetActionSlot("macrotext", ("/cancelform [nospec:%d,form:travel,flyable,noflying,nocombat]\n/opiespecset %d {%s}\n%s [spec:%d] %s"):format(idx, idx, setName, SLASH_EQUIP_SET1, setName ~= "" and idx or 5, setName))
-			ret = AB:CreateActionSlot(hint, tk, "clone", ret)
+			ret = AB:CreateActionSlot(hintSpecSet, tk, "clone", ret)
 			slot[tk] = ret
 		end
 		return ret
 	end
-	local function describe(idx, _sets)
+	local function describeSpecSet(idx, _sets)
 		local _, name, _, ico = GetSpecializationInfo(idx)
 		return SPECIALIZATION, name or idx, ico or "Interface/Icons/Temp", nil, SetSpecializationTooltip, idx
 	end
-	AB:RegisterActionType("specset", create, describe)
+	AB:RegisterActionType("specset", createSpecSet, describeSpecSet)
 	AB:AugmentCategory("Miscellaneous", function(_, add)
 		for i=1,GetNumSpecializations() do
 			add("specset", i)
@@ -99,74 +99,116 @@ do -- EditorUI
 	local bg = CreateFrame("Frame")
 	local drop = CreateFrame("Frame", "OPie_SS_Drop", bg, "UIDropDownMenuTemplate")
 	local lab = drop:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-	lab:SetPoint("LEFT", bg, "TOPLEFT", 0, -14)
+	local myPlayerMap, mySpecID, mySpecName
+	lab:SetPoint("LEFT", bg, "TOPLEFT", 0, -18)
 	lab:SetText(L"Equip set:")
 	drop:SetPoint("TOPRIGHT", -3, -2)
 	UIDropDownMenu_SetWidth(drop, 250)
-	function drop:set(name, skipSave)
-		drop.value = name
-		local n, ico = C_EquipmentSet.GetEquipmentSetInfo(name and C_EquipmentSet.GetEquipmentSetID(name) or -1)
-		if name == false or n then
-			UIDropDownMenu_SetText(drop, name == false and NONE or ((ico and "|T" .. ico .. ":0|t " or "") .. name))
-			if not skipSave then
-				local p = bg:GetParent()
-				p = p and p.SaveAction and p:SaveAction()
+	
+	local function getCurrentValue()
+		local value = nil
+		if myPlayerMap and myPlayerMap[CHARNAME] ~= nil then
+			value = myPlayerMap[CHARNAME]
+		end
+		if value == nil then
+			value = mySpecName
+		end
+		return value
+	end
+	function drop:text()
+		local name = getCurrentValue()
+		local _, ico = C_EquipmentSet.GetEquipmentSetInfo(name and C_EquipmentSet.GetEquipmentSetID(name) or -1)
+		UIDropDownMenu_SetText(drop, name == false and NONE or ((ico and "|T" .. ico .. ":0|t " or "|cffc02020") .. name))
+	end
+	function drop:set(name)
+		if name == mySpecName then
+			name = nil
+		end
+		if myPlayerMap or name ~= nil then
+			myPlayerMap = myPlayerMap or {}
+			myPlayerMap[CHARNAME] = name
+			if name == nil and next(myPlayerMap) == nil then
+				myPlayerMap = nil
 			end
 		end
+		drop:text() -- SaveAction would normally cause a refresh via :SetAction.
+		local p = bg:GetParent()
+		p = p and p.SaveAction and p:SaveAction()
 	end
-	function drop.initialize()
-		local inf, hadSpec = UIDropDownMenu_CreateInfo(), false
-		inf.func, inf.minWidth = drop.set, drop:GetWidth()-40
-		inf.text, inf.arg1, inf.checked = NONE, false, drop.value == false
+	function drop:initialize()
+		local value = getCurrentValue()
+		local inf, hadSpec = {func=self.set, minWidth=self:GetWidth()-40}, false
+		inf.text, inf.arg1, inf.checked = NONE, false, value == false
 		UIDropDownMenu_AddButton(inf)
 		for _, id in pairs(C_EquipmentSet.GetEquipmentSetIDs()) do
 			local n, ico = C_EquipmentSet.GetEquipmentSetInfo(id)
-			inf.text, inf.arg1, inf.checked = "|T" .. (ico or "Interface/Icons/Temp") .. ":0|t " .. n, n, drop.value == n
-			hadSpec = hadSpec or n == drop.spec
+			inf.text, inf.arg1, inf.checked = "|T" .. (ico or "Interface/Icons/Temp") .. ":0|t " .. n, n, value == n
+			hadSpec = hadSpec or n == mySpecName
 			UIDropDownMenu_AddButton(inf)
 		end
-		if not hadSpec and drop.spec then
-			inf.text, inf.arg1, inf.checked = drop.spec, drop.spec, drop.value == nil or drop.value == drop.spec
+		if not hadSpec and mySpecName then
+			inf.text, inf.arg1, inf.checked = mySpecName, mySpecName, value == nil or value == mySpecName
 			UIDropDownMenu_AddButton(inf)
 		end
 	end
 
+	--[[ The action format is: "specset", specIndex, {CHARNAME => equipSetName}
+	     The map in [3] is needed to allow different characters to use the
+	     "same" specset action to equip different sets. This editor only changes
+	     the set equipped by the current character. However, the table causes some
+	     degree of alarm: other code has pointers to it (and could modify it while
+	     we're not looking), this editor could modify the original table without
+	     intending to save its changes (possibly bypassing the host's undo
+	     functionality), and :GetAction(into) needs us to write the full action
+	     into an empty table (so keeping just this character's set name
+	     internally isn't an option).
+
+	     Current editor, action, and editor host implementations would be fine
+	     with us keeping, mutating, and handing back the original table. To avoid
+	     headaches in the future, we nevertheless create copies in both :GetAction
+	     and :SetAction. What's a little table churn between friends?
+	--]]
+	local function shallowCopy(t)
+		if type(t) ~= "table" then
+			return nil
+		end
+		local r = {}
+		for k,v in pairs(t) do
+			r[k] = v
+		end
+		return r
+	end
 	function bg:SetAction(owner, action)
 		bg:SetParent(nil)
 		bg:ClearAllPoints()
 		bg:SetAllPoints(owner)
 		bg:SetParent(owner)
 		bg:Show()
-		local at, _, sn = action[3], GetSpecializationInfo(action[2])
-		at, drop.spec = at and at[PLAYERNAME], sn
-		drop:SetShown(not not sn)
-		if sn then
-			drop:set(at == nil and drop.spec or at, true)
+
+		mySpecID, myPlayerMap = action[2], shallowCopy(action[3])
+		if type(myPlayerMap) ~= "table" then
+			myPlayerMap = nil
+		end
+		mySpecName = select(2, GetSpecializationInfo(mySpecID))
+		drop:SetShown(not not mySpecName)
+		if mySpecName then
+			drop:text()
 		end
 	end
 	function bg:GetAction(into)
-		--FIXME: These semantics are all wrong: we're abusing the current RK config UI behavior.
-		if not drop:IsShown() then return end
-		local v, at = drop.value, into[3]
-		local cv = at and at[PLAYERNAME]
-		if v == drop.spec then v = nil end
-		if v ~= cv then
-			at = at or {}
-			at[PLAYERNAME] = v
-			if next(at) == nil then at = nil end
-			into[3] = at
-		end
+		into[1], into[2], into[3] = "specset", mySpecID, shallowCopy(myPlayerMap)
 	end
 	function bg:Release(owner)
 		if bg:IsOwned(owner) then
 			bg:SetParent(nil)
 			bg:ClearAllPoints()
 			bg:Hide()
+			myPlayerMap, mySpecID, mySpecName = nil
 		end
 	end
 	function bg:IsOwned(owner)
 		return bg:GetParent() == owner
 	end
 	
-	T.TEMP_AB_EDITORS.specset = bg
+	AB:RegisterEditorPanel("specset", bg)
 end

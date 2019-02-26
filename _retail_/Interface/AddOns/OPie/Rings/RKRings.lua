@@ -227,6 +227,21 @@ R:SetRing("RaidSymbols", {
 	name=L"Target Markers", hotkey="ALT-R", _u="OPCRS"
 })
 
+R:SetRing("CommonHearth", {
+	{"item", 6948, _u="h"},
+	{"toy", 64488, _u="i"},
+	{"toy", 54452, _u="e"},
+	{"toy", 93672, _u="d"},
+	{"toy", 142542, _u="t"},
+	{"toy", 165669, _u="u"},
+	{"toy", 165670, _u="v"},
+	{"toy", 165802, _u="g"},
+	{"toy", 166746, _u="f"},
+	{"toy", 166747, _u="b"},
+	{"toy", 163045, _u="l"},
+	{"toy", 162973, _u="w"},
+	name=L"Hearthstones", internal=true, _u="OPCHS"
+})
 R:SetRing("SpecMenu", {
 	{"specset", 1, _u="1"},
 	{"specset", 2, _u="2"},
@@ -235,7 +250,7 @@ R:SetRing("SpecMenu", {
 	{id="/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}", _u="c"},
 	{"item", 110560, _u="g"},
 	{"item", 140192, _u="d"},
-	{"item", 6948, _u="h"},
-	{"toy", 64488, _u="i"},
+	{"ring", "CommonHearth", onlyNonEmpty=true, rotationMode="shuffle", _u="t"},
+	{"spell", 556, _u="a"},
 	name=L"Specializations and Travel", hotkey="ALT-H", _u="OPCTA"
 })

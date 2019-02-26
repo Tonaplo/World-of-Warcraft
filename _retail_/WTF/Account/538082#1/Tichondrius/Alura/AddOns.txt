@@ -1,5 +1,5 @@
-VuhDo: disabled
-VuhDoOptions: disabled
+VuhDo: enabled
+VuhDoOptions: enabled
 AdiBags: enabled
 AdiBags_Artifact_Weapons: enabled
 AdiBags_Config: enabled

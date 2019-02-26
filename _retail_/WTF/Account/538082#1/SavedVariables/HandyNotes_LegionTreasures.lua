@@ -4,6 +4,7 @@ HandyNotes_LegionTreasuresDB = {
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Faerand - Icecrown"] = "Faerand - Icecrown",
+		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
@@ -15,6 +16,8 @@ HandyNotes_LegionTreasuresDB = {
 		["Rahran - Icecrown"] = {
 		},
 		["Faerand - Icecrown"] = {
+		},
+		["Kindhoof - Tichondrius"] = {
 		},
 		["Praerend - Icecrown"] = {
 		},

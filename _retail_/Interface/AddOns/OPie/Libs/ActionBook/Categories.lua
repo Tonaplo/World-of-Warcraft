@@ -138,12 +138,12 @@ AB:AugmentCategory(L"Mounts", function(_, add)
 		   and (not factionLocked or factionId == myFactionId)
 		   and RW:IsSpellCastable(sid)
 		   then
-			i2[#i2+1], i2n[sid] = sid, name
+			i2[#i2+1], i2n[mid] = mid, name
 		end
 	end
 	table.sort(i2, function(a,b) return i2n[a] < i2n[b] end)
 	for i=1,#i2 do
-		add("spell", i2[i])
+		add("mount", i2[i])
 	end
 end)
 AB:AugmentCategory(L"Macros", function(_, add)

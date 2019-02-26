@@ -1,5 +1,5 @@
 local Evie, easy, next, securecall, pcall, _, T = {}, newproxy(true), next, securecall, pcall, ...
-local frame, listeners, locked, easy_mt = CreateFrame("FRAME"), {}, {}, getmetatable(easy)
+local frame, listeners, locked, easy_mt = CreateFrame("Frame"), {}, {}, getmetatable(easy)
 
 local function Register(event, func, depth)
 	if type(event) ~= "string" or type(func) ~= "function" then

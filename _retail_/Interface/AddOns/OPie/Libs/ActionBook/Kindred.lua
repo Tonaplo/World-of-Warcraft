@@ -11,9 +11,9 @@ local safequote do
 	end
 end
 
-local core = CreateFrame("FRAME", nil, nil, "SecureHandlerStateTemplate") do
-	core:SetFrameRef("sandbox", CreateFrame("FRAME", nil, nil, "SecureFrameTemplate"))
-	local bindProxy = CreateFrame("FRAME", nil, nil, "SecureFrameTemplate")
+local core = CreateFrame("Frame", nil, nil, "SecureHandlerStateTemplate") do
+	core:SetFrameRef("sandbox", CreateFrame("Frame", nil, nil, "SecureFrameTemplate"))
+	local bindProxy = CreateFrame("Frame", nil, nil, "SecureFrameTemplate")
 	core:SetFrameRef("bindProxy", bindProxy)
 	core:WrapScript(bindProxy, "OnAttributeChanged", [=[--Kindred_Bind_OnAttributeChanged
 		local key = name:match("^state%-(bind%d+)$")

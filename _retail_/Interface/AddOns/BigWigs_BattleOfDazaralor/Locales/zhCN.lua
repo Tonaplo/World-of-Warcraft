@@ -1,6 +1,7 @@
 local L = BigWigs:NewBossLocale("Battle of Dazar'alor Trash", "zhCN")
 if not L then return end
 if L then
+	L.prelate = "圣武士阿克阿尔"
 	L.flamespeaker = "拉斯塔利火语者"
 	L.enforcer = "永恒执行者"
 	L.punisher = "拉斯塔利惩罚者"
@@ -65,6 +66,8 @@ end
 
 L = BigWigs:NewBossLocale("Conclave of the Chosen", "zhCN")
 if L then
+	L.custom_on_fixate_plates = "掠食印记图标位于敌对姓名板"
+	L.custom_on_fixate_plates_desc = "当你被锁定时在目标姓名板上显示一个图标。\n需要使用敌对姓名板。此功能目前只支持 KuiNameplates。"
 	L.killed = "%s已击杀！"
 	L.count_of = "%s（%d/%d）"
 end

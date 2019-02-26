@@ -1,4 +1,4 @@
-local RW, MAJ, REV, _, T = {}, 1, 12, ...
+local RW, MAJ, REV, _, T = {}, 1, 13, ...
 if T.ActionBook then return end
 local AB, KR = nil, assert(T.Kindred:compatible(1,8), "A compatible version of Kindred is required.")
 
@@ -52,13 +52,13 @@ end
 local Spell_ForcedID = {[126819]=1, [28272]=1, [28271]=1, [161372]=1, [51514]=1, [210873]=1, [211004]=1, [211010]=1, [211015]=1, [783]=1}
 
 local namedMacros = {}
-local core, coreEnv = CreateFrame("FRAME", nil, nil, "SecureHandlerBaseTemplate") do
+local core, coreEnv = CreateFrame("Frame", nil, nil, "SecureHandlerBaseTemplate") do
 	local bni = 1
 	for i=1,9 do
 		local bn repeat
 			bn, bni = "RW!" .. bni, bni + 1
 		until GetClickFrame(bn) == nil
-		core:WrapScript(CreateFrame("BUTTON", bn, core, "SecureActionButtonTemplate"), "OnClick",
+		core:WrapScript(CreateFrame("Button", bn, core, "SecureActionButtonTemplate"), "OnClick",
 		[=[-- Rewire:OnClick_Pre
 			idle[self], numIdle, numActive, ns = nil, numIdle - 1, numActive + 1, ns - 1
 			self:SetAttribute("macrotext", owner:RunAttribute("RunMacro", nil))
@@ -139,6 +139,8 @@ core:SetAttribute("RunSlashCmd", [=[-- Rewire:Internal_RunSlashCmd
 			return macros[v]:RunAttribute("RunNamedMacro", v)
 		end
 		print(('|cffffff00Macro %q is unknown.'):format(v))
+	elseif slash then
+		return (target and (slash .. " [@" .. target .. "] ") or (slash .. " ")) .. v
 	end
 ]=])
 core:SetAttribute("RunMacro", [=[-- Rewire:RunMacro
@@ -405,7 +407,7 @@ local setCommandHinter, getMacroHint, getCommandHint, getCommandHintRaw, metaFil
 		end
 		local mk, mv = m.metaKeys
 		if (bestPri <= lowPri) and (haveUnknown or mk) then
-			store(true, nil, 0, "Interface/Icons/INV_Misc_QuestionMark", "", 0, 0, 0)
+			store(true, nil, 0, nil, "", 0, 0, 0)
 			ht = ht2
 		end
 		for i=1,mk and #mk or 0 do

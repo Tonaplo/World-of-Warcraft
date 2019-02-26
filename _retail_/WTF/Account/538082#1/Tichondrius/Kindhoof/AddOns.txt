@@ -62,3 +62,5 @@ XLoot_Master: enabled
 XLoot_Monitor: enabled
 XLoot_Options: enabled
 ParagonReputation: enabled
+VuhDo: enabled
+VuhDoOptions: enabled

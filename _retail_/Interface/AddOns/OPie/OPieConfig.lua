@@ -1,13 +1,13 @@
 local L, config, _, T, KR = OneRingLib.lang, {}, ...
 
 OneRingLib.ext.config, KR = config, T.ActionBook:compatible("Kindred",1,0)
-function config.createFrame(name, parent)
+function config.createPanel(name, parent)
 	local frame = CreateFrame("Frame", nil, UIParent)
 		frame.name, frame.parent = name, parent
 	frame.title = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalLargeLeftTop")
 		frame.title:SetPoint("TOPLEFT", 16, -16)
 		frame.title:SetText(name)
-	frame.version = CreateFrame("BUTTON", nil, frame)
+	frame.version = CreateFrame("Button", nil, frame)
 		frame.version:SetText(" ")
 		frame.version:SetNormalFontObject(GameFontHighlightSmallRight)
 		frame.version:GetFontString():ClearAllPoints()
@@ -154,7 +154,7 @@ do -- ext.config.bind
 		alternateFrame:SetBackdropColor(0,0,0, 0.85)
 		alternateFrame:EnableMouse(1)
 		alternateFrame:SetScript("OnHide", alternateFrame.Hide)
-		local extReminder = CreateFrame("BUTTON", nil, alternateFrame)
+		local extReminder = CreateFrame("Button", nil, alternateFrame)
 		extReminder:SetHeight(16) extReminder:SetPoint("TOPLEFT", 12, -10) extReminder:SetPoint("TOPRIGHT", -12, -10)
 		extReminder:SetNormalTexture("Interface/Buttons/UI-OptionsButton")
 		extReminder:SetPushedTextOffset(0,0)
@@ -356,7 +356,7 @@ do -- ext.config.undo
 	end
 end
 do -- ext.config.overlay
-	local container, watcher, occupant = CreateFrame("FRAME"), CreateFrame("FRAME") do
+	local container, watcher, occupant = CreateFrame("Frame"), CreateFrame("Frame") do
 		container:EnableMouse(1) container:EnableKeyboard(1) container:Hide()
 		container:SetPropagateKeyboardInput(true)
 		container:SetScript("OnKeyDown", function(self, key)
@@ -369,20 +369,27 @@ do -- ext.config.overlay
 		local corner = container:CreateTexture(nil, "ARTWORK")
 		corner:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Corner")
 		corner:SetSize(30,30) corner:SetPoint("TOPRIGHT", -5, -6)
-		local close = CreateFrame("BUTTON", nil, container, "UIPanelCloseButton")
+		local close = CreateFrame("Button", nil, container, "UIPanelCloseButton")
 		close:SetPoint("TOPRIGHT", 0, -1)
 		close:SetScript("OnClick", function() container:Hide() end)
 		container:SetBackdrop({edgeFile="Interface\\DialogFrame\\UI-DialogBox-Border", edgeSize=32, bgFile="Interface\\FrameGeneral\\UI-Background-Rock", tile=true, tileSize=256, insets={left=10,right=10,top=10,bottom=10}})
 		container:SetBackdropColor(0.3, 0.4, 0.5)
-		watcher:SetScript("OnHide", function() if occupant then container:Hide() PlaySound(SOUNDKIT.IG_MAINMENU_CLOSE) occupant:Hide() occupant=nil end end)
+		watcher:SetScript("OnHide", function()
+			if occupant then
+				container:Hide()
+				PlaySound(SOUNDKIT.IG_MAINMENU_CLOSE)
+				occupant:Hide()
+				occupant=nil
+			end
+		end)
 	end
 	function config.overlay(self, overlayFrame)
 		if occupant and occupant ~= overlayFrame then occupant:Hide() end
 		local cw, ch = overlayFrame:GetSize()
 		local w2, h2 = self:GetSize()
-		local w, h, isRefresh = cw + 8, ch + 8, occupant == overlayFrame
+		local w, h, isRefresh = cw + 24, ch + 24, occupant == overlayFrame
 		w2, h2, occupant = w2 > w and (w-w2)/2 or 0, h2 > h and (h-h2)/2 or 0
-		container:SetSize(w, h+20)
+		container:SetSize(w, h)
 		container:SetHitRectInsets(w2, w2, h2, h2)
 		container:SetParent(self)
 		container:SetPoint("CENTER")
@@ -402,7 +409,7 @@ do -- ext.config.overlay
 		occupant = overlayFrame
 	end
 	
-	local promptFrame = CreateFrame("FRAME") do
+	local promptFrame = CreateFrame("Frame") do
 		promptFrame:SetSize(400, 130)
 		promptFrame.title = promptFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
 		promptFrame.prompt = promptFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
@@ -512,7 +519,7 @@ local OPC_OptionSets = {
 	}
 }
 
-local frame = config.createFrame("OPie")
+local frame = config.createPanel("OPie")
 	frame.version:SetFormattedText("%s (%d.%d)", OneRingLib:GetVersion())
 	frame.version:SetScript("OnClick", function(self)
 		local c = ITEM_QUALITY_COLORS[math.max(1,math.floor(6*0.75^math.random(12)))]
@@ -635,8 +642,8 @@ function OPC_OptionDomain:click(ringName)
 	frame.refresh()
 end
 function OPC_OptionDomain:initialize()
-	local info = UIDropDownMenu_CreateInfo()
-	info.func, info.arg1, info.text, info.checked, info.minWidth = OPC_OptionDomain.click, nil, L"Defaults for all rings", OR_CurrentOptionsDomain == nil and 1 or nil, self:GetWidth()-40
+	local info = {func=OPC_OptionDomain.click, minWidth= self:GetWidth()-40}
+	info.arg1, info.text, info.checked =  nil, L"Defaults for all rings", OR_CurrentOptionsDomain == nil and 1 or nil
 	UIDropDownMenu_AddButton(info)
 	local ct = T.OPC_RingScopePrefixes
 	for key, name, scope in OneRingLib:IterateRings(IsAltKeyDown()) do
@@ -674,8 +681,7 @@ function OPC_Profile:delete(_, frame)
 	frame.refresh("profile")
 end
 function OPC_Profile:initialize()
-	local info = UIDropDownMenu_CreateInfo()
-	info.func, info.arg2 = OPC_Profile.switch, self:GetParent()
+	local info = {func=OPC_Profile.switch, arg2=self:GetParent()}
 	for ident, isActive in OneRingLib.Profiles do
 		info.text, info.arg1, info.checked = ident, ident, isActive or nil
 		UIDropDownMenu_AddButton(info)

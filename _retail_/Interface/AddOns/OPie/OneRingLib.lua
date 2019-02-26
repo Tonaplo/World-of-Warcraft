@@ -1,4 +1,4 @@
-local versionMajor, versionRev, L, ADDON, T, ORI = 3, 96, newproxy(true), ...
+local versionMajor, versionRev, L, ADDON, T, ORI = 3, 97, newproxy(true), ...
 local api, OR_Rings, OR_ModifierLockState, TL, EV, OR_LoadedState = {ext={ActionBook=T.ActionBook},lang=L}, {}, nil, T.L, T.Evie, 1
 local defaultConfig = {
 	ClickActivation=false, ClickPriority=true, CloseOnRelease=false, NoClose=false, NoCloseOnSlice=false,
@@ -15,12 +15,14 @@ local charId, internalFreeId = ("%s-%s"):format(GetRealmName(), UnitName("player
 getmetatable(L).__call, T.L = TL and function(_,k) return TL[k] or k end or function(_,k) return k end, L
 
 local AB, KR = T.ActionBook:compatible(2,14), T.ActionBook:compatible("Kindred",1,11) do
-	AB:RegisterActionType("ring", function(name)
+	local function createRingAction(name)
 		local ringInfo = type(name) == "string" and OR_Rings[name]
 		return ringInfo and ringInfo.action or nil
-	end, function(name)
-		return L"OPie Ring", OR_Rings[name] and OR_Rings[name].name or name, [[Interface\AddOns\OPie\gfx\opie_ring_icon]]
-	end)
+	end
+	local function describeRingAction(name)
+		return L"OPie Ring", OR_Rings[name] and OR_Rings[name].name or name, [[Interface\AddOns\OPie\gfx\opie_ring_icon]], nil, nil, nil, "collection"
+	end
+	AB:RegisterActionType("ring", createRingAction, describeRingAction)
 	AB:AugmentCategory(L"OPie rings", function(_, add)
 		for i=1,#OR_Rings do
 			add("ring", OR_Rings[i])
@@ -100,7 +102,7 @@ do -- Click dispatcher
 	OR_SecCore:Execute([=[-- OR_SecCore
 		ORL_GlobalOptions, ORL_RingData, ORL_RingDataN = newtable(), newtable(), newtable()
 		ORL_KnownCollections, ORL_StoredCA = newtable(), newtable()
-		collections, ctokens, rotation, rtokens, fcIgnore, rotIgnore, emptyTable = newtable(), newtable(), newtable(), newtable(), newtable(), newtable(), newtable()
+		collections, ctokens, rotation, rtokens, fcIgnore, rotationMode, emptyTable = newtable(), newtable(), newtable(), newtable(), newtable(), newtable(), newtable()
 		modState, sizeSq, bindProxy, sliceProxy, overProxy = "", 16*9001^2, self:GetFrameRef("bindProxy"), self:GetFrameRef("sliceBindProxy"), self:GetFrameRef("overBindProxy")
 		sliceBindState = newtable()
 		BUTTON_NAMEKEY_MAP = newtable()
@@ -122,7 +124,15 @@ do -- Click dispatcher
 				for i, aid in pairs(list) do
 					if collections[aid] then
 						local tok = ctokens[cid][i]
-						rotation[tok] = not rotIgnore[ctokens[cid][i]] and ctokens[aid][rtokens[tok]] or 1
+						local rMode, rIdx = rotationMode[ctokens[cid][i]], nil
+						if rMode == "random" and #ctokens[aid] > 1 then
+							local oIdx = ctokens[aid][rtokens[tok]]
+							rIdx = math.random(#ctokens[aid] - (oIdx and 1 or 0))
+							rIdx = rIdx + (oIdx and rIdx >= oIdx and 1 or 0)
+						elseif rMode ~= "reset" then
+							rIdx = ctokens[aid][rtokens[tok]]
+						end
+						rotation[tok], rtokens[tok] = rIdx or 1, ctokens[aid][rIdx] or rtokens[tok]
 					end
 				end
 			end
@@ -207,7 +217,7 @@ do -- Click dispatcher
 			end
 			wheelBucket = 0
 		]]
-		ORL_GetPureSlice = [[-- ORL_GetPureSlice
+		ORL_GetCursorSlice = [[-- ORL_GetCursorSlice
 			if not openCollection[1] then return nil end
 			local x, y = owner:GetMousePosition()
 			x, y = x - 0.5, y - 0.5
@@ -218,19 +228,35 @@ do -- Click dispatcher
 				return fastClick, true
 			end
 		]]
-		ORL_GetSlice = [[-- ORL_GetSlice
-			local col, index = ...
+		ORL_ResolveNestedSlice = [==[-- ORL_ResolveNestedSlice
+			local col, index, willPerform = ...
 			visitedSlices = wipe(visitedSlices or newtable())
 			while 1 do
 				local aid, ct = collections[col] and collections[col][index], ctokens[col] and ctokens[col][index]
 				if visitedSlices[ct] or not aid then
 					return
 				elseif not collections[aid] then
+					if willPerform then
+						for ict, icol in pairs(visitedSlices) do
+							local ort = rtokens[ict]
+							local irMode, ctk = rotationMode[ict], ctokens[icol]
+							if #ctk <= 1 then
+							elseif irMode == "cycle" then
+								local nid = (rotation[ict] or 0) % #ctk + 1
+								rotation[ict], rtokens[ict] = nid, ctk[nid]
+							elseif irMode == "shuffle" then
+								local oid = rotation[ict]
+								local nid = math.random(#ctk - (oid and 1 or 0))
+								nid = nid + (oid and nid >= oid and 1 or 0)
+								rotation[ict], rtokens[ict] = nid, ctk[nid]
+							end
+						end
+					end
 					return aid
 				end
-				visitedSlices[ct], col, index = true, aid, rotation[ct] or 1
+				visitedSlices[ct], col, index = aid, aid, rotation[ct] or 1
 			end
-		]]
+		]==]
 		ORL_PerformAB = [[-- ORL_PerformAB
 			local action = ...
 			if action then
@@ -241,13 +267,14 @@ do -- Click dispatcher
 		]]
 		ORL_PerformSliceAction = [[-- ORL_PerformSliceAction
 			local pureSlice, shouldUpdateFastClick, noClose = ...
-			local pureToken, action = ctokens[openCollectionID][pureSlice], owner:Run(ORL_GetSlice, openCollectionID, pureSlice)
+			local pureToken = ctokens[openCollectionID][pureSlice]
+			local action = owner:Run(ORL_ResolveNestedSlice, openCollectionID, pureSlice, true)
 			activeRing.fcToken = shouldUpdateFastClick and activeRing.CenterAction and not fcIgnore[pureToken] and pureToken or activeRing.fcToken
 			if not (leftActivation and activeRing.NoClose or noClose) then owner:Run(ORL_CloseActiveRing, nil, pureSlice, action) end
 			return owner:RunFor(self, ORL_PerformAB, action)
 		]]
 		ORL_OnWheel = [==[-- ORL_OnWheel
-			local slice = owner:Run(ORL_GetPureSlice)
+			local slice = owner:Run(ORL_GetCursorSlice)
 			local nestedCol = collections[openCollection[slice]]
 			if not (slice and nestedCol) then return end
 			if slice ~= wheelSlice then wheelSlice, wheelBucket = slice, 0 end
@@ -256,7 +283,7 @@ do -- Click dispatcher
 			local stoken, step, count, c = ctokens[openCollectionID][slice], (...) > 0 and 0 or -2, #nestedCol, 0
 			repeat
 				rotation[stoken], c = (rotation[stoken] + step) % count + 1, c + 1
-			until owner:Run(ORL_GetSlice, openCollectionID, slice) or c == count
+			until owner:Run(ORL_ResolveNestedSlice, openCollectionID, slice, false) or c == count
 			rtokens[stoken] = (ctokens[openCollection[slice]] or emptyTable)[rotation[stoken]] or rtokens[stoken]
 		]==]
 		ORL_OnClick = [==[-- ORL_OnClick
@@ -276,13 +303,13 @@ do -- Click dispatcher
 			if activeRing and button:match("^mw[ud]") then
 				return false, down and owner:Run(ORL_OnWheel, (button:match("^mwup") and 1 or -1) * (button:match("K$") and activeRing.bucket or 1))
 			elseif activeRing and not down and ((button == "use") or (button == "close" and leftActivation and fastClick)) then
-				local slice, isFC = control:Run(ORL_GetPureSlice)
+				local slice, isFC = control:Run(ORL_GetCursorSlice)
 				if button == "close" and not (isFC and slice) then return false end
 				return control:RunFor(self, ORL_PerformSliceAction, slice, openCollectionID == activeRing.action)
 			elseif activeRing and button == "close" and (down or activeRing.CloseOnRelease) then
 				return false, control:Run(ORL_CloseActiveRing)
 			elseif activeRing and down and button == "usenow" then
-				return control:RunFor(self, ORL_PerformSliceAction, control:Run(ORL_GetPureSlice), false, true)
+				return control:RunFor(self, ORL_PerformSliceAction, control:Run(ORL_GetCursorSlice), false, true)
 			elseif activeRing and leftActivation and button == "Button1" then
 				return control:RunFor(self, ORL_OnClick, "use", down)
 			elseif isActiveRingTriggerClick then
@@ -297,7 +324,7 @@ do -- Click dispatcher
 					end
 				end
 			elseif button == "mwin" and activeRing and down then
-				local aid = openCollection[control:Run(ORL_GetPureSlice)]
+				local aid = openCollection[control:Run(ORL_GetCursorSlice)]
 				if not collections[aid] then
 				elseif ORL_KnownCollections[aid] then
 					return control:RunFor(self, ORL_OpenRing, ORL_KnownCollections[aid], nil, leftActivation, true)
@@ -462,7 +489,14 @@ local function OR_SyncRing(name, actionId, newprops)
 		local fcBlock = ""
 		for i=1,#newprops do
 			if newprops[i].sliceToken then
-				fcBlock = fcBlock .. ("fcIgnore[%s], rotIgnore[%1$s] = %s, %s "):format(safequote(newprops[i].sliceToken), tostringf(not newprops[i].fastClick), tostringf(newprops[i].lockRotation))
+				local pMode, rMode = newprops[i].rotationMode, nil
+				if pMode and (pMode == "random" or pMode == "shuffle" or pMode == "cycle" or pMode == "reset") then
+					rMode = pMode
+				elseif newprops[i].lockRotation then
+					-- DEPRECATED [1902/3.96/W1]: lockRotation->rotationMode="reset" transition
+					rMode = "reset"
+				end
+				fcBlock = fcBlock .. ("fcIgnore[%s], rotationMode[%1$s] = %s, %s "):format(safequote(newprops[i].sliceToken), tostringf(not newprops[i].fastClick), rMode and safequote(rMode) or "nil")
 			end
 		end
 		props.fcBlock, props.opportunisticCA, props.noPersistentCA = fcBlock, not newprops.noOpportunisticCA, newprops.noPersistentCA

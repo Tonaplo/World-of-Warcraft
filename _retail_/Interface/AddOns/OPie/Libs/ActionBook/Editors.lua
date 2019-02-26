@@ -1,6 +1,6 @@
 local _, T = ...
 
-local AB = assert(T.ActionBook:compatible(2, 21), "A compatible version of ActionBook is required.")
+local AB = assert(T.ActionBook:compatible(2, 23), "A compatible version of ActionBook is required.")
 local L = AB:locale()
 
 local multilineInput do
@@ -104,11 +104,6 @@ do -- .macrotext
 	end
 	function bg:GetAction(into)
 		local text = eb:GetText():gsub("|c%x+|Hrk%d+:([%a:%d/]+)|h.-|h|r", "{{%1}}")
-		local RK = OneRingLib.ext.RingKeeper
-		text = RK:QuantizeMacro(text)
-		for i=#into,1,-1 do
-			into[i] = nil
-		end
 		into[1], into[2] = "macrotext", text
 	end
 	function bg:Release(owner)
@@ -140,5 +135,96 @@ do -- .macrotext
 			end
 		end
 	end
-	T.TEMP_AB_EDITORS = {macrotext=bg}
+	AB:RegisterEditorPanel("macrotext", bg)
 end
+
+local RegisterSimpleOptionsPanel do
+	local f, e = CreateFrame("Frame")
+	f:Hide()
+	f.Options = {}
+	local function callSave()
+		local p = f:GetParent()
+		if p and p.SaveAction then
+			p:SaveAction()
+		end
+	end
+	for i=1,3 do
+		e = CreateFrame("CheckButton", nil, f, "InterfaceOptionsCheckButtonTemplate")
+		e:SetHitRectInsets(0, -200, 4, 4)
+		e:SetMotionScriptsWhileDisabled(1)
+		e:SetScript("OnClick", callSave)
+		e:SetPoint("TOPRIGHT", -261, 23-21*i)
+		f.Options[i] = e
+	end
+
+	local optionsForHandle, curHandle, curHandleID = {}
+	local function IsOwned(self, host)
+		return curHandle == optionsForHandle[self] and f:GetParent() == host
+	end
+	local function Release(self, host)
+		if IsOwned(self, host) then
+			curHandle, curHandleID = nil
+			f:SetParent(nil)
+			f:ClearAllPoints()
+			f:Hide()
+		end
+	end
+	local function SetAction(self, host, actionTable)
+		local opts = optionsForHandle[self]
+		assert(actionTable[1] == opts[0], "Invalid editor")
+		f:SetParent(nil)
+		f:ClearAllPoints()
+		f:SetAllPoints(host)
+		f:SetParent(host)
+		curHandle, curHandleID = opts, actionTable[2]
+		for i=1,#opts do
+			local w, isChecked = f.Options[i], false
+			w.Text:SetText(opts[opts[i]])
+			if actionTable[opts[i]] ~= nil then
+				isChecked = not not actionTable[opts[i]]
+			end
+			w:SetChecked(isChecked)
+			w:Show()
+		end
+		for i=#opts+1,#f.Options do
+			f.Options[i]:Hide()
+		end
+		f:Show()
+	end
+	local function GetAction(self, into)
+		local opts = optionsForHandle[self]
+		into[1], into[2] = opts[0], curHandleID
+		for i=1,#opts do
+			into[opts[i]] = f.Options[i]:GetChecked() or nil
+		end
+	end
+	function RegisterSimpleOptionsPanel(atype, opts)
+		local r = {IsOwned=IsOwned, Release=Release, SetAction=SetAction, GetAction=GetAction}
+		optionsForHandle[r], opts[0] = opts, atype
+		AB:RegisterEditorPanel(atype, r)
+	end
+end
+
+RegisterSimpleOptionsPanel("item", {"byName", "forceShow", "onlyEquipped",
+	byName=L"Also use items with the same name",
+	forceShow=L"Show a placeholder when unavailable",
+	onlyEquipped=L"Only show when equipped"
+})
+RegisterSimpleOptionsPanel("macro", {"forceShow",
+	forceShow=L"Show a placeholder when unavailable",
+})
+RegisterSimpleOptionsPanel("extrabutton", {"forceShow",
+	forceShow=L"Show a placeholder when unavailable",
+})
+
+
+--[[ This API is not covered by the usual warranty.
+     1. This is an internal convenience method; its signature may change.
+        It's being exported (solely) because OPie's DataBroker bridge
+        is implemented elsewhere and has a single option checkbox.
+     2. Writing directly to the AB handle is a terrible idea.
+        This may get renamed or moved to a separate :compatible() handle in
+        the future.
+    (3. It's self-less.)
+--]]
+AB._CreateSimpleEditorPanel = RegisterSimpleOptionsPanel

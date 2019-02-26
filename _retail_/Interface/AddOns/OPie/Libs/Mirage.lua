@@ -33,6 +33,8 @@ local CreateQuadTexture do
 		for i=1,4 do
 			local tex, d, l = cc("SetSize", cc("SetTexture", (parent or qparent[i]):CreateTexture(nil, layer), file), size, size), i > 2, 2 > i or i > 3
 			tex:SetTexCoord(l and 0 or 1, l and 1 or 0, d and 1 or 0, d and 0 or 1)
+			tex:SetTexelSnappingBias(0)
+			tex:SetSnapToPixelGrid(false)
 			group[i] = cc("SetPoint", tex, quadPoints[i], parent or qparent[i], parent and "CENTER" or quadPoints[i])
 		end
 		return group
@@ -265,7 +267,7 @@ local CreateCooldown do
 		return onUpdate(self, 0)
 	end
 	function CreateCooldown(parent, size)
-		local cd, scale = cc("SetScale", cc("SetAllPoints", CreateFrame("FRAME", nil, parent)), size/48), size * 87/4032
+		local cd, scale = cc("SetScale", cc("SetAllPoints", CreateFrame("Frame", nil, parent)), size/48), size * 87/4032
 		cc("SetScript", cc("SetScript", cc("SetScript", cd, "OnShow", onShow), "OnHide", onHide), "OnUpdate", onUpdate)
 		cd.cdText = cc("SetPoint", cd:CreateFontString(nil, "OVERLAY", "GameFontNormalLargeOutline"), "CENTER")
 		

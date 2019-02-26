@@ -1,10 +1,40 @@
-lightweight tag 8ba6d14f7d2b3b5b2f2c2d036a668a17ad42b4d7 v201902220600
+lightweight tag c420f1999da91607c274222baea5a01753f48f4b v201902251556
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Fri Feb 22 06:57:59 2019 +0000
+Date:	Mon Feb 25 16:22:53 2019 +0000
 
-commit 8ba6d14f7d2b3b5b2f2c2d036a668a17ad42b4d7
+commit c420f1999da91607c274222baea5a01753f48f4b
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Fri Feb 22 06:57:59 2019 +0000
+Date:   Mon Feb 25 16:22:53 2019 +0000
 
     [Raider.IO] Database Refresh
+
+commit 9b7be09d73118c9215476f31e1ad164c3acfb23d
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Mon Feb 25 09:52:20 2019 -0600
+
+    enable client overrides again
+
+commit e21ee4c265a5cc96de73400eeae01fd7709d68cf
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Mon Feb 25 09:00:18 2019 -0600
+
+    stubbed in a few more deprecated variables in the profile. will remove in a few weeks
+
+commit e21ee4c265a5cc96de73400eeae01fd7709d68cf
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Mon Feb 25 09:00:18 2019 -0600
+
+    stubbed in a few more deprecated variables in the profile. will remove in a few weeks
+
+commit ef5874f20120c2c93a5c2df7b269332577affe10
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Mon Feb 25 08:51:55 2019 -0600
+
+    more readme updates
+
+commit 335c77feb877643a61aa61455cd072dd831d7912
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Mon Feb 25 01:03:04 2019 -0600
+
+    wip readme updates for new addon
 

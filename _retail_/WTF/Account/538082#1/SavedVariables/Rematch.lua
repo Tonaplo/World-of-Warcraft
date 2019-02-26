@@ -1279,10 +1279,9 @@ RematchSettings = {
 	},
 	["QueueSortOrder"] = 1,
 	["XPos"] = 254.550247192383,
-	["SpecialSlots"] = {
-	},
-	["DialogYPos"] = 581.506713867188,
 	["JournalUsed"] = true,
+	["DialogYPos"] = 581.506713867188,
+	["loadedTeam"] = 66522,
 	["SelectedTab"] = 1,
 	["YPos"] = 418.679138183594,
 	["FavoriteFilters"] = {
@@ -1336,7 +1335,8 @@ RematchSettings = {
 		},
 	},
 	["AllowHiddenPetsDefaulted"] = true,
-	["loadedTeam"] = 66522,
+	["SpecialSlots"] = {
+	},
 	["ShowOnTarget"] = false,
 	["CollapsedOptHeaders"] = {
 		nil, -- [1]
@@ -1920,10 +1920,10 @@ RematchSettings = {
 			2, -- [1]
 			true, -- [2]
 			1160, -- [3]
-			19, -- [4]
-			1069, -- [5]
-			203, -- [6]
-			192, -- [7]
+			21, -- [4]
+			1171, -- [5]
+			224, -- [6]
+			212, -- [7]
 			3, -- [8]
 		},
 		["BattlePet-0-000007B2254A"] = {

@@ -585,9 +585,9 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Azsharys-SilverHand"] = {
-				["name"] = "Azsharys-SilverHand",
-				["class"] = "DRUID",
+			["Êlwen-KhazModan"] = {
+				["name"] = "Êlwen-KhazModan",
+				["class"] = "DEMONHUNTER",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -601,9 +601,9 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Meowtapes-Proudmoore"] = {
-				["name"] = "Meowtapes-Proudmoore",
-				["class"] = "PRIEST",
+			["Azsharys-SilverHand"] = {
+				["name"] = "Azsharys-SilverHand",
+				["class"] = "DRUID",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -633,9 +633,9 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Êlwen-KhazModan"] = {
-				["name"] = "Êlwen-KhazModan",
-				["class"] = "DEMONHUNTER",
+			["Meowtapes-Proudmoore"] = {
+				["name"] = "Meowtapes-Proudmoore",
+				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -3347,14 +3347,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Zul",
 		["id"] = 2195,
 		["player_db"] = {
-			["Marksopp-Lightbringer"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Marksopp-Lightbringer",
-			},
 			["Eldodin-KhazModan"] = {
 				["deaths"] = {
 				},
@@ -3362,6 +3354,14 @@ DeathGraphsDBDeaths = {
 				["name"] = "Eldodin-KhazModan",
 				["overall"] = {
 				},
+			},
+			["Murtag-Sargeras"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Murtag-Sargeras",
 			},
 			["Newc-Lightbringer"] = {
 				["deaths"] = {
@@ -3459,13 +3459,13 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Murtag-Sargeras"] = {
-				["class"] = "WARRIOR",
+			["Marksopp-Lightbringer"] = {
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Murtag-Sargeras",
+				["name"] = "Marksopp-Lightbringer",
 			},
 			["Kahoots-Proudmoore"] = {
 				["class"] = "WARLOCK",
@@ -3680,14 +3680,6 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Popmybubbles-Kel'Thuzad"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Popmybubbles-Kel'Thuzad",
-			},
 			["Havnot-Stormrage"] = {
 				["deaths"] = {
 				},
@@ -3695,6 +3687,14 @@ DeathGraphsDBDeaths = {
 				["name"] = "Havnot-Stormrage",
 				["overall"] = {
 				},
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
 			},
 			["Greenbar-Malygos"] = {
 				["class"] = "HUNTER",
@@ -3704,13 +3704,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Greenbar-Malygos",
 			},
-			["Mallusof"] = {
-				["class"] = "PRIEST",
+			["Popmybubbles-Kel'Thuzad"] = {
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Mallusof",
+				["name"] = "Popmybubbles-Kel'Thuzad",
 			},
 			["Elidellx"] = {
 				["deaths"] = {
@@ -6440,12 +6440,12 @@ DeathGraphsDBEndurance = {
 			["diff"] = 14,
 		},
 		["player_db"] = {
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 5,
+				["points"] = 500,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "WARLOCK",
 			},
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 5,
@@ -6461,12 +6461,22 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Eldodin-KhazModan"] = {
+			["Murtag-Sargeras"] = {
 				["encounters"] = 5,
-				["points"] = 500,
+				["points"] = 480,
 				["deaths"] = {
+					{
+						2, -- [1]
+						14.4960000000001, -- [2]
+						"Bloody Cleave |cFFFF333327,300|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						221.299, -- [2]
+						"Environment (Falling) |cFFFF333397,926|r", -- [3]
+					}, -- [2]
 				},
-				["class"] = "WARLOCK",
+				["class"] = "WARRIOR",
 			},
 			["Kesak-Lightbringer"] = {
 				["encounters"] = 6,
@@ -6566,22 +6576,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 5,
-				["points"] = 480,
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
-					{
-						2, -- [1]
-						14.4960000000001, -- [2]
-						"Bloody Cleave |cFFFF333327,300|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						221.299, -- [2]
-						"Environment (Falling) |cFFFF333397,926|r", -- [3]
-					}, -- [2]
 				},
-				["class"] = "WARRIOR",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Kahoots-Proudmoore"] = {
 				["encounters"] = 6,
@@ -15649,14 +15649,14 @@ DeathGraphsDBGraph = {
 			[140] = {
 				1536899714, -- [1]
 			},
-			[173] = {
-				1536899033, -- [1]
-			},
 			[119] = {
 				1543553349, -- [1]
 			},
 			[60] = {
 				1543553097, -- [1]
+			},
+			[173] = {
+				1536899033, -- [1]
 			},
 			[208] = {
 				1536899033, -- [1]
@@ -15738,11 +15738,11 @@ DeathGraphsDBGraph = {
 			[502] = {
 				1549000576, -- [1]
 			},
+			[267] = {
+				1548999065, -- [1]
+			},
 			[246] = {
 				1548999893, -- [1]
-			},
-			[184] = {
-				1549001294, -- [1]
 			},
 			[188] = {
 				1548999893, -- [1]
@@ -15751,8 +15751,8 @@ DeathGraphsDBGraph = {
 				1548998578, -- [1]
 				1548998578, -- [2]
 			},
-			[267] = {
-				1548999065, -- [1]
+			[184] = {
+				1549001294, -- [1]
 			},
 			[25] = {
 				1548998578, -- [1]
@@ -18147,8 +18147,8 @@ DeathGraphsDBGraph = {
 	},
 	["234214"] = {
 		["deaths"] = {
-			[107] = {
-				1548389274, -- [1]
+			[273] = {
+				1548992852, -- [1]
 			},
 			[66] = {
 				1548389274, -- [1]
@@ -18160,8 +18160,8 @@ DeathGraphsDBGraph = {
 			[39] = {
 				1548389274, -- [1]
 			},
-			[240] = {
-				1548389910, -- [1]
+			[107] = {
+				1548389274, -- [1]
 			},
 			[236] = {
 				1548992852, -- [1]
@@ -18169,8 +18169,8 @@ DeathGraphsDBGraph = {
 			[241] = {
 				1548389910, -- [1]
 			},
-			[273] = {
-				1548992852, -- [1]
+			[240] = {
+				1548389910, -- [1]
 			},
 		},
 		["spells"] = {
