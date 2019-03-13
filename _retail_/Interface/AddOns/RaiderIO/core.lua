@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201902251556", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201903120600", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -1010,7 +1010,7 @@ do
 
 			-- if character exists in the clientCharacters list then override some data with higher precision
 			-- TODO: only do this if the clientCharacters data isn't too old compared to regular addon date?
-			if ns.CLIENT_CHARACTERS and ns.addonConfig.enableClientEnhancements then
+			if false and ns.CLIENT_CHARACTERS and ns.addonConfig.enableClientEnhancements then
 				local nameAndRealm = name .. "-" .. realm
 				local clientData = ns.CLIENT_CHARACTERS[nameAndRealm]
 

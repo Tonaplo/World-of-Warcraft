@@ -1255,104 +1255,15 @@ RematchSaved = {
 	},
 }
 RematchSettings = {
-	["ScriptFilters"] = {
-		{
-			"Unnamed Pets", -- [1]
-			"-- Collected pets that still have their original name.\n\nreturn owned and not customName", -- [2]
-		}, -- [1]
-		{
-			"Partially Leveled", -- [1]
-			"-- Pets that have earned some xp in battle.\n\nreturn xp and xp>0", -- [2]
-		}, -- [2]
-		{
-			"Unique Abilities", -- [1]
-			"-- Pets with abilities not shared by other pets.\n\nif not count then\n  -- create count of each ability per species\n  count = {}\n  for speciesID in AllSpeciesIDs() do\n    for abilityID in AllAbilities(speciesID) do\n      if not count[abilityID] then\n        count[abilityID] = 0\n      end\n      count[abilityID] = count[abilityID] + 1\n    end\n  end\nend\n\nfor _,abilityID in ipairs(abilityList) do\n  if count[abilityID]==1 then\n    return true\n  end\nend", -- [2]
-		}, -- [3]
-		{
-			"Pets Without Rares", -- [1]
-			"-- Collected battle pets that have no rare version.\n\nif not rares then\n  rares = {}\n  for petID in AllPetIDs() do\n    if select(5,C_PetJournal.GetPetStats(petID))==4 then\n      rares[C_PetJournal.GetPetInfoByPetID(petID)]=true\n    end\n  end\nend\n\nif canBattle and owned and not rares[speciesID] then\n  return true\nend", -- [2]
-		}, -- [4]
-		{
-			"Hybrid Counters", -- [1]
-			"-- Pets with three or more attack types different than their pet type.\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n", -- [2]
-		}, -- [5]
-	},
-	["QueueSortOrder"] = 1,
-	["XPos"] = 254.550247192383,
 	["JournalUsed"] = true,
-	["DialogYPos"] = 581.506713867188,
-	["loadedTeam"] = 66522,
-	["SelectedTab"] = 1,
-	["YPos"] = 418.679138183594,
-	["FavoriteFilters"] = {
-	},
+	["DialogYPos"] = 582.530090332031,
+	["HidePetToast"] = true,
 	["Sort"] = {
 		["Order"] = 2,
 		["FavoritesFirst"] = true,
 	},
-	["JournalPanel"] = 1,
-	["BackupCount"] = 50,
-	["TeamGroups"] = {
-		{
-			"General", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [1]
-		{
-			"The Broken Shore", -- [1]
-			1118739, -- [2]
-		}, -- [2]
-	},
-	["DialogXPos"] = 782.590637207031,
-	["Filters"] = {
-		["Other"] = {
-		},
-		["Strong"] = {
-		},
-		["Moveset"] = {
-		},
-		["Favorite"] = {
-		},
-		["Collected"] = {
-		},
-		["Rarity"] = {
-			true, -- [1]
-			true, -- [2]
-			true, -- [3]
-		},
-		["Similar"] = {
-		},
-		["Breed"] = {
-		},
-		["Script"] = {
-		},
-		["Sources"] = {
-		},
-		["Level"] = {
-		},
-		["Tough"] = {
-		},
-		["Types"] = {
-		},
-	},
 	["AllowHiddenPetsDefaulted"] = true,
-	["SpecialSlots"] = {
-	},
-	["ShowOnTarget"] = false,
-	["CollapsedOptHeaders"] = {
-		nil, -- [1]
-		true, -- [2]
-		true, -- [3]
-		true, -- [4]
-		true, -- [5]
-		true, -- [6]
-		true, -- [7]
-		true, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
-		true, -- [12]
-	},
-	["AutoLoadTargetOnly"] = true,
+	["BackupCount"] = 50,
 	["PreferredMode"] = 3,
 	["ActivePanel"] = 4,
 	["Sanctuary"] = {
@@ -1576,15 +1487,15 @@ RematchSettings = {
 			107, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-000007B22525"] = {
-			1, -- [1]
+		["BattlePet-0-000007B225AB"] = {
+			12, -- [1]
 			true, -- [2]
-			1515, -- [3]
-			3, -- [4]
-			244, -- [5]
-			32, -- [6]
-			32, -- [7]
-			3, -- [8]
+			844, -- [3]
+			25, -- [4]
+			1400, -- [5]
+			276, -- [6]
+			309, -- [7]
+			4, -- [8]
 		},
 		["BattlePet-0-000007B22556"] = {
 			1, -- [1]
@@ -1616,15 +1527,15 @@ RematchSettings = {
 			44, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-000007B22516"] = {
+		["BattlePet-0-000007B22525"] = {
 			1, -- [1]
 			true, -- [2]
-			1569, -- [3]
-			1, -- [4]
-			169, -- [5]
-			11, -- [6]
-			9, -- [7]
-			4, -- [8]
+			1515, -- [3]
+			3, -- [4]
+			244, -- [5]
+			32, -- [6]
+			32, -- [7]
+			3, -- [8]
 		},
 		["BattlePet-0-000007B2255B"] = {
 			13, -- [1]
@@ -1646,14 +1557,14 @@ RematchSettings = {
 			278, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-000007B225AB"] = {
-			12, -- [1]
+		["BattlePet-0-000007B22516"] = {
+			1, -- [1]
 			true, -- [2]
-			844, -- [3]
-			25, -- [4]
-			1400, -- [5]
-			276, -- [6]
-			309, -- [7]
+			1569, -- [3]
+			1, -- [4]
+			169, -- [5]
+			11, -- [6]
+			9, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-000007B225AC"] = {
@@ -1920,10 +1831,10 @@ RematchSettings = {
 			2, -- [1]
 			true, -- [2]
 			1160, -- [3]
-			21, -- [4]
-			1171, -- [5]
-			224, -- [6]
-			212, -- [7]
+			23, -- [4]
+			1273, -- [5]
+			246, -- [6]
+			232, -- [7]
 			3, -- [8]
 		},
 		["BattlePet-0-000007B2254A"] = {
@@ -1938,10 +1849,101 @@ RematchSettings = {
 		},
 	},
 	["NotifiedExperimental"] = true,
-	["CornerPos"] = "BOTTOMLEFT",
-	["PromptToLoad"] = true,
+	["YPos"] = 418.679138183594,
+	["SelectedTab"] = 1,
+	["ScriptFilters"] = {
+		{
+			"Unnamed Pets", -- [1]
+			"-- Collected pets that still have their original name.\n\nreturn owned and not customName", -- [2]
+		}, -- [1]
+		{
+			"Partially Leveled", -- [1]
+			"-- Pets that have earned some xp in battle.\n\nreturn xp and xp>0", -- [2]
+		}, -- [2]
+		{
+			"Unique Abilities", -- [1]
+			"-- Pets with abilities not shared by other pets.\n\nif not count then\n  -- create count of each ability per species\n  count = {}\n  for speciesID in AllSpeciesIDs() do\n    for abilityID in AllAbilities(speciesID) do\n      if not count[abilityID] then\n        count[abilityID] = 0\n      end\n      count[abilityID] = count[abilityID] + 1\n    end\n  end\nend\n\nfor _,abilityID in ipairs(abilityList) do\n  if count[abilityID]==1 then\n    return true\n  end\nend", -- [2]
+		}, -- [3]
+		{
+			"Pets Without Rares", -- [1]
+			"-- Collected battle pets that have no rare version.\n\nif not rares then\n  rares = {}\n  for petID in AllPetIDs() do\n    if select(5,C_PetJournal.GetPetStats(petID))==4 then\n      rares[C_PetJournal.GetPetInfoByPetID(petID)]=true\n    end\n  end\nend\n\nif canBattle and owned and not rares[speciesID] then\n  return true\nend", -- [2]
+		}, -- [4]
+		{
+			"Hybrid Counters", -- [1]
+			"-- Pets with three or more attack types different than their pet type.\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n", -- [2]
+		}, -- [5]
+	},
+	["QueueSortOrder"] = 1,
+	["XPos"] = 254.550247192383,
 	["LevelingQueue"] = {
 	},
+	["DialogXPos"] = 782.590637207031,
+	["PromptToLoad"] = true,
+	["TeamGroups"] = {
+		{
+			"General", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [1]
+		{
+			"The Broken Shore", -- [1]
+			1118739, -- [2]
+		}, -- [2]
+	},
+	["Filters"] = {
+		["Other"] = {
+		},
+		["Strong"] = {
+		},
+		["Moveset"] = {
+		},
+		["Favorite"] = {
+		},
+		["Collected"] = {
+		},
+		["Rarity"] = {
+			true, -- [1]
+			true, -- [2]
+			true, -- [3]
+		},
+		["Similar"] = {
+		},
+		["Breed"] = {
+		},
+		["Script"] = {
+		},
+		["Sources"] = {
+		},
+		["Level"] = {
+		},
+		["Tough"] = {
+		},
+		["Types"] = {
+		},
+	},
+	["ShowOnTarget"] = false,
+	["CollapsedOptHeaders"] = {
+		nil, -- [1]
+		true, -- [2]
+		true, -- [3]
+		true, -- [4]
+		true, -- [5]
+		true, -- [6]
+		true, -- [7]
+		true, -- [8]
+		true, -- [9]
+		true, -- [10]
+		true, -- [11]
+		true, -- [12]
+	},
+	["AutoLoadTargetOnly"] = true,
+	["loadedTeam"] = 65656,
+	["ElvUIToastDefaulted"] = true,
+	["SpecialSlots"] = {
+	},
+	["CornerPos"] = "BOTTOMLEFT",
+	["FavoriteFilters"] = {
+	},
+	["JournalPanel"] = 1,
 	["UseTypeBar"] = true,
 	["CustomScaleValue"] = 100,
 	["PetNotes"] = {

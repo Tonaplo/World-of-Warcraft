@@ -13,44 +13,36 @@ AllTheThings.L = {
 	-- General Text
 	["TITLE"] = "|cffb4b4ffALL THE THINGS|r";
 	["DESCRIPTION"] = "\"Foolishly you have sought your own demise. Brazenly you have disregarded powers beyond your understanding. You have fought hard to invade the realm of the Collector. Now there is only one way out - To walk the lonely path... of the damned.\"";
-	--["DESCRIPTION"] = "\"Foolishly you have sought your own demise. Brazenly you have disregarded powers beyond your understanding. You have fought hard to invade the realm of the Collector. Now there is only one way out - To walk the lonely path... of the damned.\"\n\n|CFFFF0000Collection Mode Styles:\n\nUnique + Main Only = LFR Mode\nUnique = Normal Mode\nCompletitonist = Heroic Mode\nDebug + Completionist = Mythic Mode\n";
-	["LOADING"] = "v%s loaded successfully.";
-	["TITLE_OPTIONS"] = "All the Things";
-	["FILTERS"] = "Filters";
-	["PREFERENCES"] = "Preferences";
 
-	-- Minimap Icon Text
-	["MINIMAP_MOUSEOVER_TEXT"] = "Right click to change settings.\nLeft click + drag to move.\nLeft click to open the Main List.\nCtrl + Left click to open the Mini List.\nShift + Left click to Refresh Collections.";
-	["OPEN_MAINLIST"] = "Open Main List";
-	["OPEN_MINILIST"] = "Open Mini List";
-	["OPEN_PROFESSIONMINILIST"] = "Open Profession Mini List";
-	["OPEN_RAID_ASSISTANT"] = "Open Raid Assistant";
+	-- Instructional Text
+	["MINIMAP_MOUSEOVER_TEXT"] = "Right click to change settings.\nLeft click to open the Main List.\nCtrl + Left click to open the Mini List.\nShift + Left click to Refresh Collections.";
+	["TOP_ROW_INSTRUCTIONS"] = "|cff3399ffLeft Click and Drag to Move|r\n|cff3399ffRight Click to Open the Settings Menu|r\n|cff3399ffShift + Click to Refresh Collections|r";
+	["OTHER_ROW_INSTRUCTIONS"] = "|cff3399ffLeft Click to Expand/Collapse|r\n|cff3399ffRight Click to Pop Out to Mini List|r\n|cff3399ffShift + Click to Refresh Collections|r";
+	["TOP_ROW_INSTRUCTIONS_AH"] = "|cff3399ffLeft Click and Drag to Move|r\n|cff3399ffRight Click to Open the Settings Menu|r\n|cff3399ffShift + Click to Search the Auction House|r";
+	["OTHER_ROW_INSTRUCTIONS_AH"] = "|cff3399ffLeft Click to Expand/Collapse|r\n|cff3399ffRight Click to Pop Out to Mini List|r\n|cff3399ffShift + Click to Search the Auction House|r";
+	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you (anywhere but Salvage\nCrates), please post in Discord where you got it to drop!|r";
+	["RECENTLY_MADE_OBTAINABLE_PT2"] = "|CFFFF0000The more information, the better.  Thanks!|r";
+	["I_ONLY_CARE_ABOUT_MY_MAIN"] = "|cff3399ffI only care about my main.|r";
+	
+	-- Binding Localizations
+	["TOGGLE_ACCOUNT_MODE"] = "Toggle Account Mode";
 	["TOGGLE_COMPLETIONIST_MODE"] = "Toggle Completionist Mode";
 	["TOGGLE_DEBUG_MODE"] = "Toggle Debug Mode";
-	["TOGGLE_MAINLIST"] = "Toggle Main List";
-	["TOGGLE_MINILIST"] = "Toggle Mini List";
-	["TOGGLE_BOEITEMS"] = "Toggle BoE/BoA Items";
+	["PREFERENCES"] = "Preferences";
 	["TOGGLE_COMPLETEDTHINGS"] = "Toggle Completed Things (Both)";
 	["TOGGLE_COMPLETEDGROUPS"] = "Toggle Completed Groups";
 	["TOGGLE_COLLECTEDTHINGS"] = "Toggle Collected Things";
-	["TOGGLE_RAID_ASSISTANT"] = "Toggle Raid Assistant";
-	["TOGGLE_WORLD_QUESTS_LIST"] = "Toggle World Quests List";
-	["TOGGLE_RANDOM"] = "Toggle Random Window";
+	["TOGGLE_BOEITEMS"] = "Toggle BoE/BoA Items";
+	["MODULES"] = "Modules";
+	["TOGGLE_MAINLIST"] = "Toggle ATT Main List";
+	["TOGGLE_MINILIST"] = "Toggle ATT Mini List";
+	["TOGGLE_PROFESSION_LIST"] = "Toggle ATT Profession List";
+	["TOGGLE_WORLD_QUESTS_LIST"] = "Toggle ATT World Quests";
+	["TOGGLE_RAID_ASSISTANT"] = "Toggle ATT Raid Assistant";
+	["TOGGLE_RANDOM"] = "Toggle ATT Random";
 	["REROLL_RANDOM"] = "Reroll the Random Selection";
 
-	-- Frame Text
-	["LIST_FRAME_TITLE"] = "ITEM COLLECTION";
-	["REFRESH_BUTTON_TITLE"] = "REFRESH THE THINGS";
-	["CONGRATULATIONS"] = "CONGRATULATIONS! You did it!";
-	["INSTRUCTIONS"] = "Looks like something terrible has happened. Reinstall the addon!";
-
-	-- Group Text
-	["DUNGEONS&RAIDS"] = "Dungeons & Raids";
-	["MISCELLANEOUS"] = "Miscellaneous";
-
-	-- Error Text
-	["ERROR_UNKNOWN"] = "An unknown error occured.";
-
+	-- Event Text
 	["ITEM_ID_ADDED"] = "%s (%d) was added to your collection.";
 	["ITEM_ID_ADDED_MISSING"] = "%s (%d) was added to your collection. Not found in the database. Please report to the ATT Discord!";
 	["ITEM_ID_ADDED_SHARED"] = "%s (%d) [+%d] were added to your collection.";
@@ -59,64 +51,43 @@ AllTheThings.L = {
 	["ITEM_ID_REMOVED_SHARED"] = "%s (%d) [+%d] were removed from your collection.";
 
 	-- Tooltip Text
-	["TOP_ROW_INSTRUCTIONS"] = "|cff3399ffLeft Click and Drag to Move|r\n|cff3399ffRight Click to Open the Settings Menu|r\n|cff3399ffShift + Click to Refresh Collections|r";
-	["OTHER_ROW_INSTRUCTIONS"] = "|cff3399ffLeft Click to Expand/Collapse|r\n|cff3399ffRight Click to Pop Out to Mini List|r\n|cff3399ffShift + Click to Refresh Collections|r";
-	["TOP_ROW_INSTRUCTIONS_AH"] = "|cff3399ffLeft Click and Drag to Move|r\n|cff3399ffRight Click to Open the Settings Menu|r\n|cff3399ffShift + Click to Search the Auction House|r";
-	["OTHER_ROW_INSTRUCTIONS_AH"] = "|cff3399ffLeft Click to Expand/Collapse|r\n|cff3399ffRight Click to Pop Out to Mini List|r\n|cff3399ffShift + Click to Search the Auction House|r";
-	["ACHIEVEMENT"] = "Achievement";
+	["DROP_RATE"] = "Drop Rate";
+	["QUEST_GIVER"] = "Quest Giver";
+	["LOCKOUT"] = "Lockout";
+	["SHARED"] = "Shared";
+	["SPLIT"] = "Per Difficulty";
+	["REQUIRES"] = "Requires";
+	["REQUIRES_LEVEL"] = "Requires Level";
+	
+	-- Filter Text
 	["ACHIEVEMENT_ID"] = "Achievement ID";
-	["ARTIFACT"] = "Artifact";
 	["ARTIFACT_ID"] = "Artifact ID";
-	["CREATURE"] = "Creature";
-	["CREATURES"] = "Creatures";
 	["CREATURE_ID"] = "Creature ID";
 	["CURRENCY_ID"] = "Currency ID";
-	["DIFFICULTY"] = "Difficulty";
 	["DIFFICULTY_ID"] = "Difficulty ID";
-	["ENCOUNTER"] = "Encounter";
 	["ENCOUNTER_ID"] = "Encounter ID";
-	["EXPANSION"] = "Expansion";
 	["EXPANSION_ID"] = "Expansion ID";
-	["FILTER"] = "Filter";
 	["FILTER_ID"] = "Filter ID";
-	["INSTANCE"] = "Instance";
 	["INSTANCE_ID"] = "Instance ID";
-	["DUNGEON"] = "Dungeon";
-	["RAID"] = "Raid";
-	["HISTORY"] = "History";
-	["ITEM"] = "Item";
 	["ITEM_ID"] = "Item ID";
-	["ITEM_SLOT"] = "Slot";
-	["COMPANION_PETS"] = "Companion Pets";
-	["DROP_RATE"] = "Drop Rate";
-	["FACTION"] = "Faction";
 	["FACTION_ID"] = "Faction ID";
-	["MOUNT"] = "Mount";
-	["MOUNTS"] = "Mounts";
+	["MAP_ID"] = "Map ID";
 	["MOUNT_ID"] = "Mount ID";
-	["MUSIC_ROLL"] = "Music Roll";
-	["MUSIC_ROLLS"] = "Music Rolls";
 	["MUSIC_ROLL_ID"] = "Music Roll ID";
-	["NPC"] = "NPC";
 	["NPC_ID"] = "NPC ID";
 	["OBJECT_ID"] = "Object ID";
-	["PET"] = "Pet";
-	["QUEST"] = "Quest";
 	["QUEST_ID"] = "Quest ID";
-	["QUEST_GIVER"] = "Quest Giver";
-	["QUEST_GIVERS"] = "Quest Givers";
 	["SET_ID"] = "Gear Set ID";
+	["SOURCE_ID"] = "Source ID";
 	["SPECIES_ID"] = "Species ID";
 	["SPELL_ID"] = "Spell ID";
 	["TITLE_ID"] = "Title ID";
-	["TOY"] = "Toy";
 	["TOY_ID"] = "Toy ID";
 	["ILLUSION_ID"] = "Illusion ID";
-	["VIGNETTE_ID"] = "Vignette ID";
 	["VISUAL_ID"] = "Visual ID";
-	["LOGO_TINY"] = "Interface\\Addons\\AllTheThings\\assets\\logo_tiny";		-- Winner of the Logo Contest (Used to be "Interface\\Icons\\INV_Axe_106.blp")
+	
+	-- Icons and Collection Text
 	["LOGO_SMALL"] = "Interface\\Addons\\AllTheThings\\assets\\logo_tiny";		-- Winner of the Logo Contest (Used to be "Interface\\Icons\\INV_Axe_106.blp")
-	["LOGO_LARGE"] = "Interface\\Addons\\AllTheThings\\assets\\Discord_2_128";		-- Winner of the Logo Contest (Used to be "Interface\\Icons\\INV_Axe_106.blp")
 	["COLLECTED_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t";	-- Acquired the colors and icon from CanIMogIt.
 	["COLLECTED_APPEARANCE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_circle:0|t";		-- Acquired the colors and icon from CanIMogIt.
 	["COMPLETE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_green:0|t";		-- Acquired the colors and icon from CanIMogIt.
@@ -128,35 +99,6 @@ AllTheThings.L = {
 	["INCOMPLETE"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Incomplete|r";		-- Acquired the colors and icon from CanIMogIt.
 	["KNOWN_ON_CHARACTER"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t |cff15abffKnown on current character|r";
 	["UNKNOWN_ON_CHARACTER"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Unknown on current character|r";
-	["LOCKOUT"] = "Lockout";
-	["SHARED"] = "Shared";
-	["SPLIT"] = "Per Difficulty";
-	["WORLD"] = "World";
-	["WORLD_DROPS"] = "World Drops";
-	["ZONE"] = "Zone";
-	["ZONES"] = "Zones";
-	["ZONE_ID"] = "Zone ID";
-	["GEAR_SETS"] = "Gear Sets";
-	["ITEM_SETS"] = "Item Sets";
-	["CLASS_SETS"] = "Class Sets";
-	["DUNGEON_SETS"] = "Dungeon Sets";
-	["PROMOTIONS"] = "Promotions";
-	["PROFESSIONS"] = "Professions";
-	["HOLIDAYS"] = "Holidays";
-	["EVENTS"] = "World Events";
-	["SPECIAL_EVENTS"] = "Special Events";
-	["WARCRAFT_ANNIVERSARIES"] = "Warcraft Anniversaries";
-	["SUBZONE"] = "Sub Zone";
-	["SUBZONES"] = "Sub Zones";
-	["SUBZONE_ID"] = "Sub Zone ID";
-	["MAP"] = "Map";
-	["MAP_ID"] = "Map ID";
-	["MAP_ID_INVALID_WARNING"] = "Invalid Map ID. Zone in to cache.";
-	["REQUIRES_LEVEL"] = "Requires Level";
-	["REQUIRE_SKILL_ID"] = "Requires Skill ID";
-	["REQUIRES"] = "Requires";
-	["SOURCE"] = "Source";
-	["SOURCE_ID"] = "Source ID";
 
 	["ABBREVIATIONS"] = {
 		["ALL THE THINGS"] = "ATT",
@@ -175,7 +117,6 @@ AllTheThings.L = {
 		["Normal"] = "N",
 		["Heroic"] = "H",
 		["Mythic"] = "M",
-		-- [" Player"] = "M",   -- Note!! Commenting this out for PvP fix as it lists it as M vs M
 		["10 Player"] = "10M",
 		["10 Player (Heroic)"] = "10M (H)",
 		["25 Player"] = "25",
@@ -195,25 +136,6 @@ AllTheThings.L = {
 		["World Quests"] = "WQ",
 		["WoW Anniversary"] = "Anniversary",
 		
-	};
-
-	-- Music / Sound Management (You can add your own sounds for this if you want.)
-	["AUDIO_COMPLETE_TABLE"] = {
-		"Interface\\AddOns\\AllTheThings\\assets\\complete1.ogg",
-	};
-	["AUDIO_FANFARE_TABLE"] = {
-		"Interface\\AddOns\\AllTheThings\\assets\\fanfare1.ogg",
-		"Interface\\AddOns\\AllTheThings\\assets\\fanfare2.ogg",
-		"Interface\\AddOns\\AllTheThings\\assets\\fanfare3.ogg",
-		"Interface\\AddOns\\AllTheThings\\assets\\fanfare4.ogg",
-		"Interface\\AddOns\\AllTheThings\\assets\\fanfare5.ogg",
-		"Interface\\AddOns\\AllTheThings\\assets\\fanfare6.ogg",
-	};
-	["AUDIO_RAREFIND_TABLE"] = {
-		"Interface\\AddOns\\AllTheThings\\assets\\rarefind1.ogg",
-	};
-	["AUDIO_REMOVE_TABLE"] = {
-		"Interface\\AddOns\\AllTheThings\\assets\\remove1.ogg",
 	};
 
 	["FILTER_ID_TYPES"] = {
@@ -1254,7 +1176,8 @@ AllTheThings.L = {
 		
 -- Blizzard Events and Anniversaries
 -- Lucetia Note: Leave these for now, some may be swapped to achieves instead.
-		[-489] = "War Chest",
+		[-488] = "War Chest",													-- Daily War Chest
+		[-489] = "Weekly PVP Chest",											-- Weekly Conquest Point Cap Chest
 		[-490] = select(2, GetAchievementInfo(12945)),							-- Dread Gladiator: Battle for Azeroth  Season 1
 		[-491] = "Tarot Cards",
 		[-492] = "Illusions",
@@ -1359,6 +1282,9 @@ AllTheThings.L = {
 		
 		[-1000] = WARDROBE_SETS, 												-- Sets
 		[-1001] = "The Black Vault",
+
+-- Weapon Sets
+		[-2000] = GetSpellInfo(41433),											-- Twin Blades of Azzinoth
 
 -- Other Sets
 		[-3157] = string.format(PLAYER_V_PLAYER_SEASON, 2),						-- Player vs. Player (Battle for Azeroth Season 2)
@@ -2196,6 +2122,7 @@ AllTheThings.L = {
 		[257999] = "Interface\\Icons\\70_professions_scroll_02",
 		[258978] = "Interface\\Icons\\INV_7XP_Inscription_TalentTome02",
 		[270917] = "Interface\\Icons\\INV_Misc_Book_16",
+		[271844] = "Interface\\Icons\\inv_misc_note_05",
 		[271849] = "Interface\\Icons\\inv_misc_treasurechest04d",
 		[271850] = "Interface\\Icons\\inv_misc_treasurechest04d",
 		[272179] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
@@ -2239,16 +2166,21 @@ AllTheThings.L = {
 		[277373] = "Interface\\Icons\\INV_MISC_HERB_06",
 		[277459] = "Interface\\Icons\\Inv_misc_trinket6oOG_CyclopianPig3",
 		[278313] = "Interface\\Icons\\INV_Misc_NotePicture1c",
+		[278368] = "Interface\\Icons\\inv_misc_note_05",
+		[278447] = "Interface\\Icons\\archaeology_5_0_spearofxuen",
 		[278669] = "Interface\\Icons\\INV_Misc_Book_08",
 		[278675] = "Interface\\Icons\\Trade_Archaeology_Bones of Transformation",
 		[279337] = "Interface\\Icons\\INV_Misc_Book_08",
 		[280727] = "Interface\\Icons\\INV_Misc_ScrollUnrolled02",
+		[281583] = "Interface\\Icons\\inv_jewelcrafting_gem_05",
+		[281639] = "Interface\\Icons\\inv_jewelcrafting_70_cutgem03_blue",
 		[281646] = "Interface\\Icons\\INV_Potion_147",
 		[281673] = "Interface\\Icons\\INV_Misc_Book_09",
 		[282448] = "Interface\\Icons\\INV_Misc_ScrollUnrolled04",
 		[282457] = "Interface\\Icons\\Spell_Shaman_TotemRecall",
 		[282478] = "Interface\\Icons\\INV_Crate_03",
 		[284426] = "Interface\\Icons\\inv_pick_03",
+		[287441] = "Interface\\Icons\\inv_misc_note_05",
 		[288157] = "Interface\\Icons\\INV_Misc_ScrollUnrolled02",
 		[288214] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[288622] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
@@ -2258,6 +2190,7 @@ AllTheThings.L = {
 		[292523] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[290765] = "Interface\\Icons\\INV_Ore_Gold_Nugget",
 		[290993] = "Interface\\Icons\\inv_misc_treasurechest04b",
+		[291143] = "Interface\\Icons\\inv_misc_wrench_01",
 		[9999999] = "Interface\\Icons\\Garrison_SilverChest",
 		[9999998] = "Interface\\Icons\\Garrison_SilverChest",
 		[9999997] = "Interface\\Icons\\Garrison_SilverChest",
@@ -2360,6 +2293,7 @@ AllTheThings.L = {
 		[179697] = "Arena Treasure Chest",
 		[180448] = "Wanted Poster: Deathclasp",
 		[180503] = "Sandy Cookbook",
+		[180691] = "Scarab Coffer",
 		[180794] = "Journal of Jandice Barov",
 		[180918] = "Wanted: Thaelis the Hungerer",
 		[181011] = "Magister Duskwither's Journal",
@@ -2401,6 +2335,7 @@ AllTheThings.L = {
 		[187559] = "Horde Bonfire",
 		[187564] = "Alliance Bonfire",
 		[187565] = "Elder Atkanok",
+		[187674] = "Ith'rix's Hardened Carapace",
 		[187851] = "Cultist Shrine",
 		[187905] = "Massive Glowing Egg",
 		[187916] = "Alliance Bonfire",
@@ -3255,7 +3190,7 @@ AllTheThings.L = {
 
 	-- This is necessary to have because Blizzard does not always have the correct map ID at the time of zone change.
 	["ZONE_TEXT_TO_MAP_ID"] = {
-		--[C_Map.GetMapInfo(248).name or "Onyxia's Lair"] = 248,
+		["Onyxia's Lair"] = 248,
 		["The Trial of Style"] = -777,
 	};
 
@@ -3329,8 +3264,7 @@ AllTheThings.L = {
 		{21, "|CFFFF0000These appearances are only available during the weekly Timewalking Event.\nOnly dungeons released during the featured expansion will be available.|r", "Timewalking (42)"}; -- 42
 		{1, "|CFFFF0000This NPC or creature has been removed from the game.|r", "Removed NPCs (43)"}; -- 43
 		{21, "|CFFFF0000May require a specific Micro-Holiday to be active.|r", "Micro-Holiday (44)"}; -- 44
+		{1, "|CFFFF0000With 8.0, Blizzard's Legacy Loot implementation for Ulduar broke a number of Hard Mode loot tables.|r", "Ulduar Hard Mode Loot (45)"}; -- 45
+		{2, "|CFFFF0000This item is likely available from Incursions while under max level.|r", "Incursion Loot (46)"}; -- 46
 	};
-	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you (anywhere but Salvage\nCrates), please post in Discord where you got it to drop!|r";
-	["RECENTLY_MADE_OBTAINABLE_PT2"] = "|CFFFF0000The more information, the better.  Thanks!|r";
-	["I_ONLY_CARE_ABOUT_MY_MAIN"] = "|cff3399ffI only care about my main.|r";
 };

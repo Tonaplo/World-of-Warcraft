@@ -2,3 +2,17 @@ BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 Arh: disabled
+AllTheThings: disabled
+Conditioner: enabled
+SexyMap: disabled
+ElvUI_Config: enabled
+ElvUI: enabled
+LUI: disabled
+XLoot: disabled
+XLoot_Frame: disabled
+XLoot_Master: disabled
+XLoot_Options: disabled
+XLoot_Group: disabled
+XLoot_Monitor: disabled
+Quester: disabled
+Immersion: disabled

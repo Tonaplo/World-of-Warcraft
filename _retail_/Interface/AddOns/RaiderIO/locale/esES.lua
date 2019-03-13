@@ -18,13 +18,23 @@ L["API_DEPRECATED_WITH"] = "|cffFF0000¡Atención!|r El addon |cffFFFFFF%s|r est
 L["API_INVALID_DATABASE"] = "|cffFF0000¡Atención!|r Se ha detectado una base de datos inválida de RaiderIO en |cffffffff%s|r. Por favor, actualiza todas las regiones y facciones en el cliente de RaiderIO o reinstala manualmente el addon."
 L["BEST_FOR_DUNGEON"] = "Mejor M+ en esta mazmorra"
 L["BEST_RUN"] = "Mejor M+"
+--[[Translation missing --]]
+--[[ L["BEST_SCORE"] = ""--]] 
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Se han guardado los cambios, pero se necesita reiniciar la interfaz para que surtan efecto.
 
 ¿Quieres reiniciarla ahora?]=]
 L["CHECKBOX_DISPLAY_WEEKLY"] = "Mostrar semanal"
+--[[Translation missing --]]
+--[[ L["CHOOSE_HEADLINE_HEADER"] = ""--]] 
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Ventanas emergentes de M+ y bandas"
+--[[Translation missing --]]
+--[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Copiar dirección de Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Copiar dirección de Raider.IO"
+--[[Translation missing --]]
+--[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CURRENT_SCORE"] = ""--]] 
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "Puntuación de DPS"
 L["DUNGEON_SHORT_NAME_AD"] = "Atal'Dazar"
@@ -62,6 +72,8 @@ L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = "Permite ver información detall
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "Usar colores de puntuación simples"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Muestra las puntuaciones usando solo los colores estándar de calidad de objeto. Facilita la distinción de puntuaciones para personas con defectos de visión cromática."
 L["EXPORTJSON_COPY_TEXT"] = "Copia este texto y pégalo en |cff00C8FFhttps://raider.io|r para ver información de todos los jugadores."
+--[[Translation missing --]]
+--[[ L["GENERAL_TOOLTIP_OPTIONS"] = ""--]] 
 L["GUILD_BEST_SEASON"] = "Hermandad: mejor de la temporada"
 L["GUILD_BEST_TITLE"] = "Récords de hermandad"
 L["GUILD_BEST_WEEKLY"] = "Mejores de la semana"
@@ -77,6 +89,8 @@ L["KEYSTONE_COMPLETED_5"] = "+5-9 (en tiempo)"
 L["LEGION_MAIN_SCORE"] = "Puntuación de personaje principal en Legion"
 L["LEGION_SCORE"] = "Puntuación en Legion"
 L["LOCKING_PROFILE_FRAME"] = "RaiderIO: bloqueando el marco de perfil de M+."
+--[[Translation missing --]]
+--[[ L["MAINS_BEST_SCORE_BEST_SEASON"] = ""--]] 
 L["MAINS_RAID_PROGRESS"] = "Progreso de personaje principal"
 L["MAINS_SCORE"] = "Puntuación de personaje principal"
 L["MAINS_SCORE_COLON"] = "Puntuación de personaje principal:"
@@ -95,6 +109,8 @@ L["OUTDATED_DATABASE_HOURS"] = "Estas puntuaciones son de hace %d hora(s)"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r está usando datos de hace |cffFF6666%d|r día(s). Por favor, actualiza el addon para disponer de las puntuaciones de M+ más recientes."
 L["PLAYER_PROFILE_TITLE"] = "Perfil de M+"
 L["PREV_SEASON_SUFFIX"] = "(*)"
+--[[Translation missing --]]
+--[[ L["PREVIOUS_SCORE"] = ""--]] 
 L["PROFILE_BEST_RUNS"] = "Mejor de cada mazmorra"
 --[[Translation missing --]]
 --[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
@@ -136,8 +152,12 @@ L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "N"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "Encuentros de banda derrotados"
 L["RAID_PROGRESS_TITLE"] = "Progreso de banda"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Puntuación media de +%s en tiempo"
+--[[Translation missing --]]
+--[[ L["RAIDERIO_BEST_RUN"] = ""--]] 
 L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Personalización del cliente de RaiderIO"
 L["RAIDERIO_MP_BASE_SCORE"] = "Puntuación de M+ base"
+--[[Translation missing --]]
+--[[ L["RAIDERIO_MP_BEST_SCORE"] = ""--]] 
 L["RAIDERIO_MP_SCORE"] = "Puntuación de M+"
 L["RAIDERIO_MP_SCORE_COLON"] = "Puntuación de M+:"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Opciones de Raider.IO Mythic Plus"
@@ -145,10 +165,30 @@ L["RAIDING_DATA_HEADER"] = "Progreso de banda de Raider.IO"
 L["RAIDING_DB_MODULES"] = "Módulos de la base de datos de bandas"
 L["RELOAD_LATER"] = "La reiniciaré más tarde"
 L["RELOAD_NOW"] = "Reiniciarla ahora"
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_2"] = ""--]] 
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Mostrar puntuación media de M+ en tiempo"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Muestra la puntuación media de M+ en tiempo de los miembros de un grupo. Aparece en las descripciones emergentes de piedras angulares y jugadores en el buscador de grupos."
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_MAINS_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_MAINS_SCORE_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_RUN"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_RUN_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_SEASON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_SEASON_DESC"] = ""--]] 
 L["SHOW_CLIENT_GUILD_BEST"] = "Mostrar mejores puntuaciones de mazmorra en el buscador de grupos"
 L["SHOW_CLIENT_GUILD_BEST_DESC"] = "Muestra las cinco mejores puntuaciones de tu hermandad (tanto de temporada como semanales) en la pestaña 'Piedra angular mítica' de la ventana del buscador de grupos."
+--[[Translation missing --]]
+--[[ L["SHOW_CURRENT_SEASON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_CURRENT_SEASON_DESC"] = ""--]] 
 L["SHOW_IN_FRIENDS"] = "Mostrar en la lista de amigos"
 L["SHOW_IN_FRIENDS_DESC"] = "Muestra la puntuación de M+ de tus amigos cuando pasas el ratón por encima."
 L["SHOW_IN_LFD"] = "Mostrar en el buscador de grupos"
@@ -169,14 +209,24 @@ L["SHOW_ON_PLAYER_UNITS"] = "Mostrar en marcos de jugador"
 L["SHOW_ON_PLAYER_UNITS_DESC"] = "Muestra la puntuación de M+ de los jugadores en su ventana emergente cuando pasas el ratón sobre ellos."
 L["SHOW_RAID_ENCOUNTERS_IN_PROFILE"] = "Mostrar encuentros de banda en la ventana emergente de perfil"
 L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = "Muestra el progreso de banda en la ventana emergente de perfil de RaiderIO."
+--[[Translation missing --]]
+--[[ L["SHOW_RAIDERIO_BESTRUN_FIRST"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_RAIDERIO_BESTRUN_FIRST_DESC"] = ""--]] 
 L["SHOW_RAIDERIO_PROFILE"] = "Mostrar marco de perfil en el buscador de grupos"
 L["SHOW_RAIDERIO_PROFILE_DESC"] = "Muestra el marco de perfil de Raider.IO en el buscador de grupos."
+--[[Translation missing --]]
+--[[ L["SHOW_ROLE_ICONS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_ROLE_ICONS_DESC"] = ""--]] 
 L["SHOW_SCORE_IN_COMBAT"] = "Mostrar puntuación en combate"
 L["SHOW_SCORE_IN_COMBAT_DESC"] = "Desactiva esta opción para mejorar el rendimiento al pasar el ratón por encima de jugadores cuando estás en combate."
 L["TANK"] = "Tanque"
 L["TANK_SCORE"] = "Puntuación de tanque"
 L["TIMED_10_RUNS"] = "+10-14 en tiempo"
 L["TIMED_15_RUNS"] = "+15 en tiempo"
+--[[Translation missing --]]
+--[[ L["TIMED_20_RUNS"] = ""--]] 
 L["TIMED_5_RUNS"] = "+5-9 en tiempo"
 L["TOOLTIP_CUSTOMIZATION"] = "Personalización de ventanas emergentes"
 L["TOOLTIP_PROFILE"] = "Personalización del marco de perfil"

@@ -1,4 +1,8 @@
 
+AllTheThingsSettingsPerCharacter = {
+	["Filters"] = {
+	},
+}
 AllTheThingsPCD = {
 	["ItemFilters"] = {
 		true, -- [1]

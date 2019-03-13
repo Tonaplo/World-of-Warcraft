@@ -105,11 +105,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 64,
 		["name"] = "Frost AoE",
 	}, -- [21]
-	{
-		["value"] = "[02+m0__ShiftE_2139_0_0]\n[0w+m0__F_11366_0_0]\n[+902+a03000__3_108853_0_0]\n[+701+g0_Heating Up_3_108853_0_0]\n[+o0__1_153561_0_0]\n[08000n5+b0u+50___2948_0_0]\n[09000n21+a0u+50_Heating Up_E_133_0_0]",
-		["spec"] = 63,
-		["name"] = "Fire",
-	}, -- [22]
+	false, -- [22]
 	{
 		["value"] = "[02+m0__ShiftE_2139_0_0]\n[+902+a02000__ShiftT_116011_0_0]\n[000h2+b03+70__F_5143_0_0]\n[04015h2+801A04+50__F_5143_0_0]\n[04015+b0p+70__3_44425_0_0]\n[000h5+b04+70___30451_0_0]",
 		["spec"] = 62,
@@ -180,14 +176,24 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 258,
 		["name"] = "Shadow Leveling",
 	}, -- [36]
-	[0] = {
-		["value"] = "",
-		["spec"] = 0,
-		["name"] = "None",
-	},
+	{
+		["value"] = "[02+m0__ShiftE_2139_0_0]\n[0w+m0__F_11366_0_0]\n[+902+a03000__3_108853_0_0]\n[+701+g0_Heating Up_3_108853_0_0]\n[+o0__1_153561_0_0]\n[08000n5+b0u+50___2948_0_0]\n[09000n21+a0u+50_Heating Up_E_133_0_0]",
+		["spec"] = 63,
+		["name"] = "Fire M+",
+	}, -- [37]
+	{
+		["value"] = "[02+m0__ShiftE_2139_0_0]\n[0w+m0__F_11366_0_0]\n[+902+a03000__3_108853_0_0]\n[+701+g0_Heating Up_3_108853_0_0]\n[+o0__1_153561_0_0]\n[08000n5+b0u+50___2948_0_0]\n[09000n21+a0u+50_Heating Up_E_133_0_0]",
+		["spec"] = 63,
+		["name"] = "Fira Raid",
+	}, -- [38]
 	[-1] = {
 		["value"] = "",
 		["spec"] = 0,
 		["name"] = "Basic Rotation",
+	},
+	[0] = {
+		["value"] = "",
+		["spec"] = 0,
+		["name"] = "None",
 	},
 }

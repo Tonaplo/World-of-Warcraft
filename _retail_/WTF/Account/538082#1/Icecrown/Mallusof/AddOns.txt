@@ -10,7 +10,7 @@ BigWigs_Plugins: enabled
 LittleWigs: enabled
 BigWigs_Uldir: enabled
 QE-DungeonTips: disabled
-XLoot_Options: enabled
+XLoot_Options: disabled
 BigWigs_Azeroth: enabled
 RaiderIO_DB_TW_H_R: disabled
 RaiderIO_DB_TW_A_R: disabled
@@ -21,3 +21,16 @@ RaiderIO_DB_EU_A_R: disabled
 Arh: disabled
 HealerStatWeights: disabled
 BigWigs_BattleOfDazaralor: enabled
+AllTheThings: disabled
+Conditioner: disabled
+LUI: disabled
+SexyMap: disabled
+ElvUI_Config: enabled
+ElvUI: enabled
+XLoot: disabled
+XLoot_Frame: disabled
+XLoot_Master: disabled
+XLoot_Group: disabled
+XLoot_Monitor: disabled
+Quester: disabled
+Immersion: disabled

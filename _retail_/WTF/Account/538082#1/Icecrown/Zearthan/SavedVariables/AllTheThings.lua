@@ -1,4 +1,8 @@
 
+AllTheThingsSettingsPerCharacter = {
+	["Filters"] = {
+	},
+}
 AllTheThingsPCD = {
 	["ItemFilters"] = {
 		true, -- [1]
@@ -41,19 +45,19 @@ AllTheThingsPCD = {
 		[59] = true,
 		[60] = true,
 		[-1] = true,
-		[100] = true,
+		[112] = true,
 		[101] = true,
 		[103] = true,
-		[200] = true,
+		[110] = true,
 		[107] = true,
 		[109] = true,
 		[111] = true,
 		[113] = false,
-		[112] = true,
-		[110] = true,
 		[108] = true,
 		[106] = true,
 		[104] = true,
+		[200] = true,
+		[100] = true,
 		[102] = true,
 		[999] = true,
 		[50] = true,
