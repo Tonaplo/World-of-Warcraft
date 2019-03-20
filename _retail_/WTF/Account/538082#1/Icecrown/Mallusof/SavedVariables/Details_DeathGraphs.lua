@@ -6,6 +6,136 @@ DeathGraphsDBDeaths = {
 		["name"] = "G'huun",
 		["id"] = 2147,
 		["diff"] = 14,
+		["player_db"] = {
+			["Kholvinski-EmeraldDream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kholvinski-EmeraldDream",
+				["class"] = "HUNTER",
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Murtag-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Voinic-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Voinic-Lightbringer",
+				["class"] = "PALADIN",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+			},
+			["Marksopp-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Êlwen-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
+				["class"] = "DEMONHUNTER",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Sheilyana-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Asahina-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+				["class"] = "MAGE",
+			},
+			["Eldodin-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+			},
+			["Kahoots-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 8,
@@ -18,296 +148,12 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1031,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Kholvinski-EmeraldDream"] = {
-				["name"] = "Kholvinski-EmeraldDream",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["name"] = "Voinic-Lightbringer",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["name"] = "Nanaeve-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["name"] = "Êlwen-KhazModan",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["233714"] = {
 		["hash"] = "233714",
 		["type"] = "deaths",
 		["name"] = "Stormwall Blockade",
 		["id"] = 2337,
-		["player_db"] = {
-			["Newc-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Newc-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Jhasu-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Kesak-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Superc-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Êlwen-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Asahina-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Marksopp-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Kholvinski-EmeraldDream",
-				["overall"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Kalithumos-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Meowtapes-Proudmoore"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Meowtapes-Proudmoore",
-				["overall"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Mistaaytch-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nanaeve-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Lucithy-SilverHand",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Mirwen-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Mirwen-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Azsharys-SilverHand",
-				["overall"] = {
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kaligon-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Eldodin-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Kahoots-Proudmoore",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 8,
@@ -320,6 +166,160 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1176,
 			["encounter"] = "Stormwall Blockade",
 		},
+		["player_db"] = {
+			["Newc-Lightbringer"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+			},
+			["Jhasu-Lightbringer"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+			},
+			["Kesak-Lightbringer"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+			},
+			["Superc-Lightbringer"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Superc-Lightbringer",
+			},
+			["Êlwen-KhazModan"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
+			},
+			["Asahina-Lightbringer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+			},
+			["Marksopp-Lightbringer"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kholvinski-EmeraldDream",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+			},
+			["Meowtapes-Proudmoore"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Meowtapes-Proudmoore",
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+			},
+			["Lucithy-SilverHand"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lucithy-SilverHand",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Mirwen-Lightbringer"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mirwen-Lightbringer",
+			},
+			["Azsharys-SilverHand"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Azsharys-SilverHand",
+			},
+			["Kaligon-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kaligon-Tichondrius",
+			},
+			["Eldodin-KhazModan"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+			},
+			["Kahoots-Proudmoore"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+			},
+		},
 		["diff"] = 14,
 	},
 	["216716"] = {
@@ -328,6 +328,184 @@ DeathGraphsDBDeaths = {
 		["name"] = "MOTHER",
 		["id"] = 2167,
 		["diff"] = 16,
+		["player_db"] = {
+			["Onick-LaughingSkull"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Onick-LaughingSkull",
+				["class"] = "SHAMAN",
+			},
+			["Bellåtrïx-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Bellåtrïx-Sargeras",
+				["class"] = "DEMONHUNTER",
+			},
+			["Archelous-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Archelous-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Prohibits"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Prohibits",
+				["class"] = "PALADIN",
+			},
+			["Magedps-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Magedps-Sargeras",
+				["class"] = "WARLOCK",
+			},
+			["Angeliawell-EmeraldDream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Angeliawell-EmeraldDream",
+				["class"] = "MAGE",
+			},
+			["Masaya-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Masaya-Nemesis",
+				["class"] = "DEMONHUNTER",
+			},
+			["Scoped-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Scoped-Kel'Thuzad",
+				["class"] = "DEMONHUNTER",
+			},
+			["Nymzy-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nymzy-Sargeras",
+				["class"] = "WARLOCK",
+			},
+			["Haim-Frostmourne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Haim-Frostmourne",
+				["class"] = "WARRIOR",
+			},
+			["Taïndra-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Taïndra-Sargeras",
+				["class"] = "PALADIN",
+			},
+			["Unstopawble-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Unstopawble-Stormrage",
+				["class"] = "DRUID",
+			},
+			["Naturepaws-WyrmrestAccord"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Naturepaws-WyrmrestAccord",
+				["class"] = "DRUID",
+			},
+			["Rôcxy-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Rôcxy-Sargeras",
+				["class"] = "MONK",
+			},
+			["Shandwynn-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Shandwynn-Sargeras",
+				["class"] = "MAGE",
+			},
+			["Sánctjud-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sánctjud-Stormrage",
+				["class"] = "DRUID",
+			},
+			["Regressiøn-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Regressiøn-Sargeras",
+				["class"] = "SHAMAN",
+			},
+			["Nicokororo-Frostmourne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nicokororo-Frostmourne",
+				["class"] = "SHAMAN",
+			},
+			["Lickmybalo-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lickmybalo-Sargeras",
+				["class"] = "MAGE",
+			},
+			["Lejoker-EmeraldDream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lejoker-EmeraldDream",
+				["class"] = "DRUID",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Divshift-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Divshift-Sargeras",
+				["class"] = "DRUID",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Mythic",
 			["index"] = 2,
@@ -339,184 +517,6 @@ DeathGraphsDBDeaths = {
 			["encounter"] = "MOTHER",
 			["diff"] = 16,
 		},
-		["player_db"] = {
-			["Onick-LaughingSkull"] = {
-				["name"] = "Onick-LaughingSkull",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bellåtrïx-Sargeras"] = {
-				["name"] = "Bellåtrïx-Sargeras",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Archelous-Sargeras"] = {
-				["name"] = "Archelous-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Prohibits"] = {
-				["name"] = "Prohibits",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Magedps-Sargeras"] = {
-				["name"] = "Magedps-Sargeras",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Angeliawell-EmeraldDream"] = {
-				["name"] = "Angeliawell-EmeraldDream",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Masaya-Nemesis"] = {
-				["name"] = "Masaya-Nemesis",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Scoped-Kel'Thuzad"] = {
-				["name"] = "Scoped-Kel'Thuzad",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nymzy-Sargeras"] = {
-				["name"] = "Nymzy-Sargeras",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Haim-Frostmourne"] = {
-				["name"] = "Haim-Frostmourne",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Taïndra-Sargeras"] = {
-				["name"] = "Taïndra-Sargeras",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Unstopawble-Stormrage"] = {
-				["name"] = "Unstopawble-Stormrage",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Naturepaws-WyrmrestAccord"] = {
-				["name"] = "Naturepaws-WyrmrestAccord",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rôcxy-Sargeras"] = {
-				["name"] = "Rôcxy-Sargeras",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Shandwynn-Sargeras"] = {
-				["name"] = "Shandwynn-Sargeras",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sánctjud-Stormrage"] = {
-				["name"] = "Sánctjud-Stormrage",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Regressiøn-Sargeras"] = {
-				["name"] = "Regressiøn-Sargeras",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nicokororo-Frostmourne"] = {
-				["name"] = "Nicokororo-Frostmourne",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lickmybalo-Sargeras"] = {
-				["name"] = "Lickmybalo-Sargeras",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lejoker-EmeraldDream"] = {
-				["name"] = "Lejoker-EmeraldDream",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Divshift-Sargeras"] = {
-				["name"] = "Divshift-Sargeras",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["216714"] = {
 		["hash"] = "216714",
@@ -524,6 +524,24 @@ DeathGraphsDBDeaths = {
 		["name"] = "MOTHER",
 		["id"] = 2167,
 		["diff"] = 14,
+		["player_db"] = {
+			["Mirwen-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mirwen-Lightbringer",
+				["class"] = "HUNTER",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -537,24 +555,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1031,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Mirwen-Lightbringer"] = {
-				["name"] = "Mirwen-Lightbringer",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["233414"] = {
 		["hash"] = "233414",
@@ -562,6 +562,168 @@ DeathGraphsDBDeaths = {
 		["name"] = "Mekkatorque",
 		["id"] = 2334,
 		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Superc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Superc-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Unshocked-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Unshocked-Proudmoore",
+				["class"] = "SHAMAN",
+			},
+			["Meowtapes-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Meowtapes-Proudmoore",
+				["class"] = "PRIEST",
+			},
+			["Sheilyana-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Asahina-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+				["class"] = "MAGE",
+			},
+			["Marksopp-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kholvinski-EmeraldDream",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+			},
+			["Ryad-Terenas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ryad-Terenas",
+				["class"] = "DRUID",
+			},
+			["Êlwen-KhazModan"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
+			},
+			["Lucithy-SilverHand"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lucithy-SilverHand",
+			},
+			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Mirwen-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mirwen-Lightbringer",
+				["class"] = "HUNTER",
+			},
+			["Azsharys-SilverHand"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Azsharys-SilverHand",
+				["class"] = "DRUID",
+			},
+			["Eldodin-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+			},
+			["Kahoots-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 7,
@@ -574,168 +736,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1176,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nanaeve-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["name"] = "Superc-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["name"] = "Unshocked-Proudmoore",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Meowtapes-Proudmoore"] = {
-				["name"] = "Meowtapes-Proudmoore",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Kholvinski-EmeraldDream",
-				["overall"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ryad-Terenas"] = {
-				["name"] = "Ryad-Terenas",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Êlwen-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Lucithy-SilverHand",
-				["overall"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mirwen-Lightbringer"] = {
-				["name"] = "Mirwen-Lightbringer",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["name"] = "Azsharys-SilverHand",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["233314"] = {
 		["hash"] = "233314",
@@ -743,6 +743,128 @@ DeathGraphsDBDeaths = {
 		["name"] = "Champion of the Light",
 		["id"] = 2333,
 		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Ryad-Terenas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ryad-Terenas",
+				["class"] = "DRUID",
+			},
+			["Êlwen-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
+				["class"] = "DEMONHUNTER",
+			},
+			["Unshocked-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Unshocked-Proudmoore",
+				["class"] = "SHAMAN",
+			},
+			["Azsharys-SilverHand"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Azsharys-SilverHand",
+				["class"] = "DRUID",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Mirwen-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mirwen-Lightbringer",
+				["class"] = "HUNTER",
+			},
+			["Sheilyana-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Meowtapes-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Meowtapes-Proudmoore",
+				["class"] = "PRIEST",
+			},
+			["Marksopp-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Kahoots-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -755,306 +877,85 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1176,
 			["diff"] = 14,
 		},
+	},
+	["233514"] = {
+		["hash"] = "233514",
+		["type"] = "deaths",
+		["name"] = "King Rastakhan",
+		["id"] = 2335,
+		["diff"] = 14,
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Mistaaytch-Lightbringer",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Jhasu-Lightbringer",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Kesak-Lightbringer",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ryad-Terenas"] = {
-				["name"] = "Ryad-Terenas",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["name"] = "Azsharys-SilverHand",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["name"] = "Unshocked-Proudmoore",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Meowtapes-Proudmoore"] = {
-				["name"] = "Meowtapes-Proudmoore",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mirwen-Lightbringer"] = {
-				["name"] = "Mirwen-Lightbringer",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["name"] = "Êlwen-KhazModan",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
-	},
-	["214615"] = {
-		["hash"] = "214615",
-		["type"] = "deaths",
-		["name"] = "Fetid Devourer",
-		["id"] = 2146,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Uldir",
-			["id"] = 2128,
-			["mapid"] = 1861,
-			["name"] = "Fetid Devourer",
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Fetid Devourer",
-			["diff"] = 15,
-		},
-		["player_db"] = {
-			["Watchmecrit-Deathwing"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Watchmecrit-Deathwing",
-				["class"] = "ROGUE",
-			},
-			["Newc-Lightbringer"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Newc-Lightbringer",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nanaeve-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Unshocked-Proudmoore",
-			},
-			["Holydemon-ShatteredHalls"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Holydemon-ShatteredHalls",
-				["class"] = "PALADIN",
-			},
-			["Drchiro-Kilrogg"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Drchiro-Kilrogg",
-				["class"] = "PALADIN",
-			},
-			["Stabu-Ner'zhul"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Stabu-Ner'zhul",
-				["class"] = "ROGUE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Marksopp-Lightbringer",
-			},
-			["Pumbalee-Ner'zhul"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Pumbalee-Ner'zhul",
-				["class"] = "WARRIOR",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Mistaaytch-Lightbringer",
-				["overall"] = {
-				},
-			},
-		},
-	},
-	["214715"] = {
-		["hash"] = "214715",
-		["type"] = "deaths",
-		["name"] = "G'huun",
-		["id"] = 2147,
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Mistaaytch-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Jhasu-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Kesak-Lightbringer",
-				["overall"] = {
-				},
 			},
 			["Superc-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Superc-Lightbringer",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Superc-Lightbringer",
+				["class"] = "SHAMAN",
 			},
 			["Unshocked-Proudmoore"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 				["name"] = "Unshocked-Proudmoore",
+				["class"] = "SHAMAN",
+			},
+			["Meowtapes-Proudmoore"] = {
 				["overall"] = {
 				},
-			},
-			["Êlwen-KhazModan"] = {
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Êlwen-KhazModan",
-				["overall"] = {
-				},
+				["name"] = "Meowtapes-Proudmoore",
+				["class"] = "PRIEST",
 			},
 			["Sheilyana-Sargeras"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Sheilyana-Sargeras",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
 			},
 			["Asahina-Lightbringer"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 				["name"] = "Asahina-Lightbringer",
+				["class"] = "MAGE",
+			},
+			["Marksopp-Lightbringer"] = {
 				["overall"] = {
 				},
-			},
-			["Murtag-Sargeras"] = {
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
-				["name"] = "Murtag-Sargeras",
-				["overall"] = {
-				},
+				["name"] = "Marksopp-Lightbringer",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Kholvinski-EmeraldDream"] = {
 				["deaths"] = {
@@ -1065,52 +966,44 @@ DeathGraphsDBDeaths = {
 				},
 			},
 			["Kalithumos-Tichondrius"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 				["name"] = "Kalithumos-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Kalethia-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kalethia-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["deaths"] = {
-				},
 				["class"] = "PALADIN",
-				["name"] = "Voinic-Lightbringer",
+			},
+			["Ryad-Terenas"] = {
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Ryad-Terenas",
+				["class"] = "DRUID",
+			},
+			["Lucithy-SilverHand"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lucithy-SilverHand",
 			},
 			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Mirwen-Lightbringer"] = {
 				["overall"] = {
 				},
-			},
-			["Evinè-MoonGuard"] = {
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
-				["name"] = "Evinè-MoonGuard",
-				["overall"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nanaeve-Lightbringer",
-				["overall"] = {
-				},
+				["name"] = "Mirwen-Lightbringer",
+				["class"] = "HUNTER",
 			},
 			["Mallusof"] = {
 				["deaths"] = {
@@ -1120,183 +1013,39 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Jorahx-MoonGuard"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Jorahx-MoonGuard",
+			["Azsharys-SilverHand"] = {
 				["overall"] = {
 				},
-			},
-			["Marksopp-Lightbringer"] = {
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Marksopp-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kaligon-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Eldodin-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Kahoots-Proudmoore",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 8,
-			["zone"] = "Uldir",
-			["id"] = 2122,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "G'huun",
-			["diff"] = 15,
-			["ej_instance_id"] = 1031,
-			["encounter"] = "G'huun",
-		},
-		["diff"] = 15,
-	},
-	["219514"] = {
-		["hash"] = "219514",
-		["type"] = "deaths",
-		["name"] = "Zul",
-		["id"] = 2195,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "Uldir",
-			["id"] = 2145,
-			["mapid"] = 1861,
-			["name"] = "Zul",
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Zul",
-			["diff"] = 14,
-		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
+				["name"] = "Azsharys-SilverHand",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["name"] = "Nanaeve-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 			["Êlwen-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Êlwen-KhazModan",
 				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
+			["Eldodin-KhazModan"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
 			},
 			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
 			},
 		},
-	},
-	["233514"] = {
-		["hash"] = "233514",
-		["type"] = "deaths",
-		["name"] = "King Rastakhan",
-		["id"] = 2335,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
@@ -1309,78 +1058,96 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1176,
 			["diff"] = 14,
 		},
+	},
+	["214715"] = {
+		["hash"] = "214715",
+		["type"] = "deaths",
+		["name"] = "G'huun",
+		["id"] = 2147,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 8,
+			["zone"] = "Uldir",
+			["id"] = 2122,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "G'huun",
+			["diff"] = 15,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "G'huun",
+		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
 			},
 			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
 			},
 			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
 			},
 			["Superc-Lightbringer"] = {
-				["name"] = "Superc-Lightbringer",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Superc-Lightbringer",
 			},
 			["Unshocked-Proudmoore"] = {
-				["name"] = "Unshocked-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Unshocked-Proudmoore",
 			},
-			["Meowtapes-Proudmoore"] = {
-				["name"] = "Meowtapes-Proudmoore",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
+			["Êlwen-KhazModan"] = {
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
 			},
 			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
 				["class"] = "WARRIOR",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
 			},
 			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
 				["class"] = "MAGE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
 			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
+			["Murtag-Sargeras"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Murtag-Sargeras",
 			},
 			["Kholvinski-EmeraldDream"] = {
 				["class"] = "HUNTER",
@@ -1391,8 +1158,1467 @@ DeathGraphsDBDeaths = {
 				["name"] = "Kholvinski-EmeraldDream",
 			},
 			["Kalithumos-Tichondrius"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+			},
+			["Kalethia-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kalethia-Tichondrius",
+			},
+			["Voinic-Lightbringer"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Voinic-Lightbringer",
+			},
+			["Newc-Lightbringer"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+			},
+			["Evinè-MoonGuard"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Evinè-MoonGuard",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+			},
+			["Jorahx-MoonGuard"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jorahx-MoonGuard",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Marksopp-Lightbringer"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+			},
+			["Kaligon-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kaligon-Tichondrius",
+			},
+			["Eldodin-KhazModan"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+			},
+			["Kahoots-Proudmoore"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+			},
+		},
+		["diff"] = 15,
+	},
+	["219514"] = {
+		["hash"] = "219514",
+		["type"] = "deaths",
+		["name"] = "Zul",
+		["id"] = 2195,
+		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Kalithumos-Tichondrius",
 				["class"] = "PALADIN",
+			},
+			["Eldodin-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+			},
+			["Êlwen-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
+				["class"] = "DEMONHUNTER",
+			},
+			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Sheilyana-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Asahina-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+				["class"] = "MAGE",
+			},
+			["Murtag-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Kahoots-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "Uldir",
+			["id"] = 2145,
+			["mapid"] = 1861,
+			["name"] = "Zul",
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Zul",
+			["diff"] = 14,
+		},
+	},
+	["216816"] = {
+		["hash"] = "216816",
+		["type"] = "deaths",
+		["name"] = "Taloc",
+		["id"] = 2168,
+		["diff"] = 16,
+		["player_db"] = {
+			["Archelous-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Archelous-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Taïndra-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Taïndra-Sargeras",
+				["class"] = "PALADIN",
+			},
+			["Regressiøn-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Regressiøn-Sargeras",
+				["class"] = "SHAMAN",
+			},
+			["Magedps-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Magedps-Sargeras",
+				["class"] = "WARLOCK",
+			},
+			["Divshift-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Divshift-Sargeras",
+				["class"] = "DRUID",
+			},
+			["Sánctjud-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sánctjud-Stormrage",
+				["class"] = "DRUID",
+			},
+			["Nicokororo-Frostmourne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nicokororo-Frostmourne",
+				["class"] = "SHAMAN",
+			},
+			["Lejoker-EmeraldDream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lejoker-EmeraldDream",
+				["class"] = "DRUID",
+			},
+			["Haim-Frostmourne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Haim-Frostmourne",
+				["class"] = "WARRIOR",
+			},
+			["Scoped-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Scoped-Kel'Thuzad",
+				["class"] = "DEMONHUNTER",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 1,
+			["zone"] = "Uldir",
+			["id"] = 2144,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Taloc",
+			["encounter"] = "Taloc",
+			["ej_instance_id"] = 1031,
+			["diff"] = 16,
+		},
+	},
+	["216715"] = {
+		["hash"] = "216715",
+		["type"] = "deaths",
+		["name"] = "MOTHER",
+		["id"] = 2167,
+		["diff"] = 15,
+		["player_db"] = {
+			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Voinic-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Voinic-Lightbringer",
+				["class"] = "PALADIN",
+			},
+			["Superc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Superc-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Unshocked-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Unshocked-Proudmoore",
+				["class"] = "SHAMAN",
+			},
+			["Drchiro-Kilrogg"] = {
+				["name"] = "Drchiro-Kilrogg",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+			},
+			["Asahina-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+				["class"] = "MAGE",
+			},
+			["Murtag-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Curaga-Kalecgos"] = {
+				["name"] = "Curaga-Kalecgos",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Bigburt-Sargeras"] = {
+				["name"] = "Bigburt-Sargeras",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Merricat-MoonGuard"] = {
+				["name"] = "Merricat-MoonGuard",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Jorahx-MoonGuard"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jorahx-MoonGuard",
+			},
+			["Pumbalee-Ner'zhul"] = {
+				["name"] = "Pumbalee-Ner'zhul",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Jinto-Khaz'goroth"] = {
+				["name"] = "Jinto-Khaz'goroth",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Baskîn-Stormrage"] = {
+				["name"] = "Baskîn-Stormrage",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Evinè-MoonGuard"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Evinè-MoonGuard",
+			},
+			["Karakazul-Sargeras"] = {
+				["name"] = "Karakazul-Sargeras",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Zimmer-Kalecgos"] = {
+				["name"] = "Zimmer-Kalecgos",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Esarla-WyrmrestAccord"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Esarla-WyrmrestAccord",
+				["class"] = "MAGE",
+			},
+			["Kesak-Lightbringer"] = {
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Arborvitae-Kalecgos"] = {
+				["name"] = "Arborvitae-Kalecgos",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "Uldir",
+			["id"] = 2141,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "MOTHER",
+			["encounter"] = "MOTHER",
+			["ej_instance_id"] = 1031,
+			["diff"] = 15,
+		},
+	},
+	["234314"] = {
+		["hash"] = "234314",
+		["type"] = "deaths",
+		["name"] = "Lady Jaina Proudmoore",
+		["id"] = 2343,
+		["player_db"] = {
+			["Foxpaw"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Foxpaw",
+				["overall"] = {
+				},
+			},
+			["Dobiae"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Dobiae",
+				["overall"] = {
+				},
+			},
+			["Inevitabits"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Inevitabits",
+				["overall"] = {
+				},
+			},
+			["Bannanas"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Bannanas",
+				["overall"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Êlwen-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Míra"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Míra",
+				["overall"] = {
+				},
+			},
+			["Naturesight-BoreanTundra"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Naturesight-BoreanTundra",
+				["overall"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Marksopp-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Xsesive"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Xsesive",
+				["overall"] = {
+				},
+			},
+			["Jests"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Jests",
+				["overall"] = {
+				},
+			},
+			["Nathadon-Malygos"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Nathadon-Malygos",
+				["overall"] = {
+				},
+			},
+			["Frippouille"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Frippouille",
+				["overall"] = {
+				},
+			},
+			["Mallusof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mallusof",
+				["overall"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Eldodin-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Celedhring"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Celedhring",
+				["overall"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jojomcblow-Malygos"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Jojomcblow-Malygos",
+				["overall"] = {
+				},
+			},
+			["Sorshia"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Sorshia",
+				["overall"] = {
+				},
+			},
+			["Superc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Superc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Elidellx"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Elidellx",
+				["overall"] = {
+				},
+			},
+			["Azsharys-SilverHand"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Azsharys-SilverHand",
+				["overall"] = {
+				},
+			},
+			["Jaira"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Jaira",
+				["overall"] = {
+				},
+			},
+			["Goshogun"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Goshogun",
+				["overall"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Lucithy-SilverHand"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Lucithy-SilverHand",
+				["overall"] = {
+				},
+			},
+			["Greenbar-Malygos"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Greenbar-Malygos",
+				["overall"] = {
+				},
+			},
+			["Qitanya"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Qitanya",
+				["overall"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Irith"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Irith",
+				["overall"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nanaeve-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Nalora"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nalora",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Thornstaad"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Thornstaad",
+				["overall"] = {
+				},
+			},
+			["Cloudcoastin"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Cloudcoastin",
+				["overall"] = {
+				},
+			},
+			["Older"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Older",
+				["overall"] = {
+				},
+			},
+			["Popmybubbles-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Popmybubbles-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Atag"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Atag",
+				["overall"] = {
+				},
+			},
+			["Algozen"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Algozen",
+				["overall"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Newc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Havnot-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Havnot-Stormrage",
+				["overall"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 9,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2281,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Lady Jaina Proudmoore",
+			["diff"] = 14,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Lady Jaina Proudmoore",
+		},
+		["diff"] = 14,
+	},
+	["216615"] = {
+		["hash"] = "216615",
+		["type"] = "deaths",
+		["name"] = "Vectis",
+		["id"] = 2166,
+		["diff"] = 15,
+		["player_db"] = {
+			["Mertaa-EmeraldDream"] = {
+				["name"] = "Mertaa-EmeraldDream",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Superc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Superc-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Baskîn-Stormrage"] = {
+				["name"] = "Baskîn-Stormrage",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Drchiro-Kilrogg"] = {
+				["name"] = "Drchiro-Kilrogg",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Zimmer-Kalecgos"] = {
+				["name"] = "Zimmer-Kalecgos",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Asahina-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+				["class"] = "MAGE",
+			},
+			["Murtag-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Eldodin-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kholvinski-EmeraldDream",
+				["class"] = "HUNTER",
+			},
+			["Bigburt-Sargeras"] = {
+				["name"] = "Bigburt-Sargeras",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Watchmecrit-Deathwing"] = {
+				["name"] = "Watchmecrit-Deathwing",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+			},
+			["Jinto-Khaz'goroth"] = {
+				["name"] = "Jinto-Khaz'goroth",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Curaga-Kalecgos"] = {
+				["name"] = "Curaga-Kalecgos",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Merricat-MoonGuard"] = {
+				["name"] = "Merricat-MoonGuard",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Evinè-MoonGuard"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Evinè-MoonGuard",
+			},
+			["Holydemon-ShatteredHalls"] = {
+				["name"] = "Holydemon-ShatteredHalls",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Mallusof"] = {
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Voinic-Lightbringer",
+				["class"] = "PALADIN",
+			},
+			["Tyrionlan-Ner'zhul"] = {
+				["name"] = "Tyrionlan-Ner'zhul",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Pumbalee-Ner'zhul"] = {
+				["name"] = "Pumbalee-Ner'zhul",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Arborvitae-Kalecgos"] = {
+				["name"] = "Arborvitae-Kalecgos",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Uldir",
+			["id"] = 2134,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Vectis",
+			["encounter"] = "Vectis",
+			["ej_instance_id"] = 1031,
+			["diff"] = 15,
+		},
+	},
+	["216915"] = {
+		["hash"] = "216915",
+		["type"] = "deaths",
+		["name"] = "Zek'voz",
+		["id"] = 2169,
+		["player_db"] = {
+			["Mertaa-EmeraldDream"] = {
+				["name"] = "Mertaa-EmeraldDream",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Kahoots-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Newc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Merricat-MoonGuard"] = {
+				["name"] = "Merricat-MoonGuard",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Eldodin-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Voinic-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Superc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Superc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Unshocked-Proudmoore",
+			},
+			["Êlwen-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Êlwen-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Drchiro-Kilrogg"] = {
+				["name"] = "Drchiro-Kilrogg",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Marksopp-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Sheilyana-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Zimmer-Kalecgos"] = {
+				["name"] = "Zimmer-Kalecgos",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Murtag-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Opyoungest-AeriePeak"] = {
+				["name"] = "Opyoungest-AeriePeak",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Kholvinski-EmeraldDream",
+				["overall"] = {
+				},
+			},
+			["Watchmecrit-Deathwing"] = {
+				["name"] = "Watchmecrit-Deathwing",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Karakazul-Sargeras"] = {
+				["name"] = "Karakazul-Sargeras",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nanaeve-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Stabu-Ner'zhul"] = {
+				["name"] = "Stabu-Ner'zhul",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Bigburt-Sargeras"] = {
+				["name"] = "Bigburt-Sargeras",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Holydemon-ShatteredHalls"] = {
+				["name"] = "Holydemon-ShatteredHalls",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Jinto-Khaz'goroth"] = {
+				["name"] = "Jinto-Khaz'goroth",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mallusof",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Farekaa-Stormrage"] = {
+				["name"] = "Farekaa-Stormrage",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Curaga-Kalecgos"] = {
+				["name"] = "Curaga-Kalecgos",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Arborvitae-Kalecgos"] = {
+				["name"] = "Arborvitae-Kalecgos",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "Uldir",
+			["id"] = 2136,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Zek'voz",
+			["diff"] = 15,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Zek'voz",
+		},
+		["diff"] = 15,
+	},
+	["233515"] = {
+		["hash"] = "233515",
+		["type"] = "deaths",
+		["name"] = "King Rastakhan",
+		["id"] = 2335,
+		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2272,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "King Rastakhan",
+			["encounter"] = "King Rastakhan",
+			["ej_instance_id"] = 1176,
+			["diff"] = 15,
+		},
+		["player_db"] = {
+			["Newc-Lightbringer"] = {
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -1406,38 +2632,6 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Lucithy-SilverHand"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Lucithy-SilverHand",
-				["overall"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mallusof",
-			},
-			["Mirwen-Lightbringer"] = {
-				["name"] = "Mirwen-Lightbringer",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
 			["Azsharys-SilverHand"] = {
 				["name"] = "Azsharys-SilverHand",
 				["class"] = "DRUID",
@@ -1446,83 +2640,6 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Êlwen-KhazModan"] = {
-				["name"] = "Êlwen-KhazModan",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
-	},
-	["216715"] = {
-		["hash"] = "216715",
-		["type"] = "deaths",
-		["name"] = "MOTHER",
-		["id"] = 2167,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "Uldir",
-			["id"] = 2141,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "MOTHER",
-			["encounter"] = "MOTHER",
-			["ej_instance_id"] = 1031,
-			["diff"] = 15,
-		},
-		["player_db"] = {
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["name"] = "Voinic-Lightbringer",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["name"] = "Superc-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
 			["Unshocked-Proudmoore"] = {
 				["name"] = "Unshocked-Proudmoore",
 				["class"] = "SHAMAN",
@@ -1531,45 +2648,13 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Drchiro-Kilrogg"] = {
+			["Êlwen-KhazModan"] = {
+				["name"] = "Êlwen-KhazModan",
+				["class"] = "DEMONHUNTER",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Drchiro-Kilrogg",
-				["class"] = "PALADIN",
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Curaga-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Curaga-Kalecgos",
-				["class"] = "SHAMAN",
 			},
 			["Nanaeve-Lightbringer"] = {
 				["name"] = "Nanaeve-Lightbringer",
@@ -1579,86 +2664,6 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Bigburt-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bigburt-Sargeras",
-				["class"] = "MONK",
-			},
-			["Merricat-MoonGuard"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Merricat-MoonGuard",
-				["class"] = "WARLOCK",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-			},
-			["Jorahx-MoonGuard"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Jorahx-MoonGuard",
-				["overall"] = {
-				},
-			},
-			["Pumbalee-Ner'zhul"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Pumbalee-Ner'zhul",
-				["class"] = "WARRIOR",
-			},
-			["Jinto-Khaz'goroth"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jinto-Khaz'goroth",
-				["class"] = "MONK",
-			},
-			["Baskîn-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Baskîn-Stormrage",
-				["class"] = "ROGUE",
-			},
-			["Evinè-MoonGuard"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Evinè-MoonGuard",
-				["overall"] = {
-				},
-			},
-			["Karakazul-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Karakazul-Sargeras",
-				["class"] = "HUNTER",
-			},
-			["Zimmer-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zimmer-Kalecgos",
-				["class"] = "MAGE",
-			},
 			["Mallusof"] = {
 				["name"] = "Mallusof",
 				["class"] = "PRIEST",
@@ -1666,123 +2671,6 @@ DeathGraphsDBDeaths = {
 				},
 				["deaths"] = {
 				},
-			},
-			["Esarla-WyrmrestAccord"] = {
-				["name"] = "Esarla-WyrmrestAccord",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-			},
-			["Eldodin-KhazModan"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-			},
-			["Arborvitae-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Arborvitae-Kalecgos",
-				["class"] = "SHAMAN",
-			},
-		},
-	},
-	["216615"] = {
-		["hash"] = "216615",
-		["type"] = "deaths",
-		["name"] = "Vectis",
-		["id"] = 2166,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Uldir",
-			["id"] = 2134,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Vectis",
-			["encounter"] = "Vectis",
-			["ej_instance_id"] = 1031,
-			["diff"] = 15,
-		},
-		["player_db"] = {
-			["Mertaa-EmeraldDream"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Mertaa-EmeraldDream",
-				["class"] = "PALADIN",
-			},
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["name"] = "Superc-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Baskîn-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Baskîn-Stormrage",
-				["class"] = "ROGUE",
-			},
-			["Drchiro-Kilrogg"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Drchiro-Kilrogg",
-				["class"] = "PALADIN",
-			},
-			["Zimmer-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zimmer-Kalecgos",
-				["class"] = "MAGE",
 			},
 			["Sheilyana-Sargeras"] = {
 				["name"] = "Sheilyana-Sargeras",
@@ -1800,1091 +2688,23 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["name"] = "Kholvinski-EmeraldDream",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bigburt-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bigburt-Sargeras",
-				["class"] = "MONK",
-			},
-			["Watchmecrit-Deathwing"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Watchmecrit-Deathwing",
-				["class"] = "ROGUE",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jinto-Khaz'goroth"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jinto-Khaz'goroth",
-				["class"] = "MONK",
-			},
-			["Curaga-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Curaga-Kalecgos",
-				["class"] = "SHAMAN",
-			},
-			["Merricat-MoonGuard"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Merricat-MoonGuard",
-				["class"] = "WARLOCK",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Evinè-MoonGuard"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Evinè-MoonGuard",
-				["overall"] = {
-				},
-			},
-			["Holydemon-ShatteredHalls"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Holydemon-ShatteredHalls",
-				["class"] = "PALADIN",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["name"] = "Nanaeve-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-			},
-			["Voinic-Lightbringer"] = {
-				["name"] = "Voinic-Lightbringer",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Tyrionlan-Ner'zhul"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Tyrionlan-Ner'zhul",
-				["class"] = "MAGE",
-			},
-			["Pumbalee-Ner'zhul"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Pumbalee-Ner'zhul",
-				["class"] = "WARRIOR",
-			},
-			["Arborvitae-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Arborvitae-Kalecgos",
-				["class"] = "SHAMAN",
-			},
-		},
-	},
-	["234314"] = {
-		["hash"] = "234314",
-		["type"] = "deaths",
-		["name"] = "Lady Jaina Proudmoore",
-		["id"] = 2343,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 9,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2281,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Lady Jaina Proudmoore",
-			["diff"] = 14,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Lady Jaina Proudmoore",
-		},
-		["player_db"] = {
-			["Foxpaw"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Foxpaw",
-			},
-			["Dobiae"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Dobiae",
-			},
-			["Inevitabits"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Inevitabits",
-			},
-			["Bannanas"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Bannanas",
-			},
-			["Êlwen-KhazModan"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Êlwen-KhazModan",
-			},
-			["Míra"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Míra",
-			},
-			["Naturesight-BoreanTundra"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Naturesight-BoreanTundra",
-			},
 			["Marksopp-Lightbringer"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Marksopp-Lightbringer",
-			},
-			["Xsesive"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Xsesive",
-			},
-			["Jests"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jests",
-			},
-			["Nathadon-Malygos"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nathadon-Malygos",
-			},
-			["Frippouille"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Frippouille",
-			},
-			["Mallusof"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mallusof",
-			},
-			["Eldodin-KhazModan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-			},
-			["Celedhring"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Celedhring",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mistaaytch-Lightbringer",
-			},
-			["Jojomcblow-Malygos"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jojomcblow-Malygos",
-			},
-			["Sorshia"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sorshia",
-			},
-			["Superc-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Superc-Lightbringer",
-			},
-			["Elidellx"] = {
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Elidellx",
-			},
-			["Azsharys-SilverHand"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Azsharys-SilverHand",
-			},
-			["Jaira"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jaira",
-			},
-			["Goshogun"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Goshogun",
-			},
-			["Kesak-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kesak-Lightbringer",
-			},
-			["Lucithy-SilverHand"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lucithy-SilverHand",
-			},
-			["Greenbar-Malygos"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Greenbar-Malygos",
-			},
-			["Qitanya"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Qitanya",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-			},
-			["Irith"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Irith",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-			},
-			["Nalora"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nalora",
-			},
-			["Asahina-Lightbringer"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Asahina-Lightbringer",
-			},
-			["Older"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Older",
-			},
-			["Cloudcoastin"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Cloudcoastin",
-			},
-			["Thornstaad"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Thornstaad",
-			},
-			["Popmybubbles-Kel'Thuzad"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Popmybubbles-Kel'Thuzad",
-			},
-			["Atag"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Atag",
-			},
-			["Algozen"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Algozen",
-			},
-			["Newc-Lightbringer"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Newc-Lightbringer",
-			},
-			["Havnot-Stormrage"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Havnot-Stormrage",
-			},
-		},
-		["diff"] = 14,
-	},
-	["216915"] = {
-		["hash"] = "216915",
-		["type"] = "deaths",
-		["name"] = "Zek'voz",
-		["id"] = 2169,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "Uldir",
-			["id"] = 2136,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Zek'voz",
-			["diff"] = 15,
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Zek'voz",
-		},
-		["player_db"] = {
-			["Mertaa-EmeraldDream"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Mertaa-EmeraldDream",
-				["class"] = "PALADIN",
-			},
-			["Kahoots-Proudmoore"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kahoots-Proudmoore",
-			},
-			["Newc-Lightbringer"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Newc-Lightbringer",
-			},
-			["Merricat-MoonGuard"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Merricat-MoonGuard",
-				["class"] = "WARLOCK",
-			},
-			["Eldodin-KhazModan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-			},
-			["Voinic-Lightbringer"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Voinic-Lightbringer",
-			},
-			["Jhasu-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jhasu-Lightbringer",
-			},
-			["Superc-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Superc-Lightbringer",
-			},
-			["Unshocked-Proudmoore"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Unshocked-Proudmoore",
-				["overall"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Êlwen-KhazModan",
-			},
-			["Drchiro-Kilrogg"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Drchiro-Kilrogg",
-				["class"] = "PALADIN",
-			},
-			["Murtag-Sargeras"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Murtag-Sargeras",
-			},
-			["Sheilyana-Sargeras"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sheilyana-Sargeras",
-			},
-			["Asahina-Lightbringer"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Asahina-Lightbringer",
-			},
-			["Marksopp-Lightbringer"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Marksopp-Lightbringer",
-			},
-			["Opyoungest-AeriePeak"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Opyoungest-AeriePeak",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kholvinski-EmeraldDream",
-			},
-			["Watchmecrit-Deathwing"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Watchmecrit-Deathwing",
-				["class"] = "ROGUE",
-			},
-			["Kesak-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kesak-Lightbringer",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-			},
-			["Karakazul-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Karakazul-Sargeras",
-				["class"] = "HUNTER",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-			},
-			["Stabu-Ner'zhul"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Stabu-Ner'zhul",
-				["class"] = "ROGUE",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mistaaytch-Lightbringer",
-			},
-			["Bigburt-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bigburt-Sargeras",
-				["class"] = "MONK",
-			},
-			["Holydemon-ShatteredHalls"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Holydemon-ShatteredHalls",
-				["class"] = "PALADIN",
-			},
-			["Jinto-Khaz'goroth"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jinto-Khaz'goroth",
-				["class"] = "MONK",
-			},
-			["Mallusof"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mallusof",
-			},
-			["Zimmer-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zimmer-Kalecgos",
-				["class"] = "MAGE",
-			},
-			["Farekaa-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Farekaa-Stormrage",
-				["class"] = "WARRIOR",
-			},
-			["Curaga-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Curaga-Kalecgos",
-				["class"] = "SHAMAN",
-			},
-			["Arborvitae-Kalecgos"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Arborvitae-Kalecgos",
-				["class"] = "SHAMAN",
-			},
-		},
-		["diff"] = 15,
-	},
-	["219415"] = {
-		["hash"] = "219415",
-		["type"] = "deaths",
-		["name"] = "Mythrax",
-		["id"] = 2194,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "Uldir",
-			["id"] = 2135,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Mythrax",
-			["diff"] = 15,
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Mythrax",
-		},
-		["player_db"] = {
-			["Newc-Lightbringer"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Newc-Lightbringer",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-			},
-			["Voinic-Lightbringer"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Voinic-Lightbringer",
-			},
-			["Superc-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Superc-Lightbringer",
-			},
-			["Unshocked-Proudmoore"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Unshocked-Proudmoore",
-			},
-			["Êlwen-KhazModan"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Êlwen-KhazModan",
-			},
-			["Sheilyana-Sargeras"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sheilyana-Sargeras",
-			},
-			["Asahina-Lightbringer"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Asahina-Lightbringer",
-			},
-			["Murtag-Sargeras"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Murtag-Sargeras",
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kholvinski-EmeraldDream",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Kalithumos-Tichondrius",
-			},
-			["Marksopp-Lightbringer"] = {
 				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Marksopp-Lightbringer",
-				["overall"] = {
 				},
 			},
 			["Jhasu-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
 				["name"] = "Jhasu-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
 				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Kesak-Lightbringer",
-			},
-			["Mallusof"] = {
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["overall"] = {
-				},
-				["name"] = "Mallusof",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mistaaytch-Lightbringer",
-			},
-			["Kaligon-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kaligon-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-			},
-			["Kahoots-Proudmoore"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kahoots-Proudmoore",
 			},
 		},
-		["diff"] = 15,
-	},
-	["219515"] = {
-		["hash"] = "219515",
-		["type"] = "deaths",
-		["name"] = "Zul",
-		["id"] = 2195,
-		["player_db"] = {
-			["Marksopp-Lightbringer"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Marksopp-Lightbringer",
-			},
-			["Eldodin-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Eldodin-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Newc-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Kalithumos-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Voinic-Lightbringer",
-			},
-			["Kesak-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Kesak-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nanaeve-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Superc-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Unshocked-Proudmoore",
-				["overall"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Êlwen-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Mistaaytch-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Sheilyana-Sargeras",
-				["overall"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Asahina-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Murtag-Sargeras",
-			},
-			["Kahoots-Proudmoore"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kahoots-Proudmoore",
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "Uldir",
-			["id"] = 2145,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Zul",
-			["diff"] = 15,
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Zul",
-		},
-		["diff"] = 15,
 	},
 	["216814"] = {
 		["hash"] = "216814",
@@ -2892,6 +2712,104 @@ DeathGraphsDBDeaths = {
 		["name"] = "Taloc",
 		["id"] = 2168,
 		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Kesak-Lightbringer"] = {
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["name"] = "Nanaeve-Lightbringer",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["name"] = "Asahina-Lightbringer",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["name"] = "Marksopp-Lightbringer",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -2905,1122 +2823,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1031,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-			},
-			["Newc-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-			},
-			["Eldodin-KhazModan"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-				["class"] = "DRUID",
-			},
-			["Mallusof"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-			},
-		},
-	},
-	["216914"] = {
-		["hash"] = "216914",
-		["type"] = "deaths",
-		["name"] = "Zek'voz",
-		["id"] = 2169,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Uldir",
-			["encounter"] = "Zek'voz",
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Zek'voz",
-			["diff"] = 14,
-			["id"] = 2136,
-			["ej_instance_id"] = 1031,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
-	},
-	["214614"] = {
-		["hash"] = "214614",
-		["type"] = "deaths",
-		["name"] = "Fetid Devourer",
-		["id"] = 2146,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "Uldir",
-			["id"] = 2128,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Fetid Devourer",
-			["encounter"] = "Fetid Devourer",
-			["ej_instance_id"] = 1031,
-			["diff"] = 14,
-		},
-		["player_db"] = {
-			["Êlwen-KhazModan"] = {
-				["name"] = "Êlwen-KhazModan",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-			},
-			["Eldodin-KhazModan"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
-	},
-	["233315"] = {
-		["hash"] = "233315",
-		["type"] = "deaths",
-		["name"] = "Champion of the Light",
-		["id"] = 2333,
-		["player_db"] = {
-			["Foxpaw"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Foxpaw",
-			},
-			["Newc-Lightbringer"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Newc-Lightbringer",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-			},
-			["Bannanas"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Bannanas",
-				["overall"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Unshocked-Proudmoore",
-			},
-			["Êlwen-KhazModan"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Êlwen-KhazModan",
-			},
-			["Míra"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Míra",
-				["overall"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sheilyana-Sargeras",
-			},
-			["Naturesight-BoreanTundra"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Naturesight-BoreanTundra",
-			},
-			["Marksopp-Lightbringer"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Marksopp-Lightbringer",
-			},
-			["Nathadon-Malygos"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Nathadon-Malygos",
-				["overall"] = {
-				},
-			},
-			["Taegas"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Taegas",
-				["overall"] = {
-				},
-			},
-			["Bulwarkbeard"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Bulwarkbeard",
-				["overall"] = {
-				},
-			},
-			["Frippouille"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Frippouille",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-			},
-			["Kahoots-Proudmoore"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kahoots-Proudmoore",
-			},
-			["Celedhring"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Celedhring",
-				["overall"] = {
-				},
-			},
-			["Hubbletotem"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Hubbletotem",
-				["overall"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Asahina-Lightbringer",
-			},
-			["Lightpulse-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lightpulse-Tichondrius",
-			},
-			["Jojomcblow-Malygos"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Jojomcblow-Malygos",
-				["overall"] = {
-				},
-			},
-			["Sorshia"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Sorshia",
-				["overall"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Superc-Lightbringer",
-			},
-			["Elidellx"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Elidellx",
-				["overall"] = {
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Azsharys-SilverHand",
-			},
-			["Meowtapes-Proudmoore"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Meowtapes-Proudmoore",
-			},
-			["Jhasu-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jhasu-Lightbringer",
-			},
-			["Jaira"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jaira",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mistaaytch-Lightbringer",
-			},
-			["Goshogun"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Goshogun",
-				["overall"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kholvinski-EmeraldDream",
-			},
-			["Greenbar-Malygos"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Greenbar-Malygos",
-			},
-			["Coffeebean"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Coffeebean",
-				["overall"] = {
-				},
-			},
-			["Qitanya"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Qitanya",
-				["overall"] = {
-				},
-			},
-			["Irith"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Irith",
-				["overall"] = {
-				},
-			},
-			["Cloudcoastin"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Cloudcoastin",
-				["overall"] = {
-				},
-			},
-			["Ryad-Terenas"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Ryad-Terenas",
-			},
-			["Thornstaad"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Thornstaad",
-				["overall"] = {
-				},
-			},
-			["Older"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Older",
-				["overall"] = {
-				},
-			},
-			["Cassettes-Proudmoore"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Cassettes-Proudmoore",
-			},
-			["Atag"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Atag",
-				["overall"] = {
-				},
-			},
-			["Nalora"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nalora",
-				["overall"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kesak-Lightbringer",
-			},
-			["Algozen"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Algozen",
-				["overall"] = {
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lucithy-SilverHand",
-			},
-			["Havnot-Stormrage"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Havnot-Stormrage",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2265,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Champion of the Light",
-			["diff"] = 15,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Champion of the Light",
-		},
-		["diff"] = 15,
-	},
-	["233415"] = {
-		["hash"] = "233415",
-		["type"] = "deaths",
-		["name"] = "Mekkatorque",
-		["id"] = 2334,
-		["player_db"] = {
-			["Newc-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Newc-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Kalithumos-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Kesak-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Azsharys-SilverHand",
-				["overall"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Unshocked-Proudmoore",
-				["overall"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Êlwen-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nanaeve-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Sheilyana-Sargeras",
-				["overall"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Asahina-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Eldodin-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Jhasu-Lightbringer",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2276,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Mekkatorque",
-			["diff"] = 15,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Mekkatorque",
-		},
-		["diff"] = 15,
-	},
-	["233015"] = {
-		["hash"] = "233015",
-		["type"] = "deaths",
-		["name"] = "Conclave of the Chosen",
-		["id"] = 2330,
-		["player_db"] = {
-			["Foxpaw"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Foxpaw",
-				["overall"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Newc-Lightbringer",
-			},
-			["Inevitabits"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Inevitabits",
-				["overall"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kesak-Lightbringer",
-			},
-			["Lightpulse-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lightpulse-Tichondrius",
-			},
-			["Êlwen-KhazModan"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Êlwen-KhazModan",
-			},
-			["Míra"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Míra",
-				["overall"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sheilyana-Sargeras",
-			},
-			["Naturesight-BoreanTundra"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Naturesight-BoreanTundra",
-			},
-			["Marksopp-Lightbringer"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Marksopp-Lightbringer",
-			},
-			["Xsesive"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Xsesive",
-			},
-			["Nathadon-Malygos"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Nathadon-Malygos",
-				["overall"] = {
-				},
-			},
-			["Taegas"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Taegas",
-			},
-			["Frippouille"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Frippouille",
-				["overall"] = {
-				},
-			},
-			["Havnot-Stormrage"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Havnot-Stormrage",
-				["overall"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-			},
-			["Celedhring"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Celedhring",
-				["overall"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mistaaytch-Lightbringer",
-			},
-			["Jojomcblow-Malygos"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Jojomcblow-Malygos",
-				["overall"] = {
-				},
-			},
-			["Sorshia"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Sorshia",
-				["overall"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Superc-Lightbringer",
-			},
-			["Cloudcoastin"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Cloudcoastin",
-				["overall"] = {
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Azsharys-SilverHand",
-			},
-			["Unshocked-Proudmoore"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Unshocked-Proudmoore",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-			},
-			["Asahina-Lightbringer"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Asahina-Lightbringer",
-			},
-			["Goshogun"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Goshogun",
-				["overall"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jhasu-Lightbringer",
-			},
-			["Nalora"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nalora",
-				["overall"] = {
-				},
-			},
-			["Greenbar-Malygos"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Greenbar-Malygos",
-			},
-			["Coffeebean"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Coffeebean",
-				["overall"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-			},
-			["Irith"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Irith",
-				["overall"] = {
-				},
-			},
-			["Atag"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Atag",
-				["overall"] = {
-				},
-			},
-			["Ryad-Terenas"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Ryad-Terenas",
-			},
-			["Hubbletotem"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Hubbletotem",
-				["overall"] = {
-				},
-			},
-			["Thornstaad"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Thornstaad",
-				["overall"] = {
-				},
-			},
-			["Bannanas"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Bannanas",
-				["overall"] = {
-				},
-			},
-			["Elidellx"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Elidellx",
-				["overall"] = {
-				},
-			},
-			["Popmybubbles-Kel'Thuzad"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Popmybubbles-Kel'Thuzad",
-			},
-			["Qitanya"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Qitanya",
-				["overall"] = {
-				},
-			},
-			["Algozen"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Algozen",
-				["overall"] = {
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lucithy-SilverHand",
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2268,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Conclave of the Chosen",
-			["diff"] = 15,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Conclave of the Chosen",
-		},
-		["diff"] = 15,
 	},
 	["216815"] = {
 		["hash"] = "216815",
@@ -4028,6 +2830,136 @@ DeathGraphsDBDeaths = {
 		["name"] = "Taloc",
 		["id"] = 2168,
 		["diff"] = 15,
+		["player_db"] = {
+			["Nanaeve-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nanaeve-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Bigburt-Sargeras"] = {
+				["name"] = "Bigburt-Sargeras",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+			},
+			["Voinic-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Voinic-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+			},
+			["Superc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Superc-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Unshocked-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Unshocked-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+			},
+			["Eldodin-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Eldodin-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Sheilyana-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Kahoots-Proudmoore"] = {
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -4041,126 +2973,106 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1031,
 			["killed"] = true,
 		},
+	},
+	["214614"] = {
+		["hash"] = "214614",
+		["type"] = "deaths",
+		["name"] = "Fetid Devourer",
+		["id"] = 2146,
+		["diff"] = 14,
 		["player_db"] = {
-			["Nanaeve-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-			},
-			["Bigburt-Sargeras"] = {
+			["Êlwen-KhazModan"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Bigburt-Sargeras",
-				["class"] = "MONK",
-			},
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
+				["name"] = "Êlwen-KhazModan",
 				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-			},
-			["Marksopp-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Marksopp-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Voinic-Lightbringer",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Mistaaytch-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["name"] = "Superc-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Unshocked-Proudmoore",
 			},
 			["Kesak-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
 				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
 			["Eldodin-KhazModan"] = {
+				["name"] = "Eldodin-KhazModan",
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Eldodin-KhazModan",
+				["deaths"] = {
+				},
 			},
 			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Mallusof",
 				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
-			["Sheilyana-Sargeras"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "Uldir",
+			["id"] = 2128,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Fetid Devourer",
+			["encounter"] = "Fetid Devourer",
+			["ej_instance_id"] = 1031,
+			["diff"] = 14,
+		},
+	},
+	["216914"] = {
+		["hash"] = "216914",
+		["type"] = "deaths",
+		["name"] = "Zek'voz",
+		["id"] = 2169,
+		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
 				["overall"] = {
 				},
-				["name"] = "Sheilyana-Sargeras",
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
 			},
-			["Asahina-Lightbringer"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
+			["Mallusof"] = {
 				["overall"] = {
 				},
-				["name"] = "Asahina-Lightbringer",
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
 			},
 			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
 			},
 			["Kahoots-Proudmoore"] = {
 				["overall"] = {
@@ -4171,84 +3083,125 @@ DeathGraphsDBDeaths = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Uldir",
+			["encounter"] = "Zek'voz",
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Zek'voz",
+			["diff"] = 14,
+			["id"] = 2136,
+			["ej_instance_id"] = 1031,
+			["killed"] = true,
+		},
 	},
-	["234215"] = {
-		["hash"] = "234215",
+	["233015"] = {
+		["hash"] = "233015",
 		["type"] = "deaths",
-		["name"] = "Opulence",
-		["id"] = 2342,
+		["name"] = "Conclave of the Chosen",
+		["id"] = 2330,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2268,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Conclave of the Chosen",
+			["diff"] = 15,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Conclave of the Chosen",
+		},
 		["player_db"] = {
 			["Foxpaw"] = {
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
-				["name"] = "Foxpaw",
 				["overall"] = {
 				},
+				["name"] = "Foxpaw",
 			},
 			["Newc-Lightbringer"] = {
+				["deaths"] = {
+				},
 				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Newc-Lightbringer",
+				["overall"] = {
+				},
 			},
-			["Nanaeve-Lightbringer"] = {
-				["class"] = "DRUID",
+			["Inevitabits"] = {
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Nanaeve-Lightbringer",
+				["name"] = "Inevitabits",
 			},
 			["Kesak-Lightbringer"] = {
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["overall"] = {
-				},
+				["class"] = "SHAMAN",
 				["name"] = "Kesak-Lightbringer",
-			},
-			["Unshocked-Proudmoore"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Unshocked-Proudmoore",
+			},
+			["Lightpulse-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Lightpulse-Tichondrius",
+				["overall"] = {
+				},
 			},
 			["Êlwen-KhazModan"] = {
+				["deaths"] = {
+				},
 				["class"] = "DEMONHUNTER",
+				["name"] = "Êlwen-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Míra"] = {
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Êlwen-KhazModan",
+				["name"] = "Míra",
 			},
 			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
 				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Sheilyana-Sargeras",
-			},
-			["Asahina-Lightbringer"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Asahina-Lightbringer",
 			},
-			["Jests"] = {
-				["class"] = "DEMONHUNTER",
+			["Naturesight-BoreanTundra"] = {
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
+				["name"] = "Naturesight-BoreanTundra",
 				["overall"] = {
 				},
-				["name"] = "Jests",
+			},
+			["Marksopp-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Marksopp-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Xsesive"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Xsesive",
+				["overall"] = {
+				},
 			},
 			["Nathadon-Malygos"] = {
 				["class"] = "PRIEST",
@@ -4267,10 +3220,242 @@ DeathGraphsDBDeaths = {
 				},
 			},
 			["Frippouille"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Frippouille",
+			},
+			["Havnot-Stormrage"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Havnot-Stormrage",
+			},
+			["Eldodin-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Eldodin-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Celedhring"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Celedhring",
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jojomcblow-Malygos"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jojomcblow-Malygos",
+			},
+			["Sorshia"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sorshia",
+			},
+			["Superc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Superc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Cloudcoastin"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cloudcoastin",
+			},
+			["Azsharys-SilverHand"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Azsharys-SilverHand",
+				["overall"] = {
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Unshocked-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nanaeve-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Goshogun"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Goshogun",
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Nalora"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nalora",
+			},
+			["Greenbar-Malygos"] = {
 				["deaths"] = {
 				},
 				["class"] = "HUNTER",
-				["name"] = "Frippouille",
+				["name"] = "Greenbar-Malygos",
+				["overall"] = {
+				},
+			},
+			["Coffeebean"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Coffeebean",
+			},
+			["Qitanya"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Qitanya",
+			},
+			["Irith"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Irith",
+			},
+			["Atag"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Atag",
+			},
+			["Ryad-Terenas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Ryad-Terenas",
+				["overall"] = {
+				},
+			},
+			["Hubbletotem"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Hubbletotem",
+			},
+			["Thornstaad"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Thornstaad",
+			},
+			["Bannanas"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bannanas",
+			},
+			["Elidellx"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Elidellx",
+			},
+			["Popmybubbles-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Popmybubbles-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Algozen"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Algozen",
+			},
+			["Lucithy-SilverHand"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Lucithy-SilverHand",
 				["overall"] = {
 				},
 			},
@@ -4282,77 +3467,34 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Mallusof",
 			},
-			["Eldodin-KhazModan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-			},
-			["Hubbletotem"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Hubbletotem",
-				["overall"] = {
-				},
-			},
-			["Sorshia"] = {
-				["deaths"] = {
-				},
+		},
+		["diff"] = 15,
+	},
+	["233415"] = {
+		["hash"] = "233415",
+		["type"] = "deaths",
+		["name"] = "Mekkatorque",
+		["id"] = 2334,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2276,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Mekkatorque",
+			["diff"] = 15,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Mekkatorque",
+		},
+		["player_db"] = {
+			["Newc-Lightbringer"] = {
 				["class"] = "DEMONHUNTER",
-				["name"] = "Sorshia",
-				["overall"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Superc-Lightbringer",
-			},
-			["Elidellx"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Elidellx",
-				["overall"] = {
-				},
-			},
-			["Goshogun"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Goshogun",
-				["overall"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mistaaytch-Lightbringer",
-			},
-			["Atag"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Atag",
-				["overall"] = {
-				},
-			},
-			["Inevitabits"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Inevitabits",
-				["overall"] = {
-				},
+				["name"] = "Newc-Lightbringer",
 			},
 			["Kalithumos-Tichondrius"] = {
 				["class"] = "PALADIN",
@@ -4362,21 +3504,21 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Kalithumos-Tichondrius",
 			},
-			["Irith"] = {
+			["Êlwen-KhazModan"] = {
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
-				["name"] = "Irith",
 				["overall"] = {
 				},
+				["name"] = "Êlwen-KhazModan",
 			},
-			["Bannanas"] = {
+			["Kesak-Lightbringer"] = {
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
-				["name"] = "Bannanas",
 				["overall"] = {
 				},
+				["name"] = "Kesak-Lightbringer",
 			},
 			["Ryad-Terenas"] = {
 				["class"] = "DRUID",
@@ -4394,21 +3536,61 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Lucithy-SilverHand",
 			},
-			["Thornstaad"] = {
-				["class"] = "HUNTER",
+			["Unshocked-Proudmoore"] = {
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Thornstaad",
+				["name"] = "Unshocked-Proudmoore",
 			},
-			["Popmybubbles-Kel'Thuzad"] = {
-				["class"] = "PALADIN",
+			["Azsharys-SilverHand"] = {
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Popmybubbles-Kel'Thuzad",
+				["name"] = "Azsharys-SilverHand",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Sheilyana-Sargeras"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+			},
+			["Asahina-Lightbringer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+			},
+			["Eldodin-KhazModan"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
 			},
 			["Jhasu-Lightbringer"] = {
 				["class"] = "SHAMAN",
@@ -4418,6 +3600,371 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Jhasu-Lightbringer",
 			},
+		},
+		["diff"] = 15,
+	},
+	["233315"] = {
+		["hash"] = "233315",
+		["type"] = "deaths",
+		["name"] = "Champion of the Light",
+		["id"] = 2333,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2265,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Champion of the Light",
+			["diff"] = 15,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Champion of the Light",
+		},
+		["player_db"] = {
+			["Foxpaw"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Foxpaw",
+				["overall"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Newc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nanaeve-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Bannanas"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bannanas",
+			},
+			["Unshocked-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Unshocked-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Êlwen-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Míra"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Míra",
+			},
+			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Sheilyana-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Naturesight-BoreanTundra"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Naturesight-BoreanTundra",
+				["overall"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Marksopp-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Nathadon-Malygos"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nathadon-Malygos",
+			},
+			["Taegas"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Taegas",
+			},
+			["Bulwarkbeard"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bulwarkbeard",
+			},
+			["Frippouille"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Frippouille",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Eldodin-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Eldodin-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Kahoots-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Celedhring"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Celedhring",
+			},
+			["Hubbletotem"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Hubbletotem",
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Lightpulse-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Lightpulse-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Jojomcblow-Malygos"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jojomcblow-Malygos",
+			},
+			["Sorshia"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sorshia",
+			},
+			["Lucithy-SilverHand"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Lucithy-SilverHand",
+				["overall"] = {
+				},
+			},
+			["Elidellx"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Elidellx",
+			},
+			["Azsharys-SilverHand"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Azsharys-SilverHand",
+				["overall"] = {
+				},
+			},
+			["Meowtapes-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Meowtapes-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jaira"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Jaira",
+				["overall"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Goshogun"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Goshogun",
+			},
+			["Qitanya"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Qitanya",
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Kholvinski-EmeraldDream",
+				["overall"] = {
+				},
+			},
+			["Atag"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Atag",
+			},
+			["Coffeebean"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Coffeebean",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Irith"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Irith",
+			},
+			["Cloudcoastin"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cloudcoastin",
+			},
+			["Ryad-Terenas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Ryad-Terenas",
+				["overall"] = {
+				},
+			},
+			["Thornstaad"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Thornstaad",
+			},
+			["Older"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Older",
+			},
+			["Cassettes-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Cassettes-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Greenbar-Malygos"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Greenbar-Malygos",
+				["overall"] = {
+				},
+			},
 			["Nalora"] = {
 				["class"] = "DRUID",
 				["deaths"] = {
@@ -4426,39 +3973,195 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Nalora",
 			},
-			["Older"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Older",
-				["overall"] = {
-				},
-			},
-			["Cloudcoastin"] = {
+			["Kesak-Lightbringer"] = {
 				["deaths"] = {
 				},
 				["class"] = "SHAMAN",
-				["name"] = "Cloudcoastin",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Algozen"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Algozen",
+			},
+			["Superc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Superc-Lightbringer",
 				["overall"] = {
 				},
 			},
 			["Havnot-Stormrage"] = {
-				["deaths"] = {
-				},
 				["class"] = "DEMONHUNTER",
-				["name"] = "Havnot-Stormrage",
-				["overall"] = {
-				},
-			},
-			["Greenbar-Malygos"] = {
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Greenbar-Malygos",
+				["name"] = "Havnot-Stormrage",
 			},
 		},
+		["diff"] = 15,
+	},
+	["219515"] = {
+		["hash"] = "219515",
+		["type"] = "deaths",
+		["name"] = "Zul",
+		["id"] = 2195,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "Uldir",
+			["id"] = 2145,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Zul",
+			["diff"] = 15,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Zul",
+		},
+		["player_db"] = {
+			["Eldodin-KhazModan"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+			},
+			["Murtag-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Murtag-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+			},
+			["Voinic-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Voinic-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+			},
+			["Superc-Lightbringer"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Superc-Lightbringer",
+			},
+			["Unshocked-Proudmoore"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Unshocked-Proudmoore",
+			},
+			["Êlwen-KhazModan"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Sheilyana-Sargeras"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+			},
+			["Asahina-Lightbringer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+			},
+			["Marksopp-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Marksopp-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Kahoots-Proudmoore",
+				["overall"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["234215"] = {
+		["hash"] = "234215",
+		["type"] = "deaths",
+		["name"] = "Opulence",
+		["id"] = 2342,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -4471,15 +4174,478 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1176,
 			["encounter"] = "Opulence",
 		},
+		["player_db"] = {
+			["Foxpaw"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Foxpaw",
+			},
+			["Newc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Newc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nanaeve-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Unshocked-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Êlwen-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Sheilyana-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Jests"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Jests",
+				["overall"] = {
+				},
+			},
+			["Nathadon-Malygos"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Nathadon-Malygos",
+				["overall"] = {
+				},
+			},
+			["Taegas"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Taegas",
+			},
+			["Frippouille"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Frippouille",
+			},
+			["Mallusof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mallusof",
+				["overall"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Eldodin-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Hubbletotem"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Hubbletotem",
+			},
+			["Sorshia"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sorshia",
+			},
+			["Superc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Superc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Elidellx"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Elidellx",
+			},
+			["Goshogun"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Goshogun",
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Greenbar-Malygos"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Greenbar-Malygos",
+				["overall"] = {
+				},
+			},
+			["Inevitabits"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Inevitabits",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Irith"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Irith",
+			},
+			["Bannanas"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bannanas",
+			},
+			["Ryad-Terenas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Ryad-Terenas",
+				["overall"] = {
+				},
+			},
+			["Lucithy-SilverHand"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Lucithy-SilverHand",
+				["overall"] = {
+				},
+			},
+			["Older"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Older",
+			},
+			["Popmybubbles-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Popmybubbles-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jhasu-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Nalora"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nalora",
+				["overall"] = {
+				},
+			},
+			["Thornstaad"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Thornstaad",
+				["overall"] = {
+				},
+			},
+			["Cloudcoastin"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cloudcoastin",
+			},
+			["Havnot-Stormrage"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Havnot-Stormrage",
+			},
+			["Atag"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Atag",
+			},
+		},
 		["diff"] = 15,
 	},
-	["233515"] = {
-		["hash"] = "233515",
+	["219415"] = {
+		["hash"] = "219415",
 		["type"] = "deaths",
-		["name"] = "King Rastakhan",
-		["id"] = 2335,
-		["diff"] = 15,
+		["name"] = "Mythrax",
+		["id"] = 2194,
 		["player_db"] = {
+			["Newc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Newc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nanaeve-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Voinic-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Superc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Superc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Unshocked-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Êlwen-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Sheilyana-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Asahina-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Murtag-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Kholvinski-EmeraldDream",
+				["overall"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Kalithumos-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+			},
+			["Jhasu-Lightbringer"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+			},
+			["Kesak-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Kesak-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Mallusof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mallusof",
+				["overall"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mistaaytch-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Kaligon-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kaligon-Tichondrius",
+			},
+			["Eldodin-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Eldodin-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Kahoots-Proudmoore",
+				["overall"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "Uldir",
+			["id"] = 2135,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Mythrax",
+			["diff"] = 15,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Mythrax",
+		},
+		["diff"] = 15,
+	},
+	["219414"] = {
+		["hash"] = "219414",
+		["type"] = "deaths",
+		["name"] = "Mythrax",
+		["id"] = 2194,
+		["diff"] = 14,
+		["player_db"] = {
+			["Kholvinski-EmeraldDream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kholvinski-EmeraldDream",
+				["class"] = "HUNTER",
+			},
 			["Mistaaytch-Lightbringer"] = {
 				["overall"] = {
 				},
@@ -4487,14 +4653,6 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Mistaaytch-Lightbringer",
 				["class"] = "DRUID",
-			},
-			["Newc-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
 			},
 			["Jhasu-Lightbringer"] = {
 				["overall"] = {
@@ -4504,13 +4662,21 @@ DeathGraphsDBDeaths = {
 				["name"] = "Jhasu-Lightbringer",
 				["class"] = "SHAMAN",
 			},
-			["Eldodin-KhazModan"] = {
+			["Voinic-Lightbringer"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
+				["name"] = "Voinic-Lightbringer",
+				["class"] = "PALADIN",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["name"] = "Nanaeve-Lightbringer",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Kesak-Lightbringer"] = {
 				["overall"] = {
@@ -4520,45 +4686,13 @@ DeathGraphsDBDeaths = {
 				["name"] = "Kesak-Lightbringer",
 				["class"] = "SHAMAN",
 			},
-			["Ryad-Terenas"] = {
+			["Kalithumos-Tichondrius"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Ryad-Terenas",
-				["class"] = "DRUID",
-			},
-			["Azsharys-SilverHand"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Azsharys-SilverHand",
-				["class"] = "DRUID",
-			},
-			["Unshocked-Proudmoore"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Unshocked-Proudmoore",
-				["class"] = "SHAMAN",
-			},
-			["Êlwen-KhazModan"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Êlwen-KhazModan",
-				["class"] = "DEMONHUNTER",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-				["class"] = "DRUID",
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
 			},
 			["Mallusof"] = {
 				["overall"] = {
@@ -4584,42 +4718,23 @@ DeathGraphsDBDeaths = {
 				["name"] = "Asahina-Lightbringer",
 				["class"] = "MAGE",
 			},
-			["Marksopp-Lightbringer"] = {
+			["Murtag-Sargeras"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
 			},
-			["Kalithumos-Tichondrius"] = {
+			["Kahoots-Proudmoore"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2272,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "King Rastakhan",
-			["encounter"] = "King Rastakhan",
-			["ej_instance_id"] = 1176,
-			["diff"] = 15,
-		},
-	},
-	["219414"] = {
-		["hash"] = "219414",
-		["type"] = "deaths",
-		["name"] = "Mythrax",
-		["id"] = 2194,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 7,
@@ -4632,204 +4747,105 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1031,
 			["diff"] = 14,
 		},
+	},
+	["214615"] = {
+		["hash"] = "214615",
+		["type"] = "deaths",
+		["name"] = "Fetid Devourer",
+		["id"] = 2146,
+		["diff"] = 15,
 		["player_db"] = {
-			["Kholvinski-EmeraldDream"] = {
-				["name"] = "Kholvinski-EmeraldDream",
-				["class"] = "HUNTER",
+			["Watchmecrit-Deathwing"] = {
+				["name"] = "Watchmecrit-Deathwing",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Newc-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+			},
+			["Unshocked-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Unshocked-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Holydemon-ShatteredHalls"] = {
+				["name"] = "Holydemon-ShatteredHalls",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Drchiro-Kilrogg"] = {
+				["name"] = "Drchiro-Kilrogg",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Stabu-Ner'zhul"] = {
+				["name"] = "Stabu-Ner'zhul",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Marksopp-Lightbringer",
+				["overall"] = {
+				},
+			},
+			["Pumbalee-Ner'zhul"] = {
+				["name"] = "Pumbalee-Ner'zhul",
+				["class"] = "WARRIOR",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
 			},
 			["Mistaaytch-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
 				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["name"] = "Voinic-Lightbringer",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nanaeve-Lightbringer",
-				["class"] = "DRUID",
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 		},
-	},
-	["216816"] = {
-		["hash"] = "216816",
-		["type"] = "deaths",
-		["name"] = "Taloc",
-		["id"] = 2168,
-		["diff"] = 16,
 		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 1,
+			["diff_string"] = "Heroic",
+			["index"] = 3,
 			["zone"] = "Uldir",
-			["id"] = 2144,
+			["id"] = 2128,
 			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Taloc",
-			["encounter"] = "Taloc",
+			["name"] = "Fetid Devourer",
 			["ej_instance_id"] = 1031,
-			["diff"] = 16,
-		},
-		["player_db"] = {
-			["Archelous-Sargeras"] = {
-				["name"] = "Archelous-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Taïndra-Sargeras"] = {
-				["name"] = "Taïndra-Sargeras",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Regressiøn-Sargeras"] = {
-				["name"] = "Regressiøn-Sargeras",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Magedps-Sargeras"] = {
-				["name"] = "Magedps-Sargeras",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Divshift-Sargeras"] = {
-				["name"] = "Divshift-Sargeras",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sánctjud-Stormrage"] = {
-				["name"] = "Sánctjud-Stormrage",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nicokororo-Frostmourne"] = {
-				["name"] = "Nicokororo-Frostmourne",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lejoker-EmeraldDream"] = {
-				["name"] = "Lejoker-EmeraldDream",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Haim-Frostmourne"] = {
-				["name"] = "Haim-Frostmourne",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Scoped-Kel'Thuzad"] = {
-				["name"] = "Scoped-Kel'Thuzad",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
+			["encounter"] = "Fetid Devourer",
+			["diff"] = 15,
 		},
 	},
 	["233014"] = {
@@ -4838,6 +4854,160 @@ DeathGraphsDBDeaths = {
 		["name"] = "Conclave of the Chosen",
 		["id"] = 2330,
 		["diff"] = 14,
+		["player_db"] = {
+			["Newc-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
+			},
+			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Lucithy-SilverHand"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Lucithy-SilverHand",
+				["overall"] = {
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Unshocked-Proudmoore",
+				["class"] = "SHAMAN",
+			},
+			["Azsharys-SilverHand"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Azsharys-SilverHand",
+				["class"] = "DRUID",
+			},
+			["Sheilyana-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Marksopp-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+			},
+			["Ryad-Terenas"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ryad-Terenas",
+			},
+			["Superc-Lightbringer"] = {
+				["name"] = "Superc-Lightbringer",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanaeve-Lightbringer",
+			},
+			["Meowtapes-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Meowtapes-Proudmoore",
+				["class"] = "PRIEST",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Mirwen-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mirwen-Lightbringer",
+				["class"] = "HUNTER",
+			},
+			["Êlwen-KhazModan"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
+			},
+			["Cassettes-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Cassettes-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -4850,160 +5020,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1176,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lucithy-SilverHand",
-			},
-			["Unshocked-Proudmoore"] = {
-				["name"] = "Unshocked-Proudmoore",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["name"] = "Azsharys-SilverHand",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ryad-Terenas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Ryad-Terenas",
-				["overall"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Superc-Lightbringer",
-				["class"] = "SHAMAN",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Nanaeve-Lightbringer",
-				["overall"] = {
-				},
-			},
-			["Meowtapes-Proudmoore"] = {
-				["name"] = "Meowtapes-Proudmoore",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mirwen-Lightbringer"] = {
-				["name"] = "Mirwen-Lightbringer",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Êlwen-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Cassettes-Proudmoore"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Cassettes-Proudmoore",
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["216614"] = {
 		["hash"] = "216614",
@@ -5011,6 +5027,80 @@ DeathGraphsDBDeaths = {
 		["name"] = "Vectis",
 		["id"] = 2166,
 		["diff"] = 14,
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mistaaytch-Lightbringer",
+				["class"] = "DRUID",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Jhasu-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jhasu-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+			["Marksopp-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Marksopp-Lightbringer",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Sheilyana-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sheilyana-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Asahina-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Asahina-Lightbringer",
+				["class"] = "MAGE",
+			},
+			["Murtag-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murtag-Sargeras",
+				["class"] = "WARRIOR",
+			},
+			["Kahoots-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kahoots-Proudmoore",
+				["class"] = "WARLOCK",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -5023,54 +5113,53 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1031,
 			["diff"] = 14,
 		},
+	},
+	["234214"] = {
+		["hash"] = "234214",
+		["type"] = "deaths",
+		["name"] = "Opulence",
+		["id"] = 2342,
+		["diff"] = 14,
 		["player_db"] = {
+			["Unshocked-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Unshocked-Proudmoore",
+				["class"] = "SHAMAN",
+			},
+			["Êlwen-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Êlwen-KhazModan",
+				["class"] = "DEMONHUNTER",
+			},
 			["Mistaaytch-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Mistaaytch-Lightbringer",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
-			["Kalithumos-Tichondrius"] = {
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
+			["Mirwen-Lightbringer"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Mirwen-Lightbringer",
+				["class"] = "HUNTER",
 			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
+			["Newc-Lightbringer"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["name"] = "Jhasu-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["name"] = "Marksopp-Lightbringer",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["name"] = "Sheilyana-Sargeras",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
+				["name"] = "Newc-Lightbringer",
+				["class"] = "DEMONHUNTER",
 			},
 			["Asahina-Lightbringer"] = {
 				["name"] = "Asahina-Lightbringer",
@@ -5080,30 +5169,23 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Murtag-Sargeras"] = {
-				["name"] = "Murtag-Sargeras",
-				["class"] = "WARRIOR",
+			["Eldodin-KhazModan"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["name"] = "Kahoots-Proudmoore",
+				["name"] = "Eldodin-KhazModan",
 				["class"] = "WARLOCK",
+			},
+			["Superc-Lightbringer"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Superc-Lightbringer",
+				["class"] = "SHAMAN",
 			},
 		},
-	},
-	["234214"] = {
-		["hash"] = "234214",
-		["type"] = "deaths",
-		["name"] = "Opulence",
-		["id"] = 2342,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -5116,72 +5198,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1176,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Unshocked-Proudmoore"] = {
-				["name"] = "Unshocked-Proudmoore",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["name"] = "Êlwen-KhazModan",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["name"] = "Mistaaytch-Lightbringer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mirwen-Lightbringer"] = {
-				["name"] = "Mirwen-Lightbringer",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["name"] = "Newc-Lightbringer",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Asahina-Lightbringer",
-				["class"] = "MAGE",
-			},
-			["Eldodin-KhazModan"] = {
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["name"] = "Superc-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -5191,18 +5207,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "G'huun",
 		["id"] = 2147,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 8,
-			["zone"] = "Uldir",
-			["id"] = 2122,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "G'huun",
-			["encounter"] = "G'huun",
-			["ej_instance_id"] = 1031,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Kholvinski-EmeraldDream"] = {
 				["encounters"] = 5,
@@ -5452,12 +5456,36 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 8,
+			["zone"] = "Uldir",
+			["id"] = 2122,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "G'huun",
+			["encounter"] = "G'huun",
+			["ej_instance_id"] = 1031,
+			["diff"] = 14,
+		},
 	},
 	["233714"] = {
 		["hash"] = "233714",
 		["type"] = "endurance",
 		["name"] = "Stormwall Blockade",
 		["id"] = 2337,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 8,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2280,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Stormwall Blockade",
+			["diff"] = 14,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Stormwall Blockade",
+		},
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
 				["encounters"] = 7,
@@ -5712,18 +5740,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 8,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2280,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Stormwall Blockade",
-			["diff"] = 14,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Stormwall Blockade",
-		},
 		["diff"] = 14,
 	},
 	["216716"] = {
@@ -5732,17 +5748,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "MOTHER",
 		["id"] = 2167,
 		["diff"] = 16,
-		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 2,
-			["zone"] = "Uldir",
-			["id"] = 2141,
-			["mapid"] = 1861,
-			["name"] = "MOTHER",
-			["ej_instance_id"] = 1031,
-			["encounter"] = "MOTHER",
-			["diff"] = 16,
-		},
 		["player_db"] = {
 			["Onick-LaughingSkull"] = {
 				["encounters"] = 13,
@@ -6101,6 +6106,17 @@ DeathGraphsDBEndurance = {
 				["class"] = "DRUID",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 2,
+			["zone"] = "Uldir",
+			["id"] = 2141,
+			["mapid"] = 1861,
+			["name"] = "MOTHER",
+			["ej_instance_id"] = 1031,
+			["encounter"] = "MOTHER",
+			["diff"] = 16,
+		},
 	},
 	["216714"] = {
 		["hash"] = "216714",
@@ -6108,19 +6124,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "MOTHER",
 		["id"] = 2167,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "Uldir",
-			["encounter"] = "MOTHER",
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "MOTHER",
-			["diff"] = 14,
-			["id"] = 2141,
-			["ej_instance_id"] = 1031,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 2,
@@ -6245,6 +6248,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "Uldir",
+			["encounter"] = "MOTHER",
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "MOTHER",
+			["diff"] = 14,
+			["id"] = 2141,
+			["ej_instance_id"] = 1031,
+			["killed"] = true,
+		},
 	},
 	["233414"] = {
 		["hash"] = "233414",
@@ -6252,18 +6268,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Mekkatorque",
 		["id"] = 2334,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2276,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Mekkatorque",
-			["encounter"] = "Mekkatorque",
-			["ej_instance_id"] = 1176,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 8,
@@ -6447,6 +6451,18 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
+			["Mallusof"] = {
+				["encounters"] = 8,
+				["points"] = 790,
+				["deaths"] = {
+					{
+						3, -- [1]
+						185.848, -- [2]
+						"Spark Volley |cFFFF333315,489|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+			},
 			["Mirwen-Lightbringer"] = {
 				["encounters"] = 7,
 				["points"] = 660,
@@ -6473,18 +6489,6 @@ DeathGraphsDBEndurance = {
 					}, -- [4]
 				},
 				["class"] = "HUNTER",
-			},
-			["Mallusof"] = {
-				["encounters"] = 8,
-				["points"] = 790,
-				["deaths"] = {
-					{
-						3, -- [1]
-						185.848, -- [2]
-						"Spark Volley |cFFFF333315,489|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
 			},
 			["Meowtapes-Proudmoore"] = {
 				["encounters"] = 7,
@@ -6518,6 +6522,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2276,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Mekkatorque",
+			["encounter"] = "Mekkatorque",
+			["ej_instance_id"] = 1176,
+			["diff"] = 14,
+		},
 	},
 	["233314"] = {
 		["hash"] = "233314",
@@ -6525,18 +6541,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Champion of the Light",
 		["id"] = 2333,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2265,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Champion of the Light",
-			["encounter"] = "Champion of the Light",
-			["ej_instance_id"] = 1176,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 11,
@@ -6778,43 +6782,59 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
-	},
-	["214615"] = {
-		["hash"] = "214615",
-		["type"] = "endurance",
-		["name"] = "Fetid Devourer",
-		["id"] = 2146,
-		["diff"] = 15,
 		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Uldir",
-			["id"] = 2128,
-			["mapid"] = 1861,
-			["name"] = "Fetid Devourer",
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Fetid Devourer",
-			["diff"] = 15,
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2265,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Champion of the Light",
+			["encounter"] = "Champion of the Light",
+			["ej_instance_id"] = 1176,
+			["diff"] = 14,
 		},
+	},
+	["233514"] = {
+		["hash"] = "233514",
+		["type"] = "endurance",
+		["name"] = "King Rastakhan",
+		["id"] = 2335,
+		["diff"] = 14,
 		["player_db"] = {
-			["Newc-Lightbringer"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 570,
+				["deaths"] = {
+					{
+						1, -- [1]
+						116.733, -- [2]
+						"Deathly Withering |cFFFF333336,284|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						291.463, -- [2]
+						"Dread Reaping (DoT) |cFFFF333330,984|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						261.164000000001, -- [2]
+						"Withering Burst |cFFFF33333,199|r", -- [3]
+					}, -- [3]
+				},
+				["class"] = "DRUID",
+			},
+			["Jhasu-Lightbringer"] = {
 				["encounters"] = 7,
 				["points"] = 690,
 				["deaths"] = {
 					{
-						4, -- [1]
-						143.500999999931, -- [2]
-						"Terrible Thrash |cFFFF3333113,573|r", -- [3]
+						2, -- [1]
+						305.93, -- [2]
+						"Deathly Withering |cFFFF333317,221|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Merricat-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
+				["class"] = "SHAMAN",
 			},
 			["Kesak-Lightbringer"] = {
 				["encounters"] = 7,
@@ -6823,74 +6843,201 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Unshocked-Proudmoore"] = {
-				["encounters"] = 6,
-				["points"] = 590,
+			["Superc-Lightbringer"] = {
+				["encounters"] = 7,
+				["points"] = 690,
 				["deaths"] = {
 					{
-						2, -- [1]
-						104.739000000001, -- [2]
-						"Rotting Regurgitation |cFFFF3333109,528|r", -- [3]
+						1, -- [1]
+						172.93, -- [2]
+						"Plague of Fire |cFFFF333318,882|r", -- [3]
 					}, -- [1]
 				},
 				["class"] = "SHAMAN",
 			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Unshocked-Proudmoore"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["deaths"] = {
+					{
+						3, -- [1]
+						218.698, -- [2]
+						"Plague of Fire |cFFFF333322,017|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Meowtapes-Proudmoore"] = {
+				["encounters"] = 4,
+				["points"] = 400,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "PRIEST",
 			},
 			["Sheilyana-Sargeras"] = {
-				["encounters"] = 6,
-				["points"] = 600,
+				["encounters"] = 5,
+				["points"] = 490,
 				["deaths"] = {
+					{
+						1, -- [1]
+						118.715999999999, -- [2]
+						"Deathly Withering |cFFFF33337,471|r", -- [3]
+					}, -- [1]
 				},
 				["class"] = "WARRIOR",
 			},
 			["Asahina-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 500,
+				["encounters"] = 4,
+				["points"] = 400,
 				["deaths"] = {
 				},
 				["class"] = "MAGE",
 			},
 			["Marksopp-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 490,
+				["encounters"] = 8,
+				["points"] = 760,
 				["deaths"] = {
 					{
-						2, -- [1]
-						123.190000000002, -- [2]
-						"Melee |cFFFF333346,201|r", -- [3]
+						1, -- [1]
+						258.065, -- [2]
+						"Melee |cFFFF333330,161|r", -- [3]
 					}, -- [1]
+					{
+						1, -- [1]
+						56.0449999999837, -- [2]
+						"Crushing Leap |cFFFF3333325,741|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						194.652999999991, -- [2]
+						"Deathly Withering |cFFFF333334,907|r", -- [3]
+					}, -- [3]
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Holydemon-ShatteredHalls"] = {
-				["encounters"] = 1,
-				["points"] = 90,
+			["Kholvinski-EmeraldDream"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 7,
+				["points"] = 690,
 				["deaths"] = {
 					{
-						2, -- [1]
-						141.996000000043, -- [2]
-						"Terrible Thrash |cFFFF3333299,775|r", -- [3]
+						1, -- [1]
+						212.728999999999, -- [2]
+						"Dread Reaping (DoT) |cFFFF33335,138|r", -- [3]
 					}, -- [1]
 				},
 				["class"] = "PALADIN",
 			},
+			["Azsharys-SilverHand"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["deaths"] = {
+					{
+						2, -- [1]
+						296.896999999999, -- [2]
+						"Deathly Withering |cFFFF333323,302|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Cassettes-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Ryad-Terenas"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["deaths"] = {
+					{
+						1, -- [1]
+						234.412, -- [2]
+						"Deathly Withering (DoT) |cFFFF333324,874|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Lucithy-SilverHand"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						234.749, -- [2]
+						"Withering Burst |cFFFF33336,125|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Mirwen-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["deaths"] = {
+					{
+						3, -- [1]
+						218.698, -- [2]
+						"Plague of Fire |cFFFF333325,002|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "HUNTER",
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
 			["Mallusof"] = {
-				["encounters"] = 8,
-				["points"] = 800,
+				["encounters"] = 7,
+				["points"] = 700,
 				["deaths"] = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 7,
-				["points"] = 700,
+			["Newc-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 590,
 				["deaths"] = {
+					{
+						1, -- [1]
+						329.714, -- [2]
+						"Scorching Detonation |cFFFF333324,557|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Kaligon-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["deaths"] = {
+					{
+						1, -- [1]
+						103.75, -- [2]
+						"Burning Rush |cFFFF33336,405|r", -- [3]
+					}, -- [1]
 				},
 				["class"] = "WARLOCK",
 			},
@@ -6901,187 +7048,18 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["deaths"] = {
-					{
-						3, -- [1]
-						123.088000000003, -- [2]
-						"Putrid Paroxysm (DoT) |cFFFF333361,614|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Stabu-Ner'zhul"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						2, -- [1]
-						201.503000000026, -- [2]
-						"Terrible Thrash |cFFFF3333341,243|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "ROGUE",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Superc-Lightbringer"] = {
-				["encounters"] = 6,
-				["points"] = 600,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Baskîn-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Drchiro-Kilrogg"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Zimmer-Kalecgos"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Watchmecrit-Deathwing"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Jorahx-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Pumbalee-Ner'zhul"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						2, -- [1]
-						189.638000000035, -- [2]
-						"Rotting Regurgitation |cFFFF3333111,982|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARRIOR",
-			},
-			["Kaligon-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Jinto-Khaz'goroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Evinè-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Karakazul-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["deaths"] = {
-					{
-						3, -- [1]
-						132.409, -- [2]
-						"Rotting Regurgitation |cFFFF333390,806|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Bigburt-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Tyrionlan-Ner'zhul"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Curaga-Kalecgos"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Arborvitae-Kalecgos"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2272,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "King Rastakhan",
+			["encounter"] = "King Rastakhan",
+			["ej_instance_id"] = 1176,
+			["diff"] = 14,
 		},
 	},
 	["214715"] = {
@@ -7089,6 +7067,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "G'huun",
 		["id"] = 2147,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 8,
+			["zone"] = "Uldir",
+			["id"] = 2122,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "G'huun",
+			["diff"] = 15,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "G'huun",
+		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 23,
@@ -7452,13 +7442,6 @@ DeathGraphsDBEndurance = {
 					}, -- [3]
 				},
 			},
-			["Mallusof"] = {
-				["encounters"] = 23,
-				["points"] = 2300,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
 			["Jorahx-MoonGuard"] = {
 				["encounters"] = 7,
 				["points"] = 680,
@@ -7474,6 +7457,13 @@ DeathGraphsDBEndurance = {
 						339.620999999985, -- [2]
 						"Blighted Ground (DoT) |cFFFF33338,561|r", -- [3]
 					}, -- [2]
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 23,
+				["points"] = 2300,
+				["class"] = "PRIEST",
+				["deaths"] = {
 				},
 			},
 			["Murtag-Sargeras"] = {
@@ -7570,18 +7560,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 8,
-			["zone"] = "Uldir",
-			["id"] = 2122,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "G'huun",
-			["diff"] = 15,
-			["ej_instance_id"] = 1031,
-			["encounter"] = "G'huun",
-		},
 		["diff"] = 15,
 	},
 	["219514"] = {
@@ -7590,24 +7568,13 @@ DeathGraphsDBEndurance = {
 		["name"] = "Zul",
 		["id"] = 2195,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "Uldir",
-			["id"] = 2145,
-			["mapid"] = 1861,
-			["name"] = "Zul",
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Zul",
-			["diff"] = 14,
-		},
 		["player_db"] = {
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 5,
+				["points"] = 500,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "WARLOCK",
 			},
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 5,
@@ -7623,12 +7590,22 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Eldodin-KhazModan"] = {
+			["Murtag-Sargeras"] = {
 				["encounters"] = 5,
-				["points"] = 500,
+				["points"] = 480,
 				["deaths"] = {
+					{
+						2, -- [1]
+						14.4960000000001, -- [2]
+						"Bloody Cleave |cFFFF333327,300|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						221.299, -- [2]
+						"Environment (Falling) |cFFFF333397,926|r", -- [3]
+					}, -- [2]
 				},
-				["class"] = "WARLOCK",
+				["class"] = "WARRIOR",
 			},
 			["Kesak-Lightbringer"] = {
 				["encounters"] = 6,
@@ -7728,22 +7705,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 5,
-				["points"] = 480,
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
-					{
-						2, -- [1]
-						14.4960000000001, -- [2]
-						"Bloody Cleave |cFFFF333327,300|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						221.299, -- [2]
-						"Environment (Falling) |cFFFF333397,926|r", -- [3]
-					}, -- [2]
 				},
-				["class"] = "WARRIOR",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Kahoots-Proudmoore"] = {
 				["encounters"] = 6,
@@ -7763,272 +7730,192 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
-	},
-	["233514"] = {
-		["hash"] = "233514",
-		["type"] = "endurance",
-		["name"] = "King Rastakhan",
-		["id"] = 2335,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2272,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "King Rastakhan",
-			["encounter"] = "King Rastakhan",
-			["ej_instance_id"] = 1176,
+			["zone"] = "Uldir",
+			["id"] = 2145,
+			["mapid"] = 1861,
+			["name"] = "Zul",
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Zul",
 			["diff"] = 14,
 		},
+	},
+	["216816"] = {
+		["hash"] = "216816",
+		["type"] = "endurance",
+		["name"] = "Taloc",
+		["id"] = 2168,
+		["diff"] = 16,
 		["player_db"] = {
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 6,
-				["points"] = 570,
-				["deaths"] = {
-					{
-						1, -- [1]
-						116.733, -- [2]
-						"Deathly Withering |cFFFF333336,284|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						291.463, -- [2]
-						"Dread Reaping (DoT) |cFFFF333330,984|r", -- [3]
-					}, -- [2]
-					{
-						3, -- [1]
-						261.164000000001, -- [2]
-						"Withering Burst |cFFFF33333,199|r", -- [3]
-					}, -- [3]
-				},
-				["class"] = "DRUID",
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["deaths"] = {
-					{
-						2, -- [1]
-						305.93, -- [2]
-						"Deathly Withering |cFFFF333317,221|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 7,
-				["points"] = 700,
+			["Onick-LaughingSkull"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Superc-Lightbringer"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["deaths"] = {
-					{
-						1, -- [1]
-						172.93, -- [2]
-						"Plague of Fire |cFFFF333318,882|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Unshocked-Proudmoore"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["deaths"] = {
-					{
-						3, -- [1]
-						218.698, -- [2]
-						"Plague of Fire |cFFFF333322,017|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Meowtapes-Proudmoore"] = {
-				["encounters"] = 4,
-				["points"] = 400,
+			["Bellåtrïx-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+				["class"] = "DEMONHUNTER",
 			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 5,
-				["points"] = 490,
+			["Archelous-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
-					{
-						1, -- [1]
-						118.715999999999, -- [2]
-						"Deathly Withering |cFFFF33337,471|r", -- [3]
-					}, -- [1]
 				},
 				["class"] = "WARRIOR",
 			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
+			["Prohibits"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 8,
-				["points"] = 760,
-				["deaths"] = {
-					{
-						1, -- [1]
-						258.065, -- [2]
-						"Melee |cFFFF333330,161|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						56.0449999999837, -- [2]
-						"Crushing Leap |cFFFF3333325,741|r", -- [3]
-					}, -- [2]
-					{
-						1, -- [1]
-						194.652999999991, -- [2]
-						"Deathly Withering |cFFFF333334,907|r", -- [3]
-					}, -- [3]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["deaths"] = {
-					{
-						1, -- [1]
-						212.728999999999, -- [2]
-						"Dread Reaping (DoT) |cFFFF33335,138|r", -- [3]
-					}, -- [1]
 				},
 				["class"] = "PALADIN",
 			},
-			["Azsharys-SilverHand"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["deaths"] = {
-					{
-						2, -- [1]
-						296.896999999999, -- [2]
-						"Deathly Withering |cFFFF333323,302|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Cassettes-Proudmoore"] = {
+			["Magedps-Sargeras"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
-			["Ryad-Terenas"] = {
-				["encounters"] = 7,
-				["points"] = 690,
+			["Angeliawell-EmeraldDream"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Lickmybalo-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Scoped-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 190,
 				["deaths"] = {
 					{
 						1, -- [1]
-						234.412, -- [2]
-						"Deathly Withering (DoT) |cFFFF333324,874|r", -- [3]
+						30.1959999999999, -- [2]
+						"Enlarged Heart |cFFFF3333188,773|r", -- [3]
 					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						1, -- [1]
-						234.749, -- [2]
-						"Withering Burst |cFFFF33336,125|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Mirwen-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						3, -- [1]
-						218.698, -- [2]
-						"Plague of Fire |cFFFF333325,002|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["deaths"] = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
+			["Nymzy-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Haim-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Taïndra-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Regressiøn-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Shandwynn-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Sánctjud-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						47.5740000000005, -- [2]
+						"Blood Storm (DoT) |cFFFF333314,438|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Lejoker-EmeraldDream"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
 			["Mallusof"] = {
-				["encounters"] = 7,
-				["points"] = 700,
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Newc-Lightbringer"] = {
-				["encounters"] = 6,
-				["points"] = 590,
+			["Divshift-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 190,
 				["deaths"] = {
 					{
 						1, -- [1]
-						329.714, -- [2]
-						"Scorching Detonation |cFFFF333324,557|r", -- [3]
+						41.9110000000001, -- [2]
+						"Cudgel of Gore |cFFFF3333105,096|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "DRUID",
 			},
-			["Kaligon-Tichondrius"] = {
+			["Nicokororo-Frostmourne"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "SHAMAN",
 			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 6,
-				["points"] = 590,
-				["deaths"] = {
-					{
-						1, -- [1]
-						103.75, -- [2]
-						"Burning Rush |cFFFF33336,405|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 6,
-				["points"] = 600,
+			["Unstopawble-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
+				["class"] = "DRUID",
 			},
+			["Enigmatic-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 1,
+			["zone"] = "Uldir",
+			["id"] = 2144,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Taloc",
+			["encounter"] = "Taloc",
+			["ej_instance_id"] = 1031,
+			["diff"] = 16,
 		},
 	},
 	["216715"] = {
@@ -8037,18 +7924,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "MOTHER",
 		["id"] = 2167,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "Uldir",
-			["id"] = 2141,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "MOTHER",
-			["encounter"] = "MOTHER",
-			["ej_instance_id"] = 1031,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
 				["encounters"] = 8,
@@ -8408,6 +8283,514 @@ DeathGraphsDBEndurance = {
 				["class"] = "SHAMAN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "Uldir",
+			["id"] = 2141,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "MOTHER",
+			["encounter"] = "MOTHER",
+			["ej_instance_id"] = 1031,
+			["diff"] = 15,
+		},
+	},
+	["234314"] = {
+		["hash"] = "234314",
+		["type"] = "endurance",
+		["name"] = "Lady Jaina Proudmoore",
+		["id"] = 2343,
+		["player_db"] = {
+			["Foxpaw"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						5, -- [1]
+						480.209999999999, -- [2]
+						"Glacial Ray |cFFFF333323,615|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Dobiae"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Inevitabits"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						158.631999999998, -- [2]
+						"", -- [3]
+					}, -- [1]
+				},
+			},
+			["Bannanas"] = {
+				["encounters"] = 7,
+				["points"] = 680,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						198.779999999999, -- [2]
+						"Blistering Tornado |cFFFF333356,829|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						320.228999999999, -- [2]
+						"Glacial Ray |cFFFF333324,803|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 4,
+				["points"] = 360,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						240.994000000064, -- [2]
+						"Frozen Solid |cFFFF33332,066|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						510.738999999943, -- [2]
+						"Glacial Ray |cFFFF3333392|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						437.886999999988, -- [2]
+						"Shattering Lance |cFFFF333312,277|r", -- [3]
+					}, -- [3]
+					{
+						4, -- [1]
+						524.639999999898, -- [2]
+						"Ice Shard |cFFFF333362,385|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Míra"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Naturesight-BoreanTundra"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Xsesive"] = {
+				["encounters"] = 7,
+				["points"] = 680,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						208.346999999994, -- [2]
+						"Chilling Touch |cFFFF33331,841|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						190.148000000001, -- [2]
+						"Glacial Ray |cFFFF333327,080|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Jests"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Nathadon-Malygos"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Taegas"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Bulwarkbeard"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Frippouille"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 11,
+				["points"] = 1100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Celedhring"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						7, -- [1]
+						103.516000000003, -- [2]
+						"Freezing Blast |cFFFF333323,467|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						475.714000000036, -- [2]
+						"Frozen Solid |cFFFF33335,509|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jojomcblow-Malygos"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Sorshia"] = {
+				["encounters"] = 7,
+				["points"] = 680,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						190.663999999997, -- [2]
+						"Blistering Tornado |cFFFF333318,030|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						187.864000000001, -- [2]
+						"Chilling Touch (DoT) |cFFFF33331,352|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Superc-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 360,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						481.713000000105, -- [2]
+						"Frozen Solid |cFFFF3333107|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						508.260000000009, -- [2]
+						"Glacial Ray |cFFFF333323,661|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						437.886999999988, -- [2]
+						"Shattering Lance |cFFFF333318,914|r", -- [3]
+					}, -- [3]
+					{
+						4, -- [1]
+						480.084999999963, -- [2]
+						"Glacial Ray |cFFFF333327,182|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Elidellx"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						3, -- [1]
+						158.582000000002, -- [2]
+						"Chilling Touch (DoT) |cFFFF3333615|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Azsharys-SilverHand"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						509.812000000034, -- [2]
+						"Glacial Ray |cFFFF33334,223|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lucithy-SilverHand"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Jaira"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						4, -- [1]
+						126.315000000002, -- [2]
+						"Freezing Blast |cFFFF333351,311|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Goshogun"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Qitanya"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						6, -- [1]
+						184.313999999999, -- [2]
+						"Blistering Tornado |cFFFF333371,392|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Greenbar-Malygos"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						191.313999999999, -- [2]
+						"Broadside |cFFFF333361,556|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Coffeebean"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Irith"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						6, -- [1]
+						200.096999999994, -- [2]
+						"Glacial Ray |cFFFF333320,388|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Popmybubbles-Kel'Thuzad"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						162.415000000001, -- [2]
+						"Chilling Touch (DoT) |cFFFF3333620|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ryad-Terenas"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						433.917000000016, -- [2]
+						"Broadside |cFFFF333346,962|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Older"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						3, -- [1]
+						157.398999999998, -- [2]
+						"Searing Pitch (DoT) |cFFFF333318,250|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Atag"] = {
+				["encounters"] = 6,
+				["points"] = 570,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						5, -- [1]
+						110.232000000004, -- [2]
+						"Freezing Blast |cFFFF333342,807|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						175.596999999994, -- [2]
+						"Blistering Tornado |cFFFF333377,101|r", -- [3]
+					}, -- [2]
+					{
+						7, -- [1]
+						85.2830000000031, -- [2]
+						"Chilling Touch (DoT) |cFFFF3333578|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Thornstaad"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Nalora"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Cloudcoastin"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						198.563999999999, -- [2]
+						"Frozen Solid (DoT) |cFFFF3333840|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Algozen"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						7, -- [1]
+						120.865000000005, -- [2]
+						"Stagger |cFFFF33333,442|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Havnot-Stormrage"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 9,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2281,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Lady Jaina Proudmoore",
+			["diff"] = 14,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Lady Jaina Proudmoore",
+		},
+		["diff"] = 14,
 	},
 	["216615"] = {
 		["hash"] = "216615",
@@ -8415,18 +8798,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Vectis",
 		["id"] = 2166,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Uldir",
-			["id"] = 2134,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Vectis",
-			["encounter"] = "Vectis",
-			["ej_instance_id"] = 1031,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
 				["encounters"] = 10,
@@ -8791,520 +9162,24 @@ DeathGraphsDBEndurance = {
 				["class"] = "SHAMAN",
 			},
 		},
-	},
-	["234314"] = {
-		["hash"] = "234314",
-		["type"] = "endurance",
-		["name"] = "Lady Jaina Proudmoore",
-		["id"] = 2343,
 		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 9,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2281,
-			["mapid"] = 2070,
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Uldir",
+			["id"] = 2134,
+			["mapid"] = 1861,
 			["try_number"] = 1,
-			["name"] = "Lady Jaina Proudmoore",
-			["diff"] = 14,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Lady Jaina Proudmoore",
+			["name"] = "Vectis",
+			["encounter"] = "Vectis",
+			["ej_instance_id"] = 1031,
+			["diff"] = 15,
 		},
-		["player_db"] = {
-			["Foxpaw"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						5, -- [1]
-						480.209999999999, -- [2]
-						"Glacial Ray |cFFFF333323,615|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Dobiae"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Inevitabits"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						3, -- [1]
-						158.631999999998, -- [2]
-						"", -- [3]
-					}, -- [1]
-				},
-			},
-			["Bannanas"] = {
-				["encounters"] = 7,
-				["points"] = 680,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						198.779999999999, -- [2]
-						"Blistering Tornado |cFFFF333356,829|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						320.228999999999, -- [2]
-						"Glacial Ray |cFFFF333324,803|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 4,
-				["points"] = 360,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						240.994000000064, -- [2]
-						"Frozen Solid |cFFFF33332,066|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						510.738999999943, -- [2]
-						"Glacial Ray |cFFFF3333392|r", -- [3]
-					}, -- [2]
-					{
-						3, -- [1]
-						437.886999999988, -- [2]
-						"Shattering Lance |cFFFF333312,277|r", -- [3]
-					}, -- [3]
-					{
-						4, -- [1]
-						524.639999999898, -- [2]
-						"Ice Shard |cFFFF333362,385|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Míra"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Naturesight-BoreanTundra"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Xsesive"] = {
-				["encounters"] = 7,
-				["points"] = 680,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						208.346999999994, -- [2]
-						"Chilling Touch |cFFFF33331,841|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						190.148000000001, -- [2]
-						"Glacial Ray |cFFFF333327,080|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Jests"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Nathadon-Malygos"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Taegas"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Bulwarkbeard"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Frippouille"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["encounters"] = 11,
-				["points"] = 1100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Celedhring"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						7, -- [1]
-						103.516000000003, -- [2]
-						"Freezing Blast |cFFFF333323,467|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						475.714000000036, -- [2]
-						"Frozen Solid |cFFFF33335,509|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Jojomcblow-Malygos"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Sorshia"] = {
-				["encounters"] = 7,
-				["points"] = 680,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						190.663999999997, -- [2]
-						"Blistering Tornado |cFFFF333318,030|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						187.864000000001, -- [2]
-						"Chilling Touch (DoT) |cFFFF33331,352|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 360,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						481.713000000105, -- [2]
-						"Frozen Solid |cFFFF3333107|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						508.260000000009, -- [2]
-						"Glacial Ray |cFFFF333323,661|r", -- [3]
-					}, -- [2]
-					{
-						3, -- [1]
-						437.886999999988, -- [2]
-						"Shattering Lance |cFFFF333318,914|r", -- [3]
-					}, -- [3]
-					{
-						4, -- [1]
-						480.084999999963, -- [2]
-						"Glacial Ray |cFFFF333327,182|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Elidellx"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						3, -- [1]
-						158.582000000002, -- [2]
-						"Chilling Touch (DoT) |cFFFF3333615|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						2, -- [1]
-						509.812000000034, -- [2]
-						"Glacial Ray |cFFFF33334,223|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Jaira"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						4, -- [1]
-						126.315000000002, -- [2]
-						"Freezing Blast |cFFFF333351,311|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Goshogun"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Greenbar-Malygos"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						4, -- [1]
-						191.313999999999, -- [2]
-						"Broadside |cFFFF333361,556|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Coffeebean"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Qitanya"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						6, -- [1]
-						184.313999999999, -- [2]
-						"Blistering Tornado |cFFFF333371,392|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Irith"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						6, -- [1]
-						200.096999999994, -- [2]
-						"Glacial Ray |cFFFF333320,388|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Popmybubbles-Kel'Thuzad"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						162.415000000001, -- [2]
-						"Chilling Touch (DoT) |cFFFF3333620|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Ryad-Terenas"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						3, -- [1]
-						433.917000000016, -- [2]
-						"Broadside |cFFFF333346,962|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Thornstaad"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Atag"] = {
-				["encounters"] = 6,
-				["points"] = 570,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						5, -- [1]
-						110.232000000004, -- [2]
-						"Freezing Blast |cFFFF333342,807|r", -- [3]
-					}, -- [1]
-					{
-						6, -- [1]
-						175.596999999994, -- [2]
-						"Blistering Tornado |cFFFF333377,101|r", -- [3]
-					}, -- [2]
-					{
-						7, -- [1]
-						85.2830000000031, -- [2]
-						"Chilling Touch (DoT) |cFFFF3333578|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Older"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						3, -- [1]
-						157.398999999998, -- [2]
-						"Searing Pitch (DoT) |cFFFF333318,250|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Nalora"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Cloudcoastin"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						198.563999999999, -- [2]
-						"Frozen Solid (DoT) |cFFFF3333840|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Algozen"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						7, -- [1]
-						120.865000000005, -- [2]
-						"Stagger |cFFFF33333,442|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Havnot-Stormrage"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-		},
-		["diff"] = 14,
 	},
 	["216915"] = {
 		["hash"] = "216915",
 		["type"] = "endurance",
 		["name"] = "Zek'voz",
 		["id"] = 2169,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "Uldir",
-			["id"] = 2136,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Zek'voz",
-			["diff"] = 15,
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Zek'voz",
-		},
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
 				["encounters"] = 13,
@@ -9732,753 +9607,242 @@ DeathGraphsDBEndurance = {
 				["class"] = "SHAMAN",
 			},
 		},
-		["diff"] = 15,
-	},
-	["219415"] = {
-		["hash"] = "219415",
-		["type"] = "endurance",
-		["name"] = "Mythrax",
-		["id"] = 2194,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 7,
+			["index"] = 4,
 			["zone"] = "Uldir",
-			["id"] = 2135,
+			["id"] = 2136,
 			["mapid"] = 1861,
 			["try_number"] = 1,
-			["name"] = "Mythrax",
+			["name"] = "Zek'voz",
 			["diff"] = 15,
 			["ej_instance_id"] = 1031,
-			["encounter"] = "Mythrax",
-		},
-		["player_db"] = {
-			["Newc-Lightbringer"] = {
-				["encounters"] = 16,
-				["points"] = 1590,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						4, -- [1]
-						121.134000000078, -- [2]
-						"Annihilation |cFFFF33331,194|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 16,
-				["points"] = 1600,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 18,
-				["points"] = 1690,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						53.1879999999655, -- [2]
-						"Imminent Ruin |cFFFF333315,152|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						130.373000000021, -- [2]
-						"Crashing Oblivion |cFFFF333316,624|r", -- [3]
-					}, -- [2]
-					{
-						5, -- [1]
-						206.645000000019, -- [2]
-						"Obliteration Blast |cFFFF333317,449|r", -- [3]
-					}, -- [3]
-					{
-						6, -- [1]
-						64.7900000000373, -- [2]
-						"Crashing Oblivion |cFFFF333322,453|r", -- [3]
-					}, -- [4]
-					{
-						6, -- [1]
-						149.592999999994, -- [2]
-						"Obliteration Beam (DoT) |cFFFF33334,139|r", -- [3]
-					}, -- [5]
-					{
-						9, -- [1]
-						178.01800000004, -- [2]
-						"Mind Flay |cFFFF33334,979|r", -- [3]
-					}, -- [6]
-					{
-						10, -- [1]
-						275.277000000002, -- [2]
-						"Crashing Oblivion |cFFFF3333949|r", -- [3]
-					}, -- [7]
-					{
-						2, -- [1]
-						246.472000000009, -- [2]
-						"Obliteration Blast |cFFFF333345,899|r", -- [3]
-					}, -- [8]
-					{
-						2, -- [1]
-						255.444000000018, -- [2]
-						"Crashing Oblivion |cFFFF333320,190|r", -- [3]
-					}, -- [9]
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["encounters"] = 12,
-				["points"] = 1180,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						7, -- [1]
-						152.329999999958, -- [2]
-						"Void Volley |cFFFF333347,933|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						117.417999999991, -- [2]
-						"Obliteration Beam (DoT) |cFFFF333312,702|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["encounters"] = 12,
-				["points"] = 1190,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						9, -- [1]
-						224.58600000001, -- [2]
-						"Crashing Oblivion |cFFFF333318,642|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 15,
-				["points"] = 1480,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						6, -- [1]
-						149.457000000053, -- [2]
-						"Crashing Oblivion |cFFFF333319,157|r", -- [3]
-					}, -- [1]
-					{
-						7, -- [1]
-						108.414999999921, -- [2]
-						"Obliteration Blast |cFFFF333340,320|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 15,
-				["points"] = 1480,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						2, -- [1]
-						149.513999999996, -- [2]
-						"Melee |cFFFF333326,610|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						145.173999999999, -- [2]
-						"Melee |cFFFF333311,447|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 15,
-				["points"] = 1450,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						3, -- [1]
-						130.373000000021, -- [2]
-						"Crashing Oblivion |cFFFF333312,056|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						130.947000000044, -- [2]
-						"Obliteration Beam (DoT) |cFFFF33339,465|r", -- [3]
-					}, -- [2]
-					{
-						7, -- [1]
-						151.71100000001, -- [2]
-						"Void Volley |cFFFF333351,482|r", -- [3]
-					}, -- [3]
-					{
-						9, -- [1]
-						209.405000000028, -- [2]
-						"Mind Flay |cFFFF33334,015|r", -- [3]
-					}, -- [4]
-					{
-						1, -- [1]
-						136.857000000004, -- [2]
-						"Mind Flay |cFFFF33338,123|r", -- [3]
-					}, -- [5]
-				},
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 15,
-				["points"] = 1460,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						3, -- [1]
-						130.373000000021, -- [2]
-						"Crashing Oblivion |cFFFF333319,594|r", -- [3]
-					}, -- [1]
-					{
-						10, -- [1]
-						49.8689999999479, -- [2]
-						"Annihilation |cFFFF3333616|r", -- [3]
-					}, -- [2]
-					{
-						2, -- [1]
-						100.232999999993, -- [2]
-						"Crashing Oblivion |cFFFF333318,831|r", -- [3]
-					}, -- [3]
-					{
-						2, -- [1]
-						96.2909999999683, -- [2]
-						"Xalzaix's Awakening |cFFFF333321,988|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["encounters"] = 11,
-				["points"] = 1100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 16,
-				["points"] = 1590,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						8, -- [1]
-						144.782000000007, -- [2]
-						"Essence Shear |cFFFF333335,956|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 6,
-				["points"] = 600,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 6,
-				["points"] = 580,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						115.17300000001, -- [2]
-						"Melee |cFFFF333396,965|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						98.1199999999954, -- [2]
-						"Crashing Oblivion |cFFFF333318,883|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Evinè-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 11,
-				["points"] = 1090,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						33.1790000000037, -- [2]
-						"Obliteration Blast |cFFFF333340,752|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Mallusof"] = {
-				["encounters"] = 16,
-				["points"] = 1580,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						4, -- [1]
-						143.148999999976, -- [2]
-						"Mind Flay |cFFFF33334,566|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						151.923999999999, -- [2]
-						"Obliteration Beam (DoT) |cFFFF33333,678|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Jorahx-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 17,
-				["points"] = 1650,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						8, -- [1]
-						46.9419999999227, -- [2]
-						"Imminent Ruin |cFFFF333312,198|r", -- [3]
-					}, -- [1]
-					{
-						8, -- [1]
-						151.28899999999, -- [2]
-						"Melee |cFFFF333310,518|r", -- [3]
-					}, -- [2]
-					{
-						10, -- [1]
-						265.873000000021, -- [2]
-						"Melee |cFFFF333338,727|r", -- [3]
-					}, -- [3]
-					{
-						3, -- [1]
-						138.509999999995, -- [2]
-						"Obliteration Beam (DoT) |cFFFF33339,070|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						1, -- [1]
-						93.7880000000005, -- [2]
-						"Obliteration Blast |cFFFF333320,500|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 16,
-				["points"] = 1570,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						2, -- [1]
-						53.1879999999655, -- [2]
-						"Annihilation |cFFFF33331,365|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						206.415000000037, -- [2]
-						"Annihilation |cFFFF33331,364|r", -- [3]
-					}, -- [2]
-					{
-						1, -- [1]
-						326.220000000001, -- [2]
-						"Mind Flay |cFFFF33332,051|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 15,
-				["points"] = 1490,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						5, -- [1]
-						219.66100000008, -- [2]
-						"Imminent Ruin |cFFFF333314,842|r", -- [3]
-					}, -- [1]
-				},
-			},
+			["encounter"] = "Zek'voz",
 		},
 		["diff"] = 15,
 	},
-	["219515"] = {
-		["hash"] = "219515",
+	["233515"] = {
+		["hash"] = "233515",
 		["type"] = "endurance",
-		["name"] = "Zul",
-		["id"] = 2195,
+		["name"] = "King Rastakhan",
+		["id"] = 2335,
+		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2272,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "King Rastakhan",
+			["encounter"] = "King Rastakhan",
+			["ej_instance_id"] = 1176,
+			["diff"] = 15,
+		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 15,
-				["points"] = 1460,
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
 				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						2, -- [1]
-						221.950999999999, -- [2]
-						"Bloodshard |cFFFF333343,755|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						260.415999999968, -- [2]
-						"Rupturing Blood |cFFFF333360,541|r", -- [3]
-					}, -- [2]
-					{
-						1, -- [1]
-						238.816999999981, -- [2]
-						"Environment (Falling) |cFFFF333396,027|r", -- [3]
-					}, -- [3]
-					{
-						2, -- [1]
-						118.849999999977, -- [2]
-						"Environment (Falling) |cFFFF3333206,107|r", -- [3]
-					}, -- [4]
-				},
 			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 15,
-				["points"] = 1450,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						156.174999999999, -- [2]
-						"Absorbed in Darkness (DoT) |cFFFF333325,464|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						290.423999999999, -- [2]
-						"Environment (Falling) |cFFFF333386,370|r", -- [3]
-					}, -- [2]
-					{
-						6, -- [1]
-						314.036, -- [2]
-						"Corrupted Blood (DoT) |cFFFF33337,916|r", -- [3]
-					}, -- [3]
-					{
-						1, -- [1]
-						169.602000000072, -- [2]
-						"Bloodshard |cFFFF333335,555|r", -- [3]
-					}, -- [4]
-					{
-						2, -- [1]
-						297.435999999987, -- [2]
-						"Absorbed in Darkness (DoT) |cFFFF333310,012|r", -- [3]
-					}, -- [5]
-				},
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 12,
-				["points"] = 1200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["encounters"] = 14,
-				["points"] = 1390,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						163.169, -- [2]
-						"Dark Revelation |cFFFF333371,962|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["encounters"] = 14,
-				["points"] = 1400,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 14,
-				["points"] = 1380,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						39.6709999999985, -- [2]
-						"Dark Revelation |cFFFF333363,866|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						99.0509999999922, -- [2]
-						"Bloody Cleave |cFFFF333356,412|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 13,
-				["points"] = 1260,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						4, -- [1]
-						309.25, -- [2]
-						"Rupturing Blood |cFFFF333366,218|r", -- [3]
-					}, -- [1]
-					{
-						6, -- [1]
-						328.092000000001, -- [2]
-						"Corrupted Blood (DoT) |cFFFF33338,275|r", -- [3]
-					}, -- [2]
-					{
-						1, -- [1]
-						244.784999999974, -- [2]
-						"Rupturing Blood |cFFFF333330,028|r", -- [3]
-					}, -- [3]
-					{
-						2, -- [1]
-						194.704999999958, -- [2]
-						"Rupturing Blood |cFFFF333361,843|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 14,
-				["points"] = 1380,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						1, -- [1]
-						103.646999999999, -- [2]
-						"Dark Revelation |cFFFF333347,335|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						314.130999999999, -- [2]
-						"Deathwish |cFFFF333330,344|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 12,
-				["points"] = 1190,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						2, -- [1]
-						235.100999999995, -- [2]
-						"Rupturing Blood |cFFFF3333505|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 15,
-				["points"] = 1470,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						291.899000000001, -- [2]
-						"Absorbed in Darkness (DoT) |cFFFF333325,403|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						217.825999999999, -- [2]
-						"Bloodshard |cFFFF333333,081|r", -- [3]
-					}, -- [2]
-					{
-						5, -- [1]
-						153.688999999999, -- [2]
-						"Dark Revelation |cFFFF333332,354|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["encounters"] = 15,
-				["points"] = 1480,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						128.164000000001, -- [2]
-						"Shadow Barrage (DoT) |cFFFF333334,955|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						267.760000000009, -- [2]
-						"Bloody Cleave |cFFFF333379,818|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Evinè-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Murtag-Sargeras"] = {
+			["Eldodin-KhazModan"] = {
 				["encounters"] = 6,
 				["points"] = 590,
-				["class"] = "WARRIOR",
 				["deaths"] = {
-					{
-						1, -- [1]
-						209.063000000082, -- [2]
-						"Dark Revelation |cFFFF333355,636|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Mallusof"] = {
-				["encounters"] = 15,
-				["points"] = 1500,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Jorahx-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 15,
-				["points"] = 1430,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						338.633, -- [2]
-						"Absorbed in Darkness (DoT) |cFFFF333327,279|r", -- [3]
-					}, -- [1]
 					{
 						3, -- [1]
-						276.411, -- [2]
-						"Dark Revelation |cFFFF333323,278|r", -- [3]
-					}, -- [2]
+						268.733999999997, -- [2]
+						"Seal of Bwonsamdi |cFFFF333367,642|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARLOCK",
+			},
+			["Newc-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 580,
+				["deaths"] = {
 					{
 						4, -- [1]
-						312.437, -- [2]
-						"Melee |cFFFF333324,889|r", -- [3]
-					}, -- [3]
+						20.929999999993, -- [2]
+						"Meteor Leap |cFFFF3333197,380|r", -- [3]
+					}, -- [1]
 					{
 						2, -- [1]
-						230.751000000004, -- [2]
-						"Deathwish |cFFFF333312,608|r", -- [3]
-					}, -- [4]
-					{
-						2, -- [1]
-						106.752999999968, -- [2]
-						"Dark Revelation |cFFFF333333,432|r", -- [3]
-					}, -- [5]
-					{
-						1, -- [1]
-						40.7099999999919, -- [2]
-						"Dark Revelation |cFFFF333335,667|r", -- [3]
-					}, -- [6]
-					{
-						2, -- [1]
-						191.444000000003, -- [2]
-						"Deathwish |cFFFF333338,265|r", -- [3]
-					}, -- [7]
+						441.459999999992, -- [2]
+						"Dread Reaping (DoT) |cFFFF333342,856|r", -- [3]
+					}, -- [2]
 				},
+				["class"] = "DEMONHUNTER",
 			},
-			["Kaligon-Tichondrius"] = {
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["deaths"] = {
+					{
+						2, -- [1]
+						249.956999999995, -- [2]
+						"Deathly Withering (DoT) |cFFFF333316,983|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Azsharys-SilverHand"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Ryad-Terenas"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Lucithy-SilverHand"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 15,
-				["points"] = 1460,
-				["class"] = "WARLOCK",
+			["Unshocked-Proudmoore"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["deaths"] = {
+					{
+						1, -- [1]
+						336.914999999979, -- [2]
+						"Bwonsamdi's Wrath |cFFFF333358,405|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 7,
+				["points"] = 640,
 				["deaths"] = {
 					{
 						2, -- [1]
-						343.688, -- [2]
-						"Corrupted Blood (DoT) |cFFFF33339,012|r", -- [3]
+						307.406000000017, -- [2]
+						"Dread Reaping (DoT) |cFFFF333336,236|r", -- [3]
 					}, -- [1]
-					{
-						2, -- [1]
-						280.344000000001, -- [2]
-						"Environment (Falling) |cFFFF333391,763|r", -- [3]
-					}, -- [2]
 					{
 						4, -- [1]
-						307.208000000001, -- [2]
-						"Absorbed in Darkness (DoT) |cFFFF333327,057|r", -- [3]
+						346.757999999973, -- [2]
+						"Dread Reaping (DoT) |cFFFF333316,384|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						54.0780000000086, -- [2]
+						"Meteor Leap |cFFFF333338,402|r", -- [3]
 					}, -- [3]
 					{
 						1, -- [1]
-						124.468999999997, -- [2]
-						"Environment (Falling) |cFFFF3333119,230|r", -- [3]
+						309.80799999999, -- [2]
+						"Dread Reaping (DoT) |cFFFF333340,274|r", -- [3]
 					}, -- [4]
+					{
+						2, -- [1]
+						498.002999999997, -- [2]
+						"Toad Toxin (DoT) |cFFFF333332,151|r", -- [3]
+					}, -- [5]
 				},
+				["class"] = "DEMONHUNTER",
 			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 14,
-				["points"] = 1350,
-				["class"] = "WARLOCK",
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 6,
+				["points"] = 580,
+				["deaths"] = {
+					{
+						3, -- [1]
+						273.462999999989, -- [2]
+						"Deathly Withering (DoT) |cFFFF33334,176|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						279.356, -- [2]
+						"Deathly Withering (DoT) |cFFFF33337,489|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "PALADIN",
+			},
+			["Mallusof"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 5,
+				["points"] = 470,
 				["deaths"] = {
 					{
 						1, -- [1]
-						323.291999999999, -- [2]
-						"Bloodshard |cFFFF333344,184|r", -- [3]
+						160.741999999969, -- [2]
+						"Deathly Withering (DoT) |cFFFF333311,249|r", -- [3]
 					}, -- [1]
 					{
-						2, -- [1]
-						276.362000000001, -- [2]
-						"Absorbed in Darkness (DoT) |cFFFF333326,583|r", -- [3]
+						1, -- [1]
+						307.080999999947, -- [2]
+						"Scorching Detonation |cFFFF333328,222|r", -- [3]
 					}, -- [2]
+				},
+				["class"] = "WARRIOR",
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["deaths"] = {
+					{
+						2, -- [1]
+						311.374000000011, -- [2]
+						"Dread Reaping (DoT) |cFFFF333322,637|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["deaths"] = {
+					{
+						2, -- [1]
+						55.9109999999928, -- [2]
+						"Crushing Leap |cFFFF3333214,611|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 580,
+				["deaths"] = {
 					{
 						3, -- [1]
-						222.280999999999, -- [2]
-						"Shadow Barrage |cFFFF333311,815|r", -- [3]
-					}, -- [3]
+						299.98199999996, -- [2]
+						"Deathly Withering (DoT) |cFFFF333311,206|r", -- [3]
+					}, -- [1]
 					{
-						6, -- [1]
-						329.449000000001, -- [2]
-						"Deathwish |cFFFF333317,234|r", -- [3]
-					}, -- [4]
-					{
-						2, -- [1]
-						293.736000000034, -- [2]
-						"Corrupted Blood (DoT) |cFFFF33333,582|r", -- [3]
-					}, -- [5]
+						4, -- [1]
+						332.244000000006, -- [2]
+						"Dread Reaping (DoT) |cFFFF333343,976|r", -- [3]
+					}, -- [2]
 				},
+				["class"] = "DRUID",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "Uldir",
-			["id"] = 2145,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Zul",
-			["diff"] = 15,
-			["ej_instance_id"] = 1031,
-			["encounter"] = "Zul",
-		},
-		["diff"] = 15,
 	},
 	["216814"] = {
 		["hash"] = "216814",
@@ -10486,19 +9850,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Taloc",
 		["id"] = 2168,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Uldir",
-			["encounter"] = "Taloc",
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Taloc",
-			["diff"] = 14,
-			["id"] = 2144,
-			["ej_instance_id"] = 1031,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 2,
@@ -10627,6 +9978,13 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
+			["Mirwen-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
 			["Mallusof"] = {
 				["encounters"] = 8,
 				["points"] = 780,
@@ -10643,13 +10001,6 @@ DeathGraphsDBEndurance = {
 					}, -- [2]
 				},
 				["class"] = "PRIEST",
-			},
-			["Mirwen-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
 			},
 			["Voinic-Lightbringer"] = {
 				["encounters"] = 1,
@@ -10710,1883 +10061,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
-	},
-	["216914"] = {
-		["hash"] = "216914",
-		["type"] = "endurance",
-		["name"] = "Zek'voz",
-		["id"] = 2169,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
-			["index"] = 4,
+			["index"] = 1,
 			["zone"] = "Uldir",
-			["encounter"] = "Zek'voz",
+			["encounter"] = "Taloc",
 			["mapid"] = 1861,
 			["try_number"] = 1,
-			["name"] = "Zek'voz",
+			["name"] = "Taloc",
 			["diff"] = 14,
-			["id"] = 2136,
+			["id"] = 2144,
 			["ej_instance_id"] = 1031,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						357.466, -- [2]
-						"Corruption Pulse |cFFFF3333118,985|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						357.466, -- [2]
-						"Corruption Pulse |cFFFF3333102,568|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Newc-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						1, -- [1]
-						352.412, -- [2]
-						"Titan Spark |cFFFF333313,480|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
-	},
-	["214614"] = {
-		["hash"] = "214614",
-		["type"] = "endurance",
-		["name"] = "Fetid Devourer",
-		["id"] = 2146,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "Uldir",
-			["id"] = 2128,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Fetid Devourer",
-			["encounter"] = "Fetid Devourer",
-			["ej_instance_id"] = 1031,
-			["diff"] = 14,
-		},
-		["player_db"] = {
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Murtag-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						2, -- [1]
-						110.548999999999, -- [2]
-						"Terrible Thrash |cFFFF3333166,291|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Newc-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						3, -- [1]
-						30.5389999999998, -- [2]
-						"Terrible Thrash |cFFFF3333152,020|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Voinic-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 4,
-				["points"] = 370,
-				["deaths"] = {
-					{
-						3, -- [1]
-						6.45199999999977, -- [2]
-						"", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						133.583, -- [2]
-						"Putrid Paroxysm (DoT) |cFFFF333314,838|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						61.1759999999777, -- [2]
-						"Terrible Thrash |cFFFF3333171,631|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-		},
-	},
-	["233315"] = {
-		["hash"] = "233315",
-		["type"] = "endurance",
-		["name"] = "Champion of the Light",
-		["id"] = 2333,
-		["player_db"] = {
-			["Foxpaw"] = {
-				["encounters"] = 10,
-				["points"] = 980,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						67.0489999999991, -- [2]
-						"Magma Trap |cFFFF3333174,889|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						75.0319999999993, -- [2]
-						"Deathly Echo |cFFFF3333119,597|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["encounters"] = 28,
-				["points"] = 2740,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						160.098, -- [2]
-						"Wave of Light (DoT) |cFFFF333325,948|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						61.8490000000002, -- [2]
-						"Beam (DoT) |cFFFF333345,482|r", -- [3]
-					}, -- [2]
-					{
-						3, -- [1]
-						113.581, -- [2]
-						"Deathly Echo |cFFFF333395,184|r", -- [3]
-					}, -- [3]
-					{
-						2, -- [1]
-						144.529999999999, -- [2]
-						"Magma Trap |cFFFF3333188,020|r", -- [3]
-					}, -- [4]
-					{
-						2, -- [1]
-						78.8299999999581, -- [2]
-						"Magma Trap |cFFFF3333104,697|r", -- [3]
-					}, -- [5]
-					{
-						4, -- [1]
-						229.684000000008, -- [2]
-						"Magma Trap |cFFFF3333193,500|r", -- [3]
-					}, -- [6]
-				},
-			},
-			["Inevitabits"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Bannanas"] = {
-				["encounters"] = 10,
-				["points"] = 960,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						3, -- [1]
-						85.2489999999998, -- [2]
-						"Whirling Jade Storm |cFFFF33335,493|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						74.732, -- [2]
-						"Deathly Echo |cFFFF333361,258|r", -- [3]
-					}, -- [2]
-					{
-						3, -- [1]
-						132.065000000002, -- [2]
-						"Deathly Echo |cFFFF333345,979|r", -- [3]
-					}, -- [3]
-					{
-						4, -- [1]
-						75.9830000000002, -- [2]
-						"Deathly Echo |cFFFF3333129,799|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["encounters"] = 18,
-				["points"] = 1790,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						7, -- [1]
-						80.2489999999998, -- [2]
-						"Environment (Falling) |cFFFF3333201,680|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 28,
-				["points"] = 2720,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						4, -- [1]
-						63.116, -- [2]
-						"Explosion |cFFFF33338,316|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						65.5659999999998, -- [2]
-						"Unleashed Ember |cFFFF333327,310|r", -- [3]
-					}, -- [2]
-					{
-						8, -- [1]
-						330.445, -- [2]
-						"Blaze |cFFFF333313,279|r", -- [3]
-					}, -- [3]
-					{
-						3, -- [1]
-						173.463, -- [2]
-						"Death Knell |cFFFF333332,848|r", -- [3]
-					}, -- [4]
-					{
-						4, -- [1]
-						171.63, -- [2]
-						"Deathly Echo |cFFFF333332,209|r", -- [3]
-					}, -- [5]
-					{
-						1, -- [1]
-						70.4289999999746, -- [2]
-						"Beam (DoT) |cFFFF333337,606|r", -- [3]
-					}, -- [6]
-					{
-						1, -- [1]
-						163.768000000011, -- [2]
-						"Deathly Slam |cFFFF333354,381|r", -- [3]
-					}, -- [7]
-					{
-						2, -- [1]
-						138.826000000001, -- [2]
-						"Deathly Echo |cFFFF333322,146|r", -- [3]
-					}, -- [8]
-				},
-			},
-			["Míra"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 23,
-				["points"] = 2220,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						1, -- [1]
-						143.248, -- [2]
-						"Melee |cFFFF333343,463|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						75.3319999999999, -- [2]
-						"Beam (DoT) |cFFFF333316,010|r", -- [3]
-					}, -- [2]
-					{
-						4, -- [1]
-						81.1990000000001, -- [2]
-						"Fireball |cFFFF333338,490|r", -- [3]
-					}, -- [3]
-					{
-						6, -- [1]
-						47.8490000000002, -- [2]
-						"Beam (DoT) |cFFFF333345,140|r", -- [3]
-					}, -- [4]
-					{
-						7, -- [1]
-						68.7489999999998, -- [2]
-						"Beam (DoT) |cFFFF333358,124|r", -- [3]
-					}, -- [5]
-					{
-						5, -- [1]
-						227.379999999999, -- [2]
-						"Rending Bite |cFFFF333328,556|r", -- [3]
-					}, -- [6]
-					{
-						2, -- [1]
-						65.6719999999623, -- [2]
-						"Unleashed Ember |cFFFF333335,157|r", -- [3]
-					}, -- [7]
-					{
-						1, -- [1]
-						251.288000000001, -- [2]
-						"Death Touched |cFFFF33335,637|r", -- [3]
-					}, -- [8]
-				},
-			},
-			["Naturesight-BoreanTundra"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						170.347999999998, -- [2]
-						"Death Knell |cFFFF333359,309|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 28,
-				["points"] = 2780,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						2, -- [1]
-						82.415, -- [2]
-						"Fireball |cFFFF333333,918|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						37.549, -- [2]
-						"Melee |cFFFF333357,605|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Xsesive"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Jests"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Nathadon-Malygos"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Taegas"] = {
-				["encounters"] = 10,
-				["points"] = 990,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						108.132000000001, -- [2]
-						"Death Knell |cFFFF333352,849|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Bulwarkbeard"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Frippouille"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Havnot-Stormrage"] = {
-				["encounters"] = 10,
-				["points"] = 990,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						68.9550000000018, -- [2]
-						"Beam (DoT) |cFFFF333341,922|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Lightpulse-Tichondrius"] = {
-				["encounters"] = 4,
-				["points"] = 380,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						69.8549999999814, -- [2]
-						"Beam (DoT) |cFFFF333357,956|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						138.826000000001, -- [2]
-						"Deathly Echo |cFFFF333379,282|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 23,
-				["points"] = 2280,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						8, -- [1]
-						84.8989999999994, -- [2]
-						"Environment (Falling) |cFFFF3333214,760|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						95.9649999999674, -- [2]
-						"Environment (Falling) |cFFFF3333230,400|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Kahoots-Proudmoore"] = {
-				["encounters"] = 14,
-				["points"] = 1380,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						130.815, -- [2]
-						"Wave of Light (DoT) |cFFFF333313,630|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						33.7660000000001, -- [2]
-						"Environment (Falling) |cFFFF3333237,160|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 9,
-				["points"] = 900,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Celedhring"] = {
-				["encounters"] = 10,
-				["points"] = 980,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						56.7160000000004, -- [2]
-						"Melee |cFFFF333312,313|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						98.3989999999976, -- [2]
-						"Unleashed Ember |cFFFF333332,571|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Hubbletotem"] = {
-				["encounters"] = 8,
-				["points"] = 800,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 28,
-				["points"] = 2780,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						2, -- [1]
-						57.0819999999999, -- [2]
-						"Beam (DoT) |cFFFF333346,305|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						56.1649999999791, -- [2]
-						"Chi-Ji's Song |cFFFF3333671|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Meowtapes-Proudmoore"] = {
-				["encounters"] = 9,
-				["points"] = 900,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Jojomcblow-Malygos"] = {
-				["encounters"] = 10,
-				["points"] = 990,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						3, -- [1]
-						74.8660000000018, -- [2]
-						"Deathly Echo |cFFFF333379,772|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Sorshia"] = {
-				["encounters"] = 10,
-				["points"] = 990,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						4, -- [1]
-						196.364000000001, -- [2]
-						"Deathly Echo |cFFFF333331,610|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["encounters"] = 22,
-				["points"] = 2170,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						172.696999999999, -- [2]
-						"Death Knell |cFFFF333377,728|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						196.315999999992, -- [2]
-						"Deathly Echo |cFFFF3333101,971|r", -- [3]
-					}, -- [2]
-					{
-						2, -- [1]
-						113.222000000067, -- [2]
-						"Ferocious Roar |cFFFF333325,245|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Cloudcoastin"] = {
-				["encounters"] = 10,
-				["points"] = 990,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						3, -- [1]
-						86.2160000000004, -- [2]
-						"Beam (DoT) |cFFFF333319,971|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["encounters"] = 28,
-				["points"] = 2740,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						6, -- [1]
-						35.6489999999999, -- [2]
-						"Environment (Falling) |cFFFF3333189,380|r", -- [3]
-					}, -- [1]
-					{
-						8, -- [1]
-						331.011, -- [2]
-						"Dragon's Breath (DoT) |cFFFF333346,284|r", -- [3]
-					}, -- [2]
-					{
-						1, -- [1]
-						52.9159999999993, -- [2]
-						"Death Knell |cFFFF333367,664|r", -- [3]
-					}, -- [3]
-					{
-						2, -- [1]
-						172.696999999999, -- [2]
-						"Death Knell |cFFFF333348,979|r", -- [3]
-					}, -- [4]
-					{
-						3, -- [1]
-						173.463, -- [2]
-						"Death Knell |cFFFF333359,396|r", -- [3]
-					}, -- [5]
-					{
-						1, -- [1]
-						122.119999999995, -- [2]
-						"Death Knell |cFFFF333368,843|r", -- [3]
-					}, -- [6]
-				},
-			},
-			["Popmybubbles-Kel'Thuzad"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 28,
-				["points"] = 2770,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						3, -- [1]
-						97.281, -- [2]
-						"Environment (Falling) |cFFFF3333181,540|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						100.981, -- [2]
-						"Burnout |cFFFF333333,007|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Jaira"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						1, -- [1]
-						46.8489999999947, -- [2]
-						"Beam (DoT) |cFFFF333327,613|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Elidellx"] = {
-				["encounters"] = 10,
-				["points"] = 990,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						1, -- [1]
-						97.0149999999994, -- [2]
-						"Judgment: Reckoning |cFFFF333318,166|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Goshogun"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Older"] = {
-				["encounters"] = 10,
-				["points"] = 990,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						75.0319999999993, -- [2]
-						"Deathly Echo |cFFFF3333130,223|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kholvinski-EmeraldDream"] = {
-				["encounters"] = 19,
-				["points"] = 1880,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						52.9159999999993, -- [2]
-						"Death Knell |cFFFF333380,527|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						198.797, -- [2]
-						"Deathly Echo |cFFFF333371,765|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Greenbar-Malygos"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Coffeebean"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 28,
-				["points"] = 2780,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						6, -- [1]
-						47.7660000000001, -- [2]
-						"Beam (DoT) |cFFFF333335,749|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						171.63, -- [2]
-						"Deathly Echo |cFFFF333331,550|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Irith"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 28,
-				["points"] = 2770,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						65.5149999999999, -- [2]
-						"Beam (DoT) |cFFFF333343,677|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						64.616, -- [2]
-						"Searing Embers (DoT) |cFFFF33333,574|r", -- [3]
-					}, -- [2]
-					{
-						1, -- [1]
-						232.523999999976, -- [2]
-						"Death Knell |cFFFF333356,449|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Ryad-Terenas"] = {
-				["encounters"] = 28,
-				["points"] = 2730,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						65.7820000000002, -- [2]
-						"Burnout |cFFFF333316,238|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						161.997, -- [2]
-						"Environment (Falling) |cFFFF3333203,960|r", -- [3]
-					}, -- [2]
-					{
-						4, -- [1]
-						171.63, -- [2]
-						"Deathly Echo |cFFFF333333,512|r", -- [3]
-					}, -- [3]
-					{
-						1, -- [1]
-						195.877999999997, -- [2]
-						"Melee |cFFFF333374,692|r", -- [3]
-					}, -- [4]
-					{
-						1, -- [1]
-						196.020000000019, -- [2]
-						"Deathly Slam |cFFFF333330,118|r", -- [3]
-					}, -- [5]
-					{
-						1, -- [1]
-						95.9649999999674, -- [2]
-						"Environment (Falling) |cFFFF3333210,660|r", -- [3]
-					}, -- [6]
-					{
-						3, -- [1]
-						87.7709999999497, -- [2]
-						"Environment (Falling) |cFFFF3333214,340|r", -- [3]
-					}, -- [7]
-				},
-			},
-			["Qitanya"] = {
-				["encounters"] = 10,
-				["points"] = 990,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						67.1160000000018, -- [2]
-						"Beam (DoT) |cFFFF333325,869|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Thornstaad"] = {
-				["encounters"] = 10,
-				["points"] = 980,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						2, -- [1]
-						91.7160000000004, -- [2]
-						"Wave of Light (DoT) |cFFFF333310,138|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						132.065000000002, -- [2]
-						"Deathly Echo |cFFFF333365,324|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Atag"] = {
-				["encounters"] = 10,
-				["points"] = 980,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						99.3650000000016, -- [2]
-						"Wave of Light (DoT) |cFFFF333310,419|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						196.948, -- [2]
-						"Death Knell |cFFFF333318,356|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Cassettes-Proudmoore"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Nalora"] = {
-				["encounters"] = 10,
-				["points"] = 960,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						2, -- [1]
-						87.4320000000007, -- [2]
-						"Wave of Light (DoT) |cFFFF333313,855|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						91.3330000000024, -- [2]
-						"Beam (DoT) |cFFFF333340,642|r", -- [3]
-					}, -- [2]
-					{
-						3, -- [1]
-						59.3830000000016, -- [2]
-						"Beam (DoT) |cFFFF333312,542|r", -- [3]
-					}, -- [3]
-					{
-						1, -- [1]
-						108.132000000001, -- [2]
-						"Death Knell |cFFFF333348,436|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["encounters"] = 28,
-				["points"] = 2790,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						1, -- [1]
-						337.413, -- [2]
-						"Multi-Sided Strike |cFFFF333352,589|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Algozen"] = {
-				["encounters"] = 10,
-				["points"] = 1000,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 28,
-				["points"] = 2780,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						5, -- [1]
-						67.1320000000001, -- [2]
-						"Unleashed Ember |cFFFF333322,262|r", -- [3]
-					}, -- [1]
-					{
-						7, -- [1]
-						80.2489999999998, -- [2]
-						"Environment (Falling) |cFFFF3333193,000|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Mallusof"] = {
-				["encounters"] = 39,
-				["points"] = 3840,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						1, -- [1]
-						137.682000000001, -- [2]
-						"Melee |cFFFF333360,202|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						338.370999999985, -- [2]
-						"Blaze |cFFFF333315,629|r", -- [3]
-					}, -- [2]
-					{
-						1, -- [1]
-						232.470999999903, -- [2]
-						"Chill of Death (DoT) |cFFFF333322,630|r", -- [3]
-					}, -- [3]
-					{
-						3, -- [1]
-						48.0359999999637, -- [2]
-						"Magma Trap |cFFFF333396,926|r", -- [3]
-					}, -- [4]
-					{
-						3, -- [1]
-						87.7329999999492, -- [2]
-						"Beam (DoT) |cFFFF333367,098|r", -- [3]
-					}, -- [5]
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2265,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Champion of the Light",
-			["diff"] = 15,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Champion of the Light",
-		},
-		["diff"] = 15,
-	},
-	["233415"] = {
-		["hash"] = "233415",
-		["type"] = "endurance",
-		["name"] = "Mekkatorque",
-		["id"] = 2334,
-		["player_db"] = {
-			["Newc-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						116.601999999955, -- [2]
-						"Buster Cannon |cFFFF333320,528|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						114.868999999948, -- [2]
-						"Buster Cannon |cFFFF333314,434|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 370,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						187.329999999958, -- [2]
-						"Buster Cannon |cFFFF333327,126|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						350.861999999965, -- [2]
-						"Sheep Shrapnel |cFFFF333336,684|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Ryad-Terenas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						3, -- [1]
-						239.815999999992, -- [2]
-						"Anti-Tampering Shock (DoT) |cFFFF333340,368|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						48.4959999999846, -- [2]
-						"Buster Cannon |cFFFF3333118,759|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						3, -- [1]
-						193.974999999977, -- [2]
-						"Crash Down |cFFFF333351,920|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						142.066999999981, -- [2]
-						"Blast Off |cFFFF3333102,395|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						2, -- [1]
-						341.258999999962, -- [2]
-						"Hyperdrive Discharge |cFFFF333313,598|r", -- [3]
-					}, -- [1]
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2276,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Mekkatorque",
-			["diff"] = 15,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Mekkatorque",
-		},
-		["diff"] = 15,
-	},
-	["233015"] = {
-		["hash"] = "233015",
-		["type"] = "endurance",
-		["name"] = "Conclave of the Chosen",
-		["id"] = 2330,
-		["player_db"] = {
-			["Foxpaw"] = {
-				["encounters"] = 7,
-				["points"] = 680,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						4, -- [1]
-						79.7489999999962, -- [2]
-						"Pa'ku's Wrath |cFFFF333354,946|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						48.9660000000004, -- [2]
-						"Jagged Claws |cFFFF333398,361|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Newc-Lightbringer"] = {
-				["encounters"] = 8,
-				["points"] = 780,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						229.310999999987, -- [2]
-						"Jagged Claws |cFFFF333341,541|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						201.072000000044, -- [2]
-						"Lacerating Claws |cFFFF33338,282|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Inevitabits"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						4, -- [1]
-						188.531999999999, -- [2]
-						"Cry of the Fallen (DoT) |cFFFF3333160|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Bannanas"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Lightpulse-Tichondrius"] = {
-				["encounters"] = 5,
-				["points"] = 480,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						85.0860000000103, -- [2]
-						"Krag'wa's Wrath |cFFFF33333,253|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						278.604999999981, -- [2]
-						"Thundering Storm |cFFFF3333118,438|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 8,
-				["points"] = 780,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						2, -- [1]
-						111.824999999953, -- [2]
-						"Melee |cFFFF333314,111|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						216.422000000021, -- [2]
-						"Static Orb |cFFFF333329,440|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Míra"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						1, -- [1]
-						165.098000000005, -- [2]
-						"Jagged Claws |cFFFF333375,475|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 8,
-				["points"] = 780,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						5, -- [1]
-						215.530999999959, -- [2]
-						"Pa'ku's Wrath |cFFFF333333,410|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						204.449999999953, -- [2]
-						"Melee |cFFFF333364,132|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Naturesight-BoreanTundra"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						2, -- [1]
-						84.4159999999974, -- [2]
-						"Pa'ku's Wrath |cFFFF333336,294|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 8,
-				["points"] = 800,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Xsesive"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						2, -- [1]
-						81.4159999999975, -- [2]
-						"Pa'ku's Wrath |cFFFF333331,821|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Jests"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Nathadon-Malygos"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Taegas"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Bulwarkbeard"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Frippouille"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Havnot-Stormrage"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 8,
-				["points"] = 790,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						281.045999999973, -- [2]
-						"Pa'ku's Wrath |cFFFF333367,037|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Celedhring"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						72.5649999999987, -- [2]
-						"Melee |cFFFF333393,217|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Hubbletotem"] = {
-				["encounters"] = 5,
-				["points"] = 470,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						41.6820000000007, -- [2]
-						"Jagged Claws |cFFFF333312,387|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						80.6489999999976, -- [2]
-						"Pa'ku's Wrath |cFFFF333327,957|r", -- [3]
-					}, -- [2]
-					{
-						4, -- [1]
-						187.580999999998, -- [2]
-						"Cry of the Fallen (DoT) |cFFFF33339,280|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Jojomcblow-Malygos"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						5, -- [1]
-						173.881000000001, -- [2]
-						"Jagged Claws |cFFFF333368,375|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Sorshia"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						2, -- [1]
-						83.6319999999978, -- [2]
-						"Pa'ku's Wrath |cFFFF333332,132|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Lucithy-SilverHand"] = {
-				["encounters"] = 8,
-				["points"] = 770,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						3, -- [1]
-						102.434000000008, -- [2]
-						"Jagged Claws |cFFFF333355,973|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						84.3680000000168, -- [2]
-						"Pa'ku's Wrath |cFFFF333349,278|r", -- [3]
-					}, -- [2]
-					{
-						5, -- [1]
-						216.581000000006, -- [2]
-						"Pa'ku's Wrath |cFFFF33334,805|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Elidellx"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Azsharys-SilverHand"] = {
-				["encounters"] = 8,
-				["points"] = 800,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Unshocked-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						200.413000000001, -- [2]
-						"Bleeding Wounds (DoT) |cFFFF33335,299|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						330.228999999992, -- [2]
-						"Pa'ku's Wrath |cFFFF333323,755|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Superc-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						3, -- [1]
-						275.743000000017, -- [2]
-						"Static Orb |cFFFF333335,188|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 8,
-				["points"] = 780,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						4, -- [1]
-						86.3610000000335, -- [2]
-						"Pa'ku's Wrath |cFFFF333358,416|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						46.6380000000354, -- [2]
-						"Jagged Claws |cFFFF333334,689|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 8,
-				["points"] = 790,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						3, -- [1]
-						277.235999999975, -- [2]
-						"Static Orb |cFFFF333336,371|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Goshogun"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						3, -- [1]
-						81.8660000000018, -- [2]
-						"Pa'ku's Wrath |cFFFF333316,940|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Popmybubbles-Kel'Thuzad"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Atag"] = {
-				["encounters"] = 7,
-				["points"] = 670,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						2, -- [1]
-						84.599000000002, -- [2]
-						"Wild Maul |cFFFF333315,378|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						79.8660000000018, -- [2]
-						"Pa'ku's Wrath |cFFFF333357,203|r", -- [3]
-					}, -- [2]
-					{
-						5, -- [1]
-						163.947, -- [2]
-						"Jagged Claws |cFFFF333334,887|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Greenbar-Malygos"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						185.547000000006, -- [2]
-						"Cry of the Fallen |cFFFF333310,078|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Coffeebean"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						77.3990000000013, -- [2]
-						"Pa'ku's Wrath |cFFFF333336,327|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Qitanya"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						5, -- [1]
-						85.9819999999963, -- [2]
-						"Pa'ku's Wrath |cFFFF333352,942|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Irith"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						2, -- [1]
-						83.4490000000005, -- [2]
-						"Pa'ku's Wrath |cFFFF333358,316|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 8,
-				["points"] = 790,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						84.7129999999888, -- [2]
-						"Wild Maul |cFFFF33339,905|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Ryad-Terenas"] = {
-				["encounters"] = 8,
-				["points"] = 800,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Thornstaad"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						3, -- [1]
-						83.8820000000051, -- [2]
-						"Pa'ku's Wrath |cFFFF333358,510|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Older"] = {
-				["encounters"] = 6,
-				["points"] = 600,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 8,
-				["points"] = 780,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						84.4890000000596, -- [2]
-						"Pa'ku's Wrath |cFFFF333355,971|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						216.581000000006, -- [2]
-						"Pa'ku's Wrath |cFFFF333334,201|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 8,
-				["points"] = 790,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						106.567000000039, -- [2]
-						"Jagged Claws |cFFFF333360,130|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Nalora"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Cloudcoastin"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Algozen"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 8,
-				["points"] = 790,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						108.344000000041, -- [2]
-						"Cry of the Fallen (DoT) |cFFFF33334,548|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Mallusof"] = {
-				["encounters"] = 15,
-				["points"] = 1490,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						4, -- [1]
-						84.329000000027, -- [2]
-						"Pa'ku's Wrath |cFFFF333368,755|r", -- [3]
-					}, -- [1]
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2268,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Conclave of the Chosen",
-			["diff"] = 15,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Conclave of the Chosen",
-		},
-		["diff"] = 15,
 	},
 	["216815"] = {
 		["hash"] = "216815",
@@ -12594,19 +10081,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Taloc",
 		["id"] = 2168,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Uldir",
-			["encounter"] = "Taloc",
-			["mapid"] = 1861,
-			["try_number"] = 2,
-			["name"] = "Taloc",
-			["diff"] = 15,
-			["id"] = 2144,
-			["ej_instance_id"] = 1031,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
 				["encounters"] = 8,
@@ -12959,12 +10433,2461 @@ DeathGraphsDBEndurance = {
 				["class"] = "SHAMAN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Uldir",
+			["encounter"] = "Taloc",
+			["mapid"] = 1861,
+			["try_number"] = 2,
+			["name"] = "Taloc",
+			["diff"] = 15,
+			["id"] = 2144,
+			["ej_instance_id"] = 1031,
+			["killed"] = true,
+		},
+	},
+	["214614"] = {
+		["hash"] = "214614",
+		["type"] = "endurance",
+		["name"] = "Fetid Devourer",
+		["id"] = 2146,
+		["diff"] = 14,
+		["player_db"] = {
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						2, -- [1]
+						110.548999999999, -- [2]
+						"Terrible Thrash |cFFFF3333166,291|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Newc-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						3, -- [1]
+						30.5389999999998, -- [2]
+						"Terrible Thrash |cFFFF3333152,020|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Mallusof"] = {
+				["encounters"] = 4,
+				["points"] = 370,
+				["deaths"] = {
+					{
+						3, -- [1]
+						6.45199999999977, -- [2]
+						"", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						133.583, -- [2]
+						"Putrid Paroxysm (DoT) |cFFFF333314,838|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "PRIEST",
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						61.1759999999777, -- [2]
+						"Terrible Thrash |cFFFF3333171,631|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARLOCK",
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "Uldir",
+			["id"] = 2128,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Fetid Devourer",
+			["encounter"] = "Fetid Devourer",
+			["ej_instance_id"] = 1031,
+			["diff"] = 14,
+		},
+	},
+	["216914"] = {
+		["hash"] = "216914",
+		["type"] = "endurance",
+		["name"] = "Zek'voz",
+		["id"] = 2169,
+		["diff"] = 14,
+		["player_db"] = {
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						357.466, -- [2]
+						"Corruption Pulse |cFFFF3333118,985|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						357.466, -- [2]
+						"Corruption Pulse |cFFFF3333102,568|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Newc-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Mallusof"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						1, -- [1]
+						352.412, -- [2]
+						"Titan Spark |cFFFF333313,480|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Uldir",
+			["encounter"] = "Zek'voz",
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Zek'voz",
+			["diff"] = 14,
+			["id"] = 2136,
+			["ej_instance_id"] = 1031,
+			["killed"] = true,
+		},
+	},
+	["233015"] = {
+		["hash"] = "233015",
+		["type"] = "endurance",
+		["name"] = "Conclave of the Chosen",
+		["id"] = 2330,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2268,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Conclave of the Chosen",
+			["diff"] = 15,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Conclave of the Chosen",
+		},
+		["player_db"] = {
+			["Foxpaw"] = {
+				["encounters"] = 7,
+				["points"] = 680,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						79.7489999999962, -- [2]
+						"Pa'ku's Wrath |cFFFF333354,946|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						48.9660000000004, -- [2]
+						"Jagged Claws |cFFFF333398,361|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1180,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						229.310999999987, -- [2]
+						"Jagged Claws |cFFFF333341,541|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						201.072000000044, -- [2]
+						"Lacerating Claws |cFFFF33338,282|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Inevitabits"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						188.531999999999, -- [2]
+						"Cry of the Fallen (DoT) |cFFFF3333160|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Bannanas"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Lightpulse-Tichondrius"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						85.0860000000103, -- [2]
+						"Krag'wa's Wrath |cFFFF33333,253|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						278.604999999981, -- [2]
+						"Thundering Storm |cFFFF3333118,438|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 12,
+				["points"] = 1170,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						111.824999999953, -- [2]
+						"Melee |cFFFF333314,111|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						216.422000000021, -- [2]
+						"Static Orb |cFFFF333329,440|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						236.88499999998, -- [2]
+						"Jagged Claws |cFFFF333315,141|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Míra"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						165.098000000005, -- [2]
+						"Jagged Claws |cFFFF333375,475|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 8,
+				["points"] = 780,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						5, -- [1]
+						215.530999999959, -- [2]
+						"Pa'ku's Wrath |cFFFF333333,410|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						204.449999999953, -- [2]
+						"Melee |cFFFF333364,132|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Naturesight-BoreanTundra"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						84.4159999999974, -- [2]
+						"Pa'ku's Wrath |cFFFF333336,294|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1180,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						206.875, -- [2]
+						"Melee |cFFFF333323,321|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						107.459000000003, -- [2]
+						"Lacerating Claws |cFFFF33338,553|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Xsesive"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						81.4159999999975, -- [2]
+						"Pa'ku's Wrath |cFFFF333331,821|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jests"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Nathadon-Malygos"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Taegas"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Bulwarkbeard"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Frippouille"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Havnot-Stormrage"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 12,
+				["points"] = 1160,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						281.045999999973, -- [2]
+						"Pa'ku's Wrath |cFFFF333367,037|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						205.858999999997, -- [2]
+						"Pa'ku's Wrath |cFFFF333311,122|r", -- [3]
+					}, -- [2]
+					{
+						2, -- [1]
+						87.9060000000172, -- [2]
+						"Cry of the Fallen (DoT) |cFFFF33338,894|r", -- [3]
+					}, -- [3]
+					{
+						3, -- [1]
+						274.481999999989, -- [2]
+						"Pa'ku's Wrath |cFFFF33339,464|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Celedhring"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						72.5649999999987, -- [2]
+						"Melee |cFFFF333393,217|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Hubbletotem"] = {
+				["encounters"] = 5,
+				["points"] = 470,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						41.6820000000007, -- [2]
+						"Jagged Claws |cFFFF333312,387|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						80.6489999999976, -- [2]
+						"Pa'ku's Wrath |cFFFF333327,957|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						187.580999999998, -- [2]
+						"Cry of the Fallen (DoT) |cFFFF33339,280|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Jojomcblow-Malygos"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						5, -- [1]
+						173.881000000001, -- [2]
+						"Jagged Claws |cFFFF333368,375|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sorshia"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						83.6319999999978, -- [2]
+						"Pa'ku's Wrath |cFFFF333332,132|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lucithy-SilverHand"] = {
+				["encounters"] = 12,
+				["points"] = 1170,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						3, -- [1]
+						102.434000000008, -- [2]
+						"Jagged Claws |cFFFF333355,973|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						84.3680000000168, -- [2]
+						"Pa'ku's Wrath |cFFFF333349,278|r", -- [3]
+					}, -- [2]
+					{
+						5, -- [1]
+						216.581000000006, -- [2]
+						"Pa'ku's Wrath |cFFFF33334,805|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Elidellx"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Azsharys-SilverHand"] = {
+				["encounters"] = 12,
+				["points"] = 1200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						200.413000000001, -- [2]
+						"Bleeding Wounds (DoT) |cFFFF33335,299|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						330.228999999992, -- [2]
+						"Pa'ku's Wrath |cFFFF333323,755|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Superc-Lightbringer"] = {
+				["encounters"] = 8,
+				["points"] = 780,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						3, -- [1]
+						275.743000000017, -- [2]
+						"Static Orb |cFFFF333335,188|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						225.192999999999, -- [2]
+						"Akunda's Wrath |cFFFF333347,281|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1160,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						4, -- [1]
+						86.3610000000335, -- [2]
+						"Pa'ku's Wrath |cFFFF333358,416|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						46.6380000000354, -- [2]
+						"Jagged Claws |cFFFF333334,689|r", -- [3]
+					}, -- [2]
+					{
+						2, -- [1]
+						86.6840000000084, -- [2]
+						"Pa'ku's Wrath |cFFFF333325,253|r", -- [3]
+					}, -- [3]
+					{
+						4, -- [1]
+						276.146000000008, -- [2]
+						"Pa'ku's Wrath |cFFFF33336,223|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1190,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						3, -- [1]
+						277.235999999975, -- [2]
+						"Static Orb |cFFFF333336,371|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Goshogun"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						3, -- [1]
+						81.8660000000018, -- [2]
+						"Pa'ku's Wrath |cFFFF333316,940|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Popmybubbles-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Greenbar-Malygos"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						185.547000000006, -- [2]
+						"Cry of the Fallen |cFFFF333310,078|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Atag"] = {
+				["encounters"] = 7,
+				["points"] = 670,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						84.599000000002, -- [2]
+						"Wild Maul |cFFFF333315,378|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						79.8660000000018, -- [2]
+						"Pa'ku's Wrath |cFFFF333357,203|r", -- [3]
+					}, -- [2]
+					{
+						5, -- [1]
+						163.947, -- [2]
+						"Jagged Claws |cFFFF333334,887|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Coffeebean"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						77.3990000000013, -- [2]
+						"Pa'ku's Wrath |cFFFF333336,327|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 12,
+				["points"] = 1190,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						106.567000000039, -- [2]
+						"Jagged Claws |cFFFF333360,130|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Irith"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						83.4490000000005, -- [2]
+						"Pa'ku's Wrath |cFFFF333358,316|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1190,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						84.7129999999888, -- [2]
+						"Wild Maul |cFFFF33339,905|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ryad-Terenas"] = {
+				["encounters"] = 12,
+				["points"] = 1200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Thornstaad"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						83.8820000000051, -- [2]
+						"Pa'ku's Wrath |cFFFF333358,510|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Older"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1170,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						84.4890000000596, -- [2]
+						"Pa'ku's Wrath |cFFFF333355,971|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						216.581000000006, -- [2]
+						"Pa'ku's Wrath |cFFFF333334,201|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						273.623000000021, -- [2]
+						"Thundering Storm |cFFFF3333104,466|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Qitanya"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						5, -- [1]
+						85.9819999999963, -- [2]
+						"Pa'ku's Wrath |cFFFF333352,942|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Nalora"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Cloudcoastin"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Algozen"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1180,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						108.344000000041, -- [2]
+						"Cry of the Fallen (DoT) |cFFFF33334,548|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						146.731999999989, -- [2]
+						"Pa'ku's Wrath |cFFFF333356,533|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 19,
+				["points"] = 1890,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						4, -- [1]
+						84.329000000027, -- [2]
+						"Pa'ku's Wrath |cFFFF333368,755|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["233415"] = {
+		["hash"] = "233415",
+		["type"] = "endurance",
+		["name"] = "Mekkatorque",
+		["id"] = 2334,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2276,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Mekkatorque",
+			["diff"] = 15,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Mekkatorque",
+		},
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 8,
+				["points"] = 800,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["encounters"] = 8,
+				["points"] = 780,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						310.137000000017, -- [2]
+						"Critter Explosion |cFFFF333356,045|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						188.521000000008, -- [2]
+						"Spark Volley |cFFFF333317,398|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 8,
+				["points"] = 790,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						6, -- [1]
+						304.645000000019, -- [2]
+						"Anti-Tampering Shock (DoT) |cFFFF333317,042|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Azsharys-SilverHand"] = {
+				["encounters"] = 8,
+				["points"] = 770,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						341.258999999962, -- [2]
+						"Hyperdrive Discharge |cFFFF333313,598|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						182.670000000013, -- [2]
+						"Buster Cannon |cFFFF33335,765|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						279.598999999987, -- [2]
+						"Anti-Tampering Shock (DoT) |cFFFF333379,259|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 9,
+				["points"] = 850,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						187.329999999958, -- [2]
+						"Buster Cannon |cFFFF333327,126|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						350.861999999965, -- [2]
+						"Sheep Shrapnel |cFFFF333336,684|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						196.184000000008, -- [2]
+						"Gigavolt Blast (DoT) |cFFFF333318,854|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						342.638000000006, -- [2]
+						"Sheep Shrapnel |cFFFF333331,734|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Ryad-Terenas"] = {
+				["encounters"] = 8,
+				["points"] = 780,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						5, -- [1]
+						269.774999999994, -- [2]
+						"Crash Down |cFFFF3333202,074|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						379.016000000003, -- [2]
+						"Gigavolt Blast (DoT) |cFFFF333317,233|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Lucithy-SilverHand"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						139.656000000017, -- [2]
+						"Anti-Tampering Shock (DoT) |cFFFF333326,635|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						274.515000000014, -- [2]
+						"Buster Cannon |cFFFF3333112,017|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						3, -- [1]
+						239.815999999992, -- [2]
+						"Anti-Tampering Shock (DoT) |cFFFF333340,368|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 8,
+				["points"] = 780,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						48.4959999999846, -- [2]
+						"Buster Cannon |cFFFF3333118,759|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						277.886999999988, -- [2]
+						"Buster Cannon |cFFFF333320,473|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 8,
+				["points"] = 800,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 8,
+				["points"] = 790,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						3, -- [1]
+						193.974999999977, -- [2]
+						"Crash Down |cFFFF333351,920|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 8,
+				["points"] = 800,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 8,
+				["points"] = 790,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						142.066999999981, -- [2]
+						"Blast Off |cFFFF3333102,395|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 8,
+				["points"] = 750,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						116.601999999955, -- [2]
+						"Buster Cannon |cFFFF333320,528|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						114.868999999948, -- [2]
+						"Buster Cannon |cFFFF333314,434|r", -- [3]
+					}, -- [2]
+					{
+						2, -- [1]
+						269.574000000022, -- [2]
+						"Crash Down |cFFFF3333178,630|r", -- [3]
+					}, -- [3]
+					{
+						4, -- [1]
+						143.862999999983, -- [2]
+						"Crash Down |cFFFF3333225,180|r", -- [3]
+					}, -- [4]
+					{
+						5, -- [1]
+						273.71100000001, -- [2]
+						"Buster Cannon |cFFFF3333131,325|r", -- [3]
+					}, -- [5]
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["233315"] = {
+		["hash"] = "233315",
+		["type"] = "endurance",
+		["name"] = "Champion of the Light",
+		["id"] = 2333,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2265,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Champion of the Light",
+			["diff"] = 15,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Champion of the Light",
+		},
+		["player_db"] = {
+			["Foxpaw"] = {
+				["encounters"] = 10,
+				["points"] = 980,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						67.0489999999991, -- [2]
+						"Magma Trap |cFFFF3333174,889|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						75.0319999999993, -- [2]
+						"Deathly Echo |cFFFF3333119,597|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["encounters"] = 32,
+				["points"] = 3120,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						160.098, -- [2]
+						"Wave of Light (DoT) |cFFFF333325,948|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						61.8490000000002, -- [2]
+						"Beam (DoT) |cFFFF333345,482|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						113.581, -- [2]
+						"Deathly Echo |cFFFF333395,184|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						144.529999999999, -- [2]
+						"Magma Trap |cFFFF3333188,020|r", -- [3]
+					}, -- [4]
+					{
+						2, -- [1]
+						78.8299999999581, -- [2]
+						"Magma Trap |cFFFF3333104,697|r", -- [3]
+					}, -- [5]
+					{
+						4, -- [1]
+						229.684000000008, -- [2]
+						"Magma Trap |cFFFF3333193,500|r", -- [3]
+					}, -- [6]
+					{
+						1, -- [1]
+						47.6570000000065, -- [2]
+						"Deathly Echo |cFFFF3333109,287|r", -- [3]
+					}, -- [7]
+					{
+						2, -- [1]
+						236.994000000006, -- [2]
+						"Ferocious Roar |cFFFF333328,364|r", -- [3]
+					}, -- [8]
+				},
+			},
+			["Inevitabits"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Bannanas"] = {
+				["encounters"] = 10,
+				["points"] = 960,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						3, -- [1]
+						85.2489999999998, -- [2]
+						"Whirling Jade Storm |cFFFF33335,493|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						74.732, -- [2]
+						"Deathly Echo |cFFFF333361,258|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						132.065000000002, -- [2]
+						"Deathly Echo |cFFFF333345,979|r", -- [3]
+					}, -- [3]
+					{
+						4, -- [1]
+						75.9830000000002, -- [2]
+						"Deathly Echo |cFFFF3333129,799|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["encounters"] = 18,
+				["points"] = 1790,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						7, -- [1]
+						80.2489999999998, -- [2]
+						"Environment (Falling) |cFFFF3333201,680|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 32,
+				["points"] = 3110,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						63.116, -- [2]
+						"Explosion |cFFFF33338,316|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						65.5659999999998, -- [2]
+						"Unleashed Ember |cFFFF333327,310|r", -- [3]
+					}, -- [2]
+					{
+						8, -- [1]
+						330.445, -- [2]
+						"Blaze |cFFFF333313,279|r", -- [3]
+					}, -- [3]
+					{
+						3, -- [1]
+						173.463, -- [2]
+						"Death Knell |cFFFF333332,848|r", -- [3]
+					}, -- [4]
+					{
+						4, -- [1]
+						171.63, -- [2]
+						"Deathly Echo |cFFFF333332,209|r", -- [3]
+					}, -- [5]
+					{
+						1, -- [1]
+						70.4289999999746, -- [2]
+						"Beam (DoT) |cFFFF333337,606|r", -- [3]
+					}, -- [6]
+					{
+						1, -- [1]
+						163.768000000011, -- [2]
+						"Deathly Slam |cFFFF333354,381|r", -- [3]
+					}, -- [7]
+					{
+						2, -- [1]
+						138.826000000001, -- [2]
+						"Deathly Echo |cFFFF333322,146|r", -- [3]
+					}, -- [8]
+					{
+						1, -- [1]
+						47.6570000000065, -- [2]
+						"Deathly Echo |cFFFF333374,860|r", -- [3]
+					}, -- [9]
+				},
+			},
+			["Míra"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 23,
+				["points"] = 2220,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						143.248, -- [2]
+						"Melee |cFFFF333343,463|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						75.3319999999999, -- [2]
+						"Beam (DoT) |cFFFF333316,010|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						81.1990000000001, -- [2]
+						"Fireball |cFFFF333338,490|r", -- [3]
+					}, -- [3]
+					{
+						6, -- [1]
+						47.8490000000002, -- [2]
+						"Beam (DoT) |cFFFF333345,140|r", -- [3]
+					}, -- [4]
+					{
+						7, -- [1]
+						68.7489999999998, -- [2]
+						"Beam (DoT) |cFFFF333358,124|r", -- [3]
+					}, -- [5]
+					{
+						5, -- [1]
+						227.379999999999, -- [2]
+						"Rending Bite |cFFFF333328,556|r", -- [3]
+					}, -- [6]
+					{
+						2, -- [1]
+						65.6719999999623, -- [2]
+						"Unleashed Ember |cFFFF333335,157|r", -- [3]
+					}, -- [7]
+					{
+						1, -- [1]
+						251.288000000001, -- [2]
+						"Death Touched |cFFFF33335,637|r", -- [3]
+					}, -- [8]
+				},
+			},
+			["Naturesight-BoreanTundra"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						170.347999999998, -- [2]
+						"Death Knell |cFFFF333359,309|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 32,
+				["points"] = 3160,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						2, -- [1]
+						82.415, -- [2]
+						"Fireball |cFFFF333333,918|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						37.549, -- [2]
+						"Melee |cFFFF333357,605|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						58.8459999999905, -- [2]
+						"Bestial Smash |cFFFF3333321,336|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						124.304000000004, -- [2]
+						"Bestial Smash |cFFFF3333272,394|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Xsesive"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Jests"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Nathadon-Malygos"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Taegas"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						108.132000000001, -- [2]
+						"Death Knell |cFFFF333352,849|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Bulwarkbeard"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Frippouille"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Havnot-Stormrage"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						68.9550000000018, -- [2]
+						"Beam (DoT) |cFFFF333341,922|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lightpulse-Tichondrius"] = {
+				["encounters"] = 4,
+				["points"] = 380,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						69.8549999999814, -- [2]
+						"Beam (DoT) |cFFFF333357,956|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						138.826000000001, -- [2]
+						"Deathly Echo |cFFFF333379,282|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 27,
+				["points"] = 2680,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						8, -- [1]
+						84.8989999999994, -- [2]
+						"Environment (Falling) |cFFFF3333214,760|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						95.9649999999674, -- [2]
+						"Environment (Falling) |cFFFF3333230,400|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 14,
+				["points"] = 1380,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						130.815, -- [2]
+						"Wave of Light (DoT) |cFFFF333313,630|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						33.7660000000001, -- [2]
+						"Environment (Falling) |cFFFF3333237,160|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 13,
+				["points"] = 1300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Celedhring"] = {
+				["encounters"] = 10,
+				["points"] = 980,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						56.7160000000004, -- [2]
+						"Melee |cFFFF333312,313|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						98.3989999999976, -- [2]
+						"Unleashed Ember |cFFFF333332,571|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Hubbletotem"] = {
+				["encounters"] = 8,
+				["points"] = 800,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 32,
+				["points"] = 3180,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						57.0819999999999, -- [2]
+						"Beam (DoT) |cFFFF333346,305|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						56.1649999999791, -- [2]
+						"Chi-Ji's Song |cFFFF3333671|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Azsharys-SilverHand"] = {
+				["encounters"] = 32,
+				["points"] = 3130,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						6, -- [1]
+						35.6489999999999, -- [2]
+						"Environment (Falling) |cFFFF3333189,380|r", -- [3]
+					}, -- [1]
+					{
+						8, -- [1]
+						331.011, -- [2]
+						"Dragon's Breath (DoT) |cFFFF333346,284|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						52.9159999999993, -- [2]
+						"Death Knell |cFFFF333367,664|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						172.696999999999, -- [2]
+						"Death Knell |cFFFF333348,979|r", -- [3]
+					}, -- [4]
+					{
+						3, -- [1]
+						173.463, -- [2]
+						"Death Knell |cFFFF333359,396|r", -- [3]
+					}, -- [5]
+					{
+						1, -- [1]
+						122.119999999995, -- [2]
+						"Death Knell |cFFFF333368,843|r", -- [3]
+					}, -- [6]
+					{
+						2, -- [1]
+						237.053000000014, -- [2]
+						"Ferocious Roar |cFFFF333334,596|r", -- [3]
+					}, -- [7]
+				},
+			},
+			["Jojomcblow-Malygos"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						3, -- [1]
+						74.8660000000018, -- [2]
+						"Deathly Echo |cFFFF333379,772|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sorshia"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						196.364000000001, -- [2]
+						"Deathly Echo |cFFFF333331,610|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lucithy-SilverHand"] = {
+				["encounters"] = 32,
+				["points"] = 3190,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						337.413, -- [2]
+						"Multi-Sided Strike |cFFFF333352,589|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Cloudcoastin"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						3, -- [1]
+						86.2160000000004, -- [2]
+						"Beam (DoT) |cFFFF333319,971|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Meowtapes-Proudmoore"] = {
+				["encounters"] = 9,
+				["points"] = 900,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Popmybubbles-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 32,
+				["points"] = 3170,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						3, -- [1]
+						97.281, -- [2]
+						"Environment (Falling) |cFFFF3333181,540|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						100.981, -- [2]
+						"Burnout |cFFFF333333,007|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Jaira"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						46.8489999999947, -- [2]
+						"Beam (DoT) |cFFFF333327,613|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Elidellx"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						97.0149999999994, -- [2]
+						"Judgment: Reckoning |cFFFF333318,166|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Goshogun"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Older"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						75.0319999999993, -- [2]
+						"Deathly Echo |cFFFF3333130,223|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["encounters"] = 23,
+				["points"] = 2280,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						52.9159999999993, -- [2]
+						"Death Knell |cFFFF333380,527|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						198.797, -- [2]
+						"Deathly Echo |cFFFF333371,765|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Atag"] = {
+				["encounters"] = 10,
+				["points"] = 980,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						99.3650000000016, -- [2]
+						"Wave of Light (DoT) |cFFFF333310,419|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						196.948, -- [2]
+						"Death Knell |cFFFF333318,356|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Coffeebean"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 32,
+				["points"] = 3180,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						6, -- [1]
+						47.7660000000001, -- [2]
+						"Beam (DoT) |cFFFF333335,749|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						171.63, -- [2]
+						"Deathly Echo |cFFFF333331,550|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Irith"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 32,
+				["points"] = 3170,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						65.5149999999999, -- [2]
+						"Beam (DoT) |cFFFF333343,677|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						64.616, -- [2]
+						"Searing Embers (DoT) |cFFFF33333,574|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						232.523999999976, -- [2]
+						"Death Knell |cFFFF333356,449|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Ryad-Terenas"] = {
+				["encounters"] = 32,
+				["points"] = 3130,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						65.7820000000002, -- [2]
+						"Burnout |cFFFF333316,238|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						161.997, -- [2]
+						"Environment (Falling) |cFFFF3333203,960|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						171.63, -- [2]
+						"Deathly Echo |cFFFF333333,512|r", -- [3]
+					}, -- [3]
+					{
+						1, -- [1]
+						195.877999999997, -- [2]
+						"Melee |cFFFF333374,692|r", -- [3]
+					}, -- [4]
+					{
+						1, -- [1]
+						196.020000000019, -- [2]
+						"Deathly Slam |cFFFF333330,118|r", -- [3]
+					}, -- [5]
+					{
+						1, -- [1]
+						95.9649999999674, -- [2]
+						"Environment (Falling) |cFFFF3333210,660|r", -- [3]
+					}, -- [6]
+					{
+						3, -- [1]
+						87.7709999999497, -- [2]
+						"Environment (Falling) |cFFFF3333214,340|r", -- [3]
+					}, -- [7]
+				},
+			},
+			["Qitanya"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						67.1160000000018, -- [2]
+						"Beam (DoT) |cFFFF333325,869|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Thornstaad"] = {
+				["encounters"] = 10,
+				["points"] = 980,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						91.7160000000004, -- [2]
+						"Wave of Light (DoT) |cFFFF333310,138|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						132.065000000002, -- [2]
+						"Deathly Echo |cFFFF333365,324|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Greenbar-Malygos"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Cassettes-Proudmoore"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Nalora"] = {
+				["encounters"] = 10,
+				["points"] = 960,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						87.4320000000007, -- [2]
+						"Wave of Light (DoT) |cFFFF333313,855|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						91.3330000000024, -- [2]
+						"Beam (DoT) |cFFFF333340,642|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						59.3830000000016, -- [2]
+						"Beam (DoT) |cFFFF333312,542|r", -- [3]
+					}, -- [3]
+					{
+						1, -- [1]
+						108.132000000001, -- [2]
+						"Death Knell |cFFFF333348,436|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Superc-Lightbringer"] = {
+				["encounters"] = 26,
+				["points"] = 2570,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						172.696999999999, -- [2]
+						"Death Knell |cFFFF333377,728|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						196.315999999992, -- [2]
+						"Deathly Echo |cFFFF3333101,971|r", -- [3]
+					}, -- [2]
+					{
+						2, -- [1]
+						113.222000000067, -- [2]
+						"Ferocious Roar |cFFFF333325,245|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Algozen"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 32,
+				["points"] = 3180,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						5, -- [1]
+						67.1320000000001, -- [2]
+						"Unleashed Ember |cFFFF333322,262|r", -- [3]
+					}, -- [1]
+					{
+						7, -- [1]
+						80.2489999999998, -- [2]
+						"Environment (Falling) |cFFFF3333193,000|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 43,
+				["points"] = 4240,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						137.682000000001, -- [2]
+						"Melee |cFFFF333360,202|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						338.370999999985, -- [2]
+						"Blaze |cFFFF333315,629|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						232.470999999903, -- [2]
+						"Chill of Death (DoT) |cFFFF333322,630|r", -- [3]
+					}, -- [3]
+					{
+						3, -- [1]
+						48.0359999999637, -- [2]
+						"Magma Trap |cFFFF333396,926|r", -- [3]
+					}, -- [4]
+					{
+						3, -- [1]
+						87.7329999999492, -- [2]
+						"Beam (DoT) |cFFFF333367,098|r", -- [3]
+					}, -- [5]
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["219515"] = {
+		["hash"] = "219515",
+		["type"] = "endurance",
+		["name"] = "Zul",
+		["id"] = 2195,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "Uldir",
+			["id"] = 2145,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Zul",
+			["diff"] = 15,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Zul",
+		},
+		["player_db"] = {
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 15,
+				["points"] = 1460,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						221.950999999999, -- [2]
+						"Bloodshard |cFFFF333343,755|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						260.415999999968, -- [2]
+						"Rupturing Blood |cFFFF333360,541|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						238.816999999981, -- [2]
+						"Environment (Falling) |cFFFF333396,027|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						118.849999999977, -- [2]
+						"Environment (Falling) |cFFFF3333206,107|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 15,
+				["points"] = 1450,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						156.174999999999, -- [2]
+						"Absorbed in Darkness (DoT) |cFFFF333325,464|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						290.423999999999, -- [2]
+						"Environment (Falling) |cFFFF333386,370|r", -- [3]
+					}, -- [2]
+					{
+						6, -- [1]
+						314.036, -- [2]
+						"Corrupted Blood (DoT) |cFFFF33337,916|r", -- [3]
+					}, -- [3]
+					{
+						1, -- [1]
+						169.602000000072, -- [2]
+						"Bloodshard |cFFFF333335,555|r", -- [3]
+					}, -- [4]
+					{
+						2, -- [1]
+						297.435999999987, -- [2]
+						"Absorbed in Darkness (DoT) |cFFFF333310,012|r", -- [3]
+					}, -- [5]
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Superc-Lightbringer"] = {
+				["encounters"] = 14,
+				["points"] = 1390,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						163.169, -- [2]
+						"Dark Revelation |cFFFF333371,962|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Unshocked-Proudmoore"] = {
+				["encounters"] = 14,
+				["points"] = 1400,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 14,
+				["points"] = 1380,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						39.6709999999985, -- [2]
+						"Dark Revelation |cFFFF333363,866|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						99.0509999999922, -- [2]
+						"Bloody Cleave |cFFFF333356,412|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 13,
+				["points"] = 1260,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						4, -- [1]
+						309.25, -- [2]
+						"Rupturing Blood |cFFFF333366,218|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						328.092000000001, -- [2]
+						"Corrupted Blood (DoT) |cFFFF33338,275|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						244.784999999974, -- [2]
+						"Rupturing Blood |cFFFF333330,028|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						194.704999999958, -- [2]
+						"Rupturing Blood |cFFFF333361,843|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 14,
+				["points"] = 1380,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						103.646999999999, -- [2]
+						"Dark Revelation |cFFFF333347,335|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						314.130999999999, -- [2]
+						"Deathwish |cFFFF333330,344|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1190,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						2, -- [1]
+						235.100999999995, -- [2]
+						"Rupturing Blood |cFFFF3333505|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 15,
+				["points"] = 1470,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						291.899000000001, -- [2]
+						"Absorbed in Darkness (DoT) |cFFFF333325,403|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						217.825999999999, -- [2]
+						"Bloodshard |cFFFF333333,081|r", -- [3]
+					}, -- [2]
+					{
+						5, -- [1]
+						153.688999999999, -- [2]
+						"Dark Revelation |cFFFF333332,354|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Newc-Lightbringer"] = {
+				["encounters"] = 15,
+				["points"] = 1480,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						128.164000000001, -- [2]
+						"Shadow Barrage (DoT) |cFFFF333334,955|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						267.760000000009, -- [2]
+						"Bloody Cleave |cFFFF333379,818|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Evinè-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Murtag-Sargeras"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						209.063000000082, -- [2]
+						"Dark Revelation |cFFFF333355,636|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jorahx-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 15,
+				["points"] = 1500,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 15,
+				["points"] = 1430,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						338.633, -- [2]
+						"Absorbed in Darkness (DoT) |cFFFF333327,279|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						276.411, -- [2]
+						"Dark Revelation |cFFFF333323,278|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						312.437, -- [2]
+						"Melee |cFFFF333324,889|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						230.751000000004, -- [2]
+						"Deathwish |cFFFF333312,608|r", -- [3]
+					}, -- [4]
+					{
+						2, -- [1]
+						106.752999999968, -- [2]
+						"Dark Revelation |cFFFF333333,432|r", -- [3]
+					}, -- [5]
+					{
+						1, -- [1]
+						40.7099999999919, -- [2]
+						"Dark Revelation |cFFFF333335,667|r", -- [3]
+					}, -- [6]
+					{
+						2, -- [1]
+						191.444000000003, -- [2]
+						"Deathwish |cFFFF333338,265|r", -- [3]
+					}, -- [7]
+				},
+			},
+			["Kaligon-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 15,
+				["points"] = 1460,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						343.688, -- [2]
+						"Corrupted Blood (DoT) |cFFFF33339,012|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						280.344000000001, -- [2]
+						"Environment (Falling) |cFFFF333391,763|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						307.208000000001, -- [2]
+						"Absorbed in Darkness (DoT) |cFFFF333327,057|r", -- [3]
+					}, -- [3]
+					{
+						1, -- [1]
+						124.468999999997, -- [2]
+						"Environment (Falling) |cFFFF3333119,230|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 14,
+				["points"] = 1350,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						323.291999999999, -- [2]
+						"Bloodshard |cFFFF333344,184|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						276.362000000001, -- [2]
+						"Absorbed in Darkness (DoT) |cFFFF333326,583|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						222.280999999999, -- [2]
+						"Shadow Barrage |cFFFF333311,815|r", -- [3]
+					}, -- [3]
+					{
+						6, -- [1]
+						329.449000000001, -- [2]
+						"Deathwish |cFFFF333317,234|r", -- [3]
+					}, -- [4]
+					{
+						2, -- [1]
+						293.736000000034, -- [2]
+						"Corrupted Blood (DoT) |cFFFF33333,582|r", -- [3]
+					}, -- [5]
+				},
+			},
+		},
+		["diff"] = 15,
 	},
 	["234215"] = {
 		["hash"] = "234215",
 		["type"] = "endurance",
 		["name"] = "Opulence",
 		["id"] = 2342,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2271,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Opulence",
+			["diff"] = 15,
+			["ej_instance_id"] = 1176,
+			["encounter"] = "Opulence",
+		},
 		["player_db"] = {
 			["Foxpaw"] = {
 				["encounters"] = 6,
@@ -12974,8 +12897,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Newc-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+				["encounters"] = 4,
+				["points"] = 390,
 				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
@@ -13017,8 +12940,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Êlwen-KhazModan"] = {
-				["encounters"] = 6,
-				["points"] = 570,
+				["encounters"] = 7,
+				["points"] = 670,
 				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
@@ -13055,8 +12978,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Marksopp-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 500,
+				["encounters"] = 6,
+				["points"] = 600,
 				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
@@ -13134,15 +13057,15 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Mallusof"] = {
-				["encounters"] = 11,
-				["points"] = 1100,
+				["encounters"] = 12,
+				["points"] = 1200,
 				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
 			["Eldodin-KhazModan"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+				["encounters"] = 4,
+				["points"] = 390,
 				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
@@ -13186,8 +13109,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Lucithy-SilverHand"] = {
-				["encounters"] = 5,
-				["points"] = 500,
+				["encounters"] = 6,
+				["points"] = 600,
 				["class"] = "MAGE",
 				["deaths"] = {
 				},
@@ -13200,8 +13123,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Azsharys-SilverHand"] = {
-				["encounters"] = 5,
-				["points"] = 500,
+				["encounters"] = 6,
+				["points"] = 600,
 				["class"] = "DRUID",
 				["deaths"] = {
 				},
@@ -13224,22 +13147,22 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Asahina-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
+				["encounters"] = 4,
+				["points"] = 400,
 				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
 			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 500,
+				["encounters"] = 6,
+				["points"] = 600,
 				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
 			["Superc-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+				["encounters"] = 4,
+				["points"] = 390,
 				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
@@ -13295,10 +13218,10 @@ DeathGraphsDBEndurance = {
 					}, -- [3]
 				},
 			},
-			["Atag"] = {
-				["encounters"] = 6,
-				["points"] = 600,
-				["class"] = "MONK",
+			["Greenbar-Malygos"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -13310,8 +13233,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 5,
-				["points"] = 490,
+				["encounters"] = 6,
+				["points"] = 590,
 				["class"] = "PALADIN",
 				["deaths"] = {
 					{
@@ -13341,8 +13264,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Ryad-Terenas"] = {
-				["encounters"] = 5,
-				["points"] = 490,
+				["encounters"] = 6,
+				["points"] = 590,
 				["class"] = "DRUID",
 				["deaths"] = {
 					{
@@ -13372,8 +13295,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 490,
+				["encounters"] = 6,
+				["points"] = 590,
 				["class"] = "DRUID",
 				["deaths"] = {
 					{
@@ -13383,10 +13306,10 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Greenbar-Malygos"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "HUNTER",
+			["Atag"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -13398,8 +13321,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Kesak-Lightbringer"] = {
-				["encounters"] = 6,
-				["points"] = 570,
+				["encounters"] = 7,
+				["points"] = 670,
 				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
@@ -13422,8 +13345,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Jhasu-Lightbringer"] = {
-				["encounters"] = 5,
-				["points"] = 500,
+				["encounters"] = 6,
+				["points"] = 600,
 				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
@@ -13436,205 +13359,380 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2271,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Opulence",
-			["diff"] = 15,
-			["ej_instance_id"] = 1176,
-			["encounter"] = "Opulence",
-		},
 		["diff"] = 15,
 	},
-	["233515"] = {
-		["hash"] = "233515",
+	["219415"] = {
+		["hash"] = "219415",
 		["type"] = "endurance",
-		["name"] = "King Rastakhan",
-		["id"] = 2335,
-		["diff"] = 15,
+		["name"] = "Mythrax",
+		["id"] = 2194,
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
+				["encounters"] = 16,
+				["points"] = 1590,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						4, -- [1]
-						20.929999999993, -- [2]
-						"Meteor Leap |cFFFF3333197,380|r", -- [3]
+						121.134000000078, -- [2]
+						"Annihilation |cFFFF33331,194|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Mistaaytch-Lightbringer"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
 			},
 			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 380,
-				["deaths"] = {
-					{
-						3, -- [1]
-						299.98199999996, -- [2]
-						"Deathly Withering (DoT) |cFFFF333311,206|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						332.244000000006, -- [2]
-						"Dread Reaping (DoT) |cFFFF333343,976|r", -- [3]
-					}, -- [2]
-				},
+				["encounters"] = 16,
+				["points"] = 1600,
 				["class"] = "DRUID",
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 4,
-				["points"] = 390,
 				["deaths"] = {
-					{
-						3, -- [1]
-						268.733999999997, -- [2]
-						"Seal of Bwonsamdi |cFFFF333367,642|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "WARLOCK",
 			},
 			["Kesak-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
+				["encounters"] = 18,
+				["points"] = 1690,
 				["class"] = "SHAMAN",
-			},
-			["Ryad-Terenas"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Azsharys-SilverHand"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Unshocked-Proudmoore"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						1, -- [1]
-						336.914999999979, -- [2]
-						"Bwonsamdi's Wrath |cFFFF333358,405|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 4,
-				["points"] = 380,
 				["deaths"] = {
 					{
 						2, -- [1]
-						307.406000000017, -- [2]
-						"Dread Reaping (DoT) |cFFFF333336,236|r", -- [3]
+						53.1879999999655, -- [2]
+						"Imminent Ruin |cFFFF333315,152|r", -- [3]
 					}, -- [1]
 					{
-						4, -- [1]
-						346.757999999973, -- [2]
-						"Dread Reaping (DoT) |cFFFF333316,384|r", -- [3]
+						3, -- [1]
+						130.373000000021, -- [2]
+						"Crashing Oblivion |cFFFF333316,624|r", -- [3]
+					}, -- [2]
+					{
+						5, -- [1]
+						206.645000000019, -- [2]
+						"Obliteration Blast |cFFFF333317,449|r", -- [3]
+					}, -- [3]
+					{
+						6, -- [1]
+						64.7900000000373, -- [2]
+						"Crashing Oblivion |cFFFF333322,453|r", -- [3]
+					}, -- [4]
+					{
+						6, -- [1]
+						149.592999999994, -- [2]
+						"Obliteration Beam (DoT) |cFFFF33334,139|r", -- [3]
+					}, -- [5]
+					{
+						9, -- [1]
+						178.01800000004, -- [2]
+						"Mind Flay |cFFFF33334,979|r", -- [3]
+					}, -- [6]
+					{
+						10, -- [1]
+						275.277000000002, -- [2]
+						"Crashing Oblivion |cFFFF3333949|r", -- [3]
+					}, -- [7]
+					{
+						2, -- [1]
+						246.472000000009, -- [2]
+						"Obliteration Blast |cFFFF333345,899|r", -- [3]
+					}, -- [8]
+					{
+						2, -- [1]
+						255.444000000018, -- [2]
+						"Crashing Oblivion |cFFFF333320,190|r", -- [3]
+					}, -- [9]
+				},
+			},
+			["Superc-Lightbringer"] = {
+				["encounters"] = 12,
+				["points"] = 1180,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						7, -- [1]
+						152.329999999958, -- [2]
+						"Void Volley |cFFFF333347,933|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						117.417999999991, -- [2]
+						"Obliteration Beam (DoT) |cFFFF333312,702|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "DEMONHUNTER",
 			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 4,
-				["points"] = 390,
+			["Unshocked-Proudmoore"] = {
+				["encounters"] = 12,
+				["points"] = 1190,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						9, -- [1]
+						224.58600000001, -- [2]
+						"Crashing Oblivion |cFFFF333318,642|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 15,
+				["points"] = 1480,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						6, -- [1]
+						149.457000000053, -- [2]
+						"Crashing Oblivion |cFFFF333319,157|r", -- [3]
+					}, -- [1]
+					{
+						7, -- [1]
+						108.414999999921, -- [2]
+						"Obliteration Blast |cFFFF333340,320|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 15,
+				["points"] = 1480,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						2, -- [1]
+						149.513999999996, -- [2]
+						"Melee |cFFFF333326,610|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						145.173999999999, -- [2]
+						"Melee |cFFFF333311,447|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 15,
+				["points"] = 1450,
+				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						3, -- [1]
-						273.462999999989, -- [2]
-						"Deathly Withering (DoT) |cFFFF33334,176|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Mallusof"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sheilyana-Sargeras"] = {
-				["encounters"] = 5,
-				["points"] = 470,
-				["deaths"] = {
-					{
-						1, -- [1]
-						160.741999999969, -- [2]
-						"Deathly Withering (DoT) |cFFFF333311,249|r", -- [3]
+						130.373000000021, -- [2]
+						"Crashing Oblivion |cFFFF333312,056|r", -- [3]
 					}, -- [1]
 					{
-						1, -- [1]
-						307.080999999947, -- [2]
-						"Scorching Detonation |cFFFF333328,222|r", -- [3]
+						4, -- [1]
+						130.947000000044, -- [2]
+						"Obliteration Beam (DoT) |cFFFF33339,465|r", -- [3]
 					}, -- [2]
+					{
+						7, -- [1]
+						151.71100000001, -- [2]
+						"Void Volley |cFFFF333351,482|r", -- [3]
+					}, -- [3]
+					{
+						9, -- [1]
+						209.405000000028, -- [2]
+						"Mind Flay |cFFFF33334,015|r", -- [3]
+					}, -- [4]
+					{
+						1, -- [1]
+						136.857000000004, -- [2]
+						"Mind Flay |cFFFF33338,123|r", -- [3]
+					}, -- [5]
 				},
-				["class"] = "WARRIOR",
 			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
+			["Murtag-Sargeras"] = {
+				["encounters"] = 15,
+				["points"] = 1460,
+				["class"] = "WARRIOR",
 				["deaths"] = {
+					{
+						3, -- [1]
+						130.373000000021, -- [2]
+						"Crashing Oblivion |cFFFF333319,594|r", -- [3]
+					}, -- [1]
+					{
+						10, -- [1]
+						49.8689999999479, -- [2]
+						"Annihilation |cFFFF3333616|r", -- [3]
+					}, -- [2]
 					{
 						2, -- [1]
-						311.374000000011, -- [2]
-						"Dread Reaping (DoT) |cFFFF333322,637|r", -- [3]
+						100.232999999993, -- [2]
+						"Crashing Oblivion |cFFFF333318,831|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						96.2909999999683, -- [2]
+						"Xalzaix's Awakening |cFFFF333321,988|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["encounters"] = 11,
+				["points"] = 1100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 16,
+				["points"] = 1590,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						8, -- [1]
+						144.782000000007, -- [2]
+						"Essence Shear |cFFFF333335,956|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MAGE",
 			},
 			["Marksopp-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 400,
+				["encounters"] = 6,
+				["points"] = 600,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Jhasu-Lightbringer"] = {
-				["encounters"] = 4,
-				["points"] = 390,
+				["encounters"] = 6,
+				["points"] = 580,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						115.17300000001, -- [2]
+						"Melee |cFFFF333396,965|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						98.1199999999954, -- [2]
+						"Crashing Oblivion |cFFFF333318,883|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Evinè-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 11,
+				["points"] = 1090,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						2, -- [1]
-						249.956999999995, -- [2]
-						"Deathly Withering (DoT) |cFFFF333316,983|r", -- [3]
+						33.1790000000037, -- [2]
+						"Obliteration Blast |cFFFF333340,752|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
+			},
+			["Jorahx-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 16,
+				["points"] = 1580,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						4, -- [1]
+						143.148999999976, -- [2]
+						"Mind Flay |cFFFF33334,566|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						151.923999999999, -- [2]
+						"Obliteration Beam (DoT) |cFFFF33333,678|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 17,
+				["points"] = 1650,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						8, -- [1]
+						46.9419999999227, -- [2]
+						"Imminent Ruin |cFFFF333312,198|r", -- [3]
+					}, -- [1]
+					{
+						8, -- [1]
+						151.28899999999, -- [2]
+						"Melee |cFFFF333310,518|r", -- [3]
+					}, -- [2]
+					{
+						10, -- [1]
+						265.873000000021, -- [2]
+						"Melee |cFFFF333338,727|r", -- [3]
+					}, -- [3]
+					{
+						3, -- [1]
+						138.509999999995, -- [2]
+						"Obliteration Beam (DoT) |cFFFF33339,070|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Kaligon-Tichondrius"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						93.7880000000005, -- [2]
+						"Obliteration Blast |cFFFF333320,500|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 16,
+				["points"] = 1570,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						53.1879999999655, -- [2]
+						"Annihilation |cFFFF33331,365|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						206.415000000037, -- [2]
+						"Annihilation |cFFFF33331,364|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						326.220000000001, -- [2]
+						"Mind Flay |cFFFF33332,051|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 15,
+				["points"] = 1490,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						5, -- [1]
+						219.66100000008, -- [2]
+						"Imminent Ruin |cFFFF333314,842|r", -- [3]
+					}, -- [1]
+				},
 			},
 		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2272,
-			["mapid"] = 2070,
+			["index"] = 7,
+			["zone"] = "Uldir",
+			["id"] = 2135,
+			["mapid"] = 1861,
 			["try_number"] = 1,
-			["name"] = "King Rastakhan",
-			["encounter"] = "King Rastakhan",
-			["ej_instance_id"] = 1176,
+			["name"] = "Mythrax",
 			["diff"] = 15,
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Mythrax",
 		},
+		["diff"] = 15,
 	},
 	["219414"] = {
 		["hash"] = "219414",
@@ -13642,18 +13740,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Mythrax",
 		["id"] = 2194,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Uldir",
-			["id"] = 2135,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Mythrax",
-			["encounter"] = "Mythrax",
-			["ej_instance_id"] = 1031,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Kholvinski-EmeraldDream"] = {
 				["encounters"] = 4,
@@ -13828,181 +13914,322 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
-	},
-	["216816"] = {
-		["hash"] = "216816",
-		["type"] = "endurance",
-		["name"] = "Taloc",
-		["id"] = 2168,
-		["diff"] = 16,
 		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 1,
+			["diff_string"] = "Normal",
+			["index"] = 7,
 			["zone"] = "Uldir",
-			["id"] = 2144,
+			["id"] = 2135,
 			["mapid"] = 1861,
 			["try_number"] = 1,
-			["name"] = "Taloc",
-			["encounter"] = "Taloc",
+			["name"] = "Mythrax",
+			["encounter"] = "Mythrax",
 			["ej_instance_id"] = 1031,
-			["diff"] = 16,
+			["diff"] = 14,
 		},
+	},
+	["214615"] = {
+		["hash"] = "214615",
+		["type"] = "endurance",
+		["name"] = "Fetid Devourer",
+		["id"] = 2146,
+		["diff"] = 15,
 		["player_db"] = {
-			["Onick-LaughingSkull"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Newc-Lightbringer"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["deaths"] = {
+					{
+						4, -- [1]
+						143.500999999931, -- [2]
+						"Terrible Thrash |cFFFF3333113,573|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Merricat-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 7,
+				["points"] = 700,
 				["deaths"] = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Bellåtrïx-Sargeras"] = {
+			["Unshocked-Proudmoore"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["deaths"] = {
+					{
+						2, -- [1]
+						104.739000000001, -- [2]
+						"Rotting Regurgitation |cFFFF3333109,528|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Êlwen-KhazModan"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["deaths"] = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Archelous-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Sheilyana-Sargeras"] = {
+				["encounters"] = 6,
+				["points"] = 600,
 				["deaths"] = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Prohibits"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Magedps-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Angeliawell-EmeraldDream"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 5,
+				["points"] = 500,
 				["deaths"] = {
 				},
 				["class"] = "MAGE",
 			},
-			["Lickmybalo-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Scoped-Kel'Thuzad"] = {
-				["encounters"] = 2,
-				["points"] = 190,
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 5,
+				["points"] = 490,
 				["deaths"] = {
 					{
-						1, -- [1]
-						30.1959999999999, -- [2]
-						"Enlarged Heart |cFFFF3333188,773|r", -- [3]
+						2, -- [1]
+						123.190000000002, -- [2]
+						"Melee |cFFFF333346,201|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "DEATHKNIGHT",
 			},
-			["Nymzy-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Haim-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Taïndra-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Regressiøn-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Shandwynn-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Sánctjud-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 190,
+			["Holydemon-ShatteredHalls"] = {
+				["encounters"] = 1,
+				["points"] = 90,
 				["deaths"] = {
 					{
-						1, -- [1]
-						47.5740000000005, -- [2]
-						"Blood Storm (DoT) |cFFFF333314,438|r", -- [3]
+						2, -- [1]
+						141.996000000043, -- [2]
+						"Terrible Thrash |cFFFF3333299,775|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
-			},
-			["Lejoker-EmeraldDream"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
+				["class"] = "PALADIN",
 			},
 			["Mallusof"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 8,
+				["points"] = 800,
 				["deaths"] = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Divshift-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 190,
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Kahoots-Proudmoore"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Mistaaytch-Lightbringer"] = {
+				["encounters"] = 7,
+				["points"] = 690,
 				["deaths"] = {
 					{
-						1, -- [1]
-						41.9110000000001, -- [2]
-						"Cudgel of Gore |cFFFF3333105,096|r", -- [3]
+						3, -- [1]
+						123.088000000003, -- [2]
+						"Putrid Paroxysm (DoT) |cFFFF333361,614|r", -- [3]
 					}, -- [1]
 				},
 				["class"] = "DRUID",
 			},
-			["Nicokororo-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Stabu-Ner'zhul"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						201.503000000026, -- [2]
+						"Terrible Thrash |cFFFF3333341,243|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "ROGUE",
+			},
+			["Voinic-Lightbringer"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Superc-Lightbringer"] = {
+				["encounters"] = 6,
+				["points"] = 600,
 				["deaths"] = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Unstopawble-Stormrage"] = {
+			["Baskîn-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Drchiro-Kilrogg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Zimmer-Kalecgos"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Kholvinski-EmeraldDream"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Watchmecrit-Deathwing"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Jorahx-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Pumbalee-Ner'zhul"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						189.638000000035, -- [2]
+						"Rotting Regurgitation |cFFFF3333111,982|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARRIOR",
+			},
+			["Kaligon-Tichondrius"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
+				},
+			},
+			["Jinto-Khaz'goroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Evinè-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Karakazul-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["deaths"] = {
+					{
+						3, -- [1]
+						132.409, -- [2]
+						"Rotting Regurgitation |cFFFF333390,806|r", -- [3]
+					}, -- [1]
 				},
 				["class"] = "DRUID",
 			},
-			["Enigmatic-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Murtag-Sargeras"] = {
+				["encounters"] = 4,
+				["points"] = 400,
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+				["class"] = "WARRIOR",
 			},
+			["Bigburt-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Tyrionlan-Ner'zhul"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Curaga-Kalecgos"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Arborvitae-Kalecgos"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Uldir",
+			["id"] = 2128,
+			["mapid"] = 1861,
+			["name"] = "Fetid Devourer",
+			["ej_instance_id"] = 1031,
+			["encounter"] = "Fetid Devourer",
+			["diff"] = 15,
 		},
 	},
 	["233014"] = {
@@ -14011,18 +14238,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Conclave of the Chosen",
 		["id"] = 2330,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2268,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Conclave of the Chosen",
-			["encounter"] = "Conclave of the Chosen",
-			["ej_instance_id"] = 1176,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 4,
@@ -14259,6 +14474,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2268,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Conclave of the Chosen",
+			["encounter"] = "Conclave of the Chosen",
+			["ej_instance_id"] = 1176,
+			["diff"] = 14,
+		},
 	},
 	["216614"] = {
 		["hash"] = "216614",
@@ -14266,18 +14493,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Vectis",
 		["id"] = 2166,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "Uldir",
-			["id"] = 2134,
-			["mapid"] = 1861,
-			["try_number"] = 1,
-			["name"] = "Vectis",
-			["encounter"] = "Vectis",
-			["ej_instance_id"] = 1031,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Jhasu-Lightbringer"] = {
 				["encounters"] = 3,
@@ -14400,6 +14615,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "Uldir",
+			["id"] = 2134,
+			["mapid"] = 1861,
+			["try_number"] = 1,
+			["name"] = "Vectis",
+			["encounter"] = "Vectis",
+			["ej_instance_id"] = 1031,
+			["diff"] = 14,
+		},
 	},
 	["234214"] = {
 		["hash"] = "234214",
@@ -14407,18 +14634,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Opulence",
 		["id"] = 2342,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Battle of Dazar'alor",
-			["id"] = 2271,
-			["mapid"] = 2070,
-			["try_number"] = 1,
-			["name"] = "Opulence",
-			["encounter"] = "Opulence",
-			["ej_instance_id"] = 1176,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Mistaaytch-Lightbringer"] = {
 				["encounters"] = 4,
@@ -14610,69 +14825,80 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Battle of Dazar'alor",
+			["id"] = 2271,
+			["mapid"] = 2070,
+			["try_number"] = 1,
+			["name"] = "Opulence",
+			["encounter"] = "Opulence",
+			["ej_instance_id"] = 1176,
+			["diff"] = 14,
+		},
 	},
 }
 DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 203560,
-				["timeofdeath"] = 114.868999999948,
-				["name"] = "Jhasu-Lightbringer",
+				["maxhealth"] = 198180,
+				["timeofdeath"] = 188.521000000008,
+				["name"] = "Newc-Lightbringer",
+				["time"] = 1552627492.443,
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "3m 8s",
 				["events"] = {
 					{
-						true, -- [1]
-						286646, -- [2]
-						6399, -- [3]
-						1552026646.165, -- [4]
-						196157, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						2, -- [1]
+						20484, -- [2]
+						1, -- [3]
+						1552627517.996, -- [4]
+						0, -- [5]
+						"Azsharys-SilverHand", -- [6]
 					}, -- [1]
 					{
-						true, -- [1]
-						286646, -- [2]
-						6079, -- [3]
-						1552026647.124, -- [4]
-						190078, -- [5]
-						"High Tinker Mekkatorque", -- [6]
+						false, -- [1]
+						183811, -- [2]
+						1418, -- [3]
+						1552627467.096, -- [4]
+						204977, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
 						false, -- [1]
-						48438, -- [2]
-						3673, -- [3]
-						1552026647.936, -- [4]
-						193751, -- [5]
-						"Ryad-Terenas", -- [6]
+						183811, -- [2]
+						2837, -- [3]
+						1552627467.253, -- [4]
+						207814, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [3]
 					{
-						true, -- [1]
-						286646, -- [2]
-						5759, -- [3]
-						1552026648.124, -- [4]
-						187992, -- [5]
-						"High Tinker Mekkatorque", -- [6]
+						false, -- [1]
+						287286, -- [2]
+						8175, -- [3]
+						1552627467.354, -- [4]
+						215989, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [4]
 					{
 						false, -- [1]
-						139, -- [2]
-						3184, -- [3]
-						1552026648.39, -- [4]
-						191176, -- [5]
-						"Mallusof", -- [6]
+						183811, -- [2]
+						2837, -- [3]
+						1552627467.674, -- [4]
+						217980, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -14680,32 +14906,578 @@ DeathGraphsDBCurrent = {
 					}, -- [5]
 					{
 						false, -- [1]
-						48438, -- [2]
-						1745, -- [3]
-						1552026648.774, -- [4]
-						192921, -- [5]
-						"Ryad-Terenas", -- [6]
+						272260, -- [2]
+						475, -- [3]
+						1552627468.089, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [6]
 					{
+						false, -- [1]
+						77489, -- [2]
+						1346, -- [3]
+						1552627468.693, -- [4]
+						217980, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1964, -- [3]
+						1552627469.027, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						272260, -- [2]
+						466, -- [3]
+						1552627470.062, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1346, -- [3]
+						1552627471.709, -- [4]
+						217980, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1964, -- [3]
+						1552627471.751, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						272260, -- [2]
+						1900, -- [3]
+						1552627472.07, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						275499, -- [2]
+						1176, -- [3]
+						1552627472.648, -- [4]
+						217980, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						73921, -- [2]
+						4234, -- [3]
+						1552627473.142, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1067, -- [3]
+						1552627473.233, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						false, -- [1]
+						272260, -- [2]
+						3802, -- [3]
+						1552627474.092, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						286105, -- [2]
+						245292, -- [3]
+						1552627474.659, -- [4]
+						217980, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						272260, -- [2]
+						3727, -- [3]
+						1552627476.068, -- [4]
+						217980, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						4, -- [1]
+						286480, -- [2]
+						1, -- [3]
+						1552627486.723, -- [4]
+						217980, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627488.379, -- [4]
+						217980, -- [5]
+						"Êlwen-KhazModan", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
 						true, -- [1]
-						286646, -- [2]
-						5439, -- [3]
-						1552026649.141, -- [4]
-						187482, -- [5]
+						282408, -- [2]
+						52945, -- [3]
+						1552627488.379, -- [4]
+						165035, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						288188, -- [2]
+						19491, -- [3]
+						1552627488.44, -- [4]
+						145544, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						286480, -- [2]
+						88444, -- [3]
+						1552627489.731, -- [4]
+						57100, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						280052, -- [2]
+						8517, -- [3]
+						1552627489.792, -- [4]
+						65617, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627490.313, -- [4]
+						65617, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						282408, -- [2]
+						53824, -- [3]
+						1552627490.313, -- [4]
+						11793, -- [5]
+						"Asahina-Lightbringer <Asahina-Lightbringer>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						183998, -- [2]
+						22267, -- [3]
+						1552627490.637, -- [4]
+						34060, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21932, -- [3]
+						1552627491.896, -- [4]
+						12128, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						25914, -- [2]
+						49117, -- [3]
+						1552627491.932, -- [4]
+						61245, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627492.406, -- [4]
+						61245, -- [5]
+						"Êlwen-KhazModan", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						282408, -- [2]
+						53748, -- [3]
+						1552627492.406, -- [4]
+						7497, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						280052, -- [2]
+						9901, -- [3]
+						1552627492.406, -- [4]
+						17398, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						true, -- [1]
+						288188, -- [2]
+						17398, -- [3]
+						1552627492.443, -- [4]
+						1, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						2028, -- [10]
+					}, -- [33]
+					{
+						3, -- [1]
+						196555, -- [2]
+						1, -- [3]
+						1552627418.069, -- [4]
+						0, -- [5]
+						"Newc-Lightbringer", -- [6]
+					}, -- [34]
+				},
+			}, -- [1]
+			{
+				["maxhealth"] = 190920,
+				["timeofdeath"] = 304.645000000019,
+				["name"] = "Nanaeve-Lightbringer",
+				["time"] = 1552627608.567,
+				["class"] = "DRUID",
+				["timestring"] = "5m 4s",
+				["events"] = {
+					{
+						4, -- [1]
+						286480, -- [2]
+						1, -- [3]
+						1552627602.515, -- [4]
+						210000, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						269279, -- [2]
+						13459, -- [3]
+						1552627603.455, -- [4]
+						210000, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						283394, -- [2]
+						50492, -- [3]
+						1552627603.455, -- [4]
+						172967, -- [5]
 						"High Tinker Mekkatorque", -- [6]
+						13459, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						270117, -- [2]
+						5406, -- [3]
+						1552627603.455, -- [4]
+						178373, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						286480, -- [2]
+						102409, -- [3]
+						1552627605.522, -- [4]
+						76198, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21949, -- [3]
+						1552627606.538, -- [4]
+						54249, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21847, -- [3]
+						1552627607.172, -- [4]
+						32636, -- [5]
+						"Spark Bot", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
+						true, -- [1]
+						288188, -- [2]
+						21894, -- [3]
+						1552627607.768, -- [4]
+						10742, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
 						false, -- [1]
-						48438, -- [2]
-						1661, -- [3]
-						1552026649.602, -- [4]
-						189143, -- [5]
+						145109, -- [2]
+						6300, -- [3]
+						1552627607.881, -- [4]
+						17042, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						286480, -- [2]
+						17042, -- [3]
+						1552627608.527, -- [4]
+						1, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						100728, -- [10]
+					}, -- [10]
+					{
+						3, -- [1]
+						22812, -- [2]
+						1, -- [3]
+						1552627492.443, -- [4]
+						0, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+					}, -- [11]
+				},
+			}, -- [2]
+			{
+				["maxhealth"] = 203580,
+				["timeofdeath"] = 379.016000000003,
+				["name"] = "Ryad-Terenas",
+				["time"] = 1552627682.938,
+				["class"] = "DRUID",
+				["timestring"] = "6m 19s",
+				["events"] = {
+					{
+						false, -- [1]
+						288839, -- [2]
+						5864, -- [3]
+						1552627676.743, -- [4]
+						85670, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5962, -- [3]
+						1552627676.898, -- [4]
+						79708, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						4, -- [1]
+						288806, -- [2]
+						1, -- [3]
+						1552627676.921, -- [4]
+						79708, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						283411, -- [2]
+						20095, -- [3]
+						1552627676.921, -- [4]
+						59613, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						280052, -- [2]
+						8803, -- [3]
+						1552627676.921, -- [4]
+						68416, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						287891, -- [2]
+						23269, -- [3]
+						1552627677.571, -- [4]
+						45394, -- [5]
+						"[*] Sheep Shrapnel", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						272428, -- [2]
+						3458, -- [3]
+						1552627677.571, -- [4]
+						48852, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						108238, -- [2]
+						67176, -- [3]
+						1552627677.61, -- [4]
+						116028, -- [5]
 						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -14713,23 +15485,23 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [8]
 					{
-						true, -- [1]
-						286646, -- [2]
-						5120, -- [3]
-						1552026650.146, -- [4]
-						184023, -- [5]
-						"High Tinker Mekkatorque", -- [6]
+						1, -- [1]
+						108238, -- [2]
+						1, -- [3]
+						1552627677.61, -- [4]
+						116028, -- [5]
+						"Ryad-Terenas", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
 						true, -- [1]
 						283394, -- [2]
-						40291, -- [3]
-						1552026650.233, -- [4]
-						143732, -- [5]
+						45390, -- [3]
+						1552627678.945, -- [4]
+						70638, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						1, -- [8]
@@ -14737,141 +15509,155 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [10]
 					{
-						false, -- [1]
-						48438, -- [2]
-						1567, -- [3]
-						1552026650.459, -- [4]
-						145299, -- [5]
-						"Ryad-Terenas", -- [6]
+						true, -- [1]
+						288806, -- [2]
+						18580, -- [3]
+						1552627678.945, -- [4]
+						52058, -- [5]
+						"[*] Gigavolt Blast", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						139, -- [2]
-						3185, -- [3]
-						1552026650.663, -- [4]
-						148484, -- [5]
-						"Mallusof", -- [6]
+						272428, -- [2]
+						3459, -- [3]
+						1552627679.06, -- [4]
+						55517, -- [5]
+						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [12]
 					{
-						true, -- [1]
-						286646, -- [2]
-						5119, -- [3]
-						1552026651.141, -- [4]
-						143365, -- [5]
-						"High Tinker Mekkatorque", -- [6]
+						false, -- [1]
+						774, -- [2]
+						6311, -- [3]
+						1552627679.06, -- [4]
+						61828, -- [5]
+						"Ryad-Terenas", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [13]
 					{
 						false, -- [1]
-						77489, -- [2]
-						479, -- [3]
-						1552026651.272, -- [4]
-						143844, -- [5]
-						"Mallusof", -- [6]
+						272428, -- [2]
+						3459, -- [3]
+						1552627679.06, -- [4]
+						65287, -- [5]
+						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [14]
 					{
 						false, -- [1]
-						48438, -- [2]
-						1475, -- [3]
-						1552026651.272, -- [4]
-						145319, -- [5]
+						200389, -- [2]
+						3506, -- [3]
+						1552627679.084, -- [4]
+						68793, -- [5]
 						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [15]
 					{
 						false, -- [1]
-						48438, -- [2]
-						1381, -- [3]
-						1552026652.126, -- [4]
-						146700, -- [5]
+						272428, -- [2]
+						3458, -- [3]
+						1552627679.327, -- [4]
+						72251, -- [5]
 						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [16]
 					{
-						true, -- [1]
-						286646, -- [2]
-						5119, -- [3]
-						1552026652.156, -- [4]
-						141581, -- [5]
-						"High Tinker Mekkatorque", -- [6]
+						false, -- [1]
+						155777, -- [2]
+						3424, -- [3]
+						1552627679.327, -- [4]
+						75675, -- [5]
+						"Ryad-Terenas", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [17]
 					{
-						true, -- [1]
-						288188, -- [2]
-						17273, -- [3]
-						1552026652.662, -- [4]
-						124308, -- [5]
-						"Nanaeve-Lightbringer <Nanaeve-Lightbringer>", -- [6]
+						false, -- [1]
+						272428, -- [2]
+						3459, -- [3]
+						1552627679.517, -- [4]
+						79134, -- [5]
+						"Ryad-Terenas", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [18]
 					{
 						false, -- [1]
-						48438, -- [2]
-						1288, -- [3]
-						1552026652.957, -- [4]
-						125596, -- [5]
+						270661, -- [2]
+						1613, -- [3]
+						1552627679.517, -- [4]
+						80747, -- [5]
 						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [19]
 					{
-						false, -- [1]
-						139, -- [2]
-						3184, -- [3]
-						1552026653.033, -- [4]
-						128780, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						52042, -- [2]
-						7801, -- [3]
-						1552026653.033, -- [4]
-						136581, -- [5]
-						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
 						true, -- [1]
-						286646, -- [2]
-						5119, -- [3]
-						1552026653.163, -- [4]
-						131462, -- [5]
+						284177, -- [2]
+						11347, -- [3]
+						1552627679.517, -- [4]
+						69400, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						287891, -- [2]
+						23269, -- [3]
+						1552627679.571, -- [4]
+						46379, -- [5]
+						"[*] Sheep Shrapnel", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						145109, -- [2]
+						7542, -- [3]
+						1552627679.595, -- [4]
+						53921, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
-						48438, -- [2]
-						1421, -- [3]
-						1552026654.493, -- [4]
-						132883, -- [5]
+						272428, -- [2]
+						3459, -- [3]
+						1552627680.588, -- [4]
+						57380, -- [5]
 						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -14880,10 +15666,10 @@ DeathGraphsDBCurrent = {
 					}, -- [23]
 					{
 						false, -- [1]
-						48438, -- [2]
-						448, -- [3]
-						1552026654.672, -- [4]
-						133331, -- [5]
+						774, -- [2]
+						3424, -- [3]
+						1552627680.588, -- [4]
+						60804, -- [5]
 						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -14891,12 +15677,3233 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [24]
 					{
+						true, -- [1]
+						288806, -- [2]
+						18581, -- [3]
+						1552627680.953, -- [4]
+						42223, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						774, -- [2]
+						6848, -- [3]
+						1552627681.538, -- [4]
+						49071, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						200389, -- [2]
+						1902, -- [3]
+						1552627681.56, -- [4]
+						50973, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						287891, -- [2]
+						23268, -- [3]
+						1552627681.56, -- [4]
+						27954, -- [5]
+						"[*] Sheep Shrapnel", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						288839, -- [2]
+						5864, -- [3]
+						1552627681.725, -- [4]
+						33818, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						155777, -- [2]
+						3424, -- [3]
+						1552627681.816, -- [4]
+						37242, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						288188, -- [2]
+						20009, -- [3]
+						1552627682.405, -- [4]
+						17233, -- [5]
+						"Kalithumos-Tichondrius <Kalithumos-Tichondrius>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						288806, -- [2]
+						17233, -- [3]
+						1552627682.938, -- [4]
+						1, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						1347, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						108238, -- [2]
+						1, -- [3]
+						1552627677.61, -- [4]
+						0, -- [5]
+						"Ryad-Terenas", -- [6]
+					}, -- [33]
+				},
+			}, -- [3]
+			{
+				["maxhealth"] = 217620,
+				["timeofdeath"] = 387.241000000009,
+				["name"] = "Eldodin-KhazModan",
+				["time"] = 1552627691.163,
+				["class"] = "WARLOCK",
+				["timestring"] = "6m 27s",
+				["events"] = {
+					{
+						false, -- [1]
+						108366, -- [2]
+						820, -- [3]
+						1552627684.434, -- [4]
+						36758, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						284177, -- [2]
+						8855, -- [3]
+						1552627684.434, -- [4]
+						28723, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						820, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						275499, -- [2]
+						5784, -- [3]
+						1552627684.715, -- [4]
+						34507, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						143924, -- [2]
+						38, -- [3]
+						1552627684.817, -- [4]
+						34545, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						288806, -- [2]
+						14167, -- [3]
+						1552627684.93, -- [4]
+						20378, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						280208, -- [2]
+						6456, -- [3]
+						1552627685.338, -- [4]
+						26834, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						234153, -- [2]
+						7315, -- [3]
+						1552627685.338, -- [4]
+						34149, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						143924, -- [2]
+						35, -- [3]
+						1552627686.046, -- [4]
+						34184, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						280208, -- [2]
+						3228, -- [3]
+						1552627686.171, -- [4]
+						37412, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						234153, -- [2]
+						7320, -- [3]
+						1552627686.171, -- [4]
+						44732, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						108366, -- [2]
+						706, -- [3]
+						1552627686.846, -- [4]
+						44732, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						288188, -- [2]
+						15728, -- [3]
+						1552627686.846, -- [4]
+						29710, -- [5]
+						"Spark Bot", -- [6]
+						706, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						288806, -- [2]
+						14166, -- [3]
+						1552627686.913, -- [4]
+						15544, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						280208, -- [2]
+						3228, -- [3]
+						1552627687.038, -- [4]
+						18772, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						234153, -- [2]
+						7320, -- [3]
+						1552627687.038, -- [4]
+						26092, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						143924, -- [2]
+						72, -- [3]
+						1552627687.266, -- [4]
+						26164, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						280208, -- [2]
+						3228, -- [3]
+						1552627687.853, -- [4]
+						29392, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						234153, -- [2]
+						7320, -- [3]
+						1552627687.853, -- [4]
+						36712, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						100, -- [3]
+						1552627688.506, -- [4]
+						36812, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						108366, -- [2]
+						1114, -- [3]
+						1552627688.921, -- [4]
+						36812, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						288806, -- [2]
+						14167, -- [3]
+						1552627688.921, -- [4]
+						23759, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						1114, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						108366, -- [2]
+						664, -- [3]
+						1552627689.422, -- [4]
+						23759, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						284177, -- [2]
+						8854, -- [3]
+						1552627689.422, -- [4]
+						15569, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						664, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1552627689.422, -- [4]
+						15569, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						204883, -- [2]
+						10664, -- [3]
+						1552627689.634, -- [4]
+						26233, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						66, -- [3]
+						1552627689.698, -- [4]
+						26299, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						143924, -- [2]
+						23, -- [3]
+						1552627690.896, -- [4]
+						26322, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						108366, -- [2]
+						336, -- [3]
+						1552627690.941, -- [4]
+						26322, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						288806, -- [2]
+						13934, -- [3]
+						1552627690.941, -- [4]
+						12724, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						336, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1552627690.941, -- [4]
+						12724, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						287891, -- [2]
+						1, -- [3]
+						1552627691.107, -- [4]
+						12724, -- [5]
+						"[*] Sheep Shrapnel", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						287891, -- [2]
+						12724, -- [3]
+						1552627691.139, -- [4]
+						1, -- [5]
+						"[*] Sheep Shrapnel", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						25336, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						104773, -- [2]
+						1, -- [3]
+						1552627683.604, -- [4]
+						0, -- [5]
+						"Eldodin-KhazModan", -- [6]
+					}, -- [33]
+				},
+			}, -- [4]
+			{
+				["maxhealth"] = 198180,
+				["timeofdeath"] = 420.180000000022,
+				["name"] = "Newc-Lightbringer",
+				["time"] = 1552627724.102,
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "7m 0s",
+				["events"] = {
+					{
+						false, -- [1]
+						77489, -- [2]
+						2885, -- [3]
+						1552627702.976, -- [4]
+						198180, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						284177, -- [2]
+						11021, -- [3]
+						1552627704.492, -- [4]
+						187159, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						8739, -- [3]
+						1552627704.704, -- [4]
+						195898, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						143924, -- [2]
+						4904, -- [3]
+						1552627705.951, -- [4]
+						198180, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2885, -- [3]
+						1552627705.951, -- [4]
+						198180, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						284177, -- [2]
+						11021, -- [3]
+						1552627709.457, -- [4]
+						187159, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						3803, -- [3]
+						1552627709.548, -- [4]
+						190962, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						183811, -- [2]
+						944, -- [3]
+						1552627709.979, -- [4]
+						191906, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						924, -- [3]
+						1552627710.735, -- [4]
+						192830, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						143924, -- [2]
+						4184, -- [3]
+						1552627710.778, -- [4]
+						197014, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						941, -- [3]
+						1552627711.046, -- [4]
+						197955, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1889, -- [3]
+						1552627711.184, -- [4]
+						198180, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						288188, -- [2]
+						19018, -- [3]
+						1552627714.327, -- [4]
+						179162, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						8041, -- [3]
+						1552627714.423, -- [4]
+						187203, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						284177, -- [2]
+						11021, -- [3]
+						1552627714.458, -- [4]
+						176182, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						73921, -- [2]
+						5351, -- [3]
+						1552627715.036, -- [4]
+						181533, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						145110, -- [2]
+						10445, -- [3]
+						1552627715.231, -- [4]
+						191978, -- [5]
+						"Mistaaytch-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						143924, -- [2]
+						2299, -- [3]
+						1552627715.62, -- [4]
+						194277, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						73921, -- [2]
+						2444, -- [3]
+						1552627716.521, -- [4]
+						196721, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						1674, -- [3]
+						1552627716.835, -- [4]
+						198180, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						73921, -- [2]
+						2405, -- [3]
+						1552627717.865, -- [4]
+						198180, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						284177, -- [2]
+						11021, -- [3]
+						1552627719.566, -- [4]
+						187159, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						283394, -- [2]
+						48982, -- [3]
+						1552627720.345, -- [4]
+						138177, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						183811, -- [2]
+						976, -- [3]
+						1552627721.333, -- [4]
+						139153, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						183811, -- [2]
+						999, -- [3]
+						1552627721.639, -- [4]
+						140152, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						1878, -- [3]
+						1552627721.709, -- [4]
+						142030, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1617, -- [3]
+						1552627722.711, -- [4]
+						143647, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1623, -- [3]
+						1552627722.833, -- [4]
+						145270, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						143924, -- [2]
+						1509, -- [3]
+						1552627722.931, -- [4]
+						146779, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						4, -- [1]
+						287891, -- [2]
+						1, -- [3]
+						1552627723.816, -- [4]
+						146779, -- [5]
+						"[*] Sheep Shrapnel", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						287891, -- [2]
+						46838, -- [3]
+						1552627723.816, -- [4]
+						99941, -- [5]
+						"[*] Sheep Shrapnel", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						282182, -- [2]
+						99941, -- [3]
+						1552627724.102, -- [4]
+						1, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						21562, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						196555, -- [2]
+						1, -- [3]
+						1552627577.835, -- [4]
+						0, -- [5]
+						"Newc-Lightbringer", -- [6]
+					}, -- [33]
+				},
+			}, -- [5]
+			{
+				["maxhealth"] = 194120,
+				["timeofdeath"] = 422.60500000001,
+				["name"] = "Asahina-Lightbringer",
+				["time"] = 1552627726.527,
+				["class"] = "MAGE",
+				["timestring"] = "7m 2s",
+				["events"] = {
+					{
+						false, -- [1]
+						183811, -- [2]
+						924, -- [3]
+						1552627719.606, -- [4]
+						151344, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						280177, -- [2]
+						7096, -- [3]
+						1552627719.627, -- [4]
+						158440, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						280177, -- [2]
+						3548, -- [3]
+						1552627720.207, -- [4]
+						161988, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						270661, -- [2]
+						2563, -- [3]
+						1552627720.345, -- [4]
+						164551, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						283394, -- [2]
+						50495, -- [3]
+						1552627720.345, -- [4]
+						114056, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20738, -- [3]
+						1552627720.681, -- [4]
+						93318, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						280177, -- [2]
+						3548, -- [3]
+						1552627720.809, -- [4]
+						96866, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						280177, -- [2]
+						7095, -- [3]
+						1552627721.455, -- [4]
+						103961, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1839, -- [3]
+						1552627721.455, -- [4]
+						105800, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						280177, -- [2]
+						2659, -- [3]
+						1552627721.658, -- [4]
+						108459, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1615, -- [3]
+						1552627722.314, -- [4]
+						110074, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						288126, -- [2]
+						2408, -- [3]
+						1552627722.465, -- [4]
+						112482, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1477, -- [3]
+						1552627722.465, -- [4]
+						113959, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20738, -- [3]
+						1552627722.666, -- [4]
+						93221, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						33110, -- [2]
+						15339, -- [3]
+						1552627722.666, -- [4]
+						108560, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						288126, -- [2]
+						1204, -- [3]
+						1552627722.809, -- [4]
+						109764, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						183811, -- [2]
+						760, -- [3]
+						1552627722.833, -- [4]
+						110524, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						270661, -- [2]
+						2563, -- [3]
+						1552627723.233, -- [4]
+						113087, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						183811, -- [2]
+						2047, -- [3]
+						1552627723.335, -- [4]
+						115134, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						197997, -- [2]
+						25651, -- [3]
+						1552627723.727, -- [4]
+						140785, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						86949, -- [2]
+						84141, -- [3]
+						1552627724.477, -- [4]
+						140785, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						282182, -- [2]
+						150194, -- [3]
+						1552627724.477, -- [4]
+						74732, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						84141, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						282182, -- [2]
+						1, -- [3]
+						1552627724.477, -- [4]
+						74732, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						284177, -- [2]
+						12623, -- [3]
+						1552627724.538, -- [4]
+						62109, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20739, -- [3]
+						1552627724.695, -- [4]
+						41370, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						287286, -- [2]
+						14118, -- [3]
+						1552627724.862, -- [4]
+						55488, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						282182, -- [2]
+						31108, -- [3]
+						1552627725.484, -- [4]
+						24380, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						33110, -- [2]
+						7669, -- [3]
+						1552627725.504, -- [4]
+						32049, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2323, -- [3]
+						1552627725.723, -- [4]
+						34372, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						87023, -- [2]
+						17000, -- [3]
+						1552627725.977, -- [4]
+						17372, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						270661, -- [2]
+						2562, -- [3]
+						1552627726.239, -- [4]
+						19934, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						282182, -- [2]
+						19934, -- [3]
+						1552627726.509, -- [4]
+						1, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						15840, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Asahina-Lightbringer", -- [6]
+					}, -- [33]
+				},
+			}, -- [6]
+			{
+				["maxhealth"] = 204720,
+				["timeofdeath"] = 429,
+				["name"] = "Jhasu-Lightbringer",
+				["time"] = 1552627732.922,
+				["class"] = "SHAMAN",
+				["timestring"] = "7m 9s",
+				["events"] = {
+					{
+						false, -- [1]
+						61295, -- [2]
+						3001, -- [3]
+						1552627722.237, -- [4]
+						130607, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						288806, -- [2]
+						11966, -- [3]
+						1552627722.666, -- [4]
+						118641, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						197997, -- [2]
+						53183, -- [3]
+						1552627722.931, -- [4]
+						171824, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						77489, -- [2]
+						5523, -- [3]
+						1552627724.336, -- [4]
+						177347, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						61295, -- [2]
+						2615, -- [3]
+						1552627724.374, -- [4]
+						179962, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						284177, -- [2]
+						7479, -- [3]
+						1552627724.538, -- [4]
+						172483, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						33110, -- [2]
+						7669, -- [3]
+						1552627724.573, -- [4]
+						180152, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						288806, -- [2]
+						11966, -- [3]
+						1552627724.695, -- [4]
+						168186, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						282182, -- [2]
+						84670, -- [3]
+						1552627724.901, -- [4]
+						83516, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						4, -- [1]
+						282182, -- [2]
+						1, -- [3]
+						1552627724.901, -- [4]
+						83516, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						282182, -- [2]
+						17950, -- [3]
+						1552627725.913, -- [4]
+						65566, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						33110, -- [2]
+						7669, -- [3]
+						1552627725.913, -- [4]
+						73235, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						61295, -- [2]
+						2937, -- [3]
+						1552627726.485, -- [4]
+						76172, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						288806, -- [2]
+						11966, -- [3]
+						1552627726.66, -- [4]
+						64206, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						282182, -- [2]
+						17949, -- [3]
+						1552627726.893, -- [4]
+						46257, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						6262, -- [2]
+						62499, -- [3]
+						1552627727.035, -- [4]
+						108756, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1549, -- [3]
+						1552627727.608, -- [4]
+						110305, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						282182, -- [2]
+						17950, -- [3]
+						1552627727.884, -- [4]
+						92355, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						288806, -- [2]
+						11967, -- [3]
+						1552627728.66, -- [4]
+						80388, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						282182, -- [2]
+						17950, -- [3]
+						1552627728.896, -- [4]
+						62438, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						61295, -- [2]
+						39890, -- [3]
+						1552627729.121, -- [4]
+						102328, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						284177, -- [2]
+						7479, -- [3]
+						1552627729.554, -- [4]
+						105081, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						282182, -- [2]
+						29916, -- [3]
+						1552627729.878, -- [4]
+						75165, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						183998, -- [2]
+						58023, -- [3]
+						1552627730.539, -- [4]
+						133188, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1549, -- [3]
+						1552627730.589, -- [4]
+						134737, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19944, -- [3]
+						1552627730.653, -- [4]
+						114793, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						61295, -- [2]
+						2729, -- [3]
+						1552627730.69, -- [4]
+						117522, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						282182, -- [2]
+						29916, -- [3]
+						1552627730.919, -- [4]
+						87606, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21293, -- [3]
+						1552627731.856, -- [4]
+						66313, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						282182, -- [2]
+						29916, -- [3]
+						1552627731.927, -- [4]
+						36397, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						288806, -- [2]
+						22935, -- [3]
+						1552627732.648, -- [4]
+						13462, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						282182, -- [2]
+						13462, -- [3]
+						1552627732.922, -- [4]
+						1, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						20941, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						108271, -- [2]
+						1, -- [3]
+						1552627721.611, -- [4]
+						0, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+					}, -- [33]
+				},
+			}, -- [7]
+			{
+				["maxhealth"] = 189680,
+				["timeofdeath"] = 430.656000000017,
+				["name"] = "Azsharys-SilverHand",
+				["time"] = 1552627734.578,
+				["class"] = "DRUID",
+				["timestring"] = "7m 10s",
+				["events"] = {
+					{
+						false, -- [1]
+						8936, -- [2]
+						21918, -- [3]
+						1552627725.619, -- [4]
+						43615, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						183998, -- [2]
+						29701, -- [3]
+						1552627725.665, -- [4]
+						73316, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1512, -- [3]
+						1552627726.065, -- [4]
+						74828, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						143924, -- [2]
+						26, -- [3]
+						1552627726.204, -- [4]
+						75086, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19950, -- [3]
+						1552627726.686, -- [4]
+						55136, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						280052, -- [2]
+						8441, -- [3]
+						1552627726.686, -- [4]
+						63577, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						8936, -- [2]
+						913, -- [3]
+						1552627726.926, -- [4]
+						64490, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						8936, -- [2]
+						21919, -- [3]
+						1552627727.135, -- [4]
+						86409, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						143924, -- [2]
+						27, -- [3]
+						1552627727.37, -- [4]
+						86436, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						288188, -- [2]
+						22066, -- [3]
+						1552627728.095, -- [4]
+						64370, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1487, -- [3]
+						1552627728.371, -- [4]
+						66089, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						143924, -- [2]
+						36, -- [3]
+						1552627728.559, -- [4]
+						66125, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						8936, -- [2]
+						919, -- [3]
+						1552627728.646, -- [4]
+						67044, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19949, -- [3]
+						1552627728.66, -- [4]
+						47095, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						8936, -- [2]
+						22041, -- [3]
+						1552627728.792, -- [4]
+						69136, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1512, -- [3]
+						1552627729.071, -- [4]
+						70648, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						284177, -- [2]
+						12468, -- [3]
+						1552627729.554, -- [4]
+						58180, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						143924, -- [2]
+						39, -- [3]
+						1552627729.826, -- [4]
+						58219, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						8936, -- [2]
+						921, -- [3]
+						1552627730.37, -- [4]
+						59373, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19949, -- [3]
+						1552627730.653, -- [4]
+						39424, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						143924, -- [2]
+						66, -- [3]
+						1552627731.043, -- [4]
+						39490, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1488, -- [3]
+						1552627731.856, -- [4]
+						40978, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1512, -- [3]
+						1552627732.055, -- [4]
+						42490, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						288188, -- [2]
+						25376, -- [3]
+						1552627732.075, -- [4]
+						17114, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						8936, -- [2]
+						926, -- [3]
+						1552627732.111, -- [4]
+						18040, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						2, -- [3]
+						1552627732.232, -- [4]
+						18275, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						287286, -- [2]
+						8176, -- [3]
+						1552627732.429, -- [4]
+						26451, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						288806, -- [2]
+						21539, -- [3]
+						1552627732.648, -- [4]
+						4912, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						143924, -- [2]
+						37, -- [3]
+						1552627733.462, -- [4]
+						5079, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						8936, -- [2]
+						924, -- [3]
+						1552627733.858, -- [4]
+						6003, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1488, -- [3]
+						1552627734.363, -- [4]
+						7595, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						284177, -- [2]
+						7595, -- [3]
+						1552627734.578, -- [4]
+						1, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						6743, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						22812, -- [2]
+						1, -- [3]
+						1552627680.507, -- [4]
+						0, -- [5]
+						"Azsharys-SilverHand", -- [6]
+					}, -- [33]
+				},
+			}, -- [8]
+			{
+				["maxhealth"] = 200520,
+				["timeofdeath"] = 437.948000000004,
+				["name"] = "Kesak-Lightbringer",
+				["time"] = 1552627741.87,
+				["class"] = "SHAMAN",
+				["timestring"] = "7m 17s",
+				["events"] = {
+					{
+						true, -- [1]
+						288806, -- [2]
+						20007, -- [3]
+						1552627728.66, -- [4]
+						90421, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						284177, -- [2]
+						12179, -- [3]
+						1552627729.554, -- [4]
+						78242, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						159, -- [3]
+						1552627729.826, -- [4]
+						78401, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						31616, -- [2]
+						45437, -- [3]
+						1552627730.653, -- [4]
+						123838, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20008, -- [3]
+						1552627730.653, -- [4]
+						103830, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1278, -- [3]
+						1552627730.748, -- [4]
+						105108, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						437, -- [3]
+						1552627731.043, -- [4]
+						105545, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						143924, -- [2]
+						79, -- [3]
+						1552627732.232, -- [4]
+						105624, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						288839, -- [2]
+						11487, -- [3]
+						1552627732.488, -- [4]
+						117111, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						8004, -- [2]
+						28157, -- [3]
+						1552627732.599, -- [4]
+						145268, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20007, -- [3]
+						1552627732.648, -- [4]
+						125261, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						143924, -- [2]
+						230, -- [3]
+						1552627733.462, -- [4]
+						125491, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						8004, -- [2]
+						28156, -- [3]
+						1552627733.817, -- [4]
+						153647, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						284177, -- [2]
+						11593, -- [3]
+						1552627734.578, -- [4]
+						142054, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20007, -- [3]
+						1552627734.685, -- [4]
+						122047, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						143924, -- [2]
+						33, -- [3]
+						1552627734.685, -- [4]
+						122080, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						8004, -- [2]
+						28156, -- [3]
+						1552627735.08, -- [4]
+						150236, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21161, -- [3]
+						1552627735.189, -- [4]
+						129075, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21942, -- [3]
+						1552627735.794, -- [4]
+						107133, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						67, -- [3]
+						1552627735.864, -- [4]
+						107200, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20007, -- [3]
+						1552627736.651, -- [4]
+						87193, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						143924, -- [2]
+						340, -- [3]
+						1552627737.121, -- [4]
+						87533, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						342, -- [3]
+						1552627738.335, -- [4]
+						87875, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20007, -- [3]
+						1552627738.694, -- [4]
+						67868, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21949, -- [3]
+						1552627739.004, -- [4]
+						45919, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						183811, -- [2]
+						2129, -- [3]
+						1552627739.345, -- [4]
+						48048, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						183811, -- [2]
+						2129, -- [3]
+						1552627739.345, -- [4]
+						50177, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						143924, -- [2]
+						511, -- [3]
+						1552627739.533, -- [4]
+						50688, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						284177, -- [2]
+						12178, -- [3]
+						1552627739.577, -- [4]
+						38510, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						288806, -- [2]
+						23008, -- [3]
+						1552627740.646, -- [4]
+						15502, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						143924, -- [2]
+						263, -- [3]
+						1552627740.71, -- [4]
+						15765, -- [5]
+						"Kesak-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						288188, -- [2]
+						15765, -- [3]
+						1552627741.87, -- [4]
+						1, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						9495, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Kesak-Lightbringer", -- [6]
+					}, -- [33]
+				},
+			}, -- [9]
+			{
+				["maxhealth"] = 217220,
+				["timeofdeath"] = 441.817999999999,
+				["name"] = "Kalithumos-Tichondrius",
+				["time"] = 1552627745.74,
+				["class"] = "PALADIN",
+				["timestring"] = "7m 21s",
+				["events"] = {
+					{
+						true, -- [1]
+						286646, -- [2]
+						6117, -- [3]
+						1552627738.641, -- [4]
+						135275, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1296, -- [3]
+						1552627739.004, -- [4]
+						136571, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						64844, -- [2]
+						6726, -- [3]
+						1552627739.374, -- [4]
+						143297, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						284177, -- [2]
+						10623, -- [3]
+						1552627739.577, -- [4]
+						132674, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						286646, -- [2]
+						6033, -- [3]
+						1552627739.627, -- [4]
+						126641, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						61295, -- [2]
+						4821, -- [3]
+						1552627739.676, -- [4]
+						131462, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5784, -- [3]
+						1552627740.646, -- [4]
+						125678, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						64844, -- [2]
+						13452, -- [3]
+						1552627741.092, -- [4]
+						139130, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						52042, -- [2]
+						5572, -- [3]
+						1552627741.55, -- [4]
+						144702, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						286646, -- [2]
+						6033, -- [3]
+						1552627741.62, -- [4]
+						138669, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627741.675, -- [4]
+						138669, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						282408, -- [2]
+						55469, -- [3]
+						1552627741.675, -- [4]
+						83200, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						280052, -- [2]
+						9369, -- [3]
+						1552627741.735, -- [4]
+						92569, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2901, -- [3]
+						1552627741.959, -- [4]
+						95470, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						139, -- [2]
+						3598, -- [3]
+						1552627742.356, -- [4]
+						99068, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						61295, -- [2]
+						2487, -- [3]
+						1552627742.455, -- [4]
+						101555, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5783, -- [3]
+						1552627742.649, -- [4]
+						95772, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						280052, -- [2]
+						9369, -- [3]
+						1552627742.649, -- [4]
+						105141, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						275499, -- [2]
+						4896, -- [3]
+						1552627742.733, -- [4]
+						110037, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5784, -- [3]
+						1552627743.625, -- [4]
+						104253, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						204883, -- [2]
+						11731, -- [3]
+						1552627743.625, -- [4]
+						115984, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						288188, -- [2]
+						19113, -- [3]
+						1552627743.625, -- [4]
+						96871, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1419, -- [3]
+						1552627744.019, -- [4]
+						98290, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						284177, -- [2]
+						10183, -- [3]
+						1552627744.599, -- [4]
+						88107, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5783, -- [3]
+						1552627744.625, -- [4]
+						82324, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						139, -- [2]
+						3598, -- [3]
+						1552627744.9, -- [4]
+						85922, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3481, -- [3]
+						1552627744.977, -- [4]
+						89403, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627745.543, -- [4]
+						89403, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						282408, -- [2]
+						56681, -- [3]
+						1552627745.543, -- [4]
+						32722, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						286646, -- [2]
+						6116, -- [3]
+						1552627745.652, -- [4]
+						26606, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627745.716, -- [4]
+						26606, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						282408, -- [2]
+						26606, -- [3]
+						1552627745.716, -- [4]
+						1, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						29848, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						498, -- [2]
+						1, -- [3]
+						1552627684.379, -- [4]
+						0, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+					}, -- [33]
+				},
+			}, -- [10]
+		},
+		["bossname"] = "Mekkatorque",
+		["bossicon"] = {
+			0.5, -- [1]
+			0.75, -- [2]
+			0.25, -- [3]
+			0.5, -- [4]
+			"Interface\\AddOns\\Details\\images\\raid\\DazaralorRaid_BossFaces", -- [5]
+		},
+		["date"] = 167446.531,
+		["timeelapsed"] = 451.472000000009,
+	}, -- [1]
+	{
+		["deaths"] = {
+			{
+				["maxhealth"] = 203580,
+				["timeofdeath"] = 269.774999999994,
+				["name"] = "Ryad-Terenas",
+				["events"] = {
+					{
+						false, -- [1]
+						77489, -- [2]
+						1507, -- [3]
+						1552627053.435, -- [4]
+						192935, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						52042, -- [2]
+						10249, -- [3]
+						1552627053.529, -- [4]
+						203184, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1517, -- [3]
+						1552627053.919, -- [4]
+						204701, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1630, -- [3]
+						1552627054.153, -- [4]
+						206331, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1421, -- [3]
+						1552627054.76, -- [4]
+						207752, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						145109, -- [2]
+						8365, -- [3]
+						1552627055.524, -- [4]
+						216365, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1323, -- [3]
+						1552627055.627, -- [4]
+						217688, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1507, -- [3]
+						1552627056.428, -- [4]
+						219195, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1225, -- [3]
+						1552627056.467, -- [4]
+						220420, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						48438, -- [2]
+						272, -- [3]
+						1552627056.673, -- [4]
+						220692, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
 						false, -- [1]
 						287255, -- [2]
-						4049, -- [3]
-						1552026654.672, -- [4]
-						137380, -- [5]
+						4199, -- [3]
+						1552627056.673, -- [4]
+						223920, -- [5]
 						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						4, -- [1]
+						286646, -- [2]
+						1, -- [3]
+						1552627056.879, -- [4]
+						223920, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5925, -- [3]
+						1552627057.864, -- [4]
+						217995, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5775, -- [3]
+						1552627058.865, -- [4]
+						212220, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						139, -- [2]
+						3271, -- [3]
+						1552627059.347, -- [4]
+						215741, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						288839, -- [2]
+						5376, -- [3]
+						1552627059.551, -- [4]
+						221117, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						145109, -- [2]
+						7542, -- [3]
+						1552627059.551, -- [4]
+						223920, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5776, -- [3]
+						1552627059.867, -- [4]
+						218144, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1698, -- [3]
+						1552627060.14, -- [4]
+						219842, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						275499, -- [2]
+						2425, -- [3]
+						1552627060.721, -- [4]
+						222267, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5602, -- [3]
+						1552627060.873, -- [4]
+						216665, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						225311, -- [2]
+						27469, -- [3]
+						1552627061.833, -- [4]
+						223920, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5534, -- [3]
+						1552627061.881, -- [4]
+						218386, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						139, -- [2]
+						6542, -- [3]
+						1552627061.923, -- [4]
+						223920, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [24]
+					{
+						false, -- [1]
+						77489, -- [2]
+						495, -- [3]
+						1552627062.374, -- [4]
+						223920, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -14905,9 +18912,9 @@ DeathGraphsDBCurrent = {
 					{
 						true, -- [1]
 						286646, -- [2]
-						5119, -- [3]
-						1552026654.672, -- [4]
-						132261, -- [5]
+						5535, -- [3]
+						1552627062.857, -- [4]
+						218385, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
@@ -14916,47 +18923,45 @@ DeathGraphsDBCurrent = {
 					}, -- [26]
 					{
 						false, -- [1]
-						77489, -- [2]
-						480, -- [3]
-						1552026654.672, -- [4]
-						132741, -- [5]
-						"Mallusof", -- [6]
+						270661, -- [2]
+						1698, -- [3]
+						1552627063.208, -- [4]
+						220334, -- [5]
+						"Ryad-Terenas", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [27]
 					{
+						false, -- [1]
+						145109, -- [2]
+						6718, -- [3]
+						1552627063.559, -- [4]
+						223920, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [28]
+					{
 						true, -- [1]
-						282182, -- [2]
-						115604, -- [3]
-						1552026654.893, -- [4]
-						17137, -- [5]
+						286646, -- [2]
+						5776, -- [3]
+						1552627063.887, -- [4]
+						218144, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						282182, -- [2]
-						1, -- [3]
-						1552026654.893, -- [4]
-						17137, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
 					}, -- [29]
 					{
 						true, -- [1]
-						286646, -- [2]
-						5887, -- [3]
-						1552026655.156, -- [4]
-						11250, -- [5]
-						"High Tinker Mekkatorque", -- [6]
+						288188, -- [2]
+						19340, -- [3]
+						1552627064.422, -- [4]
+						198804, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
@@ -14965,9 +18970,411 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						139, -- [2]
-						3184, -- [3]
-						1552026655.376, -- [4]
-						14434, -- [5]
+						3270, -- [3]
+						1552627064.527, -- [4]
+						202074, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						282245, -- [2]
+						202074, -- [3]
+						1552627064.622, -- [4]
+						1, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						93871, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Ryad-Terenas", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DRUID",
+				["timestring"] = "4m 29s",
+				["time"] = 1552627064.622,
+			}, -- [1]
+			{
+				["maxhealth"] = 204720,
+				["timeofdeath"] = 273.71100000001,
+				["name"] = "Jhasu-Lightbringer",
+				["events"] = {
+					{
+						true, -- [1]
+						288188, -- [2]
+						21130, -- [3]
+						1552627044.434, -- [4]
+						204050, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21929, -- [3]
+						1552627046.411, -- [4]
+						182121, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						145110, -- [2]
+						6300, -- [3]
+						1552627048.147, -- [4]
+						188421, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						48438, -- [2]
+						3817, -- [3]
+						1552627050.586, -- [4]
+						192238, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1810, -- [3]
+						1552627051.368, -- [4]
+						194048, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1712, -- [3]
+						1552627052.251, -- [4]
+						195760, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						48438, -- [2]
+						3230, -- [3]
+						1552627053.09, -- [4]
+						198990, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						225311, -- [2]
+						8940, -- [3]
+						1552627053.386, -- [4]
+						207930, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1517, -- [3]
+						1552627053.919, -- [4]
+						209447, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1420, -- [3]
+						1552627054.793, -- [4]
+						210867, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1323, -- [3]
+						1552627055.627, -- [4]
+						212190, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						48438, -- [2]
+						2450, -- [3]
+						1552627056.467, -- [4]
+						214640, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						48438, -- [2]
+						272, -- [3]
+						1552627056.673, -- [4]
+						214912, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						287255, -- [2]
+						8399, -- [3]
+						1552627056.673, -- [4]
+						223311, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						288188, -- [2]
+						22140, -- [3]
+						1552627060.381, -- [4]
+						201171, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						288188, -- [2]
+						20516, -- [3]
+						1552627061.634, -- [4]
+						180655, -- [5]
+						"Eldodin-KhazModan <Eldodin-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						225311, -- [2]
+						13514, -- [3]
+						1552627061.833, -- [4]
+						194169, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						280205, -- [2]
+						4685, -- [3]
+						1552627062.291, -- [4]
+						198854, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						204883, -- [2]
+						10665, -- [3]
+						1552627062.57, -- [4]
+						209519, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						280205, -- [2]
+						4513, -- [3]
+						1552627063.208, -- [4]
+						214032, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						280205, -- [2]
+						4514, -- [3]
+						1552627064.139, -- [4]
+						218546, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						283394, -- [2]
+						48461, -- [3]
+						1552627064.622, -- [4]
+						170085, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						288806, -- [2]
+						1, -- [3]
+						1552627064.622, -- [4]
+						170085, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						283411, -- [2]
+						20754, -- [3]
+						1552627064.622, -- [4]
+						149331, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						197997, -- [2]
+						21284, -- [3]
+						1552627065.515, -- [4]
+						170615, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1615, -- [3]
+						1552627065.614, -- [4]
+						172230, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						288188, -- [2]
+						20191, -- [3]
+						1552627065.653, -- [4]
+						152039, -- [5]
+						"Eldodin-KhazModan <Eldodin-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						52042, -- [2]
+						12015, -- [3]
+						1552627066.378, -- [4]
+						164054, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						288806, -- [2]
+						18984, -- [3]
+						1552627066.618, -- [4]
+						145070, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21414, -- [3]
+						1552627068.217, -- [4]
+						123656, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						33110, -- [2]
+						7669, -- [3]
+						1552627068.241, -- [4]
+						131325, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -14977,57 +19384,63 @@ DeathGraphsDBCurrent = {
 					{
 						true, -- [1]
 						282182, -- [2]
-						14434, -- [3]
-						1552026656.05, -- [4]
+						131325, -- [3]
+						1552627068.53, -- [4]
 						1, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
-						13089, -- [10]
+						6544, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
+						108271, -- [2]
+						1, -- [3]
+						1552626983.852, -- [4]
 						0, -- [5]
 						"Jhasu-Lightbringer", -- [6]
 					}, -- [33]
 				},
 				["class"] = "SHAMAN",
-				["timestring"] = "1m 54s",
-				["time"] = 1552026656.05,
-			}, -- [1]
+				["timestring"] = "4m 33s",
+				["time"] = 1552627068.558,
+			}, -- [2]
 			{
-				["maxhealth"] = 234620,
-				["timeofdeath"] = 193.974999999977,
-				["name"] = "Mallusof",
+				["maxhealth"] = 193860,
+				["timeofdeath"] = 274.515000000014,
+				["name"] = "Lucithy-SilverHand",
 				["events"] = {
 					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1552026785.294, -- [4]
-						0, -- [5]
-						"Azsharys-SilverHand", -- [6]
+						true, -- [1]
+						288188, -- [2]
+						18680, -- [3]
+						1552627058.489, -- [4]
+						213240, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
-						77489, -- [2]
-						2251, -- [3]
-						1552026723.56, -- [4]
-						209086, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
+						235450, -- [2]
+						5590, -- [3]
+						1552627058.865, -- [4]
+						213240, -- [5]
+						"Lucithy-SilverHand", -- [6]
+						true, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [2]
 					{
 						true, -- [1]
 						286646, -- [2]
-						6663, -- [3]
-						1552026724.129, -- [4]
-						202423, -- [5]
+						5590, -- [3]
+						1552627058.865, -- [4]
+						213240, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
@@ -15036,68 +19449,70 @@ DeathGraphsDBCurrent = {
 					}, -- [3]
 					{
 						false, -- [1]
-						143924, -- [2]
-						37, -- [3]
-						1552026724.173, -- [4]
-						202460, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						139, -- [2]
-						3185, -- [3]
-						1552026724.204, -- [4]
-						205645, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
+						235450, -- [2]
+						5590, -- [3]
+						1552627059.867, -- [4]
+						213240, -- [5]
+						"Lucithy-SilverHand", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [5]
+					}, -- [4]
 					{
 						true, -- [1]
 						286646, -- [2]
-						6664, -- [3]
-						1552026725.362, -- [4]
-						199242, -- [5]
+						5590, -- [3]
+						1552627059.867, -- [4]
+						213240, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						288126, -- [2]
+						12036, -- [3]
+						1552627060.265, -- [4]
+						213240, -- [5]
+						"Lucithy-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [6]
 					{
-						true, -- [1]
-						288188, -- [2]
-						22590, -- [3]
-						1552026725.362, -- [4]
-						176652, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
+						false, -- [1]
+						235450, -- [2]
+						5588, -- [3]
+						1552627060.501, -- [4]
+						213240, -- [5]
+						"Lucithy-SilverHand", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
-						false, -- [1]
-						143924, -- [2]
-						53, -- [3]
-						1552026725.823, -- [4]
-						176705, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						288188, -- [2]
+						19140, -- [3]
+						1552627060.501, -- [4]
+						199688, -- [5]
+						"Spark Bot", -- [6]
+						5588, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [8]
 					{
 						true, -- [1]
 						286646, -- [2]
-						6663, -- [3]
-						1552026726.136, -- [4]
-						170042, -- [5]
+						6380, -- [3]
+						1552627060.873, -- [4]
+						193308, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
@@ -15106,10 +19521,10 @@ DeathGraphsDBCurrent = {
 					}, -- [9]
 					{
 						false, -- [1]
-						77489, -- [2]
-						1821, -- [3]
-						1552026726.584, -- [4]
-						171863, -- [5]
+						139, -- [2]
+						3271, -- [3]
+						1552627061.265, -- [4]
+						196579, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -15117,103 +19532,107 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [10]
 					{
-						false, -- [1]
-						139, -- [2]
-						3184, -- [3]
-						1552026726.871, -- [4]
-						175308, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						46, -- [3]
-						1552026727.023, -- [4]
-						175354, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
 						true, -- [1]
 						286646, -- [2]
-						6663, -- [3]
-						1552026727.12, -- [4]
-						168691, -- [5]
+						6576, -- [3]
+						1552627061.881, -- [4]
+						190003, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1310, -- [3]
+						1552627062.23, -- [4]
+						191313, -- [5]
+						"Lucithy-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						204883, -- [2]
+						10665, -- [3]
+						1552627062.57, -- [4]
+						201978, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [13]
 					{
-						true, -- [1]
-						286646, -- [2]
-						6663, -- [3]
-						1552026728.121, -- [4]
-						162028, -- [5]
-						"High Tinker Mekkatorque", -- [6]
+						false, -- [1]
+						52042, -- [2]
+						4889, -- [3]
+						1552627062.706, -- [4]
+						206867, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
 						true, -- [1]
-						288188, -- [2]
-						22630, -- [3]
-						1552026728.613, -- [4]
-						139398, -- [5]
-						"Ryad-Terenas <Ryad-Terenas>", -- [6]
+						286646, -- [2]
+						6577, -- [3]
+						1552627062.857, -- [4]
+						200290, -- [5]
+						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
-						true, -- [1]
-						288188, -- [2]
-						22096, -- [3]
-						1552026728.9, -- [4]
-						117563, -- [5]
-						"Eldodin-KhazModan <Eldodin-KhazModan>", -- [6]
+						false, -- [1]
+						145110, -- [2]
+						6300, -- [3]
+						1552627063.208, -- [4]
+						206590, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [16]
 					{
-						true, -- [1]
-						286646, -- [2]
-						6663, -- [3]
-						1552026729.133, -- [4]
-						110900, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
 						false, -- [1]
-						143924, -- [2]
-						37, -- [3]
-						1552026729.445, -- [4]
-						110937, -- [5]
+						139, -- [2]
+						6541, -- [3]
+						1552627063.851, -- [4]
+						213131, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						286646, -- [2]
+						6577, -- [3]
+						1552627063.887, -- [4]
+						206554, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [18]
 					{
 						false, -- [1]
-						139, -- [2]
-						3185, -- [3]
-						1552026729.498, -- [4]
-						114122, -- [5]
+						77489, -- [2]
+						1407, -- [3]
+						1552627064.306, -- [4]
+						207961, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -15221,47 +19640,47 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [19]
 					{
-						false, -- [1]
-						269108, -- [2]
-						6298, -- [3]
-						1552026729.498, -- [4]
-						120420, -- [5]
-						"Mallusof", -- [6]
+						true, -- [1]
+						283394, -- [2]
+						51245, -- [3]
+						1552627064.622, -- [4]
+						156716, -- [5]
+						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						false, -- [1]
-						77489, -- [2]
-						1846, -- [3]
-						1552026729.567, -- [4]
-						122266, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
 						true, -- [1]
 						286646, -- [2]
-						6664, -- [3]
-						1552026730.131, -- [4]
-						115602, -- [5]
+						6576, -- [3]
+						1552627064.984, -- [4]
+						150140, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1310, -- [3]
+						1552627065.252, -- [4]
+						151450, -- [5]
+						"Lucithy-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
 						true, -- [1]
 						286646, -- [2]
-						6663, -- [3]
-						1552026731.101, -- [4]
-						109200, -- [5]
+						6576, -- [3]
+						1552627065.853, -- [4]
+						144874, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
@@ -15271,9 +19690,9 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						139, -- [2]
-						3185, -- [3]
-						1552026732.031, -- [4]
-						112385, -- [5]
+						3271, -- [3]
+						1552627066.428, -- [4]
+						148145, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -15283,9 +19702,9 @@ DeathGraphsDBCurrent = {
 					{
 						true, -- [1]
 						286646, -- [2]
-						6664, -- [3]
-						1552026732.112, -- [4]
-						105721, -- [5]
+						6576, -- [3]
+						1552627066.889, -- [4]
+						141569, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
@@ -15295,9 +19714,9 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						77489, -- [2]
-						1846, -- [3]
-						1552026732.574, -- [4]
-						107567, -- [5]
+						1407, -- [3]
+						1552627067.583, -- [4]
+						142976, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -15306,22 +19725,424 @@ DeathGraphsDBCurrent = {
 					}, -- [26]
 					{
 						true, -- [1]
-						288188, -- [2]
-						22075, -- [3]
-						1552026732.897, -- [4]
-						85753, -- [5]
-						"Eldodin-KhazModan <Eldodin-KhazModan>", -- [6]
+						286646, -- [2]
+						6577, -- [3]
+						1552627067.886, -- [4]
+						136399, -- [5]
+						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [27]
 					{
+						false, -- [1]
+						270661, -- [2]
+						1310, -- [3]
+						1552627068.241, -- [4]
+						137709, -- [5]
+						"Lucithy-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						288188, -- [2]
+						22386, -- [3]
+						1552627068.653, -- [4]
+						115323, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
 						true, -- [1]
 						286646, -- [2]
-						6663, -- [3]
-						1552026733.119, -- [4]
-						79090, -- [5]
+						6577, -- [3]
+						1552627068.869, -- [4]
+						108746, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						139, -- [2]
+						3271, -- [3]
+						1552627068.989, -- [4]
+						112017, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						282182, -- [2]
+						112017, -- [3]
+						1552627069.341, -- [4]
+						1, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						32184, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						45438, -- [2]
+						1, -- [3]
+						1552626909.406, -- [4]
+						0, -- [5]
+						"Lucithy-SilverHand", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "4m 34s",
+				["time"] = 1552627069.362,
+			}, -- [3]
+			{
+				["maxhealth"] = 198180,
+				["timeofdeath"] = 277.040000000008,
+				["name"] = "Newc-Lightbringer",
+				["events"] = {
+					{
+						false, -- [1]
+						77489, -- [2]
+						1586, -- [3]
+						1552627061.532, -- [4]
+						195027, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5657, -- [3]
+						1552627061.881, -- [4]
+						189370, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5658, -- [3]
+						1552627062.881, -- [4]
+						183712, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						139, -- [2]
+						3270, -- [3]
+						1552627063.208, -- [4]
+						186982, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						275499, -- [2]
+						5195, -- [3]
+						1552627063.703, -- [4]
+						192177, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5658, -- [3]
+						1552627063.887, -- [4]
+						186519, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						288188, -- [2]
+						19117, -- [3]
+						1552627063.887, -- [4]
+						167402, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1586, -- [3]
+						1552627064.527, -- [4]
+						168988, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						52042, -- [2]
+						5618, -- [3]
+						1552627064.583, -- [4]
+						174606, -- [5]
+						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						288188, -- [2]
+						18630, -- [3]
+						1552627064.583, -- [4]
+						155976, -- [5]
+						"Nanaeve-Lightbringer <Nanaeve-Lightbringer>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						283394, -- [2]
+						48982, -- [3]
+						1552627064.622, -- [4]
+						106994, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						4, -- [1]
+						288806, -- [2]
+						1, -- [3]
+						1552627064.622, -- [4]
+						106994, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						283411, -- [2]
+						19070, -- [3]
+						1552627064.622, -- [4]
+						87924, -- [5]
+						"Ryad-Terenas", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5658, -- [3]
+						1552627064.984, -- [4]
+						82266, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						139, -- [2]
+						3270, -- [3]
+						1552627065.724, -- [4]
+						85536, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5658, -- [3]
+						1552627065.853, -- [4]
+						79878, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						288806, -- [2]
+						17634, -- [3]
+						1552627066.618, -- [4]
+						62244, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						286646, -- [2]
+						5658, -- [3]
+						1552627066.889, -- [4]
+						56586, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						286646, -- [2]
+						3666, -- [3]
+						1552627067.886, -- [4]
+						52920, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						139, -- [2]
+						3271, -- [3]
+						1552627068.313, -- [4]
+						56191, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						269108, -- [2]
+						12595, -- [3]
+						1552627068.313, -- [4]
+						68786, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						288188, -- [2]
+						19032, -- [3]
+						1552627068.448, -- [4]
+						49754, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						288806, -- [2]
+						11426, -- [3]
+						1552627068.616, -- [4]
+						38328, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						286646, -- [2]
+						4216, -- [3]
+						1552627068.869, -- [4]
+						34112, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						286646, -- [2]
+						4216, -- [3]
+						1552627069.873, -- [4]
+						29896, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						288806, -- [2]
+						13140, -- [3]
+						1552627070.613, -- [4]
+						16756, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						139, -- [2]
+						3270, -- [3]
+						1552627070.836, -- [4]
+						20026, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						286646, -- [2]
+						4216, -- [3]
+						1552627070.879, -- [4]
+						15810, -- [5]
 						"High Tinker Mekkatorque", -- [6]
 						nil, -- [7]
 						8, -- [8]
@@ -15329,11 +20150,2069 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [28]
 					{
+						false, -- [1]
+						77489, -- [2]
+						1907, -- [3]
+						1552627071.338, -- [4]
+						17717, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						286646, -- [2]
+						4216, -- [3]
+						1552627071.857, -- [4]
+						13501, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						288806, -- [2]
+						2, -- [3]
+						1552627071.857, -- [4]
+						13501, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						283411, -- [2]
+						13501, -- [3]
+						1552627071.887, -- [4]
+						1, -- [5]
+						"Newc-Lightbringer", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						true, -- [9]
+						709, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						196555, -- [2]
+						1, -- [3]
+						1552626985.456, -- [4]
+						0, -- [5]
+						"Newc-Lightbringer", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "4m 37s",
+				["time"] = 1552627071.887,
+			}, -- [4]
+			{
+				["maxhealth"] = 189680,
+				["timeofdeath"] = 281.969000000012,
+				["name"] = "Azsharys-SilverHand",
+				["events"] = {
+					{
+						false, -- [1]
+						77489, -- [2]
+						1615, -- [3]
+						1552627068.592, -- [4]
+						143825, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19949, -- [3]
+						1552627068.616, -- [4]
+						123876, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						288188, -- [2]
+						22141, -- [3]
+						1552627068.755, -- [4]
+						101735, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						143924, -- [2]
+						48, -- [3]
+						1552627069.133, -- [4]
+						102015, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1512, -- [3]
+						1552627069.572, -- [4]
+						103527, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21074, -- [3]
+						1552627069.664, -- [4]
+						82453, -- [5]
+						"Eldodin-KhazModan <Eldodin-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						8936, -- [2]
+						919, -- [3]
+						1552627070.241, -- [4]
+						83372, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						143924, -- [2]
+						103, -- [3]
+						1552627070.366, -- [4]
+						83475, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19949, -- [3]
+						1552627070.613, -- [4]
+						63526, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						19750, -- [2]
+						32542, -- [3]
+						1552627071.512, -- [4]
+						96313, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						143924, -- [2]
+						692, -- [3]
+						1552627071.538, -- [4]
+						97005, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						287286, -- [2]
+						12578, -- [3]
+						1552627071.785, -- [4]
+						109583, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						8936, -- [2]
+						953, -- [3]
+						1552627071.947, -- [4]
+						110536, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21232, -- [3]
+						1552627072.061, -- [4]
+						89304, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19949, -- [3]
+						1552627072.607, -- [4]
+						69355, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						143924, -- [2]
+						192, -- [3]
+						1552627072.783, -- [4]
+						69547, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21343, -- [3]
+						1552627072.783, -- [4]
+						48204, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						8936, -- [2]
+						913, -- [3]
+						1552627073.434, -- [4]
+						49338, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21369, -- [3]
+						1552627073.73, -- [4]
+						27969, -- [5]
+						"Eldodin-KhazModan <Eldodin-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						298, -- [3]
+						1552627073.968, -- [4]
+						28267, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						183998, -- [2]
+						22905, -- [3]
+						1552627074.086, -- [4]
+						51172, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19949, -- [3]
+						1552627074.619, -- [4]
+						31223, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						8936, -- [2]
+						919, -- [3]
+						1552627074.922, -- [4]
+						32142, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						143924, -- [2]
+						531, -- [3]
+						1552627075.219, -- [4]
+						32904, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						183998, -- [2]
+						22632, -- [3]
+						1552627075.618, -- [4]
+						55536, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						8936, -- [2]
+						22104, -- [3]
+						1552627076.031, -- [4]
+						77640, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						288188, -- [2]
+						24258, -- [3]
+						1552627076.031, -- [4]
+						53382, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						288188, -- [2]
+						24349, -- [3]
+						1552627076.097, -- [4]
+						29033, -- [5]
+						"Nanaeve-Lightbringer <Nanaeve-Lightbringer>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						143924, -- [2]
+						52, -- [3]
+						1552627076.445, -- [4]
+						29085, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						8936, -- [2]
+						921, -- [3]
+						1552627076.445, -- [4]
+						30006, -- [5]
+						"Azsharys-SilverHand", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						288806, -- [2]
+						22942, -- [3]
+						1552627076.619, -- [4]
+						7064, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						288188, -- [2]
+						7064, -- [3]
+						1552627076.792, -- [4]
+						1, -- [5]
+						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						14861, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Azsharys-SilverHand", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DRUID",
+				["timestring"] = "4m 41s",
+				["time"] = 1552627076.816,
+			}, -- [5]
+			{
+				["maxhealth"] = 190920,
+				["timeofdeath"] = 293.012000000017,
+				["name"] = "Nanaeve-Lightbringer",
+				["events"] = {
+					{
+						false, -- [1]
+						286105, -- [2]
+						219734, -- [3]
+						1552627056.163, -- [4]
+						210000, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						278147, -- [2]
+						2358, -- [3]
+						1552627056.709, -- [4]
+						210000, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						278147, -- [2]
+						2372, -- [3]
+						1552627057.709, -- [4]
+						210000, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3768, -- [3]
+						1552627058.547, -- [4]
+						210000, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						4, -- [1]
+						286480, -- [2]
+						1, -- [3]
+						1552627081.751, -- [4]
+						210000, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						120692, -- [2]
+						29292, -- [3]
+						1552627083.007, -- [4]
+						210000, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						false, -- [1]
+						269279, -- [2]
+						13459, -- [3]
+						1552627084.168, -- [4]
+						210000, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						288188, -- [2]
+						17728, -- [3]
+						1552627084.168, -- [4]
+						205731, -- [5]
+						"Spark Bot", -- [6]
+						13459, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						270117, -- [2]
+						5406, -- [3]
+						1552627084.168, -- [4]
+						210000, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						286480, -- [2]
+						81927, -- [3]
+						1552627084.814, -- [4]
+						128073, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						288188, -- [2]
+						17702, -- [3]
+						1552627085.06, -- [4]
+						110371, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627085.511, -- [4]
+						110371, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						282408, -- [2]
+						62710, -- [3]
+						1552627085.511, -- [4]
+						47661, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21992, -- [3]
+						1552627085.643, -- [4]
+						25669, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4435, -- [3]
+						1552627086.063, -- [4]
+						30338, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						4, -- [1]
+						286646, -- [2]
+						1, -- [3]
+						1552627087.373, -- [4]
+						30338, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						286480, -- [2]
+						30571, -- [3]
+						1552627087.802, -- [4]
+						1, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						82750, -- [10]
+					}, -- [17]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+					}, -- [18]
+				},
+				["class"] = "DRUID",
+				["timestring"] = "4m 53s",
+				["time"] = 1552627087.859,
+			}, -- [6]
+			{
+				["maxhealth"] = 217220,
+				["timeofdeath"] = 294.447000000015,
+				["name"] = "Kalithumos-Tichondrius",
+				["events"] = {
+					{
+						false, -- [1]
+						145110, -- [2]
+						6300, -- [3]
+						1552627068.159, -- [4]
+						201666, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						288188, -- [2]
+						20981, -- [3]
+						1552627068.37, -- [4]
+						180685, -- [5]
+						"Nanaeve-Lightbringer <Nanaeve-Lightbringer>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1614, -- [3]
+						1552627068.616, -- [4]
+						182299, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						true, -- [1]
+						288806, -- [2]
+						18025, -- [3]
+						1552627068.616, -- [4]
+						164274, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						288839, -- [2]
+						10752, -- [3]
+						1552627069.528, -- [4]
+						175026, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19063, -- [3]
+						1552627070.613, -- [4]
+						155963, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627071.64, -- [4]
+						155963, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						282408, -- [2]
+						57774, -- [3]
+						1552627071.64, -- [4]
+						98189, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						280052, -- [2]
+						9901, -- [3]
+						1552627071.664, -- [4]
+						108090, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						288188, -- [2]
+						20451, -- [3]
+						1552627071.785, -- [4]
+						87639, -- [5]
+						"Nanaeve-Lightbringer <Nanaeve-Lightbringer>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						288188, -- [2]
+						20759, -- [3]
+						1552627071.829, -- [4]
+						66880, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19064, -- [3]
+						1552627072.607, -- [4]
+						47816, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						1, -- [1]
+						642, -- [2]
+						1, -- [3]
+						1552627072.783, -- [4]
+						47816, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						2061, -- [2]
+						19197, -- [3]
+						1552627074.237, -- [4]
+						67013, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						288839, -- [2]
+						10753, -- [3]
+						1552627074.512, -- [4]
+						77766, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						204883, -- [2]
+						10665, -- [3]
+						1552627076.816, -- [4]
+						88431, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3015, -- [3]
+						1552627077.351, -- [4]
+						91446, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						145110, -- [2]
+						6300, -- [3]
+						1552627078.148, -- [4]
+						97746, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3014, -- [3]
+						1552627080.272, -- [4]
+						100760, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						120692, -- [2]
+						14646, -- [3]
+						1552627082.127, -- [4]
+						115406, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						269108, -- [2]
+						6298, -- [3]
+						1552627082.151, -- [4]
+						121704, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3119, -- [3]
+						1552627083.284, -- [4]
+						124823, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627085.511, -- [4]
+						124823, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						282408, -- [2]
+						58113, -- [3]
+						1552627085.511, -- [4]
+						66710, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3119, -- [3]
+						1552627086.286, -- [4]
+						69829, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						4, -- [1]
+						286646, -- [2]
+						1, -- [3]
+						1552627087.373, -- [4]
+						69829, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
 						4, -- [1]
 						288806, -- [2]
 						1, -- [3]
-						1552026733.119, -- [4]
-						79090, -- [5]
+						1552627087.802, -- [4]
+						69829, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						283411, -- [2]
+						18840, -- [3]
+						1552627087.802, -- [4]
+						50989, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						286646, -- [2]
+						6158, -- [3]
+						1552627088.371, -- [4]
+						44831, -- [5]
+						"High Tinker Mekkatorque", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1735, -- [3]
+						1552627088.371, -- [4]
+						46566, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627089.294, -- [4]
+						46566, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						282408, -- [2]
+						46566, -- [3]
+						1552627089.294, -- [4]
+						1, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						10464, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						642, -- [2]
+						1, -- [3]
+						1552627072.783, -- [4]
+						0, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "4m 54s",
+				["time"] = 1552627089.294,
+			}, -- [7]
+			{
+				["maxhealth"] = 194120,
+				["timeofdeath"] = 294.502999999997,
+				["name"] = "Asahina-Lightbringer",
+				["events"] = {
+					{
+						false, -- [1]
+						280177, -- [2]
+						7096, -- [3]
+						1552627076.077, -- [4]
+						177660, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						280177, -- [2]
+						1240, -- [3]
+						1552627076.205, -- [4]
+						178900, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20739, -- [3]
+						1552627076.619, -- [4]
+						158161, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						204883, -- [2]
+						10665, -- [3]
+						1552627076.816, -- [4]
+						168826, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						288806, -- [2]
+						16591, -- [3]
+						1552627078.612, -- [4]
+						152235, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						287286, -- [2]
+						11578, -- [3]
+						1552627079.398, -- [4]
+						163813, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						288188, -- [2]
+						17896, -- [3]
+						1552627079.799, -- [4]
+						145917, -- [5]
+						"Nanaeve-Lightbringer <Nanaeve-Lightbringer>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1615, -- [3]
+						1552627079.86, -- [4]
+						147532, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						288806, -- [2]
+						16591, -- [3]
+						1552627080.609, -- [4]
+						130941, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						288126, -- [2]
+						1204, -- [3]
+						1552627081.097, -- [4]
+						132145, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						288126, -- [2]
+						1204, -- [3]
+						1552627081.813, -- [4]
+						133349, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						270661, -- [2]
+						2563, -- [3]
+						1552627081.836, -- [4]
+						135912, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						183811, -- [2]
+						835, -- [3]
+						1552627082.565, -- [4]
+						136747, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						288806, -- [2]
+						16591, -- [3]
+						1552627082.622, -- [4]
+						120156, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1615, -- [3]
+						1552627082.824, -- [4]
+						121771, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						120692, -- [2]
+						14647, -- [3]
+						1552627083.007, -- [4]
+						136418, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						183811, -- [2]
+						861, -- [3]
+						1552627084.367, -- [4]
+						137279, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						288806, -- [2]
+						16591, -- [3]
+						1552627084.623, -- [4]
+						120688, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627085.511, -- [4]
+						120688, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						282408, -- [2]
+						58759, -- [3]
+						1552627085.511, -- [4]
+						61929, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2217, -- [3]
+						1552627086.063, -- [4]
+						64146, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						288806, -- [2]
+						19875, -- [3]
+						1552627086.607, -- [4]
+						44271, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						288806, -- [2]
+						2, -- [3]
+						1552627087.802, -- [4]
+						44271, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						283411, -- [2]
+						21019, -- [3]
+						1552627087.802, -- [4]
+						23252, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						87023, -- [2]
+						51480, -- [3]
+						1552627088.625, -- [4]
+						74732, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						86949, -- [2]
+						45711, -- [3]
+						1552627088.625, -- [4]
+						74732, -- [5]
+						"Asahina-Lightbringer", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						288806, -- [2]
+						45711, -- [3]
+						1552627088.625, -- [4]
+						74732, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2217, -- [3]
+						1552627089.038, -- [4]
+						76949, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627089.294, -- [4]
+						76949, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						282408, -- [2]
+						59960, -- [3]
+						1552627089.294, -- [4]
+						16989, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						288806, -- [2]
+						3, -- [3]
+						1552627089.294, -- [4]
+						16989, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						283411, -- [2]
+						16989, -- [3]
+						1552627089.35, -- [4]
+						1, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						true, -- [9]
+						3804, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Asahina-Lightbringer", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "4m 54s",
+				["time"] = 1552627089.35,
+			}, -- [8]
+			{
+				["maxhealth"] = 217620,
+				["timeofdeath"] = 295.097000000009,
+				["name"] = "Eldodin-KhazModan",
+				["events"] = {
+					{
+						false, -- [1]
+						269238, -- [2]
+						7611, -- [3]
+						1552627064.622, -- [4]
+						239380, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						269238, -- [2]
+						7612, -- [3]
+						1552627068.558, -- [4]
+						239380, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						269238, -- [2]
+						7612, -- [3]
+						1552627069.362, -- [4]
+						239380, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						269238, -- [2]
+						7611, -- [3]
+						1552627071.924, -- [4]
+						239380, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						269238, -- [2]
+						15222, -- [3]
+						1552627076.816, -- [4]
+						239380, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						4, -- [1]
+						286480, -- [2]
+						1, -- [3]
+						1552627084.952, -- [4]
+						239380, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						4, -- [1]
+						288806, -- [2]
+						1, -- [3]
+						1552627087.802, -- [4]
+						239380, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						108366, -- [2]
+						8038, -- [3]
+						1552627087.802, -- [4]
+						239380, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						283411, -- [2]
+						22205, -- [3]
+						1552627087.802, -- [4]
+						225213, -- [5]
+						"Nanaeve-Lightbringer", -- [6]
+						8038, -- [7]
+						8, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						269238, -- [2]
+						7611, -- [3]
+						1552627087.802, -- [4]
+						232824, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						286480, -- [2]
+						102656, -- [3]
+						1552627087.942, -- [4]
+						130168, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627088.44, -- [4]
+						130168, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						282408, -- [2]
+						62725, -- [3]
+						1552627088.44, -- [4]
+						67443, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						288188, -- [2]
+						22593, -- [3]
+						1552627088.581, -- [4]
+						44850, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						4, -- [1]
+						288806, -- [2]
+						2, -- [3]
+						1552627089.294, -- [4]
+						44850, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						283411, -- [2]
+						25536, -- [3]
+						1552627089.294, -- [4]
+						19314, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						269238, -- [2]
+						15223, -- [3]
+						1552627089.35, -- [4]
+						34537, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						269238, -- [2]
+						7611, -- [3]
+						1552627089.35, -- [4]
+						42148, -- [5]
+						"Eldodin-KhazModan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						288806, -- [2]
+						42148, -- [3]
+						1552627089.944, -- [4]
+						1, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						5074, -- [10]
+					}, -- [19]
+					{
+						3, -- [1]
+						104773, -- [2]
+						1, -- [3]
+						1552626826.157, -- [4]
+						0, -- [5]
+						"Eldodin-KhazModan", -- [6]
+					}, -- [20]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "4m 55s",
+				["time"] = 1552627089.944,
+			}, -- [9]
+			{
+				["maxhealth"] = 239360,
+				["timeofdeath"] = 295.815999999992,
+				["name"] = "Mallusof",
+				["events"] = {
+					{
+						false, -- [1]
+						120692, -- [2]
+						46868, -- [3]
+						1552627081.513, -- [4]
+						72257, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						143924, -- [2]
+						589, -- [3]
+						1552627082.473, -- [4]
+						73112, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						183811, -- [2]
+						2776, -- [3]
+						1552627082.473, -- [4]
+						75888, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						288806, -- [2]
+						16614, -- [3]
+						1552627082.622, -- [4]
+						59274, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						280052, -- [2]
+						13506, -- [3]
+						1552627082.622, -- [4]
+						72780, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						139, -- [2]
+						5233, -- [3]
+						1552627082.931, -- [4]
+						78013, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						false, -- [1]
+						77489, -- [2]
+						8064, -- [3]
+						1552627083.284, -- [4]
+						86077, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						61295, -- [2]
+						3705, -- [3]
+						1552627083.32, -- [4]
+						89782, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						4, -- [1]
+						282408, -- [2]
+						1, -- [3]
+						1552627083.749, -- [4]
+						89782, -- [5]
+						"Spark Bot", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						282408, -- [2]
+						50791, -- [3]
+						1552627083.749, -- [4]
+						38991, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						143924, -- [2]
+						2135, -- [3]
+						1552627083.749, -- [4]
+						41392, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						true, -- [1]
+						288806, -- [2]
+						16614, -- [3]
+						1552627084.623, -- [4]
+						24778, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						143924, -- [2]
+						54, -- [3]
+						1552627085.318, -- [4]
+						24832, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						139, -- [2]
+						5233, -- [3]
+						1552627085.318, -- [4]
+						30065, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						288188, -- [2]
+						21030, -- [3]
+						1552627085.849, -- [4]
+						9302, -- [5]
+						"Spark Bot", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						61295, -- [2]
+						4207, -- [3]
+						1552627086.087, -- [4]
+						13509, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77489, -- [2]
+						8063, -- [3]
+						1552627086.286, -- [4]
+						21572, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						61295, -- [2]
+						356, -- [3]
+						1552627086.315, -- [4]
+						21928, -- [5]
+						"Jhasu-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						273, -- [3]
+						1552627086.523, -- [4]
+						22201, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						288806, -- [2]
+						20768, -- [3]
+						1552627086.607, -- [4]
+						1433, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						139, -- [2]
+						10466, -- [3]
+						1552627087.622, -- [4]
+						11899, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						143924, -- [2]
+						90, -- [3]
+						1552627087.718, -- [4]
+						12255, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						288806, -- [2]
+						2, -- [3]
+						1552627087.802, -- [4]
+						12255, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						48153, -- [2]
+						83489, -- [3]
+						1552627087.802, -- [4]
+						95744, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						47788, -- [2]
+						22461, -- [3]
+						1552627087.802, -- [4]
+						95744, -- [5]
+						"Mallusof", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						288806, -- [2]
+						41537, -- [3]
+						1552627088.625, -- [4]
+						54207, -- [5]
+						"[*] Gigavolt Blast", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						143924, -- [2]
+						76, -- [3]
+						1552627088.949, -- [4]
+						54283, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						77489, -- [2]
+						8064, -- [3]
+						1552627089.294, -- [4]
+						62347, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						288806, -- [2]
+						3, -- [3]
+						1552627089.294, -- [4]
+						62347, -- [5]
 						"[*] Gigavolt Blast", -- [6]
 						false, -- [7]
 						false, -- [8]
@@ -15344,9 +22223,9 @@ DeathGraphsDBCurrent = {
 						true, -- [1]
 						283411, -- [2]
 						22461, -- [3]
-						1552026733.119, -- [4]
-						56629, -- [5]
-						"Mallusof", -- [6]
+						1552627089.35, -- [4]
+						39886, -- [5]
+						"Kalithumos-Tichondrius", -- [6]
 						nil, -- [7]
 						8, -- [8]
 						true, -- [9]
@@ -15355,2141 +22234,9 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						139, -- [2]
-						6368, -- [3]
-						1552026734.587, -- [4]
-						62997, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						283394, -- [2]
-						51920, -- [3]
-						1552026734.752, -- [4]
-						11339, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						false, -- [1]
-						143924, -- [2]
-						133, -- [3]
-						1552026735.122, -- [4]
-						11472, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Mallusof", -- [6]
-					}, -- [34]
-				},
-				["class"] = "PRIEST",
-				["timestring"] = "3m 13s",
-				["time"] = 1552026735.156,
-			}, -- [2]
-			{
-				["maxhealth"] = 208840,
-				["timeofdeath"] = 239.815999999992,
-				["name"] = "Unshocked-Proudmoore",
-				["events"] = {
-					{
-						4, -- [1]
-						286516, -- [2]
-						1, -- [3]
-						1552026772, -- [4]
-						229720, -- [5]
-						"[*] Anti-Tampering Shock", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22059, -- [3]
-						1552026774.471, -- [4]
-						207661, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						286516, -- [2]
-						108494, -- [3]
-						1552026774.985, -- [4]
-						99167, -- [5]
-						"[*] Anti-Tampering Shock", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						25914, -- [2]
-						21333, -- [3]
-						1552026775.788, -- [4]
-						120500, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						225311, -- [2]
-						8537, -- [3]
-						1552026777.093, -- [4]
-						129037, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						286516, -- [2]
-						108495, -- [3]
-						1552026778, -- [4]
-						20542, -- [5]
-						"[*] Anti-Tampering Shock", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						183998, -- [2]
-						19826, -- [3]
-						1552026779.991, -- [4]
-						40368, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						286516, -- [2]
-						40368, -- [3]
-						1552026780.997, -- [4]
-						1, -- [5]
-						"[*] Anti-Tampering Shock", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						68127, -- [10]
-					}, -- [8]
-					{
-						3, -- [1]
-						108271, -- [2]
-						1, -- [3]
-						1552026623.115, -- [4]
-						0, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-					}, -- [9]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "3m 59s",
-				["time"] = 1552026780.997,
-			}, -- [3]
-			{
-				["maxhealth"] = 179440,
-				["timeofdeath"] = 272.797999999952,
-				["name"] = "Newc-Lightbringer",
-				["events"] = {
-					{
-						true, -- [1]
-						286646, -- [2]
-						5470, -- [3]
-						1552026803.648, -- [4]
-						211648, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2627, -- [3]
-						1552026803.648, -- [4]
-						214275, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						225311, -- [2]
-						10002, -- [3]
-						1552026803.773, -- [4]
-						217118, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1454, -- [3]
-						1552026804.369, -- [4]
-						217118, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5470, -- [3]
-						1552026804.634, -- [4]
-						211648, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						183811, -- [2]
-						1626, -- [3]
-						1552026804.838, -- [4]
-						213274, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						183811, -- [2]
-						1621, -- [3]
-						1552026805.005, -- [4]
-						214895, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1363, -- [3]
-						1552026805.183, -- [4]
-						216258, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5683, -- [3]
-						1552026805.647, -- [4]
-						210575, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1271, -- [3]
-						1552026806.042, -- [4]
-						211846, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						288188, -- [2]
-						18815, -- [3]
-						1552026806.089, -- [4]
-						193031, -- [5]
-						"Asahina-Lightbringer <Asahina-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5513, -- [3]
-						1552026806.616, -- [4]
-						187518, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2628, -- [3]
-						1552026806.667, -- [4]
-						190146, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1183, -- [3]
-						1552026806.89, -- [4]
-						191329, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						362, -- [3]
-						1552026807.177, -- [4]
-						191691, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						287255, -- [2]
-						4006, -- [3]
-						1552026807.177, -- [4]
-						195697, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5683, -- [3]
-						1552026807.637, -- [4]
-						190014, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5683, -- [3]
-						1552026808.627, -- [4]
-						184331, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5683, -- [3]
-						1552026809.629, -- [4]
-						161373, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2627, -- [3]
-						1552026809.629, -- [4]
-						164000, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						283394, -- [2]
-						49204, -- [3]
-						1552026810.291, -- [4]
-						114796, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						288188, -- [2]
-						19606, -- [3]
-						1552026810.425, -- [4]
-						95190, -- [5]
-						"Asahina-Lightbringer <Asahina-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5684, -- [3]
-						1552026810.643, -- [4]
-						89506, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						33110, -- [2]
-						13715, -- [3]
-						1552026810.643, -- [4]
-						103221, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5683, -- [3]
-						1552026811.646, -- [4]
-						97538, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						288188, -- [2]
-						18739, -- [3]
-						1552026812.261, -- [4]
-						78799, -- [5]
-						"Jhasu-Lightbringer <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5684, -- [3]
-						1552026812.634, -- [4]
-						73115, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5683, -- [3]
-						1552026813.658, -- [4]
-						67432, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2066, -- [3]
-						1552026813.684, -- [4]
-						69498, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						288188, -- [2]
-						18939, -- [3]
-						1552026813.783, -- [4]
-						50559, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						282408, -- [2]
-						1, -- [3]
-						1552026813.952, -- [4]
-						50559, -- [5]
-						"Êlwen-KhazModan", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						282408, -- [2]
-						50559, -- [3]
-						1552026813.979, -- [4]
-						1, -- [5]
-						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						3470, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						196555, -- [2]
-						1, -- [3]
-						1552026686.311, -- [4]
-						0, -- [5]
-						"Newc-Lightbringer", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "4m 32s",
-				["time"] = 1552026813.979,
-			}, -- [4]
-			{
-				["maxhealth"] = 216560,
-				["timeofdeath"] = 277.962,
-				["name"] = "Eldodin-KhazModan",
-				["events"] = {
-					{
-						false, -- [1]
-						143924, -- [2]
-						167, -- [3]
-						1552026813.269, -- [4]
-						68452, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						108366, -- [2]
-						636, -- [3]
-						1552026813.658, -- [4]
-						68452, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6587, -- [3]
-						1552026813.658, -- [4]
-						62501, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						636, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1552026813.658, -- [4]
-						62501, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						63106, -- [2]
-						745, -- [3]
-						1552026813.783, -- [4]
-						63246, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						189, -- [3]
-						1552026814.499, -- [4]
-						63435, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						108366, -- [2]
-						1537, -- [3]
-						1552026814.642, -- [4]
-						63435, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6586, -- [3]
-						1552026814.642, -- [4]
-						58386, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						1537, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1552026814.642, -- [4]
-						58386, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						108366, -- [2]
-						839, -- [3]
-						1552026815.64, -- [4]
-						58386, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6586, -- [3]
-						1552026815.64, -- [4]
-						52639, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						839, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1552026815.64, -- [4]
-						52639, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						270117, -- [2]
-						5383, -- [3]
-						1552026815.671, -- [4]
-						58022, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						63106, -- [2]
-						1490, -- [3]
-						1552026815.671, -- [4]
-						59512, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						143924, -- [2]
-						270, -- [3]
-						1552026815.713, -- [4]
-						59782, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1897, -- [3]
-						1552026816.124, -- [4]
-						61679, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						108366, -- [2]
-						1291, -- [3]
-						1552026816.633, -- [4]
-						61679, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6586, -- [3]
-						1552026816.633, -- [4]
-						56384, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						1291, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1552026816.633, -- [4]
-						56384, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						143924, -- [2]
-						203, -- [3]
-						1552026816.92, -- [4]
-						56587, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						63106, -- [2]
-						1490, -- [3]
-						1552026817.618, -- [4]
-						58077, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
-						false, -- [1]
-						108366, -- [2]
-						913, -- [3]
-						1552026817.643, -- [4]
-						58077, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6586, -- [3]
-						1552026817.643, -- [4]
-						52404, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						913, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1552026817.643, -- [4]
-						52404, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						4, -- [1]
-						288806, -- [2]
-						1, -- [3]
-						1552026817.643, -- [4]
-						52404, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						283411, -- [2]
-						22201, -- [3]
-						1552026817.643, -- [4]
-						30203, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						143924, -- [2]
-						208, -- [3]
-						1552026818.141, -- [4]
-						30411, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						108366, -- [2]
-						1058, -- [3]
-						1552026818.495, -- [4]
-						30411, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22077, -- [3]
-						1552026818.495, -- [4]
-						9392, -- [5]
-						"Asahina-Lightbringer <Asahina-Lightbringer>", -- [6]
-						1058, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1552026818.495, -- [4]
-						9392, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1897, -- [3]
-						1552026819.112, -- [4]
-						11289, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						288188, -- [2]
-						11289, -- [3]
-						1552026819.112, -- [4]
-						1, -- [5]
-						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						14051, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Eldodin-KhazModan", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "4m 37s",
-				["time"] = 1552026819.143,
-			}, -- [5]
-			{
-				["maxhealth"] = 194760,
-				["timeofdeath"] = 376.369999999995,
-				["name"] = "Kesak-Lightbringer",
-				["events"] = {
-					{
-						true, -- [1]
-						288188, -- [2]
-						21672, -- [3]
-						1552026904.373, -- [4]
-						175231, -- [5]
-						"Marksopp-Lightbringer <Marksopp-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6549, -- [3]
-						1552026904.521, -- [4]
-						168682, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6549, -- [3]
-						1552026905.509, -- [4]
-						162133, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						288839, -- [2]
-						9235, -- [3]
-						1552026906.011, -- [4]
-						171368, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1552026906.033, -- [4]
-						171369, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2576, -- [3]
-						1552026906.324, -- [4]
-						173945, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6549, -- [3]
-						1552026906.506, -- [4]
-						167396, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6549, -- [3]
-						1552026907.502, -- [4]
-						160847, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1552026907.663, -- [4]
-						160848, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						287286, -- [2]
-						15163, -- [3]
-						1552026907.987, -- [4]
-						176011, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12424, -- [3]
-						1552026908.009, -- [4]
-						163587, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6549, -- [3]
-						1552026908.528, -- [4]
-						157038, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6549, -- [3]
-						1552026909.5, -- [4]
-						150489, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22175, -- [3]
-						1552026909.634, -- [4]
-						128314, -- [5]
-						"Êlwen-KhazModan <Êlwen-KhazModan>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22646, -- [3]
-						1552026910.444, -- [4]
-						105668, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6549, -- [3]
-						1552026910.513, -- [4]
-						87454, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						288839, -- [2]
-						9235, -- [3]
-						1552026911.01, -- [4]
-						96689, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6548, -- [3]
-						1552026911.501, -- [4]
-						90141, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						288806, -- [2]
-						1, -- [3]
-						1552026911.501, -- [4]
-						90141, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						283411, -- [2]
-						22074, -- [3]
-						1552026911.501, -- [4]
-						68067, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						288188, -- [2]
-						21664, -- [3]
-						1552026911.926, -- [4]
-						46403, -- [5]
-						"Nanaeve-Lightbringer <Nanaeve-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1552026912.09, -- [4]
-						46404, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						8004, -- [2]
-						23915, -- [3]
-						1552026912.927, -- [4]
-						70319, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12424, -- [3]
-						1552026913.015, -- [4]
-						57895, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						31616, -- [2]
-						42844, -- [3]
-						1552026913.527, -- [4]
-						100739, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20410, -- [3]
-						1552026913.527, -- [4]
-						80329, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						288188, -- [2]
-						21987, -- [3]
-						1552026914.033, -- [4]
-						58342, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						8004, -- [2]
-						23915, -- [3]
-						1552026914.162, -- [4]
-						82257, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						288188, -- [2]
-						21607, -- [3]
-						1552026914.454, -- [4]
-						60650, -- [5]
-						"Azsharys-SilverHand <Azsharys-SilverHand>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20410, -- [3]
-						1552026915.519, -- [4]
-						40240, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22178, -- [3]
-						1552026915.874, -- [4]
-						18062, -- [5]
-						"Nanaeve-Lightbringer <Nanaeve-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						288806, -- [2]
-						18062, -- [3]
-						1552026917.53, -- [4]
-						1, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						5410, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Kesak-Lightbringer", -- [6]
-					}, -- [33]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "6m 16s",
-				["time"] = 1552026917.551,
-			}, -- [6]
-			{
-				["maxhealth"] = 189980,
-				["timeofdeath"] = 406.44399999996,
-				["name"] = "Nanaeve-Lightbringer",
-				["events"] = {
-					{
-						true, -- [1]
-						287891, -- [2]
-						56426, -- [3]
-						1552026939.059, -- [4]
-						65271, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6564, -- [3]
-						1552026939.585, -- [4]
-						70876, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						25914, -- [2]
-						23313, -- [3]
-						1552026939.736, -- [4]
-						94189, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6565, -- [3]
-						1552026940.581, -- [4]
-						87624, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						183998, -- [2]
-						20768, -- [3]
-						1552026941.018, -- [4]
-						108647, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						287891, -- [2]
-						25623, -- [3]
-						1552026941.036, -- [4]
-						83024, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6565, -- [3]
-						1552026941.565, -- [4]
-						76459, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						8936, -- [2]
-						16829, -- [3]
-						1552026941.819, -- [4]
-						93288, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						1064, -- [2]
-						24588, -- [3]
-						1552026941.885, -- [4]
-						117876, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						288188, -- [2]
-						21723, -- [3]
-						1552026942.293, -- [4]
-						96153, -- [5]
-						"Mallusof <Mallusof>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6565, -- [3]
-						1552026942.584, -- [4]
-						89588, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						145109, -- [2]
-						6896, -- [3]
-						1552026943.048, -- [4]
-						96739, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						287891, -- [2]
-						25623, -- [3]
-						1552026943.048, -- [4]
-						71116, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12610, -- [3]
-						1552026943.07, -- [4]
-						58506, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						774, -- [2]
-						3267, -- [3]
-						1552026943.391, -- [4]
-						61773, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						8936, -- [2]
-						785, -- [3]
-						1552026943.506, -- [4]
-						62558, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6565, -- [3]
-						1552026943.581, -- [4]
-						55993, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6565, -- [3]
-						1552026944.62, -- [4]
-						49428, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						287891, -- [2]
-						25623, -- [3]
-						1552026945.027, -- [4]
-						24060, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						8936, -- [2]
-						818, -- [3]
-						1552026945.21, -- [4]
-						24878, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						272428, -- [2]
-						3428, -- [3]
-						1552026945.21, -- [4]
-						28306, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6565, -- [3]
-						1552026945.573, -- [4]
-						56219, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						288806, -- [2]
-						1, -- [3]
-						1552026945.6, -- [4]
-						56219, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						283411, -- [2]
-						22129, -- [3]
-						1552026945.6, -- [4]
-						34090, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						1, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1552026945.811, -- [4]
-						34090, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						774, -- [2]
-						6533, -- [3]
-						1552026945.89, -- [4]
-						40623, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						243241, -- [2]
-						7462, -- [3]
-						1552026946.773, -- [4]
-						48085, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						8936, -- [2]
-						818, -- [3]
-						1552026946.85, -- [4]
-						48903, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						774, -- [2]
-						3267, -- [3]
-						1552026946.982, -- [4]
-						52466, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						287891, -- [2]
-						23574, -- [3]
-						1552026947.035, -- [4]
-						28892, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						288806, -- [2]
-						18824, -- [3]
-						1552026947.589, -- [4]
-						10068, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						283394, -- [2]
-						10068, -- [3]
-						1552026947.625, -- [4]
-						1, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						36337, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1552026945.811, -- [4]
-						0, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DRUID",
-				["timestring"] = "6m 46s",
-				["time"] = 1552026947.625,
-			}, -- [7]
-			{
-				["maxhealth"] = 245295,
-				["timeofdeath"] = 409.117999999959,
-				["name"] = "Mallusof",
-				["events"] = {
-					{
-						true, -- [1]
-						284177, -- [2]
-						12980, -- [3]
-						1552026923.042, -- [4]
-						116759, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						143924, -- [2]
-						71, -- [3]
-						1552026923.042, -- [4]
-						116830, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						4, -- [1]
-						282408, -- [2]
-						1, -- [3]
-						1552026923.608, -- [4]
-						116830, -- [5]
-						"Marksopp-Lightbringer", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						282408, -- [2]
-						62826, -- [3]
-						1552026923.608, -- [4]
-						54004, -- [5]
-						"Marksopp-Lightbringer <Marksopp-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						18562, -- [2]
-						39275, -- [3]
-						1552026923.796, -- [4]
-						93279, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						8936, -- [2]
-						902, -- [3]
-						1552026924.196, -- [4]
-						94181, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						4, -- [1]
-						282408, -- [2]
-						1, -- [3]
-						1552026924.289, -- [4]
-						94181, -- [5]
-						"Spark Bot", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						282408, -- [2]
-						63729, -- [3]
-						1552026924.289, -- [4]
-						30452, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						143924, -- [2]
-						16, -- [3]
-						1552026924.659, -- [4]
-						30468, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						77489, -- [2]
-						4032, -- [3]
-						1552026924.784, -- [4]
-						34500, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						272260, -- [2]
-						3727, -- [3]
-						1552026924.931, -- [4]
-						38227, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						183998, -- [2]
-						56066, -- [3]
-						1552026925.163, -- [4]
-						94531, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						286105, -- [2]
-						217365, -- [3]
-						1552026925.443, -- [4]
-						213300, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						8936, -- [2]
-						1803, -- [3]
-						1552026925.869, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						279793, -- [2]
-						9691, -- [3]
-						1552026926.331, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						8936, -- [2]
-						847, -- [3]
-						1552026927.511, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						77489, -- [2]
-						4033, -- [3]
-						1552026927.793, -- [4]
-						213300, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						279793, -- [2]
-						9101, -- [3]
-						1552026928.855, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						8936, -- [2]
-						846, -- [3]
-						1552026929.199, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						8936, -- [2]
-						847, -- [3]
-						1552026930.887, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						279793, -- [2]
-						9101, -- [3]
-						1552026931.368, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						8936, -- [2]
-						847, -- [3]
-						1552026932.555, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						279793, -- [2]
-						5294, -- [3]
-						1552026932.804, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						8936, -- [2]
-						772, -- [3]
-						1552026934.239, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						8936, -- [2]
-						240, -- [3]
-						1552026934.499, -- [4]
-						213300, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						243241, -- [2]
-						3731, -- [3]
-						1552026935.797, -- [4]
-						213300, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						286480, -- [2]
-						1, -- [3]
-						1552026944.278, -- [4]
-						213300, -- [5]
-						"Spark Bot", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						286480, -- [2]
-						103840, -- [3]
-						1552026947.276, -- [4]
-						141455, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						283394, -- [2]
-						51921, -- [3]
-						1552026947.625, -- [4]
-						89809, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12980, -- [3]
-						1552026948.057, -- [4]
-						76829, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						143924, -- [2]
-						158, -- [3]
-						1552026948.173, -- [4]
-						76987, -- [5]
+						3270, -- [3]
+						1552627090.081, -- [4]
+						43424, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -17499,9 +22246,9 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						143924, -- [2]
-						46, -- [3]
-						1552026950.163, -- [4]
-						77305, -- [5]
+						217, -- [3]
+						1552627090.188, -- [4]
+						43641, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -17510,820 +22257,16 @@ DeathGraphsDBCurrent = {
 					}, -- [32]
 					{
 						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
+						47788, -- [2]
+						1, -- [3]
+						1552627078.315, -- [4]
 						0, -- [5]
 						"Mallusof", -- [6]
 					}, -- [33]
 				},
 				["class"] = "PRIEST",
-				["timestring"] = "6m 49s",
-				["time"] = 1552026950.299,
-			}, -- [8]
-			{
-				["maxhealth"] = 191320,
-				["timeofdeath"] = 435.361999999965,
-				["name"] = "Êlwen-KhazModan",
-				["events"] = {
-					{
-						false, -- [1]
-						143924, -- [2]
-						2822, -- [3]
-						1552026967.186, -- [4]
-						166786, -- [5]
-						"Êlwen-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5551, -- [3]
-						1552026967.215, -- [4]
-						161235, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						288806, -- [2]
-						17300, -- [3]
-						1552026967.607, -- [4]
-						143935, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						157982, -- [2]
-						932, -- [3]
-						1552026967.752, -- [4]
-						144867, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						183811, -- [2]
-						1698, -- [3]
-						1552026967.919, -- [4]
-						146565, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						183811, -- [2]
-						1699, -- [3]
-						1552026968.093, -- [4]
-						148264, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						284177, -- [2]
-						10813, -- [3]
-						1552026968.093, -- [4]
-						137451, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5550, -- [3]
-						1552026968.229, -- [4]
-						131901, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						143924, -- [2]
-						5516, -- [3]
-						1552026968.415, -- [4]
-						137417, -- [5]
-						"Êlwen-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						77489, -- [2]
-						8805, -- [3]
-						1552026968.471, -- [4]
-						146222, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						73921, -- [2]
-						2157, -- [3]
-						1552026968.608, -- [4]
-						148379, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5792, -- [3]
-						1552026969.238, -- [4]
-						142587, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						288806, -- [2]
-						18052, -- [3]
-						1552026969.608, -- [4]
-						124535, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						844, -- [3]
-						1552026969.608, -- [4]
-						125379, -- [5]
-						"Êlwen-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						157982, -- [2]
-						932, -- [3]
-						1552026969.728, -- [4]
-						126311, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5792, -- [3]
-						1552026970.225, -- [4]
-						120519, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						157982, -- [2]
-						425, -- [3]
-						1552026970.64, -- [4]
-						120944, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						422, -- [3]
-						1552026970.843, -- [4]
-						121366, -- [5]
-						"Êlwen-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						287286, -- [2]
-						9088, -- [3]
-						1552026970.959, -- [4]
-						130454, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						288188, -- [2]
-						19907, -- [3]
-						1552026971.13, -- [4]
-						110547, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5513, -- [3]
-						1552026971.216, -- [4]
-						105034, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						77489, -- [2]
-						8805, -- [3]
-						1552026971.466, -- [4]
-						113839, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						288806, -- [2]
-						18052, -- [3]
-						1552026971.6, -- [4]
-						95787, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5792, -- [3]
-						1552026972.21, -- [4]
-						89995, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						284177, -- [2]
-						11282, -- [3]
-						1552026973.085, -- [4]
-						78713, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5792, -- [3]
-						1552026973.208, -- [4]
-						72921, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						288806, -- [2]
-						18052, -- [3]
-						1552026973.638, -- [4]
-						54869, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5792, -- [3]
-						1552026974.23, -- [4]
-						49077, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						286646, -- [2]
-						5792, -- [3]
-						1552026975.212, -- [4]
-						43285, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						288806, -- [2]
-						18052, -- [3]
-						1552026975.601, -- [4]
-						25233, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6661, -- [3]
-						1552026976.239, -- [4]
-						18572, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						288188, -- [2]
-						18572, -- [3]
-						1552026976.543, -- [4]
-						1, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						4384, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						196555, -- [2]
-						1, -- [3]
-						1552026941.565, -- [4]
-						0, -- [5]
-						"Êlwen-KhazModan", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "7m 15s",
-				["time"] = 1552026976.543,
-			}, -- [9]
-			{
-				["maxhealth"] = 191140,
-				["timeofdeath"] = 435.922999999952,
-				["name"] = "Asahina-Lightbringer",
-				["events"] = {
-					{
-						false, -- [1]
-						8936, -- [2]
-						102, -- [3]
-						1552026960.111, -- [4]
-						210240, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						288806, -- [2]
-						207, -- [3]
-						1552026961.586, -- [4]
-						210033, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1740, -- [3]
-						1552026962.038, -- [4]
-						210240, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						288806, -- [2]
-						208, -- [3]
-						1552026963.614, -- [4]
-						210032, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1739, -- [3]
-						1552026964.847, -- [4]
-						210240, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						288806, -- [2]
-						207, -- [3]
-						1552026965.593, -- [4]
-						210033, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						61295, -- [2]
-						3548, -- [3]
-						1552026967.538, -- [4]
-						210240, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						288806, -- [2]
-						207, -- [3]
-						1552026967.607, -- [4]
-						210033, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						61295, -- [2]
-						648, -- [3]
-						1552026968.561, -- [4]
-						210240, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						288806, -- [2]
-						208, -- [3]
-						1552026969.608, -- [4]
-						210032, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						4, -- [1]
-						286480, -- [2]
-						1, -- [3]
-						1552026971.079, -- [4]
-						210032, -- [5]
-						"Spark Bot", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						81269, -- [2]
-						2272, -- [3]
-						1552026971.503, -- [4]
-						210240, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20739, -- [3]
-						1552026971.6, -- [4]
-						189501, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22105, -- [3]
-						1552026972.761, -- [4]
-						167396, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12624, -- [3]
-						1552026973.085, -- [4]
-						154772, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						81269, -- [2]
-						2272, -- [3]
-						1552026973.183, -- [4]
-						157044, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20738, -- [3]
-						1552026973.58, -- [4]
-						136306, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						286480, -- [2]
-						103692, -- [3]
-						1552026974.067, -- [4]
-						32614, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						225311, -- [2]
-						19464, -- [3]
-						1552026974.593, -- [4]
-						52078, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						288188, -- [2]
-						25599, -- [3]
-						1552026974.845, -- [4]
-						26479, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						81269, -- [2]
-						2530, -- [3]
-						1552026974.845, -- [4]
-						29009, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1849, -- [3]
-						1552026975.37, -- [4]
-						30858, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						288806, -- [2]
-						23850, -- [3]
-						1552026975.601, -- [4]
-						7008, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						4, -- [1]
-						282408, -- [2]
-						1, -- [3]
-						1552026975.816, -- [4]
-						7008, -- [5]
-						"Spark Bot", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						87023, -- [2]
-						66576, -- [3]
-						1552026975.816, -- [4]
-						73584, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						86949, -- [2]
-						73322, -- [3]
-						1552026975.816, -- [4]
-						73584, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						282408, -- [2]
-						73322, -- [3]
-						1552026975.816, -- [4]
-						73584, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1757, -- [3]
-						1552026976.208, -- [4]
-						75341, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						81269, -- [2]
-						2543, -- [3]
-						1552026976.543, -- [4]
-						77884, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						288188, -- [2]
-						21916, -- [3]
-						1552026976.772, -- [4]
-						55968, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						48438, -- [2]
-						3328, -- [3]
-						1552026977.07, -- [4]
-						59296, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						286480, -- [2]
-						59296, -- [3]
-						1552026977.104, -- [4]
-						1, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						44396, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Asahina-Lightbringer", -- [6]
-					}, -- [33]
-				},
-				["class"] = "MAGE",
-				["timestring"] = "7m 15s",
-				["time"] = 1552026977.104,
+				["timestring"] = "4m 55s",
+				["time"] = 1552627090.663,
 			}, -- [10]
 		},
 		["bossname"] = "Mekkatorque",
@@ -18334,3470 +22277,8 @@ DeathGraphsDBCurrent = {
 			0.5, -- [4]
 			"Interface\\AddOns\\Details\\images\\raid\\DazaralorRaid_BossFaces", -- [5]
 		},
-		["date"] = 355105.87,
-		["timeelapsed"] = 489.306999999972,
-	}, -- [1]
-	{
-		["deaths"] = {
-			{
-				["maxhealth"] = 194760,
-				["timeofdeath"] = 187.329999999958,
-				["name"] = "Kesak-Lightbringer",
-				["events"] = {
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1552026311.418, -- [4]
-						0, -- [5]
-						"Ryad-Terenas", -- [6]
-					}, -- [1]
-					{
-						false, -- [1]
-						275499, -- [2]
-						1210, -- [3]
-						1552026108.582, -- [4]
-						242214, -- [5]
-						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						81269, -- [2]
-						5463, -- [3]
-						1552026108.908, -- [4]
-						247677, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1844, -- [3]
-						1552026109.334, -- [4]
-						249521, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						143924, -- [2]
-						78, -- [3]
-						1552026109.593, -- [4]
-						249599, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						393, -- [3]
-						1552026110.829, -- [4]
-						216866, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						316, -- [3]
-						1552026112.052, -- [4]
-						217182, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1843, -- [3]
-						1552026112.341, -- [4]
-						219025, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						143924, -- [2]
-						1637, -- [3]
-						1552026113.264, -- [4]
-						220662, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						143924, -- [2]
-						31, -- [3]
-						1552026114.508, -- [4]
-						220693, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						275499, -- [2]
-						1680, -- [3]
-						1552026114.574, -- [4]
-						220843, -- [5]
-						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						81269, -- [2]
-						2399, -- [3]
-						1552026115.808, -- [4]
-						220843, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						true, -- [1]
-						282182, -- [2]
-						142712, -- [3]
-						1552026116.548, -- [4]
-						78131, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						4, -- [1]
-						282182, -- [2]
-						1, -- [3]
-						1552026116.548, -- [4]
-						78131, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						280052, -- [2]
-						17376, -- [3]
-						1552026116.585, -- [4]
-						95507, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						143924, -- [2]
-						243, -- [3]
-						1552026116.934, -- [4]
-						95750, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						false, -- [1]
-						31616, -- [2]
-						44169, -- [3]
-						1552026117.574, -- [4]
-						139919, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						282182, -- [2]
-						30616, -- [3]
-						1552026117.574, -- [4]
-						109303, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						52042, -- [2]
-						1024, -- [3]
-						1552026117.574, -- [4]
-						110327, -- [5]
-						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						282182, -- [2]
-						30616, -- [3]
-						1552026118.553, -- [4]
-						79711, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						243241, -- [2]
-						4153, -- [3]
-						1552026118.674, -- [4]
-						83864, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						183811, -- [2]
-						1479, -- [3]
-						1552026119.393, -- [4]
-						85343, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						true, -- [1]
-						282182, -- [2]
-						30616, -- [3]
-						1552026119.695, -- [4]
-						54727, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						143924, -- [2]
-						203, -- [3]
-						1552026119.77, -- [4]
-						54930, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						2061, -- [2]
-						37380, -- [3]
-						1552026119.926, -- [4]
-						92310, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						282182, -- [2]
-						30616, -- [3]
-						1552026120.563, -- [4]
-						61694, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						143924, -- [2]
-						194, -- [3]
-						1552026120.982, -- [4]
-						61888, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						282182, -- [2]
-						30616, -- [3]
-						1552026122.495, -- [4]
-						31272, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						77489, -- [2]
-						4171, -- [3]
-						1552026122.495, -- [4]
-						35443, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						183998, -- [2]
-						22269, -- [3]
-						1552026122.495, -- [4]
-						57712, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						282182, -- [2]
-						30616, -- [3]
-						1552026122.626, -- [4]
-						27096, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						143924, -- [2]
-						30, -- [3]
-						1552026122.995, -- [4]
-						27126, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						282182, -- [2]
-						27126, -- [3]
-						1552026123.598, -- [4]
-						1, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						8082, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Kesak-Lightbringer", -- [6]
-					}, -- [34]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "3m 7s",
-				["time"] = 1552026123.598,
-			}, -- [1]
-			{
-				["maxhealth"] = 186180,
-				["timeofdeath"] = 341.258999999962,
-				["name"] = "Azsharys-SilverHand",
-				["events"] = {
-					{
-						false, -- [1]
-						270661, -- [2]
-						1683, -- [3]
-						1552026268.037, -- [4]
-						176137, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1523, -- [3]
-						1552026268.381, -- [4]
-						177660, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						168, -- [3]
-						1552026268.475, -- [4]
-						177828, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						287255, -- [2]
-						4384, -- [3]
-						1552026268.513, -- [4]
-						182212, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						8936, -- [2]
-						1060, -- [3]
-						1552026268.544, -- [4]
-						183272, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						64844, -- [2]
-						6549, -- [3]
-						1552026268.672, -- [4]
-						189821, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2458, -- [3]
-						1552026269.478, -- [4]
-						192279, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						52042, -- [2]
-						5394, -- [3]
-						1552026269.92, -- [4]
-						197901, -- [5]
-						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						269279, -- [2]
-						12994, -- [3]
-						1552026269.958, -- [4]
-						197901, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						288806, -- [2]
-						19816, -- [3]
-						1552026269.958, -- [4]
-						191079, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						12994, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						8936, -- [2]
-						2107, -- [3]
-						1552026270.157, -- [4]
-						193186, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						288188, -- [2]
-						21248, -- [3]
-						1552026270.898, -- [4]
-						171938, -- [5]
-						"Marksopp-Lightbringer <Marksopp-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1683, -- [3]
-						1552026271.042, -- [4]
-						173621, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						8936, -- [2]
-						1051, -- [3]
-						1552026271.862, -- [4]
-						174899, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						288806, -- [2]
-						19816, -- [3]
-						1552026271.968, -- [4]
-						155083, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						271682, -- [2]
-						6362, -- [3]
-						1552026272.163, -- [4]
-						161445, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2458, -- [3]
-						1552026272.455, -- [4]
-						163903, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12385, -- [3]
-						1552026272.489, -- [4]
-						151518, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						197997, -- [2]
-						25416, -- [3]
-						1552026272.69, -- [4]
-						176934, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						288188, -- [2]
-						20534, -- [3]
-						1552026273.486, -- [4]
-						156400, -- [5]
-						"Eldodin-KhazModan <Eldodin-KhazModan>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						284214, -- [2]
-						96254, -- [3]
-						1552026273.486, -- [4]
-						60146, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						8936, -- [2]
-						2002, -- [3]
-						1552026273.603, -- [4]
-						62148, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						275499, -- [2]
-						2022, -- [3]
-						1552026273.877, -- [4]
-						64398, -- [5]
-						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						288806, -- [2]
-						19222, -- [3]
-						1552026273.946, -- [4]
-						45176, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1683, -- [3]
-						1552026274.074, -- [4]
-						46859, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						8936, -- [2]
-						2007, -- [3]
-						1552026275.315, -- [4]
-						48866, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2458, -- [3]
-						1552026275.452, -- [4]
-						51324, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						288806, -- [2]
-						19067, -- [3]
-						1552026275.97, -- [4]
-						32485, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						139, -- [2]
-						3503, -- [3]
-						1552026276.242, -- [4]
-						35988, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						288188, -- [2]
-						23305, -- [3]
-						1552026276.823, -- [4]
-						12683, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						8936, -- [2]
-						915, -- [3]
-						1552026277.059, -- [4]
-						13598, -- [5]
-						"Azsharys-SilverHand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						284177, -- [2]
-						13598, -- [3]
-						1552026277.527, -- [4]
-						1, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						107, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Azsharys-SilverHand", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DRUID",
-				["timestring"] = "5m 41s",
-				["time"] = 1552026277.527,
-			}, -- [2]
-			{
-				["maxhealth"] = 194760,
-				["timeofdeath"] = 350.861999999965,
-				["name"] = "Kesak-Lightbringer",
-				["events"] = {
-					{
-						false, -- [1]
-						64844, -- [2]
-						5953, -- [3]
-						1552026263.437, -- [4]
-						152712, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						143924, -- [2]
-						850, -- [3]
-						1552026263.906, -- [4]
-						153562, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						64844, -- [2]
-						6548, -- [3]
-						1552026265.157, -- [4]
-						160110, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						143924, -- [2]
-						425, -- [3]
-						1552026265.549, -- [4]
-						160535, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1256, -- [3]
-						1552026266.475, -- [4]
-						161791, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						425, -- [3]
-						1552026266.753, -- [4]
-						162216, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						64844, -- [2]
-						6548, -- [3]
-						1552026266.913, -- [4]
-						168764, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22384, -- [3]
-						1552026267.448, -- [4]
-						146380, -- [5]
-						"Marksopp-Lightbringer <Marksopp-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12424, -- [3]
-						1552026267.502, -- [4]
-						133956, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						1064, -- [2]
-						54080, -- [3]
-						1552026267.638, -- [4]
-						188036, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						64844, -- [2]
-						6548, -- [3]
-						1552026268.629, -- [4]
-						213387, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						425, -- [3]
-						1552026268.767, -- [4]
-						213812, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2152, -- [3]
-						1552026269.478, -- [4]
-						214236, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2152, -- [3]
-						1552026272.455, -- [4]
-						214236, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12424, -- [3]
-						1552026272.489, -- [4]
-						201812, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						284214, -- [2]
-						102208, -- [3]
-						1552026274.557, -- [4]
-						99604, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2152, -- [3]
-						1552026275.427, -- [4]
-						101756, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12424, -- [3]
-						1552026277.488, -- [4]
-						89332, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						143924, -- [2]
-						370, -- [3]
-						1552026279.691, -- [4]
-						81580, -- [5]
-						"Kesak-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12424, -- [3]
-						1552026282.5, -- [4]
-						69156, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						98021, -- [2]
-						68083, -- [3]
-						1552026283.39, -- [4]
-						137239, -- [5]
-						"Spirit Link Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						139, -- [2]
-						6369, -- [3]
-						1552026283.437, -- [4]
-						143608, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						98021, -- [2]
-						25982, -- [3]
-						1552026284.407, -- [4]
-						117626, -- [5]
-						"Spirit Link Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						98021, -- [2]
-						13045, -- [3]
-						1552026285.39, -- [4]
-						104581, -- [5]
-						"Spirit Link Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						139, -- [2]
-						3184, -- [3]
-						1552026285.924, -- [4]
-						107765, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						98021, -- [2]
-						26882, -- [3]
-						1552026286.414, -- [4]
-						80883, -- [5]
-						"Spirit Link Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						280052, -- [2]
-						8049, -- [3]
-						1552026286.414, -- [4]
-						88932, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1447, -- [3]
-						1552026286.473, -- [4]
-						90379, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						4, -- [1]
-						287891, -- [2]
-						1, -- [3]
-						1552026286.875, -- [4]
-						90379, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						287891, -- [2]
-						53695, -- [3]
-						1552026286.875, -- [4]
-						36684, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						287891, -- [2]
-						2, -- [3]
-						1552026287.13, -- [4]
-						36684, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						287891, -- [2]
-						36684, -- [3]
-						1552026287.13, -- [4]
-						1, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						23429, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Kesak-Lightbringer", -- [6]
-					}, -- [33]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "5m 50s",
-				["time"] = 1552026287.13,
-			}, -- [3]
-			{
-				["maxhealth"] = 191140,
-				["timeofdeath"] = 356.27899999998,
-				["name"] = "Asahina-Lightbringer",
-				["events"] = {
-					{
-						false, -- [1]
-						280177, -- [2]
-						5973, -- [3]
-						1552026281.861, -- [4]
-						97231, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20739, -- [3]
-						1552026281.942, -- [4]
-						76492, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6654, -- [3]
-						1552026281.965, -- [4]
-						69838, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						774, -- [2]
-						2478, -- [3]
-						1552026282.397, -- [4]
-						72316, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12623, -- [3]
-						1552026282.5, -- [4]
-						59693, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						200389, -- [2]
-						1868, -- [3]
-						1552026282.953, -- [4]
-						61561, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						286646, -- [2]
-						6654, -- [3]
-						1552026282.987, -- [4]
-						54907, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						61295, -- [2]
-						3095, -- [3]
-						1552026283.304, -- [4]
-						58002, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20739, -- [3]
-						1552026283.948, -- [4]
-						37263, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						286646, -- [2]
-						7652, -- [3]
-						1552026283.975, -- [4]
-						29611, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1282, -- [3]
-						1552026284.265, -- [4]
-						30893, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						235313, -- [2]
-						7652, -- [3]
-						1552026284.974, -- [4]
-						30893, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						286646, -- [2]
-						7652, -- [3]
-						1552026284.974, -- [4]
-						30893, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						235313, -- [2]
-						25913, -- [3]
-						1552026285.361, -- [4]
-						30893, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						288188, -- [2]
-						25913, -- [3]
-						1552026285.361, -- [4]
-						30893, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						200389, -- [2]
-						1868, -- [3]
-						1552026285.51, -- [4]
-						32761, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						288839, -- [2]
-						8961, -- [3]
-						1552026285.804, -- [4]
-						41722, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						235313, -- [2]
-						9403, -- [3]
-						1552026285.964, -- [4]
-						41722, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						288806, -- [2]
-						23849, -- [3]
-						1552026285.964, -- [4]
-						27276, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						9403, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						286646, -- [2]
-						7652, -- [3]
-						1552026285.964, -- [4]
-						19624, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						61295, -- [2]
-						5735, -- [3]
-						1552026286.061, -- [4]
-						25359, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						61295, -- [2]
-						369, -- [3]
-						1552026286.414, -- [4]
-						25728, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						286646, -- [2]
-						7652, -- [3]
-						1552026286.975, -- [4]
-						18076, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						280052, -- [2]
-						8518, -- [3]
-						1552026286.975, -- [4]
-						26594, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1281, -- [3]
-						1552026287.258, -- [4]
-						27875, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						284177, -- [2]
-						14517, -- [3]
-						1552026287.504, -- [4]
-						13358, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						286646, -- [2]
-						7652, -- [3]
-						1552026287.952, -- [4]
-						5706, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						200389, -- [2]
-						1878, -- [3]
-						1552026288.111, -- [4]
-						7584, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						1, -- [1]
-						45438, -- [2]
-						1, -- [3]
-						1552026288.778, -- [4]
-						7584, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						200389, -- [2]
-						614, -- [3]
-						1552026288.946, -- [4]
-						8198, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1281, -- [3]
-						1552026290.274, -- [4]
-						9479, -- [5]
-						"Asahina-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						284177, -- [2]
-						9479, -- [3]
-						1552026292.547, -- [4]
-						1, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						5039, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						45438, -- [2]
-						1, -- [3]
-						1552026288.778, -- [4]
-						0, -- [5]
-						"Asahina-Lightbringer", -- [6]
-					}, -- [33]
-				},
-				["class"] = "MAGE",
-				["timestring"] = "5m 56s",
-				["time"] = 1552026292.547,
-			}, -- [4]
-			{
-				["maxhealth"] = 216560,
-				["timeofdeath"] = 359.737999999954,
-				["name"] = "Eldodin-KhazModan",
-				["events"] = {
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1552026275.659, -- [4]
-						238220, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12045, -- [3]
-						1552026282.5, -- [4]
-						226175, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						270117, -- [2]
-						5383, -- [3]
-						1552026282.5, -- [4]
-						231558, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						275499, -- [2]
-						3436, -- [3]
-						1552026282.987, -- [4]
-						234994, -- [5]
-						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22641, -- [3]
-						1552026284.872, -- [4]
-						212353, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						4, -- [1]
-						287891, -- [2]
-						1, -- [3]
-						1552026285.128, -- [4]
-						212353, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						287891, -- [2]
-						56701, -- [3]
-						1552026285.128, -- [4]
-						155652, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						287891, -- [2]
-						24136, -- [3]
-						1552026287.13, -- [4]
-						131516, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12046, -- [3]
-						1552026287.504, -- [4]
-						119470, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						288188, -- [2]
-						20440, -- [3]
-						1552026288.502, -- [4]
-						99030, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						270117, -- [2]
-						5383, -- [3]
-						1552026288.502, -- [4]
-						104413, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						275499, -- [2]
-						3168, -- [3]
-						1552026288.994, -- [4]
-						107581, -- [5]
-						"Healing Stream Totem <Jhasu-Lightbringer>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						287891, -- [2]
-						24135, -- [3]
-						1552026289.124, -- [4]
-						83446, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						4, -- [1]
-						288806, -- [2]
-						1, -- [3]
-						1552026289.974, -- [4]
-						83446, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						283411, -- [2]
-						17760, -- [3]
-						1552026289.974, -- [4]
-						65686, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						287891, -- [2]
-						20566, -- [3]
-						1552026291.114, -- [4]
-						45120, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						288806, -- [2]
-						18885, -- [3]
-						1552026291.989, -- [4]
-						26235, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						6262, -- [2]
-						62056, -- [3]
-						1552026291.989, -- [4]
-						88291, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						283394, -- [2]
-						47214, -- [3]
-						1552026292.017, -- [4]
-						41077, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						284177, -- [2]
-						10264, -- [3]
-						1552026292.547, -- [4]
-						30813, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						287891, -- [2]
-						20565, -- [3]
-						1552026293.122, -- [4]
-						45981, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						288806, -- [2]
-						18885, -- [3]
-						1552026293.972, -- [4]
-						27096, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						287891, -- [2]
-						23650, -- [3]
-						1552026295.124, -- [4]
-						3446, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						270117, -- [2]
-						5383, -- [3]
-						1552026295.124, -- [4]
-						8829, -- [5]
-						"Eldodin-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						288806, -- [2]
-						8829, -- [3]
-						1552026296.006, -- [4]
-						1, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						10057, -- [10]
-					}, -- [25]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Eldodin-KhazModan", -- [6]
-					}, -- [26]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "5m 59s",
-				["time"] = 1552026296.006,
-			}, -- [5]
-			{
-				["maxhealth"] = 208840,
-				["timeofdeath"] = 372.751999999979,
-				["name"] = "Unshocked-Proudmoore",
-				["events"] = {
-					{
-						false, -- [1]
-						8004, -- [2]
-						51478, -- [3]
-						1552026293.652, -- [4]
-						144237, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						288806, -- [2]
-						9815, -- [3]
-						1552026293.972, -- [4]
-						134422, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						204883, -- [2]
-						10384, -- [3]
-						1552026294.344, -- [4]
-						144806, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						287891, -- [2]
-						12201, -- [3]
-						1552026295.523, -- [4]
-						132605, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						288806, -- [2]
-						9645, -- [3]
-						1552026296.006, -- [4]
-						122960, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						8004, -- [2]
-						25234, -- [3]
-						1552026296.388, -- [4]
-						148194, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1564, -- [3]
-						1552026297.405, -- [4]
-						149758, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						284177, -- [2]
-						7668, -- [3]
-						1552026297.515, -- [4]
-						142090, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						287891, -- [2]
-						15520, -- [3]
-						1552026297.515, -- [4]
-						126570, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						288806, -- [2]
-						12269, -- [3]
-						1552026297.969, -- [4]
-						114301, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						287891, -- [2]
-						25418, -- [3]
-						1552026299.509, -- [4]
-						88883, -- [5]
-						"[*] Sheep Shrapnel", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20094, -- [3]
-						1552026299.977, -- [4]
-						68789, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						8004, -- [2]
-						25234, -- [3]
-						1552026300.165, -- [4]
-						94023, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1564, -- [3]
-						1552026300.402, -- [4]
-						95587, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						288188, -- [2]
-						21942, -- [3]
-						1552026300.947, -- [4]
-						73645, -- [5]
-						"Newc-Lightbringer <Newc-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						183998, -- [2]
-						19880, -- [3]
-						1552026301.392, -- [4]
-						93525, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						61295, -- [2]
-						17220, -- [3]
-						1552026301.708, -- [4]
-						110745, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20094, -- [3]
-						1552026301.977, -- [4]
-						101725, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						8004, -- [2]
-						25235, -- [3]
-						1552026302.228, -- [4]
-						126960, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12559, -- [3]
-						1552026302.63, -- [4]
-						114401, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						223306, -- [2]
-						45801, -- [3]
-						1552026303.537, -- [4]
-						122298, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20449, -- [3]
-						1552026303.979, -- [4]
-						101849, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						61295, -- [2]
-						2595, -- [3]
-						1552026304.477, -- [4]
-						104444, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						288188, -- [2]
-						21938, -- [3]
-						1552026304.978, -- [4]
-						82506, -- [5]
-						"Newc-Lightbringer <Newc-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20094, -- [3]
-						1552026305.982, -- [4]
-						62412, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						8004, -- [2]
-						25234, -- [3]
-						1552026306.041, -- [4]
-						87646, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						61295, -- [2]
-						2657, -- [3]
-						1552026307.225, -- [4]
-						90303, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12780, -- [3]
-						1552026307.516, -- [4]
-						77523, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						25914, -- [2]
-						24001, -- [3]
-						1552026307.705, -- [4]
-						101524, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20094, -- [3]
-						1552026307.978, -- [4]
-						81430, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22013, -- [3]
-						1552026308.72, -- [4]
-						59417, -- [5]
-						"Newc-Lightbringer <Newc-Lightbringer>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						282182, -- [2]
-						59417, -- [3]
-						1552026309.02, -- [4]
-						1, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						87161, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						108271, -- [2]
-						1, -- [3]
-						1552026290.845, -- [4]
-						0, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-					}, -- [33]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "6m 12s",
-				["time"] = 1552026309.02,
-			}, -- [6]
-			{
-				["maxhealth"] = 179440,
-				["timeofdeath"] = 397.14499999996,
-				["name"] = "Newc-Lightbringer",
-				["events"] = {
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026301.977, -- [4]
-						196272, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						288806, -- [2]
-						178, -- [3]
-						1552026303.979, -- [4]
-						196094, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026305.982, -- [4]
-						195917, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026307.978, -- [4]
-						195740, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026309.977, -- [4]
-						195563, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026311.979, -- [4]
-						195386, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026313.971, -- [4]
-						195209, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026316.005, -- [4]
-						195032, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026317.982, -- [4]
-						194855, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						288806, -- [2]
-						177, -- [3]
-						1552026319.997, -- [4]
-						194678, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						4, -- [1]
-						286480, -- [2]
-						1, -- [3]
-						1552026328.047, -- [4]
-						194678, -- [5]
-						"Spark Bot", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						286480, -- [2]
-						84876, -- [3]
-						1552026331.057, -- [4]
-						109802, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						284177, -- [2]
-						11071, -- [3]
-						1552026332.532, -- [4]
-						98731, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						282245, -- [2]
-						98731, -- [3]
-						1552026333.378, -- [4]
-						1, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						221274, -- [10]
-					}, -- [14]
-					{
-						3, -- [1]
-						196555, -- [2]
-						1, -- [3]
-						1552026258.656, -- [4]
-						0, -- [5]
-						"Newc-Lightbringer", -- [6]
-					}, -- [15]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "6m 37s",
-				["time"] = 1552026333.413,
-			}, -- [7]
-			{
-				["maxhealth"] = 208840,
-				["timeofdeath"] = 397.14499999996,
-				["name"] = "Unshocked-Proudmoore",
-				["events"] = {
-					{
-						true, -- [1]
-						284177, -- [2]
-						12780, -- [3]
-						1552026327.526, -- [4]
-						28987, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						183998, -- [2]
-						45073, -- [3]
-						1552026327.939, -- [4]
-						74060, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						269108, -- [2]
-						5816, -- [3]
-						1552026327.974, -- [4]
-						79876, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						287608, -- [2]
-						678, -- [3]
-						1552026328.382, -- [4]
-						80554, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						225311, -- [2]
-						20737, -- [3]
-						1552026330.886, -- [4]
-						101291, -- [5]
-						"Kalithumos-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22156, -- [3]
-						1552026331.163, -- [4]
-						79135, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22264, -- [3]
-						1552026331.293, -- [4]
-						56871, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						287608, -- [2]
-						678, -- [3]
-						1552026331.325, -- [4]
-						57549, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						287608, -- [2]
-						678, -- [3]
-						1552026332.188, -- [4]
-						58227, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12165, -- [3]
-						1552026332.532, -- [4]
-						46062, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						283394, -- [2]
-						46062, -- [3]
-						1552026333.413, -- [4]
-						1, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						2237, -- [10]
-					}, -- [11]
-					{
-						3, -- [1]
-						108271, -- [2]
-						1, -- [3]
-						1552026290.845, -- [4]
-						0, -- [5]
-						"Unshocked-Proudmoore", -- [6]
-					}, -- [12]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "6m 37s",
-				["time"] = 1552026333.413,
-			}, -- [8]
-			{
-				["maxhealth"] = 189980,
-				["timeofdeath"] = 399.462999999989,
-				["name"] = "Nanaeve-Lightbringer",
-				["events"] = {
-					{
-						false, -- [1]
-						77489, -- [2]
-						1895, -- [3]
-						1552026326.366, -- [4]
-						126395, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						139, -- [2]
-						6368, -- [3]
-						1552026326.936, -- [4]
-						132763, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						143924, -- [2]
-						39, -- [3]
-						1552026327.066, -- [4]
-						132802, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						145109, -- [2]
-						6269, -- [3]
-						1552026327.363, -- [4]
-						139071, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12610, -- [3]
-						1552026327.526, -- [4]
-						126694, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20461, -- [3]
-						1552026327.818, -- [4]
-						106233, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						288188, -- [2]
-						22393, -- [3]
-						1552026328.195, -- [4]
-						83840, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						280052, -- [2]
-						8048, -- [3]
-						1552026328.195, -- [4]
-						91888, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						143924, -- [2]
-						39, -- [3]
-						1552026328.265, -- [4]
-						91927, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						139, -- [2]
-						3184, -- [3]
-						1552026328.937, -- [4]
-						95110, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19, -- [3]
-						1552026329.501, -- [4]
-						95363, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						269279, -- [2]
-						13484, -- [3]
-						1552026329.751, -- [4]
-						95363, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20461, -- [3]
-						1552026329.751, -- [4]
-						88386, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						13484, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						21, -- [3]
-						1552026330.748, -- [4]
-						88407, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						139, -- [2]
-						3184, -- [3]
-						1552026330.847, -- [4]
-						91591, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1213, -- [3]
-						1552026331.222, -- [4]
-						92804, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20461, -- [3]
-						1552026331.706, -- [4]
-						72575, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						21, -- [3]
-						1552026331.946, -- [4]
-						72596, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						61295, -- [2]
-						22334, -- [3]
-						1552026332.02, -- [4]
-						94930, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						145109, -- [2]
-						6895, -- [3]
-						1552026332.375, -- [4]
-						111318, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						139, -- [2]
-						5660, -- [3]
-						1552026332.532, -- [4]
-						116978, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						284177, -- [2]
-						12610, -- [3]
-						1552026332.532, -- [4]
-						104368, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						20, -- [3]
-						1552026333.153, -- [4]
-						104388, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						283394, -- [2]
-						50440, -- [3]
-						1552026333.378, -- [4]
-						53948, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						288806, -- [2]
-						20461, -- [3]
-						1552026333.718, -- [4]
-						33744, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						272260, -- [2]
-						238, -- [3]
-						1552026334.05, -- [4]
-						33982, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						61295, -- [2]
-						3659, -- [3]
-						1552026334.139, -- [4]
-						37641, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1212, -- [3]
-						1552026334.216, -- [4]
-						38853, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						143924, -- [2]
-						77, -- [3]
-						1552026334.374, -- [4]
-						38930, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						288188, -- [2]
-						25702, -- [3]
-						1552026335.311, -- [4]
-						13228, -- [5]
-						"Spark Bot", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						143924, -- [2]
-						24, -- [3]
-						1552026335.586, -- [4]
-						13509, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						288806, -- [2]
-						13509, -- [3]
-						1552026335.731, -- [4]
-						1, -- [5]
-						"[*] Gigavolt Blast", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						10021, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1552026290.818, -- [4]
-						0, -- [5]
-						"Nanaeve-Lightbringer", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DRUID",
-				["timestring"] = "6m 39s",
-				["time"] = 1552026335.731,
-			}, -- [9]
-			{
-				["maxhealth"] = 279580,
-				["timeofdeath"] = 456.923999999999,
-				["name"] = "Sheilyana-Sargeras",
-				["events"] = {
-					{
-						false, -- [1]
-						279793, -- [2]
-						6127, -- [3]
-						1552026387.418, -- [4]
-						114238, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						190456, -- [2]
-						6369, -- [3]
-						1552026387.568, -- [4]
-						114238, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						284177, -- [2]
-						6370, -- [3]
-						1552026387.592, -- [4]
-						107868, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						6369, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						280052, -- [2]
-						9164, -- [3]
-						1552026387.592, -- [4]
-						117032, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						61295, -- [2]
-						3088, -- [3]
-						1552026387.73, -- [4]
-						120120, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						200389, -- [2]
-						2356, -- [3]
-						1552026387.75, -- [4]
-						122476, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						151, -- [3]
-						1552026387.811, -- [4]
-						122627, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						139, -- [2]
-						3185, -- [3]
-						1552026387.836, -- [4]
-						125812, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						33763, -- [2]
-						2121, -- [3]
-						1552026388.221, -- [4]
-						127933, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						33763, -- [2]
-						2121, -- [3]
-						1552026389.081, -- [4]
-						130054, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						155777, -- [2]
-						4242, -- [3]
-						1552026389.307, -- [4]
-						134296, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						33763, -- [2]
-						2121, -- [3]
-						1552026389.941, -- [4]
-						136905, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2248, -- [3]
-						1552026390.15, -- [4]
-						139153, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						43, -- [3]
-						1552026390.239, -- [4]
-						139196, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						200389, -- [2]
-						2357, -- [3]
-						1552026390.358, -- [4]
-						141553, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						139, -- [2]
-						6369, -- [3]
-						1552026390.478, -- [4]
-						147922, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						61295, -- [2]
-						2977, -- [3]
-						1552026390.478, -- [4]
-						150899, -- [5]
-						"Jhasu-Lightbringer", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						33763, -- [2]
-						2121, -- [3]
-						1552026390.823, -- [4]
-						153020, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						143924, -- [2]
-						39, -- [3]
-						1552026391.463, -- [4]
-						153549, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						33763, -- [2]
-						4242, -- [3]
-						1552026391.645, -- [4]
-						157791, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						155777, -- [2]
-						8485, -- [3]
-						1552026391.905, -- [4]
-						166276, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						1, -- [2]
-						26501, -- [3]
-						1552026391.905, -- [4]
-						166276, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						35616, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						288024, -- [2]
-						9115, -- [3]
-						1552026391.905, -- [4]
-						166276, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						190456, -- [2]
-						26501, -- [3]
-						1552026391.905, -- [4]
-						166276, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						190456, -- [2]
-						5245, -- [3]
-						1552026391.905, -- [4]
-						107519, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						289705, -- [2]
-						74810, -- [3]
-						1552026391.905, -- [4]
-						32709, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						5245, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						8936, -- [2]
-						28281, -- [3]
-						1552026392.004, -- [4]
-						60990, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						33763, -- [2]
-						2301, -- [3]
-						1552026392.467, -- [4]
-						63291, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						284177, -- [2]
-						13923, -- [3]
-						1552026392.58, -- [4]
-						49368, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						143924, -- [2]
-						31, -- [3]
-						1552026392.67, -- [4]
-						43854, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						200389, -- [2]
-						2557, -- [3]
-						1552026392.872, -- [4]
-						46411, -- [5]
-						"Ryad-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						1, -- [2]
-						46411, -- [3]
-						1552026393.038, -- [4]
-						46411, -- [5]
-						"High Tinker Mekkatorque", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						23519, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						12975, -- [2]
-						1, -- [3]
-						1552026376.919, -- [4]
-						0, -- [5]
-						"Sheilyana-Sargeras", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARRIOR",
-				["timestring"] = "7m 36s",
-				["time"] = 1552026393.192,
-			}, -- [10]
-		},
-		["bossname"] = "Mekkatorque",
-		["bossicon"] = {
-			0.5, -- [1]
-			0.75, -- [2]
-			0.25, -- [3]
-			0.5, -- [4]
-			"Interface\\AddOns\\Details\\images\\raid\\DazaralorRaid_BossFaces", -- [5]
-		},
-		["date"] = 354491.062,
-		["timeelapsed"] = 479.35400000005,
+		["date"] = 166783.965,
+		["timeelapsed"] = 298.616999999998,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
@@ -21881,14 +22362,14 @@ DeathGraphsDBGraph = {
 			[140] = {
 				1536899714, -- [1]
 			},
-			[173] = {
-				1536899033, -- [1]
-			},
 			[119] = {
 				1543553349, -- [1]
 			},
 			[60] = {
 				1543553097, -- [1]
+			},
+			[173] = {
+				1536899033, -- [1]
 			},
 			[208] = {
 				1536899033, -- [1]
@@ -21943,11 +22424,11 @@ DeathGraphsDBGraph = {
 			[524] = {
 				1549000576, -- [1]
 			},
-			[64] = {
-				1549000576, -- [1]
-			},
 			[186] = {
 				1551418452, -- [1]
+			},
+			[64] = {
+				1549000576, -- [1]
 			},
 			[252] = {
 				1548999065, -- [1]
@@ -21958,8 +22439,8 @@ DeathGraphsDBGraph = {
 			[74] = {
 				1548999369, -- [1]
 			},
-			[21] = {
-				1548999369, -- [1]
+			[187] = {
+				1548999065, -- [1]
 			},
 			[105] = {
 				1548999893, -- [1]
@@ -21970,10 +22451,8 @@ DeathGraphsDBGraph = {
 			[245] = {
 				1548999065, -- [1]
 			},
-			[249] = {
-				1548999893, -- [1]
-				1548999893, -- [2]
-				1549001294, -- [3]
+			[21] = {
+				1548999369, -- [1]
 			},
 			[281] = {
 				1548999065, -- [1]
@@ -22018,8 +22497,10 @@ DeathGraphsDBGraph = {
 			[28] = {
 				1548999369, -- [1]
 			},
-			[187] = {
-				1548999065, -- [1]
+			[249] = {
+				1548999893, -- [1]
+				1548999893, -- [2]
+				1549001294, -- [3]
 			},
 			[339] = {
 				1551418452, -- [1]
@@ -22234,12 +22715,12 @@ DeathGraphsDBGraph = {
 			[281] = {
 				1548395456, -- [1]
 			},
+			[199] = {
+				1548395760, -- [1]
+			},
 			[117] = {
 				1548394925, -- [1]
 				1548997010, -- [2]
-			},
-			[199] = {
-				1548395760, -- [1]
 			},
 			[119] = {
 				1548394925, -- [1]
@@ -22251,8 +22732,8 @@ DeathGraphsDBGraph = {
 			[383] = {
 				1550815130, -- [1]
 			},
-			[246] = {
-				1548997557, -- [1]
+			[153] = {
+				1548394925, -- [1]
 			},
 			[219] = {
 				1548395760, -- [1]
@@ -22272,8 +22753,8 @@ DeathGraphsDBGraph = {
 			[106] = {
 				1548394589, -- [1]
 			},
-			[153] = {
-				1548394925, -- [1]
+			[246] = {
+				1548997557, -- [1]
 			},
 			[185] = {
 				1548395456, -- [1]
@@ -22347,35 +22828,76 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["214615"] = {
+	["233514"] = {
 		["deaths"] = {
-			[244] = {
-				1538287665, -- [1]
+			[131] = {
+				1548392596, -- [1]
+				1548392596, -- [2]
 			},
-			[132] = {
-				1539829782, -- [1]
+			[116] = {
+				1548392596, -- [1]
 			},
-			[104] = {
-				1541734545, -- [1]
+			[118] = {
+				1548392596, -- [1]
 			},
-			[123] = {
-				1539829782, -- [1]
-				1541734545, -- [2]
+			[194] = {
+				1550814245, -- [1]
 			},
-			[266] = {
-				1538287665, -- [1]
+			[103] = {
+				1548392596, -- [1]
 			},
-			[143] = {
-				1539311975, -- [1]
+			[280] = {
+				1548393830, -- [1]
 			},
-			[189] = {
-				1538287665, -- [1]
+			[296] = {
+				1548393078, -- [1]
 			},
-			[141] = {
-				1538287665, -- [1]
+			[218] = {
+				1548393830, -- [1]
+				1548393830, -- [2]
 			},
-			[201] = {
-				1538287665, -- [1]
+			[258] = {
+				1548995394, -- [1]
+			},
+			[234] = {
+				1548995394, -- [1]
+				1549605635, -- [2]
+			},
+			[238] = {
+				1549605635, -- [1]
+			},
+			[329] = {
+				1548995394, -- [1]
+			},
+			[172] = {
+				1549605635, -- [1]
+			},
+			[314] = {
+				1548393078, -- [1]
+			},
+			[291] = {
+				1548393078, -- [1]
+			},
+			[261] = {
+				1548393830, -- [1]
+			},
+			[307] = {
+				1548393078, -- [1]
+			},
+			[239] = {
+				1549605635, -- [1]
+			},
+			[212] = {
+				1549605635, -- [1]
+			},
+			[56] = {
+				1550814245, -- [1]
+			},
+			[338] = {
+				1548393830, -- [1]
+			},
+			[305] = {
+				1548393078, -- [1]
 			},
 		},
 		["spells"] = {
@@ -22564,11 +23086,11 @@ DeathGraphsDBGraph = {
 			[235] = {
 				1539838761, -- [1]
 			},
-			[400] = {
-				1541047193, -- [1]
-			},
 			[201] = {
 				1541739870, -- [1]
+			},
+			[400] = {
+				1541047193, -- [1]
 			},
 			[203] = {
 				1539838250, -- [1]
@@ -22576,9 +23098,10 @@ DeathGraphsDBGraph = {
 			[408] = {
 				1541047193, -- [1]
 			},
-			[107] = {
-				1539836880, -- [1]
-				1541738925, -- [2]
+			[297] = {
+				1541045267, -- [1]
+				1541045267, -- [2]
+				1541045267, -- [3]
 			},
 			[329] = {
 				1541739478, -- [1]
@@ -22586,10 +23109,9 @@ DeathGraphsDBGraph = {
 			[325] = {
 				1541740579, -- [1]
 			},
-			[297] = {
-				1541045267, -- [1]
-				1541045267, -- [2]
-				1541045267, -- [3]
+			[107] = {
+				1539836880, -- [1]
+				1541738925, -- [2]
 			},
 			[365] = {
 				1541044757, -- [1]
@@ -22615,14 +23137,14 @@ DeathGraphsDBGraph = {
 			[114] = {
 				1539837207, -- [1]
 			},
+			[229] = {
+				1539837870, -- [1]
+			},
 			[115] = {
 				1539835684, -- [1]
 				1539835684, -- [2]
 				1539835684, -- [3]
 				1539835945, -- [4]
-			},
-			[229] = {
-				1539837870, -- [1]
 			},
 			[84] = {
 				1539837207, -- [1]
@@ -22663,14 +23185,14 @@ DeathGraphsDBGraph = {
 			[14] = {
 				1542341020, -- [1]
 			},
-			[194] = {
-				1542341020, -- [1]
+			[209] = {
+				1542341310, -- [1]
 			},
 			[205] = {
 				1542341020, -- [1]
 			},
-			[209] = {
-				1542341310, -- [1]
+			[194] = {
+				1542341020, -- [1]
 			},
 			[172] = {
 				1542341839, -- [1]
@@ -22703,76 +23225,20 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["233514"] = {
+	["216816"] = {
 		["deaths"] = {
-			[131] = {
-				1548392596, -- [1]
-				1548392596, -- [2]
+			[30] = {
+				1542001915, -- [1]
 			},
-			[116] = {
-				1548392596, -- [1]
+			[41] = {
+				1542001915, -- [1]
 			},
-			[118] = {
-				1548392596, -- [1]
+			[47] = {
+				1542001915, -- [1]
 			},
-			[194] = {
-				1550814245, -- [1]
-			},
-			[103] = {
-				1548392596, -- [1]
-			},
-			[280] = {
-				1548393830, -- [1]
-			},
-			[296] = {
-				1548393078, -- [1]
-			},
-			[218] = {
-				1548393830, -- [1]
-				1548393830, -- [2]
-			},
-			[258] = {
-				1548995394, -- [1]
-			},
-			[234] = {
-				1548995394, -- [1]
-				1549605635, -- [2]
-			},
-			[238] = {
-				1549605635, -- [1]
-			},
-			[329] = {
-				1548995394, -- [1]
-			},
-			[172] = {
-				1549605635, -- [1]
-			},
-			[314] = {
-				1548393078, -- [1]
-			},
-			[291] = {
-				1548393078, -- [1]
-			},
-			[212] = {
-				1549605635, -- [1]
-			},
-			[338] = {
-				1548393830, -- [1]
-			},
-			[239] = {
-				1549605635, -- [1]
-			},
-			[261] = {
-				1548393830, -- [1]
-			},
-			[56] = {
-				1550814245, -- [1]
-			},
-			[307] = {
-				1548393078, -- [1]
-			},
-			[305] = {
-				1548393078, -- [1]
+			[159] = {
+				1542001915, -- [1]
+				1542001915, -- [2]
 			},
 		},
 		["spells"] = {
@@ -22852,6 +23318,154 @@ DeathGraphsDBGraph = {
 			},
 			[175] = {
 				1538286336, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["234314"] = {
+		["deaths"] = {
+			[480] = {
+				1549167394, -- [1]
+				1551421529, -- [2]
+			},
+			[481] = {
+				1551419245, -- [1]
+			},
+			[515] = {
+				1549167394, -- [1]
+			},
+			[184] = {
+				1549168104, -- [1]
+			},
+			[491] = {
+				1549168104, -- [1]
+			},
+			[110] = {
+				1549167394, -- [1]
+			},
+			[126] = {
+				1549166496, -- [1]
+			},
+			[497] = {
+				1551420863, -- [1]
+			},
+			[157] = {
+				1549165861, -- [1]
+			},
+			[437] = {
+				1551420863, -- [1]
+				1551420863, -- [2]
+			},
+			[158] = {
+				1549165861, -- [1]
+				1549165861, -- [2]
+			},
+			[190] = {
+				1549164455, -- [1]
+				1549166496, -- [2]
+			},
+			[191] = {
+				1549166496, -- [1]
+			},
+			[193] = {
+				1549165861, -- [1]
+			},
+			[162] = {
+				1549165392, -- [1]
+			},
+			[510] = {
+				1551420077, -- [1]
+			},
+			[226] = {
+				1549164455, -- [1]
+			},
+			[228] = {
+				1549164455, -- [1]
+			},
+			[198] = {
+				1549164455, -- [1]
+				1549165392, -- [2]
+				1549165861, -- [3]
+			},
+			[524] = {
+				1551421529, -- [1]
+			},
+			[456] = {
+				1549166496, -- [1]
+			},
+			[457] = {
+				1549166496, -- [1]
+			},
+			[85] = {
+				1549168352, -- [1]
+			},
+			[200] = {
+				1549168104, -- [1]
+			},
+			[187] = {
+				1549165392, -- [1]
+			},
+			[433] = {
+				1551420863, -- [1]
+			},
+			[240] = {
+				1551419245, -- [1]
+			},
+			[475] = {
+				1551419245, -- [1]
+			},
+			[509] = {
+				1551420077, -- [1]
+			},
+			[544] = {
+				1551420077, -- [1]
+			},
+			[504] = {
+				1551419245, -- [1]
+			},
+			[103] = {
+				1549168352, -- [1]
+			},
+			[120] = {
+				1549168352, -- [1]
+			},
+			[501] = {
+				1551419245, -- [1]
+			},
+			[508] = {
+				1551420077, -- [1]
+			},
+			[206] = {
+				1549165392, -- [1]
+				1549165392, -- [2]
+			},
+			[175] = {
+				1549168104, -- [1]
+			},
+			[541] = {
+				1551420077, -- [1]
+			},
+			[482] = {
+				1549168104, -- [1]
+			},
+			[208] = {
+				1549164455, -- [1]
+			},
+			[121] = {
+				1549168352, -- [1]
+				1549168352, -- [2]
+			},
+			[477] = {
+				1551420863, -- [1]
+			},
+			[499] = {
+				1549167394, -- [1]
+			},
+			[320] = {
+				1549167394, -- [1]
 			},
 		},
 		["spells"] = {
@@ -22967,154 +23581,6 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["234314"] = {
-		["deaths"] = {
-			[480] = {
-				1549167394, -- [1]
-				1551421529, -- [2]
-			},
-			[481] = {
-				1551419245, -- [1]
-			},
-			[515] = {
-				1549167394, -- [1]
-			},
-			[184] = {
-				1549168104, -- [1]
-			},
-			[491] = {
-				1549168104, -- [1]
-			},
-			[110] = {
-				1549167394, -- [1]
-			},
-			[126] = {
-				1549166496, -- [1]
-			},
-			[497] = {
-				1551420863, -- [1]
-			},
-			[157] = {
-				1549165861, -- [1]
-			},
-			[437] = {
-				1551420863, -- [1]
-				1551420863, -- [2]
-			},
-			[158] = {
-				1549165861, -- [1]
-				1549165861, -- [2]
-			},
-			[190] = {
-				1549164455, -- [1]
-				1549166496, -- [2]
-			},
-			[191] = {
-				1549166496, -- [1]
-			},
-			[193] = {
-				1549165861, -- [1]
-			},
-			[162] = {
-				1549165392, -- [1]
-			},
-			[510] = {
-				1551420077, -- [1]
-			},
-			[226] = {
-				1549164455, -- [1]
-			},
-			[228] = {
-				1549164455, -- [1]
-			},
-			[524] = {
-				1551421529, -- [1]
-			},
-			[198] = {
-				1549164455, -- [1]
-				1549165392, -- [2]
-				1549165861, -- [3]
-			},
-			[456] = {
-				1549166496, -- [1]
-			},
-			[457] = {
-				1549166496, -- [1]
-			},
-			[85] = {
-				1549168352, -- [1]
-			},
-			[200] = {
-				1549168104, -- [1]
-			},
-			[187] = {
-				1549165392, -- [1]
-			},
-			[433] = {
-				1551420863, -- [1]
-			},
-			[240] = {
-				1551419245, -- [1]
-			},
-			[475] = {
-				1551419245, -- [1]
-			},
-			[509] = {
-				1551420077, -- [1]
-			},
-			[544] = {
-				1551420077, -- [1]
-			},
-			[504] = {
-				1551419245, -- [1]
-			},
-			[103] = {
-				1549168352, -- [1]
-			},
-			[120] = {
-				1549168352, -- [1]
-			},
-			[501] = {
-				1551419245, -- [1]
-			},
-			[508] = {
-				1551420077, -- [1]
-			},
-			[206] = {
-				1549165392, -- [1]
-				1549165392, -- [2]
-			},
-			[175] = {
-				1549168104, -- [1]
-			},
-			[541] = {
-				1551420077, -- [1]
-			},
-			[482] = {
-				1549168104, -- [1]
-			},
-			[208] = {
-				1549164455, -- [1]
-			},
-			[121] = {
-				1549168352, -- [1]
-				1549168352, -- [2]
-			},
-			[477] = {
-				1551420863, -- [1]
-			},
-			[499] = {
-				1549167394, -- [1]
-			},
-			[320] = {
-				1549167394, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
 	["216915"] = {
 		["deaths"] = {
 			[210] = {
@@ -23186,8 +23652,9 @@ DeathGraphsDBGraph = {
 			[449] = {
 				1537505502, -- [1]
 			},
-			[270] = {
-				1537504723, -- [1]
+			[101] = {
+				1537503237, -- [1]
+				1537503237, -- [2]
 			},
 			[339] = {
 				1537504723, -- [1]
@@ -23208,8 +23675,10 @@ DeathGraphsDBGraph = {
 			[140] = {
 				1538291543, -- [1]
 			},
-			[282] = {
-				1537506304, -- [1]
+			[143] = {
+				1538291543, -- [1]
+				1538291543, -- [2]
+				1538291543, -- [3]
 			},
 			[467] = {
 				1538709544, -- [1]
@@ -23225,10 +23694,8 @@ DeathGraphsDBGraph = {
 				1538291042, -- [1]
 				1538291042, -- [2]
 			},
-			[143] = {
-				1538291543, -- [1]
-				1538291543, -- [2]
-				1538291543, -- [3]
+			[282] = {
+				1537506304, -- [1]
 			},
 			[370] = {
 				1537503885, -- [1]
@@ -23246,9 +23713,8 @@ DeathGraphsDBGraph = {
 				1537502876, -- [1]
 				1537502876, -- [2]
 			},
-			[101] = {
-				1537503237, -- [1]
-				1537503237, -- [2]
+			[270] = {
+				1537504723, -- [1]
 			},
 			[518] = {
 				1537505502, -- [1]
@@ -23264,244 +23730,87 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["219415"] = {
+	["233515"] = {
 		["deaths"] = {
-			[46] = {
-				1539319398, -- [1]
+			[347] = {
+				1552023128, -- [1]
 			},
-			[149] = {
-				1539318887, -- [1]
-				1539318887, -- [2]
-				1539834013, -- [3]
-			},
-			[150] = {
-				1539833701, -- [1]
-				1539834305, -- [2]
-			},
-			[108] = {
-				1539319156, -- [1]
-			},
-			[246] = {
-				1540524738, -- [1]
-			},
-			[152] = {
-				1539319156, -- [1]
-			},
-			[93] = {
-				1539833701, -- [1]
-			},
-			[153] = {
-				1539319156, -- [1]
-				1539319156, -- [2]
-			},
-			[248] = {
-				1539319853, -- [1]
-			},
-			[250] = {
-				1539318553, -- [1]
-			},
-			[219] = {
-				1539318553, -- [1]
-			},
-			[157] = {
-				1539834013, -- [1]
-				1539834305, -- [2]
-			},
-			[189] = {
-				1539318887, -- [1]
-			},
-			[96] = {
-				1540524738, -- [1]
-			},
-			[159] = {
-				1539834013, -- [1]
-			},
-			[254] = {
-				1539319853, -- [1]
-			},
-			[160] = {
-				1539319398, -- [1]
-				1539319398, -- [2]
-			},
-			[49] = {
-				1539320258, -- [1]
-			},
-			[224] = {
-				1539319853, -- [1]
-			},
-			[130] = {
-				1539317893, -- [1]
-				1539317893, -- [2]
-				1539317893, -- [3]
-				1539318168, -- [4]
-			},
-			[131] = {
-				1539317893, -- [1]
-				1539317893, -- [2]
-			},
-			[115] = {
-				1539833701, -- [1]
-			},
-			[326] = {
-				1541737666, -- [1]
-			},
-			[265] = {
-				1539320258, -- [1]
-			},
-			[100] = {
-				1539834013, -- [1]
-			},
-			[267] = {
-				1540524738, -- [1]
-			},
-			[136] = {
-				1539833701, -- [1]
-			},
-			[255] = {
-				1540524738, -- [1]
-			},
-			[98] = {
-				1539834305, -- [1]
-			},
-			[117] = {
-				1541737666, -- [1]
-			},
-			[138] = {
-				1539834305, -- [1]
-			},
-			[65] = {
-				1539317594, -- [1]
-			},
-			[145] = {
-				1539834305, -- [1]
-			},
-			[234] = {
-				1539318553, -- [1]
-			},
-			[71] = {
-				1539317594, -- [1]
-			},
-			[277] = {
-				1539320258, -- [1]
-			},
-			[33] = {
-				1539317594, -- [1]
-			},
-			[171] = {
-				1539318887, -- [1]
-			},
-			[64] = {
-				1539318887, -- [1]
-			},
-			[206] = {
-				1539318553, -- [1]
-				1539318553, -- [2]
-			},
-			[143] = {
-				1539318168, -- [1]
-				1539318168, -- [2]
-			},
-			[275] = {
-				1539320258, -- [1]
-				1539320258, -- [2]
-			},
-			[144] = {
-				1539318168, -- [1]
-				1539319398, -- [2]
-			},
-			[151] = {
-				1539319156, -- [1]
-				1539319398, -- [2]
-				1539833701, -- [3]
-				1539834013, -- [4]
-			},
-			[53] = {
-				1539317594, -- [1]
-				1539317594, -- [2]
-			},
-			[121] = {
-				1539318168, -- [1]
-			},
-			[209] = {
-				1539319853, -- [1]
-			},
-			[178] = {
-				1539319853, -- [1]
-			},
-			[331] = {
-				1540524738, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
-	["216815"] = {
-		["deaths"] = {
 			[332] = {
-				1537496060, -- [1]
+				1552025148, -- [1]
 			},
-			[122] = {
-				1541733548, -- [1]
+			[309] = {
+				1552624222, -- [1]
 			},
-			[111] = {
-				1539310325, -- [1]
-				1539310325, -- [2]
-				1539310325, -- [3]
-				1539310325, -- [4]
-				1539310325, -- [5]
+			[348] = {
+				1552624222, -- [1]
+			},
+			[372] = {
+				1552023846, -- [1]
+			},
+			[543] = {
+				1552025148, -- [1]
+				1552025148, -- [2]
+			},
+			[342] = {
+				1552023846, -- [1]
+			},
+			[319] = {
+				1552024384, -- [1]
+			},
+			[273] = {
+				1552024384, -- [1]
 			},
 			[160] = {
-				1539828695, -- [1]
+				1552023128, -- [1]
 			},
-			[195] = {
-				1537496060, -- [1]
+			[351] = {
+				1552624222, -- [1]
 			},
-			[359] = {
-				1537496060, -- [1]
+			[498] = {
+				1552624906, -- [1]
 			},
-			[141] = {
-				1541733115, -- [1]
-				1541733548, -- [2]
+			[336] = {
+				1552023128, -- [1]
 			},
-			[121] = {
-				1541733115, -- [1]
+			[441] = {
+				1552624906, -- [1]
 			},
-			[250] = {
-				1537496060, -- [1]
-				1537496060, -- [2]
+			[279] = {
+				1552624222, -- [1]
 			},
-			[283] = {
-				1539828695, -- [1]
+			[55] = {
+				1552624906, -- [1]
 			},
-			[138] = {
-				1538705853, -- [1]
-				1538705853, -- [2]
-				1539828695, -- [3]
+			[54] = {
+				1552624222, -- [1]
 			},
-			[104] = {
-				1541733115, -- [1]
-				1541733548, -- [2]
-				1541733548, -- [3]
-				1541733548, -- [4]
+			[345] = {
+				1552023128, -- [1]
 			},
-			[161] = {
-				1538285864, -- [1]
+			[299] = {
+				1552024384, -- [1]
 			},
-			[142] = {
-				1541733115, -- [1]
+			[268] = {
+				1552024384, -- [1]
 			},
-			[164] = {
-				1539828695, -- [1]
+			[307] = {
+				1552023128, -- [1]
+				1552023846, -- [2]
 			},
-			[118] = {
-				1541733115, -- [1]
+			[346] = {
+				1552025148, -- [1]
 			},
-			[139] = {
-				1541038490, -- [1]
-				1541038490, -- [2]
-				1541038490, -- [3]
+			[323] = {
+				1552024384, -- [1]
+			},
+			[311] = {
+				1552023846, -- [1]
+			},
+			[20] = {
+				1552025148, -- [1]
+			},
+			[249] = {
+				1552023846, -- [1]
 			},
 		},
 		["spells"] = {
@@ -23624,21 +23933,21 @@ DeathGraphsDBGraph = {
 			[238] = {
 				1540524165, -- [1]
 			},
-			[235] = {
-				1539832316, -- [1]
+			[277] = {
+				1538711589, -- [1]
 			},
 			[274] = {
 				1539316811, -- [1]
 			},
-			[338] = {
-				1538712168, -- [1]
+			[118] = {
+				1541042243, -- [1]
 			},
 			[276] = {
 				1538713583, -- [1]
 				1538714088, -- [2]
 			},
-			[277] = {
-				1538711589, -- [1]
+			[235] = {
+				1539832316, -- [1]
 			},
 			[103] = {
 				1538711589, -- [1]
@@ -23646,21 +23955,21 @@ DeathGraphsDBGraph = {
 			[279] = {
 				1538711589, -- [1]
 			},
-			[343] = {
-				1538712168, -- [1]
+			[280] = {
+				1538713583, -- [1]
 			},
 			[275] = {
 				1539316811, -- [1]
 			},
-			[280] = {
-				1538713583, -- [1]
+			[343] = {
+				1538712168, -- [1]
 			},
 			[346] = {
 				1538713137, -- [1]
 				1538713137, -- [2]
 			},
-			[118] = {
-				1541042243, -- [1]
+			[338] = {
+				1538712168, -- [1]
 			},
 			[358] = {
 				1538715485, -- [1]
@@ -23680,6 +23989,92 @@ DeathGraphsDBGraph = {
 			},
 			[244] = {
 				1540524165, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["216814"] = {
+		["deaths"] = {
+			[114] = {
+				1543555703, -- [1]
+			},
+			[93] = {
+				1543554739, -- [1]
+			},
+			[95] = {
+				1543554739, -- [1]
+			},
+			[97] = {
+				1543554570, -- [1]
+			},
+			[99] = {
+				1543554570, -- [1]
+				1543555703, -- [2]
+			},
+			[103] = {
+				1543554570, -- [1]
+			},
+			[105] = {
+				1543547949, -- [1]
+				1543548256, -- [2]
+			},
+			[109] = {
+				1543547949, -- [1]
+				1543547949, -- [2]
+			},
+			[90] = {
+				1543555703, -- [1]
+			},
+			[92] = {
+				1543554570, -- [1]
+			},
+			[94] = {
+				1543554739, -- [1]
+				1543554739, -- [2]
+				1543554739, -- [3]
+			},
+			[102] = {
+				1543548256, -- [1]
+				1543554570, -- [2]
+			},
+			[104] = {
+				1543547949, -- [1]
+			},
+			[125] = {
+				1543555139, -- [1]
+				1543555703, -- [2]
+			},
+			[292] = {
+				1536891250, -- [1]
+			},
+			[263] = {
+				1536891250, -- [1]
+			},
+			[112] = {
+				1543555139, -- [1]
+			},
+			[108] = {
+				1543547949, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["216914"] = {
+		["deaths"] = {
+			[352] = {
+				1536892584, -- [1]
+			},
+			[357] = {
+				1536892584, -- [1]
+				1536892584, -- [2]
+				1536892584, -- [3]
+				1536892584, -- [4]
 			},
 		},
 		["spells"] = {
@@ -23710,16 +24105,334 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["216914"] = {
+	["233015"] = {
 		["deaths"] = {
-			[352] = {
-				1536892584, -- [1]
+			[106] = {
+				1548567526, -- [1]
+				1551415546, -- [2]
 			},
-			[357] = {
-				1536892584, -- [1]
-				1536892584, -- [2]
-				1536892584, -- [3]
-				1536892584, -- [4]
+			[292] = {
+				1551416042, -- [1]
+			},
+			[46] = {
+				1552020499, -- [1]
+			},
+			[107] = {
+				1552621276, -- [1]
+				1552621276, -- [2]
+			},
+			[182] = {
+				1551415546, -- [1]
+			},
+			[108] = {
+				1551415546, -- [1]
+				1552621276, -- [2]
+			},
+			[77] = {
+				1548566776, -- [1]
+			},
+			[215] = {
+				1551416648, -- [1]
+			},
+			[216] = {
+				1551416648, -- [1]
+				1551416648, -- [2]
+				1551416648, -- [3]
+				1552021091, -- [4]
+			},
+			[185] = {
+				1549173498, -- [1]
+			},
+			[303] = {
+				1552020013, -- [1]
+			},
+			[186] = {
+				1549174053, -- [1]
+			},
+			[218] = {
+				1551416648, -- [1]
+			},
+			[187] = {
+				1548568046, -- [1]
+			},
+			[79] = {
+				1548566776, -- [1]
+				1548567526, -- [2]
+				1548568046, -- [3]
+			},
+			[188] = {
+				1548568046, -- [1]
+				1548568046, -- [2]
+				1549173498, -- [3]
+			},
+			[111] = {
+				1551415546, -- [1]
+			},
+			[189] = {
+				1548568046, -- [1]
+			},
+			[80] = {
+				1548567080, -- [1]
+			},
+			[151] = {
+				1551415114, -- [1]
+			},
+			[333] = {
+				1552620962, -- [1]
+			},
+			[84] = {
+				1548567080, -- [1]
+				1548567080, -- [2]
+				1548567080, -- [3]
+				1548567526, -- [4]
+				1549174053, -- [5]
+				1551415114, -- [6]
+				1551415114, -- [7]
+				1551416278, -- [8]
+				1551416278, -- [9]
+			},
+			[81] = {
+				1548566776, -- [1]
+				1548567526, -- [2]
+				1549174053, -- [3]
+			},
+			[200] = {
+				1552020499, -- [1]
+			},
+			[86] = {
+				1551416278, -- [1]
+				1551416278, -- [2]
+				1552621276, -- [3]
+			},
+			[139] = {
+				1551415546, -- [1]
+			},
+			[225] = {
+				1552620962, -- [1]
+			},
+			[206] = {
+				1552620962, -- [1]
+			},
+			[163] = {
+				1548568597, -- [1]
+			},
+			[87] = {
+				1552621276, -- [1]
+			},
+			[83] = {
+				1548567080, -- [1]
+				1548567526, -- [2]
+				1549174053, -- [3]
+			},
+			[205] = {
+				1552620962, -- [1]
+			},
+			[165] = {
+				1549173498, -- [1]
+			},
+			[236] = {
+				1549173498, -- [1]
+				1552621993, -- [2]
+			},
+			[229] = {
+				1552020013, -- [1]
+			},
+			[278] = {
+				1548568597, -- [1]
+				1551416042, -- [2]
+			},
+			[330] = {
+				1552021091, -- [1]
+			},
+			[331] = {
+				1552621993, -- [1]
+			},
+			[85] = {
+				1548568597, -- [1]
+				1549174053, -- [2]
+				1551415114, -- [3]
+			},
+			[270] = {
+				1552020499, -- [1]
+			},
+			[271] = {
+				1552020499, -- [1]
+			},
+			[201] = {
+				1552020499, -- [1]
+			},
+			[273] = {
+				1548568597, -- [1]
+				1552622598, -- [2]
+			},
+			[274] = {
+				1552621993, -- [1]
+			},
+			[275] = {
+				1551416042, -- [1]
+			},
+			[276] = {
+				1552621993, -- [1]
+				1552622598, -- [2]
+			},
+			[277] = {
+				1552021091, -- [1]
+			},
+			[204] = {
+				1552020013, -- [1]
+			},
+			[173] = {
+				1548568597, -- [1]
+			},
+			[72] = {
+				1548566776, -- [1]
+			},
+			[281] = {
+				1552020013, -- [1]
+			},
+			[104] = {
+				1551416278, -- [1]
+			},
+			[102] = {
+				1551416042, -- [1]
+			},
+			[336] = {
+				1552021091, -- [1]
+			},
+			[285] = {
+				1552620962, -- [1]
+			},
+			[279] = {
+				1551416042, -- [1]
+			},
+			[41] = {
+				1548566776, -- [1]
+			},
+			[146] = {
+				1551415114, -- [1]
+				1552621993, -- [2]
+			},
+			[48] = {
+				1549173498, -- [1]
+			},
+			[308] = {
+				1552020013, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["233415"] = {
+		["deaths"] = {
+			[356] = {
+				1552026411, -- [1]
+			},
+			[420] = {
+				1552627752, -- [1]
+			},
+			[359] = {
+				1552026411, -- [1]
+			},
+			[182] = {
+				1552625642, -- [1]
+			},
+			[365] = {
+				1552626210, -- [1]
+			},
+			[304] = {
+				1552627752, -- [1]
+			},
+			[187] = {
+				1552026411, -- [1]
+			},
+			[309] = {
+				1552626675, -- [1]
+			},
+			[310] = {
+				1552626210, -- [1]
+			},
+			[312] = {
+				1552626675, -- [1]
+			},
+			[379] = {
+				1552627752, -- [1]
+			},
+			[193] = {
+				1552027026, -- [1]
+			},
+			[114] = {
+				1552027026, -- [1]
+			},
+			[387] = {
+				1552627752, -- [1]
+			},
+			[196] = {
+				1552625642, -- [1]
+			},
+			[267] = {
+				1552625642, -- [1]
+			},
+			[394] = {
+				1552626210, -- [1]
+			},
+			[269] = {
+				1552626210, -- [1]
+				1552627089, -- [2]
+			},
+			[272] = {
+				1552027026, -- [1]
+			},
+			[273] = {
+				1552627089, -- [1]
+			},
+			[274] = {
+				1552627089, -- [1]
+			},
+			[277] = {
+				1552027026, -- [1]
+				1552625642, -- [2]
+				1552626675, -- [3]
+				1552627089, -- [4]
+			},
+			[341] = {
+				1552026411, -- [1]
+			},
+			[279] = {
+				1552626675, -- [1]
+			},
+			[142] = {
+				1552025786, -- [1]
+			},
+			[281] = {
+				1552627089, -- [1]
+			},
+			[143] = {
+				1552025786, -- [1]
+				1552025786, -- [2]
+				1552626675, -- [3]
+			},
+			[188] = {
+				1552627752, -- [1]
+			},
+			[239] = {
+				1552027026, -- [1]
+			},
+			[48] = {
+				1552025786, -- [1]
+			},
+			[350] = {
+				1552026411, -- [1]
+			},
+			[342] = {
+				1552626210, -- [1]
+			},
+			[139] = {
+				1552625642, -- [1]
+			},
+			[116] = {
+				1552025786, -- [1]
 			},
 		},
 		["spells"] = {
@@ -23731,6 +24444,9 @@ DeathGraphsDBGraph = {
 		["deaths"] = {
 			[122] = {
 				1550807398, -- [1]
+			},
+			[124] = {
+				1552619163, -- [1]
 			},
 			[251] = {
 				1552018155, -- [1]
@@ -23785,6 +24501,8 @@ DeathGraphsDBGraph = {
 			[47] = {
 				1549598210, -- [1]
 				1549598210, -- [2]
+				1552618768, -- [3]
+				1552618768, -- [4]
 			},
 			[188] = {
 				1549597135, -- [1]
@@ -23836,11 +24554,20 @@ DeathGraphsDBGraph = {
 			[59] = {
 				1548561198, -- [1]
 			},
+			[236] = {
+				1552619163, -- [1]
+			},
 			[61] = {
 				1549596321, -- [1]
 			},
+			[58] = {
+				1552618768, -- [1]
+			},
 			[63] = {
 				1549597709, -- [1]
+			},
+			[33] = {
+				1549598008, -- [1]
 			},
 			[64] = {
 				1549597709, -- [1]
@@ -23872,8 +24599,8 @@ DeathGraphsDBGraph = {
 			[70] = {
 				1550806320, -- [1]
 			},
-			[33] = {
-				1549598008, -- [1]
+			[159] = {
+				1548560666, -- [1]
 			},
 			[143] = {
 				1549595639, -- [1]
@@ -23905,11 +24632,14 @@ DeathGraphsDBGraph = {
 			[79] = {
 				1552016919, -- [1]
 			},
-			[159] = {
-				1548560666, -- [1]
+			[80] = {
+				1549598440, -- [1]
+				1549598440, -- [2]
+				1549598440, -- [3]
 			},
-			[161] = {
-				1549597135, -- [1]
+			[81] = {
+				1549597709, -- [1]
+				1552618768, -- [2]
 			},
 			[82] = {
 				1549596562, -- [1]
@@ -23934,6 +24664,7 @@ DeathGraphsDBGraph = {
 				1552017179, -- [3]
 				1552017179, -- [4]
 				1552017179, -- [5]
+				1552618768, -- [6]
 			},
 			[175] = {
 				1548562454, -- [1]
@@ -23949,11 +24680,8 @@ DeathGraphsDBGraph = {
 				1548559329, -- [1]
 				1548560666, -- [2]
 			},
-			[171] = {
-				1549601508, -- [1]
-				1549601508, -- [2]
-				1549601508, -- [3]
-				1549601508, -- [4]
+			[227] = {
+				1549601923, -- [1]
 			},
 			[185] = {
 				1549597135, -- [1]
@@ -23965,8 +24693,11 @@ DeathGraphsDBGraph = {
 			[376] = {
 				1550806320, -- [1]
 			},
-			[227] = {
-				1549601923, -- [1]
+			[171] = {
+				1549601508, -- [1]
+				1549601508, -- [2]
+				1549601508, -- [3]
+				1549601508, -- [4]
 			},
 			[97] = {
 				1548559018, -- [1]
@@ -24042,13 +24773,12 @@ DeathGraphsDBGraph = {
 			[337] = {
 				1550806320, -- [1]
 			},
-			[80] = {
-				1549598440, -- [1]
-				1549598440, -- [2]
-				1549598440, -- [3]
+			[161] = {
+				1549597135, -- [1]
 			},
-			[81] = {
-				1549597709, -- [1]
+			[237] = {
+				1552619163, -- [1]
+				1552619163, -- [2]
 			},
 			[239] = {
 				1548562920, -- [1]
@@ -24062,301 +24792,71 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["233415"] = {
+	["216815"] = {
 		["deaths"] = {
-			[350] = {
-				1552026411, -- [1]
+			[332] = {
+				1537496060, -- [1]
 			},
-			[48] = {
-				1552025786, -- [1]
-			},
-			[277] = {
-				1552027026, -- [1]
-			},
-			[193] = {
-				1552027026, -- [1]
-			},
-			[341] = {
-				1552026411, -- [1]
-			},
-			[116] = {
-				1552025786, -- [1]
-			},
-			[142] = {
-				1552025786, -- [1]
-			},
-			[359] = {
-				1552026411, -- [1]
-			},
-			[143] = {
-				1552025786, -- [1]
-				1552025786, -- [2]
-			},
-			[239] = {
-				1552027026, -- [1]
-			},
-			[272] = {
-				1552027026, -- [1]
-			},
-			[356] = {
-				1552026411, -- [1]
-			},
-			[114] = {
-				1552027026, -- [1]
-			},
-			[187] = {
-				1552026411, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
-	["233015"] = {
-		["deaths"] = {
-			[106] = {
-				1548567526, -- [1]
-				1551415546, -- [2]
-			},
-			[292] = {
-				1551416042, -- [1]
-			},
-			[46] = {
-				1552020499, -- [1]
-			},
-			[182] = {
-				1551415546, -- [1]
-			},
-			[108] = {
-				1551415546, -- [1]
-			},
-			[77] = {
-				1548566776, -- [1]
-			},
-			[216] = {
-				1551416648, -- [1]
-				1551416648, -- [2]
-				1551416648, -- [3]
-				1552021091, -- [4]
-			},
-			[185] = {
-				1549173498, -- [1]
-			},
-			[186] = {
-				1549174053, -- [1]
-			},
-			[218] = {
-				1551416648, -- [1]
-			},
-			[187] = {
-				1548568046, -- [1]
-			},
-			[79] = {
-				1548566776, -- [1]
-				1548567526, -- [2]
-				1548568046, -- [3]
-			},
-			[188] = {
-				1548568046, -- [1]
-				1548568046, -- [2]
-				1549173498, -- [3]
+			[122] = {
+				1541733548, -- [1]
 			},
 			[111] = {
-				1551415546, -- [1]
+				1539310325, -- [1]
+				1539310325, -- [2]
+				1539310325, -- [3]
+				1539310325, -- [4]
+				1539310325, -- [5]
 			},
-			[189] = {
-				1548568046, -- [1]
+			[160] = {
+				1539828695, -- [1]
 			},
-			[80] = {
-				1548567080, -- [1]
+			[195] = {
+				1537496060, -- [1]
 			},
-			[81] = {
-				1548566776, -- [1]
-				1548567526, -- [2]
-				1549174053, -- [3]
+			[359] = {
+				1537496060, -- [1]
 			},
-			[215] = {
-				1551416648, -- [1]
+			[141] = {
+				1541733115, -- [1]
+				1541733548, -- [2]
 			},
-			[163] = {
-				1548568597, -- [1]
+			[121] = {
+				1541733115, -- [1]
 			},
-			[303] = {
-				1552020013, -- [1]
+			[250] = {
+				1537496060, -- [1]
+				1537496060, -- [2]
 			},
-			[83] = {
-				1548567080, -- [1]
-				1548567526, -- [2]
-				1549174053, -- [3]
+			[283] = {
+				1539828695, -- [1]
 			},
-			[41] = {
-				1548566776, -- [1]
+			[138] = {
+				1538705853, -- [1]
+				1538705853, -- [2]
+				1539828695, -- [3]
 			},
-			[165] = {
-				1549173498, -- [1]
+			[104] = {
+				1541733115, -- [1]
+				1541733548, -- [2]
+				1541733548, -- [3]
+				1541733548, -- [4]
 			},
-			[229] = {
-				1552020013, -- [1]
+			[161] = {
+				1538285864, -- [1]
 			},
-			[84] = {
-				1548567080, -- [1]
-				1548567080, -- [2]
-				1548567080, -- [3]
-				1548567526, -- [4]
-				1549174053, -- [5]
-				1551415114, -- [6]
-				1551415114, -- [7]
-				1551416278, -- [8]
-				1551416278, -- [9]
+			[142] = {
+				1541733115, -- [1]
 			},
-			[270] = {
-				1552020499, -- [1]
+			[164] = {
+				1539828695, -- [1]
 			},
-			[330] = {
-				1552021091, -- [1]
-			},
-			[336] = {
-				1552021091, -- [1]
-			},
-			[85] = {
-				1548568597, -- [1]
-				1549174053, -- [2]
-				1551415114, -- [3]
-			},
-			[200] = {
-				1552020499, -- [1]
-			},
-			[271] = {
-				1552020499, -- [1]
-			},
-			[201] = {
-				1552020499, -- [1]
-			},
-			[273] = {
-				1548568597, -- [1]
+			[118] = {
+				1541733115, -- [1]
 			},
 			[139] = {
-				1551415546, -- [1]
-			},
-			[275] = {
-				1551416042, -- [1]
-			},
-			[204] = {
-				1552020013, -- [1]
-			},
-			[277] = {
-				1552021091, -- [1]
-			},
-			[278] = {
-				1548568597, -- [1]
-				1551416042, -- [2]
-			},
-			[173] = {
-				1548568597, -- [1]
-			},
-			[72] = {
-				1548566776, -- [1]
-			},
-			[281] = {
-				1552020013, -- [1]
-			},
-			[104] = {
-				1551416278, -- [1]
-			},
-			[86] = {
-				1551416278, -- [1]
-				1551416278, -- [2]
-			},
-			[279] = {
-				1551416042, -- [1]
-			},
-			[236] = {
-				1549173498, -- [1]
-			},
-			[102] = {
-				1551416042, -- [1]
-			},
-			[151] = {
-				1551415114, -- [1]
-			},
-			[146] = {
-				1551415114, -- [1]
-			},
-			[308] = {
-				1552020013, -- [1]
-			},
-			[48] = {
-				1549173498, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
-	["216814"] = {
-		["deaths"] = {
-			[114] = {
-				1543555703, -- [1]
-			},
-			[93] = {
-				1543554739, -- [1]
-			},
-			[95] = {
-				1543554739, -- [1]
-			},
-			[97] = {
-				1543554570, -- [1]
-			},
-			[99] = {
-				1543554570, -- [1]
-				1543555703, -- [2]
-			},
-			[103] = {
-				1543554570, -- [1]
-			},
-			[105] = {
-				1543547949, -- [1]
-				1543548256, -- [2]
-			},
-			[109] = {
-				1543547949, -- [1]
-				1543547949, -- [2]
-			},
-			[90] = {
-				1543555703, -- [1]
-			},
-			[92] = {
-				1543554570, -- [1]
-			},
-			[94] = {
-				1543554739, -- [1]
-				1543554739, -- [2]
-				1543554739, -- [3]
-			},
-			[102] = {
-				1543548256, -- [1]
-				1543554570, -- [2]
-			},
-			[104] = {
-				1543547949, -- [1]
-			},
-			[125] = {
-				1543555139, -- [1]
-				1543555703, -- [2]
-			},
-			[108] = {
-				1543547949, -- [1]
-			},
-			[263] = {
-				1536891250, -- [1]
-			},
-			[112] = {
-				1543555139, -- [1]
-			},
-			[292] = {
-				1536891250, -- [1]
+				1541038490, -- [1]
+				1541038490, -- [2]
+				1541038490, -- [3]
 			},
 		},
 		["spells"] = {
@@ -24484,63 +24984,172 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["233515"] = {
+	["219415"] = {
 		["deaths"] = {
-			[347] = {
-				1552023128, -- [1]
+			[46] = {
+				1539319398, -- [1]
 			},
-			[332] = {
-				1552025148, -- [1]
+			[149] = {
+				1539318887, -- [1]
+				1539318887, -- [2]
+				1539834013, -- [3]
 			},
-			[372] = {
-				1552023846, -- [1]
+			[150] = {
+				1539833701, -- [1]
+				1539834305, -- [2]
 			},
-			[543] = {
-				1552025148, -- [1]
-				1552025148, -- [2]
+			[108] = {
+				1539319156, -- [1]
 			},
-			[342] = {
-				1552023846, -- [1]
+			[246] = {
+				1540524738, -- [1]
 			},
-			[319] = {
-				1552024384, -- [1]
+			[152] = {
+				1539319156, -- [1]
 			},
-			[273] = {
-				1552024384, -- [1]
+			[93] = {
+				1539833701, -- [1]
+			},
+			[153] = {
+				1539319156, -- [1]
+				1539319156, -- [2]
+			},
+			[248] = {
+				1539319853, -- [1]
+			},
+			[250] = {
+				1539318553, -- [1]
+			},
+			[219] = {
+				1539318553, -- [1]
+			},
+			[157] = {
+				1539834013, -- [1]
+				1539834305, -- [2]
+			},
+			[189] = {
+				1539318887, -- [1]
+			},
+			[96] = {
+				1540524738, -- [1]
+			},
+			[159] = {
+				1539834013, -- [1]
+			},
+			[254] = {
+				1539319853, -- [1]
 			},
 			[160] = {
-				1552023128, -- [1]
+				1539319398, -- [1]
+				1539319398, -- [2]
 			},
-			[336] = {
-				1552023128, -- [1]
+			[49] = {
+				1539320258, -- [1]
 			},
-			[345] = {
-				1552023128, -- [1]
+			[224] = {
+				1539319853, -- [1]
 			},
-			[311] = {
-				1552023846, -- [1]
+			[130] = {
+				1539317893, -- [1]
+				1539317893, -- [2]
+				1539317893, -- [3]
+				1539318168, -- [4]
 			},
-			[299] = {
-				1552024384, -- [1]
+			[131] = {
+				1539317893, -- [1]
+				1539317893, -- [2]
 			},
-			[307] = {
-				1552023128, -- [1]
-				1552023846, -- [2]
+			[115] = {
+				1539833701, -- [1]
 			},
-			[346] = {
-				1552025148, -- [1]
+			[326] = {
+				1541737666, -- [1]
 			},
-			[323] = {
-				1552024384, -- [1]
+			[265] = {
+				1539320258, -- [1]
 			},
-			[268] = {
-				1552024384, -- [1]
+			[100] = {
+				1539834013, -- [1]
 			},
-			[20] = {
-				1552025148, -- [1]
+			[267] = {
+				1540524738, -- [1]
 			},
-			[249] = {
-				1552023846, -- [1]
+			[331] = {
+				1540524738, -- [1]
+			},
+			[255] = {
+				1540524738, -- [1]
+			},
+			[98] = {
+				1539834305, -- [1]
+			},
+			[117] = {
+				1541737666, -- [1]
+			},
+			[138] = {
+				1539834305, -- [1]
+			},
+			[65] = {
+				1539317594, -- [1]
+			},
+			[145] = {
+				1539834305, -- [1]
+			},
+			[234] = {
+				1539318553, -- [1]
+			},
+			[71] = {
+				1539317594, -- [1]
+			},
+			[277] = {
+				1539320258, -- [1]
+			},
+			[33] = {
+				1539317594, -- [1]
+			},
+			[171] = {
+				1539318887, -- [1]
+			},
+			[64] = {
+				1539318887, -- [1]
+			},
+			[206] = {
+				1539318553, -- [1]
+				1539318553, -- [2]
+			},
+			[143] = {
+				1539318168, -- [1]
+				1539318168, -- [2]
+			},
+			[275] = {
+				1539320258, -- [1]
+				1539320258, -- [2]
+			},
+			[144] = {
+				1539318168, -- [1]
+				1539319398, -- [2]
+			},
+			[151] = {
+				1539319156, -- [1]
+				1539319398, -- [2]
+				1539833701, -- [3]
+				1539834013, -- [4]
+			},
+			[53] = {
+				1539317594, -- [1]
+				1539317594, -- [2]
+			},
+			[121] = {
+				1539318168, -- [1]
+			},
+			[209] = {
+				1539319853, -- [1]
+			},
+			[178] = {
+				1539319853, -- [1]
+			},
+			[136] = {
+				1539833701, -- [1]
 			},
 		},
 		["spells"] = {
@@ -24570,14 +25179,14 @@ DeathGraphsDBGraph = {
 			[127] = {
 				1536897306, -- [1]
 			},
-			[374] = {
-				1536897002, -- [1]
+			[124] = {
+				1536897306, -- [1]
 			},
 			[328] = {
 				1536897002, -- [1]
 			},
-			[124] = {
-				1536897306, -- [1]
+			[374] = {
+				1536897002, -- [1]
 			},
 			[375] = {
 				1536897002, -- [1]
@@ -24603,20 +25212,35 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["216816"] = {
+	["214615"] = {
 		["deaths"] = {
-			[30] = {
-				1542001915, -- [1]
+			[244] = {
+				1538287665, -- [1]
 			},
-			[47] = {
-				1542001915, -- [1]
+			[132] = {
+				1539829782, -- [1]
 			},
-			[41] = {
-				1542001915, -- [1]
+			[104] = {
+				1541734545, -- [1]
 			},
-			[159] = {
-				1542001915, -- [1]
-				1542001915, -- [2]
+			[123] = {
+				1539829782, -- [1]
+				1541734545, -- [2]
+			},
+			[266] = {
+				1538287665, -- [1]
+			},
+			[143] = {
+				1539311975, -- [1]
+			},
+			[189] = {
+				1538287665, -- [1]
+			},
+			[141] = {
+				1538287665, -- [1]
+			},
+			[201] = {
+				1538287665, -- [1]
 			},
 		},
 		["spells"] = {
@@ -24716,8 +25340,8 @@ DeathGraphsDBGraph = {
 	},
 	["234214"] = {
 		["deaths"] = {
-			[107] = {
-				1548389274, -- [1]
+			[273] = {
+				1548992852, -- [1]
 			},
 			[66] = {
 				1548389274, -- [1]
@@ -24729,8 +25353,8 @@ DeathGraphsDBGraph = {
 			[39] = {
 				1548389274, -- [1]
 			},
-			[240] = {
-				1548389910, -- [1]
+			[107] = {
+				1548389274, -- [1]
 			},
 			[236] = {
 				1548992852, -- [1]
@@ -24738,8 +25362,8 @@ DeathGraphsDBGraph = {
 			[241] = {
 				1548389910, -- [1]
 			},
-			[273] = {
-				1548992852, -- [1]
+			[240] = {
+				1548389910, -- [1]
 			},
 		},
 		["spells"] = {

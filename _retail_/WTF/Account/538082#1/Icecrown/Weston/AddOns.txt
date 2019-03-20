@@ -9,3 +9,7 @@ XLoot_Group: disabled
 XLoot_Monitor: disabled
 Quester: disabled
 Immersion: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+LittleWigs: enabled

@@ -1,3 +1,7 @@
+03/17/2019 version 4.9.5
+- Fix for tradable, unique and obtainable script filter variables.
+- Fix for possible error relating to cooldowns on bandages or safari hat.
+
 12/29/2018 version 4.9.4
 - Added Gnomeregan dungeon to the Targets menu.
 - In Targets menu, added headers to the Other menu to say where targets are from.

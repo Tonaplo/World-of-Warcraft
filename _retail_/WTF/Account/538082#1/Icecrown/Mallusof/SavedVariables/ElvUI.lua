@@ -1,866 +1,184 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Inevitabits-Icecrown Currently have a sleeping baby in the harness on my chest", -- [1]
-		"/cw Inevitabits-Icecrown How are you like 8.1.5", -- [2]
-		"/cw Inevitabits-Icecrown O.o", -- [3]
-		"/cw Inevitabits-Icecrown Agreed", -- [4]
-		"/exrt", -- [5]
-		"/cw Inevitabits-Icecrown Good. I'm tired at the moment", -- [6]
-		"/cw Inevitabits-Icecrown what levels?", -- [7]
-		"/cw Inevitabits-Icecrown Today we had an official playdate in the park", -- [8]
-		"/cw Inevitabits-Icecrown Couple of Oddities?", -- [9]
-		"/cw Inevitabits-Icecrown but it was alot of work :)", -- [10]
-		"/cw Inevitabits-Icecrown Hey Bits :)", -- [11]
-		"/reloadui", -- [12]
-		"/cw Inevitabits-Icecrown ... That seems wrong, lol", -- [13]
-		"/cw Inevitabits-Icecrown Hey Bits", -- [14]
-		"I didnt experience that?", -- [15]
-		"Sounds like it might be a load thing?", -- [16]
-		"/kb", -- [17]
-		"/macro", -- [18]
-		"/elvui", -- [19]
-		"/immersion", -- [20]
+		"/g Havent done that in weeks", -- [1]
+		"/g |cffa335ee|Hkeystone:158923:249:15:9:6:4:117|h[Keystone: Kings' Rest (15)]|h|r", -- [2]
+		"/g Wanna come btis?", -- [3]
+		"/g Bits leaving us all behind", -- [4]
+		"/g as you should", -- [5]
+		"/p Ye Irith", -- [6]
+		"/p think you can tank that?", -- [7]
+		"/g gave it a shot", -- [8]
+		"/g thanks :)", -- [9]
+		"/g I need to do a dungeon in time", -- [10]
+		"/g I freaking hate pugs", -- [11]
+		"/g nope", -- [12]
+		"/p maybe lower this to a 12?", -- [13]
+		"/g back to actually enjoying the game", -- [14]
+		"/g need some confidence back lol", -- [15]
+		"/p Yeah", -- [16]
+		"/g What key does Marishka have?", -- [17]
+		"/g Alright, I tried War mode", -- [18]
+		"/g How long till your key is done?", -- [19]
+		"/cw Cacunningham-Malygos lol", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"i had half a hope it was the real grim", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"his mage is decent dps", -- [1]
+			"Marishka-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Marishka-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			179, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			199, -- [11]
+			"Player-104-09DA1204", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552450195,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1552882203,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [1]
 		{
-			"yeah, i had too much invested in old grim as horde", -- [1]
-			"Grimhorne-Icecrown", -- [2]
+			"Ye Irith", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			186, -- [11]
-			"Player-104-0A37062D", -- [12]
+			201, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1552450225,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1552882210,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [2]
 		{
-			"so the kul tiran stun apparently does work in PVP but doesn't do the knock back and is slightly reduced?", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"afk a quick sec gonna play around with my mic see if i can get discord working better", -- [1]
+			"Marishka-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Marishka-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			190, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			202, -- [11]
+			"Player-104-09DA1204", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552450234,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1552882234,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [3]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13163:Player-104-09874A63:1:3:12:19:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Kul Tiran]|h|r!", -- [1]
-			"Cacunningham-Malygos", -- [2]
+			"maybe lower this to a 12?", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cacunningham-Malygos", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			191, -- [11]
-			"Player-104-09874A63", -- [12]
+			203, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Cacunningham-Malygos|r",
-			[51] = 1552450275,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1552882258,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [4]
 		{
-			"\"Where are they getting all these parrots?!\"", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"think you can tank that?", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			210, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			204, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552450597,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1552882262,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [5]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12738:Player-104-0A33EE0A:1:3:12:19:4294967295:4294967295:4294967295:4294967295|h[Holy Scrap!]|h|r!", -- [1]
-			"Booti-Icecrown", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12847:Player-104-09CD5E92:1:3:17:19:4294967295:4294967295:4294967295:4294967295|h[Siege of Boralus]|h|r!", -- [1]
+			"Relissela-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Booti-Icecrown", -- [5]
+			"Relissela-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			275, -- [11]
-			"Player-104-0A33EE0A", -- [12]
+			322, -- [11]
+			"Player-104-09CD5E92", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Booti|r",
-			[51] = 1552451134,
+			[52] = "|cff8686ecRelissela-Malygos|r",
+			[51] = 1552883097,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [6]
 		{
-			"so does the ship name affect... anything?", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			352, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451501,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
-			"the name of the zone ", -- [1]
-			"Aurae-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			356, -- [11]
-			"Player-104-09944457", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAurae|r",
-			[51] = 1552451509,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"so far", -- [1]
-			"Aurae-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			357, -- [11]
-			"Player-104-09944457", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAurae|r",
-			[51] = 1552451512,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"i want a t-shirt or something", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			362, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451527,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
-		{
-			"Lol yes!", -- [1]
-			"Alira-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			363, -- [11]
-			"Player-104-09D9B7E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Alira|r",
-			[51] = 1552451535,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"looks like they voiced lines for all four", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			364, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451561,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13163:Player-104-08A28FAA:1:3:12:19:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Kul Tiran]|h|r!", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			369, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451577,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
-		{
-			"at least jaina could cast a portal or something", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			374, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451601,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"sheesh", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			375, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451603,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"hey look, it's a horse", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			382, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451647,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"horsey horsey", -- [1]
-			"Algon-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			386, -- [11]
-			"Player-104-093D2292", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cAlgon|r",
-			[51] = 1552451676,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"jaina fight is one of the better raid fights they have put in", -- [1]
-			"Booti-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			387, -- [11]
-			"Player-104-0A33EE0A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Booti|r",
-			[51] = 1552451690,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"nice model on this one", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			388, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451693,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"shame it doesn't fly. though that doesn't seem very kultiran-y", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			392, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552451713,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
-			"random normal anyone :P", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:13516:Player-104-09CD5E92:1:3:17:19:4294967295:4294967295:4294967295:4294967295|h[Massive Tool]|h|r!", -- [1]
 			"Relissela-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			44, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552452847,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
-		{
-			"so if anyone knows why this character is named this i will love u :P", -- [1]
-			"Ainsworth-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			187, -- [11]
-			"Player-104-0A370E6E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ainsworth|r",
-			[51] = 1552454076,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			"besides bits", -- [1]
-			"Ainsworth-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			189, -- [11]
-			"Player-104-0A370E6E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ainsworth|r",
-			[51] = 1552454080,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
-		{
-			"i told her :P", -- [1]
-			"Ainsworth-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			190, -- [11]
-			"Player-104-0A370E6E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ainsworth|r",
-			[51] = 1552454083,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
-		{
-			"snake", -- [1]
-			"Uruloki-Hellscream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Uruloki-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			249, -- [11]
-			"Player-53-04D44C7C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Uruloki-Hellscream|r",
-			[51] = 1552454382,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
-		{
-			"still have hero debuff :o", -- [1]
-			"Uruloki-Hellscream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Uruloki-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			267, -- [11]
-			"Player-53-04D44C7C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Uruloki-Hellscream|r",
-			[51] = 1552454507,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
-		{
-			"45s", -- [1]
-			"Kamus-Suramar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kamus-Suramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			270, -- [11]
-			"Player-113-040981AD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcKamus-Suramar|r",
-			[51] = 1552454518,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
-		{
-			"ty all", -- [1]
-			"Uruloki-Hellscream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Uruloki-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			302, -- [11]
-			"Player-53-04D44C7C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Uruloki-Hellscream|r",
-			[51] = 1552454596,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13516:Player-104-09D9B7E4:1:3:12:19:4294967295:4294967295:4294967295:4294967295|h[Massive Tool]|h|r!", -- [1]
-			"Alira-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alira-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			309, -- [11]
-			"Player-104-09D9B7E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Alira|r",
-			[51] = 1552454665,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
-		{
-			"which one did u make?", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			312, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552454695,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
-		{
-			"Engineering", -- [1]
-			"Alira-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			315, -- [11]
-			"Player-104-09D9B7E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Alira|r",
-			[51] = 1552454714,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
-		{
-			"link it?", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			316, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552454720,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
-		{
-			"i didnt read that one", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			317, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552454725,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
-		{
-			"|cffa335ee|Hitem:164740::::::::120:65::13::::|h[Ub3r-Spanner]|h|r", -- [1]
-			"Alira-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			318, -- [11]
-			"Player-104-09D9B7E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Alira|r",
-			[51] = 1552454728,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
-		{
-			"XD", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			319, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552454728,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
-		{
-			"hmm that sounds cool", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			324, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552454830,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
-		{
-			"experience items are still only hat, shoulders, chest, pants, cloak and ring, right?", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"Relissela-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			326, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1552454881,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
-		{
-			"so bits", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			333, -- [11]
 			"Player-104-09CD5E92", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552454986,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+			[52] = "|cff8686ecRelissela-Malygos|r",
+			[51] = 1552883122,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [7]
 		{
-			"are u gonna make more alts now that the charcater server limit is up ;)", -- [1]
+			"thx irith :D", -- [1]
 			"Relissela-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -878,122 +196,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552455003,
+			[51] = 1552883222,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [8]
 		{
-			"no, becauase that was never my problem", -- [1]
-			"Exhibits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			336, -- [11]
-			"Player-104-0A370F95", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455012,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
-		{
-			"I think she's full", -- [1]
-			"Thornstaad-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			338, -- [11]
-			"Player-104-0926D065", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Thornstaad|r",
-			[51] = 1552455016,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
-		{
-			"i'm account locked, not server locked", -- [1]
-			"Exhibits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			339, -- [11]
-			"Player-104-0A370F95", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455017,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
-		{
-			"ahhhhhhh", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			340, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552455023,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
-		{
-			"that's why i have five accounts", -- [1]
-			"Exhibits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			341, -- [11]
-			"Player-104-0A370F95", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455023,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
-		{
-			"but i try to consolidate things i actually play on one", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"np", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1003,19 +211,811 @@ ElvCharacterDB = {
 			"", -- [9]
 			0, -- [10]
 			342, -- [11]
-			"Player-104-0A370F95", -- [12]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455036,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1552883274,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [9]
+		{
+			"|cffffff00Brennadam is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormsong Valley", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormsong Valley", -- [9]
+			0, -- [10]
+			435, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1552883848,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [10]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12918:Player-104-09944457:1:3:17:19:4294967295:4294967295:4294967295:4294967295|h[Have a Heart]|h|r!", -- [1]
+			"Aurae-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aurae-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			644, -- [11]
+			"Player-104-09944457", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAurae-Malygos|r",
+			[51] = 1552885114,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [11]
+		{
+			"oh dang, sunfire, sorry", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			673, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552885532,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [12]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-104-09944457:1:3:17:19:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
+			"Aurae-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aurae-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			674, -- [11]
+			"Player-104-09944457", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAurae-Malygos|r",
+			[51] = 1552885561,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [13]
+		{
+			"try now", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			676, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552885578,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [14]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12590:Player-104-0A3931AB:1:3:17:19:4294967295:4294967295:4294967295:4294967295|h[Un'gol Ruins]|h|r!", -- [1]
+			"Sunfirè-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sunfirè-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			678, -- [11]
+			"Player-104-0A3931AB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sunfirè|r",
+			[51] = 1552885607,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [15]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12589:Player-104-0A3931AB:1:3:17:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Un'gol Ruins]|h|r!", -- [1]
+			"Sunfirè-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sunfirè-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			679, -- [11]
+			"Player-104-0A3931AB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sunfirè|r",
+			[51] = 1552885607,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [16]
+		{
+			"whispers gently, \"kiss me with BUFFS muahhh!\"", -- [1]
+			"Kisschabill-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kisschabill-BleedingHollow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			719, -- [11]
+			"Player-73-0BD96B8E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeKisschabill-BleedingHollow|r",
+			[51] = 1552886020,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [17]
+		{
+			"Good night", -- [1]
+			"Thornstaad-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			737, -- [11]
+			"Player-104-0926D065", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Thornstaad|r",
+			[51] = 1552886422,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [18]
+		{
+			"gnite", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			739, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886426,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [19]
+		{
+			"ya filthy ninjalogger", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			740, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886430,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [20]
+		{
+			"gn", -- [1]
+			"Sunfirè-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			741, -- [11]
+			"Player-104-0A3931AB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sunfirè|r",
+			[51] = 1552886432,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [21]
+		{
+			"underrot +12 , dungeon start, mage die to maggot breath, release pull ticks on the left and leave, #puglife", -- [1]
+			"Sunfirè-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			747, -- [11]
+			"Player-104-0A3931AB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sunfirè|r",
+			[51] = 1552886534,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [22]
+		{
+			"ouch. heh", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			750, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886557,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [23]
+		{
+			"that's ok, this group just failed twice on the first skip in temple and we're all, never mind, freehold it is", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			752, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886570,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [24]
+		{
+			"and here i am just laughing at surram our wayward rouge", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			753, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886610,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [25]
+		{
+			"being 1 point off a nice breakpoint", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			754, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886619,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [26]
+		{
+			"i have seem that happen on temple many times :)", -- [1]
+			"Sunfirè-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			756, -- [11]
+			"Player-104-0A3931AB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sunfirè|r",
+			[51] = 1552886657,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [27]
+		{
+			"you stealthin it or invis potting?", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			757, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886679,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [28]
+		{
+			"we were shrouding", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			758, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886687,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [29]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13133:Player-104-0A3931AB:1:3:17:19:4294967295:4294967295:4294967295:4294967295|h[Team Deathmatch]|h|r!", -- [1]
+			"Sunfirè-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sunfirè-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			759, -- [11]
+			"Player-104-0A3931AB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sunfirè|r",
+			[51] = 1552886698,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [30]
+		{
+			"yeah we felt that was way 2 easy 2 fuck up", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			760, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886712,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [31]
+		{
+			"so we just pot it now", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			761, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886715,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [32]
+		{
+			"no pet, folks kept aggroing", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			762, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886716,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [33]
+		{
+			"ouch", -- [1]
+			"Sunfirè-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			763, -- [11]
+			"Player-104-0A3931AB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sunfirè|r",
+			[51] = 1552886751,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [34]
+		{
+			"and yeah, we should have potted, but w/e. this group is nice. nobody's perfect.", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			766, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886784,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [35]
+		{
+			"did you see bits", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			767, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886790,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [36]
+		{
+			"look at surrams score", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			768, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886794,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [37]
+		{
+			"and laugh", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			769, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886796,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [38]
+		{
+			"what class is your tank bits?", -- [1]
+			"Marishka-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			770, -- [11]
+			"Player-104-09DA1204", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1552886810,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [39]
+		{
+			"i have seem DKs falling behin on the skip since they are a little bit slower", -- [1]
+			"Sunfirè-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			771, -- [11]
+			"Player-104-0A3931AB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sunfirè|r",
+			[51] = 1552886838,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [40]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12741:Player-104-09944457:1:3:17:19:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
+			"Aurae-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aurae-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			772, -- [11]
+			"Player-104-09944457", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAurae-Malygos|r",
+			[51] = 1552886840,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [41]
+		{
+			"not laughing until my score starts with the same number", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			773, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886842,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [42]
+		{
+			"dk tank", -- [1]
+			"Inevitabits-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			774, -- [11]
+			"Player-104-08A28FAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Inevitabits|r",
+			[51] = 1552886846,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [43]
+		{
+			"Dh are where its at now :)", -- [1]
+			"Marishka-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			776, -- [11]
+			"Player-104-09DA1204", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1552886857,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [44]
+		{
+			"they are one of the best dps in M+", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			777, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886867,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [45]
 		{
-			"which means every time i create an alt, i have to delete a toon", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"alas they are the worst tank", -- [1]
+			"Oldeross-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1024,20 +1024,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			344, -- [11]
-			"Player-104-0A370F95", -- [12]
+			779, -- [11]
+			"Player-104-0A31C7F3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455048,
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886871,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [46]
 		{
-			"oh", -- [1]
-			"Relissela-Malygos", -- [2]
+			"dh", -- [1]
+			"Oldeross-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1046,42 +1046,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			345, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			780, -- [11]
+			"Player-104-0A31C7F3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552455057,
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1552886892,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [47]
 		{
-			"who was removed to make this one?", -- [1]
-			"Relissela-Malygos", -- [2]
+			"|cffffff00Beacon Hill is under attack!|r", -- [1]
+			"", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. LocalDefense - Stormsong Valley", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormsong Valley", -- [9]
 			0, -- [10]
-			346, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			635, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552455063,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "",
+			[51] = 1553057555,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [48]
 		{
-			"i've transferred characters off this account just to save them from the axe", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"Alright, I tried War mode", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1090,20 +1090,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			348, -- [11]
-			"Player-104-0A370F95", -- [12]
+			648, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455065,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553057682,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [49]
 		{
-			"a 45 rogue on darkspear", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"gave it a shot", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1112,86 +1112,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			349, -- [11]
-			"Player-104-0A370F95", -- [12]
+			649, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455072,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553057685,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [50]
 		{
-			"running out of sub-100 toons to kill off", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"|cffffff00Beacon Hill is under attack!|r", -- [1]
+			"", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. LocalDefense - Stormsong Valley", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormsong Valley", -- [9]
 			0, -- [10]
-			356, -- [11]
-			"Player-104-0A370F95", -- [12]
+			650, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455110,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "",
+			[51] = 1553057689,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [51]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12953:Player-104-0A28A708:1:3:12:19:4294967295:4294967295:4294967295:4294967295|h[Storm's Wake]|h|r!", -- [1]
-			"Crypto-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Crypto-Icecrown", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			375, -- [11]
-			"Player-104-0A28A708", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Crypto|r",
-			[51] = 1552455278,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12832:Player-104-0A33EE0A:1:3:12:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Freehold]|h|r!", -- [1]
-			"Booti-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Booti-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			403, -- [11]
-			"Player-104-0A33EE0A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Booti|r",
-			[51] = 1552455709,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
-		{
-			"don't know that i'm going to keep this toon, but i'm extraordinarily proud of her transmog", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"back to actually enjoying the game", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1200,20 +1156,64 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			428, -- [11]
-			"Player-104-0A370F95", -- [12]
+			651, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455835,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553057697,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [52]
+		{
+			"lol", -- [1]
+			"Alira-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			652, -- [11]
+			"Player-104-09D9B7E4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553057705,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [53]
+		{
+			"hehehe", -- [1]
+			"Grimhorne-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			653, -- [11]
+			"Player-104-0A37062D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Grimhorne|r",
+			[51] = 1553057708,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [54]
 		{
-			"lol", -- [1]
-			"Algozen-Icecrown", -- [2]
+			"my sentimnents exactly", -- [1]
+			"Grimhorne-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1222,152 +1222,152 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			430, -- [11]
-			"Player-104-09539B78", -- [12]
+			654, -- [11]
+			"Player-104-0A37062D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1552455841,
+			[52] = "|cfffe7b09Grimhorne|r",
+			[51] = 1553057715,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"also, i named her falcon Tuggle, which i think is hilarious", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"Interrupted Maddened Survivalist's |cff71d5ff|Hspell:264520:0|h[Severing Serpent]|h|r!", -- [1]
+			"Beefstripps-Sargeras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Beefstripps-Sargeras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			434, -- [11]
-			"Player-104-0A370F95", -- [12]
+			901, -- [11]
+			"Player-76-09C7C113", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455873,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8686ecBeefstripps-Sargeras|r",
+			[51] = 1553058836,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [56]
 		{
-			"Haha nice, that's a good pet name", -- [1]
-			"Algozen-Icecrown", -- [2]
+			"loot", -- [1]
+			"Tibuta-Frostmourne", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Tibuta-Frostmourne", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			436, -- [11]
-			"Player-104-09539B78", -- [12]
+			906, -- [11]
+			"Player-3725-07E4CA20", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1552455893,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Tibuta-Frostmourne|r",
+			[51] = 1553058850,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [57]
 		{
-			"...because he's a Falcon. heh", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"Interrupted Maddened Survivalist's |cff71d5ff|Hspell:264520:0|h[Severing Serpent]|h|r!", -- [1]
+			"Beefstripps-Sargeras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Beefstripps-Sargeras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			437, -- [11]
-			"Player-104-0A370F95", -- [12]
+			916, -- [11]
+			"Player-76-09C7C113", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455915,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8686ecBeefstripps-Sargeras|r",
+			[51] = 1553058889,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [58]
 		{
-			"and a linebacker to boot. seems appropriate", -- [1]
-			"Exhibits-Icecrown", -- [2]
+			"sory. went alt tab crazyc :)", -- [1]
+			"Zeexs-Gurubashi", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Zeexs-Gurubashi", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			439, -- [11]
-			"Player-104-0A370F95", -- [12]
+			917, -- [11]
+			"Player-1136-080B2B18", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Exhibits|r",
-			[51] = 1552455924,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Zeexs-Gurubashi|r",
+			[51] = 1553058905,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [59]
 		{
-			"well alright then", -- [1]
-			"Older-Icecrown", -- [2]
+			"Interrupted Devouring Maggot's |cff71d5ff|Hspell:278444:0|h[Infest]|h|r!", -- [1]
+			"Beefstripps-Sargeras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Beefstripps-Sargeras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			467, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			929, -- [11]
+			"Player-76-09C7C113", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456258,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8686ecBeefstripps-Sargeras|r",
+			[51] = 1553058954,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [60]
 		{
-			"|cffa335ee|Hitem:159840::::::::120:105::54:3:4802:1472:4786:::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
-			"Older-Icecrown", -- [2]
+			"Interrupted Banquet Steward's |cff71d5ff|Hspell:265407:0|h[Dinner Bell]|h|r!", -- [1]
+			"Beefstripps-Sargeras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Beefstripps-Sargeras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			469, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			936, -- [11]
+			"Player-76-09C7C113", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456261,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8686ecBeefstripps-Sargeras|r",
+			[51] = 1553059004,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [61]
 		{
-			"?", -- [1]
-			"Relissela-Malygos", -- [2]
+			"found our lucky charm for this weekend....|cff0070dd|Hitem:166779::::::::120:264::::::|h[Transmorpher Beacon]|h|r ", -- [1]
+			"Cloudcoastin-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1376,20 +1376,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			470, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1003, -- [11]
+			"Player-104-09D8A083", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456262,
+			[52] = "|cff006fdcCloudcoastin|r",
+			[51] = 1553059209,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [62]
 		{
-			"oh nice", -- [1]
-			"Relissela-Malygos", -- [2]
+			"nice", -- [1]
+			"Grimhorne-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1398,195 +1398,283 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			471, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1005, -- [11]
+			"Player-104-0A37062D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456266,
+			[52] = "|cfffe7b09Grimhorne|r",
+			[51] = 1553059221,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [63]
 		{
-			"just looted it", -- [1]
-			"Older-Icecrown", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12956:Player-104-0A0AF2D6:1:3:19:19:4294967295:4294967295:4294967295:4294967295|h[Tortollan Seekers]|h|r!", -- [1]
+			"Tickletoes-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Tickletoes-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			472, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1006, -- [11]
+			"Player-104-0A0AF2D6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456267,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Tickletoes|r",
+			[51] = 1553059255,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [64]
 		{
-			"Grats", -- [1]
-			"Thornstaad-Icecrown", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:780:Player-104-0A37062D:1:3:19:19:4294967295:4294967295:4294967295:4294967295|h[Explore Redridge Mountains]|h|r!", -- [1]
+			"Grimhorne-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Grimhorne-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			473, -- [11]
-			"Player-104-0926D065", -- [12]
+			1008, -- [11]
+			"Player-104-0A37062D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Thornstaad|r",
-			[51] = 1552456271,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Grimhorne|r",
+			[51] = 1553059274,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [65]
 		{
-			"is it still worth a lot?", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
+			"Halsheth Lal za Gul'kafh", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"Shath'Yar", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			474, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1018, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456276,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059351,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [66]
 		{
-			"dang", -- [1]
-			"Róbyn-Icecrown", -- [2]
-			"", -- [3]
+			"I", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"Shath'Yar", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			475, -- [11]
-			"Player-104-0A1AA28D", -- [12]
+			1020, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cRóbyn|r",
-			[51] = 1552456283,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059353,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [67]
 		{
-			"varies", -- [1]
-			"Older-Icecrown", -- [2]
-			"", -- [3]
+			"I", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"Shath'Yar", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			476, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1023, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456284,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059354,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [68]
 		{
-			"80-150k on our server", -- [1]
-			"Older-Icecrown", -- [2]
-			"", -- [3]
+			"I", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"Shath'Yar", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			478, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1025, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456297,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059355,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [69]
 		{
-			"not bad", -- [1]
-			"Relissela-Malygos", -- [2]
+			"dk get", -- [1]
+			"Kyorea-Sargeras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kyorea-Sargeras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			480, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1030, -- [11]
+			"Player-76-07251084", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456306,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Kyorea-Sargeras|r",
+			[51] = 1553059390,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [70]
 		{
-			"but i dont really need gold", -- [1]
-			"Older-Icecrown", -- [2]
+			"the other totem..", -- [1]
+			"Kyorea-Sargeras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kyorea-Sargeras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			481, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1031, -- [11]
+			"Player-76-07251084", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456309,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Kyorea-Sargeras|r",
+			[51] = 1553059392,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [71]
 		{
-			"so im debating it", -- [1]
+			"Unstable Hex on Mallusof", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1044, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059503,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [72]
+		{
+			"3", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1045, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059505,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [73]
+		{
+			"2", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1046, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059506,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [74]
+		{
+			"1", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1047, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059507,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [75]
+		{
+			"that was not that bad", -- [1]
 			"Older-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1596,7 +1684,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			483, -- [11]
+			1079, -- [11]
 			"Player-104-092AB0D5", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1604,99 +1692,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456315,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
-		{
-			"i mean", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			487, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456321,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
-		{
-			"u got it for free", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			495, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456330,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
-		{
-			"so ", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			496, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456332,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
-		{
-			"best way tio get mog", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			497, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456336,
+			[51] = 1553059728,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [76]
 		{
-			"yep", -- [1]
+			"2 minutes over KR 19", -- [1]
 			"Older-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1706,7 +1706,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			500, -- [11]
+			1082, -- [11]
 			"Player-104-092AB0D5", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1714,12 +1714,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456354,
+			[51] = 1553059737,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [77]
 		{
-			"but on the other hand im only 600k off from 17mil", -- [1]
-			"Older-Icecrown", -- [2]
+			"what yall do a 30?", -- [1]
+			"Cloudcoastin-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1728,20 +1728,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			501, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1087, -- [11]
+			"Player-104-09D8A083", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456366,
+			[52] = "|cff006fdcCloudcoastin|r",
+			[51] = 1553059741,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [78]
 		{
-			"jesus", -- [1]
-			"Relissela-Malygos", -- [2]
+			"Not bad", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1750,41 +1750,41 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			502, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1093, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456372,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553059747,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [79]
 		{
-			"and 200k of that is tied up in a gamble on boots", -- [1]
-			"Older-Icecrown", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13516:Player-104-0A028C76:1:3:19:19:4294967295:4294967295:4294967295:4294967295|h[Massive Tool]|h|r!", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			503, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1100, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456375,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059763,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [80]
 		{
-			"where are these alchemists", -- [1]
+			"2245", -- [1]
 			"Older-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1794,7 +1794,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			508, -- [11]
+			1111, -- [11]
 			"Player-104-092AB0D5", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1802,11 +1802,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456418,
+			[51] = 1553059818,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [81]
 		{
-			"in motherload", -- [1]
+			"on the way to 2.3k", -- [1]
 			"Older-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1816,7 +1816,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			509, -- [11]
+			1112, -- [11]
 			"Player-104-092AB0D5", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1824,12 +1824,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456425,
+			[51] = 1553059822,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [82]
 		{
-			"for |cff0070dd|Hitem:168144::::::::120:105::::::|h[Extremely Precise Vial]|h|r", -- [1]
-			"Older-Icecrown", -- [2]
+			"It's a long long road", -- [1]
+			"Thornstaad-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1838,20 +1838,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			510, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1127, -- [11]
+			"Player-104-0926D065", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456436,
+			[52] = "|cffa9d271Thornstaad|r",
+			[51] = 1553059831,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"i think its the trash before the lady", -- [1]
-			"Relissela-Malygos", -- [2]
+			"gratz mall", -- [1]
+			"Cacunningham-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1860,20 +1860,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			511, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1134, -- [11]
+			"Player-104-09874A63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456442,
+			[52] = "|cffc31d39Cacunningham|r",
+			[51] = 1553059852,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"im assuming its in that area then", -- [1]
-			"Older-Icecrown", -- [2]
+			"lol", -- [1]
+			"Cacunningham-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1882,20 +1882,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			512, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1135, -- [11]
+			"Player-104-09874A63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456474,
+			[52] = "|cffc31d39Cacunningham|r",
+			[51] = 1553059854,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"i almost always death skip that trash", -- [1]
-			"Older-Icecrown", -- [2]
+			"thanks :)", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1904,130 +1904,130 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			513, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1139, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456485,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1553059911,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"where mastermind area", -- [1]
-			"Róbyn-Icecrown", -- [2]
+			"ngl ur warmode comment made me laugh", -- [1]
+			"Cacunningham-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Cacunningham-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			514, -- [11]
-			"Player-104-0A1AA28D", -- [12]
+			1144, -- [11]
+			"Player-104-09874A63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cRóbyn|r",
-			[51] = 1552456488,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Cacunningham-Malygos|r",
+			[51] = 1553059950,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [87]
 		{
-			"i think so", -- [1]
-			"Relissela-Malygos", -- [2]
+			"like im gonna go back to enjoying the game", -- [1]
+			"Cacunningham-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Cacunningham-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			515, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1145, -- [11]
+			"Player-104-09874A63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456494,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Cacunningham-Malygos|r",
+			[51] = 1553059963,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [88]
 		{
-			"lot of useless stuff there", -- [1]
-			"Relissela-Malygos", -- [2]
+			"lol", -- [1]
+			"Cacunningham-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Cacunningham-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			516, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1147, -- [11]
+			"Player-104-09874A63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456502,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Cacunningham-Malygos|r",
+			[51] = 1553059986,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [89]
 		{
-			"good place for it", -- [1]
-			"Relissela-Malygos", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12490:Player-104-0A33EE0A:1:3:19:19:4294967295:4294967295:4294967295:4294967295|h[Alchemical Romance]|h|r!", -- [1]
+			"Booti-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Booti-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			517, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1168, -- [11]
+			"Player-104-0A33EE0A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456508,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1553060101,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [90]
 		{
-			"reset 2 overlapping again", -- [1]
-			"Older-Icecrown", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12490:Player-104-09D9B7E4:1:3:19:19:4294967295:4294967295:4294967295:4294967295|h[Alchemical Romance]|h|r!", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Alira-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			519, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1169, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456539,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553060101,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [91]
 		{
-			"fuckingblizzard", -- [1]
-			"Older-Icecrown", -- [2]
+			"I would be happy with 1500 io. Older is an over achiever.", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2036,20 +2036,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			520, -- [11]
-			"Player-104-092AB0D5", -- [12]
+			1173, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Older|r",
-			[51] = 1552456541,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553060171,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [92]
 		{
-			"?", -- [1]
-			"Relissela-Malygos", -- [2]
+			"thanks guys", -- [1]
+			"Booti-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2058,64 +2058,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			521, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1174, -- [11]
+			"Player-104-0A33EE0A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456545,
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1553060217,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [93]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12825:Player-104-0A33EE0A:1:3:12:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Atal'Dazar]|h|r!", -- [1]
-			"Booti-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Booti-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			523, -- [11]
-			"Player-104-0A33EE0A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Booti|r",
-			[51] = 1552456640,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12824:Player-104-0A33EE0A:1:3:12:19:4294967295:4294967295:4294967295:4294967295|h[Atal'Dazar]|h|r!", -- [1]
-			"Booti-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Booti-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			524, -- [11]
-			"Player-104-0A33EE0A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Booti|r",
-			[51] = 1552456640,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
-		{
-			"BOOM!", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"np", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2124,20 +2080,64 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			527, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1175, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456750,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553060223,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"Older is 440 in the worls, so he has some work to do! lol", -- [1]
+			"Bannanas-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1195, -- [11]
+			"Player-104-08F84DBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1553060335,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"worls = world", -- [1]
+			"Bannanas-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1196, -- [11]
+			"Player-104-08F84DBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1553060347,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [96]
 		{
-			"got the perfect key wooot", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"rip", -- [1]
+			"Older-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2146,20 +2146,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			528, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1198, -- [11]
+			"Player-104-092AB0D5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456750,
+			[52] = "|cfffe7b09Older|r",
+			[51] = 1553060355,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [97]
 		{
-			"|cffa335ee|Hkeystone:158923:249:10:9:6:4:117|h[Keystone: Kings' Rest (10)]|h|r ", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"Thost are rookie numbers. Gotta pump those numbers up.", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2168,42 +2168,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			529, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1199, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456750,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553060359,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [98]
 		{
-			"lol", -- [1]
-			"Algozen-Icecrown", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:4902:Player-104-0A37062D:1:3:19:19:4294967295:4294967295:4294967295:4294967295|h[Redridge Mountains Quests]|h|r!", -- [1]
+			"Grimhorne-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Grimhorne-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			530, -- [11]
-			"Player-104-09539B78", -- [12]
+			1203, -- [11]
+			"Player-104-0A37062D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1552456750,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Grimhorne|r",
+			[51] = 1553060409,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 		{
-			"ah nice", -- [1]
-			"Relissela-Malygos", -- [2]
+			"keys", -- [1]
+			"Marishka-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2212,20 +2212,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			531, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1206, -- [11]
+			"Player-104-09DA1204", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456750,
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1553060424,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [100]
 		{
-			"nice", -- [1]
-			"Booti-Icecrown", -- [2]
+			"!keys", -- [1]
+			"Marishka-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2234,20 +2234,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			532, -- [11]
-			"Player-104-0A33EE0A", -- [12]
+			1207, -- [11]
+			"Player-104-09DA1204", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Booti|r",
-			[51] = 1552456750,
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1553060428,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [101]
 		{
-			"Guess that depends on your definition of \"perfect\" :P", -- [1]
-			"Algozen-Icecrown", -- [2]
+			"|cffa335ee|Hkeystone:158923:247:9:10:7:2:0|h[Keystone: The MOTHERLODE!! (9)]|h|r", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2256,20 +2256,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			535, -- [11]
-			"Player-104-09539B78", -- [12]
+			1208, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1552456754,
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1553060429,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [102]
 		{
-			"|cffa335ee|Hitem:159644::::::::120:252::23:1:3524:::|h[Geti'ikku, Cut of Death]|h|r /pray to the RNJesus", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"|cffa335ee|Hkeystone:158923:247:8:10:7:2:0|h[Keystone: The MOTHERLODE!! (8)]|h|r", -- [1]
+			"Marishka-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2278,20 +2278,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			537, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1209, -- [11]
+			"Player-104-09DA1204", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456755,
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1553060429,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [103]
 		{
-			"gonna be much better this week", -- [1]
-			"Thornstaad-Icecrown", -- [2]
+			"|cffa335ee|Hkeystone:158923:250:15:10:7:2:117|h[Keystone: Temple of Sethraliss (15)]|h|r", -- [1]
+			"Naturesight-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2300,20 +2300,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			539, -- [11]
-			"Player-104-0926D065", -- [12]
+			1210, -- [11]
+			"Player-104-0A2F0FFC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Thornstaad|r",
-			[51] = 1552456764,
+			[52] = "|cfffe7b09Naturesight|r",
+			[51] = 1553060429,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [104]
 		{
-			" /roll 1-1 ", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"|cffa335ee|Hkeystone:158923:248:11:10:7:2:117|h[Keystone: Waycrest Manor (11)]|h|r", -- [1]
+			"Valthier-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2322,63 +2322,19 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			540, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1211, -- [11]
+			"Player-104-08DA6998", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456765,
+			[52] = "|cffa22fc8Valthier|r",
+			[51] = 1553060429,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [105]
 		{
-			"what do you mean @Thorn?", -- [1]
-			"Tickletoes-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			543, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456783,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [106]
-		{
-			"Timer is 3 minutes longer now, so it's easier to make it in time", -- [1]
-			"Algozen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			549, -- [11]
-			"Player-104-09539B78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1552456796,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [107]
-		{
-			"Yea", -- [1]
+			"|cffa335ee|Hkeystone:158923:251:19:10:7:2:117|h[Keystone: The Underrot (19)]|h|r", -- [1]
 			"Thornstaad-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2388,7 +2344,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			550, -- [11]
+			1212, -- [11]
 			"Player-104-0926D065", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2396,12 +2352,56 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Thornstaad|r",
-			[51] = 1552456807,
+			[51] = 1553060429,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [106]
+		{
+			"|cffa335ee|Hkeystone:158923:247:9:10:7:2:0|h[Keystone: The MOTHERLODE!! (9)]|h|r", -- [1]
+			"Bannanas-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1213, -- [11]
+			"Player-104-08F84DBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1553060429,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [107]
+		{
+			"|cffa335ee|Hkeystone:158923:244:10:10:7:2:117|h[Keystone: Atal'Dazar (10)]|h|r", -- [1]
+			"Alira-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1214, -- [11]
+			"Player-104-09D9B7E4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553060429,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [108]
 		{
-			"oh yeah I saw that", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"|cffa335ee|Hkeystone:158923:250:19:10:7:2:117|h[Keystone: Temple of Sethraliss (19)]|h|r", -- [1]
+			"Míra-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2410,20 +2410,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			551, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1215, -- [11]
+			"Player-104-092AFC35", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456810,
+			[52] = "|cffc31d39Míra|r",
+			[51] = 1553060429,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [109]
 		{
-			"thought you meant as in the new raid or something", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"|cffa335ee|Hkeystone:158923:246:10:10:7:2:117|h[Keystone: Tol Dagor (10)]|h|r", -- [1]
+			"Cloudcoastin-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2432,20 +2432,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			552, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1216, -- [11]
+			"Player-104-09D8A083", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456815,
+			[52] = "|cff006fdcCloudcoastin|r",
+			[51] = 1553060431,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [110]
 		{
-			"i want that 2 hander for arena and RBGs and of course raiding but definitely for the pvp", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"To be the top Druid you have to get over 3.3k", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2454,20 +2454,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			554, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1217, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456835,
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1553060452,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [111]
 		{
-			"i'm 1720 in 2's , really just need a reliable badass holy paladin to push 2.2k or higher and hopefully take the same said hpal into 3's and find a badass windwalker to push for glad hopefully /pray to RNJesus", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"night all", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2476,20 +2476,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			555, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1223, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456877,
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1553060496,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [112]
 		{
-			"1500 in 3s (just need more games) , and 1600 in RBGs", -- [1]
-			"Tickletoes-Icecrown", -- [2]
+			"Do I?", -- [1]
+			"Naturesight-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2498,20 +2498,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			556, -- [11]
-			"Player-104-0A0AF2D6", -- [12]
+			1224, -- [11]
+			"Player-104-0A2F0FFC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tickletoes|r",
-			[51] = 1552456899,
+			[52] = "|cfffe7b09Naturesight|r",
+			[51] = 1553060497,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [113]
 		{
-			"i need to be les lazy and pvp ", -- [1]
-			"Relissela-Malygos", -- [2]
+			"Monks have is slightly easier, jsut have to reach over 3.2K io score!", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2520,20 +2520,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			558, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1240, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456929,
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1553060573,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [114]
 		{
-			"XD", -- [1]
-			"Relissela-Malygos", -- [2]
+			"anyone else for a |cffa335ee|Hkeystone:158923:247:8:10:7:2:0|h[Keystone: The MOTHERLODE!! (8)]|h|r", -- [1]
+			"Marishka-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2542,20 +2542,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			559, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1254, -- [11]
+			"Player-104-09DA1204", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456931,
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1553060763,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [115]
 		{
-			"You need to be less lazy with everything.", -- [1]
-			"Eviane-Icecrown", -- [2]
+			"tank/dps", -- [1]
+			"Marishka-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2564,20 +2564,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			560, -- [11]
-			"Player-104-0A19E24A", -- [12]
+			1255, -- [11]
+			"Player-104-09DA1204", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Eviane|r",
-			[51] = 1552456951,
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1553060775,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [116]
 		{
-			"lol", -- [1]
-			"Eviane-Icecrown", -- [2]
+			"Nice, was curious where you get your bud.", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2586,20 +2586,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			561, -- [11]
-			"Player-104-0A19E24A", -- [12]
+			1303, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Eviane|r",
-			[51] = 1552456952,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553061034,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [117]
 		{
-			"rude", -- [1]
-			"Relissela-Malygos", -- [2]
+			"i get my wax through the mail", -- [1]
+			"Cloudcoastin-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2608,20 +2608,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			562, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1304, -- [11]
+			"Player-104-09D8A083", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456960,
+			[52] = "|cff006fdcCloudcoastin|r",
+			[51] = 1553061049,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [118]
 		{
-			"didnt ask u", -- [1]
-			"Relissela-Malygos", -- [2]
+			"I'm in CO. Don't smoke, though.", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2630,20 +2630,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			563, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1305, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552456981,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553061054,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [119]
 		{
-			"heh", -- [1]
-			"Algozen-Icecrown", -- [2]
+			"lol thats a sin", -- [1]
+			"Cloudcoastin-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2652,20 +2652,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			565, -- [11]
-			"Player-104-09539B78", -- [12]
+			1307, -- [11]
+			"Player-104-09D8A083", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1552456986,
+			[52] = "|cff006fdcCloudcoastin|r",
+			[51] = 1553061062,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [120]
 		{
-			"Well, I told you. :D", -- [1]
-			"Eviane-Icecrown", -- [2]
+			"Haha", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2674,20 +2674,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			566, -- [11]
-			"Player-104-0A19E24A", -- [12]
+			1311, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Eviane|r",
-			[51] = 1552456997,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553061069,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [121]
 		{
-			"stop sounding like my mom", -- [1]
-			"Relissela-Malygos", -- [2]
+			"but yea im a big uh how do i put this.......dark web kinda guy?", -- [1]
+			"Cloudcoastin-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2696,20 +2696,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			567, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1314, -- [11]
+			"Player-104-09D8A083", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552457004,
+			[52] = "|cff006fdcCloudcoastin|r",
+			[51] = 1553061080,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [122]
 		{
-			":P", -- [1]
-			"Relissela-Malygos", -- [2]
+			"No judement", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2718,20 +2718,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			568, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1318, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552457006,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553061101,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [123]
 		{
-			"Sorry, being a single dad calls for double duty.", -- [1]
-			"Eviane-Icecrown", -- [2]
+			"I really should start smoking. Cut down on the drinkiung a bit", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2740,20 +2740,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			569, -- [11]
-			"Player-104-0A19E24A", -- [12]
+			1335, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Eviane|r",
-			[51] = 1552457024,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553061165,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [124]
 		{
-			":P", -- [1]
-			"Relissela-Malygos", -- [2]
+			"its much better for you", -- [1]
+			"Cloudcoastin-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2762,20 +2762,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			571, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1336, -- [11]
+			"Player-104-09D8A083", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552457051,
+			[52] = "|cff006fdcCloudcoastin|r",
+			[51] = 1553061180,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [125]
 		{
-			"i would make a joke but im gonna be good", -- [1]
-			"Relissela-Malygos", -- [2]
+			"Yea, I imagine.", -- [1]
+			"Alira-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2784,20 +2784,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			573, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1337, -- [11]
+			"Player-104-09D9B7E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552457061,
+			[52] = "|cfff38bb9Alira|r",
+			[51] = 1553061188,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [126]
 		{
-			"XD", -- [1]
-			"Relissela-Malygos", -- [2]
+			"no just drink", -- [1]
+			"Naturesight-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2806,15 +2806,15 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			574, -- [11]
-			"Player-104-09CD5E92", -- [12]
+			1338, -- [11]
+			"Player-104-0A2F0FFC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1552457064,
+			[52] = "|cfffe7b09Naturesight|r",
+			[51] = 1553061189,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [127]
 	},
