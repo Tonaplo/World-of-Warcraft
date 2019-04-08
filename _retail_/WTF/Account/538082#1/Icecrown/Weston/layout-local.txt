@@ -15,8 +15,8 @@ W: 365
 H: 240
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
-Anchor: TOPRIGHT
-X: -299
-Y: -119
+Anchor: CENTER
+X: 0
+Y: 0
 W: 648
 H: 455

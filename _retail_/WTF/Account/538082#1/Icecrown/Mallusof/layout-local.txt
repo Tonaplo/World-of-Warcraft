@@ -13,13 +13,6 @@ X: 203
 Y: 63
 W: 365
 H: 240
-Frame: RematchDialog
-FrameLevel: 1
-Anchor: CENTER
-X: -177
-Y: 43
-W: 420
-H: 200
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -27,3 +20,10 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: CENTER
+X: -179
+Y: 28
+W: 300
+H: 176

@@ -1,8 +1,9 @@
 # LittleWigs
 
-## [v8.1.6](https://github.com/BigWigsMods/LittleWigs/tree/v8.1.6) (2019-03-11)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.1.5...v8.1.6)
+## [v8.1.9](https://github.com/BigWigsMods/LittleWigs/tree/v8.1.9) (2019-04-02)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.1.8...v8.1.9)
 
-- BfA/AtalDazar: Add Rezan initial timers and add Frenzied Charge target message (#425)  
-- BfA/Freehold/Kragg: Fix Stage 2 initial timers and message (#424)  
-- BfA/TheMotherlode/Razzdunk:  Add Micro Missiles cast bar and add target message for Drill smash (#423)  
+- BfA/Freehold/Kragg: Fix Vile Bombardment timer on Normal difficulty (#438)  
+- BfA/Freehold/Kragg: Add Vile Bombardment (#437)  
+- update zhCN (#435)  
+- BfA/Underrot/Trash: Remove Wave of Decay cast message (#434)  

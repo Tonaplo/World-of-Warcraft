@@ -7,10 +7,10 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
+		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
@@ -21,9 +21,9 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
-		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
-		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
@@ -39,13 +39,13 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Korugen - Icecrown"] = {
 		},
-		["Greybone - Proudmoore"] = {
+		["Deminath - Tichondrius"] = {
 		},
-		["Deminath - Proudmoore"] = {
+		["Miriyal - Icecrown"] = {
 		},
 		["Luugo - Frostwolf"] = {
 		},
-		["Caircaidin - Frostwolf"] = {
+		["Zearthan - Icecrown"] = {
 		},
 		["Weston - Icecrown"] = {
 		},
@@ -67,11 +67,11 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Kindhoof - Tichondrius"] = {
 		},
-		["Zearthan - Icecrown"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
-		["Miriyal - Icecrown"] = {
+		["Deminath - Proudmoore"] = {
 		},
-		["Deminath - Tichondrius"] = {
+		["Greybone - Proudmoore"] = {
 		},
 		["Mallusof - Icecrown"] = {
 			["tooltip_questid"] = true,

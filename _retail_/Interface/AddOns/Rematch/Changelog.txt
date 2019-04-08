@@ -1,3 +1,10 @@
+04/07/2018 version 4.9.7
+- Fix for potential scroll offset bug when pet list changes length.
+
+03/22/2018 version 4.9.6
+- Fix for error some may get trying to open a notable NPCs menu when targets aren't fully cached.
+- An attempt to cache will only happen a few times before giving up.
+
 03/17/2019 version 4.9.5
 - Fix for tradable, unique and obtainable script filter variables.
 - Fix for possible error relating to cooldowns on bandages or safari hat.

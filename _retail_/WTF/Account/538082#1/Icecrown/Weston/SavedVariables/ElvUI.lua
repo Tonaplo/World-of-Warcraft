@@ -1,9 +1,11 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/s thanks :)", -- [1]
-		"/i cheers guys!", -- [2]
+		"/cheer", -- [1]
+		"/s thanks :)", -- [2]
 		"/i  :)", -- [3]
+		"/i cheers guys!", -- [4]
+		"/macro", -- [5]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -116,5 +118,93 @@ ElvCharacterDB = {
 			[51] = 1552604573,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [5]
+		{
+			"|cffffff00Astranaar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Ashenvale", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Ashenvale", -- [9]
+			0, -- [10]
+			1275, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1553146805,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"|cffffff00Splintertree Post is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Ashenvale", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Ashenvale", -- [9]
+			0, -- [10]
+			964, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1553448483,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"|cffffff00Astranaar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Ashenvale", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Ashenvale", -- [9]
+			0, -- [10]
+			129, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1554011978,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
+		{
+			"|cffffff00Nightsong Woods is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Ashenvale", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Ashenvale", -- [9]
+			0, -- [10]
+			51, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1554389712,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [9]
 	},
 }

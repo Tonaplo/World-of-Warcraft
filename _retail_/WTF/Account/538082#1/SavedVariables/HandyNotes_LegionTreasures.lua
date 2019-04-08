@@ -10,9 +10,9 @@ HandyNotes_LegionTreasuresDB = {
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Greybone - Icecrown"] = "Greybone - Icecrown",
-		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Farahn - Icecrown"] = "Farahn - Icecrown",
+		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
@@ -34,11 +34,11 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Kindhoof - Tichondrius"] = {
 		},
-		["Greybone - Icecrown"] = {
+		["Rahran - Icecrown"] = {
 		},
 		["Farahn - Icecrown"] = {
 		},
-		["Rahran - Icecrown"] = {
+		["Greybone - Icecrown"] = {
 		},
 		["Mallusof - Icecrown"] = {
 		},

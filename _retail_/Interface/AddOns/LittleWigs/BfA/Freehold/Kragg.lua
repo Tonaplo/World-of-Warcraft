@@ -10,12 +10,19 @@ mod.engageId = 2093
 mod.respawnTime = 25
 
 --------------------------------------------------------------------------------
+-- Locals
+--
+
+local vileBombardmentCount = 0
+
+--------------------------------------------------------------------------------
 -- Initialization
 --
 
 function mod:GetOptions()
 	return {
 		"stages",
+		256005, -- Vile Bombardment
 		255952, -- Charrrrrge
 		272046, -- Dive Bomb
 		256106, -- Azerite Powder Shot
@@ -31,6 +38,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "Charrrrrge", 255952)
 
 	-- Stage 2
+	self:Log("SPELL_CAST_SUCCESS", "VileBombardment", 256005)
 	self:Log("SPELL_CAST_START", "DiveBomb", 272046)
 	self:Log("SPELL_CAST_START", "AzeritePowderShot", 256106)
 	self:Log("SPELL_CAST_SUCCESS", "RevitalizingBrew", 256060)
@@ -40,12 +48,22 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
+	vileBombardmentCount = 0
 	self:CDBar(255952, 4.8) -- Charrrrrge
 end
 
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
+
+function mod:VileBombardment(args)
+	if self:Normal() then
+		self:Bar(args.spellId, 6)
+	else
+		self:Bar(args.spellId, vileBombardmentCount % 2 == 0 and 6 or 10.8)
+	end
+	vileBombardmentCount = vileBombardmentCount + 1
+end
 
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
 	if spellId == 256056 then -- Spawn Parrot
@@ -54,6 +72,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
 		self:PlaySound("stages", "long", "stage2")
 
 		self:CDBar(256106, 7) -- Azerite Powder Shot
+		self:Bar(256005, 6) -- Vile Bombardment
 	end
 end
 

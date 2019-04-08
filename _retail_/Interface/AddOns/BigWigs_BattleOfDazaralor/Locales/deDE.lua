@@ -3,6 +3,7 @@ if not L then return end
 if L then
 	L.prelate = "Prälat Akk'al"
 	L.flamespeaker = "Flammensprecher der Rastari"
+	L.hulk = "Auferstandener Koloss"
 	L.enforcer = "Ewiger Vollstrecker"
 	L.punisher = "Bestrafer der Rastari"
 	L.vessel = "Gefäß für Bwonsamdi"
@@ -73,7 +74,7 @@ end
 
 L = BigWigs:NewBossLocale("King Rastakhan", "deDE")
 if L then
-	--L.leap_cancelled = "Leap Cancelled"
+	L.leap_cancelled = "Sprung abgebrochen"
 end
 
 L = BigWigs:NewBossLocale("High Tinker Mekkatorque", "deDE")

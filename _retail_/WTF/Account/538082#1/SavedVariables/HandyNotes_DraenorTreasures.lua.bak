@@ -10,9 +10,9 @@ DraenorTreasuresDB = {
 		["Rahran - Icecrown"] = "Default",
 		["Weston - Icecrown"] = "Default",
 		["Kindhoof - Tichondrius"] = "Default",
-		["Faerand - Icecrown"] = "Default",
-		["Korugen - Icecrown"] = "Default",
 		["Greybone - Icecrown"] = "Default",
+		["Korugen - Icecrown"] = "Default",
+		["Faerand - Icecrown"] = "Default",
 		["Mallusof - Icecrown"] = "Default",
 	},
 	["profiles"] = {
