@@ -130,12 +130,12 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTt",
 				}, -- [1]
 				{
-					["id"] = "/cast {{spell:2108/51302}}",
 					["sliceToken"] = "OPCCTl",
+					["id"] = "/cast {{spell:2108/51302}}",
 				}, -- [2]
 				{
-					["sliceToken"] = "OPCCTb",
 					["id"] = "/cast {{spell:2018/51300}}",
+					["sliceToken"] = "OPCCTb",
 				}, -- [3]
 				{
 					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
@@ -170,12 +170,12 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTr",
 				}, -- [11]
 				{
-					["sliceToken"] = "OPCCTu",
 					["id"] = 53428,
+					["sliceToken"] = "OPCCTu",
 				}, -- [12]
 				{
-					["sliceToken"] = "OPCCTm",
 					["id"] = 2656,
+					["sliceToken"] = "OPCCTm",
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -188,9 +188,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
-					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
+					["caption"] = "Fishing",
 				}, -- [16]
 				{
 					["sliceToken"] = "ABuesXHE2Xe",
@@ -228,8 +228,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea4/4zZe",
 				}, -- [5]
 				{
-					["sliceToken"] = "ABueajwKJge",
 					["id"] = 229387,
+					["sliceToken"] = "ABueajwKJge",
 				}, -- [6]
 				{
 					["id"] = 231442,
@@ -244,8 +244,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea5k9m/e",
 				}, -- [9]
 				{
-					["id"] = 229385,
 					["sliceToken"] = "ABuea5PhMXe",
+					["id"] = 229385,
 				}, -- [10]
 				{
 					["id"] = 232412,
@@ -379,15 +379,15 @@ OneRing_Config = {
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
+					["id"] = "/click ORLOpen Base",
 					["caption"] = "Back",
 					["icon"] = 1339449,
-					["id"] = "/click ORLOpen Base",
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
+					["id"] = "/rt",
 					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
-					["id"] = "/rt",
 				}, -- [6]
 				{
 					"macro", -- [1]
@@ -451,32 +451,32 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
-					["caption"] = "Travel",
 					["id"] = "/click ORLOpen SpecMenu",
+					["caption"] = "Travel",
 					["icon"] = 134414,
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
-					["caption"] = "Trade Skills",
 					["id"] = "/click ORLOpen CommonTrades",
+					["caption"] = "Trade Skills",
 					["icon"] = 134707,
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
-					["caption"] = "Macros",
 					["id"] = "/click ORLOpen Macros",
+					["caption"] = "Macros",
 					["icon"] = 1505928,
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
-					["caption"] = "Consumables",
 					["id"] = "/click ORLOpen onsumables",
+					["caption"] = "Consumables",
 					["icon"] = 134055,
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
-					["caption"] = "Class Abilities",
 					["id"] = "/click ORLOpen tAbilities",
+					["caption"] = "Class Abilities",
 					["icon"] = 132147,
 				}, -- [5]
 				{
@@ -577,8 +577,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuesnWstVe",
 				}, -- [21]
 				{
-					["sliceToken"] = "ABuesnYYbWe",
 					["id"] = 3714,
+					["sliceToken"] = "ABuesnYYbWe",
 				}, -- [22]
 				{
 					["id"] = 30146,

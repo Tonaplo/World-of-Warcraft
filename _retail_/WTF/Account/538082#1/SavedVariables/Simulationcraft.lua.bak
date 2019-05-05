@@ -1,20 +1,23 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
+		["Greybone - Icecrown"] = "Greybone - Icecrown",
+		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
-		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
+		["Greybone - Icecrown"] = {
+		},
+		["Rahran - Icecrown"] = {
+		},
 		["Weston - Icecrown"] = {
 		},
 		["Miriyal - Icecrown"] = {
-		},
-		["Greybone - Icecrown"] = {
 		},
 		["Praerend - Icecrown"] = {
 		},

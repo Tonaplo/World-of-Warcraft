@@ -10,19 +10,19 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
-		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
@@ -45,7 +45,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Luugo - Frostwolf"] = {
 		},
-		["Farahn - Proudmoore"] = {
+		["Zearthan - Icecrown"] = {
 		},
 		["Weston - Icecrown"] = {
 		},
@@ -53,7 +53,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Praerend - Icecrown"] = {
 		},
-		["Zearthan - Icecrown"] = {
+		["Farahn - Proudmoore"] = {
 		},
 		["Tyindel - Frostwolf"] = {
 		},
@@ -61,15 +61,15 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["Caircaidin - Frostwolf"] = {
+		["Korugen - Proudmoore"] = {
 		},
 		["Greybone - Icecrown"] = {
 		},
 		["Kindhoof - Tichondrius"] = {
 		},
-		["Deminath - Proudmoore"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
-		["Korugen - Proudmoore"] = {
+		["Deminath - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},

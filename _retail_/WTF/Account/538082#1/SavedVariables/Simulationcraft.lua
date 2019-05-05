@@ -2,6 +2,7 @@
 SimulationCraftDB = {
 	["profileKeys"] = {
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
+		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
@@ -11,6 +12,8 @@ SimulationCraftDB = {
 	},
 	["profiles"] = {
 		["Mallusof - Icecrown"] = {
+		},
+		["Rahran - Icecrown"] = {
 		},
 		["Weston - Icecrown"] = {
 		},

@@ -127,7 +127,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Arms",
 	}, -- [26]
 	{
-		["value"] = "[02+m0__ShiftE_1766_0_0]\n[01w+402+603+90_ghostly strike_ShiftF_196937_0_0]\n[0g+m0__T_202665_0_0]\n[0ww54+b04+70__F_185763_0_0]\n[00w52001500020504+70_Slice and Dice_2_193316_0_0]\n[00w52+b05+70__3_2098_0_0]\n[00w55+b06+70__E_193315_0_0]",
+		["value"] = "[02+m0__ShiftE_1766_0_0]\n[01w+402+603+90_ghostly strike_ShiftF_196937_0_0]\n[0ww54+b04+70__F_185763_0_0]\n[01w52001500020504+70_Slice and Dice_2_193316_0_0]\n[00w52+b05+70__3_2098_0_0]\n[00w55+b06+70__E_193315_0_0]",
 		["spec"] = 260,
 		["name"] = "Outlaw",
 	}, -- [27]
