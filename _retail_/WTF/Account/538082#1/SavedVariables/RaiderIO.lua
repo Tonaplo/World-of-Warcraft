@@ -15,4 +15,4 @@ RaiderIO_Config = {
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
 }
-RaiderIO_LastCharacter = "us-Rahran-icecrown"
+RaiderIO_LastCharacter = "us-Greybone-icecrown"

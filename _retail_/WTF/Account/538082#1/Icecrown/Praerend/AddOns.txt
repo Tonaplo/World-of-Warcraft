@@ -16,3 +16,4 @@ XLoot_Group: disabled
 XLoot_Monitor: disabled
 Quester: disabled
 Immersion: disabled
+LittleWigs: enabled

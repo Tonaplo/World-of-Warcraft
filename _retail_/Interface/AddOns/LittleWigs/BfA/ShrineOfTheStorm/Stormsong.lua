@@ -29,6 +29,9 @@ function mod:GetOptions()
 		269097, -- Waken the Void
 		269131, -- Ancient Mindbender
 		{268896, "DISPEL"}, -- Mind Rend
+	}, {
+		[268347] = "general",
+		[268896] = "heroic",
 	}
 end
 
@@ -87,6 +90,6 @@ end
 function mod:MindRendApplied(args)
 	if self:Dispeller("magic", nil, args.spellId) or self:Me(args.destGUID) then
 		self:TargetMessage2(args.spellId, "orange", args.destName)
-		self:PlaySound(args.spellId, "alert")
+		self:PlaySound(args.spellId, "alert", nil, args.destName)
 	end
 end

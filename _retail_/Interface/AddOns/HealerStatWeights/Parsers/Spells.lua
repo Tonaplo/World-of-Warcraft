@@ -47,7 +47,8 @@ local function createSpellInfo(id, spellType, isIntScaled, isCritScaled, isHaste
 		cd = false,
 		filler = false,
 		manaCost = -1,
-		hstHPMPeriodic = false
+		hstHPMPeriodic = false,
+		hstHPMequalsHPCT = false
 	}
 end
 
@@ -63,6 +64,10 @@ local function setFillerSpell(id,manaCost,f_multiplier)
 	Spells[id].filler = true;
 	Spells[id].manaCost = manaCost;
 	Spells[id].manaCostAdjustmentMultiplier = f_multiplier;
+end
+
+local function setHPMequalsHPCT(id)
+	Spells[id].hstHPMequalsHPCT = true;
 end
 
 --[[----------------------------------------------------------------------------
@@ -432,7 +437,6 @@ setTransfersToBeacon(addon.Paladin.TyrsDeliverance);
 setTransfersToBeacon(addon.Paladin.ArcingLight);
 setTransfersToBeacon(addon.Paladin.FlashOfLight);
 setTransfersToBeacon(addon.Paladin.LightOfTheMartyr);
-
 setRaidCooldown(addon.Paladin.AuraOfMercy);
 
 setFillerSpell(addon.Paladin.HolyLight, 0.026);
@@ -446,13 +450,19 @@ addon.BuffTracker:Track(addon.Paladin.InfusionOfLight);
 addon.Paladin.RadiantIncandesence = 278147;
 addon.Paladin.GraceOfTheJusticar = 278785;
 addon.Paladin.MartyrsBreath = 273035;
+addon.Paladin.Glimmer = 287286;
 addon.Paladin.Azerite = {};
 addon.Paladin.Azerite.MomentOfCompassion = 188;
 addon.Paladin.Azerite.BreakingDawn = 394;
-
+createSpellInfo(addon.Paladin.Glimmer,				SpellType.PALADIN,	_,T,T,T,T,T,T); 
 createSpellInfo(addon.Paladin.RadiantIncandesence,	SpellType.PALADIN,	_,T,_,T,T,T,T);
 createSpellInfo(addon.Paladin.GraceOfTheJusticar,	SpellType.PALADIN,	_,T,_,T,T,T,T);
 createSpellInfo(addon.Paladin.MartyrsBreath,		SpellType.PALADIN,	_,T,_,T,T,T,T);
+setTransfersToBeacon(addon.Paladin.Glimmer);
+setTransfersToBeacon(addon.Paladin.RadiantIncandesence);
+setTransfersToBeacon(addon.Paladin.GraceOfTheJusticar);
+setHPMequalsHPCT(addon.Paladin.Glimmer);
+
 local function momentOfCompassionScalar(unit)
 	if addon.Util.HasAnyAuraFromPlayer(unit,addon.BeaconBuffs) then
 		return 1;
@@ -462,7 +472,6 @@ local function momentOfCompassionScalar(unit)
 end
 addon.AzeriteAugmentations:TraitAugmentsSpell(addon.Paladin.Azerite.MomentOfCompassion,0.8,addon.Paladin.FlashOfLight,1.25*1.07,{ValueScalar=momentOfCompassionScalar});
 addon.AzeriteAugmentations:TraitAugmentsSpell(addon.Paladin.Azerite.BreakingDawn,0.67,addon.Paladin.LightOfDawn,0.55);
-
 
 
 

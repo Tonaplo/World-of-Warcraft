@@ -62,6 +62,8 @@
 	
 	--> current combat and overall pointers
 		local _current_combat = _detalhes.tabela_vigente or {} --> placeholder table
+		local _current_combat_cleu_events = {n = 1} --> placeholder
+
 	--> total container pointers
 		local _current_total = _current_combat.totals
 		local _current_gtotal = _current_combat.totals_grupo
@@ -109,6 +111,8 @@
 	local container_misc = _detalhes.container_type.CONTAINER_MISC_CLASS
 	local duel_candidates = _detalhes.duel_candidates
 	
+	local _token_ids = _detalhes.TokenID
+	
 	local OBJECT_TYPE_ENEMY	=	0x00000040
 	local OBJECT_TYPE_PLAYER 	=	0x00000400
 	local OBJECT_TYPE_PETS 	=	0x00003000
@@ -142,6 +146,7 @@
 		[201363] = 218617, --warrior rampage
 		[85384] = 96103, --warrior raging blow
 		[85288] = 96103, --warrior raging blow
+		[280849] = 5308, --warrior execute
 		[163558] = 5308, --warrior execute
 		[217955] = 5308, --warrior execute
 		[217956] = 5308, --warrior execute
@@ -207,6 +212,8 @@
 	--> discharge apetagonizer core
 	local SPELLNAME_GRONG_CORE = GetSpellInfo (285660)
 	local SPELLNAME_GRONG_CORE_ALLIANCE = GetSpellInfo (286435)
+	--> storm of annihilation
+	local SPELLANAME_STORM_OF_ANNIHILATION = GetSpellInfo (284601)
 	
 	--> spells with special treatment
 	local special_damage_spells = {
@@ -237,6 +244,7 @@
 	--> in combat flag
 		local _in_combat = false
 		local _current_encounter_id
+		local _is_storing_cleu = false
 		
 	--> deathlog
 		local _death_event_amt = 16
@@ -427,8 +435,13 @@
 		--end
 		
 		--rules of specific encounters
-
-		if (_current_encounter_id == 2263 or _current_encounter_id == 2284) then --grong --REMOVE ON 9.0 LAUNCH
+		
+		if (_current_encounter_id == 2273) then --Uu'nat  --REMOVE ON 9.0 LAUNCH
+			if (spellname == SPELLANAME_STORM_OF_ANNIHILATION or spellid == 284601) then
+				--return --this is parsed as friendly fire
+			end
+		
+		elseif (_current_encounter_id == 2263 or _current_encounter_id == 2284) then --grong --REMOVE ON 9.0 LAUNCH
 			if (spellid == 285660 or spellname == SPELLNAME_GRONG_CORE or spellid == 286435 or spellname == SPELLNAME_GRONG_CORE_ALLIANCE) then
 				return
 			end
@@ -921,6 +934,11 @@
 			if (_current_combat.is_boss and who_flags and _bit_band (who_flags, OBJECT_TYPE_ENEMY) ~= 0) then
 				_detalhes.spell_school_cache [spellname] = spelltype or school
 			end
+		end
+		
+		if (_is_storing_cleu) then
+			_current_combat_cleu_events [_current_combat_cleu_events.n] = {_tempo, _token_ids [token] or 0, who_name, alvo_name or "", spellid, amount}
+			_current_combat_cleu_events.n = _current_combat_cleu_events.n + 1
 		end
 		
 		return spell_damage_func (spell, alvo_serial, alvo_name, alvo_flags, amount, who_name, resisted, blocked, absorbed, critical, glacing, token, isoffhand)
@@ -1786,6 +1804,11 @@
 			if (_current_combat.is_boss and who_flags and _bit_band (who_flags, OBJECT_TYPE_ENEMY) ~= 0) then
 				_detalhes.spell_school_cache [spellname] = spelltype or school
 			end
+		end
+		
+		if (_is_storing_cleu) then
+			_current_combat_cleu_events [_current_combat_cleu_events.n] = {_tempo, _token_ids [token] or 0, who_name, alvo_name or "", spellid, amount}
+			_current_combat_cleu_events.n = _current_combat_cleu_events.n + 1
 		end
 		
 		if (is_shield) then
@@ -5139,14 +5162,15 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 	
 	--serach key: ~cache
 	function _detalhes:UpdateParserGears()
-
+	
 		--> refresh combat tables
 		_current_combat = _detalhes.tabela_vigente
+		_current_combat_cleu_events = _current_combat and _current_combat.cleu_events
 		
 		--> last events pointer
 		last_events_cache = _current_combat.player_last_events
 		_death_event_amt = _detalhes.deadlog_events
-
+		
 		--> refresh total containers
 		_current_total = _current_combat.totals
 		_current_gtotal = _current_combat.totals_grupo

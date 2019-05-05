@@ -1,6 +1,7 @@
 # BigWigs
 
-## [v142.2](https://github.com/BigWigsMods/BigWigs/tree/v142.2) (2019-03-31)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v142.1...v142.2)
+## [v146.1](https://github.com/BigWigsMods/BigWigs/tree/v146.1) (2019-04-29)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v146...v146.1)
 
-- BattleOfDazaralor/Blockade: Add Sea Storm say message and targets message (#636)  
+- CrucibleOfStorms: Follow add mark settings instead of always marking  
+- BattleOfDazaralor/Jaina: Emphasize Glacial Ray by default.  

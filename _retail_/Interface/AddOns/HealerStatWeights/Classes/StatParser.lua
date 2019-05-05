@@ -97,6 +97,7 @@ function addon:UpdateAzeriteEquipment()
 					if ( trait ) then
 						self.AzeriteAugmentations:SetActiveTrait(trait,itemInt);
 					end
+					--print(i,trait);
 				end
 			end
 		end
@@ -212,6 +213,10 @@ local function _Haste(ev,s,heal,destUnit,H,f)
 		hpct = heal / (1+H) / addon.HasteConv;
 	end
 	
+	if ( s.hstHPMequalsHPCT ) then
+		hpm = hpct;
+	end
+
 	return hpm,hpct;
 end
 

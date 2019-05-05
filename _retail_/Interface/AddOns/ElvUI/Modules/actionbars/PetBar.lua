@@ -34,18 +34,12 @@ function AB:UpdatePet(event, unit)
 	for i=1, NUM_PET_ACTION_SLOTS, 1 do
 		local name, texture, isToken, isActive, autoCastAllowed, autoCastEnabled, spellID = GetPetActionInfo(i)
 		local buttonName = "PetActionButton"..i
+		local autoCast = _G[buttonName.."AutoCastable"];
 		local button = _G[buttonName]
 
 		button:SetAlpha(1);
 		button.icon:Hide();
 		button.isToken = isToken;
-
-		if not button.ICON then
-			button.ICON = button:CreateTexture(buttonName..'ICON')
-			button.ICON:SetTexCoord(unpack(E.TexCoords))
-			button.ICON:SetInside()
-			button.pushed:SetDrawLayer('ARTWORK', 1)
-		end
 
 		if not isToken then
 			button.ICON:SetTexture(texture);
@@ -77,9 +71,9 @@ function AB:UpdatePet(event, unit)
 		end
 
 		if autoCastAllowed then
-			button.AutoCastable:Show();
+			autoCast:Show();
 		else
-			button.AutoCastable:Hide();
+			autoCast:Hide();
 		end
 
 		if autoCastEnabled then
@@ -193,13 +187,13 @@ function AB:PositionAndSizeBarPet()
 		lastButton = _G["PetActionButton"..i-1];
 		autoCast = _G["PetActionButton"..i..'AutoCastable'];
 		lastColumnButton = _G["PetActionButton"..i-buttonsPerRow];
+
 		button:SetParent(bar);
 		button:ClearAllPoints();
+		button:SetAttribute("showgrid", 1);
 		button:Size(size);
 
 		autoCast:SetOutside(button, autoCastSize, autoCastSize)
-
-		button:SetAttribute("showgrid", 1);
 
 		if i == 1 then
 			local x, y;
@@ -307,12 +301,6 @@ function AB:CreateBarPet()
 
 	_G.PetActionBarFrame.showgrid = 1;
 	PetActionBar_ShowGrid();
-	self:HookScript(bar, 'OnEnter', 'Bar_OnEnter');
-	self:HookScript(bar, 'OnLeave', 'Bar_OnLeave');
-	for i=1, NUM_PET_ACTION_SLOTS do
-		self:HookScript(_G["PetActionButton"..i], 'OnEnter', 'Button_OnEnter');
-		self:HookScript(_G["PetActionButton"..i], 'OnLeave', 'Button_OnLeave');
-	end
 
 	self:RegisterEvent('SPELLS_CHANGED', 'UpdatePet')
 	self:RegisterEvent('PLAYER_CONTROL_GAINED', 'UpdatePet');
@@ -329,10 +317,27 @@ function AB:CreateBarPet()
 	self:PositionAndSizeBarPet();
 	self:UpdatePetBindings()
 
-	if MasqueGroup and E.private.actionbar.masque.petBar then
-		for i=1, NUM_PET_ACTION_SLOTS do
-			local button = _G["PetActionButton"..i]
-			MasqueGroup:AddButton(button)
+	self:HookScript(bar, 'OnEnter', 'Bar_OnEnter');
+	self:HookScript(bar, 'OnLeave', 'Bar_OnLeave');
+	for i=1, NUM_PET_ACTION_SLOTS do
+		local button = _G["PetActionButton"..i]
+		if not button.ICON then
+			button.ICON = button:CreateTexture("PetActionButton"..i..'ICON')
+			button.ICON:SetTexCoord(unpack(E.TexCoords))
+			button.ICON:SetSnapToPixelGrid(false)
+			button.ICON:SetTexelSnappingBias(0)
+			button.ICON:SetInside()
+
+			if button.pushed then
+				button.pushed:SetDrawLayer('ARTWORK', 1)
+			end
+		end
+
+		self:HookScript(button, 'OnEnter', 'Button_OnEnter');
+		self:HookScript(button, 'OnLeave', 'Button_OnLeave');
+
+		if MasqueGroup and E.private.actionbar.masque.petBar then
+			MasqueGroup:AddButton(button, {Icon=button.ICON})
 		end
 	end
 end

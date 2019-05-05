@@ -1,9 +1,11 @@
 # LittleWigs
 
-## [v8.1.9](https://github.com/BigWigsMods/LittleWigs/tree/v8.1.9) (2019-04-02)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.1.8...v8.1.9)
+## [v8.1.12](https://github.com/BigWigsMods/LittleWigs/tree/v8.1.12) (2019-04-29)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.1.11...v8.1.12)
 
-- BfA/Freehold/Kragg: Fix Vile Bombardment timer on Normal difficulty (#438)  
-- BfA/Freehold/Kragg: Add Vile Bombardment (#437)  
-- update zhCN (#435)  
-- BfA/Underrot/Trash: Remove Wave of Decay cast message (#434)  
+- BfA/TempleOfSethraliss: Improvements (#455)  
+- Update deDE (#457)  
+- BfA: Add player arg to all PlaySound calls with a target (#456)  
+- BfA/WaycrestManor: Improvements (#451)  
+- Update zhTW/zhCN  (#454)  
+- Update zhTW/zhCN (#452)  

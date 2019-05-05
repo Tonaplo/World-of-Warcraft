@@ -633,7 +633,9 @@ function ConditionerAddOn:RollTheBones()
         "Broadsides",
         "Jolly Roger",
         "Buried Treasure",
-        "Grand Melee"
+        "Grand Melee",
+        "Skull and Crossbones",
+        "Ruthless Precision"
     }
     local results = {}
     for k,v in ipairs(RollTheBonesBuffs) do
@@ -1665,7 +1667,7 @@ function ConditionerAddOn:Merge(list, left, right)
     while ((i <= #left) and (j <= #right)) do
         local a, b = left[i], right[j]
         if (a.priority < b.priority) then
-            if (a.time < (b.time + b.gcd*hasteMult)) then
+            if (a.time <= (b.time + b.gcd*hasteMult)) then
                 list[k] = a
                 i = i + 1
             else
@@ -1673,7 +1675,7 @@ function ConditionerAddOn:Merge(list, left, right)
                 j = j + 1
             end
         else
-            if (b.time < (a.time + a.gcd*hasteMult)) then
+            if (b.time <= (a.time + a.gcd*hasteMult)) then
                 list[k] = b
                 j = j + 1
             else

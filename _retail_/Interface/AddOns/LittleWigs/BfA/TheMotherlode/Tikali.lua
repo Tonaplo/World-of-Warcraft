@@ -7,6 +7,7 @@ local mod, CL = BigWigs:NewBoss("Tik'ali", 1594, 2114)
 if not mod then return end
 mod:RegisterEnableMob(129227)
 mod.engageId = 2106
+mod.respawnTime = 30
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -14,11 +15,14 @@ mod.engageId = 2106
 
 function mod:GetOptions()
 	return {
-		257593, -- Call Earthrager
-		{257582, "SAY"}, -- Raging Gaze
 		271698, -- Azerite Infusion
 		258622, -- Resonant Pulse
+		257593, -- Call Earthrager
+		{257582, "SAY"}, -- Raging Gaze
 		275907, -- Tectonic Smash
+	}, {
+		[271698] = "general",
+		[275907] = "heroic",
 	}
 end
 
@@ -34,7 +38,9 @@ function mod:OnEngage()
 	self:Bar(258622, 9.5) -- Resonant Pulse
 	self:Bar(271698, 20) -- Azerite Infusion
 	self:Bar(257593, 64) -- Call Earthrager
-	self:Bar(275907, 5) -- Tectonic Smash
+	if not self:Normal() then
+		self:Bar(275907, 5) -- Tectonic Smash
+	end
 end
 
 --------------------------------------------------------------------------------
@@ -49,9 +55,12 @@ end
 
 do
 	local playerList = mod:NewTargetList()
+	local prev = 0
 	function mod:RagingGaze(args)
 		playerList[#playerList+1] = args.destName
-		if self:Me(args.destGUID) then
+		local t = args.time
+		if self:Me(args.destGUID) and t-prev > 0.3 then -- Only run once per targetsmessage
+			prev = t
 			self:PlaySound(args.spellId, "warning", "fixate")
 			self:Say(args.spellId)
 		end

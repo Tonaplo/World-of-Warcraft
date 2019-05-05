@@ -825,7 +825,7 @@ function(self)
 	end
 	app:RefreshData();
 end);
-TransmogCheckBox:SetATTTooltip("Enable this option to track appearance acquisition.\n\nNOTE: Disabling this option also disables all fanfares and acquisition logic, you can use this toggle as a way to prevent lag spikes while doing important group content, bare in mind, the compution will need to occur once re-enabled.\n\nTracked Account Wide by Default.");
+TransmogCheckBox:SetATTTooltip("Enable this option to track appearance acquisition.\n\nNOTE: Disabling this option also disables all fanfares and acquisition logic.  You can use this toggle as a way to prevent lag spikes while doing important group content, but bear in mind the computation will need to occur once re-enabled.\n\nTracked Account Wide by Default.");
 TransmogCheckBox:SetPoint("TOPLEFT", AchievementsCheckBox, "BOTTOMLEFT", 0, 4);
 
 local TransmogAccountWideCheckBox = settings:CreateCheckBox("Account Wide",
@@ -1704,7 +1704,7 @@ table.insert(settings.MostRecentTab.objects, scrollFrame);
 
 local child = CreateFrame("Frame", nil, scrollFrame);
 child:SetPoint("TOP", 0, 0);
-child:SetSize(600, 2000);
+child:SetSize(600, 2500);
 scrollbar.child = child;
 table.insert(settings.MostRecentTab.objects, child);
 child.CreateCheckBox = function(self, label, onRefresh, onClick)
@@ -1949,7 +1949,7 @@ for k,v in ipairs(L["UNOBTAINABLE_ITEM_REASONS"]) do
 		x = 0;
 		y = 20;
 		count = count + 1;
-		if count == 4 then
+		if count == 5 then
 			x = 300
 			y = 5
 			last = noChanceFrame
@@ -2047,7 +2047,7 @@ local highChanceFrame = CreateFrame("Frame", nil, child, "ThinBorderTemplate");
 highChanceFrame:SetPoint("TOP",highChance,0,-20);
 highChanceFrame:SetPoint("LEFT", child, 4, 0);
 highChanceFrame:SetPoint("RIGHT", child, -4, 0);
-highChanceFrame:SetHeight(80);
+highChanceFrame:SetHeight(90);
 
 -- high Everything
 local highChanceAll = child:CreateCheckBox("Enable All \"High Chance\"",
@@ -2121,14 +2121,14 @@ end
 
 -- Legacy
 local legacy = child:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
-legacy:SetPoint("TOPLEFT", highChance, 0, -(highChanceFrame:GetHeight() + (2*20)))
+legacy:SetPoint("TOPLEFT", highChance, 0, -(highChanceFrame:GetHeight() + (2*15)))
 legacy:SetText("Legacy");
 
 local legacyFrame = CreateFrame("Frame", nil, child, "ThinBorderTemplate");
 legacyFrame:SetPoint("TOP",legacy,0,-20);
 legacyFrame:SetPoint("LEFT", child, 4, 0);
 legacyFrame:SetPoint("RIGHT", child, -4, 0);
-legacyFrame:SetHeight(100);
+legacyFrame:SetHeight(120);
 
 -- Legacy Everything
 local legacyAll = child:CreateCheckBox("Enable All \"Legacy\"",

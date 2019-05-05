@@ -66,7 +66,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Elemental",
 	}, -- [13]
 	{
-		["value"] = "[02+m0__ShiftE_47528_0_0]\n[01w+401+603+90_bone shield_E_195182_0_0]\n[01+502+g0_blood plague_ShiftF_50842_0_0]\n[00w+l0__Shift3_206931_0_0]\n[0w+m0__Q_43265_0_0]\n[04w72+a01b+70__F_49998_0_0]\n[+70140006+b0_bone shield_E_195182_0_0]\n[00w+l0___206930_0_0]",
+		["value"] = "[02+m0__ShiftE_47528_0_0]\n[01w+401+603+90_bone shield_E_195182_0_0]\n[+o0__T_274156_0_0]\n[+702+g0_blood plague_ShiftF_50842_0_0]\n[0w+m0__Q_43265_0_0]\n[04w72+a01b+70__F_49998_0_0]\n[+70140006+b0_bone shield_E_195182_0_0]\n[00w+l0__3_206930_0_0]",
 		["spec"] = 250,
 		["name"] = "Blood",
 	}, -- [14]
@@ -86,7 +86,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Vengeance",
 	}, -- [17]
 	{
-		["value"] = "[02+m0__ShiftE_183752_0_0]\n[0g+501+g0_metamorphosis_3_206491_0_0]\n[+o0__Shift2_201467_0_0]\n[+901+a01000__ShiftC_195072_0_0]\n[0h+m0_metamorphosis_T_191427_0_0]\n[+o0__Q_188499_0_0]\n[00w+l0__F_162794_0_0]\n[000i4+b0u+70__Shift4_232893_0_0]\n[000i4+a016+70___162243_0_0]",
+		["value"] = "[02+m0__ShiftE_183752_0_0]\n[+o0__Shift2_258920_0_0]\n[00w+l0__Shift1_198013_0_0]\n[00w+l0__Q_188499_0_0]\n[00w+l0__F_162794_0_0]\n[000i4+a016+70__E_162243_0_0]",
 		["spec"] = 577,
 		["name"] = "Havoc",
 	}, -- [18]
@@ -146,11 +146,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 102,
 		["name"] = "Balance M+",
 	}, -- [30]
-	{
-		["value"] = "[02+m0__ShiftE_183752_0_0]\n[+o0__Shift2_201467_0_0]\n[01+50101+401+501003_Momentum_Shift C_195072_0_232893]\n[01+501+601+803_Momentum_C_198793_0_232893]\n[0h+m0_metamorphosis_T_191427_0_0]\n[+o0__Shift Q_198013_0_0]\n[00w+l0__Shift F_232893_0_0]\n[+o0__Q_188499_0_0]\n[00w+l0__F_162794_0_0]\n[000i4+a016+70__E_162243_0_0]",
-		["spec"] = 577,
-		["name"] = "Havoc Mythic+",
-	}, -- [31]
+	false, -- [31]
 	{
 		["value"] = "[02+m0__Shift E_15487_0_0]\n[00w+402+g0__Shift F_228260_0_0]\n[00w+40202+a02032__2_32379_0_8092]\n[+903+a01032__2_32379_0_8092]\n[+7012000k+b0_Voidform_X_200174_0_0]\n[01+502+603+90_Shadow Word: Pain_F_589_0_0]\n[01+502+603+90_Vampiric Touch_C_34914_0_0]\n[+702+g0__3_8092_0_0]\n[+702+g0__E_15407_0_0]",
 		["spec"] = 258,

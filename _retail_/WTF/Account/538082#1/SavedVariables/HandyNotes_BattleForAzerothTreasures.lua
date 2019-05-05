@@ -10,19 +10,19 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
-		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
@@ -45,7 +45,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Luugo - Frostwolf"] = {
 		},
-		["Zearthan - Icecrown"] = {
+		["Farahn - Proudmoore"] = {
 		},
 		["Weston - Icecrown"] = {
 		},
@@ -53,7 +53,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Praerend - Icecrown"] = {
 		},
-		["Farahn - Proudmoore"] = {
+		["Zearthan - Icecrown"] = {
 		},
 		["Tyindel - Frostwolf"] = {
 		},
@@ -61,15 +61,15 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["Korugen - Proudmoore"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
 		["Greybone - Icecrown"] = {
 		},
 		["Kindhoof - Tichondrius"] = {
 		},
-		["Caircaidin - Frostwolf"] = {
-		},
 		["Deminath - Proudmoore"] = {
+		},
+		["Korugen - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},

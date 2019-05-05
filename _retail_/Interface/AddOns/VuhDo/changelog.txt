@@ -1,3 +1,47 @@
+Version 3.101
+
+
+Known issues:
+-- BfA stat squish cleanup still a work in progress
+--   AOE Advice spell equations need complete overhaul
+--   Some text providers need changes to better display small numbers
+-- Debuff tooltips are currently bugged when using ElvUI
+--   Deselect 'VuhDo Options > Panels > Tooltips > Tooltips > Debuffs'
+
+
+Bugfixes:
+-- Listen to UNIT_HEALTH_FREQUENT events exclusively
+--   Work around a Blizzard bug that triplicates health events
+-- Fixed Spell Trace for Holy Priest talent 'Trail of Light' 
+--   As of 8.1.0 this talent is now triggered by 'Heal'
+-- Fixed issue with case sensitivity for the 'dropdown' command
+
+
+Improvements:
+-- Added new custom debuff display options 'Bar Glow' and 'Icon Glow'
+--  Default color settings under 'VuhDo Options > Colors > States'
+-- Added new glow display options for 'Special Dot' indicator
+-- Minimap icon profile and key layout dropdown menus are now sorted
+-- Added new bouquet validator 'Flag: Own Combo Points =='
+-- Added new default bouquet 'Player Combo Points'
+-- Added new text provider 'Combo Points: <#n>'
+-- Added new bouquet validator 'Flag: Own Soul Shards =='
+-- Added new default bouquet 'Player Soul Shards'
+-- Added new text provider 'Soul Shards: <#n>'
+-- Added new bouquet validator 'Flag: Own Runes =='
+-- Added new default bouquet 'Player Runes'
+-- Added new text provider 'Runes: <#n>'
+-- Added new bouquet validator 'Flag: Own Arcane Charges =='
+-- Added new default bouquet 'Player Arcane Charges'
+-- Added new text provider 'Arcane Charges: <#n>'
+-- Added default custom debuffs for Crucible of Storms raid
+-- Added new slash command "/vd about"
+-- MODIFIER+RIGHTBUTTON now adds debuff icons to the blacklist
+--   Default key modifier is set to 'CTRL+SHIFT+ALT'
+--   Set under 'VuhDo Options > Debuffs > Standard > Icons'
+
+
+--------------------------------------------------------------
 Version 3.100
 
 

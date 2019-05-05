@@ -1,34 +1,10 @@
-lightweight tag 904df2cf70cef4ed037a8190f4d4a48a1a16c007 v201904070600
+lightweight tag 358fe15bbc82199ce2dc9a1bd8f375a16dd0aa00 v201905040600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Sun Apr 7 06:21:11 2019 +0000
+Date:	Sat May 4 06:24:48 2019 +0000
 
-commit 904df2cf70cef4ed037a8190f4d4a48a1a16c007
+commit 358fe15bbc82199ce2dc9a1bd8f375a16dd0aa00
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sun Apr 7 06:21:11 2019 +0000
-
-    [Raider.IO] Database Refresh
-
-commit 25cb8936821d2503974c2d3338ddca5b95f260af
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sat Apr 6 23:57:54 2019 -0500
-
-    updated label for force english abbreviation option
-
-commit 25cb8936821d2503974c2d3338ddca5b95f260af
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sat Apr 6 23:57:54 2019 -0500
-
-    updated label for force english abbreviation option
-
-commit 25cb8936821d2503974c2d3338ddca5b95f260af
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sat Apr 6 23:57:54 2019 -0500
-
-    updated label for force english abbreviation option
-
-commit 4a2a2f431d0788c0120477f096dabbe7ecedaa2e
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sun Apr 7 03:58:35 2019 +0000
+Date:   Sat May 4 06:24:48 2019 +0000
 
     [Raider.IO] Database Refresh
 
