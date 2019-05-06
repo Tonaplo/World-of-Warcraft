@@ -1,6 +1,8 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
+		"/macro", -- [1]
+		"/wa", -- [2]
 	},
 	["ChatHistoryLog"] = {
 		{

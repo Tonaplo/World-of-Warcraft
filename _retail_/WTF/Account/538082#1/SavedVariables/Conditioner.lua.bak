@@ -26,7 +26,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Demonology",
 	}, -- [5]
 	{
-		["value"] = "[02w+l0__E_106839_0_0]\n[00w+l0__F_33917_0_0]\n[0w+m0__Shift3_8921_0_0]\n[00w+l0__ShiftQ_77758_0_0]\n[01w+402+603+90_Moonfire_Shift3_8921_0_0]\n[00w+l0__ShiftF_6807_0_0]\n[+o0___213771_0_0]",
+		["value"] = "[02w+l0__E_106839_0_0]\n[01w+401+603+90_Ironfur_2_192081_0_0]\n[00w+l0__F_33917_0_0]\n[00w+l0__Q_77758_0_0]\n[00w+l0__2_192081_0_0]\n[+o0__E_213771_0_0]",
 		["spec"] = 104,
 		["name"] = "Guardian",
 	}, -- [6]
@@ -56,7 +56,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Survival",
 	}, -- [11]
 	{
-		["value"] = "[02+m0__ShiftE_57994_0_0]\n[+m034__2_51533_0_187874]\n[+o0__s-2_197214_0_0]\n[00w+l0__Q_187874_0_0]\n[00w+401+g0_Stormbringer_F_17364_0_0]\n[01+501+603+90_Flametongue_ShiftF_193796_0_0]\n[00w+l0__F_17364_0_0]\n[+o0__E_193786_0_0]\n[00wc1+b0O+70__3_60103_0_0]",
+		["value"] = "[02+m0__ShiftE_57994_0_0]\n[+m034__2_51533_0_187874]\n[00w+l0__Q_187874_0_0]\n[00w+401+g0_Stormbringer_F_17364_0_0]\n[01+501+603+90_Flametongue_ShiftF_193796_0_0]\n[00w+l0__F_17364_0_0]\n[+o0__E_193786_0_0]\n[00wc1+b0O+70__3_60103_0_0]",
 		["spec"] = 263,
 		["name"] = "Enhancement",
 	}, -- [12]

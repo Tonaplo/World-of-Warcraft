@@ -13,17 +13,3 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: WeakAurasDisplayButton89
-FrameLevel: 8
-Anchor: CENTER
-X: -143
-Y: 153
-W: 796
-H: 32
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -101
-Y: -27
-W: 1362
-H: 965

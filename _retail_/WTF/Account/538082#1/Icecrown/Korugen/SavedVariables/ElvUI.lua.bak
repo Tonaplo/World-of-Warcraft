@@ -1,13 +1,15 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i r?", -- [1]
-		"/i Thanks Mors :)", -- [2]
+		"/i Thanks Mors :)", -- [1]
+		"/i my bad", -- [2]
 		"/i I like this set", -- [3]
-		"/i my bad", -- [4]
-		"/i !", -- [5]
-		"/i sorry", -- [6]
-		"/i thanks indeed !:)", -- [7]
+		"/wa", -- [4]
+		"/i r?", -- [5]
+		"/i !", -- [6]
+		"/macro", -- [7]
+		"/i thanks indeed !:)", -- [8]
+		"/i sorry", -- [9]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -2012,5 +2014,27 @@ ElvCharacterDB = {
 			[51] = 1556339862,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [91]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13297:Player-104-0A31C7F3:1:4:28:19:4294967295:4294967295:4294967295:4294967295|h[War for the Shore]|h|r!", -- [1]
+			"Oldeross-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oldeross-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			219, -- [11]
+			"Player-104-0A31C7F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcOldeross|r",
+			[51] = 1556471511,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [92]
 	},
 }

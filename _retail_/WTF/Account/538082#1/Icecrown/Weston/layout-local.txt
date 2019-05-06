@@ -6,6 +6,13 @@ X: 1
 Y: 66
 W: 235
 H: 400
+Frame: ScriptErrorsFrame
+FrameLevel: 1
+Anchor: TOP
+X: 340
+Y: -57
+W: 384
+H: 260
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,3 +27,10 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: TOP
+X: -50
+Y: -16
+W: 1362
+H: 965

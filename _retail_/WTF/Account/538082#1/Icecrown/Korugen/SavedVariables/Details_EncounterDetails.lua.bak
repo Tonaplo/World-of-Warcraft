@@ -1,16 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "King Ymiron",
-		}, -- [1]
-		{
-			["boss"] = "Skadi the Ruthless",
-		}, -- [2]
-		{
-			["boss"] = "Gortok Palehoof",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[1604] = {
 			["school"] = 1,
@@ -92,12 +81,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Ymiron",
 		},
-		[104318] = {
-			["school"] = 4,
+		[48292] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Wild Imp",
+			["source"] = "King Ymiron",
 		},
 		[48291] = {
 			["school"] = 8,
@@ -124,23 +114,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[48585] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Avenging Spirit",
-		},
-		[49084] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ymirjar Witch Doctor",
-		},
 		[50228] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -156,6 +129,24 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Skadi the Ruthless",
+		},
+		[48585] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Avenging Spirit",
+		},
+		[48276] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Svala Sorrowgrave",
 		},
 		[48277] = {
 			["school"] = 32,
@@ -184,15 +175,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ritual Channeler",
 		},
-		[48276] = {
+		[49084] = {
 			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Svala Sorrowgrave",
+			["source"] = "Ymirjar Witch Doctor",
 		},
 		[50234] = {
 			["school"] = 1,
@@ -219,13 +209,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ymirjar Witch Doctor",
 		},
-		[48292] = {
-			["school"] = 32,
+		[104318] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "King Ymiron",
+			["source"] = "Wild Imp",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "King Ymiron",
+		}, -- [1]
+		{
+			["boss"] = "Skadi the Ruthless",
+		}, -- [2]
+		{
+			["boss"] = "Gortok Palehoof",
+		}, -- [3]
 	},
 }

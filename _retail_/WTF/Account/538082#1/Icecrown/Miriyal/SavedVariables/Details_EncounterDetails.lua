@@ -242,12 +242,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lei Shen",
 		},
-		[136190] = {
+		[138070] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Unharnessed Power",
+		},
+		[137344] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sul the Sandcrawler",
+			["source"] = "High Priestess Mar'li",
 		},
 		[134820] = {
 			["school"] = 1,
@@ -257,15 +268,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Lei Shen",
-		},
-		[138070] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Unharnessed Power",
 		},
 		[139551] = {
 			["school"] = 8,
@@ -284,13 +286,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lei Shen",
 		},
-		[136366] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lei Shen",
-		},
 		[138378] = {
 			["school"] = 1,
 			["token"] = {
@@ -298,14 +293,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anima Golem",
 		},
-		[137344] = {
-			["school"] = 2,
+		[137118] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lu'lin",
+		},
+		[136190] = {
+			["school"] = 8,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "High Priestess Mar'li",
+			["source"] = "Sul the Sandcrawler",
 		},
 		[136189] = {
 			["school"] = 8,
@@ -402,12 +402,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spirit Flayer",
 		},
-		[137118] = {
-			["school"] = 1,
+		[136366] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lu'lin",
+			["source"] = "Lei Shen",
 		},
 	},
 }

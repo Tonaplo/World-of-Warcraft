@@ -1,31 +1,52 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
-		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
-		["Rahran - Icecrown"] = "Rahran - Icecrown",
-		["Weston - Icecrown"] = "Weston - Icecrown",
-		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
+		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
+		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "Praerend - Icecrown",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
-		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
+		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
+		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
+		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Korugen - Icecrown"] = "Korugen - Icecrown",
+		["Weston - Icecrown"] = "Weston - Icecrown",
+		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
+		["Beathe - Frostwolf"] = "Beathe - Frostwolf",
+		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
+		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
-		["Mallusof - Icecrown"] = {
+		["Luugo - Frostwolf"] = {
 		},
-		["Rahran - Icecrown"] = {
+		["Miriyal - Icecrown"] = {
 		},
-		["Weston - Icecrown"] = {
-		},
-		["Kaldorath - Icecrown"] = {
+		["Farahn - Icecrown"] = {
 		},
 		["Praerend - Icecrown"] = {
 		},
 		["Zearthan - Icecrown"] = {
 		},
-		["Miriyal - Icecrown"] = {
+		["Tyindel - Frostwolf"] = {
 		},
 		["Greybone - Icecrown"] = {
+		},
+		["Kaldorath - Icecrown"] = {
+		},
+		["Rahran - Icecrown"] = {
+		},
+		["Korugen - Icecrown"] = {
+		},
+		["Weston - Icecrown"] = {
+		},
+		["Fandagny - Frostwolf"] = {
+		},
+		["Beathe - Frostwolf"] = {
+		},
+		["Alianalen - Frostwolf"] = {
+		},
+		["Mallusof - Icecrown"] = {
 		},
 	},
 }
