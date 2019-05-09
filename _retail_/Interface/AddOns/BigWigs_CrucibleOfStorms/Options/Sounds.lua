@@ -27,7 +27,7 @@ BigWigs:AddSounds("Uu'nat, Harbinger of the Void", {
 	[285307] = "alert",
 	[285345] = "alarm",
 	[285376] = "long",
-	[285416] = "warning",
+	[285416] = "alert",
 	[285427] = {"alert","long"},
 	[285453] = "warning",
 	[285562] = "alarm",

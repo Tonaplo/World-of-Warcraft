@@ -1,446 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i but great runs", -- [1]
-		"/i super gg", -- [2]
-		"/i thanks!", -- [3]
-		"/macro", -- [4]
-		"/i hey guys", -- [5]
-		"/i Heals", -- [6]
-		"/i you good with big pulls?", -- [7]
-		"/i Chant?", -- [8]
-		"/i I guess not, lol", -- [9]
-		"/i sec", -- [10]
-		"/i br", -- [11]
-		"/i sorry about that", -- [12]
-		"/i I mean", -- [13]
-		"/i Heals can handle it", -- [14]
-		"/i and DPS is good", -- [15]
-		"/i so why not ;)", -- [16]
-		"/i excellent run guys!", -- [17]
-		"/i I gtg though", -- [18]
-		"/i have fun! :)", -- [19]
-		"/wa", -- [20]
+		"/cw Getterrobo Hey, could you invite me to guild? :)", -- [1]
+		"/cw Getterrobo My main is Malluso there", -- [2]
+		"/cw Getterrobo-Icecrown Ahh ok", -- [3]
+		"/cw Getterrobo-Icecrown No worries :)", -- [4]
+		"/cw Getterrobo-Icecrown Nps! :)", -- [5]
+		"/i hey guys", -- [6]
+		"/i You ok with big pulls?", -- [7]
+		"/i For extra Exp", -- [8]
+		"/i Rennal?", -- [9]
+		"/i Want the heals to be in", -- [10]
+		"/i excellent", -- [11]
+		"/i Holy shit, Quemuel", -- [12]
+		"/i I can barely keep threat lol", -- [13]
+		"/i alright", -- [14]
+		"/i big one", -- [15]
+		"/i excellent group", -- [16]
+		"/i very nice", -- [17]
+		"/i have a good one! :)", -- [18]
+		"/wave", -- [19]
+		"/who furious", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"hello", -- [1]
-			"Beary-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Beary-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1123, -- [11]
-			"Player-5-0AC6D39C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Beary-Proudmoore|r",
-			[51] = 1556865676,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [1]
-		{
-			"  :)", -- [1]
-			"Arcainum-Muradin", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arcainum-Muradin", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1126, -- [11]
-			"Player-1182-043A5605", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Arcainum-Muradin|r",
-			[51] = 1556865684,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"TAKE EVERYTHING", -- [1]
-			"Arcainum-Muradin", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arcainum-Muradin", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1175, -- [11]
-			"Player-1182-043A5605", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Arcainum-Muradin|r",
-			[51] = 1556865788,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"caps   sry", -- [1]
-			"Arcainum-Muradin", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arcainum-Muradin", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1177, -- [11]
-			"Player-1182-043A5605", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Arcainum-Muradin|r",
-			[51] = 1556865799,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"gotta take care of that rupture", -- [1]
-			"Greybone-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Greybone-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			127, -- [11]
-			"Player-104-0A10F32D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Greybone|r",
-			[51] = 1557007034,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [5]
-		{
-			"hey", -- [1]
-			"Greybone-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Greybone-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			308, -- [11]
-			"Player-104-0A10F32D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Greybone|r",
-			[51] = 1557007584,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"yall know how to do this?", -- [1]
-			"Greybone-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Greybone-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			309, -- [11]
-			"Player-104-0A10F32D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Greybone|r",
-			[51] = 1557007592,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"teach me the ways", -- [1]
-			"Reanie-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Reanie-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			311, -- [11]
-			"Player-76-0A1AB21B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Reanie-Sargeras|r",
-			[51] = 1557007609,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"i just put the soul stone on the preist should of done the tank..", -- [1]
-			"Roldent-Uther", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Roldent-Uther", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			313, -- [11]
-			"Player-151-0818A3E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRoldent-Uther|r",
-			[51] = 1557007615,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"lol", -- [1]
-			"Reanie-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Reanie-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			317, -- [11]
-			"Player-76-0A1AB21B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Reanie-Sargeras|r",
-			[51] = 1557007645,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"lolol", -- [1]
-			"Reanie-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Reanie-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			321, -- [11]
-			"Player-76-0A1AB21B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Reanie-Sargeras|r",
-			[51] = 1557007658,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"Rol", -- [1]
-			"Greybone-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Greybone-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			322, -- [11]
-			"Player-104-0A10F32D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Greybone|r",
-			[51] = 1557007667,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"nice", -- [1]
-			"Crushemm-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Crushemm-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			331, -- [11]
-			"Player-76-092E295A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeCrushemm-Sargeras|r",
-			[51] = 1557007707,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [13]
-		{
-			"When you're MC''d", -- [1]
-			"Roldent-Uther", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Roldent-Uther", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			332, -- [11]
-			"Player-151-0818A3E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRoldent-Uther|r",
-			[51] = 1557007710,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [14]
-		{
-			"you're supposed to run into the orbs", -- [1]
-			"Roldent-Uther", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Roldent-Uther", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"Player-151-0818A3E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRoldent-Uther|r",
-			[51] = 1557007715,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"After you've run into all of them, you've no longer MC'd", -- [1]
-			"Roldent-Uther", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Roldent-Uther", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			337, -- [11]
-			"Player-151-0818A3E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRoldent-Uther|r",
-			[51] = 1557007730,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [16]
-		{
-			"okay ty", -- [1]
-			"Roldent-Uther", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Roldent-Uther", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			342, -- [11]
-			"Player-151-0818A3E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRoldent-Uther|r",
-			[51] = 1557007769,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [17]
-		{
-			"Welcome to ask if you have other quesions  ;)", -- [1]
-			"Roldent-Uther", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Roldent-Uther", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-151-0818A3E2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRoldent-Uther|r",
-			[51] = 1557007770,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [18]
-		{
-			"should probably tank them on land", -- [1]
-			"Reanie-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Reanie-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			352, -- [11]
-			"Player-76-0A1AB21B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Reanie-Sargeras|r",
-			[51] = 1557007813,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
 		{
 			"yeah", -- [1]
 			"Roldent-Uther", -- [2]
@@ -462,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRoldent-Uther|r",
 			[51] = 1557007820,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [20]
+		}, -- [1]
 		{
 			"yeah", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -484,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557007823,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [2]
 		{
 			"void walker was tanking", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -506,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557007826,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [3]
 		{
 			"was trying to get aggro, lol", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -528,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557007832,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [4]
 		{
 			"ah", -- [1]
 			"Reanie-Sargeras", -- [2]
@@ -550,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Reanie-Sargeras|r",
 			[51] = 1557007832,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [5]
 		{
 			"lol", -- [1]
 			"Reanie-Sargeras", -- [2]
@@ -572,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Reanie-Sargeras|r",
 			[51] = 1557007834,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
+		}, -- [6]
 		{
 			"gg :)", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -594,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557007980,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+		}, -- [7]
 		{
 			"have a good one", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -616,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557007982,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [8]
 		{
 			"we need to finish the group behind us", -- [1]
 			"Tirian-Muradin", -- [2]
@@ -638,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Tirian-Muradin|r",
 			[51] = 1557008185,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [9]
 		{
 			"Freehold!", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -660,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008190,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [10]
 		{
 			"Yay!", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -682,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008192,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [11]
 		{
 			"nono", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -704,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008204,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [12]
 		{
 			"its the vulpera week", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -726,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008207,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [13]
 		{
 			"we all just need to talk to this one", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -748,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008212,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [14]
 		{
 			"there", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -770,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008220,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [15]
 		{
 			"gj all", -- [1]
 			"Tirian-Muradin", -- [2]
@@ -792,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Tirian-Muradin|r",
 			[51] = 1557008226,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [16]
 		{
 			"everyone hash been drunk with a Vulpera", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -814,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008226,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [17]
 		{
 			"now we're good", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -836,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008230,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [18]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -858,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008375,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [19]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -880,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008375,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [20]
 		{
 			"very nice guys :)", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -902,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008414,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [21]
 		{
 			"gj all", -- [1]
 			"Tirian-Muradin", -- [2]
@@ -924,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Tirian-Muradin|r",
 			[51] = 1557008501,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [22]
 		{
 			"More/", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -946,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008850,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [23]
 		{
 			"?", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -968,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557008852,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [24]
 		{
 			"Unstable Runic Mark on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -990,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009039,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [25]
 		{
 			"3", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1012,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009042,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [26]
 		{
 			"2", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1034,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009043,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [27]
 		{
 			"1", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1056,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009044,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [28]
 		{
 			"need mana break?", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1078,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009082,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [29]
 		{
 			"?", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1100,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009095,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [30]
 		{
 			"nah", -- [1]
 			"Luminumbra-Fenris", -- [2]
@@ -1122,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLuminumbra-Fenris|r",
 			[51] = 1557009096,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [50]
+		}, -- [31]
 		{
 			"just need to start using  solace", -- [1]
 			"Luminumbra-Fenris", -- [2]
@@ -1144,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLuminumbra-Fenris|r",
 			[51] = 1557009106,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [51]
+		}, -- [32]
 		{
 			"lol", -- [1]
 			"Luminumbra-Fenris", -- [2]
@@ -1166,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLuminumbra-Fenris|r",
 			[51] = 1557009108,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [52]
+		}, -- [33]
 		{
 			"Dread Mark on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1188,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009540,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [34]
 		{
 			"3", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1210,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009543,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [35]
 		{
 			"2", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1232,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009544,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [36]
 		{
 			"1", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1254,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009545,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [37]
 		{
 			"let me know witht hat mana", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1276,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009570,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [38]
 		{
 			"I mean", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1298,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009596,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [39]
 		{
 			"I lvoe you", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1320,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009597,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [40]
 		{
 			"but I'm scared about 5 %", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1342,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009604,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [41]
 		{
 			"lol", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1364,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009605,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [42]
 		{
 			"awesome guys", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1386,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009837,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [43]
 		{
 			"I unfortunately have to go", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1408,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009845,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [44]
 		{
 			"but great runs", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1430,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009849,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [45]
 		{
 			"ty gg", -- [1]
 			"Luminumbra-Fenris", -- [2]
@@ -1452,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLuminumbra-Fenris|r",
 			[51] = 1557009850,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [65]
+		}, -- [46]
 		{
 			"super gg", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1474,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009853,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [47]
 		{
 			"have fun! :)", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1496,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009855,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [48]
 		{
 			"thanks!", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1518,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557009859,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [49]
 		{
 			"hey guys", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1540,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557035421,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [69]
+		}, -- [50]
 		{
 			"Heals", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1562,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557035424,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [70]
+		}, -- [51]
 		{
 			"you good with big pulls?", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1584,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557035427,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [71]
+		}, -- [52]
 		{
 			"Chant?", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1606,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557035430,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [72]
+		}, -- [53]
 		{
 			"after boss can i get mage food", -- [1]
 			"Chânt-Stormrage", -- [2]
@@ -1628,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Chânt-Stormrage|r",
 			[51] = 1557035628,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [54]
 		{
 			"I guess not, lol", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1650,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557035726,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [74]
+		}, -- [55]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1672,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557035940,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [56]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1694,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557035951,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [57]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1716,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036112,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [58]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1738,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036137,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [59]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1760,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036137,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [60]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1782,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036192,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [61]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1804,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036193,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [62]
 		{
 			"Ricocheting Throw on Greybone", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1826,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036227,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [63]
 		{
 			"sec", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1848,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036249,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [83]
+		}, -- [64]
 		{
 			"br", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1870,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036252,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [84]
+		}, -- [65]
 		{
 			"sorry about that", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1892,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036309,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [85]
+		}, -- [66]
 		{
 			"?", -- [1]
 			"Rethilgwen-Dath'Remar", -- [2]
@@ -1914,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rethilgwen-Dath'Remar|r",
 			[51] = 1557036347,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [67]
 		{
 			"jesus", -- [1]
 			"Sneakyblades-Medivh", -- [2]
@@ -1936,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sneakyblades-Medivh|r",
 			[51] = 1557036349,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [68]
 		{
 			"I mean", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1958,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036412,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [69]
 		{
 			"Heals can handle it", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -1980,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036415,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [89]
+		}, -- [70]
 		{
 			"and DPS is good", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -2002,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036417,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [90]
+		}, -- [71]
 		{
 			"so why not ;)", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -2024,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036421,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [91]
+		}, -- [72]
 		{
 			"ty", -- [1]
 			"Chânt-Stormrage", -- [2]
@@ -2046,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Chânt-Stormrage|r",
 			[51] = 1557036704,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [73]
 		{
 			"excellent run guys!", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -2068,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036707,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [93]
+		}, -- [74]
 		{
 			"I gtg though", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -2090,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036711,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [94]
+		}, -- [75]
 		{
 			"have fun! :)", -- [1]
 			"Greybone-Icecrown", -- [2]
@@ -2112,6 +1694,1128 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Greybone|r",
 			[51] = 1557036713,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [76]
+		{
+			"sorry", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378261,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [77]
+		{
+			"Was on a transport", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			77, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378273,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"alreight", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			83, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378284,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [79]
+		{
+			"ready?", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			84, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378285,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"shout pelase \"_", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			145, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378412,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"please", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			146, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378413,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [82]
+		{
+			"dont", -- [1]
+			"Meeshem-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Meeshem-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			168, -- [11]
+			"Player-5-0B4BC21B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMeeshem-Proudmoore|r",
+			[51] = 1557378487,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [83]
+		{
+			"pull that", -- [1]
+			"Meeshem-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Meeshem-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			169, -- [11]
+			"Player-5-0B4BC21B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMeeshem-Proudmoore|r",
+			[51] = 1557378488,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [84]
+		{
+			"no reason to", -- [1]
+			"Meeshem-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Meeshem-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			170, -- [11]
+			"Player-5-0B4BC21B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMeeshem-Proudmoore|r",
+			[51] = 1557378492,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [85]
+		{
+			"just run across the bridge", -- [1]
+			"Meeshem-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Meeshem-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			171, -- [11]
+			"Player-5-0B4BC21B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMeeshem-Proudmoore|r",
+			[51] = 1557378501,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [86]
+		{
+			"I was just following tank xD", -- [1]
+			"Balstir-Arthas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Balstir-Arthas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			172, -- [11]
+			"Player-69-0C08DF0F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Balstir-Arthas|r",
+			[51] = 1557378505,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"more CXP", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			176, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378511,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [88]
+		{
+			"you don't have to pull everything...", -- [1]
+			"Skeidvald-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Skeidvald-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			177, -- [11]
+			"Player-76-0A14B481", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Skeidvald-Sargeras|r",
+			[51] = 1557378512,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [89]
+		{
+			"to kill this", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			178, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378513,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"lol we wont live that", -- [1]
+			"Meeshem-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Meeshem-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			180, -- [11]
+			"Player-5-0B4BC21B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMeeshem-Proudmoore|r",
+			[51] = 1557378519,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [91]
+		{
+			"we will", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			181, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378523,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [92]
+		{
+			"if you'd heal me", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			183, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378525,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [93]
+		{
+			"but ok", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			184, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378531,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [94]
+		{
+			"you don't have to pull everything", -- [1]
+			"Skeidvald-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Skeidvald-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			185, -- [11]
+			"Player-76-0A14B481", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Skeidvald-Sargeras|r",
+			[51] = 1557378532,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [95]
+		{
+			"I dont HAVE to to", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			189, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378544,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"but it's more fun", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			190, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378546,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [97]
+		{
+			"and more XP", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			191, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378548,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [98]
+		{
+			"X P", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			192, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557378551,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [99]
+		{
+			"HAHAHAHAH", -- [1]
+			"Skeidvald-Sargeras", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Skeidvald-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			197, -- [11]
+			"Player-76-0A14B481", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Skeidvald-Sargeras|r",
+			[51] = 1557378586,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [100]
+		{
+			"That's hilarious", -- [1]
+			"Skeidvald-Sargeras", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Skeidvald-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			198, -- [11]
+			"Player-76-0A14B481", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Skeidvald-Sargeras|r",
+			[51] = 1557378592,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [101]
+		{
+			"lol, that was terrible", -- [1]
+			"Skeidvald-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Skeidvald-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			199, -- [11]
+			"Player-76-0A14B481", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Skeidvald-Sargeras|r",
+			[51] = 1557378596,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [102]
+		{
+			"Hey, could you invite me to guild? :)", -- [1]
+			"Getterrobo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Getterrobo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			219, -- [11]
+			"Player-104-09CC3FDD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecGetterrobo|r",
+			[51] = 1557378655,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [103]
+		{
+			"My main is Malluso there", -- [1]
+			"Getterrobo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Getterrobo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			222, -- [11]
+			"Player-104-09CC3FDD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecGetterrobo|r",
+			[51] = 1557378666,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [104]
+		{
+			"I dont think anyone that can invite is online", -- [1]
+			"Getterrobo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Getterrobo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			244, -- [11]
+			"Player-104-09CC3FDD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecGetterrobo|r",
+			[51] = 1557378783,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [105]
+		{
+			"Ahh ok", -- [1]
+			"Getterrobo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Getterrobo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			247, -- [11]
+			"Player-104-09CC3FDD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecGetterrobo|r",
+			[51] = 1557378789,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [106]
+		{
+			"No worries :)", -- [1]
+			"Getterrobo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Getterrobo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			248, -- [11]
+			"Player-104-09CC3FDD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecGetterrobo|r",
+			[51] = 1557378791,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [107]
+		{
+			"sorry", -- [1]
+			"Getterrobo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Getterrobo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			250, -- [11]
+			"Player-104-09CC3FDD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecGetterrobo|r",
+			[51] = 1557378794,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [108]
+		{
+			"Nps! :)", -- [1]
+			"Getterrobo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Getterrobo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			251, -- [11]
+			"Player-104-09CC3FDD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecGetterrobo|r",
+			[51] = 1557378798,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [109]
+		{
+			"hey guys", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379150,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [110]
+		{
+			"You ok with big pulls?", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			357, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379154,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [111]
+		{
+			"do your thing pew pew pew", -- [1]
+			"Dink-Onyxia", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dink-Onyxia", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			358, -- [11]
+			"Player-91-0A46708C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Dink-Onyxia|r",
+			[51] = 1557379161,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [112]
+		{
+			"For extra Exp", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			359, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379162,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [113]
+		{
+			"Rennal?", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			360, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379169,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [114]
+		{
+			"Want the heals to be in", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			361, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379173,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [115]
+		{
+			"sure", -- [1]
+			"Rennai-Stormreaver", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rennai-Stormreaver", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			362, -- [11]
+			"Player-58-088D33E5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcRennai-Stormreaver|r",
+			[51] = 1557379177,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [116]
+		{
+			"excellent", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379180,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [117]
+		{
+			"Holy shit, Quemuel", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			430, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379271,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [118]
+		{
+			"I can barely keep threat lol", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			432, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379281,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [119]
+		{
+			"alright", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			444, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379313,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [120]
+		{
+			"big one", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			445, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557379314,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [121]
+		{
+			"oops my bad", -- [1]
+			"Dink-Onyxia", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dink-Onyxia", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			506, -- [11]
+			"Player-91-0A46708C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Dink-Onyxia|r",
+			[51] = 1557379430,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [122]
+		{
+			"excellent group", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			715, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557380020,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [123]
+		{
+			"very nice", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			716, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557380022,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [124]
+		{
+			"ty folks.", -- [1]
+			"Dink-Onyxia", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dink-Onyxia", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			719, -- [11]
+			"Player-91-0A46708C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Dink-Onyxia|r",
+			[51] = 1557380032,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [125]
+		{
+			"have a good one! :)", -- [1]
+			"Greybone-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greybone-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			720, -- [11]
+			"Player-104-0A10F32D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Greybone|r",
+			[51] = 1557380042,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [126]
+		{
+			"humps evilways", -- [1]
+			"Likmydic-Gilneas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Likmydic-Gilneas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			782, -- [11]
+			"Player-67-0B45ACCF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcLikmydic-Gilneas|r",
+			[51] = 1557380311,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [127]
 	},
 }

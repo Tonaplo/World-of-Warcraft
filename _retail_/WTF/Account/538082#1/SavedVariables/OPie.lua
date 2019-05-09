@@ -542,32 +542,32 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
-					["caption"] = "Travel",
 					["id"] = "/click ORLOpen SpecMenu",
+					["caption"] = "Travel",
 					["icon"] = 134414,
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
-					["caption"] = "Trade Skills",
 					["id"] = "/click ORLOpen CommonTrades",
+					["caption"] = "Trade Skills",
 					["icon"] = 134707,
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
-					["caption"] = "Macros",
 					["id"] = "/click ORLOpen Macros",
+					["caption"] = "Macros",
 					["icon"] = 1505928,
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
-					["caption"] = "Consumables",
 					["id"] = "/click ORLOpen onsumables",
+					["caption"] = "Consumables",
 					["icon"] = 134055,
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
-					["caption"] = "Class Abilities",
 					["id"] = "/click ORLOpen tAbilities",
+					["caption"] = "Class Abilities",
 					["icon"] = 132147,
 				}, -- [5]
 				{
@@ -602,14 +602,14 @@ OneRing_Config = {
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
-					["caption"] = "Back",
 					["id"] = "/click ORLOpen Base",
+					["caption"] = "Back",
 					["icon"] = 1339449,
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
-					["caption"] = "Exorsus Raid Tools",
 					["id"] = "/rt",
+					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
 				}, -- [6]
 				{

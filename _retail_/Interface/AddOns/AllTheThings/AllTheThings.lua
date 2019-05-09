@@ -9172,9 +9172,8 @@ app:GetWindow("Unsorted");
 		UpdateWindow(self, true);
 	end);
 end)();
-
-		-- Uncomment this section if you need to enable Debugger:
 --[[
+		-- Uncomment this section if you need to enable Debugger:
 app:GetWindow("Debugger", UIParent, function(self)
 	if not self.initialized then
 		self.initialized = true;
@@ -9317,7 +9316,7 @@ app:GetWindow("Debugger", UIParent, function(self)
 									local searchResults = SearchForField("itemID", m);
 									if searchResults and #searchResults > 0 then
 										for j,k in ipairs(searchResults) do
-											if (k.parent and k.parent.creatureID == npc_id) or (k.parent.parent and k.parent.parent.creatureID == npc_id) then
+											if k.parent and (k.parent.creatureID == npc_id or (k.parent.parent and k.parent.parent.creatureID == npc_id)) then
 												found = true;
 											end
 										end
@@ -9500,6 +9499,8 @@ app:GetWindow("Debugger", UIParent, function(self)
 	end
 	self.data.index = 0;
 	self.data.back = 1;
+	self.data.indent = 0;
+	BuildGroups(self.data, self.data.g);
 	UpdateWindow(self, true);
 end):Show();
 --]]--

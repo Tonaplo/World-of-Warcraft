@@ -130,8 +130,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTt",
 				}, -- [1]
 				{
-					["sliceToken"] = "OPCCTl",
 					["id"] = "/cast {{spell:2108/51302}}",
+					["sliceToken"] = "OPCCTl",
 				}, -- [2]
 				{
 					["id"] = "/cast {{spell:2018/51300}}",
@@ -236,16 +236,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABueaz9T4ae",
 				}, -- [7]
 				{
-					["id"] = 229417,
 					["sliceToken"] = "ABuea5g/T6e",
+					["id"] = 229417,
 				}, -- [8]
 				{
 					["id"] = 229386,
 					["sliceToken"] = "ABuea5k9m/e",
 				}, -- [9]
 				{
-					["sliceToken"] = "ABuea5PhMXe",
 					["id"] = 229385,
+					["sliceToken"] = "ABuea5PhMXe",
 				}, -- [10]
 				{
 					["id"] = 232412,
@@ -452,32 +452,32 @@ OneRing_Config = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
 					["caption"] = "Travel",
-					["id"] = "/click ORLOpen SpecMenu",
 					["icon"] = 134414,
+					["id"] = "/click ORLOpen SpecMenu",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
 					["caption"] = "Trade Skills",
-					["id"] = "/click ORLOpen CommonTrades",
 					["icon"] = 134707,
+					["id"] = "/click ORLOpen CommonTrades",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
 					["caption"] = "Macros",
-					["id"] = "/click ORLOpen Macros",
 					["icon"] = 1505928,
+					["id"] = "/click ORLOpen Macros",
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
 					["caption"] = "Consumables",
-					["id"] = "/click ORLOpen onsumables",
 					["icon"] = 134055,
+					["id"] = "/click ORLOpen onsumables",
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
 					["caption"] = "Class Abilities",
-					["id"] = "/click ORLOpen tAbilities",
 					["icon"] = 132147,
+					["id"] = "/click ORLOpen tAbilities",
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep5oDlq5",
@@ -614,8 +614,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABue3Hxl4re",
 				}, -- [30]
 				{
-					["id"] = 58984,
 					["sliceToken"] = "ABue3/fH9De",
+					["id"] = 58984,
 				}, -- [31]
 				["name"] = "Abilities",
 				["save"] = true,

@@ -1,1678 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i there", -- [1]
-		"/i oh my god", -- [2]
-		"/i lets do that again", -- [3]
-		"/i lol", -- [4]
-		"/i And you can totally handle it", -- [5]
-		"/i I love it", -- [6]
-		"/i + the super DPS", -- [7]
-		"/i I'll just pull trash into the bosses more", -- [8]
-		"/i interrupts", -- [9]
-		"/i medning rapids", -- [10]
-		"/i yay!", -- [11]
-		"/i haha", -- [12]
-		"/i brez", -- [13]
-		"/i Dora", -- [14]
-		"/i yuck", -- [15]
-		"/i Shrine", -- [16]
-		"/i I gtg though", -- [17]
-		"/i thanks for the good runs: !)", -- [18]
-		"/i havea  good one ! :)", -- [19]
-		"/i you too :)", -- [20]
+		"/i forgot to talk to dude", -- [1]
+		"/i all talk ot vulpera", -- [2]
+		"/i excellent", -- [3]
+		"/i I know :)", -- [4]
+		"/i excellent! :)", -- [5]
+		"/i yeah, I freehold is awesome :P", -- [6]
+		"/i oh no", -- [7]
+		"/i Shrine", -- [8]
+		"/i all here again, good; )", -- [9]
+		"/i )", -- [10]
+		"/i :)", -- [11]
+		"/i Azerite Chestpiece!", -- [12]
+		"/i Let's go!", -- [13]
+		"/i got left", -- [14]
+		"/i hero", -- [15]
+		"/i that works!", -- [16]
+		"/i Lol", -- [17]
+		"/i Out of rested XP", -- [18]
+		"/i Thanks for the runs guys :)", -- [19]
+		"/i take care", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"knockback", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			321, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026019,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [1]
-		{
-			"that's the knockback", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			322, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026025,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [2]
-		{
-			"right", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			325, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026055,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [3]
-		{
-			"dispelling the debuff makes the cricles I think", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			326, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026062,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [4]
-		{
-			"stand in circles", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			337, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026083,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [5]
-		{
-			"they give haste or damage reduction", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			346, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026095,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [6]
-		{
-			"this one is haste", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			348, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026101,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [7]
-		{
-			"dmg reduc* is next one", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			351, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026124,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"stand in it with carve flesh", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			356, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026129,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"these fixate", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			361, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026139,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [10]
-		{
-			"you can pull more btw", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			363, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026141,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"and hurt ALOT", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			364, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026141,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [12]
-		{
-			"not really its normal", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			366, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026149,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"well yeah", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			367, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026153,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [14]
-		{
-			"not on normal >P", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			368, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026155,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [15]
-		{
-			"might as well explain mechanics tho", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			380, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026185,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [16]
-		{
-			"oh yeah", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			381, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026188,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [17]
-		{
-			"if you get Carve", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			382, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026190,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [18]
-		{
-			"stand in circle", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			383, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026193,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [19]
-		{
-			"stand... close to elemental?", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			390, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026236,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [20]
-		{
-			"I think it is?", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			391, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026238,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [21]
-		{
-			"durignt his", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			392, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026255,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [22]
-		{
-			"ok those circles", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			439, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026303,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [23]
-		{
-			"are on this boss", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			440, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026309,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
-		{
-			"her first", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			445, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026324,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
-		{
-			"interupts unending darkness", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			470, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026424,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [26]
-		{
-			"it's the super amount of circles", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			476, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026433,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [27]
-		{
-			"hentai", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			491, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026494,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [28]
-		{
-			"I never understood this", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			505, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026532,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [29]
-		{
-			"next boss", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			519, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026594,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [30]
-		{
-			"if you get hostile", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			521, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026598,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [31]
-		{
-			"run into the orbs", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			523, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026602,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
-		{
-			"mage", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			561, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026657,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
-		{
-			"pres", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			562, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026658,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
-		{
-			"timewarp here", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			563, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026661,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
-		{
-			"plz", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			564, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026662,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
-		{
-			"ight ", -- [1]
-			"Acy-Lightning'sBlade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Acy-Lightning'sBlade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			566, -- [11]
-			"Player-91-07FA9F8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Acy-Lightning'sBlade|r",
-			[51] = 1557026665,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
-		{
-			"excellent", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			571, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026698,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [38]
-		{
-			"nice!", -- [1]
-			"Acy-Lightning'sBlade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Acy-Lightning'sBlade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			576, -- [11]
-			"Player-91-07FA9F8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Acy-Lightning'sBlade|r",
-			[51] = 1557026716,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
-		{
-			"hmm", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			577, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026718,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [40]
-		{
-			"it's supposed to break", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			580, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026722,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [41]
-		{
-			"after you soak orbs lo", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			582, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026729,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [42]
-		{
-			"noral", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			584, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026732,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
-		{
-			"yeah", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			586, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026739,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [44]
-		{
-			"normal have to dps him too", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			587, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026739,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
-		{
-			"normal", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			588, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026741,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [46]
-		{
-			"ahh ok", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			589, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026744,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [47]
-		{
-			"interupt consume essence", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			590, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026753,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
-		{
-			"doesnt do enoguh dmg to break", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			591, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026755,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
-		{
-			"but only when it's about to go off", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			592, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026760,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [50]
-		{
-			"and not everyone at once", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			595, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026772,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
-		{
-			"I got the left one", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			599, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026787,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [52]
-		{
-			"same thing in pshae 2 of boss", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			628, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026836,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [53]
-		{
-			"watch for tentacle slas too", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			630, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026842,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [54]
-		{
-			"slams", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			633, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026845,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [55]
-		{
-			"itnerrupt", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			636, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026902,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [56]
-		{
-			"excellent job guys", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			655, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026931,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [57]
-		{
-			"nice!", -- [1]
-			"Acy-Lightning'sBlade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Acy-Lightning'sBlade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			657, -- [11]
-			"Player-91-07FA9F8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Acy-Lightning'sBlade|r",
-			[51] = 1557026935,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
-		{
-			"another?", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			658, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026943,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [59]
-		{
-			"i need to hand in quest", -- [1]
-			"Acy-Lightning'sBlade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Acy-Lightning'sBlade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			667, -- [11]
-			"Player-91-07FA9F8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Acy-Lightning'sBlade|r",
-			[51] = 1557026955,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
-		{
-			"no worries :)", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026962,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [61]
-		{
-			"yea but i want you to pull bigger", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			674, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026978,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
-		{
-			"yeah, I'll pull bigger", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			676, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026988,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [63]
-		{
-			"like go fast ya feel me", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			677, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557026988,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
-		{
-			"I do", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			679, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557026997,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [65]
-		{
-			"just wanted to be nice to the new guy", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			680, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557027002,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [66]
-		{
-			"explain stuff ;)", -- [1]
-			"Kaldorath-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kaldorath-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			681, -- [11]
-			"Player-104-0A10F167", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Kaldorath|r",
-			[51] = 1557027008,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [67]
-		{
-			"yea ik'", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			682, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557027015,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
-		{
-			"Details!: Overall Damage Done for -- x -- x -- [14:27 EF]", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			684, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557027024,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
-		{
-			"1. Kaldorath ...... 3.40M (3.9k, 28.2%)", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			685, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557027024,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
-		{
-			"2. Acy ................ 3.00M (3.5k, 24.9%)", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			686, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557027024,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
-		{
-			"3. Dråe ............... 2.30M (2.6k, 19.1%)", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			687, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557027024,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
-		{
-			"4. Dieforme ....... 2.00M (2.3k, 16.6%)", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			688, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557027024,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
-		{
-			"5. Miancah ........ 1.35M (1.6k, 11.2%)", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			689, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557027025,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
-		{
-			"i literally had nothing to heal", -- [1]
-			"Miancah-DarkIron", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miancah-DarkIron", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			690, -- [11]
-			"Player-157-0891797B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Miancah-DarkIron|r",
-			[51] = 1557027031,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
 		{
 			"lol", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1694,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027035,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [76]
+		}, -- [1]
 		{
 			"so i dpsed", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -1716,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557027039,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [2]
 		{
 			"lol", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -1738,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557027040,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [3]
 		{
 			"hope it's Freehold!", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1760,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027052,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [79]
+		}, -- [4]
 		{
 			" :P", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1782,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027053,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [80]
+		}, -- [5]
 		{
 			"ez money", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -1804,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557027056,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [6]
 		{
 			"LOL", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1826,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027074,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [82]
+		}, -- [7]
 		{
 			"lol", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -1848,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557027078,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [8]
 		{
 			"let's go buddy!", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1870,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027079,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [84]
+		}, -- [9]
 		{
 			"talk to vulpera ...hic!", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1892,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027533,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [85]
+		}, -- [10]
 		{
 			"everyone", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1914,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027543,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [86]
+		}, -- [11]
 		{
 			"here", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1936,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027547,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [87]
+		}, -- [12]
 		{
 			"there", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1958,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027564,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [13]
 		{
 			"Ricocheting Throw on Kaldorath", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -1980,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027757,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [14]
 		{
 			"Ricocheting Throw on Kaldorath", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2002,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027758,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [15]
 		{
 			"Ricocheting Throw on Kaldorath", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2024,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027863,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [16]
 		{
 			"Ricocheting Throw on Kaldorath", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2046,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557027864,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [17]
 		{
 			"oh my god", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2068,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028184,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [93]
+		}, -- [18]
 		{
 			"lets do that again", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2090,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028188,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [94]
+		}, -- [19]
 		{
 			"nice pulling.. this is mythic + 19 right?", -- [1]
 			"Dora-Thunderlord", -- [2]
@@ -2112,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dora-Thunderlord|r",
 			[51] = 1557028295,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [20]
 		{
 			"meh", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -2134,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557028302,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [21]
 		{
 			"lol", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2156,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028305,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [97]
+		}, -- [22]
 		{
 			"i told him to pull bigger", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -2178,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557028308,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [23]
 		{
 			"And you can totally handle it", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2200,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028320,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [99]
+		}, -- [24]
 		{
 			"I love it", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2222,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028322,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [100]
+		}, -- [25]
 		{
 			"wish we had a hero for bosses", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -2244,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557028323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [101]
+		}, -- [26]
 		{
 			"+ the super DPS", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2266,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028325,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [102]
+		}, -- [27]
 		{
 			"yah i need more mobs for higher dpeeps pls", -- [1]
 			"Dora-Thunderlord", -- [2]
@@ -2288,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dora-Thunderlord|r",
 			[51] = 1557028327,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
+		}, -- [28]
 		{
 			"I'll just pull trash into the bosses more", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2310,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028352,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [104]
+		}, -- [29]
 		{
 			"rip", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -2332,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557028368,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [30]
 		{
 			"fucking shrine", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -2354,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557028372,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [31]
 		{
 			"interrupts", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2376,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028479,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [107]
+		}, -- [32]
 		{
 			"5 secs for mine", -- [1]
 			"Dora-Thunderlord", -- [2]
@@ -2398,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dora-Thunderlord|r",
 			[51] = 1557028489,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [108]
+		}, -- [33]
 		{
 			"medning rapids", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2420,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028517,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [109]
+		}, -- [34]
 		{
 			"les jsut wipe it", -- [1]
 			"Dora-Thunderlord", -- [2]
@@ -2442,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dora-Thunderlord|r",
 			[51] = 1557028549,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [110]
+		}, -- [35]
 		{
 			"lol why", -- [1]
 			"Hurtlockur-Lightbringer", -- [2]
@@ -2464,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hurtlockur-Lightbringer|r",
 			[51] = 1557028574,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [111]
+		}, -- [36]
 		{
 			"yay!", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2486,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557028627,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [112]
+		}, -- [37]
 		{
 			"gotta stand in rune for carve flesh hombre", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -2508,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557028953,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [113]
+		}, -- [38]
 		{
 			"that jacked up my tempo :-)", -- [1]
 			"Hurtlockur-Lightbringer", -- [2]
@@ -2530,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hurtlockur-Lightbringer|r",
 			[51] = 1557029064,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [114]
+		}, -- [39]
 		{
 			"well fuck those guys :P", -- [1]
 			"Dora-Thunderlord", -- [2]
@@ -2552,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dora-Thunderlord|r",
 			[51] = 1557029078,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [115]
+		}, -- [40]
 		{
 			"haha", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2574,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029083,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [116]
+		}, -- [41]
 		{
 			"brez", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2596,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029697,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [117]
+		}, -- [42]
 		{
 			"Dora", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2618,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029700,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [118]
+		}, -- [43]
 		{
 			"kill adds", -- [1]
 			"Hurtlockur-Lightbringer", -- [2]
@@ -2640,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hurtlockur-Lightbringer|r",
 			[51] = 1557029704,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [119]
+		}, -- [44]
 		{
 			"rip debuff", -- [1]
 			"Miancah-DarkIron", -- [2]
@@ -2662,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Miancah-DarkIron|r",
 			[51] = 1557029705,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [45]
 		{
 			"yuck", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2684,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029824,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [121]
+		}, -- [46]
 		{
 			"Shrine", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2706,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029825,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [122]
+		}, -- [47]
 		{
 			"I gtg though", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2728,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029829,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [123]
+		}, -- [48]
 		{
 			"thanks for the good runs: !)", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2750,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029833,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [124]
+		}, -- [49]
 		{
 			"wp~", -- [1]
 			"Dora-Thunderlord", -- [2]
@@ -2772,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dora-Thunderlord|r",
 			[51] = 1557029848,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [50]
 		{
 			"havea  good one ! :)", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2794,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029850,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [126]
+		}, -- [51]
 		{
 			"you too :)", -- [1]
 			"Kaldorath-Icecrown", -- [2]
@@ -2815,6 +1165,1656 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cffa22fc8Kaldorath|r",
 			[51] = 1557029853,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [52]
+		{
+			"yay!", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204531,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [53]
+		{
+			"Freehold!", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204533,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [54]
+		{
+			"lol i need it for damn quest XD", -- [1]
+			"Veleiellin-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veleiellin-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"Player-60-0BFC4AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Veleiellin-Stormrage|r",
+			[51] = 1557204541,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [55]
+		{
+			"same", -- [1]
+			"Vanerhost-Darkspear", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanerhost-Darkspear", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-120-08AB397A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVanerhost-Darkspear|r",
+			[51] = 1557204547,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [56]
+		{
+			"whats so good about it", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			15, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557204548,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [57]
+		{
+			"Lit are you ready for big pulls?", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204549,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [58]
+		{
+			"les go", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			18, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557204553,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [59]
+		{
+			"omg", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204578,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [60]
+		{
+			"good group", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			34, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204580,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [61]
+		{
+			"yes", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			35, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204580,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [62]
+		{
+			"lol", -- [1]
+			"Veleiellin-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veleiellin-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			36, -- [11]
+			"Player-60-0BFC4AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Veleiellin-Stormrage|r",
+			[51] = 1557204584,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [63]
+		{
+			"very much so", -- [1]
+			"Veleiellin-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veleiellin-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			38, -- [11]
+			"Player-60-0BFC4AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Veleiellin-Stormrage|r",
+			[51] = 1557204588,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [64]
+		{
+			"wanna spam run some dungs?", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557204650,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [65]
+		{
+			"ohhhh yeah", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			66, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557204659,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [66]
+		{
+			"lets fuck em up", -- [1]
+			"Veleiellin-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veleiellin-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			77, -- [11]
+			"Player-60-0BFC4AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Veleiellin-Stormrage|r",
+			[51] = 1557204694,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [67]
+		{
+			"that's why YES Freehold", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			78, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557204696,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [68]
+		{
+			"was that pull needed?", -- [1]
+			"Veleiellin-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veleiellin-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			139, -- [11]
+			"Player-60-0BFC4AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Veleiellin-Stormrage|r",
+			[51] = 1557204834,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [69]
+		{
+			"nope", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			140, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204837,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [70]
+		{
+			"it's just more  XP", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			141, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204843,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [71]
+		{
+			"free xp", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			142, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557204844,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [72]
+		{
+			":)", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			143, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204844,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [73]
+		{
+			"that was lit", -- [1]
+			"Demonlyy-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Demonlyy-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			144, -- [11]
+			"Player-76-0A1B1001", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecDemonlyy-Sargeras|r",
+			[51] = 1557204844,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [74]
+		{
+			"af", -- [1]
+			"Demonlyy-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Demonlyy-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			145, -- [11]
+			"Player-76-0A1B1001", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecDemonlyy-Sargeras|r",
+			[51] = 1557204844,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [75]
+		{
+			"lol", -- [1]
+			"Veleiellin-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veleiellin-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			147, -- [11]
+			"Player-60-0BFC4AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Veleiellin-Stormrage|r",
+			[51] = 1557204848,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [76]
+		{
+			"Ricocheting Throw on Kaldorath", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			193, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204956,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [77]
+		{
+			"talk to the npc", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			205, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557204986,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"forgot to talk to dude", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			207, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557204993,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [79]
+		{
+			"all talk ot vulpera", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205000,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [80]
+		{
+			"there", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			216, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557205012,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"excellent", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			217, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205013,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [82]
+		{
+			"Ricocheting Throw on Kaldorath", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			266, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205136,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"Ricocheting Throw on Kaldorath", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			288, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205187,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [84]
+		{
+			"Ricocheting Throw on Kaldorath", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			289, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205187,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"lol there 1 more boss", -- [1]
+			"Veleiellin-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veleiellin-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			315, -- [11]
+			"Player-60-0BFC4AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Veleiellin-Stormrage|r",
+			[51] = 1557205297,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [86]
+		{
+			"Ricocheting Throw on Kaldorath", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			317, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205300,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"I know :)", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			318, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205305,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [88]
+		{
+			"Ricocheting Throw on Kaldorath", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			319, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205308,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"Shark Toss on Kaldorath", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205333,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"gg", -- [1]
+			"Veleiellin-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veleiellin-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			383, -- [11]
+			"Player-60-0BFC4AC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Veleiellin-Stormrage|r",
+			[51] = 1557205520,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"excellent! :)", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			384, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205521,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [92]
+		{
+			"tyty", -- [1]
+			"Demonlyy-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Demonlyy-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			386, -- [11]
+			"Player-76-0A1B1001", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecDemonlyy-Sargeras|r",
+			[51] = 1557205526,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [93]
+		{
+			"thanks :)", -- [1]
+			"Vanerhost-Darkspear", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanerhost-Darkspear", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			387, -- [11]
+			"Player-120-08AB397A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVanerhost-Darkspear|r",
+			[51] = 1557205527,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [94]
+		{
+			"yeah, I freehold is awesome :P", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			393, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205549,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [95]
+		{
+			"it is for sure", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			394, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557205577,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"oh no", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			399, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205603,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [97]
+		{
+			"Shrine", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			400, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557205604,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [98]
+		{
+			"what the heck happened", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			522, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557205870,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [99]
+		{
+			"lol", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			524, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557205872,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [100]
+		{
+			"Choking Brine faded", -- [1]
+			"Infectious-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Infectious-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			530, -- [11]
+			"Player-3694-0838731B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Infectious-Lightbringer|r",
+			[51] = 1557205940,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [101]
+		{
+			"Choking Brine faded", -- [1]
+			"Infectious-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Infectious-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			534, -- [11]
+			"Player-3694-0838731B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Infectious-Lightbringer|r",
+			[51] = 1557205957,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [102]
+		{
+			"perfect", -- [1]
+			"Ironscrotum-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ironscrotum-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			548, -- [11]
+			"Player-3693-09FB5578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIronscrotum-Kel'Thuzad|r",
+			[51] = 1557205987,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [103]
+		{
+			"shit i missed a step for a quest ill catch up", -- [1]
+			"Infectious-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Infectious-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			692, -- [11]
+			"Player-3694-0838731B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Infectious-Lightbringer|r",
+			[51] = 1557206344,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [104]
+		{
+			"its like right there", -- [1]
+			"Ironscrotum-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ironscrotum-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			697, -- [11]
+			"Player-3693-09FB5578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIronscrotum-Kel'Thuzad|r",
+			[51] = 1557206360,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [105]
+		{
+			"indeed", -- [1]
+			"Infectious-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Infectious-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			703, -- [11]
+			"Player-3694-0838731B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Infectious-Lightbringer|r",
+			[51] = 1557206370,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [106]
+		{
+			"yes quite", -- [1]
+			"Ironscrotum-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ironscrotum-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			704, -- [11]
+			"Player-3693-09FB5578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIronscrotum-Kel'Thuzad|r",
+			[51] = 1557206382,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [107]
+		{
+			"all here again, good; )", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			745, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206415,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [108]
+		{
+			")", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			746, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206418,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [109]
+		{
+			":)", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			747, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206419,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [110]
+		{
+			"(:", -- [1]
+			"Ironscrotum-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ironscrotum-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			762, -- [11]
+			"Player-3693-09FB5578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIronscrotum-Kel'Thuzad|r",
+			[51] = 1557206488,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [111]
+		{
+			"tryna take a dab", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			768, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557206515,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [112]
+		{
+			"Azerite Chestpiece!", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			771, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206522,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [113]
+		{
+			"Let's go!", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			772, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206525,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [114]
+		{
+			"i wonder if kul tiran swim speed works while shapeshifted", -- [1]
+			"Ironscrotum-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ironscrotum-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			774, -- [11]
+			"Player-3693-09FB5578", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIronscrotum-Kel'Thuzad|r",
+			[51] = 1557206530,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [115]
+		{
+			"got left", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			788, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206551,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [116]
+		{
+			"hero", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			798, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206583,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [117]
+		{
+			"that works!", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			821, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206656,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [118]
+		{
+			"Lol", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			822, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206657,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [119]
+		{
+			"need helm?", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			823, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557206660,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [120]
+		{
+			"infection", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			824, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557206667,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [121]
+		{
+			"nah have it", -- [1]
+			"Infectious-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Infectious-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			825, -- [11]
+			"Player-3694-0838731B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Infectious-Lightbringer|r",
+			[51] = 1557206674,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [122]
+		{
+			"Out of rested XP", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			827, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206684,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [123]
+		{
+			"ty", -- [1]
+			"Litgang-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Litgang-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			828, -- [11]
+			"Player-60-0A8AAEC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Litgang-Stormrage|r",
+			[51] = 1557206688,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [124]
+		{
+			"Thanks for the runs guys :)", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			829, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206691,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [125]
+		{
+			"yw", -- [1]
+			"Infectious-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Infectious-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			830, -- [11]
+			"Player-3694-0838731B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Infectious-Lightbringer|r",
+			[51] = 1557206692,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [126]
+		{
+			"take care", -- [1]
+			"Kaldorath-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldorath-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			831, -- [11]
+			"Player-104-0A10F167", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldorath|r",
+			[51] = 1557206693,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [127]
 	},

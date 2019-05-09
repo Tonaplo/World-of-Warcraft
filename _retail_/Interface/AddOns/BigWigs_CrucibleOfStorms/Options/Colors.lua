@@ -27,7 +27,7 @@ BigWigs:AddColors("Uu'nat, Harbinger of the Void", {
 	[285307] = "purple",
 	[285345] = "orange",
 	[285376] = "yellow",
-	[285416] = "red",
+	[285416] = "yellow",
 	[285427] = "yellow",
 	[285453] = "orange",
 	[285562] = "yellow",

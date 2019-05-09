@@ -20,8 +20,7 @@ L["API_INVALID_DATABASE"] = [=[|cffFF0000Attention!|r Une base de données Raide
  rafraîchir toutes les régions et factions du client RaiderIO, ou réinstallez l'Addon manuellement. ]=]
 L["BEST_FOR_DUNGEON"] = "Meilleure clé pour le donjon"
 L["BEST_RUN"] = "Meilleure clé"
---[[Translation missing --]]
---[[ L["BEST_SCORE"] = ""--]] 
+L["BEST_SCORE"] = "Meilleur Score M+ (%s)"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Vos changements ont été sauvegardé, mais il faut recharger l'interface pour qu'elles prennent effets.
 
 Voulez-vous faire cela maintenant ?]=]

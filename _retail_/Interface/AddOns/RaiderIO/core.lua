@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201905050600", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201905080600", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -397,8 +397,9 @@ local GetFaction
 local IsUnitMaxLevel
 local GetWeeklyAffix
 local GetStarsForUpgrades
-local GetFormattedRunCount
+local GetFormattedScore
 local GetTooltipScore
+local GetFormattedRunCount
 do
 	-- bracket can be 10, 100, 0.1, 0.01, and so on
 	function RoundNumber(v, bracket)
@@ -1161,7 +1162,7 @@ do
 	end
 
 	-- returns score color using item colors
-	function GetScoreColorFromTable(score, tbl, tblSimple)
+	local function GetScoreColorFromTable(score, tbl, tblSimple)
 		if score == 0 or ns.addonConfig.disableScoreColors then
 			return 1, 1, 1
 		end

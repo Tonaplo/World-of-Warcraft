@@ -1,446 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/g it's not alone either", -- [1]
-		"/g A mosque in Jerusalem burned as well", -- [2]
-		"/g both were", -- [3]
-		"/g the reconstruction crew is likely to blame for Notre Damge", -- [4]
-		"/g at least that's what the officlas said", -- [5]
-		"/g Heritage Armor here I come", -- [6]
-		"/g Also Jesus Christ", -- [7]
-		"/g Legion is like the WORST place for Warmode", -- [8]
-		"/g Just CRAWLING with level 120s, ganking everyone in sight", -- [9]
-		"/g camping them forever", -- [10]
-		"/g thanks! :)", -- [11]
-		"Doing warmode while leveling up", -- [12]
-		"is absolutely atrocious", -- [13]
-		"Legion especially", -- [14]
-		"is just garbage", -- [15]
-		"so many level 120s", -- [16]
-		"camping the Invasions", -- [17]
-		"I dont mind it on my Priest", -- [18]
-		"doing the WQs for some extra Azerite", -- [19]
-		"but on leveling characters, it's so amazingly bad", -- [20]
+		"Doing warmode while leveling up", -- [1]
+		"is absolutely atrocious", -- [2]
+		"Legion especially", -- [3]
+		"is just garbage", -- [4]
+		"so many level 120s", -- [5]
+		"camping the Invasions", -- [6]
+		"I dont mind it on my Priest", -- [7]
+		"doing the WQs for some extra Azerite", -- [8]
+		"but on leveling characters, it's so amazingly bad", -- [9]
+		"/wave", -- [10]
+		"/s yeah", -- [11]
+		"/s the big ones hurt", -- [12]
+		"/s alot", -- [13]
+		"/s fort", -- [14]
+		"/s pelase", -- [15]
+		"/s dps me", -- [16]
+		"/s 15 k left", -- [17]
+		"/s I did", -- [18]
+		"/s On normal, it's not enough to break the MC", -- [19]
+		"/s interrupt", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"No worries man! It's supposed to be a raid team where you can drop in or out as needed for you :)", -- [1]
-			"|Kq32|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			662, -- [11]
-			false, -- [12]
-			33, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Asahina",
-			[51] = 1554956522,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [1]
-		{
-			"ok did like 25 jaina heroic runs tonight and didnt down her", -- [1]
-			"Xsesive-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			665, -- [11]
-			"Player-104-07DDCCA7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecXsesive|r",
-			[51] = 1554956542,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"got her to 7-8% 3 timese sigh", -- [1]
-			"Xsesive-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			667, -- [11]
-			"Player-104-07DDCCA7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecXsesive|r",
-			[51] = 1554956551,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"dam", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			668, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1554956554,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"do we get to her on sundays?", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1554956561,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
-		{
-			"i havent been to sunday raid in a few weeks", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			673, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1554956572,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
-		{
-			"hasnt been a heroic run in weeks :(", -- [1]
-			"Xsesive-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			674, -- [11]
-			"Player-104-07DDCCA7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecXsesive|r",
-			[51] = 1554956575,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
-			"they were supposed to be on sundays now ", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			679, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1554956591,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"ppl dont show up", -- [1]
-			"Relissela-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			682, -- [11]
-			"Player-104-09CD5E92", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRelissela|r",
-			[51] = 1554956600,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"but like i said i havent shown up in a couple weeks sundays i usually do school work", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			685, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1554956607,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
-		{
-			"hmm, maybe ill start having to try and come out", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			687, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1554956614,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"it's too dang early in the day", -- [1]
-			"Bulwarkbeard-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			690, -- [11]
-			"Player-104-0A0535D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Bulwarkbeard|r",
-			[51] = 1554956622,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
-		{
-			"not sure but i want to do a 10+ on this lock this week", -- [1]
-			"Xsesive-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			695, -- [11]
-			"Player-104-07DDCCA7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecXsesive|r",
-			[51] = 1554956632,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
-		{
-			"4 pm?", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			696, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1554956633,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"1pm my time", -- [1]
-			"Bulwarkbeard-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			698, -- [11]
-			"Player-104-0A0535D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Bulwarkbeard|r",
-			[51] = 1554956638,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"think its 3 pm server", -- [1]
-			"Xsesive-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			708, -- [11]
-			"Player-104-07DDCCA7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecXsesive|r",
-			[51] = 1554956642,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"lol thats still not too bad", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			711, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1554956647,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"I mean", -- [1]
-			"Bulwarkbeard-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			713, -- [11]
-			"Player-104-0A0535D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Bulwarkbeard|r",
-			[51] = 1554956661,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"that's when there's things to do", -- [1]
-			"Bulwarkbeard-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			714, -- [11]
-			"Player-104-0A0535D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Bulwarkbeard|r",
-			[51] = 1554956670,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
 		{
 			"whats your lock's gear like xsecive", -- [1]
 			"Cloudcoastin-Icecrown", -- [2]
@@ -462,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcCloudcoastin|r",
 			[51] = 1554956671,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [1]
 		{
 			"i havnt got an upgrade in 4 weeks", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -484,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956681,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
+		}, -- [2]
 		{
 			"lol true i feel ya thats why i dont show up all the time", -- [1]
 			"Cloudcoastin-Icecrown", -- [2]
@@ -506,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcCloudcoastin|r",
 			[51] = 1554956685,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [3]
 		{
 			"ran all of heroic today not a single fucken drop ", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -528,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956693,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
+		}, -- [4]
 		{
 			"i have literally the worst luck on this guy", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -550,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956702,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [5]
 		{
 			"saving up your rng for 2 weeks from now", -- [1]
 			"Cloudcoastin-Icecrown", -- [2]
@@ -572,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcCloudcoastin|r",
 			[51] = 1554956710,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
+		}, -- [6]
 		{
 			"i need to do m+", -- [1]
 			"Relissela-Malygos", -- [2]
@@ -594,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRelissela|r",
 			[51] = 1554956718,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
+		}, -- [7]
 		{
 			"only a 381 ilvl :/", -- [1]
 			"Relissela-Malygos", -- [2]
@@ -616,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRelissela|r",
 			[51] = 1554956724,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
+		}, -- [8]
 		{
 			"i compared last night with 3 other locks. they have run half as much as me and are DECKED out in daz 415+ gear", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -638,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956737,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
+		}, -- [9]
 		{
 			"|cffffff00The Traveler's Den is under attack!|r", -- [1]
 			"", -- [2]
@@ -660,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1554956739,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [10]
 		{
 			"it bothers me the unfairness of the game", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -682,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956749,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
+		}, -- [11]
 		{
 			"rng mate", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -704,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1554956755,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [12]
 		{
 			"its rng lol", -- [1]
 			"Relissela-Malygos", -- [2]
@@ -726,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRelissela|r",
 			[51] = 1554956759,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [13]
 		{
 			"rng?", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -748,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956763,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [14]
 		{
 			"means what", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -770,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956766,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+		}, -- [15]
 		{
 			"random number generator", -- [1]
 			"Relissela-Malygos", -- [2]
@@ -792,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRelissela|r",
 			[51] = 1554956772,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [16]
 		{
 			"yea but have been unlocky my entire life", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -814,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956783,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+		}, -- [17]
 		{
 			"fuck rng", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -836,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956789,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [18]
 		{
 			"give me a rule of no matter what 1 out of 3 times you will get gear and i will be the best in the game", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -858,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956805,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+		}, -- [19]
 		{
 			"o well i hate bitching no biggie", -- [1]
 			"Xsesive-Icecrown", -- [2]
@@ -880,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXsesive|r",
 			[51] = 1554956834,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [20]
 		{
 			"hold up", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -902,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1554956911,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [21]
 		{
 			"?", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -924,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1554956926,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [22]
 		{
 			"do zepplins still have the OG fem goblin model attached to them?", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -946,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1554956927,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [23]
 		{
 			"seems like a big oversight blizz", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -968,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1554956933,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [24]
 		{
 			"or done on purpose", -- [1]
 			"Relissela-Malygos", -- [2]
@@ -990,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRelissela|r",
 			[51] = 1554956944,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [25]
 		{
 			"*shrug*", -- [1]
 			"Relissela-Malygos", -- [2]
@@ -1012,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRelissela|r",
 			[51] = 1554956952,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [26]
 		{
 			"some models arent changed", -- [1]
 			"Relissela-Malygos", -- [2]
@@ -1034,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRelissela|r",
 			[51] = 1554956958,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [27]
 		{
 			"tbh looks like new model", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -1056,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1554956958,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [28]
 		{
 			"but with lower rez", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -1078,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1554956962,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [29]
 		{
 			"the old goblins all used male dwarf animations", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -1100,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1554956973,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5061:Player-104-09CD5E92:1:4:10:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Throne of the Tides]|h|r!", -- [1]
 			"Relissela-Malygos", -- [2]
@@ -1122,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRelissela-Malygos|r",
 			[51] = 1554957033,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12731:Player-104-0A37062D:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Professional Kul Tiran Master]|h|r!", -- [1]
 			"Grimhorne-Icecrown", -- [2]
@@ -1144,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Grimhorne|r",
 			[51] = 1555384394,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [32]
 		{
 			"can someone please farm the assholes at The Broken Academy?", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1166,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385081,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [33]
 		{
 			"yeah", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1188,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385101,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [34]
 		{
 			"Details!: Overall Damage Done for -- x -- x -- [38:56 EF]", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1210,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385113,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [35]
 		{
 			"1. Bannanas ...... 42.39M (18.1k, 27.4%)", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1232,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385113,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [36]
 		{
 			"2. Stixzadinia .... 40.54M (17.4k, 26.2%)", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1254,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385113,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [37]
 		{
 			"3. Sparkplugz .... 39.20M (16.8k, 25.3%)", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1276,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385114,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [38]
 		{
 			"4. Avaecyn ........ 27.61M (11.8k, 17.8%)", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1298,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385114,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [39]
 		{
 			"5. Putzform ....... 5.05M (2.2k, 3.3%)", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1320,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385114,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [40]
 		{
 			"Think I hit my best for a key run", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1342,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385127,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [41]
 		{
 			"yo?", -- [1]
 			"Viistros-Zul'jin", -- [2]
@@ -1364,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Viistros-Zul'jin|r",
 			[51] = 1555385128,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
+		}, -- [42]
 		{
 			"sup not sure were he went", -- [1]
 			"Zinzazu-Ysera", -- [2]
@@ -1386,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zinzazu-Ysera|r",
 			[51] = 1555385145,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [43]
 		{
 			"group up", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1408,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385147,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [63]
+		}, -- [44]
 		{
 			"they can see me in stealth", -- [1]
 			"Zinzazu-Ysera", -- [2]
@@ -1430,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zinzazu-Ysera|r",
 			[51] = 1555385157,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
+		}, -- [45]
 		{
 			"so if they attack, we kill the assholes", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1452,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385159,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [65]
+		}, -- [46]
 		{
 			"we cant kill a geared DH 120 lol", -- [1]
 			"Viistros-Zul'jin", -- [2]
@@ -1474,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Viistros-Zul'jin|r",
 			[51] = 1555385189,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
+		}, -- [47]
 		{
 			"104", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1496,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385194,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [67]
+		}, -- [48]
 		{
 			"oh nvm thats easy i got killed by a geared 120", -- [1]
 			"Viistros-Zul'jin", -- [2]
@@ -1518,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Viistros-Zul'jin|r",
 			[51] = 1555385208,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
+		}, -- [49]
 		{
 			"nope", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1540,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385234,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [69]
+		}, -- [50]
 		{
 			"solos us", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1562,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385236,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [70]
+		}, -- [51]
 		{
 			"fuck this", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1584,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385238,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [71]
+		}, -- [52]
 		{
 			"fuck warmode", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -1606,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385240,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [72]
+		}, -- [53]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9133:Player-104-062C733B:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[On a Mission]|h|r!", -- [1]
 			"Pallymantwo-Icecrown", -- [2]
@@ -1628,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallymantwo|r",
 			[51] = 1555385247,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [54]
 		{
 			"anyone doing the timeworn?", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -1650,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555385377,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [55]
 		{
 			"funny that a 650 tank declined me for a push, lol", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1672,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385387,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [56]
 		{
 			"that drops 385 right?", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1694,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385399,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [57]
 		{
 			"i got a 400 last week from it", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -1716,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555385409,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [58]
 		{
 			"timeworn?", -- [1]
 			"Merisbell-Malygos", -- [2]
@@ -1738,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Merisbell|r",
 			[51] = 1555385429,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [59]
 		{
 			"wanna do it Bannanas? i need 3 more", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -1760,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555385432,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [60]
 		{
 			"yea timeworn", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -1782,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555385435,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [61]
 		{
 			"sure", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1804,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385439,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [62]
 		{
 			"oh u mean time walking Xd", -- [1]
 			"Merisbell-Malygos", -- [2]
@@ -1826,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Merisbell|r",
 			[51] = 1555385446,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [63]
 		{
 			"timewastin", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1848,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385466,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [64]
 		{
 			"yea want in meri?", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -1870,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555385472,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [65]
 		{
 			"I forget", -- [1]
 			"|Kq26|k", -- [2]
@@ -1892,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555385513,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [85]
+		}, -- [66]
 		{
 			"where you for or against extra rewards in warmode?", -- [1]
 			"|Kq26|k", -- [2]
@@ -1914,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555385522,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [86]
+		}, -- [67]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9125:Player-104-062C733B:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Draftsman]|h|r!", -- [1]
 			"Pallymantwo-Icecrown", -- [2]
@@ -1936,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallymantwo|r",
 			[51] = 1555385614,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [68]
 		{
 			"I dont actually mind warmode that much on my Priest. Usually there isnt really alot of ganking", -- [1]
 			"|Kq26|k", -- [2]
@@ -1958,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555385618,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [88]
+		}, -- [69]
 		{
 			"I am very sad what happened in Paris today. Notre Dame burned, maybe a total loss. So sad, my wife and I have visited there, was a very beautiful building", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1980,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385712,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [70]
 		{
 			" /nod", -- [1]
 			"Grimhorne-Icecrown", -- [2]
@@ -2002,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Grimhorne|r",
 			[51] = 1555385729,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [71]
 		{
 			"i have tickets to london this summer and was going down to see it", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -2024,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555385732,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [72]
 		{
 			"it's not alone either", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2046,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385733,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [73]
 		{
 			"A mosque in Jerusalem burned as well", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2068,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385742,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [74]
 		{
 			"was it not an accident?", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -2090,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555385752,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [75]
 		{
 			"both were", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2112,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385759,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [76]
 		{
 			"Notre Dame, not sure, they suspect renovation work, perhaps, they had scafolding up around the spire", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -2134,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1555385784,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [77]
 		{
 			"sucks to lose something 850+ years old", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -2156,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555385784,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [78]
 		{
 			"the reconstruction crew is likely to blame for Notre Damge", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2178,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385796,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [79]
 		{
 			"at least that's what the officlas said", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2200,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555385801,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [99]
+		}, -- [80]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9107:Player-104-062C733B:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Follow the Leader]|h|r!", -- [1]
 			"Pallymantwo-Icecrown", -- [2]
@@ -2222,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallymantwo|r",
 			[51] = 1555386214,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [100]
+		}, -- [81]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10671:Player-104-0A10F15F:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Level 110]|h|r!", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2244,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555386218,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [101]
+		}, -- [82]
 		{
 			"Heritage Armor here I come", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2266,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555386252,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [102]
+		}, -- [83]
 		{
 			"grats!", -- [1]
 			"Grimhorne-Icecrown", -- [2]
@@ -2288,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Grimhorne|r",
 			[51] = 1555386274,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [103]
+		}, -- [84]
 		{
 			"Also Jesus Christ", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2310,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555386302,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [104]
+		}, -- [85]
 		{
 			"Legion is like the WORST place for Warmode", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2332,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555386308,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [105]
+		}, -- [86]
 		{
 			"Just CRAWLING with level 120s, ganking everyone in sight", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2354,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555386370,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [106]
+		}, -- [87]
 		{
 			"camping them forever", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2376,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555386382,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [107]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12291:Player-104-0A10F15F:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Heritage of the Void]|h|r!", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2398,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555386453,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [108]
+		}, -- [89]
 		{
 			"grats", -- [1]
 			"Grimhorne-Icecrown", -- [2]
@@ -2420,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Grimhorne|r",
 			[51] = 1555386469,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [109]
+		}, -- [90]
 		{
 			"thanks! :)", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2442,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555386475,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [110]
+		}, -- [91]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12918:Player-104-0A10F15F:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Have a Heart]|h|r!", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2464,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555387093,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [111]
+		}, -- [92]
 		{
 			"I want everyone to be in warmode because I think there isn't a lot of ganking and it makes the world feel dangerous.  I thought more rewards would get more people to sign up", -- [1]
 			"|Kq26|k", -- [2]
@@ -2486,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387161,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [112]
+		}, -- [93]
 		{
 			"Doing warmode while leveling up", -- [1]
 			"|Kq26|k", -- [2]
@@ -2508,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387191,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [113]
+		}, -- [94]
 		{
 			"is absolutely atrocious", -- [1]
 			"|Kq26|k", -- [2]
@@ -2530,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387200,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [114]
+		}, -- [95]
 		{
 			"Legion especially", -- [1]
 			"|Kq26|k", -- [2]
@@ -2552,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387267,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [115]
+		}, -- [96]
 		{
 			"is just garbage", -- [1]
 			"|Kq26|k", -- [2]
@@ -2574,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387270,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [116]
+		}, -- [97]
 		{
 			"so many level 120s", -- [1]
 			"|Kq26|k", -- [2]
@@ -2596,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387277,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [117]
+		}, -- [98]
 		{
 			"camping the Invasions", -- [1]
 			"|Kq26|k", -- [2]
@@ -2618,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387283,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [118]
+		}, -- [99]
 		{
 			"I dont mind it on my Priest", -- [1]
 			"|Kq26|k", -- [2]
@@ -2640,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387310,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [119]
+		}, -- [100]
 		{
 			"doing the WQs for some extra Azerite", -- [1]
 			"|Kq26|k", -- [2]
@@ -2662,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387320,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [120]
+		}, -- [101]
 		{
 			"but on leveling characters, it's so amazingly bad", -- [1]
 			"|Kq26|k", -- [2]
@@ -2684,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387331,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [121]
+		}, -- [102]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4847:Player-104-09DA1204:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[The Vortex Pinnacle]|h|r!", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -2706,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555387377,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [122]
+		}, -- [103]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5064:Player-104-09DA1204:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Vortex Pinnacle]|h|r!", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -2728,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1555387377,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [123]
+		}, -- [104]
 		{
 			"Ya that's why I wanted some sort of scaling.  Hence no player should be sooo much more powerful than anyother player.", -- [1]
 			"|Kq26|k", -- [2]
@@ -2750,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "DrAwesome",
 			[51] = 1555387456,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [124]
+		}, -- [105]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12741:Player-104-0A10F15F:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2772,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555387535,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [125]
+		}, -- [106]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-104-0A10F15F:1:4:15:19:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2794,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1555388045,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [126]
+		}, -- [107]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13389:Player-104-0A10F15F:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Jorundall]|h|r!", -- [1]
 			"Zearthan-Icecrown", -- [2]
@@ -2815,6 +2397,424 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cff8686ecZearthan|r",
 			[51] = 1556865360,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [108]
+		{
+			"just pull a bunch", -- [1]
+			"Vortexsham-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vortexsham-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			348, -- [11]
+			"Player-1173-0B1A37FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcVortexsham-Dawnbringer|r",
+			[51] = 1557291231,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [109]
+		{
+			"Cannon Barrage on Zearthan", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			386, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557291340,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [110]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12831:Player-104-0A10F15F:1:5:7:19:4294967295:4294967295:4294967295:4294967295|h[Freehold]|h|r!", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			390, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557291361,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [111]
+		{
+			"yeah", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			521, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557292049,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [112]
+		{
+			"the big ones hurt", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			522, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557292053,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [113]
+		{
+			"alot", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			523, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557292055,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [114]
+		{
+			"fort", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			665, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557292492,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [115]
+		{
+			"pelase", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			666, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557292493,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [116]
+		{
+			"huh", -- [1]
+			"Gershtonath-Misha", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gershtonath-Misha", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			669, -- [11]
+			"Player-1151-08134FC8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Gershtonath-Misha|r",
+			[51] = 1557292504,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [117]
+		{
+			"oh fortify", -- [1]
+			"Gershtonath-Misha", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gershtonath-Misha", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			671, -- [11]
+			"Player-1151-08134FC8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Gershtonath-Misha|r",
+			[51] = 1557292511,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [118]
+		{
+			"dps me", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			986, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557293547,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [119]
+		{
+			"dps me", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			987, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557293549,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [120]
+		{
+			"run into the buble thing", -- [1]
+			"Gershtonath-Misha", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gershtonath-Misha", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			990, -- [11]
+			"Player-1151-08134FC8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Gershtonath-Misha|r",
+			[51] = 1557293558,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [121]
+		{
+			"15 k left", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			991, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557293566,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [122]
+		{
+			"I did", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			997, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557293577,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [123]
+		{
+			"On normal, it's not enough to break the MC", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			999, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557293586,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [124]
+		{
+			"sry couldnt help myslef", -- [1]
+			"Llandian-Perenolde", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Llandian-Perenolde", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1000, -- [11]
+			"Player-122-08B2BFDC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLlandian-Perenolde|r",
+			[51] = 1557293586,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [125]
+		{
+			"interrupt", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1018, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557293691,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [126]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12835:Player-104-0A10F15F:1:5:7:19:4294967295:4294967295:4294967295:4294967295|h[Shrine of the Storm]|h|r!", -- [1]
+			"Zearthan-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zearthan-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1034, -- [11]
+			"Player-104-0A10F15F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecZearthan|r",
+			[51] = 1557293821,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},

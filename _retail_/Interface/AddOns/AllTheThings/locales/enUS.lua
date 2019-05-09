@@ -17,7 +17,7 @@ AllTheThings.L = {
 	-- Instructional Text
 	["MINIMAP_MOUSEOVER_TEXT"] = "Right click to change settings.\nLeft click to open the Main List.\nCtrl + Left click to open the Mini List.\nShift + Left click to Refresh Collections.";
 	["TOP_ROW_INSTRUCTIONS"] = "|cff3399ffLeft Click and Drag to Move|r\n|cff3399ffRight Click to Open the Settings Menu|r\n|cff3399ffShift + Click to Refresh Collections|r";
-	["OTHER_ROW_INSTRUCTIONS"] = "|cff3399ffLeft Click to Expand/Collapse|r\n|cff3399ffRight Click to Pop Out to Mini List|r\n|cff3399ffShift + Click to Refresh Collections|r";
+    ["OTHER_ROW_INSTRUCTIONS"] = "|cff3399ffLeft Click to Expand/Collapse|r\n|cff3399ffRight Click to Pop Out to Mini List|r\n|cff3399ffShift + Click to Refresh Collections|r\n|cff3399ffAlt + Right Click to Plot Waypoints|r";
 	["TOP_ROW_INSTRUCTIONS_AH"] = "|cff3399ffLeft Click and Drag to Move|r\n|cff3399ffRight Click to Open the Settings Menu|r\n|cff3399ffShift + Click to Search the Auction House|r";
 	["OTHER_ROW_INSTRUCTIONS_AH"] = "|cff3399ffLeft Click to Expand/Collapse|r\n|cff3399ffRight Click to Pop Out to Mini List|r\n|cff3399ffShift + Click to Search the Auction House|r";
 	["RECENTLY_MADE_OBTAINABLE"] = "|CFFFF0000If this recently dropped for you (anywhere but Salvage\nCrates), please post in Discord where you got it to drop!|r";
@@ -1862,6 +1862,9 @@ AllTheThings.L = {
 		[182032] = "Interface\\Icons\\INV_Misc_Book_09",
 		[182115] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[182165] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[182549] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[182587] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[182588] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[182952] = "Interface\\Icons\\INV_Crate_01",
 		[183770] = "Interface\\Icons\\Spell_Mage_FocusingCrystal",
 		[183811] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
@@ -2340,6 +2343,7 @@ AllTheThings.L = {
 		[176392] = "Scourge Cauldron",
 		[177787] = "Rackmore's Log",
 		[177904] = "Wanted Poster: Besseleth",
+		[177964] = "Fathom Stone",
 		[179485] = "A Broken Trap",
 		[179501] = "Knot Thimblejack's Cache",
 		[179832] = "Pillaclencher's Ornate Pillow",
@@ -2368,6 +2372,9 @@ AllTheThings.L = {
 		[182032] = "Galaen's Journal",
 		[182115] = "Wanted Poster",
 		[182165] = "Wanted Poster",
+		[182549] = "Fel Orc Plans",
+		[182587] = "Wanted Poster",
+		[182588] = "Wanted Poster",
 		[182392] = "Garadar Bulletin Board",
 		[182939] = "Telaar Bulletin Board",
 		[182947] = "The Codex of Blood",
@@ -3307,7 +3314,7 @@ AllTheThings.L = {
 		{8, "|CFF00FFDEMay require Noblegarden to be active to obtain this item.|r", "Noblegarden (19)"};--19
 		{9, "|CFF00FFDEMay require Children's Week to be active to obtain this item.|r", "Children's Week (20)"};--20
 		{10, "|CFF00FFDEMay require Midsummer Fire Festival to be active to obtain this item.|r", "Midsummer Fire Festival (21)"};--21
-		{11, "|CFF00FFDEMay require Trial of Style to be active to obtain this item.|r", "Trial of Style (22)"};--22
+		{11, "|CFF00FFDEMay require a specific Micro-Holiday to be active.|r", "Micro-Holiday (22)"};--22
 		{12, "|CFF00FFDEMay require Pirate's Day to be active to obtain this item.|r", "Pirate's Day (23)"};--23
 		{13, "|CFF00FFDEMay require Brewfest to be active to obtain this item.|r", "Brewfest (24)"};--24
 		{14, "|CFF00FFDEMay require Harvest Festival to be active to obtain this item.|r", "Harvest Festival (25)"};--25
@@ -3329,7 +3336,7 @@ AllTheThings.L = {
 		{4, "|CFFFF0000These appearances are only available for players that completed the respective Mage Tower Artifact Challenges and earned the base appearance.|r", "Mage Tower Appearances (41)"}; -- 41
 		{21, "|CFFFF0000These appearances are only available during the weekly Timewalking Event.\nOnly dungeons released during the featured expansion will be available.|r", "Timewalking (42)"}; -- 42
 		{1, "|CFFFF0000This NPC or creature has been removed from the game.|r", "Removed NPCs (43)"}; -- 43
-		{21, "|CFFFF0000May require a specific Micro-Holiday to be active.|r", "Micro-Holiday (44)"}; -- 44
+		{2, "|CFFFF0000This Item was only available from the BMAH for a limited Time.|r", "BMAH Limited Time (44)"}; -- 44
 		{1, "|CFFFF0000With 7.3.2, Blizzard's shifted loot from Princess to various bosses.  In the process made this item no longer drop. |r", "BRD Broken Loot (45)"}; -- 45
 		{3, "|CFFFF0000This item is only available from War Chests while under max level.|r", "Incursion Loot (46)"}; -- 46
 		{1, "|CFFFF0000With 8.0, Blizzard's Legacy Loot implementation broke Gruul' loot table.|r", "Gruul Non-Tier Loot (47)"}; -- 47

@@ -165,6 +165,12 @@ local baseLocale = {
     ["Shared_PlayersRunningAddon"] = "For IAT to track this achievement accurately, every player is the group needs to be running the addon",
     ["Shared_AchievementFailed"] = "Achievement Failed",
     ["Shared_TrackingAchievementFor"] = "Tracking achievement for",
+    ["Shared_PlayersWithPet"] = "Players with pet",
+    ["Shared_PlayersTwentyFiveyards"] = "For IAT to track this achievement accurately, players must be within 25 yards of each other when completing the achievement",
+    ["Shared_HitBy"] = "hit by",
+    ["Shared_PlayersWhoDidNotUse"] = "Players who did not use",
+    ["Shared_Fails"] = "Fails",
+    ["Shared_Completed"] = "Completed",
 
     -------------------------------------------------------
     --- Crucible Of Storms
@@ -692,6 +698,11 @@ local baseLocale = {
     ["MogushanVaults_WillOfTheEmperor"] = "",
 
     --Chat Output
+    ["MogushanVaults_HoverOverPets"] = "Hover over players pets to update the display",
+    ["MogushanVaults_DanceSelf"] = "You dance with",
+    ["MogushanVaults_DanceOther"] = "dances with",
+    ["MogushanVaults_PlayersWhoDidNotDance"] = "Players who did not dance",
+    
 
     -------------------------------------------------------
     --- Stormstout Brewery
