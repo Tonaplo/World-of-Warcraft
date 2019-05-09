@@ -1,7 +1,7 @@
 
 ConditionerAddOn_SavedVariables_Loadouts = {
 	{
-		["value"] = "[02+m0__ShiftE_96231_0_0]\n[01+501+g0_consecration_Q_26573_0_0]\n[+o0__ShiftF_31935_0_0]\n[+o0__3_20271_0_0]\n[+o0__F_53600_0_0]\n[+o0__Q_26573_0_0]\n[+o0__E_53595_0_0]\n[+o0__Shift1_184092_0_0]",
+		["value"] = "[02+m0__ShiftE_96231_0_0]\n[01+501+g0_consecration_Q_26573_0_0]\n[+o0__ShiftF_31935_0_0]\n[+o0__3_275779_0_0]\n[+o0__F_53600_0_0]\n[+o0__Q_26573_0_0]\n[+o0__E_53595_0_0]\n[+o0__Shift1_184092_0_0]",
 		["spec"] = 66,
 		["name"] = "Protection",
 	}, -- [1]

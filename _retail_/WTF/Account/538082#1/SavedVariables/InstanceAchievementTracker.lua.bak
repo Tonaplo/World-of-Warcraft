@@ -7,10 +7,10 @@ AchievementTrackerOptions = {
 	["greyOutCompletedAchievements"] = false,
 	["announceTrackedAchievements"] = false,
 	["announceToRaidWarning"] = true,
-	["onlyTrackMissingAchievements"] = false,
-	["enableAddon"] = true,
-	["hideCompletedAchievements"] = false,
 	["toggleSound"] = false,
+	["hideCompletedAchievements"] = false,
+	["enableAddon"] = true,
+	["onlyTrackMissingAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -2865,4 +2865,64 @@ AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] Showing Minimap Icon", -- [2850]
 	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [2851]
 	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2852]
+	"8/5/2019 23:59 [DEBUG] ---IAT Runtime---", -- [2853]
+	"8/5/2019 23:59 [DEBUG] Version: 2.42.0", -- [2854]
+	"8/5/2019 23:59 [DEBUG] Showing Minimap Icon", -- [2855]
+	"8/5/2019 23:59 [DEBUG] Enabling Addon", -- [2856]
+	"8/5/2019 23:59 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2857]
+	"9/5/2019 0:3 [DEBUG] Player has entered instance", -- [2858]
+	"9/5/2019 0:3 [DEBUG] 1754", -- [2859]
+	"9/5/2019 0:3 [DEBUG] Offical Instance Name: 1754 _1754", -- [2860]
+	"9/5/2019 0:3 [DEBUG] Expansion: 2", -- [2861]
+	"9/5/2019 0:3 [DEBUG] Instance Type: Dungeons", -- [2862]
+	"9/5/2019 0:3 [DEBUG] Instance: 1754", -- [2863]
+	"9/5/2019 0:3 [DEBUG] DifficultyID: 1", -- [2864]
+	"9/5/2019 0:3 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [2865]
+	"9/5/2019 0:13 [DEBUG] Function failed, error text: ...nstanceAchievementTracker\\AchievementTrackerCore.lua:1577: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [2866]
+	"9/5/2019 0:13 [DEBUG] Function failed, error text: ...nstanceAchievementTracker\\AchievementTrackerCore.lua:1585: attempt to call method 'InstanceCleanup' (a nil value).", -- [2867]
+	"9/5/2019 0:13 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [2868]
+	"9/5/2019 0:13 [DEBUG] Clearing Instance Variables if exists", -- [2869]
+	"9/5/2019 0:13 [DEBUG] Function failed, error text: ...nstanceAchievementTracker\\AchievementTrackerCore.lua:3139: attempt to call method 'clearVariables' (a nil value).", -- [2870]
+	"9/5/2019 0:13 [DEBUG] Clearing Instance Variables if exists", -- [2871]
+	"9/5/2019 0:13 [DEBUG] Function failed, error text: ...nstanceAchievementTracker\\AchievementTrackerCore.lua:3147: attempt to call method 'ClearVariables' (a nil value).", -- [2872]
+	"9/5/2019 0:13 [DEBUG] Resetting Global Variables", -- [2873]
+	"9/5/2019 0:13 [DEBUG] InfoFrame does not need to be reset", -- [2874]
+	"9/5/2019 0:18 [DEBUG] Player has entered instance", -- [2875]
+	"9/5/2019 0:18 [DEBUG] 1754", -- [2876]
+	"9/5/2019 0:18 [DEBUG] Offical Instance Name: 1754 _1754", -- [2877]
+	"9/5/2019 0:18 [DEBUG] Expansion: 2", -- [2878]
+	"9/5/2019 0:18 [DEBUG] Instance Type: Dungeons", -- [2879]
+	"9/5/2019 0:18 [DEBUG] Instance: 1754", -- [2880]
+	"9/5/2019 0:18 [DEBUG] DifficultyID: 1", -- [2881]
+	"9/5/2019 0:18 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [2882]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [2883]
+	"0/0/1999 -1:-1 [DEBUG] Version: 2.42.0", -- [2884]
+	"0/0/1999 -1:-1 [DEBUG] Showing Minimap Icon", -- [2885]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [2886]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2887]
+	"9/5/2019 9:59 [DEBUG] ---IAT Runtime---", -- [2888]
+	"9/5/2019 9:59 [DEBUG] Version: 2.42.0", -- [2889]
+	"9/5/2019 9:59 [DEBUG] Showing Minimap Icon", -- [2890]
+	"9/5/2019 9:59 [DEBUG] Enabling Addon", -- [2891]
+	"9/5/2019 9:59 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2892]
+	"9/5/2019 10:2 [DEBUG] ---IAT Runtime---", -- [2893]
+	"9/5/2019 10:2 [DEBUG] Version: 2.42.0", -- [2894]
+	"9/5/2019 10:2 [DEBUG] Showing Minimap Icon", -- [2895]
+	"9/5/2019 10:2 [DEBUG] Enabling Addon", -- [2896]
+	"9/5/2019 10:2 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2897]
+	"9/5/2019 10:5 [DEBUG] ---IAT Runtime---", -- [2898]
+	"9/5/2019 10:5 [DEBUG] Version: 2.42.0", -- [2899]
+	"9/5/2019 10:5 [DEBUG] Showing Minimap Icon", -- [2900]
+	"9/5/2019 10:5 [DEBUG] Enabling Addon", -- [2901]
+	"9/5/2019 10:5 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2902]
+	"9/5/2019 10:7 [DEBUG] ---IAT Runtime---", -- [2903]
+	"9/5/2019 10:7 [DEBUG] Version: 2.42.0", -- [2904]
+	"9/5/2019 10:7 [DEBUG] Showing Minimap Icon", -- [2905]
+	"9/5/2019 10:7 [DEBUG] Enabling Addon", -- [2906]
+	"9/5/2019 10:7 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2907]
+	"9/5/2019 10:12 [DEBUG] ---IAT Runtime---", -- [2908]
+	"9/5/2019 10:12 [DEBUG] Version: 2.42.0", -- [2909]
+	"9/5/2019 10:12 [DEBUG] Showing Minimap Icon", -- [2910]
+	"9/5/2019 10:12 [DEBUG] Enabling Addon", -- [2911]
+	"9/5/2019 10:12 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2912]
 }

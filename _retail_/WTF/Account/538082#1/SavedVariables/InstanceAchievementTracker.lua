@@ -7,10 +7,10 @@ AchievementTrackerOptions = {
 	["greyOutCompletedAchievements"] = false,
 	["announceTrackedAchievements"] = false,
 	["announceToRaidWarning"] = true,
-	["toggleSound"] = false,
-	["hideCompletedAchievements"] = false,
-	["enableAddon"] = true,
 	["onlyTrackMissingAchievements"] = false,
+	["enableAddon"] = true,
+	["hideCompletedAchievements"] = false,
+	["toggleSound"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -2895,4 +2895,64 @@ AchievementTrackerDebug = {
 	"9/5/2019 0:18 [DEBUG] Instance: 1754", -- [2880]
 	"9/5/2019 0:18 [DEBUG] DifficultyID: 1", -- [2881]
 	"9/5/2019 0:18 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [2882]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [2883]
+	"0/0/1999 -1:-1 [DEBUG] Version: 2.42.0", -- [2884]
+	"0/0/1999 -1:-1 [DEBUG] Showing Minimap Icon", -- [2885]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [2886]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2887]
+	"9/5/2019 9:59 [DEBUG] ---IAT Runtime---", -- [2888]
+	"9/5/2019 9:59 [DEBUG] Version: 2.42.0", -- [2889]
+	"9/5/2019 9:59 [DEBUG] Showing Minimap Icon", -- [2890]
+	"9/5/2019 9:59 [DEBUG] Enabling Addon", -- [2891]
+	"9/5/2019 9:59 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2892]
+	"9/5/2019 10:2 [DEBUG] ---IAT Runtime---", -- [2893]
+	"9/5/2019 10:2 [DEBUG] Version: 2.42.0", -- [2894]
+	"9/5/2019 10:2 [DEBUG] Showing Minimap Icon", -- [2895]
+	"9/5/2019 10:2 [DEBUG] Enabling Addon", -- [2896]
+	"9/5/2019 10:2 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2897]
+	"9/5/2019 10:5 [DEBUG] ---IAT Runtime---", -- [2898]
+	"9/5/2019 10:5 [DEBUG] Version: 2.42.0", -- [2899]
+	"9/5/2019 10:5 [DEBUG] Showing Minimap Icon", -- [2900]
+	"9/5/2019 10:5 [DEBUG] Enabling Addon", -- [2901]
+	"9/5/2019 10:5 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2902]
+	"9/5/2019 10:7 [DEBUG] ---IAT Runtime---", -- [2903]
+	"9/5/2019 10:7 [DEBUG] Version: 2.42.0", -- [2904]
+	"9/5/2019 10:7 [DEBUG] Showing Minimap Icon", -- [2905]
+	"9/5/2019 10:7 [DEBUG] Enabling Addon", -- [2906]
+	"9/5/2019 10:7 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2907]
+	"9/5/2019 10:12 [DEBUG] ---IAT Runtime---", -- [2908]
+	"9/5/2019 10:12 [DEBUG] Version: 2.42.0", -- [2909]
+	"9/5/2019 10:12 [DEBUG] Showing Minimap Icon", -- [2910]
+	"9/5/2019 10:12 [DEBUG] Enabling Addon", -- [2911]
+	"9/5/2019 10:12 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2912]
+	"9/5/2019 12:13 [DEBUG] ---IAT Runtime---", -- [2913]
+	"9/5/2019 12:13 [DEBUG] Version: 2.42.0", -- [2914]
+	"9/5/2019 12:13 [DEBUG] Showing Minimap Icon", -- [2915]
+	"9/5/2019 12:13 [DEBUG] Enabling Addon", -- [2916]
+	"9/5/2019 12:13 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [2917]
+	"9/5/2019 12:20 [DEBUG] Player has entered instance", -- [2918]
+	"9/5/2019 12:20 [DEBUG] 599", -- [2919]
+	"9/5/2019 12:20 [DEBUG] Offical Instance Name: 599 _599", -- [2920]
+	"9/5/2019 12:20 [DEBUG] Expansion: 7", -- [2921]
+	"9/5/2019 12:20 [DEBUG] Instance Type: Dungeons", -- [2922]
+	"9/5/2019 12:20 [DEBUG] Instance: 599", -- [2923]
+	"9/5/2019 12:20 [DEBUG] DifficultyID: 1", -- [2924]
+	"9/5/2019 12:20 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [2925]
+	"9/5/2019 12:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker\\AchievementTrackerCore.lua:1577: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [2926]
+	"9/5/2019 12:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker\\AchievementTrackerCore.lua:1585: attempt to call method 'InstanceCleanup' (a nil value).", -- [2927]
+	"9/5/2019 12:45 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [2928]
+	"9/5/2019 12:45 [DEBUG] Clearing Instance Variables if exists", -- [2929]
+	"9/5/2019 12:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker\\AchievementTrackerCore.lua:3139: attempt to call method 'clearVariables' (a nil value).", -- [2930]
+	"9/5/2019 12:45 [DEBUG] Clearing Instance Variables if exists", -- [2931]
+	"9/5/2019 12:45 [DEBUG] Clearing Instance Variables", -- [2932]
+	"9/5/2019 12:45 [DEBUG] Resetting Global Variables", -- [2933]
+	"9/5/2019 12:45 [DEBUG] InfoFrame does not need to be reset", -- [2934]
+	"9/5/2019 12:45 [DEBUG] Player has entered instance", -- [2935]
+	"9/5/2019 12:45 [DEBUG] 599", -- [2936]
+	"9/5/2019 12:45 [DEBUG] Offical Instance Name: 599 _599", -- [2937]
+	"9/5/2019 12:45 [DEBUG] Expansion: 7", -- [2938]
+	"9/5/2019 12:45 [DEBUG] Instance Type: Dungeons", -- [2939]
+	"9/5/2019 12:45 [DEBUG] Instance: 599", -- [2940]
+	"9/5/2019 12:45 [DEBUG] DifficultyID: 1", -- [2941]
+	"9/5/2019 12:45 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [2942]
 }

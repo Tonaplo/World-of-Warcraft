@@ -8,8 +8,8 @@ W: 235
 H: 400
 Frame: ScriptErrorsFrame
 FrameLevel: 1
-Anchor: TOP
-X: 340
+Anchor: TOPRIGHT
+X: -151
 Y: -57
 W: 384
 H: 260
@@ -27,10 +27,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: TOP
-X: -50
-Y: -16
-W: 1362
-H: 965

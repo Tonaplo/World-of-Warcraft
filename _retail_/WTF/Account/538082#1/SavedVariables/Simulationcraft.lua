@@ -10,11 +10,11 @@ SimulationCraftDB = {
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
-		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Weston - Icecrown"] = "Weston - Icecrown",
+		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
 		["Beathe - Frostwolf"] = "Beathe - Frostwolf",
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
-		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
+		["Weston - Icecrown"] = "Weston - Icecrown",
+		["Korugen - Icecrown"] = "Korugen - Icecrown",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
 	["profiles"] = {
@@ -36,15 +36,15 @@ SimulationCraftDB = {
 		},
 		["Rahran - Icecrown"] = {
 		},
-		["Korugen - Icecrown"] = {
-		},
-		["Weston - Icecrown"] = {
+		["Alianalen - Frostwolf"] = {
 		},
 		["Beathe - Frostwolf"] = {
 		},
 		["Fandagny - Frostwolf"] = {
 		},
-		["Alianalen - Frostwolf"] = {
+		["Weston - Icecrown"] = {
+		},
+		["Korugen - Icecrown"] = {
 		},
 		["Mallusof - Icecrown"] = {
 		},

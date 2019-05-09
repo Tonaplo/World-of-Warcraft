@@ -1,16 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Lord Aurius Rivendare",
-		}, -- [1]
-		{
-			["boss"] = "Ramstein the Gorger",
-		}, -- [2]
-		{
-			["boss"] = "Magistrate Barthilas",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[8994] = {
 			["school"] = 32,
@@ -907,9 +896,9 @@ EncounterDetailsDB = {
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Olundium-Proudmoore",
 		},
@@ -1461,22 +1450,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Walden",
 		},
-		[16856] = {
+		[118779] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Lord Aurius Rivendare",
+			["source"] = "Highlordon-Frostmourne",
 		},
-		[119405] = {
-			["school"] = 1,
+		[3583] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Adarogg",
+			["source"] = "Shifty Thief",
 		},
 		[17244] = {
 			["school"] = 32,
@@ -1486,30 +1474,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baroness Anastari",
 		},
-		[9613] = {
-			["school"] = 32,
+		[13748] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Skeletal Guardian",
-		},
-		[5137] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Undead Postman",
-		},
-		[9672] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Skeletal Guardian",
+			["source"] = "Risen Sorcerer",
+		},
+		[93564] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lord Godfrey",
+		},
+		[119405] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Adarogg",
 		},
 		[12742] = {
 			["school"] = 4,
@@ -1523,74 +1509,73 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Doom'rel",
 		},
-		[119434] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Slagmaw",
-		},
-		[86636] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Lord Overheat",
-		},
-		[85384] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Fangs-Aman'Thul",
-		},
-		[80850] = {
+		[12040] = {
 			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Thuzadin Necromancer",
+			["source"] = "Hate'rel",
 		},
-		[13298] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[119433] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Undead Scarab",
+			["source"] = "Slagmaw",
 		},
-		[17165] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Risen Inquisitor",
-		},
-		[14099] = {
+		[139546] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Magistrate Barthilas",
+			["source"] = "Chlorine-Skullcrusher",
 		},
-		[149894] = {
-			["school"] = 32,
+		[260242] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Babybunz-Area52",
+		},
+		[100] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fangs-Aman'Thul",
+		},
+		[33975] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Domina",
+			["source"] = "Instructor Galford",
+		},
+		[15593] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Magmus",
+		},
+		[151684] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ghamoo-Ra",
 		},
 		[151813] = {
 			["school"] = 1,
@@ -1601,13 +1586,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Lord Bathiel",
 		},
-		[17235] = {
+		[96103] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nerub'enkan",
+			["source"] = "Fangs-Aman'Thul",
 		},
 		[152963] = {
 			["school"] = 1,
@@ -1618,12 +1602,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aku'mai",
 		},
-		[96103] = {
+		[15581] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fangs-Aman'Thul",
+			["source"] = "Dope'rel",
 		},
 		[150025] = {
 			["school"] = 16,
@@ -1632,23 +1617,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Restorative Waters",
 		},
-		[16869] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[17279] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Maleki the Pallid",
-		},
-		[152592] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
+			["source"] = "Willey Hopebreaker",
 		},
 		[56641] = {
 			["school"] = 1,
@@ -1659,6 +1633,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Babybunz-Area52",
 		},
+		[264455] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Insoucia-Daggerspine",
+		},
 		[151303] = {
 			["school"] = 32,
 			["token"] = {
@@ -1667,18 +1648,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aku'mai the Devourer",
 		},
-		[264455] = {
+		[85288] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Insoucia-Daggerspine",
+			["source"] = "Fangs-Aman'Thul",
 		},
-		[12294] = {
+		[291843] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Highlordon-Frostmourne",
 		},
@@ -1691,14 +1673,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Walden",
 		},
-		[291843] = {
-			["school"] = 1,
+		[17467] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Highlordon-Frostmourne",
+			["source"] = "Lord Aurius Rivendare",
 		},
 		[16430] = {
 			["school"] = 32,
@@ -1711,24 +1692,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thuzadin Necromancer",
 		},
-		[17620] = {
-			["school"] = 32,
+		[188838] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Maleki the Pallid",
+			["source"] = "Olundium-Proudmoore",
 		},
-		[17467] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[110762] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Aurius Rivendare",
+			["source"] = "Willey Hopebreaker",
 		},
 		[151815] = {
 			["school"] = 16,
@@ -1740,49 +1721,42 @@ EncounterDetailsDB = {
 		[93697] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Lord Walden",
 		},
-		[980] = {
+		[260881] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Olundium-Proudmoore",
+		},
+		[109128] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Highlordon-Frostmourne",
+		},
+		[149888] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Insoucia-Daggerspine",
-		},
-		[110762] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Willey Hopebreaker",
+			["source"] = "Domina",
 		},
-		[17405] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[149894] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Balnazzar",
-		},
-		[17353] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Domina",
 		},
 		[93857] = {
 			["school"] = 32,
@@ -1801,48 +1775,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bloodfang Berserker",
 		},
-		[149888] = {
-			["school"] = 32,
+		[15529] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Domina",
-		},
-		[6016] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Nerub'enkan",
-		},
-		[257044] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Babybunz-Area52",
+			["source"] = "Ironhand Guardian",
 		},
-		[30108] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Insoucia-Daggerspine",
-		},
-		[4962] = {
+		[1604] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Haunting Spirit",
+		},
+		[5394] = {
+			["school"] = 8,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Nerub'enkan",
+			["source"] = "Olundium-Proudmoore",
 		},
 		[149913] = {
 			["school"] = 1,
@@ -1853,22 +1808,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thruk",
 		},
-		[16429] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[93686] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Commander Springvale",
+		},
+		[172] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Thuzadin Shadowcaster",
-		},
-		[151267] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Aku'mai the Venomous",
+			["source"] = "Insoucia-Daggerspine",
 		},
 		[233490] = {
 			["school"] = 32,
@@ -1879,28 +1832,51 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Insoucia-Daggerspine",
 		},
-		[7485] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Razorclaw the Butcher",
-		},
-		[152967] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Aku'mai",
-		},
-		[195627] = {
+		[231390] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Chlorine-Skullcrusher",
+			["source"] = "Babybunz-Area52",
+		},
+		[234153] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Insoucia-Daggerspine",
+		},
+		[7485] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Razorclaw the Butcher",
+		},
+		[17620] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Maleki the Pallid",
+		},
+		[17366] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Instructor Galford",
 		},
 		[115767] = {
 			["school"] = 1,
@@ -1933,32 +1909,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hogger",
 		},
-		[17366] = {
-			["school"] = 4,
+		[195627] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Instructor Galford",
+			["source"] = "Chlorine-Skullcrusher",
 		},
-		[234153] = {
+		[17165] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Insoucia-Daggerspine",
+			["source"] = "Risen Inquisitor",
 		},
-		[231390] = {
+		[152967] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Babybunz-Area52",
+			["source"] = "Aku'mai",
 		},
 		[105771] = {
 			["school"] = 1,
@@ -1968,20 +1942,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Highlordon-Frostmourne",
 		},
-		[172] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Insoucia-Daggerspine",
-		},
-		[93686] = {
+		[151267] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Aku'mai the Venomous",
+		},
+		[16429] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Commander Springvale",
+			["source"] = "Thuzadin Shadowcaster",
 		},
 		[77762] = {
 			["school"] = 4,
@@ -1991,29 +1967,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Olundium-Proudmoore",
 		},
-		[5394] = {
-			["school"] = 8,
+		[257044] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Olundium-Proudmoore",
+			["source"] = "Babybunz-Area52",
 		},
-		[1604] = {
+		[16869] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Maleki the Pallid",
+		},
+		[4962] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Haunting Spirit",
-		},
-		[15529] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ironhand Guardian",
+			["source"] = "Nerub'enkan",
 		},
 		[13489] = {
 			["school"] = 1,
@@ -2031,21 +2012,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "High Priestess of Thaurissan",
 		},
-		[109128] = {
+		[17353] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Highlordon-Frostmourne",
+			["source"] = "Unknown",
 		},
-		[260881] = {
+		[119434] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Olundium-Proudmoore",
+			["source"] = "Slagmaw",
 		},
 		[11972] = {
 			["school"] = 1,
@@ -2055,16 +2037,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Risen Guardsman",
 		},
-		[188838] = {
-			["school"] = 4,
+		[980] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Olundium-Proudmoore",
+			["source"] = "Insoucia-Daggerspine",
 		},
 		[199854] = {
 			["school"] = 1,
@@ -2085,12 +2066,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Instructor Galford",
 		},
-		[85288] = {
+		[12294] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fangs-Aman'Thul",
+			["source"] = "Highlordon-Frostmourne",
 		},
 		[16798] = {
 			["school"] = 32,
@@ -2111,20 +2093,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anger'rel",
 		},
-		[17279] = {
-			["school"] = 64,
+		[152592] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Willey Hopebreaker",
 		},
-		[15581] = {
-			["school"] = 1,
+		[30108] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dope'rel",
+			["source"] = "Insoucia-Daggerspine",
 		},
 		[59146] = {
 			["school"] = 1,
@@ -2135,105 +2118,122 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Willey Hopebreaker",
 		},
-		[151684] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ghamoo-Ra",
-		},
-		[15593] = {
+		[17235] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Magmus",
-		},
-		[33975] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Instructor Galford",
+			["source"] = "Nerub'enkan",
 		},
-		[100] = {
+		[6016] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Nerub'enkan",
+		},
+		[14099] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Magistrate Barthilas",
+		},
+		[13298] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Undead Scarab",
+		},
+		[80850] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Thuzadin Necromancer",
+		},
+		[85384] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Fangs-Aman'Thul",
 		},
-		[260242] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Babybunz-Area52",
-		},
-		[139546] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Chlorine-Skullcrusher",
-		},
-		[119433] = {
+		[86636] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Slagmaw",
-		},
-		[12040] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Hate'rel",
-		},
-		[93564] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lord Godfrey",
-		},
-		[13748] = {
-			["school"] = 64,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Risen Sorcerer",
+			["source"] = "Lord Overheat",
 		},
-		[3583] = {
-			["school"] = 8,
+		[17405] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Balnazzar",
+		},
+		[9672] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skeletal Guardian",
+		},
+		[5137] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Shifty Thief",
+			["source"] = "Undead Postman",
 		},
-		[118779] = {
+		[9613] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skeletal Guardian",
+		},
+		[16856] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Highlordon-Frostmourne",
+			["source"] = "Lord Aurius Rivendare",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Lord Aurius Rivendare",
+		}, -- [1]
+		{
+			["boss"] = "Ramstein the Gorger",
+		}, -- [2]
+		{
+			["boss"] = "Magistrate Barthilas",
+		}, -- [3]
 	},
 }
