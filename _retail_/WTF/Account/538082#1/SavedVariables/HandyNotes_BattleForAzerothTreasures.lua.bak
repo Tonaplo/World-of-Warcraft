@@ -18,11 +18,11 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
 	},
@@ -61,15 +61,15 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["Caircaidin - Frostwolf"] = {
+		["Deminath - Proudmoore"] = {
 		},
 		["Greybone - Icecrown"] = {
 		},
 		["Kindhoof - Tichondrius"] = {
 		},
-		["Deminath - Proudmoore"] = {
-		},
 		["Korugen - Proudmoore"] = {
+		},
+		["Caircaidin - Frostwolf"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},

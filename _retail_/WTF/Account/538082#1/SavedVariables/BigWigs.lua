@@ -1,40 +1,34 @@
 
 BigWigs3DB = {
-	["profileKeys"] = {
-		["Korugen - Tichondrius"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Miriyal - Icecrown"] = "Default",
-		["Praerend - Emerald Dream"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Weston - Icecrown"] = "Default",
-		["Korugen - Icecrown"] = "Default",
-		["Theodor - Emerald Dream"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
-		["Gottagetlia - Aggramar"] = "Default",
-		["Mallusof - Proudmoore"] = "Default",
-		["Greybone - Icecrown"] = "Default",
-		["Mallusof - Blackhand"] = "Default",
-		["Praerend - Icecrown"] = "Default",
-		["Rahran - Proudmoore"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Contumon - Blackhand"] = "Default",
-		["Zearthan - Icecrown"] = "Default",
-		["Mallusof - Emerald Dream"] = "Default",
-		["Kaldorath - Icecrown"] = "Default",
-		["Thedodrouk - Icecrown"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Kindhoof - Tichondrius"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Zethan - Tichondrius"] = "Default",
-		["Alura - Tichondrius"] = "Default",
-		["Mallusof - Icecrown"] = "Default",
-	},
 	["discord"] = 15,
+	["global"] = {
+		["watchedMovies"] = {
+			[-1004] = true,
+			[294] = true,
+			[682] = true,
+			[295] = true,
+			[74] = true,
+			[76] = true,
+			[-917] = true,
+			[686] = true,
+			[-1153] = true,
+			[656] = true,
+			[688] = true,
+			[549] = true,
+			[-1345] = true,
+			[876] = true,
+			[-1151] = true,
+			[73] = true,
+			[75] = true,
+			[-1352] = {
+				true, -- [1]
+				true, -- [2]
+			},
+			[-573] = true,
+			[-909] = true,
+			[-437] = true,
+		},
+	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 			["profiles"] = {
@@ -42,6 +36,8 @@ BigWigs3DB = {
 					["soundName"] = "BigWigs: Victory Classic",
 				},
 			},
+		},
+		["BigWigs_Bosses_Atal'Dazar Trash"] = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
 			["profiles"] = {
@@ -54,7 +50,14 @@ BigWigs3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_Tribunal of Ages"] = {
+		["BigWigs_Bosses_Uu'nat, Harbinger of the Void"] = {
+			["profiles"] = {
+				["Default"] = {
+					["custom_off_-19118"] = true,
+				},
+			},
+		},
+		["BigWigs_Bosses_Yazma"] = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
@@ -67,7 +70,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Bosses_Maiden of Grief"] = {
+		["BigWigs_Bosses_Vol'kaal"] = {
 		},
 		["BigWigs_Bosses_The Restless Cabal"] = {
 			["profiles"] = {
@@ -76,12 +79,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockSpellErrors"] = false,
-				},
-			},
+		["BigWigs_Bosses_Rezan"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 			["profiles"] = {
@@ -134,15 +132,15 @@ BigWigs3DB = {
 					["spacing"] = 8,
 					["emphasizeTime"] = 10,
 					["barStyle"] = "BeautyCase",
-					["BigWigsEmphasizeAnchor_width"] = 400,
+					["fontSizeEmph"] = 20,
 					["BigWigsEmphasizeAnchor_x"] = 0.021909040952107,
 					["monochrome"] = false,
 					["BigWigsEmphasizeAnchor_y"] = 533.844214828932,
-					["fontSizeEmph"] = 20,
+					["BigWigsEmphasizeAnchor_width"] = 400,
 				},
 			},
 		},
-		["BigWigs_Bosses_Krystallus"] = {
+		["BigWigs_Bosses_Priestess Alun'za"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 			["profiles"] = {
@@ -151,6 +149,15 @@ BigWigs3DB = {
 					["font"] = "Prototype",
 				},
 			},
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockSpellErrors"] = false,
+				},
+			},
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -185,11 +192,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Sjonnir The Ironshaper"] = {
-		},
 		["BigWigs_Plugins_Respawn"] = {
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 			["profiles"] = {
@@ -202,32 +205,39 @@ BigWigs3DB = {
 		},
 	},
 	["wipe80"] = true,
-	["global"] = {
-		["watchedMovies"] = {
-			[-1004] = true,
-			[294] = true,
-			[682] = true,
-			[295] = true,
-			[74] = true,
-			[76] = true,
-			[-917] = true,
-			[686] = true,
-			[-1153] = true,
-			[656] = true,
-			[688] = true,
-			[549] = true,
-			[876] = true,
-			[-1151] = true,
-			[73] = true,
-			[75] = true,
-			[-1352] = {
-				true, -- [1]
-				true, -- [2]
-			},
-			[-573] = true,
-			[-909] = true,
-			[-437] = true,
-		},
+	["profileKeys"] = {
+		["Korugen - Tichondrius"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Miriyal - Icecrown"] = "Default",
+		["Praerend - Emerald Dream"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Weston - Icecrown"] = "Default",
+		["Korugen - Icecrown"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Gottagetlia - Aggramar"] = "Default",
+		["Mallusof - Proudmoore"] = "Default",
+		["Greybone - Icecrown"] = "Default",
+		["Mallusof - Blackhand"] = "Default",
+		["Praerend - Icecrown"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Zearthan - Icecrown"] = "Default",
+		["Contumon - Blackhand"] = "Default",
+		["Theodor - Emerald Dream"] = "Default",
+		["Mallusof - Emerald Dream"] = "Default",
+		["Kaldorath - Icecrown"] = "Default",
+		["Thedodrouk - Icecrown"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Kindhoof - Tichondrius"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Zethan - Tichondrius"] = "Default",
+		["Alura - Tichondrius"] = "Default",
+		["Mallusof - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -313,20 +323,24 @@ BigWigsStatsDB = {
 				["kills"] = 4,
 			},
 		},
-		[1372] = {
-			["heroic"] = {
-				["best"] = 324.116,
-				["kills"] = 3,
+		[1432] = {
+			["normal"] = {
+				["kills"] = 1,
+				["best"] = 437.290999999997,
+				["wipes"] = 1,
 			},
 			["mythic"] = {
-				["kills"] = 4,
-				["wipes"] = 34,
-				["best"] = 388.648000000001,
+				["kills"] = 3,
+				["best"] = 345.235,
+				["wipes"] = 1,
+			},
+			["heroic"] = {
+				["best"] = 264.710999999999,
+				["kills"] = 3,
 			},
 			["LFR"] = {
-				["kills"] = 5,
-				["best"] = 227.687999999995,
-				["wipes"] = 1,
+				["best"] = 276.891,
+				["kills"] = 3,
 			},
 		},
 		[1394] = {
@@ -355,18 +369,20 @@ BigWigsStatsDB = {
 				["kills"] = 3,
 			},
 		},
-		[1447] = {
-			["mythic"] = {
-				["wipes"] = 109,
-			},
+		[1372] = {
 			["heroic"] = {
-				["kills"] = 5,
-				["wipes"] = 5,
-				["best"] = 259.499,
+				["best"] = 324.116,
+				["kills"] = 3,
+			},
+			["mythic"] = {
+				["kills"] = 4,
+				["wipes"] = 34,
+				["best"] = 388.648000000001,
 			},
 			["LFR"] = {
-				["best"] = 194.652,
-				["kills"] = 1,
+				["kills"] = 5,
+				["best"] = 227.687999999995,
+				["wipes"] = 1,
 			},
 		},
 		[1391] = {
@@ -435,24 +451,18 @@ BigWigsStatsDB = {
 				["kills"] = 4,
 			},
 		},
-		[1432] = {
-			["normal"] = {
-				["kills"] = 1,
-				["best"] = 437.290999999997,
-				["wipes"] = 1,
-			},
+		[1447] = {
 			["mythic"] = {
-				["kills"] = 3,
-				["best"] = 345.235,
-				["wipes"] = 1,
+				["wipes"] = 109,
 			},
 			["heroic"] = {
-				["best"] = 264.710999999999,
-				["kills"] = 3,
+				["kills"] = 5,
+				["wipes"] = 5,
+				["best"] = 259.499,
 			},
 			["LFR"] = {
-				["best"] = 276.891,
-				["kills"] = 3,
+				["best"] = 194.652,
+				["kills"] = 1,
 			},
 		},
 	},
@@ -479,7 +489,14 @@ BigWigsStatsDB = {
 	[2096] = {
 		[2328] = {
 			["heroic"] = {
-				["wipes"] = 9,
+				["kills"] = 1,
+				["wipes"] = 11,
+				["best"] = 454.369999999999,
+			},
+		},
+		[2332] = {
+			["heroic"] = {
+				["wipes"] = 11,
 			},
 		},
 	},
