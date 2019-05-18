@@ -20,6 +20,8 @@ L["BEST_FOR_DUNGEON"] = "Migliore Questa Spedizione"
 L["BEST_RUN"] = "Miglior Spedizione"
 --[[Translation missing --]]
 --[[ L["BEST_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CANCEL"] = ""--]] 
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Le tue modifiche sono state salvate, ma devi ricaricare la tua interfaccia affinché abbiano effetto.
 
 Vuoi farlo ora?]=]
@@ -29,12 +31,16 @@ L["CHECKBOX_DISPLAY_WEEKLY"] = "Visualizza Settimanale"
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Mythic+ e Raid Tooltips"
 --[[Translation missing --]]
 --[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CONFIRM"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Copia URL Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Copia URL Raider.IO"
 --[[Translation missing --]]
 --[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["CURRENT_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DISABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "Punteggio DPS"
 L["DUNGEON_SHORT_NAME_AD"] = "AD"
@@ -63,6 +69,8 @@ L["DUNGEON_SHORT_NAME_VOTW"] = "SDC"
 L["DUNGEON_SHORT_NAME_WM"] = "MDC"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posiziona Automaticamente la Cornice del Profilo RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Abilitando questa Opzione manterrai la Descrizione del Profilo M+ accanto Finestra della Ricerca delle Incursioni o al Tooltip del Giocatore."
+--[[Translation missing --]]
+--[[ L["ENABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Blocca Finestra del Profilo RaiderIO"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Impedisce il Trascinamento della Finestra del Profilo M+. Questo non ha alcun Effetto se la Finestra del Profilo M+ è impostata per essere Posizionata Automaticamente."
 L["ENABLE_NO_SCORE_COLORS"] = "Disabilita Colori Punteggio"
@@ -237,6 +245,12 @@ L["TOTAL_RUNS"] = "Corse Totali in \"BFA\""
 L["UNKNOWN_SCORE"] = "Sconosciuto"
 L["UNKNOWN_SERVER_FOUND"] = "| cffFFFFFF% s | r ha rilevato un nuovo server. Si prega di scrivere queste informazioni | cffFF9999 {| r | cffFFFFFF% s | r | cffFF9999, | r | cffFFFFFF% s | r | cffFF9999} | r e segnalarlo agli sviluppatori. Grazie!"
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: Sblocco della Finetra Profilo M+"
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_DEBUG_MODE_ENABLE"] = ""--]] 
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Devi prima Disabilitare \"Posizionamento Automatico\" per il Profilo RaiderIO."
 
 

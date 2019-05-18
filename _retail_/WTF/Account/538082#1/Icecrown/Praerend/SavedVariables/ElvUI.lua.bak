@@ -1,1942 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/s cheers", -- [1]
-		"/g Looking for 1 DPS for Freehold +3", -- [2]
-		"/g Gonna 3 chest and then do the +6", -- [3]
-		"/p hello there :)", -- [4]
-		"/p Talonz", -- [5]
-		"/p we're doing the +6 after this too", -- [6]
-		"/p if you wanna stay for it", -- [7]
-		"/p Did you wanna stay Talonz?", -- [8]
-		"/p absolutely not :)", -- [9]
-		"/p Going to Underrot", -- [10]
-		"/p Talonz, know a heals?", -- [11]
-		"/g Need a healer for a +6  Underrot", -- [12]
-		"/p Hello :)", -- [13]
-		"/PULL 10", -- [14]
-		"/p MY BAD", -- [15]
-		"/p worst runback, omg", -- [16]
-		"/p Indeed :)", -- [17]
-		"/p Cheers! :)", -- [18]
-		"/macro", -- [19]
-		"/simc", -- [20]
+		"/p hmm", -- [1]
+		"/p Yeah, shouldnt be too long then :)", -- [2]
+		"/g Need a healer for a +6  Underrot", -- [3]
+		"/p |cffa335ee|Hitem:159638:5965:::::::120:72::35:3:5006:1567:4783:::|h[Electro-Arm Bludgeoner]|h|r", -- [4]
+		"/simc", -- [5]
+		"/sorry", -- [6]
+		"/p If we have a full group now, lol", -- [7]
+		"We're in the M+ channel", -- [8]
+		"/s Nice transmog :)", -- [9]
+		"/p hello there :)", -- [10]
+		"/p Alright, this is getting too late for me. Sorry! Good luck!", -- [11]
+		"/pull 5", -- [12]
+		"/cw Hèárt-Lightbringer I hearthed back and then he found a tank and heals lol", -- [13]
+		"/cw Hèárt-Lightbringer almost there", -- [14]
+		"/p arg", -- [15]
+		"/p sorry about that", -- [16]
+		"/p I pulled an extra one, my bad", -- [17]
+		"/p eyah", -- [18]
+		"/p .", -- [19]
+		"/p 2 hours for that", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"3", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			946, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556605226,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"2", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			947, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556605227,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"1", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			948, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556605228,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"Explosive Burst on Tinklepriest", -- [1]
-			"Tinklepriest-Korgath", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Tinklepriest-Korgath", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			953, -- [11]
-			"Player-1146-0814E772", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeTinklepriest-Korgath|r",
-			[51] = 1556605258,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"Explosive Burst on Praerend", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			956, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556605274,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"3", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			957, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556605275,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"2", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			958, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556605276,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"1", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			959, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556605277,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"lol", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			14, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556684525,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6479:Player-104-0A0CB071:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Bomberman]|h|r!", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			37, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556684696,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [10]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6479:Player-104-0A37062D:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Bomberman]|h|r!", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimhorne-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			39, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556684698,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [11]
-		{
-			"need a sec", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			63, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556684875,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"anyone pulling the lever?", -- [1]
-			"Floogeena-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Floogeena-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			70, -- [11]
-			"Player-5-0024337E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecFloogeena-Proudmoore|r",
-			[51] = 1556684933,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"b", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			72, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556684938,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"thank not back", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimhorne-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			74, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556684942,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"or is back :)", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimhorne-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			75, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556684950,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"Need the ring?", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			112, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556685274,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"Oh I mean", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			117, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556685295,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"I need it too", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			118, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556685298,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
-		{
-			"lol", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			119, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556685299,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6759:Player-104-0A37062D:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Gate of the Setting Sun]|h|r!", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimhorne-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			123, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556685374,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4476:Player-104-0A37062D:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimhorne-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			126, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556685374,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
-		{
-			"wanna q fjor more after", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			183, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556685790,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
-		{
-			"sounds good", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			185, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556685801,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
-		{
-			"I need 3 more after this", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			187, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556685805,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
-		{
-			".i ", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			188, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556685806,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6758:Player-104-0A37062D:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Temple of the Jade Serpent]|h|r!", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimhorne-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			251, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556686277,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13467:Player-104-0695EA16:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Tides of Vengeance]|h|r!", -- [1]
-			"Torgok-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Torgok-Malygos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			255, -- [11]
-			"Player-104-0695EA16", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecTorgok-Malygos|r",
-			[51] = 1556686321,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
-		{
-			"Hey peeps", -- [1]
-			"Splitlevel-Anvilmar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Splitlevel-Anvilmar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			282, -- [11]
-			"Player-1174-077F466D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Splitlevel-Anvilmar|r",
-			[51] = 1556686398,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
-		{
-			"hey there :)", -- [1]
-			"Kittybluex-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kittybluex-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			285, -- [11]
-			"Player-11-0B4CEEA4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Kittybluex-Tichondrius|r",
-			[51] = 1556686406,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
-		{
-			"hello", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556686463,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [31]
-		{
-			"down for two more?", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556686804,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
-		{
-			"yup", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			334, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556686810,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [33]
-		{
-			"I can do 1 more", -- [1]
-			"Kittybluex-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kittybluex-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"Player-11-0B4CEEA4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Kittybluex-Tichondrius|r",
-			[51] = 1556686813,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
-		{
-			"ok", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			336, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556686818,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6400:Player-104-0A37062D:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[How Did He Get Up There?]|h|r!", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimhorne-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			337, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556686824,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
-		{
-			"here", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			342, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556686928,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [37]
-		{
-			"hide", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556686930,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [38]
-		{
-			"hide", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			344, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556686931,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [39]
-		{
-			"LUST", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			355, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556687052,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6456:Player-104-0A0CB071:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Stormstout Brewery]|h|r!", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			358, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556687133,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6456:Player-104-0A37062D:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Stormstout Brewery]|h|r!", -- [1]
-			"Grimhorne-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimhorne-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			410, -- [11]
-			"Player-104-0A37062D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Grimhorne|r",
-			[51] = 1556687403,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [42]
-		{
-			"oracle", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			457, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556687771,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
-		{
-			"rq after", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			500, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556688230,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
-		{
-			"thanks heals", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			508, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556688251,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
-		{
-			"ty guys :)", -- [1]
-			"Kittybluex-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kittybluex-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			517, -- [11]
-			"Player-11-0B4CEEA4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Kittybluex-Tichondrius|r",
-			[51] = 1556688262,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
-		{
-			"yo rogue", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			524, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556688339,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
-		{
-			"oh well", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			528, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556688358,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
-		{
-			"lol", -- [1]
-			"Lowkey-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lowkey-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			535, -- [11]
-			"Player-1190-09ACE932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lowkey-Doomhammer|r",
-			[51] = 1556688372,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
-		{
-			"Dashing Strike on Praerend", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			611, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556688979,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
-		{
-			"cheers", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			682, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556689652,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13287:Player-104-0695EA16:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Empire's Fall]|h|r!", -- [1]
-			"Torgok-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Torgok-Malygos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			754, -- [11]
-			"Player-104-0695EA16", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecTorgok-Malygos|r",
-			[51] = 1556690592,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12561:Player-104-0A0CB071:1:4:30:19:4294967295:4294967295:4294967295:4294967295|h[Explore Nazmir]|h|r!", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			804, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556691396,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
-		{
-			"Looking for 1 DPS for Freehold +3", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2750, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556859220,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
-		{
-			"Gonna 3 chest and then do the +6", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2752, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556859241,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
-		{
-			"hello", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2761, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556859482,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [56]
-		{
-			"hello there :)", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2762, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556859483,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [57]
-		{
-			"hey hey", -- [1]
-			"Asahina-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asahina-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2763, -- [11]
-			"Player-3694-072ED39F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Asahina-Lightbringer|r",
-			[51] = 1556859486,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
-		{
-			"ty for summon", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2765, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556859506,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
-		{
-			"Ricocheting Throw on Praerend", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2832, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860053,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
-		{
-			"Ricocheting Throw on Praerend", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2833, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860057,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
-		{
-			"Ricocheting Throw on Praerend", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2834, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860063,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
-		{
-			"Ricocheting Throw on Praerend", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2836, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860071,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
-		{
-			"Ricocheting Throw on Praerend", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2837, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860074,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
-		{
-			"|cffa335ee|Hkeystone:158923:245:2:10:0:0:0|h[Keystone: Freehold (2)]|h|r", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2847, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860148,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [65]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10698:Player-104-062C733B:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[That's Val'sharah Folks!]|h|r!", -- [1]
-			"Pallymantwo-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Pallymantwo-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2848, -- [11]
-			"Player-104-062C733B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Pallymantwo|r",
-			[51] = 1556860151,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10698:Player-104-061F8339:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[That's Val'sharah Folks!]|h|r!", -- [1]
-			"Synd-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Synd-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2850, -- [11]
-			"Player-104-061F8339", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Synd|r",
-			[51] = 1556860153,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
-		{
-			"|cffa335ee|Hkeystone:158923:251:14:10:5:13:117|h[Keystone: The Underrot (14)]|h|r", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2851, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556860161,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
-		{
-			"Talonz", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2857, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860234,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [69]
-		{
-			"?", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2859, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556860237,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
-		{
-			"sup?", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2860, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556860239,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
-		{
-			"we're doing the +6 after this too", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2861, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860239,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [72]
-		{
-			"if you wanna stay for it", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2862, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860243,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
-		{
-			"maybe....", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2864, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556860251,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
-		{
-			"having a hard time getting tanks tonight", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2865, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556860265,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [75]
-		{
-			"Ricocheting Throw on Talonz", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2868, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556860343,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
-		{
-			"Cannon Barrage on Praerend", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2874, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860517,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
-		{
-			"New Keystone: |cffa335ee|Hkeystone:158923:251:6:10:5:0:0|h[Keystone: The Underrot (6)]|h|r", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2880, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860535,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [78]
-		{
-			"|cffa335ee|Hkeystone:158923:251:6:10:5:0:0|h[Keystone: The Underrot (6)]|h|r", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2886, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860545,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
-		{
-			"I gotta bail, sorry", -- [1]
-			"Ryad-Terenas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ryad-Terenas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2889, -- [11]
-			"Player-90-079297DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ryad-Terenas|r",
-			[51] = 1556860593,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
-		{
-			"sure, why not", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2890, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556860593,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
-		{
-			"thanks for the group", -- [1]
-			"Ryad-Terenas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ryad-Terenas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2891, -- [11]
-			"Player-90-079297DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ryad-Terenas|r",
-			[51] = 1556860593,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
-		{
-			"Did you wanna stay Talonz?", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2897, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860632,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [83]
-		{
-			"Sure, if you guys don't mind", -- [1]
-			"Talonz-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Talonz-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2898, -- [11]
-			"Player-86-084F7FE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Talonz-Silvermoon|r",
-			[51] = 1556860656,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
-		{
-			"absolutely not :)", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2902, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860667,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
-		{
-			"Going to Underrot", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2905, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860702,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [86]
-		{
-			"Talonz, know a heals?", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2914, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1556860762,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [87]
 		{
 			"sorry dont, none of my peeps are on", -- [1]
 			"Talonz-Silvermoon", -- [2]
@@ -1958,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Talonz-Silvermoon|r",
 			[51] = 1556860792,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [1]
 		{
 			"Need a healer for a +6  Underrot", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1980,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556860802,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [2]
 		{
 			"hi", -- [1]
 			"Bluemonkeys-Sargeras", -- [2]
@@ -2002,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBluemonkeys-Sargeras|r",
 			[51] = 1556860955,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [3]
 		{
 			"Hello", -- [1]
 			"Talonz-Silvermoon", -- [2]
@@ -2024,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Talonz-Silvermoon|r",
 			[51] = 1556860960,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [91]
+		}, -- [4]
 		{
 			"Hello :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2046,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556860963,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [92]
+		}, -- [5]
 		{
 			"Dark Omen on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2068,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861191,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [6]
 		{
 			"Dark Omen on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2090,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861200,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [7]
 		{
 			"MY BAD", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2112,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861718,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [95]
+		}, -- [8]
 		{
 			"worst runback, omg", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2134,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861741,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [96]
+		}, -- [9]
 		{
 			"Upheaval on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2156,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861776,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [10]
 		{
 			"3", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2178,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861779,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
+		}, -- [11]
 		{
 			"2", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2200,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861780,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [99]
+		}, -- [12]
 		{
 			"1", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2222,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861781,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [100]
+		}, -- [13]
 		{
 			"Upheaval on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2244,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861796,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [101]
+		}, -- [14]
 		{
 			"3", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2266,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861799,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [102]
+		}, -- [15]
 		{
 			"2", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2288,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861800,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [103]
+		}, -- [16]
 		{
 			"1", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2310,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861801,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [104]
+		}, -- [17]
 		{
 			"Upheaval on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2332,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861821,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [105]
+		}, -- [18]
 		{
 			"3", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2354,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861824,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [106]
+		}, -- [19]
 		{
 			"2", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2376,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861825,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [107]
+		}, -- [20]
 		{
 			"1", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2398,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861826,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [108]
+		}, -- [21]
 		{
 			"|cffa335ee|Hkeystone:158923:251:5:10:5:0:0|h[Keystone: The Underrot (5)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2420,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556861842,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [109]
+		}, -- [22]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10666:Player-104-061F8339:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Explore Val'sharah]|h|r!", -- [1]
 			"Synd-Icecrown", -- [2]
@@ -2442,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Synd|r",
 			[51] = 1556861854,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [110]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10666:Player-104-062C733B:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Explore Val'sharah]|h|r!", -- [1]
 			"Pallymantwo-Icecrown", -- [2]
@@ -2464,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallymantwo|r",
 			[51] = 1556861854,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [111]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10461:Player-104-061F8339:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Fighting with Style: Classic]|h|r!", -- [1]
 			"Synd-Icecrown", -- [2]
@@ -2486,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Synd|r",
 			[51] = 1556862050,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [112]
+		}, -- [25]
 		{
 			"maybe 3", -- [1]
 			"Talonz-Silvermoon", -- [2]
@@ -2508,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Talonz-Silvermoon|r",
 			[51] = 1556862082,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [113]
+		}, -- [26]
 		{
 			"please stack to cleanse buff", -- [1]
 			"Bluemonkeys-Sargeras", -- [2]
@@ -2530,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBluemonkeys-Sargeras|r",
 			[51] = 1556862097,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [114]
+		}, -- [27]
 		{
 			"Cleansing Light on Talonz", -- [1]
 			"Talonz-Silvermoon", -- [2]
@@ -2552,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Talonz-Silvermoon|r",
 			[51] = 1556862162,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [115]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12500:Player-104-0A0CB071:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Underrot]|h|r!", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2574,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556862190,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [116]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12501:Player-104-0A0CB071:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Underrot]|h|r!", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2596,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556862190,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [117]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12502:Player-104-0A0CB071:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Underrot]|h|r!", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2618,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556862190,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [118]
+		}, -- [31]
 		{
 			"New Keystone: |cffa335ee|Hkeystone:158923:251:9:10:5:13:0|h[Keystone: The Underrot (9)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2640,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556862193,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [119]
+		}, -- [32]
 		{
 			"|cffa335ee|Hkeystone:158923:251:9:10:5:13:0|h[Keystone: The Underrot (9)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2662,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556862193,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [120]
+		}, -- [33]
 		{
 			"good run", -- [1]
 			"Bluemonkeys-Sargeras", -- [2]
@@ -2684,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBluemonkeys-Sargeras|r",
 			[51] = 1556862220,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [121]
+		}, -- [34]
 		{
 			"thanks all", -- [1]
 			"Bluemonkeys-Sargeras", -- [2]
@@ -2706,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBluemonkeys-Sargeras|r",
 			[51] = 1556862221,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [122]
+		}, -- [35]
 		{
 			"Indeed :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2728,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556862224,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [123]
+		}, -- [36]
 		{
 			"thanks all!", -- [1]
 			"Asahina-Lightbringer", -- [2]
@@ -2750,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Asahina-Lightbringer|r",
 			[51] = 1556862225,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [124]
+		}, -- [37]
 		{
 			"ty", -- [1]
 			"Sheilyana-Sargeras", -- [2]
@@ -2772,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSheilyana-Sargeras|r",
 			[51] = 1556862226,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [125]
+		}, -- [38]
 		{
 			"Cheers! :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2794,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1556862226,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [126]
+		}, -- [39]
 		{
 			"Ty for the invite, GL", -- [1]
 			"Talonz-Silvermoon", -- [2]
@@ -2815,6 +901,1920 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cffa22fc8Talonz-Silvermoon|r",
 			[51] = 1556862243,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [40]
+		{
+			"Looking for a healer for +5 Atal Dazar", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1478, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557466402,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [41]
+		{
+			"You sure you dont want to heal a +5 Atadazar? :P", -- [1]
+			"|Kq80|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1480, -- [11]
+			false, -- [12]
+			81, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcJhasu|r",
+			[51] = 1557466420,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [42]
+		{
+			"We just need heals", -- [1]
+			"|Kq80|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1481, -- [11]
+			false, -- [12]
+			81, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcJhasu|r",
+			[51] = 1557466423,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [43]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12506:Player-104-09197E1B:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Temple of Sethraliss]|h|r!", -- [1]
+			"Nocturnowl-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nocturnowl-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1482, -- [11]
+			"Player-104-09197E1B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nocturnowl|r",
+			[51] = 1557466451,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [44]
+		{
+			"Oh sure I can", -- [1]
+			"|Kq80|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1487, -- [11]
+			false, -- [12]
+			81, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcJhasu|r",
+			[51] = 1557466557,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [45]
+		{
+			"sorry I was tabbed out cuddling my cat LOL", -- [1]
+			"|Kq80|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1491, -- [11]
+			false, -- [12]
+			81, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcJhasu|r",
+			[51] = 1557466573,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [46]
+		{
+			"We're in the M+ channel", -- [1]
+			"|Kq80|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1492, -- [11]
+			false, -- [12]
+			81, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcJhasu|r",
+			[51] = 1557466575,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [47]
+		{
+			"hahahaha", -- [1]
+			"|Kq80|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1493, -- [11]
+			false, -- [12]
+			81, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcJhasu|r",
+			[51] = 1557466578,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [48]
+		{
+			"|cffa335ee|Hitem:159638:5965:::::::120:72::35:3:5006:1567:4783:::|h[Electro-Arm Bludgeoner]|h|r", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1495, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557466607,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [49]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6567:Player-104-09E1908A:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Growing Up]|h|r!", -- [1]
+			"Cornette-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cornette-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1519, -- [11]
+			"Player-104-09E1908A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCornette|r",
+			[51] = 1557467013,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [50]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6568:Player-104-09E1908A:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Time for a Leash]|h|r!", -- [1]
+			"Cornette-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cornette-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1520, -- [11]
+			"Player-104-09E1908A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCornette|r",
+			[51] = 1557467013,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [51]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6569:Player-104-09E1908A:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Old Timer]|h|r!", -- [1]
+			"Cornette-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cornette-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1521, -- [11]
+			"Player-104-09E1908A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCornette|r",
+			[51] = 1557467013,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [52]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:7482:Player-104-09E1908A:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Trainer Extraordinaire]|h|r!", -- [1]
+			"Cornette-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cornette-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1522, -- [11]
+			"Player-104-09E1908A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCornette|r",
+			[51] = 1557467013,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [53]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6570:Player-104-09E1908A:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[All Growns Up!]|h|r!", -- [1]
+			"Cornette-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cornette-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1523, -- [11]
+			"Player-104-09E1908A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCornette|r",
+			[51] = 1557467013,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [54]
+		{
+			"Unstable Hex on Praerend", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1559, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467561,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [55]
+		{
+			"3", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1560, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467563,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [56]
+		{
+			"2", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1561, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467564,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [57]
+		{
+			"Unstable Hex on Asahina", -- [1]
+			"Asahina-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Asahina-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1562, -- [11]
+			"Player-3694-072ED39F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Asahina-Lightbringer|r",
+			[51] = 1557467564,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"1", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1563, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467565,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [59]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9097:Player-104-09E1908A:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Keepin' Busy]|h|r!", -- [1]
+			"Cornette-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cornette-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1565, -- [11]
+			"Player-104-09E1908A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCornette|r",
+			[51] = 1557467611,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [60]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12826:Player-104-0A0CB071:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Atal'Dazar]|h|r!", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1579, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467823,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [61]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12825:Player-104-0A0CB071:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Atal'Dazar]|h|r!", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1580, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467823,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [62]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12824:Player-104-0A0CB071:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Atal'Dazar]|h|r!", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1581, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467823,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [63]
+		{
+			"New Keystone: |cffa335ee|Hkeystone:158923:246:8:9:7:12:0|h[Keystone: Tol Dagor (8)]|h|r", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1585, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467824,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [64]
+		{
+			"|cffa335ee|Hkeystone:158923:246:8:9:7:12:0|h[Keystone: Tol Dagor (8)]|h|r", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1587, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557467827,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [65]
+		{
+			"|cffa335ee|Hitem:158375::::::::120:264::16:3:5005:1562:4783:::|h[Drape of the Loyal Vassal]|h|r anyone need?", -- [1]
+			"Jhasu-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jhasu-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1596, -- [11]
+			"Player-3694-07B594BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcJhasu-Lightbringer|r",
+			[51] = 1557467845,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [66]
+		{
+			"GGs everyone, bed time for me", -- [1]
+			"Jhasu-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jhasu-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1598, -- [11]
+			"Player-3694-07B594BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcJhasu-Lightbringer|r",
+			[51] = 1557467907,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [67]
+		{
+			"simc", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1678, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557468118,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [68]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12500:Player-104-08F6850B:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Underrot]|h|r!", -- [1]
+			"Orynge-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Orynge-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1722, -- [11]
+			"Player-104-08F6850B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Orynge|r",
+			[51] = 1557468802,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [69]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12501:Player-104-08F6850B:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Underrot]|h|r!", -- [1]
+			"Orynge-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Orynge-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1723, -- [11]
+			"Player-104-08F6850B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Orynge|r",
+			[51] = 1557468802,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12502:Player-104-08F6850B:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Underrot]|h|r!", -- [1]
+			"Orynge-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Orynge-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1724, -- [11]
+			"Player-104-08F6850B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Orynge|r",
+			[51] = 1557468802,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [71]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:7462:Player-104-09E1908A:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[A Rare Catch]|h|r!", -- [1]
+			"Cornette-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cornette-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1760, -- [11]
+			"Player-104-09E1908A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCornette|r",
+			[51] = 1557469066,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [72]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6619:Player-104-09E1908A:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Win Streak]|h|r!", -- [1]
+			"Cornette-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cornette-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1787, -- [11]
+			"Player-104-09E1908A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCornette|r",
+			[51] = 1557469298,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [73]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9108:Player-104-062C733B:1:5:12:19:4294967295:4294967295:4294967295:4294967295|h[Where You Go, They Will Follow]|h|r!", -- [1]
+			"Pallymantwo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pallymantwo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"Player-104-062C733B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Pallymantwo|r",
+			[51] = 1557705844,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [74]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9578:Player-104-062C733B:1:5:12:19:4294967295:4294967295:4294967295:4294967295|h[Proving Yourself: Bronze Tank]|h|r!", -- [1]
+			"Pallymantwo-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pallymantwo-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			88, -- [11]
+			"Player-104-062C733B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Pallymantwo|r",
+			[51] = 1557706408,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [75]
+		{
+			"Hello :)", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557725568,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [76]
+		{
+			"hey hey :) ", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557725571,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [77]
+		{
+			"Nice transmog :)", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557725921,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [78]
+		{
+			"oo", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557725940,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [79]
+		{
+			"supply crate just popped", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557725944,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [80]
+		{
+			"Come on, Tanks and Heals! :)", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			37, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557726165,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [81]
+		{
+			"right", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			38, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557726170,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [82]
+		{
+			"hmmm", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			56, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557727571,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [83]
+		{
+			"queue is dead!", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			57, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557727582,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [84]
+		{
+			"Yeah, it's sad :/", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			60, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557727638,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [85]
+		{
+			"Nice  |cffa335ee|Hitem:159341::::::::120:268::16:4:5010:4802:1592:4784:::|h[Hound-Jowl Waistband]|h|r", -- [1]
+			"Bannanas-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			61, -- [11]
+			"Player-104-08F84DBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1557727752,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"My Brm Geard up a bit this week!", -- [1]
+			"Bannanas-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-104-08F84DBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1557727769,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"nice", -- [1]
+			"Marishka-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"Player-104-09DA1204", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1557727773,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [88]
+		{
+			"bed for me", -- [1]
+			"Marishka-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			65, -- [11]
+			"Player-104-09DA1204", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1557727784,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"night guys", -- [1]
+			"Marishka-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			66, -- [11]
+			"Player-104-09DA1204", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Marishka|r",
+			[51] = 1557727786,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"From my PUB WM +12 in time!", -- [1]
+			"Bannanas-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			67, -- [11]
+			"Player-104-08F84DBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1557727797,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"bon nuit", -- [1]
+			"Bannanas-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			70, -- [11]
+			"Player-104-08F84DBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1557727803,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"Alright, this is getting too late for me. Sorry! Good luck!", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			73, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557728124,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [93]
+		{
+			"all g", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557728137,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [94]
+		{
+			"366 heals.. why apply aha", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			76, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557728195,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [95]
+		{
+			"hmm", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			85, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557728357,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [96]
+		{
+			"here WM on", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			86, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557728359,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [97]
+		{
+			"If we have a full group now, lol", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			87, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557728362,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [98]
+		{
+			"you staying?", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			90, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557728369,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [99]
+		{
+			"Yeah, shouldnt be too long then :)", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			91, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557728379,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [100]
+		{
+			"hunter is reloading", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			93, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557728417,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [101]
+		{
+			"need one more here with WM on or off", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			109, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557728445,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [102]
+		{
+			"where are you lets summon them please", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			152, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557728559,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [103]
+		{
+			"I hearthed back and then he found a tank and heals lol", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			154, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557728577,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [104]
+		{
+			"almost there", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			155, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557728580,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [105]
+		{
+			"lol ", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			156, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557728585,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [106]
+		{
+			"omfg", -- [1]
+			"Kyzzip-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyzzip-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			157, -- [11]
+			"Player-5-0B64FDE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kyzzip-Proudmoore|r",
+			[51] = 1557728591,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [107]
+		{
+			"what happened ", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			158, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557728598,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [108]
+		{
+			"Barely missed the lake", -- [1]
+			"Kyzzip-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyzzip-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			160, -- [11]
+			"Player-5-0B64FDE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kyzzip-Proudmoore|r",
+			[51] = 1557728656,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [109]
+		{
+			"I was in the water but shallow", -- [1]
+			"Kyzzip-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyzzip-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			161, -- [11]
+			"Player-5-0B64FDE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kyzzip-Proudmoore|r",
+			[51] = 1557728660,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [110]
+		{
+			"all in", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			163, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557728710,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [111]
+		{
+			"[FIS] Interrupted Devout Blood Priest's |cff71d5ff|Hspell:265084:0|h[Blood Bolt]|h|r", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			182, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557728888,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [112]
+		{
+			"Poly maggot please", -- [1]
+			"Kyzzip-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyzzip-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			200, -- [11]
+			"Player-5-0B64FDE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kyzzip-Proudmoore|r",
+			[51] = 1557729056,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [113]
+		{
+			"arg", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			201, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557729098,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [114]
+		{
+			"[FIS] Interrupted Living Rot's |cff71d5ff|Hspell:265668:0|h[Wave of Decay]|h|r", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			204, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557729115,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [115]
+		{
+			"[FIS] Interrupted Living Rot's |cff71d5ff|Hspell:265668:0|h[Wave of Decay]|h|r", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			207, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557729143,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [116]
+		{
+			"sorry about that", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557729167,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [117]
+		{
+			"[FIS] Interrupted Feral Bloodswarmer's |cff71d5ff|Hspell:266106:0|h[Sonic Screech]|h|r", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			213, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557729213,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [118]
+		{
+			"careful on side", -- [1]
+			"Foucaul-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Foucaul-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			215, -- [11]
+			"Player-3723-0ACBD4FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Foucaul-Barthilas|r",
+			[51] = 1557729223,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [119]
+		{
+			"gotta focus those first...", -- [1]
+			"Figitspinner-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Figitspinner-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			228, -- [11]
+			"Player-76-0967AD80", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Figitspinner-Sargeras|r",
+			[51] = 1557729320,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [120]
+		{
+			"I pulled an extra one, my bad", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			230, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557729351,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [121]
+		{
+			"[FIS] Interrupted Living Rot's |cff71d5ff|Hspell:265668:0|h[Wave of Decay]|h|r", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			234, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557729381,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [122]
+		{
+			"[FIS] Interrupted Grotesque Horror's |cff71d5ff|Hspell:272180:0|h[Death Bolt]|h|r", -- [1]
+			"Hèárt-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hèárt-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-3694-06C1714A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hèárt-Lightbringer|r",
+			[51] = 1557729474,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [123]
+		{
+			"awful", -- [1]
+			"Figitspinner-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Figitspinner-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			257, -- [11]
+			"Player-76-0967AD80", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Figitspinner-Sargeras|r",
+			[51] = 1557729810,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [124]
+		{
+			"eyah", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			264, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557729837,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [125]
+		{
+			".", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			265, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557729844,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [126]
+		{
+			"2 hours for that", -- [1]
+			"Praerend-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Praerend-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			266, -- [11]
+			"Player-104-0A0CB071", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPraerend|r",
+			[51] = 1557729850,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [127]
 	},

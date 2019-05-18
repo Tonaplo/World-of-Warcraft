@@ -1,138 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/s 8.2 buff is okay? Or does it need more?", -- [1]
-		"/s Threat feels hard to hold too", -- [2]
-		"/i Threat feels hard to hold too", -- [3]
-		"/i !!!", -- [4]
-		"/i That's why", -- [5]
-		"/i god Im a dumbadsss lol", -- [6]
-		"/i yeah'", -- [7]
-		"/i silence is ansty here", -- [8]
-		"/i alright", -- [9]
-		"/i here goes", -- [10]
-		"/i not too bad", -- [11]
-		"/i wow", -- [12]
-		"/i I cant believe how little defense I have", -- [13]
-		"/i WOW", -- [14]
-		"/i Gz Highlordon!", -- [15]
-		"/i |cffa335ee|Hitem:13505::::::::59:104:512:1:1:4051:59:::|h[Runeblade of Baron Rivendare]|h|r", -- [16]
-		"/i thanks", -- [17]
-		"/i you too", -- [18]
-		"/2 Not on Malygos, but good morning buddy", -- [19]
+		"/i That's why", -- [1]
+		"/i god Im a dumbadsss lol", -- [2]
+		"/i yeah'", -- [3]
+		"/i silence is ansty here", -- [4]
+		"/i alright", -- [5]
+		"/i here goes", -- [6]
+		"/i not too bad", -- [7]
+		"/i wow", -- [8]
+		"/i I cant believe how little defense I have", -- [9]
+		"/i WOW", -- [10]
+		"/i Gz Highlordon!", -- [11]
+		"/i |cffa335ee|Hitem:13505::::::::59:104:512:1:1:4051:59:::|h[Runeblade of Baron Rivendare]|h|r", -- [12]
+		"/i thanks", -- [13]
+		"/i you too", -- [14]
+		"/2 Not on Malygos, but good morning buddy", -- [15]
+		"/i sounds good :)", -- [16]
+		"/i battle shout pelase :)", -- [17]
+		"/i ty", -- [18]
+		"/i havea  good one :)", -- [19]
 		"/wa", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"arg nvm", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			436, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908169,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"my bad guys", -- [1]
-			"Weirdpubes-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weirdpubes-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			438, -- [11]
-			"Player-55-0B58008F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
-			[51] = 1555908192,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"sorry ssed the tank lol", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			440, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908200,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [3]
-		{
-			"naah", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			442, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908203,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"lol", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			443, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555908205,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
 		{
 			"almost", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -154,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555908211,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
+		}, -- [1]
 		{
 			"I should have kept myself up", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -176,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908211,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
+		}, -- [2]
 		{
 			"eh its cool", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -198,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555908220,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
+		}, -- [3]
 		{
 			"more interesting", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -220,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555908224,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
+		}, -- [4]
 		{
 			"i pulled them all lol", -- [1]
 			"Weirdpubes-Whisperwind", -- [2]
@@ -242,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
 			[51] = 1555908228,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
+		}, -- [5]
 		{
 			"dw about it :P", -- [1]
 			"Fangs-Aman'Thul", -- [2]
@@ -264,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFangs-Aman'Thul|r",
 			[51] = 1555908229,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
+		}, -- [6]
 		{
 			"ss me", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -286,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908230,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
+		}, -- [7]
 		{
 			"I can brez taank", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -308,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908233,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
+		}, -- [8]
 		{
 			"on cd lol", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -330,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555908237,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [14]
+		}, -- [9]
 		{
 			"i will", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -352,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555908239,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [15]
+		}, -- [10]
 		{
 			"lol", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -374,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555908259,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [16]
+		}, -- [11]
 		{
 			"4need a sec'", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -396,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908277,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
+		}, -- [12]
 		{
 			"ok", -- [1]
 			"Weirdpubes-Whisperwind", -- [2]
@@ -418,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
 			[51] = 1555908290,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
+		}, -- [13]
 		{
 			"brb", -- [1]
 			"Weirdpubes-Whisperwind", -- [2]
@@ -440,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
 			[51] = 1555908320,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
+		}, -- [14]
 		{
 			"okay :P", -- [1]
 			"Fangs-Aman'Thul", -- [2]
@@ -462,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFangs-Aman'Thul|r",
 			[51] = 1555908349,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
+		}, -- [15]
 		{
 			"b", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -484,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908356,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [16]
 		{
 			"someone's having fun lol", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -506,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555908359,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [22]
+		}, -- [17]
 		{
 			"b", -- [1]
 			"Weirdpubes-Whisperwind", -- [2]
@@ -528,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
 			[51] = 1555908360,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [18]
 		{
 			"pickin pockies", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -550,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555908366,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [19]
 		{
 			"sorry", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -572,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908367,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
+		}, -- [20]
 		{
 			"baby cried", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -594,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908369,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+		}, -- [21]
 		{
 			"and again", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -616,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908399,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [22]
 		{
 			"oh no", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -638,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555908407,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [28]
+		}, -- [23]
 		{
 			"tell her daddy's saving azeroth", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -660,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555908413,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [29]
+		}, -- [24]
 		{
 			"she didnt care", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -682,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908447,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [25]
 		{
 			"lol", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -704,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908447,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [26]
 		{
 			"=||", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -726,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555908453,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
+		}, -- [27]
 		{
 			"to the pickpoketing bahahaha yes... yes it is fun to do so :P", -- [1]
 			"Fangs-Aman'Thul", -- [2]
@@ -748,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFangs-Aman'Thul|r",
 			[51] = 1555908453,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [28]
 		{
 			"polyd", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -770,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555908633,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [29]
 		{
 			"same", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -792,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555908682,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [30]
 		{
 			"haah", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -814,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555908795,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [31]
 		{
 			"this trinket's proc rate suck lol", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -836,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555908848,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [37]
+		}, -- [32]
 		{
 			"omg stuns", -- [1]
 			"Weirdpubes-Whisperwind", -- [2]
@@ -858,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
 			[51] = 1555909004,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [33]
 		{
 			"lol finally! the cannon", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -880,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555909023,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [39]
+		}, -- [34]
 		{
 			"lol", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -902,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555909031,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [35]
 		{
 			"haha", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -924,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555909051,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [36]
 		{
 			"stole 2 silver from him", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -946,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555909054,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [37]
 		{
 			"gangster", -- [1]
 			"Weirdpubes-Whisperwind", -- [2]
@@ -968,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
 			[51] = 1555909061,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [38]
 		{
 			"haha", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -990,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555909064,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [39]
 		{
 			"hahaha", -- [1]
 			"Fangs-Aman'Thul", -- [2]
@@ -1012,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFangs-Aman'Thul|r",
 			[51] = 1555909074,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [40]
 		{
 			"lol", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -1034,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555909081,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [46]
+		}, -- [41]
 		{
 			"he  spawns several times a day", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -1056,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555909095,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [47]
+		}, -- [42]
 		{
 			"to be killed", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -1078,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555909097,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
+		}, -- [43]
 		{
 			"you should be paying him", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -1100,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555909101,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [49]
+		}, -- [44]
 		{
 			"shame", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -1122,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555909103,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [50]
+		}, -- [45]
 		{
 			"ha whooaa", -- [1]
 			"Chlorine-Skullcrusher", -- [2]
@@ -1144,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Chlorine-Skullcrusher|r",
 			[51] = 1555909107,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [46]
 		{
 			"holy shit", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1166,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909138,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [47]
 		{
 			"an epic", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1188,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909140,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [48]
 		{
 			"damn", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1210,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909141,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [49]
 		{
 			"lol epix", -- [1]
 			"Edën-Frostmourne", -- [2]
@@ -1232,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEdën-Frostmourne|r",
 			[51] = 1555909142,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [55]
+		}, -- [50]
 		{
 			"anyways", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1254,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909151,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [51]
 		{
 			"thanks!", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1276,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909152,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [52]
 		{
 			"have a good one :)", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1298,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909154,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [53]
 		{
 			"nice to see a group", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1320,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909158,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [54]
 		{
 			"thanks all :P", -- [1]
 			"Fangs-Aman'Thul", -- [2]
@@ -1342,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFangs-Aman'Thul|r",
 			[51] = 1555909160,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [55]
 		{
 			"with chatty people :)", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1364,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909161,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [56]
 		{
 			"take care!", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1386,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1555909165,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [57]
 		{
 			"im up for another", -- [1]
 			"Weirdpubes-Whisperwind", -- [2]
@@ -1408,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
 			[51] = 1555909168,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [58]
 		{
 			"um guys", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1430,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556691942,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [59]
 		{
 			"how do i get where you are", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1452,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556691972,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [60]
 		{
 			"tele out", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1474,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556691985,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [61]
 		{
 			"tele out and in", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1496,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556691991,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [67]
+		}, -- [62]
 		{
 			"didnt work?", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1518,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692068,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [68]
+		}, -- [63]
 		{
 			"cant ppl are in combat", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1540,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556692076,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [64]
 		{
 			"tru now", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1562,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692081,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [70]
+		}, -- [65]
 		{
 			"try", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1584,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692084,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [71]
+		}, -- [66]
 		{
 			"just past the grim guzzler", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1606,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556692114,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [67]
 		{
 			"no bueno", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1628,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556692120,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [68]
 		{
 			"weird", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1650,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692153,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [74]
+		}, -- [69]
 		{
 			"Try to use the teleporter", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1672,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692172,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [75]
+		}, -- [70]
 		{
 			"the mole machine", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1694,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556692214,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [71]
 		{
 			"ye", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1716,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692218,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [77]
+		}, -- [72]
 		{
 			"entrance, domicile and GG", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1738,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556692227,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [73]
 		{
 			"try gg", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1760,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692234,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [79]
+		}, -- [74]
 		{
 			"I dont remember which one it is", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1782,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692242,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [80]
+		}, -- [75]
 		{
 			"thats where it puts me when i port in", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1804,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556692248,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [76]
 		{
 			"oh wait", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1826,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556692285,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [77]
 		{
 			"GREAT SUCCESS", -- [1]
 			"Voneisen-Sargeras", -- [2]
@@ -1848,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVoneisen-Sargeras|r",
 			[51] = 1556692293,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [78]
 		{
 			"go", -- [1]
 			"Kalfurion-Tichondrius", -- [2]
@@ -1870,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kalfurion-Tichondrius|r",
 			[51] = 1556692472,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [79]
 		{
 			"gg", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1892,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692846,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [85]
+		}, -- [80]
 		{
 			"havea  good one", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1914,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1556692848,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [86]
+		}, -- [81]
 		{
 			"sec", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1936,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557117147,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [82]
 		{
 			"can you stop", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -1958,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557117331,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [83]
 		{
 			"please let me pull yeah", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -1980,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557117364,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [84]
 		{
 			"also have burning rush on..", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2002,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557117414,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [90]
+		}, -- [85]
 		{
 			"lead reque us", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2024,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557117503,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [86]
 		{
 			"nvm", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2046,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557117506,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [87]
 		{
 			"damn", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2068,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557117583,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [88]
 		{
 			"I have like", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2090,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557117585,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [89]
 		{
 			"0 defensives", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2112,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557117588,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [90]
 		{
 			"welcome to new bear", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2134,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557117593,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [96]
+		}, -- [91]
 		{
 			"it sucks", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2156,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557117599,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [97]
+		}, -- [92]
 		{
 			"8.2 buff is okay? Or does it need more?", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2178,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557117640,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
+		}, -- [93]
 		{
 			"havent been on mine since uldir tbh", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2200,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557117749,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [99]
+		}, -- [94]
 		{
 			"Threat feels hard to hold too", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2222,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557117998,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [100]
+		}, -- [95]
 		{
 			"Threat feels hard to hold too", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2244,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118011,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [101]
+		}, -- [96]
 		{
 			"switch your weapon my dude", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2266,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557118036,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [102]
+		}, -- [97]
 		{
 			"!!!", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2288,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118042,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
+		}, -- [98]
 		{
 			"That's why", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2310,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118044,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [104]
+		}, -- [99]
 		{
 			"lol", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2332,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557118064,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [100]
 		{
 			"god Im a dumbadsss lol", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2354,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118064,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [101]
 		{
 			"thanks", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2376,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118065,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [107]
+		}, -- [102]
 		{
 			"fuyck silence", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2398,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557118097,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [108]
+		}, -- [103]
 		{
 			"would of been fine but 4-5s silence:\\", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2420,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557118196,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [109]
+		}, -- [104]
 		{
 			"yeah'", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2442,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118206,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [110]
+		}, -- [105]
 		{
 			"silence is ansty here", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2464,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118210,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [111]
+		}, -- [106]
 		{
 			"Ressing Karlaea!", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2486,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118211,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [112]
+		}, -- [107]
 		{
 			"ooft", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2508,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557118525,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [113]
+		}, -- [108]
 		{
 			"that was intense dps", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2530,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557118532,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [114]
+		}, -- [109]
 		{
 			"alright", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2552,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118648,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [115]
+		}, -- [110]
 		{
 			"here goes", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2574,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118649,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [116]
+		}, -- [111]
 		{
 			"not too bad", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2596,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118682,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [117]
+		}, -- [112]
 		{
 			"wow", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2618,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118735,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [118]
+		}, -- [113]
 		{
 			"I cant believe how little defense I have", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2640,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118746,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [119]
+		}, -- [114]
 		{
 			"WOW", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2662,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118748,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [115]
 		{
 			"lol gl my dude", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2684,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557118754,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [121]
+		}, -- [116]
 		{
 			"Gz Highlordon!", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2706,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118754,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [122]
+		}, -- [117]
 		{
 			"|cffa335ee|Hitem:13505::::::::59:104:512:1:1:4051:59:::|h[Runeblade of Baron Rivendare]|h|r", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2728,7 +2618,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118758,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [123]
+		}, -- [118]
 		{
 			"thanks", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2750,7 +2640,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118762,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [124]
+		}, -- [119]
 		{
 			"nice", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2772,7 +2662,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557118763,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [120]
 		{
 			"you too", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2794,7 +2684,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118763,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [126]
+		}, -- [121]
 		{
 			"Not on Malygos, but good morning buddy", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2816,6 +2706,116 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557119109,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"imma lust during this boss since lusting on AA is pointless", -- [1]
+			"Speedysham-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Speedysham-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			837, -- [11]
+			"Player-3694-08B1C139", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSpeedysham-Lightbringer|r",
+			[51] = 1558157715,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [123]
+		{
+			"sounds good :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			839, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558157729,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [124]
+		{
+			"battle shout pelase :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			859, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558157875,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [125]
+		{
+			"ty", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			860, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558157881,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [126]
+		{
+			"havea  good one :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			925, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558158144,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [127]
 	},
 }

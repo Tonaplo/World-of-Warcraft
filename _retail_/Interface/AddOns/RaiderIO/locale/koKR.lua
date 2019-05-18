@@ -19,6 +19,8 @@ L["API_INVALID_DATABASE"] = "|cffff0000 경고!|r |cffffffff%s|r에서 잘못된
 L["BEST_FOR_DUNGEON"] = "던전 최고 기록"
 L["BEST_RUN"] = "최고 기록"
 L["BEST_SCORE"] = "최고 쐐기 점수 (%s)"
+--[[Translation missing --]]
+--[[ L["CANCEL"] = ""--]] 
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[변경 사항이 저장되었지만 변경 사항을 적용하려면 UI를 다시 불러와야 합니다.
 
 지금 하시겠습니까?]=]
@@ -26,10 +28,14 @@ L["CHECKBOX_DISPLAY_WEEKLY"] = "매주 표시"
 L["CHOOSE_HEADLINE_HEADER"] = "쐐기 툴팁 헤드라인"
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "쐐기 및 레이드 툴팁"
 L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = "쐐기 및 레이드 진행 상황 표시 위치"
+--[[Translation missing --]]
+--[[ L["CONFIRM"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Raider.IO URL 복사"
 L["COPY_RAIDERIO_URL"] = "Raider.IO URL 복사"
 L["CURRENT_MAINS_SCORE"] = "주 캐릭터 현재 점수"
 L["CURRENT_SCORE"] = "현재 쐐기 점수"
+--[[Translation missing --]]
+--[[ L["DISABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "|cffFF3636공격전담|r"
 L["DPS_SCORE"] = "|cffFF3636공격전담|r 점수"
 L["DUNGEON_SHORT_NAME_AD"] = "아탈"
@@ -58,6 +64,8 @@ L["DUNGEON_SHORT_NAME_VOTW"] = "금고"
 L["DUNGEON_SHORT_NAME_WM"] = "저택"
 L["ENABLE_AUTO_FRAME_POSITION"] = "내 프로필 프레임 위치 자동화"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "활성화시 프로필 툴팁이 파티 구성하기나 플레이어 툴팁 옆에 유지됩니다."
+--[[Translation missing --]]
+--[[ L["ENABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "내 프로필 고정"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "내 프로필이 드래그 이동되는걸 방지합니다. 위치 자동화 설정을 사용중일 경우 효과가 없습니다."
 L["ENABLE_NO_SCORE_COLORS"] = "점수 색상 끄기"
@@ -209,6 +217,12 @@ L["TOTAL_RUNS"] = "총 격아 횟수"
 L["UNKNOWN_SCORE"] = "알수없음"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r: 새 서버가 발견되었습니다. |cffFF9999 {|r |cffFFFFFF%s|r  |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r의 정보를 적은 후 개발자에게 보고해주세요. 감사합니다!"
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: 내 프로필 고정 해제"
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_DEBUG_MODE_ENABLE"] = ""--]] 
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: 먼저 내 프로필 위치 자동화 설정을 비활성화해야 합니다."
 
 

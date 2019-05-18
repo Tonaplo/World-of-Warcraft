@@ -20,6 +20,8 @@ L["BEST_FOR_DUNGEON"] = "Beste Instanzwertung"
 L["BEST_RUN"] = "Bester Run"
 --[[Translation missing --]]
 --[[ L["BEST_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CANCEL"] = ""--]] 
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Ihre Änderungen wurden gespeichert, du musst jedoch die Benutzeroberfläche neu laden, damit diese wirksam werden.
 
 Möchtest du das jetzt tun?]=]
@@ -30,12 +32,16 @@ Möchtest du das jetzt tun?]=]
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Mythic+ und Raid Tooltips"
 --[[Translation missing --]]
 --[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CONFIRM"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Kopiere Raider.IO Link"
 L["COPY_RAIDERIO_URL"] = "Kopiere Raider.IO Link"
 --[[Translation missing --]]
 --[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["CURRENT_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DISABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "DPS Wertung"
 --[[Translation missing --]]
@@ -89,6 +95,8 @@ L["DPS_SCORE"] = "DPS Wertung"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Positioniere RaiderIO Profilfenster automatisch"
 --[[Translation missing --]]
 --[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ENABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Sperre meinen M+ Profilrahmen"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Verhindert das Ziehen des M+ Profilrahmens. Dies hat keine Wirkung, wenn der M+ Profilrahmen automatisch positioniert wird."
 L["ENABLE_NO_SCORE_COLORS"] = "Deaktiviere Wertungsfarben"
@@ -318,6 +326,12 @@ L["TOTAL_RUNS"] = "Anzahl BFA Runs"
 L["UNKNOWN_SCORE"] = "Unbekannt"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r hat einen neuen Server gefunden. Bitte schreibe folgende information auf: |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r . Danach schicke diese den Entwicklern. Danke!"
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: Entsperre das M+ Profilfenster."
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_DEBUG_MODE_ENABLE"] = ""--]] 
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Ihr müsst zuerst die automatische Positionierung des M+ Profils deaktivieren."
 
 

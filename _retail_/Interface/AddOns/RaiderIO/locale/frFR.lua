@@ -21,6 +21,8 @@ L["API_INVALID_DATABASE"] = [=[|cffFF0000Attention!|r Une base de données Raide
 L["BEST_FOR_DUNGEON"] = "Meilleure clé pour le donjon"
 L["BEST_RUN"] = "Meilleure clé"
 L["BEST_SCORE"] = "Meilleur Score M+ (%s)"
+--[[Translation missing --]]
+--[[ L["CANCEL"] = ""--]] 
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Vos changements ont été sauvegardé, mais il faut recharger l'interface pour qu'elles prennent effets.
 
 Voulez-vous faire cela maintenant ?]=]
@@ -30,12 +32,16 @@ L["CHECKBOX_DISPLAY_WEEKLY"] = "Hebdomadaire"
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Info-bulles de Mythique+ et de Raiding "
 --[[Translation missing --]]
 --[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CONFIRM"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Copier le profil Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Copier l'url Raider.IO"
 --[[Translation missing --]]
 --[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["CURRENT_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DISABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "Score en DPS"
 L["DUNGEON_SHORT_NAME_AD"] = "AD"
@@ -64,6 +70,8 @@ L["DUNGEON_SHORT_NAME_VOTW"] = "VOTW"
 L["DUNGEON_SHORT_NAME_WM"] = "WM"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Positionner le cadre de profil RaiderIO automatiquement "
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Activer cette option gardera l'info-bulle de profil M+ à côté du cadre de recherche de donjon ou de l'info-bulle du joueur. "
+--[[Translation missing --]]
+--[[ L["ENABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Verrouiller le cadre de profil RaiderIO"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Empêche le déplacement du cadre de profil M+. Cela n'a aucun effet si le cadre de profil M+ est configuré pour être positionné automatiquement. "
 L["ENABLE_NO_SCORE_COLORS"] = "Désactiver les couleurs de score"
@@ -253,6 +261,12 @@ L["TOTAL_MP_SCORE"] = "Score Mythique+"
 L["UNKNOWN_SCORE"] = "Inconnu"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r a rencontré une erreur. S'il vous plait, écrivez ces informations |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r et reporter le aux développers. Merci !"
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: Déverrouiller le cadre de profil M+."
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_DEBUG_MODE_ENABLE"] = ""--]] 
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Vous devez d'abord désactiver le positionnement automatique pour le profil RaiderIO."
 
 

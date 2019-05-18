@@ -15,4 +15,4 @@ RaiderIO_Config = {
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
 }
-RaiderIO_LastCharacter = "us-Praerend-icecrown"
+RaiderIO_LastCharacter = "us-Miriyal-icecrown"

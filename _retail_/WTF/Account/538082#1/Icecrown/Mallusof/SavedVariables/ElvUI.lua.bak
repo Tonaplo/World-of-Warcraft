@@ -1,118 +1,118 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/raid  roll 57 for |cffa335ee|Hitem:165505::::::::120:257::5:4:4823:1522:4786:5416:::|h[Robes of Biting Cold]|h|r", -- [1]
-		"...Are you not int he community anymore?", -- [2]
-		"/PULL 14", -- [3]
-		"/raid this is likely last pull", -- [4]
-		"/macro", -- [5]
-		"/raid BRB", -- [6]
-		"/iat", -- [7]
-		"/IAT", -- [8]
-		"/pull 100", -- [9]
-		"/raid dead for anyone else?", -- [10]
-		"/raid yup", -- [11]
-		"/focus", -- [12]
-		"/4 .... The duck?", -- [13]
-		"/raid BIO", -- [14]
-		"/rw YOU CANT TOUCH THE SPEAKER AT FIRST", -- [15]
-		"/PULL 15", -- [16]
-		"/raid  /tar focus/praise", -- [17]
-		"/pull 10", -- [18]
-		"/readycheck", -- [19]
-		"/PULL 10", -- [20]
+		"/raid |cffffff00|Hachievement:13501:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Gotta Bounce]|h|r", -- [1]
+		"/raid total hugs 8", -- [2]
+		"/PULL 15", -- [3]
+		"/g gZ!", -- [4]
+		"/g Welcome in the club", -- [5]
+		"/readycheck", -- [6]
+		"/bw", -- [7]
+		"/BW", -- [8]
+		"YES", -- [9]
+		"OIt's definitely not", -- [10]
+		"Yeah we are", -- [11]
+		"we just need another good crown", -- [12]
+		"wE NEED TO USE THE TANK THING CORRECTLY", -- [13]
+		"And pop another crown", -- [14]
+		"/pull 10", -- [15]
+		"Last phase is supposed to be long", -- [16]
+		"/FOCUS", -- [17]
+		"/PULL 10", -- [18]
+		"/4 no worries, Mark :)", -- [19]
+		"/rt", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"1", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"Orcish", -- [3]
+			"i cant make ityet", -- [1]
+			"Newc-Lightbringer", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"Newc-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2082, -- [11]
-			"Player-104-0A028C76", -- [12]
+			920, -- [11]
+			"Player-3694-07C1A422", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856525,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa22fc8Newc-Lightbringer|r",
+			[51] = 1558064830,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [1]
 		{
-			"1", -- [1]
-			"Sheilyana-Sargeras", -- [2]
-			"Orcish", -- [3]
+			"im gonna try a few more pulls but im exhausted and keep screwing things up so i may just step out", -- [1]
+			"Lucithy-SilverHand", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Sheilyana-Sargeras", -- [5]
+			"Lucithy-SilverHand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2084, -- [11]
-			"Player-76-09D1A268", -- [12]
+			921, -- [11]
+			"Player-12-0B3525E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cSheilyana-Sargeras|r",
-			[51] = 1556856527,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
+			[51] = 1558064836,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [2]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13430:Player-104-0A028C76:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[De Lurker Be'loa]|h|r!", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"summon me back plz", -- [1]
+			"Ryad-Terenas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"Ryad-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2091, -- [11]
-			"Player-104-0A028C76", -- [12]
+			922, -- [11]
+			"Player-90-079297DA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856560,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Ryad-Terenas|r",
+			[51] = 1558064840,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [3]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r To complete this achievement you will first need 3 players to collect snow mounds during the fight against Lady Jaina Proudmoore. The snow mounds can only be", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"no vantus runes on my AH", -- [1]
+			"Ryad-Terenas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"Ryad-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2112, -- [11]
-			"Player-104-0A028C76", -- [12]
+			924, -- [11]
+			"Player-90-079297DA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856577,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cfffe7b09Ryad-Terenas|r",
+			[51] = 1558064844,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [4]
 		{
-			"[IAT] found during the first intermission. The snow mounds will be evenly spread around the circular area so you will need at least 3 players on a fast class to start running as soon as the phase starts. Walk through a snow mound and a little snowflake ", -- [1]
+			"total hugs 8", -- [1]
 			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -122,7 +122,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2113, -- [11]
+			926, -- [11]
 			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -130,175 +130,175 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856577,
+			[51] = 1558064862,
 			[50] = "CHAT_MSG_RAID_LEADER",
 		}, -- [5]
 		{
-			"[IAT] will appear next to your characters. Once all 3 have been found, interrupt the boss to enter the next phase. The players who have the snowflake should stack near one of the barrels to create the Frosty Snowmon. Use ", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"highmaul", -- [1]
+			"Aurae-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2114, -- [11]
-			"Player-104-0A028C76", -- [12]
+			968, -- [11]
+			"Player-104-09944457", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856577,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff006fdcAurae|r",
+			[51] = 1558065156,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [6]
 		{
-			"[IAT] |cff71d5ff|Hspell:288218:0|h[Broadside]|h|r to remove the |cff71d5ff|Hspell:288219:0|h[Refractive Ice]|h|r from the barrel next to the Frosty Snowmon, and then attack the barrel. The explosion will cause the Frosty Snowmon to melt, which completed ", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"seperate lockouts right?", -- [1]
+			"Aurae-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2115, -- [11]
-			"Player-104-0A028C76", -- [12]
+			975, -- [11]
+			"Player-104-09944457", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856577,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff006fdcAurae|r",
+			[51] = 1558065162,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [7]
 		{
-			"[IAT] the criteria for this achievement.", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:11162:Player-104-08DA6998:1:5:16:19:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r!", -- [1]
+			"Valthier-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"Valthier-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2116, -- [11]
-			"Player-104-0A028C76", -- [12]
+			987, -- [11]
+			"Player-104-08DA6998", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856577,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffa22fc8Valthier|r",
+			[51] = 1558065232,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [8]
 		{
-			"anyone need |cffa335ee|Hitem:165506::::::::120:267::3:3:4798:1517:4783:::|h[Wavecaller Leggings]|h|r?", -- [1]
-			"Kiki-Lightbringer", -- [2]
-			"", -- [3]
+			"Torment", -- [1]
+			"Lucithy-SilverHand", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Kiki-Lightbringer", -- [5]
+			"Lucithy-SilverHand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2124, -- [11]
-			"Player-3694-06BF7E1F", -- [12]
+			1017, -- [11]
+			"Player-12-0B3525E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecKiki-Lightbringer|r",
-			[51] = 1556856625,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
+			[51] = 1558065368,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [9]
 		{
-			"back", -- [1]
-			"Jhasu-Lightbringer", -- [2]
+			"Hit 50 woot!", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2139, -- [11]
-			"Player-3694-07B594BA", -- [12]
+			1037, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556856748,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1558065479,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [10]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6688:Player-104-094C68A7:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Where's My Air Support?]|h|r!", -- [1]
-			"Oldera-Icecrown", -- [2]
+			"gZ!", -- [1]
+			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Oldera-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2155, -- [11]
-			"Player-104-094C68A7", -- [12]
+			1038, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeOldera|r",
-			[51] = 1556856797,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558065484,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [11]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Newc-Lightbringer has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (1/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"nice", -- [1]
+			"Oldesa-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2186, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1039, -- [11]
+			"Player-104-0A24D59F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856948,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cfff38bb9Oldesa|r",
+			[51] = 1558065484,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [12]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Ryad-Terenas has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (2/3)", -- [1]
+			"Welcome in the club", -- [1]
 			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2187, -- [11]
+			1040, -- [11]
 			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -306,2411 +306,892 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856961,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[51] = 1558065490,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [13]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Eldodin-KhazModan has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (3/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"ty", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2188, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1041, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556856968,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1558065501,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [14]
 		{
-			"3", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
+			"need a 5th for keys", -- [1]
+			"Oldesa-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2220, -- [11]
-			"Player-3694-07B594BA", -- [12]
+			1044, -- [11]
+			"Player-104-0A24D59F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556857021,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Oldesa|r",
+			[51] = 1558065532,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [15]
 		{
-			"2", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
+			"ToS?", -- [1]
+			"Bannanas-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2221, -- [11]
-			"Player-3694-07B594BA", -- [12]
+			1046, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556857022,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1558065551,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [16]
 		{
-			"1", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
+			"if we had one sure", -- [1]
+			"Oldesa-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2222, -- [11]
-			"Player-3694-07B594BA", -- [12]
+			1049, -- [11]
+			"Player-104-0A24D59F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556857023,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Oldesa|r",
+			[51] = 1558065562,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [17]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r FAILED!", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"waht do u need i havbe my lock", -- [1]
+			"Aurae-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2223, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1052, -- [11]
+			"Player-104-09944457", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857024,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff006fdcAurae|r",
+			[51] = 1558065566,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [18]
 		{
-			"if anyone has a caster spec for loot, I could use the trinket", -- [1]
-			"Mistaaytch-Lightbringer", -- [2]
+			"thats the only one i have decently geared", -- [1]
+			"Aurae-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mistaaytch-Lightbringer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2242, -- [11]
-			"Player-3694-06F7CB3D", -- [12]
+			1057, -- [11]
+			"Player-104-09944457", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
-			[51] = 1556857102,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcAurae|r",
+			[51] = 1558065579,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [19]
 		{
-			"Avalanche (1{rt1}) on Sheilyana", -- [1]
-			"Sheilyana-Sargeras", -- [2]
-			"Orcish", -- [3]
+			"a decent dps would be ideal", -- [1]
+			"Oldesa-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Sheilyana-Sargeras", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2252, -- [11]
-			"Player-76-09D1A268", -- [12]
+			1058, -- [11]
+			"Player-104-0A24D59F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cSheilyana-Sargeras|r",
-			[51] = 1556857141,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Oldesa|r",
+			[51] = 1558065582,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [20]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6485:Player-104-094C68A7:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Return to Sender]|h|r!", -- [1]
-			"Oldera-Icecrown", -- [2]
+			"mira is lead", -- [1]
+			"Oldesa-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Oldera-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2257, -- [11]
-			"Player-104-094C68A7", -- [12]
+			1060, -- [11]
+			"Player-104-0A24D59F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeOldera|r",
-			[51] = 1556857163,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Oldesa|r",
+			[51] = 1558065589,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [21]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Kalithumos-Tichondrius has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (1/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"lemme swap", -- [1]
+			"Aurae-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2276, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1061, -- [11]
+			"Player-104-09944457", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857287,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff006fdcAurae|r",
+			[51] = 1558065606,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [22]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Asahina-Lightbringer has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (2/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"My highest for DPS is a +12", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2277, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1063, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857289,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1558065613,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [23]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r FAILED! (Kalithumos-Tichondrius)", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"that work?", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2278, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1065, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857292,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1558065622,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [24]
 		{
-			"ok", -- [1]
-			"Newc-Lightbringer", -- [2]
+			"i think mira is picking up aurae's lock", -- [1]
+			"Oldesa-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2286, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1069, -- [11]
+			"Player-104-0A24D59F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857345,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff38bb9Oldesa|r",
+			[51] = 1558065646,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [25]
 		{
-			"ill go to her then orange right", -- [1]
-			"Newc-Lightbringer", -- [2]
+			"since he poped first", -- [1]
+			"Oldesa-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2287, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1070, -- [11]
+			"Player-104-0A24D59F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857350,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff38bb9Oldesa|r",
+			[51] = 1558065649,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [26]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6763:Player-104-094C68A7:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Siege of Niuzao Temple]|h|r!", -- [1]
-			"Oldera-Icecrown", -- [2]
+			"all good", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Oldera-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2288, -- [11]
-			"Player-104-094C68A7", -- [12]
+			1071, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeOldera|r",
-			[51] = 1556857373,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1558065655,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [27]
 		{
-			"Avalanche (1{rt1}) on Sheilyana", -- [1]
-			"Sheilyana-Sargeras", -- [2]
-			"Orcish", -- [3]
+			"curse yuo, vendiagrams", -- [1]
+			"Kesak-Lightbringer", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Sheilyana-Sargeras", -- [5]
+			"Kesak-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2302, -- [11]
-			"Player-76-09D1A268", -- [12]
+			1078, -- [11]
+			"Player-3694-06ADFA00", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cSheilyana-Sargeras|r",
-			[51] = 1556857457,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcKesak-Lightbringer|r",
+			[51] = 1558065681,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [28]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Asahina-Lightbringer has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (1/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"lol got this in my bags, just notced |cffffffff|Hitem:166264::::::::120:268::11::::|h[Recipe: Sanguinated Feast]|h|r", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2319, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1092, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857596,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1558065698,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [29]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Kalithumos-Tichondrius has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (2/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"lol catching up with Cloud, I am 417.69 in bags!", -- [1]
+			"Bannanas-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2320, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1099, -- [11]
+			"Player-104-08F84DBE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857606,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff00fe95Bannanas|r",
+			[51] = 1558065781,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [30]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Newc-Lightbringer has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (3/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"nice", -- [1]
+			"Oldesa-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2321, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1102, -- [11]
+			"Player-104-0A24D59F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857606,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cfff38bb9Oldesa|r",
+			[51] = 1558065794,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [31]
 		{
-			"Broadside 3 on {rt3}Asahina{rt3}", -- [1]
-			"Asahina-Lightbringer", -- [2]
-			"Orcish", -- [3]
+			"Shandai Shg'fhn naggwa'fssh ", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
 			"", -- [4]
-			"Asahina-Lightbringer", -- [5]
+			"Wafflecrew-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2323, -- [11]
-			"Player-3694-072ED39F", -- [12]
+			1141, -- [11]
+			"Player-90-00C4A012", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Asahina-Lightbringer|r",
-			[51] = 1556857620,
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558066083,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [32]
 		{
-			"Broadside 2 on {rt2}Eldodin{rt2}", -- [1]
-			"Eldodin-KhazModan", -- [2]
-			"Orcish", -- [3]
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Eldodin-KhazModan", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2324, -- [11]
-			"Player-121-0603BB82", -- [12]
+			1157, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecEldodin-KhazModan|r",
-			[51] = 1556857620,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558066168,
+			[50] = "CHAT_MSG_RAID_LEADER",
 		}, -- [33]
 		{
-			"Broadside 1 on {rt1}Lucithy{rt1}", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
+			"Mallusof-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2325, -- [11]
-			"Player-12-0B3525E4", -- [12]
+			1160, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556857620,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558066189,
+			[50] = "CHAT_MSG_RAID_LEADER",
 		}, -- [34]
 		{
-			"{rt2}3", -- [1]
-			"Eldodin-KhazModan", -- [2]
-			"Orcish", -- [3]
+			"cauldron is still up if you need it", -- [1]
+			"Mistaaytch-Lightbringer", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Eldodin-KhazModan", -- [5]
+			"Mistaaytch-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2328, -- [11]
-			"Player-121-0603BB82", -- [12]
+			1161, -- [11]
+			"Player-3694-06F7CB3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecEldodin-KhazModan|r",
-			[51] = 1556857623,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
+			[51] = 1558066222,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [35]
 		{
-			"{rt1}3", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
+			"Shandai Shg'fhn naggwa'fssh ", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
 			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
+			"Wafflecrew-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2329, -- [11]
-			"Player-12-0B3525E4", -- [12]
+			1178, -- [11]
+			"Player-90-00C4A012", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556857623,
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558066416,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [36]
 		{
-			"{rt3}3", -- [1]
-			"Asahina-Lightbringer", -- [2]
-			"Orcish", -- [3]
+			"Interrupted Primordial Mindbender's |cff71d5ff|Hspell:285427:0|h[Consume Essence]|h|r!", -- [1]
+			"Marksopp-Lightbringer", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Asahina-Lightbringer", -- [5]
+			"Marksopp-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2330, -- [11]
-			"Player-3694-072ED39F", -- [12]
+			1181, -- [11]
+			"Player-3694-071B2CBF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Asahina-Lightbringer|r",
-			[51] = 1556857623,
+			[52] = "|cffc31d39Marksopp-Lightbringer|r",
+			[51] = 1558066419,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [37]
 		{
-			"{rt2}2", -- [1]
-			"Eldodin-KhazModan", -- [2]
-			"Orcish", -- [3]
+			"Torment", -- [1]
+			"Lucithy-SilverHand", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Eldodin-KhazModan", -- [5]
+			"Lucithy-SilverHand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2331, -- [11]
-			"Player-121-0603BB82", -- [12]
+			1205, -- [11]
+			"Player-12-0B3525E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecEldodin-KhazModan|r",
-			[51] = 1556857624,
+			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
+			[51] = 1558066627,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [38]
 		{
-			"{rt3}2", -- [1]
-			"Asahina-Lightbringer", -- [2]
-			"Orcish", -- [3]
+			"Torment", -- [1]
+			"Assta-Terenas", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Asahina-Lightbringer", -- [5]
+			"Assta-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2332, -- [11]
-			"Player-3694-072ED39F", -- [12]
+			1210, -- [11]
+			"Player-90-01A1A090", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Asahina-Lightbringer|r",
-			[51] = 1556857624,
+			[52] = "|cff3ec5e9Assta-Terenas|r",
+			[51] = 1558066669,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [39]
 		{
-			"{rt1}2", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
+			"Torment", -- [1]
+			"Newc-Lightbringer", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
+			"Newc-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2333, -- [11]
-			"Player-12-0B3525E4", -- [12]
+			1216, -- [11]
+			"Player-3694-07C1A422", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556857624,
+			[52] = "|cffa22fc8Newc-Lightbringer|r",
+			[51] = 1558066745,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [40]
 		{
-			"{rt3}1", -- [1]
-			"Asahina-Lightbringer", -- [2]
-			"Orcish", -- [3]
+			"what is the reason we have to occasionally stop dps?", -- [1]
+			"Kiki-Lightbringer", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Asahina-Lightbringer", -- [5]
+			"Kiki-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2335, -- [11]
-			"Player-3694-072ED39F", -- [12]
+			1234, -- [11]
+			"Player-3694-06BF7E1F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Asahina-Lightbringer|r",
-			[51] = 1556857625,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff8686ecKiki-Lightbringer|r",
+			[51] = 1558066850,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [41]
 		{
-			"{rt1}1", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
+			"not to aoe everyone", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
+			"Wafflecrew-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2336, -- [11]
-			"Player-12-0B3525E4", -- [12]
+			1235, -- [11]
+			"Player-90-00C4A012", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556857625,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558066859,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [42]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r FAILED!", -- [1]
-			"Mallusof-Icecrown", -- [2]
+			"oh so stop cleave only", -- [1]
+			"Kiki-Lightbringer", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"Kiki-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2337, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1239, -- [11]
+			"Player-3694-06BF7E1F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857630,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff8686ecKiki-Lightbringer|r",
+			[51] = 1558066908,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [43]
 		{
-			"i got ice blocked on her", -- [1]
-			"Newc-Lightbringer", -- [2]
+			"cause we hero, then every 10 sec I'm trying to pinch it off", -- [1]
+			"Kiki-Lightbringer", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"Kiki-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2338, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1241, -- [11]
+			"Player-3694-06BF7E1F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857632,
+			[52] = "|cff8686ecKiki-Lightbringer|r",
+			[51] = 1558066928,
 			[50] = "CHAT_MSG_RAID",
 		}, -- [44]
 		{
-			"Are you guys in Normal and nor Heroic for some reason?", -- [1]
-			"|Kq60|k", -- [2]
+			"autoattack :3", -- [1]
+			"Ryad-Terenas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Ryad-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2346, -- [11]
-			false, -- [12]
-			62, -- [13]
+			1242, -- [11]
+			"Player-90-079297DA", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Kaligon|r",
-			[51] = 1556857641,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Kaligon",
+			[52] = "|cfffe7b09Ryad-Terenas|r",
+			[51] = 1558066934,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [45]
 		{
-			"Hand of Frost on Lucithy", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2348, -- [11]
-			"Player-12-0B3525E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556857644,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
-		{
-			"its soo close to her", -- [1]
-			"Newc-Lightbringer", -- [2]
+			"so i should frozen orb! jk", -- [1]
+			"Assta-Terenas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"Assta-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2350, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1243, -- [11]
+			"Player-90-01A1A090", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857646,
+			[52] = "|cff3ec5e9Assta-Terenas|r",
+			[51] = 1558066942,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [46]
+		{
+			"only cleave I have is phantom singulairty", -- [1]
+			"Kiki-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kiki-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1246, -- [11]
+			"Player-3694-06BF7E1F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecKiki-Lightbringer|r",
+			[51] = 1558066951,
 			[50] = "CHAT_MSG_RAID",
 		}, -- [47]
 		{
-			"if i nether walk can i get hit and not freeze?", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
+			"|cff71d5ff|Hspell:285427:0|h[Consume Essence]|h|r interrupted!", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"Wafflecrew-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2370, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1263, -- [11]
+			"Player-90-00C4A012", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857660,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558067118,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [48]
 		{
-			"i think i just have to be ready to back flip or something as soon as i touch it", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
+			"Interrupted Primordial Mindbender's |cff71d5ff|Hspell:285427:0|h[Consume Essence]|h|r!", -- [1]
+			"Marksopp-Lightbringer", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"Marksopp-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2384, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1267, -- [11]
+			"Player-3694-071B2CBF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857701,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Marksopp-Lightbringer|r",
+			[51] = 1558067151,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [49]
 		{
-			"lol", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
+			"It's just a jump to the left!", -- [1]
+			"Lucithy-SilverHand", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"Lucithy-SilverHand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2385, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1284, -- [11]
+			"Player-12-0B3525E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857704,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
+			[51] = 1558067310,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [50]
 		{
-			"ooo", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
+			"Torment", -- [1]
+			"Mistaaytch-Lightbringer", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"Mistaaytch-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2386, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1289, -- [11]
+			"Player-3694-06F7CB3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857715,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
+			[51] = 1558067350,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [51]
 		{
-			"Avalanche (1{rt1}) on Sheilyana", -- [1]
-			"Sheilyana-Sargeras", -- [2]
-			"Orcish", -- [3]
+			"Vwahuhn", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
 			"", -- [4]
-			"Sheilyana-Sargeras", -- [5]
+			"Wafflecrew-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2407, -- [11]
-			"Player-76-09D1A268", -- [12]
+			1295, -- [11]
+			"Player-90-00C4A012", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cSheilyana-Sargeras|r",
-			[51] = 1556857843,
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558067388,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [52]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Azsharys-SilverHand has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (1/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
+			"Torment", -- [1]
+			"Lucithy-SilverHand", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
+			"Lucithy-SilverHand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2422, -- [11]
-			"Player-104-0A028C76", -- [12]
+			1300, -- [11]
+			"Player-12-0B3525E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857918,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
+			[51] = 1558067428,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [53]
 		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Asahina-Lightbringer has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (2/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2423, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857923,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [54]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Lucithy-SilverHand has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (3/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2424, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857931,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [55]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r FAILED!", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2435, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556857947,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [56]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1789:Player-104-09D8A083:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Daily Chores]|h|r!", -- [1]
-			"Cloudcoastin-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Cloudcoastin-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2438, -- [11]
-			"Player-104-09D8A083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcCloudcoastin|r",
-			[51] = 1556857955,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
-		{
-			"Hand of Frost on Lucithy", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2439, -- [11]
-			"Player-12-0B3525E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556857958,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
-		{
-			"Hand of Frost on Mistaaytch", -- [1]
-			"Mistaaytch-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mistaaytch-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2441, -- [11]
-			"Player-3694-06F7CB3D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
-			[51] = 1556857958,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
-		{
-			"Hand of Frost on Mistaaytch", -- [1]
-			"Mistaaytch-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mistaaytch-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2443, -- [11]
-			"Player-3694-06F7CB3D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
-			[51] = 1556857959,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
-		{
-			"there was nothing by her", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2444, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857959,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [61]
-		{
-			"this time", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2446, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556857960,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [62]
-		{
-			"Hand of Frost on Ryad", -- [1]
-			"Ryad-Terenas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ryad-Terenas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2447, -- [11]
-			"Player-90-079297DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ryad-Terenas|r",
-			[51] = 1556857962,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
-		{
-			"3", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2469, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556857983,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
-		{
-			"Avalanche (1{rt1}) on Sheilyana", -- [1]
-			"Sheilyana-Sargeras", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Sheilyana-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2486, -- [11]
-			"Player-76-09D1A268", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cSheilyana-Sargeras|r",
-			[51] = 1556858071,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
-		{
-			"Avalanche (1{rt1}) on Sheilyana", -- [1]
-			"Sheilyana-Sargeras", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Sheilyana-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2496, -- [11]
-			"Player-76-09D1A268", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cSheilyana-Sargeras|r",
-			[51] = 1556858132,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
-		{
-			"def a slingshot", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2502, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858172,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [67]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Azsharys-SilverHand has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (1/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2512, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858214,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [68]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Asahina-Lightbringer has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (2/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2513, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858217,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [69]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Kalithumos-Tichondrius has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (3/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2516, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858230,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [70]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r FAILED!", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2517, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858234,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [71]
-		{
-			"for like .1 second so no", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2518, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858267,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [72]
-		{
-			"lol", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2520, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858269,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [73]
-		{
-			"Avalanche 1 on {rt1}Marksopp{rt1}", -- [1]
-			"Marksopp-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Marksopp-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2539, -- [11]
-			"Player-3694-071B2CBF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Marksopp-Lightbringer|r",
-			[51] = 1556858489,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13389:Player-104-094C68A7:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Jorundall]|h|r!", -- [1]
-			"Oldera-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Oldera-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2545, -- [11]
-			"Player-104-094C68A7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeOldera|r",
-			[51] = 1556858534,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Asahina-Lightbringer has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (1/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2552, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858578,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [76]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Lucithy-SilverHand has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (2/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2553, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858579,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [77]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Ryad-Terenas has gained |cff71d5ff|Hspell:289408:0|h[Collected Snow]|h|r (3/3)", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2554, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858579,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [78]
-		{
-			"Broadside 1 on {rt1}Ryad{rt1}", -- [1]
-			"Ryad-Terenas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ryad-Terenas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2556, -- [11]
-			"Player-90-079297DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ryad-Terenas|r",
-			[51] = 1556858585,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
-		{
-			"3", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2560, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556858588,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
-		{
-			"{rt1}3", -- [1]
-			"Ryad-Terenas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ryad-Terenas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2561, -- [11]
-			"Player-90-079297DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ryad-Terenas|r",
-			[51] = 1556858588,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
-		{
-			"2", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2562, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556858589,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
-		{
-			"{rt1}2", -- [1]
-			"Ryad-Terenas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ryad-Terenas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2563, -- [11]
-			"Player-90-079297DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ryad-Terenas|r",
-			[51] = 1556858589,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
-		{
-			"1", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2565, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556858590,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
-		{
-			"{rt1}1", -- [1]
-			"Ryad-Terenas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ryad-Terenas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2566, -- [11]
-			"Player-90-079297DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ryad-Terenas|r",
-			[51] = 1556858590,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
-		{
-			"Avalanche 4 on {rt4}Marksopp{rt4}", -- [1]
-			"Marksopp-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Marksopp-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2573, -- [11]
-			"Player-3694-071B2CBF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Marksopp-Lightbringer|r",
-			[51] = 1556858598,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
-		{
-			"Hand of Frost on Newc", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2575, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858603,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
-		{
-			"Hand of Frost on Kiki", -- [1]
-			"Kiki-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Kiki-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2576, -- [11]
-			"Player-3694-06BF7E1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecKiki-Lightbringer|r",
-			[51] = 1556858604,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
-		{
-			"Hand of Frost on Ryad", -- [1]
-			"Ryad-Terenas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ryad-Terenas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2578, -- [11]
-			"Player-90-079297DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Ryad-Terenas|r",
-			[51] = 1556858608,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
-		{
-			"Hand of Frost on Eldodin", -- [1]
-			"Eldodin-KhazModan", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Eldodin-KhazModan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2580, -- [11]
-			"Player-121-0603BB82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEldodin-KhazModan|r",
-			[51] = 1556858612,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
-		{
-			"Hand of Frost on Eldodin", -- [1]
-			"Eldodin-KhazModan", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Eldodin-KhazModan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2581, -- [11]
-			"Player-121-0603BB82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEldodin-KhazModan|r",
-			[51] = 1556858613,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
-		{
-			"Broadside 3 on {rt3}Newc{rt3}", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2582, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858616,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
-		{
-			"{rt1}3", -- [1]
-			"Nanaeve-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Nanaeve-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2584, -- [11]
-			"Player-3694-06B55BCE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Nanaeve-Lightbringer|r",
-			[51] = 1556858619,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
-		{
-			"{rt1}2", -- [1]
-			"Nanaeve-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Nanaeve-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2585, -- [11]
-			"Player-3694-06B55BCE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Nanaeve-Lightbringer|r",
-			[51] = 1556858620,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
-		{
-			"{rt3}1", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2586, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858621,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
-		{
-			"{rt1}1", -- [1]
-			"Nanaeve-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Nanaeve-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2587, -- [11]
-			"Player-3694-06B55BCE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Nanaeve-Lightbringer|r",
-			[51] = 1556858621,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
-		{
-			"[IAT] |cffffff00|Hachievement:13410:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[Snow Fun Allowed]|h|r Criteria has been met. Boss can now be killed!", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2590, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858624,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [97]
-		{
-			"Broadside (3{rt3}) on Jhasu", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2597, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556858648,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
-		{
-			"Broadside 1 on {rt1}Lucithy{rt1}", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2598, -- [11]
-			"Player-12-0B3525E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556858648,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [99]
-		{
-			"3", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2599, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556858651,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [100]
-		{
-			"{rt1}3", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2600, -- [11]
-			"Player-12-0B3525E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556858651,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [101]
-		{
-			"{rt1}2", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2601, -- [11]
-			"Player-12-0B3525E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556858652,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [102]
-		{
-			"{rt1}1", -- [1]
-			"Lucithy-SilverHand", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Lucithy-SilverHand", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2602, -- [11]
-			"Player-12-0B3525E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
-			[51] = 1556858653,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [103]
-		{
-			"Broadside (1{rt1}) on Mallusof", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2626, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858797,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [104]
-		{
-			"{rt3}3", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2628, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858800,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [105]
-		{
-			"3", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2629, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858800,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [106]
-		{
-			"3", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2630, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556858800,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [107]
-		{
-			"2", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2631, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858801,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [108]
-		{
-			"{rt3}2", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2632, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858801,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [109]
-		{
-			"2", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2633, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556858801,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [110]
-		{
-			"{rt3}1", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Newc-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2634, -- [11]
-			"Player-3694-07C1A422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858802,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [111]
-		{
-			"1", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2635, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858802,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [112]
-		{
-			"1", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2636, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1556858802,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [113]
-		{
-			"Broadside 2 on {rt2}Kiki{rt2}", -- [1]
-			"Kiki-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Kiki-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2645, -- [11]
-			"Player-3694-06BF7E1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecKiki-Lightbringer|r",
-			[51] = 1556858848,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [114]
-		{
-			"Broadside 3 on {rt3}Mistaaytch{rt3}", -- [1]
-			"Mistaaytch-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mistaaytch-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2646, -- [11]
-			"Player-3694-06F7CB3D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
-			[51] = 1556858848,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [115]
-		{
-			"{rt2}3", -- [1]
-			"Kiki-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Kiki-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2649, -- [11]
-			"Player-3694-06BF7E1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecKiki-Lightbringer|r",
-			[51] = 1556858851,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [116]
-		{
-			"{rt3}3", -- [1]
-			"Mistaaytch-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mistaaytch-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2650, -- [11]
-			"Player-3694-06F7CB3D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
-			[51] = 1556858851,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [117]
-		{
-			"{rt2}2", -- [1]
-			"Kiki-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Kiki-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2651, -- [11]
-			"Player-3694-06BF7E1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecKiki-Lightbringer|r",
-			[51] = 1556858852,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [118]
-		{
-			"{rt3}2", -- [1]
-			"Mistaaytch-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mistaaytch-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2652, -- [11]
-			"Player-3694-06F7CB3D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
-			[51] = 1556858852,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [119]
-		{
-			"{rt2}1", -- [1]
-			"Kiki-Lightbringer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Kiki-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2653, -- [11]
-			"Player-3694-06BF7E1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecKiki-Lightbringer|r",
-			[51] = 1556858853,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [120]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13410:Player-104-0A028C76:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Snow Fun Allowed]|h|r!", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2659, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858903,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [121]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13315:Player-104-0A028C76:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Glory of the Dazar'alor Raider]|h|r!", -- [1]
-			"Mallusof-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2674, -- [11]
-			"Player-104-0A028C76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1556858903,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [122]
-		{
-			"grats", -- [1]
-			"Bjorne-Icecrown", -- [2]
+			"Wheesh that was a lot of healing", -- [1]
+			"|Kq92|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2719,7 +1200,471 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2688, -- [11]
+			1308, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558067455,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [54]
+		{
+			"YES", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1312, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558067476,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Kalithumos",
+		}, -- [55]
+		{
+			"I keep getting Oblivion Tear", -- [1]
+			"Ryad-Terenas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ryad-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1313, -- [11]
+			"Player-90-079297DA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ryad-Terenas|r",
+			[51] = 1558067480,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [56]
+		{
+			"during my tranq", -- [1]
+			"Ryad-Terenas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ryad-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1315, -- [11]
+			"Player-90-079297DA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ryad-Terenas|r",
+			[51] = 1558067483,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [57]
+		{
+			"Maddening Eyes of N'Zoth on Mistaaytch", -- [1]
+			"Mistaaytch-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mistaaytch-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1369, -- [11]
+			"Player-3694-06F7CB3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
+			[51] = 1558067696,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"Ag'thyzak Vwah ez UOVssh za Ak'agthshi", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1372, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558067696,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [59]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1380, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558067725,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [60]
+		{
+			"i hit release because i saw a flash", -- [1]
+			"Marksopp-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Marksopp-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1382, -- [11]
+			"Player-3694-071B2CBF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Marksopp-Lightbringer|r",
+			[51] = 1558067753,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [61]
+		{
+			"this is gonna have to be my last pull im falling asleep over here", -- [1]
+			"Lucithy-SilverHand", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lucithy-SilverHand", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1383, -- [11]
+			"Player-12-0B3525E4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
+			[51] = 1558067756,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [62]
+		{
+			"oopsie", -- [1]
+			"Marksopp-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Marksopp-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1384, -- [11]
+			"Player-3694-071B2CBF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Marksopp-Lightbringer|r",
+			[51] = 1558067758,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [63]
+		{
+			"10 min cd, but resets on wipe", -- [1]
+			"Kiki-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kiki-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1385, -- [11]
+			"Player-3694-06BF7E1F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecKiki-Lightbringer|r",
+			[51] = 1558067768,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [64]
+		{
+			"Maddening Eyes of N'Zoth on Eldodin", -- [1]
+			"Eldodin-KhazModan", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Eldodin-KhazModan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1400, -- [11]
+			"Player-121-0603BB82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecEldodin-KhazModan|r",
+			[51] = 1558067911,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [65]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1411, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558067944,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [66]
+		{
+			"Shandai Shg'fhn naggwa'fssh ", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1439, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558068177,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [67]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12841:Player-104-09CD5E92:1:5:16:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Tol Dagor]|h|r!", -- [1]
+			"Relissela-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relissela-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1442, -- [11]
+			"Player-104-09CD5E92", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecRelissela-Malygos|r",
+			[51] = 1558068196,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [68]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12842:Player-104-09CD5E92:1:5:16:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Tol Dagor]|h|r!", -- [1]
+			"Relissela-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relissela-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1443, -- [11]
+			"Player-104-09CD5E92", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecRelissela-Malygos|r",
+			[51] = 1558068196,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [69]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12840:Player-104-09479978:1:5:16:19:4294967295:4294967295:4294967295:4294967295|h[Tol Dagor]|h|r!", -- [1]
+			"Algopewpew-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Algopewpew-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1444, -- [11]
+			"Player-104-09479978", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Algopewpew|r",
+			[51] = 1558068196,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12841:Player-104-09479978:1:5:16:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Tol Dagor]|h|r!", -- [1]
+			"Algopewpew-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Algopewpew-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1445, -- [11]
+			"Player-104-09479978", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Algopewpew|r",
+			[51] = 1558068196,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [71]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12842:Player-104-09479978:1:5:16:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Tol Dagor]|h|r!", -- [1]
+			"Algopewpew-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Algopewpew-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1446, -- [11]
+			"Player-104-09479978", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Algopewpew|r",
+			[51] = 1558068196,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [72]
+		{
+			"Vwahuhn", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1456, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558068299,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [73]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1480, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558068483,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [74]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10830:Player-104-09D3F1BD:1:5:16:19:4294967295:4294967295:4294967295:4294967295|h[Took the Red Eye Down]|h|r!", -- [1]
+			"Bjorne-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bjorne-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1500, -- [11]
 			"Player-104-09D3F1BD", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2727,78 +1672,78 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cBjorne|r",
-			[51] = 1556858917,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [123]
+			[51] = 1558068686,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [75]
 		{
-			"|cffa335ee|Hitem:165566::::::::120:70::3:4:4798:42:1507:4786:::|h[Lord Admiral's Signet]|h|r", -- [1]
-			"Kalithumos-Tichondrius", -- [2]
-			"", -- [3]
+			"Vwahuhn", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
 			"", -- [4]
-			"Kalithumos-Tichondrius", -- [5]
+			"Wafflecrew-Terenas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2715, -- [11]
-			"Player-11-073C4A30", -- [12]
+			1527, -- [11]
+			"Player-90-00C4A012", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Kalithumos-Tichondrius|r",
-			[51] = 1556858929,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [124]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558068887,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [76]
 		{
-			"call it, orphans need help", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
+			"Torment", -- [1]
+			"Nanaeve-Lightbringer", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"Nanaeve-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2722, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1529, -- [11]
+			"Player-3694-06B55BCE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858970,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [125]
+			[52] = "|cfffe7b09Nanaeve-Lightbringer|r",
+			[51] = 1558068927,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [77]
 		{
-			"haha", -- [1]
-			"Newc-Lightbringer", -- [2]
-			"", -- [3]
+			"Torment", -- [1]
+			"Azsharys-SilverHand", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Newc-Lightbringer", -- [5]
+			"Azsharys-SilverHand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2724, -- [11]
-			"Player-3694-07C1A422", -- [12]
+			1534, -- [11]
+			"Player-12-0B1F5B13", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Newc-Lightbringer|r",
-			[51] = 1556858977,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [126]
+			[52] = "|cfffe7b09Azsharys-SilverHand|r",
+			[51] = 1558068967,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [78]
 		{
-			"Hey hope the RAID is going well", -- [1]
-			"Orynge-Icecrown", -- [2]
+			"Idk this feels just about impossible", -- [1]
+			"|Kq92|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2807,16 +1752,1087 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1572, -- [11]
-			"Player-104-08F6850B", -- [12]
+			1550, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069012,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [79]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1551, -- [11]
+			"Player-104-0A028C76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Orynge|r",
-			[51] = 1557032008,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558069013,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [80]
+		{
+			"There's no way we make another 15% out of that", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1552, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069020,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [81]
+		{
+			"OIt's definitely not", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1553, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069020,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Kalithumos",
+		}, -- [82]
+		{
+			"Yeah we are", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1554, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069028,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Kalithumos",
+		}, -- [83]
+		{
+			"we just need another good crown", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1560, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069038,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Kalithumos",
+		}, -- [84]
+		{
+			"teh heck we going to do differently to last another full minute?", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1563, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069044,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [85]
+		{
+			"lock rocks?", -- [1]
+			"Azsharys-SilverHand", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Azsharys-SilverHand", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1570, -- [11]
+			"Player-12-0B1F5B13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Azsharys-SilverHand|r",
+			[51] = 1558069060,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [86]
+		{
+			"ty", -- [1]
+			"Azsharys-SilverHand", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Azsharys-SilverHand", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1574, -- [11]
+			"Player-12-0B1F5B13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Azsharys-SilverHand|r",
+			[51] = 1558069071,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [87]
+		{
+			"wE NEED TO USE THE TANK THING CORRECTLY", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1576, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069079,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Kalithumos",
+		}, -- [88]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:32:Player-104-0A2F0FFC:1:5:16:19:4294967295:4294967295:4294967295:4294967295|h[2000 Quests Completed]|h|r!", -- [1]
+			"Naturesight-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Naturesight-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1577, -- [11]
+			"Player-104-0A2F0FFC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Naturesight|r",
+			[51] = 1558069083,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [89]
+		{
+			"And pop another crown", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1580, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069086,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Kalithumos",
+		}, -- [90]
+		{
+			"we can't do enough hps to keep everyone with the debuff alive", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1588, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069178,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [91]
+		{
+			"and our dps is too low already", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1591, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069202,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [92]
+		{
+			"|cff71d5ff|Hspell:285427:0|h[Consume Essence]|h|r interrupted!", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1605, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558069277,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"|cff71d5ff|Hspell:285427:0|h[Consume Essence]|h|r interrupted!", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1613, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558069338,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [94]
+		{
+			"Torment", -- [1]
+			"Assta-Terenas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Assta-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1618, -- [11]
+			"Player-90-01A1A090", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Assta-Terenas|r",
+			[51] = 1558069401,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"Vwahuhn", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1626, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558069482,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"Torment", -- [1]
+			"Newc-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Newc-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1634, -- [11]
+			"Player-3694-07C1A422", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Newc-Lightbringer|r",
+			[51] = 1558069522,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"We", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1637, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069533,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [98]
+		{
+			"aren't even halfway through the phase even burning hero", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1638, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069540,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [99]
+		{
+			"Last phase is supposed to be long", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1640, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069565,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Kalithumos",
+		}, -- [100]
+		{
+			"<Deadly Boss Mods> Kalithumos is busy fighting against Heroic - Uu'nat (19% (Stage 3), 6/15 people alive)", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1641, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069565,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [101]
+		{
+			"<DBM> Kalithumos has wiped on Heroic - Uu'nat at 20% (Stage 3)", -- [1]
+			"|Kq92|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1647, -- [11]
+			false, -- [12]
+			93, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kalithumos|r",
+			[51] = 1558069591,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Kalithumos",
+		}, -- [102]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1649, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558069603,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [103]
+		{
+			"5 can truck the tank", -- [1]
+			"Marksopp-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Marksopp-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1655, -- [11]
+			"Player-3694-071B2CBF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Marksopp-Lightbringer|r",
+			[51] = 1558069672,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [104]
+		{
+			"Ulthalesh mog still leaves soul orbs all over the place", -- [1]
+			"Kiki-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kiki-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1665, -- [11]
+			"Player-3694-06BF7E1F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecKiki-Lightbringer|r",
+			[51] = 1558069779,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [105]
+		{
+			"Torment", -- [1]
+			"Eldodin-KhazModan", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Eldodin-KhazModan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1697, -- [11]
+			"Player-121-0603BB82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecEldodin-KhazModan|r",
+			[51] = 1558070068,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [106]
+		{
+			"Torment", -- [1]
+			"Mistaaytch-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mistaaytch-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1700, -- [11]
+			"Player-3694-06F7CB3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
+			[51] = 1558070109,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [107]
+		{
+			"Insatiable Torment on Êlwen", -- [1]
+			"Êlwen-KhazModan", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Êlwen-KhazModan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1704, -- [11]
+			"Player-121-08149B1C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Êlwen-KhazModan|r",
+			[51] = 1558070148,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [108]
+		{
+			"Torment", -- [1]
+			"Assta-Terenas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Assta-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1713, -- [11]
+			"Player-90-01A1A090", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Assta-Terenas|r",
+			[51] = 1558070188,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [109]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1720, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558070209,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [110]
+		{
+			"moar dots", -- [1]
+			"Kiki-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kiki-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1723, -- [11]
+			"Player-3694-06BF7E1F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecKiki-Lightbringer|r",
+			[51] = 1558070241,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [111]
+		{
+			"Shandai Shg'fhn naggwa'fssh ", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1746, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558070436,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [112]
+		{
+			"Shandai Shg'fhn naggwa'fssh ", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1755, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558070497,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [113]
+		{
+			"Torment", -- [1]
+			"Newc-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Newc-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1763, -- [11]
+			"Player-3694-07C1A422", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Newc-Lightbringer|r",
+			[51] = 1558070565,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [114]
+		{
+			"Torment", -- [1]
+			"Eldodin-KhazModan", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Eldodin-KhazModan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1768, -- [11]
+			"Player-121-0603BB82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecEldodin-KhazModan|r",
+			[51] = 1558070605,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [115]
+		{
+			"Vwahuhn", -- [1]
+			"Wafflecrew-Terenas", -- [2]
+			"Shath'Yar", -- [3]
+			"", -- [4]
+			"Wafflecrew-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1772, -- [11]
+			"Player-90-00C4A012", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeWafflecrew-Terenas|r",
+			[51] = 1558070645,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [116]
+		{
+			"Torment", -- [1]
+			"Nanaeve-Lightbringer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nanaeve-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1778, -- [11]
+			"Player-3694-06B55BCE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nanaeve-Lightbringer|r",
+			[51] = 1558070685,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [117]
+		{
+			"Insatiable Torment on Êlwen", -- [1]
+			"Êlwen-KhazModan", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Êlwen-KhazModan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1790, -- [11]
+			"Player-121-08149B1C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Êlwen-KhazModan|r",
+			[51] = 1558070766,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [118]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1796, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558070813,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [119]
+		{
+			"if we live to the end anyway just crown on 2 adds or soemthing when its safe so we get some benifit from it?", -- [1]
+			"Newc-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Newc-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1800, -- [11]
+			"Player-3694-07C1A422", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Newc-Lightbringer|r",
+			[51] = 1558070875,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [120]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1841, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558071193,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [121]
+		{
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1842, -- [11]
+			"Player-104-0A028C76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1558071200,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [122]
+		{
+			"thanks all", -- [1]
+			"Kiki-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kiki-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1843, -- [11]
+			"Player-3694-06BF7E1F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecKiki-Lightbringer|r",
+			[51] = 1558071203,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [123]
+		{
+			"ty !", -- [1]
+			"Êlwen-KhazModan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Êlwen-KhazModan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1844, -- [11]
+			"Player-121-08149B1C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Êlwen-KhazModan|r",
+			[51] = 1558071211,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [124]
+		{
+			"ty", -- [1]
+			"Assta-Terenas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Assta-Terenas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1845, -- [11]
+			"Player-90-01A1A090", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Assta-Terenas|r",
+			[51] = 1558071211,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [125]
+		{
+			"Thanks for the raid", -- [1]
+			"Marksopp-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Marksopp-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1847, -- [11]
+			"Player-3694-071B2CBF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Marksopp-Lightbringer|r",
+			[51] = 1558071217,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [126]
+		{
+			"Sorry for missing last week", -- [1]
+			"Marksopp-Lightbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Marksopp-Lightbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1852, -- [11]
+			"Player-3694-071B2CBF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Marksopp-Lightbringer|r",
+			[51] = 1558071219,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [127]
 	},
 }
