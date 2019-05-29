@@ -64,3 +64,5 @@ XLoot_Options: enabled
 ParagonReputation: enabled
 VuhDo: enabled
 VuhDoOptions: enabled
+ElvUI: enabled
+ElvUI_Config: enabled

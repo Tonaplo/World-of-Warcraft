@@ -65,3 +65,5 @@ ParagonReputation: enabled
 VuhDo: enabled
 VuhDoOptions: enabled
 BigWigs_Azeroth: enabled
+ElvUI: enabled
+ElvUI_Config: enabled

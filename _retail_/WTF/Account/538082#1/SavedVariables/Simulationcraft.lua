@@ -1,29 +1,47 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
-		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
-		["Kaldorath - Icecrown"] = "Kaldorath - Icecrown",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
+		["Faerand - Icecrown"] = "Faerand - Icecrown",
+		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
+		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
-		["Praerend - Icecrown"] = "Praerend - Icecrown",
+		["Praerend - Icecrown"] = "DPS",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
-		["Greybone - Icecrown"] = "Greybone - Icecrown",
-		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
+		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Weston - Icecrown"] = "Weston - Icecrown",
+		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Beathe - Frostwolf"] = "Beathe - Frostwolf",
-		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
-		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
-		["Mallusof - Icecrown"] = "Mallusof - Icecrown",
+		["Kaldorath - Icecrown"] = "Tank",
+		["Alura - Tichondrius"] = "Alura - Tichondrius",
+		["Mallusof - Icecrown"] = "DPS",
 	},
 	["profiles"] = {
-		["Luugo - Frostwolf"] = {
-		},
-		["Kaldorath - Icecrown"] = {
+		["Tank"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Miriyal - Icecrown"] = {
+		},
+		["Faerand - Icecrown"] = {
+		},
+		["Rahran - Icecrown"] = {
+		},
+		["Fandagny - Frostwolf"] = {
+		},
+		["Korugen - Icecrown"] = {
+		},
+		["Luugo - Frostwolf"] = {
+		},
+		["Greybone - Icecrown"] = {
+		},
+		["Weston - Icecrown"] = {
 		},
 		["Farahn - Icecrown"] = {
 		},
@@ -33,23 +51,35 @@ SimulationCraftDB = {
 		},
 		["Tyindel - Frostwolf"] = {
 		},
-		["Greybone - Icecrown"] = {
+		["Alianalen - Frostwolf"] = {
 		},
-		["Rahran - Icecrown"] = {
+		["Thedodrouk - Icecrown"] = {
 		},
-		["Korugen - Icecrown"] = {
-		},
-		["Weston - Icecrown"] = {
+		["healer"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Kindhoof - Tichondrius"] = {
 		},
+		["DPS"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
 		["Beathe - Frostwolf"] = {
 		},
-		["Fandagny - Frostwolf"] = {
+		["Kaldorath - Icecrown"] = {
 		},
-		["Alianalen - Frostwolf"] = {
+		["Alura - Tichondrius"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Mallusof - Icecrown"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 	},
 }

@@ -2,6 +2,7 @@
 -- Namespaces
 --------------------------------------
 local _, core = ...
+local L = core.L
 
 ------------------------------------------------------
 ---- _720 Bosses
@@ -23,7 +24,7 @@ local fieryTornadoFailed = false
 local cinderwebDroneList = {}
 
 ------------------------------------------------------
----- Beth'tilac
+---- Baleroc
 ------------------------------------------------------
 local tormentStacks = {}
 
@@ -38,33 +39,76 @@ local onlyThePenitentFailed = false
 local lavaLoggedCounter = 0
 local livingMeteorIds = {}
 
+------------------------------------------------------
+---- Shannox
+------------------------------------------------------
+local placesVisited = 0
+local location1 = false
+local location2 = false
+local location3 = false
+local location4 = false
+local location5 = false
+
 
 function core._720:Alysrazor()
 	--Brushfire
 	if core.type == "SPELL_DAMAGE" and core.spellId == 98885 and brushfireFailed == false then
-		core:getAchievementFailedWithMessageBeforeAndAfter(core.spellName .. " part of","by (" .. core.destName .. ")")
+		core:getAchievementFailedWithMessageAfter("(" .. core.destName .. ") (" .. L["Core_Reason"] .. ": " .. core.spellName)
 		brushfireFailed = true
 	end
 
 	--Lava Spew
 	if core.type == "SPELL_DAMAGE" and core.spellId == 99336 and lavaSpewFailed == false then
-		core:getAchievementFailedWithMessageBeforeAndAfter(core.spellName .. " part of","by (" .. core.destName .. ")")
+		core:getAchievementFailedWithMessageAfter("(" .. core.destName .. ") (" .. L["Core_Reason"] .. ": " .. core.spellName)
 		lavaSpewFailed = true	
 	end
 
 	--Increndiary Cloud
 	if core.type == "SPELL_DAMAGE" and core.spellId == 99427 and incendiaryCloudFailed == false then
-		core:getAchievementFailedWithMessageBeforeAndAfter(core.spellName .. " part of","by (" .. core.destName .. ")")
+		core:getAchievementFailedWithMessageAfter("(" .. core.destName .. ") (" .. L["Core_Reason"] .. ": " .. core.spellName)
 		incendiaryCloudFailed = true		
 	end
 
 	--Fiery Tornado
 	if core.type == "SPELL_DAMAGE" and core.spellId == 99816 and fieryTornadoFailed == false then
-		core:getAchievementFailedWithMessageBeforeAndAfter(core.spellName .. " part of","by (" .. core.destName .. ")")
+		core:getAchievementFailedWithMessageAfter("(" .. core.destName .. ") (" .. L["Core_Reason"] .. ": " .. core.spellName)
 		fieryTornadoFailed = true	
 	end
-
 end
+
+function core._720:Shannox()
+	--During a single engagement, bring Shannox to each of the following locations in the Firelands before dispatching him:
+	if core:getBlizzardTrackingStatus(5829, 1) and location1 == false then
+		location1 = true
+		placesVisited = placesVisited + 1
+		local location = GetAchievementCriteriaInfo(5829, 1);
+		core:sendMessage(core:getAchievement() .. " " .. location .. " " .. L["Shared_Completed"] .. " (" .. placesVisited .. "/5)")
+	elseif core:getBlizzardTrackingStatus(5829, 2) and location2 == false then
+		location2 = true
+		placesVisited = placesVisited + 1
+		local location = GetAchievementCriteriaInfo(5829, 2);
+		core:sendMessage(core:getAchievement() .. " " .. location .. " " .. L["Shared_Completed"] .. " (" .. placesVisited .. "/5)")
+	elseif core:getBlizzardTrackingStatus(5829, 3) and location3 == false then
+		location3 = true
+		placesVisited = placesVisited + 1
+		local location = GetAchievementCriteriaInfo(5829, 3);
+		core:sendMessage(core:getAchievement() .. " " .. location .. " " .. L["Shared_Completed"] .. " (" .. placesVisited .. "/5)")
+	elseif core:getBlizzardTrackingStatus(5829, 4) and location4 == false then
+		location4 = true
+		placesVisited = placesVisited + 1
+		local location = GetAchievementCriteriaInfo(5829, 4);
+		core:sendMessage(core:getAchievement() .. " " .. location .. " " .. L["Shared_Completed"] .. " (" .. placesVisited .. "/5)")
+	elseif core:getBlizzardTrackingStatus(5829, 5) and location5 == false then
+		location5 = true
+		placesVisited = placesVisited + 1
+		local location = GetAchievementCriteriaInfo(5829, 5);
+		core:sendMessage(core:getAchievement() .. " " .. location .. " " .. L["Shared_Completed"] .. " (" .. placesVisited .. "/5)")
+	end
+
+	if placesVisited == 5 then
+		core:getAchievementSuccess()
+	end
+end 
 
 function core._720:Bethtilac()
 	--Loop through all the unit auras currently active
@@ -83,21 +127,17 @@ function core._720:Baleroc()
 			tormentStacks[core.destName] = tormentStacks[core.destName] + 1
 			
 			if tormentStacks[core.destName] == 3 then
-				core:getAchievementFailedWithMessageAfter("by (" .. core.destName .. ")")
+				core:getAchievementFailedWithMessageAfter("(" .. core.destName .. ")")
 			end
 		end
 	end
 end
 
 function core._720:Ragnaros()
-	if core.type == "SPELL_AURA_APPLIED" and core.spellId == 101088 and core.destID == "53500" and livingMeteorIds[core.spawn_uid_dest] == nil then
-		lavaLoggedCounter = lavaLoggedCounter + 1
-		livingMeteorIds[core.spawn_uid_dest] = core.spawn_uid_dest
-		core:sendMessage(core:getAchievement() .. " Living Meteors ignited by Lava Wave (" .. lavaLoggedCounter .. "/3")
-		--print(lavaLoggedCounter)
-	end
+	--Defeat Ragnaros while three Living Meteors are ignited by Lava Wave.
 
-	if lavaLoggedCounter == 3 then
+	--Blizzard Tracker has gone white so achievement completed
+	if core:getBlizzardTrackingStatus(5855) == true then
 		core:getAchievementSuccess()
 	end
 end
@@ -117,7 +157,7 @@ function core._720:ClearVariables()
 	cinderwebDroneList = {}
 
 	------------------------------------------------------
-	---- Beth'tilac
+	---- Baleroc
 	------------------------------------------------------
 	tormentStacks = {}
 
@@ -126,11 +166,23 @@ function core._720:ClearVariables()
 	------------------------------------------------------
 	lavaLoggedCounter = 0
 	livingMeteorIds = {}
+
+	------------------------------------------------------
+	---- Shannox
+	------------------------------------------------------
+	placesVisited = 0
+	location1 = false
+	location2 = false
+	location3 = false
+	location4 = false
+	location5 = false
 end
 
 function core._720:InstanceCleanup()
     core._720.Events:UnregisterEvent("UNIT_POWER_UPDATE")
-    core._720.Events:UnregisterEvent("UNIT_AURA")
+	core._720.Events:UnregisterEvent("UNIT_AURA")
+	
+	onlyThePenitentFailed = false
 end
 
 function core._720:InitialSetup()
@@ -143,7 +195,7 @@ core._720.Events:SetScript("OnEvent", function(self, event, ...)
 end)
 
 function core._720.Events:UNIT_POWER_UPDATE(self, unit, powerType)
-	if core.Instances.Cataclysm.Raids[720].boss2.enabled == true then
+	if core.Instances[core.expansion][core.instanceType][core.instance]["boss2"].enabled == true then
 		if powerType == "ALTERNATE" then
 			if UnitPower(unit, ALTERNATE_POWER_INDEX) == 0 then
 				core:getAchievementFailed()
@@ -167,12 +219,12 @@ function core._720.Events:UNIT_AURA(self, unitID)
 	end
 end
 
-function core._720.TrackAdditional()
+function core._720:TrackAdditional()
 	--Only The Pentient
 	if core.Instances[core.expansion][core.instanceType][core.instance]["boss6"].enabled == true then
 		if onlyThePenitentFailed == false then
 			if (core.type == "SPELL_DAMAGE" or core.type == "SPELL_MISSED") and core.spellId == 99705 then
-				core:sendMessage(GetAchievementLink(5799) .. " FAILED! (" .. core.destName .. ")")
+				core:sendMessage(GetAchievementLink(5799) .. " " .. L["Core_Failed"] .. " (" .. core.destName .. ")",true)
 				onlyThePenitentFailed = true
 			end
 		end

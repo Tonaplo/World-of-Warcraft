@@ -42,12 +42,15 @@ local energyChargeKilled = false
 ------------------------------------------------------
 ---- Will of The Emperor
 ------------------------------------------------------
-local playerExecutedStrike = 0
+local playerExecutedStrikeJanxi = 0
+local playerExecutedStrikeQinxi = 0
 local playersFailCounter = {}
 local playersStrikeFailCounter = {}
 local timerStarted = false
 local inititalFailSetup = false
 local playerExecutedStrikeDisplay = 0
+local JanXiPlayers = {}
+local QinXiPlayers = {}
 
 function core._1008:TheStoneGuard()
 	--Defeat the Stone Guard in Mogu'shan Vaults on Normal or Heroic difficulty while every member of your raid is accompanied by a canine companion pet.
@@ -63,7 +66,7 @@ function core._1008:FengTheAccursed()
 		infoFrameShown = false   
 		mustLoveDogsActive = false
 	end
-
+	
 	if core.type == "SPELL_AURA_APPLIED" then
 		if core.spellId == 116936 and EpicenterReversed == false then
 			EpicenterReversed = true
@@ -189,10 +192,13 @@ function core._1008:ClearVariables()
 	------------------------------------------------------
 	---- Will of The Emperor
 	------------------------------------------------------
-	playerExecutedStrike = 0
+	playerExecutedStrikeJanxi = 0
+	playerExecutedStrikeQinxi = 0
 	playerExecutedStrikeDisplay = 0
 	timerStarted = false
 	inititalFailSetup = false
+	JanXiPlayers = {}
+	QinXiPlayers = {}
 
 	------------------------------------------------------
 	---- The Spirit Kings
@@ -237,6 +243,18 @@ function core._1008:InitialSetup()
 		mustLoveDogsActive = true
 		InfoFrame_UpdatePlayersOnInfoFrameWithAdditionalInfo()
 		InfoFrame_SetHeaderCounter(L["Shared_PlayersWithPet"],mustLoveDogsCounter,core.groupSize)
+    end
+end
+
+function core._1008:TrackAdditional()
+	if core.Instances[core.expansion][core.instanceType][core.instance]["boss1"].enabled == true then
+		if core.type == "UNIT_DIED" and (core.destID == "59915" or core.destID == "60051" or core.destID == "60047" or code.destID == "60043") then
+			print("Disabling InfoFrame")
+			TheStoneGuardKilled = true
+			core.IATInfoFrame:ToggleOff()
+			infoFrameShown = false   
+			mustLoveDogsActive = false
+        end
     end
 end
 
@@ -323,6 +341,7 @@ function core._1008.Events:UPDATE_MOUSEOVER_UNIT(self, unit, powerType)
 		if UnitGUID("mouseover") ~= nil then
 			local unitType, _, _, _, _, destID, spawn_uid_dest = strsplit("-", UnitGUID("mouseover"))
 			local petName = UnitName("mouseover")
+			local type, _, _, _, _, _, _ = strsplit("-", UnitGUID("mouseover"))
 			--<<<PETS THAT WORK>>>
 			--Perky Pug: 37865 (CONFIRMED)
 			--Core Hound Pup: 36871 (CONFIRMED)
@@ -335,42 +354,44 @@ function core._1008.Events:UPDATE_MOUSEOVER_UNIT(self, unit, powerType)
 			--Fjord Worg Pup
 
 			--Pets that work
-            if destID == "37865" or destID == "36871" or destID == "48641" or destID == "10259" or destID == "33529" then
-				--Get Owner of the pet from the Game Tooltip
-				local tip = myTooltipFromTemplate or CreateFrame("GAMETOOLTIP", "myTooltipFromTemplate",nil,"GameTooltipTemplate")
-				tip:SetOwner(WorldFrame, "ANCHOR_NONE")
-				tip:SetUnit("mouseover")
-				if tip:NumLines()>0 then
-					local name = myTooltipFromTemplateTextLeft2:GetText()
-					--We have the pet. Find player in group and set to complete
-					for player,status in pairs(core.InfoFrame_PlayersTable) do
-						if string.match(name, player) then
-							local success = InfoFrame_SetPlayerCompleteWithMessage(player, petName)
-							if success then
-								mustLoveDogsCounter = mustLoveDogsCounter + 1
-							end							
+			if type ~= "Pet" then
+				if destID == "37865" or destID == "36871" or destID == "48641" or destID == "10259" or destID == "33529" then
+					--Get Owner of the pet from the Game Tooltip
+					local tip = myTooltipFromTemplate or CreateFrame("GAMETOOLTIP", "myTooltipFromTemplate",nil,"GameTooltipTemplate")
+					tip:SetOwner(WorldFrame, "ANCHOR_NONE")
+					tip:SetUnit("mouseover")
+					if tip:NumLines()>0 then
+						local name = myTooltipFromTemplateTextLeft2:GetText()
+						--We have the pet. Find player in group and set to complete
+						for player,status in pairs(core.InfoFrame_PlayersTable) do
+							if string.match(name, player) then
+								local success = InfoFrame_SetPlayerCompleteWithMessage(player, petName)
+								if success then
+									mustLoveDogsCounter = mustLoveDogsCounter + 1
+								end							
+							end
 						end
+						tip:Hide()
 					end
-					tip:Hide()
+				else
+					--Get Owner of the pet from the Game Tooltip
+					local tip = myTooltipFromTemplate or CreateFrame("GAMETOOLTIP", "myTooltipFromTemplate",nil,"GameTooltipTemplate")
+					tip:SetOwner(WorldFrame, "ANCHOR_NONE")
+					tip:SetUnit("mouseover")
+					if tip:NumLines()>0 then
+						local name = myTooltipFromTemplateTextLeft2:GetText()
+						--We have the pet. Find player in group and set to complete
+						for player,status in pairs(core.InfoFrame_PlayersTable) do
+							if string.match(name, player) then
+								local success = InfoFrame_SetPlayerFailedWithMessage(player, petName)
+								if success then
+									mustLoveDogsCounter = mustLoveDogsCounter - 1
+								end									
+							end
+						end
+						tip:Hide()
+					end				
 				end
-			else
-				--Get Owner of the pet from the Game Tooltip
-				local tip = myTooltipFromTemplate or CreateFrame("GAMETOOLTIP", "myTooltipFromTemplate",nil,"GameTooltipTemplate")
-				tip:SetOwner(WorldFrame, "ANCHOR_NONE")
-				tip:SetUnit("mouseover")
-				if tip:NumLines()>0 then
-					local name = myTooltipFromTemplateTextLeft2:GetText()
-					--We have the pet. Find player in group and set to complete
-					for player,status in pairs(core.InfoFrame_PlayersTable) do
-						if string.match(name, player) then
-							local success = InfoFrame_SetPlayerFailedWithMessage(player, petName)
-							if success then
-								mustLoveDogsCounter = mustLoveDogsCounter - 1
-							end									
-						end
-					end
-					tip:Hide()
-				end				
 			end
 		end
 		InfoFrame_UpdatePlayersOnInfoFrameWithAdditionalInfo()
@@ -420,9 +441,12 @@ function core._1008:WillOfTheEmperor()
 		core:sendMessage(core.destName .. " " .. L["Shared_HitBy"] .. " " .. GetSpellLink(116969) .. " (" .. playersFailCounter[core.destName] .. ")")
 	end
 
+	--Jan-xi: 60400
+	--Qin-xi: 60399
+
 	--Executed opportunistic strike
 	if core.type == "SPELL_CAST_SUCCESS" and core.spellId == 116809 then
-		if playerExecutedStrike == 0 then
+		if playerExecutedStrikeJanxi == 0 and playerExecutedStrikeQinxi == 0 then
 			core:sendDebugMessage("Resetting Players")
 			--Reset Players
 			for player,status in pairs(core.InfoFrame_PlayersTable) do
@@ -432,23 +456,42 @@ function core._1008:WillOfTheEmperor()
 		end
 		local playerName = core.sourceName
 		if string.find(core.sourceName, "-") then
-			local name, realm = strsplit("-", player)
+			local name, realm = strsplit("-", core.sourceName)
 			playerName = name
 		end
 		core:sendDebugMessage(playerName)
 		core:sendDebugMessage(playersStrikeFailCounter[playerName])
-		InfoFrame_SetPlayerCompleteWithMessage(playerName, L["Shared_Fails"] .. ": " .. playersStrikeFailCounter[playerName])
+		-- InfoFrame_SetPlayerCompleteWithMessage(playerName, L["Shared_Fails"] .. ": " .. playersStrikeFailCounter[playerName])
 
-		playerExecutedStrike = playerExecutedStrike + 1
+		if core.destID == "60400" then
+			playerExecutedStrikeJanxi = playerExecutedStrikeJanxi + 1
+			table.insert(JanXiPlayers, playerName)
+		elseif core.destID == "60399" then
+			playerExecutedStrikeQinxi = playerExecutedStrikeQinxi + 1
+			table.insert(QinXiPlayers, playerName)
+		end
+		
 		if timerStarted == false then
 			timerStarted = true
 
-			C_Timer.After(10, function() 
-				if playerExecutedStrike == core.maxPlayers then
+			C_Timer.After(7, function() 
+				if playerExecutedStrikeJanxi == core.maxPlayers or playerExecutedStrikeQinxi == core.maxPlayers then
 					--core:sendMessage(core:getAchievement() .. " (" .. playerExecutedStrike .. "/" .. core.maxPlayers .. ") Opportunistic Strikes executed in time")					
 					core:getAchievementSuccess()
 				else
-					core:sendMessage(core:getAchievement() .. " " .. GetSpellLink(116809) .. " " .. L["Core_Counter"] .. " (" .. playerExecutedStrike .. "/" .. core.maxPlayers .. ")")
+					if playerExecutedStrikeJanxi >= playerExecutedStrikeQinxi then
+						for k, v in pairs(JanXiPlayers) do
+							InfoFrame_SetPlayerCompleteWithMessage(v, L["Shared_Fails"] .. ": " .. playersStrikeFailCounter[v])
+						end
+						playerExecutedStrikeDisplay = playerExecutedStrikeJanxi
+						core:sendMessage(core:getAchievement() .. " " .. GetSpellLink(116809) .. " " .. L["Core_Counter"] .. " (" .. playerExecutedStrikeJanxi .. "/" .. core.maxPlayers .. ")")					
+					elseif playerExecutedStrikeQinxi > playerExecutedStrikeJanxi then
+						for k, v in pairs(QinXiPlayers) do
+							InfoFrame_SetPlayerCompleteWithMessage(v, L["Shared_Fails"] .. ": " .. playersStrikeFailCounter[v])
+						end
+						playerExecutedStrikeDisplay = playerExecutedStrikeQinxi
+						core:sendMessage(core:getAchievement() .. " " .. GetSpellLink(116809) .. " " .. L["Core_Counter"] .. " (" .. playerExecutedStrikeQinxi .. "/" .. core.maxPlayers .. ")")					
+					end
 					core:sendMessageSafe(core:getAchievement() .. " " .. L["Shared_PlayersWhoDidNotUse"] .. " " .. GetSpellLink(116809) .. " " .. InfoFrame_GetIncompletePlayersWithAdditionalInfo(),true)
 				
 					--Increase Fail Counter for players who did not execute in time
@@ -461,12 +504,24 @@ function core._1008:WillOfTheEmperor()
 					end
 				end
 	
-				playerExecutedStrike = 0
-				playerExecutedStrikeDisplay = playerExecutedStrike
+				playerExecutedStrikeJanxi = 0
+				playerExecutedStrikeQinxi = 0
+				JanXiPlayers = {}
+				QinXiPlayers = {}
 				timerStarted = false
 			end)
 		else
-			if playerExecutedStrike == core.maxPlayers then					
+			if playerExecutedStrikeJanxi == core.maxPlayers then
+				for k, v in pairs(JanXiPlayers) do
+					InfoFrame_SetPlayerCompleteWithMessage(v, L["Shared_Fails"] .. ": " .. playersStrikeFailCounter[v])
+				end
+				playerExecutedStrikeDisplay = playerExecutedStrikeJanxi
+				core:getAchievementSuccess()
+			elseif playerExecutedStrikeQinxi == core.maxPlayers then
+				for k, v in pairs(QinXiPlayers) do
+					InfoFrame_SetPlayerCompleteWithMessage(v, L["Shared_Fails"] .. ": " .. playersStrikeFailCounter[v])
+				end
+				playerExecutedStrikeDisplay = playerExecutedStrikeQinxi
 				core:getAchievementSuccess()
 			end			
 		end

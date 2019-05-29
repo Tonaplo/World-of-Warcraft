@@ -1,0 +1,1138 @@
+
+RefluxDB = {
+	["emulated"] = {
+		"EasyFramesDB", -- [1]
+		"AzCastBar_Profiles", -- [2]
+		"VUHDO_OPTIONS_SETTINGS", -- [3]
+		"AzCastBar_Config", -- [4]
+		"AzCastBar_Config", -- [5]
+	},
+	["activeProfile"] = "DPS",
+	["addons"] = {
+		["healer"] = {
+		},
+	},
+	["ignored"] = {
+	},
+	["profiles"] = {
+		["Tank"] = {
+		},
+		["DPS"] = {
+			["AzCastBar_Profiles"] = {
+			},
+			["AzCastBar_Config"] = {
+				["Player"] = {
+					["vertTile"] = false,
+					["useSameBGTexture"] = true,
+					["showSpellTarget"] = false,
+					["showSpark"] = true,
+					["colSafezone"] = {
+						0.3, -- [1]
+						0.8, -- [2]
+						0.3, -- [3]
+						0.6, -- [4]
+					},
+					["colInterrupt"] = {
+						1, -- [1]
+						0.75, -- [2]
+						0.5, -- [3]
+					},
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["colBackdrop"] = {
+						0.101960784313725, -- [1]
+						0.219607843137255, -- [2]
+						0.349019607843137, -- [3]
+						1, -- [4]
+					},
+					["texture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+					["mergeTrade"] = true,
+					["safeZone"] = true,
+					["showRank"] = false,
+					["width"] = 200,
+					["reverseGrowth"] = false,
+					["bottom"] = 300,
+					["colFailed"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+					},
+					["left"] = 880,
+					["horzTile"] = false,
+					["colNonInterruptable"] = {
+						0.78, -- [1]
+						0.82, -- [2]
+						0.86, -- [3]
+					},
+					["bgFile"] = "Interface\\TabardFrame\\TabardFrameBackground",
+					["showTotalTime"] = true,
+				},
+				["Mirror"] = {
+					["left"] = 857.395629882813,
+					["anchorPoint"] = "LEFT",
+					["anchorOffset"] = 4,
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["timeOffsetX"] = -16,
+					["showTime"] = true,
+					["colBackdrop"] = {
+						0.101960784313725, -- [1]
+						0.219607843137255, -- [2]
+						0.349019607843137, -- [3]
+						1, -- [4]
+					},
+					["enabled"] = false,
+					["bgFile"] = "Interface\\Buttons\\WHITE8X8",
+					["hideIconBorder"] = false,
+					["bottom"] = 543.597534179688,
+					["colBackGround"] = {
+						0.3, -- [1]
+						0.3, -- [2]
+						0.3, -- [3]
+						0.5, -- [4]
+					},
+					["timeLabelAlign"] = "CENTER",
+					["iconAnchor"] = "LEFT",
+					["width"] = 32,
+					["nameFontSize"] = 10,
+					["backdropIndent"] = 0,
+					["timeFontSize"] = 10,
+					["colTimeLabel"] = {
+						1, -- [1]
+						0.82, -- [2]
+						0, -- [3]
+					},
+					["height"] = 32,
+					["timeOffsetY"] = -22,
+					["showLabel"] = false,
+					["iconOffset"] = 0,
+				},
+				["Focus"] = {
+					["vertTile"] = false,
+					["useSameBGTexture"] = true,
+					["reverseGrowth"] = false,
+					["showSpark"] = true,
+					["colInterrupt"] = {
+						1, -- [1]
+						0.75, -- [2]
+						0.5, -- [3]
+					},
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["colBackdrop"] = {
+						0.101960784313725, -- [1]
+						0.219607843137255, -- [2]
+						0.349019607843137, -- [3]
+						1, -- [4]
+					},
+					["texture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+					["showTotalTime"] = false,
+					["bottom"] = 796.835815429688,
+					["showRank"] = false,
+					["width"] = 140,
+					["colFailed"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+					},
+					["horzTile"] = false,
+					["colNonInterruptable"] = {
+						0.78, -- [1]
+						0.82, -- [2]
+						0.86, -- [3]
+					},
+					["bgFile"] = "Interface\\TabardFrame\\TabardFrameBackground",
+					["left"] = 309.914916992188,
+				},
+				["Target"] = {
+					["vertTile"] = false,
+					["useSameBGTexture"] = true,
+					["reverseGrowth"] = false,
+					["left"] = 880,
+					["colInterrupt"] = {
+						1, -- [1]
+						0.75, -- [2]
+						0.5, -- [3]
+					},
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["colBackdrop"] = {
+						0.101960784313725, -- [1]
+						0.219607843137255, -- [2]
+						0.349019607843137, -- [3]
+						1, -- [4]
+					},
+					["texture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+					["showTotalTime"] = true,
+					["bottom"] = 325,
+					["showRank"] = false,
+					["width"] = 200,
+					["colFailed"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+					},
+					["horzTile"] = false,
+					["colNonInterruptable"] = {
+						0.78, -- [1]
+						0.82, -- [2]
+						0.86, -- [3]
+					},
+					["bgFile"] = "Interface\\TabardFrame\\TabardFrameBackground",
+					["showSpark"] = true,
+				},
+				["Pet"] = {
+					["enabled"] = false,
+					["colInterrupt"] = {
+						1, -- [1]
+						0.75, -- [2]
+						0.5, -- [3]
+					},
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["bottom"] = 328.758178710938,
+					["colFailed"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+					},
+					["colNonInterruptable"] = {
+						0.78, -- [1]
+						0.82, -- [2]
+						0.86, -- [3]
+					},
+					["left"] = 73.5257263183594,
+					["showRank"] = false,
+				},
+				["optionsBottom"] = 639.316101074219,
+				["optionsLeft"] = 1134.09741210938,
+			},
+			["EasyFramesDB"] = {
+				["profileKeys"] = {
+					["Alura - Tichondrius"] = "Healers",
+					["Mallusof - Icecrown"] = "DPS",
+				},
+				["profiles"] = {
+					["DPS"] = {
+						["player"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["showGroupIndicator"] = true,
+							["playerNameFontFamily"] = "Friz Quadrata TT",
+							["showStatusTexture"] = false,
+							["useManaFormatFullValues"] = false,
+							["useHealthFormatFullValues"] = false,
+							["showAttackBackground"] = true,
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["showHitIndicator"] = true,
+							["showSpecialbar"] = true,
+							["manaBarFontStyle"] = "OUTLINE",
+							["showPVPIcon"] = true,
+							["playerNameFontSize"] = 10,
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["portrait"] = "1",
+							["showNameInsideFrame"] = true,
+							["showRoleIcon"] = false,
+							["showRestIcon"] = true,
+							["healthFormat"] = "3",
+							["manaBarFontSize"] = 10,
+							["scaleFrame"] = 1.2,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["showName"] = true,
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["healthBarFontSize"] = 10,
+							["attackBackgroundOpacity"] = 0.7,
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["healthBarFontStyle"] = "OUTLINE",
+							["playerNameFontStyle"] = "NONE",
+						},
+						["general"] = {
+							["forceManaBarTexture"] = false,
+							["maxBuffCount"] = 32,
+							["enemyFrameDefaultColors"] = {
+								1, -- [1]
+								0, -- [2]
+								0, -- [3]
+							},
+							["colorBasedOnCurrentHealth"] = false,
+							["highlightDispelledBuff"] = true,
+							["classColored"] = true,
+							["maxDebuffCount"] = 16,
+							["framesPoints"] = {
+								["target"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									200, -- [4]
+									-170, -- [5]
+								},
+								["player"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									-200, -- [4]
+									-170, -- [5]
+								},
+								["focus"] = {
+									"TOPLEFT", -- [1]
+									{
+										["variablesLoaded"] = true,
+										["firstTimeLoaded"] = 1,
+									}, -- [2]
+									"TOPLEFT", -- [3]
+									250.000015258789, -- [4]
+									-240, -- [5]
+								},
+							},
+							["lightTexture"] = false,
+							["showOnlyMyDebuff"] = false,
+							["showWelcomeMessage"] = true,
+							["classPortraits"] = true,
+							["hideOutOfCombatOpacity"] = 0.1,
+							["selfBuffSize"] = 28,
+							["barTexture"] = "Blizzard",
+							["neutralFrameDefaultColors"] = {
+								1, -- [1]
+								1, -- [2]
+								0, -- [3]
+							},
+							["friendlyFrameDefaultColors"] = {
+								0, -- [1]
+								1, -- [2]
+								0, -- [3]
+							},
+							["dispelledBuffScale"] = 1,
+							["frameToSetPoints"] = "target",
+							["brightFrameBorder"] = 1,
+							["ifPlayerCanDispelBuff"] = false,
+							["hideOutOfCombat"] = false,
+							["customBuffSize"] = true,
+							["hideOutOfCombatWithFullHP"] = false,
+							["buffSize"] = 22,
+						},
+						["focus"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["scaleFrame"] = 1.2,
+							["showToTFrame"] = true,
+							["useHealthFormatFullValues"] = false,
+							["showAttackBackground"] = false,
+							["showNameInsideFrame"] = true,
+							["reverseDirectionLosingHP"] = false,
+							["showPVPIcon"] = true,
+							["focusNameFontFamily"] = "Friz Quadrata TT",
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["focusNameFontSize"] = 10,
+							["attackBackgroundOpacity"] = 0.7,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["focusNameFontStyle"] = "NONE",
+							["healthFormat"] = "3",
+							["manaBarFontSize"] = 10,
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["useManaFormatFullValues"] = false,
+							["showName"] = true,
+							["manaBarFontStyle"] = "OUTLINE",
+							["healthBarFontSize"] = 10,
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["portrait"] = "1",
+							["healthBarFontStyle"] = "OUTLINE",
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+						},
+						["target"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["scaleFrame"] = 1.2,
+							["showToTFrame"] = true,
+							["targetNameFontFamily"] = "Friz Quadrata TT",
+							["useHealthFormatFullValues"] = false,
+							["showAttackBackground"] = false,
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["reverseDirectionLosingHP"] = false,
+							["showPVPIcon"] = true,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["attackBackgroundOpacity"] = 0.7,
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["targetNameFontSize"] = 10,
+							["targetNameFontStyle"] = "NONE",
+							["healthFormat"] = "3",
+							["manaBarFontSize"] = 10,
+							["showTargetCastbar"] = false,
+							["useManaFormatFullValues"] = false,
+							["showName"] = true,
+							["portrait"] = "1",
+							["manaBarFontStyle"] = "OUTLINE",
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["healthBarFontSize"] = 10,
+							["healthBarFontStyle"] = "OUTLINE",
+							["showNameInsideFrame"] = true,
+						},
+						["pet"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["petNameFontFamily"] = "Friz Quadrata TT",
+							["showStatusTexture"] = true,
+							["petNameFontSize"] = 10,
+							["useHealthFormatFullValues"] = false,
+							["showAttackBackground"] = true,
+							["lockedMovableFrame"] = true,
+							["useManaFormatFullValues"] = false,
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["customPoints"] = false,
+							["attackBackgroundOpacity"] = 0.7,
+							["showHitIndicator"] = true,
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["healthFormat"] = "2",
+							["manaBarFontSize"] = 9,
+							["scaleFrame"] = 1,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["showName"] = true,
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["manaBarFontStyle"] = "OUTLINE",
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["healthBarFontSize"] = 9,
+							["healthBarFontStyle"] = "OUTLINE",
+							["petNameFontStyle"] = "NONE",
+						},
+						["party"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["scaleFrame"] = 1.2,
+							["useManaFormatFullValues"] = false,
+							["partyNameFontFamily"] = "Friz Quadrata TT",
+							["partyNameFontSize"] = 10,
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["manaBarFontSize"] = 9,
+							["healthFormat"] = "2",
+							["partyNameFontStyle"] = "NONE",
+							["useHealthFormatFullValues"] = false,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["showName"] = true,
+							["manaBarFontStyle"] = "OUTLINE",
+							["healthBarFontSize"] = 9,
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["healthBarFontStyle"] = "OUTLINE",
+							["showPetFrames"] = true,
+						},
+					},
+					["Healers"] = {
+						["target"] = {
+							["portrait"] = "1",
+							["showNameInsideFrame"] = true,
+						},
+						["player"] = {
+							["showRoleIcon"] = true,
+							["portrait"] = "1",
+							["showStatusTexture"] = true,
+							["showNameInsideFrame"] = true,
+						},
+						["general"] = {
+							["framesPoints"] = {
+								["target"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									309, -- [4]
+									-170, -- [5]
+								},
+								["player"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									-342.000030517578, -- [4]
+									-170, -- [5]
+								},
+								["focus"] = {
+									"TOPLEFT", -- [1]
+									{
+										["variablesLoaded"] = true,
+										["firstTimeLoaded"] = 1,
+									}, -- [2]
+									"TOPLEFT", -- [3]
+									250.000015258789, -- [4]
+									-240, -- [5]
+								},
+							},
+							["frameToSetPoints"] = "focus",
+						},
+						["focus"] = {
+							["portrait"] = "1",
+							["showNameInsideFrame"] = true,
+						},
+					},
+					["healer"] = {
+						["target"] = {
+							["portrait"] = "1",
+							["showNameInsideFrame"] = true,
+						},
+						["player"] = {
+							["showRoleIcon"] = true,
+							["portrait"] = "1",
+							["showStatusTexture"] = true,
+							["showNameInsideFrame"] = true,
+						},
+						["general"] = {
+							["framesPoints"] = {
+								["target"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									309, -- [4]
+									-170, -- [5]
+								},
+								["player"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									-342.000030517578, -- [4]
+									-170, -- [5]
+								},
+								["focus"] = {
+									"TOPLEFT", -- [1]
+									{
+										["variablesLoaded"] = true,
+										["firstTimeLoaded"] = 1,
+									}, -- [2]
+									"TOPLEFT", -- [3]
+									250.000015258789, -- [4]
+									-240, -- [5]
+								},
+							},
+							["frameToSetPoints"] = "focus",
+						},
+						["focus"] = {
+							["showNameInsideFrame"] = true,
+							["portrait"] = "1",
+						},
+					},
+				},
+			},
+			["VUHDO_OPTIONS_SETTINGS"] = {
+				["scale"] = 1,
+			},
+		},
+		["healer"] = {
+			["AzCastBar_Profiles"] = {
+			},
+			["AzCastBar_Config"] = {
+				["optionsLeft"] = 1134.09741210938,
+				["Mirror"] = {
+					["left"] = 857.395629882813,
+					["timeOffsetY"] = -22,
+					["showLabel"] = false,
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["timeOffsetX"] = -16,
+					["showTime"] = true,
+					["colBackdrop"] = {
+						0.101960784313725, -- [1]
+						0.219607843137255, -- [2]
+						0.349019607843137, -- [3]
+						1, -- [4]
+					},
+					["enabled"] = false,
+					["bgFile"] = "Interface\\Buttons\\WHITE8X8",
+					["bottom"] = 543.597534179688,
+					["iconAnchor"] = "LEFT",
+					["colBackGround"] = {
+						0.3, -- [1]
+						0.3, -- [2]
+						0.3, -- [3]
+						0.5, -- [4]
+					},
+					["anchorPoint"] = "LEFT",
+					["timeLabelAlign"] = "CENTER",
+					["width"] = 32,
+					["nameFontSize"] = 10,
+					["backdropIndent"] = 0,
+					["timeFontSize"] = 10,
+					["colTimeLabel"] = {
+						1, -- [1]
+						0.82, -- [2]
+						0, -- [3]
+					},
+					["height"] = 32,
+					["hideIconBorder"] = false,
+					["anchorOffset"] = 4,
+					["iconOffset"] = 0,
+				},
+				["Focus"] = {
+					["vertTile"] = false,
+					["useSameBGTexture"] = true,
+					["reverseGrowth"] = false,
+					["showSpark"] = true,
+					["colInterrupt"] = {
+						1, -- [1]
+						0.75, -- [2]
+						0.5, -- [3]
+					},
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["colBackdrop"] = {
+						0.101960784313725, -- [1]
+						0.219607843137255, -- [2]
+						0.349019607843137, -- [3]
+						1, -- [4]
+					},
+					["texture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+					["showTotalTime"] = false,
+					["bottom"] = 796.835815429688,
+					["showRank"] = false,
+					["width"] = 140,
+					["colFailed"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+					},
+					["horzTile"] = false,
+					["colNonInterruptable"] = {
+						0.78, -- [1]
+						0.82, -- [2]
+						0.86, -- [3]
+					},
+					["bgFile"] = "Interface\\TabardFrame\\TabardFrameBackground",
+					["left"] = 309.914916992188,
+				},
+				["Target"] = {
+					["vertTile"] = false,
+					["useSameBGTexture"] = true,
+					["reverseGrowth"] = false,
+					["left"] = 965,
+					["colInterrupt"] = {
+						1, -- [1]
+						0.75, -- [2]
+						0.5, -- [3]
+					},
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["colBackdrop"] = {
+						0.101960784313725, -- [1]
+						0.219607843137255, -- [2]
+						0.349019607843137, -- [3]
+						1, -- [4]
+					},
+					["texture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+					["showTotalTime"] = true,
+					["bottom"] = 390,
+					["showRank"] = false,
+					["width"] = 250,
+					["colFailed"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+					},
+					["horzTile"] = false,
+					["colNonInterruptable"] = {
+						0.78, -- [1]
+						0.82, -- [2]
+						0.86, -- [3]
+					},
+					["bgFile"] = "Interface\\TabardFrame\\TabardFrameBackground",
+					["showSpark"] = true,
+				},
+				["Pet"] = {
+					["enabled"] = false,
+					["colInterrupt"] = {
+						1, -- [1]
+						0.75, -- [2]
+						0.5, -- [3]
+					},
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["bottom"] = 328.758178710938,
+					["colFailed"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+					},
+					["colNonInterruptable"] = {
+						0.78, -- [1]
+						0.82, -- [2]
+						0.86, -- [3]
+					},
+					["left"] = 73.5257263183594,
+					["showRank"] = false,
+				},
+				["optionsBottom"] = 639.316101074219,
+				["Player"] = {
+					["vertTile"] = false,
+					["useSameBGTexture"] = true,
+					["reverseGrowth"] = false,
+					["showSpark"] = true,
+					["colSafezone"] = {
+						0.3, -- [1]
+						0.8, -- [2]
+						0.3, -- [3]
+						0.6, -- [4]
+					},
+					["colInterrupt"] = {
+						1, -- [1]
+						0.75, -- [2]
+						0.5, -- [3]
+					},
+					["colNormal"] = {
+						0.4, -- [1]
+						0.6, -- [2]
+						0.8, -- [3]
+					},
+					["colBackdrop"] = {
+						0.101960784313725, -- [1]
+						0.219607843137255, -- [2]
+						0.349019607843137, -- [3]
+						1, -- [4]
+					},
+					["texture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+					["mergeTrade"] = true,
+					["safeZone"] = true,
+					["showRank"] = false,
+					["width"] = 250,
+					["showSpellTarget"] = false,
+					["bottom"] = 390,
+					["colFailed"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+					},
+					["left"] = 710,
+					["horzTile"] = false,
+					["colNonInterruptable"] = {
+						0.78, -- [1]
+						0.82, -- [2]
+						0.86, -- [3]
+					},
+					["bgFile"] = "Interface\\TabardFrame\\TabardFrameBackground",
+					["showTotalTime"] = true,
+				},
+			},
+			["VUHDO_OPTIONS_SETTINGS"] = {
+				["scale"] = 1,
+			},
+			["EasyFramesDB"] = {
+				["profileKeys"] = {
+					["Alura - Tichondrius"] = "Healers",
+					["Mallusof - Icecrown"] = "healer",
+				},
+				["profiles"] = {
+					["Healers"] = {
+						["target"] = {
+							["portrait"] = "1",
+							["showNameInsideFrame"] = true,
+						},
+						["player"] = {
+							["showNameInsideFrame"] = true,
+							["portrait"] = "1",
+							["showStatusTexture"] = true,
+							["showRoleIcon"] = true,
+						},
+						["general"] = {
+							["framesPoints"] = {
+								["target"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									309, -- [4]
+									-170, -- [5]
+								},
+								["player"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									-342.000030517578, -- [4]
+									-170, -- [5]
+								},
+								["focus"] = {
+									"TOPLEFT", -- [1]
+									{
+										["variablesLoaded"] = true,
+										["firstTimeLoaded"] = 1,
+									}, -- [2]
+									"TOPLEFT", -- [3]
+									250.000015258789, -- [4]
+									-240, -- [5]
+								},
+							},
+							["frameToSetPoints"] = "focus",
+						},
+						["focus"] = {
+							["portrait"] = "1",
+							["showNameInsideFrame"] = true,
+						},
+					},
+					["healer"] = {
+						["player"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["showGroupIndicator"] = true,
+							["playerNameFontFamily"] = "Friz Quadrata TT",
+							["showStatusTexture"] = true,
+							["useManaFormatFullValues"] = false,
+							["useHealthFormatFullValues"] = false,
+							["showAttackBackground"] = true,
+							["attackBackgroundOpacity"] = 0.7,
+							["manaBarFontStyle"] = "OUTLINE",
+							["showSpecialbar"] = true,
+							["healthBarFontSize"] = 10,
+							["showPVPIcon"] = true,
+							["playerNameFontSize"] = 10,
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["portrait"] = "1",
+							["showNameInsideFrame"] = true,
+							["showRestIcon"] = true,
+							["showRoleIcon"] = true,
+							["healthFormat"] = "3",
+							["manaBarFontSize"] = 10,
+							["scaleFrame"] = 1.2,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["showName"] = true,
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["showHitIndicator"] = true,
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["healthBarFontStyle"] = "OUTLINE",
+							["playerNameFontStyle"] = "NONE",
+						},
+						["general"] = {
+							["forceManaBarTexture"] = false,
+							["maxBuffCount"] = 32,
+							["enemyFrameDefaultColors"] = {
+								1, -- [1]
+								0, -- [2]
+								0, -- [3]
+							},
+							["colorBasedOnCurrentHealth"] = false,
+							["highlightDispelledBuff"] = true,
+							["classColored"] = true,
+							["maxDebuffCount"] = 16,
+							["framesPoints"] = {
+								["target"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									309, -- [4]
+									-170, -- [5]
+								},
+								["player"] = {
+									"CENTER", -- [1]
+									nil, -- [2]
+									"CENTER", -- [3]
+									-342.000030517578, -- [4]
+									-170, -- [5]
+								},
+								["focus"] = {
+									"TOPLEFT", -- [1]
+									{
+										["variablesLoaded"] = true,
+										["firstTimeLoaded"] = 1,
+									}, -- [2]
+									"TOPLEFT", -- [3]
+									250.000015258789, -- [4]
+									-240, -- [5]
+								},
+							},
+							["lightTexture"] = false,
+							["showOnlyMyDebuff"] = false,
+							["showWelcomeMessage"] = true,
+							["classPortraits"] = true,
+							["hideOutOfCombatOpacity"] = 0.1,
+							["selfBuffSize"] = 28,
+							["barTexture"] = "Blizzard",
+							["neutralFrameDefaultColors"] = {
+								1, -- [1]
+								1, -- [2]
+								0, -- [3]
+							},
+							["friendlyFrameDefaultColors"] = {
+								0, -- [1]
+								1, -- [2]
+								0, -- [3]
+							},
+							["dispelledBuffScale"] = 1,
+							["frameToSetPoints"] = "focus",
+							["brightFrameBorder"] = 1,
+							["ifPlayerCanDispelBuff"] = false,
+							["hideOutOfCombat"] = false,
+							["customBuffSize"] = true,
+							["hideOutOfCombatWithFullHP"] = false,
+							["buffSize"] = 22,
+						},
+						["focus"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["portrait"] = "1",
+							["showToTFrame"] = true,
+							["useHealthFormatFullValues"] = false,
+							["showAttackBackground"] = false,
+							["showNameInsideFrame"] = true,
+							["reverseDirectionLosingHP"] = false,
+							["showPVPIcon"] = true,
+							["focusNameFontFamily"] = "Friz Quadrata TT",
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["focusNameFontSize"] = 10,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["attackBackgroundOpacity"] = 0.7,
+							["focusNameFontStyle"] = "NONE",
+							["healthFormat"] = "3",
+							["manaBarFontSize"] = 10,
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["useManaFormatFullValues"] = false,
+							["showName"] = true,
+							["manaBarFontStyle"] = "OUTLINE",
+							["healthBarFontSize"] = 10,
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["scaleFrame"] = 1.2,
+							["healthBarFontStyle"] = "OUTLINE",
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+						},
+						["target"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["scaleFrame"] = 1.2,
+							["showToTFrame"] = true,
+							["targetNameFontFamily"] = "Friz Quadrata TT",
+							["useHealthFormatFullValues"] = false,
+							["showAttackBackground"] = false,
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["reverseDirectionLosingHP"] = false,
+							["showPVPIcon"] = true,
+							["attackBackgroundOpacity"] = 0.7,
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["targetNameFontSize"] = 10,
+							["healthFormat"] = "3",
+							["targetNameFontStyle"] = "NONE",
+							["manaBarFontSize"] = 10,
+							["showTargetCastbar"] = false,
+							["useManaFormatFullValues"] = false,
+							["showName"] = true,
+							["portrait"] = "1",
+							["healthBarFontSize"] = 10,
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["manaBarFontStyle"] = "OUTLINE",
+							["healthBarFontStyle"] = "OUTLINE",
+							["showNameInsideFrame"] = true,
+						},
+						["pet"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["petNameFontFamily"] = "Friz Quadrata TT",
+							["showStatusTexture"] = true,
+							["petNameFontSize"] = 10,
+							["useHealthFormatFullValues"] = false,
+							["showAttackBackground"] = true,
+							["lockedMovableFrame"] = true,
+							["useManaFormatFullValues"] = false,
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["customPoints"] = false,
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["attackBackgroundOpacity"] = 0.7,
+							["healthBarFontSize"] = 9,
+							["healthFormat"] = "2",
+							["manaBarFontSize"] = 9,
+							["scaleFrame"] = 1,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["showName"] = true,
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["manaBarFontStyle"] = "OUTLINE",
+							["showHitIndicator"] = true,
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["healthBarFontStyle"] = "OUTLINE",
+							["petNameFontStyle"] = "NONE",
+						},
+						["party"] = {
+							["healthBarFontFamily"] = "Friz Quadrata TT",
+							["manaFormat"] = "2",
+							["scaleFrame"] = 1.2,
+							["useManaFormatFullValues"] = false,
+							["partyNameFontFamily"] = "Friz Quadrata TT",
+							["partyNameFontSize"] = 10,
+							["customHealthFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["manaBarFontFamily"] = "Friz Quadrata TT",
+							["manaBarFontSize"] = 9,
+							["healthFormat"] = "2",
+							["partyNameFontStyle"] = "NONE",
+							["useHealthFormatFullValues"] = false,
+							["customManaFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["showName"] = true,
+							["manaBarFontStyle"] = "OUTLINE",
+							["customManaFormat"] = "%CURRENT% / %MAX% (%PERCENT%%)",
+							["customHealthFormatFormulas"] = {
+								["gt10M"] = "%.fM",
+								["gt1B"] = "%.fB",
+								["gt100T"] = "%.fk",
+								["gt100M"] = "%.fM",
+								["gt1T"] = "%.fk",
+								["gt1M"] = "%.1fM",
+							},
+							["healthBarFontSize"] = 9,
+							["healthBarFontStyle"] = "OUTLINE",
+							["showPetFrames"] = true,
+						},
+					},
+				},
+			},
+		},
+	},
+}

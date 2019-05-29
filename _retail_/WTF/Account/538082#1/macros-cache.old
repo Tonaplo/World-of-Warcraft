@@ -2,8 +2,14 @@ VER 3 000000000000003E "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click ExtraActionButton1
 END
+VER 3 0000000000000047 "DPS Profile" "1064261"
+/reflux switch DPS
+END
 VER 3 0000000000000006 "focus" "132222"
 /focus
+END
+VER 3 0000000000000046 "Healer Profile" "237541"
+/reflux switch healer
 END
 VER 3 0000000000000041 "logout" "INV_MISC_QUESTIONMARK"
 /logout
@@ -22,14 +28,14 @@ END
 VER 3 0000000000000002 "reload ui" "237290"
 /reload ui
 END
-VER 3 0000000000000043 "sdsd" "INV_MISC_QUESTIONMARK"
-/tar Rosaline
-END
 VER 3 0000000000000044 "Server Lag!" "254885"
 /script C_ReportSystem.ReportServerLag()
 END
 VER 3 0000000000000040 "SUPER PET LEVEL" "254858"
 /script local ids = { 31851, 31819, 31850, 31780, 31781, }; for i = 1, 5 do local index = GetQuestLogIndexByID(ids[i]); SelectQuestLogEntry(index); ShowQuestComplete(index); CompleteQuest(); GetQuestReward(); end
+END
+VER 3 0000000000000048 "Tank Profile" "132341"
+/reflux switch Tank
 END
 VER 3 000000000000003B "trinkets" "INV_MISC_QUESTIONMARK"
 /use 13

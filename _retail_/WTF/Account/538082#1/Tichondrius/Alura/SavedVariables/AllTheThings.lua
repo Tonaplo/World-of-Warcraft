@@ -1,4 +1,8 @@
 
+AllTheThingsSettingsPerCharacter = {
+	["Filters"] = {
+	},
+}
 AllTheThingsPCD = {
 	["FlightPaths"] = {
 		[668] = 1,
@@ -8,8 +12,8 @@ AllTheThingsPCD = {
 		[82] = 1,
 		[667] = 1,
 		[669] = 1,
-		[11] = 1,
 		[76] = 1,
+		[11] = 1,
 		[17] = 1,
 		[654] = 1,
 		[384] = 1,
@@ -52,7 +56,7 @@ AllTheThingsPCD = {
 		true, -- [35]
 		true, -- [36]
 		[0] = true,
-		[52] = true,
+		[200] = true,
 		[101] = true,
 		[103] = true,
 		[105] = true,
@@ -65,7 +69,7 @@ AllTheThingsPCD = {
 		[108] = true,
 		[54] = true,
 		[53] = true,
-		[200] = true,
+		[52] = true,
 		[51] = true,
 		[50] = true,
 		[100] = true,

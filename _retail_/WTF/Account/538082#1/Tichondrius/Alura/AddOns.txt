@@ -7,7 +7,7 @@ AdiBags_Legion_Filters: enabled
 AllTheThings: enabled
 AngryKeystones: enabled
 AngryWorldQuests: enabled
-Arh: enabled
+Arh: disabled
 Bartender4: disabled
 BigWigs: enabled
 BigWigs_Antorus: enabled
@@ -89,3 +89,8 @@ XLoot_Options: enabled
 ParagonReputation: enabled
 Azeroth Auto Pilot: disabled
 SexyMap: enabled
+ConditionerClassic: disabled
+ElvUI_Config: enabled
+ElvUI: enabled
+InstanceAchievementTracker: disabled
+HealerStatWeights: disabled

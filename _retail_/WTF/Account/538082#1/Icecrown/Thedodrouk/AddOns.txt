@@ -27,3 +27,4 @@ XLoot_Group: disabled
 XLoot_Monitor: disabled
 Quester: disabled
 Immersion: disabled
+BigWigs_Cataclysm: enabled

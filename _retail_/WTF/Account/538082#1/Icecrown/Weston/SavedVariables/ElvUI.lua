@@ -1,2250 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i That's why", -- [1]
-		"/i god Im a dumbadsss lol", -- [2]
-		"/i yeah'", -- [3]
-		"/i silence is ansty here", -- [4]
-		"/i alright", -- [5]
-		"/i here goes", -- [6]
-		"/i not too bad", -- [7]
-		"/i wow", -- [8]
-		"/i I cant believe how little defense I have", -- [9]
-		"/i WOW", -- [10]
-		"/i Gz Highlordon!", -- [11]
-		"/i |cffa335ee|Hitem:13505::::::::59:104:512:1:1:4051:59:::|h[Runeblade of Baron Rivendare]|h|r", -- [12]
-		"/i thanks", -- [13]
-		"/i you too", -- [14]
-		"/2 Not on Malygos, but good morning buddy", -- [15]
-		"/i sounds good :)", -- [16]
-		"/i battle shout pelase :)", -- [17]
-		"/i ty", -- [18]
-		"/i havea  good one :)", -- [19]
-		"/wa", -- [20]
+		"/i yeah :/", -- [1]
+		"/i Untill we mastery, we have very low HP", -- [2]
+		"/i I did even :(", -- [3]
+		"/i Barksin And Survival instints", -- [4]
+		"/i I only went tank", -- [5]
+		"/i because haler queue was long", -- [6]
+		"/i tablets", -- [7]
+		"/i first", -- [8]
+		"/i that was Barksin", -- [9]
+		"/i and both charges of SI", -- [10]
+		"/i thanks for sticking with", -- [11]
+		"/i good luck guys :)", -- [12]
+		"/g Hmm", -- [13]
+		"/i Roel check please :)", -- [14]
+		"/i Could lead do a role check please?", -- [15]
+		"/i Nice group :)", -- [16]
+		"/i Naah, I gotta go to bed", -- [17]
+		"/i havea  good one :)", -- [18]
+		"/i Thanks bud, you too :)", -- [19]
+		"/i cya!", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"almost", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			444, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555908211,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"I should have kept myself up", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			445, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908211,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"eh its cool", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			447, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555908220,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"more interesting", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			448, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555908224,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"i pulled them all lol", -- [1]
-			"Weirdpubes-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weirdpubes-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			449, -- [11]
-			"Player-55-0B58008F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
-			[51] = 1555908228,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"dw about it :P", -- [1]
-			"Fangs-Aman'Thul", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fangs-Aman'Thul", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			450, -- [11]
-			"Player-3722-0AC3AF0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cFangs-Aman'Thul|r",
-			[51] = 1555908229,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"ss me", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			451, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908230,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"I can brez taank", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			452, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908233,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"on cd lol", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			454, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908237,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [9]
-		{
-			"i will", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			455, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908239,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [10]
-		{
-			"lol", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			459, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908259,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [11]
-		{
-			"4need a sec'", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			465, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908277,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"ok", -- [1]
-			"Weirdpubes-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weirdpubes-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			466, -- [11]
-			"Player-55-0B58008F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
-			[51] = 1555908290,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"brb", -- [1]
-			"Weirdpubes-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weirdpubes-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			472, -- [11]
-			"Player-55-0B58008F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
-			[51] = 1555908320,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
-		{
-			"okay :P", -- [1]
-			"Fangs-Aman'Thul", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fangs-Aman'Thul", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			474, -- [11]
-			"Player-3722-0AC3AF0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cFangs-Aman'Thul|r",
-			[51] = 1555908349,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"b", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			478, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908356,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"someone's having fun lol", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			479, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908359,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [17]
-		{
-			"b", -- [1]
-			"Weirdpubes-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weirdpubes-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			480, -- [11]
-			"Player-55-0B58008F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
-			[51] = 1555908360,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"pickin pockies", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			481, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555908366,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
-		{
-			"sorry", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			482, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908367,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
-		{
-			"baby cried", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			483, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908369,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
-		{
-			"and again", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			488, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908399,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"oh no", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			490, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908407,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [23]
-		{
-			"tell her daddy's saving azeroth", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			493, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908413,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
-		{
-			"she didnt care", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			499, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908447,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
-		{
-			"lol", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			500, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908447,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
-		{
-			"=||", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			503, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908453,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [27]
-		{
-			"to the pickpoketing bahahaha yes... yes it is fun to do so :P", -- [1]
-			"Fangs-Aman'Thul", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fangs-Aman'Thul", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			504, -- [11]
-			"Player-3722-0AC3AF0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cFangs-Aman'Thul|r",
-			[51] = 1555908453,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"polyd", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			543, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555908633,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
-		{
-			"same", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			554, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555908682,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
-		{
-			"haah", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			574, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555908795,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
-		{
-			"this trinket's proc rate suck lol", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			585, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555908848,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
-		{
-			"omg stuns", -- [1]
-			"Weirdpubes-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weirdpubes-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			619, -- [11]
-			"Player-55-0B58008F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
-			[51] = 1555909004,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
-		{
-			"lol finally! the cannon", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			620, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555909023,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [34]
-		{
-			"lol", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			630, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555909031,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
-		{
-			"haha", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			643, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555909051,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
-		{
-			"stole 2 silver from him", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			645, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555909054,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
-		{
-			"gangster", -- [1]
-			"Weirdpubes-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weirdpubes-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			646, -- [11]
-			"Player-55-0B58008F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
-			[51] = 1555909061,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
-		{
-			"haha", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			647, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555909064,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
-		{
-			"hahaha", -- [1]
-			"Fangs-Aman'Thul", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fangs-Aman'Thul", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			648, -- [11]
-			"Player-3722-0AC3AF0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cFangs-Aman'Thul|r",
-			[51] = 1555909074,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
-		{
-			"lol", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			649, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555909081,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [41]
-		{
-			"he  spawns several times a day", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			650, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555909095,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [42]
-		{
-			"to be killed", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			651, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555909097,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [43]
-		{
-			"you should be paying him", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			652, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555909101,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [44]
-		{
-			"shame", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			653, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555909103,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [45]
-		{
-			"ha whooaa", -- [1]
-			"Chlorine-Skullcrusher", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chlorine-Skullcrusher", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			654, -- [11]
-			"Player-74-0BD2827E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Chlorine-Skullcrusher|r",
-			[51] = 1555909107,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
-		{
-			"holy shit", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			669, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909138,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
-		{
-			"an epic", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909140,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
-		{
-			"damn", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			671, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909141,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
-		{
-			"lol epix", -- [1]
-			"Edën-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Edën-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			672, -- [11]
-			"Player-3725-0ACD18FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecEdën-Frostmourne|r",
-			[51] = 1555909142,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [50]
-		{
-			"anyways", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			675, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909151,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
-		{
-			"thanks!", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			676, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909152,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
-		{
-			"have a good one :)", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			677, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909154,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
-		{
-			"nice to see a group", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			679, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909158,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
-		{
-			"thanks all :P", -- [1]
-			"Fangs-Aman'Thul", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fangs-Aman'Thul", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			680, -- [11]
-			"Player-3722-0AC3AF0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cFangs-Aman'Thul|r",
-			[51] = 1555909160,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
-		{
-			"with chatty people :)", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			681, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909161,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
-		{
-			"take care!", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			685, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1555909165,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
-		{
-			"im up for another", -- [1]
-			"Weirdpubes-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weirdpubes-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			687, -- [11]
-			"Player-55-0B58008F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWeirdpubes-Whisperwind|r",
-			[51] = 1555909168,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
-		{
-			"um guys", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			846, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556691942,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
-		{
-			"how do i get where you are", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			847, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556691972,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
-		{
-			"tele out", -- [1]
-			"Weston-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			853, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556691985,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
-		{
-			"tele out and in", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			854, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556691991,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [62]
-		{
-			"didnt work?", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			868, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692068,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [63]
-		{
-			"cant ppl are in combat", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			870, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556692076,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
-		{
-			"tru now", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			873, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692081,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [65]
-		{
-			"try", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			874, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692084,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [66]
-		{
-			"just past the grim guzzler", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			875, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556692114,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
-		{
-			"no bueno", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			876, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556692120,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
-		{
-			"weird", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			882, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692153,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [69]
-		{
-			"Try to use the teleporter", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			883, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692172,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [70]
-		{
-			"the mole machine", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			891, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556692214,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
-		{
-			"ye", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			892, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692218,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [72]
-		{
-			"entrance, domicile and GG", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			893, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556692227,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
-		{
-			"try gg", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			894, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692234,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [74]
-		{
-			"I dont remember which one it is", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			896, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692242,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [75]
-		{
-			"thats where it puts me when i port in", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			897, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556692248,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
-		{
-			"oh wait", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			900, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556692285,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
-		{
-			"GREAT SUCCESS", -- [1]
-			"Voneisen-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Voneisen-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			901, -- [11]
-			"Player-76-0A00E793", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcVoneisen-Sargeras|r",
-			[51] = 1556692293,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
-		{
-			"go", -- [1]
-			"Kalfurion-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kalfurion-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			916, -- [11]
-			"Player-11-0B64C082", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Kalfurion-Tichondrius|r",
-			[51] = 1556692472,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
-		{
-			"gg", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1100, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692846,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [80]
-		{
-			"havea  good one", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1101, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1556692848,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [81]
-		{
-			"sec", -- [1]
-			"Weston-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557117147,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
-		{
-			"can you stop", -- [1]
-			"Olundium-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Olundium-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			363, -- [11]
-			"Player-5-0B65BFD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcOlundium-Proudmoore|r",
-			[51] = 1557117331,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [83]
-		{
-			"please let me pull yeah", -- [1]
-			"Weston-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			369, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557117364,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
-		{
-			"also have burning rush on..", -- [1]
-			"Olundium-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Olundium-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			373, -- [11]
-			"Player-5-0B65BFD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcOlundium-Proudmoore|r",
-			[51] = 1557117414,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [85]
-		{
-			"lead reque us", -- [1]
-			"Highlordon-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Highlordon-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			398, -- [11]
-			"Player-3725-0ACDD441", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
-			[51] = 1557117503,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
-		{
-			"nvm", -- [1]
-			"Highlordon-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Highlordon-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			403, -- [11]
-			"Player-3725-0ACDD441", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
-			[51] = 1557117506,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
-		{
-			"damn", -- [1]
-			"Weston-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			420, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557117583,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
-		{
-			"I have like", -- [1]
-			"Weston-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			421, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557117585,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
-		{
-			"0 defensives", -- [1]
-			"Weston-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			422, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557117588,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
-		{
-			"welcome to new bear", -- [1]
-			"Olundium-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Olundium-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			423, -- [11]
-			"Player-5-0B65BFD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcOlundium-Proudmoore|r",
-			[51] = 1557117593,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [91]
-		{
-			"it sucks", -- [1]
-			"Olundium-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Olundium-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			424, -- [11]
-			"Player-5-0B65BFD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcOlundium-Proudmoore|r",
-			[51] = 1557117599,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [92]
-		{
-			"8.2 buff is okay? Or does it need more?", -- [1]
-			"Weston-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			438, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557117640,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
-		{
-			"havent been on mine since uldir tbh", -- [1]
-			"Olundium-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Olundium-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			461, -- [11]
-			"Player-5-0B65BFD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcOlundium-Proudmoore|r",
-			[51] = 1557117749,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [94]
-		{
-			"Threat feels hard to hold too", -- [1]
-			"Weston-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			510, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557117998,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
-		{
-			"Threat feels hard to hold too", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			511, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557118011,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
-		{
-			"switch your weapon my dude", -- [1]
-			"Olundium-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Olundium-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			515, -- [11]
-			"Player-5-0B65BFD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcOlundium-Proudmoore|r",
-			[51] = 1557118036,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [97]
-		{
-			"!!!", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			516, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557118042,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
-		{
-			"That's why", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			518, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557118044,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [99]
-		{
-			"lol", -- [1]
-			"Highlordon-Frostmourne", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Highlordon-Frostmourne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			521, -- [11]
-			"Player-3725-0ACDD441", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
-			[51] = 1557118064,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [100]
-		{
-			"god Im a dumbadsss lol", -- [1]
-			"Weston-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Weston-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			522, -- [11]
-			"Player-104-0A364A62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Weston|r",
-			[51] = 1557118064,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [101]
 		{
 			"thanks", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2266,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118065,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [102]
+		}, -- [1]
 		{
 			"fuyck silence", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2288,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557118097,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [103]
+		}, -- [2]
 		{
 			"would of been fine but 4-5s silence:\\", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2310,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557118196,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [104]
+		}, -- [3]
 		{
 			"yeah'", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2332,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118206,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [4]
 		{
 			"silence is ansty here", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2354,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118210,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [5]
 		{
 			"Ressing Karlaea!", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2376,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118211,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [107]
+		}, -- [6]
 		{
 			"ooft", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2398,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557118525,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [108]
+		}, -- [7]
 		{
 			"that was intense dps", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2420,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557118532,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [109]
+		}, -- [8]
 		{
 			"alright", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2442,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118648,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [110]
+		}, -- [9]
 		{
 			"here goes", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2464,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118649,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [111]
+		}, -- [10]
 		{
 			"not too bad", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2486,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118682,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [112]
+		}, -- [11]
 		{
 			"wow", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2508,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118735,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [113]
+		}, -- [12]
 		{
 			"I cant believe how little defense I have", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2530,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118746,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [114]
+		}, -- [13]
 		{
 			"WOW", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2552,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118748,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [115]
+		}, -- [14]
 		{
 			"lol gl my dude", -- [1]
 			"Olundium-Proudmoore", -- [2]
@@ -2574,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOlundium-Proudmoore|r",
 			[51] = 1557118754,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [116]
+		}, -- [15]
 		{
 			"Gz Highlordon!", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2596,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118754,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [117]
+		}, -- [16]
 		{
 			"|cffa335ee|Hitem:13505::::::::59:104:512:1:1:4051:59:::|h[Runeblade of Baron Rivendare]|h|r", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2618,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118758,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [118]
+		}, -- [17]
 		{
 			"thanks", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2640,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118762,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [119]
+		}, -- [18]
 		{
 			"nice", -- [1]
 			"Highlordon-Frostmourne", -- [2]
@@ -2662,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHighlordon-Frostmourne|r",
 			[51] = 1557118763,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [19]
 		{
 			"you too", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2684,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557118763,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [121]
+		}, -- [20]
 		{
 			"Not on Malygos, but good morning buddy", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2706,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1557119109,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [21]
 		{
 			"imma lust during this boss since lusting on AA is pointless", -- [1]
 			"Speedysham-Lightbringer", -- [2]
@@ -2728,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSpeedysham-Lightbringer|r",
 			[51] = 1558157715,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [123]
+		}, -- [22]
 		{
 			"sounds good :)", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2750,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1558157729,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [124]
+		}, -- [23]
 		{
 			"battle shout pelase :)", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2772,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1558157875,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [24]
 		{
 			"ty", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2794,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1558157881,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [126]
+		}, -- [25]
 		{
 			"havea  good one :)", -- [1]
 			"Weston-Icecrown", -- [2]
@@ -2815,6 +593,2228 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cfffe7b09Weston|r",
 			[51] = 1558158144,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [26]
+		{
+			"satnd back", -- [1]
+			"Weston-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504607,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [27]
+		{
+			"stand back", -- [1]
+			"Weston-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504610,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [28]
+		{
+			"dude", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			82, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504647,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [29]
+		{
+			"stand back", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			84, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504649,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [30]
+		{
+			"bruh", -- [1]
+			"Crodactra-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Crodactra-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			85, -- [11]
+			"Player-3693-07462717", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Crodactra-Kel'Thuzad|r",
+			[51] = 1558504655,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [31]
+		{
+			"wheres our tank", -- [1]
+			"Zodiacc-Darkspear", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zodiacc-Darkspear", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			86, -- [11]
+			"Player-120-05E2DFAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Zodiacc-Darkspear|r",
+			[51] = 1558504656,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [32]
+		{
+			"I am the tank", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			87, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504661,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [33]
+		{
+			"wtf is wrong with i", -- [1]
+			"Crodactra-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Crodactra-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			88, -- [11]
+			"Player-3693-07462717", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Crodactra-Kel'Thuzad|r",
+			[51] = 1558504662,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [34]
+		{
+			"like tank aggro", -- [1]
+			"Zodiacc-Darkspear", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zodiacc-Darkspear", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			89, -- [11]
+			"Player-120-05E2DFAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Zodiacc-Darkspear|r",
+			[51] = 1558504662,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [35]
+		{
+			"I MELT", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			90, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504663,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [36]
+		{
+			"u", -- [1]
+			"Crodactra-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Crodactra-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			91, -- [11]
+			"Player-3693-07462717", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Crodactra-Kel'Thuzad|r",
+			[51] = 1558504664,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [37]
+		{
+			"Just stand behind me", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			92, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504669,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [38]
+		{
+			"ranged interrupt", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			101, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504739,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [39]
+		{
+			"ty", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			102, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504747,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [40]
+		{
+			"wrapped", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558504789,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [41]
+		{
+			"rip to joining late", -- [1]
+			"Ariann-Aman'Thul", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ariann-Aman'Thul", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			186, -- [11]
+			"Player-3722-0A931383", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAriann-Aman'Thul|r",
+			[51] = 1558505267,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [42]
+		{
+			"Oromee", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			228, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558505705,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [43]
+		{
+			"Your pet is taunting", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			229, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558505710,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [44]
+		{
+			"the taunt is disabled", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			231, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558505721,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [45]
+		{
+			"odd", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			236, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558505731,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [46]
+		{
+			"Hmm, now there's no problem", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			252, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558505813,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [47]
+		{
+			"weird, lol", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			253, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558505814,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [48]
+		{
+			"see", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			254, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558505820,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [49]
+		{
+			"sad after lvl 85we dont learn shiet", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			310, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506154,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [50]
+		{
+			"wtf", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			312, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506170,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [51]
+		{
+			"i sudoku'ed myself", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			314, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506177,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [52]
+		{
+			"rip", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			315, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558506180,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [53]
+		{
+			"i pushed disengage instead of multishot", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			317, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506202,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [54]
+		{
+			"huntard moment", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			318, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506207,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [55]
+		{
+			"lmao", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			319, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558506208,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [56]
+		{
+			"i main huntard", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			320, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558506214,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [57]
+		{
+			"i feel you", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			321, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558506217,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [58]
+		{
+			"XD", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506220,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [59]
+		{
+			"\"not this again\"", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			325, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506233,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [60]
+		{
+			"gj", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			350, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558506403,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [61]
+		{
+			"HUNTARDS FTW", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			351, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506405,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [62]
+		{
+			"i think i shat me pantaloons", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506431,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [63]
+		{
+			"awn our healer :(", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			369, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558506524,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [64]
+		{
+			"Thank god", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			370, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558506526,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [65]
+		{
+			"He was horrific", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			371, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558506531,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [66]
+		{
+			"?", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			372, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506533,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [67]
+		{
+			"lol ", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			373, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558506542,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [68]
+		{
+			"lol", -- [1]
+			"Arkenah-Aegwynn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Arkenah-Aegwynn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			377, -- [11]
+			"Player-1136-08179E53", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Arkenah-Aegwynn|r",
+			[51] = 1558506577,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [69]
+		{
+			"healers are a scanty kind latelky", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			378, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506580,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [70]
+		{
+			"need 4 more trees", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			386, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506616,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [71]
+		{
+			"same", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			387, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558506627,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [72]
+		{
+			"welcome mahaah", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			394, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506660,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [73]
+		{
+			"ty", -- [1]
+			"Mahaah-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mahaah-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			401, -- [11]
+			"Player-76-099348C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMahaah-Sargeras|r",
+			[51] = 1558506693,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [74]
+		{
+			"Notice how erveryone is not half health all the time anymore", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			404, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558506723,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [75]
+		{
+			"welp u are a good tank too tho", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			412, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506740,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [76]
+		{
+			"Cause Mahaa knows what he's doing", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			413, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558506745,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [77]
+		{
+			"oh thanks :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			414, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558506756,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [78]
+		{
+			"gud tanks make me pp hard", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			415, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506760,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [79]
+		{
+			"lol", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			416, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558506766,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"he?", -- [1]
+			"Mahaah-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mahaah-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			417, -- [11]
+			"Player-76-099348C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMahaah-Sargeras|r",
+			[51] = 1558506769,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"Mahaah, previous healer wasnt great, you're much better", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			420, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558506785,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [82]
+		{
+			"ty", -- [1]
+			"Mahaah-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mahaah-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			422, -- [11]
+			"Player-76-099348C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcMahaah-Sargeras|r",
+			[51] = 1558506789,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [83]
+		{
+			"i got cannins n shiet", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			433, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506857,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [84]
+		{
+			"\\", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			434, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506861,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [85]
+		{
+			"rlly smooth run gotta say", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			449, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506936,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [86]
+		{
+			"indeed :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			450, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558506949,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [87]
+		{
+			"just the hiccup w anomalus", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			453, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558506958,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [88]
+		{
+			"well ty all", -- [1]
+			"Becherov-Dawnbringer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Becherov-Dawnbringer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			491, -- [11]
+			"Player-1173-0BD4D99B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Becherov-Dawnbringer|r",
+			[51] = 1558507095,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [89]
+		{
+			"yw", -- [1]
+			"Oromee-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oromee-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			520, -- [11]
+			"Player-5-0B6217E0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Oromee-Proudmoore|r",
+			[51] = 1558507112,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"cheers )", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			521, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558507117,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [91]
+		{
+			"Havea  good one :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			522, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558507120,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [92]
+		{
+			"jesus druids are meat bags", -- [1]
+			"Lightway-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lightway-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			295, -- [11]
+			"Player-76-09866175", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Lightway-Sargeras|r",
+			[51] = 1558896950,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [93]
+		{
+			"yeah :/", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			298, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558896961,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [94]
+		{
+			"you are taking too much damage buddy", -- [1]
+			"Lightway-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lightway-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			299, -- [11]
+			"Player-76-09866175", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Lightway-Sargeras|r",
+			[51] = 1558896962,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [95]
+		{
+			"use some CDS", -- [1]
+			"Lightway-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lightway-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			300, -- [11]
+			"Player-76-09866175", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Lightway-Sargeras|r",
+			[51] = 1558896965,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"Untill we mastery, we have very low HP", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			302, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558896971,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [97]
+		{
+			"they barely have any", -- [1]
+			"Avattara-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Avattara-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			303, -- [11]
+			"Player-5-0AF6AB71", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAvattara-Proudmoore|r",
+			[51] = 1558896974,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [98]
+		{
+			"I did even :(", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			304, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558896974,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [99]
+		{
+			"druid tanks are broken", -- [1]
+			"Avattara-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Avattara-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			305, -- [11]
+			"Player-5-0AF6AB71", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAvattara-Proudmoore|r",
+			[51] = 1558896983,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [100]
+		{
+			"Barksin And Survival instints", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			306, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558896984,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [101]
+		{
+			"lol oops", -- [1]
+			"Phrosius-Azgalor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phrosius-Azgalor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			308, -- [11]
+			"Player-77-0C0D4F2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Phrosius-Azgalor|r",
+			[51] = 1558897001,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [102]
+		{
+			"jesus I was spamming flash heal", -- [1]
+			"Lightway-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lightway-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			319, -- [11]
+			"Player-76-09866175", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Lightway-Sargeras|r",
+			[51] = 1558897073,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [103]
+		{
+			"this is insane", -- [1]
+			"Lightway-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lightway-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			322, -- [11]
+			"Player-76-09866175", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Lightway-Sargeras|r",
+			[51] = 1558897084,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [104]
+		{
+			"I only went tank", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			334, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558897122,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [105]
+		{
+			"because haler queue was long", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			335, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558897126,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [106]
+		{
+			"tablets", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			350, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558897195,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [107]
+		{
+			"sorry", -- [1]
+			"Avattara-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Avattara-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			384, -- [11]
+			"Player-5-0AF6AB71", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAvattara-Proudmoore|r",
+			[51] = 1558897332,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [108]
+		{
+			"forgot i was a sham", -- [1]
+			"Avattara-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Avattara-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			385, -- [11]
+			"Player-5-0AF6AB71", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAvattara-Proudmoore|r",
+			[51] = 1558897336,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [109]
+		{
+			"first", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			402, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558897433,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [110]
+		{
+			"INC", -- [1]
+			"Lightway-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lightway-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			403, -- [11]
+			"Player-76-09866175", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Lightway-Sargeras|r",
+			[51] = 1558897435,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [111]
+		{
+			"that was Barksin", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			419, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558897495,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [112]
+		{
+			"and both charges of SI", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			421, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558897500,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [113]
+		{
+			"thanks for sticking with", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			473, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558897781,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [114]
+		{
+			"welcome", -- [1]
+			"Lightway-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lightway-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			498, -- [11]
+			"Player-76-09866175", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Lightway-Sargeras|r",
+			[51] = 1558897817,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [115]
+		{
+			"good luck guys :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			501, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558897823,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [116]
+		{
+			"Roel check please :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			92, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558936433,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [117]
+		{
+			"Could lead do a role check please?", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558936464,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [118]
+		{
+			"Nice group :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			430, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558937701,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [119]
+		{
+			"down for another?", -- [1]
+			"Renpheld-Skywall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Renpheld-Skywall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			431, -- [11]
+			"Player-131-0831C22E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Renpheld-Skywall|r",
+			[51] = 1558937715,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [120]
+		{
+			"yah really nice", -- [1]
+			"Saschaa-BoreanTundra", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Saschaa-BoreanTundra", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			438, -- [11]
+			"Player-85-066CE3FD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Saschaa-BoreanTundra|r",
+			[51] = 1558937731,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [121]
+		{
+			"Naah, I gotta go to bed", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			439, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558937732,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [122]
+		{
+			"thanks weston good job", -- [1]
+			"Saschaa-BoreanTundra", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Saschaa-BoreanTundra", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			448, -- [11]
+			"Player-85-066CE3FD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Saschaa-BoreanTundra|r",
+			[51] = 1558937741,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [123]
+		{
+			"havea  good one :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			449, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558937744,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [124]
+		{
+			"k, ty for makin it easy tank", -- [1]
+			"Renpheld-Skywall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Renpheld-Skywall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			450, -- [11]
+			"Player-131-0831C22E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Renpheld-Skywall|r",
+			[51] = 1558937745,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [125]
+		{
+			"Thanks bud, you too :)", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			452, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558937747,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [126]
+		{
+			"cya!", -- [1]
+			"Weston-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Weston-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			455, -- [11]
+			"Player-104-0A364A62", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Weston|r",
+			[51] = 1558937752,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [127]
 	},

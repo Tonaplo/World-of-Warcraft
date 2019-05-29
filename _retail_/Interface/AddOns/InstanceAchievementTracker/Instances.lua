@@ -253,6 +253,98 @@ core.Instances = {
                     displayInfoFrame = true,
                 },
             },
+    
+            [2164] = { --Azshara's Eternal Palace
+                name = 1179,
+                boss1 = {
+                    name = 2352, --Abyssal Commander Sivara
+                    bossIDs = {},
+                    achievement = 13684,
+                    players = {},
+                    tactics = L["AzsharasEternalPalace_AbyssalCommanderSivara"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2298,
+                },
+                boss2 = {
+                    name = 2347, --Blackwater Behemoth
+                    bossIDs = {},
+                    achievement = 13628,
+                    players = {},
+                    tactics = L["AzsharasEternalPalace_BlackwaterBehemoth"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2289,
+                },
+                boss3 = {
+                    name = 2353, --Radiance of Azshara
+                    bossIDs = {},
+                    achievement = 13767,
+                    players = {},
+                    tactics = L["AzsharasEternalPalace_RadianceOfAzshara"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2305,
+                },
+                boss4 = {
+                    name = 2354, --Lady Ashvane
+                    bossIDs = {},
+                    achievement = 13629,
+                    players = {},
+                    tactics = L["AzsharasEternalPalace_LadyAshvane"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2304,
+                },
+                boss5 = {
+                    name = 2351, --Orgozoa
+                    bossIDs = {},
+                    achievement = 13724,
+                    players = {},
+                    tactics = L["AzsharasEternalPalace_Orgozoa"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2303,
+                },
+                boss6 = {
+                    name = 2359, --The Queen's Court
+                    bossIDs = {},
+                    achievement = 13633,
+                    players = {},
+                    tactics = L["AzsharasEternalPalace_TheQueensCourt"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2311,
+                },
+                boss7 = {
+                    name = 2349, --Za'qui, Harbinger of Ny'alotha
+                    bossIDs = {},
+                    achievement = 13716,
+                    players = {},
+                    tactics = L["AzsharasEternalPalace_ZaquiHarbingerOfNyalotha"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2293,
+                },
+                boss8 = {
+                    name = 2361, --Queen Azshara
+                    bossIDs = {},
+                    achievement = 13768,
+                    players = {},
+                    tactics = L["AzsharasEternalPalace_QueenAzshara"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2299,
+                },
+            },
         },
 
         Dungeons = {
@@ -595,6 +687,65 @@ core.Instances = {
                     enabled = false,
                     track = nil,
 					partial = false,
+                },
+            },
+
+            [2097] = { --Operation: Mechagon
+                name = 1178,
+                boss1 = {
+                    name = 2357, --King Gobbamak
+                    bossIDs = {},
+                    achievement = 13706,
+                    players = {},
+                    tactics = L["OperationMechagon_KingGobbamak"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2290,
+                },
+                boss2 = {
+                    name = 2358, --Gunker
+                    bossIDs = {},
+                    achievement = 13698,
+                    players = {},
+                    tactics = L["OperationMechagon_Gunker"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2292,
+                },
+                boss3 = {
+                    name = 2336, --Tussle Tonks
+                    bossIDs = {},
+                    achievement = 13723,
+                    players = {},
+                    tactics = L["OperationMechagon_TussleTonks"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2257,
+                },
+                boss4 = {
+                    name = 2348, --Machinist's Garden
+                    bossIDs = {},
+                    achievement = 13545,
+                    players = {},
+                    tactics = L["OperationMechagon_MachinistsGarden"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2259,
+                },
+                boss5 = {
+                    name = 2331, --King Mechagon
+                    bossIDs = {},
+                    achievement = 13624,
+                    players = {},
+                    tactics = L["OperationMechagon_KingMechagon"],
+                    enabled = false,
+                    track = nil,
+                    partial = false,
+                    encounterID = 2260,
                 },
             },
         },
@@ -2664,7 +2815,7 @@ core.Instances = {
                 },
                 boss6 = {
                     name = 677, --Will of the Emperor
-                    bossIDs = {60400, 60399},
+                    bossIDs = {},
                     achievement = 6455,
                     players = {},
                     tactics = L["MogushanVaults_WillOfTheEmperor"],
@@ -3741,8 +3892,8 @@ core.Instances = {
                     achievement = 5829,
                     players = {},
                     tactics = L["Firelands_Shannox"],
-                    enabled = false,
-                    track = nil,
+                    enabled = true,
+                    track = function() core._720:Shannox() end,
                     partial = false,
                     encounterID = 1205,
                 },

@@ -1,996 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i jinx, lol", -- [1]
-		"/i Mal got slept right on pull", -- [2]
-		"/i I didnt have LoH up", -- [3]
-		"/i damn knockbacks", -- [4]
-		"/i holy molly", -- [5]
-		"/i Does he usually hurt that much?", -- [6]
-		"/i rEADY jESSICA?", -- [7]
-		"/i caps", -- [8]
-		"/i Glarff, do you have shout yet?", -- [9]
-		"/i Oh", -- [10]
-		"/i I meant Battle shout", -- [11]
-		"/i also, my bad on spelling", -- [12]
-		"/i thanks for buff :)", -- [13]
-		"/i nps :)", -- [14]
-		"/i remember to hide on boss", -- [15]
-		"/i YW :)", -- [16]
-		"/i he hurts alot", -- [17]
-		"/i nice job :)", -- [18]
-		"/i have a good one everyone :)", -- [19]
-		"/i indeed :)", -- [20]
+		"/i hey guys :)", -- [1]
+		"/i Very nice run, guys!", -- [2]
+		"/i that's it for me", -- [3]
+		"/i have a great day :)", -- [4]
+		"/i ready Ly?", -- [5]
+		"/cw Lyrallia-MoonGuard Dude", -- [6]
+		"/i he hurts alot", -- [7]
+		"/i thanks for buff :)", -- [8]
+		"/i Nice damage :)", -- [9]
+		"/i thanks for 2 good runs! :)", -- [10]
+		"/i over here :)", -- [11]
+		"/i I meant Battle shout", -- [12]
+		"/i alrght", -- [13]
+		"/i I didnt have LoH up", -- [14]
+		"/i Hey guys", -- [15]
+		"/wave", -- [16]
+		"/cw Lyrallia-MoonGuard You are awesome", -- [17]
+		"/cw Lyrallia-MoonGuard Great heals and use of CDs :)", -- [18]
+		"/cw Lyrallia-MoonGuard Have a good night :)", -- [19]
+		"/i Have a good one! :)", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"get what?", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			547, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1557423164,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [1]
-		{
-			"that hurt alot lol", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			556, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1557423189,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [2]
-		{
-			"alright", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			559, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423204,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"if i suddenly", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			561, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423206,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"stop healing", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			562, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423207,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"its cause i fell asleep during boss", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			563, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423211,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"i mean that 100% seriously", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			564, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423215,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"lol", -- [1]
-			"Föxxy-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Föxxy-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			565, -- [11]
-			"Player-1426-0A15593D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFöxxy-AeriePeak|r",
-			[51] = 1557423217,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"He just sucks", -- [1]
-			"Eaxmao-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eaxmao-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			566, -- [11]
-			"Player-60-0BB5B6C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEaxmao-Stormrage|r",
-			[51] = 1557423218,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"Dont be fooled", -- [1]
-			"Eaxmao-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eaxmao-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			567, -- [11]
-			"Player-60-0BB5B6C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEaxmao-Stormrage|r",
-			[51] = 1557423220,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"^", -- [1]
-			"Vezshavaria-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vezshavaria-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			569, -- [11]
-			"Player-3675-06CBC0F7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Vezshavaria-MoonGuard|r",
-			[51] = 1557423228,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"I've fallen asleep on this boss like 4 times in my life", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			570, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423231,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"pretty much just need like two ppl doin this fight", -- [1]
-			"Föxxy-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Föxxy-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			571, -- [11]
-			"Player-1426-0A15593D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFöxxy-AeriePeak|r",
-			[51] = 1557423236,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"the rest can relax", -- [1]
-			"Föxxy-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Föxxy-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			572, -- [11]
-			"Player-1426-0A15593D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFöxxy-AeriePeak|r",
-			[51] = 1557423239,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
-		{
-			"Aight, goodnight then", -- [1]
-			"Eaxmao-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eaxmao-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			575, -- [11]
-			"Player-60-0BB5B6C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEaxmao-Stormrage|r",
-			[51] = 1557423248,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"Ill be back in a few hours", -- [1]
-			"Eaxmao-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eaxmao-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			576, -- [11]
-			"Player-60-0BB5B6C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEaxmao-Stormrage|r",
-			[51] = 1557423252,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"He is like 98 so he can't stay awake to save his life", -- [1]
-			"Vezshavaria-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vezshavaria-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			579, -- [11]
-			"Player-3675-06CBC0F7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Vezshavaria-MoonGuard|r",
-			[51] = 1557423253,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
-		{
-			"Old age crippled him", -- [1]
-			"Eaxmao-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eaxmao-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			583, -- [11]
-			"Player-60-0BB5B6C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEaxmao-Stormrage|r",
-			[51] = 1557423269,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"^-^", -- [1]
-			"Vezshavaria-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vezshavaria-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			584, -- [11]
-			"Player-3675-06CBC0F7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Vezshavaria-MoonGuard|r",
-			[51] = 1557423269,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
-		{
-			"lol", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			587, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1557423284,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [20]
-		{
-			"you guiys", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			636, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423520,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
-		{
-			"should stand in beams and shit", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			638, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423524,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"for me", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			639, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423525,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
-		{
-			"done", -- [1]
-			"Föxxy-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Föxxy-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			641, -- [11]
-			"Player-1426-0A15593D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFöxxy-AeriePeak|r",
-			[51] = 1557423531,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
-		{
-			"aw", -- [1]
-			"Föxxy-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Föxxy-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			644, -- [11]
-			"Player-1426-0A15593D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFöxxy-AeriePeak|r",
-			[51] = 1557423538,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
-		{
-			"yay!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			651, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1557423564,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [26]
-		{
-			"thank", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			653, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423568,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
-		{
-			"the gods", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			658, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423570,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"erm", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			696, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1557423702,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [29]
-		{
-			"where is he", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			697, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1557423704,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [30]
-		{
-			"do we have to talk to him again", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			710, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423774,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
-		{
-			"ill go", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			711, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423780,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
-		{
-			"or the raptor will", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			712, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423788,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
-		{
-			"im faster :p", -- [1]
-			"Föxxy-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Föxxy-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			716, -- [11]
-			"Player-1426-0A15593D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFöxxy-AeriePeak|r",
-			[51] = 1557423793,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
-		{
-			"should be there nowish", -- [1]
-			"Föxxy-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Föxxy-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			721, -- [11]
-			"Player-1426-0A15593D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFöxxy-AeriePeak|r",
-			[51] = 1557423843,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
-		{
-			"Gosh darn it ", -- [1]
-			"Eaxmao-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eaxmao-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			722, -- [11]
-			"Player-60-0BB5B6C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEaxmao-Stormrage|r",
-			[51] = 1557423854,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
-		{
-			"yup", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			723, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423856,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
-		{
-			"Hurry up", -- [1]
-			"Eaxmao-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eaxmao-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			724, -- [11]
-			"Player-60-0BB5B6C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEaxmao-Stormrage|r",
-			[51] = 1557423856,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
-		{
-			":^)", -- [1]
-			"Eaxmao-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eaxmao-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			725, -- [11]
-			"Player-60-0BB5B6C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEaxmao-Stormrage|r",
-			[51] = 1557423863,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:485:Player-104-0A10F15D:1:5:9:19:4294967295:4294967295:4294967295:4294967295|h[Halls of Stone]|h|r!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			737, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1557423927,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [40]
-		{
-			"ty alls", -- [1]
-			"Föxxy-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Föxxy-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			765, -- [11]
-			"Player-1426-0A15593D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcFöxxy-AeriePeak|r",
-			[51] = 1557423945,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
-		{
-			"gg wps", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			769, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423949,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
-		{
-			"all", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			770, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423950,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
-		{
-			"c:L", -- [1]
-			"Kistari-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kistari-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			771, -- [11]
-			"Player-3675-0860DC78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Kistari-MoonGuard|r",
-			[51] = 1557423951,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
 		{
 			"pog", -- [1]
 			"Kistari-MoonGuard", -- [2]
@@ -1012,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Kistari-MoonGuard|r",
 			[51] = 1557423952,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [1]
 		{
 			"thanks!", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1034,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557423969,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [46]
+		}, -- [2]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12484:Player-104-0A31C7F3:1:5:12:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Waycrest Manor]|h|r!", -- [1]
 			"Oldeross-Icecrown", -- [2]
@@ -1056,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOldeross|r",
 			[51] = 1557681711,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [3]
 		{
 			"Ready?", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1078,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798027,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [4]
 		{
 			"mana", -- [1]
 			"Maloriaky-Gallywix", -- [2]
@@ -1100,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMaloriaky-Gallywix|r",
 			[51] = 1557798443,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [5]
 		{
 			"let me know when ready", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1122,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798519,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [6]
 		{
 			"Im ready", -- [1]
 			"Immeral-WyrmrestAccord", -- [2]
@@ -1144,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Immeral-WyrmrestAccord|r",
 			[51] = 1557798540,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [7]
 		{
 			"Oh, I meant Mal :)", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1166,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798551,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [8]
 		{
 			"lol", -- [1]
 			"Immeral-WyrmrestAccord", -- [2]
@@ -1188,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Immeral-WyrmrestAccord|r",
 			[51] = 1557798555,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [9]
 		{
 			"for the mana", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1210,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798556,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [10]
 		{
 			"go", -- [1]
 			"Maloriaky-Gallywix", -- [2]
@@ -1232,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMaloriaky-Gallywix|r",
 			[51] = 1557798562,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10059:Player-104-062C733B:1:5:13:19:4294967295:4294967295:4294967295:4294967295|h[Ain't No Mountain High Enough]|h|r!", -- [1]
 			"Pallymantwo-Icecrown", -- [2]
@@ -1254,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pallymantwo|r",
 			[51] = 1557798626,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [12]
 		{
 			"Static Overload on Korugen", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1276,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798708,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [13]
 		{
 			"only one lightning wave now\"?  lol", -- [1]
 			"Cramped-GrizzlyHills", -- [2]
@@ -1298,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cramped-GrizzlyHills|r",
 			[51] = 1557798792,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:397:Player-104-0A31C7F3:1:5:13:19:4294967295:4294967295:4294967295:4294967295|h[Step Into The Arena]|h|r!", -- [1]
 			"Oldeross-Icecrown", -- [2]
@@ -1320,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcOldeross|r",
 			[51] = 1557798800,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [59]
+		}, -- [15]
 		{
 			"isnt it timed?", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1342,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798802,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [16]
 		{
 			"aka, we killed it too fast?", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1364,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798820,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [17]
 		{
 			"nah, every thing is so easy now", -- [1]
 			"Cramped-GrizzlyHills", -- [2]
@@ -1386,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cramped-GrizzlyHills|r",
 			[51] = 1557798839,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [18]
 		{
 			"jinx, lol", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1408,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798882,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [19]
 		{
 			"no kidding", -- [1]
 			"Cramped-GrizzlyHills", -- [2]
@@ -1430,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cramped-GrizzlyHills|r",
 			[51] = 1557798897,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [20]
 		{
 			"Mal got slept right on pull", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1452,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798908,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [21]
 		{
 			"I didnt have LoH up", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1474,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557798921,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [22]
 		{
 			"damn knockbacks", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1496,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557799219,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:486:Player-104-0A10F15D:1:5:13:19:4294967295:4294967295:4294967295:4294967295|h[Halls of Lightning]|h|r!", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1518,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557799308,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [24]
 		{
 			"Ressing Immeral!", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1540,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557799313,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [25]
 		{
 			"holy molly", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1562,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557799317,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [26]
 		{
 			"Does he usually hurt that much?", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1584,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557799323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [27]
 		{
 			"that was a long fall", -- [1]
 			"Rimmel-Dalaran", -- [2]
@@ -1606,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rimmel-Dalaran|r",
 			[51] = 1557983901,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:487:Player-104-0A10F15D:1:5:15:19:4294967295:4294967295:4294967295:4294967295|h[The Oculus]|h|r!", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1628,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1557983987,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [29]
 		{
 			"heh, howdy =)", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -1650,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558155529,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [30]
 		{
 			"oh right", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1672,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558155531,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [31]
 		{
 			"hey lol", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -1694,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155554,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [32]
 		{
 			"been leveling this bm hunter the last week", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -1716,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155586,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [33]
 		{
 			"its a surprisingly fun spec", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -1738,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155594,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [34]
 		{
 			"yes. yes it is.", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1760,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558155616,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [35]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9602:Player-104-0A46450D:1:5:17:19:4294967295:4294967295:4294967295:4294967295|h[Shoot For the Moon]|h|r!", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -1782,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155708,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [36]
 		{
 			"rEADY jESSICA?", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1804,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558155733,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [81]
+		}, -- [37]
 		{
 			"caps", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1826,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558155735,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [82]
+		}, -- [38]
 		{
 			"hows raiding been?", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -1848,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155737,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [39]
 		{
 			"in betweener stage at the moment", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1870,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558155749,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [40]
 		{
 			"mythic hasn't been tuned down, next raid is too far away", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1892,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558155756,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [41]
 		{
 			"i was out for a month on the road", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1914,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558155764,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [42]
 		{
 			"I saw, looked fun :d", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -1936,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155774,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [43]
 		{
 			"it was awesome", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1958,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558155798,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [44]
 		{
 			"Glarff, do you have shout yet?", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1980,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558155844,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [89]
+		}, -- [45]
 		{
 			"I dont think it'll be this blizzcon, but I fully plan on going to the one after", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2002,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155878,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [46]
 		{
 			"bummer to miss you this year", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -2024,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558155886,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [47]
 		{
 			"Would like to goto one with a new raid announcement", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2046,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155892,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [48]
 		{
 			"It's actually two r's instead of two f's, And no I don't have |cff71d5ff|Hspell:97462:0|h[Rallying Cry]|h|r", -- [1]
 			"Glarrf-MoonGuard", -- [2]
@@ -2068,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGlarrf-MoonGuard|r",
 			[51] = 1558155893,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [49]
 		{
 			"this is going to be a good blizzcon", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -2090,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558155896,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [50]
 		{
 			"expac*", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2112,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155898,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [51]
 		{
 			"not raid", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2134,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155899,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [52]
 		{
 			"Hmm", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2156,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155903,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [53]
 		{
 			"I don't think I could even get the days off, if you don't set it up in the first 3 months of the new year on my line", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2178,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155925,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [54]
 		{
 			"Oh", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2200,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558155926,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [99]
+		}, -- [55]
 		{
 			"I meant Battle shout", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2222,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558155930,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [100]
+		}, -- [56]
 		{
 			"Almost impossible to get more than 3 days off in a row", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2244,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558155936,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [101]
+		}, -- [57]
 		{
 			"also, my bad on spelling", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2266,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558155944,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [102]
+		}, -- [58]
 		{
 			"Oh, lol yeah i got that ", -- [1]
 			"Glarrf-MoonGuard", -- [2]
@@ -2288,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGlarrf-MoonGuard|r",
 			[51] = 1558155950,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
+		}, -- [59]
 		{
 			"thanks for buff :)", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2310,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558155978,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [104]
+		}, -- [60]
 		{
 			"Yw! :D", -- [1]
 			"Glarrf-MoonGuard", -- [2]
@@ -2332,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGlarrf-MoonGuard|r",
 			[51] = 1558155985,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [61]
 		{
 			"Is there gonna be a Furious Pantaloons classic? I'm sure it's been talked about already", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2354,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558156091,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [106]
+		}, -- [62]
 		{
 			"yes", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -2376,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558156104,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [107]
+		}, -- [63]
 		{
 			"guess I haven't talked about it", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -2398,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558156113,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [108]
+		}, -- [64]
 		{
 			"but yeah, it's gonna happen.  and yes, it'll be alliance.", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -2420,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558156123,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [109]
+		}, -- [65]
 		{
 			"Good and good", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2442,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558156134,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [110]
+		}, -- [66]
 		{
 			"... I might need folks to help chip in because it, being classic, is hard to do ...", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -2464,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558156177,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [111]
+		}, -- [67]
 		{
 			"Unfortunately started in wrath, so my nostalgia is with that", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2486,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558156178,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [112]
+		}, -- [68]
 		{
 			"But I do want to try vanilla out", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2508,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558156184,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [113]
+		}, -- [69]
 		{
 			"DERP", -- [1]
 			"Glarrf-MoonGuard", -- [2]
@@ -2530,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGlarrf-MoonGuard|r",
 			[51] = 1558156603,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [114]
+		}, -- [70]
 		{
 			"Ressing Glarrf!", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2552,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156617,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [115]
+		}, -- [71]
 		{
 			"Thank you!", -- [1]
 			"Glarrf-MoonGuard", -- [2]
@@ -2574,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGlarrf-MoonGuard|r",
 			[51] = 1558156626,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [116]
+		}, -- [72]
 		{
 			"nps :)", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2596,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156631,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [117]
+		}, -- [73]
 		{
 			"Damn again", -- [1]
 			"Glarrf-MoonGuard", -- [2]
@@ -2618,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGlarrf-MoonGuard|r",
 			[51] = 1558156762,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [118]
+		}, -- [74]
 		{
 			"Ressing Glarrf!", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2640,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156766,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [119]
+		}, -- [75]
 		{
 			"Thanks once again XD", -- [1]
 			"Glarrf-MoonGuard", -- [2]
@@ -2662,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGlarrf-MoonGuard|r",
 			[51] = 1558156772,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [76]
 		{
 			"remember to hide on boss", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2684,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156780,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [121]
+		}, -- [77]
 		{
 			"YW :)", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2706,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156783,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [122]
+		}, -- [78]
 		{
 			"he hurts alot", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2728,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156788,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [123]
+		}, -- [79]
 		{
 			"nice job :)", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2750,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156863,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [124]
+		}, -- [80]
 		{
 			"Yay! Good group :D", -- [1]
 			"Glarrf-MoonGuard", -- [2]
@@ -2772,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGlarrf-MoonGuard|r",
 			[51] = 1558156875,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [81]
 		{
 			"have a good one everyone :)", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2794,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156877,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [126]
+		}, -- [82]
 		{
 			"indeed :)", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -2816,6 +1848,974 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1558156881,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [83]
+		{
+			"Heard last night was a pretty short one, stopped before monkey man right?", -- [1]
+			"Algoshock-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			235, -- [11]
+			"Player-104-08FB9CB8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAlgoshock|r",
+			[51] = 1558204878,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [84]
+		{
+			"yea", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			237, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558204886,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [85]
+		{
+			"Dang", -- [1]
+			"Algoshock-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-104-08FB9CB8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAlgoshock|r",
+			[51] = 1558204894,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"no thorn no you", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			239, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558204895,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"some invite from elsewhere", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			249, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558204907,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [88]
+		{
+			"the timing was off a bit on 2nd boss", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			255, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558204919,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"so took us like 7 attempts", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			258, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558204926,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"That's frustrating :(", -- [1]
+			"Algoshock-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			262, -- [11]
+			"Player-104-08FB9CB8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAlgoshock|r",
+			[51] = 1558204937,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"yea i died 4 times", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			263, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558204948,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"gotta love pyroblast ", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			266, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558204954,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"lol", -- [1]
+			"Algoshock-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			268, -- [11]
+			"Player-104-08FB9CB8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAlgoshock|r",
+			[51] = 1558204956,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"Well hopefully I'll be here in time for raid tonight, not sure what my plans are looking like so I might be a little busy but hopefully not for too long?", -- [1]
+			"Algoshock-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			333, -- [11]
+			"Player-104-08FB9CB8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAlgoshock|r",
+			[51] = 1558205046,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"i am busy tonight but hoping to make it", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			334, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558205060,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"i am on my lock and finally got hood", -- [1]
+			"Booti-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			335, -- [11]
+			"Player-104-0A33EE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Booti|r",
+			[51] = 1558205068,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"hey guys :)", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			249, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1558718902,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [98]
+		{
+			"suh dude", -- [1]
+			"Tor-Gnomeregan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tor-Gnomeregan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			250, -- [11]
+			"Player-153-0A19BA00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTor-Gnomeregan|r",
+			[51] = 1558718909,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [99]
+		{
+			"sup, lets put some arrows up in these guys", -- [1]
+			"Darkshot-Malfurion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Darkshot-Malfurion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			260, -- [11]
+			"Player-1175-0BCEA1A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Darkshot-Malfurion|r",
+			[51] = 1558718937,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [100]
+		{
+			"Nice damage :)", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			335, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1558719270,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [101]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6757:Player-104-0A10F15D:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Temple of the Jade Serpent]|h|r!", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			399, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1558719597,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [102]
+		{
+			"Very nice run, guys!", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			413, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1558719607,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [103]
+		{
+			"woo", -- [1]
+			"Tor-Gnomeregan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tor-Gnomeregan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			430, -- [11]
+			"Player-153-0A19BA00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTor-Gnomeregan|r",
+			[51] = 1558719646,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [104]
+		{
+			"aw lol", -- [1]
+			"Tor-Gnomeregan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tor-Gnomeregan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			437, -- [11]
+			"Player-153-0A19BA00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTor-Gnomeregan|r",
+			[51] = 1558719657,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [105]
+		{
+			"lol", -- [1]
+			"Gná-MoonGuard", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gná-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			438, -- [11]
+			"Player-3675-08482FC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcGná-MoonGuard|r",
+			[51] = 1558719662,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [106]
+		{
+			"who we taking out first", -- [1]
+			"Darkshot-Malfurion", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Darkshot-Malfurion", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			532, -- [11]
+			"Player-1175-0BCEA1A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Darkshot-Malfurion|r",
+			[51] = 1558720014,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [107]
+		{
+			"Depends who gets that buff", -- [1]
+			"Tor-Gnomeregan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tor-Gnomeregan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			534, -- [11]
+			"Player-153-0A19BA00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTor-Gnomeregan|r",
+			[51] = 1558720023,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [108]
+		{
+			"alrght", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			608, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1558720350,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [109]
+		{
+			"that's it for me", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			609, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1558720352,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [110]
+		{
+			"thanks for 2 good runs! :)", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			610, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1558720356,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [111]
+		{
+			"Thanks", -- [1]
+			"Tor-Gnomeregan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tor-Gnomeregan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			611, -- [11]
+			"Player-153-0A19BA00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTor-Gnomeregan|r",
+			[51] = 1558720360,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [112]
+		{
+			"thanks for the party ^^", -- [1]
+			"Gná-MoonGuard", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gná-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			612, -- [11]
+			"Player-3675-08482FC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcGná-MoonGuard|r",
+			[51] = 1558720361,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [113]
+		{
+			"have a great day :)", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			613, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1558720362,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [114]
+		{
+			"ty all", -- [1]
+			"Ultio-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ultio-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			615, -- [11]
+			"Player-5-0B682B42", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Ultio-Proudmoore|r",
+			[51] = 1558720364,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [115]
+		{
+			"Hey guys", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			34, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559024529,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [116]
+		{
+			"ready Ly?", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			37, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559024537,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [117]
+		{
+			"over here :)", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			155, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559025026,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [118]
+		{
+			"Dude", -- [1]
+			"Lyrallia-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Lyrallia-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			179, -- [11]
+			"Player-3675-06DD1349", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
+			[51] = 1559025186,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [119]
+		{
+			"You are awesome", -- [1]
+			"Lyrallia-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Lyrallia-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			181, -- [11]
+			"Player-3675-06DD1349", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
+			[51] = 1559025188,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [120]
+		{
+			"Thanks. Glad you think so.", -- [1]
+			"Lyrallia-MoonGuard", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lyrallia-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			184, -- [11]
+			"Player-3675-06DD1349", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
+			[51] = 1559025203,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [121]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6457:Player-104-0A10F15D:1:5:27:19:4294967295:4294967295:4294967295:4294967295|h[Stormstout Brewery]|h|r!", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			191, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559025329,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [122]
+		{
+			"Great heals and use of CDs :)", -- [1]
+			"Lyrallia-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Lyrallia-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			205, -- [11]
+			"Player-3675-06DD1349", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
+			[51] = 1559025344,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [123]
+		{
+			"Have a good night :)", -- [1]
+			"Lyrallia-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Lyrallia-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			207, -- [11]
+			"Player-3675-06DD1349", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
+			[51] = 1559025348,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [124]
+		{
+			"You too.", -- [1]
+			"Lyrallia-MoonGuard", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lyrallia-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			208, -- [11]
+			"Player-3675-06DD1349", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
+			[51] = 1559025352,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [125]
+		{
+			"Have a good one! :)", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559025356,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [126]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12832:Player-104-094C68A7:1:5:27:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Freehold]|h|r!", -- [1]
+			"Oldera-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Oldera-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			276, -- [11]
+			"Player-104-094C68A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeOldera|r",
+			[51] = 1559025966,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},
 }

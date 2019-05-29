@@ -1,226 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/pull 5", -- [1]
-		"/p Yes, sorry", -- [2]
-		"/p I was confused why you didnt pull though", -- [3]
-		"/p ahhh", -- [4]
-		"/p that's my bad", -- [5]
-		"/p not super used to DPS, sorry", -- [6]
-		"/p haha, so you can tell how much I uck :P", -- [7]
-		"/p Oh really?", -- [8]
-		"/p Cant play frost when I'm a Dark Iron", -- [9]
-		"/p against the fantasy", -- [10]
-		"/p hero?", -- [11]
-		"/p ?", -- [12]
-		"/p All good, boss is dead :)", -- [13]
-		"/p gz on loot :)", -- [14]
-		"/p havea  good one :)", -- [15]
-		"/p portal ic\\", -- [16]
-		"/p for borealus", -- [17]
-		"/g Anyone want to do", -- [18]
-		"/g |cffa335ee|Hkeystone:158923:353:4:9:5:0:0|h[Keystone: Siege of Boralus (4)]|h|r", -- [19]
-		"/p Alright, just the hard roles missing", -- [20]
+		"/p I was confused why you didnt pull though", -- [1]
+		"/p that's my bad", -- [2]
+		"/p haha, so you can tell how much I uck :P", -- [3]
+		"/p Cant play frost when I'm a Dark Iron", -- [4]
+		"/p hero?", -- [5]
+		"/p All good, boss is dead :)", -- [6]
+		"/p havea  good one :)", -- [7]
+		"/p for borealus", -- [8]
+		"/g |cffa335ee|Hkeystone:158923:353:4:9:5:0:0|h[Keystone: Siege of Boralus (4)]|h|r", -- [9]
+		"/cw Jikso-Ragnaros You're welcome !:)", -- [10]
+		"/p ahhh", -- [11]
+		"/p Oh really?", -- [12]
+		"/p ?", -- [13]
+		"/p portal ic\\", -- [14]
+		"/p Alright, just the hard roles missing", -- [15]
+		"/p not super used to DPS, sorry", -- [16]
+		"/p gz on loot :)", -- [17]
+		"/p Yes, sorry", -- [18]
+		"/g Anyone want to do", -- [19]
+		"/p against the fantasy", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			" /readycheck", -- [1]
-			"Teemoh-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Teemoh-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			172, -- [11]
-			"Player-75-030FE7C0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
-			[51] = 1553142481,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [1]
-		{
-			" /pull 5", -- [1]
-			"Teemoh-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Teemoh-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			173, -- [11]
-			"Player-75-030FE7C0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
-			[51] = 1553142484,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [2]
-		{
-			"at the same time guys", -- [1]
-			"Shannalote-Quel'Thalas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shannalote-Quel'Thalas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			175, -- [11]
-			"Player-1428-0831A579", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcShannalote-Quel'Thalas|r",
-			[51] = 1553142564,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [3]
-		{
-			"dude, paladin", -- [1]
-			"Hazeeftw-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hazeeftw-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			176, -- [11]
-			"Player-60-0B9D540F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cHazeeftw-Stormrage|r",
-			[51] = 1553142574,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [4]
-		{
-			"watch the others", -- [1]
-			"Hazeeftw-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hazeeftw-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			177, -- [11]
-			"Player-60-0B9D540F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cHazeeftw-Stormrage|r",
-			[51] = 1553142578,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [5]
-		{
-			"now", -- [1]
-			"Takeyomoney-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Takeyomoney-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			178, -- [11]
-			"Player-11-07652940", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Takeyomoney-Tichondrius|r",
-			[51] = 1553142596,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
-		{
-			"Unstable Hex on Thedodrouk", -- [1]
-			"Thedodrouk-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Thedodrouk-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			182, -- [11]
-			"Player-104-09FD5086", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Thedodrouk|r",
-			[51] = 1553142722,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"3", -- [1]
-			"Thedodrouk-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Thedodrouk-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			183, -- [11]
-			"Player-104-09FD5086", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Thedodrouk|r",
-			[51] = 1553142724,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"2", -- [1]
-			"Thedodrouk-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Thedodrouk-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			184, -- [11]
-			"Player-104-09FD5086", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Thedodrouk|r",
-			[51] = 1553142725,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
 		{
 			"1", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -242,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553142726,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [1]
 		{
 			"focus add guys", -- [1]
 			"Hazeeftw-Stormrage", -- [2]
@@ -264,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHazeeftw-Stormrage|r",
 			[51] = 1553143112,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [11]
+		}, -- [2]
 		{
 			"?", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -286,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143213,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [12]
+		}, -- [3]
 		{
 			"Frenzied Charge on Thedodrouk", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -308,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143365,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
+		}, -- [4]
 		{
 			"Frenzied Charge on Thedodrouk", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -330,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143380,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [5]
 		{
 			"Frenzied Charge on Thedodrouk", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -352,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143410,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [6]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11213:Player-104-061FC22C:1:3:20:19:4294967295:4294967295:4294967295:4294967295|h[Lead a Legion]|h|r!", -- [1]
 			"Kumudin-Icecrown", -- [2]
@@ -374,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Kumudin|r",
 			[51] = 1553143432,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
+		}, -- [7]
 		{
 			"Casting |cff71d5ff|Hspell:29893:0|h[Create Soulwell]|h|r!", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -396,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143463,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12546:Player-104-063F2747:1:3:20:19:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Bealerius-Icecrown", -- [2]
@@ -418,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBealerius|r",
 			[51] = 1553143563,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [18]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12547:Player-104-063F2747:1:3:20:19:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
 			"Bealerius-Icecrown", -- [2]
@@ -440,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBealerius|r",
 			[51] = 1553143563,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [19]
+		}, -- [10]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12826:Player-104-09FD5086:1:3:20:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Atal'Dazar]|h|r!", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -462,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143572,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12825:Player-104-09FD5086:1:3:20:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Atal'Dazar]|h|r!", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -484,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143572,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12824:Player-104-09FD5086:1:3:20:19:4294967295:4294967295:4294967295:4294967295|h[Atal'Dazar]|h|r!", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -506,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143572,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
+		}, -- [13]
 		{
 			"never seen that. so that what happens when you fail mechanics. lol", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -528,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143590,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
+		}, -- [14]
 		{
 			"lol", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -550,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143601,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
+		}, -- [15]
 		{
 			"thedo, need that trink?", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -572,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143603,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
+		}, -- [16]
 		{
 			"b", -- [1]
 			"Hazeeftw-Stormrage", -- [2]
@@ -594,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHazeeftw-Stormrage|r",
 			[51] = 1553143608,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [26]
+		}, -- [17]
 		{
 			"|cffa335ee|Hitem:158313::::::::120:73::16:4:4780:4802:1547:4786:::|h[Legplates of Beaten Gold]|h|r pala?", -- [1]
 			"Hazeeftw-Stormrage", -- [2]
@@ -616,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHazeeftw-Stormrage|r",
 			[51] = 1553143615,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [27]
+		}, -- [18]
 		{
 			"Oh yeah I did", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -638,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143622,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
+		}, -- [19]
 		{
 			"sure!", -- [1]
 			"Takeyomoney-Tichondrius", -- [2]
@@ -660,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Takeyomoney-Tichondrius|r",
 			[51] = 1553143624,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
+		}, -- [20]
 		{
 			"aight", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -682,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143627,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [30]
+		}, -- [21]
 		{
 			"kk", -- [1]
 			"Hazeeftw-Stormrage", -- [2]
@@ -704,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHazeeftw-Stormrage|r",
 			[51] = 1553143628,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [31]
+		}, -- [22]
 		{
 			"ty all", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -726,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143632,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
+		}, -- [23]
 		{
 			"had |cff0070dd|Hitem:165666::::::::120:63::28:3:4803:1547:4785:::|h[Moonstone of Zin-Azshari]|h|r", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -748,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143634,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [33]
+		}, -- [24]
 		{
 			"ty all", -- [1]
 			"Takeyomoney-Tichondrius", -- [2]
@@ -770,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Takeyomoney-Tichondrius|r",
 			[51] = 1553143635,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [25]
 		{
 			"lol", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -792,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143635,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [35]
+		}, -- [26]
 		{
 			"got me a +4 KR", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -814,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143639,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [36]
+		}, -- [27]
 		{
 			"I'm up for that", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -836,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143645,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
+		}, -- [28]
 		{
 			"ty all guys", -- [1]
 			"Hazeeftw-Stormrage", -- [2]
@@ -858,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHazeeftw-Stormrage|r",
 			[51] = 1553143656,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [38]
+		}, -- [29]
 		{
 			"gl", -- [1]
 			"Hazeeftw-Stormrage", -- [2]
@@ -880,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHazeeftw-Stormrage|r",
 			[51] = 1553143658,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [39]
+		}, -- [30]
 		{
 			"ty all ", -- [1]
 			"Takeyomoney-Tichondrius", -- [2]
@@ -902,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Takeyomoney-Tichondrius|r",
 			[51] = 1553143660,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
+		}, -- [31]
 		{
 			"hazeef/shanna wanna do +4 KR", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -924,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143667,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [41]
+		}, -- [32]
 		{
 			"maybe next time", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -946,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143693,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [42]
+		}, -- [33]
 		{
 			"take care", -- [1]
 			"Teemoh-ArgentDawn", -- [2]
@@ -968,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTeemoh-ArgentDawn|r",
 			[51] = 1553143695,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [43]
+		}, -- [34]
 		{
 			"Seems like nope lol", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -990,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1553143696,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [44]
+		}, -- [35]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:154:Player-104-09DA1204:1:3:20:19:4294967295:4294967295:4294967295:4294967295|h[Arathi Basin Victory]|h|r!", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -1012,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1553143982,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [36]
 		{
 			"turns his |Hitem:118427|h|cFFFFFFFF[Autographed Hearthstone Card]|r|h card over, revealing a |cFFFFFFFF[Common Hearthstone Card]|r!", -- [1]
 			"Gnarlzbarkly-Area52", -- [2]
@@ -1034,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Gnarlzbarkly-Area52|r",
 			[51] = 1553143990,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [46]
+		}, -- [37]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11756:Player-104-099548D3:1:3:20:19:4294967295:4294967295:4294967295:4294967295|h[Wardrobe of the Old Gods]|h|r!", -- [1]
 			"Ogrelurd-Malygos", -- [2]
@@ -1056,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOgrelurd-Malygos|r",
 			[51] = 1553150331,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [38]
 		{
 			"Greetings :)", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1078,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179041,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [48]
+		}, -- [39]
 		{
 			"Hello guys", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1100,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179082,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [49]
+		}, -- [40]
 		{
 			"(Mariana): yo", -- [1]
 			"Hidrith-TolBarad", -- [2]
@@ -1122,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hidrith-TolBarad|r",
 			[51] = 1554179090,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [50]
+		}, -- [41]
 		{
 			"wow, heals hard to find", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1144,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179165,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [51]
+		}, -- [42]
 		{
 			"yay, full group", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1166,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179228,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [52]
+		}, -- [43]
 		{
 			"at stone", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1188,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179231,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [53]
+		}, -- [44]
 		{
 			"I did list it as AtalDazar", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1210,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179284,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [54]
+		}, -- [45]
 		{
 			"right?", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1232,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179287,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [55]
+		}, -- [46]
 		{
 			"yes", -- [1]
 			"Toosmexy-Sargeras", -- [2]
@@ -1254,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Toosmexy-Sargeras|r",
 			[51] = 1554179295,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [56]
+		}, -- [47]
 		{
 			"yea", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1276,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554179297,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [57]
+		}, -- [48]
 		{
 			"good good :)", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1298,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179299,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [58]
+		}, -- [49]
 		{
 			"(Mariana): can summon us?", -- [1]
 			"Hidrith-TolBarad", -- [2]
@@ -1320,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hidrith-TolBarad|r",
 			[51] = 1554179466,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
+		}, -- [50]
 		{
 			"ones in war mode ones not]", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1342,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554179476,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
+		}, -- [51]
 		{
 			"qq, lol", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1364,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179483,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [61]
+		}, -- [52]
 		{
 			"i havent done the zuldazar questing on this toon so I cant sail over there", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1386,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554179557,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [53]
 		{
 			"(Mariana): ..", -- [1]
 			"Hidrith-TolBarad", -- [2]
@@ -1408,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hidrith-TolBarad|r",
 			[51] = 1554179577,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
+		}, -- [54]
 		{
 			"...", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1430,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554179592,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
+		}, -- [55]
 		{
 			"you want me to sail over there when im the furthest one away and last to join... okay", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1452,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554179640,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
+		}, -- [56]
 		{
 			"im at stone", -- [1]
 			"Toosmexy-Sargeras", -- [2]
@@ -1474,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Toosmexy-Sargeras|r",
 			[51] = 1554179655,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
+		}, -- [57]
 		{
 			"Me too, but I'm in warmode", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1496,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179666,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [67]
+		}, -- [58]
 		{
 			"alliance in warmode feelin brave", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1518,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554179712,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
+		}, -- [59]
 		{
 			"set to mythic", -- [1]
 			"Toosmexy-Sargeras", -- [2]
@@ -1540,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Toosmexy-Sargeras|r",
 			[51] = 1554179729,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [60]
 		{
 			"there we go", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1562,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179759,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [70]
+		}, -- [61]
 		{
 			"my bad", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1584,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179760,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [71]
+		}, -- [62]
 		{
 			"(Mariana): hero in rezan", -- [1]
 			"Hidrith-TolBarad", -- [2]
@@ -1606,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hidrith-TolBarad|r",
 			[51] = 1554179821,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [63]
 		{
 			"Pursuit on Thedodrouk", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1628,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554179862,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [64]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13075:Player-104-09DB914F:1:4:1:19:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keymaster]|h|r!", -- [1]
 			"Irith-Icecrown", -- [2]
@@ -1650,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Irith|r",
 			[51] = 1554179907,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [65]
 		{
 			"Unstable Hex on Thedodrouk", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1672,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180187,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [66]
 		{
 			"Unstable Hex on Thedodrouk", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1694,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180239,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [67]
 		{
 			"3", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1716,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180241,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [68]
 		{
 			"Unstable Hex on Saelori", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1738,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180241,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [69]
 		{
 			"youre a mage not a tank", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1760,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180327,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
+		}, -- [70]
 		{
 			"(Mariana): why??", -- [1]
 			"Hidrith-TolBarad", -- [2]
@@ -1782,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hidrith-TolBarad|r",
 			[51] = 1554180334,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
+		}, -- [71]
 		{
 			"Yes, sorry", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1804,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180456,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [81]
+		}, -- [72]
 		{
 			"I was confused why you didnt pull though", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1826,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180463,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [82]
+		}, -- [73]
 		{
 			"mana", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1848,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180468,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
+		}, -- [74]
 		{
 			"ahhh", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1870,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180474,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [84]
+		}, -- [75]
 		{
 			"that's my bad", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1892,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180476,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [76]
 		{
 			"not super used to DPS, sorry", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1914,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180492,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [86]
+		}, -- [77]
 		{
 			"its okay", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1936,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180494,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [78]
 		{
 			"my mains a mage lo", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -1958,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180505,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [79]
 		{
 			"haha, so you can tell how much I uck :P", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -1980,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180528,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [89]
+		}, -- [80]
 		{
 			"lol no", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2002,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180544,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [81]
 		{
 			"mages are rough right now imo", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2024,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180563,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [91]
+		}, -- [82]
 		{
 			"Oh really?", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2046,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180570,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [92]
+		}, -- [83]
 		{
 			"at least frost is", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2068,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180588,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [93]
+		}, -- [84]
 		{
 			"ive been doing fire a little more now because frost feels meh", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2090,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180608,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [85]
 		{
 			"Cant play frost when I'm a Dark Iron", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2112,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180613,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [95]
+		}, -- [86]
 		{
 			"against the fantasy", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2134,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180619,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [96]
+		}, -- [87]
 		{
 			"oops", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2156,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180624,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [97]
+		}, -- [88]
 		{
 			"hero?", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2178,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180772,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [98]
+		}, -- [89]
 		{
 			"[IAT] setup", -- [1]
 			"Fallanor-Goldrinn", -- [2]
@@ -2200,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Fallanor-Goldrinn|r",
 			[51] = 1554180774,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [99]
+		}, -- [90]
 		{
 			"y tho", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2222,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180956,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [100]
+		}, -- [91]
 		{
 			"?", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2244,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554180969,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [101]
+		}, -- [92]
 		{
 			"outta practice", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2266,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554180970,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [102]
+		}, -- [93]
 		{
 			"Interrompido Gritacéu Devorante's |cff71d5ff|Hspell:255041:0|h[Guinchado Aterrorizante]|h|r!", -- [1]
 			"Hidrith-TolBarad", -- [2]
@@ -2288,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hidrith-TolBarad|r",
 			[51] = 1554181018,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [103]
+		}, -- [94]
 		{
 			"", -- [1]
 			"|Kq50|k", -- [2]
@@ -2310,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "brogan",
 			[51] = 1554181026,
 			[50] = "CHAT_MSG_BN_INLINE_TOAST_BROADCAST",
-		}, -- [104]
+		}, -- [95]
 		{
 			"New Keystone: |cffa335ee|Hkeystone:158923:353:4:9:5:0:0|h[Keystone: Siege of Boralus (4)]|h|r", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2332,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181208,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [105]
+		}, -- [96]
 		{
 			"|cffa335ee|Hkeystone:158923:353:4:9:5:0:0|h[Keystone: Siege of Boralus (4)]|h|r", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2354,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181211,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [106]
+		}, -- [97]
 		{
 			"phew", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2376,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554181211,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [107]
+		}, -- [98]
 		{
 			"sorry", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2398,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554181213,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [108]
+		}, -- [99]
 		{
 			"All good, boss is dead :)", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2420,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181233,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [109]
+		}, -- [100]
 		{
 			"true xD", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2442,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554181239,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [110]
+		}, -- [101]
 		{
 			"ty all :)", -- [1]
 			"Fallanor-Goldrinn", -- [2]
@@ -2464,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Fallanor-Goldrinn|r",
 			[51] = 1554181242,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [111]
+		}, -- [102]
 		{
 			"tyvm guys", -- [1]
 			"Toosmexy-Sargeras", -- [2]
@@ -2486,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Toosmexy-Sargeras|r",
 			[51] = 1554181246,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [112]
+		}, -- [103]
 		{
 			"tyty", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2508,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554181247,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [113]
+		}, -- [104]
 		{
 			"gz on loot :)", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2530,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181248,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [114]
+		}, -- [105]
 		{
 			"havea  good one :)", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2552,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181250,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [115]
+		}, -- [106]
 		{
 			"portal ic\\", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2574,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181256,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [116]
+		}, -- [107]
 		{
 			"you too", -- [1]
 			"Saelori-Silvermoon", -- [2]
@@ -2596,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Saelori-Silvermoon|r",
 			[51] = 1554181259,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [117]
+		}, -- [108]
 		{
 			"for borealus", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2618,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181260,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [118]
+		}, -- [109]
 		{
 			"(Mariana): ty guys", -- [1]
 			"Hidrith-TolBarad", -- [2]
@@ -2640,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hidrith-TolBarad|r",
 			[51] = 1554181262,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [119]
+		}, -- [110]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10786:Player-104-0A37062D:1:4:1:19:4294967295:4294967295:4294967295:4294967295|h[Halls of Valor]|h|r!", -- [1]
 			"Grimhorne-Icecrown", -- [2]
@@ -2662,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Grimhorne|r",
 			[51] = 1554181418,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [120]
+		}, -- [111]
 		{
 			"Anyone want to do", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2684,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181515,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [121]
+		}, -- [112]
 		{
 			"|cffa335ee|Hkeystone:158923:353:4:9:5:0:0|h[Keystone: Siege of Boralus (4)]|h|r", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2706,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181518,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [122]
+		}, -- [113]
 		{
 			"finishing up emissaries here", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -2728,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1554181551,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [123]
+		}, -- [114]
 		{
 			"Alright, just the hard roles missing", -- [1]
 			"Thedodrouk-Icecrown", -- [2]
@@ -2750,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Thedodrouk|r",
 			[51] = 1554181568,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [124]
+		}, -- [115]
 		{
 			"brb bio", -- [1]
 			"Imager-Kel'Thuzad", -- [2]
@@ -2772,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Imager-Kel'Thuzad|r",
 			[51] = 1554181728,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [125]
+		}, -- [116]
 		{
 			"well i mout", -- [1]
 			"Blazethunder-Stormrage", -- [2]
@@ -2794,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBlazethunder-Stormrage|r",
 			[51] = 1554182097,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [126]
+		}, -- [117]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12727:Player-104-0A33EE0A:1:4:1:19:4294967295:4294967295:4294967295:4294967295|h[Stand by Me]|h|r!", -- [1]
 			"Booti-Icecrown", -- [2]
@@ -2815,6 +2617,204 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cffc31d39Booti|r",
 			[51] = 1554182274,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [118]
+		{
+			":..Lust Detector:..: Jackiio Casted a Spell |cff71d5ff|Hspell:80353:0|h[시간 왜곡]|h|r!", -- [1]
+			"Durumari-Frostmourne", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Durumari-Frostmourne", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			562, -- [11]
+			"Player-3725-0ACF2A1F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Durumari-Frostmourne|r",
+			[51] = 1558507880,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [119]
+		{
+			"ty", -- [1]
+			"Jikso-Ragnaros", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jikso-Ragnaros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			585, -- [11]
+			"Player-1427-09E1334C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Jikso-Ragnaros|r",
+			[51] = 1558508304,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [120]
+		{
+			"You're welcome !:)", -- [1]
+			"Jikso-Ragnaros", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Jikso-Ragnaros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			593, -- [11]
+			"Player-1427-09E1334C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Jikso-Ragnaros|r",
+			[51] = 1558508356,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [121]
+		{
+			":)", -- [1]
+			"Jikso-Ragnaros", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jikso-Ragnaros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			594, -- [11]
+			"Player-1427-09E1334C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Jikso-Ragnaros|r",
+			[51] = 1558508369,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [122]
+		{
+			"my enbtire group got lost in mogushan palace", -- [1]
+			"Telios-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			330, -- [11]
+			"Player-104-09D40CF1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTelios|r",
+			[51] = 1558752688,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [123]
+		{
+			"this hurts", -- [1]
+			"Telios-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			337, -- [11]
+			"Player-104-09D40CF1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTelios|r",
+			[51] = 1558752694,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [124]
+		{
+			"wtf", -- [1]
+			"Jhønsnøw-Nemesis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jhønsnøw-Nemesis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			371, -- [11]
+			"Player-3208-0A952043", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Jhønsnøw-Nemesis|r",
+			[51] = 1558752886,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [125]
+		{
+			"lol", -- [1]
+			"Jhønsnøw-Nemesis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jhønsnøw-Nemesis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			375, -- [11]
+			"Player-3208-0A952043", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Jhønsnøw-Nemesis|r",
+			[51] = 1558752889,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [126]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6755:Player-104-09D40CF1:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mogu'shan Palace]|h|r!", -- [1]
+			"Telios-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Telios-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			453, -- [11]
+			"Player-104-09D40CF1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTelios-Malygos|r",
+			[51] = 1558753379,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},

@@ -178,6 +178,7 @@ core.achievementDisplayStatus = "show"			--How achievements should be display wi
 local mobMouseoverCache = {}
 local encounterCache = {}
 local announceMissingAchievements = false
+local versionCheckInitiated = false
 
 --------------------------------------
 -- Current Instance Variables
@@ -618,7 +619,6 @@ function createEnableAchievementTrackingUI()
 	--Create the frame to ask the user whether they want to enable the addon for the particular instance they are in
 	UIConfig = CreateFrame("Frame", "AchievementTrackerCheck", UIParent, "UIPanelDialogTemplate", "AchievementTemplate")
 	UIConfig:SetSize(200, 200)
-	UIConfig:SetPoint("CENTER")
 
 	--Title
 	UIConfig.title = UIConfig:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
@@ -648,6 +648,25 @@ function createEnableAchievementTrackingUI()
 	UIConfig:SetHeight(UIConfig.content:GetHeight() + UIConfig.btnYes:GetHeight() + UIConfig.title:GetHeight() + 35)
 	UIConfig.btnYes:SetScript("OnClick", enableAchievementTracking);
 	UIConfig.btnNo:SetScript("OnClick", disableAchievementTracking);
+
+	UIConfig:SetMovable(true)
+    UIConfig:EnableMouse(true)
+    UIConfig:SetClampedToScreen(true)
+    UIConfig:RegisterForDrag("LeftButton")
+    UIConfig:SetScript("OnDragStart", UIConfig.StartMoving)
+    UIConfig:SetScript("OnDragStop", function(self) 
+        self:StopMovingOrSizing()
+        AchievementTrackerOptions["trackingFrameXPos"] = self:GetLeft()
+        AchievementTrackerOptions["trackingFrameYPos"] = self:GetBottom()
+    end)
+
+    --Info Frame X/Y Posiions
+	if AchievementTrackerOptions["trackingFrameXPos"] ~= nil and AchievementTrackerOptions["trackingFrameYPos"] ~= nil then
+		UIConfig:ClearAllPoints()
+		UIConfig:SetPoint("BOTTOMLEFT",AchievementTrackerOptions["trackingFrameXPos"],AchievementTrackerOptions["trackingFrameYPos"])
+	else
+		UIConfig:SetPoint("CENTER")
+	end	
 	
 	--Setup the InfoFrame
 	core.IATInfoFrame:SetupInfoFrame()
@@ -780,6 +799,19 @@ core.commands = {
 
 	[L["Core_Enable"]] = function()
 		print("Enable/Disable addon")
+	end,
+
+	["version"] = function()
+		if versionCheckInitiated == false then
+			versionCheckInitiated = true
+			C_ChatInfo.SendAddonMessage("Whizzey", "sendVersionIAT", "RAID")
+
+			C_Timer.After(20, function() 
+				versionCheckInitiated = false
+			end)
+		else
+			print("Wait 20 seconds before using this command again")
+		end	
 	end,
 
 	["debug"] = function()
@@ -1824,9 +1856,18 @@ function events:CHAT_MSG_ADDON(self, prefix, message, channel, sender)
 				end
 			end
 		end
-
-		--If we have not set green to the addon that sent the request then do so as this we can assume that since the request was sent, they are running the addon
-
+	elseif string.match(message, "moveIAT") then
+		local sync, playerMoving, nameOfPlayer = strsplit(",", message)
+		core:sendDebugMessage(nameOfPlayer .. " is moving " .. playerMoving)
+	elseif string.match(message, "sendVersionIAT") then
+		--Send Version Check
+		C_ChatInfo.SendAddonMessage("Whizzey", "getVersionIAT," .. UnitName("Player") .. "," .. core.Config.majorVersion .. "," .. core.Config.minorVersion .. "," .. core.Config.revisionVersion , "RAID")
+	elseif string.match(message, "getVersionIAT") then
+		--Get Version Check
+		local sync, player, major, minor, revision = strsplit(",", message)
+		if versionCheckInitiated == true then
+			print(player, major, minor, revision)
+		end
 	elseif string.match(message, "IAT") then
 		local sync, name = strsplit(",", message)
 
@@ -2080,7 +2121,8 @@ function core:detectGroupType()
 	end
 
 	--If player is in LFG/LFG then output to instance chat
-	if IsInGroup(LE_PARTY_CATEGORY_INSTANCE) and sendDebugMessage == false then
+	local inInstance, instanceType = IsInInstance()
+	if (IsInGroup(LE_PARTY_CATEGORY_INSTANCE) or instanceType == "pvp") and sendDebugMessage == false then
 		core.chatType = "INSTANCE_CHAT"
 	end
 
@@ -2337,10 +2379,10 @@ function core:logMessage(message)
 	end
 	
 	--If table is below maximun amount of entries then insert value. Else make table shrink to correct size
-	if #AchievementTrackerDebug < 50000 then
+	if #AchievementTrackerDebug < 500000 then
 		table.insert(AchievementTrackerDebug, monthDay .. "/" .. month .. "/" .. year .. " " .. hour .. ":" .. minute ..  " " .. message)
 	else
-		while #AchievementTrackerDebug >= 50000 do
+		while #AchievementTrackerDebug >= 500000 do
 			table.remove(AchievementTrackerDebug, 1)
 		end
 		table.insert(AchievementTrackerDebug, monthDay .. "/" .. month .. "/" .. year .. " " .. hour .. ":" .. minute ..  " " .. message)
@@ -2392,8 +2434,10 @@ function core:sendMessage(message, outputToRW, messageType)
 			elseif masterAddon == true and requestToRun == true then
 				--We need to store the messages in a queue while the master addon is being decided
 				if outputToRW == true then
+					core:sendDebugMessage("Inserting into Message Queue: " .. message .. ",true")
 					table.insert(messageQueue, message .. ",true")
 				else
+					core:sendDebugMessage("Inserting into Message Queue: " .. message .. ",false")
 					table.insert(messageQueue, message .. ",false")
 				end
 			else
@@ -2414,6 +2458,7 @@ function core:sendMessage(message, outputToRW, messageType)
 							C_ChatInfo.SendAddonMessage("Whizzey", "masterAddonPlayer," .. UnitName("Player"), "RAID")
 
 							if message ~= "setup" then
+								core:detectGroupType()
 								if outputToRW == true and core.chatType == "RAID" and announceToRaidWarning == true and (UnitIsGroupAssistant("Player") or UnitIsGroupLeader("Player")) then
 									--Important message output to raid warning from user request
 									--print("Outputting to Raid Warning")
@@ -2422,7 +2467,7 @@ function core:sendMessage(message, outputToRW, messageType)
 								elseif outputToRW == true and announceToRaidWarning == true then
 									SendChatMessage("[IAT] " .. message,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
 									core:logMessage("[IAT] " .. message)
-									--RaidNotice_AddMessage(RaidWarningFrame, "[IAT] " .. message, ChatTypeInfo["RAID_WARNING"])
+									RaidNotice_AddMessage(RaidWarningFrame, "[IAT] " .. message, ChatTypeInfo["RAID_WARNING"])
 								else
 									--print("Outputting normally")
 									SendChatMessage("[IAT] " .. message,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
@@ -2454,15 +2499,18 @@ function core:sendMessage(message, outputToRW, messageType)
 							if #messageQueue > 0 then
 								for k, v in pairs(messageQueue) do
 									local v, outputToRW2 = strsplit(",", v)
+									-- print("Outputting from Message Queue: " .. v .. outputToRW2)
+									-- print(core.chatType)
 									if outputToRW2 == "true" and core.chatType == "RAID" and announceToRaidWarning == true and (UnitIsGroupAssistant("Player") or UnitIsGroupLeader("Player")) then
 										--Important message output to raid warning from user request
 										-- print("Outputting to Raid Warning")									
 										SendChatMessage("[IAT] " .. v,"RAID_WARNING",DEFAULT_CHAT_FRAME.editBox.languageID)
 										core:logMessage("[IAT] " .. v)
 									elseif outputToRW2 == "true" and announceToRaidWarning == true then
-										SendChatMessage("[IAT] " .. message,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
-										core:logMessage("[IAT] " .. message)
-										RaidNotice_AddMessage(RaidWarningFrame, "[IAT] " .. message, ChatTypeInfo["RAID_WARNING"])
+										-- print("Outputting to RaidNotice")
+										SendChatMessage("[IAT] " .. v,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
+										core:logMessage("[IAT] " .. v)
+										RaidNotice_AddMessage(RaidWarningFrame, "[IAT] " .. v, ChatTypeInfo["RAID_WARNING"])
 									else
 										-- print("Outputting to normal")								
 										SendChatMessage("[IAT] " .. v,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)

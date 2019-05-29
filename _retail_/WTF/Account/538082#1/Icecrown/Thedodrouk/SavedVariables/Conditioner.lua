@@ -17,7 +17,7 @@ ConditionerAddOn_SavedVariables = {
 		},
 	},
 	["TalentsPerLoadout"] = {
-		[37] = "3232113",
+		[37] = "3211123",
 		[38] = "1231123",
 	},
 }

@@ -17,3 +17,4 @@ XLoot_Monitor: disabled
 Quester: disabled
 Immersion: disabled
 LittleWigs: enabled
+BigWigs_Azeroth: enabled

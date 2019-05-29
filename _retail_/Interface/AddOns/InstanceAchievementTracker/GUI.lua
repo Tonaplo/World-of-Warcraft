@@ -30,7 +30,7 @@ AchievementTrackerOptions = {}
 
 -- Purpose:         Information about the current release. This is mianly used to detect which addon should output messages to chat to avoid spam
 Config.majorVersion = 2						--Addon with a higher major version change have priority over a lower major version
-Config.minorVersion = 42    				--Addon with a minor version change have prioirty over a lower minor version
+Config.minorVersion = 44    				--Addon with a minor version change have prioirty over a lower minor version
 Config.revisionVersion = 0					--Addon with a revision change have the same priorty as a lower revision verison
 Config.releaseType = ""                     --Release type (Alpha, Beta, Release)
 
@@ -841,11 +841,15 @@ function Config:CreateGUI()
         --We need to save the original ID aswell so key value pairs
         for instance,v in pairs(core.Instances[i].Raids) do
             local instanceName = Config:getLocalisedInstanceName(core.Instances[i].Raids[instance].name)
-            table.insert(localisedRaidNames, {name = instanceName, id = instance});
+            if instanceName ~= nil then
+                table.insert(localisedRaidNames, {name = instanceName, id = instance});
+            end
         end
         for instance,v in pairs(core.Instances[i].Dungeons) do
             local instanceName = Config:getLocalisedInstanceName(core.Instances[i].Dungeons[instance].name)
-            table.insert(localisedDungeonNames, {name = instanceName, id = instance});
+            if instanceName ~= nil then
+                table.insert(localisedDungeonNames, {name = instanceName, id = instance});
+            end
         end
 
         --Scenarios only happen for MOP expansion. Needs updating each expansion

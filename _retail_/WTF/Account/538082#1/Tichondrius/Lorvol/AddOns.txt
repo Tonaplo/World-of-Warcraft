@@ -89,3 +89,5 @@ XLoot_Options: enabled
 ParagonReputation: enabled
 Azeroth Auto Pilot: disabled
 SexyMap: enabled
+ElvUI: enabled
+ElvUI_Config: enabled

@@ -1,23 +1,26 @@
 
 DraenorTreasuresDB = {
 	["profileKeys"] = {
-		["Miriyal - Icecrown"] = "Default",
-		["Farahn - Icecrown"] = "Default",
-		["Praerend - Icecrown"] = "Default",
-		["Zearthan - Icecrown"] = "Default",
-		["Kaldorath - Icecrown"] = "Default",
-		["Thedodrouk - Icecrown"] = "Default",
-		["Rahran - Icecrown"] = "Default",
 		["Weston - Icecrown"] = "Default",
-		["Kindhoof - Tichondrius"] = "Default",
-		["Greybone - Icecrown"] = "Default",
-		["Korugen - Icecrown"] = "Default",
 		["Faerand - Icecrown"] = "Default",
-		["Mallusof - Icecrown"] = "Default",
+		["Praerend - Icecrown"] = "DPS",
+		["Kaldorath - Icecrown"] = "Tank",
+		["Thedodrouk - Icecrown"] = "Default",
+		["Korugen - Icecrown"] = "Default",
+		["Kindhoof - Tichondrius"] = "Default",
+		["Rahran - Icecrown"] = "Default",
+		["Miriyal - Icecrown"] = "Default",
+		["Alura - Tichondrius"] = "Default",
+		["Mallusof - Icecrown"] = "DPS",
 	},
 	["profiles"] = {
+		["DPS"] = {
+		},
+		["Tank"] = {
+		},
 		["Default"] = {
-			["icon_scale_rares"] = 0.25,
+		},
+		["healer"] = {
 		},
 	},
 }

@@ -9,3 +9,5 @@ RaiderIO_DB_EU_H_R: disabled
 RaiderIO_DB_EU_A_R: disabled
 VuhDo: enabled
 VuhDoOptions: enabled
+ElvUI: enabled
+ElvUI_Config: enabled

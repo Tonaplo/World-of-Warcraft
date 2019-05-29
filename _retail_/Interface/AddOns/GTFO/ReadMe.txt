@@ -1407,3 +1407,6 @@ Change Log:
 * WoW Classic support
 * Implemented LibStub and LibUIDropDownMenu instead of Blizzard's UI dropdown
 * Added BFA spells for Battle of Dazar'alor
+
+4.48.1
+* Added BFA spells for Battle of Dazar'alor
