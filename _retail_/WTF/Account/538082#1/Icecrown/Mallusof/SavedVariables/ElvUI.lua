@@ -24,28 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"could you relink that anders", -- [1]
-			"Jhasu-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jhasu-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1583, -- [11]
-			"Player-3694-07B594BA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcJhasu-Lightbringer|r",
-			[51] = 1558669414,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [1]
-		{
 			"[WeakAuras: Mallusof-Icecrown - Uunit]", -- [1]
 			"Mallusof-Icecrown", -- [2]
 			"", -- [3]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669429,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [2]
+		}, -- [1]
 		{
 			"[WeakAuras: Mallusof-Icecrown - Uunit]", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669465,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [3]
+		}, -- [2]
 		{
 			"[IAT] Tracking achievement for: Mallusof", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669522,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [4]
+		}, -- [3]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669538,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [5]
+		}, -- [4]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669555,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [6]
+		}, -- [5]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669580,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [7]
+		}, -- [6]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669597,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [8]
+		}, -- [7]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669604,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [9]
+		}, -- [8]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669624,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [10]
+		}, -- [9]
 		{
 			"this is dumb", -- [1]
 			"Marksopp-Lightbringer", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Marksopp-Lightbringer|r",
 			[51] = 1558669626,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [11]
+		}, -- [10]
 		{
 			"Shandai Shg'fhn naggwa'fssh ", -- [1]
 			"Wafflecrew-Terenas", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeWafflecrew-Terenas|r",
 			[51] = 1558669663,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [11]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669664,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [13]
+		}, -- [12]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669681,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [14]
+		}, -- [13]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669707,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [15]
+		}, -- [14]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669723,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [16]
+		}, -- [15]
 		{
 			"Interrupted Primordial Mindbender's |cff71d5ff|Hspell:285427:0|h[Consume Essence]|h|r!", -- [1]
 			"Marksopp-Lightbringer", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Marksopp-Lightbringer|r",
 			[51] = 1558669738,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [16]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669749,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [18]
+		}, -- [17]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669767,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [19]
+		}, -- [18]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669776,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [20]
+		}, -- [19]
 		{
 			"Interrupted Primordial Mindbender's |cff71d5ff|Hspell:285427:0|h[Consume Essence]|h|r!", -- [1]
 			"Marksopp-Lightbringer", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Marksopp-Lightbringer|r",
 			[51] = 1558669787,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [20]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669796,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [22]
+		}, -- [21]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669837,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [23]
+		}, -- [22]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669853,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [24]
+		}, -- [23]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669879,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [25]
+		}, -- [24]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669897,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [26]
+		}, -- [25]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669922,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [27]
+		}, -- [26]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669939,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [28]
+		}, -- [27]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r STOP MOVING!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669964,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [29]
+		}, -- [28]
 		{
 			"[IAT] |cffffff00|Hachievement:13506:Player-104-0A028C76:0:0:0:-1:0:0:0:0|h[A Good Eye-dea]|h|r YOU CAN NOW MOVE!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669981,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [30]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13506:Player-104-0A028C76:1:5:23:19:4294967295:4294967295:4294967295:4294967295|h[A Good Eye-dea]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558669988,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [30]
 		{
 			"i missed it", -- [1]
 			"Marksopp-Lightbringer", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Marksopp-Lightbringer|r",
 			[51] = 1558669999,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [32]
+		}, -- [31]
 		{
 			"I did not get it", -- [1]
 			"Eldodin-KhazModan", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEldodin-KhazModan|r",
 			[51] = 1558670000,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [33]
+		}, -- [32]
 		{
 			"i missed it", -- [1]
 			"Newc-Lightbringer", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Newc-Lightbringer|r",
 			[51] = 1558670002,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [34]
+		}, -- [33]
 		{
 			"that's a dumb achievement", -- [1]
 			"Marksopp-Lightbringer", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Marksopp-Lightbringer|r",
 			[51] = 1558670003,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [35]
+		}, -- [34]
 		{
 			"|cffa335ee|Hitem:167868::::::::120:65::3:3:4798:1517:4786:::|h[Idol of Indiscriminate Consumption]|h|r", -- [1]
 			"Kalithumos-Tichondrius", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Kalithumos-Tichondrius|r",
 			[51] = 1558670005,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [36]
+		}, -- [35]
 		{
 			"I agree", -- [1]
 			"Sheilyana-Sargeras", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSheilyana-Sargeras|r",
 			[51] = 1558670011,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [37]
+		}, -- [36]
 		{
 			"|cffa335ee|Hitem:167865::::::::120:105::3:3:4798:1522:4783:::|h[Void Stone]|h|r warforged if anyone wants it", -- [1]
 			"Ryad-Terenas", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ryad-Terenas|r",
 			[51] = 1558670032,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [38]
+		}, -- [37]
 		{
 			"cries into his empty popcorn bucket.", -- [1]
 			"Kalithumos-Tichondrius", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Kalithumos-Tichondrius|r",
 			[51] = 1558670033,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [39]
+		}, -- [38]
 		{
 			"I turned a lot", -- [1]
 			"Kiki-Lightbringer", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecKiki-Lightbringer|r",
 			[51] = 1558670037,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [40]
+		}, -- [39]
 		{
 			"can confirm, blink does not count ", -- [1]
 			"Lucithy-SilverHand", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Lucithy-SilverHand|r",
 			[51] = 1558670044,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [41]
+		}, -- [40]
 		{
 			"i have no clue when i moved", -- [1]
 			"Marksopp-Lightbringer", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Marksopp-Lightbringer|r",
 			[51] = 1558670045,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [42]
+		}, -- [41]
 		{
 			"I took 2 steps once and still got it", -- [1]
 			"Ryad-Terenas", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ryad-Terenas|r",
 			[51] = 1558670048,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [43]
+		}, -- [42]
 		{
 			"so no appetite for any mythic Dazar'Alor bosses?", -- [1]
 			"Ryad-Terenas", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ryad-Terenas|r",
 			[51] = 1558670120,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [44]
+		}, -- [43]
 		{
 			"yeah that was great!", -- [1]
 			"Ryad-Terenas", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ryad-Terenas|r",
 			[51] = 1558670150,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [45]
+		}, -- [44]
 		{
 			"I think being fresh helps too", -- [1]
 			"Ryad-Terenas", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ryad-Terenas|r",
 			[51] = 1558670170,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [46]
+		}, -- [45]
 		{
 			"really tired at the end of the night last week", -- [1]
 			"Ryad-Terenas", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ryad-Terenas|r",
 			[51] = 1558670176,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [47]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8948:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Flame On!]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558721148,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8949:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Kargath Bladefist]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558721148,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8960:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Butcher]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558721228,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8962:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Brackenspore]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558721283,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8961:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Tectus]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558721576,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8958:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Brothers in Arms]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558721768,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8963:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Twin Ogron]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558721768,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [53]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8964:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Ko'ragh]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558721844,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [54]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8965:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Imperator's Fall]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558722229,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8966:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Gruul]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558722873,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [56]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8967:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Oregorger]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558722980,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [57]
 		{
 			" VRA Ag'xig  shn'ma I I ", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723565,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [58]
 		{
 			" VRA Thyzz Vwahuhn ", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723565,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [59]
 		{
 			" VRA Ag'xig  shn'ma I I ", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723574,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [60]
 		{
 			" VRA Za IiYoq Zuq W'oq TULALL I I Ag'xig  shn'ma zz w'oq", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723575,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8970:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Blast Furnace]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723604,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+		}, -- [62]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8968:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hans'gar and Franzok]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723772,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+		}, -- [63]
 		{
 			" VRA lwhuk", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723874,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [64]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8932:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Flamebender Ka'graz]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723888,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [65]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8971:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Kromog]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558723968,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [66]
 		{
 			"but .. damn I'm glad someone else did =)", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558750080,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [67]
 		{
 			"thats actually his name", -- [1]
 			"Malevolent-Malygos", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Malevolent|r",
 			[51] = 1558750084,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [68]
 		{
 			"Have fun in raid! :)", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558750089,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [69]
 		{
 			"Kibbleznbits, Nutro, Beneful", -- [1]
 			"Malevolent-Malygos", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Malevolent|r",
 			[51] = 1558750101,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [70]
 		{
 			"ok", -- [1]
 			"Telios-Malygos", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTelios|r",
 			[51] = 1558750101,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [71]
 		{
 			"you should come. this raid needs more mallusof", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558750104,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [72]
 		{
 			"am i crazy or does the type bar at the botton always go away", -- [1]
 			"Telios-Malygos", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTelios|r",
 			[51] = 1558750115,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [73]
 		{
 			"cause my addon was on top of it", -- [1]
 			"Telios-Malygos", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTelios|r",
 			[51] = 1558750121,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [74]
 		{
 			"fill the raid", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1558750126,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [75]
 		{
 			"lets do daz", -- [1]
 			"Marishka-Icecrown", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Marishka|r",
 			[51] = 1558750130,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [76]
 		{
 			"and i dont remeber putting it on top of tit", -- [1]
 			"Telios-Malygos", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTelios|r",
 			[51] = 1558750130,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [77]
 		{
 			"for what it's worth, there were some rather important nerfs to mythic grong.  I want to benefit from them.", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558750193,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [78]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8981:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Fain Would Lie Down]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558750256,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [79]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8956:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Beastlord Darmac]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558750256,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [80]
 		{
 			"I'm not coming", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558750276,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [82]
+		}, -- [81]
 		{
 			"sorry im late had a school assignment run late", -- [1]
 			"Cloudcoastin-Icecrown", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcCloudcoastin|r",
 			[51] = 1558750288,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [82]
 		{
 			"I'm killing the last 3 bosses I'm missing in here ad then logging", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558750291,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [84]
+		}, -- [83]
 		{
 			"Cecilie is putting ellie to sleep", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558750300,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [85]
+		}, -- [84]
 		{
 			"but mythic. it's so fun. you should find out", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558750302,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [86]
+		}, -- [85]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8969:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Operator Thogar]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558750414,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [86]
 		{
 			"anyone want a |cff1eff00|Hitem:44794::::::::120:66::::::|h[Spring Rabbit's Foot]|h|r?", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558750425,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [87]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8972:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Iron Maidens]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558750629,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13107:Player-104-0A4A3652:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Skittering Hollow]|h|r!", -- [1]
 			"Malevolent-Malygos", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Malevolent-Malygos|r",
 			[51] = 1558750728,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12741:Player-104-0A4A3652:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
 			"Malevolent-Malygos", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Malevolent-Malygos|r",
 			[51] = 1558750868,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [90]
 		{
 			"hurry up, malevolent. 120 and ilvl 400, ogog", -- [1]
 			"Inevitabits-Icecrown", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Inevitabits|r",
 			[51] = 1558751068,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [91]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9619:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Savage Hero]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558751367,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [93]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8973:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Blackhand's Crucible]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558751367,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [93]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9631:Player-104-0A028C76:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Mythic Draenor Raider]|h|r!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1558751367,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [94]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13095:Player-104-0A4A3652:1:5:24:19:4294967295:4294967295:4294967295:4294967295|h[Dread Chain]|h|r!", -- [1]
 			"Malevolent-Malygos", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Malevolent-Malygos|r",
 			[51] = 1558751668,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [95]
 		{
 			"if i didn't have meld to drop threat for champs", -- [1]
 			"Older-Icecrown", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Older|r",
 			[51] = 1558751858,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [96]
 		{
 			"heh", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -2178,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558751861,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [97]
 		{
 			"id die pretty often from aggro on the adds", -- [1]
 			"Older-Icecrown", -- [2]
@@ -2200,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Older|r",
 			[51] = 1558751861,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [99]
+		}, -- [98]
 		{
 			"you're an aggro magnet too =)", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -2222,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558751866,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [100]
+		}, -- [99]
 		{
 			"yep, they dive right on you", -- [1]
 			"Celedhring-Icecrown", -- [2]
@@ -2244,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Celedhring|r",
 			[51] = 1558751873,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [101]
+		}, -- [100]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12484:Player-104-0A080881:1:5:25:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Waycrest Manor]|h|r!", -- [1]
 			"Dancouga-Icecrown", -- [2]
@@ -2266,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dancouga|r",
 			[51] = 1558847548,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [102]
+		}, -- [101]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12488:Player-104-0A080881:1:5:25:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Waycrest Manor]|h|r!", -- [1]
 			"Dancouga-Icecrown", -- [2]
@@ -2288,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dancouga|r",
 			[51] = 1558847548,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [103]
+		}, -- [102]
 		{
 			"Gnight all", -- [1]
 			"Algon-Icecrown", -- [2]
@@ -2310,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAlgon|r",
 			[51] = 1558847647,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [104]
+		}, -- [103]
 		{
 			"Night", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -2332,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558847673,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [105]
+		}, -- [104]
 		{
 			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2354,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1558848303,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [105]
 		{
 			"|cffffff00Whitegrove Chapel is under attack!|r", -- [1]
 			"", -- [2]
@@ -2376,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1559102506,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [106]
 		{
 			"|cffffff00Whitegrove Chapel is under attack!|r", -- [1]
 			"", -- [2]
@@ -2398,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1559102580,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [107]
 		{
 			"Sorry Thorn!", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2420,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1559269731,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [109]
+		}, -- [108]
 		{
 			"That was a mistake :)", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2442,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1559269736,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [110]
+		}, -- [109]
 		{
 			"Hmm?", -- [1]
 			"Thornstaad-Icecrown", -- [2]
@@ -2464,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Thornstaad|r",
 			[51] = 1559269736,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [111]
+		}, -- [110]
 		{
 			"lol", -- [1]
 			"Thornstaad-Icecrown", -- [2]
@@ -2486,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Thornstaad|r",
 			[51] = 1559269742,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [112]
+		}, -- [111]
 		{
 			"Have time to raid today? Just getting achievements in CoS", -- [1]
 			"|Kq57|k", -- [2]
@@ -2508,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "True",
 			[51] = 1559269811,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [113]
+		}, -- [112]
 		{
 			"Are we only 5?", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2530,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1559269819,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [114]
+		}, -- [113]
 		{
 			"lol", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2552,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1559269819,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [115]
+		}, -- [114]
 		{
 			"nanaeve is on", -- [1]
 			"Newc-Lightbringer", -- [2]
@@ -2574,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Newc-Lightbringer|r",
 			[51] = 1559269829,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [116]
+		}, -- [115]
 		{
 			"we raiding legion?", -- [1]
 			"Eldodin-KhazModan", -- [2]
@@ -2596,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEldodin-KhazModan|r",
 			[51] = 1559269832,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [117]
+		}, -- [116]
 		{
 			"We're doing the achievements in CoS again, since a couple of people didnt get the last one last time", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2618,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1559269877,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [118]
+		}, -- [117]
 		{
 			"So what's the plan?", -- [1]
 			"|Kq91|k", -- [2]
@@ -2641,7 +2619,7 @@ ElvCharacterDB = {
 			[51] = 1559269879,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Kalithumos",
-		}, -- [119]
+		}, -- [118]
 		{
 			"at least, that was the idea", -- [1]
 			"Mallusof-Icecrown", -- [2]
@@ -2663,7 +2641,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1559269882,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [120]
+		}, -- [119]
 		{
 			"Come on and I'll invite you", -- [1]
 			"|Kq91|k", -- [2]
@@ -2686,7 +2664,7 @@ ElvCharacterDB = {
 			[51] = 1559269896,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kalithumos",
-		}, -- [121]
+		}, -- [120]
 		{
 			"Coming for raid?", -- [1]
 			"|Kq80|k", -- [2]
@@ -2708,7 +2686,7 @@ ElvCharacterDB = {
 			[52] = "Jhasu",
 			[51] = 1559269920,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [122]
+		}, -- [121]
 		{
 			"I'm in offline mode for working with the AH. I'd rather not spam people with 35 login messages :)", -- [1]
 			"|Kq91|k", -- [2]
@@ -2731,7 +2709,7 @@ ElvCharacterDB = {
 			[51] = 1559269924,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Kalithumos",
-		}, -- [123]
+		}, -- [122]
 		{
 			"sure. there wasn't one on the calendar so i assumed it wasn't happening", -- [1]
 			"|Kq80|k", -- [2]
@@ -2753,7 +2731,7 @@ ElvCharacterDB = {
 			[52] = "Jhasu",
 			[51] = 1559269936,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [124]
+		}, -- [123]
 		{
 			"lol", -- [1]
 			"|Kq91|k", -- [2]
@@ -2776,7 +2754,7 @@ ElvCharacterDB = {
 			[51] = 1559269938,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kalithumos",
-		}, -- [125]
+		}, -- [124]
 		{
 			"will log over in a moment.", -- [1]
 			"|Kq80|k", -- [2]
@@ -2798,7 +2776,7 @@ ElvCharacterDB = {
 			[52] = "Jhasu",
 			[51] = 1559269938,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [126]
+		}, -- [125]
 		{
 			"|cffffff00Path of Storms is under attack!|r", -- [1]
 			"", -- [2]
@@ -2819,6 +2797,28 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "",
 			[51] = 1559274276,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"|cffffff00Norwington Estate is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			414, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1559282916,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
