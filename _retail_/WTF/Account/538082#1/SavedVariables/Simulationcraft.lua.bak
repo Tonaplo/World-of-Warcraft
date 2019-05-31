@@ -55,12 +55,12 @@ SimulationCraftDB = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["Kindhoof - Tichondrius"] = {
-		},
 		["healer"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
+		},
+		["Kindhoof - Tichondrius"] = {
 		},
 		["DPS"] = {
 			["minimap"] = {

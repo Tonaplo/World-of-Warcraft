@@ -62,14 +62,14 @@ SimulationCraftDB = {
 				["hide"] = true,
 			},
 		},
-		["Kindhoof - Tichondrius"] = {
-		},
-		["Beathe - Frostwolf"] = {
-		},
 		["healer"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
+		},
+		["Beathe - Frostwolf"] = {
+		},
+		["Kindhoof - Tichondrius"] = {
 		},
 		["Alura - Tichondrius"] = {
 			["minimap"] = {
