@@ -24,28 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"3", -- [1]
-			"Praerend-Icecrown", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Praerend-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			980, -- [11]
-			"Player-104-0A0CB071", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cPraerend|r",
-			[51] = 1558420896,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
 			"2", -- [1]
 			"Praerend-Icecrown", -- [2]
 			"Common", -- [3]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558420897,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
+		}, -- [1]
 		{
 			"1", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558420898,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
+		}, -- [2]
 		{
 			"cheers :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558421243,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
+		}, -- [3]
 		{
 			"ty guys", -- [1]
 			"Ashpi-Firetree", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ashpi-Firetree|r",
 			[51] = 1558421245,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [5]
+		}, -- [4]
 		{
 			"have a good one!", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558421245,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
+		}, -- [5]
 		{
 			"ty al", -- [1]
 			"Geften-Zangarmarsh", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Geften-Zangarmarsh|r",
 			[51] = 1558421250,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [7]
+		}, -- [6]
 		{
 			"Anybody wanna do a key?", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558492244,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [7]
 		{
 			"lol", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492367,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
+		}, -- [8]
 		{
 			"omw", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492496,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [10]
+		}, -- [9]
 		{
 			"At stone", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558492501,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [11]
+		}, -- [10]
 		{
 			"Oh, peacemode btw", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558492610,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [12]
+		}, -- [11]
 		{
 			"gross", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492617,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [13]
+		}, -- [12]
 		{
 			"dh?", -- [1]
 			"Zerlay-Quel'Thalas", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zerlay-Quel'Thalas|r",
 			[51] = 1558492771,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [14]
+		}, -- [13]
 		{
 			"sorry im here", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492788,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
+		}, -- [14]
 		{
 			"Jeralt?", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558492790,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
+		}, -- [15]
 		{
 			"great :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558492795,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
+		}, -- [16]
 		{
 			"Fixate on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558492823,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [17]
 		{
 			"Fixate on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558492829,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [18]
 		{
 			"por que", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492842,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
+		}, -- [19]
 		{
 			"bursting baby", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492844,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
+		}, -- [20]
 		{
 			"i feel like that doesnt answer my question lmao", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492860,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
+		}, -- [21]
 		{
 			"we killed", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492869,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
+		}, -- [22]
 		{
 			"all of them", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492871,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
+		}, -- [23]
 		{
 			"so we got", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492873,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
+		}, -- [24]
 		{
 			"8 stacks", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492875,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
+		}, -- [25]
 		{
 			"yeah and i was feared", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492908,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [27]
+		}, -- [26]
 		{
 			"yeah those things fear ya", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492915,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
+		}, -- [27]
 		{
 			"yeah a neat trick is to slow them", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492923,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
+		}, -- [28]
 		{
 			"gotta stand still to aoe heal unfortunately", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492941,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [30]
+		}, -- [29]
 		{
 			"damn bruh", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492943,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [31]
+		}, -- [30]
 		{
 			"that mog looks nice", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492947,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
+		}, -- [31]
 		{
 			"was gonna say the same to you tbh", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492978,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [33]
+		}, -- [32]
 		{
 			"ty", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492978,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [33]
 		{
 			"Fixate on Holyrar", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558492983,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [34]
 		{
 			"thanks :D", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492985,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [36]
+		}, -- [35]
 		{
 			"rip", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558492992,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
+		}, -- [36]
 		{
 			"dont let them get to me please", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558493008,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [38]
+		}, -- [37]
 		{
 			"and i can keep you alive", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558493011,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [38]
 		{
 			"drop pools back here", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558493133,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
+		}, -- [39]
 		{
 			"Spit Gold on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493165,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [40]
 		{
 			"3", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493171,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [41]
 		{
 			"2", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493172,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [42]
 		{
 			"1", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493173,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [43]
 		{
 			"Spit Gold on Holyrar", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558493201,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [44]
 		{
 			"Spit Gold on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493224,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [45]
 		{
 			"3", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493230,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [46]
 		{
 			"2", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493231,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [47]
 		{
 			"1", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493232,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [48]
 		{
 			"Hidden Blade on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493319,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [49]
 		{
 			"slow on the", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558493341,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [51]
+		}, -- [50]
 		{
 			"dont pull too many", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558493486,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [52]
+		}, -- [51]
 		{
 			"Entomb on Jeralt", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558493776,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [52]
 		{
 			"3", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558493907,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [53]
 		{
 			"2", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558493908,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [54]
 		{
 			"1", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558493909,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [55]
 		{
 			"¡Salto de cazador en Muspelheiim!", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558493976,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [56]
 		{
 			"¡Tromba de veneno en Muspelheiim!", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558493976,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [57]
 		{
 			"3", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558493977,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [58]
 		{
 			"2", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558493978,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [59]
 		{
 			"1", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558493979,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [60]
 		{
 			"Poison Barrage on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558493983,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [61]
 		{
 			"My Blues made it to the Stanley Cup!!!! Took 49 years!", -- [1]
 			"Bannanas-Icecrown", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Bannanas|r",
 			[51] = 1558494004,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [62]
 		{
 			"It was a 5 pack", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494032,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
+		}, -- [63]
 		{
 			"and had all dcds up", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494042,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
+		}, -- [64]
 		{
 			"I couldnt resist", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494061,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
+		}, -- [65]
 		{
 			"sorry", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494063,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [67]
+		}, -- [66]
 		{
 			"lol", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558494065,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
+		}, -- [67]
 		{
 			"3", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558494217,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [68]
 		{
 			"2", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558494218,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [69]
 		{
 			"1", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558494219,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [70]
 		{
 			"3", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558494240,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [71]
 		{
 			"2", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558494241,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [72]
 		{
 			"1", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558494242,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [73]
 		{
 			"Barrel Through on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494258,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [74]
 		{
 			"3", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494263,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [75]
 		{
 			"2", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494264,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [76]
 		{
 			"1", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494265,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [77]
 		{
 			"3", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558494335,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [78]
 		{
 			"2", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558494336,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [79]
 		{
 			"Quaking Leap on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494379,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [80]
 		{
 			"Quaking Leap on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494462,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [81]
 		{
 			"Quaking Leap on Holyrar", -- [1]
 			"Holyrar-Darkspear", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Holyrar-Darkspear|r",
 			[51] = 1558494506,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [82]
 		{
 			"Astral Keys: New key Keystone: Templo de Sethraliss (6)", -- [1]
 			"Muspelheiim-Quel'Thalas", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Muspelheiim-Quel'Thalas|r",
 			[51] = 1558494519,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
+		}, -- [83]
 		{
 			"NJ! :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494525,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
+		}, -- [84]
 		{
 			"thanks for the run", -- [1]
 			"Jeralt-Magtheridon", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jeralt-Magtheridon|r",
 			[51] = 1558494549,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
+		}, -- [85]
 		{
 			"thanks indeed :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494555,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [86]
 		{
 			"have a good one :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558494560,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [87]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12473:Player-104-0A46450D:1:5:21:19:4294967295:4294967295:4294967295:4294967295|h[A Sound Plan]|h|r!", -- [1]
 			"Ebiils-Icecrown", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ebiils|r",
 			[51] = 1558494666,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [88]
 		{
 			"!keys", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558670348,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [89]
 		{
 			"|cffa335ee|Hkeystone:158923:246:3:9:0:0:0|h[Keystone: Tol Dagor (3)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558670348,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [91]
+		}, -- [90]
 		{
 			"... what", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558670353,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [91]
 		{
 			" //", -- [1]
 			"Mistaaytch-Lightbringer", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
 			[51] = 1558670515,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [93]
+		}, -- [92]
 		{
 			"AVAGNER@BLIZZARD.COM", -- [1]
 			"Mistaaytch-Lightbringer", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
 			[51] = 1558670525,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [94]
+		}, -- [93]
 		{
 			"Upheaval on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558670786,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [94]
 		{
 			"Upheaval on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558670829,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [95]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1560:Player-104-0695EA16:1:5:23:19:4294967295:4294967295:4294967295:4294967295|h[500 Fish]|h|r!", -- [1]
 			"Torgok-Malygos", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTorgok-Malygos|r",
 			[51] = 1558670980,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [96]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12744:Player-104-0695EA16:1:5:23:19:4294967295:4294967295:4294967295:4294967295|h[The Kul Tiran Menu]|h|r!", -- [1]
 			"Torgok-Malygos", -- [2]
@@ -2178,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTorgok-Malygos|r",
 			[51] = 1558671199,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [97]
 		{
 			"Explosive Burst on Lorelol", -- [1]
 			"Lorelol-KhazModan", -- [2]
@@ -2200,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLorelol-KhazModan|r",
 			[51] = 1558671629,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [99]
+		}, -- [98]
 		{
 			"Explosive Burst on Mistaaytch", -- [1]
 			"Mistaaytch-Lightbringer", -- [2]
@@ -2222,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
 			[51] = 1558671629,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [100]
+		}, -- [99]
 		{
 			"Explosive Burst on Asahina", -- [1]
 			"Asahina-Lightbringer", -- [2]
@@ -2244,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Asahina-Lightbringer|r",
 			[51] = 1558671645,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [101]
+		}, -- [100]
 		{
 			"Explosive Burst on Mistaaytch", -- [1]
 			"Mistaaytch-Lightbringer", -- [2]
@@ -2266,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
 			[51] = 1558671645,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [102]
+		}, -- [101]
 		{
 			"New Keystone: |cffa335ee|Hkeystone:158923:245:6:9:11:0:0|h[Keystone: Freehold (6)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2288,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558671649,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [103]
+		}, -- [102]
 		{
 			"|cffa335ee|Hkeystone:158923:245:6:9:11:0:0|h[Keystone: Freehold (6)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2310,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558671654,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [104]
+		}, -- [103]
 		{
 			"!keys", -- [1]
 			"Mistaaytch-Lightbringer", -- [2]
@@ -2332,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mistaaytch-Lightbringer|r",
 			[51] = 1558671723,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [105]
+		}, -- [104]
 		{
 			"!keys", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2354,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558671727,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [106]
+		}, -- [105]
 		{
 			"|cffa335ee|Hkeystone:158923:245:6:9:11:0:0|h[Keystone: Freehold (6)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2376,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558671727,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [107]
+		}, -- [106]
 		{
 			"|cffa335ee|Hkeystone:158923:245:2:9:0:0:0|h[Keystone: Freehold (2)]|h|r", -- [1]
 			"Lorelol-KhazModan", -- [2]
@@ -2398,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLorelol-KhazModan|r",
 			[51] = 1558671739,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [108]
+		}, -- [107]
 		{
 			"|cffa335ee|Hkeystone:158923:245:5:9:11:0:0|h[Keystone: Freehold (5)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2420,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558672305,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [109]
+		}, -- [108]
 		{
 			"Ricocheting Throw on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2442,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558672548,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [110]
+		}, -- [109]
 		{
 			"Ricocheting Throw on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2464,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558672565,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [111]
+		}, -- [110]
 		{
 			"Ricocheting Throw on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2486,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558672574,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [112]
+		}, -- [111]
 		{
 			"Cannon Barrage on Praerend", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2508,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673075,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [113]
+		}, -- [112]
 		{
 			"New Keystone: |cffa335ee|Hkeystone:158923:245:9:9:11:2:0|h[Keystone: Freehold (9)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2530,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673110,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [114]
+		}, -- [113]
 		{
 			"|cffa335ee|Hkeystone:158923:245:9:9:11:2:0|h[Keystone: Freehold (9)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2552,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673118,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [115]
+		}, -- [114]
 		{
 			"Bulwark", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2574,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673185,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [116]
+		}, -- [115]
 		{
 			"Wanna heal a +9 Freehold?", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2596,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673191,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [117]
+		}, -- [116]
 		{
 			"uhh", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -2618,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1558673209,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [118]
+		}, -- [117]
 		{
 			"I can't at this very moment", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -2640,7 +2618,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1558673229,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [119]
+		}, -- [118]
 		{
 			"I have company atm", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -2662,7 +2640,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1558673232,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [120]
+		}, -- [119]
 		{
 			"although I'm sorely tempted to just shut the door and run a plus lol", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -2684,7 +2662,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1558673242,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [121]
+		}, -- [120]
 		{
 			"I'll take you up on the offer this weekend if you have a key then", -- [1]
 			"Bulwarkbeard-Icecrown", -- [2]
@@ -2706,7 +2684,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Bulwarkbeard|r",
 			[51] = 1558673313,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [122]
+		}, -- [121]
 		{
 			"It's mine", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2728,7 +2706,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673341,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [123]
+		}, -- [122]
 		{
 			"|cffa335ee|Hkeystone:158923:245:9:9:11:2:0|h[Keystone: Freehold (9)]|h|r", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2750,7 +2728,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673344,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [124]
+		}, -- [123]
 		{
 			"Maybe this weekend then :)", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2772,7 +2750,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673349,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [125]
+		}, -- [124]
 		{
 			"cheers!", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2794,7 +2772,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673351,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [126]
+		}, -- [125]
 		{
 			"cya", -- [1]
 			"Praerend-Icecrown", -- [2]
@@ -2816,6 +2794,28 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1558673353,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [126]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9046:Player-104-09197E1B:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Bloodmaul Slag Mines]|h|r!", -- [1]
+			"Nocturnowl-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nocturnowl-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			246, -- [11]
+			"Player-104-09197E1B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nocturnowl|r",
+			[51] = 1559100190,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},
 }

@@ -1,16 +1,10 @@
-lightweight tag 9f96345f60a39f889ee5f0ac509309f9b8963f51 v201905281420
+lightweight tag 1a557cf1d9a274bf868bfbc0ac7b511a4c1b32be v201905300600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Tue May 28 14:54:51 2019 +0000
+Date:	Thu May 30 06:28:03 2019 +0000
 
-commit 9f96345f60a39f889ee5f0ac509309f9b8963f51
+commit 1a557cf1d9a274bf868bfbc0ac7b511a4c1b32be
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue May 28 14:54:51 2019 +0000
+Date:   Thu May 30 06:28:03 2019 +0000
 
     [Raider.IO] Database Refresh
-
-commit 4830ccf15aac8f3180211273b37106b71ad6bc8b
-Author: François "Isak" W <wroblewski.francois@gmail.com>
-Date:   Tue May 28 16:20:12 2019 +0200
-
-    Fix the passThroughArg, and refactor this part of the code (#107)
 
