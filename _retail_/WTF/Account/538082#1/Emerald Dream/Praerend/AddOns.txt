@@ -1,8 +1,0 @@
-VuhDo: disabled
-VuhDoOptions: disabled
-MasterPlan: disabled
-MasterPlanA: disabled
-Hermes-UI: disabled
-Hermes: disabled
-TidyPlates: disabled
-TidyPlatesHub: enabled

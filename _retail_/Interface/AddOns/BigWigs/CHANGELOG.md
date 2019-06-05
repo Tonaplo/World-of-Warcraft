@@ -1,12 +1,15 @@
 # BigWigs
 
-## [v148.1](https://github.com/BigWigsMods/BigWigs/tree/v148.1) (2019-05-20)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v148...v148.1)
+## [v149.3](https://github.com/BigWigsMods/BigWigs/tree/v149.3) (2019-06-05)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v149.2...v149.3)
 
-- Loader: Add Operation: Mechagon (#667)  
-- CrucibleOfStorms/Uunat: Fix first Oblivion Tear bar getting stuck on screen  
-- EternalPalace/LadyAshvane: Fix stackmessage  
-- EternalPalace: Fix variables  
-- EternalPalace: Add option files  
-- EternalPalace: Cleanups  
-- EternalPalace: Add skeleton and 3 tested bosses  
+- Media: Fix registering sounds in patch 8.2  
+- ruRU update (#680)  
+- ruRU update (#679)  
+- ruRU update (#678)  
+- ruRU update (#677)  
+- ruRU update (#676)  
+- update zhCN (#675)  
+- EternalPalace/TheQueensCourt: Cleanup  
+- EternalPalace/TheQueensCourt: Move warnings around for compatibility  
+- EternalPalace/TheQueensCourt: Update Module after PTR tests  

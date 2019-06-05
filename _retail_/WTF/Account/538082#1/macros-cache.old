@@ -2,17 +2,34 @@ VER 3 000000000000003E "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click ExtraActionButton1
 END
-VER 3 0000000000000047 "DPS Profile" "1064261"
-/reflux switch DPS
+VER 3 0000000000000049 "EasyFrames" "1498974"
+/easyframes
 END
 VER 3 0000000000000006 "focus" "132222"
 /focus
 END
-VER 3 0000000000000046 "Healer Profile" "237541"
-/reflux switch healer
-END
 VER 3 0000000000000041 "logout" "INV_MISC_QUESTIONMARK"
 /logout
+END
+VER 3 000000000000004A "MO HPriest1" "INV_MISC_QUESTIONMARK"
+#showtooltip Renew
+/use [@mouseover,help,nodead][help,nodead][@player] Renew
+END
+VER 3 000000000000004B "MO HPriest2" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash Heal
+/use [@mouseover,help,nodead][help,nodead][@player] Flash Heal
+END
+VER 3 000000000000004C "MO HPriest3" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Word: Serenity
+/use [@mouseover,help,nodead][help,nodead][@player] Holy Word: Serenity
+END
+VER 3 000000000000004D "MO HPriest4" "INV_MISC_QUESTIONMARK"
+#showtooltip Prayer of Healing
+/use [@mouseover,help,nodead][help,nodead][@player] Prayer of Healing
+END
+VER 3 000000000000004E "MO HPriest5" "INV_MISC_QUESTIONMARK"
+#showtooltip Heal
+/use [@mouseover,help,nodead][help,nodead][@player] Heal
 END
 VER 3 0000000000000027 "Newplayers" "1516058"
 /i Hey guys. If any of you are new, feel free to ask about fights and I'll do my best to explain them :)
@@ -33,9 +50,6 @@ VER 3 0000000000000044 "Server Lag!" "254885"
 END
 VER 3 0000000000000040 "SUPER PET LEVEL" "254858"
 /script local ids = { 31851, 31819, 31850, 31780, 31781, }; for i = 1, 5 do local index = GetQuestLogIndexByID(ids[i]); SelectQuestLogEntry(index); ShowQuestComplete(index); CompleteQuest(); GetQuestReward(); end
-END
-VER 3 0000000000000048 "Tank Profile" "132341"
-/reflux switch Tank
 END
 VER 3 000000000000003B "trinkets" "INV_MISC_QUESTIONMARK"
 /use 13

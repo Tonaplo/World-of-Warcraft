@@ -5,25 +5,25 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Faerand - Icecrown"] = "Faerand - Icecrown",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
-		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
+		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "DPS",
-		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
-		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
+		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
 		["Mallusof - Icecrown"] = "DPS",
 	},
@@ -37,26 +37,26 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Amranar - Proudmoore"] = {
 		},
-		["Korugen - Icecrown"] = {
-		},
 		["Rahran - Icecrown"] = {
+		},
+		["Korugen - Icecrown"] = {
 		},
 		["Deminath - Tichondrius"] = {
 		},
-		["Deminath - Proudmoore"] = {
+		["Fandagny - Frostwolf"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
-		["Farahn - Proudmoore"] = {
+		["Miriyal - Icecrown"] = {
 		},
-		["healer"] = {
+		["DPS"] = {
 			["tooltip_questid"] = true,
 		},
-		["Greybone - Icecrown"] = {
+		["Kindhoof - Tichondrius"] = {
 		},
 		["Luugo - Frostwolf"] = {
 		},
-		["Caircaidin - Frostwolf"] = {
+		["Korugen - Proudmoore"] = {
 		},
 		["Weston - Icecrown"] = {
 		},
@@ -64,24 +64,24 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Praerend - Icecrown"] = {
 		},
-		["Zearthan - Icecrown"] = {
+		["Farahn - Proudmoore"] = {
 		},
 		["Tyindel - Frostwolf"] = {
 		},
-		["Kaldorath - Icecrown"] = {
+		["Greybone - Icecrown"] = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["Korugen - Proudmoore"] = {
+		["Deminath - Proudmoore"] = {
 		},
-		["Kindhoof - Tichondrius"] = {
+		["Kaldorath - Icecrown"] = {
 		},
-		["DPS"] = {
+		["healer"] = {
 			["tooltip_questid"] = true,
 		},
-		["Miriyal - Icecrown"] = {
+		["Zearthan - Icecrown"] = {
 		},
-		["Fandagny - Frostwolf"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
 		["Alura - Tichondrius"] = {
 		},

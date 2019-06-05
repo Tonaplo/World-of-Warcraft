@@ -67,3 +67,4 @@ VuhDoOptions: enabled
 BigWigs_Azeroth: enabled
 ElvUI: enabled
 ElvUI_Config: enabled
+WeakAurasCompanion: enabled

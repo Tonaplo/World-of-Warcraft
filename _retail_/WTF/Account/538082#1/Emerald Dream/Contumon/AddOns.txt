@@ -1,5 +1,0 @@
-VuhDoOptions: enabled
-VuhDo: enabled
-Quartz: enabled
-PLG_Tracker: enabled
-Recount: enabled

@@ -94,3 +94,4 @@ ElvUI_Config: enabled
 ElvUI: enabled
 InstanceAchievementTracker: disabled
 HealerStatWeights: disabled
+WeakAurasCompanion: enabled

@@ -1,3 +1,0 @@
-OmniCC_Config: disabled
-OmniCC: disabled
-XLoot_Options: enabled

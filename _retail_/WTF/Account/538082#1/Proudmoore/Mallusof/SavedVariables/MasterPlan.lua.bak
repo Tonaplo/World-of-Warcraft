@@ -1,7 +1,0 @@
-
-MasterPlanPC = {
-	["complete"] = {
-	},
-	["version"] = "0.65.1",
-	["goldRewardThreshold"] = 0,
-}

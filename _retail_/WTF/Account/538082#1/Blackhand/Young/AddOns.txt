@@ -1,2 +1,0 @@
-OmniCC_Config: disabled
-OmniCC: disabled

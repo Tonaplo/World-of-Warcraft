@@ -39,7 +39,7 @@ SimulationCraftDB = {
 		},
 		["Luugo - Frostwolf"] = {
 		},
-		["Alianalen - Frostwolf"] = {
+		["Greybone - Icecrown"] = {
 		},
 		["Weston - Icecrown"] = {
 		},
@@ -51,25 +51,25 @@ SimulationCraftDB = {
 		},
 		["Tyindel - Frostwolf"] = {
 		},
-		["Greybone - Icecrown"] = {
+		["Alianalen - Frostwolf"] = {
 		},
 		["Thedodrouk - Icecrown"] = {
-		},
-		["Kaldorath - Icecrown"] = {
-		},
-		["DPS"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
 		},
 		["healer"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
+		["Kindhoof - Tichondrius"] = {
+		},
+		["DPS"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
 		["Beathe - Frostwolf"] = {
 		},
-		["Kindhoof - Tichondrius"] = {
+		["Kaldorath - Icecrown"] = {
 		},
 		["Alura - Tichondrius"] = {
 			["minimap"] = {

@@ -2,20 +2,70 @@ VER 3 000000000000003E "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click ExtraActionButton1
 END
-VER 3 0000000000000047 "DPS Profile" "1064261"
-/reflux switch DPS
-END
 VER 3 0000000000000049 "EasyFrames" "1498974"
 /easyframes
 END
 VER 3 0000000000000006 "focus" "132222"
 /focus
 END
-VER 3 0000000000000046 "Healer Profile" "237541"
-/reflux switch healer
-END
 VER 3 0000000000000041 "logout" "INV_MISC_QUESTIONMARK"
 /logout
+END
+VER 3 0000000000000055 "MO DPriest01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Power Word: Shield
+END
+VER 3 0000000000000056 "MO DPriest02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Power Word: Radiance
+END
+VER 3 0000000000000057 "MO DPriest03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Pain Suppression
+END
+VER 3 000000000000004A "MO HPriest01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Renew
+END
+VER 3 000000000000004C "MO HPriest02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Holy Word: Serenity
+END
+VER 3 0000000000000052 "MO HPriest03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Guardian Spirit
+END
+VER 3 000000000000004D "MO HPriest04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Prayer of Healing
+END
+VER 3 000000000000004E "MO HPriest05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Heal
+END
+VER 3 000000000000004F "MO HPriest06" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [nomod,talent:5/2,@mouseover,help,nodead] [nomod,talent:5/2] Binding Heal; [nomod,talent:5/3,@mouseover,help,nodead] [nomod,talent:5/3] Circle of Healing;
+END
+VER 3 0000000000000050 "MO HPriest07" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Divine Star; [talent:6/3] Halo
+END
+VER 3 0000000000000051 "MO HPriest08" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Prayer of Mending
+END
+VER 3 0000000000000053 "MO Priest01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Dispel Magic
+END
+VER 3 000000000000004B "MO Priest02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Flash Heal
+END
+VER 3 0000000000000054 "MO Priest03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Leap of Faith
 END
 VER 3 0000000000000027 "Newplayers" "1516058"
 /i Hey guys. If any of you are new, feel free to ask about fights and I'll do my best to explain them :)
@@ -36,9 +86,6 @@ VER 3 0000000000000044 "Server Lag!" "254885"
 END
 VER 3 0000000000000040 "SUPER PET LEVEL" "254858"
 /script local ids = { 31851, 31819, 31850, 31780, 31781, }; for i = 1, 5 do local index = GetQuestLogIndexByID(ids[i]); SelectQuestLogEntry(index); ShowQuestComplete(index); CompleteQuest(); GetQuestReward(); end
-END
-VER 3 0000000000000048 "Tank Profile" "132341"
-/reflux switch Tank
 END
 VER 3 000000000000003B "trinkets" "INV_MISC_QUESTIONMARK"
 /use 13

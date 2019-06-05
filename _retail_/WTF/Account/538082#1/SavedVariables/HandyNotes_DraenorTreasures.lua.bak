@@ -14,13 +14,13 @@ DraenorTreasuresDB = {
 		["Mallusof - Icecrown"] = "DPS",
 	},
 	["profiles"] = {
-		["DPS"] = {
+		["healer"] = {
 		},
 		["Tank"] = {
 		},
 		["Default"] = {
 		},
-		["healer"] = {
+		["DPS"] = {
 		},
 	},
 }

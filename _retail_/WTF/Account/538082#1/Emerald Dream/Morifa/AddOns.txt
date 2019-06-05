@@ -1,7 +1,0 @@
-Tonaplos_ProfLeveler: enabled
-VuhDo: enabled
-VuhDoOptions: enabled
-PLG_Tracker: enabled
-Recount: enabled
-MasterPlan: disabled
-MasterPlanA: disabled
