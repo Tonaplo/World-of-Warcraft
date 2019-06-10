@@ -1,19 +1,19 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/g Thanks for inviting me though!", -- [1]
-		"/g Was really nice to have someone actually talk to me and not just throw a guild invite randomly :)", -- [2]
-		"/cw Redimo-Tichondrius THANKS MAN! :)", -- [3]
-		"/cw Redimo-Tichondrius caps :)", -- [4]
-		"/g Good night, cya later :)", -- [5]
-		"/cw Redimo-Tichondrius Sure thing :)", -- [6]
-		"/g Thumbs up for that :)", -- [7]
-		"/g Thanks :)", -- [8]
+		"/g Was really nice to have someone actually talk to me and not just throw a guild invite randomly :)", -- [1]
+		"/cw Redimo-Tichondrius caps :)", -- [2]
+		"/cw Redimo-Tichondrius Sure thing :)", -- [3]
+		"/g Thanks :)", -- [4]
+		"/g I was actually about to log off, so I'm gonna do that :)", -- [5]
+		"/g GZ!", -- [6]
+		"/g Thanks for inviting me though!", -- [7]
+		"/g Good night, cya later :)", -- [8]
 		"/ELVUI", -- [9]
-		"/g I was actually about to log off, so I'm gonna do that :)", -- [10]
-		"/cw Redimo-Tichondrius throw me an invite", -- [11]
-		"/g GZ!", -- [12]
-		"/s broken?", -- [13]
+		"/s broken?", -- [10]
+		"/g Thumbs up for that :)", -- [11]
+		"/cw Redimo-Tichondrius THANKS MAN! :)", -- [12]
+		"/cw Redimo-Tichondrius throw me an invite", -- [13]
 	},
 	["ChatHistoryLog"] = {
 		{

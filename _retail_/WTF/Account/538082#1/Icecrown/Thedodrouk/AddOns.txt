@@ -28,3 +28,4 @@ XLoot_Monitor: disabled
 Quester: disabled
 Immersion: disabled
 BigWigs_Cataclysm: enabled
+WeakAurasCompanion: enabled

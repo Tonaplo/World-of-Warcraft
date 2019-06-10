@@ -19,3 +19,4 @@ Immersion: disabled
 LittleWigs: enabled
 BigWigs_Azeroth: enabled
 BigWigs_CrucibleOfStorms: enabled
+WeakAurasCompanion: enabled

@@ -23,6 +23,38 @@ VER 3 0000000000000057 "MO DPriest03" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Pain Suppression
 END
+VER 3 000000000000005F "MO Druid01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Lifebloom
+END
+VER 3 0000000000000060 "MO Druid02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Regrowth
+END
+VER 3 0000000000000061 "MO Druid03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Swiftmend
+END
+VER 3 0000000000000062 "MO Druid04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Wild Growth
+END
+VER 3 0000000000000063 "MO Druid05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Rebirth
+END
+VER 3 0000000000000064 "MO Druid06" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Innervate
+END
+VER 3 0000000000000065 "MO Druid07" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Rejuvenation
+END
+VER 3 0000000000000066 "MO Druid08" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Ironbark
+END
 VER 3 000000000000004A "MO HPriest01" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Renew
@@ -54,6 +86,38 @@ END
 VER 3 0000000000000051 "MO HPriest08" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Prayer of Mending
+END
+VER 3 0000000000000067 "MO Monk01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/2] Chi Wave; [talent:1/3] Chi Burst
+END
+VER 3 0000000000000059 "MO Pally01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Flash of Light
+END
+VER 3 000000000000005A "MO Pally02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Lay on Hands
+END
+VER 3 000000000000005B "MO Pally03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Blessing of Protection
+END
+VER 3 000000000000005C "MO Pally04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Blessing of Freedom
+END
+VER 3 000000000000005D "MO Pally05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Blessing of Sacrifice
+END
+VER 3 000000000000005E "MO Pally06" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Cleanse Toxins
+END
+VER 3 0000000000000058 "MO PPally01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Light of the Protector
 END
 VER 3 0000000000000053 "MO Priest01" "INV_MISC_QUESTIONMARK"
 #showtooltip

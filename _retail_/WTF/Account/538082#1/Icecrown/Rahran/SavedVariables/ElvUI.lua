@@ -1,10 +1,10 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/wa", -- [1]
-		"/cheer", -- [2]
+		"/cheer", -- [1]
+		"/s have a good one  :)", -- [2]
 		"/s nice  :)", -- [3]
-		"/s have a good one  :)", -- [4]
+		"/wa", -- [4]
 	},
 	["ChatHistoryLog"] = {
 		{

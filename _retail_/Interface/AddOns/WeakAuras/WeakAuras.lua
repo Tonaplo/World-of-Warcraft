@@ -1758,6 +1758,7 @@ local function scanForLoadsImpl(self, event, arg1, ...)
 
   local affixes = C_ChallengeMode.IsChallengeModeActive() and select(2, C_ChallengeMode.GetActiveKeystoneInfo())
   local warmodeActive = C_PvP.IsWarModeDesired();
+  local effectiveLevel = UnitEffectiveLevel("player")
 
   local changed = 0;
   local shouldBeLoaded, couldBeLoaded;
@@ -1767,8 +1768,8 @@ local function scanForLoadsImpl(self, event, arg1, ...)
     if (data and not data.controlledChildren) then
       local loadFunc = loadFuncs[id];
       local loadOpt = loadFuncsForOptions[id];
-      shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", incombat, inencounter, warmodeActive, inpetbattle, vehicle, vehicleUi, group, player, realm, class, spec, race, faction, playerLevel, zone, zoneId, zonegroupId, encounter_id, size, difficulty, role, affixes);
-      couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   incombat, inencounter, warmodeActive, inpetbattle, vehicle, vehicleUi, group, player, realm, class, spec, race, faction, playerLevel, zone, zoneId, zonegroupId, encounter_id, size, difficulty, role, affixes);
+      shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", incombat, inencounter, warmodeActive, inpetbattle, vehicle, vehicleUi, group, player, realm, class, spec, race, faction, playerLevel, effectiveLevel, zone, zoneId, zonegroupId, encounter_id, size, difficulty, role, affixes);
+      couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   incombat, inencounter, warmodeActive, inpetbattle, vehicle, vehicleUi, group, player, realm, class, spec, race, faction, playerLevel, effectiveLevel, zone, zoneId, zonegroupId, encounter_id, size, difficulty, role, affixes);
 
       if(shouldBeLoaded and not loaded[id]) then
         changed = changed + 1;
@@ -3832,7 +3833,9 @@ function WeakAuras.Animate(namespace, data, type, anim, region, inverse, onFinis
     else
       anim.x = anim.x or 0;
       anim.y = anim.y or 0;
-      selfPoint, anchor, anchorPoint, startX, startY = region:GetPoint(1);
+      if not region.SetOffsetAnim then
+        selfPoint, anchor, anchorPoint, startX, startY = region:GetPoint(1);
+      end
       anim.alpha = anim.alpha or 0;
       startAlpha = region:GetAlpha();
       anim.scalex = anim.scalex or 1;
@@ -4622,7 +4625,7 @@ local function startStopTimers(id, cloneId, triggernum, state)
         state.expirationTime = GetTime() + state.duration;
         state.resort = true;
       end
-      if (record.expirationTime ~= state.expirationTime) then
+      if (record.expirationTime ~= state.expirationTime or record.state ~= state) then
         if (record.handle ~= nil) then
           timer:CancelTimer(record.handle);
         end
@@ -4637,6 +4640,7 @@ local function startStopTimers(id, cloneId, triggernum, state)
           end,
           state.expirationTime - GetTime());
         record.expirationTime = state.expirationTime;
+        record.state = state
       end
     else -- no auto hide, delete timer
       if (timers[id] and timers[id][triggernum] and timers[id][triggernum][cloneId]) then
@@ -4646,6 +4650,7 @@ local function startStopTimers(id, cloneId, triggernum, state)
         end
         record.handle = nil;
         record.expirationTime = nil;
+        record.state = nil
     end
     end
   else -- not shown
@@ -4656,6 +4661,7 @@ local function startStopTimers(id, cloneId, triggernum, state)
       end
       record.handle = nil;
       record.expirationTime = nil;
+      record.state = nil
   end
   end
 end
@@ -5669,4 +5675,11 @@ function WeakAuras.IsCLEUSubevent(subevent)
     end
   end
   return false
+end
+
+-- SafeToNumber converts a string to number, but only if it fits into a unsigned 32bit integer
+-- The C api often takes only 32bit values, and complains if passed a value outside
+function WeakAuras.SafeToNumber(input)
+  local nr = tonumber(input)
+  return nr and (nr < 2147483648 and nr > -2147483649) and nr or nil
 end

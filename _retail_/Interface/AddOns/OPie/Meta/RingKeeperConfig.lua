@@ -1117,6 +1117,9 @@ local function sortNames(a,b)
 	local oa, ob, na, nb, ta, tb = ringOrderMap[a] or 5, ringOrderMap[b] or 5, ringNameMap[a] or "", ringNameMap[b] or "", ringTypeMap[a] or "", ringTypeMap[b] or ""
 	return oa < ob or (oa == ob and ta < tb) or (oa == ob and ta == tb and na < nb) or false
 end
+local function ringDropDown_EntryFormat(k)
+	return (typePrefix[ringTypeMap[k]] or "") .. (ringNameMap[k] or "?"), currentRingName == k
+end
 function ringDropDown:initialize(level, nameList)
 	local playerName, playerServer = UnitFullName("player")
 	local playerFullName = playerName .. "-" .. playerServer
@@ -1132,24 +1135,32 @@ function ringDropDown:initialize(level, nameList)
 		table.sort(ringNames, sortNames)
 		table.sort(ringNames.hidden, sortNames)
 		table.sort(ringNames.other, sortNames)
+	elseif nameList == "overflow-main" then
+		conf.ui.scrollingDropdown:Display(2, ringNames, ringDropDown_EntryFormat, api.selectRing, 16)
+		return
+	elseif nameList then
+		conf.ui.scrollingDropdown:Display(2, nameList, ringDropDown_EntryFormat, api.selectRing)
+		return
 	end
-	local t = nameList or ringNames
-	for i=1,#t do
-		local prefix = (typePrefix[ringTypeMap[t[i]]] or "")
-		info.arg1, info.checked, info.text = t[i], currentRingName == t[i], prefix .. (ringNameMap[t[i]] or "?")
+	local stopAt = #ringNames > 20 and 16 or #ringNames
+	for i=1,stopAt do
+		local k = ringNames[i]
+		info.arg1, info.text, info.checked = k, ringDropDown_EntryFormat(k)
 		UIDropDownMenu_AddButton(info, level)
 	end
-	if level == 1 then
-		info.hasArrow, info.notCheckable, info.fontObject, info.text, info.func, info.checked = 1, 1, GameFontNormalSmall
-		info.padding=32
-		if t.hidden and #t.hidden > 0 then
-			info.menuList, info.text = ringNames.hidden, L"Hidden rings"
-			UIDropDownMenu_AddButton(info, level)
-		end
-		if t.other and #t.other > 0 then
-			info.menuList, info.text = ringNames.other, L"Inactive rings"
-			UIDropDownMenu_AddButton(info, level)
-		end
+	info.hasArrow, info.notCheckable, info.padding, info.fontObject = 1, 1, 32, GameFontNormalSmall
+	info.text, info.func, info.checked = nil
+	if stopAt < #ringNames then
+		info.menuList, info.text = "overflow-main", L"More active rings"
+		UIDropDownMenu_AddButton(info, level)
+	end
+	if ringNames.hidden and #ringNames.hidden > 0 then
+		info.menuList, info.text = ringNames.hidden, L"Hidden rings"
+		UIDropDownMenu_AddButton(info, level)
+	end
+	if ringNames.other and #ringNames.other > 0 then
+		info.menuList, info.text = ringNames.other, L"Inactive rings"
+		UIDropDownMenu_AddButton(info, level)
 	end
 end
 function api.createRing(name, data)

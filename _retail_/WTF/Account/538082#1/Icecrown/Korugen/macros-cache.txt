@@ -1,5 +1,5 @@
 VER 3 0100000000000003 "Hand" "INV_MISC_QUESTIONMARK"
-#showtooltip Light of the Protector
+#showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Light of the Protector
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"

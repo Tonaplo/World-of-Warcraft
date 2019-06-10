@@ -1,184 +1,184 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i haha", -- [1]
-		"/i lol", -- [2]
-		"/i lawl", -- [3]
-		"/i it's the thumbs up emoji :P", -- [4]
-		"/i dislike the end of this fight lol", -- [5]
-		"/i did you get water Mis?", -- [6]
-		"/i you did the other way, didnt you?", -- [7]
-		"/i Good to me myself get outdpsed! :)", -- [8]
-		"/cw Misouripeace-Proudmoore absolutely :)", -- [9]
-		"/cw Misouripeace-Proudmoore Malluysof#2239", -- [10]
-		"/cw Misouripeace-Proudmoore Mallusof", -- [11]
-		"/cw Misouripeace-Proudmoore I have 3 120s", -- [12]
-		"/cw Misouripeace-Proudmoore My main is a healing Priest tho", -- [13]
-		"/cw Misouripeace-Proudmoore my Fury warrior is decent too :)", -- [14]
-		"/cw Misouripeace-Proudmoore oh damn", -- [15]
-		"/cw Misouripeace-Proudmoore wtb invite", -- [16]
-		"/i ty all!", -- [17]
-		"/i Heading off :)", -- [18]
-		"/cw Misouripeace-Proudmoore Mallusof is my Priest :)", -- [19]
-		"/cw Misouripeace-Proudmoore logging voer", -- [20]
+		"/i gauntlet", -- [1]
+		"/i come hide with me", -- [2]
+		"/i over here", -- [3]
+		"/i stay behind pillar", -- [4]
+		"/i once boss comes, we can run out again :)", -- [5]
+		"/i gz on 85!", -- [6]
+		"/i boss", -- [7]
+		"/i :)", -- [8]
+		"/i omg", -- [9]
+		"/i lol", -- [10]
+		"/i 115 cp to level :P", -- [11]
+		"/i one kill and I'm good lol", -- [12]
+		"/i alright, thanks for the runs!", -- [13]
+		"/i Have a good one :)", -- [14]
+		"/i bye bye  :)", -- [15]
+		"/wave", -- [16]
+		"/exit", -- [17]
+		"/dismount", -- [18]
+		"/elvui", -- [19]
+		"/leavevehicle", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Very nice run, guys!", -- [1]
-			"Korugen-Icecrown", -- [2]
+			"you will find most players on that server are roleplayers", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Korugen-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			413, -- [11]
-			"Player-104-0A10F15D", -- [12]
+			263, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1558719607,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798005,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [1]
 		{
-			"woo", -- [1]
-			"Tor-Gnomeregan", -- [2]
+			"and write stories about their players", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tor-Gnomeregan", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			430, -- [11]
-			"Player-153-0A19BA00", -- [12]
+			264, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcTor-Gnomeregan|r",
-			[51] = 1558719646,
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798010,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [2]
 		{
-			"aw lol", -- [1]
-			"Tor-Gnomeregan", -- [2]
+			"if that interests you ", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tor-Gnomeregan", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			437, -- [11]
-			"Player-153-0A19BA00", -- [12]
+			265, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcTor-Gnomeregan|r",
-			[51] = 1558719657,
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798013,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [3]
 		{
-			"lol", -- [1]
-			"Gná-MoonGuard", -- [2]
+			"i apreciate that", -- [1]
+			"Garfonk-MoonGuard", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gná-MoonGuard", -- [5]
+			"Garfonk-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			438, -- [11]
-			"Player-3675-08482FC4", -- [12]
+			266, -- [11]
+			"Player-3675-0864CC73", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcGná-MoonGuard|r",
-			[51] = 1558719662,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798015,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [4]
 		{
-			"who we taking out first", -- [1]
-			"Darkshot-Malfurion", -- [2]
-			"", -- [3]
+			"Sent you a friend request :)", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Darkshot-Malfurion", -- [5]
+			"Garfonk-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			532, -- [11]
-			"Player-1175-0BCEA1A1", -- [12]
+			267, -- [11]
+			"Player-3675-0864CC73", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Darkshot-Malfurion|r",
-			[51] = 1558720014,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798034,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [5]
 		{
-			"Depends who gets that buff", -- [1]
-			"Tor-Gnomeregan", -- [2]
+			"any advice for sticking through this leveling? at times it feels so boring", -- [1]
+			"Garfonk-MoonGuard", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tor-Gnomeregan", -- [5]
+			"Garfonk-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			534, -- [11]
-			"Player-153-0A19BA00", -- [12]
+			268, -- [11]
+			"Player-3675-0864CC73", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcTor-Gnomeregan|r",
-			[51] = 1558720023,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798037,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [6]
 		{
-			"alrght", -- [1]
-			"Korugen-Icecrown", -- [2]
+			"I have a story as well but you can only see it if you have the addon hahah", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Korugen-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			608, -- [11]
-			"Player-104-0A10F15D", -- [12]
+			269, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1558720350,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798039,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [7]
 		{
-			"that's it for me", -- [1]
+			"I didnt actually know that", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -188,7 +188,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			609, -- [11]
+			270, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -196,11 +196,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1558720352,
+			[51] = 1559798041,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [8]
 		{
-			"thanks for 2 good runs! :)", -- [1]
+			"that's pretty cool", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -210,7 +210,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			610, -- [11]
+			271, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -218,495 +218,231 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1558720356,
+			[51] = 1559798044,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [9]
 		{
-			"Thanks", -- [1]
-			"Tor-Gnomeregan", -- [2]
+			"Yea ", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tor-Gnomeregan", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			611, -- [11]
-			"Player-153-0A19BA00", -- [12]
+			272, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcTor-Gnomeregan|r",
-			[51] = 1558720360,
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798045,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [10]
 		{
-			"thanks for the party ^^", -- [1]
-			"Gná-MoonGuard", -- [2]
+			"Moonguard is roleplay server", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gná-MoonGuard", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			612, -- [11]
-			"Player-3675-08482FC4", -- [12]
+			273, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcGná-MoonGuard|r",
-			[51] = 1558720361,
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798051,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [11]
 		{
-			"have a great day :)", -- [1]
-			"Korugen-Icecrown", -- [2]
+			"Almost everyplayer is an rper there", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Korugen-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			613, -- [11]
-			"Player-104-0A10F15D", -- [12]
+			274, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1558720362,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798058,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [12]
 		{
-			"ty all", -- [1]
-			"Ultio-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ultio-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			615, -- [11]
-			"Player-5-0B682B42", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Ultio-Proudmoore|r",
-			[51] = 1558720364,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"Hey guys", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			34, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559024529,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
-		{
-			"ready Ly?", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			37, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559024537,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"over here :)", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			155, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559025026,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"Dude", -- [1]
-			"Lyrallia-MoonGuard", -- [2]
+			"Uff yeah, leveling can be super tough :/", -- [1]
+			"Garfonk-MoonGuard", -- [2]
 			"Common", -- [3]
 			"", -- [4]
-			"Lyrallia-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			179, -- [11]
-			"Player-3675-06DD1349", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
-			[51] = 1559025186,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [17]
-		{
-			"You are awesome", -- [1]
-			"Lyrallia-MoonGuard", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lyrallia-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			181, -- [11]
-			"Player-3675-06DD1349", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
-			[51] = 1559025188,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [18]
-		{
-			"Thanks. Glad you think so.", -- [1]
-			"Lyrallia-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lyrallia-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			184, -- [11]
-			"Player-3675-06DD1349", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
-			[51] = 1559025203,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [19]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6457:Player-104-0A10F15D:1:5:27:19:4294967295:4294967295:4294967295:4294967295|h[Stormstout Brewery]|h|r!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			191, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559025329,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
-		{
-			"Great heals and use of CDs :)", -- [1]
-			"Lyrallia-MoonGuard", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lyrallia-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			205, -- [11]
-			"Player-3675-06DD1349", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
-			[51] = 1559025344,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [21]
-		{
-			"Have a good night :)", -- [1]
-			"Lyrallia-MoonGuard", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lyrallia-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			207, -- [11]
-			"Player-3675-06DD1349", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
-			[51] = 1559025348,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [22]
-		{
-			"You too.", -- [1]
-			"Lyrallia-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lyrallia-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			208, -- [11]
-			"Player-3675-06DD1349", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Lyrallia-MoonGuard|r",
-			[51] = 1559025352,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [23]
-		{
-			"Have a good one! :)", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			210, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559025356,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12832:Player-104-094C68A7:1:5:27:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Freehold]|h|r!", -- [1]
-			"Oldera-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Oldera-Icecrown", -- [5]
+			"Garfonk-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			276, -- [11]
-			"Player-104-094C68A7", -- [12]
+			"Player-3675-0864CC73", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeOldera|r",
-			[51] = 1559025966,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798063,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [13]
 		{
-			"Too much", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
+			"Well, kinda depends on what you're going for", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Korugen-Icecrown", -- [5]
+			"Garfonk-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			169, -- [11]
-			"Player-104-0A10F15D", -- [12]
+			278, -- [11]
+			"Player-3675-0864CC73", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559280550,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798074,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [14]
 		{
-			"my bad", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
+			"Speed or adventure :)", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			170, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559280551,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
-		{
-			"Ressing Sírhealzólot!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			174, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559280560,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"mana?", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			253, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559281031,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6469:Player-104-0A10F15D:1:5:30:19:4294967295:4294967295:4294967295:4294967295|h[Shado-Pan Monastery]|h|r!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			262, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559281134,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1177:Player-104-0A10F15D:1:5:30:19:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
+			"Garfonk-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			280, -- [11]
-			"Player-104-0A10F15D", -- [12]
+			"Player-3675-0864CC73", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559281143,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798085,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [15]
 		{
-			"cheers :)", -- [1]
+			"dont sit in aoe", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			305, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798186,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [16]
+		{
+			"If adventure, I'd recommend doing questlines", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Garfonk-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			312, -- [11]
+			"Player-3675-0864CC73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798231,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [17]
+		{
+			"and reading the quests", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Garfonk-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			314, -- [11]
+			"Player-3675-0864CC73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798234,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [18]
+		{
+			"for speed, there are a couple of leveling guides", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Garfonk-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			316, -- [11]
+			"Player-3675-0864CC73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798245,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [19]
+		{
+			"Hunter", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -716,7 +452,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			295, -- [11]
+			322, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -724,803 +460,1441 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559281176,
+			[51] = 1559798281,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
+		}, -- [20]
 		{
-			"Don't know why it would just drop you from the group", -- [1]
-			"Thornstaad-Icecrown", -- [2]
+			"Is Cat on taunt?", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			403, -- [11]
-			"Player-104-0926D065", -- [12]
+			326, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Thornstaad|r",
-			[51] = 1559450206,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798293,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [21]
 		{
-			"-ducks-", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"Alot of them require higher level characters to have done stuff first though, now that I think of it..", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Garfonk-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			338, -- [11]
+			"Player-3675-0864CC73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798355,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [22]
+		{
+			"so might not help", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Garfonk-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			341, -- [11]
+			"Player-3675-0864CC73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559798362,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [23]
+		{
+			"whered ya'll go?", -- [1]
+			"Huntintime-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			358, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559798426,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [24]
+		{
+			"Illcome get you", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			360, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798431,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [25]
+		{
+			"the stairs", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			361, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798435,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [26]
+		{
+			"behind the chest", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798437,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [27]
+		{
+			"to the left of where we came in", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			365, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798449,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [28]
+		{
+			"oh didnt see those thanks", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			366, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559798455,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [29]
+		{
+			"nps; )", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			367, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798460,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [30]
+		{
+			"jumping down", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			379, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798556,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [31]
+		{
+			"3", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			380, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798558,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [32]
+		{
+			"2", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			381, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798559,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [33]
+		{
+			"1", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			382, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798560,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [34]
+		{
+			"Dont forget to use your interrupts guys :)", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			404, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450208,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798728,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [35]
 		{
-			"That's stupid", -- [1]
-			"Thornstaad-Icecrown", -- [2]
+			"one sec", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			405, -- [11]
-			"Player-104-0926D065", -- [12]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Thornstaad|r",
-			[51] = 1559450210,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798740,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [36]
 		{
-			"i mean", -- [1]
-			"Naturesight-Icecrown", -- [2]
+			"quest item here", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			406, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798744,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [37]
+		{
+			"theres mobs i think we can get it upstairs lol", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			407, -- [11]
-			"Player-104-0A2F0FFC", -- [12]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Naturesight|r",
-			[51] = 1559450222,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798765,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [38]
 		{
-			"game crashed", -- [1]
-			"Naturesight-Icecrown", -- [2]
+			"hunt wait", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			408, -- [11]
-			"Player-104-0A2F0FFC", -- [12]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Naturesight|r",
-			[51] = 1559450225,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798772,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [39]
 		{
-			"because when it didn't, people did shenanigans", -- [1]
-			"Celedhring-Icecrown", -- [2]
+			"we got it", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			409, -- [11]
-			"Player-104-06462430", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Celedhring|r",
-			[51] = 1559450227,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
-		{
-			"so am i generally awesome, or did you need something? haha", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			410, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450234,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [39]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798842,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [40]
 		{
-			"and i would say my fault too ", -- [1]
-			"Naturesight-Icecrown", -- [2]
+			"ok", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			411, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559798846,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [41]
+		{
+			"ty", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			412, -- [11]
-			"Player-104-0A2F0FFC", -- [12]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Naturesight|r",
-			[51] = 1559450238,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
-		{
-			"Naah, you're just generally awesome )", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			413, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450246,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [41]
-		{
-			":)", -- [1]
-			"Inevitabits-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			414, -- [11]
-			"Player-104-08A28FAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450247,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559798848,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [42]
 		{
-			"awwww. :D", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"r", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			415, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			441, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450250,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799033,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [43]
 		{
-			"never leave chrome open i guess while trying to open streamlabs as well", -- [1]
-			"Naturesight-Icecrown", -- [2]
+			"r", -- [1]
+			"Huntintime-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Huntintime-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			416, -- [11]
-			"Player-104-0A2F0FFC", -- [12]
+			442, -- [11]
+			"Player-5-0B361D5C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Naturesight|r",
-			[51] = 1559450251,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799036,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [44]
 		{
-			"I'm not like that, lol", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"rammes", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			418, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			466, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450256,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799118,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [45]
 		{
-			"\"Yeah, you're only awesome when I need stuff\"", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"did you finish quest", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			419, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			467, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450266,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799121,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [46]
 		{
-			"oh, i just figured it might be buttering up as a leadin", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"yes", -- [1]
+			"Rannes-Zul'jin", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
+			"Rannes-Zul'jin", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			420, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			470, -- [11]
+			"Player-61-0C0AB657", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450266,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfff38bb9Rannes-Zul'jin|r",
+			[51] = 1559799134,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [47]
 		{
-			"pssh. you know what i mean. just a little tongue in cheek", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"okay ", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			422, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			472, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450279,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799140,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [48]
 		{
-			"ye :)", -- [1]
-			"Inevitabits-Icecrown", -- [2]
+			"i left something downstairs haha", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Inevitabits-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			424, -- [11]
-			"Player-104-08A28FAA", -- [12]
+			473, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Inevitabits|r",
-			[51] = 1559450290,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799146,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [49]
 		{
-			"gnight all, have fun  =)", -- [1]
-			"Celedhring-Icecrown", -- [2]
+			"I'm up for one more", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			432, -- [11]
-			"Player-104-06462430", -- [12]
+			474, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Celedhring|r",
-			[51] = 1559450310,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559799164,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [50]
 		{
-			"gnighr!", -- [1]
-			"Algozen-Icecrown", -- [2]
+			"lets do it", -- [1]
+			"Huntintime-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Huntintime-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			434, -- [11]
-			"Player-104-09539B78", -- [12]
+			475, -- [11]
+			"Player-5-0B361D5C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1559450315,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799169,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [51]
 		{
-			"-r, +t", -- [1]
-			"Algozen-Icecrown", -- [2]
+			"should be enough for level 90 :)", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			436, -- [11]
-			"Player-104-09539B78", -- [12]
+			476, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1559450329,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559799169,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [52]
 		{
-			"feelsbadman tho", -- [1]
-			"Naturesight-Icecrown", -- [2]
+			"one sec", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			477, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799184,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [53]
+		{
+			"im down as well", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			480, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799187,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [54]
+		{
+			"Yeah, pick up quest items and turn them in", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			481, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559799196,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [55]
+		{
+			"Dont forget darkmoon buff", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			482, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799208,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [56]
+		{
+			"And |cff1eff00|Hitem:166751::::::::84:256::::::|h[Draught of Ten Lands]|h|r", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			483, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799212,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [57]
+		{
+			"oh damn!", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			484, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559799231,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [58]
+		{
+			"I forgot about Darkmoon faire buff", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			485, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559799237,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [59]
+		{
+			"yea 10%", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			486, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799241,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [60]
+		{
+			"rep and exp ", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			487, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799244,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [61]
+		{
+			"how do u get hat?", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			488, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799254,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [62]
+		{
+			"how do you get it?", -- [1]
+			"Garfonk-MoonGuard", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Garfonk-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			489, -- [11]
+			"Player-3675-0864CC73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Garfonk-MoonGuard|r",
+			[51] = 1559799258,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [63]
+		{
+			"Go to darkmoon faire", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			490, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799261,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [64]
+		{
+			"thats it?", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			491, -- [11]
-			"Player-104-0A2F0FFC", -- [12]
+			"Player-5-0B361D5C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Naturesight|r",
-			[51] = 1559450484,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799265,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [65]
 		{
-			"Night Algo", -- [1]
-			"Naturesight-Icecrown", -- [2]
+			"Do the Darkmoon faire", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			492, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559799265,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [66]
+		{
+			"and ride the carousal ", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			493, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799265,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [67]
+		{
+			"oh okay", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			494, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799270,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [68]
+		{
+			"If you go to Stormwind", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			495, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559799273,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [69]
+		{
+			"Sit on the carousal and the buff is for an hour", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			496, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799274,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [70]
+		{
+			"then you'll be sent to Darkmoon fairy by one of the commoners", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			497, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559799288,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [71]
+		{
+			"okay!", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			498, -- [11]
-			"Player-104-0A2F0FFC", -- [12]
+			"Player-5-0B361D5C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Naturesight|r",
-			[51] = 1559450498,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
-		{
-			"Oh I'm still staying on for a bit, was just saying goodnight to cele :P", -- [1]
-			"Algozen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			503, -- [11]
-			"Player-104-09539B78", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Algozen|r",
-			[51] = 1559450515,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
-		{
-			"did you get water Mis?", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			511, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559450532,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [56]
-		{
-			"yes sir :D", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			512, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559450538,
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799294,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [72]
 		{
-			"Got a mana percentage you want me to stop at?", -- [1]
-			"Korugen-Icecrown", -- [2]
+			"almost ready", -- [1]
+			"Huntintime-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Korugen-Icecrown", -- [5]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			499, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799311,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [73]
+		{
+			"If you have any 120\"s you can buy |cff1eff00|Hitem:166751::::::::84:256::::::|h[Draught of Ten Lands]|h|r ", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			516, -- [11]
-			"Player-104-0A10F15D", -- [12]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559450586,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [58]
-		{
-			"nahhh", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			535, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559450693,
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799372,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [74]
 		{
-			"i do mythic +s i get the drill ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"from the warfront vendor", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			541, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			517, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559450708,
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799376,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [75]
 		{
-			"(y)", -- [1]
-			"Korugen-Icecrown", -- [2]
+			"and sent it over to your alts ", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Korugen-Icecrown", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			543, -- [11]
-			"Player-104-0A10F15D", -- [12]
+			518, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559450716,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [61]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799379,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [76]
 		{
-			"lol", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"how much?", -- [1]
+			"Huntintime-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			519, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799385,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [77]
+		{
+			"5", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			520, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799390,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"of the honorbound service medals", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			522, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799399,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [79]
+		{
+			"tickets?", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			524, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799402,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"you can send it from horde or alliance", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			525, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799405,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"yea ", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			526, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559799406,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [82]
+		{
+			"oh okay", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			527, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799411,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [83]
+		{
+			"im ready btw", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			529, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799414,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [84]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12515:Player-104-0A0D6A47:1:6:5:19:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Dark Iron Dwarf]|h|r!", -- [1]
+			"Saei-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Saei-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			545, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			"Player-104-0A0D6A47", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559450720,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
-		{
-			"lol, soryr", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			547, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559450745,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [63]
-		{
-			"it's the thumbs up emoji :P", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			548, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559450750,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [64]
-		{
-			"lol ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			554, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559450802,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
-		{
-			"i had zero ideas3", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			556, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559450812,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
-		{
-			"my b ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			561, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559450841,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6755:Player-104-0A10F15D:1:6:1:19:4294967295:4294967295:4294967295:4294967295|h[Mogu'shan Palace]|h|r!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			623, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451189,
+			[52] = "|cff3ec5e9Saei|r",
+			[51] = 1559799475,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [85]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:4826:Player-104-0A10F15D:1:6:1:19:4294967295:4294967295:4294967295:4294967295|h[Level 85]|h|r!", -- [1]
+			"gauntlet", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1530,7 +1904,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			632, -- [11]
+			625, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1538,77 +1912,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451189,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
-		{
-			"gg", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			646, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451191,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
-		{
-			"gg indeed :)", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			648, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451200,
+			[51] = 1559799697,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [71]
+		}, -- [86]
 		{
-			"nice tanking :D great dps guys ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			649, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451202,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
-		{
-			"thanks, great heals", -- [1]
+			"come hide with me", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1618,7 +1926,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			650, -- [11]
+			675, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1626,11 +1934,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451208,
+			[51] = 1559799937,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [73]
+		}, -- [87]
 		{
-			"and nice DPS too! :)", -- [1]
+			"over here", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1640,7 +1948,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			652, -- [11]
+			676, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1648,11 +1956,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451212,
+			[51] = 1559799941,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [74]
+		}, -- [88]
 		{
-			"Good to me myself get outdpsed! :)", -- [1]
+			"stay behind pillar", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1662,7 +1970,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			653, -- [11]
+			677, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1670,209 +1978,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451221,
+			[51] = 1559799949,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [75]
+		}, -- [89]
 		{
-			"lol ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"welp", -- [1]
+			"Huntintime-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			661, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451230,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
-		{
-			"re que/", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			663, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451236,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
-		{
-			"?", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			664, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451237,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
-		{
-			"alright, sure!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			665, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451243,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [79]
-		{
-			"damn que times", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451258,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
-		{
-			"and we have a boomkin i feel safe", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			671, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451267,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
-		{
-			"haha", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			672, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451275,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [82]
-		{
-			"my fav dungeon yass", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Huntintime-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			678, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			"Player-5-0B361D5C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451286,
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559799960,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [90]
 		{
-			"this xp anyway", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			679, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451305,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
-		{
-			"yeah, it's a good one :)", -- [1]
+			"once boss comes, we can run out again :)", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1882,7 +2014,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			707, -- [11]
+			735, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1890,33 +2022,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451357,
+			[51] = 1559800039,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [85]
+		}, -- [91]
 		{
-			"stand in magic green circle:D", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"gz on 85!", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			709, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			746, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451367,
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800098,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [92]
+		{
+			"ty ty", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			751, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800103,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [93]
 		{
-			"dislike the end of this fight lol", -- [1]
+			"hard", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			752, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800105,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [94]
+		{
+			"boss", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1926,7 +2102,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			710, -- [11]
+			753, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1934,11 +2110,209 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451367,
+			[51] = 1559800105,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [87]
+		}, -- [95]
 		{
-			"this part", -- [1]
+			"hahahha", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			754, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800106,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"Bloat on Korugen", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			755, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800117,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"Bloat on Korugen", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			765, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800176,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"you can jump over the yellow stuff lol", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			774, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800188,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [99]
+		{
+			"gg", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			785, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800211,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [100]
+		{
+			"thanks bows", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			787, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559800212,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [101]
+		{
+			"boy", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			789, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559800214,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [102]
+		{
+			"s", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			791, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559800216,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [103]
+		{
+			"and girls", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			793, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559800218,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [104]
+		{
+			":)", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1948,7 +2322,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			725, -- [11]
+			794, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1956,9 +2330,53 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451489,
+			[51] = 1559800223,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [105]
+		{
+			"and lillie", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			809, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800235,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [106]
+		{
+			"omg", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Korugen-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			810, -- [11]
+			"Player-104-0A10F15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800239,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [107]
 		{
 			"lol", -- [1]
 			"Korugen-Icecrown", -- [2]
@@ -1970,7 +2388,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			727, -- [11]
+			811, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1978,715 +2396,297 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451489,
+			[51] = 1559800240,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [89]
+		}, -- [108]
 		{
-			"omg ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			729, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451499,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
-		{
-			"mythic + here was so much fun lol '", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			733, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451503,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
-		{
-			"oh", -- [1]
+			"115 cp to level :P", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			734, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451509,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [92]
-		{
-			"after 10+ you die instant if you get hit by beam", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			735, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451515,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
-		{
-			"you did the other way, didnt you?", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			736, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451518,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [94]
-		{
-			"books first? and then water dude?", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			738, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451523,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [95]
-		{
-			"yup", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			739, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451530,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
-		{
-			"why are you pulling so slow shesh", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			814, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451804,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800244,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [109]
 		{
-			"xD", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"LOL", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Lillìe-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			815, -- [11]
+			"Player-60-0C100C9B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800247,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [110]
+		{
+			"oof", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntintime-Proudmoore", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			817, -- [11]
+			"Player-5-0B361D5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559800251,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [111]
+		{
+			"kill a mob", -- [1]
+			"Lillìe-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			818, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451814,
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800254,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
-		{
-			"lawl", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			835, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451892,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [99]
-		{
-			"hero", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			838, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559451914,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [100]
-		{
-			"hey i can't play anymore due to working lol but could i add tyou as a friend? do you do mythic + or anything? ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			848, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451970,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [101]
-		{
-			"absolutely :)", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			849, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451982,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [102]
-		{
-			"sorry ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			856, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559451999,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
-		{
-			"brez? ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			857, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452004,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [104]
-		{
-			"i spaced out and was only dps not healing rofl ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			861, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452015,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
-		{
-			"Ressing Nachter!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			871, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559452023,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [106]
-		{
-			"Ressing Misouripeace!", -- [1]
-			"Korugen-Icecrown", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Korugen-Icecrown", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			873, -- [11]
-			"Player-104-0A10F15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559452032,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [107]
-		{
-			"ty", -- [1]
-			"Nachter-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nachter-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			874, -- [11]
-			"Player-1427-09131BA7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Nachter-Ragnaros|r",
-			[51] = 1559452038,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [108]
-		{
-			"ty all", -- [1]
-			"Doma-Whisperwind", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Doma-Whisperwind", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			875, -- [11]
-			"Player-55-0AE5A00F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Doma-Whisperwind|r",
-			[51] = 1559452042,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [109]
-		{
-			"Malluysof#2239", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			877, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452047,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [110]
-		{
-			"Mallusof", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			878, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452050,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [111]
-		{
-			"I have 3 120s", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			881, -- [11]
-			"Player-5-0B6831E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452071,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [112]
 		{
-			"My main is a healing Priest tho", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
+			"one kill and I'm good lol", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			882, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			821, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452077,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800259,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [113]
 		{
-			"my Fury warrior is decent too :)", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
+			"alright, thanks for the runs!", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			884, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			823, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452085,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800266,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [114]
 		{
-			"thats so cool!", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"gg!", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			887, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			824, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452091,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800270,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [115]
 		{
-			"i have a group chat", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"Have a good one :)", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			888, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			826, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452095,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800271,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [116]
 		{
-			"with over 200+ people in it :D", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"Thanks everyone!", -- [1]
+			"Huntintime-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Huntintime-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			889, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			827, -- [11]
+			"Player-5-0B361D5C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452099,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559800272,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [117]
 		{
-			"oh damn", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
+			"you too", -- [1]
+			"Huntintime-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Huntintime-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			891, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			828, -- [11]
+			"Player-5-0B361D5C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452104,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffa9d271Huntintime-Proudmoore|r",
+			[51] = 1559800275,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [118]
 		{
-			"so we always looking for healers/nice people to play with ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"anyone want to que with me?", -- [1]
+			"Lillìe-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Lillìe-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			892, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			831, -- [11]
+			"Player-60-0C100C9B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452105,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffefefeLillìe-Stormrage|r",
+			[51] = 1559800282,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [119]
 		{
-			"wtb invite", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
+			"bye bye  :)", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			893, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			832, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452107,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800283,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [120]
 		{
-			"whats your btag? name", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:6193:Player-104-0A10F15D:1:6:5:19:4294967295:4294967295:4294967295:4294967295|h[Level 90]|h|r!", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			894, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			859, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452113,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1559800542,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [121]
 		{
-			"ty all!", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:6019:Player-104-0A10F15D:1:6:5:19:4294967295:4294967295:4294967295:4294967295|h[Come One, Come All!]|h|r!", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2696,7 +2696,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			895, -- [11]
+			864, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2704,11 +2704,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559452113,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[51] = 1559800554,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [122]
 		{
-			"Heading off :)", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:964:Player-104-0A10F15D:1:6:5:19:4294967295:4294967295:4294967295:4294967295|h[Going Down?]|h|r!", -- [1]
 			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2718,7 +2718,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			896, -- [11]
+			925, -- [11]
 			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2726,96 +2726,96 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1559452116,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[51] = 1559801212,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [123]
 		{
-			"i set a note with all my friends so i know who you are xD ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:9131:Player-104-0A10F15D:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[An Epic Buddy]|h|r!", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			897, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			372, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452119,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1560122053,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [124]
 		{
-			"Mallusof is my Priest :)", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
-			"Common", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:505:Player-104-0A10F15D:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[250 Quests Completed]|h|r!", -- [1]
+			"Korugen-Icecrown", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			899, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			65, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452133,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1560137680,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [125]
 		{
-			"swithc to that toon rq", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:9130:Player-104-0A10F15D:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[A Rare Friend]|h|r!", -- [1]
+			"Korugen-Icecrown", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"Korugen-Icecrown", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			901, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			97, -- [11]
+			"Player-104-0A10F15D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452161,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1560137789,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [126]
 		{
-			"ill invite ", -- [1]
-			"Misouripeace-Proudmoore", -- [2]
+			"|cffffff00Stormshield is under attack!|r", -- [1]
+			"", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Misouripeace-Proudmoore", -- [5]
+			"3. LocalDefense - Stormshield", -- [4]
+			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormshield", -- [9]
 			0, -- [10]
-			902, -- [11]
-			"Player-5-0B6831E1", -- [12]
+			99, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Misouripeace-Proudmoore|r",
-			[51] = 1559452162,
-			[50] = "CHAT_MSG_WHISPER",
+			true, -- [17]
+			[52] = "",
+			[51] = 1560137801,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

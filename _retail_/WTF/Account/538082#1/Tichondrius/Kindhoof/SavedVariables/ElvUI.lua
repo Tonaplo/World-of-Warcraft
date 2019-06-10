@@ -1,593 +1,21 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/g Was really nice to have someone actually talk to me and not just throw a guild invite randomly :)", -- [1]
-		"/cw Redimo-Tichondrius caps :)", -- [2]
-		"/cw Redimo-Tichondrius Sure thing :)", -- [3]
-		"/g Thanks :)", -- [4]
-		"/g I was actually about to log off, so I'm gonna do that :)", -- [5]
-		"/g GZ!", -- [6]
-		"/g Thanks for inviting me though!", -- [7]
-		"/g Good night, cya later :)", -- [8]
+		"/cw Redimo-Tichondrius caps :)", -- [1]
+		"/g Thanks :)", -- [2]
+		"/g GZ!", -- [3]
+		"/g Good night, cya later :)", -- [4]
+		"/s broken?", -- [5]
+		"/cw Redimo-Tichondrius THANKS MAN! :)", -- [6]
+		"/g Was really nice to have someone actually talk to me and not just throw a guild invite randomly :)", -- [7]
+		"/g I was actually about to log off, so I'm gonna do that :)", -- [8]
 		"/ELVUI", -- [9]
-		"/s broken?", -- [10]
-		"/g Thumbs up for that :)", -- [11]
-		"/cw Redimo-Tichondrius THANKS MAN! :)", -- [12]
-		"/cw Redimo-Tichondrius throw me an invite", -- [13]
+		"/cw Redimo-Tichondrius throw me an invite", -- [10]
+		"/g Thanks for inviting me though!", -- [11]
+		"/cw Redimo-Tichondrius Sure thing :)", -- [12]
+		"/g Thumbs up for that :)", -- [13]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"u can get a contract from the auction house", -- [1]
-			"Zaldu-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			374, -- [11]
-			"Player-11-0B66E3FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZaldu|r",
-			[51] = 1559101001,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
-			"wait what?", -- [1]
-			"Furkley-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			375, -- [11]
-			"Player-11-0A47C2A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Furkley|r",
-			[51] = 1559101004,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"for champions?", -- [1]
-			"Furkley-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			376, -- [11]
-			"Player-11-0A47C2A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Furkley|r",
-			[51] = 1559101012,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9038:Player-11-0B6893C5:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Iron Docks]|h|r!", -- [1]
-			"Dalow-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dalow-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			377, -- [11]
-			"Player-11-0B6893C5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Dalow|r",
-			[51] = 1559101012,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9047:Player-11-0B6893C5:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Iron Docks]|h|r!", -- [1]
-			"Dalow-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dalow-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			378, -- [11]
-			"Player-11-0B6893C5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Dalow|r",
-			[51] = 1559101012,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12824:Player-11-0A38615C:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Atal'Dazar]|h|r!", -- [1]
-			"Pôô-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Pôô-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			379, -- [11]
-			"Player-11-0A38615C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecPôô|r",
-			[51] = 1559101015,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"im talking to SLann cuz he wanted to finish honorbound rep fast", -- [1]
-			"Zaldu-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			380, -- [11]
-			"Player-11-0B66E3FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZaldu|r",
-			[51] = 1559101030,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
-			"the contract gives you like just 15 more doesnt it?", -- [1]
-			"Ellenaa-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			381, -- [11]
-			"Player-11-0AC95AF8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ellenaa|r",
-			[51] = 1559101035,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"ooh ", -- [1]
-			"Furkley-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			382, -- [11]
-			"Player-11-0A47C2A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Furkley|r",
-			[51] = 1559101040,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"10 i thought", -- [1]
-			"Vexxington-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			383, -- [11]
-			"Player-11-0B302CC7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Vexxington|r",
-			[51] = 1559101042,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
-		{
-			"yes but it gives u rep for every WQ u do", -- [1]
-			"Zaldu-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			384, -- [11]
-			"Player-11-0B66E3FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZaldu|r",
-			[51] = 1559101044,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10:Player-11-0B68A4E1:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
-			"Mewrromash-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mewrromash-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			385, -- [11]
-			"Player-11-0B68A4E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cMewrromash|r",
-			[51] = 1559101044,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
-		{
-			"I've been using the zandalari one", -- [1]
-			"Vexxington-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			386, -- [11]
-			"Player-11-0B302CC7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Vexxington|r",
-			[51] = 1559101053,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
-		{
-			"i was hoping you guys were talking about champions of azeroth rep", -- [1]
-			"Furkley-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			387, -- [11]
-			"Player-11-0A47C2A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Furkley|r",
-			[51] = 1559101053,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"and hes trying to expedite the process", -- [1]
-			"Zaldu-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			388, -- [11]
-			"Player-11-0B66E3FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZaldu|r",
-			[51] = 1559101054,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"gratz on 50", -- [1]
-			"Notxen-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			389, -- [11]
-			"Player-11-0B68ED14", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecNotxen|r",
-			[51] = 1559101056,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"furkely theres also a contract for them", -- [1]
-			"Zaldu-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			393, -- [11]
-			"Player-11-0B66E3FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZaldu|r",
-			[51] = 1559101075,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"theres a contract for every rep", -- [1]
-			"Ellenaa-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			397, -- [11]
-			"Player-11-0AC95AF8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ellenaa|r",
-			[51] = 1559101082,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"|cffffffff|Hitem:153668::::::::120:64::::::|h[Contract: Champions of Azeroth]|h|r", -- [1]
-			"Furkley-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			398, -- [11]
-			"Player-11-0A47C2A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Furkley|r",
-			[51] = 1559101084,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"bfa rep", -- [1]
-			"Ellenaa-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			399, -- [11]
-			"Player-11-0AC95AF8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ellenaa|r",
-			[51] = 1559101084,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
-			"but honorbound is easiest to get rep for", -- [1]
-			"Zaldu-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			400, -- [11]
-			"Player-11-0B66E3FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZaldu|r",
-			[51] = 1559101090,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
-		{
-			"especially if u like islands cuz 4 of those = rep", -- [1]
-			"Zaldu-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			401, -- [11]
-			"Player-11-0B66E3FD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZaldu|r",
-			[51] = 1559101104,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10025:Player-11-0B69C6BF:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Bastion of Shadows]|h|r!", -- [1]
-			"Ardrar-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ardrar-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			402, -- [11]
-			"Player-11-0B69C6BF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Ardrar|r",
-			[51] = 1559101105,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [23]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10041:Player-11-0B69C6BF:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Tyrant Velhari]|h|r!", -- [1]
-			"Ardrar-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ardrar-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			403, -- [11]
-			"Player-11-0B69C6BF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Ardrar|r",
-			[51] = 1559101105,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [24]
-		{
-			"where is the contract?", -- [1]
-			"Slann-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			404, -- [11]
-			"Player-11-0B3BA6DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Slann|r",
-			[51] = 1559101108,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
-		{
-			"you can buy in ah", -- [1]
-			"Ellenaa-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			411, -- [11]
-			"Player-11-0AC95AF8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ellenaa|r",
-			[51] = 1559101117,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
 		{
 			"or have someone in inscrip make it", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -609,7 +37,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101124,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
+		}, -- [1]
 		{
 			"oh dam what does it do?", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -631,7 +59,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101129,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
+		}, -- [2]
 		{
 			"gives rep for every WQ u do", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -653,7 +81,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101136,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
+		}, -- [3]
 		{
 			"doesnt matter which WQ", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -675,7 +103,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101140,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
+		}, -- [4]
 		{
 			":DO", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -697,7 +125,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101143,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [5]
 		{
 			"how much?", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -719,7 +147,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101148,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [6]
 		{
 			"theyre cheap", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -741,7 +169,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101151,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [7]
 		{
 			"hundreds of gold afaik", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -763,7 +191,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101164,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+		}, -- [8]
 		{
 			"like 10-15 rep LOL", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -785,7 +213,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101165,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [9]
 		{
 			"it adds up", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -807,7 +235,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101172,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+		}, -- [10]
 		{
 			"ppl rly hate math -_-", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -829,7 +257,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101178,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [11]
 		{
 			"oh booo", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -851,7 +279,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101179,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+		}, -- [12]
 		{
 			"what rep are you at?", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -873,7 +301,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101186,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [13]
 		{
 			"revered", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -895,7 +323,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101191,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [14]
 		{
 			"damn I was at honored a couple days ago and im at 18k/21k now", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -917,7 +345,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101212,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [15]
 		{
 			"im so sick of rep grinds", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -939,7 +367,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101214,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [16]
 		{
 			"Welcome!", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -961,7 +389,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101217,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [17]
 		{
 			"welcome", -- [1]
 			"Jusumaru-Tichondrius", -- [2]
@@ -983,7 +411,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJusumaru|r",
 			[51] = 1559101222,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [18]
 		{
 			"ay yo wutup", -- [1]
 			"Glenbeck-Tichondrius", -- [2]
@@ -1005,7 +433,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Glenbeck|r",
 			[51] = 1559101231,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [19]
 		{
 			"have you been doing the faction assault world quests and the main war quests?", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -1027,7 +455,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101237,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [20]
 		{
 			"noo>????", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1049,7 +477,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101247,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [21]
 		{
 			"where are those?", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1071,7 +499,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101257,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [22]
 		{
 			"bruh", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1093,7 +521,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101258,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [23]
 		{
 			"i literally asked u that", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -1115,7 +543,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101262,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [24]
 		{
 			"the orange exclamation mark quests", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -1137,7 +565,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101264,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [25]
 		{
 			"-_- xD", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -1159,7 +587,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101266,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [26]
 		{
 			"oh my gurd okay", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1181,7 +609,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101278,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [27]
 		{
 			"ill go check it out ty", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1203,7 +631,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101281,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [28]
 		{
 			"how much we talking for each??", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1225,7 +653,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101320,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [29]
 		{
 			"check ah", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1247,7 +675,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101327,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [30]
 		{
 			"bruj o", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1269,7 +697,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101341,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13:Player-11-0B692D75:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Level 80]|h|r!", -- [1]
 			"Jusumaru-Tichondrius", -- [2]
@@ -1291,7 +719,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJusumaru|r",
 			[51] = 1559101342,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [32]
 		{
 			"i mean for those quests", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1313,7 +741,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101345,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [33]
 		{
 			"i mean, doesnt matter as long as it gives you rep", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1335,7 +763,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101367,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [34]
 		{
 			"true", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1357,7 +785,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101383,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [35]
 		{
 			"dude FUCK THIS SHIT!", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1379,7 +807,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101389,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [36]
 		{
 			"blizz makes sure you cant rush anything", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1401,7 +829,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101394,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [37]
 		{
 			"theres gonna be another rep to grind soon for flying", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1423,7 +851,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101408,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10039:Player-11-0B69C6BF:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Xhul'horac]|h|r!", -- [1]
 			"Ardrar-Tichondrius", -- [2]
@@ -1445,7 +873,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ardrar|r",
 			[51] = 1559101411,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12824:Player-11-0B69F1C7:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Atal'Dazar]|h|r!", -- [1]
 			"Cryniko-Tichondrius", -- [2]
@@ -1467,7 +895,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcCryniko|r",
 			[51] = 1559101411,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [40]
 		{
 			"im not doing that", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1489,7 +917,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101418,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [41]
 		{
 			"as soon as classic is out im just doing that", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1511,7 +939,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101429,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [42]
 		{
 			"fuck this", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1533,7 +961,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101431,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [43]
 		{
 			"haha", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1555,7 +983,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101433,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [44]
 		{
 			"oh youll end up doing it most likely xd", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1577,7 +1005,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101438,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [45]
 		{
 			"haha", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -1599,7 +1027,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101438,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [46]
 		{
 			"probably lol", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1621,7 +1049,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101454,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [47]
 		{
 			"its a new area with azshara like come on", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1643,7 +1071,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101468,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [48]
 		{
 			"ive not done legions flying soooo", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1665,7 +1093,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101474,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [49]
 		{
 			"SAME", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -1687,7 +1115,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101479,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [50]
 		{
 			"cause fuck that", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1709,7 +1137,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101484,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [51]
 		{
 			"I still haven't done WoD flying", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -1731,7 +1159,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101487,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [52]
 		{
 			"suramar was complicated", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1753,7 +1181,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101489,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [53]
 		{
 			"haha", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1775,7 +1203,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101492,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [54]
 		{
 			"lol I haven't done either WoD or legion", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -1797,7 +1225,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101495,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [55]
 		{
 			"same", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1819,7 +1247,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101501,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [56]
 		{
 			"or bfa pathfinder >.>", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -1841,7 +1269,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101501,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [57]
 		{
 			"legions ez", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -1863,7 +1291,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101503,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [58]
 		{
 			"if i cant buy it im not doing it", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1885,7 +1313,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101508,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [59]
 		{
 			"this game is garbo anyways", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -1907,7 +1335,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101529,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [60]
 		{
 			"legion is easy after you do suramar", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -1929,7 +1357,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101529,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [61]
 		{
 			"id buy WoD in a heartbeat if they would do it", -- [1]
 			"Rafikì-Tichondrius", -- [2]
@@ -1951,7 +1379,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRafikì|r",
 			[51] = 1559101530,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [62]
 		{
 			"i got legion flying while grinding those allied races i think", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -1973,7 +1401,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101531,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [63]
 		{
 			"agreed it is garbo", -- [1]
 			"Kries-Tichondrius", -- [2]
@@ -1995,7 +1423,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kries|r",
 			[51] = 1559101544,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [64]
 		{
 			"I only have nightbourne unlocked", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -2017,7 +1445,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101546,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [65]
 		{
 			"I haven't done the allied races I was salty alli got the cool looking void elves", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -2039,7 +1467,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101554,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [66]
 		{
 			"Classic #1", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2061,7 +1489,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101557,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [67]
 		{
 			"haha", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2083,7 +1511,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101569,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [68]
 		{
 			"anyone got a black cat they can cage for me? i'll send it back. the only one on ah is like 10k and i dont feel like flying around to get one please", -- [1]
 			"Ofu-Tichondrius", -- [2]
@@ -2105,7 +1533,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeOfu|r",
 			[51] = 1559101570,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [69]
 		{
 			"meh", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2127,7 +1555,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101573,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [70]
 		{
 			"the problem with WoD flying is it cant be done while leveling- most of legion flying can", -- [1]
 			"Rafikì-Tichondrius", -- [2]
@@ -2149,7 +1577,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRafikì|r",
 			[51] = 1559101574,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [71]
 		{
 			"i love how u want classic but u hate grinds...ur adorbs", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -2171,7 +1599,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101575,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [72]
 		{
 			"brown orcs all the way", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2193,7 +1621,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101578,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [99]
+		}, -- [73]
 		{
 			"gotta be a mini garrosh", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2215,7 +1643,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101588,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [100]
+		}, -- [74]
 		{
 			"yeah im working on unlocking them and zandalari", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -2237,7 +1665,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101602,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [101]
+		}, -- [75]
 		{
 			"\"i hate grinding, i hate grinding...cant wait for classic\" xD", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -2259,7 +1687,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101609,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [102]
+		}, -- [76]
 		{
 			"Ofu, I have this cat |cff1eff00|Hbattlepet:40:1:2:142:11:11:BattlePet-0-0000074DD318|h[Bombay Cat]|h|r", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -2281,7 +1709,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101609,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [103]
+		}, -- [77]
 		{
 			"zandalari just for the dino druid", -- [1]
 			"Vexxington-Tichondrius", -- [2]
@@ -2303,7 +1731,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vexxington|r",
 			[51] = 1559101611,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [104]
+		}, -- [78]
 		{
 			"imagine the worst rep grind", -- [1]
 			"Spookyfrosty-Tichondrius", -- [2]
@@ -2325,7 +1753,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Spookyfrosty|r",
 			[51] = 1559101614,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [105]
+		}, -- [79]
 		{
 			"exactly!", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2347,7 +1775,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101617,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [106]
+		}, -- [80]
 		{
 			"I have it, thanks though", -- [1]
 			"Ofu-Tichondrius", -- [2]
@@ -2369,7 +1797,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeOfu|r",
 			[51] = 1559101621,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [107]
+		}, -- [81]
 		{
 			"for weapon skill", -- [1]
 			"Spookyfrosty-Tichondrius", -- [2]
@@ -2391,7 +1819,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Spookyfrosty|r",
 			[51] = 1559101625,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [108]
+		}, -- [82]
 		{
 			"dino druids dude!", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2413,7 +1841,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101627,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [109]
+		}, -- [83]
 		{
 			">.<", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -2435,7 +1863,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101628,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [110]
+		}, -- [84]
 		{
 			"classic is gonna be worse if you hate grinding", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -2457,7 +1885,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101630,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [111]
+		}, -- [85]
 		{
 			"so learn to have patience", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -2479,7 +1907,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101636,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [112]
+		}, -- [86]
 		{
 			"im poking fun of slann xD", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -2501,7 +1929,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101640,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [113]
+		}, -- [87]
 		{
 			"yeah but i love classic becuase it was my childhood so imma cry over that shit and be bathing in my nestalgaaaa", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2523,7 +1951,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101657,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [114]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10012:Player-11-0B69C6BF:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[This Land Was Green and Good Until...]|h|r!", -- [1]
 			"Ardrar-Tichondrius", -- [2]
@@ -2545,7 +1973,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ardrar|r",
 			[51] = 1559101657,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [115]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10038:Player-11-0B69C6BF:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Fel Lord Zakuun]|h|r!", -- [1]
 			"Ardrar-Tichondrius", -- [2]
@@ -2567,7 +1995,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ardrar|r",
 			[51] = 1559101657,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [116]
+		}, -- [90]
 		{
 			"gratz", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -2589,7 +2017,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101667,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [117]
+		}, -- [91]
 		{
 			"cause fuuuuuuuuuuck this game", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2611,7 +2039,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101682,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [118]
+		}, -- [92]
 		{
 			"imma take a break peace everyone have a good one", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2633,7 +2061,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101708,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [119]
+		}, -- [93]
 		{
 			"Later bro hmu tomorrow", -- [1]
 			"Gorkaiser-Tichondrius", -- [2]
@@ -2655,7 +2083,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGorkaiser|r",
 			[51] = 1559101717,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [120]
+		}, -- [94]
 		{
 			"aight", -- [1]
 			"Slann-Tichondrius", -- [2]
@@ -2677,7 +2105,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slann|r",
 			[51] = 1559101733,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [121]
+		}, -- [95]
 		{
 			"i wish i could wave wands and staves while using my powers", -- [1]
 			"Zaldu-Tichondrius", -- [2]
@@ -2699,7 +2127,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZaldu|r",
 			[51] = 1559101758,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [122]
+		}, -- [96]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12559:Player-11-0AC95AF8:1:5:28:19:4294967295:4294967295:4294967295:4294967295|h[Explore Zuldazar]|h|r!", -- [1]
 			"Ellenaa-Tichondrius", -- [2]
@@ -2721,7 +2149,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ellenaa|r",
 			[51] = 1559101760,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [123]
+		}, -- [97]
 		{
 			"welcome", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -2743,7 +2171,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101769,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [124]
+		}, -- [98]
 		{
 			"gratz Ellenaa", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -2765,7 +2193,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101785,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [125]
+		}, -- [99]
 		{
 			"ding 113", -- [1]
 			"Notxen-Tichondrius", -- [2]
@@ -2787,7 +2215,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNotxen|r",
 			[51] = 1559101799,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [126]
+		}, -- [100]
 		{
 			"gz", -- [1]
 			"Furkley-Tichondrius", -- [2]
@@ -2809,6 +2237,578 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Furkley|r",
 			[51] = 1559101805,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [101]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8466:Player-11-0AF139C1:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Norushen]|h|r!", -- [1]
+			"Nondon-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nondon-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			116, -- [11]
+			"Player-11-0AF139C1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNondon|r",
+			[51] = 1560138126,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [102]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8532:Player-11-0AF139C1:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[None Shall Pass]|h|r!", -- [1]
+			"Nondon-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nondon-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			117, -- [11]
+			"Player-11-0AF139C1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNondon|r",
+			[51] = 1560138126,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [103]
+		{
+			"Did an entire mog run on the first wing and got literally nothing", -- [1]
+			"Nondon-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			119, -- [11]
+			"Player-11-0AF139C1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNondon|r",
+			[51] = 1560138169,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [104]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:513:Player-11-0B6659A2:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[100 Honorable Kills]|h|r!", -- [1]
+			"Yms-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yms-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			125, -- [11]
+			"Player-11-0B6659A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Yms|r",
+			[51] = 1560138241,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [105]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8458:Player-11-0AF139C1:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Vale of Eternal Sorrows]|h|r!", -- [1]
+			"Nondon-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nondon-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			126, -- [11]
+			"Player-11-0AF139C1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNondon|r",
+			[51] = 1560138288,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [106]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8467:Player-11-0AF139C1:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Sha of Pride]|h|r!", -- [1]
+			"Nondon-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nondon-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			127, -- [11]
+			"Player-11-0AF139C1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNondon|r",
+			[51] = 1560138288,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [107]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8521:Player-11-0AF139C1:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Swallow Your Pride]|h|r!", -- [1]
+			"Nondon-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nondon-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			128, -- [11]
+			"Player-11-0AF139C1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNondon|r",
+			[51] = 1560138288,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [108]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12727:Player-11-0ADA6AC5:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Stand by Me]|h|r!", -- [1]
+			"Snowhitê-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Snowhitê-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			142, -- [11]
+			"Player-11-0ADA6AC5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Snowhitê|r",
+			[51] = 1560138404,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [109]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12831:Player-11-0A9DFFFC:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Freehold]|h|r!", -- [1]
+			"Bacyka-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bacyka-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			149, -- [11]
+			"Player-11-0A9DFFFC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcBacyka|r",
+			[51] = 1560138471,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [110]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9670:Player-11-074571F3:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Toying Around]|h|r!", -- [1]
+			"Kuribashi-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kuribashi-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			152, -- [11]
+			"Player-11-074571F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Kuribashi|r",
+			[51] = 1560138589,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [111]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:229:Player-11-0B3D2501:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[The Grim Reaper]|h|r!", -- [1]
+			"Kumatar-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kumatar-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			153, -- [11]
+			"Player-11-0B3D2501", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Kumatar|r",
+			[51] = 1560138597,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [112]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13056:Player-11-0AFFB9C8:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
+			"Aleri-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aleri-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			169, -- [11]
+			"Player-11-0AFFB9C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Aleri|r",
+			[51] = 1560138653,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [113]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12824:Player-11-0A2DA8E3:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Atal'Dazar]|h|r!", -- [1]
+			"Gøjirå-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gøjirå-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			177, -- [11]
+			"Player-11-0A2DA8E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecGøjirå|r",
+			[51] = 1560138657,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [114]
+		{
+			":..Lust Detector:..: Toasty-Coilfang Casted a Spell |cff71d5ff|Hspell:272678:0|h[Primal Rage]|h|r!", -- [1]
+			"Llamalama-Hyjal", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Llamalama-Hyjal", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			219, -- [11]
+			"Player-3661-0793F756", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Llamalama-Hyjal|r",
+			[51] = 1560138730,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [115]
+		{
+			"PRIMAL RAGE", -- [1]
+			"Starfighter-Zul'jin", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Starfighter-Zul'jin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			220, -- [11]
+			"Player-61-0ACE659C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStarfighter-Zul'jin|r",
+			[51] = 1560138730,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [116]
+		{
+			":..Lust Detector:..: Beetlespin-Area52 Casted a Spell |cff71d5ff|Hspell:2825:0|h[Bloodlust]|h|r!", -- [1]
+			"Llamalama-Hyjal", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Llamalama-Hyjal", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			223, -- [11]
+			"Player-3661-0793F756", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Llamalama-Hyjal|r",
+			[51] = 1560138736,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [117]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:166:Player-11-0B6659A2:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Warsong Gulch Victory]|h|r!", -- [1]
+			"Yms-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yms-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			250, -- [11]
+			"Player-11-0B6659A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Yms|r",
+			[51] = 1560138888,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [118]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12559:Player-11-0B2B609B:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Explore Zuldazar]|h|r!", -- [1]
+			"Kindhoof-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kindhoof-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			258, -- [11]
+			"Player-11-0B2B609B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kindhoof|r",
+			[51] = 1560138945,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [119]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5794:Player-11-0B6A8033:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Time Flies When You're Having Fun]|h|r!", -- [1]
+			"Superspeed-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Superspeed-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			265, -- [11]
+			"Player-11-0B6A8033", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Superspeed|r",
+			[51] = 1560138994,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [120]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1005:Player-11-0B3D2501:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Know Thy Enemy]|h|r!", -- [1]
+			"Kumatar-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kumatar-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			279, -- [11]
+			"Player-11-0B3D2501", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Kumatar|r",
+			[51] = 1560139113,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [121]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:513:Player-11-0B3D2501:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[100 Honorable Kills]|h|r!", -- [1]
+			"Kumatar-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kumatar-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			282, -- [11]
+			"Player-11-0B3D2501", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Kumatar|r",
+			[51] = 1560139140,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [122]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10681:Player-11-0A6E5585:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Fashionista: Head]|h|r!", -- [1]
+			"Sockchop-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sockchop-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			287, -- [11]
+			"Player-11-0A6E5585", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cSockchop|r",
+			[51] = 1560139172,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [123]
+		{
+			"whats the best enchant to add to heriloom weapons?", -- [1]
+			"Anaruk-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			288, -- [11]
+			"Player-11-0B6B3F4D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Anaruk|r",
+			[51] = 1560139205,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [124]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:207:Player-11-0B583CEB:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Save the Day]|h|r!", -- [1]
+			"Güüts-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Güüts-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			289, -- [11]
+			"Player-11-0B583CEB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cGüüts|r",
+			[51] = 1560139207,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [125]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:233:Player-11-0B3D2501:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Bloodthirsty Berserker]|h|r!", -- [1]
+			"Kumatar-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kumatar-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			290, -- [11]
+			"Player-11-0B3D2501", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Kumatar|r",
+			[51] = 1560139213,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [126]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6739:Player-11-0B69398D:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Silvershard Mines Victory]|h|r!", -- [1]
+			"Dommie-Tichondrius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dommie-Tichondrius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			337, -- [11]
+			"Player-11-0B69398D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cDommie|r",
+			[51] = 1560139905,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},
 }

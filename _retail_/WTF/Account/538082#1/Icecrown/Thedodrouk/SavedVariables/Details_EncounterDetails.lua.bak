@@ -1,5 +1,1624 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			{
+				0.437000000034459, -- [1]
+				"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!", -- [2]
+				"Wing Tentacle", -- [3]
+				1, -- [4]
+			}, -- [1]
+			{
+				0.437000000034459, -- [1]
+				"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspects]|h|r!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				2.44200000003912, -- [1]
+				"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFFFF0000|Hspell:107018|h[Alexstrasza]|h|r!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				5.72299999999814, -- [1]
+				"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspects]|h|r!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				7.75199999997858, -- [1]
+				"I will cleanse whatever corruption I can; my fire will not harm you.", -- [2]
+				"Alexstrasza", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				7.75199999997858, -- [1]
+				"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!", -- [2]
+				"Arm Tentacle", -- [3]
+				1, -- [4]
+			}, -- [6]
+			{
+				7.75199999997858, -- [1]
+				"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!", -- [2]
+				"Arm Tentacle", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				15.0670000000391, -- [1]
+				"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!", -- [2]
+				"Wing Tentacle", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				15.7160000000149, -- [1]
+				"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFF5858FA|Hspell:107018|h[Kalecgos]|h|r!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [9]
+			{
+				15.7160000000149, -- [1]
+				"I will charge you with arcane energy to blast your foes.", -- [2]
+				"Kalecgos", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				16.2760000000708, -- [1]
+				"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!", -- [2]
+				"Wing Tentacle", -- [3]
+				1, -- [4]
+			}, -- [11]
+			{
+				17.4899999999907, -- [1]
+				"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!", -- [2]
+				"Wing Tentacle", -- [3]
+				1, -- [4]
+			}, -- [12]
+			{
+				19.1170000000857, -- [1]
+				"I AM DEATHWING, THE DESTROYER, THE END OF ALL THINGS, INEVITABLE, INDOMITABLE; I AM THE CATACLYSM!", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				19.1170000000857, -- [1]
+				"|TInterface\\Icons\\inv_stave_2h_deathwingraiddw_d_01.blp:20|t%s falls forward, get to |cFF04FC32Ysera's|r platform!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				26.1260000000475, -- [1]
+				"|TInterface\\Icons\\ability_vehicle_sonicshockwave.blp:20|t%s begins to cast |cFFFF0000|Hspell:106886|h[Cauterize]|h|r!", -- [2]
+				"Alexstrasza", -- [3]
+				1, -- [4]
+			}, -- [15]
+			["boss"] = "Madness of Deathwing",
+		}, -- [1]
+		{
+			{
+				1.09900000004563, -- [1]
+				"Don't worry about me. Stop the Destroyer! Enshu-falah-nah, dorini.", -- [2]
+				"Sky Captain Swayze", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				15.1700000000419, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				25.1660000000848, -- [1]
+				"%s rolls left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				35.1650000000373, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				39.7449999999953, -- [1]
+				"Ha! I had not realized you fools were still there.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				40.1650000000373, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [6]
+			{
+				42.1550000000279, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				44.1650000000373, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				46.1650000000373, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [9]
+			{
+				47.1560000000754, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [10]
+			{
+				49.1660000000848, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [11]
+			{
+				50.9960000000428, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [12]
+			{
+				53.1560000000754, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [13]
+			{
+				55.1570000000065, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				57.1660000000848, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [15]
+			{
+				58.1560000000754, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [16]
+			{
+				60.1560000000754, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [17]
+			{
+				61.1620000000112, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [18]
+			{
+				63.1520000000019, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				64.1620000000112, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [20]
+			{
+				66.1620000000112, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [21]
+			{
+				67.1639999999898, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [22]
+			{
+				69.1650000000373, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [23]
+			{
+				71.1650000000373, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [24]
+			{
+				72.1650000000373, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [25]
+			{
+				74.1760000000941, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [26]
+			{
+				75.158000000054, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [27]
+			{
+				76.1600000000326, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				78.1540000000969, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [29]
+			{
+				78.6940000000177, -- [1]
+				"Cling while you can, \"heroes.\" You and your world are doomed.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				80.158000000054, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				82.1610000000801, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [32]
+			{
+				83.1610000000801, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [33]
+			{
+				85.1310000000522, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [34]
+			{
+				87.1710000000894, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				88.1550000000279, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [36]
+			{
+				90.1750000000466, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [37]
+			{
+				91.1660000000848, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [38]
+			{
+				93.1660000000848, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [39]
+			{
+				95.1660000000848, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [40]
+			{
+				96.158000000054, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [41]
+			{
+				98.1570000000065, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [42]
+			{
+				101.173000000068, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [43]
+			{
+				103.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [44]
+			{
+				105.16100000008, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [45]
+			{
+				108.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [46]
+			{
+				109.109000000055, -- [1]
+				"Cling while you can, \"heroes.\" You and your world are doomed.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [47]
+			{
+				110.163000000059, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [48]
+			{
+				111.155000000028, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [49]
+			{
+				113.162000000011, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [50]
+			{
+				115.167000000016, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [51]
+			{
+				115.977000000072, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [52]
+			{
+				118.157000000007, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [53]
+			{
+				120.166000000085, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [54]
+			{
+				121.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [55]
+			{
+				123.155000000028, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [56]
+			{
+				125.153000000049, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [57]
+			{
+				126.986000000034, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [58]
+			{
+				128.158000000054, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [59]
+			{
+				130.16100000008, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [60]
+			{
+				131.162000000011, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [61]
+			{
+				133.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [62]
+			{
+				137.159000000102, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [63]
+			{
+				140.761000000057, -- [1]
+				"Your efforts are insignificant. I carry you to your deaths.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [64]
+			{
+				141.983000000007, -- [1]
+				"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!", -- [2]
+				"Hideous Amalgamation", -- [3]
+				1, -- [4]
+			}, -- [65]
+			{
+				141.983000000007, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [66]
+			{
+				144.058000000077, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [67]
+			{
+				146.158000000054, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [68]
+			{
+				148.167000000016, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [69]
+			{
+				150.154000000097, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [70]
+			{
+				151.156000000075, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [71]
+			{
+				153.154000000097, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [72]
+			{
+				155.154000000097, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [73]
+			{
+				158.156000000075, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [74]
+			{
+				161.118000000017, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [75]
+			{
+				162.16100000008, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [76]
+			{
+				164.181000000099, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [77]
+			{
+				166.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [78]
+			{
+				168.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [79]
+			{
+				169.163000000059, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [80]
+			{
+				171.08600000001, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [81]
+			{
+				172.12200000009, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [82]
+			{
+				174.16399999999, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [83]
+			{
+				176.170000000042, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [84]
+			{
+				178.16100000008, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [85]
+			{
+				179.16100000008, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [86]
+			{
+				180.923000000068, -- [1]
+				"You are less than dust, fit only to be brushed from my back.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [87]
+			{
+				185.173000000068, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [88]
+			{
+				186.163000000059, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [89]
+			{
+				189.155000000028, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [90]
+			{
+				190.168000000063, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [91]
+			{
+				192.162000000011, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [92]
+			{
+				194.17200000002, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [93]
+			{
+				196.163000000059, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [94]
+			{
+				198.156000000075, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [95]
+			{
+				200.156000000075, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [96]
+			{
+				201.151000000071, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [97]
+			{
+				202.976000000024, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [98]
+			{
+				206.16399999999, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [99]
+			{
+				208.146000000066, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [100]
+			{
+				212.014000000083, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [101]
+			{
+				215.16399999999, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [102]
+			{
+				218.671000000089, -- [1]
+				"You are less than dust, fit only to be brushed from my back.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [103]
+			{
+				219.151000000071, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [104]
+			{
+				223.163000000059, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [105]
+			{
+				224.167000000016, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [106]
+			{
+				227.148000000045, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [107]
+			{
+				229.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [108]
+			{
+				231.12200000009, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [109]
+			{
+				233.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [110]
+			{
+				235.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [111]
+			{
+				237.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [112]
+			{
+				239.165000000037, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [113]
+			{
+				241.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [114]
+			{
+				242.058000000077, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [115]
+			{
+				244.168000000063, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [116]
+			{
+				246.068000000087, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [117]
+			{
+				248.160000000033, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [118]
+			{
+				249.160000000033, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [119]
+			{
+				251.163000000059, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [120]
+			{
+				253.160000000033, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [121]
+			{
+				254.030000000028, -- [1]
+				"Your efforts are insignificant. I carry you to your deaths.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [122]
+			{
+				254.030000000028, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [123]
+			{
+				255.160000000033, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [124]
+			{
+				257.162000000011, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [125]
+			{
+				259.173999999999, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [126]
+			{
+				260.156000000075, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [127]
+			{
+				263.158000000054, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [128]
+			{
+				264.168000000063, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [129]
+			{
+				266.192000000039, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [130]
+			{
+				267.162000000011, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [131]
+			{
+				269.144000000088, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [132]
+			{
+				272.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [133]
+			{
+				274.163000000059, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [134]
+			{
+				276.154000000097, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [135]
+			{
+				278.16399999999, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [136]
+			{
+				280.166000000085, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [137]
+			{
+				282.173000000068, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [138]
+			{
+				284.166000000085, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [139]
+			{
+				287.156000000075, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [140]
+			{
+				289.166000000085, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [141]
+			{
+				291.159000000102, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [142]
+			{
+				293.162000000011, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [143]
+			{
+				294.20000000007, -- [1]
+				"Ha! I had not realized you fools were still there.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [144]
+			{
+				296.006000000052, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [145]
+			{
+				302.167000000016, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [146]
+			{
+				304.160000000033, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [147]
+			{
+				308.801000000094, -- [1]
+				"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!", -- [2]
+				"Hideous Amalgamation", -- [3]
+				1, -- [4]
+			}, -- [148]
+			{
+				311.156000000075, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [149]
+			{
+				315.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [150]
+			{
+				316.171000000089, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [151]
+			{
+				318.168000000063, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [152]
+			{
+				320.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [153]
+			{
+				323.163000000059, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [154]
+			{
+				326.171000000089, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [155]
+			{
+				328.150000000023, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [156]
+			{
+				328.150000000023, -- [1]
+				"Your tenacity is admirable, but pointless. You ride into the jaws of the apocalypse.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [157]
+			{
+				330.16100000008, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [158]
+			{
+				332.168999999994, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [159]
+			{
+				332.959000000032, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [160]
+			{
+				335.158000000054, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [161]
+			{
+				337.163000000059, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [162]
+			{
+				339.163000000059, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [163]
+			{
+				341.160000000033, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [164]
+			{
+				344.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [165]
+			{
+				345.99700000009, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [166]
+			{
+				348.16399999999, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [167]
+			{
+				350.156000000075, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [168]
+			{
+				353.159000000102, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [169]
+			{
+				354.167000000016, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [170]
+			{
+				356.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [171]
+			{
+				358.16100000008, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [172]
+			{
+				360.156000000075, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [173]
+			{
+				362.165000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [174]
+			{
+				364.16399999999, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [175]
+			{
+				364.820000000065, -- [1]
+				"You are less than dust, fit only to be brushed from my back.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [176]
+			{
+				365.152000000002, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [177]
+			{
+				368.166000000085, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [178]
+			{
+				370.119999999995, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [179]
+			{
+				372.158000000054, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [180]
+			{
+				373.982000000076, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [181]
+			{
+				377.155000000028, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [182]
+			{
+				379.152000000002, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [183]
+			{
+				383.165000000037, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [184]
+			{
+				386.16100000008, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [185]
+			{
+				389.171000000089, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [186]
+			{
+				392.162000000011, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [187]
+			{
+				395.151000000071, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [188]
+			{
+				395.151000000071, -- [1]
+				"Your efforts are insignificant. I carry you to your deaths.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [189]
+			{
+				400.153000000049, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [190]
+			{
+				406.153000000049, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [191]
+			{
+				411.158000000054, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [192]
+			{
+				415.158000000054, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [193]
+			{
+				420.149000000092, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [194]
+			{
+				422.158000000054, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [195]
+			{
+				424.158000000054, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [196]
+			{
+				425.72900000005, -- [1]
+				"You are less than dust, fit only to be brushed from my back.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [197]
+			{
+				428.145000000019, -- [1]
+				"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!", -- [2]
+				"Hideous Amalgamation", -- [3]
+				1, -- [4]
+			}, -- [198]
+			{
+				428.145000000019, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [199]
+			{
+				430.158000000054, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [200]
+			{
+				434.163000000059, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [201]
+			["boss"] = "Spine of Deathwing",
+		}, -- [2]
+		{
+			{
+				4.58199999993667, -- [1]
+				"Don't worry about me. Stop the Destroyer! Enshu-falah-nah, dorini.", -- [2]
+				"Sky Captain Swayze", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				7.26000000000931, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				17.314000000013, -- [1]
+				"%s rolls right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				27.2770000000019, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				33.0359999999637, -- [1]
+				"Cling while you can, \"heroes.\" You and your world are doomed.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				34.2680000000401, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [6]
+			{
+				37.2639999999665, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				39.2639999999665, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				40.1990000000224, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [9]
+			{
+				42.2639999999665, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [10]
+			{
+				43.2669999999926, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [11]
+			{
+				45.2700000000186, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [12]
+			{
+				47.2659999999451, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [13]
+			{
+				51.2719999999972, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				53.2680000000401, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [15]
+			{
+				55.2789999999805, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [16]
+			{
+				56.1790000000037, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [17]
+			{
+				57.2689999999711, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [18]
+			{
+				59.2659999999451, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				60.2659999999451, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [20]
+			{
+				61.2580000000307, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [21]
+			{
+				63.2700000000186, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [22]
+			{
+				64.2630000000354, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [23]
+			{
+				66.2609999999404, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [24]
+			{
+				67.1289999999572, -- [1]
+				"Your efforts are insignificant. I carry you to your deaths.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				67.1289999999572, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [26]
+			{
+				68.2709999999497, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [27]
+			{
+				70.2709999999497, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				71.2619999999879, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [29]
+			{
+				72.2920000000158, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [30]
+			{
+				82.2730000000447, -- [1]
+				"%s rolls right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				92.25, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [32]
+			{
+				99.9179999999469, -- [1]
+				"Your efforts are insignificant. I carry you to your deaths.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				102.263000000035, -- [1]
+				"%s rolls right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [34]
+			{
+				112.27099999995, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				122.187000000034, -- [1]
+				"%s rolls right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [36]
+			{
+				132.260000000009, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [37]
+			{
+				135.304000000004, -- [1]
+				"You are less than dust, fit only to be brushed from my back.", -- [2]
+				"Deathwing", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				138.26800000004, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [39]
+			{
+				146.211999999941, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [40]
+			{
+				148.26800000004, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [41]
+			{
+				149.278000000049, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [42]
+			{
+				151.26800000004, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [43]
+			{
+				153.277000000002, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [44]
+			{
+				154.270000000019, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [45]
+			{
+				155.265999999945, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [46]
+			{
+				156.261999999988, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [47]
+			{
+				157.271999999997, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [48]
+			{
+				159.273999999976, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [49]
+			{
+				160.263999999966, -- [1]
+				"%s feels players on his right side. He's about to roll right!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [50]
+			{
+				180.881999999983, -- [1]
+				"%s feels players on his left side. He's about to roll left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [51]
+			{
+				180.971999999951, -- [1]
+				"%s rolls left!", -- [2]
+				"Deathwing", -- [3]
+				1, -- [4]
+			}, -- [52]
+			["boss"] = "Spine of Deathwing",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[48096] = {
 			["school"] = 20,
@@ -299,6 +1918,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Captured Miner",
+		},
+		[107501] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Twilight Assault Drake",
 		},
 		[52042] = {
 			["school"] = 8,
@@ -690,6 +2316,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Vo'jak",
 		},
+		[106548] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wing Tentacle",
+		},
 		[106612] = {
 			["school"] = 16,
 			["token"] = {
@@ -716,8 +2352,8 @@ EncounterDetailsDB = {
 		[98021] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Spirit Link Totem",
 		},
@@ -726,6 +2362,13 @@ EncounterDetailsDB = {
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[105846] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hideous Amalgamation",
 		},
 		[150755] = {
 			["school"] = 1,
@@ -814,6 +2457,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Priestess Alun'za",
 		},
+		[105848] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sealed Plate",
+		},
 		[150759] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -865,6 +2515,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Sand Queen",
 		},
+		[106834] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Deathwing",
+		},
 		[255579] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -881,6 +2539,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Krik'thik Rager",
+		},
+		[267509] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "G'huun",
 		},
 		[106807] = {
 			["school"] = 1,
@@ -906,6 +2572,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sha of Violence",
 		},
+		[105401] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wing Tentacle",
+		},
 		[59408] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -923,6 +2598,31 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Dark Young",
+		},
+		[256577] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Yazma",
+		},
+		[105845] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Hideous Amalgamation",
+		},
+		[107146] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Raigonn",
 		},
 		[255836] = {
 			["school"] = 32,
@@ -949,6 +2649,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fiery Boulder",
 		},
+		[149996] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Calamity",
+		},
 		[255581] = {
 			["school"] = 1,
 			["token"] = {
@@ -973,12 +2680,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gurthan Swiftblade",
 		},
-		[149996] = {
-			["school"] = 4,
+		[106808] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Calamity",
+			["source"] = "Ook-Ook",
 		},
 		[166923] = {
 			["school"] = 1,
@@ -998,6 +2707,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sha of Violence",
 		},
+		[121181] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Harthak Flameseeker",
+		},
+		[106267] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[255582] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -1005,6 +2727,23 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+		},
+		[255373] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rezan",
+		},
+		[277072] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Corrupted Gold",
 		},
 		[149997] = {
 			["school"] = 4,
@@ -1015,6 +2754,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Calamity",
 		},
+		[105563] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spawner",
+		},
+		[280943] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Cyclopean Terror",
+		},
+		[250022] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Yazma",
+		},
+		[250258] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Vol'kaal",
+		},
 		[119999] = {
 			["school"] = 1,
 			["token"] = {
@@ -1024,6 +2794,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lava Guard Gordoth",
 		},
+		[255445] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rezan",
+		},
 		[128239] = {
 			["school"] = 1,
 			["token"] = {
@@ -1031,6 +2808,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Gurthan Swiftblade",
+		},
+		[115002] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Corrupted Taran Zhu",
 		},
 		[106841] = {
 			["school"] = 4,
@@ -1043,12 +2828,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Liu Flameheart",
 		},
-		[121181] = {
+		[152170] = {
 			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Magmolatus",
+		},
+		[112945] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Harthak Flameseeker",
+			["source"] = "Hoptallus",
 		},
 		[59409] = {
 			["school"] = 1,
@@ -1058,6 +2850,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Svala Sorrowgrave",
 		},
+		[48583] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skarvald the Constructor",
+		},
 		[47688] = {
 			["school"] = 64,
 			["token"] = {
@@ -1065,6 +2865,16 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Chaotic Rift",
+		},
+		[255371] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rezan",
 		},
 		[119840] = {
 			["school"] = 1,
@@ -1095,6 +2905,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Raigonn",
 		},
+		[48278] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ritual Channeler",
+		},
+		[48276] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Svala Sorrowgrave",
+		},
 		[263334] = {
 			["school"] = 40,
 			["token"] = {
@@ -1109,11 +2938,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[106267] = {
+		[129262] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Gekkan",
+		},
+		[255372] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rezan",
+		},
+		[115003] = {
 			["school"] = 16,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Yan-Zhu the Uncasked",
 		},
 		[121182] = {
 			["school"] = 1,
@@ -1133,18 +2980,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Strife",
 		},
-		[197509] = {
+		[250096] = {
 			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Bloodworm",
-		},
-		[258709] = {
-			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Yazma",
+		},
+		[150004] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Forgemaster Gog'duh",
 		},
 		[47944] = {
 			["school"] = 1,
@@ -1152,39 +3007,36 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[250022] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Yazma",
-		},
-		[118963] = {
+		[108045] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Warmaster Blackhorn",
+		},
+		[164632] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Glintrok Skulker",
+			["source"] = "Grom'kar Flameslinger",
 		},
-		[275160] = {
+		[48292] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "G'huun",
-		},
-		[48016] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ormorok the Tree-Shaper",
+			["source"] = "King Ymiron",
+		},
+		[120002] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sap Puddle",
 		},
 		[106651] = {
 			["school"] = 1,
@@ -1195,14 +3047,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ook-Ook",
 		},
-		[119420] = {
-			["school"] = 4,
+		[119971] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Adarogg",
+			["source"] = "Dark Shaman Koranthal",
 		},
 		[120001] = {
 			["school"] = 32,
@@ -1213,13 +3065,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vizier Jin'bak",
 		},
-		[48583] = {
-			["school"] = 1,
+		[152940] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Skarvald the Constructor",
+			["source"] = "Roltall",
 		},
 		[59330] = {
 			["school"] = 1,
@@ -1250,39 +3102,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cyclopean Terror",
 		},
-		[270447] = {
+		[110945] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "G'huun",
+			["source"] = "Gu Cloudstrike",
 		},
-		[255835] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Priestess Alun'za",
-		},
-		[267509] = {
+		[49092] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "G'huun",
+			["source"] = "Ymirjar Harpooner",
 		},
-		[255373] = {
+		[151092] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Captured Miner",
+		},
+		[256083] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rezan",
+			["source"] = "Overseer Korgus",
 		},
 		[120800] = {
 			["school"] = 1,
@@ -1323,49 +3177,50 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Raigonn",
 		},
-		[115003] = {
-			["school"] = 16,
+		[152939] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Yan-Zhu the Uncasked",
+			["source"] = "Roltall",
 		},
-		[280943] = {
+		[106653] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Corrupt Living Water",
+		},
+		[267430] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Cyclopean Terror",
 		},
-		[120002] = {
-			["school"] = 8,
+		[150290] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sap Puddle",
+			["source"] = "Calamity",
 		},
-		[150004] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Forgemaster Gog'duh",
-		},
-		[250096] = {
+		[42723] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Yazma",
+			["source"] = "Ingvar the Plunderer",
 		},
 		[112944] = {
 			["school"] = 1,
@@ -1384,13 +3239,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lava Guard Gordoth",
 		},
-		[250258] = {
-			["school"] = 8,
+		[168402] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Vol'kaal",
+			["source"] = "Koramar",
 		},
 		[164504] = {
 			["school"] = 1,
@@ -1400,31 +3254,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fleshrender Nok'gar",
 		},
-		[106826] = {
+		[124283] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Sha of Violence",
+			["source"] = "General Pa'valak",
 		},
-		[164632] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[256101] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Grom'kar Flameslinger",
+			["source"] = "Overseer Korgus",
 		},
-		[48292] = {
-			["school"] = 32,
+		[120024] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "King Ymiron",
+			["source"] = "Lava Guard Gordoth",
 		},
 		[119300] = {
 			["school"] = 32,
@@ -1454,31 +3306,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "General Pa'valak",
 		},
-		[270373] = {
-			["school"] = 1,
+		[257617] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "G'huun",
+			["source"] = "The Sand Queen",
 		},
-		[106653] = {
+		[118917] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Corrupt Living Water",
+			["source"] = "Glintrok Hexxer",
 		},
-		[119971] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[108218] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dark Shaman Koranthal",
+			["source"] = "Crimson Globule",
 		},
 		[255591] = {
 			["school"] = 1,
@@ -1487,31 +3335,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Priestess Alun'za",
 		},
-		[151092] = {
+		[48640] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ymirjar Warrior",
+		},
+		[105248] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Corrupted Blood",
+		},
+		[107324] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Captured Miner",
-		},
-		[59331] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Skadi the Ruthless",
-		},
-		[112945] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Hoptallus",
+			["source"] = "Krik'thik Protectorate",
 		},
 		[107356] = {
 			["school"] = 32,
@@ -1531,22 +3378,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kargesh Highguard",
 		},
-		[124283] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "General Pa'valak",
-		},
-		[256039] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Overseer Korgus",
-		},
 		[119684] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1558,13 +3389,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xin the Weaponmaster",
 		},
-		[42669] = {
+		[256039] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ingvar the Plunderer",
+			["source"] = "Overseer Korgus",
+		},
+		[259191] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Yazma",
+		},
+		[59331] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skadi the Ruthless",
 		},
 		[104993] = {
 			["school"] = 2,
@@ -1591,20 +3437,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dalronn the Controller",
 		},
-		[118917] = {
-			["school"] = 32,
+		[276764] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Glintrok Hexxer",
 		},
-		[163665] = {
+		[113315] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Makogg Emberblade",
+			["source"] = "Peril",
 		},
 		[168148] = {
 			["school"] = 4,
@@ -1612,11 +3457,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[276764] = {
-			["school"] = 8,
+		[105834] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Hideous Amalgamation",
 		},
 		[42708] = {
 			["school"] = 1,
@@ -1635,15 +3482,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ingvar the Plunderer",
 		},
-		[48276] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[47751] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Svala Sorrowgrave",
+			["source"] = "Anomalus",
 		},
 		[107357] = {
 			["school"] = 32,
@@ -1653,120 +3498,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrupted Taran Zhu",
 		},
-		[112993] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Hoptallus",
-		},
-		[48258] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Svala Sorrowgrave",
-		},
-		[48260] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Gortok Palehoof",
-		},
-		[121282] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Wing Leader Ner'onok",
-		},
-		[120024] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lava Guard Gordoth",
-		},
-		[267430] = {
+		[42729] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Cyclopean Terror",
-		},
-		[121165] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Harthak Flameseeker",
-		},
-		[59268] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Gortok Palehoof",
-		},
-		[121442] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Wing Leader Ner'onok",
-		},
-		[119941] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Sap Puddle",
-		},
-		[150776] = {
-			["school"] = 4,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Gug'rokk",
-		},
-		[113394] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Peril",
-		},
-		[263482] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Reorigination Drive",
-		},
-		[59323] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Skadi the Ruthless",
+			["source"] = "Ingvar the Plunderer",
 		},
 		[263227] = {
 			["school"] = 40,
@@ -1787,6 +3525,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Magmolatus",
 		},
+		[121282] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wing Leader Ner'onok",
+		},
 		[257092] = {
 			["school"] = 1,
 			["token"] = {
@@ -1795,39 +3542,141 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Sand Queen",
 		},
-		[256101] = {
+		[106797] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Liu Flameheart",
+		},
+		[113394] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Peril",
+		},
+		[59267] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Gortok Palehoof",
+		},
+		[121442] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wing Leader Ner'onok",
+		},
+		[59268] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Gortok Palehoof",
+		},
+		[150776] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Gug'rokk",
+		},
+		[256044] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Overseer Korgus",
 		},
-		[124317] = {
+		[263482] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Reorigination Drive",
+		},
+		[107047] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "General Pa'valak",
+			["source"] = "Striker Ga'dok",
 		},
-		[43649] = {
-			["school"] = 32,
+		[119590] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ring of Fire",
+		},
+		[116633] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Krik'thik Saboteur",
+		},
+		[263345] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Heavy Cannon",
+		},
+		[273480] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[121762] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dalronn the Controller",
+			["source"] = "Wing Leader Ner'onok",
 		},
-		[256201] = {
+		[256038] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Overseer Korgus",
+		},
+		[150011] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Overseer Korgus",
+			["source"] = "Forgemaster Gog'duh",
 		},
 		[267700] = {
 			["school"] = 32,
@@ -1876,51 +3725,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azure Scale-Binder",
 		},
-		[256044] = {
+		[108221] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Glowing Globule",
+		},
+		[120142] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Overseer Korgus",
 		},
-		[256200] = {
+		[105219] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Overseer Korgus",
-		},
-		[152939] = {
-			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Roltall",
+			["source"] = "Corrupted Blood",
 		},
-		[120160] = {
+		[106823] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Haiyan the Unstoppable",
-		},
-		[106984] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Gu Cloudstrike",
+			["source"] = "Liu Flameheart",
+		},
+		[48094] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Keristrasza",
 		},
 		[150076] = {
 			["school"] = 0,
@@ -1929,20 +3773,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Forgemaster Gog'duh",
 		},
-		[120166] = {
+		[106369] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Corrupted Reaver",
+			["source"] = "Ultraxion",
 		},
-		[107324] = {
+		[103846] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Krik'thik Protectorate",
+			["source"] = "Morchok",
 		},
 		[106433] = {
 			["school"] = 1,
@@ -1960,62 +3805,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wing Leader Ner'onok",
 		},
-		[264878] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Unknown",
-		},
-		[150011] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Forgemaster Gog'duh",
-		},
-		[52067] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Crystalline Frayer",
-		},
-		[106856] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Liu Flameheart",
-		},
-		[111735] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Tar",
-		},
-		[152170] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Magmolatus",
-		},
-		[123655] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Haiyan the Unstoppable",
-		},
 		[114386] = {
 			["school"] = 16,
 			["type"] = "DEBUFF",
@@ -2025,22 +3814,71 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yan-Zhu the Uncasked",
 		},
-		[121762] = {
-			["school"] = 1,
+		[168965] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Wing Leader Ner'onok",
+			["source"] = "Koramar",
 		},
-		[113315] = {
+		[52067] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Crystalline Frayer",
+		},
+		[263235] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "G'huun",
+		},
+		[111735] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Peril",
+			["source"] = "Tar",
+		},
+		[168955] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Koramar",
+		},
+		[168399] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Koramar",
+		},
+		[165152] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Makogg Emberblade",
+		},
+		[119374] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[116297] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[161256] = {
 			["school"] = 1,
@@ -2063,12 +3901,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Haiyan the Unstoppable",
 		},
-		[257580] = {
-			["school"] = 8,
+		[256200] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "The Sand Queen",
+			["source"] = "Overseer Korgus",
 		},
 		[106434] = {
 			["school"] = 1,
@@ -2080,12 +3921,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Master Snowdrift",
 		},
-		[168402] = {
-			["school"] = 1,
+		[105444] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Koramar",
+			["source"] = "Unknown",
 		},
 		[275756] = {
 			["school"] = 1,
@@ -2102,59 +3945,54 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gu Cloudstrike",
 		},
-		[168955] = {
-			["school"] = 4,
+		[259711] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Koramar",
+			["source"] = "Block Warden",
 		},
-		[168399] = {
-			["school"] = 8,
+		[120166] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Koramar",
+			["source"] = "Corrupted Reaver",
 		},
-		[114291] = {
-			["school"] = 4,
+		[48267] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Svala Sorrowgrave",
+		},
+		[119433] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hopper",
+			["source"] = "Slagmaw",
 		},
-		[47772] = {
+		[163740] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ahri'ok Dugru",
+		},
+		[50997] = {
 			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Grand Magus Telestra",
-		},
-		[106797] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Liu Flameheart",
-		},
-		[149963] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
+			["source"] = "Keristrasza",
 		},
 		[112918] = {
 			["school"] = 32,
@@ -2170,23 +4008,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blackhand's Might Turret",
 		},
-		[120759] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[43667] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Commander Vo'jak",
-		},
-		[152837] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fiery Boulder",
+			["source"] = "Prince Keleseth",
+		},
+		[106334] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Wise Mari",
 		},
 		[121190] = {
 			["school"] = 1,
@@ -2196,29 +4032,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Quilen Guardian",
 		},
-		[163740] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Ahri'ok Dugru",
-		},
-		[165152] = {
+		[163668] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Makogg Emberblade",
 		},
-		[48267] = {
-			["school"] = 32,
+		[107121] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Commander Ri'mok",
+		},
+		[105445] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Svala Sorrowgrave",
+			["source"] = "Blistering Tentacle",
 		},
 		[120807] = {
 			["school"] = 1,
@@ -2227,14 +4061,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Vo'jak",
 		},
-		[114999] = {
-			["school"] = 32,
+		[117665] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Corrupted Taran Zhu",
+			["source"] = "Sha of Doubt",
 		},
 		[106563] = {
 			["school"] = 1,
@@ -2246,21 +4080,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yan-Zhu the Uncasked",
 		},
-		[123654] = {
-			["school"] = 8,
+		[259975] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Sand Queen",
+		},
+		[149941] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ming the Cunning",
-		},
-		[163668] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Makogg Emberblade",
+			["source"] = "Ruination",
 		},
 		[119434] = {
 			["school"] = 1,
@@ -2278,44 +4116,12 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[107121] = {
+		[119405] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Commander Ri'mok",
-		},
-		[117665] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sha of Doubt",
-		},
-		[121174] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Harthak Flameseeker",
-		},
-		[113379] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Peril",
-		},
-		[107110] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
+			["source"] = "Adarogg",
 		},
 		[114548] = {
 			["school"] = 16,
@@ -2327,6 +4133,42 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Yan-Zhu the Uncasked",
+		},
+		[107588] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Goriona",
+		},
+		[260016] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Buzzing Drone",
+		},
+		[106877] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sha of Violence",
+		},
+		[106372] = {
+			["school"] = 34,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ultraxion",
 		},
 		[120201] = {
 			["school"] = 4,
@@ -2346,28 +4188,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[106808] = {
-			["school"] = 1,
+		[152897] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Heat Wave",
+		},
+		[47772] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ook-Ook",
+			["source"] = "Grand Magus Telestra",
 		},
-		[256105] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Overseer Korgus",
-		},
-		[116297] = {
+		[106864] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Liu Flameheart",
 		},
 		[178124] = {
 			["school"] = 1,
@@ -2376,14 +4222,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oshir",
 		},
-		[47773] = {
-			["school"] = 4,
+		[102572] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Grand Magus Telestra",
+			["source"] = "Azure Serpent",
 		},
 		[121447] = {
 			["school"] = 4,
@@ -2395,19 +4239,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wing Leader Ner'onok",
 		},
-		[102572] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Azure Serpent",
-		},
-		[119433] = {
+		[47773] = {
 			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Slagmaw",
+			["source"] = "Grand Magus Telestra",
+		},
+		[109247] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Twilight Sapper",
 		},
 		[118988] = {
 			["school"] = 1,
@@ -2429,40 +4275,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ahri'ok Dugru",
 		},
-		[106864] = {
+		[168390] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Liu Flameheart",
 		},
-		[106526] = {
+		[163334] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Wise Mari",
-		},
-		[124290] = {
-			["school"] = 1,
-			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-		},
-		[263503] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Reorigination Drive",
-		},
-		[250368] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Vol'kaal",
+			["source"] = "Neesa Nox",
 		},
 		[164648] = {
 			["school"] = 1,
@@ -2473,6 +4299,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grom'kar Flameslinger",
 		},
+		[263503] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Reorigination Drive",
+		},
+		[124290] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[107268] = {
+			["school"] = 0,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Saboteur Kip'tilak",
+		},
 		[275129] = {
 			["school"] = 40,
 			["type"] = "BUFF",
@@ -2481,22 +4329,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "G'huun",
 		},
-		[263504] = {
+		[105479] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "G'huun",
+			["source"] = "Corruption",
 		},
-		[106113] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[59271] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Sha of Doubt",
+			["source"] = "Massive Jormungar",
 		},
 		[47981] = {
 			["school"] = 1,
@@ -2529,31 +4375,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azure Serpent",
 		},
-		[59271] = {
+		[102573] = {
 			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Massive Jormungar",
-		},
-		[168227] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Skulloc",
+			["source"] = "Azure Serpent",
 		},
-		[120778] = {
+		[119946] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mu'Shiba",
+		},
+		[263504] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Commander Vo'jak",
+			["source"] = "G'huun",
 		},
 		[250050] = {
 			["school"] = 32,
@@ -2563,11 +4410,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[106470] = {
-			["school"] = 4,
+		[250368] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Vol'kaal",
 		},
 		[168929] = {
 			["school"] = 1,
@@ -2595,13 +4443,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Crazed Mana-Wraith",
 		},
-		[106055] = {
-			["school"] = 1,
+		[77508] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Wise Mari",
+			["source"] = "Vengeful Magma Elemental",
 		},
 		[51750] = {
 			["school"] = 1,
@@ -2612,23 +4459,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Ymiron",
 		},
-		[152897] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Heat Wave",
-		},
-		[162415] = {
+		[120778] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Oshir",
+			["source"] = "Commander Vo'jak",
+		},
+		[168227] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skulloc",
 		},
 		[107045] = {
 			["school"] = 1,
@@ -2649,32 +4497,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Magmolatus",
 		},
-		[259975] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "The Sand Queen",
-		},
-		[260016] = {
+		[122962] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Buzzing Drone",
+			["source"] = "Quilen Guardian",
 		},
-		[119405] = {
+		[162415] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Oshir",
+		},
+		[106055] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Adarogg",
+			["source"] = "Wise Mari",
 		},
 		[118958] = {
 			["school"] = 1,
@@ -2685,39 +4533,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glintrok Ironhide",
 		},
-		[107268] = {
-			["school"] = 0,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Saboteur Kip'tilak",
-		},
-		[119946] = {
+		[163705] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Mu'Shiba",
-		},
-		[102573] = {
-			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Azure Serpent",
+			["source"] = "Neesa Nox",
 		},
-		[168390] = {
+		[106470] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[106113] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Sha of Doubt",
+		},
+		[105289] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Hagara the Stormbinder",
 		},
 		[106854] = {
 			["school"] = 4,
@@ -2726,12 +4571,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Master Snowdrift",
 		},
-		[77508] = {
-			["school"] = 4,
+		[108419] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Vengeful Magma Elemental",
+			["source"] = "Acidic Globule",
 		},
 		[250372] = {
 			["school"] = 8,
@@ -2758,41 +4603,8 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[163334] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Neesa Nox",
-		},
-		[106877] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Sha of Violence",
-		},
-		[122962] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Quilen Guardian",
-		},
-		[119374] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[149941] = {
-			["school"] = 1,
+		[114291] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
@@ -2800,16 +4612,44 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ruination",
+			["source"] = "Hopper",
 		},
-		[163705] = {
+		[120759] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Neesa Nox",
+			["source"] = "Commander Vo'jak",
+		},
+		[107589] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Goriona",
+		},
+		[107110] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[257580] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Sand Queen",
+		},
+		[256105] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Overseer Korgus",
 		},
 		[119981] = {
 			["school"] = 0,
@@ -2838,43 +4678,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spirit Fount",
 		},
-		[48094] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[123654] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Keristrasza",
-		},
-		[106823] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Liu Flameheart",
+			["source"] = "Ming the Cunning",
 		},
-		[129262] = {
+		[114999] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Corrupted Taran Zhu",
+		},
+		[113379] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gekkan",
+			["source"] = "Peril",
 		},
-		[50997] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[121174] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Keristrasza",
+			["source"] = "Harthak Flameseeker",
 		},
 		[259572] = {
 			["school"] = 8,
@@ -2885,11 +4722,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vol'kaal",
 		},
-		[273480] = {
-			["school"] = 40,
+		[152837] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Fiery Boulder",
 		},
 		[120269] = {
 			["school"] = 8,
@@ -2897,30 +4737,29 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[259711] = {
+		[264878] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Block Warden",
+			["source"] = "Unknown",
 		},
-		[107047] = {
+		[149963] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[124317] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Striker Ga'dok",
-		},
-		[168965] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Koramar",
+			["source"] = "General Pa'valak",
 		},
 		[47743] = {
 			["school"] = 64,
@@ -2947,54 +4786,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wise Mari",
 		},
-		[256038] = {
-			["school"] = 1,
+		[119941] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Sap Puddle",
+		},
+		[256201] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Overseer Korgus",
 		},
-		[263235] = {
+		[43649] = {
 			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dalronn the Controller",
+		},
+		[123655] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "G'huun",
-		},
-		[263345] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Heavy Cannon",
-		},
-		[42729] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ingvar the Plunderer",
-		},
-		[43667] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Prince Keleseth",
+			["source"] = "Haiyan the Unstoppable",
 		},
-		[120142] = {
+		[109379] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Corruption",
+		},
+		[106856] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Liu Flameheart",
 		},
 		[256955] = {
 			["school"] = 4,
@@ -3019,28 +4861,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Takeyomoney-Tichondrius",
 		},
-		[259191] = {
-			["school"] = 32,
+		[106984] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Yazma",
-		},
-		[116633] = {
-			["school"] = 4,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Krik'thik Saboteur",
+			["source"] = "Gu Cloudstrike",
 		},
-		[152940] = {
-			["school"] = 4,
+		[59407] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ritual Channeler",
+		},
+		[106526] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Roltall",
+			["source"] = "Wise Mari",
 		},
 		[190909] = {
 			["school"] = 1,
@@ -3067,13 +4912,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azure Serpent",
 		},
-		[47751] = {
-			["school"] = 64,
+		[120160] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Anomalus",
+			["source"] = "Haiyan the Unstoppable",
 		},
 		[118961] = {
 			["school"] = 0,
@@ -3091,80 +4938,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Ymiron",
 		},
-		[119590] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ring of Fire",
-		},
-		[106334] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Wise Mari",
-		},
-		[50155] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Keristrasza",
-		},
-		[110945] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Gu Cloudstrike",
-		},
-		[59407] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ritual Channeler",
-		},
-		[169129] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Backdraft",
-		},
-		[59267] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Gortok Palehoof",
-		},
-		[48640] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ymirjar Warrior",
-		},
-		[257617] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "The Sand Queen",
-		},
 		[153227] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -3174,12 +4947,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Roltall",
 		},
-		[49092] = {
+		[150324] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ymirjar Harpooner",
+			["source"] = "Ruination",
+		},
+		[50155] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Keristrasza",
+		},
+		[121165] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Harthak Flameseeker",
 		},
 		[270454] = {
 			["school"] = 40,
@@ -3188,37 +4979,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "G'huun",
 		},
-		[150290] = {
+		[169129] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Calamity",
-		},
-		[150734] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Unstable Slag",
-		},
-		[256083] = {
-			["school"] = 4,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Overseer Korgus",
+			["source"] = "Backdraft",
 		},
-		[256128] = {
-			["school"] = 4,
+		[42669] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ingvar the Plunderer",
+		},
+		[59323] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Overseer Korgus",
+			["source"] = "Skadi the Ruthless",
+		},
+		[270373] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "G'huun",
 		},
 		[273251] = {
 			["school"] = 64,
@@ -3228,6 +5017,58 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Cyclopean Terror",
+		},
+		[48260] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gortok Palehoof",
+		},
+		[48258] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Svala Sorrowgrave",
+		},
+		[112993] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Hoptallus",
+		},
+		[150734] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Unstable Slag",
+		},
+		[163665] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Makogg Emberblade",
+		},
+		[256128] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Overseer Korgus",
+		},
+		[104318] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Wild Imp",
 		},
 		[42730] = {
 			["school"] = 1,
@@ -3239,21 +5080,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ingvar the Plunderer",
 		},
-		[115002] = {
+		[106826] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Corrupted Taran Zhu",
+			["source"] = "Sha of Violence",
 		},
-		[150324] = {
-			["school"] = 1,
+		[119420] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ruination",
+			["source"] = "Adarogg",
 		},
 		[162424] = {
 			["school"] = 1,
@@ -3263,16 +5106,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oshir",
 		},
-		[42723] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[105847] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ingvar the Plunderer",
+			["source"] = "Burning Tendons",
 		},
 		[152843] = {
 			["school"] = 4,
@@ -3281,38 +5120,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fiery Boulder",
 		},
-		[255372] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rezan",
-		},
-		[255371] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rezan",
-		},
-		[48278] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Ritual Channeler",
-		},
-		[104318] = {
+		[258709] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Wild Imp",
+		},
+		[107018] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Deathwing",
+		},
+		[255835] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Priestess Alun'za",
+		},
+		[270447] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "G'huun",
 		},
 		[257407] = {
 			["school"] = 1,
@@ -3324,29 +5161,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rezan",
 		},
-		[107146] = {
+		[48016] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Raigonn",
-		},
-		[255445] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rezan",
+			["source"] = "Ormorok the Tree-Shaper",
 		},
-		[256577] = {
+		[275160] = {
 			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "G'huun",
+		},
+		[118963] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Yazma",
+			["source"] = "Glintrok Skulker",
 		},
 		[59306] = {
 			["school"] = 32,
@@ -3364,24 +5204,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skadi the Ruthless",
 		},
-		[277072] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[197509] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Corrupted Gold",
+			["source"] = "Bloodworm",
 		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Yazma",
-		}, -- [1]
-		{
-			["boss"] = "Priestess Alun'za",
-		}, -- [2]
-		{
-			["boss"] = "Vol'kaal",
-		}, -- [3]
 	},
 }

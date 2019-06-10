@@ -90,7 +90,7 @@ HandyNotesDB = {
 		},
 		["Zaliga - Tichondrius"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Miriyal - Icecrown"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
@@ -146,7 +146,7 @@ HandyNotesDB = {
 		},
 		["Morifa - Tichondrius"] = {
 		},
-		["Miriyal - Icecrown"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Mallusof - Icecrown"] = {
 		},
@@ -243,7 +243,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Zaliga - Tichondrius"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Miriyal - Icecrown"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
@@ -299,7 +299,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Morifa - Tichondrius"] = {
 		},
-		["Miriyal - Icecrown"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Mallusof - Icecrown"] = {
 		},

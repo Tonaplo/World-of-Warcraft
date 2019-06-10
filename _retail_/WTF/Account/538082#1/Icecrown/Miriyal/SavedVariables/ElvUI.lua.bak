@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i you can do that?", -- [1]
-		"/i those heals", -- [2]
-		"/i good", -- [3]
-		"/i nnon", -- [4]
-		"/i they dead now", -- [5]
-		"/i And that", -- [6]
-		"/i is why I hate Shrine :P", -- [7]
-		"/i no worrie s :)", -- [8]
-		"/i at boss", -- [9]
-		"/i LOL", -- [10]
+		"/i And that", -- [1]
+		"/i no worrie s :)", -- [2]
+		"/i LOL", -- [3]
+		"/i for level 112", -- [4]
+		"/i go left", -- [5]
+		"/i yeah, it's my org Monk from Legion", -- [6]
+		"/i Have a good one :)", -- [7]
+		"/i Awesome runs", -- [8]
+		"/i good", -- [9]
+		"/i is why I hate Shrine :P", -- [10]
 		"/i 8 Xp remaining", -- [11]
-		"/i for level 112", -- [12]
-		"/i that'a amazing, haha", -- [13]
-		"/i go left", -- [14]
-		"/i Imeant got", -- [15]
-		"/i yeah, it's my org Monk from Legion", -- [16]
+		"/i Imeant got", -- [12]
+		"/i thanks for group!", -- [13]
+		"/i they dead now", -- [14]
+		"/i that'a amazing, haha", -- [15]
+		"/i you can do that?", -- [16]
 		"/i was fun indeed!", -- [17]
-		"/i Have a good one :)", -- [18]
-		"/i thanks for group!", -- [19]
-		"/i Awesome runs", -- [20]
+		"/i at boss", -- [18]
+		"/i Greetings", -- [19]
+		"/i ready?", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -2620,5 +2620,137 @@ ElvCharacterDB = {
 			[51] = 1558328650,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [118]
+		{
+			"Hey! Any chance you're looking for a guild? :)", -- [1]
+			"Wick-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wick-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			18, -- [11]
+			"Player-104-0A2CA05E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cWick|r",
+			[51] = 1559103373,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [119]
+		{
+			"Greetings", -- [1]
+			"Miriyal-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Miriyal-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-104-0A10F32C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Miriyal|r",
+			[51] = 1559103437,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [120]
+		{
+			"ready?", -- [1]
+			"Miriyal-Icecrown", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Miriyal-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-104-0A10F32C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Miriyal|r",
+			[51] = 1559103439,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [121]
+		{
+			"hey there", -- [1]
+			"Western-Suramar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Western-Suramar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"Player-113-0040E195", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecWestern-Suramar|r",
+			[51] = 1559103441,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [122]
+		{
+			"hellooooo", -- [1]
+			"Ulthan-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ulthan-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"Player-162-08E294D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Ulthan-EmeraldDream|r",
+			[51] = 1559103443,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [123]
+		{
+			"yes", -- [1]
+			"Insomniacc-CenarionCircle", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Insomniacc-CenarionCircle", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			34, -- [11]
+			"Player-1169-06560A71", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcInsomniacc-CenarionCircle|r",
+			[51] = 1559103445,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [124]
 	},
 }

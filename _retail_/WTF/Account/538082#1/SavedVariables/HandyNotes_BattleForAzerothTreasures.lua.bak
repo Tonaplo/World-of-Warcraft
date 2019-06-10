@@ -8,14 +8,14 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
 		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
+		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "DPS",
-		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
@@ -43,20 +43,20 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Deminath - Tichondrius"] = {
 		},
-		["Deminath - Proudmoore"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
-		["Greybone - Proudmoore"] = {
+		["Fandagny - Frostwolf"] = {
 		},
-		["Farahn - Proudmoore"] = {
+		["Zearthan - Icecrown"] = {
 		},
 		["healer"] = {
 			["tooltip_questid"] = true,
 		},
-		["Greybone - Icecrown"] = {
+		["Kaldorath - Icecrown"] = {
 		},
 		["Luugo - Frostwolf"] = {
 		},
-		["Caircaidin - Frostwolf"] = {
+		["Deminath - Proudmoore"] = {
 		},
 		["Weston - Icecrown"] = {
 		},
@@ -64,11 +64,11 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Praerend - Icecrown"] = {
 		},
-		["Zearthan - Icecrown"] = {
+		["Farahn - Proudmoore"] = {
 		},
 		["Tyindel - Frostwolf"] = {
 		},
-		["Kaldorath - Icecrown"] = {
+		["Greybone - Icecrown"] = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
@@ -81,7 +81,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Miriyal - Icecrown"] = {
 		},
-		["Fandagny - Frostwolf"] = {
+		["Greybone - Proudmoore"] = {
 		},
 		["Alura - Tichondrius"] = {
 		},

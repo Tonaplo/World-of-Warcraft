@@ -1,7 +1,3 @@
-VER 3 0100000000000011 "Binding/Circle" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:5/2] Binding Heal; [talent:5/3] Circle of Healing
-END
 VER 3 010000000000000E "Guild Standard" "INV_MISC_QUESTIONMARK"
 /use Battle Standard of Coordination
 /use Standard of Unity
@@ -12,10 +8,6 @@ VER 3 010000000000000F "Gunshoes and pot" "INV_MISC_QUESTIONMARK"
 /use Gunshoes
 /use Skystep Potion
 END
-VER 3 0100000000000010 "Halo/DS" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:6/2, nochanneling:Penance] Divine Star; [talent:6/3, nochanneling:Penance] Halo
-END
 VER 3 0100000000000013 "highmaul" "INV_MISC_QUESTIONMARK"
 /target Maggot
 /script SetRaidTarget("target",8);
@@ -25,7 +17,7 @@ VER 3 0100000000000012 "SW:D/SC" "INV_MISC_QUESTIONMARK"
 /cast [talent:5/2] Shadow Word: Death [talent:5/3] Shadow Crash
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

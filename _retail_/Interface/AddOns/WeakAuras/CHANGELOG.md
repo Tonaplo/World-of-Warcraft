@@ -1,14 +1,20 @@
-# [2.12.4.1](https://github.com/WeakAuras/WeakAuras2/tree/2.12.4.1) (2019-06-04)
+# [2.12.4.2](https://github.com/WeakAuras/WeakAuras2/tree/2.12.4.2) (2019-06-09)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.12.4...2.12.4.1)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.12.4.1...2.12.4.2)
 
 ## Highlights
 
- - Fix nil comparison error with spellCount 
+ Bugfixes 
 
 ## Commits
 
-mrbuds (1):
+InfusOnWoW (7):
 
-- Action Usable trigger: Fix nil comparison error with spellCount (#1375)
+- Add a description to Player Effective Level
+- Make Auras attached to nameplates work inside Dynamic groups
+- Fix autoHide if a state is overwritten with the same expirationTime
+- Fix Progress Bars size calculation in SetValue
+- Introduce player effective level load option
+- Fix Models that should show on login
+- Fix inserting > 32bit values into the name field
 

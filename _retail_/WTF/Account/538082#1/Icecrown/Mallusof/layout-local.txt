@@ -1,4 +1,11 @@
 Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: BOTTOM
+X: 21
+Y: -4
+W: 90
+H: 35
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -20,13 +27,6 @@ X: 309
 Y: -170
 W: 232
 H: 100
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: CENTER
-X: 45
-Y: 30
-W: 128
-H: 64
 Frame: ColorPickerFrame
 FrameLevel: 25
 Anchor: CENTER
@@ -55,3 +55,10 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: CENTER
+X: 45
+Y: 30
+W: 267
+H: 124

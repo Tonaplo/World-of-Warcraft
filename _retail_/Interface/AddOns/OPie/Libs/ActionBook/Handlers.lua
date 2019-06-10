@@ -546,17 +546,6 @@ do -- equipmentset: equipment sets by name
 	local function resolveIcon(fid)
 		return type(fid) == "number" and fid or ("Interface/Icons/" .. (fid or "INV_Misc_QuestionMark"))
 	end
-	local function SetBadEquipmentSet(tip, name)
-		tip:SetEquipmentSet(name)
-		if name:match("^%s?(.-)%s?$") ~= name then
-			tip:AddLine(ERR_NAME_INVALID_SPACE, 1, 0, 0, true)
-		elseif name:match("[%[%];]") then
-			tip:AddLine(ERR_NAME_INVALID, 1, 0, 0, true)
-		end
-	end
-	local function isBadName(name)
-		return name:match("^%s?([^%[%];]-)%s?$") ~= name
-	end
 	local function equipmentsetHint(name)
 		local _, icon, _, active, total, equipped, available = C_EquipmentSet.GetEquipmentSetInfo(name and C_EquipmentSet.GetEquipmentSetID(name) or -1)
 		if icon then
@@ -567,20 +556,16 @@ do -- equipmentset: equipment sets by name
 		AB:NotifyObservers("equipmentset")
 	end
 	local function createEquipSet(name)
-		local sid = type(name) == "string" and not isBadName(name) and C_EquipmentSet.GetEquipmentSetID(name)
+		local sid = type(name) == "string" and C_EquipmentSet.GetEquipmentSetID(name)
 		if not sid then return end
 		if not setMap[name] then
-			setMap[name] = AB:CreateActionSlot(equipmentsetHint, name, "attribute", "type","macro", "macrotext", (SLASH_EQUIP_SET1 or "/equipset") .. " " .. name)
+			setMap[name] = AB:CreateActionSlot(equipmentsetHint, name, "attribute", "type","equipmentset", "equipmentset",name)
 		end
 		return setMap[name]
 	end
 	local function describeEquipSet(name)
 		local _, ico = C_EquipmentSet.GetEquipmentSetInfo(name and C_EquipmentSet.GetEquipmentSetID(name) or -1)
-		local fname, setTip = name, GameTooltip.SetEquipmentSet
-		if type(name) == "string" and isBadName(name) then
-			fname, setTip = "|cffff0000" .. name, SetBadEquipmentSet
-		end
-		return L"Equipment Set", fname, ico and resolveIcon(ico) or "Interface/Icons/INV_Misc_QuestionMark", nil, setTip, name
+		return L"Equipment Set", name, ico and resolveIcon(ico) or "Interface/Icons/INV_Misc_QuestionMark", nil, GameTooltip.SetEquipmentSet, name
 	end
 	AB:RegisterActionType("equipmentset", createEquipSet, describeEquipSet)
 	RW:SetCommandHint(SLASH_EQUIP_SET1, 80, function(_, _, clause)
