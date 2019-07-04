@@ -82,3 +82,7 @@ HandyNotes_DraenorTreasures: disabled
 HandyNotes_LegionTreasures: disabled
 ElvUI: disabled
 ElvUI_Config: disabled
+BigWigs_EternalPalace: disabled
+InstanceAchievementTracker: disabled
+Simulationcraft: disabled
+ElvUI_OptionsUI: disabled

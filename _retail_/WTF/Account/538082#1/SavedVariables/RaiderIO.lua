@@ -1,4 +1,4 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "us-Kindhoof-tichondrius"
+RaiderIO_LastCharacter = "us-Weston-icecrown"

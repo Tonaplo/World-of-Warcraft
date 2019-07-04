@@ -470,21 +470,21 @@ P.nameplates = {
 			pets = false,
 			totems = false,
 		},
-    },
-    cutaway =  {
-        health = {
-            enabled = false,
-            fadeOutTime = 0.6,
-            lengthBeforeFade = 0.3,
-            forceBlankTexture = true,
-        },
-        power = {
-            enabled = false,
-            fadeOutTime = 0.6,
-            lengthBeforeFade = 0.3,
-            forceBlankTexture = true,
-        },
-    },
+	},
+	cutaway =  {
+		health = {
+			enabled = false,
+			fadeOutTime = 0.6,
+			lengthBeforeFade = 0.3,
+			forceBlankTexture = true,
+		},
+		power = {
+			enabled = false,
+			fadeOutTime = 0.6,
+			lengthBeforeFade = 0.3,
+			forceBlankTexture = true,
+		},
+	},
 	units = {
 		PLAYER = {
 			enable = false,
@@ -1145,7 +1145,6 @@ P.nameplates = {
 			enable = true,
 			showTitle = true,
 			nameOnly = false,
-			showAlways = true,
 			portrait = {
 				enable = false,
 				position = 'RIGHT',
@@ -1358,6 +1357,15 @@ P.nameplates = {
 				xOffset = 0,
 				yOffset = 0,
 			},
+			nazjatarFollowerXP = {
+				enable = true,
+				yOffset = -4,
+				color = {
+					r = 0.529,
+					g = 0.808,
+					b = 0.922
+				}
+			}
 		},
 		ENEMY_NPC = {
 			enable = true,

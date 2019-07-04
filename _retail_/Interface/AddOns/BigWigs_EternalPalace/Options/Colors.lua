@@ -19,6 +19,21 @@ BigWigs:AddColors("Radiance of Azshara", {
 	[296894] = "yellow",
 })
 
+BigWigs:AddColors("Blackwater Behemoth", {
+	[292083] = "cyan",
+	[292127] = "blue",
+	[292133] = "green",
+	[292138] = "green",
+	[292159] = {"blue","yellow"},
+	[292205] = "green",
+	[292270] = "orange",
+	[292307] = "blue",
+	[298428] = {"blue","purple"},
+	[301180] = "blue",
+	[301494] = {"blue","red"},
+	["stages"] = {"cyan","green"},
+})
+
 BigWigs:AddColors("Lady Ashvane", {
 	[-20096] = {"blue","yellow"},
 	[296569] = {"cyan","yellow"},
@@ -26,6 +41,19 @@ BigWigs:AddColors("Lady Ashvane", {
 	[297397] = {"blue","red"},
 	[298056] = "orange",
 	["stages"] = "orange",
+})
+
+BigWigs:AddColors("Orgozoa", {
+	[295779] = {"blue","yellow"},
+	[295822] = "red",
+	[296691] = "orange",
+	[298103] = "orange",
+	[298156] = {"blue","purple"},
+	[298242] = "yellow",
+	[298465] = "cyan",
+	[298548] = "cyan",
+	[305048] = "red",
+	["stages"] = {"cyan","green"},
 })
 
 BigWigs:AddColors("The Queen's Court", {
@@ -45,7 +73,25 @@ BigWigs:AddColors("The Queen's Court", {
 	[301947] = "yellow",
 })
 
+BigWigs:AddColors("Za'qul, Herald of Ny'alotha", {
+	[292963] = {"blue","yellow"},
+	[292971] = "blue",
+	[292996] = "cyan",
+	[293509] = {"blue","yellow"},
+	[294535] = "yellow",
+	[295099] = {"blue","green"},
+	[295814] = "red",
+	[296018] = {"blue","yellow"},
+	[298192] = "blue",
+	[299702] = "yellow",
+	[301141] = "orange",
+	[303971] = "red",
+	[304733] = "orange",
+	["stages"] = "cyan",
+})
+
 BigWigs:AddColors("Queen Azshara", {
+	[-20480] = "cyan",
 	[297371] = "cyan",
 	[297372] = "cyan",
 	[297907] = "blue",
@@ -56,15 +102,23 @@ BigWigs:AddColors("Queen Azshara", {
 	[298014] = {"blue","purple"},
 	[298021] = "purple",
 	[298121] = "cyan",
-	[298425] = "red",
+	[298531] = "orange",
+	[298569] = "blue",
 	[298756] = {"blue","purple"},
-	[298787] = {"cyan","yellow"},
+	[298787] = "yellow",
 	[299094] = {"blue","yellow"},
 	[299250] = {"blue","cyan"},
-	[300518] = "red",
+	[300074] = "orange",
+	[300428] = "cyan",
+	[300492] = {"blue","yellow"},
+	[300519] = "red",
+	[300620] = {"blue","yellow"},
 	[300743] = {"blue","purple"},
 	[300807] = "red",
+	[301078] = {"blue","yellow"},
 	[302999] = "blue",
 	[303657] = {"blue","yellow"},
 	[303980] = "yellow",
+	[304475] = "cyan",
+	["stages"] = {"cyan","green"},
 })

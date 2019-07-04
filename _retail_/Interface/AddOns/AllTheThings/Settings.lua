@@ -69,6 +69,7 @@ local GeneralSettingsBase = {
 		["Completionist"] = true,
 		["MainOnly"] = false,
 		["DebugMode"] = false,
+		["Repeatable"] = false,
 		["AccountWide:Achievements"] = true,
 		-- ["AccountWide:BattlePets"] = true,
 		["AccountWide:FlightPaths"] = true,
@@ -77,7 +78,7 @@ local GeneralSettingsBase = {
 		["AccountWide:Illusions"] = true,
 		-- ["AccountWide:Mounts"] = true,
 		["AccountWide:MusicRolls"] = true,
-		-- ["AccountWide:Quests"] = false,
+		["AccountWide:Quests"] = false,
 		["AccountWide:Recipes"] = true,
 		["AccountWide:Reputations"] = true,
 		["AccountWide:SelfieFilters"] = true,
@@ -112,7 +113,9 @@ local TooltipSettingsBase = {
 	__index = {
 		["Auto:MiniList"] = true,
 		["Auto:ProfessionList"] = true,
+		["Auto:AH"] = true,
 		["Celebrate"] = true,
+		["Channel"] = "master",
 		["ClassRequirements"] = true,
 		["Descriptions"] = true,
 		["DisplayInCombat"] = true,
@@ -126,6 +129,8 @@ local TooltipSettingsBase = {
 		["Models"] = true,
 		["LiveScan"] = false,
 		["Locations"] = 5,
+		["MainListScale"] = 1,
+		["MiniListScale"] = 1,
 		["Precision"] = 2,
 		["Progress"] = true,
 		["QuestGivers"] = true,
@@ -133,6 +138,8 @@ local TooltipSettingsBase = {
 		["Report:Collected"] = true,
 		["ShowIconOnly"] = false,
 		["SharedAppearances"] = true,
+		["Show:Remaining"] = false,
+		["Skip:Cutscenes"] = false,
 		["SourceLocations"] = true,
 		["SourceLocations:Completed"] = true,
 		["SourceLocations:Creatures"] = true,
@@ -177,6 +184,8 @@ settings.Initialize = function(self)
 	FilterSettingsBase.__index = app.Presets[app.Class];
 	
 	self.LocationsSlider:SetValue(self:GetTooltipSetting("Locations"));
+	self.MainListScaleSlider:SetValue(self:GetTooltipSetting("MainListScale"));
+	self.MiniListScaleSlider:SetValue(self:GetTooltipSetting("MiniListScale"));
 	self.PrecisionSlider:SetValue(self:GetTooltipSetting("Precision"));
 	self.MinimapButtonSizeSlider:SetValue(self:GetTooltipSetting("MinimapSize"));
 	if self:GetTooltipSetting("MinimapButton") then
@@ -541,7 +550,7 @@ end
 
 -- The ALL THE THINGS Epic Logo!
 local f = settings:CreateTexture(nil, "ARTWORK");
-f:SetATTSprite("base_36x36", 429, 141, 36, 36, 512, 256);
+f:SetATTSprite("base_36x36", 429, 217, 36, 36, 512, 256);
 f:SetPoint("TOPLEFT", settings, "TOPLEFT", 8, -8);
 f:SetSize(36, 36);
 f:Show();
@@ -723,35 +732,6 @@ MinimapButtonSizeSlider:SetScript("OnValueChanged", function(self, newValue)
 	settings:SetTooltipSetting("MinimapSize", newValue)
 	if app.Minimap then app.Minimap:SetSize(newValue, newValue); end
 end);
-
-local ShowMinimapButtonCheckBox = settings:CreateCheckBox("Show the Minimap Button",
-function(self)
-	self:SetChecked(settings:GetTooltipSetting("MinimapButton"));
-end,
-function(self)
-	settings:SetTooltipSetting("MinimapButton", self:GetChecked());
-	if self:GetChecked() then
-		if not app.Minimap then app.Minimap = app.CreateMinimapButton(); end
-		app.Minimap:Show();
-	elseif app.Minimap then
-		app.Minimap:Hide();
-	end
-end);
-ShowMinimapButtonCheckBox:SetATTTooltip("Enable this option if you want to see the minimap button. This button allows you to quickly access the Main List, show your Overall Collection Progress, and access the Settings Menu by right clicking it.\n\nSome people don't like clutter. Alternatively, you can access the Main List by typing '/att' in your chatbox. From there, you can right click the header to get to the Settings Menu.");
-ShowMinimapButtonCheckBox:SetPoint("TOP", MinimapButtonSizeSlider, "BOTTOM", 0, -12);
-ShowMinimapButtonCheckBox:SetPoint("RIGHT", settings, "RIGHT", -228, 0);
-
-local MinimapButtonStyleCheckBox = settings:CreateCheckBox("Use the Old Minimap Style",
-function(self)
-	self:SetChecked(settings:GetTooltipSetting("MinimapStyle"));
-end,
-function(self)
-	settings:SetTooltipSetting("MinimapStyle", self:GetChecked());
-	if app.Minimap then app.Minimap:UpdateStyle(); end
-end);
-MinimapButtonStyleCheckBox:SetATTTooltip("Some people don't like the new minimap button...\n\nThose people are wrong!\n\nIf you don't like it, here's an option to go back to the old style.");
-MinimapButtonStyleCheckBox:SetPoint("TOP", ShowMinimapButtonCheckBox, "BOTTOM", 0, 4);
-MinimapButtonStyleCheckBox:SetPoint("RIGHT", settings, "RIGHT", -228, 0);
 
 
 
@@ -1095,9 +1075,19 @@ QuestsCheckBox:SetPoint("TOPLEFT", MusicRollsCheckBox, "BOTTOMLEFT", 0, 4);
 
 local QuestsAccountWideCheckBox = settings:CreateCheckBox("Account Wide",
 function(self)
-	self:SetChecked(false);
-	self:Disable();
-	self:SetAlpha(0.2);
+	self:SetChecked(settings:Get("AccountWide:Quests"));
+	if settings:Get("DebugMode") or not settings:Get("Thing:Quests") then
+		self:Disable();
+		self:SetAlpha(0.2);
+	else
+		self:Enable();
+		self:SetAlpha(1);
+	end
+end,
+function(self)
+	settings:Set("AccountWide:Quests", self:GetChecked());
+	settings:UpdateMode();
+	app:RefreshData();
 end);
 QuestsAccountWideCheckBox:SetPoint("TOPLEFT", QuestsCheckBox, "TOPLEFT", 220, 0);
 
@@ -1281,6 +1271,32 @@ end);
 ToysAccountWideCheckBox:SetPoint("TOPLEFT", ToysCheckBox, "TOPLEFT", 220, 0);
 
 
+local ShowMinimapButtonCheckBox = settings:CreateCheckBox("Show the Minimap Button",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("MinimapButton"));
+end,
+function(self)
+	settings:SetTooltipSetting("MinimapButton", self:GetChecked());
+	if self:GetChecked() then
+		if not app.Minimap then app.Minimap = app.CreateMinimapButton(); end
+		app.Minimap:Show();
+	elseif app.Minimap then
+		app.Minimap:Hide();
+	end
+end);
+ShowMinimapButtonCheckBox:SetATTTooltip("Enable this option if you want to see the minimap button. This button allows you to quickly access the Main List, show your Overall Collection Progress, and access the Settings Menu by right clicking it.\n\nSome people don't like clutter. Alternatively, you can access the Main List by typing '/att' in your chatbox. From there, you can right click the header to get to the Settings Menu.");
+ShowMinimapButtonCheckBox:SetPoint("TOPLEFT", AchievementsAccountWideCheckBox, "TOPLEFT", 160, 16);
+
+local MinimapButtonStyleCheckBox = settings:CreateCheckBox("Use the Old Minimap Style",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("MinimapStyle"));
+end,
+function(self)
+	settings:SetTooltipSetting("MinimapStyle", self:GetChecked());
+	if app.Minimap then app.Minimap:UpdateStyle(); end
+end);
+MinimapButtonStyleCheckBox:SetATTTooltip("Some people don't like the new minimap button...\n\nThose people are wrong!\n\nIf you don't like it, here's an option to go back to the old style.");
+MinimapButtonStyleCheckBox:SetPoint("TOPLEFT", ShowMinimapButtonCheckBox, "BOTTOMLEFT", 0, 4);
 
 local ShowCompletedGroupsCheckBox = settings:CreateCheckBox("Show Completed Groups",
 function(self)
@@ -1299,7 +1315,7 @@ function(self)
 	app:RefreshData();
 end);
 ShowCompletedGroupsCheckBox:SetATTTooltip("Enable this option if you want to see completed groups as a header with a completion percentage. If a group has nothing relevant for your class, this setting will also make those groups appear in the listing.\n\nWe recommend you turn this setting off as it will conserve the space in the mini list and allow you to quickly see what you are missing from the zone.");
-ShowCompletedGroupsCheckBox:SetPoint("TOPLEFT", AchievementsAccountWideCheckBox, "TOPLEFT", 160, 0);
+ShowCompletedGroupsCheckBox:SetPoint("TOPLEFT", MinimapButtonStyleCheckBox, "BOTTOMLEFT", 0, -4);
 
 local ShowCollectedThingsCheckBox = settings:CreateCheckBox("Show Collected Things",
 function(self)
@@ -1339,6 +1355,25 @@ end);
 ShowIncompleteThingsCheckBox:SetATTTooltip("Enable this option if you want to see items, objects, NPCs, and headers associated with incomplete quests that don't necessarily have anything you can collect as a result of completing them.\n\nYou can use this to help you earn the Loremaster Achievement if you don't already have it.\n\nNOTE: Rare Spawns and Vignettes also appear in the listing with this setting turned on.");
 ShowIncompleteThingsCheckBox:SetPoint("TOPLEFT", ShowCollectedThingsCheckBox, "BOTTOMLEFT", 0, 4);
 
+local ShowRepeatableThingsCheckBox = settings:CreateCheckBox("Track Repeatable Quests",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("Repeatable"));
+	if not settings:Get("Thing:Quests") then
+		self:Disable();
+		self:SetAlpha(0.2);
+	else
+		self:Enable();
+		self:SetAlpha(1);
+	end
+end,
+function(self)
+	settings:SetTooltipSetting("Repeatable", self:GetChecked());
+	settings:UpdateMode();
+	app:RefreshData();
+end);
+ShowRepeatableThingsCheckBox:SetATTTooltip("Enable this option if you want to treat repeatable daily, weekly, and yearly quests as collectible. They will appear in the list like a regular collectible quest.\n\nNOTE: This is NOT intended to be used all the time, but if you're doing a set of dailies in a zone you've otherwise completed and need to be reminded of what is there, you can use this to see them.");
+ShowRepeatableThingsCheckBox:SetPoint("TOPLEFT", ShowIncompleteThingsCheckBox, "BOTTOMLEFT", 4, 4);
+
 local FilterThingsByLevelCheckBox = settings:CreateCheckBox("Filter Things By Level",
 function(self)
 	self:SetChecked(settings:Get("Filter:ByLevel"));
@@ -1356,7 +1391,7 @@ function(self)
 	app:RefreshData();
 end);
 FilterThingsByLevelCheckBox:SetATTTooltip("Enable this setting if you only want to see content available to your current level character.\n\nNOTE: This is especially useful on Starter Accounts.");
-FilterThingsByLevelCheckBox:SetPoint("TOPLEFT", ShowIncompleteThingsCheckBox, "BOTTOMLEFT", 0, 4);
+FilterThingsByLevelCheckBox:SetPoint("TOPLEFT", ShowRepeatableThingsCheckBox, "BOTTOMLEFT", 0, -4);
 
 local HideBoEItemsCheckBox = settings:CreateCheckBox("Hide BoE Items",
 function(self)
@@ -1402,7 +1437,7 @@ function(self)
 	settings:SetTooltipSetting("Expand:Difficulty", self:GetChecked());
 end);
 ExpandDifficultyCheckBox:SetATTTooltip("Enable this option if you want to automatically minimize difficulty headers in the mini list that are not active when you enter a dungeon or raid.\n\nExample: Minimize the Heroic header when in a Normal difficulty dungeon");
-ExpandDifficultyCheckBox:SetPoint("TOPLEFT", IgnoreFiltersForBoEsCheckBox, "BOTTOMLEFT", 0, 0);
+ExpandDifficultyCheckBox:SetPoint("TOPLEFT", IgnoreFiltersForBoEsCheckBox, "BOTTOMLEFT", 0, -4);
 
 local WarnDifficultyCheckBox = settings:CreateCheckBox("Warn Completed Difficulty",
 function(self)
@@ -1414,26 +1449,6 @@ end);
 WarnDifficultyCheckBox:SetATTTooltip("Enable this option if you want to be warned when you enter an instance with a difficulty setting that will result in you being unable to earn new collectibles when there is an alternative unsaved difficulty that you could enter instead.");
 WarnDifficultyCheckBox:SetPoint("TOPLEFT", ExpandDifficultyCheckBox, "BOTTOMLEFT", 0, 4);
 
-local CelebrateCollectedThingsCheckBox = settings:CreateCheckBox("Celebrate Collected Things",
-function(self)
-	self:SetChecked(settings:GetTooltipSetting("Celebrate"));
-end,
-function(self)
-	settings:SetTooltipSetting("Celebrate", self:GetChecked());
-end);
-CelebrateCollectedThingsCheckBox:SetATTTooltip("Enable this option if you want to hear a celebratory 'fanfare' sound effect when you obtain a new Thing.\n\nThis feature can greatly help keep you motivated.");
-CelebrateCollectedThingsCheckBox:SetPoint("TOPLEFT", WarnDifficultyCheckBox, "BOTTOMLEFT", 0, 4);
-
-local WarnRemovedThingsCheckBox = settings:CreateCheckBox("Warn for Removed Things",
-function(self)
-	self:SetChecked(settings:GetTooltipSetting("Warn:Removed"));
-end,
-function(self)
-	settings:SetTooltipSetting("Warn:Removed", self:GetChecked());
-end);
-WarnRemovedThingsCheckBox:SetATTTooltip("Enable this option if you want to hear a warning sound effect when you accidentally sell back or trade an item that granted you an appearance that would cause you to lose that appearance from your collection.\n\nThis can be extremely helpful if you vendor an item with a purchase timer. The addon will tell you that you've made a mistake.");
-WarnRemovedThingsCheckBox:SetPoint("TOPLEFT", CelebrateCollectedThingsCheckBox, "BOTTOMLEFT", 0, 4);
-
 local ReportCollectedThingsCheckBox = settings:CreateCheckBox("Report Collected Things",
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("Report:Collected"));
@@ -1442,7 +1457,7 @@ function(self)
 	settings:SetTooltipSetting("Report:Collected", self:GetChecked());
 end);
 ReportCollectedThingsCheckBox:SetATTTooltip("Enable this option if you want to see a message in chat detailing which items you have collected or removed from your collection.\n\nNOTE: This is present because Blizzard silently adds appearances and other collectible items and neglects to notify you of the additional items available to you.\n\nWe recommend you keep this setting on. You will still hear the fanfare with it off assuming you have that option turned on.");
-ReportCollectedThingsCheckBox:SetPoint("TOPLEFT", WarnRemovedThingsCheckBox, "BOTTOMLEFT", 0, 4);
+ReportCollectedThingsCheckBox:SetPoint("TOPLEFT", WarnDifficultyCheckBox, "BOTTOMLEFT", 0, -4);
 
 local ReportCompletedQuestsCheckBox = settings:CreateCheckBox("Report Completed Quests",
 function(self)
@@ -2189,10 +2204,10 @@ end
 end)();
 
 ------------------------------------------
--- The "Features" Tab.					--
+-- The "Interface" Tab.					--
 ------------------------------------------
 (function()
-local tab = settings:CreateTab("Features");
+local tab = settings:CreateTab("Interface");
 local TooltipLabel = settings:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
 TooltipLabel:SetPoint("TOPLEFT", line, "BOTTOMLEFT", 8, -8);
 TooltipLabel:SetJustifyH("LEFT");
@@ -2349,6 +2364,23 @@ end);
 ShowModelsCheckBox:SetATTTooltip("Enable this option to show models within a preview instead of the icon on the tooltip.\n\nThis option may assist you in identifying what a Rare Spawn or Vendor looks like. It might be a good idea to keep this turned on for that reason.");
 ShowModelsCheckBox:SetPoint("TOPLEFT", ShowKnownByCheckBox, "BOTTOMLEFT", 0, 4);
 
+local ShowRemainingCheckBox = settings:CreateCheckBox("Show Remaining Things",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("Show:Remaining"));
+	if self:GetChecked() then
+		app.GetProgressText = app.GetProgressTextRemaining;
+	else
+		app.GetProgressText = app.GetProgressTextDefault;
+	end
+end,
+function(self)
+	settings:SetTooltipSetting("Show:Remaining", self:GetChecked());
+	-- app:RefreshData();
+	app:UpdateWindows();
+end);
+ShowRemainingCheckBox:SetATTTooltip("Enable this option if you want to see the number of items remaining instead of the progress over total.");
+ShowRemainingCheckBox:SetPoint("TOPLEFT", ShowModelsCheckBox, "BOTTOMLEFT", 0, 4);
+
 
 local ShowSharedAppearancesCheckBox = settings:CreateCheckBox("Show Shared Appearances",
 function(self)
@@ -2365,7 +2397,7 @@ function(self)
 	settings:SetTooltipSetting("SharedAppearances", self:GetChecked());
 end);
 ShowSharedAppearancesCheckBox:SetATTTooltip("Enable this option to see items that share a similar appearance in the tooltip.\n\nNOTE: Items that do not match the armor type are displayed in the list. This is to help you diagnose the Collection progress.\n\nIf you are ever confused by this, as of ATT v1.5.0, you can Right Click the item to open the item and its Shared Appearances into their own standalone Mini List.");
-ShowSharedAppearancesCheckBox:SetPoint("TOPLEFT", ShowModelsCheckBox, "BOTTOMLEFT", 0, 4);
+ShowSharedAppearancesCheckBox:SetPoint("TOPLEFT", ShowRemainingCheckBox, "BOTTOMLEFT", 0, 4);
 
 local IncludeOriginalSourceCheckBox = settings:CreateCheckBox("Include Original Source",
 function(self)
@@ -2521,15 +2553,147 @@ end);
 ShowSourceLocationsForThingsCheckBox:SetATTTooltip("Enable this option if you want to see Source Locations for Things.");
 ShowSourceLocationsForThingsCheckBox:SetPoint("TOPLEFT", ShowSourceLocationsForCreaturesCheckBox, "BOTTOMLEFT", 0, 4);
 
+local DebuggingLabel = settings:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
+DebuggingLabel:SetPoint("TOPRIGHT", line, "BOTTOMRIGHT", -220, -8);
+DebuggingLabel:SetJustifyH("LEFT");
+DebuggingLabel:SetText("Debugging");
+DebuggingLabel:Show();
+table.insert(settings.MostRecentTab.objects, DebuggingLabel);
+local ids = {["achievementID"] = "Achievement ID",
+	["artifactID"] = "Artifact ID",
+	["azeriteEssenceID"] = "Azerite Essence ID",
+	["bonusID"] = "Bonus ID",
+	["creatureID"] = "Creature ID",
+	["creatures"] = "Creatures List",
+	["currencyID"] = "Currency ID",
+	["difficultyID"] = "Difficulty ID",
+	["displayID"] = "Display ID",
+	["encounterID"] = "Encounter ID",
+	["factionID"] = "Faction ID",
+	["filterID"] = "Filter ID",
+	["fileID"] = "File ID",
+	["flightPathID"] = "Flight Path ID",
+	["followerID"] = "Follower ID",
+	["illusionID"] = "Illusion ID",
+	["instanceID"] = "Instance ID",
+	["itemID"] = "Item ID",
+	["itemString"] = "Item String",
+	["mapID"] = "Map ID",
+	["modID"] = "Mod ID",
+	["objectID"] = "Object ID",
+	["questID"] = "Quest ID",
+	["QuestGivers"] = "Quest Givers",
+	["sourceID"] = "Source ID",
+	["speciesID"] = "Species ID",
+	["spellID"] = "Spell ID",
+	["tierID"] = "Tier ID",
+	["titleID"] = "Title ID",
+	["visualID"] = "Visual ID",
+};
+local last = nil;
+for _,id in pairs({"achievementID","artifactID","azeriteEssenceID","bonusID","creatureID","creatures","currencyID","difficultyID","displayID","encounterID","factionID","fileID","filterID","flightPathID","followerID"}) do
+	local filter = settings:CreateCheckBox(ids[id],
+	function(self) 
+		self:SetChecked(settings:GetTooltipSetting(id));
+	end,
+	function(self)
+		settings:SetTooltipSetting(id, self:GetChecked());
+		settings:Refresh();
+	end);
+	if not last then
+		filter:SetPoint("TOPLEFT", DebuggingLabel, "BOTTOMLEFT", 4, 0);
+	else
+		filter:SetPoint("TOPLEFT", last, "BOTTOMLEFT", 0, 4);
+	end
+	last = filter;
+end
+last = nil;
+for _,id in pairs({"illusionID","instanceID","itemID","itemString", "mapID","modID","objectID","questID","QuestGivers","sourceID","speciesID","spellID","tierID","titleID","visualID"}) do
+	local filter = settings:CreateCheckBox(ids[id],
+	function(self) 
+		self:SetChecked(settings:GetTooltipSetting(id));
+	end,
+	function(self)
+		settings:SetTooltipSetting(id, self:GetChecked());
+		settings:Refresh();
+	end);
+	if not last then
+		filter:SetPoint("TOPLEFT", DebuggingLabel, "BOTTOMLEFT", 164, 0);
+	else
+		filter:SetPoint("TOPLEFT", last, "BOTTOMLEFT", 0, 4);
+	end
+	last = filter;
+end
+
+-- This creates the "Main List Scale" slider.
+local MainListScaleSlider = CreateFrame("Slider", "ATTMainListScaleSlider", settings, "OptionsSliderTemplate");
+MainListScaleSlider:SetPoint("LEFT", DebuggingLabel, "LEFT", 0, 0);
+MainListScaleSlider:SetPoint("TOP", ShowSpecializationRequirementsCheckBox, "BOTTOM", 0, 0);
+table.insert(settings.MostRecentTab.objects, MainListScaleSlider);
+settings.MainListScaleSlider = MainListScaleSlider;
+MainListScaleSlider.tooltipText = 'Use this to customize the scale of the Main List.\n\nDefault: 1';
+MainListScaleSlider:SetOrientation('HORIZONTAL');
+MainListScaleSlider:SetWidth(280);
+MainListScaleSlider:SetHeight(20);
+MainListScaleSlider:SetValueStep(0.1);
+MainListScaleSlider:SetMinMaxValues(0.1, 4);
+MainListScaleSlider:SetObeyStepOnDrag(true);
+_G[MainListScaleSlider:GetName() .. 'Low']:SetText('0.1')
+_G[MainListScaleSlider:GetName() .. 'High']:SetText('4')
+_G[MainListScaleSlider:GetName() .. 'Text']:SetText("Main List Scale")
+MainListScaleSlider.Label = MainListScaleSlider:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall");
+MainListScaleSlider.Label:SetPoint("TOP", MainListScaleSlider, "BOTTOM", 0, 0);
+MainListScaleSlider.Label:SetText(MainListScaleSlider:GetValue());
+MainListScaleSlider:SetScript("OnValueChanged", function(self, newValue)
+	self.Label:SetText(newValue);
+	if newValue == settings:GetTooltipSetting("MainListScale") then
+		return 1;
+	end
+	settings:SetTooltipSetting("MainListScale", newValue)
+	app:GetWindow("Prime"):SetScale(newValue);
+end);
+
+-- This creates the "Mini List Scale" slider.
+local MiniListScaleSlider = CreateFrame("Slider", "ATTMiniListScaleSlider", settings, "OptionsSliderTemplate");
+MiniListScaleSlider:SetPoint("LEFT", DebuggingLabel, "LEFT", 0, 0);
+MiniListScaleSlider:SetPoint("TOP", MainListScaleSlider, "BOTTOM", 0, -32);
+table.insert(settings.MostRecentTab.objects, MiniListScaleSlider);
+settings.MiniListScaleSlider = MiniListScaleSlider;
+MiniListScaleSlider.tooltipText = 'Use this to customize the scale of all Mini and Bitty Lists.\n\nDefault: 1';
+MiniListScaleSlider:SetOrientation('HORIZONTAL');
+MiniListScaleSlider:SetWidth(280);
+MiniListScaleSlider:SetHeight(20);
+MiniListScaleSlider:SetValueStep(0.1);
+MiniListScaleSlider:SetMinMaxValues(0.1, 4);
+MiniListScaleSlider:SetObeyStepOnDrag(true);
+_G[MiniListScaleSlider:GetName() .. 'Low']:SetText('0.1')
+_G[MiniListScaleSlider:GetName() .. 'High']:SetText('4')
+_G[MiniListScaleSlider:GetName() .. 'Text']:SetText("Mini List Scale")
+MiniListScaleSlider.Label = MiniListScaleSlider:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall");
+MiniListScaleSlider.Label:SetPoint("TOP", MiniListScaleSlider, "BOTTOM", 0, 0);
+MiniListScaleSlider.Label:SetText(MiniListScaleSlider:GetValue());
+MiniListScaleSlider:SetScript("OnValueChanged", function(self, newValue)
+	self.Label:SetText(newValue);
+	if newValue == settings:GetTooltipSetting("MiniListScale") then
+		return 1;
+	end
+	settings:SetTooltipSetting("MiniListScale", newValue)
+	for key,window in pairs(app.Windows) do
+		if key ~= "Prime" then
+			window:SetScale(newValue);
+		end
+	end
+end);
+
 -- This creates the "Locations" slider.
 local LocationsSlider = CreateFrame("Slider", "ATTLocationsSlider", settings, "OptionsSliderTemplate");
-LocationsSlider:SetPoint("LEFT", ShowSourceLocationsCheckBox, "LEFT", 0, 0);
-LocationsSlider:SetPoint("TOP", ShowSourceLocationsForThingsCheckBox, "BOTTOM", 0, -16);
+LocationsSlider:SetPoint("LEFT", DebuggingLabel, "LEFT", 0, 0);
+LocationsSlider:SetPoint("TOP", MiniListScaleSlider, "BOTTOM", 0, -32);
 table.insert(settings.MostRecentTab.objects, LocationsSlider);
 settings.LocationsSlider = LocationsSlider;
 LocationsSlider.tooltipText = 'Use this to customize the number of source locations to show in the tooltip.\n\nNOTE: This will also show "X" number of other sources based on how many, if that total is equivalent to the total number of displayed elements, then that will simply display the last source.\n\nDefault: 5';
 LocationsSlider:SetOrientation('HORIZONTAL');
-LocationsSlider:SetWidth(180);
+LocationsSlider:SetWidth(280);
 LocationsSlider:SetHeight(20);
 LocationsSlider:SetValueStep(1);
 LocationsSlider:SetMinMaxValues(1, 40);
@@ -2559,14 +2723,47 @@ LocationsSlider.OnRefresh = function(self)
 end;
 
 
+end)();
+
+------------------------------------------
+-- The "Features" Tab.					--
+------------------------------------------
+(function()
+local tab = settings:CreateTab("Features");
 local ModulesLabel = settings:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
-ModulesLabel:SetPoint("TOPRIGHT", line, "BOTTOMRIGHT", -138, -8);
+ModulesLabel:SetPoint("TOPLEFT", line, "BOTTOMLEFT", 8, -8);
 ModulesLabel:SetJustifyH("LEFT");
 ModulesLabel:SetText("Modules & Mini Lists");
 ModulesLabel:Show();
 table.insert(settings.MostRecentTab.objects, ModulesLabel);
 
-local OpenMainListAutomatically = settings:CreateCheckBox("Open the Main List Automatically",
+local ChangeSkipCutsceneState = function(self, checked)
+	if checked then
+		self:RegisterEvent("PLAY_MOVIE");
+		self:RegisterEvent("CINEMATIC_START");
+	else
+		self:UnregisterEvent("PLAY_MOVIE");
+		self:UnregisterEvent("CINEMATIC_START");
+	end
+end
+local AutomaticallySkipCutscenesCheckBox = settings:CreateCheckBox("Automatically Skip Cutscenes",
+function(self)
+	local checked = settings:GetTooltipSetting("Skip:Cutscenes");
+	self:SetChecked(checked);
+	self:SetScript("OnEvent", function(self, ...)
+		-- print(self, "OnEvent", ...);
+		MovieFrame:Hide();
+		CinematicFrame_CancelCinematic();
+	end);
+	ChangeSkipCutsceneState(self, checked);
+end,
+function(self)
+	settings:SetTooltipSetting("Skip:Cutscenes", self:GetChecked());
+end);
+AutomaticallySkipCutscenesCheckBox:SetATTTooltip("Enable this option if you want ATT to automatically skip all cutscenes on your behalf.");
+AutomaticallySkipCutscenesCheckBox:SetPoint("TOPLEFT", ModulesLabel, "BOTTOMLEFT", 4, 0);
+
+local OpenMainListAutomatically = settings:CreateCheckBox("Automatically Open the Main List",
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("Auto:MainList"));
 end,
@@ -2574,9 +2771,9 @@ function(self)
 	settings:SetTooltipSetting("Auto:MainList", self:GetChecked());
 end);
 OpenMainListAutomatically:SetATTTooltip("Enable this option if you want to automatically open the Main List when you login.\n\nYou can also bind this setting to a Key:\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Main List\n\nShortcut Command: /att");
-OpenMainListAutomatically:SetPoint("TOPLEFT", ModulesLabel, "BOTTOMLEFT", 4, 0);
+OpenMainListAutomatically:SetPoint("TOPLEFT", AutomaticallySkipCutscenesCheckBox, "BOTTOMLEFT", 0, 4);
 
-local OpenMiniListAutomatically = settings:CreateCheckBox("Open the Mini List Automatically",
+local OpenMiniListAutomatically = settings:CreateCheckBox("Automatically Open the Mini List",
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("Auto:MiniList"));
 end,
@@ -2586,7 +2783,7 @@ end);
 OpenMiniListAutomatically:SetATTTooltip("Enable this option if you want to see everything you can collect in your current zone. The list will automatically switch when you change zones. Some people don't like this feature, but when you are solo farming, this feature is extremely useful.\n\nYou can also bind this setting to a Key.\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Mini List\n\nShortcut Command: /att mini");
 OpenMiniListAutomatically:SetPoint("TOPLEFT", OpenMainListAutomatically, "BOTTOMLEFT", 0, 4);
 
-local OpenProfessionListAutomatically = settings:CreateCheckBox("Open the Profession List Automatically",
+local OpenProfessionListAutomatically = settings:CreateCheckBox("Automatically Open the Profession List",
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("Auto:ProfessionList"));
 end,
@@ -2596,7 +2793,7 @@ end);
 OpenProfessionListAutomatically:SetATTTooltip("Enable this option if you want ATT to open and refresh the profession list when you open your professions. Due to an API limitation imposed by Blizzard, the only time an addon can interact with your profession data is when it is open. The list will automatically switch when you change to a different profession.\n\nWe don't recommend disabling this option as it may prevent recipes from tracking correctly.\n\nYou can also bind this setting to a Key. (only works when a profession is open)\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Profession Mini List\n\nShortcut Command: /att prof");
 OpenProfessionListAutomatically:SetPoint("TOPLEFT", OpenMiniListAutomatically, "BOTTOMLEFT", 0, 4);
 
-local OpenRaidAssistantAutomatically = settings:CreateCheckBox("Open the Raid Assistant Automatically",
+local OpenRaidAssistantAutomatically = settings:CreateCheckBox("Automatically Open the Raid Assistant",
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("Auto:RaidAssistant"));
 end,
@@ -2606,7 +2803,8 @@ end);
 OpenRaidAssistantAutomatically:SetATTTooltip("Enable this option if you want to see an alternative group/party/raid settings manager called the 'Raid Assistant'. The list will automatically update whenever group settings change.\n\nYou can also bind this setting to a Key.\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Raid Assistant\n\nShortcut Command: /attra");
 OpenRaidAssistantAutomatically:SetPoint("TOPLEFT", OpenProfessionListAutomatically, "BOTTOMLEFT", 0, 4);
 
-local OpenWorldQuestsListAutomatically = settings:CreateCheckBox("Open the World Quests List Automatically",
+
+local OpenWorldQuestsListAutomatically = settings:CreateCheckBox("Automatically Open the World Quests List",
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("Auto:WorldQuestsList"));
 end,
@@ -2626,86 +2824,79 @@ end);
 ShowCurrenciesInWorldQuestsList:SetATTTooltip("Enable this option if you want to treat currencies awarded by World Quests as if all of the Things they are used to acquire counted as +1 in the list.");
 ShowCurrenciesInWorldQuestsList:SetPoint("TOPLEFT", OpenWorldQuestsListAutomatically, "BOTTOMLEFT", 4, 4);
 
-local DebuggingLabel = settings:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
-DebuggingLabel:SetPoint("TOPLEFT", ShowCurrenciesInWorldQuestsList, "BOTTOMLEFT", -8, -8);
-DebuggingLabel:SetJustifyH("LEFT");
-DebuggingLabel:SetText("Debugging");
-DebuggingLabel:Show();
-table.insert(settings.MostRecentTab.objects, DebuggingLabel);
-local ids = {["achievementID"] = "Achievement ID",
-	["artifactID"] = "Artifact ID",
-	["bonusID"] = "Bonus ID",
-	["creatureID"] = "Creature ID",
-	["creatures"] = "Creatures List",
-	["currencyID"] = "Currency ID",
-	["difficultyID"] = "Difficulty ID",
-	["displayID"] = "Display ID",
-	["encounterID"] = "Encounter ID",
-	["factionID"] = "Faction ID",
-	["filterID"] = "Filter ID",
-	["fileID"] = "File ID",
-	["illusionID"] = "Illusion ID",
-	["instanceID"] = "Instance ID",
-	["itemID"] = "Item ID",
-	["itemString"] = "Item String",
-	["mapID"] = "Map ID",
-	["modID"] = "Mod ID",
-	["objectID"] = "Object ID",
-	["questID"] = "Quest ID",
-	["QuestGivers"] = "Quest Givers",
-	["sourceID"] = "Source ID",
-	["speciesID"] = "Species ID",
-	["spellID"] = "Spell ID",
-	["tierID"] = "Tier ID",
-	["titleID"] = "Title ID",
-	["visualID"] = "Visual ID",
-};
-local last = nil;
-for _,id in pairs({"achievementID","artifactID","bonusID","creatureID","creatures","currencyID","difficultyID","displayID","encounterID","factionID","fileID","filterID","illusionID","instanceID"}) do
-	local filter = settings:CreateCheckBox(ids[id],
-	function(self) 
-		self:SetChecked(settings:GetTooltipSetting(id));
-	end,
-	function(self)
-		settings:SetTooltipSetting(id, self:GetChecked());
-		settings:Refresh();
-	end);
-	if not last then
-		filter:SetPoint("TOPLEFT", DebuggingLabel, "BOTTOMLEFT", 4, 0);
-	else
-		filter:SetPoint("TOPLEFT", last, "BOTTOMLEFT", 0, 4);
+local ShowAuctionHouseModuleTab = settings:CreateCheckBox("Show the Auction House Module Tab",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("Auto:AH"));
+end,
+function(self)
+	settings:SetTooltipSetting("Auto:AH", self:GetChecked());
+	if app.Blizzard_AuctionUILoaded then
+		if app.AuctionModuleTabID then
+			if self:GetChecked() then
+				PanelTemplates_EnableTab(AuctionFrame, app.AuctionModuleTabID);
+				if app.OpenAuctionModule then app:OpenAuctionModule(); end
+			else
+				PanelTemplates_DisableTab(AuctionFrame, app.AuctionModuleTabID);
+			end
+		elseif app.OpenAuctionModule then
+			app:OpenAuctionModule();
+		end
 	end
-	last = filter;
-end
-last = nil;
-for _,id in pairs({"itemID","itemString", "mapID","modID","objectID","questID","QuestGivers","sourceID","speciesID","spellID","tierID","titleID","visualID"}) do
-	local filter = settings:CreateCheckBox(ids[id],
-	function(self) 
-		self:SetChecked(settings:GetTooltipSetting(id));
-	end,
-	function(self)
-		settings:SetTooltipSetting(id, self:GetChecked());
-		settings:Refresh();
-	end);
-	if not last then
-		filter:SetPoint("TOPLEFT", DebuggingLabel, "BOTTOMLEFT", 164, 0);
-	else
-		filter:SetPoint("TOPLEFT", last, "BOTTOMLEFT", 0, 4);
+end);
+ShowAuctionHouseModuleTab:SetATTTooltip("Enable this option if you want to see the Auction House Module provided with ATT.\n\nSome addons are naughty and modify this frame extensively. ATT doesn't always play nice with those toys.");
+ShowAuctionHouseModuleTab:SetPoint("TOPLEFT", ShowCurrenciesInWorldQuestsList, "BOTTOMLEFT", -4, 4);
+
+local CelebrationsLabel = settings:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge");
+CelebrationsLabel:SetPoint("TOPRIGHT", line, "BOTTOMRIGHT", -50, -8);
+CelebrationsLabel:SetJustifyH("LEFT");
+CelebrationsLabel:SetText("Celebrations & Sound Effects");
+CelebrationsLabel:Show();
+table.insert(settings.MostRecentTab.objects, CelebrationsLabel);
+
+local UseMasterAudioChannel = settings:CreateCheckBox("Use the Master Audio Channel",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("Channel") == "master");
+end,
+function(self)
+	local state = self:GetChecked() and "master" or "sound";
+	if settings:GetTooltipSetting("Channel") ~= state then
+		settings:SetTooltipSetting("Channel", state);
 	end
-	last = filter;
-end
+end);
+UseMasterAudioChannel:SetATTTooltip("Enable this option if you want the celebrations and other ATT sound effects to play on the 'MASTER' audio channel.\n\nDefault: Yes\n\nA lot of people play with sound effects off, so this option allows the ATT sounds to bypass that should it be desired.");
+UseMasterAudioChannel:SetPoint("TOPLEFT", CelebrationsLabel, "BOTTOMLEFT", 4, 0);
+
+local CelebrateCollectedThingsCheckBox = settings:CreateCheckBox("Collected Things Trigger a Celebration",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("Celebrate"));
+end,
+function(self)
+	settings:SetTooltipSetting("Celebrate", self:GetChecked());
+end);
+CelebrateCollectedThingsCheckBox:SetATTTooltip("Enable this option if you want to hear a celebratory 'fanfare' sound effect when you obtain a new Thing.\n\nThis feature can greatly help keep you motivated.");
+CelebrateCollectedThingsCheckBox:SetPoint("TOPLEFT", UseMasterAudioChannel, "BOTTOMLEFT", 0, 4);
+
+local WarnRemovedThingsCheckBox = settings:CreateCheckBox("Removed Things Trigger a Warning",
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("Warn:Removed"));
+end,
+function(self)
+	settings:SetTooltipSetting("Warn:Removed", self:GetChecked());
+end);
+WarnRemovedThingsCheckBox:SetATTTooltip("Enable this option if you want to hear a warning sound effect when you accidentally sell back or trade an item that granted you an appearance that would cause you to lose that appearance from your collection.\n\nThis can be extremely helpful if you vendor an item with a purchase timer. The addon will tell you that you've made a mistake.");
+WarnRemovedThingsCheckBox:SetPoint("TOPLEFT", CelebrateCollectedThingsCheckBox, "BOTTOMLEFT", 0, 4);
 end)();
 
 ------------------------------------------
--- The "About/Help" Tab.				--
+-- The "About" Tab.				--
 ------------------------------------------
 (function()
-local tab = settings:CreateTab("About/Help");
+local tab = settings:CreateTab("About");
 local AboutText = settings:CreateFontString(nil, "ARTWORK", "GameFontNormal");
 AboutText:SetPoint("TOPLEFT", line, "BOTTOMLEFT", 8, -8);
 AboutText:SetPoint("TOPRIGHT", line, "BOTTOMRIGHT", -8, -8);
 AboutText:SetJustifyH("LEFT");
-AboutText:SetText(L["TITLE"] .. " |CFFFFFFFFis a collection tracking addon that shows you where and how to get everything in the game! We have a large community of users on our Discord (link at the bottom) where you can ask questions, submit suggestions as well as Report Bugs / Missing Items. If you find something collectible or a quest that isn't documented, you can tell us on the Discord, or for the more technical savy, we have a Git that you may contribute directly to.\n\nWhile we do strive for completion, there's a lot of stuff getting added into the game each patch, so if we're missing something, please understand that we're a small team trying to keep up with changes as well as collect things ourselves. :D\n\nFeel free to ask me questions when I'm streaming and I'll try my best to answer it, even if it's not directly related to ATT. (general WoW Addon Programming as well)\n\n- |r|Cffff8000Crieve (DFortun81)|CFFFFFFFF\n\nPS: As a community, we're currently focusing on Legion Raid Transmog, so if you're interested in this, we form groups on Fridays and Saturdays at 3 PM Arizona Time. Search Premade Group finder for \"CRIEVE\" around this time and you'll likely find our group!\n\n\n\nI keep getting this question:\nYes, there will be a version of ATT for Classic WoW. It will simply be a loot and quest tracker as obviously there will be no transmog collecting in Classic. (nor should there be)\n\nYes, I intend to play Classic WoW, but between working full time and developing the two versions of the addon, there won't be a lot of time for raiding.\n\nNo, ATT is not the addon that places icons on your bag icons. That's CanIMogIt and Caerdon Wardrobe!\n\nWebsite for comparing Collections coming Soon™.|r");
+AboutText:SetText(L["TITLE"] .. " |CFFFFFFFFis a collection tracking addon that shows you where and how to get everything in the game! We have a large community of users on our Discord (link at the bottom) where you can ask questions, submit suggestions as well as report bugs or missing items. If you find something collectible or a quest that isn't documented, you can tell us on the Discord, or for the more technical savvy, we have a Git that you may contribute directly to.\n\nWhile we do strive for completion, there's a lot of stuff getting added into the game each patch, so if we're missing something, please understand that we're a small team trying to keep up with changes as well as collect things ourselves. :D\n\nFeel free to ask me questions when I'm streaming and I'll try my best to answer it, even if it's not directly related to ATT (general WoW addon programming as well).\n\n- |r|Cffff8000Crieve (DFortun81)|CFFFFFFFF\n\nPS: As a community, we're currently focusing on Legion Raid Transmog, so if you're interested in this, we form groups on Fridays and Saturdays at 3 PM Arizona Time. Search Premade Group finder for \"CRIEVE\" around this time and you'll likely find our group!\n\n\n\nI keep getting this question:\nYes, there will be a version of ATT for Classic WoW. It will simply be a loot and quest tracker as obviously there will be no transmog collecting in Classic (nor should there be).\n\nYes, I intend to play Classic WoW, but between working full time and developing the two versions of the addon, there won't be a lot of time for raiding.\n\nNo, ATT is not the addon that places icons on your bag icons. That's CanIMogIt and Caerdon Wardrobe!\n\nWebsite for comparing Collections coming Soon™.|r");
 AboutText:Show();
 table.insert(settings.MostRecentTab.objects, AboutText);
 

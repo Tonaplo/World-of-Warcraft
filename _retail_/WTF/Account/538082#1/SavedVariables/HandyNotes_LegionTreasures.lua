@@ -5,14 +5,14 @@ HandyNotes_LegionTreasuresDB = {
 		["Faerand - Icecrown"] = "Faerand - Icecrown",
 		["Praerend - Icecrown"] = "DPS",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
-		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kaldorath - Icecrown"] = "Tank",
+		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
+		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
 		["Mallusof - Icecrown"] = "DPS",
 	},
@@ -43,9 +43,9 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["DPS"] = {
 		},
-		["healer"] = {
-		},
 		["Kindhoof - Tichondrius"] = {
+		},
+		["healer"] = {
 		},
 		["Alura - Tichondrius"] = {
 		},

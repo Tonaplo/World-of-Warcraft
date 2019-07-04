@@ -1,9 +1,9 @@
 BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
-Arh: disabled
+Arh: enabled
 LittleWigs: enabled
-AllTheThings: disabled
+AllTheThings: enabled
 Conditioner: enabled
 SexyMap: disabled
 ElvUI_Config: enabled
@@ -17,3 +17,5 @@ XLoot_Group: disabled
 XLoot_Monitor: disabled
 Quester: disabled
 Immersion: disabled
+WeakAurasCompanion: enabled
+QE-DungeonTips: disabled

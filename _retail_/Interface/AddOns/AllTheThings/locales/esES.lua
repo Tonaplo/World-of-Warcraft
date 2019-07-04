@@ -4,9 +4,15 @@ local L = AllTheThings.L;
 
 -- TODO
 
+local a = L.NPC_ID_NAMES;
+for key,value in pairs({
+	-- Enter translated NPCID's here
+})
+do a[key] = value; end
 
 local a = L.OBJECT_ID_NAMES;
 for key,value in pairs({
+	-- Enter translated OBJECTID's here
 	[31] = "Estatua de león antigua",
 	[34] = "Vieja jarra",
 	[55] = "Un cadáver medio comido",
@@ -41,6 +47,7 @@ for key,value in pairs({
 	[138492] = "Fragmentos de Myzrael",
 	[141979] = "Tesoro antiguo",
 	[142195] = "Mapa de batalla de los Zarpaleña",
+	[142343] = "Pedestal de Uldum",
 	[142487] = "El Destellamatic 5200",
 	[144063] = "Monolito de Equinex",
 	[148502] = "Página 9",
@@ -172,8 +179,10 @@ for key,value in pairs({
 	[190104] = "Cubo de caramelos",
 	[190917] = "Correo abandonado",
 	[190936] = "Caldera de peste",
+	[191728] = "¡Se busca!",
 	[191760] = "Consola de la Biblioteca del Inventor",
 	[191761] = "Consola prototipo",
+	[192049] = "Banco de arenques colmillo",
 	[192060] = "Yunque de Fjorn",
 	[192072] = "Cajón de arpones",
 	[194105] = "Caja mecánica 413",
@@ -917,6 +926,7 @@ for key,value in pairs({
 	[294317] = "Cofre de Muertobosque",
 	[294319] = "Tesoro hundido en la arena",
 	[294703] = "Arcón oxidado de Huesardo",
+	[296536] = "Guja de centinela ensangrentada",
 	[297825] = "Cofre cubierto de telarañas",
 	[297828] = "Cofre de mercader",
 	[297878] = "Cofre maldito",

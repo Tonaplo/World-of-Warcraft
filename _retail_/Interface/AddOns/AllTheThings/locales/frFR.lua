@@ -7,9 +7,15 @@ L.SAVED_TO_DJ_INSTANCES["Le Puits de soleil"] = "Plateau du Puits de soleil";
 L.SAVED_TO_DJ_INSTANCES["Donjon de la Tempête"] = "L’Œil";
 L.SAVED_TO_DJ_INSTANCES["Glissecroc : caverne du sanctuaire du Serpent"] = "Caverne du sanctuaire du Serpent";
 
+local a = L.NPC_ID_NAMES;
+for key,value in pairs({
+	-- Enter translated NPCID's here
+})
+do a[key] = value; end
 
 local a = L.OBJECT_ID_NAMES;
 for key,value in pairs({
+	-- Enter translated OBJECTID's here
 	[31] = "Statue du vieux lion",
 	[34] = "Vieille cruche",
 	[55] = "Un corps à moitié dévoré",
@@ -44,6 +50,7 @@ for key,value in pairs({
 	[138492] = "Fragments de Myzrael",
 	[141979] = "Trésor ancien",
 	[142195] = "Plan de bataille des Griffebois",
+	[142343] = "Piédestal d'Uldum",
 	[142487] = "Le Brille-o-Matic 5200",
 	[144063] = "Monolithe d'Equinex",
 	[148502] = "Page 9",
@@ -175,8 +182,10 @@ for key,value in pairs({
 	[190104] = "Seau de bonbons",
 	[190917] = "Courrier abandonné",
 	[190936] = "Chaudron de peste",
+	[191728] = "Avis de recherche !",
 	[191760] = "Console de la bibliothèque de l'inventeur",
 	[191761] = "Console prototype",
+	[192049] = "Banc de harengs crocs-pointus",
 	[192060] = "L’enclume de Fjorn",
 	[192072] = "Caisse de harpons",
 	[194105] = "Bigobox 413",
@@ -920,6 +929,7 @@ for key,value in pairs({
 	[294317] = "Coffre du Bois mort",
 	[294319] = "Trésor enfoui dans le sable",
 	[294703] = "Coffret rouillé d’Osselet",
+	[296536] = "Glaive de sentinelle ensanglanté",
 	[297825] = "Coffre couvert de toiles d’araignée",
 	[297828] = "Coffre de marchand",
 	[297878] = "Coffre maléficié",

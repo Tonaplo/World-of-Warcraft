@@ -55,6 +55,10 @@ VER 3 0000000000000066 "MO Druid08" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Ironbark
 END
+VER 3 0000000000000068 "MO Essence 1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead] [] Concentrated Flame
+END
 VER 3 000000000000004A "MO HPriest01" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Renew
@@ -86,6 +90,10 @@ END
 VER 3 0000000000000051 "MO HPriest08" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Prayer of Mending
+END
+VER 3 0000000000000067 "MO Monk01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/2] Chi Wave; [talent:1/3] Chi Burst
 END
 VER 3 0000000000000059 "MO Pally01" "INV_MISC_QUESTIONMARK"
 #showtooltip

@@ -4,6 +4,8 @@ DraenorTreasuresDB = {
 		["Weston - Icecrown"] = "Default",
 		["Faerand - Icecrown"] = "Default",
 		["Praerend - Icecrown"] = "DPS",
+		["Zearthan - Icecrown"] = "Default",
+		["Farahn - Icecrown"] = "Default",
 		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Default",
 		["Korugen - Icecrown"] = "Default",
@@ -15,13 +17,38 @@ DraenorTreasuresDB = {
 		["Mallusof - Icecrown"] = "DPS",
 	},
 	["profiles"] = {
-		["DPS"] = {
+		["healer"] = {
 		},
 		["Tank"] = {
 		},
 		["Default"] = {
+			["rare_h_tj"] = false,
+			["rare_soa"] = false,
+			["rare_h_ng"] = false,
+			["treasure_gg_b"] = false,
+			["treasure_gg_l"] = false,
+			["mount_po"] = false,
+			["rare_ffr"] = false,
+			["rare_s_ng"] = false,
+			["rare_smv"] = false,
+			["rare_h_ffr"] = false,
+			["mount_na"] = false,
+			["mount_pr"] = false,
+			["mount_no"] = false,
+			["mount_vt"] = false,
+			["rare_h_td"] = false,
+			["rare_h_soa"] = false,
+			["mount_go"] = false,
+			["mount_tj"] = false,
+			["rare_gg"] = false,
+			["mount_si"] = false,
+			["rare_td"] = false,
+			["rare_ng"] = false,
+			["mount_lu"] = false,
+			["rare_dh"] = false,
+			["rare_h_gg"] = false,
 		},
-		["healer"] = {
+		["DPS"] = {
 		},
 	},
 }

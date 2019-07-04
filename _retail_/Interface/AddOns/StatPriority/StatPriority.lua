@@ -5,7 +5,7 @@ local statPriorityStats = {}
 
 statPriorityStats["WARRIORArms"] = "Haste > Critical Strike > Versatility > Mastery > Strength"
 statPriorityStats["WARRIORFury"] = "Critical Strike > Mastery > Haste > Versatility > Strength"
-statPriorityStats["WARRIORProtection"] = "Haste > Armor > Versatility > Mastery > Critical Strike > Strength"
+statPriorityStats["WARRIORProtection"] = "Haste > Versatility > Mastery > Critical Strike > Strength > Armor"
 
 statPriorityStats["PALADINHoly"] = "Intellect > Critical Strike > Mastery > Haste > Versatility"
 statPriorityStats["PALADINProtection"] = "Haste > Mastery > Versatility > Critical Strike"
@@ -20,8 +20,8 @@ statPriorityStats["ROGUEOutlaw"] = "Agility > Critical Strike > Haste > Versatil
 statPriorityStats["ROGUESubtlety"] = "Mastery > Critical Strike > Versatility > Haste"
 
 statPriorityStats["PRIESTDiscipline"] = "Intellect > Haste > Critical Strike > Versatility > Mastery"
-statPriorityStats["PRIESTHoly"] = "Intellect > Critical Strike > Haste > Versatility > Mastery"
-statPriorityStats["PRIESTShadow"] = "Haste = Critical Strike > Intellect > Mastery > Versatility"
+statPriorityStats["PRIESTHoly"] = "Critical Strike > Haste > Versatility > Intellect > Mastery"
+statPriorityStats["PRIESTShadow"] = "Haste = Critical Strike > Mastery = Versatility > Intellect"
 
 statPriorityStats["SHAMANElemental"] = "Intellect > Versatility > Critical Strike > Haste > Mastery"
 statPriorityStats["SHAMANEnhancement"] = "Haste > Critical Strike = Versatility > Mastery > Agility"
@@ -29,26 +29,26 @@ statPriorityStats["SHAMANRestoration"] = "Intellect > Critical Strike > Versatil
 
 statPriorityStats["MAGEArcane"] = "Intellect > Critical Strike > Haste > Mastery > Versatility"
 statPriorityStats["MAGEFire"] = "Intellect > Mastery > Versatility > Haste > Critical Strike"
-statPriorityStats["MAGEFrost"] = "Intellect > Critical Strike to 33.34% > Haste > Versatility > Mastery"
+statPriorityStats["MAGEFrost"] = "Critical Strike to 33.34% > Haste > Versatility > Mastery > Intellect"
 
 statPriorityStats["WARLOCKAffliction"] = "Mastery > Intellect > Haste > Critical Strike = Versatility"
 statPriorityStats["WARLOCKDemonology"] = "Intellect > Haste > Critical Strike > Versatility > Mastery"
 statPriorityStats["WARLOCKDestruction"] = "Mastery > Haste > Critical Strike > Intellect > Versatility"
 
-statPriorityStats["DRUIDBalance"] = "Intellect > Haste > Mastery > Critical Strike > Versatility"
-statPriorityStats["DRUIDFeral"] = "Critical Strike > Mastery > Haste > Agility > Versatility"
-statPriorityStats["DRUIDGuardian"] = "Armor = Agility = Stamina > Mastery > Versatility > Haste > Critical Strike"
+statPriorityStats["DRUIDBalance"] = "Haste > Mastery > Critical Strike > Versatility > Intellect"
+statPriorityStats["DRUIDFeral"] = "Critical Strike > Mastery > Versatility > Haste > Agility"
+statPriorityStats["DRUIDGuardian"] = "Armor = Agility = Stamina > Versatility > Mastery > Haste > Critical Strike"
 statPriorityStats["DRUIDRestoration"] = "Mastery = Haste > Versatility > Critical Strike > Intellect"
 
 statPriorityStats["MONKBrewmaster"] = "Agility > Mastery > Critical Strike = Versatility > Haste"
-statPriorityStats["MONKMistweaver"] = "Intellect > Critical Strike > Mastery = Versatility > Haste"
+statPriorityStats["MONKMistweaver"] = "Critical Strike > Mastery = Versatility > Intellect > Haste"
 statPriorityStats["MONKWindwalker"] = "Agility > Versatility > Mastery > Critical Strike > Haste"
 
 statPriorityStats["DEATHKNIGHTBlood"] = "Versatility > Haste > Critical Strike > Mastery"
 statPriorityStats["DEATHKNIGHTFrost"] = "Mastery > Critical Strike > Versatility > Haste"
 statPriorityStats["DEATHKNIGHTUnholy"] = "Haste > Critical Strike = Versatility > Mastery"
 
-statPriorityStats["DEMONHUNTERHavoc"] = "Versatility Critical Strike = Haste > Agility > > Mastery"
+statPriorityStats["DEMONHUNTERHavoc"] = "Versatility > Critical Strike = Haste > Agility > Mastery"
 statPriorityStats["DEMONHUNTERVengeance"] = "Agility > Haste > Versatility > Mastery > Critical Strike"
 
 function SlashCmdList.STATPRIORITY(msg, editbox)

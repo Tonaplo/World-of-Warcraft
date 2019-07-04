@@ -207,6 +207,20 @@ E.PriestColors = {
 	colorStr = 'fcfcfc'
 }
 
+-- Socket Type info from 8.2
+E.GemTypeInfo = {
+	Yellow = {r = 0.97, g = 0.82, b = 0.29},
+	Red = {r = 1, g = 0.47, b = 0.47},
+	Blue = {r = 0.47, g = 0.67, b = 1},
+	Hydraulic = {r = 1, g = 1, b = 1},
+	Cogwheel = {r = 1, g = 1, b = 1},
+	Meta = {r = 1, g = 1, b = 1},
+	Prismatic = {r = 1, g = 1, b = 1},
+	PunchcardRed = {r = 1, g = 0.47, b = 0.47},
+	PunchcardYellow = {r = 0.97, g = 0.82, b = 0.29},
+	PunchcardBlue = {r = 0.47, g = 0.67, b = 1},
+}
+
 function E:GetPlayerRole()
 	local assignedRole = UnitGroupRolesAssigned('player')
 	if assignedRole == 'NONE' then
@@ -636,6 +650,16 @@ function E:CheckRole()
 
 	if self.myrole and self.DispelClasses[self.myclass] ~= nil then
 		self.DispelClasses[self.myclass].Magic = (self.myrole == 'HEALER')
+	end
+end
+
+do -- other non-english locales require this
+	E.UnlocalizedClasses = {}
+	for k,v in pairs(_G.LOCALIZED_CLASS_NAMES_MALE) do E.UnlocalizedClasses[v] = k end
+	for k,v in pairs(_G.LOCALIZED_CLASS_NAMES_FEMALE) do E.UnlocalizedClasses[v] = k end
+
+	function E:UnlocalizedClassName(className)
+		return (className and className ~= "") and E.UnlocalizedClasses[className]
 	end
 end
 

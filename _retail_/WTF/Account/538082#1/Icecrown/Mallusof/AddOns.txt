@@ -18,10 +18,10 @@ RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_EU_H_R: disabled
 RaiderIO_DB_EU_A_R: disabled
-Arh: disabled
+Arh: enabled
 HealerStatWeights: disabled
 BigWigs_BattleOfDazaralor: enabled
-AllTheThings: disabled
+AllTheThings: enabled
 Conditioner: disabled
 LUI: disabled
 SexyMap: disabled
@@ -36,3 +36,5 @@ Quester: disabled
 Immersion: disabled
 BigWigs_CrucibleOfStorms: enabled
 WeakAurasCompanion: enabled
+Simulationcraft: disabled
+StatPriority: disabled

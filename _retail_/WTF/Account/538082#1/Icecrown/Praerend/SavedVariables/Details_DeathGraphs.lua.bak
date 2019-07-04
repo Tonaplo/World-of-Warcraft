@@ -6,6 +6,24 @@ DeathGraphsDBDeaths = {
 		["name"] = "The Restless Cabal",
 		["id"] = 2328,
 		["diff"] = 14,
+		["player_db"] = {
+			["Eldodin-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -19,24 +37,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1177,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Eldodin-KhazModan"] = {
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["name"] = "Kesak-Lightbringer",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["233214"] = {
 		["hash"] = "233214",
@@ -44,6 +44,24 @@ DeathGraphsDBDeaths = {
 		["name"] = "Uu'nat, Harbinger of the Void",
 		["id"] = 2332,
 		["diff"] = 14,
+		["player_db"] = {
+			["Eldodin-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+			},
+			["Praerend"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Praerend",
+				["class"] = "WARRIOR",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -57,24 +75,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1177,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Eldodin-KhazModan"] = {
-				["name"] = "Eldodin-KhazModan",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Praerend"] = {
-				["name"] = "Praerend",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -84,19 +84,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "The Restless Cabal",
 		["id"] = 2328,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Crucible of Storms",
-			["encounter"] = "The Restless Cabal",
-			["mapid"] = 2096,
-			["try_number"] = 1,
-			["name"] = "The Restless Cabal",
-			["diff"] = 14,
-			["id"] = 2269,
-			["ej_instance_id"] = 1177,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
 				["encounters"] = 1,
@@ -179,6 +166,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARRIOR",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Crucible of Storms",
+			["encounter"] = "The Restless Cabal",
+			["mapid"] = 2096,
+			["try_number"] = 1,
+			["name"] = "The Restless Cabal",
+			["diff"] = 14,
+			["id"] = 2269,
+			["ej_instance_id"] = 1177,
+			["killed"] = true,
+		},
 	},
 	["233214"] = {
 		["hash"] = "233214",
@@ -186,19 +186,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Uu'nat, Harbinger of the Void",
 		["id"] = 2332,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "Crucible of Storms",
-			["encounter"] = "Uu'nat, Harbinger of the Void",
-			["mapid"] = 2096,
-			["try_number"] = 1,
-			["name"] = "Uu'nat, Harbinger of the Void",
-			["diff"] = 14,
-			["id"] = 2273,
-			["ej_instance_id"] = 1177,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
 				["encounters"] = 1,
@@ -285,6 +272,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "Crucible of Storms",
+			["encounter"] = "Uu'nat, Harbinger of the Void",
+			["mapid"] = 2096,
+			["try_number"] = 1,
+			["name"] = "Uu'nat, Harbinger of the Void",
+			["diff"] = 14,
+			["id"] = 2273,
+			["ej_instance_id"] = 1177,
+			["killed"] = true,
 		},
 	},
 }

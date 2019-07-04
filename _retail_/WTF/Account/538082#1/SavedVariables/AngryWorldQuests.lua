@@ -1,6 +1,6 @@
 
 AngryWorldQuests_Config = {
-	["__version"] = 20,
-	["disabledFilters"] = 1048528,
 	["__filters"] = 22,
+	["disabledFilters"] = 65232,
+	["__version"] = 20,
 }

@@ -42,6 +42,9 @@ SimulationCraftDB = {
 		["Alianalen - Frostwolf"] = {
 		},
 		["Weston - Icecrown"] = {
+			["minimap"] = {
+				["minimapPos"] = 202.121936669121,
+			},
 		},
 		["Farahn - Icecrown"] = {
 		},
@@ -52,6 +55,9 @@ SimulationCraftDB = {
 		["Tyindel - Frostwolf"] = {
 		},
 		["Greybone - Icecrown"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Thedodrouk - Icecrown"] = {
 		},

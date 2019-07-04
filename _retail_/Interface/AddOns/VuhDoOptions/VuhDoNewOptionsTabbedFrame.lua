@@ -17,14 +17,18 @@ VUHDO_IS_CONFIG = false;
 
 --
 function VUHDO_tabbedFrameOnMouseDown(aPanel)
-	aPanel:StartMoving();
+	-- 8.2 introduced a bug that renders VuhDo Options useless when the main frame is moved
+	-- disable moving the options frame for now
+	--aPanel:StartMoving();
 end
 
 
 
 --
 function VUHDO_tabbedFrameOnMouseUp(aPanel)
-	aPanel:StopMovingOrSizing();
+	-- 8.2 introduced a bug that renders VuhDo Options useless when the main frame is moved
+	-- disable moving the options frame for now
+	--aPanel:StopMovingOrSizing();
 end
 
 

@@ -55,6 +55,14 @@ VER 3 0000000000000066 "MO Druid08" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Ironbark
 END
+VER 3 0000000000000068 "MO Essence 1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead] [] Concentrated Flame
+END
+VER 3 0000000000000069 "MO Essence2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead] [] Refreshment
+END
 VER 3 000000000000004A "MO HPriest01" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Renew

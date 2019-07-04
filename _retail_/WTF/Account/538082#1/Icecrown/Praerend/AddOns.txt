@@ -1,8 +1,8 @@
 BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
-Arh: disabled
-AllTheThings: disabled
+Arh: enabled
+AllTheThings: enabled
 Conditioner: enabled
 SexyMap: disabled
 ElvUI_Config: enabled
@@ -20,3 +20,4 @@ LittleWigs: enabled
 BigWigs_Azeroth: enabled
 BigWigs_CrucibleOfStorms: enabled
 WeakAurasCompanion: enabled
+QE-DungeonTips: disabled

@@ -4,9 +4,15 @@ local L = AllTheThings.L;
 
 -- TODO
 
+local a = L.NPC_ID_NAMES;
+for key,value in pairs({
+	-- Enter translated NPCID's here
+})
+do a[key] = value; end
 
 local a = L.OBJECT_ID_NAMES;
 for key,value in pairs({
+	-- Enter translated OBJECTID's here
 	[31] = "Estátua de Leão Antiga",
 	[34] = "Velho Garrafão",
 	[55] = "Corpo semi-devorado",
@@ -40,6 +46,7 @@ for key,value in pairs({
 	[138492] = "Estilhaços de Myzrael",
 	[141979] = "Tesouro Antigo",
 	[142195] = "Mapa de Batalha de Patábua",
+	[142343] = "Pedestal de Uldum",
 	[142487] = "A Brastematic 5200",
 	[144063] = "Monolito de Equinex",
 	[148502] = "Página 9",
@@ -171,8 +178,10 @@ for key,value in pairs({
 	[190104] = "Balde de Balas",
 	[190917] = "Cartas Abandonadas",
 	[190936] = "Caldeirão da Praga",
+	[191728] = "Procura-se!",
 	[191760] = "Console da Biblioteca do Inventor",
 	[191761] = "Console de Protótipo",
+	[192049] = "Cardume de Arenques Presadentes",
 	[192060] = "Bigorna de Fjorn",
 	[192072] = "Caixote de Arpões",
 	[194105] = "Caixazorra 413",
@@ -916,6 +925,7 @@ for key,value in pairs({
 	[294317] = "Baú de Lenha Morta",
 	[294319] = "Tesouro Soterrado por Areia",
 --	[294703] = "Grimmy's Rusty Lockbox",						-- No Translation
+	[296536] = "Glaive da Sentinela Ensanguentada",
 	[297825] = "Baú Coberto de Teia",
 	[297828] = "Baú do Mercador",
 	[297878] = "Baú Bagateado",

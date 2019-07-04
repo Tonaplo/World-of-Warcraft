@@ -165,6 +165,11 @@ core.NPCCache = {
     [62465] = 62465, --Captain Ook
     [60710] = 60710, --Subetai the Swift
     [60776] = 60776, --Empyreal Focus
+    [146495] = 146495, --Fa'thuul the Feared
+    [146750] = 146750, --N'zoth
+    [104251] = 104251, --Duskwatch Sentry
+    [104217] = 104217, --Talixae 
+    [95888] = 95888, --Cordana Felsong
 }
 
 --[] = , --

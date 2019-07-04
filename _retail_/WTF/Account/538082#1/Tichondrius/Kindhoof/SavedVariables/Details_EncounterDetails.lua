@@ -913,13 +913,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Egg",
 		},
-		[249923] = {
-			["school"] = 32,
+		[267027] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Yazma",
+			["source"] = "Venomous Ophidian",
 		},
 		[260318] = {
 			["school"] = 4,
@@ -991,15 +993,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Enchanted Tiki Mask",
 		},
-		[267027] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[249923] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Venomous Ophidian",
+			["source"] = "Yazma",
 		},
 		[265912] = {
 			["school"] = 1,

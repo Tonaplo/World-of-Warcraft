@@ -7,9 +7,9 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 163,
+	["combat_counter"] = 167,
 	["character_data"] = {
-		["logons"] = 23,
+		["logons"] = 25,
 	},
 	["tabela_instancias"] = {
 	},
@@ -35,10 +35,10 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -414.258682250977,
-					["x"] = 606.036254882813,
-					["w"] = 233.976913452148,
-					["h"] = 186.533660888672,
+					["y"] = -414.2586822509766,
+					["x"] = 606.0362548828125,
+					["w"] = 233.9769134521484,
+					["h"] = 186.5336608886719,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -69,10 +69,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -414.258682250977,
-					["x"] = 841.513061523438,
-					["w"] = 236.976943969727,
-					["h"] = 186.533660888672,
+					["y"] = -414.2586822509766,
+					["x"] = 841.5130615234375,
+					["w"] = 236.9769439697266,
+					["h"] = 186.5336608886719,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -107,8 +107,8 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -214,7 +214,12 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -222,18 +227,9 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
 			["y"] = -20.15869140625,
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["font_size"] = 14,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -245,18 +241,22 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
-			["main_frame_strata"] = "LOW",
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["use_spark"] = false,
+			["font_size"] = 14,
+			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1561353276,
-		["last_version"] = 11,
-	},
 	["on_death_menu"] = true,
 	["ignore_nicktag"] = false,
-	["last_day"] = "08",
+	["nick_tag_cache"] = {
+		["nextreset"] = 1563524894,
+		["last_version"] = 11,
+	},
+	["last_day"] = "04",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -407,7 +407,7 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 0,
 	},
 	["last_instance_time"] = 1557205600,
-	["last_version"] = "v8.1.5.7129",
+	["last_version"] = "v8.2.0.7150",
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {

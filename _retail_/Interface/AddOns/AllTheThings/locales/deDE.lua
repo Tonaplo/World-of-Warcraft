@@ -18,8 +18,15 @@ L.SAVED_TO_DJ_INSTANCES["Rubinsanktum"] = "Das Rubinsanktum";
 L.SAVED_TO_DJ_INSTANCES["Terrasse des Endlosen Frühlings"] = "Terrasse d. Endlosen Frühlings";
 L.SAVED_TO_DJ_INSTANCES["Herz der Angst"] = "Das Herz der Angst";
 
+local a = L.NPC_ID_NAMES;
+for key,value in pairs({
+	[-1] = "Gemeinsame Bossbeute",										-- Common Boss Drop
+})
+do a[key] = value; end
+
 local a = L.OBJECT_ID_NAMES;
 for key,value in pairs({
+	-- Enter translated OBJECTID's here
     [31] = "Alte Löwenstatue",
 	[34] = "Alter Henkelkrug",
 	[55] = "Ein halb aufgefressener Körper",
@@ -54,6 +61,7 @@ for key,value in pairs({
 	[138492] = "Splitter von Myzrael",
 	[141979] = "Antiker Schatz",
 	[142195] = "Schlachtplan der Waldpfoten",
+	[142343] = "Podest von Uldum",
 	[142487] = "Der Funkelmat 5200",
 	[144063] = "Monolith von Equinex",
 	[148502] = "Seite 9",
@@ -186,8 +194,10 @@ for key,value in pairs({
 	[190104] = "Eimer mit Süßigkeiten",
 	[190917] = "Liegengelassene Post",
 	[190936] = "Seuchenkessel",
+	[191728] = "GESUCHT!",
 	[191760] = "Konsole der Bibliothek des Erfinders",
 	[191761] = "Prototypenkonsole",
+	[192049] = "Ein Schwarm Fangzahnheringe",
 	[192060] = "Fjorns Amboss",
 	[192072] = "Harpunenkiste",
 	[194105] = "Dröhnkiste 413",
@@ -931,6 +941,7 @@ for key,value in pairs({
 	[294317] = "Totholztruhe",
 	[294319] = "Im Sand versunkener Schatz",
 	[294703] = "Grimms rostige Schließkiste",
+	[296536] = "Blutige Schildwachengleve",
 	[297825] = "Gespinstbedeckte Schatztruhe",
 	[297828] = "Schatztruhe des Kaufmanns",
 	[297878] = "Verhexte Truhe",

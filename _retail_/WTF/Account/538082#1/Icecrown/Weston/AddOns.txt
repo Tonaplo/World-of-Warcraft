@@ -14,3 +14,6 @@ BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 LittleWigs: enabled
 WeakAurasCompanion: enabled
+QE-DungeonTips: disabled
+AllTheThings: enabled
+Arh: enabled

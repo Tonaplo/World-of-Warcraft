@@ -40,8 +40,14 @@ SimulationCraftDB = {
 		["Luugo - Frostwolf"] = {
 		},
 		["Greybone - Icecrown"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Weston - Icecrown"] = {
+			["minimap"] = {
+				["minimapPos"] = 202.121936669121,
+			},
 		},
 		["Farahn - Icecrown"] = {
 		},

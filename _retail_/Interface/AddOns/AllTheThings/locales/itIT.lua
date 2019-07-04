@@ -4,9 +4,15 @@ local L = AllTheThings.L;
 
 -- TODO
 
+local a = L.NPC_ID_NAMES;
+for key,value in pairs({
+	-- Enter translated NPCID's here
+})
+do a[key] = value; end
 
 local a = L.OBJECT_ID_NAMES;
 for key,value in pairs({
+	-- Enter translated OBJECTID's here
 	[31] = "Vecchia Statua di Leone",
 	[34] = "Vecchio Fiasco",
 	[55] = "Corpo Smangiucchiato",
@@ -41,6 +47,7 @@ for key,value in pairs({
 	[138492] = "Frammento di Myzrael",
 	[141979] = "Tesoro Antico",
 	[142195] = "Piani di Battaglia degli Gnoll",
+	[142343] = "Piedistallo di Uldum",
 	[142487] = "Lavatutto 5200",
 	[144063] = "Monolito Equinex",
 	[148502] = "Pagina 9",
@@ -172,8 +179,10 @@ for key,value in pairs({
 	[190104] = "Secchio delle Caramelle",
 	[190917] = "Posta Abbandonata",
 	[190936] = "Calderone della Piaga",
+	[191728] = "Ricercato!",
 	[191760] = "Console della Biblioteca dell'Intelletto",
 	[191761] = "Console dei Prototipi",
+	[192049] = "Banco di Aringhe Zannute",
 	[192060] = "Incudine di Fjorn",
 	[192072] = "Cassa degli Arpioni",
 	[194105] = "Transanalizzatore 413",
@@ -917,6 +926,7 @@ for key,value in pairs({
 	[294317] = "Cassa dei Legnomorto",
 	[294319] = "Tesoro Sepolto nella Sabbia",
 --	[294703] = "Grimmy's Rusty Lockbox",						-- No Translation
+	[296536] = "Trilama Insanguinata della Sentinella",
 	[297825] = "Cassa Coperta di Ragnatele",
 	[297828] = "Cassa del Mercante",
 	[297878] = "Cassa Maledetta",
