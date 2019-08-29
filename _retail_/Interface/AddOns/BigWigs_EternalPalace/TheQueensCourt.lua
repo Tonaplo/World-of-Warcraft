@@ -6,13 +6,14 @@ local mod, CL = BigWigs:NewBoss("The Queen's Court", 2164, 2359)
 if not mod then return end
 mod:RegisterEnableMob(152853, 152852) -- Silivaz the Zealous, Pashmar the Fanatical
 mod.engageId = 2311
---mod.respawnTime = 31
+mod.respawnTime = 30
 
 --------------------------------------------------------------------------------
 -- Locals
 --
 
 local formationCounter = 1
+local chargeCounter = 1
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -79,17 +80,16 @@ end
 
 function mod:OnEngage()
 	formationCounter = 1
+	chargeCounter = 1
 
-	self:CDBar(301947, 20) -- Potent Spark
-	self:Bar(298050, 30) -- Form Ranks
-	self:Bar(299914, 30) -- Frenetic Charge
-	self:Bar(296851, 34) -- Fanatical Verdict
-	self:Bar(301807, 51) -- Zealous Eruption
-	self:Bar(297325, 106) -- Violent Outburst
+	self:CDBar(301947, self:Mythic() and 20 or 15) -- Potent Spark
+	self:Bar(298050, self:Mythic() and 28 or 30) -- Form Ranks
+	self:Bar(296851, 39) -- Fanatical Verdict
+	self:Bar(301807, self:Mythic() and 51 or 60) -- Zealous Eruption
+	self:Bar(299914, self:Mythic() and 30 or 75, CL.count:format(self:SpellName(299914), chargeCounter)) -- Frenetic Charge
+	self:Bar(297325, 100.5) -- Violent Outburst
 
-	if self:Mythic() then
-		self:Berserk(420)
-	end
+	self:Berserk(self:Mythic() and 450 or 570)
 end
 
 --------------------------------------------------------------------------------
@@ -159,11 +159,13 @@ end
 do
 	local prev = 0
 	function mod:StandAlone(args)
-		local t = GetTime()
-		if t-prev > 1.5 then
-			prev = t
-			self:PersonalMessage(297656)
-			self:PlaySound(297656, "alarm")
+		if self:Me(args.destGUID) then
+			local t = GetTime()
+			if t-prev > 1.5 then
+				prev = t
+				self:PersonalMessage(297656)
+				self:PlaySound(297656, "alarm")
+			end
 		end
 	end
 end
@@ -177,11 +179,12 @@ end
 
 -- Silivaz the Zealous
 function mod:FreneticCharge()
-	self:CDBar(299914, self:Mythic() and 40 or 60)
+	chargeCounter = chargeCounter + 1
+	self:CDBar(299914, 40, CL.count:format(self:SpellName(299914), chargeCounter))
 end
 
 function mod:FreneticChargeApplied(args)
-	self:TargetMessage2(args.spellId, "yellow", args.destName)
+	self:TargetMessage2(args.spellId, "yellow", args.destName, CL.count:format(args.spellName, chargeCounter))
 	self:PrimaryIcon(args.spellId, args.destName)
 	if self:Me(args.destGUID) then
 		self:PlaySound(args.spellId, "warning")

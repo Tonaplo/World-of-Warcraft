@@ -5,6 +5,25 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "The Restless Cabal",
 		["id"] = 2328,
+		["diff"] = 14,
+		["player_db"] = {
+			["Eldodin-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+			},
+			["Kesak-Lightbringer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kesak-Lightbringer",
+				["class"] = "SHAMAN",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -14,35 +33,35 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "The Restless Cabal",
 			["diff"] = 14,
-			["ej_instance_id"] = 1177,
 			["id"] = 2269,
+			["ej_instance_id"] = 1177,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Eldodin-KhazModan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-			},
-			["Kesak-Lightbringer"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kesak-Lightbringer",
-			},
-		},
-		["diff"] = 14,
 	},
 	["233214"] = {
 		["hash"] = "233214",
 		["type"] = "deaths",
 		["name"] = "Uu'nat, Harbinger of the Void",
 		["id"] = 2332,
+		["diff"] = 14,
+		["player_db"] = {
+			["Eldodin-KhazModan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Eldodin-KhazModan",
+				["class"] = "WARLOCK",
+			},
+			["Praerend"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Praerend",
+				["class"] = "WARRIOR",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -52,29 +71,10 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Uu'nat, Harbinger of the Void",
 			["diff"] = 14,
-			["ej_instance_id"] = 1177,
 			["id"] = 2273,
+			["ej_instance_id"] = 1177,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Eldodin-KhazModan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eldodin-KhazModan",
-			},
-			["Praerend"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Praerend",
-			},
-		},
-		["diff"] = 14,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -83,6 +83,89 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "The Restless Cabal",
 		["id"] = 2328,
+		["diff"] = 14,
+		["player_db"] = {
+			["Newc-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Kesak-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						152.92799999984, -- [2]
+						"Crushing Doubt |cFFFF333318,502|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Êlwen-KhazModan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Jhasu-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Eldodin-KhazModan"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						71.1169999998529, -- [2]
+						"Annihilate |cFFFF333316,522|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARLOCK",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Praerend"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -92,173 +175,56 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "The Restless Cabal",
 			["diff"] = 14,
-			["ej_instance_id"] = 1177,
 			["id"] = 2269,
+			["ej_instance_id"] = 1177,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Newc-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Kesak-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						152.92799999984, -- [2]
-						"Crushing Doubt |cFFFF333318,502|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Êlwen-KhazModan"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Jhasu-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Eldodin-KhazModan"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						71.1169999998529, -- [2]
-						"Annihilate |cFFFF333316,522|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Praerend"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-		},
-		["diff"] = 14,
 	},
 	["233214"] = {
 		["hash"] = "233214",
 		["type"] = "endurance",
 		["name"] = "Uu'nat, Harbinger of the Void",
 		["id"] = 2332,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "Crucible of Storms",
-			["encounter"] = "Uu'nat, Harbinger of the Void",
-			["mapid"] = 2096,
-			["try_number"] = 1,
-			["name"] = "Uu'nat, Harbinger of the Void",
-			["diff"] = 14,
-			["ej_instance_id"] = 1177,
-			["id"] = 2273,
-			["killed"] = true,
-		},
+		["diff"] = 14,
 		["player_db"] = {
 			["Newc-Lightbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Kalithumos-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["Kesak-Lightbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
+				["class"] = "SHAMAN",
 			},
 			["Êlwen-KhazModan"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Jhasu-Lightbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Marksopp-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Nanaeve-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Asahina-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
 			},
 			["Eldodin-KhazModan"] = {
 				["encounters"] = 2,
 				["points"] = 170,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -271,11 +237,32 @@ DeathGraphsDBEndurance = {
 						"Insatiable Torment |cFFFF33336,212|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "WARLOCK",
+			},
+			["Nanaeve-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Asahina-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Marksopp-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Praerend"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -283,9 +270,22 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF333324,343|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARRIOR",
 			},
 		},
-		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "Crucible of Storms",
+			["encounter"] = "Uu'nat, Harbinger of the Void",
+			["mapid"] = 2096,
+			["try_number"] = 1,
+			["name"] = "Uu'nat, Harbinger of the Void",
+			["diff"] = 14,
+			["id"] = 2273,
+			["ej_instance_id"] = 1177,
+			["killed"] = true,
+		},
 	},
 }
 DeathGraphsDBCurrent = {
@@ -295,6 +295,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 237040,
 				["timeofdeath"] = 364.476000000024,
 				["name"] = "Eldodin-KhazModan",
+				["time"] = 1559271994.51,
+				["class"] = "WARLOCK",
+				["timestring"] = "6m 4s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -697,14 +700,14 @@ DeathGraphsDBCurrent = {
 						"Eldodin-KhazModan", -- [6]
 					}, -- [34]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "6m 4s",
-				["time"] = 1559271994.51,
 			}, -- [1]
 			{
 				["maxhealth"] = 283480,
 				["timeofdeath"] = 369.277000000002,
 				["name"] = "Praerend",
+				["time"] = 1559271999.311,
+				["class"] = "WARRIOR",
+				["timestring"] = "6m 9s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -1107,14 +1110,14 @@ DeathGraphsDBCurrent = {
 						"Praerend", -- [6]
 					}, -- [34]
 				},
-				["class"] = "WARRIOR",
-				["timestring"] = "6m 9s",
-				["time"] = 1559271999.311,
 			}, -- [2]
 			{
 				["maxhealth"] = 237040,
 				["timeofdeath"] = 405.646999999881,
 				["name"] = "Eldodin-KhazModan",
+				["time"] = 1559272035.681,
+				["class"] = "WARLOCK",
+				["timestring"] = "6m 45s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -1495,9 +1498,6 @@ DeathGraphsDBCurrent = {
 						"Eldodin-KhazModan", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "6m 45s",
-				["time"] = 1559272035.681,
 			}, -- [3]
 		},
 		["bossname"] = "Uu'nat, Harbinger of the Void",
@@ -1517,6 +1517,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 237040,
 				["timeofdeath"] = 71.1169999998529,
 				["name"] = "Eldodin-KhazModan",
+				["time"] = 1559270711.702,
+				["class"] = "WARLOCK",
+				["timestring"] = "1m 11s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -1909,14 +1912,14 @@ DeathGraphsDBCurrent = {
 						"Eldodin-KhazModan", -- [6]
 					}, -- [34]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 11s",
-				["time"] = 1559270711.702,
 			}, -- [1]
 			{
 				["maxhealth"] = 209060,
 				["timeofdeath"] = 152.92799999984,
 				["name"] = "Kesak-Lightbringer",
+				["time"] = 1559270793.513,
+				["class"] = "SHAMAN",
+				["timestring"] = "2m 32s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2309,9 +2312,6 @@ DeathGraphsDBCurrent = {
 						"Kesak-Lightbringer", -- [6]
 					}, -- [33]
 				},
-				["class"] = "SHAMAN",
-				["timestring"] = "2m 32s",
-				["time"] = 1559270793.513,
 			}, -- [2]
 		},
 		["bossname"] = "The Restless Cabal",

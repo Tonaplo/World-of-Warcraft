@@ -792,8 +792,14 @@ function getCombatStatus()
 			return true
 		end
 	else
-		--Player is not in a group therefore, they must of left combat so clear variables
-		return false
+		--Player is not in a group. Check if they are in combat though
+		if UnitAffectingCombat("Player") == true then
+			playerInCombat = true
+			return true
+		else
+			playerInCombat = false
+			return false
+		end
 	end
 end
 
@@ -1726,18 +1732,43 @@ function events:CHAT_MSG_ADDON(self, prefix, message, channel, sender)
 		local demotionRequired = false
 
 		if nameRecieved ~= name then
+			local allVariablesRecieved = true
 			if masterAddonRecieved ~= nil then
 				core:sendDebugMessage("------------NEW REQUEST------------")
 				core:sendDebugMessage("Recieved Info From: " .. sender)
-				core:sendDebugMessage("AddonID: " .. addonIDRecieved .. " : " .. tostring(addonID))
-				core:sendDebugMessage("Master Addon: " .. masterAddonRecieved .. " : " .. tostring(masterAddon))
-				core:sendDebugMessage("Player Rank: " .. playerRankRecieved .. " : " .. tostring(playerRank))
-				core:sendDebugMessage("Major Version: " .. majorVersionRecieved .. " : " .. tostring(core.Config.majorVersion))
-				core:sendDebugMessage("Minor Version: " .. minorVersionRecieved .. " : " .. tostring(core.Config.minorVersion))
-				core:sendDebugMessage("Only Track Missing Achievements: " .. onlyTrackMissingAchievementsRecieved .. " : " .. tostring(core.trackingSupressed))
+				if addonIDRecieved ~= nil then
+					core:sendDebugMessage("AddonID: " .. addonIDRecieved .. " : " .. tostring(addonID))
+				else
+					allVariablesRecieved = false
+				end
+				if masterAddonRecieved ~= nil then
+					core:sendDebugMessage("Master Addon: " .. masterAddonRecieved .. " : " .. tostring(masterAddon))
+				else
+					allVariablesRecieved = false
+				end
+				if playerRankRecieved ~= nil then
+					core:sendDebugMessage("Player Rank: " .. playerRankRecieved .. " : " .. tostring(playerRank))
+				else
+					allVariablesRecieved = false
+				end
+				if majorVersionRecieved ~= nil then
+					core:sendDebugMessage("Major Version: " .. majorVersionRecieved .. " : " .. tostring(core.Config.majorVersion))
+				else
+					allVariablesRecieved = false
+				end
+				if minorVersionRecieved ~= nil then
+					core:sendDebugMessage("Minor Version: " .. minorVersionRecieved .. " : " .. tostring(core.Config.minorVersion))
+				else
+					allVariablesRecieved = false
+				end
+				if onlyTrackMissingAchievementsRecieved ~= nil then
+					core:sendDebugMessage("Only Track Missing Achievements: " .. onlyTrackMissingAchievementsRecieved .. " : " .. tostring(core.trackingSupressed))
+				else
+					allVariablesRecieved = false
+				end
 			end
 
-			if masterAddonRecieved == "true" and blockRequirementsCheck == false then
+			if masterAddonRecieved == "true" and blockRequirementsCheck == false and allVariablesRecieved == true then
 
 				core:sendDebugMessage("Make it to tracking")
 
@@ -2037,7 +2068,7 @@ function events:COMBAT_LOG_EVENT_UNFILTERED(self, ...)
 			core.extraSpellId, core.extraSpellName, core.extraSchool, core.auraType = select(13, ...)
 		elseif string.match(core.type, "_CAST_FAILED") then
 			core.failedType = select(13, ...)
-		end
+		end	
 	end
 
 	if string.match(core.sourceGUID, "Creature") or string.match(core.destGUID, "Creature") or string.match(core.sourceGUID, "Vehicle") or string.match(core.destGUID, "Vehicle") then
@@ -2444,7 +2475,7 @@ function core:sendMessage(message, outputToRW, messageType)
 					elseif outputToRW == true and announceToRaidWarning == true then
 						SendChatMessage("[IAT] " .. message,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
 						core:logMessage("[IAT] " .. message)
-						--RaidNotice_AddMessage(RaidWarningFrame, "[IAT] " .. message, ChatTypeInfo["RAID_WARNING"])
+						RaidNotice_AddMessage(RaidWarningFrame, "[IAT] " .. message, ChatTypeInfo["RAID_WARNING"])
 					else
 						--print("Outputting normally")
 						SendChatMessage("[IAT] " .. message,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
@@ -2845,6 +2876,35 @@ function core:getAchievementFailedPersonal(index)
 			--Relay message to addon which has RW permissions if masterAddon does have permissions
 			if relayAddonPlayer ~= nil then
 				C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")", "RAID")
+			end
+		end
+		core.playersFailedPersonal[playerName] = true
+	end
+end
+
+--Display the failed achievement message for personal achievements
+function core:getAchievementFailedPersonalWithName(index, sender, outputMessage)
+	local value = index
+	if index == nil then
+		value = 1
+	end
+	local playerName = sender
+	if string.find(playerName, "-") then
+		local name, realm = strsplit("-", playerName)
+		playerName = name
+	end
+	if core.playersFailedPersonal[playerName] == nil then
+		--Players has not been hit already
+		--Check if the player actually needs the achievement
+		if core:has_value(core.currentBosses[value].players, playerName) then
+			--Player needs achievement but has failed it
+			if outputMessage == true then
+				core:sendMessage(playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")",true,"failed")
+				
+				--Relay message to addon which has RW permissions if masterAddon does have permissions
+				if relayAddonPlayer ~= nil then
+					C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")", "RAID")
+				end
 			end
 		end
 		core.playersFailedPersonal[playerName] = true
@@ -3279,7 +3339,11 @@ function core:has_value2(tab, val)
 end
 
 function core:getHealthPercent(boss)
-	return (UnitHealth(boss) / UnitHealthMax(boss)) * 100
+	if UnitExists(boss) then
+		return (UnitHealth(boss) / UnitHealthMax(boss)) * 100
+	else
+		return 0
+	end
 end
 
 function getKeysSortedByValue(tbl, sortFunction)
@@ -3386,4 +3450,14 @@ function core:getTableLength(T)
 	local count = 0
 	for _ in pairs(T) do count = count + 1 end
 	return count
+end
+
+function core:getNameOnly(originalName)
+	local playerName = originalName
+	if string.find(playerName, "-") then
+		local name, realm = strsplit("-", playerName)
+		return playerName
+	else
+		return playerName
+	end
 end

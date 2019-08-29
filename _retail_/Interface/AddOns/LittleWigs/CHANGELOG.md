@@ -1,12 +1,13 @@
 # LittleWigs
 
-## [v8.2.0](https://github.com/BigWigsMods/LittleWigs/tree/v8.2.0) (2019-06-26)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.1.14...v8.2.0)
+## [v8.2.13](https://github.com/BigWigsMods/LittleWigs/tree/v8.2.13) (2019-08-27)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v8.2.12...v8.2.13)
 
-- bump toc  
-- fix curse link  
-- BfA/Mechagon: Add boss modules (#461)  
-- BfA/SiegeOfBoralus/Trash: Add alliance mobs and spells (#464)  
-- BfA/KingsRest/GoldenSerpent: Announce Spit Gold target on cast start (#463)  
-- BfA/ShrineOfTheStorm/Council: Add Blessing of the Tempest (#462)  
-- BfA/ShrineOfTheStorm: Add respawn time for Stormsong and Council  
+- BfA/SiegeOfBoralus/Trash: Add Blacktar Bomber  
+- Update deDE (#483)  
+- BfA/KingsRest/Council: Improve timers (#482)  
+- BfA/ShrineOfTheStorm/Trash: Add Dispel flag for Swiftness  
+- BfA/Underrot/Trash: Add applied and soothed messages for Wicked Frenzy (#481)  
+- Update deDE (#480)  
+- BfA/ShrineOfTheStorm/Trash: Only show Swiftness message for dispellers  
+- BfA/KingsRest/Trash: Add Deadeye Shot  

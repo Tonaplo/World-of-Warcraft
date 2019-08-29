@@ -1,0 +1,8 @@
+Version: 1
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: CENTER
+X: -180
+Y: -1
+W: 300
+H: 176

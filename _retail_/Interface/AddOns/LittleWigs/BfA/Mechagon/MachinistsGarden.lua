@@ -1,5 +1,3 @@
-if not IsTestBuild() then return end
-
 --------------------------------------------------------------------------------
 -- Module Declaration
 --
@@ -28,7 +26,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "BlossomBlast", 294855)
 	self:Log("SPELL_CAST_SUCCESS", "HiddenFlameCannon", 285440)
 	self:Log("SPELL_CAST_SUCCESS", "Discombombulator", 285454)
-	self:Log("SPELL_AURA_APPLIED", "DiscombombulatorApplied", 285460) -- XXX check spell id
+	self:Log("SPELL_AURA_APPLIED", "DiscombombulatorApplied", 285460)
 end
 
 function mod:OnEngage()
@@ -45,7 +43,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
 	if spellId == 294853 then -- Activate Plant
 		self:Message2(spellId, "orange")
 		self:PlaySound(spellId, "long")
-		self:Bar(spellId, 46.2)
+		self:Bar(spellId, 45)
 	end
 end
 
@@ -59,7 +57,7 @@ end
 function mod:HiddenFlameCannon(args)
 	self:Message2(args.spellId, "red")
 	self:PlaySound(args.spellId, "alarm")
-	self:CastBar(args.spellId, 13.5)
+	self:CastBar(args.spellId, 12.5)
 	self:Bar(args.spellId, 47.3)
 end
 
@@ -72,7 +70,7 @@ end
 do
 	local playerList = mod:NewTargetList()
 	function mod:DiscombombulatorApplied(args)
-		if self:Dispeller("magic", nil, args.spellId) then
+		if self:Dispeller("magic", nil, 285454) then
 			self:TargetsMessage(285454, "orange", playerList)
 			self:PlaySound(285454, "alert", nil, playerList)
 		end

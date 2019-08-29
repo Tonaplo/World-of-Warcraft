@@ -1,11 +1,11 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/macro", -- [1]
-		"/cw Bushman-Icecrown It would be so much more effective if you sent a tell and talked to me, instead of spamming the invite first", -- [2]
-		"/cw Bushman-Icecrown I'd like a guild, but not one that spam invites like you've done for literally every character I have on this server", -- [3]
-		"/cw Bushman-Icecrown Just giving this as feedback, take it as you want", -- [4]
-		"/cw Bushman-Icecrown If it only sent a whisper and didnt pop the invite right away, then it would be much better imo :)", -- [5]
+		"/cw Bushman-Icecrown It would be so much more effective if you sent a tell and talked to me, instead of spamming the invite first", -- [1]
+		"/cw Bushman-Icecrown I'd like a guild, but not one that spam invites like you've done for literally every character I have on this server", -- [2]
+		"/cw Bushman-Icecrown Just giving this as feedback, take it as you want", -- [3]
+		"/cw Bushman-Icecrown If it only sent a whisper and didnt pop the invite right away, then it would be much better imo :)", -- [4]
+		"/macro", -- [5]
 	},
 	["ChatHistoryLog"] = {
 		{

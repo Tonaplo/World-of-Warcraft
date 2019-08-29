@@ -12,7 +12,7 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 652,
+					["x"] = 700,
 				},
 			},
 		},
@@ -21,7 +21,11 @@ Quartz3DB = {
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 627,
+					["h"] = 40,
+					["w"] = 180,
+					["y"] = 262.9997863769531,
+					["x"] = 375.9999389648438,
+					["hideicon"] = true,
 				},
 			},
 		},
@@ -30,14 +34,15 @@ Quartz3DB = {
 		["Focus"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 652,
+					["x"] = 700,
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 652,
+					["y"] = 281.0003051757813,
+					["x"] = 1038.999877929688,
 				},
 			},
 		},
@@ -46,13 +51,21 @@ Quartz3DB = {
 		["Mirror"] = {
 		},
 		["Latency"] = {
+			["profiles"] = {
+				["Default"] = {
+					["lagtextalignment"] = "right",
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
-		["Everrett - Magtheridon"] = "Default",
+		["Mallusof - Ysera"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["modules"] = {
+				["EnemyCasts"] = true,
+			},
 		},
 	},
 }

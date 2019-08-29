@@ -1,0 +1,27 @@
+VER 3 010000000000000E "Guild Standard" "INV_MISC_QUESTIONMARK"
+/use Battle Standard of Coordination
+/use Standard of Unity
+/use Banner of Cooperation
+END
+VER 3 010000000000000F "Gunshoes and pot" "INV_MISC_QUESTIONMARK"
+#showtooltip Gunshoes
+/use Gunshoes
+/use Skystep Potion
+END
+VER 3 0100000000000013 "highmaul" "INV_MISC_QUESTIONMARK"
+/target Maggot
+/script SetRaidTarget("target",8);
+END
+VER 3 0100000000000014 "kiss" "INV_MISC_QUESTIONMARK"
+/kiss
+END
+VER 3 0100000000000012 "SW:D/SC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2] Shadow Word: Death [talent:5/3] Shadow Crash
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P1NT1DR1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+NПалИзаТар[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

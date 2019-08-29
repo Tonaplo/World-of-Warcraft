@@ -2,9 +2,6 @@ VER 3 000000000000003E "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click ExtraActionButton1
 END
-VER 3 0000000000000049 "EasyFrames" "1498974"
-/easyframes
-END
 VER 3 0000000000000006 "focus" "132222"
 /focus
 END
@@ -59,9 +56,13 @@ VER 3 0000000000000068 "MO Essence 1" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,nodead] [] Concentrated Flame
 END
-VER 3 0000000000000069 "MO Essence2" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000069 "MO Essence 2" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,nodead] [] Refreshment
+END
+VER 3 000000000000006A "MO Essence 3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead] [] Standstill
 END
 VER 3 000000000000004A "MO HPriest01" "INV_MISC_QUESTIONMARK"
 #showtooltip

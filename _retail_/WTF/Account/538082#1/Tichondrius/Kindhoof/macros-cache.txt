@@ -1,11 +1,3 @@
-VER 3 0100000000000003 "BoS" "INV_MISC_QUESTIONMARK"
-#showtooltip Blessing of Sacrifice
-/cast  [@mouseover] Blessing of Sacrifice
-END
-VER 3 0100000000000008 "Light of the Pro" "INV_MISC_QUESTIONMARK"
-#showtooltip Light of the Protector
-/use [@mouseover,help,nodead][help,nodead][@player] Light of the Protector
-END
 VER 3 010000000000000B "Prot CDS!" "INV_MISC_QUESTIONMARK"
 #showtooltip Avenging Wrath
 /cast Avenging Wrath

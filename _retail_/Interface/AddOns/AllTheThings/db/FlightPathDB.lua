@@ -1029,6 +1029,7 @@ AllTheThings.FlightPathDB = {
 	[646] = {
 		name="Forsaken Forward Command, Gilneas",
 		faction=1,
+		["altQuests"] = { 27438 },	-- The Great Escape
 	},
 	[2066] = {
 		name="Atal'Gral, Zuldazar",
@@ -2398,6 +2399,12 @@ AllTheThings.FlightPathDB = {
 		name="The Tidal Conflux",
 		coord={ 51.1, 23.6, 1355 },
 		faction=1,
+		description="Must complete the zone storyline to unlock this path.",
+	},
+	[2483] = {
+		name="The Tidal Conflux",
+		coord={ 49.8, 23.6, 1355 },
+		faction=2,
 		description="Must complete the zone storyline to unlock this path.",
 	},
 	[2407] = {

@@ -1,58 +1,163 @@
-VER 3 0000000000000051 "10 sec" "INV_MISC_QUESTIONMARK"
-/pull 10
+VER 3 0000000000000081 "1 guild recrit" "INV_MISC_QUESTIONMARK"
+/2 Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!
 END
-VER 3 0000000000000059 "Boost" "INV_MISC_QUESTIONMARK"
-#showtooltip 6
-/cancelaura Stampeding Roar
-/cancelaura Body and Soul
-/use 6
+VER 3 0000000000000080 "2 guild recruitm" "INV_MISC_QUESTIONMARK"
+/2 LFM for TEP Normal. Recruiting for new, once a week raiding community.
 END
-VER 3 000000000000003A "Focus" "INV_Misc_QuestionMark"
+VER 3 000000000000003A "Focus" "132222"
 /focus
 END
-VER 3 000000000000004F "Gui 1" "INV_MISC_QUESTIONMARK"
-/1 Invictus Maneo (14 /14) is a semi-hardcore raiding guild. We're currently looking for some socials to enjoy the guild atmosphere with and Great DPS (Ele Shammy/Mage) for the raid team. /w me for more. or visit invictusmaneo.enjin.com
+VER 3 000000000000005A "logout" "INV_MISC_QUESTIONMARK"
+/logout
 END
-VER 3 0000000000000053 "Gui 2" "INV_MISC_QUESTIONMARK"
-/2 Defective (14/14) is a casual raiding guild, where we raid to have fun. We're currently looking for some awesome people for the raid team, especially a tank. Socials are welcome as well! /w me for more info.
+VER 3 000000000000005B "MO DPriest01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Power Word: Shield
 END
-VER 3 000000000000003E "Mass Rez" "INV_MISC_QUESTIONMARK"
-#showtooltip Mass Resurrection
-/raid Casting Mass Rezz!
-/cast Mass Resurrection
+VER 3 000000000000005C "MO DPriest02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Power Word: Radiance
 END
-VER 3 000000000000004A "oPie" "ACHIEVEMENT_GUILDPERK_HONORABLEMENTION_RANK2"
-/click ORLOpen oPie
+VER 3 000000000000005D "MO DPriest03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Pain Suppression
 END
-VER 3 0000000000000050 "private recruitm" "INV_MISC_QUESTIONMARK"
-Hey there, PLAYER! Invictus Maneo is a raiding guild, looking for some nice socialsto enjoy the guild atmosphere with, level alts, do dungeons and the like. Reply if you're interested :)
+VER 3 000000000000005E "MO Druid01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Lifebloom
 END
-VER 3 0000000000000055 "Readycheck" "INV_MISC_QUESTIONMARK"
-/readycheck
+VER 3 000000000000005F "MO Druid02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Regrowth
 END
-VER 3 0000000000000057 "sit" "INV_MISC_QUESTIONMARK"
-/sit
+VER 3 0000000000000060 "MO Druid03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Swiftmend
 END
-VER 3 0000000000000041 "target focustarg" "INV_MISC_QUESTIONMARK"
-/target focustarget
+VER 3 0000000000000061 "MO Druid04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Wild Growth
 END
-VER 3 0000000000000058 "trinkets" "INV_MISC_QUESTIONMARK"
-/raidbar 300 Trinkets and Shit
+VER 3 0000000000000062 "MO Druid05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,dead][help,dead][@player] Rebirth
 END
-VER 3 0000000000000054 "TS /g" "INV_MISC_QUESTIONMARK"
-/g TS3 Details:
-/g Server IP:ts3.speedgaming.pro:10045
-/g Password:  wekillthings
+VER 3 0000000000000063 "MO Druid06" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Innervate
 END
-VER 3 0000000000000046 "TS /r" "INV_MISC_QUESTIONMARK"
-/raid TS3 Details:
-/raid Server IP:ts3.speedgaming.pro:10045
-/raid Password:  wekillthings
+VER 3 0000000000000064 "MO Druid07" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Rejuvenation
 END
-VER 3 000000000000004B "UI Changers" "INV_MISC_QUESTIONMARK"
-/console cameradistancemacfactor 4
-/run UIerrorsFrame:Clear()
+VER 3 0000000000000065 "MO Druid08" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Ironbark
 END
-VER 3 000000000000004C "Weak Auras" "INV_MISC_QUESTIONMARK"
-/weakauras
+VER 3 0000000000000066 "MO Essence01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead] [] Concentrated Flame
+END
+VER 3 0000000000000067 "MO Essence02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead] [] Refreshment
+END
+VER 3 0000000000000068 "MO Essence03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead] [] Standstill
+END
+VER 3 0000000000000069 "MO HPriest01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Renew
+END
+VER 3 000000000000006A "MO HPriest02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Holy Word: Serenity
+END
+VER 3 000000000000006B "MO HPriest03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Guardian Spirit
+END
+VER 3 000000000000006C "MO HPriest04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Prayer of Healing
+END
+VER 3 000000000000006D "MO HPriest05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Heal
+END
+VER 3 000000000000006E "MO HPriest06" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [talent:5/2,@mouseover,help,nodead] [nomod,talent:5/2] Binding Heal; [talent:5/3,@mouseover,help,nodead] [talent:5/3] Circle of Healing;
+END
+VER 3 000000000000006F "MO HPriest07" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Divine Star; [talent:6/3] Halo
+END
+VER 3 0000000000000070 "MO HPriest08" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Prayer of Mending
+END
+VER 3 0000000000000071 "MO Monk01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/2] Chi Wave; [talent:1/3] Chi Burst
+END
+VER 3 0000000000000072 "MO Pally01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Flash of Light
+END
+VER 3 0000000000000073 "MO Pally02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Lay on Hands
+END
+VER 3 0000000000000074 "MO Pally03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Blessing of Protection
+END
+VER 3 0000000000000075 "MO Pally04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Blessing of Freedom
+END
+VER 3 0000000000000076 "MO Pally05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Blessing of Sacrifice
+END
+VER 3 0000000000000077 "MO Pally06" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Cleanse Toxins
+END
+VER 3 0000000000000078 "MO PPally01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Light of the Protector
+END
+VER 3 0000000000000079 "MO Priest01" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Dispel Magic
+END
+VER 3 000000000000007A "MO Priest02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Flash Heal
+END
+VER 3 000000000000007B "MO Priest03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Leap of Faith
+END
+VER 3 0000000000000051 "Pull 10" "136106"
+/pull 10
+END
+VER 3 000000000000007C "reload ui" "237290"
+/reload ui
+END
+VER 3 000000000000007D "SUPER PET LEVEL" "135996"
+/script local ids = { 31851, 31819, 31850, 31780, 31781, }; for i = 1, 5 do local index = GetQuestLogIndexByID(ids[i]); SelectQuestLogEntry(index); ShowQuestComplete(index); CompleteQuest(); GetQuestReward(); end
+END
+VER 3 000000000000007E "trinkets" "INV_MISC_QUESTIONMARK"
+/use 13
+/use 14
+END
+VER 3 000000000000007F "Vuhdo" "571555"
+/vuhdo opt
+END
+VER 3 000000000000004C "WeakAuras" "134328"
+/wa
 END

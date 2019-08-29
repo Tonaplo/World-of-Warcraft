@@ -144,6 +144,22 @@ L["RAID_BOSS_BOD_6"] = "Re Rastakhan"
 L["RAID_BOSS_BOD_7"] = "Gran Meccanista Meccatork"
 L["RAID_BOSS_BOD_8"] = "Blocco Navale Frangitempeste"
 L["RAID_BOSS_BOD_9"] = "Dama Jaina Marefiero"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_8"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "MADRE"
 L["RAID_BOSS_ULD_3"] = "Divoratore Fetido"
@@ -178,6 +194,8 @@ L["RELOAD_NOW"] = "Ricarica Ora"
 --[[ L["SEASON_LABEL_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SEASON_LABEL_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_3"] = ""--]] 
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Visualizza il Punteggio Medio Per Corse In Tempo"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Mostra il punteggio medio Raider.IO visualizzato sui membri delle Spedizioni finite in tempo. Questo è visibile nel Tooltip della Chiava del Potere e nelle descrizioni dei giocatori nella finestra Ricerca delle Incursioni."
 --[[Translation missing --]]

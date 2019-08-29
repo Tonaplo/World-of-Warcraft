@@ -1,0 +1,28 @@
+VER 3 0100000000000003 "Elemental CDs" "135830"
+/use 13
+/use 14
+/cast Fire Elemental
+/cast Ascendance
+END
+VER 3 0100000000000005 "Enhance CDs!" "INV_MISC_QUESTIONMARK"
+#showtooltip Ascendance
+/cast Ascendance
+/cast Doom Winds
+/cast Feral Spirit
+END
+VER 3 0100000000000004 "Feral BOOM" "INV_MISC_QUESTIONMARK"
+#showtooltip Feral Spirit
+/cast Feral Spirit
+/cast Crash Lightning
+END
+VER 3 0100000000000006 "Hex Sigryn" "INV_MISC_QUESTIONMARK"
+#showtooltip Hex
+/target Sigryn
+/cast Hex
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Far[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

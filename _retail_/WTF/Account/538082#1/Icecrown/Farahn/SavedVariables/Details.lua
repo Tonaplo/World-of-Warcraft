@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v8.2.0.7150",
+	["last_version"] = "v8.2.0.7166",
 	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
@@ -98,8 +98,8 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -220,7 +220,11 @@ _detalhes_database = {
 				0.400000035762787, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = false,
 			["y"] = -20.15869140625,
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["font_size"] = 14,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -232,10 +236,6 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["use_spark"] = false,
-			["font_size"] = 14,
 			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
@@ -247,7 +247,7 @@ _detalhes_database = {
 		},
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1563525663,
+		["nextreset"] = 1565748218,
 		["last_version"] = 11,
 	},
 	["mythic_dungeon_currentsaved"] = {
@@ -261,7 +261,7 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["combat_counter"] = 54,
+	["combat_counter"] = 66,
 	["combat_id"] = 15,
 	["savedStyles"] = {
 	},
@@ -405,9 +405,9 @@ _detalhes_database = {
 		["Mode"] = 1,
 	},
 	["character_data"] = {
-		["logons"] = 17,
+		["logons"] = 23,
 	},
-	["last_day"] = "04",
+	["last_day"] = "05",
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {
@@ -424,7 +424,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-96-0A29426B"] = 103,
 		["Player-104-0A10F16A"] = 263,
 	},
 }

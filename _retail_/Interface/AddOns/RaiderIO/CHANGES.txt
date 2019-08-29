@@ -1,22 +1,10 @@
-lightweight tag 89236c68f0adae8f6dfad7e6df8d7ee21b09b4c8 v201907030600
+lightweight tag 2c7ad3fa8aabf374a73b1cf816e79785133c3fd7 v201908290600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Wed Jul 3 06:37:46 2019 +0000
+Date:	Thu Aug 29 06:27:06 2019 +0000
 
-commit 89236c68f0adae8f6dfad7e6df8d7ee21b09b4c8
+commit 2c7ad3fa8aabf374a73b1cf816e79785133c3fd7
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Jul 3 06:37:46 2019 +0000
+Date:   Thu Aug 29 06:27:06 2019 +0000
 
     [Raider.IO] Database Refresh
-
-commit 786f14992f7cc316d536c023e0e9f2092f57a060
-Author: WFrancois <wroblewski.francois@gmail.com>
-Date:   Tue Jul 2 20:31:51 2019 +0200
-
-    Upgrade to 80200
-
-commit 786f14992f7cc316d536c023e0e9f2092f57a060
-Author: WFrancois <wroblewski.francois@gmail.com>
-Date:   Tue Jul 2 20:31:51 2019 +0200
-
-    Upgrade to 80200
 

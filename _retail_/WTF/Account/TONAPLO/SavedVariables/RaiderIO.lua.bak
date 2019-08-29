@@ -1,0 +1,13 @@
+
+RaiderIO_Config = {
+}
+RaiderIO_LastCharacter = "eu-Mallusof-silvermoon"
+RaiderIO_MissingCharacters = {
+	["eu-Bulbumbo-silvermoon"] = true,
+	["eu-Terdonis-argent-dawn"] = true,
+	["eu-Melice-neptulon"] = true,
+	["eu-Bettewarlock-terenas"] = true,
+	["eu-Moridin-anubarak"] = true,
+	["eu-Anomassa-silvermoon"] = true,
+	["eu-Gachiff-argent-dawn"] = true,
+}

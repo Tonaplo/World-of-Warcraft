@@ -13,7 +13,7 @@ BigWigs:AddSounds("Radiance of Azshara", {
 	[295916] = "long",
 	[296428] = "alarm",
 	[296459] = "long",
-	[296546] = {"alarm","alert"},
+	[296566] = {"alarm","alert"},
 	[296701] = "warning",
 	[296737] = "alert",
 	[296894] = "alert",
@@ -36,8 +36,9 @@ BigWigs:AddSounds("Blackwater Behemoth", {
 
 BigWigs:AddSounds("Lady Ashvane", {
 	[-20096] = {"alert","warning"},
-	[296569] = {"alert","long"},
+	[296662] = "long",
 	[296725] = "alert",
+	[296752] = "alarm",
 	[297397] = "warning",
 	[298056] = "alarm",
 	["stages"] = "long",
@@ -53,6 +54,7 @@ BigWigs:AddSounds("Orgozoa", {
 	[298465] = "info",
 	[298548] = "long",
 	[305048] = "warning",
+	[305057] = "info",
 	["stages"] = "long",
 })
 
@@ -75,11 +77,12 @@ BigWigs:AddSounds("The Queen's Court", {
 
 BigWigs:AddSounds("Za'qul, Herald of Ny'alotha", {
 	[292963] = "alert",
-	[292971] = {"alarm","alert"},
+	[292971] = "alarm",
 	[292996] = "info",
 	[293509] = "alert",
 	[294535] = "alert",
 	[295099] = "long",
+	[295444] = "alert",
 	[295814] = "warning",
 	[296018] = "alert",
 	[298192] = "alarm",
@@ -91,6 +94,10 @@ BigWigs:AddSounds("Za'qul, Herald of Ny'alotha", {
 })
 
 BigWigs:AddSounds("Queen Azshara", {
+	[-20480] = {"info","long"},
+	[-20410] = "long",
+	[-20408] = "long",
+	[-20355] = "long",
 	[297371] = "long",
 	[297372] = "long",
 	[297907] = "alarm",
@@ -105,19 +112,23 @@ BigWigs:AddSounds("Queen Azshara", {
 	[298569] = {"alarm","warning"},
 	[298756] = "alert",
 	[298787] = "alert",
-	[299094] = "alert",
+	[299094] = "Alarm",
 	[299250] = {"alarm","long"},
 	[300074] = "alarm",
 	[300428] = "info",
+	[300478] = "warning",
 	[300492] = "alert",
 	[300519] = "warning",
 	[300620] = "long",
-	[300743] = "alert",
-	[300807] = "warning",
+	[300743] = {"alert","warning"},
+	[300768] = "long",
+	[300866] = "alert",
+	[300877] = "alarm",
 	[301078] = "alert",
+	[301431] = "warning",
 	[302999] = "alarm",
 	[303657] = "warning",
-	[303980] = "alert",
+	[303982] = {"alarm","alert"},
 	[304475] = "info",
 	["stages"] = "long",
 })

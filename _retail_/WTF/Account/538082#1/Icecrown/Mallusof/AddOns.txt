@@ -38,3 +38,4 @@ BigWigs_CrucibleOfStorms: enabled
 WeakAurasCompanion: enabled
 Simulationcraft: disabled
 StatPriority: disabled
+BigWigs_EternalPalace: enabled

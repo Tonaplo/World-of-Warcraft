@@ -1,0 +1,177 @@
+
+AdiBagsDB = {
+	["char"] = {
+		["Mallusof - Tichondrius"] = {
+			["collapsedSections"] = {
+				["Equipment#Set: Holy"] = true,
+				["Equipment#Set: Disc"] = true,
+				["Equipment#Set: Shadow"] = true,
+			},
+		},
+	},
+	["namespaces"] = {
+		["ItemLevel"] = {
+			["profiles"] = {
+				["Default"] = {
+					["minLevel"] = 10,
+				},
+			},
+		},
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+				},
+			},
+		},
+		["ItemCategory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["splitBySubclass"] = {
+						["Recipe"] = true,
+						["Tradeskill"] = true,
+						["Gem"] = true,
+						["Consumable"] = true,
+						["Glyph"] = true,
+						["Miscellaneous"] = true,
+					},
+				},
+			},
+		},
+		["Artifact Power Currency"] = {
+		},
+		["NewItem"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["Legion"] = {
+		},
+		["Equipment"] = {
+			["profiles"] = {
+				["Default"] = {
+					["dispatchRule"] = "slot",
+				},
+			},
+		},
+		["CurrencyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["shown"] = {
+						["Mark of the World Tree"] = false,
+						["Brawler's Gold"] = false,
+						["Valor"] = false,
+						["Lesser Charm of Good Fortune"] = false,
+						["Garrison Resources"] = false,
+						["Echoes of Battle"] = false,
+						["Warforged Seal"] = false,
+						["Mote of Darkness"] = false,
+						["Timeworn Artifact"] = false,
+						["Sightless Eye"] = false,
+						["Timeless Coin"] = false,
+						["Essence of Corrupted Deathwing"] = false,
+						["Apexis Crystal"] = false,
+						["Ironpaw Token"] = false,
+						["Champion's Seal"] = false,
+						["Artifact Fragment"] = false,
+						["Oil"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Timewarped Badge"] = false,
+					},
+					["text"] = {
+						["name"] = "Prototype",
+					},
+				},
+			},
+		},
+		["DataSource"] = {
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
+				},
+			},
+		},
+		["Junk"] = {
+		},
+		["MoneyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["small"] = true,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Korugen - Tichondrius"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Gorog - Bleeding Hollow"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Mallubank - Tichondrius"] = "Default",
+		["Lorvol - Tichondrius"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
+		["Zethan - Tichondrius"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Deminath - Hyjal"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Zearthan - Proudmoore"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
+		["Kindhoof - Tichondrius"] = "Default",
+		["Korugen - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Deminath - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Zaliga - Bleeding Hollow"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Kindhoof - Proudmoore"] = "Default",
+		["Morifa - Tichondrius"] = "Default",
+		["Alura - Tichondrius"] = "Default",
+		["Mallusof - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["virtualStacks"] = {
+				["others"] = true,
+				["stackable"] = true,
+				["incomplete"] = true,
+			},
+			["scale"] = 0.9,
+			["bagFont"] = {
+				["name"] = "Prototype",
+			},
+			["positions"] = {
+				["anchor"] = {
+					["xOffset"] = 0,
+					["yOffset"] = 273.048400878906,
+				},
+				["Backpack"] = {
+					["xOffset"] = -121.031344596151,
+					["yOffset"] = 122.915175171423,
+				},
+			},
+			["filters"] = {
+				["ItemSets"] = false,
+			},
+			["compactLayout"] = true,
+			["hideAnchor"] = true,
+			["sectionFont"] = {
+				["name"] = "Prototype",
+				["size"] = 16,
+			},
+			["autoDeposit"] = true,
+			["modules"] = {
+				["Artifact Power Currency"] = false,
+			},
+		},
+	},
+}

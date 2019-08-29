@@ -1,4 +1,7 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "us-Korugen-icecrown"
+RaiderIO_LastCharacter = "us-Mallusof-icecrown"
+RaiderIO_MissingCharacters = {
+	["us-Steelytusk-stormrage"] = true,
+}

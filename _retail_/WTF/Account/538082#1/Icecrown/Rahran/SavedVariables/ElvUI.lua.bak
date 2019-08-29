@@ -1,10 +1,19 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cheer", -- [1]
-		"/s have a good one  :)", -- [2]
-		"/s nice  :)", -- [3]
-		"/wa", -- [4]
+		"/s have a good one  :)", -- [1]
+		"/wa", -- [2]
+		"/s i)ae##3 f..............33333333333333333333333333 HJJ.YU,L*", -- [3]
+		"/s :f WAEEAEEEFE", -- [4]
+		"/s ffff", -- [5]
+		"/s 3KL◘.38593433", -- [6]
+		"/cheer", -- [7]
+		"/s ffF", -- [8]
+		"/s \\*6F ML,K7U 80\\F'3*36+53M.L,K89U", -- [9]
+		"/s  E30.EE38WEE", -- [10]
+		"/s \\\\\\\\\\\\", -- [11]
+		"/s nice  :)", -- [12]
+		"/s FF3WEDE", -- [13]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -117,5 +126,225 @@ ElvCharacterDB = {
 			[51] = 1559106653,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [5]
+		{
+			"Are you Lonely? Tired of questing alone? Are you sitting at your computer, naked, drinking beer?...Join us, active guild chat and discord :)", -- [1]
+			"Pandacillin-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pandacillin-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			212, -- [11]
+			"Player-104-05633F26", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Pandacillin-Malygos|r",
+			[51] = 1563760242,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [6]
+		{
+			"ffF", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			243, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760495,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [7]
+		{
+			"i)ae##3 f..............33333333333333333333333333 HJJ.YU,L*", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			245, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760510,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [8]
+		{
+			"\\\\\\\\\\\\", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			246, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760515,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [9]
+		{
+			":f WAEEAEEEFE", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			253, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760556,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [10]
+		{
+			"\\*6F ML,K7U 80\\F'3*36+53M.L,K89U", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			255, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760560,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [11]
+		{
+			"ffff", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			256, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760564,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [12]
+		{
+			"FF3WEDE", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			257, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760566,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [13]
+		{
+			"3KL◘.38593433", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			258, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760571,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [14]
+		{
+			" E30.EE38WEE", -- [1]
+			"Rahran-Icecrown", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rahran-Icecrown", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			260, -- [11]
+			"Player-104-0A0CB07D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rahran|r",
+			[51] = 1563760577,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [15]
 	},
 }

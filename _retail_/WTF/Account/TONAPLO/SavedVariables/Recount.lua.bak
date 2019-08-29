@@ -1,15 +1,15 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Amranar - Ragnaros"] = "Amranar - Ragnaros",
+		["Mallusof - Ragnaros"] = "Mallusof - Ragnaros",
 	},
 	["profiles"] = {
-		["Amranar - Ragnaros"] = {
+		["Mallusof - Ragnaros"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -236.0002593994141,
-					["x"] = 425.0006103515625,
+					["y"] = -83.00018310546875,
+					["x"] = 484.0003662109375,
 					["w"] = 139.9999542236328,
 					["h"] = 200.0000152587891,
 				},

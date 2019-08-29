@@ -53,7 +53,7 @@ function mod:GetOptions()
 		267981, -- Protective Aura
 		-- Tidesage Spiritualist
 		268050, -- Anchor of Binding
-		276265, -- Swiftness
+		{276265, "DISPEL"}, -- Swiftness
 		268030, -- Mending Rapids
 		-- Galecaller Apprentice
 		274437, -- Tempest
@@ -185,8 +185,10 @@ do
 end
 
 function mod:Swiftness(args)
-	self:TargetMessage(args.spellId, args.destName, "yellow")
-	self:PlaySound(args.spellId, "info")
+	if self:Dispeller("magic", true, args.spellId) and bit.band(args.destFlags, 0x400) == 0 then -- COMBATLOG_OBJECT_TYPE_PLAYER
+		self:TargetMessage2(args.spellId, "yellow", args.destName)
+		self:PlaySound(args.spellId, "info")
+	end
 end
 
 function mod:MendingRapids(args)
@@ -285,9 +287,27 @@ function mod:VoidSeedApplied(args)
 		self:TargetMessage(args.spellId, args.destName, "blue")
 		self:PlaySound(args.spellId, "alarm")
 		-- Duration seems to vary, so we can't hardcode a fixed duration
-		local _, _, _, expirationTime = self:UnitDebuff(args.destName, args.spellId)
-		if expirationTime then
-			local duration = expirationTime - GetTime()
+		local count = 0
+		local maxExpirationTime = 0
+		for i = 1, 100 do
+			local _, _, _, _, _, expirationTime, _, _, _, spellId = UnitAura(args.destName, i, "HARMFUL")
+			if spellId == args.spellId then
+				count = count + 1
+				if count > 1 then
+					BigWigs:Error(string.format(
+						"Void seed applied: count: %d, duration: %d, previous max duration: %d. Tell the authors!",
+						count, expirationTime - GetTime(), maxExpirationTime - GetTime()
+					))
+				end
+				if expirationTime > maxExpirationTime then
+					maxExpirationTime = expirationTime
+				end
+			elseif not spellId then
+				break
+			end
+		end
+		local duration = maxExpirationTime - GetTime()
+		if duration >= 0 then
 			self:TargetBar(args.spellId, duration, args.destName)
 			self:SayCountdown(args.spellId, duration)
 		end
