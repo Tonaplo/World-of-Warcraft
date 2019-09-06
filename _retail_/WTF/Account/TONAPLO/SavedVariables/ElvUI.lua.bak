@@ -58,8 +58,8 @@ ElvDB = {
 			["Korugen"] = 101279121,
 			["Rahran"] = 654009326,
 			["Zearthan"] = 134021939,
-			["Kaldowrath"] = 1332929479,
-			["Mallusof"] = 3586860508,
+			["Kaldowrath"] = 1342487888,
+			["Mallusof"] = 3600126483,
 			["Praerend"] = 438086339,
 			["Thedodrouk"] = 137165185,
 			["Burdett"] = 92199576,
@@ -211,9 +211,9 @@ ElvDB = {
 				["ElvAB_6"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-488,330",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-50,50",
 				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,50,995",
-				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,463,50",
 				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,200",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-230,140",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,463,50",
 				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-50,50",
 				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-50",
 				["ReputationBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-50,-228",
@@ -674,52 +674,12 @@ ElvDB = {
 				["fontSize"] = 12,
 			},
 			["unitframe"] = {
-				["smoothbars"] = true,
+				["statusbar"] = "Blizzard",
 				["units"] = {
 					["tank"] = {
 						["enable"] = false,
 					},
 					["targettargettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["pet"] = {
-						["debuffs"] = {
-							["anchorPoint"] = "TOPRIGHT",
-							["enable"] = true,
-						},
-						["portrait"] = {
-							["camDistanceScale"] = 2,
-						},
-						["disableTargetGlow"] = false,
-						["width"] = 270,
-						["infoPanel"] = {
-							["height"] = 14,
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-						["castbar"] = {
-							["width"] = 270,
-							["iconSize"] = 32,
-						},
-					},
-					["party"] = {
-						["height"] = 74,
-						["enable"] = false,
-						["rdebuffs"] = {
-							["font"] = "Arial Narrow",
-						},
-						["power"] = {
-							["height"] = 13,
-						},
-						["width"] = 231,
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["focustarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -745,14 +705,6 @@ ElvDB = {
 							["enable"] = false,
 							["yOffset"] = 0,
 						},
-					},
-					["arena"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["assist"] = {
-						["enable"] = false,
 					},
 					["player"] = {
 						["debuffs"] = {
@@ -788,6 +740,53 @@ ElvDB = {
 						},
 						["CombatIcon"] = {
 							["anchorPoint"] = "TOPLEFT",
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["assist"] = {
+						["enable"] = false,
+					},
+					["boss"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = -16,
+							["numrows"] = 1,
+							["maxDuration"] = 300,
+						},
+						["width"] = 246,
+						["infoPanel"] = {
+							["height"] = 17,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+							["text_format"] = "[healthcolor][health:current][health:percent]",
+						},
+						["portrait"] = {
+							["camDistanceScale"] = 2,
+							["width"] = 45,
+						},
+						["height"] = 60,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 16,
+							["maxDuration"] = 300,
+						},
+						["castbar"] = {
+							["width"] = 246,
 						},
 					},
 					["raid40"] = {
@@ -874,42 +873,43 @@ ElvDB = {
 						},
 						["numGroups"] = 8,
 					},
-					["boss"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -16,
-							["numrows"] = 1,
-							["maxDuration"] = 300,
+					["party"] = {
+						["height"] = 74,
+						["enable"] = false,
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
 						},
-						["width"] = 246,
-						["infoPanel"] = {
-							["height"] = 17,
+						["power"] = {
+							["height"] = 13,
 						},
+						["width"] = 231,
 						["health"] = {
 							["frequentUpdates"] = true,
-							["text_format"] = "[healthcolor][health:current][health:percent]",
+						},
+					},
+					["pet"] = {
+						["debuffs"] = {
+							["anchorPoint"] = "TOPRIGHT",
+							["enable"] = true,
 						},
 						["portrait"] = {
 							["camDistanceScale"] = 2,
-							["width"] = 45,
 						},
-						["height"] = 60,
-						["buffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = 16,
-							["maxDuration"] = 300,
+						["disableTargetGlow"] = false,
+						["width"] = 270,
+						["infoPanel"] = {
+							["height"] = 14,
 						},
-						["castbar"] = {
-							["width"] = 246,
-						},
-					},
-					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
+						["castbar"] = {
+							["width"] = 270,
+							["iconSize"] = 32,
+						},
 					},
 				},
-				["font"] = "Arial Narrow",
+				["smoothbars"] = true,
 				["colors"] = {
 					["auraBarBuff"] = {
 						["b"] = 0.1,
@@ -937,7 +937,7 @@ ElvDB = {
 					["auraBarByType"] = false,
 				},
 				["fontOutline"] = "OUTLINE",
-				["statusbar"] = "Blizzard",
+				["font"] = "Arial Narrow",
 				["thinBorders"] = true,
 			},
 			["datatexts"] = {
@@ -1170,8 +1170,8 @@ ElvPrivateDB = {
 		["Mallusof - Silvermoon"] = {
 			["skins"] = {
 				["blizzard"] = {
-					["guildcontrol"] = false,
 					["guildregistrar"] = false,
+					["guildcontrol"] = false,
 				},
 			},
 			["install_complete"] = "11.18",

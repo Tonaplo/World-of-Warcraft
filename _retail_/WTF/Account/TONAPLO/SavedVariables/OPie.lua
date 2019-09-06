@@ -191,9 +191,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
+					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
-					["caption"] = "Fishing",
 				}, -- [16]
 				{
 					["sliceToken"] = "ABuesXHE2Xe",
@@ -201,9 +201,9 @@ OneRing_Config = {
 				}, -- [17]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
-				["noOpportunisticCA"] = true,
 				["save"] = true,
 				["hotkey"] = "ALT-T",
+				["noOpportunisticCA"] = true,
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
@@ -545,32 +545,32 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
-					["id"] = "/click ORLOpen SpecMenu",
 					["caption"] = "Travel",
+					["id"] = "/click ORLOpen SpecMenu",
 					["icon"] = 134414,
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
-					["id"] = "/click ORLOpen CommonTrades",
 					["caption"] = "Trade Skills",
+					["id"] = "/click ORLOpen CommonTrades",
 					["icon"] = 134707,
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
-					["id"] = "/click ORLOpen Macros",
 					["caption"] = "Macros",
+					["id"] = "/click ORLOpen Macros",
 					["icon"] = 1505928,
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
-					["id"] = "/click ORLOpen onsumables",
 					["caption"] = "Consumables",
+					["id"] = "/click ORLOpen onsumables",
 					["icon"] = 134055,
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
-					["id"] = "/click ORLOpen tAbilities",
 					["caption"] = "Class Abilities",
+					["id"] = "/click ORLOpen tAbilities",
 					["icon"] = 132147,
 				}, -- [5]
 				{

@@ -14,6 +14,14 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
+			["Varianna"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Varianna",
+				["class"] = "PALADIN",
+			},
 			["Aréla-Tirion"] = {
 				["deaths"] = {
 				},
@@ -37,6 +45,14 @@ DeathGraphsDBDeaths = {
 				["name"] = "Gweniver-Hellscream",
 				["overall"] = {
 				},
+			},
+			["Bettewarlock-Terenas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Bettewarlock-Terenas",
+				["class"] = "WARLOCK",
 			},
 			["Invasor-Antonidas"] = {
 				["class"] = "PALADIN",
@@ -86,6 +102,14 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
+			["Nulona-Garrosh"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nulona-Garrosh",
+				["class"] = "DRUID",
+			},
 			["Ménera-Aegwynn"] = {
 				["deaths"] = {
 				},
@@ -109,6 +133,38 @@ DeathGraphsDBDeaths = {
 				["name"] = "Mallusof",
 				["overall"] = {
 				},
+			},
+			["Legendarion-Sylvanas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Legendarion-Sylvanas",
+				["class"] = "DEMONHUNTER",
+			},
+			["Гаетана-Гордунни"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Гаетана-Гордунни",
+				["overall"] = {
+				},
+			},
+			["Näbot-Hyjal"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Näbot-Hyjal",
+				["overall"] = {
+				},
+			},
+			["Manchmaltod-Norgannon"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Manchmaltod-Norgannon",
 			},
 			["Athaline-Drek'Thar"] = {
 				["deaths"] = {
@@ -149,11 +205,11 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Näbot-Hyjal"] = {
+			["Ãrrnn-Dalaran"] = {
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
-				["name"] = "Näbot-Hyjal",
+				["class"] = "MONK",
+				["name"] = "Ãrrnn-Dalaran",
 				["overall"] = {
 				},
 			},
@@ -170,6 +226,14 @@ DeathGraphsDBDeaths = {
 				},
 				["class"] = "MAGE",
 				["name"] = "Terguron-Mannoroth",
+				["overall"] = {
+				},
+			},
+			["Anorwen-Pozzodell'Eternità"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Anorwen-Pozzodell'Eternità",
 				["overall"] = {
 				},
 			},
@@ -212,6 +276,14 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
+			["Stalhorn-Hyjal"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Stalhorn-Hyjal",
+				["overall"] = {
+				},
+			},
 			["Titanniah-Uldaman"] = {
 				["deaths"] = {
 				},
@@ -220,21 +292,29 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Manchmaltod-Norgannon"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
+			["Moridin-Anub'arak"] = {
 				["overall"] = {
 				},
-				["name"] = "Manchmaltod-Norgannon",
+				["deaths"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
 			},
-			["Ãrrnn-Dalaran"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Ãrrnn-Dalaran",
+			["Clive-KirinTor"] = {
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Clive-KirinTor",
+				["class"] = "HUNTER",
+			},
+			["Azmødan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Azmødan",
+				["class"] = "WARLOCK",
 			},
 			["Ухтыкакмогу-ВечнаяПесня"] = {
 				["deaths"] = {
@@ -244,11 +324,11 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Doae-Area52"] = {
+			["Киндрсюрприз-Гордунни"] = {
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
-				["name"] = "Doae-Area52",
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Киндрсюрприз-Гордунни",
 				["overall"] = {
 				},
 			},
@@ -260,19 +340,19 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Гаетана-Гордунни"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Гаетана-Гордунни",
+			["Монтанор-Разувий"] = {
 				["overall"] = {
 				},
-			},
-			["Anorwen-Pozzodell'Eternità"] = {
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
-				["name"] = "Anorwen-Pozzodell'Eternità",
+				["name"] = "Монтанор-Разувий",
+				["class"] = "WARRIOR",
+			},
+			["Doae-Area52"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Doae-Area52",
 				["overall"] = {
 				},
 			},
@@ -284,19 +364,19 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Killrockson-Antonidas",
 			},
-			["Stalhorn-Hyjal"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Stalhorn-Hyjal",
+			["Melice-Neptulon"] = {
 				["overall"] = {
 				},
-			},
-			["Киндрсюрприз-Гордунни"] = {
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Киндрсюрприз-Гордунни",
+				["name"] = "Melice-Neptulon",
+				["class"] = "PALADIN",
+			},
+			["Verycool-ArgentDawn"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Verycool-ArgentDawn",
 				["overall"] = {
 				},
 			},
@@ -324,13 +404,13 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Verycool-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Verycool-ArgentDawn",
+			["Anomassa"] = {
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Anomassa",
+				["class"] = "PRIEST",
 			},
 		},
 		["boss_table"] = {
@@ -737,6 +817,14 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Iampalü-Antonidas",
 			},
+			["Xiaoyueya-Outland"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Xiaoyueya-Outland",
+				["overall"] = {
+				},
+			},
 			["Invasor-Antonidas"] = {
 				["class"] = "PALADIN",
 				["deaths"] = {
@@ -769,12 +857,36 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Friedholm-Mal'Ganis",
 			},
+			["Anomassa"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Anomassa",
+				["overall"] = {
+				},
+			},
 			["Даомакс-СтражСмерти"] = {
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
 				["name"] = "Даомакс-СтражСмерти",
+			},
+			["Clive-KirinTor"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Clive-KirinTor",
+				["overall"] = {
+				},
+			},
+			["Bettewarlock-Terenas"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Bettewarlock-Terenas",
+				["overall"] = {
+				},
 			},
 			["Lyranthus-Nemesis"] = {
 				["class"] = "PALADIN",
@@ -800,6 +912,14 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Evergreen-DieSilberneHand",
 			},
+			["Nulona-Garrosh"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nulona-Garrosh",
+				["overall"] = {
+				},
+			},
 			["Ikbal-Nemesis"] = {
 				["class"] = "MAGE",
 				["deaths"] = {
@@ -816,6 +936,22 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Axix-Ravencrest",
 			},
+			["Acharia"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Acharia",
+				["overall"] = {
+				},
+			},
+			["Bulbumbo"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Bulbumbo",
+				["overall"] = {
+				},
+			},
 			["Unchartet-Antonidas"] = {
 				["class"] = "WARRIOR",
 				["deaths"] = {
@@ -824,6 +960,14 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Unchartet-Antonidas",
 			},
+			["Scarymann-Antonidas"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Scarymann-Antonidas",
+			},
 			["Doktorchen-DunMorogh"] = {
 				["class"] = "MONK",
 				["deaths"] = {
@@ -831,6 +975,14 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 				["name"] = "Doktorchen-DunMorogh",
+			},
+			["Gralph"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Gralph",
+				["overall"] = {
+				},
 			},
 			["Semastaa-Antonidas"] = {
 				["class"] = "MONK",
@@ -848,37 +1000,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Manchmaltod-Norgannon",
 			},
-			["Manaburst-Malorne"] = {
-				["class"] = "MAGE",
+			["Melice-Neptulon"] = {
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
+				["name"] = "Melice-Neptulon",
 				["overall"] = {
 				},
-				["name"] = "Manaburst-Malorne",
-			},
-			["Beltra-Nemesis"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Beltra-Nemesis",
-			},
-			["Wolweriné-Ambossar"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Wolweriné-Ambossar",
-			},
-			["Bàppì-Alleria"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Bàppì-Alleria",
 			},
 			["Bonscott-Blackmoore"] = {
 				["class"] = "MONK",
@@ -888,13 +1016,21 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Bonscott-Blackmoore",
 			},
-			["Wildfighter-Malorne"] = {
+			["Bàppì-Alleria"] = {
 				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Wildfighter-Malorne",
+				["name"] = "Bàppì-Alleria",
+			},
+			["Manaburst-Malorne"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Manaburst-Malorne",
 			},
 			["Fabienne-Malorne"] = {
 				["class"] = "HUNTER",
@@ -904,6 +1040,46 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Fabienne-Malorne",
 			},
+			["Wolweriné-Ambossar"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Wolweriné-Ambossar",
+			},
+			["Azmødan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Azmødan",
+				["overall"] = {
+				},
+			},
+			["Wildfighter-Malorne"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Wildfighter-Malorne",
+			},
+			["Wyshaa-Hyjal"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Wyshaa-Hyjal",
+			},
+			["Moridin-Anub'arak"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Moridin-Anub'arak",
+				["overall"] = {
+				},
+			},
 			["Darkterrors-DunModr"] = {
 				["class"] = "SHAMAN",
 				["deaths"] = {
@@ -912,13 +1088,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Darkterrors-DunModr",
 			},
-			["Zumitø-DunModr"] = {
-				["class"] = "PRIEST",
+			["Grimmjôw-Ambossar"] = {
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Zumitø-DunModr",
+				["name"] = "Grimmjôw-Ambossar",
 			},
 			["Klænex-Hyjal"] = {
 				["class"] = "SHAMAN",
@@ -928,13 +1104,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Klænex-Hyjal",
 			},
-			["Scarymann-Antonidas"] = {
-				["class"] = "DRUID",
+			["Beltra-Nemesis"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Scarymann-Antonidas",
+				["name"] = "Beltra-Nemesis",
 			},
 			["Aysía-Nemesis"] = {
 				["class"] = "ROGUE",
@@ -944,21 +1120,21 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Aysía-Nemesis",
 			},
-			["Piefke-Lordaeron"] = {
-				["class"] = "WARLOCK",
+			["Монтанор-Разувий"] = {
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
+				["name"] = "Монтанор-Разувий",
 				["overall"] = {
 				},
-				["name"] = "Piefke-Lordaeron",
 			},
-			["Grimmjôw-Ambossar"] = {
-				["class"] = "WARLOCK",
+			["Zumitø-DunModr"] = {
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Grimmjôw-Ambossar",
+				["name"] = "Zumitø-DunModr",
 			},
 			["Killrockson-Antonidas"] = {
 				["class"] = "HUNTER",
@@ -992,13 +1168,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Karltoffel-Malorne",
 			},
-			["Wyshaa-Hyjal"] = {
-				["class"] = "DRUID",
+			["Piefke-Lordaeron"] = {
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Wyshaa-Hyjal",
+				["name"] = "Piefke-Lordaeron",
 			},
 			["Lí-Todeswache"] = {
 				["class"] = "SHAMAN",
@@ -1172,24 +1348,12 @@ DeathGraphsDBEndurance = {
 		["name"] = "Abyssal Commander Sivara",
 		["id"] = 2352,
 		["player_db"] = {
-			["Сабхайп-Гордунни"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "ROGUE",
+			["Varianna"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
-			},
-			["Aréla-Tirion"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						5, -- [1]
-						103.8969999999972, -- [2]
-						"Overflowing Chill |cFFFF3333272,897|r", -- [3]
-					}, -- [1]
-				},
+				["class"] = "PALADIN",
 			},
 			["Добродав-Гордунни"] = {
 				["encounters"] = 3,
@@ -1212,13 +1376,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Baltorius-Antonidas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
 			["Invasor-Antonidas"] = {
 				["encounters"] = 1,
 				["points"] = 90,
@@ -1231,34 +1388,22 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Headshøt-Malorne"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["class"] = "HUNTER",
+			["Legendarion-Sylvanas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
 				["deaths"] = {
 					{
-						6, -- [1]
-						23.47200000000885, -- [2]
-						"Overflowing Chill |cFFFF3333294,634|r", -- [3]
+						1, -- [1]
+						176.6759999999777, -- [2]
+						"Overflowing Chill |cFFFF3333233,629|r", -- [3]
 					}, -- [1]
-					{
-						7, -- [1]
-						156.4109999999637, -- [2]
-						"Unstable Mixture |cFFFF33336,374|r", -- [3]
-					}, -- [2]
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Мутагеночка-ЧерныйШрам"] = {
 				["encounters"] = 6,
 				["points"] = 600,
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Nätsya-Dalaran"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 			},
@@ -1269,30 +1414,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Хронепсис-Гром"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						6, -- [1]
-						24.79399999999441, -- [2]
-						"Toxic Brand |cFFFF333316,180|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Ménera-Aegwynn"] = {
-				["encounters"] = 6,
-				["points"] = 590,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						2, -- [1]
-						169.0949999999721, -- [2]
-						"Unstable Mixture |cFFFF33336,512|r", -- [3]
-					}, -- [1]
-				},
-			},
 			["Roxette-Azshara"] = {
 				["encounters"] = 3,
 				["points"] = 300,
@@ -1300,14 +1421,7 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Hêádshòt-Antonidas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Friedholm-Mal'Ganis"] = {
+			["Bàppì-Alleria"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "HUNTER",
@@ -1321,40 +1435,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Bàppì-Alleria"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						5, -- [1]
-						59.97800000000279, -- [2]
-						"Septic Ground (DoT) |cFFFF333333,771|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Marëox-DunModr"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						4, -- [1]
-						96.57000000000698, -- [2]
-						"Overflowing Venom |cFFFF3333272,160|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Semastaa-Antonidas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
+			["Doae-Area52"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 			},
@@ -1363,82 +1447,6 @@ DeathGraphsDBEndurance = {
 				["points"] = 100,
 				["class"] = "WARRIOR",
 				["deaths"] = {
-				},
-			},
-			["Doae-Area52"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Anorwen-Pozzodell'Eternità"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Näbot-Hyjal"] = {
-				["encounters"] = 2,
-				["points"] = 180,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						2, -- [1]
-						139.0920000000042, -- [2]
-						"Frozen Ground |cFFFF333334,966|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						140.3799999999465, -- [2]
-						"Unstable Mixture |cFFFF33335,682|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Manchmaltod-Norgannon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Anivera-Ravencrest"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Satélla-Aegwynn"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Athaline-Drek'Thar"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						3, -- [1]
-						90.42299999995157, -- [2]
-						"Unstable Mixture |cFFFF33335,688|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Мансоун-Гордунни"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						3, -- [1]
-						89.9319999999716, -- [2]
-						"Unstable Mixture |cFFFF33334,513|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Dwaveth-Dalaran"] = {
@@ -1469,27 +1477,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Darkalina-Dalaran"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Terguron-Mannoroth"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Atalane-Eldre'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
 			["Cxen-Blackmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
@@ -1515,17 +1502,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Wolweriné-Ambossar"] = {
+			["Atalane-Eldre'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Demetrâ-Dalaran"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "WARRIOR",
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -1548,11 +1528,194 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Elanorel-Proudmoore"] = {
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						142.6919999999809, -- [2]
+						"Toxic Bolt (DoT) |cFFFF333312,351|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Clive-KirinTor"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						218.7280000000028, -- [2]
+						"Overflowing Chill |cFFFF3333297,417|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "HUNTER",
+			},
+			["Satélla-Aegwynn"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Zetari-Dalaran"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						136.7420000000275, -- [2]
+						"Overflowing Venom |cFFFF3333161,377|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Монтанор-Разувий"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						102.5909999999567, -- [2]
+						"Overflowing Venom |cFFFF3333294,509|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARRIOR",
+			},
+			["Killrockson-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						162.4879999999539, -- [2]
+						"Toxic Brand |cFFFF333310,918|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Melice-Neptulon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Scarymann-Antonidas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "SHAMAN",
+				["class"] = "DRUID",
 				["deaths"] = {
+				},
+			},
+			["Starzach-Sylvanas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Сабхайп-Гордунни"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Aréla-Tirion"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						5, -- [1]
+						103.8969999999972, -- [2]
+						"Overflowing Chill |cFFFF3333272,897|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Xiaoyueya-Outland"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Baltorius-Antonidas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Headshøt-Malorne"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						6, -- [1]
+						23.47200000000885, -- [2]
+						"Overflowing Chill |cFFFF3333294,634|r", -- [3]
+					}, -- [1]
+					{
+						7, -- [1]
+						156.4109999999637, -- [2]
+						"Unstable Mixture |cFFFF33336,374|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Nätsya-Dalaran"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Verycool-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Hêádshòt-Antonidas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Friedholm-Mal'Ganis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["encounters"] = 9,
+				["points"] = 890,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						5, -- [1]
+						59.97800000000279, -- [2]
+						"Septic Ground (DoT) |cFFFF333333,771|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Athaline-Drek'Thar"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						3, -- [1]
+						90.42299999995157, -- [2]
+						"Unstable Mixture |cFFFF33335,688|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Гаетана-Гордунни"] = {
@@ -1564,6 +1727,137 @@ DeathGraphsDBEndurance = {
 						7, -- [1]
 						71.01500000001397, -- [2]
 						"Septic Ground (DoT) |cFFFF333335,006|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Semastaa-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Marëox-DunModr"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						4, -- [1]
+						96.57000000000698, -- [2]
+						"Overflowing Venom |cFFFF3333272,160|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Azmødan"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						99.63699999998789, -- [2]
+						"Overflowing Venom |cFFFF3333172,219|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARLOCK",
+			},
+			["Киндрсюрприз-Гордунни"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Manchmaltod-Norgannon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Terguron-Mannoroth"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Nulona-Garrosh"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Bulbumbo"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Goldenglanz-Blackmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Anivera-Ravencrest"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Wolweriné-Ambossar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Demetrâ-Dalaran"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Anomassa"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						235.2629999999772, -- [2]
+						"Unstable Mixture |cFFFF33335,599|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+			},
+			["Traklune-KirinTor"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Anorwen-Pozzodell'Eternità"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Мансоун-Гордунни"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						3, -- [1]
+						89.9319999999716, -- [2]
+						"Unstable Mixture |cFFFF33334,513|r", -- [3]
 					}, -- [1]
 				},
 			},
@@ -1586,49 +1880,59 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Goldenglanz-Blackmoore"] = {
+			["Näbot-Hyjal"] = {
 				["encounters"] = 2,
-				["points"] = 200,
+				["points"] = 180,
 				["class"] = "PRIEST",
 				["deaths"] = {
+					{
+						2, -- [1]
+						139.0920000000042, -- [2]
+						"Frozen Ground |cFFFF333334,966|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						140.3799999999465, -- [2]
+						"Unstable Mixture |cFFFF33335,682|r", -- [3]
+					}, -- [2]
 				},
 			},
-			["Zetari-Dalaran"] = {
+			["Ménera-Aegwynn"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						169.0949999999721, -- [2]
+						"Unstable Mixture |cFFFF33336,512|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Хронепсис-Гром"] = {
 				["encounters"] = 3,
 				["points"] = 290,
-				["class"] = "DEMONHUNTER",
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
-						4, -- [1]
-						136.7420000000275, -- [2]
-						"Overflowing Venom |cFFFF3333161,377|r", -- [3]
+						6, -- [1]
+						24.79399999999441, -- [2]
+						"Toxic Brand |cFFFF333316,180|r", -- [3]
 					}, -- [1]
 				},
 			},
-			["Traklune-KirinTor"] = {
+			["Darkalina-Dalaran"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Киндрсюрприз-Гордунни"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Killrockson-Antonidas"] = {
-				["encounters"] = 1,
-				["points"] = 90,
 				["class"] = "HUNTER",
 				["deaths"] = {
-					{
-						1, -- [1]
-						162.4879999999539, -- [2]
-						"Toxic Brand |cFFFF333310,918|r", -- [3]
-					}, -- [1]
+				},
+			},
+			["Elanorel-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
 				},
 			},
 			["Stalhorn-Hyjal"] = {
@@ -1643,12 +1947,12 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Scarymann-Antonidas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
+			["Gralph"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Karltoffel-Malorne"] = {
 				["encounters"] = 1,
@@ -1681,12 +1985,12 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Verycool-ArgentDawn"] = {
+			["Bettewarlock-Terenas"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
 		},
 		["boss_table"] = {
@@ -1862,12 +2166,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Mallusof"] = {
+			["Bulbumbo"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+				["class"] = "WARRIOR",
 			},
 			["Anomassa"] = {
 				["encounters"] = 1,
@@ -1883,12 +2187,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Bulbumbo"] = {
+			["Mallusof"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
+				["class"] = "PRIEST",
 			},
 			["Unabletofeel-Sylvanas"] = {
 				["encounters"] = 1,
@@ -2005,13 +2309,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Terdonis-ArgentDawn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
 			["Moridin-Anub'arak"] = {
 				["encounters"] = 2,
 				["points"] = 190,
@@ -2023,6 +2320,13 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 				["class"] = "DEMONHUNTER",
+			},
+			["Terdonis-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
 			},
 			["Sindrallig-Hyjal"] = {
 				["encounters"] = 2,
@@ -2467,6 +2771,13 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
+			["Xiaoyueya-Outland"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
 			["Invasor-Antonidas"] = {
 				["encounters"] = 4,
 				["points"] = 390,
@@ -2496,6 +2807,35 @@ DeathGraphsDBEndurance = {
 					}, -- [2]
 				},
 			},
+			["Bettewarlock-Terenas"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						221.4729999999981, -- [2]
+						"Bioelectric Feelers |cFFFF333362,048|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						122.3520000000135, -- [2]
+						"Glowing Stinger (DoT) |cFFFF333337,229|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Estania-Antonidas"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						160.774000000034, -- [2]
+						"Shock Pulse |cFFFF333343,084|r", -- [3]
+					}, -- [1]
+				},
+			},
 			["Servigna-Nemesis"] = {
 				["encounters"] = 3,
 				["points"] = 300,
@@ -2510,10 +2850,43 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
+			["Anomassa"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
 			["Occio-Nemesis"] = {
 				["encounters"] = 3,
 				["points"] = 300,
 				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Wolweriné-Ambossar"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Acharia"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						3, -- [1]
+						121.3060000000405, -- [2]
+						"Glowing Stinger (DoT) |cFFFF333336,894|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Rukus-Nemesis"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
@@ -2530,8 +2903,8 @@ DeathGraphsDBEndurance = {
 				},
 			},
 			["Mallusof"] = {
-				["encounters"] = 7,
-				["points"] = 690,
+				["encounters"] = 10,
+				["points"] = 990,
 				["class"] = "PRIEST",
 				["deaths"] = {
 					{
@@ -2545,6 +2918,13 @@ DeathGraphsDBEndurance = {
 				["encounters"] = 3,
 				["points"] = 300,
 				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Melice-Neptulon"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
@@ -2572,11 +2952,47 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
+			["Zymara-ArgentDawn"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Bulbumbo"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
 			["Unchartet-Antonidas"] = {
 				["encounters"] = 4,
 				["points"] = 400,
 				["class"] = "WARRIOR",
 				["deaths"] = {
+				},
+			},
+			["Nulona-Garrosh"] = {
+				["encounters"] = 4,
+				["points"] = 360,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						147.1849999999977, -- [2]
+						"Bioelectric Feelers |cFFFF333354,365|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						186.0810000000056, -- [2]
+						"Bioelectric Feelers |cFFFF333345,120|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						122.3520000000135, -- [2]
+						"Glowing Stinger (DoT) |cFFFF333331,573|r", -- [3]
+					}, -- [3]
 				},
 			},
 			["Doktorchen-DunMorogh"] = {
@@ -2588,6 +3004,18 @@ DeathGraphsDBEndurance = {
 						5, -- [1]
 						332.195000000007, -- [2]
 						"Toxic Spine (DoT) |cFFFF333343,576|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Gralph"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						189.0279999999912, -- [2]
+						"Radiant Biomass (DoT) |cFFFF333342,086|r", -- [3]
 					}, -- [1]
 				},
 			},
@@ -2615,32 +3043,28 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Beltra-Nemesis"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Manaburst-Malorne"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Fabienne-Malorne"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
 			["Piefke-Lordaeron"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["class"] = "WARLOCK",
 				["deaths"] = {
+				},
+			},
+			["Aysía-Nemesis"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						7.272000000011758, -- [2]
+						"Environment (Drowning) |cFFFF333361,829|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						127.6849999999977, -- [2]
+						"Glowing Stinger (DoT) |cFFFF333335,719|r", -- [3]
+					}, -- [2]
 				},
 			},
 			["Bonscott-Blackmoore"] = {
@@ -2655,7 +3079,21 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Wildfighter-Malorne"] = {
+			["Manaburst-Malorne"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Beltra-Nemesis"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Atalane-Eldre'Thalas"] = {
 				["encounters"] = 4,
 				["points"] = 400,
 				["class"] = "HUNTER",
@@ -2669,11 +3107,30 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Karltoffel-Malorne"] = {
+			["Wildfighter-Malorne"] = {
 				["encounters"] = 4,
 				["points"] = 400,
 				["class"] = "HUNTER",
 				["deaths"] = {
+				},
+			},
+			["Azmødan"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						214.710000000021, -- [2]
+						"Toxic Spine (DoT) |cFFFF333337,227|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Darkterrors-DunModr"] = {
@@ -2695,28 +3152,18 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Rukus-Nemesis"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
+			["Grimmjôw-Ambossar"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
-			["Aysía-Nemesis"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["class"] = "ROGUE",
+			["Karltoffel-Malorne"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "HUNTER",
 				["deaths"] = {
-					{
-						1, -- [1]
-						7.272000000011758, -- [2]
-						"Environment (Drowning) |cFFFF333361,829|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						127.6849999999977, -- [2]
-						"Glowing Stinger (DoT) |cFFFF333335,719|r", -- [3]
-					}, -- [2]
 				},
 			},
 			["Wyshaa-Hyjal"] = {
@@ -2746,22 +3193,17 @@ DeathGraphsDBEndurance = {
 					}, -- [4]
 				},
 			},
-			["Estania-Antonidas"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["class"] = "MAGE",
+			["Монтанор-Разувий"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
 				["deaths"] = {
-					{
-						1, -- [1]
-						160.774000000034, -- [2]
-						"Shock Pulse |cFFFF333343,084|r", -- [3]
-					}, -- [1]
 				},
 			},
-			["Wolweriné-Ambossar"] = {
+			["Fabienne-Malorne"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["class"] = "ROGUE",
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -2798,18 +3240,23 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Grimmjôw-Ambossar"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "WARLOCK",
+			["Starzach-Sylvanas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
-			["Atalane-Eldre'Thalas"] = {
-				["encounters"] = 4,
-				["points"] = 400,
+			["Clive-KirinTor"] = {
+				["encounters"] = 3,
+				["points"] = 290,
 				["class"] = "HUNTER",
 				["deaths"] = {
+					{
+						2, -- [1]
+						224.625, -- [2]
+						"Shock Pulse |cFFFF333347,874|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Lí-Todeswache"] = {
@@ -2879,13 +3326,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Mallusof"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
 			["Moridin-Anub'arak"] = {
 				["encounters"] = 2,
 				["points"] = 190,
@@ -2897,6 +3337,13 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 				["class"] = "DEMONHUNTER",
+			},
+			["Mallusof"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Sindrallig-Hyjal"] = {
 				["encounters"] = 2,
@@ -3108,19 +3555,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Mallusof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
 			["Bulbumbo"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "WARRIOR",
+			},
+			["Mallusof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Sindrallig-Hyjal"] = {
 				["encounters"] = 1,
@@ -3178,468 +3625,49 @@ DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 293060,
-				["timeofdeath"] = 304.1179999999877,
-				["name"] = "Bettewarlock-Terenas",
-				["time"] = 1567025731.155,
-				["class"] = "WARLOCK",
-				["timestring"] = "5m 4s",
-				["events"] = {
-					{
-						false, -- [1]
-						77489, -- [2]
-						2843, -- [3]
-						1567025718.359, -- [4]
-						129080, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						296184, -- [2]
-						7464, -- [3]
-						1567025718.382, -- [4]
-						136544, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1726, -- [3]
-						1567025720.399, -- [4]
-						198259, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2617, -- [3]
-						1567025721.371, -- [4]
-						200876, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1727, -- [3]
-						1567025723.389, -- [4]
-						202603, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						234153, -- [2]
-						5720, -- [3]
-						1567025723.873, -- [4]
-						208323, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2616, -- [3]
-						1567025724.364, -- [4]
-						210939, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						234153, -- [2]
-						5735, -- [3]
-						1567025724.676, -- [4]
-						216674, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						234153, -- [2]
-						5735, -- [3]
-						1567025725.534, -- [4]
-						222409, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						120692, -- [2]
-						16071, -- [3]
-						1567025725.799, -- [4]
-						238480, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						234153, -- [2]
-						5715, -- [3]
-						1567025726.352, -- [4]
-						244195, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1726, -- [3]
-						1567025726.379, -- [4]
-						245921, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						234153, -- [2]
-						5720, -- [3]
-						1567025727.166, -- [4]
-						251641, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2985, -- [3]
-						1567025727.377, -- [4]
-						254626, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						77220, -- [2]
-						13636, -- [3]
-						1567025727.466, -- [4]
-						254626, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						108366, -- [2]
-						21993, -- [3]
-						1567025727.466, -- [4]
-						254626, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						292565, -- [2]
-						157829, -- [3]
-						1567025727.479, -- [4]
-						132426, -- [5]
-						"Crushing Grasp", -- [6]
-						35629, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						270117, -- [2]
-						6476, -- [3]
-						1567025727.479, -- [4]
-						138902, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						33110, -- [2]
-						7798, -- [3]
-						1567025727.479, -- [4]
-						146700, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						296184, -- [2]
-						3698, -- [3]
-						1567025727.519, -- [4]
-						150398, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						298192, -- [2]
-						1, -- [3]
-						1567025729.125, -- [4]
-						150398, -- [5]
-						"[*] Dark Beyond", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						270661, -- [2]
-						1727, -- [3]
-						1567025729.394, -- [4]
-						152125, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						77220, -- [2]
-						12528, -- [3]
-						1567025730.115, -- [4]
-						152125, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						108366, -- [2]
-						5359, -- [3]
-						1567025730.115, -- [4]
-						152125, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						298192, -- [2]
-						148767, -- [3]
-						1567025730.115, -- [4]
-						21245, -- [5]
-						"[*] Dark Beyond", -- [6]
-						17887, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						77489, -- [2]
-						3501, -- [3]
-						1567025730.378, -- [4]
-						24746, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						296184, -- [2]
-						7464, -- [3]
-						1567025730.378, -- [4]
-						32210, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						8936, -- [2]
-						15550, -- [3]
-						1567025730.456, -- [4]
-						47760, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						77220, -- [2]
-						10014, -- [3]
-						1567025731.136, -- [4]
-						1, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						108366, -- [2]
-						1986, -- [3]
-						1567025731.136, -- [4]
-						1, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1567025731.136, -- [4]
-						1, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						298192, -- [2]
-						148767, -- [3]
-						1567025731.155, -- [4]
-						1, -- [5]
-						"[*] Dark Beyond", -- [6]
-						12000, -- [7]
-						32, -- [8]
-						false, -- [9]
-						136766, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Bettewarlock-Terenas", -- [6]
-					}, -- [33]
-				},
-			}, -- [1]
-		},
-		["bossname"] = "Za'qul",
-		["bossicon"] = {
-			0.5, -- [1]
-			0.75, -- [2]
-			0.25, -- [3]
-			0.5, -- [4]
-			"Interface\\AddOns\\Details\\images\\raid\\EternalPalaceRaid_BossFaces", -- [5]
-		},
-		["date"] = 134419.921,
-		["timeelapsed"] = 524.6089999999967,
-	}, -- [1]
-	{
-		["deaths"] = {
-			{
-				["maxhealth"] = 232820,
-				["timeofdeath"] = 187.4339999999793,
-				["name"] = "Moridin-Anub'arak",
-				["time"] = 1567025194.614,
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "3m 7s",
+				["maxhealth"] = 459400,
+				["timeofdeath"] = 121.3060000000405,
+				["name"] = "Acharia",
 				["events"] = {
 					{
 						2, -- [1]
-						20484, -- [2]
+						95750, -- [2]
 						1, -- [3]
-						1567025204.014, -- [4]
+						1567628887.6, -- [4]
 						0, -- [5]
-						"Billíe-AeriePeak", -- [6]
+						"Azmødan", -- [6]
 					}, -- [1]
 					{
 						false, -- [1]
-						157982, -- [2]
-						12520, -- [3]
-						1567025190.172, -- [4]
-						126114, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						8936, -- [2]
+						3085, -- [3]
+						1567628843.478, -- [4]
+						297099, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
-						true, -- [1]
-						303819, -- [2]
-						87208, -- [3]
-						1567025190.237, -- [4]
-						38906, -- [5]
-						"[*] Nightmare Pool", -- [6]
+						false, -- [1]
+						53652, -- [2]
+						32883, -- [3]
+						1567628843.478, -- [4]
+						329982, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
-						77489, -- [2]
-						2114, -- [3]
-						1567025190.484, -- [4]
-						41020, -- [5]
-						"Mallusof", -- [6]
+						8936, -- [2]
+						617, -- [3]
+						1567628843.561, -- [4]
+						330599, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -3647,35 +3675,35 @@ DeathGraphsDBCurrent = {
 					}, -- [4]
 					{
 						false, -- [1]
-						296184, -- [2]
-						7464, -- [3]
-						1567025190.484, -- [4]
-						48484, -- [5]
-						"Mallusof", -- [6]
+						55078, -- [2]
+						1394, -- [3]
+						1567628843.586, -- [4]
+						331993, -- [5]
+						"Acharia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
-						true, -- [1]
-						292963, -- [2]
-						4535, -- [3]
-						1567025190.568, -- [4]
-						43949, -- [5]
-						"Za'qul", -- [6]
+						false, -- [1]
+						53652, -- [2]
+						847, -- [3]
+						1567628843.722, -- [4]
+						332840, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
 						false, -- [1]
-						48438, -- [2]
-						4466, -- [3]
-						1567025190.75, -- [4]
-						48415, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						53652, -- [2]
+						1693, -- [3]
+						1567628843.722, -- [4]
+						334533, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -3683,1227 +3711,11 @@ DeathGraphsDBCurrent = {
 					}, -- [7]
 					{
 						false, -- [1]
-						64844, -- [2]
-						8924, -- [3]
-						1567025190.798, -- [4]
-						57339, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						292971, -- [2]
-						5318, -- [3]
-						1567025191.091, -- [4]
-						52021, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						303380, -- [2]
-						2638, -- [3]
-						1567025191.143, -- [4]
-						54659, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						81269, -- [2]
-						6150, -- [3]
-						1567025191.507, -- [4]
-						60809, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						292963, -- [2]
-						4535, -- [3]
-						1567025191.556, -- [4]
-						56274, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						48438, -- [2]
-						2118, -- [3]
-						1567025191.618, -- [4]
-						58392, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						157982, -- [2]
-						6739, -- [3]
-						1567025191.879, -- [4]
-						65131, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						292971, -- [2]
-						5318, -- [3]
-						1567025192.087, -- [4]
-						59813, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						157982, -- [2]
-						437, -- [3]
-						1567025192.175, -- [4]
-						60250, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1922, -- [3]
-						1567025192.48, -- [4]
-						62172, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						64844, -- [2]
-						8924, -- [3]
-						1567025192.48, -- [4]
-						71096, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						292963, -- [2]
-						4535, -- [3]
-						1567025192.57, -- [4]
-						66561, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						292971, -- [2]
-						5318, -- [3]
-						1567025193.091, -- [4]
-						61243, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						303380, -- [2]
-						2638, -- [3]
-						1567025193.186, -- [4]
-						63881, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						81269, -- [2]
-						2951, -- [3]
-						1567025193.235, -- [4]
-						66832, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						48438, -- [2]
-						1811, -- [3]
-						1567025193.33, -- [4]
-						68643, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						77489, -- [2]
-						3852, -- [3]
-						1567025193.456, -- [4]
-						72495, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						296184, -- [2]
-						2677, -- [3]
-						1567025193.485, -- [4]
-						75172, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						292963, -- [2]
-						4535, -- [3]
-						1567025193.566, -- [4]
-						70637, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						157982, -- [2]
-						6739, -- [3]
-						1567025193.601, -- [4]
-						77376, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						292971, -- [2]
-						5318, -- [3]
-						1567025194.088, -- [4]
-						72058, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						157982, -- [2]
-						1312, -- [3]
-						1567025194.181, -- [4]
-						73370, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						48438, -- [2]
-						3401, -- [3]
-						1567025194.206, -- [4]
-						76771, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						292963, -- [2]
-						4534, -- [3]
-						1567025194.557, -- [4]
-						72237, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						299966, -- [2]
-						45372, -- [3]
-						1567025194.571, -- [4]
-						26865, -- [5]
-						"[*] Dread", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						299966, -- [2]
-						45372, -- [3]
-						1567025194.614, -- [4]
-						1, -- [5]
-						"[*] Dread", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						18507, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						0, -- [2]
+						77535, -- [2]
 						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Moridin-Anub'arak", -- [6]
-					}, -- [34]
-				},
-			}, -- [1]
-			{
-				["maxhealth"] = 331080,
-				["timeofdeath"] = 232.0739999999933,
-				["name"] = "Gachiff-ArgentDawn",
-				["time"] = 1567025239.254,
-				["class"] = "MONK",
-				["timestring"] = "3m 52s",
-				["events"] = {
-					{
-						false, -- [1]
-						291843, -- [2]
-						2639, -- [3]
-						1567025236.417, -- [4]
-						156644, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						53652, -- [2]
-						1391, -- [3]
-						1567025236.718, -- [4]
-						158035, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						216521, -- [2]
-						873, -- [3]
-						1567025236.718, -- [4]
-						158908, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						53652, -- [2]
-						1343, -- [3]
-						1567025236.718, -- [4]
-						160251, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						53652, -- [2]
-						612, -- [3]
-						1567025236.718, -- [4]
-						160863, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						124255, -- [2]
-						12440, -- [3]
-						1567025236.891, -- [4]
-						148423, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						295537, -- [2]
-						4005, -- [3]
-						1567025236.907, -- [4]
-						145572, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						1154, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						292971, -- [2]
-						6002, -- [3]
-						1567025237.094, -- [4]
-						139570, -- [5]
-						"[*] Hysteria", -- [6]
-						1843, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						295537, -- [2]
-						5589, -- [3]
-						1567025237.126, -- [4]
-						135591, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						1610, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						124255, -- [2]
-						12048, -- [3]
-						1567025237.396, -- [4]
-						123543, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						295537, -- [2]
-						4124, -- [3]
-						1567025237.415, -- [4]
-						120607, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						1188, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						124255, -- [2]
-						11505, -- [3]
-						1567025237.897, -- [4]
-						109102, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						295537, -- [2]
-						4095, -- [3]
-						1567025237.915, -- [4]
-						106187, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						1180, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						292971, -- [2]
-						6001, -- [3]
-						1567025238.094, -- [4]
-						100186, -- [5]
-						"[*] Hysteria", -- [6]
-						1843, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						295537, -- [2]
-						5590, -- [3]
-						1567025238.094, -- [4]
-						96206, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						1610, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						196608, -- [2]
-						940, -- [3]
-						1567025238.195, -- [4]
-						97146, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						124255, -- [2]
-						11162, -- [3]
-						1567025238.418, -- [4]
-						85984, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						216521, -- [2]
-						1416, -- [3]
-						1567025238.418, -- [4]
-						87400, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						291843, -- [2]
-						2178, -- [3]
-						1567025238.418, -- [4]
-						89578, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						183811, -- [2]
-						796, -- [3]
-						1567025238.453, -- [4]
-						90374, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						295537, -- [2]
-						4321, -- [3]
-						1567025238.453, -- [4]
-						87298, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						1245, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						124255, -- [2]
-						5333, -- [3]
-						1567025238.896, -- [4]
-						81965, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						295537, -- [2]
-						4321, -- [3]
-						1567025238.914, -- [4]
-						78889, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						1245, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						1, -- [2]
-						34727, -- [3]
-						1567025238.948, -- [4]
-						78889, -- [5]
-						"Za'qul", -- [6]
-						88854, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						216521, -- [2]
-						25766, -- [3]
-						1567025239.037, -- [4]
-						69928, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						124507, -- [2]
-						39639, -- [3]
-						1567025239.037, -- [4]
-						109567, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						292971, -- [2]
-						6001, -- [3]
-						1567025239.095, -- [4]
-						103566, -- [5]
-						"[*] Hysteria", -- [6]
-						1843, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						295537, -- [2]
-						5467, -- [3]
-						1567025239.119, -- [4]
-						99674, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						1575, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						295079, -- [2]
-						83477, -- [3]
-						1567025239.152, -- [4]
-						16197, -- [5]
-						"Za'qul", -- [6]
-						28071, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						216521, -- [2]
-						26644, -- [3]
-						1567025239.199, -- [4]
-						42841, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						278708, -- [2]
-						40990, -- [3]
-						1567025239.199, -- [4]
-						83831, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						295537, -- [2]
-						83611, -- [3]
-						1567025239.199, -- [4]
-						24315, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						24095, -- [7]
-						32, -- [8]
-						true, -- [9]
-						43319, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						115203, -- [2]
-						1, -- [3]
-						1567025161.947, -- [4]
-						0, -- [5]
-						"Gachiff-ArgentDawn", -- [6]
-					}, -- [33]
-				},
-			}, -- [2]
-			{
-				["maxhealth"] = 304480,
-				["timeofdeath"] = 233.1899999999732,
-				["name"] = "Billíe-AeriePeak",
-				["time"] = 1567025240.37,
-				["class"] = "DRUID",
-				["timestring"] = "3m 53s",
-				["events"] = {
-					{
-						false, -- [1]
-						48438, -- [2]
-						1244, -- [3]
-						1567025234.201, -- [4]
-						225322, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						8936, -- [2]
-						2237, -- [3]
-						1567025234.267, -- [4]
-						227559, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						194, -- [3]
-						1567025234.326, -- [4]
-						227753, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						774, -- [2]
-						2657, -- [3]
-						1567025234.796, -- [4]
-						230410, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						274436, -- [2]
-						739, -- [3]
-						1567025234.796, -- [4]
-						231149, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						1530, -- [3]
-						1567025235.056, -- [4]
-						232679, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						292971, -- [2]
-						7983, -- [3]
-						1567025235.092, -- [4]
-						224696, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						1, -- [2]
-						38677, -- [3]
-						1567025235.466, -- [4]
-						224696, -- [5]
-						"Horrific Vision <[*] Manifest Nightmares>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						270117, -- [2]
-						7333, -- [3]
-						1567025235.483, -- [4]
-						193352, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						8936, -- [2]
-						26836, -- [3]
-						1567025235.643, -- [4]
-						220188, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						8936, -- [2]
-						2237, -- [3]
-						1567025236.089, -- [4]
-						222425, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						292971, -- [2]
-						7983, -- [3]
-						1567025236.089, -- [4]
-						214442, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						143924, -- [2]
-						447, -- [3]
-						1567025236.277, -- [4]
-						214889, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						278785, -- [2]
-						3057, -- [3]
-						1567025236.69, -- [4]
-						217946, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						292971, -- [2]
-						7982, -- [3]
-						1567025237.094, -- [4]
-						209964, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						596, -- [2]
-						19977, -- [3]
-						1567025237.197, -- [4]
-						229941, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						774, -- [2]
-						2657, -- [3]
-						1567025237.366, -- [4]
-						232598, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						274436, -- [2]
-						740, -- [3]
-						1567025237.38, -- [4]
-						233338, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						143924, -- [2]
-						2566, -- [3]
-						1567025237.502, -- [4]
-						235904, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						8936, -- [2]
-						1118, -- [3]
-						1567025237.696, -- [4]
-						237022, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						774, -- [2]
-						574, -- [3]
-						1567025237.934, -- [4]
-						237596, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						274436, -- [2]
-						739, -- [3]
-						1567025237.934, -- [4]
-						238335, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						1, -- [2]
-						68637, -- [3]
-						1567025237.964, -- [4]
-						238335, -- [5]
-						"Horrific Vision <[*] Manifest Nightmares>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						292971, -- [2]
-						7982, -- [3]
-						1567025238.075, -- [4]
-						161716, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						1148, -- [3]
-						1567025238.705, -- [4]
-						162864, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						292971, -- [2]
-						7983, -- [3]
-						1567025239.095, -- [4]
-						154881, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						295079, -- [2]
-						120483, -- [3]
-						1567025239.172, -- [4]
-						34398, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						8936, -- [2]
-						1118, -- [3]
-						1567025239.4, -- [4]
-						35516, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						143924, -- [2]
-						1383, -- [3]
-						1567025239.94, -- [4]
-						36899, -- [5]
-						"Billíe-AeriePeak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						292971, -- [2]
-						7982, -- [3]
-						1567025240.082, -- [4]
-						28917, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2892, -- [3]
-						1567025240.166, -- [4]
-						31809, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						1, -- [2]
-						39270, -- [3]
-						1567025240.337, -- [4]
-						31809, -- [5]
-						"Horrific Vision <[*] Manifest Nightmares>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						7461, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						61336, -- [2]
-						1, -- [3]
-						1567025191.332, -- [4]
-						0, -- [5]
-						"Billíe-AeriePeak", -- [6]
-					}, -- [33]
-				},
-			}, -- [3]
-			{
-				["maxhealth"] = 232820,
-				["timeofdeath"] = 251.7569999999832,
-				["name"] = "Moridin-Anub'arak",
-				["time"] = 1567025258.937,
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "4m 11s",
-				["events"] = {
-					{
-						true, -- [1]
-						292971, -- [2]
-						764, -- [3]
-						1567025239.069, -- [4]
-						231292, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						143924, -- [2]
-						72, -- [3]
-						1567025239.119, -- [4]
-						231364, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						true, -- [1]
-						295079, -- [2]
-						106388, -- [3]
-						1567025239.172, -- [4]
-						124976, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						292971, -- [2]
-						764, -- [3]
-						1567025240.082, -- [4]
-						124212, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						143924, -- [2]
-						114, -- [3]
-						1567025240.37, -- [4]
-						124326, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						292971, -- [2]
-						764, -- [3]
-						1567025241.081, -- [4]
-						123562, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						159, -- [3]
-						1567025241.55, -- [4]
-						123721, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						596, -- [2]
-						11793, -- [3]
-						1567025241.837, -- [4]
-						135514, -- [5]
-						"Mallusof", -- [6]
+						1567628843.767, -- [4]
+						334533, -- [5]
+						"Acharia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -4911,1169 +3723,319 @@ DeathGraphsDBCurrent = {
 					}, -- [8]
 					{
 						false, -- [1]
-						143924, -- [2]
-						186, -- [3]
-						1567025242.799, -- [4]
-						135700, -- [5]
-						"Moridin-Anub'arak", -- [6]
+						45470, -- [2]
+						54214, -- [3]
+						1567628843.767, -- [4]
+						388747, -- [5]
+						"Acharia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
-					{
-						false, -- [1]
-						143924, -- [2]
-						15, -- [3]
-						1567025244.409, -- [4]
-						135715, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1708, -- [3]
-						1567025244.883, -- [4]
-						137423, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						37, -- [3]
-						1567025246.451, -- [4]
-						137460, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1707, -- [3]
-						1567025247.87, -- [4]
-						139167, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						37, -- [3]
-						1567025248.053, -- [4]
-						139204, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						143924, -- [2]
-						31, -- [3]
-						1567025249.271, -- [4]
-						139235, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						183811, -- [2]
-						1242, -- [3]
-						1567025250.323, -- [4]
-						140477, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						143924, -- [2]
-						238, -- [3]
-						1567025250.476, -- [4]
-						140715, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						183811, -- [2]
-						2484, -- [3]
-						1567025250.725, -- [4]
-						143199, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						143924, -- [2]
-						71, -- [3]
-						1567025251.682, -- [4]
-						143270, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						303380, -- [2]
-						1819, -- [3]
-						1567025252.341, -- [4]
-						145089, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						143924, -- [2]
-						68, -- [3]
-						1567025252.909, -- [4]
-						145157, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						288999, -- [2]
-						1740, -- [3]
-						1567025252.909, -- [4]
-						146897, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						12127, -- [3]
-						1567025254.135, -- [4]
-						159024, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						303380, -- [2]
-						1819, -- [3]
-						1567025254.345, -- [4]
-						160843, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						9971, -- [3]
-						1567025255.35, -- [4]
-						170814, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						303380, -- [2]
-						1818, -- [3]
-						1567025256.344, -- [4]
-						172632, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						false, -- [1]
-						143924, -- [2]
-						536, -- [3]
-						1567025256.564, -- [4]
-						173168, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						4, -- [1]
-						298192, -- [2]
-						1, -- [3]
-						1567025256.908, -- [4]
-						173168, -- [5]
-						"[*] Dark Beyond", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						298192, -- [2]
-						129111, -- [3]
-						1567025257.899, -- [4]
-						44057, -- [5]
-						"[*] Dark Beyond", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						143924, -- [2]
-						535, -- [3]
-						1567025258.176, -- [4]
-						44592, -- [5]
-						"Moridin-Anub'arak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						303380, -- [2]
-						3638, -- [3]
-						1567025258.35, -- [4]
-						48230, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						298192, -- [2]
-						129111, -- [3]
-						1567025258.919, -- [4]
-						1, -- [5]
-						"[*] Dark Beyond", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						80881, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Moridin-Anub'arak", -- [6]
-					}, -- [33]
-				},
-			}, -- [4]
-			{
-				["maxhealth"] = 335220,
-				["timeofdeath"] = 253.6369999999879,
-				["name"] = "Terdonis-ArgentDawn",
-				["time"] = 1567025260.817,
-				["class"] = "MONK",
-				["timestring"] = "4m 13s",
-				["events"] = {
-					{
-						false, -- [1]
-						19750, -- [2]
-						19280, -- [3]
-						1567025256.16, -- [4]
-						51460, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						143924, -- [2]
-						363, -- [3]
-						1567025256.16, -- [4]
-						51823, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						303380, -- [2]
-						2291, -- [3]
-						1567025256.26, -- [4]
-						54114, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025256.402, -- [4]
-						38652, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						774, -- [2]
-						3304, -- [3]
-						1567025256.564, -- [4]
-						41956, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						303380, -- [2]
-						1762, -- [3]
-						1567025256.738, -- [4]
-						43718, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025256.908, -- [4]
-						28256, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025257.394, -- [4]
-						12794, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						270117, -- [2]
-						5061, -- [3]
-						1567025257.423, -- [4]
-						17855, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						178173, -- [2]
-						40258, -- [3]
-						1567025257.423, -- [4]
-						58113, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						216521, -- [2]
-						1084, -- [3]
-						1567025257.601, -- [4]
-						59197, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						8936, -- [2]
-						1669, -- [3]
-						1567025257.601, -- [4]
-						60866, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						216521, -- [2]
-						4333, -- [3]
-						1567025257.601, -- [4]
-						65199, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						269108, -- [2]
-						6667, -- [3]
-						1567025257.601, -- [4]
-						71866, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						200389, -- [2]
-						1835, -- [3]
-						1567025257.725, -- [4]
-						73701, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025257.899, -- [4]
-						58239, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						77489, -- [2]
-						3246, -- [3]
-						1567025258.233, -- [4]
-						61485, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						303380, -- [2]
-						4581, -- [3]
-						1567025258.248, -- [4]
-						66066, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025258.39, -- [4]
-						50604, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						216521, -- [2]
-						2292, -- [3]
-						1567025258.749, -- [4]
-						52896, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						303380, -- [2]
-						3526, -- [3]
-						1567025258.749, -- [4]
-						56422, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025258.905, -- [4]
-						40960, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						774, -- [2]
-						6887, -- [3]
-						1567025259.127, -- [4]
-						47847, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						8936, -- [2]
-						3416, -- [3]
-						1567025259.315, -- [4]
-						51263, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						364, -- [3]
-						1567025259.392, -- [4]
-						51627, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025259.415, -- [4]
-						36165, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						298192, -- [2]
-						1, -- [3]
-						1567025259.729, -- [4]
-						36165, -- [5]
-						"[*] Dark Beyond", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025259.904, -- [4]
-						20703, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						303380, -- [2]
-						4581, -- [3]
-						1567025260.258, -- [4]
-						25284, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						200389, -- [2]
-						1913, -- [3]
-						1567025260.306, -- [4]
-						27197, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						124255, -- [2]
-						15462, -- [3]
-						1567025260.407, -- [4]
-						11735, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						298192, -- [2]
-						108103, -- [3]
-						1567025260.817, -- [4]
-						1, -- [5]
-						"[*] Dark Beyond", -- [6]
-						37861, -- [7]
-						32, -- [8]
-						false, -- [9]
-						96368, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						115203, -- [2]
-						1, -- [3]
-						1567025215.074, -- [4]
-						0, -- [5]
-						"Terdonis-ArgentDawn", -- [6]
-					}, -- [33]
-				},
-			}, -- [5]
-			{
-				["maxhealth"] = 339980,
-				["timeofdeath"] = 254.2389999999723,
-				["name"] = "Mallusof",
-				["time"] = 1567025261.419,
-				["class"] = "PRIEST",
-				["timestring"] = "4m 14s",
-				["events"] = {
-					{
-						false, -- [1]
-						287286, -- [2]
-						8361, -- [3]
-						1567025249.228, -- [4]
-						162870, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						1, -- [2]
-						28674, -- [3]
-						1567025249.287, -- [4]
-						162870, -- [5]
-						"Horrific Vision <[*] Manifest Nightmares>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						1, -- [2]
-						25572, -- [3]
-						1567025250.368, -- [4]
-						134196, -- [5]
-						"Horrific Vision <[*] Manifest Nightmares>", -- [6]
-						14460, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						302935, -- [2]
-						14460, -- [3]
-						1567025250.368, -- [4]
-						134196, -- [5]
-						"Melice-Neptulon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						1, -- [2]
-						26144, -- [3]
-						1567025251.294, -- [4]
-						123084, -- [5]
-						"Horrific Vision <[*] Manifest Nightmares>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						299705, -- [2]
-						89927, -- [3]
-						1567025251.437, -- [4]
-						7013, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						4, -- [1]
-						299705, -- [2]
-						1, -- [3]
-						1567025251.437, -- [4]
-						7013, -- [5]
-						"Za'qul", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						19750, -- [2]
-						86025, -- [3]
-						1567025251.597, -- [4]
-						93038, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						25914, -- [2]
-						34392, -- [3]
-						1567025251.597, -- [4]
-						127430, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						287286, -- [2]
-						8191, -- [3]
-						1567025251.905, -- [4]
-						135621, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						77489, -- [2]
-						5886, -- [3]
-						1567025252.145, -- [4]
-						141507, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						296184, -- [2]
-						1728, -- [3]
-						1567025252.145, -- [4]
-						143235, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						4090, -- [3]
-						1567025255.143, -- [4]
-						147325, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						296184, -- [2]
-						465, -- [3]
-						1567025255.143, -- [4]
-						147790, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						296211, -- [2]
-						620, -- [3]
-						1567025255.995, -- [4]
-						148410, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						296184, -- [2]
-						186, -- [3]
-						1567025255.995, -- [4]
-						148596, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						296211, -- [2]
-						310, -- [3]
-						1567025256.824, -- [4]
-						148906, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						296184, -- [2]
-						93, -- [3]
-						1567025256.824, -- [4]
-						148999, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						296211, -- [2]
-						620, -- [3]
-						1567025257.678, -- [4]
-						149619, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						296184, -- [2]
-						93, -- [3]
-						1567025257.678, -- [4]
-						149712, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2808, -- [3]
-						1567025258.135, -- [4]
-						152520, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						296184, -- [2]
-						93, -- [3]
-						1567025258.135, -- [4]
-						152613, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						296211, -- [2]
-						311, -- [3]
-						1567025258.518, -- [4]
-						152924, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						296211, -- [2]
-						311, -- [3]
-						1567025259.371, -- [4]
-						153235, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						296184, -- [2]
-						93, -- [3]
-						1567025259.371, -- [4]
-						153328, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						4, -- [1]
-						298192, -- [2]
-						1, -- [3]
-						1567025259.392, -- [4]
-						153328, -- [5]
-						"[*] Dark Beyond", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						296211, -- [2]
-						310, -- [3]
-						1567025260.203, -- [4]
-						153638, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						296184, -- [2]
-						93, -- [3]
-						1567025260.22, -- [4]
-						153731, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
 					{
 						false, -- [1]
 						269279, -- [2]
-						65930, -- [3]
-						1567025260.388, -- [4]
-						153731, -- [5]
-						"Mallusof", -- [6]
+						18784, -- [3]
+						1567628844.265, -- [4]
+						388747, -- [5]
+						"Acharia", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						296212, -- [2]
-						6454, -- [3]
-						1567025260.388, -- [4]
-						160185, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
+					}, -- [10]
 					{
 						true, -- [1]
-						298192, -- [2]
-						145278, -- [3]
-						1567025260.407, -- [4]
-						80837, -- [5]
-						"[*] Dark Beyond", -- [6]
-						65930, -- [7]
-						32, -- [8]
+						292138, -- [2]
+						30409, -- [3]
+						1567628844.265, -- [4]
+						358338, -- [5]
+						"Blackwater Behemoth", -- [6]
+						18784, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [31]
+					}, -- [11]
 					{
 						false, -- [1]
-						77489, -- [2]
-						2522, -- [3]
-						1567025261.154, -- [4]
-						83359, -- [5]
-						"Mallusof", -- [6]
+						143924, -- [2]
+						170, -- [3]
+						1567628844.287, -- [4]
+						358508, -- [5]
+						"Acharia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [32]
+					}, -- [12]
+					{
+						4, -- [1]
+						292127, -- [2]
+						1, -- [3]
+						1567628844.287, -- [4]
+						358508, -- [5]
+						"[*] Darkest Depths", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						77535, -- [2]
+						0, -- [3]
+						1567628849.986, -- [4]
+						362274, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77535, -- [2]
+						0, -- [3]
+						1567628860.007, -- [4]
+						369806, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						4, -- [1]
+						301180, -- [2]
+						1, -- [3]
+						1567628862.141, -- [4]
+						369806, -- [5]
+						"[*] Slipstream", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						4, -- [1]
+						292133, -- [2]
+						1, -- [3]
+						1567628868.299, -- [4]
+						377338, -- [5]
+						"[*] Bioluminescence", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						4, -- [1]
+						298595, -- [2]
+						1, -- [3]
+						1567628868.299, -- [4]
+						377338, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628869.225, -- [4]
+						377338, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						298595, -- [2]
+						36894, -- [3]
+						1567628870.302, -- [4]
+						340444, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						55078, -- [2]
+						1244, -- [3]
+						1567628870.595, -- [4]
+						341688, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						143924, -- [2]
+						13, -- [3]
+						1567628870.611, -- [4]
+						341701, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [22]
+					{
+						false, -- [1]
+						269279, -- [2]
+						18784, -- [3]
+						1567628872.302, -- [4]
+						341701, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						298595, -- [2]
+						18110, -- [3]
+						1567628872.302, -- [4]
+						323591, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						18784, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						55078, -- [2]
+						2487, -- [3]
+						1567628873.596, -- [4]
+						329844, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						28, -- [3]
+						1567628873.836, -- [4]
+						329872, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628874.218, -- [4]
+						329872, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						298595, -- [2]
+						36894, -- [3]
+						1567628874.301, -- [4]
+						292978, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
 					{
 						3, -- [1]
 						0, -- [2]
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Mallusof", -- [6]
-					}, -- [33]
+						"Acharia", -- [6]
+					}, -- [29]
 				},
-			}, -- [6]
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "2m 1s",
+				["time"] = 1567628875.25,
+			}, -- [1]
 			{
-				["maxhealth"] = 248180,
-				["timeofdeath"] = 255.9039999999804,
-				["name"] = "Bulbumbo",
-				["time"] = 1567025263.084,
-				["class"] = "WARRIOR",
-				["timestring"] = "4m 15s",
+				["maxhealth"] = 269200,
+				["timeofdeath"] = 122.3520000000135,
+				["name"] = "Nulona-Garrosh",
 				["events"] = {
 					{
 						false, -- [1]
-						183811, -- [2]
-						2422, -- [3]
-						1567025249.077, -- [4]
-						216856, -- [5]
-						"Melice-Neptulon", -- [6]
+						145109, -- [2]
+						12153, -- [3]
+						1567628860.085, -- [4]
+						246144, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
-						287286, -- [2]
-						8499, -- [3]
-						1567025249.228, -- [4]
-						225355, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
 						143924, -- [2]
-						298, -- [3]
-						1567025249.271, -- [4]
-						225653, -- [5]
-						"Bulbumbo", -- [6]
+						132, -- [3]
+						1567628860.101, -- [4]
+						246276, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3143, -- [3]
+						1567628860.907, -- [4]
+						249419, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [3]
 					{
 						false, -- [1]
-						183811, -- [2]
-						1179, -- [3]
-						1567025250.425, -- [4]
-						226832, -- [5]
-						"Melice-Neptulon", -- [6]
+						272260, -- [2]
+						1285, -- [3]
+						1567628860.921, -- [4]
+						250704, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [4]
 					{
 						false, -- [1]
-						183811, -- [2]
-						2357, -- [3]
-						1567025250.476, -- [4]
-						229189, -- [5]
-						"Melice-Neptulon", -- [6]
+						139, -- [2]
+						8233, -- [3]
+						1567628861.213, -- [4]
+						258937, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
 						143924, -- [2]
-						374, -- [3]
-						1567025250.476, -- [4]
-						229563, -- [5]
-						"Bulbumbo", -- [6]
+						150, -- [3]
+						1567628861.317, -- [4]
+						259087, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6081,70 +4043,64 @@ DeathGraphsDBCurrent = {
 					}, -- [6]
 					{
 						false, -- [1]
-						77489, -- [2]
-						12371, -- [3]
-						1567025250.883, -- [4]
-						241934, -- [5]
-						"Mallusof", -- [6]
+						774, -- [2]
+						3381, -- [3]
+						1567628862.293, -- [4]
+						262468, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
-						true, -- [1]
-						299705, -- [2]
-						117539, -- [3]
-						1567025251.437, -- [4]
-						124395, -- [5]
-						"Za'qul", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						208, -- [3]
+						1567628862.515, -- [4]
+						262676, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						0, -- [8]
 					}, -- [8]
 					{
-						4, -- [1]
-						299705, -- [2]
-						1, -- [3]
-						1567025251.467, -- [4]
-						124395, -- [5]
-						"Za'qul", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						272260, -- [2]
+						1285, -- [3]
+						1567628862.914, -- [4]
+						263961, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [9]
 					{
 						false, -- [1]
-						296212, -- [2]
-						11435, -- [3]
-						1567025251.467, -- [4]
-						135830, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						33110, -- [2]
-						9227, -- [3]
-						1567025251.467, -- [4]
-						145057, -- [5]
+						139, -- [2]
+						9694, -- [3]
+						1567628863.358, -- [4]
+						273655, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						143924, -- [2]
+						59, -- [3]
+						1567628863.747, -- [4]
+						273714, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [11]
 					{
 						false, -- [1]
-						296184, -- [2]
-						4486, -- [3]
-						1567025251.508, -- [4]
-						149543, -- [5]
+						77489, -- [2]
+						1886, -- [3]
+						1567628864.019, -- [4]
+						275600, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -6153,166 +4109,162 @@ DeathGraphsDBCurrent = {
 					}, -- [12]
 					{
 						false, -- [1]
-						143924, -- [2]
-						682, -- [3]
-						1567025251.682, -- [4]
-						150225, -- [5]
-						"Bulbumbo", -- [6]
+						145109, -- [2]
+						11063, -- [3]
+						1567628864.096, -- [4]
+						286663, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [13]
 					{
-						false, -- [1]
-						287286, -- [2]
-						16430, -- [3]
-						1567025251.905, -- [4]
-						166655, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						143924, -- [2]
-						451, -- [3]
-						1567025252.909, -- [4]
-						167106, -- [5]
-						"Bulbumbo", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						291843, -- [2]
-						1175, -- [3]
-						1567025253.441, -- [4]
-						168281, -- [5]
-						"Bulbumbo", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1324, -- [3]
-						1567025254.502, -- [4]
-						169605, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						291843, -- [2]
-						1175, -- [3]
-						1567025255.45, -- [4]
-						170780, -- [5]
-						"Bulbumbo", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
 						4, -- [1]
-						296018, -- [2]
+						292127, -- [2]
 						1, -- [3]
-						1567025255.507, -- [4]
-						170780, -- [5]
-						"Za'qul", -- [6]
+						1567628864.332, -- [4]
+						286663, -- [5]
+						"[*] Darkest Depths", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [19]
+					}, -- [14]
+					{
+						4, -- [1]
+						301180, -- [2]
+						1, -- [3]
+						1567628864.907, -- [4]
+						286663, -- [5]
+						"[*] Slipstream", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						4, -- [1]
+						292133, -- [2]
+						1, -- [3]
+						1567628870.195, -- [4]
+						286663, -- [5]
+						"[*] Bioluminescence", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						4, -- [1]
+						298595, -- [2]
+						1, -- [3]
+						1567628870.195, -- [4]
+						286663, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628870.212, -- [4]
+						286663, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
 					{
 						false, -- [1]
-						270661, -- [2]
-						1524, -- [3]
-						1567025255.683, -- [4]
-						172304, -- [5]
-						"Bulbumbo", -- [6]
+						143924, -- [2]
+						74, -- [3]
+						1567628870.611, -- [4]
+						286737, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						145109, -- [2]
+						10518, -- [3]
+						1567628872.094, -- [4]
+						296120, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [20]
 					{
-						true, -- [1]
-						296018, -- [2]
-						5218, -- [3]
-						1567025256.504, -- [4]
-						167086, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						false, -- [1]
+						269279, -- [2]
+						574, -- [3]
+						1567628872.196, -- [4]
+						296120, -- [5]
+						"Nulona-Garrosh", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
 						false, -- [1]
-						77489, -- [2]
-						1324, -- [3]
-						1567025257.559, -- [4]
-						168410, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
+						300806, -- [2]
+						9240, -- [3]
+						1567628872.196, -- [4]
+						296120, -- [5]
+						"Nulona-Garrosh", -- [6]
+						true, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [22]
 					{
 						true, -- [1]
-						296018, -- [2]
-						5217, -- [3]
-						1567025257.559, -- [4]
-						163193, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						298595, -- [2]
+						33628, -- [3]
+						1567628872.196, -- [4]
+						272306, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						9814, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [23]
 					{
-						true, -- [1]
-						296018, -- [2]
-						5218, -- [3]
-						1567025258.503, -- [4]
-						157975, -- [5]
-						"Za'qul", -- [6]
+						false, -- [1]
+						139, -- [2]
+						4846, -- [3]
+						1567628872.546, -- [4]
+						277152, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [24]
 					{
 						true, -- [1]
-						296018, -- [2]
-						5218, -- [3]
-						1567025259.514, -- [4]
-						152757, -- [5]
-						"Za'qul", -- [6]
+						298595, -- [2]
+						33628, -- [3]
+						1567628874.175, -- [4]
+						243524, -- [5]
+						"[*] Glowing Stinger", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [25]
 					{
 						false, -- [1]
-						77489, -- [2]
-						1323, -- [3]
-						1567025260.817, -- [4]
-						154080, -- [5]
+						139, -- [2]
+						4846, -- [3]
+						1567628874.957, -- [4]
+						248370, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -6320,59 +4272,57 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [26]
 					{
-						true, -- [1]
-						296018, -- [2]
-						5217, -- [3]
-						1567025260.817, -- [4]
-						148863, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628875.201, -- [4]
+						248370, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [27]
 					{
-						true, -- [1]
-						296018, -- [2]
-						5218, -- [3]
-						1567025261.518, -- [4]
-						143645, -- [5]
-						"Za'qul", -- [6]
+						false, -- [1]
+						296211, -- [2]
+						317, -- [3]
+						1567628875.784, -- [4]
+						248687, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						0, -- [8]
 					}, -- [28]
 					{
-						true, -- [1]
-						1, -- [2]
-						122319, -- [3]
-						1567025261.57, -- [4]
-						143645, -- [5]
-						"Za'qul", -- [6]
+						false, -- [1]
+						145109, -- [2]
+						8884, -- [3]
+						1567628876.09, -- [4]
+						257571, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
 						true, -- [1]
-						296018, -- [2]
-						5218, -- [3]
-						1567025262.508, -- [4]
-						16108, -- [5]
-						"Za'qul", -- [6]
+						298595, -- [2]
+						31573, -- [3]
+						1567628876.187, -- [4]
+						225998, -- [5]
+						"[*] Glowing Stinger", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
 						false, -- [1]
-						272260, -- [2]
-						161, -- [3]
-						1567025262.522, -- [4]
-						16269, -- [5]
+						296212, -- [2]
+						6579, -- [3]
+						1567628876.187, -- [4]
+						232577, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -6380,16 +4330,770 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [31]
 					{
-						true, -- [1]
-						1, -- [2]
-						119808, -- [3]
-						1567025263.084, -- [4]
-						16269, -- [5]
-						"Za'qul", -- [6]
+						false, -- [1]
+						139, -- [2]
+						2562, -- [3]
+						1567628876.207, -- [4]
+						235139, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
-						103539, -- [10]
+						false, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						108238, -- [2]
+						1, -- [3]
+						1567628839.991, -- [4]
+						0, -- [5]
+						"Nulona-Garrosh", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DRUID",
+				["timestring"] = "2m 2s",
+				["time"] = 1567628876.296,
+			}, -- [2]
+			{
+				["maxhealth"] = 293820,
+				["timeofdeath"] = 122.3520000000135,
+				["name"] = "Bettewarlock-Terenas",
+				["events"] = {
+					{
+						false, -- [1]
+						596, -- [2]
+						22372, -- [3]
+						1567628847.78, -- [4]
+						323200, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [1]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3416, -- [3]
+						1567628850.815, -- [4]
+						323200, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3416, -- [3]
+						1567628853.812, -- [4]
+						323200, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						303380, -- [2]
+						2221, -- [3]
+						1567628856.348, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						303380, -- [2]
+						2221, -- [3]
+						1567628858.361, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						303380, -- [2]
+						2221, -- [3]
+						1567628860.34, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						303380, -- [2]
+						2221, -- [3]
+						1567628862.346, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						303380, -- [2]
+						2221, -- [3]
+						1567628864.352, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						4, -- [1]
+						301180, -- [2]
+						1, -- [3]
+						1567628864.673, -- [4]
+						323200, -- [5]
+						"[*] Slipstream", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						243241, -- [2]
+						6322, -- [3]
+						1567628864.777, -- [4]
+						323200, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628865.908, -- [4]
+						323200, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						4, -- [1]
+						292127, -- [2]
+						1, -- [3]
+						1567628867.246, -- [4]
+						323200, -- [5]
+						"[*] Darkest Depths", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						4, -- [1]
+						292133, -- [2]
+						1, -- [3]
+						1567628869.346, -- [4]
+						323200, -- [5]
+						"[*] Bioluminescence", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [13]
+					{
+						4, -- [1]
+						298595, -- [2]
+						1, -- [3]
+						1567628869.346, -- [4]
+						323200, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [14]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628870.212, -- [4]
+						323200, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77489, -- [2]
+						965, -- [3]
+						1567628870.79, -- [4]
+						323200, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77220, -- [2]
+						2482, -- [3]
+						1567628871.363, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						269279, -- [2]
+						21206, -- [3]
+						1567628871.363, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						108366, -- [2]
+						13541, -- [3]
+						1567628871.363, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						298595, -- [2]
+						37229, -- [3]
+						1567628871.363, -- [4]
+						323200, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						77220, -- [2]
+						2845, -- [3]
+						1567628873.355, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						108366, -- [2]
+						34385, -- [3]
+						1567628873.355, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [22]
+					{
+						true, -- [1]
+						298595, -- [2]
+						37230, -- [3]
+						1567628873.355, -- [4]
+						323200, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628875.201, -- [4]
+						323200, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						77220, -- [2]
+						3021, -- [3]
+						1567628875.352, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						108366, -- [2]
+						7018, -- [3]
+						1567628875.352, -- [4]
+						323200, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						true, -- [1]
+						298595, -- [2]
+						37229, -- [3]
+						1567628875.367, -- [4]
+						296010, -- [5]
+						"[*] Glowing Stinger", -- [6]
+						10039, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						270117, -- [2]
+						6465, -- [3]
+						1567628875.383, -- [4]
+						302475, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1724, -- [3]
+						1567628875.692, -- [4]
+						304199, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1567628876.244, -- [4]
+						304199, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [30]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+					}, -- [31]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "2m 2s",
+				["time"] = 1567628876.296,
+			}, -- [3]
+			{
+				["maxhealth"] = 287900,
+				["timeofdeath"] = 183.8940000000293,
+				["name"] = "Azmødan",
+				["events"] = {
+					{
+						false, -- [1]
+						183811, -- [2]
+						726, -- [3]
+						1567628919.041, -- [4]
+						191109, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [1]
+					{
+						false, -- [1]
+						64844, -- [2]
+						9061, -- [3]
+						1567628919.229, -- [4]
+						200170, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						77220, -- [2]
+						1249, -- [3]
+						1567628920.369, -- [4]
+						200170, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						108366, -- [2]
+						3496, -- [3]
+						1567628920.369, -- [4]
+						200170, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						true, -- [1]
+						292279, -- [2]
+						47388, -- [3]
+						1567628920.369, -- [4]
+						157527, -- [5]
+						"Blackwater Behemoth", -- [6]
+						4745, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1383, -- [3]
+						1567628922.252, -- [4]
+						158910, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						296184, -- [2]
+						7608, -- [3]
+						1567628922.277, -- [4]
+						166518, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1236, -- [3]
+						1567628925.259, -- [4]
+						167754, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628925.847, -- [4]
+						167754, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1236, -- [3]
+						1567628928.27, -- [4]
+						168990, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						77220, -- [2]
+						4053, -- [3]
+						1567628928.843, -- [4]
+						168990, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						false, -- [1]
+						108366, -- [2]
+						6010, -- [3]
+						1567628928.843, -- [4]
+						168990, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						269279, -- [2]
+						19735, -- [3]
+						1567628928.843, -- [4]
+						168990, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43017, -- [3]
+						1567628928.843, -- [4]
+						155771, -- [5]
+						"Blackwater Behemoth", -- [6]
+						29798, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1235, -- [3]
+						1567628931.27, -- [4]
+						157006, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						296184, -- [2]
+						2380, -- [3]
+						1567628931.302, -- [4]
+						159386, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77220, -- [2]
+						2919, -- [3]
+						1567628931.847, -- [4]
+						159386, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						108366, -- [2]
+						2756, -- [3]
+						1567628931.847, -- [4]
+						159386, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43017, -- [3]
+						1567628931.847, -- [4]
+						122044, -- [5]
+						"Blackwater Behemoth", -- [6]
+						5675, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						77489, -- [2]
+						363, -- [3]
+						1567628934.303, -- [4]
+						122407, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						77220, -- [2]
+						3430, -- [3]
+						1567628934.84, -- [4]
+						122407, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						108366, -- [2]
+						4073, -- [3]
+						1567628934.84, -- [4]
+						122407, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43017, -- [3]
+						1567628934.84, -- [4]
+						86893, -- [5]
+						"Blackwater Behemoth", -- [6]
+						7503, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						33110, -- [2]
+						8802, -- [3]
+						1567628934.84, -- [4]
+						95695, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						4, -- [1]
+						292127, -- [2]
+						1, -- [3]
+						1567628936.905, -- [4]
+						95695, -- [5]
+						"[*] Darkest Depths", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						77220, -- [2]
+						4983, -- [3]
+						1567628937.363, -- [4]
+						95695, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						108366, -- [2]
+						1496, -- [3]
+						1567628937.363, -- [4]
+						95695, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						292247, -- [2]
+						59802, -- [3]
+						1567628937.363, -- [4]
+						42372, -- [5]
+						"Blackwater Behemoth", -- [6]
+						6479, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						77220, -- [2]
+						2253, -- [3]
+						1567628937.838, -- [4]
+						42372, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						108366, -- [2]
+						1244, -- [3]
+						1567628937.838, -- [4]
+						42372, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1567628937.838, -- [4]
+						42372, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						292167, -- [2]
+						49469, -- [3]
+						1567628937.838, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						3497, -- [7]
+						8, -- [8]
+						false, -- [9]
+						3600, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
@@ -6397,97 +5101,97 @@ DeathGraphsDBCurrent = {
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Bulbumbo", -- [6]
+						"Azmødan", -- [6]
 					}, -- [33]
 				},
-			}, -- [7]
+				["class"] = "WARLOCK",
+				["timestring"] = "3m 3s",
+				["time"] = 1567628937.838,
+			}, -- [4]
 			{
-				["maxhealth"] = 251940,
-				["timeofdeath"] = 258.1139999999723,
-				["name"] = "Sindrallig-Hyjal",
-				["time"] = 1567025265.294,
-				["class"] = "PALADIN",
-				["timestring"] = "4m 18s",
+				["maxhealth"] = 262220,
+				["timeofdeath"] = 235.4110000000219,
+				["name"] = "Anomassa",
 				["events"] = {
 					{
-						false, -- [1]
-						270117, -- [2]
-						6760, -- [3]
-						1567025239.119, -- [4]
-						218664, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						true, -- [1]
+						292167, -- [2]
+						44175, -- [3]
+						1567628969.051, -- [4]
+						171577, -- [5]
+						"Blackwater Behemoth", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
 					{
-						true, -- [1]
-						295079, -- [2]
-						119746, -- [3]
-						1567025239.152, -- [4]
-						98918, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						143924, -- [2]
-						475, -- [3]
-						1567025239.94, -- [4]
-						99393, -- [5]
-						"Sindrallig-Hyjal", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						292971, -- [2]
-						5418, -- [3]
-						1567025240.082, -- [4]
-						93975, -- [5]
-						"[*] Hysteria", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
 						false, -- [1]
 						77489, -- [2]
-						934, -- [3]
-						1567025240.12, -- [4]
-						94909, -- [5]
+						2744, -- [3]
+						1567628969.764, -- [4]
+						174321, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						596, -- [2]
+						11186, -- [3]
+						1567628969.785, -- [4]
+						185507, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						34914, -- [2]
+						2137, -- [3]
+						1567628969.817, -- [4]
+						187644, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44175, -- [3]
+						1567628972.072, -- [4]
+						143469, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
-						true, -- [1]
-						292971, -- [2]
-						5047, -- [3]
-						1567025241.081, -- [4]
-						89862, -- [5]
-						"[*] Hysteria", -- [6]
+						false, -- [1]
+						34914, -- [2]
+						2137, -- [3]
+						1567628972.27, -- [4]
+						145606, -- [5]
+						"Anomassa", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
 						false, -- [1]
-						143924, -- [2]
-						145, -- [3]
-						1567025250.868, -- [4]
-						90007, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						596, -- [2]
+						11620, -- [3]
+						1567628972.533, -- [4]
+						157226, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6495,59 +5199,847 @@ DeathGraphsDBCurrent = {
 					}, -- [7]
 					{
 						false, -- [1]
-						143924, -- [2]
-						227, -- [3]
-						1567025252.086, -- [4]
-						90234, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						77489, -- [2]
+						4151, -- [3]
+						1567628972.764, -- [4]
+						161377, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						944, -- [3]
+						1567628973.352, -- [4]
+						162321, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						34914, -- [2]
+						4579, -- [3]
+						1567628974.334, -- [4]
+						166900, -- [5]
+						"Anomassa", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43217, -- [3]
+						1567628975.067, -- [4]
+						123683, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4150, -- [3]
+						1567628975.758, -- [4]
+						127833, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						34914, -- [2]
+						2222, -- [3]
+						1567628976.612, -- [4]
+						130055, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						false, -- [1]
+						269279, -- [2]
+						19578, -- [3]
+						1567628978.071, -- [4]
+						130055, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43217, -- [3]
+						1567628978.071, -- [4]
+						106416, -- [5]
+						"Blackwater Behemoth", -- [6]
+						19578, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4150, -- [3]
+						1567628978.779, -- [4]
+						110566, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						596, -- [2]
+						11620, -- [3]
+						1567628978.812, -- [4]
+						122186, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						34914, -- [2]
+						4682, -- [3]
+						1567628978.875, -- [4]
+						126868, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						17, -- [2]
+						25517, -- [3]
+						1567628980.407, -- [4]
+						126868, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						292279, -- [2]
+						46858, -- [3]
+						1567628980.407, -- [4]
+						105527, -- [5]
+						"Blackwater Behemoth", -- [6]
+						25517, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						17, -- [2]
+						0, -- [3]
+						1567628980.407, -- [4]
+						105527, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						34914, -- [2]
+						2223, -- [3]
+						1567628981.143, -- [4]
+						107750, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [22]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1774, -- [3]
+						1567628981.832, -- [4]
+						109524, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						34914, -- [2]
+						1838, -- [3]
+						1567628983.4, -- [4]
+						111362, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [24]
+					{
+						4, -- [1]
+						292127, -- [2]
+						1, -- [3]
+						1567628984.643, -- [4]
+						111362, -- [5]
+						"[*] Darkest Depths", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61413, -- [3]
+						1567628985.354, -- [4]
+						49949, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628985.91, -- [4]
+						49949, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						17, -- [2]
+						44175, -- [3]
+						1567628988.916, -- [4]
+						49949, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44175, -- [3]
+						1567628988.916, -- [4]
+						49949, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						17, -- [2]
+						4075, -- [3]
+						1567628989.334, -- [4]
+						49949, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						17, -- [2]
+						0, -- [3]
+						1567628989.334, -- [4]
+						49949, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61413, -- [3]
+						1567628989.355, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						4075, -- [7]
+						8, -- [8]
+						false, -- [9]
+						7389, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Anomassa", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PRIEST",
+				["timestring"] = "3m 55s",
+				["time"] = 1567628989.355,
+			}, -- [5]
+			{
+				["maxhealth"] = 269420,
+				["timeofdeath"] = 235.4110000000219,
+				["name"] = "Clive-KirinTor",
+				["events"] = {
+					{
+						false, -- [1]
+						77489, -- [2]
+						4033, -- [3]
+						1567628969.69, -- [4]
+						163680, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						596, -- [2]
+						22372, -- [3]
+						1567628969.785, -- [4]
+						186052, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44144, -- [3]
+						1567628971.993, -- [4]
+						141908, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						596, -- [2]
+						11621, -- [3]
+						1567628972.533, -- [4]
+						153529, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						77489, -- [2]
+						6148, -- [3]
+						1567628972.679, -- [4]
+						159677, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1889, -- [3]
+						1567628973.136, -- [4]
+						161566, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1889, -- [3]
+						1567628973.403, -- [4]
+						163455, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						183811, -- [2]
+						945, -- [3]
+						1567628973.662, -- [4]
+						164400, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [8]
 					{
 						false, -- [1]
-						143924, -- [2]
-						736, -- [3]
-						1567025253.309, -- [4]
-						90970, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						183811, -- [2]
+						945, -- [3]
+						1567628973.941, -- [4]
+						165345, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1889, -- [3]
+						1567628974.214, -- [4]
+						167234, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1888, -- [3]
+						1567628974.264, -- [4]
+						169122, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						183811, -- [2]
+						945, -- [3]
+						1567628974.49, -- [4]
+						170067, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						183811, -- [2]
+						944, -- [3]
+						1567628974.755, -- [4]
+						171011, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43196, -- [3]
+						1567628974.975, -- [4]
+						127815, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						6149, -- [3]
+						1567628975.689, -- [4]
+						133964, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						296184, -- [2]
+						45, -- [3]
+						1567628975.729, -- [4]
+						134009, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43196, -- [3]
+						1567628977.992, -- [4]
+						90813, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2055, -- [3]
+						1567628978.696, -- [4]
+						92868, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						296184, -- [2]
+						1607, -- [3]
+						1567628978.696, -- [4]
+						94475, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						596, -- [2]
+						35977, -- [3]
+						1567628978.812, -- [4]
+						130452, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						292279, -- [2]
+						48702, -- [3]
+						1567628980.407, -- [4]
+						81750, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						77489, -- [2]
+						5195, -- [3]
+						1567628981.67, -- [4]
+						86945, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						25914, -- [2]
+						23612, -- [3]
+						1567628983.21, -- [4]
+						110557, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						false, -- [1]
+						139, -- [2]
+						4117, -- [3]
+						1567628983.363, -- [4]
+						114674, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3883, -- [3]
+						1567628984.685, -- [4]
+						118557, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61369, -- [3]
+						1567628985.354, -- [4]
+						57188, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						296212, -- [2]
+						5643, -- [3]
+						1567628985.399, -- [4]
+						62831, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						33110, -- [2]
+						8803, -- [3]
+						1567628985.399, -- [4]
+						71634, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						292127, -- [2]
+						1, -- [3]
+						1567628985.681, -- [4]
+						71634, -- [5]
+						"[*] Darkest Depths", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628985.959, -- [4]
+						71634, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44144, -- [3]
+						1567628988.968, -- [4]
+						27490, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61369, -- [3]
+						1567628989.355, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						33879, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						281195, -- [2]
+						1, -- [3]
+						1567628955.698, -- [4]
+						0, -- [5]
+						"Clive-KirinTor", -- [6]
+					}, -- [33]
+				},
+				["class"] = "HUNTER",
+				["timestring"] = "3m 55s",
+				["time"] = 1567628989.355,
+			}, -- [6]
+			{
+				["maxhealth"] = 284220,
+				["timeofdeath"] = 244.4370000000345,
+				["name"] = "Xiaoyueya-Outland",
+				["events"] = {
+					{
+						false, -- [1]
+						77489, -- [2]
+						4343, -- [3]
+						1567628971.559, -- [4]
+						162932, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
 					{
 						false, -- [1]
 						143924, -- [2]
 						124, -- [3]
-						1567025254.539, -- [4]
-						91094, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						1567628971.819, -- [4]
+						163056, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						292167, -- [2]
+						42401, -- [3]
+						1567628972.27, -- [4]
+						120655, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						596, -- [2]
+						17989, -- [3]
+						1567628972.533, -- [4]
+						138644, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [10]
-					{
-						4, -- [1]
-						296018, -- [2]
-						1, -- [3]
-						1567025255.507, -- [4]
-						91094, -- [5]
-						"Za'qul", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
+					}, -- [4]
 					{
 						false, -- [1]
 						143924, -- [2]
-						129, -- [3]
-						1567025255.742, -- [4]
-						91223, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						207, -- [3]
+						1567628973.011, -- [4]
+						138851, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1889, -- [3]
+						1567628973.896, -- [4]
+						140740, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						204, -- [3]
+						1567628974.232, -- [4]
+						140944, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4727, -- [3]
+						1567628974.558, -- [4]
+						145671, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						11426, -- [2]
+						42402, -- [3]
+						1567628975.116, -- [4]
+						145671, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						292167, -- [2]
+						42402, -- [3]
+						1567628975.116, -- [4]
+						145671, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						143924, -- [2]
+						74, -- [3]
+						1567628975.452, -- [4]
+						145745, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4727, -- [3]
+						1567628977.552, -- [4]
+						150472, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6555,293 +6047,287 @@ DeathGraphsDBCurrent = {
 					}, -- [12]
 					{
 						false, -- [1]
-						269279, -- [2]
-						5249, -- [3]
-						1567025256.504, -- [4]
-						91223, -- [5]
-						"Sindrallig-Hyjal", -- [6]
-						true, -- [7]
+						296184, -- [2]
+						2401, -- [3]
+						1567628977.604, -- [4]
+						152873, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [13]
 					{
-						true, -- [1]
-						296018, -- [2]
-						5249, -- [3]
-						1567025256.504, -- [4]
-						91223, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						false, -- [1]
+						11426, -- [2]
+						35681, -- [3]
+						1567628978.115, -- [4]
+						152873, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
-						false, -- [1]
-						269279, -- [2]
-						5249, -- [3]
-						1567025257.559, -- [4]
-						91223, -- [5]
-						"Sindrallig-Hyjal", -- [6]
-						true, -- [7]
-						0, -- [8]
+						true, -- [1]
+						292167, -- [2]
+						42402, -- [3]
+						1567628978.115, -- [4]
+						146152, -- [5]
+						"Blackwater Behemoth", -- [6]
+						35681, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
-						true, -- [1]
-						296018, -- [2]
-						5249, -- [3]
-						1567025257.559, -- [4]
-						91223, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
 						false, -- [1]
-						145110, -- [2]
-						9725, -- [3]
-						1567025258.297, -- [4]
-						100948, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						269279, -- [2]
-						5249, -- [3]
-						1567025258.503, -- [4]
-						100948, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						11426, -- [2]
+						0, -- [3]
+						1567628978.115, -- [4]
+						146152, -- [5]
+						"Xiaoyueya-Outland", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						596, -- [2]
+						11620, -- [3]
+						1567628978.812, -- [4]
+						157772, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						143924, -- [2]
+						141, -- [3]
+						1567628979.486, -- [4]
+						157913, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [18]
 					{
 						true, -- [1]
-						296018, -- [2]
-						5249, -- [3]
-						1567025258.503, -- [4]
-						100948, -- [5]
-						"Za'qul", -- [6]
+						292279, -- [2]
+						42195, -- [3]
+						1567628980.407, -- [4]
+						115718, -- [5]
+						"Blackwater Behemoth", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
 						false, -- [1]
-						269279, -- [2]
-						395, -- [3]
-						1567025259.514, -- [4]
-						100948, -- [5]
-						"Sindrallig-Hyjal", -- [6]
-						true, -- [7]
+						77489, -- [2]
+						3003, -- [3]
+						1567628980.56, -- [4]
+						118721, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						true, -- [1]
-						296018, -- [2]
-						3674, -- [3]
-						1567025259.514, -- [4]
-						97669, -- [5]
-						"Za'qul", -- [6]
-						395, -- [7]
-						32, -- [8]
+						false, -- [1]
+						143924, -- [2]
+						479, -- [3]
+						1567628980.711, -- [4]
+						119200, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [21]
 					{
 						false, -- [1]
-						270117, -- [2]
-						6493, -- [3]
-						1567025259.514, -- [4]
-						104162, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						143924, -- [2]
+						90, -- [3]
+						1567628981.983, -- [4]
+						119290, -- [5]
+						"Xiaoyueya-Outland", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [22]
 					{
-						true, -- [1]
-						296018, -- [2]
-						3674, -- [3]
-						1567025260.817, -- [4]
-						100488, -- [5]
-						"Za'qul", -- [6]
+						false, -- [1]
+						77489, -- [2]
+						3003, -- [3]
+						1567628983.576, -- [4]
+						122293, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [23]
 					{
-						true, -- [1]
-						296018, -- [2]
-						3674, -- [3]
-						1567025261.518, -- [4]
-						96814, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						296018, -- [2]
-						3674, -- [3]
-						1567025262.508, -- [4]
-						93140, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						243241, -- [2]
-						5661, -- [3]
-						1567025262.64, -- [4]
-						98801, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						296184, -- [2]
-						1698, -- [3]
-						1567025262.669, -- [4]
-						100499, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						296021, -- [2]
-						36762, -- [3]
-						1567025263.106, -- [4]
-						63737, -- [5]
-						"[*] Manic Dread", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						296018, -- [2]
-						3675, -- [3]
-						1567025263.496, -- [4]
-						60062, -- [5]
-						"Za'qul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
 						4, -- [1]
-						298192, -- [2]
+						292167, -- [2]
 						1, -- [3]
-						1567025264.27, -- [4]
-						60062, -- [5]
-						"[*] Dark Beyond", -- [6]
+						1567628986.366, -- [4]
+						122293, -- [5]
+						"Blackwater Behemoth", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3003, -- [3]
+						1567628986.563, -- [4]
+						125296, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						352, -- [3]
+						1567628988.434, -- [4]
+						125648, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						269279, -- [2]
+						22351, -- [3]
+						1567628989.355, -- [4]
+						125648, -- [5]
+						"Xiaoyueya-Outland", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [27]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43359, -- [3]
+						1567628989.355, -- [4]
+						104640, -- [5]
+						"Blackwater Behemoth", -- [6]
+						22351, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						292127, -- [2]
+						1, -- [3]
+						1567628989.602, -- [4]
+						104640, -- [5]
+						"[*] Darkest Depths", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43359, -- [3]
+						1567628992.359, -- [4]
+						61281, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [30]
 					{
 						true, -- [1]
-						296018, -- [2]
-						3675, -- [3]
-						1567025264.497, -- [4]
-						56387, -- [5]
-						"Za'qul", -- [6]
+						292167, -- [2]
+						43359, -- [3]
+						1567628995.359, -- [4]
+						17922, -- [5]
+						"Blackwater Behemoth", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						298192, -- [2]
-						104006, -- [3]
-						1567025265.294, -- [4]
+						292167, -- [2]
+						43359, -- [3]
+						1567628998.381, -- [4]
 						1, -- [5]
-						"[*] Dark Beyond", -- [6]
+						"Blackwater Behemoth", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						8, -- [8]
 						false, -- [9]
-						47619, -- [10]
+						25437, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						184662, -- [2]
-						1, -- [3]
-						1567025163.294, -- [4]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
 						0, -- [5]
-						"Sindrallig-Hyjal", -- [6]
+						"Xiaoyueya-Outland", -- [6]
 					}, -- [33]
 				},
-			}, -- [8]
+				["class"] = "MAGE",
+				["timestring"] = "4m 4s",
+				["time"] = 1567628998.381,
+			}, -- [7]
 			{
-				["maxhealth"] = 224800,
-				["timeofdeath"] = 259.5099999999802,
-				["name"] = "Melice-Neptulon",
-				["time"] = 1567025266.69,
-				["class"] = "PALADIN",
-				["timestring"] = "4m 19s",
+				["maxhealth"] = 283980,
+				["timeofdeath"] = 311.6579999999958,
+				["name"] = "Монтанор-Разувий",
 				["events"] = {
 					{
 						false, -- [1]
-						296211, -- [2]
-						620, -- [3]
-						1567025255.255, -- [4]
-						247280, -- [5]
-						"Mallusof", -- [6]
+						183811, -- [2]
+						1975, -- [3]
+						1567629042.041, -- [4]
+						268208, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
-						296211, -- [2]
-						310, -- [3]
-						1567025256.106, -- [4]
-						247280, -- [5]
-						"Mallusof", -- [6]
+						183811, -- [2]
+						987, -- [3]
+						1567629042.88, -- [4]
+						269195, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
 						false, -- [1]
-						296211, -- [2]
-						310, -- [3]
-						1567025256.95, -- [4]
-						247280, -- [5]
-						"Mallusof", -- [6]
+						183811, -- [2]
+						986, -- [3]
+						1567629042.923, -- [4]
+						270181, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6849,34 +6335,434 @@ DeathGraphsDBCurrent = {
 					}, -- [3]
 					{
 						false, -- [1]
-						774, -- [2]
-						5313, -- [3]
-						1567025257.559, -- [4]
-						247280, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						77489, -- [2]
+						5664, -- [3]
+						1567629043.13, -- [4]
+						275845, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
 					}, -- [4]
 					{
 						false, -- [1]
-						274436, -- [2]
-						740, -- [3]
-						1567025257.559, -- [4]
-						247280, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						596, -- [2]
+						11186, -- [3]
+						1567629043.166, -- [4]
+						287031, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
-						296211, -- [2]
-						310, -- [3]
-						1567025257.779, -- [4]
-						247280, -- [5]
+						183811, -- [2]
+						981, -- [3]
+						1567629043.231, -- [4]
+						288012, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1947, -- [3]
+						1567629043.955, -- [4]
+						289959, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						183811, -- [2]
+						976, -- [3]
+						1567629044.293, -- [4]
+						290935, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567629045.537, -- [4]
+						290935, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15618, -- [3]
+						1567629045.711, -- [4]
+						306553, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						77489, -- [2]
+						5122, -- [3]
+						1567629046.143, -- [4]
+						311675, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						292167, -- [2]
+						37811, -- [3]
+						1567629048.555, -- [4]
+						273864, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15618, -- [3]
+						1567629048.888, -- [4]
+						289482, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						77489, -- [2]
+						5123, -- [3]
+						1567629049.137, -- [4]
+						294605, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						15290, -- [2]
+						17262, -- [3]
+						1567629051.33, -- [4]
+						311867, -- [5]
+						"Zymara-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						292167, -- [2]
+						39724, -- [3]
+						1567629051.556, -- [4]
+						272143, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15618, -- [3]
+						1567629051.792, -- [4]
+						287761, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						77489, -- [2]
+						5122, -- [3]
+						1567629052.147, -- [4]
+						292883, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						288091, -- [2]
+						2902, -- [3]
+						1567629053.831, -- [4]
+						295785, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44138, -- [3]
+						1567629054.555, -- [4]
+						251647, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15618, -- [3]
+						1567629055.214, -- [4]
+						267265, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						288091, -- [2]
+						4293, -- [3]
+						1567629055.847, -- [4]
+						271558, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						120692, -- [2]
+						12289, -- [3]
+						1567629055.947, -- [4]
+						283847, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44137, -- [3]
+						1567629057.558, -- [4]
+						239710, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						288091, -- [2]
+						2638, -- [3]
+						1567629057.856, -- [4]
+						242348, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15618, -- [3]
+						1567629058.793, -- [4]
+						257966, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1876, -- [3]
+						1567629058.972, -- [4]
+						259842, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						278785, -- [2]
+						3632, -- [3]
+						1567629059.489, -- [4]
+						263474, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567629059.581, -- [4]
+						263474, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						183811, -- [2]
+						731, -- [3]
+						1567629060.95, -- [4]
+						264205, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						292279, -- [2]
+						49609, -- [3]
+						1567629061.177, -- [4]
+						214596, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1876, -- [3]
+						1567629061.966, -- [4]
+						216472, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						184364, -- [2]
+						1, -- [3]
+						1567628948.043, -- [4]
+						0, -- [5]
+						"Монтанор-Разувий", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARRIOR",
+				["timestring"] = "5m 11s",
+				["time"] = 1567629065.602,
+			}, -- [8]
+			{
+				["maxhealth"] = 251240,
+				["timeofdeath"] = 317.2870000000112,
+				["name"] = "Melice-Neptulon",
+				["events"] = {
+					{
+						true, -- [1]
+						292279, -- [2]
+						102342, -- [3]
+						1567629061.139, -- [4]
+						76896, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						270117, -- [2]
+						36658, -- [3]
+						1567629061.177, -- [4]
+						113554, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						387, -- [3]
+						1567629061.621, -- [4]
+						113941, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						225311, -- [2]
+						24631, -- [3]
+						1567629061.64, -- [4]
+						138572, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						143924, -- [2]
+						1844, -- [3]
+						1567629062.827, -- [4]
+						140416, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4010, -- [3]
+						1567629063.028, -- [4]
+						144426, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -6885,119 +6771,119 @@ DeathGraphsDBCurrent = {
 					}, -- [6]
 					{
 						false, -- [1]
-						296211, -- [2]
-						310, -- [3]
-						1567025258.635, -- [4]
-						247280, -- [5]
+						139, -- [2]
+						4117, -- [3]
+						1567629063.315, -- [4]
+						148543, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
-						296211, -- [2]
-						310, -- [3]
-						1567025259.469, -- [4]
-						247280, -- [5]
-						"Mallusof", -- [6]
+						25914, -- [2]
+						60812, -- [3]
+						1567629063.549, -- [4]
+						209355, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [8]
 					{
-						true, -- [1]
-						1, -- [2]
-						25205, -- [3]
-						1567025259.78, -- [4]
-						247280, -- [5]
-						"Horrific Vision", -- [6]
+						false, -- [1]
+						287286, -- [2]
+						3257, -- [3]
+						1567629063.886, -- [4]
+						212612, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
-						false, -- [1]
-						270117, -- [2]
-						12534, -- [3]
-						1567025259.798, -- [4]
-						234609, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567629063.985, -- [4]
+						212612, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [10]
 					{
 						false, -- [1]
-						296212, -- [2]
-						6455, -- [3]
-						1567025259.798, -- [4]
-						241064, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						774, -- [2]
-						2768, -- [3]
-						1567025260.098, -- [4]
-						243832, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
 						143924, -- [2]
-						112, -- [3]
-						1567025260.817, -- [4]
-						243944, -- [5]
+						265, -- [3]
+						1567629064.044, -- [4]
+						212877, -- [5]
 						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
+					}, -- [11]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567629064.305, -- [4]
+						212877, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						278147, -- [2]
+						2185, -- [3]
+						1567629064.56, -- [4]
+						215062, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [13]
 					{
-						true, -- [1]
-						1, -- [2]
-						26095, -- [3]
-						1567025262.291, -- [4]
-						243944, -- [5]
-						"Horrific Vision", -- [6]
-						nil, -- [7]
-						1, -- [8]
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567629065.223, -- [4]
+						215062, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [14]
 					{
 						false, -- [1]
-						243241, -- [2]
-						5660, -- [3]
-						1567025262.64, -- [4]
-						223509, -- [5]
-						"Mallusof", -- [6]
+						143924, -- [2]
+						64, -- [3]
+						1567629065.26, -- [4]
+						215126, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
 						false, -- [1]
-						774, -- [2]
-						2768, -- [3]
-						1567025262.669, -- [4]
-						226277, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						278147, -- [2]
+						2184, -- [3]
+						1567629065.565, -- [4]
+						217310, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7005,119 +6891,119 @@ DeathGraphsDBCurrent = {
 					}, -- [16]
 					{
 						false, -- [1]
-						77489, -- [2]
-						1169, -- [3]
-						1567025262.833, -- [4]
-						227446, -- [5]
+						139, -- [2]
+						8233, -- [3]
+						1567629065.72, -- [4]
+						225543, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
+						false, -- [9]
+						false, -- [10]
 					}, -- [17]
 					{
-						true, -- [1]
-						296021, -- [2]
-						42936, -- [3]
-						1567025263.106, -- [4]
-						184510, -- [5]
-						"[*] Manic Dread", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567629065.935, -- [4]
+						225543, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [18]
 					{
-						true, -- [1]
-						1, -- [2]
-						44592, -- [3]
-						1567025264.294, -- [4]
-						184510, -- [5]
-						"Horrific Vision", -- [6]
+						false, -- [1]
+						77489, -- [2]
+						4010, -- [3]
+						1567629066.033, -- [4]
+						229553, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [19]
 					{
-						true, -- [1]
-						1, -- [2]
-						26432, -- [3]
-						1567025264.664, -- [4]
-						139918, -- [5]
-						"Horrific Vision", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						823, -- [3]
+						1567629066.475, -- [4]
+						230376, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						true, -- [1]
-						1, -- [2]
-						22680, -- [3]
-						1567025264.741, -- [4]
-						113486, -- [5]
-						"Horrific Vision", -- [6]
+						false, -- [1]
+						278147, -- [2]
+						4370, -- [3]
+						1567629066.567, -- [4]
+						234746, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
 						false, -- [1]
-						774, -- [2]
-						5537, -- [3]
-						1567025265.249, -- [4]
-						96343, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						139, -- [2]
+						4116, -- [3]
+						1567629068.125, -- [4]
+						238862, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [22]
 					{
-						true, -- [1]
-						296021, -- [2]
-						42936, -- [3]
-						1567025265.294, -- [4]
-						53407, -- [5]
-						"[*] Manic Dread", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						824, -- [3]
+						1567629068.519, -- [4]
+						239686, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [23]
 					{
-						true, -- [1]
-						296021, -- [2]
-						42937, -- [3]
-						1567025265.512, -- [4]
-						10470, -- [5]
-						"[*] Manic Dread", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
 						false, -- [1]
-						77489, -- [2]
-						1169, -- [3]
-						1567025265.817, -- [4]
-						11639, -- [5]
-						"Mallusof", -- [6]
+						296212, -- [2]
+						11286, -- [3]
+						1567629068.941, -- [4]
+						250972, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						true, -- [9]
 						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						292167, -- [2]
+						40429, -- [3]
+						1567629068.941, -- [4]
+						210543, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [25]
 					{
 						false, -- [1]
-						296184, -- [2]
-						756, -- [3]
-						1567025265.838, -- [4]
-						12395, -- [5]
-						"Mallusof", -- [6]
+						270117, -- [2]
+						18329, -- [3]
+						1567629068.941, -- [4]
+						228872, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7125,161 +7011,161 @@ DeathGraphsDBCurrent = {
 					}, -- [26]
 					{
 						false, -- [1]
-						774, -- [2]
-						732, -- [3]
-						1567025265.934, -- [4]
-						13127, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						1, -- [2]
-						27174, -- [3]
-						1567025266.287, -- [4]
-						13127, -- [5]
-						"Horrific Vision", -- [6]
-						16664, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						269279, -- [2]
-						16664, -- [3]
-						1567025266.298, -- [4]
-						13127, -- [5]
-						"Melice-Neptulon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						270117, -- [2]
-						12534, -- [3]
-						1567025266.314, -- [4]
-						25661, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						296212, -- [2]
-						6454, -- [3]
-						1567025266.314, -- [4]
-						32115, -- [5]
+						77489, -- [2]
+						4010, -- [3]
+						1567629069.012, -- [4]
+						232882, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						143924, -- [2]
+						156, -- [3]
+						1567629069.723, -- [4]
+						233038, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567629070.23, -- [4]
+						233038, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						204883, -- [2]
+						13423, -- [3]
+						1567629070.464, -- [4]
+						246461, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						139, -- [2]
+						8233, -- [3]
+						1567629070.54, -- [4]
+						254694, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [31]
 					{
-						true, -- [1]
-						1, -- [2]
-						26558, -- [3]
-						1567025266.652, -- [4]
-						21605, -- [5]
-						"Horrific Vision", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						127, -- [3]
+						1567629070.924, -- [4]
+						254821, -- [5]
+						"Melice-Neptulon", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
-						4953, -- [10]
+						-1, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
 						498, -- [2]
 						1, -- [3]
-						1567025211.181, -- [4]
+						1567629057.634, -- [4]
 						0, -- [5]
 						"Melice-Neptulon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 17s",
+				["time"] = 1567629071.231,
 			}, -- [9]
 			{
-				["maxhealth"] = 253360,
-				["timeofdeath"] = 262.3669999999984,
-				["name"] = "Anomassa",
-				["time"] = 1567025269.547,
-				["class"] = "PRIEST",
-				["timestring"] = "4m 22s",
+				["maxhealth"] = 373880,
+				["timeofdeath"] = 337.1770000000252,
+				["name"] = "Gralph",
 				["events"] = {
 					{
-						false, -- [1]
-						774, -- [2]
-						2766, -- [3]
-						1567025241.604, -- [4]
-						186650, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						292247, -- [2]
+						41975, -- [3]
+						1567629086.105, -- [4]
+						108344, -- [5]
+						"Blackwater Behemoth", -- [6]
+						15804, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
 					{
-						false, -- [1]
-						274436, -- [2]
-						769, -- [3]
-						1567025241.618, -- [4]
-						187419, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						true, -- [1]
+						124255, -- [2]
+						3072, -- [3]
+						1567629086.105, -- [4]
+						105272, -- [5]
+						"Gralph", -- [6]
 						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
+						1, -- [8]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
-						false, -- [1]
-						34914, -- [2]
-						2040, -- [3]
-						1567025242.039, -- [4]
-						189459, -- [5]
-						"Anomassa", -- [6]
+						true, -- [1]
+						124255, -- [2]
+						3072, -- [3]
+						1567629086.605, -- [4]
+						102200, -- [5]
+						"Gralph", -- [6]
 						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
+						1, -- [8]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
-						false, -- [1]
-						183811, -- [2]
-						918, -- [3]
-						1567025243.509, -- [4]
-						190377, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						292138, -- [2]
+						41976, -- [3]
+						1567629086.625, -- [4]
+						60224, -- [5]
+						"Blackwater Behemoth", -- [6]
+						15804, -- [7]
+						8, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [4]
 					{
 						false, -- [1]
-						34914, -- [2]
-						1987, -- [3]
-						1567025244.039, -- [4]
-						192364, -- [5]
-						"Anomassa", -- [6]
+						196608, -- [2]
+						1084, -- [3]
+						1567629086.888, -- [4]
+						61308, -- [5]
+						"Gralph", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
-						774, -- [2]
-						2766, -- [3]
-						1567025244.081, -- [4]
-						195130, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						216521, -- [2]
+						2961, -- [3]
+						1567629086.906, -- [4]
+						64269, -- [5]
+						"Gralph", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7287,11 +7173,427 @@ DeathGraphsDBCurrent = {
 					}, -- [6]
 					{
 						false, -- [1]
-						274436, -- [2]
-						1538, -- [3]
-						1567025244.081, -- [4]
-						196668, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						303380, -- [2]
+						4556, -- [3]
+						1567629086.906, -- [4]
+						68825, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3443, -- [3]
+						1567629087.116, -- [4]
+						65382, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						143924, -- [2]
+						139, -- [3]
+						1567629087.131, -- [4]
+						65521, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3443, -- [3]
+						1567629087.623, -- [4]
+						62078, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3443, -- [3]
+						1567629088.116, -- [4]
+						58635, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						143924, -- [2]
+						30, -- [3]
+						1567629088.35, -- [4]
+						58665, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						216521, -- [2]
+						2676, -- [3]
+						1567629088.444, -- [4]
+						61341, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						139, -- [2]
+						4116, -- [3]
+						1567629088.444, -- [4]
+						65457, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2422, -- [3]
+						1567629088.444, -- [4]
+						67879, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3443, -- [3]
+						1567629088.608, -- [4]
+						64436, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						216521, -- [2]
+						1377, -- [3]
+						1567629088.903, -- [4]
+						65813, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						196608, -- [2]
+						2118, -- [3]
+						1567629088.903, -- [4]
+						67931, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						303380, -- [2]
+						4555, -- [3]
+						1567629088.903, -- [4]
+						72486, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3263, -- [3]
+						1567629089.109, -- [4]
+						69223, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						143924, -- [2]
+						226, -- [3]
+						1567629089.565, -- [4]
+						69449, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3263, -- [3]
+						1567629089.621, -- [4]
+						66186, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						292138, -- [2]
+						44185, -- [3]
+						1567629089.621, -- [4]
+						22001, -- [5]
+						"Blackwater Behemoth", -- [6]
+						16636, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3150, -- [3]
+						1567629090.123, -- [4]
+						18851, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3150, -- [3]
+						1567629090.618, -- [4]
+						15701, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						55, -- [3]
+						1567629090.774, -- [4]
+						15756, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						216521, -- [2]
+						687, -- [3]
+						1567629090.885, -- [4]
+						16443, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						196608, -- [2]
+						1058, -- [3]
+						1567629090.885, -- [4]
+						17501, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						216521, -- [2]
+						2961, -- [3]
+						1567629090.9, -- [4]
+						20462, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						303380, -- [2]
+						4556, -- [3]
+						1567629090.9, -- [4]
+						25018, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						139, -- [2]
+						4117, -- [3]
+						1567629091.005, -- [4]
+						29135, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						292279, -- [2]
+						113718, -- [3]
+						1567629091.121, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						42817, -- [7]
+						8, -- [8]
+						false, -- [9]
+						84583, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						115176, -- [2]
+						1, -- [3]
+						1567629072.04, -- [4]
+						0, -- [5]
+						"Gralph", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MONK",
+				["timestring"] = "5m 37s",
+				["time"] = 1567629091.121,
+			}, -- [10]
+		},
+		["bossname"] = "Blackwater Behemoth",
+		["bossicon"] = {
+			0.25, -- [1]
+			0.5, -- [2]
+			0, -- [3]
+			0.25, -- [4]
+			"Interface\\AddOns\\Details\\images\\raid\\EternalPalaceRaid_BossFaces", -- [5]
+		},
+		["date"] = 425843.293,
+		["timeelapsed"] = 357.2320000000182,
+	}, -- [1]
+	{
+		["deaths"] = {
+			{
+				["maxhealth"] = 271180,
+				["timeofdeath"] = 214.710000000021,
+				["name"] = "Moridin-Anub'arak",
+				["events"] = {
+					{
+						true, -- [1]
+						292247, -- [2]
+						51753, -- [3]
+						1567628476.891, -- [4]
+						209387, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628481.216, -- [4]
+						209387, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						292167, -- [2]
+						38657, -- [3]
+						1567628484.24, -- [4]
+						170730, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						292279, -- [2]
+						37761, -- [3]
+						1567628485.944, -- [4]
+						132969, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						1, -- [1]
+						196555, -- [2]
+						1, -- [3]
+						1567628486.631, -- [4]
+						132969, -- [5]
+						"Moridin-Anub'arak", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						292167, -- [2]
+						38657, -- [3]
+						1567628493.223, -- [4]
+						94312, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						296184, -- [2]
+						6828, -- [3]
+						1567628495.938, -- [4]
+						101140, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7299,142 +7601,312 @@ DeathGraphsDBCurrent = {
 					}, -- [7]
 					{
 						false, -- [1]
-						34861, -- [2]
-						66038, -- [3]
-						1567025244.251, -- [4]
-						262706, -- [5]
+						296184, -- [2]
+						1316, -- [3]
+						1567628498.983, -- [4]
+						102456, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
+					}, -- [8]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628500.095, -- [4]
+						102456, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						292247, -- [2]
+						53245, -- [3]
+						1567628500.886, -- [4]
+						49211, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						296184, -- [2]
+						1869, -- [3]
+						1567628501.957, -- [4]
+						51080, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						true, -- [1]
+						292167, -- [2]
+						38299, -- [3]
+						1567628503.175, -- [4]
+						12781, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						292167, -- [2]
+						37227, -- [3]
+						1567628506.127, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						24446, -- [10]
+					}, -- [13]
+					{
+						3, -- [1]
+						196555, -- [2]
+						1, -- [3]
+						1567628486.631, -- [4]
+						0, -- [5]
+						"Moridin-Anub'arak", -- [6]
+					}, -- [14]
+				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "3m 34s",
+				["time"] = 1567628506.127,
+			}, -- [1]
+			{
+				["maxhealth"] = 293820,
+				["timeofdeath"] = 221.4729999999981,
+				["name"] = "Bettewarlock-Terenas",
+				["events"] = {
+					{
+						false, -- [1]
+						77220, -- [2]
+						5473, -- [3]
+						1567628485.944, -- [4]
+						239940, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						108366, -- [2]
+						39239, -- [3]
+						1567628485.944, -- [4]
+						239940, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						292279, -- [2]
+						105114, -- [3]
+						1567628485.944, -- [4]
+						179538, -- [5]
+						"Blackwater Behemoth", -- [6]
+						44712, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628501.547, -- [4]
+						118886, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						77220, -- [2]
+						3227, -- [3]
+						1567628504.536, -- [4]
+						118886, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						269279, -- [2]
+						21206, -- [3]
+						1567628504.536, -- [4]
+						118886, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						108366, -- [2]
+						20199, -- [3]
+						1567628504.536, -- [4]
+						118886, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44632, -- [3]
+						1567628504.536, -- [4]
+						118886, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [8]
 					{
 						false, -- [1]
-						77489, -- [2]
-						10825, -- [3]
-						1567025244.452, -- [4]
-						273531, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
+						77220, -- [2]
+						4104, -- [3]
+						1567628507.524, -- [4]
+						118886, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
 						false, -- [1]
-						774, -- [2]
-						1503, -- [3]
-						1567025244.752, -- [4]
-						275034, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						21271, -- [3]
+						1567628507.524, -- [4]
+						118886, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [10]
 					{
-						false, -- [1]
-						274436, -- [2]
-						770, -- [3]
-						1567025244.752, -- [4]
-						275804, -- [5]
-						"Béllana-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						292167, -- [2]
+						44633, -- [3]
+						1567628507.524, -- [4]
+						99628, -- [5]
+						"Blackwater Behemoth", -- [6]
+						25375, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						183811, -- [2]
-						917, -- [3]
-						1567025245.033, -- [4]
-						276721, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
+						77220, -- [2]
+						5498, -- [3]
+						1567628508.861, -- [4]
+						99628, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
-						298318, -- [2]
-						20411, -- [3]
-						1567025245.118, -- [4]
-						278700, -- [5]
-						"Anomassa", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						1779, -- [3]
+						1567628508.861, -- [4]
+						99628, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [13]
 					{
-						false, -- [1]
-						303380, -- [2]
-						1818, -- [3]
-						1567025245.54, -- [4]
-						278700, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						292247, -- [2]
+						62048, -- [3]
+						1567628508.861, -- [4]
+						44857, -- [5]
+						"Blackwater Behemoth", -- [6]
+						7277, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
 						false, -- [1]
-						298318, -- [2]
-						10206, -- [3]
-						1567025247.116, -- [4]
-						278700, -- [5]
-						"Anomassa", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						0, -- [3]
+						1567628508.887, -- [4]
+						44857, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
 						false, -- [1]
-						77489, -- [2]
-						10824, -- [3]
-						1567025247.452, -- [4]
-						278700, -- [5]
-						"Mallusof", -- [6]
-						nil, -- [7]
+						77220, -- [2]
+						3499, -- [3]
+						1567628510.539, -- [4]
+						44857, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [16]
 					{
 						false, -- [1]
-						303380, -- [2]
-						1819, -- [3]
-						1567025247.538, -- [4]
-						278700, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						4001, -- [3]
+						1567628510.539, -- [4]
+						44857, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [17]
 					{
-						false, -- [1]
-						303380, -- [2]
-						1819, -- [3]
-						1567025249.539, -- [4]
-						278700, -- [5]
-						"Melice-Neptulon", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						292167, -- [2]
+						44632, -- [3]
+						1567628510.539, -- [4]
+						7725, -- [5]
+						"Blackwater Behemoth", -- [6]
+						7500, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [18]
 					{
 						false, -- [1]
-						77489, -- [2]
-						10824, -- [3]
-						1567025250.457, -- [4]
-						278700, -- [5]
+						296184, -- [2]
+						506, -- [3]
+						1567628511.485, -- [4]
+						8231, -- [5]
 						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -7443,107 +7915,381 @@ DeathGraphsDBCurrent = {
 					}, -- [19]
 					{
 						false, -- [1]
-						298318, -- [2]
-						20412, -- [3]
-						1567025251.116, -- [4]
-						278700, -- [5]
-						"Anomassa", -- [6]
-						nil, -- [7]
+						77220, -- [2]
+						3542, -- [3]
+						1567628512.866, -- [4]
+						8231, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
 						false, -- [1]
-						303380, -- [2]
-						1818, -- [3]
-						1567025251.545, -- [4]
-						278700, -- [5]
+						108366, -- [2]
+						4632, -- [3]
+						1567628512.866, -- [4]
+						8231, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						292247, -- [2]
+						62048, -- [3]
+						1567628512.89, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						8174, -- [7]
+						8, -- [8]
+						false, -- [9]
+						45643, -- [10]
+					}, -- [22]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Bettewarlock-Terenas", -- [6]
+					}, -- [23]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "3m 41s",
+				["time"] = 1567628512.89,
+			}, -- [2]
+			{
+				["maxhealth"] = 269420,
+				["timeofdeath"] = 224.625,
+				["name"] = "Clive-KirinTor",
+				["events"] = {
+					{
+						false, -- [1]
+						8936, -- [2]
+						6943, -- [3]
+						1567628502.544, -- [4]
+						165775, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [1]
+					{
+						false, -- [1]
+						145110, -- [2]
+						8884, -- [3]
+						1567628503.175, -- [4]
+						174659, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2345, -- [3]
+						1567628503.92, -- [4]
+						177004, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3472, -- [3]
+						1567628504.292, -- [4]
+						180476, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44143, -- [3]
+						1567628504.487, -- [4]
+						136333, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						296212, -- [2]
+						5927, -- [3]
+						1567628504.487, -- [4]
+						142260, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61370, -- [3]
+						1567628504.891, -- [4]
+						80890, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						243241, -- [2]
+						5370, -- [3]
+						1567628504.989, -- [4]
+						86260, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1453, -- [3]
+						1567628505.202, -- [4]
+						87713, -- [5]
 						"Melice-Neptulon", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						726, -- [3]
+						1567628506.024, -- [4]
+						88439, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3472, -- [3]
+						1567628506.041, -- [4]
+						91911, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44144, -- [3]
+						1567628507.499, -- [4]
+						47767, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						8936, -- [2]
+						51845, -- [3]
+						1567628507.714, -- [4]
+						99612, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						false, -- [1]
+						8936, -- [2]
+						6944, -- [3]
+						1567628507.78, -- [4]
+						106556, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						109304, -- [2]
+						88908, -- [3]
+						1567628507.944, -- [4]
+						195464, -- [5]
+						"Clive-KirinTor", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						1, -- [1]
+						109304, -- [2]
+						1, -- [3]
+						1567628507.944, -- [4]
+						195464, -- [5]
+						"Clive-KirinTor", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77489, -- [2]
+						820, -- [3]
+						1567628508.037, -- [4]
+						196284, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61369, -- [3]
+						1567628508.861, -- [4]
+						134915, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3472, -- [3]
+						1567628509.546, -- [4]
+						138387, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						596, -- [2]
+						11186, -- [3]
+						1567628509.719, -- [4]
+						149573, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44143, -- [3]
+						1567628510.492, -- [4]
+						105430, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
 						false, -- [1]
-						303380, -- [2]
-						1819, -- [3]
-						1567025253.541, -- [4]
-						278700, -- [5]
-						"Melice-Neptulon", -- [6]
+						77489, -- [2]
+						1412, -- [3]
+						1567628511.033, -- [4]
+						106842, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3472, -- [3]
+						1567628511.292, -- [4]
+						110314, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						299720, -- [2]
-						1, -- [3]
-						1567025257.152, -- [4]
-						278700, -- [5]
-						"[*] Fear's Gate", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
 					}, -- [23]
 					{
-						4, -- [1]
-						301426, -- [2]
-						1, -- [3]
-						1567025257.928, -- [4]
-						278700, -- [5]
-						"[*] Fear's Gate", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						269279, -- [2]
+						18503, -- [3]
+						1567628512.89, -- [4]
+						110314, -- [5]
+						"Clive-KirinTor", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [24]
 					{
 						true, -- [1]
-						1, -- [2]
-						148519, -- [3]
-						1567025264.664, -- [4]
-						278700, -- [5]
-						"Za'qul", -- [6]
-						41094, -- [7]
-						1, -- [8]
+						292247, -- [2]
+						61369, -- [3]
+						1567628512.89, -- [4]
+						67448, -- [5]
+						"Blackwater Behemoth", -- [6]
+						18503, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [25]
 					{
 						false, -- [1]
-						17, -- [2]
-						41094, -- [3]
-						1567025264.664, -- [4]
-						278700, -- [5]
-						"Anomassa", -- [6]
-						true, -- [7]
+						8936, -- [2]
+						3472, -- [3]
+						1567628513.056, -- [4]
+						70920, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [26]
 					{
-						false, -- [1]
-						17, -- [2]
-						0, -- [3]
-						1567025264.664, -- [4]
-						171275, -- [5]
-						"Anomassa", -- [6]
-						true, -- [7]
-						0, -- [8]
+						true, -- [1]
+						292167, -- [2]
+						44143, -- [3]
+						1567628513.509, -- [4]
+						26777, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [27]
 					{
 						false, -- [1]
-						270117, -- [2]
-						11470, -- [3]
-						1567025264.664, -- [4]
-						182745, -- [5]
-						"Anomassa", -- [6]
+						77489, -- [2]
+						1412, -- [3]
+						1567628514.023, -- [4]
+						28189, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7551,51 +8297,447 @@ DeathGraphsDBCurrent = {
 					}, -- [28]
 					{
 						false, -- [1]
-						145110, -- [2]
-						7867, -- [3]
-						1567025266.298, -- [4]
-						190612, -- [5]
-						"Béllana-Proudmoore", -- [6]
+						8936, -- [2]
+						3472, -- [3]
+						1567628514.788, -- [4]
+						31661, -- [5]
+						"Nulona-Garrosh", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
-						true, -- [1]
-						292565, -- [2]
-						131578, -- [3]
-						1567025268.081, -- [4]
-						59034, -- [5]
-						"Crushing Grasp", -- [6]
+						false, -- [1]
+						139, -- [2]
+						4847, -- [3]
+						1567628515.106, -- [4]
+						36508, -- [5]
+						"Mallusof", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [30]
 					{
-						true, -- [1]
-						1, -- [2]
-						31859, -- [3]
-						1567025268.666, -- [4]
-						59034, -- [5]
-						"Horrific Vision", -- [6]
-						nil, -- [7]
-						1, -- [8]
+						false, -- [1]
+						300806, -- [2]
+						9240, -- [3]
+						1567628515.888, -- [4]
+						36508, -- [5]
+						"Nulona-Garrosh", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						1, -- [2]
-						33169, -- [3]
-						1567025269.517, -- [4]
-						27175, -- [5]
-						"Horrific Vision", -- [6]
-						nil, -- [7]
-						1, -- [8]
+						292279, -- [2]
+						47874, -- [3]
+						1567628516.042, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						9240, -- [7]
+						8, -- [8]
 						false, -- [9]
-						5994, -- [10]
+						2126, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						109304, -- [2]
+						1, -- [3]
+						1567628507.944, -- [4]
+						0, -- [5]
+						"Clive-KirinTor", -- [6]
+					}, -- [33]
+				},
+				["class"] = "HUNTER",
+				["timestring"] = "3m 44s",
+				["time"] = 1567628516.042,
+			}, -- [3]
+			{
+				["maxhealth"] = 262220,
+				["timeofdeath"] = 239.2630000000354,
+				["name"] = "Anomassa",
+				["events"] = {
+					{
+						false, -- [1]
+						34914, -- [2]
+						2294, -- [3]
+						1567628499.358, -- [4]
+						260560, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1141, -- [3]
+						1567628500.397, -- [4]
+						261701, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						34914, -- [2]
+						2246, -- [3]
+						1567628501.522, -- [4]
+						263947, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1141, -- [3]
+						1567628503.411, -- [4]
+						265088, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						34914, -- [2]
+						4072, -- [3]
+						1567628503.682, -- [4]
+						269160, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						183811, -- [2]
+						726, -- [3]
+						1567628504.752, -- [4]
+						269886, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						243241, -- [2]
+						10738, -- [3]
+						1567628504.989, -- [4]
+						280624, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						34914, -- [2]
+						4160, -- [3]
+						1567628505.92, -- [4]
+						284784, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1640, -- [3]
+						1567628508.037, -- [4]
+						286424, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						34914, -- [2]
+						2019, -- [3]
+						1567628508.063, -- [4]
+						288440, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						596, -- [2]
+						11186, -- [3]
+						1567628509.748, -- [4]
+						288440, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1686, -- [3]
+						1567628511.033, -- [4]
+						288440, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						269279, -- [2]
+						18828, -- [3]
+						1567628512.89, -- [4]
+						288440, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61413, -- [3]
+						1567628512.89, -- [4]
+						245855, -- [5]
+						"Blackwater Behemoth", -- [6]
+						18828, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						204883, -- [2]
+						15804, -- [3]
+						1567628513.758, -- [4]
+						261659, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2732, -- [3]
+						1567628514.023, -- [4]
+						264391, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						false, -- [1]
+						34914, -- [2]
+						2246, -- [3]
+						1567628514.683, -- [4]
+						266637, -- [5]
+						"Anomassa", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						145110, -- [2]
+						10519, -- [3]
+						1567628515.106, -- [4]
+						277156, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						17, -- [2]
+						24670, -- [3]
+						1567628516.042, -- [4]
+						277156, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						292279, -- [2]
+						48965, -- [3]
+						1567628516.042, -- [4]
+						252861, -- [5]
+						"Blackwater Behemoth", -- [6]
+						24670, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						17, -- [2]
+						0, -- [3]
+						1567628516.042, -- [4]
+						252861, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						4, -- [1]
+						292127, -- [2]
+						1, -- [3]
+						1567628516.744, -- [4]
+						252861, -- [5]
+						"[*] Darkest Depths", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61413, -- [3]
+						1567628520.853, -- [4]
+						191448, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628521.667, -- [4]
+						191448, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44175, -- [3]
+						1567628524.671, -- [4]
+						147273, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61413, -- [3]
+						1567628524.872, -- [4]
+						85860, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						269279, -- [2]
+						18828, -- [3]
+						1567628527.653, -- [4]
+						85860, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						17, -- [2]
+						25214, -- [3]
+						1567628527.653, -- [4]
+						85860, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44175, -- [3]
+						1567628527.653, -- [4]
+						85727, -- [5]
+						"Blackwater Behemoth", -- [6]
+						44042, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						17, -- [2]
+						0, -- [3]
+						1567628527.681, -- [4]
+						85727, -- [5]
+						"Anomassa", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						292247, -- [2]
+						61413, -- [3]
+						1567628528.857, -- [4]
+						24314, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44175, -- [3]
+						1567628530.66, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						19861, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
@@ -7606,18 +8748,2423 @@ DeathGraphsDBCurrent = {
 						"Anomassa", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PRIEST",
+				["timestring"] = "3m 59s",
+				["time"] = 1567628530.68,
+			}, -- [4]
+			{
+				["maxhealth"] = 373880,
+				["timeofdeath"] = 251.5660000000498,
+				["name"] = "Gralph",
+				["events"] = {
+					{
+						false, -- [1]
+						274774, -- [2]
+						2424, -- [3]
+						1567628537.62, -- [4]
+						120543, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						300814, -- [2]
+						4541, -- [3]
+						1567628537.866, -- [4]
+						125084, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						124255, -- [2]
+						4223, -- [3]
+						1567628537.866, -- [4]
+						120861, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1610, -- [3]
+						1567628537.94, -- [4]
+						122471, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						216521, -- [2]
+						656, -- [3]
+						1567628537.94, -- [4]
+						123127, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						196608, -- [2]
+						1010, -- [3]
+						1567628537.94, -- [4]
+						124137, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						12, -- [3]
+						1567628538.26, -- [4]
+						52626, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						124255, -- [2]
+						4223, -- [3]
+						1567628538.373, -- [4]
+						48403, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						296212, -- [2]
+						6579, -- [3]
+						1567628538.373, -- [4]
+						54982, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						139, -- [2]
+						4116, -- [3]
+						1567628538.641, -- [4]
+						59098, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						196608, -- [2]
+						752, -- [3]
+						1567628538.698, -- [4]
+						59850, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						124255, -- [2]
+						4223, -- [3]
+						1567628538.868, -- [4]
+						55627, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						272260, -- [2]
+						321, -- [3]
+						1567628538.966, -- [4]
+						55948, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						124255, -- [2]
+						4223, -- [3]
+						1567628539.369, -- [4]
+						51725, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						143924, -- [2]
+						4, -- [3]
+						1567628539.487, -- [4]
+						51729, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						124255, -- [2]
+						4223, -- [3]
+						1567628539.867, -- [4]
+						47506, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						292138, -- [2]
+						42261, -- [3]
+						1567628539.974, -- [4]
+						5245, -- [5]
+						"Blackwater Behemoth", -- [6]
+						15631, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3850, -- [3]
+						1567628540.373, -- [4]
+						1395, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						178173, -- [2]
+						43865, -- [3]
+						1567628540.504, -- [4]
+						45260, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3850, -- [3]
+						1567628540.872, -- [4]
+						41410, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						216521, -- [2]
+						1133, -- [3]
+						1567628540.931, -- [4]
+						42543, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1743, -- [3]
+						1567628540.931, -- [4]
+						44286, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						216521, -- [2]
+						417, -- [3]
+						1567628540.951, -- [4]
+						44703, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						272260, -- [2]
+						642, -- [3]
+						1567628540.951, -- [4]
+						45345, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						139, -- [2]
+						4116, -- [3]
+						1567628541.007, -- [4]
+						49461, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3850, -- [3]
+						1567628541.382, -- [4]
+						45611, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3850, -- [3]
+						1567628541.881, -- [4]
+						41761, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3850, -- [3]
+						1567628542.381, -- [4]
+						37911, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						303380, -- [2]
+						2278, -- [3]
+						1567628542.517, -- [4]
+						40189, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						124255, -- [2]
+						3850, -- [3]
+						1567628542.873, -- [4]
+						36339, -- [5]
+						"Gralph", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						272260, -- [2]
+						2569, -- [3]
+						1567628542.949, -- [4]
+						38908, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						292138, -- [2]
+						47569, -- [3]
+						1567628542.983, -- [4]
+						1, -- [5]
+						"Blackwater Behemoth", -- [6]
+						9535, -- [7]
+						8, -- [8]
+						false, -- [9]
+						8661, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						115203, -- [2]
+						1, -- [3]
+						1567628523.156, -- [4]
+						0, -- [5]
+						"Gralph", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MONK",
+				["timestring"] = "4m 11s",
+				["time"] = 1567628542.983,
+			}, -- [5]
+			{
+				["maxhealth"] = 283980,
+				["timeofdeath"] = 312.7609999999986,
+				["name"] = "Монтанор-Разувий",
+				["events"] = {
+					{
+						false, -- [1]
+						48438, -- [2]
+						3326, -- [3]
+						1567628589.855, -- [4]
+						182283, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15618, -- [3]
+						1567628589.99, -- [4]
+						197901, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1544, -- [3]
+						1567628590.731, -- [4]
+						199445, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						596, -- [2]
+						11186, -- [3]
+						1567628591.198, -- [4]
+						210631, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						48438, -- [2]
+						1426, -- [3]
+						1567628591.616, -- [4]
+						212057, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						292167, -- [2]
+						37811, -- [3]
+						1567628592.129, -- [4]
+						174246, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						596, -- [2]
+						34632, -- [3]
+						1567628592.887, -- [4]
+						208878, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628594.175, -- [4]
+						208878, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4664, -- [3]
+						1567628594.225, -- [4]
+						213542, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						true, -- [1]
+						292279, -- [2]
+						60361, -- [3]
+						1567628596.726, -- [4]
+						153181, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						4, -- [1]
+						292307, -- [2]
+						1, -- [3]
+						1567628596.893, -- [4]
+						153181, -- [5]
+						"[*] Gaze from Below", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4664, -- [3]
+						1567628597.228, -- [4]
+						157845, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15618, -- [3]
+						1567628597.8, -- [4]
+						173463, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						77489, -- [2]
+						4664, -- [3]
+						1567628600.235, -- [4]
+						178127, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628600.235, -- [4]
+						178127, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						278785, -- [2]
+						3865, -- [3]
+						1567628600.575, -- [4]
+						181992, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						183811, -- [2]
+						964, -- [3]
+						1567628601.679, -- [4]
+						182956, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1929, -- [3]
+						1567628601.679, -- [4]
+						184885, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						183811, -- [2]
+						962, -- [3]
+						1567628601.925, -- [4]
+						185847, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						183811, -- [2]
+						962, -- [3]
+						1567628601.962, -- [4]
+						186809, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						183811, -- [2]
+						1924, -- [3]
+						1567628602.185, -- [4]
+						188733, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						2050, -- [2]
+						89487, -- [3]
+						1567628602.36, -- [4]
+						278220, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						183811, -- [2]
+						962, -- [3]
+						1567628602.498, -- [4]
+						279182, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15618, -- [3]
+						1567628602.786, -- [4]
+						294800, -- [5]
+						"Монтанор-Разувий", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						183811, -- [2]
+						962, -- [3]
+						1567628602.824, -- [4]
+						295762, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						292167, -- [2]
+						44138, -- [3]
+						1567628603.256, -- [4]
+						251624, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						296212, -- [2]
+						5643, -- [3]
+						1567628603.256, -- [4]
+						257267, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [27]
+					{
+						true, -- [1]
+						1, -- [2]
+						98695, -- [3]
+						1567628603.256, -- [4]
+						257267, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628603.281, -- [4]
+						158572, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						1, -- [2]
+						96343, -- [3]
+						1567628603.7, -- [4]
+						158572, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628603.88, -- [4]
+						62229, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						1, -- [2]
+						88261, -- [3]
+						1567628604.149, -- [4]
+						62229, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						26032, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Монтанор-Разувий", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARRIOR",
+				["timestring"] = "5m 12s",
+				["time"] = 1567628604.178,
+			}, -- [6]
+			{
+				["maxhealth"] = 251240,
+				["timeofdeath"] = 317.460000000021,
+				["name"] = "Melice-Neptulon",
+				["events"] = {
+					{
+						false, -- [1]
+						8936, -- [2]
+						26957, -- [3]
+						1567628601.823, -- [4]
+						205546, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						6940, -- [2]
+						14315, -- [3]
+						1567628601.889, -- [4]
+						191231, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						2, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						503, -- [3]
+						1567628602.64, -- [4]
+						191734, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						774, -- [2]
+						4526, -- [3]
+						1567628603.091, -- [4]
+						196260, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						6940, -- [2]
+						11756, -- [3]
+						1567628603.256, -- [4]
+						184504, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						2, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						292167, -- [2]
+						42176, -- [3]
+						1567628603.281, -- [4]
+						142328, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3585, -- [3]
+						1567628603.554, -- [4]
+						145913, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						143924, -- [2]
+						2625, -- [3]
+						1567628603.88, -- [4]
+						148538, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						19750, -- [2]
+						27163, -- [3]
+						1567628604.387, -- [4]
+						175701, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						6940, -- [2]
+						18788, -- [3]
+						1567628604.619, -- [4]
+						156913, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						2, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						33110, -- [2]
+						8802, -- [3]
+						1567628604.619, -- [4]
+						165715, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						143924, -- [2]
+						359, -- [3]
+						1567628605.078, -- [4]
+						166074, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						596, -- [2]
+						11186, -- [3]
+						1567628605.29, -- [4]
+						177260, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						8936, -- [2]
+						7170, -- [3]
+						1567628605.337, -- [4]
+						184430, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						774, -- [2]
+						4526, -- [3]
+						1567628605.728, -- [4]
+						188956, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						292167, -- [2]
+						42176, -- [3]
+						1567628606.265, -- [4]
+						146780, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						270117, -- [2]
+						36657, -- [3]
+						1567628606.286, -- [4]
+						183437, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						33110, -- [2]
+						8802, -- [3]
+						1567628606.286, -- [4]
+						192239, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						215, -- [3]
+						1567628606.286, -- [4]
+						192454, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						596, -- [2]
+						22372, -- [3]
+						1567628606.887, -- [4]
+						214826, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						19750, -- [2]
+						27162, -- [3]
+						1567628606.887, -- [4]
+						241988, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						8936, -- [2]
+						7170, -- [3]
+						1567628607.173, -- [4]
+						249158, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						298, -- [3]
+						1567628607.503, -- [4]
+						249456, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						77489, -- [2]
+						5208, -- [3]
+						1567628607.652, -- [4]
+						254664, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						1, -- [2]
+						173026, -- [3]
+						1567628608.031, -- [4]
+						254664, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628608.045, -- [4]
+						81638, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						774, -- [2]
+						4526, -- [3]
+						1567628608.359, -- [4]
+						86164, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						1, -- [2]
+						85500, -- [3]
+						1567628608.445, -- [4]
+						86164, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628608.466, -- [4]
+						664, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						143924, -- [2]
+						60, -- [3]
+						1567628608.714, -- [4]
+						724, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3379, -- [3]
+						1567628608.805, -- [4]
+						4103, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						1, -- [2]
+						53078, -- [3]
+						1567628608.85, -- [4]
+						4103, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						48975, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						498, -- [2]
+						1, -- [3]
+						1567628593.143, -- [4]
+						0, -- [5]
+						"Melice-Neptulon", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 17s",
+				["time"] = 1567628608.877,
+			}, -- [7]
+			{
+				["maxhealth"] = 274520,
+				["timeofdeath"] = 321.4410000000498,
+				["name"] = "Bulbumbo",
+				["events"] = {
+					{
+						false, -- [1]
+						288091, -- [2]
+						3832, -- [3]
+						1567628606.517, -- [4]
+						281021, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						143924, -- [2]
+						422, -- [3]
+						1567628606.688, -- [4]
+						281443, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						279793, -- [2]
+						5103, -- [3]
+						1567628607.173, -- [4]
+						286546, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						291843, -- [2]
+						370, -- [3]
+						1567628607.206, -- [4]
+						286916, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						303380, -- [2]
+						2194, -- [3]
+						1567628607.872, -- [4]
+						289110, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						143924, -- [2]
+						142, -- [3]
+						1567628607.901, -- [4]
+						289252, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3235, -- [3]
+						1567628607.916, -- [4]
+						292487, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						139, -- [2]
+						4117, -- [3]
+						1567628608.045, -- [4]
+						296604, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						139, -- [2]
+						68, -- [3]
+						1567628608.096, -- [4]
+						296672, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						279793, -- [2]
+						2180, -- [3]
+						1567628608.183, -- [4]
+						298852, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						117313, -- [2]
+						15099, -- [3]
+						1567628608.222, -- [4]
+						301980, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						288091, -- [2]
+						1860, -- [3]
+						1567628608.503, -- [4]
+						301980, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [12]
+					{
+						true, -- [1]
+						292167, -- [2]
+						39421, -- [3]
+						1567628609.206, -- [4]
+						262559, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						291843, -- [2]
+						370, -- [3]
+						1567628609.206, -- [4]
+						262929, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						298318, -- [2]
+						15582, -- [3]
+						1567628609.38, -- [4]
+						278511, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						303380, -- [2]
+						4387, -- [3]
+						1567628609.869, -- [4]
+						282898, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						143924, -- [2]
+						771, -- [3]
+						1567628610.343, -- [4]
+						283669, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						288091, -- [2]
+						2462, -- [3]
+						1567628610.516, -- [4]
+						286131, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3235, -- [3]
+						1567628610.918, -- [4]
+						289366, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						291843, -- [2]
+						387, -- [3]
+						1567628611.228, -- [4]
+						289753, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						143924, -- [2]
+						367, -- [3]
+						1567628611.535, -- [4]
+						290120, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						1, -- [2]
+						76724, -- [3]
+						1567628611.676, -- [4]
+						290120, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628611.691, -- [4]
+						213396, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						270661, -- [2]
+						1579, -- [3]
+						1567628611.842, -- [4]
+						214975, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						303380, -- [2]
+						2194, -- [3]
+						1567628611.857, -- [4]
+						217169, -- [5]
+						"Melice-Neptulon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						1, -- [2]
+						78653, -- [3]
+						1567628612.055, -- [4]
+						217169, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628612.07, -- [4]
+						138516, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						292167, -- [2]
+						34813, -- [3]
+						1567628612.2, -- [4]
+						103703, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						1, -- [2]
+						78215, -- [3]
+						1567628612.444, -- [4]
+						103703, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						288091, -- [2]
+						2462, -- [3]
+						1567628612.53, -- [4]
+						27950, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						143924, -- [2]
+						110, -- [3]
+						1567628612.759, -- [4]
+						28060, -- [5]
+						"Bulbumbo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						1, -- [2]
+						77365, -- [3]
+						1567628612.84, -- [4]
+						28060, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						49305, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Bulbumbo", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARRIOR",
+				["timestring"] = "5m 21s",
+				["time"] = 1567628612.858,
+			}, -- [8]
+			{
+				["maxhealth"] = 459400,
+				["timeofdeath"] = 328.5869999999995,
+				["name"] = "Acharia",
+				["events"] = {
+					{
+						false, -- [1]
+						77535, -- [2]
+						71745, -- [3]
+						1567628615.523, -- [4]
+						244052, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						77535, -- [2]
+						0, -- [3]
+						1567628615.523, -- [4]
+						244052, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628615.54, -- [4]
+						233972, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3379, -- [3]
+						1567628615.557, -- [4]
+						237351, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						197509, -- [2]
+						40198, -- [3]
+						1567628615.671, -- [4]
+						277549, -- [5]
+						"Bloodworm <Acharia>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						1, -- [2]
+						85399, -- [3]
+						1567628615.878, -- [4]
+						277549, -- [5]
+						"Blackwater Behemoth", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						316, -- [3]
+						1567628615.987, -- [4]
+						192466, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						272260, -- [2]
+						161, -- [3]
+						1567628616.134, -- [4]
+						192627, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						1, -- [2]
+						69758, -- [3]
+						1567628616.288, -- [4]
+						192627, -- [5]
+						"Blackwater Behemoth", -- [6]
+						12313, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						206967, -- [2]
+						12313, -- [3]
+						1567628616.288, -- [4]
+						192627, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						296212, -- [2]
+						6580, -- [3]
+						1567628616.288, -- [4]
+						129449, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						55078, -- [2]
+						1244, -- [3]
+						1567628616.4, -- [4]
+						130693, -- [5]
+						"Acharia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						1, -- [2]
+						58908, -- [3]
+						1567628616.602, -- [4]
+						130693, -- [5]
+						"Blackwater Behemoth", -- [6]
+						25246, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						206967, -- [2]
+						25246, -- [3]
+						1567628616.602, -- [4]
+						130693, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						206967, -- [2]
+						18447, -- [3]
+						1567628616.714, -- [4]
+						71785, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						292247, -- [2]
+						43044, -- [3]
+						1567628616.714, -- [4]
+						28741, -- [5]
+						"Blackwater Behemoth", -- [6]
+						18447, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						1, -- [2]
+						57394, -- [3]
+						1567628616.985, -- [4]
+						28741, -- [5]
+						"Blackwater Behemoth", -- [6]
+						24597, -- [7]
+						1, -- [8]
+						false, -- [9]
+						28653, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						206967, -- [2]
+						24597, -- [3]
+						1567628616.985, -- [4]
+						28741, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						77489, -- [2]
+						0, -- [3]
+						1567628617.171, -- [4]
+						1, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						1362, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						18562, -- [2]
+						23272, -- [3]
+						1567628617.297, -- [4]
+						23273, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						27187, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3739, -- [3]
+						1567628617.297, -- [4]
+						27012, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						155777, -- [2]
+						4187, -- [3]
+						1567628617.846, -- [4]
+						31199, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						272260, -- [2]
+						321, -- [3]
+						1567628618.194, -- [4]
+						31520, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						206967, -- [2]
+						18447, -- [3]
+						1567628618.251, -- [4]
+						31520, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						292138, -- [2]
+						31518, -- [3]
+						1567628618.251, -- [4]
+						2, -- [5]
+						"Blackwater Behemoth", -- [6]
+						29973, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						1, -- [2]
+						57628, -- [3]
+						1567628618.373, -- [4]
+						2, -- [5]
+						"Blackwater Behemoth", -- [6]
+						24697, -- [7]
+						1, -- [8]
+						false, -- [9]
+						57626, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						206967, -- [2]
+						24697, -- [3]
+						1567628618.373, -- [4]
+						2, -- [5]
+						"Acharia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628618.402, -- [4]
+						2, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						8936, -- [2]
+						0, -- [3]
+						1567628618.958, -- [4]
+						2, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						4099, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						33763, -- [2]
+						0, -- [3]
+						1567628619.415, -- [4]
+						2, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						2295, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						155777, -- [2]
+						0, -- [3]
+						1567628619.686, -- [4]
+						2, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						3440, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						279793, -- [2]
+						0, -- [3]
+						1567628619.794, -- [4]
+						1, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						6320, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						55233, -- [2]
+						1, -- [3]
+						1567628569.298, -- [4]
+						0, -- [5]
+						"Acharia", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "5m 28s",
+				["time"] = 1567628620.004,
+			}, -- [9]
+			{
+				["maxhealth"] = 287900,
+				["timeofdeath"] = 328.9880000000121,
+				["name"] = "Azmødan",
+				["events"] = {
+					{
+						false, -- [1]
+						596, -- [2]
+						11186, -- [3]
+						1567628605.29, -- [4]
+						181362, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						77489, -- [2]
+						2435, -- [3]
+						1567628606.223, -- [4]
+						183797, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						77220, -- [2]
+						3464, -- [3]
+						1567628606.423, -- [4]
+						183797, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						108366, -- [2]
+						2854, -- [3]
+						1567628606.423, -- [4]
+						183797, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43016, -- [3]
+						1567628606.423, -- [4]
+						147099, -- [5]
+						"Blackwater Behemoth", -- [6]
+						6318, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3203, -- [3]
+						1567628606.63, -- [4]
+						150302, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						596, -- [2]
+						17316, -- [3]
+						1567628606.887, -- [4]
+						167618, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						296184, -- [2]
+						1330, -- [3]
+						1567628606.919, -- [4]
+						168948, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3203, -- [3]
+						1567628608.372, -- [4]
+						172151, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3521, -- [3]
+						1567628609.233, -- [4]
+						175672, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						77220, -- [2]
+						2465, -- [3]
+						1567628609.418, -- [4]
+						175672, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						108366, -- [2]
+						4777, -- [3]
+						1567628609.418, -- [4]
+						175672, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43016, -- [3]
+						1567628609.418, -- [4]
+						139898, -- [5]
+						"Blackwater Behemoth", -- [6]
+						7242, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3019, -- [3]
+						1567628610.125, -- [4]
+						142917, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3019, -- [3]
+						1567628611.873, -- [4]
+						145936, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77489, -- [2]
+						3521, -- [3]
+						1567628612.223, -- [4]
+						149457, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						296184, -- [2]
+						1420, -- [3]
+						1567628612.243, -- [4]
+						150877, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						77220, -- [2]
+						3441, -- [3]
+						1567628612.406, -- [4]
+						150877, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						108366, -- [2]
+						4382, -- [3]
+						1567628612.406, -- [4]
+						150877, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						292167, -- [2]
+						43016, -- [3]
+						1567628612.406, -- [4]
+						115684, -- [5]
+						"Blackwater Behemoth", -- [6]
+						7823, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						8936, -- [2]
+						3019, -- [3]
+						1567628613.618, -- [4]
+						118703, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						8936, -- [2]
+						2576, -- [3]
+						1567628615.118, -- [4]
+						121279, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1318, -- [3]
+						1567628615.22, -- [4]
+						122597, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1318, -- [3]
+						1567628618.226, -- [4]
+						123915, -- [5]
+						"Mallusof", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						1, -- [2]
+						117696, -- [3]
+						1567628620.065, -- [4]
+						123915, -- [5]
+						"Blackwater Behemoth", -- [6]
+						13132, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						77220, -- [2]
+						7875, -- [3]
+						1567628620.065, -- [4]
+						123915, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						108366, -- [2]
+						4112, -- [3]
+						1567628620.065, -- [4]
+						123915, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						296212, -- [2]
+						5926, -- [3]
+						1567628620.082, -- [4]
+						24132, -- [5]
+						"Nulona-Garrosh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						292138, -- [2]
+						1, -- [3]
+						1567628620.082, -- [4]
+						24132, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						1, -- [2]
+						294028, -- [3]
+						1567628620.405, -- [4]
+						24132, -- [5]
+						"Blackwater Behemoth", -- [6]
+						17692, -- [7]
+						1, -- [8]
+						false, -- [9]
+						252204, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						292167, -- [2]
+						1, -- [3]
+						1567628620.405, -- [4]
+						24132, -- [5]
+						"Blackwater Behemoth", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						77220, -- [2]
+						14909, -- [3]
+						1567628620.405, -- [4]
+						24132, -- [5]
+						"Azmødan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Azmødan", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "5m 28s",
+				["time"] = 1567628620.405,
 			}, -- [10]
 		},
-		["bossname"] = "Za'qul",
+		["bossname"] = "Blackwater Behemoth",
 		["bossicon"] = {
-			0.5, -- [1]
-			0.75, -- [2]
-			0.25, -- [3]
-			0.5, -- [4]
+			0.25, -- [1]
+			0.5, -- [2]
+			0, -- [3]
+			0.25, -- [4]
 			"Interface\\AddOns\\Details\\images\\raid\\EternalPalaceRaid_BossFaces", -- [5]
 		},
-		["date"] = 133746.65,
-		["timeelapsed"] = 270.8199999999779,
+		["date"] = 425365.538,
+		["timeelapsed"] = 342.2229999999981,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
@@ -7637,100 +11184,130 @@ DeathGraphsDBGraph = {
 	},
 	["235215"] = {
 		["deaths"] = {
-			[58] = {
-				1565726798, -- [1]
-			},
-			[59] = {
-				1565726798, -- [1]
-			},
-			[139] = {
-				1565723548, -- [1]
-			},
-			[89] = {
-				1565724078, -- [1]
+			[211] = {
+				1565724756, -- [1]
 			},
 			[182] = {
 				1565724756, -- [1]
 			},
-			[248] = {
-				1565727344, -- [1]
-			},
-			[97] = {
-				1565723548, -- [1]
-			},
-			[136] = {
-				1565724756, -- [1]
-				1565726798, -- [2]
-			},
-			[303] = {
-				1565724078, -- [1]
-			},
-			[252] = {
-				1566413637, -- [1]
-			},
-			[162] = {
-				1566413637, -- [1]
-			},
-			[120] = {
-				1565727344, -- [1]
-			},
-			[156] = {
-				1565727962, -- [1]
-			},
-			[190] = {
-				1565727962, -- [1]
-				1566413637, -- [2]
-			},
-			[103] = {
-				1565726798, -- [1]
-			},
-			[96] = {
-				1565724756, -- [1]
-			},
-			[23] = {
-				1565724756, -- [1]
-				1565727344, -- [2]
-			},
-			[90] = {
-				1565724078, -- [1]
-			},
-			[211] = {
-				1565724756, -- [1]
+			[301] = {
+				1567626791, -- [1]
 			},
 			[153] = {
 				1565727344, -- [1]
 				1566413637, -- [2]
 			},
-			[219] = {
-				1565723548, -- [1]
-				1565723548, -- [2]
-			},
-			[169] = {
-				1565723548, -- [1]
-			},
-			[134] = {
-				1565726798, -- [1]
-			},
-			[71] = {
-				1565727962, -- [1]
-			},
-			[100] = {
+			[185] = {
 				1565727962, -- [1]
 			},
 			[24] = {
 				1565727344, -- [1]
 			},
-			[336] = {
-				1565724078, -- [1]
+			[218] = {
+				1567626791, -- [1]
 			},
-			[185] = {
+			[156] = {
 				1565727962, -- [1]
+			},
+			[252] = {
+				1566413637, -- [1]
+			},
+			[190] = {
+				1565727962, -- [1]
+				1566413637, -- [2]
 			},
 			[128] = {
 				1566413637, -- [1]
 			},
+			[97] = {
+				1565723548, -- [1]
+			},
+			[162] = {
+				1566413637, -- [1]
+			},
+			[99] = {
+				1567626791, -- [1]
+			},
+			[58] = {
+				1565726798, -- [1]
+			},
+			[134] = {
+				1565726798, -- [1]
+			},
+			[100] = {
+				1565727962, -- [1]
+			},
+			[136] = {
+				1565724756, -- [1]
+				1565726798, -- [2]
+			},
+			[96] = {
+				1565724756, -- [1]
+			},
+			[90] = {
+				1565724078, -- [1]
+			},
+			[169] = {
+				1565723548, -- [1]
+			},
+			[263] = {
+				1567626131, -- [1]
+			},
+			[336] = {
+				1565724078, -- [1]
+			},
+			[102] = {
+				1567626131, -- [1]
+			},
+			[71] = {
+				1565727962, -- [1]
+			},
 			[140] = {
 				1565724078, -- [1]
+			},
+			[235] = {
+				1567626791, -- [1]
+			},
+			[103] = {
+				1565726798, -- [1]
+			},
+			[303] = {
+				1565724078, -- [1]
+			},
+			[142] = {
+				1567626131, -- [1]
+			},
+			[89] = {
+				1565724078, -- [1]
+			},
+			[219] = {
+				1565723548, -- [1]
+				1565723548, -- [2]
+			},
+			[120] = {
+				1565727344, -- [1]
+			},
+			[248] = {
+				1565727344, -- [1]
+			},
+			[176] = {
+				1567626131, -- [1]
+			},
+			[139] = {
+				1565723548, -- [1]
+			},
+			[59] = {
+				1565726798, -- [1]
+			},
+			[216] = {
+				1567626131, -- [1]
+			},
+			[23] = {
+				1565724756, -- [1]
+				1565727344, -- [2]
+			},
+			[264] = {
+				1567626791, -- [1]
 			},
 		},
 		["spells"] = {
@@ -7740,68 +11317,55 @@ DeathGraphsDBGraph = {
 	},
 	["234715"] = {
 		["deaths"] = {
-			[114] = {
-				1565298740, -- [1]
+			[147] = {
+				1567628184, -- [1]
 			},
-			[116] = {
-				1565298740, -- [1]
+			[122] = {
+				1567629101, -- [1]
+				1567629101, -- [2]
 			},
-			[332] = {
-				1566416858, -- [1]
-			},
-			[120] = {
-				1565298740, -- [1]
-				1565299242, -- [2]
-				1566414856, -- [3]
-			},
-			[341] = {
-				1566416858, -- [1]
-			},
-			[365] = {
-				1565299812, -- [1]
-			},
-			[335] = {
-				1566416858, -- [1]
-			},
-			[103] = {
-				1565299242, -- [1]
-			},
-			[175] = {
-				1566414856, -- [1]
-			},
-			[160] = {
-				1566414856, -- [1]
-			},
-			[117] = {
-				1566415297, -- [1]
-			},
-			[80] = {
-				1565299242, -- [1]
-			},
-			[343] = {
-				1565299812, -- [1]
-				1565299812, -- [2]
-			},
-			[115] = {
-				1565298740, -- [1]
-			},
-			[44] = {
-				1566416858, -- [1]
-			},
-			[226] = {
+			[212] = {
 				1566416142, -- [1]
 			},
 			[7] = {
 				1565298740, -- [1]
 			},
-			[61] = {
-				1565299242, -- [1]
+			[183] = {
+				1567629101, -- [1]
+			},
+			[365] = {
+				1565299812, -- [1]
+			},
+			[186] = {
+				1567628184, -- [1]
 			},
 			[219] = {
 				1566416142, -- [1]
 			},
-			[127] = {
-				1565299812, -- [1]
+			[251] = {
+				1567628623, -- [1]
+			},
+			[189] = {
+				1566416858, -- [1]
+				1567628184, -- [2]
+			},
+			[80] = {
+				1565299242, -- [1]
+			},
+			[190] = {
+				1567628184, -- [1]
+			},
+			[160] = {
+				1566414856, -- [1]
+			},
+			[129] = {
+				1565299242, -- [1]
+			},
+			[224] = {
+				1567628623, -- [1]
+			},
+			[226] = {
+				1566416142, -- [1]
 			},
 			[195] = {
 				1566415297, -- [1]
@@ -7812,26 +11376,80 @@ DeathGraphsDBGraph = {
 				1566415297, -- [2]
 				1566416142, -- [3]
 			},
+			[228] = {
+				1566416142, -- [1]
+			},
+			[116] = {
+				1565298740, -- [1]
+			},
+			[332] = {
+				1566416858, -- [1]
+			},
+			[221] = {
+				1567628623, -- [1]
+			},
 			[169] = {
 				1566414856, -- [1]
+			},
+			[335] = {
+				1566416858, -- [1]
+			},
+			[44] = {
+				1566416858, -- [1]
+			},
+			[214] = {
+				1567628623, -- [1]
 			},
 			[338] = {
 				1565299812, -- [1]
 			},
+			[121] = {
+				1567629101, -- [1]
+			},
+			[235] = {
+				1567629101, -- [1]
+			},
+			[103] = {
+				1565299242, -- [1]
+			},
 			[173] = {
 				1566414856, -- [1]
 			},
-			[212] = {
-				1566416142, -- [1]
+			[343] = {
+				1565299812, -- [1]
+				1565299812, -- [2]
 			},
-			[129] = {
-				1565299242, -- [1]
+			[204] = {
+				1567628184, -- [1]
 			},
-			[189] = {
+			[120] = {
+				1565298740, -- [1]
+				1565299242, -- [2]
+				1566414856, -- [3]
+			},
+			[175] = {
+				1566414856, -- [1]
+			},
+			[114] = {
+				1565298740, -- [1]
+			},
+			[239] = {
+				1567628623, -- [1]
+			},
+			[341] = {
 				1566416858, -- [1]
 			},
-			[228] = {
-				1566416142, -- [1]
+			[61] = {
+				1565299242, -- [1]
+			},
+			[117] = {
+				1566415297, -- [1]
+			},
+			[115] = {
+				1565298740, -- [1]
+			},
+			[127] = {
+				1565299812, -- [1]
 			},
 		},
 		["spells"] = {

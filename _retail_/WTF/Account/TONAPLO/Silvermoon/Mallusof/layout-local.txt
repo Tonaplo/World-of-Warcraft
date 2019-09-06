@@ -20,10 +20,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: 2
-Y: 209
-W: 110
-H: 62

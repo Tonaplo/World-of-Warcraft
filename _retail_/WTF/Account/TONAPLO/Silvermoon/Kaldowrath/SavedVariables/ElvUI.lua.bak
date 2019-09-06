@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i avoid tentacle slam", -- [1]
-		"/i p2 now", -- [2]
-		"/i ?", -- [3]
-		"/i Interrupt the Forgotten denizens", -- [4]
-		"/i in P2, kill and interrupt the forgotten denizens, like you just did", -- [5]
-		"/i Yeah", -- [6]
-		"/i crazy", -- [7]
-		"/i aka Skull", -- [8]
-		"Good question", -- [9]
-		"I think ingame chat", -- [10]
-		"let me say it differently", -- [11]
-		"unless they purposedly removed it", -- [12]
-		"it should be there", -- [13]
-		"Least populated, lol", -- [14]
-		"First of all", -- [15]
-		"Alliance", -- [16]
-		"Second of all", -- [17]
-		"FUCK PvP realms", -- [18]
-		"no fucking way", -- [19]
-		"xo", -- [20]
+		"/i p2 now", -- [1]
+		"/i ?", -- [2]
+		"/i Interrupt the Forgotten denizens", -- [3]
+		"/i in P2, kill and interrupt the forgotten denizens, like you just did", -- [4]
+		"/i Yeah", -- [5]
+		"/i crazy", -- [6]
+		"/i aka Skull", -- [7]
+		"Good question", -- [8]
+		"I think ingame chat", -- [9]
+		"let me say it differently", -- [10]
+		"unless they purposedly removed it", -- [11]
+		"it should be there", -- [12]
+		"Least populated, lol", -- [13]
+		"First of all", -- [14]
+		"Alliance", -- [15]
+		"Second of all", -- [16]
+		"FUCK PvP realms", -- [17]
+		"no fucking way", -- [18]
+		"xo", -- [19]
+		"/g Nice with the DarkIron unlock!", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1849,5 +1849,27 @@ ElvCharacterDB = {
 			[51] = 1566849643,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [83]
+		{
+			"Nice with the DarkIron unlock!", -- [1]
+			"Kaldowrath-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			288, -- [11]
+			"Player-3391-0A827D3E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldowrath|r",
+			[51] = 1567665443,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [84]
 	},
 }
