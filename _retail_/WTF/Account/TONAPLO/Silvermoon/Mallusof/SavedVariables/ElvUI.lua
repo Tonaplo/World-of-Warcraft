@@ -1,402 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/combatlog", -- [1]
-		"/p ar", -- [2]
-		"/p !keys", -- [3]
-		"/p ress after fight please", -- [4]
-		"/p Nice DPS and excellent atnking", -- [5]
-		"/cw Garenia-ChamberofAspects ahhh I see", -- [6]
-		"/p Havea  good one :)", -- [7]
-		"/cw Бездолье-ВечнаяПесня Excellent tanking man", -- [8]
-		"/p Great group", -- [9]
-		"/s o/", -- [10]
-		"/1 thanks for coming! :)", -- [11]
-		"/p omw to stone, WM on", -- [12]
-		"/p indeed", -- [13]
-		"/cw Garenia-ChamberofAspects Mind if I add you? Excellent DPS and interrupts", -- [14]
-		"ofcourse :)", -- [15]
-		"/p gar", -- [16]
-		"/p Thanks guys :)", -- [17]
-		"/p Very nice", -- [18]
-		"/cw Бездолье-ВечнаяПесня such a pleasure to heal", -- [19]
-		"/cw Бездолье-ВечнаяПесня major props", -- [20]
+		"/1 thanks for coming! :)", -- [1]
+		"/p omw to stone, WM on", -- [2]
+		"/p indeed", -- [3]
+		"/cw Garenia-ChamberofAspects Mind if I add you? Excellent DPS and interrupts", -- [4]
+		"ofcourse :)", -- [5]
+		"/p gar", -- [6]
+		"/p Thanks guys :)", -- [7]
+		"/p Very nice", -- [8]
+		"/cw Бездолье-ВечнаяПесня such a pleasure to heal", -- [9]
+		"/cw Бездолье-ВечнаяПесня major props", -- [10]
+		"/p ?", -- [11]
+		"/p I'm ranged", -- [12]
+		"/p 3 dd", -- [13]
+		"/p :)\\", -- [14]
+		"/p ills wioth tank", -- [15]
+		"/p amazing", -- [16]
+		"/p thanks!", -- [17]
+		"/g OH SHIT", -- [18]
+		"/g |cffe6cc80|Hitem:170150::::::::120:258::11::::|h[Map to the Last Worldvein]|h|r", -- [19]
+		"/exrt", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"{rt1}3", -- [1]
-			"Jerkon-EarthenRing", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jerkon-EarthenRing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2297, -- [11]
-			"Player-1317-06583D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeJerkon-EarthenRing|r",
-			[51] = 1568235853,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"{rt1}2", -- [1]
-			"Jerkon-EarthenRing", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jerkon-EarthenRing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2298, -- [11]
-			"Player-1317-06583D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeJerkon-EarthenRing|r",
-			[51] = 1568235854,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"{rt1}1", -- [1]
-			"Jerkon-EarthenRing", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jerkon-EarthenRing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2299, -- [11]
-			"Player-1317-06583D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeJerkon-EarthenRing|r",
-			[51] = 1568235855,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"Dps on eyes", -- [1]
-			"Clive-KirinTor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Clive-KirinTor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2301, -- [11]
-			"Player-3714-08752B27", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Clive-KirinTor|r",
-			[51] = 1568235865,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [4]
-		{
-			"They will transport you to dps realm", -- [1]
-			"Clive-KirinTor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Clive-KirinTor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2303, -- [11]
-			"Player-3714-08752B27", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Clive-KirinTor|r",
-			[51] = 1568235871,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [5]
-		{
-			"Manifest Nightmares on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2306, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568235880,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"3", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2308, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568235883,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"I", -- [1]
-			"Jerkon-EarthenRing", -- [2]
-			"Shath'Yar", -- [3]
-			"", -- [4]
-			"Jerkon-EarthenRing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2309, -- [11]
-			"Player-1317-06583D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeJerkon-EarthenRing|r",
-			[51] = 1568235883,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"2", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2310, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568235884,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"1", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2311, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568235885,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"Manifest Nightmares on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2314, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568235915,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"3", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2316, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568235918,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"2", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2317, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568235919,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"1", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2318, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568235920,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"dispel", -- [1]
-			"Moridin-Anub'arak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Moridin-Anub'arak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2322, -- [11]
-			"Player-1105-0770514D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Moridin-Anub'arak|r",
-			[51] = 1568235929,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [15]
-		{
-			"going afk now. Thanks for bringing me for these.", -- [1]
-			"|Kq40|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2330, -- [11]
-			false, -- [12]
-			24, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Adionis|r",
-			[51] = 1568235979,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [16]
-		{
-			"ofcourse :)", -- [1]
-			"|Kq40|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2334, -- [11]
-			false, -- [12]
-			24, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Adionis|r",
-			[51] = 1568236010,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [17]
 		{
 			"thanks man!", -- [1]
 			"|Kq40|k", -- [2]
@@ -418,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Adionis|r",
 			[51] = 1568236012,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [18]
+		}, -- [1]
 		{
 			"jes thanks for de run all", -- [1]
 			"Jerkon-EarthenRing", -- [2]
@@ -440,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeJerkon-EarthenRing|r",
 			[51] = 1568236014,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [19]
+		}, -- [2]
 		{
 			"\"Parents with Jobs\" has earned the achievement |cffffff00|Hachievement:5170:0000000000000000:1:9:11:19:4294967295:4294967295:4294967295:4294967295|h[Troll Slayer]|h|r!", -- [1]
 			"Parents with Jobs", -- [2]
@@ -462,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "Parents with Jobs",
 			[51] = 1568238000,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
+		}, -- [3]
 		{
 			"hello", -- [1]
 			"Aiwvia-Tyrande", -- [2]
@@ -484,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Aiwvia-Tyrande|r",
 			[51] = 1568405991,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [21]
+		}, -- [4]
 		{
 			"Greetings", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -506,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568406505,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
+		}, -- [5]
 		{
 			"hi", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -528,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568406514,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
+		}, -- [6]
 		{
 			"hi", -- [1]
 			"Disihterror-Aggra(Português)", -- [2]
@@ -550,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
 			[51] = 1568406528,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [24]
+		}, -- [7]
 		{
 			"|cffffff00Mezzamere is under attack!|r", -- [1]
 			"", -- [2]
@@ -572,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1568406616,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [8]
 		{
 			"o/", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -594,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568406649,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
+		}, -- [9]
 		{
 			"hi", -- [1]
 			"Deleni-Outland", -- [2]
@@ -616,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568406653,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [27]
+		}, -- [10]
 		{
 			"o/", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -638,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568406655,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [11]
 		{
 			"o/", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -660,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568406659,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
+		}, -- [12]
 		{
 			"omw to stone, WM on", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -682,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568406711,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [30]
+		}, -- [13]
 		{
 			"omw too", -- [1]
 			"Deleni-Outland", -- [2]
@@ -704,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568406731,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [31]
+		}, -- [14]
 		{
 			"timer pls", -- [1]
 			"Deleni-Outland", -- [2]
@@ -726,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568406825,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
+		}, -- [15]
 		{
 			"do damage then", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -748,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568406834,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [33]
+		}, -- [16]
 		{
 			":D", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -770,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568406835,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [17]
 		{
 			"gl ppl", -- [1]
 			"Disihterror-Aggra(Português)", -- [2]
@@ -792,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
 			[51] = 1568406855,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [35]
+		}, -- [18]
 		{
 			"gl hf", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -814,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568406861,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [36]
+		}, -- [19]
 		{
 			"Interrupted Temple Attendant's |cff71d5ff|Hspell:267969:0|h[Water Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -836,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568406917,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
+		}, -- [20]
 		{
 			"Interrupted Temple Attendant's |cff71d5ff|Hspell:267969:0|h[Water Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -858,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568406934,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [38]
+		}, -- [21]
 		{
 			"Interrupted Shrine Templar's |cff71d5ff|Hspell:267981:0|h[Protective Aura]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -880,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568406949,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [22]
 		{
 			"Interrupted Temple Attendant's |cff71d5ff|Hspell:267973:0|h[Wash Away]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -902,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568406992,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
+		}, -- [23]
 		{
 			"Interrupted Shrine Templar's |cff71d5ff|Hspell:267981:0|h[Protective Aura]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -924,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407054,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [41]
+		}, -- [24]
 		{
 			"Interrupted Temple Attendant's |cff71d5ff|Hspell:267969:0|h[Water Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -946,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407078,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [42]
+		}, -- [25]
 		{
 			"whats wrong with pally", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -968,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568407192,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [43]
+		}, -- [26]
 		{
 			"im in back and die?", -- [1]
 			"Disihterror-Aggra(Português)", -- [2]
@@ -990,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
 			[51] = 1568407193,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [44]
+		}, -- [27]
 		{
 			"Interrupted Windspeaker Heldis's |cff71d5ff|Hspell:268177:0|h[Windblast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1012,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407329,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [45]
+		}, -- [28]
 		{
 			"Interrupted Windspeaker Heldis's |cff71d5ff|Hspell:268177:0|h[Windblast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1034,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407344,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [46]
+		}, -- [29]
 		{
 			"Interrupted Galecaller Apprentice's |cff71d5ff|Hspell:274437:0|h[Tempest]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1056,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407426,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [47]
+		}, -- [30]
 		{
 			"Interrupted Galecaller Apprentice's |cff71d5ff|Hspell:274437:0|h[Tempest]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1078,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407528,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [48]
+		}, -- [31]
 		{
 			"))))", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -1100,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568407601,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [49]
+		}, -- [32]
 		{
 			"Interrupted Galecaller Apprentice's |cff71d5ff|Hspell:274437:0|h[Tempest]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1122,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407614,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [50]
+		}, -- [33]
 		{
 			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1144,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407715,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [51]
+		}, -- [34]
 		{
 			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1166,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407732,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [52]
+		}, -- [35]
 		{
 			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1188,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407754,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [53]
+		}, -- [36]
 		{
 			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1210,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407767,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [54]
+		}, -- [37]
 		{
 			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1232,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407781,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [55]
+		}, -- [38]
 		{
 			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1254,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407798,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [56]
+		}, -- [39]
 		{
 			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1276,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407818,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [57]
+		}, -- [40]
 		{
 			"ar", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1298,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568407892,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
+		}, -- [41]
 		{
 			"gar", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1320,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568407895,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
+		}, -- [42]
 		{
 			"? :L", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -1342,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568407903,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
+		}, -- [43]
 		{
 			"ress after fight please", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1364,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568407903,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
+		}, -- [44]
 		{
 			"yy", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1386,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407907,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [45]
 		{
 			"ty", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1408,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568407932,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
+		}, -- [46]
 		{
 			"ty", -- [1]
 			"Disihterror-Aggra(Português)", -- [2]
@@ -1430,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
 			[51] = 1568407938,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [64]
+		}, -- [47]
 		{
 			"n1", -- [1]
 			"Disihterror-Aggra(Português)", -- [2]
@@ -1452,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
 			[51] = 1568407939,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [65]
+		}, -- [48]
 		{
 			"Interrupted Deepsea Ritualist's |cff71d5ff|Hspell:268309:0|h[Unending Darkness]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1474,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407967,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
+		}, -- [49]
 		{
 			"3", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1496,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568407971,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [50]
 		{
 			"2", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1518,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568407972,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [51]
 		{
 			"1", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1540,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568407973,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [52]
 		{
 			"Interrupted Deepsea Ritualist's |cff71d5ff|Hspell:268309:0|h[Unending Darkness]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1562,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568407985,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
+		}, -- [53]
 		{
 			"3", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1584,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568407992,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [54]
 		{
 			"Interrupted Deepsea Ritualist's |cff71d5ff|Hspell:268309:0|h[Unending Darkness]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1606,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408019,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [55]
 		{
 			"3", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1628,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408022,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [56]
 		{
 			"3", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1650,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408022,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [57]
 		{
 			"2", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1672,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408023,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [58]
 		{
 			"2", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1694,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408023,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [59]
 		{
 			"1", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1716,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408024,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [60]
 		{
 			"1", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1738,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408024,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [61]
 		{
 			"Interrupted Deepsea Ritualist's |cff71d5ff|Hspell:268309:0|h[Unending Darkness]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1760,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408034,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
+		}, -- [62]
 		{
 			"invis pot?", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1782,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408103,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
+		}, -- [63]
 		{
 			"no", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -1804,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568408107,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [64]
 		{
 			"i have", -- [1]
 			"Deleni-Outland", -- [2]
@@ -1826,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568408107,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
+		}, -- [65]
 		{
 			"hardcore", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -1848,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568408110,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
+		}, -- [66]
 		{
 			"dont have", -- [1]
 			"Disihterror-Aggra(Português)", -- [2]
@@ -1870,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
 			[51] = 1568408112,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [84]
+		}, -- [67]
 		{
 			"Interrupted Abyssal Cultist's |cff71d5ff|Hspell:268375:0|h[Detect Thoughts]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1892,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408151,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
+		}, -- [68]
 		{
 			"Interrupted Abyssal Cultist's |cff71d5ff|Hspell:268375:0|h[Detect Thoughts]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1914,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408186,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
+		}, -- [69]
 		{
 			"Interrupted Lord Stormsong's |cff71d5ff|Hspell:268347:0|h[Void Bolt]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1936,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408313,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [70]
 		{
 			"Interrupted Lord Stormsong's |cff71d5ff|Hspell:268347:0|h[Void Bolt]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1958,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408370,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [71]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -1980,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408534,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [89]
+		}, -- [72]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2002,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408551,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [73]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2024,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408568,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [91]
+		}, -- [74]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2046,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408585,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [75]
 		{
 			"cd", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2068,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568408604,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [93]
+		}, -- [76]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2090,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408605,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [77]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2112,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408622,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [78]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2134,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408668,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
+		}, -- [79]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2156,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408686,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [97]
+		}, -- [80]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2178,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408767,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [98]
+		}, -- [81]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2200,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408789,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [99]
+		}, -- [82]
 		{
 			"cd", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2222,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408863,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [100]
+		}, -- [83]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2244,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408879,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [101]
+		}, -- [84]
 		{
 			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2266,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408892,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [102]
+		}, -- [85]
 		{
 			"niceee", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2288,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568408924,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [103]
+		}, -- [86]
 		{
 			"Very nice", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2310,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408927,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [104]
+		}, -- [87]
 		{
 			"Great group", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2332,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408929,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [105]
+		}, -- [88]
 		{
 			"Nice DPS and excellent atnking", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2354,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408934,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [106]
+		}, -- [89]
 		{
 			"tanking", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2376,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408938,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [107]
+		}, -- [90]
 		{
 			"!keys", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2398,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408944,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [108]
+		}, -- [91]
 		{
 			"|cffa335ee|Hkeystone:158923:244:10:9:6:4:119|h[Keystone: Atal'Dazar (10)]|h|r", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2420,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408944,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [109]
+		}, -- [92]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:158923:246:8:9:5:3:119|h[Keystone: Tol Dagor (8)]|h|r", -- [1]
 			"Deleni-Outland", -- [2]
@@ -2442,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568408944,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [110]
+		}, -- [93]
 		{
 			"ty bye", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2464,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408967,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [111]
+		}, -- [94]
 		{
 			"ty", -- [1]
 			"Deleni-Outland", -- [2]
@@ -2486,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568408981,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [112]
+		}, -- [95]
 		{
 			"if you ant", -- [1]
 			"Disihterror-Aggra(Português)", -- [2]
@@ -2508,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
 			[51] = 1568408983,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [113]
+		}, -- [96]
 		{
 			"Mind if I add you? Excellent DPS and interrupts", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2530,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408985,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [114]
+		}, -- [97]
 		{
 			"why not", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2552,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568409000,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [115]
+		}, -- [98]
 		{
 			"but its just rofl alt dont play that much with thi", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2574,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568409016,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [116]
+		}, -- [99]
 		{
 			"ahhh I see", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2596,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568409025,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [117]
+		}, -- [100]
 		{
 			"Thanks guys :)", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2618,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568409038,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [118]
+		}, -- [101]
 		{
 			"Havea  good one :)", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2640,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568409040,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [119]
+		}, -- [102]
 		{
 			"ty all", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2662,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409051,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [120]
+		}, -- [103]
 		{
 			"good run", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2684,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409051,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [121]
+		}, -- [104]
 		{
 			"indeed", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2706,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568409058,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [122]
+		}, -- [105]
 		{
 			"ty cya", -- [1]
 			"Deleni-Outland", -- [2]
@@ -2728,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568409060,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [123]
+		}, -- [106]
 		{
 			"Excellent tanking man", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2750,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409062,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [124]
+		}, -- [107]
 		{
 			"such a pleasure to heal", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2772,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409067,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [125]
+		}, -- [108]
 		{
 			"major props", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2794,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409069,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [126]
+		}, -- [109]
 		{
 			"thankyou, everyone is doing good", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2816,6 +2442,380 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409095,
 			[50] = "CHAT_MSG_WHISPER",
+		}, -- [110]
+		{
+			"thx & bb", -- [1]
+			"Twèéty-Khaz'goroth", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Twèéty-Khaz'goroth", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			342, -- [11]
+			"Player-1406-061A7098", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcTwèéty-Khaz'goroth|r",
+			[51] = 1568579425,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [111]
+		{
+			"Hey :)", -- [1]
+			"Huttemeier-Twilight'sHammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huttemeier-Twilight'sHammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-1091-067BE36A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeHuttemeier-Twilight'sHammer|r",
+			[51] = 1568579485,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [112]
+		{
+			"range or melee?", -- [1]
+			"Videographer-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Videographer-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			568, -- [11]
+			"Player-3391-0997D000", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVideographer|r",
+			[51] = 1568580187,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [113]
+		{
+			"?", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			575, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580201,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [114]
+		{
+			"I'm ranged", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			577, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580205,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [115]
+		{
+			"3. dd", -- [1]
+			"Videographer-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Videographer-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			579, -- [11]
+			"Player-3391-0997D000", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVideographer|r",
+			[51] = 1568580206,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [116]
+		{
+			"or who care* :D", -- [1]
+			"Videographer-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Videographer-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			584, -- [11]
+			"Player-3391-0997D000", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVideographer|r",
+			[51] = 1568580212,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [117]
+		{
+			"3 dd", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			596, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580233,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [118]
+		{
+			":)\\", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			597, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580235,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [119]
+		{
+			"hey yoko", -- [1]
+			"Videographer-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Videographer-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			609, -- [11]
+			"Player-3391-0997D000", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVideographer|r",
+			[51] = 1568580261,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [120]
+		{
+			"focus azerites?", -- [1]
+			"Videographer-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Videographer-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			626, -- [11]
+			"Player-3391-0997D000", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVideographer|r",
+			[51] = 1568580313,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [121]
+		{
+			"or kills?", -- [1]
+			"Videographer-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Videographer-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			627, -- [11]
+			"Player-3391-0997D000", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cVideographer|r",
+			[51] = 1568580314,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [122]
+		{
+			"ills wioth tank", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			667, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580409,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [123]
+		{
+			"amazing", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			717, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580506,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [124]
+		{
+			"thanks!", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			789, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580684,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [125]
+		{
+			"OH !@#$", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			803, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580698,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [126]
+		{
+			"|cffe6cc80|Hitem:170150::::::::120:258::11::::|h[Map to the Last Worldvein]|h|r", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			805, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1568580703,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [127]
 	},
 }
