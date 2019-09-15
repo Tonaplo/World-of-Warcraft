@@ -27,6 +27,7 @@ local piercingCount = 1
 local myrmidonCount = 1
 local portalTimersMythic = {26.6, 50.3, 43, 56}
 local piercingTimersMythic = {51.6, 56, 49}
+local overloadCount = 1
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -371,9 +372,10 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
 		self:StopBar(CL.stage:format(4))
 		portalCount = 1
 		piercingCount = 1
+		overloadCount = 1
 
 		self:Bar(300743, self:Mythic() and 12.5 or 12) -- Void Touched
-		self:Bar(301431, self:Mythic() and 14.2 or 17) -- Overload
+		self:Bar(301431, self:Mythic() and 14.2 or 17, CL.count:format(self:SpellName(301431), overloadCount)) -- Overload
 		self:Bar(303982, self:Mythic() and portalTimersMythic[portalCount] or 24) -- Nether Portal
 		self:Bar(300768, self:Mythic() and 51.6 or 44) -- Piercing Gaze
 		self:Bar(299094, self:Mythic() and 72.8 or 68.5) -- Beckon
@@ -673,7 +675,7 @@ function mod:ArcaneMasteryApplied(args)
 	self:Bar(299094, 12.8) -- Beckon
 	self:Bar(303657, self:Mythic() and 43 or 40) -- Arcane Burst
 	self:Bar(297371, self:Mythic() and 55.8 or 56, L.reversal) -- Reversal of Fortune
-	self:Bar(300519, 67.8, CL.count:format(self:SpellName(300519), detonationCount)) -- Arcane Detonation
+	self:Bar(300519, self:Mythic() and 67.8 or 62.9, CL.count:format(self:SpellName(300519), detonationCount)) -- Arcane Detonation
 	self:StartDevotedTimer(23) -- Azshara's Devoted
 	local indomitable = self:Mythic() and 103.5 or 93.5
 	self:StartIndomitableTimer(indomitable) -- Azshara's Indomitable
@@ -808,9 +810,10 @@ function mod:VoidTouchedApplied(args)
 end
 
 function mod:Overload(args)
-	self:Message2(args.spellId, "red")
+	self:Message2(args.spellId, "red", CL.count:format(args.spellName, overloadCount))
 	self:PlaySound(args.spellId, "warning")
-	self:CDBar(args.spellId, self:Mythic() and 55 or 45)
+	overloadCount = overloadCount + 1
+	self:CDBar(args.spellId, self:Mythic() and 55 or 45, CL.count:format(args.spellName, overloadCount))
 end
 
 function mod:EssenceofAzerothApplied(args)

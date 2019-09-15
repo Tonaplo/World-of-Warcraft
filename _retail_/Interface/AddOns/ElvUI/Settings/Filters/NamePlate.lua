@@ -193,6 +193,16 @@ E.StyleFilterDefaults = {
 			arena = false,
 			pvp = false
 		},
+		location = {
+			mapIDEnabled = false,
+			mapIDs = {},
+			instanceIDEnabled = false,
+			instanceIDs = {},
+			zoneNamesEnabled = false,
+			zoneNames = {},
+			subZoneNamesEnabled = false,
+			subZoneNames = {},
+		},
 		keyMod = {
 			enable = false,
 			Modifier = false,
@@ -255,6 +265,8 @@ E.StyleFilterDefaults = {
 		isNotPvP = false,
 		isTapDenied = false,
 		isNotTapDenied = false,
+		playerCanAttack = false,
+		playerCanNotAttack = false,
 		-- combat
 		inCombat = false,
 		outOfCombat = false,

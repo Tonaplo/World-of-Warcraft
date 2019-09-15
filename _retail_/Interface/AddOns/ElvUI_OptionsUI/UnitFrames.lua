@@ -101,12 +101,7 @@ local blendModeValues = {
 }
 
 local CUSTOMTEXT_CONFIGS = {}
-
 local carryFilterFrom, carryFilterTo
-local function filterValue(value)
-	return gsub(value,'([%(%)%.%%%+%-%*%?%[%^%$])','%%%1')
-end
-
 local function filterMatch(s,v)
 	local m1, m2, m3, m4 = "^"..v.."$", "^"..v..",", ","..v.."$", ","..v..","
 	return (strmatch(s, m1) and m1) or (strmatch(s, m2) and m2) or (strmatch(s, m3) and m3) or (strmatch(s, m4) and v..",")
@@ -116,7 +111,7 @@ local function filterPriority(auraType, groupName, value, remove, movehere, frie
 	if not auraType or not value then return end
 	local filter = E.db.unitframe.units[groupName] and E.db.unitframe.units[groupName][auraType] and E.db.unitframe.units[groupName][auraType].priority
 	if not filter then return end
-	local found = filterMatch(filter, filterValue(value))
+	local found = filterMatch(filter, E:EscapeString(value))
 	if found and movehere then
 		local tbl, sv, sm = {strsplit(",",filter)}
 		for i in ipairs(tbl) do
@@ -127,9 +122,9 @@ local function filterPriority(auraType, groupName, value, remove, movehere, frie
 		E.db.unitframe.units[groupName][auraType].priority = tconcat(tbl,',')
 	elseif found and friendState then
 		local realValue = strmatch(value, "^Friendly:([^,]*)") or strmatch(value, "^Enemy:([^,]*)") or value
-		local friend = filterMatch(filter, filterValue("Friendly:"..realValue))
-		local enemy = filterMatch(filter, filterValue("Enemy:"..realValue))
-		local default = filterMatch(filter, filterValue(realValue))
+		local friend = filterMatch(filter, E:EscapeString("Friendly:"..realValue))
+		local enemy = filterMatch(filter, E:EscapeString("Enemy:"..realValue))
+		local default = filterMatch(filter, E:EscapeString(realValue))
 
 		local state =
 			(friend and (not enemy) and format("%s%s","Enemy:",realValue))					--[x] friend [ ] enemy: > enemy
@@ -139,7 +134,7 @@ local function filterPriority(auraType, groupName, value, remove, movehere, frie
 		or	(friend and enemy and realValue)												--[x] friend [x] enemy: > default
 
 		if state then
-			local stateFound = filterMatch(filter, filterValue(state))
+			local stateFound = filterMatch(filter, E:EscapeString(state))
 			if not stateFound then
 				local tbl, sv = {strsplit(",",filter)}
 				for i in ipairs(tbl) do
@@ -1231,10 +1226,14 @@ local function GetOptionsTable_Health(isGroupFrame, updateFunc, groupName, numUn
 				name = L["Attach Text To"],
 				values = attachToValues,
 			},
-			bgUseBarTexture = {
-				type = "toggle",
+			colorOverride = {
 				order = 6,
-				name = L["Use Health Texture on Background"],
+				name = L["Class Color Override"],
+				desc = L["Override the default class color setting."],
+				type = 'select',
+				values = colorOverrideValues,
+				get = function(info) return E.db.unitframe.units[groupName][info[#info]] end,
+				set = function(info, value) E.db.unitframe.units[groupName][info[#info]] = value; updateFunc(UF, groupName, numUnits) end,
 			},
 			configureButton = {
 				order = 7,
@@ -1244,7 +1243,7 @@ local function GetOptionsTable_Health(isGroupFrame, updateFunc, groupName, numUn
 				func = function() ACD:SelectGroup("ElvUI", "unitframe", "generalOptionsGroup", "allColorsGroup", "healthGroup") end,
 			},
 			text_format = {
-				order = 10,
+				order = 9,
 				name = L["Text Format"],
 				type = 'input',
 				width = 'full',
@@ -1605,6 +1604,14 @@ local function GetOptionsTable_Portrait(updateFunc, groupName, numUnits)
 				desc = L["Position the Model vertically."],
 				min = -1, max = 1, step = 0.01,
 				disabled = function() return E.db.unitframe.units[groupName].portrait.style ~= '3D' end,
+			},
+			overlayAlpha = {
+				order = 11,
+				type = "range",
+				name = L["Overlay Alpha"],
+				desc = L["Set the alpha level of portrait when frame is overlayed."],
+				min = 0.01, max = 1, step = 0.01,
+				disabled = function() return E.db.unitframe.units[groupName].portrait.overlay == false end,
 			},
 		},
 	}
@@ -2235,11 +2242,104 @@ local function GetOptionsTable_HealPrediction(updateFunc, groupName, numGroup)
 				type = "execute",
 				name = L["COLORS"],
 				buttonElvUI = true,
-				func = function() ACD:SelectGroup("ElvUI", "unitframe", "generalOptionsGroup", "allColorsGroup") end,
+				func = function() ACD:SelectGroup("ElvUI", "unitframe", "generalOptionsGroup", "allColorsGroup", "healPrediction") end,
 				disabled = function() return not E.UnitFrames.Initialized end,
 			},
 		},
 	}
+
+	return config
+end
+
+local function GetOptionsTable_Cutaway(updateFunc, groupName, numGroup)
+	local config = {
+		order = 1021,
+		type = "group",
+		childGroups = "tabs",
+		name = L["Cutaway Bars"],
+		args = {
+			health = {
+				order = 1,
+				type = "group",
+				guiInline = true,
+				name = L["Health"],
+				get = function(info) return E.db.unitframe.units[groupName].cutaway.health[info[#info]] end,
+				set = function(info, value) E.db.unitframe.units[groupName].cutaway.health[info[#info]] = value; updateFunc(UF, groupName, numGroup) end,
+				args = {
+					enabled = {
+						type = "toggle",
+						order = 1,
+						name = L["Enable"]
+					},
+					lengthBeforeFade = {
+						type = "range",
+						order = 2,
+						name = L["Fade Out Delay"],
+						desc = L["How much time before the cutaway health starts to fade."],
+						min = 0.1,
+						max = 1,
+						step = 0.1,
+						disabled = function()
+							return not E.db.unitframe.units[groupName].cutaway.health.enabled
+						end
+					},
+					fadeOutTime = {
+						type = "range",
+						order = 3,
+						name = L["Fade Out"],
+						desc = L["How long the cutaway health will take to fade out."],
+						min = 0.1,
+						max = 1,
+						step = 0.1,
+						disabled = function()
+							return not E.db.unitframe.units[groupName].cutaway.health.enabled
+						end
+					}
+				}
+			}
+		}
+	}
+	if E.db.unitframe.units[groupName].cutaway.power then
+		config.args.power = {
+			order = 2,
+			type = "group",
+			name = L["Power"],
+			guiInline = true,
+			get = function(info) return E.db.unitframe.units[groupName].cutaway.power[info[#info]] end,
+			set = function(info, value) E.db.unitframe.units[groupName].cutaway.power[info[#info]] = value; updateFunc(UF, groupName, numGroup) end,
+			args = {
+				enabled = {
+					type = "toggle",
+					order = 1,
+					name = L["Enable"]
+				},
+				lengthBeforeFade = {
+					type = "range",
+					order = 2,
+					name = L["Fade Out Delay"],
+					desc = L["How much time before the cutaway power starts to fade."],
+					min = 0.1,
+					max = 1,
+					step = 0.1,
+					disabled = function()
+						return not E.db.unitframe.units[groupName].cutaway.power.enabled
+					end
+				},
+				fadeOutTime = {
+					type = "range",
+					order = 3,
+					name = L["Fade Out"],
+					desc = L["How long the cutaway power will take to fade out."],
+					min = 0.1,
+					max = 1,
+					step = 0.1,
+					disabled = function()
+						return not E.db.unitframe.units[groupName].cutaway.power.enabled
+					end
+				}
+			}
+		}
+	end
 
 	return config
 end
@@ -3813,18 +3913,6 @@ E.Options.args.unitframe.args.player = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 10,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
-				spacer = {
-					order = 11,
-					type = "description",
-					name = "",
-				},
 				disableMouseoverGlow = {
 					order = 12,
 					type = "toggle",
@@ -3852,6 +3940,7 @@ E.Options.args.unitframe.args.player = {
 		castbar = GetOptionsTable_Castbar(true, UF.CreateAndUpdateUF, 'player'),
 		aurabar = GetOptionsTable_AuraBars(UF.CreateAndUpdateUF, 'player'),
 		raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateUF, 'player'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'player'),
 		classbar = {
 			order = 1000,
 			type = 'group',
@@ -4434,13 +4523,6 @@ E.Options.args.unitframe.args.target = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 11,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				disableMouseoverGlow = {
 					order = 12,
 					type = "toggle",
@@ -4468,6 +4550,7 @@ E.Options.args.unitframe.args.target = {
 		castbar = GetOptionsTable_Castbar(false, UF.CreateAndUpdateUF, 'target'),
 		aurabar = GetOptionsTable_AuraBars(UF.CreateAndUpdateUF, 'target'),
 		raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateUF, 'target'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'target'),
 		pvpIcon = {
 			order = 449,
 			type = 'group',
@@ -4667,18 +4750,6 @@ E.Options.args.unitframe.args.targettarget = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 10,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
-				spacer = {
-					order = 11,
-					type = "description",
-					name = "",
-				},
 				disableMouseoverGlow = {
 					order = 12,
 					type = "toggle",
@@ -4703,6 +4774,7 @@ E.Options.args.unitframe.args.targettarget = {
 		buffs = GetOptionsTable_Auras('buffs', false, UF.CreateAndUpdateUF, 'targettarget'),
 		debuffs = GetOptionsTable_Auras('debuffs', false, UF.CreateAndUpdateUF, 'targettarget'),
 		raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateUF, 'targettarget'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'targettarget'),
 	},
 }
 
@@ -4800,18 +4872,6 @@ E.Options.args.unitframe.args.targettargettarget = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 10,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
-				spacer = {
-					order = 11,
-					type = "description",
-					name = "",
-				},
 				disableMouseoverGlow = {
 					order = 12,
 					type = "toggle",
@@ -4836,6 +4896,7 @@ E.Options.args.unitframe.args.targettargettarget = {
 		buffs = GetOptionsTable_Auras('buffs', false, UF.CreateAndUpdateUF, 'targettargettarget'),
 		debuffs = GetOptionsTable_Auras('debuffs', false, UF.CreateAndUpdateUF, 'targettargettarget'),
 		raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateUF, 'targettargettarget'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'targettargettarget'),
 	},
 }
 
@@ -4933,13 +4994,6 @@ E.Options.args.unitframe.args.focus = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 10,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				disableMouseoverGlow = {
 					order = 11,
 					type = "toggle",
@@ -4967,6 +5021,7 @@ E.Options.args.unitframe.args.focus = {
 		castbar = GetOptionsTable_Castbar(false, UF.CreateAndUpdateUF, 'focus'),
 		aurabar = GetOptionsTable_AuraBars(UF.CreateAndUpdateUF, 'focus'),
 		raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateUF, 'focus'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'focus'),
 	},
 }
 
@@ -5064,18 +5119,6 @@ E.Options.args.unitframe.args.focustarget = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 10,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
-				spacer = {
-					order = 11,
-					type = "description",
-					name = "",
-				},
 				disableMouseoverGlow = {
 					order = 12,
 					type = "toggle",
@@ -5100,6 +5143,7 @@ E.Options.args.unitframe.args.focustarget = {
 		buffs = GetOptionsTable_Auras('buffs', false, UF.CreateAndUpdateUF, 'focustarget'),
 		debuffs = GetOptionsTable_Auras('debuffs', false, UF.CreateAndUpdateUF, 'focustarget'),
 		raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateUF, 'focustarget'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'focustarget'),
 	},
 }
 
@@ -5197,13 +5241,6 @@ E.Options.args.unitframe.args.pet = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 10,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				disableMouseoverGlow = {
 					order = 11,
 					type = "toggle",
@@ -5262,6 +5299,7 @@ E.Options.args.unitframe.args.pet = {
 		debuffs = GetOptionsTable_Auras('debuffs', false, UF.CreateAndUpdateUF, 'pet'),
 		castbar = GetOptionsTable_Castbar(false, UF.CreateAndUpdateUF, 'pet'),
 		aurabar = GetOptionsTable_AuraBars(UF.CreateAndUpdateUF, 'pet'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'pet'),
 	},
 }
 
@@ -5359,18 +5397,6 @@ E.Options.args.unitframe.args.pettarget = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 10,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
-				spacer = {
-					order = 11,
-					type = "description",
-					name = "",
-				},
 				disableMouseoverGlow = {
 					order = 12,
 					type = "toggle",
@@ -5394,6 +5420,7 @@ E.Options.args.unitframe.args.pettarget = {
 		fader = GetOptionsTable_Fader(UF.CreateAndUpdateUF, 'pettarget'),
 		buffs = GetOptionsTable_Auras('buffs', false, UF.CreateAndUpdateUF, 'pettarget'),
 		debuffs = GetOptionsTable_Auras('debuffs', false, UF.CreateAndUpdateUF, 'pettarget'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'pettarget')
 	},
 }
 
@@ -5511,13 +5538,6 @@ E.Options.args.unitframe.args.boss = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 15,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				disableMouseoverGlow = {
 					order = 16,
 					type = "toggle",
@@ -5543,6 +5563,7 @@ E.Options.args.unitframe.args.boss = {
 		debuffs = GetOptionsTable_Auras('debuffs', false, UF.CreateAndUpdateUFGroup, 'boss', _G.MAX_BOSS_FRAMES),
 		castbar = GetOptionsTable_Castbar(false, UF.CreateAndUpdateUFGroup, 'boss', _G.MAX_BOSS_FRAMES),
 		raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateUFGroup, 'boss', _G.MAX_BOSS_FRAMES),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUFGroup, 'boss', _G.MAX_BOSS_FRAMES),
 	},
 }
 
@@ -5646,13 +5667,6 @@ E.Options.args.unitframe.args.arena = {
 					name = L["Spacing"],
 					min = 0, max = 400, step = 1,
 				},
-				colorOverride = {
-					order = 14,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				smartAuraPosition = {
 					order = 15,
 					type = "select",
@@ -5671,11 +5685,6 @@ E.Options.args.unitframe.args.arena = {
 						--["MIDDLE"] = L["Middle"], --no way to handle this with trinket
 						["RIGHT"] = L["Right"],
 					},
-				},
-				spacer = {
-					order = 17,
-					type = "description",
-					name = "",
 				},
 				disableMouseoverGlow = {
 					order = 18,
@@ -5748,6 +5757,7 @@ E.Options.args.unitframe.args.arena = {
 		buffs = GetOptionsTable_Auras('buffs', false, UF.CreateAndUpdateUFGroup, 'arena', 5),
 		debuffs = GetOptionsTable_Auras('debuffs', false, UF.CreateAndUpdateUFGroup, 'arena', 5),
 		castbar = GetOptionsTable_Castbar(false, UF.CreateAndUpdateUFGroup, 'arena', 5),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUFGroup, 'arena', 5),
 	},
 }
 
@@ -5815,13 +5825,6 @@ E.Options.args.unitframe.args.party = {
 					order = 6,
 					name = L["Threat Display Mode"],
 					values = threatValues,
-				},
-				colorOverride = {
-					order = 7,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
 				},
 				orientation = {
 					order = 8,
@@ -6349,6 +6352,7 @@ E.Options.args.unitframe.args.party = {
 		readycheckIcon = GetOptionsTable_ReadyCheckIcon(UF.CreateAndUpdateHeaderGroup, 'party'),
 		resurrectIcon = GetOptionsTable_ResurrectIcon(UF.CreateAndUpdateHeaderGroup, 'party'),
 		summonIcon = GetOptionsTable_SummonIcon(UF.CreateAndUpdateHeaderGroup, 'party'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'party'),
 		phaseIndicator = {
 			order = 5005,
 			type = 'group',
@@ -6465,13 +6469,6 @@ E.Options.args.unitframe.args.raid = {
 					order = 6,
 					name = L["Threat Display Mode"],
 					values = threatValues,
-				},
-				colorOverride = {
-					order = 7,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
 				},
 				orientation = {
 					order = 8,
@@ -6870,6 +6867,7 @@ E.Options.args.unitframe.args.raid = {
 		readycheckIcon = GetOptionsTable_ReadyCheckIcon(UF.CreateAndUpdateHeaderGroup, 'raid'),
 		resurrectIcon = GetOptionsTable_ResurrectIcon(UF.CreateAndUpdateHeaderGroup, 'raid'),
 		summonIcon = GetOptionsTable_SummonIcon(UF.CreateAndUpdateHeaderGroup, 'raid'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'raid'),
 	},
 }
 
@@ -6937,13 +6935,6 @@ E.Options.args.unitframe.args.raid40 = {
 					order = 6,
 					name = L["Threat Display Mode"],
 					values = threatValues,
-				},
-				colorOverride = {
-					order = 7,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
 				},
 				orientation = {
 					order = 8,
@@ -7342,6 +7333,7 @@ E.Options.args.unitframe.args.raid40 = {
 		readycheckIcon = GetOptionsTable_ReadyCheckIcon(UF.CreateAndUpdateHeaderGroup, 'raid40'),
 		resurrectIcon = GetOptionsTable_ResurrectIcon(UF.CreateAndUpdateHeaderGroup, 'raid40'),
 		summonIcon = GetOptionsTable_SummonIcon(UF.CreateAndUpdateHeaderGroup, 'raid40'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'raid40'),
 	},
 }
 
@@ -7401,13 +7393,6 @@ E.Options.args.unitframe.args.raidpet = {
 					order = 5,
 					name = L["Threat Display Mode"],
 					values = threatValues,
-				},
-				colorOverride = {
-					order = 6,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
 				},
 				orientation = {
 					order = 7,
@@ -7594,6 +7579,7 @@ E.Options.args.unitframe.args.raidpet = {
 		debuffs = GetOptionsTable_Auras('debuffs', true, UF.CreateAndUpdateHeaderGroup, 'raidpet'),
 		rdebuffs = GetOptionsTable_RaidDebuff(UF.CreateAndUpdateHeaderGroup, 'raidpet'),
 		raidicon = GetOptionsTable_RaidIcon(UF.CreateAndUpdateHeaderGroup, 'raidpet'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'raidpet'),
 		buffIndicator = {
 			order = 701,
 			type = 'group',
@@ -7698,13 +7684,6 @@ E.Options.args.unitframe.args.tank = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 8,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				disableMouseoverGlow = {
 					order = 9,
 					type = "toggle",
@@ -7769,13 +7748,6 @@ E.Options.args.unitframe.args.tank = {
 					desc = L["An Y offset (in pixels) to be used when anchoring new frames."],
 					min = -500, max = 500, step = 1,
 				},
-				colorOverride = {
-					order = 8,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				name = GetOptionsTable_Name(UF.CreateAndUpdateHeaderGroup, 'tank'),
 			},
 		},
@@ -7784,6 +7756,7 @@ E.Options.args.unitframe.args.tank = {
 		buffs = GetOptionsTable_Auras('buffs', true, UF.CreateAndUpdateHeaderGroup, 'tank'),
 		debuffs = GetOptionsTable_Auras('debuffs', true, UF.CreateAndUpdateHeaderGroup, 'tank'),
 		rdebuffs = GetOptionsTable_RaidDebuff(UF.CreateAndUpdateHeaderGroup, 'tank'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'tank'),
 		buffIndicator = {
 			order = 701,
 			type = 'group',
@@ -7904,13 +7877,6 @@ E.Options.args.unitframe.args.assist = {
 					desc = L["Set the orientation of the UnitFrame."],
 					values = orientationValues,
 				},
-				colorOverride = {
-					order = 8,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				disableMouseoverGlow = {
 					order = 9,
 					type = "toggle",
@@ -7975,13 +7941,6 @@ E.Options.args.unitframe.args.assist = {
 					desc = L["An Y offset (in pixels) to be used when anchoring new frames."],
 					min = -500, max = 500, step = 1,
 				},
-				colorOverride = {
-					order = 8,
-					name = L["Class Color Override"],
-					desc = L["Override the default class color setting."],
-					type = 'select',
-					values = colorOverrideValues,
-				},
 				name = GetOptionsTable_Name(UF.CreateAndUpdateHeaderGroup, 'assist'),
 			},
 		},
@@ -7990,6 +7949,7 @@ E.Options.args.unitframe.args.assist = {
 		buffs = GetOptionsTable_Auras('buffs', true, UF.CreateAndUpdateHeaderGroup, 'assist'),
 		debuffs = GetOptionsTable_Auras('debuffs', true, UF.CreateAndUpdateHeaderGroup, 'assist'),
 		rdebuffs = GetOptionsTable_RaidDebuff(UF.CreateAndUpdateHeaderGroup, 'assist'),
+		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'assist'),
 		buffIndicator = {
 			order = 702,
 			type = 'group',

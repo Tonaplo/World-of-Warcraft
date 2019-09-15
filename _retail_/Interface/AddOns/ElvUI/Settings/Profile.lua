@@ -4,7 +4,7 @@ P.gridSize = 64
 
 --Core
 P.general = {
-	messageRedirect = DEFAULT_CHAT_FRAME:GetName(),
+	messageRedirect = _G.DEFAULT_CHAT_FRAME:GetName(),
 	smoothingAmount = 0.33,
 	taintLog = false,
 	stickyFrames = true,
@@ -52,7 +52,7 @@ P.general = {
 	backdropcolor = { r = 0.1, g = 0.1, b = 0.1 },
 	backdropfadecolor = { r = .06, g = .06, b = .06, a = 0.8 },
 	valuecolor = {r = 254/255, g = 123/255, b = 44/255},
-	cropIcon = true,
+	cropIcon = 2,
 	minimap = {
 		size = 176,
 		locationText = 'MOUSEOVER',
@@ -232,6 +232,7 @@ P.bags = {
 	strata = 'HIGH',
 	qualityColors = true,
 	showBindType = false,
+	transparent = false,
 	colors = {
 		profession = {
 			leatherworking = { r = .88, g = .73, b = .29 },
@@ -450,7 +451,7 @@ P.nameplates = {
 		enable = true,
 		beingTankedByTank = true,
 		goodScale = 1,
-		badScale = 1.2,
+		badScale = 1,
 		useThreatColor = true,
 		indicator = false,
 	},
@@ -1754,7 +1755,7 @@ P.datatexts = {
 	},
 	---Time
 	localtime = true,
-	time24 = GetCurrentRegion() ~= 1, -- Non US region will default to the 24-hour clock
+	time24 = _G.GetCurrentRegion() ~= 1, -- Non US region will default to the 24-hour clock
 	---Friends
 	friends = {
 		--status
@@ -2133,6 +2134,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -2247,6 +2249,20 @@ P.unitframe = {
 				enable = true,
 				width = 10,
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 		target = {
 			enable = true,
@@ -2347,6 +2363,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = true,
@@ -2432,6 +2449,20 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 8,
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 		targettarget = {
 			enable = true,
@@ -2501,6 +2532,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -2547,6 +2579,20 @@ P.unitframe = {
 				attachToObject = 'Frame',
 				xOffset = 0,
 				yOffset = 8,
+			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
 			},
 		},
 		targettargettarget = {
@@ -2616,6 +2662,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -2662,6 +2709,20 @@ P.unitframe = {
 				attachToObject = 'Frame',
 				xOffset = 0,
 				yOffset = 8,
+			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
 			},
 		},
 		focus = {
@@ -2739,6 +2800,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -2824,6 +2886,20 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 8,
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 		focustarget = {
 			enable = false,
@@ -2892,6 +2968,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -2938,6 +3015,20 @@ P.unitframe = {
 				attachToObject = 'Frame',
 				xOffset = 0,
 				yOffset = 8,
+			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
 			},
 		},
 		pet = {
@@ -3012,6 +3103,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -3094,6 +3186,20 @@ P.unitframe = {
 					frameLevel = 1,
 				},
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 		pettarget = {
 			enable = false,
@@ -3162,6 +3268,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -3200,6 +3307,20 @@ P.unitframe = {
 				priority = 'Blacklist,Personal,Boss,RaidDebuffs', --PetTarget Debuffs
 				xOffset = 0,
 				yOffset = 0,
+			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
 			},
 		},
 		boss = {
@@ -3261,6 +3382,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			infoPanel = {
 				enable = false,
@@ -3344,6 +3466,20 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 8,
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 		arena = {
 			enable = true,
@@ -3422,6 +3558,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = true,
@@ -3491,6 +3628,20 @@ P.unitframe = {
 				size = 46,
 				xOffset = 1,
 				yOffset = 0,
+			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
 			},
 		},
 		party = {
@@ -3589,6 +3740,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -3764,6 +3916,20 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 0,
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 		raid = {
 			enable = true,
@@ -3850,6 +4016,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -3973,6 +4140,20 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 0,
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 		raid40 = {
 			enable = true,
@@ -4059,6 +4240,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -4182,6 +4364,20 @@ P.unitframe = {
 				xOffset = 0,
 				yOffset = 0,
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+				power = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 		raidpet = {
 			enable = false,
@@ -4252,6 +4448,7 @@ P.unitframe = {
 				style = '3D',
 				xOffset = 0,
 				yOffset = 0,
+				overlayAlpha = 0.35,
 			},
 			buffs = {
 				enable = false,
@@ -4326,6 +4523,14 @@ P.unitframe = {
 				attachToObject = 'Frame',
 				xOffset = 0,
 				yOffset = 8,
+			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
 			},
 		},
 		tank = {
@@ -4460,6 +4665,14 @@ P.unitframe = {
 					attachToObject = 'Frame',
 					xOffset = 0,
 					yOffset = 8,
+				},
+			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
 				},
 			},
 		},
@@ -4597,6 +4810,14 @@ P.unitframe = {
 					yOffset = 8,
 				},
 			},
+			cutaway =  {
+				health = {
+					enabled = false,
+					fadeOutTime = 0.6,
+					lengthBeforeFade = 0.3,
+					forceBlankTexture = true,
+				},
+			},
 		},
 	},
 }
@@ -4644,6 +4865,9 @@ P.actionbar = {
 	countTextXOffset = 0,
 	countTextYOffset = 2,
 
+	equippedItem = false,
+	equippedItemColor = { r = 0.4, g = 1.0, b = 0.4 },
+
 	useRangeColorText = false,
 	noRangeColor = { r = 0.8, g = 0.1, b = 0.1 },
 	noPowerColor = { r = 0.5, g = 0.5, b = 1 },
@@ -4652,6 +4876,7 @@ P.actionbar = {
 
 	keyDown = true,
 	movementModifier = 'SHIFT',
+	transparent = false,
 	cooldown = {
 		threshold = 4,
 		override = false,
@@ -4819,7 +5044,7 @@ P.actionbar = {
 	barPet = {
 		enabled = true,
 		mouseover = false,
-		buttons = NUM_PET_ACTION_SLOTS,
+		buttons = _G.NUM_PET_ACTION_SLOTS,
 		buttonsPerRow = 1,
 		point = 'TOPRIGHT',
 		backdrop = true,
@@ -4836,8 +5061,8 @@ P.actionbar = {
 		enabled = true,
 		style = 'darkenInactive',
 		mouseover = false,
-		buttonsPerRow = NUM_STANCE_SLOTS,
-		buttons = NUM_STANCE_SLOTS,
+		buttonsPerRow = _G.NUM_STANCE_SLOTS,
+		buttons = _G.NUM_STANCE_SLOTS,
 		point = 'TOPLEFT',
 		backdrop = false,
 		heightMult = 1,

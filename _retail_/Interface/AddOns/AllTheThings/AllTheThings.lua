@@ -3,7 +3,7 @@
 --------------------------------------------------------------------------------
 --				Copyright 2017-2019 Dylan Fortune (Crieve-Sargeras)           --
 --------------------------------------------------------------------------------
-local app = AllTheThings;	-- Create a local (non global) reference
+local app = select(2, ...);
 local L = app.L;
 
 -- Performance Cache 
@@ -203,6 +203,34 @@ app.SetDataSubMember = SetDataSubMember;
 app.GetDataSubMember = GetDataSubMember;
 app.GetTempDataMember = GetTempDataMember;
 app.GetTempDataSubMember = GetTempDataSubMember;
+
+local function formatNumericWithCommas(amount)
+  local formatted = amount
+  while true do  
+    formatted, k = string.gsub(formatted, "^(-?%d+)(%d%d%d)", '%1,%2')
+    if (k==0) then
+      break
+    end
+  end
+  return formatted
+end
+local function GetMoneyString(amount)
+	if amount > 0 then
+		local formatted
+		local g,s,c = math.floor(amount / 100 / 100), math.floor((amount / 100) % 100), math.floor(amount % 100)
+		if g > 0 then -- PR#V
+			formatted = formatNumericWithCommas(g) .. "|TInterface\\MONEYFRAME\\UI-GoldIcon:0|t"
+		end
+		if s > 0 then
+			formatted = (formatted or "") .. s .. "|TInterface\\MONEYFRAME\\UI-SilverIcon:0|t"
+		end
+		if c > 0 then
+			formatted = (formatted or "") .. c .. "|TInterface\\MONEYFRAME\\UI-CopperIcon:0|t"
+		end
+		return formatted
+	end
+	return amount
+end
 
 (function()
 	local tradeSkillSpecializationMap = {
@@ -561,6 +589,21 @@ GameTooltipModel.TrySetModel = function(self, reference)
 					return true;
 				end
 			end
+		elseif reference.providers then
+			displayInfos = {}
+			local markedKeys = {}
+			for k,v in pairs(reference.providers) do
+				if v[1] == "n" and v[2] > 0 then
+					local displayID = app.NPCDisplayIDFromID[v[2]];
+					if displayID and not markedKeys[displayID] then
+						tinsert(displayInfos, displayID);
+						markedKeys[displayID] = 1;
+					end
+				end
+			end
+			if GameTooltipModel.TrySetDisplayInfos(self, reference, displayInfos) then
+				return true;
+			end
 		end
 		
 		if reference.displayID then
@@ -693,7 +736,7 @@ function PlayAudio(targetAudio)
 end
 
 -- Color Lib
-local CS = CreateFrame("ColorSelect", nil, app);
+local CS = CreateFrame("ColorSelect", nil, app._);
 local function Colorize(str, color)
 	return "|c" .. color .. str .. "|r";
 end
@@ -855,11 +898,7 @@ end
 local function BuildSourceText(group, l)
 	if group.parent then
 		if l < 1 then
-			if group.dr then
-				return BuildSourceText(group.parent, l + 1) .. DESCRIPTION_SEPARATOR .. "|c" .. GetProgressColor(group.dr * 0.01) .. tostring(group.dr) .. "%|r";
-			else
-				return BuildSourceText(group.parent, l + 1);
-			end
+			return BuildSourceText(group.parent, l + 1);
 		else
 			return BuildSourceText(group.parent, l + 1) .. " -> " .. (group.text or "*");
 		end
@@ -869,11 +908,7 @@ end
 local function BuildSourceTextForChat(group, l)
 	if group.parent then
 		if l < 1 then
-			if group.dr then
-				return BuildSourceTextForChat(group.parent, l + 1) .. DESCRIPTION_SEPARATOR .. "|c" .. GetProgressColor(group.dr * 0.01) .. tostring(group.dr) .. "%|r";
-			else
-				return BuildSourceTextForChat(group.parent, l + 1);
-			end
+			return BuildSourceTextForChat(group.parent, l + 1);
 		else
 			return BuildSourceTextForChat(group.parent, l + 1) .. " -> " .. (group.text or "*");
 		end
@@ -946,6 +981,15 @@ local function GetDisplayID(data)
 		local displayID = app.NPCDisplayIDFromID[data.creatureID];
 		if displayID then
 			return displayID;
+		end
+	end
+	
+	if data.providers and #data.providers > 0 then
+		for k,v in pairs(data.providers) do
+			-- if one of the providers is an NPC, we should show its texture regardless of other providers
+			if v[1] == "n" then
+				return app.NPCDisplayIDFromID[v[2]]
+			end
 		end
 	end
 	
@@ -2008,9 +2052,6 @@ local function BuildContainsInfo(groups, entries, paramA, paramB, indent, layer)
 			
 			-- If there's progress to display, then let's summarize a bit better.
 			if right then
-				-- If this group has a droprate, add it to the display.
-				if group.dr then right = "|c" .. GetProgressColor(group.dr * 0.01) .. tostring(group.dr) .. "%|r " .. right; end
-				
 				-- Insert into the display.
 				local o = { prefix = indent, group = group, right = right };
 				if group.u then o.prefix = string.sub(o.prefix, 4) .. "|T" .. L["UNOBTAINABLE_ITEM_TEXTURES"][L["UNOBTAINABLE_ITEM_REASONS"][group.u][1]] .. ":0|t "; end
@@ -2624,8 +2665,8 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 				group.g = merged;
 			end
 			
-			group.total = (group.total or 0);
-			group.progress = (group.progress or 0);
+			group.total = 0;
+			group.progress = 0;
 			app.UpdateGroups(group, group.g);
 			if group.collectible then
 				group.total = group.total + 1;
@@ -2637,6 +2678,10 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		
 		if group.description and app.Settings:GetTooltipSetting("Descriptions") and not (group.speciesID or group.encounterID or paramA == "achievementID" or paramA == "titleID") then
 			tinsert(info, 1, { left = group.description, wrap = true, color = "ff66ccff" });
+		end
+		
+		if group.isLimited then
+			tinsert(info, 1, { left = L.LIMITED_QUANTITY, wrap = true, color = "ff66ccff" });
 		end
 		
 		if group.g and #group.g > 0 then
@@ -2746,6 +2791,33 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 		cache[3] = group;
 		return group;
 	end
+end
+local function SendGroupMessage(msg)
+	if IsInGroup(LE_PARTY_CATEGORY_INSTANCE) and IsInInstance() then
+		C_ChatInfo.SendAddonMessage("ATT", msg, "INSTANCE_CHAT")
+	elseif IsInRaid() then
+		C_ChatInfo.SendAddonMessage("ATT", msg, "RAID")
+	elseif IsInGroup(LE_PARTY_CATEGORY_HOME) then
+		C_ChatInfo.SendAddonMessage("ATT", msg, "PARTY")
+	end
+end
+local function SendGuildMessage(msg)
+	if IsInGuild() then
+		C_ChatInfo.SendAddonMessage("ATTC", msg, "GUILD");
+	else
+		app.events.CHAT_MSG_ADDON("ATTC", msg, "WHISPER", "player");
+	end
+end
+local function SendResponseMessage(msg, player)
+	if UnitInRaid(player) or UnitInParty(player) then
+		SendGroupMessage("to\t" .. player .. "\t" .. msg);
+	else
+		C_ChatInfo.SendAddonMessage("ATT", msg, "WHISPER", player);
+	end
+end
+local function SendSocialMessage(msg)
+	SendGroupMessage(msg);
+	SendGuildMessage(msg);
 end
 
 -- Lua Constructor Lib
@@ -2872,6 +2944,18 @@ fieldConverters = {
 		_cache = rawget(fieldConverters, "creatureID");
 		for i,questGiverID in ipairs(value) do
 			_cache(group, questGiverID);
+		end
+	end,
+	["providers"] = function(group, value)
+		for k,v in pairs(value) do
+			if v[1] == "n" and v[2] > 0 then
+				_cache = rawget(fieldConverters, "creatureID");
+				_cache(group, v[2]);
+			elseif v[1] == "i" and v[2] > 0 then
+				CacheField(group, "itemID", v[2]);
+			elseif v[1] == "o" and v[2] > 0 then
+				CacheField(group, "objectID", v[2]);
+			end
 		end
 	end,
 	["altQuests"] = function(group, value)
@@ -3143,18 +3227,6 @@ app.SearchForLink = SearchForLink;
 local function AddTomTomWaypoint(group, auto)
 	if TomTom and group.visible then
 		if group.coords or group.coord then
-			if auto then
-				if C_Map.GetMapInfo(app.GetCurrentMapID()).mapType ~= 3 then return end -- only set waypoints if the current map is a zone
-				local waypointFilters = GetDataMember("WaypointFilters")
-				for headerID, enabled in pairs(waypointFilters) do
-					if (UnitOnTaxi("player") and not GetDataMember("EnableTomTomWaypointsOnTaxi"))
-					   or (app.RecursiveIsDescendantOfParentWithValue(group, "npcID", headerID) and not enabled)
-					   or (GetDataMember("TomTomIgnoreCompletedObjects") and app.IsComplete(group))
-					then
-						return
-					end
-				end
-			end
 			local opt = {
 				title = group.text or group.link,
 				persistent = nil,
@@ -3717,14 +3789,11 @@ local function AttachTooltip(self)
 				if numLines == 2 then
 					local leftSide = _G[self:GetName() .. "TextLeft1"];
 					if leftSide and leftSide:GetText() == "AllTheThings" then
-						leftSide:SetText(L["TITLE"]);
 						local reference = app:GetDataCache();
-						local rightSide = _G[self:GetName() .. "TextRight1"];
-						if rightSide then
-							rightSide:SetText(GetProgressColorText(reference.progress, reference.total));
-							rightSide:Show();
-						end
+						self:ClearLines();
+						self:AddDoubleLine(L["TITLE"], GetProgressColorText(reference.progress, reference.total), 1, 1, 1);
 						self:AddDoubleLine(app.Settings:GetModeString(), app.GetNumberOfItemsUntilNextPercentage(reference.progress, reference.total), 1, 1, 1);
+						self:AddLine(reference.description, 0.4, 0.8, 1, 1);
 						return true;
 					end
 				end
@@ -4591,7 +4660,7 @@ app.GetFactionStandingText = function(standingId, colorCode)
 		elseif standingId == 5 and colorCode then return "|c0000FF00" .. text .. "|r"
 		elseif standingId == 6 and colorCode then return "|c0000FF88" .. text .. "|r"
 		elseif standingId == 7 and colorCode then return "|c0000FFCC" .. text .. "|r"
-		elseif standingId == 8 and colorCode then return "|c00FFFFFF" .. text .. "|r"
+		elseif standingId == 8 and colorCode then return "|c0000FFFF" .. text .. "|r"
 		end
 	end
 	return "|cCC222200UNKNOWN|r"
@@ -5762,20 +5831,6 @@ end
 
 -- Music Roll Lib
 (function()
-local completed = false;
-local frame = CreateFrame("FRAME", nil, app);
-frame:SetSize(1, 1);
-frame:Hide();
-frame.events = {};
-frame:SetScript("OnEvent", function(self, e, ...)
-	if IsQuestFlaggedCompleted(38356) or IsQuestFlaggedCompleted(37961) then
-		completed = true;
-		frame:UnregisterAllEvents();
-	end
-end);
-frame:RegisterEvent("VARIABLES_LOADED");
-frame:RegisterEvent("QUEST_TURNED_IN");
-frame:RegisterEvent("QUEST_LOG_UPDATE");
 app.BaseMusicRoll = {
 	__index = function(t, key)
 		if key == "key" then
@@ -5806,7 +5861,7 @@ app.BaseMusicRoll = {
 			end
 		elseif key == "description" then
 			local description = "These are unlocked per-character and are not currently shared across your account. If someone at Blizzard is reading this, it would be really swell if you made these account wide.\n\nYou must manually refresh the addon by Shift+Left clicking the header for this to be detected.";
-			if not completed then
+			if not IsQuestFlaggedCompleted(38356) or IsQuestFlaggedCompleted(37961) then
 				description = description .. "\n\nYou must first unlock the Music Rolls by completing the Bringing the Bass quest in your garrison for this item to drop.";
 			end
 			return description;
@@ -5916,6 +5971,8 @@ app.BaseObject = {
 			return L["OBJECT_ID_ICONS"][t.objectID] or "Interface\\Icons\\INV_Misc_Bag_10";
 		elseif key == "collectible" then
 			return app.CollectibleQuests and t.questID and not t.isBreadcrumb and (not t.repeatable or app.Settings:GetTooltipSetting("Repeatable"));
+		elseif key == "repeatable" then
+			return rawget(t, "isDaily") or rawget(t, "isWeekly") or rawget(t, "isYearly");
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" or key == "collected" then
@@ -6044,16 +6101,30 @@ app.BaseQuest = {
 			return QuestTitleFromID[questID];
 		elseif key == "link" then
 			return "quest:" .. (t.altQuestID and app.FactionID == Enum.FlightPathFaction.Horde and t.altQuestID or t.questID);
-		elseif key == "icon" then
-			if t.isDaily or t.isWeekly then
+		elseif key == "icon" or key == "preview" then
+			if t.providers then
+				for k,v in pairs(t.providers) do
+					if v[2] > 0 then
+						if v[1] == "o" then
+							return L["OBJECT_ID_ICONS"][v[2]] or "Interface\\Icons\\INV_Misc_Bag_10"
+						elseif v[1] == "i" then
+							local _,_,_,_,icon = GetItemInfoInstant(v[2]);
+							if icon then
+								return icon
+							end
+						end
+					end
+				end
+			end
+			if key == "preview" then
+				return "Interface\\Icons\\Achievement_Quests_Completed_08";
+			elseif t.isDaily or t.isWeekly then
 				return "Interface\\GossipFrame\\DailyQuestIcon";
 			elseif t.repeatable then
 				return "Interface\\GossipFrame\\DailyActiveQuestIcon";
 			else
 				return "Interface\\GossipFrame\\AvailableQuestIcon";
 			end
-		elseif key == "preview" then
-			return "Interface\\Icons\\Achievement_Quests_Completed_08";
 		elseif key == "trackable" then
 			return true;
 		elseif key == "collectible" then
@@ -6070,6 +6141,18 @@ app.BaseQuest = {
 };
 app.CreateQuest = function(id, t)
 	return setmetatable(constructor(id, t, "questID"), app.BaseQuest);
+end
+local function RefreshQuestCompletionState(questID)
+	if questID ~= nil then
+		CompletedQuests[questID] = true;
+	else
+		GetQuestsCompleted(CompletedQuests);
+	end
+	
+	for questID,completed in pairs(DirtyQuests) do
+		app.QuestCompletionHelper(tonumber(questID));
+	end
+	wipe(DirtyQuests);
 end
 
 -- Recipe Lib
@@ -6165,8 +6248,20 @@ app.BaseSelfieFilter = {
 			end
 		elseif key == "description" then
 			if t.crs and #t.crs > 0 then
+				local cameraItemID = 122674
+				local cameraItemName = select(2, GetItemInfo(cameraItemID))
+				if not cameraItemName then
+					local retries
+					for retries=0,50 do
+						if not cameraItemName then
+							cameraItemName = select(2, GetItemInfo(cameraItemID))
+						else break end
+						retries = retries + 1
+					end
+					if retries >= 50 then cameraItemName = 'Item #'..cameraItemID end
+				end
 				for i,id in ipairs(t.crs) do
-					return "Take a selfie using your " .. select(2, GetItemInfo(122674)) .. " with |cffff8000" .. (NPCNameFromID[id] or "???")
+					return "Take a selfie using your " .. cameraItemName .. " with |cffff8000" .. (NPCNameFromID[id] or "???")
 					.. "|r" .. (t.maps and (" in |cffff8000" .. (app.GetMapName(t.maps[1]) or "???") .. "|r.") or ".");
 				end
 			end
@@ -6201,9 +6296,11 @@ app.BaseSpell = {
 				end
 			end
 			return select(1, GetSpellLink(t.spellID));
+		elseif key == "trackable" then
+			return true;
 		elseif key == "collectible" then
 			return false;
-		elseif key == "collected" then
+		elseif key == "collected" or key == "saved" then
 			if app.RecipeChecker("CollectedSpells", t.spellID) then
 				return GetTempDataSubMember("CollectedSpells", t.spellID) and 1 or 2;
 			end
@@ -7569,13 +7666,7 @@ end
 
 local function MinimapButtonOnClick(self, button)
 	if button == "RightButton" then
-		-- Right Button opens the Options menu.
-		if InterfaceOptionsFrame:IsVisible() then
-			InterfaceOptionsFrame_Show();
-		else
-			InterfaceOptionsFrame_OpenToCategory(app:GetName());
-			InterfaceOptionsFrame_OpenToCategory(app:GetName());
-		end
+		app.Settings:Open();
 	else
 		-- Left Button
 		if IsShiftKeyDown() then
@@ -7841,9 +7932,30 @@ local function CreateMiniListForGroup(group)
 			end;
 		elseif group.questID or group.sourceQuests then
 			-- This is a quest object. Let's show prereqs and breadcrumbs.
+			if group.questID ~= nil and group.parent.questID == group.questID then
+				group = group.parent;
+            end
 			local root = CloneData(group);
 			root.collectible = true;
 			local g = { root };
+			
+			-- Check to see if Source Quests are listed elsewhere.
+            if group.questID and not group.sourceQuests then
+                local searchResults = SearchForField("questID", group.questID);
+                if searchResults and #searchResults > 1 then
+                    for i=1,#searchResults,1 do
+                        local searchResult = searchResults[i];
+                        if searchResult.sourceQuests then
+                            searchResult = CloneData(searchResult);
+                            searchResult.collectible = true;
+                            searchResult.g = g;
+                            root = searchResult;
+                            g = { root };
+                            break;
+                        end
+                    end
+                end
+            end
 			
 			-- Show Quest Prereqs
 			if root.sourceQuests then
@@ -7858,6 +7970,9 @@ local function CreateMiniListForGroup(group)
 							for i=1,#sourceQuest,1 do
 								-- Only care about the first search result.
 								local sq = sourceQuest[i];
+								if sq.parent and sq.parent.questID == sq.questID then
+									sq = sq.parent;
+								end
 								if sq and app.GroupFilter(sq) and not sq.isBreadcrumb then
 									if sq.altQuestID then
 										-- Alt Quest IDs are always Horde.
@@ -7975,17 +8090,21 @@ local function CreateMiniListForGroup(group)
 						prereqs = orig[1].g;
 						if not prereqs or #prereqs < 1 then
 							prereqs = orig[2].g;
-							orig[1].g = prereqs;
-							table.remove(orig, 2);
+							if orig[2].text == "Upon Completion" then
+								orig[1].g = prereqs;
+								table.remove(orig, 2);
+							end
 						else
 							sourceQuests = orig[2].g;
-							table.remove(orig, 2);
-							if #sourceQuests == 2 then
-								sourceQuests[1].g = sourceQuests[2].g;
-								table.remove(sourceQuests, 2);
-							end
-							for i,sourceQuest in ipairs(sourceQuests) do
-								table.insert(prereqs, sourceQuest);
+							if sourceQuests then
+								table.remove(orig, 2);
+								if #sourceQuests == 2 then
+									sourceQuests[1].g = sourceQuests[2].g;
+									table.remove(sourceQuests, 2);
+								end
+								for i,sourceQuest in ipairs(sourceQuests) do
+									table.insert(prereqs, sourceQuest);
+								end
 							end
 						end
 					else
@@ -8337,13 +8456,7 @@ local function RowOnClick(self, button)
 				if self.index > 0 then
 					CreateMiniListForGroup(reference);
 				else
-					-- Open the Settings Menu
-					if InterfaceOptionsFrame:IsVisible() then
-						InterfaceOptionsFrame_Show();
-					else
-						InterfaceOptionsFrame_OpenToCategory(app:GetName());
-						InterfaceOptionsFrame_OpenToCategory(app:GetName());
-					end
+					app.Settings:Open();
 				end
 			end
 		else
@@ -8616,27 +8729,30 @@ local function RowOnEnter(self)
 		end
 		if reference.factionID and app.Settings:GetTooltipSetting("factionID") then GameTooltip:AddDoubleLine(L["FACTION_ID"], tostring(reference.factionID)); end
 		if reference.minReputation and not reference.maxReputation then
-			local standingId, offset = app.GetFactionStanding(reference.minReputation)
+			local standingId, offset = app.GetFactionStanding(reference.minReputation[2])
+			local factionName = GetFactionInfoByID(reference.minReputation[1]) or "the opposite faction";
 			local msg = "Requires a minimum standing of"
 			if offset ~= 0 then msg = msg .. " " .. offset end
-			msg = msg .. " " .. app.GetFactionStandingText(standingId, true) .. "."
+			msg = msg .. " " .. app.GetFactionStandingText(standingId, true) .. " with " .. factionName .. "."
 			GameTooltip:AddLine(msg);
 		end
 		if reference.maxReputation and not reference.minReputation then
-			local standingId, offset = app.GetFactionStanding(reference.maxReputation)
+			local standingId, offset = app.GetFactionStanding(reference.maxReputation[2])
+			local factionName = GetFactionInfoByID(reference.maxReputation[1]) or "the opposite faction";
 			local msg = "Requires a standing lower than"
 			if offset ~= 0 then msg = msg .. " " .. offset end
-			msg = msg .. " " .. app.GetFactionStandingText(standingId, true) .. "."
+			msg = msg .. " " .. app.GetFactionStandingText(standingId, true) .. " with " .. factionName .. "."
 			GameTooltip:AddLine(msg);
 		end
 		if reference.minReputation and reference.maxReputation then
-			local minStandingId, minOffset = app.GetFactionStanding(reference.minReputation)
-			local maxStandingId, maxOffset = app.GetFactionStanding(reference.maxReputation)
+			local minStandingId, minOffset = app.GetFactionStanding(reference.minReputation[2])
+			local maxStandingId, maxOffset = app.GetFactionStanding(reference.maxReputation[2])
+			local factionName = GetFactionInfoByID(reference.minReputation[1]) or "the opposite faction";
 			local msg = "Requires a standing between"
 			if minOffset ~= 0 then msg = msg .. " " .. minOffset end
 			msg = msg .. " " .. app.GetFactionStandingText(minStandingId, true) .. " and"
 			if maxOffset ~= 0 then msg = msg .. " " .. maxOffset end
-			msg = msg .. " " .. app.GetFactionStandingText(maxStandingId, true) .. ".";
+			msg = msg .. " " .. app.GetFactionStandingText(maxStandingId, true) .. " with " .. factionName .. ".";
 			GameTooltip:AddLine(msg);
 		end
 		if reference.followerID and app.Settings:GetTooltipSetting("followerID") then GameTooltip:AddDoubleLine(L["FOLLOWER_ID"], tostring(reference.followerID)); end
@@ -8673,6 +8789,24 @@ local function RowOnEnter(self)
 				j = j + 1;
 			end
 		end
+		if reference.providers then
+			local counter = 0;
+			for i,provider in pairs(reference.providers) do
+				local providerType = provider[1]
+				local providerID = provider[2] or 0
+				local providerString = "UNKNOWN"
+				if providerType == "o" then
+					providerString = L["OBJECT_ID_NAMES"][providerID] or 'Object #'..providerID
+				elseif providerType == "n" then
+					providerString = (providerID > 0 and NPCNameFromID[providerID]) or "Creature #"..providerID
+				elseif providerType == "i" then
+					local name = GetItemInfo(providerID)
+					providerString = name or 'Item #'..providerID
+				end
+				GameTooltip:AddDoubleLine(counter == 0 and "Provider(s)" or " ", providerString .. ' (' .. providerID .. ')');
+				counter = counter + 1;
+			end
+		end
 		if reference.coord and app.Settings:GetTooltipSetting("Coordinates") then
 			GameTooltip:AddDoubleLine("Coordinate",
 				GetNumberWithZeros(math.floor(reference.coord[1] * 10) * 0.1, 1) .. ", " .. 
@@ -8680,7 +8814,6 @@ local function RowOnEnter(self)
 		end
 		if reference.bonusID and app.Settings:GetTooltipSetting("bonusID") then GameTooltip:AddDoubleLine("Bonus ID", tostring(reference.bonusID)); end
 		if reference.modID and app.Settings:GetTooltipSetting("modID") then GameTooltip:AddDoubleLine("Mod ID", tostring(reference.modID)); end
-		if reference.dr then GameTooltip:AddDoubleLine(L["DROP_RATE"], "|c" .. GetProgressColor(reference.dr * 0.01) .. tostring(reference.dr) .. "%|r"); end
 		if reference.description and app.Settings:GetTooltipSetting("Descriptions") then
 			local found = false;
 			for i=1,GameTooltip:NumLines() do
@@ -8780,17 +8913,25 @@ local function RowOnEnter(self)
 		end
 		if reference.cost then
 			if type(reference.cost) == "table" then
+				local _, name, icon, amount;
 				for k,v in pairs(reference.cost) do
-					local name, icon, _;
-					if v[1] == "i" then
-						_,name,_,_,_,_,_,_,_,icon = GetItemInfo(v[2])
-					elseif v[1] == "c" then
+					_ = v[1];
+					if _ == "i" then
+						_,name,_,_,_,_,_,_,_,icon = GetItemInfo(v[2]);
+						amount = "x" .. formatNumericWithCommas(v[3]);
+					elseif _ == "c" then
 						name,_,icon = GetCurrencyInfo(v[2])
+						amount = "x" .. formatNumericWithCommas(v[3]);
+					elseif _ == "g" then
+						name = "";
+						icon = nil;
+						amount = GetMoneyString(v[2])
 					end
-					GameTooltip:AddDoubleLine(k == 1 and "Cost" or " ", (icon and ("|T" .. icon .. ":0|t") or "") .. (name or "???") .. " x" .. v[3]);
+					GameTooltip:AddDoubleLine(k == 1 and "Cost" or " ", (icon and ("|T" .. icon .. ":0|t") or "") .. (name or "???") .. " " .. amount);
 				end
 			else
-				GameTooltip:AddDoubleLine("Cost", GetCoinTextureString(reference.cost));
+				local amount = GetMoneyString(reference.cost)
+				GameTooltip:AddDoubleLine("Cost", amount);
 			end
 		end
 		if reference.criteriaID and reference.achievementID then
@@ -9222,8 +9363,8 @@ function app:GetDataCache()
 			local cache = self.g;
 			table.wipe(cache);
 			-- Uncomment to harvest flight path data.
-			-- SetDataMember("FlightPathData", AllTheThings.FlightPathDB);
-			for i,fp in pairs(AllTheThings.FlightPathDB) do
+			-- SetDataMember("FlightPathData", app.FlightPathDB);
+			for i,fp in pairs(app.FlightPathDB) do
 				local id = tonumber(i);
 				local fp = self.fps[id];
 				if not fp then
@@ -9292,7 +9433,8 @@ function app:GetDataCache()
 			db.expanded = false;
 			db.description = "Naughty secrets...";
 			db.text = L["SECRETS_HEADER"];
-			db.icon = "Interface\\ICONS\\INV_Horse2Purple";
+			db.icon = "Interface\\ICONS\\Spell_Nature_Polymorph_Cow";
+			db.model = "1526032";
 			db.g = app.Categories.Secrets;
 			db.collectible = false;
 			table.insert(g, db);
@@ -9735,7 +9877,16 @@ function app:RefreshData(lazy, got, manual)
 		else
 			app:UpdateWindows(nil, got);
 		end
+		
+		-- Send a message to your party members.
+		local data = app:GetWindow("Prime").data;
+		local msg = "A\t" .. app.Version .. "\t" .. (data.progress or 0) .. "\t" .. (data.total or 0);
+		if app.lastMsg ~= msg then
+			SendSocialMessage(msg);
+			app.lastMsg = msg;
+		end
 		wipe(searchCache);
+		collectgarbage();
 	end);
 end
 function app:GetWindow(suffix, parent, onUpdate)
@@ -9914,10 +10065,11 @@ app:GetWindow("Bounty", UIParent, function(self, force, got)
 					},
 				}),
 				app.CreateInstance(228, {	-- Blackrock Depths
-					['description'] = "This item has been listed as a drop from General Angerforge in the Adventure Guide since 7.3.5 and has never dropped. Originally dropped from Princess Moira Bronzebeard during the Emperor Dagran Thaurissan encounter.\n\nThere is currently an outstanding 100k gold bounty on this item posted by Crieve of the ATT Discord that has yet to be claimed.",
-					['g'] = {
-						app.CreateItemSource(4464, 12557),	-- Ebonsteel Spaulders
-					},
+					['description'] = "Ebonsteel Spaulders have been hotfixed! All of the items previously marked Unobtainable from General Angerforge have been fixed and confirmed as dropping once again!",
+					['visible'] = true, 
+					['OnUpdate'] = function(data) 
+						data.visible = true;
+					end,
 				}),
 				app.CreateInstance(230, {	-- Dire Maul (West)
 					['description'] = "This item used to drop from Prince Tortheldrin, but was moved to Tendris Warpwood during 7.3.5's Legacy Loot Mode adjustments. It remained on the loot table in the Adventure Guide until 8.1 when it was removed from the Adventure Guide completely.\n\nDon't be lazy.\nPlease add this item back.",
@@ -10484,13 +10636,13 @@ app:GetWindow("CurrentInstance", UIParent, function(self, force, got)
 							first = true;
 						else
 							if GetRelativeField(group, "npcID", -4) then	-- It's an Achievement. (non-Holiday)
-								group = app.CreateNPC(-4, { g = { group } });
+								if group.npcID ~= -4 then group = app.CreateNPC(-4, { g = { group } }); end
 								first = true;
 							elseif GetRelativeField(group, "npcID", -2) or GetRelativeField(group, "npcID", -173) then	-- It's a Vendor. (or a timewaking vendor)
-								group = app.CreateNPC(-2, { g = { group } });
+								if group.npcID ~= -2 then group = app.CreateNPC(-2, { g = { group } }); end
 								first = true;
 							elseif GetRelativeField(group, "npcID", -17) then	-- It's a Quest.
-								group = app.CreateNPC(-17, { g = { group } });
+								if group.npcID ~= -17 then group = app.CreateNPC(-17, { g = { group } }); end
 								first = true;
 							end
 						end
@@ -10610,9 +10762,10 @@ app:GetWindow("CurrentInstance", UIParent, function(self, force, got)
 						if o.difficultyID then
 							table.remove(results.g, i);
 							table.insert(bottom, 1, o);
-						elseif o.isRaid then
-							table.remove(results.g, i);
-							table.insert(top, o);
+						-- this section appears to do nothing of value but appears to be responsible for preventing zone headers from collapsing/expanding
+						--elseif o.isRaid then
+						--	table.remove(results.g, i);
+						--	table.insert(top, o);
 						end
 					end
 					for i,o in ipairs(top) do
@@ -10683,7 +10836,7 @@ app:GetWindow("CurrentInstance", UIParent, function(self, force, got)
 				end
 				print("No map found for this location ", app.GetMapName(self.mapID), " [", self.mapID, "]");
 				print("Path: ", mapPath);
-				print("Please report this to the ATT Discord! Thanks! ", GetAddOnMetadata("AllTheThings", "Version"));
+				print("Please report this to the ATT Discord! Thanks! ", app.Version);
 			end
 		end
 		local function OpenMiniList(id, show)
@@ -11474,6 +11627,21 @@ app:GetWindow("Random", UIParent, function(self)
 					return temp;
 				end
 			end
+			function self:SelectQuest()
+				if searchCache["quests"] then
+					return searchCache["quests"];
+				else
+					local searchResults, dict, temp = {}, {} , {};
+					SearchRecursively(app:GetWindow("Prime").data, "questID", searchResults);
+					for i,o in pairs(searchResults) do
+						if not (o.saved or o.collected) then
+							tinsert(temp, o);
+						end
+					end
+					searchCache["quests"] = temp;
+					return temp;
+				end
+			end
 			function self:SelectRaid()
 				if searchCache["randomraid"] then
 					return searchCache["randomraid"];
@@ -11710,6 +11878,22 @@ app:GetWindow("Random", UIParent, function(self)
 						end,
 					},
 					{
+						['text'] = "Quest",
+						['icon'] = "Interface\\GossipFrame\\AvailableQuestIcon",
+						['preview'] = "Interface\\Icons\\Achievement_Quests_Completed_08",
+						['description'] = "Click this button to select a random quest based on what you're missing.",
+						['visible'] = true,
+						['OnClick'] = function(row, button)
+							app.SetDataMember("RandomSearchFilter", "Quest");
+							self.data = mainHeader;
+							self:Reroll();
+							return true;
+						end,
+						['OnUpdate'] = function(data) 
+							data.visible = true;
+						end,
+					},
+					{
 						['text'] = "Toy",
 						['icon'] = "Interface\\Icons\\INV_Misc_Toy_10",
 						['description'] = "Click this button to select a random toy based on what you're missing.",
@@ -11835,6 +12019,8 @@ end);
 app:GetWindow("Tradeskills", UIParent, function(self, ...)
 	if not self.initialized then
 		self.initialized = true;
+		self:SetMovable(false);
+		self:SetUserPlaced(false);
 		self:SetClampedToScreen(false);
 		self:RegisterEvent("TRADE_SKILL_SHOW");
 		self:RegisterEvent("TRADE_SKILL_LIST_UPDATE");
@@ -11855,7 +12041,7 @@ app:GetWindow("Tradeskills", UIParent, function(self, ...)
 			-- Cache Learned Spells
 			local skillCache = fieldCache["spellID"];
 			if skillCache then
-				local tradeSkillID = AllTheThings.GetTradeSkillLine();
+				local tradeSkillID = app.GetTradeSkillLine();
 				if tradeSkillID == self.lastTradeSkillID then
 					return false;
 				end
@@ -11969,6 +12155,48 @@ app:GetWindow("Tradeskills", UIParent, function(self, ...)
 			end
 		end
 		
+		-- TSM Shenanigans
+		self.TSMCraftingVisible = nil;
+		self.SetTSMCraftingVisible = function(self, visible)
+			visible = not not visible;
+			if visible == self.TSMCraftingVisible then
+				return;
+			end
+			self.TSMCraftingVisible = visible;
+			self:SetMovable(true);
+			self:ClearAllPoints();
+			if visible and self.cachedTSMFrame then
+				if self.cachedTSMFrame.queue and self.cachedTSMFrame.queue:IsShown() then
+					self:SetPoint("TOPLEFT", self.cachedTSMFrame.queue, "TOPRIGHT", 0, 0);
+					self:SetPoint("BOTTOMLEFT", self.cachedTSMFrame.queue, "BOTTOMRIGHT", 0, 0);
+				else
+					self:SetPoint("TOPLEFT", self.cachedTSMFrame, "TOPRIGHT", 0, 0);
+					self:SetPoint("BOTTOMLEFT", self.cachedTSMFrame, "BOTTOMRIGHT", 0, 0);
+				end
+				self:SetMovable(false);
+			elseif TradeSkillFrame then
+				-- Default Alignment on the WoW UI.
+				self:SetPoint("TOPLEFT", TradeSkillFrame, "TOPRIGHT", 0, 0);
+				self:SetPoint("BOTTOMLEFT", TradeSkillFrame, "BOTTOMRIGHT", 0, 0);
+				self:SetMovable(false);
+			else
+				self:SetMovable(false);
+				StartCoroutine("TSMWHY", function()
+					while InCombatLockdown() or not TradeSkillFrame do coroutine.yield(); end
+					StartCoroutine("TSMWHYPT2", function()
+						local thing = self.TSMCraftingVisible;
+						self.TSMCraftingVisible = nil;
+						self:SetTSMCraftingVisible(thing);
+					end);
+				end);
+				return;
+			end
+			StartCoroutine("UpdateTradeSkills", function()
+				while InCombatLockdown() do coroutine.yield(); end
+				coroutine.yield();
+				self:Update();
+			end);
+		end
 		-- Setup Event Handlers and register for events
 		self:SetScript("OnEvent", function(self, e, ...)
 			if e == "TRADE_SKILL_LIST_UPDATE" then
@@ -11980,23 +12208,18 @@ app:GetWindow("Tradeskills", UIParent, function(self, ...)
 					end
 					
 					-- Check to see if ATT has information about this profession.
-					local tradeSkillID = AllTheThings.GetTradeSkillLine();
+					local tradeSkillID = app.GetTradeSkillLine();
 					if not tradeSkillID or not fieldCache["requireSkill"][tradeSkillID] then
-						if self:IsVisible() then
-							-- app.print("You must have a profession open to open the profession mini list.");
-						end
 						self:SetVisible(false);
 						return false;
 					end
-					
-					-- Set the Window to align with the Profession Window
-					self:ClearAllPoints();
-					self:SetPoint("TOPLEFT", TradeSkillFrame, "TOPRIGHT", 0, 0);
-					self:SetPoint("BOTTOMLEFT", TradeSkillFrame, "BOTTOMRIGHT", 0, 0);
 					self:Update();
 				end
 				self:RefreshRecipes();
 			elseif e == "TRADE_SKILL_SHOW" then
+				if self.TSMCraftingVisible == nil then
+					self:SetTSMCraftingVisible(false);
+				end
 				if app.Settings:GetTooltipSetting("Auto:ProfessionList") then
 					self:SetVisible(true);
 				end
@@ -12019,8 +12242,92 @@ app:GetWindow("Tradeskills", UIParent, function(self, ...)
 				self:SetVisible(false);
 			end
 		end);
+		return;
 	end
 	if self:IsVisible() then
+		if TSM_API then
+			if not self.cachedTSMFrame then
+				for i,f in ipairs({UIParent:GetChildren()}) do
+					if f.headerBgCenter then
+						self.cachedTSMFrame = f;
+						local oldSetVisible = f.SetVisible;
+						local oldShow = f.Show;
+						local oldHide = f.Hide;
+						f.SetVisible = function(s, visible)
+							oldSetVisible(s, visible);
+							self:SetTSMCraftingVisible(visible);
+						end
+						f.Hide = function(s)
+							oldHide(s);
+							self:SetTSMCraftingVisible(false);
+						end
+						f.Show = function(s)
+							oldShow(s);
+							self:SetTSMCraftingVisible(true);
+						end
+						if self.gettinMadAtDumbNamingConventions then
+							TSMAPI_FOUR.UI.NewElement = self.OldNewElement;
+							self.gettinMadAtDumbNamingConventions = nil;
+							self.OldNewElement = nil;
+						end
+						self:SetTSMCraftingVisible(f:IsShown());
+						return;
+					end
+				end
+				if not self.gettinMadAtDumbNamingConventions then
+					self.gettinMadAtDumbNamingConventions = true;
+					self.OldNewElement = TSMAPI_FOUR.UI.NewElement;
+					TSMAPI_FOUR.UI.NewElement = function(...)
+						StartCoroutine("UpdateTradeSkills", function()
+							while InCombatLockdown() do coroutine.yield(); end
+							coroutine.yield();
+							self:Update();
+						end);
+						return self.OldNewElement(...);
+					end
+				end
+			end
+		elseif TSMCraftingTradeSkillFrame then
+			if not self.cachedTSMFrame then
+				local f = TSMCraftingTradeSkillFrame;
+				self.cachedTSMFrame = f;
+				local oldSetVisible = f.SetVisible;
+				local oldShow = f.Show;
+				local oldHide = f.Hide;
+				f.SetVisible = function(s, visible)
+					oldSetVisible(s, visible);
+					self:SetTSMCraftingVisible(visible);
+				end
+				f.Hide = function(s)
+					oldHide(s);
+					self:SetTSMCraftingVisible(false);
+				end
+				f.Show = function(s)
+					oldShow(s);
+					self:SetTSMCraftingVisible(true);
+				end
+				if f.queueBtn then
+					local setScript = f.queueBtn.SetScript;
+					f.queueBtn.SetScript = function(s, e, callback)
+						if e == "OnClick" then
+							setScript(s, e, function(...)
+								if callback then callback(...); end
+								
+								local thing = self.TSMCraftingVisible;
+								self.TSMCraftingVisible = nil;
+								self:SetTSMCraftingVisible(thing);
+							end);
+						else
+							setScript(s, e, callback);
+						end
+					end
+					f.queueBtn:SetScript("OnClick", f.queueBtn:GetScript("OnClick"));
+				end
+				self:SetTSMCraftingVisible(f:IsShown());
+				return;
+			end
+		end
+		
 		-- Update the window and all of its row data
 		self.data.progress = 0;
 		self.data.total = 0;
@@ -12100,6 +12407,14 @@ app:GetWindow("WorldQuests", UIParent, function(self)
 					o.visible = false;
 				end
 			end;
+			function UnsetNotCollectible(o)
+				if o.collectible == false then o.collectible = nil; end
+				if o.g then
+					for i,p in ipairs(o.g) do
+						UnsetNotCollectible(p);
+					end
+				end
+			end
 			self.Clear = function(self)
 				local temp = self.data.g[1];
 				wipe(self.data.g);
@@ -12726,6 +13041,7 @@ app:GetWindow("WorldQuests", UIParent, function(self)
 				end
 				
 				for i,o in ipairs(temp) do
+					UnsetNotCollectible(o);
 					MergeObject(self.rawData, o);
 				end
 				for i,o in ipairs(self.rawData) do
@@ -13033,13 +13349,7 @@ app.OpenAuctionModule = function(self)
 		f:SetHeight(22);
 		f:RegisterForClicks("AnyUp");
 		f:SetScript("OnClick", function() 
-			-- Open the Settings Menu
-			if InterfaceOptionsFrame:IsVisible() then
-				InterfaceOptionsFrame_Show();
-			else
-				InterfaceOptionsFrame_OpenToCategory(app:GetName());
-				InterfaceOptionsFrame_OpenToCategory(app:GetName());
-			end
+			app.Settings:Open();
 		end);
 		f:SetATTTooltip("Click this button to toggle the settings menu.\n\nThe results displayed in this window will be filtered by your settings.");
 		frame.settingsButton = f;
@@ -13558,6 +13868,14 @@ SlashCmdList["AllTheThingsRAN"] = function(cmd)
 	app:GetWindow("Random"):Toggle();
 end
 
+SLASH_AllTheThingsU1 = "/attu";
+SLASH_AllTheThingsU2 = "/attyou";
+SLASH_AllTheThingsU3 = "/attwho";
+SlashCmdList["AllTheThingsU"] = function(cmd)
+	local name,server = UnitName("target");
+	if name then SendResponseMessage("?", server and (name .. "-" .. server) or name); end
+end
+
 SLASH_AllTheThingsWQ1 = "/attwq";
 SlashCmdList["AllTheThingsWQ"] = function(cmd)
 	app:GetWindow("WorldQuests"):Toggle();
@@ -13566,6 +13884,7 @@ end
 -- Register Events required at the start
 app:RegisterEvent("ADDON_LOADED");
 app:RegisterEvent("BOSS_KILL");
+app:RegisterEvent("CHAT_MSG_ADDON");
 app:RegisterEvent("PLAYER_LOGIN");
 app:RegisterEvent("VARIABLES_LOADED");
 app:RegisterEvent("TOYS_UPDATED");
@@ -13581,6 +13900,7 @@ app:RegisterEvent("PET_BATTLE_OPENING_START")
 app:RegisterEvent("PET_BATTLE_CLOSE")
 app:RegisterEvent("ZONE_CHANGED_NEW_AREA");
 app:RegisterEvent("ARTIFACT_UPDATE");
+app:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");
 
 -- Define Event Behaviours
 app.events.ARTIFACT_UPDATE = function(...)
@@ -13608,6 +13928,7 @@ app.events.ARTIFACT_UPDATE = function(...)
 	end
 end
 app.events.VARIABLES_LOADED = function()
+	app.Version = GetAddOnMetadata("AllTheThings", "Version");
 	AllTheThingsAD = _G["AllTheThingsAD"];	-- For account-wide data.
 	if not AllTheThingsAD then
 		AllTheThingsAD = { };
@@ -13653,7 +13974,6 @@ app.events.VARIABLES_LOADED = function()
 	GetDataMember("SeasonalFilters", {});
 	GetDataMember("UnobtainableItemFilters", {});
 	GetDataMember("ArtifactRelicItemLevels", {});
-	GetDataMember("WaypointFilters", {});
 	
 	-- Cache your character's lockouts.
 	local lockouts = GetDataMember("lockouts", {});
@@ -13851,9 +14171,6 @@ app.events.VARIABLES_LOADED = function()
 		"Sets",
 		"SourceSets",
 		"UnobtainableItemFilters",
-		"WaypointFilters",
-		"EnableTomTomWaypointsOnTaxi",
-		"TomTomIgnoreCompletedObjects"
 	}) do
 		rawset(oldsettings, key, rawget(AllTheThingsAD, key));
 	end
@@ -13863,10 +14180,11 @@ app.events.VARIABLES_LOADED = function()
 	end
 
 	-- Tooltip Settings
-	GetDataMember("EnableTomTomWaypointsOnTaxi", false);
-	GetDataMember("TomTomIgnoreCompletedObjects", true);
 	app.CurrentMapID = app.GetCurrentMapID();
 	app.Settings:Initialize();
+	
+	-- Attempt to register for the addon message prefix.
+	C_ChatInfo.RegisterAddonMessagePrefix("ATT");
 	
 	local reagentCache = app.GetDataMember("Reagents");
 	if reagentCache then
@@ -13892,7 +14210,6 @@ app.events.VARIABLES_LOADED = function()
 		app:UnregisterEvent("PET_JOURNAL_LIST_UPDATE");
 		
 		-- Mark all previously completed quests.
-		local version = GetAddOnMetadata("AllTheThings", "Version");
 		GetQuestsCompleted(CompletedQuests);
 		wipe(DirtyQuests);
 		app:RegisterEvent("QUEST_LOG_UPDATE");
@@ -13905,8 +14222,8 @@ app.events.VARIABLES_LOADED = function()
 		if not app.autoRefreshedCollections then
 			app.autoRefreshedCollections = true;
 			local lastTime = GetDataMember("RefreshedCollectionsAlready");
-			if not lastTime or (lastTime ~= version) then
-				SetDataMember("RefreshedCollectionsAlready", version);
+			if not lastTime or (lastTime ~= app.Version) then
+				SetDataMember("RefreshedCollectionsAlready", app.Version);
 				wipe(GetDataMember("CollectedSources", {}));	-- This option causes a caching issue, so we have to purge the Source ID data cache.
 				RefreshCollections();
 				return nil;
@@ -13934,12 +14251,88 @@ app.events.ADDON_LOADED = function(addonName)
 		end
 	end
 end
+app.events.CHAT_MSG_ADDON = function(prefix, text, channel, sender, target, zoneChannelID, localID, name, instanceID)
+	if prefix == "ATT" then
+		--print(prefix, text, channel, sender, target, zoneChannelID, localID, name, instanceID)
+		local args = { strsplit("\t", text) };
+		local cmd = args[1];
+		if cmd then
+			local a = args[2];
+			if cmd == "?" then		-- Query Request
+				local response;
+				if a then
+					b = tonumber(b);
+					if a == "s" then
+						response = "s";
+						for i=3,#args,1 do
+							local b = tonumber(args[i]);
+							response = response .. "\t" .. b .. "\t" .. (GetDataSubMember("CollectedSources", b) or 0);
+						end
+					elseif a == "q" then
+						response = "q";
+						for i=3,#args,1 do
+							local b = tonumber(args[i]);
+							response = response .. "\t" .. b .. "\t" .. (IsQuestFlaggedCompleted(b) and 1 or 0);
+						end
+					elseif a == "a" then
+						response = "a";
+						for i=3,#args,1 do
+							local b = tonumber(args[i]);
+							response = response .. "\t" .. b .. "\t" .. (select(app.AchievementFilter, GetAchievementInfo(b)) and 1 or 0);
+						end
+					end
+				else
+					local data = app:GetWindow("Prime").data;
+					response = "ATT\t" .. (data.progress or 0) .. "\t" .. (data.total or 0) .. "\t" .. app.Settings:GetShortModeString();
+				end
+				if response then SendResponseMessage("!\t" .. response, sender); end
+			elseif cmd == "!" then	-- Query Response
+				if a == "ATT" then
+					print(sender .. ": " .. GetProgressColorText(tonumber(args[3]), tonumber(args[4])) .. " " .. args[5]);
+				else
+					local response;
+					if a == "s" then
+						response = " ";
+						for i=3,#args,2 do
+							local b = tonumber(args[i]);
+							local c = tonumber(args[i + 1]);
+							response = response .. b .. ": " .. GetCollectionIcon(c) .. " - ";
+						end
+					elseif a == "q" then
+						response = " ";
+						for i=3,#args,2 do
+							local b = tonumber(args[i]);
+							local c = tonumber(args[i + 1]);
+							response = response .. b .. ": " .. GetCompletionIcon(c == 1) .. " - ";
+						end
+					elseif a == "a" then
+						response = " ";
+						for i=3,#args,2 do
+							local b = tonumber(args[i]);
+							local c = tonumber(args[i + 1]);
+							response = response .. b .. ": " .. GetCompletionIcon(c == 1) .. " - ";
+						end
+					end
+					if response then print(response .. sender); end
+				end
+			elseif cmd == "to" then	-- To Command
+				local myName = UnitName("player");
+				local name,server = strsplit("-", a);
+				if myName == name and (not server or GetRealmName() == server) then
+					app.events.CHAT_MSG_ADDON(prefix, strsub(text, 5 + strlen(a)), "WHISPER", sender);
+				end
+			end
+		end
+	end
+end
 app.events.PLAYER_LEVEL_UP = function(newLevel)
+	RefreshQuestCompletionState()
 	app.Level = newLevel;
 	app:UpdateWindows();
 	app.Settings:Refresh();
 end
 app.events.BOSS_KILL = function(id, name, ...)
+	RefreshQuestCompletionState()
 	-- This is so that when you kill a boss, you can trigger 
 	-- an automatic update of your saved instance cache. 
 	-- (It does lag a little, but you can disable this if you want.)
@@ -13956,6 +14349,7 @@ app.events.LOOT_CLOSED = function()
 	RequestRaidInfo();
 end
 app.events.ZONE_CHANGED_NEW_AREA = function()
+	RefreshQuestCompletionState()
 	app.CurrentMapID = app.GetCurrentMapID();
 end
 app.events.UPDATE_INSTANCE_INFO = function()
@@ -13972,6 +14366,7 @@ app.events.COMPANION_UNLEARNED = function(...)
 	RefreshMountCollection();
 end
 app.events.HEIRLOOMS_UPDATED = function(itemID, kind, ...)
+	RefreshQuestCompletionState()
 	if itemID then
 		app:RefreshData(false, true);
 		app:PlayFanfare();
@@ -13984,31 +14379,22 @@ app.events.HEIRLOOMS_UPDATED = function(itemID, kind, ...)
 	end
 end
 app.events.QUEST_TURNED_IN = function(questID)
-	CompletedQuests[questID] = true;
-	for questID,completed in pairs(DirtyQuests) do
-		app.QuestCompletionHelper(tonumber(questID));
-	end
-	wipe(DirtyQuests);
+	RefreshQuestCompletionState(questID)
 end
 app.events.QUEST_LOG_UPDATE = function()
-	GetQuestsCompleted(CompletedQuests);
-	for questID,completed in pairs(DirtyQuests) do
-		app.QuestCompletionHelper(tonumber(questID));
-	end
-	wipe(DirtyQuests);
-	app:UnregisterEvent("QUEST_LOG_UPDATE");
+	RefreshQuestCompletionState()
 end
 app.events.PET_BATTLE_OPENING_START = function(...)
 	local mini = app:GetWindow("CurrentInstance");
 	local main = app:GetWindow("Prime");
-		if mini:IsVisible() then
-			mini:Toggle();
-			app.miniVis = true;
-		end
-		if main:IsVisible() then
-			main:Toggle();
-			app.mainVis = true;
-		end
+	if mini:IsVisible() then
+		mini:Toggle();
+		app.miniVis = true;
+	end
+	if main:IsVisible() then
+		main:Toggle();
+		app.mainVis = true;
+	end
 end
 app.events.PET_BATTLE_CLOSE = function(...)
 	if app.miniVis then 
@@ -14048,11 +14434,13 @@ app.events.TRANSMOG_COLLECTION_SOURCE_ADDED = function(sourceID)
 			app.ActiveItemCollectionHelper(sourceID, oldState);
 			app:PlayFanfare();
 			wipe(searchCache);
+			SendSocialMessage("S\t" .. sourceID .. "\t" .. oldState .. "\t1");
 		end
 	end
 end
 app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
-	if sourceID and GetDataSubMember("CollectedSources", sourceID) then
+	local oldState = sourceID and GetDataSubMember("CollectedSources", sourceID);
+	if oldState then
 		local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
 		SetDataSubMember("CollectedSources", sourceID, nil);
 		
@@ -14091,5 +14479,13 @@ app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
 		app:RefreshData(false, true);
 		app:PlayRemoveSound();
 		wipe(searchCache);
+		SendSocialMessage("S\t" .. sourceID .. "\t" .. oldState .. "\t0");
 	end
 end
+app.events.COMBAT_LOG_EVENT_UNFILTERED = function()
+	local _,event = CombatLogGetCurrentEventInfo();
+	if event == "UNIT_DIED" or event == "UNIT_DESTROYED" then
+		RefreshQuestCompletionState()
+	end
+end
+

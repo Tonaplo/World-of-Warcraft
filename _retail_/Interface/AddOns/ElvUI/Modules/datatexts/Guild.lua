@@ -46,8 +46,7 @@ local standingString = E:RGBToHex(ttsubh.r, ttsubh.g, ttsubh.b).."%s:|r |cFFFFFF
 local moreMembersOnlineString = strjoin("", "+ %d ", _G.FRIENDS_LIST_ONLINE, "...")
 local noteString = strjoin("", "|cff999999   ", _G.LABEL_NOTE, ":|r %s")
 local officerNoteString = strjoin("", "|cff999999   ", _G.GUILD_RANK1_DESC, ":|r %s")
-local guildTable, guildMotD = {}, ""
-local lastPanel
+local guildTable, guildMotD, lastPanel = {}, ""
 
 local function sortByRank(a, b)
 	if a and b then
@@ -121,7 +120,7 @@ local eventHandlers = {
 	-- Guild Roster updated, so rebuild the guild table
 	["GUILD_ROSTER_UPDATE"] = function(self)
 		if(resendRequest) then
-			resendRequest = false;
+			resendRequest = false
 			return C_GuildInfo_GuildRoster()
 		else
 			BuildGuildTable()
@@ -184,7 +183,6 @@ local function whisperClick(self, playerName)
 end
 
 local function Click(self, btn)
-	if InCombatLockdown() then _G.UIErrorsFrame:AddMessage(E.InfoColor.._G.ERR_NOT_IN_COMBAT) return end
 	if btn == "RightButton" and IsInGuild() then
 		DT.tooltip:Hide()
 
@@ -212,6 +210,8 @@ local function Click(self, btn)
 		end
 
 		_G.EasyMenu(menuList, menuFrame, "cursor", 0, 0, "MENU", 2)
+	elseif InCombatLockdown() then
+		_G.UIErrorsFrame:AddMessage(E.InfoColor.._G.ERR_NOT_IN_COMBAT)
 	else
 		ToggleGuildFrame()
 	end

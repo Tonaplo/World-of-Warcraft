@@ -4,5 +4,5 @@ FrameLevel: 1
 Anchor: CENTER
 X: -178
 Y: -2
-W: 300
-H: 176
+W: 420
+H: 200

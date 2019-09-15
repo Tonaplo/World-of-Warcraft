@@ -15,6 +15,12 @@ local _, ns = ...
 local ElvUF = ns.oUF
 assert(ElvUF, "ElvUI was unable to locate oUF.")
 
+function UF.HealthClipFrame_OnUpdate(clipFrame)
+	UF.HealthClipFrame_HealComm(clipFrame.__frame)
+
+	clipFrame:SetScript('OnUpdate', nil)
+end
+
 function UF:Construct_HealthBar(frame, bg, text, textPos)
 	local health = CreateFrame('StatusBar', nil, frame)
 	UF.statusbars[health] = true
@@ -45,6 +51,14 @@ function UF:Construct_HealthBar(frame, bg, text, textPos)
 	health.colorTapping = true
 	health.colorDisconnected = true
 	health:CreateBackdrop(nil, nil, nil, self.thinBorders, true)
+
+	local clipFrame = CreateFrame('Frame', nil, health)
+	clipFrame:SetScript('OnUpdate', UF.HealthClipFrame_OnUpdate)
+	clipFrame:SetClipsChildren(true)
+	clipFrame:SetAllPoints()
+	clipFrame:EnableMouse(false)
+	clipFrame.__frame = frame
+	health.ClipFrame = clipFrame
 
 	return health
 end
@@ -180,25 +194,18 @@ function UF:Configure_HealthBar(frame)
 	end
 
 	if db.health then
-		if db.health.reverseFill then
-			health:SetReverseFill(true)
-		else
-			health:SetReverseFill(false)
-		end
-
 		--Party/Raid Frames allow to change statusbar orientation
 		if db.health.orientation then
 			health:SetOrientation(db.health.orientation)
 		end
 
 		--Party/Raid Frames can toggle frequent updates
-		if db.health.frequentUpdates == nil then db.health.frequentUpdates = true end
+		if db.health.frequentUpdates == nil then
+			db.health.frequentUpdates = true
+		end
 
 		health:SetFrequentUpdates(db.health.frequentUpdates)
-
-		if db.health.bgUseBarTexture then
-			health.bg:SetTexture(E.Libs.LSM:Fetch('statusbar', E.db.unitframe.statusbar))
-		end
+		health:SetReverseFill(db.health.reverseFill)
 	end
 
 	--Transparency Settings
@@ -207,8 +214,8 @@ function UF:Configure_HealthBar(frame)
 	--Prediction Texture; keep under ToggleTransparentStatusBar
 	UF:UpdatePredictionStatusBar(frame.HealthPrediction, frame.Health, "Health")
 
-	--Highlight Texture
-	UF:Configure_HighlightGlow(frame)
+	--Frame Glow
+	UF:Configure_FrameGlow(frame)
 
 	if frame:IsElementEnabled("Health") then
 	    frame.Health:ForceUpdate()

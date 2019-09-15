@@ -192,6 +192,7 @@ L["Loss Control Icon"] = true
 L["lvl"] = true
 L["MA Frames"] = true
 L["Main Hand"] = true
+L["Max Rank"] = true
 L["Micro Bar"] = true
 L["Minimap"] = true
 L["MirrorTimer"] = true
@@ -368,8 +369,6 @@ L["Poen Gillbrack"] = true
 L["Vim Brineheart"] = true
 
 ----------------------------------
-L["RED_ENABLE"] = "|cFFff3333Enable|r"
-L["GREEN_ENABLE"] = "|cFF33ff33Enable|r"
 L["DESC_MOVERCONFIG"] = [=[Movers unlocked. Move them now and click Lock when you are done.
 
 Options:

@@ -3,7 +3,7 @@
 --------------------------------------------------------------------------------
 --				Copyright 2017-2019 Dylan Fortune (Crieve-Sargeras)           --
 --------------------------------------------------------------------------------
-local app = AllTheThings;
+local app = select(2, ...);
 local L = app.L;
 
 -- Binding Localizations
@@ -42,6 +42,15 @@ settings:SetBackdrop({
 });
 settings:SetBackdropColor(0, 0, 0, 1);
 InterfaceOptions_AddCategory(settings);
+settings.Open = function(self)
+	-- Open the Options menu.
+	if InterfaceOptionsFrame:IsVisible() then
+		InterfaceOptionsFrame_Show();
+	else
+		InterfaceOptionsFrame_OpenToCategory(self.name);
+		InterfaceOptionsFrame_OpenToCategory(self.name);
+	end
+end
 
 -- Music / Sound Management (You can add your own sounds for this if you want.)
 settings.AUDIO_COMPLETE_TABLE = {
@@ -182,7 +191,7 @@ settings.Initialize = function(self)
 	if not AllTheThingsSettingsPerCharacter then AllTheThingsSettingsPerCharacter = {}; end
 	if not AllTheThingsSettingsPerCharacter.Filters then AllTheThingsSettingsPerCharacter.Filters = {}; end
 	setmetatable(AllTheThingsSettingsPerCharacter.Filters, FilterSettingsBase);
-	FilterSettingsBase.__index = app.Presets[app.Class];
+	FilterSettingsBase.__index = app.Presets[app.Class] or app.Presets.ALL;
 	
 	self.LocationsSlider:SetValue(self:GetTooltipSetting("Locations"));
 	self.MainListScaleSlider:SetValue(self:GetTooltipSetting("MainListScale"));
@@ -261,6 +270,47 @@ settings.GetModeString = function(self)
 		mode = "Level " .. app.Level .. " " .. mode;
 	end
 	return mode;
+end
+settings.GetShortModeString = function(self)
+	if self:Get("DebugMode") then
+		return "D";
+	else
+		local things = {};
+		local thingCount = 0;
+		local totalThingCount = 0;
+		for key,_ in pairs(GeneralSettingsBase.__index) do
+			if string.sub(key, 1, 6) == "Thing:" then
+				totalThingCount = totalThingCount + 1;
+				if settings:Get(key) then
+					thingCount = thingCount + 1;
+					table.insert(things, string.sub(key, 7));
+				end
+			end
+		end
+		local style;
+		if thingCount == 0 then
+			style = "N";
+		elseif thingCount == totalThingCount then
+			style = "I";
+		else
+			style = "";
+		end
+		if self:Get("Completionist") then
+			if self:Get("AccountMode") then
+				return style .. "AC";
+			else
+				return style .. "C";
+			end
+		else
+			if self:Get("AccountMode") then
+				return style .. "AU";
+			elseif self:Get("MainOnly") then
+				return style .. "UM";
+			else
+				return style .. "U";
+			end
+		end		
+	end
 end
 settings.GetPersonal = function(self, setting)
 	return AllTheThingsSettingsPerCharacter[setting];

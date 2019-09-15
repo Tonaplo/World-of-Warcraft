@@ -192,6 +192,7 @@ L["Loss Control Icon"] = "失去控制图标"
 L["lvl"] = "等级"
 L["MA Frames"] = "主助理框"
 L["Main Hand"] = "主手"
+L["Max Rank"] = true
 L["Micro Bar"] = "微型系统菜单"
 L["Minimap"] = "小地图"
 L["MirrorTimer"] = "镜像计时器"
@@ -201,7 +202,7 @@ L["Mobile"] = "App"
 L["Modulating Blend"] = true
 L["Mov. Speed:"] = _G.STAT_MOVEMENT_SPEED
 L["MT Frames"] = "主坦克框"
-L["Nazjatar Follower XP"] = true
+L["Nazjatar Follower XP"] = "纳沙塔尔随从经验"
 L["Naval Mission(s) Report:"] = "海军任务报告:"
 L["No bindings set."] = "无绑定设定"
 L["No gray items to delete."] = "没有要删除的灰色物品"
@@ -368,8 +369,6 @@ L["Poen Gillbrack"] = true
 L["Vim Brineheart"] = true
 
 ----------------------------------
-L["RED_ENABLE"] = "|cFFff3333启用|r"
-L["GREEN_ENABLE"] = "|cFF33ff33启用|r"
 L["DESC_MOVERCONFIG"] = [=[解除框架移动锁定. 现在可以移动它们, 移好后请点击「锁定」.
 
 选项：

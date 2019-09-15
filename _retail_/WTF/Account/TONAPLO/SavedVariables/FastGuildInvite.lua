@@ -1,11 +1,14 @@
 
 FGI_DB = {
 	["profileKeys"] = {
-		["Glora - Auchindoun"] = "Glora - Auchindoun",
 		["Jaletta - Auchindoun"] = "Jaletta - Auchindoun",
 		["Kenne - Auchindoun"] = "Kenne - Auchindoun",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Glora - Auchindoun"] = "Glora - Auchindoun",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Welor - Auchindoun"] = "Welor - Auchindoun",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
@@ -43,19 +46,19 @@ FGI_DB = {
 				["classFilter"] = false,
 			},
 		},
-		["searchInterval"] = 5,
-		["SearchType"] = 1,
 		["mainFrame"] = {
 			["yOfs"] = 185.0002136230469,
 			["xOfs"] = -13.0000524520874,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
-		["rememberAll"] = true,
-		["classFilterVal"] = 121,
+		["SearchType"] = 1,
 		["messageList"] = {
 			[0] = "Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!",
 		},
+		["rememberAll"] = true,
+		["classFilterVal"] = 121,
+		["searchInterval"] = 5,
 		["alredySended"] = {
 		},
 		["systemMSG"] = false,

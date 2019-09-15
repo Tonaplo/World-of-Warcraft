@@ -1,9 +1,9 @@
 local E, L, V, P, G = unpack(select(2, ...)) --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local oUF = E.oUF
 
-local strmatch, tonumber = strmatch, tonumber
+local tonumber = tonumber
 local UnitIsOwnerOrControllerOfUnit = UnitIsOwnerOrControllerOfUnit
-local C_UIWidgetManager_GetStatusBarWidgetVisualizationInfo = C_UIWidgetManager.GetStatusBarWidgetVisualizationInfo
+local IsQuestFlaggedCompleted = IsQuestFlaggedCompleted
 
 local NPCIDToWidgetIDMap = {
 	[154304] = 1940, -- Farseer Ori
@@ -23,26 +23,21 @@ local CampfireNPCIDToWidgetIDMap = {
 	[149906] = 1920 -- Vim Brineheart
 }
 
-local function GetBodyguardXP(widgetID)
-	local widget = widgetID and C_UIWidgetManager_GetStatusBarWidgetVisualizationInfo(widgetID)
-	if not widget then return end
-
-	local rank = strmatch(widget.overrideBarText, "%d+")
-	local cur = widget.barValue - widget.barMin
-	local next = widget.barMax - widget.barMin
-	local total = widget.barValue
-	return rank, cur, next, total
-end
+local NeededQuestIDs = {
+	["Horde"] = 55500,
+	["Alliance"] = 56156
+}
 
 local function Update(self)
 	local element = self.NazjatarFollowerXP
-	if not element then return end
+	if not element then
+		return
+	end
 
-	local npcID = tonumber(self.npcID)
-	local shouldDisplay =
-		npcID and (NPCIDToWidgetIDMap[npcID] and self.unit and UnitIsOwnerOrControllerOfUnit("player", self.unit)) or
-		CampfireNPCIDToWidgetIDMap[npcID]
-	if (not shouldDisplay) then
+	local npcID, questID = tonumber(self.npcID), NeededQuestIDs[E.myfaction]
+	local hasQuestCompleted = questID and IsQuestFlaggedCompleted(questID)
+	local isProperNPC = npcID and (NPCIDToWidgetIDMap[npcID] and self.unit and UnitIsOwnerOrControllerOfUnit("player", self.unit)) or CampfireNPCIDToWidgetIDMap[npcID]
+	if (not hasQuestCompleted or not isProperNPC) then
 		element:Hide()
 		if element.Rank then
 			element.Rank:Hide()
@@ -70,26 +65,26 @@ local function Update(self)
 		return
 	end
 
-	local rank, cur, next, total = GetBodyguardXP(widgetID)
+	local rank, cur, toNext, total, isMax = E:GetNazjatarBodyguardXP(widgetID)
 	if not rank then return end
 
-	element:SetMinMaxValues(0, next)
-	element:SetValue(cur)
+	element:SetMinMaxValues(0, (isMax and 1) or toNext)
+	element:SetValue(isMax and 1 or cur)
 
-	if (element.Rank) then
+	if element.Rank then
 		element.Rank:SetText(rank)
 		element.Rank:Show()
 	end
 
 	if element.ProgressText then
-		element.ProgressText:SetText(("%d / %d"):format(cur, next))
+		element.ProgressText:SetText((isMax and L["Max Rank"]) or ("%d / %d"):format(cur, toNext))
 		element.ProgressText:Show()
 	end
 
 	element:Show()
 
-	if (element.PostUpdate) then
-		element:PostUpdate(rank, cur, next, total)
+	if element.PostUpdate then
+		element:PostUpdate(rank, cur, toNext, total)
 	end
 end
 
@@ -108,6 +103,7 @@ local function Enable(self)
 		element.ForceUpdate = ForceUpdate
 
 		self:RegisterEvent("UPDATE_UI_WIDGET", Path, true)
+		self:RegisterEvent("QUEST_LOG_UPDATE", Path, true)
 		return true
 	end
 end
@@ -124,6 +120,7 @@ local function Disable(self)
 		end
 
 		self:UnregisterEvent("UPDATE_UI_WIDGET", Path)
+		self:UnregisterEvent("QUEST_LOG_UPDATE", Path)
 	end
 end
 

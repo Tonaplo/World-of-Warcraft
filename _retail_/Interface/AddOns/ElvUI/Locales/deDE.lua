@@ -192,6 +192,7 @@ L["Loss Control Icon"] = "Kontrollverlustsymbol"
 L["lvl"] = "lvl"
 L["MA Frames"] = "MA-Fenster"
 L["Main Hand"] = "Waffenhand"
+L["Max Rank"] = true
 L["Micro Bar"] = "Mikroleiste"
 L["Minimap"] = "Minimap"
 L["MirrorTimer"] = "Spiegel Zeitgeber"
@@ -370,8 +371,6 @@ L["Poen Gillbrack"] = "Poen Kiembrack"
 L["Vim Brineheart"] = "Vim Salzherz"
 
 ----------------------------------
-L["RED_ENABLE"] = "|cFFff3333Eingeschaltet|r"
-L["GREEN_ENABLE"] = "|cFF33ff33Eingeschaltet|r"
 L["DESC_MOVERCONFIG"] = [=[Ankerpunkte entriegelt. Bewege die Ankerpunkte und klicke 'sperren', wenn du fertig bist.
 
 Options:

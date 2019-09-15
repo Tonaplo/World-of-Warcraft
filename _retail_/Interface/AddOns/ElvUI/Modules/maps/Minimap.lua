@@ -3,6 +3,7 @@ local M = E:GetModule('Minimap')
 
 --Lua functions
 local _G = _G
+local pairs = pairs
 local tinsert = tinsert
 local utf8sub = string.utf8sub
 --WoW API / Variables
@@ -26,7 +27,6 @@ local ToggleFriendsFrame = ToggleFriendsFrame
 local ToggleGuildFrame = ToggleGuildFrame
 local ToggleHelpFrame = ToggleHelpFrame
 local ToggleLFDParentFrame = ToggleLFDParentFrame
-local C_Timer_After = C_Timer.After
 -- GLOBALS: GetMinimapShape
 
 --Create the new minimap tracking dropdown frame and initialize it
@@ -145,11 +145,11 @@ function M:ADDON_LOADED(_, addon)
 end
 
 function M:Minimap_OnMouseDown(btn)
-	if InCombatLockdown() then _G.UIErrorsFrame:AddMessage(E.InfoColor.._G.ERR_NOT_IN_COMBAT) return end
 	_G.HideDropDownMenu(1, nil, ElvUIMiniMapTrackingDropDown)
 	menuFrame:Hide()
 	local position = self:GetPoint()
 	if btn == "MiddleButton" or (btn == "RightButton" and IsShiftKeyDown()) then
+		if InCombatLockdown() then _G.UIErrorsFrame:AddMessage(E.InfoColor.._G.ERR_NOT_IN_COMBAT) return end
 		if position:match("LEFT") then
 			E:DropDown(menuList, menuFrame)
 		else
@@ -200,7 +200,7 @@ end
 local function SetupZoomReset()
 	if E.db.general.minimap.resetZoom.enable and not isResetting then
 		isResetting = true
-		C_Timer_After(E.db.general.minimap.resetZoom.time, ResetZoom)
+		E:Delay(E.db.general.minimap.resetZoom.time, ResetZoom)
 	end
 end
 hooksecurefunc(_G.Minimap, "SetZoom", SetupZoomReset)
@@ -452,15 +452,21 @@ function M:Initialize()
 		Minimap.location:Hide()
 	end
 
-	_G.MinimapBorder:Hide()
-	_G.MinimapBorderTop:Hide()
-	_G.MinimapZoomIn:Hide()
-	_G.MinimapZoomOut:Hide()
-	-- MiniMapVoiceChatFrame:Hide()
-	_G.MinimapNorthTag:Kill()
-	_G.MinimapZoneTextButton:Hide()
-	_G.MiniMapTracking:Hide()
-	_G.MiniMapMailBorder:Hide()
+	local frames = {
+		_G.MinimapBorder,
+		_G.MinimapBorderTop,
+		_G.MinimapZoomIn,
+		_G.MinimapZoomOut,
+		_G.MinimapNorthTag,
+		_G.MinimapZoneTextButton,
+		_G.MiniMapTracking,
+		_G.MiniMapMailBorder
+	}
+
+	for _, frame in pairs(frames) do
+		frame:Kill()
+	end
+
 	_G.MiniMapMailIcon:SetTexture(E.Media.Textures.Mail)
 
 	--Hide the BlopRing on Minimap
@@ -497,8 +503,4 @@ function M:Initialize()
 	self:UpdateSettings()
 end
 
-local function InitializeCallback()
-	M:Initialize()
-end
-
-E:RegisterInitialModule(M:GetName(), InitializeCallback)
+E:RegisterInitialModule(M:GetName())

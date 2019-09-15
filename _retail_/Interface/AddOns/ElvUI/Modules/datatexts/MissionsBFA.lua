@@ -4,7 +4,7 @@ local DT = E:GetModule("DataTexts")
 --Lua functions
 local _G = _G
 local format, sort, ipairs = format, sort, ipairs
-local select, unpack, strmatch = select, unpack, strmatch
+local select, unpack = select, unpack
 --WoW API / Variables
 local GetCurrencyInfo = GetCurrencyInfo
 local GetMaxLevelForExpansionLevel = GetMaxLevelForExpansionLevel
@@ -16,7 +16,6 @@ local HideUIPanel = HideUIPanel
 local IsQuestFlaggedCompleted = IsQuestFlaggedCompleted
 local SecondsToTime = SecondsToTime
 local ShowGarrisonLandingPage = ShowGarrisonLandingPage
-local UnitLevel = UnitLevel
 local C_Garrison_GetCompleteTalent = C_Garrison.GetCompleteTalent
 local C_Garrison_GetFollowerShipments = C_Garrison.GetFollowerShipments
 local C_Garrison_GetInProgressMissions = C_Garrison.GetInProgressMissions
@@ -26,7 +25,6 @@ local C_Garrison_GetTalentTreeInfoForID = C_Garrison.GetTalentTreeInfoForID
 local C_Garrison_HasGarrison = C_Garrison.HasGarrison
 local C_Garrison_RequestLandingPageShipmentInfo = C_Garrison.RequestLandingPageShipmentInfo
 local C_IslandsQueue_GetIslandsWeeklyQuestID = C_IslandsQueue.GetIslandsWeeklyQuestID
-local C_UIWidgetManager_GetStatusBarWidgetVisualizationInfo = C_UIWidgetManager.GetStatusBarWidgetVisualizationInfo
 local LE_EXPANSION_BATTLE_FOR_AZEROTH = LE_EXPANSION_BATTLE_FOR_AZEROTH
 local LE_FOLLOWER_TYPE_GARRISON_8_0 = LE_FOLLOWER_TYPE_GARRISON_8_0
 local LE_GARRISON_TYPE_8_0 = LE_GARRISON_TYPE_8_0
@@ -38,15 +36,15 @@ local GARRISON_LANDING_SHIPMENT_COUNT = GARRISON_LANDING_SHIPMENT_COUNT
 local RESEARCH_TIME_LABEL = RESEARCH_TIME_LABEL
 local InCombatLockdown = InCombatLockdown
 
-local Widget_IDs = {
+local Widget_IDs, lastPanel = {
 	["Alliance"] = {
-		57006, -- A Worthy Ally
+		56156, -- A Tempered Blade
 		{L["Farseer Ori"], 1940},
 		{L["Hunter Akana"], 1613},
 		{L["Bladesman Inowari"], 1966}
 	},
 	["Horde"] = {
-		57005, -- Becoming a Friend
+		55500, -- Save a Friend
 		{L["Neri Sharpfin"], 1621},
 		{L["Poen Gillbrack"], 1622},
 		{L["Vim Brineheart"], 1920}
@@ -57,21 +55,6 @@ local WARRESOURCES_CURRENCY = 1560
 local WARRESOURCES_ICON = format("|T%s:16:16:0:0:64:64:4:60:4:60|t", select(3, GetCurrencyInfo(WARRESOURCES_CURRENCY)))
 local BODYGUARD_LEVEL_XP_FORMAT = L["Rank"] .. " %d (%d/%d)"
 local NAZJATAR_MAP_ID = 1355
-
-local lastPanel
-
-local function GetBodyguardXP(widgetID)
-	local widget = widgetID and C_UIWidgetManager_GetStatusBarWidgetVisualizationInfo(widgetID)
-	if not widget then
-		return
-	end
-
-	local rank = strmatch(widget.overrideBarText, "%d+")
-	local cur = widget.barValue - widget.barMin
-	local next = widget.barMax - widget.barMin
-	local total = widget.barValue
-	return rank, cur, next, total
-end
 
 local function sortFunction(a, b)
 	return a.missionEndTime < b.missionEndTime
@@ -130,17 +113,12 @@ local function OnEnter(self, _, noUpdate)
 					hasFollowers = true
 				end
 
-				if timeleftString then
-					timeleftString = timeleftString .. " "
-				else
-					timeleftString = ""
-				end
+				timeleftString = (timeleftString and timeleftString .. " ") or ""
+
 				DT.tooltip:AddDoubleLine(
 					name,
 					timeleftString .. format(GARRISON_LANDING_SHIPMENT_COUNT, shipmentsReady, shipmentsTotal),
-					1,
-					1,
-					1
+					1, 1, 1
 				)
 			end
 		end
@@ -175,7 +153,7 @@ local function OnEnter(self, _, noUpdate)
 
 	-- Island Expeditions
 	local hasIsland = false
-	if (UnitLevel("player") >= GetMaxLevelForExpansionLevel(LE_EXPANSION_BATTLE_FOR_AZEROTH)) then
+	if (E.mylevel >= GetMaxLevelForExpansionLevel(LE_EXPANSION_BATTLE_FOR_AZEROTH)) then
 		local questID = C_IslandsQueue_GetIslandsWeeklyQuestID()
 		if questID then
 			local _, _, finished, numFulfilled, numRequired = GetQuestObjectiveInfo(questID, 1, false)
@@ -203,9 +181,9 @@ local function OnEnter(self, _, noUpdate)
 		DT.tooltip:AddLine(L["Nazjatar Follower XP"])
 		for i = 2, 4 do
 			local npcName, widgetID = unpack(widgetGroup[i])
-			local rank, cur, next = GetBodyguardXP(widgetID)
+			local rank, cur, toNext, _, isMax = E:GetNazjatarBodyguardXP(widgetID)
 			if npcName and rank then
-				DT.tooltip:AddDoubleLine(npcName, BODYGUARD_LEVEL_XP_FORMAT:format(rank, cur, next), 1, 1, 1)
+				DT.tooltip:AddDoubleLine(npcName, (isMax and L["Max Rank"]) or BODYGUARD_LEVEL_XP_FORMAT:format(rank, cur, toNext), 1, 1, 1)
 			end
 		end
 		hasNazjatarBodyguardXP = true
@@ -219,7 +197,10 @@ local function OnEnter(self, _, noUpdate)
 end
 
 local function OnClick()
-	if InCombatLockdown() then _G.UIErrorsFrame:AddMessage(E.InfoColor.._G.ERR_NOT_IN_COMBAT) return end
+	if InCombatLockdown() then
+		_G.UIErrorsFrame:AddMessage(E.InfoColor .. _G.ERR_NOT_IN_COMBAT)
+		return
+	end
 
 	if not (C_Garrison_HasGarrison(LE_GARRISON_TYPE_8_0)) then
 		return
@@ -259,13 +240,4 @@ local function ValueColorUpdate()
 end
 E.valueColorUpdateFuncs[ValueColorUpdate] = true
 
-DT:RegisterDatatext(
-	"BfA Missions",
-	{"PLAYER_ENTERING_WORLD", "CURRENCY_DISPLAY_UPDATE", "GARRISON_LANDINGPAGE_SHIPMENTS"},
-	OnEvent,
-	nil,
-	OnClick,
-	OnEnter,
-	nil,
-	L["BfA Missions"]
-)
+DT:RegisterDatatext("BfA Missions", {"PLAYER_ENTERING_WORLD", "CURRENCY_DISPLAY_UPDATE", "GARRISON_LANDINGPAGE_SHIPMENTS"}, OnEvent, nil, OnClick, OnEnter, nil, L["BfA Missions"])

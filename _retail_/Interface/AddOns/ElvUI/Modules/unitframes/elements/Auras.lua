@@ -65,7 +65,6 @@ function UF:Construct_AuraIcon(button)
 	button.cd:SetInside(button, offset, offset)
 
 	button.icon:SetInside(button, offset, offset)
-	button.icon:SetTexCoord(unpack(E.TexCoords))
 	button.icon:SetDrawLayer('ARTWORK')
 
 	button.count:ClearAllPoints()
@@ -91,6 +90,9 @@ end
 function UF:UpdateAuraSettings(auras, button)
 	if button.db then
 		button.count:FontTemplate(LSM:Fetch('font', button.db.countFont), button.db.countFontSize, button.db.countFontOutline)
+	end
+	if button.icon then
+		button.icon:SetTexCoord(unpack(E.TexCoords))
 	end
 
 	button:Size((auras and auras.size) or 30)
@@ -374,7 +376,7 @@ function UF:PostUpdateAura(unit, button)
 	end
 end
 
-function UF:AuraFilter(unit, button, name, _, _, debuffType, duration, expiration, caster, isStealable, _, spellID, _, isBossDebuff, casterIsPlayer)
+function UF:AuraFilter(unit, button, name, _, count, debuffType, duration, expiration, caster, isStealable, _, spellID, _, isBossDebuff, casterIsPlayer)
 	if not name then return end -- checking for an aura that is not there, pass nil to break while loop
 
 	local parent = self:GetParent()
@@ -390,6 +392,7 @@ function UF:AuraFilter(unit, button, name, _, _, debuffType, duration, expiratio
 	button.dtype = debuffType
 	button.duration = duration
 	button.expiration = expiration
+	button.stackCount = count
 	button.name = name
 	button.spellID = spellID
 	button.owner = caster

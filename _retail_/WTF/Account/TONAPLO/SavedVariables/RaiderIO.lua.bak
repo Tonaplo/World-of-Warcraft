@@ -1,9 +1,20 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Kaldowrath-silvermoon"
+RaiderIO_LastCharacter = "eu-Mallusof-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Kaldowrath-silvermoon"] = true,
-	["eu-Shamíí-silvermoon"] = true,
-	["eu-Blinskov-uldaman"] = true,
+	["eu-Helke-twisting-nether"] = true,
+	["eu-Celdoris-antonidas"] = true,
+	["eu-Bulbalg-ragnaros"] = true,
+	["eu-Zeyron-ravencrest"] = true,
+	["eu-Xasian-pozzo-delleternita"] = true,
+	["eu-Гипербоил-gordunni"] = true,
+	["eu-Mangasteen-ravencrest"] = true,
+	["eu-Eythalion-pozzo-delleternita"] = true,
+	["eu-Ппцвсему-blackscar"] = true,
+	["eu-Mallusof-silvermoon"] = true,
+	["eu-Токэби-deathguard"] = true,
+	["eu-Glorion-laughing-skull"] = true,
+	["eu-Degetica-ravencrest"] = true,
+	["eu-Телек-gordunni"] = true,
 }

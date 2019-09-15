@@ -14,7 +14,7 @@ bind 6 NONE
 bind 7 NONE
 bind 8 NONE
 bind 9 NONE
-bind 0 NONE
+bind 0 TOGGLECHARACTER0
 bind - NONE
 bind = NONE
 bind CTRL-1 CLICK BT4Button25:LeftButton
@@ -48,6 +48,6 @@ bind CTRL-Z CLICK BT4Button34:LeftButton
 bind CTRL-X CLICK BT4Button35:LeftButton
 bind CTRL-C CLICK BT4Button36:LeftButton
 bind NUMPADMULTIPLY TOGGLEAUTORUN
-bind å TOGGLECHARACTER0
+bind å NONE
 bind F6 CLICK BT4Button33:LeftButton
 bind ´ TOGGLEAUTORUN

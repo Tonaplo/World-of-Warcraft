@@ -192,6 +192,7 @@ L["Loss Control Icon"] = "제어손실 표시"
 L["lvl"] = "레벨"
 L["MA Frames"] = "지원공격 전담 프레임"
 L["Main Hand"] = "주장비"
+L["Max Rank"] = true
 L["Micro Bar"] = "메뉴모음 바"
 L["Minimap"] = "미니맵"
 L["MirrorTimer"] = "미러 타이머"
@@ -368,8 +369,6 @@ L["Poen Gillbrack"] = true
 L["Vim Brineheart"] = true
 
 ----------------------------------
-L["RED_ENABLE"] = "|cFFff3333사용|r"
-L["GREEN_ENABLE"] = "|cFF33ff33사용|r"
 L["DESC_MOVERCONFIG"] = [=[프레임을 드래그로 원하는 위치로 이동시키세요.|n[잠금] 버튼을 누르면 이동모드가 종료됩니다.
 
 선택사항:

@@ -192,6 +192,7 @@ L["Loss Control Icon"] = "Icône de la perte de contrôle"
 L["lvl"] = "niveau"
 L["MA Frames"] = "Cadres de l'assistant principal"
 L["Main Hand"] = "Main droite"
+L["Max Rank"] = true
 L["Micro Bar"] = "Micro Barre"
 L["Minimap"] = "Minicarte"
 L["MirrorTimer"] = "Timer mirroir"
@@ -368,8 +369,6 @@ L["Poen Gillbrack"] = true
 L["Vim Brineheart"] = true
 
 ----------------------------------
-L["RED_ENABLE"] = "|cFFff3333Activer|r"
-L["GREEN_ENABLE"] = "|cFF33ff33Activer|r"
 L["DESC_MOVERCONFIG"] = [=[Cadres déverrouillés. Déplacez-les et cliquez sur Verrouiller une fois terminé.
 
 Options:
