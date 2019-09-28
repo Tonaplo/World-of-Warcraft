@@ -1,5 +1,6 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 local AB, mark = assert(T.ActionBook:compatible(2, 21), "A compatible version of ActionBook is required"), {}
 local RW = assert(T.ActionBook:compatible("Rewire", 1, 10), "A compatible version of Rewire is required")
 local L = AB:locale()
@@ -34,7 +35,7 @@ do -- spellbook
 			end
 		end
 		wipe(mark)
-		for i=1,4 do
+		for i=1,MODERN and 4 or 0 do
 			local id = C_SpecializationInfo.GetPvpTalentSlotInfo(i)
 			id = id and id.selectedTalentID
 			if id then
@@ -45,17 +46,29 @@ do -- spellbook
 			end
 		end
 	end)
-	AB:AugmentCategory(L"Pet abilities", function(_, add)
+	local _, cl = UnitClass("player")
+	if cl == "HUNTER" or cl == "WARLOCK" or MODERN and cl == "MAGE" then
+		AB:AugmentCategory(L"Pet abilities", function(_, add)
 		if not PetHasSpellbook() then return end
 		wipe(mark)
 		for i=1,HasPetSpells() or 0 do
-			addEntry(add, "petspell", pcall(GetSpellBookItemInfo, i, "pet"))
+			if MODERN then
+				addEntry(add, "petspell", pcall(GetSpellBookItemInfo, i, "pet"))
+			else
+				local sid = select(7, GetSpellInfo(i, "pet"))
+				if sid and not IsPassiveSpell(sid) then
+					add("petspell", sid)
+				end
+			end
 		end
 		for s in ("attack move stay follow assist defend passive dismiss"):gmatch("%S+") do
-			add("petspell", s)
+			if MODERN or s ~= "move" then
+				add("petspell", s)
+			end
 		end
 		wipe(mark)
-	end)
+		end)
+	end
 end
 AB:AugmentCategory(L"Items", function(_, add)
 	wipe(mark)
@@ -79,7 +92,7 @@ AB:AugmentCategory(L"Items", function(_, add)
 		end
 	end
 end)
-do -- Battle pets
+if MODERN then -- Battle pets
 	local running, sourceFilters, typeFilters, flagFilters, search = false, {}, {}, {[LE_PET_JOURNAL_FILTER_COLLECTED]=1, [LE_PET_JOURNAL_FILTER_NOT_COLLECTED]=1}, ""
 	hooksecurefunc(C_PetJournal, "SetSearchFilter", function(filter) search = filter end)
 	hooksecurefunc(C_PetJournal, "ClearSearchFilter", function() if not running then search = "" end end)
@@ -127,25 +140,27 @@ do -- Battle pets
 		running = false
 	end)
 end
-AB:AugmentCategory(L"Mounts", function(_, add)
-	if GetSpellInfo(150544) then add("spell", 150544) end
-	local myFactionId = UnitFactionGroup("player") == "Horde" and 0 or 1
-	local idm, i2, i2n = C_MountJournal.GetMountIDs(), {}, {}
-	for i=1, #idm do
-		local mid = idm[i]
-		local name, sid, _3, _4, _5, _6, _7, factionLocked, factionId, hide, have = C_MountJournal.GetMountInfoByID(mid)
-		if have and not hide
-		   and (not factionLocked or factionId == myFactionId)
-		   and RW:IsSpellCastable(sid)
-		   then
-			i2[#i2+1], i2n[mid] = mid, name
+if MODERN then -- Mounts
+	AB:AugmentCategory(L"Mounts", function(_, add)
+		if GetSpellInfo(150544) then add("spell", 150544) end
+		local myFactionId = UnitFactionGroup("player") == "Horde" and 0 or 1
+		local idm, i2, i2n = C_MountJournal.GetMountIDs(), {}, {}
+		for i=1, #idm do
+			local mid = idm[i]
+			local name, sid, _3, _4, _5, _6, _7, factionLocked, factionId, hide, have = C_MountJournal.GetMountInfoByID(mid)
+			if have and not hide
+			   and (not factionLocked or factionId == myFactionId)
+			   and RW:IsSpellCastable(sid)
+			   then
+				i2[#i2+1], i2n[mid] = mid, name
+			end
 		end
-	end
-	table.sort(i2, function(a,b) return i2n[a] < i2n[b] end)
-	for i=1,#i2 do
-		add("mount", i2[i])
-	end
-end)
+		table.sort(i2, function(a,b) return i2n[a] < i2n[b] end)
+		for i=1,#i2 do
+			add("mount", i2[i])
+		end
+	end)
+end
 AB:AugmentCategory(L"Macros", function(_, add)
 	add("macrotext", "")
 	local n, ni = {}, 1
@@ -157,20 +172,22 @@ AB:AugmentCategory(L"Macros", function(_, add)
 		add("macro", n[i])
 	end
 end)
-AB:AugmentCategory(L"Equipment sets", function(_, add)
-	for _,id in pairs(C_EquipmentSet.GetEquipmentSetIDs()) do
-		add("equipmentset", (C_EquipmentSet.GetEquipmentSetInfo(id)))
-	end
-end)
+if MODERN then -- equipmentset
+	AB:AugmentCategory(L"Equipment sets", function(_, add)
+		for _,id in pairs(C_EquipmentSet.GetEquipmentSetIDs()) do
+			add("equipmentset", (C_EquipmentSet.GetEquipmentSetInfo(id)))
+		end
+	end)
+end
 AB:AugmentCategory(L"Raid markers", function(_, add)
-	for k=0,1 do
+	for k=0, MODERN and 1 or 0 do
 		k = k == 0 and "raidmark" or "worldmark"
 		for i=0,8 do
 			add(k, i)
 		end
 	end
 end)
-do -- toys
+if MODERN then -- toys
 	local tx, search, push, pop = C_ToyBox
 	hooksecurefunc(C_ToyBox, "SetFilterString", function(s) search = s end) -- No corresponding Get
 	local fs, fc, fu, fsearch = {}
@@ -207,7 +224,9 @@ do -- toys
 	end)
 end
 do -- misc
-	AB:AddActionToCategory(L"Miscellaneous", "extrabutton", 1)
+	if MODERN then
+		AB:AddActionToCategory(L"Miscellaneous", "extrabutton", 1)
+	end
 	AB:AddActionToCategory(L"Miscellaneous", "macrotext", "")
 end
 do -- aliases

@@ -5,9 +5,7 @@ LibStub("AceEvent-3.0"):Embed(addon.lib)
 
 
 addon.DB = {}
-addon.debug = false
--- addon.debug = true
-addon.ruReg = "[%aабвгдеёжзийклмнопрстуфхцчшщъьыэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЫЭЮЯ%s]"
+addon.ruReg = "[%aабвгдеёжзийклмнопрстуфхцчшщъьыэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЫЭЮЯ'%s]"
 addon.functions = {}
 addon.interface = {}
 addon.version = GetAddOnMetadata('FastGuildInvite', 'Version')
@@ -27,7 +25,10 @@ addon.color = {
 	DEMONHUNTER='|cffa330c9',
 	green='|cff00ff00',
 	red='|cffff0000',
+	gray='|cff8c8c8c',
 	yellow='|cffffff00',
 	orange='|cffFFA500',
 	blue='|cff00BFFF',
+	purple='|cFF660099',
+	pink='|cFFFFC0CB',
 }

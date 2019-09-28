@@ -1,7 +1,9 @@
-SLASH_STATPRIORITY1 = "/statpriority"
-SLASH_STATPRIORITY2 = "/stat"
+if statPriorityStats == nil then
+	statPriorityStats = {}
+end
 
-local statPriorityStats = {}
+local statPriorityTexts = {}
+local statPriorityBoxes = {}
 
 statPriorityStats["WARRIORArms"] = "Haste > Critical Strike > Versatility > Mastery > Strength"
 statPriorityStats["WARRIORFury"] = "Critical Strike > Mastery > Haste > Versatility > Strength"
@@ -51,19 +53,6 @@ statPriorityStats["DEATHKNIGHTUnholy"] = "Haste > Critical Strike = Versatility 
 
 statPriorityStats["DEMONHUNTERHavoc"] = "Versatility > Critical Strike = Haste > Agility > Mastery"
 statPriorityStats["DEMONHUNTERVengeance"] = "Agility > Haste > Versatility > Mastery > Critical Strike"
-
-function SlashCmdList.STATPRIORITY(msg, editbox)
-	local name = UnitName("player")
-	local spec = GetSpecializationInfo(GetSpecialization())
-	spec = GetSpecializationName(spec)
-	if msg == "clear" then
-		statPriorityStats[name..spec] = nil
-		print("Custom Priority for this spec was removed")
-	else
-		statPriorityStats[name..spec] = msg
-		print("Custom Priority for this spec was added")
-	end
-end
 
 function statPriorityFrameOnEvent(self, event, arg1)
 	if event == "ADDON_LOADED" and arg1 == "StatPriority" then
@@ -215,6 +204,81 @@ function statPriorityFrameUpdate(frame, frameText, parent, unit)
 	end
 end
 
+function statPrioritySpecBox(parent, x, y)
+	local text = parent:CreateFontString(nil, "OVERLAY", "GameFontWhite")
+	text:SetPoint("TOPLEFT", x, y)
+	table.insert(statPriorityTexts, text)
+	local box = CreateFrame("EditBox", nil, parent, "InputBoxTemplate")
+	box:SetAutoFocus(false)
+	box:SetHeight(25)
+	box:SetWidth(400)
+	box:SetPoint("TOPLEFT", x, y - 15)
+	table.insert(statPriorityBoxes, box)
+end
+
+function statPriorityGetSpecs()
+	local temp, class = UnitClass("player")
+	if class == "WARRIOR" then
+		return {"Arms", "Fury", "Protection"}
+	elseif class == "PALADIN" then
+		 return {"Holy", "Protection", "Retribution"}
+	elseif class == "HUNTER" then
+		 return {"Beast Mastery", "Marksmanship", "Survival"}
+	elseif class == "ROGUE" then
+		 return {"Assassination", "Outlaw", "Subtlety"}
+	elseif class == "PRIEST" then
+		 return {"Discipline", "Holy", "Shadow"}
+	elseif class == "SHAMAN" then
+		 return {"Elemental", "Enhancement", "Restoration"}
+	elseif class == "MAGE" then
+		 return {"Arcane", "Fire", "Frost"}
+	elseif class == "WARLOCK" then
+		 return {"Affliction", "Demonology", "Destruction"}
+	elseif class == "DRUID" then
+		 return {"Balance", "Feral", "Guardian", "Restoration"}
+	elseif class == "MONK" then
+		 return {"Brewmaster", "Mistweaver", "Windwalker"}
+	elseif class == "DEATHKNIGHT" then
+		 return {"Blood", "Frost", "Unholy"}
+	elseif class == "DEMONHUNTER" then
+		 return {"Havoc", "Vengeance"}
+	end
+end
+
+function statPriorityOptionsRefresh()
+	local name = UnitName("player")
+	local specs = statPriorityGetSpecs()
+	for i = 1, table.getn(statPriorityTexts) do
+		if specs[i] ~= nil then
+			statPriorityTexts[i]:Show()
+			statPriorityTexts[i]:SetText(specs[i])
+			statPriorityBoxes[i]:Show()
+			if statPriorityStats[name..specs[i]] == nil then
+				statPriorityBoxes[i]:SetText("")
+			else
+				statPriorityBoxes[i]:SetText(statPriorityStats[name..specs[i]])
+			end
+			statPriorityBoxes[i]:SetCursorPosition(0)
+		else
+			statPriorityTexts[i]:Hide()
+			statPriorityBoxes[i]:Hide()
+		end
+	end
+end
+
+function statPriorityOptionsOkay()
+	local name = UnitName("player")
+	local specs = statPriorityGetSpecs()
+	for i = 1, table.getn(specs) do
+		local text = statPriorityBoxes[i]:GetText()
+		if text == "" then
+			statPriorityStats[name..specs[i]] = nil
+		else
+			statPriorityStats[name..specs[i]] = text
+		end
+	end
+end
+
 local statPriorityFrame = CreateFrame("FRAME", nil, UIParent)
 statPriorityInspectFrame = CreateFrame("FRAME", nil, UIParent)
 statPriorityText = statPriorityFrame:CreateFontString(nil, "OVERLAY", "GameFontWhite")
@@ -223,3 +287,17 @@ statPriorityFrame:RegisterEvent("ADDON_LOADED")
 statPriorityFrame:RegisterEvent("SPELLS_CHANGED")
 statPriorityFrame:RegisterEvent("INSPECT_READY");
 statPriorityFrame:SetScript("OnEvent", statPriorityFrameOnEvent)
+
+local statPriorityOptions = CreateFrame("FRAME")
+statPriorityOptions.name = "Stat Priority"
+local statPriorityOptionsText = statPriorityOptions:CreateFontString(nil, "OVERLAY", "GameFontWhite")
+statPriorityOptionsText:SetPoint("TOPLEFT", 20, -20)
+statPriorityOptionsText:SetText("You can put your own custom priority strings here")
+statPrioritySpecBox(statPriorityOptions, 20, -40)
+statPrioritySpecBox(statPriorityOptions, 20, -85)
+statPrioritySpecBox(statPriorityOptions, 20, -130)
+statPrioritySpecBox(statPriorityOptions, 20, -175)
+statPriorityOptions.refresh = statPriorityOptionsRefresh
+statPriorityOptions.okay = statPriorityOptionsOkay
+statPriorityOptions.cancel = statPriorityOptionsRefresh
+InterfaceOptions_AddCategory(statPriorityOptions)

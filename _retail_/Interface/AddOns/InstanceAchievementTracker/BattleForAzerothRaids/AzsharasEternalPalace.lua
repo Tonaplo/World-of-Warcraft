@@ -11,7 +11,7 @@ core._2164 = {}
 core._2164.Events = CreateFrame("Frame")
 
 ------------------------------------------------------
----- Abyssal Commander Sivara
+---- Abyssal Commander Sivara Test
 ------------------------------------------------------
 local garvalTheVanquisherFound = false
 local tideshaperKorvessFound = false
@@ -160,9 +160,18 @@ end
 function core._2164:Orgozoa()
 	--Defeat Orgozoa in the Hatchery in The Eternal Palace after incubating a baby Zoatroid on Normal Difficulty or higher.
 
-	--If egg not found by time Massive Incubator is interrupted then achievement must be failed
-	if core.type == "SPELL_INTERRUPT" and core.spellId == 298548 and eggFound == false then
+	--If egg not found by time Massive Incubator spellcast is started then fail achievement
+	if core.type == "SPELL_CAST_START" and core.spellId == 298548 and eggFound == false then
 		core:getAchievementFailed()
+	end
+
+	--If egg found by time Massive Incubator spellcast is interrupted then achievement is completed
+	if core.type == "SPELL_INTERRUPT" and core.spellId == 298548 and eggFound == true then
+		C_Timer.After(1, function() 
+			if eggFound == true then
+				core:getAchievementSuccess()
+			end
+		end)
 	end
 end
 
@@ -294,14 +303,23 @@ function core._2164:TheQueensCourt()
 	InfoFrame_UpdatePlayersOnInfoFramePersonal()
 	InfoFrame_SetHeaderCounter(L["Shared_PlayersWhoNeedAchievement"],playersCompletedAchievement,#core.currentBosses[1].players)
 
+	--Make sure we remove realm info from player before checking name
+	local name = nil
+	if core.destName ~= nil then
+		if string.find(core.destName, "-") then
+			local splitName, splitRealm = strsplit("-", player)
+			name = splitName
+		end
+	end
+
 	--When players gains Queen Favour debuff mark player as complete
-	if core.type == "SPELL_AURA_APPLIED" and core.spellId == 302029 then
+	if core.type == "SPELL_AURA_APPLIED" and core.spellId == 302029 and core.InfoFrame_PlayersTable[name] ~= nil then
 		playersCompletedAchievement = playersCompletedAchievement + 1
 		InfoFrame_SetPlayerComplete(core.destName)
 	end
 
 	--If player looses Queen Favour Debuff
-	if core.type == "SPELL_AURA_REMOVED" and core.spellId == 302029 and core.inCombat == true then
+	if core.type == "SPELL_AURA_REMOVED" and core.spellId == 302029 and core.inCombat == true and core.InfoFrame_PlayersTable[name] ~= nil then
 		playersCompletedAchievement = playersCompletedAchievement - 1
 		InfoFrame_SetPlayerFailed(core.destName)
 	end
@@ -312,11 +330,11 @@ function core._2164:TheQueensCourt()
 		core.achievementsFailed[1] = false
 	end
 
-	--Achievement Completed but has since failed
-	if playersCompletedAchievement ~= #core.currentBosses[1].players and core.achievementsCompleted[1] == true and core:getHealthPercent("boss1") > 0 then
-		core:getAchievementFailed()
-		core.achievementsCompleted[1] = false 
-	end
+	-- --Achievement Completed but has since failed
+	-- if playersCompletedAchievement ~= #core.currentBosses[1].players and core.achievementsCompleted[1] == true and core:getHealthPercent("boss1") > 0 then
+	-- 	core:getAchievementFailed()
+	-- 	core.achievementsCompleted[1] = false 
+	-- end
 end
 
 function core._2164:ClearVariables()
@@ -435,7 +453,9 @@ function core._2164.Events:UNIT_AURA(self, unitID)
 
 						--Check requirements have been met
 						if incubatingZoatroidFound == true then
-							core:getAchievementSuccess()
+							--Announce player has caught the egg
+							core:sendMessage(name .. " " .. L["Shared_HasCaught"] .. " " .. GetSpellLink(305322))
+							-- core:getAchievementSuccess()
 						end
 					end
 				end

@@ -1,11 +1,9 @@
 ## Interface: 80200
 ## Author: Призер - Галакронд RU
 ## Title: |cffffff00<|r|cff16ABB5FGI|r|cffffff00>|r |cff16ABB5FastGuildInvite|r
-## Version: 1.13.*
+## Version: 2.0.*
 ## SavedVariables: FGI_DB
 ## DefaultState: enabled
-
-Libs\UTF8\UTF8.xml
 
 FGI_Constants.lua
 Locale\Locale.xml
@@ -16,18 +14,16 @@ Libs\AceConsole-3.0\AceConsole-3.0.xml
 Libs\AceDB-3.0\AceDB-3.0.xml
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
 Libs\AceEvent-3.0\AceEvent-3.0.xml
-Libs\AceKGUI-3.0\AceKGUI-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
 Libs\GUI.lua
 
 Libs\Alerts\Alerts.lua
 
-Libs\LibWho-2.0\libs\LibStub\LibStub.lua
-Libs\LibWho-2.0\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
-Libs\LibWho-2.0\LibWho-2.0\LibWho-2.0.lua
 Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
 Libs\LibDBIcon-1.0\lib.xml
 
 init.lua
+
 
 
 
@@ -38,5 +34,8 @@ chooseInvites.lua
 mainFrame.lua
 message.lua
 settings.lua
+keybindings.lua
 filtersFrame.lua
 Scan.lua
+blackList.lua
+customList.lua

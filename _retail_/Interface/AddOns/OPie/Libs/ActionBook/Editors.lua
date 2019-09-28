@@ -1,6 +1,7 @@
 local _, T = ...
 
 local AB = assert(T.ActionBook:compatible(2, 23), "A compatible version of ActionBook is required.")
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 local L = AB:locale()
 
 local multilineInput do
@@ -69,17 +70,17 @@ do -- .macrotext
 	
 	local decodeSpellLink do
 		local names, tag = {}, 0
-		function decodeSpellLink(sid)
-			local tname
+		function decodeSpellLink(token, sid)
+			local forceRank, tname = token == "spellr"
 			for id in sid:gmatch("%d+") do
 				local name, sr = GetSpellInfo(tonumber(id)), GetSpellSubtext(tonumber(id))
-				if sr and sr ~= "" then name = name .. " (" .. sr .. ")" end
+				if sr and sr ~= "" and (forceRank or MODERN) then name = name .. " (" .. sr .. ")" end
 				if name and names[name] ~= tag then
 					names[name], tname = tag, (tname and (tname .. " / ") or "") .. name
 				end
 			end
 			tag = tag + 1
-			return tname and ("|cff71d5ff|Hrkspell:" .. sid .. "|h" .. tname .. "|h|r")
+			return tname and ("|cff71d5ff|Hrk" .. token .. ":" .. sid .. "|h" .. tname .. "|h|r")
 		end
 	end
 	local tagCounter = 0
@@ -96,7 +97,7 @@ do -- .macrotext
 		tagCounter = 0
 		eb:SetText((
 			(action[1] == "macrotext" and type(action[2]) == "string" and action[2] or "")
-			:gsub("{{spell:([%d/]+)}}", decodeSpellLink)
+			:gsub("{{(spellr?):([%d/]+)}}", decodeSpellLink)
 			:gsub("{{mount:ground}}", "|cff71d5ff|Hrkmount:ground|h" .. L"Ground Mount" .. "|h|r")
 			:gsub("{{mount:air}}", "|cff71d5ff|Hrkmount:air|h" .. L"Flying Mount" .. "|h|r")
 			:gsub("|Hrk", tagReplace)
@@ -125,7 +126,7 @@ do -- .macrotext
 				if link:match("item:") then
 					eb:Insert((isEmpty and (GetItemSpell(link) and SLASH_USE1 or SLASH_EQUIP1) or "") .. " " .. GetItemInfo(link))
 				elseif link:match("spell:") and not IsPassiveSpell(tonumber(link:match("spell:(%d+)"))) then
-					eb:Insert((isEmpty and SLASH_CAST1 or "") .. " " .. decodeSpellLink(link:match("spell:(%d+)")):gsub("|Hrk", tagReplace))
+					eb:Insert((isEmpty and SLASH_CAST1 or "") .. " " .. decodeSpellLink(link:match("(spell):(%d+)")):gsub("|Hrk", tagReplace))
 				else
 					eb:Insert(link:match("|h%[?(.-[^%]])%]?|h"))
 				end
@@ -177,11 +178,14 @@ local RegisterSimpleOptionsPanel do
 		f:SetAllPoints(host)
 		f:SetParent(host)
 		curHandle, curHandleID = opts, actionTable[2]
+		local getState = opts.getOptionState
 		for i=1,#opts do
-			local w, isChecked = f.Options[i], false
-			w.Text:SetText(opts[opts[i]])
-			if actionTable[opts[i]] ~= nil then
-				isChecked = not not actionTable[opts[i]]
+			local w, oi, isChecked = f.Options[i], opts[i], false
+			w.Text:SetText(opts[oi])
+			if getState then
+				isChecked = getState(actionTable, oi)
+			elseif actionTable[opts[i]] ~= nil then
+				isChecked = not not actionTable[oi]
 			end
 			w:SetChecked(isChecked)
 			w:Show()
@@ -196,6 +200,9 @@ local RegisterSimpleOptionsPanel do
 		into[1], into[2] = opts[0], curHandleID
 		for i=1,#opts do
 			into[opts[i]] = f.Options[i]:GetChecked() or nil
+		end
+		if opts.saveState then
+			opts.saveState(into)
 		end
 	end
 	function RegisterSimpleOptionsPanel(atype, opts)
@@ -213,9 +220,21 @@ RegisterSimpleOptionsPanel("item", {"byName", "forceShow", "onlyEquipped",
 RegisterSimpleOptionsPanel("macro", {"forceShow",
 	forceShow=L"Show a placeholder when unavailable",
 })
-RegisterSimpleOptionsPanel("extrabutton", {"forceShow",
-	forceShow=L"Show a placeholder when unavailable",
-})
+if MODERN then
+	RegisterSimpleOptionsPanel("extrabutton", {"forceShow",
+		forceShow=L"Show a placeholder when unavailable",
+	})
+else
+	RegisterSimpleOptionsPanel("spell", {"upRank",
+		upRank=L"Use the highest known rank",
+		getOptionState=function(actionTable, _optKey)
+			return actionTable[3] ~= "lock-rank"
+		end,
+		saveState=function(intoTable)
+			intoTable[3], intoTable.upRank = not intoTable.upRank and "lock-rank" or nil
+		end,
+	})
+end
 
 
 --[[ This API is not covered by the usual warranty.

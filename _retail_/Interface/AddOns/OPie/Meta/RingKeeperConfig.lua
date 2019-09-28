@@ -1,4 +1,5 @@
 local api, L, RK, conf, ORI, _, T = {}, OneRingLib.lang, OneRingLib.ext.RingKeeper, OneRingLib.ext.config, OneRingLib.ext.OPieUI, ...
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 local AB = assert(T.ActionBook:compatible(2,23), "A compatible version of ActionBook is required")
 local gfxBase, EV = [[Interface\AddOns\OPie\gfx\]], T.Evie
 
@@ -46,7 +47,7 @@ local function createIconButton(name, parent, id)
 	return f
 end
 local function SetCursor(tex)
-	_G.SetCursor((type(tex) == "number" or tex == (gfxBase .. "icon")) and "Interface\\Icons\\Temp" or tex)
+	_G.SetCursor((type(tex) == "number" or tex == (gfxBase .. "opie_ring_icon")) and (MODERN and "Interface\\Icons\\Temp" or "Interface/Icons/INV_Crate_01") or tex)
 end
 local function SaveRingVersion(name, liveData)
 	local key = "RKRing#" .. name
@@ -913,8 +914,14 @@ newSlice = CreateFrame("Frame", nil, ringContainer) do
 	newSlice.close:SetPoint("TOPRIGHT", 3, 4)
 	newSlice.close:SetSize(30, 30)
 	newSlice.close:SetScript("OnClick", function() ringContainer.newSlice:Click() end)
-	local b = newSlice.close:CreateTexture(nil, "BACKGROUND", "UI-Frame-TopCornerRight")
-	b:SetTexCoord(9/33, 1, 0, 23/33)
+	local b = newSlice.close:CreateTexture(nil, "BACKGROUND")
+	if MODERN then
+		b:SetAtlas("UI-Frame-TopCornerRight")
+		b:SetTexCoord(9/33, 1, 0, 23/33)
+	else
+		b:SetTexture("Interface/FrameGeneral/UI-Frame")
+		b:SetTexCoord(90/128, 114/128, 1/128, 24/128)
+	end
 	b:SetPoint("TOPLEFT", 4, -5) b:SetPoint("BOTTOMRIGHT", -5, 4)
 	b:SetVertexColor(0.6,0.6,0.6)
 	
@@ -1105,12 +1112,12 @@ local ringNameMap, ringOrderMap, ringTypeMap, ringNames, currentRing, currentRin
 local typePrefix = {
 	MINE="|cff25bdff|TInterface/FriendsFrame/UI-Toast-FriendOnlineIcon:14:14:0:1:32:32:8:24:8:24:30:190:255|t ",
 	PERSONAL="|cffd659ff|TInterface/FriendsFrame/UI-Toast-FriendOnlineIcon:14:14:0:1:32:32:8:24:8:24:180:0:255|t ",
-	HORDE="|cffff3000|A:QuestPortraitIcon-Horde-small:18:18:-1:-2|a",
-	ALLIANCE="|cff00a0ff|A:QuestPortraitIcon-Alliance-small:20:18:-2:0|a",
+	HORDE=MODERN and "|cffff3000|A:QuestPortraitIcon-Horde-small:18:18:-1:-2|a" or "|cffff3000|A:poi-horde:16:16:-2:0|a",
+	ALLIANCE=MODERN and "|cff00a0ff|A:QuestPortraitIcon-Alliance-small:20:18:-2:0|a" or "|cff00a0ff|A:poi-alliance:17:20:-2:0|a",
 }
 do
 	for k, v in pairs(CLASS_ICON_TCOORDS) do
-		typePrefix[k] = ("|cff%s|TInterface/GLUES/CHARACTERCREATE/UI-CharacterCreate-Classes:14:14:0:1:256:256:%d:%d:%d:%d|t "):format(RAID_CLASS_COLORS[k].colorStr:sub(3), v[1]*256+6,v[2]*256-6,v[3]*256+6,v[4]*256-6)
+		typePrefix[k] = ("|cff%s|TInterface/GLUES/CHARACTERCREATE/UI-CharacterCreate-Classes:16:16:0:0:256:256:%d:%d:%d:%d|t "):format(RAID_CLASS_COLORS[k].colorStr:sub(3), v[1]*256+6,v[2]*256-6,v[3]*256+6,v[4]*256-6)
 	end
 end
 local function sortNames(a,b)
@@ -1135,6 +1142,10 @@ function ringDropDown:initialize(level, nameList)
 		table.sort(ringNames, sortNames)
 		table.sort(ringNames.hidden, sortNames)
 		table.sort(ringNames.other, sortNames)
+		if #ringNames == 0 and #ringNames.hidden == 0 and #ringNames.other == 0 then
+			btnNewRing:Click()
+			return
+		end
 	elseif nameList == "overflow-main" then
 		conf.ui.scrollingDropdown:Display(2, ringNames, ringDropDown_EntryFormat, api.selectRing, 16)
 		return
@@ -1238,6 +1249,10 @@ function sliceDetail.skipSpecs:GetValue()
 	return self.val:match("^/(.+)/$")
 end
 function sliceDetail.skipSpecs:text()
+	if not MODERN then
+		UIDropDownMenu_DisableDropDown(self)
+		return UIDropDownMenu_SetText(self, L"All characters")
+	end
 	local text, u, skipSpecs = "", GetNumSpecializations(), self.val
 	for i=1, u do
 		local id, name = GetSpecializationInfo(i)

@@ -1,6 +1,6 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: OPie
-## Version: Walnut 3
+## Version: Walnut 4
 ## Notes: Group abilities into rings that appear when you hold down a binding.
 ## Notes-deDE: Gruppiere Fähigkeiten in Ringen die erscheinen wenn eine Tastenbelegung ausgelöst wird.
 ## Notes-esES: Agrupar habilitades en anillos que se aparecen al presionar teclados.
@@ -29,4 +29,5 @@ Meta\RingKeeperConfig.lua
 Meta\SpecSet.lua
 Meta\DataBroker.lua
 Rings\Common.lua
+Rings\Ancient.lua
 Rings\RKRings.lua

@@ -1,41 +1,137 @@
 local addon=FGI
 local fn=addon.functions
 local L = addon.L
+local CLASS = L.SYSTEM.class
 local interface = addon.interface
 local settings = L.settings
-local GUI = LibStub("AceKGUI-3.0")
+local GUI = LibStub("AceGUI-3.0")
 local color = addon.color
 local FastGuildInvite = addon.lib
 addon.search = {progress=1, inviteList={}, state='stop', timeShift=0, tempSendedInvites={}, whoQueryList = {}}
-addon.smartSearch = {progress=1, intervalTime = 3, whoQueryList = {}, inviteList={}, tempSendedInvites={}}
 addon.removeMsgList = {}
 addon.libWho = {}
 local DB
+local debugDB
 local nextSearch
-LibStub:GetLibrary("LibWho-2.0"):Embed(addon.libWho);
+
+addon.searchInfo = {unique = {0}, sended = {0}, invited = {0}, filtered = {0}}
+local mt = {
+	__call = function(self,n)
+		self[1] = self[1] + (n==0 and -self[1] or (n or 1))
+		interface.mainFrame.searchInfo.update(addon.searchInfo())
+		return self[1]
+	end
+}
+setmetatable(addon.searchInfo.unique,mt);setmetatable(addon.searchInfo.sended,mt);setmetatable(addon.searchInfo.invited,mt);setmetatable(addon.searchInfo.filtered,mt);
+setmetatable(addon.searchInfo,{__call = function(self)
+	return {self.unique[1], self.sended[1], self.invited[1], self.filtered[1]}
+end});
 
 local time, next = time, next
 
 
 
+
+local frame = CreateFrame("Frame")
+frame:RegisterEvent("CHAT_MSG_SYSTEM")
+frame:SetScript("OnEvent", function(_,_,msg)
+	local place = strfind(ERR_GUILD_JOIN_S,"%s",1,true)
+	if (place) then
+		local n = strsub(msg,place)
+		local name = strsub(n,1,(strfind(n,"%s") or 2)-1)
+		if format(ERR_GUILD_JOIN_S,name) == msg then
+			if DB.alredySended[name] then
+				addon.searchInfo.invited()
+			end
+		end
+	end
+end)
+
 --ERR_GUILD_INVITE_S,ERR_GUILD_DECLINE_S,ERR_ALREADY_IN_GUILD_S,ERR_ALREADY_INVITED_TO_GUILD_S,ERR_GUILD_DECLINE_AUTO_S,ERR_GUILD_JOIN_S,ERR_GUILD_PLAYER_NOT_FOUND_S,ERR_CHAT_PLAYER_NOT_FOUND_S
 --	CanGuildInvite()
 -- LOCALIZED_CLASS_NAMES_MALE
 
-function fn:SetKeybind(key)
+function fn:initDB()
+	DB = addon.DB
+	debugDB = addon.debugDB
+end
+
+local function IsInBlacklist(name)
+	return DB.blackList[name] and true or false
+end
+
+local function guildKick(name)
+	StaticPopupDialogs["FGI_BLACKLIST"].add(name)
+end
+
+function fn:blacklistKick()
+	for i=1, GetNumGuildMembers() do
+		local name = GetGuildRosterInfo(i):match("(.*)-")
+		if IsInBlacklist(name) then guildKick(name) end
+	end
+end
+
+function fn:blackListAutoKick()
+	if not IsInGuild() then return end
+	-- autoKick on entering world
+	fn:blacklistKick()
+	
+	--init autoKick on guild entering
+	local frame = CreateFrame("Frame")
+	frame:RegisterEvent("CHAT_MSG_SYSTEM")
+	frame:SetScript("OnEvent", function(_,_,msg)
+		local place = strfind(ERR_GUILD_JOIN_S,"%s",1,true)
+		if (place) then
+			local n = strsub(msg,place)
+			local name = strsub(n,1,(strfind(n,"%s") or 2)-1)
+			if format(ERR_GUILD_JOIN_S,name) == msg then
+				if IsInBlacklist(name) then guildKick(name) end
+			end
+		end
+	end)
+end
+
+function fn:blackList(name)
+	DB.blackList[name] = L.interface.defaultReason
+	print(format("%s%s|r", color.red, format(L.interface["Игрок %s добавлен в черный список."], name)))
+	fn:blacklistKick()
+end
+
+function fn:closeBtn(obj)
+	obj.text:SetPoint("TOPLEFT", 2, -1)
+	obj.text:SetPoint("BOTTOMRIGHT", -2, 1)
+end
+
+function fn.debug(...)
+	if not addon.debug then return end
+	local msg, colored = ...
+	if msg == nil or type(msg) == "table" then
+		table.insert(debugDB,format("%swrong debug input - msg = %s\n%s",color.red,type(msg),text))
+		return
+	end
+	if colored then msg = format("%s%s|r", colored, msg) end
+	table.insert(debugDB,msg)
+end
+local debug = fn.debug
+
+function fn:SetKeybind(key, keyType)
+	local DBkey = addon.DB.keyBind
 	if key then
-		if GetBindingAction(key) == "" or addon.DB.keyBind == key then
-			addon.DB.keyBind = key
+		if keyType == "invite" then
+			DBkey.invite = key
 			SetBindingClick(key, interface.scanFrame.invite.frame:GetName())
-		else
-			BasicMessageDialog:SetFrameStrata("TOOLTIP")
-			message(L.FAQ.error["Сочетание клавиш уже занято"])
+		elseif keyType == "nextSearch" then
+			DBkey.nextSearch = key
+			SetBindingClick(key, interface.scanFrame.pausePlay.frame:GetName())
 		end
 	else
-		addon.DB.keyBind = false
+		DBkey[keyType] = false
 	end
-	interface.settingsFrame.settingsButtonsGRP.keyBind:SetLabel(format(L.interface["Назначить кнопку (%s)"], addon.DB.keyBind or "none"))
-	interface.settingsFrame.settingsButtonsGRP.keyBind:SetKey(addon.DB.keyBind)
+	
+	interface.keyBindings.buttonsGRP.keyBind.invite:SetLabel(format(L.interface["Назначить кнопку (%s)"], DBkey.invite or "none"))
+	interface.keyBindings.buttonsGRP.keyBind.invite:SetKey(DBkey.invite)
+	interface.keyBindings.buttonsGRP.keyBind.nextSearch:SetLabel(format(L.interface["Назначить кнопку (%s)"], DBkey.nextSearch or "none"))
+	interface.keyBindings.buttonsGRP.keyBind.nextSearch:SetKey(DBkey.nextSearch)
 end
 
 function fn:FiltersInit()
@@ -46,8 +142,7 @@ function fn:FiltersInit()
 		interface.filtersFrame:AddChild(frame)
 		
 		table.insert(list, frame)
-	end
-	for i=1, FGI_FILTERSLIMIT do
+		
 		interface.filtersFrame.filterList[i]:Hide()
 	end
 end
@@ -66,18 +161,18 @@ function fn:FilterChange(id)
 		addfilterFrame.classesCheckBoxIgnore:SetValue(true)
 	else
 		addfilterFrame.classesCheckBoxIgnore:SetValue(false)
-		addfilterFrame.classesCheckBoxDeathKnight:SetValue(class[L.SYSTEM.class.DeathKnight] or false)
-		addfilterFrame.classesCheckBoxDemonHunter:SetValue(class[L.SYSTEM.class.DemonHunter] or false)
-		addfilterFrame.classesCheckBoxDruid:SetValue(class[L.SYSTEM.class.Druid] or false)
-		addfilterFrame.classesCheckBoxHunter:SetValue(class[L.SYSTEM.class.Hunter] or false)
-		addfilterFrame.classesCheckBoxMage:SetValue(class[L.SYSTEM.class.Mage] or false)
-		addfilterFrame.classesCheckBoxMonk:SetValue(class[L.SYSTEM.class.Monk] or false)
-		addfilterFrame.classesCheckBoxPaladin:SetValue(class[L.SYSTEM.class.Paladin] or false)
-		addfilterFrame.classesCheckBoxPriest:SetValue(class[L.SYSTEM.class.Priest] or false)
-		addfilterFrame.classesCheckBoxRogue:SetValue(class[L.SYSTEM.class.Rogue] or false)
-		addfilterFrame.classesCheckBoxShaman:SetValue(class[L.SYSTEM.class.Shaman] or false)
-		addfilterFrame.classesCheckBoxWarlock:SetValue(class[L.SYSTEM.class.Warlock] or false)
-		addfilterFrame.classesCheckBoxWarrior:SetValue(class[L.SYSTEM.class.Warrior] or false)
+		addfilterFrame.classesCheckBoxDruid:SetValue(class[CLASS.Druid] or false)
+		addfilterFrame.classesCheckBoxHunter:SetValue(class[CLASS.Hunter] or false)
+		addfilterFrame.classesCheckBoxMage:SetValue(class[CLASS.Mage] or false)
+		addfilterFrame.classesCheckBoxPaladin:SetValue(class[CLASS.Paladin] or false)
+		addfilterFrame.classesCheckBoxPriest:SetValue(class[CLASS.Priest] or false)
+		addfilterFrame.classesCheckBoxRogue:SetValue(class[CLASS.Rogue] or false)
+		addfilterFrame.classesCheckBoxShaman:SetValue(class[CLASS.Shaman] or false)
+		addfilterFrame.classesCheckBoxWarlock:SetValue(class[CLASS.Warlock] or false)
+		addfilterFrame.classesCheckBoxWarrior:SetValue(class[CLASS.Warrior] or false)
+		addfilterFrame.classesCheckBoxDeathKnight:SetValue(class[CLASS.DeathKnight] or false)
+		addfilterFrame.classesCheckBoxDemonHunter:SetValue(class[CLASS.DemonHunter] or false)
+		addfilterFrame.classesCheckBoxMonk:SetValue(class[CLASS.Monk] or false)
 	end
 	
 	if not raceFilter then 
@@ -143,86 +238,29 @@ end
 
 
 local RaceClassCombo = {
-	Orc = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Shaman,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk,L.SYSTEM.class.DeathKnight},
-	Undead = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk,L.SYSTEM.class.DeathKnight},
-	Tauren = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Paladin,L.SYSTEM.class.Hunter,L.SYSTEM.class.Priest,L.SYSTEM.class.Shaman,L.SYSTEM.class.Monk,L.SYSTEM.class.Druid,L.SYSTEM.class.DeathKnight},
-	Troll = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Shaman,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk,L.SYSTEM.class.Druid,L.SYSTEM.class.DeathKnight},
-	BloodElf = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Paladin,L.SYSTEM.class.Hunter,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk,L.SYSTEM.class.DemonHunter,L.SYSTEM.class.DeathKnight},
-	Goblin = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Shaman,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.DeathKnight},
-	Nightborne = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk},
-	HightmountainTauren = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Shaman,L.SYSTEM.class.Monk,L.SYSTEM.class.Druid},
-	MagharOrc = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Shaman,L.SYSTEM.class.Mage,L.SYSTEM.class.Monk},
-	Pandaren = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Shaman,L.SYSTEM.class.Mage,L.SYSTEM.class.Monk},
-	Human = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Paladin,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk,L.SYSTEM.class.DeathKnight},
-	Dwarf = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Paladin,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Shaman,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk,L.SYSTEM.class.DeathKnight},
-	NightElf = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage,L.SYSTEM.class.Monk,L.SYSTEM.class.Druid,L.SYSTEM.class.DemonHunter,L.SYSTEM.class.DeathKnight},
-	Gnome = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk,L.SYSTEM.class.DeathKnight},
-	Draenei = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Paladin,L.SYSTEM.class.Hunter,L.SYSTEM.class.Priest,L.SYSTEM.class.Shaman,L.SYSTEM.class.Mage,L.SYSTEM.class.Monk,L.SYSTEM.class.DeathKnight},
-	Worgen = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Druid,L.SYSTEM.class.DeathKnight},
-	VoidElf = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk},
-	LightforgedDraenei = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Paladin,L.SYSTEM.class.Hunter,L.SYSTEM.class.Priest,L.SYSTEM.class.Mage},
-	DarkIronDwarf = {L.SYSTEM.class.Warrior,L.SYSTEM.class.Paladin,L.SYSTEM.class.Hunter,L.SYSTEM.class.Rogue,L.SYSTEM.class.Priest,L.SYSTEM.class.Shaman,L.SYSTEM.class.Mage,L.SYSTEM.class.Warlock,L.SYSTEM.class.Monk},
+	Orc = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	Undead = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	Tauren = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Priest,CLASS.Shaman,CLASS.Monk,CLASS.Druid,CLASS.DeathKnight},
+	Troll = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.Druid,CLASS.DeathKnight},
+	Human = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	Dwarf = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	NightElf = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Monk,CLASS.Druid,CLASS.DemonHunter,CLASS.DeathKnight},
+	Gnome = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	BloodElf = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DemonHunter,CLASS.DeathKnight},
+	Goblin = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.DeathKnight},
+	Nightborne = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk},
+	HightmountainTauren = {CLASS.Warrior,CLASS.Hunter,CLASS.Shaman,CLASS.Monk,CLASS.Druid},
+	MagharOrc = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk},
+	Pandaren = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk},
+	Draenei = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk,CLASS.DeathKnight},
+	Worgen = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Druid,CLASS.DeathKnight},
+	VoidElf = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk},
+	LightforgedDraenei = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Priest,CLASS.Mage},
+	DarkIronDwarf = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk},
+	KulTiran = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk,CLASS.Druid,},
+	ZandalariTroll = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk,CLASS.Druid,},
+	
 }
-
-local function getEasyWhoList()
-	local min = DB.lowLimit
-	local max = DB.highLimit
-	interval = 1
-	local query = {}
-	
-	for i=min,max,interval do
-		local next = i+ interval-1
-		next = next<=max and next or max
-		table.insert(query, i.."-"..next)
-	end
-	return query
-end
-
-local function getWhoList(interval)
-	local min = DB.lowLimit
-	local max = DB.highLimit
-	interval = DB.deepSearch and (interval or DB.searchInterval) or (interval or 1)
-	local raceFilter = DB.raceFilterVal
-	local classFilter = DB.classFilterVal
-	local query = {}
-	
-	for i=min,max,interval do
-		local cur = i
-		local next = i+ interval-1
-		next = next<=max and next or max
-		if DB.deepSearch then
-			if next<=max then
-				if raceFilter <= max and (raceFilter <= cur or raceFilter == next) and classFilter <= max and (classFilter <= cur or classFilter == next) then
-					for k,v in pairs(L.SYSTEM.race) do
-						for _,j in pairs(RaceClassCombo[k]) do
-							-- table.insert(query, cur.."-"..next..L.interface["r-"]..v..L.interface["c-"]..j)
-							table.insert(query, format("%d-%d %s%s %s%s", cur, next, L.SYSTEM["r-"], v, L.SYSTEM["c-"], j))
-						end
-					end
-				elseif raceFilter <= max and (raceFilter <= cur or raceFilter == next) then
-					for _,v in pairs(L.SYSTEM.race) do
-						-- table.insert(query, cur.."-"..next..L.interface["r-"]..v)
-						table.insert(query, format("%d-%d %s%s", cur, next, L.SYSTEM["r-"], v))
-					end
-				elseif classFilter <= max and (classFilter <= cur or classFilter == next) then
-					for _,j in pairs(L.SYSTEM.class) do
-						-- table.insert(query, cur.."-"..next..L.interface["c-"]..j)
-						table.insert(query, format("%d-%d %s%s", cur, next, L.SYSTEM["c-"], j))
-					end
-				else
-					-- table.insert(query, cur.."-"..next)
-					table.insert(query, format("%d-%d", cur, next))
-				end
-			end
-		else
-			-- table.insert(query, cur.."-"..next)
-			table.insert(query, format("%d-%d", cur, next))
-		end
-		if next==max then break end
-	end
-	
-	return (#query>FGI_MAXWHOQUERY and interval<=max-min) and getWhoList(interval+1) or query
-end
 
 function fn:msgMod(msg)
 	if not msg then return end
@@ -236,7 +274,7 @@ end
 local function hideWhisper(...)
 	local name = select(4,...):match("([^-]*)")
 	if addon.removeMsgList[name] then
-		addon.removeMsgList[name] = nil
+		--addon.removeMsgList[name] = nil
 		return true
 	else
 		return false, select(3,...)
@@ -264,20 +302,30 @@ local function inviteBtnText(text)
 	interface.scanFrame.invite:SetText(text)
 end
 
+function fn:rememberPlayer(name)
+	DB.alredySended[name] = time({year = date("%Y"), month = date("%m"), day = date("%d")})
+	debug(format("Remember: %s",name))
+end
+
 function fn:invitePlayer(noInv)
-	local list = DB.SearchType == 3 and addon.smartSearch.inviteList or addon.search.inviteList
+	local list = addon.search.inviteList
 	if #list==0 then return end
 	if DB.inviteType == 2 and not noInv then
 		addon.msgQueue[list[1].name] = true
 	elseif DB.inviteType == 3 and not noInv then
-		local msg = DB.messageList[DB.curMessage]
+		local msg = DB.messageList[math.random(1, math.max(#DB.messageList, 1))]
+		debug(format("Send whisper: %s %s",list[1].name, msg))
 		fn:sendWhisper(msg, list[1].name)
 	end
 	if (DB.inviteType == 1 or DB.inviteType == 2) and not noInv then
+		debug(format("Invite: %s",list[1].name))
 		GuildInvite(list[1].name)
 	end
 	if not noInv or DB.rememberAll then
-		DB.alredySended[list[1].name] = time({year = date("%Y"), month = date("%m"), day = date("%d")})
+		fn:rememberPlayer(list[1].name)
+	end
+	if not noInv then
+		addon.searchInfo.sended()
 	end
 	table.remove(list, 1)
 	inviteBtnText(format(L.interface["Пригласить: %d"], #list))
@@ -302,11 +350,11 @@ local function searchIntervalTimer(onOff, timer)
 end
 
 local frame = CreateFrame('Frame')
-frame:RegisterEvent('PLAYER_ENTERING_WORLD')
+frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
-	DB = addon.DB
 	local parent = interface.filtersFrame
 	local list = parent.filterList
+	C_Timer.After(0.1, function()
 	for i=1, #list do
 		local frame = list[i]
 		frame:ClearAllPoints()
@@ -320,13 +368,15 @@ frame:SetScript('OnEvent', function()
 			end
 		end
 	end
-	frame:UnregisterEvent('PLAYER_ENTERING_WORLD')
+	end)
 end)
 
 local function getSearchDeepLvl(query)
-	if query:find(("%%d+%%-%%d+ %s%%\"%s+%%\" %s"):format(L.SYSTEM["r-"],addon.ruReg,L.SYSTEM["c-"]):gsub("-","%%-")) then
+	local l2 = (("%%d+-%%d+ %s\"%s+"):format(L.SYSTEM["r-"],addon.ruReg)):gsub("-","%%-")
+	local l3 = (("%%d+-%%d+ %s\"%s+%%\" %s"):format(L.SYSTEM["r-"],addon.ruReg,L.SYSTEM["c-"])):gsub("-","%%-")
+	if query:find(l3) then
 		return 3
-	elseif query:find(("%%d+%%-%%d+ %s%%\"%s+"):format(L.SYSTEM["r-"],addon.ruReg):gsub("-","%%-")) then
+	elseif query:find(l2) then
 		return 2
 	elseif query:find("%d+%-%d+") then
 		return 1
@@ -335,8 +385,8 @@ local function getSearchDeepLvl(query)
 	end
 end
 
-local function smartSearchGetParams(query)
-	local class = query:match(("%s%%\"(%s)+%%\""):format(L.SYSTEM["c-"],addon.ruReg):gsub("-","%%-"))
+local function searchGetParams(query)
+	local class = query:match(("%s%%\"(%s+)%%\""):format(L.SYSTEM["c-"],addon.ruReg):gsub("-","%%-"))
 	local race = query:match(("%s%%\"(%s+)%%\""):format(L.SYSTEM["r-"],addon.ruReg):gsub("-","%%-"))
 	local lvl = {}
 	for s in query:gmatch("%d+") do
@@ -346,57 +396,127 @@ local function smartSearchGetParams(query)
 	return {class = class,race = race, min = lvl[1], max = lvl[2]}
 end
 
-local function smartSearchAddWhoList(query, lvl)
-	local progress = addon.smartSearch.progress-1
+local function isQueryFiltered(query)
+	if DB.filtersList == {} or not DB.enableFilters then return false end
+	local filter = {}
+	local q = searchGetParams(query)
+	q.min = tonumber(q.min)
+	q.max = tonumber(q.max)
+	for fName,v in pairs(DB.filtersList) do
+		local lvl = {}
+		if v.filterOn then
+			filter[fName] = {min = false, max = false, --[[race = false,class = false,]]}
+			if v.lvlRange then
+				for s in v.lvlRange:gmatch("%d+") do
+					table.insert(lvl, tonumber(s))
+				end
+				filter[fName].min, filter[fName].max = lvl[1], lvl[2] or lvl[1]
+			end
+			if v.raceFilter then filter[fName].race = v.raceFilter[q.race] and q.race or false end
+			if v.classFilter then filter[fName].class = v.classFilter[q.class] and q.class or false end
+		end
+	end
+	for fName,f in pairs(filter) do
+		local sLevel = getSearchDeepLvl(query)
+		local lvlFiltered, raceFiltered, classFiltered = (f.min and (f.min <= q.min and f.max >= q.max)), (f.race and (f.race==q.race)), (f.class and (f.class==q.class))
+		local queryFiltered = false
+		if sLevel == 1 then
+			queryFiltered = lvlFiltered and f.race==nil and f.class==nil
+		elseif sLevel == 2 then
+			queryFiltered = f.class==nil and ((lvlFiltered and raceFiltered) or (not f.min and raceFiltered)) or (lvlFiltered and f.race==nil and f.class==nil)
+		elseif sLevel == 3 then
+			queryFiltered = (lvlFiltered and (f.race==nil and f.class==nil) or (raceFiltered and f.class==nil) or (f.race==nil and classFiltered) or (raceFiltered and classFiltered)) or (not f.min and (raceFiltered and f.class==nil) or (f.race==nil and classFiltered))
+		else
+			debug('wrong search Level', color.red)
+		end
+		if queryFiltered then debug(string.format('query (%s) filtered by filter (%s)', query, fName), color.blue);return true end
+	end
+	return false
+end
+
+local function searchAddWhoList(query, lvl)
+	local progress = addon.search.progress-1
+	local tAddN =0
 	local function LVLsplit(query)
 		local v1 = query:gsub("(%d+)%-(%d+)", function(a,b)
 			local dif = b-a
 			b = b - math.floor(dif/2)-1
+			tAddN = tAddN+1
 			return a.."-"..b
 		end)
 		local v2 = query:gsub("(%d+)%-(%d+)", function(a,b)
 			local dif = b-a
 			a = a + math.ceil(dif/2)
+			tAddN = tAddN+1
 			return a.."-"..b
 		end)
-		table.remove(addon.smartSearch.whoQueryList, progress)
-		table.insert(addon.smartSearch.whoQueryList, progress, v1)
-		table.insert(addon.smartSearch.whoQueryList, progress+1, v2)
+		table.remove(addon.search.whoQueryList, progress)
+		
+		
+		if isQueryFiltered(v1) then
+			tAddN = tAddN-1
+		else
+			debug(format("Add new lvl query: (%s); Query: %s", v1, query))
+			table.insert(addon.search.whoQueryList, progress, v1)
+		end
+		if isQueryFiltered(v2) then
+			tAddN = tAddN-1
+		else
+			debug(format("Add new lvl query: (%s); Query: %s", v2, query))
+			table.insert(addon.search.whoQueryList, progress+1-(2-tAddN), v2)
+		end
+		
+		
+		
 		local min, max = interface.scanFrame.progressBar:GetMinMax()
-		interface.scanFrame.progressBar:SetMinMax(min, max+2*FGI_SCANINTERVALTIME)
-		addon.smartSearch.progress = addon.smartSearch.progress - 1
+		-- interface.scanFrame.progressBar:SetMinMax(min, max+tAddN*FGI_SCANINTERVALTIME)
+		addon.search.progress = addon.search.progress - 1
 	end
 	local function RACEsplit(query)
 		local new = 0
-		table.remove(addon.smartSearch.whoQueryList, progress)
+		table.remove(addon.search.whoQueryList, progress)
 		for _,v in pairs(L.SYSTEM.race) do
-			table.insert(addon.smartSearch.whoQueryList, progress+new,format("%s %s\"%s\"",query,L.SYSTEM["r-"],v))
-			new = new + 1
+			local newQuery = format("%s %s\"%s\"",query,L.SYSTEM["r-"],v)
+			if not isQueryFiltered(newQuery) then
+				table.insert(addon.search.whoQueryList, progress+new, newQuery)
+				new = new + 1
+			end
 		end
-		if new==0 then return table.insert(addon.smartSearch.whoQueryList, progress, query) end
+		if new==0 then return table.insert(addon.search.whoQueryList, progress, query) end
+		debug(format("Add new race queries: %d; Query: %s", new, query))
 		local min, max = interface.scanFrame.progressBar:GetMinMax()
-		interface.scanFrame.progressBar:SetMinMax(min, max+(new)*FGI_SCANINTERVALTIME)
-		addon.smartSearch.progress = addon.smartSearch.progress - 1
+		-- interface.scanFrame.progressBar:SetMinMax(min, max+(new)*FGI_SCANINTERVALTIME)
+		addon.search.progress = addon.search.progress - 1
 	end
 	local function CLASSsplit(query, race)
 		local new = 0
-		table.remove(addon.smartSearch.whoQueryList, progress)
-		for k,v in pairs(L.SYSTEM.race) do
-			if v==race then
-				race = k
-				break
+		table.remove(addon.search.whoQueryList, progress)
+		if race then
+			for k,v in pairs(L.SYSTEM.race) do
+				if v==race then
+					race = k
+					break
+				end
+			end
+			
+			if not RaceClassCombo[race] then return print("FGI Error race -",race) end
+		else
+			return table.insert(addon.search.whoQueryList, progress, query)
+		end
+		for k,v in pairs(RaceClassCombo[race]) do
+			local newQuery = format("%s %s\"%s\"",query,L.SYSTEM["c-"],v)
+			if not isQueryFiltered(newQuery) then
+				table.insert(addon.search.whoQueryList, progress+new, newQuery)
+				new = new + 1
 			end
 		end
-		if not RaceClassCombo[race] then return print("Error race -",race) end
-		for k,v in pairs(RaceClassCombo[race]) do
-			table.insert(addon.smartSearch.whoQueryList, progress+k-1,format("%s %s\"%s\"",query,L.SYSTEM["c-"],v))
-		end
-		if #RaceClassCombo[race]==0 then return table.insert(addon.smartSearch.whoQueryList, progress, query) end
+		if #RaceClassCombo[race]==0 then return table.insert(addon.search.whoQueryList, progress, query) end
+		debug(format("Add new class queries: %d; Query: %s", #RaceClassCombo[race], query))
 		local min, max = interface.scanFrame.progressBar:GetMinMax()
-		interface.scanFrame.progressBar:SetMinMax(min, max+(#RaceClassCombo[race])*FGI_SCANINTERVALTIME)
-		addon.smartSearch.progress = addon.smartSearch.progress - 1
+		-- interface.scanFrame.progressBar:SetMinMax(min, max+(new)*FGI_SCANINTERVALTIME)
+		addon.search.progress = addon.search.progress - 1
 	end
-	local queryParams = smartSearchGetParams(query, lvl)
+	local queryParams = searchGetParams(query, lvl)
 	local difference = (queryParams.max - queryParams.min) > 0
 	if difference then
 		LVLsplit(query)
@@ -405,6 +525,20 @@ local function smartSearchAddWhoList(query, lvl)
 	elseif lvl == 2 then
 		CLASSsplit(query, queryParams.race)
 	end
+end
+
+local function findClass(className)
+	for k,v in pairs(L.SYSTEM.femaleClass) do
+		if v==className then return L.SYSTEM.class[k]  end
+	end
+	return false
+end
+
+local function findRace(raceName)
+	for k,v in pairs(L.SYSTEM.femaleRace) do
+		if v==raceName then return L.SYSTEM.race[k] end
+	end
+	return false
 end
 
 local function filtered(player)
@@ -419,24 +553,26 @@ local function filtered(player)
 				end
 			end
 			if v.filterByName then
-				if player.Name:find(v.filterByName) then
-					v.filteredCount = v.filteredCount + 1
-					fn:FiltersUpdate()
-					return true--,"name"
+				for k in v.filterByName:gmatch("([^;]+)") do
+					if player.Name:find(k) then
+						v.filteredCount = v.filteredCount + 1
+						fn:FiltersUpdate()
+						return true--,"name"
+					end
 				end
 			end
 			--[[if v.letterFilter then
 				
 			end]]
 			if v.classFilter then
-				if v.classFilter[player.Class] then
+				if v.classFilter[player.Class] or v.classFilter[findClass(player.Class)] then
 					v.filteredCount = v.filteredCount + 1
 					fn:FiltersUpdate()
 					return true--,"class"
 				end
 			end
 			if v.raceFilter then
-				if v.raceFilter[player.Race] then
+				if v.raceFilter[player.Race] or v.raceFilter[findRace(player.Race)] then
 					v.filteredCount = v.filteredCount + 1
 					fn:FiltersUpdate()
 					return true--,"race"
@@ -447,79 +583,136 @@ local function filtered(player)
 	end
 	return false
 end
-
 local function addNewPlayer(t, p)
-	-- local f,r = filtered(p)
-	--if f then print('filtered by',r); dump(p)end]]
-	if p.Guild == "" and not t.tempSendedInvites[p.Name] and not DB.alredySended[p.Name] and ((DB.enableFilters and not filtered(p)) or not DB.enableFilters) then
-		table.insert(t.inviteList, {name = p.Name, lvl = p.Level, race = p.Race, class = p.Class,  NoLocaleClass = p.NoLocaleClass})
-		t.tempSendedInvites[p.Name] = true
+	local blackList = false
+	for i=1,#DB.blackList do
+		if DB.blackList[i] == p.Name then blackList = true;break; end
+	end
+	local playerInfoStr = format("%s - lvl:%d; race:%s; class:%s; Guild: \"%s\"", p.Name, p.Level, p.Race, p.Class, p.Guild)
+	if p.Guild == "" then
+		if not blackList then
+			if not DB.leave[p.Name] then
+				if not t.tempSendedInvites[p.Name] then
+					if not DB.alredySended[p.Name] then
+						if ((DB.enableFilters and not filtered(p)) or not DB.enableFilters) then
+							table.insert(t.inviteList, {name = p.Name, lvl = p.Level, race = p.Race, class = p.Class,  NoLocaleClass = p.NoLocaleClass})
+							t.tempSendedInvites[p.Name] = true
+							debug(format("Add player %s", playerInfoStr), color.green)
+						else
+							addon.searchInfo.filtered()
+							debug(format("Player (%s) has been fitlered", playerInfoStr), color.yellow)
+						end
+						addon.searchInfo.unique()
+					else
+						debug(format("Invitation has already been sent to the player %s", playerInfoStr), color.yellow)
+					end
+				else
+					debug(format("Player (%s) alrady added", playerInfoStr), color.yellow)
+				end
+			else
+				debug(format("Player (%s) previously exited (or was expelled) from the guild.", playerInfoStr), color.red)
+			end
+		else
+			debug(format("Player (%s) was found in the blacklist.", playerInfoStr), color.red)
+		end
+	else
+		debug(format("Player (%s) already have guild.", playerInfoStr), color.yellow)
 	end
 	local list = t.inviteList
 	interface.chooseInvites.player:SetText(#list > 0 and format("%s%s %d %s %s|r", color[list[1].NoLocaleClass:upper()], list[1].name, list[1].lvl, list[1].class, list[1].race) or "")
 end
 
-local function SmartSearchWhoResultCallback(query, results, complete)
+local libWho = {whoQuery='', doHide=false, isFGI=false}
+local function GetWho(query)
+	libWho.isFGI = true
+	libWho.doHide = (not WhoFrame:IsShown()) and (not FriendsFrame:IsShown())
+	C_FriendList.SetWhoToUi(true)
+	C_FriendList.SendWho(query)
+end
+
+local function searchWhoResultCallback(query, results, complete)
+	if #results >= FGI_MAXWHORETURN and DB.customWho then
+		print(format(L.FAQ.error["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"], query))
+	end
+	addon.search.progress = addon.search.progress + 1
+	-- print(query, #results)
+	debug(format("Query %s", query))
 	local searchLvl = getSearchDeepLvl(query)
 	if searchLvl == 1 and #results>=FGI_MAXWHORETURN then
-		smartSearchAddWhoList(query,1)
+		searchAddWhoList(query,1)
+		debug(format("Query (%s) return 50 or more results; SearchLevel-%d", query, searchLvl))
 	elseif searchLvl == 2 and #results>=FGI_MAXWHORETURN then
-		smartSearchAddWhoList(query,2)
+		searchAddWhoList(query,2)
+		debug(format("Query (%s) return 50 or more results; SearchLevel-%d", query, searchLvl))
 	-- 3lvl can't modified
 	end
 	
 	for i=1,#results do
 		local player = results[i]
-		addNewPlayer(addon.smartSearch, player)
-	end
-	
-	inviteBtnText(format(L.interface["Пригласить: %d"], #addon.smartSearch.inviteList))
-end
-
-local function WhoResultCallback(query, results, complete)
-	if #results == FGI_MAXWHORETURN and DB.SearchType ~= 1 then
-		print(format(L.FAQ.error["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"], query))
-	end
-	for i=1,#results do
-		local player = results[i]
 		addNewPlayer(addon.search, player)
 	end
-	
+	interface.scanFrame.progressBar:SetMinMax(0, #addon.search.whoQueryList)
+	interface.scanFrame.progressBar:SetProgress(addon.search.progress-1)
 	inviteBtnText(format(L.interface["Пригласить: %d"], #addon.search.inviteList))
 end
 
-nextSearch = function()
-	if (#addon.search.whoQueryList == 0 or addon.search.progress > #addon.search.whoQueryList) and DB.SearchType ~= 3 then
-		addon.search.progress = 1
-		if DB.SearchType == 1 and #addon.search.whoQueryList == 0 then
-			addon.search.whoQueryList = getEasyWhoList()
-		elseif DB.SearchType == 2 and #addon.search.whoQueryList == 0 then
-			addon.search.whoQueryList = getWhoList(DB.searchInterval)
-		end
-		interface.scanFrame.progressBar:SetMinMax(GetTime(), GetTime()+#addon.search.whoQueryList*FGI_SCANINTERVALTIME)
-	elseif DB.SearchType == 3 then
-		if #addon.smartSearch.whoQueryList == 0 then
-			addon.smartSearch.whoQueryList = {DB.lowLimit.."-"..DB.highLimit}
-		end
-		if addon.smartSearch.progress <= 2 then
-			interface.scanFrame.progressBar:SetMinMax(GetTime(), GetTime()+#addon.smartSearch.whoQueryList*FGI_SCANINTERVALTIME)
+function fn:nextSearch()
+	C_Timer.After(FGI_SCANINTERVALTIME, function() interface.scanFrame.pausePlay:SetDisabled(false) end)
+	if #addon.search.whoQueryList == 0 then
+		if  DB.customWho then
+			for i=1, #DB.customWhoList do
+				table.insert(addon.search.whoQueryList, DB.customWhoList[i])
+			end
+		else
+		addon.search.whoQueryList = {DB.lowLimit.."-"..DB.highLimit}
 		end
 	end
 	
-	local curQuery
 	
-	if DB.SearchType ~= 3 then
-		addon.search.progress = (addon.search.progress <= (#addon.search.whoQueryList or 1)) and addon.search.progress or 1
-		curQuery = addon.search.whoQueryList[addon.search.progress]
-		addon.libWho:Who(tostring(curQuery),{queue = addon.libWho.WHOLIB_QUEUE_QUIET, callback = WhoResultCallback})
-		addon.search.progress = addon.search.progress + 1
-	else
-		addon.smartSearch.progress = (addon.smartSearch.progress <= (#addon.smartSearch.whoQueryList or 1)) and addon.smartSearch.progress or 1
-		curQuery = addon.smartSearch.whoQueryList[addon.smartSearch.progress]
-		addon.libWho:Who(tostring(curQuery),{queue = addon.libWho.WHOLIB_QUEUE_QUIET, callback = SmartSearchWhoResultCallback})
-		addon.smartSearch.progress = addon.smartSearch.progress + 1
-	end
+	addon.search.progress = (addon.search.progress <= (#addon.search.whoQueryList or 1)) and addon.search.progress or 1
+	local curQuery = addon.search.whoQueryList[addon.search.progress]
+	GetWho(curQuery)
 end
+
+local function returnWho(result)
+	searchWhoResultCallback(whoQuery, result)
+end
+
+local whoFrame = CreateFrame('Frame')
+whoFrame:RegisterEvent("WHO_LIST_UPDATE")
+whoFrame:SetScript("OnEvent", function()
+	if not libWho.isFGI then return end
+	if libWho.doHide then
+		-- FriendsFrame:Hide()
+		FriendsFrameCloseButton:Click()
+	end
+	libWho.isFGI = false
+	local result = {}
+
+	local total, num = C_FriendList.GetNumWhoResults()
+	for i=1, num do
+	--	self.Result[i] = C_FriendList.GetWhoInfo(i)
+		local info = C_FriendList.GetWhoInfo(i)
+		--backwards compatibility START
+		info.Name=info.fullName
+		info.Guild=info.fullGuildName
+		info.Level=info.level
+		info.Race=info.raceStr
+		info.Class=info.classStr
+		info.Zone=info.area
+		info.NoLocaleClass=info.filename
+		info.Sex=info.gender
+		--backwards compatibility END
+		result[i] = info
+	end
+	
+	C_FriendList.SetWhoToUi(false)
+	returnWho(result)
+end)
+local function test(query)
+	whoQuery = query
+end
+hooksecurefunc(C_FriendList, "SendWho", test);
 
 function dump(t,l)
   local str = '{'
@@ -597,7 +790,7 @@ function fn:StartSearch(timer)
 	end
 	addon.search.state = "start"
 	searchIntervalTimer(true, timer)
-	nextSearch()
+	fn:nextSearch()
 	Searchframe:SetScript("OnUpdate", SearchOnUpdate)
 end
 

@@ -1,6 +1,43 @@
 local _, T = ...
 local L, R = T.L, OneRingLib and OneRingLib.ext and OneRingLib.ext.RingKeeper
 if not (R and R.SetRing) then return end
+local MODERN = select(4, GetBuildInfo()) >= 8e4 or nil
+
+R:SetRing("RaidSymbols", {
+	{"raidmark", 1, _u="y"}, -- yellow star
+	{"raidmark", 2, _u="o"}, -- orange circle
+	{"raidmark", 3, _u="p"}, -- purple diamond
+	{"raidmark", 4, _u="g"}, -- green triangle
+	{"raidmark", 5, _u="s"}, -- silver moon
+	{"raidmark", 6, _u="b"}, -- blue square
+	{"raidmark", 7, _u="r"}, -- red cross
+	{"raidmark", 8, _u="w"}, -- white skull
+	{"raidmark", 0, _u="c"}, -- clear all
+	name=L"Target Markers", hotkey="ALT-R", _u="OPCRS"
+})
+R:SetRing("CommonTrades", {
+	{id="/cast {{spell:3908/51309}}", _u="t"}, -- tailoring
+	{id="/cast {{spell:2108/51302}}", _u="l"}, -- leatherworking
+	{id="/cast {{spell:2018/51300}}", _u="b"}, -- blacksmithing
+	{id="/cast [mod] {{spell:13262}}; {{spell:7411/51313}}", _u="e"}, -- enchanting/disenchanting
+	{id="/cast {{spell:2259/51304}}", _u="a"}, -- alchemy
+	{id="/cast [mod] {{spell:818}}; {{spell:2550/51296}}", _u="c"}, -- cooking/campfire
+	{id="/cast {{spell:4036/51306}}", _u="g"}, -- engineering
+	{id=2656, _u="m"}, -- smelting
+	MODERN and {id="/cast [mod] {{spell:31252}}; {{spell:25229/51311}};", _u="j"} -- jewelcrafting/prospecting
+		or {id="/cast {{spell:3273}}", _u="f"}, -- first aid
+	MODERN and {id="/cast [mod] {{spell:51005}}; {{spell:45357/45363}}", _u="i"}, -- inscription/milling
+	MODERN and {id="/cast [mod] {{spell:80451}}; {{spell:78670/89722}}", _u="r"}, -- archaeology
+	MODERN and {id=53428, _u="u"}, -- runeforging
+	name=L"Trade Skills", hotkey="ALT-T", _u="OPCCT"
+})
+R:SetRing("TrinketSlots", {
+	{id="/use 13", _u="t"},
+	{id="/use 14", _u="b"},
+	name=L"Trinkets", _u="OPCTS"
+})
+
+if not MODERN then return end
 
 R:SetRing("DruidShift", {
 	{id="/cancelform [noflyable,noform:moonkin]\n/cast [flyable,outdoors,nocombat,noswimming,nomod][flying] {{spell:783}}; [outpost:corral,nomod,nospec:103/104] {{spell:161691}}; [swimming,nomod][flyable,nomod][flying] {{spell:783}}; [nocombat,outdoors,nomod:alt] {{mount:ground}}; [outdoors] {{spell:783}}", show="[known:783]", _u="f"}, -- Travel
@@ -187,21 +224,6 @@ R:SetRing("DKCombat", {
 	name=L"Combat", hotkey="SECONDARY", limit="DEATHKNIGHT", _u="OPCDC"
 })
 
-R:SetRing("CommonTrades", {
-	{id="/cast {{spell:3908/51309}}", _u="t"}, -- tailoring
-	{id="/cast {{spell:2108/51302}}", _u="l"}, -- leatherworking
-	{id="/cast {{spell:2018/51300}}", _u="b"}, -- blacksmithing
-	{id="/cast [mod] {{spell:31252}}; {{spell:25229/51311}};", _u="j"}, -- jewelcrafting/prospecting
-	{id="/cast [mod] {{spell:13262}}; {{spell:7411/51313}}", _u="e"}, -- enchanting/disenchanting
-	{id="/cast {{spell:2259/51304}}", _u="a"}, -- alchemy
-	{id="/cast [mod] {{spell:818}}; {{spell:2550/51296}}", _u="c"}, -- cooking/campfire
-	{id="/cast [mod] {{spell:51005}}; {{spell:45357/45363}}", _u="i"}, -- inscription/milling
-	{id="/cast {{spell:4036/51306}}", _u="g"}, -- engineering
-	{id="/cast [mod] {{spell:80451}}; {{spell:78670/89722}}", _u="r"},
-	{id=53428, _u="u"}, -- runeforging
-	{id=2656, _u="m"}, -- smelting
-	name=L"Trade Skills", hotkey="ALT-T", _u="OPCCT"
-})
 R:SetRing("WorldMarkers", {
 	{"worldmark", 1, _u="b"},
 	{"worldmark", 2, _u="g"},
@@ -213,18 +235,6 @@ R:SetRing("WorldMarkers", {
 	{"worldmark", 8, _u="w"},
 	{"worldmark", 0, c="ccd8e5", _u="c"}, -- clear
 	name=L"World Markers", hotkey="[group] ALT-Y", _u="OPCWM"
-})
-R:SetRing("RaidSymbols", {
-	{"raidmark", 1, _u="y"}, -- yellow star
-	{"raidmark", 2, _u="o"}, -- orange circle
-	{"raidmark", 3, _u="p"}, -- purple diamond
-	{"raidmark", 4, _u="g"}, -- green triangle
-	{"raidmark", 5, _u="s"}, -- silver moon
-	{"raidmark", 6, _u="b"}, -- blue square
-	{"raidmark", 7, _u="r"}, -- red cross
-	{"raidmark", 8, _u="w"}, -- white skull
-	{"raidmark", 0, _u="c"}, -- clear all
-	name=L"Target Markers", hotkey="ALT-R", _u="OPCRS"
 })
 
 R:SetRing("CommonHearth", {
@@ -252,5 +262,6 @@ R:SetRing("SpecMenu", {
 	{"item", 140192, _u="d"},
 	{"ring", "CommonHearth", onlyNonEmpty=true, rotationMode="shuffle", _u="t"},
 	{"spell", 556, _u="a"},
+	{"item", 141605, _u="w"},
 	name=L"Specializations and Travel", hotkey="ALT-H", _u="OPCTA"
 })

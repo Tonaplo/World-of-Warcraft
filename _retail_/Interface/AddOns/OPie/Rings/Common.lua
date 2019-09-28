@@ -1,27 +1,22 @@
+if select(4,GetBuildInfo()) < 8e4 then return end
 local AB, _, T = assert(OneRingLib.ext.ActionBook:compatible(2,14), "Requires a compatible version of ActionBook"), ...
 local ORI, EV, L = OneRingLib.ext.OPieUI, T.Evie, T.L
 
-local function generateColor(c, n)
-	local hue, v, s = (15+(c-1)*360/n) % 360, 1, 0.85
-	local h, f = math.floor(hue/60) % 6, (hue/60) % 1
-	local p, q, t = v - v*s, v - v*f*s, v - v*s + v*f*s
-
-	if h == 0 then return v, t, p
-	elseif h == 1 then return q, v, p
-	elseif h == 2 then return p, v, t
-	elseif h == 3 then return p, q, v
-	elseif h == 4 then return t, p, v
-	elseif h == 5 then return v, p, q
-	end
-end
-
-do -- OPieTrinkets
-	OneRingLib:SetRing("OPieTrinkets", AB:CreateActionSlot(nil,nil, "collection", { "OPieBundleTrinket0", "OPieBundleTrinket1",
-		OPieBundleTrinket0 = AB:GetActionSlot("item", (GetInventorySlotInfo("Trinket0Slot")), false, true),
-		OPieBundleTrinket1 = AB:GetActionSlot("item", (GetInventorySlotInfo("Trinket1Slot")), false, true),
-	}), {name=L"Trinkets"})
-end
 do -- OPieTracker
+	local function generateColor(c, n)
+		local hue, v, s = (15+(c-1)*360/n) % 360, 1, 0.85
+		local h, f = math.floor(hue/60) % 6, (hue/60) % 1
+		local p, q, t = v - v*s, v - v*f*s, v - v*s + v*f*s
+
+		if h == 0 then return v, t, p
+		elseif h == 1 then return q, v, p
+		elseif h == 2 then return p, v, t
+		elseif h == 3 then return p, q, v
+		elseif h == 4 then return t, p, v
+		elseif h == 5 then return v, p, q
+		end
+	end
+	
 	local collectionData = {}
 	local function setTracking(id)
 		SetTracking(id, not select(3, GetTrackingInfo(id)))
@@ -57,7 +52,8 @@ do -- OPieTracker
 	end
 end
 do -- OPieAutoQuest
-	local whitelist, questItems, collection, inring, colId, ctok, current, changed = {[33634]=true, [35797]=true, [37888]=true, [37860]=true, [37859]=true, [37815]=true, [46847]=true, [47030]=true, [39213]=true, [42986]=true, [49278]=true, [86425]={31332, 31333, 31334, 31335, 31336, 31337}, [87214]={31752, 34774}, [90006]=true, [86536]=true, [86534]=true, [97268]=true, [111821]={34774, 31752}}, {[30148]="72986 72985"}, {"EB", EB=AB:GetActionSlot("extrabutton", 1)}, {}
+	local whitelist, questItems, colId, current, changed = {[33634]=true, [35797]=true, [37888]=true, [37860]=true, [37859]=true, [37815]=true, [46847]=true, [47030]=true, [39213]=true, [42986]=true, [49278]=true, [86425]={31332, 31333, 31334, 31335, 31336, 31337}, [87214]={31752, 34774}, [90006]=true, [86536]=true, [86534]=true, [97268]=true, [111821]={34774, 31752}}, {[30148]="72986 72985"}
+	local collection, inring, ctok = {"EB", EB=AB:GetActionSlot("extrabutton", 1)}, {}, 0
 	local function scanQuests(i)
 		for i=i or 1,GetNumQuestLogEntries() do
 			local _, _, _, _, isHeader, isCollapsed, isComplete, _, qid = GetQuestLogTitle(i)
@@ -81,9 +77,8 @@ do -- OPieAutoQuest
 	end
 	local function syncRing(_, _, upId)
 		if upId ~= colId then return end
-		changed, current = false, ((ctok or 0) + 1) % 2
+		changed, current = false, (ctok + 1) % 2
 
-		-- Search quest log
 		for i=1,GetNumQuestLogEntries() do
 			local link, _, _, showWhenComplete = GetQuestLogSpecialItemInfo(i)
 			if link and (showWhenComplete or not select(6, GetQuestLogTitle(i))) then
@@ -95,8 +90,6 @@ do -- OPieAutoQuest
 				inring[tok] = current
 			end
 		end
-
-		-- Search bags
 		for bag=0,4 do
 			for slot=1,GetContainerNumSlots(bag) do
 				local iid = GetContainerItemID(bag, slot)
@@ -120,21 +113,16 @@ do -- OPieAutoQuest
 				end
 			end
 		end
-
-		-- Check whether any of our quest items are equipped... Hi, Egan's Blaster.
-		for i=0,19 do
+		for i=0,INVSLOT_LAST_EQUIPPED do
 			local tok = "OPieBundleQuest" .. (GetInventoryItemID("player", i) or 0)
 			if inring[tok] then
 				inring[tok] = current
 			end
 		end
-		
-		-- Additional quest-based whitelist
 		scanQuests()
 
-		-- Drop any items in the ring we haven't found.
 		local freePos, oldCount = 2, #collection
-		for i=2, oldCount do
+		for i=freePos, oldCount do
 			local v = collection[i]
 			collection[freePos], freePos, collection[v], inring[v] = collection[i], freePos + (inring[v] == current and 1 or 0), (inring[v] == current and collection[v] or nil), inring[v] == current and current or nil
 		end

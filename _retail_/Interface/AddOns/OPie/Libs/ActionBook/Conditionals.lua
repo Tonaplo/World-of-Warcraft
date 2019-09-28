@@ -1,5 +1,6 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 local KR, EV = assert(T.ActionBook:compatible("Kindred", 1,12), "A compatible version of Kindred is required"), T.Evie
 local playerClassLocal, playerClass = UnitClass("player")
 
@@ -67,17 +68,22 @@ do -- known:spell id
 		end
 		return false
 	]=])
-	local f = CreateFrame("Frame")
-	f:SetScript("OnUpdate", function(self)
-		self:Hide()
+	local resolved = true
+	local function doPoke()
+		resolved = true
 		KR:PokeConditional("known")
-	end)
-	f:SetScript("OnEvent", f.Show)
-	f:RegisterEvent("LEARNED_SPELL_IN_TAB")
-	f:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
-	f:RegisterEvent("PLAYER_ENTERING_WORLD")
+	end
+	local function queuePoke()
+		if resolved then
+			resolved = false
+			C_Timer.After(0, doPoke)
+		end
+	end
+	EV.LEARNED_SPELL_IN_TAB = queuePoke
+	EV.PLAYER_SPECIALIZATION_CHANGED = queuePoke
+	EV.PLAYER_ENTERING_WORLD = queuePoke
 end
-do -- spec:id/name
+if MODERN then -- spec:id/name
 	local s, _, _, cid = nil, UnitClass("player")
 	for i=1,5 do
 		local id, name = GetSpecializationInfoForClassID(cid, i)
@@ -88,21 +94,23 @@ do -- spec:id/name
 	if s then
 		RegisterStateConditional("spec", "spec", s, false)
 	end
+else
+	KR:SetStateConditionalValue("spec", "")
 end
 do -- form:token
 	if playerClass == "DRUID" then
 		KR:SetAliasConditional("stance", "form")
 		local map, curCnd, pending = {
-			[GetSpellInfo(40120)]="/flight",
-			[GetSpellInfo(33943)]="/flight",
-			[GetSpellInfo(1066)]="/aquatic",
-			[GetSpellInfo(783)]="/travel",
-			[GetSpellInfo(24858)]="/moon/moonkin",
-			[GetSpellInfo(768)]="/cat",
+			[GetSpellInfo(40120) or 1]="/flight",
+			[GetSpellInfo(33943) or 1]="/flight",
+			[GetSpellInfo(1066) or 1]="/aquatic",
+			[GetSpellInfo(783) or 1]="/travel",
+			[GetSpellInfo(24858) or 1]="/moon/moonkin",
+			[GetSpellInfo(768) or 1]="/cat",
 			[GetSpellInfo(171745) or 1]="/cat",
-			[GetSpellInfo(5487)]="/bear",
-			[GetSpellInfo(114282)]="/treant",
-			[GetSpellInfo(210053)]="/stag",
+			[GetSpellInfo(5487) or 1]="/bear",
+			[GetSpellInfo(114282) or 1]="/treant",
+			[GetSpellInfo(210053) or 1]="/stag",
 		}, nil
 		local function syncForm()
 			local s = ""
@@ -126,26 +134,6 @@ do -- form:token
 			end
 		end
 	end
-end
-do -- talent:tier.num/name
-	local cur, levels = false, CLASS_TALENT_LEVELS[playerClass] or CLASS_TALENT_LEVELS.DEFAULT
-	local function updateTalents()
-		local s
-		for tier=1, MAX_TALENT_TIERS do
-			for column=1, 3 do
-				local _, name, _, selected = GetTalentInfo(tier, column, 1)
-				if name and selected then
-					s = (s and s .. "/" or "") .. tier .. "." .. column .. "/" .. levels[tier] .. "." .. column .. "/" .. name
-				end
-			end
-		end
-		if s ~= cur then
-			cur = s
-			KR:SetStateConditionalValue("talent", cur or "")
-		end
-	end
-	EV.PLAYER_TALENT_UPDATE = updateTalents
-	updateTalents()
 end
 do -- instance:arena/bg/ratedbg/lfr/raid/scenario + outland/northrend/...
 	local mapTypes = {
@@ -181,7 +169,7 @@ do -- instance:arena/bg/ratedbg/lfr/raid/scenario + outland/northrend/...
 			itype = mapTypes[imid]
 		elseif itype == "pvp" and IsRatedBattleground() then
 			itype = "ratedbg"
-		elseif itype == "none" and IsInActiveWorldPVP() then
+		elseif itype == "none" and MODERN and IsInActiveWorldPVP() then
 			itype = "worldpvp"
 		elseif itype == "raid" then
 			if did == 7 then
@@ -205,7 +193,7 @@ do -- petcontrol
 		end
 	end
 end
-do -- outpost
+if MODERN then -- outpost
 	local map, state, name = {
 		[161676]="garrison", [161332]="garrison",
 		[164012]="arena", [164050]="lumber yard/yard",
@@ -373,7 +361,7 @@ do -- combo:count
 		return UnitPower("player", power) >= (tonumber(args) or 1)
 	end)
 	local function syncComboPower()
-		power = powerMap[GetSpecializationInfo(GetSpecialization() or 0)] or defaultPower
+		power = powerMap[MODERN and GetSpecializationInfo(GetSpecialization() or 0)] or defaultPower
 	end
 	EV.PLAYER_SPECIALIZATION_CHANGED, EV.PLAYER_LOGIN = syncComboPower, syncComboPower
 end
@@ -383,15 +371,35 @@ do -- race:token
 		LightforgedDraenei="LightforgedDraenei/Lightforged",
 		HighmountainTauren="HighmountainTauren/Highmountain",
 		MagharOrc="MagharOrc/Maghar",
+		ZandalariTroll="ZandalariTroll/Zandalari",
 	}, UnitRace("player")
 	KR:SetStateConditionalValue("race", map[raceToken] or raceToken)
 end
 do -- professions
-	local ct, ot, map = {}, {}, {
+	local ct, ot, syncProfInner = {}, {}
+	local map = MODERN and {
 		[197]="tail", [165]="lw", [164]="bs",
 		[171]="alch", [202]="engi", [333]="ench", [755]="jc", [773]="scri",
 		[182]="herb", [794]="arch", [185]="cook", [356]="fish",
 		[20219]="nomeng", [20222]="gobeng",
+	}
+	map = map or {
+		[GetSpellInfo(3908) or ""]="tail",
+		[GetSpellInfo(2108) or ""]="lw",
+		[GetSpellInfo(2018) or ""]="bs",
+		[GetSpellInfo(2259) or ""]="alch",
+		[GetSpellInfo(2366) or ""]="herb",
+		[GetSpellInfo(2575) or ""]="miner",
+		[GetSpellInfo(4036) or ""]="engi",
+		[GetSpellInfo(7411) or ""]="ench",
+		[GetSpellInfo(8613) or ""]="skin",
+		[GetSpellInfo(2550) or ""]="cook",
+		[GetSpellInfo(3273) or ""]="faid",
+		[GetSpellInfo(7620) or ""]="fish",
+		[GetSpellInfo(20221) or ""]="gobeng",
+		[GetSpellInfo(20222) or ""]="gobeng",
+		[GetSpellInfo(20220) or ""]="nomeng",
+		[GetSpellInfo(20219) or ""]="nomeng",
 	}
 	local spellIDProfs = {
 		[264636]="cook3",
@@ -400,7 +408,8 @@ do -- professions
 		[264588]="lw6", [264590]="lw7",
 		[264479]="eng2", [264481]="eng3", [264483]="eng4", [264485]="eng5", [264488]="eng6", [264490]="eng7",
 	}
-	local function syncProfInner(id, ...)
+	map[""]=nil
+	syncProfInner = MODERN and function(id, ...)
 		if id then
 			local _1, _2, cur, _cap, ns, sofs, skid, _bonus, specIdx, _ = GetProfessionInfo(id)
 			local et, sid = GetSpellBookItemInfo(ns == 2 and sofs and specIdx > -1 and sofs+2 or 0, "spell")
@@ -411,11 +420,37 @@ do -- professions
 		if select("#", ...) > 0 then
 			return syncProfInner(...)
 		end
+	end or function()
+		local idx, wasCollapsed
+		for i=1,GetNumSkillLines() do
+			local text, isHeader, isExpanded = GetSkillLineInfo(i)
+			if isHeader and text == TRADE_SKILLS then
+				idx, wasCollapsed = i, not isExpanded
+				ExpandSkillHeader(i)
+				break
+			end
+		end
+		if not idx then return end
+		local j, text, isHeader, _, curSkill = idx+1
+		repeat
+			j, text, isHeader, _, curSkill = j+1, GetSkillLineInfo(j)
+			local skey = map[text]
+			if skey and not isHeader then
+				ct[skey] = curSkill
+			end
+		until isHeader or not text
+		if wasCollapsed then
+			CollapseSkillHeader(idx)
+		end
 	end
 	local function syncProf()
 		ct, ot = ot, ct
 		for k in pairs(ct) do ct[k] = nil end
-		syncProfInner(GetProfessions())
+		if MODERN then
+			syncProfInner(GetProfessions())
+		else
+			syncProfInner()
+		end
 		for sid, cnd in pairs(spellIDProfs) do
 			ct[cnd] = GetSpellInfo(GetSpellInfo(sid) or "\1") and 1 or nil
 		end
@@ -438,7 +473,7 @@ do -- professions
 	for _, v in pairs(spellIDProfs) do
 		KR:SetThresholdConditionalValue(v, false)
 	end
-	for alias, real in ("tailoring:tail leatherworking:lw alchemy:alch engineering:engi enchanting:ench jewelcrafting:jc blacksmithing:bs inscription:scri herbalism:herb archaeology:arch cooking:cook fishing:fish"):gmatch("(%a+):(%a+)") do
+	for alias, real in ("tailoring:tail leatherworking:lw alchemy:alch engineering:engi enchanting:ench jewelcrafting:jc blacksmithing:bs inscription:scri herbalism:herb archaeology:arch cooking:cook fishing:fish firstaid:faid"):gmatch("(%a+):(%a+)") do
 		KR:SetAliasConditional(alias, real)
 	end
 	EV.PLAYER_LOGIN, EV.CHAT_MSG_SKILL = syncProf, syncProf
@@ -479,6 +514,8 @@ if playerClass == "HUNTER" then -- pet:stable id; havepet:stable id
 else
 	KR:SetStateConditionalValue("havepet", false)
 end
+
+KR:SetStateConditionalValue("modern", MODERN)
 
 do -- Managed role units
 	local mh = CreateFrame("Frame", nil, nil, "SecureFrameTemplate")

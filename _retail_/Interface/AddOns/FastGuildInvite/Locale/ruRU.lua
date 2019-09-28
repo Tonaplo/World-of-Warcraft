@@ -1,3 +1,6 @@
+local function GetRaceName(id)
+	return C_CreatureInfo.GetRaceInfo(id) and C_CreatureInfo.GetRaceInfo(id).raceName or nil
+end
 local L = {
 	["FAQ"] = {
 		["help"] = {
@@ -8,6 +11,8 @@ local L = {
 			["resetDB"] = "/fgi resetDB - Очистить список отправленных приглашений.",
 			["resetWindowsPos"] = "/fgi resetWindowsPos - Сбросить позиции окон.",
 			["show"] = "/fgi show - Открыть главное окно аддона",
+			["invite"] = "/fgi invite - Пригласить первого игрока из очереди",
+			["nextSearch"] = "/fgi nextSearch - Запустить следующее сканирование",
 		},
 		["error"] = {
 			["Вы не состоите в гильдии или у вас нет прав для приглашения."] = "Вы не состоите в гильдии или у вас нет прав для приглашения.",
@@ -22,6 +27,11 @@ local L = {
 	},
 	["interface"] = {
 		["Игрок не добавлен в список исключений."] = "Игрок не добавлен в список исключений.",
+		defaultReason = "no reason",
+		["Игрок %s добавлен в черный список."] = "Игрок %s добавлен в черный список.",
+		["Причина"] = "Причина",
+		["Черный список"] = "Черный список",
+		["Пользовательский список"] = "Пользовательский список",
 		["Для изменения значений используйте колесо мыши"] = "Для изменения значений используйте колесо мыши",
 		["Включен"] = "Включен",
 		["Включить фильтры"] = "Включить фильтры",
@@ -76,6 +86,7 @@ local L = {
 		["Числа не могут быть меньше или равны 0. Минимальный уровень не может быть больше максимального"] = "Числа не могут быть меньше или равны 0. Минимальный уровень не может быть больше максимального",
 		["Чтобы быть отфильтрованным, игрок должен соответствовать критериям ВСЕХ фильтров"] = "Чтобы быть отфильтрованным, игрок должен соответствовать критериям ВСЕХ фильтров",
 		["Запоминать всех игроков"] = "Запоминать всех игроков",
+		["Игрок %s найденный в черном списке, находится в вашей гильдии!"] = "Игрок %s найденный в черном списке, находится в вашей гильдии!",
 		["tooltip"] = {
 			["Автоматическое увеличение детализации поиска"] = "Автоматическое увеличение детализации поиска",
 			["Введите диапазон уровней для фильтра.\nНапример: %s55%s:%s58%s\nбудут подходить только те игроки, уровень\nкоторых варьируется от %s55%s до %s58%s (включительно)"] = "Введите диапазон уровней для фильтра.\nНапример: %s55%s:%s58%s\nбудут подходить только те игроки, уровень\nкоторых варьируется от %s55%s до %s58%s (включительно)",
@@ -85,12 +96,14 @@ local L = {
 			["Запускать поиск в фоновом режиме"] = "Запускать поиск в фоновом режиме",
 			["Количество уровней сканируемых за один раз"] = "Количество уровней сканируемых за один раз",
 			["Назначить клавишу для приглашения"] = "Назначить клавишу для приглашения",
+			["Назначить клавишу следующего поиска"] = "Назначить клавишу следующего поиска",
 			["Не отображать в чате отправляемые сообщения"] = "Не отображать в чате отправляемые сообщения",
 			["Не отображать в чате системные сообщения"] = "Не отображать в чате системные сообщения",
 			["Не отображать в чате сообщения аддона"] = "Не отображать в чате сообщения аддона",
 			["Уровень, с которого начинается фильтр по классам"] = "Уровень, с которого начинается фильтр по классам",
 			["Уровень, с которого начинается фильтр по расам"] = "Уровень, с которого начинается фильтр по расам",
-			["Записывать игрока в базу данных сразу после нахождения"] = "Записывать игрока в базу данных сразу после нахождения",
+			["Записывать игрока в базу данных даже если приглашение не было отправлено"] = "Записывать игрока в базу данных даже если приглашение не было отправлено",
+			["Использовать пользовательский список запросов"] = "Использовать пользовательский список запросов",
 		},
 		["invType"] = {
 			["Отправить сообщение и пригласить"] = "Отправить сообщение и пригласить",
@@ -123,39 +136,66 @@ local L = {
 			["Warlock"] = LOCALIZED_CLASS_NAMES_MALE.WARLOCK,
 			["Warrior"] = LOCALIZED_CLASS_NAMES_MALE.WARRIOR,
 		},
+		["femaleClass"] = {},
 		["race"] = {
 			["Horde"] = {
-				["BloodElf"] = C_CreatureInfo.GetRaceInfo(10).raceName,	--	"Эльф крови"
-				["Goblin"] = C_CreatureInfo.GetRaceInfo(9).raceName,	--	"Гоблин"
-				["HightmountainTauren"] = C_CreatureInfo.GetRaceInfo(28).raceName,	--	"Таурен Крутогорья"
-				["MagharOrc"] = C_CreatureInfo.GetRaceInfo(36).raceName,	--	"Маг'хар"
-				["Nightborne"] = C_CreatureInfo.GetRaceInfo(27).raceName,	--	"Ночнорожденный"
-				["Orc"] = C_CreatureInfo.GetRaceInfo(2).raceName,	--	"Орк"
-				["Pandaren"] = C_CreatureInfo.GetRaceInfo(26).raceName,	--	"Пандарен"
-				["Tauren"] = C_CreatureInfo.GetRaceInfo(6).raceName,	--	"Таурен"
-				["Troll"] = C_CreatureInfo.GetRaceInfo(8).raceName,	--	"Тролль"
-				["Undead"] = C_CreatureInfo.GetRaceInfo(5).raceName,	--	"Нежить"
-				["ZandalariTroll"] = C_CreatureInfo.GetRaceInfo(31).raceName,	--	"Зандалар"
+				["Orc"] = GetRaceName(2),	--	"Орк"
+				["Tauren"] = GetRaceName(6),	--	"Таурен"
+				["Troll"] = GetRaceName(8),	--	"Тролль"
+				["Undead"] = GetRaceName(5),	--	"Нежить"
+				["BloodElf"] = GetRaceName(10),	--	"Эльф крови"
+				["Goblin"] = GetRaceName(9),	--	"Гоблин"
+				["HightmountainTauren"] = GetRaceName(28),	--	"Таурен Крутогорья"
+				["MagharOrc"] = GetRaceName(36),	--	"Маг'хар"
+				["Nightborne"] = GetRaceName(27),	--	"Ночнорожденный"
+				["Pandaren"] = GetRaceName(26),	--	"Пандарен"
+				["ZandalariTroll"] = GetRaceName(31),	--	"Зандалар"
 			},
 			["Alliance"] = {
-				["DarkIronDwarf"] = C_CreatureInfo.GetRaceInfo(34).raceName,	--	"Дворф из клана Черного Железа"
-				["Draenei"] = C_CreatureInfo.GetRaceInfo(11).raceName,	--	"Дреней"
-				["Dwarf"] = C_CreatureInfo.GetRaceInfo(3).raceName,	--	"Дворф"
-				["Gnome"] = C_CreatureInfo.GetRaceInfo(7).raceName,	--	"Гном"
-				["Human"] = C_CreatureInfo.GetRaceInfo(1).raceName,	--	"Человек"
-				["LightforgedDraenei"] = C_CreatureInfo.GetRaceInfo(30).raceName,	--	"Озаренный дреней"
-				["NightElf"] = C_CreatureInfo.GetRaceInfo(4).raceName,	--	"Ночной эльф"
-				["Pandaren"] = C_CreatureInfo.GetRaceInfo(25).raceName,	--	"Пандарен"
-				["VoidElf"] = C_CreatureInfo.GetRaceInfo(29).raceName,	--	"Эльф Бездны"
-				["Worgen"] = C_CreatureInfo.GetRaceInfo(12).raceName,	--	"Ворген"
-				["KulTiran"] = C_CreatureInfo.GetRaceInfo(32).raceName,	--	"Култирасец"
-			}
-		}
+				["Dwarf"] = GetRaceName(3),	--	"Дворф"
+				["Gnome"] = GetRaceName(7),	--	"Гном"
+				["Human"] = GetRaceName(1),	--	"Человек"
+				["NightElf"] = GetRaceName(4),	--	"Ночной эльф"
+				["DarkIronDwarf"] = GetRaceName(34),	--	"Дворф из клана Черного Железа"
+				["Draenei"] = GetRaceName(11),	--	"Дреней"
+				["LightforgedDraenei"] = GetRaceName(30),	--	"Озаренный дреней"
+				["Pandaren"] = GetRaceName(25),	--	"Пандарен"
+				["VoidElf"] = GetRaceName(29),	--	"Эльф Бездны"
+				["Worgen"] = GetRaceName(22),	--	"Ворген"
+				["KulTiran"] = GetRaceName(32),	--	"Култирасец"
+			},
+		},
+		["femaleRace"] = {
+			["BloodElf"] = "Эльфийка крови",
+			["HightmountainTauren"] = "Тауренка Крутогорья",
+			["MagharOrc"] = "Маг'харка",
+			["Nightborne"] = "Ночнорожденная",
+			["Orc"] = "Орчиха",
+			["Pandaren"] = "Пандаренка",
+			["Tauren"] = "Тауренка",
+			["ZandalariTroll"] = "Зандаларка",
+			["DarkIronDwarf"] = "Дворфийка из клана Черного Железа",
+			["Draenei"] = "Дренейка",
+			["Dwarf"] = "Дворфийка",
+			["Gnome"] = "Гномка",
+			["LightforgedDraenei"] = "Озаренная дренейка",
+			["NightElf"] = "Ночная эльфийка",
+			["Pandaren"] = "Пандаренка",
+			["VoidElf"] = "Эльфийка Бездны",
+			["KulTiran"] = "Култираска",
+		},
 	}
 }
+
+for k,v in pairs(L.SYSTEM.class) do
+	local n = LOCALIZED_CLASS_NAMES_FEMALE[k:upper()]
+	if v~=n then
+		L.SYSTEM.femaleClass[k] = n
+	end
+end
 L.settings = {
 	size = {
-		mainFrameW = 600,
+		mainFrameW = 620,
 		mainFrameH = 320,
 		wheelHint = 350,
 		inviteTypeGRP = 200,
@@ -167,6 +207,7 @@ L.settings = {
 		startScan = 160,
 		chooseInvites = 180,
 		settingsBtn = 120,
+		gratitude = 120,
 		lvlRange = 150,
 		searchInterval = 120,
 		raceFilterStart = 160,
@@ -180,6 +221,8 @@ L.settings = {
 		rememberAll = 260,
 		clearDBtimes = 150,
 		filters = 150,
+		keyBindingsW = 440,
+		keyBindingsH = 150,
 		keyBind = 200,
 		setMSG = 160,
 		filtersFrameW = 620,
@@ -189,6 +232,8 @@ L.settings = {
 		addfilterFrameH = 600,
 		messageFrameW = 600,
 		messageFrameH = 300,
+		yes = 100,
+		no = 100,
 		save = 100,
 		delete = 100,
 		add = 100,
@@ -196,6 +241,14 @@ L.settings = {
 		chooseInvitesH = 100,
 		reject = 100,
 		invite = 100,
+		blackListW = 400,
+		blackListH = 360,
+		blackList = 150,
+		uninviteW = 220,
+		uninviteH = 160,
+		customListW = 360,
+		customListH = 360,
+		customListBtn = 200,
 		
 		classLabel = 60,
 		Ignore = 120,
@@ -249,6 +302,20 @@ L.settings = {
 	},
 	Font = 'Interface\\AddOns\\FastGuildInvite\\fonts\\PT_Sans_Narrow.ttf',
 	FontSize = 16,
+}
+L.Gratitude = {
+	{"Category", "Name", "Contact", "Donate"},
+	{"", "", "", ""},
+	{"Author", "Knoot", "Knoot#7430", "paypal.me/Knoot"},
+	{"Donate", "Anchep", "-", "-"},
+	{"Donate", "dLuxian", "-", "-"},
+	{"Donate", "Zipacna (Bleeding Hollow) <Imperial Patent>", "-", "-"},
+	{"Translate-zhTW", "Anchep", "Services@280i.com", "paypal.me/280i"},
+	{"Testing", "Shujin", "-", "-"},
+	{"Testing", "StreetX", "-", "-"},
+	{"Testing", "Мойгосподин", "-", "-"},
+	{"Testing", "Zipacna", "-", "-"},
+	{"OtherHelp", "(Змейталак) <Нам Везёт Мы Играем>", "-", "-"},
 }
 
 

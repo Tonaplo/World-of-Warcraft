@@ -1,5 +1,6 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 local AB = assert(T.ActionBook:compatible(2,21), "A compatible version of ActionBook is required")
 local RW = assert(AB:compatible("Rewire",1,14), "A compatible version of Rewire is required")
 local KR = assert(AB:compatible("Kindred",1,14), "A compatible version of Kindred is required")
@@ -16,7 +17,7 @@ local safequote do
 	end
 end
 
-do -- mount: mount ID
+if MODERN then -- mount: mount ID
 	local function summonAction(mountID)
 		return "func", C_MountJournal.SummonByID, mountID
 	end
@@ -101,6 +102,10 @@ do -- mount: mount ID
 	end
 	EV.MOUNT_JOURNAL_USABILITY_CHANGED, EV.PLAYER_ENTERING_WORLD, EV.COMPANION_LEARNED = mountSync, mountSync, mountSync
 	mountMap = {}
+else
+	function mountHint()
+	end
+	mountMap = {}
 end
 do -- spell: spell ID + mount spell ID
 	local function isCurrentForm(q)
@@ -125,7 +130,7 @@ do -- spell: spell ID + mount spell ID
 		local cdLeft = (cooldown or 0) > 0 and (enabled ~= 0) and (cooldown + cdLength - time) or 0
 		local count, charges, maxCharges, chargeStart, chargeDuration = GetSpellCount(n), GetSpellCharges(n)
 		local state = ((IsSelectedSpellBookItem(n) or IsCurrentSpell(n) or isCurrentForm(n)  or enabled == 0) and 1 or 0) +
-		              (IsSpellOverlayed(msid or 0) and 2 or 0) + (nomana and 8 or 0) + (inRange and 0 or 16) + (charges and charges > 0 and 64 or 0) +
+		              (MODERN and IsSpellOverlayed(msid or 0) and 2 or 0) + (nomana and 8 or 0) + (inRange and 0 or 16) + (charges and charges > 0 and 64 or 0) +
 		              (hasRange and 512 or 0) + (usable and 0 or 1024) + (enabled == 0 and 2048 or 0)
 		usable = not not (usable and inRange and (cooldown or 0) == 0 or (enabled == 0))
 		if charges and maxCharges and charges < maxCharges and cdLeft == 0 then
@@ -138,7 +143,7 @@ do -- spell: spell ID + mount spell ID
 		spellMap[sname] = spellId or spellMap[sname] or tonumber((GetSpellLink(sname) or ""):match("spell:(%d+)"))
 		return spellHint(sname, nil, target)
 	end
-	local function createSpell(id)
+	local function createSpell(id, optToken)
 		if type(id) ~= "number" then return end
 		local action = mountMap[id]
 		if action then
@@ -156,6 +161,9 @@ do -- spell: spell ID + mount spell ID
 			local o, s = pcall(GetSpellInfo, s0, r0)
 			if not (o and s and s0) then return end
 			local _, r1 = pcall(GetSpellSubtext, s0)
+			if not MODERN and optToken ~= "lock-rank" then
+				r1 = r0
+			end
 			action = (r0 and r1 ~= r0 and FindSpellBookSlotBySpellID(id)) and (s0 .. "(" .. r0 .. ")") or s0
 		end
 		
@@ -176,7 +184,7 @@ do -- spell: spell ID + mount spell ID
 		return mountMap[id] and L"Mount" or L"Spell", (name2 or name or "?") .. (rank and rank ~= "" and rank ~= GetSpellSubtext(name) and " (" .. rank .. ")" or ""), icon2 or icon, nil, GameTooltip.SetSpellByID, id
 	end
 	AB:RegisterActionType("spell", createSpell, describeSpell)
-	do -- specials
+	if MODERN then -- specials
 		local gab = GetSpellInfo(161691)
 		actionMap[gab] = AB:CreateActionSlot(spellHint, gab, "conditional", "[outpost]", "attribute", "type","spell", "spell",gab)
 		spellMap[gab], spellMap[gab:lower()] = 161691, 161691
@@ -198,7 +206,7 @@ do -- item: items ID/inventory slot
 	end
 	local function GetItemLocation(iid, name, name2)
 		local name2, cb, cs, n = name2 and name2:lower()
-		for i=1, INVSLOT_LAST_EQUIPPED do
+		for i=1, lastSlot do
 			if GetInventoryItemID("player", i) == iid then
 				n = GetItemInfo(GetInventoryItemLink("player", i))
 				if n == name or n and name2 and n:lower() == name2 then
@@ -233,7 +241,7 @@ do -- item: items ID/inventory slot
 			name, link, _, _, _, _, _, _, _, icon = GetItemInfo(ident)
 		end
 		local iid, cdStart, cdLen, enabled, cdLeft = (link and tonumber(link:match("item:([x%x]+)"))) or itemIdMap[ident]
-		if iid and PlayerHasToy(iid) and GetItemCount(iid) == 0 then
+		if MODERN and iid and PlayerHasToy(iid) and GetItemCount(iid) == 0 then
 			return toyHint(iid, nil, target)
 		elseif iid then
 			cdStart, cdLen, enabled = GetItemCooldown(iid)
@@ -302,7 +310,7 @@ do -- macrotext
 		return map[macrotext]
 	end
 	local function describeMacrotext(macrotext)
-		if macrotext == "" then return L"Custom Macro", L"New Macro", "Interface/Icons/Temp" end
+		if macrotext == "" then return L"Custom Macro", L"New Macro", "Interface/Icons/INV_Misc_Note_03" end
 		local _, _, ico = RW:GetMacroAction(macrotext)
 		return L"Custom Macro", "", ico
 	end
@@ -477,7 +485,7 @@ do -- macro: name
 	end
 	AB:RegisterActionType("macro", createNamedMacro, describeMacro, {"forceShow"})
 end
-do -- battlepet: pet ID
+if MODERN then -- battlepet: pet ID
 	local petAction, special = {}, {}
 	local function tip(self, id)
 		local sid, cname, lvl, _, _, _, _, name, _, ptype, _, _, _, _, cb = C_PetJournal.GetPetInfoByPetID(id)
@@ -541,7 +549,7 @@ do -- battlepet: pet ID
 		end
 	end)
 end
-do -- equipmentset: equipment sets by name
+if MODERN then -- equipmentset: equipment sets by name
 	local setMap = {}
 	local function resolveIcon(fid)
 		return type(fid) == "number" and fid or ("Interface/Icons/" .. (fid or "INV_Misc_QuestionMark"))
@@ -617,7 +625,7 @@ do -- raidmark
 		end
 	end)
 end
-do -- worldmarker
+if MODERN then -- worldmarker
 	local map, icons = {}, {[0]="Interface/Icons/INV_Misc_PunchCards_White",
 		"Interface/Icons/INV_Misc_QirajiCrystal_04","Interface/Icons/INV_Misc_QirajiCrystal_03",
 		"Interface/Icons/INV_Misc_QirajiCrystal_05","Interface/Icons/INV_Misc_QirajiCrystal_02",
@@ -644,7 +652,7 @@ do -- worldmarker
 		end
 	end)
 end
-do -- extrabutton
+if MODERN then -- extrabutton
 	local slot = GetExtraBarIndex()*12 - 11
 	local function extrabuttonHint()
 		if not HasExtraActionBar() then
@@ -687,11 +695,49 @@ do -- extrabutton
 	end)
 end
 do -- petspell: spell ID
-	local actionInfo, actionID = { stay={"Interface\\Icons\\Spell_Nature_TimeStop", "PET_ACTION_WAIT"}, move={"Interface\\Icons\\Ability_Hunter_Pet_Goto", "PET_ACTION_MOVE_TO", 1}, follow={"Interface\\Icons\\Ability_Tracking", "PET_ACTION_FOLLOW"}, attack={"Interface\\Icons\\Ability_GhoulFrenzy", "PET_ACTION_ATTACK"},
-		defend={"Interface\\Icons\\Ability_Defend", "PET_MODE_DEFENSIVE"}, assist={"Interface\\Icons\\Ability_Hunter_Pet_Assist", "PET_MODE_ASSIST"}, passive={"Interface\\Icons\\Ability_Seal", "PET_MODE_PASSIVE"},
-		dismiss={CLASS == "WARLOCK" and "Interface\\Icons\\spell_shadow_sacrificialshield" or "Interface\\Icons\\spell_nature_spiritwolf"}}, {}
-	local function petTip(self, slot)
+	local actionInfo = {
+		stay={"Interface\\Icons\\Spell_Nature_TimeStop", "PET_ACTION_WAIT"},
+		move={"Interface\\Icons\\Ability_Hunter_Pet_Goto", "PET_ACTION_MOVE_TO", 1},
+		follow={"Interface\\Icons\\Ability_Tracking", "PET_ACTION_FOLLOW"},
+		attack={"Interface\\Icons\\Ability_GhoulFrenzy", "PET_ACTION_ATTACK"},
+		defend={"Interface\\Icons\\Ability_Defend", "PET_MODE_DEFENSIVE"},
+		assist={"Interface\\Icons\\Ability_Hunter_Pet_Assist", "PET_MODE_ASSIST"},
+		passive={"Interface\\Icons\\Ability_Seal", "PET_MODE_PASSIVE"},
+		dismiss={CLASS == "WARLOCK" and "Interface\\Icons\\spell_shadow_sacrificialshield" or "Interface\\Icons\\spell_nature_spiritwolf"}
+	}
+	local actionID = {}
+	local petTip = MODERN and function(self, slot)
 		return self:SetSpellBookItem(slot, "pet")
+	end or function(self, slot)
+		return self:SetPetAction(slot)
+	end
+	local petCommandFeedback = MODERN and function(info)
+		local ico, name, slot = info[1], info[2], info[3]
+		if GetSpellBookItemTexture(slot or 0, "pet") ~= ico then
+			slot = nil
+			for i=1,HasPetSpells() or 0 do
+				if GetSpellBookItemTexture(i, "pet") == ico and GetSpellBookItemInfo(i, "pet") == "PETACTION" then
+					info[3], slot = i, i
+					break
+				end
+			end
+		end
+		return not not slot, slot and IsSelectedSpellBookItem(slot, "pet") and 1 or 0, ico, _G[name] or (slot and GetSpellBookItemName(slot, "pet")) or "", 0, 0, 0, slot and petTip or nil, slot
+	end or function(info)
+		local ico, name, slot = info[1], info[2], info[3]
+		local sname, _icokey, _isToken, isActive, _autoCastAllowed, _autoCastEnabled, _spellID, hasRange, inRange = GetPetActionInfo(slot or 0)
+		if sname ~= name then
+			info[3], slot = nil
+			for i=1,10 do
+				sname, _icokey, _isToken, isActive, _autoCastAllowed, _autoCastEnabled, _spellID, hasRange, inRange = GetPetActionInfo(i)
+				if sname == name then
+					info[3], slot = i, i
+					break
+				end
+			end
+		end
+		local flags = slot and (isActive and 1 or 0 + (hasRange and not inRange and 16 or 0) + (hasRange and 512 or 0)) or 0
+		return not not slot and (inRange or not hasRange), flags, ico, _G[name] or name, 0, 0, 0, slot and petTip or nil, slot
 	end
 	local function petHint(sid)
 		local info = actionInfo[sid]
@@ -701,23 +747,13 @@ do -- petspell: spell ID
 			end
 			return HasFullControl() and UnitExists("pet") and PetCanBeDismissed(), 0, info[1], PET_ACTION_DISMISS
 		elseif info then
-			local ico, name, slot = info[1], info[2], info[3]
-			if GetSpellBookItemTexture(slot or 0, "pet") ~= ico then
-				slot = nil
-				for i=1,HasPetSpells() or 0 do
-					if GetSpellBookItemTexture(i, "pet") == ico and GetSpellBookItemInfo(i, "pet") == "PETACTION" then
-						info[3], slot = i, i
-						break
-					end
-				end
-			end
-			return not not slot, slot and IsSelectedSpellBookItem(slot, "pet") and 1 or 0, ico, _G[name] or (slot and GetSpellBookItemName(slot, "pet")) or "", 0, 0, 0, slot and petTip or nil, slot
+			return petCommandFeedback(info)
 		elseif sid then
 			return spellFeedback(sid, nil, sid)
 		end
 	end
 	local function createPetAction(id)
-		if type(id) == "number" and id > 0 and not actionID[id] then
+		if type(id) == "number" and id > 0 and not actionID[id] and not IsPassiveSpell(id) then
 			actionID[id] = AB:CreateActionSlot(petHint, id, "conditional","[petcontrol,known:" .. id .. "];hide", "attribute", "type","spell", "spell",id)
 		end
 		return actionID[id]
@@ -727,9 +763,9 @@ do -- petspell: spell ID
 			local name, _, icon = GetSpellInfo(id)
 			return L"Pet Ability", name, icon, nil, GameTooltip.SetSpellByID, id
 		elseif actionID[id] then
-			local _, _, icon, name, _, _, _, tipf, tipa = petHint(id)
-			local _, st = GetSpellBookItemName(tipa or 0, "pet")
-			return st or L"Pet Ability", name, icon, nil, tipf, tipa
+			local st, _, _, icon, name, _, _, _, tipf, tipa = nil, petHint(id)
+			_, st = GetSpellBookItemName(tipa or 0, "pet")
+			return MODERN and st or L"Pet Ability", name, icon, nil, tipf, tipa
 		end
 	end
 	AB:RegisterActionType("petspell", createPetAction, describePetAction)
@@ -752,20 +788,21 @@ do -- petspell: spell ID
 			macroMap[cmd:lower()] = key
 		end
 		addPetCommand(SLASH_PET_STAY1, "stay")
-		addPetCommand(SLASH_PET_MOVE_TO1, "move")
 		addPetCommand(SLASH_PET_FOLLOW1, "follow")
 		addPetCommand(SLASH_PET_ATTACK1, "attack")
 		addPetCommand(SLASH_PET_DEFENSIVE1, "defend")
-		addPetCommand(SLASH_PET_ASSIST1, "assist")
 		addPetCommand(SLASH_PET_PASSIVE1, "passive")
-		if CLASS == "HUNTER" then
-			actionID["dismiss"] = AB:CreateActionSlot(petHint, "dismiss", "conditional", cnd, "attribute", "type","macro", "macrotext",SLASH_CAST1.." "..GetSpellInfo(HUNTER_DISMISS_PET))
+		actionID.dismiss = AB:CreateActionSlot(petHint, "dismiss", "conditional", cnd, "attribute", "type","macro", "macrotext",SLASH_PET_DISMISS1)
+		if MODERN then
+			addPetCommand(SLASH_PET_MOVE_TO1, "move")
+			addPetCommand(SLASH_PET_ASSIST1, "assist")
 		else
-			actionID["dismiss"] = AB:CreateActionSlot(petHint, "dismiss", "conditional", cnd, "func", PetDismiss)
+			actionInfo.assist = {"Interface/Icons/Ability_Racial_BloodRage", "PET_MODE_AGGRESSIVE"}
+			addPetCommand(SLASH_PET_AGGRESSIVE1, "assist")
 		end
 	end
 end
-do -- toybox: item ID
+if MODERN then -- toybox: item ID
 	local map, lastUsability, uq, whinedAboutGIIR = {}, {}, {}
 	local IGNORE_TOY_USABILITY = {
 		[129149]=1, [129279]=1, [129367]=1, [130157]="[in:broken isles]", [130158]=1, [130170]=1,

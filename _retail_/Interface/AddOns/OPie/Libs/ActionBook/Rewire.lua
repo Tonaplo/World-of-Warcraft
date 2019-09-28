@@ -1,6 +1,7 @@
-local RW, MAJ, REV, _, T = {}, 1, 14, ...
+local RW, MAJ, REV, _, T = {}, 1, 15, ...
 if T.ActionBook then return end
 local AB, KR = nil, assert(T.Kindred:compatible(1,8), "A compatible version of Kindred is required.")
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 
 local function assert(condition, err, ...)
 	return (not condition) and error(tostring(err):format(...), 3) or condition
@@ -633,7 +634,7 @@ function RW:IsSpellCastable(id, disallowRewireEscapes)
 		return false, "known-check"
 	elseif Spell_UncastableIDs[id] then
 		return false, "uncastable-class-lock"
-	elseif Spell_ForcedID[id] then
+	elseif MODERN and Spell_ForcedID[id] then
 		return not not FindSpellBookSlotBySpellID(id), "forced-id-cast"
 	end
 	local name, rank = GetSpellInfo(id), GetSpellSubtext(id)

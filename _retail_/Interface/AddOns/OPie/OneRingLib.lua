@@ -1,4 +1,5 @@
-local versionMajor, versionRev, L, ADDON, T, ORI = 3, 100, newproxy(true), ...
+local versionMajor, versionRev, L, ADDON, T, ORI = 3, 101, newproxy(true), ...
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 local api, OR_Rings, OR_ModifierLockState, TL, EV, OR_LoadedState = {ext={ActionBook=T.ActionBook},lang=L}, {}, nil, T.L, T.Evie, 1
 local defaultConfig = {
 	ClickActivation=false, ClickPriority=true, CloseOnRelease=false, NoClose=false, NoCloseOnSlice=false,
@@ -61,7 +62,7 @@ local function tostringf(b)
 	return b and "true" or "nil"
 end
 local function getSpecCharIdent()
-	local tg = GetSpecialization and GetSpecialization() or 1
+	local tg = MODERN and GetSpecialization() or 1
 	return (tg == 1 and "%s" or "%s-%d"):format(charId, tg)
 end
 local safequote do
@@ -757,7 +758,7 @@ local function OR_InitConfigState()
 	end
 	configRoot._GameVersion, configRoot._GameLocale = gameVersion, GetLocale()
 	configRoot._OPieVersion = ("%s (%d.%d)"):format(api:GetVersion())
-	
+
 	if type(configRoot.ProfileStorage.default) ~= "table" then
 		configRoot.ProfileStorage.default = {Bindings=configRoot.Bindings or {}, RingOptions=configRoot.RingOptions or {}}
 	end
@@ -778,6 +779,7 @@ local function OR_InitConfigState()
 		end
 	end
 	OneRing_Config, configRoot.CenterActions = nil
+	DisableAddOn("OPie_Classic", true)
 	OR_NotifyPVars("LOADED")
 	OR_NotifyOptions()
 	OR_SecProfilePush()
@@ -800,7 +802,6 @@ function EV:PLAYER_LOGIN()
 	OR_LoadedState = OR_LoadedState == 1 and 3 or OR_LoadedState
 	OR_NotifyPVars("LOGIN")
 	return "remove"
-	--TODO: OR_SecCore:Execute(OR_SecEnv.ORL_ReassertBindings)
 end
 function EV:PLAYER_LOGOUT()
 	OneRing_Config = configRoot

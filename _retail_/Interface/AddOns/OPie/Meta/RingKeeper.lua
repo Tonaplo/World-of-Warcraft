@@ -1,6 +1,7 @@
 local RingKeeper, _, T = {}, ...
-local RK_RingDesc, RK_CollectionIDs, RK_Version, RK_Rev, EV, SV = {}, {}, 2, 48, T.Evie
+local RK_RingDesc, RK_CollectionIDs, RK_Version, RK_Rev, EV, SV = {}, {}, 2, 49, T.Evie
 local unlocked, queue, RK_DeletedRings, RK_FlagStore, sharedCollection = false, {}, {}, {}, {}
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 
 local function assert(condition, text, level, ...)
 	return (not condition) and error(tostring(text):format(...), 1 + (level or 1)) or condition
@@ -23,19 +24,28 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			until not s
 		end
 	end
-	local function replaceSpellID(ctype, sidlist, prefix)
-		local sr
+	local function replaceSpellID(ctype, sidlist, prefix, tk)
+		local sr, ar
 		for id, sn in sidlist:gmatch("%d+") do
 			id = id + 0
 			sn, sr = GetSpellInfo(id), GetSpellSubtext(id)
+			ar = GetSpellSubtext(sn)
 			local isCastable, castFlag = RW:IsSpellCastable(id)
+			if not MODERN and not isCastable and tk ~= "spellr" then
+				local id2 = select(7,GetSpellInfo(sn))
+				if id2 then
+					id, isCastable, castFlag = id2, RW:IsSpellCastable(id2)
+				end
+			end
 			if isCastable then
 				if castFlag == "forced-id-cast" and (ctype == 1 or ctype == 3) then
 					sn = "spell:" .. id
 				elseif ctype == 3 and sn and sn:match(",") then
 					sn = "spell:" .. id
-				elseif sr and sr ~= "" then
+				elseif sr and sr ~= "" and (MODERN or tk == "spellr") then
 					sn = sn .. "(" .. sr .. ")"
+				elseif tk == "spell" and not MODERN and ar ~= sr and ar then
+					sn = sn .. "(" .. ar .. ")"
 				end
 				return prefix .. sn
 			end
@@ -72,14 +82,15 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			return cs
 		end
 		function replaceMountTag(ctype, tag, prefix)
-			if tag == "ground" then
+			if not MODERN then
+			elseif tag == "ground" then
 				gmSid = gmSid and IsKnownSpell(gmSid) or findMount(gmPref or gmSid, 230)
 				return replaceSpellID(ctype, tostring(gmSid), prefix)
 			elseif tag == "air" then
 				fmSid = fmSid and IsKnownSpell(fmSid) or findMount(fmPref or fmSid, 248)
 				return replaceSpellID(ctype, tostring(fmSid), prefix)
 			end
-			return ""
+			return nil
 		end
 		function RingKeeper:SetMountPreference(groundSpellID, airSpellID)
 			if type(groundSpellID) == "number" then
@@ -139,8 +150,8 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 		tip:SetOwner(UIParent, "ANCHOR_NONE")
 		parseLine = genLineParser(function(ctype, value)
 			local prefix, tkey, tval = value:match("^%s*(!?)%s*{{(%a+):([%a%d/]+)}}%s*$")
-			if tkey == "spell" then
-				return replaceSpellID(ctype, tval, prefix)
+			if tkey == "spell" or tkey == "spellr" then
+				return replaceSpellID(ctype, tval, prefix, tkey)
 			elseif tkey == "mount" then
 				return replaceMountTag(ctype, tval, prefix)
 			end
@@ -155,6 +166,13 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			repeat
 				local sid, peek, cnpos = spells[name:lower()]
 				if sid then
+					if not MODERN then
+						local rname = name:gsub("%s*%([^)]+%)$", "")
+						local sid2 = rname ~= name and spells[rname:lower()]
+						if sid2 then
+							return (mark .. "{{spellr:" .. sid .. "}}"), cc
+						end
+					end
 					return (mark .. "{{spell:" .. sid .. "}}"), cc
 				end
 				if ctype >= 2 and args then
@@ -166,15 +184,7 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			until not peek or cc > 5
 			return value
 		end)
-		function prepareQuantizer(reuse)
-			if reuse and next(spells) then return end
-			wipe(spells)
-			for i=1,#OTHER_SPELL_IDS do
-				local sn = GetSpellInfo(OTHER_SPELL_IDS[i])
-				if sn then
-					spells[sn:lower()] = OTHER_SPELL_IDS[i]
-				end
-			end
+		local function addModernSpells()
 			local gmi, idm = C_MountJournal.GetMountInfoByID, C_MountJournal.GetMountIDs()
 			for i=1, #idm do
 				local _, sid = gmi(idm[i])
@@ -194,39 +204,55 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 					end
 				end
 			end
+		end
+		local function addSpell(n, id, allowGenericOverwrite)
+			local nl, sr, k = n:lower(), GetSpellSubtext(id)
+			spells[nl] = allowGenericOverwrite and id or spells[nl] or id
+			if sr and sr ~= "" then
+				k = nl .. "(" .. sr:lower() .. ")"; spells[k] = spells[k] or id
+				k = nl .. " (" .. sr:lower() .. ")"; spells[k] = spells[k] or id
+			end
+		end
+		local function addSpellBookTab(ofs, c, allowGenericOverwrite)
+			for j=ofs+1,ofs+c do
+				local n, st, id = GetSpellBookItemName(j, "spell"), GetSpellBookItemInfo(j, "spell")
+				if type(n) ~= "string" or not id then
+				elseif st == "SPELL" or st == "FUTURESPELL" then
+					addSpell(n, id, allowGenericOverwrite and st == "SPELL")
+				elseif st == "FLYOUT" then
+					for j=1,select(3,GetFlyoutInfo(id)) do
+						local sid, _, _, sname = GetFlyoutSlotInfo(id, j)
+						if sid and type(sname) == "string" then
+							addSpell(sname, sid)
+						end
+					end
+				end
+			end
+		end
+		function prepareQuantizer(reuse)
+			if reuse and next(spells) then return end
+			wipe(spells)
+			for i=1,#OTHER_SPELL_IDS do
+				local sn = GetSpellInfo(OTHER_SPELL_IDS[i])
+				if sn then
+					spells[sn:lower()] = OTHER_SPELL_IDS[i]
+				end
+			end
+			if MODERN then
+				addModernSpells()
+			end
 			for curSpec=0,1 do
 				for i=GetNumSpellTabs()+12,1,-1 do
 					local _, _, ofs, c, _, sid = GetSpellTabInfo(i)
-					for j=ofs+1,((curSpec == 0) == (sid == 0)) and ofs+c or 0 do
-						local n, st, id = GetSpellBookItemName(j, "spell"), GetSpellBookItemInfo(j, "spell")
-						if type(n) ~= "string" or not id then
-						elseif st == "SPELL" or st == "FUTURESPELL" then
-							local nl, sr, k = n:lower(), GetSpellSubtext(id)
-							spells[nl] = spells[nl] or id
-							if sr and sr ~= "" then
-								k = nl .. "(" .. sr:lower() .. ")"; spells[k] = spells[k] or sid
-								k = nl .. " (" .. sr:lower() .. ")"; spells[k] = spells[k] or sid
-							end
-						elseif st == "FLYOUT" then
-							for j=1,select(3,GetFlyoutInfo(id)) do
-								local sid, _, _, sname = GetFlyoutSlotInfo(id, j)
-								if sid and type(sname) == "string" then
-									local nl, sr, k = sname:lower(), GetSpellSubtext(sid)
-									spells[nl] = spells[nl] or sid
-									if sr and sr ~= "" then
-										k = nl .. "(" .. sr:lower() .. ")"; spells[k] = spells[k] or sid
-										k = nl .. " (" .. sr:lower() .. ")"; spells[k] = spells[k] or sid
-									end
-								end
-							end
-						end
+					if ((curSpec == 0) == (sid == 0)) then
+						addSpellBookTab(ofs, c, not MODERN)
 					end
 				end
 			end
 		end
 	end
 	function RK_ParseMacro(macro)
-		if type(macro) == "string" and (macro:match("{{spell:[%d/]+}}") or macro:match("{{mount:%a+}}") ) then
+		if type(macro) == "string" and (macro:match("{{spellr?:[%d/]+}}") or macro:match("{{mount:%a+}}") ) then
 			macro = ("\n" .. macro):gsub("(\n([#/]%S+) ?)([^\n]*)", parseLine)
 		end
 		return macro

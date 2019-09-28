@@ -1,4 +1,5 @@
 local _, T = ...
+if select(4,GetBuildInfo()) < 8e4 then return end
 
 local EV, L = T.Evie, T.L
 local AB = assert(T.ActionBook:compatible(2,23), "A compatible version of ActionBook is required.")

@@ -1,4 +1,5 @@
 local L, config, _, T, KR = OneRingLib.lang, {}, ...
+local MODERN = select(4,GetBuildInfo()) >= 8e4
 
 OneRingLib.ext.config, KR = config, T.ActionBook:compatible("Kindred",1,0)
 function config.createPanel(name, parent)
@@ -14,7 +15,8 @@ function config.createPanel(name, parent)
 		frame.version:GetFontString():SetPoint("TOPRIGHT")
 		frame.version:SetPoint("TOPRIGHT", -16, -16)
 		frame.version:SetPushedTextOffset(0,0)
-		frame.version:SetSize(48, 12)
+		frame.version:SetSize(64, 12)
+		frame.version:RegisterForClicks("LeftButtonUp", "RightButtonUp")
 	frame.desc = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmallLeftTop")
 		frame.desc:SetPoint("TOPLEFT", frame.title, "BOTTOMLEFT", 0, -8)
 		frame.desc:SetWidth(590)
@@ -729,12 +731,14 @@ local OPC_OptionSets = {
 
 local frame = config.createPanel("OPie")
 	frame.version:SetFormattedText("%s (%d.%d)", OneRingLib:GetVersion())
-	frame.version:SetScript("OnClick", function(self)
-		local c = ITEM_QUALITY_COLORS[math.max(1,math.floor(6*0.75^math.random(12)))]
+	local c = 0
+	frame.version:SetScript("OnClick", function(self, button)
+		c = button ~= "RightButton" and (c + 1) % 64 or 0
+		local c = ITEM_QUALITY_COLORS[c > 0 and (c % 3 == 0 and 2 or c % 7 == 0 and 3 or c % 11 == 0 and 4) or 1]
 		self:GetFontString():SetTextColor(c.r, c.g, c.b)
 	end)
 local OPC_Profile = CreateFrame("Frame", "OPC_Profile", frame, "UIDropDownMenuTemplate")
-	OPC_Profile:SetPoint("TOPLEFT", frame, 0, -85)
+	OPC_Profile:SetPoint("TOPLEFT", frame, 0, MODERN and -85 or -65)
 	UIDropDownMenu_SetWidth(OPC_Profile, 200)
 local OPC_OptionDomain = CreateFrame("Frame", "OPC_OptionDomain", frame, "UIDropDownMenuTemplate")
 	OPC_OptionDomain:SetPoint("LEFT", OPC_Profile, "RIGHT")
@@ -787,7 +791,7 @@ do -- Widget construction
 		return b, ofsY - 20, false, 0
 	end
 
-	local cY, halfpoint, rowHeight = -115, false
+	local cY, halfpoint, rowHeight = MODERN and -115 or -95, false
 	for _, v in ipairs(OPC_OptionSets) do
 		v.label = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
 		v.label:SetPoint("TOP", frame, "TOP", -50, cY-10)
@@ -904,7 +908,8 @@ function OPC_Profile:initialize()
 end
 function frame.refresh()
 	OPC_BlockInput = true
-	frame.desc:SetText(L"Customize OPie's appearance and behavior. Right clicking a checkbox restores it to its default state." .. "\n" .. L"Profiles activate automatically when you switch character specializations.")
+	frame.desc:SetText(L"Customize OPie's appearance and behavior. Right clicking a checkbox restores it to its default state."
+		.. (MODERN and "\n" .. L"Profiles activate automatically when you switch character specializations." or ""))
 	for _, v in pairs(OPC_OptionSets) do
 		v.label:SetText(v[1])
 		for j=2,#v do

@@ -5,20 +5,31 @@ local settings = L.settings
 local size = settings.size
 local color = addon.color
 local interface = addon.interface
-local GUI = LibStub("AceKGUI-3.0")
+-- local GUI = LibStub("AceKGUI-3.0")
+local GUI = LibStub("AceGUI-3.0")
 local FastGuildInvite = addon.lib
 local DB
 
 local function fontSize(self, font, size)
 	font = font or settings.Font
 	size = size or settings.FontSize
-	self:SetFont(font, size)
+	-- self:SetFont(font, size)
 end
 
-interface.chooseInvites = GUI:Create("Frame")
-local chooseInvites = interface.chooseInvites
+local function btnText(frame)
+	local text = frame.text
+	text:ClearAllPoints()
+	text:SetPoint("TOPLEFT", 5, -1)
+	text:SetPoint("BOTTOMRIGHT", -5, 1)
+end
+
+local chooseInvites
+
+do		--	chooseInvites
+interface.chooseInvites = GUI:Create("ClearFrame")
+chooseInvites = interface.chooseInvites
+-- chooseInvites:Hide()
 chooseInvites:SetTitle("FGI Choose Invites")
-chooseInvites:clearFrame(true)
 chooseInvites:SetWidth(size.chooseInvitesW)
 chooseInvites:SetHeight(size.chooseInvitesH)
 
@@ -46,6 +57,7 @@ chooseInvites.closeButton = GUI:Create('Button')
 local frame = chooseInvites.closeButton
 frame:SetText('X')
 frame:SetWidth(frame.frame:GetHeight())
+fn:closeBtn(frame)
 frame:SetCallback('OnClick', function()
 	interface.chooseInvites:Hide()
 end)
@@ -66,6 +78,7 @@ chooseInvites.invite = GUI:Create("Button")
 local frame = chooseInvites.invite
 frame:SetText(L.interface["Пригласить"])
 fontSize(frame.text)
+btnText(frame)
 frame:SetWidth(size.invite)
 frame:SetHeight(40)
 frame:SetCallback("OnClick", function()
@@ -77,23 +90,24 @@ chooseInvites.reject = GUI:Create("Button")
 local frame = chooseInvites.reject
 frame:SetText(L.interface["Отклонить"])
 fontSize(frame.text)
+btnText(frame)
 frame:SetWidth(size.reject)
 frame:SetHeight(40)
 frame:SetCallback("OnClick", function()
 	fn:invitePlayer(true)
 end)
 chooseInvites:AddChild(frame)
-
+end
 
 
 
 
 -- set points
 local frame = CreateFrame('Frame')
-frame:RegisterEvent('PLAYER_ENTERING_WORLD')
+frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
 	DB = addon.DB
-	
+	C_Timer.After(0.1, function()
 	chooseInvites.closeButton:ClearAllPoints()
 	chooseInvites.closeButton:SetPoint("CENTER", chooseInvites.frame, "TOPRIGHT", -8, -8)
 	
@@ -107,5 +121,5 @@ frame:SetScript('OnEvent', function()
 	chooseInvites.reject:SetPoint("LEFT", chooseInvites.invite.frame, "RIGHT", 5, 0)
 	
 	chooseInvites:Hide()
-	frame:UnregisterEvent('PLAYER_ENTERING_WORLD')
+	end)
 end)

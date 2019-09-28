@@ -11,6 +11,8 @@ local L = {
 			["resetDB"] = "/fgi resetDB - Clear the list of sent invitations.",
 			["resetWindowsPos"] = "/fgi resetWindowsPos - Reset the position of the window(s).",
 			["show"] = "/fgi show - Open the main window of the addon",
+			["invite"] = "/fgi invite - Invite the first player from the queue",
+			["nextSearch"] = "/fgi nextSearch - Run next scan",
 		},
 		["error"] = {
 			["Вы не состоите в гильдии или у вас нет прав для приглашения."] = "You are not a member of the guild or you do not have permission to invite.",
@@ -24,7 +26,11 @@ local L = {
 		}
 	},
 	["interface"] = {
+		["Игрок %s добавлен в черный список."] = "Player %s has been blacklisted.",
+		["Причина"] = "Reason",
 		["Включен"] = "Included",
+		["Черный список"] = "Blacklist",
+		["Пользовательский список"] = "Custom list",
 		["Включить фильтры"] = "Enable filters",
 		["Выбрать приглашения"] = "Choose invitations",
 		["Выключен"] = "Switched off",
@@ -79,6 +85,7 @@ local L = {
 		["Числа не могут быть меньше или равны 0. Минимальный уровень не может быть больше максимального"] = "Numbers cannot be less than or equal to 0. The minimum level cannot be greater than the maximum",
 		["Чтобы быть отфильтрованным, игрок должен соответствовать критериям ВСЕХ фильтров"] = "To be filtered, the player must meet the criteria of all filters",
 		["Запоминать всех игроков"] = "Remember all players",
+		["Игрок %s найденный в черном списке, находится в вашей гильдии!"] = "Blacklisted %s player is in your guild!",
 		["tooltip"] = {
 			["Автоматическое увеличение детализации поиска"] = "Automatically increase search details.",
 			["Введите диапазон уровней для фильтра.\nНапример: %s55%s:%s58%s\nбудут подходить только те игроки, уровень\nкоторых варьируется от %s55%s до %s58%s (включительно)"] = "Enter a range of levels for the filter.\nfor Example:%s55%s:%s58%s\nwill be approached only by those players, the level\nwhich varies from%s55%s to %s58%s (inclusive)",
@@ -88,12 +95,14 @@ local L = {
 			["Запускать поиск в фоновом режиме"] = "Run a background search",
 			["Количество уровней сканируемых за один раз"] = "Number of levels scanned at one time",
 			["Назначить клавишу для приглашения"] = "Assign a key to the invitation",
+			["Назначить клавишу следующего поиска"] = "Assign a key to the next search",
 			["Не отображать в чате отправляемые сообщения"] = "Do not show sent messages in chat",
 			["Не отображать в чате системные сообщения"] = "Do not display system messages in Chat",
 			["Не отображать в чате сообщения аддона"] = "Do not display addon messages in Chat",
 			["Уровень, с которого начинается фильтр по классам"] = "The level at which the filter starts by class",
 			["Уровень, с которого начинается фильтр по расам"] = "The level at which the race filter starts",
-			["Записывать игрока в базу данных сразу после нахождения"] = "Write the player to the database immediately after finding",
+			["Записывать игрока в базу данных даже если приглашение не было отправлено"] = "Write a player to the database even if the invitation has not been sent",
+			["Использовать пользовательский список запросов"] = "Use custom query list",
 		},
 		["invType"] = {
 			["Отправить сообщение и пригласить"] = "Send a message and invite",
