@@ -6,12 +6,12 @@ FGI_DB = {
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
 		["Glora - Auchindoun"] = "Glora - Auchindoun",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Welor - Auchindoun"] = "Welor - Auchindoun",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
-		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 	},
 	["global"] = {
 		["scanFrame"] = {
@@ -32,41 +32,53 @@ FGI_DB = {
 			["minimapPos"] = 194.1576666062499,
 			["hide"] = false,
 		},
-		["sendMSG"] = true,
-		["backgroundRun"] = true,
-		["curMessage"] = 0,
+		["blackList"] = {
+		},
+		["keyBind"] = {
+			["nextSearch"] = false,
+			["invite"] = false,
+		},
 		["filtersList"] = {
 			["high level"] = {
 				["lvlRange"] = "110:120",
 				["letterFilter"] = false,
-				["filteredCount"] = 0,
+				["classFilter"] = false,
 				["filterByName"] = false,
 				["raceFilter"] = false,
 				["filterOn"] = true,
-				["classFilter"] = false,
+				["filteredCount"] = 0,
 			},
 		},
-		["messageList"] = {
-			[0] = "Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!",
-		},
-		["SearchType"] = 1,
-		["searchInterval"] = 5,
-		["rememberAll"] = true,
-		["classFilterVal"] = 121,
+		["clearDBtimes"] = 3,
+		["sendMSG"] = true,
+		["customWho"] = false,
+		["addonMSG"] = false,
+		["curMessage"] = 1,
 		["mainFrame"] = {
 			["yOfs"] = 185.0002136230469,
 			["xOfs"] = -13.0000524520874,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
+		["debug"] = false,
+		["SearchType"] = 1,
+		["lowLimit"] = 1,
+		["rememberAll"] = true,
+		["classFilterVal"] = 121,
+		["searchInterval"] = 5,
 		["alredySended"] = {
 		},
 		["systemMSG"] = false,
-		["lowLimit"] = 1,
-		["clearDBtimes"] = 3,
-		["inviteType"] = 3,
 		["enableFilters"] = false,
-		["keyBind"] = false,
-		["addonMSG"] = false,
+		["messageList"] = {
+			"Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!", -- [1]
+		},
+		["inviteType"] = 3,
+		["backgroundRun"] = true,
+		["leave"] = {
+		},
+		["customWhoList"] = {
+			"1-15 c-\"Class\" r-\"Race\"", -- [1]
+		},
 	},
 }

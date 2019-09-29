@@ -9,7 +9,7 @@ OneRing_Config = {
 		["Proudmoore-Fimwack-2"] = "default",
 	},
 	["_GameLocale"] = "enUS",
-	["_OPieVersion"] = "Walnut 3 (3.100)",
+	["_OPieVersion"] = "Walnut 4 (3.101)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["ClickActivation"] = true,
@@ -210,8 +210,8 @@ OneRing_Config = {
 			},
 			["Mounts"] = {
 				{
-					["id"] = 150544,
 					["sliceToken"] = "ABuepjqUmtwy",
+					["id"] = 150544,
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuepjqUmtwt",
@@ -619,5 +619,5 @@ OneRing_Config = {
 			},
 		},
 	},
-	["_GameVersion"] = "8.2.0",
+	["_GameVersion"] = "8.2.5",
 }

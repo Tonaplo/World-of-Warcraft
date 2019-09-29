@@ -9,3 +9,4 @@ ElvUI: enabled
 HandyNotes: enabled
 HandyNotes_DraenorTreasures: enabled
 LittleWigs: enabled
+OPie_Classic: disabled

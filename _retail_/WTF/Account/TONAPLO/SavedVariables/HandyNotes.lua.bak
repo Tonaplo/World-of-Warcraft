@@ -39,11 +39,11 @@ HandyNotesDB = {
 		["Deminath - Hyjal"] = "Deminath - Hyjal",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
-		["Weston - Icecrown"] = "Weston - Icecrown",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Weston - Icecrown"] = "Weston - Icecrown",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
@@ -213,11 +213,11 @@ HandyNotes_HandyNotesDB = {
 		["Deminath - Hyjal"] = "Deminath - Hyjal",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
-		["Weston - Icecrown"] = "Weston - Icecrown",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Weston - Icecrown"] = "Weston - Icecrown",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
@@ -303,7 +303,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Amranar - Proudmoore"] = {
 		},
-		["Zearthan - Proudmoore"] = {
+		["Luugo - Frostwolf"] = {
 		},
 		["Fandagny - Frostwolf"] = {
 		},
@@ -313,7 +313,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Evisca - Bleeding Hollow"] = {
 		},
-		["Luugo - Frostwolf"] = {
+		["Zearthan - Proudmoore"] = {
 		},
 		["Rentror - Bleeding Hollow"] = {
 		},

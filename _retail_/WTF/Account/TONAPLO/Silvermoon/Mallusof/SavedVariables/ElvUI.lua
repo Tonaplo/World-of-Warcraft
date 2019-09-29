@@ -1,2030 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/1 thanks for coming! :)", -- [1]
-		"/p omw to stone, WM on", -- [2]
-		"/p indeed", -- [3]
-		"/cw Garenia-ChamberofAspects Mind if I add you? Excellent DPS and interrupts", -- [4]
-		"ofcourse :)", -- [5]
-		"/p gar", -- [6]
-		"/p Thanks guys :)", -- [7]
-		"/p Very nice", -- [8]
-		"/cw Бездолье-ВечнаяПесня such a pleasure to heal", -- [9]
-		"/cw Бездолье-ВечнаяПесня major props", -- [10]
-		"/p ?", -- [11]
-		"/p I'm ranged", -- [12]
-		"/p 3 dd", -- [13]
-		"/p :)\\", -- [14]
-		"/p ills wioth tank", -- [15]
-		"/p amazing", -- [16]
-		"/p thanks!", -- [17]
-		"/g OH SHIT", -- [18]
-		"/g |cffe6cc80|Hitem:170150::::::::120:258::11::::|h[Map to the Last Worldvein]|h|r", -- [19]
-		"/exrt", -- [20]
+		"so Dreamwalker is easy", -- [1]
+		"/g and make cauldrons", -- [2]
+		"/p cheers!", -- [3]
+		"and everything in between", -- [4]
+		"/g awesome, dude :)", -- [5]
+		"Good luck on |cff71d5ff|Hspell:72286:0|h[Invincible]|h|r", -- [6]
+		"/p Hello :)", -- [7]
+		"I dont think any", -- [8]
+		"/cw Nashira-DerRatvonDalaran I got a mail saying I was removed", -- [9]
+		"/cw Nashira-DerRatvonDalaran Hmmm", -- [10]
+		"/cw Nashira-DerRatvonDalaran Perhaps some system error then", -- [11]
+		"/cw Nashira-DerRatvonDalaran Oh well", -- [12]
+		"/cw Nashira-DerRatvonDalaran I'll be there :0", -- [13]
+		"/cw Nashira-DerRatvonDalaran will do :)", -- [14]
+		"/cw Nashira-DerRatvonDalaran Oh, now it's there again", -- [15]
+		"/cw Nashira-DerRatvonDalaran wtf", -- [16]
+		"/cw Nashira-DerRatvonDalaran Deffo some random UI error then", -- [17]
+		"/cw Nashira-DerRatvonDalaran lol", -- [18]
+		"/elvui", -- [19]
+		"/g That's very weird", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"thanks man!", -- [1]
-			"|Kq40|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2335, -- [11]
-			false, -- [12]
-			24, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Adionis|r",
-			[51] = 1568236012,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [1]
-		{
-			"jes thanks for de run all", -- [1]
-			"Jerkon-EarthenRing", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jerkon-EarthenRing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2336, -- [11]
-			"Player-1317-06583D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeJerkon-EarthenRing|r",
-			[51] = 1568236014,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [2]
-		{
-			"\"Parents with Jobs\" has earned the achievement |cffffff00|Hachievement:5170:0000000000000000:1:9:11:19:4294967295:4294967295:4294967295:4294967295|h[Troll Slayer]|h|r!", -- [1]
-			"Parents with Jobs", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			166, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Parents with Jobs",
-			[51] = 1568238000,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"hello", -- [1]
-			"Aiwvia-Tyrande", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aiwvia-Tyrande", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			121, -- [11]
-			"Player-1384-091C64F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Aiwvia-Tyrande|r",
-			[51] = 1568405991,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [4]
-		{
-			"Greetings", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			324, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568406505,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
-			"hi", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			328, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568406514,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
-		{
-			"hi", -- [1]
-			"Disihterror-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Disihterror-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"Player-1303-096CBC4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
-			[51] = 1568406528,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [7]
-		{
-			"|cffffff00Mezzamere is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"4. LocalDefense - Nazjatar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			4, -- [8]
-			"LocalDefense - Nazjatar", -- [9]
-			0, -- [10]
-			353, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1568406616,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"o/", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			357, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568406649,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
-		{
-			"hi", -- [1]
-			"Deleni-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Deleni-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			358, -- [11]
-			"Player-1301-08FCB644", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Deleni-Outland|r",
-			[51] = 1568406653,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [10]
-		{
-			"o/", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			359, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568406655,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"o/", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			360, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568406659,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [12]
-		{
-			"omw to stone, WM on", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			373, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568406711,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [13]
-		{
-			"omw too", -- [1]
-			"Deleni-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Deleni-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			378, -- [11]
-			"Player-1301-08FCB644", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Deleni-Outland|r",
-			[51] = 1568406731,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [14]
-		{
-			"timer pls", -- [1]
-			"Deleni-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Deleni-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			388, -- [11]
-			"Player-1301-08FCB644", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Deleni-Outland|r",
-			[51] = 1568406825,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
-		{
-			"do damage then", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			389, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568406834,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
-		{
-			":D", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			391, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568406835,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
-		{
-			"gl ppl", -- [1]
-			"Disihterror-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Disihterror-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			394, -- [11]
-			"Player-1303-096CBC4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
-			[51] = 1568406855,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [18]
-		{
-			"gl hf", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			397, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568406861,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
-		{
-			"Interrupted Temple Attendant's |cff71d5ff|Hspell:267969:0|h[Water Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			403, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568406917,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
-		{
-			"Interrupted Temple Attendant's |cff71d5ff|Hspell:267969:0|h[Water Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			404, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568406934,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
-		{
-			"Interrupted Shrine Templar's |cff71d5ff|Hspell:267981:0|h[Protective Aura]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			405, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568406949,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
-		{
-			"Interrupted Temple Attendant's |cff71d5ff|Hspell:267973:0|h[Wash Away]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			408, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568406992,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
-		{
-			"Interrupted Shrine Templar's |cff71d5ff|Hspell:267981:0|h[Protective Aura]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			409, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407054,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
-		{
-			"Interrupted Temple Attendant's |cff71d5ff|Hspell:267969:0|h[Water Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			410, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407078,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
-		{
-			"whats wrong with pally", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			416, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568407192,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
-		{
-			"im in back and die?", -- [1]
-			"Disihterror-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Disihterror-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			417, -- [11]
-			"Player-1303-096CBC4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
-			[51] = 1568407193,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [27]
-		{
-			"Interrupted Windspeaker Heldis's |cff71d5ff|Hspell:268177:0|h[Windblast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			422, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407329,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
-		{
-			"Interrupted Windspeaker Heldis's |cff71d5ff|Hspell:268177:0|h[Windblast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			423, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407344,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
-		{
-			"Interrupted Galecaller Apprentice's |cff71d5ff|Hspell:274437:0|h[Tempest]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			427, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407426,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [30]
-		{
-			"Interrupted Galecaller Apprentice's |cff71d5ff|Hspell:274437:0|h[Tempest]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			433, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407528,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [31]
-		{
-			"))))", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			436, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568407601,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
-		{
-			"Interrupted Galecaller Apprentice's |cff71d5ff|Hspell:274437:0|h[Tempest]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			438, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407614,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [33]
-		{
-			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			463, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407715,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
-		{
-			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			469, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407732,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [35]
-		{
-			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			477, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407754,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [36]
-		{
-			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			482, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407767,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
-		{
-			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			484, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407781,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [38]
-		{
-			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			490, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407798,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
-		{
-			"Interrupted Galecaller Faye's |cff71d5ff|Hspell:267818:0|h[Slicing Blast]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			492, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407818,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
-		{
-			"ar", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			502, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568407892,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [41]
-		{
-			"gar", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			503, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568407895,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [42]
-		{
-			"? :L", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			504, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568407903,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [43]
-		{
-			"ress after fight please", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			505, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568407903,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [44]
-		{
-			"yy", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			506, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407907,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [45]
-		{
-			"ty", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			510, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568407932,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [46]
-		{
-			"ty", -- [1]
-			"Disihterror-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Disihterror-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			512, -- [11]
-			"Player-1303-096CBC4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
-			[51] = 1568407938,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [47]
-		{
-			"n1", -- [1]
-			"Disihterror-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Disihterror-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			513, -- [11]
-			"Player-1303-096CBC4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
-			[51] = 1568407939,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [48]
-		{
-			"Interrupted Deepsea Ritualist's |cff71d5ff|Hspell:268309:0|h[Unending Darkness]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			514, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407967,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [49]
-		{
-			"3", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			515, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568407971,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
-		{
-			"2", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			517, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568407972,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
-		{
-			"1", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			519, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568407973,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
-		{
-			"Interrupted Deepsea Ritualist's |cff71d5ff|Hspell:268309:0|h[Unending Darkness]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			521, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568407985,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [53]
-		{
-			"3", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			523, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568407992,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
-		{
-			"Interrupted Deepsea Ritualist's |cff71d5ff|Hspell:268309:0|h[Unending Darkness]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			525, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408019,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [55]
-		{
-			"3", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			526, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408022,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
-		{
-			"3", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			527, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568408022,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
-		{
-			"2", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			528, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408023,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
-		{
-			"2", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			529, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568408023,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
-		{
-			"1", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			530, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408024,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
-		{
-			"1", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			531, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568408024,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
-		{
-			"Interrupted Deepsea Ritualist's |cff71d5ff|Hspell:268309:0|h[Unending Darkness]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			532, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408034,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
-		{
-			"invis pot?", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			533, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408103,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
-		{
-			"no", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			534, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568408107,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
-		{
-			"i have", -- [1]
-			"Deleni-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Deleni-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			535, -- [11]
-			"Player-1301-08FCB644", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Deleni-Outland|r",
-			[51] = 1568408107,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
-		{
-			"hardcore", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			536, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568408110,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
-		{
-			"dont have", -- [1]
-			"Disihterror-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Disihterror-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			537, -- [11]
-			"Player-1303-096CBC4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
-			[51] = 1568408112,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [67]
-		{
-			"Interrupted Abyssal Cultist's |cff71d5ff|Hspell:268375:0|h[Detect Thoughts]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			538, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408151,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
-		{
-			"Interrupted Abyssal Cultist's |cff71d5ff|Hspell:268375:0|h[Detect Thoughts]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			539, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408186,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
-		{
-			"Interrupted Lord Stormsong's |cff71d5ff|Hspell:268347:0|h[Void Bolt]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			547, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408313,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
-		{
-			"Interrupted Lord Stormsong's |cff71d5ff|Hspell:268347:0|h[Void Bolt]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			550, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408370,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			561, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408534,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			564, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408551,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [73]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			566, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408568,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			567, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408585,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [75]
-		{
-			"cd", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			570, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568408604,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [76]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			571, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408605,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [77]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267809:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			572, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408622,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			577, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408668,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			578, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408686,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			583, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408767,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			584, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408789,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
-		{
-			"cd", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			589, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408863,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			590, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408879,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
-		{
-			"Interrupted Forgotten Denizen's |cff71d5ff|Hspell:267459:0|h[Consume Essence]|h|r!", -- [1]
-			"Garenia-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garenia-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			591, -- [11]
-			"Player-1307-08B74FFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
-			[51] = 1568408892,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
-		{
-			"niceee", -- [1]
-			"Бездолье-ВечнаяПесня", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Бездолье-ВечнаяПесня", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			601, -- [11]
-			"Player-1925-0B6D3E82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
-			[51] = 1568408924,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
-		{
-			"Very nice", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			604, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568408927,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
-		{
-			"Great group", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			605, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568408929,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
-		{
-			"Nice DPS and excellent atnking", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			607, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568408934,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [89]
-		{
-			"tanking", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			608, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568408938,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
-		{
-			"!keys", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			611, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1568408944,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [91]
 		{
 			"|cffa335ee|Hkeystone:158923:244:10:9:6:4:119|h[Keystone: Atal'Dazar (10)]|h|r", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2046,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568408944,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [1]
 		{
 			"Astral Keys: |cffa335ee|Hkeystone:158923:246:8:9:5:3:119|h[Keystone: Tol Dagor (8)]|h|r", -- [1]
 			"Deleni-Outland", -- [2]
@@ -2068,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568408944,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [93]
+		}, -- [2]
 		{
 			"ty bye", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2090,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408967,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [3]
 		{
 			"ty", -- [1]
 			"Deleni-Outland", -- [2]
@@ -2112,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568408981,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [4]
 		{
 			"if you ant", -- [1]
 			"Disihterror-Aggra(Português)", -- [2]
@@ -2134,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Disihterror-Aggra(Português)|r",
 			[51] = 1568408983,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [96]
+		}, -- [5]
 		{
 			"Mind if I add you? Excellent DPS and interrupts", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2156,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568408985,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [97]
+		}, -- [6]
 		{
 			"why not", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2178,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568409000,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [98]
+		}, -- [7]
 		{
 			"but its just rofl alt dont play that much with thi", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2200,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568409016,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [99]
+		}, -- [8]
 		{
 			"ahhh I see", -- [1]
 			"Garenia-ChamberofAspects", -- [2]
@@ -2222,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGarenia-ChamberofAspects|r",
 			[51] = 1568409025,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [100]
+		}, -- [9]
 		{
 			"Thanks guys :)", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2244,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568409038,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [101]
+		}, -- [10]
 		{
 			"Havea  good one :)", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2266,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568409040,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [102]
+		}, -- [11]
 		{
 			"ty all", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2288,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409051,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [103]
+		}, -- [12]
 		{
 			"good run", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2310,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409051,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [104]
+		}, -- [13]
 		{
 			"indeed", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2332,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568409058,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [105]
+		}, -- [14]
 		{
 			"ty cya", -- [1]
 			"Deleni-Outland", -- [2]
@@ -2354,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Deleni-Outland|r",
 			[51] = 1568409060,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [106]
+		}, -- [15]
 		{
 			"Excellent tanking man", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2376,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409062,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [107]
+		}, -- [16]
 		{
 			"such a pleasure to heal", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2398,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409067,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [108]
+		}, -- [17]
 		{
 			"major props", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2420,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409069,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [109]
+		}, -- [18]
 		{
 			"thankyou, everyone is doing good", -- [1]
 			"Бездолье-ВечнаяПесня", -- [2]
@@ -2442,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Бездолье-ВечнаяПесня|r",
 			[51] = 1568409095,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [110]
+		}, -- [19]
 		{
 			"thx & bb", -- [1]
 			"Twèéty-Khaz'goroth", -- [2]
@@ -2464,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTwèéty-Khaz'goroth|r",
 			[51] = 1568579425,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [111]
+		}, -- [20]
 		{
 			"Hey :)", -- [1]
 			"Huttemeier-Twilight'sHammer", -- [2]
@@ -2486,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHuttemeier-Twilight'sHammer|r",
 			[51] = 1568579485,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [112]
+		}, -- [21]
 		{
 			"range or melee?", -- [1]
 			"Videographer-Silvermoon", -- [2]
@@ -2508,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVideographer|r",
 			[51] = 1568580187,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [113]
+		}, -- [22]
 		{
 			"?", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2530,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580201,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [114]
+		}, -- [23]
 		{
 			"I'm ranged", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2552,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580205,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [115]
+		}, -- [24]
 		{
 			"3. dd", -- [1]
 			"Videographer-Silvermoon", -- [2]
@@ -2574,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVideographer|r",
 			[51] = 1568580206,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [116]
+		}, -- [25]
 		{
 			"or who care* :D", -- [1]
 			"Videographer-Silvermoon", -- [2]
@@ -2596,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVideographer|r",
 			[51] = 1568580212,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [117]
+		}, -- [26]
 		{
 			"3 dd", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2618,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580233,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [118]
+		}, -- [27]
 		{
 			":)\\", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2640,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580235,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [119]
+		}, -- [28]
 		{
 			"hey yoko", -- [1]
 			"Videographer-Silvermoon", -- [2]
@@ -2662,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVideographer|r",
 			[51] = 1568580261,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [120]
+		}, -- [29]
 		{
 			"focus azerites?", -- [1]
 			"Videographer-Silvermoon", -- [2]
@@ -2684,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVideographer|r",
 			[51] = 1568580313,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [121]
+		}, -- [30]
 		{
 			"or kills?", -- [1]
 			"Videographer-Silvermoon", -- [2]
@@ -2706,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVideographer|r",
 			[51] = 1568580314,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [122]
+		}, -- [31]
 		{
 			"ills wioth tank", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2728,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580409,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [123]
+		}, -- [32]
 		{
 			"amazing", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2750,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580506,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [124]
+		}, -- [33]
 		{
 			"thanks!", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2772,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580684,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [125]
+		}, -- [34]
 		{
 			"OH !@#$", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2794,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580698,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [126]
+		}, -- [35]
 		{
 			"|cffe6cc80|Hitem:170150::::::::120:258::11::::|h[Map to the Last Worldvein]|h|r", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -2816,6 +814,2054 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallusof|r",
 			[51] = 1568580703,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [36]
+		{
+			"|cffffff00Port of Zandalar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"4. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			4, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			156, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1569697586,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12891:Player-3391-0A907434:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[A Nation United]|h|r!", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gralph-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			265, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569698149,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [38]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13517:Player-3391-0A907434:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[Two Sides to Every Tale]|h|r!", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gralph-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			266, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569698149,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [39]
+		{
+			"nice :)", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			267, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569698174,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [40]
+		{
+			"woop", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			330, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569698549,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [41]
+		{
+			"also i have been lvling my LW a bit and made a bunch of drums", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			336, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569698565,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [42]
+		{
+			"hey man", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			390, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699036,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [43]
+		{
+			"wanna do Lich king?", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			393, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699038,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [44]
+		{
+			"Naah, doing the Wrathion Questline", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			394, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699052,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [45]
+		{
+			"the last one", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			402, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699078,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [46]
+		{
+			"or pandaria one", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			403, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699080,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [47]
+		{
+			"last one", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			404, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699088,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [48]
+		{
+			"u will do it quickly", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			405, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699093,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [49]
+		{
+			"Yeah, but I dont wanna go anyway, lol", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			410, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699105,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [50]
+		{
+			"I already have everything I need from in there", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			412, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699111,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [51]
+		{
+			"can I at least inv u to party", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			413, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699116,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [52]
+		{
+			"and go myself", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			414, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699122,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [53]
+		{
+			"i should be able to 1v1 him", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			415, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699127,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [54]
+		{
+			"You dont need to be in a party to go in there :P", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			416, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699136,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [55]
+		{
+			"rly?", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			417, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699141,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [56]
+		{
+			"yup", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			418, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699144,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [57]
+		{
+			"You can just enter", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			419, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699148,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [58]
+		{
+			"aaand would I be able to solo the entire icecrown ?", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			420, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699154,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [59]
+		{
+			"More or less all old raids", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			421, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699155,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [60]
+		{
+			"absolutely", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			424, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699162,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [61]
+		{
+			"easily", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			425, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699165,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [62]
+		{
+			"freaking yea :D", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			426, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699166,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [63]
+		{
+			"Good luck on |Hspell:72286:0|h[Invincible]|h", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			427, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699183,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [64]
+		{
+			"I dont believe this will drop", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			432, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699193,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [65]
+		{
+			"but it will be sick", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			433, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699195,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [66]
+		{
+			"I will put on the song :D", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			434, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699199,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [67]
+		{
+			"I mean play the song", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			436, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699226,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [68]
+		{
+			"It took me 79 LK kills", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			446, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699243,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [69]
+		{
+			"hahahaha", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			448, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699250,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [70]
+		{
+			"I cant believe I can solo ICC", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			450, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699259,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [71]
+		{
+			"easy lol", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			451, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699266,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [72]
+		{
+			"You can also solo Warlords stuff", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			454, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699284,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [73]
+		{
+			"never did it", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			455, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699284,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [74]
+		{
+			"not even in a private server ;(", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			458, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699288,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [75]
+		{
+			"and everything in between", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			459, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699288,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [76]
+		{
+			"lol watch me solo Cthun then", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			463, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699323,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [77]
+		{
+			":D :D", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			467, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699329,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [78]
+		{
+			"For some bosses", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			468, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699332,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [79]
+		{
+			"you still need strats", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			469, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699335,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [80]
+		{
+			"y probably", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			470, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699340,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [81]
+		{
+			"orginal Nef good example", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			471, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699351,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [82]
+		{
+			"from WOTLK what bosses would be undoable by me only", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			474, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699377,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [83]
+		{
+			"I dont think any", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			482, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699389,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [84]
+		{
+			"you can heal", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			483, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699393,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [85]
+		{
+			"so Dreamwalker is easy", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			485, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569699402,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Annix",
+		}, -- [86]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13744:Player-3391-0A907434:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[Seasoned: Bladesman Inowari]|h|r!", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gralph-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			523, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569699826,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [87]
+		{
+			"|Hitem:50415::::::::120:70::::::|h[Bryntroll, the Bone Arbiter]|h", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			553, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569700008,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [88]
+		{
+			"talking about transomg :P", -- [1]
+			"|Kq31|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			554, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Annix",
+			[51] = 1569700012,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Annix",
+		}, -- [89]
+		{
+			"awesome, dude :)", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			565, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569700121,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"I really should spend some time to farm Zanathid", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			573, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569700147,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"and make cauldrons", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			574, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569700152,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12734:Player-3391-0A907434:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[Working in Kul Tiras]|h|r!", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gralph-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			577, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569700176,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"Hey", -- [1]
+			"Rimsion-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rimsion-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			629, -- [11]
+			"Player-1303-0712F04B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cRimsion-GrimBatol|r",
+			[51] = 1569700753,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [94]
+		{
+			"Hello :)", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			632, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569700760,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [95]
+		{
+			"hi", -- [1]
+			"Tdarkknight-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tdarkknight-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			633, -- [11]
+			"Player-1378-07A949E2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTdarkknight-DunModr|r",
+			[51] = 1569700760,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [96]
+		{
+			"Hey", -- [1]
+			"Rimsion-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rimsion-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			642, -- [11]
+			"Player-1303-0712F04B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cRimsion-GrimBatol|r",
+			[51] = 1569700790,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [97]
+		{
+			"well that's some wierd !@#$", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			747, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569701076,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"took the boat from boralus to stormwind but ended up at the alterac valley battlemaster...in friggin hillsbrad", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			757, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569701111,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [99]
+		{
+			"jesus the interrupts", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			893, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569701509,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [100]
+		{
+			"thanks for the invite", -- [1]
+			"Tdarkknight-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tdarkknight-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			977, -- [11]
+			"Player-1378-07A949E2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTdarkknight-DunModr|r",
+			[51] = 1569701745,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [101]
+		{
+			"bye", -- [1]
+			"Tdarkknight-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tdarkknight-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			978, -- [11]
+			"Player-1378-07A949E2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTdarkknight-DunModr|r",
+			[51] = 1569701746,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [102]
+		{
+			"Hey", -- [1]
+			"Rimsion-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rimsion-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			990, -- [11]
+			"Player-1303-0712F04B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cRimsion-GrimBatol|r",
+			[51] = 1569701802,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [103]
+		{
+			"cheers!", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1111, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569702242,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [104]
+		{
+			"isnt that wierd?", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1180, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569702486,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [105]
+		{
+			"Erm... What happened to the invite for tomorrow?", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1287, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703081,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [106]
+		{
+			"Hi!", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1300, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703097,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [107]
+		{
+			"It's still there, why?", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1310, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703105,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [108]
+		{
+			"Currently 3: You, me and Ralutis", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1311, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703117,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [109]
+		{
+			"I got a mail saying I was removed", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1312, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703123,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [110]
+		{
+			"Hm... I didn't remove you, and you are still in the list", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1315, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703146,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [111]
+		{
+			"Hmmm", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1318, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703154,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [112]
+		{
+			"Perhaps some system error then", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1319, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703162,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [113]
+		{
+			"Oh well", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1320, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703166,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [114]
+		{
+			"I'll be there :0", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1321, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703169,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [115]
+		{
+			"maybe, or Ralutis made a mistake and removed you by accident, and added you back.... you can ask her tomorrow ^^", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1324, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703194,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [116]
+		{
+			"will do :)", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1331, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703237,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [117]
+		{
+			"Oh, now it's there again", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1341, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703262,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [118]
+		{
+			"wtf", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1342, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703263,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [119]
+		{
+			"Deffo some random UI error then", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1343, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703273,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [120]
+		{
+			"lol", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1345, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703274,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [121]
+		{
+			"That's very weird", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1353, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569703320,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [122]
+		{
+			"^^", -- [1]
+			"Nashira-DerRatvonDalaran", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1355, -- [11]
+			"Player-1327-050599A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
+			[51] = 1569703327,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [123]
+		{
+			"i was quite confused :D", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1358, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569703358,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [124]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8930:Player-3391-0A907434:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[Ya, We've Got Time...]|h|r!", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gralph-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1453, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569704408,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [125]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8989:Player-3391-0A907434:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[Slagworks]|h|r!", -- [1]
+			"Gralph-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gralph-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1454, -- [11]
+			"Player-3391-0A907434", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Gralph|r",
+			[51] = 1569704408,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [126]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13754:Player-3391-0A827D28:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[Veteran: Bladesman Inowari]|h|r!", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1457, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1569704411,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},
 }

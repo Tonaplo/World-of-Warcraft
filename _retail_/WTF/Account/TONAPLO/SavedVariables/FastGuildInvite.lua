@@ -6,12 +6,12 @@ FGI_DB = {
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
 		["Glora - Auchindoun"] = "Glora - Auchindoun",
-		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Welor - Auchindoun"] = "Welor - Auchindoun",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
 	},
 	["global"] = {
 		["scanFrame"] = {
@@ -32,41 +32,53 @@ FGI_DB = {
 			["minimapPos"] = 194.1576666062499,
 			["hide"] = false,
 		},
-		["sendMSG"] = true,
+		["blackList"] = {
+		},
+		["customWhoList"] = {
+			"1-15 c-\"Class\" r-\"Race\"", -- [1]
+		},
+		["leave"] = {
+		},
 		["backgroundRun"] = true,
-		["curMessage"] = 0,
-		["addonMSG"] = false,
-		["keyBind"] = false,
+		["sendMSG"] = true,
+		["customWho"] = false,
+		["filtersList"] = {
+			["high level"] = {
+				["lvlRange"] = "110:120",
+				["letterFilter"] = false,
+				["filteredCount"] = 0,
+				["filterByName"] = false,
+				["raceFilter"] = false,
+				["filterOn"] = true,
+				["classFilter"] = false,
+			},
+		},
+		["curMessage"] = 1,
+		["searchInterval"] = 5,
+		["debug"] = false,
 		["SearchType"] = 1,
-		["enableFilters"] = false,
-		["rememberAll"] = true,
-		["classFilterVal"] = 121,
 		["messageList"] = {
-			[0] = "Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!",
+			"Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!", -- [1]
 		},
-		["alredySended"] = {
-		},
-		["systemMSG"] = false,
-		["lowLimit"] = 1,
+		["rememberAll"] = true,
 		["clearDBtimes"] = 3,
-		["inviteType"] = 3,
 		["mainFrame"] = {
 			["yOfs"] = 185.0002136230469,
 			["xOfs"] = -13.0000524520874,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
-		["searchInterval"] = 5,
-		["filtersList"] = {
-			["high level"] = {
-				["lvlRange"] = "110:120",
-				["letterFilter"] = false,
-				["classFilter"] = false,
-				["filterByName"] = false,
-				["filteredCount"] = 0,
-				["filterOn"] = true,
-				["raceFilter"] = false,
-			},
+		["alredySended"] = {
+		},
+		["systemMSG"] = false,
+		["lowLimit"] = 1,
+		["enableFilters"] = false,
+		["inviteType"] = 3,
+		["classFilterVal"] = 121,
+		["addonMSG"] = false,
+		["keyBind"] = {
+			["nextSearch"] = false,
+			["invite"] = false,
 		},
 	},
 }
