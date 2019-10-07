@@ -46,36 +46,37 @@ local applauseAnnounce = false
 ------------------------------------------------------
 local eggFound = false
 local eggFoundPlayer = nil
+local announceCatch = false
 
 ------------------------------------------------------
 ---- Za'qul
 ------------------------------------------------------
 local twinklehoofBovineKilled = 0
 
-function core._2164:AbyssalCommanderSivara()
-	--Defeat Abyssal Commander Sivara in The Eternal Palace while all three of her lieutenants are alive and engaged in the fight on Normal difficulty or higher.
+-- function core._2164:AbyssalCommanderSivara()
+-- 	--Defeat Abyssal Commander Sivara in The Eternal Palace while all three of her lieutenants are alive and engaged in the fight on Normal difficulty or higher.
 	
-	if core.type == "SWING_DAMAGE" and core.sourceID == "155277" then
-		gorjeshTheSmasherFound = true
-	end
+-- 	if core.type == "SWING_DAMAGE" and core.sourceID == "155277" then
+-- 		gorjeshTheSmasherFound = true
+-- 	end
 
-	if core.type == "SWING_DAMAGE" and core.sourceID == "155275" then
-		tideshaperKorvessFound = true
-	end
+-- 	if core.type == "SWING_DAMAGE" and core.sourceID == "155275" then
+-- 		tideshaperKorvessFound = true
+-- 	end
 
-	if core.type == "SWING_DAMAGE" and core.sourceID == "155273" then
-		garvalTheVanquisherFound = true
-	end
+-- 	if core.type == "SWING_DAMAGE" and core.sourceID == "155273" then
+-- 		garvalTheVanquisherFound = true
+-- 	end
 
-	if gorjeshTheSmasherFound == true and tideshaperKorvessFound == true and garvalTheVanquisherFound == true then
-		core:getAchievementSuccess()
-	end
+-- 	if gorjeshTheSmasherFound == true and tideshaperKorvessFound == true and garvalTheVanquisherFound == true then
+-- 		core:getAchievementSuccess()
+-- 	end
 
-    --Blizzard tracking gone red so fail achievement
-	if core:getBlizzardTrackingStatus(13684) == false then
-		core:getAchievementFailed()
-	end
-end
+--     --Blizzard tracking gone red so fail achievement
+-- 	if core:getBlizzardTrackingStatus(13684) == false then
+-- 		core:getAchievementFailed()
+-- 	end
+-- end
 
 function core._2164:BlackwaterBehemoth()
 	--Defeat the Blackwater Behemoth in The Eternal Palace after collecting 50 samples of sea life from within the Darkest Depths on Normal Difficulty of higher.
@@ -166,9 +167,9 @@ function core._2164:Orgozoa()
 	end
 
 	--If egg found by time Massive Incubator spellcast is interrupted then achievement is completed
-	if core.type == "SPELL_AURA_REMOVED" and core.spellId == 305347 and eggFound == true then
-		C_Timer.After(1, function() 
-			if eggFound == true then
+	if core.type == "SPELL_AURA_REMOVED" and core.spellId == 305347 and eggFound == true and core.achievementsFailed[1] == false then
+		C_Timer.After(3, function() 
+			if eggFound == true and core.achievementsFailed[1] == false then
 				core:getAchievementSuccess()
 			end
 		end)
@@ -369,6 +370,7 @@ function core._2164:ClearVariables()
 	------------------------------------------------------
 	eggFound = false
 	eggFoundPlayer = nil
+	announceCatch = false
 
 	------------------------------------------------------
 	---- Za'qul
@@ -456,7 +458,10 @@ function core._2164.Events:UNIT_AURA(self, unitID)
 						--Check requirements have been met
 						if incubatingZoatroidFound == true then
 							--Announce player has caught the egg
-							core:sendMessage(name .. " " .. L["Shared_HasCaught"] .. " " .. GetSpellLink(305322),true)
+							if announceCatch == false then
+								announceCatch = true
+								core:sendMessage(name .. " " .. L["Shared_HasCaught"] .. " " .. GetSpellLink(305322),true)
+							end
 							-- core:getAchievementSuccess()
 						end
 					end

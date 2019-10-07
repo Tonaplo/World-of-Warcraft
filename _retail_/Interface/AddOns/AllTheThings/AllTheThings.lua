@@ -1108,13 +1108,13 @@ local CompletedQuests = setmetatable({}, {__newindex = function (t, key, value)
 		SetDataSubMember("CollectedQuests", key, 1);
 		SetTempDataSubMember("CollectedQuests", key, 1);
 		if app.Settings:GetTooltipSetting("Report:CompletedQuests") then
-			local searchResults = app.SearchForField("questID", key);
-			if searchResults and #searchResults > 0 then
+			local searchResults = app.SearchForField("questID", key)
+			if not searchResults or #searchResults <= 0 or (searchResults[1].parent and searchResults[1].parent.parent.text == "Unsorted") then
+			   key = key .. " (Missing in ATT)";
+			else
 				if app.Settings:GetTooltipSetting("Report:UnsortedQuests") then
 					return true;
 				end
-			else
-				key = key .. " (Missing in ATT)";
 			end
 			print("Completed Quest ID #" .. key);
 		end
@@ -1127,6 +1127,67 @@ local IsQuestFlaggedCompletedForObject = function(t)
 	-- If the quest or altQuestID is completed, then return completed.
 	if IsQuestFlaggedCompleted(t.questID) or IsQuestFlaggedCompleted(t.altQuestID) then
 		return 1;
+	end
+	if t.repeatable and app.Settings:GetTooltipSetting("RepeatableFirstTime") then
+		if t.questID and GetTempDataSubMember("CollectedQuests", t.questID) then
+			return 1;
+		end
+		if t.altQuestID and GetTempDataSubMember("CollectedQuests", t.altQuestID) then
+			return 1;
+		end
+		if Grail then 
+			-- Import previously completed repeatable quest from Grail addon data
+			if Grail:HasQuestEverBeenCompleted(t.questID) then
+				SetDataSubMember("CollectedQuests", t.questID, 1);
+				SetTempDataSubMember("CollectedQuests", t.questID, 1);
+				return 1;
+			end
+			if Grail:HasQuestEverBeenCompleted(t.altQuestID) then
+				SetDataSubMember("CollectedQuests", t.altQuestID, 1);
+				SetTempDataSubMember("CollectedQuests", t.altQuestID, 1);
+				return 1;
+			end
+		end
+		if WorldQuestTrackerAddon then
+			-- Import previously completed repeatable quest from WorldQuestTracker addon data
+			local wqt_questDoneHistory = WorldQuestTrackerAddon.db.profile.history.quest
+			local wqt_global = wqt_questDoneHistory.global
+			local wqt_local = wqt_questDoneHistory.character[app.GUID]
+			
+			if wqt_local and wqt_local[questID] and wqt_local[questID] > 0 then
+				SetDataSubMember("CollectedQuests", t.questID, 1);
+				SetTempDataSubMember("CollectedQuests", t.questID, 1);
+				return 1;
+			end
+			
+			if wqt_local and wqt_local[altQuestID] and wqt_local[altQuestID] > 0 then
+				SetDataSubMember("CollectedQuests", t.altQuestID, 1);
+				SetTempDataSubMember("CollectedQuests", t.altQuestID, 1);
+				return 1;
+			end
+			
+			if wqt_global and wqt_global[questID] and wqt_global[questID] > 0 then
+				SetDataSubMember("CollectedQuests", t.questID, 1);
+				if app.AccountWideQuests then
+					return 2;
+				end
+			end
+		
+			if wqt_global and wqt_global[altQuestID] and wqt_global[altQuestID] > 0 then
+				SetDataSubMember("CollectedQuests", t.altQuestID, 1);
+				if app.AccountWideQuests then
+					return 2;
+				end
+			end
+		end
+		if app.AccountWideQuests then
+			if t.questID and GetDataSubMember("CollectedQuests", t.questID) then
+				return 2;
+			end
+			if t.altQuestID and GetDataSubMember("CollectedQuests", t.altQuestID) then
+				return 2;
+			end
+		end
 	end
 	if not t.repeatable and app.AccountWideQuests then
 		if t.questID and GetDataSubMember("CollectedQuests", t.questID) then
@@ -1166,7 +1227,7 @@ local QuestTitleFromID = setmetatable({}, { __index = function(t, id)
 			return title;
 		else
 			rawset(questRetries, id, (retries or 0) + 1);
-		end
+	end
 		return RETRIEVING_DATA;
 	end
 end })
@@ -2986,6 +3047,21 @@ fieldConverters = {
 		end
 	end,
 	]]--
+	["cost"] = function(group, value)
+		if type(value) == "number" then
+			return;
+		else
+			for k,v in pairs(value) do
+				if v[1] == "i" and v[2] > 0 then
+					if v[2] ~= 137642 then	-- NO MARKS OF HONOR!
+						CacheField(group, "itemID", v[2]);
+					end
+				elseif v[1] == "c" and v[2] > 0 then
+					CacheField(group, "currencyID", v[2]);
+				end
+			end
+		end
+	end,
 	["c"] = function(group, value)
 		if not containsValue(value, app.ClassIndex) then
 			rawset(group, "nmc", true); -- "Not My Class"
@@ -3585,14 +3661,17 @@ local function SortAlphabetically(group)
 end
 app.GetCurrentMapID = function()
 	local uiMapID = C_Map_GetBestMapForUnit("player");
-	
-	-- Onyxia's Lair fix
-	local text_to_mapID = app.L["ZONE_TEXT_TO_MAP_ID"];
-	if text_to_mapID then
-		local otherMapID = (GetRealZoneText() and text_to_mapID[GetRealZoneText()]) or (GetSubZoneText() and text_to_mapID[GetSubZoneText()]);
-		if otherMapID then uiMapID = otherMapID; end
+	if uiMapID then
+		local map = C_Map.GetMapInfo(uiMapID);
+		if map and (map.mapType == 0 or map.mapType == 1 or map.mapType == 2) then
+			-- Onyxia's Lair fix
+			local text_to_mapID = app.L["ZONE_TEXT_TO_MAP_ID"];
+			if text_to_mapID then
+				local otherMapID = (GetRealZoneText() and text_to_mapID[GetRealZoneText()]) or (GetSubZoneText() and text_to_mapID[GetSubZoneText()]);
+				if otherMapID then uiMapID = otherMapID; end
+			end
+		end
 	end
-	
 	-- print("Current UI Map ID: ", uiMapID);
 	return uiMapID;
 end
@@ -3770,7 +3849,7 @@ local function AttachTooltip(self)
 								gf = app:GetWindow("Prime").data.g[4];
 							elseif owner.tooltipText == BLIZZARD_STORE then
 								-- Shop
-								gf = app:GetWindow("Prime").data.g[16];
+								gf = app:GetWindow("Prime").data.g[18];
 							elseif string.sub(owner.tooltipText, 1, string.len(ACHIEVEMENT_BUTTON)) == ACHIEVEMENT_BUTTON then
 								-- Achievements
 								gf = app:GetWindow("Prime").data.g[5];
@@ -5611,7 +5690,7 @@ local itemFields = {
 		return link and GetItemInfo(link);
 	end,
 	["repeatable"] = function(t)
-		return rawget(t, "isDaily") or rawget(t, "isWeekly") or rawget(t, "isYearly");
+		return rawget(t, "isDaily") or rawget(t, "isWeekly") or rawget(t, "isMonthly") or rawget(t, "isYearly") or rawget(t, "isWorldQuest");
 	end,
 	["trackable"] = function(t)
 		return rawget(t, "questID");
@@ -5841,8 +5920,8 @@ app.BaseMusicRoll = {
 			return app.CollectibleMusicRolls;
 		elseif key == "collected" or key == "saved" then
 			if IsQuestFlaggedCompleted(t.questID) then
-				return 1;
-			end
+					return 1;
+				end
 			if app.AccountWideMusicRolls then
 				if t.questID and GetDataSubMember("CollectedQuests", t.questID) then
 					return 2;
@@ -5927,7 +6006,7 @@ local npcFields = {
 		return (_cache > 0 and NPCNameFromID or L["NPC_ID_NAMES"])[_cache];
 	end,
 	["repeatable"] = function(t)
-		return rawget(t, "isDaily") or rawget(t, "isWeekly") or rawget(t, "isYearly");
+		return rawget(t, "isDaily") or rawget(t, "isWeekly") or rawget(t, "isMonthly") or rawget(t, "isYearly")  or rawget(t, "isWorldQuest");
 	end,
 	["text"] = function(t)
 		_cache = t.name;
@@ -5972,7 +6051,7 @@ app.BaseObject = {
 		elseif key == "collectible" then
 			return app.CollectibleQuests and t.questID and not t.isBreadcrumb and (not t.repeatable or app.Settings:GetTooltipSetting("Repeatable"));
 		elseif key == "repeatable" then
-			return rawget(t, "isDaily") or rawget(t, "isWeekly") or rawget(t, "isYearly");
+			return rawget(t, "isDaily") or rawget(t, "isWeekly") or rawget(t, "isMonthly") or rawget(t, "isYearly") or rawget(t, "isWorldQuest");
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" or key == "collected" then
@@ -6128,9 +6207,9 @@ app.BaseQuest = {
 		elseif key == "trackable" then
 			return true;
 		elseif key == "collectible" then
-			return app.CollectibleQuests and not t.isBreadcrumb and (not t.repeatable or app.Settings:GetTooltipSetting("Repeatable"));
+			return app.CollectibleQuests and not t.isBreadcrumb and (not t.repeatable or app.Settings:GetTooltipSetting("Repeatable")) and ((not t.isWorldQuest and not t.repeatable) or app.Settings:GetTooltipSetting("RepeatableFirstTime"));
 		elseif key == "repeatable" then
-			return t.isDaily or t.isWeekly or t.isYearly;
+			return t.isDaily or t.isWeekly or t.isMonthly or t.isYearly or t.isWorldQuest;
 		elseif key == "saved" or key == "collected" then
 			return IsQuestFlaggedCompletedForObject(t);
 		else
@@ -6236,32 +6315,20 @@ app.BaseSelfieFilter = {
 			return app.CollectibleSelfieFilters;
 		elseif key == "saved" or key == "collected" then
 			if IsQuestFlaggedCompleted(t.questID) then
-				return 1;
-			end
+					return 1;
+				end
 			if app.AccountWideSelfieFilters then
 				if t.questID and GetDataSubMember("CollectedQuests", t.questID) then
 					return 2;
 				end
 				if t.altQuestID and GetDataSubMember("CollectedQuests", t.altQuestID) then
 					return 2;
-				end
+			end
 			end
 		elseif key == "description" then
 			if t.crs and #t.crs > 0 then
-				local cameraItemID = 122674
-				local cameraItemName = select(2, GetItemInfo(cameraItemID))
-				if not cameraItemName then
-					local retries
-					for retries=0,50 do
-						if not cameraItemName then
-							cameraItemName = select(2, GetItemInfo(cameraItemID))
-						else break end
-						retries = retries + 1
-					end
-					if retries >= 50 then cameraItemName = 'Item #'..cameraItemID end
-				end
 				for i,id in ipairs(t.crs) do
-					return "Take a selfie using your " .. cameraItemName .. " with |cffff8000" .. (NPCNameFromID[id] or "???")
+					return "Take a selfie using your " .. (select(2, GetItemInfo(122674)) or "Selfie Camera MkII") .. " with |cffff8000" .. (NPCNameFromID[id] or "???")
 					.. "|r" .. (t.maps and (" in |cffff8000" .. (app.GetMapName(t.maps[1]) or "???") .. "|r.") or ".");
 				end
 			end
@@ -6693,7 +6760,7 @@ app.BaseVignette = {
 		elseif key == "collected" then
 			return t.collectible and t.saved;
 		elseif key == "repeatable" then
-			return t.isDaily or t.isWeekly or t.isYearly;
+			return t.isDaily or t.isWeekly or t.isMonthly or t.isYearly or t.isWorldQuest;
 		elseif key == "saved" then
 			return IsQuestFlaggedCompletedForObject(t);
 		elseif key == "isVignette" then
@@ -7793,7 +7860,7 @@ app.CreateMinimapButton = CreateMinimapButton;
 local CreateRow;
 local function CreateMiniListForGroup(group)
 	-- Pop Out Functionality! :O
-	local suffix = BuildSourceTextForChat(group, 0) .. " -> " .. (group.text or "");
+	local suffix = BuildSourceTextForChat(group, 0) .. " -> " .. (group.text or "") .. (group.key and group[group.key] or "");
 	local popout = app.Windows[suffix];
 	if not popout then
 		popout = app:GetWindow(suffix);
@@ -8423,7 +8490,7 @@ local function StartMovingOrSizing(self, fromChild)
 					return true;
 				end
 			end);
-		else
+		elseif self:IsMovable() then
 			self:StartMoving();
 			Push(app, "StartMovingOrSizing (Moving)", function()
 				-- This fixes a bug where the window will get stuck on the mouse until you reload.
@@ -8888,9 +8955,12 @@ local function RowOnEnter(self)
 				GameTooltip:AddDoubleLine("Races", (reference.r == 2 and ITEM_REQ_ALLIANCE) or (reference.r == 1 and ITEM_REQ_HORDE) or "Unknown");
 			end
 		end
-		if reference.isDaily then GameTooltip:AddLine("This can be completed daily."); end
-		if reference.isWeekly then GameTooltip:AddLine("This can be completed weekly."); end
-		if reference.isYearly then GameTooltip:AddLine("This can be completed yearly."); end
+		if reference.isWorldQuest then GameTooltip:AddLine("This can be completed when the world quest is active."); end
+		if reference.isDaily then GameTooltip:AddLine("This can be completed daily.");
+		elseif reference.isWeekly then GameTooltip:AddLine("This can be completed weekly.");
+		elseif reference.isMontly then GameTooltip:AddLine("This can be completed monthly.");
+		elseif reference.isYearly then GameTooltip:AddLine("This can be completed yearly.");
+		elseif reference.repeatable then GameTooltip:AddLine("This can be repeated multiple times."); end
 		if not GameTooltipModel:TrySetModel(reference) and reference.icon then
 			if app.Settings:GetTooltipSetting("iconPath") then
 				GameTooltip:AddDoubleLine("Icon", reference.icon);
@@ -9854,7 +9924,7 @@ function app:RefreshData(lazy, got, manual)
 	app.countdown = manual and 0 or 30;
 	StartCoroutine("RefreshData", function()
 		-- While the player is in combat, wait for combat to end.
-		while InCombatLockdown() do coroutine.yield(); end
+		while InCombatLockdown() or not app.IsReady do coroutine.yield(); end
 		
 		-- Wait 1/2 second. For multiple simultaneous requests, each one will reapply the delay. [This should fix a lot of lag with ensembles.]
 		while app.countdown > 0 do
@@ -10195,6 +10265,14 @@ app.ModelViewer.SetRotation = function(number)
 end
 app.ModelViewer.SetScale = function(number)
 	GameTooltipModel.Model:SetCamDistanceScale(number or 1);
+end
+-- CLEU binding only happens when debugger is enabled because of how expensive it can get in large mob farms
+app:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");
+app.events.COMBAT_LOG_EVENT_UNFILTERED = function()
+	local _,event = CombatLogGetCurrentEventInfo();
+	if event == "UNIT_DIED" or event == "UNIT_DESTROYED" then
+		RefreshQuestCompletionState()
+	end
 end
 app:GetWindow("Debugger", UIParent, function(self)
 	if not self.initialized then
@@ -13887,7 +13965,6 @@ app:RegisterEvent("BOSS_KILL");
 app:RegisterEvent("CHAT_MSG_ADDON");
 app:RegisterEvent("PLAYER_LOGIN");
 app:RegisterEvent("VARIABLES_LOADED");
-app:RegisterEvent("TOYS_UPDATED");
 app:RegisterEvent("COMPANION_LEARNED");
 app:RegisterEvent("COMPANION_UNLEARNED");
 app:RegisterEvent("NEW_PET_ADDED");
@@ -13895,12 +13972,9 @@ app:RegisterEvent("PET_JOURNAL_PET_DELETED");
 app:RegisterEvent("PLAYER_DIFFICULTY_CHANGED");
 app:RegisterEvent("TRANSMOG_COLLECTION_SOURCE_ADDED");
 app:RegisterEvent("TRANSMOG_COLLECTION_SOURCE_REMOVED");
-app:RegisterEvent("HEIRLOOMS_UPDATED");
 app:RegisterEvent("PET_BATTLE_OPENING_START")
 app:RegisterEvent("PET_BATTLE_CLOSE")
 app:RegisterEvent("ZONE_CHANGED_NEW_AREA");
-app:RegisterEvent("ARTIFACT_UPDATE");
-app:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");
 
 -- Define Event Behaviours
 app.events.ARTIFACT_UPDATE = function(...)
@@ -14217,6 +14291,10 @@ app.events.VARIABLES_LOADED = function()
 		RefreshSaves();
 		
 		app.CacheFlightPathData();
+		app:RegisterEvent("HEIRLOOMS_UPDATED");
+		app:RegisterEvent("ARTIFACT_UPDATE");
+		app:RegisterEvent("TOYS_UPDATED");
+		app.IsReady = true;
 		
 		-- NOTE: The auto refresh only happens once.
 		if not app.autoRefreshedCollections then
@@ -14480,12 +14558,6 @@ app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
 		app:PlayRemoveSound();
 		wipe(searchCache);
 		SendSocialMessage("S\t" .. sourceID .. "\t" .. oldState .. "\t0");
-	end
-end
-app.events.COMBAT_LOG_EVENT_UNFILTERED = function()
-	local _,event = CombatLogGetCurrentEventInfo();
-	if event == "UNIT_DIED" or event == "UNIT_DESTROYED" then
-		RefreshQuestCompletionState()
 	end
 end
 

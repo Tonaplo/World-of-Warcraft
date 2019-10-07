@@ -1,8 +1,8 @@
-## Interface: 80200
+## Interface: 80205
 ## Title: Rare Share: |cffffd700Mechagon
 ## Notes: The Mechagon extension for the Rare Share addon
 ## Author: pffScrub
-## Version: v0.6.3.2
+## Version: v1.0.0
 ## DefaultState: enabled
 ## Dependencies: RareShare
 ## SavedVariables: RareShareDB_Mechagon

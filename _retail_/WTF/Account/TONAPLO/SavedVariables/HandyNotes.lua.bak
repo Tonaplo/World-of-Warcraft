@@ -2,56 +2,60 @@
 HandyNotesDB = {
 	["profileKeys"] = {
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "DPS",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Kindhoof - Proudmoore"] = "Kindhoof - Proudmoore",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Korugen - Tichondrius"] = "Korugen - Tichondrius",
 		["Zaliga - Tichondrius"] = "Zaliga - Tichondrius",
-		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Lorvol - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Kaldorath - Icecrown"] = "Tank",
+		["Korugen - Icecrown"] = "Korugen - Icecrown",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
 		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
-		["Faerand - Icecrown"] = "Faerand - Icecrown",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Deminath - Hyjal"] = "Deminath - Hyjal",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Weston - Icecrown"] = "Weston - Icecrown",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
-		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Greybone - Icecrown"] = "Greybone - Icecrown",
+		["Faerand - Icecrown"] = "Faerand - Icecrown",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
-		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Kindhoof - Proudmoore"] = "Kindhoof - Proudmoore",
 		["Morifa - Tichondrius"] = "Morifa - Tichondrius",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Mallusof - Icecrown"] = "DPS",
@@ -61,23 +65,31 @@ HandyNotesDB = {
 		},
 		["Praerend - Proudmoore"] = {
 		},
-		["Rahran - Icecrown"] = {
-		},
 		["Kaldowrath - Silvermoon"] = {
+		},
+		["Rahran - Icecrown"] = {
 		},
 		["Fimwack - Proudmoore"] = {
 		},
-		["Greybone - Proudmoore"] = {
+		["Zearthan - Silvermoon"] = {
 		},
 		["Korugen - Icecrown"] = {
 		},
+		["Rahran - Silvermoon"] = {
+		},
+		["Korugen - Silvermoon"] = {
+		},
+		["Greybone - Proudmoore"] = {
+		},
+		["Greyblood - Silvermoon"] = {
+		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Deminath - Proudmoore"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
-		["Kindhoof - Proudmoore"] = {
+		["Korugen - Proudmoore"] = {
 		},
-		["DPS"] = {
+		["Thedodrouk - Silvermoon"] = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
@@ -91,43 +103,43 @@ HandyNotesDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Kindhoof - Tichondrius"] = {
-		},
-		["Caircaidin - Frostwolf"] = {
-		},
-		["Granjior - Proudmoore"] = {
-		},
 		["healer"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Deminath - Proudmoore"] = {
+		},
+		["Greybone - Icecrown"] = {
+		},
+		["Kindhoof - Tichondrius"] = {
+		},
+		["Miriyam - Silvermoon"] = {
 		},
 		["Zethan - Tichondrius"] = {
 		},
 		["Alura - Tichondrius"] = {
 		},
-		["Kaldorath - Icecrown"] = {
+		["Faerand - Silvermoon"] = {
 		},
 		["Korugen - Tichondrius"] = {
 		},
 		["Zaliga - Tichondrius"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Miriyal - Icecrown"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
-		["Miriyam - Silvermoon"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Mallubank - Tichondrius"] = {
 		},
 		["Lorvol - Tichondrius"] = {
 		},
-		["Rentror - Bleeding Hollow"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
-		["Farahn - Proudmoore"] = {
+		["Faerand - Icecrown"] = {
 		},
 		["Deminath - Tichondrius"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Weston - Icecrown"] = {
 		},
 		["Miriyal - Proudmoore"] = {
 		},
@@ -137,33 +149,33 @@ HandyNotesDB = {
 		},
 		["Burdett - Silvermoon"] = {
 		},
-		["Evisca - Bleeding Hollow"] = {
-		},
 		["Luugo - Frostwolf"] = {
 		},
 		["Zearthan - Proudmoore"] = {
 		},
-		["Weston - Icecrown"] = {
+		["Amranar - Proudmoore"] = {
 		},
-		["Faerand - Icecrown"] = {
+		["Evisca - Bleeding Hollow"] = {
 		},
-		["Miriyal - Icecrown"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
-		["Faerand - Silvermoon"] = {
+		["Praerend - Silvermoon"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Farahn - Proudmoore"] = {
 		},
-		["Greybone - Icecrown"] = {
+		["Morifa - Proudmoore"] = {
+		},
+		["Kaldorath - Icecrown"] = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["Korugen - Proudmoore"] = {
+		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Rahran - Silvermoon"] = {
+		["DPS"] = {
 		},
-		["Zearthan - Silvermoon"] = {
+		["Kindhoof - Proudmoore"] = {
 		},
 		["Morifa - Tichondrius"] = {
 		},
@@ -176,56 +188,60 @@ HandyNotesDB = {
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
 		["Praerend - Icecrown"] = "DPS",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Kindhoof - Proudmoore"] = "Kindhoof - Proudmoore",
-		["Deminath - Proudmoore"] = "Deminath - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
+		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Korugen - Tichondrius"] = "Korugen - Tichondrius",
 		["Zaliga - Tichondrius"] = "Zaliga - Tichondrius",
-		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Mallubank - Tichondrius"] = "Mallubank - Tichondrius",
 		["Lorvol - Tichondrius"] = "Lorvol - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Kaldorath - Icecrown"] = "Tank",
+		["Korugen - Icecrown"] = "Korugen - Icecrown",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
 		["Deminath - Tichondrius"] = "Deminath - Tichondrius",
-		["Faerand - Icecrown"] = "Faerand - Icecrown",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Deminath - Hyjal"] = "Deminath - Hyjal",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Weston - Icecrown"] = "Weston - Icecrown",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Zearthan - Proudmoore"] = "Zearthan - Proudmoore",
-		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Greybone - Icecrown"] = "Greybone - Icecrown",
+		["Faerand - Icecrown"] = "Faerand - Icecrown",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Korugen - Proudmoore"] = "Korugen - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
-		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Kindhoof - Proudmoore"] = "Kindhoof - Proudmoore",
 		["Morifa - Tichondrius"] = "Morifa - Tichondrius",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Mallusof - Icecrown"] = "DPS",
@@ -235,23 +251,31 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Praerend - Proudmoore"] = {
 		},
-		["Rahran - Icecrown"] = {
-		},
 		["Kaldowrath - Silvermoon"] = {
+		},
+		["Rahran - Icecrown"] = {
 		},
 		["Fimwack - Proudmoore"] = {
 		},
-		["Greybone - Proudmoore"] = {
+		["Zearthan - Silvermoon"] = {
 		},
 		["Korugen - Icecrown"] = {
 		},
+		["Rahran - Silvermoon"] = {
+		},
+		["Korugen - Silvermoon"] = {
+		},
+		["Greybone - Proudmoore"] = {
+		},
+		["Greyblood - Silvermoon"] = {
+		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Deminath - Proudmoore"] = {
+		["Caircaidin - Frostwolf"] = {
 		},
-		["Kindhoof - Proudmoore"] = {
+		["Korugen - Proudmoore"] = {
 		},
-		["Miriyal - Proudmoore"] = {
+		["Thedodrouk - Silvermoon"] = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
@@ -265,45 +289,45 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Kindhoof - Tichondrius"] = {
-		},
-		["Caircaidin - Frostwolf"] = {
-		},
-		["Granjior - Proudmoore"] = {
-		},
 		["healer"] = {
 		},
-		["DPS"] = {
+		["Deminath - Proudmoore"] = {
+		},
+		["Greybone - Icecrown"] = {
+		},
+		["Kindhoof - Tichondrius"] = {
+		},
+		["Miriyam - Silvermoon"] = {
 		},
 		["Zethan - Tichondrius"] = {
 		},
 		["Alura - Tichondrius"] = {
 		},
-		["Kaldorath - Icecrown"] = {
+		["Faerand - Silvermoon"] = {
 		},
 		["Korugen - Tichondrius"] = {
 		},
 		["Zaliga - Tichondrius"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Miriyal - Icecrown"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
-		["Miriyam - Silvermoon"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Mallubank - Tichondrius"] = {
 		},
 		["Lorvol - Tichondrius"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
-		["Farahn - Proudmoore"] = {
+		["Faerand - Icecrown"] = {
 		},
 		["Deminath - Tichondrius"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Weston - Icecrown"] = {
 		},
-		["Luugo - Frostwolf"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
 		["Fandagny - Frostwolf"] = {
 		},
@@ -311,33 +335,33 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Burdett - Silvermoon"] = {
 		},
-		["Evisca - Bleeding Hollow"] = {
-		},
 		["Zearthan - Proudmoore"] = {
 		},
-		["Rentror - Bleeding Hollow"] = {
+		["Luugo - Frostwolf"] = {
 		},
-		["Weston - Icecrown"] = {
+		["Amranar - Proudmoore"] = {
 		},
-		["Faerand - Icecrown"] = {
+		["Evisca - Bleeding Hollow"] = {
 		},
-		["Miriyal - Icecrown"] = {
+		["Morifa - Proudmoore"] = {
 		},
-		["Faerand - Silvermoon"] = {
+		["Praerend - Silvermoon"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Farahn - Proudmoore"] = {
 		},
-		["Greybone - Icecrown"] = {
+		["DPS"] = {
+		},
+		["Kaldorath - Icecrown"] = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["Korugen - Proudmoore"] = {
+		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Rahran - Silvermoon"] = {
+		["Miriyal - Proudmoore"] = {
 		},
-		["Zearthan - Silvermoon"] = {
+		["Kindhoof - Proudmoore"] = {
 		},
 		["Morifa - Tichondrius"] = {
 		},

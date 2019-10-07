@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201909290600", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201910070600", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -1128,6 +1128,15 @@ do
 			-- sanity check that the data exists and is loaded, because it might not be for the requested faction
 			if db and lu then
 				r = db[realm]
+
+				-- temp fix for the apostrophe
+				if realm == 'Ner\'zhul' and not r then
+					r = db['Ner’zhul']
+				end
+				if realm == 'Cho\'gall' and not r then
+					r = db['Cho’gall']
+				end
+
 				if r then
 					d = BinarySearchForName(r, name, 2, #r)
 					if d then
@@ -2363,7 +2372,7 @@ do
 			local fullName, faction, level
 			if self.buttonType == FRIENDS_BUTTON_TYPE_BNET then
 				local bnetIDAccount = BNGetFriendInfo(self.id)
-				if bnetIDAccount then 
+				if bnetIDAccount then
 					fullName, faction, level = GetNameAndRealmForBNetFriend(bnetIDAccount)
 				end
 			elseif self.buttonType == FRIENDS_BUTTON_TYPE_WOW then

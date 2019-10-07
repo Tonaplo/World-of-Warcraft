@@ -5,7 +5,6 @@ local settings = L.settings
 local size = settings.size
 local color = addon.color
 local interface = addon.interface
--- local GUI = LibStub("AceKGUI-3.0")
 local GUI = LibStub("AceGUI-3.0")
 local FastGuildInvite = addon.lib
 local DB
@@ -71,7 +70,7 @@ chooseInvites:AddChild(frame)
 chooseInvites.invite = GUI:Create("Button")
 local frame = chooseInvites.invite
 frame:SetText(L.interface["Пригласить"])
-fontSize(frame.text)
+-- fontSize(frame.text)
 btnText(frame)
 frame:SetWidth(size.invite)
 frame:SetHeight(40)
@@ -83,7 +82,7 @@ chooseInvites:AddChild(frame)
 chooseInvites.reject = GUI:Create("Button")
 local frame = chooseInvites.reject
 frame:SetText(L.interface["Отклонить"])
-fontSize(frame.text)
+-- fontSize(frame.text)
 btnText(frame)
 frame:SetWidth(size.reject)
 frame:SetHeight(40)

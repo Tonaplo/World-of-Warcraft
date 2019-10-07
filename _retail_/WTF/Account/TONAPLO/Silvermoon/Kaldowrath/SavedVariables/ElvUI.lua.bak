@@ -1871,5 +1871,27 @@ ElvCharacterDB = {
 			[51] = 1567665443,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12544:Player-3391-0A827D3E:1:9:5:19:4294967295:4294967295:4294967295:4294967295|h[Level 120]|h|r!", -- [1]
+			"Kaldowrath-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaldowrath-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			391, -- [11]
+			"Player-3391-0A827D3E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldowrath|r",
+			[51] = 1567719175,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [85]
 	},
 }

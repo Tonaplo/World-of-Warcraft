@@ -7,7 +7,7 @@ local settings = L.settings
 local GUI = LibStub("AceGUI-3.0")
 local color = addon.color
 local FastGuildInvite = addon.lib
-addon.search = {progress=1, inviteList={}, state='stop', timeShift=0, tempSendedInvites={}, whoQueryList = {}}
+addon.search = {progress=1, inviteList={}, timeShift=0, tempSendedInvites={}, whoQueryList = {}}
 addon.removeMsgList = {}
 addon.libWho = {}
 local DB
@@ -30,9 +30,7 @@ end});
 
 local time, next = time, next
 
---[[-------------------------------------------------------------------------------------
-								UNIQUE FOR RETAIL VERSION
-]]---------------------------------------------------------------------------------------
+--@retail@
 local RaceClassCombo = {
 	Orc = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
 	Undead = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
@@ -56,20 +54,34 @@ local RaceClassCombo = {
 	KulTiran = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk,CLASS.Druid,},
 	ZandalariTroll = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk,CLASS.Druid,},	
 }
-
+--@end-retail@
+--[===[@non-retail@
+local RaceClassCombo = {
+	Orc = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	Undead = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	Tauren = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Priest,CLASS.Shaman,CLASS.Monk,CLASS.Druid,CLASS.DeathKnight},
+	Troll = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.Druid,CLASS.DeathKnight},
+	Human = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	Dwarf = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	NightElf = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Monk,CLASS.Druid,CLASS.DemonHunter,CLASS.DeathKnight},
+	Gnome = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+}
+--@end-non-retail@]===]
 function fn:FilterChange(id)
-	local filtersFrame = interface.filtersFrame
-	local addfilterFrame = interface.addfilterFrame
-	local filter = FGI.DB.filtersList[id]
+	local filtersFrame = interface.settings.filters.content.filtersFrame
+	local addfilterFrame = interface.settings.filters.content.addfilterFrame
+	local filter = FGI.DB.realm.filtersList[id]
 	local class = filter.classFilter
 	local raceFilter = filter.raceFilter
 	
-	filtersFrame:Hide()
-	addfilterFrame:Show()
+	filtersFrame.frame:Hide()
+	addfilterFrame.frame:Show()
+	
 	
 	if not class then
 		addfilterFrame.classesCheckBoxIgnore:SetValue(true)
 	else
+		--@retail@
 		addfilterFrame.classesCheckBoxIgnore:SetValue(false)
 		addfilterFrame.classesCheckBoxDruid:SetValue(class[CLASS.Druid] or false)
 		addfilterFrame.classesCheckBoxHunter:SetValue(class[CLASS.Hunter] or false)
@@ -83,7 +95,21 @@ function fn:FilterChange(id)
 		addfilterFrame.classesCheckBoxDeathKnight:SetValue(class[CLASS.DeathKnight] or false)
 		addfilterFrame.classesCheckBoxDemonHunter:SetValue(class[CLASS.DemonHunter] or false)
 		addfilterFrame.classesCheckBoxMonk:SetValue(class[CLASS.Monk] or false)
+		--@end-retail@
+		--[===[@non-retail@
+		addfilterFrame.classesCheckBoxIgnore:SetValue(false)
+		addfilterFrame.classesCheckBoxDruid:SetValue(class[CLASS.Druid] or false)
+		addfilterFrame.classesCheckBoxHunter:SetValue(class[CLASS.Hunter] or false)
+		addfilterFrame.classesCheckBoxMage:SetValue(class[CLASS.Mage] or false)
+		addfilterFrame.classesCheckBoxPaladin:SetValue(class[CLASS.Paladin] or false)
+		addfilterFrame.classesCheckBoxPriest:SetValue(class[CLASS.Priest] or false)
+		addfilterFrame.classesCheckBoxRogue:SetValue(class[CLASS.Rogue] or false)
+		addfilterFrame.classesCheckBoxShaman:SetValue(class[CLASS.Shaman] or false)
+		addfilterFrame.classesCheckBoxWarlock:SetValue(class[CLASS.Warlock] or false)
+		addfilterFrame.classesCheckBoxWarrior:SetValue(class[CLASS.Warrior] or false)
+		--@end-non-retail@]===]
 	end
+	
 	
 	if not raceFilter then 
 		addfilterFrame.rasesCheckBoxIgnore:SetValue(true)
@@ -110,12 +136,36 @@ end
 function fn.fontSize(frame, font, size)
 	font = font or settings.Font
 	size = size or settings.FontSize
-	-- frame:SetFont(font, size)
+	frame:SetFont(font, size)
 end
---[[-------------------------------------------------------------------------------------
-								UNIQUE FOR RETAIL VERSION
-]]---------------------------------------------------------------------------------------
 
+
+
+function fn:parseBL(str)
+	local name, reason
+	str = str:gsub("blacklist", '')
+	if str:find('-') then
+		name,reason = str:match("([^%s-]+)[%s-]+([^-]+)")
+	else
+		name = str:match("([^-%s]+)")
+		reason = false
+	end
+	return name, reason
+end
+
+function fn:pairsByKeys(t, f)
+	local a = {}
+	for n in pairs(t) do table.insert(a, n) end
+	table.sort(a, f)
+	local i = 0      -- iterator variable
+	local iter = function ()   -- iterator function
+		i = i + 1
+		if a[i] == nil then return nil
+			else return a[i], t[a[i]]
+		end
+	end
+	return iter
+end
 
 
 local frame = CreateFrame("Frame")
@@ -126,7 +176,7 @@ frame:SetScript("OnEvent", function(_,_,msg)
 		local n = strsub(msg,place)
 		local name = strsub(n,1,(strfind(n,"%s") or 2)-1)
 		if format(ERR_GUILD_JOIN_S,name) == msg then
-			if DB.alredySended[name] then
+			if DB.realm.alreadySended[name] then
 				addon.searchInfo.invited()
 			end
 		end
@@ -139,7 +189,7 @@ function fn:initDB()
 end
 
 local function IsInBlacklist(name)
-	return DB.blackList[name] and true or false
+	return DB.realm.blackList[name] and true or false
 end
 
 local function guildKick(name)
@@ -174,7 +224,7 @@ function fn:blackListAutoKick()
 end
 
 function fn:blackList(name, reason)
-	DB.blackList[name] = reason or L.interface.defaultReason
+	DB.realm.blackList[name] = reason or L.interface.defaultReason
 	print(format("%s%s|r", color.red, format(L.interface["Игрок %s добавлен в черный список."], name)))
 	fn:blacklistKick()
 end
@@ -197,7 +247,7 @@ end
 local debug = fn.debug
 
 function fn:SetKeybind(key, keyType)
-	local DBkey = addon.DB.keyBind
+	local DBkey = addon.DB.global.keyBind
 	if key then
 		if keyType == "invite" then
 			DBkey.invite = key
@@ -210,36 +260,36 @@ function fn:SetKeybind(key, keyType)
 		DBkey[keyType] = false
 	end
 	
-	interface.keyBindings.buttonsGRP.keyBind.invite:SetLabel(format(L.interface["Назначить кнопку (%s)"], DBkey.invite or "none"))
-	interface.keyBindings.buttonsGRP.keyBind.invite:SetKey(DBkey.invite)
-	interface.keyBindings.buttonsGRP.keyBind.nextSearch:SetLabel(format(L.interface["Назначить кнопку (%s)"], DBkey.nextSearch or "none"))
-	interface.keyBindings.buttonsGRP.keyBind.nextSearch:SetKey(DBkey.nextSearch)
+	interface.settings.KeyBind.content.invite:SetLabel(format(L.interface["Назначить кнопку (%s)"], DBkey.invite or "none"))
+	interface.settings.KeyBind.content.invite:SetKey(DBkey.invite)
+	interface.settings.KeyBind.content.nextSearch:SetLabel(format(L.interface["Назначить кнопку (%s)"], DBkey.nextSearch or "none"))
+	interface.settings.KeyBind.content.nextSearch:SetKey(DBkey.nextSearch)
 end
 
 function fn:FiltersInit()
-	local parent = interface.filtersFrame
+	local parent = interface.settings.filters.content.filtersFrame
 	local list = parent.filterList
 	for i=1, FGI_FILTERSLIMIT do
 		local frame = GUI:Create("FilterButton")
-		interface.filtersFrame:AddChild(frame)
+		frame:Hide()
+		parent:AddChild(frame)
 		
 		table.insert(list, frame)
 		
-		interface.filtersFrame.filterList[i]:Hide()
 	end
 end
 
 
 function fn:FiltersUpdate()
+	local list = interface.settings.filters.content.filtersFrame.filterList
 	for i=1, FGI_FILTERSLIMIT do
-		interface.filtersFrame.filterList[i]:Hide()
+		list[i]:Hide()
 	end
-	local parent = interface.filtersFrame
-	local list = parent.filterList
 	local i = 1
-	for name,v in pairs(FGI.DB.filtersList) do
-		local filter = FGI.DB.filtersList[name]
+	for name,v in pairs(DB.realm.filtersList) do
+		local filter = DB.realm.filtersList[name]
 		local frame = list[i]
+		frame:Show()
 		frame:SetID(name)
 		frame:SetText(name)
 		local state = filter.filterOn and L.interface["Включен"]:upper() or L.interface["Выключен"]:upper()
@@ -272,16 +322,20 @@ end
 
 
 
-function fn:msgMod(msg)
+function fn:msgMod(msg, name)
 	if not msg then return end
 	if msg:find("NAME") then
 		local guildName, guildRankName, guildRankIndex, realm = GetGuildInfo("player")
-		msg = msg:gsub("NAME", format("<%s>",guildName or 'GUILD_NAME'))
+		msg = msg:gsub("NAME", name or 'PLAYER_NAME')
+	end
+	if msg:find("GUILD") then
+		local guildName, guildRankName, guildRankIndex, realm = GetGuildInfo("player")
+		msg = msg:gsub("GUILD", format("<%s>",guildName or 'GUILD_NAME'))
 	end
 	return msg
 end
 
-local function hideWhisper(...)
+function fn.hideWhisper(...)
 	local name = select(4,...):match("([^-]*)")
 	if addon.removeMsgList[name] then
 		--addon.removeMsgList[name] = nil
@@ -293,16 +347,15 @@ end
 
 function fn:sendWhisper(msg, name)
 	if not msg or not name then return end
-	msg = fn:msgMod(msg)
-	if msg:len()>255 then
-		return print(format(L.FAQ.error["Превышен лимит символов. Максимальная длина сообщения 255 символов. Длина сообщения превышена на %d"], msg:len()-255))
-	end
+	msg = fn:msgMod(msg, name)
 	
 	if msg ~= nil then
-		if DB.sendMSG then
+		if DB.realm.sendMSG then
 			addon.removeMsgList[name:match("([^-]*)")] = true
 		end
-		SendChatMessage(msg, 'WHISPER', GetDefaultLanguage("player"), name)
+		for i=0, msg:len(), 255 do
+			SendChatMessage(msg:sub(i+1, i+255), 'WHISPER', GetDefaultLanguage("player"), name)
+		end
 	else
 		print(L.FAQ.error["Выберите сообщение"])
 	end
@@ -313,7 +366,7 @@ local function inviteBtnText(text)
 end
 
 function fn:rememberPlayer(name)
-	DB.alredySended[name] = time({year = date("%Y"), month = date("%m"), day = date("%d")})
+	DB.realm.alreadySended[name] = time({year = date("%Y"), month = date("%m"), day = date("%d")})
 	addon.search.tempSendedInvites[name] = nil
 	debug(format("Remember: %s",name))
 end
@@ -321,14 +374,14 @@ end
 function fn:invitePlayer(noInv)
 	local list = addon.search.inviteList
 	if #list==0 then return end
-	if DB.inviteType == 2 and not noInv then
+	if DB.global.inviteType == 2 and not noInv then
 		addon.msgQueue[list[1].name] = true
-	elseif DB.inviteType == 3 and not noInv then
-		local msg = DB.messageList[math.random(1, #DB.messageList)]
+	elseif DB.global.inviteType == 3 and not noInv then
+		local msg = DB.realm.messageList[math.random(1, #DB.realm.messageList)]
 		debug(format("Send whisper: %s %s",list[1].name, msg))
 		fn:sendWhisper(msg, list[1].name)
 	end
-	if (DB.inviteType == 1 or DB.inviteType == 2) and not noInv then
+	if (DB.global.inviteType == 1 or DB.global.inviteType == 2) and not noInv then
 		debug(format("Invite: %s",list[1].name))
 		GuildInvite(list[1].name)
 	end
@@ -355,23 +408,7 @@ local Searchframe = CreateFrame('Frame')
 local frame = CreateFrame('Frame')
 frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
-	local parent = interface.filtersFrame
-	local list = parent.filterList
-	C_Timer.After(0.1, function()
-	for i=1, #list do
-		local frame = list[i]
-		frame:ClearAllPoints()
-		if i == 1 then
-			frame:SetPoint("TOPLEFT", parent.frame, "TOPLEFT", 15, -50)
-		else
-			if mod(i-1,7) == 0 then
-				frame:SetPoint("TOP", list[7*math.floor(i/7)+1-7].frame, "BOTTOM", 0, -10)
-			else
-				frame:SetPoint("LEFT", list[i-1].frame, "RIGHT", 5, 0)
-			end
-		end
-	end
-	end)
+	
 end)
 
 local frame = CreateFrame('Frame')
@@ -406,12 +443,12 @@ local function searchGetParams(query)
 end
 
 local function isQueryFiltered(query)
-	if DB.filtersList == {} or not DB.enableFilters then return false end
+	if DB.realm.filtersList == {} or not DB.realm.enableFilters then return false end
 	local filter = {}
 	local q = searchGetParams(query)
 	q.min = tonumber(q.min)
 	q.max = tonumber(q.max)
-	for fName,v in pairs(DB.filtersList) do
+	for fName,v in pairs(DB.realm.filtersList) do
 		local lvl = {}
 		if v.filterOn then
 			filter[fName] = {min = false, max = false, --[[race = false,class = false,]]}
@@ -551,7 +588,7 @@ local function findRace(raceName)
 end
 
 local function filtered(player)
-	for k,v in pairs(DB.filtersList) do
+	for k,v in pairs(DB.realm.filtersList) do
 		if v.filterOn then
 			if v.lvlRange then
 				local min, max = fn:split(v.lvlRange, ":", -1)
@@ -594,17 +631,14 @@ local function filtered(player)
 end
 
 local function addNewPlayer(t, p)
-	local blackList = false
-	for i=1,#DB.blackList do
-		if DB.blackList[i] == p.Name then blackList = true;break; end
-	end
+	local blackList = DB.realm.blackList[p.Name] and true or false
 	local playerInfoStr = format("%s - lvl:%d; race:%s; class:%s; Guild: \"%s\"", p.Name, p.Level, p.Race, p.Class, p.Guild)
 	if p.Guild == "" then
 		if not blackList then
-			if not DB.leave[p.Name] then
+			if not DB.realm.leave[p.Name] then
 				if not t.tempSendedInvites[p.Name] then
-					if not DB.alredySended[p.Name] then
-						if ((DB.enableFilters and not filtered(p)) or not DB.enableFilters) then
+					if not DB.realm.alreadySended[p.Name] then
+						if ((DB.realm.enableFilters and not filtered(p)) or not DB.realm.enableFilters) then
 							table.insert(t.inviteList, {name = p.Name, lvl = p.Level, race = p.Race, class = p.Class,  NoLocaleClass = p.NoLocaleClass})
 							t.tempSendedInvites[p.Name] = true
 							debug(format("Add player %s", playerInfoStr), color.green)
@@ -645,7 +679,7 @@ end
 
 local function searchWhoResultCallback(query, results)
 	local searchLvl = getSearchDeepLvl(query)
-	if #results >= FGI_MAXWHORETURN and DB.customWho then
+	if #results >= FGI_MAXWHORETURN and DB.realm.customWho then
 		print(format(L.FAQ.error["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"], query))
 		debug(format("Query (%s) return 50 or more results; SearchLevel-%d", query, searchLvl))
 	end
@@ -670,12 +704,12 @@ end
 function fn:nextSearch()
 	C_Timer.After(FGI_SCANINTERVALTIME, function() interface.scanFrame.pausePlay:SetDisabled(false) end)
 	if #addon.search.whoQueryList == 0 then
-		if  DB.customWho then
-			for i=1, #DB.customWhoList do
-				table.insert(addon.search.whoQueryList, DB.customWhoList[i])
+		if  DB.realm.customWho then
+			for i=1, #DB.faction.customWhoList do
+				table.insert(addon.search.whoQueryList, DB.faction.customWhoList[i])
 			end
 		else
-		addon.search.whoQueryList = {DB.lowLimit.."-"..DB.highLimit}
+		addon.search.whoQueryList = {DB.global.lowLimit.."-"..DB.global.highLimit}
 		end
 	end
 	
@@ -782,7 +816,7 @@ function fn:inGuildCanInvite()
 	return true	
 end
 
-local function hideSysMsg()
+function fn.hideSysMsg()
 	return true
 end
 
@@ -796,17 +830,17 @@ local writeReceiveData = {
 	blacklist = function(arr)
 		for i=1, #arr do
 			local name, reason = arr[i][1], arr[i][2]
-			if not DB.blackList[name] then
+			if not DB.realm.blackList[name] then
 				interface.blackList:add({name=name, reason=reason})
 			end
-			DB.blackList[name] = reason
+			DB.realm.blackList[name] = reason
 		end
 		interface.blackList:update()
 	end,
 	invitations = function(arr)
 		for i=1, #arr do
 			local name, time = arr[i][1], tonumber(arr[i][2])
-			DB.alredySended[name] = math.max(time, DB.alredySended[name] or 0)
+			DB.realm.alreadySended[name] = math.max(time, DB.realm.alreadySended[name] or 0)
 		end
 	end,
 }
@@ -829,25 +863,38 @@ local function readSynchStr(sender, mod)
 	ReceiveSynchStr[sender][mod] = nil
 end
 
-local function getSynchRequest(requestMSG, sender)
-	requestMSG = L.interface.synchBaseType[requestMSG]
-	if not requestMSG then
+
+local function getSynchRequest(requestMSG, sender, allowed)
+	local function confirm()
+		getSynchRequest(requestMSG, sender, true)
+	end
+	local request = L.interface.synchType[requestMSG]
+	local requestType = L.interface.synchBaseType[requestMSG]
+	if not requestType then
 		return C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, 'ERROR|'..L.interface.synchState["Ошибка типа синхронизации"], "WHISPER", sender)
+	end
+	if not allowed then
+		if DB.global.security.sended and requestType == 'invitations' then
+			confirmSending:NewConfirm(confirm, sender, request)
+		elseif DB.global.security.blacklist and requestType == 'blacklist' then
+			confirmSending:NewConfirm(confirm, sender, request)
+		end
+		return
 	end
 	C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, 'SUCCESS|'..L.interface.synchState["Начало синхронизации"], "WHISPER", sender)
 	
 	local SendSynchStr = ''
-	if requestMSG=='blacklist' then
-		for k,v in pairs(DB.blackList) do
+	if requestType=='blacklist' then
+		for k,v in pairs(DB.realm.blackList) do
 			SendSynchStr = string.format("%s%s,%s;", SendSynchStr, k, tostring(v):gsub(',','~'))
 		end
-	elseif requestMSG=='invitations' then
-		for k,v in pairs(DB.alredySended) do
+	elseif requestType=='invitations' then
+		for k,v in pairs(DB.realm.alreadySended) do
 			SendSynchStr = string.format("%s%s,%s;", SendSynchStr, k, tostring(v))
 		end
 	end
 	if SendSynchStr=='' then return end
-	fn.SendSynchArray(SendSynchStr, requestMSG, sender)
+	fn.SendSynchArray(SendSynchStr, requestType, sender)
 	return
 end
 
@@ -860,41 +907,43 @@ synchFrame:SetScript("OnEvent", function(self, event, ...)
 	-- print(prefix, msg, channel, sender)
 	sender = sender:match("([^-]+)")
 	if sender == UnitName('player') then return end
-	local requestType, requestMSG = msg:match("([^|]+)|(.+)")
+	local synch = interface.settings.Synchronization.content
+	local requestType, requestMSG = msg:match("([^|]+)[|]*([^|]+)")
+	requestMSG = tonumber(requestMSG) == nil and requestMSG or tonumber(requestMSG)
 	
 	if channel == "WHISPER" then
 		if requestType == "ERROR" then
-			interface.synch.ticker:responseReceived()
-			return interface.synch.infoLabel:Error(requestMSG)
+			synch.ticker:responseReceived()
+			return synch.infoLabel:Error(requestMSG)
 		elseif requestType == "SUCCESS" then
-			interface.synch.ticker:responseReceived()
-			return interface.synch.infoLabel:Success(requestMSG)
+			synch.ticker:responseReceived()
+			return synch.infoLabel:Success(requestMSG)
 		elseif requestType == "GET" then
 			return getSynchRequest(requestMSG, sender)
 		elseif requestType == "LOGIN" and requestMSG == "GET_FGI_USERS" then
-			return interface.synch.rightColumn.synchPlayerReadyDrop:AddItem(sender, sender)
+			return synch.rightColumn.synchPlayerReadyDrop:AddItem(sender, sender)
 		end
+		if synch.timer then synch.timer:Cancel() end
 		
-		interface.synch.timer:Cancel()
 		local Start, End = msg:find("%(.+%)")
 		End = End or 0
 		local s,e,mod = msg:sub(Start, End):match("(%d+)[^%d](%d+);(%w+)")
 		if not mod then return end
 		s, e = tonumber(s), tonumber(e)
-		interface.synch.infoLabel:Success(format(L.interface.synchState["Синхронизация с %s.\n %d/%d"], sender,s,e))
+		synch.infoLabel:Success(format(L.interface.synchState["Синхронизация с %s.\n %d/%d"], sender,s,e))
 		if s == 1 then ReceiveSynchStr[sender] = { [mod] = ''} end
 			msg = msg:sub(End+1, -1)
 			ReceiveSynchStr[sender][mod] = ReceiveSynchStr[sender][mod]..msg
 		if s == e then
 			readSynchStr(sender, mod)
-			interface.synch.infoLabel:Success(format(L.interface.synchState["Данные синхронизированы с игроком %s."], sender))
+			synch.infoLabel:Success(format(L.interface.synchState["Данные синхронизированы с игроком %s."], sender))
 		end
 		
 	elseif channel == "GUILD" then
 		if requestType == "GET" then
 			getSynchRequest(requestMSG, sender)
 		elseif requestType == "LOGIN" and requestMSG == "GET_FGI_USERS" then
-			interface.synch.rightColumn.synchPlayerReadyDrop:AddItem(sender, sender)
+			synch.rightColumn.synchPlayerReadyDrop:AddItem(sender, sender)
 			C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "LOGIN|GET_FGI_USERS", "WHISPER", sender)
 		elseif requestType == "REMEMBER"then
 			fn:rememberPlayer(requestMSG)
@@ -924,25 +973,25 @@ function fn.SendSynchArray(str, mod, playerName)
 	return arr
 end
 
-function fn:sendSynchRequest(player, type)
-	ReceiveSynchStr[player or L.interface["Все"]].start = GetTime()
+function fn:sendSynchRequest(player, sType)
+	local synch = interface.settings.Synchronization.content
+	ReceiveSynchStr[player] = ReceiveSynchStr[player] or {}
+	ReceiveSynchStr[player].start = GetTime()
 	local start = GetTime()
-	interface.synch.ticker = C_Timer.NewTicker(1,function()
+	synch.ticker = C_Timer.NewTicker(1,function()
 		local time = math.ceil(start+FGI_MAXSYNCHWAIT-GetTime())
-		interface.synch.infoLabel:During(format(L.interface.synchState["Запрос синхронизации у: %s. %d"], player or L.interface["Все"], time))
-		if time == 0 then return interface.synch.infoLabel:Error(L.interface.synchState["Превышен лимит ожидания ответа"]) end
+		synch.infoLabel:During(format(L.interface.synchState["Запрос синхронизации у: %s. %d"], player or L.interface["Все"], time))
+		if time == 0 then return synch.infoLabel:Error(L.interface.synchState["Превышен лимит ожидания ответа"]) end
 	end, FGI_MAXSYNCHWAIT)
-	function interface.synch.ticker:responseReceived()
-		interface.synch.ticker:Cancel()
-		interface.synch.timer = C_Timer.NewTimer(FGI_MAXSYNCHWAIT, function()
-			interface.synch.infoLabel:Error(L.interface.synchState["Превышен лимит ожидания ответа"])
+	function synch.ticker:responseReceived()
+		synch.ticker:Cancel()
+		synch.timer = C_Timer.NewTimer(FGI_MAXSYNCHWAIT, function()
+			synch.infoLabel:Error(L.interface.synchState["Превышен лимит ожидания ответа"])
 		end)
 	end
-	if not player then
-		player = L.interface["Все"]
-		
-		C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "GET|"..type, "GUILD")
+	if player == L.interface["Все"] then
+		C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "GET||"..sType, "GUILD")
 	else
-		C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "GET|"..type, "WHISPER", player)
+		C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "GET||"..sType, "WHISPER", player)
 	end
 end

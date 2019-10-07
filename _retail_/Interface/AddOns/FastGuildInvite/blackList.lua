@@ -11,71 +11,23 @@ local DB
 local fontSize = fn.fontSize
 
 local blackList, scrollBar
+local w,h = 623, 568
 
-
-local function btnText(frame)
-	local text = frame.text
-	text:ClearAllPoints()
-	text:SetPoint("TOPLEFT", 5, -1)
-	text:SetPoint("BOTTOMRIGHT", -5, 1)
-end
-
--- format("Player %s was found in blacklist. Do you want kick %s from guild?", name, name)
--- format("FGI autoKick: Player %s has been kicked.", name)
-
-interface.blackList = GUI:Create("ClearFrame")
-blackList = interface.blackList
-blackList:SetTitle("FGI Blacklist")
-blackList:SetWidth(size.blackListW)
-blackList:SetHeight(size.blackListH)
-blackList:SetLayout("Flow")
-
-function blackList:updateList()
-	local str = ''
-	for k,v in pairs(DB.blackList) do
-		str = format("%s%s\n", str, k)
-	end
-	-- blackList.list:SetText(str)
-end
-
-blackList.title:SetScript('OnMouseUp', function(mover)
-	local DB = addon.DB
-	local frame = mover:GetParent()
-	frame:StopMovingOrSizing()
-	local self = frame.obj
-	local status = self.status or self.localstatus
-	status.width = frame:GetWidth()
-	status.height = frame:GetHeight()
-	status.top = frame:GetTop()
-	status.left = frame:GetLeft()
-	
-	local point, relativeTo,relativePoint, xOfs, yOfs = blackList.frame:GetPoint(1)
-	DB.blackListPos = {}
-	DB.blackListPos.point=point
-	DB.blackListPos.relativeTo=relativeTo
-	DB.blackListPos.relativePoint=relativePoint
-	DB.blackListPos.xOfs=xOfs
-	DB.blackListPos.yOfs=yOfs
-end)
+interface.settings.Blacklist.content = GUI:Create("SimpleGroup")
+blackList = interface.settings.Blacklist.content
+blackList:SetWidth(w-20)
+blackList:SetHeight(h-20)
+blackList.frame:SetParent(interface.settings.Blacklist)
+blackList:SetPoint("TOPLEFT", interface.settings.Blacklist, "TOPLEFT", 10, -10)
+blackList:SetLayout("NIL")
 
 blackList.scrollBar = GUI:Create("ScrollFrame")
 scrollBar = blackList.scrollBar
-scrollBar:SetFullWidth(true)
-scrollBar:SetFullWidth(true)
--- scrollBar:SetWidth(blackList.frame:GetWidth()-20)
--- scrollBar:SetHeight(blackList.frame:GetHeight()-40)
-scrollBar:SetLayout("Flow")
+scrollBar:SetWidth(blackList.frame:GetWidth())
+scrollBar:SetHeight(blackList.frame:GetHeight())
+scrollBar:SetPoint("TOPLEFT", blackList.frame, "TOPLEFT", 0, 0)
 blackList:AddChild(scrollBar)
-
-blackList.closeButton = GUI:Create('Button')
-local frame = blackList.closeButton
-frame:SetText('X')
-frame:SetWidth(frame.frame:GetHeight())
-fn:closeBtn(frame)
-frame:SetCallback('OnClick', function()
-	interface.blackList:Hide()
-end)
-blackList:AddChild(frame)
+scrollBar:SetLayout("Flow")
 
 scrollBar.items = {}
 
@@ -85,7 +37,7 @@ StaticPopupDialogs["FGI_BLACKLIST_CHANGE"] = {
 	button2 = "Cancel",
 	OnAccept = function(self, data)
 		local reason = self.editBox:GetText()
-		DB.blackList[data.name] = reason
+		DB.realm.blackList[data.name] = reason
 		if type(data.frame) == "table" then
 			data.frame.r:SetText(reason)
 			data.frame.r:SetTooltip(reason)
@@ -97,9 +49,12 @@ StaticPopupDialogs["FGI_BLACKLIST_CHANGE"] = {
 		blackList:update()
 		return true
 	end,
+	OnCancel  = function(self, data)
+		blackList:update()
+	end,
 	OnShow = function(self, data)
 		self.text:SetText(format("%s - %s", L.interface["Причина"], data.name))
-		self.editBox:SetText(tostring(DB.blackList[data.name]))
+		self.editBox:SetText(tostring(DB.realm.blackList[data.name]))
 	end,
 	timeout = 0,
 	whileDead = true,
@@ -108,7 +63,6 @@ StaticPopupDialogs["FGI_BLACKLIST_CHANGE"] = {
 	hasEditBox = true
 }
 
-
 local function AddHookClick(frame, parent)
 	local menu = {
 		{text = "Select an Option", isTitle = true},
@@ -116,7 +70,7 @@ local function AddHookClick(frame, parent)
 			StaticPopup_Show("FGI_BLACKLIST_CHANGE", _,_,  {name = frame.label:GetText(), frame = parent})
 		end},
 		{text = "Delete", func = function()
-			DB.blackList[frame.label:GetText()] = nil
+			DB.realm.blackList[frame.label:GetText()] = nil
 			blackList:update()
 		end},
 		{text = "", isTitle = true},
@@ -136,32 +90,51 @@ local function AddHookClick(frame, parent)
 end
 local help = "RBM - change"
 function blackList:add(data)
+	for i=1, #scrollBar.items do
+		if not scrollBar.items[i].frame:IsShown() then return blackList:update() end
+	end
 	scrollBar.items[#scrollBar.items+1] = GUI:Create("SimpleGroup")
 	local frame = scrollBar.items[#scrollBar.items]
 	frame:SetFullWidth(true)
-	frame:SetLayout("Flow")
+	frame:SetLayout("NIL")
 	frame.n = GUI:Create("TLabel")
 		frame.n:SetText(data.name)
-		frame.n:SetWidth(90)
+		frame.n:SetWidth(120)
 		frame.n:SetHeight(20)
 		frame.n:SetTooltip(help)
+		frame.n:SetPoint("TOPLEFT", frame.frame, "TOPLEFT", 0, 0)
 		AddHookClick(frame.n, frame)
+	fn.fontSize(frame.n.label)
 	frame:AddChild(frame.n)
 	frame.r = GUI:Create("TLabel")
 		frame.r:SetText(data.reason)
+		frame.r.label:SetMaxLines(1)
+		frame.r:SetWidth(623-frame.n.frame:GetWidth()-50)
 		frame.r:SetHeight(20)
 		frame.r:SetTooltip(data.reason)
+		frame.r:SetPoint("TOPLEFT", frame.n.frame, "TOPRIGHT", 0, 0)
+	fn.fontSize(frame.r.label)
 	frame:AddChild(frame.r)
 	frame:SetHeight(frame.n.frame:GetHeight())
 	scrollBar:AddChild(frame)
+	if #scrollBar.items == 1 then
+		frame:SetPoint("TOPLEFT", scrollBar.frame, "TOPLEFT", 0, 0)
+	else
+		frame:SetPoint("TOPLEFT", scrollBar.items[#scrollBar.items-1].frame, "BOTTOMLEFT", 0, -5)
+	end
+	blackList:update()
 end
 
 function blackList:update()
 	local i=1
-	for k,v in pairs(DB.blackList) do
+	for name, reason in fn:pairsByKeys(DB.realm.blackList) do
 		local f = scrollBar.items[i]
-		f.n:SetText(k)
-		f.r:SetText(tostring(v))
+		if not f then return end
+		f.n:SetText(name)
+		f.r:SetText(tostring(reason))
+		f.r:SetTooltip(tostring(reason))
+		AddHookClick(f.n, f)
+		f.frame:Show()
 		i = i+1
 	end
 	for i=i, #scrollBar.items do
@@ -203,26 +176,13 @@ StaticPopupDialogs["FGI_BLACKLIST"] = {
 	preferredIndex = 3,
 }
 
+
 -- set points
 local frame = CreateFrame('Frame')
 frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
 	DB = addon.DB
-	if DB.blackListPos then
-		interface.blackList:ClearAllPoints()
-		interface.blackList:SetPoint(DB.blackListPos.point, UIParent, DB.blackListPos.relativePoint, DB.blackListPos.xOfs, DB.blackListPos.yOfs)
-	else
-		interface.blackList:SetPoint("CENTER", UIParent)
-	end
-	C_Timer.After(0.1, function()
-	blackList.closeButton:ClearAllPoints()
-	blackList.closeButton:SetPoint("CENTER", blackList.frame, "TOPRIGHT", -8, -8)
-	
-	for k,v in pairs(DB.blackList) do
+	for k,v in pairs(DB.realm.blackList) do
 		blackList:add({name=tostring(k),reason=tostring(v)})
 	end
-	
-	
-	blackList:Hide()
-	end)
 end)

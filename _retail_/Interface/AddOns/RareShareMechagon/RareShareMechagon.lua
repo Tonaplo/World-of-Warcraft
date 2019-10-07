@@ -57,18 +57,19 @@ RareShare:LoadModule({
                 end
             end
         end,
-        UPDATE_MOUSEOVER_UNIT = function(self, ...)
-            local TooltipItemName = GameTooltip:GetUnit()
-            if (TooltipItemName == nil) then return else
-                local ItemName = GetItemInfo(169868)
-                if (TooltipItemName == ItemName and RareShareDB_Mechagon["LastAnnounce"]["Armory"] <= time() - 300 and RareShareDB_Mechagon["Config"]["Armories"] == true) then
-                    RareShareDB_Mechagon["LastAnnounce"]["Armory"] = time();
-                    local x, y = RareShare:GetReadablePlayerPosition(1462);
-                    local Msg = --[[ Armory found at ]]Addon.Loc.Armories.." ~("..x..", "..y..")";
-                    SendChatMessage(Msg , "CHANNEL", nil, RareShareDB["Config"]["CChannel"]["CID"]);
-                end
-            end
-        end,
+        --! Disabled due to an API change making automatic chat messages unreliable.
+        -- UPDATE_MOUSEOVER_UNIT = function(self, ...)
+        --     local TooltipItemName = GameTooltip:GetUnit()
+        --     if (TooltipItemName == nil) then return else
+        --         local ItemName = GetItemInfo(169868)
+        --         if (TooltipItemName == ItemName and RareShareDB_Mechagon["LastAnnounce"]["Armory"] <= time() - 300 and RareShareDB_Mechagon["Config"]["Armories"] == true) then
+        --             RareShareDB_Mechagon["LastAnnounce"]["Armory"] = time();
+        --             local x, y = RareShare:GetReadablePlayerPosition(1462);
+        --             local Msg = --[[ Armory found at ]]Addon.Loc.Armories.." ~("..x..", "..y..")";
+        --             SendChatMessage(Msg , "CHANNEL", nil, RareShareDB["Config"]["CChannel"]["CID"]);
+        --         end
+        --     end
+        -- end,
     },
     Rares        = {
         [151934] = {Addon.Loc.Rares[151934]--[[ "Arachnoid Harvester" ]],              1, false, false, 55512}, --[[ Valid ]]
@@ -160,18 +161,19 @@ RareShare:LoadModule({
         local X, Y = 20, -20
         local CheckBoxes = RareShare.CheckBoxes
         
-        CheckBoxes.Armories = RareShare:CreateCheckBox({
-            ["Parent"]      = ConfigFrame,
-            ["DisplayText"] = Addon.Loc.Config.Armory[1]--[[ "Enable Armory Announcements" ]],
-            ["X"]           = X,
-            ["Y"]           = Y,
-            ["Tooltip"]     = Addon.Loc.Config.Armory[2]--[[ "Enables/Disables announcing armories to general chat" ]],
-            ["Default"]     = true,
-            ["Value"]       = RareShareDB_Mechagon["Config"]["Armories"],
-            ["OldValue"]    = RareShareDB_Mechagon["Config"]["Armories"],
-            ["Setting"]     = "RareShareDB_Mechagon[\"Config\"][\"Armories\"] = ",
-        })
-        Y = Y - 40
+        --! Disabled due to an API change making automatic chat messages unreliable.
+        -- CheckBoxes.Armories = RareShare:CreateCheckBox({
+        --     ["Parent"]      = ConfigFrame,
+        --     ["DisplayText"] = Addon.Loc.Config.Armory[1]--[[ "Enable Armory Announcements" ]],
+        --     ["X"]           = X,
+        --     ["Y"]           = Y,
+        --     ["Tooltip"]     = Addon.Loc.Config.Armory[2]--[[ "Enables/Disables announcing armories to general chat" ]],
+        --     ["Default"]     = true,
+        --     ["Value"]       = RareShareDB_Mechagon["Config"]["Armories"],
+        --     ["OldValue"]    = RareShareDB_Mechagon["Config"]["Armories"],
+        --     ["Setting"]     = "RareShareDB_Mechagon[\"Config\"][\"Armories\"] = ",
+        -- })
+        -- Y = Y - 40
         
         CheckBoxes.Drills = RareShare:CreateCheckBox({
             ["Parent"]      = ConfigFrame,

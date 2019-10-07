@@ -1,17 +1,39 @@
 
 FGI_DB = {
+	["realm"] = {
+		["Silvermoon"] = {
+			["messageList"] = {
+				"Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!", -- [1]
+			},
+			["filtersList"] = {
+				["high level"] = {
+					["lvlRange"] = "110:120",
+					["letterFilter"] = false,
+					["classFilter"] = false,
+					["filterByName"] = false,
+					["raceFilter"] = false,
+					["filterOn"] = true,
+					["filteredCount"] = 0,
+				},
+			},
+		},
+	},
 	["profileKeys"] = {
 		["Jaletta - Auchindoun"] = "Jaletta - Auchindoun",
 		["Kenne - Auchindoun"] = "Kenne - Auchindoun",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Glora - Auchindoun"] = "Glora - Auchindoun",
 		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Glora - Auchindoun"] = "Glora - Auchindoun",
+		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
+		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Welor - Auchindoun"] = "Welor - Auchindoun",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
-		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
+		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 	},
 	["global"] = {
 		["scanFrame"] = {
@@ -21,7 +43,6 @@ FGI_DB = {
 			["relativePoint"] = "TOPRIGHT",
 		},
 		["raceFilterVal"] = 121,
-		["highLimit"] = 120,
 		["chooseInvites"] = {
 			["yOfs"] = -55.9998893737793,
 			["xOfs"] = 119.0000305175781,
@@ -30,55 +51,45 @@ FGI_DB = {
 		},
 		["minimap"] = {
 			["minimapPos"] = 194.1576666062499,
-			["hide"] = false,
-		},
-		["blackList"] = {
-		},
-		["customWhoList"] = {
-			"1-15 c-\"Class\" r-\"Race\"", -- [1]
-		},
-		["leave"] = {
 		},
 		["backgroundRun"] = true,
 		["sendMSG"] = true,
 		["customWho"] = false,
-		["filtersList"] = {
-			["high level"] = {
-				["lvlRange"] = "110:120",
-				["letterFilter"] = false,
-				["filteredCount"] = 0,
-				["filterByName"] = false,
-				["raceFilter"] = false,
-				["filterOn"] = true,
-				["classFilter"] = false,
-			},
-		},
 		["curMessage"] = 1,
-		["searchInterval"] = 5,
-		["debug"] = false,
-		["SearchType"] = 1,
-		["messageList"] = {
-			"Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!", -- [1]
-		},
-		["rememberAll"] = true,
-		["clearDBtimes"] = 3,
 		["mainFrame"] = {
 			["yOfs"] = 185.0002136230469,
 			["xOfs"] = -13.0000524520874,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
-		["alredySended"] = {
-		},
+		["SearchType"] = 1,
+		["rememberAll"] = true,
+		["classFilterVal"] = 121,
+		["searchInterval"] = 5,
 		["systemMSG"] = false,
-		["lowLimit"] = 1,
 		["enableFilters"] = false,
 		["inviteType"] = 3,
-		["classFilterVal"] = 121,
 		["addonMSG"] = false,
-		["keyBind"] = {
-			["nextSearch"] = false,
-			["invite"] = false,
-		},
+	},
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Jaletta - Auchindoun"] = "Jaletta - Auchindoun",
+		["Kenne - Auchindoun"] = "Kenne - Auchindoun",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Glora - Auchindoun"] = "Glora - Auchindoun",
+		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Welor - Auchindoun"] = "Welor - Auchindoun",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
+	},
+	["global"] = {
+		{
+		}, -- [1]
 	},
 }

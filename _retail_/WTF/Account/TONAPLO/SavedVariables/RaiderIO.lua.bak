@@ -1,34 +1,6 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Mallusof-silvermoon"
+RaiderIO_LastCharacter = "eu-Kaldowrath-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Czøba-ragnaros"] = true,
-	["eu-Spookbuster-silvermoon"] = true,
-	["eu-Alhea-nemesis"] = true,
-	["eu-Acryn-antonidas"] = true,
-	["eu-Atthaer-silvermoon"] = true,
-	["eu-Thaely-kazzak"] = true,
-	["eu-Såpass-twisting-nether"] = true,
-	["eu-Mallusof-silvermoon"] = true,
-	["eu-Nufreyen-outland"] = true,
-	["eu-Wolfline-ravencrest"] = true,
-	["eu-Hehedh-silvermoon"] = true,
-	["eu-Chelti-kazzak"] = true,
-	["eu-Goodsucc-silvermoon"] = true,
-	["eu-Ryémar-hyjal"] = true,
-	["eu-Rykuhunt-shadowsong"] = true,
-	["eu-Voidlass-aggra-portugues"] = true,
-	["eu-Implady-silvermoon"] = true,
-	["eu-Zerty-aggra-portugues"] = true,
-	["eu-Rexos-outland"] = true,
-	["eu-Firma-kirin-tor"] = true,
-	["eu-Whama-grim-batol"] = true,
-	["eu-Malfuro-silvermoon"] = true,
-	["eu-Enithius-silvermoon"] = true,
-	["eu-Runia-silvermoon"] = true,
-	["eu-Suff-ravencrest"] = true,
-	["eu-Fùgu-kazzak"] = true,
-	["eu-Rouch-the-maelstrom"] = true,
-	["eu-Razpøutïne-silvermoon"] = true,
 }

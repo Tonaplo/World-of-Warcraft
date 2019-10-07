@@ -286,6 +286,7 @@ app.L = {
 		[-7] = "Interface\\Icons\\Inv_offhand_1h_artifactskulloferedar_d_05",				-- World Bosses (Achievement_Boss_ShadeOfEranikus)
 		[-8] = "Interface\\Icons\\ability_monk_dragonkick",									-- PvE
 		[-9] = "Interface\\Icons\\Achievement_PVP_Legion08",								-- PvP
+		[-10] = "Interface\\Icons\\achievement_reputation_05",								-- Party Sync
 		[-12] = "Interface\\Icons\\Ability_Warlock_DemonicEmpowerment", 					-- East entrance demons
 		[-13] = "Interface\\Icons\\Achievement_Reputation_Ogre", 							-- North entrance ogres
 		[-14] = "Interface\\Icons\\INV_Misc_Head_Elf_02", 									-- West entrace elves
@@ -931,6 +932,7 @@ app.L = {
 		[-4] = BATTLE_PET_SOURCE_6, 											-- Achievement
 		[-7] = WORLD.." "..RAID_BOSSES, 										-- World Bosses
 		[-9] = GDAPI_REALMTYPE_PVP,												-- PvP
+		[-10] = "Party Sync",													-- Party Sync
 		[-12] = DUNGEON_FLOOR_DIREMAUL5.." [East - Demons]",					-- Warpwood Quarter [East - Demon]
 		[-13] = DUNGEON_FLOOR_DIREMAUL1.." [North - Ogres]",					-- Gordok Commons [North - Ogres]
 		[-14] = DUNGEON_FLOOR_DIREMAUL2.." [West - Elves]",						-- Capital Gardens [West - Elves]
@@ -1000,6 +1002,7 @@ app.L = {
 		[-112] = select(2,C_Garrison.GetBuildingInfo(42)), 						-- Menagerie
 		[-113] = select(2,C_Garrison.GetBuildingInfo(52)), 						-- Salvage Yard
 		[-114] = select(2,C_Garrison.GetBuildingInfo(95)), 						-- Scribe's Quaters
+		[-116] = select(2,C_Garrison.GetBuildingInfo(94)),						-- Tailoring Emporium
 		[-117] = select(2,C_Garrison.GetBuildingInfo(60)), 						-- The Forge
 		[-118] = select(2,C_Garrison.GetBuildingInfo(90)), 						-- The Tannery
 		[-119] = select(2,C_Garrison.GetBuildingInfo(111)), 					-- Trading Post
@@ -1612,7 +1615,7 @@ app.L = {
 		[-5361] = select(2,GetAchievementInfo(10741)),	-- 12th Anniversary
 		[-5362] = select(2,GetAchievementInfo(11848)),	-- 13th Anniversary
 		[-5363] = select(2,GetAchievementInfo(12827)),	-- 14th Anniversary
-		--[-5364] = select(2,GetAchievementInfo(
+		[-5364] = select(2,GetAchievementInfo(13917)),	-- 15th Anniversary
 --[[
 		-- Tier Set Numbers Localization
 		[-5992] = GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, -- Tier 9 Sets
@@ -2390,6 +2393,7 @@ app.L = {
 		[326417] = "Interface\\Icons\\inv_misc_treasurechest01c",
 		[326418] = "Interface\\Icons\\inv_misc_treasurechest01c",
 		[326419] = "Interface\\Icons\\inv_misc_treasurechest01c",
+		[327230] = "Interface\\Icons\\inv_cooking_80_choralhoney3",
 		[329783] = "Interface\\Icons\\inv_misc_treasurechest01b",
 		[332220] = "Interface\\Icons\\inv_misc_treasurechest01b",
 		[332569] = "Interface\\Icons\\trade_archaeology_catstatueemeraldeyes",
@@ -3528,6 +3532,7 @@ app.L = {
 		[326419] = "Arcane Chest",
 		[326588] = "Azerite Weapons Cache",
 		[327170] = "Weapon Rack",
+		[327230] = "Jelly Deposit",
 		[327548] = "Powerpack Blueprints",
 		[327585] = "Bounty Board",
 		[327591] = "Preserved Journal",
@@ -3621,12 +3626,16 @@ app.L = {
 		["The Sunwell"] = "Sunwell Plateau";
 		["Tempest Keep"] = "The Eye";
 		["The Violet Hold"] = "Violet Hold";
+		["Magister's Terrace"] = "Magisters' Terrace";
+		["Violet Hold"] = "The Violet Hold";
 	};
 
 	-- This is necessary to have because Blizzard does not always have the correct map ID at the time of zone change.
 	["ZONE_TEXT_TO_MAP_ID"] = {
 		["Onyxia's Lair"] = 248,
 		["The Trial of Style"] = -777,
+		["Razorfen Downs"] = 300,
+		["The Deadmines"] = 291,
 	};
 
 	-- Unobtainable Listing (for fellow 100%s out there)

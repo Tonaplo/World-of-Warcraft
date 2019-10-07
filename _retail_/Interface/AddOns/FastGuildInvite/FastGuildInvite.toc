@@ -1,7 +1,8 @@
 ## Interface: 80205
 ## Author: Knoot
 ## Title: |cffffff00<|r|cff16ABB5FGI|r|cffffff00>|r |cff16ABB5FastGuildInvite|r
-## Version: 2.0.*
+## Version: 38
+## X-Curse-Project-ID: 313283
 ## SavedVariables: FGI_DB, FGI_DEBUG
 ## DefaultState: enabled
 
@@ -31,11 +32,13 @@ functions.lua
 FGI_Core.lua
 chooseInvites.lua
 mainFrame.lua
-message.lua
 settings.lua
+message.lua
 keybindings.lua
 filtersFrame.lua
 Scan.lua
 blackList.lua
 customList.lua
 synch.lua
+credits.lua
+security.lua
