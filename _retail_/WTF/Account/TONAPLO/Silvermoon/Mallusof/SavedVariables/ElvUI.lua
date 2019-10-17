@@ -1,2821 +1,2929 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p If yu're not up for it, I'll find someone else?", -- [1]
-		"/cw Bagidi Hey bud! Wanna tank a +14 Freehold?", -- [2]
-		"/p oh well", -- [3]
-		"/p Oh ok", -- [4]
-		"/p a couple of seconds?", -- [5]
-		"/p priest", -- [6]
-		"/p Hi :)", -- [7]
-		"/p aww", -- [8]
-		"/s Oh ok", -- [9]
-		"/p :P", -- [10]
-		"/p Sleep tighht then :)", -- [11]
-		"/p If you're not feeling well, that's ok :) We'll do keys when you're back on top", -- [12]
-		"/p cheers!", -- [13]
-		"/p Hello :)", -- [14]
-		"/p 1 mob was left lol", -- [15]
-		"/p Wanna do the +14 Freehold I have?", -- [16]
-		"/p Yeah, thaks for letting me know :)", -- [17]
-		"/cw Nashira-DerRatvonDalaran hopefulyl! I'll see if I'm free :)", -- [18]
-		"/cw Nashira-DerRatvonDalaran cheers!", -- [19]
-		"/cw Nashira-DerRatvonDalaran feel better :)", -- [20]
+		"yhea", -- [1]
+		"I agree. Reroll next seasoon :)", -- [2]
+		"Tricks", -- [3]
+		"DO I know him, lol", -- [4]
+		"wait the bridge guy?", -- [5]
+		"yeah Feint, I forgot", -- [6]
+		"Rogues are ridiculous atm", -- [7]
+		"O.o", -- [8]
+		"Divine Storm AoE can be insane", -- [9]
+		"Yeah, essences not being accountwide is a big complaint I've seen", -- [10]
+		"the amount of utility", -- [11]
+		":P", -- [12]
+		"They wont", -- [13]
+		"I know that for a fact :)", -- [14]
+		"FF15?", -- [15]
+		"strong statement", -- [16]
+		"anyways", -- [17]
+		"Imma go to bed", -- [18]
+		"Hope to do more dungeons before you unsub :P", -- [19]
+		"nn", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"|cff71d5ff|Hspell:9484:461|h[Shackle Undead]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"DUde", -- [1]
+			"Zeel-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			74, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			3135, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570051060,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262072,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [1]
 		{
-			"|cff71d5ff|Hspell:254232:1301|h[Voidling]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"|cffa335ee|Hitem:167414::::::::120:70::26:6:6349:6338:1557:4786:6269:4775:::|h[Notorious Gladiator's Plate Armor]|h|rBiS chest", -- [1]
+			"Zeel-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			75, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			3136, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570051065,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262072,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [2]
 		{
-			"LFM for TEP Normal. Recruiting for new, once a week raidinffffffg community.", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"for all things PvE", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
-			"2. General - Arathi Highlands", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [4]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
-			1, -- [7]
-			2, -- [8]
-			"General - Arathi Highlands", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			156, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			3137, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570051874,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262076,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [3]
 		{
-			"Greetings :)", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"|cffa335ee|Hitem:159620::::::::120:258::35:3:5010:1587:4784:::|h[Conch of Dark Whispers]|h|r still", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			49, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			3138, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570135615,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262077,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [4]
 		{
-			"hi", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"Nice", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			50, -- [11]
-			"Player-1385-056A2F81", -- [12]
+			3139, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570135616,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262085,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [5]
 		{
-			"reload 1 moment", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"|cff71d5ff|Hspell:273473:0|h[Expurgation]|h|r|cff71d5ff|Hspell:286229:0|h[Light's Decree]|h|rsame chest", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			53, -- [11]
-			"Player-1385-056A2F81", -- [12]
+			3140, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570135623,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262093,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [6]
 		{
-			"wow", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"so gud", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			54, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			3141, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570135627,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262097,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [7]
 		{
-			"hey", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"btw i gotten x2 |cffa335ee|Hitem:159424::::::::120:70::35:5:5448:1617:4786:6269:4775:::|h[Desert Guardian's Breastplate]|h|rfrom vendor before lol", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			55, -- [11]
-			"Player-1081-088B82F9", -- [12]
+			3144, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570135627,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262150,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [8]
 		{
-			"I think that's the fastest I've ever gotten a group with decent scores together", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"worst chest in the whole game for ret it has same dps as 420 chests lol", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			56, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			3145, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570135641,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262163,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [9]
 		{
-			"heey", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"Garbo I take it", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			58, -- [11]
-			"Player-1081-079A4FA4", -- [12]
+			3146, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570135653,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262166,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [10]
 		{
-			"great", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"beyond $%^&t", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			59, -- [11]
-			"Player-1385-056A2F81", -- [12]
+			3147, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570135656,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262174,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [11]
 		{
-			"u have inv pots?", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"at least it is good for PvP", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			76, -- [11]
-			"Player-1385-056A2F81", -- [12]
+			3148, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570135717,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262178,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [12]
 		{
-			"yup", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"guess its back to doing BGs", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			77, -- [11]
-			"Player-1081-088B82F9", -- [12]
+			3157, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570135740,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262212,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [13]
 		{
-			"got some yeah", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"gotta get rank 3 blood of enemy", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			78, -- [11]
-			"Player-1081-079A4FA4", -- [12]
+			3158, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570135748,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262217,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [14]
 		{
-			"saMe", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Have fun", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			79, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			3159, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570135754,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262217,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [15]
 		{
-			"I am at stone", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"Thanks for the run", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			80, -- [11]
-			"Player-1385-056A2F81", -- [12]
+			3160, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570135765,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262222,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [16]
 		{
-			"am inside", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"np", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			81, -- [11]
-			"Player-1081-088B82F9", -- [12]
+			3161, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570135773,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262226,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [17]
 		{
-			"quick bio, brb", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"And let me know if you need heals for M+", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			82, -- [11]
-			"Player-1081-088B82F9", -- [12]
+			3162, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570135782,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262230,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [18]
 		{
-			"tides emissary before 3rd boss is awkward", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"will do :d", -- [1]
+			"Zeel-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"Zeel-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			85, -- [11]
-			"Player-1081-088B82F9", -- [12]
+			3163, -- [11]
+			"Player-3391-06845313", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570135880,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Zeel|r",
+			[51] = 1571262246,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [19]
 		{
-			"rest is pretty straight fwd", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"btw arent priests in general in a sort of !@#$y spot for M+", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			86, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3173, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570135894,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262399,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [20]
 		{
-			"just a sec", -- [1]
-			"Shrivana-Ravencrest", -- [2]
+			"Lol, it feels like it", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			91, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3174, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570135949,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262413,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [21]
 		{
-			"Made you lead Capreto", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Because noone wants to bring me, haha", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			92, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3175, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570135950,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262419,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [22]
 		{
-			"So you can mark and whatnot", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"like SP is BAAAAAAD ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			93, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3176, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570135975,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262422,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [23]
 		{
-			"say when r shri", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"like really bad", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			94, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3177, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570135992,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262427,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [24]
 		{
-			"okay", -- [1]
-			"Shrivana-Ravencrest", -- [2]
+			"disc seems to be not so hot", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			95, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3182, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570135999,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262438,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [25]
 		{
-			"|cffa335ee|Hkeystone:158923:251:12:10:7:12:119|h[Keystone: The Underrot (12)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"and well Hpriest is no Rdruid", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			109, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3183, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570136135,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262445,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [26]
 		{
-			"Interrupted Devout Blood Priest's |cff71d5ff|Hspell:265084:0|h[Blood Bolt]|h|r!", -- [1]
-			"Greonz-AeriePeak", -- [2]
-			"Common", -- [3]
+			"Great for Raiding", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			111, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3184, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570136140,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262446,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [27]
 		{
-			"skip next", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"nerfed in 8.3", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			120, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3185, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570136166,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262454,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [28]
 		{
-			"sure", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"Or HPally", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			121, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3186, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570136177,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262454,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [29]
 		{
-			"cd", -- [1]
-			"Shrivana-Ravencrest", -- [2]
+			"RDruid and HPally reign again", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			122, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3187, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570136182,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262465,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [30]
 		{
-			"how lond?", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"Hpala is !@#$ for grevious ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			123, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3188, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570136189,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262469,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [31]
 		{
-			"2", -- [1]
-			"Shrivana-Ravencrest", -- [2]
+			"otherwise they are fine", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			124, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3190, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570136192,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262487,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [32]
 		{
-			"1", -- [1]
-			"Shrivana-Ravencrest", -- [2]
+			"yeah, i meant overall", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			125, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3191, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570136198,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262495,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [33]
 		{
-			"nm htne", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"oh", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			126, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3192, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570136199,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262501,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [34]
 		{
-			"i mean", -- [1]
-			"Shrivana-Ravencrest", -- [2]
+			"overall Hpala is smashing healing if u are looking at raiding and in even pvp if u compare to disc ptiests", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			127, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3199, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570136199,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262523,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [35]
 		{
-			"1", -- [1]
-			"Shrivana-Ravencrest", -- [2]
+			"glimmer is OP for raids ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			128, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3200, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570136202,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262534,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [36]
 		{
-			"long way", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"busted", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			145, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3202, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570136325,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262536,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [37]
 		{
-			"its good", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"Yup", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			146, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3203, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570136332,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262550,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [38]
 		{
-			"ress hik please", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"nerfed in 8.3", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			153, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3204, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570136386,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262555,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [39]
 		{
-			"care", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"cAp of 8 targets", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			175, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3205, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570136488,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262561,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [40]
 		{
-			"Interrupted Diseased Lasher's |cff71d5ff|Hspell:278961:0|h[Decaying Mind]|h|r!", -- [1]
-			"Greonz-AeriePeak", -- [2]
-			"Common", -- [3]
+			"Ye ", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			176, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3206, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570136508,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262568,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [41]
 		{
-			"<purple", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"i saw", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			177, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3207, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570136522,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262570,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [42]
 		{
-			"Interrupted Diseased Lasher's |cff71d5ff|Hspell:278961:0|h[Decaying Mind]|h|r!", -- [1]
-			"Greonz-AeriePeak", -- [2]
-			"Common", -- [3]
+			"SP as I said also badly nerfed", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			178, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3208, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570136523,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262577,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [43]
 		{
-			"Interrupted Diseased Lasher's |cff71d5ff|Hspell:278961:0|h[Decaying Mind]|h|r!", -- [1]
-			"Greonz-AeriePeak", -- [2]
-			"Common", -- [3]
+			"think 8,3 is gone fury warrior", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			194, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3209, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570136630,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262584,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [44]
 		{
-			"!@#$", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"but ye with M+ SP is bad they cant do good dps and do affixes msot of the time ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			199, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3215, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570136660,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262600,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [45]
 		{
-			"Casting mass resurrection!", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"*.3 is nerfing multidotters", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			200, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3216, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570136664,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262600,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [46]
 		{
-			"sorry", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"afaik'", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			201, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3217, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570136665,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262602,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [47]
 		{
-			"boss", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"meaning they are useless", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			249, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3221, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570136827,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262615,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [48]
 		{
-			"hehe forgot hero :)", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"destro locks have the same issue ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			264, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3223, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570136961,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262640,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [49]
 		{
-			"np", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			":S", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			265, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3224, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570136967,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262641,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [50]
 		{
-			"maybe use it on next pack", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"they need to balance specs alot more", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			272, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3230, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137012,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262677,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [51]
 		{
-			"let me taunt tide", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"they made it so hard to run alts now with essances taking months to get ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			274, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3232, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570137029,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262689,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [52]
 		{
-			"horror", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"my rogue is still 2 weeks away from having most of its good essances at rank 3 ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			279, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3233, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137064,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262710,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [53]
 		{
-			"and void", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"Yeah, essences not being accountwide is a big complaint I've seen", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			281, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3234, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570137077,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262712,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [54]
 		{
-			"wipe ir", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"its huge ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			288, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3236, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137087,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262730,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [55]
 		{
-			"got the bad stuff down", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"tbh been considering rerolling to my rogue for M+ its so much easier to play and on top of that has way more utility ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			292, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3241, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137100,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262762,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [56]
 		{
-			"Upheaval on Greonz", -- [1]
-			"Greonz-AeriePeak", -- [2]
-			"Common", -- [3]
+			"Shroud ftw", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			324, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3242, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570137265,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262784,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [57]
 		{
-			"Upheaval on Shrivana", -- [1]
-			"Shrivana-Ravencrest", -- [2]
-			"Common", -- [3]
+			"Tricks", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			325, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3243, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570137265,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262786,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [58]
 		{
-			"3", -- [1]
-			"Greonz-AeriePeak", -- [2]
-			"Common", -- [3]
+			"its everything", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			326, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3250, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570137268,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262809,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [59]
 		{
-			"3", -- [1]
-			"Shrivana-Ravencrest", -- [2]
-			"Common", -- [3]
+			"outlaw is not even a real melee", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			327, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3253, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570137268,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262815,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [60]
 		{
-			"2", -- [1]
-			"Greonz-AeriePeak", -- [2]
-			"Common", -- [3]
+			"8yard rangee ", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			328, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3254, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570137269,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262819,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [61]
 		{
-			"2", -- [1]
-			"Shrivana-Ravencrest", -- [2]
-			"Common", -- [3]
+			"ftw", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			329, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3255, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570137269,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262820,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [62]
 		{
-			"1", -- [1]
-			"Greonz-AeriePeak", -- [2]
-			"Common", -- [3]
+			"oh yeah", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			330, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3261, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570137270,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262835,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [63]
 		{
-			"1", -- [1]
-			"Shrivana-Ravencrest", -- [2]
-			"Common", -- [3]
+			"like u know arena boss in FH? I can dps the boss while it does its WW attack and take 0 dmg", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			331, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3264, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570137270,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262850,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [64]
 		{
-			"sklip rest", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"its insnae", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			338, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3266, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137346,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262852,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [65]
 		{
-			"priest", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"u gotta rememeber even ur kick and !@#$ ahs 8yard range", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			346, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3270, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137438,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262862,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [66]
 		{
-			"mmm", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"so good", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			347, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3271, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570137444,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262864,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [67]
 		{
-			"now", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"O.o", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			348, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3273, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570137448,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262873,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [68]
 		{
-			"1 mob was left lol", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"That's ridiculous", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			349, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3274, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137452,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262877,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [69]
 		{
-			":P", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"like now as well sangiuine u can just dance around the pools no dmg and max dps", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			350, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3275, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137452,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262879,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [70]
 		{
-			"I dont know", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"look at FH some weeks rogue can solo event as well", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			351, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3277, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570137453,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262904,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [71]
 		{
-			"didn't see the pull there", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"in TD u can open stuff and then tricks in cannons so tank can just LoS ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			352, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3281, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570137458,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571262916,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [72]
 		{
-			"stack on me, will be in middle and always move left", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"good game", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			353, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3283, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137460,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262918,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [73]
 		{
-			"Cleansing Light on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"waht does ret have ? blessing? they nerfed both of them many times already lol", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			412, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3287, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137539,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571262948,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [74]
 		{
-			"Thank you for travelling with ElitismHelper. Amount of failure damage:", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"u also got stuff like shrine skips", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			476, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3298, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137587,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262994,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [75]
 		{
-			"1. Shrivana-Ravencrest 131.8k", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"u know water ele ?", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			477, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3300, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137587,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571262997,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [76]
 		{
-			"2. Greonz 155.2k", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"DO I know him, lol", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			478, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3302, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137587,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263011,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [77]
 		{
-			"3. Mallusof-Silvermoon 216.3k", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"the guy that stuns me for 5 secs and kills everyone meanwhile:", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			479, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3303, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137587,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263023,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [78]
 		{
-			"4. Benedíctus-Minahonda 543.2k", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			":P", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			480, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3304, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137587,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263024,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [79]
 		{
-			"5. Capretto 854.7k", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"hu? its on the way to 2nd boss", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			481, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3306, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137587,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263040,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [80]
 		{
-			"New Keystone: |cffa335ee|Hkeystone:158923:245:14:10:7:12:119|h[Keystone: Freehold (14)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Oh, other water ele", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			482, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3311, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137588,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263065,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [81]
 		{
-			"gj :)", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"brigde part u can vanish ---> hook on rogue and not even miss a beat on the trash ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			485, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3312, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137594,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263070,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [82]
 		{
-			"How much did we miss it by?", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"wait the bridge guy?", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			490, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3313, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137603,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263071,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [83]
 		{
-			"a couple of seconds?", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"when ppl run to the otherside", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			492, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3314, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137606,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263075,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [84]
 		{
-			"|cffa335ee|Hkeystone:158923:245:14:10:7:12:119|h[Keystone: Freehold (14)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"other classes get !@#$ed easily but not rogue", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			496, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3318, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137610,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263104,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [85]
 		{
-			"10 secs maybe", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"Well, this is how I feel about REDruid, lol", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			497, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3338, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137611,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263174,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [86]
 		{
-			"13secs", -- [1]
-			"Greonz-AeriePeak", -- [2]
+			"ye but i dont even know why ppl take me on my ret apart from that I actually know my classs lawls ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Greonz-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			498, -- [11]
-			"Player-1081-079A4FA4", -- [12]
-			0, -- [13]
+			3347, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Greonz-AeriePeak|r",
-			[51] = 1570137612,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263197,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [87]
 		{
-			"aww", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Divine Storm AoE can be insane", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			499, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3355, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137614,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263211,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [88]
 		{
-			"warrior? |cffa335ee|Hitem:159436::::::::120:66::16:3:5010:1602:4786:::|h[Fluorescent Flora Stompers]|h|r", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"Bubble", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			500, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3368, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137617,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263236,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [89]
 		{
-			"oh well", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"its all based on CDs and stacking x3 |Hspell:286229:0|h[Light's Decree]|h", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			501, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3370, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137617,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263237,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [90]
 		{
-			"ty4run", -- [1]
-			"Shrivana-Ravencrest", -- [2]
+			"tahts why my dps is usally 3-7k more on fortifed weeks than it was this run", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shrivana-Ravencrest", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			502, -- [11]
-			"Player-1329-06BF51E2", -- [12]
-			0, -- [13]
+			3386, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cShrivana-Ravencrest|r",
-			[51] = 1570137619,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263278,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [91]
 		{
-			"|cffa335ee|Hitem:159253::::::::120:258::16:4:5010:4802:1602:4786:::|h[Guantes de heridas restañadas]|h|r qnt it?", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"oh ye", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			503, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3391, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570137622,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263321,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [92]
 		{
-			"want?", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"rogue can stand in aoe", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			504, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3393, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570137627,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263325,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [93]
 		{
-			"no ty :)", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"u can use feint", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			505, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3394, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137629,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263328,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [94]
 		{
-			"ok", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"40% less aoe dmg", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			507, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3396, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570137633,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263332,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [95]
 		{
-			"cheers!", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"15 sec cd", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			508, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3397, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137636,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263334,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [96]
 		{
-			"ty all", -- [1]
-			"Benedíctus-Minahonda", -- [2]
+			"haha", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Benedíctus-Minahonda", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			509, -- [11]
-			"Player-1385-056A2F81", -- [12]
-			0, -- [13]
+			3398, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeBenedíctus-Minahonda|r",
-			[51] = 1570137639,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263335,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [97]
 		{
-			"thx all :)", -- [1]
-			"Capretto-AeriePeak", -- [2]
+			"yeah Feint, I forgot", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Capretto-AeriePeak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			510, -- [11]
-			"Player-1081-088B82F9", -- [12]
-			0, -- [13]
+			3400, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Capretto-AeriePeak|r",
-			[51] = 1570137640,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263353,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [98]
 		{
-			"hi", -- [1]
-			"Blackhnt-Garona", -- [2]
+			"!@#$ you're right", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Blackhnt-Garona", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			599, -- [11]
-			"Player-509-07857F34", -- [12]
-			0, -- [13]
+			3401, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Blackhnt-Garona|r",
-			[51] = 1570137928,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263356,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [99]
 		{
-			"Hi :)", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"the amount of utility", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			600, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3402, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570137937,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263360,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [100]
 		{
-			"hello headless is on classic or wow ", -- [1]
-			"Congpow-Aszune", -- [2]
+			"u can also sap certian packs and skip them ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Congpow-Aszune", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			602, -- [11]
-			"Player-3666-057D74B7", -- [12]
-			0, -- [13]
+			3406, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Congpow-Aszune|r",
-			[51] = 1570137942,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263400,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [101]
 		{
-			"New Keystone: |cffa335ee|Hkeystone:158923:245:14:10:7:12:119|h[Keystone: Freehold (14)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"with rogue ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			773, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3407, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570138456,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263404,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [102]
 		{
-			"thx Gn :)", -- [1]
-			"Blackhnt-Garona", -- [2]
+			"since sap is spcial CC when it ends the mob dont go into combat", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Blackhnt-Garona", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			930, -- [11]
-			"Player-509-07857F34", -- [12]
-			0, -- [13]
+			3410, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Blackhnt-Garona|r",
-			[51] = 1570138875,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263416,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [103]
 		{
-			"do you know if hallows end is on classic", -- [1]
-			"Congpow-Aszune", -- [2]
+			"eve when u run past them", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Congpow-Aszune", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			952, -- [11]
-			"Player-3666-057D74B7", -- [12]
-			0, -- [13]
+			3414, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Congpow-Aszune|r",
-			[51] = 1570138974,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263423,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [104]
 		{
-			"cheers!", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"yhea", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1092, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3424, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570139461,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263510,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [105]
 		{
-			"Hello :)", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Rogues are ridiculous atm", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			12, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3428, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392773,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263515,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [106]
 		{
-			"!keys", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"if I was rogue full time with my skillset as I have on paladin i would be 1800+", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			13, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3429, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392777,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263516,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [107]
 		{
-			"|cffa335ee|Hkeystone:158923:247:13:10:7:12:119|h[Schlüsselstein: Das RIESENFLÖZ!! (13)]|h|r", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
+			"I agree. Reroll next seasoon :)", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			14, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3443, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570392777,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263606,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [108]
 		{
-			"|cffa335ee|Hkeystone:158923:245:14:10:7:12:119|h[Keystone: Freehold (14)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"naaa plan on unsubbing if they dont make esssances accountwide", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			15, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3445, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392777,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263634,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [109]
 		{
-			"Hi!", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
+			"They wont", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			16, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3454, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570392779,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263645,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [110]
 		{
-			"I'm still recovering from a cold, so I'm not sure how good I'll be today at tanking", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
+			"I know that for a fact :)", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			19, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3457, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570392807,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263650,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [111]
 		{
-			"Wanna do the +14 Freehold I have?", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"guess i unsub them ", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			28, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3467, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392845,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263664,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [112]
 		{
-			"Oh ok", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"then*", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			32, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3472, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392863,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "Zeel",
+			[51] = 1571263667,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [113]
 		{
-			"If you want to, sure", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
+			"gone go back to the other MMO I was playing before i came back to WoW", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			33, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3486, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570392865,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263695,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [114]
 		{
-			"Oh ok", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"FF15?", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			35, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3488, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392866,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263711,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [115]
 		{
-			"If yu're not up for it, I'll find someone else?", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"no", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			37, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3490, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392879,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263719,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [116]
 		{
-			"But I can't guarantee an in-time run :-)", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
+			"BDO", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			39, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3491, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570392886,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263719,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [117]
 		{
-			"I wouldn't mind going to bed early, but I thought I'd come at least online so that you know that I'm not feeling too well", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
+			"FF14 sucks", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			44, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3494, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570392927,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "Zeel",
+			[51] = 1571263731,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [118]
 		{
-			"If you're not feeling well, that's ok :) We'll do keys when you're back on top", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"i played it", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			45, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3495, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392932,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263735,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [119]
 		{
-			"Yeah, thaks for letting me know :)", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"i rather not play games ever again", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			46, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3498, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392940,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263757,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [120]
 		{
-			"Sleep tighht then :)", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"thatn play it", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			47, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			3499, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1570392945,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "Zeel",
+			[51] = 1571263759,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [121]
 		{
-			"Hey bud! Wanna tank a +14 Freehold?", -- [1]
-			"Bagidi-Silvermoon", -- [2]
+			"strong statement", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bagidi-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			57, -- [11]
-			"Player-3391-0A6FAE2A", -- [12]
-			0, -- [13]
+			3502, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Bagidi|r",
-			[51] = 1570393006,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "Zeel",
+			[51] = 1571263792,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [122]
 		{
-			"I hope that I'm better on tuesday, and I also have a free evening then, so if you want to we could try doing something then", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
+			"anyways", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			59, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3504, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570393014,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "Zeel",
+			[51] = 1571263807,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [123]
 		{
-			"hopefulyl! I'll see if I'm free :)", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			60, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570393029,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [124]
-		{
-			"ok, then have a nice evening! and good night :-)", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
+			"Imma go to bed", -- [1]
+			"|Kq12|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			63, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3505, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570393057,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "Zeel",
+			[51] = 1571263810,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
+		}, -- [124]
+		{
+			"nn :P", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3507, -- [11]
+			false, -- [12]
+			19, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Zeel",
+			[51] = 1571263815,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Zeel",
 		}, -- [125]
 		{
-			"cheers!", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
-			"Common", -- [3]
+			"Hope to do more dungeons before you unsub :P", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			64, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3509, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570393064,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "Zeel",
+			[51] = 1571263820,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [126]
 		{
-			"feel better :)", -- [1]
-			"Nashira-DerRatvonDalaran", -- [2]
-			"Common", -- [3]
+			"nn", -- [1]
+			"|Kq12|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Nashira-DerRatvonDalaran", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			65, -- [11]
-			"Player-1327-050599A4", -- [12]
-			0, -- [13]
+			3510, -- [11]
+			false, -- [12]
+			19, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nashira-DerRatvonDalaran|r",
-			[51] = 1570393071,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "Zeel",
+			[51] = 1571263821,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zeel",
 		}, -- [127]
 	},
 }

@@ -1,10 +1,12 @@
 local addon = FGI
 local fn = addon.functions
-local L = addon.L
+local L = FGI:GetLocale()
 local interface = addon.interface
 local settings = L.settings
 local Console = LibStub("AceConsole-3.0")
 local GUI = LibStub("AceGUI-3.0")
+local AceSerializer = LibStub("AceSerializer-3.0")
+local libc = LibStub:GetLibrary("LibCompress")
 local FastGuildInvite = addon.lib
 local DB = addon.DB
 local debugDB = addon.debugDB
@@ -69,14 +71,16 @@ local PopupUnits = {}
 UnitPopupButtons["BLACKLIST"] = { text = "FGI - Black List"}
 UnitPopupButtons["GUILD_INVITE"] = { text = "FGI - Guild Invite"}
 
-for i,UPMenus in pairs(UnitPopupMenus) do
-	for j=1, #UPMenus do
-		if UPMenus[j] == "WHISPER" then
-		  PopupUnits[#PopupUnits + 1] = i
-		  pos = j + 1
-		  table.insert( UnitPopupMenus[i] ,pos , "BLACKLIST" )
-		  table.insert( UnitPopupMenus[i] ,j , "GUILD_INVITE" )
-		  break
+local function addMenuButtons()
+	for i,UPMenus in pairs(UnitPopupMenus) do
+		for j=1, #UPMenus do
+			if UPMenus[j] == "WHISPER" then
+				PopupUnits[#PopupUnits + 1] = i
+				pos = j + 1
+				table.insert( UnitPopupMenus[i] ,pos , "BLACKLIST" )
+				table.insert( UnitPopupMenus[i] ,j , "GUILD_INVITE" )
+				break
+			end
 		end
 	end
 end
@@ -108,12 +112,12 @@ frame:SetScript("OnEvent", function(_,_, msg,_,_,_,name,...)
 		return true, n, r
 	end
 	
-	if name == UnitName("Player") then print("player -> return")end
+	if name == UnitName("Player") then print("player -> exit")end
 	if not msg:find("^!") then return end
 	if msg:find("^!fgi") then
-		for i=4,#L.FAQ.help2 do
-			SendChatMessage(" "..L.FAQ.help2[i] , "OFFICER",  GetDefaultLanguage("player"))
-		end
+		SendChatMessage(" "..L.blacklistAdd , "OFFICER",  GetDefaultLanguage("player"))
+		SendChatMessage(" "..L.blacklistDelete , "OFFICER",  GetDefaultLanguage("player"))
+		SendChatMessage(" "..L.blacklistGetList , "OFFICER",  GetDefaultLanguage("player"))
 	elseif msg:find("^!blacklistAdd") then
 		msg = msg:gsub("!blacklistAdd ", '')
 		local b,n,r = isCorrect(msg)
@@ -135,11 +139,12 @@ end)
 
 function addon.dataBroker.OnTooltipShow(GameTooltip)
 	local search = addon.search
-	GameTooltip:SetText(format(L.FAQ.help.minimap,#search.inviteList, interface.scanFrame.progressBar:GetProgress()), 1, 1, 1)
+	GameTooltip:SetText(format(L.minimap,#search.inviteList, interface.scanFrame.progressBar:GetProgress()), 1, 1, 1)
 end
 
 
 function FastGuildInvite:OnEnable()
+	if DB.global.createMenuButtons then addMenuButtons() end
 	addon.debug = DB.global.debug
 	fn:blackListAutoKick()
 	local parent = interface.settings.filters.content.filtersFrame
@@ -251,7 +256,12 @@ local defaultSettings =  {
 		clearDBtimes = 3,
 		minimap = {hide = false},
 		debug = false,
-		security = {blacklist = true, sended = true}
+		security = {blacklist = true, sended = true},
+		addonMSG = false,
+		rememberAll = false,
+		queueNotify = true,
+		searchAlertNotify = true,
+		createMenuButtons = true,
 	},
 } 
 
@@ -283,6 +293,11 @@ function FastGuildInvite:OnInitialize()
 		DB.realm.messageList = DB.global.messageList
 		DB.global.messageList = nil
 	end
+	if DB.realm.messageList[0] then
+		table.insert(DB.realm.messageList, DB.realm.messageList[0])
+		DB.realm.messageList[0] = nil
+		DB.realm.curMessage = 1
+	end
 	if DB.global.alredySended then
 		DB.realm.alreadySended = DB.global.alredySended
 		DB.global.alredySended = nil
@@ -305,7 +320,7 @@ function FastGuildInvite:OnInitialize()
 	end
 
 	
-	icon:Register("FGI", addon.dataBroker, DB.minimap)
+	icon:Register("FGI", addon.dataBroker, DB.global.minimap)
 	fn:initDB()
 end
 
@@ -345,7 +360,7 @@ function Console:FGIAddBlackList(str)
 		if not b then return end
 		fn:blackList(n,r)
 		interface.blackList:add({name=n,reason=r})
-		SendChatMessage(format("%s %s - %s", format(L.interface["Игрок %s добавлен в черный список."], n), L.interface["Причина"], r) , "OFFICER",  GetDefaultLanguage("player"))
+		SendChatMessage(format("%s %s - %s", format(L["Игрок %s добавлен в черный список."], n), L["Причина"], r) , "OFFICER",  GetDefaultLanguage("player"))
 	end
 end
 
@@ -378,50 +393,22 @@ function Console:FGIInput(str)
 		toggleDebug()
 	elseif str == 'resetDB' then DB.realm.alreadySended = {}
 	elseif str == 'resetWindowsPos' then
-		fn:resetWindowsPos()
 		interface.mainFrame:ClearAllPoints()
-		interface.gratitudeFrame:ClearAllPoints()
 		interface.scanFrame:ClearAllPoints()
-		interface.settingsFrame:ClearAllPoints()
-		interface.filtersFrame:ClearAllPoints()
-		interface.addfilterFrame:ClearAllPoints()
-		interface.messageFrame:ClearAllPoints()
 		interface.chooseInvites:ClearAllPoints()
-		interface.blackList:ClearAllPoints()
 		
 		interface.mainFrame:SetPoint("CENTER", UIParent)
-		interface.gratitudeFrame:SetPoint("CENTER", UIParent)
 		interface.scanFrame:SetPoint("CENTER", UIParent)
-		interface.settingsFrame:SetPoint("CENTER", UIParent)
-		interface.filtersFrame:SetPoint("CENTER", UIParent)
-		interface.addfilterFrame:SetPoint("CENTER", UIParent)
-		interface.messageFrame:SetPoint("CENTER", UIParent)
 		interface.chooseInvites:SetPoint("CENTER", UIParent)
-		interface.blackList:SetPoint("CENTER", UIParent)
 		
 		local point, relativeTo,relativePoint, xOfs, yOfs = interface.mainFrame.frame:GetPoint(1)
-		DB.mainFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
+		DB.global.mainFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
 		
 		point, relativeTo,relativePoint, xOfs, yOfs = interface.scanFrame.frame:GetPoint(1)
-		DB.scanFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
-		
-		point, relativeTo,relativePoint, xOfs, yOfs = interface.settingsFrame.frame:GetPoint(1)
-		DB.settingsFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
-		
-		point, relativeTo,relativePoint, xOfs, yOfs = interface.filtersFrame.frame:GetPoint(1)
-		DB.filtersFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
-		
-		point, relativeTo,relativePoint, xOfs, yOfs = interface.addfilterFrame.frame:GetPoint(1)
-		DB.addfilterFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
-		
-		point, relativeTo,relativePoint, xOfs, yOfs = interface.messageFrame.frame:GetPoint(1)
-		DB.messageFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
+		DB.global.scanFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
 		
 		point, relativeTo,relativePoint, xOfs, yOfs = interface.chooseInvites.frame:GetPoint(1)
-		DB.chooseInvites = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
-		
-		point, relativeTo,relativePoint, xOfs, yOfs = interface.blackList.frame:GetPoint(1)
-		DB.blackListPos = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
+		DB.global.chooseInvites = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
 		
 		C_UI.Reload()
 	elseif str == "factorySettings" then
@@ -431,19 +418,23 @@ end
 
 function Console:FGIHelp()
 	print("|cffffff00<|r|cff16ABB5FGI|r|cffffff00>|r Help")
-	print(L.FAQ.help.show)
-	print(L.FAQ.help.resetDB)
-	print(L.FAQ.help.factorySettings)
-	print(L.FAQ.help.resetWindowsPos)
-	print(L.FAQ.help.invite)
-	print(L.FAQ.help.nextSearch)
-	print(L.FAQ.help.blacklist)
-	print(L.FAQ.help.help2)
+	print(L.show)
+	print(L.resetDB)
+	print(L.factorySettings)
+	print(L.resetWindowsPos)
+	print(L.invite)
+	print(L.nextSearch)
+	print(L.blacklist)
+	print(L.help2)
 end
 
 function Console:FGIHelp2()
 	print("|cffffff00<|r|cff16ABB5FGI|r|cffffff00>|r Help2")
-	for i=1, #L.FAQ.help2 do
-		print(L.FAQ.help2[i])
-	end
+	print(L.intro)
+	print(L.commandList)
+	print(L.fgi)
+	print(L.blacklistAdd)
+	print(L.blacklistDelete)
+	print(L.blacklistGetList)
+	
 end

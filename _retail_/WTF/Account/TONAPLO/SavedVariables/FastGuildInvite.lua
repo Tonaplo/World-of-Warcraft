@@ -1,34 +1,17 @@
 
 FGI_DB = {
-	["realm"] = {
-		["Silvermoon"] = {
-			["messageList"] = {
-				"Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!", -- [1]
-			},
-			["filtersList"] = {
-				["high level"] = {
-					["lvlRange"] = "110:120",
-					["letterFilter"] = false,
-					["classFilter"] = false,
-					["filterByName"] = false,
-					["raceFilter"] = false,
-					["filterOn"] = true,
-					["filteredCount"] = 0,
-				},
-			},
-		},
-	},
 	["profileKeys"] = {
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Jaletta - Auchindoun"] = "Jaletta - Auchindoun",
 		["Kenne - Auchindoun"] = "Kenne - Auchindoun",
+		["Burdett - Silvermoon"] = "Default",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
-		["Glora - Auchindoun"] = "Glora - Auchindoun",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
-		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
+		["Glora - Auchindoun"] = "Glora - Auchindoun",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Welor - Auchindoun"] = "Welor - Auchindoun",
@@ -52,24 +35,41 @@ FGI_DB = {
 		["minimap"] = {
 			["minimapPos"] = 194.1576666062499,
 		},
-		["backgroundRun"] = true,
+		["searchInterval"] = 5,
 		["sendMSG"] = true,
 		["customWho"] = false,
+		["backgroundRun"] = true,
 		["curMessage"] = 1,
+		["SearchType"] = 1,
+		["rememberAll"] = true,
+		["classFilterVal"] = 121,
 		["mainFrame"] = {
 			["yOfs"] = 185.0002136230469,
 			["xOfs"] = -13.0000524520874,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
-		["SearchType"] = 1,
-		["rememberAll"] = true,
-		["classFilterVal"] = 121,
-		["searchInterval"] = 5,
 		["systemMSG"] = false,
 		["enableFilters"] = false,
 		["inviteType"] = 3,
-		["addonMSG"] = false,
+	},
+	["realm"] = {
+		["Silvermoon"] = {
+			["messageList"] = {
+				"Hey there! Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!", -- [1]
+			},
+			["filtersList"] = {
+				["high level"] = {
+					["lvlRange"] = "110:120",
+					["letterFilter"] = false,
+					["classFilter"] = false,
+					["filterByName"] = false,
+					["filteredCount"] = 0,
+					["filterOn"] = true,
+					["raceFilter"] = false,
+				},
+			},
+		},
 	},
 }
 FGI_DEBUG = {
@@ -78,10 +78,11 @@ FGI_DEBUG = {
 		["Kenne - Auchindoun"] = "Kenne - Auchindoun",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Glora - Auchindoun"] = "Glora - Auchindoun",
+		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
+		["Glora - Auchindoun"] = "Glora - Auchindoun",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Welor - Auchindoun"] = "Welor - Auchindoun",

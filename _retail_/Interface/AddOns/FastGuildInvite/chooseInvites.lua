@@ -1,6 +1,6 @@
 local addon = FGI
 local fn = addon.functions
-local L = addon.L
+local L = FGI:GetLocale()
 local settings = L.settings
 local size = settings.size
 local color = addon.color
@@ -38,12 +38,12 @@ chooseInvites.title:SetScript('OnMouseUp', function(mover)
 	status.left = frame:GetLeft()
 	
 	local point, relativeTo,relativePoint, xOfs, yOfs = chooseInvites.frame:GetPoint(1)
-	DB.chooseInvites = {}
-	DB.chooseInvites.point=point
-	DB.chooseInvites.relativeTo=relativeTo
-	DB.chooseInvites.relativePoint=relativePoint
-	DB.chooseInvites.xOfs=xOfs
-	DB.chooseInvites.yOfs=yOfs
+	DB.global.chooseInvites = {}
+	DB.global.chooseInvites.point=point
+	DB.global.chooseInvites.relativeTo=relativeTo
+	DB.global.chooseInvites.relativePoint=relativePoint
+	DB.global.chooseInvites.xOfs=xOfs
+	DB.global.chooseInvites.yOfs=yOfs
 end)
 
 chooseInvites.closeButton = GUI:Create('Button')
@@ -69,7 +69,7 @@ chooseInvites:AddChild(frame)
 
 chooseInvites.invite = GUI:Create("Button")
 local frame = chooseInvites.invite
-frame:SetText(L.interface["Пригласить"])
+frame:SetText(L["Пригласить"])
 -- fontSize(frame.text)
 btnText(frame)
 frame:SetWidth(size.invite)
@@ -81,7 +81,7 @@ chooseInvites:AddChild(frame)
 
 chooseInvites.reject = GUI:Create("Button")
 local frame = chooseInvites.reject
-frame:SetText(L.interface["Отклонить"])
+frame:SetText(L["Отклонить"])
 -- fontSize(frame.text)
 btnText(frame)
 frame:SetWidth(size.reject)
@@ -100,9 +100,9 @@ local frame = CreateFrame('Frame')
 frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
 	DB = addon.DB
-	if DB.chooseInvites then
+	if DB.global.chooseInvites then
 		interface.chooseInvites:ClearAllPoints()
-		interface.chooseInvites:SetPoint(DB.chooseInvites.point, UIParent, DB.chooseInvites.relativePoint, DB.chooseInvites.xOfs, DB.chooseInvites.yOfs)
+		interface.chooseInvites:SetPoint(DB.global.chooseInvites.point, UIParent, DB.global.chooseInvites.relativePoint, DB.global.chooseInvites.xOfs, DB.global.chooseInvites.yOfs)
 	else
 		interface.chooseInvites:SetPoint("CENTER", UIParent)
 	end

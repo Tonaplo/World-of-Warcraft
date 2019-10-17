@@ -1,28 +1,6 @@
--- if not(GetLocale() == "deDE") then
-  -- return
--- end
-
-local L = {
-	["FAQ"] = {
-		["help"] = {
-			["factorySettings"] = "Werkseinstellungen",
-		},
-		["error"] = {
-		}
-	},
-	["interface"] = {
-		["Да"] = "Ja",
-		["tooltip"] = {
-		},
-		["invType"] = {
-		}
-	},
-	["SYSTEM"] = {
-		["c-"] = "c-",
-		["r-"] = "r-",
-	}
-}
-
-
-
-FGI.L["deDE"] = L
+FGI.L.deDE = {}
+local L = FGI.L.deDE
+L["c-"] = "c-"
+L["factorySettings"] = "Werkseinstellungen"
+L["r-"] = "r-"
+L["Да"] = "Ja"

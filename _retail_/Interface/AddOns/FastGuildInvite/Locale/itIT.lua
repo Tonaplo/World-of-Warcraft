@@ -1,8 +1,2 @@
--- if not(GetLocale() == "itIT") then
-  -- return
--- end
-
-local L = {}
-
-
-FGI.L["itIT"] = L
+FGI.L.itIT = {}
+local L = FGI.L.itIT

@@ -1,8 +1,2 @@
--- if not(GetLocale() == "ptBR") then
-  -- return
--- end
-
-local L = {}
-
-
-FGI.L["ptBR"] = L
+FGI.L.ptBR = {}
+local L = FGI.L.ptBR

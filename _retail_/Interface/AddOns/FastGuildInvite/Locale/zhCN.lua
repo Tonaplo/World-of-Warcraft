@@ -1,124 +1,211 @@
--- if not(GetLocale() == "enUS") then
-  -- return
--- end
-local L = {
-	["FAQ"] = {
-		["help"] = {
-			["factorySettings"] = "/fgi factorySettings - Full reset of the addon database",
-			["filter"] = "LMB-enable/disable\nRMB-change\nShift+LMB-delete\n\n",
-			["filterTooltip"] = "Filter Name:%s\nstatus:%s\nfilter by Name:%s\nlevel range:%s\nrepeat filter in name:%d:%d\nclasses:%s\nrace:%s\nnumber of filter triggers:%d",
-			["minimap"] = "LMB-invite\nRMB-Open main window\nShift+:LMB-Pause/continue\n\nQueue:%d\nprogress:%s",
-			["resetDB"] = "/fgi resetDB - Clear the list of sent invitations.",
-			["resetWindowsPos"] = "/fgi resetWindowsPos - Reset the position of the window(s).",
-			["show"] = "/fgi show - Open the main window of the addon",
-			["invite"] = "/fgi invite - Invite the first player from the queue",
-			["nextSearch"] = "/fgi nextSearch - Run next scan",
-		},
-		["error"] = {
-			["Вы не состоите в гильдии или у вас нет прав для приглашения."] = "You are not a member of the guild or you do not have permission to invite.",
-			["Выберите сообщение"] = "Select message",
-			["Максимальное количество фильтров %s. Пожалуйста измените или удалите имеющийся фильтр."] = "The maximum number of filters %s. Please change or remove existing filter.",
-			["Нельзя добавить пустое сообщение"] = "Cannot add empty message",
-			["Нельзя сохранить пустое сообщение"] = "Cannot save empty message",
-			["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"] = "Search returned 50 or more results, it is recommended to change the search settings. Query: %s",
-			["Превышен лимит символов. Максимальная длина сообщения 255 символов. Длина сообщения превышена на %d"] = "Character limit exceeded. The maximum message length is 255 characters. Message length exceeded by %d",
-			["Сочетание клавиш уже занято"] = "Keyboard shortcut busy",
-		}
-	},
-	["interface"] = {
-		["Включен"] = "Included",
-		["Черный список"] = "Blacklist",
-		["Включить фильтры"] = "Enable filters",
-		["Выбрать приглашения"] = "Choose invitations",
-		["Выключен"] = "Switched off",
-		["Выключить отправляемые сообщения"] = "Disable sent messages",
-		["Выключить системные сообщения"] = "Turn off system messages",
-		["Выключить сообщения аддона"] = "Disable addon messages",
-		["Да"] = "Yes",
-		["Диапазон уровней"] = "Level range",
-		["Диапазон уровней (Мин:Макс)"] = "Level Range (Min: Max)",
-		["Для изменения значений используйте колесо мыши"] = "Use the mouse wheel to change the values.",
-		["Добавить"] = "Add",
-		["Добавить фильтр"] = "Add filter",
-		["Запускать в фоновом режиме"] = "Run in the background",
-		["Игнорировать"] = "Ignore",
-		["Игрок не добавлен в список исключений."] = "The player is not added to the exceptions list.",
-		["Имя фильтра"] = "Filter name",
-		["Имя фильтра занято"] = "Filter name is busy",
-		["Имя фильтра не может быть пустым"] = "Filter name cannot be empty",
-		["Интервал"] = "Interval",
-		["Классы:"] = "Classes:",
-		["Количество ошибок: %d"] = "Number of errors: %d",
-		["Нажмите на фильтр для изменения состояния"] = "Click on the filter to change the state",
-		["Назначить кнопку (%s)"] = "Assign button (%s)",
-		["Настроить сообщения"] = "Customize posts",
-		["Настройки"] = "Settings",
-		["Начать сканирование"] = "Start Scan",
-		["Не отображать значок у миникарты"] = "Do not display the minimap icon.",
-		["Неправильный шаблон"] = "Wrong template",
-		["Нет"] = "No",
-		["Обычный поиск"] = "Normal Search",
-		["Обязательное поле \"Имя фильтра\", пустые текстовые поля не используются при фильтрации."] = "Required field \"Filter name\",\nempty text boxes are not used in filtering. ",
-		["Откл."] = "Turn off",
-		["Отклонить"] = "Reject",
-		["Поле может содержать только буквы"] = "This field can only contain letters. ",
-		["Пригласить"] = "Invite",
-		["Пригласить: %d"] = "Invite: %d",
-		["Расширенное сканирование"] = "Advanced Scan",
-		["Расы:"] = "Race:",
-		["Режим приглашения"] = "Invitation mode",
-		["Сбросить"] = "Reset",
-		["Слово NAME заглавными буквами будет заменено на название вашей гильдии."] = "The word NAME in capital letters will be replaced with the name of your guild.",
-		["Сохранить"] = "Save",
-		["Текущее сообщение: %s"] = "Current message: %s",
-		["Удалить"] = "Delete",
-		["Умный поиск"] = "Smart Search",
-		["Фильтр классов начало:"] = "Class Filter Start:",
-		["Фильтр по имени"] = "Filter by name",
-		["Фильтр повторений в имени"] = "Repeat filter in Name",
-		["Фильтр рас начало:"] = "Filter start races:",
-		["Фильтры"] = "Filters",
-		["Числа должны быть больше 0"] = "Numbers must be greater than 0",
-		["Числа не могут быть меньше или равны 0. Минимальный уровень не может быть больше максимального"] = "Numbers cannot be less than or equal to 0. The minimum level cannot be greater than the maximum",
-		["Чтобы быть отфильтрованным, игрок должен соответствовать критериям ВСЕХ фильтров"] = "To be filtered, the player must meet the criteria of all filters",
-		["Запоминать всех игроков"] = "Remember all players",
-		["Игрок %s найденный в черном списке, находится в вашей гильдии!"] = "Blacklisted %s player is in your guild!",
-		["tooltip"] = {
-			["Автоматическое увеличение детализации поиска"] = "Automatically increase search details.",
-			["Введите диапазон уровней для фильтра.\nНапример: %s55%s:%s58%s\nбудут подходить только те игроки, уровень\nкоторых варьируется от %s55%s до %s58%s (включительно)"] = "Enter a range of levels for the filter.\nfor Example:%s55%s:%s58%s\nwill be approached only by those players, the level\nwhich varies from%s55%s to %s58%s (inclusive)",
-			["Введите максимальное количество последовательных\nгласных и согласных, которое может содержать имя игрока.\nНапример: %s3%s:%s5%s\nБудет означать, что игроки с более чем %s3%s гласными подряд\nили более %s5%s согласными подряд не будут добавлены в очередь."] = "Enter the maximum number of consecutive\nvowels and consonants that may contain the player's name.\nfor Example:%s3%s:%s5%s\nwill mean that players with more than%s3%s vowels in a row\nor more%s5%s consonants will not be added to Queue.",
-			["Дополнительные настройки сканирования"] = "Advanced Scan Settings",
-			["Если имя игрока содержит введенную\nфразу, он не будет добавлен в очередь"] = "If the player name contains the entered\nphrase, it will not be added to the queue",
-			["Запускать поиск в фоновом режиме"] = "Run a background search",
-			["Количество уровней сканируемых за один раз"] = "Number of levels scanned at one time",
-			["Назначить клавишу для приглашения"] = "Assign a key to the invitation",
-			["Назначить клавишу следующего поиска"] = "Assign a key to the next search",
-			["Не отображать в чате отправляемые сообщения"] = "Do not show sent messages in chat",
-			["Не отображать в чате системные сообщения"] = "Do not display system messages in Chat",
-			["Не отображать в чате сообщения аддона"] = "Do not display addon messages in Chat",
-			["Уровень, с которого начинается фильтр по классам"] = "The level at which the filter starts by class",
-			["Уровень, с которого начинается фильтр по расам"] = "The level at which the race filter starts",
-			["Записывать игрока в базу данных даже если приглашение не было отправлено"] = "Write a player to the database even if the invitation has not been sent",
-		},
-		["invType"] = {
-			["Отправить сообщение и пригласить"] = "Send a message and invite",
-			["Только пригласить"] = "Only invite",
-			["Только сообщение"] = "Message only",
-		},
-		["clearDBtimes"] = {
-			["Отключить"] = "Disable",
-			["1 день"] = "1 day",
-			["1 неделя"] = "1 week",
-			["1 месяц"] = "1 month",
-			["6 месяцев"] = "6 months",
-			["Время запоминания игрока"] = "Player memorization time",
-		}
-	},
-	["SYSTEM"] = {
-		["c-"] = "c-",
-		["r-"] = "r-",
-	}
-}
+FGI.L.zhCN = {}
+local L = FGI.L.zhCN
+L["1 день"] = "1 day"
+L["1 месяц"] = "1 month"
+L["1 неделя"] = "1 week"
+L["6 месяцев"] = "6 months"
+L["blacklist"] = "/fgi blacklist <Name> - <Reason> - Add a player to the blacklist"
+L["blacklistAdd"] = "!blacklistAdd <Name> - <Reason> - add a player to the blacklist"
+L["blacklistDelete"] = "!blacklistDelete <Name> - <Reason> - remove player from blacklist"
+L["blacklistGetList"] = "!blacklistGetList - get the list of players in the black list"
+L["BloodElf"] = "Blood Elf"
+L["c-"] = "c-"
+L["commandList"] = "The following commands are available in the officer channel:"
+L["DarkIronDwarf"] = "Dark Iron Dwarf"
+L["defaultReason"] = "no reason"
+L["Draenei"] = "Draenei"
+L["Dwarf"] = "Dwarf"
+L["factorySettings"] = "/fgi factorySettings - Full reset of the addon database"
+L["fgi"] = "!fgi - list of available commands"
+L["filter"] = [=[LMB-enable/disable
+RMB-change
+Shift+LMB-delete
+
+]=]
+L["filterTooltip"] = [=[Filter Name:%s
+status:%s
+filter by Name:%s
+level range:%s
+repeat filter in name:%d:%d
+classes:%s
+race:%s
+number of filter triggers:%d]=]
+L["Gnome"] = "Gnome"
+L["help2"] = "/fgi help2 - Commands with prefix \"!\""
+L["HightmountainTauren"] = "Hightmountain Tauren"
+L["intro"] = "|cff00ff96Commands prefixed with \"|cffff0000!|r|cff00ff96\" created for officers who do not have an add-on installed, these commands can only be used in the officer channel.|r"
+L["invite"] = "/fgi invite - Invite the first player from the queue"
+L["KulTiran"] = "Kul Tiran"
+L["LightforgedDraenei"] = "Lightforged Draenei"
+L["MagharOrc"] = "Maghar Orc"
+L["minimap"] = [=[LMB-invite
+RMB-Open main window
+Shift+:LMB-Pause/continue
+
+Queue:%d
+progress:%s]=]
+L["nextSearch"] = "/fgi nextSearch - Run next scan"
+L["Nightborne"] = "Nightborne"
+L["NightElf"] = "Night Elf"
+L["Orc"] = "Orc"
+L["Pandaren"] = "Pandaren"
+L["r-"] = "r-"
+L["resetDB"] = "/fgi resetDB - Clear the list of sent invitations."
+L["resetWindowsPos"] = "/fgi resetWindowsPos - Reset the position of the window(s)."
+L["show"] = "/fgi show - Open the main window of the addon"
+L["Tauren"] = "Tauren"
+L["VoidElf"] = "Void Elf"
+L["ZandalariTroll"] = "Zandalari Troll"
+L["Автоматическое увеличение детализации поиска"] = "Automatically increase search details."
+L["Автор"] = "Author"
+L["Безопасность"] = "Security"
+L["Благодарности"] = "Credits"
+L[ [=[Введите диапазон уровней для фильтра.
+Например: %s55%s:%s58%s
+будут подходить только те игроки, уровень
+которых варьируется от %s55%s до %s58%s (включительно)]=] ] = [=[Enter a range of levels for the filter.
+for Example:%s55%s:%s58%s
+will be approached only by those players, the level
+which varies from%s55%s to %s58%s (inclusive)]=]
+L[ [=[Введите максимальное количество последовательных
+гласных и согласных, которое может содержать имя игрока.
+Например: %s3%s:%s5%s
+Будет означать, что игроки с более чем %s3%s гласными подряд
+или более %s5%s согласными подряд не будут добавлены в очередь.]=] ] = [=[Enter the maximum number of consecutive
+vowels and consonants that may contain the player's name.
+for Example:%s3%s:%s5%s
+will mean that players with more than%s3%s vowels in a row
+or more%s5%s consonants will not be added to Queue.]=]
+L["Включен"] = "Included"
+L["Включить фильтры"] = "Enable filters"
+L["Время запоминания игрока"] = "Player memorization time"
+L["Все"] = "All"
+L["Вы не состоите в гильдии или у вас нет прав для приглашения."] = "You are not a member of the guild or you do not have permission to invite."
+L["Выберите сообщение"] = "Select message"
+L["Выбрать приглашения"] = "Choose invitations"
+L["Выключен"] = "Switched off"
+L["Выключить отправляемые сообщения"] = "Disable sent messages"
+L["Выключить системные сообщения"] = "Turn off system messages"
+L["Выключить сообщения аддона"] = "Disable addon messages"
+L["Да"] = "Yes"
+L["Данные для синхронизации"] = "Data to sync"
+L["Данные для синхронизации не выбраны"] = "No sync data selected"
+L["Данные синхронизированы с игроком %s."] = "Data synchronized with player %s."
+L["Диапазон уровней"] = "Level range"
+L["Диапазон уровней (Мин:Макс)"] = "Level Range (Min: Max)"
+L["Для изменения значений используйте колесо мыши"] = "Use the mouse wheel to change the values."
+L["Добавить"] = "Add"
+L["Добавить фильтр"] = "Add filter"
+L["Добавлять кнопки аддона в выпадающее меню"] = "Add addon buttons to dropdown menu"
+L["Дополнительные настройки сканирования"] = "Advanced Scan Settings"
+L["Другая помощь"] = "Other Help"
+L[ [=[Если имя игрока содержит введенную
+фразу, он не будет добавлен в очередь]=] ] = [=[If the player name contains the entered
+phrase, it will not be added to the queue]=]
+L["Записывать игрока в базу данных даже если приглашение не было отправлено"] = "Write a player to the database even if the invitation has not been sent"
+L["Записывать игрока в базу данных сразу после нахождения"] = "Write the player to the database immediately after finding"
+L["Запоминать всех игроков"] = "Remember all players"
+L["Запрос синхронизации у: %s. %d"] = "Sync Request: %s. %d"
+L["Запускать в фоновом режиме"] = "Run in the background"
+L["Запускать поиск в фоновом режиме"] = "Run a background search"
+L["Игнорировать"] = "Ignore"
+L["Игрок %s добавлен в черный список."] = "Player %s has been blacklisted."
+L["Игрок %s найденный в черном списке, находится в вашей гильдии!"] = "Blacklisted %s player is in your guild!"
+L[ [=[Игрок %s хочет синхронизировать %s.
+Разрешить?]=] ] = [=[Player %s wants to sync %s.
+Allow?]=]
+L["Игрок для синхронизации"] = "Player to sync"
+L["Игрок для синхронизации не выбран"] = "No sync player selected"
+L["Игрок не добавлен в список исключений."] = "The player is not added to the exceptions list."
+L["Игроков найдено: %d"] = "Players found: %d"
+L["Имя"] = "Name"
+L["Имя фильтра"] = "Filter name"
+L["Имя фильтра занято"] = "Filter name is busy"
+L["Имя фильтра не может быть пустым"] = "Filter name cannot be empty"
+L["Интервал"] = "Interval"
+L["Использовать пользовательский список запросов"] = "Use custom query list"
+L["Категория"] = "Category"
+L["Классы:"] = "Classes:"
+L["Количество ошибок: %d"] = "Number of errors: %d"
+L["Количество уровней сканируемых за один раз"] = "Number of levels scanned at one time"
+L["Контакт"] = "Contact"
+L["Максимальное количество фильтров %s. Пожалуйста измените или удалите имеющийся фильтр."] = "The maximum number of filters %s. Please change or remove existing filter."
+L["Нажмите на фильтр для изменения состояния"] = "Click on the filter to change the state"
+L["Назначить клавишу для приглашения"] = "Assign a key to the invitation"
+L["Назначить клавишу следующего поиска"] = "Assign a key to the next search"
+L["Назначить кнопку (%s)"] = "Assign button (%s)"
+L["Настроить сообщения"] = "Customize posts"
+L["Настройка сообщений, подсказка"] = [=[Auto Replace.
+NAME is the name of the player to whom the message is sent.
+GUILD is the name of your guild.]=]
+L["Настройки"] = "Settings"
+L["Начало синхронизации"] = "Start Sync"
+L["Начать сканирование"] = "Start Scan"
+L["Не отображать в чате отправляемые сообщения"] = "Do not show sent messages in chat"
+L["Не отображать в чате системные сообщения"] = "Do not display system messages in Chat"
+L["Не отображать в чате сообщения аддона"] = "Do not display addon messages in Chat"
+L["Не отображать значок у миникарты"] = "Do not display the minimap icon."
+L["Нельзя добавить пустое сообщение"] = "Cannot add empty message"
+L["Нельзя сохранить пустое сообщение"] = "Cannot save empty message"
+L["Неправильный шаблон"] = "Wrong template"
+L["Нет"] = "No"
+L["Обычный поиск"] = "Normal Search"
+L["Обязательное поле \"Имя фильтра\", пустые текстовые поля не используются при фильтрации."] = [=[Required field "Filter name",
+empty text boxes are not used in filtering. ]=]
+L["Откл."] = "Turn off"
+L["Отклонить"] = "Reject"
+L["Отключить"] = "Disable"
+L["Отправить запрос"] = "Send request"
+L["Отправить сообщение и пригласить"] = "Send a message and invite"
+L["Ошибка типа синхронизации"] = "Sync type error"
+L["Перевод"] = "Translate"
+L["Подтверждение отправки данных синхронизации"] = "Confirmation of sending synchronization data"
+L["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"] = "Search returned 50 or more results, it is recommended to change the search settings. Query: %s"
+L["Поиск разблокирован"] = "Search Unlocked"
+L["Поле может содержать только буквы"] = "This field can only contain letters. "
+L["Пользовательский список"] = "Custom list"
+L["Превышен лимит ожидания ответа"] = "Response timeout limit exceeded"
+L["Превышен лимит символов. Максимальная длина сообщения 255 символов. Длина сообщения превышена на %d"] = "Character limit exceeded. The maximum message length is 255 characters. Message length exceeded by %d"
+L["Предпросмотр: %s"] = "Preview: %s"
+L["Пригласить"] = "Invite"
+L["Пригласить: %d"] = "Invite: %d"
+L["Причина"] = "Reason"
+L["Расширенное сканирование"] = "Advanced Scan"
+L["Расы:"] = "Race:"
+L["Режим приглашения"] = "Invitation mode"
+L["Сбросить"] = "Reset"
+L["Синхронизация"] = "Synchronization"
+L[ [=[Синхронизация с %s.
+%d/%d]=] ] = [=[Sync with %s.
+%d/%d]=]
+L["Слово NAME заглавными буквами будет заменено на название вашей гильдии."] = "The word NAME in capital letters will be replaced with the name of your guild."
+L["Сохранить"] = "Save"
+L["Сочетание клавиш уже занято"] = "Keyboard shortcut busy"
+L["Список отправленных приглашений"] = "List of sent invitations"
+L["Список приглашенных"] = "List of invited players"
+L["Список фильтров"] = "Filter list"
+L["Текущее сообщение: %s"] = "Current message: %s"
+L["Тестирование"] = "Testing"
+L["Только пригласить"] = "Only invite"
+L["Только сообщение"] = "Message only"
+L["Требуется перезагрузка интерфейса"] = "Interface restart required"
+L["Уведомление о готовности нового поиска"] = "New Search Ready Notification"
+L["Уведомление о найденных игроках"] = "Found Players Notification"
+L["Удалить"] = "Delete"
+L["Умный поиск"] = "Smart Search"
+L["Уровень, с которого начинается фильтр по классам"] = "The level at which the filter starts by class"
+L["Уровень, с которого начинается фильтр по расам"] = "The level at which the race filter starts"
+L["Фильтр классов начало:"] = "Class Filter Start:"
+L["Фильтр по имени"] = "Filter by name"
+L["Фильтр повторений в имени"] = "Repeat filter in Name"
+L["Фильтр рас начало:"] = "Filter start races:"
+L["Фильтры"] = "Filters"
+L["Черный список"] = "Blacklist"
+L["Числа должны быть больше 0"] = "Numbers must be greater than 0"
+L["Числа не могут быть меньше или равны 0. Минимальный уровень не может быть больше максимального"] = "Numbers cannot be less than or equal to 0. The minimum level cannot be greater than the maximum"
+L["Чтобы быть отфильтрованным, игрок должен соответствовать критериям ВСЕХ фильтров"] = "To be filtered, the player must meet the criteria of all filters"
+
+
 
 
 L.settings = {
@@ -223,12 +310,3 @@ L.settings = {
 	Font = 'Interface\\AddOns\\FastGuildInvite\\fonts\\simhei.ttf',
 	FontSize = 16,
 }
-
-L.Gratitude = {
-	testing = {"介绍", "----","作者","----","汉化",},
-	coding = {"姓名:","----", "毛熊:Knoot","----","280i.com",},
-	donations = {"",}
-}
-
-
-FGI.L["zhCN"] = L

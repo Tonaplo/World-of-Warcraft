@@ -1620,7 +1620,7 @@ RematchSettings = {
 		["BattlePet-0-00000B0E8E09"] = "QQQ01RF",
 		["BattlePet-0-00000B0E914A"] = "QQQ01IT",
 		["BattlePet-0-00000B0E9197"] = "QQQ02Q",
-		["BattlePet-0-00000B0E918E"] = "QQQ01MQ",
+		["BattlePet-0-00000B0E915B"] = "QQQ02FL",
 		["BattlePet-0-00000B0E913F"] = "QQQ024G",
 		["BattlePet-0-00000B0E9118"] = "QQQ015R",
 		["BattlePet-0-00000B0E9150"] = "QQQ02FV",
@@ -1631,23 +1631,23 @@ RematchSettings = {
 		["BattlePet-0-0000039D71F1"] = "QQQ03M",
 		["BattlePet-0-00000B1774C1"] = "QQQ02D9",
 		["BattlePet-0-0000039D71F0"] = "QQQ020",
-		["BattlePet-0-0000039D721C"] = "QQQ04P",
-		["BattlePet-0-00000B0E9134"] = "QQQ01IS",
-		["BattlePet-0-00000B0E918F"] = "QQQ01GV",
-		["BattlePet-0-00000B0E9131"] = "QQQ023J",
 		["BattlePet-0-0000039D7237"] = "QQQ083",
+		["BattlePet-0-00000B0E9134"] = "QQQ01IS",
+		["BattlePet-0-0000039D71EF"] = "QQQ01D",
+		["BattlePet-0-00000B0E9131"] = "QQQ023J",
+		["BattlePet-0-0000039D721C"] = "QQQ04P",
 		["BattlePet-0-0000039D71FB"] = "QQQ01N",
 		["BattlePet-0-0000039D7220"] = "QQQ04T",
 		["BattlePet-0-00000B0E9111"] = "QQQ01J2",
 		["BattlePet-0-000006517B04"] = "QQQ0177",
 		["BattlePet-0-00000B0E9138"] = "QQQ01T8",
-		["BattlePet-0-0000039D71EF"] = "QQQ01D",
+		["BattlePet-0-00000B0E918F"] = "QQQ01GV",
 		["BattlePet-0-00000B0E912E"] = "QQQ01H6",
 		["BattlePet-0-0000039D7207"] = "QQQ01E",
 		["BattlePet-0-0000039D7210"] = "QQQ06C",
 		["BattlePet-0-00000B0E9125"] = "QQQ01DR",
 		["BattlePet-0-00000B0E9121"] = "QQQ02CE",
-		["BattlePet-0-00000B0E915B"] = "QQQ02FL",
+		["BattlePet-0-00000B0E918E"] = "QQQ01MQ",
 		["BattlePet-0-0000039D7217"] = "QQQ050",
 		["BattlePet-0-00000B03557A"] = "QQQ022V",
 		["BattlePet-0-0000039D7279"] = "QQQ014Q",
@@ -1749,10 +1749,10 @@ RematchSettings = {
 			1, -- [1]
 			true, -- [2]
 			2469, -- [3]
-			1, -- [4]
-			156, -- [5]
-			10, -- [6]
-			13, -- [7]
+			9, -- [4]
+			606, -- [5]
+			88, -- [6]
+			113, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-00000B0E8E09"] = {
@@ -2259,10 +2259,10 @@ RematchSettings = {
 			1, -- [1]
 			true, -- [2]
 			1230, -- [3]
-			1, -- [4]
-			159, -- [5]
-			12, -- [6]
-			10, -- [7]
+			9, -- [4]
+			635, -- [5]
+			107, -- [6]
+			88, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-0000039D7242"] = {
@@ -2549,10 +2549,10 @@ RematchSettings = {
 			1, -- [1]
 			true, -- [2]
 			2473, -- [3]
-			1, -- [4]
-			151, -- [5]
-			13, -- [6]
-			11, -- [7]
+			5, -- [4]
+			356, -- [5]
+			65, -- [6]
+			53, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-0000039D7245"] = {
@@ -2759,10 +2759,10 @@ RematchSettings = {
 			1, -- [1]
 			true, -- [2]
 			211, -- [3]
-			1, -- [4]
-			168, -- [5]
-			10, -- [6]
-			10, -- [7]
+			5, -- [4]
+			441, -- [5]
+			52, -- [6]
+			49, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-00000B0E911E"] = {
@@ -3218,9 +3218,9 @@ RematchSettings = {
 		},
 		["Level"] = {
 		},
-		["Similar"] = {
-		},
 		["Sources"] = {
+		},
+		["Similar"] = {
 		},
 		["Breed"] = {
 		},

@@ -1,7 +1,4 @@
-FGI = {
-	L = {},
-}
-
+FGI = {animations = {}, L = {}}
 FGI_MINLVL = 1
 FGI_DEFAULT_SEARCHINTERVAL = 5
 FGI_SEARCHINTERVAL_MAX = 30
@@ -31,3 +28,7 @@ FGI_MAXLVL = 60
 --@end-non-retail@]===]
 FGI_DEFAULT_RACEFILTERSTART = FGI_MAXLVL +1
 FGI_DEFAULT_CLASSFILTERSTART = FGI_MAXLVL +1
+
+function FGI:GetLocale()
+	return FGI.L[GetLocale()]
+end

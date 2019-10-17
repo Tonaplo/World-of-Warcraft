@@ -1,15 +1,18 @@
 local addon=FGI
 local fn=addon.functions
-local L = addon.L
-local CLASS = L.SYSTEM.class
+local L = FGI:GetLocale()
+local CLASS = L.class
 local interface = addon.interface
 local settings = L.settings
 local GUI = LibStub("AceGUI-3.0")
+local libS = LibStub:GetLibrary("AceSerializer-3.0")
+local libC = LibStub:GetLibrary("LibCompress")
+local libWho = LibStub("FGI-WhoLib")
+local libCE = libC:GetAddonEncodeTable()
 local color = addon.color
 local FastGuildInvite = addon.lib
-addon.search = {progress=1, inviteList={}, timeShift=0, tempSendedInvites={}, whoQueryList = {}}
+addon.search = {progress=1, inviteList={}, timeShift=0, tempSendedInvites={}, whoQueryList = {}, oldCount = 0,}
 addon.removeMsgList = {}
-addon.libWho = {}
 local DB
 local debugDB
 local nextSearch
@@ -140,6 +143,36 @@ function fn.fontSize(frame, font, size)
 end
 
 
+FGI.animations.notification = CreateFrame("Frame")
+
+local anim = FGI.animations.notification
+anim:SetSize(1,1)
+anim:Hide()
+anim:SetPoint("TOP", UIParent, "TOP", 0, -150)
+anim.f = anim:CreateFontString(nil, "BACKGROUND", "GameFontHighlightSmall")
+anim.f.font = anim.f:GetFont()
+anim.f:SetText("Test TEXT")
+anim.f:SetPoint("CENTER", anim)
+anim.f.animation = anim:CreateAnimationGroup()
+local animation = anim.f.animation:CreateAnimation("Alpha")
+animation:SetDuration(0.5)
+animation:SetFromAlpha(1)
+animation:SetToAlpha(0)
+animation:SetStartDelay(3)
+anim.f.animation:SetScript("OnFinished", function()anim:Hide()end)
+
+function anim.Start(self, text, font, size)
+	if not text then return end
+	font = font or settings.Font
+	size = size or 21
+	text = "|cffffff00<|r|cff16ABB5FGI|r|cffffff00>|r "..text
+	anim.f:SetFont(font, size, "OUTLINE")
+	self.f:SetText(text)
+	
+	self:Show()
+	self.f.animation:Play()
+end
+
 
 function fn:parseBL(str)
 	local name, reason
@@ -224,8 +257,10 @@ function fn:blackListAutoKick()
 end
 
 function fn:blackList(name, reason)
-	DB.realm.blackList[name] = reason or L.interface.defaultReason
-	print(format("%s%s|r", color.red, format(L.interface["Игрок %s добавлен в черный список."], name)))
+	DB.realm.blackList[name] = reason or L.defaultReason
+	if not DB.global.addonMSG then
+		print(format("%s%s|r", color.red, format(L["Игрок %s добавлен в черный список."], name)))
+	end
 	fn:blacklistKick()
 end
 
@@ -260,9 +295,9 @@ function fn:SetKeybind(key, keyType)
 		DBkey[keyType] = false
 	end
 	
-	interface.settings.KeyBind.content.invite:SetLabel(format(L.interface["Назначить кнопку (%s)"], DBkey.invite or "none"))
+	interface.settings.KeyBind.content.invite:SetLabel(format(L["Назначить кнопку (%s)"], DBkey.invite or "none"))
 	interface.settings.KeyBind.content.invite:SetKey(DBkey.invite)
-	interface.settings.KeyBind.content.nextSearch:SetLabel(format(L.interface["Назначить кнопку (%s)"], DBkey.nextSearch or "none"))
+	interface.settings.KeyBind.content.nextSearch:SetLabel(format(L["Назначить кнопку (%s)"], DBkey.nextSearch or "none"))
 	interface.settings.KeyBind.content.nextSearch:SetKey(DBkey.nextSearch)
 end
 
@@ -292,27 +327,27 @@ function fn:FiltersUpdate()
 		frame:Show()
 		frame:SetID(name)
 		frame:SetText(name)
-		local state = filter.filterOn and L.interface["Включен"]:upper() or L.interface["Выключен"]:upper()
-		local lvlRange = filter.lvlRange or L.interface["Откл."]
-		local filterByName = filter.filterByName or L.interface["Откл."]
+		local state = filter.filterOn and L["Включен"]:upper() or L["Выключен"]:upper()
+		local lvlRange = filter.lvlRange or L["Откл."]
+		local filterByName = filter.filterByName or L["Откл."]
 		local letterFilterVowels, letterFilterConsonants = filter.letterFilter==false and 0,0 or fn:split(filter.letterFilter, ":")
 		local class = ""
 		if not filter.classFilter then
-			class = L.interface["Откл."]
+			class = L["Откл."]
 		else
 			for k,v in pairs(filter.classFilter) do class = class..k.."," end
 			class = class:sub(1, -2)
 		end
 		local race = ""
 		if not filter.raceFilter then
-			race = L.interface["Откл."]
+			race = L["Откл."]
 		else
 			for k,v in pairs(filter.raceFilter) do race = race..k.."," end
 			race = race:sub(1, -2)
 		end
 		local count = filter.filteredCount
 		
-		frame:SetTooltip(format(L.FAQ.help["filterTooltip"], name, state, filterByName, lvlRange, letterFilterVowels, letterFilterConsonants, class, race, count))
+		frame:SetTooltip(format(L["filterTooltip"], name, state, filterByName, lvlRange, letterFilterVowels, letterFilterConsonants, class, race, count))
 		
 		i = i + 1
 		
@@ -357,7 +392,7 @@ function fn:sendWhisper(msg, name)
 			SendChatMessage(msg:sub(i+1, i+255), 'WHISPER', GetDefaultLanguage("player"), name)
 		end
 	else
-		print(L.FAQ.error["Выберите сообщение"])
+		print(L["Выберите сообщение"])
 	end
 end
 
@@ -377,7 +412,7 @@ function fn:invitePlayer(noInv)
 	if DB.global.inviteType == 2 and not noInv then
 		addon.msgQueue[list[1].name] = true
 	elseif DB.global.inviteType == 3 and not noInv then
-		local msg = DB.realm.messageList[math.random(1, #DB.realm.messageList)]
+		local msg = DB.realm.messageList[math.random(1, math.max(1,#DB.realm.messageList))]
 		debug(format("Send whisper: %s %s",list[1].name, msg))
 		fn:sendWhisper(msg, list[1].name)
 	end
@@ -385,7 +420,7 @@ function fn:invitePlayer(noInv)
 		debug(format("Invite: %s",list[1].name))
 		GuildInvite(list[1].name)
 	end
-	if not noInv or DB.rememberAll then
+	if not noInv or DB.global.rememberAll then
 		fn:rememberPlayer(list[1].name)
 	end
 	C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "REMEMBER|"..list[1].name, "GUILD")
@@ -393,7 +428,7 @@ function fn:invitePlayer(noInv)
 		addon.searchInfo.sended()
 	end
 	table.remove(list, 1)
-	inviteBtnText(format(L.interface["Пригласить: %d"], #list))
+	inviteBtnText(format(L["Пригласить: %d"], #list))
 	
 	interface.chooseInvites.player:SetText(#list > 0 and format("%s%s %d %s %s|r", color[list[1].NoLocaleClass:upper()], list[1].name, list[1].lvl, list[1].class, list[1].race) or "")
 end
@@ -418,8 +453,8 @@ frame:SetScript('OnEvent', function()
 end)
 
 local function getSearchDeepLvl(query)
-	local l2 = (("%%d+-%%d+ %s\"%s+"):format(L.SYSTEM["r-"],addon.ruReg)):gsub("-","%%-")
-	local l3 = (("%%d+-%%d+ %s\"%s+%%\" %s"):format(L.SYSTEM["r-"],addon.ruReg,L.SYSTEM["c-"])):gsub("-","%%-")
+	local l2 = (("%%d+-%%d+ %s\"%s+"):format(L["r-"],addon.ruReg)):gsub("-","%%-")
+	local l3 = (("%%d+-%%d+ %s\"%s+%%\" %s"):format(L["r-"],addon.ruReg,L["c-"])):gsub("-","%%-")
 	if query:find(l3) then
 		return 3
 	elseif query:find(l2) then
@@ -432,8 +467,8 @@ local function getSearchDeepLvl(query)
 end
 
 local function searchGetParams(query)
-	local class = query:match(("%s%%\"(%s+)%%\""):format(L.SYSTEM["c-"],addon.ruReg):gsub("-","%%-"))
-	local race = query:match(("%s%%\"(%s+)%%\""):format(L.SYSTEM["r-"],addon.ruReg):gsub("-","%%-"))
+	local class = query:match(("%s%%\"(%s+)%%\""):format(L["c-"],addon.ruReg):gsub("-","%%-"))
+	local race = query:match(("%s%%\"(%s+)%%\""):format(L["r-"],addon.ruReg):gsub("-","%%-"))
 	local lvl = {}
 	for s in query:gmatch("%d+") do
 		table.insert(lvl, s)
@@ -521,8 +556,8 @@ local function searchAddWhoList(query, lvl)
 	local function RACEsplit(query)
 		local new = 0
 		table.remove(addon.search.whoQueryList, progress)
-		for _,v in pairs(L.SYSTEM.race) do
-			local newQuery = format("%s %s\"%s\"",query,L.SYSTEM["r-"],v)
+		for _,v in pairs(L.race) do
+			local newQuery = format("%s %s\"%s\"",query,L["r-"],v)
 			if not isQueryFiltered(newQuery) then
 				table.insert(addon.search.whoQueryList, progress+new, newQuery)
 				new = new + 1
@@ -538,7 +573,7 @@ local function searchAddWhoList(query, lvl)
 		local new = 0
 		table.remove(addon.search.whoQueryList, progress)
 		if race then
-			for k,v in pairs(L.SYSTEM.race) do
+			for k,v in pairs(L.race) do
 				if v==race then
 					race = k
 					break
@@ -550,7 +585,7 @@ local function searchAddWhoList(query, lvl)
 			return table.insert(addon.search.whoQueryList, progress, query)
 		end
 		for k,v in pairs(RaceClassCombo[race]) do
-			local newQuery = format("%s %s\"%s\"",query,L.SYSTEM["c-"],v)
+			local newQuery = format("%s %s\"%s\"",query,L["c-"],v)
 			if not isQueryFiltered(newQuery) then
 				table.insert(addon.search.whoQueryList, progress+new, newQuery)
 				new = new + 1
@@ -574,15 +609,15 @@ local function searchAddWhoList(query, lvl)
 end
 
 local function findClass(className)
-	for k,v in pairs(L.SYSTEM.femaleClass) do
-		if v==className then return L.SYSTEM.class[k]  end
+	for k,v in pairs(L.femaleClass) do
+		if v==className then return L.class[k]  end
 	end
 	return false
 end
 
 local function findRace(raceName)
-	for k,v in pairs(L.SYSTEM.femaleRace) do
-		if v==raceName then return L.SYSTEM.race[k] end
+	for k,v in pairs(L.femaleRace) do
+		if v==raceName then return L.race[k] end
 	end
 	return false
 end
@@ -666,21 +701,12 @@ local function addNewPlayer(t, p)
 	interface.chooseInvites.player:SetText(#list > 0 and format("%s%s %d %s %s|r", color[list[1].NoLocaleClass:upper()], list[1].name, list[1].lvl, list[1].class, list[1].race) or "")
 end
 
-local libWho = {whoQuery='', doHide=false, isFGI=false}
-local function GetWho(query)
-	libWho.isFGI = true
-	libWho.whoQuery = query
-	-- FriendsTabHeader	GuildFrame	RaidFrame
-	libWho.doHide = (not WhoFrame:IsShown()) and (not FriendsFrame:IsShown())
-	C_FriendList.SetWhoToUi(true)
-	C_FriendList.SendWho(query)
-	WhoFrameEditBox:SetText(query)
-end
-
 local function searchWhoResultCallback(query, results)
 	local searchLvl = getSearchDeepLvl(query)
 	if #results >= FGI_MAXWHORETURN and DB.realm.customWho then
-		print(format(L.FAQ.error["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"], query))
+		if not DB.global.addonMSG then
+			print(format(L["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"], query))
+		end
 		debug(format("Query (%s) return 50 or more results; SearchLevel-%d", query, searchLvl))
 	end
 	addon.search.progress = addon.search.progress + 1
@@ -692,17 +718,27 @@ local function searchWhoResultCallback(query, results)
 	-- 3lvl can't modified
 	end
 	
+	addon.search.oldCount = #addon.search.inviteList
 	for i=1,#results do
 		local player = results[i]
 		addNewPlayer(addon.search, player)
 	end
+	if DB.global.queueNotify and #addon.search.inviteList > addon.search.oldCount then
+		FGI.animations.notification:Start(format(L["Игроков найдено: %d"], #addon.search.inviteList - addon.search.oldCount))
+	end
 	interface.scanFrame.progressBar:SetMinMax(0, #addon.search.whoQueryList)
 	interface.scanFrame.progressBar:SetProgress(addon.search.progress-1)
-	inviteBtnText(format(L.interface["Пригласить: %d"], #addon.search.inviteList))
+	inviteBtnText(format(L["Пригласить: %d"], #addon.search.inviteList))
 end
 
 function fn:nextSearch()
-	C_Timer.After(FGI_SCANINTERVALTIME, function() interface.scanFrame.pausePlay:SetDisabled(false) end)
+	libWho:SetCallback(searchWhoResultCallback)
+	C_Timer.After(FGI_SCANINTERVALTIME, function()
+		interface.scanFrame.pausePlay:SetDisabled(false)
+		if DB.global.searchAlertNotify then
+			FGI.animations.notification:Start(L["Поиск разблокирован"])
+		end
+	end)
 	if #addon.search.whoQueryList == 0 then
 		if  DB.realm.customWho then
 			for i=1, #DB.faction.customWhoList do
@@ -716,44 +752,8 @@ function fn:nextSearch()
 	
 	addon.search.progress = (addon.search.progress <= (#addon.search.whoQueryList or 1)) and addon.search.progress or 1
 	local curQuery = addon.search.whoQueryList[addon.search.progress]
-	GetWho(curQuery)
+	libWho:GetWho(curQuery)
 end
-
-local function returnWho(result)
-	searchWhoResultCallback(libWho.whoQuery, result)
-end
-
-local whoFrame = CreateFrame('Frame')
-whoFrame:RegisterEvent("WHO_LIST_UPDATE")
-whoFrame:SetScript("OnEvent", function()
-	if not libWho.isFGI then return end
-	if libWho.doHide then
-		-- FriendsFrame:Hide()
-		FriendsFrameCloseButton:Click()
-	end
-	libWho.isFGI = false
-	local result = {}
-
-	local total, num = C_FriendList.GetNumWhoResults()
-	for i=1, num do
-	--	self.Result[i] = C_FriendList.GetWhoInfo(i)
-		local info = C_FriendList.GetWhoInfo(i)
-		--backwards compatibility START
-		info.Name=info.fullName
-		info.Guild=info.fullGuildName
-		info.Level=info.level
-		info.Race=info.raceStr
-		info.Class=info.classStr
-		info.Zone=info.area
-		info.NoLocaleClass=info.filename
-		info.Sex=info.gender
-		--backwards compatibility END
-		result[i] = info
-	end
-	
-	C_FriendList.SetWhoToUi(false)
-	returnWho(result)
-end)
 
 function dump(t,l)
   local str = '{'
@@ -824,39 +824,48 @@ end
 --[[----------------------------------------------------------------------------------------------
 									Synch
 ]]------------------------------------------------------------------------------------------------
-FGI.ReceiveSynchStr = {[L.interface["Все"]] = {}}
+FGI.ReceiveSynchStr = {[L["Все"]] = {}}
 ReceiveSynchStr = FGI.ReceiveSynchStr
 local writeReceiveData = {
 	blacklist = function(arr)
-		for i=1, #arr do
-			local name, reason = arr[i][1], arr[i][2]
+		local blackList = interface.settings.Blacklist.content
+		for name, reason in pairs(arr) do
 			if not DB.realm.blackList[name] then
-				interface.blackList:add({name=name, reason=reason})
+				blackList:add({name=name, reason=reason})
 			end
 			DB.realm.blackList[name] = reason
 		end
-		interface.blackList:update()
+		blackList:update()
 	end,
 	invitations = function(arr)
-		for i=1, #arr do
-			local name, time = arr[i][1], tonumber(arr[i][2])
+		for name,time in pairs(arr) do
 			DB.realm.alreadySended[name] = math.max(time, DB.realm.alreadySended[name] or 0)
 		end
 	end,
 }
 
 local function readSynchStr(sender, mod)
---print(str)
-	local str = ReceiveSynchStr[sender][mod]
-	local arr = {}
-	for S in str:gmatch("(.-);") do
-		local n, r = S:match("([^,]+),(.+)")
-		r = r:gsub("~", ',')
-		table.insert(arr, {n,r})
+	local str = table.concat(ReceiveSynchStr[sender][mod], '')
+	
+	-- Decode the compressed data
+	local one = libCE:Decode(str)
+	
+	--Decompress the decoded data
+	local two, message = libC:Decompress(one)
+	if(not two) then
+		print("FGI: error decompressing: " .. message)
+		return
+	end
+	
+	-- Deserialize the decompressed data
+	local success, final = libS:Deserialize(two)
+	if (not success) then
+		print("FGI: error deserializing " .. final)
+		return
 	end
 	
 	if writeReceiveData[mod] then
-		writeReceiveData[mod](arr)
+		writeReceiveData[mod](final)
 	else
 		print(color.red.."writeReceiveData WRONG MOD|r")
 	end
@@ -868,10 +877,10 @@ local function getSynchRequest(requestMSG, sender, allowed)
 	local function confirm()
 		getSynchRequest(requestMSG, sender, true)
 	end
-	local request = L.interface.synchType[requestMSG]
-	local requestType = L.interface.synchBaseType[requestMSG]
+	local request = L.synchType[requestMSG]
+	local requestType = L.synchBaseType[requestMSG]
 	if not requestType then
-		return C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, 'ERROR|'..L.interface.synchState["Ошибка типа синхронизации"], "WHISPER", sender)
+		return C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, 'ERROR|'..L["Ошибка типа синхронизации"], "WHISPER", sender)
 	end
 	if not allowed then
 		if DB.global.security.sended and requestType == 'invitations' then
@@ -881,27 +890,28 @@ local function getSynchRequest(requestMSG, sender, allowed)
 		end
 		return
 	end
-	C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, 'SUCCESS|'..L.interface.synchState["Начало синхронизации"], "WHISPER", sender)
+	C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, 'SUCCESS|'..L["Начало синхронизации"], "WHISPER", sender)
 	
 	local SendSynchStr = ''
+	local data
 	if requestType=='blacklist' then
-		for k,v in pairs(DB.realm.blackList) do
-			SendSynchStr = string.format("%s%s,%s;", SendSynchStr, k, tostring(v):gsub(',','~'))
-		end
+		data = DB.realm.blackList
 	elseif requestType=='invitations' then
-		for k,v in pairs(DB.realm.alreadySended) do
-			SendSynchStr = string.format("%s%s,%s;", SendSynchStr, k, tostring(v))
-		end
+		data = DB.realm.alreadySended
 	end
-	if SendSynchStr=='' then return end
-	fn.SendSynchArray(SendSynchStr, requestType, sender)
+		
+	if not data then return end
+	
+	local one = libS:Serialize(data)
+	local two = libC:Compress(one)
+	local encodedMsg = libCE:Encode(two)
+	fn.SendSynchArray(encodedMsg, requestType, sender)
 	return
 end
 
 local synchFrame = CreateFrame("Frame")
 synchFrame:RegisterEvent("CHAT_MSG_ADDON")
-synchFrame:SetScript("OnEvent", function(self, event, ...)
-	local prefix, msg, channel, sender = ...
+synchFrame:SetScript("OnEvent", function(self, event, prefix, msg, channel, sender, ...)
 	msg = tostring(msg)
 	if prefix ~= FGISYNCH_PREFIX then return end
 	-- print(prefix, msg, channel, sender)
@@ -923,52 +933,59 @@ synchFrame:SetScript("OnEvent", function(self, event, ...)
 		elseif requestType == "LOGIN" and requestMSG == "GET_FGI_USERS" then
 			return synch.rightColumn.synchPlayerReadyDrop:AddItem(sender, sender)
 		end
+		
 		if synch.timer then synch.timer:Cancel() end
 		
-		local Start, End = msg:find("%(.+%)")
+		local Start, End = msg:find("^%(.-%)")
 		End = End or 0
 		local s,e,mod = msg:sub(Start, End):match("(%d+)[^%d](%d+);(%w+)")
 		if not mod then return end
 		s, e = tonumber(s), tonumber(e)
-		synch.infoLabel:Success(format(L.interface.synchState["Синхронизация с %s.\n %d/%d"], sender,s,e))
-		if s == 1 then ReceiveSynchStr[sender] = { [mod] = ''} end
-			msg = msg:sub(End+1, -1)
-			ReceiveSynchStr[sender][mod] = ReceiveSynchStr[sender][mod]..msg
+		synch.infoLabel:Success(format(L[ [=[Синхронизация с %s.
+%d/%d]=] ], sender,s,e))
+		if s == 1 then ReceiveSynchStr[sender] = { [mod] = {}} end
+		msg = msg:sub(End+1, -1)
+		ReceiveSynchStr[sender][mod][s] = msg
 		if s == e then
 			readSynchStr(sender, mod)
-			synch.infoLabel:Success(format(L.interface.synchState["Данные синхронизированы с игроком %s."], sender))
+			synch.infoLabel:Success(format(L["Данные синхронизированы с игроком %s."], sender))
 		end
-		
 	elseif channel == "GUILD" then
 		if requestType == "GET" then
 			getSynchRequest(requestMSG, sender)
 		elseif requestType == "LOGIN" and requestMSG == "GET_FGI_USERS" then
 			synch.rightColumn.synchPlayerReadyDrop:AddItem(sender, sender)
 			C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "LOGIN|GET_FGI_USERS", "WHISPER", sender)
-		elseif requestType == "REMEMBER"then
+		elseif requestType == "REMEMBER" then
 			fn:rememberPlayer(requestMSG)
 		end
 	end
 end)
 
-
 function fn.SendSynchArray(str, mod, playerName)
 	local arr = {}
 	local i = 0
-	local step = 250-15-mod:len()-1
-	repeat 
-		table.insert(arr, string.format("(%d/%%d;%s)%s", #arr+1, mod or '', str:sub(i+1,i+step)))
-		i=i+step
-	until i>=str:len()
+	local reservedLen = 15+mod:len()+1
+	local step = 250-reservedLen-1
+	local max = (math.ceil(str:len()/step))
 	
-	local max = #arr
+	local pos = 1
+	local textlen = str:len()
+	
+	
+	while pos <= textlen do
+		chunk = string.sub(str, pos, pos+step-1)
+		table.insert(arr, string.format("(%d/%d;%s)%s", #arr+1, max, mod or '', chunk))
+		pos = pos + step
+	end
+	
+
+	
+	local i = 1
 	C_Timer.NewTicker(0.05, function()
-	-- for i=1, #arr do
-		if not arr[1] then return end
-		C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, string.format(arr[1],max), "WHISPER", playerName)
-		table.remove(arr,1)
-	-- end
-	end, max)
+		C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, arr[i], "WHISPER", playerName)
+		i = i + 1
+	end, #arr)
 
 	return arr
 end
@@ -980,16 +997,16 @@ function fn:sendSynchRequest(player, sType)
 	local start = GetTime()
 	synch.ticker = C_Timer.NewTicker(1,function()
 		local time = math.ceil(start+FGI_MAXSYNCHWAIT-GetTime())
-		synch.infoLabel:During(format(L.interface.synchState["Запрос синхронизации у: %s. %d"], player or L.interface["Все"], time))
-		if time == 0 then return synch.infoLabel:Error(L.interface.synchState["Превышен лимит ожидания ответа"]) end
+		synch.infoLabel:During(format(L["Запрос синхронизации у: %s. %d"], player or L["Все"], time))
+		if time == 0 then return synch.infoLabel:Error(L["Превышен лимит ожидания ответа"]) end
 	end, FGI_MAXSYNCHWAIT)
 	function synch.ticker:responseReceived()
 		synch.ticker:Cancel()
 		synch.timer = C_Timer.NewTimer(FGI_MAXSYNCHWAIT, function()
-			synch.infoLabel:Error(L.interface.synchState["Превышен лимит ожидания ответа"])
+			synch.infoLabel:Error(L["Превышен лимит ожидания ответа"])
 		end)
 	end
-	if player == L.interface["Все"] then
+	if player == L["Все"] then
 		C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "GET||"..sType, "GUILD")
 	else
 		C_ChatInfo.SendAddonMessage(FGISYNCH_PREFIX, "GET||"..sType, "WHISPER", player)

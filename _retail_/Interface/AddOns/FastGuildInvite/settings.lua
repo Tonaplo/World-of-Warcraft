@@ -1,6 +1,6 @@
 local addon = FGI
 local fn = addon.functions
-local L = addon.L
+local L = FGI:GetLocale()
 local settings = L.settings
 local size = settings.size
 local color = addon.color
@@ -37,12 +37,12 @@ settings.profile.parent = settings.name
 InterfaceOptions_AddCategory(settings.profile)]]
 
 settings.Security = CreateFrame("Frame", settings)
-settings.Security.name = L.interface["Безопасность"]
+settings.Security.name = L["Безопасность"]
 settings.Security.parent = settings.name
 InterfaceOptions_AddCategory(settings.Security)
 
 settings.filters = CreateFrame("Frame", settings)
-settings.filters.name = L.interface["Фильтры"]
+settings.filters.name = L["Фильтры"]
 settings.filters.parent = settings.name
 InterfaceOptions_AddCategory(settings.filters)
 
@@ -53,27 +53,27 @@ settings.KeyBind.parent = settings.name
 InterfaceOptions_AddCategory(settings.KeyBind)
 
 settings.CustomizePost = CreateFrame("Frame", settings)
-settings.CustomizePost.name = L.interface["Настроить сообщения"]
+settings.CustomizePost.name = L["Настроить сообщения"]
 settings.CustomizePost.parent = settings.name
 InterfaceOptions_AddCategory(settings.CustomizePost)
 
 settings.Blacklist = CreateFrame("Frame", settings)
-settings.Blacklist.name = L.interface["Черный список"]
+settings.Blacklist.name = L["Черный список"]
 settings.Blacklist.parent = settings.name
 InterfaceOptions_AddCategory(settings.Blacklist)
 
 settings.Synchronization = CreateFrame("Frame", settings)
-settings.Synchronization.name = L.interface["Синхронизация"]
+settings.Synchronization.name = L["Синхронизация"]
 settings.Synchronization.parent = settings.name
 InterfaceOptions_AddCategory(settings.Synchronization)
 
 settings.CustomList = CreateFrame("Frame", settings)
-settings.CustomList.name = L.interface["Пользовательский список"]
+settings.CustomList.name = L["Пользовательский список"]
 settings.CustomList.parent = settings.name
 InterfaceOptions_AddCategory(settings.CustomList)
 
 settings.credits = CreateFrame("Frame", settings)
-settings.credits.name = L.interface["Благодарности"]
+settings.credits.name = L["Благодарности"]
 settings.credits.parent = settings.name
 InterfaceOptions_AddCategory(settings.credits)
 
@@ -101,7 +101,7 @@ settings:SetPoint("TOPLEFT", interface.settings, "TOPLEFT", 10, -10)
 settings.settingsCheckBoxGRP = GUI:Create("GroupFrame")
 local settingsCheckBoxGRP = settings.settingsCheckBoxGRP
 settingsCheckBoxGRP:SetLayout("NIL")
-settingsCheckBoxGRP:SetHeight(120)
+settingsCheckBoxGRP:SetHeight(185)
 settingsCheckBoxGRP:SetWidth(size.settingsCheckBoxGRP)
 settingsCheckBoxGRP:SetPoint("TOPLEFT", settings.frame, "TOPLEFT", 0, 0)
 settings:AddChild(settingsCheckBoxGRP)
@@ -109,12 +109,10 @@ settings:AddChild(settingsCheckBoxGRP)
 settingsCheckBoxGRP.addonMSG = GUI:Create("TCheckBox")
 local frame = settingsCheckBoxGRP.addonMSG
 frame:SetWidth(size.addonMSG)
-frame:SetLabel(L.interface["Выключить сообщения аддона"])
-frame:SetTooltip(L.interface.tooltip["Не отображать в чате сообщения аддона"])
-frame:SetDisabled(true)
--- fontSize(frame.text)
+frame:SetLabel(L["Выключить сообщения аддона"])
+frame:SetTooltip(L["Не отображать в чате сообщения аддона"])
 frame.frame:HookScript("OnClick", function()
-	DB.realm.addonMSG = settingsCheckBoxGRP.addonMSG:GetValue()
+	DB.global.addonMSG = settingsCheckBoxGRP.addonMSG:GetValue()
 end)
 frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.frame, "TOPLEFT", 0, 0)
 settingsCheckBoxGRP:AddChild(frame)
@@ -122,9 +120,8 @@ settingsCheckBoxGRP:AddChild(frame)
 settingsCheckBoxGRP.systemMSG = GUI:Create("TCheckBox")
 local frame = settingsCheckBoxGRP.systemMSG
 frame:SetWidth(size.systemMSG)
-frame:SetLabel(L.interface["Выключить системные сообщения"])
-frame:SetTooltip(L.interface.tooltip["Не отображать в чате системные сообщения"])
--- fontSize(frame.text)
+frame:SetLabel(L["Выключить системные сообщения"])
+frame:SetTooltip(L["Не отображать в чате системные сообщения"])
 frame.frame:HookScript("OnClick", function()
 	DB.realm.systemMSG = settingsCheckBoxGRP.systemMSG:GetValue()
 	updateMsgFilters()
@@ -136,9 +133,8 @@ settingsCheckBoxGRP:AddChild(frame)
 settingsCheckBoxGRP.sendMSG = GUI:Create("TCheckBox")
 local frame = settingsCheckBoxGRP.sendMSG
 frame:SetWidth(size.sendMSG)
-frame:SetLabel(L.interface["Выключить отправляемые сообщения"])
-frame:SetTooltip(L.interface.tooltip["Не отображать в чате отправляемые сообщения"])
--- fontSize(frame.text)
+frame:SetLabel(L["Выключить отправляемые сообщения"])
+frame:SetTooltip(L["Не отображать в чате отправляемые сообщения"])
 frame.frame:HookScript("OnClick", function()
 	DB.realm.sendMSG = settingsCheckBoxGRP.sendMSG:GetValue()
 	
@@ -149,9 +145,8 @@ settingsCheckBoxGRP:AddChild(frame)
 settingsCheckBoxGRP.minimapButton = GUI:Create("TCheckBox")
 local frame = settingsCheckBoxGRP.minimapButton
 frame:SetWidth(size.minimapButton)
-frame:SetLabel(L.interface["Не отображать значок у миникарты"])
+frame:SetLabel(L["Не отображать значок у миникарты"])
 frame:SetTooltip("")
--- fontSize(frame.text)
 frame.frame:HookScript("OnClick", function()
 	DB.global.minimap.hide = settingsCheckBoxGRP.minimapButton:GetValue()
 	if DB.global.minimap.hide then
@@ -163,16 +158,46 @@ end)
 frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.sendMSG.frame, "BOTTOMLEFT", 0, 0)
 settingsCheckBoxGRP:AddChild(frame)
 
+settingsCheckBoxGRP.createMenuButtons = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.createMenuButtons
+frame:SetWidth(size.createMenuButtons)
+frame:SetLabel(L["Добавлять кнопки аддона в выпадающее меню"])
+frame:SetTooltip(L["Требуется перезагрузка интерфейса"])
+frame.frame:HookScript("OnClick", function()
+	DB.global.createMenuButtons = settingsCheckBoxGRP.createMenuButtons:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.minimapButton.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.queueNotify = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.queueNotify
+frame:SetWidth(size.queueNotify)
+frame:SetLabel(L["Уведомление о найденных игроках"])
+frame.frame:HookScript("OnClick", function()
+	DB.global.queueNotify = settingsCheckBoxGRP.queueNotify:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.createMenuButtons.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.searchAlertNotify = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.searchAlertNotify
+frame:SetWidth(size.searchAlertNotify)
+frame:SetLabel(L["Уведомление о готовности нового поиска"])
+frame.frame:HookScript("OnClick", function()
+	DB.global.searchAlertNotify = settingsCheckBoxGRP.searchAlertNotify:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.queueNotify.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
 settingsCheckBoxGRP.rememberAll = GUI:Create("TCheckBox")
 local frame = settingsCheckBoxGRP.rememberAll
 frame:SetWidth(size.rememberAll)
-frame:SetLabel(L.interface["Запоминать всех игроков"])
-frame:SetTooltip(L.interface.tooltip["Записывать игрока в базу данных даже если приглашение не было отправлено"])
--- fontSize(frame.text)
+frame:SetLabel(L["Запоминать всех игроков"])
+frame:SetTooltip(L["Записывать игрока в базу данных даже если приглашение не было отправлено"])
 frame.frame:HookScript("OnClick", function()
-	DB.rememberAll = settingsCheckBoxGRP.rememberAll:GetValue()
+	DB.global.rememberAll = settingsCheckBoxGRP.rememberAll:GetValue()
 end)
-frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.minimapButton.frame, "BOTTOMLEFT", 0, 0)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.searchAlertNotify.frame, "BOTTOMLEFT", 0, 0)
 settingsCheckBoxGRP:AddChild(frame)
 
 
@@ -181,13 +206,14 @@ settingsCheckBoxGRP:AddChild(frame)
 settings.clearDBtimes = GUI:Create("Dropdown")
 local frame = settings.clearDBtimes
 frame:SetWidth(size.clearDBtimes)
-frame:SetLabel(L.interface.clearDBtimes["Время запоминания игрока"])
-frame:SetList({L.interface.clearDBtimes["Отключить"], L.interface.clearDBtimes["1 день"], L.interface.clearDBtimes["1 неделя"], L.interface.clearDBtimes["1 месяц"], L.interface.clearDBtimes["6 месяцев"],})
+frame:SetLabel(L["Время запоминания игрока"])
+frame:SetList({L["Отключить"], L["1 день"], L["1 неделя"], L["1 месяц"], L["6 месяцев"],})
 frame:SetCallback("OnValueChanged", function(key)
 	DB.global.clearDBtimes = settings.clearDBtimes:GetValue()
 end)
 frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.frame, "BOTTOMLEFT", 0, 0)
 settings:AddChild(frame)
+
 
 
 
@@ -201,13 +227,15 @@ frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
 	DB = addon.DB
 	
-	settingsCheckBoxGRP.addonMSG:SetValue(DB.realm.addonMSG or false)
+	settingsCheckBoxGRP.addonMSG:SetValue(DB.global.addonMSG or false)
 	settingsCheckBoxGRP.systemMSG:SetValue(DB.realm.systemMSG or false)
 	settingsCheckBoxGRP.sendMSG:SetValue(DB.realm.sendMSG or false)
 	settingsCheckBoxGRP.minimapButton:SetValue(DB.global.minimap.hide or false)
-	settingsCheckBoxGRP.rememberAll:SetValue(DB.rememberAll or false)
+	settingsCheckBoxGRP.rememberAll:SetValue(DB.global.rememberAll or false)
+	settingsCheckBoxGRP.createMenuButtons:SetValue(DB.global.createMenuButtons or false)
+	settingsCheckBoxGRP.queueNotify:SetValue(DB.global.queueNotify or false)
+	settingsCheckBoxGRP.searchAlertNotify:SetValue(DB.global.searchAlertNotify or false)
 	settings.clearDBtimes:SetValue(DB.global.clearDBtimes)
-	-- settingsCheckBoxGRP.addonMSG:SetValue(true)
 	
 	
 	updateMsgFilters()

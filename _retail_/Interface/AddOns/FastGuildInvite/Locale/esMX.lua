@@ -1,9 +1,3 @@
--- if not(GetLocale() == "esMX") then
-  -- return
--- end
+FGI.L.esMX = {}
+local L = FGI.L.esMX
 
-local L = {}
-
-
-
-FGI.L["esMX"] = L

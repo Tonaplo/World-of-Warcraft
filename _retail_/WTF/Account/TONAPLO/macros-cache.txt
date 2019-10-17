@@ -95,6 +95,10 @@ VER 3 0000000000000070 "MO HPriest08" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Prayer of Mending
 END
+VER 3 0000000000000082 "MO HPriest09" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Apotheosis; [talent:7/3] Holy Word: Salvation
+END
 VER 3 0000000000000071 "MO Monk01" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:1/2] Chi Wave; [talent:1/3] Chi Burst

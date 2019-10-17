@@ -1,7 +1,7 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
 local AB = assert(T.ActionBook:compatible(2, 21), "A compatible version of ActionBook is required.")
-local L = AB:locale(true)
+local L, C = AB:locale(true), GetLocale()
 
 local z, K, V = nil
 V = C == "deDE" and { -- 29/29 (100%)
