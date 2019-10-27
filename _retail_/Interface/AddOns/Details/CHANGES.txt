@@ -1,16 +1,10 @@
-lightweight tag fa92aa32847454af0821c2279e04bf1766d1cfeb v8.2.5.7209.140
+lightweight tag 9e97edb7c5c78294d07c10b8457f3f21a04bf1f8 v8.2.5.7224.140
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Tue Oct 8 13:31:02 2019 -0300
+Date:	Sun Oct 20 20:06:32 2019 -0300
 
-commit fa92aa32847454af0821c2279e04bf1766d1cfeb
+commit 9e97edb7c5c78294d07c10b8457f3f21a04bf1f8
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Tue Oct 8 13:31:02 2019 -0300
+Date:   Sun Oct 20 20:06:32 2019 -0300
 
-    Missed version update on last commit
-
-commit d9bd9e2617f64625512f73845c5fbc953f0f764f
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Tue Oct 8 13:14:24 2019 -0300
-
-    Fixed translation files and Translation updates.
+    Fixing
 

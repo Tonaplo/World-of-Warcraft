@@ -10,3 +10,4 @@ HandyNotes: enabled
 HandyNotes_DraenorTreasures: enabled
 LittleWigs: enabled
 OPie_Classic: disabled
+FastGuildInvite: disabled

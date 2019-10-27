@@ -7,7 +7,9 @@ Community:131344232:1 0 1 1
 General 0 2 0
 Trade 0 3 0
 LocalDefense 0 4 0
+Community:133832842:1 0 5 1
 Community:131397352:1 0 6 1
+Community:133985692:1 0 7 1
 END
 
 ZONECHANNELS 0
@@ -162,6 +164,8 @@ END
 
 CHANNELS
 Community:131344232:1
+Community:133832842:1
+Community:133985692:1
 END
 
 ZONECHANNELS 2097155

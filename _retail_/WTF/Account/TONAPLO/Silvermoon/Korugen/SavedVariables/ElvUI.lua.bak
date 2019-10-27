@@ -5,5 +5,137 @@ ElvCharacterDB = {
 		"/macro", -- [2]
 	},
 	["ChatHistoryLog"] = {
+		{
+			"Interrupted Shadowmoon Darkcaster's |cff71d5ff|Hspell:33508:0|h[Rain of Fire]|h|r!", -- [1]
+			"Darkqueenk-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Darkqueenk-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2217, -- [11]
+			"Player-3391-0954A765", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Darkqueenk|r",
+			[51] = 1571868442,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [1]
+		{
+			"Interrupted Shadowmoon Acolyte's |cff71d5ff|Hspell:15587:0|h[Mind Blast]|h|r!", -- [1]
+			"Darkqueenk-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Darkqueenk-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2227, -- [11]
+			"Player-3391-0954A765", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Darkqueenk|r",
+			[51] = 1571868462,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [2]
+		{
+			"Interrupted Shadowmoon Darkcaster's |cff71d5ff|Hspell:33508:0|h[Rain of Fire]|h|r!", -- [1]
+			"Darkqueenk-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Darkqueenk-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2306, -- [11]
+			"Player-3391-0954A765", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Darkqueenk|r",
+			[51] = 1571868612,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [3]
+		{
+			"hehe", -- [1]
+			"Nímander-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nímander-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2388, -- [11]
+			"Player-3702-06251638", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nímander-ArgentDawn|r",
+			[51] = 1571868823,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [4]
+		{
+			"Interrupted Shadowmoon Darkcaster's |cff71d5ff|Hspell:33508:0|h[Rain of Fire]|h|r!", -- [1]
+			"Darkqueenk-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Darkqueenk-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2453, -- [11]
+			"Player-3391-0954A765", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Darkqueenk|r",
+			[51] = 1571868976,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [5]
+		{
+			"lol", -- [1]
+			"Nímander-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nímander-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2477, -- [11]
+			"Player-3702-06251638", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nímander-ArgentDawn|r",
+			[51] = 1571869004,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [6]
 	},
 }

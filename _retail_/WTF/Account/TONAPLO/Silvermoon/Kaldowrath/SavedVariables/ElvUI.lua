@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i p2 now", -- [1]
-		"/i ?", -- [2]
-		"/i Interrupt the Forgotten denizens", -- [3]
-		"/i in P2, kill and interrupt the forgotten denizens, like you just did", -- [4]
-		"/i Yeah", -- [5]
-		"/i crazy", -- [6]
-		"/i aka Skull", -- [7]
-		"Good question", -- [8]
-		"I think ingame chat", -- [9]
-		"let me say it differently", -- [10]
-		"unless they purposedly removed it", -- [11]
-		"it should be there", -- [12]
-		"Least populated, lol", -- [13]
-		"First of all", -- [14]
-		"Alliance", -- [15]
-		"Second of all", -- [16]
-		"FUCK PvP realms", -- [17]
-		"no fucking way", -- [18]
-		"xo", -- [19]
-		"/g Nice with the DarkIron unlock!", -- [20]
+		"/i ?", -- [1]
+		"/i Interrupt the Forgotten denizens", -- [2]
+		"/i in P2, kill and interrupt the forgotten denizens, like you just did", -- [3]
+		"/i Yeah", -- [4]
+		"/i crazy", -- [5]
+		"/i aka Skull", -- [6]
+		"Good question", -- [7]
+		"I think ingame chat", -- [8]
+		"let me say it differently", -- [9]
+		"unless they purposedly removed it", -- [10]
+		"it should be there", -- [11]
+		"Least populated, lol", -- [12]
+		"First of all", -- [13]
+		"Alliance", -- [14]
+		"Second of all", -- [15]
+		"FUCK PvP realms", -- [16]
+		"no fucking way", -- [17]
+		"xo", -- [18]
+		"/g Nice with the DarkIron unlock!", -- [19]
+		"/s Kruc", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1893,5 +1893,27 @@ ElvCharacterDB = {
 			[51] = 1567719175,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [85]
+		{
+			"Kruc", -- [1]
+			"Kaldowrath-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kaldowrath-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			141, -- [11]
+			"Player-3391-0A827D3E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Kaldowrath|r",
+			[51] = 1572179204,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
 	},
 }

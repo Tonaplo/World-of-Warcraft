@@ -1,7 +1,7 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Mallusof-silvermoon"
+RaiderIO_LastCharacter = "eu-Praerend-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Sheardemon-silvermoon"] = true,
+	["eu-Hippí-silvermoon"] = true,
 }

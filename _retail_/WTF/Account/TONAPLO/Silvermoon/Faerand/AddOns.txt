@@ -66,3 +66,4 @@ ElvUI_OptionsUI: enabled
 ElvUI: enabled
 WeakAurasCompanion: enabled
 OPie_Classic: disabled
+FastGuildInvite: disabled

@@ -9,3 +9,5 @@ ElvUI: enabled
 HandyNotes: enabled
 HandyNotes_DraenorTreasures: enabled
 OPie_Classic: disabled
+FastGuildInvite: disabled
+LittleWigs: enabled

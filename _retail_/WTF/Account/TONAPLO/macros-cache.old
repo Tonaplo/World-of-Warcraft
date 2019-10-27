@@ -1,5 +1,5 @@
 VER 3 0000000000000081 "1 guild recrit" "INV_MISC_QUESTIONMARK"
-/2 Did you use to play WoW a ton, but then life took over? Got married, kids and responsibilities now, but still wanna sneak in some adventuring in Azeroth when you can? Then join 'Parents with Jobs' - we're just like you!
+/2 <Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier, founded by previous Mythic raiders. Currently recruiting across all roles. /w for more info.
 END
 VER 3 000000000000003A "Focus" "132222"
 /focus
@@ -94,6 +94,10 @@ END
 VER 3 0000000000000070 "MO HPriest08" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Prayer of Mending
+END
+VER 3 0000000000000082 "MO HPriest09" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Apotheosis; [talent:7/3] Holy Word: Salvation
 END
 VER 3 0000000000000071 "MO Monk01" "INV_MISC_QUESTIONMARK"
 #showtooltip
