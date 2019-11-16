@@ -65,3 +65,4 @@ WeakAurasTemplates: enabled
 ParagonReputation: enabled
 ElvUI_OptionsUI: enabled
 ElvUI: enabled
+OPie_Classic: disabled

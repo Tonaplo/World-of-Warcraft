@@ -1,7 +1,13 @@
 # BigWigs
 
-## [v168.2](https://github.com/BigWigsMods/BigWigs/tree/v168.2) (2019-10-10)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v168.1...v168.2)
+## [v169](https://github.com/BigWigsMods/BigWigs/tree/v169) (2019-11-06)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v168.2...v169)
 
-- Core: Make :GetEnableMobs() return a fresh table.  
-- Core/BossPrototype: Add :IsEngaged()  
+- Update luacheck file  
+- bump version  
+- Plugins/AutoReply: Update BNet usage.  
+- EternalPalace/QueenAzshara: Drycoded fix for the duration of Essence of Azeroth.  
+- Nyalotha/Options: Add empty options files  
+- Nyalotha/Shadhar: temp error fix  
+- Nyalotha: cleanups  
+- Nyalotha: Skeleton modules for all bosses  

@@ -72,6 +72,7 @@ local baseLocale = {
     ["Core_PersonalAchievement"] = "Personal Achievement",
     ["Core_Reason"] = "Reason",
     ["Core_CriteriaMet"] = "Criteria has been met. Boss can now be killed!",
+    ["Core_CriteriaMetManual"] = "Criteria has been met. Boss can now be killed! Warning: This tracker has used data manually collected by players.",
     ["Core_Counter"] = "Counter",
     ["Core_CombatLogEnabled"] = "Combat Logging enabled",
     ["Core_CombatLogDisabled"] = "Combat Logging disabled",
@@ -83,6 +84,15 @@ local baseLocale = {
     ["Core_EnableAddonFirst"] = "Please enable IAT in the options first before trying to toggle achievement tracking",
     ["Core_CompletedAllAchievements"] = "You have completed all achievements for this instance",
     ["Core_IncompletedAchievements"] = "Incomplete achievements for this instance",
+
+    -------------------------------------------------------
+    --- Instances
+    -------------------------------------------------------
+    ["MobCounter_TimeReamining"] = "Time remaining",
+    ["MobCounter_TimerNotStarted"] = "Timer not started",
+    ["MobCounter_MobsAlive"] = "%s alive",
+    ["MobCounter_MobsKilled"] = "%s killed in time",
+    ["MobCounter_TimerStarted"] = "Timer started %s remaining",
 
     -------------------------------------------------------
     --- Instances
@@ -177,11 +187,35 @@ local baseLocale = {
     ["Shared_NOW"] = "NOW!",
     ["Shared_PlayersRunningAddon2"] = "For IAT to track this achievement accurately, players collecting items need to be running the addon",
     ["Shared_Killed"] = "killed",
-    ["Shared_HasCaught"] ="has caught",
+    ["Shared_HasCaught"] = "has caught",
+    ["Shared_AutomaticTracking"] = "To track this achievement AUTOMATICALLY, players collecting items need to be running the addon",
+    ["Shared_ManualTracking"] = "To track this achievement MANUALLY players must type how many items they have collected into chat. (+3, -2 etc)",
+    ["Shared_AutomaticCounter"] = "Automatic Counter",
+    ["Shared_ManualCounter"] = "Manual Counter",
+    ["Shared_AddsKilled"] = "Adds killed",
 
     -------------------------------------------------------
     --- Battle of Dazar'alor
     -------------------------------------------------------
+
+    -------------------------------------------------------
+    --- Ny’alotha, the Walking City
+    -------------------------------------------------------
+    --Tactics
+    ["Ny’alotha_WrathionTheBlackEmperor"] = "",
+    ["Ny’alotha_Maut"] = "",
+    ["Ny’alotha_TheProphetSkitra"] = "",
+    ["Ny’alotha_DarkInquisitorXanesh"] = "",
+    ["Ny’alotha_TheHivemind"] = "",
+    ["Ny’alotha_ShadharTheInsatiable"] = "",
+    ["Ny’alotha_Drestagath"] = "",
+    ["Ny’alotha_Vexiona"] = "",
+    ["Ny’alotha_RadenTheDespoiled"] = "",
+    ["Ny’alotha_IlgynothCorruptionReborn"] = "",
+    ["Ny’alotha_CarapaceOfNZoth"] = "",
+    ["Ny’alotha_NZothTheCorruptor"] = "",
+    
+    --Chat Output
 
     -------------------------------------------------------
     --- The Eternal Palace
@@ -666,8 +700,8 @@ local baseLocale = {
     -------------------------------------------------------
     --Tactics
     ["UpperBlackrockSpire_Other"] = "",
-    ["UpperBlackrockSpire_RagewingTheUntamed"] = "",
-    ["UpperBlackrockSpire_WarlordZaela"] = "",
+    ["UpperBlackrockSpire_RagewingTheUntamed"] = "To complete this achievement, dps the boss to 70%% then wait for the first wave of %s to spawn. Next dps the boss down to 30%% then wait for the second wave of %s to spawn. Once all the adds are together DPS them down before the boss returns to the platform.",
+    ["UpperBlackrockSpire_WarlordZaela"] = "To complete this achievement, bring the boss down to 60%% health then wait for the boss to go into the air. Next kill 5 %s which spawn around the sides of the platform. Once you have killed 5 %s, you can kill the boss.",
 
     --Chat Output
 

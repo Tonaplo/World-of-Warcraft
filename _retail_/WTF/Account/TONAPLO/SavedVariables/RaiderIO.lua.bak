@@ -1,7 +1,13 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Praerend-silvermoon"
+RaiderIO_LastCharacter = "eu-Burdett-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Hippí-silvermoon"] = true,
+	["eu-Wulia-silvermoon"] = true,
+	["eu-Lubrinto-nagrand"] = true,
+	["eu-Skullmage-silvermoon"] = true,
+	["eu-Nightcaller-ghostlands"] = true,
+	["eu-Picipriest-ragnaros"] = true,
+	["eu-Hønux-pozzo-delleternità"] = true,
+	["eu-Bammbamm-silvermoon"] = true,
 }

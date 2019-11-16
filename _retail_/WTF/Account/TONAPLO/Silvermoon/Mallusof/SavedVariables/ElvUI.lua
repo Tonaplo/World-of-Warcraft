@@ -1,1288 +1,1286 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"Sleep tight :)", -- [1]
-		"/s r", -- [2]
-		"/p ress", -- [3]
-		"/p wgat", -- [4]
-		"/p through GS?", -- [5]
-		"/p wtf", -- [6]
-		"/p dc?", -- [7]
-		"/p ye", -- [8]
-		"/p wont help", -- [9]
-		"/p we need to run past anyway", -- [10]
-		"/p I'd agree", -- [11]
-		"/p Welp", -- [12]
-		"/p what a dick", -- [13]
-		"/p sorry man", -- [14]
-		"/p welp, good luck onm your 13 then", -- [15]
-		"/p This week is easy", -- [16]
-		"/p which is why there are alot of shitters", -- [17]
-		"/p lol", -- [18]
-		"/p havea  good one", -- [19]
-		"/s dude", -- [20]
+		"/p eat", -- [1]
+		"/p agree", -- [2]
+		"/p play safe", -- [3]
+		"/p Yeeeeees", -- [4]
+		"/p Very nice indeed", -- [5]
+		"/p Key is useless now though lol", -- [6]
+		"/p Already have Waycrest 15 in time :P", -- [7]
+		"/p That was some awesome runes", -- [8]
+		"/p yeah me too", -- [9]
+		"/p Almost 1 am here", -- [10]
+		"/p Yeah, lol", -- [11]
+		"/p Yeah, awesome job mate", -- [12]
+		"/p dude same", -- [13]
+		"/p It's stress from the achievement lol", -- [14]
+		"/p bb", -- [15]
+		"/p Dude yaas", -- [16]
+		"/p Alright, I'm going to bed", -- [17]
+		"/p thanks for awesome keys", -- [18]
+		"/p cya later for more :)", -- [19]
+		"/p cheers!", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"the tank for +14 ML I had did not know how tank 3rd boss so all the melee died to the pool dmg", -- [1]
-			"|Kq1|k", -- [2]
+			"INVIS POTS", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			526, -- [11]
-			false, -- [12]
-			18, -- [13]
+			558, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Zeel",
-			[51] = 1572124542,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Zeel",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686073,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [1]
 		{
-			"hmmm... Recont messing up", -- [1]
-			"|Kq41|k", -- [2]
+			"ye", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			527, -- [11]
-			false, -- [12]
-			24, -- [13]
+			559, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Adionis",
-			[51] = 1572124544,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686079,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [2]
 		{
-			"becuase he moved the boss to slowly", -- [1]
-			"|Kq1|k", -- [2]
+			"drink", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			529, -- [11]
-			false, -- [12]
-			18, -- [13]
+			570, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Zeel",
-			[51] = 1572124547,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Zeel",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686266,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [3]
 		{
-			"wrong target", -- [1]
-			"|Kq41|k", -- [2]
+			"start", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			531, -- [11]
-			false, -- [12]
-			24, -- [13]
+			571, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Adionis",
-			[51] = 1572124550,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686266,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [4]
 		{
-			"sorry - trying to type and heal.", -- [1]
-			"|Kq41|k", -- [2]
+			"start", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			538, -- [11]
-			false, -- [12]
-			24, -- [13]
+			572, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Adionis",
-			[51] = 1572124590,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686267,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [5]
 		{
-			"no worries", -- [1]
-			"|Kq41|k", -- [2]
+			"New Keystone: |cffa335ee|Hkeystone:158923:245:15:10:8:14:119|h[Keystone: Freehold (15)]|h|r", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			540, -- [11]
-			false, -- [12]
-			24, -- [13]
+			587, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Adionis",
-			[51] = 1572124596,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686480,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [6]
 		{
-			"Heroic or?", -- [1]
-			"|Kq41|k", -- [2]
+			"nice one", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			542, -- [11]
-			false, -- [12]
-			24, -- [13]
+			589, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Adionis",
-			[51] = 1572124601,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686483,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [7]
 		{
-			"normal, for Panthro", -- [1]
-			"|Kq41|k", -- [2]
+			"not even close?", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			546, -- [11]
-			false, -- [12]
-			24, -- [13]
+			590, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Adionis",
-			[51] = 1572124614,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686485,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [8]
 		{
-			"I'm gonna have to go soon matey, be good to have a proper catch up soon. Maybe even play together (although I'm very rusty)", -- [1]
-			"|Kq12|k", -- [2]
+			"|cffa335ee|Hkeystone:158923:245:15:10:8:14:119|h[Keystone: Freehold (15)]|h|r", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			639, -- [11]
-			false, -- [12]
-			12, -- [13]
+			592, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572124945,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686488,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [9]
 		{
-			"Yeah, that would be awesome :)", -- [1]
-			"|Kq12|k", -- [2]
+			"yeah, I thought that was gonna fail lol", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			641, -- [11]
-			false, -- [12]
-			12, -- [13]
+			599, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572124959,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686496,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [10]
 		{
-			"I havent really played 'properly' since Cata, only really dipped in and out of each expansion since", -- [1]
-			"|Kq12|k", -- [2]
+			"that last wipe was so bad lmao", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			660, -- [11]
-			false, -- [12]
-			12, -- [13]
+			603, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125045,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686505,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [11]
 		{
-			"So with us? :)", -- [1]
-			"|Kq12|k", -- [2]
+			"yeah, haha", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			604, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686509,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [12]
+		{
+			"Alright", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			606, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686517,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [13]
+		{
+			"Think we can do the 15 Freehold?", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			607, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686523,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [14]
+		{
+			"do you know which event is this week?", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			611, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686543,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [15]
+		{
+			"in fh", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			612, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686544,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [16]
+		{
+			"dog?", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			613, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686545,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [17]
+		{
+			"Yeah", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			621, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686581,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [18]
+		{
+			"it's dog", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			623, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686582,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [19]
+		{
+			"However", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			624, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686593,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [20]
+		{
+			"there are Void emissaries there", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			627, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686598,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [21]
+		{
+			"so Rogues cant solo this week", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			628, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686603,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [22]
+		{
+			"holy $%^&", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			630, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686610,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [23]
+		{
+			"im not gonna clear the whole *!@#", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			633, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686617,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [24]
+		{
+			"gimme a sec, need to google smthn", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			640, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686643,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [25]
+		{
+			"https://raider.io/news/60-the-weekly-route-fortified-sanguine-quaking-and-beguiling#freehold", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			642, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686662,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [26]
+		{
+			"ok i got a plan", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			643, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686669,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [27]
+		{
+			"i just read that i can chase the dog while pulling everything, then i die andd you rezz", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			647, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686690,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [28]
+		{
+			"you just literally wait on the other side of the bridge lmao", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			648, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686699,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [29]
+		{
+			"Yeah, I saw that too", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			649, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686700,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [30]
+		{
+			"then we get dog and we should be gucci", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			650, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686718,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [31]
+		{
+			"lets try it, what could go wrong lmao", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			651, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686726,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [32]
+		{
+			"Shammy", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			652, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686765,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [33]
+		{
+			"howdy", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			654, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686777,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [34]
+		{
+			"hey ho)", -- [1]
+			"Ддаррк-ПиратскаяБухта", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ддаррк-ПиратскаяБухта", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			655, -- [11]
+			"Player-1924-09582EF8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
+			[51] = 1573686789,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [35]
+		{
+			"hi", -- [1]
+			"Treey-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Treey-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			656, -- [11]
+			"Player-1098-08FFB062", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTreey-Malygos|r",
+			[51] = 1573686814,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [36]
+		{
+			"Biggo is gonna do the Dog event by pulling stuff through the dog and have me rezz from afart", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			657, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686819,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [37]
+		{
+			"fyi", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			658, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686826,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [38]
+		{
+			"I still think we need to kill the Void emi that's to the right after crossing the bridgfe", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			662, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686896,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [39]
+		{
+			"to dog", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			663, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686899,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [40]
+		{
+			"uh", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			664, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686956,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [41]
+		{
+			"readycheck? :)", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			665, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686963,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [42]
+		{
+			"yeah we´ll figure it out", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			666, -- [11]
-			false, -- [12]
-			12, -- [13]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125063,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [12]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686963,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [43]
 		{
-			"Yep, been guildless since then", -- [1]
-			"|Kq12|k", -- [2]
+			"gotta prepare myself", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			673, -- [11]
-			false, -- [12]
-			12, -- [13]
+			668, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125080,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [13]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573686970,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [44]
 		{
-			"but then wow has catered more to the solo player, but not as fulfilling ", -- [1]
-			"|Kq12|k", -- [2]
+			"sec", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			669, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686977,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [45]
+		{
+			"nvm", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			670, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686979,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [46]
+		{
+			"going", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			671, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573686981,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [47]
+		{
+			"|cffa335ee|Hkeystone:158923:245:14:10:8:14:119|h[Keystone: Freehold (14)]|h|r", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			677, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687133,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [48]
+		{
+			"r", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			688, -- [11]
-			false, -- [12]
-			12, -- [13]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125127,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [14]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687245,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [49]
 		{
-			"true :)", -- [1]
-			"|Kq12|k", -- [2]
+			"r", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			694, -- [11]
-			false, -- [12]
-			12, -- [13]
+			693, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125139,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [15]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687317,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [50]
 		{
-			"anyway, catch you later. Really good to talk you :D", -- [1]
-			"|Kq12|k", -- [2]
+			"aight", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			700, -- [11]
-			false, -- [12]
-			12, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125200,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [16]
-		{
-			"You too man :)", -- [1]
-			"|Kq12|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			702, -- [11]
-			false, -- [12]
-			12, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125208,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [17]
-		{
-			"Sleep tight :)", -- [1]
-			"|Kq12|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			703, -- [11]
-			false, -- [12]
-			12, -- [13]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125216,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [18]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687438,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [51]
 		{
-			"o/", -- [1]
-			"|Kq12|k", -- [2]
+			"you can wait here", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			704, -- [11]
-			false, -- [12]
-			12, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Ruinopolis",
-			[51] = 1572125216,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [19]
-		{
-			"i take war or rogue ? ", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			991, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572125645,
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687441,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [20]
-		{
-			"i have drums", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			993, -- [11]
-			"Player-1302-0A40266C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572125658,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [21]
-		{
-			"hello", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1002, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572125710,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
-		{
-			"hi ", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1003, -- [11]
-			"Player-1302-0A40266C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572125716,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [23]
-		{
-			"i have drums", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1004, -- [11]
-			"Player-1302-0A40266C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572125719,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [24]
-		{
-			"hi", -- [1]
-			"Zßrø-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zßrø-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1005, -- [11]
-			"Player-1403-065A68F9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZßrø-Draenor|r",
-			[51] = 1572125722,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
-		{
-			"let's go kill this key", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1006, -- [11]
-			"Player-1302-0A40266C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572125801,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [26]
-		{
-			"r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1040, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572125909,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
-		{
-			"u have the lead", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1044, -- [11]
-			"Player-1302-0A40266C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572125970,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
-		{
-			"Fixate on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1045, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572125972,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
-		{
-			"Fixate on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1046, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572125973,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
-		{
-			"Fixate on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1051, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126089,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
-		{
-			"bl pull", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1055, -- [11]
-			"Player-1302-0A40266C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572126286,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
-		{
-			"Pull in 5 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1056, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572126292,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [33]
-		{
-			"Pull in 4 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1057, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572126293,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [34]
-		{
-			"Pull in 3 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1058, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572126294,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [35]
-		{
-			"Pull in 2 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1059, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572126295,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [36]
-		{
-			"Pull in 1 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1060, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572126296,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [37]
-		{
-			">>> Pull <<<", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1061, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572126297,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [38]
-		{
-			"Spit Gold on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1070, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126351,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
-		{
-			"3", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1071, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126357,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
-		{
-			"2", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1072, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126358,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
-		{
-			"1", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1073, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126359,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
-		{
-			"3", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1074, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126367,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
-		{
-			"2", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1075, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126368,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
-		{
-			"1", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1076, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126369,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
-		{
-			"Spit Gold on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1079, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126396,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
-		{
-			"3", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1080, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126402,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
-		{
-			"2", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1081, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126403,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
-		{
-			"1", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1082, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126404,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
-		{
-			"3", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1083, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126412,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
-		{
-			"2", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1084, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126413,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
-		{
-			"1", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1085, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126414,
-			[50] = "CHAT_MSG_SAY",
 		}, -- [52]
 		{
-			"3", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
+			"wait here and wish me lukc", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1086, -- [11]
-			"Player-1315-0A456791", -- [12]
+			705, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126439,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687463,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [53]
 		{
-			"2", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1087, -- [11]
-			"Player-1315-0A456791", -- [12]
+			709, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126440,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687486,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [54]
 		{
-			"1", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
+			"got him", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1088, -- [11]
-			"Player-1315-0A456791", -- [12]
+			711, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126441,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687487,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [55]
 		{
-			"Crachat d’or sur Xyluss", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"Common", -- [3]
+			"Casting mass resurrection!", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1089, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			712, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572126442,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687494,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [56]
 		{
-			"Spit Gold on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"we good ", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1091, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			714, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126454,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687499,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [57]
 		{
-			"3", -- [1]
+			"awesome", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -1290,7 +1288,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1092, -- [11]
+			715, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1298,13 +1296,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126460,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1573687507,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [58]
 		{
-			"2", -- [1]
+			"emi pulled", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -1312,7 +1310,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1093, -- [11]
+			717, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1320,13 +1318,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126461,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1573687532,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [59]
 		{
-			"1", -- [1]
+			"care", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -1334,7 +1332,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1094, -- [11]
+			718, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1342,35 +1340,35 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126462,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1573687534,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [60]
 		{
-			"Casting mass resurrection!", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"oooof", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1095, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			723, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126470,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687665,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [61]
 		{
-			"Hidden Blade on Mallusof", -- [1]
+			"emi", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -1378,7 +1376,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1101, -- [11]
+			724, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1386,13 +1384,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126623,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1573687674,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [62]
 		{
-			"Bladestorm on Mallusof", -- [1]
+			"righyt side", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -1400,7 +1398,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1102, -- [11]
+			726, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1408,33 +1406,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126687,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1573687675,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [63]
 		{
-			"Casting mass resurrection!", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"rather clear tbh", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1105, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			727, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126750,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687690,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [64]
 		{
-			"Casting mass resurrection!", -- [1]
+			"agree", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1444,7 +1442,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1113, -- [11]
+			728, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1452,33 +1450,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126861,
+			[51] = 1573687705,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [65]
 		{
-			"rebuff plz", -- [1]
-			"Littlekoñg-Elune", -- [2]
+			"maana", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1114, -- [11]
-			"Player-1315-0A456791", -- [12]
+			729, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572126880,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687763,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [66]
 		{
-			"ress", -- [1]
+			"r", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1488,7 +1486,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1117, -- [11]
+			730, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1496,11 +1494,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572126958,
+			[51] = 1573687777,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [67]
 		{
-			"Casting mass resurrection!", -- [1]
+			"more trash", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1510,7 +1508,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1121, -- [11]
+			731, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1518,449 +1516,185 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127041,
+			[51] = 1573687800,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [68]
 		{
-			"REP , ", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"hero for boss", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1122, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			732, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127043,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687802,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [69]
 		{
-			"?", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"yew", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1123, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			735, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127047,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687808,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [70]
 		{
-			"^^", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
+			"Ricocheting Throw on Mallusof", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1125, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			736, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127047,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687820,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [71]
 		{
-			"BL other boss", -- [1]
-			"Xyluss-Archimonde", -- [2]
-			"", -- [3]
+			"Ricocheting Throw on Mallusof", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1131, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			739, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127180,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573687837,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [72]
 		{
-			"Pull in 5 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"going endboss", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1132, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			741, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127182,
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687860,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [73]
 		{
-			"?", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"after 2nd", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1133, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			742, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127183,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687862,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [74]
 		{
-			"Pull in 4 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"then invis to 3rd", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1134, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			743, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127183,
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687865,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [75]
 		{
-			"Pull in 3 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"endboss without ht 3rd boss with ht", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1135, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			744, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127184,
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573687881,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [76]
-		{
-			"Pull in 2 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1136, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127185,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [77]
-		{
-			"Pull in 1 sec.", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1137, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127186,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [78]
-		{
-			">>> Pull <<<", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1138, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127187,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
-		{
-			"bl here", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1140, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127197,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
-		{
-			"wgat", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1156, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127346,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
-		{
-			"rebuff plz", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1160, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572127359,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
-		{
-			"through GS?", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1161, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127363,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
-		{
-			"wtf", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1162, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127365,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
-		{
-			"that brute coming back in a second..-.-", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1169, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127551,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
-		{
-			"buff war", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1170, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572127611,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
-		{
-			"thx", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1171, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572127626,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
-		{
-			"Hunting Leap on Littlekoñg", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1172, -- [11]
-			"Player-1315-0A456791", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572127695,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
 		{
 			"Casting mass resurrection!", -- [1]
 			"Mallusof-Silvermoon", -- [2]
@@ -1972,7 +1706,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1174, -- [11]
+			753, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1980,143 +1714,385 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127753,
+			[51] = 1573688041,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [89]
+		}, -- [77]
 		{
-			"3", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
+			"eat", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1176, -- [11]
-			"Player-1315-0A456791", -- [12]
+			756, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572127775,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688315,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [78]
+		{
+			"Cannon Barrage on Mallusof", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			759, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688345,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [79]
+		{
+			"Cannon Barrage on Mallusof", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			765, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688399,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [80]
+		{
+			"Cannon Barrage on Mallusof", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			771, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688417,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [81]
+		{
+			"Cannon Barrage on Treey", -- [1]
+			"Treey-Malygos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Treey-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			773, -- [11]
+			"Player-1098-08FFB062", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTreey-Malygos|r",
+			[51] = 1573688417,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [82]
+		{
+			"ht at sharkdude^^", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			782, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688531,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [83]
+		{
+			"aight dont wipe = intime i think^^", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			788, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688587,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [84]
+		{
+			"no jinx", -- [1]
+			"Treey-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Treey-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			789, -- [11]
+			"Player-1098-08FFB062", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTreey-Malygos|r",
+			[51] = 1573688596,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [85]
+		{
+			"agree", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			790, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688611,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [86]
+		{
+			"play safe", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			791, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688613,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [87]
+		{
+			"prepot^^", -- [1]
+			"Biggo-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biggo-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			794, -- [11]
+			"Player-1098-0887849D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688691,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [88]
+		{
+			"Shark Toss on Mallusof", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			796, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688736,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"Бросок акулы на Ддаррк!", -- [1]
+			"Ддаррк-ПиратскаяБухта", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ддаррк-ПиратскаяБухта", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			799, -- [11]
+			"Player-1924-09582EF8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
+			[51] = 1573688768,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [90]
 		{
-			"2", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
+			"New Keystone: |cffa335ee|Hkeystone:158923:248:16:10:8:14:119|h[Keystone: Waycrest Manor (16)]|h|r", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1177, -- [11]
-			"Player-1315-0A456791", -- [12]
+			800, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572127776,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688807,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [91]
 		{
-			"1", -- [1]
-			"Littlekoñg-Elune", -- [2]
-			"Common", -- [3]
+			"Yeeeeees", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Littlekoñg-Elune", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1178, -- [11]
-			"Player-1315-0A456791", -- [12]
+			801, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Littlekoñg-Elune|r",
-			[51] = 1572127777,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688810,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [92]
 		{
-			"shourd ? ", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"gotcha", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1179, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			802, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127836,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688814,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [93]
 		{
-			"after ? ", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"gj", -- [1]
+			"Ддаррк-ПиратскаяБухта", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Ддаррк-ПиратскаяБухта", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1180, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			803, -- [11]
+			"Player-1924-09582EF8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127839,
+			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
+			[51] = 1573688822,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"void", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1181, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127856,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [95]
-		{
-			"dc?", -- [1]
+			"Very nice indeed", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2126,7 +2102,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1182, -- [11]
+			804, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2134,143 +2110,143 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127865,
+			[51] = 1573688829,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [95]
+		{
+			"Key is useless now though lol", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			805, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688837,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [96]
 		{
-			"wait :s", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"|cffa335ee|Hkeystone:158923:248:16:10:8:14:119|h[Keystone: Waycrest Manor (16)]|h|r", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1183, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			811, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127878,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688847,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [97]
 		{
-			"priest can u meld?", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"Already have Waycrest 15 in time :P", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1184, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			815, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127891,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688862,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [98]
 		{
-			"ye", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"^^", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1185, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			816, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127895,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688865,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [99]
 		{
-			"we death run then", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"+", -- [1]
+			"Ддаррк-ПиратскаяБухта", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Ддаррк-ПиратскаяБухта", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1186, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			817, -- [11]
+			"Player-1924-09582EF8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127901,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
+			[51] = 1573688869,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [100]
 		{
-			"wont help", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"honestly i think i might call it a day", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1187, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			818, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127903,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688874,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [101]
 		{
-			"but", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1188, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127906,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [102]
-		{
-			"we need to run past anyway", -- [1]
+			"That was some awesome runes", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2280,7 +2256,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1189, -- [11]
+			819, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2288,33 +2264,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127907,
+			[51] = 1573688878,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [102]
+		{
+			"yeah me too", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			820, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688882,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [103]
 		{
-			"rogue is not coming back imo", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1190, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127916,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [104]
-		{
-			"I'd agree", -- [1]
+			"Almost 1 am here", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2324,7 +2300,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1191, -- [11]
+			821, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2332,99 +2308,121 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572127925,
+			[51] = 1573688888,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [105]
+		}, -- [104]
 		{
-			":s", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"+15 are so exhausting", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1194, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			822, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127937,
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688888,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [105]
+		{
+			"Yeah, lol", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			823, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688896,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [106]
 		{
-			"wait some minute ", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"ty shammy for tagging along^^", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1195, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			827, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572127950,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688906,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [107]
 		{
-			"yep", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"idk what it is im super chill in like 11 to 12 but if there is the number 15 im breaking my fingers", -- [1]
+			"Treey-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Treey-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1196, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			829, -- [11]
+			"Player-1098-08FFB062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572127968,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cTreey-Malygos|r",
+			[51] = 1573688913,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [108]
 		{
-			"TT", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"np)", -- [1]
+			"Ддаррк-ПиратскаяБухта", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Ддаррк-ПиратскаяБухта", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1197, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			830, -- [11]
+			"Player-1924-09582EF8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572128024,
+			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
+			[51] = 1573688913,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [109]
 		{
-			"Welp", -- [1]
+			"Yeah, awesome job mate", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2434,7 +2432,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1198, -- [11]
+			831, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2442,11 +2440,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572128027,
+			[51] = 1573688914,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [110]
 		{
-			"what a dick", -- [1]
+			"dude same", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2456,7 +2454,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1199, -- [11]
+			833, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2464,77 +2462,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572128029,
+			[51] = 1573688923,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [111]
 		{
-			"ok", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"bb all)", -- [1]
+			"Ддаррк-ПиратскаяБухта", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Ддаррк-ПиратскаяБухта", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1200, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			834, -- [11]
+			"Player-1924-09582EF8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572128123,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
+			[51] = 1573688924,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [112]
 		{
-			"think we can call it", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"ade", -- [1]
+			"Treey-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Treey-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1201, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			837, -- [11]
+			"Player-1098-08FFB062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572128129,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cTreey-Malygos|r",
+			[51] = 1573688927,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [113]
 		{
-			"so ?", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"It's stress from the achievement lol", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1202, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			838, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572128134,
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688928,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [114]
 		{
-			"sorry man", -- [1]
+			"bb", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2544,7 +2542,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1203, -- [11]
+			840, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2552,143 +2550,121 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572128136,
+			[51] = 1573688929,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [115]
 		{
-			"ups", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"yeah", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1204, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			844, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572128151,
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688936,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [116]
 		{
-			"sorry for key", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"but at least we broke the curse", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1205, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			845, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572128161,
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688941,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [117]
 		{
-			"go in 13 ? ", -- [1]
-			"Xyluss-Archimonde", -- [2]
+			"this week", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xyluss-Archimonde", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1206, -- [11]
-			"Player-1302-0A40266C", -- [12]
+			847, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Xyluss-Archimonde|r",
-			[51] = 1572128164,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688946,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [118]
 		{
-			"welp, good luck onm your 13 then", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Atal dazar +15", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1207, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			848, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572128169,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688949,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [119]
 		{
-			"this week is hard and game is full of %^&*!@#s", -- [1]
-			"Khaldavere-Nemesis", -- [2]
+			"believe", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1208, -- [11]
-			"Player-1316-06FF662F", -- [12]
+			849, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572128176,
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688951,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [120]
 		{
-			"dont like teeming so much", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1209, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572128196,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [121]
-		{
-			"This week is easy", -- [1]
+			"Dude yaas", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2698,7 +2674,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1210, -- [11]
+			851, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2706,33 +2682,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572128203,
+			[51] = 1573688964,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [121]
+		{
+			"Alright, I'm going to bed", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			853, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1573688973,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [122]
 		{
-			"ty guys bb", -- [1]
-			"Khaldavere-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khaldavere-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1211, -- [11]
-			"Player-1316-06FF662F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khaldavere-Nemesis|r",
-			[51] = 1572128206,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [123]
-		{
-			"which is why there are alot of $%^&ters", -- [1]
+			"thanks for awesome keys", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2742,7 +2718,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1212, -- [11]
+			854, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2750,33 +2726,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572128210,
+			[51] = 1573688975,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [123]
+		{
+			"cheers dude", -- [1]
+			"Treey-Malygos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Treey-Malygos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			855, -- [11]
+			"Player-1098-08FFB062", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cTreey-Malygos|r",
+			[51] = 1573688978,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [124]
 		{
-			"lol", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"cheers^^", -- [1]
+			"Biggo-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Biggo-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1213, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			856, -- [11]
+			"Player-1098-0887849D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572128210,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Biggo-Malygos|r",
+			[51] = 1573688980,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [125]
 		{
-			"havea  good one", -- [1]
+			"cya later for more :)", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2786,7 +2784,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1214, -- [11]
+			857, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2794,13 +2792,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572128213,
+			[51] = 1573688980,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [126]
 		{
-			"vwyq", -- [1]
+			"cheers!", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"Shath'Yar", -- [3]
+			"", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -2808,7 +2806,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			60, -- [11]
+			860, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2816,8 +2814,8 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1572164281,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1573688982,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [127]
 	},
 }

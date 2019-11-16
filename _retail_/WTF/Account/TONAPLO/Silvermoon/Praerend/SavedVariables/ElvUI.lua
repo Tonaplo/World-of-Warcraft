@@ -1,10 +1,10 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Monttana-Silvermoon How much is Zaqul as well?", -- [1]
-		"/cw Monttana-Silvermoon How much gold?", -- [2]
+		"/elvui", -- [1]
+		"/cw Monttana-Silvermoon How much is Zaqul as well?", -- [2]
 		"/cw Monttana-Silvermoon Only Aszhara or is that the whole thing?", -- [3]
-		"/elvui", -- [4]
+		"/cw Monttana-Silvermoon How much gold?", -- [4]
 		"/cw Monttana-Silvermoon My main is 440", -- [5]
 		"/cw Monttana-Silvermoon As in I could you this myself, if I didnt have to have the achievement to get into litereally every group", -- [6]
 		"/cw Monttana-Silvermoon I might be interested in doing it later tonigh, but not right now. Thanks for the info", -- [7]
