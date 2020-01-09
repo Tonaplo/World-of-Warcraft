@@ -1,32 +1,32 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p eat", -- [1]
-		"/p agree", -- [2]
-		"/p play safe", -- [3]
-		"/p Yeeeeees", -- [4]
-		"/p Very nice indeed", -- [5]
-		"/p Key is useless now though lol", -- [6]
-		"/p Already have Waycrest 15 in time :P", -- [7]
-		"/p That was some awesome runes", -- [8]
-		"/p yeah me too", -- [9]
-		"/p Almost 1 am here", -- [10]
-		"/p Yeah, lol", -- [11]
-		"/p Yeah, awesome job mate", -- [12]
-		"/p dude same", -- [13]
-		"/p It's stress from the achievement lol", -- [14]
-		"/p bb", -- [15]
-		"/p Dude yaas", -- [16]
-		"/p Alright, I'm going to bed", -- [17]
-		"/p thanks for awesome keys", -- [18]
-		"/p cya later for more :)", -- [19]
-		"/p cheers!", -- [20]
+		"/cw Milti-Silvermoon Basically judgement :) Is this your main character?", -- [1]
+		"/cw Milti-Silvermoon You dont have a lot of logs so if you have some more that would be great to look at :)", -- [2]
+		"/cw Milti-Silvermoon Ahh great :) What's the Paladin's name?", -- [3]
+		"/cw Milti-Silvermoon We would expect you to to get up to around 430 ilevel at least for the start for Nyalotha, so you got some grinding to do :)", -- [4]
+		"/cw Milti-Silvermoon Oh Warcraft logs wasnt updated, so you're not that far behind", -- [5]
+		"/cw Milti-Silvermoon Actually We have no Warriors, haha", -- [6]
+		"/cw Milti-Silvermoon So would love the warrior :)", -- [7]
+		"/cw Milti-Silvermoon We raid only once a week, every Wednesday yes :)", -- [8]
+		"/cw Milti-Silvermoon We've had a break after killing Azshara over Christmas", -- [9]
+		"/cw Milti-Silvermoon But we're raiding the first day of the raid releasing", -- [10]
+		"/cw Milti-Silvermoon Do you have Discord?", -- [11]
+		"/cw Milti-Silvermoon https://discord.gg/WsWcNP", -- [12]
+		"/cw Milti-Silvermoon Come join the Discord and have a look at the links section :)", -- [13]
+		"/cw Milti-Silvermoon There you can read a little more about us :)", -- [14]
+		"/cw Milti-Silvermoon If we still sound like what you wanna do, then you're vbery welcome :)", -- [15]
+		"/cw Milti-Silvermoon No worries! :)", -- [16]
+		"/cw Milti-Silvermoon There are links toi join", -- [17]
+		"/cw Milti-Silvermoon the community", -- [18]
+		"/cw Milti-Silvermoon in Discord too :)", -- [19]
+		"/macro", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"INVIS POTS", -- [1]
+			"2", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -34,7 +34,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			558, -- [11]
+			886, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -42,57 +42,57 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686073,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578523192,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [1]
 		{
-			"ye", -- [1]
-			"Biggo-Malygos", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			559, -- [11]
-			"Player-1098-0887849D", -- [12]
+			888, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686079,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578523193,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [2]
 		{
-			"drink", -- [1]
-			"Biggo-Malygos", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			570, -- [11]
-			"Player-1098-0887849D", -- [12]
+			892, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686266,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523241,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [3]
 		{
-			"start", -- [1]
+			"3", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -100,7 +100,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			571, -- [11]
+			893, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -108,35 +108,35 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686266,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578523241,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [4]
 		{
-			"start", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"2", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			572, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			895, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686267,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523243,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [5]
 		{
-			"New Keystone: |cffa335ee|Hkeystone:158923:245:15:10:8:14:119|h[Keystone: Freehold (15)]|h|r", -- [1]
+			"2", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -144,7 +144,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			587, -- [11]
+			896, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -152,79 +152,79 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686480,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578523243,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [6]
 		{
-			"nice one", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			589, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			898, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686483,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523243,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [7]
 		{
-			"not even close?", -- [1]
-			"Biggo-Malygos", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			590, -- [11]
-			"Player-1098-0887849D", -- [12]
+			899, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686485,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578523243,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [8]
 		{
-			"|cffa335ee|Hkeystone:158923:245:15:10:8:14:119|h[Keystone: Freehold (15)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			592, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			901, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686488,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523260,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [9]
 		{
-			"yeah, I thought that was gonna fail lol", -- [1]
+			"3", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -232,7 +232,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			599, -- [11]
+			902, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -240,35 +240,35 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686496,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578523260,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [10]
 		{
-			"that last wipe was so bad lmao", -- [1]
-			"Biggo-Malygos", -- [2]
-			"", -- [3]
+			"2", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			603, -- [11]
-			"Player-1098-0887849D", -- [12]
+			904, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686505,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523261,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [11]
 		{
-			"yeah, haha", -- [1]
+			"2", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -276,7 +276,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			604, -- [11]
+			905, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -284,35 +284,35 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686509,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578523261,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [12]
 		{
-			"Alright", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			606, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			907, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686517,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523262,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [13]
 		{
-			"Think we can do the 15 Freehold?", -- [1]
+			"1", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
@@ -320,7 +320,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			607, -- [11]
+			908, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -328,77 +328,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686523,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578523262,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [14]
 		{
-			"do you know which event is this week?", -- [1]
-			"Biggo-Malygos", -- [2]
+			"skip,", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			611, -- [11]
-			"Player-1098-0887849D", -- [12]
+			909, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686543,
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523332,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [15]
 		{
-			"in fh", -- [1]
-			"Biggo-Malygos", -- [2]
+			"?", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			612, -- [11]
-			"Player-1098-0887849D", -- [12]
+			910, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686544,
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523335,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [16]
 		{
-			"dog?", -- [1]
-			"Biggo-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			613, -- [11]
-			"Player-1098-0887849D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686545,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [17]
-		{
-			"Yeah", -- [1]
+			"YE, I meld", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -408,7 +386,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			621, -- [11]
+			911, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -416,55 +394,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686581,
+			[51] = 1578523339,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [17]
+		{
+			"GO", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			912, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578523344,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [18]
 		{
-			"it's dog", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"gogo then", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			623, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			913, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686582,
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578523345,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [19]
 		{
-			"However", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"invis pots?", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			624, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			914, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686593,
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523345,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [20]
 		{
-			"there are Void emissaries there", -- [1]
+			"Casting mass resurrection!", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -474,7 +474,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			627, -- [11]
+			918, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -482,99 +482,99 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686598,
+			[51] = 1578523371,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [21]
 		{
-			"so Rogues cant solo this week", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"mike thinks u can run through that room", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			628, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			919, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686603,
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578523379,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [22]
 		{
-			"holy $%^&", -- [1]
-			"Biggo-Malygos", -- [2]
+			"with no invis", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			630, -- [11]
-			"Player-1098-0887849D", -- [12]
+			920, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686610,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578523382,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [23]
 		{
-			"im not gonna clear the whole *!@#", -- [1]
-			"Biggo-Malygos", -- [2]
+			"u can", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			633, -- [11]
-			"Player-1098-0887849D", -- [12]
+			921, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686617,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578523384,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [24]
 		{
-			"gimme a sec, need to google smthn", -- [1]
-			"Biggo-Malygos", -- [2]
+			"run right ", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			640, -- [11]
-			"Player-1098-0887849D", -- [12]
+			922, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686643,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523385,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [25]
 		{
-			"https://raider.io/news/60-the-weekly-route-fortified-sanguine-quaking-and-beguiling#freehold", -- [1]
+			"you can", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -584,7 +584,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			642, -- [11]
+			923, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -592,77 +592,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686662,
+			[51] = 1578523386,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [26]
 		{
-			"ok i got a plan", -- [1]
-			"Biggo-Malygos", -- [2]
+			"death run?", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			643, -- [11]
-			"Player-1098-0887849D", -- [12]
+			924, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686669,
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523386,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [27]
 		{
-			"i just read that i can chase the dog while pulling everything, then i die andd you rezz", -- [1]
-			"Biggo-Malygos", -- [2]
+			"around the edge", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			647, -- [11]
-			"Player-1098-0887849D", -- [12]
+			925, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686690,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523388,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [28]
 		{
-			"you just literally wait on the other side of the bridge lmao", -- [1]
-			"Biggo-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			648, -- [11]
-			"Player-1098-0887849D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686699,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [29]
-		{
-			"Yeah, I saw that too", -- [1]
+			"ye", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -672,7 +650,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			649, -- [11]
+			926, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -680,187 +658,209 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686700,
+			[51] = 1578523389,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [29]
+		{
+			"easy", -- [1]
+			"Shawkz-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shawkz-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			927, -- [11]
+			"Player-1300-0A3512B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523389,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [30]
 		{
-			"then we get dog and we should be gucci", -- [1]
-			"Biggo-Malygos", -- [2]
+			"with the evasion bug", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			650, -- [11]
-			"Player-1098-0887849D", -- [12]
+			928, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686718,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578523390,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [31]
 		{
-			"lets try it, what could go wrong lmao", -- [1]
-			"Biggo-Malygos", -- [2]
+			"deathrun bridge or?", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			651, -- [11]
-			"Player-1098-0887849D", -- [12]
+			929, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686726,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578523402,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [32]
 		{
-			"Shammy", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"CR tank", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			652, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			942, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686765,
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578523421,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [33]
 		{
-			"howdy", -- [1]
-			"Biggo-Malygos", -- [2]
+			"oh u can stealth", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			654, -- [11]
-			"Player-1098-0887849D", -- [12]
+			944, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686777,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578523427,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [34]
 		{
-			"hey ho)", -- [1]
-			"Ддаррк-ПиратскаяБухта", -- [2]
+			"druid", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ддаррк-ПиратскаяБухта", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			655, -- [11]
-			"Player-1924-09582EF8", -- [12]
+			945, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
-			[51] = 1573686789,
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578523427,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [35]
 		{
-			"hi", -- [1]
-			"Treey-Malygos", -- [2]
+			"right", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Treey-Malygos", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			656, -- [11]
-			"Player-1098-08FFB062", -- [12]
+			947, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTreey-Malygos|r",
-			[51] = 1573686814,
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578523428,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [36]
 		{
-			"Biggo is gonna do the Dog event by pulling stuff through the dog and have me rezz from afart", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"dont release pls", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			657, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			948, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686819,
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523430,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [37]
 		{
-			"fyi", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"rofl meld here", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			658, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			952, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686826,
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578523448,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [38]
 		{
-			"I still think we need to kill the Void emi that's to the right after crossing the bridgfe", -- [1]
+			"Casting mass resurrection!", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -870,7 +870,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			662, -- [11]
+			953, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -878,11 +878,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686896,
+			[51] = 1578523453,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [39]
 		{
-			"to dog", -- [1]
+			"lol", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -892,7 +892,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			663, -- [11]
+			954, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -900,33 +900,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686899,
+			[51] = 1578523458,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [40]
 		{
-			"uh", -- [1]
-			"Biggo-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			664, -- [11]
-			"Player-1098-0887849D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686956,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [41]
-		{
-			"readycheck? :)", -- [1]
+			"that meld", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -936,7 +914,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			665, -- [11]
+			955, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -944,297 +922,297 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686963,
+			[51] = 1578523460,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [41]
+		{
+			"amazing", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			956, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578523461,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [42]
 		{
-			"yeah we´ll figure it out", -- [1]
-			"Biggo-Malygos", -- [2]
+			"twitchy bum time", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			666, -- [11]
-			"Player-1098-0887849D", -- [12]
+			957, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686963,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578523463,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [43]
 		{
-			"gotta prepare myself", -- [1]
-			"Biggo-Malygos", -- [2]
+			"lol", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			668, -- [11]
-			"Player-1098-0887849D", -- [12]
+			958, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573686970,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578523465,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [44]
 		{
-			"sec", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"take my orbs!", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			669, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			967, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686977,
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523579,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [45]
 		{
-			"nvm", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"dont hero p1", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			670, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			982, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686979,
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523765,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [46]
 		{
-			"going", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"|cffa335ee|Hkeystone:158923:249:15:10:8:12:119|h[Keystone: Kings' Rest (15)]|h|r", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			671, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			996, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573686981,
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523927,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [47]
 		{
-			"|cffa335ee|Hkeystone:158923:245:14:10:8:14:119|h[Keystone: Freehold (14)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"|cffa335ee|Hitem:159295::::::::120:268::16:3:5010:1602:4786:::|h[Сапоги безмятежных вод]|h|rneed?", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			677, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			1004, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687133,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578523942,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [48]
 		{
-			"r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"any1 want the trinket", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			688, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			1005, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687245,
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578523945,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [49]
 		{
-			"r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"|cffa335ee|Hitem:159289::::::::120:252::16:5:5010:4802:42:1602:4786:::|h[Void-Drenched Cape]|h|r?", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			693, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			1007, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687317,
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578523954,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [50]
 		{
-			"aight", -- [1]
-			"Biggo-Malygos", -- [2]
+			"ooh", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			703, -- [11]
-			"Player-1098-0887849D", -- [12]
+			1009, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687438,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523965,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [51]
 		{
-			"you can wait here", -- [1]
-			"Biggo-Malygos", -- [2]
+			"i will", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			704, -- [11]
-			"Player-1098-0887849D", -- [12]
+			1010, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687441,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523966,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [52]
 		{
-			"wait here and wish me lukc", -- [1]
-			"Biggo-Malygos", -- [2]
+			"that capoe", -- [1]
+			"Shawkz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Shawkz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			705, -- [11]
-			"Player-1098-0887849D", -- [12]
+			1011, -- [11]
+			"Player-1300-0A3512B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687463,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffe7b09Shawkz-Frostmane|r",
+			[51] = 1578523968,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [53]
 		{
-			"Casting mass resurrection!", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"|cffa335ee|Hkeystone:158923:249:15:10:8:12:119|h[Keystone: Kings' Rest (15)]|h|rgo?", -- [1]
+			"Мультяха-ВечнаяПесня", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Мультяха-ВечнаяПесня", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			709, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			1020, -- [11]
+			"Player-1925-06F4FB56", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687486,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe95Мультяха-ВечнаяПесня|r",
+			[51] = 1578524039,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [54]
 		{
-			"got him", -- [1]
-			"Biggo-Malygos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			711, -- [11]
-			"Player-1098-0887849D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687487,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [55]
-		{
-			"Casting mass resurrection!", -- [1]
+			"Aight", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1244,7 +1222,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			712, -- [11]
+			1022, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1252,1570 +1230,1594 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687494,
+			[51] = 1578524039,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [55]
+		{
+			"Bedtime for me", -- [1]
+			"Mallusof-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mallusof-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1024, -- [11]
+			"Player-3391-0A827D28", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578524041,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [56]
 		{
-			"we good ", -- [1]
-			"Biggo-Malygos", -- [2]
+			"bedtime", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			714, -- [11]
-			"Player-1098-0887849D", -- [12]
+			1025, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687499,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578524045,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [57]
 		{
-			"awesome", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"nn", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			715, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			1027, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687507,
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578524049,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [58]
 		{
-			"emi pulled", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"ty", -- [1]
+			"Trehzs-Hellscream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Trehzs-Hellscream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			717, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			1029, -- [11]
+			"Player-1325-05A96B22", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687532,
+			[52] = "|cffa22fc8Trehzs-Hellscream|r",
+			[51] = 1578524050,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [59]
 		{
-			"care", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"gn", -- [1]
+			"Sumbady-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Sumbady-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			718, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			1030, -- [11]
+			"Player-1329-06C1F856", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687534,
+			[52] = "|cffc31d39Sumbady-Ravencrest|r",
+			[51] = 1578524051,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [60]
 		{
-			"oooof", -- [1]
-			"Biggo-Malygos", -- [2]
+			"cya! :)", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			723, -- [11]
-			"Player-1098-0887849D", -- [12]
+			1031, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687665,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578524053,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [61]
 		{
-			"emi", -- [1]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. Trade - City", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			724, -- [11]
+			1034, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687674,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578524055,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [62]
 		{
-			"righyt side", -- [1]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. Trade - City", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			726, -- [11]
+			3, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687675,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578558316,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [63]
 		{
-			"rather clear tbh", -- [1]
-			"Biggo-Malygos", -- [2]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"3. Trade - City", -- [4]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			727, -- [11]
-			"Player-1098-0887849D", -- [12]
+			25, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687690,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578558487,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [64]
 		{
-			"agree", -- [1]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. Trade - City", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			728, -- [11]
+			35, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687705,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578558570,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [65]
 		{
-			"maana", -- [1]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. Trade - City", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			729, -- [11]
+			64, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687763,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578558811,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [66]
 		{
-			"r", -- [1]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. Trade - City", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			730, -- [11]
+			101, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687777,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578559133,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [67]
 		{
-			"more trash", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12546:Player-3391-0A7B6852:1:1:9:20:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
+			"Huckin-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Huckin-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			731, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			140, -- [11]
+			"Player-3391-0A7B6852", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687800,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huckin|r",
+			[51] = 1578559622,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [68]
 		{
-			"hero for boss", -- [1]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. Trade - City", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			732, -- [11]
+			159, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687802,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578559726,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [69]
 		{
-			"yew", -- [1]
-			"Biggo-Malygos", -- [2]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"3. Trade - City", -- [4]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			735, -- [11]
-			"Player-1098-0887849D", -- [12]
+			171, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687808,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578559900,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [70]
 		{
-			"Ricocheting Throw on Mallusof", -- [1]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
 			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"", -- [3]
+			"3. Trade - City", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			736, -- [11]
+			185, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687820,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1578560005,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [71]
 		{
-			"Ricocheting Throw on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"no work?", -- [1]
+			"|Kq45|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			739, -- [11]
-			"Player-3391-0A827D28", -- [12]
-			0, -- [13]
+			204, -- [11]
+			false, -- [12]
+			50, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573687837,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "sumbodyelse",
+			[51] = 1578560169,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "sumbodyelse",
 		}, -- [72]
 		{
-			"going endboss", -- [1]
-			"Biggo-Malygos", -- [2]
+			"doing some WFH this morning", -- [1]
+			"|Kq45|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			741, -- [11]
-			"Player-1098-0887849D", -- [12]
-			0, -- [13]
+			208, -- [11]
+			false, -- [12]
+			50, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687860,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "sumbodyelse",
+			[51] = 1578560223,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "sumbodyelse",
 		}, -- [73]
 		{
-			"after 2nd", -- [1]
-			"Biggo-Malygos", -- [2]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"3. Trade - City", -- [4]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			742, -- [11]
-			"Player-1098-0887849D", -- [12]
+			209, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687862,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578560223,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [74]
 		{
-			"then invis to 3rd", -- [1]
-			"Biggo-Malygos", -- [2]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, Shaman and Warrior. /w for more info.", -- [1]
+			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"3. Trade - City", -- [4]
+			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			743, -- [11]
-			"Player-1098-0887849D", -- [12]
+			230, -- [11]
+			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687865,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cfffefefeMallusof|r",
+			[51] = 1578560468,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [75]
 		{
-			"endboss without ht 3rd boss with ht", -- [1]
-			"Biggo-Malygos", -- [2]
+			"What are raid times?", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			744, -- [11]
-			"Player-1098-0887849D", -- [12]
+			233, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573687881,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578560504,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [76]
 		{
-			"Casting mass resurrection!", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"hey", -- [1]
+			"Kaeir-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Kaeir-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			753, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			235, -- [11]
+			"Player-3391-0923A9C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688041,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cKaeir|r",
+			[51] = 1578560541,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [77]
 		{
-			"eat", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"well i am warrior fury and i am looking for guild", -- [1]
+			"Kaeir-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Kaeir-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			756, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			236, -- [11]
+			"Player-3391-0923A9C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688315,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cKaeir|r",
+			[51] = 1578560559,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [78]
 		{
-			"Cannon Barrage on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"but i have to gear up because i am a returnee", -- [1]
+			"Kaeir-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Kaeir-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			759, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			237, -- [11]
+			"Player-3391-0923A9C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688345,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cKaeir|r",
+			[51] = 1578560577,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [79]
 		{
-			"Cannon Barrage on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"Hello!", -- [1]
+			"Milti-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			765, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			253, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688399,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578560771,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [80]
 		{
-			"Cannon Barrage on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"20-23 :)", -- [1]
+			"Milti-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			771, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			254, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688417,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578560774,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [81]
 		{
-			"Cannon Barrage on Treey", -- [1]
-			"Treey-Malygos", -- [2]
-			"Common", -- [3]
+			"Wich days?", -- [1]
+			"Milti-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Treey-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			773, -- [11]
-			"Player-1098-08FFB062", -- [12]
+			255, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTreey-Malygos|r",
-			[51] = 1573688417,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578560780,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [82]
 		{
-			"ht at sharkdude^^", -- [1]
-			"Biggo-Malygos", -- [2]
+			"Hello there :)", -- [1]
+			"Kaeir-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Kaeir-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			782, -- [11]
-			"Player-1098-0887849D", -- [12]
+			257, -- [11]
+			"Player-3391-0923A9C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688531,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cKaeir|r",
+			[51] = 1578560782,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [83]
 		{
-			"aight dont wipe = intime i think^^", -- [1]
-			"Biggo-Malygos", -- [2]
+			"oh sorry i thought you re the guild xd", -- [1]
+			"Kaeir-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Kaeir-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			788, -- [11]
-			"Player-1098-0887849D", -- [12]
+			262, -- [11]
+			"Player-3391-0923A9C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688587,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cKaeir|r",
+			[51] = 1578560813,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [84]
 		{
-			"no jinx", -- [1]
-			"Treey-Malygos", -- [2]
+			"You have 2 weeks to gear up! :) Nazjatar and 8.3 launch should help about on that :)", -- [1]
+			"Kaeir-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Treey-Malygos", -- [5]
+			"Kaeir-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			789, -- [11]
-			"Player-1098-08FFB062", -- [12]
+			263, -- [11]
+			"Player-3391-0923A9C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTreey-Malygos|r",
-			[51] = 1573688596,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cKaeir|r",
+			[51] = 1578560814,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [85]
 		{
-			"agree", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Wednesday only raiding once a week", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			790, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			266, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688611,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578560824,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [86]
 		{
-			"play safe", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Here is our Forum post with some more info: https://eu.forums.blizzard.com/en/wow/t/a-mechanics-1-day-week-raiding-community/96084", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			791, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			273, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688613,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578560846,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [87]
 		{
-			"prepot^^", -- [1]
-			"Biggo-Malygos", -- [2]
+			"ty", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			794, -- [11]
-			"Player-1098-0887849D", -- [12]
+			277, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688691,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578560857,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [88]
 		{
-			"Shark Toss on Mallusof", -- [1]
-			"Mallusof-Silvermoon", -- [2]
-			"Common", -- [3]
+			"We are not a guild, we are a community :)", -- [1]
+			"Kaeir-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Kaeir-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			796, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			279, -- [11]
+			"Player-3391-0923A9C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688736,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cKaeir|r",
+			[51] = 1578560865,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [89]
 		{
-			"Бросок акулы на Ддаррк!", -- [1]
-			"Ддаррк-ПиратскаяБухта", -- [2]
-			"Common", -- [3]
+			"We're definitely still looking for some more DPS and a solid healer for the team :)", -- [1]
+			"Milti-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Ддаррк-ПиратскаяБухта", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			799, -- [11]
-			"Player-1924-09582EF8", -- [12]
+			284, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
-			[51] = 1573688768,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578560988,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [90]
 		{
-			"New Keystone: |cffa335ee|Hkeystone:158923:248:16:10:8:14:119|h[Keystone: Waycrest Manor (16)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Do you have any req for tryouts?", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			800, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			287, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688807,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561021,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [91]
 		{
-			"Yeeeeees", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Basically judgement :) Is this your main character?", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			801, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			291, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688810,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561067,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [92]
 		{
-			"gotcha", -- [1]
-			"Biggo-Malygos", -- [2]
+			"Nah, im a mulit class kinda guy.. main is 437 prot pala.. but this the one im considering raiding with again", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			802, -- [11]
-			"Player-1098-0887849D", -- [12]
+			296, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688814,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561113,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [93]
 		{
-			"gj", -- [1]
-			"Ддаррк-ПиратскаяБухта", -- [2]
+			"You dont have a lot of logs so if you have some more that would be great to look at :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ддаррк-ПиратскаяБухта", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			803, -- [11]
-			"Player-1924-09582EF8", -- [12]
+			301, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
-			[51] = 1573688822,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561121,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [94]
 		{
-			"Very nice indeed", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Ahh great :) What's the Paladin's name?", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			804, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			303, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688829,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561136,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [95]
 		{
-			"Key is useless now though lol", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Dont rly got any. havnt done raiding in Bfa.. only did in legion, mostly do m+", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			805, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			304, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688837,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561153,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [96]
 		{
-			"|cffa335ee|Hkeystone:158923:248:16:10:8:14:119|h[Keystone: Waycrest Manor (16)]|h|r", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"We would expect you to to get up to around 430 ilevel at least for the start for Nyalotha, so you got some grinding to do :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			811, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			306, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688847,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561177,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [97]
 		{
-			"Already have Waycrest 15 in time :P", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Ah ilvl aint a problem. ", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			815, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			308, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688862,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561192,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [98]
 		{
-			"^^", -- [1]
-			"Biggo-Malygos", -- [2]
+			"im just chill old conten atm", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			816, -- [11]
-			"Player-1098-0887849D", -- [12]
+			311, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688865,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561202,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [99]
 		{
-			"+", -- [1]
-			"Ддаррк-ПиратскаяБухта", -- [2]
+			"Oh Warcraft logs wasnt updated, so you're not that far behind", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ддаррк-ПиратскаяБухта", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			817, -- [11]
-			"Player-1924-09582EF8", -- [12]
+			319, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
-			[51] = 1573688869,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561263,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [100]
 		{
-			"honestly i think i might call it a day", -- [1]
-			"Biggo-Malygos", -- [2]
+			"But what class are you lookin for dps wise? ive got the alot of dpses with fine gear", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			818, -- [11]
-			"Player-1098-0887849D", -- [12]
+			321, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688874,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561278,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [101]
 		{
-			"That was some awesome runes", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Actually We have no Warriors, haha", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			819, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			323, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688878,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561289,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [102]
 		{
-			"yeah me too", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"So would love the warrior :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			820, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			324, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688882,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561294,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [103]
 		{
-			"Almost 1 am here", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Oh haha :P ", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			821, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			325, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688888,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561295,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [104]
 		{
-			"+15 are so exhausting", -- [1]
-			"Biggo-Malygos", -- [2]
+			"So first raid is wendsday for the new one yeah?", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			822, -- [11]
-			"Player-1098-0887849D", -- [12]
+			329, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688888,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561318,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [105]
 		{
-			"Yeah, lol", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"We raid only once a week, every Wednesday yes :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			823, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			331, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688896,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561334,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [106]
 		{
-			"ty shammy for tagging along^^", -- [1]
-			"Biggo-Malygos", -- [2]
+			"We've had a break after killing Azshara over Christmas", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			827, -- [11]
-			"Player-1098-0887849D", -- [12]
+			332, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688906,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561351,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [107]
 		{
-			"idk what it is im super chill in like 11 to 12 but if there is the number 15 im breaking my fingers", -- [1]
-			"Treey-Malygos", -- [2]
+			"Aight, well give me and inv and i'll be atleast 430 by then ;)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Treey-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			829, -- [11]
-			"Player-1098-08FFB062", -- [12]
+			333, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTreey-Malygos|r",
-			[51] = 1573688913,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561355,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [108]
 		{
-			"np)", -- [1]
-			"Ддаррк-ПиратскаяБухта", -- [2]
+			"Nice", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ддаррк-ПиратскаяБухта", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			830, -- [11]
-			"Player-1924-09582EF8", -- [12]
+			334, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
-			[51] = 1573688913,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561359,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [109]
 		{
-			"Yeah, awesome job mate", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"But we're raiding the first day of the raid releasing", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			831, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			335, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688914,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561360,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [110]
 		{
-			"dude same", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Do you have Discord?", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			833, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			339, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688923,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561399,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [111]
 		{
-			"bb all)", -- [1]
-			"Ддаррк-ПиратскаяБухта", -- [2]
+			"https://discord.gg/WsWcNP", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ддаррк-ПиратскаяБухта", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			834, -- [11]
-			"Player-1924-09582EF8", -- [12]
+			340, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcДдаррк-ПиратскаяБухта|r",
-			[51] = 1573688924,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561401,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [112]
 		{
-			"ade", -- [1]
-			"Treey-Malygos", -- [2]
+			"Come join the Discord and have a look at the links section :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Treey-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			837, -- [11]
-			"Player-1098-08FFB062", -- [12]
+			341, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTreey-Malygos|r",
-			[51] = 1573688927,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561414,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [113]
 		{
-			"It's stress from the achievement lol", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"There you can read a little more about us :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			838, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			345, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688928,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561427,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [114]
 		{
-			"bb", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"Aight, ive got to go noiw.. will hit ypu up later on disc", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			840, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			346, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688929,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561432,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [115]
 		{
-			"yeah", -- [1]
-			"Biggo-Malygos", -- [2]
+			"thx :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			844, -- [11]
-			"Player-1098-0887849D", -- [12]
+			348, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688936,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561440,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [116]
 		{
-			"but at least we broke the curse", -- [1]
-			"Biggo-Malygos", -- [2]
+			"If we still sound like what you wanna do, then you're vbery welcome :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			845, -- [11]
-			"Player-1098-0887849D", -- [12]
+			349, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688941,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561444,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [117]
 		{
-			"this week", -- [1]
-			"Biggo-Malygos", -- [2]
+			"No worries! :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			847, -- [11]
-			"Player-1098-0887849D", -- [12]
+			350, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688946,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561447,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [118]
 		{
-			"Atal dazar +15", -- [1]
-			"Biggo-Malygos", -- [2]
+			"awesome cu l8r", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			848, -- [11]
-			"Player-1098-0887849D", -- [12]
+			352, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688949,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561451,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [119]
 		{
-			"believe", -- [1]
-			"Biggo-Malygos", -- [2]
+			"There are links toi join", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			849, -- [11]
-			"Player-1098-0887849D", -- [12]
+			353, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688951,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561453,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [120]
 		{
-			"Dude yaas", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"the community", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			851, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			355, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688964,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561455,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [121]
 		{
-			"Alright, I'm going to bed", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"in Discord too :)", -- [1]
+			"Milti-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"Milti-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			853, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			357, -- [11]
+			"Player-3391-0A6EC988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688973,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc59a6cMilti|r",
+			[51] = 1578561459,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [122]
 		{
-			"thanks for awesome keys", -- [1]
+			"<Mechanics> is a 1 raid a week community, aiming for AOTC and the meta every tier. Still looking for a couple of people for 8.3. Currently recruiting a Pally/Monk/Shaman Healer, and some extra DPS. /w for more info.", -- [1]
 			"Mallusof-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
+			"3. Trade - City", -- [4]
 			"Mallusof-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			854, -- [11]
+			376, -- [11]
 			"Player-3391-0A827D28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688975,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1578561682,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [123]
 		{
-			"cheers dude", -- [1]
-			"Treey-Malygos", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:4610:Player-3391-0A7B6852:1:1:9:20:4294967295:4294967295:4294967295:4294967295|h[Boned (25 player)]|h|r!", -- [1]
+			"Huckin-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Treey-Malygos", -- [5]
+			"Huckin-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			855, -- [11]
-			"Player-1098-08FFB062", -- [12]
+			380, -- [11]
+			"Player-3391-0A7B6852", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTreey-Malygos|r",
-			[51] = 1573688978,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huckin|r",
+			[51] = 1578561772,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [124]
 		{
-			"cheers^^", -- [1]
-			"Biggo-Malygos", -- [2]
+			"||NBC||  Selling M+10 90k ONLY! & +15 220k.also +16-20 ( IN TIME ).! Buy at least 2x M+10 190k + Armor Stack Free.!take advantage of the offer.! Mechagon Nm&Hm+MOUNT.!The Eternal Palace HC & MYTHIC 8/8 /w For Info!", -- [1]
+			"Unmercyy-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Biggo-Malygos", -- [5]
+			"3. Trade - City", -- [4]
+			"Unmercyy-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			856, -- [11]
-			"Player-1098-0887849D", -- [12]
+			1, -- [11]
+			"Player-3391-0A8ED8F6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Biggo-Malygos|r",
-			[51] = 1573688980,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cfffe7b09Unmercyy|r",
+			[51] = 1578562006,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [125]
 		{
-			"cya later for more :)", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"< WTS LEVELUP BOOST 110-120 ||||  +10...+15 KEYSTONES ||||  MECHAGON CHEAP AND SMOOTH |||| ETERNAL PALACE NORM/HC  ||||  RIGHT NOW & CHEAP W/ME >", -- [1]
+			"Powermoon-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"3. Trade - City", -- [4]
+			"Powermoon-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			857, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			2, -- [11]
+			"Player-3391-0A77D647", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688980,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cfffe7b09Powermoon|r",
+			[51] = 1578562013,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [126]
 		{
-			"cheers!", -- [1]
-			"Mallusof-Silvermoon", -- [2]
+			"WTS levelup boost 110-120 |cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r Fast /w me for info", -- [1]
+			"Xercsis-Silvermoon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Mallusof-Silvermoon", -- [5]
+			"3. Trade - City", -- [4]
+			"Xercsis-Silvermoon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			3, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			860, -- [11]
-			"Player-3391-0A827D28", -- [12]
+			3, -- [11]
+			"Player-3391-099E2290", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallusof|r",
-			[51] = 1573688982,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffa22fc8Xercsis|r",
+			[51] = 1578562016,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

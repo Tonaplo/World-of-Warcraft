@@ -14,8 +14,10 @@ BINDING_NAME_AngryAssign_SHOW_DISPLAY = "Show Display"
 BINDING_NAME_AngryAssign_HIDE_DISPLAY = "Hide Display"
 BINDING_NAME_AngryAssign_OUTPUT = "Output Assignment to Chat"
 
-local AngryAssign_Version = 'v1.12.0'
-local AngryAssign_Timestamp = '20191011195749'
+local AngryAssign_Version = 'v1.12.1'
+local AngryAssign_Timestamp = '20191117163742'
+
+local isClassic = (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC)
 
 local protocolVersion = 1
 local comPrefix = "AnAss"..protocolVersion
@@ -1984,7 +1986,7 @@ function AngryAssign:OutputDisplayed(id)
 	if not id then id = AngryAssign_State.displayed end
 	local page = AngryAssign_Pages[ id ]
 	local channel
-	if IsInGroup(LE_PARTY_CATEGORY_INSTANCE) or IsInRaid(LE_PARTY_CATEGORY_INSTANCE) then
+	if not isClassic and (IsInGroup(LE_PARTY_CATEGORY_INSTANCE) or IsInRaid(LE_PARTY_CATEGORY_INSTANCE)) then
 		channel = "INSTANCE_CHAT"
 	elseif IsInRaid() then
 		channel = "RAID"

@@ -11,3 +11,4 @@ HandyNotes_DraenorTreasures: enabled
 OPie_Classic: disabled
 FastGuildInvite: disabled
 LittleWigs: enabled
+InstanceAchievementTracker: enabled

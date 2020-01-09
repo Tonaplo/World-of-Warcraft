@@ -26,6 +26,8 @@ local function LoadSkin()
 
 	WorldMapFrame.ScrollContainer:CreateBackdrop()
 	WorldMapFrame:CreateBackdrop("Transparent")
+	WorldMapFrame.backdrop:SetPoint("TOPLEFT", WorldMapFrame, "TOPLEFT", -8, 0)
+	WorldMapFrame.backdrop:SetPoint("BOTTOMRIGHT", WorldMapFrame, "BOTTOMRIGHT", 0, -9)
 
 	S:HandleButton(WorldMapFrame.NavBar.homeButton)
 	WorldMapFrame.NavBar.homeButton.xoffset = 1
@@ -46,6 +48,7 @@ local function LoadSkin()
 
 	local QuestScrollFrame = _G.QuestScrollFrame
 	QuestScrollFrame.DetailFrame:StripTextures()
+	QuestScrollFrame.DetailFrame.BottomDetail:Hide()
 	QuestScrollFrame.Contents.Separator.Divider:Hide()
 
 	local QuestScrollFrameScrollBar = _G.QuestScrollFrameScrollBar
@@ -102,6 +105,53 @@ local function LoadSkin()
 	WorldMapBountyBoard(WorldMapFrame.overlayFrames[3]) -- BountyBoard
 	--WorldMapActionButtonTemplate(WorldMapFrame.overlayFrames[4]) -- ActionButtons
 	--WorldMapZoneTimerTemplate(WorldMapFrame.overlayFrames[5]) -- Timer?
+
+	-- 8.2.5 Party Sync | Credits Aurora/Shestak
+	QuestMapFrame.QuestSessionManagement:StripTextures()
+
+	local ExecuteSessionCommand = QuestMapFrame.QuestSessionManagement.ExecuteSessionCommand
+	ExecuteSessionCommand:SetTemplate()
+	ExecuteSessionCommand:StyleButton()
+
+	local icon = ExecuteSessionCommand:CreateTexture(nil, "ARTWORK")
+	icon:SetPoint("TOPLEFT", 0, 0)
+	icon:SetPoint("BOTTOMRIGHT", 0, 0)
+	ExecuteSessionCommand.normalIcon = icon
+
+	local sessionCommandToButtonAtlas = {
+		[_G.Enum.QuestSessionCommand.Start] = "QuestSharing-DialogIcon",
+		[_G.Enum.QuestSessionCommand.Stop] = "QuestSharing-Stop-DialogIcon"
+	}
+
+	hooksecurefunc(QuestMapFrame.QuestSessionManagement, "UpdateExecuteCommandAtlases", function(self, command)
+		self.ExecuteSessionCommand:SetNormalTexture("")
+		self.ExecuteSessionCommand:SetPushedTexture("")
+		self.ExecuteSessionCommand:SetDisabledTexture("")
+
+		local atlas = sessionCommandToButtonAtlas[command]
+		if atlas then
+			self.ExecuteSessionCommand.normalIcon:SetAtlas(atlas)
+		end
+	end)
+
+	hooksecurefunc(_G.QuestSessionManager, "NotifyDialogShow", function(_, dialog)
+		if not dialog.isSkinned then
+			dialog:StripTextures()
+			dialog:CreateBackdrop("Transparent")
+			S:HandleButton(dialog.ButtonContainer.Confirm)
+			S:HandleButton(dialog.ButtonContainer.Decline)
+			if dialog.MinimizeButton then
+				dialog.MinimizeButton:StripTextures()
+				dialog.MinimizeButton:Size(16, 16)
+
+				dialog.MinimizeButton.tex = dialog.MinimizeButton:CreateTexture(nil, "OVERLAY")
+				dialog.MinimizeButton.tex:SetTexture(E.Media.Textures.MinusButton)
+				dialog.MinimizeButton.tex:SetInside()
+				dialog.MinimizeButton:SetHighlightTexture("Interface\\Buttons\\UI-PlusButton-Hilight", "ADD")
+			end
+			dialog.isSkinned = true
+		end
+	end)
 end
 
 S:AddCallback("SkinWorldMap", LoadSkin)

@@ -109,7 +109,21 @@ E.Options.args = {
 		set = function(info, value)
 			E.db.general.loginmessage = value
 		end
-	}
+	},
+	Info_Separate = {
+		order = 3,
+		type = "group",
+		name = "<<< "..L["Info/Controls"].." >>>",
+		disabled = true,
+		args = {},
+	},
+	Plugin_Separate = {
+		order = 6,
+		type = "group",
+		name = "<<< "..L["Plugins"].." >>>",
+		disabled = true,
+		args = {},
+	},
 }
 
 local DONATOR_STRING = ""
@@ -167,8 +181,9 @@ local DEVELOPERS = {
 	"Blazeflack",
 	"NihilisticPandemonium",
 	"|cffff7d0aMerathilis|r",
-	"|cFF8866ccSimpy|r",
-	"|cFF0070DEAzilroka|r"
+	"|cff4fd8d1S|cff50dabfi|cff51ddaem|cff52df9dp|cff53e18cy|cff5ae27b, |cff91de5bb|cffaddb4bu|cffc8d93bt |cffd8c73dm|cffdabc44y |cffdda652n|cffe09e59a|cffe39861m|cffe69268e |cffed8777n|cffef828ae|cfff17d9ce|cfff378aed|cfff573c0s |cffe668d2t|cffd962d5o |cffbe57dcb|cffac62dce |cff8099d7l|cff6ab5d4o|cff54d1d1n|cff4fd8d1g|cff4fd8d1e|cff4fd8d1r|cff4fd8d1.",
+	"|cff0070DEAzilroka|r",
+	"|cff9482c9Darth Predator|r",
 }
 
 local TESTERS = {
@@ -181,7 +196,6 @@ local TESTERS = {
 	"Phima",
 	"Veiled",
 	"Repooc",
-	"Darth Predator",
 	"Alex",
 	"Nidra",
 	"Kurhyus",
@@ -214,7 +228,7 @@ end
 E.Options.args.credits = {
 	type = "group",
 	name = L["Credits"],
-	order = -1,
+	order = 5,
 	args = {
 		text = {
 			order = 1,
@@ -476,7 +490,7 @@ end
 --Create Profiles Table
 E.Options.args.profiles = E.Libs.AceDBOptions:GetOptionsTable(E.data)
 E.Libs.AceConfig:RegisterOptionsTable("ElvProfiles", E.Options.args.profiles)
-E.Options.args.profiles.order = -10
+E.Options.args.profiles.order = 4
 
 E.Libs.DualSpec:EnhanceOptions(E.Options.args.profiles, E.data)
 

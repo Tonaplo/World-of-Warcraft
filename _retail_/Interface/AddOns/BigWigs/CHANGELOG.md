@@ -1,13 +1,11 @@
 # BigWigs
 
-## [v169](https://github.com/BigWigsMods/BigWigs/tree/v169) (2019-11-06)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v168.2...v169)
+## [v170-6-gd03a687](https://github.com/BigWigsMods/BigWigs/tree/d03a687fd87aeb23d05bc88b64287f187debfaf1) (2019-12-15)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v170...d03a687fd87aeb23d05bc88b64287f187debfaf1)
 
-- Update luacheck file  
-- bump version  
-- Plugins/AutoReply: Update BNet usage.  
-- EternalPalace/QueenAzshara: Drycoded fix for the duration of Essence of Azeroth.  
-- Nyalotha/Options: Add empty options files  
-- Nyalotha/Shadhar: temp error fix  
-- Nyalotha: cleanups  
-- Nyalotha: Skeleton modules for all bosses  
+- Nyalotha/Skitra: Module improvements  
+- Nyalotha/Raden: minor fixes  
+- Nyalotha/Raden: Update option keys  
+- Nyalotha/Raden: Initial module  
+- Nyalotha/Xanesh: Fix undefined variable  
+- Nyalotha/Xanesh: Update module  

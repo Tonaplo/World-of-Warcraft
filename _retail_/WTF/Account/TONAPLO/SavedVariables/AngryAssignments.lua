@@ -50,12 +50,10 @@ AngryAssign_State = {
 		},
 		["scrollvalue"] = 0,
 		["fullwidth"] = 665.9999389648438,
-		["treesizable"] = true,
-		["treewidth"] = 175,
 		["selected"] = "-2160435338-28600439920180740",
+		["treewidth"] = 175,
+		["treesizable"] = true,
 	},
-	["locked"] = true,
-	["directionUp"] = false,
 	["display"] = {
 		["y"] = 180.461669921875,
 		["x"] = 0,
@@ -70,6 +68,8 @@ AngryAssign_State = {
 		["left"] = 187.3932342529297,
 		["width"] = 699.9998779296875,
 	},
+	["locked"] = true,
+	["directionUp"] = false,
 }
 AngryAssign_Config = {
 }

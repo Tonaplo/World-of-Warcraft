@@ -4,17 +4,22 @@ local Bags = E:GetModule('Bags')
 
 --Lua functions
 local _G = _G
+local select = select
 local format = format
 --WoW API / Variables
+local CreateFrame = CreateFrame
 local AcceptGroup = AcceptGroup
-local BNGetGameAccountInfoByGUID = BNGetGameAccountInfoByGUID
 local C_FriendList_IsFriend = C_FriendList.IsFriend
 local CanGuildBankRepair = CanGuildBankRepair
 local CanMerchantRepair = CanMerchantRepair
 local GetCVarBool, SetCVar = GetCVarBool, SetCVar
 local GetGuildBankWithdrawMoney = GetGuildBankWithdrawMoney
 local GetInstanceInfo = GetInstanceInfo
+local GetItemInfo = GetItemInfo
 local GetNumGroupMembers = GetNumGroupMembers
+local GetQuestItemInfo = GetQuestItemInfo
+local GetQuestItemLink = GetQuestItemLink
+local GetNumQuestChoices = GetNumQuestChoices
 local GetRaidRosterInfo = GetRaidRosterInfo
 local GetRepairAllCost = GetRepairAllCost
 local InCombatLockdown = InCombatLockdown
@@ -26,7 +31,6 @@ local IsInGroup = IsInGroup
 local IsInRaid = IsInRaid
 local IsPartyLFG = IsPartyLFG
 local IsShiftKeyDown = IsShiftKeyDown
-local LeaveParty = LeaveParty
 local RaidNotice_AddMessage = RaidNotice_AddMessage
 local RepairAllItems = RepairAllItems
 local SendChatMessage = SendChatMessage
@@ -39,13 +43,15 @@ local UnitInRaid = UnitInRaid
 local UnitName = UnitName
 local IsInGuild = IsInGuild
 
+local C_PartyInfo_LeaveParty = C_PartyInfo.LeaveParty
+local C_BattleNet_GetGameAccountInfoByGUID = C_BattleNet.GetGameAccountInfoByGUID
 local CombatLogGetCurrentEventInfo = CombatLogGetCurrentEventInfo
 local LE_GAME_ERR_GUILD_NOT_ENOUGH_MONEY = LE_GAME_ERR_GUILD_NOT_ENOUGH_MONEY
 local LE_GAME_ERR_NOT_ENOUGH_MONEY = LE_GAME_ERR_NOT_ENOUGH_MONEY
 local MAX_PARTY_MEMBERS = MAX_PARTY_MEMBERS
 local UIErrorsFrame = UIErrorsFrame
 
-local INTERRUPT_MSG = INTERRUPTED.." %s's \124cff71d5ff\124Hspell:%d:0\124h[%s]\124h\124r!"
+local INTERRUPT_MSG = L["Interrupted %s's \124cff71d5ff\124Hspell:%d:0\124h[%s]\124h\124r!"]
 
 function M:ErrorFrameToggle(event)
 	if not E.db.general.hideErrorFrame then return end
@@ -81,8 +87,10 @@ function M:COMBAT_LOG_EVENT_UNFILTERED()
 		SendChatMessage(msg, inPartyLFG and "INSTANCE_CHAT" or (inRaid and "RAID" or "PARTY"))
 	elseif interruptAnnounce == "RAID_ONLY" and inRaid then
 		SendChatMessage(msg, inPartyLFG and "INSTANCE_CHAT" or "RAID")
-	elseif interruptAnnounce == "SAY" then
+	elseif interruptAnnounce == "SAY" and instanceType ~= 'none' then
 		SendChatMessage(msg, "SAY")
+	elseif interruptAnnounce == "YELL" and instanceType ~= 'none' then
+		SendChatMessage(msg, "YELL")
 	elseif interruptAnnounce == "EMOTE" then
 		SendChatMessage(msg, "EMOTE")
 	end
@@ -168,7 +176,8 @@ function M:DisbandRaidGroup()
 			end
 		end
 	end
-	LeaveParty()
+
+	C_PartyInfo_LeaveParty()
 end
 
 function M:PVPMessageEnhancement(_, msg)
@@ -187,7 +196,7 @@ function M:AutoInvite(event, _, _, _, _, _, _, inviterGUID)
 		-- Prevent losing que inside LFD if someone invites you to group
 		if _G.QueueStatusMinimapButton:IsShown() or IsInGroup() or (not inviterGUID or inviterGUID == "") then return end
 
-		if BNGetGameAccountInfoByGUID(inviterGUID) or C_FriendList_IsFriend(inviterGUID) or IsGuildMember(inviterGUID) then
+		if C_BattleNet_GetGameAccountInfoByGUID(inviterGUID) or C_FriendList_IsFriend(inviterGUID) or IsGuildMember(inviterGUID) then
 			hideStatic = true
 			AcceptGroup()
 		end
@@ -243,16 +252,55 @@ end]]
 function M:ADDON_LOADED(_, addon)
 	if addon == "Blizzard_InspectUI" then
 		M:SetupInspectPageInfo()
-
-		--[[if IsAddOnLoaded("Blizzard_ObjectiveTracker") then
-			self:UnregisterEvent("ADDON_LOADED")
-		end]]
 	--[[elseif addon == "Blizzard_ObjectiveTracker" then
-		M:SetupChallengeTimer()
+		M:SetupChallengeTimer()]]
+	end
+end
 
-		if IsAddOnLoaded("Blizzard_InspectUI") then
-			self:UnregisterEvent("ADDON_LOADED")
-		end	]]
+function M:QUEST_COMPLETE()
+	if not E.db.general.questRewardMostValueIcon then return end
+
+	local firstItem = _G.QuestInfoRewardsFrameQuestInfoItem1
+	if not firstItem then return end
+
+	local bestValue, bestItem = 0
+	local numQuests = GetNumQuestChoices()
+
+	if not self.QuestRewardGoldIconFrame then
+		local frame = CreateFrame("Frame", nil, firstItem)
+		frame:SetFrameStrata("HIGH")
+		frame:Size(20)
+		frame.Icon = frame:CreateTexture(nil, "OVERLAY")
+		frame.Icon:SetAllPoints(frame)
+		frame.Icon:SetTexture("Interface\\MONEYFRAME\\UI-GoldIcon")
+		self.QuestRewardGoldIconFrame = frame
+	end
+
+	self.QuestRewardGoldIconFrame:Hide()
+
+	if numQuests < 2 then
+		return
+	end
+
+	for i = 1, numQuests do
+		local questLink = GetQuestItemLink('choice', i)
+		local _, _, amount = GetQuestItemInfo('choice', i)
+		local itemSellPrice = questLink and select(11, GetItemInfo(questLink))
+
+		local totalValue = (itemSellPrice and itemSellPrice * amount) or 0
+		if totalValue > bestValue then
+			bestValue = totalValue
+			bestItem = i
+		end
+	end
+
+	if bestItem then
+		local btn = _G['QuestInfoRewardsFrameQuestInfoItem'..bestItem]
+		if btn and btn.type == 'choice' then
+			self.QuestRewardGoldIconFrame:ClearAllPoints()
+			self.QuestRewardGoldIconFrame:Point("TOPRIGHT", btn, "TOPRIGHT", -2, -2)
+			self.QuestRewardGoldIconFrame:Show()
+		end
 	end
 end
 
@@ -266,7 +314,6 @@ function M:Initialize()
 	self:RegisterEvent('MERCHANT_SHOW')
 	self:RegisterEvent('PLAYER_REGEN_DISABLED', 'ErrorFrameToggle')
 	self:RegisterEvent('PLAYER_REGEN_ENABLED', 'ErrorFrameToggle')
-	if E.db.general.interruptAnnounce ~= "NONE" then self:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED") end
 	self:RegisterEvent('CHAT_MSG_BG_SYSTEM_HORDE', 'PVPMessageEnhancement')
 	self:RegisterEvent('CHAT_MSG_BG_SYSTEM_ALLIANCE', 'PVPMessageEnhancement')
 	self:RegisterEvent('CHAT_MSG_BG_SYSTEM_NEUTRAL', 'PVPMessageEnhancement')
@@ -274,25 +321,23 @@ function M:Initialize()
 	self:RegisterEvent('GROUP_ROSTER_UPDATE', 'AutoInvite')
 	self:RegisterEvent('CVAR_UPDATE', 'ForceCVars')
 	self:RegisterEvent('PLAYER_ENTERING_WORLD')
+	self:RegisterEvent('QUEST_COMPLETE')
 
-	--local blizzTracker = IsAddOnLoaded("Blizzard_ObjectiveTracker")
-	local inspectUI = IsAddOnLoaded("Blizzard_InspectUI")
+	if E.db.general.interruptAnnounce ~= 'NONE' then
+		self:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED')
+	end
 
-	if inspectUI then
+	if IsAddOnLoaded('Blizzard_InspectUI') then
 		M:SetupInspectPageInfo()
+	else
+		self:RegisterEvent('ADDON_LOADED')
 	end
 
-	--[[if blizzTracker then
+	--[[if IsAddOnLoaded('Blizzard_ObjectiveTracker') then
 		M:SetupChallengeTimer()
-	end
-
-	if not blizzTracker or not inspectUI then
-		self:RegisterEvent("ADDON_LOADED")
+	else
+		self:RegisterEvent('ADDON_LOADED')
 	end]]
-
-	if not inspectUI then
-		self:RegisterEvent("ADDON_LOADED")
-	end
 end
 
 E:RegisterModule(M:GetName())

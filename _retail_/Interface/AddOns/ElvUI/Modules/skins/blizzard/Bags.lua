@@ -107,7 +107,7 @@ local function SkinContainer(container)
 end
 
 local function SkinBags()
-	for i=1, NUM_CONTAINER_FRAMES, 1 do
+	for i = 1, NUM_CONTAINER_FRAMES, 1 do
 		local container = _G["ContainerFrame"..i]
 		if container and not container.backdrop then
 			container:SetFrameStrata("HIGH")
@@ -123,11 +123,10 @@ local function SkinBags()
 			if i == 1 then
 				_G.BackpackTokenFrame:StripTextures(true)
 
-				for j=1, MAX_WATCHED_TOKENS do
+				for j = 1, MAX_WATCHED_TOKENS do
 					local token = _G["BackpackTokenFrameToken"..j]
 					token:CreateBackdrop()
 					token.backdrop:SetOutside(token.icon)
-					token.icon:Point("LEFT", token.count, "RIGHT", 2, 0)
 					token.icon:SetTexCoord(unpack(E.TexCoords))
 				end
 			end
@@ -164,6 +163,7 @@ local function LoadSkin()
 			if bagIconCache[name] then
 				BagIcon(frame, bagIconCache[name])
 			else
+				if not name then return end
 				if name == BACKPACK_TOOLTIP then
 					bagIconCache[name] = _G.MainMenuBarBackpackButtonIconTexture:GetTexture()
 				else
@@ -235,8 +235,6 @@ local function LoadSkin()
 			UpdateBorderColors(button)
 		end
 	end)
-
-	_G.BagHelpBox:Kill()
 
 	local BagItemSearchBox = _G.BagItemSearchBox
 	S:HandleEditBox(BagItemSearchBox)

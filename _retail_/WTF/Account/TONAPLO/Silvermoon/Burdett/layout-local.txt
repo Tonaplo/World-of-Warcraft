@@ -13,10 +13,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: -200
-Y: 2
-W: 110
-H: 39
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 455

@@ -17,6 +17,7 @@ V.general = {
 	chatBubbleName = false,
 	pixelPerfect = true,
 	replaceBlizzFonts = true,
+	totemBar = true,
 	minimap = {
 		enable = true,
 		hideClassHallReport = false,
@@ -55,6 +56,7 @@ V.skins = {
 		enable = true,
 	},
 	checkBoxSkin = true,
+	cleanBossButton = false,
 	parchmentRemover = {
 		enable = false,
 	},
@@ -139,6 +141,7 @@ V.skins = {
 		IslandsPartyPose = true,
 		GMChat = true,
 		AzeriteEssence = true,
+		Tutorials = true,
 	},
 }
 

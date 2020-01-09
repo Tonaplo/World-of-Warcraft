@@ -22,6 +22,7 @@ local InCombatLockdown = InCombatLockdown
 local IsAddOnLoaded = IsAddOnLoaded
 local issecurevariable = issecurevariable
 local LoadAddOn = LoadAddOn
+local DisableAddOn = DisableAddOn
 local ReloadUI = ReloadUI
 
 local ERR_NOT_IN_COMBAT = ERR_NOT_IN_COMBAT
@@ -46,7 +47,7 @@ Engine[2] = {}
 Engine[3] = AddOn.privateVars.profile
 Engine[4] = AddOn.DF.profile
 Engine[5] = AddOn.DF.global
-_G[AddOnName] = Engine
+_G.ElvUI = Engine
 
 do
 	local locale = GetLocale()
@@ -127,6 +128,14 @@ do
 	end
 end
 
+do
+	DisableAddOn("ElvUI_VisualAuraTimers")
+	DisableAddOn("ElvUI_ExtraActionBars")
+	DisableAddOn("ElvUI_CastBarOverlay")
+	DisableAddOn("ElvUI_EverySecondCounts")
+	DisableAddOn("ElvUI_AuraBarsMovers")
+end
+
 function AddOn:OnInitialize()
 	if not ElvCharacterDB then
 		ElvCharacterDB = {}
@@ -174,9 +183,15 @@ function AddOn:OnInitialize()
 	self.PixelMode = self.twoPixelsPlease or self.private.general.pixelPerfect -- keep this over `UIScale`
 	self:UIScale(true)
 	self:UpdateMedia()
-	self:RegisterEvent('PLAYER_REGEN_DISABLED')
 	self:Contruct_StaticPopups()
 	self:InitializeInitialModules()
+
+	if self.private.general.minimap.enable then
+		self.Minimap:SetGetMinimapShape()
+		_G.Minimap:SetMaskTexture(130937) -- interface/chatframe/chatframebackground.blp
+	else
+		_G.Minimap:SetMaskTexture(186178) -- textures/minimapmask.blp
+	end
 
 	if GetAddOnEnableState(self.myname, 'Tukui') == 2 then
 		self:StaticPopup_Show('TUKUI_ELVUI_INCOMPATIBLE')
@@ -215,38 +230,6 @@ LoadUI:RegisterEvent('PLAYER_LOGIN')
 LoadUI:SetScript('OnEvent', function()
 	AddOn:Initialize()
 end)
-
-function AddOn:PLAYER_REGEN_ENABLED()
-	self:ToggleOptionsUI()
-	self:UnregisterEvent('PLAYER_REGEN_ENABLED')
-end
-
-function AddOn:PLAYER_REGEN_DISABLED()
-	local err
-
-	if IsAddOnLoaded('ElvUI_OptionsUI') then
-		local ACD = self.Libs.AceConfigDialog
-		if ACD and ACD.OpenFrames and ACD.OpenFrames[AddOnName] then
-			self:RegisterEvent('PLAYER_REGEN_ENABLED')
-			ACD:Close(AddOnName)
-			err = true
-		end
-	end
-
-	if self.CreatedMovers then
-		for name in pairs(self.CreatedMovers) do
-			local mover = _G[name]
-			if mover and mover:IsShown() then
-				mover:Hide()
-				err = true
-			end
-		end
-	end
-
-	if err then
-		self:Print(ERR_NOT_IN_COMBAT)
-	end
-end
 
 function AddOn:ResetProfile()
 	local profileKey
@@ -329,7 +312,7 @@ local pageNodes = {}
 function AddOn:ToggleOptionsUI(msg)
 	if InCombatLockdown() then
 		self:Print(ERR_NOT_IN_COMBAT)
-		self:RegisterEvent('PLAYER_REGEN_ENABLED')
+		self.ShowOptionsUI = true
 		return
 	end
 
@@ -380,13 +363,13 @@ function AddOn:ToggleOptionsUI(msg)
 					if i == 1 then
 						main = pages[i] and ACD and ACD.Status and ACD.Status.ElvUI
 						mainSel = main and main.status and main.status.groups and main.status.groups.selected
-						mainSelStr = mainSel and ('^'..self:EscapeString(mainSel)..'\001')
+						mainSelStr = mainSel and ('^'..AddOn:EscapeString(mainSel)..'\001')
 						mainNode = main and main.children and main.children[pages[i]]
 						pageNodes[index+1], pageNodes[index+2] = main, mainNode
 					else
 						sub = pages[i] and pageNodes[i] and ((i == pageCount and pageNodes[i]) or pageNodes[i].children[pages[i]])
 						subSel = sub and sub.status and sub.status.groups and sub.status.groups.selected
-						subNode = (mainSelStr and msgStr:match(mainSelStr..self:EscapeString(pages[i])..'$') and (subSel and subSel == pages[i])) or ((i == pageCount and not subSel) and mainSel and mainSel == msgStr)
+						subNode = (mainSelStr and msgStr:match(mainSelStr..AddOn:EscapeString(pages[i])..'$') and (subSel and subSel == pages[i])) or ((i == pageCount and not subSel) and mainSel and mainSel == msgStr)
 						pageNodes[index+1], pageNodes[index+2] = sub, subNode
 					end
 					index = index + 2
@@ -431,71 +414,84 @@ function AddOn:ToggleOptionsUI(msg)
 	_G.GameTooltip:Hide() --Just in case you're mouseovered something and it closes.
 end
 
---HonorFrameLoadTaint workaround
---credit: https://www.townlong-yak.com/bugs/afKy4k-HonorFrameLoadTaint
-if (_G.UIDROPDOWNMENU_VALUE_PATCH_VERSION or 0) < 2 then
-	_G.UIDROPDOWNMENU_VALUE_PATCH_VERSION = 2
-	hooksecurefunc('UIDropDownMenu_InitializeHelper', function()
-		if _G.UIDROPDOWNMENU_VALUE_PATCH_VERSION ~= 2 then
-			return
+do --taint workarounds by townlong-yak.com (rearranged by Simpy)
+	--CommunitiesUI			- https://www.townlong-yak.com/bugs/Kjq4hm-DisplayModeTaint
+	if (_G.UIDROPDOWNMENU_OPEN_PATCH_VERSION or 0) < 1 then _G.UIDROPDOWNMENU_OPEN_PATCH_VERSION = 1 end
+	--CommunitiesUI #2		- https://www.townlong-yak.com/bugs/YhgQma-SetValueRefreshTaint
+	if (_G.COMMUNITY_UIDD_REFRESH_PATCH_VERSION or 0) < 1 then _G.COMMUNITY_UIDD_REFRESH_PATCH_VERSION = 1 end
+
+	--	*NOTE* Simpy: these two were updated to fix an issue which was caused on the dropdowns with submenus
+	--HonorFrameLoadTaint	- https://www.townlong-yak.com/bugs/afKy4k-HonorFrameLoadTaint
+	if (_G.ELVUI_UIDROPDOWNMENU_VALUE_PATCH_VERSION or 0) < 1 then _G.ELVUI_UIDROPDOWNMENU_VALUE_PATCH_VERSION = 1 end
+	--RefreshOverread		- https://www.townlong-yak.com/bugs/Mx7CWN-RefreshOverread
+	if (_G.ELVUI_UIDD_REFRESH_OVERREAD_PATCH_VERSION or 0) < 1 then _G.ELVUI_UIDD_REFRESH_OVERREAD_PATCH_VERSION = 1 end
+
+	if _G.ELVUI_UIDROPDOWNMENU_VALUE_PATCH_VERSION == 1 or _G.UIDROPDOWNMENU_OPEN_PATCH_VERSION == 1 or _G.ELVUI_UIDD_REFRESH_OVERREAD_PATCH_VERSION == 1 then
+		local function drop(t, k)
+			local c = 42
+			t[k] = nil
+			while not issecurevariable(t, k) do
+				if t[c] == nil then
+					t[c] = nil
+				end
+				c = c + 1
+			end
 		end
-		for i=1, _G.UIDROPDOWNMENU_MAXLEVELS do
-			for j=1, _G.UIDROPDOWNMENU_MAXBUTTONS do
-				local b = _G['DropDownList' .. i .. 'Button' .. j]
-				if not (issecurevariable(b, 'value') or b:IsShown()) then
-					b.value = nil
-					repeat
-						j, b["fx" .. j] = j+1, nil
-					until issecurevariable(b, 'value')
+
+		hooksecurefunc('UIDropDownMenu_InitializeHelper', function(frame)
+			if _G.ELVUI_UIDROPDOWNMENU_VALUE_PATCH_VERSION == 1 or _G.ELVUI_UIDD_REFRESH_OVERREAD_PATCH_VERSION == 1 then
+				for i=1, _G.UIDROPDOWNMENU_MAXLEVELS do
+					local d = _G['DropDownList' .. i]
+					if d and d.numButtons then
+						for j = d.numButtons+1, _G.UIDROPDOWNMENU_MAXBUTTONS do
+							local b, _ = _G['DropDownList' .. i .. 'Button' .. j]
+							if _G.ELVUI_UIDROPDOWNMENU_VALUE_PATCH_VERSION == 1 and not (issecurevariable(b, 'value') or b:IsShown()) then
+								b.value = nil
+								repeat j, b['fx' .. j] = j+1, nil
+								until issecurevariable(b, 'value')
+							end
+							if _G.ELVUI_UIDD_REFRESH_OVERREAD_PATCH_VERSION == 1 then
+								_ = issecurevariable(b, 'checked')      or drop(b, 'checked')
+								_ = issecurevariable(b, 'notCheckable') or drop(b, 'notCheckable')
+							end
+						end
+					end
+				end
+			end
+
+			if _G.UIDROPDOWNMENU_OPEN_PATCH_VERSION == 1 then
+				if _G.UIDROPDOWNMENU_OPEN_MENU and _G.UIDROPDOWNMENU_OPEN_MENU ~= frame and not issecurevariable(_G.UIDROPDOWNMENU_OPEN_MENU, 'displayMode') then
+					_G.UIDROPDOWNMENU_OPEN_MENU = nil
+					local prefix, i = ' \0', 1
+					repeat i, _G[prefix .. i] = i + 1, nil
+					until issecurevariable(_G.UIDROPDOWNMENU_OPEN_MENU)
+				end
+			end
+		end)
+	end
+
+	if _G.COMMUNITY_UIDD_REFRESH_PATCH_VERSION == 1 then
+		local function CleanDropdowns()
+			if _G.COMMUNITY_UIDD_REFRESH_PATCH_VERSION == 1 then
+				local f, f2 = _G.FriendsFrame, _G.FriendsTabHeader
+				local s = f:IsShown()
+				f:Hide()
+				f:Show()
+				if not f2:IsShown() then
+					f2:Show()
+					f2:Hide()
+				end
+				if not s then
+					f:Hide()
 				end
 			end
 		end
-	end)
-end
 
---CommunitiesUI taint workaround
---credit: https://www.townlong-yak.com/bugs/Kjq4hm-DisplayModeTaint
-if (_G.UIDROPDOWNMENU_OPEN_PATCH_VERSION or 0) < 1 then
-	_G.UIDROPDOWNMENU_OPEN_PATCH_VERSION = 1
-	hooksecurefunc('UIDropDownMenu_InitializeHelper', function(frame)
-		if _G.UIDROPDOWNMENU_OPEN_PATCH_VERSION ~= 1 then
-			return
-		end
-		if _G.UIDROPDOWNMENU_OPEN_MENU and _G.UIDROPDOWNMENU_OPEN_MENU ~= frame
-		   and not issecurevariable(_G.UIDROPDOWNMENU_OPEN_MENU, 'displayMode') then
-			_G.UIDROPDOWNMENU_OPEN_MENU = nil
-			local t, f, prefix, i = _G, issecurevariable, ' \0', 1
-			repeat
-				i, t[prefix .. i] = i + 1, nil
-			until f('UIDROPDOWNMENU_OPEN_MENU')
-		end
-	end)
-end
-
---CommunitiesUI taint workaround #2
---credit: https://www.townlong-yak.com/bugs/YhgQma-SetValueRefreshTaint
-if (_G.COMMUNITY_UIDD_REFRESH_PATCH_VERSION or 0) < 1 then
-	_G.COMMUNITY_UIDD_REFRESH_PATCH_VERSION = 1
-	local function CleanDropdowns()
-		if _G.COMMUNITY_UIDD_REFRESH_PATCH_VERSION ~= 1 then
-			return
-		end
-		local f, f2 = _G.FriendsFrame, _G.FriendsTabHeader
-		local s = f:IsShown()
-		f:Hide()
-		f:Show()
-		if not f2:IsShown() then
-			f2:Show()
-			f2:Hide()
-		end
-		if not s then
-			f:Hide()
-		end
+		hooksecurefunc('Communities_LoadUI', CleanDropdowns)
+		hooksecurefunc('SetCVar', function(n)
+			if n == 'lastSelectedClubId' then
+				CleanDropdowns()
+			end
+		end)
 	end
-	hooksecurefunc('Communities_LoadUI', CleanDropdowns)
-	hooksecurefunc('SetCVar', function(n)
-		if n == 'lastSelectedClubId' then
-			CleanDropdowns()
-		end
-	end)
 end

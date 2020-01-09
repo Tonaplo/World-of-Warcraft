@@ -29,7 +29,7 @@ HandyNotes_BattleForAzerothTreasures: disabled
 HandyNotes_DraenorTreasures: enabled
 HandyNotes_LegionTreasures: disabled
 idTip: enabled
-InstanceAchievementTracker: disabled
+InstanceAchievementTracker: enabled
 LittleWigs: enabled
 OPie: enabled
 QE-DungeonTips: disabled
@@ -67,3 +67,8 @@ ElvUI: enabled
 WeakAurasCompanion: enabled
 OPie_Classic: disabled
 FastGuildInvite: disabled
+ElvUI_VisualAuraTimers: disabled
+ElvUI_ExtraActionBars: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_EverySecondCounts: disabled
+ElvUI_AuraBarsMovers: disabled

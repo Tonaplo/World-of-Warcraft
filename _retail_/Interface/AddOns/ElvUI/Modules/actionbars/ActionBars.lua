@@ -4,7 +4,7 @@ local AB = E:GetModule('ActionBars')
 --Lua functions
 local _G = _G
 local pairs, select = pairs, select
-local ceil, unpack = math.ceil, unpack
+local ceil, unpack = ceil, unpack
 local format, gsub, strsplit, strfind = format, gsub, strsplit, strfind
 --WoW API / Variables
 local CanExitVehicle = CanExitVehicle
@@ -49,41 +49,65 @@ AB.RegisterCooldown = E.RegisterCooldown
 AB.handledBars = {} --List of all bars
 AB.handledbuttons = {} --List of all buttons that have been modified.
 AB.barDefaults = {
-	["bar1"] = {
-		['page'] = 1,
-		['bindButtons'] = "ACTIONBUTTON",
-		['conditions'] = format("[overridebar] %d; [vehicleui] %d; [possessbar] %d; [shapeshift] 13; [form,noform] 0; [bar:2] 2; [bar:3] 3; [bar:4] 4; [bar:5] 5; [bar:6] 6;", GetOverrideBarIndex(), GetVehicleBarIndex(), GetVehicleBarIndex()),
-		['position'] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
+	bar1 = {
+		page = 1,
+		bindButtons = "ACTIONBUTTON",
+		conditions = format("[overridebar] %d; [vehicleui] %d; [possessbar] %d; [shapeshift] 13; [form,noform] 0; [bar:2] 2; [bar:3] 3; [bar:4] 4; [bar:5] 5; [bar:6] 6;", GetOverrideBarIndex(), GetVehicleBarIndex(), GetVehicleBarIndex()),
+		position = "BOTTOM,ElvUIParent,BOTTOM,0,4",
 	},
-	["bar2"] = {
-		['page'] = 5,
-		['bindButtons'] = "MULTIACTIONBAR2BUTTON",
-		['conditions'] = "",
-		['position'] = "BOTTOM,ElvUI_Bar1,TOP,0,2",
+	bar2 = {
+		page = 5,
+		bindButtons = "MULTIACTIONBAR2BUTTON",
+		conditions = "",
+		position = "BOTTOM,ElvUI_Bar1,TOP,0,2",
 	},
-	["bar3"] = {
-		['page'] = 6,
-		['bindButtons'] = "MULTIACTIONBAR1BUTTON",
-		['conditions'] = "",
-		['position'] = "LEFT,ElvUI_Bar1,RIGHT,4,0",
+	bar3 = {
+		page = 6,
+		bindButtons = "MULTIACTIONBAR1BUTTON",
+		conditions = "",
+		position = "LEFT,ElvUI_Bar1,RIGHT,4,0",
 	},
-	["bar4"] = {
-		['page'] = 4,
-		['bindButtons'] = "MULTIACTIONBAR4BUTTON",
-		['conditions'] = "",
-		['position'] = "RIGHT,ElvUIParent,RIGHT,-4,0",
+	bar4 = {
+		page = 4,
+		bindButtons = "MULTIACTIONBAR4BUTTON",
+		conditions = "",
+		position = "RIGHT,ElvUIParent,RIGHT,-4,0",
 	},
-	["bar5"] = {
-		['page'] = 3,
-		['bindButtons'] = "MULTIACTIONBAR3BUTTON",
-		['conditions'] = "",
-		['position'] = "RIGHT,ElvUI_Bar1,LEFT,-4,0",
+	bar5 = {
+		page = 3,
+		bindButtons = "MULTIACTIONBAR3BUTTON",
+		conditions = "",
+		position = "RIGHT,ElvUI_Bar1,LEFT,-4,0",
 	},
-	["bar6"] = {
-		['page'] = 2,
-		['bindButtons'] = "ELVUIBAR6BUTTON",
-		['conditions'] = "",
-		['position'] = "BOTTOM,ElvUI_Bar2,TOP,0,2",
+	bar6 = {
+		page = 2,
+		bindButtons = "ELVUIBAR6BUTTON",
+		conditions = "",
+		position = "BOTTOM,ElvUI_Bar2,TOP,0,2",
+	},
+	bar7 = {
+		page = 7,
+		bindButtons = 'EXTRABAR7BUTTON',
+		conditions = '',
+		position = 'BOTTOM,ElvUI_Bar1,TOP,0,82',
+	},
+	bar8 = {
+		page = 8,
+		bindButtons = 'EXTRABAR8BUTTON',
+		conditions = '',
+		position = 'BOTTOM,ElvUI_Bar1,TOP,0,122',
+	},
+	bar9 = {
+		page = 9,
+		bindButtons = 'EXTRABAR9BUTTON',
+		conditions = '',
+		position = 'BOTTOM,ElvUI_Bar1,TOP,0,162',
+	},
+	bar10 = {
+		page = 10,
+		bindButtons = 'EXTRABAR10BUTTON',
+		conditions = '',
+		position = 'BOTTOM,ElvUI_Bar1,TOP,0,202',
 	},
 }
 
@@ -171,7 +195,7 @@ function AB:PositionAndSizeBar(barName)
 	end
 
 	local button, lastButton, lastColumnButton
-	for i=1, NUM_ACTIONBAR_BUTTONS do
+	for i = 1, NUM_ACTIONBAR_BUTTONS do
 		button = bar.buttons[i]
 		lastButton = bar.buttons[i-1]
 		lastColumnButton = bar.buttons[i-buttonsPerRow]
@@ -281,7 +305,7 @@ function AB:CreateBar(id)
 	self:HookScript(bar, 'OnEnter', 'Bar_OnEnter')
 	self:HookScript(bar, 'OnLeave', 'Bar_OnLeave')
 
-	for i=1, 12 do
+	for i = 1, 12 do
 		bar.buttons[i] = LAB:CreateButton(i, format(bar:GetName().."Button%d", i), bar, nil)
 		bar.buttons[i]:SetState(0, "action", i)
 		for k = 1, 14 do
@@ -575,7 +599,6 @@ function AB:StyleButton(button, noBackdrop, useMasque, ignoreNormal)
 	button.useMasque = useMasque
 	button.ignoreNormal = ignoreNormal
 
-	if flash then flash:SetTexture() end
 	if normal and not ignoreNormal then normal:SetTexture(); normal:Hide(); normal:SetAlpha(0) end
 	if normal2 then normal2:SetTexture(); normal2:Hide(); normal2:SetAlpha(0) end
 	if border and not button.useMasque then border:Kill() end
@@ -599,6 +622,17 @@ function AB:StyleButton(button, noBackdrop, useMasque, ignoreNormal)
 		button.backdrop:SetAllPoints()
 	end
 
+	if flash then
+		if self.db.flashAnimation then
+			flash:SetColorTexture(1.0, 0.2, 0.2, 0.45)
+			flash:ClearAllPoints()
+			flash:SetOutside(icon, 2, 2)
+			flash:SetDrawLayer("BACKGROUND", -1)
+		else
+			flash:SetTexture()
+		end
+	end
+
 	if icon then
 		icon:SetTexCoord(unpack(E.TexCoords))
 		icon:SetInside()
@@ -606,6 +640,11 @@ function AB:StyleButton(button, noBackdrop, useMasque, ignoreNormal)
 
 	if shine then
 		shine:SetAllPoints()
+	end
+
+	if button.SpellHighlightTexture then
+		button.SpellHighlightTexture:SetColorTexture(1, 1, 0, 0.45)
+		button.SpellHighlightTexture:SetAllPoints()
 	end
 
 	if self.db.hotkeytext or self.db.useRangeColorText then
@@ -1164,7 +1203,7 @@ function AB:Initialize()
 	self:SetupMicroBar()
 	self:UpdateBar1Paging()
 
-	for i=1, 6 do
+	for i = 1, 10 do
 		self:CreateBar(i)
 	end
 

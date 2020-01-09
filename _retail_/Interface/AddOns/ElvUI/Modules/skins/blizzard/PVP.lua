@@ -77,14 +77,15 @@ local function LoadSkin()
 	BonusFrame.ShadowOverlay:Hide()
 	BonusFrame.WorldBattlesTexture:Hide()
 
-	for _, bonusButton in pairs({"RandomBGButton", "Arena1Button", "RandomEpicBGButton", "BrawlButton"}) do
+	for _, bonusButton in pairs({"RandomBGButton", "Arena1Button", "RandomEpicBGButton", "BrawlButton", "SpecialEventButton"}) do
 		local bu = BonusFrame[bonusButton]
 		local reward = bu.Reward
 		S:HandleButton(bu)
 		bu.SelectedTexture:SetInside()
 		bu.SelectedTexture:SetColorTexture(1, 1, 0, 0.1)
 
-		reward:StripTextures()
+		reward.Border:Hide()
+		reward.CircleMask:Hide()
 		S:HandleIcon(reward.Icon, true)
 
 		reward.EnlistmentBonus:StripTextures()
@@ -148,7 +149,8 @@ local function LoadSkin()
 		bu.SelectedTexture:SetInside()
 		bu.SelectedTexture:SetColorTexture(1, 1, 0, 0.1)
 
-		reward:StripTextures()
+		reward.Border:Hide()
+		reward.CircleMask:Hide()
 		S:HandleIcon(reward.Icon, true)
 	end
 
@@ -206,7 +208,6 @@ local function LoadSkin()
 
 	--Tutorials
 	S:HandleCloseButton(_G.PremadeGroupsPvPTutorialAlert.CloseButton)
-	S:HandleCloseButton(HonorFrame.BonusFrame.BrawlHelpBox.CloseButton)
 
 	-- New Season Frame
 	local NewSeasonPopup = _G.PVPQueueFrame.NewSeasonPopup

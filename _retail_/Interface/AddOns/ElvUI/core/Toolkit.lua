@@ -4,6 +4,7 @@ local LSM = E.Libs.LSM
 --Lua functions
 local _G = _G
 local unpack, type, select, getmetatable, assert, pairs, pcall = unpack, type, select, getmetatable, assert, pairs, pcall
+local tonumber = tonumber
 --WoW API / Variables
 local CreateFrame = CreateFrame
 local hooksecurefunc = hooksecurefunc
@@ -28,8 +29,11 @@ E.PixelBorders = {'TOPLEFT', 'TOPRIGHT', 'BOTTOMLEFT', 'BOTTOMRIGHT', 'TOP', 'BO
 function E:SetBackdrop(frame, giveBorder, bgFile, edgeSize, insetLeft, insetRight, insetTop, insetBottom)
 	if not frame.pixelBorders then return end
 
-	if not giveBorder then
+	local shownBorders = frame.pixelBorders.TOP:IsShown()
+	if shownBorders and not giveBorder then
 		E:TogglePixelBorders(frame)
+	elseif not shownBorders then
+		E:TogglePixelBorders(frame, true)
 	end
 
 	frame.pixelBorders.CENTER:SetTexture(bgFile)
@@ -170,7 +174,7 @@ local function GetTemplate(template, isUnitFrameElement)
 	backdropa = 1
 
 	if template == 'ClassColor' then
-		local color = _G.CUSTOM_CLASS_COLORS and _G.CUSTOM_CLASS_COLORS[E.myclass] or _G.RAID_CLASS_COLORS[E.myclass]
+		local color = E:ClassColor(E.myclass)
 		borderr, borderg, borderb = color.r, color.g, color.b
 		backdropr, backdropg, backdropb = unpack(E.media.backdropcolor)
 	elseif template == 'Transparent' then
@@ -365,6 +369,7 @@ local StripTexturesBlizzFrames = {
 	'ArtOverlayFrame',
 	'Portrait',
 	'portrait',
+	'ScrollFrameBorder',
 }
 
 local STRIP_TEX = 'Texture'
@@ -415,6 +420,10 @@ local function StripTexts(object, kill, alpha)
 end
 
 local function FontTemplate(fs, font, fontSize, fontStyle)
+	if type(fontSize) == 'string' then
+		fontSize = tonumber(fontSize)
+	end
+
 	fs.font, fs.fontSize, fs.fontStyle = font, fontSize, fontStyle
 
 	font = font or LSM:Fetch('font', E.db.general.font)
@@ -448,6 +457,7 @@ local function StyleButton(button, noHover, noPushed, noChecked)
 	if button.SetHighlightTexture and not button.hover and not noHover then
 		local hover = button:CreateTexture()
 		hover:SetInside()
+		hover:SetBlendMode('ADD')
 		hover:SetColorTexture(1, 1, 1, 0.3)
 		button:SetHighlightTexture(hover)
 		button.hover = hover
@@ -456,6 +466,7 @@ local function StyleButton(button, noHover, noPushed, noChecked)
 	if button.SetPushedTexture and not button.pushed and not noPushed then
 		local pushed = button:CreateTexture()
 		pushed:SetInside()
+		pushed:SetBlendMode('ADD')
 		pushed:SetColorTexture(0.9, 0.8, 0.1, 0.3)
 		button:SetPushedTexture(pushed)
 		button.pushed = pushed
@@ -464,6 +475,7 @@ local function StyleButton(button, noHover, noPushed, noChecked)
 	if button.SetCheckedTexture and not button.checked and not noChecked then
 		local checked = button:CreateTexture()
 		checked:SetInside()
+		checked:SetBlendMode('ADD')
 		checked:SetColorTexture(1, 1, 1, 0.3)
 		button:SetCheckedTexture(checked)
 		button.checked = checked

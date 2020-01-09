@@ -1,2124 +1,2133 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/elvui", -- [1]
-		"/macro", -- [2]
+		"/i ^^", -- [1]
+		"/i Capture the Horde Graeyard and rush their base :)", -- [2]
+		"/s help cap GY", -- [3]
+		"/elvui", -- [4]
+		"/i Ready to take Horde GY need more people", -- [5]
+		"/i Need help capping GY at horde base", -- [6]
+		"/i Too deep", -- [7]
+		"/cw Stragen-Silvermoon ye", -- [8]
+		"/macro", -- [9]
+		"/i You need to always capture Frostwolf Graveyard", -- [10]
+		"/s here", -- [11]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Interrupted Shadowmoon Darkcaster's |cff71d5ff|Hspell:33508:0|h[Rain of Fire]|h|r!", -- [1]
-			"Darkqueenk-Silvermoon", -- [2]
+			"can  ifarm this till 120 ?", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Darkqueenk-Silvermoon", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2217, -- [11]
-			"Player-3391-0954A765", -- [12]
+			3142, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Darkqueenk|r",
-			[51] = 1571868442,
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577309979,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [1]
 		{
-			"Interrupted Shadowmoon Acolyte's |cff71d5ff|Hspell:15587:0|h[Mind Blast]|h|r!", -- [1]
-			"Darkqueenk-Silvermoon", -- [2]
+			"yes", -- [1]
+			"Schain-Darksorrow", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Darkqueenk-Silvermoon", -- [5]
+			"Schain-Darksorrow", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2227, -- [11]
-			"Player-3391-0954A765", -- [12]
+			3147, -- [11]
+			"Player-3660-09917E04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Darkqueenk|r",
-			[51] = 1571868462,
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577309984,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [2]
 		{
-			"Interrupted Shadowmoon Darkcaster's |cff71d5ff|Hspell:33508:0|h[Rain of Fire]|h|r!", -- [1]
-			"Darkqueenk-Silvermoon", -- [2]
+			"yessir", -- [1]
+			"Emiliâno-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Darkqueenk-Silvermoon", -- [5]
+			"Emiliâno-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2306, -- [11]
-			"Player-3391-0954A765", -- [12]
+			3148, -- [11]
+			"Player-3391-093A98A9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Darkqueenk|r",
-			[51] = 1571868612,
+			[52] = "|cff3ec5e9Emiliâno|r",
+			[51] = 1577309988,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [3]
 		{
-			"hehe", -- [1]
-			"Nímander-ArgentDawn", -- [2]
+			"from 110", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nímander-ArgentDawn", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2388, -- [11]
-			"Player-3702-06251638", -- [12]
+			3149, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nímander-ArgentDawn|r",
-			[51] = 1571868823,
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577309989,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [4]
 		{
-			"Interrupted Shadowmoon Darkcaster's |cff71d5ff|Hspell:33508:0|h[Rain of Fire]|h|r!", -- [1]
-			"Darkqueenk-Silvermoon", -- [2]
+			"how long ?", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Darkqueenk-Silvermoon", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2453, -- [11]
-			"Player-3391-0954A765", -- [12]
+			3150, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Darkqueenk|r",
-			[51] = 1571868976,
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577309990,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [5]
 		{
-			"lol", -- [1]
-			"Nímander-ArgentDawn", -- [2]
+			"xp just as good till 120", -- [1]
+			"Schain-Darksorrow", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nímander-ArgentDawn", -- [5]
+			"Schain-Darksorrow", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2477, -- [11]
-			"Player-3702-06251638", -- [12]
+			3156, -- [11]
+			"Player-3660-09917E04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nímander-ArgentDawn|r",
-			[51] = 1571869004,
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577309994,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [6]
 		{
-			"i can tw now.", -- [1]
-			"Jasna-Silvermoon", -- [2]
+			"5h", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1246, -- [11]
-			"Player-3391-0A98CFFB", -- [12]
+			3157, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Jasna|r",
-			[51] = 1572129164,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577309995,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [7]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:889:Player-3391-07035361:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Fast and Furious]|h|r!", -- [1]
-			"Mitonk-Silvermoon", -- [2]
+			"3 hours", -- [1]
+			"Smellysocks-Alonsus", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mitonk-Silvermoon", -- [5]
+			"Smellysocks-Alonsus", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1247, -- [11]
-			"Player-3391-07035361", -- [12]
+			3158, -- [11]
+			"Player-1082-0647C7EC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Mitonk|r",
-			[51] = 1572129166,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Smellysocks-Alonsus|r",
+			[51] = 1577309997,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [8]
 		{
-			"lolz.", -- [1]
-			"Jasna-Silvermoon", -- [2]
+			"5 hours", -- [1]
+			"Druidsa-Agamaggan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Druidsa-Agamaggan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1248, -- [11]
-			"Player-3391-0A98CFFB", -- [12]
+			3159, -- [11]
+			"Player-1091-04AE687E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Jasna|r",
-			[51] = 1572129166,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Druidsa-Agamaggan|r",
+			[51] = 1577309997,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [9]
 		{
-			"She can join, but no raid will invite her due to how scaling works", -- [1]
-			"Inverne-Silvermoon", -- [2]
+			"can i do this at 100 aswell?", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1249, -- [11]
-			"Player-3391-0AA723F4", -- [12]
+			3160, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cInverne|r",
-			[51] = 1572129169,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310010,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [10]
 		{
-			"with this char.", -- [1]
-			"Jasna-Silvermoon", -- [2]
+			"depends,  on wins/losses", -- [1]
+			"Magiiboii-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Magiiboii-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1251, -- [11]
-			"Player-3391-0A98CFFB", -- [12]
+			3161, -- [11]
+			"Player-1300-0A95BE3A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Jasna|r",
-			[51] = 1572129169,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec5e9Magiiboii-Frostmane|r",
+			[51] = 1577310014,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [11]
 		{
-			"you can do timewalking at any level past the 'intented' level", -- [1]
-			"Desolane-Silvermoon", -- [2]
+			"yes", -- [1]
+			"Smellysocks-Alonsus", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Smellysocks-Alonsus", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1254, -- [11]
-			"Player-3391-0AAA926B", -- [12]
+			3162, -- [11]
+			"Player-1082-0647C7EC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecDesolane|r",
-			[51] = 1572129171,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Smellysocks-Alonsus|r",
+			[51] = 1577310015,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [12]
 		{
-			"i was able to do timewalking dung now", -- [1]
-			"Kittycipipi-Silvermoon", -- [2]
+			"from level 60 it's worth it in xp", -- [1]
+			"Schain-Darksorrow", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Schain-Darksorrow", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1260, -- [11]
-			"Player-3391-0A9FF8F8", -- [12]
+			3163, -- [11]
+			"Player-3660-09917E04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKittycipipi|r",
-			[51] = 1572129178,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577310019,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [13]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:973:Player-3391-08AD0D05:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[5 Daily Quests Completed]|h|r!", -- [1]
-			"Curteroby-Silvermoon", -- [2]
+			"before you get like 0 xp", -- [1]
+			"Schain-Darksorrow", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Curteroby-Silvermoon", -- [5]
+			"Schain-Darksorrow", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1262, -- [11]
-			"Player-3391-08AD0D05", -- [12]
+			3172, -- [11]
+			"Player-3660-09917E04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Curteroby|r",
-			[51] = 1572129181,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577310022,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [14]
 		{
-			"it justtakes you down to the approriate level", -- [1]
-			"Desolane-Silvermoon", -- [2]
+			"but", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1263, -- [11]
-			"Player-3391-0AAA926B", -- [12]
+			3178, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecDesolane|r",
-			[51] = 1572129181,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310031,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [15]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:979:Player-3391-08AD0D05:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[The Mask Task]|h|r!", -- [1]
-			"Curteroby-Silvermoon", -- [2]
+			"but would recommend from 80 cause you level so fast 60-80", -- [1]
+			"Schain-Darksorrow", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Curteroby-Silvermoon", -- [5]
+			"Schain-Darksorrow", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1264, -- [11]
-			"Player-3391-08AD0D05", -- [12]
+			3179, -- [11]
+			"Player-3660-09917E04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Curteroby|r",
-			[51] = 1572129188,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577310031,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [16]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8465:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Fallen Protectors]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"Biggest benefit is from 90+", -- [1]
+			"Smellysocks-Alonsus", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Smellysocks-Alonsus", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1265, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3180, -- [11]
+			"Player-1082-0647C7EC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129195,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Smellysocks-Alonsus|r",
+			[51] = 1577310031,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [17]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8465:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Fallen Protectors]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"when does this stop", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1266, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3181, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572129195,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310033,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [18]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:1180:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"after 69 hours", -- [1]
+			"Emiliâno-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Emiliâno-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1267, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3183, -- [11]
+			"Player-3391-093A98A9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572129197,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec5e9Emiliâno|r",
+			[51] = 1577310041,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [19]
 		{
-			"so yea, basiclly im wrong a bit, cuz one person is not enough", -- [1]
-			"Jasna-Silvermoon", -- [2]
+			"7/8th Jan", -- [1]
+			"Smellysocks-Alonsus", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Smellysocks-Alonsus", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1270, -- [11]
-			"Player-3391-0A98CFFB", -- [12]
+			3184, -- [11]
+			"Player-1082-0647C7EC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Jasna|r",
-			[51] = 1572129208,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Smellysocks-Alonsus|r",
+			[51] = 1577310044,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [20]
 		{
-			"Which is fine for the normal dungeons, which has a queue system. The timewalking raid however has to be premade", -- [1]
-			"Inverne-Silvermoon", -- [2]
+			"kk", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1274, -- [11]
-			"Player-3391-0AA723F4", -- [12]
+			3185, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cInverne|r",
-			[51] = 1572129211,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310047,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [21]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:7413:Player-3391-0AAA926B:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Scarlet Halls]|h|r!", -- [1]
-			"Desolane-Silvermoon", -- [2]
+			"Move into RH", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Desolane-Silvermoon", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1286, -- [11]
-			"Player-3391-0AAA926B", -- [12]
+			3207, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecDesolane|r",
-			[51] = 1572129238,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577310108,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [22]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8:Player-3391-0AAA926B:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Level 30]|h|r!", -- [1]
-			"Desolane-Silvermoon", -- [2]
+			"gg", -- [1]
+			"Braiden-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Desolane-Silvermoon", -- [5]
+			"Braiden-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1287, -- [11]
-			"Player-3391-0AAA926B", -- [12]
+			3349, -- [11]
+			"Player-3391-0AADAFBD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecDesolane|r",
-			[51] = 1572129238,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Braiden|r",
+			[51] = 1577310276,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [23]
 		{
-			"yeah exactly", -- [1]
-			"Desolane-Silvermoon", -- [2]
+			"Capping: Alliance Boss - 14.0%", -- [1]
+			"Braiden-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Braiden-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1288, -- [11]
-			"Player-3391-0AAA926B", -- [12]
+			3351, -- [11]
+			"Player-3391-0AADAFBD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecDesolane|r",
-			[51] = 1572129240,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Braiden|r",
+			[51] = 1577310278,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [24]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:631:Player-3391-0AAAA231:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Shadowfang Keep]|h|r!", -- [1]
-			"Samwitch-Silvermoon", -- [2]
+			"hi", -- [1]
+			"Aithrasir-ChamberofAspects", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Samwitch-Silvermoon", -- [5]
+			"Aithrasir-ChamberofAspects", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1330, -- [11]
-			"Player-3391-0AAAA231", -- [12]
+			3420, -- [11]
+			"Player-1307-0A445439", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Samwitch|r",
-			[51] = 1572129348,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
+			[51] = 1577310441,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [25]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13769:Player-3391-071F0230:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Power Up]|h|r!", -- [1]
-			"Monocycline-Silvermoon", -- [2]
+			"happ y x mass", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Monocycline-Silvermoon", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1346, -- [11]
-			"Player-3391-071F0230", -- [12]
+			3421, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cMonocycline|r",
-			[51] = 1572129382,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310445,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [26]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12837:Player-3391-06734023:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Shrine of the Storm]|h|r!", -- [1]
-			"Silverskye-Silvermoon", -- [2]
+			"Merry crimbo!", -- [1]
+			"Yiara-KulTiras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Silverskye-Silvermoon", -- [5]
+			"Yiara-KulTiras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1368, -- [11]
-			"Player-3391-06734023", -- [12]
+			3427, -- [11]
+			"Player-1082-0873E9D3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Silverskye|r",
-			[51] = 1572129410,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577310452,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [27]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12838:Player-3391-06734023:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Shrine of the Storm]|h|r!", -- [1]
-			"Silverskye-Silvermoon", -- [2]
+			"merry xmas", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Silverskye-Silvermoon", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1369, -- [11]
-			"Player-3391-06734023", -- [12]
+			3429, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Silverskye|r",
-			[51] = 1572129410,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310458,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [28]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8466:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Norushen]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"boys", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1378, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3431, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129427,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310459,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [29]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8466:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Norushen]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"lets win this", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1379, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3432, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572129427,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310460,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [30]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8532:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[None Shall Pass]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"girls*", -- [1]
+			"Liøna-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Liøna-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1380, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3436, -- [11]
+			"Player-3674-0693BC27", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129427,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffef367Liøna-TwistingNether|r",
+			[51] = 1577310473,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [31]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8532:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[None Shall Pass]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"hell yeah", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1381, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3437, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572129427,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310480,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [32]
 		{
-			"hEY", -- [1]
-			"Onkelo-Silvermoon", -- [2]
+			"lEtS wIn gUyS", -- [1]
+			"Emiliâno-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Emiliâno-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1389, -- [11]
-			"Player-3391-0A5AD194", -- [12]
+			3439, -- [11]
+			"Player-3391-093A98A9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cOnkelo|r",
-			[51] = 1572129443,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec5e9Emiliâno|r",
+			[51] = 1577310482,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [33]
 		{
-			"*Hey", -- [1]
-			"Onkelo-Silvermoon", -- [2]
+			"yeah come on girls ", -- [1]
+			"Yiara-KulTiras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Yiara-KulTiras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1390, -- [11]
-			"Player-3391-0A5AD194", -- [12]
+			3440, -- [11]
+			"Player-1082-0873E9D3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cOnkelo|r",
-			[51] = 1572129447,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577310487,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [34]
 		{
-			"Good start", -- [1]
-			"Onkelo-Silvermoon", -- [2]
+			"kick butt everyone", -- [1]
+			"Yiara-KulTiras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Yiara-KulTiras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1391, -- [11]
-			"Player-3391-0A5AD194", -- [12]
+			3443, -- [11]
+			"Player-1082-0873E9D3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cOnkelo|r",
-			[51] = 1572129452,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577310498,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [35]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:635:Player-3391-0A33C1E7:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Razorfen Kraul]|h|r!", -- [1]
-			"Dumacis-Silvermoon", -- [2]
+			"teabag their corpses", -- [1]
+			"Yiara-KulTiras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dumacis-Silvermoon", -- [5]
+			"Yiara-KulTiras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1392, -- [11]
-			"Player-3391-0A33C1E7", -- [12]
+			3444, -- [11]
+			"Player-1082-0873E9D3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecDumacis|r",
-			[51] = 1572129452,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577310505,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [36]
 		{
-			"Hi", -- [1]
-			"Lîvä-Silvermoon", -- [2]
+			"those who have invisibility go to last towers", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1393, -- [11]
-			"Player-3391-0A887AC6", -- [12]
+			3448, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Lîvä|r",
-			[51] = 1572129457,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310526,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [37]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:9:Player-3391-0A33C1E7:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Level 40]|h|r!", -- [1]
-			"Dumacis-Silvermoon", -- [2]
+			"horde boobie s", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dumacis-Silvermoon", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1394, -- [11]
-			"Player-3391-0A33C1E7", -- [12]
+			3449, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecDumacis|r",
-			[51] = 1572129458,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310527,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [38]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:4957:Player-3391-0A33C1E7:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[20 Dungeon Quests Completed]|h|r!", -- [1]
-			"Dumacis-Silvermoon", -- [2]
+			"backdoor?", -- [1]
+			"Petrol-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dumacis-Silvermoon", -- [5]
+			"Petrol-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1395, -- [11]
-			"Player-3391-0A33C1E7", -- [12]
+			3450, -- [11]
+			"Player-3702-09483ED1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecDumacis|r",
-			[51] = 1572129460,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
+			[51] = 1577310542,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [39]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11183:Player-3391-06734023:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Keystone Initiate]|h|r!", -- [1]
-			"Silverskye-Silvermoon", -- [2]
+			"backdoor sounds good", -- [1]
+			"Aithrasir-ChamberofAspects", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Silverskye-Silvermoon", -- [5]
+			"Aithrasir-ChamberofAspects", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1407, -- [11]
-			"Player-3391-06734023", -- [12]
+			3451, -- [11]
+			"Player-1307-0A445439", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Silverskye|r",
-			[51] = 1572129516,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
+			[51] = 1577310552,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [40]
 		{
-			"heyyy good evening everyone", -- [1]
-			"Maizina-Silvermoon", -- [2]
+			"we get xp for towers?", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1417, -- [11]
-			"Player-3391-093D59DD", -- [12]
+			3452, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Maizina|r",
-			[51] = 1572129540,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310554,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [41]
 		{
-			"hey", -- [1]
-			"Kittycipipi-Silvermoon", -- [2]
+			"yessss Razper", -- [1]
+			"Druidsa-Agamaggan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Druidsa-Agamaggan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1418, -- [11]
-			"Player-3391-0A9FF8F8", -- [12]
+			3455, -- [11]
+			"Player-1091-04AE687E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKittycipipi|r",
-			[51] = 1572129544,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Druidsa-Agamaggan|r",
+			[51] = 1577310567,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [42]
 		{
-			"Heyo", -- [1]
-			"Jasna-Silvermoon", -- [2]
+			"%^&*!@", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1419, -- [11]
-			"Player-3391-0A98CFFB", -- [12]
+			3459, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Jasna|r",
-			[51] = 1572129550,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310578,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [43]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:4897:Player-3391-0AA81D17:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Hinterlands Quests]|h|r!", -- [1]
-			"Lightridge-Silvermoon", -- [2]
+			"hahah", -- [1]
+			"Yiara-KulTiras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lightridge-Silvermoon", -- [5]
+			"Yiara-KulTiras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1420, -- [11]
-			"Player-3391-0AA81D17", -- [12]
+			3460, -- [11]
+			"Player-1082-0873E9D3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Lightridge|r",
-			[51] = 1572129559,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577310581,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [44]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8458:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Vale of Eternal Sorrows]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"we get experience from learning from our mistakes", -- [1]
+			"Schain-Darksorrow", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Schain-Darksorrow", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1421, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3461, -- [11]
+			"Player-3660-09917E04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572129563,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577310583,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [45]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8467:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Sha of Pride]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"xD", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1422, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3464, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572129563,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310587,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [46]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8521:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Swallow Your Pride]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"wise man", -- [1]
+			"Razper-Outland", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Razper-Outland", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1423, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3465, -- [11]
+			"Player-1301-099D99C7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572129563,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577310590,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [47]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8458:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Vale of Eternal Sorrows]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"Too deep", -- [1]
+			"Korugen-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Korugen-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1424, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3466, -- [11]
+			"Player-3391-0A827D5A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129563,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Korugen|r",
+			[51] = 1577310591,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [48]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8467:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Sha of Pride]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"lol", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1425, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3467, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129563,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310591,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [49]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8521:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Swallow Your Pride]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"uuuug", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1426, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3468, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129563,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310594,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [50]
 		{
-			"how is everyone doingg", -- [1]
-			"Maizina-Silvermoon", -- [2]
+			"go to the first tower", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1429, -- [11]
-			"Player-3391-093D59DD", -- [12]
+			3469, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Maizina|r",
-			[51] = 1572129566,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310596,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [51]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:4956:Player-3391-0AAA7062:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r!", -- [1]
-			"Kenyerpirito-Silvermoon", -- [2]
+			"its teh taking part that counts", -- [1]
+			"Yiara-KulTiras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kenyerpirito-Silvermoon", -- [5]
+			"Yiara-KulTiras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1432, -- [11]
-			"Player-3391-0AAA7062", -- [12]
+			3470, -- [11]
+			"Player-1082-0873E9D3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Kenyerpirito|r",
-			[51] = 1572129578,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577310602,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [52]
 		{
-			"yes", -- [1]
-			"Somedwarfs-Silvermoon", -- [2]
+			"more than enough tanks and healers to push", -- [1]
+			"Yveline-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Yveline-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1436, -- [11]
-			"Player-3391-08D0B1DF", -- [12]
+			3473, -- [11]
+			"Player-3702-061C1826", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Somedwarfs|r",
-			[51] = 1572129588,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
+			[51] = 1577310614,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [53]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:940:Player-3391-0A633834:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[The Green Hills of Stranglethorn]|h|r!", -- [1]
-			"Lunisse-Silvermoon", -- [2]
+			"go to second tower", -- [1]
+			"Emiliâno-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lunisse-Silvermoon", -- [5]
+			"Emiliâno-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1455, -- [11]
-			"Player-3391-0A633834", -- [12]
+			3474, -- [11]
+			"Player-3391-093A98A9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecLunisse|r",
-			[51] = 1572129643,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec5e9Emiliâno|r",
+			[51] = 1577310617,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [54]
 		{
-			"lol Silverskye", -- [1]
-			"Danniel-Silvermoon", -- [2]
+			"i go fw grave", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1493, -- [11]
-			"Player-3391-0AA162F4", -- [12]
+			3483, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDanniel|r",
-			[51] = 1572129741,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577310654,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [55]
 		{
-			"?", -- [1]
-			"Silverskye-Silvermoon", -- [2]
+			"im high xd", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1497, -- [11]
-			"Player-3391-06734023", -- [12]
+			3484, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Silverskye|r",
-			[51] = 1572129756,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310656,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [56]
 		{
-			"weve did a random dungeon together", -- [1]
-			"Danniel-Silvermoon", -- [2]
+			"on what?", -- [1]
+			"Schain-Darksorrow", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Schain-Darksorrow", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1502, -- [11]
-			"Player-3391-0AA162F4", -- [12]
+			3499, -- [11]
+			"Player-3660-09917E04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDanniel|r",
-			[51] = 1572129775,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577310667,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [57]
 		{
-			"when", -- [1]
-			"Silverskye-Silvermoon", -- [2]
+			"weed bro", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1503, -- [11]
-			"Player-3391-06734023", -- [12]
+			3500, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Silverskye|r",
-			[51] = 1572129782,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310672,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [58]
 		{
-			"then raid finder part 1 together and now we end up in the same guild wtf", -- [1]
-			"Danniel-Silvermoon", -- [2]
+			"ib gy", -- [1]
+			"Aithrasir-ChamberofAspects", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Aithrasir-ChamberofAspects", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1504, -- [11]
-			"Player-3391-0AA162F4", -- [12]
+			3530, -- [11]
+			"Player-1307-0A445439", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDanniel|r",
-			[51] = 1572129788,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
+			[51] = 1577310715,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [59]
 		{
-			"i was on different characters ", -- [1]
-			"Danniel-Silvermoon", -- [2]
+			"dont take it", -- [1]
+			"Hedon-Daggerspine", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Hedon-Daggerspine", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1510, -- [11]
-			"Player-3391-0AA162F4", -- [12]
+			3540, -- [11]
+			"Player-1598-06303516", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDanniel|r",
-			[51] = 1572129800,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc31d39Hedon-Daggerspine|r",
+			[51] = 1577310729,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [60]
 		{
-			"nice", -- [1]
-			"Silverskye-Silvermoon", -- [2]
+			"plz rogues go to last towers and get them", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1516, -- [11]
-			"Player-3391-06734023", -- [12]
+			3552, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Silverskye|r",
-			[51] = 1572129818,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310749,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [61]
 		{
-			"STACK!", -- [1]
-			"Onkelo-Silvermoon", -- [2]
+			"rogue at fw grave", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1531, -- [11]
-			"Player-3391-0A5AD194", -- [12]
+			3557, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cOnkelo|r",
-			[51] = 1572129838,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577310784,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [62]
 		{
-			"wait", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"liona and lerno help alpha on attack fast", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1533, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3568, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129856,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310820,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [63]
 		{
-			"yep lol i was the ret pala tank in the random dungeon ", -- [1]
-			"Danniel-Silvermoon", -- [2]
+			"he is solo", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1534, -- [11]
-			"Player-3391-0AA162F4", -- [12]
+			3569, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDanniel|r",
-			[51] = 1572129858,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310822,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [64]
 		{
-			"you lads doing black temple TW?", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"also if any drood can help him go fast", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1537, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3579, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129867,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310838,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [65]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:255:Player-3391-093313AD:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Bring Me The Head of... Oh Wait]|h|r!", -- [1]
-			"Vîrya-Silvermoon", -- [2]
+			"could use a couple more at back door", -- [1]
+			"Petrol-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vîrya-Silvermoon", -- [5]
+			"Petrol-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1546, -- [11]
-			"Player-3391-093313AD", -- [12]
+			3580, -- [11]
+			"Player-3702-09483ED1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cVîrya|r",
-			[51] = 1572129880,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
+			[51] = 1577310841,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [66]
 		{
-			"ye", -- [1]
-			"Kittycipipi-Silvermoon", -- [2]
+			"healer would be good", -- [1]
+			"Petrol-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Petrol-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1553, -- [11]
-			"Player-3391-0A9FF8F8", -- [12]
+			3587, -- [11]
+			"Player-3702-09483ED1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKittycipipi|r",
-			[51] = 1572129892,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
+			[51] = 1577310854,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [67]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:630:Player-3391-0A279F48:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Wailing Caverns]|h|r!", -- [1]
-			"Sillac-Silvermoon", -- [2]
+			"we dowing good", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Sillac-Silvermoon", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1554, -- [11]
-			"Player-3391-0A279F48", -- [12]
+			3594, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cSillac|r",
-			[51] = 1572129900,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577310876,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [68]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:630:Player-3391-0AAA7062:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Wailing Caverns]|h|r!", -- [1]
-			"Kenyerpirito-Silvermoon", -- [2]
+			"man i whisping 2 many people andthey move around lol", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kenyerpirito-Silvermoon", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1555, -- [11]
-			"Player-3391-0AAA7062", -- [12]
+			3595, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Kenyerpirito|r",
-			[51] = 1572129900,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310877,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [69]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:7:Player-3391-0AAA7062:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Level 20]|h|r!", -- [1]
-			"Kenyerpirito-Silvermoon", -- [2]
+			"rushing there", -- [1]
+			"Yveline-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kenyerpirito-Silvermoon", -- [5]
+			"Yveline-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1556, -- [11]
-			"Player-3391-0AAA7062", -- [12]
+			3596, -- [11]
+			"Player-3702-061C1826", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Kenyerpirito|r",
-			[51] = 1572129900,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
+			[51] = 1577310880,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [70]
 		{
-			"o:", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"who is the smart man to take ib grave?", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1557, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3609, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129906,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577310890,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [71]
 		{
-			"already started or wut?", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"dont take stonehearth now", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1558, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3631, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129910,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577310907,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [72]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:979:Player-3391-093313AD:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[The Mask Task]|h|r!", -- [1]
-			"Vîrya-Silvermoon", -- [2]
+			"take FW pls", -- [1]
+			"Hedon-Daggerspine", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vîrya-Silvermoon", -- [5]
+			"Hedon-Daggerspine", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1559, -- [11]
-			"Player-3391-093313AD", -- [12]
+			3634, -- [11]
+			"Player-1598-06303516", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cVîrya|r",
-			[51] = 1572129911,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Hedon-Daggerspine|r",
+			[51] = 1577310916,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [73]
 		{
-			"at illidan", -- [1]
-			"Kittycipipi-Silvermoon", -- [2]
+			"move to second tower and hold", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1560, -- [11]
-			"Player-3391-0A9FF8F8", -- [12]
+			3655, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKittycipipi|r",
-			[51] = 1572129922,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310947,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [74]
 		{
-			"damn", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"you're moving too slow", -- [1]
+			"Petrol-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Petrol-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1561, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3656, -- [11]
+			"Player-3702-09483ED1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129930,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
+			[51] = 1577310947,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [75]
 		{
-			"foud grp", -- [1]
-			"Kittycipipi-Silvermoon", -- [2]
+			"i help backdoor", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1562, -- [11]
-			"Player-3391-0A9FF8F8", -- [12]
+			3657, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKittycipipi|r",
-			[51] = 1572129933,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577310948,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [76]
 		{
-			"should've been a guild run tbh haha", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"..", -- [1]
+			"Liøna-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Liøna-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1577, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3660, -- [11]
+			"Player-3674-0693BC27", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572129952,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffef367Liøna-TwistingNether|r",
+			[51] = 1577310956,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [77]
 		{
-			"Psychic Horror on Korugen", -- [1]
-			"Korugen-Silvermoon", -- [2]
-			"Common", -- [3]
+			"go backdoor now", -- [1]
+			"Noxmonk-DunModr", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Korugen-Silvermoon", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1581, -- [11]
-			"Player-3391-0A827D5A", -- [12]
+			3661, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1572129977,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310967,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [78]
 		{
-			"we still can do this as guild run I think", -- [1]
-			"Jasna-Silvermoon", -- [2]
+			"...", -- [1]
+			"Petrol-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Petrol-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1583, -- [11]
-			"Player-3391-0A98CFFB", -- [12]
+			3663, -- [11]
+			"Player-3702-09483ED1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Jasna|r",
-			[51] = 1572129978,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
+			[51] = 1577310972,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [79]
 		{
-			"yup but i mean like a guild raid on BT in TW", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"backdoor now", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1607, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3664, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572130001,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310979,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [80]
 		{
-			"i mean it too :D", -- [1]
-			"Jasna-Silvermoon", -- [2]
+			"we clean from back guys", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1617, -- [11]
-			"Player-3391-0A98CFFB", -- [12]
+			3665, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Jasna|r",
-			[51] = 1572130030,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577310982,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [81]
 		{
-			"but maybe not today hah, it's too long", -- [1]
-			"Jasna-Silvermoon", -- [2]
+			"any chance for a backdoor portal, I'm too dumb", -- [1]
+			"Yveline-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Yveline-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1626, -- [11]
-			"Player-3391-0A98CFFB", -- [12]
+			3674, -- [11]
+			"Player-3702-061C1826", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Jasna|r",
-			[51] = 1572130052,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
+			[51] = 1577310991,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [82]
 		{
-			"true", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"Capping: Frostwolf Graveyard - 2:12 (Alliance)", -- [1]
+			"Promeline-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Promeline-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1639, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3742, -- [11]
+			"Player-1329-04148CC4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572130079,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Promeline-Ravencrest|r",
+			[51] = 1577311050,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [83]
 		{
-			"hey", -- [1]
-			"Lunà-Silvermoon", -- [2]
+			"1 hunter defending on backdoor i need 1 tank and 1 dps here", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1641, -- [11]
-			"Player-3391-0AAAE6AA", -- [12]
+			3767, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Lunà|r",
-			[51] = 1572130089,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311063,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [84]
 		{
-			"hi", -- [1]
-			"Kittycipipi-Silvermoon", -- [2]
+			"im def fw grave atm", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1642, -- [11]
-			"Player-3391-0A9FF8F8", -- [12]
+			3788, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKittycipipi|r",
-			[51] = 1572130094,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311087,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [85]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8468:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Galakras]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"we are not enoght on attack", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1643, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3815, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572130095,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311144,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [86]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8530:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[The Immortal Vanguard]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"fw grave", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1644, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3853, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572130095,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311176,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [87]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8468:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Galakras]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"fast", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1645, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3854, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572130095,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311178,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [88]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8530:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[The Immortal Vanguard]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"forget its lost now", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1646, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3860, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572130095,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311189,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [89]
 		{
-			"i'll look for some thicc booty at goldshireinn instead", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"3 of us already took the relief hut at the start, but no one else came. Now we've been ported back to base on death. You were too slow", -- [1]
+			"Petrol-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Petrol-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1647, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3861, -- [11]
+			"Player-3702-09483ED1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572130097,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
+			[51] = 1577311192,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [90]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13572:Player-3391-0AA60570:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[The Heart Forge]|h|r!", -- [1]
-			"Tropiisk-Silvermoon", -- [2]
+			"why are we talking about attacking if fw gy and relief hut isn't taken", -- [1]
+			"Yveline-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tropiisk-Silvermoon", -- [5]
+			"Yveline-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1652, -- [11]
-			"Player-3391-0AA60570", -- [12]
+			3864, -- [11]
+			"Player-3702-061C1826", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Tropiisk|r",
-			[51] = 1572130105,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
+			[51] = 1577311207,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [91]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12837:Player-3391-0818C676:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Shrine of the Storm]|h|r!", -- [1]
-			"Kushdy-Silvermoon", -- [2]
+			"man u know what is backdoor?", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kushdy-Silvermoon", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1678, -- [11]
-			"Player-3391-0818C676", -- [12]
+			3871, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cKushdy|r",
-			[51] = 1572130195,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311220,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [92]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8469:Player-3391-0A1485E4:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Iron Juggernaut]|h|r!", -- [1]
-			"Raggity-Silvermoon", -- [2]
+			"i was fissing ", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Raggity-Silvermoon", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1681, -- [11]
-			"Player-3391-0A1485E4", -- [12]
+			3872, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Raggity|r",
-			[51] = 1572130200,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577311229,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [93]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8469:Player-3391-0A633399:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Iron Juggernaut]|h|r!", -- [1]
-			"Çana-Silvermoon", -- [2]
+			"irl i know", -- [1]
+			"Schain-Darksorrow", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Çana-Silvermoon", -- [5]
+			"Schain-Darksorrow", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1682, -- [11]
-			"Player-3391-0A633399", -- [12]
+			3873, -- [11]
+			"Player-3660-09917E04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Çana|r",
-			[51] = 1572130200,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577311231,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [94]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:632:Player-3391-0A887AC6:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Blackfathom Deeps]|h|r!", -- [1]
-			"Lîvä-Silvermoon", -- [2]
+			"we said 5 min ago and u try with 2 ppl cross all enemy base taunting all NPC", -- [1]
+			"Noxmonk-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lîvä-Silvermoon", -- [5]
+			"Noxmonk-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1683, -- [11]
-			"Player-3391-0A887AC6", -- [12]
+			3874, -- [11]
+			"Player-1378-04DA548C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Lîvä|r",
-			[51] = 1572130224,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311236,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [95]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:649:Player-3391-0A827D5A:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r!", -- [1]
-			"Korugen-Silvermoon", -- [2]
+			"rush backdoor", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Korugen-Silvermoon", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1690, -- [11]
-			"Player-3391-0A827D5A", -- [12]
+			3875, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1572130226,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311238,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [96]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:669:Player-3391-0A827D5A:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Slave Pens]|h|r!", -- [1]
+			"Ready to take Horde GY need more people", -- [1]
 			"Korugen-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2128,7 +2137,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1693, -- [11]
+			3878, -- [11]
 			"Player-3391-0A827D5A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2136,74 +2145,668 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Korugen|r",
-			[51] = 1572130226,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1577311261,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [97]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13286:Player-3391-09E68F39:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Siege of Dazar'alor]|h|r!", -- [1]
-			"Falcörn-Silvermoon", -- [2]
+			"I know what a backdoor is, but noone was there and I asked for help", -- [1]
+			"Yveline-ArgentDawn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Falcörn-Silvermoon", -- [5]
+			"Yveline-ArgentDawn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1713, -- [11]
-			"Player-3391-09E68F39", -- [12]
+			3879, -- [11]
+			"Player-3702-061C1826", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cFalcörn|r",
-			[51] = 1572130240,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
+			[51] = 1577311265,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [98]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:891:Player-3391-0AAA7062:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Giddy Up!]|h|r!", -- [1]
-			"Kenyerpirito-Silvermoon", -- [2]
+			"i wil go to the police", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kenyerpirito-Silvermoon", -- [5]
+			"Bulldozernl-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1726, -- [11]
-			"Player-3391-0AAA7062", -- [12]
+			3882, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Kenyerpirito|r",
-			[51] = 1572130264,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577311282,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [99]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:485:Player-3391-0A80ED9D:1:10:27:19:4294967295:4294967295:4294967295:4294967295|h[Halls of Stone]|h|r!", -- [1]
-			"Nyalottha-Silvermoon", -- [2]
+			"all defenders at base hold south bunker as long you can", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nyalottha-Silvermoon", -- [5]
+			"Lilbreew-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1730, -- [11]
-			"Player-3391-0A80ED9D", -- [12]
+			3883, -- [11]
+			"Player-1329-06C36A94", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Nyalottha|r",
-			[51] = 1572130276,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311292,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [100]
+		{
+			"attacker rush RH then towers", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lilbreew-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3885, -- [11]
+			"Player-1329-06C36A94", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311300,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [101]
+		{
+			"RH prio", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lilbreew-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3889, -- [11]
+			"Player-1329-06C36A94", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311305,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [102]
+		{
+			"druids at FW , go backdoor", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lilbreew-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3895, -- [11]
+			"Player-1329-06C36A94", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311337,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [103]
+		{
+			"no can do without ib gy", -- [1]
+			"Aithrasir-ChamberofAspects", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aithrasir-ChamberofAspects", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3899, -- [11]
+			"Player-1307-0A445439", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
+			[51] = 1577311355,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [104]
+		{
+			"that's why we needed it as backup", -- [1]
+			"Aithrasir-ChamberofAspects", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aithrasir-ChamberofAspects", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3901, -- [11]
+			"Player-1307-0A445439", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
+			[51] = 1577311361,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [105]
+		{
+			"ofc we can", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lilbreew-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3906, -- [11]
+			"Player-1329-06C36A94", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311368,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [106]
+		{
+			"ib grave is the worse", -- [1]
+			"Lilbreew-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lilbreew-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3912, -- [11]
+			"Player-1329-06C36A94", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
+			[51] = 1577311383,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [107]
+		{
+			"guys they won this stop dragging it out", -- [1]
+			"Schain-Darksorrow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Schain-Darksorrow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3934, -- [11]
+			"Player-3660-09917E04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSchain-Darksorrow|r",
+			[51] = 1577311531,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [108]
+		{
+			"y finish fast", -- [1]
+			"Noxmonk-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Noxmonk-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3936, -- [11]
+			"Player-1378-04DA548C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311540,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [109]
+		{
+			"kick kenny", -- [1]
+			"Yiara-KulTiras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yiara-KulTiras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3937, -- [11]
+			"Player-1082-0873E9D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577311543,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [110]
+		{
+			"afk", -- [1]
+			"Yiara-KulTiras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yiara-KulTiras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3940, -- [11]
+			"Player-1082-0873E9D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577311550,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [111]
+		{
+			"there are like 10 ppl afk ", -- [1]
+			"Noxmonk-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Noxmonk-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3943, -- [11]
+			"Player-1378-04DA548C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311557,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [112]
+		{
+			"kick them all!", -- [1]
+			"Yiara-KulTiras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yiara-KulTiras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3944, -- [11]
+			"Player-1082-0873E9D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577311563,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [113]
+		{
+			"poor kenny no loss xp", -- [1]
+			"Fancy-Vek'nilash", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fancy-Vek'nilash", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3948, -- [11]
+			"Player-1416-085EBCC1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Fancy-Vek'nilash|r",
+			[51] = 1577311586,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [114]
+		{
+			"trolololol", -- [1]
+			"Yiara-KulTiras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yiara-KulTiras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3951, -- [11]
+			"Player-1082-0873E9D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577311597,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [115]
+		{
+			"who killed kenny", -- [1]
+			"Fancy-Vek'nilash", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fancy-Vek'nilash", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3956, -- [11]
+			"Player-1416-085EBCC1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Fancy-Vek'nilash|r",
+			[51] = 1577311625,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [116]
+		{
+			">.<", -- [1]
+			"Yiara-KulTiras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yiara-KulTiras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3958, -- [11]
+			"Player-1082-0873E9D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577311630,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [117]
+		{
+			"u bastards", -- [1]
+			"Emiliâno-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Emiliâno-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3961, -- [11]
+			"Player-3391-093A98A9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Emiliâno|r",
+			[51] = 1577311638,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [118]
+		{
+			"kenny ball sa c k", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bulldozernl-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3962, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577311639,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [119]
+		{
+			"also lerno afk", -- [1]
+			"Noxmonk-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Noxmonk-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3964, -- [11]
+			"Player-1378-04DA548C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311642,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [120]
+		{
+			"all game on mid afk", -- [1]
+			"Noxmonk-DunModr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Noxmonk-DunModr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3965, -- [11]
+			"Player-1378-04DA548C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Noxmonk-DunModr|r",
+			[51] = 1577311648,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [121]
+		{
+			"flee into the mountains ", -- [1]
+			"Yiara-KulTiras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yiara-KulTiras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3967, -- [11]
+			"Player-1082-0873E9D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577311650,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [122]
+		{
+			"we lost", -- [1]
+			"Razper-Outland", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Razper-Outland", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3968, -- [11]
+			"Player-1301-099D99C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Razper-Outland|r",
+			[51] = 1577311654,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [123]
+		{
+			"we spawn in the cave now", -- [1]
+			"Yveline-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yveline-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3969, -- [11]
+			"Player-3702-061C1826", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
+			[51] = 1577311655,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [124]
+		{
+			"bye bye lerno", -- [1]
+			"Yiara-KulTiras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Yiara-KulTiras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3970, -- [11]
+			"Player-1082-0873E9D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Yiara-KulTiras|r",
+			[51] = 1577311659,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [125]
+		{
+			"happpy x mass", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bulldozernl-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3971, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577311661,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [126]
+		{
+			"frikandel met poep saus", -- [1]
+			"Bulldozernl-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bulldozernl-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3980, -- [11]
+			"Player-3391-0A7FCCFF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cBulldozernl|r",
+			[51] = 1577311678,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [127]
 	},
 }

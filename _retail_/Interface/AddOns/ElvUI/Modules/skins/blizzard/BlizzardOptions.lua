@@ -80,8 +80,6 @@ local function LoadSkin()
 	end)
 
 	--Chat Config
-	local ChatConfigFrame = _G.ChatConfigFrame
-
 	hooksecurefunc(_G.ChatConfigFrameChatTabManager, "UpdateWidth", function(self)
 		for tab in self.tabPool:EnumerateActive() do
 			if not tab.IsSkinned then
@@ -337,6 +335,12 @@ local function LoadSkin()
 
 	-- Toggle Test Audio Button - Wow 8.0
 	S:HandleButton(_G.AudioOptionsVoicePanel.TestInputDevice.ToggleTest)
+
+	local VUMeter = _G.AudioOptionsVoicePanelTestInputDevice.VUMeter
+	VUMeter:SetBackdrop(nil)
+	VUMeter.Status:CreateBackdrop()
+	VUMeter.Status:SetStatusBarTexture(E.media.normTex)
+	E:RegisterStatusBar(VUMeter.Status)
 
 	-- PushToTalk KeybindButton - Wow 8.0
 	hooksecurefunc("AudioOptionsVoicePanel_InitializeCommunicationModeUI", S.AudioOptionsVoicePanel_InitializeCommunicationModeUI)

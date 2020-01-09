@@ -137,11 +137,11 @@ VocalRaidAssistantDB = {
 					["duration"] = 10,
 					["desc"] = "",
 				},
-				["740"] = {
+				["98008"] = {
 					["type"] = "premade",
 					["enable"] = true,
-					["class"] = "DRUID",
-					["duration"] = 8,
+					["class"] = "SHAMAN",
+					["duration"] = 6,
 					["desc"] = "",
 				},
 				["102342"] = {
@@ -166,11 +166,11 @@ VocalRaidAssistantDB = {
 					["duration"] = 8,
 					["desc"] = "",
 				},
-				["98008"] = {
+				["740"] = {
 					["type"] = "premade",
 					["enable"] = true,
-					["class"] = "SHAMAN",
-					["duration"] = 6,
+					["class"] = "DRUID",
+					["duration"] = 8,
 					["desc"] = "",
 				},
 				["116849"] = {
@@ -288,12 +288,12 @@ VocalRaidAssistantDB = {
 			["raid34"] = false,
 			["raid22"] = false,
 			["raid31"] = false,
-			["raid11"] = false,
+			["raid21"] = false,
 			["raid23"] = false,
 			["raid24"] = false,
 			["raid32"] = false,
 			["raid1"] = false,
-			["raid21"] = false,
+			["raid11"] = false,
 			["raid14"] = false,
 		},
 	},

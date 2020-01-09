@@ -29,7 +29,7 @@ HandyNotes_BattleForAzerothTreasures: disabled
 HandyNotes_DraenorTreasures: enabled
 HandyNotes_LegionTreasures: disabled
 idTip: enabled
-InstanceAchievementTracker: disabled
+InstanceAchievementTracker: enabled
 LittleWigs: enabled
 OPie: enabled
 QE-DungeonTips: disabled
