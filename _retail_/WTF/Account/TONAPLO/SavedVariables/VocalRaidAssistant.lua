@@ -13,12 +13,12 @@ VocalRaidAssistantDB = {
 		["Faerand - Silvermoon"] = "Default",
 		["Tukar - Auchindoun"] = "Default",
 		["Kindhoof - Ragnaros"] = "Default",
-		["Miriyam - Silvermoon"] = "Default",
+		["Glora - Auchindoun"] = "Default",
 		["Rahran - Silvermoon"] = "Default",
 		["Zearthan - Silvermoon"] = "Default",
 		["Welor - Auchindoun"] = "Default",
 		["Mallusof - Silvermoon"] = "Default",
-		["Glora - Auchindoun"] = "Default",
+		["Miriyam - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -34,10 +34,10 @@ VocalRaidAssistantDB = {
 			["raid13"] = false,
 			["raid10"] = false,
 			["raid17"] = false,
-			["raid2"] = false,
+			["raid20"] = false,
 			["raid33"] = false,
 			["bbarWidth"] = 336,
-			["raid5"] = false,
+			["interrupt"] = true,
 			["raid39"] = false,
 			["spellsO"] = {
 				["90355"] = {
@@ -76,7 +76,7 @@ VocalRaidAssistantDB = {
 					["desc"] = "",
 				},
 			},
-			["raid20"] = false,
+			["raid2"] = false,
 			["raid8"] = false,
 			["spellsB"] = {
 				["62618"] = {
@@ -115,11 +115,12 @@ VocalRaidAssistantDB = {
 					["duration"] = 5,
 					["desc"] = "",
 				},
-				["15286"] = {
-					["type"] = "premade",
+				["116849"] = {
+					["type"] = "premade self",
+					["selfOnly"] = true,
 					["enable"] = true,
-					["class"] = "PRIEST",
-					["duration"] = 15,
+					["class"] = "MONK",
+					["duration"] = 12,
 					["desc"] = "",
 				},
 				["6940"] = {
@@ -130,11 +131,11 @@ VocalRaidAssistantDB = {
 					["duration"] = 12,
 					["desc"] = "",
 				},
-				["108280"] = {
+				["740"] = {
 					["type"] = "premade",
 					["enable"] = true,
-					["class"] = "SHAMAN",
-					["duration"] = 10,
+					["class"] = "DRUID",
+					["duration"] = 8,
 					["desc"] = "",
 				},
 				["98008"] = {
@@ -152,13 +153,6 @@ VocalRaidAssistantDB = {
 					["duration"] = 12,
 					["desc"] = "",
 				},
-				["97462"] = {
-					["type"] = "premade",
-					["enable"] = true,
-					["class"] = "WARRIOR",
-					["duration"] = 10,
-					["desc"] = "",
-				},
 				["64843"] = {
 					["type"] = "premade",
 					["enable"] = true,
@@ -166,19 +160,25 @@ VocalRaidAssistantDB = {
 					["duration"] = 8,
 					["desc"] = "",
 				},
-				["740"] = {
+				["97462"] = {
 					["type"] = "premade",
 					["enable"] = true,
-					["class"] = "DRUID",
-					["duration"] = 8,
+					["class"] = "WARRIOR",
+					["duration"] = 10,
 					["desc"] = "",
 				},
-				["116849"] = {
-					["type"] = "premade self",
-					["selfOnly"] = true,
+				["108280"] = {
+					["type"] = "premade",
 					["enable"] = true,
-					["class"] = "MONK",
-					["duration"] = 12,
+					["class"] = "SHAMAN",
+					["duration"] = 10,
+					["desc"] = "",
+				},
+				["15286"] = {
+					["type"] = "premade",
+					["enable"] = true,
+					["class"] = "PRIEST",
+					["duration"] = 15,
 					["desc"] = "",
 				},
 			},
@@ -190,7 +190,7 @@ VocalRaidAssistantDB = {
 			["raid37"] = false,
 			["raid7"] = false,
 			["raid19"] = false,
-			["interrupt"] = true,
+			["raid11"] = false,
 			["raid40"] = false,
 			["spells"] = {
 				["62618"] = {
@@ -288,12 +288,12 @@ VocalRaidAssistantDB = {
 			["raid34"] = false,
 			["raid22"] = false,
 			["raid31"] = false,
-			["raid21"] = false,
+			["raid5"] = false,
 			["raid23"] = false,
 			["raid24"] = false,
 			["raid32"] = false,
 			["raid1"] = false,
-			["raid11"] = false,
+			["raid21"] = false,
 			["raid14"] = false,
 		},
 	},
