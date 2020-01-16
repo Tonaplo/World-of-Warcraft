@@ -1,679 +1,19 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i ^^", -- [1]
-		"/i Capture the Horde Graeyard and rush their base :)", -- [2]
-		"/s help cap GY", -- [3]
-		"/elvui", -- [4]
+		"/i Need help capping GY at horde base", -- [1]
+		"/i ^^", -- [2]
+		"/macro", -- [3]
+		"/i Capture the Horde Graeyard and rush their base :)", -- [4]
 		"/i Ready to take Horde GY need more people", -- [5]
-		"/i Need help capping GY at horde base", -- [6]
+		"/s help cap GY", -- [6]
 		"/i Too deep", -- [7]
-		"/cw Stragen-Silvermoon ye", -- [8]
-		"/macro", -- [9]
+		"/elvui", -- [8]
+		"/cw Stragen-Silvermoon ye", -- [9]
 		"/i You need to always capture Frostwolf Graveyard", -- [10]
 		"/s here", -- [11]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"can  ifarm this till 120 ?", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3142, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577309979,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"yes", -- [1]
-			"Schain-Darksorrow", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Schain-Darksorrow", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3147, -- [11]
-			"Player-3660-09917E04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSchain-Darksorrow|r",
-			[51] = 1577309984,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"yessir", -- [1]
-			"Emiliâno-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Emiliâno-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3148, -- [11]
-			"Player-3391-093A98A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Emiliâno|r",
-			[51] = 1577309988,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"from 110", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3149, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577309989,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"how long ?", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3150, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577309990,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"xp just as good till 120", -- [1]
-			"Schain-Darksorrow", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Schain-Darksorrow", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3156, -- [11]
-			"Player-3660-09917E04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSchain-Darksorrow|r",
-			[51] = 1577309994,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"5h", -- [1]
-			"Lilbreew-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lilbreew-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3157, -- [11]
-			"Player-1329-06C36A94", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
-			[51] = 1577309995,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"3 hours", -- [1]
-			"Smellysocks-Alonsus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Smellysocks-Alonsus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3158, -- [11]
-			"Player-1082-0647C7EC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Smellysocks-Alonsus|r",
-			[51] = 1577309997,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"5 hours", -- [1]
-			"Druidsa-Agamaggan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Druidsa-Agamaggan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3159, -- [11]
-			"Player-1091-04AE687E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Druidsa-Agamaggan|r",
-			[51] = 1577309997,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"can i do this at 100 aswell?", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3160, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577310010,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"depends,  on wins/losses", -- [1]
-			"Magiiboii-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Magiiboii-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3161, -- [11]
-			"Player-1300-0A95BE3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Magiiboii-Frostmane|r",
-			[51] = 1577310014,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"yes", -- [1]
-			"Smellysocks-Alonsus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Smellysocks-Alonsus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3162, -- [11]
-			"Player-1082-0647C7EC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Smellysocks-Alonsus|r",
-			[51] = 1577310015,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"from level 60 it's worth it in xp", -- [1]
-			"Schain-Darksorrow", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Schain-Darksorrow", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3163, -- [11]
-			"Player-3660-09917E04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSchain-Darksorrow|r",
-			[51] = 1577310019,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"before you get like 0 xp", -- [1]
-			"Schain-Darksorrow", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Schain-Darksorrow", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3172, -- [11]
-			"Player-3660-09917E04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSchain-Darksorrow|r",
-			[51] = 1577310022,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
-		{
-			"but", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3178, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577310031,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"but would recommend from 80 cause you level so fast 60-80", -- [1]
-			"Schain-Darksorrow", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Schain-Darksorrow", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3179, -- [11]
-			"Player-3660-09917E04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSchain-Darksorrow|r",
-			[51] = 1577310031,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"Biggest benefit is from 90+", -- [1]
-			"Smellysocks-Alonsus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Smellysocks-Alonsus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3180, -- [11]
-			"Player-1082-0647C7EC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Smellysocks-Alonsus|r",
-			[51] = 1577310031,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
-		{
-			"when does this stop", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3181, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577310033,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"after 69 hours", -- [1]
-			"Emiliâno-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Emiliâno-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3183, -- [11]
-			"Player-3391-093A98A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Emiliâno|r",
-			[51] = 1577310041,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
-		{
-			"7/8th Jan", -- [1]
-			"Smellysocks-Alonsus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Smellysocks-Alonsus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3184, -- [11]
-			"Player-1082-0647C7EC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Smellysocks-Alonsus|r",
-			[51] = 1577310044,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
-		{
-			"kk", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3185, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577310047,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
-		{
-			"Move into RH", -- [1]
-			"Lilbreew-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lilbreew-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3207, -- [11]
-			"Player-1329-06C36A94", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
-			[51] = 1577310108,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"gg", -- [1]
-			"Braiden-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Braiden-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3349, -- [11]
-			"Player-3391-0AADAFBD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Braiden|r",
-			[51] = 1577310276,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
-		{
-			"Capping: Alliance Boss - 14.0%", -- [1]
-			"Braiden-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Braiden-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3351, -- [11]
-			"Player-3391-0AADAFBD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Braiden|r",
-			[51] = 1577310278,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
-		{
-			"hi", -- [1]
-			"Aithrasir-ChamberofAspects", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aithrasir-ChamberofAspects", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3420, -- [11]
-			"Player-1307-0A445439", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
-			[51] = 1577310441,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
-		{
-			"happ y x mass", -- [1]
-			"Bulldozernl-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Bulldozernl-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3421, -- [11]
-			"Player-3391-0A7FCCFF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBulldozernl|r",
-			[51] = 1577310445,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
-		{
-			"Merry crimbo!", -- [1]
-			"Yiara-KulTiras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yiara-KulTiras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3427, -- [11]
-			"Player-1082-0873E9D3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Yiara-KulTiras|r",
-			[51] = 1577310452,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
-		{
-			"merry xmas", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3429, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577310458,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"boys", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3431, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577310459,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
-		{
-			"lets win this", -- [1]
-			"Razper-Outland", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Razper-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3432, -- [11]
-			"Player-1301-099D99C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Razper-Outland|r",
-			[51] = 1577310460,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
 		{
 			"girls*", -- [1]
 			"Liøna-TwistingNether", -- [2]
@@ -695,7 +35,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Liøna-TwistingNether|r",
 			[51] = 1577310473,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [1]
 		{
 			"hell yeah", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -717,7 +57,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577310480,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [2]
 		{
 			"lEtS wIn gUyS", -- [1]
 			"Emiliâno-Silvermoon", -- [2]
@@ -739,7 +79,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Emiliâno|r",
 			[51] = 1577310482,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [3]
 		{
 			"yeah come on girls ", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -761,7 +101,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577310487,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [4]
 		{
 			"kick butt everyone", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -783,7 +123,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577310498,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [5]
 		{
 			"teabag their corpses", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -805,7 +145,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577310505,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [6]
 		{
 			"those who have invisibility go to last towers", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -827,7 +167,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310526,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [7]
 		{
 			"horde boobie s", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -849,7 +189,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577310527,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [8]
 		{
 			"backdoor?", -- [1]
 			"Petrol-ArgentDawn", -- [2]
@@ -871,7 +211,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
 			[51] = 1577310542,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [9]
 		{
 			"backdoor sounds good", -- [1]
 			"Aithrasir-ChamberofAspects", -- [2]
@@ -893,7 +233,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
 			[51] = 1577310552,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [10]
 		{
 			"we get xp for towers?", -- [1]
 			"Razper-Outland", -- [2]
@@ -915,7 +255,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Razper-Outland|r",
 			[51] = 1577310554,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [11]
 		{
 			"yessss Razper", -- [1]
 			"Druidsa-Agamaggan", -- [2]
@@ -937,7 +277,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Druidsa-Agamaggan|r",
 			[51] = 1577310567,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [42]
+		}, -- [12]
 		{
 			"%^&*!@", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -959,7 +299,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577310578,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [13]
 		{
 			"hahah", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -981,7 +321,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577310581,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [14]
 		{
 			"we get experience from learning from our mistakes", -- [1]
 			"Schain-Darksorrow", -- [2]
@@ -1003,7 +343,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSchain-Darksorrow|r",
 			[51] = 1577310583,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [15]
 		{
 			"xD", -- [1]
 			"Razper-Outland", -- [2]
@@ -1025,7 +365,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Razper-Outland|r",
 			[51] = 1577310587,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [16]
 		{
 			"wise man", -- [1]
 			"Razper-Outland", -- [2]
@@ -1047,7 +387,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Razper-Outland|r",
 			[51] = 1577310590,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [17]
 		{
 			"Too deep", -- [1]
 			"Korugen-Silvermoon", -- [2]
@@ -1069,7 +409,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1577310591,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [18]
 		{
 			"lol", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -1091,7 +431,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577310591,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [19]
 		{
 			"uuuug", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -1113,7 +453,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577310594,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [20]
 		{
 			"go to the first tower", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1135,7 +475,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310596,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [21]
 		{
 			"its teh taking part that counts", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -1157,7 +497,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577310602,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [22]
 		{
 			"more than enough tanks and healers to push", -- [1]
 			"Yveline-ArgentDawn", -- [2]
@@ -1179,7 +519,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
 			[51] = 1577310614,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [23]
 		{
 			"go to second tower", -- [1]
 			"Emiliâno-Silvermoon", -- [2]
@@ -1201,7 +541,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Emiliâno|r",
 			[51] = 1577310617,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [24]
 		{
 			"i go fw grave", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -1223,7 +563,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577310654,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [25]
 		{
 			"im high xd", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -1245,7 +585,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577310656,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [26]
 		{
 			"on what?", -- [1]
 			"Schain-Darksorrow", -- [2]
@@ -1267,7 +607,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSchain-Darksorrow|r",
 			[51] = 1577310667,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [27]
 		{
 			"weed bro", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -1289,7 +629,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577310672,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [28]
 		{
 			"ib gy", -- [1]
 			"Aithrasir-ChamberofAspects", -- [2]
@@ -1311,7 +651,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
 			[51] = 1577310715,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [29]
 		{
 			"dont take it", -- [1]
 			"Hedon-Daggerspine", -- [2]
@@ -1333,7 +673,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hedon-Daggerspine|r",
 			[51] = 1577310729,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [30]
 		{
 			"plz rogues go to last towers and get them", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1355,7 +695,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310749,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [61]
+		}, -- [31]
 		{
 			"rogue at fw grave", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -1377,7 +717,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577310784,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [32]
 		{
 			"liona and lerno help alpha on attack fast", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1399,7 +739,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310820,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [63]
+		}, -- [33]
 		{
 			"he is solo", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1421,7 +761,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310822,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [64]
+		}, -- [34]
 		{
 			"also if any drood can help him go fast", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1443,7 +783,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310838,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [65]
+		}, -- [35]
 		{
 			"could use a couple more at back door", -- [1]
 			"Petrol-ArgentDawn", -- [2]
@@ -1465,7 +805,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
 			[51] = 1577310841,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [36]
 		{
 			"healer would be good", -- [1]
 			"Petrol-ArgentDawn", -- [2]
@@ -1487,7 +827,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
 			[51] = 1577310854,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [37]
 		{
 			"we dowing good", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -1509,7 +849,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577310876,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [38]
 		{
 			"man i whisping 2 many people andthey move around lol", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1531,7 +871,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310877,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [69]
+		}, -- [39]
 		{
 			"rushing there", -- [1]
 			"Yveline-ArgentDawn", -- [2]
@@ -1553,7 +893,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
 			[51] = 1577310880,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [40]
 		{
 			"who is the smart man to take ib grave?", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -1575,7 +915,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577310890,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [41]
 		{
 			"dont take stonehearth now", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -1597,7 +937,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577310907,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [42]
 		{
 			"take FW pls", -- [1]
 			"Hedon-Daggerspine", -- [2]
@@ -1619,7 +959,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Hedon-Daggerspine|r",
 			[51] = 1577310916,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [43]
 		{
 			"move to second tower and hold", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1641,7 +981,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310947,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [74]
+		}, -- [44]
 		{
 			"you're moving too slow", -- [1]
 			"Petrol-ArgentDawn", -- [2]
@@ -1663,7 +1003,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
 			[51] = 1577310947,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [45]
 		{
 			"i help backdoor", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -1685,7 +1025,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577310948,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [46]
 		{
 			"..", -- [1]
 			"Liøna-TwistingNether", -- [2]
@@ -1707,7 +1047,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Liøna-TwistingNether|r",
 			[51] = 1577310956,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [47]
 		{
 			"go backdoor now", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1729,7 +1069,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310967,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [78]
+		}, -- [48]
 		{
 			"...", -- [1]
 			"Petrol-ArgentDawn", -- [2]
@@ -1751,7 +1091,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
 			[51] = 1577310972,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [49]
 		{
 			"backdoor now", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1773,7 +1113,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310979,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [80]
+		}, -- [50]
 		{
 			"we clean from back guys", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1795,7 +1135,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577310982,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [81]
+		}, -- [51]
 		{
 			"any chance for a backdoor portal, I'm too dumb", -- [1]
 			"Yveline-ArgentDawn", -- [2]
@@ -1817,7 +1157,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
 			[51] = 1577310991,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [52]
 		{
 			"Capping: Frostwolf Graveyard - 2:12 (Alliance)", -- [1]
 			"Promeline-Ravencrest", -- [2]
@@ -1839,7 +1179,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Promeline-Ravencrest|r",
 			[51] = 1577311050,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [53]
 		{
 			"1 hunter defending on backdoor i need 1 tank and 1 dps here", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1861,7 +1201,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311063,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [84]
+		}, -- [54]
 		{
 			"im def fw grave atm", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -1883,7 +1223,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311087,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [55]
 		{
 			"we are not enoght on attack", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1905,7 +1245,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311144,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [86]
+		}, -- [56]
 		{
 			"fw grave", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -1927,7 +1267,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311176,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [57]
 		{
 			"fast", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -1949,7 +1289,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311178,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [58]
 		{
 			"forget its lost now", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -1971,7 +1311,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311189,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [89]
+		}, -- [59]
 		{
 			"3 of us already took the relief hut at the start, but no one else came. Now we've been ported back to base on death. You were too slow", -- [1]
 			"Petrol-ArgentDawn", -- [2]
@@ -1993,7 +1333,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPetrol-ArgentDawn|r",
 			[51] = 1577311192,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [60]
 		{
 			"why are we talking about attacking if fw gy and relief hut isn't taken", -- [1]
 			"Yveline-ArgentDawn", -- [2]
@@ -2015,7 +1355,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
 			[51] = 1577311207,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [61]
 		{
 			"man u know what is backdoor?", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -2037,7 +1377,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311220,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [92]
+		}, -- [62]
 		{
 			"i was fissing ", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -2059,7 +1399,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577311229,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [63]
 		{
 			"irl i know", -- [1]
 			"Schain-Darksorrow", -- [2]
@@ -2081,7 +1421,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSchain-Darksorrow|r",
 			[51] = 1577311231,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [64]
 		{
 			"we said 5 min ago and u try with 2 ppl cross all enemy base taunting all NPC", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -2103,7 +1443,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311236,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [95]
+		}, -- [65]
 		{
 			"rush backdoor", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -2125,7 +1465,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311238,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [66]
 		{
 			"Ready to take Horde GY need more people", -- [1]
 			"Korugen-Silvermoon", -- [2]
@@ -2147,7 +1487,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Korugen|r",
 			[51] = 1577311261,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+		}, -- [67]
 		{
 			"I know what a backdoor is, but noone was there and I asked for help", -- [1]
 			"Yveline-ArgentDawn", -- [2]
@@ -2169,7 +1509,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
 			[51] = 1577311265,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [68]
 		{
 			"i wil go to the police", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -2191,7 +1531,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577311282,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [99]
+		}, -- [69]
 		{
 			"all defenders at base hold south bunker as long you can", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -2213,7 +1553,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311292,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [100]
+		}, -- [70]
 		{
 			"attacker rush RH then towers", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -2235,7 +1575,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311300,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [101]
+		}, -- [71]
 		{
 			"RH prio", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -2257,7 +1597,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311305,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [102]
+		}, -- [72]
 		{
 			"druids at FW , go backdoor", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -2279,7 +1619,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311337,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
+		}, -- [73]
 		{
 			"no can do without ib gy", -- [1]
 			"Aithrasir-ChamberofAspects", -- [2]
@@ -2301,7 +1641,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
 			[51] = 1577311355,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [104]
+		}, -- [74]
 		{
 			"that's why we needed it as backup", -- [1]
 			"Aithrasir-ChamberofAspects", -- [2]
@@ -2323,7 +1663,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAithrasir-ChamberofAspects|r",
 			[51] = 1577311361,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [75]
 		{
 			"ofc we can", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -2345,7 +1685,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311368,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [76]
 		{
 			"ib grave is the worse", -- [1]
 			"Lilbreew-Ravencrest", -- [2]
@@ -2367,7 +1707,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLilbreew-Ravencrest|r",
 			[51] = 1577311383,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [107]
+		}, -- [77]
 		{
 			"guys they won this stop dragging it out", -- [1]
 			"Schain-Darksorrow", -- [2]
@@ -2389,7 +1729,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSchain-Darksorrow|r",
 			[51] = 1577311531,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [108]
+		}, -- [78]
 		{
 			"y finish fast", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -2411,7 +1751,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311540,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [109]
+		}, -- [79]
 		{
 			"kick kenny", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -2433,7 +1773,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577311543,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [110]
+		}, -- [80]
 		{
 			"afk", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -2455,7 +1795,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577311550,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [111]
+		}, -- [81]
 		{
 			"there are like 10 ppl afk ", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -2477,7 +1817,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311557,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [112]
+		}, -- [82]
 		{
 			"kick them all!", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -2499,7 +1839,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577311563,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [113]
+		}, -- [83]
 		{
 			"poor kenny no loss xp", -- [1]
 			"Fancy-Vek'nilash", -- [2]
@@ -2521,7 +1861,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fancy-Vek'nilash|r",
 			[51] = 1577311586,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [114]
+		}, -- [84]
 		{
 			"trolololol", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -2543,7 +1883,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577311597,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [115]
+		}, -- [85]
 		{
 			"who killed kenny", -- [1]
 			"Fancy-Vek'nilash", -- [2]
@@ -2565,7 +1905,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fancy-Vek'nilash|r",
 			[51] = 1577311625,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [116]
+		}, -- [86]
 		{
 			">.<", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -2587,7 +1927,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577311630,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [117]
+		}, -- [87]
 		{
 			"u bastards", -- [1]
 			"Emiliâno-Silvermoon", -- [2]
@@ -2609,7 +1949,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Emiliâno|r",
 			[51] = 1577311638,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [118]
+		}, -- [88]
 		{
 			"kenny ball sa c k", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -2631,7 +1971,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577311639,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [119]
+		}, -- [89]
 		{
 			"also lerno afk", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -2653,7 +1993,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311642,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [120]
+		}, -- [90]
 		{
 			"all game on mid afk", -- [1]
 			"Noxmonk-DunModr", -- [2]
@@ -2675,7 +2015,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Noxmonk-DunModr|r",
 			[51] = 1577311648,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [121]
+		}, -- [91]
 		{
 			"flee into the mountains ", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -2697,7 +2037,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577311650,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [122]
+		}, -- [92]
 		{
 			"we lost", -- [1]
 			"Razper-Outland", -- [2]
@@ -2719,7 +2059,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Razper-Outland|r",
 			[51] = 1577311654,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [123]
+		}, -- [93]
 		{
 			"we spawn in the cave now", -- [1]
 			"Yveline-ArgentDawn", -- [2]
@@ -2741,7 +2081,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Yveline-ArgentDawn|r",
 			[51] = 1577311655,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [124]
+		}, -- [94]
 		{
 			"bye bye lerno", -- [1]
 			"Yiara-KulTiras", -- [2]
@@ -2763,7 +2103,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Yiara-KulTiras|r",
 			[51] = 1577311659,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [95]
 		{
 			"happpy x mass", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -2785,7 +2125,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577311661,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [126]
+		}, -- [96]
 		{
 			"frikandel met poep saus", -- [1]
 			"Bulldozernl-Silvermoon", -- [2]
@@ -2807,6 +2147,666 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBulldozernl|r",
 			[51] = 1577311678,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [97]
+		{
+			"giT uR weeKlY cHist GUranttee Un TiMe", -- [1]
+			"Unbyzou-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Unbyzou-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1229, -- [11]
+			"Player-3391-08ABC5E9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Unbyzou|r",
+			[51] = 1578651461,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Hi! < S O L O > is now recruiting a disc priest/ mw monk to add to our core raiding team in 8.3. 5/8M. All classes will be considered. /w me for more info! ^^", -- [1]
+			"Eluneminati-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Eluneminati-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1230, -- [11]
+			"Player-3391-0A0D54F0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Eluneminati|r",
+			[51] = 1578651467,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"<LFR Heroes> 3/8 Mythic guild are recruiting! Looking for those who want to have fun while raiding but also takes our progression raids seriously.8.3 is soon upon us and we are looking for motivated people to fill our main squad. /w for more info.", -- [1]
+			"Nightvisiøn-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nightvisiøn-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1231, -- [11]
+			"Player-3391-0A61D6BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Nightvisiøn|r",
+			[51] = 1578651467,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"||NBC|| Selling M+10 90k ONLY! & +15 200k.also +16-20 ( IN TIME ).! Buy at least 2x M+10 180k + Armor Stack Free.!take advantage of the offer.! Mechagon HM&NM+MOUNT.!The Eternal Palace HC & MYTHIC 8/8 / Jaina Mount.For Gold Only.! /w For Info!", -- [1]
+			"Killêr-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Killêr-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1238, -- [11]
+			"Player-3391-0A2CD85E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Killêr|r",
+			[51] = 1578651479,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [101]
+		{
+			"Selling Cheap (10.20) Gurantee un Time + |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r Hardmode + Normalmode >|cffa335ee|Hitem:168830::::::::120:105::23::::|h[Aerial Unit R-21/X]|h|rGet Ur Weekly Chest . items + 440-455 Wis me For more info ..", -- [1]
+			"Amåzing-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Amåzing-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1240, -- [11]
+			"Player-3391-0AA638F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Amåzing|r",
+			[51] = 1578651489,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"WTS |cff66bbff|Hjournal:1:2361:16|h[Queen Azshara]|h|r Heroic Clean Kill For Gold Only ! Get Your 430+ Gear & Your |cffffff00|Hachievement:13784:Player-3391-0A6D9AE1:1:7:29:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Queen Azshara]|h|r !", -- [1]
+			"Mendøza-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mendøza-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1243, -- [11]
+			"Player-3391-0A6D9AE1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Mendøza|r",
+			[51] = 1578651496,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"What's the best thing to do with quest greens and blues? Scrape, disenchant or vendor?", -- [1]
+			"Omcocu-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Omcocu-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1247, -- [11]
+			"Player-3391-0ACFBEF2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cOmcocu|r",
+			[51] = 1578651500,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"WTS Freehold LVL up boost 110-120.(Only For Gold)\\w me for info(8-10  mins per lvl)Accept Gold Any realm any faction", -- [1]
+			"Xoxll-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xoxll-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1248, -- [11]
+			"Player-3391-0A7C4DB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xoxll|r",
+			[51] = 1578651507,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"LF part for 2s to go 2k rate WW monk here ! ", -- [1]
+			"Merlinaz-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Merlinaz-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1361, -- [11]
+			"Player-3391-0ACE9A03", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Merlinaz|r",
+			[51] = 1578652030,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/Retail Gold Add Shak111 on Steam (Denmark)", -- [1]
+			"Shaktradeos-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shaktradeos-Silvermoon", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1362, -- [11]
+			"Player-3391-0AD23C87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Shaktradeos|r",
+			[51] = 1578652043,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"Oi Warlords of the Dark Portal einai ena filiko guild pou molis egine transfer. Psaxnoume gia afosiomenous dpsers me kalh dia8esh & pro8esh gia na emploutisoume to raiding roster mas. Whisp gia plhrofories.", -- [1]
+			"Angelwolve-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Angelwolve-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1363, -- [11]
+			"Player-3391-0A67BCAA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Angelwolve|r",
+			[51] = 1578652043,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"<NBC>Selling M+10 for 90k ONLY!! and +15 for 220k, also +16/17/18/19/20(IN TIME)! Buy at least 2xM+10 for FREE ARMOR 180k  (Only180k)!  ,TEP Mythic/HC 8/8! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount!2v2 easy Rate UP!/w for info", -- [1]
+			"Aranay-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aranay-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1366, -- [11]
+			"Player-3391-0ACB5EB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecAranay|r",
+			[51] = 1578652054,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"WTS Freehold LVL up boost 110-120.(Only For Gold)\\w me for info(8-10  mins per lvl)Accept Gold Any realm any faction", -- [1]
+			"Xoxll-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xoxll-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1367, -- [11]
+			"Player-3391-0A7C4DB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xoxll|r",
+			[51] = 1578652069,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"hellenic spirit anazitame atoma me oreksi gia mythikes epidromes nylotha 8.3 for info whisper me", -- [1]
+			"Satraphis-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Satraphis-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1412, -- [11]
+			"Player-3391-0AA53FF4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cSatraphis|r",
+			[51] = 1578652637,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			">> HELLENIC SPIRIT << Ellinikh Guild zitame atoma gia na plaisiosoume to roster mas (mythic raid ..key+", -- [1]
+			"Acropolaki-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Acropolaki-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1413, -- [11]
+			"Player-3391-0682FAA9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Acropolaki|r",
+			[51] = 1578652640,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"<NBC>Selling M+10 for 90k ONLY!! and +15 for 220k, also +16/17/18/19/20(IN TIME)! Buy at least 2xM+10 for FREE ARMOR 180k  (Only180k)!  ,TEP Mythic/HC 8/8! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount!2v2 easy Rate UP!/w for info", -- [1]
+			"Aranay-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aranay-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1414, -- [11]
+			"Player-3391-0ACB5EB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecAranay|r",
+			[51] = 1578652642,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"<HELLENIC SPIRIT!<<Elliniki  Guild me  eyxaristo kai filiko perivalon kai 3/8 m progress  Recruiting  !!!!!!  paixtoures gia  to roster gia nylotha raid  sto patch 8.3", -- [1]
+			"Sayron-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sayron-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1415, -- [11]
+			"Player-3391-066E7F35", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Sayron|r",
+			[51] = 1578652643,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"WTB All CSGO/Dota2/Rust/TF2/Steam Items for Classic/Retail Gold Add Shak111 on Steam (Denmark)", -- [1]
+			"Shaktradeos-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shaktradeos-Silvermoon", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1416, -- [11]
+			"Player-3391-0AD23C87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Shaktradeos|r",
+			[51] = 1578652643,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"<Twilight> PATCH END DEAL random +10 now 90k! Buy two 10's and get a FREE armour stack. Also selling TEP 8/8 Heroic loot shared run, Azshara curve, All dungeons +10 / +20 available, Mechagon, leveling, islands & more FOR GOLD ONLY /w for more information", -- [1]
+			"Needlefire-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Needlefire-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1417, -- [11]
+			"Player-3391-0A5BC132", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Needlefire|r",
+			[51] = 1578652644,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"WTS Boost |cff66bbff|Hjournal:0:1179:15|h[The Eternal Palace]|h|r Heroic Full Run Going Soon Wis me right now for more info .", -- [1]
+			"Soulspell-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Soulspell-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1425, -- [11]
+			"Player-3391-08757E73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecSoulspell|r",
+			[51] = 1578652715,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"The Gallywix Community || WTS>> mythic+<<M+10(99k) M+15(225k) buy 2 get armor stack free! mechagon hardmode/normalmode island exp! freehold boost! TEP HC pm me to hear more", -- [1]
+			"Frostquin-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Frostquin-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1506, -- [11]
+			"Player-3391-0A020E85", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Frostquin|r",
+			[51] = 1579041796,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"The Gallywix Community || WTS >>MM+10-22<< || Done by 2.3K-3.5K+ Score Players|| PvP 0-2.4K cr || Islands PvP/PvE || Mechagon HM & mount || 110-120 |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r Leveling || PM me for infos & prices! (gold only)", -- [1]
+			"Pieceluffy-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Pieceluffy-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1510, -- [11]
+			"Player-3391-0AD339DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Pieceluffy|r",
+			[51] = 1579041804,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"BIZEN", -- [1]
+			"Silvermonb-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Silvermonb-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1511, -- [11]
+			"Player-3391-0A7531E6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cSilvermonb|r",
+			[51] = 1579041820,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"[WTS] Eternal Palace Heroic BOOST Tonight. Get NEW ilvl 430+ gear, Curve Achieve & Essences. Choose from up to 10 Guild runs every day. We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1512, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579041822,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"hi", -- [1]
+			"Bizentein-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bizentein-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1514, -- [11]
+			"Player-3391-09363E59", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cBizentein|r",
+			[51] = 1579041823,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"inv", -- [1]
+			"Bizentein-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bizentein-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1515, -- [11]
+			"Player-3391-09363E59", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cBizentein|r",
+			[51] = 1579041824,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			" Wts |cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r boosting 110to120/ accept all gold on all realm/each run take 5mins/if u have heirlooms itm it take under 2hour /cheap price", -- [1]
+			"Maxigodx-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maxigodx-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1516, -- [11]
+			"Player-3391-0A8AB718", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Maxigodx|r",
+			[51] = 1579041844,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"Selling Mythic BoD transmog runs. Jaina mount + Also selling TLPD, Void Talon, Aoenaxx, Grey Riding Camel, Frightened Kodo and the Long forgotten Hippogryph. Spirit beasts also available. /w for more info on our M+ and Mechagon runs too!we", -- [1]
+			"Ghankdmog-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ghankdmog-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1521, -- [11]
+			"Player-3391-0A2A7400", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGhankdmog|r",
+			[51] = 1579041848,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"<Oblivion Boosting Community> M+ 10-20 in time! --- 2x M+10 with armorstack 200k --- M+15 for 225k --- Rare mounts like TLPD, Aeonaxx & Void Talon --- PvP 2v2 up to 2400! --- Pre-booking Ny’alotha full heroic runs", -- [1]
+			"Choclatekoek-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Choclatekoek-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1522, -- [11]
+			"Player-3391-0AC20CAE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Choclatekoek|r",
+			[51] = 1579041853,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"< Night Vision >LATE NIGHT RECRUITING  few more DPS for our roster. Palace 8/8HC, 6/8M  Chilled atmosphere, no drama. Raiding Wed-Thur-Sun 23:30-02:00.  Ranged dps highly in need.  Contact me for more info", -- [1]
+			"Bruhor-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bruhor-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1523, -- [11]
+			"Player-3391-09EF0C51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Bruhor|r",
+			[51] = 1579041859,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

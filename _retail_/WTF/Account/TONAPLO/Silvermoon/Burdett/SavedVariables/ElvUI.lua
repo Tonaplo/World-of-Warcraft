@@ -1,468 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"I write code that investigators use to catch criminals and terrorists", -- [1]
-		"Indeed", -- [2]
-		"And what do you do?", -- [3]
-		"How are you doing pal :)", -- [4]
-		"I still work for an american company, but a different one", -- [5]
-		"and the US is a terrible place for child families", -- [6]
-		"Korrak's revenge makes leveling easy", -- [7]
-		"1", -- [8]
-		"7th, prtty sure", -- [9]
-		"8.,3 is the 14th", -- [10]
-		"Yeah, I thought so", -- [11]
-		"wtf", -- [12]
-		"65k HPS by the tank", -- [13]
-		"damn", -- [14]
-		"/handynotes", -- [15]
-		"/i Share quests please :)", -- [16]
-		"/i Sure, share Q", -- [17]
-		"/i Cant make it here right", -- [18]
-		"/i yes", -- [19]
-		"/i just started", -- [20]
+		"Indeed", -- [1]
+		"And what do you do?", -- [2]
+		"How are you doing pal :)", -- [3]
+		"I still work for an american company, but a different one", -- [4]
+		"and the US is a terrible place for child families", -- [5]
+		"Korrak's revenge makes leveling easy", -- [6]
+		"1", -- [7]
+		"7th, prtty sure", -- [8]
+		"8.,3 is the 14th", -- [9]
+		"Yeah, I thought so", -- [10]
+		"wtf", -- [11]
+		"65k HPS by the tank", -- [12]
+		"damn", -- [13]
+		"/handynotes", -- [14]
+		"/i Share quests please :)", -- [15]
+		"/i Sure, share Q", -- [16]
+		"/i Cant make it here right", -- [17]
+		"/i yes", -- [18]
+		"/i just started", -- [19]
+		"/macro", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Capping: Tower Point - 1:08 (Alliance)", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1839, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041387,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"Capping: Frostwolf Graveyard - 0:34 (Alliance)", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1844, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041388,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"need one more to go around to the back to capture their GY", -- [1]
-			"Majzen-Neptulon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Majzen-Neptulon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1848, -- [11]
-			"Player-3660-078F5B6D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Majzen-Neptulon|r",
-			[51] = 1578041390,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"need one more to go around to the back to capture their GY", -- [1]
-			"Majzen-Neptulon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Majzen-Neptulon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1891, -- [11]
-			"Player-3660-078F5B6D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Majzen-Neptulon|r",
-			[51] = 1578041454,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"how is attack going?", -- [1]
-			"Boostlee-TheMaelstrom", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Boostlee-TheMaelstrom", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1953, -- [11]
-			"Player-1596-0A7FDE72", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Boostlee-TheMaelstrom|r",
-			[51] = 1578041539,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"Capping: East Frostwolf Tower - 2:51 (Alliance)", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2035, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041623,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"Capping: West Frostwolf Tower - 3:12 (Alliance)", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2036, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041624,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"Capping: East Frostwolf Tower - 1:12 (Alliance)", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2085, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041722,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"Capping: West Frostwolf Tower - 1:34 (Alliance)", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2086, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041722,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"GJ", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2092, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041731,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"Start killing elites", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2106, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041735,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"all go south guys", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2202, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041857,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"gg", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2211, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041885,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"end that boss", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2212, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041888,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
-		{
-			"kill him now", -- [1]
-			"Adrástea-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adrástea-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2213, -- [11]
-			"Player-3702-08429999", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Adrástea-ArgentDawn|r",
-			[51] = 1578041894,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"they have elites still to kill", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2215, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041899,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"its ok", -- [1]
-			"Chucko-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chucko-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2216, -- [11]
-			"Player-1329-06D1E77D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeChucko-Ravencrest|r",
-			[51] = 1578041900,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
-		{
-			"GOGOGOG", -- [1]
-			"Billgreyhate-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Billgreyhate-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2228, -- [11]
-			"Player-3702-094AA26F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Billgreyhate-ArgentDawn|r",
-			[51] = 1578041915,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"are they on our boss yest?", -- [1]
-			"Billgreyhate-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Billgreyhate-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2232, -- [11]
-			"Player-3702-094AA26F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Billgreyhate-ArgentDawn|r",
-			[51] = 1578041929,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
-		{
-			"yes", -- [1]
-			"Burdett-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Burdett-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2235, -- [11]
-			"Player-3391-0A827D5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Burdett|r",
-			[51] = 1578041953,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
 		{
 			"just started", -- [1]
 			"Burdett-Silvermoon", -- [2]
@@ -484,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Burdett|r",
 			[51] = 1578041956,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [1]
 		{
 			"they cant do !@#$ due to elites", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -506,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578041968,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [2]
 		{
 			"WHO", -- [1]
 			"Yaril-ArgentDawn", -- [2]
@@ -528,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYaril-ArgentDawn|r",
 			[51] = 1578041969,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [23]
+		}, -- [3]
 		{
 			"dw", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -550,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578041971,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [4]
 		{
 			"pulled", -- [1]
 			"Yaril-ArgentDawn", -- [2]
@@ -572,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYaril-ArgentDawn|r",
 			[51] = 1578041971,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
+		}, -- [5]
 		{
 			"GET THE COMMANDER OUT IDIOTS", -- [1]
 			"Yaril-ArgentDawn", -- [2]
@@ -594,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYaril-ArgentDawn|r",
 			[51] = 1578041978,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [26]
+		}, -- [6]
 		{
 			"gg", -- [1]
 			"Adrástea-ArgentDawn", -- [2]
@@ -616,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Adrástea-ArgentDawn|r",
 			[51] = 1578041981,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [7]
 		{
 			"its ok", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -638,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578041982,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [8]
 		{
 			"we lose now", -- [1]
 			"Adrástea-ArgentDawn", -- [2]
@@ -660,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Adrástea-ArgentDawn|r",
 			[51] = 1578041985,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [9]
 		{
 			"focus warmaster down", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -682,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578041990,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [10]
 		{
 			"ouch", -- [1]
 			"Klarden-DefiasBrotherhood", -- [2]
@@ -704,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Klarden-DefiasBrotherhood|r",
 			[51] = 1578041994,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [11]
 		{
 			"we lost", -- [1]
 			"Klarden-DefiasBrotherhood", -- [2]
@@ -726,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Klarden-DefiasBrotherhood|r",
 			[51] = 1578041995,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [12]
 		{
 			"ffs", -- [1]
 			"Billgreyhate-ArgentDawn", -- [2]
@@ -748,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Billgreyhate-ArgentDawn|r",
 			[51] = 1578042000,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [13]
 		{
 			"who pulled the commander inside ", -- [1]
 			"Yaril-ArgentDawn", -- [2]
@@ -770,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYaril-ArgentDawn|r",
 			[51] = 1578042000,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [34]
+		}, -- [14]
 		{
 			"srsly..", -- [1]
 			"Yaril-ArgentDawn", -- [2]
@@ -792,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYaril-ArgentDawn|r",
 			[51] = 1578042002,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [35]
+		}, -- [15]
 		{
 			"kek", -- [1]
 			"Yaril-ArgentDawn", -- [2]
@@ -814,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYaril-ArgentDawn|r",
 			[51] = 1578042008,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [36]
+		}, -- [16]
 		{
 			"what a joke", -- [1]
 			"Mðð-Quel'Thalas", -- [2]
@@ -836,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mðð-Quel'Thalas|r",
 			[51] = 1578042008,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [17]
 		{
 			"just had the mostbadass korrak", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -858,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042371,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [18]
 		{
 			"summons and all", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -880,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042375,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [19]
 		{
 			"omg same, except in mine, someone aggroed a commander into Drek, which healed him", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -902,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578042413,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [20]
 		{
 			"and then we lost", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -924,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578042416,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [21]
 		{
 			":/", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -946,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042435,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [22]
 		{
 			"i lost too but we gave them a hard time", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -968,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042451,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [23]
 		{
 			"its all about rushing faster :p", -- [1]
 			"Miikiz-Ravencrest", -- [2]
@@ -990,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecMiikiz-Ravencrest|r",
 			[51] = 1578042469,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [24]
 		{
 			"he spawned in there didnt he?", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1012,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578042470,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [25]
 		{
 			"ally are good players but we lack teamwork", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -1034,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042501,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [26]
 		{
 			"I wanna see receipts on that first claim", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -1056,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578042536,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [27]
 		{
 			"^", -- [1]
 			"Miikiz-Ravencrest", -- [2]
@@ -1078,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecMiikiz-Ravencrest|r",
 			[51] = 1578042545,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [28]
 		{
 			"I'm only here for the queue", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -1100,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578042546,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [29]
 		{
 			"i won 6 korraks in a row because we teamwoked ", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -1122,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042554,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [30]
 		{
 			"Lul", -- [1]
 			"Rebzid-Ravencrest", -- [2]
@@ -1144,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRebzid-Ravencrest|r",
 			[51] = 1578042564,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [31]
 		{
 			"Alliance good", -- [1]
 			"Rebzid-Ravencrest", -- [2]
@@ -1166,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRebzid-Ravencrest|r",
 			[51] = 1578042566,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [32]
 		{
 			"? ", -- [1]
 			"Rebzid-Ravencrest", -- [2]
@@ -1188,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRebzid-Ravencrest|r",
 			[51] = 1578042567,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [33]
 		{
 			"i got screenshots", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -1210,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042570,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [34]
 		{
 			"yeah", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -1232,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042573,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [35]
 		{
 			"you can tell your grankids about it now", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1254,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578042582,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [36]
 		{
 			"indeed", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -1276,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042588,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [37]
 		{
 			"nobody will belive you, like you saw aliens", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1298,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578042590,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [38]
 		{
 			"even tho i won 2-3 today out of 5", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1320,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578042600,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [39]
 		{
 			"Capping: Iceblood Tower - 2:54 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1342,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578042600,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [40]
 		{
 			"Capping: Stonehearth Graveyard - 3:26 (Horde)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1364,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578042601,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [41]
 		{
 			"but i got proofs", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -1386,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578042603,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [42]
 		{
 			"Alliance stopped being good in patch 1.1 :", -- [1]
 			"Rebzid-Ravencrest", -- [2]
@@ -1408,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRebzid-Ravencrest|r",
 			[51] = 1578042605,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [43]
 		{
 			"more to TP", -- [1]
 			"Demoss-Kor'gall", -- [2]
@@ -1430,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Demoss-Kor'gall|r",
 			[51] = 1578042606,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [44]
 		{
 			"More needed at TP", -- [1]
 			"Demoss-Kor'gall", -- [2]
@@ -1452,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Demoss-Kor'gall|r",
 			[51] = 1578042684,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [45]
 		{
 			"fast", -- [1]
 			"Demoss-Kor'gall", -- [2]
@@ -1474,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Demoss-Kor'gall|r",
 			[51] = 1578042686,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [46]
 		{
 			"Capping: Iceblood Tower - 0:53 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1496,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578042721,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [47]
 		{
 			"def ice blood tower", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1518,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578042728,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [48]
 		{
 			"...", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -1540,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578042768,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [49]
 		{
 			"cc comnmander", -- [1]
 			"Demoss-Kor'gall", -- [2]
@@ -1562,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Demoss-Kor'gall|r",
 			[51] = 1578042776,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [50]
 		{
 			"Capping: Tower Point - 1:02 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1584,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578042804,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [51]
 		{
 			"Capping: Tower Point - 0:58 (Alliance)", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1606,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578042808,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [52]
 		{
 			"Capping: Stonehearth Bunker - 0:47 (Horde)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1628,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578042813,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [53]
 		{
 			"I'm gonna start crying", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -1650,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578042815,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [54]
 		{
 			"wat for", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1672,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578042828,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [55]
 		{
 			":D :|| :/", -- [1]
 			"Daëva-Anachronos", -- [2]
@@ -1694,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDaëva-Anachronos|r",
 			[51] = 1578042829,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [56]
 		{
 			"I keep trapping, and they keep hitting him", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -1716,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578042844,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [57]
 		{
 			"Capping: West Frostwolf Tower - 3:17 (Alliance)", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1738,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578042953,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [58]
 		{
 			"Capping: East Frostwolf Tower - 3:22 (Alliance)", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1760,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578042953,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [59]
 		{
 			"wait are we actually going to win :O", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1782,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578042953,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [60]
 		{
 			"thanks for the jinx", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1804,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578042961,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [61]
 		{
 			"that's a jinx and a half", -- [1]
 			"Klarden-DefiasBrotherhood", -- [2]
@@ -1826,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Klarden-DefiasBrotherhood|r",
 			[51] = 1578042970,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [62]
 		{
 			"we're ahead. ", -- [1]
 			"Tibblets-Ravencrest", -- [2]
@@ -1848,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tibblets-Ravencrest|r",
 			[51] = 1578043010,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [63]
 		{
 			"Capping: Dun Baldar South Bunker - 3:50 (Horde)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1870,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043011,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [64]
 		{
 			"Capping: Dun Baldar North Bunker - 3:08 (Horde)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1892,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043011,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [65]
 		{
 			"Capping: East Frostwolf Tower - 2:23 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1914,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043012,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [66]
 		{
 			"Capping: West Frostwolf Tower - 2:17 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -1936,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043012,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [67]
 		{
 			"gj", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1958,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043014,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [68]
 		{
 			"Capping: Frostwolf Relief Hut - 3:57 (Alliance)", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -1980,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043015,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [69]
 		{
 			"so if you dont make a stupid we win :)", -- [1]
 			"Tibblets-Ravencrest", -- [2]
@@ -2002,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tibblets-Ravencrest|r",
 			[51] = 1578043018,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [70]
 		{
 			"we got like 1 minute over them :)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -2024,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043018,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [71]
 		{
 			"start clearing elites", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -2046,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043020,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [72]
 		{
 			"just remember to not stack the commander with Drek", -- [1]
 			"Klarden-DefiasBrotherhood", -- [2]
@@ -2068,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Klarden-DefiasBrotherhood|r",
 			[51] = 1578043026,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [73]
 		{
 			"and not heal him again and lose the game :,)", -- [1]
 			"Klarden-DefiasBrotherhood", -- [2]
@@ -2090,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Klarden-DefiasBrotherhood|r",
 			[51] = 1578043034,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [74]
 		{
 			"woop! i gave us more time", -- [1]
 			"Tibblets-Ravencrest", -- [2]
@@ -2112,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tibblets-Ravencrest|r",
 			[51] = 1578043080,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [75]
 		{
 			":..Lust Detector:..: Majzen-Neptulon Cast |cff71d5ff|Hspell:272678:0|h[Primal Rage]|h|r!", -- [1]
 			"Theis-Silvermoon", -- [2]
@@ -2134,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Theis|r",
 			[51] = 1578043085,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [76]
 		{
 			"good job tibblets :P", -- [1]
 			"Urligh-EmeraldDream", -- [2]
@@ -2156,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecUrligh-EmeraldDream|r",
 			[51] = 1578043113,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+		}, -- [77]
 		{
 			"gj on the bunkers", -- [1]
 			"Demoss-Kor'gall", -- [2]
@@ -2178,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Demoss-Kor'gall|r",
 			[51] = 1578043115,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [78]
 		{
 			"I GOT THE TOWER", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -2200,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043117,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [99]
+		}, -- [79]
 		{
 			"I GOT THE BUNKER", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -2222,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043120,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [100]
+		}, -- [80]
 		{
 			"I T WAS ME", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -2244,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043121,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [101]
+		}, -- [81]
 		{
 			"%^&*, they will recall now", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -2266,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043124,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [102]
+		}, -- [82]
 		{
 			"xD", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -2288,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043125,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
+		}, -- [83]
 		{
 			"watchout guys", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -2310,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043128,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [104]
+		}, -- [84]
 		{
 			"defend towers and fwh ", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -2332,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043135,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [85]
 		{
 			"Capping: East Frostwolf Tower - 0:15 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -2354,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043140,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [86]
 		{
 			"Capping: West Frostwolf Tower - 9.2 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -2376,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043141,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [107]
+		}, -- [87]
 		{
 			"Capping: West Frostwolf Tower - 7.2 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -2398,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043143,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [108]
+		}, -- [88]
 		{
 			"Capping: East Frostwolf Tower - 0:12 (Alliance)", -- [1]
 			"Stiliqn-Darksorrow", -- [2]
@@ -2420,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStiliqn-Darksorrow|r",
 			[51] = 1578043143,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [109]
+		}, -- [89]
 		{
 			"start clearing elites if u didnt yet", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -2442,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043148,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [110]
+		}, -- [90]
 		{
 			"This is going exactly like last game hahaha", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -2464,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578043177,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [111]
+		}, -- [91]
 		{
 			":..Lust Detector:..: Kazzork-Runetotem Cast |cff71d5ff|Hspell:32182:0|h[Heroism]|h|r!", -- [1]
 			"Theis-Silvermoon", -- [2]
@@ -2486,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Theis|r",
 			[51] = 1578043188,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [112]
+		}, -- [92]
 		{
 			"aight, I guess we won this time ^^", -- [1]
 			"Miikiz-Ravencrest", -- [2]
@@ -2508,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecMiikiz-Ravencrest|r",
 			[51] = 1578043191,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [113]
+		}, -- [93]
 		{
 			"we're 2!!! towers ahead", -- [1]
 			"Tibblets-Ravencrest", -- [2]
@@ -2530,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tibblets-Ravencrest|r",
 			[51] = 1578043191,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [114]
+		}, -- [94]
 		{
 			":..Lust Detector:..: Velmalir Cast |cff71d5ff|Hspell:80353:0|h[Time Warp]|h|r!", -- [1]
 			"Theis-Silvermoon", -- [2]
@@ -2552,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Theis|r",
 			[51] = 1578043197,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [115]
+		}, -- [95]
 		{
 			"Uhm, yeah", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -2574,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578043198,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [116]
+		}, -- [96]
 		{
 			"gogo team! :D", -- [1]
 			"Tibblets-Ravencrest", -- [2]
@@ -2596,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tibblets-Ravencrest|r",
 			[51] = 1578043198,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [117]
+		}, -- [97]
 		{
 			"lol jsut joined winning bg ?", -- [1]
 			"Stabystab-Neptulon", -- [2]
@@ -2618,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Stabystab-Neptulon|r",
 			[51] = 1578043206,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [118]
+		}, -- [98]
 		{
 			"nice team ", -- [1]
 			"Urligh-EmeraldDream", -- [2]
@@ -2640,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecUrligh-EmeraldDream|r",
 			[51] = 1578043207,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [119]
+		}, -- [99]
 		{
 			":..Lust Detector:..: Firesun-TheSha'tar Cast |cff71d5ff|Hspell:32182:0|h[Heroism]|h|r!", -- [1]
 			"Theis-Silvermoon", -- [2]
@@ -2662,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Theis|r",
 			[51] = 1578043210,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [100]
 		{
 			"the fuq", -- [1]
 			"Stabystab-Neptulon", -- [2]
@@ -2684,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Stabystab-Neptulon|r",
 			[51] = 1578043210,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [121]
+		}, -- [101]
 		{
 			"see ally are good they !@#$ need to work together", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -2706,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578043222,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [122]
+		}, -- [102]
 		{
 			"Wow, gj bois. Might remain an agent for a few more game yet.", -- [1]
 			"Jiminel-ArgentDawn", -- [2]
@@ -2728,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jiminel-ArgentDawn|r",
 			[51] = 1578043234,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [123]
+		}, -- [103]
 		{
 			"traitor !", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -2750,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043244,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [124]
+		}, -- [104]
 		{
 			"HANG HIM !", -- [1]
 			"Chucko-Ravencrest", -- [2]
@@ -2772,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeChucko-Ravencrest|r",
 			[51] = 1578043252,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [105]
 		{
 			"haha", -- [1]
 			"Lycân-ArgentDawn", -- [2]
@@ -2794,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lycân-ArgentDawn|r",
 			[51] = 1578043261,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [126]
+		}, -- [106]
 		{
 			"gg", -- [1]
 			"Nefarathir-ArgentDawn", -- [2]
@@ -2816,6 +2376,446 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNefarathir-ArgentDawn|r",
 			[51] = 1578043267,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [107]
+		{
+			"WTS Boost |cff66bbff|Hjournal:0:1179:15|h[The Eternal Palace]|h|r Heroic Full Run Going Soon Wis me right now for more info .", -- [1]
+			"Soulspell-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Soulspell-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			647, -- [11]
+			"Player-3391-08757E73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecSoulspell|r",
+			[51] = 1578647518,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"WTS Freehold LVL up boost 110-120.(Only For Gold)\\w me for info(8-10  mins per lvl)Accept Gold Any realm any faction", -- [1]
+			"Xoxll-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xoxll-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			653, -- [11]
+			"Player-3391-0A7C4DB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xoxll|r",
+			[51] = 1578647600,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"<Just Some Muppets> is a new guild from a group of experienced long term friends. We're looking to build a small team for some easy heroic raiding in 8.3 and onwards, currently considering all roles except Druids. Raid days; Sun + Mon 20:30-23:00 ST.", -- [1]
+			"Sevgrim-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sevgrim-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			655, -- [11]
+			"Player-3391-0A1EC832", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cSevgrim|r",
+			[51] = 1578647614,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"<NBC>Selling M+10 for 90k ONLY!! and +15 for 220k, also +16/17/18/19/20(IN TIME)! Buy at least 2xM+10 for FREE ARMOR 180k  (Only180k)!  ,TEP Mythic/HC 8/8! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount!2v2 easy Rate UP!/w for info", -- [1]
+			"Aranay-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aranay-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			717, -- [11]
+			"Player-3391-0ACB5EB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecAranay|r",
+			[51] = 1578648323,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"WTS Freehold LVL up boost 110-120.(Only For Gold)\\w me for info(8-10  mins per lvl)Accept Gold Any realm any faction", -- [1]
+			"Xoxll-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xoxll-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			720, -- [11]
+			"Player-3391-0A7C4DB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xoxll|r",
+			[51] = 1578648347,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"starrt oronu 77 24", -- [1]
+			"Imber-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Nazjatar", -- [4]
+			"Imber-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Nazjatar", -- [9]
+			0, -- [10]
+			752, -- [11]
+			"Player-3391-09B9F32B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Imber|r",
+			[51] = 1578648450,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"Selling M+10 For 80K Each Very Cheap!!! and M+15 For 200K \"FREE ARMOR STACK\" 2KRIO Team Also Selling Mechagon HM/NM Cheap!!!", -- [1]
+			"Soniy-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Soniy-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			830, -- [11]
+			"Player-3391-0A72D60E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Soniy|r",
+			[51] = 1578648891,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"WTS |cff66bbff|Hjournal:1:2361:16|h[Queen Azshara]|h|r Heroic Clean Kill For Gold Only ! Get Your 430+ Gear & Your ", -- [1]
+			"Mendøza-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mendøza-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			831, -- [11]
+			"Player-3391-0A6D9AE1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Mendøza|r",
+			[51] = 1578648917,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"Selling M+ 10-20. Receive ALL items we can trade and one 440+ item in your next Weekly Chest. Specific keys/ Armor Stack and package deals available! Interested? Gold accepted on any realm /w me for more info.", -- [1]
+			"Ghankdmog-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ghankdmog-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1850, -- [11]
+			"Player-3391-0A2A7400", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGhankdmog|r",
+			[51] = 1579042712,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"[WTS] Eternal Palace Heroic BOOST Tonight. Get NEW ilvl 430+ gear, Curve Achieve & Essences. Choose from up to 10 Guild runs every day. We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1853, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042729,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"Selling ALCHEMY PROFESSION LEVELING KIT 1-300 VANILLA. Level your ALCHEMY in 10 MINS  /w me for info :)", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1854, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042739,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"<Retro> (8/8M) is looking for exceptional raiders (Ele. Shaman / Balance Druid / Shadow Priest) for Cutting Edge raiding. Other applicants are considered. We raid Wed-Thur 22:00-01:00 Server Time. Whisper me for more information!", -- [1]
+			"Zaltara-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zaltara-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1876, -- [11]
+			"Player-3391-098779D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Zaltara|r",
+			[51] = 1579042768,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			" |cffffd100|HclubFinder:ClubFinder-1-7260-3391-46381465|h[Guild: Knights Legion]|h|r Recruiting for 8.3 heroic raiding! LFM DPS to expand our current team! Socials and mythic+ runners also welcome! Check the link or pm for more info! Bring ur own cookies", -- [1]
+			"Razorstorm-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Razorstorm-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1883, -- [11]
+			"Player-3391-086302CD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Razorstorm|r",
+			[51] = 1579042776,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"hey mates! <Triade> is a new guild focus on the fun of the game without slacking. Want to hop on a fresh project, aim for a lot of guild achievements with friends, join a focused raiding team? wisp me, we might be the perfect fit for you.", -- [1]
+			"Dostoievski-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dostoievski-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1885, -- [11]
+			"Player-3391-09BF5459", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeDostoievski|r",
+			[51] = 1579042778,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"[WTS] Mythic+ runs, +10/+15/+20 key CARRY. You will get ilvl 430-455+ Gear, Titan Residuum, RIO score, Essences & tons of Azerite. Start right now! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1891, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042790,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"Selling ALCHEMY PROFESSION LEVELING KIT 1-300 VANILLA. Level your ALCHEMY in 10 MINS  /w me for info :)", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1896, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042797,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"<Oblivion Boost Community> is opening Prebookings for the Ny'alotha HEROIC raid on personal loot. Get your curve first week! Interested? /w me for more information or prices!", -- [1]
+			"Ghankdmog-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ghankdmog-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1908, -- [11]
+			"Player-3391-0A2A7400", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGhankdmog|r",
+			[51] = 1579042825,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"[WTS] Fast lvling to 120 in 4 hours, Pathfinder, Essences, Allied races, Glories, Mounts, Reputations, World Quests, Expeditions & other BOOSTS! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1922, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042850,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"Selling ALCHEMY PROFESSION LEVELING KIT 1-300 VANILLA. Level your ALCHEMY in 10 MINS  /w me for info :)", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1932, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042866,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"[WTS] Eternal Palace Heroic BOOST Tonight. Get NEW ilvl 430+ gear, Curve Achieve & Essences. Choose from up to 10 Guild runs every day. We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1957, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042910,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

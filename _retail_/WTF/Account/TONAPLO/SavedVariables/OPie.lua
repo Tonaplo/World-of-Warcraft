@@ -201,9 +201,9 @@ OneRing_Config = {
 				}, -- [17]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
+				["noOpportunisticCA"] = true,
 				["save"] = true,
 				["hotkey"] = "ALT-T",
-				["noOpportunisticCA"] = true,
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
@@ -502,8 +502,8 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [3]
 				{
-					["id"] = 232698,
 					["sliceToken"] = "ABuepjqUmtwp",
+					["id"] = 232698,
 				}, -- [4]
 				{
 					["id"] = 31687,
@@ -582,8 +582,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuesm1/8Lt",
 				}, -- [23]
 				{
-					["sliceToken"] = "ABue3cjatfe",
 					["id"] = 212036,
+					["sliceToken"] = "ABue3cjatfe",
 				}, -- [24]
 				{
 					["id"] = 20577,
@@ -619,5 +619,5 @@ OneRing_Config = {
 			},
 		},
 	},
-	["_GameVersion"] = "8.2.5",
+	["_GameVersion"] = "8.3.0",
 }

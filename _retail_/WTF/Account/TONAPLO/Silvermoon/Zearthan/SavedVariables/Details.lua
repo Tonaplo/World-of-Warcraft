@@ -8,6 +8,10721 @@ _detalhes_database = {
 			{
 				{
 					["tipo"] = 2,
+					["combatId"] = 47,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005048,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Tainted Guardian"] = 16808,
+								["Sethrak Skycaller"] = 4278,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Infernal <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 19622.005048,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1578651397,
+							["damage_taken"] = 0.005048,
+							["spells"] = {
+								["_ActorTable"] = {
+									[22703] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4278,
+										["targets"] = {
+											["Tainted Guardian"] = 4278,
+											["Sethrak Skycaller"] = 4278,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8556,
+										["n_min"] = 4278,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8556,
+										["c_max"] = 0,
+										["id"] = 22703,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1004,
+										["targets"] = {
+											["Tainted Guardian"] = 1004,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1004,
+										["n_min"] = 1004,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1004,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10062,
+										["targets"] = {
+											["Tainted Guardian"] = 10062,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10062,
+										["n_min"] = 10062,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 10062,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 5028.858823754713,
+							["friendlyfire_total"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1578651395,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578651393,
+							["serial"] = "Player-3391-0A827D4F",
+							["total"] = 21086.005048,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.005299,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Tainted Guardian"] = 1464,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.005299,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1464.005299,
+							["last_event"] = 1578651394,
+							["dps_started"] = false,
+							["total"] = 1464.005299,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Infernal <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1464,
+										["targets"] = {
+											["Tainted Guardian"] = 1464,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1464,
+										["n_min"] = 1464,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1464,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578651397,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578651394,
+							["serial"] = "Creature-0-3111-1642-31758-89-0000184F01",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007152,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Pandashotz"] = true,
+								["Valok-ChamberofAspects"] = true,
+								["Swiftboom"] = true,
+								["Core Hound"] = true,
+								["Infernal <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Core Hound"] = 1357,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1357.007152,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 1357.007152,
+							["end_time"] = 1578651397,
+							["damage_taken"] = 173888.007152,
+							["nome"] = "Tainted Guardian",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1357,
+										["targets"] = {
+											["Core Hound"] = 1357,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1357,
+										["n_min"] = 1357,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1357,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578651395,
+							["on_hold"] = false,
+							["start_time"] = 1578651395,
+							["serial"] = "Creature-0-3111-1642-31758-126460-0000184EA9",
+							["fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002367,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Swiftboom"] = true,
+								["Valok-ChamberofAspects"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002367,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1578651397,
+							["total"] = 0.002367,
+							["damage_taken"] = 16475.002367,
+							["nome"] = "Sethrak Skycaller",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578651397,
+							["serial"] = "Creature-0-3111-1642-31758-128958-0001184E96",
+							["fight_component"] = true,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 47,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 47,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 47,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[22703] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 22703,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Infernal <Zearthan>", -- [1]
+								"Belpad <Zearthan>", -- [2]
+							},
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 4,
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578651397,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["buff_uptime"] = 11,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Infernal <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[19483] = 1,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3111-1642-31758-89-0000184F01",
+							["tipo"] = 4,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 1,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3111-1642-31758-416-0102B4B52E",
+							["tipo"] = 4,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 47,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 8329.554,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					22442.98088600001, -- [1]
+					-0.007407000000057451, -- [2]
+					{
+						-0.006354, -- [1]
+						[0] = -0.009673,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					19622, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:16:38",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Sethrak Skycaller",
+				["TotalElapsedCombatTime"] = 4.192999999999302,
+				["CombatEndedAt"] = 8333.747,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:16:34",
+				["end_time"] = 8333.747,
+				["combat_id"] = 47,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578651393,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Tainted Guardian",
+				["combat_counter"] = 70,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 21086.005048,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 8329.554,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						18618.005048, -- [1]
+						1464, -- [2]
+						1004, -- [3]
+						0, -- [4]
+						["max_value"] = 18618.005048,
+					},
+					["Raid Damage Done"] = {
+						18618, -- [1]
+						0, -- [2]
+						1004, -- [3]
+						0, -- [4]
+						["max_value"] = 18618,
+					},
+				},
+				["frags"] = {
+					["Sethrak Skycaller"] = 1,
+					["Tainted Guardian"] = 1,
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 46,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.005445,
+							["damage_from"] = {
+								["Captain Razorspine"] = true,
+							},
+							["targets"] = {
+								["Captain Razorspine"] = 147459,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 129204.005445,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 147459.005445,
+							["damage_taken"] = 46432.005445,
+							["spells"] = {
+								["_ActorTable"] = {
+									[268525] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2770,
+										["targets"] = {
+											["Captain Razorspine"] = 5540,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5540,
+										["n_min"] = 2770,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5540,
+										["c_max"] = 0,
+										["id"] = 268525,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[157736] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 15238,
+										["g_amt"] = 0,
+										["n_max"] = 1937,
+										["targets"] = {
+											["Captain Razorspine"] = 18962,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3724,
+										["n_min"] = 1787,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 18962,
+										["c_max"] = 3942,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 3665,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3894,
+										["g_amt"] = 0,
+										["n_max"] = 974,
+										["targets"] = {
+											["Captain Razorspine"] = 7036,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3142,
+										["n_min"] = 222,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 7036,
+										["c_max"] = 1947,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 1947,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5034,
+										["targets"] = {
+											["Captain Razorspine"] = 23655,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23655,
+										["n_min"] = 4499,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 23655,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[116858] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 39750,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Captain Razorspine"] = 39750,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 39750,
+										["c_max"] = 20626,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 19124,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 802,
+										["targets"] = {
+											["Captain Razorspine"] = 2834,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2834,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 2834,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["a_dmg"] = 0,
+										["spellschool"] = 48,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2974,
+										["targets"] = {
+											["Captain Razorspine"] = 5938,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5938,
+										["n_min"] = 2964,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5938,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9652,
+										["targets"] = {
+											["Captain Razorspine"] = 18748,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18748,
+										["n_min"] = 9096,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 18748,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[266136] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3535,
+										["targets"] = {
+											["Captain Razorspine"] = 6741,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6741,
+										["n_min"] = 3206,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 6741,
+										["c_max"] = 0,
+										["id"] = 266136,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 6514.070126121035,
+							["end_time"] = 1578651140,
+							["colocacao"] = 1,
+							["last_event"] = 1578651138,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578651121,
+							["serial"] = "Player-3391-0A827D4F",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 53953.003505,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Madmac"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 46432,
+								["Madmac"] = 4320,
+								["Belpad <Zearthan>"] = 6087,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 56839.003505,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1578651140,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 303462.003505,
+							["nome"] = "Captain Razorspine",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7622,
+										["targets"] = {
+											["Zearthan"] = 38774,
+											["Belpad <Zearthan>"] = 6087,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 44861,
+										["n_min"] = 2886,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 44861,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[258204] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3624,
+										["targets"] = {
+											["Madmac"] = 3624,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3624,
+										["n_min"] = 3624,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3624,
+										["c_max"] = 0,
+										["id"] = 258204,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[270296] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 270296,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+									[258200] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 152,
+										["targets"] = {
+											["Madmac"] = 696,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 696,
+										["n_min"] = 128,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 696,
+										["c_max"] = 0,
+										["id"] = 258200,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[258201] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 258201,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+									[270295] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7658,
+										["targets"] = {
+											["Zearthan"] = 7658,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7658,
+										["n_min"] = 7658,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7658,
+										["c_max"] = 0,
+										["id"] = 270295,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 56839.003505,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578651139,
+							["on_hold"] = false,
+							["start_time"] = 1578651117,
+							["serial"] = "Creature-0-3892-1643-26542-130897-0000184DED",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.003023,
+							["damage_from"] = {
+								["Captain Razorspine"] = true,
+							},
+							["targets"] = {
+								["Captain Razorspine"] = 18255,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 6087.003023,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 18255.003023,
+							["last_event"] = 1578651136,
+							["dps_started"] = false,
+							["total"] = 18255.003023,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3043,
+										["targets"] = {
+											["Captain Razorspine"] = 18255,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18255,
+										["n_min"] = 3042,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 18255,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578651140,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578651123,
+							["serial"] = "Pet-0-3892-1643-26542-416-0102B4B52E",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 46,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007845,
+							["total_without_pet"] = 52519.007845,
+							["total"] = 52519.007845,
+							["targets_absorbs"] = {
+								["Zearthan"] = 46432,
+								["Belpad <Zearthan>"] = 6087,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 52519.007845,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 46432,
+								["Belpad <Zearthan>"] = 6087,
+							},
+							["totalover_without_pet"] = 0.007845,
+							["healing_taken"] = 46432.007845,
+							["fight_component"] = true,
+							["end_time"] = 1578651140,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 50204,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 7276,
+										["targets"] = {
+											["Zearthan"] = 44117,
+											["Belpad <Zearthan>"] = 6087,
+										},
+										["n_min"] = 2886,
+										["counter"] = 12,
+										["overheal"] = 0,
+										["total"] = 50204,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 44117,
+											["Belpad <Zearthan>"] = 6087,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 12,
+										["n_curado"] = 50204,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2315,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 479,
+										["targets"] = {
+											["Zearthan"] = 2315,
+										},
+										["n_min"] = 126,
+										["counter"] = 10,
+										["overheal"] = 0,
+										["total"] = 2315,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 2315,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 10,
+										["n_curado"] = 2315,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1578651138,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.007845,
+							["start_time"] = 1578651117,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.00864,
+							["total_without_pet"] = 0.00864,
+							["total"] = 0.00864,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3892-1643-26542-416-0102B4B52E",
+							["totalabsorb"] = 0.00864,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00864,
+							["healing_taken"] = 6087.00864,
+							["fight_component"] = true,
+							["end_time"] = 1578651140,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.00864,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1578651140,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 46,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 46,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 157736,
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 66,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 23,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 23,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 28,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[116858] = 2,
+								[348] = 2,
+								[29722] = 6,
+								[17962] = 2,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578651140,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Captain Razorspine",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[270295] = 1,
+								[270296] = 2,
+								[258201] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3892-1643-26542-130897-0000184DED",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spell_cast"] = {
+								[3110] = 6,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3892-1643-26542-416-0102B4B52E",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 46,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["tempo_start"] = 1578651117,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					204297.8984279999, -- [1]
+					52518.98749299999, -- [2]
+					{
+						-0.012972, -- [1]
+						[0] = -0.01675199999996542,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					129204, -- [1]
+					52519, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:12:21",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Captain Razorspine",
+				["TotalElapsedCombatTime"] = 8076.635,
+				["CombatEndedAt"] = 8076.635,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:11:58",
+				["end_time"] = 8076.635,
+				["combat_id"] = 46,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 147459.005445,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 52519.007845,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["Vinemaster Smagh"] = 1,
+					["Captain Razorspine"] = 1,
+				},
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.005445, -- [1]
+						0, -- [2]
+						0, -- [3]
+						12450, -- [4]
+						0, -- [5]
+						4056, -- [6]
+						27567, -- [7]
+						5072, -- [8]
+						8277, -- [9]
+						230, -- [10]
+						7770, -- [11]
+						3871, -- [12]
+						7797, -- [13]
+						5231, -- [14]
+						6588, -- [15]
+						6131, -- [16]
+						0, -- [17]
+						18067, -- [18]
+						3042, -- [19]
+						974, -- [20]
+						28389.00000000002, -- [21]
+						1947, -- [22]
+						["max_value"] = 28389.00000000002,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						12450, -- [4]
+						0, -- [5]
+						1013, -- [6]
+						27567, -- [7]
+						2029, -- [8]
+						8277, -- [9]
+						230, -- [10]
+						4727, -- [11]
+						3871, -- [12]
+						4755, -- [13]
+						5231, -- [14]
+						6588, -- [15]
+						3089, -- [16]
+						0, -- [17]
+						18067, -- [18]
+						0, -- [19]
+						974, -- [20]
+						28389, -- [21]
+						1947, -- [22]
+						["max_value"] = 28389,
+					},
+				},
+				["combat_counter"] = 69,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 8053.998000000001,
+				["contra"] = "Captain Razorspine",
+				["spells_cast_timeline"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 45,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00448,
+							["damage_from"] = {
+								["Pack Leader Asenya"] = true,
+							},
+							["targets"] = {
+								["Pack Leader Asenya"] = 248531,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+								"Infernal <Zearthan>", -- [2]
+							},
+							["custom"] = 0,
+							["last_event"] = 1578651009,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 187589.00448,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1578651009,
+							["damage_taken"] = 33165.00448,
+							["spec"] = 267,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3459,
+										["g_amt"] = 0,
+										["n_max"] = 1905,
+										["targets"] = {
+											["Pack Leader Asenya"] = 16106,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12647,
+										["n_min"] = 1628,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 16106,
+										["c_max"] = 3459,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 3459,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[22703] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4022,
+										["targets"] = {
+											["Pack Leader Asenya"] = 4022,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4022,
+										["n_min"] = 4022,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4022,
+										["c_max"] = 0,
+										["id"] = 22703,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1886,
+										["g_amt"] = 0,
+										["n_max"] = 943,
+										["targets"] = {
+											["Pack Leader Asenya"] = 10078,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8192,
+										["n_min"] = 216,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 10078,
+										["c_max"] = 1886,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 1886,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 17258,
+										["g_amt"] = 0,
+										["n_max"] = 9389,
+										["targets"] = {
+											["Pack Leader Asenya"] = 35786,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18528,
+										["n_min"] = 9139,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 35786,
+										["c_max"] = 17258,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 17258,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[266136] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3333,
+										["targets"] = {
+											["Pack Leader Asenya"] = 10383,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10383,
+										["n_min"] = 559,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 10383,
+										["c_max"] = 0,
+										["id"] = 266136,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[116858] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 76988,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Pack Leader Asenya"] = 76988,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 76988,
+										["c_max"] = 20248,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 18481,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[255586] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 440,
+										["g_amt"] = 0,
+										["n_max"] = 219,
+										["targets"] = {
+											["Pack Leader Asenya"] = 1754,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1314,
+										["n_min"] = 219,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 1754,
+										["c_max"] = 440,
+										["id"] = 255586,
+										["r_dmg"] = 0,
+										["c_min"] = 440,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[348] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 5478,
+										["g_amt"] = 0,
+										["n_max"] = 2832,
+										["targets"] = {
+											["Pack Leader Asenya"] = 11130,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5652,
+										["n_min"] = 2820,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 11130,
+										["c_max"] = 5478,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 5478,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4621,
+										["targets"] = {
+											["Pack Leader Asenya"] = 17960,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17960,
+										["n_min"] = 4377,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 17960,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 869,
+										["targets"] = {
+											["Pack Leader Asenya"] = 3382,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3382,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 3382,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["a_dmg"] = 0,
+										["spellschool"] = 48,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_dps"] = 9608.776511888396,
+							["classe"] = "WARLOCK",
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650983,
+							["serial"] = "Player-3391-0A827D4F",
+							["total"] = 248531.00448,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.002932,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Pack Leader Asenya"] = 37351,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.002932,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 37351.002932,
+							["last_event"] = 1578651008,
+							["dps_started"] = false,
+							["total"] = 37351.002932,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Infernal <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2753,
+										["g_amt"] = 0,
+										["n_max"] = 1377,
+										["targets"] = {
+											["Pack Leader Asenya"] = 13762,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11009,
+										["n_min"] = 1376,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 13762,
+										["c_max"] = 2753,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 2753,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[20153] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2949,
+										["targets"] = {
+											["Pack Leader Asenya"] = 23589,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23589,
+										["n_min"] = 2948,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 23589,
+										["c_max"] = 0,
+										["id"] = 20153,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578651009,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650993,
+							["serial"] = "Creature-0-3769-1643-24532-89-0000184D70",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 33165.005762,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Belpad <Zearthan>"] = true,
+								["Infernal <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 33165,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["end_time"] = 1578651009,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 33165.005762,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 33165.005762,
+							["dps_started"] = false,
+							["damage_taken"] = 248531.005762,
+							["nome"] = "Pack Leader Asenya",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3215,
+										["targets"] = {
+											["Zearthan"] = 26951,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26951,
+										["n_min"] = 2322,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 26951,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[259880] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2101,
+										["targets"] = {
+											["Zearthan"] = 6214,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6214,
+										["n_min"] = 2046,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 6214,
+										["c_max"] = 0,
+										["id"] = 259880,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578651007,
+							["on_hold"] = false,
+							["start_time"] = 1578650987,
+							["serial"] = "Creature-0-3769-1643-24532-131262-0000184BD2",
+							["fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.008251,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Pack Leader Asenya"] = 23591,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.008251,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 23591.008251,
+							["last_event"] = 1578651006,
+							["dps_started"] = false,
+							["total"] = 23591.008251,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2949,
+										["targets"] = {
+											["Pack Leader Asenya"] = 23591,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23591,
+										["n_min"] = 2948,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 23591,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578651009,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650986,
+							["serial"] = "Pet-0-3769-1643-24532-416-0202B4B52E",
+							["classe"] = "PET",
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 45,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.003998,
+							["total_without_pet"] = 33165.003998,
+							["total"] = 33165.003998,
+							["targets_absorbs"] = {
+								["Zearthan"] = 33165,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 33165.003998,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 33165,
+							},
+							["totalover_without_pet"] = 0.003998,
+							["healing_taken"] = 33165.003998,
+							["fight_component"] = true,
+							["end_time"] = 1578651009,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1668,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 197,
+										["targets"] = {
+											["Zearthan"] = 1668,
+										},
+										["n_min"] = 73,
+										["counter"] = 13,
+										["overheal"] = 0,
+										["total"] = 1668,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 1668,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 13,
+										["n_curado"] = 1668,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 31497,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3018,
+										["targets"] = {
+											["Zearthan"] = 31497,
+										},
+										["n_min"] = 1968,
+										["counter"] = 13,
+										["overheal"] = 0,
+										["total"] = 31497,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 31497,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 13,
+										["n_curado"] = 31497,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1578651007,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.003998,
+							["start_time"] = 1578650987,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 45,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.00111,
+							["resource"] = 1.00111,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["passiveover"] = 0.00111,
+							["fight_component"] = true,
+							["total"] = 0.00111,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["totalover"] = 0.00111,
+							["flag_original"] = 1297,
+							["tipo"] = 3,
+							["last_event"] = 1578650987,
+							["spec"] = 267,
+							["alternatepower"] = 0.00111,
+							["serial"] = "Player-3391-0A827D4F",
+							["resource_type"] = 7,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 45,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[22703] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 22703,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[253309] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 253309,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 80,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 26,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 26,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 41,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 2,
+								[116858] = 4,
+								[348] = 2,
+								[1122] = 1,
+								[29722] = 4,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578651009,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+								"Infernal <Zearthan>", -- [2]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 8,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3769-1643-24532-416-0202B4B52E",
+							["tipo"] = 4,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Pack Leader Asenya",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[259880] = 3,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3769-1643-24532-131262-0000184BD2",
+							["fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Infernal <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[19483] = 1,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3769-1643-24532-89-0000184D70",
+							["tipo"] = 4,
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 45,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 8053.591,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					281695.959212, -- [1]
+					33165, -- [2]
+					{
+						-0.002666, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					187589, -- [1]
+					33165, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:10:10",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Pack Leader Asenya",
+				["TotalElapsedCombatTime"] = 7946.052000000001,
+				["CombatEndedAt"] = 7946.052000000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:09:44",
+				["end_time"] = 7946.052000000001,
+				["combat_id"] = 45,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578650983,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Pack Leader Asenya",
+				["combat_counter"] = 68,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 248531.00448,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 33165.003998,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 7920.187,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						15020.00448, -- [1]
+						983, -- [2]
+						1940, -- [3]
+						26661, -- [4]
+						2949, -- [5]
+						3057, -- [6]
+						23727, -- [7]
+						8671, -- [8]
+						0, -- [9]
+						26664, -- [10]
+						0, -- [11]
+						5310, -- [12]
+						9312, -- [13]
+						9644, -- [14]
+						4608, -- [15]
+						6552, -- [16]
+						33001, -- [17]
+						5283, -- [18]
+						2319, -- [19]
+						10343, -- [20]
+						4224, -- [21]
+						23756, -- [22]
+						9259, -- [23]
+						2948, -- [24]
+						5893, -- [25]
+						["max_value"] = 33001,
+					},
+					["Raid Damage Done"] = {
+						15020, -- [1]
+						983, -- [2]
+						1940, -- [3]
+						23712, -- [4]
+						0, -- [5]
+						3057, -- [6]
+						23727, -- [7]
+						5722, -- [8]
+						0, -- [9]
+						20963, -- [10]
+						0, -- [11]
+						984, -- [12]
+						6363, -- [13]
+						5320, -- [14]
+						3232, -- [15]
+						654, -- [16]
+						31625, -- [17]
+						2334, -- [18]
+						943, -- [19]
+						4445, -- [20]
+						2848, -- [21]
+						20807, -- [22]
+						4934, -- [23]
+						0, -- [24]
+						4517, -- [25]
+						["max_value"] = 31625,
+					},
+				},
+				["frags"] = {
+					["Pack Leader Asenya"] = 1,
+				},
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 44,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003443,
+							["damage_from"] = {
+								["Zanj'ir Trapper"] = true,
+							},
+							["targets"] = {
+								["Zanj'ir Trapper"] = 72902,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 58157.003443,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 72902.003443,
+							["damage_taken"] = 32625.003443,
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8618,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 8618,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8618,
+										["n_min"] = 8618,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8618,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[116858] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 19450,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 19450,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 19450,
+										["c_max"] = 19450,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 19450,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[348] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 5761,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 5761,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 5761,
+										["c_max"] = 5761,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 5761,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[304698] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4708,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 4708,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4708,
+										["n_min"] = 4708,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4708,
+										["c_max"] = 0,
+										["id"] = 304698,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[157736] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1908,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 3671,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3671,
+										["n_min"] = 1763,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3671,
+										["c_max"] = 0,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[266136] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3423,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 3423,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3423,
+										["n_min"] = 3423,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3423,
+										["c_max"] = 0,
+										["id"] = 266136,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 943,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 3045,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3045,
+										["n_min"] = 216,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3045,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4829,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 9481,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9481,
+										["n_min"] = 4652,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 9481,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 9464.105341165252,
+							["end_time"] = 1578650645,
+							["colocacao"] = 1,
+							["last_event"] = 1578650644,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650637,
+							["serial"] = "Player-3391-0A827D4F",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 8857.003514,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 32625,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 32625.003514,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1578650645,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 90109.003514,
+							["nome"] = "Zanj'ir Trapper",
+							["spells"] = {
+								["_ActorTable"] = {
+									[302912] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9606,
+										["targets"] = {
+											["Zearthan"] = 32625,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 32625,
+										["n_min"] = 6787,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 32625,
+										["c_max"] = 0,
+										["id"] = 302912,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 16981,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 32625.003514,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650644,
+							["on_hold"] = false,
+							["start_time"] = 1578650637,
+							["serial"] = "Creature-0-3774-1718-26701-153962-00001848CC",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.008219,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Zanj'ir Trapper"] = 14745,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.008219,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 14745.008219,
+							["last_event"] = 1578650644,
+							["dps_started"] = false,
+							["total"] = 14745.008219,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 11796,
+										["g_amt"] = 0,
+										["n_max"] = 2949,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 14745,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2949,
+										["n_min"] = 2949,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 14745,
+										["c_max"] = 5898,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 5898,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578650645,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650640,
+							["serial"] = "Pet-0-3774-1718-26701-416-0802B4B52E",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 44,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["totalover"] = 0.008366,
+							["total_without_pet"] = 20884.008366,
+							["total"] = 20884.008366,
+							["targets_absorbs"] = {
+								["Zearthan"] = 20884,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 20884.008366,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 20884,
+							},
+							["totalover_without_pet"] = 0.008366,
+							["healing_taken"] = 20884.008366,
+							["fight_component"] = true,
+							["end_time"] = 1578650645,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1371,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 597,
+										["targets"] = {
+											["Zearthan"] = 1371,
+										},
+										["n_min"] = 325,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 1371,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 1371,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 1371,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 19513,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 8408,
+										["targets"] = {
+											["Zearthan"] = 19513,
+										},
+										["n_min"] = 3575,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 19513,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 19513,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 19513,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1578650644,
+							["totaldenied"] = 0.008366,
+							["start_time"] = 1578650639,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 44,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 44,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 19,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 13,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[116858] = 1,
+								[348] = 1,
+								[29722] = 2,
+								[17962] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578650645,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Zanj'ir Trapper",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[302912] = 3,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-153962-00001848CC",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 3,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3774-1718-26701-416-0802B4B52E",
+							["tipo"] = 4,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 44,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 7920.09,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					105526.957377, -- [1]
+					20884, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					58157, -- [1]
+					20884, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:04:06",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Zanj'ir Trapper",
+				["TotalElapsedCombatTime"] = 1.220999999999549,
+				["CombatEndedAt"] = 7609.518,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:03:58",
+				["end_time"] = 7581.494000000001,
+				["combat_id"] = 44,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578650637,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Zanj'ir Trapper",
+				["combat_counter"] = 67,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 72902.003443,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 20884.008366,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 7573.791,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						14379.003443, -- [1]
+						5651.000000000002, -- [2]
+						7806, -- [3]
+						943, -- [4]
+						22873, -- [5]
+						13433, -- [6]
+						216, -- [7]
+						["max_value"] = 22873,
+					},
+					["Raid Damage Done"] = {
+						14379, -- [1]
+						5651, -- [2]
+						1908, -- [3]
+						943, -- [4]
+						22873, -- [5]
+						7535, -- [6]
+						216, -- [7]
+						["max_value"] = 22873,
+					},
+				},
+				["frags"] = {
+					["Zanj'ir Trapper"] = 1,
+				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 43,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005443,
+							["damage_from"] = {
+								["Azsh'ari Siegemistress"] = true,
+							},
+							["targets"] = {
+								["Azsh'ari Siegemistress"] = 49677,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 43780.005443,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 49677.005443,
+							["damage_taken"] = 34682.005443,
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9106,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 18072,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18072,
+										["n_min"] = 8966,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 18072,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2780,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 2780,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2780,
+										["n_min"] = 2780,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2780,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3496,
+										["g_amt"] = 0,
+										["n_max"] = 1834,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 5330,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1834,
+										["n_min"] = 1834,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5330,
+										["c_max"] = 3496,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 3496,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 503,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 1407,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1407,
+										["n_min"] = 52,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 1407,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 48,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 944,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 2830,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2830,
+										["n_min"] = 943,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2830,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4521,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 13361,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13361,
+										["n_min"] = 4394,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 13361,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 6788.330888631422,
+							["end_time"] = 1578650626,
+							["colocacao"] = 1,
+							["last_event"] = 1578650624,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650618,
+							["serial"] = "Player-3391-0A827D4F",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001802,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 34682,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 34682.001802,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1578650626,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 73367.001802,
+							["nome"] = "Azsh'ari Siegemistress",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 12220,
+										["g_amt"] = 0,
+										["n_max"] = 6018,
+										["targets"] = {
+											["Zearthan"] = 18238,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6018,
+										["n_min"] = 6018,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 18238,
+										["c_max"] = 12220,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 12220,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 12220,
+										["spellschool"] = 1,
+									}, -- [1]
+									[303299] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16444,
+										["targets"] = {
+											["Zearthan"] = 16444,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 16444,
+										["n_min"] = 16444,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 16444,
+										["c_max"] = 0,
+										["id"] = 303299,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 1,
+										["a_dmg"] = 16444,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 34682.001802,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650623,
+							["on_hold"] = false,
+							["start_time"] = 1578650618,
+							["serial"] = "Creature-0-3774-1718-26701-150508-00001848D3",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.005586,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Azsh'ari Siegemistress"] = 5897,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.005586,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5897.005586,
+							["last_event"] = 1578650623,
+							["dps_started"] = false,
+							["total"] = 5897.005586,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2949,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 5897,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5897,
+										["n_min"] = 2948,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5897,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578650626,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650621,
+							["serial"] = "Pet-0-3774-1718-26701-416-0702B4B52E",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 43,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["totalover"] = 0.005019,
+							["total_without_pet"] = 30799.005019,
+							["total"] = 30799.005019,
+							["targets_absorbs"] = {
+								["Zearthan"] = 22561,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 22561.005019,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 30799,
+							},
+							["totalover_without_pet"] = 0.005019,
+							["healing_taken"] = 30799.005019,
+							["fight_component"] = true,
+							["end_time"] = 1578650626,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 20761,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 10923,
+										["targets"] = {
+											["Zearthan"] = 20761,
+										},
+										["n_min"] = 4107,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 20761,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 20761,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 20761,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1800,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 909,
+										["targets"] = {
+											["Zearthan"] = 1800,
+										},
+										["n_min"] = 287,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 1800,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 1800,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 1800,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 131,
+										["targets"] = {
+											["Zearthan"] = 393,
+										},
+										["n_min"] = 131,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 393,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 393,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[304627] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2615,
+										["targets"] = {
+											["Zearthan"] = 7845,
+										},
+										["n_min"] = 2615,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 7845,
+										["c_max"] = 0,
+										["id"] = 304627,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 7845,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1578650624,
+							["totaldenied"] = 0.005019,
+							["start_time"] = 1578650618,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 43,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 43,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 265931,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 36,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[304627] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 304627,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 12,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[348] = 1,
+								[17962] = 2,
+								[29722] = 3,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578650626,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 2,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3774-1718-26701-416-0702B4B52E",
+							["tipo"] = 4,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Azsh'ari Siegemistress",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[303299] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-150508-00001848D3",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 43,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 7571.713,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					84358.991734, -- [1]
+					30799, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					43780, -- [1]
+					30799, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:03:46",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Azsh'ari Siegemistress",
+				["TotalElapsedCombatTime"] = 7562.45,
+				["CombatEndedAt"] = 7562.45,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:03:39",
+				["end_time"] = 7562.45,
+				["combat_id"] = 43,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578650618,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Azsh'ari Siegemistress",
+				["combat_counter"] = 66,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 49677.005443,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 30799.005019,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 7555.132000000001,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						11886.005443, -- [1]
+						943, -- [2]
+						9526.000000000002, -- [3]
+						995, -- [4]
+						7724, -- [5]
+						4688, -- [6]
+						13915, -- [7]
+						["max_value"] = 13915,
+					},
+					["Raid Damage Done"] = {
+						11886, -- [1]
+						943, -- [2]
+						6578, -- [3]
+						995, -- [4]
+						4775, -- [5]
+						4688, -- [6]
+						13915, -- [7]
+						["max_value"] = 13915,
+					},
+				},
+				["frags"] = {
+					["Azsh'ari Siegemistress"] = 1,
+				},
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 42,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 6018.003059,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 19481,
+								["Shandris Feathermoon"] = 38122,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["end_time"] = 1578650607,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 57603.003059,
+							["delay"] = 1578650590,
+							["monster"] = true,
+							["total"] = 57603.003059,
+							["dps_started"] = false,
+							["damage_taken"] = 72961.00305900001,
+							["nome"] = "Azsh'ari Siegemistress",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5770,
+										["targets"] = {
+											["Zearthan"] = 5770,
+											["Shandris Feathermoon"] = 5284,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11054,
+										["n_min"] = 5284,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 11054,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[303299] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16528,
+										["targets"] = {
+											["Zearthan"] = 13711,
+											["Shandris Feathermoon"] = 32838,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 46549,
+										["n_min"] = 13711,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 46549,
+										["c_max"] = 0,
+										["id"] = 303299,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 1,
+										["a_dmg"] = 13711,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650618,
+							["on_hold"] = false,
+							["start_time"] = 1578650594,
+							["serial"] = "Creature-0-3774-1718-26701-150508-000018474B",
+							["fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001928,
+							["damage_from"] = {
+								["Zanj'ir Myrmidon"] = true,
+								["Azsh'ari Siegemistress"] = true,
+								["Zanj'ir Trapper"] = true,
+							},
+							["targets"] = {
+								["Zanj'ir Myrmidon"] = 75677,
+								["Azsh'ari Siegemistress"] = 41503,
+								["Zanj'ir Trapper"] = 29279,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650607,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 119921.001928,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1578650607,
+							["damage_taken"] = 110751.001928,
+							["spec"] = 267,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3746,
+										["g_amt"] = 0,
+										["n_max"] = 1887,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 9352,
+											["Azsh'ari Siegemistress"] = 7208,
+											["Zanj'ir Trapper"] = 5475,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18289,
+										["n_min"] = 1734,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 22035,
+										["c_max"] = 3746,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 3746,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 944,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 3048,
+											["Azsh'ari Siegemistress"] = 944,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3992,
+										["n_min"] = 216,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 3992,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4851,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 8218,
+											["Zanj'ir Myrmidon"] = 11147,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19365,
+										["n_min"] = 1756,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 19365,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2902,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 2902,
+											["Azsh'ari Siegemistress"] = 2874,
+											["Zanj'ir Trapper"] = 2781,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8557,
+										["n_min"] = 2781,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 8557,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[116858] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 20651,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 20651,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 20651,
+										["c_max"] = 20651,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 20651,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[255586] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 453,
+										["g_amt"] = 0,
+										["n_max"] = 220,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 1534,
+											["Zanj'ir Trapper"] = 2863,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3944,
+										["n_min"] = 219,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 4397,
+										["c_max"] = 453,
+										["id"] = 255586,
+										["r_dmg"] = 0,
+										["c_min"] = 453,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 18,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[234153] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 708,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 6364,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6364,
+										["n_min"] = 707,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 6364,
+										["c_max"] = 0,
+										["id"] = 234153,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9079,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 9079,
+											["Azsh'ari Siegemistress"] = 8802,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17881,
+										["n_min"] = 8802,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 17881,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[42223] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2084,
+										["g_amt"] = 0,
+										["n_max"] = 1024,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 8975,
+											["Zanj'ir Myrmidon"] = 7704,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14595,
+										["n_min"] = 917,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 16679,
+										["c_max"] = 2084,
+										["id"] = 42223,
+										["r_dmg"] = 0,
+										["c_min"] = 2084,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_dps"] = 4997.918438711425,
+							["classe"] = "WARLOCK",
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650579,
+							["serial"] = "Player-3391-0A827D4F",
+							["total"] = 146459.001928,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 13140.007091,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 61641,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 61641.007091,
+							["delay"] = 1578650592,
+							["monster"] = true,
+							["end_time"] = 1578650607,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 101899.007091,
+							["nome"] = "Zanj'ir Myrmidon",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7864,
+										["targets"] = {
+											["Zearthan"] = 34133,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 34133,
+										["n_min"] = 5685,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 34133,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 3,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 20993,
+										["spellschool"] = 1,
+									}, -- [1]
+									[303158] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14784,
+										["targets"] = {
+											["Zearthan"] = 27508,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 27508,
+										["n_min"] = 12724,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 27508,
+										["c_max"] = 0,
+										["id"] = 303158,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 2,
+										["a_dmg"] = 27508,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 61641.007091,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650592,
+							["on_hold"] = false,
+							["start_time"] = 1578650593,
+							["serial"] = "Creature-0-3774-1718-26701-153960-00001848DE",
+							["fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001583,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Zanj'ir Myrmidon"] = 11794,
+								["Azsh'ari Siegemistress"] = 2948,
+								["Zanj'ir Trapper"] = 11796,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.001583,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 26538.001583,
+							["last_event"] = 1578650607,
+							["dps_started"] = false,
+							["total"] = 26538.001583,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2949,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 11794,
+											["Azsh'ari Siegemistress"] = 2948,
+											["Zanj'ir Trapper"] = 11796,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26538,
+										["n_min"] = 2948,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 26538,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578650607,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650581,
+							["serial"] = "Pet-0-3774-1718-26701-416-0602B4B52E",
+							["classe"] = "PET",
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007792,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 29629,
+								["Shandris Feathermoon"] = 6455,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 36084.007792,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1578650607,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 90789.007792,
+							["nome"] = "Zanj'ir Trapper",
+							["spells"] = {
+								["_ActorTable"] = {
+									[302912] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9527,
+										["targets"] = {
+											["Zearthan"] = 29629,
+											["Shandris Feathermoon"] = 6455,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 36084,
+										["n_min"] = 6455,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 36084,
+										["c_max"] = 0,
+										["id"] = 302912,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 5,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_amt"] = 4,
+										["a_dmg"] = 29629,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 36084.007792,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650604,
+							["on_hold"] = false,
+							["start_time"] = 1578650595,
+							["serial"] = "Creature-0-3774-1718-26701-153962-00001848ED",
+							["fight_component"] = true,
+						}, -- [5]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 42,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Zearthan"] = 2,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 2.006545,
+							["total_without_pet"] = 101299.006545,
+							["total"] = 101299.006545,
+							["targets_absorbs"] = {
+								["Zearthan"] = 56389,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 56389.006545,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 101299,
+							},
+							["totalover_without_pet"] = 0.006545,
+							["healing_taken"] = 101299.006545,
+							["fight_component"] = true,
+							["end_time"] = 1578650607,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 51001,
+										["targets_overheal"] = {
+											["Zearthan"] = 2,
+										},
+										["n_max"] = 6903,
+										["targets"] = {
+											["Zearthan"] = 51001,
+										},
+										["n_min"] = 2068,
+										["counter"] = 15,
+										["overheal"] = 2,
+										["total"] = 51001,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 51001,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 15,
+										["n_curado"] = 51001,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[234153] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3542,
+										["targets"] = {
+											["Zearthan"] = 31838,
+										},
+										["n_min"] = 3537,
+										["counter"] = 9,
+										["overheal"] = 0,
+										["total"] = 31838,
+										["c_max"] = 0,
+										["id"] = 234153,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 9,
+										["n_curado"] = 31838,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 5388,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 744,
+										["targets"] = {
+											["Zearthan"] = 5388,
+										},
+										["n_min"] = 225,
+										["counter"] = 13,
+										["overheal"] = 0,
+										["total"] = 5388,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 5388,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 13,
+										["n_curado"] = 5388,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[304627] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2615,
+										["targets"] = {
+											["Zearthan"] = 13072,
+										},
+										["n_min"] = 2614,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 13072,
+										["c_max"] = 0,
+										["id"] = 304627,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 5,
+										["n_curado"] = 13072,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1578650605,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006545,
+							["start_time"] = 1578650578,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 42,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 42,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[253309] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 253309,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[234153] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 234153,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 75,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 11,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 22,
+										["targets"] = {
+										},
+										["appliedamt"] = 11,
+									},
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[304627] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 304627,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 52,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[29722] = 3,
+								[116858] = 1,
+								[348] = 3,
+								[17962] = 2,
+								[5740] = 1,
+								[234153] = 2,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578650607,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 9,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3774-1718-26701-416-0602B4B52E",
+							["tipo"] = 4,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["last_event"] = 0,
+							["nome"] = "Azsh'ari Siegemistress",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[303299] = 3,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-150508-000018474B",
+							["fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Zanj'ir Myrmidon",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[303158] = 2,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-153960-00001848DE",
+							["fight_component"] = true,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["last_event"] = 0,
+							["nome"] = "Zanj'ir Trapper",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[302912] = 5,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-153962-00001848ED",
+							["fight_component"] = true,
+						}, -- [5]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 42,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 7553.913000000001,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					301786.995796, -- [1]
+					101299, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					119921, -- [1]
+					101299, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:03:28",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Azsh'ari Siegemistress",
+				["TotalElapsedCombatTime"] = 7544.196,
+				["CombatEndedAt"] = 7544.196,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:02:58",
+				["end_time"] = 7544.196,
+				["combat_id"] = 42,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578650578,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Azsh'ari Siegemistress",
+				["combat_counter"] = 65,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 146459.001928,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 101299.006545,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 7514.305,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.001928, -- [1]
+						2874, -- [2]
+						2902, -- [3]
+						2948, -- [4]
+						15136, -- [5]
+						9069, -- [6]
+						5227, -- [7]
+						9410, -- [8]
+						14434, -- [9]
+						3636, -- [10]
+						21392, -- [11]
+						1881, -- [12]
+						2831, -- [13]
+						4789, -- [14]
+						20651, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						2781, -- [19]
+						707, -- [20]
+						707, -- [21]
+						5523, -- [22]
+						707, -- [23]
+						927, -- [24]
+						5950.000000000015, -- [25]
+						1145, -- [26]
+						4328, -- [27]
+						2897, -- [28]
+						438, -- [29]
+						["max_value"] = 21392,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						2874, -- [2]
+						2902, -- [3]
+						0, -- [4]
+						15136, -- [5]
+						6120, -- [6]
+						5227, -- [7]
+						9410, -- [8]
+						11486, -- [9]
+						3636, -- [10]
+						18444, -- [11]
+						1881, -- [12]
+						2831, -- [13]
+						1840, -- [14]
+						20651, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						2781, -- [19]
+						707, -- [20]
+						707, -- [21]
+						2574, -- [22]
+						707, -- [23]
+						927, -- [24]
+						3001, -- [25]
+						1145, -- [26]
+						1379, -- [27]
+						2897, -- [28]
+						438, -- [29]
+						["max_value"] = 20651,
+					},
+				},
+				["frags"] = {
+					["Zanj'ir Myrmidon"] = 1,
+					["Azsh'ari Siegemistress"] = 1,
+					["Zanj'ir Trapper"] = 1,
+				},
+			}, -- [6]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 41,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001305,
+							["damage_from"] = {
+								["Tidemistress Ethendriss"] = true,
+							},
+							["targets"] = {
+								["Tidemistress Ethendriss"] = 246562,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 211740.001305,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 246562.001305,
+							["damage_taken"] = 178466.001305,
+							["spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 8251,
+										["g_amt"] = 0,
+										["n_max"] = 1613,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 19884,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11633,
+										["n_min"] = 1234,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 19884,
+										["c_max"] = 3263,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 1855,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 5194,
+										["g_amt"] = 0,
+										["n_max"] = 796,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 12754,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7560,
+										["n_min"] = 134,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 12754,
+										["c_max"] = 1640,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 275,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4165,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 20023,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20023,
+										["n_min"] = 3740,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 20023,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[266136] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2837,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 13477,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13477,
+										["n_min"] = 2545,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 13477,
+										["c_max"] = 0,
+										["id"] = 266136,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[255586] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 450,
+										["g_amt"] = 0,
+										["n_max"] = 218,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 1758,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1308,
+										["n_min"] = 218,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 1758,
+										["c_max"] = 450,
+										["id"] = 255586,
+										["r_dmg"] = 0,
+										["c_min"] = 450,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[116858] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 87539,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 87539,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 87539,
+										["c_max"] = 18022,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 16308,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 292,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 299,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 299,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 299,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 48,
+									},
+									[348] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 5206,
+										["g_amt"] = 0,
+										["n_max"] = 2564,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 12723,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7517,
+										["n_min"] = 2429,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 12723,
+										["c_max"] = 5206,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 5206,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 15266,
+										["g_amt"] = 0,
+										["n_max"] = 7893,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 38599,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23333,
+										["n_min"] = 7553,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 38599,
+										["c_max"] = 15266,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 15266,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[304698] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4684,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 4684,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4684,
+										["n_min"] = 4684,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4684,
+										["c_max"] = 0,
+										["id"] = 304698,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 6840.773556723976,
+							["end_time"] = 1578650560,
+							["colocacao"] = 1,
+							["last_event"] = 1578650558,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650524,
+							["serial"] = "Player-3391-0A827D4F",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 28602.005548,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 178466,
+								["Shandris Feathermoon"] = 44249,
+								["Belpad <Zearthan>"] = 2148,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 224863.005548,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1578650560,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 360526.005548,
+							["nome"] = "Tidemistress Ethendriss",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 28057,
+										["g_amt"] = 0,
+										["n_max"] = 7284,
+										["targets"] = {
+											["Zearthan"] = 59622,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31565,
+										["n_min"] = 5098,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 59622,
+										["c_max"] = 14400,
+										["c_min"] = 13657,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 47481,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 5,
+										["n_amt"] = 5,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[305011] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 22683,
+										["targets"] = {
+											["Zearthan"] = 39482,
+											["Shandris Feathermoon"] = 44249,
+											["Belpad <Zearthan>"] = 2148,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 85879,
+										["n_min"] = 890,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 85879,
+										["c_max"] = 0,
+										["id"] = 305011,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_amt"] = 2,
+										["a_dmg"] = 39482,
+									},
+									[303299] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 19924,
+										["targets"] = {
+											["Zearthan"] = 79362,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 79362,
+										["n_min"] = 12358,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 79362,
+										["c_max"] = 0,
+										["id"] = 303299,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 5,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_amt"] = 4,
+										["a_dmg"] = 65049,
+									},
+									[305010] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 305010,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 224863.005548,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650558,
+							["on_hold"] = false,
+							["start_time"] = 1578650526,
+							["serial"] = "Creature-0-3774-1718-26701-153934-0000184741",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001702,
+							["damage_from"] = {
+								["Tidemistress Ethendriss"] = true,
+							},
+							["targets"] = {
+								["Tidemistress Ethendriss"] = 34822,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 2148.001702,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 34822.001702,
+							["last_event"] = 1578650558,
+							["dps_started"] = false,
+							["total"] = 34822.001702,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 14925,
+										["g_amt"] = 0,
+										["n_max"] = 2488,
+										["targets"] = {
+											["Tidemistress Ethendriss"] = 34822,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19897,
+										["n_min"] = 2487,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 34822,
+										["c_max"] = 4975,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 4975,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578650560,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650526,
+							["serial"] = "Pet-0-3774-1718-26701-416-0502B4B52E",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 41,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Zearthan"] = 2,
+							},
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 2.00151,
+							["total_without_pet"] = 75475.00151,
+							["total"] = 75475.00151,
+							["targets_absorbs"] = {
+								["Zearthan"] = 73327,
+								["Belpad <Zearthan>"] = 2148,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 75475.00151,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 73327,
+								["Belpad <Zearthan>"] = 2148,
+							},
+							["totalover_without_pet"] = 0.00151,
+							["healing_taken"] = 73327.00151,
+							["fight_component"] = true,
+							["end_time"] = 1578650560,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 8113,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 891,
+										["targets"] = {
+											["Zearthan"] = 8113,
+										},
+										["n_min"] = 177,
+										["counter"] = 14,
+										["overheal"] = 0,
+										["total"] = 8113,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 8113,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 14,
+										["n_curado"] = 8113,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 67362,
+										["targets_overheal"] = {
+											["Zearthan"] = 2,
+										},
+										["n_max"] = 13771,
+										["targets"] = {
+											["Zearthan"] = 65214,
+											["Belpad <Zearthan>"] = 2148,
+										},
+										["n_min"] = 1258,
+										["counter"] = 18,
+										["overheal"] = 2,
+										["total"] = 67362,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 65214,
+											["Belpad <Zearthan>"] = 2148,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 18,
+										["n_curado"] = 67362,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1578650558,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.00151,
+							["start_time"] = 1578650526,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.008388,
+							["total_without_pet"] = 0.008388,
+							["total"] = 0.008388,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3774-1718-26701-416-0502B4B52E",
+							["totalabsorb"] = 0.008388,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.008388,
+							["healing_taken"] = 2148.008388,
+							["fight_component"] = true,
+							["end_time"] = 1578650560,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.008388,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1578650560,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 41,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.001838,
+							["resource"] = 3.001838,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["passiveover"] = 0.001838,
+							["fight_component"] = true,
+							["total"] = 0.001838,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["totalover"] = 0.001838,
+							["flag_original"] = 1297,
+							["tipo"] = 3,
+							["last_event"] = 1578650554,
+							["spec"] = 267,
+							["alternatepower"] = 0.001838,
+							["serial"] = "Player-3391-0A827D4F",
+							["resource_type"] = 7,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 41,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[253309] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 253309,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 265931,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 28,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 97,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 36,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 12,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 12,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 4,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 27,
+										["targets"] = {
+										},
+										["appliedamt"] = 4,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 55,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 4,
+								[348] = 3,
+								[29722] = 5,
+								[116858] = 5,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578650560,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spell_cast"] = {
+								[3110] = 11,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3774-1718-26701-416-0502B4B52E",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Tidemistress Ethendriss",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[305011] = 2,
+								[303299] = 5,
+								[305010] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-153934-0000184741",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 41,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 7513.838,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					471424.995916, -- [1]
+					75475, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					211740, -- [1]
+					75475, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:02:41",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Tidemistress Ethendriss",
+				["TotalElapsedCombatTime"] = 7496.823,
+				["CombatEndedAt"] = 7496.823,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:02:04",
+				["end_time"] = 7496.823,
+				["combat_id"] = 41,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578650524,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Tidemistress Ethendriss",
+				["combat_counter"] = 64,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 246562.001305,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 75475.00151,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 7460.466,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						10553.001305, -- [1]
+						1232, -- [2]
+						4491, -- [3]
+						22310, -- [4]
+						4975, -- [5]
+						30584, -- [6]
+						0, -- [7]
+						3282, -- [8]
+						3679, -- [9]
+						5770, -- [10]
+						20505, -- [11]
+						2675, -- [12]
+						2487, -- [13]
+						4165, -- [14]
+						1549, -- [15]
+						11847, -- [16]
+						2486.999999999985, -- [17]
+						6921, -- [18]
+						3740, -- [19]
+						4126, -- [20]
+						4059, -- [21]
+						2130, -- [22]
+						2524, -- [23]
+						2487, -- [24]
+						20859, -- [25]
+						1531, -- [26]
+						19296, -- [27]
+						2487, -- [28]
+						4773, -- [29]
+						0, -- [30]
+						23500, -- [31]
+						4128, -- [32]
+						937, -- [33]
+						5498, -- [34]
+						4975, -- [35]
+						0, -- [36]
+						["max_value"] = 30584,
+					},
+					["Raid Damage Done"] = {
+						10553, -- [1]
+						1232, -- [2]
+						2003, -- [3]
+						22310, -- [4]
+						0, -- [5]
+						30584, -- [6]
+						0, -- [7]
+						795, -- [8]
+						3679, -- [9]
+						795, -- [10]
+						20505, -- [11]
+						2675, -- [12]
+						0, -- [13]
+						4165, -- [14]
+						1549, -- [15]
+						11847, -- [16]
+						0, -- [17]
+						6921, -- [18]
+						3740, -- [19]
+						1639, -- [20]
+						4059, -- [21]
+						2130, -- [22]
+						2524, -- [23]
+						0, -- [24]
+						20859, -- [25]
+						1531, -- [26]
+						19296, -- [27]
+						0, -- [28]
+						4773, -- [29]
+						0, -- [30]
+						21013, -- [31]
+						4128, -- [32]
+						937, -- [33]
+						5498, -- [34]
+						0, -- [35]
+						0, -- [36]
+						["max_value"] = 30584,
+					},
+				},
+				["frags"] = {
+					["Tidemistress Ethendriss"] = 1,
+				},
+			}, -- [7]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 40,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 25054.006269,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Infernal <Zearthan>"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 31595,
+								["Infernal <Zearthan>"] = 26266,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["end_time"] = 1578650513,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 57861.00626900001,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 57861.00626900001,
+							["dps_started"] = false,
+							["damage_taken"] = 90739.006269,
+							["nome"] = "Zanj'ir Myrmidon",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7368,
+										["targets"] = {
+											["Zearthan"] = 20299,
+											["Infernal <Zearthan>"] = 17421,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 37720,
+										["n_min"] = 5229,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 37720,
+										["c_max"] = 0,
+										["c_min"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[303158] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11296,
+										["targets"] = {
+											["Zearthan"] = 11296,
+											["Infernal <Zearthan>"] = 8845,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20141,
+										["n_min"] = 8845,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 20141,
+										["c_max"] = 0,
+										["id"] = 303158,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650506,
+							["on_hold"] = false,
+							["start_time"] = 1578650489,
+							["serial"] = "Creature-0-3774-1718-26701-153960-0000184886",
+							["fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008409,
+							["damage_from"] = {
+								["Zanj'ir Myrmidon"] = true,
+								["Zanj'ir Trapper"] = true,
+							},
+							["targets"] = {
+								["Zanj'ir Myrmidon"] = 64053,
+								["Zanj'ir Trapper"] = 69446,
+								["Azsh'ari Siegemistress"] = 37030,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+								"Infernal <Zearthan>", -- [2]
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650511,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 99611.008409,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1578650513,
+							["damage_taken"] = 45816.008409,
+							["spec"] = 267,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1063,
+										["g_amt"] = 0,
+										["n_max"] = 1585,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 10214,
+											["Azsh'ari Siegemistress"] = 384,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9535,
+										["n_min"] = 384,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 10598,
+										["c_max"] = 1063,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 1063,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[22703] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3392,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 3391,
+											["Zanj'ir Trapper"] = 3392,
+											["Azsh'ari Siegemistress"] = 3392,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10175,
+										["n_min"] = 3391,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 10175,
+										["c_max"] = 0,
+										["id"] = 22703,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 199,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 398,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 398,
+										["n_min"] = 199,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 398,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[255586] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 55,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 381,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 381,
+										["n_min"] = 54,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 381,
+										["c_max"] = 0,
+										["id"] = 255586,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2008,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 2008,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2008,
+										["n_min"] = 2008,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2008,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[42223] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 7141,
+										["g_amt"] = 0,
+										["n_max"] = 875,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 9888,
+											["Azsh'ari Siegemistress"] = 5372,
+											["Zanj'ir Trapper"] = 14954,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23073,
+										["n_min"] = 196,
+										["g_dmg"] = 0,
+										["counter"] = 42,
+										["total"] = 30214,
+										["c_max"] = 1719,
+										["id"] = 42223,
+										["r_dmg"] = 0,
+										["c_min"] = 399,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 37,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[116858] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4429,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 4429,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4429,
+										["c_max"] = 4429,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 4429,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 218,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 363,
+											["Zanj'ir Trapper"] = 1695,
+											["Zanj'ir Myrmidon"] = 1187,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3245,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 54,
+										["total"] = 3245,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 54,
+										["a_dmg"] = 0,
+										["spellschool"] = 48,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2497,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 2497,
+											["Azsh'ari Siegemistress"] = 581,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3078,
+										["n_min"] = 581,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3078,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[266136] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 676,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 676,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 676,
+										["n_min"] = 676,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 676,
+										["c_max"] = 0,
+										["id"] = 266136,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3974,
+										["g_amt"] = 0,
+										["n_max"] = 3970,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 6000,
+											["Zanj'ir Myrmidon"] = 19074,
+											["Zanj'ir Trapper"] = 9335,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 30435,
+										["n_min"] = 400,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 34409,
+										["c_max"] = 3177,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 797,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_dps"] = 7327.962202268717,
+							["classe"] = "WARLOCK",
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650490,
+							["serial"] = "Player-3391-0A827D4F",
+							["total"] = 170529.008409,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 21609.008908,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+								["Infernal <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 14221,
+								["Shandris Feathermoon"] = 19594,
+								["Infernal <Zearthan>"] = 17883,
+								["Belpad <Zearthan>"] = 7388,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["end_time"] = 1578650513,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 59086.008908,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 59086.008908,
+							["dps_started"] = false,
+							["damage_taken"] = 89173.008908,
+							["nome"] = "Zanj'ir Trapper",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7808,
+										["targets"] = {
+											["Zearthan"] = 14221,
+											["Shandris Feathermoon"] = 19594,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 33815,
+										["n_min"] = 6133,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 33815,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[302912] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7388,
+										["targets"] = {
+											["Zearthan"] = 0,
+											["Belpad <Zearthan>"] = 7388,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7388,
+										["n_min"] = 7388,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 7388,
+										["c_max"] = 0,
+										["id"] = 302912,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["MISS"] = 1,
+									},
+									[302943] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17883,
+										["targets"] = {
+											["Infernal <Zearthan>"] = 17883,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17883,
+										["n_min"] = 17883,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 17883,
+										["c_max"] = 0,
+										["id"] = 302943,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650508,
+							["on_hold"] = false,
+							["start_time"] = 1578650492,
+							["serial"] = "Creature-0-3774-1718-26701-153962-0000184823",
+							["fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.007477,
+							["damage_from"] = {
+								["Azsh'ari Siegemistress"] = true,
+								["Zanj'ir Trapper"] = true,
+							},
+							["targets"] = {
+								["Zanj'ir Myrmidon"] = 7463,
+								["Zanj'ir Trapper"] = 7462,
+								["Azsh'ari Siegemistress"] = 622,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 44773.007477,
+							["classe"] = "PET",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 15547.007477,
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1578650513,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2488,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 7463,
+											["Zanj'ir Trapper"] = 7462,
+											["Azsh'ari Siegemistress"] = 622,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 15547,
+										["n_min"] = 622,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 15547,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1578650509,
+							["on_hold"] = false,
+							["start_time"] = 1578650492,
+							["serial"] = "Pet-0-3774-1718-26701-416-0402B4B52E",
+							["total"] = 15547.007477,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.008621,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Infernal <Zearthan>"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Belpad <Zearthan>"] = 37385,
+								["Shandris Feathermoon"] = 56200,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["end_time"] = 1578650513,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 93585.008621,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 93585.008621,
+							["dps_started"] = false,
+							["damage_taken"] = 73176.008621,
+							["nome"] = "Azsh'ari Siegemistress",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 20036,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Belpad <Zearthan>"] = 9989,
+											["Shandris Feathermoon"] = 10047,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 20036,
+										["c_max"] = 10047,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 9989,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 9989,
+										["spellschool"] = 1,
+									}, -- [1]
+									[303299] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15839,
+										["targets"] = {
+											["Belpad <Zearthan>"] = 27396,
+											["Shandris Feathermoon"] = 46153,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 73549,
+										["n_min"] = 12194,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 73549,
+										["c_max"] = 0,
+										["id"] = 303299,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 5,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_amt"] = 2,
+										["a_dmg"] = 27396,
+									},
+									[303301] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 303301,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650512,
+							["on_hold"] = false,
+							["start_time"] = 1578650492,
+							["serial"] = "Creature-0-3774-1718-26701-150508-000018488A",
+							["fight_component"] = true,
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.001139,
+							["damage_from"] = {
+								["Zanj'ir Myrmidon"] = true,
+								["Zanj'ir Trapper"] = true,
+							},
+							["targets"] = {
+								["Zanj'ir Trapper"] = 19897,
+								["Zanj'ir Myrmidon"] = 23050,
+								["Azsh'ari Siegemistress"] = 12424,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 44149.001139,
+							["classe"] = "PET",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 55371.001139,
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1578650513,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Infernal <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 617,
+										["g_amt"] = 0,
+										["n_max"] = 1162,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 8128,
+											["Azsh'ari Siegemistress"] = 1233,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8744,
+										["n_min"] = 308,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 9361,
+										["c_max"] = 617,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 617,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[20153] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4975,
+										["g_amt"] = 0,
+										["n_max"] = 2487,
+										["targets"] = {
+											["Zanj'ir Myrmidon"] = 14922,
+											["Zanj'ir Trapper"] = 19897,
+											["Azsh'ari Siegemistress"] = 11191,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 41035,
+										["n_min"] = 621,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 46010,
+										["c_max"] = 4975,
+										["id"] = 20153,
+										["r_dmg"] = 0,
+										["c_min"] = 4975,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 21,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1578650511,
+							["on_hold"] = false,
+							["start_time"] = 1578650494,
+							["serial"] = "Creature-0-3774-1718-26701-89-0000184B7D",
+							["total"] = 55371.001139,
+						}, -- [6]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 40,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.003241,
+							["total_without_pet"] = 62764.003241,
+							["total"] = 62764.003241,
+							["targets_absorbs"] = {
+								["Zearthan"] = 45816,
+								["Belpad <Zearthan>"] = 16948,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 62764.003241,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 45816,
+								["Belpad <Zearthan>"] = 16948,
+							},
+							["totalover_without_pet"] = 0.003241,
+							["healing_taken"] = 45816.003241,
+							["fight_component"] = true,
+							["end_time"] = 1578650513,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2614,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 682,
+										["targets"] = {
+											["Zearthan"] = 2614,
+										},
+										["n_min"] = 275,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 2614,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 2614,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 2614,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 60150,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 10614,
+										["targets"] = {
+											["Zearthan"] = 43202,
+											["Belpad <Zearthan>"] = 16948,
+										},
+										["n_min"] = 2504,
+										["counter"] = 10,
+										["overheal"] = 0,
+										["total"] = 60150,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 43202,
+											["Belpad <Zearthan>"] = 16948,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 10,
+										["n_curado"] = 60150,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1578650508,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.003241,
+							["start_time"] = 1578650489,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.007737,
+							["total_without_pet"] = 0.007737,
+							["total"] = 0.007737,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3774-1718-26701-416-0402B4B52E",
+							["totalabsorb"] = 0.007737,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.007737,
+							["healing_taken"] = 16948.007737,
+							["fight_component"] = true,
+							["end_time"] = 1578650513,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.007737,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1578650513,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 40,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.006502,
+							["resource"] = 1.006502,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["passiveover"] = 0.006502,
+							["fight_component"] = true,
+							["total"] = 0.006502,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["totalover"] = 0.006502,
+							["flag_original"] = 1297,
+							["tipo"] = 3,
+							["last_event"] = 1578650497,
+							["spec"] = 267,
+							["alternatepower"] = 0.006502,
+							["serial"] = "Player-3391-0A827D4F",
+							["resource_type"] = 7,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 40,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[22703] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 22703,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 22,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[253309] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 253309,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 65,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 32,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[29722] = 6,
+								[116858] = 1,
+								[348] = 2,
+								[1122] = 1,
+								[5740] = 2,
+								[17962] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578650513,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+								"Infernal <Zearthan>", -- [2]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Zanj'ir Trapper",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[302912] = 2,
+								[302943] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-153962-0000184823",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spell_cast"] = {
+								[3110] = 7,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3774-1718-26701-416-0402B4B52E",
+							["fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["last_event"] = 0,
+							["nome"] = "Azsh'ari Siegemistress",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[303299] = 5,
+								[303301] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-150508-000018488A",
+							["fight_component"] = true,
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Infernal <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[19483] = 1,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3774-1718-26701-89-0000184B7D",
+							["tipo"] = 4,
+						}, -- [5]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Zanj'ir Myrmidon",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[303158] = 2,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-153960-0000184886",
+							["fight_component"] = true,
+						}, -- [6]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 40,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 7460.466,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					381060.998389, -- [1]
+					62764, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					99611, -- [1]
+					62764, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:01:54",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Zanj'ir Myrmidon",
+				["TotalElapsedCombatTime"] = 7450.237,
+				["CombatEndedAt"] = 7450.237,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:01:30",
+				["end_time"] = 7450.237,
+				["combat_id"] = 40,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578650489,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Zanj'ir Myrmidon",
+				["combat_counter"] = 63,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 170529.008409,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 62764.003241,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 7425.839,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						2497.008409, -- [1]
+						0, -- [2]
+						0, -- [3]
+						14168, -- [4]
+						1162, -- [5]
+						2488, -- [6]
+						17218, -- [7]
+						0, -- [8]
+						18536, -- [9]
+						4293, -- [10]
+						17100, -- [11]
+						10982, -- [12]
+						12161, -- [13]
+						11158, -- [14]
+						12365, -- [15]
+						4260, -- [16]
+						20564, -- [17]
+						2626, -- [18]
+						8104, -- [19]
+						2591, -- [20]
+						1638, -- [21]
+						1006, -- [22]
+						5612, -- [23]
+						0, -- [24]
+						["max_value"] = 20564,
+					},
+					["Raid Damage Done"] = {
+						2497, -- [1]
+						0, -- [2]
+						0, -- [3]
+						11681, -- [4]
+						0, -- [5]
+						0, -- [6]
+						8596, -- [7]
+						0, -- [8]
+						7427, -- [9]
+						4293, -- [10]
+						5991, -- [11]
+						10982, -- [12]
+						2917, -- [13]
+						11158, -- [14]
+						5608, -- [15]
+						4260, -- [16]
+						8831, -- [17]
+						2626, -- [18]
+						4687, -- [19]
+						1969, -- [20]
+						400, -- [21]
+						384, -- [22]
+						5304, -- [23]
+						0, -- [24]
+						["max_value"] = 11681,
+					},
+				},
+				["frags"] = {
+					["Zanj'ir Trapper"] = 1,
+					["Zanj'ir Myrmidon"] = 1,
+					["Azsh'ari Siegemistress"] = 1,
+				},
+			}, -- [8]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006196,
+							["damage_from"] = {
+								["Azsh'ari Siegemistress"] = true,
+							},
+							["targets"] = {
+								["Azsh'ari Siegemistress"] = 50144,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 40195.006196,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 50144.006196,
+							["damage_taken"] = 20465.006196,
+							["spells"] = {
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7977,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 15389,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 15389,
+										["n_min"] = 7412,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 15389,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2348,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 2348,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2348,
+										["n_min"] = 2348,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2348,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[157736] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1611,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 3120,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3120,
+										["n_min"] = 1509,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3120,
+										["c_max"] = 0,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8048,
+										["g_amt"] = 0,
+										["n_max"] = 4028,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 15946,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7898,
+										["n_min"] = 3870,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 15946,
+										["c_max"] = 8048,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 8048,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 796,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 2520,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2520,
+										["n_min"] = 133,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2520,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[255586] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 218,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 872,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 872,
+										["n_min"] = 218,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 872,
+										["c_max"] = 0,
+										["id"] = 255586,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 6168.533177020616,
+							["end_time"] = 1578650479,
+							["colocacao"] = 1,
+							["last_event"] = 1578650478,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650471,
+							["serial"] = "Player-3391-0A827D4F",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 20465.001535,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 20465,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 20465.001535,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1578650479,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 74881.001535,
+							["nome"] = "Azsh'ari Siegemistress",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6004,
+										["targets"] = {
+											["Zearthan"] = 6004,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6004,
+										["n_min"] = 6004,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 6004,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[303299] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14461,
+										["targets"] = {
+											["Zearthan"] = 14461,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14461,
+										["n_min"] = 14461,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 14461,
+										["c_max"] = 0,
+										["id"] = 303299,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 20465.001535,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650475,
+							["on_hold"] = false,
+							["start_time"] = 1578650473,
+							["serial"] = "Creature-0-3774-1718-26701-150508-000018480B",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001792,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Azsh'ari Siegemistress"] = 9949,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.001792,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9949.001792,
+							["last_event"] = 1578650478,
+							["dps_started"] = false,
+							["total"] = 9949.001792,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4975,
+										["g_amt"] = 0,
+										["n_max"] = 2487,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 9949,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4974,
+										["n_min"] = 2487,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 9949,
+										["c_max"] = 4975,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 4975,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578650479,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650473,
+							["serial"] = "Pet-0-3774-1718-26701-416-0302B4B52E",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["totalover"] = 0.001239,
+							["total_without_pet"] = 20465.001239,
+							["total"] = 20465.001239,
+							["targets_absorbs"] = {
+								["Zearthan"] = 20465,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 20465.001239,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 20465,
+							},
+							["totalover_without_pet"] = 0.001239,
+							["healing_taken"] = 20465.001239,
+							["fight_component"] = true,
+							["end_time"] = 1578650479,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1107,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 878,
+										["targets"] = {
+											["Zearthan"] = 1107,
+										},
+										["n_min"] = 229,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 1107,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 1107,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 1107,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 19358,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 13583,
+										["targets"] = {
+											["Zearthan"] = 19358,
+										},
+										["n_min"] = 5775,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 19358,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 19358,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 19358,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1578650475,
+							["totaldenied"] = 0.001239,
+							["start_time"] = 1578650473,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[253309] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 253309,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[157736] = {
+										["activedamt"] = -1,
+										["id"] = 157736,
+										["targets"] = {
+										},
+										["actived_at"] = 1578650478,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 22,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 8,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 2,
+								[29722] = 3,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578650479,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 3,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3774-1718-26701-416-0302B4B52E",
+							["tipo"] = 4,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Azsh'ari Siegemistress",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[303299] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-150508-000018480B",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 7424.644,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					70608.993056, -- [1]
+					20465, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					40195, -- [1]
+					20465, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:01:20",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Azsh'ari Siegemistress",
+				["TotalElapsedCombatTime"] = 8.128999999999905,
+				["CombatEndedAt"] = 7415.743,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:01:12",
+				["end_time"] = 7415.743,
+				["combat_id"] = 39,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578650471,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Azsh'ari Siegemistress",
+				["combat_counter"] = 62,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 50144.006196,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 20465.001239,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 7407.614000000001,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						10325.006196, -- [1]
+						795, -- [2]
+						3996, -- [3]
+						4666.000000000002, -- [4]
+						8048, -- [5]
+						5245, -- [6]
+						11876, -- [7]
+						5193, -- [8]
+						["max_value"] = 11876,
+					},
+					["Raid Damage Done"] = {
+						10325, -- [1]
+						795, -- [2]
+						1509, -- [3]
+						4666, -- [4]
+						8048, -- [5]
+						2758, -- [6]
+						11876, -- [7]
+						218, -- [8]
+						["max_value"] = 11876,
+					},
+				},
+				["frags"] = {
+					["Azsh'ari Siegemistress"] = 1,
+				},
+			}, -- [9]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 38,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003221,
+							["damage_from"] = {
+								["Azsh'ari Siegemistress"] = true,
+							},
+							["targets"] = {
+								["Azsh'ari Siegemistress"] = 94405,
+								["Abyssal Slitherling"] = 1532,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 83502.00322099999,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 95937.00322099999,
+							["damage_taken"] = 23363.003221,
+							["spells"] = {
+								["_ActorTable"] = {
+									[266136] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2828,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 2828,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2828,
+										["n_min"] = 2828,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2828,
+										["c_max"] = 0,
+										["id"] = 266136,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[116858] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 34207,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 34207,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 34207,
+										["c_max"] = 17762,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["c_min"] = 16445,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2495,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 4944,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4944,
+										["n_min"] = 2449,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4944,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3150,
+										["g_amt"] = 0,
+										["n_max"] = 1607,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 7839,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4689,
+										["n_min"] = 1511,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 7839,
+										["c_max"] = 3150,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 3150,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[304698] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 9650,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 9650,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 9650,
+										["c_max"] = 9650,
+										["id"] = 304698,
+										["r_dmg"] = 0,
+										["c_min"] = 9650,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7920,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 15323,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 15323,
+										["n_min"] = 7403,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 15323,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[265931] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1640,
+										["g_amt"] = 0,
+										["n_max"] = 796,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 3231,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1591,
+										["n_min"] = 795,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3231,
+										["c_max"] = 1640,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 1640,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3948,
+										["targets"] = {
+											["Abyssal Slitherling"] = 1532,
+											["Azsh'ari Siegemistress"] = 3948,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5480,
+										["n_min"] = 1532,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5480,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 5653.662750957611,
+							["end_time"] = 1578650461,
+							["colocacao"] = 1,
+							["last_event"] = 1578650461,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650444,
+							["serial"] = "Player-3391-0A827D4F",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 23363.007319,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 23363,
+								["Shandris Feathermoon"] = 39891,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 63254.007319,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1578650461,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 156026.007319,
+							["nome"] = "Azsh'ari Siegemistress",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6774,
+										["targets"] = {
+											["Zearthan"] = 11584,
+											["Shandris Feathermoon"] = 6774,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18358,
+										["n_min"] = 5060,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 18358,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[303299] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17026,
+										["targets"] = {
+											["Zearthan"] = 11779,
+											["Shandris Feathermoon"] = 33117,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 44896,
+										["n_min"] = 11779,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 44896,
+										["c_max"] = 0,
+										["id"] = 303299,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 63254.007319,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650460,
+							["on_hold"] = false,
+							["start_time"] = 1578650446,
+							["serial"] = "Creature-0-3774-1718-26701-150508-0000184826",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.006225,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Azsh'ari Siegemistress"] = 12435,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.006225,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12435.006225,
+							["last_event"] = 1578650459,
+							["dps_started"] = false,
+							["total"] = 12435.006225,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2487,
+										["targets"] = {
+											["Azsh'ari Siegemistress"] = 12435,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12435,
+										["n_min"] = 2487,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 12435,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578650461,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650447,
+							["serial"] = "Pet-0-3774-1718-26701-416-0302B4B52E",
+							["classe"] = "PET",
+						}, -- [3]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.00285,
+							["damage_from"] = {
+								["Zearthan"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00285,
+							["last_event"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.00285,
+							["delay"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Abyssal Slitherling",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 1532.00285,
+							["end_time"] = 1578650461,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650461,
+							["serial"] = "Creature-0-3774-1718-26701-154815-000018480D",
+							["dps_started"] = false,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 38,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Zearthan"] = 13008,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 13008.002463,
+							["total_without_pet"] = 23363.002463,
+							["total"] = 23363.002463,
+							["targets_absorbs"] = {
+								["Zearthan"] = 23363,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 23363.002463,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 23363,
+							},
+							["totalover_without_pet"] = 0.002463,
+							["healing_taken"] = 23363.002463,
+							["fight_component"] = true,
+							["end_time"] = 1578650461,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 22104,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 11179,
+										["targets"] = {
+											["Zearthan"] = 22104,
+										},
+										["n_min"] = 4727,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 22104,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 22104,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 22104,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1259,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 600,
+										["targets"] = {
+											["Zearthan"] = 1259,
+										},
+										["n_min"] = 326,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 1259,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 1259,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 1259,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[304627] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Zearthan"] = 13008,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Zearthan"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 5,
+										["overheal"] = 13008,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 304627,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 5,
+										["n_curado"] = 0,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1578650456,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002463,
+							["start_time"] = 1578650446,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 38,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 38,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 55,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 17,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 17,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[304627] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 304627,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 17,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[116858] = 3,
+								[348] = 1,
+								[29722] = 1,
+								[17962] = 2,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578650461,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[3110] = 6,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3774-1718-26701-416-0302B4B52E",
+							["tipo"] = 4,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Azsh'ari Siegemistress",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[303299] = 3,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-150508-0000184826",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 38,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["CombatStartedAt"] = 7380.919,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					159190.993608, -- [1]
+					23363, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					83502, -- [1]
+					23363, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:01:02",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Azsh'ari Siegemistress",
+				["TotalElapsedCombatTime"] = 16.96900000000005,
+				["CombatEndedAt"] = 7397.888,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:00:45",
+				["end_time"] = 7397.888,
+				["combat_id"] = 38,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1578650444,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Azsh'ari Siegemistress",
+				["combat_counter"] = 61,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 95937.00322099999,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 23363.002463,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 7380.919,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						2495.003221, -- [1]
+						0, -- [2]
+						4094, -- [3]
+						0, -- [4]
+						39330, -- [5]
+						1511, -- [6]
+						796, -- [7]
+						20248.99999999999, -- [8]
+						0, -- [9]
+						2449, -- [10]
+						0, -- [11]
+						5480, -- [12]
+						4058, -- [13]
+						7403, -- [14]
+						4127, -- [15]
+						3150, -- [16]
+						["max_value"] = 39330,
+					},
+					["Raid Damage Done"] = {
+						2495, -- [1]
+						0, -- [2]
+						1607, -- [3]
+						0, -- [4]
+						36843, -- [5]
+						1511, -- [6]
+						796, -- [7]
+						17762, -- [8]
+						0, -- [9]
+						2449, -- [10]
+						0, -- [11]
+						5480, -- [12]
+						1571, -- [13]
+						7403, -- [14]
+						1640, -- [15]
+						3150, -- [16]
+						["max_value"] = 36843,
+					},
+				},
+				["frags"] = {
+					["Azsh'ari Siegemistress"] = 2,
+					["Abyssal Slitherling"] = 1,
+				},
+			}, -- [10]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 37,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002072,
+							["damage_from"] = {
+								["Zanj'ir Trapper"] = true,
+							},
+							["targets"] = {
+								["Zanj'ir Trapper"] = 49007,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 39059.002072,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1578650435,
+							["damage_taken"] = 21154.002072,
+							["spells"] = {
+								["_ActorTable"] = {
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8075,
+										["g_amt"] = 0,
+										["n_max"] = 3953,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 19503,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11428,
+										["n_min"] = 3681,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 19503,
+										["c_max"] = 8075,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["c_min"] = 8075,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2446,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 2446,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2446,
+										["n_min"] = 2446,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2446,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[157736] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1612,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 6267,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6267,
+										["n_min"] = 1522,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 6267,
+										["c_max"] = 0,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 454,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 1945,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1945,
+										["n_min"] = 45,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 1945,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 48,
+									},
+									[265931] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 795,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 795,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 795,
+										["n_min"] = 795,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 795,
+										["c_max"] = 0,
+										["id"] = 265931,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8103,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 8103,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8103,
+										["n_min"] = 8103,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8103,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Zearthan",
+							["spec"] = 267,
+							["grupo"] = true,
+							["last_dps"] = 3449.254087274865,
+							["friendlyfire_total"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1578650434,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1578650422,
+							["serial"] = "Player-3391-0A827D4F",
+							["total"] = 49007.002072,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 13873.007304,
+							["damage_from"] = {
+								["Zearthan"] = true,
+								["Shandris Feathermoon"] = true,
+								["Belpad <Zearthan>"] = true,
+							},
+							["targets"] = {
+								["Zearthan"] = 21154,
+								["Shandris Feathermoon"] = 10906,
+								["Belpad <Zearthan>"] = 18368,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["end_time"] = 1578650435,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 50428.007304,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 50428.007304,
+							["dps_started"] = false,
+							["damage_taken"] = 91654.007304,
+							["nome"] = "Zanj'ir Trapper",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7812,
+										["targets"] = {
+											["Zearthan"] = 21154,
+											["Shandris Feathermoon"] = 10906,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 32060,
+										["n_min"] = 5182,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 32060,
+										["c_max"] = 0,
+										["c_min"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
+									}, -- [1]
+									[302943] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 18368,
+										["targets"] = {
+											["Belpad <Zearthan>"] = 18368,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18368,
+										["n_min"] = 18368,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 18368,
+										["c_max"] = 0,
+										["id"] = 302943,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["r_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 1,
+										["a_dmg"] = 18368,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1578650433,
+							["on_hold"] = false,
+							["start_time"] = 1578650421,
+							["serial"] = "Creature-0-3774-1718-26701-153962-0000184848",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.004521,
+							["damage_from"] = {
+								["Zanj'ir Trapper"] = true,
+							},
+							["targets"] = {
+								["Zanj'ir Trapper"] = 9948,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 18368.004521,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9948.004520999999,
+							["last_event"] = 1578650433,
+							["dps_started"] = false,
+							["total"] = 9948.004520999999,
+							["delay"] = 0,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2487,
+										["targets"] = {
+											["Zanj'ir Trapper"] = 9948,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9948,
+										["n_min"] = 2487,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 9948,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1578650435,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1578650424,
+							["serial"] = "Pet-0-3774-1718-26701-416-0202B4B52E",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 37,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["totalover"] = 0.008253,
+							["total_without_pet"] = 30377.008253,
+							["total"] = 30377.008253,
+							["targets_absorbs"] = {
+								["Zearthan"] = 21154,
+								["Belpad <Zearthan>"] = 9223,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0A827D4F",
+							["totalabsorb"] = 30377.008253,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Zearthan"] = 21154,
+								["Belpad <Zearthan>"] = 9223,
+							},
+							["totalover_without_pet"] = 0.008253,
+							["healing_taken"] = 21154.008253,
+							["fight_component"] = true,
+							["end_time"] = 1578650435,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Zearthan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[77220] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1064,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 460,
+										["targets"] = {
+											["Zearthan"] = 1064,
+										},
+										["n_min"] = 228,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 1064,
+										["c_max"] = 0,
+										["id"] = 77220,
+										["targets_absorbs"] = {
+											["Zearthan"] = 1064,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 1064,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 29313,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 9223,
+										["targets"] = {
+											["Zearthan"] = 20090,
+											["Belpad <Zearthan>"] = 9223,
+										},
+										["n_min"] = 5833,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 29313,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Zearthan"] = 20090,
+											["Belpad <Zearthan>"] = 9223,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 4,
+										["n_curado"] = 29313,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1578650433,
+							["totaldenied"] = 0.008253,
+							["start_time"] = 1578650421,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.00281,
+							["total_without_pet"] = 0.00281,
+							["total"] = 0.00281,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3774-1718-26701-416-0202B4B52E",
+							["totalabsorb"] = 0.00281,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00281,
+							["healing_taken"] = 9223.00281,
+							["fight_component"] = true,
+							["end_time"] = 1578650435,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.00281,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1578650435,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 37,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 37,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[157736] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 157736,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[265931] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 265931,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 45,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[232412] = {
+										["activedamt"] = 1,
+										["id"] = 232412,
+										["targets"] = {
+										},
+										["actived_at"] = 1578650421,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[304627] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 304627,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 14,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[348] = 1,
+								[29722] = 4,
+								[17962] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1578650435,
+							["nome"] = "Zearthan",
+							["pets"] = {
+								"Belpad <Zearthan>", -- [1]
+							},
+							["serial"] = "Player-3391-0A827D4F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zearthan",
+							["nome"] = "Belpad <Zearthan>",
+							["spell_cast"] = {
+								[3110] = 4,
+								[89792] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3774-1718-26701-416-0202B4B52E",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Zanj'ir Trapper",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[302943] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3774-1718-26701-153962-0000184848",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 37,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zearthan"] = true,
+				},
+				["tempo_start"] = 1578650421,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					99434.992208, -- [1]
+					30377, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					39059, -- [1]
+					30377, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "11:00:36",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Zanj'ir Trapper",
+				["TotalElapsedCombatTime"] = 7371.549,
+				["CombatEndedAt"] = 7371.549,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "11:00:21",
+				["end_time"] = 7371.549,
+				["combat_id"] = 37,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 49007.002072,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 30377.008253,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["Zanj'ir Trapper"] = 1,
+				},
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.002072, -- [1]
+						2446, -- [2]
+						0, -- [3]
+						2487, -- [4]
+						10161, -- [5]
+						0, -- [6]
+						2487, -- [7]
+						5851, -- [8]
+						2487, -- [9]
+						3887, -- [10]
+						1702, -- [11]
+						12564, -- [12]
+						4095, -- [13]
+						840, -- [14]
+						["max_value"] = 12564,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						2446, -- [2]
+						0, -- [3]
+						0, -- [4]
+						10161, -- [5]
+						0, -- [6]
+						0, -- [7]
+						5851, -- [8]
+						0, -- [9]
+						3887, -- [10]
+						1702, -- [11]
+						12564, -- [12]
+						1608, -- [13]
+						840, -- [14]
+						["max_value"] = 12564,
+					},
+				},
+				["combat_counter"] = 60,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 7357.341,
+				["contra"] = "Zanj'ir Trapper",
+				["spells_cast_timeline"] = {
+				},
+			}, -- [11]
+			{
+				{
+					["tipo"] = 2,
 					["combatId"] = 36,
 					["_ActorTable"] = {
 						{
@@ -29,7 +10744,7 @@ _detalhes_database = {
 								"Infernal <Zearthan>", -- [2]
 							},
 							["custom"] = 0,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 2475.284010061115,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
@@ -125,23 +10840,23 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
-									[29722] = {
+									[266136] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 746,
+										["n_max"] = 1200,
 										["targets"] = {
-											["Splintered Thrall"] = 746,
+											["Sister Littlefield"] = 1200,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 746,
-										["n_min"] = 746,
+										["n_dmg"] = 1200,
+										["n_min"] = 1200,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 746,
+										["total"] = 1200,
 										["c_max"] = 0,
-										["id"] = 29722,
+										["id"] = 266136,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
@@ -243,35 +10958,6 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
-									[266136] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1200,
-										["targets"] = {
-											["Sister Littlefield"] = 1200,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1200,
-										["n_min"] = 1200,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1200,
-										["c_max"] = 0,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
 									[17962] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -301,25 +10987,54 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 746,
+										["targets"] = {
+											["Splintered Thrall"] = 746,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 746,
+										["n_min"] = 746,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 746,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
 								},
 								["tipo"] = 2,
 							},
 							["dps_started"] = false,
-							["total"] = 48221.0078,
+							["end_time"] = 1576798714,
 							["damage_taken"] = 11497.0078,
 							["tipo"] = 1,
 							["nome"] = "Zearthan",
 							["spec"] = 267,
 							["grupo"] = true,
-							["last_dps"] = 2475.284010061115,
-							["end_time"] = 1576798714,
-							["colocacao"] = 1,
-							["last_event"] = 1576798713,
+							["total"] = 48221.0078,
 							["friendlyfire"] = {
 							},
+							["colocacao"] = 1,
+							["last_event"] = 1576798713,
+							["on_hold"] = false,
 							["start_time"] = 1576798699,
 							["serial"] = "Player-3391-0A827D4F",
-							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -441,10 +11156,10 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 8315.001721,
 							["classe"] = "UNKNOW",
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 8315.001721,
 							["delay"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 18138.001721,
 							["nome"] = "Arom's Stand Commoner",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -497,8 +11212,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
@@ -525,8 +11240,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
@@ -567,6 +11282,11 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["on_hold"] = false,
+							["end_time"] = 1576798714,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["friendlyfire"] = {
 								["Zearthan"] = {
 									["total"] = 646,
@@ -575,14 +11295,9 @@ _detalhes_database = {
 									},
 								},
 							},
-							["end_time"] = 1576798714,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 18138.001721,
 							["start_time"] = 1576798694,
 							["serial"] = "Creature-0-3895-1643-25944-131368-00007C0751",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [3]
 						{
 							["flag_original"] = 2584,
@@ -603,10 +11318,10 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 6397.008539,
 							["classe"] = "UNKNOW",
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 6397.008539,
 							["delay"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 30083.008539,
 							["nome"] = "Suspicious Refugee",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -659,8 +11374,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
@@ -670,6 +11385,11 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["on_hold"] = false,
+							["end_time"] = 1576798714,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["friendlyfire"] = {
 								["Zearthan"] = {
 									["total"] = 1080,
@@ -678,14 +11398,9 @@ _detalhes_database = {
 									},
 								},
 							},
-							["end_time"] = 1576798714,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 30083.008539,
 							["start_time"] = 1576798698,
 							["serial"] = "Creature-0-3895-1643-25944-131359-00007C0750",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [4]
 						{
 							["flag_original"] = 4369,
@@ -768,18 +11483,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["nome"] = "Splintered Thrall",
+							["last_dps"] = 0,
+							["total"] = 1741.00625,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1741.00625,
 							["delay"] = 1576798715,
-							["fight_component"] = true,
-							["total"] = 1741.00625,
-							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1578650421,
+							["classe"] = "UNKNOW",
 							["damage_taken"] = 16817.00625,
-							["timeMachine"] = 1,
+							["nome"] = "Splintered Thrall",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -844,15 +11559,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["last_event"] = 1576798715,
-							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
+							["fight_component"] = true,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = true,
-							["start_time"] = 1576798713,
+							["on_hold"] = false,
+							["start_time"] = 1578650418,
 							["serial"] = "Creature-0-3895-1643-25944-131368-0000FC0751",
-							["dps_started"] = true,
+							["monster"] = true,
 						}, -- [6]
 					},
 				}, -- [1]
@@ -862,8 +11577,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -888,7 +11602,9 @@ _detalhes_database = {
 							["healing_taken"] = 11497.002707,
 							["fight_component"] = true,
 							["end_time"] = 1576798714,
-							["classe"] = "WARLOCK",
+							["healing_from"] = {
+								["Zearthan"] = true,
+							},
 							["nome"] = "Zearthan",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -956,18 +11672,17 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
-							},
 							["targets_absorbs"] = {
 								["Zearthan"] = 11497,
 								["Belpad <Zearthan>"] = 4908,
 							},
+							["classe"] = "WARLOCK",
 							["custom"] = 0,
-							["last_event"] = 1576798713,
+							["tipo"] = 2,
 							["totaldenied"] = 0.002707,
 							["start_time"] = 1576798694,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1576798713,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -977,7 +11692,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.003668,
 							["total_without_pet"] = 0.003668,
 							["total"] = 0.003668,
@@ -1010,7 +11725,7 @@ _detalhes_database = {
 							["last_event"] = 0,
 							["start_time"] = 1576798714,
 							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [2]
@@ -1039,8 +11754,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["totalover"] = 0.002452,
 							["flag_original"] = 1297,
-							["last_event"] = 1576798706,
 							["tipo"] = 3,
+							["last_event"] = 1576798706,
 							["spec"] = 267,
 							["alternatepower"] = 0.002452,
 							["serial"] = "Player-3391-0A827D4F",
@@ -1178,8 +11893,8 @@ _detalhes_database = {
 								[1122] = 1,
 								[29722] = 1,
 							},
-							["last_event"] = 1576798714,
 							["tipo"] = 4,
+							["last_event"] = 1576798714,
 							["nome"] = "Zearthan",
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -1210,14 +11925,14 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Zearthan",
 							["nome"] = "Belpad <Zearthan>",
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[3110] = 5,
 							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["last_event"] = 0,
+							["classe"] = "PET",
 							["serial"] = "Pet-0-3895-1643-25944-416-1402B4B52E",
 							["fight_component"] = true,
 						}, -- [3]
@@ -1227,13 +11942,13 @@ _detalhes_database = {
 							["nome"] = "Infernal <Zearthan>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
 							["last_event"] = 0,
+							["serial"] = "Creature-0-3895-1643-25944-89-00007C09F2",
 							["spell_cast"] = {
 								[19483] = 1,
 							},
-							["serial"] = "Creature-0-3895-1643-25944-89-00007C09F2",
-							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -1246,6 +11961,7 @@ _detalhes_database = {
 				["raid_roster"] = {
 					["Zearthan"] = true,
 				},
+				["CombatStartedAt"] = 7356.813,
 				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
@@ -1256,7 +11972,7 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					64673.971364, -- [1]
+					64673.946771, -- [1]
 					16405, -- [2]
 					{
 						0, -- [1]
@@ -1277,6 +11993,35 @@ _detalhes_database = {
 					}, -- [4]
 					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "00:38:34",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Splintered Thrall",
+				["TotalElapsedCombatTime"] = 6738.228,
+				["CombatEndedAt"] = 6738.228,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:38:14",
+				["end_time"] = 6738.228,
+				["combat_id"] = 36,
+				["spells_cast_timeline"] = {
+				},
+				["frags"] = {
+					["Splintered Thrall"] = 2,
+					["Sister Littlefield"] = 1,
+				},
+				["tempo_start"] = 1576798694,
+				["combat_counter"] = 55,
+				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
 					32737, -- [1]
@@ -1299,53 +12044,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:38:34",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Splintered Thrall",
-				["TotalElapsedCombatTime"] = 6738.228,
-				["CombatEndedAt"] = 6738.228,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 48221.0078,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 16405.002707,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 6738.228,
-				["combat_id"] = 36,
-				["spells_cast_timeline"] = {
-				},
-				["frags"] = {
-					["Splintered Thrall"] = 2,
-					["Sister Littlefield"] = 1,
-				},
-				["data_inicio"] = "00:38:14",
-				["tempo_start"] = 1576798694,
-				["CombatSkillCache"] = {
-				},
-				["combat_counter"] = 55,
 				["start_time"] = 6718.747,
 				["TimeData"] = {
 					["Player Damage Done"] = {
@@ -1393,9 +12091,27 @@ _detalhes_database = {
 						["max_value"] = 11491,
 					},
 				},
-				["player_last_events"] = {
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zearthan"] = 48221.0078,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zearthan"] = 16405.002707,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
 				},
-			}, -- [1]
+			}, -- [12]
 			{
 				{
 					["tipo"] = 2,
@@ -1416,8 +12132,8 @@ _detalhes_database = {
 								"Infernal <Zearthan>", -- [1]
 							},
 							["custom"] = 0,
-							["friendlyfire_total"] = 0,
 							["classe"] = "WARLOCK",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002995,
@@ -1437,11 +12153,11 @@ _detalhes_database = {
 							["end_time"] = 1576798530,
 							["colocacao"] = 1,
 							["last_event"] = 1576798530,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1576798530,
 							["serial"] = "Player-3391-0A827D4F",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1456,16 +12172,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1576798694,
-							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["total"] = 2535.001864,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2535.001864,
 							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 2535.001864,
 							["monster"] = true,
+							["end_time"] = 1576798694,
+							["dps_started"] = false,
 							["damage_taken"] = 19669.001864,
 							["nome"] = "Unmasked Witch",
 							["spells"] = {
@@ -1512,7 +12228,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1576798529,
 							["serial"] = "Creature-0-3895-1643-25944-129575-00007C0283",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
@@ -1588,8 +12304,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -1614,7 +12329,7 @@ _detalhes_database = {
 							["healing_taken"] = 878.007911,
 							["fight_component"] = true,
 							["end_time"] = 1576798530,
-							["spec"] = 267,
+							["heal_enemy_amt"] = 0,
 							["nome"] = "Zearthan",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1680,15 +12395,16 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Zearthan"] = true,
 							},
-							["last_event"] = 1576798529,
+							["spec"] = 267,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007911,
 							["start_time"] = 1576798529,
 							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
+							["last_event"] = 1576798529,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -1710,10 +12426,10 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["pets"] = {
 							},
-							["classe"] = "WARLOCK",
+							["last_event"] = 1576798530,
 							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1576798530,
+							["tipo"] = 4,
 							["buff_uptime"] = 2,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -1743,7 +12459,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3391-0A827D4F",
-							["tipo"] = 4,
+							["classe"] = "WARLOCK",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1823,6 +12539,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "00:35:29",
+				["end_time"] = 6554.514,
+				["combat_id"] = 35,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -1843,9 +12562,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 6554.514,
-				["combat_id"] = 35,
-				["data_inicio"] = "00:35:29",
 				["tempo_start"] = 1576798529,
 				["spells_cast_timeline"] = {
 				},
@@ -1945,7 +12661,7 @@ _detalhes_database = {
 				["frags"] = {
 					["Unmasked Witch"] = 1,
 				},
-			}, -- [2]
+			}, -- [13]
 			{
 				{
 					["tipo"] = 2,
@@ -1968,8 +12684,8 @@ _detalhes_database = {
 								"Belpad <Zearthan>", -- [2]
 							},
 							["custom"] = 0,
-							["friendlyfire_total"] = 0,
 							["classe"] = "WARLOCK",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 33062.006119,
@@ -2105,11 +12821,11 @@ _detalhes_database = {
 							["end_time"] = 1576798518,
 							["colocacao"] = 1,
 							["last_event"] = 1576798517,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1576798505,
 							["serial"] = "Player-3391-0A827D4F",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68120,
@@ -2131,10 +12847,10 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 36734.005135,
 							["classe"] = "UNKNOW",
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 36734.005135,
 							["delay"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 38013.005135,
 							["nome"] = "Corlain Refugee",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2189,8 +12905,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 8,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
@@ -2218,8 +12934,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 17,
@@ -2229,6 +12945,11 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["on_hold"] = false,
+							["end_time"] = 1576798518,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["friendlyfire"] = {
 								["Zearthan"] = {
 									["total"] = 1787,
@@ -2237,14 +12958,9 @@ _detalhes_database = {
 									},
 								},
 							},
-							["end_time"] = 1576798518,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 38013.005135,
 							["start_time"] = 1576798488,
 							["serial"] = "Creature-0-3895-1643-25944-129641-00007C0560",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -2261,16 +12977,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
 							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 18848.001983,
 							["delay"] = 1576798486,
-							["fight_component"] = true,
-							["total"] = 18848.001983,
+							["dps_started"] = false,
 							["end_time"] = 1576798529,
+							["total"] = 18848.001983,
 							["damage_taken"] = 71922.001983,
 							["nome"] = "Unmasked Witch",
 							["spells"] = {
@@ -2297,8 +13013,8 @@ _detalhes_database = {
 										["a_dmg"] = 2864,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 2019,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 2,
 										["n_amt"] = 3,
@@ -2325,8 +13041,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 4,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
@@ -2354,8 +13070,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
@@ -2374,7 +13090,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1576798495,
 							["serial"] = "Creature-0-3895-1643-25944-129575-00007C0526",
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
@@ -2548,16 +13264,16 @@ _detalhes_database = {
 							},
 							["delay"] = 1576798518,
 							["spellicon"] = 252272,
-							["dps_started"] = false,
+							["on_hold"] = false,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4424.007292,
-							["end_time"] = 1576798529,
 							["fight_component"] = true,
-							["total"] = 4424.007292,
+							["monster"] = true,
+							["end_time"] = 1576798529,
 							["last_dps"] = 0,
 							["tipo"] = 1,
 							["nome"] = "[*] Runic Mark",
@@ -2595,16 +13311,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["friendlyfire_total"] = 0,
+							["total"] = 4424.007292,
 							["custom"] = 0,
 							["last_event"] = 1576798518,
 							["damage_taken"] = 0.007292,
 							["start_time"] = 1576798525,
 							["serial"] = "",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [1]
@@ -2614,8 +13330,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
+							["targets_overheal"] = {
+								["Zearthan"] = 1005,
 							},
 							["pets"] = {
 							},
@@ -2640,7 +13356,7 @@ _detalhes_database = {
 							["healing_taken"] = 27534.003488,
 							["fight_component"] = true,
 							["end_time"] = 1576798518,
-							["spec"] = 267,
+							["heal_enemy_amt"] = 0,
 							["nome"] = "Zearthan",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2694,12 +13410,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 3756,
 										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 3756,
+										["totaldenied"] = 0,
 										["n_amt"] = 2,
 										["n_curado"] = 2762,
-										["c_min"] = 3756,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -2735,16 +13451,16 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
-								["Zearthan"] = 1005,
+							["healing_from"] = {
+								["Zearthan"] = true,
 							},
-							["last_event"] = 1576798517,
+							["spec"] = 267,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003488,
 							["start_time"] = 1576798484,
 							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
+							["last_event"] = 1576798517,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -2839,8 +13555,8 @@ _detalhes_database = {
 								[29722] = 5,
 								[1122] = 1,
 							},
-							["last_event"] = 1576798518,
 							["tipo"] = 4,
+							["last_event"] = 1576798518,
 							["nome"] = "Zearthan",
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -2872,13 +13588,13 @@ _detalhes_database = {
 							["nome"] = "Belpad <Zearthan>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
 							["last_event"] = 0,
+							["serial"] = "Pet-0-3895-1643-25944-416-0D02B4B52E",
 							["spell_cast"] = {
 								[3110] = 5,
 							},
-							["serial"] = "Pet-0-3895-1643-25944-416-0D02B4B52E",
-							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
@@ -2886,13 +13602,13 @@ _detalhes_database = {
 							["nome"] = "Infernal <Zearthan>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
 							["last_event"] = 0,
+							["serial"] = "Creature-0-3895-1643-25944-89-00007C092D",
 							["spell_cast"] = {
 								[19483] = 1,
 							},
-							["serial"] = "Creature-0-3895-1643-25944-89-00007C092D",
-							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -2972,6 +13688,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "00:34:44",
+				["end_time"] = 6541.901,
+				["combat_id"] = 34,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2992,9 +13711,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 6541.901,
-				["combat_id"] = 34,
-				["data_inicio"] = "00:34:44",
 				["tempo_start"] = 1576798484,
 				["spells_cast_timeline"] = {
 				},
@@ -3159,7 +13875,7 @@ _detalhes_database = {
 				["frags"] = {
 					["Unmasked Witch"] = 5,
 				},
-			}, -- [3]
+			}, -- [14]
 			{
 				{
 					["tipo"] = 2,
@@ -3181,8 +13897,8 @@ _detalhes_database = {
 								"Belpad <Zearthan>", -- [1]
 							},
 							["custom"] = 0,
-							["damage_taken"] = 29452.007498,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 83907.00749799999,
@@ -3246,35 +13962,6 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
-									[266136] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1288,
-										["targets"] = {
-											["Stonebound Guardian"] = 3573,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3573,
-										["n_min"] = 1097,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 3573,
-										["c_max"] = 0,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
 									[29722] = {
 										["c_amt"] = 3,
 										["b_amt"] = 0,
@@ -3301,6 +13988,35 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[266136] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1288,
+										["targets"] = {
+											["Stonebound Guardian"] = 3573,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3573,
+										["n_min"] = 1097,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3573,
+										["c_max"] = 0,
+										["id"] = 266136,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
@@ -3333,34 +14049,34 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 124,
 									},
-									[259756] = {
-										["c_amt"] = 0,
+									[255586] = {
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 890,
 										["g_amt"] = 0,
-										["n_max"] = 389,
+										["n_max"] = 222,
 										["targets"] = {
-											["Stonebound Guardian"] = 1322,
+											["Stonebound Guardian"] = 2000,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1322,
-										["n_min"] = 15,
+										["n_dmg"] = 1110,
+										["n_min"] = 222,
 										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 1322,
-										["c_max"] = 0,
-										["id"] = 259756,
+										["counter"] = 7,
+										["total"] = 2000,
+										["c_max"] = 445,
+										["id"] = 255586,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 445,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 14,
+										["n_amt"] = 5,
 										["a_dmg"] = 0,
-										["spellschool"] = 48,
+										["spellschool"] = 8,
 									},
 									[348] = {
 										["c_amt"] = 0,
@@ -3420,41 +14136,41 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
-									[255586] = {
-										["c_amt"] = 2,
+									[259756] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 890,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 222,
+										["n_max"] = 389,
 										["targets"] = {
-											["Stonebound Guardian"] = 2000,
+											["Stonebound Guardian"] = 1322,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1110,
-										["n_min"] = 222,
+										["n_dmg"] = 1322,
+										["n_min"] = 15,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 2000,
-										["c_max"] = 445,
-										["id"] = 255586,
+										["counter"] = 14,
+										["total"] = 1322,
+										["c_max"] = 0,
+										["id"] = 259756,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 445,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 5,
+										["n_amt"] = 14,
 										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["spellschool"] = 48,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["dps_started"] = false,
 							["total"] = 97437.00749799999,
-							["on_hold"] = false,
+							["damage_taken"] = 29452.007498,
 							["tipo"] = 1,
 							["nome"] = "Zearthan",
 							["spec"] = 267,
@@ -3467,7 +14183,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1576798150,
 							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3482,16 +14198,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
 							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 27821.004081,
 							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 27821.004081,
+							["dps_started"] = false,
 							["end_time"] = 1576798184,
+							["total"] = 27821.004081,
 							["damage_taken"] = 97437.00408099999,
 							["nome"] = "Stonebound Guardian",
 							["spells"] = {
@@ -3544,8 +14260,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
@@ -3572,8 +14288,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
@@ -3630,8 +14346,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
@@ -3650,7 +14366,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1576798152,
 							["serial"] = "Creature-0-3895-1643-25944-127975-00007C070D",
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -3727,8 +14443,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Zearthan"] = 1226,
+							["healing_from"] = {
+								["Zearthan"] = true,
 							},
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -3756,7 +14472,7 @@ _detalhes_database = {
 							["healing_taken"] = 24504.003146,
 							["fight_component"] = true,
 							["end_time"] = 1576798184,
-							["spec"] = 267,
+							["classe"] = "WARLOCK",
 							["nome"] = "Zearthan",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3812,12 +14528,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
 										["n_amt"] = 1,
 										["n_curado"] = 658,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -3853,16 +14569,16 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["healing_from"] = {
-								["Zearthan"] = true,
+							["targets_overheal"] = {
+								["Zearthan"] = 1226,
 							},
-							["tipo"] = 2,
+							["spec"] = 267,
 							["custom"] = 0,
 							["last_event"] = 1576798184,
 							["totaldenied"] = 0.003146,
 							["start_time"] = 1576798152,
 							["delay"] = 0,
-							["classe"] = "WARLOCK",
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3872,7 +14588,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 							["totalover"] = 0.008137,
 							["total_without_pet"] = 0.008137,
 							["total"] = 0.008137,
@@ -3905,7 +14621,7 @@ _detalhes_database = {
 							["last_event"] = 0,
 							["start_time"] = 1576798184,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -4039,13 +14755,13 @@ _detalhes_database = {
 							["spec"] = 267,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[17962] = 3,
-								[348] = 1,
 								[29722] = 11,
+								[348] = 1,
 								[116858] = 3,
+								[17962] = 3,
 							},
-							["last_event"] = 1576798184,
 							["tipo"] = 4,
+							["last_event"] = 1576798184,
 							["nome"] = "Zearthan",
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -4058,14 +14774,14 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Zearthan",
 							["nome"] = "Belpad <Zearthan>",
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[3110] = 11,
 							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["last_event"] = 0,
+							["classe"] = "PET",
 							["serial"] = "Pet-0-3895-1643-25944-416-0B02B4B52E",
 							["fight_component"] = true,
 						}, -- [2]
@@ -4164,6 +14880,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "00:29:10",
+				["end_time"] = 6208.31,
+				["combat_id"] = 33,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -4184,9 +14903,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 6208.31,
-				["combat_id"] = 33,
-				["data_inicio"] = "00:29:10",
 				["tempo_start"] = 1576798150,
 				["spells_cast_timeline"] = {
 				},
@@ -4361,7 +15077,7 @@ _detalhes_database = {
 				["frags"] = {
 					["Stonebound Guardian"] = 1,
 				},
-			}, -- [4]
+			}, -- [15]
 			{
 				{
 					["tipo"] = 2,
@@ -4380,16 +15096,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
 							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 32282.004033,
 							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 32282.004033,
+							["dps_started"] = false,
 							["end_time"] = 1576798083,
+							["total"] = 32282.004033,
 							["damage_taken"] = 47742.00403300001,
 							["nome"] = "Awakened Revenant",
 							["spells"] = {
@@ -4410,8 +15126,8 @@ _detalhes_database = {
 										["n_min"] = 713,
 										["g_dmg"] = 0,
 										["counter"] = 26,
-										["r_amt"] = 0,
 										["total"] = 22489,
+										["r_amt"] = 0,
 										["c_max"] = 1839,
 										["spellschool"] = 1,
 										["id"] = 1,
@@ -4479,8 +15195,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
@@ -4499,7 +15215,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1576798063,
 							["serial"] = "Creature-0-3895-1643-25944-127957-0001FC070D",
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -4515,8 +15231,8 @@ _detalhes_database = {
 								"Belpad <Zearthan>", -- [1]
 							},
 							["custom"] = 0,
-							["damage_taken"] = 20555.008117,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 39410.008117,
@@ -4730,7 +15446,7 @@ _detalhes_database = {
 							},
 							["dps_started"] = false,
 							["total"] = 47742.00811700001,
-							["on_hold"] = false,
+							["damage_taken"] = 20555.008117,
 							["tipo"] = 1,
 							["nome"] = "Zearthan",
 							["spec"] = 267,
@@ -4743,7 +15459,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1576798064,
 							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -4820,9 +15536,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Zearthan"] = 3,
-								["Belpad <Zearthan>"] = 559,
+							["healing_from"] = {
+								["Zearthan"] = true,
 							},
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -4850,7 +15565,7 @@ _detalhes_database = {
 							["healing_taken"] = 18876.007195,
 							["fight_component"] = true,
 							["end_time"] = 1576798083,
-							["spec"] = 267,
+							["classe"] = "WARLOCK",
 							["nome"] = "Zearthan",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4906,12 +15621,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
 										["n_amt"] = 3,
 										["n_curado"] = 5645,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -4947,16 +15662,17 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["healing_from"] = {
-								["Zearthan"] = true,
+							["targets_overheal"] = {
+								["Zearthan"] = 3,
+								["Belpad <Zearthan>"] = 559,
 							},
-							["tipo"] = 2,
+							["spec"] = 267,
 							["custom"] = 0,
 							["last_event"] = 1576798082,
 							["totaldenied"] = 0.007195,
 							["start_time"] = 1576798063,
 							["delay"] = 0,
-							["classe"] = "WARLOCK",
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4966,7 +15682,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 							["totalover"] = 0.002977,
 							["total_without_pet"] = 0.002977,
 							["total"] = 0.002977,
@@ -4999,7 +15715,7 @@ _detalhes_database = {
 							["last_event"] = 0,
 							["start_time"] = 1576798083,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -5117,8 +15833,8 @@ _detalhes_database = {
 								[29722] = 5,
 								[17962] = 1,
 							},
-							["last_event"] = 1576798083,
 							["tipo"] = 4,
+							["last_event"] = 1576798083,
 							["nome"] = "Zearthan",
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -5129,7 +15845,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["classe"] = "UNKNOW",
+							["last_event"] = 1576798071,
 							["fight_component"] = true,
 							["interrupt"] = 3.001093,
 							["interrupt_targets"] = {
@@ -5139,12 +15855,12 @@ _detalhes_database = {
 							["nome"] = "Awakened Revenant",
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["spell_cast"] = {
 								[257549] = 6,
 								[257552] = 3,
 							},
-							["last_event"] = 1576798071,
+							["tipo"] = 4,
 							["interrupt_spells"] = {
 								["_ActorTable"] = {
 									[257549] = {
@@ -5171,14 +15887,14 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Zearthan",
 							["nome"] = "Belpad <Zearthan>",
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[3110] = 7,
 							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["last_event"] = 0,
+							["classe"] = "PET",
 							["serial"] = "Pet-0-3895-1643-25944-416-0B02B4B52E",
 							["fight_component"] = true,
 						}, -- [3]
@@ -5260,6 +15976,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "00:27:43",
+				["end_time"] = 6106.895,
+				["combat_id"] = 32,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -5280,9 +15999,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 6106.895,
-				["combat_id"] = 32,
-				["data_inicio"] = "00:27:43",
 				["tempo_start"] = 1576798063,
 				["spells_cast_timeline"] = {
 				},
@@ -5342,7 +16058,7 @@ _detalhes_database = {
 				["frags"] = {
 					["Awakened Revenant"] = 2,
 				},
-			}, -- [5]
+			}, -- [16]
 			{
 				{
 					["tipo"] = 2,
@@ -5363,7 +16079,7 @@ _detalhes_database = {
 								"Infernal <Zearthan>", -- [2]
 							},
 							["custom"] = 0,
-							["damage_taken"] = 21216.004762,
+							["on_hold"] = false,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
@@ -5457,32 +16173,32 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
-									[29722] = {
-										["c_amt"] = 1,
+									[266136] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 4036,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 1302,
 										["targets"] = {
-											["Awakened Revenant"] = 4036,
+											["Awakened Revenant"] = 1302,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 1302,
+										["n_min"] = 1302,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 4036,
-										["c_max"] = 4036,
-										["id"] = 29722,
+										["total"] = 1302,
+										["c_max"] = 0,
+										["id"] = 266136,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 4036,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
@@ -5573,35 +16289,6 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
-									[266136] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1302,
-										["targets"] = {
-											["Awakened Revenant"] = 1302,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1302,
-										["n_min"] = 1302,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1302,
-										["c_max"] = 0,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
 									[17962] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -5631,12 +16318,41 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
+									[29722] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4036,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Awakened Revenant"] = 4036,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4036,
+										["c_max"] = 4036,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 4036,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
 								},
 								["tipo"] = 2,
 							},
 							["dps_started"] = false,
-							["total"] = 51711.004762,
-							["on_hold"] = false,
+							["end_time"] = 1576798019,
+							["damage_taken"] = 21216.004762,
 							["tipo"] = 1,
 							["nome"] = "Zearthan",
 							["spec"] = 267,
@@ -5649,7 +16365,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1576798006,
 							["serial"] = "Player-3391-0A827D4F",
-							["end_time"] = 1576798019,
+							["total"] = 51711.004762,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -5665,16 +16381,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
 							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 27172.003188,
 							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 27172.003188,
+							["dps_started"] = false,
 							["end_time"] = 1576798063,
+							["total"] = 27172.003188,
 							["damage_taken"] = 51711.003188,
 							["nome"] = "Awakened Revenant",
 							["spells"] = {
@@ -5702,8 +16418,8 @@ _detalhes_database = {
 										["a_dmg"] = 4233,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 4,
 										["n_amt"] = 20,
@@ -5731,8 +16447,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
@@ -5760,8 +16476,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
@@ -5780,7 +16496,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1576798004,
 							["serial"] = "Creature-0-3895-1643-25944-127957-0000FC070D",
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
@@ -5952,8 +16668,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
+							["targets_overheal"] = {
+								["Zearthan"] = 3,
 							},
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -5981,7 +16697,7 @@ _detalhes_database = {
 							["healing_taken"] = 15700.005489,
 							["fight_component"] = true,
 							["end_time"] = 1576798019,
-							["spec"] = 267,
+							["heal_enemy_amt"] = 0,
 							["nome"] = "Zearthan",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6036,12 +16752,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
 										["n_amt"] = 1,
 										["n_curado"] = 1878,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -6077,16 +16793,16 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
-								["Zearthan"] = 3,
+							["healing_from"] = {
+								["Zearthan"] = true,
 							},
-							["last_event"] = 1576798018,
+							["spec"] = 267,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005489,
 							["start_time"] = 1576798004,
 							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
+							["last_event"] = 1576798018,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -6096,7 +16812,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 							["totalover"] = 0.00829,
 							["total_without_pet"] = 0.00829,
 							["total"] = 0.00829,
@@ -6129,7 +16845,7 @@ _detalhes_database = {
 							["last_event"] = 0,
 							["start_time"] = 1576798019,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -6247,8 +16963,8 @@ _detalhes_database = {
 								[1122] = 1,
 								[29722] = 1,
 							},
-							["last_event"] = 1576798019,
 							["tipo"] = 4,
+							["last_event"] = 1576798019,
 							["nome"] = "Zearthan",
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -6260,7 +16976,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["classe"] = "UNKNOW",
+							["last_event"] = 1576798007,
 							["fight_component"] = true,
 							["interrupt"] = 1.005492,
 							["interrupt_targets"] = {
@@ -6270,12 +16986,12 @@ _detalhes_database = {
 							["nome"] = "Awakened Revenant",
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["spell_cast"] = {
 								[257549] = 3,
 								[257552] = 2,
 							},
-							["last_event"] = 1576798007,
+							["tipo"] = 4,
 							["interrupt_spells"] = {
 								["_ActorTable"] = {
 									[257549] = {
@@ -6300,14 +17016,14 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Zearthan",
 							["nome"] = "Belpad <Zearthan>",
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[3110] = 5,
 							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["last_event"] = 0,
+							["classe"] = "PET",
 							["serial"] = "Pet-0-3895-1643-25944-416-0B02B4B52E",
 							["fight_component"] = true,
 						}, -- [3]
@@ -6317,13 +17033,13 @@ _detalhes_database = {
 							["nome"] = "Infernal <Zearthan>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
 							["last_event"] = 0,
+							["serial"] = "Creature-0-3895-1643-25944-89-00007C073D",
 							["spell_cast"] = {
 								[19483] = 1,
 							},
-							["serial"] = "Creature-0-3895-1643-25944-89-00007C073D",
-							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -6403,6 +17119,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "00:26:44",
+				["end_time"] = 6043.456,
+				["combat_id"] = 31,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6423,9 +17142,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 6043.456,
-				["combat_id"] = 31,
-				["data_inicio"] = "00:26:44",
 				["tempo_start"] = 1576798004,
 				["spells_cast_timeline"] = {
 				},
@@ -6582,7 +17298,7 @@ _detalhes_database = {
 				["frags"] = {
 					["Awakened Revenant"] = 2,
 				},
-			}, -- [6]
+			}, -- [17]
 			{
 				{
 					["tipo"] = 2,
@@ -6605,8 +17321,8 @@ _detalhes_database = {
 								"Belpad <Zearthan>", -- [1]
 							},
 							["custom"] = 0,
-							["damage_taken"] = 52268.002777,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 106893.002777,
@@ -6671,35 +17387,6 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
-									[266136] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 5104,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Frostmange"] = 5104,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 5104,
-										["c_max"] = 2678,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2426,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
 									[29722] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -6727,6 +17414,35 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 15,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[266136] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 5104,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Frostmange"] = 5104,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5104,
+										["c_max"] = 2678,
+										["id"] = 266136,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2426,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
@@ -6760,35 +17476,34 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 124,
 									},
-									[259756] = {
-										["c_amt"] = 0,
+									[255586] = {
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 896,
 										["g_amt"] = 0,
-										["n_max"] = 419,
+										["n_max"] = 224,
 										["targets"] = {
-											["Frostmange"] = 1010,
-											["Alpine Falcon"] = 238,
+											["Frostmange"] = 2016,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1248,
-										["n_min"] = 15,
+										["n_dmg"] = 1120,
+										["n_min"] = 224,
 										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 1248,
-										["c_max"] = 0,
-										["id"] = 259756,
+										["counter"] = 7,
+										["total"] = 2016,
+										["c_max"] = 448,
+										["id"] = 255586,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 448,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 16,
+										["n_amt"] = 5,
 										["a_dmg"] = 0,
-										["spellschool"] = 48,
+										["spellschool"] = 8,
 									},
 									[348] = {
 										["c_amt"] = 0,
@@ -6849,41 +17564,42 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 4,
 									},
-									[255586] = {
-										["c_amt"] = 2,
+									[259756] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 896,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 224,
+										["n_max"] = 419,
 										["targets"] = {
-											["Frostmange"] = 2016,
+											["Frostmange"] = 1010,
+											["Alpine Falcon"] = 238,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1120,
-										["n_min"] = 224,
+										["n_dmg"] = 1248,
+										["n_min"] = 15,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 2016,
-										["c_max"] = 448,
-										["id"] = 255586,
+										["counter"] = 16,
+										["total"] = 1248,
+										["c_max"] = 0,
+										["id"] = 259756,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 448,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 5,
+										["n_amt"] = 16,
 										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["spellschool"] = 48,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["dps_started"] = false,
 							["total"] = 120512.002777,
-							["on_hold"] = false,
+							["damage_taken"] = 52268.002777,
 							["tipo"] = 1,
 							["nome"] = "Zearthan",
 							["spec"] = 267,
@@ -6896,7 +17612,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1576797880,
 							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -6910,16 +17626,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
 							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 25605.005151,
 							["delay"] = 1576797909,
-							["fight_component"] = true,
-							["total"] = 25605.005151,
+							["dps_started"] = false,
 							["end_time"] = 1576797919,
+							["total"] = 25605.005151,
 							["damage_taken"] = 94852.005151,
 							["nome"] = "Frostmange",
 							["spells"] = {
@@ -6973,8 +17689,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
@@ -7001,8 +17717,8 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
@@ -7021,7 +17737,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1576797892,
 							["serial"] = "Creature-0-3895-1643-25944-127794-00007C00A6",
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -7109,10 +17825,10 @@ _detalhes_database = {
 							},
 							["total_without_pet"] = 25609.007743,
 							["classe"] = "UNKNOW",
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 25609.007743,
 							["delay"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 25660.007743,
 							["nome"] = "Alpine Falcon",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7196,8 +17912,8 @@ _detalhes_database = {
 										["a_dmg"] = 5729,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 6,
 										["n_amt"] = 6,
@@ -7207,16 +17923,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["end_time"] = 1576797919,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 25660.007743,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1576797888,
 							["serial"] = "Creature-0-3895-1643-25944-128188-00077A6A22",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -7226,8 +17942,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Zearthan"] = 9,
+							["healing_from"] = {
+								["Zearthan"] = true,
 							},
 							["pets"] = {
 							},
@@ -7252,7 +17968,7 @@ _detalhes_database = {
 							["healing_taken"] = 33797.004943,
 							["fight_component"] = true,
 							["end_time"] = 1576797919,
-							["spec"] = 267,
+							["classe"] = "WARLOCK",
 							["nome"] = "Zearthan",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7305,12 +18021,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
 										["n_amt"] = 4,
 										["n_curado"] = 7579,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -7346,16 +18062,16 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["healing_from"] = {
-								["Zearthan"] = true,
+							["targets_overheal"] = {
+								["Zearthan"] = 9,
 							},
-							["tipo"] = 2,
+							["spec"] = 267,
 							["custom"] = 0,
 							["last_event"] = 1576797917,
 							["totaldenied"] = 0.004943,
 							["start_time"] = 1576797883,
 							["delay"] = 0,
-							["classe"] = "WARLOCK",
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -7384,8 +18100,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["totalover"] = 0.002635,
 							["flag_original"] = 1297,
-							["last_event"] = 1576797917,
 							["tipo"] = 3,
+							["last_event"] = 1576797917,
 							["spec"] = 267,
 							["alternatepower"] = 0.002635,
 							["serial"] = "Player-3391-0A827D4F",
@@ -7517,13 +18233,13 @@ _detalhes_database = {
 							["spec"] = 267,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[29722] = 9,
-								[348] = 1,
 								[116858] = 5,
+								[348] = 1,
 								[17962] = 4,
+								[29722] = 9,
 							},
-							["last_event"] = 1576797919,
 							["tipo"] = 4,
+							["last_event"] = 1576797919,
 							["nome"] = "Zearthan",
 							["pets"] = {
 								"Belpad <Zearthan>", -- [1]
@@ -7538,13 +18254,13 @@ _detalhes_database = {
 							["nome"] = "Belpad <Zearthan>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
 							["last_event"] = 0,
+							["serial"] = "Pet-0-3895-1643-25944-416-0B02B4B52E",
 							["spell_cast"] = {
 								[3110] = 12,
 							},
-							["serial"] = "Pet-0-3895-1643-25944-416-0B02B4B52E",
-							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -7565,15 +18281,15 @@ _detalhes_database = {
 						{
 							["flag_original"] = 2600,
 							["nome"] = "Alpine Falcon",
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[256499] = 4,
 								[256498] = 3,
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
 							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["serial"] = "Creature-0-3895-1643-25944-128188-00077A6A22",
 							["fight_component"] = true,
 						}, -- [4]
@@ -7655,6 +18371,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "00:24:40",
+				["end_time"] = 5943.06,
+				["combat_id"] = 30,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -7675,9 +18394,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 5943.06,
-				["combat_id"] = 30,
-				["data_inicio"] = "00:24:40",
 				["tempo_start"] = 1576797880,
 				["spells_cast_timeline"] = {
 				},
@@ -7854,10880 +18570,6 @@ _detalhes_database = {
 					["Awakened Dead"] = 1,
 					["Frostmange"] = 1,
 				},
-			}, -- [7]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 29,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004484,
-							["damage_from"] = {
-								["Awakened Dead"] = true,
-								["Alpine Falcon"] = true,
-							},
-							["targets"] = {
-								["Awakened Dead"] = 48512,
-								["Alpine Falcon"] = 24498,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 66090.004484,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 62592.00448400001,
-							["spells"] = {
-								["_ActorTable"] = {
-									[29722] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 6220,
-										["g_amt"] = 0,
-										["n_max"] = 2127,
-										["targets"] = {
-											["Awakened Dead"] = 20931,
-											["Alpine Falcon"] = 14584,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 29295,
-										["n_min"] = 738,
-										["g_dmg"] = 0,
-										["counter"] = 26,
-										["total"] = 35515,
-										["c_max"] = 1582,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1544,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 22,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[234153] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 250,
-										["targets"] = {
-											["Awakened Dead"] = 250,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 250,
-										["n_min"] = 250,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 250,
-										["c_max"] = 0,
-										["id"] = 234153,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1088,
-										["targets"] = {
-											["Awakened Dead"] = 2158,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2158,
-										["n_min"] = 1070,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2158,
-										["c_max"] = 0,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[157736] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 4121,
-										["g_amt"] = 0,
-										["n_max"] = 689,
-										["targets"] = {
-											["Awakened Dead"] = 10718,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6597,
-										["n_min"] = 622,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 10718,
-										["c_max"] = 1393,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1340,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 106,
-										["targets"] = {
-											["Awakened Dead"] = 1169,
-											["Alpine Falcon"] = 252,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1421,
-										["n_min"] = 16,
-										["g_dmg"] = 0,
-										["counter"] = 27,
-										["total"] = 1421,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 27,
-										["a_dmg"] = 0,
-										["spellschool"] = 48,
-									},
-									[42223] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 2234,
-										["g_amt"] = 0,
-										["n_max"] = 386,
-										["targets"] = {
-											["Awakened Dead"] = 5997,
-											["Alpine Falcon"] = 3177,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6940,
-										["n_min"] = 335,
-										["g_dmg"] = 0,
-										["counter"] = 22,
-										["total"] = 9174,
-										["c_max"] = 770,
-										["id"] = 42223,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 709,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 19,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3356,
-										["targets"] = {
-											["Alpine Falcon"] = 3356,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3356,
-										["n_min"] = 3356,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3356,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 73010.004484,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 2499.144399397555,
-							["end_time"] = 1576797853,
-							["colocacao"] = 1,
-							["last_event"] = 1576797853,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797827,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 10599.006916,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-								["Chillfur Yeti"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 49571,
-								["Belpad <Zearthan>"] = 1801,
-								["Chillfur Yeti"] = 15734,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 67106.006916,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 67106.006916,
-							["end_time"] = 1576797880,
-							["damage_taken"] = 69656.006916,
-							["nome"] = "Awakened Dead",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 6613,
-										["g_amt"] = 0,
-										["n_max"] = 2516,
-										["targets"] = {
-											["Zearthan"] = 36612,
-											["Belpad <Zearthan>"] = 1719,
-											["Chillfur Yeti"] = 10734,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 42452,
-										["n_min"] = 788,
-										["g_dmg"] = 0,
-										["counter"] = 46,
-										["total"] = 49065,
-										["c_max"] = 2351,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 30080,
-										["c_min"] = 1990,
-										["m_crit"] = 0,
-										["PARRY"] = 3,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 40,
-										["spellschool"] = 1,
-										["a_amt"] = 25,
-									}, -- [1]
-									[257518] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1055,
-										["targets"] = {
-											["Zearthan"] = 3162,
-											["Chillfur Yeti"] = 968,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4130,
-										["n_min"] = 968,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 4130,
-										["c_max"] = 0,
-										["id"] = 257518,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 3,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 4,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 3162,
-										["MISS"] = 1,
-									},
-									[257514] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1056,
-										["targets"] = {
-											["Zearthan"] = 4220,
-											["Belpad <Zearthan>"] = 82,
-											["Chillfur Yeti"] = 1937,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6239,
-										["n_min"] = 41,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 6239,
-										["c_max"] = 0,
-										["id"] = 257514,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 4,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_amt"] = 3,
-										["a_dmg"] = 3164,
-									},
-									[257519] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 419,
-										["targets"] = {
-											["Zearthan"] = 5577,
-											["Chillfur Yeti"] = 2095,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7672,
-										["n_min"] = 371,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 7672,
-										["c_max"] = 0,
-										["id"] = 257519,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 9,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 20,
-										["a_dmg"] = 3347,
-										["spellschool"] = 8,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797879,
-							["on_hold"] = false,
-							["start_time"] = 1576797824,
-							["serial"] = "Creature-0-3895-1643-25944-136490-00007C0080",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 2600,
-							["totalabsorbed"] = 0.006219,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 16519,
-							},
-							["pets"] = {
-							},
-							["last_event"] = 1576797850,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 16519.006219,
-							["classe"] = "UNKNOW",
-							["dps_started"] = false,
-							["total"] = 16519.006219,
-							["delay"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Alpine Falcon",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1269,
-										["targets"] = {
-											["Zearthan"] = 8529,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8529,
-										["n_min"] = 937,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 8529,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 8,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_dmg"] = 8529,
-										["spellschool"] = 1,
-									}, -- [1]
-									[256499] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1144,
-										["targets"] = {
-											["Zearthan"] = 2242,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2242,
-										["n_min"] = 1098,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2242,
-										["c_max"] = 0,
-										["id"] = 256499,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 2,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 2242,
-										["spellschool"] = 1,
-									},
-									[256498] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 958,
-										["targets"] = {
-											["Zearthan"] = 5748,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5748,
-										["n_min"] = 958,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 5748,
-										["c_max"] = 0,
-										["id"] = 256498,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 6,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_dmg"] = 5748,
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1576797853,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 24498.006219,
-							["start_time"] = 1576797834,
-							["serial"] = "Creature-0-3895-1643-25944-128188-00007C00B4",
-							["fight_component"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.008053,
-							["damage_from"] = {
-								["Awakened Dead"] = true,
-							},
-							["targets"] = {
-								["Awakened Dead"] = 7289,
-								["Alpine Falcon"] = 3129,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 1801.008053,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 10418.008053,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 10418.008053,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2086,
-										["g_amt"] = 0,
-										["n_max"] = 1046,
-										["targets"] = {
-											["Awakened Dead"] = 7289,
-											["Alpine Falcon"] = 3129,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8332,
-										["n_min"] = 1039,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 10418,
-										["c_max"] = 2086,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2086,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797853,
-							["last_event"] = 1576797853,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797828,
-							["serial"] = "Pet-0-3895-1643-25944-416-0A02B4B52E",
-							["classe"] = "PET",
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 29,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Zearthan"] = 1765,
-							},
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 1765.001738,
-							["total_without_pet"] = 32014.001738,
-							["total"] = 32014.001738,
-							["targets_absorbs"] = {
-								["Zearthan"] = 23181,
-								["Belpad <Zearthan>"] = 1801,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 24982.001738,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 31961,
-								["Belpad <Zearthan>"] = 1801,
-							},
-							["totalover_without_pet"] = 0.001738,
-							["healing_taken"] = 30213.001738,
-							["fight_component"] = true,
-							["end_time"] = 1576797853,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 20912,
-										["targets_overheal"] = {
-											["Zearthan"] = 17,
-										},
-										["n_max"] = 2356,
-										["targets"] = {
-											["Zearthan"] = 19111,
-											["Belpad <Zearthan>"] = 1801,
-										},
-										["n_min"] = 348,
-										["counter"] = 55,
-										["overheal"] = 17,
-										["total"] = 20912,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 19111,
-											["Belpad <Zearthan>"] = 1801,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 55,
-										["n_curado"] = 20912,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[234153] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1251,
-										["targets"] = {
-											["Zearthan"] = 1251,
-										},
-										["n_min"] = 1251,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 1251,
-										["c_max"] = 0,
-										["id"] = 234153,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 1251,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-									[270117] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Zearthan"] = 1748,
-										},
-										["n_max"] = 1884,
-										["targets"] = {
-											["Zearthan"] = 5781,
-										},
-										["n_min"] = 130,
-										["counter"] = 4,
-										["overheal"] = 1748,
-										["total"] = 5781,
-										["c_max"] = 0,
-										["id"] = 270117,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 4,
-										["n_curado"] = 5781,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 4070,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 169,
-										["targets"] = {
-											["Zearthan"] = 4070,
-										},
-										["n_min"] = 19,
-										["counter"] = 66,
-										["overheal"] = 0,
-										["total"] = 4070,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 4070,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 66,
-										["n_curado"] = 4070,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1576797853,
-							["totaldenied"] = 0.001738,
-							["start_time"] = 1576797824,
-							["delay"] = 0,
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.006897,
-							["total_without_pet"] = 0.006897,
-							["total"] = 0.006897,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3895-1643-25944-416-0A02B4B52E",
-							["totalabsorb"] = 0.006897,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.006897,
-							["healing_taken"] = 1801.006897,
-							["fight_component"] = true,
-							["end_time"] = 1576797853,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["totaldenied"] = 0.006897,
-							["targets_overheal"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["last_event"] = 0,
-							["start_time"] = 1576797853,
-							["delay"] = 0,
-							["classe"] = "PET",
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 29,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 29,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[265931] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 265931,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[157736] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 157736,
-										["uptime"] = 18,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[234153] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 234153,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 71,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 29,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[256374] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 256374,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 280713,
-										["uptime"] = 19,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 25,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 25,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 20,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 1,
-								[234153] = 1,
-								[348] = 2,
-								[5740] = 1,
-								[29722] = 10,
-							},
-							["last_event"] = 1576797853,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Awakened Dead",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[257514] = 4,
-								[257518] = 4,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-136490-00007C00A3",
-							["fight_component"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["classe"] = "PET",
-							["spell_cast"] = {
-								[3110] = 9,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Pet-0-3895-1643-25944-416-0A02B4B52E",
-							["fight_component"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 2600,
-							["nome"] = "Alpine Falcon",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[256499] = 2,
-								[256498] = 2,
-							},
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3895-1643-25944-128188-00007C00B4",
-							["fight_component"] = true,
-						}, -- [4]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 29,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["tempo_start"] = 1576797824,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					156634.994415, -- [1]
-					32014, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					62592, -- [1]
-					32014, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:24:13",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Awakened Dead",
-				["TotalElapsedCombatTime"] = 5877.53,
-				["CombatEndedAt"] = 5877.53,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 73010.004484,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 32014.001738,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5877.53,
-				["combat_id"] = 29,
-				["data_inicio"] = "00:23:44",
-				["overall_added"] = true,
-				["frags"] = {
-					["Awakened Dead"] = 2,
-					["Alpine Falcon"] = 1,
-				},
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						0.004484, -- [1]
-						0, -- [2]
-						1088, -- [3]
-						1070, -- [4]
-						1039, -- [5]
-						656, -- [6]
-						1763, -- [7]
-						2497, -- [8]
-						4639.000000000001, -- [9]
-						687, -- [10]
-						7712, -- [11]
-						696, -- [12]
-						4485, -- [13]
-						1076, -- [14]
-						4333, -- [15]
-						712, -- [16]
-						6608.000000000004, -- [17]
-						1160, -- [18]
-						1720, -- [19]
-						6060, -- [20]
-						4276, -- [21]
-						3740, -- [22]
-						2203, -- [23]
-						2840, -- [24]
-						3843, -- [25]
-						0, -- [26]
-						6811, -- [27]
-						0, -- [28]
-						250, -- [29]
-						["max_value"] = 7712,
-					},
-					["Raid Damage Done"] = {
-						0, -- [1]
-						0, -- [2]
-						1088, -- [3]
-						1070, -- [4]
-						0, -- [5]
-						656, -- [6]
-						723, -- [7]
-						1457, -- [8]
-						4639, -- [9]
-						687, -- [10]
-						6673, -- [11]
-						696, -- [12]
-						4485, -- [13]
-						33, -- [14]
-						4333, -- [15]
-						712, -- [16]
-						5566, -- [17]
-						1160, -- [18]
-						1720, -- [19]
-						6060, -- [20]
-						2190, -- [21]
-						3740, -- [22]
-						2203, -- [23]
-						2840, -- [24]
-						2800, -- [25]
-						0, -- [26]
-						6811, -- [27]
-						0, -- [28]
-						250, -- [29]
-						["max_value"] = 6811,
-					},
-				},
-				["combat_counter"] = 48,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-					["Zearthan"] = {
-						{
-							true, -- [1]
-							257519, -- [2]
-							371, -- [3]
-							1576797853.38, -- [4]
-							17906, -- [5]
-							"Awakened Dead", -- [6]
-							nil, -- [7]
-							8, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							257519, -- [2]
-							372, -- [3]
-							1576797854.323, -- [4]
-							18448, -- [5]
-							"Awakened Dead", -- [6]
-							nil, -- [7]
-							8, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 3,
-					},
-				},
-				["start_time"] = 5848.316,
-				["contra"] = "Awakened Dead",
-				["spells_cast_timeline"] = {
-				},
-			}, -- [8]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 28,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.002097,
-							["damage_from"] = {
-								["Chillfur Yeti"] = true,
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 39147,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 7916.002097000001,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 34951.002097,
-							["spells"] = {
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3583,
-										["targets"] = {
-											["Chillfur Yeti"] = 7109,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7109,
-										["n_min"] = 3526,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 7109,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[116858] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 15821,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Chillfur Yeti"] = 15821,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 15821,
-										["c_max"] = 8001,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 7820,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 124,
-									},
-									[348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1048,
-										["targets"] = {
-											["Chillfur Yeti"] = 1048,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1048,
-										["n_min"] = 1048,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1048,
-										["c_max"] = 0,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[157736] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 719,
-										["targets"] = {
-											["Chillfur Yeti"] = 2032,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2032,
-										["n_min"] = 631,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 2032,
-										["c_max"] = 0,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[266136] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1228,
-										["targets"] = {
-											["Chillfur Yeti"] = 1228,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1228,
-										["n_min"] = 1228,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1228,
-										["c_max"] = 0,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[265931] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 335,
-										["targets"] = {
-											["Chillfur Yeti"] = 1507,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1507,
-										["n_min"] = 167,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 1507,
-										["c_max"] = 0,
-										["id"] = 265931,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[29722] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 4091,
-										["g_amt"] = 0,
-										["n_max"] = 2115,
-										["targets"] = {
-											["Chillfur Yeti"] = 6206,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2115,
-										["n_min"] = 2115,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 6206,
-										["c_max"] = 4091,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 4091,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 39147.002097,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 3443.916785167533,
-							["end_time"] = 1576797791,
-							["colocacao"] = 1,
-							["last_event"] = 1576797790,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797780,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 7916.001489,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 7916,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 7916.001489,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 7916.001489,
-							["end_time"] = 1576797791,
-							["damage_taken"] = 39147.001489,
-							["nome"] = "Chillfur Yeti",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1087,
-										["targets"] = {
-											["Zearthan"] = 5050,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5050,
-										["n_min"] = 956,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 5050,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[259264] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2866,
-										["targets"] = {
-											["Zearthan"] = 2866,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2866,
-										["n_min"] = 2866,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2866,
-										["c_max"] = 0,
-										["id"] = 259264,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797790,
-							["on_hold"] = false,
-							["start_time"] = 1576797784,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007C009E",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.006935,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 4196,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.006935,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4196.006935,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 4196.006935,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1049,
-										["targets"] = {
-											["Chillfur Yeti"] = 4196,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4196,
-										["n_min"] = 1049,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 4196,
-										["c_max"] = 0,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797791,
-							["last_event"] = 1576797788,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797783,
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["classe"] = "PET",
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 28,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 0.00642,
-							["total_without_pet"] = 7916.00642,
-							["total"] = 7916.00642,
-							["targets_absorbs"] = {
-								["Zearthan"] = 7916,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 7916.00642,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 7916,
-							},
-							["totalover_without_pet"] = 0.00642,
-							["healing_taken"] = 7916.00642,
-							["fight_component"] = true,
-							["end_time"] = 1576797791,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 504,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 190,
-										["targets"] = {
-											["Zearthan"] = 504,
-										},
-										["n_min"] = 48,
-										["counter"] = 6,
-										["overheal"] = 0,
-										["total"] = 504,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 504,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 6,
-										["n_curado"] = 504,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 7412,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2676,
-										["targets"] = {
-											["Zearthan"] = 7412,
-										},
-										["n_min"] = 877,
-										["counter"] = 6,
-										["overheal"] = 0,
-										["total"] = 7412,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 7412,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 6,
-										["n_curado"] = 7412,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_overheal"] = {
-							},
-							["last_event"] = 1576797790,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.00642,
-							["start_time"] = 1576797784,
-							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 28,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 28,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[265931] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 265931,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[157736] = {
-										["activedamt"] = -1,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["actived_at"] = 1576797790,
-										["uptime"] = 0,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["appliedamt"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 42,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 280713,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 10,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 1,
-								[29722] = 2,
-								[116858] = 2,
-							},
-							["last_event"] = 1576797791,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[3110] = 4,
-							},
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Chillfur Yeti",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[259264] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007C009E",
-							["fight_component"] = true,
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 28,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["CombatStartedAt"] = 5847.058,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					47062.997445, -- [1]
-					7916, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					34951, -- [1]
-					7916, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:23:11",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Chillfur Yeti",
-				["TotalElapsedCombatTime"] = 5815.372,
-				["CombatEndedAt"] = 5815.372,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 39147.002097,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 7916.00642,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5815.372,
-				["combat_id"] = 28,
-				["data_inicio"] = "00:23:00",
-				["tempo_start"] = 1576797780,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Chillfur Yeti",
-				["combat_counter"] = 47,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 5804.005,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						4574.002097000001, -- [1]
-						335, -- [2]
-						631, -- [3]
-						10613, -- [4]
-						5140, -- [5]
-						2103, -- [6]
-						5865, -- [7]
-						682, -- [8]
-						1384, -- [9]
-						0, -- [10]
-						7820.000000000004, -- [11]
-						["max_value"] = 10613,
-					},
-					["Raid Damage Done"] = {
-						4574, -- [1]
-						335, -- [2]
-						631, -- [3]
-						9564, -- [4]
-						4091, -- [5]
-						1054, -- [6]
-						5865, -- [7]
-						682, -- [8]
-						335, -- [9]
-						0, -- [10]
-						7820, -- [11]
-						["max_value"] = 9564,
-					},
-				},
-				["frags"] = {
-					["Chillfur Yeti"] = 1,
-				},
-			}, -- [9]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 27,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005265,
-							["damage_from"] = {
-								["Awakened Dead"] = true,
-							},
-							["targets"] = {
-								["Awakened Dead"] = 24661,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Infernal <Zearthan>", -- [1]
-								"Belpad <Zearthan>", -- [2]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 2161.005265,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 18995.005265,
-							["spells"] = {
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3296,
-										["targets"] = {
-											["Awakened Dead"] = 3296,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3296,
-										["n_min"] = 3296,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3296,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[116858] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8475,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Awakened Dead"] = 8475,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 8475,
-										["c_max"] = 8475,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 8475,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 124,
-									},
-									[348] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2320,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Awakened Dead"] = 2320,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2320,
-										["c_max"] = 2320,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2320,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[157736] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1296,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Awakened Dead"] = 1296,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1296,
-										["c_max"] = 1296,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1296,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[255586] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 448,
-										["g_amt"] = 0,
-										["n_max"] = 224,
-										["targets"] = {
-											["Awakened Dead"] = 1343,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 895,
-										["n_min"] = 223,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 1343,
-										["c_max"] = 448,
-										["id"] = 255586,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 448,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
-									},
-									[265931] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 671,
-										["g_amt"] = 0,
-										["n_max"] = 335,
-										["targets"] = {
-											["Awakened Dead"] = 1006,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 335,
-										["n_min"] = 335,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1006,
-										["c_max"] = 671,
-										["id"] = 265931,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 671,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[266136] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1259,
-										["targets"] = {
-											["Awakened Dead"] = 1259,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1259,
-										["n_min"] = 1259,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1259,
-										["c_max"] = 0,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 24661.005265,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 4902.784346917851,
-							["friendlyfire_total"] = 0,
-							["colocacao"] = 1,
-							["last_event"] = 1576797751,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797747,
-							["serial"] = "Player-3391-0A827D4F",
-							["end_time"] = 1576797752,
-						}, -- [1]
-						{
-							["flag_original"] = 8465,
-							["totalabsorbed"] = 0.00437,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Awakened Dead"] = 3568,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.00437,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3568.00437,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 3568.00437,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Infernal <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 980,
-										["g_amt"] = 0,
-										["n_max"] = 490,
-										["targets"] = {
-											["Awakened Dead"] = 1470,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 490,
-										["n_min"] = 490,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1470,
-										["c_max"] = 980,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 980,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[20153] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1049,
-										["targets"] = {
-											["Awakened Dead"] = 2098,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2098,
-										["n_min"] = 1049,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2098,
-										["c_max"] = 0,
-										["id"] = 20153,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797752,
-							["last_event"] = 1576797751,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797749,
-							["serial"] = "Creature-0-3895-1643-25944-89-00007C0629",
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 2161.001887,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Infernal <Zearthan>"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 2161,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2161.001887,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 2161.001887,
-							["end_time"] = 1576797752,
-							["damage_taken"] = 24661.001887,
-							["nome"] = "Awakened Dead",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1151,
-										["targets"] = {
-											["Zearthan"] = 2161,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2161,
-										["n_min"] = 1010,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2161,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797751,
-							["on_hold"] = false,
-							["start_time"] = 1576797749,
-							["serial"] = "Creature-0-3895-1643-25944-136490-00007C0049",
-							["dps_started"] = false,
-						}, -- [3]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.006702,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Awakened Dead"] = 2098,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.006702,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2098.006702,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 2098.006702,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1049,
-										["targets"] = {
-											["Awakened Dead"] = 2098,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2098,
-										["n_min"] = 1049,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2098,
-										["c_max"] = 0,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797752,
-							["last_event"] = 1576797751,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797750,
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["classe"] = "PET",
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 27,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 0.003987,
-							["total_without_pet"] = 2161.003987,
-							["total"] = 2161.003987,
-							["targets_absorbs"] = {
-								["Zearthan"] = 2161,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 2161.003987,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 2161,
-							},
-							["totalover_without_pet"] = 0.003987,
-							["healing_taken"] = 2161.003987,
-							["fight_component"] = true,
-							["end_time"] = 1576797752,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 126,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 76,
-										["targets"] = {
-											["Zearthan"] = 126,
-										},
-										["n_min"] = 50,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 126,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 126,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 2,
-										["n_curado"] = 126,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 2035,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1075,
-										["targets"] = {
-											["Zearthan"] = 2035,
-										},
-										["n_min"] = 960,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 2035,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 2035,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 2,
-										["n_curado"] = 2035,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_overheal"] = {
-							},
-							["last_event"] = 1576797751,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.003987,
-							["start_time"] = 1576797749,
-							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 27,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.005935,
-							["resource"] = 1.005935,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.005935,
-							["fight_component"] = true,
-							["total"] = 0.005935,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["totalover"] = 0.005935,
-							["flag_original"] = 1297,
-							["last_event"] = 1576797750,
-							["tipo"] = 3,
-							["spec"] = 267,
-							["alternatepower"] = 0.005935,
-							["serial"] = "Player-3391-0A827D4F",
-							["resource_type"] = 7,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 27,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[253309] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 253309,
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[265931] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 265931,
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[157736] = {
-										["activedamt"] = -1,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["actived_at"] = 1576797751,
-										["uptime"] = 0,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["appliedamt"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 20,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 117828,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 280713,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 6,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 1,
-								[116858] = 1,
-							},
-							["last_event"] = 1576797752,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[3110] = 2,
-							},
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["classe"] = "PET",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 27,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["CombatStartedAt"] = 5804.005,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					26822, -- [1]
-					2161, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					18995, -- [1]
-					2161, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:22:32",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Awakened Dead",
-				["TotalElapsedCombatTime"] = 5776.199000000001,
-				["CombatEndedAt"] = 5776.199000000001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 24661.005265,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 2161.003987,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5776.199000000001,
-				["combat_id"] = 27,
-				["data_inicio"] = "00:22:27",
-				["tempo_start"] = 1576797747,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Awakened Dead",
-				["combat_counter"] = 46,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 5771.169,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						5616.005265, -- [1]
-						1609, -- [2]
-						3842, -- [3]
-						12545, -- [4]
-						1049, -- [5]
-						["max_value"] = 12545,
-					},
-					["Raid Damage Done"] = {
-						5616, -- [1]
-						1119, -- [2]
-						1744, -- [3]
-						10516, -- [4]
-						0, -- [5]
-						["max_value"] = 10516,
-					},
-				},
-				["frags"] = {
-					["Awakened Dead"] = 1,
-				},
-			}, -- [10]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 26,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004653,
-							["damage_from"] = {
-								["Awakened Dead"] = true,
-							},
-							["targets"] = {
-								["Awakened Dead"] = 72206,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-								"Infernal <Zearthan>", -- [2]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 33492.004653,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 53574.004653,
-							["spells"] = {
-								["_ActorTable"] = {
-									[42223] = {
-										["c_amt"] = 10,
-										["b_amt"] = 0,
-										["c_dmg"] = 7321,
-										["g_amt"] = 0,
-										["n_max"] = 387,
-										["targets"] = {
-											["Awakened Dead"] = 16417,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 9096,
-										["n_min"] = 337,
-										["g_dmg"] = 0,
-										["counter"] = 35,
-										["total"] = 16417,
-										["c_max"] = 777,
-										["id"] = 42223,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 689,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 25,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[348] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 6289,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Awakened Dead"] = 6289,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 6289,
-										["c_max"] = 2115,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2080,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[157736] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 4047,
-										["g_amt"] = 0,
-										["n_max"] = 712,
-										["targets"] = {
-											["Awakened Dead"] = 10790,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6743,
-										["n_min"] = 624,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 10790,
-										["c_max"] = 1397,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1314,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[22703] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2853,
-										["g_amt"] = 0,
-										["n_max"] = 1426,
-										["targets"] = {
-											["Awakened Dead"] = 5705,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2852,
-										["n_min"] = 1426,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 5705,
-										["c_max"] = 2853,
-										["id"] = 22703,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2853,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 201,
-										["targets"] = {
-											["Awakened Dead"] = 1415,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1415,
-										["n_min"] = 16,
-										["g_dmg"] = 0,
-										["counter"] = 34,
-										["total"] = 1415,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 34,
-										["a_dmg"] = 0,
-										["spellschool"] = 48,
-									},
-									[29722] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 4031,
-										["g_amt"] = 0,
-										["n_max"] = 2127,
-										["targets"] = {
-											["Awakened Dead"] = 9368,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5337,
-										["n_min"] = 788,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 9368,
-										["c_max"] = 4031,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 4031,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3590,
-										["targets"] = {
-											["Awakened Dead"] = 3590,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3590,
-										["n_min"] = 3590,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3590,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 72206.004653,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 4589.170246154713,
-							["end_time"] = 1576797742,
-							["colocacao"] = 1,
-							["last_event"] = 1576797742,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797727,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 11143.004245,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-								["Infernal <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 33492,
-								["Belpad <Zearthan>"] = 955,
-							},
-							["pets"] = {
-							},
-							["total"] = 34447.004245,
-							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 34447.004245,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["end_time"] = 1576797747,
-							["monster"] = true,
-							["damage_taken"] = 72206.004245,
-							["nome"] = "Awakened Dead",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 6662,
-										["g_amt"] = 0,
-										["n_max"] = 1265,
-										["targets"] = {
-											["Zearthan"] = 21621,
-											["Belpad <Zearthan>"] = 832,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 15791,
-										["n_min"] = 832,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["r_amt"] = 0,
-										["total"] = 22453,
-										["c_max"] = 2483,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_amt"] = 10,
-										["m_crit"] = 0,
-										["c_min"] = 2004,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 13969,
-										["n_amt"] = 15,
-										["MISS"] = 1,
-										["DODGE"] = 1,
-									}, -- [1]
-									[257518] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1052,
-										["targets"] = {
-											["Zearthan"] = 3156,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3156,
-										["n_min"] = 1052,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 3156,
-										["c_max"] = 0,
-										["id"] = 257518,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 3,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 3,
-										["a_dmg"] = 3156,
-									},
-									[257514] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1053,
-										["targets"] = {
-											["Zearthan"] = 3157,
-											["Belpad <Zearthan>"] = 123,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3280,
-										["n_min"] = 41,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 3280,
-										["c_max"] = 0,
-										["id"] = 257514,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 3,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 2,
-										["a_dmg"] = 2104,
-									},
-									[257519] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 371,
-										["targets"] = {
-											["Zearthan"] = 5558,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5558,
-										["n_min"] = 370,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 5558,
-										["c_max"] = 0,
-										["id"] = 257519,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 11,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["a_dmg"] = 4075,
-										["spellschool"] = 8,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797743,
-							["on_hold"] = false,
-							["start_time"] = 1576797730,
-							["serial"] = "Creature-0-3895-1643-25944-136490-00007C0068",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["totalabsorbed"] = 0.007905,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Awakened Dead"] = 12356,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.007905,
-							["classe"] = "PET",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 12356.007905,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["total"] = 12356.007905,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Infernal <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 977,
-										["g_amt"] = 0,
-										["n_max"] = 490,
-										["targets"] = {
-											["Awakened Dead"] = 2933,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1956,
-										["n_min"] = 488,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 2933,
-										["c_max"] = 977,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 977,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[20153] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2098,
-										["g_amt"] = 0,
-										["n_max"] = 1049,
-										["targets"] = {
-											["Awakened Dead"] = 9423,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7325,
-										["n_min"] = 1046,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 9423,
-										["c_max"] = 2098,
-										["id"] = 20153,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2098,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1576797742,
-							["on_hold"] = false,
-							["start_time"] = 1576797735,
-							["serial"] = "Creature-0-3895-1643-25944-89-00007C0629",
-							["end_time"] = 1576797742,
-						}, -- [3]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.001572,
-							["damage_from"] = {
-								["Awakened Dead"] = true,
-							},
-							["targets"] = {
-								["Awakened Dead"] = 6276,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 955.001572,
-							["classe"] = "PET",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6276.001572,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["total"] = 6276.001572,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2092,
-										["g_amt"] = 0,
-										["n_max"] = 1046,
-										["targets"] = {
-											["Awakened Dead"] = 6276,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4184,
-										["n_min"] = 1046,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 6276,
-										["c_max"] = 2092,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2092,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1576797738,
-							["on_hold"] = false,
-							["start_time"] = 1576797730,
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["end_time"] = 1576797742,
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 26,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 3726.001485,
-							["total_without_pet"] = 16980.001485,
-							["total"] = 16980.001485,
-							["targets_absorbs"] = {
-								["Zearthan"] = 14074,
-								["Belpad <Zearthan>"] = 955,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 15029.001485,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 19748,
-								["Belpad <Zearthan>"] = 955,
-							},
-							["totalover_without_pet"] = 0.001485,
-							["healing_taken"] = 16025.001485,
-							["fight_component"] = true,
-							["end_time"] = 1576797742,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 12911,
-										["targets_overheal"] = {
-											["Zearthan"] = 3,
-										},
-										["n_max"] = 1837,
-										["targets"] = {
-											["Zearthan"] = 11956,
-											["Belpad <Zearthan>"] = 955,
-										},
-										["n_min"] = 0,
-										["counter"] = 26,
-										["overheal"] = 3,
-										["total"] = 12911,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 11956,
-											["Belpad <Zearthan>"] = 955,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 26,
-										["n_curado"] = 12911,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[270117] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Zearthan"] = 3723,
-										},
-										["n_max"] = 1895,
-										["targets"] = {
-											["Zearthan"] = 1951,
-										},
-										["n_min"] = 1895,
-										["counter"] = 2,
-										["overheal"] = 3723,
-										["total"] = 1951,
-										["c_max"] = 56,
-										["id"] = 270117,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 56,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 1895,
-										["c_min"] = 56,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 2118,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 189,
-										["targets"] = {
-											["Zearthan"] = 2118,
-										},
-										["n_min"] = 17,
-										["counter"] = 37,
-										["overheal"] = 0,
-										["total"] = 2118,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 2118,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 37,
-										["n_curado"] = 2118,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_overheal"] = {
-								["Zearthan"] = 3726,
-							},
-							["last_event"] = 1576797742,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.001485,
-							["start_time"] = 1576797730,
-							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.004593,
-							["total_without_pet"] = 0.004593,
-							["total"] = 0.004593,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["totalabsorb"] = 0.004593,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.004593,
-							["healing_taken"] = 955.004593,
-							["fight_component"] = true,
-							["end_time"] = 1576797742,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["totaldenied"] = 0.004593,
-							["targets_overheal"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["last_event"] = 0,
-							["start_time"] = 1576797742,
-							["delay"] = 0,
-							["classe"] = "PET",
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 26,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.001484,
-							["resource"] = 1.001484,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.001484,
-							["fight_component"] = true,
-							["total"] = 0.001484,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["totalover"] = 0.001484,
-							["flag_original"] = 1297,
-							["last_event"] = 1576797731,
-							["tipo"] = 3,
-							["spec"] = 267,
-							["alternatepower"] = 0.001484,
-							["serial"] = "Player-3391-0A827D4F",
-							["resource_type"] = 7,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 26,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[22703] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 22703,
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 3,
-									},
-									[265931] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 265931,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[157736] = {
-										["activedamt"] = -1,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["actived_at"] = 1576797742,
-										["uptime"] = 13,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 52,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 15,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[256374] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 256374,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 280713,
-										["uptime"] = 15,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 9,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 15,
-										["targets"] = {
-										},
-										["appliedamt"] = 9,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 15,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[29722] = 2,
-								[1122] = 1,
-								[348] = 2,
-								[5740] = 2,
-								[17962] = 1,
-							},
-							["last_event"] = 1576797742,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-								"Infernal <Zearthan>", -- [2]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["classe"] = "PET",
-							["spell_cast"] = {
-								[3110] = 5,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["fight_component"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["last_event"] = 0,
-							["nome"] = "Awakened Dead",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[257514] = 3,
-								[257518] = 3,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-136490-00007C0068",
-							["fight_component"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 8465,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Infernal <Zearthan>",
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[19483] = 1,
-							},
-							["serial"] = "Creature-0-3895-1643-25944-89-00007C0629",
-							["classe"] = "PET",
-						}, -- [4]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 26,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["CombatStartedAt"] = 5771.169,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					106653, -- [1]
-					16980, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					53574, -- [1]
-					16980, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:22:23",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Awakened Dead",
-				["TotalElapsedCombatTime"] = 5766.842000000001,
-				["CombatEndedAt"] = 5766.842000000001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 72206.004653,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 16980.001485,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5766.842000000001,
-				["combat_id"] = 26,
-				["data_inicio"] = "00:22:07",
-				["tempo_start"] = 1576797727,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Awakened Dead",
-				["combat_counter"] = 45,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-					["Zearthan"] = {
-						{
-							true, -- [1]
-							257519, -- [2]
-							370, -- [3]
-							1576797742.479, -- [4]
-							35924, -- [5]
-							"Awakened Dead", -- [6]
-							351, -- [7]
-							8, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 2,
-					},
-				},
-				["start_time"] = 5751.108,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						2080.004653, -- [1]
-						2115, -- [2]
-						2766, -- [3]
-						1718, -- [4]
-						2529, -- [5]
-						3496, -- [6]
-						7444, -- [7]
-						2582, -- [8]
-						3589, -- [9]
-						9153.999999999996, -- [10]
-						12847, -- [11]
-						3276, -- [12]
-						5465, -- [13]
-						7807, -- [14]
-						1213, -- [15]
-						["max_value"] = 12847,
-					},
-					["Raid Damage Done"] = {
-						2080, -- [1]
-						2115, -- [2]
-						2766, -- [3]
-						672, -- [4]
-						1483, -- [5]
-						2450, -- [6]
-						7444, -- [7]
-						2094, -- [8]
-						2543, -- [9]
-						8177, -- [10]
-						9709, -- [11]
-						696, -- [12]
-						2327, -- [13]
-						4170, -- [14]
-						723, -- [15]
-						["max_value"] = 9709,
-					},
-				},
-				["frags"] = {
-					["Awakened Dead"] = 3,
-				},
-			}, -- [11]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 25,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004694,
-							["damage_from"] = {
-								["Chillfur Yeti"] = true,
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 40784,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 9848.004694,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 33462.004694,
-							["spells"] = {
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 6510,
-										["g_amt"] = 0,
-										["n_max"] = 3385,
-										["targets"] = {
-											["Chillfur Yeti"] = 9895,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3385,
-										["n_min"] = 3385,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 9895,
-										["c_max"] = 6510,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 6510,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[116858] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8141,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Chillfur Yeti"] = 8141,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 8141,
-										["c_max"] = 8141,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 8141,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 124,
-									},
-									[348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1119,
-										["targets"] = {
-											["Chillfur Yeti"] = 1119,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1119,
-										["n_min"] = 1119,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1119,
-										["c_max"] = 0,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[157736] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 2626,
-										["g_amt"] = 0,
-										["n_max"] = 718,
-										["targets"] = {
-											["Chillfur Yeti"] = 4036,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1410,
-										["n_min"] = 692,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 4036,
-										["c_max"] = 1373,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1253,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[29722] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2119,
-										["targets"] = {
-											["Chillfur Yeti"] = 6211,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6211,
-										["n_min"] = 1977,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 6211,
-										["c_max"] = 0,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[265931] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 669,
-										["g_amt"] = 0,
-										["n_max"] = 334,
-										["targets"] = {
-											["Chillfur Yeti"] = 1832,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1163,
-										["n_min"] = 161,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 1832,
-										["c_max"] = 669,
-										["id"] = 265931,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 669,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[255586] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 1338,
-										["g_amt"] = 0,
-										["n_max"] = 223,
-										["targets"] = {
-											["Chillfur Yeti"] = 2228,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 890,
-										["n_min"] = 222,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 2228,
-										["c_max"] = 446,
-										["id"] = 255586,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 446,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 40784.004694,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 3377.557324554917,
-							["end_time"] = 1576797710,
-							["colocacao"] = 1,
-							["last_event"] = 1576797709,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797697,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 4315.005144,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 9848,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 9848.005143999999,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 9848.005143999999,
-							["end_time"] = 1576797710,
-							["damage_taken"] = 40784.005144,
-							["nome"] = "Chillfur Yeti",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1264,
-										["targets"] = {
-											["Zearthan"] = 7695,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7695,
-										["n_min"] = 873,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 7695,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 3,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_dmg"] = 3380,
-										["spellschool"] = 1,
-									}, -- [1]
-									[259264] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2153,
-										["targets"] = {
-											["Zearthan"] = 2153,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2153,
-										["n_min"] = 2153,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2153,
-										["c_max"] = 0,
-										["id"] = 259264,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 1,
-										["a_dmg"] = 2153,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797709,
-							["on_hold"] = false,
-							["start_time"] = 1576797700,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007BF6AD",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.007782,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 7322,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.007782,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 7322.007782,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 7322.007782,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 4184,
-										["g_amt"] = 0,
-										["n_max"] = 1046,
-										["targets"] = {
-											["Chillfur Yeti"] = 7322,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3138,
-										["n_min"] = 1046,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 7322,
-										["c_max"] = 2092,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2092,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797710,
-							["last_event"] = 1576797709,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797700,
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["classe"] = "PET",
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 25,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 1.008141,
-							["total_without_pet"] = 10949.008141,
-							["total"] = 10949.008141,
-							["targets_absorbs"] = {
-								["Zearthan"] = 9060,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 9060.008141,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 10949,
-							},
-							["totalover_without_pet"] = 0.008141,
-							["healing_taken"] = 10949.008141,
-							["fight_component"] = true,
-							["end_time"] = 1576797710,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 8439,
-										["targets_overheal"] = {
-											["Zearthan"] = 1,
-										},
-										["n_max"] = 2004,
-										["targets"] = {
-											["Zearthan"] = 8439,
-										},
-										["n_min"] = 505,
-										["counter"] = 9,
-										["overheal"] = 1,
-										["total"] = 8439,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 8439,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 9,
-										["n_curado"] = 8439,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[270117] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1889,
-										["targets"] = {
-											["Zearthan"] = 1889,
-										},
-										["n_min"] = 1889,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 1889,
-										["c_max"] = 0,
-										["id"] = 270117,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 1889,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 621,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 129,
-										["targets"] = {
-											["Zearthan"] = 621,
-										},
-										["n_min"] = 47,
-										["counter"] = 8,
-										["overheal"] = 0,
-										["total"] = 621,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 621,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 8,
-										["n_curado"] = 621,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_overheal"] = {
-								["Zearthan"] = 1,
-							},
-							["last_event"] = 1576797709,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.008141,
-							["start_time"] = 1576797700,
-							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 25,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 25,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[253309] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 253309,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[265931] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 265931,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[157736] = {
-										["activedamt"] = -1,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["actived_at"] = 1576797709,
-										["uptime"] = 0,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["appliedamt"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 47,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 4,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 4,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 280713,
-										["uptime"] = 13,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 13,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 12,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[116858] = 1,
-								[17962] = 1,
-								[29722] = 3,
-							},
-							["last_event"] = 1576797710,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[3110] = 5,
-							},
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Chillfur Yeti",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[259264] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007BF6AD",
-							["fight_component"] = true,
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 25,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["CombatStartedAt"] = 5751.108,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					50632, -- [1]
-					10949, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					33462, -- [1]
-					10949, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:21:50",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Chillfur Yeti",
-				["TotalElapsedCombatTime"] = 12.07499999999982,
-				["CombatEndedAt"] = 5733.907,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 40784.004694,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 10949.008141,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5733.907,
-				["combat_id"] = 25,
-				["data_inicio"] = "00:21:38",
-				["tempo_start"] = 1576797697,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Chillfur Yeti",
-				["combat_counter"] = 44,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 5721.832,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						4504.004694, -- [1]
-						334, -- [2]
-						1738, -- [3]
-						1380, -- [4]
-						0, -- [5]
-						5367.999999999999, -- [6]
-						2115, -- [7]
-						1253, -- [8]
-						10801, -- [9]
-						668, -- [10]
-						1944, -- [11]
-						10679, -- [12]
-						["max_value"] = 10801,
-					},
-					["Raid Damage Done"] = {
-						4504, -- [1]
-						334, -- [2]
-						692, -- [3]
-						334, -- [4]
-						0, -- [5]
-						4322, -- [6]
-						2115, -- [7]
-						1253, -- [8]
-						8709, -- [9]
-						668, -- [10]
-						1944, -- [11]
-						8587, -- [12]
-						["max_value"] = 8709,
-					},
-				},
-				["frags"] = {
-					["Chillfur Yeti"] = 1,
-				},
-			}, -- [12]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 24,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.003612,
-							["damage_from"] = {
-								["Chillfur Yeti"] = true,
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 78079,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 18804.003612,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 71832.003612,
-							["spells"] = {
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 3809,
-										["g_amt"] = 0,
-										["n_max"] = 3483,
-										["targets"] = {
-											["Chillfur Yeti"] = 10559,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6750,
-										["n_min"] = 3267,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 10559,
-										["c_max"] = 3809,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 3809,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[116858] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 36017,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Chillfur Yeti"] = 36017,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 36017,
-										["c_max"] = 8734,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 5187,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 124,
-									},
-									[348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1125,
-										["targets"] = {
-											["Chillfur Yeti"] = 2158,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2158,
-										["n_min"] = 1033,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2158,
-										["c_max"] = 0,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[157736] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 5238,
-										["g_amt"] = 0,
-										["n_max"] = 643,
-										["targets"] = {
-											["Chillfur Yeti"] = 6559,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1321,
-										["n_min"] = 51,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 6559,
-										["c_max"] = 1333,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 122,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[266136] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1245,
-										["targets"] = {
-											["Chillfur Yeti"] = 4858,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4858,
-										["n_min"] = 1186,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 4858,
-										["c_max"] = 0,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 436,
-										["targets"] = {
-											["Chillfur Yeti"] = 2553,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2553,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 26,
-										["total"] = 2553,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 26,
-										["a_dmg"] = 0,
-										["spellschool"] = 48,
-									},
-									[265931] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 334,
-										["targets"] = {
-											["Chillfur Yeti"] = 2979,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2979,
-										["n_min"] = 156,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 2979,
-										["c_max"] = 0,
-										["id"] = 265931,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[29722] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2073,
-										["targets"] = {
-											["Chillfur Yeti"] = 6149,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6149,
-										["n_min"] = 2038,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 6149,
-										["c_max"] = 0,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 78079.003612,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 5000.256395261037,
-							["end_time"] = 1576797689,
-							["colocacao"] = 1,
-							["last_event"] = 1576797688,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797673,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 9032.002598,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 18804,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 18804.002598,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 18804.002598,
-							["end_time"] = 1576797689,
-							["damage_taken"] = 78079.00259799999,
-							["nome"] = "Chillfur Yeti",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1212,
-										["targets"] = {
-											["Zearthan"] = 13986,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13986,
-										["n_min"] = 870,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 13986,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 7292,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 7,
-										["n_amt"] = 13,
-										["spellschool"] = 1,
-										["MISS"] = 1,
-									}, -- [1]
-									[259264] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2480,
-										["targets"] = {
-											["Zearthan"] = 4818,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4818,
-										["n_min"] = 2338,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 4818,
-										["c_max"] = 0,
-										["id"] = 259264,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 1,
-										["a_dmg"] = 2480,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797688,
-							["on_hold"] = false,
-							["start_time"] = 1576797676,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007BF720",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.003427,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 6247,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.003427,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6247.003427,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 6247.003427,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1042,
-										["targets"] = {
-											["Chillfur Yeti"] = 6247,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6247,
-										["n_min"] = 1039,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 6247,
-										["c_max"] = 0,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797689,
-							["last_event"] = 1576797688,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797676,
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["classe"] = "PET",
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 24,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 2.002503,
-							["total_without_pet"] = 17916.002503,
-							["total"] = 17916.002503,
-							["targets_absorbs"] = {
-								["Zearthan"] = 14149,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 14149.002503,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 17916,
-							},
-							["totalover_without_pet"] = 0.002503,
-							["healing_taken"] = 17916.002503,
-							["fight_component"] = true,
-							["end_time"] = 1576797689,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 12922,
-										["targets_overheal"] = {
-											["Zearthan"] = 2,
-										},
-										["n_max"] = 2155,
-										["targets"] = {
-											["Zearthan"] = 12922,
-										},
-										["n_min"] = 635,
-										["counter"] = 15,
-										["overheal"] = 2,
-										["total"] = 12922,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 12922,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 15,
-										["n_curado"] = 12922,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[270117] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1884,
-										["targets"] = {
-											["Zearthan"] = 3767,
-										},
-										["n_min"] = 1883,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 3767,
-										["c_max"] = 0,
-										["id"] = 270117,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 2,
-										["n_curado"] = 3767,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 1227,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 183,
-										["targets"] = {
-											["Zearthan"] = 1227,
-										},
-										["n_min"] = 47,
-										["counter"] = 15,
-										["overheal"] = 0,
-										["total"] = 1227,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 1227,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 15,
-										["n_curado"] = 1227,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_overheal"] = {
-								["Zearthan"] = 2,
-							},
-							["last_event"] = 1576797688,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.002503,
-							["start_time"] = 1576797676,
-							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 24,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.004939,
-							["resource"] = 1.004939,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.004939,
-							["fight_component"] = true,
-							["total"] = 0.004939,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["totalover"] = 0.004939,
-							["flag_original"] = 1297,
-							["last_event"] = 1576797688,
-							["tipo"] = 3,
-							["spec"] = 267,
-							["alternatepower"] = 0.004939,
-							["serial"] = "Player-3391-0A827D4F",
-							["resource_type"] = 7,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 24,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[265931] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 265931,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 3,
-									},
-									[80240] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 80240,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[157736] = {
-										["activedamt"] = -1,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["actived_at"] = 1576797682,
-										["uptime"] = 7,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 59,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 16,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[256374] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 256374,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 280713,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 7,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 7,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 27,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 2,
-								[116858] = 3,
-								[348] = 1,
-								[80240] = 1,
-								[29722] = 2,
-							},
-							["last_event"] = 1576797689,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[3110] = 6,
-							},
-							["serial"] = "Pet-0-3895-1643-25944-416-0902B4B52E",
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["last_event"] = 0,
-							["nome"] = "Chillfur Yeti",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[259264] = 2,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007BF783",
-							["fight_component"] = true,
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 24,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["CombatStartedAt"] = 5697.565000000001,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					96883, -- [1]
-					17916, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					71832, -- [1]
-					17916, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:21:29",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Chillfur Yeti",
-				["TotalElapsedCombatTime"] = 15.61499999999978,
-				["CombatEndedAt"] = 5713.18,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 78079.003612,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 17916.002503,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5713.18,
-				["combat_id"] = 24,
-				["data_inicio"] = "00:21:13",
-				["tempo_start"] = 1576797673,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Chillfur Yeti",
-				["combat_counter"] = 43,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 5697.565000000001,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						1033.003612, -- [1]
-						1125, -- [2]
-						9868, -- [3]
-						1295, -- [4]
-						1738, -- [5]
-						2396, -- [6]
-						17995, -- [7]
-						19117, -- [8]
-						1369, -- [9]
-						802, -- [10]
-						7834, -- [11]
-						0, -- [12]
-						349, -- [13]
-						3551, -- [14]
-						1042, -- [15]
-						["max_value"] = 19117,
-					},
-					["Raid Damage Done"] = {
-						1033, -- [1]
-						1125, -- [2]
-						8828, -- [3]
-						1295, -- [4]
-						699, -- [5]
-						1354, -- [6]
-						17995, -- [7]
-						19117, -- [8]
-						327, -- [9]
-						802, -- [10]
-						7834, -- [11]
-						0, -- [12]
-						349, -- [13]
-						2509, -- [14]
-						0, -- [15]
-						["max_value"] = 19117,
-					},
-				},
-				["frags"] = {
-					["Chillfur Yeti"] = 2,
-				},
-			}, -- [13]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 23,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008538,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 2820,
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["custom"] = 0,
-							["friendlyfire_total"] = 0,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2820.008538,
-							["spells"] = {
-								["_ActorTable"] = {
-									[42223] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 1417,
-										["g_amt"] = 0,
-										["n_max"] = 379,
-										["targets"] = {
-											["Chillfur Yeti"] = 2820,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1403,
-										["n_min"] = 332,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 2820,
-										["c_max"] = 742,
-										["id"] = 42223,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 675,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 2820.008538,
-							["damage_taken"] = 0.008538,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 2817.191346652774,
-							["end_time"] = 1576797642,
-							["colocacao"] = 1,
-							["last_event"] = 1576797642,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797641,
-							["serial"] = "Player-3391-0A827D4F",
-							["on_hold"] = false,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.005262,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Awakened Dead"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.005262,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 0.005262,
-							["monster"] = true,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Chillfur Yeti",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Awakened Dead"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
-										["PARRY"] = 1,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["spellschool"] = 1,
-										["a_amt"] = 0,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1576797655,
-							["last_dps"] = 0,
-							["end_time"] = 1576797642,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3796.005262,
-							["start_time"] = 1576797642,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007BF6AD",
-							["dps_started"] = false,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 23,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.001867,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-								["Belpad <Zearthan>"] = 192,
-							},
-							["targets"] = {
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-							},
-							["classe"] = "WARLOCK",
-							["totalover"] = 192.001867,
-							["total_without_pet"] = 0.001867,
-							["totalover_without_pet"] = 0.001867,
-							["totaldenied"] = 0.001867,
-							["heal_enemy_amt"] = 0,
-							["total"] = 0.001867,
-							["healing_taken"] = 0.001867,
-							["end_time"] = 1576797642,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797641,
-							["on_hold"] = false,
-							["start_time"] = 1576797641,
-							["serial"] = "Player-3391-0A827D4F",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Belpad <Zearthan>"] = 192,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Belpad <Zearthan>"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 1,
-										["overheal"] = 192,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Belpad <Zearthan>"] = 0,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 0,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorb"] = 0.004927,
-							["last_hps"] = 0,
-							["healing_from"] = {
-							},
-							["targets"] = {
-							},
-							["tipo"] = 2,
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["targets_overheal"] = {
-							},
-							["healing_taken"] = 0.004927,
-							["totalover"] = 0.004927,
-							["total_without_pet"] = 0.004927,
-							["totalover_without_pet"] = 0.004927,
-							["classe"] = "PET",
-							["end_time"] = 1576797642,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["targets_absorbs"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["total"] = 0.004927,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["totaldenied"] = 0.004927,
-							["serial"] = "Pet-0-3895-1643-25944-416-0802B4B52E",
-							["start_time"] = 1576797642,
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 23,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.002415,
-							["resource"] = 1.002415,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.002415,
-							["total"] = 0.002415,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["totalover"] = 0.002415,
-							["flag_original"] = 1297,
-							["last_event"] = 1576797666,
-							["tipo"] = 3,
-							["spec"] = 267,
-							["alternatepower"] = 0.002415,
-							["serial"] = "Player-3391-0A827D4F",
-							["resource_type"] = 7,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 23,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 1,
-							["last_event"] = 1576797642,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 23,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["tempo_start"] = 1576797641,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Chillfur Yeti",
-				["combat_counter"] = 42,
-				["spells_cast_timeline"] = {
-				},
-				["totals"] = {
-					2819.991555, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "00:20:41",
-				["frags_need_refresh"] = false,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 2820.008538,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 0.001867,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5666.684,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						2820.008538, -- [1]
-						["max_value"] = 2820.008538,
-					},
-					["Raid Damage Done"] = {
-						2820, -- [1]
-						["max_value"] = 2820,
-					},
-				},
-				["instance_type"] = "none",
-				["combat_id"] = 23,
-				["cleu_timeline"] = {
-				},
-				["hasSaved"] = true,
-				["frags"] = {
-				},
-				["data_fim"] = "00:20:42",
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					2820, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 5665.683,
-				["contra"] = "Chillfur Yeti",
-				["overall_added"] = true,
-			}, -- [14]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 22,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008008,
-							["damage_from"] = {
-								["Chillfur Yeti"] = true,
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 95026,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 105072.008008,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 81350.008008,
-							["spells"] = {
-								["_ActorTable"] = {
-									[29722] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 8478,
-										["g_amt"] = 0,
-										["n_max"] = 2175,
-										["targets"] = {
-											["Chillfur Yeti"] = 33717,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 25239,
-										["n_min"] = 757,
-										["g_dmg"] = 0,
-										["counter"] = 26,
-										["total"] = 33717,
-										["c_max"] = 3831,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1514,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 22,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[234153] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 504,
-										["g_amt"] = 0,
-										["n_max"] = 252,
-										["targets"] = {
-											["Chillfur Yeti"] = 2520,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2016,
-										["n_min"] = 252,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 2520,
-										["c_max"] = 504,
-										["id"] = 234153,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 504,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1066,
-										["targets"] = {
-											["Chillfur Yeti"] = 3130,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3130,
-										["n_min"] = 1010,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 3130,
-										["c_max"] = 0,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[157736] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 5518,
-										["g_amt"] = 0,
-										["n_max"] = 734,
-										["targets"] = {
-											["Chillfur Yeti"] = 17150,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 11632,
-										["n_min"] = 14,
-										["g_dmg"] = 0,
-										["counter"] = 24,
-										["total"] = 17150,
-										["c_max"] = 1454,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1290,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 20,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 103,
-										["targets"] = {
-											["Chillfur Yeti"] = 1091,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1091,
-										["n_min"] = 17,
-										["g_dmg"] = 0,
-										["counter"] = 27,
-										["total"] = 1091,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 27,
-										["a_dmg"] = 0,
-										["spellschool"] = 48,
-									},
-									[42223] = {
-										["c_amt"] = 9,
-										["b_amt"] = 0,
-										["c_dmg"] = 6448,
-										["g_amt"] = 0,
-										["n_max"] = 394,
-										["targets"] = {
-											["Chillfur Yeti"] = 23742,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 17294,
-										["n_min"] = 341,
-										["g_dmg"] = 0,
-										["counter"] = 56,
-										["total"] = 23742,
-										["c_max"] = 763,
-										["id"] = 42223,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 686,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 47,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 95026.008008,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 2512.320431683553,
-							["end_time"] = 1576797641,
-							["colocacao"] = 1,
-							["last_event"] = 1576797640,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797603,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 10573.002421,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 105072,
-								["Belpad <Zearthan>"] = 8650,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 113722.002421,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 113722.002421,
-							["end_time"] = 1576797641,
-							["damage_taken"] = 95026.002421,
-							["nome"] = "Chillfur Yeti",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2392,
-										["g_amt"] = 0,
-										["n_max"] = 1243,
-										["targets"] = {
-											["Zearthan"] = 73456,
-											["Belpad <Zearthan>"] = 6023,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 77087,
-										["n_min"] = 706,
-										["g_dmg"] = 0,
-										["counter"] = 79,
-										["total"] = 79479,
-										["c_max"] = 2392,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 71201,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 2392,
-										["successful_casted"] = 0,
-										["a_amt"] = 66,
-										["n_amt"] = 74,
-										["spellschool"] = 1,
-										["MISS"] = 4,
-									}, -- [1]
-									[259264] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2871,
-										["targets"] = {
-											["Zearthan"] = 31616,
-											["Belpad <Zearthan>"] = 2627,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 34243,
-										["n_min"] = 2012,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 34243,
-										["c_max"] = 0,
-										["id"] = 259264,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 14,
-										["b_dmg"] = 0,
-										["n_amt"] = 14,
-										["a_amt"] = 13,
-										["a_dmg"] = 31948,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797641,
-							["on_hold"] = false,
-							["start_time"] = 1576797606,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007C010F",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.008522,
-							["damage_from"] = {
-								["Chillfur Yeti"] = true,
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 13676,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 8650.008522,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 13676.008522,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 13676.008522,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2104,
-										["g_amt"] = 0,
-										["n_max"] = 1052,
-										["targets"] = {
-											["Chillfur Yeti"] = 13676,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 11572,
-										["n_min"] = 1052,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 13676,
-										["c_max"] = 2104,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2104,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797641,
-							["last_event"] = 1576797638,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797606,
-							["serial"] = "Pet-0-3895-1643-25944-416-0802B4B52E",
-							["classe"] = "PET",
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 22,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Zearthan"] = 24,
-								["Belpad <Zearthan>"] = 1,
-							},
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 25.001544,
-							["total_without_pet"] = 72309.001544,
-							["total"] = 72309.001544,
-							["targets_absorbs"] = {
-								["Zearthan"] = 24812,
-								["Belpad <Zearthan>"] = 7248,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 32060.001544,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 65061,
-								["Belpad <Zearthan>"] = 7248,
-							},
-							["totalover_without_pet"] = 0.001544,
-							["healing_taken"] = 65061.001544,
-							["fight_component"] = true,
-							["end_time"] = 1576797641,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 6870,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 249,
-										["targets"] = {
-											["Zearthan"] = 6870,
-										},
-										["n_min"] = 44,
-										["counter"] = 81,
-										["overheal"] = 0,
-										["total"] = 6870,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 6870,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 81,
-										["n_curado"] = 6870,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[6262] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 14318,
-										["targets"] = {
-											["Zearthan"] = 14318,
-										},
-										["n_min"] = 14318,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 14318,
-										["c_max"] = 0,
-										["id"] = 6262,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 14318,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-									[270117] = {
-										["c_amt"] = 2,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1901,
-										["targets"] = {
-											["Zearthan"] = 13302,
-										},
-										["n_min"] = 1900,
-										["counter"] = 5,
-										["overheal"] = 0,
-										["total"] = 13302,
-										["c_max"] = 3801,
-										["id"] = 270117,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 7601,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 3,
-										["n_curado"] = 5701,
-										["c_min"] = 3800,
-										["absorbed"] = 0,
-									},
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 25190,
-										["targets_overheal"] = {
-											["Zearthan"] = 24,
-											["Belpad <Zearthan>"] = 1,
-										},
-										["n_max"] = 2097,
-										["targets"] = {
-											["Zearthan"] = 17942,
-											["Belpad <Zearthan>"] = 7248,
-										},
-										["n_min"] = 0,
-										["counter"] = 67,
-										["overheal"] = 25,
-										["total"] = 25190,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 17942,
-											["Belpad <Zearthan>"] = 7248,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 67,
-										["n_curado"] = 25190,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[234153] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2523,
-										["targets"] = {
-											["Zearthan"] = 12629,
-										},
-										["n_min"] = 1261,
-										["counter"] = 9,
-										["overheal"] = 0,
-										["total"] = 12629,
-										["c_max"] = 0,
-										["id"] = 234153,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 9,
-										["n_curado"] = 12629,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1576797641,
-							["totaldenied"] = 0.001544,
-							["start_time"] = 1576797606,
-							["delay"] = 0,
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.007312,
-							["total_without_pet"] = 0.007312,
-							["total"] = 0.007312,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3895-1643-25944-416-0802B4B52E",
-							["totalabsorb"] = 0.007312,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.007312,
-							["healing_taken"] = 7248.007312,
-							["fight_component"] = true,
-							["end_time"] = 1576797641,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["totaldenied"] = 0.007312,
-							["targets_overheal"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["last_event"] = 0,
-							["start_time"] = 1576797641,
-							["delay"] = 0,
-							["classe"] = "PET",
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 22,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.008715,
-							["resource"] = 1.008715,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.008715,
-							["fight_component"] = true,
-							["total"] = 0.008715,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["totalover"] = 0.008715,
-							["flag_original"] = 1297,
-							["last_event"] = 1576797617,
-							["tipo"] = 3,
-							["spec"] = 267,
-							["alternatepower"] = 0.008715,
-							["serial"] = "Player-3391-0A827D4F",
-							["resource_type"] = 7,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 22,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[157736] = {
-										["activedamt"] = -1,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["actived_at"] = 1576797628,
-										["uptime"] = 18,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["appliedamt"] = 2,
-									},
-									[234153] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 2,
-										["id"] = 234153,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 97,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 30,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 30,
-									},
-									[256374] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 256374,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 280713,
-										["uptime"] = 38,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 38,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 25,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[29722] = 7,
-								[6262] = 1,
-								[348] = 2,
-								[5740] = 2,
-								[234153] = 4,
-							},
-							["last_event"] = 1576797641,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["classe"] = "PET",
-							["spell_cast"] = {
-								[3110] = 12,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Pet-0-3895-1643-25944-416-0802B4B52E",
-							["fight_component"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["last_event"] = 0,
-							["nome"] = "Chillfur Yeti",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[259264] = 14,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007C010F",
-							["fight_component"] = true,
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 22,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["tempo_start"] = 1576797603,
-				["last_events_tables"] = {
-					{
-						{
-							{
-								true, -- [1]
-								1, -- [2]
-								1240, -- [3]
-								1576797637.514, -- [4]
-								4958, -- [5]
-								"Chillfur Yeti", -- [6]
-								78, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								false, -- [1]
-								234153, -- [2]
-								1264, -- [3]
-								1576797637.514, -- [4]
-								6222, -- [5]
-								"Zearthan", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								77220, -- [2]
-								63, -- [3]
-								1576797637.514, -- [4]
-								6222, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								77220, -- [2]
-								169, -- [3]
-								1576797638.026, -- [4]
-								5045, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								108366, -- [2]
-								306, -- [3]
-								1576797638.026, -- [4]
-								5045, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								259264, -- [2]
-								2845, -- [3]
-								1576797638.026, -- [4]
-								2675, -- [5]
-								"Chillfur Yeti", -- [6]
-								475, -- [7]
-								16, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1576797638.026, -- [4]
-								2675, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								1, -- [2]
-								1135, -- [3]
-								1576797638.15, -- [4]
-								2675, -- [5]
-								"Chillfur Yeti", -- [6]
-								97, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								77220, -- [2]
-								79, -- [3]
-								1576797638.15, -- [4]
-								2675, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								234153, -- [2]
-								2523, -- [3]
-								1576797638.367, -- [4]
-								4142, -- [5]
-								"Zearthan", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								true, -- [1]
-								1, -- [2]
-								995, -- [3]
-								1576797638.367, -- [4]
-								4142, -- [5]
-								"Chillfur Yeti", -- [6]
-								50, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								77220, -- [2]
-								49, -- [3]
-								1576797638.367, -- [4]
-								4142, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								true, -- [1]
-								1, -- [2]
-								1151, -- [3]
-								1576797638.791, -- [4]
-								3196, -- [5]
-								"Chillfur Yeti", -- [6]
-								81, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								77220, -- [2]
-								68, -- [3]
-								1576797638.791, -- [4]
-								3196, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								1, -- [2]
-								1131, -- [3]
-								1576797639.022, -- [4]
-								2113, -- [5]
-								"Chillfur Yeti", -- [6]
-								475, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								false, -- [1]
-								77220, -- [2]
-								74, -- [3]
-								1576797639.022, -- [4]
-								2113, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [16]
-							{
-								false, -- [1]
-								108366, -- [2]
-								410, -- [3]
-								1576797639.022, -- [4]
-								2113, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [17]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1576797639.022, -- [4]
-								2113, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [18]
-							{
-								false, -- [1]
-								234153, -- [2]
-								1261, -- [3]
-								1576797639.265, -- [4]
-								2727, -- [5]
-								"Zearthan", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [19]
-							{
-								true, -- [1]
-								1, -- [2]
-								1168, -- [3]
-								1576797639.625, -- [4]
-								2727, -- [5]
-								"Chillfur Yeti", -- [6]
-								64, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [20]
-							{
-								false, -- [1]
-								77220, -- [2]
-								73, -- [3]
-								1576797639.625, -- [4]
-								2727, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [21]
-							{
-								true, -- [1]
-								1, -- [2]
-								1243, -- [3]
-								1576797639.789, -- [4]
-								1632, -- [5]
-								"Chillfur Yeti", -- [6]
-								378, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [22]
-							{
-								false, -- [1]
-								77220, -- [2]
-								94, -- [3]
-								1576797639.789, -- [4]
-								1632, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [23]
-							{
-								false, -- [1]
-								108366, -- [2]
-								306, -- [3]
-								1576797639.789, -- [4]
-								1632, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [24]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1576797639.789, -- [4]
-								1632, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [25]
-							{
-								false, -- [1]
-								234153, -- [2]
-								1264, -- [3]
-								1576797640.121, -- [4]
-								2053, -- [5]
-								"Zearthan", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [26]
-							{
-								true, -- [1]
-								1, -- [2]
-								871, -- [3]
-								1576797640.289, -- [4]
-								2053, -- [5]
-								"Chillfur Yeti", -- [6]
-								56, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [27]
-							{
-								false, -- [1]
-								77220, -- [2]
-								61, -- [3]
-								1576797640.289, -- [4]
-								2053, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [28]
-							{
-								true, -- [1]
-								1, -- [2]
-								1110, -- [3]
-								1576797640.504, -- [4]
-								1243, -- [5]
-								"Chillfur Yeti", -- [6]
-								86, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [29]
-							{
-								false, -- [1]
-								77220, -- [2]
-								69, -- [3]
-								1576797640.504, -- [4]
-								1243, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [30]
-							{
-								false, -- [1]
-								77220, -- [2]
-								149, -- [3]
-								1576797640.867, -- [4]
-								202, -- [5]
-								"Zearthan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [31]
-							{
-								true, -- [1]
-								259264, -- [2]
-								2222, -- [3]
-								1576797640.867, -- [4]
-								1, -- [5]
-								"Chillfur Yeti", -- [6]
-								149, -- [7]
-								16, -- [8]
-								false, -- [9]
-								1871, -- [10]
-							}, -- [32]
-							{
-								3, -- [1]
-								0, -- [2]
-								0, -- [3]
-								0, -- [4]
-								0, -- [5]
-								"Zearthan", -- [6]
-							}, -- [33]
-						}, -- [1]
-						1576797640.867, -- [2]
-						"Zearthan", -- [3]
-						"WARLOCK", -- [4]
-						53040, -- [5]
-						"0m 37s", -- [6]
-						["dead"] = true,
-						["dead_at"] = 37.82400000000052,
-					}, -- [1]
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					208748, -- [1]
-					72309, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					81350, -- [1]
-					72309, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 1,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:20:41",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Chillfur Yeti",
-				["TotalElapsedCombatTime"] = 5665.377,
-				["CombatEndedAt"] = 5665.377,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 95026.008008,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 72309.001544,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5665.377,
-				["combat_id"] = 22,
-				["data_inicio"] = "00:20:03",
-				["overall_added"] = true,
-				["frags"] = {
-					["Chillfur Yeti"] = 1,
-				},
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						1066.008008, -- [1]
-						0, -- [2]
-						668, -- [3]
-						2062, -- [4]
-						1052, -- [5]
-						4303.000000000001, -- [6]
-						1106, -- [7]
-						733, -- [8]
-						1736, -- [9]
-						706, -- [10]
-						682, -- [11]
-						7176, -- [12]
-						1412, -- [13]
-						5341, -- [14]
-						2229, -- [15]
-						5737.000000000004, -- [16]
-						7816, -- [17]
-						3441, -- [18]
-						3240, -- [19]
-						7045, -- [20]
-						1452, -- [21]
-						1795, -- [22]
-						5187, -- [23]
-						5263, -- [24]
-						722, -- [25]
-						7154, -- [26]
-						0, -- [27]
-						0, -- [28]
-						1304, -- [29]
-						252, -- [30]
-						504, -- [31]
-						1304, -- [32]
-						0, -- [33]
-						3006, -- [34]
-						2380, -- [35]
-						2987, -- [36]
-						1739, -- [37]
-						["max_value"] = 7816,
-					},
-					["Raid Damage Done"] = {
-						1066, -- [1]
-						0, -- [2]
-						668, -- [3]
-						1010, -- [4]
-						0, -- [5]
-						2199, -- [6]
-						1106, -- [7]
-						733, -- [8]
-						684, -- [9]
-						706, -- [10]
-						682, -- [11]
-						6124, -- [12]
-						1412, -- [13]
-						5341, -- [14]
-						2229, -- [15]
-						4685, -- [16]
-						7816, -- [17]
-						3441, -- [18]
-						2188, -- [19]
-						7045, -- [20]
-						1452, -- [21]
-						743, -- [22]
-						5187, -- [23]
-						5263, -- [24]
-						722, -- [25]
-						6102, -- [26]
-						0, -- [27]
-						0, -- [28]
-						252, -- [29]
-						252, -- [30]
-						504, -- [31]
-						252, -- [32]
-						0, -- [33]
-						3006, -- [34]
-						2380, -- [35]
-						1935, -- [36]
-						1739, -- [37]
-						["max_value"] = 7816,
-					},
-				},
-				["combat_counter"] = 41,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 5627.553,
-				["contra"] = "Chillfur Yeti",
-				["spells_cast_timeline"] = {
-				},
-			}, -- [15]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 21,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004761,
-							["damage_from"] = {
-								["Chillfur Yeti"] = true,
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 35667,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 12337.004761,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 30422.004761,
-							["spells"] = {
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3595,
-										["targets"] = {
-											["Chillfur Yeti"] = 3595,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3595,
-										["n_min"] = 3595,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3595,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[116858] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8087,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Chillfur Yeti"] = 8087,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 8087,
-										["c_max"] = 8087,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 8087,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 124,
-									},
-									[348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1145,
-										["targets"] = {
-											["Chillfur Yeti"] = 1145,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1145,
-										["n_min"] = 1145,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1145,
-										["c_max"] = 0,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[157736] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1303,
-										["g_amt"] = 0,
-										["n_max"] = 708,
-										["targets"] = {
-											["Chillfur Yeti"] = 3361,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2058,
-										["n_min"] = 660,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 3361,
-										["c_max"] = 1303,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1303,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[266136] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1284,
-										["targets"] = {
-											["Chillfur Yeti"] = 1284,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1284,
-										["n_min"] = 1284,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1284,
-										["c_max"] = 0,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[265931] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 335,
-										["targets"] = {
-											["Chillfur Yeti"] = 1171,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1171,
-										["n_min"] = 166,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 1171,
-										["c_max"] = 0,
-										["id"] = 265931,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[29722] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 7750,
-										["g_amt"] = 0,
-										["n_max"] = 2104,
-										["targets"] = {
-											["Chillfur Yeti"] = 11779,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4029,
-										["n_min"] = 1925,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 11779,
-										["c_max"] = 3957,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 3793,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 35667.004761,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 2648.081131561353,
-							["end_time"] = 1576797592,
-							["colocacao"] = 1,
-							["last_event"] = 1576797591,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797579,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 7981.008905,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 12337,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 12337.008905,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 12337.008905,
-							["end_time"] = 1576797592,
-							["damage_taken"] = 35667.008905,
-							["nome"] = "Chillfur Yeti",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1243,
-										["targets"] = {
-											["Zearthan"] = 9727,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 9727,
-										["n_min"] = 950,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 9727,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 3,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_dmg"] = 3335,
-										["spellschool"] = 1,
-									}, -- [1]
-									[259264] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2610,
-										["targets"] = {
-											["Zearthan"] = 2610,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2610,
-										["n_min"] = 2610,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2610,
-										["c_max"] = 0,
-										["id"] = 259264,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["a_dmg"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797590,
-							["on_hold"] = false,
-							["start_time"] = 1576797578,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007C00D6",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.007038,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 5245,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.007038,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5245.007038,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 5245.007038,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1049,
-										["targets"] = {
-											["Chillfur Yeti"] = 5245,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5245,
-										["n_min"] = 1049,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 5245,
-										["c_max"] = 0,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797592,
-							["last_event"] = 1576797590,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797581,
-							["serial"] = "Pet-0-3895-1643-25944-416-0802B4B52E",
-							["classe"] = "PET",
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 21,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 1.003298,
-							["total_without_pet"] = 13263.003298,
-							["total"] = 13263.003298,
-							["targets_absorbs"] = {
-								["Zearthan"] = 11368,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 11368.003298,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 13263,
-							},
-							["totalover_without_pet"] = 0.003298,
-							["healing_taken"] = 13263.003298,
-							["fight_component"] = true,
-							["end_time"] = 1576797592,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 10652,
-										["targets_overheal"] = {
-											["Zearthan"] = 1,
-										},
-										["n_max"] = 2496,
-										["targets"] = {
-											["Zearthan"] = 10652,
-										},
-										["n_min"] = 683,
-										["counter"] = 11,
-										["overheal"] = 1,
-										["total"] = 10652,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 10652,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 11,
-										["n_curado"] = 10652,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[270117] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1895,
-										["targets"] = {
-											["Zearthan"] = 1895,
-										},
-										["n_min"] = 1895,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 1895,
-										["c_max"] = 0,
-										["id"] = 270117,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 1895,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 716,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 114,
-										["targets"] = {
-											["Zearthan"] = 716,
-										},
-										["n_min"] = 54,
-										["counter"] = 10,
-										["overheal"] = 0,
-										["total"] = 716,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 716,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 10,
-										["n_curado"] = 716,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["targets_overheal"] = {
-								["Zearthan"] = 1,
-							},
-							["last_event"] = 1576797590,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.003298,
-							["start_time"] = 1576797578,
-							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 21,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.007215,
-							["resource"] = 1.007215014901161,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.007215,
-							["fight_component"] = true,
-							["total"] = 0.007215,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["totalover"] = 0.007215,
-							["flag_original"] = 1297,
-							["last_event"] = 1576797588,
-							["tipo"] = 3,
-							["spec"] = 267,
-							["alternatepower"] = 0.007215,
-							["serial"] = "Player-3391-0A827D4F",
-							["resource_type"] = 7,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 21,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[157736] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 157736,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[265931] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 265931,
-										["uptime"] = 6,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 50,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 14,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[279673] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 279673,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 280713,
-										["uptime"] = 14,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 4,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 4,
-									},
-									[287660] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 287660,
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 18,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[29722] = 4,
-								[348] = 1,
-								[17962] = 1,
-								[116858] = 2,
-							},
-							["last_event"] = 1576797592,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[3110] = 5,
-							},
-							["serial"] = "Pet-0-3895-1643-25944-416-0802B4B52E",
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Chillfur Yeti",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[259264] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007C00D6",
-							["fight_component"] = true,
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 21,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["CombatStartedAt"] = 5627.553,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					48004, -- [1]
-					13263, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					30422, -- [1]
-					13263, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:19:52",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Chillfur Yeti",
-				["TotalElapsedCombatTime"] = 5616.104,
-				["CombatEndedAt"] = 5616.104,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 35667.004761,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 13263.003298,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5616.104,
-				["combat_id"] = 21,
-				["data_inicio"] = "00:19:38",
-				["tempo_start"] = 1576797578,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Chillfur Yeti",
-				["combat_counter"] = 40,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 5602.635,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						4740.004761, -- [1]
-						0, -- [2]
-						1384, -- [3]
-						10031, -- [4]
-						1384, -- [5]
-						3147, -- [6]
-						1215, -- [7]
-						3793, -- [8]
-						2352, -- [9]
-						1925, -- [10]
-						690, -- [11]
-						0, -- [12]
-						1049, -- [13]
-						["max_value"] = 10031,
-					},
-					["Raid Damage Done"] = {
-						4740, -- [1]
-						0, -- [2]
-						335, -- [3]
-						10031, -- [4]
-						335, -- [5]
-						3147, -- [6]
-						166, -- [7]
-						3793, -- [8]
-						1303, -- [9]
-						1925, -- [10]
-						690, -- [11]
-						0, -- [12]
-						0, -- [13]
-						["max_value"] = 10031,
-					},
-				},
-				["frags"] = {
-					["Chillfur Yeti"] = 1,
-				},
-			}, -- [16]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 20,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004363,
-							["damage_from"] = {
-								["Awakened Dead"] = true,
-							},
-							["targets"] = {
-								["Awakened Dead"] = 119495,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Infernal <Zearthan>", -- [1]
-								"Belpad <Zearthan>", -- [2]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 79367.004363,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 42684.004363,
-							["spells"] = {
-								["_ActorTable"] = {
-									[255586] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 1782,
-										["g_amt"] = 0,
-										["n_max"] = 223,
-										["targets"] = {
-											["Awakened Dead"] = 3781,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1999,
-										["n_min"] = 222,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 3781,
-										["c_max"] = 446,
-										["id"] = 255586,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 445,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
-									},
-									[234153] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 3002,
-										["g_amt"] = 0,
-										["n_max"] = 251,
-										["targets"] = {
-											["Awakened Dead"] = 9011,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6009,
-										["n_min"] = 250,
-										["g_dmg"] = 0,
-										["counter"] = 30,
-										["total"] = 9011,
-										["c_max"] = 502,
-										["id"] = 234153,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 500,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 24,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
-									},
-									[22703] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1418,
-										["targets"] = {
-											["Awakened Dead"] = 7087,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7087,
-										["n_min"] = 1417,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 7087,
-										["c_max"] = 0,
-										["id"] = 22703,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 36,
-										["targets"] = {
-											["Awakened Dead"] = 300,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 300,
-										["n_min"] = 12,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 300,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 17,
-										["a_dmg"] = 0,
-										["spellschool"] = 48,
-									},
-									[29722] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 5421,
-										["g_amt"] = 0,
-										["n_max"] = 1955,
-										["targets"] = {
-											["Awakened Dead"] = 12823,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7402,
-										["n_min"] = 739,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 12823,
-										["c_max"] = 3862,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 1559,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[42223] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 3553,
-										["g_amt"] = 0,
-										["n_max"] = 388,
-										["targets"] = {
-											["Awakened Dead"] = 9682,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6129,
-										["n_min"] = 338,
-										["g_dmg"] = 0,
-										["counter"] = 22,
-										["total"] = 9682,
-										["c_max"] = 742,
-										["id"] = 42223,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 680,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 17,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 119495.004363,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 2507.344084162185,
-							["end_time"] = 1576797562,
-							["colocacao"] = 1,
-							["last_event"] = 1576797560,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797521,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 13823.004055,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Infernal <Zearthan>"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 79367,
-								["Infernal <Zearthan>"] = 40013,
-								["Belpad <Zearthan>"] = 205,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 119585.004055,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 119585.004055,
-							["end_time"] = 1576797562,
-							["damage_taken"] = 119495.004055,
-							["nome"] = "Awakened Dead",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 11737,
-										["g_amt"] = 0,
-										["n_max"] = 2444,
-										["targets"] = {
-											["Zearthan"] = 59294,
-											["Infernal <Zearthan>"] = 31666,
-											["Infernal"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 79223,
-										["n_min"] = 615,
-										["g_dmg"] = 0,
-										["counter"] = 92,
-										["r_amt"] = 0,
-										["total"] = 90960,
-										["c_max"] = 1877,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_amt"] = 42,
-										["m_crit"] = 0,
-										["c_min"] = 1299,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 46316,
-										["n_amt"] = 81,
-										["MISS"] = 3,
-										["DODGE"] = 1,
-									}, -- [1]
-									[257518] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1054,
-										["targets"] = {
-											["Zearthan"] = 4214,
-											["Infernal <Zearthan>"] = 3701,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7915,
-										["n_min"] = 740,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 7915,
-										["c_max"] = 0,
-										["id"] = 257518,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 9,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 4,
-										["a_dmg"] = 4214,
-									},
-									[257514] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1056,
-										["targets"] = {
-											["Zearthan"] = 8430,
-											["Infernal <Zearthan>"] = 185,
-											["Belpad"] = 0,
-											["Belpad <Zearthan>"] = 205,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8820,
-										["n_min"] = 37,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 8820,
-										["c_max"] = 0,
-										["id"] = 257514,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 7,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 14,
-										["b_dmg"] = 0,
-										["n_amt"] = 18,
-										["a_dmg"] = 7378,
-										["MISS"] = 1,
-									},
-									[257519] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 372,
-										["targets"] = {
-											["Zearthan"] = 7429,
-											["Infernal <Zearthan>"] = 4461,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 11890,
-										["n_min"] = 371,
-										["g_dmg"] = 0,
-										["counter"] = 32,
-										["total"] = 11890,
-										["c_max"] = 0,
-										["id"] = 257519,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 18,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 32,
-										["a_dmg"] = 6686,
-										["spellschool"] = 8,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797559,
-							["on_hold"] = false,
-							["start_time"] = 1576797514,
-							["serial"] = "Creature-0-3895-1643-25944-136490-00007C0034",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["totalabsorbed"] = 0.002962,
-							["damage_from"] = {
-								["Awakened Dead"] = true,
-							},
-							["targets"] = {
-								["Awakened Dead"] = 61143,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 40013.002962,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 61143.002962,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 61143.002962,
-							["delay"] = 1576797541,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Infernal <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 974,
-										["g_amt"] = 0,
-										["n_max"] = 488,
-										["targets"] = {
-											["Awakened Dead"] = 5846,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4872,
-										["n_min"] = 487,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 5846,
-										["c_max"] = 974,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 974,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[20153] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 14600,
-										["g_amt"] = 0,
-										["n_max"] = 1046,
-										["targets"] = {
-											["Awakened Dead"] = 55297,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 40697,
-										["n_min"] = 1042,
-										["g_dmg"] = 0,
-										["counter"] = 46,
-										["total"] = 55297,
-										["c_max"] = 2086,
-										["id"] = 20153,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2085,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 39,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797562,
-							["last_event"] = 1576797541,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797542,
-							["serial"] = "Creature-0-3895-1643-25944-89-00007C0555",
-							["classe"] = "PET",
-						}, -- [3]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.006206,
-							["damage_from"] = {
-								["Awakened Dead"] = true,
-							},
-							["targets"] = {
-								["Awakened Dead"] = 15668,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 205.006206,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 15668.006206,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 15668.006206,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 4178,
-										["g_amt"] = 0,
-										["n_max"] = 1046,
-										["targets"] = {
-											["Awakened Dead"] = 15668,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 11490,
-										["n_min"] = 1042,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 15668,
-										["c_max"] = 2092,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2086,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797562,
-							["last_event"] = 1576797560,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797523,
-							["serial"] = "Pet-0-3895-1643-25944-416-0702B4B52E",
-							["classe"] = "PET",
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 20,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Zearthan"] = 15,
-							},
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 15.005957,
-							["total_without_pet"] = 80657.005957,
-							["total"] = 80657.005957,
-							["targets_absorbs"] = {
-								["Zearthan"] = 24428,
-								["Belpad <Zearthan>"] = 205,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 24633.005957,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 80452,
-								["Belpad <Zearthan>"] = 205,
-							},
-							["totalover_without_pet"] = 0.005957,
-							["healing_taken"] = 80452.005957,
-							["fight_component"] = true,
-							["end_time"] = 1576797562,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 19688,
-										["targets_overheal"] = {
-											["Zearthan"] = 15,
-										},
-										["n_max"] = 2260,
-										["targets"] = {
-											["Zearthan"] = 19483,
-											["Belpad <Zearthan>"] = 205,
-										},
-										["n_min"] = 0,
-										["counter"] = 55,
-										["overheal"] = 15,
-										["total"] = 19688,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 19483,
-											["Belpad <Zearthan>"] = 205,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 55,
-										["n_curado"] = 19688,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[234153] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2504,
-										["targets"] = {
-											["Zearthan"] = 42821,
-										},
-										["n_min"] = 220,
-										["counter"] = 30,
-										["overheal"] = 0,
-										["total"] = 42821,
-										["c_max"] = 0,
-										["id"] = 234153,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 30,
-										["n_curado"] = 42821,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-									[270117] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1890,
-										["targets"] = {
-											["Zearthan"] = 13203,
-										},
-										["n_min"] = 1878,
-										["counter"] = 6,
-										["overheal"] = 0,
-										["total"] = 13203,
-										["c_max"] = 3779,
-										["id"] = 270117,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 3779,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 5,
-										["n_curado"] = 9424,
-										["c_min"] = 3779,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 4945,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 184,
-										["targets"] = {
-											["Zearthan"] = 4945,
-										},
-										["n_min"] = 16,
-										["counter"] = 84,
-										["overheal"] = 0,
-										["total"] = 4945,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 4945,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 84,
-										["n_curado"] = 4945,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1576797560,
-							["totaldenied"] = 0.005957,
-							["start_time"] = 1576797514,
-							["delay"] = 0,
-							["classe"] = "WARLOCK",
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.001023,
-							["total_without_pet"] = 0.001023,
-							["total"] = 0.001023,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3895-1643-25944-416-0702B4B52E",
-							["totalabsorb"] = 0.001023,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.001023,
-							["healing_taken"] = 205.001023,
-							["fight_component"] = true,
-							["end_time"] = 1576797562,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["totaldenied"] = 0.001023,
-							["targets_overheal"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["last_event"] = 0,
-							["start_time"] = 1576797562,
-							["delay"] = 0,
-							["classe"] = "PET",
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 20,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.004687,
-							["resource"] = 1.004687,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.004687,
-							["fight_component"] = true,
-							["total"] = 0.004687,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["totalover"] = 0.004687,
-							["flag_original"] = 1297,
-							["last_event"] = 1576797538,
-							["tipo"] = 3,
-							["spec"] = 267,
-							["alternatepower"] = 0.004687,
-							["serial"] = "Player-3391-0A827D4F",
-							["resource_type"] = 7,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 20,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[253309] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 253309,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[234153] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 8,
-										["id"] = 234153,
-										["uptime"] = 29,
-										["targets"] = {
-										},
-										["appliedamt"] = 6,
-									},
-									[22703] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 22703,
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 5,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 135,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[232412] = {
-										["activedamt"] = 1,
-										["id"] = 232412,
-										["targets"] = {
-										},
-										["actived_at"] = 1576797514,
-										["uptime"] = 0,
-										["counter"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = true,
-										["appliedamt"] = 1,
-									},
-									[256374] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 256374,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[280713] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 280713,
-										["uptime"] = 41,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 28,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 34,
-										["targets"] = {
-										},
-										["appliedamt"] = 28,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 48,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 38,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[1122] = 1,
-								[234153] = 14,
-								[29722] = 2,
-								[5740] = 1,
-							},
-							["last_event"] = 1576797562,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-								"Infernal <Zearthan>", -- [2]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["last_event"] = 0,
-							["nome"] = "Awakened Dead",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[257514] = 14,
-								[257518] = 9,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-136490-00007C003D",
-							["fight_component"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["classe"] = "PET",
-							["spell_cast"] = {
-								[3110] = 13,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Pet-0-3895-1643-25944-416-0702B4B52E",
-							["fight_component"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 8465,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Infernal <Zearthan>",
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[19483] = 1,
-							},
-							["serial"] = "Creature-0-3895-1643-25944-89-00007C0555",
-							["classe"] = "PET",
-						}, -- [4]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 20,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["CombatStartedAt"] = 5601.437,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					239079.991315, -- [1]
-					80657, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					42684, -- [1]
-					80657, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:19:22",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Awakened Dead",
-				["TotalElapsedCombatTime"] = 5585.945,
-				["CombatEndedAt"] = 5585.945,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 119495.004363,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 80657.005957,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 5585.945,
-				["combat_id"] = 20,
-				["data_inicio"] = "00:18:34",
-				["tempo_start"] = 1576797514,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Awakened Dead",
-				["combat_counter"] = 39,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 5538.287,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						0.004363, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						7087, -- [8]
-						487, -- [9]
-						1043, -- [10]
-						8111, -- [11]
-						9009, -- [12]
-						13096, -- [13]
-						1654, -- [14]
-						7005, -- [15]
-						2030, -- [16]
-						6756, -- [17]
-						737, -- [18]
-						7798, -- [19]
-						8037, -- [20]
-						737, -- [21]
-						7547, -- [22]
-						737, -- [23]
-						5480, -- [24]
-						990, -- [25]
-						4209, -- [26]
-						5027, -- [27]
-						4120, -- [28]
-						1314, -- [29]
-						3836, -- [30]
-						1162, -- [31]
-						1135, -- [32]
-						1046, -- [33]
-						264, -- [34]
-						0, -- [35]
-						1571, -- [36]
-						262, -- [37]
-						262, -- [38]
-						1308, -- [39]
-						0, -- [40]
-						263, -- [41]
-						250, -- [42]
-						1296, -- [43]
-						946, -- [44]
-						919, -- [45]
-						918, -- [46]
-						1046, -- [47]
-						["max_value"] = 13096,
-					},
-					["Raid Damage Done"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						7087, -- [8]
-						0, -- [9]
-						0, -- [10]
-						7137, -- [11]
-						667, -- [12]
-						6352, -- [13]
-						1167, -- [14]
-						750, -- [15]
-						500, -- [16]
-						500, -- [17]
-						250, -- [18]
-						500, -- [19]
-						250, -- [20]
-						250, -- [21]
-						250, -- [22]
-						250, -- [23]
-						250, -- [24]
-						502, -- [25]
-						1071, -- [26]
-						1401, -- [27]
-						3074, -- [28]
-						1314, -- [29]
-						1744, -- [30]
-						1162, -- [31]
-						1135, -- [32]
-						0, -- [33]
-						264, -- [34]
-						0, -- [35]
-						525, -- [36]
-						262, -- [37]
-						262, -- [38]
-						262, -- [39]
-						0, -- [40]
-						263, -- [41]
-						250, -- [42]
-						250, -- [43]
-						946, -- [44]
-						919, -- [45]
-						918, -- [46]
-						0, -- [47]
-						["max_value"] = 7137,
-					},
-				},
-				["frags"] = {
-					["Awakened Dead"] = 5,
-				},
-			}, -- [17]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 19,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 11619.002697,
-							["damage_from"] = {
-								["Zearthan"] = true,
-								["Belpad <Zearthan>"] = true,
-							},
-							["targets"] = {
-								["Zearthan"] = 36332,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 36332.002697,
-							["delay"] = 0,
-							["fight_component"] = true,
-							["total"] = 36332.002697,
-							["end_time"] = 1576797501,
-							["damage_taken"] = 74423.002697,
-							["nome"] = "Chillfur Yeti",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1277,
-										["targets"] = {
-											["Zearthan"] = 25607,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 25607,
-										["n_min"] = 898,
-										["g_dmg"] = 0,
-										["counter"] = 24,
-										["total"] = 25607,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 15714,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 14,
-										["n_amt"] = 23,
-										["spellschool"] = 1,
-										["DODGE"] = 1,
-									}, -- [1]
-									[259264] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2894,
-										["targets"] = {
-											["Zearthan"] = 10725,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 10725,
-										["n_min"] = 2155,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 10725,
-										["c_max"] = 0,
-										["id"] = 259264,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 4,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 3,
-										["a_dmg"] = 7866,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1576797500,
-							["on_hold"] = false,
-							["start_time"] = 1576797480,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007C000F",
-							["dps_started"] = false,
-						}, -- [1]
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005275,
-							["damage_from"] = {
-								["Chillfur Yeti"] = true,
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 74423,
-							},
-							["delay"] = 0,
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["custom"] = 0,
-							["damage_taken"] = 36332.005275,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 67143.005275,
-							["spells"] = {
-								["_ActorTable"] = {
-									[157736] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 3970,
-										["g_amt"] = 0,
-										["n_max"] = 693,
-										["targets"] = {
-											["Chillfur Yeti"] = 8528,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4558,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 8528,
-										["c_max"] = 1374,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[265931] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 665,
-										["g_amt"] = 0,
-										["n_max"] = 333,
-										["targets"] = {
-											["Chillfur Yeti"] = 3300,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2635,
-										["n_min"] = 153,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 3300,
-										["c_max"] = 665,
-										["id"] = 265931,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 665,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[42223] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 753,
-										["g_amt"] = 0,
-										["n_max"] = 383,
-										["targets"] = {
-											["Chillfur Yeti"] = 6169,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5416,
-										["n_min"] = 336,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 6169,
-										["c_max"] = 753,
-										["id"] = 42223,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 753,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[29722] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 3738,
-										["g_amt"] = 0,
-										["n_max"] = 2056,
-										["targets"] = {
-											["Chillfur Yeti"] = 11456,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7718,
-										["n_min"] = 755,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 11456,
-										["c_max"] = 3738,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 3738,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[116858] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 21232,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Chillfur Yeti"] = 21232,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 21232,
-										["c_max"] = 8397,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 4653,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 124,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 408,
-										["targets"] = {
-											["Chillfur Yeti"] = 2022,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2022,
-										["n_min"] = 7,
-										["g_dmg"] = 0,
-										["counter"] = 36,
-										["total"] = 2022,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 36,
-										["a_dmg"] = 0,
-										["spellschool"] = 48,
-									},
-									[348] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2266,
-										["g_amt"] = 0,
-										["n_max"] = 1006,
-										["targets"] = {
-											["Chillfur Yeti"] = 3272,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1006,
-										["n_min"] = 1006,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 3272,
-										["c_max"] = 2266,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 2266,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3420,
-										["targets"] = {
-											["Chillfur Yeti"] = 8647,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8647,
-										["n_min"] = 1910,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 8647,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[266136] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1259,
-										["targets"] = {
-											["Chillfur Yeti"] = 2517,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2517,
-										["n_min"] = 1258,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2517,
-										["c_max"] = 0,
-										["id"] = 266136,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["total"] = 74423.005275,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "Zearthan",
-							["spec"] = 267,
-							["grupo"] = true,
-							["last_dps"] = 3501.43520465771,
-							["end_time"] = 1576797501,
-							["colocacao"] = 1,
-							["last_event"] = 1576797501,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1576797481,
-							["serial"] = "Player-3391-0A827D4F",
-							["classe"] = "WARLOCK",
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.006161,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Chillfur Yeti"] = 7280,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.006161,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 7280.006161,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 7280.006161,
-							["delay"] = 0,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1040,
-										["targets"] = {
-											["Chillfur Yeti"] = 7280,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7280,
-										["n_min"] = 1040,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 7280,
-										["c_max"] = 0,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1576797501,
-							["last_event"] = 1576797500,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1576797484,
-							["serial"] = "Pet-0-3895-1643-25944-416-0602B4B52E",
-							["classe"] = "PET",
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 19,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Zearthan"] = 6,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 6.006973,
-							["total_without_pet"] = 22868.006973,
-							["total"] = 22868.006973,
-							["targets_absorbs"] = {
-								["Zearthan"] = 19112,
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D4F",
-							["totalabsorb"] = 19112.006973,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Zearthan"] = 22868,
-							},
-							["totalover_without_pet"] = 0.006973,
-							["healing_taken"] = 22868.006973,
-							["fight_component"] = true,
-							["end_time"] = 1576797501,
-							["spec"] = 267,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 16938,
-										["targets_overheal"] = {
-											["Zearthan"] = 6,
-										},
-										["n_max"] = 2723,
-										["targets"] = {
-											["Zearthan"] = 16938,
-										},
-										["n_min"] = 0,
-										["counter"] = 27,
-										["overheal"] = 6,
-										["total"] = 16938,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Zearthan"] = 16938,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 27,
-										["n_curado"] = 16938,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[270117] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1878,
-										["targets"] = {
-											["Zearthan"] = 3756,
-										},
-										["n_min"] = 1878,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 3756,
-										["c_max"] = 0,
-										["id"] = 270117,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["m_amt"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 2,
-										["n_curado"] = 3756,
-										["c_min"] = 0,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 2174,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 170,
-										["targets"] = {
-											["Zearthan"] = 2174,
-										},
-										["n_min"] = 44,
-										["counter"] = 27,
-										["overheal"] = 0,
-										["total"] = 2174,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-											["Zearthan"] = 2174,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 27,
-										["n_curado"] = 2174,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["healing_from"] = {
-								["Zearthan"] = true,
-							},
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1576797500,
-							["totaldenied"] = 0.006973,
-							["start_time"] = 1576797480,
-							["delay"] = 0,
-							["classe"] = "WARLOCK",
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 19,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.005516,
-							["resource"] = 2.005516,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.005516,
-							["fight_component"] = true,
-							["total"] = 0.005516,
-							["nome"] = "Zearthan",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["totalover"] = 0.005516,
-							["flag_original"] = 1297,
-							["last_event"] = 1576797485,
-							["tipo"] = 3,
-							["spec"] = 267,
-							["alternatepower"] = 0.005516,
-							["serial"] = "Player-3391-0A827D4F",
-							["resource_type"] = 7,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 19,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[265931] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 265931,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 3,
-									},
-									[157736] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 157736,
-										["uptime"] = 14,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[80240] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 80240,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 59,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[186401] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186401,
-										["uptime"] = 21,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[256374] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 256374,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 12,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 14,
-										["targets"] = {
-										},
-										["appliedamt"] = 12,
-									},
-									[279673] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 279673,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 36,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 2,
-								[116858] = 2,
-								[348] = 2,
-								[80240] = 1,
-								[5740] = 1,
-								[29722] = 3,
-							},
-							["last_event"] = 1576797501,
-							["tipo"] = 4,
-							["nome"] = "Zearthan",
-							["pets"] = {
-								"Belpad <Zearthan>", -- [1]
-							},
-							["serial"] = "Player-3391-0A827D4F",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zearthan",
-							["nome"] = "Belpad <Zearthan>",
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[3110] = 7,
-							},
-							["serial"] = "Pet-0-3895-1643-25944-416-0602B4B52E",
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["last_event"] = 0,
-							["nome"] = "Chillfur Yeti",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[259264] = 4,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3895-1643-25944-127682-00007C000F",
-							["fight_component"] = true,
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 19,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zearthan"] = true,
-				},
-				["CombatStartedAt"] = 5537.866,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					110754.997471, -- [1]
-					22868, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:18:21",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Chillfur Yeti",
-				["TotalElapsedCombatTime"] = 5525.725,
-				["CombatEndedAt"] = 5525.725,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "00:18:00",
-				["end_time"] = 5525.725,
-				["combat_id"] = 19,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Zearthan"] = 74423.005275,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zearthan"] = 22868.006973,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["tempo_start"] = 1576797480,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Chillfur Yeti",
-				["combat_counter"] = 38,
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					67143, -- [1]
-					22868, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 5504.222,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						0.005275, -- [1]
-						2266, -- [2]
-						1006, -- [3]
-						5810, -- [4]
-						171, -- [5]
-						2093, -- [6]
-						2920, -- [7]
-						2572, -- [8]
-						722, -- [9]
-						7107, -- [10]
-						2322, -- [11]
-						1434, -- [12]
-						18454, -- [13]
-						5487, -- [14]
-						1444, -- [15]
-						2340, -- [16]
-						4493, -- [17]
-						3859, -- [18]
-						0, -- [19]
-						486, -- [20]
-						1040, -- [21]
-						["max_value"] = 18454,
-					},
-					["Raid Damage Done"] = {
-						0, -- [1]
-						2266, -- [2]
-						1006, -- [3]
-						4770, -- [4]
-						171, -- [5]
-						1053, -- [6]
-						1880, -- [7]
-						2572, -- [8]
-						722, -- [9]
-						6067, -- [10]
-						2322, -- [11]
-						1434, -- [12]
-						17414, -- [13]
-						5487, -- [14]
-						1444, -- [15]
-						1300, -- [16]
-						4493, -- [17]
-						3859, -- [18]
-						0, -- [19]
-						486, -- [20]
-						0, -- [21]
-						["max_value"] = 17414,
-					},
-				},
-				["frags"] = {
-					["Chillfur Yeti"] = 2,
-				},
 			}, -- [18]
 		},
 	},
@@ -18740,30 +18582,7 @@ _detalhes_database = {
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
 		["last_version"] = 11,
-		["Kuroren"] = {
-			"Kuroren", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Armsmaster Harlan", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-Windy", -- [4]
-			{
-				0.9453125, -- [1]
-				0.07421875, -- [2]
-				0.8203125, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			3, -- [7]
-		},
-		["nextreset"] = 1578092816,
+		["nextreset"] = 1579946304,
 	},
 	["last_instance_id"] = 0,
 	["announce_interrupts"] = {
@@ -18791,7 +18610,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -18800,7 +18619,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -18894,10 +18713,10 @@ _detalhes_database = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["y"] = -20.15869140625,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -18905,9 +18724,13 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -20.15869140625,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -18919,36 +18742,32 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
+			["font_size"] = 14,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["font_size"] = 14,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["use_spark"] = false,
+			["main_frame_strata"] = "LOW",
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
 		},
+	},
+	["last_day"] = "14",
+	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "29",
-	["cached_talents"] = {
-	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 12,
+		["logons"] = 14,
 	},
-	["combat_id"] = 36,
+	["combat_id"] = 47,
 	["savedStyles"] = {
 	},
 	["local_instances_config"] = {
@@ -19048,17 +18867,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 267723.025914,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 90382.025914,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576796905,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Grotesque Thrall",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19078,17 +18897,17 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 40,
-								["r_amt"] = 0,
 								["total"] = 42649,
+								["r_amt"] = 0,
 								["c_max"] = 0,
 								["DODGE"] = 1,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["b_dmg"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["a_dmg"] = 22379,
 								["n_amt"] = 35,
@@ -19144,8 +18963,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 8,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -19173,8 +18992,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -19221,14 +19040,14 @@ _detalhes_database = {
 					["total"] = 90382.025914,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 267723.025914,
+					["last_dps"] = 0,
 					["start_time"] = 1576796838,
 					["serial"] = "Creature-0-3895-1643-25944-137842-00007C01E8",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.194194,
+					["totalabsorbed"] = 0.241184,
 					["damage_from"] = {
 						["Sister Widdowson"] = true,
 						["Suspicious Refugee"] = true,
@@ -19236,101 +19055,150 @@ _detalhes_database = {
 						["Brambleguard <Sister Widdowson>"] = true,
 						["Unmasked Witch"] = true,
 						["Awakened Dead"] = true,
+						["Captain Razorspine"] = true,
 						["Alpine Falcon"] = true,
 						["Sister Littlefield"] = true,
+						["Curseformed Ravager"] = true,
 						["Deathbound Shambler"] = true,
 						["Arom's Stand Commoner"] = true,
+						["Azsh'ari Siegemistress"] = true,
+						["Stonebound Guardian"] = true,
+						["[*] Runic Mark"] = true,
 						["Misshapen Thrall"] = true,
+						["Splintered Thrall"] = true,
 						["Frostmange"] = true,
 						["Grotesque Thrall"] = true,
+						["Tidemistress Ethendriss"] = true,
 						["Deathbound Thrasher"] = true,
-						["Splintered Thrall"] = true,
-						["Curseformed Ravager"] = true,
-						["Stonebound Guardian"] = true,
+						["Zanj'ir Trapper"] = true,
+						["Zanj'ir Myrmidon"] = true,
 						["Corlain Refugee"] = true,
-						["[*] Runic Mark"] = true,
+						["Pack Leader Asenya"] = true,
 						["Chillfur Yeti"] = true,
 					},
 					["targets"] = {
 						["Sister Widdowson"] = 56899,
 						["Blighted Fiend"] = 397977,
 						["Awakened Revenant"] = 99453,
+						["Chillfur Yeti"] = 365946,
 						["Brambleguard <Sister Widdowson>"] = 12943,
-						["Unmasked Witch"] = 57986,
+						["Blighted Essence"] = 300112,
+						["Awakened Dead"] = 264874,
+						["Tainted Guardian"] = 16808,
 						["Curseformed Ravager"] = 85667,
+						["Stonebound Guardian"] = 97437,
 						["Curseformed Servitor"] = 58717,
 						["Matron Levae"] = 294976,
 						["Sister Littlefield"] = 30083,
+						["Alpine Falcon"] = 50158,
 						["Deathbound Shambler"] = 34227,
-						["Misshapen Thrall"] = 145010,
+						["Heartsbane Acolyte"] = 527486,
+						["Deathbound Thrasher"] = 100609,
 						["Grotesque Thrall"] = 267723,
+						["Zanj'ir Trapper"] = 220634,
+						["Misshapen Thrall"] = 145010,
+						["Azsh'ari Siegemistress"] = 272759,
 						["Frostmange"] = 94852,
 						["Splintered Thrall"] = 18138,
-						["Deathbound Thrasher"] = 100609,
-						["Heartsbane Acolyte"] = 527486,
-						["Blighted Essence"] = 300112,
-						["Stonebound Guardian"] = 97437,
-						["Awakened Dead"] = 264874,
-						["Alpine Falcon"] = 50158,
-						["Chillfur Yeti"] = 365946,
+						["Tidemistress Ethendriss"] = 246562,
+						["Abyssal Slitherling"] = 1532,
+						["Pack Leader Asenya"] = 248531,
+						["Zanj'ir Myrmidon"] = 139730,
+						["Unmasked Witch"] = 57986,
+						["Captain Razorspine"] = 147459,
+						["Sethrak Skycaller"] = 4278,
 					},
 					["pets"] = {
 						"Belpad <Zearthan>", -- [1]
 						"Infernal <Zearthan>", -- [2]
 						"Curseformed Ravager <Zearthan>", -- [3]
 					},
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
-					["classe"] = "WARLOCK",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 1306581.194194,
+					["total_without_pet"] = 2338961.241184,
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1576796905,
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
+					["total"] = 4659566.241183999,
+					["on_hold"] = false,
 					["nome"] = "Zearthan",
 					["spec"] = 267,
 					["grupo"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
-							[157736] = {
-								["c_amt"] = 48,
+							[268525] = {
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 59337,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 734,
+								["n_max"] = 2770,
 								["targets"] = {
-									["Sister Widdowson"] = 7284,
-									["Awakened Revenant"] = 13924,
-									["Frostmange"] = 2153,
-									["Grotesque Thrall"] = 49649,
+									["Captain Razorspine"] = 5540,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5540,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 5540,
+								["c_max"] = 0,
+								["id"] = 268525,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[157736] = {
+								["c_amt"] = 60,
+								["b_amt"] = 0,
+								["c_dmg"] = 97740,
+								["g_amt"] = 0,
+								["n_max"] = 1937,
+								["targets"] = {
+									["Pack Leader Asenya"] = 16106,
+									["Azsh'ari Siegemistress"] = 23881,
 									["Curseformed Ravager"] = 11070,
-									["Awakened Dead"] = 22804,
-									["Splintered Thrall"] = 3981,
-									["Stonebound Guardian"] = 5226,
 									["Alpine Falcon"] = 2015,
 									["Sister Littlefield"] = 1262,
+									["Zanj'ir Trapper"] = 25627,
+									["Captain Razorspine"] = 18962,
+									["Grotesque Thrall"] = 49649,
+									["Frostmange"] = 2153,
+									["Splintered Thrall"] = 3981,
+									["Tidemistress Ethendriss"] = 19884,
+									["Awakened Revenant"] = 13924,
+									["Stonebound Guardian"] = 5226,
+									["Zanj'ir Myrmidon"] = 9352,
+									["Awakened Dead"] = 22804,
+									["Sister Widdowson"] = 7284,
 									["Chillfur Yeti"] = 41666,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 101697,
+								["n_dmg"] = 177106,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 208,
-								["total"] = 161034,
-								["c_max"] = 1454,
+								["counter"] = 266,
+								["total"] = 274846,
+								["c_max"] = 3942,
 								["id"] = 157736,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 160,
+								["n_amt"] = 206,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
@@ -19339,189 +19207,218 @@ _detalhes_database = {
 								["b_amt"] = 0,
 								["c_dmg"] = 8400,
 								["g_amt"] = 0,
-								["n_max"] = 1426,
+								["n_max"] = 4278,
 								["targets"] = {
+									["Zanj'ir Trapper"] = 3392,
+									["Pack Leader Asenya"] = 4022,
+									["Azsh'ari Siegemistress"] = 3392,
 									["Awakened Revenant"] = 2836,
 									["Misshapen Thrall"] = 5563,
-									["Splintered Thrall"] = 1417,
-									["Unmasked Witch"] = 4252,
-									["Awakened Dead"] = 12792,
-									["Curseformed Ravager"] = 4147,
 									["Grotesque Thrall"] = 6910,
-									["Sister Littlefield"] = 1417,
+									["Awakened Dead"] = 12792,
+									["Splintered Thrall"] = 1417,
+									["Tainted Guardian"] = 4278,
+									["Curseformed Ravager"] = 4147,
 									["Deathbound Thrasher"] = 6953,
+									["Zanj'ir Myrmidon"] = 3391,
+									["Unmasked Witch"] = 4252,
+									["Sister Littlefield"] = 1417,
+									["Sethrak Skycaller"] = 4278,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 37887,
+								["n_dmg"] = 60640,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 30,
-								["total"] = 46287,
+								["counter"] = 36,
+								["total"] = 69040,
 								["c_max"] = 2853,
 								["id"] = 22703,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 27,
+								["n_amt"] = 33,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
 							[265931] = {
-								["c_amt"] = 8,
+								["c_amt"] = 16,
 								["b_amt"] = 0,
-								["c_dmg"] = 4983,
+								["c_dmg"] = 17597,
 								["g_amt"] = 0,
-								["n_max"] = 335,
+								["n_max"] = 1004,
 								["targets"] = {
-									["Grotesque Thrall"] = 1799,
-									["Chillfur Yeti"] = 10789,
-									["Awakened Dead"] = 1006,
-									["Awakened Revenant"] = 1332,
-									["Stonebound Guardian"] = 3456,
 									["Sister Widdowson"] = 1466,
-									["Sister Littlefield"] = 666,
+									["Awakened Revenant"] = 1332,
+									["Pack Leader Asenya"] = 10078,
+									["Captain Razorspine"] = 7036,
+									["Zanj'ir Trapper"] = 3840,
+									["Stonebound Guardian"] = 3456,
 									["Frostmange"] = 5337,
+									["Grotesque Thrall"] = 1799,
+									["Tainted Guardian"] = 1004,
+									["Awakened Dead"] = 1006,
+									["Azsh'ari Siegemistress"] = 9923,
+									["Zanj'ir Myrmidon"] = 3048,
+									["Tidemistress Ethendriss"] = 12754,
+									["Sister Littlefield"] = 666,
+									["Chillfur Yeti"] = 10789,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 20868,
+								["n_dmg"] = 55937,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 76,
-								["total"] = 25851,
-								["c_max"] = 671,
+								["counter"] = 132,
+								["total"] = 73534,
+								["c_max"] = 1947,
 								["id"] = 265931,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 68,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[42223] = {
-								["c_amt"] = 90,
-								["b_amt"] = 0,
-								["c_dmg"] = 64615,
-								["g_amt"] = 0,
-								["n_max"] = 394,
-								["targets"] = {
-									["Sister Widdowson"] = 9540,
-									["Awakened Revenant"] = 7001,
-									["Misshapen Thrall"] = 44657,
-									["Brambleguard <Sister Widdowson>"] = 3883,
-									["Grotesque Thrall"] = 34720,
-									["Deathbound Thrasher"] = 28912,
-									["Curseformed Ravager"] = 20754,
-									["Unmasked Witch"] = 9632,
-									["Deathbound Shambler"] = 5298,
-									["Alpine Falcon"] = 3177,
-									["Awakened Dead"] = 32096,
-									["Chillfur Yeti"] = 32731,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 167786,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 560,
-								["total"] = 232401,
-								["c_max"] = 777,
-								["id"] = 42223,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 470,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[29722] = {
-								["c_amt"] = 43,
-								["b_amt"] = 0,
-								["c_dmg"] = 115030,
-								["g_amt"] = 0,
-								["n_max"] = 2175,
-								["targets"] = {
-									["Sister Widdowson"] = 3911,
-									["Deathbound Shambler"] = 21810,
-									["Splintered Thrall"] = 746,
-									["Awakened Revenant"] = 19097,
-									["Misshapen Thrall"] = 51168,
-									["Brambleguard <Sister Widdowson>"] = 1648,
-									["Frostmange"] = 16108,
-									["Grotesque Thrall"] = 43877,
-									["Deathbound Thrasher"] = 7617,
-									["Curseformed Ravager"] = 6701,
-									["Awakened Dead"] = 43122,
-									["Stonebound Guardian"] = 25775,
-									["Alpine Falcon"] = 26241,
-									["Unmasked Witch"] = 17858,
-									["Chillfur Yeti"] = 75518,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 246167,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 239,
-								["total"] = 361197,
-								["c_max"] = 4317,
-								["id"] = 29722,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 196,
+								["n_amt"] = 116,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
 							[348] = {
-								["c_amt"] = 8,
+								["c_amt"] = 11,
 								["b_amt"] = 0,
-								["c_dmg"] = 17404,
+								["c_dmg"] = 33849,
 								["g_amt"] = 0,
-								["n_max"] = 1145,
+								["n_max"] = 2974,
 								["targets"] = {
 									["Sister Widdowson"] = 1073,
 									["Awakened Revenant"] = 4378,
 									["Awakened Dead"] = 10767,
-									["Frostmange"] = 1063,
-									["Grotesque Thrall"] = 13710,
-									["Deathbound Thrasher"] = 1128,
-									["Curseformed Ravager"] = 3154,
-									["Splintered Thrall"] = 1044,
-									["Stonebound Guardian"] = 2112,
 									["Alpine Falcon"] = 1030,
 									["Sister Littlefield"] = 1118,
+									["Zanj'ir Trapper"] = 13485,
+									["Captain Razorspine"] = 5938,
+									["Grotesque Thrall"] = 13710,
+									["Curseformed Ravager"] = 3154,
+									["Frostmange"] = 1063,
+									["Splintered Thrall"] = 1044,
+									["Deathbound Thrasher"] = 1128,
+									["Stonebound Guardian"] = 2112,
+									["Azsh'ari Siegemistress"] = 13527,
+									["Zanj'ir Myrmidon"] = 2902,
+									["Tidemistress Ethendriss"] = 12723,
+									["Pack Leader Asenya"] = 11130,
 									["Chillfur Yeti"] = 11872,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 35045,
+								["n_dmg"] = 78305,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 41,
-								["total"] = 52449,
-								["c_max"] = 2320,
+								["counter"] = 61,
+								["total"] = 112154,
+								["c_max"] = 5761,
 								["id"] = 348,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 33,
+								["n_amt"] = 50,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[29722] = {
+								["c_amt"] = 47,
+								["b_amt"] = 0,
+								["c_dmg"] = 135127,
+								["g_amt"] = 0,
+								["n_max"] = 5034,
+								["targets"] = {
+									["Sister Widdowson"] = 3911,
+									["Awakened Revenant"] = 19097,
+									["Brambleguard <Sister Widdowson>"] = 1648,
+									["Unmasked Witch"] = 17858,
+									["Awakened Dead"] = 43122,
+									["Alpine Falcon"] = 26241,
+									["Deathbound Shambler"] = 21810,
+									["Captain Razorspine"] = 23655,
+									["Curseformed Ravager"] = 6701,
+									["Splintered Thrall"] = 746,
+									["Stonebound Guardian"] = 25775,
+									["Misshapen Thrall"] = 51168,
+									["Zanj'ir Trapper"] = 38319,
+									["Frostmange"] = 16108,
+									["Grotesque Thrall"] = 43877,
+									["Tidemistress Ethendriss"] = 20023,
+									["Abyssal Slitherling"] = 1532,
+									["Deathbound Thrasher"] = 7617,
+									["Zanj'ir Myrmidon"] = 30221,
+									["Azsh'ari Siegemistress"] = 47473,
+									["Pack Leader Asenya"] = 17960,
+									["Chillfur Yeti"] = 75518,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 405253,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 288,
+								["total"] = 540380,
+								["c_max"] = 8075,
+								["id"] = 29722,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 241,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[42223] = {
+								["c_amt"] = 96,
+								["b_amt"] = 0,
+								["c_dmg"] = 73840,
+								["g_amt"] = 0,
+								["n_max"] = 1024,
+								["targets"] = {
+									["Sister Widdowson"] = 9540,
+									["Zanj'ir Trapper"] = 14954,
+									["Deathbound Shambler"] = 5298,
+									["Azsh'ari Siegemistress"] = 14347,
+									["Misshapen Thrall"] = 44657,
+									["Brambleguard <Sister Widdowson>"] = 3883,
+									["Curseformed Ravager"] = 20754,
+									["Grotesque Thrall"] = 34720,
+									["Deathbound Thrasher"] = 28912,
+									["Awakened Dead"] = 32096,
+									["Unmasked Witch"] = 9632,
+									["Zanj'ir Myrmidon"] = 17592,
+									["Alpine Falcon"] = 3177,
+									["Awakened Revenant"] = 7001,
+									["Chillfur Yeti"] = 32731,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 205454,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 618,
+								["total"] = 279294,
+								["c_max"] = 2084,
+								["id"] = 42223,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 522,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
@@ -19530,72 +19427,128 @@ _detalhes_database = {
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 436,
+								["n_max"] = 869,
 								["targets"] = {
 									["Sister Widdowson"] = 684,
-									["Grotesque Thrall"] = 1050,
-									["Awakened Dead"] = 2884,
 									["Awakened Revenant"] = 2622,
-									["Misshapen Thrall"] = 2098,
 									["Brambleguard <Sister Widdowson>"] = 269,
-									["Frostmange"] = 1010,
-									["Splintered Thrall"] = 136,
-									["Deathbound Thrasher"] = 1541,
-									["Curseformed Ravager"] = 85,
 									["Unmasked Witch"] = 1320,
-									["Stonebound Guardian"] = 1322,
+									["Awakened Dead"] = 2884,
 									["Alpine Falcon"] = 490,
 									["Sister Littlefield"] = 470,
+									["Zanj'ir Trapper"] = 3640,
+									["Captain Razorspine"] = 2834,
+									["Curseformed Ravager"] = 85,
+									["Misshapen Thrall"] = 2098,
+									["Splintered Thrall"] = 136,
+									["Frostmange"] = 1010,
+									["Grotesque Thrall"] = 1050,
+									["Tidemistress Ethendriss"] = 299,
+									["Stonebound Guardian"] = 1322,
+									["Azsh'ari Siegemistress"] = 1770,
+									["Zanj'ir Myrmidon"] = 1187,
+									["Deathbound Thrasher"] = 1541,
+									["Pack Leader Asenya"] = 3382,
 									["Chillfur Yeti"] = 5666,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 21647,
+								["n_dmg"] = 34759,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 490,
-								["total"] = 21647,
+								["counter"] = 591,
+								["total"] = 34759,
 								["c_max"] = 0,
 								["id"] = 259756,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 490,
+								["n_amt"] = 591,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[17962] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["c_dmg"] = 68274,
+								["g_amt"] = 0,
+								["n_max"] = 10062,
+								["targets"] = {
+									["Pack Leader Asenya"] = 35786,
+									["Azsh'ari Siegemistress"] = 59594,
+									["Tainted Guardian"] = 10062,
+									["Awakened Dead"] = 6886,
+									["Alpine Falcon"] = 3356,
+									["Sister Littlefield"] = 3222,
+									["Zanj'ir Trapper"] = 16721,
+									["Misshapen Thrall"] = 3054,
+									["Frostmange"] = 16984,
+									["Grotesque Thrall"] = 12778,
+									["Tidemistress Ethendriss"] = 38599,
+									["Sister Widdowson"] = 3052,
+									["Awakened Revenant"] = 13142,
+									["Stonebound Guardian"] = 16507,
+									["Zanj'ir Myrmidon"] = 9079,
+									["Captain Razorspine"] = 18748,
+									["Chillfur Yeti"] = 39805,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 239101,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 52,
+								["total"] = 307375,
+								["c_max"] = 17258,
+								["id"] = 17962,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 44,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
 							[116858] = {
-								["c_amt"] = 28,
+								["c_amt"] = 44,
 								["b_amt"] = 0,
-								["c_dmg"] = 222119,
+								["c_dmg"] = 505133,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Grotesque Thrall"] = 33672,
-									["Chillfur Yeti"] = 89298,
-									["Awakened Dead"] = 8475,
+									["Zanj'ir Trapper"] = 19450,
 									["Awakened Revenant"] = 8502,
+									["Captain Razorspine"] = 39750,
+									["Pack Leader Asenya"] = 76988,
+									["Azsh'ari Siegemistress"] = 38636,
+									["Frostmange"] = 33556,
+									["Grotesque Thrall"] = 33672,
+									["Tidemistress Ethendriss"] = 87539,
+									["Awakened Dead"] = 8475,
 									["Stonebound Guardian"] = 23936,
+									["Zanj'ir Myrmidon"] = 20651,
 									["Alpine Falcon"] = 8622,
 									["Sister Littlefield"] = 16058,
-									["Frostmange"] = 33556,
+									["Chillfur Yeti"] = 89298,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 28,
-								["total"] = 222119,
-								["c_max"] = 8734,
+								["counter"] = 44,
+								["total"] = 505133,
+								["c_max"] = 20651,
 								["id"] = 116858,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -19603,37 +19556,41 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 							},
 							[255586] = {
-								["c_amt"] = 19,
+								["c_amt"] = 22,
 								["b_amt"] = 0,
-								["c_dmg"] = 8481,
+								["c_dmg"] = 9824,
 								["g_amt"] = 0,
 								["n_max"] = 224,
 								["targets"] = {
 									["Sister Widdowson"] = 896,
-									["Chillfur Yeti"] = 2228,
-									["Curseformed Ravager"] = 888,
-									["Awakened Dead"] = 5124,
-									["Stonebound Guardian"] = 2000,
+									["Azsh'ari Siegemistress"] = 2787,
 									["Misshapen Thrall"] = 1779,
-									["Grotesque Thrall"] = 4910,
 									["Frostmange"] = 2016,
+									["Grotesque Thrall"] = 4910,
+									["Tidemistress Ethendriss"] = 1758,
+									["Awakened Dead"] = 5124,
+									["Pack Leader Asenya"] = 1754,
+									["Stonebound Guardian"] = 2000,
+									["Curseformed Ravager"] = 888,
+									["Zanj'ir Trapper"] = 2863,
+									["Chillfur Yeti"] = 2228,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 11360,
+								["n_dmg"] = 19179,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 70,
-								["total"] = 19841,
-								["c_max"] = 448,
+								["counter"] = 114,
+								["total"] = 29003,
+								["c_max"] = 453,
 								["id"] = 255586,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 51,
+								["n_amt"] = 92,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
@@ -19642,67 +19599,31 @@ _detalhes_database = {
 								["b_amt"] = 0,
 								["c_dmg"] = 4967,
 								["g_amt"] = 0,
-								["n_max"] = 252,
+								["n_max"] = 708,
 								["targets"] = {
 									["Sister Widdowson"] = 978,
 									["Curseformed Ravager"] = 3156,
-									["Awakened Dead"] = 9261,
+									["Zanj'ir Trapper"] = 6364,
 									["Grotesque Thrall"] = 5374,
+									["Awakened Dead"] = 9261,
 									["Chillfur Yeti"] = 2520,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 16322,
+								["n_dmg"] = 22686,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 76,
-								["total"] = 21289,
+								["counter"] = 85,
+								["total"] = 27653,
 								["c_max"] = 504,
 								["id"] = 234153,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 66,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[17962] = {
-								["c_amt"] = 6,
-								["b_amt"] = 0,
-								["c_dmg"] = 35750,
-								["g_amt"] = 0,
-								["n_max"] = 3641,
-								["targets"] = {
-									["Sister Widdowson"] = 3052,
-									["Awakened Revenant"] = 13142,
-									["Misshapen Thrall"] = 3054,
-									["Frostmange"] = 16984,
-									["Grotesque Thrall"] = 12778,
-									["Awakened Dead"] = 6886,
-									["Stonebound Guardian"] = 16507,
-									["Alpine Falcon"] = 3356,
-									["Sister Littlefield"] = 3222,
-									["Chillfur Yeti"] = 39805,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 83036,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 31,
-								["total"] = 118786,
-								["c_max"] = 6546,
-								["id"] = 17962,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 25,
+								["n_amt"] = 75,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
@@ -19711,85 +19632,130 @@ _detalhes_database = {
 								["b_amt"] = 0,
 								["c_dmg"] = 5104,
 								["g_amt"] = 0,
-								["n_max"] = 1355,
+								["n_max"] = 3535,
 								["targets"] = {
-									["Grotesque Thrall"] = 1355,
-									["Awakened Dead"] = 1259,
-									["Chillfur Yeti"] = 9887,
+									["Zanj'ir Trapper"] = 3423,
 									["Awakened Revenant"] = 1302,
-									["Stonebound Guardian"] = 3573,
-									["Sister Littlefield"] = 1200,
+									["Captain Razorspine"] = 6741,
 									["Frostmange"] = 5104,
+									["Grotesque Thrall"] = 1355,
+									["Tidemistress Ethendriss"] = 13477,
+									["Awakened Dead"] = 1259,
+									["Pack Leader Asenya"] = 10383,
+									["Stonebound Guardian"] = 3573,
+									["Azsh'ari Siegemistress"] = 3504,
+									["Sister Littlefield"] = 1200,
+									["Chillfur Yeti"] = 9887,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 18576,
+								["n_dmg"] = 56104,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 17,
-								["total"] = 23680,
+								["counter"] = 31,
+								["total"] = 61208,
 								["c_max"] = 2678,
 								["id"] = 266136,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 15,
+								["n_amt"] = 29,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[304698] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 9650,
+								["g_amt"] = 0,
+								["n_max"] = 4708,
+								["targets"] = {
+									["Azsh'ari Siegemistress"] = 9650,
+									["Tidemistress Ethendriss"] = 4684,
+									["Zanj'ir Trapper"] = 4708,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 9392,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 19042,
+								["c_max"] = 9650,
+								["id"] = 304698,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["total"] = 3361273.194193999,
+					["damage_taken"] = 1365887.241184,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 818968.1941940002,
-					["start_time"] = 1576796366,
+					["last_dps"] = 0,
+					["start_time"] = 1576796176,
 					["serial"] = "Player-3391-0A827D4F",
-					["friendlyfire_total"] = 0,
+					["classe"] = "WARLOCK",
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
-					["totalabsorbed"] = 0.152684,
+					["totalabsorbed"] = 0.201063,
 					["damage_from"] = {
+						["Zanj'ir Trapper"] = true,
 						["Brambleguard <Sister Widdowson> <Sister Widdowson>"] = true,
 						["Awakened Revenant"] = true,
 						["Misshapen Thrall"] = true,
-						["Grotesque Thrall"] = true,
-						["Awakened Dead"] = true,
-						["Stonebound Guardian"] = true,
 						["Unknown <Sister Widdowson>"] = true,
+						["Grotesque Thrall"] = true,
+						["Tidemistress Ethendriss"] = true,
+						["Awakened Dead"] = true,
 						["Splintered Thrall"] = true,
+						["Stonebound Guardian"] = true,
+						["Captain Razorspine"] = true,
+						["Azsh'ari Siegemistress"] = true,
 						["Chillfur Yeti"] = true,
 					},
 					["targets"] = {
 						["Sister Widdowson"] = 8163,
-						["Grotesque Thrall"] = 32613,
-						["Deathbound Thrasher"] = 1020,
 						["Awakened Revenant"] = 13531,
-						["Misshapen Thrall"] = 4065,
-						["Awakened Dead"] = 31331,
-						["Frostmange"] = 11521,
-						["Splintered Thrall"] = 4159,
 						["Unmasked Witch"] = 5200,
-						["Curseformed Ravager"] = 5070,
-						["Deathbound Shambler"] = 7119,
-						["Stonebound Guardian"] = 13530,
+						["Awakened Dead"] = 31331,
 						["Alpine Falcon"] = 5227,
 						["Sister Littlefield"] = 2080,
+						["Deathbound Shambler"] = 7119,
+						["Captain Razorspine"] = 18255,
+						["Curseformed Ravager"] = 5070,
+						["Splintered Thrall"] = 4159,
+						["Misshapen Thrall"] = 4065,
+						["Stonebound Guardian"] = 13530,
+						["Frostmange"] = 11521,
+						["Grotesque Thrall"] = 32613,
+						["Tidemistress Ethendriss"] = 34822,
+						["Zanj'ir Trapper"] = 43951,
+						["Azsh'ari Siegemistress"] = 31851,
+						["Zanj'ir Myrmidon"] = 19257,
+						["Deathbound Thrasher"] = 1020,
+						["Pack Leader Asenya"] = 23591,
 						["Chillfur Yeti"] = 43966,
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 41927.152684,
+					["last_dps"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 188595.152684,
-					["last_dps"] = 0,
+					["total_without_pet"] = 360322.201063,
+					["damage_taken"] = 113303.201063,
 					["dps_started"] = false,
 					["end_time"] = 1576796905,
 					["delay"] = 0,
@@ -19798,44 +19764,50 @@ _detalhes_database = {
 					["spells"] = {
 						["_ActorTable"] = {
 							[3110] = {
-								["c_amt"] = 18,
+								["c_amt"] = 24,
 								["b_amt"] = 0,
-								["c_dmg"] = 37301,
+								["c_dmg"] = 68997,
 								["g_amt"] = 0,
-								["n_max"] = 1052,
+								["n_max"] = 3043,
 								["targets"] = {
 									["Sister Widdowson"] = 8163,
-									["Grotesque Thrall"] = 32613,
-									["Deathbound Thrasher"] = 1020,
 									["Awakened Revenant"] = 13531,
-									["Misshapen Thrall"] = 4065,
-									["Awakened Dead"] = 31331,
-									["Frostmange"] = 11521,
-									["Splintered Thrall"] = 4159,
 									["Unmasked Witch"] = 5200,
-									["Curseformed Ravager"] = 5070,
-									["Deathbound Shambler"] = 7119,
-									["Stonebound Guardian"] = 13530,
+									["Awakened Dead"] = 31331,
 									["Alpine Falcon"] = 5227,
 									["Sister Littlefield"] = 2080,
+									["Deathbound Shambler"] = 7119,
+									["Captain Razorspine"] = 18255,
+									["Curseformed Ravager"] = 5070,
+									["Splintered Thrall"] = 4159,
+									["Misshapen Thrall"] = 4065,
+									["Stonebound Guardian"] = 13530,
+									["Frostmange"] = 11521,
+									["Grotesque Thrall"] = 32613,
+									["Tidemistress Ethendriss"] = 34822,
+									["Zanj'ir Trapper"] = 43951,
+									["Azsh'ari Siegemistress"] = 31851,
+									["Zanj'ir Myrmidon"] = 19257,
+									["Deathbound Thrasher"] = 1020,
+									["Pack Leader Asenya"] = 23591,
 									["Chillfur Yeti"] = 43966,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 151294,
+								["n_dmg"] = 291325,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 164,
-								["total"] = 188595,
-								["c_max"] = 2104,
+								["counter"] = 222,
+								["total"] = 360322,
+								["c_max"] = 5898,
 								["id"] = 3110,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 146,
+								["n_amt"] = 198,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
@@ -19849,9 +19821,9 @@ _detalhes_database = {
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
-					["start_time"] = 1576796480,
+					["start_time"] = 1576796318,
 					["serial"] = "Pet-0-3895-1643-25944-416-0202B4B52E",
-					["total"] = 188595.152684,
+					["total"] = 360322.201063,
 				}, -- [3]
 				{
 					["flag_original"] = 68168,
@@ -19867,17 +19839,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 85667.007895,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 57896.007895,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576796905,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Curseformed Ravager",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19930,8 +19902,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
@@ -19959,10 +19931,10 @@ _detalhes_database = {
 								["id"] = 257258,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 15,
@@ -19988,8 +19960,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -20005,44 +19977,51 @@ _detalhes_database = {
 					["total"] = 57896.007895,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 85667.007895,
+					["last_dps"] = 0,
 					["start_time"] = 1576796871,
 					["serial"] = "Creature-0-3895-1643-25944-130083-00007C00B3",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [4]
 				{
 					["flag_original"] = 8465,
-					["totalabsorbed"] = 0.056332,
+					["totalabsorbed"] = 0.065702,
 					["damage_from"] = {
-						["Grotesque Thrall"] = true,
-						["Deathbound Thrasher"] = true,
-						["Curseformed Ravager"] = true,
-						["Awakened Dead"] = true,
+						["Zanj'ir Trapper"] = true,
 						["Misshapen Thrall"] = true,
-						["Unmasked Witch"] = true,
 						["Splintered Thrall"] = true,
+						["Unmasked Witch"] = true,
+						["Awakened Dead"] = true,
+						["Zanj'ir Myrmidon"] = true,
+						["Curseformed Ravager"] = true,
+						["Deathbound Thrasher"] = true,
+						["Grotesque Thrall"] = true,
 					},
 					["targets"] = {
 						["Sister Widdowson"] = 19852,
+						["Curseformed Ravager"] = 30642,
+						["Azsh'ari Siegemistress"] = 12424,
+						["Unmasked Witch"] = 19724,
 						["Awakened Revenant"] = 11786,
 						["Misshapen Thrall"] = 32626,
 						["Brambleguard <Sister Widdowson>"] = 7143,
-						["Grotesque Thrall"] = 25306,
 						["Deathbound Thrasher"] = 53438,
-						["Awakened Dead"] = 77067,
-						["Curseformed Ravager"] = 30642,
-						["Unmasked Witch"] = 19724,
-						["Sister Littlefield"] = 2590,
 						["Splintered Thrall"] = 6655,
+						["Tainted Guardian"] = 1464,
+						["Awakened Dead"] = 77067,
+						["Zanj'ir Trapper"] = 19897,
+						["Zanj'ir Myrmidon"] = 23050,
+						["Grotesque Thrall"] = 25306,
+						["Sister Littlefield"] = 2590,
+						["Pack Leader Asenya"] = 37351,
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 53129.05633199999,
+					["last_dps"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 286829.056332,
-					["last_dps"] = 0,
+					["total_without_pet"] = 381015.065702,
+					["damage_taken"] = 97278.06570199999,
 					["dps_started"] = false,
 					["end_time"] = 1576796905,
 					["delay"] = 0,
@@ -20051,76 +20030,84 @@ _detalhes_database = {
 					["spells"] = {
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 8,
+								["c_amt"] = 10,
 								["b_amt"] = 0,
-								["c_dmg"] = 8018,
+								["c_dmg"] = 11388,
 								["g_amt"] = 0,
-								["n_max"] = 517,
+								["n_max"] = 1464,
 								["targets"] = {
 									["Sister Widdowson"] = 5577,
 									["Awakened Revenant"] = 2428,
-									["Grotesque Thrall"] = 970,
-									["Unmasked Witch"] = 5169,
-									["Awakened Dead"] = 10249,
 									["Curseformed Ravager"] = 6306,
+									["Azsh'ari Siegemistress"] = 1233,
 									["Deathbound Thrasher"] = 1428,
-									["Sister Littlefield"] = 1551,
+									["Grotesque Thrall"] = 970,
+									["Tainted Guardian"] = 1464,
+									["Awakened Dead"] = 10249,
 									["Splintered Thrall"] = 1456,
+									["Zanj'ir Myrmidon"] = 8128,
+									["Unmasked Witch"] = 5169,
+									["Sister Littlefield"] = 1551,
+									["Pack Leader Asenya"] = 13762,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 27116,
+								["n_dmg"] = 48333,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 63,
-								["total"] = 35134,
-								["c_max"] = 1034,
+								["counter"] = 83,
+								["total"] = 59721,
+								["c_max"] = 2753,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 55,
+								["n_amt"] = 73,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							}, -- [1]
 							[20153] = {
-								["c_amt"] = 26,
+								["c_amt"] = 27,
 								["b_amt"] = 0,
-								["c_dmg"] = 53475,
+								["c_dmg"] = 58450,
 								["g_amt"] = 0,
-								["n_max"] = 1049,
+								["n_max"] = 2949,
 								["targets"] = {
 									["Sister Widdowson"] = 14275,
+									["Curseformed Ravager"] = 24336,
+									["Zanj'ir Trapper"] = 19897,
 									["Awakened Revenant"] = 9358,
 									["Misshapen Thrall"] = 32626,
 									["Brambleguard <Sister Widdowson>"] = 7143,
+									["Splintered Thrall"] = 5199,
 									["Grotesque Thrall"] = 24336,
 									["Deathbound Thrasher"] = 52010,
 									["Awakened Dead"] = 66818,
-									["Curseformed Ravager"] = 24336,
-									["Splintered Thrall"] = 5199,
-									["Sister Littlefield"] = 1039,
 									["Unmasked Witch"] = 14555,
+									["Zanj'ir Myrmidon"] = 14922,
+									["Azsh'ari Siegemistress"] = 11191,
+									["Sister Littlefield"] = 1039,
+									["Pack Leader Asenya"] = 23589,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 198220,
+								["n_dmg"] = 262844,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 219,
-								["total"] = 251695,
-								["c_max"] = 2098,
+								["counter"] = 249,
+								["total"] = 321294,
+								["c_max"] = 4975,
 								["id"] = 20153,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 193,
+								["n_amt"] = 222,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
@@ -20134,9 +20121,9 @@ _detalhes_database = {
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
-					["start_time"] = 1576796797,
+					["start_time"] = 1576796759,
 					["serial"] = "Creature-0-3895-1643-25944-89-00007C02D5",
-					["total"] = 286829.056332,
+					["total"] = 381015.065702,
 				}, -- [5]
 				{
 					["flag_original"] = 4369,
@@ -20190,8 +20177,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -20222,8 +20209,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 56,
@@ -20254,8 +20241,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 33,
@@ -20287,17 +20274,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 397977.038003,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 11267.038003,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797095,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Blighted Fiend",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20321,10 +20308,10 @@ _detalhes_database = {
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
@@ -20340,10 +20327,10 @@ _detalhes_database = {
 					["total"] = 11267.038003,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 397977.038003,
+					["last_dps"] = 0,
 					["start_time"] = 1576797064,
 					["serial"] = "Creature-0-3895-1643-25944-137850-0000FC01DE",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [7]
 				{
 					["flag_original"] = 2632,
@@ -20356,17 +20343,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 527486.039645,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 39524.039645,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797095,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Heartsbane Acolyte",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20420,8 +20407,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 7,
 								["b_dmg"] = 0,
 								["n_amt"] = 7,
@@ -20448,8 +20435,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -20465,10 +20452,10 @@ _detalhes_database = {
 					["total"] = 39524.039645,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 527486.039645,
+					["last_dps"] = 0,
 					["start_time"] = 1576797072,
 					["serial"] = "Creature-0-3895-1643-25944-126410-00007C01D5",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 2600,
@@ -20487,10 +20474,10 @@ _detalhes_database = {
 					},
 					["total_without_pet"] = 3717.014394,
 					["friendlyfire_total"] = 0,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["end_time"] = 1576797107,
 					["delay"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 58717.014394,
 					["nome"] = "Curseformed Servitor",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20527,16 +20514,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["total"] = 3717.014394,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 58717.014394,
+					["last_dps"] = 0,
 					["start_time"] = 1576797095,
 					["serial"] = "Creature-0-3895-1643-25944-129059-00007C01DE",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [9]
 				{
 					["flag_original"] = 2632,
@@ -20549,17 +20536,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 300112.016734,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4652.016734,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797111,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Blighted Essence",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20613,8 +20600,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -20630,10 +20617,10 @@ _detalhes_database = {
 					["total"] = 4652.016734,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 300112.016734,
+					["last_dps"] = 0,
 					["start_time"] = 1576797090,
 					["serial"] = "Creature-0-3895-1643-25944-137851-00007C01D5",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [10]
 				{
 					["flag_original"] = 68168,
@@ -20646,17 +20633,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 294976.007847,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 6332.007847,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797160,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Matron Levae",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20680,8 +20667,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -20708,8 +20695,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -20725,10 +20712,10 @@ _detalhes_database = {
 					["total"] = 6332.007847,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 294976.007847,
+					["last_dps"] = 0,
 					["start_time"] = 1576797149,
 					["serial"] = "Creature-0-3895-1643-25944-126441-00007C0236",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
@@ -20745,17 +20732,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 145010.017638,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 59984.01763800001,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797265,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Misshapen Thrall",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20780,8 +20767,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 36,
@@ -20840,8 +20827,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 8,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
@@ -20857,10 +20844,10 @@ _detalhes_database = {
 					["total"] = 59984.01763800001,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 145010.017638,
+					["last_dps"] = 0,
 					["start_time"] = 1576797219,
 					["serial"] = "Creature-0-3895-1643-25944-128596-0000FC0433",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
@@ -20874,17 +20861,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 34227.011759,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 19614.011759,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797299,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Deathbound Shambler",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20937,8 +20924,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -20965,8 +20952,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
@@ -20992,8 +20979,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -21009,10 +20996,10 @@ _detalhes_database = {
 					["total"] = 19614.011759,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 34227.011759,
+					["last_dps"] = 0,
 					["start_time"] = 1576797277,
 					["serial"] = "Creature-0-3895-1643-25944-128600-00007C045B",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = 68168,
@@ -21030,17 +21017,17 @@ _detalhes_database = {
 						"Unknown <Sister Widdowson>", -- [1]
 						"Brambleguard <Sister Widdowson>", -- [2]
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 56899.01302699999,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 21441.013027,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797337,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Sister Widdowson",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21064,8 +21051,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
@@ -21092,8 +21079,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 27,
@@ -21119,8 +21106,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -21136,10 +21123,10 @@ _detalhes_database = {
 					["total"] = 33889.013027,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 56899.01302699999,
+					["last_dps"] = 0,
 					["start_time"] = 1576797310,
 					["serial"] = "Creature-0-3895-1643-25944-128582-00007C047B",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
@@ -21155,17 +21142,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 100609.009933,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 19584.009933,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797337,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Deathbound Thrasher",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21208,10 +21195,10 @@ _detalhes_database = {
 					["total"] = 19584.009933,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 100609.009933,
+					["last_dps"] = 0,
 					["start_time"] = 1576797319,
 					["serial"] = "Creature-0-3895-1643-25944-128614-0001FC0481",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [15]
 				{
 					["flag_original"] = 2632,
@@ -21226,17 +21213,16 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["tipo"] = 1,
-					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 10314.01002,
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1576797337,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["ownerName"] = "Sister Widdowson",
 					["nome"] = "Unknown <Sister Widdowson>",
 					["spells"] = {
@@ -21262,8 +21248,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 11,
@@ -21291,8 +21277,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -21302,15 +21288,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 11920.01002,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
 					["total"] = 10314.01002,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["damage_taken"] = 11920.01002,
 					["start_time"] = 1576797320,
 					["serial"] = "Creature-0-3895-1643-25944-129658-00007C048F",
-					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
 				}, -- [16]
 				{
 					["flag_original"] = 2632,
@@ -21324,17 +21311,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["damage_taken"] = 1023.013767,
-					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2134.013767,
 					["total"] = 2134.013767,
 					["fight_component"] = true,
 					["end_time"] = 1576797337,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["ownerName"] = "Sister Widdowson",
 					["nome"] = "Brambleguard <Sister Widdowson>",
 					["spells"] = {
@@ -21387,8 +21373,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -21415,8 +21401,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -21431,10 +21417,11 @@ _detalhes_database = {
 					["monster"] = true,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1576797332,
 					["serial"] = "Creature-0-3895-1643-25944-129658-00007C048F",
-					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
 				}, -- [17]
 				{
 					["flag_original"] = 68168,
@@ -21451,18 +21438,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
 					["on_hold"] = false,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 201469.039361,
 					["delay"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 201469.039361,
 					["classe"] = "UNKNOW",
-					["damage_taken"] = 371212.0393609999,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Chillfur Yeti",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21490,8 +21477,8 @@ _detalhes_database = {
 								["a_dmg"] = 100922,
 								["b_dmg"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 93,
 								["n_amt"] = 134,
@@ -21519,8 +21506,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 23,
 								["b_dmg"] = 0,
 								["n_amt"] = 23,
@@ -21535,10 +21522,10 @@ _detalhes_database = {
 					["end_time"] = 1576797501,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["damage_taken"] = 371212.0393609999,
 					["start_time"] = 1576797394,
 					["serial"] = "Creature-0-3895-1643-25944-127682-00007C000F",
-					["dps_started"] = false,
+					["monster"] = true,
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
@@ -21557,18 +21544,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
-					["on_hold"] = false,
+					["fight_component"] = true,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 211718.029096,
 					["delay"] = 0,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["total"] = 211718.029096,
 					["friendlyfire"] = {
 					},
-					["damage_taken"] = 267384.029096,
+					["on_hold"] = false,
 					["nome"] = "Awakened Dead",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21598,8 +21585,8 @@ _detalhes_database = {
 								["a_dmg"] = 90365,
 								["b_dmg"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 77,
 								["n_amt"] = 130,
@@ -21692,8 +21679,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 63,
@@ -21708,10 +21695,10 @@ _detalhes_database = {
 					["end_time"] = 1576797562,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["damage_taken"] = 267384.029096,
 					["start_time"] = 1576797462,
 					["serial"] = "Creature-0-3895-1643-25944-136490-00007C0034",
-					["dps_started"] = false,
+					["monster"] = true,
 				}, -- [19]
 				{
 					["flag_original"] = 2600,
@@ -21731,10 +21718,10 @@ _detalhes_database = {
 					},
 					["total_without_pet"] = 42128.016198,
 					["friendlyfire_total"] = 0,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["end_time"] = 1576797853,
 					["delay"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 50158.016198,
 					["nome"] = "Alpine Falcon",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21758,8 +21745,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 23,
@@ -21786,8 +21773,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
@@ -21826,16 +21813,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["total"] = 42128.016198,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 50158.016198,
+					["last_dps"] = 0,
 					["start_time"] = 1576797800,
 					["serial"] = "Creature-0-3895-1643-25944-128188-00007C00B4",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [20]
 				{
 					["flag_original"] = 68168,
@@ -21849,17 +21836,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 94852.01064800001,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 25605.010648,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576797919,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Frostmange",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21883,8 +21870,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 14,
@@ -21911,8 +21898,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -21939,8 +21926,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -21956,10 +21943,10 @@ _detalhes_database = {
 					["total"] = 25605.010648,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 94852.01064800001,
+					["last_dps"] = 0,
 					["start_time"] = 1576797889,
 					["serial"] = "Creature-0-3895-1643-25944-127794-00007C00A6",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [21]
 				{
 					["flag_original"] = 2632,
@@ -21975,17 +21962,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 99453.015255,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 55012.015255,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576798019,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Awakened Revenant",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22013,8 +22000,8 @@ _detalhes_database = {
 								["a_dmg"] = 15594,
 								["b_dmg"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 15,
 								["n_amt"] = 38,
@@ -22073,8 +22060,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
@@ -22090,10 +22077,10 @@ _detalhes_database = {
 					["total"] = 55012.015255,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 99453.015255,
+					["last_dps"] = 0,
 					["start_time"] = 1576797981,
 					["serial"] = "Creature-0-3895-1643-25944-127957-0000FC070D",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [22]
 				{
 					["flag_original"] = 68168,
@@ -22108,17 +22095,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 97437.006572,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 27821.006572,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576798184,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Stonebound Guardian",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22142,8 +22129,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 14,
@@ -22169,8 +22156,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -22197,8 +22184,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -22225,8 +22212,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -22254,8 +22241,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
@@ -22271,10 +22258,10 @@ _detalhes_database = {
 					["total"] = 27821.006572,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 97437.006572,
+					["last_dps"] = 0,
 					["start_time"] = 1576798149,
 					["serial"] = "Creature-0-3895-1643-25944-127975-00007C070D",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [23]
 				{
 					["flag_original"] = 68168,
@@ -22292,17 +22279,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 91591.005239,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 19353.005239,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576798518,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Unmasked Witch",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22327,8 +22314,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
@@ -22355,8 +22342,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
@@ -22384,8 +22371,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
@@ -22401,10 +22388,10 @@ _detalhes_database = {
 					["total"] = 19353.005239,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 91591.005239,
+					["last_dps"] = 0,
 					["start_time"] = 1576798491,
 					["serial"] = "Creature-0-3895-1643-25944-129575-00007C0526",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [24]
 				{
 					["flag_original"] = 68120,
@@ -22426,10 +22413,10 @@ _detalhes_database = {
 					},
 					["total_without_pet"] = 36734.013099,
 					["friendlyfire_total"] = 1787,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["end_time"] = 1576798518,
 					["delay"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 38013.013099,
 					["nome"] = "Corlain Refugee",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22454,8 +22441,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 7,
@@ -22483,8 +22470,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 8,
 								["b_dmg"] = 0,
 								["n_amt"] = 8,
@@ -22512,8 +22499,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 17,
@@ -22523,7 +22510,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["total"] = 36734.013099,
 					["friendlyfire"] = {
 						["Zearthan"] = {
@@ -22535,10 +22522,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 38013.013099,
+					["last_dps"] = 0,
 					["start_time"] = 1576798485,
 					["serial"] = "Creature-0-3895-1643-25944-129641-00007C0560",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [25]
 				{
 					["flag_original"] = 2632,
@@ -22550,17 +22537,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 0.012022,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3318.012022,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576798518,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "[*] Runic Mark",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22584,8 +22571,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -22601,10 +22588,10 @@ _detalhes_database = {
 					["total"] = 3318.012022,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.012022,
+					["last_dps"] = 0,
 					["start_time"] = 1576798512,
 					["serial"] = "",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [26]
 				{
 					["flag_original"] = 2584,
@@ -22627,10 +22614,10 @@ _detalhes_database = {
 					},
 					["total_without_pet"] = 8315.010359,
 					["friendlyfire_total"] = 646,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["end_time"] = 1576798714,
 					["delay"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 18138.010359,
 					["nome"] = "Arom's Stand Commoner",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22655,8 +22642,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 8,
@@ -22682,8 +22669,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -22710,8 +22697,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
@@ -22752,7 +22739,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["total"] = 8315.010359,
 					["friendlyfire"] = {
 						["Zearthan"] = {
@@ -22764,10 +22751,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 18138.010359,
+					["last_dps"] = 0,
 					["start_time"] = 1576798691,
 					["serial"] = "Creature-0-3895-1643-25944-131368-00007C0751",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [27]
 				{
 					["flag_original"] = 2632,
@@ -22781,17 +22768,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["on_hold"] = false,
+					["dps_started"] = false,
+					["damage_taken"] = 16817.009378,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1242.009378,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1576798714,
 					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Splintered Thrall",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22815,8 +22802,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -22844,11 +22831,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -22860,10 +22847,10 @@ _detalhes_database = {
 					["total"] = 1242.009378,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 16817.009378,
+					["last_dps"] = 0,
 					["start_time"] = 1576798710,
 					["serial"] = "Creature-0-3895-1643-25944-131368-0000FC0751",
-					["monster"] = true,
+					["fight_component"] = true,
 				}, -- [28]
 				{
 					["flag_original"] = 2584,
@@ -22884,10 +22871,10 @@ _detalhes_database = {
 					},
 					["total_without_pet"] = 6397.009604000001,
 					["friendlyfire_total"] = 1080,
-					["dps_started"] = false,
+					["fight_component"] = true,
 					["end_time"] = 1576798714,
 					["delay"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 30083.009604,
 					["nome"] = "Suspicious Refugee",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22911,8 +22898,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -22939,8 +22926,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
@@ -22950,7 +22937,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["total"] = 6397.009604000001,
 					["friendlyfire"] = {
 						["Zearthan"] = {
@@ -22962,11 +22949,992 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 30083.009604,
+					["last_dps"] = 0,
 					["start_time"] = 1576798695,
 					["serial"] = "Creature-0-3895-1643-25944-131359-00007C0750",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [29]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 44339.033356,
+					["damage_from"] = {
+						["Zearthan"] = true,
+						["Shandris Feathermoon"] = true,
+						["Belpad <Zearthan>"] = true,
+						["Infernal <Zearthan>"] = true,
+					},
+					["targets"] = {
+						["Zearthan"] = 97629,
+						["Shandris Feathermoon"] = 36955,
+						["Belpad <Zearthan>"] = 25756,
+						["Infernal <Zearthan>"] = 17883,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 361725.033356,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 178223.033356,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["total"] = 178223.033356,
+					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["nome"] = "Zanj'ir Trapper",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 7812,
+								["targets"] = {
+									["Zearthan"] = 35375,
+									["Shandris Feathermoon"] = 30500,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 65875,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 65875,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 10,
+								["a_dmg"] = 0,
+								["DODGE"] = 1,
+							}, -- [1]
+							[302943] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 18368,
+								["targets"] = {
+									["Belpad <Zearthan>"] = 18368,
+									["Infernal <Zearthan>"] = 17883,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 36251,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 36251,
+								["c_max"] = 0,
+								["id"] = 302943,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["a_amt"] = 1,
+								["a_dmg"] = 18368,
+							},
+							[302912] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 9606,
+								["targets"] = {
+									["Zearthan"] = 62254,
+									["Shandris Feathermoon"] = 6455,
+									["Belpad <Zearthan>"] = 7388,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 76097,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 76097,
+								["c_max"] = 0,
+								["id"] = 302912,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 6,
+								["m_amt"] = 0,
+								["successful_casted"] = 10,
+								["b_dmg"] = 0,
+								["n_amt"] = 10,
+								["a_dmg"] = 46610,
+								["MISS"] = 1,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["fight_component"] = true,
+					["end_time"] = 1578650436,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578650378,
+					["serial"] = "Creature-0-3774-1718-26701-153962-0000184848",
+					["monster"] = true,
+				}, -- [30]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 43828.029564,
+					["damage_from"] = {
+						["Zearthan"] = true,
+						["Shandris Feathermoon"] = true,
+						["Belpad <Zearthan>"] = true,
+						["Infernal <Zearthan>"] = true,
+					},
+					["targets"] = {
+						["Zearthan"] = 97991,
+						["Shandris Feathermoon"] = 134213,
+						["Belpad <Zearthan>"] = 37385,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 450411.029564,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 269589.029564,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["total"] = 269589.029564,
+					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["nome"] = "Azsh'ari Siegemistress",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 32256,
+								["g_amt"] = 0,
+								["n_max"] = 6774,
+								["targets"] = {
+									["Zearthan"] = 41596,
+									["Shandris Feathermoon"] = 22105,
+									["Belpad <Zearthan>"] = 9989,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 41434,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 73690,
+								["c_max"] = 12220,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 7,
+								["a_amt"] = 2,
+								["a_dmg"] = 22209,
+							}, -- [1]
+							[303299] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 17026,
+								["targets"] = {
+									["Zearthan"] = 56395,
+									["Shandris Feathermoon"] = 112108,
+									["Belpad <Zearthan>"] = 27396,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 195899,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 13,
+								["total"] = 195899,
+								["c_max"] = 0,
+								["id"] = 303299,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 13,
+								["b_dmg"] = 0,
+								["n_amt"] = 13,
+								["a_amt"] = 4,
+								["a_dmg"] = 57551,
+							},
+							[303301] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 303301,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["fight_component"] = true,
+					["end_time"] = 1578650462,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578650396,
+					["serial"] = "Creature-0-3774-1718-26701-150508-0000184826",
+					["monster"] = true,
+				}, -- [31]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.005836,
+					["damage_from"] = {
+						["Zearthan"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["tipo"] = 1,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.005836,
+					["last_dps"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1578650462,
+					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Abyssal Slitherling",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["damage_taken"] = 1532.005836,
+					["total"] = 0.005836,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578650459,
+					["serial"] = "Creature-0-3774-1718-26701-154815-000018480D",
+					["dps_started"] = false,
+				}, -- [32]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 38194.017905,
+					["damage_from"] = {
+						["Zearthan"] = true,
+						["Shandris Feathermoon"] = true,
+						["Belpad <Zearthan>"] = true,
+						["Infernal <Zearthan>"] = true,
+					},
+					["targets"] = {
+						["Zearthan"] = 93236,
+						["Infernal <Zearthan>"] = 26266,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 192638.017905,
+					["dps_started"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 119502.017905,
+					["delay"] = 0,
+					["monster"] = true,
+					["total"] = 119502.017905,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
+					["nome"] = "Zanj'ir Myrmidon",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 7864,
+								["targets"] = {
+									["Zearthan"] = 54432,
+									["Infernal <Zearthan>"] = 17421,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 71853,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 71853,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 3,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["a_dmg"] = 20993,
+								["MISS"] = 1,
+							}, -- [1]
+							[303158] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 14784,
+								["targets"] = {
+									["Zearthan"] = 38804,
+									["Infernal <Zearthan>"] = 8845,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 47649,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 47649,
+								["c_max"] = 0,
+								["id"] = 303158,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 4,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["a_amt"] = 2,
+								["a_dmg"] = 27508,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["classe"] = "UNKNOW",
+					["end_time"] = 1578650514,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578650473,
+					["serial"] = "Creature-0-3774-1718-26701-153960-0000184886",
+					["fight_component"] = true,
+				}, -- [33]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 28602.013955,
+					["damage_from"] = {
+						["Zearthan"] = true,
+						["Shandris Feathermoon"] = true,
+						["Belpad <Zearthan>"] = true,
+					},
+					["targets"] = {
+						["Zearthan"] = 178466,
+						["Shandris Feathermoon"] = 44249,
+						["Belpad <Zearthan>"] = 2148,
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 224863.013955,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1578650561,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 360526.013955,
+					["nome"] = "Tidemistress Ethendriss",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 28057,
+								["g_amt"] = 0,
+								["n_max"] = 7284,
+								["targets"] = {
+									["Zearthan"] = 59622,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 31565,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 59622,
+								["c_max"] = 14400,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 5,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["a_dmg"] = 47481,
+								["MISS"] = 1,
+							}, -- [1]
+							[305011] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 22683,
+								["targets"] = {
+									["Zearthan"] = 39482,
+									["Shandris Feathermoon"] = 44249,
+									["Belpad <Zearthan>"] = 2148,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 85879,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 85879,
+								["c_max"] = 0,
+								["id"] = 305011,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 6,
+								["a_amt"] = 2,
+								["a_dmg"] = 39482,
+							},
+							[303299] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 19924,
+								["targets"] = {
+									["Zearthan"] = 79362,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 79362,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 79362,
+								["c_max"] = 0,
+								["id"] = 303299,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 5,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["a_amt"] = 4,
+								["a_dmg"] = 65049,
+							},
+							[305010] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 305010,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 224863.013955,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578650524,
+					["serial"] = "Creature-0-3774-1718-26701-153934-0000184741",
+					["dps_started"] = false,
+				}, -- [34]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 33165.013271,
+					["damage_from"] = {
+						["Zearthan"] = true,
+						["Infernal <Zearthan>"] = true,
+						["Belpad <Zearthan>"] = true,
+					},
+					["targets"] = {
+						["Zearthan"] = 33165,
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 33165.013271,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1578651010,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 248531.013271,
+					["nome"] = "Pack Leader Asenya",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3215,
+								["targets"] = {
+									["Zearthan"] = 26951,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 26951,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 26951,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 10,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[259880] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2101,
+								["targets"] = {
+									["Zearthan"] = 6214,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 6214,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 6214,
+								["c_max"] = 0,
+								["id"] = 259880,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 3,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 33165.013271,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578650985,
+					["serial"] = "Creature-0-3769-1643-24532-131262-0000184BD2",
+					["dps_started"] = false,
+				}, -- [35]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 53953.009224,
+					["damage_from"] = {
+						["Zearthan"] = true,
+						["Madmac"] = true,
+						["Belpad <Zearthan>"] = true,
+					},
+					["targets"] = {
+						["Zearthan"] = 46432,
+						["Madmac"] = 4320,
+						["Belpad <Zearthan>"] = 6087,
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 56839.009224,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1578651141,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 303462.009224,
+					["nome"] = "Captain Razorspine",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 7622,
+								["targets"] = {
+									["Zearthan"] = 38774,
+									["Belpad <Zearthan>"] = 6087,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 44861,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 44861,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[258204] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3624,
+								["targets"] = {
+									["Madmac"] = 3624,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3624,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 3624,
+								["c_max"] = 0,
+								["id"] = 258204,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[270296] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 270296,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[258200] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 152,
+								["targets"] = {
+									["Madmac"] = 696,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 696,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 696,
+								["c_max"] = 0,
+								["id"] = 258200,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[258201] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 258201,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[270295] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 7658,
+								["targets"] = {
+									["Zearthan"] = 7658,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7658,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 7658,
+								["c_max"] = 0,
+								["id"] = 270295,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 56839.009224,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578651115,
+					["serial"] = "Creature-0-3892-1643-26542-130897-0000184DED",
+					["dps_started"] = false,
+				}, -- [36]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.01611,
+					["damage_from"] = {
+						["Zearthan"] = true,
+						["Infernal <Zearthan>"] = true,
+						["Core Hound"] = true,
+						["Swiftboom"] = true,
+						["Valok-ChamberofAspects"] = true,
+						["Pandashotz"] = true,
+					},
+					["targets"] = {
+						["Core Hound"] = 1357,
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 1357.01611,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1578651398,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 173888.01611,
+					["nome"] = "Tainted Guardian",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1357,
+								["targets"] = {
+									["Core Hound"] = 1357,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1357,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 1357,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 1357.01611,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578651393,
+					["serial"] = "Creature-0-3111-1642-31758-126460-0000184EA9",
+					["dps_started"] = false,
+				}, -- [37]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.004836,
+					["damage_from"] = {
+						["Zearthan"] = true,
+						["Swiftboom"] = true,
+						["Valok-ChamberofAspects"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.004836,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1578651398,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 16475.004836,
+					["nome"] = "Sethrak Skycaller",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["total"] = 0.004836,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1578651395,
+					["serial"] = "Creature-0-3111-1642-31758-128958-0001184E96",
+					["dps_started"] = false,
+				}, -- [38]
 			},
 		}, -- [1]
 		{
@@ -22974,17 +23942,18 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["healing_from"] = {
-						["Zearthan"] = true,
+					["targets_overheal"] = {
+						["Zearthan"] = 0,
+						["Belpad <Zearthan>"] = 0,
 					},
 					["pets"] = {
 						"Belpad <Zearthan>", -- [1]
 					},
 					["iniciar_hps"] = false,
 					["classe"] = "WARLOCK",
-					["totalover"] = 10829.127016,
-					["total_without_pet"] = 606461.1270160001,
-					["total"] = 606461.1270160001,
+					["totalover"] = 23841.175495,
+					["total_without_pet"] = 1057571.175495,
+					["total"] = 1057571.175495,
 					["targets_absorbs"] = {
 						["Zearthan"] = 0,
 						["Belpad <Zearthan>"] = 0,
@@ -22993,46 +23962,46 @@ _detalhes_database = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Player-3391-0A827D4F",
-					["totalabsorb"] = 396185.127016,
+					["totalabsorb"] = 794147.175495,
 					["last_hps"] = 0,
 					["targets"] = {
 						["Zearthan"] = 0,
 						["Belpad <Zearthan>"] = 0,
 					},
-					["totalover_without_pet"] = 0.127016,
-					["healing_taken"] = 568354.1270160001,
+					["totalover_without_pet"] = 0.175495,
+					["healing_taken"] = 985058.1754950002,
 					["fight_component"] = true,
 					["end_time"] = 1576796905,
-					["spec"] = 267,
+					["heal_enemy_amt"] = 0,
 					["nome"] = "Zearthan",
 					["spells"] = {
 						["_ActorTable"] = {
 							[77220] = {
 								["c_amt"] = 0,
-								["totalabsorb"] = 51513,
+								["totalabsorb"] = 78212,
 								["targets_overheal"] = {
 								},
-								["n_max"] = 249,
+								["n_max"] = 909,
 								["targets"] = {
-									["Zearthan"] = 51513,
+									["Zearthan"] = 78212,
 								},
 								["n_min"] = 0,
-								["counter"] = 754,
+								["counter"] = 824,
 								["overheal"] = 0,
-								["total"] = 51513,
+								["total"] = 78212,
 								["c_max"] = 0,
 								["id"] = 77220,
 								["targets_absorbs"] = {
-									["Zearthan"] = 51513,
+									["Zearthan"] = 78212,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
 								["m_healed"] = 0,
-								["n_amt"] = 754,
-								["n_curado"] = 51513,
 								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 824,
+								["n_curado"] = 78212,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[234153] = {
@@ -23040,26 +24009,85 @@ _detalhes_database = {
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
 								},
-								["n_max"] = 2523,
+								["n_max"] = 3542,
 								["targets"] = {
-									["Zearthan"] = 103967,
+									["Zearthan"] = 135805,
 								},
 								["n_min"] = 0,
-								["counter"] = 76,
+								["counter"] = 85,
 								["overheal"] = 0,
-								["total"] = 103967,
+								["total"] = 135805,
 								["c_max"] = 0,
 								["id"] = 234153,
 								["targets_absorbs"] = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
 								["m_healed"] = 0,
-								["n_amt"] = 76,
-								["n_curado"] = 103967,
 								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 85,
+								["n_curado"] = 135805,
+								["m_amt"] = 0,
+								["absorbed"] = 0,
+							},
+							[259760] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 131,
+								["targets"] = {
+									["Zearthan"] = 393,
+								},
+								["n_min"] = 0,
+								["counter"] = 3,
+								["overheal"] = 0,
+								["total"] = 393,
+								["c_max"] = 0,
+								["id"] = 259760,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["n_curado"] = 393,
+								["m_amt"] = 0,
+								["absorbed"] = 0,
+							},
+							[108366] = {
+								["c_amt"] = 1,
+								["totalabsorb"] = 715935,
+								["targets_overheal"] = {
+									["Zearthan"] = 142,
+									["Belpad <Zearthan>"] = 752,
+								},
+								["n_max"] = 13771,
+								["targets"] = {
+									["Zearthan"] = 643422,
+									["Belpad <Zearthan>"] = 71955,
+								},
+								["n_min"] = 0,
+								["counter"] = 742,
+								["overheal"] = 894,
+								["total"] = 715377,
+								["c_max"] = 0,
+								["id"] = 108366,
+								["targets_absorbs"] = {
+									["Zearthan"] = 643422,
+									["Belpad <Zearthan>"] = 72513,
+								},
+								["c_curado"] = -558,
+								["m_crit"] = 0,
+								["m_healed"] = 0,
+								["c_min"] = -558,
+								["totaldenied"] = 0,
+								["n_amt"] = 741,
+								["n_curado"] = 715935,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[270117] = {
@@ -23082,44 +24110,40 @@ _detalhes_database = {
 								},
 								["c_curado"] = 18974,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
 								["n_amt"] = 42,
 								["n_curado"] = 73017,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
-							[108366] = {
-								["c_amt"] = 1,
-								["totalabsorb"] = 344672,
+							[304627] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Zearthan"] = 138,
-									["Belpad <Zearthan>"] = 752,
+									["Zearthan"] = 13008,
 								},
-								["n_max"] = 2912,
+								["n_max"] = 2615,
 								["targets"] = {
-									["Zearthan"] = 306565,
-									["Belpad <Zearthan>"] = 37549,
+									["Zearthan"] = 20917,
 								},
 								["n_min"] = 0,
-								["counter"] = 659,
-								["overheal"] = 890,
-								["total"] = 344114,
+								["counter"] = 13,
+								["overheal"] = 13008,
+								["total"] = 20917,
 								["c_max"] = 0,
-								["id"] = 108366,
+								["id"] = 304627,
 								["targets_absorbs"] = {
-									["Zearthan"] = 306565,
-									["Belpad <Zearthan>"] = 38107,
 								},
-								["c_curado"] = -558,
+								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
 								["m_healed"] = 0,
-								["n_amt"] = 658,
-								["n_curado"] = 344672,
-								["c_min"] = -558,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 13,
+								["n_curado"] = 20917,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[6262] = {
@@ -23141,29 +24165,28 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
 								["n_amt"] = 1,
 								["n_curado"] = 14318,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["targets_overheal"] = {
-						["Zearthan"] = 0,
-						["Belpad <Zearthan>"] = 0,
+					["healing_from"] = {
+						["Zearthan"] = true,
 					},
-					["tipo"] = 2,
+					["spec"] = 267,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["totaldenied"] = 0.127016,
-					["start_time"] = 1576796417,
+					["totaldenied"] = 0.175495,
+					["start_time"] = 1576796236,
 					["delay"] = 0,
-					["heal_enemy_amt"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
@@ -23172,22 +24195,22 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "PET",
-					["totalover"] = 0.075672,
-					["total_without_pet"] = 0.075672,
-					["total"] = 0.075672,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.103247,
+					["total_without_pet"] = 0.103247,
+					["total"] = 0.103247,
 					["targets_absorbs"] = {
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Pet-0-3895-1643-25944-416-0202B4B52E",
-					["totalabsorb"] = 0.075672,
+					["totalabsorb"] = 0.103247,
 					["last_hps"] = 0,
 					["targets"] = {
 					},
-					["totalover_without_pet"] = 0.075672,
-					["healing_taken"] = 38107.075672,
+					["totalover_without_pet"] = 0.103247,
+					["healing_taken"] = 72513.10324699999,
 					["fight_component"] = true,
 					["end_time"] = 1576796905,
 					["ownerName"] = "Zearthan",
@@ -23197,13 +24220,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["totaldenied"] = 0.075672,
+					["totaldenied"] = 0.103247,
 					["healing_from"] = {
 						["Zearthan"] = true,
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 					["start_time"] = 1576796902,
 					["delay"] = 0,
 					["tipo"] = 2,
@@ -23214,8 +24237,8 @@ _detalhes_database = {
 			["tipo"] = 7,
 			["_ActorTable"] = {
 				{
-					["received"] = 0.06992099999999998,
-					["resource"] = 58.6079000655651,
+					["received"] = 0.07937099999999998,
+					["resource"] = 85.67788008046625,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -23234,12 +24257,12 @@ _detalhes_database = {
 					["grupo"] = true,
 					["totalover"] = 0.007761,
 					["spec"] = 267,
-					["tipo"] = 3,
 					["last_event"] = 0,
-					["alternatepower"] = 0.06992099999999998,
+					["tipo"] = 3,
+					["alternatepower"] = 0.07937099999999998,
 					["flag_original"] = 1297,
 					["serial"] = "Player-3391-0A827D4F",
-					["total"] = 0.06992099999999998,
+					["total"] = 0.07937099999999998,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -23253,40 +24276,40 @@ _detalhes_database = {
 							[234153] = {
 								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 17,
+								["appliedamt"] = 18,
 								["id"] = 234153,
-								["uptime"] = 68,
+								["uptime"] = 78,
 								["targets"] = {
 								},
-								["refreshamt"] = 18,
+								["refreshamt"] = 19,
 							},
 							[22703] = {
 								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 30,
+								["appliedamt"] = 36,
 								["id"] = 22703,
-								["uptime"] = 15,
+								["uptime"] = 21,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
 							},
 							[157736] = {
 								["counter"] = 0,
-								["refreshamt"] = 0,
-								["activedamt"] = -15,
-								["uptime"] = 228,
+								["refreshamt"] = 1,
+								["activedamt"] = -19,
+								["uptime"] = 372,
 								["id"] = 157736,
-								["appliedamt"] = 27,
+								["appliedamt"] = 42,
 								["targets"] = {
 								},
-								["actived_at"] = 20498366597,
+								["actived_at"] = 22077017075,
 							},
 							[253309] = {
 								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 12,
+								["appliedamt"] = 19,
 								["id"] = 253309,
-								["uptime"] = 32,
+								["uptime"] = 50,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -23294,12 +24317,12 @@ _detalhes_database = {
 							[265931] = {
 								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 27,
+								["appliedamt"] = 46,
 								["id"] = 265931,
-								["uptime"] = 123,
+								["uptime"] = 221,
 								["targets"] = {
 								},
-								["refreshamt"] = 4,
+								["refreshamt"] = 6,
 							},
 							[80240] = {
 								["counter"] = 0,
@@ -23314,56 +24337,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 1764,
+					["buff_uptime"] = 2335,
 					["classe"] = "WARLOCK",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
-							[186401] = {
-								["counter"] = 0,
-								["activedamt"] = 36,
-								["appliedamt"] = 36,
-								["id"] = 186401,
-								["uptime"] = 579,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
-							[279673] = {
-								["counter"] = 0,
-								["activedamt"] = 9,
-								["appliedamt"] = 9,
-								["id"] = 279673,
-								["uptime"] = 11,
-								["targets"] = {
-								},
-								["refreshamt"] = 1,
-							},
-							[117828] = {
-								["counter"] = 0,
-								["activedamt"] = 27,
-								["appliedamt"] = 27,
-								["id"] = 117828,
-								["uptime"] = 143,
-								["targets"] = {
-								},
-								["refreshamt"] = 3,
-							},
-							[287660] = {
-								["counter"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 287660,
-								["uptime"] = 4,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
 							[256374] = {
 								["counter"] = 0,
-								["activedamt"] = 17,
-								["appliedamt"] = 17,
+								["activedamt"] = 23,
+								["appliedamt"] = 23,
 								["id"] = 256374,
-								["uptime"] = 180,
+								["uptime"] = 238,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -23378,23 +24361,83 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 15,
 							},
-							[108366] = {
+							[186403] = {
 								["counter"] = 0,
-								["activedamt"] = 259,
-								["appliedamt"] = 259,
-								["id"] = 108366,
-								["uptime"] = 413,
+								["activedamt"] = 11,
+								["appliedamt"] = 11,
+								["id"] = 186403,
+								["uptime"] = 197,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
 							},
 							[232412] = {
 								["counter"] = 0,
-								["appliedamt"] = 2,
-								["activedamt"] = 2,
-								["actived_at"] = 3153595998,
+								["appliedamt"] = 3,
+								["activedamt"] = 3,
+								["actived_at"] = 4732246419,
 								["id"] = 232412,
 								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[117828] = {
+								["counter"] = 0,
+								["activedamt"] = 48,
+								["appliedamt"] = 48,
+								["id"] = 117828,
+								["uptime"] = 247,
+								["targets"] = {
+								},
+								["refreshamt"] = 3,
+							},
+							[108366] = {
+								["counter"] = 0,
+								["activedamt"] = 295,
+								["appliedamt"] = 295,
+								["id"] = 108366,
+								["uptime"] = 595,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[287660] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 287660,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[279673] = {
+								["counter"] = 0,
+								["activedamt"] = 9,
+								["appliedamt"] = 9,
+								["id"] = 279673,
+								["uptime"] = 11,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[186401] = {
+								["counter"] = 0,
+								["activedamt"] = 36,
+								["appliedamt"] = 36,
+								["id"] = 186401,
+								["uptime"] = 579,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[304627] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 304627,
+								["uptime"] = 30,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -23403,24 +24446,24 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 486,
+					["debuff_uptime"] = 762,
 					["nome"] = "Zearthan",
 					["spec"] = 267,
 					["grupo"] = true,
 					["spell_cast"] = {
-						[1122] = 7,
+						[1122] = 9,
 						[6262] = 1,
 						[80240] = 2,
-						[5740] = 19,
-						[234153] = 35,
-						[116858] = 26,
-						[17962] = 25,
+						[5740] = 22,
 						[119905] = 1,
-						[29722] = 94,
-						[348] = 27,
+						[116858] = 43,
+						[17962] = 45,
+						[348] = 43,
+						[29722] = 131,
+						[234153] = 37,
 					},
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
 					["pets"] = {
@@ -23436,14 +24479,15 @@ _detalhes_database = {
 					["flag_original"] = 4369,
 					["ownerName"] = "Zearthan",
 					["nome"] = "Belpad <Zearthan>",
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["spell_cast"] = {
-						[3110] = 167,
+						[3110] = 227,
+						[89792] = 1,
 					},
+					["last_event"] = 0,
+					["classe"] = "PET",
 					["pets"] = {
 					},
-					["classe"] = "PET",
-					["tipo"] = 4,
 					["serial"] = "Pet-0-3895-1643-25944-416-0202B4B52E",
 					["fight_component"] = true,
 				}, -- [2]
@@ -23485,15 +24529,15 @@ _detalhes_database = {
 					["flag_original"] = 8465,
 					["ownerName"] = "Zearthan",
 					["nome"] = "Infernal <Zearthan>",
-					["spell_cast"] = {
-						[19483] = 7,
-					},
-					["tipo"] = 4,
-					["last_event"] = 0,
 					["pets"] = {
 					},
-					["serial"] = "Creature-0-3895-1643-25944-89-00007C02D5",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["classe"] = "PET",
+					["serial"] = "Creature-0-3895-1643-25944-89-00007C02D5",
+					["spell_cast"] = {
+						[19483] = 10,
+					},
 				}, -- [5]
 				{
 					["flag_original"] = 4369,
@@ -23501,16 +24545,16 @@ _detalhes_database = {
 					["nome"] = "Curseformed Ravager <Zearthan>",
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["classe"] = "PET",
 					["spell_cast"] = {
 						[250951] = 5,
 						[250909] = 1,
-						[250937] = 29,
 						[250904] = 1,
+						[250937] = 29,
 					},
-					["last_event"] = 0,
-					["classe"] = "PET",
 					["serial"] = "Vehicle-0-3895-1643-25944-130573-00007C0381",
-					["tipo"] = 4,
+					["last_event"] = 0,
 				}, -- [6]
 				{
 					["monster"] = true,
@@ -23654,8 +24698,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["damage_twin"] = "Brambleguard",
 					["tipo"] = 4,
-					["serial"] = "Creature-0-3895-1643-25944-129658-00007C048F",
 					["damage_spellid"] = 257258,
+					["serial"] = "Creature-0-3895-1643-25944-129658-00007C048F",
 				}, -- [14]
 				{
 					["fight_component"] = true,
@@ -23691,15 +24735,15 @@ _detalhes_database = {
 				{
 					["fight_component"] = true,
 					["nome"] = "Alpine Falcon",
-					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[256499] = 6,
 						[256498] = 5,
 					},
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3895-1643-25944-128188-00007C00B4",
 					["flag_original"] = 2600,
 				}, -- [17]
@@ -23721,7 +24765,7 @@ _detalhes_database = {
 				}, -- [18]
 				{
 					["fight_component"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["monster"] = true,
 					["nome"] = "Awakened Revenant",
 					["interrupt_targets"] = {
@@ -23733,10 +24777,10 @@ _detalhes_database = {
 						[257549] = 9,
 						[257552] = 5,
 					},
-					["classe"] = "UNKNOW",
+					["tipo"] = 4,
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["interrupt_spells"] = {
 						["_ActorTable"] = {
 							[257549] = {
@@ -23809,6 +24853,102 @@ _detalhes_database = {
 						[257254] = 2,
 					},
 				}, -- [22]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Zanj'ir Trapper",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3774-1718-26701-153962-0000184848",
+					["spell_cast"] = {
+						[302943] = 2,
+						[302912] = 10,
+					},
+				}, -- [23]
+				{
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Azsh'ari Siegemistress",
+					["spell_cast"] = {
+						[303299] = 13,
+						[303301] = 1,
+					},
+					["last_event"] = 0,
+					["monster"] = true,
+					["tipo"] = 4,
+					["pets"] = {
+					},
+					["serial"] = "Creature-0-3774-1718-26701-150508-0000184826",
+					["flag_original"] = 68168,
+				}, -- [24]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Zanj'ir Myrmidon",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3774-1718-26701-153960-0000184886",
+					["spell_cast"] = {
+						[303158] = 4,
+					},
+				}, -- [25]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Tidemistress Ethendriss",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3774-1718-26701-153934-0000184741",
+					["spell_cast"] = {
+						[305011] = 2,
+						[303299] = 5,
+						[305010] = 1,
+					},
+				}, -- [26]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Pack Leader Asenya",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3769-1643-24532-131262-0000184BD2",
+					["spell_cast"] = {
+						[259880] = 3,
+					},
+				}, -- [27]
+				{
+					["monster"] = true,
+					["last_event"] = 0,
+					["nome"] = "Captain Razorspine",
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3892-1643-26542-130897-0000184DED",
+					["spell_cast"] = {
+						[270295] = 1,
+						[270296] = 2,
+						[258201] = 1,
+					},
+				}, -- [28]
 			},
 		}, -- [4]
 		{
@@ -23825,193 +24965,193 @@ _detalhes_database = {
 		},
 		["segments_added"] = {
 			{
+				["elapsed"] = 4.192999999999302,
+				["type"] = 0,
+				["name"] = "Sethrak Skycaller",
+				["clock"] = "11:16:34",
+			}, -- [1]
+			{
+				["elapsed"] = 22.63699999999972,
+				["type"] = 0,
+				["name"] = "Captain Razorspine",
+				["clock"] = "11:11:58",
+			}, -- [2]
+			{
+				["elapsed"] = 25.86500000000069,
+				["type"] = 0,
+				["name"] = "Pack Leader Asenya",
+				["clock"] = "11:09:44",
+			}, -- [3]
+			{
+				["elapsed"] = 7.703000000000429,
+				["type"] = 0,
+				["name"] = "Zanj'ir Trapper",
+				["clock"] = "11:03:58",
+			}, -- [4]
+			{
+				["elapsed"] = 7.317999999999302,
+				["type"] = 0,
+				["name"] = "Azsh'ari Siegemistress",
+				["clock"] = "11:03:39",
+			}, -- [5]
+			{
+				["elapsed"] = 29.89099999999962,
+				["type"] = 0,
+				["name"] = "Azsh'ari Siegemistress",
+				["clock"] = "11:02:58",
+			}, -- [6]
+			{
+				["elapsed"] = 36.35699999999997,
+				["type"] = 0,
+				["name"] = "Tidemistress Ethendriss",
+				["clock"] = "11:02:04",
+			}, -- [7]
+			{
+				["elapsed"] = 24.39800000000014,
+				["type"] = 0,
+				["name"] = "Zanj'ir Myrmidon",
+				["clock"] = "11:01:30",
+			}, -- [8]
+			{
+				["elapsed"] = 8.128999999999905,
+				["type"] = 0,
+				["name"] = "Azsh'ari Siegemistress",
+				["clock"] = "11:01:12",
+			}, -- [9]
+			{
+				["elapsed"] = 16.96900000000005,
+				["type"] = 0,
+				["name"] = "Azsh'ari Siegemistress",
+				["clock"] = "11:00:45",
+			}, -- [10]
+			{
+				["elapsed"] = 14.20799999999963,
+				["type"] = 0,
+				["name"] = "Zanj'ir Trapper",
+				["clock"] = "11:00:21",
+			}, -- [11]
+			{
 				["elapsed"] = 19.48099999999977,
 				["type"] = 0,
 				["name"] = "Splintered Thrall",
 				["clock"] = "00:38:14",
-			}, -- [1]
+			}, -- [12]
 			{
 				["elapsed"] = 1.466999999999644,
 				["type"] = 0,
 				["name"] = "Unmasked Witch",
 				["clock"] = "00:35:29",
-			}, -- [2]
+			}, -- [13]
 			{
 				["elapsed"] = 33.51499999999942,
 				["type"] = 0,
 				["name"] = "Unmasked Witch",
 				["clock"] = "00:34:44",
-			}, -- [3]
+			}, -- [14]
 			{
 				["elapsed"] = 33.9340000000002,
 				["type"] = 0,
 				["name"] = "Stonebound Guardian",
 				["clock"] = "00:29:10",
-			}, -- [4]
+			}, -- [15]
 			{
 				["elapsed"] = 19.65300000000025,
 				["type"] = 0,
 				["name"] = "Awakened Revenant",
 				["clock"] = "00:27:43",
-			}, -- [5]
+			}, -- [16]
 			{
 				["elapsed"] = 14.75900000000002,
 				["type"] = 0,
 				["name"] = "Awakened Revenant",
 				["clock"] = "00:26:44",
-			}, -- [6]
+			}, -- [17]
 			{
 				["elapsed"] = 38.94800000000032,
 				["type"] = 0,
 				["name"] = "Frostmange",
 				["clock"] = "00:24:40",
-			}, -- [7]
+			}, -- [18]
 			{
 				["elapsed"] = 29.21399999999994,
 				["type"] = 0,
 				["name"] = "Awakened Dead",
 				["clock"] = "00:23:44",
-			}, -- [8]
+			}, -- [19]
 			{
 				["elapsed"] = 11.36700000000019,
 				["type"] = 0,
 				["name"] = "Chillfur Yeti",
 				["clock"] = "00:23:00",
-			}, -- [9]
+			}, -- [20]
 			{
 				["elapsed"] = 5.030000000000655,
 				["type"] = 0,
 				["name"] = "Awakened Dead",
 				["clock"] = "00:22:27",
-			}, -- [10]
+			}, -- [21]
 			{
 				["elapsed"] = 15.73400000000038,
 				["type"] = 0,
 				["name"] = "Awakened Dead",
 				["clock"] = "00:22:07",
-			}, -- [11]
+			}, -- [22]
 			{
 				["elapsed"] = 12.07499999999982,
 				["type"] = 0,
 				["name"] = "Chillfur Yeti",
 				["clock"] = "00:21:38",
-			}, -- [12]
+			}, -- [23]
 			{
 				["elapsed"] = 15.61499999999978,
 				["type"] = 0,
 				["name"] = "Chillfur Yeti",
 				["clock"] = "00:21:13",
-			}, -- [13]
+			}, -- [24]
 			{
 				["elapsed"] = 1.001000000000204,
 				["type"] = 0,
 				["name"] = "Chillfur Yeti",
 				["clock"] = "00:20:41",
-			}, -- [14]
+			}, -- [25]
 			{
 				["elapsed"] = 37.82400000000052,
 				["type"] = 0,
 				["name"] = "Chillfur Yeti",
 				["clock"] = "00:20:03",
-			}, -- [15]
+			}, -- [26]
 			{
 				["elapsed"] = 13.46900000000005,
 				["type"] = 0,
 				["name"] = "Chillfur Yeti",
 				["clock"] = "00:19:38",
-			}, -- [16]
+			}, -- [27]
 			{
 				["elapsed"] = 47.65799999999945,
 				["type"] = 0,
 				["name"] = "Awakened Dead",
 				["clock"] = "00:18:34",
-			}, -- [17]
+			}, -- [28]
 			{
 				["elapsed"] = 21.50300000000061,
 				["type"] = 0,
 				["name"] = "Chillfur Yeti",
 				["clock"] = "00:18:00",
-			}, -- [18]
+			}, -- [29]
 			{
 				["elapsed"] = 1.735999999999876,
 				["type"] = 0,
 				["name"] = "Sister Widdowson",
 				["clock"] = "00:15:37",
-			}, -- [19]
-			{
-				["elapsed"] = 25.88700000000063,
-				["type"] = 0,
-				["name"] = "Sister Widdowson",
-				["clock"] = "00:15:11",
-			}, -- [20]
-			{
-				["elapsed"] = 21.70299999999952,
-				["type"] = 0,
-				["name"] = "Deathbound Shambler",
-				["clock"] = "00:14:37",
-			}, -- [21]
-			{
-				["elapsed"] = 6.65900000000056,
-				["type"] = 0,
-				["name"] = "Misshapen Thrall",
-				["clock"] = "00:14:18",
-			}, -- [22]
-			{
-				["elapsed"] = 9.412000000000262,
-				["type"] = 0,
-				["name"] = "Matron Levae",
-				["clock"] = "00:12:31",
-			}, -- [23]
-			{
-				["elapsed"] = 18.88000000000011,
-				["type"] = 0,
-				["name"] = "Blighted Essence",
-				["clock"] = "00:12:08",
-			}, -- [24]
-			{
-				["elapsed"] = 3.682999999999993,
-				["type"] = 0,
-				["name"] = "Blighted Essence",
-				["clock"] = "00:12:05",
-			}, -- [25]
-			{
-				["elapsed"] = 1.21599999999944,
-				["type"] = 0,
-				["name"] = "Blighted Fiend",
-				["clock"] = "00:12:00",
-			}, -- [26]
-			{
-				["elapsed"] = 2.458999999999833,
-				["type"] = 0,
-				["name"] = "Blighted Essence",
-				["clock"] = "00:11:55",
-			}, -- [27]
-			{
-				["elapsed"] = 1.125,
-				["type"] = 0,
-				["name"] = "Heartsbane Acolyte",
-				["clock"] = "00:11:50",
-			}, -- [28]
-			{
-				["elapsed"] = 9.414999999999964,
-				["type"] = 0,
-				["name"] = "Curseformed Servitor",
-				["clock"] = "00:11:37",
-			}, -- [29]
-			{
-				["elapsed"] = 1.10399999999936,
-				["type"] = 0,
-				["name"] = "Blighted Fiend",
-				["clock"] = "00:11:34",
 			}, -- [30]
 		},
 		["combat_counter"] = 19,
 		["totals"] = {
-			6502801.712523999, -- [1]
-			606461.1856590001, -- [2]
+			9312945.926441003, -- [1]
+			1065604.281627, -- [2]
 			{
-				0, -- [1]
-				[0] = 0.06216,
+				0.005337, -- [1]
+				[0] = 1000.089582,
 				["alternatepower"] = 0,
 				[6] = 0,
 				[3] = 0,
@@ -24037,15 +25177,15 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = "00:07:45",
-		["end_time"] = 6738.228,
+		["end_time"] = 8333.747,
 		["cleu_timeline"] = {
 		},
 		["totals_grupo"] = {
-			3361273.188656, -- [1]
-			606461.123232, -- [2]
+			4659566.235646, -- [1]
+			1057571.171711, -- [2]
 			{
 				0, -- [1]
-				[0] = 0.06216,
+				[0] = 0.07161000000000001,
 				["alternatepower"] = 0,
 				[6] = 0,
 				[3] = 0,
@@ -24079,13 +25219,13 @@ _detalhes_database = {
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
 		},
-		["data_fim"] = "00:38:34",
+		["data_fim"] = "11:16:38",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
 		["frags"] = {
 		},
-		["start_time"] = 6163.529,
+		["start_time"] = 7561.380000000001,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
@@ -24096,7 +25236,7 @@ _detalhes_database = {
 			["n"] = 1,
 		},
 	},
-	["combat_counter"] = 58,
+	["combat_counter"] = 71,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",

@@ -1,8 +1,12 @@
 # BigWigs
 
-## [v170-6-gd03a687](https://github.com/BigWigsMods/BigWigs/tree/d03a687fd87aeb23d05bc88b64287f187debfaf1) (2019-12-15)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v170...d03a687fd87aeb23d05bc88b64287f187debfaf1)
+## [v171](https://github.com/BigWigsMods/BigWigs/tree/v171) (2020-01-15)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v170...v171)
 
+- bump version  
+- bump toc  
+- ruRU update (#735)  
+- esES update (#739)  
 - Nyalotha/Skitra: Module improvements  
 - Nyalotha/Raden: minor fixes  
 - Nyalotha/Raden: Update option keys  

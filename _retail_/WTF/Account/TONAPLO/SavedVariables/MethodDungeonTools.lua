@@ -5,6 +5,7 @@ MethodDungeonToolsDB = {
 		["Kenne - Auchindoun"] = "Kenne - Auchindoun",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
+		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",

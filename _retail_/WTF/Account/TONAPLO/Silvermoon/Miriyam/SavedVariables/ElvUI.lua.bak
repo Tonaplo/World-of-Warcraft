@@ -1,10 +1,10 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/elvui", -- [1]
-		"/macro", -- [2]
+		"/s bno wayt", -- [1]
+		"/elvui", -- [2]
 		"/s wtf", -- [3]
-		"/s bno wayt", -- [4]
+		"/macro", -- [4]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1569,5 +1569,247 @@ ElvCharacterDB = {
 			[51] = 1577798272,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [71]
+		{
+			"The Gallywix Community || Top Player Boost Runs for GOLD! || Heroic TEP, Mythic+10 and above, Freehold 110-120 Speed Leveling, Arena Rating & more. We're a 1000+ strong top player group, with 11000+ people on Discord. PM me to hear more!", -- [1]
+			"Fairyhunter-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fairyhunter-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			833, -- [11]
+			"Player-3391-0AC99401", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Fairyhunter|r",
+			[51] = 1578648987,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"< S O L O > (5/8M EP) Is looking to expand their core raid team for Mythic Ny'Alotha! Currently looking mainly for a Disc Priest! (all classes will be considered). /w for more info!", -- [1]
+			"Elestic-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elestic-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			834, -- [11]
+			"Player-3391-0A3DBA2F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcElestic|r",
+			[51] = 1578648996,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"WTS Freehold LVL up boost 110-120.(Only For Gold)\\w me for info(8-10  mins per lvl)Accept Gold Any realm any faction", -- [1]
+			"Xoxll-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xoxll-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			835, -- [11]
+			"Player-3391-0A7C4DB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xoxll|r",
+			[51] = 1578649000,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"<Twilight> PATCH END DEAL random +10 now 90k! Buy two 10's and get a FREE armour stack. Also selling TEP 8/8 Heroic loot shared run, Azshara curve, All dungeons +10 / +20 available, Mechagon, leveling, islands & more FOR GOLD ONLY /w for more information", -- [1]
+			"Needlefire-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Needlefire-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			846, -- [11]
+			"Player-3391-0A5BC132", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Needlefire|r",
+			[51] = 1578649021,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"WTS |cff66bbff|Hjournal:1:2361:16|h[Queen Azshara]|h|r Heroic Clean Kill For Gold Only ! Get Your 430+ Gear & Your |cffffff00|Hachievement:13784:Player-3391-0A6D9AE1:1:7:29:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Queen Azshara]|h|r !", -- [1]
+			"Mendøza-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mendøza-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			853, -- [11]
+			"Player-3391-0A6D9AE1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Mendøza|r",
+			[51] = 1578649033,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"<NBC>Selling M+10 for 90k ONLY!! and +15 for 220k, also +16/17/18/19/20(IN TIME)! Buy at least 2xM+10 for FREE ARMOR 180k  (Only180k)!  ,TEP Mythic/HC 8/8! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount!2v2 easy Rate UP!/w for info", -- [1]
+			"Aranay-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aranay-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			859, -- [11]
+			"Player-3391-0ACB5EB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecAranay|r",
+			[51] = 1578649044,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"Selling Cheap (10.20) Gurantee un Time + |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r Hardmode + Normalmode >|cffa335ee|Hitem:168830::::::::120:105::23::::|h[Aerial Unit R-21/X]|h|rGet Ur Weekly Chest . items + 440-455 Wis me For more info ..", -- [1]
+			"Amåzing-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Amåzing-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			870, -- [11]
+			"Player-3391-0AA638F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Amåzing|r",
+			[51] = 1578649067,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"WTS|cffa335ee|Hitem:161134::::::::120:62::13::::|h[Mecha-Mogul Mk2]|h|r cheap than ah", -- [1]
+			"Deathnemesis-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Deathnemesis-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			992, -- [11]
+			"Player-3391-0A300607", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Deathnemesis|r",
+			[51] = 1578649609,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"WTS Freehold LVL up boost 110-120.(Only For Gold)\\w me for info(8-10  mins per lvl)Accept Gold Any realm any faction", -- [1]
+			"Xoxll-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xoxll-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			993, -- [11]
+			"Player-3391-0A7C4DB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xoxll|r",
+			[51] = 1578649611,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"||NBC|| Selling M+10 90k ONLY! & +15 200k.also +16-20 ( IN TIME ).! Buy at least 2x M+10 180k + Armor Stack Free.!take advantage of the offer.! Mechagon HM&NM+MOUNT.!The Eternal Palace HC & MYTHIC 8/8 / Jaina Mount.For Gold Only.! /w For Info!", -- [1]
+			"Killêr-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Killêr-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			994, -- [11]
+			"Player-3391-0A2CD85E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Killêr|r",
+			[51] = 1578649612,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-11056-3391-82999965|h[Guild: Taka]|h|r is looking for hardcore M+ and raiders for 8.3! we aim for FULL HC Clear and FULL M clear in Uldir and BoD for mount and mog! we are daily active and use discord, join the fight", -- [1]
+			"Zeinhardt-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zeinhardt-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1052, -- [11]
+			"Player-3391-0AC3C760", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cZeinhardt|r",
+			[51] = 1578650288,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
 	},
 }

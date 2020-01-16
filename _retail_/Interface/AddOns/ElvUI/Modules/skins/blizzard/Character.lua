@@ -266,8 +266,8 @@ local function UpdateCurrencySkins()
 	end
 end
 
-local function LoadSkin()
-	if E.private.skins.blizzard.enable ~= true or E.private.skins.blizzard.character ~= true then return end
+function S:CharacterFrame()
+	if not (E.private.skins.blizzard.enable and E.private.skins.blizzard.character) then return end
 
 	-- General
 	local CharacterFrame = _G.CharacterFrame
@@ -322,6 +322,10 @@ local function LoadSkin()
 	_G.CharacterStatsPane.ItemLevelFrame.Value:FontTemplate(nil, 20)
 	_G.CharacterStatsPane.ItemLevelFrame.Background:SetAlpha(0)
 	ColorizeStatPane(_G.CharacterStatsPane.ItemLevelFrame)
+
+	--Corruption 8.3
+	_G.CharacterStatsPane.ItemLevelFrame.Corruption:ClearAllPoints()
+	_G.CharacterStatsPane.ItemLevelFrame.Corruption:SetPoint("RIGHT", _G.CharacterStatsPane.ItemLevelFrame, "RIGHT", 22, -8)
 
 	hooksecurefunc("PaperDollFrame_UpdateStats", function()
 		if IsAddOnLoaded("DejaCharacterStats") then return end
@@ -492,4 +496,4 @@ local function LoadSkin()
 	-- S:HandleCloseButton(_G.PaperDollItemsFrame.HelpTipBox.CloseButton)
 end
 
-S:AddCallback("Character", LoadSkin)
+S:AddCallback('CharacterFrame')

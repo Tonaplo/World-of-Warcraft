@@ -1,157 +1,25 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i You're playing one already :P", -- [1]
-		"/i dont forget to guard GY", -- [2]
+		"/cw Predattor-Ravencrest brez me", -- [1]
+		"/i You're playing one already :P", -- [2]
 		"/cw Trûe-Silvermoon combat", -- [3]
-		"/cw Trûe-Silvermoon nps :\")", -- [4]
+		"/i dont forget to guard GY", -- [4]
 		"/s stay in here", -- [5]
 		"/i OOM", -- [6]
 		"/i Hello Etheren", -- [7]
-		"/s LOS really sucks here", -- [8]
-		"/cw Predattor-Ravencrest brez me", -- [9]
+		"/cw Trûe-Silvermoon nps :\")", -- [8]
+		"/elvui", -- [9]
 		"/cw Trûe-Silvermoon also we have gy", -- [10]
-		"/elvui", -- [11]
+		"/macro", -- [11]
 		"/i go INTO KEEP", -- [12]
 		"/cw Predattor-Ravencrest I am heals", -- [13]
 		"/cw Predattor-Ravencrest nooo", -- [14]
 		"/i lol Hogger", -- [15]
-		"/macro", -- [16]
+		"/s LOS really sucks here", -- [16]
 		"/s FOR MAX LEVEL!", -- [17]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Well done ", -- [1]
-			"Etheren-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Etheren-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1417, -- [11]
-			"Player-3702-06175FEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEtheren-ArgentDawn|r",
-			[51] = 1577624579,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"W e did it", -- [1]
-			"Fangled-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fangled-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1443, -- [11]
-			"Player-3391-09A672C4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Fangled|r",
-			[51] = 1577624585,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"gg", -- [1]
-			"Merylor-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Merylor-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1455, -- [11]
-			"Player-3391-0A5BE132", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Merylor|r",
-			[51] = 1577624586,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"Yes", -- [1]
-			"Etheren-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Etheren-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1461, -- [11]
-			"Player-3702-06175FEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEtheren-ArgentDawn|r",
-			[51] = 1577624586,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"grats guys", -- [1]
-			"Karhia-DefiasBrotherhood", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Karhia-DefiasBrotherhood", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1467, -- [11]
-			"Player-1096-08A2B7DB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Karhia-DefiasBrotherhood|r",
-			[51] = 1577624594,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"Just a heads up to my fellow pvp levellers, if you wanna level fast you should go farm |cff00ccff|Hitem:126948::::::::118:259:::1:5805:::|h[Defending Champion]|h|r |cff00ccff|Hitem:126949::::::::118:259:::1:5805:::|h[Returning Champion]|h|r, apparently they work this bg to, so you get like 5.5% exp pr min, and like in total 1.5-2 levels on losses, and around 3 on w", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			109, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784300,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
 		{
 			"+ |cff1eff00|Hitem:166750::::::::75:264::::::|h[Draught of Ten Lands]|h|r", -- [1]
 			"Aeeish-Silvermoon", -- [2]
@@ -173,7 +41,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAeeish|r",
 			[51] = 1577784339,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
+		}, -- [1]
 		{
 			"yeah but thats only 10% :P", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -195,7 +63,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784345,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
+		}, -- [2]
 		{
 			"the trinkets are 100%", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -217,7 +85,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784347,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
+		}, -- [3]
 		{
 			"its 10% extra ", -- [1]
 			"Aeeish-Silvermoon", -- [2]
@@ -239,7 +107,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAeeish|r",
 			[51] = 1577784354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
+		}, -- [4]
 		{
 			"why wouldnt you get it", -- [1]
 			"Aeeish-Silvermoon", -- [2]
@@ -261,7 +129,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAeeish|r",
 			[51] = 1577784358,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
+		}, -- [5]
 		{
 			"im to lazy", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -283,7 +151,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784363,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
+		}, -- [6]
 		{
 			"christ more farming trinks", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -305,7 +173,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784364,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
+		}, -- [7]
 		{
 			"i got 240%", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -327,7 +195,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784366,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
+		}, -- [8]
 		{
 			"10% more is no big deal", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -349,7 +217,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784369,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
+		}, -- [9]
 		{
 			"anything extra is nice", -- [1]
 			"Aeeish-Silvermoon", -- [2]
@@ -371,7 +239,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAeeish|r",
 			[51] = 1577784385,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
+		}, -- [10]
 		{
 			"hm", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -393,7 +261,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784392,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
+		}, -- [11]
 		{
 			"where dem trinks from", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -415,7 +283,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784394,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
+		}, -- [12]
 		{
 			"gurubashi & darkmoon arena", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -437,7 +305,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784402,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
+		}, -- [13]
 		{
 			"kill everyone and loot the chest 13 times", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -459,7 +327,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784408,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
+		}, -- [14]
 		{
 			"probs need BiS gear and nice pvp exp", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -481,7 +349,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784420,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [15]
 		{
 			"the event will be over by the time you get them", -- [1]
 			"Aeeish-Silvermoon", -- [2]
@@ -503,7 +371,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAeeish|r",
 			[51] = 1577784420,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [16]
 		{
 			"yeah but in the future you got them :P", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -525,7 +393,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784427,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [17]
 		{
 			"for next time", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -547,7 +415,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784429,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [18]
 		{
 			"and they work for normal bgs to", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -569,7 +437,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784432,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
+		}, -- [19]
 		{
 			"im just saying becasue i didn't get them till legion", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -591,7 +459,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784446,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+		}, -- [20]
 		{
 			"kinda pissed i didn't get them earlier", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -613,7 +481,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784452,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [21]
 		{
 			"i wont get them till what ever expansion gives us level 240", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -635,7 +503,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784466,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [22]
 		{
 			"why?", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -657,7 +525,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784477,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [23]
 		{
 			"thats a lot", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -679,7 +547,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784483,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [24]
 		{
 			"of farming", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -701,7 +569,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784486,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [25]
 		{
 			"not really", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -723,7 +591,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784489,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [26]
 		{
 			"next expac we go back to level 50", -- [1]
 			"Kuroh-AeriePeak", -- [2]
@@ -745,7 +613,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Kuroh-AeriePeak|r",
 			[51] = 1577784493,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [27]
 		{
 			"only took me a few hours over few days", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -767,7 +635,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784495,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [28]
 		{
 			"hmmm", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -789,7 +657,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784503,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [29]
 		{
 			"ill have to see", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -811,7 +679,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784507,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [30]
 		{
 			"but ofc you need sick gear & pvp exp", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -833,7 +701,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784511,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [31]
 		{
 			"otherwise you will be killed and someone else loots", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -855,7 +723,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784516,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [32]
 		{
 			"which is why ill prob never get em lol", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -877,7 +745,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784540,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [33]
 		{
 			"do it on a low pop server :P", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -899,7 +767,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784550,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [34]
 		{
 			"might be easier", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -921,7 +789,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784554,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [35]
 		{
 			"lel", -- [1]
 			"Oxidion-Pozzodell'Eternità", -- [2]
@@ -943,7 +811,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Oxidion-Pozzodell'Eternità|r",
 			[51] = 1577784563,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [36]
 		{
 			"create alt on russian server", -- [1]
 			"Mynamewasbad-Ravencrest", -- [2]
@@ -965,7 +833,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mynamewasbad-Ravencrest|r",
 			[51] = 1577784568,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [37]
 		{
 			"lul", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -987,7 +855,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784578,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [38]
 		{
 			"go and loot chest", -- [1]
 			"Mynamewasbad-Ravencrest", -- [2]
@@ -1009,7 +877,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mynamewasbad-Ravencrest|r",
 			[51] = 1577784581,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [39]
 		{
 			"0 competition", -- [1]
 			"Mynamewasbad-Ravencrest", -- [2]
@@ -1031,7 +899,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mynamewasbad-Ravencrest|r",
 			[51] = 1577784587,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [40]
 		{
 			"ill do the same right after this probably", -- [1]
 			"Mynamewasbad-Ravencrest", -- [2]
@@ -1053,7 +921,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mynamewasbad-Ravencrest|r",
 			[51] = 1577784599,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [41]
 		{
 			"you get insane levels iwth it", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1075,7 +943,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784628,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [42]
 		{
 			"i think i spend around 80 min from 110-118 on this one", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1097,7 +965,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784640,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [43]
 		{
 			"and imma get 120 from this bg", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1119,7 +987,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784648,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [44]
 		{
 			"fml then ill need em", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1141,7 +1009,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784656,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [45]
 		{
 			"ohh nice i joined a losing game, how long has this been going for?", -- [1]
 			"Evilzeo-AeriePeak", -- [2]
@@ -1163,7 +1031,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Evilzeo-AeriePeak|r",
 			[51] = 1577784745,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [46]
 		{
 			"5 min", -- [1]
 			"Greendreamz-GrimBatol", -- [2]
@@ -1185,7 +1053,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greendreamz-GrimBatol|r",
 			[51] = 1577784752,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [47]
 		{
 			"only?", -- [1]
 			"Evilzeo-AeriePeak", -- [2]
@@ -1207,7 +1075,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Evilzeo-AeriePeak|r",
 			[51] = 1577784759,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [48]
 		{
 			"yup", -- [1]
 			"Greendreamz-GrimBatol", -- [2]
@@ -1229,7 +1097,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greendreamz-GrimBatol|r",
 			[51] = 1577784763,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [49]
 		{
 			"yeah horde are slacking", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1251,7 +1119,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784768,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [50]
 		{
 			"how is it it losing, horde can always get ahead at start, we missed a push on frostwolf gy to cap faster thats all", -- [1]
 			"Kuroh-AeriePeak", -- [2]
@@ -1273,7 +1141,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Kuroh-AeriePeak|r",
 			[51] = 1577784816,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [51]
 		{
 			"Capping: Dun Baldar North Bunker - 3:06 (Horde)", -- [1]
 			"Silni-Quel'Thalas", -- [2]
@@ -1295,7 +1163,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSilni-Quel'Thalas|r",
 			[51] = 1577784818,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [52]
 		{
 			"50k exp ticks :D", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1317,7 +1185,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784841,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [53]
 		{
 			"hate you", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1339,7 +1207,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784861,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [54]
 		{
 			"i get 10k", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1361,7 +1229,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784874,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [55]
 		{
 			"at what level?", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1383,7 +1251,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784891,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [56]
 		{
 			"82", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1405,7 +1273,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784902,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [57]
 		{
 			"Arh", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1427,7 +1295,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784904,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [58]
 		{
 			"possible to recap bunkers?", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -1449,7 +1317,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577784906,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [59]
 		{
 			"well i probably wouldn't get more than 18k at 82", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1471,7 +1339,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784928,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [60]
 		{
 			"time on fw gy ?", -- [1]
 			"Greendreamz-GrimBatol", -- [2]
@@ -1493,7 +1361,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greendreamz-GrimBatol|r",
 			[51] = 1577784974,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [61]
 		{
 			"40s", -- [1]
 			"Lanciena-BurningBlade", -- [2]
@@ -1515,7 +1383,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Lanciena-BurningBlade|r",
 			[51] = 1577784992,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [62]
 		{
 			"thx", -- [1]
 			"Greendreamz-GrimBatol", -- [2]
@@ -1537,7 +1405,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greendreamz-GrimBatol|r",
 			[51] = 1577784997,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [63]
 		{
 			"120 :D", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1559,7 +1427,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577785149,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [64]
 		{
 			"gg", -- [1]
 			"Shortai-AzjolNerub", -- [2]
@@ -1581,7 +1449,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Shortai-AzjolNerub|r",
 			[51] = 1577785151,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [65]
 		{
 			"tower Q any1?", -- [1]
 			"Nievae-ArgentDawn", -- [2]
@@ -1603,7 +1471,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNievae-ArgentDawn|r",
 			[51] = 1577785332,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [66]
 		{
 			"happy nye everyone", -- [1]
 			"Ashbeck-Ravencrest", -- [2]
@@ -1625,7 +1493,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ashbeck-Ravencrest|r",
 			[51] = 1577785411,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [67]
 		{
 			"Same to you mate", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1647,7 +1515,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577785419,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [68]
 		{
 			"You as well!", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -1669,7 +1537,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577785420,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [69]
 		{
 			"tower q?", -- [1]
 			"Nievae-ArgentDawn", -- [2]
@@ -1691,7 +1559,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNievae-ArgentDawn|r",
 			[51] = 1577785561,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [70]
 		{
 			"2 rogues defending their base, cant backdoor cap", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -1713,7 +1581,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577785798,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [71]
 		{
 			"lets go for last two towers", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -1735,7 +1603,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577785918,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [72]
 		{
 			"the faster we get them the better chance we have to win", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -1757,7 +1625,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577785930,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [73]
 		{
 			"why do we never take IB GY ?", -- [1]
 			"Nievae-ArgentDawn", -- [2]
@@ -1779,7 +1647,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNievae-ArgentDawn|r",
 			[51] = 1577785937,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [74]
 		{
 			"NOt worth taking", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1801,7 +1669,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577785951,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [75]
 		{
 			"but its closest to the next one and towers.. like SH GY is for the horde", -- [1]
 			"Nievae-ArgentDawn", -- [2]
@@ -1823,7 +1691,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNievae-ArgentDawn|r",
 			[51] = 1577785978,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [76]
 		{
 			"horde spawn in the way if you take IB gy", -- [1]
 			"Kuroh-AeriePeak", -- [2]
@@ -1845,7 +1713,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Kuroh-AeriePeak|r",
 			[51] = 1577785987,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [77]
 		{
 			"towers should be taken before gy even caps, so you need next gy taken to move on fast", -- [1]
 			"Kuroh-AeriePeak", -- [2]
@@ -1867,7 +1735,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Kuroh-AeriePeak|r",
 			[51] = 1577786008,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [78]
 		{
 			"Let's BD relief hut", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1889,7 +1757,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786049,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [79]
 		{
 			"Guys, don't go straight in ", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1911,7 +1779,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786163,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [80]
 		{
 			"BD it ", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1933,7 +1801,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786164,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [81]
 		{
 			"Cap cap", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -1955,7 +1823,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577786213,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [82]
 		{
 			"Good push all", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -1977,7 +1845,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577786282,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [83]
 		{
 			"make sure to defend the towers, they have a bunch of rogues", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -1999,7 +1867,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577786302,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [84]
 		{
 			"we are behind atm", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2021,7 +1889,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786313,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [85]
 		{
 			"they assaulted bunkers earlier", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2043,7 +1911,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786320,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [86]
 		{
 			"than us", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2065,7 +1933,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786321,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [87]
 		{
 			"Well this map is soooo horde favoured", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -2087,7 +1955,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786340,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [88]
 		{
 			"The horde bias is insane", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -2109,7 +1977,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786356,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [89]
 		{
 			"go INTO KEEP", -- [1]
 			"Thorlan-Silvermoon", -- [2]
@@ -2131,7 +1999,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThorlan|r",
 			[51] = 1577786367,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [90]
 		{
 			"they defended quite well", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2153,7 +2021,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786387,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+		}, -- [91]
 		{
 			"why they capped our bunkers", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2175,7 +2043,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786391,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [92]
 		{
 			"tbf", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2197,7 +2065,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786393,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [99]
+		}, -- [93]
 		{
 			"not just about the map", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2219,7 +2087,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786398,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [100]
+		}, -- [94]
 		{
 			"If its relatively even, Horde wins. ", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -2241,7 +2109,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577786424,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [101]
+		}, -- [95]
 		{
 			"OOM", -- [1]
 			"Thorlan-Silvermoon", -- [2]
@@ -2263,7 +2131,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThorlan|r",
 			[51] = 1577786451,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [102]
+		}, -- [96]
 		{
 			"GO TO THE BOSS", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2285,7 +2153,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786499,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
+		}, -- [97]
 		{
 			"All Drek", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -2307,7 +2175,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577786505,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [104]
+		}, -- [98]
 		{
 			"Start?", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -2329,7 +2197,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577786513,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [99]
 		{
 			"Vanndar 20%", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -2351,7 +2219,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577786549,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [100]
 		{
 			"gg ", -- [1]
 			"Shortai-AzjolNerub", -- [2]
@@ -2373,7 +2241,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Shortai-AzjolNerub|r",
 			[51] = 1577786584,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [107]
+		}, -- [101]
 		{
 			"gg still", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -2395,7 +2263,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577786584,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [108]
+		}, -- [102]
 		{
 			"y he gives xp and q", -- [1]
 			"Crually-BurningBlade", -- [2]
@@ -2417,7 +2285,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Crually-BurningBlade|r",
 			[51] = 1577794402,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [109]
+		}, -- [103]
 		{
 			"go korrak", -- [1]
 			"Nälu-Ragnaros", -- [2]
@@ -2439,7 +2307,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Nälu-Ragnaros|r",
 			[51] = 1577794420,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [110]
+		}, -- [104]
 		{
 			"nice korrak dead", -- [1]
 			"Crually-BurningBlade", -- [2]
@@ -2461,7 +2329,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Crually-BurningBlade|r",
 			[51] = 1577794633,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [111]
+		}, -- [105]
 		{
 			"ignoring IT?", -- [1]
 			"Twínblades-Turalyon", -- [2]
@@ -2483,7 +2351,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Twínblades-Turalyon|r",
 			[51] = 1577794634,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [112]
+		}, -- [106]
 		{
 			"really no one gets to defend base vs rogues?>", -- [1]
 			"Farmertank-Sylvanas", -- [2]
@@ -2505,7 +2373,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Farmertank-Sylvanas|r",
 			[51] = 1577794722,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [113]
+		}, -- [107]
 		{
 			"im coming", -- [1]
 			"Ainsoalgown-Outland", -- [2]
@@ -2527,7 +2395,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecAinsoalgown-Outland|r",
 			[51] = 1577794732,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [114]
+		}, -- [108]
 		{
 			"just wanted korak kill", -- [1]
 			"Ainsoalgown-Outland", -- [2]
@@ -2549,7 +2417,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecAinsoalgown-Outland|r",
 			[51] = 1577794742,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [115]
+		}, -- [109]
 		{
 			"brez me", -- [1]
 			"Predattor-Ravencrest", -- [2]
@@ -2571,7 +2439,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Predattor-Ravencrest|r",
 			[51] = 1577795075,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [116]
+		}, -- [110]
 		{
 			"I am heals", -- [1]
 			"Predattor-Ravencrest", -- [2]
@@ -2593,7 +2461,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Predattor-Ravencrest|r",
 			[51] = 1577795078,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [117]
+		}, -- [111]
 		{
 			"nooo", -- [1]
 			"Predattor-Ravencrest", -- [2]
@@ -2615,7 +2483,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Predattor-Ravencrest|r",
 			[51] = 1577795083,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [118]
+		}, -- [112]
 		{
 			"lol Hogger", -- [1]
 			"Thorlan-Silvermoon", -- [2]
@@ -2637,7 +2505,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThorlan|r",
 			[51] = 1577795296,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [119]
+		}, -- [113]
 		{
 			"about this groups ability", -- [1]
 			"Bállbag-Silvermoon", -- [2]
@@ -2659,7 +2527,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBállbag|r",
 			[51] = 1577795356,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [114]
 		{
 			"what timewalking for this event ?", -- [1]
 			"Gilgasmesh-Ravencrest", -- [2]
@@ -2681,7 +2549,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Gilgasmesh-Ravencrest|r",
 			[51] = 1577795986,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [121]
+		}, -- [115]
 		{
 			"FOR MAX LEVEL!", -- [1]
 			"Thorlan-Silvermoon", -- [2]
@@ -2703,7 +2571,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThorlan|r",
 			[51] = 1577796024,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [122]
+		}, -- [116]
 		{
 			"FISKEN is afker, report him as soon as possible", -- [1]
 			"Serenetka-BurningLegion", -- [2]
@@ -2725,7 +2593,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecSerenetka-BurningLegion|r",
 			[51] = 1577796031,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [123]
+		}, -- [117]
 		{
 			"!@#$ing mage....", -- [1]
 			"Grissóm-ArgentDawn", -- [2]
@@ -2747,7 +2615,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrissóm-ArgentDawn|r",
 			[51] = 1577796050,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [124]
+		}, -- [118]
 		{
 			"i know but what expansion", -- [1]
 			"Gilgasmesh-Ravencrest", -- [2]
@@ -2769,7 +2637,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Gilgasmesh-Ravencrest|r",
 			[51] = 1577796051,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [119]
 		{
 			"he will stay in barrack doing nothen", -- [1]
 			"Serenetka-BurningLegion", -- [2]
@@ -2791,7 +2659,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecSerenetka-BurningLegion|r",
 			[51] = 1577796053,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [126]
+		}, -- [120]
 		{
 			"3-5 people should instantly rush Frostwolf Graveyard. By rushing it instead of towers we will prevent the people who dies to respawn back in DB. This will result in us overcrowding the hordes south and then automatically be able to cap the rest of the bas", -- [1]
 			"Hiira-Ravencrest", -- [2]
@@ -2813,6 +2681,138 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Hiira-Ravencrest|r",
 			[51] = 1577796061,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [121]
+		{
+			"can anyone activate oronu pls?", -- [1]
+			"Azubiel-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Nazjatar", -- [4]
+			"Azubiel-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Nazjatar", -- [9]
+			0, -- [10]
+			518, -- [11]
+			"Player-3391-0A5A5689", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Azubiel|r",
+			[51] = 1578646466,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"<NBC>Selling M+10 for 90k ONLY!! and +15 for 220k, also +16/17/18/19/20(IN TIME)! Buy at least 2xM+10 for FREE ARMOR 180k  (Only180k)!  ,TEP Mythic/HC 8/8! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount!2v2 easy Rate UP!/w for info", -- [1]
+			"Aranay-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aranay-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			582, -- [11]
+			"Player-3391-0ACB5EB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecAranay|r",
+			[51] = 1578646889,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"<Veni Vidi WTH> poszukuje graczy do raidowania i mythic+. Skladamy sie z aktywnych i doswiadczonych raiderow. Gramy bez spiny i w dobrej atmosferze. Wymagamy kultury osobistej, znajomosci klasy i przygotowania do raidow. Zapraszamy|cffffd100|HclubFinder:ClubFinder-1-29923-3391-83937965|h[Guild: Veni Vidi WTH]|h|r", -- [1]
+			"Camalo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Camalo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			583, -- [11]
+			"Player-3391-0A650053", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Camalo|r",
+			[51] = 1578646890,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"<NBC> Selling M+10 for 90k / 2 Run +10 =180k with stack armor free +15 for 220k, also +16/17(IN TIME)! Raid EP hc Personal loot 150k , take advantage of the offer! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount! Gold Only. /w for info", -- [1]
+			"Novaboosters-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novaboosters-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			584, -- [11]
+			"Player-3391-0AB6BFD5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Novaboosters|r",
+			[51] = 1578646898,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"WTB any amounts |cff1eff00|Hitem:152510::::::::120:577::::::|h[Anchor Weed]|h|r 60g COD or /w for instant trade in SW ", -- [1]
+			"Dabrodh-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dabrodh-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			616, -- [11]
+			"Player-3391-08971C08", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Dabrodh|r",
+			[51] = 1578647245,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"<NBC>Selling M+10 for 90k ONLY!! and +15 for 220k, also +16/17/18/19/20(IN TIME)! Buy at least 2xM+10 for FREE ARMOR 180k  (Only180k)!  ,TEP Mythic/HC 8/8! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount!2v2 easy Rate UP!/w for info", -- [1]
+			"Aranay-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aranay-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			617, -- [11]
+			"Player-3391-0ACB5EB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecAranay|r",
+			[51] = 1578647249,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

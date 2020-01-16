@@ -14,44 +14,16 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.003751,
 							["damage_from"] = {
+								["Environment (Falling)"] = true,
 							},
 							["targets"] = {
 								["Queen Tzxi'kik"] = 101663,
 							},
-							["total"] = 101663.003751,
+							["end_time"] = 1565731833,
 							["pets"] = {
 								"Bloodworm <Greyblood>", -- [1]
 							},
 							["on_hold"] = false,
-							["spec"] = 250,
-							["classe"] = "DEATHKNIGHT",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 90312.003751,
-							["avoidance"] = {
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 0,
-									["PARTIAL_ABSORBED"] = 0,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 0,
-									["ABSORB"] = 0,
-									["ABSORB_AMT"] = 0,
-									["FULL_HIT"] = 0,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 0,
-								},
-							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1565731833,
-							["serial"] = "Player-3391-0A827D38",
-							["isTank"] = true,
-							["nome"] = "Greyblood",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -170,32 +142,32 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
-									[295374] = {
-										["c_amt"] = 0,
+									[52212] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 782,
 										["g_amt"] = 0,
-										["n_max"] = 16899,
+										["n_max"] = 391,
 										["targets"] = {
-											["Queen Tzxi'kik"] = 16899,
+											["Queen Tzxi'kik"] = 1954,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 16899,
-										["n_min"] = 16899,
+										["n_dmg"] = 1172,
+										["n_min"] = 390,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 16899,
-										["c_max"] = 0,
-										["id"] = 295374,
+										["counter"] = 4,
+										["total"] = 1954,
+										["c_max"] = 782,
+										["id"] = 52212,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
+										["spellschool"] = 32,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 782,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 3,
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
@@ -228,32 +200,32 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
-									[52212] = {
-										["c_amt"] = 1,
+									[295374] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 782,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 391,
+										["n_max"] = 16899,
 										["targets"] = {
-											["Queen Tzxi'kik"] = 1954,
+											["Queen Tzxi'kik"] = 16899,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1172,
-										["n_min"] = 390,
+										["n_dmg"] = 16899,
+										["n_min"] = 16899,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 1954,
-										["c_max"] = 782,
-										["id"] = 52212,
+										["counter"] = 1,
+										["total"] = 16899,
+										["c_max"] = 0,
+										["id"] = 295374,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
+										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 782,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 1,
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
@@ -376,6 +348,35 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["classe"] = "DEATHKNIGHT",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 90312.003751,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 101663.003751,
+							["serial"] = "Player-3391-0A827D38",
+							["isTank"] = true,
+							["nome"] = "Greyblood",
+							["spec"] = 250,
 							["grupo"] = true,
 							["tipo"] = 1,
 							["colocacao"] = 1,
@@ -386,7 +387,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1565731816,
 							["delay"] = 0,
-							["damage_taken"] = 0.003751,
+							["damage_taken"] = 1225.003751,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -408,16 +409,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
 							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 28907.003254,
 							["serial"] = "Creature-0-3770-1642-12474-128974-0000532BDF",
-							["dps_started"] = false,
-							["end_time"] = 1565731833,
+							["monster"] = true,
 							["total"] = 28907.003254,
+							["end_time"] = 1565731833,
 							["on_hold"] = false,
 							["nome"] = "Queen Tzxi'kik",
 							["spells"] = {
@@ -445,9 +446,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 4,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -473,11 +474,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									[260634] = {
@@ -500,11 +501,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									[260633] = {
@@ -548,7 +549,7 @@ _detalhes_database = {
 							["damage_taken"] = 786789.003254,
 							["start_time"] = 1565731817,
 							["delay"] = 0,
-							["monster"] = true,
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
@@ -565,9 +566,9 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11351.007373,
-							["end_time"] = 1565731833,
-							["dps_started"] = false,
 							["total"] = 11351.007373,
+							["dps_started"] = false,
+							["end_time"] = 1565731833,
 							["serial"] = "Creature-0-3770-1642-12474-99773-0000532BE8",
 							["ownerName"] = "Greyblood",
 							["nome"] = "Bloodworm <Greyblood>",
@@ -673,12 +674,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = -23877,
 										["m_crit"] = 0,
-										["c_min"] = -15918,
 										["m_amt"] = 0,
+										["c_min"] = -15918,
 										["n_curado"] = 0,
 										["n_amt"] = 0,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[273090] = {
@@ -701,12 +702,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["n_curado"] = 0,
 										["n_amt"] = 1,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[45470] = {
@@ -729,12 +730,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["n_curado"] = 0,
 										["n_amt"] = 3,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -744,11 +745,11 @@ _detalhes_database = {
 							["spec"] = 250,
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1565731830,
 							["start_time"] = 1565731817,
 							["totaldenied"] = 0.005217,
 							["delay"] = 0,
-							["last_event"] = 1565731830,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -925,17 +926,6 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[188290] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 188290,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[279503] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -944,6 +934,17 @@ _detalhes_database = {
 										["uptime"] = 17,
 										["id"] = 279503,
 										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188290] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 188290,
+										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
@@ -969,17 +970,6 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[295378] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 17,
-										["id"] = 295378,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[195181] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -988,6 +978,17 @@ _detalhes_database = {
 										["uptime"] = 17,
 										["id"] = 195181,
 										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[295378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 295378,
+										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
@@ -1005,7 +1006,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["cc_break"] = 1.002821,
+							["grupo"] = true,
 							["cc_break_spells"] = {
 								["_ActorTable"] = {
 									[52212] = {
@@ -1023,18 +1024,18 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 66,
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Greyblood",
 							["cc_break_targets"] = {
 								["Queen Tzxi'kik"] = 1,
 							},
-							["nome"] = "Greyblood",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 250,
-							["grupo"] = true,
+							["cc_break"] = 1.002821,
 							["spell_cast"] = {
 								[206930] = 3,
-								[56222] = 1,
 								[43265] = 1,
+								[56222] = 1,
 								[295373] = 1,
 								[195182] = 2,
 								[49998] = 3,
@@ -1045,7 +1046,7 @@ _detalhes_database = {
 							},
 							["last_event"] = 1565731833,
 							["tipo"] = 4,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["isTank"] = true,
 							["serial"] = "Player-3391-0A827D38",
@@ -1088,11 +1089,11 @@ _detalhes_database = {
 				["combat_counter"] = 11,
 				["playing_solo"] = true,
 				["totals"] = {
-					130569.9032520001, -- [1]
+					130569.8804930001, -- [1]
 					-0.02499399999953923, -- [2]
 					{
 						0, -- [1]
-						[0] = -0.007812,
+						[0] = -0.009161999999946602,
 						["alternatepower"] = 0,
 						[3] = -0.012239000000001,
 						[6] = 96,
@@ -1111,6 +1112,93 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
+					["Greyblood"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							419, -- [3]
+							1579039646.988, -- [4]
+							289141, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							3, -- [2]
+							806, -- [3]
+							1579039689.492, -- [4]
+							288754, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
@@ -1125,7 +1213,26 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "23:30:16",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Greyblood"] = 0.005217,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Greyblood"] = 101663.003751,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 504439.839,
 				["combat_id"] = 2,
 				["frags"] = {
@@ -1205,26 +1312,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 504422.355,
 				["contra"] = "Queen Tzxi'kik",
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Greyblood"] = 0.005217,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Greyblood"] = 101663.003751,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "23:30:16",
 			}, -- [1]
 			{
 				{
@@ -1239,39 +1327,10 @@ _detalhes_database = {
 							["targets"] = {
 								["Overstuffed Saurolisk"] = 69084,
 							},
-							["total"] = 69084.003216,
+							["end_time"] = 1565731800,
 							["pets"] = {
 							},
 							["on_hold"] = false,
-							["spec"] = 250,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 69084.003216,
-							["avoidance"] = {
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 0,
-									["PARTIAL_ABSORBED"] = 0,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 0,
-									["ABSORB"] = 0,
-									["ABSORB_AMT"] = 0,
-									["FULL_HIT"] = 0,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 0,
-								},
-							},
-							["classe"] = "DEATHKNIGHT",
-							["dps_started"] = false,
-							["end_time"] = 1565731800,
-							["serial"] = "Player-3391-0A827D38",
-							["isTank"] = true,
-							["nome"] = "Greyblood",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -1451,6 +1510,35 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 69084.003216,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["classe"] = "DEATHKNIGHT",
+							["dps_started"] = false,
+							["total"] = 69084.003216,
+							["serial"] = "Player-3391-0A827D38",
+							["isTank"] = true,
+							["nome"] = "Greyblood",
+							["spec"] = 250,
 							["grupo"] = true,
 							["last_event"] = 1565731799,
 							["colocacao"] = 1,
@@ -1479,16 +1567,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["end_time"] = 1565731816,
-							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 20071.001747,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 20071.001747,
 							["serial"] = "Vehicle-0-3770-1642-12474-124375-0000532BA0",
-							["dps_started"] = false,
-							["total"] = 20071.001747,
 							["monster"] = true,
+							["end_time"] = 1565731816,
+							["fight_component"] = true,
 							["on_hold"] = false,
 							["nome"] = "Overstuffed Saurolisk",
 							["spells"] = {
@@ -1508,7 +1596,7 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 11,
 										["DODGE"] = 1,
-										["r_amt"] = 0,
+										["total"] = 7722,
 										["c_max"] = 0,
 										["a_amt"] = 0,
 										["id"] = 1,
@@ -1517,12 +1605,12 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["PARRY"] = 3,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 7,
 										["spellschool"] = 1,
-										["total"] = 7722,
+										["r_amt"] = 0,
 									}, -- [1]
 									[260614] = {
 										["c_amt"] = 0,
@@ -1545,11 +1633,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 10,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									[260615] = {
@@ -1572,11 +1660,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									[247081] = {
@@ -1599,11 +1687,11 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["r_amt"] = 0,
 									},
 								},
@@ -1618,7 +1706,7 @@ _detalhes_database = {
 							["damage_taken"] = 565462.001747,
 							["start_time"] = 1565731781,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1707,12 +1795,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["n_curado"] = 0,
 										["n_amt"] = 1,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -1722,11 +1810,11 @@ _detalhes_database = {
 							["spec"] = 250,
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1565731797,
 							["start_time"] = 1565731788,
 							["totaldenied"] = 0.007354,
 							["delay"] = 0,
-							["last_event"] = 1565731797,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -1806,8 +1894,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 77,
 							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -1844,17 +1931,6 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[295378] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 295378,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[195181] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -1863,6 +1939,17 @@ _detalhes_database = {
 										["uptime"] = 20,
 										["id"] = 195181,
 										["refreshamt"] = 7,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[295378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 295378,
+										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
@@ -1900,15 +1987,16 @@ _detalhes_database = {
 								[50842] = 1,
 								[48707] = 1,
 								[295373] = 1,
-								[49998] = 1,
 								[195182] = 3,
+								[49998] = 1,
 							},
-							["buff_uptime"] = 77,
+							["tipo"] = 4,
 							["last_event"] = 1565731800,
 							["nome"] = "Greyblood",
-							["tipo"] = 4,
-							["serial"] = "Player-3391-0A827D38",
 							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-3391-0A827D38",
+							["pets"] = {
 							},
 						}, -- [1]
 						{
@@ -2004,26 +2092,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Greyblood"] = 0.007354,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Greyblood"] = 69084.003216,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "23:29:41",
 				["end_time"] = 504406.628,
 				["combat_id"] = 1,
 				["frags"] = {
@@ -2088,7 +2157,26 @@ _detalhes_database = {
 				},
 				["start_time"] = 504386.915,
 				["contra"] = "Overstuffed Saurolisk",
-				["data_inicio"] = "23:29:41",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Greyblood"] = 0.007354,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Greyblood"] = 69084.003216,
+						}, -- [1]
+					},
+				},
 			}, -- [2]
 		},
 	},
@@ -2100,7 +2188,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1578257106,
+		["nextreset"] = 1580335551,
 		["last_version"] = 11,
 	},
 	["last_instance_id"] = 0,
@@ -2129,7 +2217,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -2138,7 +2226,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -2232,10 +2320,10 @@ _detalhes_database = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["y"] = -20.15869140625,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -2243,9 +2331,13 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -20.15869140625,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -2257,34 +2349,30 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
+			["font_size"] = 14,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["font_size"] = 14,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["use_spark"] = false,
+			["main_frame_strata"] = "LOW",
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
 		},
+	},
+	["last_day"] = "14",
+	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "21",
-	["cached_talents"] = {
-	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 12,
+		["logons"] = 14,
 	},
 	["combat_id"] = 2,
 	["savedStyles"] = {
@@ -2383,6 +2471,19 @@ _detalhes_database = {
 						"Bloodworm <Greyblood>", -- [1]
 					},
 					["isTank"] = true,
+					["spec"] = 250,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 159396.012129,
+					["friendlyfire"] = {
+					},
+					["serial"] = "Player-3391-0A827D38",
+					["dps_started"] = false,
+					["end_time"] = 1565731800,
+					["classe"] = "DEATHKNIGHT",
+					["on_hold"] = false,
+					["nome"] = "Greyblood",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -2407,11 +2508,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 12,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 							[50842] = {
@@ -2436,11 +2537,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[195182] = {
@@ -2465,11 +2566,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[49998] = {
@@ -2494,11 +2595,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[273089] = {
@@ -2522,11 +2623,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[295367] = {
@@ -2550,124 +2651,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							[52212] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 782,
-								["g_amt"] = 0,
-								["n_max"] = 391,
-								["targets"] = {
-									["Queen Tzxi'kik"] = 1954,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1172,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 4,
-								["total"] = 1954,
-								["c_max"] = 782,
-								["id"] = 52212,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							[255586] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 2082,
-								["g_amt"] = 0,
-								["n_max"] = 261,
-								["targets"] = {
-									["Overstuffed Saurolisk"] = 3381,
-									["Queen Tzxi'kik"] = 2079,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3378,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 17,
-								["total"] = 5460,
-								["c_max"] = 522,
-								["id"] = 255586,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 13,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							[55078] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 1002,
-								["targets"] = {
-									["Queen Tzxi'kik"] = 3004,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3004,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 3004,
-								["c_max"] = 0,
-								["id"] = 55078,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["c_min"] = 0,
-								["r_amt"] = 0,
-							},
-							[206930] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 1842,
-								["targets"] = {
-									["Queen Tzxi'kik"] = 5524,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 5524,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 5524,
-								["c_max"] = 0,
-								["id"] = 206930,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["c_min"] = 0,
 								["r_amt"] = 0,
 							},
 							[295374] = {
@@ -2692,32 +2680,138 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[255586] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 2082,
+								["g_amt"] = 0,
+								["n_max"] = 261,
+								["targets"] = {
+									["Overstuffed Saurolisk"] = 3381,
+									["Queen Tzxi'kik"] = 2079,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3378,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 17,
+								["total"] = 5460,
+								["c_max"] = 522,
+								["id"] = 255586,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 13,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[55078] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1002,
+								["targets"] = {
+									["Queen Tzxi'kik"] = 3004,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3004,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 3004,
+								["c_max"] = 0,
+								["id"] = 55078,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[206930] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1842,
+								["targets"] = {
+									["Queen Tzxi'kik"] = 5524,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5524,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 5524,
+								["c_max"] = 0,
+								["id"] = 206930,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[52212] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 782,
+								["g_amt"] = 0,
+								["n_max"] = 391,
+								["targets"] = {
+									["Queen Tzxi'kik"] = 1954,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1172,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 1954,
+								["c_max"] = 782,
+								["id"] = 52212,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 159396.012129,
-					["on_hold"] = false,
-					["serial"] = "Player-3391-0A827D38",
-					["dps_started"] = false,
-					["end_time"] = 1565731800,
-					["classe"] = "DEATHKNIGHT",
-					["friendlyfire"] = {
-					},
-					["nome"] = "Greyblood",
-					["spec"] = 250,
 					["grupo"] = true,
 					["total"] = 170747.012129,
 					["last_event"] = 0,
+					["damage_taken"] = 0.012129,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1565731760,
+					["delay"] = 0,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -2736,12 +2830,6 @@ _detalhes_database = {
 							["FULL_HIT_AMT"] = 0,
 						},
 					},
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.012129,
-					["start_time"] = 1565731760,
-					["delay"] = 0,
-					["last_dps"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -2759,17 +2847,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 565462.002849,
+					["monster"] = true,
+					["last_dps"] = 0,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 14203.002849,
 					["serial"] = "Vehicle-0-3770-1642-12474-124375-0000532BA0",
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1565731800,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 565462.002849,
 					["nome"] = "Overstuffed Saurolisk",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -2824,11 +2912,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[260615] = {
@@ -2851,11 +2939,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[247081] = {
@@ -2878,11 +2966,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -2894,10 +2982,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1565731778,
 					["delay"] = 0,
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [2]
 				{
 					["flag_original"] = 68168,
@@ -2906,11 +2994,11 @@ _detalhes_database = {
 						["Erenim"] = true,
 						["Jonbi-Thunderhorn"] = true,
 						["Bloodworm <Greyblood>"] = true,
+						["Rødefar-Runetotem"] = true,
 						["Beast <Rødefar-Runetotem>"] = true,
-						["Kashmir-Thunderhorn"] = true,
 						["Greyblood"] = true,
 						["Wolf"] = true,
-						["Rødefar-Runetotem"] = true,
+						["Kashmir-Thunderhorn"] = true,
 						["Unknown <Rødefar-Runetotem>"] = true,
 					},
 					["targets"] = {
@@ -2919,17 +3007,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 786789.00789,
+					["monster"] = true,
+					["last_dps"] = 0,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 28907.00789,
 					["serial"] = "Creature-0-3770-1642-12474-128974-0000532BDF",
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1565731833,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 786789.00789,
 					["nome"] = "Queen Tzxi'kik",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -2983,11 +3071,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[260634] = {
@@ -3010,11 +3098,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[260633] = {
@@ -3038,11 +3126,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
@@ -3054,10 +3142,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1565731814,
 					["delay"] = 0,
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [3]
 				{
 					["flag_original"] = 8465,
@@ -3103,11 +3191,11 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 25,
-								["c_min"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 						},
@@ -3180,12 +3268,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 4,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[77535] = {
@@ -3208,12 +3296,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = -23877,
 								["m_crit"] = 0,
-								["c_min"] = -15918,
 								["m_amt"] = 0,
+								["c_min"] = -15918,
 								["n_curado"] = 0,
 								["n_amt"] = 0,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[273090] = {
@@ -3236,12 +3324,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 1,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[48707] = {
@@ -3265,12 +3353,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 1,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 						},
@@ -3280,11 +3368,11 @@ _detalhes_database = {
 					["spec"] = 250,
 					["classe"] = "DEATHKNIGHT",
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["start_time"] = 1565731769,
 					["totaldenied"] = 0.021542,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -3293,7 +3381,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 156.01661,
-					["resource"] = 0.08563399999999997,
+					["resource"] = 0.10289,
 					["targets"] = {
 						["Greyblood"] = 0,
 					},
@@ -3404,12 +3492,12 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[55078] = {
+							[253309] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 2,
-								["id"] = 55078,
-								["uptime"] = 14,
+								["appliedamt"] = 3,
+								["id"] = 253309,
+								["uptime"] = 7,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -3424,12 +3512,12 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[253309] = {
+							[55078] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 3,
-								["id"] = 253309,
-								["uptime"] = 7,
+								["appliedamt"] = 2,
+								["id"] = 55078,
+								["uptime"] = 14,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -3568,22 +3656,22 @@ _detalhes_database = {
 					["spec"] = 250,
 					["grupo"] = true,
 					["spell_cast"] = {
-						[50842] = 2,
 						[206930] = 3,
+						[50842] = 2,
 						[195182] = 5,
 						[43265] = 1,
 						[56222] = 1,
 						[48707] = 1,
-						[49998] = 4,
 						[295373] = 2,
+						[49998] = 4,
 					},
 					["cc_break_oque"] = {
 						[2094] = 1,
 					},
 					["debuff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["cc_break_targets"] = {
 						["Queen Tzxi'kik"] = 1,
 					},
@@ -3743,7 +3831,7 @@ _detalhes_database = {
 		["cleu_timeline"] = {
 		},
 	},
-	["combat_counter"] = 19,
+	["combat_counter"] = 21,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",

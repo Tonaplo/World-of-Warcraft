@@ -1,1147 +1,25 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/s LOS really sucks here", -- [1]
-		"/macro", -- [2]
+		"/cw Trûe-Silvermoon nps :\")", -- [1]
+		"/s LOS really sucks here", -- [2]
 		"/cw Trûe-Silvermoon combat", -- [3]
-		"/elvui", -- [4]
+		"/macro", -- [4]
 		"/s stay in here", -- [5]
 		"/i OOM", -- [6]
 		"/i Hello Etheren", -- [7]
-		"/cw Predattor-Ravencrest brez me", -- [8]
-		"/cw Trûe-Silvermoon nps :\")", -- [9]
+		"/elvui", -- [8]
+		"/i dont forget to guard GY", -- [9]
 		"/cw Trûe-Silvermoon also we have gy", -- [10]
-		"/i dont forget to guard GY", -- [11]
+		"/i You're playing one already :P", -- [11]
 		"/i go INTO KEEP", -- [12]
 		"/cw Predattor-Ravencrest I am heals", -- [13]
 		"/cw Predattor-Ravencrest nooo", -- [14]
 		"/i lol Hogger", -- [15]
-		"/i You're playing one already :P", -- [16]
+		"/cw Predattor-Ravencrest brez me", -- [16]
 		"/s FOR MAX LEVEL!", -- [17]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Well done ", -- [1]
-			"Etheren-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Etheren-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1417, -- [11]
-			"Player-3702-06175FEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEtheren-ArgentDawn|r",
-			[51] = 1577624579,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"W e did it", -- [1]
-			"Fangled-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fangled-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1443, -- [11]
-			"Player-3391-09A672C4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Fangled|r",
-			[51] = 1577624585,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"gg", -- [1]
-			"Merylor-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Merylor-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1455, -- [11]
-			"Player-3391-0A5BE132", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Merylor|r",
-			[51] = 1577624586,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"Yes", -- [1]
-			"Etheren-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Etheren-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1461, -- [11]
-			"Player-3702-06175FEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEtheren-ArgentDawn|r",
-			[51] = 1577624586,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"grats guys", -- [1]
-			"Karhia-DefiasBrotherhood", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Karhia-DefiasBrotherhood", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1467, -- [11]
-			"Player-1096-08A2B7DB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Karhia-DefiasBrotherhood|r",
-			[51] = 1577624594,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"Just a heads up to my fellow pvp levellers, if you wanna level fast you should go farm |cff00ccff|Hitem:126948::::::::118:259:::1:5805:::|h[Defending Champion]|h|r |cff00ccff|Hitem:126949::::::::118:259:::1:5805:::|h[Returning Champion]|h|r, apparently they work this bg to, so you get like 5.5% exp pr min, and like in total 1.5-2 levels on losses, and around 3 on w", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			109, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784300,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"+ |cff1eff00|Hitem:166750::::::::75:264::::::|h[Draught of Ten Lands]|h|r", -- [1]
-			"Aeeish-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aeeish-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			111, -- [11]
-			"Player-3391-0A3C6C4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAeeish|r",
-			[51] = 1577784339,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"yeah but thats only 10% :P", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			112, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784345,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"the trinkets are 100%", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			113, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784347,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"its 10% extra ", -- [1]
-			"Aeeish-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aeeish-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			114, -- [11]
-			"Player-3391-0A3C6C4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAeeish|r",
-			[51] = 1577784354,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"why wouldnt you get it", -- [1]
-			"Aeeish-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aeeish-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			117, -- [11]
-			"Player-3391-0A3C6C4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAeeish|r",
-			[51] = 1577784358,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"im to lazy", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			118, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784363,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"christ more farming trinks", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			119, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784364,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"i got 240%", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			120, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784366,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
-		{
-			"10% more is no big deal", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			121, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784369,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"anything extra is nice", -- [1]
-			"Aeeish-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aeeish-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			122, -- [11]
-			"Player-3391-0A3C6C4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAeeish|r",
-			[51] = 1577784385,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"hm", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			123, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784392,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
-		{
-			"where dem trinks from", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			126, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784394,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"gurubashi & darkmoon arena", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			128, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784402,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
-		{
-			"kill everyone and loot the chest 13 times", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			130, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784408,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
-		{
-			"probs need BiS gear and nice pvp exp", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			134, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784420,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
-		{
-			"the event will be over by the time you get them", -- [1]
-			"Aeeish-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aeeish-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			135, -- [11]
-			"Player-3391-0A3C6C4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAeeish|r",
-			[51] = 1577784420,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"yeah but in the future you got them :P", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			136, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784427,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
-		{
-			"for next time", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			138, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784429,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
-		{
-			"and they work for normal bgs to", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			139, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784432,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
-		{
-			"im just saying becasue i didn't get them till legion", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			142, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784446,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
-		{
-			"kinda pissed i didn't get them earlier", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			146, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784452,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
-		{
-			"i wont get them till what ever expansion gives us level 240", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			151, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784466,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"why?", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			152, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784477,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
-		{
-			"thats a lot", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			155, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784483,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
-		{
-			"of farming", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			156, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784486,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
-		{
-			"not really", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			157, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784489,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
-		{
-			"next expac we go back to level 50", -- [1]
-			"Kuroh-AeriePeak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kuroh-AeriePeak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			158, -- [11]
-			"Player-1081-063F1C11", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Kuroh-AeriePeak|r",
-			[51] = 1577784493,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
-		{
-			"only took me a few hours over few days", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			160, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784495,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
-		{
-			"hmmm", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			167, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784503,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
-		{
-			"ill have to see", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			177, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784507,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
-		{
-			"but ofc you need sick gear & pvp exp", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			203, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784511,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
-		{
-			"otherwise you will be killed and someone else loots", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			225, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784516,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
-		{
-			"which is why ill prob never get em lol", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			260, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784540,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
-		{
-			"do it on a low pop server :P", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			278, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784550,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
-		{
-			"might be easier", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			280, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784554,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
-		{
-			"lel", -- [1]
-			"Oxidion-Pozzodell'Eternità", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Oxidion-Pozzodell'Eternità", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			308, -- [11]
-			"Player-1309-078B0D1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Oxidion-Pozzodell'Eternità|r",
-			[51] = 1577784563,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
-		{
-			"create alt on russian server", -- [1]
-			"Mynamewasbad-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mynamewasbad-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			309, -- [11]
-			"Player-1329-06012C07", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Mynamewasbad-Ravencrest|r",
-			[51] = 1577784568,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
-		{
-			"lul", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			311, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784578,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
-		{
-			"go and loot chest", -- [1]
-			"Mynamewasbad-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mynamewasbad-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			313, -- [11]
-			"Player-1329-06012C07", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Mynamewasbad-Ravencrest|r",
-			[51] = 1577784581,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
-		{
-			"0 competition", -- [1]
-			"Mynamewasbad-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mynamewasbad-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			318, -- [11]
-			"Player-1329-06012C07", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Mynamewasbad-Ravencrest|r",
-			[51] = 1577784587,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
-		{
-			"ill do the same right after this probably", -- [1]
-			"Mynamewasbad-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mynamewasbad-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			325, -- [11]
-			"Player-1329-06012C07", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Mynamewasbad-Ravencrest|r",
-			[51] = 1577784599,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
-		{
-			"you get insane levels iwth it", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			350, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784628,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
-		{
-			"i think i spend around 80 min from 110-118 on this one", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			353, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784640,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
-		{
-			"and imma get 120 from this bg", -- [1]
-			"Fiveshotbot-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fiveshotbot-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			360, -- [11]
-			"Player-1402-04DA06FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
-			[51] = 1577784648,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
-		{
-			"fml then ill need em", -- [1]
-			"Andrasté-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Andrasté-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			362, -- [11]
-			"Player-1402-07AF05A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Andrasté-Doomhammer|r",
-			[51] = 1577784656,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
 		{
 			"ohh nice i joined a losing game, how long has this been going for?", -- [1]
 			"Evilzeo-AeriePeak", -- [2]
@@ -1163,7 +41,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Evilzeo-AeriePeak|r",
 			[51] = 1577784745,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [1]
 		{
 			"5 min", -- [1]
 			"Greendreamz-GrimBatol", -- [2]
@@ -1185,7 +63,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greendreamz-GrimBatol|r",
 			[51] = 1577784752,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [2]
 		{
 			"only?", -- [1]
 			"Evilzeo-AeriePeak", -- [2]
@@ -1207,7 +85,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Evilzeo-AeriePeak|r",
 			[51] = 1577784759,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [3]
 		{
 			"yup", -- [1]
 			"Greendreamz-GrimBatol", -- [2]
@@ -1229,7 +107,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greendreamz-GrimBatol|r",
 			[51] = 1577784763,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [4]
 		{
 			"yeah horde are slacking", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1251,7 +129,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784768,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [5]
 		{
 			"how is it it losing, horde can always get ahead at start, we missed a push on frostwolf gy to cap faster thats all", -- [1]
 			"Kuroh-AeriePeak", -- [2]
@@ -1273,7 +151,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Kuroh-AeriePeak|r",
 			[51] = 1577784816,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [6]
 		{
 			"Capping: Dun Baldar North Bunker - 3:06 (Horde)", -- [1]
 			"Silni-Quel'Thalas", -- [2]
@@ -1295,7 +173,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSilni-Quel'Thalas|r",
 			[51] = 1577784818,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [7]
 		{
 			"50k exp ticks :D", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1317,7 +195,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784841,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [8]
 		{
 			"hate you", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1339,7 +217,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784861,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [9]
 		{
 			"i get 10k", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1361,7 +239,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784874,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [10]
 		{
 			"at what level?", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1383,7 +261,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784891,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [11]
 		{
 			"82", -- [1]
 			"Andrasté-Doomhammer", -- [2]
@@ -1405,7 +283,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Andrasté-Doomhammer|r",
 			[51] = 1577784902,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [12]
 		{
 			"Arh", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1427,7 +305,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784904,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [13]
 		{
 			"possible to recap bunkers?", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -1449,7 +327,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577784906,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [14]
 		{
 			"well i probably wouldn't get more than 18k at 82", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1471,7 +349,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577784928,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [15]
 		{
 			"time on fw gy ?", -- [1]
 			"Greendreamz-GrimBatol", -- [2]
@@ -1493,7 +371,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greendreamz-GrimBatol|r",
 			[51] = 1577784974,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [16]
 		{
 			"40s", -- [1]
 			"Lanciena-BurningBlade", -- [2]
@@ -1515,7 +393,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Lanciena-BurningBlade|r",
 			[51] = 1577784992,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [17]
 		{
 			"thx", -- [1]
 			"Greendreamz-GrimBatol", -- [2]
@@ -1537,7 +415,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Greendreamz-GrimBatol|r",
 			[51] = 1577784997,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [18]
 		{
 			"120 :D", -- [1]
 			"Fiveshotbot-Turalyon", -- [2]
@@ -1559,7 +437,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fiveshotbot-Turalyon|r",
 			[51] = 1577785149,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [19]
 		{
 			"gg", -- [1]
 			"Shortai-AzjolNerub", -- [2]
@@ -1581,7 +459,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Shortai-AzjolNerub|r",
 			[51] = 1577785151,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [20]
 		{
 			"tower Q any1?", -- [1]
 			"Nievae-ArgentDawn", -- [2]
@@ -1603,7 +481,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNievae-ArgentDawn|r",
 			[51] = 1577785332,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [21]
 		{
 			"happy nye everyone", -- [1]
 			"Ashbeck-Ravencrest", -- [2]
@@ -1625,7 +503,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ashbeck-Ravencrest|r",
 			[51] = 1577785411,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [22]
 		{
 			"Same to you mate", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1647,7 +525,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577785419,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [23]
 		{
 			"You as well!", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -1669,7 +547,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577785420,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [24]
 		{
 			"tower q?", -- [1]
 			"Nievae-ArgentDawn", -- [2]
@@ -1691,7 +569,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNievae-ArgentDawn|r",
 			[51] = 1577785561,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [25]
 		{
 			"2 rogues defending their base, cant backdoor cap", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -1713,7 +591,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577785798,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [26]
 		{
 			"lets go for last two towers", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -1735,7 +613,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577785918,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [27]
 		{
 			"the faster we get them the better chance we have to win", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -1757,7 +635,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577785930,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [28]
 		{
 			"why do we never take IB GY ?", -- [1]
 			"Nievae-ArgentDawn", -- [2]
@@ -1779,7 +657,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNievae-ArgentDawn|r",
 			[51] = 1577785937,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [29]
 		{
 			"NOt worth taking", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1801,7 +679,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577785951,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [30]
 		{
 			"but its closest to the next one and towers.. like SH GY is for the horde", -- [1]
 			"Nievae-ArgentDawn", -- [2]
@@ -1823,7 +701,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecNievae-ArgentDawn|r",
 			[51] = 1577785978,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [31]
 		{
 			"horde spawn in the way if you take IB gy", -- [1]
 			"Kuroh-AeriePeak", -- [2]
@@ -1845,7 +723,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Kuroh-AeriePeak|r",
 			[51] = 1577785987,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [32]
 		{
 			"towers should be taken before gy even caps, so you need next gy taken to move on fast", -- [1]
 			"Kuroh-AeriePeak", -- [2]
@@ -1867,7 +745,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Kuroh-AeriePeak|r",
 			[51] = 1577786008,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [33]
 		{
 			"Let's BD relief hut", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1889,7 +767,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786049,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [34]
 		{
 			"Guys, don't go straight in ", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1911,7 +789,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786163,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [35]
 		{
 			"BD it ", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -1933,7 +811,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786164,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [36]
 		{
 			"Cap cap", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -1955,7 +833,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577786213,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [37]
 		{
 			"Good push all", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -1977,7 +855,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577786282,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [38]
 		{
 			"make sure to defend the towers, they have a bunch of rogues", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -1999,7 +877,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577786302,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [39]
 		{
 			"we are behind atm", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2021,7 +899,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786313,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [40]
 		{
 			"they assaulted bunkers earlier", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2043,7 +921,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786320,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [41]
 		{
 			"than us", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2065,7 +943,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786321,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [42]
 		{
 			"Well this map is soooo horde favoured", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -2087,7 +965,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786340,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [43]
 		{
 			"The horde bias is insane", -- [1]
 			"Aurorianius-Silvermoon", -- [2]
@@ -2109,7 +987,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAurorianius|r",
 			[51] = 1577786356,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [44]
 		{
 			"go INTO KEEP", -- [1]
 			"Thorlan-Silvermoon", -- [2]
@@ -2131,7 +1009,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThorlan|r",
 			[51] = 1577786367,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [45]
 		{
 			"they defended quite well", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2153,7 +1031,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786387,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+		}, -- [46]
 		{
 			"why they capped our bunkers", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2175,7 +1053,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786391,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [47]
 		{
 			"tbf", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2197,7 +1075,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786393,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [99]
+		}, -- [48]
 		{
 			"not just about the map", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2219,7 +1097,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786398,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [100]
+		}, -- [49]
 		{
 			"If its relatively even, Horde wins. ", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -2241,7 +1119,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577786424,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [101]
+		}, -- [50]
 		{
 			"OOM", -- [1]
 			"Thorlan-Silvermoon", -- [2]
@@ -2263,7 +1141,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThorlan|r",
 			[51] = 1577786451,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [102]
+		}, -- [51]
 		{
 			"GO TO THE BOSS", -- [1]
 			"Ephelmeras-ArgentDawn", -- [2]
@@ -2285,7 +1163,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEphelmeras-ArgentDawn|r",
 			[51] = 1577786499,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
+		}, -- [52]
 		{
 			"All Drek", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -2307,7 +1185,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577786505,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [104]
+		}, -- [53]
 		{
 			"Start?", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -2329,7 +1207,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577786513,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [54]
 		{
 			"Vanndar 20%", -- [1]
 			"Sarethra-ArgentDawn", -- [2]
@@ -2351,7 +1229,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sarethra-ArgentDawn|r",
 			[51] = 1577786549,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [55]
 		{
 			"gg ", -- [1]
 			"Shortai-AzjolNerub", -- [2]
@@ -2373,7 +1251,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Shortai-AzjolNerub|r",
 			[51] = 1577786584,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [107]
+		}, -- [56]
 		{
 			"gg still", -- [1]
 			"Mukamitlu-Bronzebeard", -- [2]
@@ -2395,7 +1273,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mukamitlu-Bronzebeard|r",
 			[51] = 1577786584,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [108]
+		}, -- [57]
 		{
 			"y he gives xp and q", -- [1]
 			"Crually-BurningBlade", -- [2]
@@ -2417,7 +1295,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Crually-BurningBlade|r",
 			[51] = 1577794402,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [109]
+		}, -- [58]
 		{
 			"go korrak", -- [1]
 			"Nälu-Ragnaros", -- [2]
@@ -2439,7 +1317,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Nälu-Ragnaros|r",
 			[51] = 1577794420,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [110]
+		}, -- [59]
 		{
 			"nice korrak dead", -- [1]
 			"Crually-BurningBlade", -- [2]
@@ -2461,7 +1339,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Crually-BurningBlade|r",
 			[51] = 1577794633,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [111]
+		}, -- [60]
 		{
 			"ignoring IT?", -- [1]
 			"Twínblades-Turalyon", -- [2]
@@ -2483,7 +1361,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Twínblades-Turalyon|r",
 			[51] = 1577794634,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [112]
+		}, -- [61]
 		{
 			"really no one gets to defend base vs rogues?>", -- [1]
 			"Farmertank-Sylvanas", -- [2]
@@ -2505,7 +1383,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Farmertank-Sylvanas|r",
 			[51] = 1577794722,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [113]
+		}, -- [62]
 		{
 			"im coming", -- [1]
 			"Ainsoalgown-Outland", -- [2]
@@ -2527,7 +1405,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecAinsoalgown-Outland|r",
 			[51] = 1577794732,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [114]
+		}, -- [63]
 		{
 			"just wanted korak kill", -- [1]
 			"Ainsoalgown-Outland", -- [2]
@@ -2549,7 +1427,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecAinsoalgown-Outland|r",
 			[51] = 1577794742,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [115]
+		}, -- [64]
 		{
 			"brez me", -- [1]
 			"Predattor-Ravencrest", -- [2]
@@ -2571,7 +1449,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Predattor-Ravencrest|r",
 			[51] = 1577795075,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [116]
+		}, -- [65]
 		{
 			"I am heals", -- [1]
 			"Predattor-Ravencrest", -- [2]
@@ -2593,7 +1471,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Predattor-Ravencrest|r",
 			[51] = 1577795078,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [117]
+		}, -- [66]
 		{
 			"nooo", -- [1]
 			"Predattor-Ravencrest", -- [2]
@@ -2615,7 +1493,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Predattor-Ravencrest|r",
 			[51] = 1577795083,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [118]
+		}, -- [67]
 		{
 			"lol Hogger", -- [1]
 			"Thorlan-Silvermoon", -- [2]
@@ -2637,7 +1515,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThorlan|r",
 			[51] = 1577795296,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [119]
+		}, -- [68]
 		{
 			"about this groups ability", -- [1]
 			"Bállbag-Silvermoon", -- [2]
@@ -2659,7 +1537,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBállbag|r",
 			[51] = 1577795356,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [69]
 		{
 			"what timewalking for this event ?", -- [1]
 			"Gilgasmesh-Ravencrest", -- [2]
@@ -2681,7 +1559,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Gilgasmesh-Ravencrest|r",
 			[51] = 1577795986,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [121]
+		}, -- [70]
 		{
 			"FOR MAX LEVEL!", -- [1]
 			"Thorlan-Silvermoon", -- [2]
@@ -2703,7 +1581,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThorlan|r",
 			[51] = 1577796024,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [122]
+		}, -- [71]
 		{
 			"FISKEN is afker, report him as soon as possible", -- [1]
 			"Serenetka-BurningLegion", -- [2]
@@ -2725,7 +1603,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecSerenetka-BurningLegion|r",
 			[51] = 1577796031,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [123]
+		}, -- [72]
 		{
 			"!@#$ing mage....", -- [1]
 			"Grissóm-ArgentDawn", -- [2]
@@ -2747,7 +1625,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrissóm-ArgentDawn|r",
 			[51] = 1577796050,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [124]
+		}, -- [73]
 		{
 			"i know but what expansion", -- [1]
 			"Gilgasmesh-Ravencrest", -- [2]
@@ -2769,7 +1647,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Gilgasmesh-Ravencrest|r",
 			[51] = 1577796051,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [74]
 		{
 			"he will stay in barrack doing nothen", -- [1]
 			"Serenetka-BurningLegion", -- [2]
@@ -2791,7 +1669,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecSerenetka-BurningLegion|r",
 			[51] = 1577796053,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [126]
+		}, -- [75]
 		{
 			"3-5 people should instantly rush Frostwolf Graveyard. By rushing it instead of towers we will prevent the people who dies to respawn back in DB. This will result in us overcrowding the hordes south and then automatically be able to cap the rest of the bas", -- [1]
 			"Hiira-Ravencrest", -- [2]
@@ -2813,6 +1691,1128 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Hiira-Ravencrest|r",
 			[51] = 1577796061,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [76]
+		{
+			"can anyone activate oronu pls?", -- [1]
+			"Azubiel-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Nazjatar", -- [4]
+			"Azubiel-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Nazjatar", -- [9]
+			0, -- [10]
+			518, -- [11]
+			"Player-3391-0A5A5689", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Azubiel|r",
+			[51] = 1578646466,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"<NBC>Selling M+10 for 90k ONLY!! and +15 for 220k, also +16/17/18/19/20(IN TIME)! Buy at least 2xM+10 for FREE ARMOR 180k  (Only180k)!  ,TEP Mythic/HC 8/8! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount!2v2 easy Rate UP!/w for info", -- [1]
+			"Aranay-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aranay-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			582, -- [11]
+			"Player-3391-0ACB5EB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecAranay|r",
+			[51] = 1578646889,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"<Veni Vidi WTH> poszukuje graczy do raidowania i mythic+. Skladamy sie z aktywnych i doswiadczonych raiderow. Gramy bez spiny i w dobrej atmosferze. Wymagamy kultury osobistej, znajomosci klasy i przygotowania do raidow. Zapraszamy|cffffd100|HclubFinder:ClubFinder-1-29923-3391-83937965|h[Guild: Veni Vidi WTH]|h|r", -- [1]
+			"Camalo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Camalo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			583, -- [11]
+			"Player-3391-0A650053", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Camalo|r",
+			[51] = 1578646890,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"<NBC> Selling M+10 for 90k / 2 Run +10 =180k with stack armor free +15 for 220k, also +16/17(IN TIME)! Raid EP hc Personal loot 150k , take advantage of the offer! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount! Gold Only. /w for info", -- [1]
+			"Novaboosters-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novaboosters-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			584, -- [11]
+			"Player-3391-0AB6BFD5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Novaboosters|r",
+			[51] = 1578646898,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"WTB any amounts |cff1eff00|Hitem:152510::::::::120:577::::::|h[Anchor Weed]|h|r 60g COD or /w for instant trade in SW ", -- [1]
+			"Dabrodh-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dabrodh-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			616, -- [11]
+			"Player-3391-08971C08", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Dabrodh|r",
+			[51] = 1578647245,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"<NBC>Selling M+10 for 90k ONLY!! and +15 for 220k, also +16/17/18/19/20(IN TIME)! Buy at least 2xM+10 for FREE ARMOR 180k  (Only180k)!  ,TEP Mythic/HC 8/8! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount!2v2 easy Rate UP!/w for info", -- [1]
+			"Aranay-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aranay-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			617, -- [11]
+			"Player-3391-0ACB5EB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecAranay|r",
+			[51] = 1578647249,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"Selling ALCHEMY PROFESSION LEVELING KIT 1-300 VANILLA. Level your ALCHEMY in 10 MINS  /w me for info :)", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1606, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042180,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"[WTS] Eternal Palace Heroic BOOST Tonight. Get NEW ilvl 430+ gear, Curve Achieve & Essences. Choose from up to 10 Guild runs every day. We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1607, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042185,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"Selling M+ 10-20. Receive ALL items we can trade and one 440+ item in your next Weekly Chest. Specific keys/ Armor Stack and package deals available! Interested? Gold accepted on any realm /w me for more info.", -- [1]
+			"Ghankdmog-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ghankdmog-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1611, -- [11]
+			"Player-3391-0A2A7400", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGhankdmog|r",
+			[51] = 1579042195,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"Ljisica-Silvermoon there is no alchemy 300, fk off and make some honest gold", -- [1]
+			"Axxishex-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Axxishex-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1616, -- [11]
+			"Player-3391-06807E99", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Axxishex|r",
+			[51] = 1579042209,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"Uhhh there is", -- [1]
+			"Snafoo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snafoo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1621, -- [11]
+			"Player-3391-0A9ED248", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Snafoo|r",
+			[51] = 1579042219,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"Old world alchemy", -- [1]
+			"Snafoo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snafoo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1623, -- [11]
+			"Player-3391-0A9ED248", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Snafoo|r",
+			[51] = 1579042221,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"yessir.", -- [1]
+			"Kekett-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kekett-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1625, -- [11]
+			"Player-3391-0A5C9C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kekett|r",
+			[51] = 1579042231,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"WTS LOTS OF |cff0070dd|Hitem:160053::::::::120:72::::::|h[Battle-Scarred Augment Rune]|h|r", -- [1]
+			"Ehrorag-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ehrorag-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1626, -- [11]
+			"Player-3391-0A4CE3E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cEhrorag|r",
+			[51] = 1579042232,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"Vanilla special idiot :D", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1627, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042235,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"who cares about that?", -- [1]
+			"Axxishex-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Axxishex-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1630, -- [11]
+			"Player-3391-06807E99", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Axxishex|r",
+			[51] = 1579042239,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"^", -- [1]
+			"Kekett-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kekett-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1631, -- [11]
+			"Player-3391-0A5C9C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kekett|r",
+			[51] = 1579042240,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"<Just Some Muppets> is a new guild from a group of experienced long term friends. We're building a small team for some easy heroic raiding in 8.3 and onwards. Currently prioritizing Ele Shamans, Mages, and DHs. Raid days; Sun + Mon 20:30-23:00 ST.", -- [1]
+			"Sevgrim-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sevgrim-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1632, -- [11]
+			"Player-3391-0A1EC832", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cSevgrim|r",
+			[51] = 1579042242,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"[WTS] Mythic+ runs, +10/+15/+20 key CARRY. You will get ilvl 430-455+ Gear, Titan Residuum, RIO score, Essences & tons of Azerite. Start right now! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1637, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042246,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"it's something you need to choose your mastery", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1650, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042255,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"People who want old recipes? completionists? people who know that there is more to a prof than just the bfa levels?", -- [1]
+			"Snafoo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snafoo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1654, -- [11]
+			"Player-3391-0A9ED248", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Snafoo|r",
+			[51] = 1579042262,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"obviously someone does or he wouldn't be selling it ", -- [1]
+			"Ettgar-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ettgar-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1667, -- [11]
+			"Player-3391-0AD431E4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeEttgar|r",
+			[51] = 1579042269,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"wts |cffa335ee|Hitem:163574::::::::120:102::::::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r 230k", -- [1]
+			"Natraeth-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Natraeth-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1673, -- [11]
+			"Player-3391-088F2DE2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Natraeth|r",
+			[51] = 1579042275,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"People who want procs on Living steel, truegold and lots other things", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1683, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042289,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"Ye let them do what they wanna do. We aint %^&*!ing on you are we? Oh we are. pardon me.", -- [1]
+			"Kekett-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kekett-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1687, -- [11]
+			"Player-3391-0A5C9C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kekett|r",
+			[51] = 1579042291,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [101]
+		{
+			":D", -- [1]
+			"Snafoo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snafoo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1699, -- [11]
+			"Player-3391-0A9ED248", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Snafoo|r",
+			[51] = 1579042299,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"<Oblivion Boost Community> is opening Prebookings for the Ny'alotha HEROIC raid on personal loot. Get your curve first week! Interested? /w me for more information or prices!", -- [1]
+			"Ghankdmog-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ghankdmog-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1700, -- [11]
+			"Player-3391-0A2A7400", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGhankdmog|r",
+			[51] = 1579042306,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"[WTS] Fast lvling to 120 in 4 hours, Pathfinder, Essences, Allied races, Glories, Mounts, Reputations, World Quests, Expeditions & other BOOSTS! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1701, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042306,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"^^", -- [1]
+			"Kekett-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kekett-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1702, -- [11]
+			"Player-3391-0A5C9C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kekett|r",
+			[51] = 1579042308,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"Kekett scammer wtf, there is no @#$%^ing", -- [1]
+			"Snafoo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snafoo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1703, -- [11]
+			"Player-3391-0A9ED248", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Snafoo|r",
+			[51] = 1579042308,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"wts 230K|cffa335ee|Hitem:163574::::::::120:102::::::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r", -- [1]
+			"Natraeth-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Natraeth-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1704, -- [11]
+			"Player-3391-088F2DE2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Natraeth|r",
+			[51] = 1579042312,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"lol", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1705, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042320,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"the hyps is real 8.3 is less than a day", -- [1]
+			"Ragestrider-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragestrider-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1706, -- [11]
+			"Player-3391-0997EDD3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cRagestrider|r",
+			[51] = 1579042326,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"THERE IS! JUST READ MAN! FFS! JESUS &*!@ING HELL! WTF SNAFOO! ^^", -- [1]
+			"Kekett-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kekett-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1707, -- [11]
+			"Player-3391-0A5C9C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kekett|r",
+			[51] = 1579042326,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"hey mates! <Triade> is a new guild focus on the fun of the game without slacking. Want to hop on a fresh project, aim for a lot of guild achievements with friends, join a focused raiding team? wisp me, we might be the perfect fit for you.", -- [1]
+			"Dostoievski-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dostoievski-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1708, -- [11]
+			"Player-3391-09BF5459", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeDostoievski|r",
+			[51] = 1579042340,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"I don't get triggered, but good to learn thing or two you didn't know here and there :D", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1709, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042345,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"just chillin ^^ Dw.", -- [1]
+			"Kekett-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kekett-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1710, -- [11]
+			"Player-3391-0A5C9C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kekett|r",
+			[51] = 1579042352,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"Selling ALCHEMY PROFESSION LEVELING KIT 1-300 VANILLA. Level your ALCHEMY in 10 MINS  /w me for info :)", -- [1]
+			"Ljisica-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ljisica-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1711, -- [11]
+			"Player-3391-068B3084", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ljisica|r",
+			[51] = 1579042366,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"[WTS] Eternal Palace Heroic BOOST Tonight. Get NEW ilvl 430+ gear, Curve Achieve & Essences. Choose from up to 10 Guild runs every day. We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1712, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042367,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"is 8,3 any good ? didnt check any of it'", -- [1]
+			"Kainu-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kainu-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1714, -- [11]
+			"Player-3391-0A1EF912", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Kainu|r",
+			[51] = 1579042372,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"8.3 will be out tomorrow in EU I think", -- [1]
+			"Ërika-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ërika-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1715, -- [11]
+			"Player-3391-0AD44476", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Ërika|r",
+			[51] = 1579042385,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"its not out for eu yet. gotta wait till tomorrow afternoon", -- [1]
+			"Kekett-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kekett-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1716, -- [11]
+			"Player-3391-0A5C9C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kekett|r",
+			[51] = 1579042387,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"i think so ", -- [1]
+			"Strausz-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Strausz-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1717, -- [11]
+			"Player-3391-0ABBF3C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Strausz|r",
+			[51] = 1579042389,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"More stuff to do, which isn't a bad thing", -- [1]
+			"Snafoo-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snafoo-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1718, -- [11]
+			"Player-3391-0A9ED248", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Snafoo|r",
+			[51] = 1579042394,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-26923-3391-83731965|h[Guild: serenïty]|h|r  Is Recruiting Members For 8.3 Heroic And Mythic Raiding Clear , Our Raiding Schedule Is Wed/Sunday 8:30-11;30ST, Mythic+ And Socials are also welcomed /w for info", -- [1]
+			"Lille-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lille-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1720, -- [11]
+			"Player-3391-0AC682C1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Lille|r",
+			[51] = 1579042406,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"i know its tomorrow,asking about content stuff", -- [1]
+			"Kainu-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kainu-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1721, -- [11]
+			"Player-3391-0A1EF912", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Kainu|r",
+			[51] = 1579042407,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"Kek, what do u mean afternoon?", -- [1]
+			"Ehrorag-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ehrorag-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1722, -- [11]
+			"Player-3391-0A4CE3E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cEhrorag|r",
+			[51] = 1579042409,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"It's fun for a little while because we get higher item lvls and... I dunno thats it i guess", -- [1]
+			"Nightsting-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nightsting-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1723, -- [11]
+			"Player-3391-0AB960AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Nightsting|r",
+			[51] = 1579042421,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"whats the fastest way to get to darkshore?", -- [1]
+			"Témplàr-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - Boralus Harbor", -- [4]
+			"Témplàr-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Boralus Harbor", -- [9]
+			0, -- [10]
+			1724, -- [11]
+			"Player-3391-082787D3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Témplàr|r",
+			[51] = 1579042422,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"[WTS] Mythic+ runs, +10/+15/+20 key CARRY. You will get ilvl 430-455+ Gear, Titan Residuum, RIO score, Essences & tons of Azerite. Start right now! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Igehotino-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Igehotino-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1725, -- [11]
+			"Player-3391-0AD41807", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cIgehotino|r",
+			[51] = 1579042427,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"legendary cloak quest, some vision instances, better than chillin at ah all day", -- [1]
+			"Kekett-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kekett-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1726, -- [11]
+			"Player-3391-0A5C9C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Kekett|r",
+			[51] = 1579042430,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

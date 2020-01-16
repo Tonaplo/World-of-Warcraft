@@ -235,16 +235,22 @@ end
 
 (function()
 	local tradeSkillSpecializationMap = {
-		-- Engineering Skills
-		[202] = { 
-				  20219,    -- Gnomish Engineering
-		          20222     -- Goblin Engineering
-				}
+		[202] = {	-- Engineering
+			20219,    -- Gnomish Engineering
+			20222     -- Goblin Engineering
+		},
+		[164] = {	-- Blacksmithing
+			9788,	-- Armorsmith
+			9787,	-- Weaponsmith
+		},
 	};
 	local specializationTradeSkillMap = {
 		-- Engineering Skills
 		[20219] = 202,  -- Gnomish Engineering
-		[20222] = 202   -- Goblin Engineering
+		[20222] = 202,   -- Goblin Engineering
+		-- Blacksmithing Skills
+		[9788] = 9788,	-- Armorsmith
+		[9787] = 9787,	-- Weaponsmith
 	};
 	-- Map all Skill IDs to the old Skill IDs
 	local tradeSkillMap = {
@@ -1586,6 +1592,22 @@ subroutines = {
 			{"where", "npcID", headerID2 },	-- Select the Season header
 			{"pop"},	-- Discard the Season header and acquire the children.
 			{"where", "npcID", headerID3 },	-- Select the Set header
+			{"pop"},	-- Discard the Set header and acquire the children.
+			{"where", "npcID", -319 },	-- Select the "Weapons" header.
+			{"pop"},	-- Discard the class header and acquire the children.
+			{"is", "itemID"},
+			{"is", "f"},	-- If it has a filterID, keep it, otherwise throw it away.
+		};
+	end,
+	["pvp_weapons_faction_ensemble"] = function(headerID1, headerID2, headerID3, headerID4)
+		return {
+			{"select", "npcID", headerID1 },	-- Select the Expansion header
+			{"pop"},	-- Discard the Expansion header and acquire the children.
+			{"where", "npcID", headerID2 },	-- Select the Season header
+			{"pop"},	-- Discard the Season header and acquire the children.
+			{"where", "npcID", headerID3 },	-- Select the Faction header
+			{"pop"},	-- Discard the Season header and acquire the children.
+			{"where", "npcID", headerID4 },	-- Select the Set header
 			{"pop"},	-- Discard the Set header and acquire the children.
 			{"where", "npcID", -319 },	-- Select the "Weapons" header.
 			{"pop"},	-- Discard the class header and acquire the children.
@@ -3042,12 +3064,6 @@ fieldConverters = {
 			end
 		end
 	end,
-	["altQuests"] = function(group, value)
-		_cache = rawget(fieldConverters, "questID");
-		for i,questID in ipairs(value) do
-			_cache(group, questID);
-		end
-	end,
 	["maps"] = function(group, value)
 		_cache = rawget(fieldConverters, "mapID");
 		for i,mapID in ipairs(value) do
@@ -4238,13 +4254,20 @@ app.BaseAchievementCriteria = {
 			return app.CollectibleAchievements;
 		elseif key == "saved" or key == "collected" then
 			if t.criteriaID then
+				local achCollected = 0
 				if app.Settings:Get("AccountWide:Achievements") then
-					local ach = GetDataSubMember("CollectedAchievements", t.achievementID);
-					if ach == 1 then return true end
+					achCollected = GetDataSubMember("CollectedAchievements", t.achievementID);
+				else
+					achCollected = select(app.AchievementCharCompletedIndex, GetAchievementInfo(t.achievementID))
 				end
-				local m = GetAchievementNumCriteria(t.achievementID);
-				if m and t.criteriaID <= m then
-					return select(3, GetAchievementCriteriaInfo(t.achievementID, t.criteriaID, true));
+				
+				if achCollected then
+					return true
+				else
+					local m = GetAchievementNumCriteria(t.achievementID);
+					if m and t.criteriaID <= m then
+						return select(3, GetAchievementCriteriaInfo(t.achievementID, t.criteriaID, true));
+					end
 				end
 			end
 		elseif key == "index" then
@@ -4907,7 +4930,7 @@ end)();
 				return "Interface\\Addons\\AllTheThings\\assets\\fp_neutral";
 			else
 				-- Something that isn't dynamic.
-				return table[key];
+				return rawget(t.info, key);
 			end
 		end
 	};
@@ -6189,6 +6212,15 @@ local SkillIDToSpellID = setmetatable({
 	[393] = 8613,	-- Skinning
 	[197] = 3908,	-- Tailoring
 	[960] = 53428,  -- Runeforging
+	
+	-- Specializations
+	[20219] = 20219,	-- Gnomish Engineering
+	[20222] = 20222,	-- Goblin Engineering
+	[9788] = 9788,		-- Armorsmith
+	[9787] = 9787,		-- Weaponsmith
+	[17041] = 17041,	-- Master Axesmith
+	[17040] = 17040,	-- Master Hammersmith
+	[17039] = 17039,	-- Master Swordsmith
 }, {__index = function(t,k) return(106727) end})
 app.BaseProfession = {
 	__index = function(t, key)
@@ -9097,11 +9129,13 @@ local function RowOnEnter(self)
 					local sqs = SearchForField("questID", sourceQuestID);
 					if sqs and #sqs > 0 then
 						local sq = sqs[1];
-						if IsQuestFlaggedCompletedForObject(sq) ~= 1 then
-							if sq.isBreadcrumb then
-								table.insert(bc, sqs[1]);
-							else
-								table.insert(prereqs, sqs[1]);
+						if sq and app.ClassRequirementFilter(sq) and app.RaceRequirementFilter(sq) then
+							if IsQuestFlaggedCompletedForObject(sq) ~= 1 then
+								if sq.isBreadcrumb then
+									table.insert(bc, sqs[1]);
+								else
+									table.insert(prereqs, sqs[1]);
+								end
 							end
 						end
 					elseif not IsQuestFlaggedCompleted(sourceQuestID) then
@@ -10226,22 +10260,12 @@ app:GetWindow("Bounty", UIParent, function(self, force, got)
 					end,
 				}),
 				app.CreateInstance(745, { 	-- Karazhan (Raid)
-					['description'] = "The reward chest for completing the Chess Event in Karazhan is currently not interactable since 8.2. All items found within it are now considered Unobtainable.",
+					['description'] = "The reward chest for completing the Chess Event in Karazhan has been fixed!",
 					['isRaid'] = true,
-					['g'] = {
-						app.CreateItemSource(12700, 28749),	-- King's Defender
-						app.CreateItemSource(12704, 28754),	-- Triptych Shield of the Ancients
-						app.CreateItemSource(12706, 28756),	-- Headdress of the High Potentate
-						app.CreateItem(28745),	-- Mithril Chain of Heroism
-						app.CreateItemSource(12705, 28755),	-- Bladed Shoulderpads of the Merciless
-						app.CreateItemSource(12701, 28750),	-- Girdle of Treachery
-						app.CreateItemSource(12702, 28751),	-- Heart-Flame Leggings
-						app.CreateItemSource(12699, 28748),	-- Legplates of the Innocent
-						app.CreateItemSource(12698, 28747),	-- Battlescar Boots
-						app.CreateItemSource(12697, 28746),	-- Fiend Slayer Boots
-						app.CreateItemSource(12703, 28752),	-- Forestlord Striders
-						app.CreateItem(28753),	-- Ring of Recurrence
-					},
+					['visible'] = true,
+					['OnUpdate'] = function(data) 
+						data.visible = true;
+					end,
 				}),
 				app.CreateInstance(228, {	-- Blackrock Depths
 					['description'] = "Ebonsteel Spaulders have been hotfixed! All of the items previously marked Unobtainable from General Angerforge have been fixed and confirmed as dropping once again!",
@@ -10381,6 +10405,19 @@ app.events.COMBAT_LOG_EVENT_UNFILTERED = function()
 	local _,event = CombatLogGetCurrentEventInfo();
 	if event == "UNIT_DIED" or event == "UNIT_DESTROYED" then
 		RefreshQuestCompletionState()
+	end
+end
+-- This event is helpful for world objects used as treasures. Won't help with objects without rewards (e.g. cat statues in Nazjatar)
+app:RegisterEvent("LOOT_OPENED")
+app.events.LOOT_OPENED = function()
+	local guid = GetLootSourceInfo(1)
+	if guid then 
+		local type, zero, server_id, instance_id, zone_uid, npc_id, spawn_uid = strsplit("-",guid);
+		if(type == "GameObject") then
+		  local text = GameTooltipTextLeft1:GetText()
+		  print('ObjectID: '..(npc_id or 'UNKNOWN').. ' || ' .. 'Name: ' .. (text or 'UNKNOWN'))
+		  RefreshQuestCompletionState()
+	   end
 	end
 end
 app:GetWindow("Debugger", UIParent, function(self)
@@ -11705,7 +11742,13 @@ app:GetWindow("RaidAssistant", UIParent, function(self)
 			if g.OnUpdate then g.OnUpdate(g); end
 		end
 		BuildGroups(self.data, self.data.g);
+		
+		-- Update the groups without forcing Debug Mode.
+		local visibilityFilter = app.VisibilityFilter;
+		app.VisibilityFilter = app.ObjectVisibilityFilter;
+		BuildGroups(self.data, self.data.g);
 		UpdateWindow(self, true);
+		app.VisibilityFilter = visibilityFilter;
 	end
 end);
 app:GetWindow("Random", UIParent, function(self)
@@ -13747,7 +13790,7 @@ app.OpenAuctionModule = function(self)
 			window:Update();
 			
 			-- Change the message!
-			frame.descriptionLabel:SetText("Got the datas!\n\nShift Left click into the search bar on the Browse tab to look for items!");
+			frame.descriptionLabel:SetText("Got the data!\n\nShift + Left click items in the ATT menu while on the AH Browse tab to search for the item!");
 			frame.descriptionLabel:Show();
 		end
 		local ProcessAuctions = function()
@@ -14257,6 +14300,8 @@ app.events.VARIABLES_LOADED = function()
 		{ 12516, { 51813, 53351, 53342, 53352, 51474, 53566 } },	-- Allied Races: Dark Iron Dwarf
 		{ 12451, { 49698, 49266, 50071 } },	-- Allied Races: Lightforged Draenei 
 		{ 13157, { 54706, 55039, 55043, 54708, 54721, 54723, 54725, 54726, 54727, 54728, 54730, 54731, 54729, 54732, 55136, 54733, 54734, 54735, 54851, 53720 } },	-- Allied Races: Kul Tiran
+		{ 14013, { 57486, 57487, 57488, 57490, 57491, 57492, 57493, 57494, 57496, 57495, 57497 } },	-- Allied Races: Mechagnome
+		{ 13206, { 53870, 53889, 53890, 53891, 53892, 53893, 53894, 53895, 53897, 53898, 54026, 53899, 58087, 53901, 53900, 53902, 54027, 53903, 53904, 53905, 54036, 53906, 53907, 53908, 57448 } },	-- Allied Races: Vulpera
 	}) do
 		-- If you completed the achievement, then mark the associated quests.
 		if select(4, GetAchievementInfo(achievementQuests[1])) then
@@ -14355,6 +14400,7 @@ app.events.VARIABLES_LOADED = function()
 		"RandomSearchFilter",
 		"Reagents",
 		"RefreshedCollectionsAlready",
+		"ToyCacheRebuilt",
 		"SeasonalFilters",
 		"Sets",
 		"SourceSets",
@@ -14412,6 +14458,14 @@ app.events.VARIABLES_LOADED = function()
 		app:RegisterEvent("ARTIFACT_UPDATE");
 		app:RegisterEvent("TOYS_UPDATED");
 		app.IsReady = true;
+		
+		-- Rebuild toy collection. This should only happen once to fix toy collection states from a bug prior 14.January.2020
+		local toyCacheRebuilt = GetDataMember("ToyCacheRebuilt")
+		if not toyCacheRebuilt then
+			SetDataMember("ToyCacheRebuilt", true)
+			wipe(GetDataMember("CollectedToys", {}))
+			RefreshCollections()
+		end
 		
 		-- NOTE: The auto refresh only happens once.
 		if not app.autoRefreshedCollections then
@@ -14608,7 +14662,7 @@ app.events.PLAYER_DIFFICULTY_CHANGED = function()
 	wipe(searchCache);
 end
 app.events.TOYS_UPDATED = function(itemID, new)
-	if itemID and not GetDataSubMember("CollectedToys", itemID) then
+	if itemID and PlayerHasToy(itemID) and not GetDataSubMember("CollectedToys", itemID) then
 		SetDataSubMember("CollectedToys", itemID, true);
 		app:RefreshData(false, true);
 		app:PlayFanfare();

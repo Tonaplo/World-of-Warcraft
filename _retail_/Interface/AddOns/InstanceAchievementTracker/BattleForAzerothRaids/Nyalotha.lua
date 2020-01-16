@@ -45,6 +45,7 @@ local voidWokenPlayers = {}
 local voidWokenInTimeWindow = false
 local darkCollapseCast = false
 local voidOrbCounter = 0
+local voidWokenPlayerCheck = false
 
 ------------------------------------------------------
 ---- Vexiona
@@ -54,9 +55,10 @@ local inititalVexionaSetup = false
 local playersWithThirtyStacks = 0
 
 function core._2217:WrathionTheBlackEmperor()
-	core.MobCounter:Setup(10, 10, "160291")
-	core.MobCounter:DetectSpawnedMob()
-	core.MobCounter:DetectKilledMob()
+	--Defeat Wrathion in Ny'alotha, the Waking City after defeating 10 Crackling Shards within 3 seconds of each other on Normal difficulty or higher.
+	if core:getBlizzardTrackingStatus(14019) == true then
+        core:getAchievementSuccess()
+    end
 end
 
 function core._2217:ProphetSkitra()
@@ -119,6 +121,7 @@ function core._2217:DarkInquisitorXanesh()
 
 	--Detected if orb was returned within the 3 second time window
 	if #voidWokenPlayers > 0 then
+		voidWokenPlayerCheck = true
 		core:sendDebugMessage("Detected players in voidWokenPlayers table")
 		for index, player in pairs(voidWokenPlayers) do
 			core:sendDebugMessage("Found " .. player .. " at " .. index)
@@ -133,17 +136,24 @@ function core._2217:DarkInquisitorXanesh()
 				end
 			end
 		end
-	elseif #voidWokenPlayers == 0 then
-		--All players have lost the buff. Lets check if orb was placed successfully or not
-		C_Timer.After(3, function() 
-			if darkCollapseCast == false and voidWokenInTimeWindow == true then
-				voidOrbCounter = voidOrbCounter + 1
-				core:sendMessage(core:getAchievement() .. " " .. GetSpellLink(264908) .. " " .. L["Core_Counter"] .. " (" .. voidOrbCounter .. "/3)",true)
-			end
+	end
+	
+	if #voidWokenPlayers == 0 then
+		if voidWokenPlayerCheck == true then
+			core:sendDebugMessage("Checking if orb was returned or not")
+			voidWokenPlayerCheck = false
+			--All players have lost the buff. Lets check if orb was placed successfully or not
+			C_Timer.After(3, function() 
+				if darkCollapseCast == false and voidWokenInTimeWindow == true then
+					core:sendDebugMessage("Orb was returned successfully")
+					voidOrbCounter = voidOrbCounter + 1
+					core:sendMessage(core:getAchievement() .. " " .. GetSpellLink(264908) .. " " .. L["Core_Counter"] .. " (" .. voidOrbCounter .. "/3)",true)
+				end
 
-			darkCollapseCast = false
-			voidWokenInTimeWindow = false
-		end)
+				darkCollapseCast = false
+				voidWokenInTimeWindow = false
+			end)
+		end	
 	end
 end
 
@@ -239,9 +249,17 @@ function core._2217:Vexiona()
 end
 
 function core._2217:Maut()
-	if core.type == "UNIT_DIED" and core.destID == "160271" then
-		core:getAchievementSuccess()
-	end
+	--Defeat Maut in Ny'alotha, the Waking City after defeating a Forbidden Manifestation on Normal difficulty or higher.
+	if core:getBlizzardTrackingStatus(14008) == true then
+        core:getAchievementSuccess()
+    end
+end
+
+function core._2217:Raden()
+	--Defeat Ra-den in Ny'alotha, the Waking City after destroying 2 obelisks with Unstable Void on Normal difficulty or higher.
+	if core:getBlizzardTrackingStatus(13999) == true then
+        core:getAchievementSuccess()
+    end
 end
 
 function core._2217:CarapaceOfNZoth()
@@ -261,6 +279,18 @@ function core._2217:NZothTheCorruptor()
 		giftOfNZothUID[core.spawn_uid_dest_Player] = core.spawn_uid_dest_Player
 		core:sendMessage(core.destName .. " " .. L["Shared_HasGained"] .. " " .. GetSpellLink(313609) .. " (" .. giftOfNZothCounter .. "/" .. core.groupSize .. ")",true)
 		InfoFrame_SetPlayerComplete(UnitName(core.destName))
+	end
+
+	--If player dies this will fail the achievement
+	if core.type == "UNIT_DIED" and core.destName ~= nil then
+		if UnitIsPlayer(core.destName) then
+			core:getAchievementFailedWithMessageAfter(core.destName)
+		end
+	end
+
+	--Announce success once everyone has had the debuff at some point during the fight
+	if giftOfNZothCounter == core.groupSize then
+		core:getAchievementSuccess()
 	end
 end
 
@@ -299,6 +329,15 @@ function core._2217:ClearVariables()
 	playerAnnihilationStacks = {}
 	inititalVexionaSetup = false
 	playersWithThirtyStacks = 0
+
+	------------------------------------------------------
+	---- Dark Inquisitor Xanesh
+	------------------------------------------------------
+	voidWokenPlayers = {}
+	voidWokenInTimeWindow = false
+	darkCollapseCast = false
+	voidOrbCounter = 0
+	voidWokenPlayerCheck = false
 end
 
 function core._2217:InstanceCleanup()
